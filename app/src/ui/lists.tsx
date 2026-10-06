@@ -84,8 +84,8 @@ interface SectionToggleProps {
   meta?: ReactNode
   open: boolean
   onToggle: () => void
-  /** Extra tappable node before the caret (e.g. "See All"). */
-  action?: ReactNode
+  /** Extra tappable link before the caret (e.g. "See All"). */
+  action?: { label: string; onClick: () => void }
 }
 /** Collapsible section header: bold title, count on the right, caret that rotates when closed. */
 export function SectionToggle({ title, meta, open, onToggle, action }: SectionToggleProps) {
@@ -94,14 +94,18 @@ export function SectionToggle({ title, meta, open, onToggle, action }: SectionTo
       <button type="button" className={s.toggle} aria-expanded={open} onClick={onToggle}>
         <h2 className={s.toggleTitle}>{title}</h2>
         <span className={s.toggleMeta}>
-          {action && <span style={{ visibility: 'hidden' }}>{action}</span>}
+          {action && <span aria-hidden className={s.toggleAction} style={{ visibility: 'hidden' }}>{action.label}</span>}
           {meta != null && <span>{meta}</span>}
           <span className={cx(s.toggleCaret, !open && s.toggleCaretClosed)}>
             <Icon name="caret-down" weight="bold" size={16} color="var(--label-tertiary)" />
           </span>
         </span>
       </button>
-      {action && <span style={{ position: 'absolute', right: 46, bottom: 14 }}>{action}</span>}
+      {action && (
+        <button type="button" className={s.toggleAction} style={{ position: 'absolute', right: 46, bottom: 14 }} onClick={action.onClick}>
+          {action.label}
+        </button>
+      )}
     </div>
   )
 }

@@ -50,6 +50,7 @@ export default defineConfig({
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),
       '@content': fileURLToPath(new URL('../content', import.meta.url)),
+      '@shared': fileURLToPath(new URL('../supabase/functions/_shared', import.meta.url)),
     },
   },
   server: { port: 5173, strictPort: true, fs: { allow: ['..'] } },

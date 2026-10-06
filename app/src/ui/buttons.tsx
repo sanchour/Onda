@@ -74,3 +74,13 @@ export function Button({ children, variant = 'primary', size = 'lg', fullWidth, 
     </button>
   )
 }
+
+/** A link that looks like a Button, for destinations the OS must open itself (webcal://, shortcut links). */
+export function LinkButton({ href, children, variant = 'primary', icon, external }: { href: string; children: ReactNode; variant?: ButtonProps['variant']; icon?: string; external?: boolean }) {
+  return (
+    <a href={href} className={cx(s.btn, s.btnLg, VARIANT[variant ?? 'primary'], s.btnFull)} {...(external ? { target: '_blank', rel: 'noreferrer' } : {})}>
+      {icon && <Icon name={icon} weight="bold" size={18} />}
+      {children}
+    </a>
+  )
+}

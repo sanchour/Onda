@@ -9,6 +9,7 @@ import navCss from '@/nav/nav.module.css'
 import { useNav, type Tab } from '@/nav/store'
 import { Menu } from '@/ui/Menu'
 import { TabBar } from '@/ui/TabBar'
+import { useSync } from '@/sync/useSync'
 import { ROUTES, SHEETS } from './registry'
 import { Overlays } from './Overlays'
 
@@ -114,6 +115,7 @@ export function App() {
   const closeMenu = useNav((n) => n.closeMenu)
   const overlay = useNav((n) => n.sheets.length > 0 || !!n.menu)
   useShell()
+  useSync()
 
   useEffect(() => {
     void init()
@@ -121,11 +123,19 @@ export function App() {
 
   useEffect(() => {
     if (!ready) return
-    const tab = new URLSearchParams(location.search).get('tab')
+    const q = new URLSearchParams(location.search)
+    const tab = q.get('tab')
     if (tab === 'lagos' || tab === 'ondas' || tab === 'stats') useNav.getState().setTab(tab)
+    // ?seed=demo loads the demo data set (Stoicism day 4 of 14, five Lagos)
+    if (q.get('seed') === 'demo') {
+      void import('@/data/seed').then((m) => m.loadDemoSeed()).then(() => {
+        history.replaceState(null, '', location.pathname)
+        useNav.getState().popToRoot('ondas')
+      }).catch((e) => console.error('[onda] demo seed failed', e))
+    }
     // Warm every Onda's content once the app is idle so all of it works offline after first load.
-    const idle = window.requestIdleCallback ?? ((fn: () => void) => setTimeout(fn, 1500))
-    idle(() => preloadAllOndas())
+    if ('requestIdleCallback' in window) window.requestIdleCallback(() => preloadAllOndas())
+    else setTimeout(preloadAllOndas, 1500)
   }, [ready])
 
   if (!ready) return null

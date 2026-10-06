@@ -4,6 +4,7 @@ import type { OndaContent } from '@/content/schema'
 import { addDays, now, todayStr, type DateStr } from '@/lib/dates'
 import { setHapticsEnabled } from '@/lib/haptics'
 import { detId, uuid } from '@/lib/ids'
+import { backendConfigured } from '@/sync/supabase'
 import { db, getMeta, setMeta } from './db'
 import { earnedAchievements, type AchievementKey } from './derive/achievements'
 import { mergeRecord, stamp } from './merge'
@@ -101,13 +102,15 @@ export const useStore = create<AppState>()((set, get) => {
       const copy = i >= 0 ? list.map((r, j) => (j === i ? rec : r)) : [...list, rec]
       set({ [collection]: copy, dirty: s.dirty + 1 } as unknown as Partial<AppState>)
     }
-    void db
-      .transaction('rw', db.table(collection), db.outbox, async () => {
-        await db.table(collection).put(rec)
-        await db.outbox.where('[collection+id]').equals([collection, rec.id]).delete()
-        await db.outbox.add({ collection, id: rec.id })
-      })
-      .catch((e) => console.error('[onda] write failed', collection, e))
+    // Without a sync server there is nothing to queue for: the first sync after one is configured uploads everything.
+    const saved = backendConfigured
+      ? db.transaction('rw', db.table(collection), db.outbox, async () => {
+          await db.table(collection).put(rec)
+          await db.outbox.where('[collection+id]').equals([collection, rec.id]).delete()
+          await db.outbox.add({ collection, id: rec.id })
+        })
+      : db.table(collection).put(rec)
+    void Promise.resolve(saved).catch((e) => console.error('[onda] write failed', collection, e))
     return rec
   }
   const remove = <K extends Exclude<Collection, 'user'>>(collection: K, id: string) => {

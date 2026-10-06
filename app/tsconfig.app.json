@@ -33,11 +33,15 @@
       ],
       "@content/*": [
         "../content/*"
+      ],
+      "@shared/*": [
+        "../supabase/functions/_shared/*"
       ]
     }
   },
   "include": [
-    "src"
+    "src",
+    "../supabase/functions/_shared"
   ],
   "exclude": [
     "src/sw.ts"

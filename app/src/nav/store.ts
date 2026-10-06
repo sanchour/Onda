@@ -13,7 +13,7 @@ export type Route =
   | { name: 'top' }
   | { name: 'lago'; id: string }
   | { name: 'allOndas' }
-  | { name: 'onda'; id: string }
+  | { name: 'onda'; id: string; length?: number }
   | { name: 'immersion' }
   | { name: 'reflection' }
   | { name: 'done'; ondaId: string; kept: number }
@@ -25,7 +25,7 @@ export type SheetRoute =
   | { name: 'lagoForm'; editId?: string }
   | { name: 'lagoInfo'; info: GalleryLago }
   | { name: 'journalList' }
-  | { name: 'journalEdit' }
+  | { name: 'journalEdit'; day?: number; fromList?: boolean }
   | { name: 'philosophy' }
   | { name: 'guide'; ondaId: string }
   | { name: 'createOnda' }

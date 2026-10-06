@@ -1,0 +1,26 @@
+node_modules/
+dist/
+dev-dist/
+.env
+.env.*
+!.env.example
+*.local
+.DS_Store
+test-results/
+playwright-report/
+.lighthouseci/
+coverage/
+supabase/.temp/
+supabase/.branches/
+
+# Claude Design export originals (canonical copies live in /design-reference)
+/OndaApp.dc.html
+/Onda Board.dc.html
+/onda-data.js
+/support.js
+/_ds/
+/uploads/
+/.thumbnail
+/github.md
+/CLAUDE_CODE_PROMPT.md
+.claude/

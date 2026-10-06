@@ -1,0 +1,37 @@
+/* Data-viz palette, dark theme and flat-chrome scope. */
+:root{
+    --viz-blue:#A9C4F7; --viz-coral:#FFB19C; --viz-yellow:#FDDF9A; --viz-green:#9FD9B8; --viz-purple:#B7A8F0;
+  --viz-blue-strong:#4F8EF7; --viz-coral-strong:#F2745A; --viz-yellow-strong:#E8B93A; --viz-green-strong:#3FA877; --viz-purple-strong:#7F6BE0;
+  --viz-track:#F0F0F1;
+  --viz-ink:#000000;
+  --mood-red:#EE5A57; --mood-yellow:#F7D56B; --mood-green:#7FDDA0; --mood-blue:#7C93F2;
+  --font-serif:"Newsreader","Iowan Old Style",Georgia,serif;
+  --font-display-wide:"Unbounded","Krona One",var(--font-sans);
+  --font-body-alt:"DM Sans",var(--font-sans);
+}
+/* Dark appearance — put data-theme="dark" on any screen root. */
+[data-theme="dark"]{
+  --label:#F4F4F5; --label-secondary:#9C9CA2; --label-tertiary:#6F6F75; --label-quaternary:#4A4A4F; --placeholder:#6F6F75;
+  --surface-page:#121212; --surface-grouped:#121212; --surface-card:#1E1E1E; --surface-fill:#2E2E30; --surface-fill-strong:#3A3A3D;
+  --surface-inverse:#FFFFFF; --separator:#2C2C2E; --scrim:rgba(0,0,0,0.55);
+  --accent:#FFFFFF; --accent-contrast:#000000; --surface-entries:#121212;
+  --glass-fill:rgba(44,44,46,0.60); --glass-fill-strong:rgba(44,44,46,0.86); --glass-fill-dim:rgba(30,30,32,0.8);
+  --glass-stroke:0.5px solid rgba(255,255,255,0.14); --glass-border:0.5px solid rgba(255,255,255,0.16); /* @kind other */
+  --glass-shadow:0 1px 2px rgba(0,0,0,0.3), 0 6px 16px rgba(0,0,0,0.35), 0 16px 40px rgba(0,0,0,0.4);
+  --glass-lens-fill:rgba(255,255,255,0.16); --glass-lens-shadow:0 1px 3px rgba(0,0,0,0.4), 0 4px 14px rgba(0,0,0,0.3), inset 0 1px 0 rgba(255,255,255,0.22); --glass-track:rgba(235,235,245,0.14);
+  --glass-highlight:inset 0 1px 0 rgba(255,255,255,0.1), inset 0 -1px 0 rgba(0,0,0,0.2); /* @kind shadow */
+  --shadow-glass:var(--glass-shadow); --shadow-menu:0 18px 50px rgba(0,0,0,0.6);
+  --viz-blue:#4F8EF7; --viz-coral:#FF8A65; --viz-yellow:#FFD25A; --viz-green:#5BBA87; --viz-purple:#9F8BF0; --viz-track:#2E2E30;
+}
+/* Flat chrome (Android-leaning / content-dense apps): DM Sans, edge-to-edge bottom bar, 20px cards. */
+[data-chrome="flat"]{--font-sans:"DM Sans",-apple-system,BlinkMacSystemFont,system-ui,Roboto,sans-serif;--radius-card:20px;--tracking-body:0;--tracking-title:0}
+/* Dark + tint: re-assert the app accent (same specificity as the dark scope, declared after it). */
+[data-theme="dark"][data-tint="indigo"]{--accent:var(--indigo);--accent-contrast:#FFFFFF}
+[data-theme="dark"][data-tint="yellow"]{--accent:var(--yellow);--accent-contrast:#FFFFFF}
+/* Reduced transparency: glass becomes a solid surface, no backdrop-filter. */
+@media (prefers-reduced-transparency:reduce){:root,[data-theme="dark"]{--glass-blur:none; /* @kind other */
+--glass-blur-heavy:none; /* @kind other */}:root{--glass-fill:#F7F7F9;--glass-fill-strong:#FFFFFF;--glass-fill-dim:#ECECF0;--glass-lens-fill:#FFFFFF;--glass-track:#E4E4E8}[data-theme="dark"]{--glass-fill:#2A2A2C;--glass-fill-strong:#2E2E30;--glass-fill-dim:#242426;--glass-lens-fill:#48484B;--glass-track:#3A3A3D}}
+[data-reduce-transparency]{--glass-blur:none; /* @kind other */
+--glass-blur-heavy:none; /* @kind other */
+--glass-fill:#F7F7F9;--glass-fill-strong:#FFFFFF;--glass-fill-dim:#ECECF0;--glass-lens-fill:#FFFFFF;--glass-track:#E4E4E8}
+[data-theme="dark"][data-reduce-transparency]{--glass-fill:#2A2A2C;--glass-fill-strong:#2E2E30;--glass-fill-dim:#242426;--glass-lens-fill:#48484B;--glass-track:#3A3A3D}

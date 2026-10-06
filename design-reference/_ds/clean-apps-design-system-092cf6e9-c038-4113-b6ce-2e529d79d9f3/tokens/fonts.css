@@ -1,0 +1,9 @@
+/* System-first type. On Apple devices the stack resolves to SF Pro (not redistributable);
+   on Android it resolves to Roboto. Inter is loaded as the web fallback — nearest Google Fonts match to SF Pro. */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Unbounded:wght@600;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600;6..72,700&display=swap");
+/* Icons: Phosphor (CDN) — substitute for SF Symbols / Material Symbols. Regular, Bold and Fill weights. */
+@import url("https://unpkg.com/@phosphor-icons/web@2.1.1/src/regular/style.css");
+@import url("https://unpkg.com/@phosphor-icons/web@2.1.1/src/bold/style.css");
+@import url("https://unpkg.com/@phosphor-icons/web@2.1.1/src/fill/style.css");

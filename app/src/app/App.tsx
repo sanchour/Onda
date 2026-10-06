@@ -1,0 +1,157 @@
+import { Suspense, lazy, useEffect, useLayoutEffect, useRef } from 'react'
+import { useTranslation } from 'react-i18next'
+import { preloadAllOndas } from '@/content'
+import { useDark, useSettings } from '@/data/hooks'
+import { useStore } from '@/data/store'
+import { EASE_ENTER, PUSH_MS, reducedMotion } from '@/lib/motion'
+import { Navigator } from '@/nav/Navigator'
+import navCss from '@/nav/nav.module.css'
+import { useNav, type Tab } from '@/nav/store'
+import { Menu } from '@/ui/Menu'
+import { TabBar } from '@/ui/TabBar'
+import { ROUTES, SHEETS } from './registry'
+import { Overlays } from './Overlays'
+
+const Onboarding = lazy(() => import('@/screens/Onboarding'))
+const LagosTab = lazy(() => import('@/screens/LagosTab'))
+const OndasTab = lazy(() => import('@/screens/OndasTab'))
+const StatsTab = lazy(() => import('@/screens/StatsTab'))
+
+const TABS: Record<Tab, React.LazyExoticComponent<() => React.ReactNode>> = { lagos: LagosTab, ondas: OndasTab, stats: StatsTab }
+
+function Tabs() {
+  const { t } = useTranslation()
+  const tab = useNav((n) => n.tab)
+  const setTab = useNav((n) => n.setTab)
+  const pane = useRef<HTMLDivElement>(null)
+  const first = useRef(true)
+  const Current = TABS[tab]
+
+  useLayoutEffect(() => {
+    if (first.current) {
+      first.current = false
+      return
+    }
+    pane.current?.animate([{ opacity: 0.4 }, { opacity: 1 }], { duration: reducedMotion() ? 120 : PUSH_MS, easing: EASE_ENTER })
+  }, [tab])
+
+  return (
+    <>
+      <div ref={pane} className={navCss.tabPane} role="tabpanel">
+        <Suspense fallback={null}>
+          <Current />
+        </Suspense>
+      </div>
+      <div className={navCss.tabBarWrap}>
+        <TabBar<Tab>
+          items={[
+            { key: 'lagos', icon: 'wave-sine', label: t('tabs.lagos') },
+            { key: 'ondas', icon: 'waves', label: t('tabs.ondas') },
+            { key: 'stats', icon: 'chart-bar', label: t('tabs.stats') },
+          ]}
+          activeKey={tab}
+          onChange={setTab}
+        />
+      </div>
+    </>
+  )
+}
+
+function SheetHost() {
+  const sheets = useNav((n) => n.sheets)
+  return (
+    <Suspense fallback={null}>
+      {sheets.map((entry) => {
+        const C = SHEETS[entry.name] as React.ComponentType<{ entry: typeof entry }>
+        return <C key={entry.key} entry={entry} />
+      })}
+    </Suspense>
+  )
+}
+
+/** Keeps the document in step with the app: appearance, status bar style, keyboard inset and the calendar day. */
+function useShell() {
+  const dark = useDark()
+  const mode = useSettings().themeMode
+  const tick = useStore((s) => s.tick)
+
+  useLayoutEffect(() => {
+    const root = document.documentElement
+    root.dataset.theme = dark ? 'dark' : 'light'
+    const bg = dark ? '#121212' : '#F1F2F6'
+    document.querySelector('meta[name="theme-color"]')?.setAttribute('content', bg)
+    document.querySelector('meta[name="apple-mobile-web-app-status-bar-style"]')?.setAttribute('content', dark ? 'black-translucent' : 'default')
+    try {
+      localStorage.setItem('onda.theme', mode)
+    } catch {
+      /* private mode */
+    }
+  }, [dark, mode])
+
+  useEffect(() => {
+    // On-screen keyboard height, so sheets can keep the focused field visible
+    const vv = window.visualViewport
+    const onVV = () => document.documentElement.style.setProperty('--kb', `${Math.max(0, window.innerHeight - (vv?.height ?? window.innerHeight) - (vv?.offsetTop ?? 0))}px`)
+    vv?.addEventListener('resize', onVV)
+    vv?.addEventListener('scroll', onVV)
+    const onVisible = () => document.visibilityState === 'visible' && tick()
+    document.addEventListener('visibilitychange', onVisible)
+    const timer = setInterval(tick, 60_000)
+    return () => {
+      vv?.removeEventListener('resize', onVV)
+      vv?.removeEventListener('scroll', onVV)
+      document.removeEventListener('visibilitychange', onVisible)
+      clearInterval(timer)
+    }
+  }, [tick])
+}
+
+export function App() {
+  const ready = useStore((s) => s.ready)
+  const init = useStore((s) => s.init)
+  const onboarded = useStore((s) => s.user?.settings.onboarded)
+  const menu = useNav((n) => n.menu)
+  const closeMenu = useNav((n) => n.closeMenu)
+  const overlay = useNav((n) => n.sheets.length > 0 || !!n.menu)
+  useShell()
+
+  useEffect(() => {
+    void init()
+  }, [init])
+
+  useEffect(() => {
+    if (!ready) return
+    const tab = new URLSearchParams(location.search).get('tab')
+    if (tab === 'lagos' || tab === 'ondas' || tab === 'stats') useNav.getState().setTab(tab)
+    // Warm every Onda's content once the app is idle so all of it works offline after first load.
+    const idle = window.requestIdleCallback ?? ((fn: () => void) => setTimeout(fn, 1500))
+    idle(() => preloadAllOndas())
+  }, [ready])
+
+  if (!ready) return null
+
+  return (
+    <div style={{ position: 'absolute', inset: 0 }} data-overlay={overlay ? '1' : undefined}>
+      {onboarded ? (
+        <Navigator
+          root={<Tabs />}
+          renderRoute={(entry) => {
+            const C = ROUTES[entry.name] as React.ComponentType<{ entry: typeof entry }>
+            return (
+              <Suspense fallback={null}>
+                <C entry={entry} />
+              </Suspense>
+            )
+          }}
+        />
+      ) : (
+        <Suspense fallback={null}>
+          <Onboarding />
+        </Suspense>
+      )}
+      <SheetHost />
+      {menu && <Menu spec={menu} onClose={closeMenu} />}
+      <Overlays />
+    </div>
+  )
+}

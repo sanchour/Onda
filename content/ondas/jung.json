@@ -1,0 +1,402 @@
+{
+  "version": 1,
+  "id": "jung",
+  "name": "Jungian Individuation",
+  "origin": "Zurich",
+  "tone": "blue",
+  "icon": "moon-stars",
+  "line": "Meet your shadow through dreams and symbols.",
+  "era": "1910s to today",
+  "font": "Libre Caslon Text",
+  "pattern": "dots",
+  "glyph": "Ψ",
+  "quote": {
+    "text": "Who looks outside, dreams; who looks inside, awakes.",
+    "by": "Carl Jung",
+    "source": ""
+  },
+  "quotes": [],
+  "words": [
+    {
+      "id": "word-shadow",
+      "term": "Shadow",
+      "meaning": "What you disown in yourself"
+    },
+    {
+      "id": "word-persona",
+      "term": "Persona",
+      "meaning": "The mask you show"
+    },
+    {
+      "id": "word-anima-and-animus",
+      "term": "Anima and animus",
+      "meaning": "The inner other"
+    },
+    {
+      "id": "word-individuation",
+      "term": "Individuation",
+      "meaning": "Becoming whole"
+    },
+    {
+      "id": "word-archetype",
+      "term": "Archetype",
+      "meaning": "A shared pattern of experience"
+    },
+    {
+      "id": "word-synchronicity",
+      "term": "Synchronicity",
+      "meaning": "Meaningful coincidence"
+    },
+    {
+      "id": "word-self",
+      "term": "Self",
+      "meaning": "The center and totality of the psyche"
+    }
+  ],
+  "practices": [
+    {
+      "id": "record-a-dream",
+      "name": "Record a dream",
+      "icon": "moon-stars",
+      "slot": "Morning",
+      "time": "06:45",
+      "meta": "Morning · On waking",
+      "instructions": "",
+      "why": "",
+      "variations": []
+    },
+    {
+      "id": "active-imagination",
+      "name": "Active imagination",
+      "icon": "brain",
+      "slot": "Afternoon",
+      "time": "15:00",
+      "minutes": 20,
+      "meta": "Afternoon · 20 min",
+      "instructions": "",
+      "why": "",
+      "variations": []
+    },
+    {
+      "id": "draw-a-mandala",
+      "name": "Draw a mandala",
+      "icon": "circle-dashed",
+      "slot": "Evening",
+      "time": "19:30",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "",
+      "why": "",
+      "variations": []
+    },
+    {
+      "id": "shadow-note",
+      "name": "Shadow note",
+      "icon": "notebook",
+      "slot": "Evening",
+      "time": "21:30",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "",
+      "why": "",
+      "variations": []
+    }
+  ],
+  "tasks": [
+    {
+      "id": "read-a-chapter-of-man-and-his-symbols",
+      "name": "Read a chapter of Man and His Symbols",
+      "meta": "One sitting",
+      "time": "13:00",
+      "slot": "Afternoon"
+    },
+    {
+      "id": "notice-one-projection",
+      "name": "Notice one projection",
+      "meta": "Who bothered you, and why?",
+      "time": "18:00",
+      "slot": "Evening"
+    }
+  ],
+  "rules": [
+    {
+      "id": "r1",
+      "text": "Write dreams before anything else",
+      "why": ""
+    },
+    {
+      "id": "r2",
+      "text": "Do not judge an image. Describe it.",
+      "why": ""
+    },
+    {
+      "id": "r3",
+      "text": "Name one projection a day",
+      "why": ""
+    },
+    {
+      "id": "r4",
+      "text": "No scrolling for an hour before sleep",
+      "why": ""
+    }
+  ],
+  "immerse": {
+    "read": [
+      {
+        "id": "read-man-and-his-symbols",
+        "title": "Man and His Symbols",
+        "creator": "Jung and colleagues",
+        "why": ""
+      },
+      {
+        "id": "read-memories-dreams-reflections",
+        "title": "Memories, Dreams, Reflections",
+        "creator": "Autobiography",
+        "why": ""
+      },
+      {
+        "id": "read-modern-man-in-search-of-a-soul",
+        "title": "Modern Man in Search of a Soul",
+        "creator": "Essays",
+        "why": ""
+      }
+    ],
+    "watch": [
+      {
+        "id": "watch-a-dangerous-method-2011",
+        "title": "A Dangerous Method (2011)",
+        "creator": "Jung and Freud",
+        "why": ""
+      },
+      {
+        "id": "watch-matter-of-heart-1986",
+        "title": "Matter of Heart (1986)",
+        "creator": "Documentary on Jung",
+        "why": ""
+      }
+    ],
+    "listen": [
+      {
+        "id": "listen-quiet-instrumental-music",
+        "title": "Quiet instrumental music",
+        "creator": "For active imagination",
+        "why": ""
+      },
+      {
+        "id": "listen-lecture-recordings-on-archetypes",
+        "title": "Lecture recordings on archetypes",
+        "creator": "Any good survey",
+        "why": ""
+      }
+    ],
+    "art": [
+      {
+        "id": "art-the-red-book",
+        "title": "The Red Book",
+        "creator": "Jung’s illuminated journal",
+        "why": ""
+      },
+      {
+        "id": "art-surrealist-painting",
+        "title": "Surrealist painting",
+        "creator": "Dalí, Ernst, Magritte",
+        "why": ""
+      }
+    ],
+    "eat": [
+      {
+        "id": "eat-rosti",
+        "title": "Rösti",
+        "creator": "Swiss potato dish",
+        "why": ""
+      },
+      {
+        "id": "eat-dark-bread-and-cheese",
+        "title": "Dark bread and cheese",
+        "creator": "Simple Swiss table",
+        "why": ""
+      },
+      {
+        "id": "eat-soup-by-the-lake",
+        "title": "Soup by the lake",
+        "creator": "Warm and plain",
+        "why": ""
+      }
+    ],
+    "drink": [
+      {
+        "id": "drink-herbal-tea",
+        "title": "Herbal tea",
+        "creator": "For the dream hour",
+        "why": ""
+      },
+      {
+        "id": "drink-a-single-glass-of-wine",
+        "title": "A single glass of wine",
+        "creator": "Slowly, with a book",
+        "why": ""
+      }
+    ],
+    "customs": [
+      {
+        "id": "customs-keep-a-dream-notebook-by-the-bed",
+        "title": "Keep a dream notebook by the bed",
+        "creator": "Write before you move",
+        "why": ""
+      },
+      {
+        "id": "customs-walk-by-water",
+        "title": "Walk by water",
+        "creator": "Jung walked by Lake Zurich",
+        "why": ""
+      },
+      {
+        "id": "customs-build-with-stone",
+        "title": "Build with stone",
+        "creator": "Jung built a tower at Bollingen",
+        "why": ""
+      }
+    ]
+  },
+  "ethics": [
+    {
+      "title": "Own your shadow",
+      "text": "What you refuse to see, you will project onto others."
+    },
+    {
+      "title": "Become whole, not perfect",
+      "text": "Jung: I would rather be whole than good."
+    },
+    {
+      "title": "Take symbols seriously",
+      "text": "Dreams and images carry meaning you did not choose."
+    }
+  ],
+  "philosophy": [
+    {
+      "title": "The unconscious is not empty",
+      "text": "It holds what you have not lived."
+    },
+    {
+      "title": "Archetypes",
+      "text": "The Hero, Mother, Trickster and Wise Old Man recur across cultures."
+    },
+    {
+      "title": "The two halves of life",
+      "text": "Morning builds the self, afternoon asks what it was for."
+    },
+    {
+      "title": "Synchronicity",
+      "text": "Inner and outer events can rhyme in meaning."
+    }
+  ],
+  "journal": [
+    "What was the last dream, and what stayed with you?",
+    "Who irritated you today, and what might that be about you?",
+    "What image keeps returning?",
+    "What part of yourself did you hide today?",
+    "What would your shadow say?",
+    "What coincidence seemed to mean something?",
+    "What are you not yet living?"
+  ],
+  "reflect": [
+    "Which part of the shadow did you meet?",
+    "Which practice changed you the most, and why?",
+    "What is your next task of individuation?"
+  ],
+  "dayThemes": [],
+  "guide": {
+    "intro": [
+      "Carl Jung was a Swiss psychiatrist who began as Freud’s heir and then went his own way. He proposed that beneath personal memory lies a collective unconscious full of shared images.",
+      "Individuation is his word for the lifelong work of becoming a whole person by meeting what you have split off."
+    ],
+    "origin": "Zurich, Switzerland",
+    "era": "1910s to today",
+    "figures": [
+      {
+        "name": "Carl Jung",
+        "dates": "",
+        "bio": "Swiss psychiatrist, 1875 to 1961."
+      },
+      {
+        "name": "Emma Jung",
+        "dates": "",
+        "bio": "Analyst and Jung’s wife, author on the Grail legend."
+      },
+      {
+        "name": "Marie-Louise von Franz",
+        "dates": "",
+        "bio": "Close collaborator on fairy tales and alchemy."
+      },
+      {
+        "name": "Wolfgang Pauli",
+        "dates": "",
+        "bio": "Physicist who worked with Jung on synchronicity."
+      }
+    ],
+    "history": [
+      {
+        "when": "1907",
+        "what": "Jung meets Freud and begins a close friendship",
+        "detail": ""
+      },
+      {
+        "when": "1913",
+        "what": "After the break with Freud, Jung begins his Red Book",
+        "detail": "He later called this the most important period of his life."
+      },
+      {
+        "when": "1921",
+        "what": "Psychological Types introduces introversion and extraversion",
+        "detail": ""
+      },
+      {
+        "when": "1950s",
+        "what": "Develops synchronicity and late work on alchemy",
+        "detail": ""
+      },
+      {
+        "when": "2009",
+        "what": "The Red Book is published",
+        "detail": ""
+      }
+    ],
+    "concepts": [
+      {
+        "term": "Complex",
+        "text": "A cluster of feelings and memories with its own charge.",
+        "detail": ""
+      },
+      {
+        "term": "Collective unconscious",
+        "text": "A shared layer of inherited patterns.",
+        "detail": ""
+      },
+      {
+        "term": "Active imagination",
+        "text": "A dialogue with images in a waking state.",
+        "detail": ""
+      },
+      {
+        "term": "Transcendent function",
+        "text": "The way opposites can join into something new.",
+        "detail": ""
+      }
+    ],
+    "facts": [
+      {
+        "text": "Jung coined the terms introvert and extravert."
+      },
+      {
+        "text": "He carved symbols in stone at his tower in Bollingen."
+      },
+      {
+        "text": "The Myers-Briggs types are based on his theory of psychological types."
+      }
+    ],
+    "glossary": [],
+    "furtherReading": [],
+    "learnFrom": [],
+    "sources": []
+  }
+}

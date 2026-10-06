@@ -1,0 +1,41 @@
+/* Spacing, sizing and radii — measured from 3x screenshots (390pt-wide device). */
+:root{
+  --space-2:2px;
+  --space-4:4px;
+  --space-6:6px;
+  --space-8:8px;
+  --space-12:12px;
+  --space-14:14px;
+  --space-16:16px;
+  --space-20:20px;
+  --space-24:24px;
+  --space-32:32px;
+  --space-40:40px;
+
+  --page-margin:16px;      /* card inset from screen edge */
+  --row-padding-x:16px;
+  --row-min-height:52px;
+  --row-icon-box:28px;
+  --row-text-inset:60px;   /* separator inset = padding + icon box + gap */
+  --section-gap:32px;
+
+  --hit-target:44px;       /* glass circle buttons */
+  --fab-size:68px;
+  --send-size:34px;
+  --tabbar-height:60px;
+  --chip-height:34px;
+  --switch-w:63px;
+  --switch-h:28px;
+  --status-circle:22px;
+  --device-w:390px;
+  --device-h:844px;
+
+  --radius-xs:8px;
+  --radius-sm:12px;
+  --radius-md:18px;
+  --radius-card:26px;      /* inset-grouped section */
+  --radius-menu:34px;
+  --radius-sheet:38px;
+  --radius-device:55px;
+  --radius-pill:999px;
+}

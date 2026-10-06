@@ -1,0 +1,45 @@
+/* Type ramp follows the iOS Dynamic Type "Large" (default) sizes, in px = pt.
+   Reference screenshots were captured at a larger accessibility size (~1.35x); scale with --type-scale. */
+:root{
+  --font-sans:-apple-system,BlinkMacSystemFont,"Inter",system-ui,Roboto,"Helvetica Neue",sans-serif;
+  --font-rounded:ui-rounded,"Inter",system-ui,sans-serif;
+  --font-mono:ui-monospace,Menlo,monospace;
+  --type-scale:1;
+
+  --weight-regular:400;
+  --weight-medium:500;
+  --weight-semibold:600;
+  --weight-bold:700;
+  --weight-heavy:800;
+
+  --size-large-title:calc(34px*var(--type-scale));
+  --size-title-1:calc(28px*var(--type-scale));
+  --size-title-2:calc(22px*var(--type-scale));
+  --size-title-3:calc(20px*var(--type-scale));
+  --size-headline:calc(17px*var(--type-scale));
+  --size-body:calc(17px*var(--type-scale));
+  --size-callout:calc(16px*var(--type-scale));
+  --size-subhead:calc(15px*var(--type-scale));
+  --size-footnote:calc(13px*var(--type-scale));
+  --size-caption-1:calc(12px*var(--type-scale));
+  --size-caption-2:calc(11px*var(--type-scale));
+  --size-stat:calc(64px*var(--type-scale));
+
+  --leading-large-title:1.2;
+  --leading-title:1.22;
+  --leading-body:1.3;
+  --leading-tight:1.15;
+
+  --tracking-display:-0.022em;
+  --tracking-title:-0.015em;
+  --tracking-body:-0.01em;
+
+  /* Semantic text roles */
+  --text-large-title:var(--weight-bold) var(--size-large-title)/var(--leading-large-title) var(--font-sans);
+  --text-nav-title:var(--weight-semibold) var(--size-headline)/var(--leading-body) var(--font-sans);
+  --text-section:var(--weight-bold) var(--size-title-3)/var(--leading-title) var(--font-sans);
+  --text-headline:var(--weight-semibold) var(--size-headline)/var(--leading-body) var(--font-sans);
+  --text-body:var(--weight-regular) var(--size-body)/var(--leading-body) var(--font-sans);
+  --text-meta:var(--weight-regular) var(--size-subhead)/var(--leading-body) var(--font-sans);
+  --text-footnote:var(--weight-regular) var(--size-footnote)/var(--leading-body) var(--font-sans);
+}

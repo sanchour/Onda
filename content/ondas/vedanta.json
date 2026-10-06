@@ -1,0 +1,408 @@
+{
+  "version": 1,
+  "id": "vedanta",
+  "name": "Vedanta",
+  "origin": "India",
+  "tone": "purple",
+  "icon": "sun-horizon",
+  "line": "Inquire into the self behind experience.",
+  "era": "c. 800 BCE to today",
+  "font": "Spectral",
+  "pattern": "rays",
+  "glyph": "ॐ",
+  "quote": {
+    "text": "Tat tvam asi: that thou art.",
+    "by": "Chandogya Upanishad",
+    "source": ""
+  },
+  "quotes": [],
+  "words": [
+    {
+      "id": "word-atman",
+      "term": "Atman",
+      "meaning": "The self"
+    },
+    {
+      "id": "word-brahman",
+      "term": "Brahman",
+      "meaning": "Ultimate reality"
+    },
+    {
+      "id": "word-neti-neti",
+      "term": "Neti neti",
+      "meaning": "Not this, not this"
+    },
+    {
+      "id": "word-moksha",
+      "term": "Moksha",
+      "meaning": "Liberation"
+    },
+    {
+      "id": "word-maya",
+      "term": "Maya",
+      "meaning": "The appearance that veils reality"
+    },
+    {
+      "id": "word-viveka",
+      "term": "Viveka",
+      "meaning": "Discrimination between real and unreal"
+    },
+    {
+      "id": "word-sat-chit-ananda",
+      "term": "Sat chit ananda",
+      "meaning": "Being, consciousness, bliss"
+    }
+  ],
+  "practices": [
+    {
+      "id": "om-chanting",
+      "name": "Om chanting",
+      "icon": "waveform",
+      "slot": "Morning",
+      "time": "06:00",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "",
+      "why": "",
+      "variations": []
+    },
+    {
+      "id": "self-inquiry-who-am-i",
+      "name": "Self-inquiry: Who am I?",
+      "icon": "question",
+      "slot": "Morning",
+      "time": "06:30",
+      "minutes": 15,
+      "meta": "Morning · 15 min",
+      "instructions": "",
+      "why": "",
+      "variations": []
+    },
+    {
+      "id": "study-of-a-verse",
+      "name": "Study of a verse",
+      "icon": "book-open-text",
+      "slot": "Afternoon",
+      "time": "15:00",
+      "minutes": 20,
+      "meta": "Afternoon · 20 min",
+      "instructions": "",
+      "why": "",
+      "variations": []
+    },
+    {
+      "id": "karma-yoga-service",
+      "name": "Karma yoga: service",
+      "icon": "hand-heart",
+      "slot": "Evening",
+      "time": "18:30",
+      "meta": "Evening · Without reward",
+      "instructions": "",
+      "why": "",
+      "variations": []
+    }
+  ],
+  "tasks": [
+    {
+      "id": "read-three-verses-of-the-gita",
+      "name": "Read three verses of the Gita",
+      "meta": "Chapter 2 first",
+      "time": "13:00",
+      "slot": "Afternoon"
+    },
+    {
+      "id": "sit-in-silence-at-sunset",
+      "name": "Sit in silence at sunset",
+      "meta": "10 minutes",
+      "time": "18:00",
+      "slot": "Evening"
+    }
+  ],
+  "rules": [
+    {
+      "id": "r1",
+      "text": "Begin the day with silence",
+      "why": ""
+    },
+    {
+      "id": "r2",
+      "text": "Act without chasing the result",
+      "why": ""
+    },
+    {
+      "id": "r3",
+      "text": "Eat simple, vegetarian food",
+      "why": ""
+    },
+    {
+      "id": "r4",
+      "text": "Do one act of service, unnoticed",
+      "why": ""
+    }
+  ],
+  "immerse": {
+    "read": [
+      {
+        "id": "read-bhagavad-gita",
+        "title": "Bhagavad Gita",
+        "creator": "Translation by Eknath Easwaran",
+        "why": ""
+      },
+      {
+        "id": "read-the-upanishads",
+        "title": "The Upanishads",
+        "creator": "Selected",
+        "why": ""
+      },
+      {
+        "id": "read-who-am-i",
+        "title": "Who Am I?",
+        "creator": "Ramana Maharshi",
+        "why": ""
+      }
+    ],
+    "watch": [
+      {
+        "id": "watch-talks-on-self-inquiry",
+        "title": "Talks on self-inquiry",
+        "creator": "Ramana Maharshi teachings",
+        "why": ""
+      },
+      {
+        "id": "watch-documentary-on-the-kumbh-mela",
+        "title": "Documentary on the Kumbh Mela",
+        "creator": "Pilgrimage in motion",
+        "why": ""
+      }
+    ],
+    "listen": [
+      {
+        "id": "listen-om-and-vedic-chanting",
+        "title": "Om and Vedic chanting",
+        "creator": "Morning recordings",
+        "why": ""
+      },
+      {
+        "id": "listen-hindustani-raga",
+        "title": "Hindustani raga",
+        "creator": "Dawn and dusk ragas",
+        "why": ""
+      }
+    ],
+    "art": [
+      {
+        "id": "art-chola-bronze-nataraja",
+        "title": "Chola bronze Nataraja",
+        "creator": "Shiva’s cosmic dance",
+        "why": ""
+      },
+      {
+        "id": "art-rangoli",
+        "title": "Rangoli",
+        "creator": "Floor art made at dawn",
+        "why": ""
+      }
+    ],
+    "eat": [
+      {
+        "id": "eat-khichdi",
+        "title": "Khichdi",
+        "creator": "Rice and lentils",
+        "why": ""
+      },
+      {
+        "id": "eat-fresh-fruit",
+        "title": "Fresh fruit",
+        "creator": "Seasonal",
+        "why": ""
+      },
+      {
+        "id": "eat-a-sattvic-meal",
+        "title": "A sattvic meal",
+        "creator": "Light, vegetarian, freshly cooked",
+        "why": ""
+      }
+    ],
+    "drink": [
+      {
+        "id": "drink-warm-turmeric-milk",
+        "title": "Warm turmeric milk",
+        "creator": "Evening",
+        "why": ""
+      },
+      {
+        "id": "drink-masala-chai",
+        "title": "Masala chai",
+        "creator": "Slow afternoon",
+        "why": ""
+      },
+      {
+        "id": "drink-buttermilk-chaas",
+        "title": "Buttermilk (chaas)",
+        "creator": "Cooling",
+        "why": ""
+      }
+    ],
+    "customs": [
+      {
+        "id": "customs-namaste",
+        "title": "Namaste",
+        "creator": "Greet the divine in the other",
+        "why": ""
+      },
+      {
+        "id": "customs-offer-food-first",
+        "title": "Offer food first",
+        "creator": "Prasad, shared blessings",
+        "why": ""
+      },
+      {
+        "id": "customs-light-a-lamp-at-dusk",
+        "title": "Light a lamp at dusk",
+        "creator": "A small evening ritual",
+        "why": ""
+      }
+    ]
+  },
+  "ethics": [
+    {
+      "title": "Non-harming (ahimsa)",
+      "text": "Avoid harm in thought, word and deed."
+    },
+    {
+      "title": "Act without clinging to fruits",
+      "text": "The Gita’s karma yoga."
+    },
+    {
+      "title": "See the self in all beings",
+      "text": "Treat others as extensions of you."
+    }
+  ],
+  "philosophy": [
+    {
+      "title": "Atman is Brahman",
+      "text": "The deepest self is not separate from reality."
+    },
+    {
+      "title": "The world as appearance",
+      "text": "Names and forms shift, being does not."
+    },
+    {
+      "title": "The witness",
+      "text": "You are the awareness behind thoughts."
+    },
+    {
+      "title": "Four aids",
+      "text": "Discrimination, dispassion, six virtues, longing for freedom."
+    }
+  ],
+  "journal": [
+    "What observed the thoughts today?",
+    "Who am I when I remove the roles?",
+    "Where did you act for the result instead of the act?",
+    "What changed when you looked from the witness?",
+    "What did you take as permanent that was not?",
+    "Whom did you serve today without recognition?",
+    "What would you give up to know yourself?"
+  ],
+  "reflect": [
+    "What stayed the same behind everything that changed?",
+    "Which practice changed you the most, and why?",
+    "How will you keep a daily moment of inquiry?"
+  ],
+  "dayThemes": [],
+  "guide": {
+    "intro": [
+      "Vedanta means the end of the Vedas. It is the philosophy drawn from the Upanishads, asking what the self really is and how to be free of suffering.",
+      "The best known school is Advaita, non-dual Vedanta. It holds that the true self and ultimate reality are one. Other schools, such as Vishishtadvaita and Dvaita, see more difference."
+    ],
+    "origin": "India",
+    "era": "c. 800 BCE to today",
+    "figures": [
+      {
+        "name": "Shankara",
+        "dates": "",
+        "bio": "8th century teacher who systematized Advaita."
+      },
+      {
+        "name": "Ramanuja",
+        "dates": "",
+        "bio": "11th century teacher of qualified non-dualism."
+      },
+      {
+        "name": "Ramakrishna",
+        "dates": "",
+        "bio": "19th century mystic of Bengal."
+      },
+      {
+        "name": "Ramana Maharshi",
+        "dates": "",
+        "bio": "20th century sage of Arunachala, teacher of self-inquiry."
+      },
+      {
+        "name": "Vivekananda",
+        "dates": "",
+        "bio": "Brought Vedanta to the West in 1893."
+      }
+    ],
+    "history": [
+      {
+        "when": "c. 800 BCE",
+        "what": "The early Upanishads are composed",
+        "detail": ""
+      },
+      {
+        "when": "c. 400 BCE",
+        "what": "The Bhagavad Gita enters the Mahabharata",
+        "detail": ""
+      },
+      {
+        "when": "8th c. CE",
+        "what": "Shankara writes commentaries and founds monastic centers",
+        "detail": ""
+      },
+      {
+        "when": "1893",
+        "what": "Vivekananda speaks at the Parliament of the World’s Religions",
+        "detail": ""
+      }
+    ],
+    "concepts": [
+      {
+        "term": "Prasthanatraya",
+        "text": "The three sources: Upanishads, Brahma Sutras, Gita.",
+        "detail": ""
+      },
+      {
+        "term": "Advaita",
+        "text": "Non-duality of self and reality.",
+        "detail": ""
+      },
+      {
+        "term": "Jnana, karma, bhakti, raja",
+        "text": "The four yogas: knowledge, action, devotion, meditation.",
+        "detail": ""
+      },
+      {
+        "term": "Turiya",
+        "text": "The fourth state beyond waking, dream and deep sleep.",
+        "detail": ""
+      }
+    ],
+    "facts": [
+      {
+        "text": "Upanishad means sitting down near a teacher."
+      },
+      {
+        "text": "The Gita is a conversation set on a battlefield."
+      },
+      {
+        "text": "Ramana asked simply, Who am I?"
+      }
+    ],
+    "glossary": [],
+    "furtherReading": [],
+    "learnFrom": [],
+    "sources": []
+  }
+}

@@ -1,0 +1,401 @@
+{
+  "version": 1,
+  "id": "stoic",
+  "name": "Stoicism",
+  "origin": "Athens & Rome",
+  "tone": "blue",
+  "icon": "bank",
+  "line": "Live by reason. Accept what is not up to you.",
+  "era": "c. 300 BCE to 180 CE, revived today",
+  "font": "Cinzel",
+  "pattern": "greek-key",
+  "glyph": "ΑΡΕΤΗ",
+  "quote": {
+    "text": "Men are disturbed not by things, but by the views which they take of them.",
+    "by": "Epictetus",
+    "source": ""
+  },
+  "quotes": [],
+  "words": [
+    {
+      "id": "word-amor-fati",
+      "term": "Amor fati",
+      "meaning": "Love of fate"
+    },
+    {
+      "id": "word-prohairesis",
+      "term": "Prohairesis",
+      "meaning": "Your power of choice"
+    },
+    {
+      "id": "word-memento-mori",
+      "term": "Memento mori",
+      "meaning": "Remember you will die"
+    },
+    {
+      "id": "word-ataraxia",
+      "term": "Ataraxia",
+      "meaning": "Untroubled calm"
+    },
+    {
+      "id": "word-eudaimonia",
+      "term": "Eudaimonia",
+      "meaning": "A flourishing life"
+    },
+    {
+      "id": "word-apatheia",
+      "term": "Apatheia",
+      "meaning": "Freedom from destructive passion"
+    },
+    {
+      "id": "word-logos",
+      "term": "Logos",
+      "meaning": "The reason that orders the world"
+    }
+  ],
+  "practices": [
+    {
+      "id": "morning-premeditation",
+      "name": "Morning premeditation",
+      "icon": "sun-horizon",
+      "slot": "Morning",
+      "time": "06:30",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "",
+      "why": "",
+      "variations": []
+    },
+    {
+      "id": "cold-shower",
+      "name": "Cold shower",
+      "icon": "shower",
+      "slot": "Morning",
+      "time": "07:00",
+      "meta": "Morning · Discomfort",
+      "instructions": "",
+      "why": "",
+      "variations": []
+    },
+    {
+      "id": "voluntary-discomfort",
+      "name": "Voluntary discomfort",
+      "icon": "fork-knife",
+      "slot": "Afternoon",
+      "time": "12:00",
+      "meta": "Midday · Fast or go without",
+      "instructions": "",
+      "why": "",
+      "variations": []
+    },
+    {
+      "id": "evening-review",
+      "name": "Evening review",
+      "icon": "moon",
+      "slot": "Evening",
+      "time": "21:30",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "",
+      "why": "",
+      "variations": []
+    }
+  ],
+  "tasks": [
+    {
+      "id": "read-one-letter-from-seneca",
+      "name": "Read one Letter from Seneca",
+      "meta": "Letters from a Stoic",
+      "time": "13:00",
+      "slot": "Afternoon"
+    },
+    {
+      "id": "write-the-view-from-above",
+      "name": "Write the view from above",
+      "meta": "One page",
+      "time": "18:00",
+      "slot": "Evening"
+    }
+  ],
+  "rules": [
+    {
+      "id": "r1",
+      "text": "Do not complain aloud",
+      "why": ""
+    },
+    {
+      "id": "r2",
+      "text": "Pause before reacting. Name the judgment.",
+      "why": ""
+    },
+    {
+      "id": "r3",
+      "text": "One voluntary discomfort a day",
+      "why": ""
+    },
+    {
+      "id": "r4",
+      "text": "Phone away during meals",
+      "why": ""
+    }
+  ],
+  "immerse": {
+    "read": [
+      {
+        "id": "read-meditations",
+        "title": "Meditations",
+        "creator": "Marcus Aurelius",
+        "why": ""
+      },
+      {
+        "id": "read-letters-from-a-stoic",
+        "title": "Letters from a Stoic",
+        "creator": "Seneca",
+        "why": ""
+      },
+      {
+        "id": "read-enchiridion",
+        "title": "Enchiridion",
+        "creator": "Epictetus",
+        "why": ""
+      },
+      {
+        "id": "read-discourses-selections",
+        "title": "Discourses (selections)",
+        "creator": "Epictetus",
+        "why": ""
+      }
+    ],
+    "watch": [
+      {
+        "id": "watch-gladiator-2000",
+        "title": "Gladiator (2000)",
+        "creator": "Marcus Aurelius on screen",
+        "why": ""
+      },
+      {
+        "id": "watch-documentary-on-roman-philosophy",
+        "title": "Documentary on Roman philosophy",
+        "creator": "Any good survey",
+        "why": ""
+      }
+    ],
+    "listen": [
+      {
+        "id": "listen-in-our-time-stoicism",
+        "title": "In Our Time: Stoicism",
+        "creator": "BBC Radio 4",
+        "why": ""
+      },
+      {
+        "id": "listen-meditations-audiobook",
+        "title": "Meditations, audiobook",
+        "creator": "One book a day",
+        "why": ""
+      }
+    ],
+    "art": [
+      {
+        "id": "art-equestrian-statue-of-marcus-aurelius",
+        "title": "Equestrian statue of Marcus Aurelius",
+        "creator": "Rome",
+        "why": ""
+      },
+      {
+        "id": "art-roman-portrait-busts",
+        "title": "Roman portrait busts",
+        "creator": "Any museum collection",
+        "why": ""
+      }
+    ],
+    "eat": [
+      {
+        "id": "eat-bread-olives-and-cheese",
+        "title": "Bread, olives and cheese",
+        "creator": "Simple, eaten slowly",
+        "why": ""
+      },
+      {
+        "id": "eat-lentil-soup",
+        "title": "Lentil soup",
+        "creator": "A plain pot",
+        "why": ""
+      },
+      {
+        "id": "eat-one-plain-meal",
+        "title": "One plain meal",
+        "creator": "No seasoning rituals",
+        "why": ""
+      }
+    ],
+    "drink": [
+      {
+        "id": "drink-water",
+        "title": "Water",
+        "creator": "Only water for a day",
+        "why": ""
+      },
+      {
+        "id": "drink-diluted-wine",
+        "title": "Diluted wine",
+        "creator": "As in the Roman world",
+        "why": ""
+      }
+    ],
+    "customs": [
+      {
+        "id": "customs-plan-for-obstacles-at-dawn",
+        "title": "Plan for obstacles at dawn",
+        "creator": "Seneca and Marcus both did",
+        "why": ""
+      },
+      {
+        "id": "customs-keep-a-commonplace-notebook",
+        "title": "Keep a commonplace notebook",
+        "creator": "Copy lines worth keeping",
+        "why": ""
+      }
+    ]
+  },
+  "ethics": [
+    {
+      "title": "Virtue is the only good",
+      "text": "Wisdom, justice, courage and moderation. Everything else is preferred or not, never good or bad."
+    },
+    {
+      "title": "We are made for each other",
+      "text": "Marcus: like hands, feet and eyelids, we exist to cooperate."
+    },
+    {
+      "title": "Accept what you cannot change",
+      "text": "Meet fate with a steady mind and do your part."
+    }
+  ],
+  "philosophy": [
+    {
+      "title": "The dichotomy of control",
+      "text": "Some things are up to you: judgment, intention, action. The rest is not."
+    },
+    {
+      "title": "The view from above",
+      "text": "Imagine your life from far overhead. Most troubles shrink."
+    },
+    {
+      "title": "Memento mori",
+      "text": "Death clarifies what matters today."
+    },
+    {
+      "title": "Premeditation of evils",
+      "text": "Rehearse what could go wrong so it cannot surprise you."
+    }
+  ],
+  "journal": [
+    "What disturbed you today: the event, or your judgment of it?",
+    "What was up to you today, and what was not?",
+    "Where did you act from virtue, even in a small way?",
+    "What obstacle did you expect, and how did it go?",
+    "Who did you treat unjustly or coldly? What would repair it?",
+    "What would you do today if it were your last?",
+    "What did you want that you do not need?"
+  ],
+  "reflect": [
+    "What did you control this Onda, and what did you only think you controlled?",
+    "Which practice changed you the most, and why?",
+    "Where did you resist, and what was the resistance protecting?"
+  ],
+  "dayThemes": [],
+  "guide": {
+    "intro": [
+      "Stoicism is a practical philosophy of life. It teaches that we suffer less from events than from the judgments we add to them, and that a good character is enough for a good life.",
+      "It began in a painted porch in Athens, grew through Rome, and sat close to emperors and slaves alike. Its lessons are exercises: things to practice, not theories to admire."
+    ],
+    "origin": "Athens, then Rome",
+    "era": "c. 300 BCE to 180 CE, revived today",
+    "figures": [
+      {
+        "name": "Zeno of Citium",
+        "dates": "",
+        "bio": "Founder. Taught at the Stoa Poikile, the painted porch that gave the school its name."
+      },
+      {
+        "name": "Seneca",
+        "dates": "",
+        "bio": "Roman statesman and playwright. Wrote letters on how to live."
+      },
+      {
+        "name": "Epictetus",
+        "dates": "",
+        "bio": "Born a slave. Taught that freedom lives in your own choices."
+      },
+      {
+        "name": "Marcus Aurelius",
+        "dates": "",
+        "bio": "Roman emperor. His private notes became the Meditations."
+      }
+    ],
+    "history": [
+      {
+        "when": "c. 300 BCE",
+        "what": "Zeno begins teaching at the Stoa Poikile in Athens",
+        "detail": "The school took its name from the porch, stoa in Greek."
+      },
+      {
+        "when": "c. 200 BCE",
+        "what": "Chrysippus systematizes Stoic logic and ethics",
+        "detail": ""
+      },
+      {
+        "when": "1st c. CE",
+        "what": "Seneca and Musonius Rufus carry Stoicism through Rome",
+        "detail": ""
+      },
+      {
+        "when": "c. 100 CE",
+        "what": "Epictetus teaches; his student Arrian records the Discourses",
+        "detail": ""
+      },
+      {
+        "when": "c. 170 CE",
+        "what": "Marcus Aurelius writes the Meditations on campaign",
+        "detail": ""
+      }
+    ],
+    "concepts": [
+      {
+        "term": "Virtue",
+        "text": "Moral excellence, the one thing fully in your control.",
+        "detail": ""
+      },
+      {
+        "term": "Indifferents",
+        "text": "Health, wealth and reputation. Preferred, but never the point.",
+        "detail": ""
+      },
+      {
+        "term": "Assent",
+        "text": "Impressions arrive uninvited. What you agree to is your choice.",
+        "detail": ""
+      },
+      {
+        "term": "Sympatheia",
+        "text": "All things are connected in one living whole.",
+        "detail": ""
+      }
+    ],
+    "facts": [
+      {
+        "text": "Epictetus was lame, and by tradition his leg was broken by his master."
+      },
+      {
+        "text": "Marcus Aurelius never meant the Meditations to be published. The title is not his."
+      },
+      {
+        "text": "The word stoic comes from the painted porch where Zeno taught."
+      }
+    ],
+    "glossary": [],
+    "furtherReading": [],
+    "learnFrom": [],
+    "sources": []
+  }
+}

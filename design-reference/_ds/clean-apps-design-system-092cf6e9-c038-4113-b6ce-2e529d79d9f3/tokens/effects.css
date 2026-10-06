@@ -1,0 +1,70 @@
+
+/* Liquid-glass material, shadows and motion. Glass + motion rules: guidelines/motion-performance.html */
+:root{
+  --glass-fill:rgba(255,255,255,0.62);
+  --glass-fill-strong:rgba(252,252,255,0.80);
+  --glass-fill-dim:rgba(236,236,240,0.78);
+  --glass-blur:blur(24px) saturate(180%); /* @kind other */
+  --glass-blur-heavy:blur(24px) saturate(180%); /* @kind other */
+  --glass-stroke:0.5px solid rgba(0,0,0,0.14);
+  --glass-border:0.5px solid rgba(0,0,0,0.12); /* @kind other */
+  --glass-highlight:inset 0 1px 0 rgba(255,255,255,0.9), inset 0 -1px 0 rgba(0,0,0,0.03); /* @kind shadow */
+  --glass-shadow:0 1px 2px rgba(0,0,0,0.04), 0 4px 12px rgba(0,0,0,0.06), 0 12px 32px rgba(0,0,0,0.08); /* @kind shadow */
+  --glass-radius:28px;
+  --glass-radius-pill:999px;
+  --glass-inset:14px; /* floating bars sit 12–16 from edges + safe area */
+  --glass-lens-fill:rgba(255,255,255,0.78); /* @kind other */
+  --glass-lens-shadow:0 1px 3px rgba(0,0,0,0.10), 0 4px 14px rgba(0,0,0,0.08), inset 0 1px 0 rgba(255,255,255,0.95); /* @kind shadow */
+  --glass-track:rgba(120,120,128,0.16); /* @kind other */
+
+  --shadow-glass:var(--glass-shadow);
+  --shadow-menu:0 18px 50px rgba(0,0,0,0.16), 0 2px 8px rgba(0,0,0,0.06);
+  --shadow-fab:0 8px 24px rgba(0,0,0,0.22);
+  --shadow-icon-tile:0 6px 20px rgba(0,0,0,0.08);
+  --shadow-none:none;
+
+  --press-scale:0.97; /* @kind other */
+  --press-duration:80ms; /* @kind other */
+  --press-opacity:0.6; /* @kind other */
+  --thumb-grow:1.08; /* @kind other */
+  --active-scale:1.05; /* @kind other */
+
+  /* Springs (physics: use on native / WAAPI via motion.jsx). CSS linear() curves below are sampled from the same physics. */
+  --spring-snappy-stiffness:400; /* @kind other */
+  --spring-snappy-damping:30; /* @kind other */
+  --spring-smooth-stiffness:220; /* @kind other */
+  --spring-smooth-damping:26; /* @kind other */
+  --spring-gentle-stiffness:120; /* @kind other */
+  --spring-gentle-damping:20; /* @kind other */
+  --spring-snappy:linear(0,0.087,0.253,0.438,0.608,0.722,0.834,0.914,0.966,0.997,1.014,1.02,1.021,1.019,1.016,1.012,1.008,1.005,1.003,1.001,1.001,1,1,1,1,1,1,1,1); /* @kind other */
+  --spring-smooth:linear(0,0.066,0.173,0.321,0.466,0.594,0.685,0.773,0.841,0.884,0.923,0.951,0.97,0.981,0.989,0.995,0.998,1,1.001,1.001,1.001,1.001,1.001,1.001,1.001,1.001,1,1,1); /* @kind other */
+  --spring-gentle:linear(0,0.049,0.151,0.274,0.398,0.497,0.601,0.689,0.761,0.819,0.865,0.901,0.928,0.949,0.962,0.974,0.982,0.988,0.992,0.995,0.997,0.998,0.999,1,1,1,1,1,1); /* @kind other */
+  --spring-snappy-ms:571ms; /* @kind other */
+  --spring-smooth-ms:667ms; /* @kind other */
+  --spring-gentle-ms:804ms; /* @kind other */
+
+  /* Duration fallbacks (CSS-only transitions) */
+  --duration-micro:120ms; /* @kind other */
+  --duration-standard:220ms; /* @kind other */
+  --duration-large:360ms; /* @kind other */
+  --ease-enter:cubic-bezier(.2,.8,.2,1); /* @kind other */
+  --ease-exit:cubic-bezier(.4,0,1,1); /* @kind other */
+
+  /* Legacy aliases — prefer the tokens above */
+  --ease-standard:var(--ease-enter); /* @kind other */
+  --ease-spring:var(--spring-snappy); /* @kind other */
+  --duration-fast:var(--duration-micro); /* @kind other */
+  --duration-base:var(--duration-standard); /* @kind other */
+  --duration-sheet:var(--duration-large); /* @kind other */
+}
+/* Glass utility: one backdrop layer per surface — never nest. */
+.glass{background:var(--glass-fill);-webkit-backdrop-filter:var(--glass-blur);backdrop-filter:var(--glass-blur);border:var(--glass-border);box-shadow:var(--glass-highlight),var(--glass-shadow);border-radius:var(--glass-radius)}
+/* Reduced motion: movement becomes a fade. */
+@media (prefers-reduced-motion:reduce){:root{
+  --press-scale:1; /* @kind other */
+  --thumb-grow:1; /* @kind other */
+  --active-scale:1; /* @kind other */
+  --duration-micro:80ms; /* @kind other */
+  --duration-standard:120ms; /* @kind other */
+  --duration-large:160ms; /* @kind other */
+}}

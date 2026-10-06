@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no" />
+    <title>Onda</title>
+    <meta name="description" content="Experiment with how you live. Habit experiments and immersive worlds of practice." />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Onda" />
+    <meta name="application-name" content="Onda" />
+    <!-- default in light; App.tsx switches this to black-translucent in dark -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="theme-color" content="#F1F2F6" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="format-detection" content="telephone=no, date=no, address=no, email=no" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png" />
+    <!--splash-->
+    <style>
+      html,body{margin:0;background:#F1F2F6}
+      @media (prefers-color-scheme:dark){html[data-theme="auto"],html[data-theme="auto"] body{background:#121212}}
+      html[data-theme="dark"],html[data-theme="dark"] body{background:#121212}
+    </style>
+    <script>
+      // Apply the saved appearance before first paint so there is no flash.
+      try { var m = localStorage.getItem('onda.theme'); if (m) document.documentElement.dataset.theme = m === 'auto' ? (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : m } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>Onda needs JavaScript to run.</noscript>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

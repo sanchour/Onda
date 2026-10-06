@@ -1,0 +1,180 @@
+/* English strings. Voice: quiet, short, Title Case labels, no emoji, no exclamation marks.
+   Keep labels to one to three words so they survive translation. */
+export const en = {
+  a11y: {
+    decrease: 'Decrease', increase: 'Increase', back: 'Back', close: 'Close', more: 'More actions', settings: 'Settings', share: 'Share',
+    checkInLago: 'Check in {{name}}', undoCheckIn: 'Undo check in for {{name}}', openLago: '{{name}}, day {{day}} of {{length}}', history: 'History',
+    previousMonth: 'Previous month', nextMonth: 'Next month', done: 'Done', notDone: 'Not done', markDone: 'Mark {{name}} done', page: 'Page {{n}} of {{total}}',
+    newEntry: 'New entry', add: 'Add', unlocked: 'Unlocked', locked: 'Locked', selected: 'Selected', length: 'Length', time: 'Time',
+  },
+  common: {
+    unitDays: 'days', cancel: 'Cancel', save: 'Save', done: 'Done', next: 'Next', back: 'Back', continue: 'Continue', close: 'Close', ok: 'OK', on: 'On', off: 'Off',
+    days_one: '{{count}} day', days_other: '{{count}} days', daysCap_one: '{{count}} Day', daysCap_other: '{{count}} Days',
+    never: 'Never', justNow: 'Just now', minAgo_one: '{{count}} min ago', minAgo_other: '{{count}} min ago', hoursAgo_one: '{{count}} hour ago', hoursAgo_other: '{{count}} hours ago',
+    today: 'Today', hour: 'Hour', minute: 'Minute', period: 'AM or PM', weekdays: ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT'], lengthDays: 'Length: {{count}} days',
+    offline: 'Offline', error: 'Something went wrong', retry: 'Try Again', copy: 'Copy', copied: 'Copied',
+  },
+  tabs: { lagos: 'Lagos', ondas: 'Ondas', stats: 'Stats' },
+  freq: { daily: 'Daily', weekdays: 'Weekdays', weekly: 'Weekly' },
+  slot: { Morning: 'Morning', Afternoon: 'Afternoon', Evening: 'Evening' },
+
+  onboarding: {
+    setUp: 'Set Up', getStarted: 'Get Started',
+    p1Title: 'Start with a Lago', p1Sub: 'Try one habit for a set number of days.',
+    p2Title: 'Step into an Onda', p2Sub: 'Live a philosophy for 7–30 days: practice, read, listen and eat like its community.',
+    p3Title: 'Keep what works', p3Sub: 'Reflect at the end, then turn practices into Lagos.',
+    c1a: 'Take cold showers', c1b: 'Morning yoga', c1c: 'Read before bed', dayDaily: 'Day {{day}} · Daily',
+    c3a: 'Morning premeditation', c3b: 'Cold shower', c3c: 'Evening review', kept: 'Kept · becomes a Lago', notKept: 'Not kept',
+    qLength: 'How long should an Onda last?', hLength: 'Ondas run 7–30 days. You can change this for each one.',
+    qTime: 'When should we remind you?', hTime: 'A daily check in for your Lagos and Onda.',
+    qPick: 'Which Onda calls you first?', hPick: 'You can run one Onda at a time.',
+  },
+
+  paywall: {
+    title: 'Ondas+', tagline: 'Live every tradition.',
+    b1: 'Every Onda', b1t: 'Ten traditions, plus your own.', b2: 'Unlimited Lagos', b2t: 'No limit on habits or check ins.',
+    b3: 'Sync everywhere', b3t: 'Reminders, Calendar and Notion.', b4: 'Complete privacy', b4t: 'No ads, no data collected, no tracking.',
+    startTrial: 'Start Free Trial', getLifetime: 'Get Lifetime · € 14,99', done: 'Done',
+    subFree: '7 days free, then lifetime access for just € 14,99', subTrial: 'Lifetime access for just € 14,99', subLife: 'You have lifetime access',
+    subTrialLeft_one: '{{count}} day left in your trial. Lifetime access for just € 14,99', subTrialLeft_other: '{{count}} days left in your trial. Lifetime access for just € 14,99',
+    subExpired: 'Your trial has ended. Lifetime access for just € 14,99',
+    restore: 'Restore', terms: 'Terms and conditions', privacy: 'Privacy policy',
+    restored: 'Purchase restored', nothingToRestore: 'No purchase found for this account', signInFirst: 'Sign in to buy or restore', checkoutUnavailable: 'Checkout is not available offline',
+    trialStarted: 'Trial started', thanks: 'Lifetime access unlocked',
+    gateLagos: 'Free includes {{count}} Lagos at a time', gateOnda: 'This Onda is part of Ondas+', gateCustom: 'Your own Ondas are part of Ondas+', gateSync: 'Integrations are part of Ondas+',
+  },
+
+  lagos: {
+    title: 'Lagos', newLago: 'New Lago', gallery: 'Gallery', today: 'Today', checkedInOf: '{{done}} of {{total}} checked in',
+    toCheckIn: 'To Check In', checkedIn: 'Checked In', notToday: 'Not Today', finished: 'Finished', dayMeta: 'Day {{day}} · {{freq}}', finishedMeta: '{{count}} days · Finished', endedMeta: 'Ended on day {{day}}',
+    empty: 'No Lagos yet', emptySub: 'Tap + to start one',
+    menu: { checkIn: 'Check In', undo: 'Undo', edit: 'Edit', end: 'End', restart: 'Restart', extend: 'Extend', share: 'Share', duplicate: 'Duplicate', delete: 'Delete' },
+    extended: 'Extended by 7 days', ended: 'Lago ended', restarted: 'Restarted from day 1', duplicated: 'Lago duplicated', deleted: 'Lago deleted', undo: 'Undo',
+    shareText: '{{name}}: day {{day}} of {{length}}, {{streak}} day streak. Tracked with Onda.',
+  },
+  lago: {
+    title: 'Lago', progress: 'Progress', progressValue: '{{day}}/{{length}} days', streak: 'Streak', checkIns: 'Check Ins', score: 'Score',
+    checkIn: 'Check In', editCheckIn: 'Edit Check In', notDueToday: 'Not scheduled today', finished: 'Finished',
+  },
+  checkin: { title: 'Check In', completed: 'Completed', missed: 'Missed', when: 'When', notePlaceholder: 'What did you notice?', addPhoto: 'Add Photo', changePhoto: 'Change Photo', removePhoto: 'Remove Photo', photoAlt: 'Check in photo' },
+  lagoForm: {
+    newTitle: 'New Lago', editTitle: 'Edit Lago', name: 'Name', why: 'Why are you trying this?', icon: 'Icon', schedule: 'Schedule', reminder: 'Reminder', time: 'Time',
+    reminderFooter: 'When enabled, a reminder arrives at the chosen time.', defaultName: 'New Lago', iconNamed: 'Icon {{n}}',
+  },
+  gallery: {
+    title: 'Gallery', topLagos: 'Top Lagos', topSub: 'Most started by the community', featured: 'Featured', startNow: 'Start Now', kicker: '{{count}} Day Lago',
+    catSub: '{{count}} Lagos to experiment with', allCategories: 'All Categories', defaultDesc: 'Try it for {{count}} days and see what changes.',
+    participants: '{{count}} Participants', endsOn: 'Lago ends on {{date}} if you start today.', disclaimer: 'This is not professional advice. Please consult an expert if you are unsure.', startLago: 'Start Lago', started: 'Lago started',
+  },
+
+  ondas: {
+    title: 'Ondas', newOnda: 'New Onda', browse: 'Browse Ondas', noRunning: 'No Onda running', noRunningSub: 'Browse the Ondas and step into one', kicker: 'Onda · {{label}}',
+    dayOf: 'Day {{day}} of {{length}}', immerse: 'Immerse', journal: 'Journal', philosophy: 'Philosophy', guide: 'Full guide', today: 'Today', practicesOf: '{{done}} of {{total}} practices',
+    practices: 'Practices', rules: 'Rules', tasks: 'Tasks', allTitle: 'All Ondas', allSub: 'Ten traditions, one at a time', active: 'Active', mine: 'Yours',
+    noRules: 'No rules for this Onda', noTasks: 'No tasks for this Onda',
+  },
+  onda: {
+    todayTheme: 'Today: {{theme}}', quoteOfDay: 'Quote of the day', wordOfDay: 'Word of the day', guideSub: 'Context, history, ideas, culture and language',
+    practices: 'Practices', rules: 'Rules', tasks: 'Tasks', immerse: 'Immerse', thinkAbout: 'Think about', seeAll: 'See All', kindPhilosophy: 'Philosophy', kindEthics: 'Ethics',
+    journalDay: 'Journal · Day {{day}}', write: 'Write', editEntry: 'Edit Entry', finalReflection: 'Final reflection', reflectionDay: 'Day {{day}}', reflectionOpen: 'Ready when you are',
+    begin: 'Begin Onda', endsNote: 'Beginning ends {{name}}. One Onda at a time.', length: 'Length: {{count}} days',
+    menuImmersion: 'Immersion', menuGuide: 'Full guide', menuReflection: 'Final reflection', menuEnd: 'End Onda', ended: '{{name}} ended', loading: 'Loading', how: 'How', why: 'Why', variations: 'Variations',
+    sensitivity: 'A note before you begin',
+  },
+  kinds: { all: 'All', read: 'Books', watch: 'Watch', listen: 'Listen', art: 'Art', eat: 'Food', drink: 'Drinks', customs: 'Customs', words: 'Language' },
+  kindLabel: { read: 'Read', watch: 'Watch', listen: 'Listen', art: 'Art', eat: 'Eat', drink: 'Drink', customs: 'Customs', words: 'Words' },
+  immersion: { title: 'Immersion', experienced: '{{name}} · {{done}} of {{total}} experienced', footer: 'Mark an item when you have experienced it.', empty: 'Nothing here yet' },
+  journal: {
+    title: 'Journal', newEntry: 'New Entry', dayLabel: 'Day {{day}} · {{name}}', placeholder: 'Write freely', practicedToday: 'Practiced today', empty: 'No entries yet', emptySub: 'One short entry a day is enough',
+    saved: 'Entry saved',
+  },
+  philosophy: { title: 'Philosophy', lead: 'Ideas to carry through the day, and how to act on them.', think: 'Think about', ethics: 'Ethics and morality', tryIt: 'Try' },
+  guide: {
+    tabs: { overview: 'Overview', history: 'History', ideas: 'Ideas', ways: 'Ways', culture: 'Culture', language: 'Language', facts: 'Facts' },
+    leadHistory: 'How it unfolded', leadIdeas: 'What it asks you to think about', leadWays: 'How to behave, and what to keep', leadCulture: 'Books, films, music, art, food and drink',
+    leadLanguage: 'Words to carry through the days', leadFacts: 'Small things worth knowing',
+    introduction: 'Introduction', origin: 'Origin', era: 'Era', rule: 'Rule', practice: 'Practice', didYouKnow: 'Did you know', framing: 'A note on respect', learnFrom: 'Learn from', furtherReading: 'Further reading', sources: 'Sources',
+    unverified: 'Not yet verified', empty: 'Nothing added yet',
+  },
+  reflection: {
+    title: 'Reflection', daysOf: '{{count}} days of {{name}}', lookBack: 'Look back before you move on.', checkIns: 'Check Ins', practices: 'Practices', journal: 'Journal',
+    stepOf: '{{n}} of {{total}}', placeholder: 'Write freely', carry: 'Carry forward', carryTitle: 'What will you keep living?', carrySub: 'Kept practices continue as Lagos.', daysOfTotal: '{{done}} of {{total}} days',
+    begin: 'Begin', complete: 'Complete Onda', completeAdd_one: 'Complete · Add {{count}} Lago', completeAdd_other: 'Complete · Add {{count}} Lagos', keep: 'Keep {{name}}',
+  },
+  done: {
+    title: 'Onda complete', kept_one: '{{count}} practice from {{name}} now continues as a Lago.', kept_other: '{{count}} practices from {{name}} now continue as Lagos.', none: '{{name}} is complete. Your reflection is saved.',
+    viewLagos: 'View Lagos', next: 'Choose Next Onda',
+  },
+  createOnda: {
+    title: 'New Onda', name: 'Name', origin: 'Tradition, culture or thinker', color: 'Color', dailyLagos: 'Daily Lagos', addPractice: 'Add a practice', context: 'Context', era: 'Era, e.g. 300 BCE – 180 CE', figures: 'Key figures',
+    about: 'About this tradition', quote: 'Quote', quoteText: 'A first quote', quoteBy: 'Who said it', rules: 'Rules', rulesPlaceholder: 'One rule per line, e.g. no phone after 9', history: 'History', historyPlaceholder: 'Key moments, dates and people',
+    vocabulary: 'Vocabulary', word: 'Word or phrase', meaning: 'Meaning', food: 'Food', dish: 'Dish or drink', defaultName: 'My Onda', placeholderName: 'New Onda', custom: 'Custom', line: 'Your own Onda.', colorNamed: '{{tone}}',
+    tones: { blue: 'Blue', green: 'Green', yellow: 'Yellow', coral: 'Coral', purple: 'Purple' }, remove: 'Remove {{name}}',
+    generic: { morning: 'Morning practice', midday: 'Daily ritual', evening: 'Evening practice', metaMorning: 'Morning', metaMidday: 'Midday', metaEvening: 'Evening', daily: 'Daily', journal: 'What did you notice today that you would have missed before?', r1: 'What did this way of living reveal about you?', r2: 'Which practice changed you the most, and why?', r3: 'Where did you resist, and what was the resistance protecting?', r4: 'What will you do differently next month because of this?', r5: 'What would you tell someone about to begin?' },
+  },
+
+  stats: {
+    title: 'Stats', week: 'Week', month: 'Month', all: 'All', checkIns: 'Check Ins', dayStreak: 'Day Streak', bestStreak: 'Best Streak', completion: 'Completion', activity: 'Activity',
+    noteWeek: 'Check ins per day across your Lagos and Ondas, last 7 days.', noteMonth: 'Check ins per week across your Lagos and Ondas.', noteAll: 'Check ins per month since you started.',
+    achievements: 'Achievements', achCount: '{{count}} of 12', ondas: 'Ondas', history: 'History', nothingLogged: 'Nothing logged this day', noOndas: 'No Ondas yet',
+    runActive: 'Day {{day}} of {{length}} · Active', runComplete: '{{length}} days · Completed {{date}} · {{kept}} kept', runEnded: '{{length}} days · Ended {{date}}',
+    ev: { checkedIn: 'Checked in: {{name}}', missed: 'Missed: {{name}}', practice: '{{name}}', journal: 'Journal: Day {{count}} of {{name}}', ondaStarted: 'Began {{name}}', ondaCompleted: 'Completed {{name}}', ondaEnded: 'Ended {{name}}', kept: 'Kept as a Lago: {{name}}' },
+    kind: { lagos: 'Lagos', ondas: 'Ondas', journal: 'Journal' },
+    barLabel: '{{label}}: {{count}} check ins',
+  },
+  ach: {
+    unlocked: 'Unlocked', locked: 'Locked', progress: '{{now}} of {{target}}', toast: 'Achievement unlocked: {{name}}', view: 'View', share: 'Share', shareText: 'I unlocked {{name}} in Onda: {{desc}}.', shared: 'Share card saved',
+    names: { firstStep: 'First Step', sevenDays: 'Seven Days', habitBuilder: 'Habit Builder', earlyBird: 'Early Bird', firstOnda: 'First Onda', ondaComplete: 'Onda Complete', wanderer: 'Wanderer', linguist: 'Linguist', reflector: 'Reflector', tableGuest: 'Table Guest', keeper: 'Keeper', devoted: 'Devoted' },
+    desc: { firstStep: 'Check in for the first time', sevenDays: 'Reach a 7 day streak', habitBuilder: 'Complete a 30 day Lago', earlyBird: 'Check in before 7AM five times', firstOnda: 'Start your first Onda', ondaComplete: 'Finish an Onda', wanderer: 'Complete three different Ondas', linguist: 'Learn 25 words across Ondas', reflector: 'Write 10 journal entries', tableGuest: 'Try five dishes or drinks', keeper: 'Carry three practices forward as Lagos', devoted: 'Reach 100 check ins' },
+  },
+
+  settings: {
+    title: 'Settings', memberSince: 'Member since {{date}}', yourName: 'Your Name', streak: 'Streak', ondas: 'Ondas', lagos: 'Lagos', version: 'Onda {{v}}',
+    hub: { subscription: 'Subscription', appearance: 'Appearance', notifications: 'Notifications', practice: 'Practice', integrations: 'Integrations', data: 'Data', privacy: 'Privacy', help: 'Help & About' },
+    plus: { title: 'Ondas+', badgeFree: 'Free trial', badgeTrial_one: 'Trial · {{count}} day', badgeTrial_other: 'Trial · {{count}} days', badgeLife: 'Lifetime', badgeExpired: 'Trial ended', lineFree: '7 days free, then lifetime access for just € 14,99.', lineTrial: 'Then lifetime access for just € 14,99. No subscription.', lineLife: 'Everything is unlocked. Thank you.', lineExpired: 'Lifetime access for just € 14,99. No subscription.', ctaFree: 'Start Free Trial', ctaTrial: 'Get Lifetime · € 14,99', ctaLife: 'Manage' },
+    sub: { header: 'Subscription', plan: 'Ondas+', free: 'Free', trial: 'Trial', lifetime: 'Lifetime', expired: 'Trial ended', trialLeft: 'Trial days left', restore: 'Restore Purchase', getLifetime: 'Get Lifetime', footer: 'One payment of € 14,99. No subscription, nothing renews.' },
+    display: { themes: 'Onda themes', footer: 'When enabled, each Onda uses its own color, pattern and type.', light: 'Light', dark: 'Dark', auto: 'Auto', defaultLength: 'Default Onda length', textSize: 'Text size follows your iPhone setting.' },
+    notif: { header: 'Reminders', daily: 'Daily check in', time: 'Time', evening: 'Evening review', eveningTime: 'Evening time', milestones: 'Milestones', footer: 'When enabled, a gentle reminder arrives at the time you choose.', status: 'Notifications', allowed: 'Allowed', denied: 'Blocked in iOS Settings', notAsked: 'Not set up', needsInstall: 'Add to Home Screen first', unsupported: 'Not supported here', enable: 'Turn On Notifications', test: 'Send Test', testSent: 'Test sent' },
+    practice: { weekStarts: 'Week starts', monday: 'Monday', sunday: 'Sunday', includeFood: 'Include food', haptics: 'Haptics', sounds: 'Sounds', foodFooter: 'When disabled, dishes and drinks are left out of immersion.' },
+    integrations: { header: 'Integrations', reminders: 'Apple Reminders', viaShortcuts: 'Via Shortcuts', calendar: 'Calendar', notion: 'Notion', connected: 'Connected', off: 'Off', subscribed: 'Subscribed', footer: 'Lagos and Onda practices can appear in Reminders, Onda schedules in Calendar, and everything in Notion.', needsAccount: 'Sign in to use integrations', needsBackend: 'Sync server not configured' },
+    data: { history: 'History & Stats', export: 'Export Data', exported: 'Export saved', account: 'Account', signedOut: 'Not signed in', anonymous: 'This device only', sync: 'Device sync', syncNow: 'Sync Now', lastSynced: 'Last synced', pending_one: '{{count}} change waiting', pending_other: '{{count}} changes waiting', loadDemo: 'Load Demo Data', demoLoaded: 'Demo data loaded', footer: 'Your data lives on this device first. Signing in keeps a private copy in sync across your devices.' },
+    privacy: { appLock: 'Face ID Lock', hide: 'Hide in App Switcher', footer: 'When enabled, Onda asks for Face ID or your passcode when opened.', lockUnsupported: 'Not available on this device', unlock: 'Unlock', locked: 'Onda is locked', noTracking: 'No ads, no trackers, no third-party analytics.' },
+    help: { support: 'Support', help: 'Help & Feedback', whatsNew: "What's New", rate: 'Rate Onda', privacyPolicy: 'Privacy Policy', terms: 'Terms', about: 'About', versionRow: 'Version', replay: 'Replay Onboarding', install: 'Add to Home Screen' },
+    danger: { reset: 'Reset All Data', signOut: 'Sign Out', deleteAccount: 'Delete Account', confirmReset: 'Erase everything on this device', confirmDelete: 'Delete your account and all synced data', confirm: 'Tap Again to Confirm', resetDone: 'All data erased', deleted: 'Account deleted' },
+  },
+  account: {
+    title: 'Account', lead: 'Sign in so your data follows you across devices.', apple: 'Sign in with Apple', email: 'Email address', sendLink: 'Send Magic Link', linkSent: 'Check your inbox for the link', signedInAs: 'Signed in as {{email}}', signedIn: 'Signed in',
+    signOut: 'Sign Out', localOnly: 'Sync is not set up in this build. Everything stays on this device.', invalidEmail: 'Enter a valid email address', name: 'Name',
+  },
+  notion: {
+    title: 'Notion', connectedTitle: 'Connected to Notion', subOn: 'Lagos, Ondas, journals and reflections save to your workspace.', subOff: 'Save and auto update a Notion workspace with your Lagos, Ondas and reflections.',
+    workspace: 'Workspace', database: 'Parent page', save: 'Save', lagoCheckIns: 'Lago check ins', ondasJournal: 'Ondas and journal', reflections: 'Reflections', autoUpdate: 'Auto update', lastSynced: 'Last synced',
+    autoFooter: 'When enabled, changes update your Notion workspace within a minute.', syncNow: 'Sync Now', syncing: 'Syncing', disconnect: 'Disconnect', connect: 'Connect Notion', synced: 'Notion is up to date',
+    partial_one: '{{count}} item could not be saved', partial_other: '{{count}} items could not be saved', lastError: 'Last error', disconnected: 'Notion disconnected', queued_one: '{{count}} change queued', queued_other: '{{count}} changes queued',
+  },
+  calendar: {
+    title: 'Calendar', lead: 'A private calendar feed with your Onda practices, immersion and reflection day, plus Lago reminders. iOS keeps it updated.', add: 'Add to Calendar', download: 'Download .ics', copy: 'Copy Feed Link', rotate: 'Reset Feed Link',
+    rotateFooter: 'Resetting the link stops every calendar that subscribed with the old one.', rotated: 'Feed link reset', lastFetched: 'Last fetched', status: 'Status', ready: 'Ready', notReady: 'Not set up', localFooter: 'Without an account, Download .ics exports a one-time copy from this device.',
+  },
+  reminders: {
+    title: 'Apple Reminders', badge: 'Via Shortcuts', lead: 'iOS has no web API for Reminders. A Shortcut reads your private feed each morning and fills a list called Onda.', install: 'Get the Shortcut', copyFeed: 'Copy Feed Link', lastFetched: 'Feed last fetched',
+    stepsHeader: 'Set up once', s1: 'Add the Onda Reminders shortcut.', s2: 'When asked, paste your feed link.', s3: 'In Shortcuts, open Automation and add a daily automation for the time you wake.', s4: 'Choose Run Immediately so it works without asking.',
+    footer: 'Completing an item in Reminders is sent back the next time the shortcut runs.', rotate: 'Reset Feed Link', notPublished: 'The shortcut link is not published yet. Build it from docs/SHORTCUT.md.',
+  },
+  notif: {
+    preTitle: 'Stay on rhythm', preBody: 'Onda can send a quiet reminder for your daily check in, an evening review and milestones. Nothing else, ever.', allow: 'Allow Notifications', notNow: 'Not Now',
+    r1: 'Daily check in', r1t: 'At {{time}}, for your Lagos and Onda', r2: 'Evening review', r2t: 'A nudge to journal before bed', r3: 'Milestones', r3t: 'Streaks and the last day of an Onda', enabled: 'Notifications are on', blocked: 'Notifications are blocked. Allow them in iOS Settings.',
+    installFirst: 'Add Onda to your Home Screen to get notifications on iPhone.',
+  },
+  a2hs: { title: 'Add Onda to Home Screen', body: 'Tap Share, then Add to Home Screen. Onda opens full screen and works offline.', dismiss: 'Dismiss' },
+  sw: { updateReady: 'A new version is ready', reload: 'Reload', offlineReady: 'Ready to use offline' },
+  whatsNew: { title: "What's New", v1: '1.0', v1date: '2026-10-06', v1a: 'Lagos: habit experiments with streaks, notes and photos.', v1b: 'Ondas: ten traditions to live for 7 to 30 days.', v1c: 'Notion, Calendar and Reminders integrations.' },
+  legal: {
+    privacyTitle: 'Privacy Policy', termsTitle: 'Terms',
+    privacyBody: 'Onda stores your data on your device. If you sign in, a private copy is kept on our sync server so it follows you across devices. There are no ads, no trackers and no third-party analytics. You can export or delete everything in Settings, Data. Integrations you connect (Notion, Calendar, Reminders) receive only what you choose to send.',
+    termsBody: 'Onda is offered as is. Lagos and Ondas are experiments in living, not medical, psychological or religious advice. Ondas+ is a one-time purchase after a free trial. Cultural content is offered with respect and is not a substitute for learning from tradition bearers.',
+    draft: 'Draft text. Replace with reviewed legal copy before launch.',
+  },
+} as const
+
+export type Strings = typeof en

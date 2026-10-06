@@ -1,0 +1,407 @@
+{
+  "version": 1,
+  "id": "zen",
+  "name": "Zen Buddhism",
+  "origin": "Japan",
+  "tone": "green",
+  "icon": "flower-lotus",
+  "line": "Sit, work and eat with full attention.",
+  "era": "6th c. CE to today",
+  "font": "Shippori Mincho",
+  "pattern": "raked-sand",
+  "glyph": "禅",
+  "quote": {
+    "text": "Before enlightenment, chop wood, carry water. After enlightenment, chop wood, carry water.",
+    "by": "Zen proverb",
+    "source": ""
+  },
+  "quotes": [],
+  "words": [
+    {
+      "id": "word-zazen",
+      "term": "Zazen",
+      "meaning": "Seated meditation"
+    },
+    {
+      "id": "word-mushin",
+      "term": "Mushin",
+      "meaning": "No-mind"
+    },
+    {
+      "id": "word-wabi-sabi",
+      "term": "Wabi-sabi",
+      "meaning": "Beauty in the imperfect"
+    },
+    {
+      "id": "word-kensho",
+      "term": "Kensho",
+      "meaning": "Seeing your own nature"
+    },
+    {
+      "id": "word-ichigo-ichie",
+      "term": "Ichigo ichie",
+      "meaning": "One time, one meeting"
+    },
+    {
+      "id": "word-shoshin",
+      "term": "Shoshin",
+      "meaning": "Beginner’s mind"
+    },
+    {
+      "id": "word-mu",
+      "term": "Mu",
+      "meaning": "Nothing, or no. A koan answer"
+    }
+  ],
+  "practices": [
+    {
+      "id": "zazen",
+      "name": "Zazen",
+      "icon": "flower-lotus",
+      "slot": "Morning",
+      "time": "06:00",
+      "minutes": 20,
+      "meta": "Morning · 20 min",
+      "instructions": "",
+      "why": "",
+      "variations": []
+    },
+    {
+      "id": "samu",
+      "name": "Samu",
+      "icon": "broom",
+      "slot": "Morning",
+      "time": "07:30",
+      "meta": "Morning · Work practice",
+      "instructions": "",
+      "why": "",
+      "variations": []
+    },
+    {
+      "id": "silent-meal",
+      "name": "Silent meal",
+      "icon": "bowl-food",
+      "slot": "Afternoon",
+      "time": "12:30",
+      "meta": "Midday",
+      "instructions": "",
+      "why": "",
+      "variations": []
+    },
+    {
+      "id": "tea-and-stillness",
+      "name": "Tea and stillness",
+      "icon": "coffee",
+      "slot": "Evening",
+      "time": "20:00",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "",
+      "why": "",
+      "variations": []
+    }
+  ],
+  "tasks": [
+    {
+      "id": "sit-with-one-koan",
+      "name": "Sit with one koan",
+      "meta": "Do not solve it",
+      "time": "13:00",
+      "slot": "Afternoon"
+    },
+    {
+      "id": "clear-one-surface",
+      "name": "Clear one surface",
+      "meta": "Then leave it clear",
+      "time": "18:00",
+      "slot": "Evening"
+    }
+  ],
+  "rules": [
+    {
+      "id": "r1",
+      "text": "Do one thing at a time",
+      "why": ""
+    },
+    {
+      "id": "r2",
+      "text": "No phone before zazen",
+      "why": ""
+    },
+    {
+      "id": "r3",
+      "text": "Eat in silence at one meal",
+      "why": ""
+    },
+    {
+      "id": "r4",
+      "text": "Leave every space cleaner than you found it",
+      "why": ""
+    }
+  ],
+  "immerse": {
+    "read": [
+      {
+        "id": "read-zen-mind-beginner-s-mind",
+        "title": "Zen Mind, Beginner’s Mind",
+        "creator": "Shunryu Suzuki",
+        "why": ""
+      },
+      {
+        "id": "read-the-gateless-gate",
+        "title": "The Gateless Gate",
+        "creator": "Mumonkan koans",
+        "why": ""
+      },
+      {
+        "id": "read-shobogenzo-selections",
+        "title": "Shōbōgenzō (selections)",
+        "creator": "Dōgen",
+        "why": ""
+      }
+    ],
+    "watch": [
+      {
+        "id": "watch-perfect-days-2023",
+        "title": "Perfect Days (2023)",
+        "creator": "Attention in daily work",
+        "why": ""
+      },
+      {
+        "id": "watch-spring-summer-fall-winter-and-spring-2003",
+        "title": "Spring, Summer, Fall, Winter… and Spring (2003)",
+        "creator": "Korean Buddhist film",
+        "why": ""
+      }
+    ],
+    "listen": [
+      {
+        "id": "listen-shakuhachi-honkyoku",
+        "title": "Shakuhachi honkyoku",
+        "creator": "Solo bamboo flute",
+        "why": ""
+      },
+      {
+        "id": "listen-temple-bells-and-chanting",
+        "title": "Temple bells and chanting",
+        "creator": "Morning service recordings",
+        "why": ""
+      }
+    ],
+    "art": [
+      {
+        "id": "art-enso-circle",
+        "title": "Ensō circle",
+        "creator": "Paint one with a brush",
+        "why": ""
+      },
+      {
+        "id": "art-dry-garden-of-ryoan-ji",
+        "title": "Dry garden of Ryōan-ji",
+        "creator": "Kyoto",
+        "why": ""
+      },
+      {
+        "id": "art-sumi-e-ink-painting",
+        "title": "Sumi-e ink painting",
+        "creator": "Few strokes, much space",
+        "why": ""
+      }
+    ],
+    "eat": [
+      {
+        "id": "eat-shojin-ryori",
+        "title": "Shōjin ryōri",
+        "creator": "Temple vegetarian cooking",
+        "why": ""
+      },
+      {
+        "id": "eat-miso-soup-rice-and-pickles",
+        "title": "Miso soup, rice and pickles",
+        "creator": "A simple set",
+        "why": ""
+      },
+      {
+        "id": "eat-wagashi",
+        "title": "Wagashi",
+        "creator": "Seasonal sweets",
+        "why": ""
+      }
+    ],
+    "drink": [
+      {
+        "id": "drink-matcha",
+        "title": "Matcha",
+        "creator": "Whisked, drunk slowly",
+        "why": ""
+      },
+      {
+        "id": "drink-hojicha",
+        "title": "Hōjicha",
+        "creator": "Roasted green tea",
+        "why": ""
+      }
+    ],
+    "customs": [
+      {
+        "id": "customs-bow-before-and-after-sitting",
+        "title": "Bow before and after sitting",
+        "creator": "Gassho",
+        "why": ""
+      },
+      {
+        "id": "customs-remove-shoes-at-the-door",
+        "title": "Remove shoes at the door",
+        "creator": "Mark a threshold",
+        "why": ""
+      },
+      {
+        "id": "customs-wash-the-bowl-with-the-last-tea",
+        "title": "Wash the bowl with the last tea",
+        "creator": "Oryōki practice",
+        "why": ""
+      }
+    ]
+  },
+  "ethics": [
+    {
+      "title": "Do no harm, do good, purify the mind",
+      "text": "The heart of the precepts."
+    },
+    {
+      "title": "Practice is realization",
+      "text": "Dōgen: sitting is not a means to an end."
+    },
+    {
+      "title": "Work is practice",
+      "text": "Cooking, cleaning and gardening count as much as sitting."
+    }
+  ],
+  "philosophy": [
+    {
+      "title": "Beginner’s mind",
+      "text": "Expert minds see few possibilities. Beginner minds see many."
+    },
+    {
+      "title": "No separate self",
+      "text": "Self and world arise together."
+    },
+    {
+      "title": "Impermanence",
+      "text": "Everything arises and passes. Hold lightly."
+    },
+    {
+      "title": "Just this",
+      "text": "No better moment is coming. This one is the practice."
+    }
+  ],
+  "journal": [
+    "When were you fully where you were today?",
+    "What did you notice once you stopped reaching?",
+    "What did you do with your hands that deserved full attention?",
+    "Where did you rush? What was the rush for?",
+    "What did you leave unfinished and let be?",
+    "What sound did you hear today that you usually miss?",
+    "What is left when you remove the commentary?"
+  ],
+  "reflect": [
+    "What did you notice once you stopped reaching?",
+    "Which practice changed you the most, and why?",
+    "Where did you resist, and what was the resistance protecting?"
+  ],
+  "dayThemes": [],
+  "guide": {
+    "intro": [
+      "Zen is a school of Mahayana Buddhism that points directly at experience: sit, breathe, work, eat, and see what is already here. It grew from Chinese Chan, which blended Indian Buddhism with Daoist naturalness.",
+      "It spread to Korea, Vietnam and Japan, where it shaped tea, gardens, ink painting and archery. Two schools remain central in Japan: Sōtō, which stresses sitting, and Rinzai, which uses koans."
+    ],
+    "origin": "China, then Japan",
+    "era": "6th c. CE to today",
+    "figures": [
+      {
+        "name": "Bodhidharma",
+        "dates": "",
+        "bio": "Legendary monk said to bring Chan to China from India."
+      },
+      {
+        "name": "Huineng",
+        "dates": "",
+        "bio": "Sixth Patriarch of Chan. His sermon is the Platform Sutra."
+      },
+      {
+        "name": "Dōgen",
+        "dates": "",
+        "bio": "Founded Sōtō Zen in Japan and wrote the Shōbōgenzō."
+      },
+      {
+        "name": "Hakuin",
+        "dates": "",
+        "bio": "Revived Rinzai koan practice. Said to have asked the sound of one hand."
+      }
+    ],
+    "history": [
+      {
+        "when": "c. 500 CE",
+        "what": "Bodhidharma, by tradition, brings Chan to China",
+        "detail": "Legend says he sat facing a wall for nine years."
+      },
+      {
+        "when": "713",
+        "what": "Huineng, Sixth Patriarch, dies. Chan splits into many houses.",
+        "detail": ""
+      },
+      {
+        "when": "1191",
+        "what": "Eisai brings Rinzai Zen to Japan",
+        "detail": ""
+      },
+      {
+        "when": "1227",
+        "what": "Dōgen returns to Japan and founds Sōtō Zen",
+        "detail": ""
+      },
+      {
+        "when": "1700s",
+        "what": "Hakuin revives koan practice in the Rinzai school",
+        "detail": ""
+      }
+    ],
+    "concepts": [
+      {
+        "term": "Zazen",
+        "text": "Just sitting. Posture, breath, and letting thoughts pass.",
+        "detail": ""
+      },
+      {
+        "term": "Koan",
+        "text": "A paradoxical question that breaks the habit of conceptual answers.",
+        "detail": ""
+      },
+      {
+        "term": "Satori",
+        "text": "A moment of sudden insight.",
+        "detail": ""
+      },
+      {
+        "term": "Sesshin",
+        "text": "An intensive silent retreat of days.",
+        "detail": ""
+      }
+    ],
+    "facts": [
+      {
+        "text": "A traditional Zen meal in a temple uses nested bowls called oryōki."
+      },
+      {
+        "text": "The ensō circle is usually painted in one breath, and cannot be corrected."
+      },
+      {
+        "text": "Many Zen gardens use raked gravel to suggest water."
+      }
+    ],
+    "glossary": [],
+    "furtherReading": [],
+    "learnFrom": [],
+    "sources": []
+  }
+}

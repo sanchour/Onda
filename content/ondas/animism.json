@@ -1,0 +1,410 @@
+{
+  "version": 1,
+  "id": "animism",
+  "name": "Native American Animism",
+  "origin": "North America",
+  "tone": "green",
+  "icon": "feather",
+  "line": "Relate to land, animals and weather as kin.",
+  "era": "Many nations, oral traditions over thousands of years",
+  "font": "Zilla Slab",
+  "pattern": "geometric-weave",
+  "glyph": "Kin",
+  "quote": {
+    "text": "Mitákuye Oyás’iŋ: we are all related.",
+    "by": "Lakota saying",
+    "source": ""
+  },
+  "quotes": [],
+  "words": [
+    {
+      "id": "word-mitakuye-oyas-i",
+      "term": "Mitákuye Oyás’iŋ",
+      "meaning": "We are all related (Lakota)"
+    },
+    {
+      "id": "word-ahehee",
+      "term": "Ahéhee’",
+      "meaning": "Thank you (Diné)"
+    },
+    {
+      "id": "word-wophila",
+      "term": "Wóphila",
+      "meaning": "Gratitude (Lakota)"
+    },
+    {
+      "id": "word-aho",
+      "term": "Aho",
+      "meaning": "So be it, I agree"
+    },
+    {
+      "id": "word-skennen",
+      "term": "Skennen",
+      "meaning": "Peace (Mohawk, Kanien’kéha)"
+    },
+    {
+      "id": "word-wakha",
+      "term": "Wakȟáŋ",
+      "meaning": "Sacred, mysterious (Lakota)"
+    },
+    {
+      "id": "word-wado",
+      "term": "Wado",
+      "meaning": "Thank you (Cherokee)"
+    }
+  ],
+  "practices": [
+    {
+      "id": "morning-thanks",
+      "name": "Morning thanks",
+      "icon": "sun-horizon",
+      "slot": "Morning",
+      "time": "06:30",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "",
+      "why": "",
+      "variations": []
+    },
+    {
+      "id": "sit-spot",
+      "name": "Sit spot",
+      "icon": "tree",
+      "slot": "Morning",
+      "time": "07:30",
+      "minutes": 20,
+      "meta": "Morning · 20 min, same place daily",
+      "instructions": "",
+      "why": "",
+      "variations": []
+    },
+    {
+      "id": "learn-one-plant-or-animal-by-name",
+      "name": "Learn one plant or animal by name",
+      "icon": "leaf",
+      "slot": "Afternoon",
+      "time": "15:00",
+      "minutes": 20,
+      "meta": "Afternoon · 20 min",
+      "instructions": "",
+      "why": "",
+      "variations": []
+    },
+    {
+      "id": "evening-thanks",
+      "name": "Evening thanks",
+      "icon": "moon-stars",
+      "slot": "Evening",
+      "time": "20:30",
+      "minutes": 5,
+      "meta": "Evening · 5 min",
+      "instructions": "",
+      "why": "",
+      "variations": []
+    }
+  ],
+  "tasks": [
+    {
+      "id": "find-whose-land-you-live-on",
+      "name": "Find whose land you live on",
+      "meta": "Learn the nation’s name and language",
+      "time": "13:00",
+      "slot": "Afternoon"
+    },
+    {
+      "id": "give-something-back",
+      "name": "Give something back",
+      "meta": "Clean a path, plant, feed birds",
+      "time": "18:00",
+      "slot": "Evening"
+    }
+  ],
+  "rules": [
+    {
+      "id": "r1",
+      "text": "Take only what you need",
+      "why": ""
+    },
+    {
+      "id": "r2",
+      "text": "Say thank you aloud to what feeds you",
+      "why": ""
+    },
+    {
+      "id": "r3",
+      "text": "Do not imitate sacred ceremonies you were not invited to",
+      "why": ""
+    },
+    {
+      "id": "r4",
+      "text": "Listen before you speak, especially to elders",
+      "why": ""
+    }
+  ],
+  "immerse": {
+    "read": [
+      {
+        "id": "read-braiding-sweetgrass",
+        "title": "Braiding Sweetgrass",
+        "creator": "Robin Wall Kimmerer (Potawatomi)",
+        "why": ""
+      },
+      {
+        "id": "read-the-thanksgiving-address",
+        "title": "The Thanksgiving Address",
+        "creator": "Haudenosaunee, widely published",
+        "why": ""
+      },
+      {
+        "id": "read-god-is-red",
+        "title": "God Is Red",
+        "creator": "Vine Deloria Jr. (Standing Rock Sioux)",
+        "why": ""
+      }
+    ],
+    "watch": [
+      {
+        "id": "watch-smoke-signals-1998",
+        "title": "Smoke Signals (1998)",
+        "creator": "Written by Sherman Alexie",
+        "why": ""
+      },
+      {
+        "id": "watch-reservation-dogs",
+        "title": "Reservation Dogs",
+        "creator": "Series by Sterlin Harjo and Taika Waititi",
+        "why": ""
+      }
+    ],
+    "listen": [
+      {
+        "id": "listen-native-led-radio-and-podcasts",
+        "title": "Native-led radio and podcasts",
+        "creator": "Start with one nation’s own station",
+        "why": ""
+      },
+      {
+        "id": "listen-buffy-sainte-marie",
+        "title": "Buffy Sainte-Marie",
+        "creator": "Cree singer-songwriter",
+        "why": ""
+      },
+      {
+        "id": "listen-a-tribe-called-red",
+        "title": "A Tribe Called Red",
+        "creator": "Powwow and electronic",
+        "why": ""
+      }
+    ],
+    "art": [
+      {
+        "id": "art-woodlands-painting",
+        "title": "Woodlands painting",
+        "creator": "Norval Morrisseau",
+        "why": ""
+      },
+      {
+        "id": "art-pueblo-pottery",
+        "title": "Pueblo pottery",
+        "creator": "Learn the maker’s name",
+        "why": ""
+      },
+      {
+        "id": "art-beadwork-and-quillwork",
+        "title": "Beadwork and quillwork",
+        "creator": "Visit an Indigenous-run gallery",
+        "why": ""
+      }
+    ],
+    "eat": [
+      {
+        "id": "eat-three-sisters-stew",
+        "title": "Three Sisters stew",
+        "creator": "Corn, beans and squash",
+        "why": ""
+      },
+      {
+        "id": "eat-wild-rice",
+        "title": "Wild rice",
+        "creator": "Harvested by Anishinaabe people",
+        "why": ""
+      },
+      {
+        "id": "eat-seasonal-berries",
+        "title": "Seasonal berries",
+        "creator": "Eat what grows near you",
+        "why": ""
+      }
+    ],
+    "drink": [
+      {
+        "id": "drink-mint-or-sage-tea",
+        "title": "Mint or sage tea",
+        "creator": "Herbal, from a garden",
+        "why": ""
+      },
+      {
+        "id": "drink-maple-water",
+        "title": "Maple water",
+        "creator": "Spring tree water",
+        "why": ""
+      }
+    ],
+    "customs": [
+      {
+        "id": "customs-offer-thanks-before-eating",
+        "title": "Offer thanks before eating",
+        "creator": "Name where the food came from",
+        "why": ""
+      },
+      {
+        "id": "customs-honor-elders-first",
+        "title": "Honor elders first",
+        "creator": "Serve them before yourself",
+        "why": ""
+      },
+      {
+        "id": "customs-learn-the-land-acknowledgment-as-a-first-lesson",
+        "title": "Learn the land acknowledgment as a first lesson",
+        "creator": "Then ask what you can do",
+        "why": ""
+      }
+    ]
+  },
+  "ethics": [
+    {
+      "title": "Reciprocity",
+      "text": "Receive gifts from the land, and give something back."
+    },
+    {
+      "title": "Kinship with all beings",
+      "text": "People, animals, plants and rivers are relatives, not resources."
+    },
+    {
+      "title": "Respect cultural protocols",
+      "text": "Some ceremonies are not for outsiders. Learn, do not take."
+    }
+  ],
+  "philosophy": [
+    {
+      "title": "Everything is alive and related",
+      "text": "Persons are not only humans."
+    },
+    {
+      "title": "Place as teacher",
+      "text": "Knowledge is bound to land, season and story."
+    },
+    {
+      "title": "Seven generations",
+      "text": "Decide with those seven generations ahead in mind (Haudenosaunee)."
+    },
+    {
+      "title": "Gratitude as a way of seeing",
+      "text": "Giving thanks changes what you notice."
+    }
+  ],
+  "journal": [
+    "What did you give thanks for today, and to whom?",
+    "What did your sit spot show you today?",
+    "What took more than you gave back?",
+    "What did you learn about the place you live?",
+    "Who is an elder in your life, and what have you asked them?",
+    "Where did you treat something as a resource, not a relative?",
+    "What would seven generations from now say about today?"
+  ],
+  "reflect": [
+    "What changed when you named everything as kin?",
+    "Which practice changed you the most, and why?",
+    "How will you keep giving back to the place you live?"
+  ],
+  "dayThemes": [],
+  "guide": {
+    "intro": [
+      "There is no single Native American religion. Hundreds of nations hold distinct languages, stories and practices. Many share a view of the world as a web of relationships among people, animals, plants, waters and places.",
+      "This Onda is an invitation to listen and learn, not to imitate. Prefer Indigenous-authored sources and support nations directly."
+    ],
+    "origin": "North America",
+    "era": "Many nations, oral traditions over thousands of years",
+    "figures": [
+      {
+        "name": "Black Elk",
+        "dates": "",
+        "bio": "Oglala Lakota holy man whose life was told in Black Elk Speaks."
+      },
+      {
+        "name": "Vine Deloria Jr.",
+        "dates": "",
+        "bio": "Lakota scholar and author on religion and law."
+      },
+      {
+        "name": "Robin Wall Kimmerer",
+        "dates": "",
+        "bio": "Potawatomi botanist and author of Braiding Sweetgrass."
+      },
+      {
+        "name": "Haudenosaunee Confederacy",
+        "dates": "",
+        "bio": "Six nations who share the Thanksgiving Address."
+      }
+    ],
+    "history": [
+      {
+        "when": "Before 1492",
+        "what": "Hundreds of nations live across the continent with distinct governance and ceremony",
+        "detail": ""
+      },
+      {
+        "when": "c. 1142 to 1451",
+        "what": "The Haudenosaunee Confederacy forms, by oral account, around the Great Law of Peace",
+        "detail": ""
+      },
+      {
+        "when": "1978",
+        "what": "The American Indian Religious Freedom Act is passed in the United States",
+        "detail": ""
+      },
+      {
+        "when": "Today",
+        "what": "Language and ceremony revitalization led by Native communities",
+        "detail": ""
+      }
+    ],
+    "concepts": [
+      {
+        "term": "Kinship",
+        "text": "All beings are relatives with obligations.",
+        "detail": ""
+      },
+      {
+        "term": "Reciprocity",
+        "text": "Taking and giving are one practice.",
+        "detail": ""
+      },
+      {
+        "term": "Oral tradition",
+        "text": "Law, history and teaching are carried by speakers.",
+        "detail": ""
+      },
+      {
+        "term": "Land and language",
+        "text": "Words hold local knowledge that translation loses.",
+        "detail": ""
+      }
+    ],
+    "facts": [
+      {
+        "text": "Many Indigenous languages have no word for religion as a separate part of life."
+      },
+      {
+        "text": "The Three Sisters, corn, beans and squash, are planted together to help each other grow."
+      },
+      {
+        "text": "Some ceremonies are closed. Respecting that is part of the practice."
+      }
+    ],
+    "glossary": [],
+    "furtherReading": [],
+    "learnFrom": [],
+    "sources": []
+  }
+}

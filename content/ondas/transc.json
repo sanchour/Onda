@@ -1,0 +1,402 @@
+{
+  "version": 1,
+  "id": "transc",
+  "name": "Transcendentalism",
+  "origin": "New England",
+  "tone": "purple",
+  "icon": "tree",
+  "line": "Simplify. Live deliberately, close to nature.",
+  "era": "1830s to 1850s",
+  "font": "Libre Baskerville",
+  "pattern": "ruled-lines",
+  "glyph": "Nature",
+  "quote": {
+    "text": "I went to the woods because I wished to live deliberately.",
+    "by": "Henry David Thoreau, Walden",
+    "source": ""
+  },
+  "quotes": [],
+  "words": [
+    {
+      "id": "word-self-reliance",
+      "term": "Self-reliance",
+      "meaning": "Trust your own mind"
+    },
+    {
+      "id": "word-oversoul",
+      "term": "Oversoul",
+      "meaning": "The shared spirit in all"
+    },
+    {
+      "id": "word-simplicity",
+      "term": "Simplicity",
+      "meaning": "Fewer things, more life"
+    },
+    {
+      "id": "word-sauntering",
+      "term": "Sauntering",
+      "meaning": "Walking as practice"
+    },
+    {
+      "id": "word-nonconformity",
+      "term": "Nonconformity",
+      "meaning": "Refusing the crowd’s script"
+    },
+    {
+      "id": "word-correspondence",
+      "term": "Correspondence",
+      "meaning": "Nature mirrors the mind"
+    },
+    {
+      "id": "word-deliberately",
+      "term": "Deliberately",
+      "meaning": "With attention and intention"
+    }
+  ],
+  "practices": [
+    {
+      "id": "morning-pages",
+      "name": "Morning pages",
+      "icon": "pen-nib",
+      "slot": "Morning",
+      "time": "06:30",
+      "minutes": 15,
+      "meta": "Morning · 15 min",
+      "instructions": "",
+      "why": "",
+      "variations": []
+    },
+    {
+      "id": "saunter",
+      "name": "Saunter",
+      "icon": "person-simple-walk",
+      "slot": "Afternoon",
+      "time": "12:00",
+      "meta": "Midday · 1 hour, no phone",
+      "instructions": "",
+      "why": "",
+      "variations": []
+    },
+    {
+      "id": "read-aloud",
+      "name": "Read aloud",
+      "icon": "book-open-text",
+      "slot": "Afternoon",
+      "time": "16:00",
+      "minutes": 20,
+      "meta": "Afternoon · 20 min",
+      "instructions": "",
+      "why": "",
+      "variations": []
+    },
+    {
+      "id": "nature-journal",
+      "name": "Nature journal",
+      "icon": "leaf",
+      "slot": "Evening",
+      "time": "19:30",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "",
+      "why": "",
+      "variations": []
+    }
+  ],
+  "tasks": [
+    {
+      "id": "observe-one-place-all-week",
+      "name": "Observe one place all week",
+      "meta": "Same spot, new details",
+      "time": "13:00",
+      "slot": "Afternoon"
+    },
+    {
+      "id": "buy-nothing-today",
+      "name": "Buy nothing today",
+      "meta": "And notice the urge",
+      "time": "18:00",
+      "slot": "Evening"
+    }
+  ],
+  "rules": [
+    {
+      "id": "r1",
+      "text": "Walk outdoors every day",
+      "why": ""
+    },
+    {
+      "id": "r2",
+      "text": "Buy nothing nonessential",
+      "why": ""
+    },
+    {
+      "id": "r3",
+      "text": "One hour without phone",
+      "why": ""
+    },
+    {
+      "id": "r4",
+      "text": "Trust one decision of your own",
+      "why": ""
+    }
+  ],
+  "immerse": {
+    "read": [
+      {
+        "id": "read-walden",
+        "title": "Walden",
+        "creator": "Henry David Thoreau",
+        "why": ""
+      },
+      {
+        "id": "read-self-reliance",
+        "title": "Self-Reliance",
+        "creator": "Ralph Waldo Emerson",
+        "why": ""
+      },
+      {
+        "id": "read-nature",
+        "title": "Nature",
+        "creator": "Ralph Waldo Emerson",
+        "why": ""
+      }
+    ],
+    "watch": [
+      {
+        "id": "watch-little-women-2019",
+        "title": "Little Women (2019)",
+        "creator": "Alcott and Concord",
+        "why": ""
+      },
+      {
+        "id": "watch-documentary-on-walden-pond",
+        "title": "Documentary on Walden Pond",
+        "creator": "Any good one",
+        "why": ""
+      }
+    ],
+    "listen": [
+      {
+        "id": "listen-concord-sonata",
+        "title": "Concord Sonata",
+        "creator": "Charles Ives, piano",
+        "why": ""
+      },
+      {
+        "id": "listen-birdsong-at-dawn",
+        "title": "Birdsong at dawn",
+        "creator": "Field recordings",
+        "why": ""
+      }
+    ],
+    "art": [
+      {
+        "id": "art-hudson-river-school",
+        "title": "Hudson River School",
+        "creator": "Thomas Cole, Frederic Church",
+        "why": ""
+      },
+      {
+        "id": "art-winslow-homer",
+        "title": "Winslow Homer",
+        "creator": "Watercolors of woods and water",
+        "why": ""
+      }
+    ],
+    "eat": [
+      {
+        "id": "eat-bread-and-beans",
+        "title": "Bread and beans",
+        "creator": "Thoreau’s Walden fare",
+        "why": ""
+      },
+      {
+        "id": "eat-berries",
+        "title": "Berries",
+        "creator": "Gathered in season",
+        "why": ""
+      },
+      {
+        "id": "eat-a-simple-one-pot-meal",
+        "title": "A simple one-pot meal",
+        "creator": "Cook it yourself",
+        "why": ""
+      }
+    ],
+    "drink": [
+      {
+        "id": "drink-spring-water",
+        "title": "Spring water",
+        "creator": "Thoreau’s drink",
+        "why": ""
+      },
+      {
+        "id": "drink-herbal-tea",
+        "title": "Herbal tea",
+        "creator": "From garden herbs",
+        "why": ""
+      }
+    ],
+    "customs": [
+      {
+        "id": "customs-keep-a-journal",
+        "title": "Keep a journal",
+        "creator": "Emerson and Thoreau wrote daily",
+        "why": ""
+      },
+      {
+        "id": "customs-walk-four-hours",
+        "title": "Walk four hours",
+        "creator": "Thoreau’s ideal saunter",
+        "why": ""
+      },
+      {
+        "id": "customs-read-in-the-open-air",
+        "title": "Read in the open air",
+        "creator": "Take a book outside",
+        "why": ""
+      }
+    ]
+  },
+  "ethics": [
+    {
+      "title": "Trust thyself",
+      "text": "Emerson: every heart vibrates to that iron string."
+    },
+    {
+      "title": "Live deliberately",
+      "text": "Choose what to spend your life on."
+    },
+    {
+      "title": "Obey conscience over law",
+      "text": "Thoreau’s Civil Disobedience."
+    }
+  ],
+  "philosophy": [
+    {
+      "title": "Nature as teacher",
+      "text": "The outer world mirrors the inner."
+    },
+    {
+      "title": "Self-reliance",
+      "text": "Do not borrow your life from the crowd."
+    },
+    {
+      "title": "Simplicity",
+      "text": "Reduce to what is necessary."
+    },
+    {
+      "title": "The Oversoul",
+      "text": "A spirit common to all minds."
+    }
+  ],
+  "journal": [
+    "What did you notice outdoors that you had not before?",
+    "What did you do today because of the crowd, and what because of you?",
+    "What could you live without?",
+    "What conviction would you follow if no one watched?",
+    "What was the best hour of the day?",
+    "What did you read that spoke to you?",
+    "What would living deliberately change tomorrow?"
+  ],
+  "reflect": [
+    "What did you simplify, and what returned?",
+    "Which practice changed you the most, and why?",
+    "What will you keep of this slower life?"
+  ],
+  "dayThemes": [],
+  "guide": {
+    "intro": [
+      "Transcendentalism was a circle of New England writers who held that people can know truth through intuition and nature, beyond tradition and institutions.",
+      "It shaped American ideas of individualism, simple living, abolition, women’s rights and the wilderness."
+    ],
+    "origin": "Concord, Massachusetts",
+    "era": "1830s to 1850s",
+    "figures": [
+      {
+        "name": "Ralph Waldo Emerson",
+        "dates": "",
+        "bio": "Essayist and lecturer. Wrote Nature in 1836."
+      },
+      {
+        "name": "Henry David Thoreau",
+        "dates": "",
+        "bio": "Lived at Walden Pond from 1845 to 1847."
+      },
+      {
+        "name": "Margaret Fuller",
+        "dates": "",
+        "bio": "Editor of The Dial, author of Woman in the Nineteenth Century."
+      },
+      {
+        "name": "Bronson Alcott",
+        "dates": "",
+        "bio": "Educator and founder of Fruitlands."
+      }
+    ],
+    "history": [
+      {
+        "when": "1836",
+        "what": "Emerson publishes Nature; the Transcendental Club meets",
+        "detail": ""
+      },
+      {
+        "when": "1840",
+        "what": "The Dial begins publication",
+        "detail": ""
+      },
+      {
+        "when": "1845",
+        "what": "Thoreau moves to Walden Pond",
+        "detail": ""
+      },
+      {
+        "when": "1849",
+        "what": "Thoreau publishes Civil Disobedience",
+        "detail": ""
+      },
+      {
+        "when": "1854",
+        "what": "Walden is published",
+        "detail": ""
+      }
+    ],
+    "concepts": [
+      {
+        "term": "Intuition",
+        "text": "Truth known directly, not only by reason.",
+        "detail": ""
+      },
+      {
+        "term": "Over-Soul",
+        "text": "A shared spirit that unites all things.",
+        "detail": ""
+      },
+      {
+        "term": "Nonconformity",
+        "text": "Resisting the pressure of society.",
+        "detail": ""
+      },
+      {
+        "term": "Simple living",
+        "text": "Fewer possessions, more attention.",
+        "detail": ""
+      }
+    ],
+    "facts": [
+      {
+        "text": "Thoreau’s cabin cost him about 28 dollars in materials."
+      },
+      {
+        "text": "Walden is built from two years of life compressed into one."
+      },
+      {
+        "text": "Civil Disobedience later influenced Gandhi and Martin Luther King Jr."
+      }
+    ],
+    "glossary": [],
+    "furtherReading": [],
+    "learnFrom": [],
+    "sources": []
+  }
+}

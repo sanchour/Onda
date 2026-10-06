@@ -1,0 +1,410 @@
+{
+  "version": 1,
+  "id": "sufi",
+  "name": "Sufism",
+  "origin": "Persia & Anatolia",
+  "tone": "coral",
+  "icon": "spiral",
+  "line": "Seek the divine through love, music and remembrance.",
+  "era": "8th c. CE to today",
+  "font": "Amiri",
+  "pattern": "eight-point-star",
+  "glyph": "عشق",
+  "quote": {
+    "text": "The wound is the place where the Light enters you.",
+    "by": "Rumi",
+    "source": ""
+  },
+  "quotes": [],
+  "words": [
+    {
+      "id": "word-dhikr",
+      "term": "Dhikr",
+      "meaning": "Remembrance of the Divine"
+    },
+    {
+      "id": "word-sama",
+      "term": "Sama",
+      "meaning": "Sacred listening"
+    },
+    {
+      "id": "word-fana",
+      "term": "Fana",
+      "meaning": "Dissolving of the self"
+    },
+    {
+      "id": "word-ishq",
+      "term": "Ishq",
+      "meaning": "Divine love"
+    },
+    {
+      "id": "word-baraka",
+      "term": "Baraka",
+      "meaning": "Blessing"
+    },
+    {
+      "id": "word-tariqa",
+      "term": "Tariqa",
+      "meaning": "A Sufi path or order"
+    },
+    {
+      "id": "word-murshid",
+      "term": "Murshid",
+      "meaning": "Spiritual guide"
+    }
+  ],
+  "practices": [
+    {
+      "id": "dhikr",
+      "name": "Dhikr",
+      "icon": "circles-three",
+      "slot": "Morning",
+      "time": "06:00",
+      "minutes": 15,
+      "meta": "Morning · 15 min",
+      "instructions": "",
+      "why": "",
+      "variations": []
+    },
+    {
+      "id": "read-a-poem-aloud",
+      "name": "Read a poem aloud",
+      "icon": "book-open-text",
+      "slot": "Afternoon",
+      "time": "14:00",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "",
+      "why": "",
+      "variations": []
+    },
+    {
+      "id": "listen-to-sama",
+      "name": "Listen to sama",
+      "icon": "music-notes",
+      "slot": "Evening",
+      "time": "19:30",
+      "minutes": 20,
+      "meta": "Evening · 20 min",
+      "instructions": "",
+      "why": "",
+      "variations": []
+    },
+    {
+      "id": "night-stillness",
+      "name": "Night stillness",
+      "icon": "moon-stars",
+      "slot": "Evening",
+      "time": "22:00",
+      "minutes": 15,
+      "meta": "Night · 15 min",
+      "instructions": "",
+      "why": "",
+      "variations": []
+    }
+  ],
+  "tasks": [
+    {
+      "id": "memorize-four-lines-of-a-poem",
+      "name": "Memorize four lines of a poem",
+      "meta": "Rumi, Hafez or Attar",
+      "time": "13:00",
+      "slot": "Afternoon"
+    },
+    {
+      "id": "serve-a-guest",
+      "name": "Serve a guest",
+      "meta": "Offer food or tea",
+      "time": "18:00",
+      "slot": "Evening"
+    }
+  ],
+  "rules": [
+    {
+      "id": "r1",
+      "text": "Begin with remembrance, end with gratitude",
+      "why": ""
+    },
+    {
+      "id": "r2",
+      "text": "No gossip",
+      "why": ""
+    },
+    {
+      "id": "r3",
+      "text": "Welcome every guest as a gift",
+      "why": ""
+    },
+    {
+      "id": "r4",
+      "text": "Keep one hour of the night quiet",
+      "why": ""
+    }
+  ],
+  "immerse": {
+    "read": [
+      {
+        "id": "read-masnavi-selections",
+        "title": "Masnavi (selections)",
+        "creator": "Rumi",
+        "why": ""
+      },
+      {
+        "id": "read-the-conference-of-the-birds",
+        "title": "The Conference of the Birds",
+        "creator": "Farid ud-Din Attar",
+        "why": ""
+      },
+      {
+        "id": "read-divan-of-hafez",
+        "title": "Divan of Hafez",
+        "creator": "Hafez",
+        "why": ""
+      }
+    ],
+    "watch": [
+      {
+        "id": "watch-whirling-dervishes-of-konya",
+        "title": "Whirling dervishes of Konya",
+        "creator": "Documentary of the sema",
+        "why": ""
+      },
+      {
+        "id": "watch-sufi-shrines-and-gatherings",
+        "title": "Sufi shrines and gatherings",
+        "creator": "Any respectful documentary",
+        "why": ""
+      }
+    ],
+    "listen": [
+      {
+        "id": "listen-nusrat-fateh-ali-khan",
+        "title": "Nusrat Fateh Ali Khan",
+        "creator": "Qawwali",
+        "why": ""
+      },
+      {
+        "id": "listen-ney-flute",
+        "title": "Ney flute",
+        "creator": "Reed flute meditation",
+        "why": ""
+      }
+    ],
+    "art": [
+      {
+        "id": "art-islamic-calligraphy",
+        "title": "Islamic calligraphy",
+        "creator": "Letters as devotion",
+        "why": ""
+      },
+      {
+        "id": "art-arabesque-geometry",
+        "title": "Arabesque geometry",
+        "creator": "Infinite pattern",
+        "why": ""
+      },
+      {
+        "id": "art-persian-miniatures",
+        "title": "Persian miniatures",
+        "creator": "Illustrated poems",
+        "why": ""
+      }
+    ],
+    "eat": [
+      {
+        "id": "eat-dates",
+        "title": "Dates",
+        "creator": "Shared at sunset",
+        "why": ""
+      },
+      {
+        "id": "eat-lentil-soup",
+        "title": "Lentil soup",
+        "creator": "Mercimek çorbası",
+        "why": ""
+      },
+      {
+        "id": "eat-baklava",
+        "title": "Baklava",
+        "creator": "For a guest",
+        "why": ""
+      }
+    ],
+    "drink": [
+      {
+        "id": "drink-turkish-coffee",
+        "title": "Turkish coffee",
+        "creator": "Slow, in small cups",
+        "why": ""
+      },
+      {
+        "id": "drink-black-tea-cay",
+        "title": "Black tea (çay)",
+        "creator": "Offered to every guest",
+        "why": ""
+      },
+      {
+        "id": "drink-sharbat",
+        "title": "Sharbat",
+        "creator": "Sweet fruit drink",
+        "why": ""
+      }
+    ],
+    "customs": [
+      {
+        "id": "customs-sit-in-a-circle",
+        "title": "Sit in a circle",
+        "creator": "Equal, facing the center",
+        "why": ""
+      },
+      {
+        "id": "customs-offer-tea-to-every-guest",
+        "title": "Offer tea to every guest",
+        "creator": "Hospitality is a practice",
+        "why": ""
+      },
+      {
+        "id": "customs-remove-shoes-at-the-door",
+        "title": "Remove shoes at the door",
+        "creator": "Keep the space clean",
+        "why": ""
+      }
+    ]
+  },
+  "ethics": [
+    {
+      "title": "Love as the path",
+      "text": "The heart is trained through love of the Beloved and of creation."
+    },
+    {
+      "title": "Serve first",
+      "text": "Service is prayer in action."
+    },
+    {
+      "title": "Humility before the guide",
+      "text": "Learn with a teacher and without pride."
+    }
+  ],
+  "philosophy": [
+    {
+      "title": "Unity of being",
+      "text": "Ibn Arabi: all things are one reality in many forms."
+    },
+    {
+      "title": "The heart as mirror",
+      "text": "Polish it through remembrance."
+    },
+    {
+      "title": "Dying before you die",
+      "text": "Let the false self fall away."
+    },
+    {
+      "title": "Longing as teacher",
+      "text": "Separation draws you toward return."
+    }
+  ],
+  "journal": [
+    "What did you remember today that you had forgotten?",
+    "Where did love lead you instead of fear?",
+    "What did the poem say to you?",
+    "Whom did you host or serve?",
+    "What do you long for?",
+    "What did you say that you wish you hadn’t?",
+    "What fell away today?"
+  ],
+  "reflect": [
+    "What did longing teach you?",
+    "Which practice changed you the most, and why?",
+    "What daily remembrance will you keep?"
+  ],
+  "dayThemes": [],
+  "guide": {
+    "intro": [
+      "Sufism is the mystical dimension of Islam, a path of love, remembrance and inner purification. It has produced some of the world’s most beloved poetry.",
+      "Orders such as the Mevlevi, Qadiri and Naqshbandi each keep their own practices of dhikr, music, poetry and service."
+    ],
+    "origin": "Persia, Anatolia and beyond",
+    "era": "8th c. CE to today",
+    "figures": [
+      {
+        "name": "Rabia al-Adawiyya",
+        "dates": "",
+        "bio": "8th century Basra mystic who taught pure love of God."
+      },
+      {
+        "name": "Al-Ghazali",
+        "dates": "",
+        "bio": "Scholar who joined law and mysticism."
+      },
+      {
+        "name": "Rumi",
+        "dates": "",
+        "bio": "Persian poet, 1207 to 1273, whose followers formed the Mevlevi order."
+      },
+      {
+        "name": "Ibn Arabi",
+        "dates": "",
+        "bio": "Andalusian thinker of the unity of being."
+      }
+    ],
+    "history": [
+      {
+        "when": "8th c.",
+        "what": "Early ascetics and mystics in Basra and Kufa",
+        "detail": ""
+      },
+      {
+        "when": "11th c.",
+        "what": "Al-Ghazali writes on the revival of the religious sciences",
+        "detail": ""
+      },
+      {
+        "when": "1273",
+        "what": "Rumi dies in Konya; the Mevlevi order forms",
+        "detail": ""
+      },
+      {
+        "when": "13th c.",
+        "what": "Ibn Arabi writes on the unity of being",
+        "detail": ""
+      }
+    ],
+    "concepts": [
+      {
+        "term": "Dhikr",
+        "text": "Repeating divine names to polish the heart.",
+        "detail": ""
+      },
+      {
+        "term": "Sema",
+        "text": "The whirling ceremony of the Mevlevi.",
+        "detail": ""
+      },
+      {
+        "term": "Maqamat",
+        "text": "Stations along the path.",
+        "detail": ""
+      },
+      {
+        "term": "Ahwal",
+        "text": "States that come as gifts.",
+        "detail": ""
+      }
+    ],
+    "facts": [
+      {
+        "text": "The word Sufi may come from suf, meaning wool, the coarse cloth of early ascetics."
+      },
+      {
+        "text": "The Mevlevi whirl with one palm up to receive and one down to give."
+      },
+      {
+        "text": "Qawwali is a devotional music form of South Asian Sufis."
+      }
+    ],
+    "glossary": [],
+    "furtherReading": [],
+    "learnFrom": [],
+    "sources": []
+  }
+}

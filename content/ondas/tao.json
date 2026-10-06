@@ -1,0 +1,404 @@
+{
+  "version": 1,
+  "id": "tao",
+  "name": "Taoism",
+  "origin": "China",
+  "tone": "yellow",
+  "icon": "yin-yang",
+  "line": "Move with the way of things, not against it.",
+  "era": "4th c. BCE to today",
+  "font": "Cormorant Garamond",
+  "pattern": "flowing-lines",
+  "glyph": "道",
+  "quote": {
+    "text": "A journey of a thousand miles begins with a single step.",
+    "by": "Laozi",
+    "source": ""
+  },
+  "quotes": [],
+  "words": [
+    {
+      "id": "word-wu-wei",
+      "term": "Wu wei",
+      "meaning": "Effortless action"
+    },
+    {
+      "id": "word-ziran",
+      "term": "Ziran",
+      "meaning": "Naturalness, of itself so"
+    },
+    {
+      "id": "word-qi",
+      "term": "Qi",
+      "meaning": "Vital energy"
+    },
+    {
+      "id": "word-dao",
+      "term": "Dao",
+      "meaning": "The Way"
+    },
+    {
+      "id": "word-de",
+      "term": "De",
+      "meaning": "Virtue, the power of the Way"
+    },
+    {
+      "id": "word-pu",
+      "term": "Pu",
+      "meaning": "The uncarved block"
+    },
+    {
+      "id": "word-yin-and-yang",
+      "term": "Yin and yang",
+      "meaning": "Complementary opposites"
+    }
+  ],
+  "practices": [
+    {
+      "id": "morning-qigong",
+      "name": "Morning qigong",
+      "icon": "wind",
+      "slot": "Morning",
+      "time": "06:30",
+      "minutes": 15,
+      "meta": "Morning · 15 min",
+      "instructions": "",
+      "why": "",
+      "variations": []
+    },
+    {
+      "id": "walk-without-a-goal",
+      "name": "Walk without a goal",
+      "icon": "person-simple-walk",
+      "slot": "Afternoon",
+      "time": "12:30",
+      "minutes": 30,
+      "meta": "Midday · 30 min",
+      "instructions": "",
+      "why": "",
+      "variations": []
+    },
+    {
+      "id": "tea-slowly",
+      "name": "Tea, slowly",
+      "icon": "coffee",
+      "slot": "Afternoon",
+      "time": "16:00",
+      "minutes": 15,
+      "meta": "Afternoon · 15 min",
+      "instructions": "",
+      "why": "",
+      "variations": []
+    },
+    {
+      "id": "observe-the-sky",
+      "name": "Observe the sky",
+      "icon": "moon-stars",
+      "slot": "Evening",
+      "time": "20:30",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "",
+      "why": "",
+      "variations": []
+    }
+  ],
+  "tasks": [
+    {
+      "id": "read-one-chapter-of-the-tao-te-ching",
+      "name": "Read one chapter of the Tao Te Ching",
+      "meta": "81 chapters, one at a time",
+      "time": "13:00",
+      "slot": "Afternoon"
+    },
+    {
+      "id": "do-one-thing-without-forcing-it",
+      "name": "Do one thing without forcing it",
+      "meta": "Notice the difference",
+      "time": "18:00",
+      "slot": "Evening"
+    }
+  ],
+  "rules": [
+    {
+      "id": "r1",
+      "text": "Do not force. If it resists, rest.",
+      "why": ""
+    },
+    {
+      "id": "r2",
+      "text": "No rushing between places",
+      "why": ""
+    },
+    {
+      "id": "r3",
+      "text": "Spend part of the day outdoors",
+      "why": ""
+    },
+    {
+      "id": "r4",
+      "text": "Say less than you could",
+      "why": ""
+    }
+  ],
+  "immerse": {
+    "read": [
+      {
+        "id": "read-tao-te-ching",
+        "title": "Tao Te Ching",
+        "creator": "Laozi",
+        "why": ""
+      },
+      {
+        "id": "read-zhuangzi-inner-chapters",
+        "title": "Zhuangzi (Inner Chapters)",
+        "creator": "Zhuangzi",
+        "why": ""
+      },
+      {
+        "id": "read-the-tao-of-pooh",
+        "title": "The Tao of Pooh",
+        "creator": "Benjamin Hoff",
+        "why": ""
+      }
+    ],
+    "watch": [
+      {
+        "id": "watch-crouching-tiger-hidden-dragon-2000",
+        "title": "Crouching Tiger, Hidden Dragon (2000)",
+        "creator": "Wudang and Daoist themes",
+        "why": ""
+      },
+      {
+        "id": "watch-documentary-on-wudang-mountain",
+        "title": "Documentary on Wudang mountain",
+        "creator": "Any good one",
+        "why": ""
+      }
+    ],
+    "listen": [
+      {
+        "id": "listen-guqin-music",
+        "title": "Guqin music",
+        "creator": "Seven-string zither",
+        "why": ""
+      },
+      {
+        "id": "listen-rain-and-stream-recordings",
+        "title": "Rain and stream recordings",
+        "creator": "For the evening sit",
+        "why": ""
+      }
+    ],
+    "art": [
+      {
+        "id": "art-shan-shui-landscape-painting",
+        "title": "Shan shui landscape painting",
+        "creator": "Mountains and water",
+        "why": ""
+      },
+      {
+        "id": "art-chinese-calligraphy",
+        "title": "Chinese calligraphy",
+        "creator": "Copy the character for Dao",
+        "why": ""
+      }
+    ],
+    "eat": [
+      {
+        "id": "eat-congee",
+        "title": "Congee",
+        "creator": "Rice porridge",
+        "why": ""
+      },
+      {
+        "id": "eat-steamed-seasonal-vegetables",
+        "title": "Steamed seasonal vegetables",
+        "creator": "Whatever is in season",
+        "why": ""
+      },
+      {
+        "id": "eat-tofu-and-mushrooms",
+        "title": "Tofu and mushrooms",
+        "creator": "Light and plain",
+        "why": ""
+      }
+    ],
+    "drink": [
+      {
+        "id": "drink-oolong",
+        "title": "Oolong",
+        "creator": "Brewed gongfu style",
+        "why": ""
+      },
+      {
+        "id": "drink-pu-erh",
+        "title": "Pu-erh",
+        "creator": "Aged and earthy",
+        "why": ""
+      },
+      {
+        "id": "drink-chrysanthemum-tea",
+        "title": "Chrysanthemum tea",
+        "creator": "Cooling",
+        "why": ""
+      }
+    ],
+    "customs": [
+      {
+        "id": "customs-practice-at-dawn",
+        "title": "Practice at dawn",
+        "creator": "Park tai chi is a living custom",
+        "why": ""
+      },
+      {
+        "id": "customs-eat-with-the-seasons",
+        "title": "Eat with the seasons",
+        "creator": "Warm in winter, light in summer",
+        "why": ""
+      },
+      {
+        "id": "customs-keep-a-window-open",
+        "title": "Keep a window open",
+        "creator": "Let qi move",
+        "why": ""
+      }
+    ]
+  },
+  "ethics": [
+    {
+      "title": "Three treasures",
+      "text": "Compassion, moderation and humility."
+    },
+    {
+      "title": "Be like water",
+      "text": "Yield, benefit all things and do not compete."
+    },
+    {
+      "title": "Do not meddle",
+      "text": "A good ruler, like a good cook, does not overhandle the fish."
+    }
+  ],
+  "philosophy": [
+    {
+      "title": "Wu wei",
+      "text": "Act in accord with the situation instead of against it."
+    },
+    {
+      "title": "The uncarved block",
+      "text": "Simplicity is original nature."
+    },
+    {
+      "title": "Yin and yang",
+      "text": "Opposites arise together and turn into each other."
+    },
+    {
+      "title": "Usefulness of emptiness",
+      "text": "The hub of the wheel is useful because it is hollow."
+    }
+  ],
+  "journal": [
+    "Where did you push today, and what happened when you stopped?",
+    "What did water teach you today?",
+    "What did you do today that needed no effort?",
+    "What changed with the weather, and how did you change with it?",
+    "Where did you try to be useful instead of present?",
+    "What would the uncarved version of this day look like?",
+    "What did you leave empty, and what filled it?"
+  ],
+  "reflect": [
+    "What did flowing feel like, and what was forcing?",
+    "Which practice changed you the most, and why?",
+    "What would a year of less effort look like?"
+  ],
+  "dayThemes": [],
+  "guide": {
+    "intro": [
+      "Daoism is both a philosophy and a religion. As philosophy, it asks you to live in harmony with the Dao, the way things naturally unfold. As religion, it includes temples, priests, and long traditions of inner alchemy and healing.",
+      "Its two great early texts are the Tao Te Ching and the Zhuangzi. They are poetic, playful and hard to pin down on purpose."
+    ],
+    "origin": "China",
+    "era": "4th c. BCE to today",
+    "figures": [
+      {
+        "name": "Laozi",
+        "dates": "",
+        "bio": "Traditional author of the Tao Te Ching. Historians debate whether he existed."
+      },
+      {
+        "name": "Zhuangzi",
+        "dates": "",
+        "bio": "Fourth century BCE writer of parables, humor and freedom."
+      },
+      {
+        "name": "Zhang Daoling",
+        "dates": "",
+        "bio": "Founded the Celestial Masters in 142 CE."
+      },
+      {
+        "name": "Wang Chongyang",
+        "dates": "",
+        "bio": "Founded the Quanzhen school in the 12th century."
+      }
+    ],
+    "history": [
+      {
+        "when": "c. 400 BCE",
+        "what": "The Tao Te Ching takes shape",
+        "detail": ""
+      },
+      {
+        "when": "c. 300 BCE",
+        "what": "Zhuangzi writes on spontaneity and play",
+        "detail": "His parable of the butterfly asks who is dreaming whom."
+      },
+      {
+        "when": "142 CE",
+        "what": "The Celestial Masters form the first organized Daoist community",
+        "detail": ""
+      },
+      {
+        "when": "12th c.",
+        "what": "Quanzhen Daoism blends the three teachings and monastic life",
+        "detail": ""
+      }
+    ],
+    "concepts": [
+      {
+        "term": "Dao",
+        "text": "The way, source and pattern of all things.",
+        "detail": ""
+      },
+      {
+        "term": "Wu wei",
+        "text": "Non-forcing. Action that fits.",
+        "detail": ""
+      },
+      {
+        "term": "Ziran",
+        "text": "Of itself so. Nature, spontaneity.",
+        "detail": ""
+      },
+      {
+        "term": "Neidan",
+        "text": "Inner alchemy, the cultivation of qi and spirit.",
+        "detail": ""
+      }
+    ],
+    "facts": [
+      {
+        "text": "The Tao Te Ching has about 5,000 characters, and is among the most translated books ever."
+      },
+      {
+        "text": "Tai chi and qigong grew from Daoist and martial traditions."
+      },
+      {
+        "text": "Daoist temples often sit on mountains, called the five sacred peaks."
+      }
+    ],
+    "glossary": [],
+    "furtherReading": [],
+    "learnFrom": [],
+    "sources": []
+  }
+}

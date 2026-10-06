@@ -1,0 +1,215 @@
+/* Base components, built from the design system spec (design-reference/_ds). */
+
+/* ── GlassButton ─────────────────────────────────────────── */
+.glassBtn{
+  height:var(--gb-size,44px);min-width:var(--gb-size,44px);padding:0;border-radius:var(--radius-pill);
+  display:inline-flex;align-items:center;justify-content:center;gap:6px;flex-shrink:0;
+  font:400 var(--fs-17)/1.3 var(--font-sans);letter-spacing:var(--tracking-body);color:var(--label);
+  background:var(--glass-fill);border:var(--glass-stroke);box-shadow:var(--glass-highlight),var(--glass-shadow);
+  -webkit-backdrop-filter:var(--glass-blur);backdrop-filter:var(--glass-blur);
+  transition:transform var(--duration-micro) var(--spring-snappy),background var(--duration-micro);
+  position:relative;
+}
+/* 44pt hit target even for the 36px variant */
+.glassBtn::after{content:"";position:absolute;inset:min(0px,calc((var(--gb-size,44px) - 44px) / 2))}
+.glassBtn:active{transform:scale(var(--press-scale));background:var(--glass-pressed)}
+.glassBtn:disabled{opacity:.4}
+.glassLabel{padding:0 18px}
+.glassSemibold{font-weight:600}
+.glassProminent{
+  background:var(--accent);color:var(--accent-contrast);border:0.5px solid rgba(0,0,0,0.08);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,0.35),var(--glass-shadow);
+  -webkit-backdrop-filter:none;backdrop-filter:none;
+}
+.glassProminent:active{background:var(--accent)}
+
+/* ── Button ──────────────────────────────────────────────── */
+.btn{
+  border-radius:var(--radius-pill);display:inline-flex;align-items:center;justify-content:center;gap:8px;
+  font-family:var(--font-sans);font-weight:600;letter-spacing:var(--tracking-body);white-space:nowrap;
+  transition:transform var(--duration-micro) var(--spring-snappy),opacity var(--duration-micro);
+}
+.btn:active{transform:scale(.98);opacity:.8}
+.btn:disabled{opacity:.35;transform:none}
+.btnLg{height:52px;padding:0 24px;font-size:var(--fs-17)}
+.btnMd{height:38px;padding:0 18px;font-size:var(--fs-17)}
+.btnSm{height:30px;padding:0 14px;font-size:var(--fs-15);position:relative}
+.btnSm::after{content:"";position:absolute;inset:-7px 0}
+.btnFull{width:100%}
+.btnPrimary{background:var(--accent);color:var(--accent-contrast);box-shadow:inset 0 1px 0 rgba(255,255,255,0.18)}
+.btnSecondary{background:var(--surface-fill);color:var(--label)}
+.btnInverse{background:var(--surface-page);color:var(--label)}
+.btnPlain{background:transparent;color:var(--label)}
+
+/* ── Chip ────────────────────────────────────────────────── */
+.chip{
+  height:var(--chip-height);display:inline-flex;align-items:center;gap:8px;padding:0 12px;border-radius:10px;flex-shrink:0;
+  border:1px solid var(--separator);background:transparent;color:var(--label);
+  font:500 var(--fs-16)/1 var(--font-sans);letter-spacing:var(--tracking-body);white-space:nowrap;position:relative;
+}
+.chip::after{content:"";position:absolute;inset:-5px 0}
+.chipOn{border-color:var(--accent);background:var(--accent);color:var(--accent-contrast)}
+
+/* ── Switch ──────────────────────────────────────────────── */
+.switch{
+  position:relative;width:var(--switch-w);height:var(--switch-h);border-radius:var(--radius-pill);flex-shrink:0;
+  touch-action:none;background:var(--switch-off);transition:background var(--duration-standard) var(--ease-enter);
+}
+.switch::after{content:"";position:absolute;inset:-8px 0}
+.switchOn{background:var(--switch-on)}
+.switch:disabled{opacity:.5}
+.switchThumb{position:absolute;top:2px;left:2px;width:37px;height:24px}
+.switchKnob{
+  position:absolute;inset:0;border-radius:var(--radius-pill);background:var(--white);box-shadow:var(--glass-lens-shadow);
+  transition:transform var(--spring-snappy-ms) var(--spring-snappy);
+}
+.switchPressed .switchKnob{transform:scale(var(--thumb-grow))}
+
+/* ── Stepper ─────────────────────────────────────────────── */
+.stepper{width:94px;height:34px;border-radius:var(--radius-pill);background:var(--surface-fill-strong);display:inline-flex;align-items:center;flex-shrink:0}
+.stepperBtn{flex:1;height:44px;display:inline-flex;align-items:center;justify-content:center;color:var(--label)}
+.stepperBtn:disabled{opacity:.3}
+.stepperBtn:active:not(:disabled){opacity:.5}
+.stepperSep{width:1px;height:18px;background:rgba(0,0,0,0.15)}
+[data-theme="dark"] .stepperSep{background:rgba(255,255,255,0.18)}
+
+/* ── StatusCircle / CheckDot ─────────────────────────────── */
+.status{position:relative;border-radius:50%;border-style:solid;border-color:var(--label);background:transparent;flex-shrink:0}
+.statusFill{position:absolute;border-radius:50%;background:var(--label)}
+.checkDot{
+  border-radius:50%;flex:none;display:flex;align-items:center;justify-content:center;
+  border:2px solid var(--label-quaternary);color:transparent;background:transparent;
+  transition:background var(--duration-standard) var(--ease-enter);
+}
+.checkDotSoft{border-color:var(--gray-250)}
+[data-theme="dark"] .checkDotSoft{border-color:var(--surface-fill-strong)}
+.checkDotOn{background:var(--accent);border-color:transparent;color:var(--accent-contrast)}
+
+/* ── SegmentedControl ────────────────────────────────────── */
+.seg{position:relative;display:inline-flex;padding:4px;border-radius:999px;background:var(--glass-track);touch-action:none}
+.segFull{display:flex}
+.segThumb{position:absolute;left:4px;top:4px;bottom:4px;pointer-events:none}
+.lens{
+  position:absolute;inset:0;border-radius:999px;background:var(--glass-lens-fill);box-shadow:var(--glass-lens-shadow);
+  transition:transform var(--spring-snappy-ms) var(--spring-snappy);
+}
+.lensPressed{transform:scale(var(--thumb-grow))}
+.segBtn{
+  position:relative;flex:1;min-width:44px;height:38px;padding:0 12px;white-space:nowrap;
+  font:500 var(--fs-17)/1 var(--font-sans);color:var(--label-secondary);
+  transition:color var(--duration-micro) var(--ease-enter);
+}
+.segBtnOn{font-weight:600;color:var(--label)}
+
+/* ── TabBar ──────────────────────────────────────────────── */
+.tabBar{
+  position:relative;height:var(--tabbar-height);display:flex;align-items:stretch;padding:4px;touch-action:none;
+  border-radius:var(--radius-pill);background:var(--glass-fill-strong);border:var(--glass-border);
+  box-shadow:var(--glass-highlight),var(--glass-shadow);
+  -webkit-backdrop-filter:var(--glass-blur);backdrop-filter:var(--glass-blur);
+}
+.tabThumb{position:absolute;left:4px;top:4px;bottom:4px;pointer-events:none;z-index:0}
+.tabBtn{
+  position:relative;z-index:1;flex:1;min-width:44px;display:flex;align-items:center;justify-content:center;
+  color:var(--label-secondary);transition:color var(--duration-micro) var(--ease-enter);
+}
+.tabBtnOn{color:var(--accent)}
+.tabIcon{display:flex;transition:transform var(--spring-snappy-ms) var(--spring-snappy)}
+.tabBtnOn .tabIcon{transform:scale(var(--active-scale))}
+
+/* ── Progress ────────────────────────────────────────────── */
+.bar{border-radius:999px;background:var(--viz-track);overflow:hidden}
+.barFill{height:100%;width:100%;border-radius:999px;transition:transform var(--duration-standard) var(--ease-enter),opacity var(--duration-micro)}
+.ring{position:relative;flex-shrink:0}
+.ringSvg{display:block;transform:rotate(-90deg)}
+.ringArc{transition:stroke-dasharray var(--duration-large) var(--ease-enter)}
+.ringInner{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.stepBar{height:3px;background:var(--separator)}
+.stepBarFill{height:100%;width:100%;background:var(--label);transform-origin:0 50%;transition:transform var(--duration-standard) var(--ease-enter)}
+.avatar{border-radius:50%;background:var(--accent);color:var(--accent-contrast);display:inline-flex;align-items:center;justify-content:center;font-weight:700;flex-shrink:0}
+
+/* ── Lists ───────────────────────────────────────────────── */
+.section{display:flex;flex-direction:column;gap:10px}
+.sectionHeader{padding:0 32px;font:700 var(--fs-20)/1.2 var(--font-sans);letter-spacing:var(--tracking-title);color:var(--label);margin:0}
+.sectionCard{margin:0 var(--page-margin);background:var(--surface-card);border-radius:var(--radius-card);overflow:hidden}
+.sectionFooter{padding:0 32px;font:400 var(--fs-15)/1.3 var(--font-sans);color:var(--label-tertiary);text-wrap:pretty}
+.row{
+  position:relative;display:flex;align-items:center;width:100%;min-height:var(--row-min-height);padding:10px var(--row-padding-x);gap:16px;
+  text-align:start;background:transparent;transition:background var(--duration-micro);
+}
+.rowTall{min-height:64px}
+button.row:active{background:var(--separator)}
+.rowLead{width:28px;display:inline-flex;justify-content:center;flex-shrink:0}
+.rowText{flex:1;min-width:0}
+.rowTitle{font:400 var(--fs-17)/1.3 var(--font-sans);letter-spacing:var(--tracking-body);color:var(--label);overflow:hidden;text-overflow:ellipsis}
+.rowTitleNowrap{white-space:nowrap}
+.rowDestructive{color:var(--destructive)}
+.rowSub{font:400 var(--fs-15)/1.3 var(--font-sans);color:var(--label-secondary);margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.rowValue{font:400 var(--fs-17)/1.3 var(--font-sans);color:var(--label-secondary);white-space:nowrap;max-width:55%;overflow:hidden;text-overflow:ellipsis}
+.rowSep{position:absolute;left:16px;right:16px;bottom:0;height:1px;background:var(--separator)}
+.rowSepInset{left:60px}
+.chev{margin-left:-6px}
+
+/* Collapsible section header used across tabs: "To Check In  3 ⌄" */
+.toggle{display:flex;align-items:center;justify-content:space-between;width:100%;padding:32px 20px 14px;text-align:start}
+.toggleTitle{font:700 var(--fs-20)/1.22 var(--font-sans);letter-spacing:var(--tracking-title);color:var(--label);margin:0}
+.toggleMeta{display:flex;align-items:center;gap:10px;color:var(--label-secondary);font:400 var(--fs-15) var(--font-sans)}
+.toggleCaret{display:flex;transition:transform var(--duration-standard) var(--ease-enter)}
+.toggleCaretClosed{transform:rotate(-90deg)}
+
+/* ── Pickers ─────────────────────────────────────────────── */
+.ruler{text-align:center}
+.rulerValue{font:700 var(--fs-24) var(--font-sans);color:var(--label);margin-bottom:26px}
+.rulerWrap{position:relative}
+.rulerScroll{height:100px;-webkit-mask-image:linear-gradient(90deg,transparent,#000 15%,#000 85%,transparent);mask-image:linear-gradient(90deg,transparent,#000 15%,#000 85%,transparent);touch-action:pan-x}
+.rulerTrack{position:relative;height:100px}
+.rulerTick{position:absolute;top:54px;width:1px;height:46px;background:var(--separator)}
+.rulerTickMajor{top:30px;height:70px;background:var(--label-secondary)}
+.rulerTickLabel{position:absolute;top:-22px;left:-20px;width:40px;text-align:center;font:400 var(--fs-13) var(--font-sans);color:var(--label-secondary)}
+.rulerNeedle{position:absolute;left:50%;top:6px;width:2px;height:94px;background:var(--accent);transform:translateX(-1px);border-radius:1px;pointer-events:none}
+.wheel{position:relative;display:flex;-webkit-mask-image:linear-gradient(transparent,#000 30%,#000 70%,transparent);mask-image:linear-gradient(transparent,#000 30%,#000 70%,transparent)}
+.wheelBand{position:absolute;left:0;right:0;border-top:1px solid var(--separator);border-bottom:1px solid var(--separator);pointer-events:none}
+.wheelCol{flex:1;overflow-y:auto;scroll-snap-type:y mandatory;scrollbar-width:none;text-align:center;overscroll-behavior:contain;touch-action:pan-y}
+.wheelCol::-webkit-scrollbar{display:none}
+.wheelItem{scroll-snap-align:center;font:600 var(--fs-20) var(--font-sans);color:var(--label);width:100%;display:block}
+
+/* ── Menu ────────────────────────────────────────────────── */
+.menuScrim{position:absolute;inset:0;z-index:69}
+.menuScrimDim{background:rgba(0,0,0,.08)}
+.menu{
+  position:absolute;z-index:70;padding:8px 0;border-radius:var(--radius-menu);
+  background:var(--glass-fill-strong);border:var(--glass-stroke);box-shadow:var(--glass-highlight),var(--shadow-menu);
+  -webkit-backdrop-filter:var(--glass-blur);backdrop-filter:var(--glass-blur);color:var(--label);
+  animation:menuPop var(--duration-standard) var(--ease-enter);transform-origin:50% 0;
+}
+@keyframes menuPop{from{opacity:0;transform:scale(.94)}to{opacity:1;transform:scale(1)}}
+@media (prefers-reduced-motion:reduce){@keyframes menuPop{from{opacity:0}to{opacity:1}}}
+.menuItem{width:100%;min-height:48px;display:flex;align-items:center;gap:14px;padding:8px 22px;text-align:start;font:400 var(--fs-17)/1.3 var(--font-sans);letter-spacing:var(--tracking-body);color:var(--label)}
+.menuItem:active{background:var(--glass-track)}
+.menuDestructive{color:var(--destructive)}
+.menuCheck{width:18px;display:inline-flex}
+.menuIcon{width:26px;display:inline-flex;justify-content:center}
+.menuDivider{height:1px;background:var(--separator);margin:6px 22px}
+.menuQuick{display:grid;grid-template-columns:repeat(3,1fr);padding:6px 8px 10px;border-bottom:1px solid var(--separator)}
+.menuQuickBtn{display:flex;flex-direction:column;align-items:center;gap:4px;padding:8px 0;font:400 var(--fs-15) var(--font-sans);border-radius:18px}
+.menuQuickBtn:active{background:var(--glass-track)}
+.menuGroup{padding:6px 0}
+.menuGroup + .menuGroup{border-top:1px solid var(--separator)}
+
+/* ── Sheet ───────────────────────────────────────────────── */
+.sheetRoot{position:absolute;inset:0;z-index:85;display:flex;flex-direction:column;justify-content:flex-end}
+.sheetScrim{position:absolute;inset:0;background:var(--scrim);opacity:0}
+.sheetPanel{
+  position:relative;display:flex;flex-direction:column;overflow:hidden;touch-action:pan-y;
+  transform:translate3d(0,9999px,0);
+  height:calc((100% - var(--sheet-top)) * var(--detent,1));
+  border-radius:var(--radius-sheet) var(--radius-sheet) 0 0;background:var(--surface-grouped);box-shadow:0 -1px 0 rgba(0,0,0,0.04);
+  --sheet-top:max(47px, calc(var(--sat) + 6px));
+}
+.sheetGrab{display:flex;justify-content:center;padding:8px 0 0;flex:none;touch-action:none}
+.sheetGrab span{width:36px;height:5px;border-radius:3px;background:var(--label-quaternary)}
+.sheetHeader{position:relative;min-height:var(--hit-target);display:flex;align-items:center;gap:12px;padding:0 var(--page-margin);margin:8px 0 14px;flex:none;touch-action:none}
+.sheetSide{display:flex;gap:8px;z-index:1}
+.sheetSideEnd{margin-left:auto}
+.sheetTitle{position:absolute;left:80px;right:80px;text-align:center;pointer-events:none;font:600 var(--fs-17)/1.3 var(--font-sans);letter-spacing:var(--tracking-body);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin:0}
+.sheetBody{flex:1;min-height:0;padding-bottom:calc(34px + var(--kb));scroll-padding-bottom:calc(60px + var(--kb))}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet data-dc-atomics><meta name="design_doc_mode" content="canvas"><style>body{margin:0;background:#f0eee9;font-family:system-ui,sans-serif}a{color:#007AFF}a:hover{opacity:.7}.dv-turn{padding:40px 44px 32px;border-bottom:1px solid rgba(0,0,0,.08);scroll-margin-top:16px}.dv-thd{display:flex;align-items:baseline;gap:10px;margin:0 0 8px}.dv-tid{font:600 10px ui-monospace,Menlo,monospace;padding:3px 7px;background:#1a1a1a;color:#fff;border-radius:4px;text-decoration:none}.dv-tname{font:600 13px/1.2 system-ui,sans-serif;color:#1a1a1a}.dv-group{font:600 12px/1.2 system-ui,sans-serif;color:rgba(0,0,0,.55);text-transform:uppercase;letter-spacing:.06em;margin:28px 0 12px}.dv-opts{display:flex;flex-wrap:wrap;gap:28px;align-items:flex-start}.dv-opt{flex:none;display:flex;flex-direction:column;gap:9px;scroll-margin-top:16px}.dv-oid{font:600 10.5px ui-monospace,Menlo,monospace;padding:3px 7px;background:rgba(0,0,0,.08);color:#1a1a1a;border-radius:5px;text-decoration:none}.dv-olabel{display:flex;align-items:baseline;gap:8px;font:400 11px/1.3 system-ui,sans-serif;color:rgba(0,0,0,.55)}.dv-card{max-width:100%;background:#E4E5EA;border:1px solid rgba(0,0,0,.08);border-radius:8px;box-shadow:0 1px 3px rgba(0,0,0,.06);overflow:hidden}.dv-opt:target .dv-oid{background:#2a78d6;color:#fff}.dv-next{margin:22px 0 0;font:12px/1.5 system-ui,sans-serif;color:rgba(0,0,0,.5)}.dv-note{max-width:760px;font:13px/1.55 system-ui,sans-serif;color:rgba(0,0,0,.7);margin:0}</style></helmet>
+<section class="dv-turn" id="t5">
+<div class="dv-thd"><a class="dv-tid" href="#t5">5</a><span class="dv-tname">Round 5: settings hub, category pages, Ondas+ emblem</span></div>
+<p class="dv-note">Settings is now a hub: profile, the Ondas+ card, then rows that each open their own screen (Appearance, Notifications, Practice, Sync, Data, Privacy, Help). Tapping a Gallery category opens all its Lagos, two per row. The tab bar is icons only. Onboarding has no Skip, and no back button on page one. After onboarding and the trial, you land on the Ondas tab. Ondas+ gets a ring of all ten tradition colors around a plus.</p>
+<div class="dv-opts" style="margin-top:20px">
+<div class="dv-opt" id="5a"><div class="dv-olabel"><a class="dv-oid" href="#5a">5a</a>Settings hub</div><div class="dv-card" style="width:416px"><dc-import name="OndaApp" start-screen="settings" hint-size="414px,900px"></dc-import></div></div>
+<div class="dv-opt" id="5b"><div class="dv-olabel"><a class="dv-oid" href="#5b">5b</a>Category page</div><div class="dv-card" style="width:416px"><dc-import name="OndaApp" start-screen="category" hint-size="414px,900px"></dc-import></div></div>
+<div class="dv-opt" id="5c"><div class="dv-olabel"><a class="dv-oid" href="#5c">5c</a>Lagos, plus on the left, icon-only tabs</div><div class="dv-card" style="width:416px"><dc-import name="OndaApp" start-screen="lagos" hint-size="414px,900px"></dc-import></div></div>
+<div class="dv-opt" id="5d"><div class="dv-olabel"><a class="dv-oid" href="#5d">5d</a>Ondas+ paywall</div><div class="dv-card" style="width:416px"><dc-import name="OndaApp" start-screen="paywall" hint-size="414px,900px"></dc-import></div></div>
+<div class="dv-opt" id="5e"><div class="dv-olabel"><a class="dv-oid" href="#5e">5e</a>Onboarding page 1, no Skip or back</div><div class="dv-card" style="width:416px"><dc-import name="OndaApp" start-screen="onboarding" hint-size="414px,900px"></dc-import></div></div>
+</div>
+</section>
+<section class="dv-turn" id="t4">
+<div class="dv-thd"><a class="dv-tid" href="#t4">4</a><span class="dv-tname">Ondas+, sync, stats, themed Lagos list</span></div>
+<p class="dv-note">Ondas+ starts with a 7-day free trial, then a one-time € 14,99. Settings gets Apple Reminders, Calendar and Notion sync. A Stats tab adds activity, Ondas and a filterable history. The Lagos list is more spacious, every section collapses, and the active Onda is a themed banner. Each Onda has a Full guide with expandable Context, History, Language and Food.</p>
+<div class="dv-opts" style="margin-top:20px">
+<div class="dv-opt" id="4a"><div class="dv-olabel"><a class="dv-oid" href="#4a">4a</a>Lagos list, themed Onda banner</div><div class="dv-card" style="width:416px"><dc-import name="OndaApp" start-screen="lagos" hint-size="414px,900px"></dc-import></div></div>
+<div class="dv-opt" id="4b"><div class="dv-olabel"><a class="dv-oid" href="#4b">4b</a>Stats and history</div><div class="dv-card" style="width:416px"><dc-import name="OndaApp" start-screen="stats" hint-size="414px,900px"></dc-import></div></div>
+<div class="dv-opt" id="4c"><div class="dv-olabel"><a class="dv-oid" href="#4c">4c</a>Ondas+ paywall</div><div class="dv-card" style="width:416px"><dc-import name="OndaApp" start-screen="paywall" hint-size="414px,900px"></dc-import></div></div>
+<div class="dv-opt" id="4d"><div class="dv-olabel"><a class="dv-oid" href="#4d">4d</a>Settings with sync</div><div class="dv-card" style="width:416px"><dc-import name="OndaApp" start-screen="settings" hint-size="414px,900px"></dc-import></div></div>
+<div class="dv-opt" id="4e"><div class="dv-olabel"><a class="dv-oid" href="#4e">4e</a>Notion sync</div><div class="dv-card" style="width:416px"><dc-import name="OndaApp" start-screen="settings" start-sheet="notion" hint-size="414px,900px"></dc-import></div></div>
+<div class="dv-opt" id="4f"><div class="dv-olabel"><a class="dv-oid" href="#4f">4f</a>Onda full guide</div><div class="dv-card" style="width:416px"><dc-import name="OndaApp" start-screen="onda" start-sheet="guide" start-onda="zen" hint-size="414px,900px"></dc-import></div></div>
+</div>
+</section>
+<section class="dv-turn" id="t3">
+<div class="dv-thd"><a class="dv-tid" href="#t3">3</a><span class="dv-tname">Lagos: actions menu, Top Lagos, Lago detail</span></div>
+<p class="dv-note">Every Lago row has a ⋯ button, and press-and-hold opens the same menu: Check In, Edit, End, Restart, Extend, Share, Duplicate, Delete. Gallery gets a Top Lagos ranking with a category filter. Picking any Lago from Gallery or the ranking opens its detail with a Start Lago button.</p>
+<div class="dv-opts" style="margin-top:20px">
+<div class="dv-opt" id="3a"><div class="dv-olabel"><a class="dv-oid" href="#3a">3a</a>Lago actions menu (⋯ or hold)</div><div class="dv-card" style="width:416px"><dc-import name="OndaApp" start-screen="lagos" start-menu="lago" hint-size="414px,900px"></dc-import></div></div>
+<div class="dv-opt" id="3b"><div class="dv-olabel"><a class="dv-oid" href="#3b">3b</a>Gallery with Top Lagos entry</div><div class="dv-card" style="width:416px"><dc-import name="OndaApp" start-screen="gallery" hint-size="414px,900px"></dc-import></div></div>
+<div class="dv-opt" id="3c"><div class="dv-olabel"><a class="dv-oid" href="#3c">3c</a>Top Lagos ranking</div><div class="dv-card" style="width:416px"><dc-import name="OndaApp" start-screen="top" hint-size="414px,900px"></dc-import></div></div>
+<div class="dv-opt" id="3d"><div class="dv-olabel"><a class="dv-oid" href="#3d">3d</a>Lago detail + Start Lago</div><div class="dv-card" style="width:416px"><dc-import name="OndaApp" start-screen="top" start-sheet="lagoInfo" hint-size="414px,900px"></dc-import></div></div>
+</div>
+</section>
+<section class="dv-turn" id="t2">
+<div class="dv-thd"><a class="dv-tid" href="#t2">2</a><span class="dv-tname">Team feedback: onboarding, settings, Onda aesthetics, structured Lagos</span></div>
+<p class="dv-note">Added onboarding (three intro pages, then the design-system setup steps: length ruler, reminder wheel, first Onda). Added full Settings as a third tab. Each Onda now has its own color, pattern and typeface, and can be switched off in Settings. Lagos are regrouped into Today, To Check In and Checked In, and your active Onda's practices appear in the same list. Onda overviews, Create Onda, Immersion and Today now include context, history, vocabulary and food. The Lagos tab icon is now a checklist. <a href="#1m">1m</a> on the board below shows the new Lagos list.</p>
+<div class="dv-group">Onboarding</div>
+<div class="dv-opts">
+<div class="dv-opt" id="2a"><div class="dv-olabel"><a class="dv-oid" href="#2a">2a</a>Intro 1: Lagos</div><div class="dv-card" style="width:416px"><dc-import name="OndaApp" start-screen="onboarding" start-step="0" hint-size="414px,900px"></dc-import></div></div>
+<div class="dv-opt" id="2b"><div class="dv-olabel"><a class="dv-oid" href="#2b">2b</a>Intro 2: Ondas, each with its own look</div><div class="dv-card" style="width:416px"><dc-import name="OndaApp" start-screen="onboarding" start-step="1" hint-size="414px,900px"></dc-import></div></div>
+<div class="dv-opt" id="2c"><div class="dv-olabel"><a class="dv-oid" href="#2c">2c</a>Set up: Onda length</div><div class="dv-card" style="width:416px"><dc-import name="OndaApp" start-screen="onboarding" start-step="3" hint-size="414px,900px"></dc-import></div></div>
+<div class="dv-opt" id="2d"><div class="dv-olabel"><a class="dv-oid" href="#2d">2d</a>Set up: first Onda</div><div class="dv-card" style="width:416px"><dc-import name="OndaApp" start-screen="onboarding" start-step="5" hint-size="414px,900px"></dc-import></div></div>
+</div>
+<div class="dv-group">Settings</div>
+<div class="dv-opts">
+<div class="dv-opt" id="2e"><div class="dv-olabel"><a class="dv-oid" href="#2e">2e</a>Settings tab (scrolls)</div><div class="dv-card" style="width:416px"><dc-import name="OndaApp" start-screen="settings" hint-size="414px,900px"></dc-import></div></div>
+</div>
+<div class="dv-group">Onda aesthetics (overview, editorial)</div>
+<div class="dv-opts">
+<div class="dv-opt" id="2f"><div class="dv-olabel"><a class="dv-oid" href="#2f">2f</a>Zen: sand rings, Shippori Mincho</div><div class="dv-card" style="width:416px"><dc-import name="OndaApp" start-screen="onda" overview-style="b" start-onda="zen" hint-size="414px,900px"></dc-import></div></div>
+<div class="dv-opt" id="2g"><div class="dv-olabel"><a class="dv-oid" href="#2g">2g</a>Taoism: flowing water lines</div><div class="dv-card" style="width:416px"><dc-import name="OndaApp" start-screen="onda" overview-style="b" start-onda="tao" hint-size="414px,900px"></dc-import></div></div>
+<div class="dv-opt" id="2h"><div class="dv-olabel"><a class="dv-oid" href="#2h">2h</a>Tibetan Buddhism: prayer flags</div><div class="dv-card" style="width:416px"><dc-import name="OndaApp" start-screen="onda" overview-style="b" start-onda="tibet" hint-size="414px,900px"></dc-import></div></div>
+<div class="dv-opt" id="2i"><div class="dv-olabel"><a class="dv-oid" href="#2i">2i</a>Sufism: eight-point star</div><div class="dv-card" style="width:416px"><dc-import name="OndaApp" start-screen="onda" overview-style="b" start-onda="sufi" hint-size="414px,900px"></dc-import></div></div>
+</div>
+<p class="dv-next">Try next: "use <a class="dv-oid" href="#2b">2b</a> but with the black Continue from your reference" · "give Stoicism the same treatment on Today" · "dark mode pass for all Ondas"</p>
+</section>
+<section class="dv-turn" id="t1">
+<div class="dv-thd"><a class="dv-tid" href="#t1">1</a><span class="dv-tname">Onda — Lagos + Ondas, first pass</span></div>
+<p class="dv-note">Two tabs. <b>Lagos</b> are single habits, built from your screenshots. <b>Ondas</b> are worlds you live in for 7–30 days, one at a time. Each Onda is made of Lagos, plus immersion (reading, music, film, art), a daily journal, and a final reflection where the practices you keep become Lagos. Built on Clean Apps glass chrome with a blue accent. Each philosophy has its own pastel tint and a serif title. Every phone below is the live prototype, so you can tap through it. The full flow is in <a href="OndaApp.dc.html">OndaApp</a>.</p>
+
+<div class="dv-group">Onda overview</div>
+<div class="dv-opts">
+<div class="dv-opt" id="1a"><div class="dv-olabel"><a class="dv-oid" href="#1a">1a</a>Grouped: list sections, by the book</div><div class="dv-card" style="width:416px"><dc-import name="OndaApp" start-screen="onda" overview-style="a" hint-size="414px,900px"></dc-import></div></div>
+<div class="dv-opt" id="1b"><div class="dv-olabel"><a class="dv-oid" href="#1b">1b</a>Editorial: full-bleed tint, tick ruler for length</div><div class="dv-card" style="width:416px"><dc-import name="OndaApp" start-screen="onda" overview-style="b" hint-size="414px,900px"></dc-import></div></div>
+<div class="dv-opt" id="1c"><div class="dv-olabel"><a class="dv-oid" href="#1c">1c</a>Chapters: 4-step commit with intention</div><div class="dv-card" style="width:416px"><dc-import name="OndaApp" start-screen="onda" overview-style="c" hint-size="414px,900px"></dc-import></div></div>
+</div>
+
+<div class="dv-group">Today in the Onda</div>
+<div class="dv-opts">
+<div class="dv-opt" id="1d"><div class="dv-olabel"><a class="dv-oid" href="#1d">1d</a>Checklist: practices, tasks, immerse, journal</div><div class="dv-card" style="width:416px"><dc-import name="OndaApp" start-screen="today" today-style="a" hint-size="414px,900px"></dc-import></div></div>
+<div class="dv-opt" id="1e"><div class="dv-olabel"><a class="dv-oid" href="#1e">1e</a>Rhythm: day ring + morning / afternoon / evening</div><div class="dv-card" style="width:416px"><dc-import name="OndaApp" start-screen="today" today-style="b" hint-size="414px,900px"></dc-import></div></div>
+</div>
+
+<div class="dv-group">Final reflection</div>
+<div class="dv-opts">
+<div class="dv-opt" id="1f"><div class="dv-olabel"><a class="dv-oid" href="#1f">1f</a>Guided: one prompt per screen (shown on carry forward)</div><div class="dv-card" style="width:416px"><dc-import name="OndaApp" start-screen="reflection" reflection-style="a" start-step="{{ four }}" hint-size="414px,900px"></dc-import></div></div>
+<div class="dv-opt" id="1g"><div class="dv-olabel"><a class="dv-oid" href="#1g">1g</a>Journal: one scroll, carry-forward switches</div><div class="dv-card" style="width:416px"><dc-import name="OndaApp" start-screen="reflection" reflection-style="b" hint-size="414px,900px"></dc-import></div></div>
+</div>
+
+<div class="dv-group">Other Onda screens</div>
+<div class="dv-opts">
+<div class="dv-opt" id="1h"><div class="dv-olabel"><a class="dv-oid" href="#1h">1h</a>Ondas tab</div><div class="dv-card" style="width:416px"><dc-import name="OndaApp" start-screen="ondas" hint-size="414px,900px"></dc-import></div></div>
+<div class="dv-opt" id="1i"><div class="dv-olabel"><a class="dv-oid" href="#1i">1i</a>Immersion</div><div class="dv-card" style="width:416px"><dc-import name="OndaApp" start-screen="immersion" hint-size="414px,900px"></dc-import></div></div>
+<div class="dv-opt" id="1j"><div class="dv-olabel"><a class="dv-oid" href="#1j">1j</a>Daily journal</div><div class="dv-card" style="width:416px"><dc-import name="OndaApp" start-screen="today" start-sheet="journal" hint-size="414px,900px"></dc-import></div></div>
+<div class="dv-opt" id="1k"><div class="dv-olabel"><a class="dv-oid" href="#1k">1k</a>Create your own Onda</div><div class="dv-card" style="width:416px"><dc-import name="OndaApp" start-screen="ondas" start-sheet="createOnda" hint-size="414px,900px"></dc-import></div></div>
+<div class="dv-opt" id="1l"><div class="dv-olabel"><a class="dv-oid" href="#1l">1l</a>Onda complete</div><div class="dv-card" style="width:416px"><dc-import name="OndaApp" start-screen="done" hint-size="414px,900px"></dc-import></div></div>
+</div>
+
+<div class="dv-group">Lagos</div>
+<div class="dv-opts">
+<div class="dv-opt" id="1m"><div class="dv-olabel"><a class="dv-oid" href="#1m">1m</a>Lagos list</div><div class="dv-card" style="width:416px"><dc-import name="OndaApp" start-screen="lagos" hint-size="414px,900px"></dc-import></div></div>
+<div class="dv-opt" id="1n"><div class="dv-olabel"><a class="dv-oid" href="#1n">1n</a>Lago insights</div><div class="dv-card" style="width:416px"><dc-import name="OndaApp" start-screen="lago" hint-size="414px,900px"></dc-import></div></div>
+<div class="dv-opt" id="1o"><div class="dv-olabel"><a class="dv-oid" href="#1o">1o</a>Check In</div><div class="dv-card" style="width:416px"><dc-import name="OndaApp" start-screen="lago" start-sheet="checkin" hint-size="414px,900px"></dc-import></div></div>
+<div class="dv-opt" id="1p"><div class="dv-olabel"><a class="dv-oid" href="#1p">1p</a>Gallery</div><div class="dv-card" style="width:416px"><dc-import name="OndaApp" start-screen="gallery" hint-size="414px,900px"></dc-import></div></div>
+<div class="dv-opt" id="1q"><div class="dv-olabel"><a class="dv-oid" href="#1q">1q</a>New Lago</div><div class="dv-card" style="width:416px"><dc-import name="OndaApp" start-screen="lagos" start-sheet="createLago" hint-size="414px,900px"></dc-import></div></div>
+</div>
+<p class="dv-next">Try next: "combine <a class="dv-oid" href="#1b">1b</a> with the intention step from <a class="dv-oid" href="#1c">1c</a>" · "go with <a class="dv-oid" href="#1e">1e</a>, but keep the immerse row from <a class="dv-oid" href="#1d">1d</a>" · "write full content for Zen"</p>
+</section>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  renderVals() { return { four: 4 }; }
+}
+</script>
+</body>
+</html>

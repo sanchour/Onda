@@ -1,0 +1,5 @@
+html{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-rendering:optimizeLegibility}
+body{margin:0;font:var(--text-body);letter-spacing:var(--tracking-body);color:var(--label);background:var(--surface-page)}
+a{color:var(--accent);text-decoration:none}
+a:hover{opacity:0.7}
+.ph,.ph-bold,.ph-fill{line-height:1;display:inline-block}

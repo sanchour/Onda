@@ -1,0 +1,400 @@
+{
+  "version": 1,
+  "id": "ubuntu",
+  "name": "Ubuntu",
+  "origin": "Southern Africa",
+  "tone": "yellow",
+  "icon": "users-three",
+  "line": "I am because we are.",
+  "era": "Ancient proverbs, named in the 20th c.",
+  "font": "Young Serif",
+  "pattern": "woven-bands",
+  "glyph": "Umuntu",
+  "quote": {
+    "text": "A person is a person through other persons.",
+    "by": "Nguni proverb",
+    "source": ""
+  },
+  "quotes": [],
+  "words": [
+    {
+      "id": "word-ubuntu",
+      "term": "Ubuntu",
+      "meaning": "I am because we are"
+    },
+    {
+      "id": "word-sawubona",
+      "term": "Sawubona",
+      "meaning": "I see you (Zulu)"
+    },
+    {
+      "id": "word-ngiyabonga",
+      "term": "Ngiyabonga",
+      "meaning": "Thank you (Zulu)"
+    },
+    {
+      "id": "word-umuntu-ngumuntu-ngabantu",
+      "term": "Umuntu ngumuntu ngabantu",
+      "meaning": "A person is a person through others"
+    },
+    {
+      "id": "word-indaba",
+      "term": "Indaba",
+      "meaning": "A gathering to talk things through"
+    },
+    {
+      "id": "word-ukuhlonipha",
+      "term": "Ukuhlonipha",
+      "meaning": "Respect"
+    },
+    {
+      "id": "word-hamba-kahle",
+      "term": "Hamba kahle",
+      "meaning": "Go well"
+    }
+  ],
+  "practices": [
+    {
+      "id": "greet-someone-fully",
+      "name": "Greet someone fully",
+      "icon": "hand-waving",
+      "slot": "Morning",
+      "time": "08:00",
+      "meta": "Morning · Name, eye, pause",
+      "instructions": "",
+      "why": "",
+      "variations": []
+    },
+    {
+      "id": "call-or-visit-one-person",
+      "name": "Call or visit one person",
+      "icon": "phone",
+      "slot": "Afternoon",
+      "time": "15:00",
+      "meta": "Afternoon · Ask how are we",
+      "instructions": "",
+      "why": "",
+      "variations": []
+    },
+    {
+      "id": "cook-or-eat-with-others",
+      "name": "Cook or eat with others",
+      "icon": "cooking-pot",
+      "slot": "Evening",
+      "time": "18:30",
+      "meta": "Evening · Shared pot",
+      "instructions": "",
+      "why": "",
+      "variations": []
+    },
+    {
+      "id": "act-of-service",
+      "name": "Act of service",
+      "icon": "handshake",
+      "slot": "Evening",
+      "time": "19:30",
+      "meta": "Evening · Unrecorded",
+      "instructions": "",
+      "why": "",
+      "variations": []
+    }
+  ],
+  "tasks": [
+    {
+      "id": "learn-a-greeting-in-zulu-or-xhosa",
+      "name": "Learn a greeting in Zulu or Xhosa",
+      "meta": "Say it aloud",
+      "time": "13:00",
+      "slot": "Afternoon"
+    },
+    {
+      "id": "ask-a-neighbor-what-they-need",
+      "name": "Ask a neighbor what they need",
+      "meta": "Then help",
+      "time": "18:00",
+      "slot": "Evening"
+    }
+  ],
+  "rules": [
+    {
+      "id": "r1",
+      "text": "Greet before you ask",
+      "why": ""
+    },
+    {
+      "id": "r2",
+      "text": "No eating alone if you can help it",
+      "why": ""
+    },
+    {
+      "id": "r3",
+      "text": "Ask how we are, not how I am",
+      "why": ""
+    },
+    {
+      "id": "r4",
+      "text": "Let the elder speak first",
+      "why": ""
+    }
+  ],
+  "immerse": {
+    "read": [
+      {
+        "id": "read-no-future-without-forgiveness",
+        "title": "No Future Without Forgiveness",
+        "creator": "Desmond Tutu",
+        "why": ""
+      },
+      {
+        "id": "read-long-walk-to-freedom",
+        "title": "Long Walk to Freedom",
+        "creator": "Nelson Mandela",
+        "why": ""
+      },
+      {
+        "id": "read-ubuntu-i-in-you-and-you-in-me",
+        "title": "Ubuntu: I in You and You in Me",
+        "creator": "Michael Battle",
+        "why": ""
+      }
+    ],
+    "watch": [
+      {
+        "id": "watch-invictus-2009",
+        "title": "Invictus (2009)",
+        "creator": "Mandela and the 1995 Rugby World Cup",
+        "why": ""
+      },
+      {
+        "id": "watch-long-walk-to-freedom-2013",
+        "title": "Long Walk to Freedom (2013)",
+        "creator": "Biographical film",
+        "why": ""
+      }
+    ],
+    "listen": [
+      {
+        "id": "listen-ladysmith-black-mambazo",
+        "title": "Ladysmith Black Mambazo",
+        "creator": "Isicathamiya choral music",
+        "why": ""
+      },
+      {
+        "id": "listen-miriam-makeba",
+        "title": "Miriam Makeba",
+        "creator": "Mama Africa",
+        "why": ""
+      }
+    ],
+    "art": [
+      {
+        "id": "art-ndebele-house-painting",
+        "title": "Ndebele house painting",
+        "creator": "Bold geometric murals",
+        "why": ""
+      },
+      {
+        "id": "art-zulu-beadwork",
+        "title": "Zulu beadwork",
+        "creator": "Messages in color",
+        "why": ""
+      }
+    ],
+    "eat": [
+      {
+        "id": "eat-pap-and-relish",
+        "title": "Pap and relish",
+        "creator": "Maize porridge with stew",
+        "why": ""
+      },
+      {
+        "id": "eat-braai",
+        "title": "Braai",
+        "creator": "A fire shared with neighbors",
+        "why": ""
+      },
+      {
+        "id": "eat-umngqusho",
+        "title": "Umngqusho",
+        "creator": "Samp and beans",
+        "why": ""
+      }
+    ],
+    "drink": [
+      {
+        "id": "drink-rooibos",
+        "title": "Rooibos",
+        "creator": "South African red tea",
+        "why": ""
+      },
+      {
+        "id": "drink-ginger-beer",
+        "title": "Ginger beer",
+        "creator": "Homemade",
+        "why": ""
+      },
+      {
+        "id": "drink-amasi",
+        "title": "Amasi",
+        "creator": "Fermented milk",
+        "why": ""
+      }
+    ],
+    "customs": [
+      {
+        "id": "customs-greet-everyone-in-the-room",
+        "title": "Greet everyone in the room",
+        "creator": "Before business or questions",
+        "why": ""
+      },
+      {
+        "id": "customs-share-the-pot",
+        "title": "Share the pot",
+        "creator": "Hospitality is expected",
+        "why": ""
+      },
+      {
+        "id": "customs-show-respect-to-elders",
+        "title": "Show respect to elders",
+        "creator": "Ukuhlonipha",
+        "why": ""
+      }
+    ]
+  },
+  "ethics": [
+    {
+      "title": "Dignity of every person",
+      "text": "Humanness is shared, not earned."
+    },
+    {
+      "title": "Restore, do not just punish",
+      "text": "The Truth and Reconciliation Commission modeled forgiveness."
+    },
+    {
+      "title": "Hospitality as duty",
+      "text": "Strangers are welcomed and fed."
+    }
+  ],
+  "philosophy": [
+    {
+      "title": "Relational personhood",
+      "text": "You become a person through others."
+    },
+    {
+      "title": "Community before individual",
+      "text": "Rights and duties are shared."
+    },
+    {
+      "title": "Forgiveness frees both",
+      "text": "Tutu: without forgiveness there is no future."
+    },
+    {
+      "title": "Consensus",
+      "text": "Talk until the group can move together."
+    }
+  ],
+  "journal": [
+    "Whom did you really see today?",
+    "What did you share, and with whom?",
+    "When did you act as if you were alone?",
+    "Who helped you today, and did you say so?",
+    "What would the community say about how you treated it?",
+    "Whom do you need to forgive or ask forgiveness from?",
+    "What did you receive that you did not earn?"
+  ],
+  "reflect": [
+    "How did your sense of I change into we?",
+    "Which practice changed you the most, and why?",
+    "Who will you keep investing in?"
+  ],
+  "dayThemes": [],
+  "guide": {
+    "intro": [
+      "Ubuntu is a Nguni Bantu word and ethic often translated as humanity toward others. Its core idea is that we only become fully human through relationship.",
+      "It entered global conversation through Desmond Tutu and Nelson Mandela in South Africa’s transition from apartheid, and is now cited in ethics, leadership and software alike."
+    ],
+    "origin": "Southern Africa",
+    "era": "Ancient proverbs, named in the 20th c.",
+    "figures": [
+      {
+        "name": "Desmond Tutu",
+        "dates": "",
+        "bio": "Archbishop and chair of the Truth and Reconciliation Commission."
+      },
+      {
+        "name": "Nelson Mandela",
+        "dates": "",
+        "bio": "South Africa’s first democratic president."
+      },
+      {
+        "name": "Mogobe Ramose",
+        "dates": "",
+        "bio": "Philosopher who wrote on ubuntu as African philosophy."
+      },
+      {
+        "name": "John Mbiti",
+        "dates": "",
+        "bio": "Theologian: I am because we are, and since we are, therefore I am."
+      }
+    ],
+    "history": [
+      {
+        "when": "Ancient",
+        "what": "Proverbs across Nguni and Sotho languages carry the idea",
+        "detail": ""
+      },
+      {
+        "when": "1960s to 1980s",
+        "what": "Ubuntu is discussed in African independence thought",
+        "detail": ""
+      },
+      {
+        "when": "1996",
+        "what": "The Truth and Reconciliation Commission begins hearings",
+        "detail": ""
+      },
+      {
+        "when": "1999",
+        "what": "Tutu publishes No Future Without Forgiveness",
+        "detail": ""
+      }
+    ],
+    "concepts": [
+      {
+        "term": "Umuntu ngumuntu ngabantu",
+        "text": "A person is a person through persons.",
+        "detail": ""
+      },
+      {
+        "term": "Indaba",
+        "text": "A deliberate gathering to reach shared understanding.",
+        "detail": ""
+      },
+      {
+        "term": "Ukuhlonipha",
+        "text": "Respect shown through action and speech.",
+        "detail": ""
+      },
+      {
+        "term": "Restorative justice",
+        "text": "Healing the relationship, not only punishing the act.",
+        "detail": ""
+      }
+    ],
+    "facts": [
+      {
+        "text": "Sawubona means I see you, and the reply Sikhona means I am here."
+      },
+      {
+        "text": "Ubuntu was cited in the interim South African constitution of 1993."
+      },
+      {
+        "text": "A Linux distribution is named Ubuntu after the idea."
+      }
+    ],
+    "glossary": [],
+    "furtherReading": [],
+    "learnFrom": [],
+    "sources": []
+  }
+}

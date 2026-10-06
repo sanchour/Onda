@@ -1,0 +1,401 @@
+{
+  "version": 1,
+  "id": "tibet",
+  "name": "Tibetan Buddhism",
+  "origin": "Tibet",
+  "tone": "coral",
+  "icon": "mountains",
+  "line": "Train compassion through daily ritual.",
+  "era": "7th c. CE to today",
+  "font": "Marcellus",
+  "pattern": "prayer-flags",
+  "glyph": "ཨོཾ",
+  "quote": {
+    "text": "If you want others to be happy, practice compassion. If you want to be happy, practice compassion.",
+    "by": "The 14th Dalai Lama",
+    "source": ""
+  },
+  "quotes": [],
+  "words": [
+    {
+      "id": "word-tonglen",
+      "term": "Tonglen",
+      "meaning": "Giving and receiving"
+    },
+    {
+      "id": "word-bodhicitta",
+      "term": "Bodhicitta",
+      "meaning": "The awakened heart"
+    },
+    {
+      "id": "word-lama",
+      "term": "Lama",
+      "meaning": "Teacher"
+    },
+    {
+      "id": "word-tashi-delek",
+      "term": "Tashi delek",
+      "meaning": "Blessings and good luck"
+    },
+    {
+      "id": "word-shamatha",
+      "term": "Shamatha",
+      "meaning": "Calm abiding"
+    },
+    {
+      "id": "word-mandala",
+      "term": "Mandala",
+      "meaning": "A sacred circle, a model of the world"
+    },
+    {
+      "id": "word-lojong",
+      "term": "Lojong",
+      "meaning": "Mind training"
+    }
+  ],
+  "practices": [
+    {
+      "id": "tonglen",
+      "name": "Tonglen",
+      "icon": "heart",
+      "slot": "Morning",
+      "time": "06:45",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "",
+      "why": "",
+      "variations": []
+    },
+    {
+      "id": "mantra-om-mani-padme-hum",
+      "name": "Mantra: Om Mani Padme Hum",
+      "icon": "repeat",
+      "slot": "Afternoon",
+      "time": "12:15",
+      "meta": "Midday · 108 times",
+      "instructions": "",
+      "why": "",
+      "variations": []
+    },
+    {
+      "id": "mind-training-slogan",
+      "name": "Mind-training slogan",
+      "icon": "sparkle",
+      "slot": "Afternoon",
+      "time": "15:00",
+      "meta": "Afternoon · One a day",
+      "instructions": "",
+      "why": "",
+      "variations": []
+    },
+    {
+      "id": "dedication-of-merit",
+      "name": "Dedication of merit",
+      "icon": "moon",
+      "slot": "Evening",
+      "time": "21:00",
+      "minutes": 5,
+      "meta": "Evening · 5 min",
+      "instructions": "",
+      "why": "",
+      "variations": []
+    }
+  ],
+  "tasks": [
+    {
+      "id": "read-one-lojong-slogan-with-a-commentary",
+      "name": "Read one Lojong slogan with a commentary",
+      "meta": "Seven points of mind training",
+      "time": "13:00",
+      "slot": "Afternoon"
+    },
+    {
+      "id": "do-one-kind-act-unseen",
+      "name": "Do one kind act unseen",
+      "meta": "Tell no one",
+      "time": "18:00",
+      "slot": "Evening"
+    }
+  ],
+  "rules": [
+    {
+      "id": "r1",
+      "text": "Begin the day by setting a kind intention",
+      "why": ""
+    },
+    {
+      "id": "r2",
+      "text": "Do not speak ill of anyone",
+      "why": ""
+    },
+    {
+      "id": "r3",
+      "text": "Offer something small each day",
+      "why": ""
+    },
+    {
+      "id": "r4",
+      "text": "End the day by dedicating the good",
+      "why": ""
+    }
+  ],
+  "immerse": {
+    "read": [
+      {
+        "id": "read-training-the-mind",
+        "title": "Training the Mind",
+        "creator": "Chögyam Trungpa",
+        "why": ""
+      },
+      {
+        "id": "read-ethics-for-the-new-millennium",
+        "title": "Ethics for the New Millennium",
+        "creator": "The Dalai Lama",
+        "why": ""
+      },
+      {
+        "id": "read-the-life-of-milarepa",
+        "title": "The Life of Milarepa",
+        "creator": "Classic biography",
+        "why": ""
+      }
+    ],
+    "watch": [
+      {
+        "id": "watch-kundun-1997",
+        "title": "Kundun (1997)",
+        "creator": "The young Dalai Lama",
+        "why": ""
+      },
+      {
+        "id": "watch-samsara-2001",
+        "title": "Samsara (2001)",
+        "creator": "Monastic life and desire",
+        "why": ""
+      }
+    ],
+    "listen": [
+      {
+        "id": "listen-tibetan-chant-and-overtone-singing",
+        "title": "Tibetan chant and overtone singing",
+        "creator": "Monastic recordings",
+        "why": ""
+      },
+      {
+        "id": "listen-singing-bowls",
+        "title": "Singing bowls",
+        "creator": "Short evening sit",
+        "why": ""
+      }
+    ],
+    "art": [
+      {
+        "id": "art-thangka-painting",
+        "title": "Thangka painting",
+        "creator": "Scroll painting with deities",
+        "why": ""
+      },
+      {
+        "id": "art-sand-mandala",
+        "title": "Sand mandala",
+        "creator": "Made, then swept away",
+        "why": ""
+      }
+    ],
+    "eat": [
+      {
+        "id": "eat-momos",
+        "title": "Momos",
+        "creator": "Steamed dumplings",
+        "why": ""
+      },
+      {
+        "id": "eat-thukpa",
+        "title": "Thukpa",
+        "creator": "Noodle soup",
+        "why": ""
+      },
+      {
+        "id": "eat-tsampa",
+        "title": "Tsampa",
+        "creator": "Roasted barley flour",
+        "why": ""
+      }
+    ],
+    "drink": [
+      {
+        "id": "drink-butter-tea-po-cha",
+        "title": "Butter tea (po cha)",
+        "creator": "Salty and warming",
+        "why": ""
+      },
+      {
+        "id": "drink-sweet-milk-tea-cha-ngamo",
+        "title": "Sweet milk tea (cha ngamo)",
+        "creator": "Everyday tea",
+        "why": ""
+      }
+    ],
+    "customs": [
+      {
+        "id": "customs-hang-prayer-flags",
+        "title": "Hang prayer flags",
+        "creator": "Let the wind carry the prayers",
+        "why": ""
+      },
+      {
+        "id": "customs-turn-prayer-wheels-clockwise",
+        "title": "Turn prayer wheels clockwise",
+        "creator": "Each turn is a recitation",
+        "why": ""
+      },
+      {
+        "id": "customs-offer-a-white-khata-scarf",
+        "title": "Offer a white khata scarf",
+        "creator": "A sign of respect",
+        "why": ""
+      }
+    ]
+  },
+  "ethics": [
+    {
+      "title": "Cherish others more than yourself",
+      "text": "The heart of the bodhisattva path."
+    },
+    {
+      "title": "Turn adversity into the path",
+      "text": "Every difficulty is training material."
+    },
+    {
+      "title": "Dedicate merit to all beings",
+      "text": "Do not hold the good for yourself."
+    }
+  ],
+  "philosophy": [
+    {
+      "title": "Emptiness",
+      "text": "Things have no fixed, independent nature. Everything arises from conditions."
+    },
+    {
+      "title": "Interdependence",
+      "text": "Everything you use came from countless beings."
+    },
+    {
+      "title": "Impermanence",
+      "text": "All composed things end."
+    },
+    {
+      "title": "Karma",
+      "text": "Intentional actions leave traces and shape what comes."
+    }
+  ],
+  "journal": [
+    "Who did you wish well today, including someone difficult?",
+    "What slogan did you work with, and where did it show up?",
+    "What difficulty could be treated as a teacher?",
+    "What did you receive today from beings you will never meet?",
+    "Where did you protect yourself at someone’s cost?",
+    "What good did you do that you can offer to others?",
+    "What did you cling to today?"
+  ],
+  "reflect": [
+    "Whose suffering did you take on, and what changed in you?",
+    "Which practice changed you the most, and why?",
+    "What will you keep of this daily rhythm?"
+  ],
+  "dayThemes": [],
+  "guide": {
+    "intro": [
+      "Tibetan Buddhism is the form of Vajrayana and Mahayana Buddhism that took root on the Tibetan plateau. It stresses compassion, the training of the mind and a close relationship with a teacher.",
+      "After 1959 many teachers left Tibet and carried the tradition around the world. Its practices use visualization, mantra, prostration and debate alongside quiet sitting."
+    ],
+    "origin": "Tibet and the Himalaya",
+    "era": "7th c. CE to today",
+    "figures": [
+      {
+        "name": "Padmasambhava",
+        "dates": "",
+        "bio": "Eighth century teacher said to subdue obstacles and establish Buddhism in Tibet."
+      },
+      {
+        "name": "Milarepa",
+        "dates": "",
+        "bio": "Poet-saint who turned a violent past into realization."
+      },
+      {
+        "name": "Tsongkhapa",
+        "dates": "",
+        "bio": "Founded the Gelug school in 1409."
+      },
+      {
+        "name": "The 14th Dalai Lama",
+        "dates": "",
+        "bio": "Tenzin Gyatso, spiritual leader of the Gelug tradition."
+      }
+    ],
+    "history": [
+      {
+        "when": "7th c.",
+        "what": "King Songtsen Gampo brings Buddhism to the court",
+        "detail": ""
+      },
+      {
+        "when": "8th c.",
+        "what": "Padmasambhava helps establish the first monastery, Samye",
+        "detail": ""
+      },
+      {
+        "when": "11th c.",
+        "what": "Atisha arrives; Milarepa teaches through song",
+        "detail": ""
+      },
+      {
+        "when": "1409",
+        "what": "Tsongkhapa founds the Gelug school",
+        "detail": ""
+      },
+      {
+        "when": "1959",
+        "what": "The Dalai Lama leaves Tibet; teachings spread worldwide",
+        "detail": ""
+      }
+    ],
+    "concepts": [
+      {
+        "term": "Four schools",
+        "text": "Nyingma, Kagyu, Sakya and Gelug.",
+        "detail": ""
+      },
+      {
+        "term": "Lojong",
+        "text": "Slogans such as Drive all blames into one.",
+        "detail": ""
+      },
+      {
+        "term": "Mandala",
+        "text": "A map of an enlightened world, built or visualized.",
+        "detail": ""
+      },
+      {
+        "term": "Bardo",
+        "text": "The in-between states, including after death.",
+        "detail": ""
+      }
+    ],
+    "facts": [
+      {
+        "text": "Prayer flags carry mantras printed in five colors for the five elements."
+      },
+      {
+        "text": "Monks debate with clapping and stamping to sharpen reasoning."
+      },
+      {
+        "text": "Sand mandalas take days to build and are swept away in minutes."
+      }
+    ],
+    "glossary": [],
+    "furtherReading": [],
+    "learnFrom": [],
+    "sources": []
+  }
+}

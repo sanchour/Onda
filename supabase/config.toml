@@ -1,0 +1,43 @@
+# Supabase project config for Onda. `supabase link --project-ref <ref>` then `supabase db push` and
+# `supabase functions deploy`. Secrets are listed in functions/.env.example.
+project_id = "onda"
+
+[auth]
+site_url = "http://localhost:5173"
+additional_redirect_urls = ["http://localhost:5173", "http://localhost:4173"]
+enable_anonymous_sign_ins = true
+enable_manual_linking = true
+
+[auth.email]
+enable_signup = true
+enable_confirmations = true
+
+[auth.external.apple]
+enabled = true
+client_id = "env(APPLE_SERVICES_ID)"
+secret = "env(APPLE_CLIENT_SECRET)"
+
+# Called by third parties or by pg_cron, which cannot send a user JWT. Each one authenticates itself:
+# a signed OAuth state, a Stripe signature, an unguessable feed token, or the cron secret.
+[functions.notion-oauth]
+verify_jwt = false
+[functions.stripe-webhook]
+verify_jwt = false
+[functions.calendar-feed]
+verify_jwt = false
+[functions.reminders-feed]
+verify_jwt = false
+[functions.notion-sync]
+verify_jwt = false
+[functions.push-send]
+verify_jwt = false
+
+# Called by the signed-in app.
+[functions.entitlement]
+verify_jwt = true
+[functions.stripe-checkout]
+verify_jwt = true
+[functions.integrations]
+verify_jwt = true
+[functions.account]
+verify_jwt = true

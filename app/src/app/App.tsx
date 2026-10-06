@@ -2,6 +2,8 @@ import { Suspense, lazy, useEffect, useLayoutEffect, useRef } from 'react'
 import { useTranslation } from 'react-i18next'
 import { preloadAllOndas } from '@/content'
 import { useDark, useSettings } from '@/data/hooks'
+import i18n from '@/i18n'
+import { refreshEntitlement } from '@/sync/entitlement'
 import { useStore } from '@/data/store'
 import { EASE_ENTER, PUSH_MS, reducedMotion } from '@/lib/motion'
 import { Navigator } from '@/nav/Navigator'
@@ -126,6 +128,19 @@ export function App() {
     const q = new URLSearchParams(location.search)
     const tab = q.get('tab')
     if (tab === 'lagos' || tab === 'ondas' || tab === 'stats') useNav.getState().setTab(tab)
+    // Returning from Notion's consent page or from Stripe Checkout
+    if (q.get('notion')) {
+      const ok = q.get('notion') === 'connected'
+      history.replaceState(null, '', location.pathname)
+      useNav.getState().push({ name: 'settings', page: 'integrations' })
+      if (ok) useNav.getState().openSheet({ name: 'notion' })
+      else useNav.getState().showToast(i18n.t('common.error'), { icon: 'warning-circle' })
+    }
+    if (q.get('purchase')) {
+      const ok = q.get('purchase') === 'success'
+      history.replaceState(null, '', location.pathname)
+      if (ok) void refreshEntitlement().then((e) => e?.plus === 'lifetime' && useNav.getState().showToast(i18n.t('paywall.thanks'), { icon: 'seal-check' }))
+    }
     // ?seed=demo loads the demo data set (Stoicism day 4 of 14, five Lagos)
     if (q.get('seed') === 'demo') {
       void import('@/data/seed').then((m) => m.loadDemoSeed()).then(() => {

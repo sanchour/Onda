@@ -13,10 +13,12 @@ export default defineConfig({
       filename: 'sw.ts',
       registerType: 'prompt',
       injectRegister: false,
-      includeAssets: ['icons/*.png', 'splash/*.png', 'favicon.svg'],
+      includeAssets: ['icons/*.png', 'favicon.svg'],
       injectManifest: {
         // Latin UI fonts are precached; the large CJK / Arabic subset chunks are cached at runtime on first use.
         globPatterns: ['**/*.{js,css,html,svg,png,webmanifest}', '**/*-latin-*.woff2'],
+        // iOS fetches launch images itself at install time; no need to hold them in the cache.
+        globIgnores: ['splash/**'],
         maximumFileSizeToCacheInBytes: 4 * 1024 * 1024,
       },
       manifest: {

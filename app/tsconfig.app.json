@@ -41,7 +41,8 @@
   },
   "include": [
     "src",
-    "../supabase/functions/_shared"
+    "../supabase/functions/_shared/feeds.ts",
+    "../supabase/functions/_shared/ids.ts"
   ],
   "exclude": [
     "src/sw.ts"

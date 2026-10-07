@@ -13,7 +13,7 @@ import { useNav, type Tab } from '@/nav/store'
 import { Menu } from '@/ui/Menu'
 import { TabBar } from '@/ui/TabBar'
 import { useSync } from '@/sync/useSync'
-import { ROUTES, SHEETS } from './registry'
+import { ROUTES, SHEETS, prefetchChunks } from './registry'
 import { Overlays } from './Overlays'
 
 const Onboarding = lazy(() => import('@/screens/Onboarding'))
@@ -166,8 +166,8 @@ export function App() {
       }).catch((e) => console.error('[onda] demo seed failed', e))
     }
     // Warm every Onda's content once the app is idle so all of it works offline after first load.
-    if ('requestIdleCallback' in window) window.requestIdleCallback(() => preloadAllOndas())
-    else setTimeout(preloadAllOndas, 1500)
+    if ('requestIdleCallback' in window) window.requestIdleCallback(() => (prefetchChunks(), preloadAllOndas()))
+    else setTimeout(() => (prefetchChunks(), preloadAllOndas()), 1500)
   }, [ready])
 
   if (!ready) return null

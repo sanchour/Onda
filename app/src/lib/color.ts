@@ -31,3 +31,12 @@ export function accentFor(strong: string, dark: boolean): { accent: string; on: 
   const on = contrast(strong, '#0B0B0D') >= contrast(strong, '#FFFFFF') ? '#0B0B0D' : '#FFFFFF'
   return { accent: strong, on }
 }
+
+/** A version of `strong` that reads as text (4.6:1) on every given background: darker in light mode, lighter in dark mode. */
+export function readableText(strong: string, backgrounds: string[], dark: boolean): string {
+  let c = parse(strong)
+  for (let i = 0; i < 24 && backgrounds.some((b) => contrast(toHex(c), b) < 4.6); i++) {
+    c = (dark ? c.map((v) => v + (255 - v) * 0.1) : c.map((v) => v * 0.93)) as [number, number, number]
+  }
+  return toHex(c)
+}

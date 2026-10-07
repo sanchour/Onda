@@ -26,7 +26,7 @@
 .quickTile::before{content:"";position:absolute;inset:0;background:var(--onda-fill);opacity:.45;pointer-events:none}
 .quickTile > *{position:relative}
 .quickTile:active{opacity:.75}
-.quickCircle{width:54px;height:54px;background:var(--onda-strong) !important;color:var(--white) !important;box-shadow:inset 0 1px 0 rgba(255,255,255,.35)}
+.quickCircle{width:54px;height:54px;background:var(--onda-deep) !important;color:var(--onda-on) !important;box-shadow:inset 0 1px 0 rgba(255,255,255,.35)}
 .todayHead{padding:32px 20px 0}
 .todayH{font:700 var(--fs-26)/1.2 var(--font-sans);letter-spacing:-0.02em;margin:0}
 .pRow{display:flex;align-items:center;gap:16px;padding:16px;background:var(--surface-card);border-radius:26px;width:100%;text-align:start}
@@ -160,7 +160,7 @@ button.softCard{width:100%;text-align:start;display:block}
 .ruleText{font:600 var(--fs-17)/1.3 var(--font-sans);letter-spacing:var(--tracking-body);text-wrap:pretty}
 .ruleWhy{font:400 var(--fs-13)/1.35 var(--font-sans);color:var(--label-secondary);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .ruleOn{background:color-mix(in srgb,var(--onda-solid) 45%,var(--surface-card));border-color:var(--onda-strong)}
-.ruleOn .ruleNum{background:var(--onda-strong);color:var(--white)}
+.ruleOn .ruleNum{background:var(--onda-deep);color:var(--onda-on)}
 
 /* ── Tasks: accent bar, time pill, square checkbox ───────── */
 .task{display:flex;align-items:center;gap:12px;padding:14px 14px 14px 0;width:100%;text-align:start;background:var(--surface-card);border-radius:18px;position:relative;overflow:hidden}
@@ -171,17 +171,17 @@ button.softCard{width:100%;text-align:start;display:block}
 .taskMeta{display:flex;align-items:center;gap:8px;font:400 var(--fs-13) var(--font-sans);color:var(--label-secondary);flex-wrap:wrap}
 .taskTime{display:inline-flex;align-items:center;gap:4px;padding:3px 8px;border-radius:8px;background:var(--onda-solid);color:var(--onda-ink);font-weight:600;font-variant-numeric:tabular-nums}
 .taskBox{width:30px;height:30px;border-radius:9px;flex:none;border:2px solid var(--label-quaternary);display:flex;align-items:center;justify-content:center;color:transparent;transition:background var(--duration-standard),border-color var(--duration-standard)}
-.taskBoxOn{background:var(--onda-strong);border-color:var(--onda-strong);color:var(--white)}
+.taskBoxOn{background:var(--onda-deep);border-color:var(--onda-deep);color:var(--onda-on)}
 .taskOn .taskBar{opacity:.35}
-.taskOn .taskTime{opacity:.55}
+.taskOn .taskTime{opacity:.72}
 
 /* ── Themed sheet banners and journal prompt card ────────── */
 .sBanner{position:relative;overflow:hidden;display:flex;align-items:center;gap:14px;border-radius:var(--onda-radius,26px);padding:18px 20px;min-height:84px}
 .sBannerIcon{width:48px;height:48px;border-radius:50%;flex:none;display:flex;align-items:center;justify-content:center}
 .sBannerText{display:flex;flex-direction:column;min-width:0;gap:2px}
-.sBannerKicker{font:600 var(--fs-11) var(--font-sans);letter-spacing:.08em;text-transform:uppercase;opacity:.75}
+.sBannerKicker{font:600 var(--fs-11) var(--font-sans);letter-spacing:.08em;text-transform:uppercase;opacity:.92}
 .sBannerTitle{font:600 var(--fs-28)/1.1 var(--onda-font);letter-spacing:var(--onda-track,-0.01em);overflow-wrap:anywhere}
-.sBannerSub{font:400 var(--fs-14)/1.3 var(--font-sans);text-wrap:pretty;opacity:.85}
+.sBannerSub{font:400 var(--fs-14)/1.3 var(--font-sans);text-wrap:pretty;opacity:.95}
 .jeCard{position:relative;overflow:hidden;border-radius:var(--onda-radius,26px);padding:20px}
 
 /* ── Immersion: one tile per kind, two per row ───────────── */
@@ -201,7 +201,7 @@ button.softCard{width:100%;text-align:start;display:block}
 /* ── Per-Onda flair on the Ondas tab ─────────────────────── */
 .hdrTitle{font-family:var(--onda-font);text-transform:var(--onda-case,none);letter-spacing:var(--onda-track,-0.022em);display:flex;align-items:center;gap:10px}
 .hdrOrn{color:var(--onda-strong);display:inline-flex;opacity:.9}
-.orn{display:flex;align-items:center;gap:12px;margin:14px 20px 0;color:var(--onda-strong)}
+.orn{display:flex;align-items:center;gap:12px;margin:14px 20px 0;color:var(--onda-text)}
 .orn i{flex:1;height:1.5px;background:linear-gradient(90deg,transparent,currentColor);opacity:.45}
 .orn i:last-child{background:linear-gradient(270deg,transparent,currentColor)}
 .todayH{font-family:var(--onda-font);text-transform:var(--onda-case,none);letter-spacing:var(--onda-track,-0.02em)}
@@ -257,13 +257,13 @@ button.softCard{width:100%;text-align:start;display:block}
 .gOnda:active{opacity:.8}
 .gOndaIcon{width:36px;height:36px}
 .gOndaName{font:600 var(--fs-18,18px)/1.1 var(--onda-font);letter-spacing:var(--onda-track,0);text-transform:var(--onda-case,none);display:block;overflow-wrap:anywhere}
-.gOndaSub{font:400 var(--fs-12) var(--font-sans);opacity:.75;display:block;margin-top:2px}
+.gOndaSub{font:400 var(--fs-12) var(--font-sans);opacity:.9;display:block;margin-top:2px}
 .pickRow{display:flex;align-items:center;gap:14px;padding:12px 14px;border-radius:22px;background:var(--surface-card);width:100%;text-align:start;border:1.5px solid transparent;transition:border-color var(--duration-standard),background var(--duration-standard)}
 .pickRow:active{opacity:.8}
 .pickOn{border-color:var(--onda-strong);background:color-mix(in srgb,var(--onda-solid) 40%,var(--surface-card))}
 .pickIcon{width:44px;height:44px;flex:none}
 .pickBox{width:28px;height:28px;border-radius:50%;border:2px solid var(--label-quaternary);flex:none;display:flex;align-items:center;justify-content:center;color:transparent;margin-left:auto}
-.pickOn .pickBox{background:var(--onda-strong);border-color:var(--onda-strong);color:var(--white)}
+.pickOn .pickBox{background:var(--onda-deep);border-color:var(--onda-deep);color:var(--onda-on)}
 
 [data-onda="soviet"]{--bar-h:14px;--bar-r:0}
 [data-onda="soviet"] .todayBar > [role=progressbar]{-webkit-mask:url("data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20width%3D'14'%20height%3D'14'%3E%3Cpath%20d%3D'M7%200l1.8%204.6%204.9.4-3.7%203.2%201.1%204.8L7%2010.4%202.9%2013l1.1-4.8L.3%205l4.9-.4z'%2F%3E%3C%2Fsvg%3E") 0 0/16px 14px repeat-x;mask:url("data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20width%3D'14'%20height%3D'14'%3E%3Cpath%20d%3D'M7%200l1.8%204.6%204.9.4-3.7%203.2%201.1%204.8L7%2010.4%202.9%2013l1.1-4.8L.3%205l4.9-.4z'%2F%3E%3C%2Fsvg%3E") 0 0/16px 14px repeat-x}

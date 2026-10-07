@@ -37,6 +37,13 @@ Trial and purchase are an **app-level entitlement**: the server sets `trial_star
 - **Export and import.** Import validates every record with the same Zod schemas, merges per field (newer edits win), never deletes, and never imports plan or trial state from a file. Photos are not included.
 - **Full guide** is a pushed page with sticky tabs, section jump chips and collapsible groups.
 
+## Update 1.3.1
+
+- **Double tap.** Sheets and pages are loaded on demand, and the first tap showed nothing until the chunk arrived, so people tapped again. All chunks are now fetched once the app is idle, and opening the same sheet or page twice in a row is ignored. (Cause inferred from the code; not reproduced on a device.)
+- **Readability.** Secondary and tertiary text are darker in light mode and lighter in dark mode, the three smallest type sizes grew by about a point, and text that was faded with opacity is stronger. Onda colours used as text now go through `--onda-text`, and filled chips and buttons use `--onda-deep` with `--onda-on` so the label reaches 4.5:1 for every Onda in both appearances (unit-tested).
+- **Stats.** The Ondas list is gone. Each run is drawn on the History calendar as a small bar in the Onda's colour under its days, with the runs of the shown month listed beneath.
+- The Onda glyph watermark and the header ornament were removed from the Ondas tab and the Onda page.
+
 ## Cultural care
 
 Native American Animism, Ubuntu, Tibetan Buddhism and Sufism are flagged `reviewRequired` and carry a framing note shown before the Onda begins. No closed ceremony is offered, which a test enforces. All four need review by tradition bearers before launch, as does the use of the word "animism". See `CONTENT_REVIEW.md`: all content was written without live fact-checking, and that file says so.

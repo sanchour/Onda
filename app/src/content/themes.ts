@@ -1,4 +1,5 @@
 import type { CSSProperties } from 'react'
+import { accentFor, readableText } from '@/lib/color'
 import { numeral, type NumeralSet } from './numerals'
 import type { OndaIndex } from './schema'
 
@@ -173,6 +174,9 @@ export function ondaLook(o: Pick<OndaIndex, 'id' | 'tone'> | undefined, opts: { 
       '--onda-fill': fill,
       '--onda-solid': solid,
       '--onda-strong': strong,
+      '--onda-text': readableText(strong, dark ? [solid, '#303136'] : [solid, '#F5F1E8'], dark),
+      '--onda-deep': accentFor(strong, dark).accent,
+      '--onda-on': accentFor(strong, dark).on,
       '--onda-font': font,
       '--onda-ink': ink,
       '--onda-sub': dark ? '#C9C9CE' : '#3A3A3C',

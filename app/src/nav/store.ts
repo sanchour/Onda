@@ -82,7 +82,13 @@ export const useNav = create<NavState>()((set, get) => ({
   toast: null,
 
   setTab: (tab) => set({ tab, menu: null }),
-  push: (r) => set({ stack: [...get().stack.filter((e) => !e.leaving), { ...r, key: key() }], menu: null }),
+  push: (r) => {
+    const live = get().stack.filter((e) => !e.leaving)
+    const top = live[live.length - 1]
+    // Tapping twice on a slow page must not push it twice
+    if (top && top.name === r.name && JSON.stringify({ ...top, key: 0 }) === JSON.stringify({ ...r, key: 0 })) return
+    set({ stack: [...live, { ...r, key: key() }], menu: null })
+  },
   pop: () => {
     const st = get().stack
     const top = st[st.length - 1]
@@ -91,7 +97,12 @@ export const useNav = create<NavState>()((set, get) => ({
   remove: (k) => set({ stack: get().stack.filter((e) => e.key !== k) }),
   popToRoot: (tab) => set({ stack: [], sheets: [], menu: null, ...(tab ? { tab } : {}) }),
   replaceTop: (r) => set({ stack: [...get().stack.slice(0, -1), { ...r, key: key() }] }),
-  openSheet: (s) => set({ sheets: [...get().sheets, { ...s, key: key() }], menu: null }),
+  openSheet: (s) => {
+    // A second tap while the first sheet is still arriving must not stack another one.
+    const top = get().sheets.find((e) => !e.closing && e.name === s.name && s.name !== 'time')
+    if (top && (s.name === 'journalList' || s.name === 'philosophy' || s.name === 'createOnda' || s.name === 'achievements')) return
+    set({ sheets: [...get().sheets, { ...s, key: key() }], menu: null })
+  },
   closeSheet: (k) => {
     const sh = get().sheets
     const target = k ?? sh[sh.length - 1]?.key

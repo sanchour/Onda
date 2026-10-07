@@ -9,8 +9,7 @@ import { Button, GlassButton } from '@/ui/buttons'
 import { SegmentedControl } from '@/ui/controls'
 import { ProgressBar } from '@/ui/data'
 import { Icon } from '@/ui/Icon'
-import { OrnamentIcon } from './KindArt'
-import { DayBar, Glyph, OrnDivider, PracticeRow, RulesList, TasksList, guardCreateOnda, nameSize, useActiveOnda, useRunToday } from './ondaShared'
+import { DayBar, OrnDivider, PracticeRow, RulesList, TasksList, guardCreateOnda, nameSize, useActiveOnda, useRunToday } from './ondaShared'
 import o from './ondas.module.css'
 import s from './screens.module.css'
 
@@ -30,7 +29,6 @@ export default function OndasTab() {
     <div className={s.titleRow}>
       <h1 className={active && themed ? `${s.largeTitle} ${o.hdrTitle}` : s.largeTitle}>
         {t('ondas.title')}
-        {active && themed && <span className={o.hdrOrn}><OrnamentIcon name={active.look.ornament} size={26} /></span>}
       </h1>
       <div className={s.actions}>
         <GlassButton icon="plus" prominent ariaLabel={t('ondas.newOnda')} onClick={() => guardCreateOnda(t) && openSheet({ name: 'createOnda' })} />
@@ -75,7 +73,6 @@ export default function OndasTab() {
       {themed && <OrnDivider look={look} />}
       <div>
         <button type="button" className={`${o.banner} ${o.themed}`} onClick={() => push({ name: 'onda', id: run.ondaId })}>
-          <Glyph look={look} opacity={0.16} right={16} top={8} />
           <span className={o.bannerKicker}>
             <Icon name={index?.icon ?? 'sparkle'} weight="fill" size={16} />
             <span>{t('ondas.kicker', { label: t('ondas.dayOf', { day, length: run.lengthDays }) })}</span>

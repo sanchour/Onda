@@ -182,6 +182,7 @@ export const en = {
   a2hs: { title: 'Add Onda to Home Screen', body: 'Tap Share, then Add to Home Screen. Onda opens full screen and works offline.', dismiss: 'Dismiss' },
   sw: { updateReady: 'A new version is ready', reload: 'Reload', offlineReady: 'Ready to use offline' },
   whatsNew: { title: "What's New", v1: '1.0', v1date: '2026-10-06', v1a: 'Lagos: habit experiments with streaks, notes and photos.', v1b: 'Ondas: ten traditions to live for 7 to 30 days.', v1c: 'Notion, Calendar and Reminders integrations.',
+    v131: '1.3.1', v131date: '2026-10-09', v131a: 'Easier to read: stronger secondary text, slightly larger small print and Onda colours tuned for contrast in light and dark.', v131b: 'Your Ondas now appear in the History calendar, in the colour of each Onda.', v131c: 'Journal, Philosophy and the other shortcuts open on the first tap.',
     v13: '1.3', v13date: '2026-10-08', v13a: 'Six new Ondas: Soviet Union, Yoruba, Aztec, Ancient Egypt, Hermeticism and Gnosticism.', v13b: 'The accent follows your Onda, with new looks for each one.', v13c: 'Export and import your data, and a full-page guide that is easy to navigate.' },
   legal: {
     privacyTitle: 'Privacy Policy', termsTitle: 'Terms',

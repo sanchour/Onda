@@ -73,3 +73,19 @@ describe('export and import', () => {
     expect(useStore.getState().user?.plus).not.toBe('lifetime')
   })
 })
+
+describe('readable Onda colours (1.3.1)', () => {
+  it('every Onda colour yields text that reads on its own tint and on the page, in both appearances', async () => {
+    const { THEMES, ondaLook } = await import('@/content/themes')
+    const { contrast } = await import('@/lib/color')
+    for (const id of Object.keys(THEMES)) {
+      for (const dark of [false, true]) {
+        const v = ondaLook({ id, tone: 'blue' }, { themed: true, dark }).vars as Record<string, string>
+        const page = dark ? '#303136' : '#F5F1E8'
+        expect(contrast(v['--onda-text']!, page), `${id} text on page ${dark}`).toBeGreaterThanOrEqual(4.5)
+        expect(contrast(v['--onda-text']!, v['--onda-solid']!), `${id} text on tint ${dark}`).toBeGreaterThanOrEqual(4.5)
+        expect(contrast(v['--onda-on']!, v['--onda-deep']!), `${id} ink on fill ${dark}`).toBeGreaterThanOrEqual(4.5)
+      }
+    }
+  })
+})

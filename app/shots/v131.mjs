@@ -1,0 +1,37 @@
+// Visual check for Update 1.3.1. Usage: node shots/v131.mjs
+import { webkit, devices } from '@playwright/test'
+const browser = await webkit.launch()
+for (const scheme of ['light', 'dark']) {
+  const ctx = await browser.newContext({ ...devices['iPhone 15 Pro'], colorScheme: scheme })
+  const page = await ctx.newPage()
+  const errors = []
+  page.on('pageerror', (e) => errors.push(String(e)))
+  const w = (ms = 900) => page.waitForTimeout(ms)
+  await page.goto('http://localhost:5173/?seed=demo')
+  await page.getByText('Onda · Day 4 of 14').waitFor({ timeout: 90000 })
+  const d = page.getByRole('button', { name: 'Dismiss' })
+  if (await d.isVisible().catch(() => false)) await d.click()
+  await w(1500)
+  await page.screenshot({ path: `shots/v131-${scheme}-1-ondas.png` })
+  // one tap must open the journal sheet
+  await page.getByRole('button', { name: 'Journal' }).first().click(); await w(1200)
+  const dialogs = await page.getByRole('dialog').count()
+  await page.screenshot({ path: `shots/v131-${scheme}-2-journal.png` })
+  await page.getByRole('button', { name: 'Close' }).first().click().catch(() => {}); await w(900)
+  await page.getByRole('button', { name: 'Philosophy' }).first().click(); await w(1200)
+  const dialogs2 = await page.getByRole('dialog').count()
+  await page.getByRole('button', { name: 'Close' }).first().click().catch(() => {}); await w(900)
+  await page.getByRole('button', { name: /Stoicism/ }).first().click(); await w(1500)
+  await page.screenshot({ path: `shots/v131-${scheme}-3-onda.png` })
+  await page.getByRole('button', { name: 'Back' }).first().click(); await w(900)
+  await page.getByRole('tab', { name: 'Stats' }).click(); await w(2500)
+  await page.screenshot({ path: `shots/v131-${scheme}-4-stats.png`, fullPage: false })
+  await page.evaluate(() => document.querySelector('[role=tabpanel]')?.scrollTo?.(0, 99999))
+  await page.mouse.move(200, 500)
+  await page.evaluate(() => { for (const e of document.querySelectorAll('*')) if (e.scrollHeight > e.clientHeight + 50 && getComputedStyle(e).overflowY !== 'visible') e.scrollTop = 99999 })
+  await w(700)
+  await page.screenshot({ path: `shots/v131-${scheme}-5-history.png` })
+  console.log(scheme, JSON.stringify({ dialogs, dialogs2, errors: errors.slice(0, 5) }))
+  await ctx.close()
+}
+await browser.close()

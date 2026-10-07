@@ -13,7 +13,7 @@ import { Stepper } from '@/ui/controls'
 import { Icon } from '@/ui/Icon'
 import { SectionToggle } from '@/ui/lists'
 import { KindArt } from './KindArt'
-import { DayBar, Glyph, PracticeRow, RulesList, TasksList, guardBeginOnda, nameSize, useRunToday } from './ondaShared'
+import { DayBar, PracticeRow, RulesList, TasksList, guardBeginOnda, nameSize, useRunToday } from './ondaShared'
 import o from './ondas.module.css'
 import s from './screens.module.css'
 
@@ -150,7 +150,6 @@ export default function OndaToday({ entry }: { entry: Extract<StackEntry, { name
 
       {quote && (
         <figure className={`${o.quoteCard} ${o.themed}`}>
-          <Glyph look={look} opacity={0.1} right={16} bottom={6} />
           <div className={s.kicker} style={{ color: 'inherit' }}>{t('onda.quoteOfDay')}</div>
           <div className={o.quoteMark} aria-hidden>“</div>
           <blockquote className={o.quoteText} data-selectable>{quote.text}</blockquote>
@@ -179,7 +178,6 @@ export default function OndaToday({ entry }: { entry: Extract<StackEntry, { name
       )}
 
       <button type="button" className={`${o.guideCard} ${o.themed}`} onClick={openGuide}>
-        <Glyph look={look} opacity={0.12} right={14} bottom={2} />
         <span className={o.guideRow}>
           <span className={`${s.circle} ${o.guideIcon} ${o.chipCircle}`}>
             <Icon name="book-open-text" weight="fill" size={22} />

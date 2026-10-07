@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { ACHIEVEMENTS } from '@/data/derive/achievements'
-import { runDay } from '@/data/derive/onda'
+import { runDay, runEndDate } from '@/data/derive/onda'
 import { activeDates, activityBars, activityByDate, consistency, summarize, type Range } from '@/data/derive/stats'
 import { useLookFn, useOndaList } from '@/data/hooks'
 import { useStore } from '@/data/store'
@@ -79,12 +79,21 @@ export default function StatsTab() {
   const has = useMemo(() => activeDates(input, act), [input, act])
   const max = Math.max(1, ...bars.map((b) => b.value))
   const unlocked = new Set(achievements.filter((a) => !a.deletedAt).map((a) => a.key))
-  const myRuns = runs.filter((r) => !r.deletedAt).sort((a, b) => (a.state === 'active' ? -1 : b.state === 'active' ? 1 : (b.endedAt ?? '').localeCompare(a.endedAt ?? '')))
+  const myRuns = runs.filter((r) => !r.deletedAt)
+  // Each run covers the days from its start to its end (or today while it is running); the calendar marks them in the Onda's colour.
+  const spans = myRuns.map((r) => {
+    const idx = ondas.find((x) => x.id === r.ondaId)
+    const end = r.state === 'active' ? (runEndDate(r) < today ? runEndDate(r) : today) : (r.endedAt ?? runEndDate(r)).slice(0, 10)
+    return { run: r, idx, from: r.startedAt.slice(0, 10), to: end, color: look(idx).strong }
+  })
 
   const now = fromDateStr(today)
   const view = new Date(now.getFullYear(), now.getMonth() - back, 1)
   const { offset, days } = monthGrid(view.getFullYear(), view.getMonth())
   const toggle = (k: string) => () => setClosed((c) => ({ ...c, [k]: !c[k] }))
+  const monthFirst = dateOf(view.getFullYear(), view.getMonth(), 1)
+  const monthLast = dateOf(view.getFullYear(), view.getMonth(), days)
+  const inMonth = spans.filter((x) => x.from <= monthLast && x.to >= monthFirst).sort((a, b) => b.from.localeCompare(a.from))
   const dow = t('common.weekdays', { returnObjects: true }) as string[]
 
   return (
@@ -147,35 +156,6 @@ export default function StatsTab() {
         </span>
       </button>
 
-      <SectionToggle title={t('stats.ondas')} meta={myRuns.length} open={!closed.ondas} onToggle={toggle('ondas')} />
-      {!closed.ondas && (
-        <div className={s.stack14}>
-          {myRuns.map((r) => {
-            const idx = ondas.find((x) => x.id === r.ondaId)
-            const kept = reflections.find((x) => x.runId === r.id && !x.deletedAt)?.kept.length ?? 0
-            const meta =
-              r.state === 'active'
-                ? t('stats.runActive', { day: runDay(r, today), length: r.lengthDays })
-                : r.state === 'complete'
-                  ? t('stats.runComplete', { length: r.lengthDays, date: fmtShortDate(r.endedAt ?? r.startedAt), kept })
-                  : t('stats.runEnded', { length: r.lengthDays, date: fmtShortDate(r.endedAt ?? r.startedAt) })
-            return (
-              <button key={r.id} type="button" className={m.runRow} style={look(idx).vars} onClick={() => push({ name: 'onda', id: r.ondaId })}>
-                <span className={m.runIcon}>
-                  <Icon name={idx?.icon ?? 'sparkle'} weight="fill" size={24} />
-                </span>
-                <span style={{ flex: 1, minWidth: 0 }}>
-                  <span className={m.runName} style={{ display: 'block' }}>{idx?.name ?? r.snapshot?.name}</span>
-                  <span className={m.runMeta} style={{ display: 'block' }}>{meta}</span>
-                </span>
-                <Icon name="caret-right" weight="bold" size={18} />
-              </button>
-            )
-          })}
-          {myRuns.length === 0 && <div className={s.sub} style={{ textAlign: 'center', padding: '8px 0' }}>{t('stats.noOndas')}</div>}
-        </div>
-      )}
-
       <SectionToggle title={t('stats.history')} open={!closed.hist} onToggle={toggle('hist')} />
       {!closed.hist && (
         <div className={`${s.card} ${s.calCard}`} style={{ marginTop: 0 }}>
@@ -202,6 +182,7 @@ export default function StatsTab() {
             {Array.from({ length: days }, (_, i) => {
               const date = dateOf(view.getFullYear(), view.getMonth(), i + 1)
               const future = date > today
+              const cover = spans.filter((x) => date >= x.from && date <= x.to)
               return (
                 <button
                   key={date}
@@ -212,10 +193,41 @@ export default function StatsTab() {
                   onClick={() => openSheet({ name: 'dayLog', date })}
                 >
                   {i + 1}
+                  {cover.length > 0 && (
+                    <span className={m.dayRuns} aria-hidden>
+                      {cover.slice(0, 3).map((x) => (
+                        <i key={x.run.id} style={{ background: x.color }} />
+                      ))}
+                    </span>
+                  )}
                 </button>
               )
             })}
           </div>
+          {inMonth.length > 0 && (
+            <div className={m.runList}>
+              {inMonth.map((x) => {
+                const r = x.run
+                const kept = reflections.find((q) => q.runId === r.id && !q.deletedAt)?.kept.length ?? 0
+                const meta =
+                  r.state === 'active'
+                    ? t('stats.runActive', { day: runDay(r, today), length: r.lengthDays })
+                    : r.state === 'complete'
+                      ? t('stats.runComplete', { length: r.lengthDays, date: fmtShortDate(r.endedAt ?? r.startedAt), kept })
+                      : t('stats.runEnded', { length: r.lengthDays, date: fmtShortDate(r.endedAt ?? r.startedAt) })
+                return (
+                  <button key={r.id} type="button" className={m.runLine} onClick={() => push({ name: 'onda', id: r.ondaId })}>
+                    <span className={m.runDot} style={{ background: x.color }} aria-hidden />
+                    <span style={{ flex: 1, minWidth: 0 }}>
+                      <span className={m.runLineName}>{x.idx?.name ?? r.snapshot?.name}</span>
+                      <span className={m.runLineMeta}>{meta}</span>
+                    </span>
+                    <Icon name="caret-right" weight="bold" size={16} color="var(--label-tertiary)" />
+                  </button>
+                )
+              })}
+            </div>
+          )}
         </div>
       )}
     </Screen>

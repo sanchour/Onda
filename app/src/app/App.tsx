@@ -81,7 +81,7 @@ function useShell() {
   useLayoutEffect(() => {
     const root = document.documentElement
     root.dataset.theme = dark ? 'dark' : 'light'
-    const bg = dark ? '#121212' : '#F1F2F6'
+    const bg = dark ? '#1B1C1F' : '#F1F2F6'
     document.querySelector('meta[name="theme-color"]')?.setAttribute('content', bg)
     document.querySelector('meta[name="apple-mobile-web-app-status-bar-style"]')?.setAttribute('content', dark ? 'black-translucent' : 'default')
     try {

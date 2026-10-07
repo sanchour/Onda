@@ -1,0 +1,10 @@
+
+/** Centre-crop to a square and re-encode small, so the profile picture stays a few tens of KB and syncs with settings. */
+async function squarePhoto(file: Blob, size: number): Promise<string> {
+  const bmp = await createImageBitmap(file)
+  const side = Math.min(bmp.width, bmp.height)
+  const c = document.createElement('canvas')
+  c.width = c.height = size
+  c.getContext('2d')!.drawImage(bmp, (bmp.width - side) / 2, (bmp.height - side) / 2, side, side, 0, 0, size, size)
+  return c.toDataURL('image/jpeg', 0.82)
+}

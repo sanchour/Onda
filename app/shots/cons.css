@@ -1,0 +1,14 @@
+
+/* ── Consistency meter ───────────────────────────────────── */
+.consCard{margin:20px 16px 0;background:var(--surface-card);border-radius:26px;padding:18px 20px 16px}
+.consTop{display:flex;align-items:center;gap:18px}
+.consPct{font:700 var(--fs-26)/1 var(--font-sans);letter-spacing:-0.02em;font-variant-numeric:tabular-nums}
+.consPct small{font-size:var(--fs-13);font-weight:600;margin-left:1px;color:var(--label-secondary)}
+.consText{min-width:0}
+.consTier{font:600 var(--fs-17) var(--font-sans);color:var(--accent);margin-top:2px}
+.consTrend{font:400 var(--fs-13)/1.35 var(--font-sans);color:var(--label-secondary);margin-top:3px}
+.consDays{display:flex;align-items:flex-end;gap:5px;height:38px;margin-top:16px}
+.consDay{flex:1;height:100%;display:flex;align-items:flex-end;border-radius:6px;background:var(--viz-track);overflow:hidden}
+.consFill{display:block;width:100%;border-radius:6px;background:var(--accent);transition:height var(--duration-large) var(--ease-enter)}
+.consDay[data-empty] .consFill{background:var(--label-quaternary)}
+.consCaption{font:400 var(--fs-12)/1.35 var(--font-sans);color:var(--label-tertiary);margin-top:10px}

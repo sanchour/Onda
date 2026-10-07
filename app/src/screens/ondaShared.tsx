@@ -11,9 +11,9 @@ import type { OndaRun } from '@/data/types'
 import { now } from '@/lib/dates'
 import { haptic } from '@/lib/haptics'
 import { nav } from '@/nav/store'
-import { CheckDot, StatusCircle } from '@/ui/controls'
 import { Icon } from '@/ui/Icon'
 import o from './ondas.module.css'
+import s from './screens.module.css'
 
 export interface ActiveOnda {
   run: OndaRun
@@ -91,35 +91,57 @@ export function PracticeRow({ p, done, onToggle, small }: { p: Pick<Practice, 'i
   )
 }
 
-export function RulesList({ rules, done, onToggle }: { rules: { id: string; text: string }[]; done: Set<string>; onToggle: (id: string) => void }) {
+/** Rules: numbered squircle cards that read like commandments. Done rules fill with the Onda's colour. */
+export function RulesList({ rules, done, onToggle }: { rules: { id: string; text: string; why?: string }[]; done: Set<string>; onToggle: (id: string) => void }) {
   const { t } = useTranslation()
   if (!rules.length) return <div className={o.rulesCard} style={{ padding: '20px', textAlign: 'center', color: 'var(--label-secondary)' }}>{t('ondas.noRules')}</div>
   return (
-    <div className={o.rulesCard}>
-      {rules.map((r) => (
-        <button key={r.id} type="button" role="checkbox" aria-checked={done.has(r.id)} className={o.ruleRow} onClick={() => { haptic('select'); onToggle(r.id) }}>
-          <CheckDot on={done.has(r.id)} />
-          <span>{r.text}</span>
-        </button>
-      ))}
+    <div className={s.stack10} style={{ padding: '0 16px' }}>
+      {rules.map((r, i) => {
+        const on = done.has(r.id)
+        return (
+          <button key={r.id} type="button" role="checkbox" aria-checked={on} className={on ? `${o.rule} ${o.ruleOn}` : o.rule} onClick={() => { haptic(on ? 'select' : 'success'); onToggle(r.id) }}>
+            <span className={o.ruleNum} aria-hidden>{on ? <Icon name="check" weight="bold" size={20} /> : i + 1}</span>
+            <span className={o.ruleBody}>
+              <span className={o.ruleText}>{r.text}</span>
+              {r.why && <span className={o.ruleWhy}>{r.why}</span>}
+            </span>
+          </button>
+        )
+      })}
     </div>
   )
 }
 
-export function TasksList({ tasks, done, onToggle }: { tasks: { id: string; name: string; meta: string }[]; done: Set<string>; onToggle: (id: string) => void }) {
+/** Tasks: cards with an accent bar on the left, a time pill and a square checkbox. */
+export function TasksList({ tasks, done, onToggle }: { tasks: { id: string; name: string; meta: string; time?: string }[]; done: Set<string>; onToggle: (id: string) => void }) {
   const { t } = useTranslation()
   if (!tasks.length) return <div className={o.rulesCard} style={{ padding: '20px', textAlign: 'center', color: 'var(--label-secondary)' }}>{t('ondas.noTasks')}</div>
   return (
-    <div className={o.tasksCard}>
-      {tasks.map((k) => (
-        <button key={k.id} type="button" role="checkbox" aria-checked={done.has(k.id)} className={o.taskRow} onClick={() => { haptic('select'); onToggle(k.id) }}>
-          <StatusCircle status={done.has(k.id) ? 'done' : 'todo'} />
-          <span>
-            <span className={done.has(k.id) ? `${o.taskName} ${o.taskDone}` : o.taskName} style={{ display: 'block' }}>{k.name}</span>
-            <span className={o.pMeta} style={{ display: 'block', marginTop: 0 }}>{k.meta}</span>
-          </span>
-        </button>
-      ))}
+    <div className={s.stack10} style={{ padding: '0 16px' }}>
+      {tasks.map((k) => {
+        const on = done.has(k.id)
+        return (
+          <button key={k.id} type="button" role="checkbox" aria-checked={on} className={on ? `${o.task} ${o.taskOn}` : o.task} onClick={() => { haptic(on ? 'select' : 'success'); onToggle(k.id) }}>
+            <span className={o.taskBar} aria-hidden />
+            <span className={o.taskBody}>
+              <span className={on ? `${o.taskTitle} ${o.taskDone}` : o.taskTitle}>{k.name}</span>
+              <span className={o.taskMeta}>
+                {k.time && (
+                  <span className={o.taskTime}>
+                    <Icon name="clock" weight="bold" size={12} />
+                    {k.time}
+                  </span>
+                )}
+                <span>{k.meta}</span>
+              </span>
+            </span>
+            <span className={on ? `${o.taskBox} ${o.taskBoxOn}` : o.taskBox} aria-hidden>
+              <Icon name="check" weight="bold" size={16} />
+            </span>
+          </button>
+        )
+      })}
     </div>
   )
 }
@@ -137,5 +159,22 @@ export function useRunToday(runId: string | undefined) {
       tasks: runId ? doneSet(taskLogs, runId, today, 'itemId') : new Set<string>(),
     }),
     [runId, today, practiceLogs, ruleLogs, taskLogs],
+  )
+}
+
+/** A themed header card for sheets and pages: the Onda's fill, glyph watermark, icon and display face. */
+export function OndaBanner({ look, icon, kicker, title, sub }: { look: OndaLook; icon: string; kicker?: string; title: string; sub?: string }) {
+  return (
+    <div className={`${o.sBanner} ${o.themed}`}>
+      <Glyph look={look} opacity={0.14} right={14} bottom={4} />
+      <span className={`${o.sBannerIcon} ${o.chipCircle}`}>
+        <Icon name={icon} weight="fill" size={22} />
+      </span>
+      <span className={o.sBannerText}>
+        {kicker && <span className={o.sBannerKicker}>{kicker}</span>}
+        <span className={o.sBannerTitle}>{title}</span>
+        {sub && <span className={o.sBannerSub}>{sub}</span>}
+      </span>
+    </div>
   )
 }

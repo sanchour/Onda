@@ -1,0 +1,24 @@
+      <div className={m.consCard} role="group" aria-label={t('stats.consistency')}>
+        <div className={m.consTop}>
+          <div role="img" aria-label={t('stats.consistencyAria', { pct: Math.round(cons.score * 100), tier: t(`stats.tier${cons.tier[0]!.toUpperCase()}${cons.tier.slice(1)}`) })}>
+            <ProgressRing value={cons.score} size={96} stroke={10} color="var(--accent)" track="var(--viz-track)">
+              <span className={m.consPct}>{Math.round(cons.score * 100)}<small>%</small></span>
+            </ProgressRing>
+          </div>
+          <div className={m.consText}>
+            <h2 className={s.h20}>{t('stats.consistency')}</h2>
+            <div className={m.consTier}>{t(`stats.tier${cons.tier[0]!.toUpperCase()}${cons.tier.slice(1)}`)}</div>
+            <div className={m.consTrend}>
+              {cons.delta === null ? t('stats.consistencyNew') : cons.delta === 0 ? t('stats.consistencyTrendFlat') : t(cons.delta > 0 ? 'stats.consistencyTrendUp' : 'stats.consistencyTrendDown', { count: Math.abs(cons.delta) })}
+            </div>
+          </div>
+        </div>
+        <div className={m.consDays} aria-hidden>
+          {cons.days.map((r, i) => (
+            <span key={i} className={m.consDay} data-empty={r === null || undefined}>
+              <span className={m.consFill} style={{ height: r === null ? 4 : Math.max(6, Math.round(r * 34)), opacity: r === null ? 0.5 : 0.35 + 0.65 * r }} />
+            </span>
+          ))}
+        </div>
+        <div className={m.consCaption}>{t('stats.last14')} · {t('stats.consistencyNote')}</div>
+      </div>

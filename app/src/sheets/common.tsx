@@ -1,5 +1,6 @@
 import type { ReactNode } from 'react'
 import { useTranslation } from 'react-i18next'
+import type { OndaLook } from '@/content/themes'
 import { useNav, type SheetEntry } from '@/nav/store'
 import { GlassButton } from '@/ui/buttons'
 import { Sheet } from '@/ui/Sheet'
@@ -24,11 +25,13 @@ interface AppSheetProps {
   detent?: number
   background?: string
   onCancel?: () => void
+  /** Theme the sheet with an Onda: its colour, pattern and typeface. */
+  look?: OndaLook
   children: ReactNode
 }
 
 /** Standard sheet chrome: Cancel · Title · Save in glass capsules, or a lone close circle. */
-export function AppSheet({ entry, title, leading = 'close', onSave, saveLabel, saveDisabled, trailing, detent, background, onCancel, children }: AppSheetProps) {
+export function AppSheet({ entry, title, leading = 'close', onSave, saveLabel, saveDisabled, trailing, detent, background, onCancel, look, children }: AppSheetProps) {
   const { t } = useTranslation()
   const sh = useSheet(entry)
   const cancel = onCancel ?? sh.close
@@ -36,7 +39,7 @@ export function AppSheet({ entry, title, leading = 'close', onSave, saveLabel, s
     leading === 'close' ? <GlassButton icon="x" ariaLabel={t('a11y.close')} onClick={cancel} /> : leading === 'cancel' ? <GlassButton label={t('common.cancel')} onClick={cancel} /> : leading
   const trail = trailing ?? (onSave ? <GlassButton label={saveLabel ?? t('common.save')} labelWeight="semibold" disabled={saveDisabled} onClick={onSave} /> : undefined)
   return (
-    <Sheet open={sh.open} onExited={sh.onExited} title={title ?? ''} leading={lead} trailing={trail} detent={detent} background={background} onScrimClick={onCancel}>
+    <Sheet open={sh.open} onExited={sh.onExited} title={title ?? ''} leading={lead} trailing={trail} detent={detent} background={background ?? (look ? 'color-mix(in srgb, var(--onda-solid) 30%, var(--surface-grouped))' : undefined)} style={look?.vars} onScrimClick={onCancel}>
       {children}
     </Sheet>
   )

@@ -240,7 +240,7 @@ export default function Settings({ entry }: { entry: Extract<StackEntry, { name:
         <>
           <button type="button" className={m.profile} onClick={() => openSheet({ name: 'account' })}>
             <span className={m.profileRow}>
-              <Avatar initials={(name[0] ?? 'O').toUpperCase()} size={64} />
+              <Avatar initials={(name[0] ?? 'O').toUpperCase()} size={64} photo={settings.avatarPhoto} icon={settings.avatarIcon} tone={settings.avatarTone} />
               <span style={{ flex: 1, minWidth: 0 }}>
                 <span className={m.profileName} style={{ display: 'block' }}>{name}</span>
                 <span className={s.sub} style={{ display: 'block' }}>{t('settings.memberSince', { date: fmtDate(toDateStr(new Date(user?.createdAt ?? Date.now()))) })}</span>

@@ -1,0 +1,29 @@
+
+/* ── Lago insights: liquid-glass treatment ───────────────── */
+.lagoAura{position:absolute;left:0;right:0;top:0;height:520px;pointer-events:none;z-index:0;
+  background:
+    radial-gradient(60% 55% at 22% 18%,color-mix(in srgb,var(--accent) 34%,transparent),transparent 70%),
+    radial-gradient(55% 50% at 85% 30%,color-mix(in srgb,var(--viz-purple) 30%,transparent),transparent 72%),
+    radial-gradient(70% 60% at 50% 60%,color-mix(in srgb,var(--viz-coral) 18%,transparent),transparent 75%);
+  -webkit-mask-image:linear-gradient(#000 60%,transparent);mask-image:linear-gradient(#000 60%,transparent)}
+.lagoHero,.glassCard{position:relative;z-index:1}
+.lagoRing{position:relative;width:176px;height:176px}
+.lagoDisc{width:132px;height:132px;border-radius:50%;display:flex;align-items:center;justify-content:center;color:var(--accent);position:relative;
+  background:linear-gradient(160deg,color-mix(in srgb,var(--surface-card) 82%,transparent),color-mix(in srgb,var(--surface-card) 38%,transparent));
+  border:0.5px solid color-mix(in srgb,var(--label) 14%,transparent);
+  box-shadow:inset 0 1.5px 0 rgba(255,255,255,.75),inset 0 -10px 24px color-mix(in srgb,var(--accent) 16%,transparent),0 14px 36px color-mix(in srgb,var(--accent) 24%,transparent),0 2px 6px rgba(0,0,0,.06)}
+.lagoDisc::after{content:"";position:absolute;left:14%;right:14%;top:6%;height:38%;border-radius:50%;background:linear-gradient(rgba(255,255,255,.55),transparent);pointer-events:none}
+[data-theme="dark"] .lagoDisc{box-shadow:inset 0 1px 0 rgba(255,255,255,.22),inset 0 -10px 24px color-mix(in srgb,var(--accent) 20%,transparent),0 14px 36px color-mix(in srgb,var(--accent) 26%,transparent)}
+[data-theme="dark"] .lagoDisc::after{background:linear-gradient(rgba(255,255,255,.16),transparent)}
+.lagoRingPct{position:absolute;left:50%;bottom:-8px;transform:translateX(-50%);padding:3px 10px;border-radius:999px;font:700 var(--fs-12) var(--font-sans);font-variant-numeric:tabular-nums;color:var(--accent);
+  background:color-mix(in srgb,var(--surface-card) 88%,transparent);border:0.5px solid color-mix(in srgb,var(--label) 12%,transparent);box-shadow:0 4px 12px rgba(0,0,0,.08)}
+.lagoStreakPill{display:inline-flex;align-items:center;gap:6px;margin-top:14px;padding:7px 14px;border-radius:999px;font:600 var(--fs-14) var(--font-sans);
+  background:color-mix(in srgb,var(--surface-card) 70%,transparent);border:0.5px solid color-mix(in srgb,var(--label) 12%,transparent);box-shadow:var(--glass-highlight),0 4px 14px rgba(0,0,0,.06)}
+.glassCard{background:color-mix(in srgb,var(--surface-card) 72%,transparent) !important;border:0.5px solid color-mix(in srgb,var(--label) 10%,transparent);box-shadow:var(--glass-highlight),0 10px 30px rgba(0,0,0,.06);border-radius:30px !important}
+.lagoStats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));text-align:center;padding:20px 12px 18px}
+.lagoStat + .lagoStat{border-left:0.5px solid color-mix(in srgb,var(--label) 14%,transparent)}
+.lagoStat .statV small{font-size:var(--fs-14);font-weight:600;color:var(--label-secondary);margin-left:1px}
+.lagoStats .statV{display:block}
+/* calendar: done days are small glass-lit accent discs */
+.calOn{background:linear-gradient(160deg,color-mix(in srgb,var(--accent) 100%,white 14%),var(--accent)) !important;color:var(--accent-contrast) !important;border-color:transparent !important;box-shadow:inset 0 1px 0 rgba(255,255,255,.4),0 4px 10px color-mix(in srgb,var(--accent) 30%,transparent)}
+.calToday{background:color-mix(in srgb,var(--accent) 12%,transparent)}

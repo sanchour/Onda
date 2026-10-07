@@ -1,0 +1,34 @@
+      <div className={s.lagoAura} aria-hidden />
+      <div className={`${s.center} ${s.hero} ${s.lagoHero}`}>
+        <div className={s.lagoRing} role="img" aria-label={t('lago.progressValue', { day: st.day, length: lago.lengthDays })}>
+          <ProgressRing value={st.pct} size={176} stroke={8} color="var(--accent)" track="color-mix(in srgb, var(--accent) 14%, transparent)">
+            <span className={s.lagoDisc}>
+              <Icon name={lago.icon} weight="fill" size={52} />
+            </span>
+          </ProgressRing>
+          <span className={s.lagoRingPct} aria-hidden>{ringPct}%</span>
+        </div>
+        <h2 className={s.heroName}>{lago.name}</h2>
+        {lago.why && <div className={s.heroDesc}>{lago.why}</div>}
+        <div className={s.lagoStreakPill}>
+          <Icon name="fire" weight="fill" size={16} color={st.streak ? 'var(--accent)' : 'var(--label-tertiary)'} />
+          <span>{st.streak ? t('lago.dayStreak', { count: st.streak }) : t('lago.noStreak')}</span>
+        </div>
+      </div>
+
+      <div className={`${s.card} ${s.glassCard} ${s.lagoStats}`}>
+        <div className={s.lagoStat}>
+          <div className={s.statV}>{st.day}<small>/{lago.lengthDays}</small></div>
+          <div className={s.statL}>{t('lago.progress')}</div>
+        </div>
+        <div className={s.lagoStat}>
+          <div className={s.statV}>{st.checkIns}</div>
+          <div className={s.statL}>{t('lago.checkIns')}</div>
+        </div>
+        <div className={s.lagoStat}>
+          <div className={s.statV}>{Math.round(st.score * 100)}<small>%</small></div>
+          <div className={s.statL}>{t('lago.score')}</div>
+        </div>
+        <ProgressBar value={st.pct} height={6} style={{ gridColumn: '1 / -1', marginTop: 14 }} label={t('lago.progress')} />
+      </div>
+

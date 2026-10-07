@@ -6,7 +6,7 @@ import { useLook, useOnda, useOndaIndex } from '@/data/hooks'
 import { useStore } from '@/data/store'
 import { detId } from '@/lib/ids'
 import { useNav, type SheetEntry } from '@/nav/store'
-import { Glyph, useActiveOnda, useRunToday } from '@/screens/ondaShared'
+import { Glyph, OndaBanner, useActiveOnda, useRunToday } from '@/screens/ondaShared'
 import o from '@/screens/ondas.module.css'
 import s from '@/screens/screens.module.css'
 import { Button, GlassButton } from '@/ui/buttons'
@@ -27,8 +27,9 @@ export function JournalListSheet({ entry }: E<'journalList'>) {
   const write = (day?: number) => swapSheet({ name: 'journalEdit', day, fromList: true })
 
   return (
-    <AppSheet entry={entry} title={t('journal.title')} detent={0.78} trailing={<GlassButton icon="plus" prominent ariaLabel={t('a11y.newEntry')} onClick={() => write()} />}>
-      <div style={{ padding: '4px 16px 48px', ...active?.look.vars }}>
+    <AppSheet entry={entry} look={active?.look} title={t('journal.title')} detent={0.78} trailing={<GlassButton icon="plus" prominent ariaLabel={t('a11y.newEntry')} onClick={() => write()} />}>
+      <div style={{ padding: '4px 16px 48px' }}>
+        {active?.look && <div style={{ marginBottom: 16 }}><OndaBanner look={active.look} icon="notebook" kicker={name} title={t('journal.title')} sub={t('journal.count', { count: entries.length })} /></div>}
         <Button fullWidth icon="pencil-simple" onClick={() => write()}>
           {t('journal.newEntry')}
         </Button>
@@ -77,10 +78,13 @@ export function JournalEditSheet({ entry }: E<'journalEdit'>) {
   const practices = active.content?.practices ?? []
 
   return (
-    <AppSheet entry={entry} title={t('journal.title')} leading="cancel" onCancel={back} onSave={save}>
-      <div style={{ padding: '8px 20px 40px', ...active.look.vars }}>
-        <div className={o.jeKicker}>{t('journal.dayLabel', { day, name: active.index?.name ?? '' })}</div>
-        <h2 className={o.jePrompt}>{prompt}</h2>
+    <AppSheet entry={entry} look={active.look} title={t('journal.title')} leading="cancel" onCancel={back} onSave={save}>
+      <div style={{ padding: '8px 20px 40px' }}>
+        <div className={`${o.jeCard} ${o.themed}`}>
+          <Glyph look={active.look} opacity={0.12} right={14} bottom={4} />
+          <div className={o.jeKicker} style={{ color: 'inherit', opacity: 0.8 }}>{t('journal.dayLabel', { day, name: active.index?.name ?? '' })}</div>
+          <h2 className={o.jePrompt}>{prompt}</h2>
+        </div>
         <div className={s.card} style={{ margin: '20px 0 0', padding: '16px 20px' }}>
           <textarea aria-label={prompt} placeholder={t('journal.placeholder')} value={text} onChange={(e) => setText(e.target.value)} style={{ minHeight: 240, lineHeight: 1.45 }} />
         </div>
@@ -125,9 +129,9 @@ export function PhilosophySheet({ entry }: E<'philosophy'>) {
       </>
     )
   return (
-    <AppSheet entry={entry} title={t('philosophy.title')} detent={0.78}>
-      <div style={{ padding: '4px 20px 48px', ...active?.look.vars }}>
-        <div className={o.lead}>{t('philosophy.lead')}</div>
+    <AppSheet entry={entry} look={active?.look} title={t('philosophy.title')} detent={0.78}>
+      <div style={{ padding: '4px 20px 48px' }}>
+        {active?.look && <OndaBanner look={active.look} icon="lightbulb" kicker={active.index?.name} title={t('philosophy.title')} sub={t('philosophy.lead')} />}
         {block(t('philosophy.think'), c?.philosophy ?? [], true)}
         {block(t('philosophy.ethics'), c?.ethics ?? [])}
       </div>
@@ -200,8 +204,8 @@ export function GuideSheet({ entry }: E<'guide'>) {
   const lead = tab === 'overview' ? index?.line : t(`guide.lead${tab[0]!.toUpperCase()}${tab.slice(1)}`)
 
   return (
-    <AppSheet entry={entry} title={index?.name ?? ''}>
-      <div style={{ padding: '0 0 60px', ...look.vars }}>
+    <AppSheet entry={entry} look={look} title={index?.name ?? ''}>
+      <div style={{ padding: '0 0 60px' }}>
         <div className={`${o.gBanner} ${o.themed}`}>
           <Glyph look={look} opacity={0.14} right={14} bottom={4} />
           <div className={s.kicker} style={{ color: 'inherit' }}>{index?.origin}</div>

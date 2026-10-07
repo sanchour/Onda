@@ -6,7 +6,7 @@ import { MONTHS, fromDateStr } from '@/lib/dates'
 import { BackButton, ChromeGroup, ChromeTitle, Screen } from '@/nav/Screen'
 import { useNav, type StackEntry } from '@/nav/store'
 import { Button, GlassButton } from '@/ui/buttons'
-import { ProgressBar } from '@/ui/data'
+import { ProgressBar, ProgressRing } from '@/ui/data'
 import { Icon } from '@/ui/Icon'
 import { lagoMenu } from './lagoActions'
 import s from './screens.module.css'
@@ -35,6 +35,7 @@ export default function LagoInsights({ entry }: { entry: Extract<StackEntry, { n
   const shift = (d: number) => setYm(({ y, m }) => ({ y: y + Math.floor((m + d) / 12), m: (((m + d) % 12) + 12) % 12 }))
   const dow = t('common.weekdays', { returnObjects: true }) as string[]
 
+  const ringPct = Math.round(st.pct * 100)
   const cta = st.phase !== 'active' ? t('lago.finished') : st.doneToday || st.missedToday ? t('lago.editCheckIn') : t('lago.checkIn')
 
   return (
@@ -58,41 +59,41 @@ export default function LagoInsights({ entry }: { entry: Extract<StackEntry, { n
         </Button>
       }
     >
-      <div className={`${s.center} ${s.hero}`}>
-        <div className={`${s.circle} ${s.heroCircle}`}>
-          <Icon name={lago.icon} weight="fill" size={56} />
+      <div className={s.lagoAura} aria-hidden />
+      <div className={`${s.center} ${s.hero} ${s.lagoHero}`}>
+        <div className={s.lagoRing} role="img" aria-label={t('lago.progressValue', { day: st.day, length: lago.lengthDays })}>
+          <ProgressRing value={st.pct} size={176} stroke={8} color="var(--accent)" track="color-mix(in srgb, var(--accent) 14%, transparent)">
+            <span className={s.lagoDisc}>
+              <Icon name={lago.icon} weight="fill" size={52} />
+            </span>
+          </ProgressRing>
+          <span className={s.lagoRingPct} aria-hidden>{ringPct}%</span>
         </div>
         <h2 className={s.heroName}>{lago.name}</h2>
         {lago.why && <div className={s.heroDesc}>{lago.why}</div>}
+        <div className={s.lagoStreakPill}>
+          <Icon name="fire" weight="fill" size={16} color={st.streak ? 'var(--accent)' : 'var(--label-tertiary)'} />
+          <span>{st.streak ? t('lago.dayStreak', { count: st.streak }) : t('lago.noStreak')}</span>
+        </div>
       </div>
 
-      <div className={`${s.card} ${s.progressCard}`}>
-        <div className={s.progressRow}>
-          <span>{t('lago.progress')}</span>
-          <span>{t('lago.progressValue', { day: st.day, length: lago.lengthDays })}</span>
+      <div className={`${s.card} ${s.glassCard} ${s.lagoStats}`}>
+        <div className={s.lagoStat}>
+          <div className={s.statV}>{st.day}<small>/{lago.lengthDays}</small></div>
+          <div className={s.statL}>{t('lago.progress')}</div>
         </div>
-        <ProgressBar value={st.pct} height={8} style={{ marginTop: 12 }} label={t('lago.progress')} />
-      </div>
-
-      <div className={`${s.card} ${s.statsCard} ${s.stat3}`}>
-        <div>
-          <div className={s.statV}>
-            {st.streak}
-            <Icon name="fire" weight="fill" size={18} color="var(--accent)" />
-          </div>
-          <div className={s.statL}>{t('lago.streak')}</div>
-        </div>
-        <div>
+        <div className={s.lagoStat}>
           <div className={s.statV}>{st.checkIns}</div>
           <div className={s.statL}>{t('lago.checkIns')}</div>
         </div>
-        <div>
-          <div className={s.statV}>{Math.round(st.score * 100)}%</div>
+        <div className={s.lagoStat}>
+          <div className={s.statV}>{Math.round(st.score * 100)}<small>%</small></div>
           <div className={s.statL}>{t('lago.score')}</div>
         </div>
+        <ProgressBar value={st.pct} height={6} style={{ gridColumn: '1 / -1', marginTop: 14 }} label={t('lago.progress')} />
       </div>
 
-      <div className={`${s.card} ${s.calCard}`}>
+      <div className={`${s.card} ${s.calCard} ${s.glassCard}`}>
         <div className={s.calHead}>
           <button type="button" className={s.calNav} aria-label={t('a11y.previousMonth')} disabled={!canPrev} onClick={() => shift(-1)}>
             <Icon name="caret-left" weight="bold" size={18} />
@@ -114,7 +115,7 @@ export default function LagoInsights({ entry }: { entry: Extract<StackEntry, { n
             c ? (
               <span
                 key={i}
-                className={[s.calCell, c.today && c.state === 'done' ? s.calOn : c.state === 'done' ? s.calHas : '', c.state === 'missed' ? s.calMissed : '', c.state === 'future' ? s.calFuture : '', c.today && c.state !== 'done' ? s.calToday : ''].join(' ')}
+                className={[s.calCell, c.state === 'done' ? s.calOn : '', c.state === 'missed' ? s.calMissed : '', c.state === 'future' ? s.calFuture : '', c.today && c.state !== 'done' ? s.calToday : ''].join(' ')}
                 aria-label={`${c.day} ${MONTHS[ym.m]}${c.state === 'done' ? `, ${t('a11y.done')}` : c.state === 'missed' ? `, ${t('checkin.missed')}` : ''}`}
               >
                 {c.day}

@@ -1,0 +1,12 @@
+  const signedIn = account && !account.anonymous
+  const settings = useSettings()
+  const update = useStore((x) => x.updateSettings)
+  const file = useRef<HTMLInputElement>(null)
+  const pickPhoto = async (f: File | undefined) => {
+    if (!f) return
+    try {
+      update({ avatarPhoto: await squarePhoto(f, 256), avatarIcon: '' })
+    } catch {
+      fail()
+    }
+  }

@@ -13,7 +13,7 @@ import { Button } from '@/ui/buttons'
 import { CheckDot, Chip, Switch } from '@/ui/controls'
 import { ProgressRing, StepBar } from '@/ui/data'
 import { Icon } from '@/ui/Icon'
-import { useActiveOnda } from './ondaShared'
+import { OndaBanner, useActiveOnda } from './ondaShared'
 import o from './ondas.module.css'
 import s from './screens.module.css'
 
@@ -32,10 +32,9 @@ export function Immersion() {
   const list = media.filter((m) => filter === 'all' || m.kind === filter)
 
   return (
-    <Screen chrome={<BackButton />}>
-      <div className={s.pageHead}>
-        <h1 className={s.largeTitle}>{t('immersion.title')}</h1>
-        <div className={`${s.sub} ${s.sub2}`}>{t('immersion.experienced', { name: active.index?.name ?? '', done: media.filter((m) => done.has(m.id)).length, total: media.length })}</div>
+    <Screen chrome={<BackButton />} style={active.look.vars}>
+      <div style={{ padding: '0 16px' }}>
+        <OndaBanner look={active.look} icon="headphones" kicker={active.index?.name} title={t('immersion.title')} sub={t('immersion.experienced', { done: media.filter((m) => done.has(m.id)).length, total: media.length })} />
       </div>
       <div className={`hscroll ${o.chips}`}>
         {(['all', ...kinds] as const).map((k) => (

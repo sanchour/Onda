@@ -53,7 +53,7 @@ export const en = {
     shareText: '{{name}}: day {{day}} of {{length}}, {{streak}} day streak. Tracked with Onda.',
   },
   lago: {
-    title: 'Lago', progress: 'Progress', progressValue: '{{day}}/{{length}} days', streak: 'Streak', checkIns: 'Check Ins', score: 'Score',
+    title: 'Lago', dayStreak_one: '{{count}} day streak', dayStreak_other: '{{count}} day streak', noStreak: 'Start your streak', progress: 'Progress', progressValue: '{{day}}/{{length}} days', streak: 'Streak', checkIns: 'Check Ins', score: 'Score',
     checkIn: 'Check In', editCheckIn: 'Edit Check In', notDueToday: 'Not scheduled today', finished: 'Finished',
   },
   checkin: { title: 'Check In', completed: 'Completed', missed: 'Missed', when: 'When', notePlaceholder: 'What did you notice?', addPhoto: 'Add Photo', changePhoto: 'Change Photo', removePhoto: 'Remove Photo', photoAlt: 'Check in photo' },
@@ -83,8 +83,9 @@ export const en = {
   },
   kinds: { all: 'All', read: 'Books', watch: 'Watch', listen: 'Listen', art: 'Art', eat: 'Food', drink: 'Drinks', customs: 'Customs', words: 'Language' },
   kindLabel: { read: 'Read', watch: 'Watch', listen: 'Listen', art: 'Art', eat: 'Eat', drink: 'Drink', customs: 'Customs', words: 'Words' },
-  immersion: { title: 'Immersion', experienced: '{{name}} · {{done}} of {{total}} experienced', footer: 'Mark an item when you have experienced it.', empty: 'Nothing here yet' },
+  immersion: { title: 'Immersion', experienced: '{{done}} of {{total}} experienced', footer: 'Mark an item when you have experienced it.', empty: 'Nothing here yet' },
   journal: {
+    count_one: '{{count}} entry', count_other: '{{count}} entries',
     title: 'Journal', newEntry: 'New Entry', dayLabel: 'Day {{day}} · {{name}}', placeholder: 'Write freely', practicedToday: 'Practiced today', empty: 'No entries yet', emptySub: 'One short entry a day is enough',
     saved: 'Entry saved',
   },
@@ -115,6 +116,7 @@ export const en = {
 
   stats: {
     title: 'Stats', week: 'Week', month: 'Month', all: 'All', checkIns: 'Check Ins', dayStreak: 'Day Streak', bestStreak: 'Best Streak', completion: 'Completion', activity: 'Activity',
+    consistency: 'Consistency', consistencyNote: 'How reliably you do what you set out to do, over the last four weeks.', consistencyTrendUp: '{{count}} points up on the four weeks before', consistencyTrendDown: '{{count}} points down on the four weeks before', consistencyTrendFlat: 'Level with the four weeks before', consistencyNew: 'Keep going: a trend appears after a week or two', tierFinding: 'Finding rhythm', tierBuilding: 'Building', tierSteady: 'Steady', tierLockedIn: 'Locked in', consistencyAria: 'Consistency {{pct}} percent, {{tier}}', last14: 'Last 14 days',
     noteWeek: 'Check ins per day across your Lagos and Ondas, last 7 days.', noteMonth: 'Check ins per week across your Lagos and Ondas.', noteAll: 'Check ins per month since you started.',
     achievements: 'Achievements', achCount: '{{count}} of 12', ondas: 'Ondas', history: 'History', nothingLogged: 'Nothing logged this day', noOndas: 'No Ondas yet',
     runActive: 'Day {{day}} of {{length}} · Active', runComplete: '{{length}} days · Completed {{date}} · {{kept}} kept', runEnded: '{{length}} days · Ended {{date}}',
@@ -144,6 +146,7 @@ export const en = {
   },
   account: {
     title: 'Account', lead: 'Sign in so your data follows you across devices.', apple: 'Sign in with Apple', email: 'Email address', sendLink: 'Send Magic Link', linkSent: 'Check your inbox for the link', signedInAs: 'Signed in as {{email}}', signedIn: 'Signed in',
+    photo: 'Choose Photo', useInitials: 'Use Initials', icon: 'Icon', color: 'Color',
     signOut: 'Sign Out', localOnly: 'Sync is not set up in this build. Everything stays on this device.', invalidEmail: 'Enter a valid email address', name: 'Name',
   },
   notion: {

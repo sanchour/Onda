@@ -14,6 +14,10 @@ const base = {
 
 export const SettingsSchema = z.object({
   onboarded: z.boolean().default(false),
+  /** Profile picture: a small square photo (data URL), or an icon on a colour. Empty icon means initials. */
+  avatarPhoto: z.string().default(''),
+  avatarIcon: z.string().default(''),
+  avatarTone: z.enum(['blue', 'green', 'yellow', 'coral', 'purple']).default('blue'),
   themeMode: z.enum(['light', 'dark', 'auto']).default('light'),
   ondaThemes: z.boolean().default(true),
   defaultOndaLength: z.number().int().min(7).max(30).default(14),

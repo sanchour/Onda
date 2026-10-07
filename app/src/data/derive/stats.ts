@@ -192,3 +192,45 @@ export function activeDates(s: StatsInput, act: Map<DateStr, DayActivity>): Set<
   }
   return set
 }
+
+export type ConsistencyTier = 'finding' | 'building' | 'steady' | 'lockedIn'
+export interface Consistency {
+  /** 0..1: the average share of what was scheduled that got done, over the last 28 days. */
+  score: number
+  /** score minus the previous 28 days, in points (-100..100). null until there is enough history. */
+  delta: number | null
+  tier: ConsistencyTier
+  /** The last 14 days, oldest first. null = nothing scheduled that day. */
+  days: (number | null)[]
+}
+
+/** Consistency: how reliably you do what you set out to do, not how much. A day counts as done / scheduled
+ *  (capped at 1); days with nothing scheduled are ignored, and so is today until something is done, so a
+ *  morning check does not drag the score down. Only days since your first activity count. */
+export function consistency(act: Map<DateStr, DayActivity>, today: DateStr): Consistency {
+  const first = [...act.keys()].sort()[0] ?? today
+  const ratio = (d: DateStr): number | null => {
+    const a = act.get(d)
+    if (!a || a.due <= 0 || d < first) return null
+    if (d === today && a.done === 0) return null
+    return Math.min(1, a.done / a.due)
+  }
+  const window = (end: DateStr, n: number) => {
+    const vals: number[] = []
+    for (let i = 0; i < n; i++) {
+      const r = ratio(addDays(end, -i))
+      if (r !== null) vals.push(r)
+    }
+    return vals
+  }
+  const mean = (v: number[]) => v.reduce((a, b) => a + b, 0) / v.length
+  const now = window(today, 28)
+  const before = window(addDays(today, -28), 28)
+  const score = now.length ? mean(now) : 0
+  return {
+    score,
+    delta: now.length >= 7 && before.length >= 7 ? Math.round((score - mean(before)) * 100) : null,
+    tier: score < 0.4 ? 'finding' : score < 0.7 ? 'building' : score < 0.9 ? 'steady' : 'lockedIn',
+    days: Array.from({ length: 14 }, (_, i) => ratio(addDays(today, i - 13))),
+  }
+}

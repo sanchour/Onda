@@ -1,0 +1,31 @@
+import { webkit, devices } from '@playwright/test'
+const dark = process.argv[2] === 'dark'
+const out = (n) => `shots/${dark ? 'dark-' : ''}${n}.png`
+const browser = await webkit.launch()
+const ctx = await browser.newContext({ ...devices['iPhone 15 Pro'], colorScheme: dark ? 'dark' : 'light' })
+const page = await ctx.newPage()
+const errors = []
+page.on('pageerror', (e) => errors.push(String(e).slice(0, 300)))
+const wait = (ms = 700) => page.waitForTimeout(ms)
+const tap = async (name, role = 'button') => { await page.getByRole(role, { name, exact: typeof name === 'string' }).first().click(); await wait() }
+await page.goto('http://localhost:5173/?seed=demo')
+await page.getByText('Onda · Day 4 of 14').waitFor({ timeout: 90000 })
+await page.evaluate(async (d) => { const { useStore } = await import('/src/data/store.ts'); const s = useStore.getState(); s.updateSettings({ a2hsDismissed: true, ...(d ? { themeMode: 'dark' } : {}) }); s.setEntitlement({ plus: 'trial', trialStartedAt: new Date().toISOString() }) }, dark)
+await wait(600)
+await tap('Rules', 'tab'); await page.evaluate(() => document.querySelectorAll('.scroll').forEach((e) => e.scrollTo(0, 380))); await wait(400); await page.screenshot({ path: out('70-rules') })
+await tap('Tasks', 'tab'); await page.evaluate(() => document.querySelectorAll('.scroll').forEach((e) => e.scrollTo(0, 380))); await wait(400); await page.screenshot({ path: out('71-tasks') })
+await page.evaluate(() => document.querySelectorAll('.scroll').forEach((e) => e.scrollTo(0, 0))); await wait(300); await page.screenshot({ path: out('72-tiles') })
+await tap('Journal'); await wait(600); await page.screenshot({ path: out('73-journal') })
+await tap('New Entry'); await wait(900); await page.screenshot({ path: out('74-journal-edit') })
+await tap('Cancel'); await tap('Close')
+await tap('Philosophy'); await wait(600); await page.screenshot({ path: out('75-philosophy') })
+await tap('Close')
+await tap('Immerse'); await wait(900); await page.screenshot({ path: out('76-immersion') })
+await tap('Back')
+await page.getByRole('tab', { name: 'Lagos' }).click(); await wait(700)
+await page.getByRole('button', { name: /Delete social media, day/ }).click(); await wait(1000); await page.screenshot({ path: out('77-lago') })
+await tap('Back')
+await page.getByRole('tab', { name: 'Stats' }).click(); await wait(900); await page.screenshot({ path: out('78-stats') })
+await tap('Settings'); await tap(/Sander/); await wait(900); await page.screenshot({ path: out('79-profile') })
+console.log(JSON.stringify({ errors }))
+await browser.close()

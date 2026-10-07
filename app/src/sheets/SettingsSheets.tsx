@@ -1,5 +1,5 @@
 import { useQuery, useQueryClient } from '@tanstack/react-query'
-import { useState } from 'react'
+import { useRef, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { useSettings } from '@/data/hooks'
 import { useStore } from '@/data/store'
@@ -12,6 +12,7 @@ import { EMPTY_STATUS, calendarFeedUrl, downloadIcs, notionConnect, notionDiscon
 import { enablePush } from '@/sync/push'
 import { accountInfo, backendConfigured, sendMagicLink, signInWithApple, signOut } from '@/sync/supabase'
 import { Button, LinkButton } from '@/ui/buttons'
+import { AVATAR_ICONS, AVATAR_TONES, Avatar, type AvatarTone } from '@/ui/data'
 import { Icon } from '@/ui/Icon'
 import { ListRow, ListSection } from '@/ui/lists'
 import { AppSheet, useSheet } from './common'
@@ -254,11 +255,51 @@ export function AccountSheet({ entry }: E<'account'>) {
   const saveName = () => name.trim() !== (user?.name ?? '') && useStore.getState().setName(name.trim())
   const fail = () => showToast(t('common.error'), { icon: 'warning-circle' })
   const signedIn = account && !account.anonymous
+  const settings = useSettings()
+  const update = useStore((x) => x.updateSettings)
+  const file = useRef<HTMLInputElement>(null)
+  const pickPhoto = async (f: File | undefined) => {
+    if (!f) return
+    try {
+      update({ avatarPhoto: await squarePhoto(f, 256), avatarIcon: '' })
+    } catch {
+      fail()
+    }
+  }
 
   return (
     <AppSheet entry={entry} title={t('account.title')} detent={0.86}>
       <div style={{ padding: '8px 0 48px' }}>
-        <div className={m.emailField} style={{ marginTop: 0 }}>
+        <div className={m.avatarEdit}>
+          <Avatar initials={((name || user?.name || 'O')[0] ?? 'O').toUpperCase()} size={96} photo={settings.avatarPhoto} icon={settings.avatarIcon} tone={settings.avatarTone} />
+          <div className={m.avatarActions}>
+            <Button variant="secondary" size="md" icon="camera" onClick={() => file.current?.click()}>
+              {t('account.photo')}
+            </Button>
+            {(settings.avatarPhoto || settings.avatarIcon) && (
+              <Button variant="plain" size="md" onClick={() => update({ avatarPhoto: '', avatarIcon: '' })}>
+                {t('account.useInitials')}
+              </Button>
+            )}
+          </div>
+          <input ref={file} type="file" accept="image/*" hidden onChange={(e) => void pickPhoto(e.target.files?.[0])} />
+        </div>
+        <div className={m.avatarGrid} role="radiogroup" aria-label={t('account.icon')}>
+          {AVATAR_ICONS.map((ic) => {
+            const on = !settings.avatarPhoto && settings.avatarIcon === ic
+            return (
+              <button key={ic} type="button" role="radio" aria-checked={on} aria-label={ic.replace(/-/g, ' ')} className={on ? `${m.avatarPick} ${m.avatarPickOn}` : m.avatarPick} onClick={() => update({ avatarIcon: ic, avatarPhoto: '' })}>
+                <Icon name={ic} weight="fill" size={22} />
+              </button>
+            )
+          })}
+        </div>
+        <div className={m.avatarTones} role="radiogroup" aria-label={t('account.color')}>
+          {(Object.keys(AVATAR_TONES) as AvatarTone[]).map((k) => (
+            <button key={k} type="button" role="radio" aria-checked={settings.avatarTone === k} aria-label={t(`createOnda.tones.${k}`)} className={settings.avatarTone === k ? `${m.avatarSwatch} ${m.avatarSwatchOn}` : m.avatarSwatch} style={{ background: AVATAR_TONES[k][0] }} onClick={() => update({ avatarTone: k, avatarPhoto: '', avatarIcon: settings.avatarIcon || AVATAR_ICONS[0] })} />
+          ))}
+        </div>
+        <div className={m.emailField}>
           <input aria-label={t('account.name')} placeholder={t('settings.yourName')} value={name} autoComplete="given-name" enterKeyHint="done" onChange={(e) => setName(e.target.value)} onBlur={saveName} />
         </div>
         {!backendConfigured ? (
@@ -328,4 +369,14 @@ export function LegalSheet({ entry }: E<'legal'>) {
       </div>
     </AppSheet>
   )
+}
+
+/** Centre-crop to a square and re-encode small, so the profile picture stays a few tens of KB and syncs with settings. */
+async function squarePhoto(file: Blob, size: number): Promise<string> {
+  const bmp = await createImageBitmap(file)
+  const side = Math.min(bmp.width, bmp.height)
+  const c = document.createElement('canvas')
+  c.width = c.height = size
+  c.getContext('2d')!.drawImage(bmp, (bmp.width - side) / 2, (bmp.height - side) / 2, side, side, 0, 0, size, size)
+  return c.toDataURL('image/jpeg', 0.82)
 }

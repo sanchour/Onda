@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest'
 import { achievementProgress, earnedAchievements } from '@/data/derive/achievements'
 import { pickForDay, reflectionDue, runDay, runSummary } from '@/data/derive/onda'
-import { activityBars, activityByDate, bestStreak, currentStreak, dayEvents, summarize } from '@/data/derive/stats'
+import { activityBars, activityByDate, bestStreak, consistency, currentStreak, dayEvents, summarize } from '@/data/derive/stats'
 import { addDays } from '@/lib/dates'
 import { TODAY, checkIn, history, lago, practice, run } from './helpers'
 
@@ -102,5 +102,39 @@ describe('achievements', () => {
     const l = lago({ day: 120, lengthDays: 365 })
     expect(achievementProgress({ ...empty, lagos: [l], checkIns: history(l, 99) }, TODAY).devoted).toEqual([99, 100])
     expect(earnedAchievements({ ...empty, lagos: [l], checkIns: history(l, 100) }, TODAY)).toContain('devoted')
+  })
+})
+
+describe('consistency', () => {
+  const l = lago({ day: 60, lengthDays: 90 })
+  const build = (skip: number[]) => activityByDate({ ...empty, lagos: [l], checkIns: history(l, 59, skip) }, TODAY)
+
+  it('is the share of scheduled days done, ignoring an open today', () => {
+    const c = consistency(build([2, 4, 6, 8]), TODAY)
+    // last 28 days: today is open (ignored), 27 counted, 4 missed
+    expect(c.score).toBeCloseTo(23 / 27, 5)
+    expect(c.tier).toBe('steady')
+    expect(c.days).toHaveLength(14)
+    expect(c.days[13]).toBeNull()
+    expect(c.days[12]).toBe(1)
+    expect(c.days[11]).toBe(0)
+  })
+  it('compares with the four weeks before', () => {
+    const skip = Array.from({ length: 28 }, (_, i) => i + 29).filter((i) => i % 2)
+    const c = consistency(build(skip), TODAY)
+    expect(c.score).toBeCloseTo(1, 5)
+    expect(c.delta).toBeGreaterThan(30)
+    expect(c.tier).toBe('lockedIn')
+  })
+  it('has no trend until there is history, and zero with nothing done', () => {
+    const fresh = lago({ day: 3 })
+    const c = consistency(activityByDate({ ...empty, lagos: [fresh], checkIns: history(fresh, 2) }, TODAY), TODAY)
+    expect(c.delta).toBeNull()
+    expect(c.score).toBe(1)
+    const none = consistency(new Map(), TODAY)
+    expect(none).toMatchObject({ score: 0, delta: null, tier: 'finding' })
+  })
+  it('a missed run lands in the lowest tier', () => {
+    expect(consistency(build(Array.from({ length: 40 }, (_, i) => i + 1).filter((i) => i % 5 !== 0)), TODAY).tier).toBe('finding')
   })
 })

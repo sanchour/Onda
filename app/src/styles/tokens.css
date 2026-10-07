@@ -142,17 +142,17 @@
 
 [data-theme="dark"]{
   --label:#F4F4F5; --label-secondary:#A1A1A7; --label-tertiary:#98989E; --label-quaternary:#4A4A4F; --placeholder:#8E8E93;
-  --surface-page:#121212; --surface-grouped:#121212; --surface-card:#1E1E1E; --surface-fill:#2E2E30; --surface-fill-strong:#3A3A3D;
-  --surface-inverse:#FFFFFF; --surface-soft:#2A2A2C; --day-has:#2B2F55; --separator:#2C2C2E; --scrim:rgba(0,0,0,0.55);
+  --surface-page:#1B1C1F; --surface-grouped:#1B1C1F; --surface-card:#26272B; --surface-fill:#35363B; --surface-fill-strong:#43444A;
+  --surface-inverse:#FFFFFF; --surface-soft:#303136; --day-has:#2E3358; --separator:#37383D; --scrim:rgba(0,0,0,0.55);
   --accent:#3D94FF; --accent-contrast:#00152E; --destructive:#FF5449;
-  --glass-fill:rgba(44,44,46,0.60); --glass-fill-strong:rgba(44,44,46,0.86); --glass-fill-dim:rgba(30,30,32,0.8); --glass-solid:#2A2A2C; --glass-fill-menu:rgba(40,40,42,0.95);
+  --glass-fill:rgba(44,44,46,0.60); --glass-fill-strong:rgba(44,44,46,0.86); --glass-fill-dim:rgba(30,30,32,0.8); --glass-solid:#303136; --glass-fill-menu:rgba(40,40,42,0.95);
   --glass-stroke:0.5px solid rgba(255,255,255,0.14); --glass-border:0.5px solid rgba(255,255,255,0.16);
   --glass-shadow:0 1px 2px rgba(0,0,0,0.3), 0 6px 16px rgba(0,0,0,0.35), 0 16px 40px rgba(0,0,0,0.4);
   --glass-pressed:rgba(70,70,74,0.9);
   --glass-lens-fill:rgba(255,255,255,0.16); --glass-lens-shadow:0 1px 3px rgba(0,0,0,0.4), 0 4px 14px rgba(0,0,0,0.3), inset 0 1px 0 rgba(255,255,255,0.22); --glass-track:rgba(235,235,245,0.14);
   --glass-highlight:inset 0 1px 0 rgba(255,255,255,0.1), inset 0 -1px 0 rgba(0,0,0,0.2);
   --shadow-menu:0 18px 50px rgba(0,0,0,0.6);
-  --viz-blue:#4F8EF7; --viz-coral:#FF8A65; --viz-yellow:#FFD25A; --viz-green:#5BBA87; --viz-purple:#9F8BF0; --viz-track:#2E2E30;
+  --viz-blue:#4F8EF7; --viz-coral:#FF8A65; --viz-yellow:#FFD25A; --viz-green:#5BBA87; --viz-purple:#9F8BF0; --viz-track:#35363B;
   color-scheme:dark;
 }
 
@@ -161,7 +161,7 @@
 @media (prefers-reduced-transparency:reduce){
   :root,[data-theme="dark"]{--glass-blur:none}
   :root{--glass-fill:#F7F7F9;--glass-fill-strong:#FFFFFF;--glass-fill-dim:#ECECF0;--glass-lens-fill:#FFFFFF;--glass-track:#E4E4E8}
-  [data-theme="dark"]{--glass-fill:#2A2A2C;--glass-fill-strong:#2E2E30;--glass-fill-dim:#242426;--glass-lens-fill:#48484B;--glass-track:#3A3A3D}
+  [data-theme="dark"]{--glass-fill:#303136;--glass-fill-strong:#35363B;--glass-fill-dim:#2A2B2F;--glass-lens-fill:#4D4E54;--glass-track:#43444A}
 }
 
 @media (prefers-reduced-motion:reduce){

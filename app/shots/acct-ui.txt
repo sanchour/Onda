@@ -1,0 +1,31 @@
+        <div className={m.avatarEdit}>
+          <Avatar initials={((name || user?.name || 'O')[0] ?? 'O').toUpperCase()} size={96} photo={settings.avatarPhoto} icon={settings.avatarIcon} tone={settings.avatarTone} />
+          <div className={m.avatarActions}>
+            <Button variant="secondary" size="md" icon="camera" onClick={() => file.current?.click()}>
+              {t('account.photo')}
+            </Button>
+            {(settings.avatarPhoto || settings.avatarIcon) && (
+              <Button variant="plain" size="md" onClick={() => update({ avatarPhoto: '', avatarIcon: '' })}>
+                {t('account.useInitials')}
+              </Button>
+            )}
+          </div>
+          <input ref={file} type="file" accept="image/*" hidden onChange={(e) => void pickPhoto(e.target.files?.[0])} />
+        </div>
+        <div className={m.avatarGrid} role="radiogroup" aria-label={t('account.icon')}>
+          {AVATAR_ICONS.map((ic) => {
+            const on = !settings.avatarPhoto && settings.avatarIcon === ic
+            return (
+              <button key={ic} type="button" role="radio" aria-checked={on} aria-label={ic.replace(/-/g, ' ')} className={on ? `${m.avatarPick} ${m.avatarPickOn}` : m.avatarPick} onClick={() => update({ avatarIcon: ic, avatarPhoto: '' })}>
+                <Icon name={ic} weight="fill" size={22} />
+              </button>
+            )
+          })}
+        </div>
+        <div className={m.avatarTones} role="radiogroup" aria-label={t('account.color')}>
+          {(Object.keys(AVATAR_TONES) as AvatarTone[]).map((k) => (
+            <button key={k} type="button" role="radio" aria-checked={settings.avatarTone === k} aria-label={t(`createOnda.tones.${k}`)} className={settings.avatarTone === k ? `${m.avatarSwatch} ${m.avatarSwatchOn}` : m.avatarSwatch} style={{ background: AVATAR_TONES[k][0] }} onClick={() => update({ avatarTone: k, avatarPhoto: '', avatarIcon: settings.avatarIcon || AVATAR_ICONS[0] })} />
+          ))}
+        </div>
+        <div className={m.emailField}>
+          <input aria-label={t('account.name')}

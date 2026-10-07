@@ -1,4 +1,5 @@
 import type { CSSProperties, ReactNode } from 'react'
+import { Icon } from './Icon'
 import s from './ui.module.css'
 
 const clamp01 = (v: number) => Math.max(0, Math.min(1, v || 0))
@@ -53,7 +54,28 @@ export function StepBar({ value, style }: { value: number; style?: CSSProperties
   )
 }
 
-export function Avatar({ initials, size = 64 }: { initials: string; size?: number }) {
+export const AVATAR_ICONS = ['flower-lotus', 'waves', 'leaf', 'sun-horizon', 'moon-stars', 'mountains', 'feather', 'tree', 'fire', 'drop', 'compass', 'heart']
+export const AVATAR_TONES = { blue: ['#A9C4F7', '#1F4E9E'], green: ['#9FD9B8', '#1D6B45'], yellow: ['#FDDF9A', '#7A5A00'], coral: ['#FFB19C', '#9A3A22'], purple: ['#B7A8F0', '#4A3A9A'] } as const
+export type AvatarTone = keyof typeof AVATAR_TONES
+
+interface AvatarProps {
+  initials: string
+  size?: number
+  photo?: string
+  icon?: string
+  tone?: AvatarTone
+}
+/** Profile picture: the user's own photo, a dedicated icon on a soft colour, or initials on the accent. */
+export function Avatar({ initials, size = 64, photo, icon, tone = 'blue' }: AvatarProps) {
+  const [bg, fg] = AVATAR_TONES[tone]
+  if (photo) return <img aria-hidden className={s.avatar} src={photo} alt="" width={size} height={size} style={{ width: size, height: size, objectFit: 'cover' }} />
+  if (icon) {
+    return (
+      <span aria-hidden className={s.avatar} style={{ width: size, height: size, background: `linear-gradient(145deg, ${bg}, color-mix(in srgb, ${bg} 70%, white))`, color: fg, boxShadow: 'inset 0 1px 0 rgba(255,255,255,.6)' }}>
+        <Icon name={icon} weight="fill" size={Math.round(size * 0.5)} />
+      </span>
+    )
+  }
   return (
     <span aria-hidden className={s.avatar} style={{ width: size, height: size, fontSize: Math.round(size * 0.36) }}>
       {initials}

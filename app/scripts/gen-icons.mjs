@@ -40,7 +40,7 @@ const DEVICES = [
 ]
 const THEMES = [
   { name: 'light', bg: '#F1F2F6', fg: BLUE },
-  { name: 'dark', bg: '#121212', fg: '#3D94FF' },
+  { name: 'dark', bg: '#1B1C1F', fg: '#3D94FF' },
 ]
 
 async function main() {

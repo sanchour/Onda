@@ -1,7 +1,8 @@
 import { Suspense, lazy, useEffect, useLayoutEffect, useRef } from 'react'
 import { useTranslation } from 'react-i18next'
 import { preloadAllOndas } from '@/content'
-import { useDark, useSettings } from '@/data/hooks'
+import { useActiveRun, useDark, useLook, useOndaIndex, useSettings } from '@/data/hooks'
+import { accentFor } from '@/lib/color'
 import i18n from '@/i18n'
 import { refreshEntitlement } from '@/sync/entitlement'
 import { useStore } from '@/data/store'
@@ -48,8 +49,8 @@ function Tabs() {
       <div className={navCss.tabBarWrap}>
         <TabBar<Tab>
           items={[
-            { key: 'lagos', icon: 'wave-sine', label: t('tabs.lagos') },
             { key: 'ondas', icon: 'waves', label: t('tabs.ondas') },
+            { key: 'lagos', icon: 'wave-sine', label: t('tabs.lagos') },
             { key: 'stats', icon: 'chart-bar', label: t('tabs.stats') },
           ]}
           activeKey={tab}
@@ -81,7 +82,7 @@ function useShell() {
   useLayoutEffect(() => {
     const root = document.documentElement
     root.dataset.theme = dark ? 'dark' : 'light'
-    const bg = dark ? '#1B1C1F' : '#F1F2F6'
+    const bg = dark ? '#1B1C1F' : '#F5F1E8'
     document.querySelector('meta[name="theme-color"]')?.setAttribute('content', bg)
     document.querySelector('meta[name="apple-mobile-web-app-status-bar-style"]')?.setAttribute('content', dark ? 'black-translucent' : 'default')
     try {
@@ -90,6 +91,22 @@ function useShell() {
       /* private mode */
     }
   }, [dark, mode])
+
+  // The accent follows the running Onda everywhere except the Lagos tab (and what is opened from it), which stays blue.
+  const tab = useNav((n) => n.tab)
+  const run = useActiveRun()
+  const look = useLook(useOndaIndex(run?.ondaId))
+  useLayoutEffect(() => {
+    const root = document.documentElement
+    if (tab === 'lagos' || !run) {
+      root.style.removeProperty('--accent')
+      root.style.removeProperty('--accent-contrast')
+      return
+    }
+    const { accent, on } = accentFor(look.strong, dark)
+    root.style.setProperty('--accent', accent)
+    root.style.setProperty('--accent-contrast', on)
+  }, [tab, run, look.strong, dark])
 
   useEffect(() => {
     // On-screen keyboard height, so sheets can keep the focused field visible

@@ -11,8 +11,8 @@ const load = (id: string): OndaContent => OndaContentSchema.parse(JSON.parse(fs.
 const all = ONDA_INDEX.map((o) => [o.id, load(o.id)] as const)
 
 describe('Onda content', () => {
-  it('ships exactly the ten Ondas, each with a file and a theme', () => {
-    expect(ONDA_INDEX.map((o) => o.id)).toEqual(['stoic', 'zen', 'tao', 'tibet', 'vedanta', 'jung', 'animism', 'ubuntu', 'sufi', 'transc'])
+  it('ships exactly the sixteen Ondas, each with a file and a theme', () => {
+    expect(ONDA_INDEX.map((o) => o.id)).toEqual(['stoic', 'zen', 'tao', 'tibet', 'vedanta', 'jung', 'animism', 'ubuntu', 'sufi', 'transc', 'soviet', 'yoruba', 'aztec', 'egypt', 'hermes', 'gnostic'])
     expect(fs.readdirSync(dir).filter((f) => f.endsWith('.json')).sort()).toEqual(ONDA_INDEX.map((o) => `${o.id}.json`).sort())
     for (const o of ONDA_INDEX) expect(THEMES[o.id], o.id).toBeDefined()
   })
@@ -46,8 +46,11 @@ describe('Onda content', () => {
     }
     for (const r of c.rules) expect(r.why.length, r.text).toBeGreaterThan(20)
     for (const w of c.words) expect(w.meaning.length && (w.language ?? '').length, w.term).toBeGreaterThan(0)
+    // The first ten carry every kind; the newer six list only what can be stood behind (some kinds are legitimately empty).
+    const original = ['stoic', 'zen', 'tao', 'tibet', 'vedanta', 'jung', 'animism', 'ubuntu', 'sufi', 'transc'].includes(c.id)
     for (const kind of ['read', 'watch', 'listen', 'art', 'eat', 'drink', 'customs'] as const) {
-      expect(c.immerse[kind].length, kind).toBeGreaterThanOrEqual(kind === 'watch' ? 2 : 3)
+      if (original) expect(c.immerse[kind].length, kind).toBeGreaterThanOrEqual(kind === 'watch' ? 2 : 3)
+      else if (c.immerse[kind].length === 0) continue
       for (const it of c.immerse[kind]) expect(it.why.length, it.title).toBeGreaterThan(10)
     }
     for (const h of c.guide.history) expect(h.detail.length, h.when).toBeGreaterThan(30)
@@ -74,7 +77,7 @@ describe('Onda content', () => {
   })
 
   it('traditions that need cultural care carry a framing note, caveats and community sources, and are flagged for review', () => {
-    for (const id of ['animism', 'ubuntu', 'tibet', 'sufi']) {
+    for (const id of ['animism', 'ubuntu', 'tibet', 'sufi', 'soviet', 'yoruba', 'aztec', 'gnostic']) {
       const c = load(id)
       expect(c.sensitivity, id).toBeDefined()
       expect(c.sensitivity!.reviewRequired, id).toBe(true)

@@ -1,0 +1,1118 @@
+{
+  "version": 1,
+  "id": "aztec",
+  "name": "Aztec",
+  "origin": "Central Mexico, the Mexica and Nahua world",
+  "era": "c. 1325 to the present",
+  "tone": "coral",
+  "icon": "sun",
+  "font": "bevan",
+  "pattern": "stepped-fret",
+  "glyph": "Nahua",
+  "line": "Give thanks, make flower and song, and ask what is truly rooted.",
+  "quote": {
+    "text": "Is it true that one lives with roots on the earth? Not forever on earth, only a little while here.",
+    "by": "Poem attributed to Nezahualcoyotl",
+    "source": "Cantares mexicanos, trans. after Miguel León-Portilla",
+    "unverified": true
+  },
+  "quotes": [
+    {
+      "text": "Though it be jade, it falls and shatters; though it be gold, it wears away; though it be quetzal plumage, it is torn asunder. Not forever on earth, only a little while here.",
+      "by": "Poem attributed to Nezahualcoyotl",
+      "source": "Cantares mexicanos, trans. after Miguel León-Portilla",
+      "unverified": true
+    },
+    {
+      "text": "The wise one: a light, a torch, a stout torch that does not smoke.",
+      "by": "Nahua sages",
+      "source": "Florentine Codex, Book 10, on the tlamatini, trans. after León-Portilla",
+      "unverified": true
+    },
+    {
+      "text": "Broken spears lie in the roads; we have torn our hair in our grief. The houses are roofless now, and their walls are red with blood.",
+      "by": "Nahua lament of 1521",
+      "source": "Cantares mexicanos, in The Broken Spears, trans. Lysander Kemp",
+      "unverified": true
+    },
+    {
+      "text": "Father, do not be alarmed; we are still in nepantla.",
+      "by": "A Nahua man to Diego Durán, as reported",
+      "source": "Diego Durán, History of the Indies of New Spain, 16th century; reported wording",
+      "unverified": true
+    }
+  ],
+  "words": [
+    {
+      "id": "word-tlazohcamati",
+      "term": "Tlazohcamati",
+      "meaning": "Thank you",
+      "pronunciation": "tlah-soh-KAH-mah-tee",
+      "language": "Classical Nahuatl",
+      "usage": "Still said in Nahuatl-speaking communities today. A way to thank for a gift or a meal."
+    },
+    {
+      "id": "word-nahuatl",
+      "term": "Nahuatl",
+      "meaning": "The language of the Mexica and many other peoples; \"clear sound\"",
+      "pronunciation": "NAH-wahtl",
+      "language": "Classical Nahuatl",
+      "usage": "Spoken today by well over a million people in Mexico."
+    },
+    {
+      "id": "word-mexica",
+      "term": "Mexica",
+      "meaning": "The people of Tenochtitlan; the origin of the name Mexico",
+      "pronunciation": "meh-SHEE-kah",
+      "language": "Classical Nahuatl",
+      "usage": "What the people of Tenochtitlan called themselves. \"Aztec\" is a later, outside term."
+    },
+    {
+      "id": "word-tenochtitlan",
+      "term": "Tenochtitlan",
+      "meaning": "The island capital of the Mexica",
+      "pronunciation": "teh-notch-TEE-tlahn",
+      "language": "Classical Nahuatl",
+      "usage": "Founded in a lake in the fourteenth century. Mexico City stands on its site."
+    },
+    {
+      "id": "word-in-xochitl-in-cuicatl",
+      "term": "In xochitl in cuicatl",
+      "meaning": "Flower and song; poetry; truth",
+      "pronunciation": "een SHOH-cheetl een kwee-KAHTL",
+      "language": "Classical Nahuatl",
+      "usage": "A pair of words used for poetry and for the expression of truth."
+    },
+    {
+      "id": "word-xochitl",
+      "term": "Xochitl",
+      "meaning": "Flower",
+      "pronunciation": "SHOH-cheetl",
+      "language": "Classical Nahuatl",
+      "usage": "A symbol of beauty, life and also of brevity."
+    },
+    {
+      "id": "word-cuicatl",
+      "term": "Cuicatl",
+      "meaning": "Song",
+      "pronunciation": "KWEE-kahtl",
+      "language": "Classical Nahuatl",
+      "usage": "Sung poetry accompanied by drums."
+    },
+    {
+      "id": "word-atl",
+      "term": "Atl",
+      "meaning": "Water",
+      "pronunciation": "ahtl",
+      "language": "Classical Nahuatl",
+      "usage": "The root of \"atlatl\" and of many place names."
+    },
+    {
+      "id": "word-tlalli",
+      "term": "Tlalli",
+      "meaning": "Earth; land",
+      "pronunciation": "TLAH-lee",
+      "language": "Classical Nahuatl",
+      "usage": "The ground one stands on and is rooted in."
+    },
+    {
+      "id": "word-tonatiuh",
+      "term": "Tonatiuh",
+      "meaning": "The sun",
+      "pronunciation": "toh-nah-TEE-oo",
+      "language": "Classical Nahuatl",
+      "usage": "The sun, and the god who carries it across the sky."
+    },
+    {
+      "id": "word-metztli",
+      "term": "Metztli",
+      "meaning": "The moon",
+      "pronunciation": "METS-tlee",
+      "language": "Classical Nahuatl",
+      "usage": "The root of the name Mexico in some interpretations, \"navel of the moon\", a popular but disputed reading.",
+      "unverified": true
+    },
+    {
+      "id": "word-citlalin",
+      "term": "Citlalin",
+      "meaning": "Star",
+      "pronunciation": "see-TLAH-leen",
+      "language": "Classical Nahuatl",
+      "usage": "A word used also as a modern given name."
+    },
+    {
+      "id": "word-calli",
+      "term": "Calli",
+      "meaning": "House",
+      "pronunciation": "KAH-lee",
+      "language": "Classical Nahuatl",
+      "usage": "Also one of the twenty day signs."
+    },
+    {
+      "id": "word-calpulli",
+      "term": "Calpulli",
+      "meaning": "A neighbourhood or kin group; \"big house\"",
+      "pronunciation": "kahl-POO-lee",
+      "language": "Classical Nahuatl",
+      "usage": "The basic unit of city life, which held land and organised work, schooling and ritual."
+    },
+    {
+      "id": "word-tlamatini",
+      "term": "Tlamatini",
+      "meaning": "A wise person; one who knows things",
+      "pronunciation": "tlah-mah-TEE-nee",
+      "language": "Classical Nahuatl",
+      "usage": "Plural tlamatinime. Teachers, poets and thinkers."
+    },
+    {
+      "id": "word-tlatoani",
+      "term": "Tlatoani",
+      "meaning": "Speaker; ruler",
+      "pronunciation": "tlah-toh-AH-nee",
+      "language": "Classical Nahuatl",
+      "usage": "A king as \"one who speaks\". Moctezuma was huey tlatoani, great speaker."
+    },
+    {
+      "id": "word-huehuetlatolli",
+      "term": "Huehuetlatolli",
+      "meaning": "Words of the elders; formal speeches of counsel",
+      "pronunciation": "weh-weh-tlah-TOH-lee",
+      "language": "Classical Nahuatl",
+      "usage": "Long, polished addresses given at births, weddings and farewells."
+    },
+    {
+      "id": "word-neltiliztli",
+      "term": "Neltiliztli",
+      "meaning": "Rootedness; truth",
+      "pronunciation": "nel-tee-LEEST-lee",
+      "language": "Classical Nahuatl",
+      "usage": "The condition of being well rooted. In León-Portilla’s reading, a key word for truth.",
+      "unverified": true
+    },
+    {
+      "id": "word-tlalticpac",
+      "term": "Tlalticpac",
+      "meaning": "On the earth; the slippery place",
+      "pronunciation": "tlahl-TEEK-pahk",
+      "language": "Classical Nahuatl",
+      "usage": "The poets’ name for the world of the living, where one can slip."
+    },
+    {
+      "id": "word-nepantla",
+      "term": "Nepantla",
+      "meaning": "In the middle",
+      "pronunciation": "neh-PAHNT-lah",
+      "language": "Classical Nahuatl",
+      "usage": "A word for being between two states. Used again in modern thought."
+    },
+    {
+      "id": "word-teotl",
+      "term": "Teotl",
+      "meaning": "Sacred; a divine force",
+      "pronunciation": "TEH-ohtl",
+      "language": "Classical Nahuatl",
+      "usage": "A hard term to translate: not \"god\" as in Europe. Scholars debate its meaning.",
+      "unverified": true
+    },
+    {
+      "id": "word-ollin",
+      "term": "Ollin",
+      "meaning": "Movement; motion",
+      "pronunciation": "OH-leen",
+      "language": "Classical Nahuatl",
+      "usage": "A day sign and the principle of change that animates the world."
+    },
+    {
+      "id": "word-mictlan",
+      "term": "Mictlan",
+      "meaning": "The place of the dead",
+      "pronunciation": "meek-TLAHN",
+      "language": "Classical Nahuatl",
+      "usage": "The underworld to which most people travelled after death."
+    },
+    {
+      "id": "word-tianquiztli",
+      "term": "Tianquiztli",
+      "meaning": "Market",
+      "pronunciation": "tee-ahn-KEES-tlee",
+      "language": "Classical Nahuatl",
+      "usage": "The origin of the Mexican word \"tianguis\", still used for street markets."
+    },
+    {
+      "id": "word-chinampa",
+      "term": "Chinampa",
+      "meaning": "A raised field built in a shallow lake",
+      "pronunciation": "chee-NAHM-pah",
+      "language": "Classical Nahuatl",
+      "usage": "Still farmed in Xochimilco. Very productive."
+    },
+    {
+      "id": "word-tamalli",
+      "term": "Tamalli",
+      "meaning": "Tamale",
+      "pronunciation": "tah-MAH-lee",
+      "language": "Classical Nahuatl",
+      "usage": "Maize dough steamed in a leaf. The Spanish word tamal comes from it."
+    },
+    {
+      "id": "word-xocolatl",
+      "term": "Xocolatl",
+      "meaning": "Chocolate; a drink of cacao",
+      "pronunciation": "sho-ko-LAHTL",
+      "language": "Classical Nahuatl",
+      "usage": "The bitter, frothed drink of cacao, maize and spices.",
+      "unverified": true
+    },
+    {
+      "id": "word-tlaxcalli",
+      "term": "Tlaxcalli",
+      "meaning": "Tortilla; flatbread of maize",
+      "pronunciation": "tlahs-KAH-lee",
+      "language": "Classical Nahuatl",
+      "usage": "The daily bread of Mesoamerica."
+    },
+    {
+      "id": "word-ocelotl",
+      "term": "Ocelotl",
+      "meaning": "Jaguar",
+      "pronunciation": "oh-SEH-lotl",
+      "language": "Classical Nahuatl",
+      "usage": "A day sign and a title of warriors."
+    },
+    {
+      "id": "word-cuauhtli",
+      "term": "Cuauhtli",
+      "meaning": "Eagle",
+      "pronunciation": "KWOW-tlee",
+      "language": "Classical Nahuatl",
+      "usage": "A day sign and a title of warriors, as in Cuauhtémoc, \"descending eagle\"."
+    },
+    {
+      "id": "word-quetzalli",
+      "term": "Quetzalli",
+      "meaning": "A precious green feather; the quetzal bird’s tail feather",
+      "pronunciation": "ket-SAH-lee",
+      "language": "Classical Nahuatl",
+      "usage": "Prized for its colour and a symbol of beauty and preciousness."
+    },
+    {
+      "id": "word-xiuhpohualli",
+      "term": "Xiuhpohualli",
+      "meaning": "The solar count of years",
+      "pronunciation": "shee-oo-poh-WAH-lee",
+      "language": "Classical Nahuatl",
+      "usage": "A year of 365 days: eighteen months of twenty days and five extra days.",
+      "unverified": true
+    },
+    {
+      "id": "word-tonalpohualli",
+      "term": "Tonalpohualli",
+      "meaning": "The sacred count of 260 days",
+      "pronunciation": "toh-nahl-poh-WAH-lee",
+      "language": "Classical Nahuatl",
+      "usage": "Twenty day signs combined with thirteen numbers. Used for naming and divination.",
+      "unverified": true
+    }
+  ],
+  "practices": [
+    {
+      "id": "tlazohcamati",
+      "name": "Tlazohcamati: thanks before eating",
+      "icon": "cooking-pot",
+      "slot": "Morning",
+      "time": "08:00",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Before your first meal, pause for a moment. Look at the food. Name where it came from: the plant, the farm, the person who cooked or sold it. If it contains maize, beans, chilli or cacao, remember that these foods came from Mesoamerican farmers. Say \"tlazohcamati\", thank you, aloud or silently. Then eat slowly. Do not pretend this is an Aztec ritual. It is a small habit of gratitude shaped by a culture that held maize sacred.",
+      "why": "In Nahua life maize was a central gift, and the daily meal was a point of contact with the land and the people who worked it. Thanks before eating keeps that relation alive.",
+      "variations": [
+        "Do it at every meal for one day.",
+        "Write down the origin of one ingredient.",
+        "Thank the person who made the meal."
+      ]
+    },
+    {
+      "id": "flower-and-song",
+      "name": "Flower and song",
+      "icon": "feather",
+      "slot": "Afternoon",
+      "time": "15:00",
+      "minutes": 15,
+      "meta": "Afternoon · 15 min",
+      "instructions": "Write a short poem of four to eight lines about something fleeting: a flower, light on a wall, a conversation, a feeling. Use plain images. Read it aloud once, as if it were a song. Do not edit it for approval. If you like, learn two lines of a Nahuatl poem in translation and say them slowly.",
+      "why": "The Nahua called poetry \"flower and song\" and treated it as the best way to approach truth, because what is true is beautiful and brief. Making a small poem each day keeps both in view.",
+      "variations": [
+        "Write it on paper and leave it somewhere for a stranger.",
+        "Make a drum rhythm to accompany it with a table or a pot.",
+        "Choose a flower, look at it for five minutes, then write."
+      ]
+    },
+    {
+      "id": "rooted",
+      "name": "Rooted",
+      "icon": "footprints",
+      "slot": "Morning",
+      "time": "07:00",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Stand barefoot on earth, grass or a floor. Feel the weight of your body on the ground. Breathe slowly for five minutes. Ask yourself the question the Nahua poets asked: what is truly rooted in my life, and what is slippery? Name one of each. Then take one slow step with attention, and go on with your day.",
+      "why": "Nahua thinkers called the world \"the slippery place\" and prized neltiliztli, being well rooted. The question helps separate what holds from what only looks solid.",
+      "variations": [
+        "Stand beside a tree and place a hand on the trunk.",
+        "Write the two lists in a notebook.",
+        "Do it again at dusk."
+      ]
+    },
+    {
+      "id": "cacao-evening",
+      "name": "Cacao in the evening",
+      "icon": "coffee",
+      "slot": "Evening",
+      "time": "20:30",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Make a small cup of unsweetened or lightly sweetened hot cacao, with a little cinnamon or chilli if you like. Sit with it. Smell it before you taste. Take small sips for ten to fifteen minutes with no screen. Think about the long journey of the bean, from the forests of Mesoamerica to your hands. If you cannot have caffeine, use a cup of warm water with a little maize flour or just notice the warmth of the cup.",
+      "why": "Cacao was a drink of honour in Mesoamerica and the beans were used as currency. Taking time with it connects the habit of an evening drink to a very old tradition of hospitality.",
+      "variations": [
+        "Share it with someone.",
+        "Make atole, a warm maize drink, instead.",
+        "Read a short passage of poetry while you drink."
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": "learn-five-words-of-nahuatl",
+      "name": "Learn five words of Nahuatl",
+      "meta": "Thank you, water, house, flower, song",
+      "time": "12:00",
+      "slot": "Afternoon"
+    },
+    {
+      "id": "make-or-buy-a-handmade-tortilla",
+      "name": "Make or buy a handmade tortilla",
+      "meta": "And notice the maize",
+      "time": "13:00",
+      "slot": "Afternoon"
+    },
+    {
+      "id": "look-at-a-map-of-lake-texcoco-and-mexico-city",
+      "name": "Look at a map of Lake Texcoco and Mexico City",
+      "meta": "Find the old shoreline",
+      "time": "18:00",
+      "slot": "Evening"
+    }
+  ],
+  "rules": [
+    {
+      "id": "r1",
+      "text": "Give thanks before eating",
+      "why": "Food came from many hands and from the land. A moment of thanks is the smallest form of respect."
+    },
+    {
+      "id": "r2",
+      "text": "Speak little and with care",
+      "why": "The huehuetlatolli, the counsel of elders, repeatedly warn the young to measure their words. A careful speaker is trusted."
+    },
+    {
+      "id": "r3",
+      "text": "Tend the place where you live",
+      "why": "Households, streets and neighbourhoods were organised by calpulli. A tidy place is a sign of a tidy community."
+    },
+    {
+      "id": "r4",
+      "text": "Put the group before the self",
+      "why": "In the calpulli each person owed work and care to the others. Choose one act each day that serves the group."
+    },
+    {
+      "id": "r5",
+      "text": "Treat the dead with memory",
+      "why": "The Nahua remembered ancestors with food, flowers and songs. Say the name of someone who has died."
+    },
+    {
+      "id": "r6",
+      "text": "Do not claim what belongs to living communities",
+      "why": "Many Nahua communities keep their ceremonies private. Learn and respect without imitating what is not yours."
+    }
+  ],
+  "immerse": {
+    "read": [
+      {
+        "id": "read-the-broken-spears-the-aztec-account-of-the-conquest-of-mexico",
+        "title": "The Broken Spears: The Aztec Account of the Conquest of Mexico",
+        "creator": "Miguel León-Portilla, trans. Lysander Kemp",
+        "year": "1962",
+        "why": "Nahua accounts of the conquest from the 1500s, translated from Nahuatl."
+      },
+      {
+        "id": "read-aztec-thought-and-culture",
+        "title": "Aztec Thought and Culture",
+        "creator": "Miguel León-Portilla",
+        "year": "1963",
+        "why": "A classic study of Nahua philosophy and poetry."
+      },
+      {
+        "id": "read-fifth-sun-a-new-history-of-the-aztecs",
+        "title": "Fifth Sun: A New History of the Aztecs",
+        "creator": "Camilla Townsend",
+        "year": "2019",
+        "why": "A history drawn largely from Nahuatl sources written by Nahua authors."
+      },
+      {
+        "id": "read-aztecs-an-interpretation",
+        "title": "Aztecs: An Interpretation",
+        "creator": "Inga Clendinnen",
+        "year": "1991",
+        "why": "A thoughtful reading of Mexica society and its sacrificial culture."
+      },
+      {
+        "id": "read-the-florentine-codex-trans-arthur-anderson-and-charles-dibble",
+        "title": "The Florentine Codex, trans. Arthur Anderson and Charles Dibble",
+        "creator": "Bernardino de Sahagún and Nahua collaborators",
+        "year": "compiled 1545–1590; English 1950–1982",
+        "why": "A twelve-book encyclopaedia of Nahua life, recorded with the help of Nahua scholars."
+      },
+      {
+        "id": "read-flower-and-song-poems-of-the-aztec-peoples",
+        "title": "Flower and Song: Poems of the Aztec Peoples",
+        "creator": "Translated by Edward Kissam and Michael Schmidt",
+        "year": "1977",
+        "why": "English versions of Nahuatl poems.",
+        "unverified": true
+      }
+    ],
+    "watch": [
+      {
+        "id": "watch-coco",
+        "title": "Coco",
+        "creator": "Lee Unkrich and Adrian Molina",
+        "year": "2017",
+        "why": "An animated film set during Mexico’s Day of the Dead. Not about the Aztecs, but about a living culture that holds memory of the dead dear."
+      }
+    ],
+    "listen": [
+      {
+        "id": "listen-xochipilli-an-imagined-aztec-music",
+        "title": "Xochipilli: An Imagined Aztec Music",
+        "creator": "Carlos Chávez",
+        "year": "1940",
+        "why": "A composition for winds and percussion that recreates the sound of a pre-Hispanic ensemble."
+      }
+    ],
+    "art": [
+      {
+        "id": "art-the-sun-stone-piedra-del-sol",
+        "title": "The Sun Stone (Piedra del Sol)",
+        "creator": "Mexica sculptors",
+        "year": "c. 1500",
+        "why": "A basalt disc nearly four metres across, found in Mexico City in 1790 and kept in the National Museum of Anthropology."
+      },
+      {
+        "id": "art-coyolxauhqui-stone",
+        "title": "Coyolxauhqui Stone",
+        "creator": "Mexica sculptors",
+        "year": "c. 1500",
+        "why": "A huge carved disc of the dismembered goddess, found at the Templo Mayor in 1978."
+      },
+      {
+        "id": "art-codex-mendoza",
+        "title": "Codex Mendoza",
+        "creator": "Nahua artists",
+        "year": "c. 1541",
+        "why": "A painted manuscript of the Aztec empire, its tribute and daily life, made for the Spanish king."
+      },
+      {
+        "id": "art-templo-mayor-museum",
+        "title": "Templo Mayor Museum",
+        "creator": "Mexico City",
+        "year": "excavated from 1978",
+        "why": "The ruins and finds of the main temple, beside the cathedral in the heart of the city."
+      },
+      {
+        "id": "art-tenochtitlan-murals",
+        "title": "Tenochtitlan murals",
+        "creator": "Diego Rivera",
+        "year": "1929–1935",
+        "why": "Murals in the National Palace showing the market and life of the Mexica city."
+      }
+    ],
+    "eat": [
+      {
+        "id": "eat-tamales",
+        "title": "Tamales",
+        "creator": "Maize dough steamed in leaves, plain or filled",
+        "why": "A food of everyday and celebration for thousands of years."
+      },
+      {
+        "id": "eat-tortillas-with-beans",
+        "title": "Tortillas with beans",
+        "creator": "Fresh maize flatbread",
+        "why": "The foundation of the Mexican table."
+      },
+      {
+        "id": "eat-nopales",
+        "title": "Nopales",
+        "creator": "Prickly pear pads, grilled or in salad",
+        "why": "A green vegetable of the high plateau."
+      },
+      {
+        "id": "eat-amaranth-sweets",
+        "title": "Amaranth sweets",
+        "creator": "Puffed amaranth with honey",
+        "why": "Amaranth was a sacred grain. The sweet, called alegría, is still sold in markets."
+      },
+      {
+        "id": "eat-chapulines",
+        "title": "Chapulines",
+        "creator": "Seasoned grasshoppers",
+        "why": "A traditional protein-rich snack, eaten especially in Oaxaca."
+      }
+    ],
+    "drink": [
+      {
+        "id": "drink-hot-chocolate",
+        "title": "Hot chocolate",
+        "creator": "Cacao, water or milk, cinnamon and a little chilli",
+        "why": "Related to the xocolatl of Mesoamerica, which was bitter and frothy."
+      },
+      {
+        "id": "drink-atole",
+        "title": "Atole",
+        "creator": "A warm maize drink",
+        "why": "Thick, soft and comforting, often flavoured with cinnamon or chocolate."
+      },
+      {
+        "id": "drink-pulque",
+        "title": "Pulque",
+        "creator": "Fermented sap of the agave",
+        "why": "An old drink with strong ceremonial and social roots. Alcoholic, so optional."
+      }
+    ],
+    "customs": [
+      {
+        "id": "customs-say-tlazohcamati",
+        "title": "Say tlazohcamati",
+        "creator": "Thank in Nahuatl",
+        "why": "A phrase still used in Nahua communities."
+      },
+      {
+        "id": "customs-visit-a-market",
+        "title": "Visit a market",
+        "creator": "Walk through a tianguis",
+        "why": "Markets have been centres of life since Tenochtitlan’s time."
+      },
+      {
+        "id": "customs-build-a-day-of-the-dead-altar",
+        "title": "Build a Day of the Dead altar",
+        "creator": "Marigolds, photographs, food, candles",
+        "why": "A living Mexican tradition with indigenous and Catholic roots. Marigolds, cempasúchil, are named from a Nahuatl phrase meaning \"twenty flower\"."
+      },
+      {
+        "id": "customs-name-the-day",
+        "title": "Name the day",
+        "creator": "Know which weekday and month it is",
+        "why": "The Mexica named their days and months. Pay attention to yours."
+      }
+    ]
+  },
+  "ethics": [
+    {
+      "title": "Moderation",
+      "text": "The huehuetlatolli, the formal counsel passed from parents to children, teach moderation in food, speech, pleasure and ambition. The middle way keeps the community whole.",
+      "practice": "Choose one thing to do in measure today."
+    },
+    {
+      "title": "Service to the community",
+      "text": "The calpulli gave land and asked for work in return. Leaders were called speakers and judged by how they served.",
+      "practice": "Perform one task that serves a group without taking credit."
+    },
+    {
+      "title": "Humility before the large cycles",
+      "text": "The Mexica believed the world had been created and destroyed more than once, and that life depends on a constant exchange of energy. Pride was dangerous.",
+      "practice": "Spend a minute looking at the sky and remembering how small a day is."
+    },
+    {
+      "title": "Respect for elders",
+      "text": "Elders carried the words of the past. Young people were taught to listen carefully and to answer with a measured voice.",
+      "practice": "Ask an older person to tell you a story and listen without interrupting."
+    },
+    {
+      "title": "Skill as a moral good",
+      "text": "Artists and craftspeople were honoured for making things well. The Toltec ideal was of a person who gives life to their materials.",
+      "practice": "Do one task today with unusual care."
+    },
+    {
+      "title": "Memory of the dead",
+      "text": "The Nahua remembered those who died with food, flowers and song, and their descendants still do. Keeping the dead in memory is a duty.",
+      "practice": "Light a candle or say a name for someone who died."
+    }
+  ],
+  "philosophy": [
+    {
+      "title": "Rootedness",
+      "text": "Nahua thinkers asked how a person could stand firmly on a slippery earth. The word neltiliztli suggests being well rooted and true. A life is rooted when what one says, does and believes line up.",
+      "practice": "Check one belief against what you did today."
+    },
+    {
+      "title": "Flower and song",
+      "text": "The poets believed that on earth only poetry could say something true about what is fleeting. Flower and song were not decoration but a way of knowing.",
+      "practice": "Describe something in two images instead of a long explanation."
+    },
+    {
+      "title": "The Five Suns",
+      "text": "The Mexica told that the world had passed through four ages, each ended by a catastrophe, and that they lived in the Fifth Sun, called Nahui Ollin, Four Movement, which would end in earthquakes. Time is cyclical and fragile.",
+      "practice": "Notice the age you are living through and what it asks of you."
+    },
+    {
+      "title": "Reciprocity",
+      "text": "According to myth the gods sacrificed themselves so that the sun could move. People owed a debt in return, expressed as offerings. The idea of debt to the cosmos shaped Mexica religion and also justified its violence.",
+      "practice": "Name something you have received that you can give back."
+    },
+    {
+      "title": "Nepantla",
+      "text": "The word means \"in the middle\". After the conquest Nahua people lived between two worlds. Today it is used to speak of living between cultures and between states.",
+      "practice": "Name two places or identities you stand between, and one thing each gives."
+    },
+    {
+      "title": "The two in one",
+      "text": "León-Portilla argued that Nahua thinkers imagined a dual principle behind all things, Ometeotl. Other scholars question this reading. Either way, the idea of a unity that contains two poles, male and female, light and dark, is a powerful one.",
+      "practice": "Hold two opposites in mind and notice how each depends on the other."
+    },
+    {
+      "title": "Teyolia, tonalli, ihiyotl",
+      "text": "Nahua thought described a person as having several centres of life: one in the heart, one in the head, one in the liver. A person is a dynamic combination, not a single soul. Scholars such as Alfredo López Austin explored this.",
+      "practice": "Notice whether a decision today came from the head, the heart or the gut."
+    },
+    {
+      "title": "The day as a person",
+      "text": "Each day in the sacred count had a name and a character. Children were named for the day of their birth. Time was personal.",
+      "practice": "Give today a name that describes its character."
+    },
+    {
+      "title": "Beauty and brevity",
+      "text": "Jade, gold and feathers are precious but wear away. The poets accepted impermanence and still said that beauty matters.",
+      "practice": "Look at something beautiful that you know will not last."
+    },
+    {
+      "title": "The conquest remembered",
+      "text": "Nahua writers recorded their own accounts of the fall of Tenochtitlan, in their language and writing. Their histories insist that the conquered had voices and a version of what happened.",
+      "practice": "Read one account of an event from the point of view of those who lost."
+    }
+  ],
+  "journal": [
+    "What are you grateful for in what you ate today?",
+    "What is truly rooted in your life?",
+    "Where did you slip today, and what held?",
+    "What flower or song would you offer from today?",
+    "What fleeting thing did you notice?",
+    "What did you speak with care?",
+    "Whom did you serve without credit?",
+    "What did an elder teach you?",
+    "What did you make with your hands?",
+    "Where did you practise moderation?",
+    "Whom do you remember who has died?",
+    "What did you give back for something you received?",
+    "What is the character of today?",
+    "What did you learn about maize, cacao or another gift of Mesoamerica?",
+    "What are the roots of your own family?",
+    "What does it mean to live in between?",
+    "What did you hear in a language you did not know?",
+    "What did you do carefully that you might have rushed?",
+    "What would you offer your neighbourhood?",
+    "What did you see that was beautiful and short-lived?",
+    "What history was missing from what you learned in school?",
+    "What are you unsure how to describe?",
+    "What did you decide with your heart, head or gut?",
+    "What helped you stay humble?",
+    "What did you share at the table?",
+    "Which truth did you refuse to give up?",
+    "How did you honour the living today?",
+    "What did you pay attention to for longer than usual?",
+    "What small act of repair did you make?",
+    "What will you carry forward?"
+  ],
+  "reflect": [
+    "What did flower and song teach you about truth and beauty?",
+    "Where did you find roots in your own life?",
+    "How did the practice of thanks change your meals?",
+    "What did you learn about the people behind the word Aztec?",
+    "How do you hold the achievements and the violence of the Mexica together?",
+    "Whom do you want to listen to, from Nahua communities, to go further?"
+  ],
+  "dayThemes": [
+    "Thanks at the table",
+    "Flower and song",
+    "Rooted and slippery",
+    "The island city",
+    "The market",
+    "Maize, the gift",
+    "The poet-king",
+    "A wise one, a torch",
+    "The neighbourhood",
+    "Counsel of the elders",
+    "Cacao",
+    "Fire and the sun",
+    "Water and the lake",
+    "The day with a name",
+    "In the middle",
+    "The Fifth Sun",
+    "Reciprocity",
+    "The dead remembered",
+    "Craft and care",
+    "Jade and feather",
+    "The turning stone",
+    "The fall of the city",
+    "Voices of the conquered",
+    "The language that survives",
+    "The garden on water",
+    "Marigold and memory",
+    "The two in one",
+    "Teachers and school",
+    "A living people",
+    "What remains"
+  ],
+  "guide": {
+    "origin": "The Valley of Mexico and the wider Nahua world of central Mexico",
+    "era": "c. 1325 to the present",
+    "intro": [
+      "The people we call the Aztecs called themselves Mexica. Their capital Tenochtitlan stood on an island in the middle of Lake Texcoco, where Mexico City stands today. Founded, according to tradition, in 1325, it grew into one of the largest cities in the world by 1519, with a population estimated at between 200,000 and 300,000. Its markets, causeways, canals and raised gardens astonished the Spanish who first saw it.",
+      "The Mexica spoke Nahuatl, a language still spoken by well over a million people. Their empire, in reality a Triple Alliance of Tenochtitlan, Texcoco and Tlacopan formed in 1428, controlled much of central Mexico through tribute rather than direct rule. Their religion centred on a universe in motion, a Fifth Sun that needed to be fed, and gods linked to maize, rain, war and the sun. Sacrifice, including human sacrifice, was a part of it, and it must be neither ignored nor made the whole story.",
+      "They were also poets, painters, astronomers, farmers and philosophers. Teachers at the calpulli schools taught boys and girls to speak well, to work and to behave. The Nahua sages, tlamatinime, thought about truth, rootedness, change and the brevity of life. The poet-king Nezahualcoyotl of Texcoco is remembered for songs about the fragility of jade and gold.",
+      "In 1519 Hernán Cortés arrived with a few hundred Spaniards and, crucially, with thousands of indigenous allies who resented Mexica rule. Smallpox, introduced the next year, killed a large share of the population. After a siege of several months Tenochtitlan fell on 13 August 1521. Within decades, the city was rebuilt as the capital of New Spain.",
+      "What we know of Mexica life comes from several sources: their own painted books, archaeology, and accounts written in Spanish or Nahuatl after the conquest by friars and by Nahua scholars. These sources are valuable and also shaped by their authors, especially by Spanish interests. This Onda draws on them with care.",
+      "Nahua people did not disappear. Millions of their descendants live in Mexico and beyond, speaking Nahuatl, farming maize, keeping festivals and writing poetry. This Onda offers gratitude, poetry, rootedness and a slow cup of cacao, in a spirit of respect. It does not recreate ceremony and invites you to learn from Nahua people themselves."
+    ],
+    "figures": [
+      {
+        "name": "Nezahualcoyotl",
+        "dates": "1402–1472",
+        "bio": "Ruler of Texcoco, builder of aqueducts and dikes, and a poet. Many songs are attributed to him, though some were probably composed later.",
+        "unverified": true
+      },
+      {
+        "name": "Tlacaelel",
+        "dates": "c. 1397–1487",
+        "bio": "Adviser to several Mexica rulers and a reorganiser of state religion and history. His real influence is debated.",
+        "unverified": true
+      },
+      {
+        "name": "Moctezuma II",
+        "dates": "c. 1466–1520",
+        "bio": "Huey tlatoani from 1502, who met Cortés in 1519 and died in 1520 in circumstances that are disputed."
+      },
+      {
+        "name": "Cuauhtémoc",
+        "dates": "c. 1495–1525",
+        "bio": "The last Mexica ruler, who led the defence of Tenochtitlan and was captured in 1521. Executed by Cortés in 1525.",
+        "unverified": true
+      },
+      {
+        "name": "Malintzin",
+        "dates": "c. 1500 to c. 1529",
+        "bio": "A Nahua woman given to the Spaniards in 1519 who served as interpreter and adviser to Cortés. Her role is still debated in Mexico.",
+        "unverified": true
+      },
+      {
+        "name": "Bernardino de Sahagún",
+        "dates": "1499–1590",
+        "bio": "Franciscan friar who, with Nahua scholars, compiled the Florentine Codex, an encyclopaedia of Nahua life."
+      },
+      {
+        "name": "Diego Durán",
+        "dates": "c. 1537–1588",
+        "bio": "A Dominican friar who wrote a long history of the Aztecs based on Nahua informants.",
+        "unverified": true
+      },
+      {
+        "name": "Antonio Valeriano",
+        "dates": "c. 1522–1605",
+        "bio": "A Nahua scholar and Latinist at the Colegio de Santa Cruz de Tlatelolco, who helped Sahagún and later became governor of Tenochtitlan.",
+        "unverified": true
+      },
+      {
+        "name": "Miguel León-Portilla",
+        "dates": "1926–2019",
+        "bio": "Mexican historian who translated and championed Nahua literature and philosophy. Author of The Broken Spears and Aztec Thought and Culture."
+      },
+      {
+        "name": "Inga Clendinnen",
+        "dates": "1934–2016",
+        "bio": "Australian historian whose Aztecs: An Interpretation, 1991, reads Mexica ritual and daily life with close attention to the sources."
+      }
+    ],
+    "history": [
+      {
+        "when": "c. 1325",
+        "what": "Founding of Tenochtitlan",
+        "detail": "According to tradition the Mexica, long wanderers, founded their city on an island in Lake Texcoco after seeing an eagle on a cactus, a sign promised by their god. Archaeology confirms a city from this period.",
+        "unverified": true
+      },
+      {
+        "when": "1375",
+        "what": "The first tlatoani",
+        "detail": "Acamapichtli became the first ruler of Tenochtitlan, allied through marriage with the Culhua dynasty, whose prestige the Mexica needed."
+      },
+      {
+        "when": "1428",
+        "what": "The Triple Alliance",
+        "detail": "Tenochtitlan, Texcoco and Tlacopan defeated Azcapotzalco and formed an alliance that grew into the largest state in the Valley of Mexico and beyond."
+      },
+      {
+        "when": "1440–1469",
+        "what": "Moctezuma I",
+        "detail": "The reign of Moctezuma Ilhuicamina saw expansion, a stronger bureaucracy and the growth of the Templo Mayor."
+      },
+      {
+        "when": "1487",
+        "what": "The Templo Mayor rededicated",
+        "detail": "The expanded main temple of Tenochtitlan was dedicated during the reign of Ahuitzotl. Claims about the number sacrificed vary widely and are doubted by some historians.",
+        "unverified": true
+      },
+      {
+        "when": "1502–1520",
+        "what": "Moctezuma II",
+        "detail": "The ninth tlatoani extended the empire and surrounded himself with ceremony. He faced rebellion among subject peoples and then the arrival of the Spaniards."
+      },
+      {
+        "when": "1519",
+        "what": "Cortés arrives",
+        "detail": "Hernán Cortés landed on the coast, formed alliances with peoples such as the Tlaxcalans, and entered Tenochtitlan on 8 November 1519."
+      },
+      {
+        "when": "1520",
+        "what": "Noche Triste and smallpox",
+        "detail": "The Spaniards were driven from the city on the night of 30 June. In the same year a smallpox epidemic killed a large share of the people of the valley."
+      },
+      {
+        "when": "13 August 1521",
+        "what": "The fall of Tenochtitlan",
+        "detail": "After a siege of about three months by the Spanish and tens of thousands of indigenous allies, Cuauhtémoc surrendered and the city was destroyed."
+      },
+      {
+        "when": "1536",
+        "what": "The College of Santa Cruz",
+        "detail": "The Colegio de Santa Cruz de Tlatelolco opened to train sons of Nahua nobles, who became scholars, translators and informants."
+      },
+      {
+        "when": "c. 1545–1590",
+        "what": "The Florentine Codex",
+        "detail": "Sahagún and his Nahua collaborators gathered material on Nahua life in twelve books, written in Nahuatl with Spanish translation and paintings."
+      },
+      {
+        "when": "1790",
+        "what": "The Sun Stone is found",
+        "detail": "Workers repairing the Zócalo in Mexico City unearthed the great carved disc known as the Sun Stone."
+      },
+      {
+        "when": "1978",
+        "what": "The Coyolxauhqui Stone",
+        "detail": "Electrical workers discovered the carved disc of the dismembered goddess, prompting excavation of the Templo Mayor."
+      }
+    ],
+    "concepts": [
+      {
+        "term": "Flower and song",
+        "text": "Poetry as the way to truth.",
+        "detail": "In xochitl in cuicatl was the Nahua name for poetry. Flowers and songs were beautiful, brief and sensory, which made them fit tools for speaking about a world that is itself fleeting. In the poems, they carry grief, joy and philosophical questions."
+      },
+      {
+        "term": "Neltiliztli",
+        "text": "Rootedness; truth.",
+        "detail": "León-Portilla read the word as linked to the idea of being well rooted, and so of truth. The poets asked whether anyone is truly rooted on earth. The question frames a search for what can stand firm in a changing world."
+      },
+      {
+        "term": "The Five Suns",
+        "text": "The Mexica story of successive ages.",
+        "detail": "The Mexica believed that the world had passed through four previous suns, each destroyed, and that they lived in the fifth, Nahui Ollin, which had been set in motion by the sacrifice of the gods. It must be sustained by offerings, so that the cycle continues."
+      },
+      {
+        "term": "Calpulli",
+        "text": "The neighbourhood and kin group.",
+        "detail": "Each calpulli held land, ran a local school, kept its own temple and sent men to work and fight. It was the place where a person had belonging, duties and protection."
+      },
+      {
+        "term": "Huehuetlatolli",
+        "text": "The counsel of the elders.",
+        "detail": "Formal speeches given at births, weddings and other moments, collected by Sahagún. They teach moderation, respect, speech and responsibility in a rich, formal language that Nahuatl speakers still admire."
+      },
+      {
+        "term": "Tlamatinime",
+        "text": "The wise ones.",
+        "detail": "Sages who studied the painted books, the calendar, the stars and poetry. The Florentine Codex describes the ideal wise person as a light and a torch that does not smoke, a guide for others."
+      },
+      {
+        "term": "Two calendars",
+        "text": "A solar year and a sacred count.",
+        "detail": "The xiuhpohualli counted 365 days in 18 months of 20 days plus five extra days. The tonalpohualli counted 260 days, combining 20 day signs with 13 numbers. Every 52 years the two came back into step, and the Mexica marked the date with a New Fire ceremony."
+      },
+      {
+        "term": "Reciprocity and sacrifice",
+        "text": "A debt to the cosmos.",
+        "detail": "The Mexica believed that the gods created the sun through self-sacrifice, so humans owe offerings in return. The idea shaped ritual life and justified the sacrifice of captives, a practice that Spanish accounts exaggerated and archaeology confirms."
+      },
+      {
+        "term": "Nepantla",
+        "text": "In the middle.",
+        "detail": "The word appears in a sixteenth-century report in which a Nahua man says people are still in the middle, between old and new faiths. It has since been used by scholars, especially Chicana thinkers such as Gloria Anzaldúa, to describe living between worlds."
+      },
+      {
+        "term": "Chinampas",
+        "text": "Raised gardens in the lake.",
+        "detail": "Farmers built rectangular plots in shallow lakes from layers of mud and vegetation, held by willow trees. They gave several harvests a year and fed a large city. A few are still farmed in Xochimilco."
+      }
+    ],
+    "facts": [
+      {
+        "text": "English words that came from Nahuatl through Spanish include tomato, avocado, chilli, coyote, tamale, chocolate and guacamole."
+      },
+      {
+        "text": "The Sun Stone weighs about 24 tonnes and is nearly 3.6 metres across. It is not a calendar in the way often claimed, and scholars still discuss its purpose."
+      },
+      {
+        "text": "Cacao beans were used as a currency across Mesoamerica, and counterfeiters made fake beans out of clay and dough."
+      },
+      {
+        "text": "The chinampa gardens of Xochimilco and the historic centre of Mexico City have been a UNESCO World Heritage Site since 1987."
+      },
+      {
+        "text": "Nahuatl is spoken today by more than 1.6 million people, according to Mexico’s 2020 census."
+      },
+      {
+        "text": "Tenochtitlan was connected to the shore by three long causeways and supplied by aqueducts from Chapultepec. Nezahualcoyotl is credited with building a long dike across the lake to control floods.",
+        "unverified": true
+      },
+      {
+        "text": "The marigold flower used at Day of the Dead, cempasúchil, takes its name from Nahuatl words for twenty and flower."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Huey tlatoani",
+        "meaning": "Great speaker; the title of the ruler of Tenochtitlan"
+      },
+      {
+        "term": "Cihuacoatl",
+        "meaning": "A high official and also the name of a goddess"
+      },
+      {
+        "term": "Amoxtli",
+        "meaning": "A painted book"
+      },
+      {
+        "term": "Tlachtli",
+        "meaning": "The Mesoamerican ballgame"
+      },
+      {
+        "term": "Chicomoztoc",
+        "meaning": "The mythical place of seven caves from which peoples were said to have come"
+      },
+      {
+        "term": "Aztlan",
+        "meaning": "The legendary homeland, source of the later name \"Aztec\""
+      }
+    ],
+    "furtherReading": [
+      {
+        "title": "Aztec Thought and Culture",
+        "creator": "Miguel León-Portilla",
+        "year": "1963",
+        "note": "A pioneering study of Nahua philosophy."
+      },
+      {
+        "title": "Fifth Sun: A New History of the Aztecs",
+        "creator": "Camilla Townsend",
+        "year": "2019",
+        "note": "A modern history built on Nahuatl sources."
+      },
+      {
+        "title": "The Aztecs",
+        "creator": "Michael E. Smith",
+        "year": "2012",
+        "note": "An archaeologist’s overview of Aztec society."
+      },
+      {
+        "title": "Aztecs: An Interpretation",
+        "creator": "Inga Clendinnen",
+        "year": "1991",
+        "note": "A reading of Mexica culture and sacrifice."
+      },
+      {
+        "title": "Borderlands/La Frontera",
+        "creator": "Gloria Anzaldúa",
+        "year": "1987",
+        "note": "A Chicana writer’s classic that draws on Nahua symbols and ideas of the borderlands."
+      }
+    ],
+    "learnFrom": [
+      {
+        "name": "Nahuatl-speaking communities in Mexico",
+        "note": "Hundreds of communities in Puebla, Veracruz, Guerrero, Hidalgo and elsewhere keep Nahuatl alive in speech, song and farming."
+      },
+      {
+        "name": "The Instituto Nacional de Pueblos Indígenas (INPI) and the Instituto Nacional de Lenguas Indígenas (INALI)",
+        "note": "Mexican institutions working on indigenous languages and cultures."
+      },
+      {
+        "name": "Museo Nacional de Antropología and Museo del Templo Mayor",
+        "note": "Museums in Mexico City with major collections and scholars."
+      },
+      {
+        "name": "Nahuatl courses led by Nahua teachers",
+        "note": "Look for teachers who are speakers of the language, online or in your city, and pay them."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Aztec Thought and Culture",
+        "creator": "Miguel León-Portilla",
+        "publisher": "University of Oklahoma Press",
+        "year": "1963"
+      },
+      {
+        "title": "The Broken Spears",
+        "creator": "Miguel León-Portilla, trans. Lysander Kemp",
+        "publisher": "Beacon Press",
+        "year": "1962"
+      },
+      {
+        "title": "Fifth Sun: A New History of the Aztecs",
+        "creator": "Camilla Townsend",
+        "publisher": "Oxford University Press",
+        "year": "2019"
+      },
+      {
+        "title": "The Florentine Codex",
+        "creator": "Bernardino de Sahagún, trans. Arthur Anderson and Charles Dibble",
+        "publisher": "University of Utah Press",
+        "year": "1950 to 1982"
+      },
+      {
+        "title": "Aztecs: An Interpretation",
+        "creator": "Inga Clendinnen",
+        "publisher": "Cambridge University Press",
+        "year": "1991"
+      },
+      {
+        "title": "The Aztecs",
+        "creator": "Michael E. Smith",
+        "publisher": "Wiley-Blackwell",
+        "year": "2012"
+      },
+      {
+        "title": "Historic Centre of Mexico City and Xochimilco, World Heritage List",
+        "publisher": "UNESCO",
+        "year": "1987"
+      }
+    ]
+  },
+  "sensitivity": {
+    "note": "The Mexica and other Nahua peoples built a great civilisation, and their descendants live today. This Onda offers gratitude, poetry and reflection inspired by Nahua thought. It does not reproduce ceremonies, and it treats the sacrificial side of Mexica religion as part of an honest history.",
+    "requiredCaveats": [
+      "\"Aztec\" is an outside term. The people of Tenochtitlan called themselves Mexica, and many Nahua peoples shared the language. Use the name that people use for themselves when you can.",
+      "Much of what we know comes from Spanish friars and colonial sources. Read accounts of sacrifice and of conquest with that in mind, and prefer Nahua-authored texts where you can.",
+      "Ceremonies such as danza, copal blessings, temazcal steam baths and Day of the Dead rites belong to living communities. Attend only when invited and do not imitate them as costume.",
+      "This content has not yet been reviewed by Nahua speakers, Mexican historians or community members. It should be before release."
+    ],
+    "reviewRequired": true
+  }
+}

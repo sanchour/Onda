@@ -16,15 +16,17 @@ interface ScreenProps {
   children: ReactNode
   style?: CSSProperties
   scrollRef?: React.Ref<HTMLDivElement>
+  /** Per-Onda flair hook: lets the stylesheet restyle practice rows, bars and headers for this Onda. */
+  dataOnda?: string
 }
 
 const PAD = { root: s.padRoot, page: s.padPage, cta: s.padPageCta, hero: s.padHero, bare: '' }
 
 /** Page scaffold: one scroll pane, floating chrome above it, optional fixed bottom actions. Safe areas handled here. */
-export function Screen({ variant = 'page', bg = 'grouped', chrome, bottom, bottomRow, children, style, scrollRef }: ScreenProps) {
+export function Screen({ variant = 'page', bg = 'grouped', chrome, bottom, bottomRow, children, style, scrollRef, dataOnda }: ScreenProps) {
   return (
     <div className={`${s.screen} ${bg === 'page' ? s.bgPage : s.bgGrouped}`}>
-      <div ref={scrollRef} className={`scroll ${s.pane} ${PAD[variant]}`} style={style}>
+      <div ref={scrollRef} className={`scroll ${s.pane} ${PAD[variant]}`} style={style} data-onda={dataOnda}>
         {children}
       </div>
       {chrome && <div className={s.chrome}>{chrome}</div>}

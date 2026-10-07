@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
-import { useLookFn, useOndaList } from '@/data/hooks'
+import { useLookFn, useOndaList, useSettings } from '@/data/hooks'
 import { columnWidth, fitSize } from '@/lib/fit'
 import { useStore } from '@/data/store'
 import { BackButton, Screen } from '@/nav/Screen'
@@ -9,7 +9,8 @@ import { Button, GlassButton } from '@/ui/buttons'
 import { SegmentedControl } from '@/ui/controls'
 import { ProgressBar } from '@/ui/data'
 import { Icon } from '@/ui/Icon'
-import { DayBar, Glyph, PracticeRow, RulesList, TasksList, guardCreateOnda, nameSize, useActiveOnda, useRunToday } from './ondaShared'
+import { OrnamentIcon } from './KindArt'
+import { DayBar, Glyph, OrnDivider, PracticeRow, RulesList, TasksList, guardCreateOnda, nameSize, useActiveOnda, useRunToday } from './ondaShared'
 import o from './ondas.module.css'
 import s from './screens.module.css'
 
@@ -20,13 +21,17 @@ export default function OndasTab() {
   const { t } = useTranslation()
   const { push, openSheet } = useNav()
   const active = useActiveOnda()
+  const themed = useSettings().ondaThemes
   const done = useRunToday(active?.run.id)
   const [seg, setSeg] = useState<Seg>('practices')
   const { togglePractice, toggleItem } = useStore.getState()
 
   const header = (
     <div className={s.titleRow}>
-      <h1 className={s.largeTitle}>{t('ondas.title')}</h1>
+      <h1 className={active && themed ? `${s.largeTitle} ${o.hdrTitle}` : s.largeTitle}>
+        {t('ondas.title')}
+        {active && themed && <span className={o.hdrOrn}><OrnamentIcon name={active.look.ornament} size={26} /></span>}
+      </h1>
       <div className={s.actions}>
         <GlassButton icon="plus" prominent ariaLabel={t('ondas.newOnda')} onClick={() => guardCreateOnda(t) && openSheet({ name: 'createOnda' })} />
         <GlassButton icon="compass" ariaLabel={t('ondas.browse')} onClick={() => push({ name: 'allOndas' })} />
@@ -60,13 +65,15 @@ export default function OndasTab() {
     ['headphones', t('ondas.immerse'), () => push({ name: 'immersion' })],
     ['notebook', t('ondas.journal'), () => openSheet({ name: 'journalList' })],
     ['lightbulb', t('ondas.philosophy'), () => openSheet({ name: 'philosophy' })],
-    ['book-open-text', t('ondas.guide'), () => openSheet({ name: 'guide', ondaId: run.ondaId })],
+    ['book-open-text', t('ondas.guide'), () => push({ name: 'guide', ondaId: run.ondaId })],
   ]
 
   return (
     <Screen variant="root">
+      <div style={look.vars} data-onda={themed ? run.ondaId : undefined}>
       {header}
-      <div style={look.vars}>
+      {themed && <OrnDivider look={look} />}
+      <div>
         <button type="button" className={`${o.banner} ${o.themed}`} onClick={() => push({ name: 'onda', id: run.ondaId })}>
           <Glyph look={look} opacity={0.16} right={16} top={8} />
           <span className={o.bannerKicker}>
@@ -81,9 +88,9 @@ export default function OndasTab() {
           {quick.map(([icon, label, go]) => (
             <button key={label} type="button" className={o.quickTile} onClick={go}>
               <span className={`${s.circle} ${o.quickCircle} ${o.solidCircle}`}>
-                <Icon name={icon} weight="fill" size={22} />
+                <Icon name={icon} weight="fill" size={27} />
               </span>
-              <span style={{ fontSize: fitSize(label, 74, 13, 11) }}>{label}</span>
+              <span style={{ fontSize: fitSize(label, 78, 14, 11) }}>{label}</span>
             </button>
           ))}
         </div>
@@ -93,7 +100,9 @@ export default function OndasTab() {
             <h2 className={o.todayH}>{t('ondas.today')}</h2>
             <span className={s.sub}>{t('ondas.practicesOf', { done: pDone, total: practices.length })}</span>
           </div>
-          <ProgressBar value={practices.length ? pDone / practices.length : 0} tone="var(--onda-strong)" height={8} style={{ marginTop: 18 }} label={t('ondas.today')} />
+          <div className={o.todayBar} style={{ marginTop: 18 }}>
+            <ProgressBar value={practices.length ? pDone / practices.length : 0} tone="var(--onda-strong)" height={8} label={t('ondas.today')} />
+          </div>
         </div>
         <div style={{ padding: '16px 16px 0' }}>
           <SegmentedControl<Seg>
@@ -115,6 +124,7 @@ export default function OndasTab() {
           {seg === 'rules' && <RulesList rules={content?.rules ?? run.snapshot?.rules ?? []} done={done.rules} onToggle={(id) => toggleItem('ruleLogs', run.id, id)} />}
           {seg === 'tasks' && <TasksList tasks={content?.tasks ?? []} done={done.tasks} onToggle={(id) => toggleItem('taskLogs', run.id, id)} />}
         </div>
+      </div>
       </div>
     </Screen>
   )

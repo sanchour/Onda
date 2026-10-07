@@ -2,7 +2,7 @@
 
 ## Status: what is verified and what is not
 
-Verified in this repo: typecheck, 139 unit tests, 20 Playwright flows (WebKit at iPhone 15 Pro size; the offline flow on Chromium), a production build with its service worker, and a Deno typecheck of every Edge Function.
+Verified in this repo: typecheck, 176 unit tests, 25 Playwright flows (WebKit at iPhone 15 Pro size; the offline flow on Chromium), a production build with its service worker, and a Deno typecheck of every Edge Function.
 
 **Not verified, because it needs accounts, devices or secrets that were not available:** the Supabase migrations and merge RPC against a real database; Notion OAuth and sync against real Notion; Stripe checkout and webhook; Web Push delivery; Sign in with Apple; the Shortcut (it must be built on an iPhone and signed by Apple, see `docs/SHORTCUT.md`); Lighthouse scores; install, haptics and swipe feel on a real iPhone in standalone mode. The code for each is written to the documented APIs but has never run against the live service. Treat the "done when" list as open until those are exercised.
 
@@ -27,6 +27,15 @@ Verified in this repo: typecheck, 139 unit tests, 20 Playwright flows (WebKit at
 **Beta placeholder (1.2).** Until real payments are switched on, "Get Lifetime" in the app unlocks Ondas+ on the device and nothing is charged (`BETA_PAYMENTS` in `app/src/sync/entitlement.ts`). The paywall says so. A server that has no purchase on record never takes a beta unlock back. Building with `VITE_PAYMENTS=live` restores the real Stripe Checkout flow, which needs a signed-in account. Because the unlock is a local flag, it is not a security boundary: do not ship a public build without `VITE_PAYMENTS=live`.
 
 Trial and purchase are an **app-level entitlement**: the server sets `trial_started_at` once per account (a reinstall cannot restart it) and Stripe's webhook is the only thing that sets `lifetime`. StoreKit is not available to PWAs. If Onda is ever wrapped natively and distributed through the App Store, Apple requires In-App Purchase to unlock digital features, so the Stripe path would have to be replaced by StoreKit (or removed) in that build, and Restore would need to read StoreKit entitlements. A PWA sold through Stripe from the web sits outside App Store review.
+
+## Update 1.3
+
+- **Sixteen Ondas.** Soviet Union, Yoruba, Aztec, Ancient Egypt, Hermeticism and Gnosticism join the ten. Each has the full content set, its own theme (colour, pattern, display face, mark shape, card corners, numerals, ornament) and a flair for the Ondas tab. Facts were written conservatively: what could not be stood behind is marked `unverified` or left out, and a few kinds (for example eat and drink for Hermeticism and Gnosticism) are empty rather than invented. Soviet Union, Yoruba, Aztec and Gnosticism are `reviewRequired` (see CONTENT_REVIEW.md). Hermeticism separates the ancient Hermetica from the modern Kybalion; Gnosticism notes that scholars dispute the category.
+- **The accent follows the running Onda** everywhere except the Lagos tab and what is opened from it. Light mode darkens the Onda colour until white text reaches 4.5:1; dark mode picks near-black or white text.
+- **Status bar.** iOS reads `apple-mobile-web-app-status-bar-style` when the app launches, not live. An inline script now sets it (and `theme-color`) from the saved appearance before first paint, so a change of theme takes effect the next time the app is opened. Not verified on a device.
+- **Back glitch.** A timer that hides the covered page after a push read a stale stack, so pressing back soon after arriving could hide the page sliding back in. It now reads the live stack and stands down during a pop.
+- **Export and import.** Import validates every record with the same Zod schemas, merges per field (newer edits win), never deletes, and never imports plan or trial state from a file. Photos are not included.
+- **Full guide** is a pushed page with sticky tabs, section jump chips and collapsible groups.
 
 ## Cultural care
 

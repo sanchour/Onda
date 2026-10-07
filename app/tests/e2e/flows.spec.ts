@@ -22,7 +22,7 @@ test.describe('Onboarding and paywall', () => {
     await expect(page.getByRole('heading', { name: 'When should we remind you?' })).toBeVisible()
     await tap(page, 'Next')
     await expect(page.getByRole('heading', { name: 'Which Onda calls you first?' })).toBeVisible()
-    await expect(page.getByRole('radio')).toHaveCount(10)
+    await expect(page.getByRole('radio')).toHaveCount(16)
     await tap(page, /Zen Buddhism/, 'radio')
     await expect(page.getByRole('button', { name: /skip/i })).toHaveCount(0)
     await tap(page, 'Get Started')
@@ -59,6 +59,62 @@ test.describe('Ondas+ beta placeholder', () => {
     await expect(page.getByText('Lifetime unlocked (beta)')).toBeVisible()
     await settle(page, 900)
     await expect(page.getByRole('button', { name: /Ondas\+.*Lifetime/s })).toBeVisible()
+  })
+})
+
+test.describe('Update 1.3', () => {
+  test('tab order is Ondas, Lagos, Stats; the barometer shows only the percentage and the tier', async ({ page }) => {
+    await seedDemo(page)
+    const names = await page.locator('nav[role=tablist] [role=tab]').evaluateAll((els) => els.map((e) => e.getAttribute('aria-label')))
+    expect(names).toEqual(['Ondas', 'Lagos', 'Stats'])
+    await tab(page, 'Stats')
+    await expect(page.getByRole('img', { name: /^Consistency \d+ percent/ })).toBeVisible()
+    await expect(page.getByText(/Check ins per/)).toHaveCount(0)
+    await expect(page.getByText(/Keep going/)).toHaveCount(0)
+    // the range switch lives inside Activity
+    await expect(page.getByRole('tab', { name: 'Month', exact: true })).toBeVisible()
+  })
+
+  test('the accent follows the running Onda, except on the Lagos tab', async ({ page }) => {
+    await seedDemo(page)
+    const accent = () => page.evaluate(() => getComputedStyle(document.documentElement).getPropertyValue('--accent').trim())
+    const onOndas = await accent()
+    await tab(page, 'Lagos')
+    const onLagos = await accent()
+    expect(onLagos.toLowerCase()).toBe('#0a68d8')
+    expect(onOndas.toLowerCase()).not.toBe('#0a68d8')
+    await tab(page, 'Stats')
+    expect((await accent()).toLowerCase()).toBe(onOndas.toLowerCase())
+  })
+
+  test('import: a file that is not an Onda export is refused, and export is offered', async ({ page }) => {
+    await seedDemo(page)
+    await tap(page, 'Settings')
+    await tap(page, /Data/)
+    await expect(page.getByRole('button', { name: /Export Data/ })).toBeVisible()
+    await expect(page.getByRole('button', { name: /Import Data/ })).toBeVisible()
+    await page.locator('input[type=file]').setInputFiles({ name: 'x.json', mimeType: 'application/json', buffer: Buffer.from('{"hello":1}') })
+    await expect(page.getByText('That is not an Onda export')).toBeVisible()
+  })
+
+  test('the Gallery offers practices from each Onda, started as Lagos', async ({ page }) => {
+    await seedDemo(page)
+    await startTrial(page)
+    await tab(page, 'Lagos')
+    await tap(page, 'Gallery')
+    await expect(page.getByRole('heading', { name: 'From the Ondas' })).toBeVisible()
+    await tap(page, /^Stoicism.*Pick practices/)
+    const sheet = page.getByRole('dialog')
+    await sheet.getByRole('checkbox', { name: /Cold shower/ }).click()
+    await sheet.getByRole('button', { name: 'Start 1 Lago' }).click()
+    await settle(page, 900)
+    await expect(page.getByRole('button', { name: /Cold shower, day 1 of 14/ })).toBeVisible()
+  })
+
+  test('six more Ondas are listed', async ({ page }) => {
+    await seedDemo(page)
+    await tap(page, 'Browse Ondas')
+    for (const n of ['Soviet Union', 'Yoruba', 'Aztec', 'Ancient Egypt', 'Hermeticism', 'Gnosticism']) await expect(page.getByRole('button', { name: new RegExp(n) }).first()).toBeVisible()
   })
 })
 
@@ -208,15 +264,22 @@ test.describe('Ondas', () => {
     for (const s of ['Practices', 'Rules', 'Tasks', 'Immerse', 'Think about']) await expect(page.getByRole('heading', { name: s, exact: true })).toBeVisible()
 
     await page.getByRole('button', { name: /Full guide Context, history/ }).click()
-    const guide = page.getByRole('dialog', { name: 'Stoicism' })
-    await expect(guide).toBeVisible()
+    // The guide is a full page now, with its own back button
+    const guide = page
+    await expect(guide.getByRole('tab', { name: 'Overview', exact: true })).toBeVisible()
+    await expect(page.getByRole('dialog')).toHaveCount(0)
     for (const t of ['Overview', 'History', 'Ideas', 'Ways', 'Culture', 'Language', 'Facts']) await expect(guide.getByRole('tab', { name: t, exact: true })).toBeVisible()
     await guide.getByRole('tab', { name: 'History', exact: true }).click()
     await guide.getByRole('button', { name: /c\. 300 BCE/ }).click()
     await expect(guide.getByText(/The school took its name from the porch/)).toBeVisible()
     await guide.getByRole('tab', { name: 'Language', exact: true }).click()
     await expect(guide.getByText('Prohairesis')).toBeVisible()
-    await tap(page, 'Close')
+    // Long tabs are split into sections you can jump between
+    await guide.getByRole('tab', { name: 'Ways', exact: true }).click()
+    await expect(guide.getByRole('group', { name: 'Jump to' })).toBeVisible()
+    await guide.getByRole('group', { name: 'Jump to' }).getByRole('button', { name: /^Rules/ }).click()
+    await expect(guide.getByRole('button', { name: /^Rules/, expanded: true }).first()).toBeVisible()
+    await tap(page, 'Back')
 
     await tap(page, 'See All')
     await expect(page.getByText('Immersion', { exact: true })).toBeVisible()
@@ -259,7 +322,7 @@ test.describe('Ondas', () => {
   test('browsing another Onda previews it; beginning it ends the current one', async ({ page }) => {
     await startTrial(page)
     await tap(page, 'Browse Ondas')
-    await expect(page.getByText('Ten traditions, one at a time')).toBeVisible()
+    await expect(page.getByText('Sixteen worlds, one at a time')).toBeVisible()
     await expect(page.getByRole('button', { name: /Stoicism/ })).toContainText('Active')
     await tap(page, /Taoism/)
     await expect(page.getByRole('heading', { name: '14 days' })).toBeVisible()
@@ -319,10 +382,8 @@ test.describe('Stats and Settings', () => {
 
   test('range switch, twelve achievements, and the history day log', async ({ page }) => {
     await tab(page, 'Stats')
-    await expect(page.getByText('Check ins per day across your Lagos and Ondas, last 7 days.')).toBeVisible()
     await tap(page, 'All', 'tab')
     await expect(page.getByText('Best Streak')).toBeVisible()
-    await expect(page.getByText('Check ins per month since you started.')).toBeVisible()
 
     await page.getByRole('button', { name: /Achievements/ }).click()
     const ach = page.getByRole('dialog', { name: 'Achievements' })

@@ -16,7 +16,7 @@ import m from './more.module.css'
 import s from './screens.module.css'
 
 /** Consistency as a barometer: a half dial with a knob, the score in the middle and the tier beneath. Nothing else. */
-function Barometer({ score, tier, delta }: { score: number; tier: 'finding' | 'building' | 'steady' | 'lockedIn'; delta: number | null }) {
+function Barometer({ score, tier }: { score: number; tier: 'finding' | 'building' | 'steady' | 'lockedIn' }) {
   const { t } = useTranslation()
   const [shown, setShown] = useState(0)
   useEffect(() => {
@@ -39,16 +39,13 @@ function Barometer({ score, tier, delta }: { score: number; tier: 'finding' | 'b
           <path d="M22 110A88 88 0 0 1 198 110" className={m.baroFill} pathLength={1} strokeDasharray={`${Math.max(shown, 0.002)} 1`} />
           <path d={`${tick(0.4)}${tick(0.7)}${tick(0.9)}`} className={m.baroTicks} />
           <g className={m.baroKnob} style={{ transform: `rotate(${shown * 180}deg)` }}>
-            <circle cx="22" cy="110" r="9" />
+            <circle cx="22" cy="110" r="13" />
           </g>
         </svg>
         <div className={m.baroRead}>
           <div className={m.baroPct}>{pct}<small>%</small></div>
           <div className={m.baroTier}>{tierLabel}</div>
         </div>
-      </div>
-      <div className={m.baroTrend}>
-        {delta === null ? t('stats.consistencyNew') : delta === 0 ? t('stats.consistencyTrendFlat') : t(delta > 0 ? 'stats.consistencyTrendUp' : 'stats.consistencyTrendDown', { count: Math.abs(delta) })}
       </div>
     </div>
   )
@@ -96,7 +93,7 @@ export default function StatsTab() {
         <h1 className={s.largeTitle}>{t('stats.title')}</h1>
         <GlassButton icon="gear-six" ariaLabel={t('a11y.settings')} onClick={() => push({ name: 'settings' })} />
       </div>
-      <Barometer score={cons.score} tier={cons.tier} delta={cons.delta} />
+      <Barometer score={cons.score} tier={cons.tier} />
 
       <SectionToggle title={t('stats.activity')} meta={t(`stats.${range}`)} open={!closed.act} onToggle={toggle('act')} />
       {!closed.act && (
@@ -116,8 +113,7 @@ export default function StatsTab() {
               </div>
             ))}
           </div>
-          <div className={m.note} style={{ paddingTop: 14 }}>{t(`stats.note${range[0]!.toUpperCase()}${range.slice(1)}`)}</div>
-          <div className={m.chart}>
+          <div className={m.chart} style={{ marginTop: 14 }}>
             <div className={m.bars} key={range} role="img" aria-label={bars.map((b) => t('stats.barLabel', { label: b.label, count: b.value })).join(', ')}>
               {bars.map((b, i) => (
                 <div key={i} className={m.barCol}>

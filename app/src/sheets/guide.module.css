@@ -126,3 +126,20 @@ button.foldBtn:active{opacity:.75}
 .miExtra{font:400 var(--fs-14) var(--font-sans);color:var(--label-tertiary);margin-top:2px}
 .miWhy{font:400 var(--fs-17)/1.5 var(--font-sans);margin:14px 0 0;text-wrap:pretty}
 .miActions{display:flex;flex-direction:column;gap:10px;margin-top:22px}
+
+/* ── Full guide as a page ────────────────────────────────── */
+.pageTop{padding-top:calc(var(--chrome-top) + 54px)}
+.topMask{position:absolute;z-index:-1;left:-16px;right:-16px;top:calc(-1 * var(--chrome-top));height:calc(var(--chrome-top) + 62px);pointer-events:none;background:linear-gradient(to bottom,var(--surface-grouped) 78%,transparent)}
+.sticky{position:sticky;top:calc(var(--chrome-top) + 52px);z-index:20;background:var(--surface-grouped);padding:6px 0 8px;margin-top:2px}
+.sticky::after{content:"";position:absolute;left:0;right:0;bottom:-10px;height:10px;background:linear-gradient(to bottom,var(--surface-grouped),transparent);pointer-events:none}
+.jumpRow{display:flex;gap:8px;padding:8px 16px 2px}
+.jumpChip{display:inline-flex;align-items:center;gap:6px;height:32px;padding:0 13px;border-radius:999px;border:1.5px solid color-mix(in srgb,var(--onda-strong) 45%,transparent);color:var(--onda-strong);font:500 var(--fs-14) var(--font-sans);white-space:nowrap;background:transparent}
+.jumpChip:active{background:var(--onda-solid)}
+.jumpChip small{font:600 var(--fs-12) var(--font-sans);opacity:.7}
+.group{scroll-margin-top:calc(var(--chrome-top) + 54px + 92px)}
+.groupHead{display:flex;align-items:center;gap:10px;width:100%;margin:22px 0 10px;padding:4px 4px;text-align:start;font:700 var(--fs-20)/1.2 var(--font-sans);letter-spacing:var(--tracking-title)}
+.groupHead h3{margin:0;font:inherit;letter-spacing:inherit}
+.groupHead small{margin-left:auto;font:500 var(--fs-13) var(--font-sans);color:var(--label-tertiary)}
+.groupHead .caret{padding-top:0}
+.groupKind svg{width:56px;height:38px;flex:none}
+.group:first-child .groupHead{margin-top:4px}

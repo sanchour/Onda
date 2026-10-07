@@ -347,8 +347,14 @@ export function AccountSheet({ entry }: E<'account'>) {
 export function WhatsNewSheet({ entry }: E<'whatsNew'>) {
   const { t } = useTranslation()
   return (
-    <AppSheet entry={entry} title={t('whatsNew.title')} detent={0.6}>
+    <AppSheet entry={entry} title={t('whatsNew.title')} detent={0.8}>
       <div style={{ padding: '8px 0 40px' }}>
+        <ListSection header={`${t('whatsNew.v13')} · ${t('whatsNew.v13date')}`}>
+          <ListRow icon="waves" title={t('whatsNew.v13a')} accessory="none" />
+          <ListRow icon="paint-brush" title={t('whatsNew.v13b')} accessory="none" />
+          <ListRow icon="database" title={t('whatsNew.v13c')} accessory="none" />
+        </ListSection>
+        <div style={{ height: 20 }} />
         <ListSection header={`${t('whatsNew.v1')} · ${t('whatsNew.v1date')}`}>
           <ListRow icon="wave-sine" title={t('whatsNew.v1a')} accessory="none" />
           <ListRow icon="waves" title={t('whatsNew.v1b')} accessory="none" />

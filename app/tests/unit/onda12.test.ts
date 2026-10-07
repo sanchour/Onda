@@ -28,8 +28,8 @@ describe('numerals', () => {
 describe('per-Onda looks', () => {
   it('gives every shipped theme its own ornament and numerals', () => {
     const ids = Object.keys(THEMES)
-    expect(ids).toHaveLength(10)
-    expect(new Set(ids.map((id) => THEMES[id]!.ornament)).size).toBe(10)
+    expect(ids).toHaveLength(16)
+    expect(new Set(ids.map((id) => THEMES[id]!.ornament)).size).toBe(16)
   })
   it('uses the tradition numerals when themed and plain ones when not', () => {
     expect(ondaLook({ id: 'stoic', tone: 'blue' }, { themed: true, dark: false }).numeral(3)).toBe('III')

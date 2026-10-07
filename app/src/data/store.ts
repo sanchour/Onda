@@ -8,7 +8,7 @@ import { backendConfigured } from '@/sync/supabase'
 import { db, getMeta, setMeta } from './db'
 import { earnedAchievements, type AchievementKey } from './derive/achievements'
 import { mergeRecord, stamp } from './merge'
-import { COLLECTIONS, SettingsSchema, type BaseRecord, type CheckIn, type Collection, type Frequency, type Lago, type OndaRun, type RunSnapshot, type Settings, type Tables, type User } from './types'
+import { COLLECTIONS, SCHEMAS, SettingsSchema, type BaseRecord, type CheckIn, type Collection, type Frequency, type Lago, type OndaRun, type RunSnapshot, type Settings, type Tables, type User } from './types'
 
 type Lists = { [K in Exclude<Collection, 'user'>]: Tables[K][] }
 
@@ -62,6 +62,8 @@ export interface AppState extends Lists {
   saveCustomOnda: (content: OndaContent) => void
 
   exportAll: () => Record<string, unknown>
+  /** Merge a file made by exportAll into this device. Newer edits win per field; nothing is deleted. */
+  importAll: (raw: unknown) => Promise<{ imported: number; skipped: number }>
   resetAll: () => Promise<void>
 }
 
@@ -330,6 +332,37 @@ export const useStore = create<AppState>()((set, get) => {
         user: s.user,
         ...Object.fromEntries((Object.keys(EMPTY) as (keyof Lists)[]).map((k) => [k, (s[k] as BaseRecord[]).filter(live)])),
       }
+    },
+    async importAll(raw) {
+      const d = raw as Record<string, unknown> | null
+      if (!d || typeof d !== 'object' || d.app !== 'onda') throw new Error('not-onda-file')
+      if (typeof d.formatVersion !== 'number' || d.formatVersion > 1) throw new Error('unsupported-version')
+      let imported = 0
+      let skipped = 0
+      for (const c of COLLECTIONS) {
+        const rows = c === 'user' ? (d.user ? [d.user] : []) : Array.isArray(d[c]) ? (d[c] as unknown[]) : []
+        const ok: Tables[typeof c][] = []
+        for (const row of rows) {
+          const p = SCHEMAS[c].safeParse(row)
+          if (!p.success) {
+            skipped++
+            continue
+          }
+          if (c === 'user') {
+            // A file never changes what this account has paid for.
+            const mine = get().user
+            ok.push({ ...(p.data as User), id: 'me', plus: mine?.plus ?? 'none', trialStartedAt: mine?.trialStartedAt ?? null } as Tables[typeof c])
+          } else ok.push(p.data)
+        }
+        if (!ok.length) continue
+        await get().applyRemote(c, ok as never)
+        // Queue for upload when a sync server is configured
+        if (backendConfigured) await db.outbox.bulkAdd(ok.map((r) => ({ collection: c, id: (r as BaseRecord).id })))
+        imported += ok.length
+      }
+      set({ today: todayStr(), dirty: get().dirty + 1 })
+      evaluate()
+      return { imported, skipped }
     },
     async resetAll() {
       await db.transaction('rw', db.tables, async () => {

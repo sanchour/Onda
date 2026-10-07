@@ -1,0 +1,1076 @@
+{
+  "version": 1,
+  "id": "hermes",
+  "name": "Hermeticism",
+  "origin": "Hellenistic Egypt and Renaissance Europe",
+  "era": "1st to 3rd century CE, revived from the 15th century",
+  "tone": "green",
+  "icon": "moon-stars",
+  "font": "im-fell-english",
+  "pattern": "lattice",
+  "glyph": "☿",
+  "line": "Look for the pattern, watch the mind and work the slow stages.",
+  "quote": {
+    "text": "That which is below is like that which is above, and that which is above is like that which is below, to do the miracles of one only thing.",
+    "by": "The Emerald Tablet",
+    "source": "Tabula Smaragdina, trans. after Isaac Newton’s manuscript version",
+    "unverified": true
+  },
+  "quotes": [
+    {
+      "text": "A great wonder, Asclepius, is the human being.",
+      "by": "Asclepius",
+      "source": "Hermetic dialogue, Latin text, 3rd to 4th century CE",
+      "unverified": true
+    },
+    {
+      "text": "Unless you make yourself equal to God, you cannot understand God; like is understood by like.",
+      "by": "Mind to Hermes",
+      "source": "Corpus Hermeticum XI, trans. after Brian Copenhaver",
+      "unverified": true
+    },
+    {
+      "text": "All things are poison and nothing is without poison; only the dose makes a thing not a poison.",
+      "by": "Paracelsus",
+      "source": "Septem Defensiones, third defence, 1538",
+      "unverified": true
+    }
+  ],
+  "words": [
+    {
+      "id": "word-hermes-trismegistus",
+      "term": "Hermes Trismegistus",
+      "meaning": "Hermes the Thrice-Greatest; the legendary author of the Hermetica",
+      "pronunciation": "HER-meez tris-meh-JIS-tus",
+      "language": "Greek",
+      "usage": "A figure who joined the Greek Hermes and the Egyptian Thoth, honoured as a teacher of wisdom."
+    },
+    {
+      "id": "word-hermetica",
+      "term": "Hermetica",
+      "meaning": "The writings attributed to Hermes Trismegistus",
+      "pronunciation": "her-MET-ih-kah",
+      "language": "Greek",
+      "usage": "Philosophical dialogues and technical texts on astrology, alchemy and magic from the first centuries CE."
+    },
+    {
+      "id": "word-corpus-hermeticum",
+      "term": "Corpus Hermeticum",
+      "meaning": "The collection of seventeen Greek Hermetic treatises",
+      "pronunciation": "KOR-pus her-MET-ih-kum",
+      "language": "Latin",
+      "usage": "Copied in Byzantium and translated into Latin by Ficino in 1463."
+    },
+    {
+      "id": "word-poimandres",
+      "term": "Poimandres",
+      "meaning": "The first treatise of the Corpus; often read as \"shepherd of men\"",
+      "pronunciation": "poy-MAN-dres",
+      "language": "Greek",
+      "usage": "A vision in which Mind reveals the origin of the cosmos and the soul’s ascent."
+    },
+    {
+      "id": "word-asclepius",
+      "term": "Asclepius",
+      "meaning": "A Hermetic dialogue surviving in Latin",
+      "pronunciation": "as-KLEE-pee-us",
+      "language": "Latin",
+      "usage": "Known in the Middle Ages and Renaissance, with its famous praise of the human being."
+    },
+    {
+      "id": "word-nous",
+      "term": "Nous",
+      "meaning": "Mind; intellect; the divine reason",
+      "pronunciation": "noose",
+      "language": "Greek",
+      "usage": "In the Hermetica it is both a god and the divine part of a person."
+    },
+    {
+      "id": "word-logos",
+      "term": "Logos",
+      "meaning": "Word; reason",
+      "pronunciation": "LOH-gos",
+      "language": "Greek",
+      "usage": "The organising word or reason that shapes the cosmos."
+    },
+    {
+      "id": "word-gnosis",
+      "term": "Gnosis",
+      "meaning": "Knowledge; direct insight",
+      "pronunciation": "NOH-sis",
+      "language": "Greek",
+      "usage": "In the Hermetica, knowledge of God and the self, rather than information."
+    },
+    {
+      "id": "word-kosmos",
+      "term": "Kosmos",
+      "meaning": "The ordered world; also adornment",
+      "pronunciation": "KOZ-mos",
+      "language": "Greek",
+      "usage": "The root of \"cosmetic\". The world seen as an ordered, beautiful whole."
+    },
+    {
+      "id": "word-microcosm",
+      "term": "Microcosm",
+      "meaning": "The small world; a human being",
+      "pronunciation": "MY-kroh-koz-um",
+      "language": "Greek",
+      "usage": "The idea that a person mirrors the larger cosmos."
+    },
+    {
+      "id": "word-macrocosm",
+      "term": "Macrocosm",
+      "meaning": "The great world; the universe",
+      "pronunciation": "MAK-roh-koz-um",
+      "language": "Greek",
+      "usage": "The cosmos regarded as a living whole in which a person is a part."
+    },
+    {
+      "id": "word-correspondence",
+      "term": "Correspondence",
+      "meaning": "The link between things at different levels",
+      "pronunciation": "kor-eh-SPON-dens",
+      "language": "English",
+      "usage": "The thought that a pattern repeats across scales."
+    },
+    {
+      "id": "word-prima-materia",
+      "term": "Prima materia",
+      "meaning": "First matter; the raw stuff of the work",
+      "pronunciation": "PREE-mah mah-TEER-ee-ah",
+      "language": "Latin",
+      "usage": "In alchemy, the basic material from which everything is made, and what the work begins with."
+    },
+    {
+      "id": "word-magnum-opus",
+      "term": "Magnum opus",
+      "meaning": "The Great Work",
+      "pronunciation": "MAG-num OH-pus",
+      "language": "Latin",
+      "usage": "The long process of transformation. In alchemy it was the making of the philosophers’ stone."
+    },
+    {
+      "id": "word-nigredo",
+      "term": "Nigredo",
+      "meaning": "Blackening; the first stage",
+      "pronunciation": "nih-GREE-doh",
+      "language": "Latin",
+      "usage": "The stage of dissolution and darkness."
+    },
+    {
+      "id": "word-albedo",
+      "term": "Albedo",
+      "meaning": "Whitening; the second stage",
+      "pronunciation": "al-BEE-doh",
+      "language": "Latin",
+      "usage": "The stage of washing and clarification."
+    },
+    {
+      "id": "word-citrinitas",
+      "term": "Citrinitas",
+      "meaning": "Yellowing; the dawn",
+      "pronunciation": "sit-rih-NEE-tas",
+      "language": "Latin",
+      "usage": "A stage that was later often dropped from the sequence of colours."
+    },
+    {
+      "id": "word-rubedo",
+      "term": "Rubedo",
+      "meaning": "Reddening; the final stage",
+      "pronunciation": "roo-BEE-doh",
+      "language": "Latin",
+      "usage": "The stage of completion."
+    },
+    {
+      "id": "word-athanor",
+      "term": "Athanor",
+      "meaning": "The alchemist’s furnace",
+      "pronunciation": "ATH-ah-nor",
+      "language": "Arabic",
+      "usage": "From the Arabic at-tannur, an oven that burns steadily."
+    },
+    {
+      "id": "word-alembic",
+      "term": "Alembic",
+      "meaning": "A distillation vessel",
+      "pronunciation": "AL-em-bik",
+      "language": "Arabic",
+      "usage": "From the Arabic al-anbiq, which came from a Greek word for a cup."
+    },
+    {
+      "id": "word-elixir",
+      "term": "Elixir",
+      "meaning": "A transforming substance",
+      "pronunciation": "ih-LIK-sur",
+      "language": "Arabic",
+      "usage": "From the Arabic al-iksir, a powder or agent that perfects."
+    },
+    {
+      "id": "word-quintessence",
+      "term": "Quintessence",
+      "meaning": "The fifth essence",
+      "pronunciation": "kwin-TES-ens",
+      "language": "Latin",
+      "usage": "The fifth element, beyond earth, water, air and fire."
+    },
+    {
+      "id": "word-ouroboros",
+      "term": "Ouroboros",
+      "meaning": "The serpent that bites its own tail",
+      "pronunciation": "oo-ROH-boh-ros",
+      "language": "Greek",
+      "usage": "A symbol of cycle and unity, found in Greco-Egyptian alchemical texts."
+    },
+    {
+      "id": "word-anima-mundi",
+      "term": "Anima mundi",
+      "meaning": "The soul of the world",
+      "pronunciation": "AH-nee-mah MOON-dee",
+      "language": "Latin",
+      "usage": "The idea that the cosmos is a living being."
+    },
+    {
+      "id": "word-solve-et-coagula",
+      "term": "Solve et coagula",
+      "meaning": "Dissolve and bring together",
+      "pronunciation": "SOL-veh et koh-AG-oo-lah",
+      "language": "Latin",
+      "usage": "An alchemical motto for the repeated cycle of breaking down and making whole."
+    },
+    {
+      "id": "word-tabula-smaragdina",
+      "term": "Tabula Smaragdina",
+      "meaning": "The Emerald Tablet",
+      "pronunciation": "TAH-boo-lah smah-rahg-DEE-nah",
+      "language": "Latin",
+      "usage": "A short, cryptic text from the Arabic tradition, famed for the line \"as above, so below\"."
+    },
+    {
+      "id": "word-theurgy",
+      "term": "Theurgy",
+      "meaning": "God-working; ritual union with the divine",
+      "pronunciation": "THEE-ur-jee",
+      "language": "Greek",
+      "usage": "A practice of late antique philosophers. Not part of this Onda."
+    },
+    {
+      "id": "word-palingenesia",
+      "term": "Palingenesia",
+      "meaning": "Rebirth",
+      "pronunciation": "pah-lin-JEN-eh-see-ah",
+      "language": "Greek",
+      "usage": "The subject of Corpus Hermeticum XIII, in which a student is \"born again\" in mind."
+    },
+    {
+      "id": "word-heimarmene",
+      "term": "Heimarmene",
+      "meaning": "Fate; the rule of the stars",
+      "pronunciation": "hay-mar-MEH-neh",
+      "language": "Greek",
+      "usage": "The compulsion of planetary powers from which the Hermetic teaching promises release."
+    },
+    {
+      "id": "word-sympatheia",
+      "term": "Sympatheia",
+      "meaning": "Fellow feeling among things",
+      "pronunciation": "sim-pah-THAY-ah",
+      "language": "Greek",
+      "usage": "The idea that the parts of the cosmos influence each other."
+    },
+    {
+      "id": "word-spagyric",
+      "term": "Spagyric",
+      "meaning": "A Paracelsian art of separating and recombining",
+      "pronunciation": "spah-JEER-ik",
+      "language": "Greek",
+      "usage": "Coined by Paracelsus from words for \"to separate\" and \"to join\".",
+      "unverified": true
+    },
+    {
+      "id": "word-mercurius",
+      "term": "Mercurius",
+      "meaning": "The Roman Mercury; the spirit of change in alchemy",
+      "pronunciation": "mer-KOO-ree-us",
+      "language": "Latin",
+      "usage": "Alchemy used the name for both the planet, the metal and a restless, shape-changing principle."
+    },
+    {
+      "id": "word-kybalion",
+      "term": "Kybalion",
+      "meaning": "A 1908 book on \"Hermetic philosophy\"",
+      "pronunciation": "KY-bah-lee-on",
+      "language": "English",
+      "usage": "A modern text, not an ancient one. Its seven principles come from it."
+    }
+  ],
+  "practices": [
+    {
+      "id": "poimandres-at-dawn",
+      "name": "A page at dawn",
+      "icon": "book-open-text",
+      "slot": "Morning",
+      "time": "06:45",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Read one short passage from a Hermetic text in a reliable translation, such as the opening vision of the Poimandres, in no more than a page. Read it slowly twice. Then close the book and sit for five minutes with one line in mind. Ask what it would mean if it were literally true and what it would mean as a figure of speech. Write one sentence of your own, not a summary.",
+      "why": "The Hermetic writings present themselves as teaching through vision and dialogue rather than argument. A short, slow reading each morning treats them as a way of thinking more than as a body of doctrine.",
+      "variations": [
+        "Read the same page three days in a row.",
+        "Copy the passage by hand.",
+        "Read it aloud to someone and ask what they hear."
+      ]
+    },
+    {
+      "id": "as-above-so-below",
+      "name": "As above, so below",
+      "icon": "spiral",
+      "slot": "Afternoon",
+      "time": "15:00",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Find one pattern that repeats at two scales: the branching of a river and of a tree, a spiral in a shell and in a galaxy picture, the rhythm of your breath and of the day. Look at both for a few minutes and draw the shared form. Then ask whether something in your own life repeats at a small and a large scale: a habit and a pattern of years. Write down the correspondence in one line.",
+      "why": "The Emerald Tablet’s famous line says that what is below is like what is above. Whatever the truth of cosmic claims, looking for the same pattern at different scales is a real way of seeing and a source of insight in science, craft and art.",
+      "variations": [
+        "Look at a leaf with a magnifying glass and then at a satellite map.",
+        "Draw the pattern and give it a name.",
+        "Share the correspondence with a friend."
+      ]
+    },
+    {
+      "id": "solve-et-coagula",
+      "name": "Solve et coagula",
+      "icon": "arrows-clockwise",
+      "slot": "Evening",
+      "time": "20:30",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Choose one problem or confusion that is on your mind. First dissolve it: write down every part, doubt, fear and fact on a page, without ordering them. Leave it for a minute. Then bring it together: write a single sentence, or a short list, that says what the problem really is and the next small step. Name the stage you are in: blackening, whitening, yellowing or reddening.",
+      "why": "Alchemists described the work as a cycle of breaking down and making whole, passing through colour stages. Used as a metaphor for thinking and change, the cycle teaches that confusion is a stage and not a failure.",
+      "variations": [
+        "Use it on a conflict with another person.",
+        "Use it on a piece of writing.",
+        "Keep a record of which stage you were in each night."
+      ]
+    },
+    {
+      "id": "watch-the-mind",
+      "name": "Watching the mind",
+      "icon": "brain",
+      "slot": "Morning",
+      "time": "07:30",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Sit upright. Set a timer for ten minutes. Close your eyes or lower your gaze. Notice thoughts as they appear, as if you were watching them pass on a screen. Label them lightly: planning, remembering, worrying. Do not follow them or push them away. When you notice you have been carried off, return to watching. At the end ask: who was watching?",
+      "why": "In the Hermetic texts Mind, nous, is both a divine reality and the highest part of a person, and knowing oneself leads to knowing the whole. A simple practice of observing the mind gives that old idea a modern, practical form.",
+      "variations": [
+        "Do it outdoors with your eyes open.",
+        "Count breaths from one to ten and begin again.",
+        "Write down the most frequent type of thought."
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": "write-a-laboratory-style-notebook-entry",
+      "name": "Write a laboratory-style notebook entry",
+      "meta": "Date, weather, moon phase, what you observed",
+      "time": "17:00",
+      "slot": "Afternoon"
+    },
+    {
+      "id": "look-at-the-night-sky-and-find-one-planet-or-the-moon",
+      "name": "Look at the night sky and find one planet or the moon",
+      "meta": "Note where it is",
+      "time": "21:30",
+      "slot": "Evening"
+    },
+    {
+      "id": "read-one-emblem-from-atalanta-fugiens",
+      "name": "Read one emblem from Atalanta Fugiens",
+      "meta": "Image, verse and discussion",
+      "time": "19:00",
+      "slot": "Evening"
+    }
+  ],
+  "rules": [
+    {
+      "id": "r1",
+      "text": "Test what you are told",
+      "why": "Renaissance and early modern alchemists were also experimenters. Check your claims against what you can observe."
+    },
+    {
+      "id": "r2",
+      "text": "Write down what you see",
+      "why": "Alchemical and scientific notebooks record observations. A record turns an impression into evidence."
+    },
+    {
+      "id": "r3",
+      "text": "Look for the pattern beneath the surface",
+      "why": "The Hermetic habit is to ask what links things. Start with what repeats."
+    },
+    {
+      "id": "r4",
+      "text": "Keep your own counsel",
+      "why": "The word \"hermetic\" came to mean sealed and secret. Practise discretion: not everything you learn needs sharing at once."
+    },
+    {
+      "id": "r5",
+      "text": "Work slowly, in stages",
+      "why": "The Great Work is long. Do not hurry the change you want and notice which stage you are in."
+    },
+    {
+      "id": "r6",
+      "text": "Never ingest or heat unknown substances",
+      "why": "This Onda uses alchemy as a symbol only. Mercury, arsenic and many old alchemical materials are poisons."
+    }
+  ],
+  "immerse": {
+    "read": [
+      {
+        "id": "read-hermetica-the-greek-corpus-hermeticum-and-the-latin-asclepius",
+        "title": "Hermetica: The Greek Corpus Hermeticum and the Latin Asclepius",
+        "creator": "Translated by Brian P. Copenhaver",
+        "year": "1992",
+        "why": "The standard modern English translation, with notes."
+      },
+      {
+        "id": "read-the-way-of-hermes",
+        "title": "The Way of Hermes",
+        "creator": "Clement Salaman, Dorine van Oyen, William D. Wharton and Jean-Pierre Mahé",
+        "year": "1999",
+        "why": "A smaller translation of the Corpus Hermeticum and the Definitions of Hermes to Asclepius."
+      },
+      {
+        "id": "read-the-egyptian-hermes",
+        "title": "The Egyptian Hermes",
+        "creator": "Garth Fowden",
+        "year": "1986",
+        "why": "A historical study of the Hermetic writings in their late antique setting."
+      },
+      {
+        "id": "read-the-secrets-of-alchemy",
+        "title": "The Secrets of Alchemy",
+        "creator": "Lawrence M. Principe",
+        "year": "2013",
+        "why": "A historian and chemist on what alchemy really was."
+      },
+      {
+        "id": "read-giordano-bruno-and-the-hermetic-tradition",
+        "title": "Giordano Bruno and the Hermetic Tradition",
+        "creator": "Frances A. Yates",
+        "year": "1964",
+        "why": "An influential and much debated study of Renaissance Hermeticism."
+      },
+      {
+        "id": "read-hermetic-spirituality-and-the-historical-imagination",
+        "title": "Hermetic Spirituality and the Historical Imagination",
+        "creator": "Wouter J. Hanegraaff",
+        "year": "2022",
+        "why": "A careful modern study of how the Hermetic texts were read.",
+        "unverified": true
+      },
+      {
+        "id": "read-the-kybalion",
+        "title": "The Kybalion",
+        "creator": "Three Initiates",
+        "year": "1908",
+        "why": "A modern book that presents seven \"Hermetic principles\". It is not an ancient text and should be read as such."
+      }
+    ],
+    "watch": [
+      {
+        "id": "watch-newton-s-dark-secrets",
+        "title": "Newton’s Dark Secrets",
+        "creator": "NOVA, PBS",
+        "year": "2005",
+        "why": "A documentary on Newton’s alchemical and theological interests."
+      },
+      {
+        "id": "watch-prospero-s-books",
+        "title": "Prospero’s Books",
+        "creator": "Peter Greenaway",
+        "year": "1991",
+        "why": "A visual feast based on The Tempest, whose hero is a Renaissance magus with a library of imagined books."
+      }
+    ],
+    "listen": [
+      {
+        "id": "listen-the-planets",
+        "title": "The Planets",
+        "creator": "Gustav Holst",
+        "year": "1914–1916",
+        "why": "A suite for orchestra, each movement named for a planet and its astrological character."
+      },
+      {
+        "id": "listen-the-magic-flute",
+        "title": "The Magic Flute",
+        "creator": "Wolfgang Amadeus Mozart",
+        "year": "1791",
+        "why": "An opera in which Masonic and Egyptian imagery, and ideas of initiation and light, are woven into the story."
+      },
+      {
+        "id": "listen-atalanta-fugiens-fugues-for-three-voices",
+        "title": "Atalanta Fugiens: fugues for three voices",
+        "creator": "Michael Maier",
+        "year": "1617",
+        "why": "Maier’s emblem book contains fifty musical fugues. Modern recordings exist.",
+        "unverified": true
+      }
+    ],
+    "art": [
+      {
+        "id": "art-atalanta-fugiens",
+        "title": "Atalanta Fugiens",
+        "creator": "Michael Maier, engravings by Matthaeus Merian",
+        "year": "1617",
+        "why": "Fifty emblems with verses and fugues on the stages of the Work."
+      },
+      {
+        "id": "art-splendor-solis",
+        "title": "Splendor Solis",
+        "creator": "Anonymous, manuscript",
+        "year": "c. 1532–1535",
+        "why": "A richly painted German manuscript, now in the British Library."
+      },
+      {
+        "id": "art-melencolia-i",
+        "title": "Melencolia I",
+        "creator": "Albrecht Dürer",
+        "year": "1514",
+        "why": "An engraving of a brooding angel among tools and a magic square."
+      },
+      {
+        "id": "art-the-siena-cathedral-pavement-of-hermes-trismegistus",
+        "title": "The Siena Cathedral pavement of Hermes Trismegistus",
+        "creator": "Giovanni di Stefano",
+        "year": "c. 1488",
+        "why": "A marble inlay in the cathedral floor showing \"Hermes Mercurius Contemporaneus Moses\"."
+      }
+    ],
+    "eat": [],
+    "drink": [],
+    "customs": [
+      {
+        "id": "customs-keep-a-notebook-like-a-laboratory-journal",
+        "title": "Keep a notebook like a laboratory journal",
+        "creator": "Date, observation, result",
+        "why": "Early chemists and alchemists kept notebooks. Yours can hold observations, patterns and questions."
+      },
+      {
+        "id": "customs-walk-and-notice-patterns",
+        "title": "Walk and notice patterns",
+        "creator": "A short walk in nature with attention to repeating forms",
+        "why": "The correspondence practice made physical."
+      },
+      {
+        "id": "customs-mark-the-days-of-the-week-as-planetary-names",
+        "title": "Mark the days of the week as planetary names",
+        "creator": "Sun, Moon, Mars, Mercury, Jupiter, Venus, Saturn",
+        "why": "English weekdays still carry the old planetary order. Treat it as symbol and history, not prediction."
+      },
+      {
+        "id": "customs-spend-an-hour-in-silence",
+        "title": "Spend an hour in silence",
+        "creator": "No talking, no media",
+        "why": "The Hermetic texts speak of silence as the condition of insight."
+      }
+    ]
+  },
+  "ethics": [
+    {
+      "title": "Knowledge as responsibility",
+      "text": "In the Hermetica knowledge of the self and the cosmos is meant to change the one who knows. To know is to be obliged.",
+      "practice": "Pick one thing you know and ask what it asks of you."
+    },
+    {
+      "title": "Self-mastery",
+      "text": "The Poimandres describes the soul stripping away vices as it rises through the planetary spheres. The ideal is freedom from compulsion.",
+      "practice": "Name one compulsion and delay it by ten minutes."
+    },
+    {
+      "title": "Discretion",
+      "text": "The word hermetic means sealed. Teachings were passed carefully, to those prepared to receive them. Speaking less can be a form of respect.",
+      "practice": "Keep one thing to yourself today, and notice what changes."
+    },
+    {
+      "title": "Reverence for nature",
+      "text": "The Hermetic cosmos is alive and ordered, and the human being is its keystone. Care for the world follows from seeing it as a whole.",
+      "practice": "Spend ten minutes caring for something living."
+    },
+    {
+      "title": "Honest experiment",
+      "text": "Early alchemists, and later chemists, tried and recorded. Their best work depended on patience and honest reporting of failures.",
+      "practice": "Record one failure from this week without excuses."
+    },
+    {
+      "title": "Humility before the whole",
+      "text": "Hermetic thought sets a person in a vast web of connection. The one who sees the web cannot remain proud.",
+      "practice": "Look at the stars for a few minutes and name your smallest worry."
+    }
+  ],
+  "philosophy": [
+    {
+      "title": "Mind and cosmos",
+      "text": "The Poimandres begins with a vision of Mind, who tells the seeker that the light is Mind, the same as the divine, and that the person is made of it. A person can know the whole because they share its nature.",
+      "practice": "Spend a moment aware of the awareness behind your thoughts."
+    },
+    {
+      "title": "As above, so below",
+      "text": "The phrase comes from a line of the Emerald Tablet, a short text that came into Latin from Arabic in the Middle Ages. It states that the same pattern runs through every level of reality.",
+      "practice": "Look for one pattern at two scales today."
+    },
+    {
+      "title": "The One and the All",
+      "text": "Hermetic texts and their Greek background favour the thought that all things are one, \"hen to pan\". The many things of the world are expressions of a single source.",
+      "practice": "Choose three unlike things you see today and ask what they share."
+    },
+    {
+      "title": "Rebirth",
+      "text": "In Corpus Hermeticum XIII, Hermes teaches his son Tat a rebirth in which the vices are driven out and the powers of God enter. It is described as silent and inward.",
+      "practice": "Name one habit you are leaving behind, and write a line to mark it."
+    },
+    {
+      "title": "The great wonder",
+      "text": "The Asclepius says that a human being is a great wonder, honoured and adored, because the person is both a mortal body and a divine mind. Pico della Mirandola quoted it in 1486 in his oration on human dignity.",
+      "practice": "Write down something about a human being that amazes you."
+    },
+    {
+      "title": "The stages of the work",
+      "text": "Alchemical writers described a process that passed through colours: blackening, whitening, yellowing and reddening. They are taken as stages of change in matter and in the person.",
+      "practice": "Name the stage of a current project."
+    },
+    {
+      "title": "Ascent through the spheres",
+      "text": "The Poimandres describes the soul rising through seven planetary spheres, leaving behind a vice at each, until it reaches the eighth and becomes divine. The picture is of a journey of release from compulsion.",
+      "practice": "List the \"spheres\" of your day and name one burden you could leave at each."
+    },
+    {
+      "title": "A living world",
+      "text": "The idea of the anima mundi, a soul of the world, appears in Plato and in Renaissance Hermeticism. It sees nature as alive, not merely a machine.",
+      "practice": "Greet something non-human with attention, such as a tree."
+    },
+    {
+      "title": "Silence",
+      "text": "In Corpus Hermeticum XIII the rebirth happens in silence. Whatever the doctrine, a good deal of understanding comes only in the quiet that follows talk.",
+      "practice": "Sit in silence for five minutes with no purpose."
+    },
+    {
+      "title": "The modern seven principles",
+      "text": "The Kybalion, published in 1908, lists seven \"Hermetic principles\": mentalism, correspondence, vibration, polarity, rhythm, cause and effect, and gender. They are a modern synthesis, linked to New Thought, and not part of ancient Hermeticism.",
+      "practice": "If you meet the seven principles, ask where each one comes from before you accept it."
+    }
+  ],
+  "journal": [
+    "What pattern did you notice today at two scales?",
+    "What did you observe that you would write down in a notebook?",
+    "Which stage of the work is your life in: dissolving, clearing, ripening or completing?",
+    "What did you watch in your mind today?",
+    "What were you silent about, and why?",
+    "What did you test rather than accept?",
+    "What is something you know that asks something of you?",
+    "Where did you feel part of a larger whole?",
+    "What changed when you slowed down?",
+    "What did you let dissolve?",
+    "What did you bring together?",
+    "Which compulsion tugged at you?",
+    "What did you learn from the night sky?",
+    "What did you read slowly?",
+    "What does the word wonder bring up in you?",
+    "What do you want to understand about yourself?",
+    "Where did you notice a small thing mirror a large one?",
+    "What did you leave unfinished and what does it need?",
+    "Whom did you teach, and what did you learn?",
+    "What is the question under your question?",
+    "What are you ready to leave behind?",
+    "What did you make or mend?",
+    "What tool or craft do you honour?",
+    "What did you notice about the weather or the light?",
+    "What would you ask Hermes?",
+    "What was the darkest part of your day, and what did it teach?",
+    "What was the brightest?",
+    "What do you want to be careful about?",
+    "What was a moment of unity?",
+    "What will you carry from this work?"
+  ],
+  "reflect": [
+    "Which pattern or correspondence stayed with you?",
+    "What did the practice of watching the mind show you?",
+    "Where did the stages of the work help you understand a change?",
+    "What did you learn about the difference between ancient texts and modern retellings?",
+    "Which part of this tradition do you want to study more carefully, and from whom?",
+    "What will you keep: the page at dawn, the pattern, the dissolving and joining, or the silence?"
+  ],
+  "dayThemes": [
+    "The thrice-great",
+    "A vision of Mind",
+    "As above, so below",
+    "The pattern in a leaf",
+    "Watching the mind",
+    "The great wonder",
+    "Dissolve",
+    "Bring together",
+    "The slow stages",
+    "Blackening",
+    "Whitening",
+    "Yellowing",
+    "Reddening",
+    "The furnace and the flask",
+    "Silence",
+    "The seven days",
+    "The stars as symbol",
+    "The world as living",
+    "Rebirth in silence",
+    "Self-mastery",
+    "The emerald tablet",
+    "The experimenter’s notebook",
+    "The emblem and the fugue",
+    "Newton’s other work",
+    "The dose makes the poison",
+    "The Renaissance rediscovery",
+    "The sealed vessel",
+    "The modern retellings",
+    "One and many",
+    "The great work"
+  ],
+  "guide": {
+    "origin": "Greek-speaking Egypt, the Arabic world and Renaissance Europe",
+    "era": "1st to 3rd century CE, revived from the 15th century",
+    "intro": [
+      "Hermeticism is a tradition of writings and ideas gathered under the name of Hermes Trismegistus, \"Hermes the Thrice-Greatest\". The name joins the Greek god Hermes, the messenger and guide of souls, with the Egyptian god Thoth, patron of writing and wisdom. Greek-speaking writers in Egypt in the first centuries of the common era composed dialogues under this name, and later readers believed they were far older.",
+      "The core is the Corpus Hermeticum, seventeen Greek treatises, and the Latin Asclepius. They mix philosophy, cosmology and spiritual instruction. In the first, the Poimandres, a divine Mind reveals how the cosmos was made and how the soul, having fallen into matter, can rise back through the planetary spheres. Other treatises teach that the universe is alive and orderly, that a human being is a great wonder because both mortal and divine, and that knowledge of the self leads to knowledge of God. Separate \"technical\" Hermetica deal with astrology, alchemy and magic.",
+      "The texts passed into Arabic, where the Emerald Tablet and a large body of alchemical writing took shape, and into medieval Latin. In 1463 Marsilio Ficino, at the request of Cosimo de’ Medici in Florence, translated the Corpus Hermeticum into Latin from a Greek manuscript newly arrived from Macedonia. It was printed in 1471 and read across Europe. Many Renaissance thinkers, including Pico della Mirandola and Giordano Bruno, treated Hermes as an ancient Egyptian sage.",
+      "In 1614 the Swiss scholar Isaac Casaubon showed from the language that the texts were not ancient Egyptian but written in the early centuries CE. The finding changed the story but not the interest. The Hermetica remain important as a record of how people thought about mind, cosmos and the divine in late antiquity, and Hermetic ideas shaped alchemy, Renaissance natural philosophy and later occult movements.",
+      "Alchemy was not simply a failed attempt to make gold. Its practitioners were also physicians, metalworkers and philosophers who developed laboratory techniques and wrote about transformation in matter and in the person. Isaac Newton left a very large body of alchemical writing alongside his physics. The language of colours, stages and the Great Work offered a rich set of images for change.",
+      "Hermeticism today covers several things that should be kept apart: the ancient Hermetica, the Renaissance revival, historical alchemy, and modern esoteric movements such as the Golden Dawn and the authors of the Kybalion, published in 1908. This Onda draws mainly on the first two and treats alchemy as symbol and history. It offers attention, pattern-seeking and a slow method, and does not ask you to practise magic or handle chemicals."
+    ],
+    "figures": [
+      {
+        "name": "Hermes Trismegistus",
+        "dates": "legendary",
+        "bio": "The name under which the Hermetic texts were written. A blend of the Greek Hermes and the Egyptian Thoth, honoured as a teacher in late antiquity and the Renaissance."
+      },
+      {
+        "name": "Zosimos of Panopolis",
+        "dates": "fl. c. 300 CE",
+        "bio": "A Greco-Egyptian alchemist and writer whose visions and technical works survive in fragments."
+      },
+      {
+        "name": "Jabir ibn Hayyan",
+        "dates": "c. 721 to c. 815",
+        "bio": "A name attached to a large Arabic corpus on alchemy. Scholars debate whether one person wrote it and who he was.",
+        "unverified": true
+      },
+      {
+        "name": "Marsilio Ficino",
+        "dates": "1433–1499",
+        "bio": "Florentine philosopher who translated the Hermetica and Plato for Cosimo de’ Medici and shaped Renaissance Platonism."
+      },
+      {
+        "name": "Giovanni Pico della Mirandola",
+        "dates": "1463–1494",
+        "bio": "Italian humanist whose Oration on the Dignity of Man, 1486, drew on the Hermetic praise of the human being."
+      },
+      {
+        "name": "Paracelsus",
+        "dates": "1493 or 1494–1541",
+        "bio": "Swiss physician and alchemist who sought chemical medicines and challenged the authority of ancient writers."
+      },
+      {
+        "name": "John Dee",
+        "dates": "1527–1608 or 1609",
+        "bio": "English mathematician, adviser to Elizabeth I and collector of books, who also pursued alchemy and angelic communication."
+      },
+      {
+        "name": "Giordano Bruno",
+        "dates": "1548–1600",
+        "bio": "Italian philosopher who defended an infinite universe and was burned by the Roman Inquisition in 1600."
+      },
+      {
+        "name": "Isaac Casaubon",
+        "dates": "1559–1614",
+        "bio": "Classical scholar who dated the Hermetica to the early centuries CE."
+      },
+      {
+        "name": "Michael Maier",
+        "dates": "1568–1622",
+        "bio": "German physician and alchemist, author of Atalanta Fugiens."
+      },
+      {
+        "name": "Isaac Newton",
+        "dates": "1643–1727",
+        "bio": "Mathematician and physicist who also wrote and collected a huge amount on alchemy and theology."
+      },
+      {
+        "name": "Frances Yates",
+        "dates": "1899–1981",
+        "bio": "English historian whose book on Bruno and the Hermetic tradition, 1964, made the subject famous and remains debated."
+      }
+    ],
+    "history": [
+      {
+        "when": "c. 3rd century BCE to 2nd century CE",
+        "what": "Hermes and Thoth",
+        "detail": "In Hellenistic Egypt the Greek Hermes and the Egyptian Thoth were identified. Thoth, the god of writing and wisdom, was honoured at Hermopolis, called by the Greeks the city of Hermes."
+      },
+      {
+        "when": "1st to 3rd centuries CE",
+        "what": "The Hermetic writings",
+        "detail": "Greek-speaking authors in Egypt composed the philosophical Hermetica, such as the Poimandres, and the technical Hermetica on astrology, alchemy and magic."
+      },
+      {
+        "when": "c. 300 CE",
+        "what": "Zosimos of Panopolis",
+        "detail": "The alchemist wrote on the preparation of metals and recorded dream-like visions of transformation. He is one of the first named alchemists."
+      },
+      {
+        "when": "3rd to 4th centuries CE",
+        "what": "The Latin Asclepius",
+        "detail": "A Latin translation of a Greek Hermetic dialogue was made, and it reached medieval readers. It includes the praise of the human being and a controversial passage on animating statues."
+      },
+      {
+        "when": "8th to 9th centuries",
+        "what": "Arabic Hermetica",
+        "detail": "In Baghdad and elsewhere translators rendered Greek works into Arabic, and the Emerald Tablet appeared in Arabic alchemical writings."
+      },
+      {
+        "when": "12th century",
+        "what": "Alchemy into Latin",
+        "detail": "Robert of Chester translated an Arabic alchemical work in 1144, one of the first alchemical texts in Latin. The Emerald Tablet entered Latin soon after."
+      },
+      {
+        "when": "1460–1471",
+        "what": "Ficino’s translation",
+        "detail": "A Greek manuscript of the Corpus Hermeticum reached Florence around 1460. Ficino translated it by 1463, and it was printed in 1471."
+      },
+      {
+        "when": "1486",
+        "what": "Pico’s Oration",
+        "detail": "Pico della Mirandola wrote his oration on the dignity of man, which quotes the Asclepius on the great wonder of the human being."
+      },
+      {
+        "when": "1614",
+        "what": "Casaubon’s redating",
+        "detail": "Isaac Casaubon showed from the Greek that the Hermetica were written in the early centuries CE and not in ancient Egypt, undermining the claim of great antiquity."
+      },
+      {
+        "when": "1617–1618",
+        "what": "Atalanta Fugiens",
+        "detail": "Michael Maier published a book of fifty emblems, verses and fugues on alchemy."
+      },
+      {
+        "when": "1888",
+        "what": "The Golden Dawn",
+        "detail": "The Hermetic Order of the Golden Dawn was founded in London. It drew on Hermetic and other sources, and influenced twentieth-century occultism."
+      },
+      {
+        "when": "1908",
+        "what": "The Kybalion",
+        "detail": "A book by \"Three Initiates\", often attributed to William Walker Atkinson, proposed seven Hermetic principles. It is a modern work."
+      },
+      {
+        "when": "1945",
+        "what": "Nag Hammadi",
+        "detail": "Among the codices found in Egypt were three Hermetic treatises in Coptic, showing the texts were read in Egypt itself."
+      },
+      {
+        "when": "1992",
+        "what": "Copenhaver’s translation",
+        "detail": "Brian Copenhaver’s English translation of the Hermetica made the texts accessible to scholars and general readers."
+      }
+    ],
+    "concepts": [
+      {
+        "term": "Nous",
+        "text": "Mind, the divine intellect.",
+        "detail": "In the Hermetica Mind is both a god, the source of the cosmos, and the highest part of a person. Knowing oneself as mind is the doorway to knowing God. It is less about thinking than about awareness."
+      },
+      {
+        "term": "As above, so below",
+        "text": "The same pattern at every level.",
+        "detail": "The line comes from the Emerald Tablet and is often used to summarise Hermetic thought. It suggests that a person, a society and the cosmos mirror each other. Used as a method, it asks you to look for structure that repeats."
+      },
+      {
+        "term": "Gnosis",
+        "text": "Direct knowledge.",
+        "detail": "Hermetic gnosis means knowing the divine and the self, not by inference but by insight. It transforms the knower. Many other late antique movements shared the word."
+      },
+      {
+        "term": "Microcosm and macrocosm",
+        "text": "The person as a small world.",
+        "detail": "Renaissance Hermeticism developed the idea that a human being contains the structure of the whole cosmos. Illustrations show the body mapped onto stars and planets. The symbol was used in medicine, art and philosophy."
+      },
+      {
+        "term": "The Great Work",
+        "text": "The long path of transformation.",
+        "detail": "Alchemists called their work the magnum opus. It involved stages of change in matter, often shown by colours, and the transformation of the practitioner. Later writers read it as a symbol of inner development."
+      },
+      {
+        "term": "Correspondence",
+        "text": "Linked levels of reality.",
+        "detail": "Planets, metals, plants, organs and days of the week were thought to correspond. The system appears in astrology, medicine and magic. Modern readers can treat it as a structured set of symbols, not a set of facts."
+      },
+      {
+        "term": "Rebirth",
+        "text": "The inward birth of the new person.",
+        "detail": "Corpus Hermeticum XIII has Hermes initiate his son Tat into a rebirth, in which vices leave and divine powers enter. It is reached in silence and cannot be taught except by example."
+      },
+      {
+        "term": "Emerald Tablet",
+        "text": "A short, cryptic text on the unity of things.",
+        "detail": "The Tabula Smaragdina first appears in Arabic works of the eighth or ninth centuries and was translated into Latin in the twelfth. Alchemists treated it as a summary of their art. Its language is deliberately obscure."
+      },
+      {
+        "term": "Heimarmene",
+        "text": "Fate, the rule of the planets.",
+        "detail": "Many in late antiquity felt bound by the stars. The Hermetic texts promise freedom from this compulsion through knowledge, as the soul ascends and sheds each planetary vice."
+      },
+      {
+        "term": "The modern principles",
+        "text": "The seven principles of the Kybalion.",
+        "detail": "The 1908 Kybalion proposed seven principles: mentalism, correspondence, vibration, polarity, rhythm, cause and effect, and gender. They reflect early twentieth-century New Thought, not ancient sources, and many popular claims about \"Hermetic law\" trace back to this book."
+      }
+    ],
+    "facts": [
+      {
+        "text": "The phrase \"hermetically sealed\" comes from alchemy: vessels were sealed with the \"seal of Hermes\", an airtight closure."
+      },
+      {
+        "text": "Ficino was told by Cosimo de’ Medici to translate the Hermetica before Plato, because Cosimo was old and eager to read it."
+      },
+      {
+        "text": "Isaac Casaubon redated the Hermetic writings in 1614, based on the Greek and the lack of any Egyptian influence in their language."
+      },
+      {
+        "text": "Atalanta Fugiens, published in 1617, includes fifty musical fugues for three voices alongside its emblems."
+      },
+      {
+        "text": "The Nag Hammadi library, found in 1945, contained Hermetic treatises in Coptic, including a prayer of thanksgiving."
+      },
+      {
+        "text": "Newton’s surviving papers include a very large quantity of writing on alchemy, much of it unpublished in his lifetime."
+      },
+      {
+        "text": "Paracelsus’s line that the dose makes the poison is still quoted in toxicology."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Thoth",
+        "meaning": "The Egyptian god of writing and wisdom, identified with Hermes"
+      },
+      {
+        "term": "Chrysopoeia",
+        "meaning": "The art of making gold, from Greek words for gold and making"
+      },
+      {
+        "term": "Chymistry",
+        "meaning": "The early modern word for chemistry and alchemy together"
+      },
+      {
+        "term": "Esotericism",
+        "meaning": "The study of secret or inner currents of thought"
+      },
+      {
+        "term": "Philosophers’ stone",
+        "meaning": "The legendary substance that could transmute metals and heal"
+      },
+      {
+        "term": "Emblem",
+        "meaning": "A picture, motto and verse combined to make a moral or symbolic point"
+      }
+    ],
+    "furtherReading": [
+      {
+        "title": "The Egyptian Hermes",
+        "creator": "Garth Fowden",
+        "year": "1986",
+        "note": "On the Hermetic writings in their late antique setting."
+      },
+      {
+        "title": "The Secrets of Alchemy",
+        "creator": "Lawrence M. Principe",
+        "year": "2013",
+        "note": "A clear account of real alchemy and chemistry."
+      },
+      {
+        "title": "Alchemy Tried in the Fire",
+        "creator": "William R. Newman and Lawrence M. Principe",
+        "year": "2002",
+        "note": "A study of the seventeenth-century chemist George Starkey."
+      },
+      {
+        "title": "Esotericism and the Academy",
+        "creator": "Wouter J. Hanegraaff",
+        "year": "2012",
+        "note": "On how Western esotericism has been studied and rejected."
+      },
+      {
+        "title": "The Foundations of Newton’s Alchemy",
+        "creator": "Betty Jo Teeter Dobbs",
+        "year": "1975",
+        "note": "On Newton’s alchemical studies."
+      }
+    ],
+    "learnFrom": [
+      {
+        "name": "The Warburg Institute, London",
+        "note": "A research library and institute for the study of cultural transmission, with strong holdings on the Hermetic tradition."
+      },
+      {
+        "name": "The Embassy of the Free Mind, Amsterdam",
+        "note": "A museum and library holding the Bibliotheca Philosophica Hermetica, a major collection of Hermetic books."
+      },
+      {
+        "name": "The Science History Institute, Philadelphia",
+        "note": "A library and museum with collections on alchemy and the history of chemistry."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Hermetica",
+        "creator": "Brian P. Copenhaver",
+        "publisher": "Cambridge University Press",
+        "year": "1992"
+      },
+      {
+        "title": "The Egyptian Hermes",
+        "creator": "Garth Fowden",
+        "publisher": "Cambridge University Press",
+        "year": "1986"
+      },
+      {
+        "title": "The Secrets of Alchemy",
+        "creator": "Lawrence M. Principe",
+        "publisher": "University of Chicago Press",
+        "year": "2013"
+      },
+      {
+        "title": "Giordano Bruno and the Hermetic Tradition",
+        "creator": "Frances A. Yates",
+        "publisher": "Routledge and Kegan Paul",
+        "year": "1964"
+      },
+      {
+        "title": "Esotericism and the Academy",
+        "creator": "Wouter J. Hanegraaff",
+        "publisher": "Cambridge University Press",
+        "year": "2012"
+      },
+      {
+        "title": "The Foundations of Newton’s Alchemy",
+        "creator": "Betty Jo Teeter Dobbs",
+        "publisher": "Cambridge University Press",
+        "year": "1975"
+      }
+    ]
+  },
+  "sensitivity": {
+    "note": "Hermeticism includes ancient philosophy, Renaissance learning, historical alchemy and modern esoteric movements. This Onda draws on the first two and treats alchemy as symbol and history. It offers habits of attention and does not ask you to practise ritual magic or handle chemicals.",
+    "requiredCaveats": [
+      "Do not try to make or ingest any alchemical preparations. Many historical materials, such as mercury and arsenic compounds, are poisonous.",
+      "The Hermetica were written in the early centuries CE and not in ancient Egypt. The Kybalion and its seven principles are a modern text from 1908.",
+      "Astrological and planetary language here is symbolic and historical. It does not predict anything about your life, and nothing here is medical or financial advice."
+    ],
+    "reviewRequired": false
+  }
+}

@@ -1,0 +1,1215 @@
+{
+  "version": 1,
+  "id": "soviet",
+  "name": "Soviet Union",
+  "origin": "Russia and the Soviet republics",
+  "era": "1917 to 1991",
+  "tone": "coral",
+  "icon": "star",
+  "font": "oswald",
+  "pattern": "constructivist-stripes",
+  "glyph": "МИР",
+  "line": "Live the shared task, the kitchen table and the long reading.",
+  "quote": {
+    "text": "The Earth is the cradle of humanity, but one cannot live in the cradle forever.",
+    "by": "Konstantin Tsiolkovsky",
+    "source": "Letter to B. N. Vorobyov, 1911"
+  },
+  "quotes": [
+    {
+      "text": "Manuscripts don’t burn.",
+      "by": "Mikhail Bulgakov",
+      "source": "The Master and Margarita, written 1928 to 1940"
+    },
+    {
+      "text": "The line dividing good and evil cuts through the heart of every human being. And who is willing to destroy a piece of his own heart?",
+      "by": "Aleksandr Solzhenitsyn",
+      "source": "The Gulag Archipelago, vol. 1, part 1, ch. 4, trans. Thomas P. Whitney"
+    },
+    {
+      "text": "I was with my people then, there, where my people, unfortunately, were.",
+      "by": "Anna Akhmatova",
+      "source": "Requiem, epigraph, 1961; literal translation"
+    },
+    {
+      "text": "Poyekhali.",
+      "by": "Yuri Gagarin",
+      "source": "Said at launch, 12 April 1961; usually rendered \"Off we go\" or \"Let’s go\""
+    },
+    {
+      "text": "Poetry is respected only in this country: people are killed for it.",
+      "by": "Osip Mandelstam",
+      "source": "As recalled by Nadezhda Mandelstam in Hope Against Hope",
+      "unverified": true
+    }
+  ],
+  "words": [
+    {
+      "id": "word-tovarishch",
+      "term": "Tovarishch",
+      "meaning": "Comrade; companion",
+      "pronunciation": "tah-VAH-reesh",
+      "language": "Russian",
+      "usage": "Before 1917 it meant a companion or colleague. The Soviet state made it the form of address between citizens."
+    },
+    {
+      "id": "word-kollektiv",
+      "term": "Kollektiv",
+      "meaning": "A work team or group that shares a task",
+      "pronunciation": "kah-lek-TEEF",
+      "language": "Russian",
+      "usage": "The workplace, the class and the street team were all kollektivy, each with its own pressures and loyalties."
+    },
+    {
+      "id": "word-dacha",
+      "term": "Dacha",
+      "meaning": "A country house or garden plot",
+      "pronunciation": "DAH-chah",
+      "language": "Russian",
+      "usage": "Allotments of about six hundred square metres let millions of city families grow vegetables and spend summers outside."
+    },
+    {
+      "id": "word-subbotnik",
+      "term": "Subbotnik",
+      "meaning": "Unpaid voluntary work on a Saturday",
+      "pronunciation": "soo-BOT-neek",
+      "language": "Russian",
+      "usage": "It began in 1919 as a call to work for free on a Saturday. Later it was often expected rather than chosen."
+    },
+    {
+      "id": "word-zaryadka",
+      "term": "Zaryadka",
+      "meaning": "Morning exercise; literally \"charging\"",
+      "pronunciation": "zah-RYAHD-kah",
+      "language": "Russian",
+      "usage": "A short routine of stretching and movement to charge the body for the day."
+    },
+    {
+      "id": "word-kommunalka",
+      "term": "Kommunalka",
+      "meaning": "A communal apartment shared by several families",
+      "pronunciation": "kah-moo-NAHL-kah",
+      "language": "Russian",
+      "usage": "After 1917 large flats were divided among families who shared one kitchen and one bathroom."
+    },
+    {
+      "id": "word-samizdat",
+      "term": "Samizdat",
+      "meaning": "Self-published; banned writing copied by hand or typewriter",
+      "pronunciation": "sah-meez-DAHT",
+      "language": "Russian",
+      "usage": "Readers passed typed copies from hand to hand and often had to return them within a night."
+    },
+    {
+      "id": "word-kukhnya",
+      "term": "Kukhnya",
+      "meaning": "Kitchen",
+      "pronunciation": "KOOKH-nyah",
+      "language": "Russian",
+      "usage": "In late Soviet flats the kitchen was the room for talk, tea and frankness."
+    },
+    {
+      "id": "word-intelligentsiya",
+      "term": "Intelligentsiya",
+      "meaning": "The educated class of writers, teachers, scientists and thinkers",
+      "pronunciation": "in-tel-LEE-gent-see-yah",
+      "language": "Russian",
+      "usage": "A word with a heavy history: a social duty as much as a social group."
+    },
+    {
+      "id": "word-dusha",
+      "term": "Dusha",
+      "meaning": "Soul; inner life; warmth",
+      "pronunciation": "DOO-shah",
+      "language": "Russian",
+      "usage": "Used for the whole inner person. To speak \"po dusham\" is to talk heart to heart."
+    },
+    {
+      "id": "word-toska",
+      "term": "Toska",
+      "meaning": "A deep, restless sadness without a clear cause",
+      "pronunciation": "tahs-KAH",
+      "language": "Russian",
+      "usage": "Nabokov wrote that no single English word renders all its shades."
+    },
+    {
+      "id": "word-chai",
+      "term": "Chai",
+      "meaning": "Tea",
+      "pronunciation": "chai",
+      "language": "Russian",
+      "usage": "Served strong from a pot, diluted with hot water, often with jam or a sugar cube."
+    },
+    {
+      "id": "word-samovar",
+      "term": "Samovar",
+      "meaning": "A metal urn that keeps water hot for tea",
+      "pronunciation": "sah-mah-VAHR",
+      "language": "Russian",
+      "usage": "Literally \"self-boiler\". The centre of a table where people stay a long time."
+    },
+    {
+      "id": "word-blat",
+      "term": "Blat",
+      "meaning": "Informal connections used to get things done",
+      "pronunciation": "blaht",
+      "language": "Russian",
+      "usage": "A favour for a favour. In a shortage economy, who you knew mattered as much as what you earned."
+    },
+    {
+      "id": "word-defitsit",
+      "term": "Defitsit",
+      "meaning": "Shortage; goods that were hard to obtain",
+      "pronunciation": "deh-fee-TSEET",
+      "language": "Russian",
+      "usage": "Anything scarce, from books to boots, was \"defitsit\" and prized."
+    },
+    {
+      "id": "word-ochered",
+      "term": "Ochered",
+      "meaning": "Queue",
+      "pronunciation": "OH-cheh-ret",
+      "language": "Russian",
+      "usage": "Waiting in line was part of daily life, and a place to trade news."
+    },
+    {
+      "id": "word-pioner",
+      "term": "Pioner",
+      "meaning": "A member of the Young Pioneers, the children’s organisation",
+      "pronunciation": "pee-ah-NYAIR",
+      "language": "Russian",
+      "usage": "Founded in 1922. Summer camps, red neckerchiefs and collective activities."
+    },
+    {
+      "id": "word-stakhanovets",
+      "term": "Stakhanovets",
+      "meaning": "An exceptionally productive worker; a record-breaker",
+      "pronunciation": "stah-KHAH-nuh-vets",
+      "language": "Russian",
+      "usage": "Named for the miner Aleksei Stakhanov, whose 1935 record was heavily staged for publicity."
+    },
+    {
+      "id": "word-pyatiletka",
+      "term": "Pyatiletka",
+      "meaning": "Five-year plan",
+      "pronunciation": "pyah-tee-LET-kah",
+      "language": "Russian",
+      "usage": "The state’s way of setting production targets. The first began in 1928."
+    },
+    {
+      "id": "word-sputnik",
+      "term": "Sputnik",
+      "meaning": "Fellow traveller; also the first artificial satellite",
+      "pronunciation": "SPOOT-neek",
+      "language": "Russian",
+      "usage": "The word means \"one who travels with\" and passed into English in 1957."
+    },
+    {
+      "id": "word-kosmonavt",
+      "term": "Kosmonavt",
+      "meaning": "Cosmonaut; a space traveller",
+      "pronunciation": "kuz-mah-NAHFT",
+      "language": "Russian",
+      "usage": "Soviet spacefarers were a national romance of the 1960s."
+    },
+    {
+      "id": "word-perestroika",
+      "term": "Perestroika",
+      "meaning": "Restructuring",
+      "pronunciation": "peh-reh-STROY-kah",
+      "language": "Russian",
+      "usage": "The reform programme announced by Mikhail Gorbachev from 1985."
+    },
+    {
+      "id": "word-glasnost",
+      "term": "Glasnost",
+      "meaning": "Openness; speaking out",
+      "pronunciation": "GLAHS-nust",
+      "language": "Russian",
+      "usage": "Policy of public candour from the mid 1980s that allowed long-banned books and histories into print."
+    },
+    {
+      "id": "word-ottepel",
+      "term": "Ottepel",
+      "meaning": "The Thaw",
+      "pronunciation": "AHT-teh-pyel",
+      "language": "Russian",
+      "usage": "The relaxation after Stalin’s death. Named after a 1954 novel by Ilya Ehrenburg."
+    },
+    {
+      "id": "word-zastoy",
+      "term": "Zastoy",
+      "meaning": "Stagnation",
+      "pronunciation": "zah-STOY",
+      "language": "Russian",
+      "usage": "The name later given to the Brezhnev years, a period of calm and decay."
+    },
+    {
+      "id": "word-shestidesyatniki",
+      "term": "Shestidesyatniki",
+      "meaning": "People of the sixties; the generation of the Thaw",
+      "pronunciation": "shes-tee-dess-YAHT-nee-kee",
+      "language": "Russian",
+      "usage": "Poets, filmmakers and scientists who believed reform from within was possible."
+    },
+    {
+      "id": "word-babushka",
+      "term": "Babushka",
+      "meaning": "Grandmother; an older woman",
+      "pronunciation": "BAH-boosh-kah",
+      "language": "Russian",
+      "usage": "The keeper of family food and memory."
+    },
+    {
+      "id": "word-avos",
+      "term": "Avos’",
+      "meaning": "Perhaps; hoping it works out",
+      "pronunciation": "ah-VOHSS",
+      "language": "Russian",
+      "usage": "A habit of trusting luck. A shrug that is half fatalism, half resourcefulness."
+    },
+    {
+      "id": "word-rodina",
+      "term": "Rodina",
+      "meaning": "Homeland",
+      "pronunciation": "RO-dee-nah",
+      "language": "Russian",
+      "usage": "Rooted in the word for birth and kin. Heavy with feeling and often with state use."
+    },
+    {
+      "id": "word-mir",
+      "term": "Mir",
+      "meaning": "Peace; world; also the old village commune",
+      "pronunciation": "meer",
+      "language": "Russian",
+      "usage": "Before the spelling reform of 1918, peace and world were written differently. The reform merged them into one short word."
+    },
+    {
+      "id": "word-kvas",
+      "term": "Kvas",
+      "meaning": "A mildly fermented drink made from rye bread",
+      "pronunciation": "kvahss",
+      "language": "Russian",
+      "usage": "Sold in summer from yellow tanks on city streets."
+    },
+    {
+      "id": "word-poyekhali",
+      "term": "Poyekhali",
+      "meaning": "Let’s go; off we go",
+      "pronunciation": "pah-YEH-khah-lee",
+      "language": "Russian",
+      "usage": "Gagarin’s word at the launch of Vostok 1 on 12 April 1961."
+    }
+  ],
+  "practices": [
+    {
+      "id": "zaryadka",
+      "name": "Zaryadka",
+      "icon": "person-simple-run",
+      "slot": "Morning",
+      "time": "07:00",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Stand by an open window or outside. Spend ten minutes on a plain routine of stretching, bending and moving every joint, with no equipment: neck circles, arm swings, side bends, squats, a short jog on the spot. Breathe through the nose. End by standing still for a count of ten and noticing how the body feels. Do it at the same time each day, as if a voice on the radio were counting for you.",
+      "why": "For generations, morning exercise was a shared daily habit broadcast on radio and later television. The idea is modest and sturdy: the day begins by charging the body together with others, even when you do it alone.",
+      "variations": [
+        "Do it to a recording of a march or a waltz.",
+        "Do it with a neighbour or family member.",
+        "Take a ten-minute walk instead, no phone."
+      ]
+    },
+    {
+      "id": "kitchen-table",
+      "name": "Kitchen table",
+      "icon": "coffee",
+      "slot": "Evening",
+      "time": "20:00",
+      "minutes": 40,
+      "meta": "Evening · 40 min",
+      "instructions": "Pick one person and one pot of tea. Sit at a table with phones out of sight. Talk for at least forty minutes about something that matters to you both: a book, a worry, a plan, a memory. Ask the second question before offering your own view. Do not solve the world. If you live alone, write a long letter by hand and send it the next day.",
+      "why": "In the late Soviet decades the kitchen was where people spoke freely, away from official language. It shows what conversation can be when time and trust are given to it.",
+      "variations": [
+        "Invite someone you have not spoken with at length in a year.",
+        "Add one question you have never asked this person.",
+        "Keep a short list of what you learned."
+      ]
+    },
+    {
+      "id": "common-task",
+      "name": "The common task",
+      "icon": "broom",
+      "slot": "Afternoon",
+      "time": "15:00",
+      "minutes": 30,
+      "meta": "Afternoon · 30 min",
+      "instructions": "Choose one shared place: a stairwell, a courtyard, a classroom, a park bench, a shared kitchen. Spend thirty unpaid minutes making it better with your hands: sweep, wipe, sort, repair, plant. Do it where others will use it, and do not announce it. Notice what it is to work for something no one owns alone.",
+      "why": "The subbotnik began in 1919 as a voluntary Saturday of unpaid work and was later made routine. The better half of the idea survives the politics: shared places stay good when someone takes care of them.",
+      "variations": [
+        "Do it with a friend or a neighbour.",
+        "Do it for a place that belongs to no one in particular, such as a street corner.",
+        "Spend the thirty minutes on a repair you have put off."
+      ]
+    },
+    {
+      "id": "long-reading",
+      "name": "The long reading",
+      "icon": "book-open",
+      "slot": "Evening",
+      "time": "21:00",
+      "minutes": 30,
+      "meta": "Evening · 30 min",
+      "instructions": "Read one book from the Soviet or Russian tradition, a few pages at a time, for thirty minutes with no screen nearby. Read slowly, with a pencil. Stop on one sentence and copy it by hand into a notebook. If the book is long, treat it like a companion rather than a task. Resist the urge to summarise it aloud on the same day.",
+      "why": "Reading was central to Soviet life, partly because some writing could only be read in secret. Read slowly, a book becomes more than information. It becomes a presence in the room.",
+      "variations": [
+        "Read aloud to someone for ten of the thirty minutes.",
+        "Copy one page of a poem by hand.",
+        "Return to the same chapter three evenings in a row."
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": "play-a-game-of-chess",
+      "name": "Play a game of chess",
+      "meta": "Or study one famous game",
+      "time": "17:00",
+      "slot": "Afternoon"
+    },
+    {
+      "id": "write-down-one-thing-you-will-not-say-in-public-and-one-you-will",
+      "name": "Write down one thing you will not say in public and one you will",
+      "meta": "A short private note",
+      "time": "19:00",
+      "slot": "Evening"
+    },
+    {
+      "id": "cook-a-pot-of-soup-for-more-than-one",
+      "name": "Cook a pot of soup for more than one",
+      "meta": "Borscht, shchi or lentil",
+      "time": "18:00",
+      "slot": "Evening"
+    }
+  ],
+  "rules": [
+    {
+      "id": "r1",
+      "text": "Put the shared thing before the private thing once a day",
+      "why": "The Soviet ideal was collective. Leave the politics aside and keep the habit: one act each day for people other than yourself."
+    },
+    {
+      "id": "r2",
+      "text": "Keep the phone out of the room for the long talk",
+      "why": "The kitchen talk worked because nothing interrupted it. Give a conversation your whole attention."
+    },
+    {
+      "id": "r3",
+      "text": "Read what is difficult before what is easy",
+      "why": "Hard books were rationed, copied and treasured. Honour the effort that readers once made for them."
+    },
+    {
+      "id": "r4",
+      "text": "Say plainly what you mean",
+      "why": "A century of official language made plain speech precious. Practise saying one thing without euphemism."
+    },
+    {
+      "id": "r5",
+      "text": "Keep a record: write in a notebook before the day ends",
+      "why": "Diaries, letters and secret notebooks are why we know what ordinary life felt like."
+    },
+    {
+      "id": "r6",
+      "text": "Remember who paid",
+      "why": "Hold the culture and the cost together. Do not admire the poems and forget the camps, or the reverse."
+    }
+  ],
+  "immerse": {
+    "read": [
+      {
+        "id": "read-the-master-and-margarita",
+        "title": "The Master and Margarita",
+        "creator": "Mikhail Bulgakov",
+        "year": "written 1928–1940; first published 1966–1967",
+        "why": "A devil visits Moscow in the 1930s. A satire, a love story and a retelling of Pilate’s story in one."
+      },
+      {
+        "id": "read-one-day-in-the-life-of-ivan-denisovich",
+        "title": "One Day in the Life of Ivan Denisovich",
+        "creator": "Aleksandr Solzhenitsyn",
+        "year": "1962",
+        "why": "A single day in a labour camp. Its publication in the Thaw was a national event."
+      },
+      {
+        "id": "read-life-and-fate",
+        "title": "Life and Fate",
+        "creator": "Vasily Grossman",
+        "year": "written 1960; first published 1980",
+        "why": "A vast novel of Stalingrad and the Soviet century. The KGB seized the manuscript in 1961."
+      },
+      {
+        "id": "read-requiem",
+        "title": "Requiem",
+        "creator": "Anna Akhmatova",
+        "year": "written 1935–1940",
+        "why": "A cycle of poems about waiting outside a prison for news of her son. Memorised by friends because it could not be written down."
+      },
+      {
+        "id": "read-we",
+        "title": "We",
+        "creator": "Yevgeny Zamyatin",
+        "year": "written 1920–1921; first English edition 1924",
+        "why": "The first great dystopian novel, written in Soviet Russia. Orwell read it."
+      },
+      {
+        "id": "read-roadside-picnic",
+        "title": "Roadside Picnic",
+        "creator": "Arkady and Boris Strugatsky",
+        "year": "written 1971",
+        "why": "Science fiction about a zone left by visitors. The source for Tarkovsky’s Stalker."
+      },
+      {
+        "id": "read-secondhand-time",
+        "title": "Secondhand Time",
+        "creator": "Svetlana Alexievich",
+        "year": "2013; English translation 2016",
+        "why": "Voices of ordinary people after the collapse, collected over decades."
+      },
+      {
+        "id": "read-everything-was-forever-until-it-was-no-more",
+        "title": "Everything Was Forever, Until It Was No More",
+        "creator": "Alexei Yurchak",
+        "year": "2005",
+        "why": "An anthropologist explains how late Soviet life worked and why its end surprised almost everyone."
+      },
+      {
+        "id": "read-gulag-a-history",
+        "title": "Gulag: A History",
+        "creator": "Anne Applebaum",
+        "year": "2003",
+        "why": "The standard history of the camp system. Hard reading that the subject deserves."
+      }
+    ],
+    "watch": [
+      {
+        "id": "watch-battleship-potemkin",
+        "title": "Battleship Potemkin",
+        "creator": "Sergei Eisenstein",
+        "year": "1925",
+        "why": "The masterwork of montage, with the Odessa steps sequence."
+      },
+      {
+        "id": "watch-the-cranes-are-flying",
+        "title": "The Cranes Are Flying",
+        "creator": "Mikhail Kalatozov",
+        "year": "1957",
+        "why": "A wartime love story, and the only Soviet film to win the Palme d’Or at Cannes, in 1958."
+      },
+      {
+        "id": "watch-solaris",
+        "title": "Solaris",
+        "creator": "Andrei Tarkovsky",
+        "year": "1972",
+        "why": "A psychologist is sent to a station orbiting an ocean planet. Slow, questioning, unforgettable."
+      },
+      {
+        "id": "watch-moscow-does-not-believe-in-tears",
+        "title": "Moscow Does Not Believe in Tears",
+        "creator": "Vladimir Menshov",
+        "year": "1980",
+        "why": "Three women in Moscow across twenty years. It won the Academy Award for Best Foreign Language Film."
+      },
+      {
+        "id": "watch-man-with-a-movie-camera",
+        "title": "Man with a Movie Camera",
+        "creator": "Dziga Vertov",
+        "year": "1929",
+        "why": "A day of city life without actors or titles, and a landmark of editing."
+      },
+      {
+        "id": "watch-come-and-see",
+        "title": "Come and See",
+        "creator": "Elem Klimov",
+        "year": "1985",
+        "why": "A boy in Belarus in 1943. One of the most harrowing war films ever made. Watch only when ready."
+      }
+    ],
+    "listen": [
+      {
+        "id": "listen-symphony-no-5",
+        "title": "Symphony No. 5",
+        "creator": "Dmitri Shostakovich",
+        "year": "1937",
+        "why": "Premiered in Leningrad after a year of danger for the composer. Its meaning is still argued."
+      },
+      {
+        "id": "listen-string-quartet-no-8",
+        "title": "String Quartet No. 8",
+        "creator": "Dmitri Shostakovich",
+        "year": "1960",
+        "why": "Written in three days and dedicated to the victims of war and fascism. A deeply personal piece."
+      },
+      {
+        "id": "listen-peter-and-the-wolf",
+        "title": "Peter and the Wolf",
+        "creator": "Sergei Prokofiev",
+        "year": "1936",
+        "why": "Written for children’s theatre in Moscow. Each character is an instrument."
+      },
+      {
+        "id": "listen-songs-of-bulat-okudzhava",
+        "title": "Songs of Bulat Okudzhava",
+        "creator": "Bulat Okudzhava",
+        "year": "1960s onward",
+        "why": "A poet with a guitar and a quiet voice who shaped the bard tradition."
+      },
+      {
+        "id": "listen-gruppa-krovi",
+        "title": "Gruppa krovi",
+        "creator": "Kino, led by Viktor Tsoi",
+        "year": "1988",
+        "why": "The best-known album of Leningrad rock at the very end of the Soviet era."
+      },
+      {
+        "id": "listen-time-forward",
+        "title": "Time, Forward",
+        "creator": "Georgy Sviridov",
+        "year": "1965",
+        "why": "The driving theme later used for the evening television news. Instantly recognisable to anyone who grew up there."
+      }
+    ],
+    "art": [
+      {
+        "id": "art-black-square",
+        "title": "Black Square",
+        "creator": "Kazimir Malevich",
+        "year": "1915",
+        "why": "A black square on white that opened a new direction in painting. Held in the Tretyakov Gallery."
+      },
+      {
+        "id": "art-beat-the-whites-with-the-red-wedge",
+        "title": "Beat the Whites with the Red Wedge",
+        "creator": "El Lissitzky",
+        "year": "1919",
+        "why": "A poster of pure shapes from the Civil War, and a landmark of graphic design."
+      },
+      {
+        "id": "art-worker-and-kolkhoz-woman",
+        "title": "Worker and Kolkhoz Woman",
+        "creator": "Vera Mukhina",
+        "year": "1937",
+        "why": "A huge stainless steel sculpture first shown at the Paris World’s Fair, now at VDNKh in Moscow."
+      },
+      {
+        "id": "art-the-moscow-metro-stations",
+        "title": "The Moscow Metro stations",
+        "creator": "Various architects",
+        "year": "1935 onward",
+        "why": "Stations built as underground palaces. Mayakovskaya, opened in 1938, is a favourite."
+      },
+      {
+        "id": "art-books",
+        "title": "Books",
+        "creator": "Aleksandr Rodchenko",
+        "year": "1924",
+        "why": "A poster advertising publishers, with a shouting woman and a famous slogan. A pioneer of photomontage."
+      }
+    ],
+    "eat": [
+      {
+        "id": "eat-borscht",
+        "title": "Borscht",
+        "creator": "Beetroot soup, with sour cream",
+        "why": "A staple from Ukraine across the whole Soviet table. Many families have a different recipe."
+      },
+      {
+        "id": "eat-pelmeni",
+        "title": "Pelmeni",
+        "creator": "Small dumplings, with butter or vinegar",
+        "why": "Made in bulk by families and frozen for winter."
+      },
+      {
+        "id": "eat-blini",
+        "title": "Blini",
+        "creator": "Thin pancakes",
+        "why": "Eaten with jam, sour cream or caviar. The food of Maslenitsa week before Lent."
+      },
+      {
+        "id": "eat-kasha",
+        "title": "Kasha",
+        "creator": "Buckwheat porridge",
+        "why": "A plain staple that fed millions. Cooked with butter and eaten for breakfast or supper."
+      },
+      {
+        "id": "eat-olivier-salad",
+        "title": "Olivier salad",
+        "creator": "Potato, egg, pickle, peas",
+        "why": "The salad of New Year’s Eve across the Soviet Union."
+      },
+      {
+        "id": "eat-black-rye-bread-with-salt",
+        "title": "Black rye bread with salt",
+        "creator": "A slice, plain",
+        "why": "The most ordinary food in the culture and the most prized."
+      }
+    ],
+    "drink": [
+      {
+        "id": "drink-tea-from-a-samovar-or-a-pot",
+        "title": "Tea from a samovar or a pot",
+        "creator": "Strong, with jam",
+        "why": "The drink that makes a long conversation possible."
+      },
+      {
+        "id": "drink-kvas",
+        "title": "Kvas",
+        "creator": "A fermented bread drink",
+        "why": "Lightly sour and low in alcohol. A summer street drink of the era."
+      },
+      {
+        "id": "drink-kefir",
+        "title": "Kefir",
+        "creator": "Cultured milk",
+        "why": "A sour drink for breakfast, common across Russia and the Caucasus."
+      }
+    ],
+    "customs": [
+      {
+        "id": "customs-sit-before-a-journey",
+        "title": "Sit before a journey",
+        "creator": "A moment of quiet before leaving",
+        "why": "An old Russian custom: sit for a minute before setting out so nothing is forgotten and the road goes well."
+      },
+      {
+        "id": "customs-take-your-shoes-off-at-the-door",
+        "title": "Take your shoes off at the door",
+        "creator": "Slippers for guests",
+        "why": "Households keep tapochki, house slippers, ready for visitors."
+      },
+      {
+        "id": "customs-bring-something-small-when-invited",
+        "title": "Bring something small when invited",
+        "creator": "Flowers, in an odd number",
+        "why": "An odd number of flowers is for the living. Even numbers are for funerals."
+      },
+      {
+        "id": "customs-quiet-hunting",
+        "title": "Quiet hunting",
+        "creator": "Go and pick mushrooms",
+        "why": "The Russian phrase \"tikhaya okhota\" for a patient search in the forest."
+      },
+      {
+        "id": "customs-visit-the-banya",
+        "title": "Visit the banya",
+        "creator": "A hot steam bath with friends",
+        "why": "A weekly ritual of heat, birch twigs and tea, shared with friends."
+      }
+    ]
+  },
+  "ethics": [
+    {
+      "title": "The common task",
+      "text": "The philosopher Nikolai Fyodorov argued that the highest duty of living people is a shared task of care for one another and for the dead. Soviet language borrowed the idea of a shared task and applied it to the state.",
+      "practice": "Name one task today that you cannot do alone and ask someone to help."
+    },
+    {
+      "title": "Truth over comfort",
+      "text": "Solzhenitsyn, Akhmatova and Grossman each chose to write the truth when it cost them dearly. Their example is a claim about honesty, not politics.",
+      "practice": "Say one true thing you would have preferred to leave unsaid, with kindness."
+    },
+    {
+      "title": "Remember the victims",
+      "text": "Millions died in repression, famine and war. A culture that remembers its poems and forgets its dead has forgotten something essential.",
+      "practice": "Read one name or one account from the camps or the terror, and sit with it for a minute."
+    },
+    {
+      "title": "Mutual help",
+      "text": "Under shortage, people relied on favours, shared goods and informal networks. Blat could be unfair, but the habit of help was real and often kind.",
+      "practice": "Do one favour today for which you ask nothing in return."
+    },
+    {
+      "title": "Dignity in small things",
+      "text": "In crowded flats and long queues people kept manners, clean clothes and a set table. Dignity was made out of ordinary materials.",
+      "practice": "Set the table properly for one meal, even alone."
+    },
+    {
+      "title": "Private and public",
+      "text": "Many people kept two faces: one for the workplace and one for the kitchen. The cost was exhaustion. The gift was an inner life that no one could reach.",
+      "practice": "Notice where you perform and where you are plain. Make one small step toward plainness."
+    }
+  ],
+  "philosophy": [
+    {
+      "title": "Dialectical materialism",
+      "text": "Marx and Engels held that the world is matter in motion and that change comes through contradiction. The Soviet state made this an official doctrine and taught it in every school. Beyond politics it offers a habit: look for the tension inside a situation and ask how it might resolve.",
+      "practice": "Name a tension in your life and write down both sides before choosing."
+    },
+    {
+      "title": "The new person",
+      "text": "The state set out to create a new kind of human being: collective, educated, selfless. Many people sincerely tried, and many were crushed by the demand. It is worth asking what we expect from people and what it costs them.",
+      "practice": "Write down one expectation you place on yourself that you did not choose."
+    },
+    {
+      "title": "Cosmism",
+      "text": "Nikolai Fyodorov and then Konstantin Tsiolkovsky imagined humanity growing beyond the Earth and, for Fyodorov, even overcoming death. The Soviet space age grew in that soil. It is ambitious, strange and moving.",
+      "practice": "Look at the night sky for five minutes and ask what a long future would ask of us."
+    },
+    {
+      "title": "Socialist realism",
+      "text": "In 1934 the First Congress of Soviet Writers made socialist realism the official style: art should show life in its revolutionary development and serve the people. Great artists worked inside and around it. The question remains: does art serve, or does it tell the truth first?",
+      "practice": "Look at a work of art and ask what it is for."
+    },
+    {
+      "title": "Samizdat and conscience",
+      "text": "People typed and passed on banned books at personal risk. They did it because a book that is true does not stay quiet. It is a reminder that reading is an act with consequences.",
+      "practice": "Copy by hand one page that you would not want to lose."
+    },
+    {
+      "title": "Social learning",
+      "text": "The psychologist Lev Vygotsky argued that thinking is first shared between people and only later happens inside the head. Children learn by working at the edge of what they can do, with help. The idea has shaped teaching worldwide.",
+      "practice": "Teach something to someone today, or ask someone to teach you."
+    },
+    {
+      "title": "Everyday absurdity",
+      "text": "Yurchak describes a late Soviet habit of repeating official words while living by other rules. People were neither believers nor dissidents, but inventors of private meaning. Many of us do the same with our own institutions.",
+      "practice": "Notice one phrase you repeat without meaning it, and consider replacing it."
+    },
+    {
+      "title": "Hope against hope",
+      "text": "Nadezhda Mandelstam memorised her husband’s banned poems for decades so that they would not be lost. Her title is a way of saying that meaning survives when people decide to carry it.",
+      "practice": "Learn four lines of a poem by heart."
+    },
+    {
+      "title": "Scientific faith",
+      "text": "The Soviet state was devoted to science and technology and also bent them to ideology. Great science happened and so did great harm. Both belong in the picture.",
+      "practice": "Ask of one thing you believe: what would change my mind?"
+    },
+    {
+      "title": "Memory as duty",
+      "text": "After 1991, civil society groups collected the names and stories of the repressed so that the facts could not be erased. Memory is a form of work, not only a feeling.",
+      "practice": "Write down one story from your family’s past before it is lost."
+    }
+  ],
+  "journal": [
+    "What did you do today for something that is not yours alone?",
+    "Who did you talk with at length, and what did you learn?",
+    "What did you read slowly today?",
+    "What did you say today that was entirely true?",
+    "Where did you wait, and what did the waiting give you?",
+    "What small comfort made your day more bearable?",
+    "What did you want to say and keep back? Why?",
+    "What did you share today that you might have kept?",
+    "Where did you feel part of a group, and where did you feel apart from one?",
+    "Which expectation weighed on you today?",
+    "What did you make with your hands?",
+    "What would you copy out and keep from today?",
+    "Whom did you thank, and how?",
+    "Where did you see ingenuity in a small difficulty?",
+    "What did you learn from someone older than you?",
+    "What do you owe to people you will never meet?",
+    "What did you remember today that you were told to forget?",
+    "What was the best sentence you read?",
+    "Where did you notice your public face differ from your private one?",
+    "What did you plan, and how far did it go?",
+    "What did you do for the body today?",
+    "What did you leave out of an account to make it easier?",
+    "What has this Onda made you question?",
+    "What did you do that took patience?",
+    "What is a belief you hold that you inherited without choosing?",
+    "Whom did you help without being asked?",
+    "What was the weather and how did it shape your mood?",
+    "What would you want a stranger a hundred years from now to know about this day?",
+    "What did you let go of?",
+    "What will you keep from these days?"
+  ],
+  "reflect": [
+    "What did the shared tasks of these days teach you about work for others?",
+    "Which book, film or piece of music has stayed with you, and why?",
+    "Where did you feel the pull between public and private, and how did you handle it?",
+    "How did you hold the culture and the cost together?",
+    "Which practice would you keep, and which would you drop?",
+    "What do you want to learn more about, and from whom?"
+  ],
+  "dayThemes": [
+    "The morning exercise",
+    "The common task",
+    "A kitchen at midnight",
+    "The queue",
+    "The long winter",
+    "Tea and a story",
+    "The reading room",
+    "Earth, the cradle",
+    "The chessboard",
+    "What was permitted",
+    "What was whispered",
+    "The typewriter and carbon paper",
+    "The communal flat",
+    "The garden plot",
+    "The metro at rush hour",
+    "The cinema of montage",
+    "A winter symphony",
+    "Keeping a manuscript",
+    "The Thaw",
+    "The poet’s memory",
+    "The space age",
+    "New Year’s Eve",
+    "Duty and doubt",
+    "Two faces",
+    "The line through the heart",
+    "Making do",
+    "Mutual help",
+    "The steam bath",
+    "The last days of a country",
+    "What remains"
+  ],
+  "guide": {
+    "origin": "The Soviet Union, from Russia across Ukraine, Belarus, the Caucasus, Central Asia and the Baltic states",
+    "era": "1917 to 1991",
+    "intro": [
+      "The Soviet Union was a one-party state that existed from 1922 to 1991 and covered one sixth of the Earth’s land. It grew out of the Russian Revolution of 1917 and set out to build a society without private ownership of the means of production, guided by the ideas of Karl Marx and Vladimir Lenin. It reached the first artificial satellite and the first person in space. It also ran a vast system of forced labour camps, caused famine through collectivisation, and executed or imprisoned millions of its own people.",
+      "This Onda does not ask you to admire or condemn a regime. It asks you to enter the daily world of people who lived inside it. They were many nations, not one: Russians, Ukrainians, Georgians, Armenians, Kazakhs, Estonians, Jews, Tatars and dozens more, whose experiences differed sharply. Many of them cared for children, read poems, argued over tea, grew potatoes at a dacha and tried to be decent in difficult circumstances.",
+      "Three threads run through the fortnight. The first is the shared task: the idea, noble in origin and abused in practice, that people owe one another work and care. The second is the kitchen table: the late Soviet habit of talking at length with a few trusted people, away from official language. The third is the long reading: the discipline of reading hard books, sometimes in secret, sometimes copied by hand.",
+      "The culture produced work of world importance. Shostakovich wrote symphonies and quartets under political pressure. Eisenstein and Tarkovsky changed what film could be. Akhmatova memorised her own poems because writing them was dangerous. Bulgakov wrote a novel for the drawer that was published decades after his death. Scientists and engineers, many of them imprisoned at some point, built the rockets that opened space.",
+      "It is also a story of fear. In 1937 and 1938 alone roughly 680,000 people were shot in the Great Terror. An estimated eighteen million passed through the camps and colonies of the Gulag between 1930 and 1953. Famine in 1932 and 1933 killed millions in Ukraine, Kazakhstan and the Volga region. About 26 to 27 million Soviet citizens died in the Second World War. Any honest way into this culture holds those numbers in view.",
+      "The practices here are small on purpose: a morning routine, a long talk, a shared chore, a book. They do not reconstruct Soviet life. They borrow some of its habits at their best and ask you, each day, to remember what those habits cost."
+    ],
+    "figures": [
+      {
+        "name": "Konstantin Tsiolkovsky",
+        "dates": "1857–1935",
+        "bio": "A schoolteacher in Kaluga, partly deaf from childhood, who worked out the mathematics of rocket flight in 1903 and imagined human life beyond Earth."
+      },
+      {
+        "name": "Anna Akhmatova",
+        "dates": "1889–1966",
+        "bio": "Poet of St Petersburg whose husband was shot and son imprisoned. Her cycle Requiem names the grief of a nation."
+      },
+      {
+        "name": "Mikhail Bulgakov",
+        "dates": "1891–1940",
+        "bio": "Doctor turned playwright and novelist. The Master and Margarita was published in a censored form in 1966 and 1967."
+      },
+      {
+        "name": "Dmitri Shostakovich",
+        "dates": "1906–1975",
+        "bio": "Composer of fifteen symphonies and fifteen string quartets, who lived under constant pressure from the state."
+      },
+      {
+        "name": "Sergei Eisenstein",
+        "dates": "1898–1948",
+        "bio": "Pioneer of film editing. Battleship Potemkin, 1925, taught filmmakers around the world."
+      },
+      {
+        "name": "Andrei Tarkovsky",
+        "dates": "1932–1986",
+        "bio": "Director of Ivan’s Childhood, Solaris, Stalker and Mirror. He left the Soviet Union in 1982 and did not return."
+      },
+      {
+        "name": "Sergei Korolev",
+        "dates": "1907–1966",
+        "bio": "Chief designer of the Soviet space programme. He survived the Gulag and his name was kept secret until after his death."
+      },
+      {
+        "name": "Yuri Gagarin",
+        "dates": "1934–1968",
+        "bio": "First person in space, on 12 April 1961, in a flight of 108 minutes. He died in a training jet crash."
+      },
+      {
+        "name": "Andrei Sakharov",
+        "dates": "1921–1989",
+        "bio": "Physicist who helped build the Soviet hydrogen bomb and later became a leading human rights campaigner. Nobel Peace Prize, 1975."
+      },
+      {
+        "name": "Aleksandr Solzhenitsyn",
+        "dates": "1918–2008",
+        "bio": "Writer who survived the camps and described them. Nobel Prize in Literature, 1970. Expelled from the USSR in 1974."
+      },
+      {
+        "name": "Vasily Grossman",
+        "dates": "1905–1964",
+        "bio": "War correspondent at Stalingrad and author of Life and Fate. The manuscript was seized by the KGB and published abroad only in 1980."
+      },
+      {
+        "name": "Nadezhda Mandelstam",
+        "dates": "1899–1980",
+        "bio": "Widow of the poet Osip Mandelstam, who memorised his poems and wrote two memoirs of the Stalin years."
+      },
+      {
+        "name": "Lev Vygotsky",
+        "dates": "1896–1934",
+        "bio": "Psychologist who argued that thought grows through social interaction. He died of tuberculosis at 37."
+      }
+    ],
+    "history": [
+      {
+        "when": "1917",
+        "what": "Two revolutions in Russia",
+        "detail": "In February the tsar abdicated and a provisional government took over. In October the Bolsheviks, led by Lenin, seized power in Petrograd and began to build a one-party state."
+      },
+      {
+        "when": "1918–1922",
+        "what": "The Civil War",
+        "detail": "Red and White armies, foreign interventions and local uprisings devastated the country. Millions died from fighting, hunger and disease, and the Bolsheviks won."
+      },
+      {
+        "when": "30 December 1922",
+        "what": "The USSR is founded",
+        "detail": "Russia, Ukraine, Belarus and the Transcaucasian republics signed a treaty creating the Union of Soviet Socialist Republics. More republics joined later."
+      },
+      {
+        "when": "1928–1932",
+        "what": "The first Five-Year Plan",
+        "detail": "The state set targets for heavy industry and forced farmers into collective farms. Output rose in some sectors, while resistance and hunger followed in the countryside."
+      },
+      {
+        "when": "1932–1933",
+        "what": "Famine",
+        "detail": "Collectivisation and grain requisitions produced a famine that killed millions in Ukraine, Kazakhstan and the Volga region. In Ukraine it is known as the Holodomor."
+      },
+      {
+        "when": "1937–1938",
+        "what": "The Great Terror",
+        "detail": "Mass arrests and executions swept through the party, the army and ordinary society. Archives record roughly 680,000 people shot in these two years."
+      },
+      {
+        "when": "1941–1945",
+        "what": "The Great Patriotic War",
+        "detail": "After Germany invaded in June 1941 the Soviet Union fought the largest land war in history. An estimated 26 to 27 million Soviet citizens died."
+      },
+      {
+        "when": "1953 and 1956",
+        "what": "Stalin dies, and the Secret Speech",
+        "detail": "Stalin died in March 1953. In February 1956 Khrushchev denounced his crimes in a closed speech to the Twentieth Party Congress, opening the period called the Thaw."
+      },
+      {
+        "when": "1957–1963",
+        "what": "The space age",
+        "detail": "Sputnik reached orbit on 4 October 1957. Yuri Gagarin flew on 12 April 1961, and Valentina Tereshkova became the first woman in space in June 1963."
+      },
+      {
+        "when": "1962",
+        "what": "Ivan Denisovich is published",
+        "detail": "Solzhenitsyn’s story of one camp day appeared in the magazine Novy Mir in November 1962 with Khrushchev’s consent, an extraordinary moment of openness."
+      },
+      {
+        "when": "1964–1982",
+        "what": "The Brezhnev years",
+        "detail": "A long period of stability and slow decline, later called stagnation. Dissidents were tried and exiled, and the kitchen became the place for frank talk."
+      },
+      {
+        "when": "1985–1991",
+        "what": "Gorbachev, glasnost and the end",
+        "detail": "Mikhail Gorbachev introduced perestroika and glasnost. The Chernobyl disaster of April 1986 exposed the system’s secrecy. The Soviet Union was dissolved on 26 December 1991."
+      }
+    ],
+    "concepts": [
+      {
+        "term": "Kollektiv",
+        "text": "The group that shares a task.",
+        "detail": "Workplaces, classes and apartment buildings were organised as collectives that set goals, shared praise and applied pressure. It could be warm or stifling. The ideal asked people to put the group first, and the reality often asked them to conform."
+      },
+      {
+        "term": "Dialectical materialism",
+        "text": "Reality is matter in motion; change comes through contradiction.",
+        "detail": "The official philosophy of the state, drawn from Marx and Engels. It taught that history moves through struggles between opposing forces. In practice it became a doctrine to be recited, but its core question, where is the contradiction here, is still useful."
+      },
+      {
+        "term": "The new Soviet person",
+        "text": "The ideal citizen the state hoped to create.",
+        "detail": "Collective, educated, hardworking, free of selfishness. Posters, schools, youth organisations and films promoted the image. Many people tried sincerely to meet it, and the gap between the ideal and ordinary people was a source of pain and humour."
+      },
+      {
+        "term": "Cosmism",
+        "text": "A philosophy of humanity’s future in space.",
+        "detail": "Nikolai Fyodorov proposed in the nineteenth century that humanity’s duty is to overcome death and care for the whole cosmos. Tsiolkovsky carried the thought into rocketry. It runs from a strange nineteenth-century library clerk to the first spaceflight."
+      },
+      {
+        "term": "Samizdat",
+        "text": "Self-published banned writing.",
+        "detail": "People typed manuscripts with carbon paper and passed them on, often with a deadline of one night per reader. Poetry, novels, protests and news circulated this way. It created a community of readers bound by risk."
+      },
+      {
+        "term": "Socialist realism",
+        "text": "The official style of art from 1934.",
+        "detail": "Declared at the First Congress of Soviet Writers, it demanded that art show life in its revolutionary development and serve the people. Some works are formulaic. Others are great, made by artists who worked within its limits."
+      },
+      {
+        "term": "Kitchen culture",
+        "text": "Frank conversation among friends at home.",
+        "detail": "In the 1960s to 1980s, flats were small and shared, and the kitchen was where tea, argument and trust happened. People who were cautious in public said what they thought there. It shaped a generation of thinkers and writers."
+      },
+      {
+        "term": "Blat",
+        "text": "Favours and connections that get things done.",
+        "detail": "In an economy of shortages, a friend in a shop or a ministry was worth more than a salary. Blat was both unfair and a web of mutual help. Understanding it explains much of daily life."
+      },
+      {
+        "term": "The Thaw",
+        "text": "The cultural opening after Stalin’s death.",
+        "detail": "From the mid 1950s to the mid 1960s writers, filmmakers and poets pressed against limits. Solzhenitsyn was published, poetry readings filled stadiums, and young people felt that reform from within was possible. The opening closed again, but its memory lasted."
+      },
+      {
+        "term": "Social learning",
+        "text": "Thinking begins between people.",
+        "detail": "Lev Vygotsky argued that children learn first in conversation and cooperation, and only later internalise what they have learned. His \"zone of proximal development\" describes what a person can do with help but not yet alone, and it still shapes teaching."
+      }
+    ],
+    "facts": [
+      {
+        "text": "The first communist subbotniks were held in spring 1919 by railway workers on the Moscow to Kazan line. Lenin praised them that summer in a pamphlet called A Great Beginning."
+      },
+      {
+        "text": "Sergei Korolev, who led the Soviet space programme, spent years in prison and the Kolyma camps before being brought back to work on rockets. His name was a state secret until he died."
+      },
+      {
+        "text": "Late Soviet allotments were limited to about six hundred square metres, known as \"six sotok\". On such plots families grew a large share of the country’s potatoes, vegetables and fruit."
+      },
+      {
+        "text": "The Moscow Metro opened on 15 May 1935. Stations built in the following years, such as Mayakovskaya in 1938, were decorated with marble, mosaics and chandeliers as public palaces."
+      },
+      {
+        "text": "Chess was taught in schools and treated as a point of national pride. Mikhail Botvinnik became the first Soviet world champion in 1948."
+      },
+      {
+        "text": "The Master and Margarita was first published in a censored version in the magazine Moskva in 1966 and 1967. Readers retyped the cut passages and passed them around."
+      },
+      {
+        "text": "The Cranes Are Flying won the Palme d’Or at Cannes in 1958, and is still the only Soviet film to have done so."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Gulag",
+        "meaning": "The Soviet system of forced labour camps"
+      },
+      {
+        "term": "NKVD",
+        "meaning": "The secret police and interior ministry in the 1930s and 1940s"
+      },
+      {
+        "term": "Kolkhoz",
+        "meaning": "A collective farm"
+      },
+      {
+        "term": "Politburo",
+        "meaning": "The ruling committee of the Communist Party"
+      },
+      {
+        "term": "Sharashka",
+        "meaning": "A prison research institute where imprisoned scientists worked"
+      },
+      {
+        "term": "Holodomor",
+        "meaning": "The famine of 1932 and 1933 in Ukraine, from \"to kill by hunger\""
+      }
+    ],
+    "furtherReading": [
+      {
+        "title": "Natasha’s Dance: A Cultural History of Russia",
+        "creator": "Orlando Figes",
+        "year": "2002",
+        "note": "From Saint Petersburg to Stalin, a sweeping history of Russian culture."
+      },
+      {
+        "title": "The Whisperers: Private Life in Stalin’s Russia",
+        "creator": "Orlando Figes",
+        "year": "2007",
+        "note": "How ordinary families lived with fear, loyalty and silence."
+      },
+      {
+        "title": "Everyday Stalinism",
+        "creator": "Sheila Fitzpatrick",
+        "year": "1999",
+        "note": "A historian’s account of how daily life worked in the 1930s."
+      },
+      {
+        "title": "Bloodlands",
+        "creator": "Timothy Snyder",
+        "year": "2010",
+        "note": "The killing of civilians in Ukraine, Belarus, Poland and the Baltic states between 1933 and 1945."
+      },
+      {
+        "title": "The Last Empire: The Final Days of the Soviet Union",
+        "creator": "Serhii Plokhy",
+        "year": "2014",
+        "note": "The end of the USSR through its last months."
+      },
+      {
+        "title": "Common Places: Mythologies of Everyday Life in Russia",
+        "creator": "Svetlana Boym",
+        "year": "1994",
+        "note": "On kitchens, communal flats and the poetics of daily life."
+      }
+    ],
+    "learnFrom": [
+      {
+        "name": "International Memorial",
+        "note": "Russia’s oldest human rights organisation, which collected the names and stories of those repressed. It shared the 2022 Nobel Peace Prize and was ordered liquidated by Russian courts in December 2021."
+      },
+      {
+        "name": "Ukrainian historians and the National Museum of the Holodomor-Genocide in Kyiv",
+        "note": "For the experience of Ukraine under Soviet rule, including the famine of 1932 and 1933."
+      },
+      {
+        "name": "Local museums of the history of repression",
+        "note": "In former camp sites and regional towns, where survivors’ families keep the record."
+      },
+      {
+        "name": "Scholars of the Baltic, Caucasus and Central Asian republics",
+        "note": "Soviet history looks very different from Tallinn, Tbilisi or Almaty than it does from Moscow."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Gulag: A History",
+        "creator": "Anne Applebaum",
+        "publisher": "Doubleday",
+        "year": "2003"
+      },
+      {
+        "title": "Everything Was Forever, Until It Was No More",
+        "creator": "Alexei Yurchak",
+        "publisher": "Princeton University Press",
+        "year": "2005"
+      },
+      {
+        "title": "The Whisperers",
+        "creator": "Orlando Figes",
+        "publisher": "Allen Lane",
+        "year": "2007"
+      },
+      {
+        "title": "Bloodlands",
+        "creator": "Timothy Snyder",
+        "publisher": "Basic Books",
+        "year": "2010"
+      },
+      {
+        "title": "Everyday Stalinism",
+        "creator": "Sheila Fitzpatrick",
+        "publisher": "Oxford University Press",
+        "year": "1999"
+      },
+      {
+        "title": "Mind in Society",
+        "creator": "Lev Vygotsky",
+        "publisher": "Harvard University Press",
+        "year": "1978"
+      },
+      {
+        "title": "Secondhand Time",
+        "creator": "Svetlana Alexievich, trans. Bela Shayevich",
+        "publisher": "Random House",
+        "year": "2016"
+      }
+    ]
+  },
+  "sensitivity": {
+    "note": "The Soviet Union was a one-party state responsible for mass repression, famine and war crimes, and also home to great art, science and ordinary kindness. This Onda explores the culture, ideas and daily habits of its people. It does not endorse the regime or its successors.",
+    "requiredCaveats": [
+      "Hold the culture and the cost together. The terror, the Gulag and the famines are part of the story and are not set aside.",
+      "The Soviet Union was many nations. Ukrainians, Balts, Georgians, Kazakhs and others experienced it as rule from Moscow, often as imperial, and their accounts deserve equal weight with Russian ones.",
+      "Russian culture is not the same as any state. Reading Akhmatova or watching Tarkovsky does not endorse any government, past or present.",
+      "This content has not yet been reviewed by historians or by people from the former Soviet republics. It should be before release."
+    ],
+    "reviewRequired": true
+  }
+}

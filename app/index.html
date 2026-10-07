@@ -9,9 +9,9 @@
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-title" content="Onda" />
     <meta name="application-name" content="Onda" />
-    <!-- default in light; App.tsx switches this to black-translucent in dark -->
+    <!-- default in light, black-translucent in dark: the inline script below sets it at launch, App.tsx keeps it in step -->
     <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-    <meta name="theme-color" content="#F1F2F6" />
+    <meta name="theme-color" content="#F5F1E8" />
     <meta name="color-scheme" content="light dark" />
     <meta name="format-detection" content="telephone=no, date=no, address=no, email=no" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -41,13 +41,21 @@
     <link rel="apple-touch-startup-image" href="/splash/dark-750x1334.png" media="screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait) and (prefers-color-scheme: dark)" />
     <!--/splash-->
     <style>
-      html,body{margin:0;background:#F1F2F6}
+      html,body{margin:0;background:#F5F1E8}
       @media (prefers-color-scheme:dark){html[data-theme="auto"],html[data-theme="auto"] body{background:#1B1C1F}}
       html[data-theme="dark"],html[data-theme="dark"] body{background:#1B1C1F}
     </style>
     <script>
       // Apply the saved appearance before first paint so there is no flash.
-      try { var m = localStorage.getItem('onda.theme'); if (m) document.documentElement.dataset.theme = m === 'auto' ? (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : m } catch (e) {}
+      try {
+        var m = localStorage.getItem('onda.theme');
+        if (m) document.documentElement.dataset.theme = m === 'auto' ? (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : m;
+        // iOS reads the status bar style when the app launches, so set it now from the saved appearance:
+        // dark gets a translucent bar that shows the dark page behind it (no white strip).
+        var d = document.documentElement.dataset.theme === 'dark';
+        document.querySelector('meta[name=apple-mobile-web-app-status-bar-style]').setAttribute('content', d ? 'black-translucent' : 'default');
+        document.querySelector('meta[name=theme-color]').setAttribute('content', d ? '#1B1C1F' : '#F5F1E8');
+      } catch (e) {}
     </script>
   </head>
   <body>

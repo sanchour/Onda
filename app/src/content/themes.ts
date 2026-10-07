@@ -26,7 +26,7 @@ interface Theme {
   track?: string
 }
 
-export type Ornament = 'column' | 'enso' | 'yinyang' | 'lotus' | 'sun' | 'mandala' | 'feather' | 'rings' | 'star8' | 'leaf' | 'dot'
+export type Ornament = 'column' | 'enso' | 'yinyang' | 'lotus' | 'sun' | 'mandala' | 'feather' | 'rings' | 'star8' | 'leaf' | 'dot' | 'ankh' | 'star5' | 'sunstone' | 'drum' | 'hexagram' | 'pleroma'
 
 const OCTAGRAM = 'polygon(50% 0%,64.5% 14.9%,85.4% 14.6%,85.1% 35.5%,100% 50%,85.1% 64.5%,85.4% 85.4%,64.5% 85.1%,50% 100%,35.5% 85.1%,14.6% 85.4%,14.9% 64.5%,0% 50%,14.9% 35.5%,14.6% 14.6%,35.5% 14.9%)'
 const HEXAGON = 'polygon(25% 4%,75% 4%,100% 50%,75% 96%,25% 96%,0% 50%)'
@@ -81,7 +81,37 @@ export const THEMES: Record<string, Theme> = {
     shape: '50% 0 50% 0', radius: '28px 6px 28px 6px', numerals: 'latin', ornament: 'leaf', track: '.01em',
     bg: '#CDE4C3', strong: '#4F8A3D', darkBg: '#26391F', darkStrong: '#77B562', glyph: 'Nature', font: "'Libre Baskerville',serif",
     pattern: (i) => `repeating-linear-gradient(0deg,rgba(${i},.06) 0 1px,transparent 1px 11px)`,
+  },  soviet: {
+    shape: '0', clip: 'polygon(0 0,100% 0,100% 68%,68% 100%,0 100%)', radius: '4px 4px 30px 4px', numerals: 'latin', ornament: 'star5', caps: true, track: '.05em',
+    bg: '#DCD7D2', strong: '#B3261E', darkBg: '#34302D', darkStrong: '#F0705F', glyph: 'МИР', font: 'Oswald,sans-serif',
+    pattern: (i) => `repeating-linear-gradient(-45deg,rgba(${i},.07) 0 12px,transparent 12px 24px)`,
   },
+  yoruba: {
+    shape: '50%', radius: '30px', numerals: 'latin', ornament: 'drum',
+    bg: '#CBD0EC', strong: '#343C99', darkBg: '#262B57', darkStrong: '#8E98F0', glyph: 'Àṣẹ', font: 'Fraunces,serif',
+    pattern: (i) => `${sv(`<svg xmlns='http://www.w3.org/2000/svg' width='28' height='28'><circle cx='14' cy='14' r='8' fill='none' stroke='rgba(${i},.14)' stroke-width='1.5'/><circle cx='14' cy='14' r='2.4' fill='rgba(${i},.16)'/></svg>`)} 0 0/28px 28px`,
+  },
+  aztec: {
+    shape: '14%', radius: '8px 26px 8px 26px', numerals: 'latin', ornament: 'sunstone',
+    bg: '#EBCBD3', strong: '#9E2A5B', darkBg: '#4A1D30', darkStrong: '#E07DA6', glyph: 'Nahua', font: 'Bevan,serif',
+    pattern: (i) => `${sv(`<svg xmlns='http://www.w3.org/2000/svg' width='32' height='16'><path d='M0 16V9H7V2H17V9H11V16' fill='none' stroke='rgba(${i},.14)' stroke-width='1.6'/></svg>`)} 0 100%/32px 16px repeat-x`,
+  },
+  egypt: {
+    shape: '50% 50% 10px 10px', radius: '44px 44px 12px 12px', numerals: 'latin', ornament: 'ankh',
+    bg: '#EBDDB5', strong: '#8F6A12', darkBg: '#473B1C', darkStrong: '#E2B84B', glyph: 'Maat', font: "'Cinzel Decorative',serif",
+    pattern: (i) => `repeating-linear-gradient(90deg,rgba(${i},.08) 0 2px,transparent 2px 10px)`,
+  },
+  hermes: {
+    shape: '8px', clip: 'polygon(50% 0%,100% 50%,50% 100%,0% 50%)', radius: '14px', numerals: 'roman', ornament: 'hexagram',
+    bg: '#C8E5D3', strong: '#1D7A55', darkBg: '#1B3A2C', darkStrong: '#4FC08B', glyph: '☿', font: "'IM Fell English',serif",
+    pattern: (i) => `repeating-linear-gradient(45deg,rgba(${i},.06) 0 1px,transparent 1px 14px),repeating-linear-gradient(-45deg,rgba(${i},.06) 0 1px,transparent 1px 14px)`,
+  },
+  gnostic: {
+    shape: '50%', radius: '36px', numerals: 'greek', ornament: 'pleroma',
+    bg: '#E7D9DE', strong: '#7A4A66', darkBg: '#3B2633', darkStrong: '#C48AAA', glyph: 'Gnosis', font: 'Forum,serif',
+    pattern: (i) => `repeating-radial-gradient(circle at 0 100%,transparent 0 16px,rgba(${i},.07) 16px 17px)`,
+  },
+
 }
 
 const TONES: Record<string, { bg: string; strong: string; darkBg: string; darkStrong: string }> = {

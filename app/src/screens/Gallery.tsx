@@ -1,9 +1,12 @@
 import { useTranslation } from 'react-i18next'
 import { CATEGORIES, CATEGORY_NAMES, FEATURED, type GalleryLago } from '@/data/catalog'
+import { useLookFn, useOndaList } from '@/data/hooks'
+import { fitSize } from '@/lib/fit'
 import { BackButton, Screen } from '@/nav/Screen'
 import { useNav, type StackEntry } from '@/nav/store'
 import { Button } from '@/ui/buttons'
 import { Icon } from '@/ui/Icon'
+import o from './ondas.module.css'
 import s from './screens.module.css'
 
 function Tile({ it, tall }: { it: GalleryLago; tall?: boolean }) {
@@ -24,6 +27,8 @@ function Tile({ it, tall }: { it: GalleryLago; tall?: boolean }) {
 export function Gallery() {
   const { t } = useTranslation()
   const { push, openSheet } = useNav()
+  const ondas = useOndaList()
+  const look = useLookFn()
   return (
     <Screen bg="page" chrome={<BackButton />}>
       <div className={s.pageHead}>
@@ -47,6 +52,20 @@ export function Gallery() {
               <Icon name={f.icon} weight="fill" size={36} />
             </div>
           </div>
+        ))}
+      </div>
+
+      <h2 className={s.h20} style={{ padding: '24px 20px 4px' }}>{t('gallery.fromOndas')}</h2>
+      <div className={s.sub} style={{ padding: '0 20px 12px' }}>{t('gallery.fromOndasSub')}</div>
+      <div className={`hscroll ${o.galleryOndas}`}>
+        {ondas.map((x) => (
+          <button key={x.id} type="button" className={`${o.gOnda} ${o.themed}`} style={look(x).vars} onClick={() => openSheet({ name: 'ondaPractices', ondaId: x.id })}>
+            <span className={`${s.circle} ${o.gOndaIcon} ${o.chipCircle}`}>
+              <Icon name={x.icon} weight="fill" size={20} />
+            </span>
+            <span className={o.gOndaName} style={{ fontSize: fitSize(x.name, 112, 18, 12, look(x).caps) }}>{x.name}</span>
+            <span className={o.gOndaSub}>{t('gallery.pickPractices')}</span>
+          </button>
         ))}
       </div>
 

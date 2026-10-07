@@ -39,7 +39,7 @@ const DEVICES = [
   [375, 667, 2], // SE
 ]
 const THEMES = [
-  { name: 'light', bg: '#F1F2F6', fg: BLUE },
+  { name: 'light', bg: '#F5F1E8', fg: BLUE },
   { name: 'dark', bg: '#1B1C1F', fg: '#3D94FF' },
 ]
 

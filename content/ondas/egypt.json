@@ -1,0 +1,1143 @@
+{
+  "version": 1,
+  "id": "egypt",
+  "name": "Ancient Egypt",
+  "origin": "The Nile valley",
+  "era": "c. 3100 BCE to 394 CE",
+  "tone": "yellow",
+  "icon": "eye",
+  "font": "cinzel-decorative",
+  "pattern": "pleated-linen",
+  "glyph": "Maat",
+  "line": "Speak what is true, do what is right and keep the balance of Maat.",
+  "quote": {
+    "text": "Great is Maat, lasting in effect; it has not been disturbed since the time of Osiris.",
+    "by": "Ptahhotep",
+    "source": "The Instruction of Ptahhotep, maxim 5, trans. after Miriam Lichtheim",
+    "unverified": true
+  },
+  "quotes": [
+    {
+      "text": "Do not be proud of your knowledge; consult the ignorant and the wise.",
+      "by": "Ptahhotep",
+      "source": "The Instruction of Ptahhotep, maxim 1, trans. after Miriam Lichtheim",
+      "unverified": true
+    },
+    {
+      "text": "Do not move the markers on the borders of the fields, nor shift the position of the measuring cord.",
+      "by": "Amenemope",
+      "source": "The Instruction of Amenemope, chapter 6, trans. after Miriam Lichtheim",
+      "unverified": true
+    },
+    {
+      "text": "I have not done wrong. I have not caused weeping.",
+      "by": "The deceased before the tribunal",
+      "source": "Book of the Dead, spell 125, the declaration of innocence; wording varies by papyrus",
+      "unverified": true
+    },
+    {
+      "text": "Follow your heart as long as you live.",
+      "by": "Song of the Harper",
+      "source": "Tomb inscriptions and papyri of the New Kingdom, trans. varies",
+      "unverified": true
+    },
+    {
+      "text": "How manifold are your works. They are hidden from the face of man.",
+      "by": "The Great Hymn to the Aten",
+      "source": "Tomb of Ay at Amarna, trans. after Miriam Lichtheim",
+      "unverified": true
+    }
+  ],
+  "words": [
+    {
+      "id": "word-maat",
+      "term": "Maat",
+      "meaning": "Truth, justice, balance and cosmic order; also the goddess who personifies them",
+      "pronunciation": "mah-AHT",
+      "language": "Ancient Egyptian",
+      "usage": "The central idea of Egyptian ethics. Kings were said to \"live by Maat\"."
+    },
+    {
+      "id": "word-ka",
+      "term": "Ka",
+      "meaning": "The life force or double of a person",
+      "pronunciation": "kah",
+      "language": "Ancient Egyptian",
+      "usage": "Sustained by food and drink offered at the tomb."
+    },
+    {
+      "id": "word-ba",
+      "term": "Ba",
+      "meaning": "The personality or spirit that can move freely, drawn as a human-headed bird",
+      "pronunciation": "bah",
+      "language": "Ancient Egyptian",
+      "usage": "It left the body at death and could return to it."
+    },
+    {
+      "id": "word-akh",
+      "term": "Akh",
+      "meaning": "The transfigured, effective spirit of the dead",
+      "pronunciation": "ahk",
+      "language": "Ancient Egyptian",
+      "usage": "What a person became after a successful passage to the afterlife."
+    },
+    {
+      "id": "word-ib",
+      "term": "Ib",
+      "meaning": "The heart; seat of mind, will and memory",
+      "pronunciation": "ib",
+      "language": "Ancient Egyptian",
+      "usage": "Weighed against the feather of Maat in the judgement of the dead."
+    },
+    {
+      "id": "word-ren",
+      "term": "Ren",
+      "meaning": "A person’s name",
+      "pronunciation": "ren",
+      "language": "Ancient Egyptian",
+      "usage": "To remember a name was to keep a person alive."
+    },
+    {
+      "id": "word-sheut",
+      "term": "Sheut",
+      "meaning": "The shadow",
+      "pronunciation": "shoot",
+      "language": "Ancient Egyptian",
+      "usage": "One of the aspects of a person, thought to carry part of their identity."
+    },
+    {
+      "id": "word-netjer",
+      "term": "Netjer",
+      "meaning": "God; a divine being",
+      "pronunciation": "NET-jer",
+      "language": "Ancient Egyptian",
+      "usage": "The word used for any god or goddess."
+    },
+    {
+      "id": "word-pharaoh",
+      "term": "Pharaoh",
+      "meaning": "The king; from per-aa, \"great house\"",
+      "pronunciation": "FAIR-oh",
+      "language": "Ancient Egyptian",
+      "usage": "At first the word meant the palace. It became a title for the king in the New Kingdom."
+    },
+    {
+      "id": "word-ankh",
+      "term": "Ankh",
+      "meaning": "Life",
+      "pronunciation": "ahnk",
+      "language": "Ancient Egyptian",
+      "usage": "The sign shaped like a cross with a loop. It means life, and appears in many names."
+    },
+    {
+      "id": "word-djed",
+      "term": "Djed",
+      "meaning": "Stability; the pillar of Osiris",
+      "pronunciation": "jed",
+      "language": "Ancient Egyptian",
+      "usage": "A column-like sign for endurance."
+    },
+    {
+      "id": "word-was",
+      "term": "Was",
+      "meaning": "Power; dominion",
+      "pronunciation": "wahs",
+      "language": "Ancient Egyptian",
+      "usage": "A staff held by gods and kings."
+    },
+    {
+      "id": "word-hotep",
+      "term": "Hotep",
+      "meaning": "Peace; offering; satisfied",
+      "pronunciation": "HOH-tep",
+      "language": "Ancient Egyptian",
+      "usage": "Found in names such as Imhotep and Amenhotep, and on offering tables."
+    },
+    {
+      "id": "word-nefer",
+      "term": "Nefer",
+      "meaning": "Good; beautiful; perfect",
+      "pronunciation": "NEH-fer",
+      "language": "Ancient Egyptian",
+      "usage": "As in Nefertiti, \"the beautiful one has come\"."
+    },
+    {
+      "id": "word-nub",
+      "term": "Nub",
+      "meaning": "Gold",
+      "pronunciation": "noob",
+      "language": "Ancient Egyptian",
+      "usage": "Said to be the flesh of the gods. Possibly the root of the name Nubia."
+    },
+    {
+      "id": "word-medu-netjer",
+      "term": "Medu netjer",
+      "meaning": "Words of the god; hieroglyphs",
+      "pronunciation": "MEH-doo NET-jer",
+      "language": "Ancient Egyptian",
+      "usage": "The Egyptians’ own name for their sacred writing."
+    },
+    {
+      "id": "word-kemet",
+      "term": "Kemet",
+      "meaning": "The black land; Egypt",
+      "pronunciation": "KEH-met",
+      "language": "Ancient Egyptian",
+      "usage": "The fertile land along the Nile, as against the red desert."
+    },
+    {
+      "id": "word-deshret",
+      "term": "Deshret",
+      "meaning": "The red land; the desert",
+      "pronunciation": "DESH-ret",
+      "language": "Ancient Egyptian",
+      "usage": "The dry land beyond the floodplain."
+    },
+    {
+      "id": "word-hapi",
+      "term": "Hapi",
+      "meaning": "The Nile flood; also the god of it",
+      "pronunciation": "HAH-pee",
+      "language": "Ancient Egyptian",
+      "usage": "Egypt’s yearly gift of silt and water."
+    },
+    {
+      "id": "word-akhet",
+      "term": "Akhet",
+      "meaning": "Inundation; the season of the flood",
+      "pronunciation": "AH-khet",
+      "language": "Ancient Egyptian",
+      "usage": "Roughly July to November."
+    },
+    {
+      "id": "word-peret",
+      "term": "Peret",
+      "meaning": "Emergence; the growing season",
+      "pronunciation": "PEH-ret",
+      "language": "Ancient Egyptian",
+      "usage": "When crops were sown and grew."
+    },
+    {
+      "id": "word-shemu",
+      "term": "Shemu",
+      "meaning": "Harvest; the low-water season",
+      "pronunciation": "SHEH-moo",
+      "language": "Ancient Egyptian",
+      "usage": "The time of cutting and threshing grain."
+    },
+    {
+      "id": "word-duat",
+      "term": "Duat",
+      "meaning": "The underworld; the realm the sun crosses at night",
+      "pronunciation": "doo-AHT",
+      "language": "Ancient Egyptian",
+      "usage": "The land of the dead and of rebirth."
+    },
+    {
+      "id": "word-heka",
+      "term": "Heka",
+      "meaning": "Magic; the power of effective words and acts",
+      "pronunciation": "HEH-kah",
+      "language": "Ancient Egyptian",
+      "usage": "Not a trick but a force by which the world was made and kept."
+    },
+    {
+      "id": "word-isfet",
+      "term": "Isfet",
+      "meaning": "Disorder; injustice; falsehood",
+      "pronunciation": "IS-fet",
+      "language": "Ancient Egyptian",
+      "usage": "The opposite of Maat, always threatening and always to be kept at bay."
+    },
+    {
+      "id": "word-zep-tepi",
+      "term": "Zep tepi",
+      "meaning": "The first time; the moment of creation",
+      "pronunciation": "zep TEH-pee",
+      "language": "Ancient Egyptian",
+      "usage": "The time when the world arose from the waters."
+    },
+    {
+      "id": "word-shabti",
+      "term": "Shabti",
+      "meaning": "A small figure placed in a tomb to work for the dead",
+      "pronunciation": "SHAB-tee",
+      "language": "Ancient Egyptian",
+      "usage": "Also called ushabti, \"answerer\". It would reply \"Here I am\" when the dead were called to labour."
+    },
+    {
+      "id": "word-cartouche",
+      "term": "Cartouche",
+      "meaning": "The oval ring that encloses a royal name",
+      "pronunciation": "kar-TOOSH",
+      "language": "French, from Egyptian",
+      "usage": "A French word from the Napoleonic expedition. The Egyptians called it shenu."
+    },
+    {
+      "id": "word-sesh",
+      "term": "Sesh",
+      "meaning": "A scribe",
+      "pronunciation": "sesh",
+      "language": "Ancient Egyptian",
+      "usage": "A respected profession. Scribes learned to read and write for many years."
+    },
+    {
+      "id": "word-senet",
+      "term": "Senet",
+      "meaning": "A board game of the living and the dead",
+      "pronunciation": "SEH-net",
+      "language": "Ancient Egyptian",
+      "usage": "Found in tombs, including Tutankhamun’s. Its rules are partly reconstructed."
+    },
+    {
+      "id": "word-henqet",
+      "term": "Henqet",
+      "meaning": "Beer",
+      "pronunciation": "HEN-ket",
+      "language": "Ancient Egyptian",
+      "usage": "A daily drink for everyone, from workers to pharaohs."
+    },
+    {
+      "id": "word-ankh-wedja-seneb",
+      "term": "Ankh wedja seneb",
+      "meaning": "Life, prosperity, health",
+      "pronunciation": "ahnk WEH-jah SEH-neb",
+      "language": "Ancient Egyptian",
+      "usage": "A blessing formula added after the names of kings."
+    },
+    {
+      "id": "word-per-ankh",
+      "term": "Per-ankh",
+      "meaning": "House of Life; a scriptorium and place of learning",
+      "pronunciation": "per-AHNK",
+      "language": "Ancient Egyptian",
+      "usage": "Attached to temples, where scribes copied and kept the sacred books."
+    }
+  ],
+  "practices": [
+    {
+      "id": "maat-at-dawn",
+      "name": "Maat at dawn",
+      "icon": "sun-horizon",
+      "slot": "Morning",
+      "time": "06:30",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Stand or sit facing the light of the morning. Say aloud three things that you know to be true about your life. Then name one right action you will do today, however small: pay a debt, tell the truth, finish a task for someone else. Finish with one slow breath. Do not make this a prayer to the gods unless it is meaningful to you. It is a way of beginning the day inside an idea of order.",
+      "why": "The Egyptians believed the sun was reborn each dawn, and that every person helped to keep the world in order by acting in accord with Maat, truth and justice. Starting the day with what is true and what is right follows that idea.",
+      "variations": [
+        "Do it at sunset instead and name what was true today.",
+        "Write the three truths in a notebook.",
+        "Say your right action to someone else."
+      ]
+    },
+    {
+      "id": "hieroglyph-a-day",
+      "name": "A hieroglyph a day",
+      "icon": "pen-nib",
+      "slot": "Afternoon",
+      "time": "15:00",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Choose one of the 24 single-consonant signs that make up the hieroglyphic alphabet, such as the vulture, the reed or the water ripple. Look up its sound. Draw it slowly three times with a brush pen or a pencil, facing the way the sign faces, since hieroglyphs are read toward the faces of the figures. Then write one short word or your name using the signs you have learned so far.",
+      "why": "The Egyptians called hieroglyphs \"words of the god\" and believed that writing a thing gave it life. Drawing a sign slowly is a way to slow down and look at one clear shape.",
+      "variations": [
+        "Write your initials in a cartouche shape.",
+        "Learn the sign for water and the sign for the sun.",
+        "Copy a short inscription from a museum website."
+      ]
+    },
+    {
+      "id": "weighing-the-heart",
+      "name": "Weighing of the heart",
+      "icon": "scales",
+      "slot": "Evening",
+      "time": "21:00",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Sit with a notebook before bed. Imagine the scales and ask four questions, answering each in a line or two. Where did I speak truth, and where did I not? Where did I take more than I gave? Did I cause anyone to weep, and could I mend it? Who did I feed, clothe, help or listen to? Note one repair for tomorrow. Do not judge yourself harshly. The point is a clear heart.",
+      "why": "In the Book of the Dead the heart is weighed against the feather of Maat. The ideal person could say that they had not wronged others, and tomb inscriptions boast of giving bread to the hungry. A nightly weighing keeps the heart light.",
+      "variations": [
+        "Say your answers aloud to a trusted person.",
+        "Add one thing you did well.",
+        "Choose one repair and do it first thing the next morning."
+      ]
+    },
+    {
+      "id": "name-the-season",
+      "name": "Name the season",
+      "icon": "drop",
+      "slot": "Afternoon",
+      "time": "12:30",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Egyptians divided the year into three seasons of four months: the flood, the growing and the harvest. Decide which of these your own life is in now. Is something being flooded or fed? Is something being sown, or growing? Is something ready to be gathered? Write two sentences on what belongs to your current season and one thing to do about it. Then step outside and notice the weather and the light.",
+      "why": "The rhythm of the Nile shaped Egyptian life and thought, and the three seasons made time a cycle of preparation, growth and reaping. Naming your season keeps you from asking the wrong thing of the wrong time.",
+      "variations": [
+        "Do it with a friend and compare answers.",
+        "Draw a three-part circle and place your projects in it.",
+        "Mark your own seasons on a calendar."
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": "say-aloud-the-name-of-someone-who-has-died",
+      "name": "Say aloud the name of someone who has died",
+      "meta": "Speak it clearly, and say one true thing about them",
+      "time": "12:00",
+      "slot": "Afternoon"
+    },
+    {
+      "id": "eat-bread-onion-and-a-lentil-dish",
+      "name": "Eat bread, onion and a lentil dish",
+      "meta": "A plain Egyptian meal",
+      "time": "13:00",
+      "slot": "Afternoon"
+    },
+    {
+      "id": "look-at-one-object-from-ancient-egypt-in-a-museum-collection-online",
+      "name": "Look at one object from ancient Egypt in a museum collection online",
+      "meta": "Read the label slowly",
+      "time": "18:00",
+      "slot": "Evening"
+    }
+  ],
+  "rules": [
+    {
+      "id": "r1",
+      "text": "Tell the truth, even in small things",
+      "why": "Maat is truth. The Instructions repeat that honest speech is the foundation of a good life."
+    },
+    {
+      "id": "r2",
+      "text": "Do not take what is not yours",
+      "why": "The scribes taught that moving a boundary stone or falsifying a weight was among the gravest offences. Be exact in what you claim."
+    },
+    {
+      "id": "r3",
+      "text": "Feed the hungry and clothe the bare",
+      "why": "Tomb inscriptions list gifts of bread, water and clothing as evidence of a good life. Give something real to someone today."
+    },
+    {
+      "id": "r4",
+      "text": "Do not cause weeping",
+      "why": "The declaration of innocence includes \"I have not made anyone weep\". Notice who might be hurt by what you do."
+    },
+    {
+      "id": "r5",
+      "text": "Speak the names of the dead",
+      "why": "The Egyptians held that a person lives on while their name is spoken. Remember someone in this way."
+    },
+    {
+      "id": "r6",
+      "text": "Be exact",
+      "why": "Egyptian scribes valued precision. Measure, count and write carefully."
+    }
+  ],
+  "immerse": {
+    "read": [
+      {
+        "id": "read-ancient-egyptian-literature",
+        "title": "Ancient Egyptian Literature",
+        "creator": "Miriam Lichtheim",
+        "year": "1973–1980",
+        "why": "Three volumes of translated Egyptian texts, from Pyramid Texts to tales and wisdom writings."
+      },
+      {
+        "id": "read-the-egyptian-book-of-the-dead-the-book-of-going-forth-by-day",
+        "title": "The Egyptian Book of the Dead: The Book of Going Forth by Day",
+        "creator": "Translated by Raymond Faulkner, edited by Ogden Goelet",
+        "year": "1994",
+        "why": "A beautifully illustrated translation of the papyrus of Ani with commentary."
+      },
+      {
+        "id": "read-the-rise-and-fall-of-ancient-egypt",
+        "title": "The Rise and Fall of Ancient Egypt",
+        "creator": "Toby Wilkinson",
+        "year": "2010",
+        "why": "A narrative history from the first kings to Cleopatra."
+      },
+      {
+        "id": "read-the-complete-gods-and-goddesses-of-ancient-egypt",
+        "title": "The Complete Gods and Goddesses of Ancient Egypt",
+        "creator": "Richard H. Wilkinson",
+        "year": "2003",
+        "why": "A well-illustrated guide to the deities and their meanings."
+      },
+      {
+        "id": "read-the-mind-of-egypt",
+        "title": "The Mind of Egypt",
+        "creator": "Jan Assmann",
+        "year": "2002",
+        "why": "A scholar of religion considers the ideas and mentality of Egyptian civilisation."
+      },
+      {
+        "id": "read-the-story-of-sinuhe",
+        "title": "The Story of Sinuhe",
+        "creator": "Anonymous, in Lichtheim’s Ancient Egyptian Literature",
+        "year": "Middle Kingdom, c. 1900 BCE",
+        "why": "A tale of an exile who longs for home, and one of the oldest stories in the world."
+      },
+      {
+        "id": "read-sinuhe-the-egyptian",
+        "title": "Sinuhe the Egyptian",
+        "creator": "Mika Waltari",
+        "year": "1945",
+        "why": "A novel by a Finnish writer, set in the age of Akhenaten. Fiction, but an enduring one."
+      }
+    ],
+    "watch": [
+      {
+        "id": "watch-egypt-s-golden-empire",
+        "title": "Egypt’s Golden Empire",
+        "creator": "PBS, directed by Mike Beckham and Jeff Duncan",
+        "year": "2001",
+        "why": "A documentary on the New Kingdom, from Hatshepsut to Ramesses II."
+      },
+      {
+        "id": "watch-secrets-of-lost-empires-obelisk",
+        "title": "Secrets of Lost Empires: Obelisk",
+        "creator": "NOVA",
+        "year": "1997",
+        "why": "A team raises a real obelisk with ancient methods to learn how the Egyptians did it."
+      }
+    ],
+    "listen": [
+      {
+        "id": "listen-aida",
+        "title": "Aida",
+        "creator": "Giuseppe Verdi",
+        "year": "1871",
+        "why": "An opera set in ancient Egypt, premiered in Cairo. The music is an outsider’s dream of the Nile."
+      },
+      {
+        "id": "listen-escalay-the-water-wheel",
+        "title": "Escalay: The Water Wheel",
+        "creator": "Hamza El Din",
+        "year": "1971",
+        "why": "The oud of a Nubian master, from the Nile’s south."
+      },
+      {
+        "id": "listen-enta-omri",
+        "title": "Enta Omri",
+        "creator": "Umm Kulthum",
+        "year": "1964",
+        "why": "The great Egyptian singer in a long song composed by Mohamed Abdel Wahab. A modern classic of the Arab world."
+      }
+    ],
+    "art": [
+      {
+        "id": "art-the-great-sphinx-of-giza",
+        "title": "The Great Sphinx of Giza",
+        "creator": "Old Kingdom builders",
+        "year": "c. 2500 BCE",
+        "why": "A lion with a human head, carved from bedrock. Probably an image of the king Khafre."
+      },
+      {
+        "id": "art-the-bust-of-nefertiti",
+        "title": "The bust of Nefertiti",
+        "creator": "Thutmose",
+        "year": "c. 1345 BCE",
+        "why": "Painted limestone, found in 1912 and kept in the Neues Museum in Berlin."
+      },
+      {
+        "id": "art-the-funerary-mask-of-tutankhamun",
+        "title": "The funerary mask of Tutankhamun",
+        "creator": "Royal craftsmen",
+        "year": "c. 1323 BCE",
+        "why": "Gold and lapis, found in 1922. In the Egyptian Museum in Cairo."
+      },
+      {
+        "id": "art-the-book-of-the-dead-of-hunefer",
+        "title": "The Book of the Dead of Hunefer",
+        "creator": "Scribe Hunefer",
+        "year": "c. 1275 BCE",
+        "why": "A painted papyrus with a famous scene of the weighing of the heart, in the British Museum."
+      },
+      {
+        "id": "art-the-tomb-of-nefertari",
+        "title": "The tomb of Nefertari",
+        "creator": "Painters of the Valley of the Queens",
+        "year": "c. 1255 BCE",
+        "why": "Brilliant wall paintings in the tomb of Ramesses II’s queen."
+      }
+    ],
+    "eat": [
+      {
+        "id": "eat-bread",
+        "title": "Bread",
+        "creator": "Emmer wheat, as the ancient Egyptians ate",
+        "why": "The staple. Loaves were baked in many shapes, and bread was used in offerings."
+      },
+      {
+        "id": "eat-onions-and-garlic",
+        "title": "Onions and garlic",
+        "creator": "Raw or in a salad",
+        "why": "Common to workers and kings. Onions appear on offering tables."
+      },
+      {
+        "id": "eat-lentil-soup",
+        "title": "Lentil soup",
+        "creator": "Plain, with olive oil",
+        "why": "Lentils were a staple of the ancient diet and of modern Egypt."
+      },
+      {
+        "id": "eat-dates-and-figs",
+        "title": "Dates and figs",
+        "creator": "A handful",
+        "why": "Sweet fruits eaten fresh and dried, and used in baking."
+      },
+      {
+        "id": "eat-ful-medames",
+        "title": "Ful medames",
+        "creator": "Slow-cooked fava beans with oil and lemon",
+        "why": "A national dish of modern Egypt, eaten at breakfast."
+      },
+      {
+        "id": "eat-ta-amiya",
+        "title": "Ta’amiya",
+        "creator": "Fava bean fritters, with herbs",
+        "why": "The Egyptian version of falafel. A street food of modern Egypt."
+      }
+    ],
+    "drink": [
+      {
+        "id": "drink-karkade",
+        "title": "Karkade",
+        "creator": "Hibiscus tea, hot or cold",
+        "why": "A deep red drink that is a favourite across Egypt and the Sudan."
+      },
+      {
+        "id": "drink-mint-tea",
+        "title": "Mint tea",
+        "creator": "Black or green tea with fresh mint",
+        "why": "A drink of hospitality in modern Egypt."
+      },
+      {
+        "id": "drink-barley-water",
+        "title": "Barley water",
+        "creator": "Boiled barley, cooled and strained",
+        "why": "Barley was the grain of ancient beer. This is a plain, non-alcoholic cousin."
+      }
+    ],
+    "customs": [
+      {
+        "id": "customs-say-the-name",
+        "title": "Say the name",
+        "creator": "Speak the name of someone who has died",
+        "why": "The Egyptians held that a person lives while the name is said."
+      },
+      {
+        "id": "customs-offer-bread-and-water",
+        "title": "Offer bread and water",
+        "creator": "Share a simple gift of food and drink",
+        "why": "The \"offering formula\" asked for thousands of loaves and jars of beer for the dead."
+      },
+      {
+        "id": "customs-wash-before-the-day-s-work",
+        "title": "Wash before the day’s work",
+        "creator": "A deliberate wash with attention",
+        "why": "Priests washed before entering the temple, and cleanliness was a mark of order."
+      },
+      {
+        "id": "customs-keep-three-seasons",
+        "title": "Keep three seasons",
+        "creator": "Mark the flood, the sowing and the harvest in your own calendar",
+        "why": "Shape your year in three parts."
+      },
+      {
+        "id": "customs-write-a-name-with-care",
+        "title": "Write a name with care",
+        "creator": "A hieroglyph or a plain letter",
+        "why": "The Egyptians wrote names in rings of protection. Take care with names."
+      }
+    ]
+  },
+  "ethics": [
+    {
+      "title": "Speak truth",
+      "text": "The Instructions and tomb inscriptions treat honest speech as the basis of social life. The ideal is plain, steady speech.",
+      "practice": "Speak one thing plainly today where you might have been vague."
+    },
+    {
+      "title": "Give bread to the hungry",
+      "text": "A great number of tomb autobiographies claim that the owner gave bread to the hungry, clothes to the naked and a boat to the stranded. Generosity was the proof of a righteous life.",
+      "practice": "Give food or money to someone who needs it, without being asked."
+    },
+    {
+      "title": "Humility before knowledge",
+      "text": "Ptahhotep advises not to be proud of knowledge and to consult both ignorant and wise, because mastery of a craft is never complete.",
+      "practice": "Ask someone you think knows less than you for their view."
+    },
+    {
+      "title": "Fairness in measure",
+      "text": "Amenemope warns against moving boundary markers and falsifying scales. Honest weights are a sign of an honest heart.",
+      "practice": "Look for a place where you rounded in your own favour and correct it."
+    },
+    {
+      "title": "Protect the weak",
+      "text": "The Eloquent Peasant, a Middle Kingdom story, shows a poor man demanding justice from an official. Justice must reach the lowest.",
+      "practice": "Defend someone who has little power, even in a small way."
+    },
+    {
+      "title": "Keep your composure",
+      "text": "Amenemope contrasts the heated man with the truly silent one, who is like a tree growing quietly in a garden.",
+      "practice": "Wait ten seconds before your next heated reply."
+    }
+  ],
+  "philosophy": [
+    {
+      "title": "Maat",
+      "text": "Maat means truth, justice, balance and cosmic order, and also names the goddess who stands for them. To the Egyptians the world was held in order by acts that agreed with Maat, and disorder, isfet, was always at the edge.",
+      "practice": "Name one thing that restores balance in a situation you face today."
+    },
+    {
+      "title": "The parts of a person",
+      "text": "A person was made of several parts: the body, the name, the shadow, the heart, the ka and the ba. After death these had to be reunited and nourished for the person to live again. The self was plural.",
+      "practice": "List four parts of your own self: body, name, habits, and what you leave behind."
+    },
+    {
+      "title": "The sun’s journey",
+      "text": "Each night the sun god Ra travelled through the Duat, the underworld, and each dawn he was reborn. The cycle gave a model of death and renewal for every person.",
+      "practice": "Think of an ending in your life as a night journey before a morning."
+    },
+    {
+      "title": "The weighing of the heart",
+      "text": "The heart was weighed against the feather of Maat. A heavy heart, burdened by wrongdoing, would be devoured by the monster Ammit. The image makes conscience visible.",
+      "practice": "Ask what would make your heart heavier or lighter tomorrow."
+    },
+    {
+      "title": "Heka",
+      "text": "Heka, often translated as magic, was the power of words and acts to shape reality. Gods themselves used it. In daily life it was carried out through spells, amulets and recitations that were believed to work.",
+      "practice": "Say one sentence today that you intend to make true."
+    },
+    {
+      "title": "The name",
+      "text": "A person’s name was a part of their being. Erasing a name from a monument was meant to destroy them, and speaking it kept them alive.",
+      "practice": "Write the full name of someone you love and think of its meaning."
+    },
+    {
+      "title": "Memory as immortality",
+      "text": "The Egyptians built tombs, statues and written lives to keep memory alive. To be remembered and spoken of was a kind of eternity.",
+      "practice": "Write three sentences you would want someone to say about you."
+    },
+    {
+      "title": "The Nile cycle",
+      "text": "The yearly flood brought new soil and the promise of harvest. Egyptians accepted the cycle of flood, growth and harvest as the pattern of life.",
+      "practice": "Identify your own cycle of rest, effort and harvest."
+    },
+    {
+      "title": "One god or many",
+      "text": "Akhenaten promoted the Aten, the sun disc, above all other gods in the fourteenth century BCE. His Great Hymn praises a single giver of life. Whether it was monotheism or something else is still debated.",
+      "practice": "Read a few lines of the Great Hymn to the Aten and notice what it praises."
+    },
+    {
+      "title": "The first time",
+      "text": "Egyptian creation stories describe a mound arising from the waters of chaos, with a creator who spoke or thought the world into being. Different cities told different versions.",
+      "practice": "Think of how a piece of work of yours began from a mound in a mess."
+    }
+  ],
+  "journal": [
+    "What was true today?",
+    "What did you do that was right, however small?",
+    "Where did you take more than you gave?",
+    "Whom did you feed or help?",
+    "Did you cause anyone to weep, and what can you mend?",
+    "What name did you speak today?",
+    "What season of your life are you in?",
+    "What did you write or draw by hand?",
+    "What did you leave exact, measured or well made?",
+    "Where did you keep your composure?",
+    "What does the sun’s rising mean to you?",
+    "What do you hope to be remembered for?",
+    "What would you put in a tomb or letter to the future?",
+    "What did you learn about humility?",
+    "Whom did you listen to?",
+    "What is your heart heavy with?",
+    "What is light in your heart?",
+    "What would you ask a wise elder?",
+    "What did you repair?",
+    "What did you share from your table?",
+    "Where did you face disorder and what restored order?",
+    "Where did you see something beautiful that will last?",
+    "What did you notice in the light of the day?",
+    "What do you owe to your ancestors?",
+    "What did the river of time carry past you today?",
+    "Where did your words have power?",
+    "What do you want to leave in better order than you found it?",
+    "Whom did you thank?",
+    "What did you finish?",
+    "What will you keep from this fortnight?"
+  ],
+  "reflect": [
+    "What did Maat mean in your own days?",
+    "What changed when you weighed your heart each evening?",
+    "Whose name did you speak, and what did it bring up?",
+    "What did the seasons teach you about timing?",
+    "What will you keep: the morning, the sign, the weighing or the season?",
+    "What would you like to learn about Egypt from Egyptian scholars?"
+  ],
+  "dayThemes": [
+    "The rising sun",
+    "Truth and balance",
+    "The black land",
+    "The three seasons",
+    "A sign and a sound",
+    "The weighing of the heart",
+    "Bread and beer",
+    "The scribe’s craft",
+    "A name kept alive",
+    "The river’s gift",
+    "Order against chaos",
+    "The house of life",
+    "Gold and lapis",
+    "The pyramid builders",
+    "The wisdom of Ptahhotep",
+    "Justice for the poor",
+    "The queen who ruled",
+    "The sun disc",
+    "Words that act",
+    "A tomb and its paintings",
+    "The night journey",
+    "The harper’s song",
+    "The boundary stone",
+    "Listening and restraint",
+    "The stone that spoke",
+    "The temple and the people",
+    "Memory and monument",
+    "A game for the dead",
+    "The last hieroglyph",
+    "What endures"
+  ],
+  "guide": {
+    "origin": "The Nile valley and delta in north-east Africa",
+    "era": "c. 3100 BCE to 394 CE",
+    "intro": [
+      "Ancient Egyptian civilisation grew along the Nile for more than three thousand years. Its kings ruled from about 3100 BCE, when tradition says Narmer joined the upper and lower lands, until the last Greek and Roman rulers. In that time it built pyramids and temples, invented a system of writing, kept records on papyrus, and developed laws, medicine, mathematics, and a rich religious and ethical thought.",
+      "The river shaped everything. Every year the Nile flooded and left rich black silt, and Egyptians named their country Kemet, the black land, against the red land of the desert. Their calendar had three seasons of four months: the flood, the growing season and the harvest. The sun that crossed the sky and was reborn each dawn, and the river that returned every year, taught them a world of cycles.",
+      "Their central ethical idea was Maat: truth, justice, balance and the order of the universe. Kings were responsible for maintaining it, and every person could contribute through honest speech and fair dealing. Against Maat stood isfet, disorder and falsehood. In the afterlife, the heart of the dead was weighed against the feather of Maat, and the person who had lived justly could pass to eternal life.",
+      "Egyptian wisdom literature, the Instructions of Ptahhotep and Amenemope among others, gives practical advice about speech, restraint, honesty and generosity. Tomb inscriptions record the good that people claimed to have done, such as giving bread to the hungry. The picture of the Egyptians as obsessed only with death is misleading: the tomb was a way of keeping life going, and the surviving texts show warmth, humour and love of this world.",
+      "We know them through monuments, tombs and papyri, and the story of how we learned to read them is itself remarkable. After the last hieroglyphic inscription was carved in 394 CE, the script fell out of use. The Rosetta Stone, found in 1799, held the same text in hieroglyphs, a later script and Greek, and in 1822 Jean-François Champollion announced that he had deciphered it. Howard Carter’s discovery of Tutankhamun’s tomb in 1922 made Egypt famous again.",
+      "This Onda borrows a few habits from that world: a morning of truth, a hieroglyph, an evening weighing of the heart and a sense of season. It is not a religion and does not ask you to worship its gods. Modern books and films also carry many invented claims about Egypt, from lost advanced technology to alien builders, which the evidence does not support. The Egyptians built their monuments themselves, with skill and organisation."
+    ],
+    "figures": [
+      {
+        "name": "Imhotep",
+        "dates": "fl. c. 2650 BCE",
+        "bio": "Official and architect under King Djoser, credited with the Step Pyramid at Saqqara. Later honoured as a god of healing.",
+        "unverified": true
+      },
+      {
+        "name": "Hatshepsut",
+        "dates": "r. c. 1479–1458 BCE",
+        "bio": "Became pharaoh after the death of her husband and ruled for about two decades. She built a great temple at Deir el-Bahari and sent a trading expedition to Punt."
+      },
+      {
+        "name": "Akhenaten",
+        "dates": "r. c. 1353–1336 BCE",
+        "bio": "King who promoted the worship of the sun disc, the Aten, moved the capital to Amarna and changed Egyptian art."
+      },
+      {
+        "name": "Nefertiti",
+        "dates": "c. 1370 to c. 1330 BCE",
+        "bio": "Queen and wife of Akhenaten. Her painted bust is among the most famous works of ancient art.",
+        "unverified": true
+      },
+      {
+        "name": "Tutankhamun",
+        "dates": "r. c. 1332–1323 BCE",
+        "bio": "A boy king whose nearly intact tomb was found in 1922. He restored the old gods after Akhenaten."
+      },
+      {
+        "name": "Ramesses II",
+        "dates": "r. c. 1279–1213 BCE",
+        "bio": "Long-reigning king who built Abu Simbel and signed an early peace treaty with the Hittites."
+      },
+      {
+        "name": "Ptahhotep",
+        "dates": "vizier, 24th century BCE",
+        "bio": "Official credited with an Instruction of advice to his son. The surviving texts are copies made centuries later.",
+        "unverified": true
+      },
+      {
+        "name": "Cleopatra VII",
+        "dates": "69 to 30 BCE",
+        "bio": "The last active ruler of Ptolemaic Egypt. Spoke Egyptian and Greek, and died after the defeat of Antony and her at Actium."
+      },
+      {
+        "name": "Jean-François Champollion",
+        "dates": "1790–1832",
+        "bio": "French scholar who announced the decipherment of hieroglyphs in 1822."
+      },
+      {
+        "name": "Howard Carter",
+        "dates": "1874–1939",
+        "bio": "English archaeologist who found Tutankhamun’s tomb in November 1922 after years of searching."
+      }
+    ],
+    "history": [
+      {
+        "when": "c. 3100 BCE",
+        "what": "Unification of Egypt",
+        "detail": "Tradition credits King Narmer, or Menes, with joining Upper and Lower Egypt. The Narmer Palette shows a king wearing the crowns of both lands.",
+        "unverified": true
+      },
+      {
+        "when": "c. 2670 BCE",
+        "what": "The Step Pyramid",
+        "detail": "Djoser’s architect, traditionally Imhotep, built the first monumental stone structure at Saqqara by stacking mastabas on top of each other.",
+        "unverified": true
+      },
+      {
+        "when": "c. 2560 BCE",
+        "what": "The Great Pyramid",
+        "detail": "Khufu’s pyramid at Giza, about 146 metres tall when finished, was the tallest human-made structure on Earth for nearly four thousand years."
+      },
+      {
+        "when": "c. 2055 BCE",
+        "what": "The Middle Kingdom",
+        "detail": "After a period of division, Mentuhotep II reunited Egypt and began a classical age of literature, art and administration."
+      },
+      {
+        "when": "c. 1650–1550 BCE",
+        "what": "The Hyksos",
+        "detail": "Rulers from the Levant held the north of Egypt for about a century. Theban kings expelled them and began the New Kingdom under Ahmose."
+      },
+      {
+        "when": "c. 1479 BCE",
+        "what": "Hatshepsut becomes king",
+        "detail": "Acting first as regent, she took the royal titles and ruled for about twenty years, building monuments and sending a trading mission to Punt."
+      },
+      {
+        "when": "c. 1353–1336 BCE",
+        "what": "The Amarna period",
+        "detail": "Akhenaten promoted the Aten, built a new capital at Amarna and changed art and religion. After his death the old order returned."
+      },
+      {
+        "when": "c. 1279–1213 BCE",
+        "what": "Ramesses II",
+        "detail": "A long reign of monuments, battles and diplomacy, including the treaty with the Hittites after the Battle of Kadesh."
+      },
+      {
+        "when": "332 BCE",
+        "what": "Alexander in Egypt",
+        "detail": "Alexander the Great took Egypt from the Persians and was welcomed. After his death, the Ptolemies, a dynasty founded by one of his generals, ruled for nearly three centuries from Alexandria."
+      },
+      {
+        "when": "30 BCE",
+        "what": "Egypt becomes Roman",
+        "detail": "After the defeat of Antony and Cleopatra the country became a province of Rome, and a granary of the empire."
+      },
+      {
+        "when": "394 CE",
+        "what": "The last hieroglyphs",
+        "detail": "The last datable hieroglyphic inscription was carved at the temple of Philae on 24 August 394. The ability to read the script was soon lost."
+      },
+      {
+        "when": "1799 and 1822",
+        "what": "The Rosetta Stone and its decipherment",
+        "detail": "French soldiers found the stone in 1799. In 1822 Champollion showed that hieroglyphs were partly sound signs and partly sense signs, and that they recorded the Egyptian language."
+      },
+      {
+        "when": "1922",
+        "what": "Tutankhamun’s tomb",
+        "detail": "On 4 November Howard Carter’s team found the first step to the tomb in the Valley of the Kings. The contents, almost untouched, took years to catalogue."
+      }
+    ],
+    "concepts": [
+      {
+        "term": "Maat",
+        "text": "Truth, justice, balance and cosmic order.",
+        "detail": "The central value of Egyptian thought. It was both an abstract principle and a goddess with a feather headdress. Kings were said to \"live by Maat\" and offer it to the gods. Ordinary people sought it in honest speech and just dealing."
+      },
+      {
+        "term": "Ka, ba and akh",
+        "text": "Aspects of a person.",
+        "detail": "The ka was a life force sustained by offerings, the ba a free-moving personality shown as a human-headed bird, and the akh the transfigured spirit that succeeded in the afterlife. They had to be united after death for a person to live on."
+      },
+      {
+        "term": "The weighing of the heart",
+        "text": "The judgement of the dead.",
+        "detail": "In the Book of the Dead, spell 125, the heart is weighed against the feather of Maat while Thoth records the result. The deceased recites a list of denials, such as \"I have not stolen\". If the heart is light, they proceed to Osiris. If not, the monster Ammit devours it."
+      },
+      {
+        "term": "The Duat",
+        "text": "The underworld the sun travels at night.",
+        "detail": "The sun god Ra sailed through twelve hours of night, fighting the serpent Apophis, and was reborn at dawn. The dead hoped to join the voyage. It is both a map of the afterlife and a metaphor for renewal."
+      },
+      {
+        "term": "Heka",
+        "text": "The power of effective words and acts.",
+        "detail": "A force that existed before the gods and was used by them. Spells, amulets and rituals tapped it. It was not set apart from medicine and craft, and physicians used both remedies and spells."
+      },
+      {
+        "term": "The name",
+        "text": "Part of a person’s being.",
+        "detail": "To speak or write a name kept its owner alive, and to erase it destroyed them. Kings placed theirs in cartouches, and tomb walls repeat names so that visitors would read them aloud."
+      },
+      {
+        "term": "Divine kingship",
+        "text": "The king as the link between gods and people.",
+        "detail": "The king was Horus alive on earth and the son of Ra, responsible for maintaining Maat by building temples, giving offerings and defending the land. Many kings were weak, and the ideal was tested often."
+      },
+      {
+        "term": "Hieroglyphs",
+        "text": "Sacred writing made of pictures.",
+        "detail": "The script mixes signs for sounds, signs for whole words and silent determinatives that show the kind of word. There are 24 single-consonant signs. It could be written in rows or columns, and the signs face the beginning of the line."
+      },
+      {
+        "term": "Wisdom literature",
+        "text": "Instructions for living well.",
+        "detail": "Scribes copied texts of advice, such as those of Ptahhotep, Merikare and Amenemope. They teach restraint in speech, fairness, kindness to the poor and humility. They were used to train young scribes."
+      },
+      {
+        "term": "The three seasons",
+        "text": "Flood, growth and harvest.",
+        "detail": "Akhet, peret and shemu shaped the year. The flood arrived in summer, the sowing and growth followed in the cooler months, and the harvest came in spring. Temple festivals and work followed the same rhythm."
+      }
+    ],
+    "facts": [
+      {
+        "text": "The pyramids were built by organised crews of Egyptian workers, who were housed, fed and buried near the pyramids at Giza. They were not slaves."
+      },
+      {
+        "text": "Cleopatra VII lived closer in time to the Moon landing than to the building of the Great Pyramid."
+      },
+      {
+        "text": "The Edwin Smith Papyrus, from about 1600 BCE, describes 48 medical cases in a systematic way, with examination, diagnosis and treatment."
+      },
+      {
+        "text": "Egyptians played senet, a board game, and several sets were buried with Tutankhamun."
+      },
+      {
+        "text": "The hieroglyphic alphabet of single-consonant signs has about 24 signs, but the script as a whole used hundreds of signs."
+      },
+      {
+        "text": "The Great Pyramid held the record as the tallest structure in the world for more than 3,800 years, until the spire of Lincoln Cathedral was completed around 1311."
+      },
+      {
+        "text": "Abu Simbel’s temples were cut into pieces and moved to higher ground in the 1960s to save them from the rising waters of Lake Nasser."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Nome",
+        "meaning": "A province of Egypt"
+      },
+      {
+        "term": "Vizier",
+        "meaning": "The chief minister of the king"
+      },
+      {
+        "term": "Mastaba",
+        "meaning": "A flat-roofed tomb structure above a burial shaft"
+      },
+      {
+        "term": "Stela",
+        "meaning": "A carved stone slab with inscriptions or images"
+      },
+      {
+        "term": "Obelisk",
+        "meaning": "A tall, tapering stone pillar topped with a small pyramid"
+      },
+      {
+        "term": "Ushabti",
+        "meaning": "A servant figure for the afterlife"
+      }
+    ],
+    "furtherReading": [
+      {
+        "title": "The Rise and Fall of Ancient Egypt",
+        "creator": "Toby Wilkinson",
+        "year": "2010",
+        "note": "A readable narrative of Egyptian history."
+      },
+      {
+        "title": "The Mind of Egypt",
+        "creator": "Jan Assmann",
+        "year": "2002",
+        "note": "On Egyptian religion, ideas and the invention of history."
+      },
+      {
+        "title": "Death and Salvation in Ancient Egypt",
+        "creator": "Jan Assmann",
+        "year": "2005",
+        "note": "On ideas of judgement, morality and the afterlife."
+      },
+      {
+        "title": "The Complete Pyramids",
+        "creator": "Mark Lehner",
+        "year": "1997",
+        "note": "A guide to every major pyramid."
+      },
+      {
+        "title": "Red Land, Black Land",
+        "creator": "Barbara Mertz",
+        "year": "1966",
+        "note": "A lively introduction to daily life in ancient Egypt."
+      }
+    ],
+    "learnFrom": [
+      {
+        "name": "The Egyptian Museum in Cairo and the Grand Egyptian Museum at Giza",
+        "note": "The home of the most important collections, with Egyptian curators and scholars."
+      },
+      {
+        "name": "Egypt Exploration Society and the American Research Center in Egypt",
+        "note": "Societies that support fieldwork and public lectures on Egyptology."
+      },
+      {
+        "name": "University departments of Egyptology and Egyptian archaeologists",
+        "note": "For language courses and current scholarship, look to universities with Egyptology programmes."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Ancient Egyptian Literature, 3 vols",
+        "creator": "Miriam Lichtheim",
+        "publisher": "University of California Press",
+        "year": "1973 to 1980"
+      },
+      {
+        "title": "The Egyptian Book of the Dead",
+        "creator": "Raymond Faulkner, edited by Ogden Goelet",
+        "publisher": "Chronicle Books",
+        "year": "1994"
+      },
+      {
+        "title": "The Oxford History of Ancient Egypt",
+        "creator": "Edited by Ian Shaw",
+        "publisher": "Oxford University Press",
+        "year": "2000"
+      },
+      {
+        "title": "Egyptian Grammar",
+        "creator": "Alan Gardiner",
+        "publisher": "Oxford University Press",
+        "year": "1927"
+      },
+      {
+        "title": "The Mind of Egypt",
+        "creator": "Jan Assmann",
+        "publisher": "Metropolitan Books",
+        "year": "2002"
+      },
+      {
+        "title": "The Rise and Fall of Ancient Egypt",
+        "creator": "Toby Wilkinson",
+        "publisher": "Random House",
+        "year": "2010"
+      }
+    ]
+  },
+  "sensitivity": {
+    "note": "Ancient Egyptian religion is no longer practised as a continuous tradition, though some modern groups reconstruct it. This Onda borrows ethical ideas, habits of attention and cultural material, and does not ask you to worship its gods. Vowels in Egyptian words are conventional, since the script did not record them.",
+    "requiredCaveats": [
+      "Pronunciations are modern conventions used by Egyptologists. Nobody knows exactly how the words sounded.",
+      "Be wary of popular claims about pyramid power, lost technology or alien builders. The evidence shows that the Egyptians built their monuments themselves.",
+      "Modern Egyptians are the people of today’s Egypt, not a museum. Learn from Egyptian scholars, writers and artists as well as from foreign Egyptologists."
+    ],
+    "reviewRequired": false
+  }
+}

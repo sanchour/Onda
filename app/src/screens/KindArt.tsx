@@ -137,6 +137,34 @@ const ORNAMENTS: Record<Ornament, ReactNode> = {
     </>
   ),
   dot: <circle cx="12" cy="12" r="1.8" fill="currentColor" />,
+  ankh: (
+    <>
+      <ellipse cx="12" cy="7.5" rx="3.6" ry="4.4" />
+      <path d="M12 12v9M6.5 14.5h11" />
+    </>
+  ),
+  star5: <path d="M12 3.5l2.4 5.6 6 .6-4.5 4 1.4 5.9L12 16.5l-5.3 3.1 1.4-5.9-4.5-4 6-.6z" />,
+  sunstone: (
+    <>
+      <circle cx="12" cy="12" r="3" />
+      <circle cx="12" cy="12" r="6.5" />
+      <path d="M12 2.5v3M12 18.5v3M2.5 12h3M18.5 12h3M5.3 5.3l2 2M16.7 16.7l2 2M18.7 5.3l-2 2M7.3 16.7l-2 2" />
+    </>
+  ),
+  drum: <path d="M5 5h14M5 19h14M7 5l5 7-5 7M17 5l-5 7 5 7" />,
+  hexagram: (
+    <>
+      <path d="M12 3.5l7.4 12.8H4.6z" />
+      <path d="M12 20.5L4.6 7.7h14.8z" />
+    </>
+  ),
+  pleroma: (
+    <>
+      <circle cx="12" cy="12" r="8.5" />
+      <circle cx="12" cy="12" r="1.8" fill="currentColor" />
+      <path d="M12 3.5v4M12 16.5v4M3.5 12h4M16.5 12h4" />
+    </>
+  ),
 }
 
 export function OrnamentIcon({ name, size = 22 }: { name: Ornament; size?: number }) {

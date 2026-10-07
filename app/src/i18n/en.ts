@@ -32,7 +32,7 @@ export const en = {
 
   paywall: {
     title: 'Ondas+', tagline: 'Live every tradition.',
-    b1: 'Every Onda', b1t: 'Ten traditions, plus your own.', b2: 'Unlimited Lagos', b2t: 'No limit on habits or check ins.',
+    b1: 'Every Onda', b1t: 'Sixteen worlds, plus your own.', b2: 'Unlimited Lagos', b2t: 'No limit on habits or check ins.',
     b3: 'Sync everywhere', b3t: 'Reminders, Calendar and Notion.', b4: 'Complete privacy', b4t: 'No ads, no data collected, no tracking.',
     startTrial: 'Start Free Trial', getLifetime: 'Get Lifetime · € 14,99', done: 'Done',
     subFree: '7 days free, then lifetime access for just € 14,99', subTrial: 'Lifetime access for just € 14,99', subLife: 'You have lifetime access',
@@ -63,7 +63,7 @@ export const en = {
     reminderFooter: 'When enabled, a reminder arrives at the chosen time.', defaultName: 'New Lago', iconNamed: 'Icon {{n}}',
   },
   gallery: {
-    title: 'Gallery', seeMore: 'See more', featured: 'Featured', startNow: 'Start Now', kicker: '{{count}} Day Lago',
+    title: 'Gallery', seeMore: 'See more', fromOndas: 'From the Ondas', fromOndasSub: 'Pick practices from any Onda and run them as Lagos.', pickPractices: 'Pick practices', practicesTitle: 'Practices', startN_one: 'Start {{count}} Lago', startN_other: 'Start {{count}} Lagos', pickSome: 'Choose at least one practice', startedN_one: '{{count}} Lago started', startedN_other: '{{count}} Lagos started', lengthLabel: 'How long', selectAll: 'Select all', selectNone: 'Clear', featured: 'Featured', startNow: 'Start Now', kicker: '{{count}} Day Lago',
     catSub: '{{count}} Lagos to experiment with', defaultDesc: 'Try it for {{count}} days and see what changes.',
     endsOn: 'Lago ends on {{date}} if you start today.', disclaimer: 'This is not professional advice. Please consult an expert if you are unsure.', startLago: 'Start Lago', started: 'Lago started',
   },
@@ -71,7 +71,7 @@ export const en = {
   ondas: {
     title: 'Ondas', newOnda: 'New Onda', browse: 'Browse Ondas', noRunning: 'No Onda running', noRunningSub: 'Browse the Ondas and step into one', kicker: 'Onda · {{label}}',
     dayOf: 'Day {{day}} of {{length}}', immerse: 'Immerse', journal: 'Journal', philosophy: 'Philosophy', guide: 'Full guide', today: 'Today', practicesOf: '{{done}} of {{total}} practices',
-    practices: 'Practices', rules: 'Rules', tasks: 'Tasks', allTitle: 'All Ondas', allSub: 'Ten traditions, one at a time', active: 'Active', mine: 'Yours',
+    practices: 'Practices', rules: 'Rules', tasks: 'Tasks', allTitle: 'All Ondas', allSub: 'Sixteen worlds, one at a time', active: 'Active', mine: 'Yours',
     noRules: 'No rules for this Onda', noTasks: 'No tasks for this Onda',
   },
   onda: {
@@ -94,14 +94,14 @@ export const en = {
     saved: 'Entry saved',
   },
   philosophy: {
-    title: 'Philosophy', lead: 'Ideas to carry through the day, and how to act on them.', think: 'Think about', ethics: 'Ethics and morality', tryIt: 'Try', tryThis: 'Try this today', onList: 'On your list for today', all: 'All',
+    title: 'Philosophy', lead: 'Ideas to carry through the day, and how to act on them.', think: 'Think about', ethics: 'Ethics and morality', ethicsTab: 'Ethics', tryIt: 'Try', tryThis: 'Try this today', onList: 'On your list for today', all: 'All',
     pickedCount_one: '{{count}} thing to try today', pickedCount_other: '{{count}} things to try today',
   },
   guide: {
     tabs: { overview: 'Overview', history: 'History', ideas: 'Ideas', ways: 'Ways', culture: 'Culture', language: 'Language', facts: 'Facts' },
     leadHistory: 'How it unfolded', leadIdeas: 'What it asks you to think about', leadWays: 'How to behave, and what to keep', leadCulture: 'Books, films, music, art, food and drink',
     leadLanguage: 'Words to carry through the days', leadFacts: 'Small things worth knowing',
-    introduction: 'Introduction', origin: 'Origin', era: 'Era', rule: 'Rule', practice: 'Practice', didYouKnow: 'Did you know', framing: 'A note on respect', learnFrom: 'Learn from', furtherReading: 'Further reading', sources: 'Sources',
+    jumpTo: 'Jump to', introduction: 'Introduction', origin: 'Origin', era: 'Era', rule: 'Rule', practice: 'Practice', didYouKnow: 'Did you know', framing: 'A note on respect', learnFrom: 'Learn from', furtherReading: 'Further reading', sources: 'Sources',
     unverified: 'Not yet verified', empty: 'Nothing added yet',
     concepts: 'Concepts', practices: 'Practices', rules: 'Rules', customs: 'Customs', words: 'Words', glossary: 'Glossary', figures: 'Key figures',
     readMore: 'Read more', showLess: 'Show less', expandAll: 'Expand all', collapseAll: 'Collapse all', nOf: '{{n}} of {{total}}', openLink: 'Open link',
@@ -149,7 +149,7 @@ export const en = {
     notif: { header: 'Reminders', daily: 'Daily check in', time: 'Time', evening: 'Evening review', eveningTime: 'Evening time', milestones: 'Milestones', footer: 'When enabled, a gentle reminder arrives at the time you choose.', status: 'Notifications', allowed: 'Allowed', denied: 'Blocked in iOS Settings', notAsked: 'Not set up', needsInstall: 'Add to Home Screen first', unsupported: 'Not supported here', enable: 'Turn On Notifications', test: 'Send Test', testSent: 'Test sent' },
     practice: { weekStarts: 'Week starts', monday: 'Monday', sunday: 'Sunday', includeFood: 'Include food', haptics: 'Haptics', sounds: 'Sounds', foodFooter: 'When disabled, dishes and drinks are left out of immersion.' },
     integrations: { header: 'Integrations', reminders: 'Apple Reminders', viaShortcuts: 'Via Shortcuts', calendar: 'Calendar', notion: 'Notion', connected: 'Connected', off: 'Off', subscribed: 'Subscribed', footer: 'Lagos and Onda practices can appear in Reminders, Onda schedules in Calendar, and everything in Notion.', needsAccount: 'Sign in to use integrations', needsBackend: 'Sync server not configured' },
-    data: { history: 'History & Stats', export: 'Export Data', exported: 'Export saved', account: 'Account', signedOut: 'Not signed in', anonymous: 'This device only', sync: 'Device sync', syncNow: 'Sync Now', lastSynced: 'Last synced', pending_one: '{{count}} change waiting', pending_other: '{{count}} changes waiting', loadDemo: 'Load Demo Data', demoLoaded: 'Demo data loaded', footer: 'Your data lives on this device first. Signing in keeps a private copy in sync across your devices.' },
+    data: { history: 'History & Stats', export: 'Export Data', exported: 'Export saved', import: 'Import Data', imported_one: 'Imported {{count}} record', imported_other: 'Imported {{count}} records', skipped_one: '{{count}} skipped.', skipped_other: '{{count}} skipped.', importBad: 'That is not an Onda export', importNewer: 'That export is from a newer version of Onda', backupFooter: 'Export saves everything on this device as one file. Import merges a file back in: newer edits win and nothing is deleted. Photos and your subscription are not included.', account: 'Account', signedOut: 'Not signed in', anonymous: 'This device only', sync: 'Device sync', syncNow: 'Sync Now', lastSynced: 'Last synced', pending_one: '{{count}} change waiting', pending_other: '{{count}} changes waiting', loadDemo: 'Load Demo Data', demoLoaded: 'Demo data loaded', footer: 'Your data lives on this device first. Signing in keeps a private copy in sync across your devices.' },
     privacy: { appLock: 'Face ID Lock', hide: 'Hide in App Switcher', footer: 'When enabled, Onda asks for Face ID or your passcode when opened.', lockUnsupported: 'Not available on this device', unlock: 'Unlock', locked: 'Onda is locked', noTracking: 'No ads, no trackers, no third-party analytics.' },
     help: { support: 'Support', help: 'Help & Feedback', whatsNew: "What's New", rate: 'Rate Onda', privacyPolicy: 'Privacy Policy', terms: 'Terms', about: 'About', versionRow: 'Version', replay: 'Replay Onboarding', install: 'Add to Home Screen' },
     danger: { reset: 'Reset All Data', signOut: 'Sign Out', deleteAccount: 'Delete Account', confirmReset: 'Erase everything on this device', confirmDelete: 'Delete your account and all synced data', confirm: 'Tap Again to Confirm', resetDone: 'All data erased', deleted: 'Account deleted' },
@@ -181,7 +181,8 @@ export const en = {
   },
   a2hs: { title: 'Add Onda to Home Screen', body: 'Tap Share, then Add to Home Screen. Onda opens full screen and works offline.', dismiss: 'Dismiss' },
   sw: { updateReady: 'A new version is ready', reload: 'Reload', offlineReady: 'Ready to use offline' },
-  whatsNew: { title: "What's New", v1: '1.0', v1date: '2026-10-06', v1a: 'Lagos: habit experiments with streaks, notes and photos.', v1b: 'Ondas: ten traditions to live for 7 to 30 days.', v1c: 'Notion, Calendar and Reminders integrations.' },
+  whatsNew: { title: "What's New", v1: '1.0', v1date: '2026-10-06', v1a: 'Lagos: habit experiments with streaks, notes and photos.', v1b: 'Ondas: ten traditions to live for 7 to 30 days.', v1c: 'Notion, Calendar and Reminders integrations.',
+    v13: '1.3', v13date: '2026-10-08', v13a: 'Six new Ondas: Soviet Union, Yoruba, Aztec, Ancient Egypt, Hermeticism and Gnosticism.', v13b: 'The accent follows your Onda, with new looks for each one.', v13c: 'Export and import your data, and a full-page guide that is easy to navigate.' },
   legal: {
     privacyTitle: 'Privacy Policy', termsTitle: 'Terms',
     privacyBody: 'Onda stores your data on your device. If you sign in, a private copy is kept on our sync server so it follows you across devices. There are no ads, no trackers and no third-party analytics. You can export or delete everything in Settings, Data. Integrations you connect (Notion, Calendar, Reminders) receive only what you choose to send.',

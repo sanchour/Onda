@@ -1,0 +1,1051 @@
+{
+  "version": 1,
+  "id": "gnostic",
+  "name": "Gnosticism",
+  "origin": "The late antique Mediterranean",
+  "era": "1st to 4th centuries CE, with living descendants",
+  "tone": "purple",
+  "icon": "fire",
+  "font": "forum",
+  "pattern": "emanation-arcs",
+  "glyph": "Gnosis",
+  "line": "Seek, question the given and look for the light within.",
+  "quote": {
+    "text": "If you bring forth what is within you, what you bring forth will save you. If you do not bring forth what is within you, what you do not bring forth will destroy you.",
+    "by": "Gospel of Thomas",
+    "source": "Saying 70, trans. after Marvin Meyer"
+  },
+  "quotes": [
+    {
+      "text": "Those who seek should not stop seeking until they find.",
+      "by": "Gospel of Thomas",
+      "source": "Saying 2, trans. after Marvin Meyer",
+      "unverified": true
+    },
+    {
+      "text": "For I am the first and the last. I am the honored one and the scorned one.",
+      "by": "Thunder, Perfect Mind",
+      "source": "Nag Hammadi Codex VI, trans. after George MacRae"
+    },
+    {
+      "text": "Who we were, what we have become; where we were, where we were placed; where we are hastening, from what we are redeemed; what birth is, and what rebirth.",
+      "by": "Valentinian formula",
+      "source": "Excerpts of Theodotus 78, preserved by Clement of Alexandria; trans. varies",
+      "unverified": true
+    },
+    {
+      "text": "The Son of Man is within you. Follow after him.",
+      "by": "Gospel of Mary",
+      "source": "Berlin Codex, trans. after R. McL. Wilson and George MacRae",
+      "unverified": true
+    }
+  ],
+  "words": [
+    {
+      "id": "word-gnosis",
+      "term": "Gnosis",
+      "meaning": "Knowledge by direct insight, not by information",
+      "pronunciation": "NOH-sis",
+      "language": "Greek",
+      "usage": "The word at the centre of the movements. Salvation was understood as knowing who one is and where one comes from."
+    },
+    {
+      "id": "word-pleroma",
+      "term": "Pleroma",
+      "meaning": "Fullness; the divine realm of the aeons",
+      "pronunciation": "PLEH-roh-mah",
+      "language": "Greek",
+      "usage": "The world of light before and above the lower world."
+    },
+    {
+      "id": "word-kenoma",
+      "term": "Kenoma",
+      "meaning": "Emptiness; the lower, deficient realm",
+      "pronunciation": "keh-NOH-mah",
+      "language": "Greek",
+      "usage": "The counterpart of pleroma in some Valentinian texts.",
+      "unverified": true
+    },
+    {
+      "id": "word-aeon",
+      "term": "Aeon",
+      "meaning": "An age; a divine being emanating from the source",
+      "pronunciation": "EE-on",
+      "language": "Greek",
+      "usage": "In many systems the aeons are pairs of divine powers that unfold from the One."
+    },
+    {
+      "id": "word-sophia",
+      "term": "Sophia",
+      "meaning": "Wisdom; the aeon whose fall begins the story",
+      "pronunciation": "soh-FEE-ah",
+      "language": "Greek",
+      "usage": "In many myths the youngest aeon who acts without her partner and brings about the world."
+    },
+    {
+      "id": "word-demiurge",
+      "term": "Demiurge",
+      "meaning": "The craftsman; the lesser creator of the material world",
+      "pronunciation": "DEM-ee-urj",
+      "language": "Greek",
+      "usage": "A word from Plato’s Timaeus, used by many texts for the maker of the cosmos."
+    },
+    {
+      "id": "word-yaldabaoth",
+      "term": "Yaldabaoth",
+      "meaning": "A name of the lesser creator in Sethian texts",
+      "pronunciation": "YAHL-dah-bah-oth",
+      "language": "Aramaic or Hebrew, in Greek texts",
+      "usage": "The ignorant ruler who claims to be the only god. The origin of the name is debated.",
+      "unverified": true
+    },
+    {
+      "id": "word-archon",
+      "term": "Archon",
+      "meaning": "A ruler; one of the powers that govern the world",
+      "pronunciation": "AR-kon",
+      "language": "Greek",
+      "usage": "In many texts, the rulers who hold souls in the world."
+    },
+    {
+      "id": "word-pneuma",
+      "term": "Pneuma",
+      "meaning": "Spirit; breath",
+      "pronunciation": "NYOO-mah",
+      "language": "Greek",
+      "usage": "In Valentinian thought the highest part of a person."
+    },
+    {
+      "id": "word-psyche",
+      "term": "Psyche",
+      "meaning": "Soul; life breath",
+      "pronunciation": "sy-KEE",
+      "language": "Greek",
+      "usage": "The middle part of the person in a threefold scheme."
+    },
+    {
+      "id": "word-hyle",
+      "term": "Hyle",
+      "meaning": "Matter",
+      "pronunciation": "HOO-leh",
+      "language": "Greek",
+      "usage": "The lowest part, bound to the body."
+    },
+    {
+      "id": "word-logos",
+      "term": "Logos",
+      "meaning": "Word; reason",
+      "pronunciation": "LOH-gos",
+      "language": "Greek",
+      "usage": "The divine word through which things are known or made."
+    },
+    {
+      "id": "word-barbelo",
+      "term": "Barbelo",
+      "meaning": "The first emanation of the divine source in Sethian texts",
+      "pronunciation": "bar-BEH-loh",
+      "language": "Greek or Coptic",
+      "usage": "The divine mother or first thought. The origin of the name is unknown.",
+      "unverified": true
+    },
+    {
+      "id": "word-epinoia",
+      "term": "Epinoia",
+      "meaning": "Thought; insight",
+      "pronunciation": "eh-pee-NOY-ah",
+      "language": "Greek",
+      "usage": "In the Apocryphon of John a power of light that helps Adam awaken."
+    },
+    {
+      "id": "word-apocryphon",
+      "term": "Apocryphon",
+      "meaning": "A secret writing",
+      "pronunciation": "ah-POK-rih-fon",
+      "language": "Greek",
+      "usage": "As in the Apocryphon of John, the \"secret book\" of John."
+    },
+    {
+      "id": "word-nag-hammadi",
+      "term": "Nag Hammadi",
+      "meaning": "The Egyptian town near which thirteen codices were found in 1945",
+      "pronunciation": "nahg hah-MAH-dee",
+      "language": "Arabic",
+      "usage": "The source of most of what we now read directly by gnostic writers."
+    },
+    {
+      "id": "word-codex",
+      "term": "Codex",
+      "meaning": "A book made of folded sheets, not a scroll",
+      "pronunciation": "KOH-deks",
+      "language": "Latin",
+      "usage": "The form of the Nag Hammadi books, bound in leather."
+    },
+    {
+      "id": "word-coptic",
+      "term": "Coptic",
+      "meaning": "The last stage of the Egyptian language, written in Greek letters",
+      "pronunciation": "KOP-tik",
+      "language": "English",
+      "usage": "The language of the Nag Hammadi library translations."
+    },
+    {
+      "id": "word-valentinian",
+      "term": "Valentinian",
+      "meaning": "Followers of the teacher Valentinus",
+      "pronunciation": "val-en-TIN-ee-an",
+      "language": "English",
+      "usage": "A school that stayed close to ordinary Christian life."
+    },
+    {
+      "id": "word-sethian",
+      "term": "Sethian",
+      "meaning": "A school that revered Seth, son of Adam",
+      "pronunciation": "SETH-ee-an",
+      "language": "English",
+      "usage": "The tradition behind the Apocryphon of John, a modern scholarly label."
+    },
+    {
+      "id": "word-mandaean",
+      "term": "Mandaean",
+      "meaning": "A follower of an existing Gnostic religion of Iraq and Iran",
+      "pronunciation": "man-DEE-an",
+      "language": "English",
+      "usage": "From manda, \"knowledge\" in Mandaic. A community that continues today."
+    },
+    {
+      "id": "word-manichaean",
+      "term": "Manichaean",
+      "meaning": "A follower of the prophet Mani",
+      "pronunciation": "man-ih-KEE-an",
+      "language": "English",
+      "usage": "A dualist religion that once stretched from Rome to China."
+    },
+    {
+      "id": "word-heresiology",
+      "term": "Heresiology",
+      "meaning": "The writing of opponents against \"heresies\"",
+      "pronunciation": "her-eh-zee-OL-oh-jee",
+      "language": "English",
+      "usage": "Most of what we knew about gnostics before 1945 came from their hostile critics."
+    },
+    {
+      "id": "word-hairesis",
+      "term": "Hairesis",
+      "meaning": "A choice; a school of thought",
+      "pronunciation": "HIGH-reh-sis",
+      "language": "Greek",
+      "usage": "The root of \"heresy\". It first meant a philosophical school, not a wrong belief."
+    },
+    {
+      "id": "word-docetism",
+      "term": "Docetism",
+      "meaning": "The view that Christ only seemed to have a body",
+      "pronunciation": "doh-SEE-tiz-um",
+      "language": "English",
+      "usage": "A belief ascribed to some gnostic groups.",
+      "unverified": true
+    },
+    {
+      "id": "word-emanation",
+      "term": "Emanation",
+      "meaning": "A flowing out from a source",
+      "pronunciation": "em-ah-NAY-shun",
+      "language": "English",
+      "usage": "How the divine realms arise from the One, as light from a lamp."
+    },
+    {
+      "id": "word-dualism",
+      "term": "Dualism",
+      "meaning": "A view with two opposed principles",
+      "pronunciation": "DOO-ah-liz-um",
+      "language": "English",
+      "usage": "Light and dark, spirit and matter. Not all gnostic systems were dualist in the same way."
+    },
+    {
+      "id": "word-bridal-chamber",
+      "term": "Bridal chamber",
+      "meaning": "A Valentinian image of union with the divine",
+      "pronunciation": "BRY-dul CHAYM-ber",
+      "language": "English",
+      "usage": "A sacrament or symbol in the Gospel of Philip.",
+      "unverified": true
+    },
+    {
+      "id": "word-anthropos",
+      "term": "Anthropos",
+      "meaning": "The Human; the primal human being",
+      "pronunciation": "AN-throh-pos",
+      "language": "Greek",
+      "usage": "A divine image of the human found in several myths."
+    },
+    {
+      "id": "word-saying",
+      "term": "Saying",
+      "meaning": "A short teaching ascribed to Jesus",
+      "pronunciation": "SAY-ing",
+      "language": "English",
+      "usage": "The Gospel of Thomas is a collection of 114 of them."
+    },
+    {
+      "id": "word-seth",
+      "term": "Seth",
+      "meaning": "Third son of Adam and Eve, a hero of Sethian texts",
+      "pronunciation": "seth",
+      "language": "Hebrew",
+      "usage": "Seen as the ancestor of a line that carries the divine spark."
+    },
+    {
+      "id": "word-mary-magdalene",
+      "term": "Mary Magdalene",
+      "meaning": "A disciple of Jesus, prominent in several gnostic gospels",
+      "pronunciation": "MAH-ree MAG-dah-leen",
+      "language": "English",
+      "usage": "In the Gospel of Mary she teaches the other disciples."
+    }
+  ],
+  "practices": [
+    {
+      "id": "seek",
+      "name": "Seek until you find",
+      "icon": "lightbulb",
+      "slot": "Morning",
+      "time": "07:00",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Write one question you are living with on a card. Make it a real one, such as what is mine to do, or what am I afraid of. Sit with it for five minutes without answering. Then write what comes to mind in a few lines. Do not hurry to a conclusion. Repeat the same question each morning for the length of the Onda and see how it changes.",
+      "why": "The Gospel of Thomas begins by saying that one who seeks must not stop until they find. Treating a question as a companion, not a problem to dispose of, is a gentle way of practising that spirit.",
+      "variations": [
+        "Choose a different question each day.",
+        "Ask it aloud to a friend and listen to theirs.",
+        "Write the question on a stone or card and keep it with you."
+      ]
+    },
+    {
+      "id": "bring-forth",
+      "name": "What is within",
+      "icon": "fire",
+      "slot": "Afternoon",
+      "time": "15:30",
+      "minutes": 15,
+      "meta": "Afternoon · 15 min",
+      "instructions": "Set aside fifteen minutes for something that is within you and rarely comes out: a sketch, a paragraph, a song, a letter you will not send. Do it without an audience and without a purpose. Stop when the time is up. Afterwards write a line on what it felt like to bring it forth and what it might mean to keep it back.",
+      "why": "Saying 70 of the Gospel of Thomas says that what you bring forth will save you and what you do not will destroy you. Whether read as religion or psychology, it points to the cost of leaving what is inside unexpressed.",
+      "variations": [
+        "Do it with your non-dominant hand.",
+        "Write it and burn or delete it.",
+        "Show it to one trusted person."
+      ]
+    },
+    {
+      "id": "three-questions",
+      "name": "Who, whence and whither",
+      "icon": "compass",
+      "slot": "Evening",
+      "time": "21:00",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Take the old Valentinian questions and answer them in a notebook, a line each: Who were we? What have we become? Where were we, and where have we been placed? Where are we hastening? From what are we redeemed? What is birth, and what is rebirth? Do not try to answer all in one night. Pick one each evening and write for ten minutes.",
+      "why": "The Valentinians summed up gnosis as knowing who we were, what we have become, where we are heading and from what we are released. The questions work as a daily review of identity and direction.",
+      "variations": [
+        "Answer in a letter to yourself in ten years.",
+        "Discuss one with a friend.",
+        "Draw a map of your own answer."
+      ]
+    },
+    {
+      "id": "stillness-and-light",
+      "name": "Stillness and light",
+      "icon": "sun",
+      "slot": "Morning",
+      "time": "06:30",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Sit comfortably in a dim room. Close your eyes or look softly at a single candle or window. Imagine, without forcing it, a small light in the centre of your chest. Do not try to make it bigger. Stay with it, and when thoughts take you, return. At the end, say to yourself quietly: this is where I come from. Then open your eyes.",
+      "why": "Many gnostic texts speak of a spark of light within the person that comes from the divine source. A practice of quiet attention is a safe and old way to explore that image as a poetic idea.",
+      "variations": [
+        "Do it outdoors at dawn.",
+        "Say a line from Thomas or Thunder, Perfect Mind in place of the closing sentence.",
+        "Write a line afterwards on what you saw."
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": "read-one-saying-of-thomas-slowly",
+      "name": "Read one saying of Thomas slowly",
+      "meta": "And ask what it asks of you",
+      "time": "12:00",
+      "slot": "Afternoon"
+    },
+    {
+      "id": "look-at-the-sky-at-dusk-and-name-what-you-do-not-know",
+      "name": "Look at the sky at dusk and name what you do not know",
+      "meta": "A list of three unknowns",
+      "time": "19:00",
+      "slot": "Evening"
+    },
+    {
+      "id": "keep-a-dream-or-thought-journal-for-the-night",
+      "name": "Keep a dream or thought journal for the night",
+      "meta": "Place a notebook beside the bed",
+      "time": "22:00",
+      "slot": "Evening"
+    }
+  ],
+  "rules": [
+    {
+      "id": "r1",
+      "text": "Keep seeking and do not rest in borrowed answers",
+      "why": "The mood of the Gospel of Thomas is questioning. A belief you have tested is worth more than one you inherited."
+    },
+    {
+      "id": "r2",
+      "text": "Read the sources, not just the summaries",
+      "why": "Our idea of the gnostics was shaped for centuries by their critics. Go to the texts and to modern scholars."
+    },
+    {
+      "id": "r3",
+      "text": "Do not claim certainty about what is unknown",
+      "why": "The texts are fragmentary and the movements varied. Hold your conclusions loosely."
+    },
+    {
+      "id": "r4",
+      "text": "Treat the body and the world with respect",
+      "why": "Some texts despised the world, but others did not, and ordinary life is where the practice happens. Do not use these ideas to despise yourself."
+    },
+    {
+      "id": "r5",
+      "text": "Pay attention to what is within you",
+      "why": "The tradition keeps returning to an inner source. Give it a few minutes a day."
+    },
+    {
+      "id": "r6",
+      "text": "Beware of secret knowledge sold as a shortcut",
+      "why": "Gnostic teaching was never a quick trick. Be suspicious of anyone who promises hidden truth for a fee."
+    }
+  ],
+  "immerse": {
+    "read": [
+      {
+        "id": "read-the-nag-hammadi-scriptures",
+        "title": "The Nag Hammadi Scriptures",
+        "creator": "Edited by Marvin Meyer",
+        "year": "2007",
+        "why": "The principal Nag Hammadi texts in a single accessible English volume."
+      },
+      {
+        "id": "read-the-gnostic-gospels",
+        "title": "The Gnostic Gospels",
+        "creator": "Elaine Pagels",
+        "year": "1979",
+        "why": "A well-known book that explains how the Nag Hammadi find changed ideas of early Christianity. It won the National Book Award."
+      },
+      {
+        "id": "read-what-is-gnosticism",
+        "title": "What Is Gnosticism?",
+        "creator": "Karen L. King",
+        "year": "2003",
+        "why": "A rigorous critique of the category and a history of the term."
+      },
+      {
+        "id": "read-the-gnostic-religion",
+        "title": "The Gnostic Religion",
+        "creator": "Hans Jonas",
+        "year": "1958",
+        "why": "A philosophical classic that sets gnosticism beside modern existentialism."
+      },
+      {
+        "id": "read-rethinking-gnosticism",
+        "title": "Rethinking \"Gnosticism\"",
+        "creator": "Michael Allen Williams",
+        "year": "1996",
+        "why": "Argues that the category should be dropped, and replaced with more precise terms."
+      },
+      {
+        "id": "read-the-gospel-of-thomas-the-hidden-sayings-of-jesus",
+        "title": "The Gospel of Thomas: The Hidden Sayings of Jesus",
+        "creator": "Marvin Meyer",
+        "year": "1992",
+        "why": "A translation of all 114 sayings with commentary."
+      },
+      {
+        "id": "read-the-gospel-of-judas",
+        "title": "The Gospel of Judas",
+        "creator": "Rodolphe Kasser, Marvin Meyer and Gregor Wurst",
+        "year": "2006",
+        "why": "The first publication of a text found in the Codex Tchacos, with essays."
+      },
+      {
+        "id": "read-beyond-belief-the-secret-gospel-of-thomas",
+        "title": "Beyond Belief: The Secret Gospel of Thomas",
+        "creator": "Elaine Pagels",
+        "year": "2003",
+        "why": "A reading of Thomas and John side by side."
+      }
+    ],
+    "watch": [
+      {
+        "id": "watch-the-gospel-of-judas",
+        "title": "The Gospel of Judas",
+        "creator": "National Geographic",
+        "year": "2006",
+        "why": "A documentary on the discovery, restoration and meaning of the Codex Tchacos."
+      },
+      {
+        "id": "watch-the-matrix",
+        "title": "The Matrix",
+        "creator": "The Wachowskis",
+        "year": "1999",
+        "why": "A film about a false world and awakening. Scholars have noted gnostic echoes. It is a modern work and not a source."
+      }
+    ],
+    "listen": [],
+    "art": [
+      {
+        "id": "art-abraxas-gems",
+        "title": "Abraxas gems",
+        "creator": "Craftsmen of the Roman Empire",
+        "year": "2nd to 4th centuries CE",
+        "why": "Small engraved stones showing a figure with a rooster’s head and snake legs, named Abraxas. Many are in museum collections."
+      },
+      {
+        "id": "art-the-ancient-of-days",
+        "title": "The Ancient of Days",
+        "creator": "William Blake",
+        "year": "1794",
+        "why": "A frontispiece showing a figure measuring the world with compasses. Many readers see in it a lesser creator."
+      },
+      {
+        "id": "art-codex-ii-of-nag-hammadi",
+        "title": "Codex II of Nag Hammadi",
+        "creator": "Coptic scribes",
+        "year": "c. 350–400 CE",
+        "why": "A leather-bound papyrus book that contains the Gospel of Thomas, kept in the Coptic Museum in Cairo."
+      }
+    ],
+    "eat": [],
+    "drink": [],
+    "customs": [
+      {
+        "id": "customs-sit-with-a-question",
+        "title": "Sit with a question",
+        "creator": "No answer needed",
+        "why": "The gnostic texts treat seeking as a practice, not a stage to get over."
+      },
+      {
+        "id": "customs-keep-a-dream-journal",
+        "title": "Keep a dream journal",
+        "creator": "Write before the day takes over",
+        "why": "Many modern readers connect gnostic ideas with inner work. Jung wrote on them."
+      },
+      {
+        "id": "customs-read-one-saying-aloud",
+        "title": "Read one saying aloud",
+        "creator": "From Thomas, or a poem of your choice",
+        "why": "The sayings were meant to be heard and pondered, not skimmed."
+      },
+      {
+        "id": "customs-light-a-candle-in-a-dark-room",
+        "title": "Light a candle in a dark room",
+        "creator": "And sit for a few minutes",
+        "why": "A simple image of the spark of light in the dark."
+      }
+    ]
+  },
+  "ethics": [
+    {
+      "title": "Seek, and do not stop",
+      "text": "The Gospel of Thomas says that the seeker should not stop until they find, and that finding brings trouble and wonder. The ethic is sustained honesty about what you do not yet know.",
+      "practice": "Name one thing you have stopped questioning, and question it kindly."
+    },
+    {
+      "title": "Compassion toward the whole person",
+      "text": "The Valentinian and Mary texts often speak of care for others as the visible fruit of knowledge. Insight that does not soften the heart is empty.",
+      "practice": "Do one kind thing for someone with whom you disagree."
+    },
+    {
+      "title": "Freedom from compulsion",
+      "text": "Many texts describe the soul as held by powers that bind it: fate, desire, fear. Knowledge is meant to loosen them.",
+      "practice": "Name one habit that binds you and take one small step out of it."
+    },
+    {
+      "title": "Humility about hidden things",
+      "text": "Because the texts are partial and the movements varied, the honest response is humility. No one has the full account.",
+      "practice": "Say \"I do not know\" once today."
+    },
+    {
+      "title": "Do not despise the body",
+      "text": "Opponents accused gnostics of hating the body, and some texts do. Others honour the body as the place of awakening. Care for your body is part of attention.",
+      "practice": "Spend ten minutes caring for your body: stretch, wash, rest."
+    },
+    {
+      "title": "Honest speech",
+      "text": "In the Gospel of Mary the Saviour tells the disciples not to lay down rules beyond what has been given. A teacher who imposes more than they have lived deserves suspicion.",
+      "practice": "Speak only from what you know today."
+    }
+  ],
+  "philosophy": [
+    {
+      "title": "The spark within",
+      "text": "Many texts speak of a spark of divine light in the person, a part that remembers where it came from. The idea is that a person is more than their circumstances, and that the self is not wholly made by the world.",
+      "practice": "Ask what in you feels older than your history."
+    },
+    {
+      "title": "A flawed world",
+      "text": "Some texts say that the world was made by an ignorant or lesser power and is therefore flawed. The thought answers an old question: why is there suffering? It need not mean that the world is evil, only that it is incomplete.",
+      "practice": "Look at one flaw in the world and ask what it calls you to repair."
+    },
+    {
+      "title": "Sophia’s story",
+      "text": "In many myths Wisdom, the youngest aeon, acts without her partner and falls into confusion, from which the lower world arises. Her story is also one of longing, and of restoration.",
+      "practice": "Think of a time when acting alone brought confusion, and what restored you."
+    },
+    {
+      "title": "Knowledge that saves",
+      "text": "For the gnostics salvation is not obedience or good works alone but knowing one’s true origin and nature. The word gnosis means direct acquaintance, as with a person, rather than facts.",
+      "practice": "Think of the difference between knowing about someone and knowing them."
+    },
+    {
+      "title": "Seeking and finding",
+      "text": "Saying 2 of Thomas describes a progress: seek, find, be troubled, marvel, reign, rest. It is a pattern of inner discovery that includes distress.",
+      "practice": "Where are you in the sequence?"
+    },
+    {
+      "title": "The paradoxes of the Perfect Mind",
+      "text": "Thunder, Perfect Mind is a poem in which a feminine voice says \"I am the honoured one and the scorned one\" and many other opposites. It insists that the divine is not captured by one side.",
+      "practice": "Write four lines of \"I am\" with opposites that are both true of you."
+    },
+    {
+      "title": "The inward kingdom",
+      "text": "In Thomas, Jesus says that the kingdom is inside you and outside you, and that those who know themselves will be known. The place of the sacred is shifted from temple to self.",
+      "practice": "Find a moment today when the outer and the inner felt connected."
+    },
+    {
+      "title": "Many gnosticisms",
+      "text": "Modern scholars stress that there was no single gnostic church. Valentinians, Sethians, followers of Thomas, Marcion and Manichaeans differed deeply. A careful approach speaks of particular groups.",
+      "practice": "When you read about gnostics, ask which group is meant."
+    },
+    {
+      "title": "The voice of the losers",
+      "text": "Early Christian writers such as Irenaeus attacked gnostic teachers as heretics, and most of their books were destroyed. The Nag Hammadi finds gave their voices back. History is written by winners, and sometimes rewritten.",
+      "practice": "Read one account of an event from the point of view of a group that lost."
+    },
+    {
+      "title": "Mandaeans today",
+      "text": "The Mandaeans, a small community of Iraq and Iran with diaspora communities worldwide, are the one gnostic religion that has lasted to the present. They honour John the Baptist and baptise often in flowing water. Their existence is a reminder that gnostic ideas are a living inheritance for some.",
+      "practice": "Learn one fact about the Mandaeans from a Mandaean source."
+    }
+  ],
+  "journal": [
+    "What question are you carrying today?",
+    "What did you stop questioning that you might look at again?",
+    "What did you bring forth today?",
+    "What did you keep back?",
+    "What does your inner light look like?",
+    "Where did you feel fully yourself?",
+    "Where did you feel like a stranger?",
+    "What do you remember about where you come from?",
+    "What does your life ask you to seek?",
+    "What did you hear that unsettled you?",
+    "Where did you see a flaw in the world and what did you want to do?",
+    "What binds you?",
+    "What loosened your grip today?",
+    "What did you not know today?",
+    "Whom did you meet who seemed to know something you do not?",
+    "What did you read slowly?",
+    "What would you say to the part of yourself that feels lost?",
+    "What opposites are both true of you?",
+    "What is the difference between knowing about and knowing?",
+    "What does home mean?",
+    "What did you notice in the dark?",
+    "What did you notice in the light?",
+    "What helped you stay kind?",
+    "What false answer did you refuse?",
+    "What did you learn about your body today?",
+    "What are you ready to leave behind?",
+    "Whom do you want to forgive or ask forgiveness of?",
+    "What did you see in a dream?",
+    "What do you hope to be found?",
+    "What will you carry on seeking?"
+  ],
+  "reflect": [
+    "What did you learn from seeking a question for these days?",
+    "What came forth when you gave attention to what is within?",
+    "How did the stories of Sophia, the Demiurge and the spark affect how you see the world?",
+    "What did you learn about the gap between ancient texts and what is said about them?",
+    "What do you want to study further, and from whom?",
+    "Which practice will you keep?"
+  ],
+  "dayThemes": [
+    "A question",
+    "Seek and find",
+    "What is within",
+    "The spark of light",
+    "Wisdom’s fall",
+    "The maker and the made",
+    "A flawed world",
+    "Knowing and knowing about",
+    "The buried books",
+    "Who we were",
+    "The voices of the losers",
+    "The inward kingdom",
+    "The first and the last",
+    "The honoured and the scorned",
+    "The stillness",
+    "Freedom from compulsion",
+    "The body and its worth",
+    "The other Mary",
+    "A teacher’s doubt",
+    "The pearl hymn",
+    "Opposites that hold",
+    "The many gnosticisms",
+    "The river baptisers",
+    "A city in Egypt",
+    "The sealed jar",
+    "Humility",
+    "The daily light",
+    "The returning",
+    "The unfinished question",
+    "What remains"
+  ],
+  "guide": {
+    "origin": "Egypt, Syria, Rome and the wider Mediterranean, and later Iraq and Iran",
+    "era": "1st to 4th centuries CE, with living descendants",
+    "intro": [
+      "Gnosticism is a modern name for a range of religious movements of the first centuries CE that stressed gnosis, direct knowledge of the divine and of oneself, as the way of salvation. The word comes from the Greek for knowledge. There was never a single gnostic church. Teachers such as Valentinus and Basilides founded schools in Alexandria and Rome, and other groups, called Sethian by scholars, produced texts such as the Secret Book of John.",
+      "Until the twentieth century almost everything people knew about these movements came from their opponents, notably Irenaeus of Lyons, whose Against Heresies, written around 180, described and attacked them. This changed in December 1945, when a farmer near the Egyptian town of Nag Hammadi found a sealed jar containing thirteen papyrus codices. They held about fifty-two texts in Coptic, including the Gospel of Thomas, the Gospel of Philip and the Apocryphon of John. For the first time historians could read gnostic authors in their own words.",
+      "Many of these texts share a pattern of ideas. A transcendent divine source emanates a realm of light, the pleroma, of paired powers called aeons. The youngest, Sophia, Wisdom, acts without her partner, and from her disturbance a lesser creator arises, often called the Demiurge, who makes the visible world and believes he is the only god. Humans carry a spark of divine light, and a messenger from the realm of light awakens them to remember where they came from. Salvation is that awakening.",
+      "Scholars now debate whether \"Gnosticism\" is a useful category at all. Michael Williams and Karen King have argued that it lumps together very different groups and repeats the polemic of ancient critics. Valentinians remained close to ordinary Christian life. The Gospel of Thomas has no creation myth. Manichaeism, founded by Mani in the third century, was a separate and very successful religion. A careful reading speaks of particular texts and schools.",
+      "The tradition did not vanish. The Mandaeans, a community from southern Iraq and Iran now spread across the world, have kept a gnostic religion with its own scriptures and baptisms for nearly two thousand years. Medieval dualist movements such as the Cathars of southern France were sometimes linked to gnostic ideas, though the historical connection is disputed. In the twentieth century, thinkers such as Carl Jung, Hans Jonas and Elaine Pagels renewed interest in the texts.",
+      "This Onda uses the questions and images of these texts as invitations to attention. It offers a practice of seeking, of expressing what is within, and of asking who we are, rather than a doctrine. It does not imitate the rites of any group, and it asks you to remember that the Mandaeans are living people with their own voice."
+    ],
+    "figures": [
+      {
+        "name": "Valentinus",
+        "dates": "c. 100 to c. 160",
+        "bio": "Teacher born in Egypt, who taught in Alexandria and Rome and founded the most influential gnostic school. Little of his own writing survives.",
+        "unverified": true
+      },
+      {
+        "name": "Basilides",
+        "dates": "fl. 117–138",
+        "bio": "Alexandrian teacher known mostly through his opponents. His teaching included a vision of a remote, ineffable God.",
+        "unverified": true
+      },
+      {
+        "name": "Irenaeus of Lyons",
+        "dates": "c. 130 to c. 202",
+        "bio": "Bishop whose Against Heresies is the main hostile source on gnostic groups. His work is both valuable and partisan.",
+        "unverified": true
+      },
+      {
+        "name": "Clement of Alexandria",
+        "dates": "c. 150 to c. 215",
+        "bio": "Christian teacher who used the word gnosis for the higher knowledge of the believer, and preserved Valentinian extracts.",
+        "unverified": true
+      },
+      {
+        "name": "Plotinus",
+        "dates": "204 or 205–270",
+        "bio": "Platonist philosopher who wrote against the gnostics in Rome, defending the goodness of the cosmos.",
+        "unverified": true
+      },
+      {
+        "name": "Mani",
+        "dates": "216 to c. 274",
+        "bio": "Prophet from Mesopotamia who founded Manichaeism, a religion that spread from North Africa to China."
+      },
+      {
+        "name": "Mary Magdalene",
+        "dates": "1st century",
+        "bio": "A disciple of Jesus who appears as an important teacher in the Gospel of Mary, the Gospel of Philip and other texts.",
+        "unverified": true
+      },
+      {
+        "name": "Hans Jonas",
+        "dates": "1903–1993",
+        "bio": "German-American philosopher, author of The Gnostic Religion, who compared the gnostic mood to modern alienation."
+      },
+      {
+        "name": "Elaine Pagels",
+        "dates": "born 1943",
+        "bio": "Historian of religion whose The Gnostic Gospels, 1979, brought the Nag Hammadi texts to a wide audience."
+      },
+      {
+        "name": "Karen L. King",
+        "bio": "Scholar of early Christianity whose What Is Gnosticism?, 2003, questioned the category."
+      },
+      {
+        "name": "Marvin Meyer",
+        "dates": "1948–2012",
+        "bio": "Scholar and translator of the Nag Hammadi texts and the Gospel of Thomas."
+      }
+    ],
+    "history": [
+      {
+        "when": "1st to 2nd centuries CE",
+        "what": "Roots",
+        "detail": "Ideas about a hidden knowledge, a lesser creator and a spark of light grew out of Jewish, Platonic and early Christian thought in the eastern Mediterranean.",
+        "unverified": true
+      },
+      {
+        "when": "c. 100 to c. 160",
+        "what": "Valentinus",
+        "detail": "The teacher, born in Egypt, taught in Alexandria and then Rome. He and his followers developed a rich system of aeons and remained within the wider Christian community for some time.",
+        "unverified": true
+      },
+      {
+        "when": "c. 180",
+        "what": "Irenaeus writes Against Heresies",
+        "detail": "The bishop of Lyons set out to expose gnostic teachings, quoting many of them. His work shaped later views and is the main source before 1945."
+      },
+      {
+        "when": "2nd to 3rd centuries",
+        "what": "Texts of Thomas, Philip and John",
+        "detail": "The Gospel of Thomas, the Gospel of Philip, the Apocryphon of John and others were composed. They circulated in Greek and Syriac and later in Coptic translation.",
+        "unverified": true
+      },
+      {
+        "when": "c. 265",
+        "what": "Plotinus against the Gnostics",
+        "detail": "The philosopher wrote a treatise criticising a group in his circle for despising the world and its beauty."
+      },
+      {
+        "when": "3rd century",
+        "what": "Mani and Manichaeism",
+        "detail": "Mani, born in Mesopotamia, preached a religion of light and darkness. His movement spread widely and lasted for a thousand years."
+      },
+      {
+        "when": "367",
+        "what": "Athanasius lists the books",
+        "detail": "In his Easter letter, Athanasius of Alexandria named the twenty-seven books of the New Testament, and condemned other writings. The Nag Hammadi books were probably hidden around this period."
+      },
+      {
+        "when": "12th to 13th centuries",
+        "what": "The Cathars",
+        "detail": "In southern France, a dualist movement was suppressed in the Albigensian Crusade from 1209. The fortress of Montségur fell in 1244. Whether the Cathars were true heirs of ancient gnostics is disputed."
+      },
+      {
+        "when": "1896",
+        "what": "The Berlin Codex",
+        "detail": "A papyrus book bought in Cairo included the Gospel of Mary and the Secret Book of John. It was not published until 1955."
+      },
+      {
+        "when": "1945",
+        "what": "Nag Hammadi",
+        "detail": "In December, farmers near Nag Hammadi found a jar with thirteen codices. The circumstances of the discovery are told in several versions."
+      },
+      {
+        "when": "1977",
+        "what": "The Nag Hammadi Library in English",
+        "detail": "James M. Robinson’s team published the complete translation, which opened the texts to general readers."
+      },
+      {
+        "when": "2006",
+        "what": "The Gospel of Judas",
+        "detail": "A text from the Codex Tchacos was published and restored, showing a Judas who is closer to Jesus than the other disciples."
+      }
+    ],
+    "concepts": [
+      {
+        "term": "Gnosis",
+        "text": "Direct knowing as salvation.",
+        "detail": "The gnostic texts treat knowledge as acquaintance rather than information: knowing one’s source, one’s nature and one’s destiny. It is gained by insight and often by a teacher’s help. It transforms the person who knows."
+      },
+      {
+        "term": "The pleroma",
+        "text": "The fullness of the divine world.",
+        "detail": "In many systems the pleroma is made up of aeons, powers that emanate in pairs from an unknowable source. It is the realm of light from which the spark in each person comes and to which it returns. The lower world is outside it."
+      },
+      {
+        "term": "Sophia",
+        "text": "Wisdom, the aeon whose fall begins the story.",
+        "detail": "In several myths she brings forth something without her partner and the result is a flawed being, the maker of the world. In others she is a figure of longing and restoration who is eventually reunited with the fullness."
+      },
+      {
+        "term": "The Demiurge",
+        "text": "The lesser creator of the world.",
+        "detail": "Taken from Plato’s craftsman in the Timaeus, the Demiurge in Sethian texts is ignorant and arrogant, sometimes called Yaldabaoth. The picture expresses the sense that the world is not as it should be, and that its ruler is not the highest."
+      },
+      {
+        "term": "The divine spark",
+        "text": "The light within the person.",
+        "detail": "Humans, the texts say, carry a portion of the divine that has been forgotten. A messenger awakens them to it. It is not earned but remembered. The idea gives a person a dignity beyond their circumstances."
+      },
+      {
+        "term": "Emanation",
+        "text": "The flowing out of the divine realms.",
+        "detail": "Rather than creating by command, the highest source gives rise to levels of being, as light spreads from a lamp. Each level is a little less perfect. The model is shared with Neoplatonism."
+      },
+      {
+        "term": "Valentinian thought",
+        "text": "A school close to the Christian community.",
+        "detail": "The Valentinians counted spiritual, psychic and material people and held that all could be moved toward gnosis. They used rituals like the bridal chamber and wrote the Gospel of Truth. They stayed within wider Christian life for some time."
+      },
+      {
+        "term": "Thomas Christianity",
+        "text": "A tradition of sayings.",
+        "detail": "The Gospel of Thomas gathers 114 sayings of Jesus without narrative or doctrine. It stresses self-knowledge and the inward kingdom. Many scholars place its composition in the first or second century, and its relation to the other gospels is debated."
+      },
+      {
+        "term": "Mandaeism",
+        "text": "A living gnostic religion.",
+        "detail": "Mandaeans revere John the Baptist, perform frequent baptisms in flowing water, and keep a large body of scriptures in Mandaic. Their name comes from manda, knowledge. They have lived in southern Iraq and Iran for centuries and are now spread around the world."
+      },
+      {
+        "term": "The problem of the word",
+        "text": "Is \"Gnosticism\" a useful category?",
+        "detail": "Scholars such as Michael Williams and Karen King argue that the label groups very different movements and reproduces the view of their opponents. A careful reader names the group or text instead."
+      }
+    ],
+    "facts": [
+      {
+        "text": "The Nag Hammadi codices were found in December 1945 in a sealed jar by local farmers near the town. The books were bound in leather and written in Coptic."
+      },
+      {
+        "text": "The Gospel of Thomas consists of 114 sayings of Jesus, with almost no narrative."
+      },
+      {
+        "text": "The word heresy comes from the Greek hairesis, which at first just meant a choice or a school of thought."
+      },
+      {
+        "text": "Part of the Gospel of Thomas was known before 1945 from three Greek fragments found at Oxyrhynchus in Egypt, between 1897 and 1903."
+      },
+      {
+        "text": "The Mandaeans are one of the world’s oldest surviving gnostic communities, and have a priesthood and large body of religious literature."
+      },
+      {
+        "text": "The Codex Tchacos, which contains the Gospel of Judas, was found in Egypt in the 1970s and passed through many hands before being restored and published in 2006."
+      },
+      {
+        "text": "Carl Jung wrote a poetic text in 1916 called Seven Sermons to the Dead, in the voice of the gnostic teacher Basilides."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Apocrypha",
+        "meaning": "Hidden or secret writings; later, books outside the accepted canon"
+      },
+      {
+        "term": "Canon",
+        "meaning": "The list of books accepted as scripture"
+      },
+      {
+        "term": "Pseudepigrapha",
+        "meaning": "Writings attributed to ancient figures who did not write them"
+      },
+      {
+        "term": "Oxyrhynchus",
+        "meaning": "The Egyptian site where thousands of Greek papyri were found"
+      },
+      {
+        "term": "Sacrament",
+        "meaning": "A ritual act that conveys a spiritual reality"
+      },
+      {
+        "term": "Syncretism",
+        "meaning": "The blending of different religious ideas"
+      }
+    ],
+    "furtherReading": [
+      {
+        "title": "The Gnostic Gospels",
+        "creator": "Elaine Pagels",
+        "year": "1979",
+        "note": "The book that brought the Nag Hammadi finds to many readers."
+      },
+      {
+        "title": "What Is Gnosticism?",
+        "creator": "Karen L. King",
+        "year": "2003",
+        "note": "A study of the term and its history."
+      },
+      {
+        "title": "Rethinking \"Gnosticism\"",
+        "creator": "Michael Allen Williams",
+        "year": "1996",
+        "note": "The case for dropping the category."
+      },
+      {
+        "title": "The Gnostic Religion",
+        "creator": "Hans Jonas",
+        "year": "1958",
+        "note": "A philosopher’s account that remains influential."
+      },
+      {
+        "title": "The Nag Hammadi Scriptures",
+        "creator": "Edited by Marvin Meyer",
+        "year": "2007",
+        "note": "The main texts in translation."
+      }
+    ],
+    "learnFrom": [
+      {
+        "name": "Mandaean communities and the Mandaean Society in America",
+        "note": "For understanding Mandaeism, learn from Mandaean priests and community members and their publications. Do not imitate their rites."
+      },
+      {
+        "name": "The Coptic Museum in Cairo",
+        "note": "The museum holds the Nag Hammadi codices and gives access to Coptic Egyptian culture."
+      },
+      {
+        "name": "University departments of early Christianity and Religious Studies",
+        "note": "Scholars such as those at the Claremont and Harvard programmes publish and teach the texts."
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Nag Hammadi Scriptures",
+        "creator": "Edited by Marvin Meyer",
+        "publisher": "HarperOne",
+        "year": "2007"
+      },
+      {
+        "title": "The Gnostic Gospels",
+        "creator": "Elaine Pagels",
+        "publisher": "Random House",
+        "year": "1979"
+      },
+      {
+        "title": "What Is Gnosticism?",
+        "creator": "Karen L. King",
+        "publisher": "Harvard University Press",
+        "year": "2003"
+      },
+      {
+        "title": "Rethinking \"Gnosticism\"",
+        "creator": "Michael Allen Williams",
+        "publisher": "Princeton University Press",
+        "year": "1996"
+      },
+      {
+        "title": "The Gnostic Religion",
+        "creator": "Hans Jonas",
+        "publisher": "Beacon Press",
+        "year": "1958"
+      },
+      {
+        "title": "The Nag Hammadi Library in English",
+        "creator": "Edited by James M. Robinson",
+        "publisher": "Brill",
+        "year": "1977"
+      },
+      {
+        "title": "The Gospel of Judas",
+        "creator": "Rodolphe Kasser, Marvin Meyer and Gregor Wurst",
+        "publisher": "National Geographic",
+        "year": "2006"
+      }
+    ]
+  },
+  "sensitivity": {
+    "note": "Gnosticism is a modern umbrella term for diverse ancient movements, and the Mandaeans are a living gnostic community. This Onda offers questions, images and attention in a form open to anyone. It does not reproduce the rites of any group.",
+    "requiredCaveats": [
+      "Scholars dispute the word Gnosticism. The texts are fragmentary, the groups differed, and our older picture was drawn by their opponents. Treat sweeping claims, including those in popular books, with care.",
+      "The Mandaeans are a living people, and their baptismal and priestly rites belong to them. Learn from Mandaeans themselves.",
+      "Gnostic ideas, read in a certain way, can be used to despise the body, other people or the world. This Onda asks you to use them to look inward with care, and to keep the world and the body in view.",
+      "This content has not yet been reviewed by a scholar of early Christianity or a Mandaean community member. It should be before release."
+    ],
+    "reviewRequired": true
+  }
+}

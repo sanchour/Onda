@@ -1,7 +1,7 @@
 import { useMemo, useRef, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { LAGO_ICONS } from '@/data/catalog'
-import { useSettings } from '@/data/hooks'
+import { useLook, useOnda, useOndaIndex, useSettings } from '@/data/hooks'
 import { savePhoto, usePhotoUrl } from '@/data/photos'
 import { useStore } from '@/data/store'
 import type { Frequency } from '@/data/types'
@@ -10,6 +10,8 @@ import { haptic } from '@/lib/haptics'
 import { detId } from '@/lib/ids'
 import { useNav, type SheetEntry } from '@/nav/store'
 import { share, startLago } from '@/screens/lagoActions'
+import { OndaBanner } from '@/screens/ondaShared'
+import o from '@/screens/ondas.module.css'
 import s from '@/screens/screens.module.css'
 import { Button, GlassButton } from '@/ui/buttons'
 import { SegmentedControl, Stepper } from '@/ui/controls'
@@ -224,6 +226,71 @@ export function LagoInfoSheet({ entry }: E<'lagoInfo'>) {
             {t('gallery.startLago')}
           </Button>
         </div>
+      </div>
+    </AppSheet>
+  )
+}
+
+/* ── Choose practices from an Onda and start them as Lagos ── */
+export function OndaPracticesSheet({ entry }: E<'ondaPractices'>) {
+  const { t } = useTranslation()
+  const { popToRoot, showToast } = useNav()
+  const index = useOndaIndex(entry.ondaId)
+  const content = useOnda(entry.ondaId)
+  const look = useLook(index)
+  const [picked, setPicked] = useState<Record<string, boolean>>({})
+  const [days, setDays] = useState('14')
+  const practices = content?.practices ?? []
+  const chosen = practices.filter((p) => picked[p.id])
+  const all = practices.length > 0 && chosen.length === practices.length
+
+  const start = () => {
+    let n = 0
+    for (const p of chosen) {
+      if (!startLago(t, { name: p.name, icon: p.icon, why: p.why || p.meta, lengthDays: Number(days), frequency: 'daily', reminder: { on: true, time: p.time }, origin: `onda:${entry.ondaId}` })) break
+      n++
+    }
+    if (!n) return
+    popToRoot('lagos')
+    showToast(t('gallery.startedN', { count: n }), { icon: 'seal-check' })
+  }
+
+  return (
+    <AppSheet entry={entry} look={look} title={index?.name ?? ''} detent={0.9}>
+      <div style={{ padding: '4px 16px 120px' }}>
+        {index && <OndaBanner look={look} icon={index.icon} kicker={t('gallery.fromOndas')} title={index.name} sub={t('gallery.fromOndasSub')} />}
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', margin: '20px 4px 10px' }}>
+          <h3 className={s.h20} style={{ margin: 0 }}>{t('gallery.practicesTitle')}</h3>
+          {practices.length > 1 && (
+            <button type="button" style={{ color: 'var(--accent)', font: '500 var(--fs-15) var(--font-sans)', padding: '8px 4px' }} onClick={() => setPicked(all ? {} : Object.fromEntries(practices.map((p) => [p.id, true])))}>
+              {all ? t('gallery.selectNone') : t('gallery.selectAll')}
+            </button>
+          )}
+        </div>
+        <div className={s.stack10}>
+          {practices.map((p) => (
+            <button key={p.id} type="button" role="checkbox" aria-checked={!!picked[p.id]} className={picked[p.id] ? `${o.pickRow} ${o.pickOn}` : o.pickRow} onClick={() => setPicked((x) => ({ ...x, [p.id]: !x[p.id] }))}>
+              <span className={`${s.circle} ${o.pickIcon} ${o.solidCircle}`}>
+                <Icon name={p.icon} weight="fill" size={22} />
+              </span>
+              <span style={{ minWidth: 0 }}>
+                <span className={o.pName} style={{ display: 'block' }}>{p.name}</span>
+                <span className={o.pMeta} style={{ display: 'block' }}>{p.meta}</span>
+              </span>
+              <span className={o.pickBox} aria-hidden>
+                <Icon name="check" weight="bold" size={15} />
+              </span>
+            </button>
+          ))}
+          {!content && <div className={s.sub} style={{ textAlign: 'center', padding: 24 }}>{t('onda.loading')}</div>}
+        </div>
+        <h3 className={s.h20} style={{ margin: '24px 4px 10px' }}>{t('gallery.lengthLabel')}</h3>
+        <SegmentedControl<string> options={['7', '14', '21', '30'].map((d) => ({ value: d, label: t('common.daysCap', { count: Number(d) }) }))} value={days} onChange={setDays} fullWidth ariaLabel={t('gallery.lengthLabel')} />
+      </div>
+      <div style={{ position: 'absolute', left: 16, right: 16, bottom: 'max(var(--sab), 16px)' }}>
+        <Button fullWidth disabled={!chosen.length} onClick={start}>
+          {chosen.length ? t('gallery.startN', { count: chosen.length }) : t('gallery.pickSome')}
+        </Button>
       </div>
     </AppSheet>
   )

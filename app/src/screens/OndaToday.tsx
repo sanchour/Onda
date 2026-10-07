@@ -81,7 +81,7 @@ export default function OndaToday({ entry }: { entry: Extract<StackEntry, { name
     haptic('success')
     st.beginOnda(content, len)
   }
-  const openGuide = () => openSheet({ name: 'guide', ondaId: content.id })
+  const openGuide = () => push({ name: 'guide', ondaId: content.id })
   const menu = () => {
     const r = dots.current?.getBoundingClientRect()
     if (!r) return
@@ -102,6 +102,7 @@ export default function OndaToday({ entry }: { entry: Extract<StackEntry, { name
   return (
     <Screen
       variant={live ? 'page' : 'cta'}
+      dataOnda={settings.ondaThemes ? index.id : undefined}
       style={{ ...look.vars, paddingTop: 'calc(var(--chrome-top) + 56px)' }}
       chrome={
         <>

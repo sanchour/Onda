@@ -1,5 +1,5 @@
 import { useQuery } from '@tanstack/react-query'
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { hasPlus } from '@/data/entitlement'
 import { activityByDate, currentStreak } from '@/data/derive/stats'
@@ -24,7 +24,7 @@ import { RulerPicker } from '@/ui/pickers'
 import m from './more.module.css'
 import s from './screens.module.css'
 
-const APP_VERSION = '1.0'
+const APP_VERSION = '1.3'
 const BUILD = '1'
 const HUB: [string, SettingsPage][] = [['seal-check', 'subscription'], ['paint-brush', 'appearance'], ['bell', 'notifications'], ['sparkle', 'practice'], ['arrows-clockwise', 'integrations'], ['database', 'data'], ['lock', 'privacy'], ['question', 'help']]
 
@@ -54,6 +54,20 @@ export default function Settings({ entry }: { entry: Extract<StackEntry, { name:
   const account = useQuery({ queryKey: ['account'], queryFn: accountInfo, enabled: backendConfigured, staleTime: 60_000 }).data
   const confirm = useConfirm()
   const page = entry.page
+  const fileRef = useRef<HTMLInputElement>(null)
+  const importFile = async (file: File | undefined) => {
+    if (!file) return
+    try {
+      if (file.size > 25 * 1024 * 1024) throw new Error('too-large')
+      const res = await useStore.getState().importAll(JSON.parse(await file.text()))
+      showToast(t('settings.data.imported', { count: res.imported }) + (res.skipped ? ` ${t('settings.data.skipped', { count: res.skipped })}` : ''), { icon: 'download-simple' })
+    } catch (e) {
+      const why = (e as Error).message
+      showToast(t(why === 'unsupported-version' ? 'settings.data.importNewer' : 'settings.data.importBad'), { icon: 'warning-circle' })
+    } finally {
+      if (fileRef.current) fileRef.current.value = ''
+    }
+  }
   const [lockOk, setLockOk] = useState(false)
   const push_ = pushState()
 
@@ -163,10 +177,12 @@ export default function Settings({ entry }: { entry: Extract<StackEntry, { name:
     ),
     data: (
       <>
+        <input ref={fileRef} type="file" accept="application/json,.json" hidden aria-label={t('settings.data.import')} onChange={(e) => void importFile(e.target.files?.[0])} />
         <div className={m.gap28}>
-          <ListSection>
+          <ListSection footer={t('settings.data.backupFooter')}>
             <ListRow icon="chart-bar" title={t('settings.data.history')} onClick={() => popToRoot('stats')} />
             <ListRow icon="export" title={t('settings.data.export')} accessory="none" onClick={() => { downloadJson(`onda-export-${today}.json`, useStore.getState().exportAll()); showToast(t('settings.data.exported'), { icon: 'export' }) }} />
+            <ListRow icon="download-simple" title={t('settings.data.import')} accessory="none" onClick={() => fileRef.current?.click()} />
           </ListSection>
         </div>
         <div className={m.gap28}>

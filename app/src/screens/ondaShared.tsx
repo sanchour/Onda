@@ -13,6 +13,7 @@ import { columnWidth, fitSize } from '@/lib/fit'
 import { haptic } from '@/lib/haptics'
 import { nav } from '@/nav/store'
 import { Icon } from '@/ui/Icon'
+import { OrnamentIcon } from './KindArt'
 import o from './ondas.module.css'
 import s from './screens.module.css'
 
@@ -62,6 +63,17 @@ export function Glyph({ look, opacity, right, top, bottom }: { look: OndaLook; o
   )
 }
 
+/** A hairline, a small emblem of the tradition, a hairline. */
+export function OrnDivider({ look, className }: { look: OndaLook; className?: string }) {
+  return (
+    <div className={className ?? o.orn} aria-hidden>
+      <i />
+      <OrnamentIcon name={look.ornament} size={22} />
+      <i />
+    </div>
+  )
+}
+
 /** One segment per day: past, today, still to come. */
 export function DayBar({ day, length, strong }: { day: number; length: number; strong?: boolean }) {
   const { t } = useTranslation()
@@ -86,7 +98,7 @@ export function PracticeRow({ p, done, onToggle, small }: { p: Pick<Practice, 'i
         onToggle()
       }}
     >
-      <span className={[o.pCircle, small ? o.pCircleSm : '', done ? o.pCircleOn : ''].join(' ')} style={{ borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', flex: 'none' }}>
+      <span className={[o.pCircle, small ? o.pCircleSm : '', done ? o.pCircleOn : ''].join(' ')} style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', flex: 'none' }}>
         <Icon name={p.icon} weight="fill" size={small ? 22 : 24} />
       </span>
       <span style={{ minWidth: 0 }}>

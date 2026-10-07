@@ -31,7 +31,7 @@ test('after the first load, the app starts and works with no network', async ({ 
   await page.getByRole('button', { name: /Vedanta/ }).click()
   await expect(page.getByText('Tat tvam asi: that thou art.')).toBeVisible()
   await page.getByRole('button', { name: /Full guide Context, history/ }).click()
-  await expect(page.getByRole('dialog', { name: 'Vedanta' }).getByText(/Vedānta is the philosophical heart/)).toBeVisible()
+  await expect(page.getByText(/Vedānta is the philosophical heart/)).toBeVisible()
 
   await page.reload()
   await page.getByRole('tab', { name: 'Lagos' }).click()

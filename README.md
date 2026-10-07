@@ -2,7 +2,7 @@
 
 An installable PWA for experimenting with how you live. **Lagos** are simple habit experiments. **Ondas** are 7 to 30 day immersions in one philosophy or tradition: its practices, rules, books, films, music, food and language, closed with a reflection.
 
-Stack: Vite, React 18, TypeScript (strict), Zustand, Dexie, TanStack Query, Zod, vite-plugin-pwa (Workbox `injectManifest`), Supabase (Postgres, Auth, RLS, Edge Functions on Deno, Storage).
+Sixteen Ondas ship in `content/ondas`. Stack: Vite, React 18, TypeScript (strict), Zustand, Dexie, TanStack Query, Zod, vite-plugin-pwa (Workbox `injectManifest`), Supabase (Postgres, Auth, RLS, Edge Functions on Deno, Storage).
 
 ```
 app/                  the PWA

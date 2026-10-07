@@ -1,0 +1,1149 @@
+{
+  "version": 1,
+  "id": "yoruba",
+  "name": "Yoruba",
+  "origin": "South-west Nigeria, Benin and the diaspora",
+  "era": "Ancient to today",
+  "tone": "blue",
+  "icon": "music-notes",
+  "font": "fraunces",
+  "pattern": "adire",
+  "glyph": "Àṣẹ",
+  "line": "Greet well, keep a cool head and be a person of good character.",
+  "quote": {
+    "text": "Character is the beauty of a person.",
+    "by": "Yoruba proverb",
+    "source": "Ìwà lẹ̀wà",
+    "unverified": true
+  },
+  "quotes": [
+    {
+      "text": "Proverbs are the horses of speech; when speech is lost, we use proverbs to find it.",
+      "by": "Yoruba proverb",
+      "source": "Òwe lẹ́ṣin ọ̀rọ̀; bí ọ̀rọ̀ bá sọnù, òwe ni a fi ń wá a",
+      "unverified": true
+    },
+    {
+      "text": "If a child knows how to wash their hands, they will eat with elders.",
+      "by": "Yoruba proverb",
+      "source": "Bí ọmọdé bá mọ ọwọ́ wẹ̀, yóò bá àgbà jẹun",
+      "unverified": true
+    },
+    {
+      "text": "A child’s hand cannot reach the shelf, and an elder’s hand cannot enter the gourd.",
+      "by": "Yoruba proverb",
+      "source": "Ọwọ́ ọmọdé kò tó pẹpẹ; ti àgbà kò wọ kèrègbè",
+      "unverified": true
+    },
+    {
+      "text": "The man dies in all who keep silent in the face of tyranny.",
+      "by": "Wole Soyinka",
+      "source": "The Man Died: Prison Notes, 1972"
+    },
+    {
+      "text": "A tiger does not proclaim its tigritude; it pounces.",
+      "by": "Wole Soyinka",
+      "source": "Attributed, from remarks in the early 1960s",
+      "unverified": true
+    }
+  ],
+  "words": [
+    {
+      "id": "word-ase",
+      "term": "Àṣẹ",
+      "meaning": "Power to make things happen; so be it",
+      "pronunciation": "ah-SHEH",
+      "language": "Yoruba",
+      "usage": "Said at the end of a prayer, like \"amen\". In wider thought, the force present in words, people and acts."
+    },
+    {
+      "id": "word-iwa",
+      "term": "Ìwà",
+      "meaning": "Character; conduct; being",
+      "pronunciation": "ee-WAH",
+      "language": "Yoruba",
+      "usage": "The heart of Yoruba ethics. Good ìwà is the thing everyone is asked to cultivate."
+    },
+    {
+      "id": "word-omoluabi",
+      "term": "Ọmọlúàbí",
+      "meaning": "A person of good character, well brought up",
+      "pronunciation": "oh-moh-LOO-ah-bee",
+      "language": "Yoruba",
+      "usage": "The ideal: respectful, honest, hard-working, generous and composed. A popular folk etymology reads it as \"a child who has character\".",
+      "unverified": true
+    },
+    {
+      "id": "word-iwa-pele",
+      "term": "Ìwà pẹ̀lẹ́",
+      "meaning": "Gentle character",
+      "pronunciation": "ee-WAH PEH-leh",
+      "language": "Yoruba",
+      "usage": "The quality of a person who is calm, soft-spoken and considerate. Said to be the essence of ìwà.",
+      "unverified": true
+    },
+    {
+      "id": "word-ori",
+      "term": "Orí",
+      "meaning": "Head; personal destiny",
+      "pronunciation": "oh-REE",
+      "language": "Yoruba",
+      "usage": "The physical head and the inner head that carries a person’s fate. Honoured as the first of one’s guardians."
+    },
+    {
+      "id": "word-iba",
+      "term": "Ìbà",
+      "meaning": "Homage; reverence; respect",
+      "pronunciation": "ee-BAH",
+      "language": "Yoruba",
+      "usage": "A greeting of respect to elders, ancestors and the sacred. Offered before speaking or acting."
+    },
+    {
+      "id": "word-owe",
+      "term": "Òwe",
+      "meaning": "Proverb",
+      "pronunciation": "OH-weh",
+      "language": "Yoruba",
+      "usage": "The finest speech. A person who speaks in proverbs is thought wise."
+    },
+    {
+      "id": "word-oriki",
+      "term": "Oríkì",
+      "meaning": "Praise poem; evocation of a person’s qualities and lineage",
+      "pronunciation": "oh-ree-KEE",
+      "language": "Yoruba",
+      "usage": "Chanted for people, towns, gods and animals. Each family has its own."
+    },
+    {
+      "id": "word-olodumare",
+      "term": "Olódùmarè",
+      "meaning": "The supreme being; owner of the heavens",
+      "pronunciation": "oh-loh-DOO-mah-reh",
+      "language": "Yoruba",
+      "usage": "The source of all, usually addressed through the òrìṣà and Ifá rather than directly."
+    },
+    {
+      "id": "word-orisa",
+      "term": "Òrìṣà",
+      "meaning": "A deity or divine force; an orisha",
+      "pronunciation": "oh-ree-SHAH",
+      "language": "Yoruba",
+      "usage": "Forces of nature and character, such as Ògún, Ṣàngó, Ọ̀ṣun and Yemọja."
+    },
+    {
+      "id": "word-ifa",
+      "term": "Ifá",
+      "meaning": "The system of divination and wisdom of Ọ̀rúnmìlà",
+      "pronunciation": "ee-FAH",
+      "language": "Yoruba",
+      "usage": "A body of verses, learned by heart, that guides decisions. Recognised by UNESCO as an intangible cultural heritage."
+    },
+    {
+      "id": "word-odu",
+      "term": "Odù",
+      "meaning": "A chapter or sign in Ifá",
+      "pronunciation": "oh-DOO",
+      "language": "Yoruba",
+      "usage": "There are 256, formed from 16 principal signs combined with each other. Each carries many verses."
+    },
+    {
+      "id": "word-babalawo",
+      "term": "Babaláwo",
+      "meaning": "A priest of Ifá; literally \"father of secrets\"",
+      "pronunciation": "bah-bah-LAH-woh",
+      "language": "Yoruba",
+      "usage": "A trained diviner who spends years memorising the verses."
+    },
+    {
+      "id": "word-ebo",
+      "term": "Ẹ̀bọ",
+      "meaning": "Offering; sacrifice made for balance",
+      "pronunciation": "EH-boh",
+      "language": "Yoruba",
+      "usage": "A response to an Ifá reading. Not a bribe, but a way of restoring balance."
+    },
+    {
+      "id": "word-e-kaaaro",
+      "term": "Ẹ káàárọ̀",
+      "meaning": "Good morning",
+      "pronunciation": "eh KAH-ah-roh",
+      "language": "Yoruba",
+      "usage": "The long greeting that opens the day. The \"ẹ\" is the respectful plural used to elders and strangers."
+    },
+    {
+      "id": "word-e-se",
+      "term": "Ẹ ṣé",
+      "meaning": "Thank you",
+      "pronunciation": "eh SHEH",
+      "language": "Yoruba",
+      "usage": "Often extended: \"ẹ ṣé gan-an\", thank you very much."
+    },
+    {
+      "id": "word-e-kaabo",
+      "term": "Ẹ káàbọ̀",
+      "meaning": "Welcome",
+      "pronunciation": "eh KAH-ah-boh",
+      "language": "Yoruba",
+      "usage": "Said to guests, with a smile and often a drink of water."
+    },
+    {
+      "id": "word-e-ku-ise",
+      "term": "Ẹ kú iṣẹ́",
+      "meaning": "Well done at your work",
+      "pronunciation": "eh koo ee-SHEH",
+      "language": "Yoruba",
+      "usage": "A greeting for anyone you see working, from a farmer to a cleaner."
+    },
+    {
+      "id": "word-bawo-ni",
+      "term": "Báwo ni?",
+      "meaning": "How are you?",
+      "pronunciation": "BAH-woh nee",
+      "language": "Yoruba",
+      "usage": "Answered \"Mo wà dáadáa\", I am well."
+    },
+    {
+      "id": "word-agba",
+      "term": "Àgbà",
+      "meaning": "Elder",
+      "pronunciation": "ahg-BAH",
+      "language": "Yoruba",
+      "usage": "A person of age and standing, owed deference and also listening."
+    },
+    {
+      "id": "word-omo",
+      "term": "Ọmọ",
+      "meaning": "Child; also offspring",
+      "pronunciation": "OH-moh",
+      "language": "Yoruba",
+      "usage": "Children are the family’s wealth. The word appears in many names."
+    },
+    {
+      "id": "word-ile",
+      "term": "Ilé",
+      "meaning": "Home; house",
+      "pronunciation": "ee-LEH",
+      "language": "Yoruba",
+      "usage": "Asking \"How is home?\" is part of every long greeting."
+    },
+    {
+      "id": "word-alaafia",
+      "term": "Àlàáfíà",
+      "meaning": "Peace; well-being; health",
+      "pronunciation": "ah-lah-FEE-ah",
+      "language": "Yoruba",
+      "usage": "The condition of being whole. A common wish."
+    },
+    {
+      "id": "word-aye",
+      "term": "Ayé",
+      "meaning": "The world; earth; life",
+      "pronunciation": "ah-YEH",
+      "language": "Yoruba",
+      "usage": "The place of the living, as against ọ̀run."
+    },
+    {
+      "id": "word-orun",
+      "term": "Ọ̀run",
+      "meaning": "Heaven; the realm of the ancestors and the unseen",
+      "pronunciation": "OH-roon",
+      "language": "Yoruba",
+      "usage": "The other world, in constant exchange with ayé."
+    },
+    {
+      "id": "word-ayanmo",
+      "term": "Àyànmọ́",
+      "meaning": "Destiny; what is chosen before birth",
+      "pronunciation": "ah-yahn-MOH",
+      "language": "Yoruba",
+      "usage": "The fate a person is said to select or receive before coming into the world.",
+      "unverified": true
+    },
+    {
+      "id": "word-itutu",
+      "term": "Ìtútù",
+      "meaning": "Coolness; composure",
+      "pronunciation": "ee-TOO-too",
+      "language": "Yoruba",
+      "usage": "The art of staying calm and gracious under pressure, praised by scholars of Yoruba art such as Robert Farris Thompson.",
+      "unverified": true
+    },
+    {
+      "id": "word-adire",
+      "term": "Adire",
+      "meaning": "Indigo cloth, resist-dyed",
+      "pronunciation": "ah-DEE-reh",
+      "language": "Yoruba",
+      "usage": "Cloth patterned with starch or wax before dyeing. A craft of Abeokuta and other towns."
+    },
+    {
+      "id": "word-aso-oke",
+      "term": "Aṣọ òkè",
+      "meaning": "Hand-woven cloth",
+      "pronunciation": "ah-SHAW OH-keh",
+      "language": "Yoruba",
+      "usage": "Strip-woven cloth worn at celebrations, from Iseyin and Ilorin.",
+      "unverified": true
+    },
+    {
+      "id": "word-dundun",
+      "term": "Dùndún",
+      "meaning": "The hourglass talking drum",
+      "pronunciation": "doon-DOON",
+      "language": "Yoruba",
+      "usage": "Pressed under the arm to change pitch, so it can imitate Yoruba speech."
+    },
+    {
+      "id": "word-ore",
+      "term": "Ọ̀rẹ́",
+      "meaning": "Friend",
+      "pronunciation": "OH-reh",
+      "language": "Yoruba",
+      "usage": "The relationship of mutual help and teasing."
+    },
+    {
+      "id": "word-ebi",
+      "term": "Ẹbí",
+      "meaning": "Family; kin",
+      "pronunciation": "eh-BEE",
+      "language": "Yoruba",
+      "usage": "The wide circle of relatives, which is the first source of identity.",
+      "unverified": true
+    },
+    {
+      "id": "word-obatala",
+      "term": "Ọbàtálá",
+      "meaning": "The òrìṣà of creation, purity and moral order",
+      "pronunciation": "oh-bah-TAH-lah",
+      "language": "Yoruba",
+      "usage": "Associated with white cloth, calm and justice."
+    },
+    {
+      "id": "word-ogun",
+      "term": "Ògún",
+      "meaning": "The òrìṣà of iron, craft and the road",
+      "pronunciation": "OH-goon",
+      "language": "Yoruba",
+      "usage": "Patron of blacksmiths, hunters, soldiers and drivers."
+    },
+    {
+      "id": "word-osun",
+      "term": "Ọ̀ṣun",
+      "meaning": "The òrìṣà of the river, beauty and fertility",
+      "pronunciation": "OH-shoon",
+      "language": "Yoruba",
+      "usage": "Honoured at the Osun river and the sacred grove in Osogbo."
+    }
+  ],
+  "practices": [
+    {
+      "id": "greet-well",
+      "name": "Greet well",
+      "icon": "hand-waving",
+      "slot": "Morning",
+      "time": "07:30",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "In the first hour of your day greet at least three people properly, in person or by voice. Look at them. Use their title or name. Ask how they are and how their home and family are, and wait for the answer before moving on. If you speak Yoruba, use \"Ẹ káàárọ̀\" and \"Báwo ni ilé?\". If not, translate the care into your own words: this is a greeting that listens. Greet strangers you pass too.",
+      "why": "In Yoruba culture a greeting is a real act, not a formality. To pass someone without greeting is rudeness, and to greet well is a mark of being ọmọlúàbí, a person of character.",
+      "variations": [
+        "Learn the greeting for morning, afternoon and evening.",
+        "Greet the person who cleans or serves you.",
+        "Call an older relative for a long greeting."
+      ]
+    },
+    {
+      "id": "iba",
+      "name": "Ìbà: remember those who came before",
+      "icon": "tree",
+      "slot": "Morning",
+      "time": "06:30",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Stand or sit quietly outside or by a window. Say the names of three people to whom you owe something: an elder, a teacher, someone who has died. Say a short thank you for each. Then pour a small cup of cool water onto soil or a plant as a gesture of respect. Do not imitate any shrine rite or invoke an òrìṣà. This is a simple act of acknowledgement.",
+      "why": "Ìbà, homage, comes before speech and action in Yoruba life. It places you in a line of people who made your life possible and softens the heart for the day.",
+      "variations": [
+        "Do it at the end of the day instead.",
+        "Write the three names in a notebook.",
+        "Tell one person what you are grateful to them for."
+      ]
+    },
+    {
+      "id": "owe",
+      "name": "Òwe: a proverb a day",
+      "icon": "book-open-text",
+      "slot": "Afternoon",
+      "time": "13:00",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Choose one proverb from the Onda or from a collection. Say it aloud three times, slowly, and write it by hand. Ask what situation it fits. Use it once today in a conversation or in a note to yourself. At the end of the day, write one sentence on whether it proved true. Do not hurry. A proverb is a small story compressed to a line.",
+      "why": "Yoruba speech prizes proverbs. Òwe are called the horses of speech: they carry a thought quickly to where it needs to go. Using them well is a sign of wisdom.",
+      "variations": [
+        "Ask an elder which proverb they use most often.",
+        "Translate a proverb from your own language into the same shape.",
+        "Collect a week of proverbs in a list."
+      ]
+    },
+    {
+      "id": "check-iwa",
+      "name": "Ìwà: the evening review",
+      "icon": "moon-stars",
+      "slot": "Evening",
+      "time": "21:00",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "At the end of the day, sit quietly with a notebook and answer three questions in a sentence or two each. Did I greet and respect the people I met? Did I speak truthfully and gently? Did I keep a cool head under pressure? Do not judge harshly. Notice and plan one small correction for tomorrow.",
+      "why": "Character, ìwà, is the centre of Yoruba ethics: it is said to be the beauty of a person. A short daily review keeps it in view.",
+      "variations": [
+        "Do it aloud with a friend or family member.",
+        "Add a fourth question: who did I help?",
+        "Keep a running tally of the days you kept a cool head."
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": "learn-five-yoruba-greetings",
+      "name": "Learn five Yoruba greetings",
+      "meta": "Morning, afternoon, evening, thank you, welcome",
+      "time": "12:00",
+      "slot": "Afternoon"
+    },
+    {
+      "id": "listen-to-ten-minutes-of-talking-drum-or-juju-music",
+      "name": "Listen to ten minutes of talking drum or juju music",
+      "meta": "Follow the call and response",
+      "time": "17:00",
+      "slot": "Afternoon"
+    },
+    {
+      "id": "ask-an-elder-for-a-story-or-a-proverb",
+      "name": "Ask an elder for a story or a proverb",
+      "meta": "Write down what they say",
+      "time": "18:00",
+      "slot": "Evening"
+    }
+  ],
+  "rules": [
+    {
+      "id": "r1",
+      "text": "Greet before you ask",
+      "why": "In Yoruba life a request without a greeting is rude. Begin with the person, then the matter."
+    },
+    {
+      "id": "r2",
+      "text": "Give elders your place",
+      "why": "Standing, offering a seat or serving first shows the respect that holds a community together."
+    },
+    {
+      "id": "r3",
+      "text": "Keep a cool head",
+      "why": "Ìtútù, composure, is admired. Speak quietly and wait before reacting."
+    },
+    {
+      "id": "r4",
+      "text": "Speak the truth gently",
+      "why": "Gentle character, ìwà pẹ̀lẹ́, is held to be the essence of good conduct. Truth without gentleness is unfinished."
+    },
+    {
+      "id": "r5",
+      "text": "Offer food or water to a guest before anything else",
+      "why": "Hospitality comes first, and a guest should not have to ask."
+    },
+    {
+      "id": "r6",
+      "text": "Do not enter or handle what is sacred uninvited",
+      "why": "Shrines, masks and ritual objects belong to initiated communities. Respect begins with keeping your distance."
+    }
+  ],
+  "immerse": {
+    "read": [
+      {
+        "id": "read-death-and-the-king-s-horseman",
+        "title": "Death and the King’s Horseman",
+        "creator": "Wole Soyinka",
+        "year": "1975",
+        "why": "A play based on events in the Oyo kingdom in 1946, about duty, death and the clash of worlds."
+      },
+      {
+        "id": "read-ake-the-years-of-childhood",
+        "title": "Aké: The Years of Childhood",
+        "creator": "Wole Soyinka",
+        "year": "1981",
+        "why": "A memoir of a childhood in Abeokuta in the 1930s and 1940s."
+      },
+      {
+        "id": "read-the-palm-wine-drinkard",
+        "title": "The Palm-Wine Drinkard",
+        "creator": "Amos Tutuola",
+        "year": "1952",
+        "why": "A folktale-fed adventure into the world of spirits, written in a distinctive English."
+      },
+      {
+        "id": "read-yoruba-nine-centuries-of-african-art-and-thought",
+        "title": "Yoruba: Nine Centuries of African Art and Thought",
+        "creator": "Henry John Drewal, John Pemberton III and Rowland Abiodun",
+        "year": "1989",
+        "why": "A richly illustrated study of Yoruba art and ideas."
+      },
+      {
+        "id": "read-ifa-divination-communication-between-gods-and-men-in-west-africa",
+        "title": "Ifá Divination: Communication between Gods and Men in West Africa",
+        "creator": "William Bascom",
+        "year": "1969",
+        "why": "The classic scholarly study of how Ifá divination works."
+      },
+      {
+        "id": "read-stay-with-me",
+        "title": "Stay with Me",
+        "creator": "Ayọ̀bámi Adébáyọ̀",
+        "year": "2017",
+        "why": "A novel of marriage, family and expectation in Nigeria, steeped in Yoruba life."
+      },
+      {
+        "id": "read-children-of-blood-and-bone",
+        "title": "Children of Blood and Bone",
+        "creator": "Tomi Adeyemi",
+        "year": "2018",
+        "why": "A young adult fantasy drawing on Yoruba mythology. A modern retelling, not a source."
+      }
+    ],
+    "watch": [
+      {
+        "id": "watch-saworoide",
+        "title": "Saworoide",
+        "creator": "Tunde Kelani",
+        "year": "1999",
+        "why": "A Yoruba-language film about a town, its king and a sacred bell. A landmark of Nigerian cinema."
+      },
+      {
+        "id": "watch-maami",
+        "title": "Maami",
+        "creator": "Tunde Kelani",
+        "year": "2011",
+        "why": "A tender story of a mother and son, drawn from a memoir."
+      },
+      {
+        "id": "watch-the-figurine-araromire",
+        "title": "The Figurine (Araromire)",
+        "creator": "Kunle Afolayan",
+        "year": "2009",
+        "why": "A thriller in which a statue brings fortune and dread."
+      }
+    ],
+    "listen": [
+      {
+        "id": "listen-juju-music",
+        "title": "Juju Music",
+        "creator": "King Sunny Adé and his African Beats",
+        "year": "1982",
+        "why": "The album that introduced juju to many listeners outside Nigeria."
+      },
+      {
+        "id": "listen-zombie",
+        "title": "Zombie",
+        "creator": "Fela Kuti",
+        "year": "1976",
+        "why": "An Afrobeat classic with Yoruba rhythms and sharp political satire."
+      },
+      {
+        "id": "listen-drums-of-passion",
+        "title": "Drums of Passion",
+        "creator": "Babatunde Olatunji",
+        "year": "1959",
+        "why": "West African drumming and song brought to a wide audience."
+      },
+      {
+        "id": "listen-oba-koso",
+        "title": "Oba Koso",
+        "creator": "Duro Ladipo",
+        "year": "1963",
+        "why": "A Yoruba opera about King Ṣàngó, performed by the Duro Ladipo Theatre.",
+        "unverified": true
+      }
+    ],
+    "art": [
+      {
+        "id": "art-the-ife-heads",
+        "title": "The Ife heads",
+        "creator": "Artists of Ile-Ife",
+        "year": "c. 12th to 15th centuries",
+        "why": "Naturalistic brass and terracotta heads found at Ile-Ife in the twentieth century."
+      },
+      {
+        "id": "art-the-osun-osogbo-sacred-grove",
+        "title": "The Osun-Osogbo Sacred Grove",
+        "creator": "Susanne Wenger and the Osun community",
+        "year": "sculptures from the 1950s onward",
+        "why": "A forest with shrines and sculptures beside the Osun river, listed by UNESCO in 2005."
+      },
+      {
+        "id": "art-adire-cloth",
+        "title": "Adire cloth",
+        "creator": "Women dyers of Abeokuta and elsewhere",
+        "year": "a living craft",
+        "why": "Indigo cloth patterned with resist paste. Each pattern has a name."
+      },
+      {
+        "id": "art-gelede-masks",
+        "title": "Gelede masks",
+        "creator": "Yoruba carvers",
+        "year": "a living tradition",
+        "why": "Carved headdresses worn at festivals honouring women’s spiritual power. Proclaimed by UNESCO in 2001."
+      },
+      {
+        "id": "art-beaded-crowns",
+        "title": "Beaded crowns",
+        "creator": "Yoruba bead workers",
+        "year": "a living craft",
+        "why": "Crowns with veils of beads worn by kings, made to mark their sacred role."
+      }
+    ],
+    "eat": [
+      {
+        "id": "eat-amala-with-ewedu-and-gbegiri",
+        "title": "Amala with ewedu and gbegiri",
+        "creator": "Yam or cassava flour paste with jute leaf and bean soups",
+        "why": "A classic Yoruba meal, eaten with the right hand."
+      },
+      {
+        "id": "eat-moi-moi",
+        "title": "Moi moi",
+        "creator": "Steamed bean pudding",
+        "why": "Made from peeled black-eyed peas, peppers and oil, steamed in leaves or foil."
+      },
+      {
+        "id": "eat-akara",
+        "title": "Akara",
+        "creator": "Bean fritters",
+        "why": "Fried in palm oil and eaten at breakfast, often with pap."
+      },
+      {
+        "id": "eat-pounded-yam-and-egusi-soup",
+        "title": "Pounded yam and egusi soup",
+        "creator": "Yam pounded smooth with a melon-seed soup",
+        "why": "A dish of celebration."
+      },
+      {
+        "id": "eat-dodo",
+        "title": "Dodo",
+        "creator": "Fried ripe plantain",
+        "why": "Sweet, golden and eaten with almost everything."
+      }
+    ],
+    "drink": [
+      {
+        "id": "drink-ogi",
+        "title": "Ogi",
+        "creator": "Fermented corn pap",
+        "why": "A smooth breakfast drink eaten with akara or moi moi."
+      },
+      {
+        "id": "drink-zobo",
+        "title": "Zobo",
+        "creator": "A hibiscus drink",
+        "why": "Tart and red, served cold with ginger. Popular across Nigeria."
+      },
+      {
+        "id": "drink-palm-wine",
+        "title": "Palm wine",
+        "creator": "Tapped from the palm",
+        "why": "A traditional drink at ceremonies. Alcoholic, so optional."
+      }
+    ],
+    "customs": [
+      {
+        "id": "customs-the-long-greeting",
+        "title": "The long greeting",
+        "creator": "Ask after home, family and work",
+        "why": "A proper greeting is never one word. It includes questions about the person’s family and day."
+      },
+      {
+        "id": "customs-kneel-or-bow-to-elders",
+        "title": "Kneel or bow to elders",
+        "creator": "Women kneel and men prostrate, in the traditional form",
+        "why": "A sign of respect that is still practised on formal occasions and by many families."
+      },
+      {
+        "id": "customs-wear-matching-cloth-to-a-celebration",
+        "title": "Wear matching cloth to a celebration",
+        "creator": "Aṣọ ẹbí, cloth chosen by the family",
+        "why": "Families and friends dress in the same fabric at weddings and funerals."
+      },
+      {
+        "id": "customs-the-naming-ceremony",
+        "title": "The naming ceremony",
+        "creator": "A child is given several names about a week after birth",
+        "why": "Each name is a wish or a record of circumstances. A named child belongs to the family."
+      },
+      {
+        "id": "customs-share-kola-nut",
+        "title": "Share kola nut",
+        "creator": "Break and share it with guests",
+        "why": "Offering kola is a gesture of welcome and peace in many West African households."
+      }
+    ]
+  },
+  "ethics": [
+    {
+      "title": "Be a person of character",
+      "text": "Ìwà lẹ̀wà: character is beauty. The Yoruba ideal of the ọmọlúàbí asks for respect, honesty, courage, generosity and self-restraint together.",
+      "practice": "Choose one of these qualities and practise it in one conversation today."
+    },
+    {
+      "title": "Honour your elders",
+      "text": "Elders carry memory, and the young carry strength. A child who knows how to wash their hands eats with elders, says the proverb: skill and manners earn a place at the table.",
+      "practice": "Spend ten minutes asking an older person for advice."
+    },
+    {
+      "title": "Keep your head cool",
+      "text": "Ìtútù, coolness, is a mark of maturity: composure in the face of anger, grief or provocation.",
+      "practice": "Pause for a slow breath before the next hard reply."
+    },
+    {
+      "title": "Mutual need",
+      "text": "A child’s hand cannot reach the shelf and an elder’s hand cannot enter the gourd. Each depends on the other, and neither should boast.",
+      "practice": "Ask for help today and offer it too."
+    },
+    {
+      "title": "Speak well of the absent",
+      "text": "A person’s name is their gift to the world. Hold others’ reputations as carefully as your own.",
+      "practice": "Say something good about someone who is not in the room."
+    },
+    {
+      "title": "Do not harm the community",
+      "text": "In Yoruba thought a person is made by their community, and harm to others returns to the doer. Moral order is shared.",
+      "practice": "Ask yourself who would be affected by one decision today."
+    }
+  ],
+  "philosophy": [
+    {
+      "title": "Àṣẹ",
+      "text": "The power to bring things about, present in words, deeds and people. When a person says \"àṣẹ\" they affirm that what has been said will be so.",
+      "practice": "Speak one sentence today with full intention."
+    },
+    {
+      "title": "Orí and destiny",
+      "text": "Each person has an orí, a head that carries their destiny. It is honoured because a good life is one that fits one’s own path.",
+      "practice": "Write down one thing that feels truly yours to do."
+    },
+    {
+      "title": "Ìwà as the centre",
+      "text": "Character is the basis of Yoruba ethics. Ifá verses repeatedly tell people that wealth and status mean little without ìwà.",
+      "practice": "Ask what your actions today said about your character."
+    },
+    {
+      "title": "The world and the beyond",
+      "text": "Ayé, the world of the living, and ọ̀run, the world of ancestors and unseen powers, are linked. What is done in one echoes in the other.",
+      "practice": "Remember someone who has died and say their name aloud."
+    },
+    {
+      "title": "Ifá as wisdom",
+      "text": "The Ifá corpus is a vast body of verses memorised by priests. Each verse tells a story that the diviner links to the client’s situation. It is a library of human experience.",
+      "practice": "Tell yourself a short story from your life as if it were a verse that could help another."
+    },
+    {
+      "title": "Balance and offering",
+      "text": "Ẹ̀bọ restores balance after a reading or a wrong. It is not a bribe, but an acknowledgement that every gift has a cost.",
+      "practice": "Give something away today in return for something you received."
+    },
+    {
+      "title": "Words that carry power",
+      "text": "The Yoruba language is tonal, and proverbs, praise poems and drum language use pitch as meaning. Speech is music and sound can act.",
+      "practice": "Say a familiar phrase and listen to its tune."
+    },
+    {
+      "title": "Oríkì: praise as recognition",
+      "text": "Praise poems name people’s qualities, ancestors and deeds. Praising someone well is a way of seeing them completely.",
+      "practice": "Write a short praise for someone you love, using three of their real qualities."
+    },
+    {
+      "title": "Community as the person",
+      "text": "A person is made in relation to others: family, town, elders and ancestors. The self is not a separate unit.",
+      "practice": "List the people who shaped three of your habits."
+    },
+    {
+      "title": "The diaspora",
+      "text": "Millions of Yoruba people were taken to the Americas. In Cuba, Brazil, Trinidad and elsewhere, they kept their gods, songs and language in new forms such as Lucumí, Candomblé and Orisha worship.",
+      "practice": "Learn one fact about a diaspora tradition, and the history of its survival."
+    }
+  ],
+  "journal": [
+    "Whom did you greet well today, and how did they respond?",
+    "Where did you show good character today?",
+    "Where did you lose your composure, and why?",
+    "Whom did you honour?",
+    "What proverb fitted your day?",
+    "What did you learn from an elder?",
+    "What did you give without being asked?",
+    "What did you say that you would say differently?",
+    "What did you receive from your community today?",
+    "What is your family’s oldest story?",
+    "What are you grateful for from those who came before?",
+    "What did you do with a cool head?",
+    "What did you make, cook or mend?",
+    "When did you listen more than you spoke?",
+    "What does home mean to you?",
+    "What would your praise poem say about you?",
+    "Whom did you forgive or want to?",
+    "What rhythm did you notice today?",
+    "Whom would you like to greet properly tomorrow?",
+    "What did you share with a guest or a stranger?",
+    "What does destiny mean to you?",
+    "Where did you need help today?",
+    "What did the word àṣẹ call to mind?",
+    "Who has shaped your habits most?",
+    "What did you leave unsaid in kindness?",
+    "What did you remember about someone no longer living?",
+    "What is beautiful in someone you know?",
+    "What would you like your name to stand for?",
+    "What practice has changed your mornings?",
+    "What will you carry forward?"
+  ],
+  "reflect": [
+    "Which greetings and habits of respect have you made your own?",
+    "What did the idea of ìwà change in how you judge yourself and others?",
+    "Where did you feel part of a line of people, and where did you feel alone?",
+    "Which proverb will you keep?",
+    "What did you learn about listening, speech and rhythm?",
+    "Whom will you thank, and how?"
+  ],
+  "dayThemes": [
+    "The long greeting",
+    "Character is beauty",
+    "A proverb at dawn",
+    "Homage to those before",
+    "Elders and the young",
+    "The cool head",
+    "A child’s hand and the shelf",
+    "Speech as music",
+    "The drum that talks",
+    "Cloth and indigo",
+    "The kitchen and the pot",
+    "Gentle character",
+    "The name given",
+    "Praise poems",
+    "Home and the road",
+    "The river and beauty",
+    "The iron and the road",
+    "Thunder and justice",
+    "White cloth and calm",
+    "The head and its destiny",
+    "The world and beyond",
+    "Ifá verses",
+    "Offering and balance",
+    "The meeting place",
+    "Songs of Lagos",
+    "The diaspora",
+    "A guest at the door",
+    "Memory kept",
+    "What I owe",
+    "Àṣẹ"
+  ],
+  "guide": {
+    "origin": "South-west Nigeria, with communities in Benin and Togo and a large diaspora in the Americas",
+    "era": "Ancient to today",
+    "intro": [
+      "The Yoruba are one of the largest peoples of Africa, numbering more than forty million. Their homeland lies in the south-west of Nigeria and extends into Benin and Togo. Their language is tonal, rich in proverbs, and spoken by millions in cities such as Lagos, Ibadan and Abeokuta. Their cities, kingdoms and traditions are old and varied, and their art, music and literature are among the best known in the world.",
+      "According to tradition the world began at Ile-Ife, where the god Oduduwa descended and founded the first Yoruba kingdom. Archaeology shows that Ile-Ife was a major city by the first millennium, and between about the twelfth and fifteenth centuries its artists made naturalistic heads in brass and terracotta that astonished Europeans when they saw them in the twentieth century. Later the Oyo kingdom dominated the region until the early nineteenth century, when it collapsed.",
+      "Yoruba religion centres on Olódùmarè, the supreme being, and on the òrìṣà, forces of nature and character who mediate between people and the divine. Ògún is the lord of iron and the road, Ṣàngó of thunder and justice, Ọ̀ṣun of rivers and beauty, Yemọja of the sea and motherhood. Ifá, the system of divination that belongs to Ọ̀rúnmìlà, holds a vast body of verses that guide decisions. UNESCO recognised Ifá as part of humanity’s intangible heritage.",
+      "At the heart of Yoruba ethics lies ìwà, character. The proverb says that character is the beauty of a person. The ideal is the ọmọlúàbí: someone respectful, truthful, hard-working, generous and composed. Greeting well, honouring elders, speaking gently and keeping a cool head are the daily forms of this ideal.",
+      "The slave trade of the eighteenth and nineteenth centuries carried huge numbers of Yoruba people to the Americas. In Cuba, Brazil, Trinidad and elsewhere they preserved their gods, rhythms and language in new religions such as Lucumí, Candomblé and Orisha worship. Today these traditions are living, and so is Yoruba culture in Nigeria and the diaspora, from Nobel Prize literature to Afrobeat and Nollywood.",
+      "This Onda is an introduction to Yoruba culture and ethics for outsiders. It offers greetings, proverbs, listening and a daily review of character. It does not teach rites that belong to initiated priests, and it asks you to learn from Yoruba teachers and communities for anything deeper."
+    ],
+    "figures": [
+      {
+        "name": "Oduduwa",
+        "dates": "legendary",
+        "bio": "The ancestor of the Yoruba kings in tradition, said to have founded Ile-Ife."
+      },
+      {
+        "name": "Samuel Ajayi Crowther",
+        "dates": "c. 1809–1891",
+        "bio": "Born in Oyo territory, enslaved as a boy, freed by the Royal Navy, and became the first African Anglican bishop in 1864. He wrote an early Yoruba vocabulary and helped translate the Bible."
+      },
+      {
+        "name": "Funmilayo Ransome-Kuti",
+        "dates": "1900–1978",
+        "bio": "Teacher and campaigner from Abeokuta who led the women’s protest against unfair taxes and fought for women’s vote."
+      },
+      {
+        "name": "Wole Soyinka",
+        "dates": "born 1934",
+        "bio": "Playwright, poet and essayist. In 1986 he became the first African to win the Nobel Prize in Literature."
+      },
+      {
+        "name": "Fela Kuti",
+        "dates": "1938–1997",
+        "bio": "Musician who created Afrobeat, mixing Yoruba rhythms, highlife, jazz and funk. A fierce critic of Nigeria’s military rulers."
+      },
+      {
+        "name": "Duro Ladipo",
+        "dates": "1931–1978",
+        "bio": "Actor and playwright whose Yoruba opera Oba Koso, 1963, brought Yoruba myth to the stage."
+      },
+      {
+        "name": "Susanne Wenger",
+        "dates": "1915–2009",
+        "bio": "An Austrian artist who moved to Nigeria, became an Ọ̀ṣun priestess and helped save the sacred grove at Osogbo."
+      },
+      {
+        "name": "Wande Abimbola",
+        "dates": "born 1932",
+        "bio": "Scholar and Ifá priest who recorded and translated large parts of the Ifá corpus."
+      },
+      {
+        "name": "King Sunny Adé",
+        "dates": "born 1946",
+        "bio": "Bandleader and guitarist who brought juju music to world audiences."
+      }
+    ],
+    "history": [
+      {
+        "when": "First millennium CE",
+        "what": "Early towns in south-west Nigeria",
+        "detail": "Farming communities settled the forest and savanna of the region. Towns such as Ile-Ife grew into centres of trade and craft long before European contact."
+      },
+      {
+        "when": "c. 12th to 15th centuries",
+        "what": "The artists of Ile-Ife",
+        "detail": "Craftsmen made naturalistic heads in brass and terracotta, often thought to depict kings. Seventeen heads were found in 1938 at Wunmonije compound, and they changed Western ideas about African art."
+      },
+      {
+        "when": "c. 14th to 18th centuries",
+        "what": "The rise of Oyo",
+        "detail": "The Oyo kingdom grew from a northern Yoruba town into a large state with a powerful cavalry and a council of chiefs, and dominated many neighbours."
+      },
+      {
+        "when": "17th to 19th centuries",
+        "what": "The Atlantic slave trade",
+        "detail": "Many thousands of Yoruba-speaking people were enslaved and shipped to the Americas, especially in the nineteenth century after wars in the interior."
+      },
+      {
+        "when": "1830s",
+        "what": "The fall of Oyo",
+        "detail": "The old Oyo kingdom collapsed under pressure from Ilorin and other forces. New towns such as Ibadan and Abeokuta rose, and a period of wars followed."
+      },
+      {
+        "when": "1843–1884",
+        "what": "The written language",
+        "detail": "Samuel Ajayi Crowther published a vocabulary of Yoruba in 1843 and led translation of the Bible, giving the language a standard written form."
+      },
+      {
+        "when": "1861–1914",
+        "what": "British rule",
+        "detail": "Britain annexed Lagos in 1861 and gradually took control of Yoruba lands. In 1914 the colony and protectorate were merged to form Nigeria."
+      },
+      {
+        "when": "1960",
+        "what": "Independence",
+        "detail": "Nigeria became independent on 1 October 1960. Yoruba writers, musicians and politicians shaped the new country’s culture."
+      },
+      {
+        "when": "1963",
+        "what": "Oba Koso on stage",
+        "detail": "Duro Ladipo’s Yoruba opera about King Ṣàngó premiered, bringing Yoruba myth and language to national and international stages."
+      },
+      {
+        "when": "1986",
+        "what": "Soyinka’s Nobel Prize",
+        "detail": "Wole Soyinka won the Nobel Prize in Literature, the first African to do so, with a body of work rooted in Yoruba thought and the world’s theatre."
+      },
+      {
+        "when": "2005",
+        "what": "Ifá and the Osun grove honoured",
+        "detail": "UNESCO proclaimed the Ifá divination system a masterpiece of intangible heritage in 2005, and the Osun-Osogbo Sacred Grove became a World Heritage Site in the same year."
+      }
+    ],
+    "concepts": [
+      {
+        "term": "Ìwà",
+        "text": "Character; conduct; being.",
+        "detail": "The central idea of Yoruba ethics. Ifá verses and proverbs insist that good character matters more than wealth or rank. It covers honesty, respect, patience and courage. To say that someone has ìwà is the highest praise."
+      },
+      {
+        "term": "Ọmọlúàbí",
+        "text": "The person of good character.",
+        "detail": "The ideal citizen: courteous, truthful, self-controlled, generous and diligent. Parents hope to raise an ọmọlúàbí, and schools and families teach the qualities through proverbs and example."
+      },
+      {
+        "term": "Àṣẹ",
+        "text": "The power to make things happen.",
+        "detail": "A force present in words, acts and persons. Prayers end with àṣẹ, and masters, priests and speakers are said to carry it. It is neither magic nor mere authority: it is the efficacy of the spoken and the done."
+      },
+      {
+        "term": "Orí",
+        "text": "The head and personal destiny.",
+        "detail": "Each person has an inner head that holds their destiny. Honouring one’s orí means living in accord with one’s path. It is a reminder that people differ and that no one else can live your life for you."
+      },
+      {
+        "term": "Ìbà",
+        "text": "Reverence before action.",
+        "detail": "A gesture or phrase of homage offered to elders, ancestors and the sacred before speaking or acting. It acknowledges that nothing is done alone and that respect is the beginning of wisdom."
+      },
+      {
+        "term": "Òwe",
+        "text": "The proverb.",
+        "detail": "Proverbs are the highest form of speech, said to be the horses of words. A wise elder will answer a question with a proverb, and the listener must think. The tradition keeps thousands of them."
+      },
+      {
+        "term": "Ifá",
+        "text": "The system of divination and wisdom.",
+        "detail": "Ifá is a body of verses memorised by priests called babaláwo. When consulted, the diviner casts palm nuts or a chain to produce one of 256 signs, then recites verses linked to the sign. The client reflects on how the story applies."
+      },
+      {
+        "term": "Òrìṣà",
+        "text": "The divine forces of nature and character.",
+        "detail": "Each òrìṣà governs an aspect of the world and the person: iron, thunder, rivers, the sea, the crossroads. They are approached with praise, songs, colours and offerings by initiated communities. Outsiders can learn about them with respect."
+      },
+      {
+        "term": "Ìtútù",
+        "text": "Coolness; composure.",
+        "detail": "The ability to act with grace under pressure. The art historian Robert Farris Thompson wrote about it as a defining ideal in Yoruba art and conduct. It is the opposite of heat and rash anger."
+      },
+      {
+        "term": "Oríkì",
+        "text": "The praise poem.",
+        "detail": "A chanted evocation of a person, family, town or òrìṣà. It lists qualities, ancestors and deeds, often in dense poetic language. To be praised in an oríkì is to be named fully."
+      }
+    ],
+    "facts": [
+      {
+        "text": "Yoruba is a tonal language with three levels of pitch: high, mid and low. The same letters can mean different things depending on tone, which is why the talking drum can imitate speech."
+      },
+      {
+        "text": "Traditional Yoruba counting is based on twenty and uses subtraction. Thirty-five is expressed roughly as \"five less than forty\"."
+      },
+      {
+        "text": "The Ifá corpus is made up of 256 sections called odù, each with many verses. A trained priest may spend years memorising them."
+      },
+      {
+        "text": "Seventeen heads were found in 1938 at Wunmonije compound in Ile-Ife. Their naturalism led some European scholars to doubt that they were African."
+      },
+      {
+        "text": "Adire cloth from Abeokuta was often made with cassava paste as the resist and dyed in indigo vats owned and run by women."
+      },
+      {
+        "text": "The Osun-Osogbo Sacred Grove is one of the last remnants of the high primary forest in southern Nigeria and a UNESCO World Heritage Site since 2005."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Òyìnbó",
+        "meaning": "A word for a white or foreign person"
+      },
+      {
+        "term": "Egúngún",
+        "meaning": "Masquerades that honour the ancestors"
+      },
+      {
+        "term": "Ọba",
+        "meaning": "King or traditional ruler"
+      },
+      {
+        "term": "Ilé-Ifẹ̀",
+        "meaning": "The ancient city regarded as the cradle of the Yoruba"
+      },
+      {
+        "term": "Lucumí",
+        "meaning": "The Cuban name for Yoruba-descended religion and people"
+      },
+      {
+        "term": "Candomblé",
+        "meaning": "The Afro-Brazilian religion with a Yoruba strand in Bahia"
+      }
+    ],
+    "furtherReading": [
+      {
+        "title": "Flash of the Spirit",
+        "creator": "Robert Farris Thompson",
+        "year": "1983",
+        "note": "On African and Afro-Atlantic art, including a chapter on Yoruba aesthetics and coolness."
+      },
+      {
+        "title": "A History of the Yoruba People",
+        "creator": "Stephen Adebanji Akintoye",
+        "year": "2010",
+        "note": "A broad history written by a Yoruba historian."
+      },
+      {
+        "title": "Ifá Will Mend Our Broken World",
+        "creator": "Wande Abimbola",
+        "year": "1997",
+        "note": "A leading Ifá priest and scholar on the tradition’s meaning."
+      },
+      {
+        "title": "I Could Speak Until Tomorrow: Oriki, Women and the Past in a Yoruba Town",
+        "creator": "Karin Barber",
+        "year": "1991",
+        "note": "On praise poetry and the personal history it holds."
+      },
+      {
+        "title": "The History of the Yorubas",
+        "creator": "Samuel Johnson",
+        "year": "1921",
+        "note": "A history by a Yoruba clergyman, written in the 1890s and printed after his death."
+      }
+    ],
+    "learnFrom": [
+      {
+        "name": "Yoruba cultural associations and community schools",
+        "note": "Many cities host groups that teach language, naming ceremonies and festivals to children and newcomers."
+      },
+      {
+        "name": "Babaláwo and Ifá communities",
+        "note": "For anything about divination, initiation or òrìṣà worship, learn from a trained and initiated teacher in the tradition."
+      },
+      {
+        "name": "Departments of Yoruba studies in Nigerian universities",
+        "note": "Institutions such as the University of Ibadan and Obafemi Awolowo University hold major scholarship and language teaching."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Yoruba: Nine Centuries of African Art and Thought",
+        "creator": "Henry John Drewal, John Pemberton III and Rowland Abiodun",
+        "publisher": "Museum for African Art",
+        "year": "1989"
+      },
+      {
+        "title": "Ifá Divination",
+        "creator": "William Bascom",
+        "publisher": "Indiana University Press",
+        "year": "1969"
+      },
+      {
+        "title": "A History of the Yoruba People",
+        "creator": "Stephen Adebanji Akintoye",
+        "publisher": "Amalion Publishing",
+        "year": "2010"
+      },
+      {
+        "title": "Flash of the Spirit",
+        "creator": "Robert Farris Thompson",
+        "publisher": "Random House",
+        "year": "1983"
+      },
+      {
+        "title": "Ifá Divination System, UNESCO Intangible Cultural Heritage",
+        "publisher": "UNESCO",
+        "year": "2008"
+      },
+      {
+        "title": "Osun-Osogbo Sacred Grove, World Heritage List",
+        "publisher": "UNESCO",
+        "year": "2005"
+      }
+    ]
+  },
+  "sensitivity": {
+    "note": "Yoruba religion and culture are living traditions practised by tens of millions of people in Nigeria and across the diaspora. This Onda offers greetings, proverbs, ethics and listening in a form open to anyone. It does not teach the rites of initiates.",
+    "requiredCaveats": [
+      "Initiation, divination, masquerades and shrine rites belong to initiated priests and communities. Do not imitate them. Learn from a trained teacher if you wish to go deeper.",
+      "Yoruba is a tonal language. The tone marks and spellings here should be checked with a fluent speaker, and proverbs vary from region to region.",
+      "The pouring of water in the Ìbà practice is a simple gesture of respect, not a ritual. It is not an offering to an òrìṣà.",
+      "This content has not yet been reviewed by Yoruba speakers, Ifá scholars or priests. It should be before release."
+    ],
+    "reviewRequired": true
+  }
+}

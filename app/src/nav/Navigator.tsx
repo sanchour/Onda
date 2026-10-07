@@ -145,11 +145,14 @@ export function Navigator({ root, renderRoute }: NavigatorProps) {
   // Once the top page has arrived, hide what it covers; reveal it again when the stack shrinks.
   const settled = useRef<ReturnType<typeof setTimeout>>(undefined)
   const topKey = stack[stack.length - 1]?.key
+  const leaving = !!stack[stack.length - 1]?.leaving
   useEffect(() => {
     clearTimeout(settled.current)
+    if (leaving) return // a pop is under way: the page beneath must stay visible
     const hideCovered = () => {
-      const top = stack[stack.length - 1]
-      const under = stack.length > 1 ? els.current.get(stack[stack.length - 2]!.key) : rootRef.current
+      const now = useNav.getState().stack // read fresh: the stack may have changed since this timer was set
+      const top = now[now.length - 1]
+      const under = now.length > 1 ? els.current.get(now[now.length - 2]!.key) : rootRef.current
       if (top && !top.leaving && under) under.style.visibility = 'hidden'
     }
     if (stack.length === 0 && rootRef.current) {
@@ -158,7 +161,7 @@ export function Navigator({ root, renderRoute }: NavigatorProps) {
     } else settled.current = setTimeout(hideCovered, PUSH_MS + 40)
     return () => clearTimeout(settled.current)
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [topKey, stack.length])
+  }, [topKey, stack.length, leaving])
 
   return (
     <div className={s.nav}>

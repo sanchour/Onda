@@ -9,11 +9,11 @@ import { Button, GlassButton } from '@/ui/buttons'
 import { SegmentedControl } from '@/ui/controls'
 import { ProgressBar } from '@/ui/data'
 import { Icon } from '@/ui/Icon'
-import { DayBar, OrnDivider, PracticeRow, RulesList, TasksList, guardCreateOnda, nameSize, useActiveOnda, useRunToday } from './ondaShared'
+import { DayBar, OrnDivider, PracticeRow, RulesList, TasksList, CalendarNudge, guardCreateOnda, nameSize, useActiveOnda, useRunToday } from './ondaShared'
 import o from './ondas.module.css'
 import s from './screens.module.css'
 
-type Seg = 'practices' | 'rules' | 'tasks'
+type Seg = 'practices' | 'tasks' | 'rules'
 
 /** Ondas tab: the running Onda's banner, four shortcuts, then Today with one list at a time. */
 export default function OndasTab() {
@@ -58,6 +58,11 @@ export default function OndasTab() {
   const { run, content, look, day, index } = active
   const practices = content?.practices ?? run.snapshot?.practices.map((p) => ({ ...p, meta: p.time })) ?? []
   const pDone = practices.filter((p) => done.practices.has(p.id)).length
+  const tasks = content?.tasks ?? []
+  const rules = content?.rules ?? run.snapshot?.rules ?? []
+  const tDone = tasks.filter((x) => done.tasks.has(x.id)).length
+  const rDone = rules.filter((x) => done.rules.has(x.id)).length
+  const bar = seg === 'practices' ? { n: pDone, total: practices.length, key: 'practicesOf' } : seg === 'tasks' ? { n: tDone, total: tasks.length, key: 'tasksOf' } : { n: rDone, total: rules.length, key: 'rulesOf' }
   const name = index?.name ?? run.snapshot?.name ?? ''
   const quick: [string, string, () => void][] = [
     ['headphones', t('ondas.immerse'), () => push({ name: 'immersion' })],
@@ -95,15 +100,15 @@ export default function OndasTab() {
         <div className={o.todayHead}>
           <div className={s.todayRow}>
             <h2 className={o.todayH}>{t('ondas.today')}</h2>
-            <span className={s.sub}>{t('ondas.practicesOf', { done: pDone, total: practices.length })}</span>
+            <span className={s.sub}>{t(`ondas.${bar.key}`, { done: bar.n, total: bar.total })}</span>
           </div>
           <div className={o.todayBar} style={{ marginTop: 18 }}>
-            <ProgressBar value={practices.length ? pDone / practices.length : 0} tone="var(--onda-strong)" height={8} label={t('ondas.today')} />
+            <ProgressBar value={bar.total ? bar.n / bar.total : 0} tone="var(--onda-strong)" height={8} label={t(`ondas.${bar.key}`, { done: bar.n, total: bar.total })} />
           </div>
         </div>
         <div style={{ padding: '16px 16px 0' }}>
           <SegmentedControl<Seg>
-            options={[{ value: 'practices', label: t('ondas.practices') }, { value: 'rules', label: t('ondas.rules') }, { value: 'tasks', label: t('ondas.tasks') }]}
+            options={[{ value: 'practices', label: t('ondas.practices') }, { value: 'tasks', label: t('ondas.tasks') }, { value: 'rules', label: t('ondas.rules') }]}
             value={seg}
             onChange={setSeg}
             fullWidth
@@ -118,8 +123,9 @@ export default function OndasTab() {
               ))}
             </div>
           )}
-          {seg === 'rules' && <RulesList rules={content?.rules ?? run.snapshot?.rules ?? []} done={done.rules} onToggle={(id) => toggleItem('ruleLogs', run.id, id)} />}
-          {seg === 'tasks' && <TasksList tasks={content?.tasks ?? []} done={done.tasks} onToggle={(id) => toggleItem('taskLogs', run.id, id)} />}
+          {seg === 'tasks' && <TasksList tasks={tasks} done={done.tasks} go onToggle={(id) => toggleItem('taskLogs', run.id, id)} />}
+          {seg === 'rules' && <RulesList rules={rules} done={done.rules} onToggle={(id) => toggleItem('ruleLogs', run.id, id)} />}
+          <CalendarNudge />
         </div>
       </div>
       </div>

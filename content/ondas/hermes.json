@@ -367,6 +367,22 @@
         "Count breaths from one to ten and begin again.",
         "Write down the most frequent type of thought."
       ]
+    },
+    {
+      "id": "one-line-of-the-tablet",
+      "name": "One line of the Emerald Tablet",
+      "icon": "file-text",
+      "slot": "Afternoon",
+      "time": "13:00",
+      "minutes": 8,
+      "meta": "Afternoon · 8 min",
+      "instructions": "Read one line of the Emerald Tablet in a translation you trust. Copy it out by hand. Write what it could mean in an ordinary day, then what it could mean at a larger scale (a city, the sky, a life). Note any doubt or disagreement without hurrying to resolve it.",
+      "why": "The Emerald Tablet is a short, famously obscure text that shaped centuries of alchemy and natural philosophy. Slow reading is the right speed for it.",
+      "variations": [
+        "Read it aloud.",
+        "Compare two translations.",
+        "Draw the line as a diagram."
+      ]
     }
   ],
   "tasks": [
@@ -390,6 +406,46 @@
       "meta": "Image, verse and discussion",
       "time": "19:00",
       "slot": "Evening"
+    },
+    {
+      "id": "task-read-a-treatise-of-the-hermetica",
+      "name": "Read a treatise of the Hermetica",
+      "meta": "Read · 20 min",
+      "time": "12:30",
+      "slot": "Afternoon",
+      "action": "read"
+    },
+    {
+      "id": "task-listen-to-the-planets",
+      "name": "Listen to The Planets",
+      "meta": "Listen",
+      "time": "19:00",
+      "slot": "Evening",
+      "action": "listen"
+    },
+    {
+      "id": "task-journal-what-pattern-did-you-notice-at-two-scales",
+      "name": "Journal: what pattern did you notice at two scales?",
+      "meta": "Journal · 10 min",
+      "time": "21:15",
+      "slot": "Evening",
+      "action": "journal"
+    },
+    {
+      "id": "task-write-on-mind-and-cosmos-in-your-own-words",
+      "name": "Write on “Mind and cosmos” in your own words",
+      "meta": "Philosophy · 10 min",
+      "time": "19:30",
+      "slot": "Evening",
+      "action": "philosophy"
+    },
+    {
+      "id": "task-look-at-one-plate-of-splendor-solis",
+      "name": "Look at one plate of Splendor Solis",
+      "meta": "Art · 10 min",
+      "time": "16:30",
+      "slot": "Afternoon",
+      "action": "art"
     }
   ],
   "rules": [

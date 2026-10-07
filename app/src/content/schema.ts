@@ -30,7 +30,10 @@ export const PracticeSchema = z.object({
   variations: z.array(z.string()).default([]),
 })
 
-export const TaskSchema = z.object({ id: z.string(), name: z.string(), meta: z.string(), time: hhmm, slot: SlotSchema })
+/** What a task offers to open: the Journal, the Philosophy sheet, or the Immerse list for a kind. */
+export const TASK_ACTIONS = ['journal', 'philosophy', 'read', 'watch', 'listen', 'art', 'eat', 'drink', 'customs'] as const
+export type TaskAction = (typeof TASK_ACTIONS)[number]
+export const TaskSchema = z.object({ id: z.string(), name: z.string(), meta: z.string(), time: hhmm, slot: SlotSchema, action: z.enum(TASK_ACTIONS).optional() })
 export const RuleSchema = z.object({ id: z.string(), text: z.string(), why: z.string().default('') })
 
 export const ImmerseItemSchema = z.object({
@@ -104,4 +107,4 @@ export const OndaIndexSchema = z.object({ id: z.string(), name: z.string(), orig
 export type OndaIndex = z.infer<typeof OndaIndexSchema>
 
 /** Quality bar for the ten shipped Ondas (enforced by `npm run content:check` and a unit test). */
-export const SHIPPED_MINIMUMS = { words: 30, journal: 30, reflect: 5, dayThemes: 30, history: 10, concepts: 8, practices: 4, rules: 4 } as const
+export const SHIPPED_MINIMUMS = { words: 30, journal: 30, reflect: 5, dayThemes: 30, history: 10, concepts: 8, practices: 5, rules: 4 } as const

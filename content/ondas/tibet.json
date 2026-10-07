@@ -358,6 +358,22 @@
         "Dedicate the day to one person who is ill or grieving.",
         "Light a candle as you dedicate."
       ]
+    },
+    {
+      "id": "calm-abiding",
+      "name": "Calm abiding",
+      "icon": "wind",
+      "slot": "Afternoon",
+      "time": "17:30",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Sit upright and rest your attention lightly on the breath at the nostrils or belly. When you notice you have drifted, name it quietly (\"thinking\") and return, without scolding. Aim for gentle stability, not a blank mind. Ten minutes is enough; stop when attention gets tight.",
+      "why": "Shamatha, calm abiding, is the foundation in Tibetan Buddhism for the analytic and compassion practices that follow. A steady mind is the ground for the rest.",
+      "variations": [
+        "Count breaths from one to ten and begin again.",
+        "Rest attention on a small object instead.",
+        "Do it outdoors."
+      ]
     }
   ],
   "tasks": [
@@ -381,6 +397,46 @@
       "meta": "Fresh each morning, emptied at dusk",
       "time": "07:00",
       "slot": "Morning"
+    },
+    {
+      "id": "task-read-a-chapter-of-the-way-of-the-bodhisattva",
+      "name": "Read a chapter of The Way of the Bodhisattva",
+      "meta": "Read · 15 min",
+      "time": "12:30",
+      "slot": "Afternoon",
+      "action": "read"
+    },
+    {
+      "id": "task-watch-the-cup",
+      "name": "Watch The Cup",
+      "meta": "Watch",
+      "time": "20:00",
+      "slot": "Evening",
+      "action": "watch"
+    },
+    {
+      "id": "task-journal-whose-suffering-did-you-notice-today",
+      "name": "Journal: whose suffering did you notice today?",
+      "meta": "Journal · 10 min",
+      "time": "21:15",
+      "slot": "Evening",
+      "action": "journal"
+    },
+    {
+      "id": "task-write-what-emptiness-means-to-you-in-three-sentences",
+      "name": "Write what “emptiness” means to you in three sentences",
+      "meta": "Philosophy · 10 min",
+      "time": "19:30",
+      "slot": "Evening",
+      "action": "philosophy"
+    },
+    {
+      "id": "task-drink-a-cup-of-tea-in-silence-and-dedicate-it",
+      "name": "Drink a cup of tea in silence and dedicate it",
+      "meta": "Drink · 10 min",
+      "time": "15:30",
+      "slot": "Afternoon",
+      "action": "drink"
     }
   ],
   "rules": [

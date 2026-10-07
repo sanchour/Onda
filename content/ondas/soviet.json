@@ -365,6 +365,22 @@
         "Copy one page of a poem by hand.",
         "Return to the same chapter three evenings in a row."
       ]
+    },
+    {
+      "id": "letter-by-hand",
+      "name": "Letter by hand",
+      "icon": "envelope-simple",
+      "slot": "Evening",
+      "time": "18:30",
+      "minutes": 20,
+      "meta": "Evening · 20 min",
+      "instructions": "Write a real letter on paper to one person you care about. Tell them something specific about your week, ask them a question, and sign it by hand. Post it, or hand it over. No screens while you write.",
+      "why": "Letters were the thread that held families and friendships together across the Soviet Union. A letter is slow, personal and private, which is exactly why it is worth writing.",
+      "variations": [
+        "Write to someone you have not spoken to in a year.",
+        "Write a postcard instead.",
+        "Write one to your future self."
+      ]
     }
   ],
   "tasks": [
@@ -388,6 +404,46 @@
       "meta": "Borscht, shchi or lentil",
       "time": "18:00",
       "slot": "Evening"
+    },
+    {
+      "id": "task-read-a-chapter-of-one-day-in-the-life-of-ivan-denisovich",
+      "name": "Read a chapter of One Day in the Life of Ivan Denisovich",
+      "meta": "Read · 20 min",
+      "time": "12:30",
+      "slot": "Afternoon",
+      "action": "read"
+    },
+    {
+      "id": "task-watch-the-cranes-are-flying",
+      "name": "Watch The Cranes Are Flying",
+      "meta": "Watch",
+      "time": "20:00",
+      "slot": "Evening",
+      "action": "watch"
+    },
+    {
+      "id": "task-journal-what-did-you-do-for-something-that-is-not-yours-alone",
+      "name": "Journal: what did you do for something that is not yours alone?",
+      "meta": "Journal · 10 min",
+      "time": "21:15",
+      "slot": "Evening",
+      "action": "journal"
+    },
+    {
+      "id": "task-write-on-dialectical-materialism-one-contradiction-in-your-day",
+      "name": "Write on dialectical materialism: one contradiction in your day",
+      "meta": "Philosophy · 10 min",
+      "time": "19:30",
+      "slot": "Evening",
+      "action": "philosophy"
+    },
+    {
+      "id": "task-eat-a-bowl-of-borscht",
+      "name": "Eat a bowl of borscht",
+      "meta": "Eat · 20 min",
+      "time": "13:00",
+      "slot": "Afternoon",
+      "action": "eat"
     }
   ],
   "rules": [

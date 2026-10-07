@@ -75,7 +75,7 @@ let n = 0
 const key = () => `k${++n}`
 
 export const useNav = create<NavState>()((set, get) => ({
-  tab: 'lagos',
+  tab: 'ondas',
   stack: [],
   sheets: [],
   menu: null,

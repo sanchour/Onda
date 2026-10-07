@@ -362,6 +362,22 @@
         "Give time to a local organisation.",
         "Contribute to a shared fund."
       ]
+    },
+    {
+      "id": "listen-without-fixing",
+      "name": "Listen without fixing",
+      "icon": "users-three",
+      "slot": "Afternoon",
+      "time": "13:00",
+      "minutes": 15,
+      "meta": "Afternoon · 15 min",
+      "instructions": "Ask one person how they really are, then listen for ten minutes. Do not give advice, tell your own story or look at your phone. When they stop, ask: \"What else?\" At the end, say one thing you heard that mattered to you.",
+      "why": "Ubuntu holds that a person becomes a person through other people. Being heard is one of the oldest ways of being made more human.",
+      "variations": [
+        "Do it with someone you rarely listen to.",
+        "Do it by phone.",
+        "Do it as a daily habit with the same person."
+      ]
     }
   ],
   "tasks": [
@@ -385,6 +401,46 @@
       "meta": "Name what they did",
       "time": "20:00",
       "slot": "Evening"
+    },
+    {
+      "id": "task-read-a-chapter-of-long-walk-to-freedom",
+      "name": "Read a chapter of Long Walk to Freedom",
+      "meta": "Read · 20 min",
+      "time": "12:30",
+      "slot": "Afternoon",
+      "action": "read"
+    },
+    {
+      "id": "task-listen-to-nkosi-sikelel-iafrika",
+      "name": "Listen to Nkosi Sikelel’ iAfrika",
+      "meta": "Listen",
+      "time": "16:30",
+      "slot": "Afternoon",
+      "action": "listen"
+    },
+    {
+      "id": "task-journal-who-did-you-truly-see-today",
+      "name": "Journal: who did you truly see today?",
+      "meta": "Journal · 10 min",
+      "time": "21:15",
+      "slot": "Evening",
+      "action": "journal"
+    },
+    {
+      "id": "task-write-on-relational-personhood-who-made-you-who-you-are",
+      "name": "Write on “Relational personhood”: who made you who you are?",
+      "meta": "Philosophy · 10 min",
+      "time": "19:30",
+      "slot": "Evening",
+      "action": "philosophy"
+    },
+    {
+      "id": "task-share-a-pot-of-rooibos-or-a-meal-with-someone",
+      "name": "Share a pot of rooibos or a meal with someone",
+      "meta": "Drink · 20 min",
+      "time": "17:30",
+      "slot": "Afternoon",
+      "action": "drink"
     }
   ],
   "rules": [

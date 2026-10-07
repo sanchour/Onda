@@ -66,6 +66,8 @@ export const LagoSchema = z.object({
   reminder: z.object({ on: z.boolean(), time: z.string() }),
   /** 'user' | 'gallery' | 'onda:<ondaId>' */
   origin: z.string(),
+  /** Set when the Lago was made from an Onda practice: both share one tick per day. */
+  link: z.object({ runId: z.string(), practiceId: z.string() }).nullable().optional(),
 })
 export type Lago = z.infer<typeof LagoSchema>
 

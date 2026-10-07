@@ -399,6 +399,22 @@
         "Add a fourth question: who did I help?",
         "Keep a running tally of the days you kept a cool head."
       ]
+    },
+    {
+      "id": "itan",
+      "name": "Ìtàn: tell a story",
+      "icon": "speaker-high",
+      "slot": "Evening",
+      "time": "19:30",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Tell someone a story from your own family or life, out loud, with a beginning and an end. Include the name of a person who came before you. When you finish, ask them for a story of theirs. If you are alone, tell it aloud anyway, or record it for someone.",
+      "why": "In Yoruba life, stories, proverbs and praise names carry history and teach character. A story told aloud keeps a person and a lesson alive.",
+      "variations": [
+        "Tell one with a proverb at the end.",
+        "Ask an elder for a story.",
+        "Record a story for a child."
+      ]
     }
   ],
   "tasks": [
@@ -422,6 +438,46 @@
       "meta": "Write down what they say",
       "time": "18:00",
       "slot": "Evening"
+    },
+    {
+      "id": "task-read-a-chapter-of-ak-the-years-of-childhood",
+      "name": "Read a chapter of Aké: The Years of Childhood",
+      "meta": "Read · 20 min",
+      "time": "12:30",
+      "slot": "Afternoon",
+      "action": "read"
+    },
+    {
+      "id": "task-listen-to-juju-music",
+      "name": "Listen to Juju Music",
+      "meta": "Listen",
+      "time": "17:30",
+      "slot": "Afternoon",
+      "action": "listen"
+    },
+    {
+      "id": "task-journal-whom-did-you-greet-well-today",
+      "name": "Journal: whom did you greet well today?",
+      "meta": "Journal · 10 min",
+      "time": "21:15",
+      "slot": "Evening",
+      "action": "journal"
+    },
+    {
+      "id": "task-write-on-one-sentence-you-will-make-true",
+      "name": "Write on àṣẹ: one sentence you will make true",
+      "meta": "Philosophy · 10 min",
+      "time": "19:00",
+      "slot": "Evening",
+      "action": "philosophy"
+    },
+    {
+      "id": "task-try-a-cup-of-ogi-or-zobo",
+      "name": "Try a cup of ogi or zobo",
+      "meta": "Drink · 10 min",
+      "time": "15:30",
+      "slot": "Afternoon",
+      "action": "drink"
     }
   ],
   "rules": [

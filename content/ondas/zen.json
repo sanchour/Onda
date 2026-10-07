@@ -358,6 +358,22 @@
         "Plain hot water, as monks often drink.",
         "Sit outside with your tea and watch the light go."
       ]
+    },
+    {
+      "id": "kinhin",
+      "name": "Walking meditation",
+      "icon": "person-simple-walk",
+      "slot": "Afternoon",
+      "time": "17:30",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Choose a path of ten to twenty steps, indoors or out. Walk very slowly, matching each step to a breath. Feel the heel, the ball of the foot, the lifting. When you reach the end, pause, turn, and walk back. If the mind wanders, return to the soles of your feet.",
+      "why": "In Zen halls, walking meditation (kinhin) sits between periods of zazen, so that stillness does not stay in the legs but enters ordinary movement.",
+      "variations": [
+        "Walk with hands folded at the chest.",
+        "Walk outside along one fixed route.",
+        "Five minutes before every meal."
+      ]
     }
   ],
   "tasks": [
@@ -381,6 +397,46 @@
       "meta": "Slowly, with a pen",
       "time": "21:00",
       "slot": "Evening"
+    },
+    {
+      "id": "task-read-ten-pages-of-zen-mind-beginner-s-mind",
+      "name": "Read ten pages of Zen Mind, Beginner’s Mind",
+      "meta": "Read · 15 min",
+      "time": "12:30",
+      "slot": "Afternoon",
+      "action": "read"
+    },
+    {
+      "id": "task-listen-to-the-heart-sutra-chant",
+      "name": "Listen to the Heart Sutra chant",
+      "meta": "Listen",
+      "time": "16:30",
+      "slot": "Afternoon",
+      "action": "listen"
+    },
+    {
+      "id": "task-journal-where-were-you-fully-present-today",
+      "name": "Journal: where were you fully present today?",
+      "meta": "Journal · 10 min",
+      "time": "21:15",
+      "slot": "Evening",
+      "action": "journal"
+    },
+    {
+      "id": "task-write-about-just-this-in-your-own-words",
+      "name": "Write about “Just this” in your own words",
+      "meta": "Philosophy · 10 min",
+      "time": "19:30",
+      "slot": "Evening",
+      "action": "philosophy"
+    },
+    {
+      "id": "task-drink-a-bowl-of-matcha-without-a-screen",
+      "name": "Drink a bowl of matcha without a screen",
+      "meta": "Drink · 10 min",
+      "time": "15:30",
+      "slot": "Afternoon",
+      "action": "drink"
     }
   ],
   "rules": [

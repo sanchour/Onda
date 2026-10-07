@@ -15,8 +15,10 @@ test('after the first load, the app starts and works with no network', async ({ 
 
   await context.setOffline(true)
   await page.reload()
-  // The app opens on the Lagos tab
-  await expect(page.getByRole('heading', { name: 'Lagos', exact: true })).toBeVisible({ timeout: 30_000 })
+  // The app opens on the Ondas tab
+  await expect(page.getByText('Onda · Day 4 of 14')).toBeVisible({ timeout: 30_000 })
+  await page.getByRole('tab', { name: 'Lagos' }).click()
+  await expect(page.getByRole('heading', { name: 'Lagos', exact: true })).toBeVisible()
   await page.getByRole('button', { name: 'Dismiss' }).click().catch(() => undefined)
   await expect(page.getByText('2 of 5 checked in')).toBeVisible()
   await page.getByRole('checkbox', { name: 'Check in Walk 10,000 steps' }).click()

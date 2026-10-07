@@ -1,7 +1,7 @@
 import { useMemo, useRef, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { LAGO_ICONS } from '@/data/catalog'
-import { useLook, useOnda, useOndaIndex, useSettings } from '@/data/hooks'
+import { useActiveRun, useLook, useOnda, useOndaIndex, useSettings } from '@/data/hooks'
 import { savePhoto, usePhotoUrl } from '@/data/photos'
 import { useStore } from '@/data/store'
 import type { Frequency } from '@/data/types'
@@ -131,9 +131,27 @@ export function LagoFormSheet({ entry }: E<'lagoForm'>) {
   const [remind, setRemind] = useState(editing?.reminder.on ?? true)
   const [time, setTime] = useState(editing?.reminder.time ?? settings.reminderTime)
   const icons = LAGO_ICONS.includes(icon) ? LAGO_ICONS : [icon, ...LAGO_ICONS.slice(0, 11)]
+  // Practices of the running Onda can become Lagos; the two then share one tick per day.
+  const run = useActiveRun()
+  const ondaContent = useOnda(run?.ondaId)
+  const lagos = useStore((x) => x.lagos)
+  const [link, setLink] = useState<{ runId: string; practiceId: string } | null>(editing?.link ?? null)
+  const taken = new Set(lagos.filter((l) => !l.deletedAt && l.link && l.id !== editing?.id).map((l) => `${l.link!.runId}:${l.link!.practiceId}`))
+  const offered = !editing && run?.snapshot ? (ondaContent?.practices ?? run.snapshot.practices).filter((p) => !taken.has(`${run.id}:${p.id}`)) : []
+  const pickPractice = (p: { id: string; name: string; icon: string; time: string }) => {
+    if (!run) return
+    if (link?.practiceId === p.id) return setLink(null)
+    setLink({ runId: run.id, practiceId: p.id })
+    setName(p.name)
+    setIcon(p.icon)
+    setTime(p.time)
+    setRemind(true)
+    setFreq('daily')
+    if (!why.trim()) setWhy(t('lagoForm.fromOnda', { name: run.snapshot?.name ?? '' }))
+  }
 
   const save = () => {
-    const input = { name: name.trim() || t('lagoForm.defaultName'), why: why.trim(), icon, lengthDays: length, frequency: freq, reminder: { on: remind, time } }
+    const input = { name: name.trim() || t('lagoForm.defaultName'), why: why.trim(), icon, lengthDays: length, frequency: freq, reminder: { on: remind, time }, link, ...(link && run ? { origin: `onda:${run.ondaId}` } : {}) }
     if (editing) useStore.getState().updateLago(editing.id, input)
     else if (!startLago(t, input)) return
     sh.close()
@@ -147,6 +165,20 @@ export function LagoFormSheet({ entry }: E<'lagoForm'>) {
             <Icon name={icon} weight="fill" size={44} />
           </div>
         </div>
+        {offered.length > 0 && (
+          <div className={s.fromOnda}>
+            <h2 className={`${s.h20} ${s.formH}`}>{t('lagoForm.fromTitle', { name: run?.snapshot?.name ?? '' })}</h2>
+            <div className={s.fromChips} role="group" aria-label={t('lagoForm.fromTitle', { name: run?.snapshot?.name ?? '' })}>
+              {offered.map((p) => (
+                <button key={p.id} type="button" aria-pressed={link?.practiceId === p.id} className={link?.practiceId === p.id ? `${s.fromChip} ${s.fromChipOn}` : s.fromChip} onClick={() => pickPractice(p)}>
+                  <Icon name={p.icon} weight="fill" size={18} />
+                  <span>{p.name}</span>
+                </button>
+              ))}
+            </div>
+            <div className={s.fromNote}>{link ? t('lagoForm.linkedNote', { name: run?.snapshot?.name ?? '' }) : t('lagoForm.fromHint')}</div>
+          </div>
+        )}
         <div className={s.card} style={{ marginTop: 24 }}>
           <div className={s.fieldRow} style={{ borderBottom: '1px solid var(--separator)' }}>
             <input aria-label={t('lagoForm.name')} placeholder={t('lagoForm.name')} value={name} maxLength={60} enterKeyHint="next" autoCapitalize="sentences" onChange={(e) => setName(e.target.value)} />
@@ -178,6 +210,7 @@ export function LagoFormSheet({ entry }: E<'lagoForm'>) {
             <ListRow icon="bell" title={t('lagoForm.reminder')} accessory="switch" switchOn={remind} onSwitchChange={setRemind} />
             <ListRow icon="clock" title={t('lagoForm.time')} value={fmtClock(time)} onClick={() => openSheet({ name: 'time', title: t('lagoForm.time'), value: time, onPick: setTime })} />
           </ListSection>
+          {editing && <ListSection footer={t('calendar.nudgeSub')}><ListRow icon="calendar-dots" title={t('calendar.nudgeTitle')} onClick={() => openSheet({ name: 'calendar' })} /></ListSection>}
         </div>
       </div>
     </AppSheet>
@@ -234,6 +267,7 @@ export function LagoInfoSheet({ entry }: E<'lagoInfo'>) {
 /* ── Choose practices from an Onda and start them as Lagos ── */
 export function OndaPracticesSheet({ entry }: E<'ondaPractices'>) {
   const { t } = useTranslation()
+  const running = useActiveRun()
   const { popToRoot, showToast } = useNav()
   const index = useOndaIndex(entry.ondaId)
   const content = useOnda(entry.ondaId)
@@ -247,7 +281,7 @@ export function OndaPracticesSheet({ entry }: E<'ondaPractices'>) {
   const start = () => {
     let n = 0
     for (const p of chosen) {
-      if (!startLago(t, { name: p.name, icon: p.icon, why: p.why || p.meta, lengthDays: Number(days), frequency: 'daily', reminder: { on: true, time: p.time }, origin: `onda:${entry.ondaId}` })) break
+      if (!startLago(t, { name: p.name, icon: p.icon, why: p.why || p.meta, lengthDays: Number(days), frequency: 'daily', reminder: { on: true, time: p.time }, origin: `onda:${entry.ondaId}`, link: running && running.ondaId === entry.ondaId && running.snapshot?.practices.some((q) => q.id === p.id) ? { runId: running.id, practiceId: p.id } : null })) break
       n++
     }
     if (!n) return

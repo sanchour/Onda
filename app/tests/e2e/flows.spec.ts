@@ -54,7 +54,7 @@ test.describe('Ondas+ beta placeholder', () => {
     await tap(page, 'Settings')
     await page.getByRole('button', { name: /Ondas\+.*Start Free Trial/s }).click()
     await settle(page)
-    await expect(page.getByText(/Beta: Ondas\+ is a placeholder/)).toBeVisible()
+    await expect(page.getByText(/Beta: Ondas/)).toHaveCount(0) // the small beta note is gone
     await tap(page, /Get Lifetime/)
     await expect(page.getByText('Lifetime unlocked (beta)')).toBeVisible()
     await settle(page, 900)
@@ -115,6 +115,37 @@ test.describe('Update 1.3', () => {
     await seedDemo(page)
     await tap(page, 'Browse Ondas')
     for (const n of ['Soviet Union', 'Yoruba', 'Aztec', 'Ancient Egypt', 'Hermeticism', 'Gnosticism']) await expect(page.getByRole('button', { name: new RegExp(n) }).first()).toBeVisible()
+  })
+})
+
+test.describe('Update 1.4', () => {
+  test('opens on the Ondas tab; Practices, Tasks, Rules in that order; tasks have a bar and a shortcut', async ({ page }) => {
+    await seedDemo(page)
+    const seg = page.getByRole('tab', { name: /^(Practices|Tasks|Rules)$/ })
+    expect(await seg.allTextContents()).toEqual(['Practices', 'Tasks', 'Rules'])
+    await page.getByRole('tab', { name: 'Tasks', exact: true }).click()
+    await expect(page.getByText(/of 8 tasks/)).toBeVisible()
+    await page.getByRole('button', { name: /Open Journal/ }).first().click()
+    await expect(page.getByRole('dialog')).toBeVisible()
+  })
+
+  test('a Lago made from an Onda practice shares its tick both ways', async ({ page }) => {
+    await seedDemo(page)
+    await startTrial(page)
+    await tab(page, 'Lagos')
+    await tap(page, 'New Lago')
+    await page.getByRole('group', { name: /From your Stoicism practices/ }).getByRole('button', { name: /Dichotomy check/ }).click()
+    await expect(page.getByText(/Linked: ticking it here also ticks it in Stoicism/)).toBeVisible()
+    await tap(page, 'Save')
+    await settle(page, 900)
+    // check it in on the Lagos side, then find it ticked on the Ondas side
+    await tap(page, 'Check in Dichotomy check', 'checkbox')
+    await tab(page, 'Ondas')
+    await expect(page.getByRole('checkbox', { name: /Dichotomy check/ })).toBeChecked()
+    // and the other way: untick the practice, the Lago follows
+    await page.getByRole('checkbox', { name: /Dichotomy check/ }).click()
+    await tab(page, 'Lagos')
+    await expect(page.getByRole('checkbox', { name: 'Check in Dichotomy check' })).not.toBeChecked()
   })
 })
 
@@ -243,10 +274,10 @@ test.describe('Ondas', () => {
   })
 
   test('Ondas tab: banner, four tiles, and Today with one list at a time', async ({ page }) => {
-    await expect(page.getByText('2 of 4 practices')).toBeVisible()
+    await expect(page.getByText('2 of 5 practices')).toBeVisible()
     for (const tile of ['Immerse', 'Journal', 'Philosophy', 'Full guide']) await expect(page.getByRole('button', { name: tile, exact: true })).toBeVisible()
     await tap(page, 'Voluntary discomfort Midday · Fast or go without', 'checkbox')
-    await expect(page.getByText('3 of 4 practices')).toBeVisible()
+    await expect(page.getByText('3 of 5 practices')).toBeVisible()
     await tap(page, 'Rules', 'tab')
     await expect(page.getByRole('checkbox', { name: /Do not complain aloud/ })).toBeVisible()
     await expect(page.getByRole('checkbox', { name: /Morning premeditation/ })).toHaveCount(0)

@@ -163,7 +163,11 @@ button.softCard{width:100%;text-align:start;display:block}
 .ruleOn .ruleNum{background:var(--onda-deep);color:var(--onda-on)}
 
 /* ── Tasks: accent bar, time pill, square checkbox ───────── */
-.task{display:flex;align-items:center;gap:12px;padding:14px 14px 14px 0;width:100%;text-align:start;background:var(--surface-card);border-radius:18px;position:relative;overflow:hidden}
+.taskCard{background:var(--surface-card);border-radius:18px;position:relative;overflow:hidden}
+.task{display:flex;align-items:center;gap:12px;padding:14px 14px 14px 0;width:100%;text-align:start;position:relative;overflow:hidden}
+.taskGo{display:flex;align-items:center;gap:8px;width:100%;padding:10px 16px 11px 22px;border-top:1px solid color-mix(in srgb,var(--separator) 80%,transparent);font:600 var(--fs-14) var(--font-sans);color:var(--onda-text);text-align:start;background:color-mix(in srgb,var(--onda-solid) 28%,transparent)}
+.taskGo span{flex:1}
+.taskGo:active{opacity:.7}
 .task:active{opacity:.8}
 .taskBar{align-self:stretch;width:5px;margin:-14px 0;background:var(--onda-strong);flex:none;border-radius:0 3px 3px 0;opacity:.85}
 .taskBody{display:flex;flex-direction:column;gap:6px;flex:1;min-width:0;padding-left:2px}
@@ -291,3 +295,9 @@ button.softCard{width:100%;text-align:start;display:block}
 [data-onda="gnostic"] .todayBar > [role=progressbar] > div{background:linear-gradient(90deg,color-mix(in srgb,var(--onda-strong) 55%,transparent),var(--onda-strong)) !important;box-shadow:0 0 16px color-mix(in srgb,var(--onda-strong) 45%,transparent)}
 [data-onda="gnostic"] .pRow{border-radius:36px;background:radial-gradient(circle at 0 100%,color-mix(in srgb,var(--onda-strong) 14%,transparent) 0 40px,transparent 41px),var(--surface-card)}
 [data-onda="gnostic"] .pCircleOn{box-shadow:0 0 0 5px color-mix(in srgb,var(--onda-strong) 22%,transparent),0 0 22px color-mix(in srgb,var(--onda-strong) 50%,transparent)}
+
+.calNudge{display:flex;align-items:center;gap:14px;width:calc(100% - 32px);margin:22px 16px 0;padding:14px 16px;border-radius:18px;background:color-mix(in srgb,var(--surface-card) 70%,transparent);border:1.5px dashed color-mix(in srgb,var(--onda-text, var(--accent)) 35%,transparent);text-align:start}
+.calNudge:active{opacity:.75}
+.calNudgeIcon{width:40px;height:40px;background:var(--onda-solid, var(--surface-fill));color:var(--onda-ink, var(--label));flex:none}
+.calNudgeTitle{display:block;font:600 var(--fs-16) var(--font-sans);color:var(--label)}
+.calNudgeSub{display:block;font:400 var(--fs-14) var(--font-sans);color:var(--label-secondary);margin-top:1px}

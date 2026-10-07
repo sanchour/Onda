@@ -369,6 +369,22 @@
         "Note which of the twenty-four solar terms you are in.",
         "Watch the same patch of sky at the same time all week."
       ]
+    },
+    {
+      "id": "standing-like-a-tree",
+      "name": "Standing like a tree",
+      "icon": "tree",
+      "slot": "Morning",
+      "time": "07:15",
+      "minutes": 8,
+      "meta": "Morning · 8 min",
+      "instructions": "Stand with feet shoulder width apart and knees slightly soft. Let the arms rise as if holding a large ball at chest height. Relax the shoulders, drop the tailbone, breathe low into the belly. Stand until the legs warm and the mind quiets. Stop if you feel pain or dizziness; this is a gentle posture, not an endurance test.",
+      "why": "Standing practice (zhan zhuang) is a common qigong exercise. It trains rootedness and doing nothing on purpose, which is close to the spirit of wu wei.",
+      "variations": [
+        "Stand by a tree and imitate it.",
+        "Three minutes only.",
+        "Lean your back against a wall if balance is hard."
+      ]
     }
   ],
   "tasks": [
@@ -392,6 +408,46 @@
       "meta": "From a room, a plan or a sentence",
       "time": "19:00",
       "slot": "Evening"
+    },
+    {
+      "id": "task-watch-amongst-white-clouds",
+      "name": "Watch Amongst White Clouds",
+      "meta": "Watch",
+      "time": "20:00",
+      "slot": "Evening",
+      "action": "watch"
+    },
+    {
+      "id": "task-listen-to-flowing-water-liu-shui",
+      "name": "Listen to Flowing Water (Liu Shui)",
+      "meta": "Listen",
+      "time": "16:30",
+      "slot": "Afternoon",
+      "action": "listen"
+    },
+    {
+      "id": "task-journal-where-did-you-force-it-where-did-you-yield",
+      "name": "Journal: where did you force it, where did you yield?",
+      "meta": "Journal · 10 min",
+      "time": "21:15",
+      "slot": "Evening",
+      "action": "journal"
+    },
+    {
+      "id": "task-write-on-wu-wei-one-thing-you-will-not-force",
+      "name": "Write on wu wei: one thing you will not force",
+      "meta": "Philosophy · 10 min",
+      "time": "19:30",
+      "slot": "Evening",
+      "action": "philosophy"
+    },
+    {
+      "id": "task-eat-a-bowl-of-congee-slowly",
+      "name": "Eat a bowl of congee slowly",
+      "meta": "Eat · 15 min",
+      "time": "08:00",
+      "slot": "Morning",
+      "action": "eat"
     }
   ],
   "rules": [

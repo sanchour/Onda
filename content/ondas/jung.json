@@ -361,6 +361,22 @@
         "Write a short letter from your shadow to you.",
         "Note what you were proudest of today, and what that pride needs you not to be."
       ]
+    },
+    {
+      "id": "amplify-an-image",
+      "name": "Amplify an image",
+      "icon": "pen-nib",
+      "slot": "Afternoon",
+      "time": "12:30",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Take one image from a dream, a daydream or something that caught your eye today. Write it in the middle of a page. Around it, write every association that comes: personal memories first, then stories, myths or pictures it reminds you of. Do not interpret. Finish by asking: \"What does this image want me to look at?\"",
+      "why": "Jung called this amplification: staying with an image and widening it, rather than reducing it to a single meaning. It keeps the unconscious speaking in its own language.",
+      "variations": [
+        "Draw the image instead of writing.",
+        "Use a figure from a fairy tale.",
+        "Share it with someone you trust."
+      ]
     }
   ],
   "tasks": [
@@ -384,6 +400,46 @@
       "meta": "Stone, clay, paint or bread",
       "time": "17:00",
       "slot": "Evening"
+    },
+    {
+      "id": "task-read-a-chapter-of-memories-dreams-reflections",
+      "name": "Read a chapter of Memories, Dreams, Reflections",
+      "meta": "Read · 20 min",
+      "time": "12:00",
+      "slot": "Afternoon",
+      "action": "read"
+    },
+    {
+      "id": "task-watch-face-to-face-carl-gustav-jung",
+      "name": "Watch Face to Face: Carl Gustav Jung",
+      "meta": "Watch",
+      "time": "19:00",
+      "slot": "Evening",
+      "action": "watch"
+    },
+    {
+      "id": "task-journal-write-down-last-night-s-dream",
+      "name": "Journal: write down last night’s dream",
+      "meta": "Journal · 10 min",
+      "time": "08:00",
+      "slot": "Morning",
+      "action": "journal"
+    },
+    {
+      "id": "task-write-about-the-unconscious-is-not-empty",
+      "name": "Write about “The unconscious is not empty”",
+      "meta": "Philosophy · 10 min",
+      "time": "19:30",
+      "slot": "Evening",
+      "action": "philosophy"
+    },
+    {
+      "id": "task-look-at-pages-from-the-red-book-illuminations",
+      "name": "Look at pages from the Red Book illuminations",
+      "meta": "Art · 10 min",
+      "time": "16:30",
+      "slot": "Afternoon",
+      "action": "art"
     }
   ],
   "rules": [

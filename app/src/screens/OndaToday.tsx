@@ -209,7 +209,7 @@ export default function OndaToday({ entry }: { entry: Extract<StackEntry, { name
       {content.tasks.length > 0 && (
         <>
           <SectionToggle title={t('onda.tasks')} open={toggle.open('t')} onToggle={toggle.flip('t')} />
-          {toggle.open('t') && <TasksList tasks={content.tasks} done={tSet} onToggle={(id) => (run ? st.toggleItem('taskLogs', run.id, id) : flip(id))} />}
+          {toggle.open('t') && <TasksList tasks={content.tasks} done={tSet} go={!!run} onToggle={(id) => (run ? st.toggleItem('taskLogs', run.id, id) : flip(id))} />}
         </>
       )}
 

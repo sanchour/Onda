@@ -20,6 +20,7 @@ export interface LagoInput {
   frequency: Frequency
   reminder: { on: boolean; time: string }
   origin?: string
+  link?: { runId: string; practiceId: string } | null
 }
 
 export interface AppState extends Lists {
@@ -129,6 +130,27 @@ export const useStore = create<AppState>()((set, get) => {
     for (const key of fresh) write('achievements', { ...base(detId('achievement', key)), key, unlockedAt: now().toISOString() })
     set({ unlockQueue: [...get().unlockQueue, ...fresh] })
   }
+  /** A Lago made from an Onda practice shares its tick: ticking the practice ticks the Lago and the other way round. */
+  const mirrorToLagos = (runId: string, practiceId: string, date: DateStr, done: boolean) => {
+    for (const l of get().lagos) {
+      if (!live(l) || l.link?.runId !== runId || l.link.practiceId !== practiceId) continue
+      const id = detId('checkin', l.id, date)
+      const prev = get().checkIns.find((c) => c.id === id)
+      const isDone = !!prev && live(prev) && prev.status === 'done'
+      if (done && !isDone) write('checkIns', { ...(prev ?? base(id)), lagoId: l.id, date, status: 'done', note: prev?.note ?? '', photoPath: prev?.photoPath ?? null, at: now().toISOString(), deletedAt: null })
+      else if (!done && isDone) remove('checkIns', id)
+    }
+  }
+  const mirrorToPractice = (lagoId: string, date: DateStr, done: boolean) => {
+    const k = get().lagos.find((l) => l.id === lagoId)?.link
+    if (!k) return
+    const run = get().runs.find((r) => r.id === k.runId)
+    if (!run || !live(run)) return
+    const id = detId('practice', k.runId, k.practiceId, date)
+    const prev = get().practiceLogs.find((p) => p.id === id)
+    if (!!(prev && live(prev) && prev.done) === done) return
+    write('practiceLogs', { ...(prev ?? base(id)), runId: k.runId, practiceId: k.practiceId, date, done, at: now().toISOString(), deletedAt: null })
+  }
   const after = <T>(v: T): T => {
     evaluate()
     return v
@@ -225,7 +247,7 @@ export const useStore = create<AppState>()((set, get) => {
       if (!l) return
       // A restart is a new experiment: the old one is ended and kept in history.
       write('lagos', { ...l, endedAt: l.endedAt ?? addDays(s.today, -1) })
-      write('lagos', { ...base(uuid()), name: l.name, icon: l.icon, why: l.why, lengthDays: l.lengthDays, frequency: l.frequency, reminder: l.reminder, origin: l.origin, startedAt: s.today, endedAt: null })
+      write('lagos', { ...base(uuid()), name: l.name, icon: l.icon, why: l.why, lengthDays: l.lengthDays, frequency: l.frequency, reminder: l.reminder, origin: l.origin, link: l.link ?? null, startedAt: s.today, endedAt: null })
     },
     extendLago(id, days = 7) {
       const l = get().lagos.find((x) => x.id === id)
@@ -233,7 +255,7 @@ export const useStore = create<AppState>()((set, get) => {
     },
     duplicateLago(id) {
       const l = get().lagos.find((x) => x.id === id)
-      if (l) write('lagos', { ...base(uuid()), name: l.name, icon: l.icon, why: l.why, lengthDays: l.lengthDays, frequency: l.frequency, reminder: l.reminder, origin: l.origin, startedAt: get().today, endedAt: null })
+      if (l) write('lagos', { ...base(uuid()), name: l.name, icon: l.icon, why: l.why, lengthDays: l.lengthDays, frequency: l.frequency, reminder: l.reminder, origin: l.origin, link: l.link ?? null, startedAt: get().today, endedAt: null })
     },
     deleteLago(id) {
       // Soft delete: check ins stay so a delete can be undone and history is not rewritten.
@@ -248,8 +270,7 @@ export const useStore = create<AppState>()((set, get) => {
       const date = input.date ?? s.today
       const id = detId('checkin', lagoId, date)
       const prev = s.checkIns.find((c) => c.id === id)
-      return after(
-        write('checkIns', {
+      const rec = write('checkIns', {
           ...(prev ?? base(id)),
           lagoId,
           date,
@@ -258,15 +279,18 @@ export const useStore = create<AppState>()((set, get) => {
           photoPath: input.photoPath === undefined ? (prev?.photoPath ?? null) : input.photoPath,
           at: input.at ?? now().toISOString(),
           deletedAt: null,
-        }),
-      )
+      })
+      mirrorToPractice(lagoId, date, input.status === 'done')
+      return after(rec)
     },
     toggleCheckInToday(lagoId) {
       const s = get()
       const id = detId('checkin', lagoId, s.today)
       const prev = s.checkIns.find((c) => c.id === id && live(c))
-      if (prev?.status === 'done') remove('checkIns', id)
-      else s.checkIn(lagoId, { status: 'done' })
+      if (prev?.status === 'done') {
+        remove('checkIns', id)
+        mirrorToPractice(lagoId, s.today, false)
+      } else s.checkIn(lagoId, { status: 'done' })
     },
 
     /* ── Ondas ─────────────────────────────────────────────── */
@@ -286,7 +310,9 @@ export const useStore = create<AppState>()((set, get) => {
       const id = detId('practice', runId, practiceId, d)
       const prev = s.practiceLogs.find((p) => p.id === id)
       const done = !(prev && live(prev) && prev.done)
-      after(write('practiceLogs', { ...(prev ?? base(id)), runId, practiceId, date: d, done, at: now().toISOString(), deletedAt: null }))
+      write('practiceLogs', { ...(prev ?? base(id)), runId, practiceId, date: d, done, at: now().toISOString(), deletedAt: null })
+      mirrorToLagos(runId, practiceId, d, done)
+      after(null)
     },
     toggleItem(collection, runId, itemId, date) {
       const s = get()

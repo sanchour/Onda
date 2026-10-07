@@ -343,6 +343,22 @@
         "Record first sightings of the season.",
         "Note sunrise and sunset times and what the moon is doing."
       ]
+    },
+    {
+      "id": "solitude-hour",
+      "name": "Solitude hour",
+      "icon": "user",
+      "slot": "Afternoon",
+      "time": "17:00",
+      "minutes": 30,
+      "meta": "Afternoon · 30 min",
+      "instructions": "Spend half an hour alone, away from screens, with no task except your own company. Walk, sit, or write. Notice what you reach for when nothing is asked of you. At the end, write one line beginning \"Left to myself, I…\"",
+      "why": "Emerson and Thoreau both treated solitude as the condition for self-reliance: you cannot hear your own thought while borrowing everyone else’s.",
+      "variations": [
+        "Do it outdoors.",
+        "Take a pen and a notebook only.",
+        "Extend to an hour on weekends."
+      ]
     }
   ],
   "tasks": [
@@ -366,6 +382,46 @@
       "meta": "Write down everything you spend",
       "time": "20:00",
       "slot": "Evening"
+    },
+    {
+      "id": "task-read-the-essay-self-reliance",
+      "name": "Read the essay Self-Reliance",
+      "meta": "Read · 30 min",
+      "time": "12:30",
+      "slot": "Afternoon",
+      "action": "read"
+    },
+    {
+      "id": "task-listen-to-simple-gifts",
+      "name": "Listen to Simple Gifts",
+      "meta": "Listen",
+      "time": "16:30",
+      "slot": "Afternoon",
+      "action": "listen"
+    },
+    {
+      "id": "task-journal-what-did-you-notice-outdoors",
+      "name": "Journal: what did you notice outdoors?",
+      "meta": "Journal · 10 min",
+      "time": "21:15",
+      "slot": "Evening",
+      "action": "journal"
+    },
+    {
+      "id": "task-write-on-nature-as-teacher-one-thing-it-taught-you-today",
+      "name": "Write on “Nature as teacher”: one thing it taught you today",
+      "meta": "Philosophy · 10 min",
+      "time": "19:30",
+      "slot": "Evening",
+      "action": "philosophy"
+    },
+    {
+      "id": "task-look-at-the-oxbow-painted-by-thomas-cole",
+      "name": "Look at The Oxbow, painted by Thomas Cole",
+      "meta": "Art · 10 min",
+      "time": "15:30",
+      "slot": "Afternoon",
+      "action": "art"
     }
   ],
   "rules": [

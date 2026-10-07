@@ -367,6 +367,22 @@
         "Write a line of thanks to someone and send it.",
         "Leave water out for birds."
       ]
+    },
+    {
+      "id": "listen-to-the-place",
+      "name": "Listen to the place",
+      "icon": "waveform",
+      "slot": "Afternoon",
+      "time": "12:00",
+      "minutes": 8,
+      "meta": "Afternoon · 8 min",
+      "instructions": "Go outside, close your eyes, and count the separate sounds you can hear: near, middle, far. Name each one silently (wind, a bird, a car, water). Then open your eyes and find the source of one you could not place. Ask, without expecting an answer: \"Who lives here, and what are they doing right now?\"",
+      "why": "Many Native traditions teach that knowledge of a place comes first from attention and relationship, long before anything is written about it.",
+      "variations": [
+        "Do it at the same spot every day.",
+        "Draw a map of the sounds.",
+        "Do it at night."
+      ]
     }
   ],
   "tasks": [
@@ -390,6 +406,46 @@
       "meta": "A page is enough",
       "time": "20:00",
       "slot": "Evening"
+    },
+    {
+      "id": "task-read-a-chapter-of-braiding-sweetgrass",
+      "name": "Read a chapter of Braiding Sweetgrass",
+      "meta": "Read · 20 min",
+      "time": "12:30",
+      "slot": "Afternoon",
+      "action": "read"
+    },
+    {
+      "id": "task-listen-to-canyon-trilogy",
+      "name": "Listen to Canyon Trilogy",
+      "meta": "Listen",
+      "time": "17:00",
+      "slot": "Afternoon",
+      "action": "listen"
+    },
+    {
+      "id": "task-journal-what-did-you-take-and-what-did-you-give-back",
+      "name": "Journal: what did you take, and what did you give back?",
+      "meta": "Journal · 10 min",
+      "time": "21:15",
+      "slot": "Evening",
+      "action": "journal"
+    },
+    {
+      "id": "task-write-about-everything-is-alive-and-related",
+      "name": "Write about “Everything is alive and related”",
+      "meta": "Philosophy · 10 min",
+      "time": "19:30",
+      "slot": "Evening",
+      "action": "philosophy"
+    },
+    {
+      "id": "task-offer-thanks-before-eating-one-meal",
+      "name": "Offer thanks before eating one meal",
+      "meta": "Customs · 2 min",
+      "time": "13:00",
+      "slot": "Afternoon",
+      "action": "customs"
     }
   ],
   "rules": [

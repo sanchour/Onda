@@ -368,6 +368,22 @@
         "Review only your reactions to other people.",
         "End by naming one thing you will do differently tomorrow."
       ]
+    },
+    {
+      "id": "dichotomy-check",
+      "name": "Dichotomy check",
+      "icon": "list-checks",
+      "slot": "Afternoon",
+      "time": "15:00",
+      "minutes": 5,
+      "meta": "Afternoon · 5 min",
+      "instructions": "Write down what is worrying you right now, one item per line. Next to each, mark it \"mine\" if it is a judgment, intention or action of yours, and \"not mine\" if it depends on other people, the body, money or luck. For each \"mine\", write one thing you will do. For each \"not mine\", write: \"this is not up to me, and I will meet it calmly.\"",
+      "why": "The Enchiridion opens with this split. Most distress comes from spending effort on the second column and neglecting the first.",
+      "variations": [
+        "Do it out loud while walking.",
+        "Only sort the three biggest worries.",
+        "Add a third column for what you can influence but not control."
+      ]
     }
   ],
   "tasks": [
@@ -391,6 +407,46 @@
       "meta": "Commonplace book",
       "time": "21:00",
       "slot": "Evening"
+    },
+    {
+      "id": "task-read-a-chapter-of-meditations",
+      "name": "Read a chapter of Meditations",
+      "meta": "Read · 15 min",
+      "time": "12:30",
+      "slot": "Afternoon",
+      "action": "read"
+    },
+    {
+      "id": "task-listen-to-in-our-time-stoicism",
+      "name": "Listen to In Our Time: Stoicism",
+      "meta": "Listen",
+      "time": "17:00",
+      "slot": "Afternoon",
+      "action": "listen"
+    },
+    {
+      "id": "task-journal-what-was-up-to-you-today",
+      "name": "Journal: what was up to you today?",
+      "meta": "Journal · 10 min",
+      "time": "21:15",
+      "slot": "Evening",
+      "action": "journal"
+    },
+    {
+      "id": "task-write-three-lines-on-the-dichotomy-of-control",
+      "name": "Write three lines on the dichotomy of control",
+      "meta": "Philosophy · 10 min",
+      "time": "19:30",
+      "slot": "Evening",
+      "action": "philosophy"
+    },
+    {
+      "id": "task-eat-a-plain-meal-of-bread-olives-and-cheese",
+      "name": "Eat a plain meal of bread, olives and cheese",
+      "meta": "Eat · simple",
+      "time": "13:00",
+      "slot": "Afternoon",
+      "action": "eat"
     }
   ],
   "rules": [

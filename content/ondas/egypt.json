@@ -378,6 +378,22 @@
         "Draw a three-part circle and place your projects in it.",
         "Mark your own seasons on a calendar."
       ]
+    },
+    {
+      "id": "follow-the-sun",
+      "name": "Follow the sun",
+      "icon": "sun",
+      "slot": "Afternoon",
+      "time": "12:00",
+      "minutes": 5,
+      "meta": "Afternoon · 5 min",
+      "instructions": "At midday, step outside and find where the sun is. Note its height and which way your shadow falls. Say aloud the three things the light does for you today (warmth, sight, time). At sunset, find where it went. Notice the day as a journey with a start, a peak and a return.",
+      "why": "Egyptians saw the sun’s daily path as the model for order in the world, and tied it to the rhythm of life and the afterlife.",
+      "variations": [
+        "Mark the shadow with chalk.",
+        "Watch sunrise instead.",
+        "Do it at the same spot every day."
+      ]
     }
   ],
   "tasks": [
@@ -401,6 +417,46 @@
       "meta": "Read the label slowly",
       "time": "18:00",
       "slot": "Evening"
+    },
+    {
+      "id": "task-read-a-hymn-from-ancient-egyptian-literature",
+      "name": "Read a hymn from Ancient Egyptian Literature",
+      "meta": "Read · 15 min",
+      "time": "12:30",
+      "slot": "Afternoon",
+      "action": "read"
+    },
+    {
+      "id": "task-watch-egypt-s-golden-empire",
+      "name": "Watch Egypt’s Golden Empire",
+      "meta": "Watch",
+      "time": "20:00",
+      "slot": "Evening",
+      "action": "watch"
+    },
+    {
+      "id": "task-journal-what-was-true-today",
+      "name": "Journal: what was true today?",
+      "meta": "Journal · 10 min",
+      "time": "21:15",
+      "slot": "Evening",
+      "action": "journal"
+    },
+    {
+      "id": "task-write-on-maat-one-way-you-restored-balance-today",
+      "name": "Write on Maat: one way you restored balance today",
+      "meta": "Philosophy · 10 min",
+      "time": "19:30",
+      "slot": "Evening",
+      "action": "philosophy"
+    },
+    {
+      "id": "task-drink-a-cup-of-karkade",
+      "name": "Drink a cup of karkade",
+      "meta": "Drink · 10 min",
+      "time": "15:30",
+      "slot": "Afternoon",
+      "action": "drink"
     }
   ],
   "rules": [

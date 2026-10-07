@@ -3,7 +3,7 @@ import { useMemo } from 'react'
 import { useTranslation } from 'react-i18next'
 import type { OndaContent, OndaIndex, Practice } from '@/content/schema'
 import type { OndaLook } from '@/content/themes'
-import { canBeginOnda, canCreateOnda, plusState } from '@/data/entitlement'
+import { canBeginOnda, canCreateOnda, canUseIntegrations, plusState } from '@/data/entitlement'
 import { doneSet, runDay } from '@/data/derive/onda'
 import { useActiveRun, useLook, useOnda, useOndaIndex } from '@/data/hooks'
 import { useStore } from '@/data/store'
@@ -11,7 +11,8 @@ import type { OndaRun } from '@/data/types'
 import { now } from '@/lib/dates'
 import { columnWidth, fitSize } from '@/lib/fit'
 import { haptic } from '@/lib/haptics'
-import { nav } from '@/nav/store'
+import type { MediaKind } from '@/content'
+import { nav, useNav } from '@/nav/store'
 import { Icon } from '@/ui/Icon'
 import { OrnamentIcon } from './KindArt'
 import o from './ondas.module.css'
@@ -131,16 +132,47 @@ export function RulesList({ rules, done, onToggle }: { rules: { id: string; text
   )
 }
 
-/** Tasks: cards with an accent bar on the left, a time pill and a square checkbox. */
-export function TasksList({ tasks, done, onToggle }: { tasks: { id: string; name: string; meta: string; time?: string }[]; done: Set<string>; onToggle: (id: string) => void }) {
+/** One tap from the lists to the Calendar export: practices and Lagos become repeating events with alerts. */
+export function CalendarNudge() {
   const { t } = useTranslation()
+  const user = useStore((x) => x.user)
+  const go = () => {
+    if (!canUseIntegrations(plusState(user, now().getTime()))) {
+      nav().showToast(t('paywall.gateSync'), { icon: 'seal-check' })
+      nav().push({ name: 'paywall' })
+    } else nav().openSheet({ name: 'calendar' })
+  }
+  return (
+    <button type="button" className={o.calNudge} onClick={go}>
+      <span className={`${s.circle} ${o.calNudgeIcon}`}><Icon name="calendar-dots" weight="fill" size={20} /></span>
+      <span style={{ flex: 1, minWidth: 0 }}>
+        <span className={o.calNudgeTitle}>{t('calendar.nudgeTitle')}</span>
+        <span className={o.calNudgeSub}>{t('calendar.nudgeSub')}</span>
+      </span>
+      <Icon name="caret-right" weight="bold" size={16} color="var(--label-tertiary)" />
+    </button>
+  )
+}
+
+/** Tasks: cards with an accent bar on the left, a time pill and a square checkbox. */
+const GO_ICON: Record<string, string> = { journal: 'notebook', philosophy: 'lightbulb', read: 'book-open-text', watch: 'film-strip', listen: 'headphones', art: 'paint-brush', eat: 'bowl-food', drink: 'coffee', customs: 'hand-heart' }
+
+export function TasksList({ tasks, done, onToggle, go }: { tasks: { id: string; name: string; meta: string; time?: string; action?: string }[]; done: Set<string>; onToggle: (id: string) => void; go?: boolean }) {
+  const { t } = useTranslation()
+  const { push, openSheet } = useNav()
+  const open = (a: string) => {
+    if (a === 'journal') openSheet({ name: 'journalList' })
+    else if (a === 'philosophy') openSheet({ name: 'philosophy' })
+    else push({ name: 'immersion', kind: a as MediaKind })
+  }
   if (!tasks.length) return <div className={o.rulesCard} style={{ padding: '20px', textAlign: 'center', color: 'var(--label-secondary)' }}>{t('ondas.noTasks')}</div>
   return (
     <div className={s.stack10} style={{ padding: '0 16px' }}>
       {tasks.map((k) => {
         const on = done.has(k.id)
         return (
-          <button key={k.id} type="button" role="checkbox" aria-checked={on} className={on ? `${o.task} ${o.taskOn}` : o.task} onClick={() => { haptic(on ? 'select' : 'success'); onToggle(k.id) }}>
+          <div key={k.id} className={on ? `${o.taskCard} ${o.taskOn}` : o.taskCard}>
+          <button type="button" role="checkbox" aria-checked={on} className={o.task} onClick={() => { haptic(on ? 'select' : 'success'); onToggle(k.id) }}>
             <span className={o.taskBar} aria-hidden />
             <span className={o.taskBody}>
               <span className={on ? `${o.taskTitle} ${o.taskDone}` : o.taskTitle}>{k.name}</span>
@@ -158,6 +190,14 @@ export function TasksList({ tasks, done, onToggle }: { tasks: { id: string; name
               <Icon name="check" weight="bold" size={16} />
             </span>
           </button>
+          {go && k.action && (
+            <button type="button" className={o.taskGo} onClick={() => open(k.action!)}>
+              <Icon name={GO_ICON[k.action] ?? 'sparkle'} weight="fill" size={16} />
+              <span>{t(`ondas.go.${k.action}`)}</span>
+              <Icon name="caret-right" weight="bold" size={14} />
+            </button>
+          )}
+          </div>
         )
       })}
     </div>

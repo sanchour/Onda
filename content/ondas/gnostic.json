@@ -367,6 +367,22 @@
         "Say a line from Thomas or Thunder, Perfect Mind in place of the closing sentence.",
         "Write a line afterwards on what you saw."
       ]
+    },
+    {
+      "id": "question-the-given",
+      "name": "Question the given",
+      "icon": "question",
+      "slot": "Afternoon",
+      "time": "13:30",
+      "minutes": 8,
+      "meta": "Afternoon · 8 min",
+      "instructions": "Choose one thing you have always taken for granted: a rule, a belief, a habit, a story about yourself. Write it as a sentence. Underneath, write three questions about it: Who told me this? What would I lose if it were false? What would I see if I looked elsewhere? Do not decide anything today; only look.",
+      "why": "Many Gnostic texts treat seeking and questioning as the beginning of knowledge, and treat what is simply handed down with suspicion.",
+      "variations": [
+        "Do it with a belief about someone else.",
+        "Ask a friend the same three questions.",
+        "Revisit it a week later."
+      ]
     }
   ],
   "tasks": [
@@ -390,6 +406,46 @@
       "meta": "Place a notebook beside the bed",
       "time": "22:00",
       "slot": "Evening"
+    },
+    {
+      "id": "task-read-a-section-of-the-nag-hammadi-scriptures",
+      "name": "Read a section of The Nag Hammadi Scriptures",
+      "meta": "Read · 20 min",
+      "time": "12:30",
+      "slot": "Afternoon",
+      "action": "read"
+    },
+    {
+      "id": "task-watch-the-gospel-of-judas",
+      "name": "Watch The Gospel of Judas",
+      "meta": "Watch",
+      "time": "20:00",
+      "slot": "Evening",
+      "action": "watch"
+    },
+    {
+      "id": "task-journal-what-question-are-you-carrying-today",
+      "name": "Journal: what question are you carrying today?",
+      "meta": "Journal · 10 min",
+      "time": "21:15",
+      "slot": "Evening",
+      "action": "journal"
+    },
+    {
+      "id": "task-write-on-the-spark-within-in-your-own-words",
+      "name": "Write on “The spark within” in your own words",
+      "meta": "Philosophy · 10 min",
+      "time": "19:30",
+      "slot": "Evening",
+      "action": "philosophy"
+    },
+    {
+      "id": "task-look-at-an-abraxas-gem",
+      "name": "Look at an Abraxas gem",
+      "meta": "Art · 10 min",
+      "time": "16:30",
+      "slot": "Afternoon",
+      "action": "art"
     }
   ],
   "rules": [

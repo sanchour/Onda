@@ -184,3 +184,11 @@
 .tipIcon{width:44px;height:44px;flex:none;background:var(--surface-soft);color:var(--accent)}
 .tipTitle{font:600 var(--fs-15) var(--font-sans);display:block}
 .tipText{font:400 var(--fs-14)/1.35 var(--font-sans);color:var(--label-secondary);display:block;margin-top:2px;text-wrap:pretty}
+
+.fromOnda{margin-top:22px}
+.fromOnda .formH{margin-top:0}
+.fromChips{display:flex;gap:8px;overflow-x:auto;padding:2px 16px 6px;scrollbar-width:none;touch-action:pan-x}
+.fromChips::-webkit-scrollbar{display:none}
+.fromChip{flex:none;display:inline-flex;align-items:center;gap:8px;height:40px;padding:0 14px;border-radius:999px;background:var(--surface-card);border:1.5px solid var(--separator);font:500 var(--fs-15) var(--font-sans);color:var(--label);white-space:nowrap}
+.fromChipOn{background:var(--accent);border-color:var(--accent);color:var(--accent-contrast)}
+.fromNote{padding:6px 20px 0;font:400 var(--fs-13) var(--font-sans);color:var(--label-secondary)}

@@ -378,6 +378,22 @@
         "Make atole, a warm maize drink, instead.",
         "Read a short passage of poetry while you drink."
       ]
+    },
+    {
+      "id": "huehuetlahtolli",
+      "name": "Words of advice",
+      "icon": "hand-heart",
+      "slot": "Evening",
+      "time": "19:00",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Write or speak a short piece of advice to a younger person, a child, or your younger self. Start with \"My child…\" or \"Listen…\". Be plain and warm. Include one thing about speaking truthfully and one about working well. Read it aloud once.",
+      "why": "The huehuetlahtolli were formal speeches of counsel handed down in Nahuatl, given by elders at births, marriages and other turning points of a life.",
+      "variations": [
+        "Read it to someone younger.",
+        "Write the advice an elder gave you.",
+        "Memorise one sentence."
+      ]
     }
   ],
   "tasks": [
@@ -401,6 +417,46 @@
       "meta": "Find the old shoreline",
       "time": "18:00",
       "slot": "Evening"
+    },
+    {
+      "id": "task-read-a-chapter-of-the-broken-spears",
+      "name": "Read a chapter of The Broken Spears",
+      "meta": "Read · 20 min",
+      "time": "12:30",
+      "slot": "Afternoon",
+      "action": "read"
+    },
+    {
+      "id": "task-look-at-the-sun-stone-piedra-del-sol",
+      "name": "Look at the Sun Stone (Piedra del Sol)",
+      "meta": "Art · 10 min",
+      "time": "16:30",
+      "slot": "Afternoon",
+      "action": "art"
+    },
+    {
+      "id": "task-journal-what-is-truly-rooted-in-your-life",
+      "name": "Journal: what is truly rooted in your life?",
+      "meta": "Journal · 10 min",
+      "time": "21:15",
+      "slot": "Evening",
+      "action": "journal"
+    },
+    {
+      "id": "task-write-about-rootedness-in-your-own-words",
+      "name": "Write about “Rootedness” in your own words",
+      "meta": "Philosophy · 10 min",
+      "time": "19:30",
+      "slot": "Evening",
+      "action": "philosophy"
+    },
+    {
+      "id": "task-drink-hot-chocolate-or-atole",
+      "name": "Drink hot chocolate or atole",
+      "meta": "Drink · 10 min",
+      "time": "15:30",
+      "slot": "Afternoon",
+      "action": "drink"
     }
   ],
   "rules": [

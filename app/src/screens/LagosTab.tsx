@@ -12,6 +12,7 @@ import { ProgressBar } from '@/ui/data'
 import { Icon } from '@/ui/Icon'
 import { SectionToggle } from '@/ui/lists'
 import { guardNewLago, lagoMenu } from './lagoActions'
+import { CalendarNudge } from './ondaShared'
 import s from './screens.module.css'
 
 type Row = { lago: Lago; st: LagoStats }
@@ -163,6 +164,7 @@ export default function LagosTab() {
       {section('checked', t('lagos.checkedIn'))}
       {section('notToday', t('lagos.notToday'))}
       {section('finished', t('lagos.finished'))}
+      {!none && <CalendarNudge />}
       {none && (
         <>
           <div className={s.empty}>

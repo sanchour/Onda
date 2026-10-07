@@ -364,6 +364,22 @@
         "Keep the first hour after waking silent instead.",
         "End with one line of poetry learned by heart."
       ]
+    },
+    {
+      "id": "hospitality",
+      "name": "Hospitality",
+      "icon": "coffee",
+      "slot": "Afternoon",
+      "time": "16:30",
+      "minutes": 15,
+      "meta": "Afternoon · 15 min",
+      "instructions": "Offer something to drink or eat to someone, a guest, a neighbour, a colleague. Serve them before yourself. Pay attention to the small things: the cup, the pouring, the moment you hand it over. Ask for nothing. If no one is near, make tea for an empty chair and leave it for the next person who comes.",
+      "why": "Generosity toward guests is a central part of Sufi manners (adab). Many stories treat a guest as a carrier of something larger than themselves.",
+      "variations": [
+        "Do it quietly, without telling anyone why.",
+        "Bring something to a neighbour.",
+        "Give your seat or your time."
+      ]
     }
   ],
   "tasks": [
@@ -387,6 +403,46 @@
       "meta": "So the left hand does not know",
       "time": "17:00",
       "slot": "Evening"
+    },
+    {
+      "id": "task-read-a-story-from-the-masnavi-book-one",
+      "name": "Read a story from The Masnavi, Book One",
+      "meta": "Read · 15 min",
+      "time": "12:30",
+      "slot": "Afternoon",
+      "action": "read"
+    },
+    {
+      "id": "task-listen-to-mevlevi-ceremonial-music",
+      "name": "Listen to Mevlevi ceremonial music",
+      "meta": "Listen",
+      "time": "19:00",
+      "slot": "Evening",
+      "action": "listen"
+    },
+    {
+      "id": "task-journal-what-did-you-long-for-today",
+      "name": "Journal: what did you long for today?",
+      "meta": "Journal · 10 min",
+      "time": "21:15",
+      "slot": "Evening",
+      "action": "journal"
+    },
+    {
+      "id": "task-write-on-unity-of-being-in-your-own-words",
+      "name": "Write on “Unity of being” in your own words",
+      "meta": "Philosophy · 10 min",
+      "time": "19:30",
+      "slot": "Evening",
+      "action": "philosophy"
+    },
+    {
+      "id": "task-offer-tea-or-dates-to-someone",
+      "name": "Offer tea or dates to someone",
+      "meta": "Customs · 10 min",
+      "time": "17:30",
+      "slot": "Afternoon",
+      "action": "customs"
     }
   ],
   "rules": [

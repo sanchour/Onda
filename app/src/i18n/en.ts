@@ -60,7 +60,7 @@ export const en = {
   checkin: { title: 'Check In', completed: 'Completed', missed: 'Missed', when: 'When', notePlaceholder: 'What did you notice?', addPhoto: 'Add Photo', changePhoto: 'Change Photo', removePhoto: 'Remove Photo', photoAlt: 'Check in photo' },
   lagoForm: {
     newTitle: 'New Lago', editTitle: 'Edit Lago', name: 'Name', why: 'Why are you trying this?', icon: 'Icon', schedule: 'Schedule', reminder: 'Reminder', time: 'Time',
-    reminderFooter: 'When enabled, a reminder arrives at the chosen time.', defaultName: 'New Lago', iconNamed: 'Icon {{n}}',
+    reminderFooter: 'When enabled, a reminder arrives at the chosen time.', fromTitle: 'From your {{name}} practices', fromHint: 'Tap one to add it as a Lago.', linkedNote: 'Linked: ticking it here also ticks it in {{name}}, and the other way round.', fromOnda: 'From {{name}}', defaultName: 'New Lago', iconNamed: 'Icon {{n}}',
   },
   gallery: {
     title: 'Gallery', seeMore: 'See more', fromOndas: 'From the Ondas', fromOndasSub: 'Pick practices from any Onda and run them as Lagos.', pickPractices: 'Pick practices', practicesTitle: 'Practices', startN_one: 'Start {{count}} Lago', startN_other: 'Start {{count}} Lagos', pickSome: 'Choose at least one practice', startedN_one: '{{count}} Lago started', startedN_other: '{{count}} Lagos started', lengthLabel: 'How long', selectAll: 'Select all', selectNone: 'Clear', featured: 'Featured', startNow: 'Start Now', kicker: '{{count}} Day Lago',
@@ -70,7 +70,8 @@ export const en = {
 
   ondas: {
     title: 'Ondas', newOnda: 'New Onda', browse: 'Browse Ondas', noRunning: 'No Onda running', noRunningSub: 'Browse the Ondas and step into one', kicker: 'Onda · {{label}}',
-    dayOf: 'Day {{day}} of {{length}}', immerse: 'Immerse', journal: 'Journal', philosophy: 'Philosophy', guide: 'Full guide', today: 'Today', practicesOf: '{{done}} of {{total}} practices',
+    dayOf: 'Day {{day}} of {{length}}', immerse: 'Immerse', journal: 'Journal', philosophy: 'Philosophy', guide: 'Full guide', today: 'Today', practicesOf: '{{done}} of {{total}} practices', tasksOf: '{{done}} of {{total}} tasks', rulesOf: '{{done}} of {{total}} rules kept',
+    go: { journal: 'Open Journal', philosophy: 'Open Philosophy', read: 'Open reading', watch: 'Open watching', listen: 'Open listening', art: 'Open art', eat: 'Open food', drink: 'Open drinks', customs: 'Open customs' },
     practices: 'Practices', rules: 'Rules', tasks: 'Tasks', allTitle: 'All Ondas', allSub: 'Sixteen worlds, one at a time', active: 'Active', mine: 'Yours',
     noRules: 'No rules for this Onda', noTasks: 'No tasks for this Onda',
   },
@@ -167,7 +168,7 @@ export const en = {
   },
   calendar: {
     title: 'Calendar', lead: 'Add your Onda practices and Lago reminders to Calendar, each repeating at its time with an alert. With an account, a live feed keeps it updated.', add: 'Add to Calendar', download: 'Download .ics', copy: 'Copy Feed Link', rotate: 'Reset Feed Link',
-    includeHeader: 'Add to my calendar', incPractices: 'Onda practices', incLagos: 'Lago reminders', incExtras: 'Tasks and daily immersion', includeFooter: 'Each practice and Lago becomes a repeating event at its time, with an alert. They appear in Calendar, not in the Reminders app.', exportNow: 'Share or Add to Calendar', downloaded: 'Saved onda.ics', rotateFooter: 'Resetting the link stops every calendar that subscribed with the old one.', rotated: 'Feed link reset', lastFetched: 'Last fetched', status: 'Status', ready: 'Ready', notReady: 'Not set up', localFooter: 'Without an account, Download .ics exports a one-time copy from this device.',
+    nudgeTitle: 'Add to Calendar', nudgeSub: 'Practices and Lagos as repeating events with alerts.', includeHeader: 'Add to my calendar', incPractices: 'Onda practices', incLagos: 'Lago reminders', incExtras: 'Tasks and daily immersion', includeFooter: 'Each practice and Lago becomes a repeating event at its time, with an alert. They appear in Calendar, not in the Reminders app.', exportNow: 'Share or Add to Calendar', downloaded: 'Saved onda.ics', rotateFooter: 'Resetting the link stops every calendar that subscribed with the old one.', rotated: 'Feed link reset', lastFetched: 'Last fetched', status: 'Status', ready: 'Ready', notReady: 'Not set up', localFooter: 'Without an account, Download .ics exports a one-time copy from this device.',
   },
   reminders: {
     title: 'Apple Reminders', badge: 'Via Shortcuts', lead: 'iOS has no web API for Reminders. A Shortcut reads your private feed each morning and fills a list called Onda.', install: 'Get the Shortcut', copyFeed: 'Copy Feed Link', lastFetched: 'Feed last fetched',
@@ -182,6 +183,7 @@ export const en = {
   a2hs: { title: 'Add Onda to Home Screen', body: 'Tap Share, then Add to Home Screen. Onda opens full screen and works offline.', dismiss: 'Dismiss' },
   sw: { updateReady: 'A new version is ready', reload: 'Reload', offlineReady: 'Ready to use offline' },
   whatsNew: { title: "What's New", v1: '1.0', v1date: '2026-10-06', v1a: 'Lagos: habit experiments with streaks, notes and photos.', v1b: 'Ondas: ten traditions to live for 7 to 30 days.', v1c: 'Notion, Calendar and Reminders integrations.',
+    v14: '1.4', v14date: '2026-10-10', v14a: 'Every Onda now has five or more practices and eight tasks: reading, listening, journaling and writing about its philosophy, each with a shortcut that opens the right place.', v14b: 'Add a practice from your running Onda as a Lago. Ticking one ticks the other.', v14c: 'Add to Calendar is now one tap from the Ondas and Lagos tabs. The app opens on Ondas.',
     v131: '1.3.1', v131date: '2026-10-09', v131a: 'Easier to read: stronger secondary text, slightly larger small print and Onda colours tuned for contrast in light and dark.', v131b: 'Your Ondas now appear in the History calendar, in the colour of each Onda.', v131c: 'Journal, Philosophy and the other shortcuts open on the first tap.',
     v13: '1.3', v13date: '2026-10-08', v13a: 'Six new Ondas: Soviet Union, Yoruba, Aztec, Ancient Egypt, Hermeticism and Gnosticism.', v13b: 'The accent follows your Onda, with new looks for each one.', v13c: 'Export and import your data, and a full-page guide that is easy to navigate.' },
   legal: {

@@ -112,7 +112,6 @@ export default function Paywall() {
             {t('paywall.getLifetime')}
           </Button>
         )}
-        {BETA_PAYMENTS && plus.tier !== 'lifetime' && <div className={s.pwBeta}>{t('paywall.betaNote')}</div>}
         <div className={s.pwLegal}>
           <button type="button" onClick={restore}>{t('paywall.restore')}</button>
           <span aria-hidden>•</span>

@@ -368,6 +368,22 @@
         "Give something away anonymously.",
         "Do your paid work today with full care and no thought of credit."
       ]
+    },
+    {
+      "id": "witness",
+      "name": "The witness",
+      "icon": "eye",
+      "slot": "Evening",
+      "time": "20:30",
+      "minutes": 8,
+      "meta": "Evening · 8 min",
+      "instructions": "Sit quietly. Notice a thought, then notice the one who notices it. Notice a feeling, then the one who is aware of it. Whenever something appears, say gently: \"this is seen.\" Rest as the seeing, not as what is seen. If it feels abstract, simply keep asking: \"Who is aware of this?\"",
+      "why": "Advaita Vedanta points to the sākṣin, the witness, as the doorway to self-inquiry: whatever can be observed cannot be the observer.",
+      "variations": [
+        "Do it while walking.",
+        "Use sounds instead of thoughts.",
+        "End with two slow Oms."
+      ]
     }
   ],
   "tasks": [
@@ -391,6 +407,46 @@
       "meta": "A small evening ritual",
       "time": "19:00",
       "slot": "Evening"
+    },
+    {
+      "id": "task-read-a-chapter-of-the-upani-ads",
+      "name": "Read a chapter of the Upaniṣads",
+      "meta": "Read · 15 min",
+      "time": "12:30",
+      "slot": "Afternoon",
+      "action": "read"
+    },
+    {
+      "id": "task-listen-to-bhaja-govindam",
+      "name": "Listen to Bhaja Govindam",
+      "meta": "Listen",
+      "time": "16:30",
+      "slot": "Afternoon",
+      "action": "listen"
+    },
+    {
+      "id": "task-journal-what-did-you-take-yourself-to-be-today",
+      "name": "Journal: what did you take yourself to be today?",
+      "meta": "Journal · 10 min",
+      "time": "21:15",
+      "slot": "Evening",
+      "action": "journal"
+    },
+    {
+      "id": "task-write-on-tman-is-brahman-what-would-change-if-it-were-true",
+      "name": "Write on “Ātman is Brahman”: what would change if it were true?",
+      "meta": "Philosophy · 10 min",
+      "time": "19:30",
+      "slot": "Evening",
+      "action": "philosophy"
+    },
+    {
+      "id": "task-eat-a-simple-bowl-of-khichdi",
+      "name": "Eat a simple bowl of khichdi",
+      "meta": "Eat · 15 min",
+      "time": "13:00",
+      "slot": "Afternoon",
+      "action": "eat"
     }
   ],
   "rules": [

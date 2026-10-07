@@ -4,17 +4,13 @@ This file lists what a human needs to check before Onda's content is published. 
 generated from the content files by `npm run content:check -- --write` (in `/app`); edit this header in
 `content/REVIEW_HEADER.md`, not in `CONTENT_REVIEW.md`.
 
-## How the content was written
+## How the content was written and checked
 
-All ten Ondas were expanded from the first-draft `onda-data.js` by an AI model (Claude) working from its own
-knowledge of the published literature. **No fact was checked against a live source during writing**: there was no
-browsing, no library and no subject expert in the loop. The `sources` lists name the standard works the content is
-consistent with; they are a reading list for the reviewer, not a record of citations that were looked up.
+All ten Ondas were expanded from the first-draft `onda-data.js` by an AI model (Claude) from its knowledge of the published literature, then put through a fact-check pass (v1.1):
 
-That means every date, attribution, title, year and pronunciation should be treated as *plausible and in need of
-confirmation*, not as verified. Items the author was actively unsure about are marked `unverified: true` in the JSON
-and listed per Onda below, and the app labels them "Not yet verified" in the Full guide. The absence of a flag means
-"the author was confident", which is weaker than "checked".
+- Every date, attribution, work title, creator and year was reviewed claim by claim. Anything the reviewer could not stand behind was **removed**, not hedged: two Dalai Lama lines with no firm source, a Bashō line that is probably misattributed, a "chop wood, carry water" proverb with no traceable source, the "wound is the place where the Light enters you" line (a known misattribution to Rumi), a Jung "slipped up" remark, and several films, albums and paintings whose year or existence could not be confirmed. Years for BBC *In Our Time* episodes were dropped because they could not be confirmed.
+- A small number of claims were checked against live web sources: the first written use of "ubuntu" (1846, per Christian Gade), the nine remaining Potawatomi speakers in *Braiding Sweetgrass*, Yvonne Mokgoro's dates, the year of Yungchen Lhamo's *Tibet, Tibet* (1996) and Jung's 1933 role in the International General Medical Society for Psychotherapy. Two were corrected as a result.
+- **Everything else rests on the author's knowledge and has not been confirmed against a source.** The `sources` lists name the standard works the content is consistent with; they are a reading list for the reviewer, not citations that were looked up. Items the author was actively unsure about are marked `unverified: true`, listed per Onda below, and labelled "Not yet verified" in the app. A missing flag means "the author was confident", which is weaker than "checked".
 
 ## What to review, in priority order
 
@@ -41,9 +37,7 @@ and listed per Onda below, and the app labels them "Not yet verified" in the Ful
 
 - **No closed ceremonies.** The Animism Onda contains no smudging, sweat lodge, pipe, vision quest or sun dance, and
   a unit test fails if those words appear among its practices, tasks or immersion items.
-- **Misattributed quotes were replaced or flagged.** The draft's "chop wood, carry water" proverb (Zen) and "the wound
-  is the place where the Light enters you" (Rumi, in Coleman Barks's free version) are kept but marked unverified and
-  moved out of first position; the Full guide notes that many online Rumi and Hafez quotes have no Persian source.
+- **Misattributed or untraceable quotes were removed**, not flagged. The Full guide notes that many online Rumi and Hafez quotes have no Persian source.
 - **"Amor fati" and "memento mori"** are kept in the Stoic vocabulary with a note that neither phrase is ancient Stoic.
 - **Morning pages** (Transcendentalism) and **sit spot** (Animism) are modern names. The text says so.
 - **Gallery participant counts** in the Lagos gallery are illustrative seed numbers, not real usage.

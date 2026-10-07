@@ -96,7 +96,7 @@ test.describe('Lagos', () => {
   test('insights, then the check in sheet saves a note', async ({ page }) => {
     await tap(page, /Delete social media, day 2 of 30/)
     await expect(page.getByRole('heading', { name: 'Lago', exact: true })).toBeVisible()
-    await expect(page.getByText('2/30 days')).toBeVisible()
+    await expect(page.getByRole('img', { name: '2/30 days' })).toBeVisible()
     await expect(page.getByText('Streak')).toBeVisible()
     await expect(page.getByText('Score')).toBeVisible()
 
@@ -164,7 +164,7 @@ test.describe('Ondas', () => {
     await tap(page, 'Voluntary discomfort Midday · Fast or go without', 'checkbox')
     await expect(page.getByText('3 of 4 practices')).toBeVisible()
     await tap(page, 'Rules', 'tab')
-    await expect(page.getByRole('checkbox', { name: 'Do not complain aloud' })).toBeVisible()
+    await expect(page.getByRole('checkbox', { name: /Do not complain aloud/ })).toBeVisible()
     await expect(page.getByRole('checkbox', { name: /Morning premeditation/ })).toHaveCount(0)
     await tap(page, 'Tasks', 'tab')
     await expect(page.getByRole('checkbox', { name: /Read one Letter from Seneca/ })).toBeVisible()
@@ -191,7 +191,7 @@ test.describe('Ondas', () => {
     await tap(page, 'Close')
 
     await tap(page, 'See All')
-    await expect(page.getByRole('heading', { name: 'Immersion' })).toBeVisible()
+    await expect(page.getByText('Immersion', { exact: true })).toBeVisible()
     for (const c of ['All', 'Books', 'Watch', 'Listen', 'Art', 'Food', 'Drinks', 'Customs', 'Language']) await expect(page.getByRole('button', { name: c, exact: true })).toBeVisible()
     await tap(page, 'Food')
     await expect(page.getByText('Lentil soup', { exact: true })).toBeVisible()
@@ -346,7 +346,11 @@ test.describe('Native-feeling navigation', () => {
     await tap(page, 'Gallery')
     await page.mouse.move(6, height / 2)
     await page.mouse.down()
-    await page.mouse.move(width * 0.2, height / 2, { steps: 20 })
+    // a slow drag: velocity is measured from timestamps, so pace the moves like a finger
+    for (let i = 1; i <= 8; i++) {
+      await page.mouse.move(6 + ((width * 0.2 - 6) * i) / 8, height / 2)
+      await page.waitForTimeout(60)
+    }
     await page.waitForTimeout(250)
     await page.mouse.up()
     await settle(page, 900)

@@ -2,7 +2,7 @@
 
 ## Status: what is verified and what is not
 
-Verified in this repo: typecheck, 122 unit tests, 18 Playwright flows (WebKit at iPhone 15 Pro size; the offline flow on Chromium), a production build with its service worker, and a Deno typecheck of every Edge Function.
+Verified in this repo: typecheck, 126 unit tests, 18 Playwright flows (WebKit at iPhone 15 Pro size; the offline flow on Chromium), a production build with its service worker, and a Deno typecheck of every Edge Function.
 
 **Not verified, because it needs accounts, devices or secrets that were not available:** the Supabase migrations and merge RPC against a real database; Notion OAuth and sync against real Notion; Stripe checkout and webhook; Web Push delivery; Sign in with Apple; the Shortcut (it must be built on an iPhone and signed by Apple, see `docs/SHORTCUT.md`); Lighthouse scores; install, haptics and swipe feel on a real iPhone in standalone mode. The code for each is written to the documented APIs but has never run against the live service. Treat the "done when" list as open until those are exercised.
 
@@ -35,4 +35,5 @@ Native American Animism, Ubuntu, Tibetan Buddhism and Sufism are flagged `review
 - Push action buttons exist for Android and desktop; iOS ignores them and just opens the app.
 - Only English strings exist; keys are in place for i18next.
 - The server sends reminders in the time zone stored in settings; changing zone on the phone needs a settings write to update it.
-- Lighthouse thresholds are configured in CI but have not been run against a deployed build.
+- Lighthouse thresholds are configured in CI but have not been run against a deployed build, so that step reports without failing the build (`continue-on-error`) until someone has tuned it.
+- Content was fact-checked in v1.1 (see `CONTENT_REVIEW.md`): unverifiable items were removed, a handful of claims were checked on the web, and the rest still need a human reviewer.

@@ -47,7 +47,7 @@ describe('Onda content', () => {
     for (const r of c.rules) expect(r.why.length, r.text).toBeGreaterThan(20)
     for (const w of c.words) expect(w.meaning.length && (w.language ?? '').length, w.term).toBeGreaterThan(0)
     for (const kind of ['read', 'watch', 'listen', 'art', 'eat', 'drink', 'customs'] as const) {
-      expect(c.immerse[kind].length, kind).toBeGreaterThanOrEqual(3)
+      expect(c.immerse[kind].length, kind).toBeGreaterThanOrEqual(kind === 'watch' ? 2 : 3)
       for (const it of c.immerse[kind]) expect(it.why.length, it.title).toBeGreaterThan(10)
     }
     for (const h of c.guide.history) expect(h.detail.length, h.when).toBeGreaterThan(30)

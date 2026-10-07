@@ -47,7 +47,7 @@ Trial and purchase are an **app-level entitlement**: the server sets `trial_star
 ## Update 1.4
 
 - **Content.** Every Onda has five practices and eight tasks. The new tasks cover reading, listening or watching, a journal entry, writing about one idea from the Philosophy sheet, and one cultural act, each named after the Onda's own items. A task can carry an  (journal, philosophy or an Immerse kind) that shows an Open row on the card. The original tasks stay.
-- **Linked Lagos.** A Lago created from a practice of the running Onda stores . Ticking either side writes the other for the same date (the store mirrors it in one place), so there is a single tick per day. Runs started before 1.4 keep their frozen snapshot, so the chips read the live content and the calendar export reads the snapshot.
+- **Linked Lagos.** A Lago created from a practice of the running Onda stores `link: { runId, practiceId }`. Ticking either side writes the other for the same date (the store mirrors it in one place), so there is a single tick per day. Runs started before 1.4 keep their frozen snapshot, so the chips read the live content and the calendar export reads the snapshot.
 - **Calendar.** Add to Calendar is reachable from the Ondas and Lagos tabs and from editing a Lago. Reminders itself still needs Shortcuts or a native wrapper.
 - **Launch tab** is Ondas. The small beta note on the Ondas+ page is removed.
 

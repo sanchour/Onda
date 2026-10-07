@@ -89,23 +89,23 @@ async function tick(db: ReturnType<typeof admin>): Promise<number> {
           tag: 'daily',
           title: run?.snapshot ? `${run.snapshot.name} · Daily check in` : 'Daily check in',
           body: open.length === 1 ? open[0]!.title : `${open[0]!.title} and ${open.length - 1} more`,
-          url: '/',
+          url: '',
           lagoId: first?.id.slice(5),
         })
       }
       if (settings.notifMilestones && (await claim(db, userId, 'milestone', today))) {
         const lastDay = (start: string, length: number) => addDays(start, length - 1) === today
         if (run?.snapshot && lastDay(run.startedAt, run.lengthDays)) {
-          sent += await sendTo(db, list, { kind: 'milestone', tag: 'milestone', title: `Last day of ${run.snapshot.name}`, body: 'Your final reflection is ready.', url: '/?tab=ondas' })
+          sent += await sendTo(db, list, { kind: 'milestone', tag: 'milestone', title: `Last day of ${run.snapshot.name}`, body: 'Your final reflection is ready.', url: '?tab=ondas' })
         } else {
           const lago = data.lagos.find((l) => lagoDueOn(l, today) && lastDay(l.startedAt, l.lengthDays))
-          if (lago) sent += await sendTo(db, list, { kind: 'milestone', tag: 'milestone', title: `Last day: ${lago.name}`, body: `${lago.lengthDays} days. Check in to finish it.`, url: '/?tab=lagos', lagoId: lago.id })
+          if (lago) sent += await sendTo(db, list, { kind: 'milestone', tag: 'milestone', title: `Last day: ${lago.name}`, body: `${lago.lengthDays} days. Check in to finish it.`, url: '?tab=lagos', lagoId: lago.id })
         }
       }
     }
 
     if (wantEvening && run?.snapshot && (await claim(db, userId, 'evening', today))) {
-      sent += await sendTo(db, list, { kind: 'evening', tag: 'evening', title: 'Evening review', body: `A few lines on today's ${run.snapshot.name}.`, url: '/?tab=ondas' })
+      sent += await sendTo(db, list, { kind: 'evening', tag: 'evening', title: 'Evening review', body: `A few lines on today's ${run.snapshot.name}.`, url: '?tab=ondas' })
     }
   }
   return sent
@@ -124,7 +124,7 @@ serve(async (req) => {
   if (action === 'test') {
     const user = await requireUser(req)
     const { data } = await db.from('push_subscriptions').select('endpoint, p256dh, auth, user_id, timezone').eq('user_id', user.id)
-    const sent = await sendTo(db, (data ?? []) as Sub[], { kind: 'test', tag: 'test', title: 'Onda', body: 'Notifications are working.', url: '/' })
+    const sent = await sendTo(db, (data ?? []) as Sub[], { kind: 'test', tag: 'test', title: 'Onda', body: 'Notifications are working.', url: '' })
     if (!sent) throw new HttpError(404, 'No subscribed device')
     return json(req, { sent })
   }

@@ -50,6 +50,10 @@ It runs with no backend at all (local mode): everything works on the device, and
 
 Static output in `app/dist`. On Vercel or Cloudflare Pages: root `app`, build `npm run build`, output `dist`, and a rewrite of all paths to `/index.html`. Serve `/sw.js` and `/index.html` with `Cache-Control: no-cache`. HTTPS is required for the service worker, push and the Face ID lock.
 
+## GitHub Pages
+
+`.github/workflows/pages.yml` builds with `BASE_PATH=/<repo>/` and deploys on every push to `main` (repository Settings > Pages > Source: GitHub Actions). The site is then at `https://<user>.github.io/<repo>/`. Optional backend settings go in repository **variables**: `VITE_SUPABASE_URL`, `VITE_SUPABASE_ANON_KEY`, `VITE_VAPID_PUBLIC_KEY`. If you use the backend, add the Pages origin (`https://<user>.github.io`) to `APP_ORIGINS` and to the Supabase auth redirect URLs.
+
 ## Installing on an iPhone
 
 Open the site in Safari, Share, Add to Home Screen. Push notifications only work for the installed app (iOS 16.4+).

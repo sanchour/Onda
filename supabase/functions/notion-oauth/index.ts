@@ -63,9 +63,9 @@ Deno.serve(async (req) => {
     const db = admin()
 
     if (body.action === 'start') {
-      const origin = body.returnUrl ? new URL(body.returnUrl).origin : ''
-      if (!appOrigins().includes(origin)) throw new HttpError(400, 'returnUrl is not an allowed origin')
-      const state = await signState({ uid: user.id, returnUrl: origin })
+      const u = body.returnUrl ? new URL(body.returnUrl) : null
+      if (!u || !appOrigins().includes(u.origin)) throw new HttpError(400, 'returnUrl is not an allowed origin')
+      const state = await signState({ uid: user.id, returnUrl: u.origin + u.pathname.replace(/\/$/, '') })
       const q = new URLSearchParams({ client_id: env('NOTION_CLIENT_ID'), response_type: 'code', owner: 'user', redirect_uri: redirectUri(), state })
       return json(req, { url: `https://api.notion.com/v1/oauth/authorize?${q}` })
     }

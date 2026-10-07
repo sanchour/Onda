@@ -76,7 +76,7 @@ export async function sendTestPush(title: string, body: string): Promise<boolean
       return true
     }
     const reg = await navigator.serviceWorker.ready
-    await reg.showNotification(title, { body, icon: '/icons/icon-192.png', tag: 'test' })
+    await reg.showNotification(title, { body, icon: `${import.meta.env.BASE_URL}icons/icon-192.png`, tag: 'test' })
     return true
   } catch {
     return false

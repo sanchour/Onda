@@ -34,7 +34,7 @@ export function useRefreshIntegrations() {
 
 /* ── Notion ────────────────────────────────────────────────── */
 export async function notionConnect(): Promise<void> {
-  const { url } = await callFunction<{ url: string }>('notion-oauth', { body: { action: 'start', returnUrl: window.location.origin } })
+  const { url } = await callFunction<{ url: string }>('notion-oauth', { body: { action: 'start', returnUrl: window.location.origin + import.meta.env.BASE_URL } })
   window.location.assign(url)
 }
 export const notionSyncNow = () => callFunction<{ synced: number; failed: number; error: string | null }>('notion-sync', { body: { action: 'sync-now' } })

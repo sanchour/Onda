@@ -4,7 +4,11 @@ import { defineConfig } from 'vite'
 import { VitePWA } from 'vite-plugin-pwa'
 
 // https://vite.dev/config/
+// GitHub Pages serves the app from /<repo>/, so the base path comes from the build (BASE_PATH=/Onda/).
+const base = process.env.BASE_PATH ?? '/'
+
 export default defineConfig({
+  base,
   plugins: [
     react(),
     VitePWA({
@@ -22,27 +26,27 @@ export default defineConfig({
         maximumFileSizeToCacheInBytes: 4 * 1024 * 1024,
       },
       manifest: {
-        id: '/',
+        id: './',
         name: 'Onda',
         short_name: 'Onda',
         description: 'Experiment with how you live. Habit experiments and immersive worlds of practice.',
         lang: 'en',
-        start_url: '/?source=pwa',
-        scope: '/',
+        start_url: './?source=pwa',
+        scope: './',
         display: 'standalone',
         orientation: 'portrait',
         background_color: '#F1F2F6',
         theme_color: '#F1F2F6',
         categories: ['lifestyle', 'health', 'education'],
         icons: [
-          { src: '/icons/icon-192.png', sizes: '192x192', type: 'image/png', purpose: 'any' },
-          { src: '/icons/icon-512.png', sizes: '512x512', type: 'image/png', purpose: 'any' },
-          { src: '/icons/maskable-192.png', sizes: '192x192', type: 'image/png', purpose: 'maskable' },
-          { src: '/icons/maskable-512.png', sizes: '512x512', type: 'image/png', purpose: 'maskable' },
+          { src: 'icons/icon-192.png', sizes: '192x192', type: 'image/png', purpose: 'any' },
+          { src: 'icons/icon-512.png', sizes: '512x512', type: 'image/png', purpose: 'any' },
+          { src: 'icons/maskable-192.png', sizes: '192x192', type: 'image/png', purpose: 'maskable' },
+          { src: 'icons/maskable-512.png', sizes: '512x512', type: 'image/png', purpose: 'maskable' },
         ],
         shortcuts: [
-          { name: 'Lagos', url: '/?tab=lagos', icons: [{ src: '/icons/icon-192.png', sizes: '192x192' }] },
-          { name: 'Ondas', url: '/?tab=ondas', icons: [{ src: '/icons/icon-192.png', sizes: '192x192' }] },
+          { name: 'Lagos', url: './?tab=lagos', icons: [{ src: 'icons/icon-192.png', sizes: '192x192' }] },
+          { name: 'Ondas', url: './?tab=ondas', icons: [{ src: 'icons/icon-192.png', sizes: '192x192' }] },
         ],
       },
       devOptions: { enabled: false },

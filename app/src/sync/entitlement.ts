@@ -43,7 +43,7 @@ export async function refreshEntitlement(): Promise<ServerEntitlement | null> {
 export async function startCheckout(): Promise<'redirected' | 'unavailable'> {
   if (!backendConfigured || !navigator.onLine) return 'unavailable'
   try {
-    const { url } = await callFunction<{ url: string }>('stripe-checkout', { body: { returnUrl: window.location.origin } })
+    const { url } = await callFunction<{ url: string }>('stripe-checkout', { body: { returnUrl: window.location.origin + import.meta.env.BASE_URL } })
     window.location.assign(url)
     return 'redirected'
   } catch (e) {

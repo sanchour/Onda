@@ -68,7 +68,7 @@ export async function accountInfo(): Promise<AccountInfo | null> {
 export async function signInWithApple(): Promise<void> {
   const sb = await getSupabase()
   if (!sb) throw new Error('not-configured')
-  const redirectTo = window.location.origin
+  const redirectTo = window.location.origin + import.meta.env.BASE_URL
   const { data } = await sb.auth.getSession()
   if (data.session?.user.is_anonymous) {
     const { error } = await sb.auth.linkIdentity({ provider: 'apple', options: { redirectTo } })
@@ -82,7 +82,7 @@ export async function signInWithApple(): Promise<void> {
 export async function sendMagicLink(email: string): Promise<void> {
   const sb = await getSupabase()
   if (!sb) throw new Error('not-configured')
-  const emailRedirectTo = window.location.origin
+  const emailRedirectTo = window.location.origin + import.meta.env.BASE_URL
   const { data } = await sb.auth.getSession()
   if (data.session?.user.is_anonymous) {
     const { error } = await sb.auth.updateUser({ email }, { emailRedirectTo })

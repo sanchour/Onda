@@ -9,7 +9,9 @@ serve(async (req) => {
   if (user.is_anonymous) throw new HttpError(403, 'Sign in before buying, so the purchase can be restored')
   const { returnUrl } = (await req.json().catch(() => ({}))) as { returnUrl?: string }
   const allowed = env('APP_ORIGINS', 'http://localhost:5173').split(',').map((s) => s.trim())
-  const base = returnUrl && allowed.includes(new URL(returnUrl).origin) ? new URL(returnUrl).origin : allowed[0]!
+  // Keep the app's base path (GitHub Pages serves it from /<repo>/); only the origin has to be allow-listed.
+  const u = returnUrl ? new URL(returnUrl) : null
+  const base = u && allowed.includes(u.origin) ? u.origin + u.pathname.replace(/\/$/, '') : allowed[0]!
 
   const { data: profile } = await admin().from('profiles').select('plus').eq('user_id', user.id).maybeSingle()
   if (profile?.plus === 'lifetime') throw new HttpError(409, 'Already purchased')

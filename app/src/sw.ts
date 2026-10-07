@@ -13,7 +13,7 @@ cleanupOutdatedCaches()
 clientsClaim()
 
 // SPA: every navigation gets the cached shell.
-registerRoute(new NavigationRoute(createHandlerBoundToURL('/index.html'), { denylist: [/^\/functions\//, /\.ics$/] }))
+registerRoute(new NavigationRoute(createHandlerBoundToURL(`${import.meta.env.BASE_URL}index.html`), { denylist: [/\/functions\//, /\.ics$/] }))
 
 // Font subsets that are not precached (CJK, Arabic) are cached the first time they are used.
 registerRoute(
@@ -47,9 +47,9 @@ self.addEventListener('push', (event) => {
   const options: NotificationOptions & { actions?: { action: string; title: string }[] } = {
     body: p.body ?? '',
     tag: p.tag ?? p.kind ?? 'onda',
-    icon: '/icons/icon-192.png',
-    badge: '/icons/badge-96.png',
-    data: { url: p.url ?? '/', lagoId: p.lagoId ?? null, kind: p.kind ?? null },
+    icon: new URL('icons/icon-192.png', self.registration.scope).href,
+    badge: new URL('icons/badge-96.png', self.registration.scope).href,
+    data: { url: p.url ?? '', lagoId: p.lagoId ?? null, kind: p.kind ?? null },
     // Action buttons show on Android and desktop. iOS ignores them: a tap simply opens Onda.
     actions: [
       { action: 'checkin', title: 'Check In' },
@@ -66,7 +66,11 @@ self.addEventListener('notificationclick', (event) => {
   if (event.action === 'checkin') params.set('action', 'checkin')
   if (data.lagoId) params.set('lago', data.lagoId)
   if (data.kind === 'evening') params.set('action', params.get('action') ?? 'journal')
-  const target = `${data.url ?? '/'}${params.size ? `?${params}` : ''}`
+  // Server URLs are relative to the app ("?tab=ondas"), so the app works from any base path.
+  const [path = '', query = ''] = (data.url ?? '').replace(/^\//, '').split('?')
+  const merged = new URLSearchParams(query)
+  params.forEach((v, k) => merged.set(k, v))
+  const target = new URL(`${path}${merged.size ? `?${merged}` : ''}`, self.registration.scope).href
   event.waitUntil(
     (async () => {
       const all = await self.clients.matchAll({ type: 'window', includeUncontrolled: true })

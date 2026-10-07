@@ -19,7 +19,6 @@ import { WheelPicker } from '@/ui/pickers'
 import { AppSheet, useSheet } from './common'
 
 type E<N extends SheetEntry['name']> = { entry: Extract<SheetEntry, { name: N }> }
-const nf = new Intl.NumberFormat('de-DE')
 
 /* ── Check In ─────────────────────────────────────────────── */
 export function CheckInSheet({ entry }: E<'checkin'>) {
@@ -214,12 +213,6 @@ export function LagoInfoSheet({ entry }: E<'lagoInfo'>) {
             <Icon name="calendar-dots" weight="fill" size={24} />
             <span>{t('common.daysCap', { count: i.length })}</span>
           </div>
-          {!!i.count && (
-            <div className={s.infoFact}>
-              <Icon name="users-three" size={24} />
-              <span>{t('gallery.participants', { count: nf.format(i.count) as unknown as number })}</span>
-            </div>
-          )}
         </div>
         <div className={s.infoText} style={{ marginTop: 20 }}>{t('gallery.endsOn', { date: fmtLongDate(addDays(today, i.length - 1)) })}</div>
         <div className={s.infoNote}>

@@ -1,6 +1,6 @@
 import { useMemo, useRef, useState } from 'react'
 import { useTranslation } from 'react-i18next'
-import { KIND_ICON, mediaFor, type MediaItem } from '@/content'
+import { mediaFor, type MediaItem } from '@/content'
 import { pickForDay, runDay } from '@/data/derive/onda'
 import { useActiveRun, useLook, useOnda, useOndaIndex, useSettings } from '@/data/hooks'
 import { useStore } from '@/data/store'
@@ -12,7 +12,8 @@ import { Button, GlassButton } from '@/ui/buttons'
 import { Stepper } from '@/ui/controls'
 import { Icon } from '@/ui/Icon'
 import { SectionToggle } from '@/ui/lists'
-import { DayBar, Glyph, PracticeRow, RulesList, TasksList, guardBeginOnda, useRunToday } from './ondaShared'
+import { KindArt } from './KindArt'
+import { DayBar, Glyph, PracticeRow, RulesList, TasksList, guardBeginOnda, nameSize, useRunToday } from './ondaShared'
 import o from './ondas.module.css'
 import s from './screens.module.css'
 
@@ -127,7 +128,7 @@ export default function OndaToday({ entry }: { entry: Extract<StackEntry, { name
           <div className={`${s.circle} ${o.odIcon} ${o.solidCircle}`}>
             <Icon name={index.icon} weight="fill" size={30} />
           </div>
-          <h1 className={o.odName}>{index.name}</h1>
+          <h1 className={o.odName} style={{ fontSize: nameSize(look, index.name, 40 + 70 + 14 + 8, 38, 20) }}>{index.name}</h1>
         </div>
         {theme && <div className={o.odTheme}>{t('onda.todayTheme', { theme })}</div>}
         <DayBar day={day} length={length} strong />
@@ -224,12 +225,10 @@ export default function OndaToday({ entry }: { entry: Extract<StackEntry, { name
           {toggle.open('i') && (
             <div className={`hscroll ${o.mediaScroll}`}>
               {mediaToday.map((m) => (
-                <button key={m.id} type="button" className={o.mediaItem} disabled={!live} onClick={() => push({ name: 'immersion' })}>
+                <button key={m.id} type="button" className={o.mediaItem} onClick={() => openSheet({ name: 'mediaInfo', item: m, ondaId: index.id, runId: run?.id })}>
                   <span className={`${o.mediaTile} ${o.themed}`}>
-                    <span className={`${s.circle} ${o.guideIcon} ${o.chipCircle}`}>
-                      <Icon name={KIND_ICON[m.kind]} weight="fill" size={22} />
-                    </span>
                     <span className={o.mediaKind}>{t(`kindLabel.${m.kind}`)}</span>
+                    <KindArt kind={m.kind} className={o.mediaArt} />
                   </span>
                   <span className={o.mediaTitle} style={{ display: 'block' }}>{m.title}</span>
                   <span className={o.mediaMeta} style={{ display: 'block' }}>{m.meta}</span>

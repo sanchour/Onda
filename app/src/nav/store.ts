@@ -1,4 +1,5 @@
 import { create } from 'zustand'
+import type { MediaItem, MediaKind } from '@/content'
 import type { GalleryLago } from '@/data/catalog'
 import type { AchievementKey } from '@/data/derive/achievements'
 import type { MenuSpec } from '@/ui/Menu'
@@ -10,11 +11,10 @@ export type SettingsPage = 'subscription' | 'appearance' | 'notifications' | 'pr
 export type Route =
   | { name: 'gallery' }
   | { name: 'category'; cat: string }
-  | { name: 'top' }
   | { name: 'lago'; id: string }
   | { name: 'allOndas' }
   | { name: 'onda'; id: string; length?: number }
-  | { name: 'immersion' }
+  | { name: 'immersion'; kind?: MediaKind }
   | { name: 'reflection' }
   | { name: 'done'; ondaId: string; kept: number }
   | { name: 'settings'; page?: SettingsPage }
@@ -26,6 +26,7 @@ export type SheetRoute =
   | { name: 'lagoInfo'; info: GalleryLago }
   | { name: 'journalList' }
   | { name: 'journalEdit'; day?: number; fromList?: boolean }
+  | { name: 'mediaInfo'; item: MediaItem; ondaId: string; runId?: string }
   | { name: 'philosophy' }
   | { name: 'guide'; ondaId: string }
   | { name: 'createOnda' }

@@ -48,6 +48,34 @@ test.describe('Onboarding and paywall', () => {
   })
 })
 
+test.describe('Ondas+ beta placeholder', () => {
+  test('Get Lifetime unlocks right away and nothing is charged', async ({ page }) => {
+    await seedDemo(page)
+    await tap(page, 'Settings')
+    await page.getByRole('button', { name: /Ondas\+.*Start Free Trial/s }).click()
+    await settle(page)
+    await expect(page.getByText(/Beta: Ondas\+ is a placeholder/)).toBeVisible()
+    await tap(page, /Get Lifetime/)
+    await expect(page.getByText('Lifetime unlocked (beta)')).toBeVisible()
+    await settle(page, 900)
+    await expect(page.getByRole('button', { name: /Ondas\+.*Lifetime/s })).toBeVisible()
+  })
+})
+
+test.describe('Empty Lagos', () => {
+  test('with no Lagos yet, a tip points to the Gallery', async ({ page }) => {
+    await page.goto('/')
+    for (const b of ['Continue', 'Continue', 'Continue', 'Next', 'Next']) await tap(page, b)
+    await tap(page, /Stoicism/, 'radio')
+    await tap(page, 'Get Started')
+    await tap(page, 'Start Free Trial')
+    await tab(page, 'Lagos')
+    await expect(page.getByText('No Lagos yet')).toBeVisible()
+    await tap(page, /Quick tip/)
+    await expect(page.getByRole('heading', { name: 'Gallery' })).toBeVisible()
+  })
+})
+
 test.describe('Lagos', () => {
   test.beforeEach(async ({ page }) => {
     await seedDemo(page)
@@ -133,7 +161,7 @@ test.describe('Lagos', () => {
     await expect(page.getByText('2 of 6 checked in')).toBeVisible()
   })
 
-  test('new Lago form creates a Lago; Top Lagos filters by category', async ({ page }) => {
+  test('new Lago form creates a Lago; the Gallery has no ranking, and categories end in See more', async ({ page }) => {
     await startTrial(page)
     await tap(page, 'New Lago')
     const form = page.getByRole('dialog', { name: 'New Lago' })
@@ -145,11 +173,11 @@ test.describe('Lagos', () => {
     await expect(page.getByRole('button', { name: /Read 20 pages, day 1 of 29/ })).toBeVisible()
 
     await tap(page, 'Gallery')
-    await tap(page, /Top Lagos/)
-    await expect(page.getByRole('listitem')).toHaveCount(12)
-    await tap(page, 'All Categories')
-    await page.getByRole('menuitem', { name: 'Challenge' }).click()
-    await expect(page.getByRole('listitem')).toHaveCount(2)
+    await expect(page.getByRole('heading', { name: 'Featured' })).toBeVisible()
+    await expect(page.getByText('Top Lagos')).toHaveCount(0)
+    await expect(page.getByRole('button', { name: /^Challenge See more/ })).toBeVisible()
+    await tap(page, /Walk 10,000 steps/)
+    await expect(page.getByRole('dialog').getByText(/Participants/)).toHaveCount(0)
   })
 })
 
@@ -170,7 +198,7 @@ test.describe('Ondas', () => {
     await expect(page.getByRole('checkbox', { name: /Read one Letter from Seneca/ })).toBeVisible()
   })
 
-  test('Today page, Full guide with seven tabs, and immersion filters', async ({ page }) => {
+  test('Today page, Full guide with seven tabs, and the immersion grid with its quick sheet', async ({ page }) => {
     await page.getByRole('button', { name: /Onda · Day 4 of 14/ }).click()
     await settle(page, 900)
     await expect(page.getByRole('heading', { name: 'Day 4 of 14' })).toBeVisible()
@@ -182,22 +210,31 @@ test.describe('Ondas', () => {
     await page.getByRole('button', { name: /Full guide Context, history/ }).click()
     const guide = page.getByRole('dialog', { name: 'Stoicism' })
     await expect(guide).toBeVisible()
-    for (const t of ['Overview', 'History', 'Ideas', 'Ways', 'Culture', 'Language', 'Facts']) await expect(guide.getByRole('button', { name: t, exact: true })).toBeVisible()
-    await guide.getByRole('button', { name: 'History', exact: true }).click()
+    for (const t of ['Overview', 'History', 'Ideas', 'Ways', 'Culture', 'Language', 'Facts']) await expect(guide.getByRole('tab', { name: t, exact: true })).toBeVisible()
+    await guide.getByRole('tab', { name: 'History', exact: true }).click()
     await guide.getByRole('button', { name: /c\. 300 BCE/ }).click()
     await expect(guide.getByText(/The school took its name from the porch/)).toBeVisible()
-    await guide.getByRole('button', { name: 'Language', exact: true }).click()
+    await guide.getByRole('tab', { name: 'Language', exact: true }).click()
     await expect(guide.getByText('Prohairesis')).toBeVisible()
     await tap(page, 'Close')
 
     await tap(page, 'See All')
     await expect(page.getByText('Immersion', { exact: true })).toBeVisible()
-    for (const c of ['All', 'Books', 'Watch', 'Listen', 'Art', 'Food', 'Drinks', 'Customs', 'Language']) await expect(page.getByRole('button', { name: c, exact: true })).toBeVisible()
-    await tap(page, 'Food')
+    // Two per row: Read, Watch, Listen, Art, Eat, Drink, Customs, Words
+    for (const c of ['Read', 'Watch', 'Listen', 'Art', 'Eat', 'Drink', 'Customs', 'Words']) await expect(page.getByRole('button', { name: new RegExp('^' + c + ' \\d+ of \\d+') })).toBeVisible()
+    await tap(page, /^Eat \d+ of \d+/)
     await expect(page.getByText('Lentil soup', { exact: true })).toBeVisible()
     await expect(page.getByText('Meditations', { exact: true })).toHaveCount(0)
-    await tap(page, 'Mark Lentil soup done', 'checkbox')
+    // Tapping an item opens a small sheet with its description
+    await tap(page, /^About Lentil soup/)
+    const info = page.getByRole('dialog')
+    await expect(info.getByRole('heading', { name: 'Lentil soup' })).toBeVisible()
+    await info.getByRole('button', { name: 'Mark as experienced' }).click()
+    await expect(info.getByRole('button', { name: 'Experienced' })).toBeVisible()
+    await tap(page, 'Close')
     await expect(page.getByRole('checkbox', { name: 'Mark Lentil soup done' })).toBeChecked()
+    await tap(page, 'Back')
+    await expect(page.getByRole('button', { name: /^Eat 1 of \d+/ })).toBeVisible()
     // Back returns to the screen you came from
     await tap(page, 'Back')
     await expect(page.getByRole('heading', { name: 'Day 4 of 14' })).toBeVisible()
@@ -357,8 +394,7 @@ test.describe('Native-feeling navigation', () => {
     await expect(page.getByRole('heading', { name: 'Gallery' })).toBeVisible()
 
     // Sheet: drag the header down
-    await tap(page, /Top Lagos/)
-    await tap(page, /Walk 10,000 steps/)
+    await tap(page, 'Start Now')
     const sheet = page.getByRole('dialog')
     await expect(sheet).toBeVisible()
     const box = (await sheet.boundingBox())!

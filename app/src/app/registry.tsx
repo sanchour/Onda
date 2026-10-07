@@ -17,7 +17,6 @@ const settingsSheets = () => import('@/sheets/SettingsSheets')
 export const ROUTES: Record<Route['name'], Lazy> = {
   gallery: pick(gallery, 'Gallery'),
   category: pick(gallery, 'Category'),
-  top: pick(gallery, 'TopLagos'),
   lago: lazy(() => import('@/screens/LagoInsights')),
   paywall: lazy(() => import('@/screens/Paywall')),
   allOndas: pick(ondasTab, 'AllOndas'),
@@ -35,6 +34,7 @@ export const SHEETS: Record<SheetRoute['name'], Lazy> = {
   time: pick(lagoSheets, 'TimeSheet'),
   journalList: pick(ondaSheets, 'JournalListSheet'),
   journalEdit: pick(ondaSheets, 'JournalEditSheet'),
+  mediaInfo: pick(ondaSheets, 'MediaInfoSheet'),
   philosophy: pick(ondaSheets, 'PhilosophySheet'),
   guide: pick(ondaSheets, 'GuideSheet'),
   createOnda: pick(() => import('@/sheets/CreateOndaSheet'), 'CreateOndaSheet'),

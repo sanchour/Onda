@@ -22,9 +22,9 @@
 .achPreview{display:flex;justify-content:space-between;margin-top:14px}
 .achDot{width:44px;height:44px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:var(--surface-soft);color:var(--label-quaternary)}
 .achOn{color:var(--viz-ink)}
-.runRow{display:flex;align-items:center;gap:16px;padding:16px;border-radius:26px;background:var(--onda-fill);color:var(--onda-ink);width:100%;text-align:start}
-.runIcon{width:48px;height:48px;border-radius:50%;background:var(--onda-chip);display:flex;align-items:center;justify-content:center;flex:none}
-.runName{font:600 var(--fs-20)/1.15 var(--onda-font)}
+.runRow{display:flex;align-items:center;gap:16px;padding:16px;border-radius:var(--onda-radius,26px);background:var(--onda-fill);color:var(--onda-ink);width:100%;text-align:start}
+.runIcon{width:48px;height:48px;border-radius:var(--onda-shape,50%);clip-path:var(--onda-clip,none);background:var(--onda-chip);display:flex;align-items:center;justify-content:center;flex:none}
+.runName{font:600 var(--fs-20)/1.15 var(--onda-font);overflow-wrap:anywhere;text-transform:var(--onda-case,none)}
 .runMeta{font:400 var(--fs-15) var(--font-sans);margin-top:2px}
 .dayBtn{width:38px;height:38px;border-radius:50%;display:flex;align-items:center;justify-content:center;font:500 var(--fs-15) var(--font-sans);color:var(--label);border:2px solid transparent;position:relative}
 .dayBtn::after{content:"";position:absolute;inset:-5px}
@@ -79,7 +79,7 @@
 .emailField{margin:16px 16px 0;background:var(--surface-card);border-radius:26px;padding:14px 20px}
 
 /* ── Coachmark (Add to Home Screen) ──────────────────────── */
-.coach{position:absolute;left:12px;right:12px;bottom:calc(max(var(--sab),12px) + 84px);z-index:80;display:flex;align-items:flex-start;gap:12px;padding:14px 12px 14px 16px;border-radius:26px;background:var(--surface-card);border:var(--glass-border);box-shadow:var(--shadow-menu);animation:coachIn var(--duration-large) var(--ease-enter) both}
+.coach{position:absolute;left:12px;right:12px;bottom:calc(max(var(--sab),12px) + 96px);z-index:80;display:flex;align-items:flex-start;gap:12px;padding:14px 12px 14px 16px;border-radius:26px;background:var(--surface-card);border:var(--glass-border);box-shadow:var(--shadow-menu);animation:coachIn var(--duration-large) var(--ease-enter) both}
 @keyframes coachIn{from{opacity:0;transform:translate3d(0,16px,0)}to{opacity:1;transform:translate3d(0,0,0)}}
 @media (prefers-reduced-motion:reduce){@keyframes coachIn{from{opacity:0}to{opacity:1}}}
 .coachTitle{font:600 var(--fs-17)/1.3 var(--font-sans)}
@@ -98,16 +98,19 @@
 .avatarSwatch::after{content:"";position:absolute;inset:-8px}
 .avatarSwatchOn{box-shadow:0 0 0 2px var(--surface-grouped),0 0 0 4px var(--label)}
 
-/* ── Consistency meter ───────────────────────────────────── */
-.consCard{margin:20px 16px 0;background:var(--surface-card);border-radius:26px;padding:18px 20px 16px}
-.consTop{display:flex;align-items:center;gap:18px}
-.consPct{font:700 var(--fs-26)/1 var(--font-sans);letter-spacing:-0.02em;font-variant-numeric:tabular-nums}
-.consPct small{font-size:var(--fs-13);font-weight:600;margin-left:1px;color:var(--label-secondary)}
-.consText{min-width:0}
-.consTier{font:600 var(--fs-17) var(--font-sans);color:var(--accent);margin-top:2px}
-.consTrend{font:400 var(--fs-13)/1.35 var(--font-sans);color:var(--label-secondary);margin-top:3px}
-.consDays{display:flex;align-items:flex-end;gap:5px;height:38px;margin-top:16px}
-.consDay{flex:1;height:100%;display:flex;align-items:flex-end;border-radius:6px;background:var(--viz-track);overflow:hidden}
-.consFill{display:block;width:100%;border-radius:6px;background:var(--accent);transition:height var(--duration-large) var(--ease-enter)}
-.consDay[data-empty] .consFill{background:var(--label-quaternary)}
-.consCaption{font:400 var(--fs-12)/1.35 var(--font-sans);color:var(--label-tertiary);margin-top:10px}
+/* ── Consistency barometer ───────────────────────────────── */
+.baroCard{margin:20px 16px 0;background:var(--surface-card);border-radius:26px;padding:18px 20px 18px}
+.baro{position:relative;width:min(100%,248px);margin:10px auto 0}
+.baro svg{display:block;width:100%;height:auto;overflow:visible}
+.baroTrack,.baroFill{fill:none;stroke-width:10;stroke-linecap:round}
+.baroTrack{stroke:var(--viz-track)}
+.baroFill{stroke:var(--accent);transition:stroke-dasharray 900ms var(--ease-enter)}
+.baroTicks{fill:none;stroke:var(--label-quaternary);stroke-width:1.5;stroke-linecap:round}
+.baroKnob{transform-box:view-box;transform-origin:110px 110px;transition:transform 900ms var(--ease-enter)}
+.baroKnob circle{fill:var(--surface-card);stroke:var(--accent);stroke-width:4}
+.baroRead{position:absolute;left:0;right:0;bottom:0;text-align:center}
+.baroPct{font:700 var(--fs-44)/1 var(--font-sans);letter-spacing:-0.03em;font-variant-numeric:tabular-nums}
+.baroPct small{font-size:var(--fs-17);font-weight:600;margin-left:2px;color:var(--label-secondary);letter-spacing:0}
+.baroTier{font:600 var(--fs-15) var(--font-sans);color:var(--accent);margin-top:4px}
+.baroTrend{font:400 var(--fs-13)/1.35 var(--font-sans);color:var(--label-secondary);text-align:center;margin-top:12px;text-wrap:balance}
+@media (prefers-reduced-motion:reduce){.baroFill,.baroKnob{transition:none}}

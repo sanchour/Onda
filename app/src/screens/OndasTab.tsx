@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { useLookFn, useOndaList } from '@/data/hooks'
+import { columnWidth, fitSize } from '@/lib/fit'
 import { useStore } from '@/data/store'
 import { BackButton, Screen } from '@/nav/Screen'
 import { useNav } from '@/nav/store'
@@ -8,7 +9,7 @@ import { Button, GlassButton } from '@/ui/buttons'
 import { SegmentedControl } from '@/ui/controls'
 import { ProgressBar } from '@/ui/data'
 import { Icon } from '@/ui/Icon'
-import { DayBar, Glyph, PracticeRow, RulesList, TasksList, guardCreateOnda, useActiveOnda, useRunToday } from './ondaShared'
+import { DayBar, Glyph, PracticeRow, RulesList, TasksList, guardCreateOnda, nameSize, useActiveOnda, useRunToday } from './ondaShared'
 import o from './ondas.module.css'
 import s from './screens.module.css'
 
@@ -72,7 +73,7 @@ export default function OndasTab() {
             <Icon name={index?.icon ?? 'sparkle'} weight="fill" size={16} />
             <span>{t('ondas.kicker', { label: t('ondas.dayOf', { day, length: run.lengthDays }) })}</span>
           </span>
-          <span className={o.bannerName} style={{ display: 'block' }}>{name}</span>
+          <span className={o.bannerName} style={{ display: 'block', fontSize: nameSize(look, name, 84, 30, 18) }}>{name}</span>
           <DayBar day={day} length={run.lengthDays} />
         </button>
 
@@ -82,7 +83,7 @@ export default function OndasTab() {
               <span className={`${s.circle} ${o.quickCircle} ${o.solidCircle}`}>
                 <Icon name={icon} weight="fill" size={22} />
               </span>
-              <span>{label}</span>
+              <span style={{ fontSize: fitSize(label, 74, 13, 11) }}>{label}</span>
             </button>
           ))}
         </div>
@@ -142,7 +143,7 @@ export function AllOndas() {
               {activeId === x.id ? <span className={o.badge}>{t('ondas.active')}</span> : x.custom ? <span className={o.badge}>{t('ondas.mine')}</span> : null}
             </span>
             <span>
-              <span className={o.ondaTileName} style={{ display: 'block' }}>{x.name}</span>
+              <span className={o.ondaTileName} style={{ display: 'block', fontSize: fitSize(x.name, columnWidth() / 2 - 58, 22, 13, look(x).caps) }}>{x.name}</span>
               <span className={o.ondaTileOrigin} style={{ display: 'block' }}>{x.origin}</span>
             </span>
           </button>

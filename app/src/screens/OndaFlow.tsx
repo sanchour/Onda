@@ -10,69 +10,108 @@ import { BackButton, ChromeSpacer, ChromeTitle, Screen } from '@/nav/Screen'
 import navCss from '@/nav/nav.module.css'
 import { useNav, type StackEntry } from '@/nav/store'
 import { Button } from '@/ui/buttons'
-import { CheckDot, Chip, Switch } from '@/ui/controls'
+import { CheckDot, Switch } from '@/ui/controls'
 import { ProgressRing, StepBar } from '@/ui/data'
 import { Icon } from '@/ui/Icon'
+import { KindArt } from './KindArt'
 import { OndaBanner, useActiveOnda } from './ondaShared'
 import o from './ondas.module.css'
 import s from './screens.module.css'
 
-/* ── Immersion ────────────────────────────────────────────── */
-export function Immersion() {
+/* ── Immersion: a grid of kinds (Read, Watch, Listen, ...), then the list for one kind ── */
+export function Immersion({ entry }: { entry: Extract<StackEntry, { name: 'immersion' }> }) {
   const { t } = useTranslation()
+  const push = useNav((n) => n.push)
+  const openSheet = useNav((n) => n.openSheet)
   const active = useActiveOnda()
   const settings = useSettings()
   const immerseLogs = useStore((x) => x.immerseLogs)
-  const [filter, setFilter] = useState<MediaKind | 'all'>('all')
   const media = useMemo(() => (active?.content ? mediaFor(active.content, { includeFood: settings.includeFood }) : []), [active?.content, settings.includeFood])
   const done = useMemo(() => (active ? immerseSet(immerseLogs, active.run.id) : new Set<string>()), [immerseLogs, active])
   if (!active) return <Screen chrome={<BackButton />}>{null}</Screen>
 
   const kinds = MEDIA_KINDS.filter((k) => media.some((m) => m.kind === k))
-  const list = media.filter((m) => filter === 'all' || m.kind === filter)
+  const kind = entry.kind && kinds.includes(entry.kind) ? entry.kind : undefined
+  const list = kind ? media.filter((m) => m.kind === kind) : []
+  const count = (k: MediaKind) => {
+    const all = media.filter((m) => m.kind === k)
+    return { total: all.length, seen: all.filter((m) => done.has(m.id)).length }
+  }
 
   return (
     <Screen chrome={<BackButton />} style={active.look.vars}>
       <div style={{ padding: '0 16px' }}>
-        <OndaBanner look={active.look} icon="headphones" kicker={active.index?.name} title={t('immersion.title')} sub={t('immersion.experienced', { done: media.filter((m) => done.has(m.id)).length, total: media.length })} />
+        <OndaBanner
+          look={active.look}
+          icon={kind ? KIND_ICON[kind] : 'headphones'}
+          kicker={active.index?.name}
+          title={kind ? t(`kindLabel.${kind}`) : t('immersion.title')}
+          sub={t('immersion.experienced', kind ? { done: count(kind).seen, total: count(kind).total } : { done: media.filter((m) => done.has(m.id)).length, total: media.length })}
+        />
       </div>
-      <div className={`hscroll ${o.chips}`}>
-        {(['all', ...kinds] as const).map((k) => (
-          <Chip key={k} label={t(`kinds.${k}`)} selected={filter === k} onClick={() => setFilter(k)} />
-        ))}
-      </div>
-      <ul className={s.stack10} style={{ padding: '14px 16px 0', margin: 0, listStyle: 'none' }}>
-        {list.map((m) => {
-          const on = done.has(m.id)
-          return (
-            <li key={m.id} className={o.imRow}>
-              <div className={o.imThumb} aria-hidden>
-                <Icon name={KIND_ICON[m.kind]} weight="fill" size={24} />
-              </div>
-              <div style={{ flex: 1, minWidth: 0 }}>
-                <div className={o.imTitle}>{m.title}</div>
-                <div className={s.sub}>{[t(`kindLabel.${m.kind}`), m.meta].filter(Boolean).join(' · ')}</div>
-                {m.why && <div className={o.imWhy}>{m.why}</div>}
-              </div>
-              <button
-                type="button"
-                role="checkbox"
-                aria-checked={on}
-                aria-label={t('a11y.markDone', { name: m.title })}
-                className={o.imCheck}
-                onClick={() => {
-                  haptic(on ? 'select' : 'success')
-                  useStore.getState().toggleImmerse(active.run.id, m.id)
-                }}
-              >
-                <CheckDot on={on} size={32} icon={16} soft />
-              </button>
-            </li>
-          )
-        })}
-      </ul>
-      {list.length === 0 && <div className={s.empty}><div className={s.sub}>{t('immersion.empty')}</div></div>}
-      <div className={o.footnote}>{t('immersion.footer')}</div>
+
+      {!kind && (
+        <>
+          <div className={o.kindGrid}>
+            {kinds.map((k) => {
+              const c = count(k)
+              return (
+                <button key={k} type="button" className={o.kindTile} onClick={() => push({ name: 'immersion', kind: k })}>
+                  <span className={o.kindArt}>
+                    <KindArt kind={k} />
+                  </span>
+                  <span className={o.kindName}>{t(`kindLabel.${k}`)}</span>
+                  <span className={o.kindCount}>
+                    <span className={o.kindDots} aria-hidden>
+                      {Array.from({ length: Math.min(c.total, 8) }, (_, i) => (
+                        <i key={i} data-on={i < Math.round((c.seen / c.total) * Math.min(c.total, 8)) || undefined} />
+                      ))}
+                    </span>
+                    {t('immersion.kindCount', { done: c.seen, total: c.total })}
+                  </span>
+                </button>
+              )
+            })}
+          </div>
+          {kinds.length === 0 && <div className={s.empty}><div className={s.sub}>{t('immersion.empty')}</div></div>}
+        </>
+      )}
+
+      {kind && (
+        <ul className={s.stack10} style={{ padding: '18px 16px 0', margin: 0, listStyle: 'none' }}>
+          {list.map((m) => {
+            const on = done.has(m.id)
+            return (
+              <li key={m.id} className={o.imRow}>
+                <button type="button" className={o.imOpen} aria-label={t('immersion.about', { name: m.title })} onClick={() => openSheet({ name: 'mediaInfo', item: m, ondaId: active.run.ondaId, runId: active.run.id })}>
+                  <span className={o.imThumb} aria-hidden>
+                    <KindArt kind={m.kind} />
+                  </span>
+                  <span style={{ flex: 1, minWidth: 0, display: 'block' }}>
+                    <span className={o.imTitle} style={{ display: 'block' }}>{m.title}</span>
+                    <span className={s.sub} style={{ display: 'block' }}>{m.meta}</span>
+                    {m.why && <span className={o.imWhy} style={{ display: 'block' }}>{m.why}</span>}
+                  </span>
+                </button>
+                <button
+                  type="button"
+                  role="checkbox"
+                  aria-checked={on}
+                  aria-label={t('a11y.markDone', { name: m.title })}
+                  className={o.imCheck}
+                  onClick={() => {
+                    haptic(on ? 'select' : 'success')
+                    useStore.getState().toggleImmerse(active.run.id, m.id)
+                  }}
+                >
+                  <CheckDot on={on} size={32} icon={16} soft />
+                </button>
+              </li>
+            )
+          })}
+        </ul>
+      )}
+      {kind && <div className={o.footnote}>{t('immersion.footer')}</div>}
     </Screen>
   )
 }

@@ -10,7 +10,7 @@
 .bgGrouped{background:var(--surface-grouped);--screen-bg:var(--surface-grouped)}
 .bgPage{background:var(--surface-page);--screen-bg:var(--surface-page)}
 /* Tab root: large title row sits directly below the status bar */
-.padRoot{padding-top:calc(var(--chrome-top) + 2px);padding-bottom:calc(152px + var(--sab))}
+.padRoot{padding-top:calc(var(--chrome-top) + 2px);padding-bottom:calc(168px + var(--sab))}
 /* Pushed page: content starts below the floating chrome row */
 .padPage{padding-top:calc(var(--chrome-top) + 54px);padding-bottom:calc(26px + max(var(--sab), 16px))}
 .padPageCta{padding-top:calc(var(--chrome-top) + 54px);padding-bottom:calc(96px + max(var(--sab), 16px))}
@@ -28,7 +28,7 @@
 .bottomNote{font:400 var(--fs-13) var(--font-sans);color:var(--label-secondary);text-align:center}
 
 .tabBarWrap{position:absolute;left:0;right:0;bottom:max(calc(var(--sab) - 6px), 16px);z-index:60;display:flex;justify-content:center;pointer-events:none}
-.tabBarWrap > *{pointer-events:auto;width:222px}
+.tabBarWrap > *{pointer-events:auto;width:288px}
 
 .tabPane{position:absolute;inset:0}
 

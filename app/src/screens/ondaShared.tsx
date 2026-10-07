@@ -9,6 +9,7 @@ import { useActiveRun, useLook, useOnda, useOndaIndex } from '@/data/hooks'
 import { useStore } from '@/data/store'
 import type { OndaRun } from '@/data/types'
 import { now } from '@/lib/dates'
+import { columnWidth, fitSize } from '@/lib/fit'
 import { haptic } from '@/lib/haptics'
 import { nav } from '@/nav/store'
 import { Icon } from '@/ui/Icon'
@@ -44,6 +45,11 @@ export function guardCreateOnda(t: TFunction): boolean {
   nav().showToast(t('paywall.gateCustom'), { icon: 'seal-check' })
   nav().push({ name: 'paywall' })
   return false
+}
+
+/** Font size for an Onda's name so its longest word fits `inner` px (the column minus the card's own padding). */
+export function nameSize(look: OndaLook, name: string, inner: number, max: number, min = 13): number {
+  return fitSize(name, columnWidth() - inner, max, min, look.caps)
 }
 
 /** Faint glyph watermark in the corner of a themed card. */

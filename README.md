@@ -54,6 +54,10 @@ Static output in `app/dist`. On Vercel or Cloudflare Pages: root `app`, build `n
 
 `.github/workflows/pages.yml` builds with `BASE_PATH=/<repo>/` and deploys on every push to `main` (repository Settings > Pages > Source: GitHub Actions). The site is then at `https://<user>.github.io/<repo>/`. Optional backend settings go in repository **variables**: `VITE_SUPABASE_URL`, `VITE_SUPABASE_ANON_KEY`, `VITE_VAPID_PUBLIC_KEY`. If you use the backend, add the Pages origin (`https://<user>.github.io`) to `APP_ORIGINS` and to the Supabase auth redirect URLs.
 
+### Ondas+ in the beta
+
+"Get Lifetime" unlocks Ondas+ on the device and charges nothing, so the whole app can be tried. Build with `VITE_PAYMENTS=live` (and the Stripe setup above) to switch to real checkout.
+
 ## Installing on an iPhone
 
 Open the site in Safari, Share, Add to Home Screen. Push notifications only work for the installed app (iOS 16.4+).

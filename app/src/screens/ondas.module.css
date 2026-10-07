@@ -3,12 +3,15 @@
 .glyph{position:absolute;font-weight:600;line-height:1;font-family:var(--onda-font);pointer-events:none;white-space:nowrap}
 .chipCircle{background:var(--onda-chip);color:var(--onda-ink)}
 .solidCircle{background:var(--onda-solid);color:var(--onda-ink)}
+/* each tradition has its own mark shape (circle, squircle, hexagon, octagram, leaf ...) */
+.chipCircle.chipCircle,.solidCircle.solidCircle{border-radius:var(--onda-shape,50%);clip-path:var(--onda-clip,none)}
+.bannerName,.odName,.ondaTileName,.sBannerTitle,.gName,.rfTitle,.doneTitle,.kindName{text-transform:var(--onda-case,none)}
 
 /* ── Ondas tab ───────────────────────────────────────────── */
-.banner{position:relative;overflow:hidden;display:block;width:calc(100% - 32px);margin:18px 16px 0;border-radius:26px;padding:20px 20px 18px;text-align:start}
+.banner{position:relative;overflow:hidden;display:block;width:calc(100% - 32px);margin:18px 16px 0;border-radius:var(--onda-radius,26px);padding:20px 20px 18px;text-align:start}
 .banner:active,.guideCard:active,.ondaTile:active,.runRow:active{opacity:.85}
 .bannerKicker{display:flex;align-items:center;gap:8px;font:600 var(--fs-12) var(--font-sans);letter-spacing:.06em;text-transform:uppercase}
-.bannerName{font:600 var(--fs-30)/1.1 var(--onda-font);letter-spacing:-0.01em;margin-top:10px}
+.bannerName{font:600 var(--fs-30)/1.1 var(--onda-font);letter-spacing:var(--onda-track,-0.01em);overflow-wrap:anywhere;margin-top:10px}
 .dayBar{display:flex;gap:3px;margin-top:16px}
 .dayBar span{flex:1;height:6px;border-radius:3px;background:var(--onda-rest)}
 .dayBar .dPast{background:var(--onda-ink)}
@@ -18,7 +21,8 @@
 .dayBarStrong .dPast{background:var(--onda-strong)}
 .dayBarStrong .dNow{background:var(--onda-solid)}
 .quick{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;padding:18px 16px 0}
-.quickTile{position:relative;overflow:hidden;background:color-mix(in srgb,var(--onda-solid) 55%,var(--surface-card));border-radius:22px;padding:14px 4px;display:flex;flex-direction:column;align-items:center;gap:8px;font:600 var(--fs-13) var(--font-sans);color:var(--label)}
+.quickTile{position:relative;overflow:hidden;background:color-mix(in srgb,var(--onda-solid) 55%,var(--surface-card));border-radius:calc(var(--onda-radius,26px) * .85);padding:14px 2px;display:flex;flex-direction:column;align-items:center;gap:8px;font:600 var(--fs-13) var(--font-sans);color:var(--label);min-width:0}
+.quickTile > span:last-child{max-width:100%;overflow-wrap:anywhere;text-align:center}
 .quickTile::before{content:"";position:absolute;inset:0;background:var(--onda-fill);opacity:.45;pointer-events:none}
 .quickTile > *{position:relative}
 .quickTile:active{opacity:.75}
@@ -44,20 +48,20 @@
 .emptyCard{margin:32px 16px 0;background:var(--surface-card);border-radius:26px;padding:28px 20px;text-align:center}
 
 /* ── All Ondas ───────────────────────────────────────────── */
-.ondaTile{height:176px;border-radius:26px;padding:16px;display:flex;flex-direction:column;justify-content:space-between;text-align:start;width:100%}
+.ondaTile{height:176px;border-radius:var(--onda-radius,26px);padding:16px;display:flex;flex-direction:column;justify-content:space-between;text-align:start;width:100%}
 .ondaTileTop{display:flex;justify-content:space-between;align-items:flex-start;width:100%}
 .ondaTileIcon{width:40px;height:40px}
 .badge{font:600 var(--fs-11) var(--font-sans);letter-spacing:.05em;text-transform:uppercase;background:var(--onda-chip);padding:4px 8px;border-radius:10px}
-.ondaTileName{font:600 var(--fs-22)/1.1 var(--onda-font);letter-spacing:-0.005em;text-wrap:balance}
+.ondaTileName{font:600 var(--fs-22)/1.1 var(--onda-font);letter-spacing:var(--onda-track,-0.005em);text-wrap:balance;overflow-wrap:anywhere;hyphens:auto}
 .ondaTileOrigin{font:400 var(--fs-13) var(--font-sans);margin-top:4px}
 
 /* ── Onda today / preview ────────────────────────────────── */
 .odHead{padding:0 20px}
 .odTitleRow{display:flex;align-items:center;gap:14px}
 .odIcon{width:56px;height:56px}
-.odName{font:600 var(--fs-38)/1.05 var(--onda-font);letter-spacing:-0.01em;margin:0;min-width:0;overflow-wrap:anywhere}
+.odName{font:600 var(--fs-38)/1.05 var(--onda-font);letter-spacing:var(--onda-track,-0.01em);margin:0;min-width:0;overflow-wrap:anywhere}
 .odTheme{font:500 var(--fs-17)/1.3 var(--font-sans);color:var(--label-secondary);margin-top:12px}
-.quoteCard{position:relative;overflow:hidden;margin:24px 16px 0;border-radius:26px;padding:26px 24px 24px}
+.quoteCard{position:relative;overflow:hidden;margin:24px 16px 0;border-radius:var(--onda-radius,26px);padding:26px 24px 24px}
 .quoteMark{font:600 var(--fs-56)/0.6 var(--onda-font);margin-top:16px;opacity:.35}
 .quoteText{font:500 var(--fs-22)/1.4 var(--onda-font);margin:8px 0 0;text-wrap:balance}
 .quoteBy{display:flex;align-items:center;gap:10px;margin-top:18px;font:600 var(--fs-14) var(--font-sans)}
@@ -68,14 +72,15 @@
 .wordMeaning{font:400 var(--fs-17)/1.35 var(--font-sans);color:var(--label-secondary);margin-top:4px;text-wrap:pretty}
 .wordSay{font:400 var(--fs-13) var(--font-sans);color:var(--label-tertiary);margin-top:4px}
 .wordIcon{width:48px;height:48px}
-.guideCard{position:relative;overflow:hidden;display:block;width:calc(100% - 32px);margin:12px 16px 0;border-radius:26px;padding:18px 20px;text-align:start}
+.guideCard{position:relative;overflow:hidden;display:block;width:calc(100% - 32px);margin:12px 16px 0;border-radius:var(--onda-radius,26px);padding:18px 20px;text-align:start}
 .guideRow{display:flex;align-items:center;gap:14px}
 .guideIcon{width:44px;height:44px}
 .guideTitle{font:600 var(--fs-24)/1.1 var(--onda-font)}
 .guideSub{font:400 var(--fs-14)/1.3 var(--font-sans);margin-top:2px}
 .mediaScroll{display:flex;gap:12px;padding:0 16px;scroll-padding:0 16px}
 .mediaItem{flex:none;width:172px;text-align:start}
-.mediaTile{height:124px;border-radius:24px;padding:14px;display:flex;flex-direction:column;justify-content:space-between;position:relative;overflow:hidden}
+.mediaTile{height:124px;border-radius:var(--onda-radius,24px);padding:12px 14px 10px;display:flex;flex-direction:column;justify-content:space-between;position:relative;overflow:hidden}
+.mediaArt{width:92px;height:62px;align-self:center;margin-bottom:-2px}
 .mediaKind{font:600 var(--fs-11) var(--font-sans);letter-spacing:.08em;text-transform:uppercase}
 .mediaTitle{font:600 var(--fs-17)/1.25 var(--font-sans);margin-top:10px;letter-spacing:var(--tracking-body);color:var(--label)}
 .mediaMeta{font:400 var(--fs-13)/1.3 var(--font-sans);color:var(--label-secondary);margin-top:2px}
@@ -93,8 +98,11 @@
 /* ── Immersion ───────────────────────────────────────────── */
 .chips{display:flex;gap:8px;padding:18px 16px 4px}
 /* content-visibility skips layout and paint for rows that are off screen: cheap list virtualization */
-.imRow{display:flex;align-items:center;gap:14px;padding:8px 16px 8px 8px;background:var(--surface-card);border-radius:26px;content-visibility:auto;contain-intrinsic-size:auto 88px}
-.imThumb{width:72px;height:72px;border-radius:20px;flex:none;background:repeating-linear-gradient(45deg,var(--surface-grouped) 0 10px,var(--surface-fill) 10px 20px);display:flex;align-items:center;justify-content:center;color:var(--label-secondary)}
+.imRow{display:flex;align-items:center;gap:6px;padding:8px 8px 8px 8px;background:var(--surface-card);border-radius:26px;content-visibility:auto;contain-intrinsic-size:auto 88px}
+.imOpen{flex:1;min-width:0;display:flex;align-items:center;gap:14px;text-align:start;border-radius:18px}
+.imOpen:active{opacity:.7}
+.imThumb{width:72px;height:72px;border-radius:20px;flex:none;background:color-mix(in srgb,var(--onda-solid) 75%,var(--surface-card));display:flex;align-items:center;justify-content:center}
+.imThumb svg{width:62px;height:42px}
 .imTitle{font:600 var(--fs-17)/1.25 var(--font-sans)}
 .imWhy{font:400 var(--fs-13)/1.35 var(--font-sans);color:var(--label-tertiary);margin-top:2px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .imCheck{width:44px;height:44px;flex:none;display:flex;align-items:center;justify-content:center;margin-right:-6px}
@@ -126,8 +134,8 @@ button.softCard{width:100%;text-align:start;display:block}
 .ideaText{font:400 var(--fs-15)/1.45 var(--font-sans);color:var(--label-secondary);margin-top:4px;text-wrap:pretty}
 .jeKicker{font:600 var(--fs-13) var(--font-sans);letter-spacing:.04em;text-transform:uppercase;color:var(--label-secondary)}
 .jePrompt{font:600 var(--fs-26)/1.2 var(--onda-font);letter-spacing:-0.01em;margin:8px 0 0;text-wrap:pretty}
-.gBanner{position:relative;overflow:hidden;margin:0 16px 16px;border-radius:26px;padding:22px 20px}
-.gName{font:600 var(--fs-36)/1.05 var(--onda-font);letter-spacing:-0.01em;margin:8px 0 0}
+.gBanner{position:relative;overflow:hidden;margin:0 16px 16px;border-radius:var(--onda-radius,26px);padding:22px 20px}
+.gName{font:600 var(--fs-36)/1.05 var(--onda-font);letter-spacing:var(--onda-track,-0.01em);margin:8px 0 0;overflow-wrap:anywhere}
 .gItemTitle{font:600 var(--fs-19)/1.2 var(--onda-font)}
 .gItemSub{font:400 var(--fs-15)/1.4 var(--font-sans);color:var(--label-secondary);margin-top:3px;text-wrap:pretty}
 .gDetail{font:400 var(--fs-15)/1.45 var(--font-sans);white-space:pre-line;margin-top:12px;padding-top:12px;border-top:1px solid var(--separator);text-wrap:pretty}
@@ -168,10 +176,24 @@ button.softCard{width:100%;text-align:start;display:block}
 .taskOn .taskTime{opacity:.55}
 
 /* ── Themed sheet banners and journal prompt card ────────── */
-.sBanner{position:relative;overflow:hidden;display:flex;align-items:center;gap:14px;border-radius:26px;padding:18px 20px;min-height:84px}
+.sBanner{position:relative;overflow:hidden;display:flex;align-items:center;gap:14px;border-radius:var(--onda-radius,26px);padding:18px 20px;min-height:84px}
 .sBannerIcon{width:48px;height:48px;border-radius:50%;flex:none;display:flex;align-items:center;justify-content:center}
 .sBannerText{display:flex;flex-direction:column;min-width:0;gap:2px}
 .sBannerKicker{font:600 var(--fs-11) var(--font-sans);letter-spacing:.08em;text-transform:uppercase;opacity:.75}
-.sBannerTitle{font:600 var(--fs-28)/1.1 var(--onda-font);letter-spacing:-0.01em}
+.sBannerTitle{font:600 var(--fs-28)/1.1 var(--onda-font);letter-spacing:var(--onda-track,-0.01em);overflow-wrap:anywhere}
 .sBannerSub{font:400 var(--fs-14)/1.3 var(--font-sans);text-wrap:pretty;opacity:.85}
-.jeCard{position:relative;overflow:hidden;border-radius:26px;padding:20px}
+.jeCard{position:relative;overflow:hidden;border-radius:var(--onda-radius,26px);padding:20px}
+
+/* ── Immersion: one tile per kind, two per row ───────────── */
+.kindGrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;padding:18px 16px 0}
+.kindTile{position:relative;overflow:hidden;display:flex;flex-direction:column;gap:4px;padding:10px 10px 24px;border-radius:var(--onda-radius,26px);background:color-mix(in srgb,var(--onda-solid) 50%,var(--surface-card));text-align:start}
+.kindTile::before{content:"";position:absolute;inset:0;background:var(--onda-fill);opacity:.38;pointer-events:none}
+.kindTile > *{position:relative}
+.kindTile:active{opacity:.8}
+.kindArt{display:flex;align-items:center;justify-content:center;height:92px;border-radius:calc(var(--onda-radius,26px) * .65);background:var(--onda-chip)}
+.kindArt svg{width:116px;height:78px}
+.kindName{font:600 var(--fs-20)/1.15 var(--onda-font);letter-spacing:var(--onda-track,0);margin:8px 4px 0}
+.kindCount{display:flex;align-items:center;gap:8px;margin:0 4px;font:400 var(--fs-13) var(--font-sans);color:var(--label-secondary)}
+.kindDots{display:inline-flex;gap:3px}
+.kindDots i{width:6px;height:6px;border-radius:50%;background:var(--label-quaternary)}
+.kindDots i[data-on]{background:var(--onda-strong)}

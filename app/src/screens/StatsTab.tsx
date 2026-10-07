@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { ACHIEVEMENTS } from '@/data/derive/achievements'
 import { runDay } from '@/data/derive/onda'
@@ -9,12 +9,50 @@ import { MONTHS, dateOf, fmtShortDate, fromDateStr, monthGrid } from '@/lib/date
 import { Screen } from '@/nav/Screen'
 import { useNav } from '@/nav/store'
 import { GlassButton } from '@/ui/buttons'
-import { ProgressRing } from '@/ui/data'
 import { SegmentedControl } from '@/ui/controls'
 import { Icon } from '@/ui/Icon'
 import { SectionToggle } from '@/ui/lists'
 import m from './more.module.css'
 import s from './screens.module.css'
+
+/** Consistency as a barometer: a half dial with a knob, the score in the middle and the tier beneath. Nothing else. */
+function Barometer({ score, tier, delta }: { score: number; tier: 'finding' | 'building' | 'steady' | 'lockedIn'; delta: number | null }) {
+  const { t } = useTranslation()
+  const [shown, setShown] = useState(0)
+  useEffect(() => {
+    const id = requestAnimationFrame(() => setShown(score))
+    return () => cancelAnimationFrame(id)
+  }, [score])
+  const tierLabel = t(`stats.tier${tier[0]!.toUpperCase()}${tier.slice(1)}`)
+  const pct = Math.round(score * 100)
+  const tick = (v: number) => {
+    const th = Math.PI * (1 - v)
+    const p = (r: number) => `${(110 + r * Math.cos(th)).toFixed(1)} ${(110 - r * Math.sin(th)).toFixed(1)}`
+    return `M${p(70)}L${p(77)}`
+  }
+  return (
+    <div className={m.baroCard} role="img" aria-label={t('stats.consistencyAria', { pct, tier: tierLabel })}>
+      <h2 className={s.h20}>{t('stats.consistency')}</h2>
+      <div className={m.baro}>
+        <svg viewBox="0 0 220 124" aria-hidden focusable="false">
+          <path d="M22 110A88 88 0 0 1 198 110" className={m.baroTrack} pathLength={1} />
+          <path d="M22 110A88 88 0 0 1 198 110" className={m.baroFill} pathLength={1} strokeDasharray={`${Math.max(shown, 0.002)} 1`} />
+          <path d={`${tick(0.4)}${tick(0.7)}${tick(0.9)}`} className={m.baroTicks} />
+          <g className={m.baroKnob} style={{ transform: `rotate(${shown * 180}deg)` }}>
+            <circle cx="22" cy="110" r="9" />
+          </g>
+        </svg>
+        <div className={m.baroRead}>
+          <div className={m.baroPct}>{pct}<small>%</small></div>
+          <div className={m.baroTier}>{tierLabel}</div>
+        </div>
+      </div>
+      <div className={m.baroTrend}>
+        {delta === null ? t('stats.consistencyNew') : delta === 0 ? t('stats.consistencyTrendFlat') : t(delta > 0 ? 'stats.consistencyTrendUp' : 'stats.consistencyTrendDown', { count: Math.abs(delta) })}
+      </div>
+    </div>
+  )
+}
 
 export const VIZ = ['var(--viz-blue)', 'var(--viz-yellow)', 'var(--viz-green)', 'var(--viz-coral)', 'var(--viz-purple)']
 
@@ -58,51 +96,27 @@ export default function StatsTab() {
         <h1 className={s.largeTitle}>{t('stats.title')}</h1>
         <GlassButton icon="gear-six" ariaLabel={t('a11y.settings')} onClick={() => push({ name: 'settings' })} />
       </div>
-      <div style={{ padding: '18px 16px 0' }}>
-        <SegmentedControl<Range> options={[{ value: 'week', label: t('stats.week') }, { value: 'month', label: t('stats.month') }, { value: 'all', label: t('stats.all') }]} value={range} onChange={setRange} fullWidth ariaLabel={t('stats.title')} />
-      </div>
-      <div className={m.sumGrid}>
-        {[
-          [String(sum.checkIns), t('stats.checkIns')],
-          [String(sum.streak), range === 'all' ? t('stats.bestStreak') : t('stats.dayStreak')],
-          [`${Math.round(sum.completion * 100)}%`, t('stats.completion')],
-        ].map(([v, l]) => (
-          <div key={l} className={m.sumCard}>
-            <div className={m.sumV}>{v}</div>
-            <div className={m.sumL}>{l}</div>
-          </div>
-        ))}
-      </div>
-
-      <div className={m.consCard} role="group" aria-label={t('stats.consistency')}>
-        <div className={m.consTop}>
-          <div role="img" aria-label={t('stats.consistencyAria', { pct: Math.round(cons.score * 100), tier: t(`stats.tier${cons.tier[0]!.toUpperCase()}${cons.tier.slice(1)}`) })}>
-            <ProgressRing value={cons.score} size={96} stroke={10} color="var(--accent)" track="var(--viz-track)">
-              <span className={m.consPct}>{Math.round(cons.score * 100)}<small>%</small></span>
-            </ProgressRing>
-          </div>
-          <div className={m.consText}>
-            <h2 className={s.h20}>{t('stats.consistency')}</h2>
-            <div className={m.consTier}>{t(`stats.tier${cons.tier[0]!.toUpperCase()}${cons.tier.slice(1)}`)}</div>
-            <div className={m.consTrend}>
-              {cons.delta === null ? t('stats.consistencyNew') : cons.delta === 0 ? t('stats.consistencyTrendFlat') : t(cons.delta > 0 ? 'stats.consistencyTrendUp' : 'stats.consistencyTrendDown', { count: Math.abs(cons.delta) })}
-            </div>
-          </div>
-        </div>
-        <div className={m.consDays} aria-hidden>
-          {cons.days.map((r, i) => (
-            <span key={i} className={m.consDay} data-empty={r === null || undefined}>
-              <span className={m.consFill} style={{ height: r === null ? 4 : Math.max(6, Math.round(r * 34)), opacity: r === null ? 0.5 : 0.35 + 0.65 * r }} />
-            </span>
-          ))}
-        </div>
-        <div className={m.consCaption}>{t('stats.last14')} · {t('stats.consistencyNote')}</div>
-      </div>
+      <Barometer score={cons.score} tier={cons.tier} delta={cons.delta} />
 
       <SectionToggle title={t('stats.activity')} meta={t(`stats.${range}`)} open={!closed.act} onToggle={toggle('act')} />
       {!closed.act && (
         <>
-          <div className={m.note}>{t(`stats.note${range[0]!.toUpperCase()}${range.slice(1)}`)}</div>
+          <div style={{ padding: '0 16px' }}>
+            <SegmentedControl<Range> options={[{ value: 'week', label: t('stats.week') }, { value: 'month', label: t('stats.month') }, { value: 'all', label: t('stats.all') }]} value={range} onChange={setRange} fullWidth ariaLabel={t('stats.activity')} />
+          </div>
+          <div className={m.sumGrid} style={{ paddingTop: 14 }}>
+            {[
+              [String(sum.checkIns), t('stats.checkIns')],
+              [String(sum.streak), range === 'all' ? t('stats.bestStreak') : t('stats.dayStreak')],
+              [`${Math.round(sum.completion * 100)}%`, t('stats.completion')],
+            ].map(([v, l]) => (
+              <div key={l} className={m.sumCard}>
+                <div className={m.sumV}>{v}</div>
+                <div className={m.sumL}>{l}</div>
+              </div>
+            ))}
+          </div>
+          <div className={m.note} style={{ paddingTop: 14 }}>{t(`stats.note${range[0]!.toUpperCase()}${range.slice(1)}`)}</div>
           <div className={m.chart}>
             <div className={m.bars} key={range} role="img" aria-label={bars.map((b) => t('stats.barLabel', { label: b.label, count: b.value })).join(', ')}>
               {bars.map((b, i) => (

@@ -38,6 +38,7 @@ export const en = {
     subFree: '7 days free, then lifetime access for just € 14,99', subTrial: 'Lifetime access for just € 14,99', subLife: 'You have lifetime access',
     subTrialLeft_one: '{{count}} day left in your trial. Lifetime access for just € 14,99', subTrialLeft_other: '{{count}} days left in your trial. Lifetime access for just € 14,99',
     subExpired: 'Your trial has ended. Lifetime access for just € 14,99',
+    betaNote: 'Beta: Ondas+ is a placeholder. Nothing is charged and Lifetime unlocks right away.', lifetimeUnlocked: 'Lifetime unlocked (beta)',
     restore: 'Restore', terms: 'Terms and conditions', privacy: 'Privacy policy',
     restored: 'Purchase restored', nothingToRestore: 'No purchase found for this account', signInFirst: 'Sign in to buy or restore', checkoutUnavailable: 'Checkout is not available offline',
     trialStarted: 'Trial started', thanks: 'Lifetime access unlocked',
@@ -47,7 +48,7 @@ export const en = {
   lagos: {
     title: 'Lagos', newLago: 'New Lago', gallery: 'Gallery', today: 'Today', checkedInOf: '{{done}} of {{total}} checked in',
     toCheckIn: 'To Check In', checkedIn: 'Checked In', notToday: 'Not Today', finished: 'Finished', dayMeta: 'Day {{day}} · {{freq}}', finishedMeta: '{{count}} days · Finished', endedMeta: 'Ended on day {{day}}',
-    empty: 'No Lagos yet', emptySub: 'Tap + to start one',
+    empty: 'No Lagos yet', emptySub: 'Tap + to start one', tipTitle: 'Quick tip', tipText: 'Not sure where to start? Browse the gallery for ready-made Lagos.',
     menu: { checkIn: 'Check In', undo: 'Undo', edit: 'Edit', end: 'End', restart: 'Restart', extend: 'Extend', share: 'Share', duplicate: 'Duplicate', delete: 'Delete' },
     extended: 'Extended by 7 days', ended: 'Lago ended', restarted: 'Restarted from day 1', duplicated: 'Lago duplicated', deleted: 'Lago deleted', undo: 'Undo',
     shareText: '{{name}}: day {{day}} of {{length}}, {{streak}} day streak. Tracked with Onda.',
@@ -62,9 +63,9 @@ export const en = {
     reminderFooter: 'When enabled, a reminder arrives at the chosen time.', defaultName: 'New Lago', iconNamed: 'Icon {{n}}',
   },
   gallery: {
-    title: 'Gallery', topLagos: 'Top Lagos', topSub: 'Most started by the community', featured: 'Featured', startNow: 'Start Now', kicker: '{{count}} Day Lago',
-    catSub: '{{count}} Lagos to experiment with', allCategories: 'All Categories', defaultDesc: 'Try it for {{count}} days and see what changes.',
-    participants: '{{count}} Participants', endsOn: 'Lago ends on {{date}} if you start today.', disclaimer: 'This is not professional advice. Please consult an expert if you are unsure.', startLago: 'Start Lago', started: 'Lago started',
+    title: 'Gallery', seeMore: 'See more', featured: 'Featured', startNow: 'Start Now', kicker: '{{count}} Day Lago',
+    catSub: '{{count}} Lagos to experiment with', defaultDesc: 'Try it for {{count}} days and see what changes.',
+    endsOn: 'Lago ends on {{date}} if you start today.', disclaimer: 'This is not professional advice. Please consult an expert if you are unsure.', startLago: 'Start Lago', started: 'Lago started',
   },
 
   ondas: {
@@ -83,19 +84,28 @@ export const en = {
   },
   kinds: { all: 'All', read: 'Books', watch: 'Watch', listen: 'Listen', art: 'Art', eat: 'Food', drink: 'Drinks', customs: 'Customs', words: 'Language' },
   kindLabel: { read: 'Read', watch: 'Watch', listen: 'Listen', art: 'Art', eat: 'Eat', drink: 'Drink', customs: 'Customs', words: 'Words' },
-  immersion: { title: 'Immersion', experienced: '{{done}} of {{total}} experienced', footer: 'Mark an item when you have experienced it.', empty: 'Nothing here yet' },
+  immersion: {
+    title: 'Immersion', experienced: '{{done}} of {{total}} experienced', footer: 'Tap an item to read about it. Tick it when you have experienced it.', empty: 'Nothing here yet',
+    kindCount: '{{done}} of {{total}}', about: 'About {{name}}', markExperienced: 'Mark as experienced', experiencedBtn: 'Experienced', learnMore: 'Learn more', noNote: 'No note for this one yet.',
+  },
   journal: {
     count_one: '{{count}} entry', count_other: '{{count}} entries',
     title: 'Journal', newEntry: 'New Entry', dayLabel: 'Day {{day}} · {{name}}', placeholder: 'Write freely', practicedToday: 'Practiced today', empty: 'No entries yet', emptySub: 'One short entry a day is enough',
     saved: 'Entry saved',
   },
-  philosophy: { title: 'Philosophy', lead: 'Ideas to carry through the day, and how to act on them.', think: 'Think about', ethics: 'Ethics and morality', tryIt: 'Try' },
+  philosophy: {
+    title: 'Philosophy', lead: 'Ideas to carry through the day, and how to act on them.', think: 'Think about', ethics: 'Ethics and morality', tryIt: 'Try', tryThis: 'Try this today', onList: 'On your list for today', all: 'All',
+    pickedCount_one: '{{count}} thing to try today', pickedCount_other: '{{count}} things to try today',
+  },
   guide: {
     tabs: { overview: 'Overview', history: 'History', ideas: 'Ideas', ways: 'Ways', culture: 'Culture', language: 'Language', facts: 'Facts' },
     leadHistory: 'How it unfolded', leadIdeas: 'What it asks you to think about', leadWays: 'How to behave, and what to keep', leadCulture: 'Books, films, music, art, food and drink',
     leadLanguage: 'Words to carry through the days', leadFacts: 'Small things worth knowing',
     introduction: 'Introduction', origin: 'Origin', era: 'Era', rule: 'Rule', practice: 'Practice', didYouKnow: 'Did you know', framing: 'A note on respect', learnFrom: 'Learn from', furtherReading: 'Further reading', sources: 'Sources',
     unverified: 'Not yet verified', empty: 'Nothing added yet',
+    concepts: 'Concepts', practices: 'Practices', rules: 'Rules', customs: 'Customs', words: 'Words', glossary: 'Glossary', figures: 'Key figures',
+    readMore: 'Read more', showLess: 'Show less', expandAll: 'Expand all', collapseAll: 'Collapse all', nOf: '{{n}} of {{total}}', openLink: 'Open link',
+    count_one: '{{count}} item', count_other: '{{count}} items',
   },
   reflection: {
     title: 'Reflection', daysOf: '{{count}} days of {{name}}', lookBack: 'Look back before you move on.', checkIns: 'Check Ins', practices: 'Practices', journal: 'Journal',

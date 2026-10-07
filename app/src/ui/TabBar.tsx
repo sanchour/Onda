@@ -39,7 +39,7 @@ export function TabBar<K extends string>({ items, activeKey, onChange, style }: 
           }}
         >
           <span className={s.tabIcon}>
-            <Icon name={it.icon} weight={it.weight ?? 'bold'} size={26} />
+            <Icon name={it.icon} weight={it.weight ?? 'bold'} size={32} />
           </span>
         </button>
       ))}

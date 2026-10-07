@@ -2,7 +2,7 @@
 
 ## Status: what is verified and what is not
 
-Verified in this repo: typecheck, 126 unit tests, 18 Playwright flows (WebKit at iPhone 15 Pro size; the offline flow on Chromium), a production build with its service worker, and a Deno typecheck of every Edge Function.
+Verified in this repo: typecheck, 139 unit tests, 20 Playwright flows (WebKit at iPhone 15 Pro size; the offline flow on Chromium), a production build with its service worker, and a Deno typecheck of every Edge Function.
 
 **Not verified, because it needs accounts, devices or secrets that were not available:** the Supabase migrations and merge RPC against a real database; Notion OAuth and sync against real Notion; Stripe checkout and webhook; Web Push delivery; Sign in with Apple; the Shortcut (it must be built on an iPhone and signed by Apple, see `docs/SHORTCUT.md`); Lighthouse scores; install, haptics and swipe feel on a real iPhone in standalone mode. The code for each is written to the documented APIs but has never run against the live service. Treat the "done when" list as open until those are exercised.
 
@@ -20,9 +20,11 @@ Verified in this repo: typecheck, 126 unit tests, 18 Playwright flows (WebKit at
 - **Calendar:** private per-user ICS feed with floating local times, a `webcal://` link, and a one-time `.ics` built on the device for offline or account-less use. Rotating the token revokes the old URL.
 - **Reminders:** a Shortcut plus a JSON feed (GET today, POST completions back). Labelled "Via Shortcuts".
 - **Notion:** one-way, app to Notion. Tokens are AES-GCM encrypted server-side. A trigger queues changed records with a 60 second debounce; a per-minute cron drains the queue under 3 requests per second with retry and backoff; failures stay queued and are reported on the connection. Pull from Notion is not implemented (stretch goal).
-- **Gallery participant counts** are seed numbers, not real usage.
+- **Gallery** is a plain catalogue of ready-made Lagos. The "Top Lagos" ranking and participant counts were removed in 1.2: they were seed numbers, not real usage, and a ranking implies data that does not exist.
 
 ## Ondas+ and the App Store
+
+**Beta placeholder (1.2).** Until real payments are switched on, "Get Lifetime" in the app unlocks Ondas+ on the device and nothing is charged (`BETA_PAYMENTS` in `app/src/sync/entitlement.ts`). The paywall says so. A server that has no purchase on record never takes a beta unlock back. Building with `VITE_PAYMENTS=live` restores the real Stripe Checkout flow, which needs a signed-in account. Because the unlock is a local flag, it is not a security boundary: do not ship a public build without `VITE_PAYMENTS=live`.
 
 Trial and purchase are an **app-level entitlement**: the server sets `trial_started_at` once per account (a reinstall cannot restart it) and Stripe's webhook is the only thing that sets `lifetime`. StoreKit is not available to PWAs. If Onda is ever wrapped natively and distributed through the App Store, Apple requires In-App Purchase to unlock digital features, so the Stripe path would have to be replaced by StoreKit (or removed) in that build, and Restore would need to read StoreKit entitlements. A PWA sold through Stripe from the web sits outside App Store review.
 

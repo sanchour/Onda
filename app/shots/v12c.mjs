@@ -1,0 +1,16 @@
+import { webkit, devices } from '@playwright/test'
+const browser = await webkit.launch()
+const ctx = await browser.newContext({ ...devices['iPhone 15 Pro'] })
+const page = await ctx.newPage()
+const wait = (ms = 800) => page.waitForTimeout(ms)
+await page.goto('http://localhost:5173/?seed=demo')
+await page.getByText('Onda · Day 4 of 14').waitFor({ timeout: 90000 })
+const dismiss = page.getByRole('button', { name: 'Dismiss' })
+if (await dismiss.isVisible().catch(() => false)) await dismiss.click()
+await page.getByRole('button', { name: 'Browse Ondas' }).click(); await wait(1200)
+
+await page.evaluate(() => { for (const el of document.querySelectorAll('*')) if (el.scrollHeight > el.clientHeight + 200 && getComputedStyle(el).overflowY !== 'visible') el.scrollTop = 900 }); await wait(700)
+await page.screenshot({ path: 'shots/v12c-tiles-mid.png' })
+await page.evaluate(() => { for (const el of document.querySelectorAll('*')) if (el.scrollHeight > el.clientHeight + 200 && getComputedStyle(el).overflowY !== 'visible') el.scrollTop = 99999 }); await wait(700)
+await page.screenshot({ path: 'shots/v12c-tiles-bottom.png' })
+await browser.close()

@@ -1,5 +1,4 @@
-/* Lago gallery catalog (from the prototype). Participant counts are illustrative seed numbers for the
-   community ranking until a real aggregate exists; see DECISIONS.md. */
+/* Lago gallery catalog (from the prototype): ready-made Lagos to start from. */
 
 export interface GalleryLago {
   name: string
@@ -7,35 +6,35 @@ export interface GalleryLago {
   length: number
   cat: string
   desc: string
-  count?: number
 }
 
-const top = (name: string, icon: string, length: number, count: number, cat: string, desc: string): GalleryLago => ({ name, icon, length, count, cat, desc })
+const known = (name: string, icon: string, length: number, cat: string, desc: string): GalleryLago => ({ name, icon, length, cat, desc })
 
-export const TOP_LAGOS: GalleryLago[] = [
-  top('Walk 10,000 steps', 'person-simple-walk', 30, 3490, 'Health', 'Improve cardiovascular health and overall fitness.'),
-  top('No phone before bed', 'bed', 30, 2312, 'Sleep', 'Sleep deeper and wake up clearer.'),
-  top('Meditate 5 mins', 'flower-lotus', 7, 2175, 'Mind', 'Five quiet minutes to start each day.'),
-  top('Wake up early', 'alarm', 21, 2107, 'Routine', 'Win the morning before the world wakes up.'),
-  top('Take cold showers', 'shower', 30, 1428, 'Health', 'Build resilience and start the day alert.'),
-  top('75 Hard Challenge', 'spade', 75, 1301, 'Challenge', 'A seventy-five day test of discipline.'),
-  top('Track all spending', 'chart-bar', 7, 1281, 'Money', 'See where every coin goes for a week.'),
-  top('The Great Lock In', 'lock', 121, 1188, 'Challenge', 'Four months of focused, deliberate effort.'),
-  top('Delete social media', 'device-mobile', 7, 1086, 'Focus', 'Take back attention and time.'),
-  top('Get morning sun', 'sun', 30, 659, 'Health', 'Ten minutes of daylight within an hour of waking.'),
-  top('Take a photo', 'camera', 30, 606, 'Creativity', 'One photo a day, noticed on purpose.'),
-  top('Build an app', 'hammer', 7, 407, 'Creativity', 'Ship something small in a single week.'),
+/** Lagos with a written description; the categories below reuse them. */
+const KNOWN: GalleryLago[] = [
+  known('Walk 10,000 steps', 'person-simple-walk', 30, 'Health', 'Improve cardiovascular health and overall fitness.'),
+  known('No phone before bed', 'bed', 30, 'Sleep', 'Sleep deeper and wake up clearer.'),
+  known('Meditate 5 mins', 'flower-lotus', 7, 'Mind', 'Five quiet minutes to start each day.'),
+  known('Wake up early', 'alarm', 21, 'Routine', 'Win the morning before the world wakes up.'),
+  known('Take cold showers', 'shower', 30, 'Health', 'Build resilience and start the day alert.'),
+  known('75 Hard Challenge', 'spade', 75, 'Challenge', 'A seventy-five day test of discipline.'),
+  known('Track all spending', 'chart-bar', 7, 'Money', 'See where every coin goes for a week.'),
+  known('The Great Lock In', 'lock', 121, 'Challenge', 'Four months of focused, deliberate effort.'),
+  known('Delete social media', 'device-mobile', 7, 'Focus', 'Take back attention and time.'),
+  known('Get morning sun', 'sun', 30, 'Health', 'Ten minutes of daylight within an hour of waking.'),
+  known('Take a photo', 'camera', 30, 'Creativity', 'One photo a day, noticed on purpose.'),
+  known('Build an app', 'hammer', 7, 'Creativity', 'Ship something small in a single week.'),
 ]
 
 export const FEATURED: GalleryLago[] = [
-  { name: 'Walk 10,000 steps', icon: 'person-simple-walk', desc: 'Improve cardiovascular health and overall fitness.', length: 30, cat: 'Featured', count: 3490 },
+  { name: 'Walk 10,000 steps', icon: 'person-simple-walk', desc: 'Improve cardiovascular health and overall fitness.', length: 30, cat: 'Featured' },
   { name: 'Meditate daily', icon: 'flower-lotus', desc: 'Ten quiet minutes every morning.', length: 7, cat: 'Featured' },
 ]
 
 const C = (rows: [string, string, number][], cat: string): GalleryLago[] =>
   rows.map(([name, icon, length]) => {
-    const known = TOP_LAGOS.find((t) => t.name === name)
-    return { name, icon, length, cat, desc: known?.desc ?? '', count: known?.count }
+    const hit = KNOWN.find((t) => t.name === name)
+    return { name, icon, length, cat, desc: hit?.desc ?? '' }
   })
 
 export const CATEGORIES: Record<string, GalleryLago[]> = {
@@ -45,7 +44,6 @@ export const CATEGORIES: Record<string, GalleryLago[]> = {
   Health: C([['Walk 10,000 steps', 'person-simple-walk', 30], ['Take cold showers', 'shower', 30], ['Get morning sun', 'sun', 30], ['Quit sugar', 'cookie', 30], ['Quit caffeine', 'coffee', 21], ['Eat last meal early', 'fork-knife', 7], ['Wake up early', 'alarm', 21], ['Stretch daily', 'person-simple-tai-chi', 14]], 'Health'),
 }
 export const CATEGORY_NAMES = Object.keys(CATEGORIES)
-export const TOP_CATEGORIES = [...new Set(TOP_LAGOS.map((t) => t.cat))]
 
 export const LAGO_ICONS = ['drop', 'person-simple-walk', 'bed', 'shower', 'flower-lotus', 'book-open', 'device-mobile', 'barbell', 'pen-nib', 'leaf', 'coffee', 'moon']
 

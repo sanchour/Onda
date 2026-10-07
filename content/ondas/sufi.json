@@ -1,56 +1,309 @@
 {
-  "version": 1,
+  "version": 2,
   "id": "sufi",
   "name": "Sufism",
   "origin": "Persia & Anatolia",
+  "era": "8th century to today",
   "tone": "coral",
   "icon": "spiral",
-  "line": "Seek the divine through love, music and remembrance.",
-  "era": "8th c. CE to today",
   "font": "Amiri",
   "pattern": "eight-point-star",
   "glyph": "عشق",
+  "line": "Seek the divine through love, music and remembrance.",
   "quote": {
-    "text": "The wound is the place where the Light enters you.",
+    "text": "Listen to the reed how it tells a tale, complaining of separations.",
     "by": "Rumi",
-    "source": ""
+    "source": "Masnavi, Book 1, line 1, trans. R. A. Nicholson"
   },
-  "quotes": [],
+  "quotes": [
+    {
+      "text": "Truly, in the remembrance of God hearts find rest.",
+      "by": "Qur’an",
+      "source": "13:28"
+    },
+    {
+      "text": "My heart has become capable of every form. I follow the religion of Love: whatever way Love’s camels take, that is my religion and my faith.",
+      "by": "Ibn ʿArabī",
+      "source": "Tarjumān al-Ashwāq, trans. R. A. Nicholson"
+    },
+    {
+      "text": "The children of Adam are limbs of one body, created from one essence.",
+      "by": "Saʿdī",
+      "source": "Gulistān, 1258"
+    },
+    {
+      "text": "O God, if I worship You for fear of Hell, burn me in Hell; if I worship You in hope of Paradise, exclude me from it; but if I worship You for Your own sake, do not withhold Your everlasting beauty.",
+      "by": "Rābiʿa al-ʿAdawiyya",
+      "source": "As recorded by ʿAṭṭār, trans. A. J. Arberry"
+    },
+    {
+      "text": "Let us love and be loved. The world belongs to no one.",
+      "by": "Yunus Emre",
+      "source": "13th century"
+    },
+    {
+      "text": "The wound is the place where the Light enters you.",
+      "by": "Rumi",
+      "source": "A free version by Coleman Barks, The Essential Rumi, 1995",
+      "unverified": true
+    }
+  ],
   "words": [
+    {
+      "id": "word-tasawwuf",
+      "term": "Taṣawwuf",
+      "meaning": "Sufism; the inner path of Islam",
+      "pronunciation": "tah-SOW-woof",
+      "language": "Arabic",
+      "usage": "What Sufis call their own way."
+    },
     {
       "id": "word-dhikr",
       "term": "Dhikr",
-      "meaning": "Remembrance of the Divine"
+      "meaning": "Remembrance of God",
+      "pronunciation": "thikr (zikr in Persian and Turkish)",
+      "language": "Arabic",
+      "usage": "Repeating divine names or phrases, aloud or in the heart."
     },
     {
       "id": "word-sama",
-      "term": "Sama",
-      "meaning": "Sacred listening"
-    },
-    {
-      "id": "word-fana",
-      "term": "Fana",
-      "meaning": "Dissolving of the self"
+      "term": "Samāʿ",
+      "meaning": "Listening; sacred audition",
+      "pronunciation": "sah-MAH",
+      "language": "Arabic",
+      "usage": "Music and poetry heard as a way of remembering. Turkish: sema."
     },
     {
       "id": "word-ishq",
-      "term": "Ishq",
-      "meaning": "Divine love"
+      "term": "ʿIshq",
+      "meaning": "Passionate love",
+      "pronunciation": "ishk",
+      "language": "Arabic, Persian",
+      "usage": "The love that burns away everything but the Beloved."
     },
     {
-      "id": "word-baraka",
-      "term": "Baraka",
-      "meaning": "Blessing"
+      "id": "word-mahabba",
+      "term": "Maḥabba",
+      "meaning": "Love",
+      "pronunciation": "mah-HAB-bah",
+      "language": "Arabic",
+      "usage": "The steadier word for the love between God and the servant."
+    },
+    {
+      "id": "word-fana",
+      "term": "Fanāʾ",
+      "meaning": "Passing away of the self",
+      "pronunciation": "fah-NAH",
+      "language": "Arabic",
+      "usage": "The ego’s claim dissolves in awareness of God."
+    },
+    {
+      "id": "word-baqa",
+      "term": "Baqāʾ",
+      "meaning": "Abiding",
+      "pronunciation": "bah-KAH",
+      "language": "Arabic",
+      "usage": "What follows fanāʾ: returning to the world, living through God."
+    },
+    {
+      "id": "word-tawhid",
+      "term": "Tawḥīd",
+      "meaning": "Oneness",
+      "pronunciation": "tow-HEED",
+      "language": "Arabic",
+      "usage": "The declaration that God is one. Sufis seek to taste it, not only to affirm it."
+    },
+    {
+      "id": "word-qalb",
+      "term": "Qalb",
+      "meaning": "The heart",
+      "pronunciation": "kalb",
+      "language": "Arabic",
+      "usage": "The organ of spiritual perception, to be polished like a mirror."
+    },
+    {
+      "id": "word-nafs",
+      "term": "Nafs",
+      "meaning": "The self; the ego",
+      "pronunciation": "nafs",
+      "language": "Arabic",
+      "usage": "It has stages: commanding, self-blaming, at peace."
+    },
+    {
+      "id": "word-ruh",
+      "term": "Rūḥ",
+      "meaning": "The spirit",
+      "pronunciation": "rooh",
+      "language": "Arabic",
+      "usage": "The breath of God in the human being."
     },
     {
       "id": "word-tariqa",
-      "term": "Tariqa",
-      "meaning": "A Sufi path or order"
+      "term": "Ṭarīqa",
+      "meaning": "A path; a Sufi order",
+      "pronunciation": "tah-REE-kah",
+      "language": "Arabic",
+      "usage": "Mevlevi, Qādirī, Chishtī, Naqshbandī and many more."
+    },
+    {
+      "id": "word-shari-a",
+      "term": "Sharīʿa",
+      "meaning": "The revealed law; the broad road",
+      "pronunciation": "shah-REE-ah",
+      "language": "Arabic",
+      "usage": "For classical Sufis the path stands on it, as a circle’s radius stands on its rim."
+    },
+    {
+      "id": "word-haqiqa",
+      "term": "Ḥaqīqa",
+      "meaning": "Reality; truth",
+      "pronunciation": "hah-KEE-kah",
+      "language": "Arabic",
+      "usage": "What the path leads to."
+    },
+    {
+      "id": "word-ma-rifa",
+      "term": "Maʿrifa",
+      "meaning": "Direct knowledge; gnosis",
+      "pronunciation": "MAH-ree-fah",
+      "language": "Arabic",
+      "usage": "Knowing by tasting, as opposed to knowing about."
     },
     {
       "id": "word-murshid",
       "term": "Murshid",
-      "meaning": "Spiritual guide"
+      "meaning": "A spiritual guide",
+      "pronunciation": "MOOR-shid",
+      "language": "Arabic",
+      "usage": "Also shaykh, or pīr in Persian. The path is travelled with one."
+    },
+    {
+      "id": "word-murid",
+      "term": "Murīd",
+      "meaning": "A disciple; one who wants",
+      "pronunciation": "moo-REED",
+      "language": "Arabic",
+      "usage": "The seeker who has given allegiance to a guide."
+    },
+    {
+      "id": "word-darwish",
+      "term": "Darwīsh",
+      "meaning": "A dervish; a poor one",
+      "pronunciation": "dar-VEESH",
+      "language": "Persian",
+      "usage": "Arabic: faqīr. One who knows their need of God."
+    },
+    {
+      "id": "word-baraka",
+      "term": "Baraka",
+      "meaning": "Blessing; grace",
+      "pronunciation": "BAH-rah-kah",
+      "language": "Arabic",
+      "usage": "A blessing that flows through holy people and places."
+    },
+    {
+      "id": "word-adab",
+      "term": "Adab",
+      "meaning": "Courtesy; right conduct",
+      "pronunciation": "AH-dab",
+      "language": "Arabic",
+      "usage": "A saying: all of Sufism is adab."
+    },
+    {
+      "id": "word-tawba",
+      "term": "Tawba",
+      "meaning": "Turning back; repentance",
+      "pronunciation": "TOW-bah",
+      "language": "Arabic",
+      "usage": "The first station of the path."
+    },
+    {
+      "id": "word-tawakkul",
+      "term": "Tawakkul",
+      "meaning": "Trust in God",
+      "pronunciation": "tah-WAK-kool",
+      "language": "Arabic",
+      "usage": "Tie your camel, then trust."
+    },
+    {
+      "id": "word-sabr",
+      "term": "Ṣabr",
+      "meaning": "Patience",
+      "pronunciation": "sabr",
+      "language": "Arabic",
+      "usage": "Steadiness under hardship without complaint."
+    },
+    {
+      "id": "word-shukr",
+      "term": "Shukr",
+      "meaning": "Gratitude",
+      "pronunciation": "shookr",
+      "language": "Arabic",
+      "usage": "Thanks in ease, and, harder, in difficulty."
+    },
+    {
+      "id": "word-ihsan",
+      "term": "Iḥsān",
+      "meaning": "Excellence; doing what is beautiful",
+      "pronunciation": "ih-SAHN",
+      "language": "Arabic",
+      "usage": "From a saying of the Prophet: to worship God as though you see Him."
+    },
+    {
+      "id": "word-hal",
+      "term": "Ḥāl",
+      "meaning": "A passing spiritual state",
+      "pronunciation": "hahl",
+      "language": "Arabic",
+      "usage": "Given, not earned. Contrasted with maqām, a station that is attained."
+    },
+    {
+      "id": "word-suhba",
+      "term": "Ṣuḥba",
+      "meaning": "Companionship; spiritual conversation",
+      "pronunciation": "SOH-bah",
+      "language": "Arabic",
+      "usage": "Turkish: sohbet. Much of the teaching happens here."
+    },
+    {
+      "id": "word-khidma",
+      "term": "Khidma",
+      "meaning": "Service",
+      "pronunciation": "KHID-mah",
+      "language": "Arabic",
+      "usage": "Novices in the Mevlevi lodges began with a thousand and one days in the kitchen."
+    },
+    {
+      "id": "word-ney",
+      "term": "Ney",
+      "meaning": "The reed flute",
+      "pronunciation": "nay",
+      "language": "Persian",
+      "usage": "Cut from the reed bed and crying to return: the opening image of the Masnavi."
+    },
+    {
+      "id": "word-hu",
+      "term": "Hū",
+      "meaning": "He; the divine Essence",
+      "pronunciation": "hoo",
+      "language": "Arabic",
+      "usage": "The simplest name, breathed in dhikr."
+    },
+    {
+      "id": "word-khanqah",
+      "term": "Khānqāh",
+      "meaning": "A Sufi lodge",
+      "pronunciation": "khahn-KAH",
+      "language": "Persian",
+      "usage": "Turkish: tekke. Arabic: zāwiya."
+    },
+    {
+      "id": "word-wali",
+      "term": "Walī",
+      "meaning": "A friend of God; a saint",
+      "pronunciation": "WAH-lee",
+      "language": "Arabic",
+      "usage": "Plural awliyāʾ. Their tombs are visited across the Muslim world."
     }
   ],
   "practices": [
@@ -62,9 +315,13 @@
       "time": "06:00",
       "minutes": 15,
       "meta": "Morning · 15 min",
-      "instructions": "",
-      "why": "",
-      "variations": []
+      "instructions": "Sit quietly, upright, with your attention at the heart. Let the breath settle. Then repeat one short phrase of remembrance in time with the breath, silently or just audibly, for fifteen minutes, returning to it whenever the mind wanders. If you are Muslim, use the formulas of your tradition, such as Lā ilāha illā Allāh. If you are not, choose a name or quality of the sacred that you can say sincerely, such as \"the Compassionate\", or simply attend to the breath as a gift given and returned. Do not imitate the group ritual of a Sufi order.",
+      "why": "The Qur’an says that hearts find rest in the remembrance of God. For Sufis, dhikr polishes the heart as one polishes a mirror, until it reflects what is real.",
+      "variations": [
+        "Count ninety-nine repetitions on beads.",
+        "Carry the phrase silently through one routine task.",
+        "Attend a public dhikr as a guest, if a local community welcomes visitors."
+      ]
     },
     {
       "id": "read-a-poem-aloud",
@@ -74,9 +331,13 @@
       "time": "14:00",
       "minutes": 10,
       "meta": "Afternoon · 10 min",
-      "instructions": "",
-      "why": "",
-      "variations": []
+      "instructions": "Take one short poem or passage by Rumi, Hafez, ʿAṭṭār, Yunus Emre or Rābiʿa, in a translation made from the original language. Read it aloud, slowly, twice. Notice which line catches. Say that line once more and carry it with you.",
+      "why": "Sufi teaching travelled as verse, recited and sung, long before it was read silently. The poems were made for the ear and the breath.",
+      "variations": [
+        "Read it to another person.",
+        "Copy the line that caught you by hand.",
+        "Compare a scholarly translation with a popular version and see what changed."
+      ]
     },
     {
       "id": "listen-to-sama",
@@ -86,9 +347,13 @@
       "time": "19:30",
       "minutes": 20,
       "meta": "Evening · 20 min",
-      "instructions": "",
-      "why": "",
-      "variations": []
+      "instructions": "Put on one piece of Sufi music: a Mevlevi ceremony, qawwali from South Asia, a solo ney. Sit, close your eyes and do nothing else for twenty minutes. Let the music do its work. If you feel moved to sway, let it happen. When it ends, stay in the silence for a minute.",
+      "why": "Samāʿ means listening. The orders that use music hold that a prepared heart hears in it the call home. Rumi’s followers turned it into the whirling ceremony.",
+      "variations": [
+        "Listen to the same piece every evening for a week.",
+        "Follow a translation of the words as you listen.",
+        "Watch a recording of the Mevlevi sema from Konya."
+      ]
     },
     {
       "id": "night-stillness",
@@ -98,9 +363,13 @@
       "time": "22:00",
       "minutes": 15,
       "meta": "Night · 15 min",
-      "instructions": "",
-      "why": "",
-      "variations": []
+      "instructions": "When the house is quiet and the lights are low, sit or stand in stillness for fifteen minutes. Look back over the day: where you were heedless, where you were grateful, whom you served, whom you wronged. Ask forgiveness where it is needed, give thanks, and then simply be present until the time is up.",
+      "why": "The last third of the night is the Sufis’ chosen hour. Rābiʿa is said to have prayed on her roof: the stars are shining, kings have shut their doors, every lover is alone with their beloved, and here am I, alone with You.",
+      "variations": [
+        "Step outside and look at the sky.",
+        "Keep the first hour after waking silent instead.",
+        "End with one line of poetry learned by heart."
+      ]
     }
   ],
   "tasks": [
@@ -117,294 +386,817 @@
       "meta": "Offer food or tea",
       "time": "18:00",
       "slot": "Evening"
+    },
+    {
+      "id": "give-something-in-secret",
+      "name": "Give something in secret",
+      "meta": "So the left hand does not know",
+      "time": "17:00",
+      "slot": "Evening"
     }
   ],
   "rules": [
     {
       "id": "r1",
       "text": "Begin with remembrance, end with gratitude",
-      "why": ""
+      "why": "The day is held between the two, as Muslims begin acts with bismillāh and close them with al-ḥamdu lillāh."
     },
     {
       "id": "r2",
       "text": "No gossip",
-      "why": ""
+      "why": "The Qur’an likens backbiting to eating the flesh of one’s dead brother. Guarding the tongue is the first discipline."
     },
     {
       "id": "r3",
       "text": "Welcome every guest as a gift",
-      "why": ""
+      "why": "A saying loved by Sufis: the guest is a guest of God."
     },
     {
       "id": "r4",
       "text": "Keep one hour of the night quiet",
-      "why": ""
+      "why": "No screens, no talk. The heart needs dark and silence as seed does."
+    },
+    {
+      "id": "r5",
+      "text": "See the fault in yourself first",
+      "why": "The path works on the nafs, the commanding self. Other people’s faults are a mirror."
+    },
+    {
+      "id": "r6",
+      "text": "Practice adab",
+      "why": "Courtesy toward everyone and everything: how you enter a room, pour water, speak of the absent."
     }
   ],
   "immerse": {
     "read": [
       {
-        "id": "read-masnavi-selections",
-        "title": "Masnavi (selections)",
-        "creator": "Rumi",
-        "why": ""
+        "id": "read-the-masnavi-book-one",
+        "title": "The Masnavi, Book One",
+        "creator": "Rumi, trans. Jawid Mojaddedi",
+        "year": "2004",
+        "why": "The great poem in rhyming English from the Persian. Stories within stories."
       },
       {
         "id": "read-the-conference-of-the-birds",
         "title": "The Conference of the Birds",
-        "creator": "Farid ud-Din Attar",
-        "why": ""
+        "creator": "Farīd al-Dīn ʿAṭṭār, trans. Afkham Darbandi and Dick Davis",
+        "year": "1177",
+        "why": "The birds cross seven valleys to find their king and find a mirror."
       },
       {
-        "id": "read-divan-of-hafez",
-        "title": "Divan of Hafez",
-        "creator": "Hafez",
-        "why": ""
+        "id": "read-faces-of-love-hafez-and-the-poets-of-shiraz",
+        "title": "Faces of Love: Hafez and the Poets of Shiraz",
+        "creator": "trans. Dick Davis",
+        "year": "2012",
+        "why": "Hafez as he is: witty, ambiguous, drunk on more than wine."
+      },
+      {
+        "id": "read-the-gulistan-of-sa-di",
+        "title": "The Gulistan of Saʿdi",
+        "creator": "trans. Wheeler M. Thackston",
+        "year": "2008",
+        "why": "The Rose Garden: tales and maxims every Persian speaker knows."
+      },
+      {
+        "id": "read-the-drop-that-became-the-sea",
+        "title": "The Drop That Became the Sea",
+        "creator": "Yunus Emre, trans. Kabir Helminski and Refik Algan",
+        "year": "1989",
+        "why": "Plain Turkish songs by an Anatolian dervish."
+      },
+      {
+        "id": "read-the-alchemy-of-happiness",
+        "title": "The Alchemy of Happiness",
+        "creator": "al-Ghazālī",
+        "year": "c. 1105",
+        "why": "A short Persian summary of his great Revival: know yourself, know God."
+      },
+      {
+        "id": "read-mystical-dimensions-of-islam",
+        "title": "Mystical Dimensions of Islam",
+        "creator": "Annemarie Schimmel",
+        "year": "1975",
+        "why": "The classic scholarly survey, written with love."
+      },
+      {
+        "id": "read-rumi-past-and-present-east-and-west",
+        "title": "Rumi: Past and Present, East and West",
+        "creator": "Franklin D. Lewis",
+        "year": "2000",
+        "why": "The definitive life, and an account of how the West remade him."
+      },
+      {
+        "id": "read-the-garden-of-truth",
+        "title": "The Garden of Truth",
+        "creator": "Seyyed Hossein Nasr",
+        "year": "2007",
+        "why": "Sufism explained from the inside by a scholar and practitioner."
       }
     ],
     "watch": [
       {
-        "id": "watch-whirling-dervishes-of-konya",
-        "title": "Whirling dervishes of Konya",
-        "creator": "Documentary of the sema",
-        "why": ""
+        "id": "watch-sufi-soul-the-mystic-music-of-islam",
+        "title": "Sufi Soul: The Mystic Music of Islam",
+        "creator": "Simon Broughton, presented by William Dalrymple",
+        "year": "2005",
+        "why": "From Syria and Turkey to Pakistan and Morocco."
       },
       {
-        "id": "watch-sufi-shrines-and-gatherings",
-        "title": "Sufi shrines and gatherings",
-        "creator": "Any respectful documentary",
-        "why": ""
+        "id": "watch-bab-aziz",
+        "title": "Bab’Aziz",
+        "creator": "Nacer Khemir",
+        "year": "2005",
+        "why": "A blind dervish and his granddaughter cross the desert to a gathering."
+      },
+      {
+        "id": "watch-the-mevlevi-sema-ceremony",
+        "title": "The Mevlevi sema ceremony",
+        "creator": "Recordings from Konya",
+        "why": "Watch a complete ceremony, not a clip: four salutations, each with its own meaning."
+      },
+      {
+        "id": "watch-rumi-poet-of-the-heart",
+        "title": "Rumi: Poet of the Heart",
+        "creator": "Haydn Reiss",
+        "year": "1998",
+        "why": "A documentary on his reception in America, useful to watch critically."
       }
     ],
     "listen": [
       {
-        "id": "listen-nusrat-fateh-ali-khan",
-        "title": "Nusrat Fateh Ali Khan",
-        "creator": "Qawwali",
-        "why": ""
+        "id": "listen-shahen-shah",
+        "title": "Shahen-Shah",
+        "creator": "Nusrat Fateh Ali Khan",
+        "year": "1989",
+        "why": "Qawwali: devotional song of the Chishti shrines, by its greatest modern voice."
       },
       {
-        "id": "listen-ney-flute",
-        "title": "Ney flute",
-        "creator": "Reed flute meditation",
-        "why": ""
+        "id": "listen-mevlevi-ceremonial-music",
+        "title": "Mevlevi ceremonial music",
+        "creator": "Kudsi Erguner Ensemble",
+        "why": "The ney-led music of the whirling ceremony."
+      },
+      {
+        "id": "listen-songs-of-abida-parveen",
+        "title": "Songs of Abida Parveen",
+        "creator": "Abida Parveen",
+        "why": "Sindhi and Punjabi Sufi poetry sung with enormous force."
+      },
+      {
+        "id": "listen-egypt",
+        "title": "Egypt",
+        "creator": "Youssou N’Dour",
+        "year": "2004",
+        "why": "A Senegalese star’s tribute to the Sufi saints of his country."
+      },
+      {
+        "id": "listen-solo-ney",
+        "title": "Solo ney",
+        "creator": "Any taksim recording",
+        "why": "One breath, one reed. The sound of the first line of the Masnavi."
       }
     ],
     "art": [
       {
-        "id": "art-islamic-calligraphy",
-        "title": "Islamic calligraphy",
-        "creator": "Letters as devotion",
-        "why": ""
+        "id": "art-the-tomb-of-rumi",
+        "title": "The tomb of Rumi",
+        "creator": "Mevlana Museum, Konya",
+        "year": "13th century onward",
+        "why": "Under a fluted turquoise dome. Visitors of every faith have come for seven centuries."
       },
       {
-        "id": "art-arabesque-geometry",
-        "title": "Arabesque geometry",
-        "creator": "Infinite pattern",
-        "why": ""
+        "id": "art-the-concourse-of-the-birds",
+        "title": "The Concourse of the Birds",
+        "creator": "Habiballah of Sava",
+        "year": "c. 1600",
+        "why": "A Persian miniature of ʿAṭṭār’s poem. Metropolitan Museum of Art, New York."
       },
       {
-        "id": "art-persian-miniatures",
-        "title": "Persian miniatures",
-        "creator": "Illustrated poems",
-        "why": ""
+        "id": "art-the-ardabil-carpet",
+        "title": "The Ardabil Carpet",
+        "creator": "Made for the shrine of Shaykh Ṣafī al-Dīn",
+        "year": "1539–40",
+        "why": "One of the oldest dated carpets in the world. Victoria and Albert Museum, London."
+      },
+      {
+        "id": "art-calligraphy-of-hu",
+        "title": "Calligraphy of Hū",
+        "creator": "Ottoman calligraphers",
+        "why": "A single word shaped into an image."
+      },
+      {
+        "id": "art-shrine-of-nizamuddin-auliya",
+        "title": "Shrine of Nizamuddin Auliya",
+        "creator": "Delhi",
+        "year": "14th century onward",
+        "why": "Qawwali is still sung in the courtyard on Thursday evenings."
       }
     ],
     "eat": [
       {
         "id": "eat-dates",
         "title": "Dates",
-        "creator": "Shared at sunset",
-        "why": ""
+        "creator": "A few, with water",
+        "why": "The food with which the Prophet broke his fast."
       },
       {
         "id": "eat-lentil-soup",
         "title": "Lentil soup",
         "creator": "Mercimek çorbası",
-        "why": ""
+        "why": "The soup of Anatolian kitchens and lodges."
+      },
+      {
+        "id": "eat-ashure",
+        "title": "Ashure",
+        "creator": "Noah’s pudding",
+        "why": "Grains, pulses and dried fruit, cooked in a great pot and given to neighbours."
+      },
+      {
+        "id": "eat-semolina-halva",
+        "title": "Semolina halva",
+        "creator": "İrmik helvası",
+        "why": "Stirred slowly and shared in memory of the dead."
       },
       {
         "id": "eat-baklava",
         "title": "Baklava",
-        "creator": "For a guest",
-        "why": ""
+        "creator": "On a feast day",
+        "why": "A sweet for celebrations."
       }
     ],
     "drink": [
       {
         "id": "drink-turkish-coffee",
         "title": "Turkish coffee",
-        "creator": "Slow, in small cups",
-        "why": ""
+        "creator": "Small, strong, unhurried",
+        "why": "Coffee drinking began among Sufis in Yemen, to stay awake for night devotions."
       },
       {
-        "id": "drink-black-tea-cay",
-        "title": "Black tea (çay)",
-        "creator": "Offered to every guest",
-        "why": ""
+        "id": "drink-black-tea",
+        "title": "Black tea",
+        "creator": "Çay, in a small glass",
+        "why": "Offered to anyone who sits down."
       },
       {
         "id": "drink-sharbat",
         "title": "Sharbat",
-        "creator": "Sweet fruit drink",
-        "why": ""
+        "creator": "Rose or sour cherry cordial",
+        "why": "A sweet drink served to guests at shrines."
       }
     ],
     "customs": [
       {
         "id": "customs-sit-in-a-circle",
         "title": "Sit in a circle",
-        "creator": "Equal, facing the center",
-        "why": ""
+        "creator": "Equal, facing the centre",
+        "why": "The shape of a gathering for remembrance."
       },
       {
         "id": "customs-offer-tea-to-every-guest",
         "title": "Offer tea to every guest",
         "creator": "Hospitality is a practice",
-        "why": ""
+        "why": "Before any question is asked."
       },
       {
         "id": "customs-remove-shoes-at-the-door",
         "title": "Remove shoes at the door",
         "creator": "Keep the space clean",
-        "why": ""
+        "why": "As in any mosque, lodge or home."
+      },
+      {
+        "id": "customs-hand-on-the-heart",
+        "title": "Hand on the heart",
+        "creator": "A greeting and a thanks",
+        "why": "The right hand placed over the heart with a slight bow."
+      },
+      {
+        "id": "customs-feed-whoever-comes",
+        "title": "Feed whoever comes",
+        "creator": "The shrine kitchen",
+        "why": "South Asian shrines serve free food daily to all, without asking who they are."
+      },
+      {
+        "id": "customs-visit-as-a-guest",
+        "title": "Visit as a guest",
+        "creator": "At a shrine or public gathering",
+        "why": "Dress modestly, follow the lead of those present, and ask before photographing."
       }
     ]
   },
   "ethics": [
     {
       "title": "Love as the path",
-      "text": "The heart is trained through love of the Beloved and of creation."
+      "text": "Rābiʿa asked to love God for God’s own sake, with no eye on reward or punishment. For the Sufis love is both the road and the arrival.",
+      "practice": "Do one good thing today with no thought of what comes back."
     },
     {
       "title": "Serve first",
-      "text": "Service is prayer in action."
+      "text": "Before any teaching, the novice sweeps, cooks and carries. Service wears down the self that wants to be special.",
+      "practice": "Take the lowest task in the room today, and do it well."
     },
     {
       "title": "Humility before the guide",
-      "text": "Learn with a teacher and without pride."
+      "text": "The path is not walked alone or by cleverness. One learns from those who have gone ahead, and from everyone.",
+      "practice": "Ask someone for correction today, and take it."
+    },
+    {
+      "title": "Generosity",
+      "text": "What passes through your hands was never yours. A dervish is known by an open hand.",
+      "practice": "Give away something you like."
+    },
+    {
+      "title": "Guard the tongue",
+      "text": "No gossip, no boasting, no needless complaint. Speak only what is true and kind, or keep silence.",
+      "practice": "Notice the first thing you want to say about someone absent, and do not say it."
+    },
+    {
+      "title": "The children of Adam are one body",
+      "text": "Saʿdī: if one limb is hurt, the others cannot rest. One who is unmoved by another’s pain does not deserve the name human.",
+      "practice": "Let one piece of bad news about strangers actually reach you today."
     }
   ],
   "philosophy": [
     {
       "title": "Unity of being",
-      "text": "Ibn Arabi: all things are one reality in many forms."
+      "text": "There is one reality, and the many things are its self-disclosures. This teaching is associated with Ibn ʿArabī, though the phrase came from his followers.",
+      "practice": "Look at three unlike things today as faces of one."
     },
     {
       "title": "The heart as mirror",
-      "text": "Polish it through remembrance."
+      "text": "The heart was made to reflect the Real. Heedlessness and self-regard rust it. Remembrance is the polish.",
+      "practice": "What clouded your heart today? What cleared it?"
     },
     {
       "title": "Dying before you die",
-      "text": "Let the false self fall away."
+      "text": "A saying dear to Sufis: die before you die. Let the grasping self go now, by choice, and what remains is free.",
+      "practice": "Give up being right in one argument."
     },
     {
       "title": "Longing as teacher",
-      "text": "Separation draws you toward return."
+      "text": "The reed cries because it was cut from the reed bed. Longing is not a problem to be solved. It is the pull of home.",
+      "practice": "Sit with a longing for five minutes without trying to satisfy it."
+    },
+    {
+      "title": "The stations of the path",
+      "text": "Repentance, patience, gratitude, trust, contentment, love: stations reached by effort, lit by states that come as gifts.",
+      "practice": "Which station are you working at now?"
+    },
+    {
+      "title": "The self that commands",
+      "text": "The nafs begins by ordering you about, learns to blame itself, and can come to rest. The path is its education.",
+      "practice": "Catch the commanding self once today, and name it."
+    },
+    {
+      "title": "Outward and inward",
+      "text": "Every act has a form and a meaning. The Sufis kept the form and went looking for the meaning.",
+      "practice": "Do one habitual act today with full awareness of why."
+    },
+    {
+      "title": "Wherever you turn",
+      "text": "The Qur’an says: wherever you turn, there is the face of God. Nothing is outside the sacred.",
+      "practice": "Find it in the least likely place you go today."
+    },
+    {
+      "title": "The guest house",
+      "text": "Rumi compares a human being to an inn where joys and sorrows arrive as guests. Welcome them all. Each has been sent.",
+      "practice": "Greet today’s unwelcome feeling as a guest."
+    },
+    {
+      "title": "Trust",
+      "text": "Do your work fully and leave the result. The Prophet’s saying: tie your camel, then trust in God.",
+      "practice": "What are you gripping that is not yours to control?"
     }
   ],
   "journal": [
-    "What did you remember today that you had forgotten?",
-    "Where did love lead you instead of fear?",
+    "What did you long for today?",
+    "Where did love move you to act?",
     "What did the poem say to you?",
-    "Whom did you host or serve?",
-    "What do you long for?",
-    "What did you say that you wish you hadn’t?",
-    "What fell away today?"
+    "What did you surrender?",
+    "What did remembrance feel like this morning?",
+    "When were you heedless?",
+    "Whom did you serve, and how did it feel?",
+    "What did you hear in the music?",
+    "What did the commanding self demand today?",
+    "What are you grateful for in a difficulty?",
+    "What did you say about someone who was not there?",
+    "Who was your guest today?",
+    "What did you give in secret?",
+    "Where did you insist on being right?",
+    "What rusted the mirror today?",
+    "What was the night like?",
+    "Which line are you carrying?",
+    "What do you want that you are ashamed to want?",
+    "Whom did you look down on?",
+    "What did you trust, and what did you try to control?",
+    "Where did you find beauty?",
+    "What were you patient with?",
+    "What separated you from others today?",
+    "When did you feel close to something greater?",
+    "What courtesy did you neglect?",
+    "What would you do if you were not afraid of losing?",
+    "Whose pain reached you?",
+    "What are you still holding against someone?",
+    "What did silence give you?",
+    "What is the reed in you crying for?"
   ],
   "reflect": [
     "What did longing teach you?",
     "Which practice changed you the most, and why?",
-    "What daily remembrance will you keep?"
+    "Where did you resist, and what was the resistance protecting?",
+    "What has remembrance changed in your ordinary hours?",
+    "Whom have you come to love or serve differently?",
+    "Which line will you keep by heart?"
   ],
-  "dayThemes": [],
+  "dayThemes": [
+    "The reed’s song",
+    "Remembrance",
+    "Longing",
+    "The heart as mirror",
+    "Love for its own sake",
+    "Service",
+    "The guest",
+    "Guarding the tongue",
+    "Gratitude",
+    "Patience",
+    "Trust",
+    "The commanding self",
+    "Courtesy",
+    "Listening",
+    "Generosity",
+    "Dying before you die",
+    "The night",
+    "Poverty of spirit",
+    "Companionship",
+    "Beauty",
+    "One body",
+    "Repentance",
+    "Contentment",
+    "The guest house",
+    "Outward and inward",
+    "Wherever you turn",
+    "Unity",
+    "The guide",
+    "Passing away",
+    "Abiding"
+  ],
   "guide": {
+    "origin": "The Islamic world, from Arabia and Iraq to Persia, Anatolia, India and Africa",
+    "era": "8th century to today",
     "intro": [
-      "Sufism is the mystical dimension of Islam, a path of love, remembrance and inner purification. It has produced some of the world’s most beloved poetry.",
-      "Orders such as the Mevlevi, Qadiri and Naqshbandi each keep their own practices of dhikr, music, poetry and service."
+      "Sufism, taṣawwuf in Arabic, is the inner, contemplative dimension of Islam. Where the law asks what a Muslim should do, the Sufi asks how to do it with a present heart, and how to come to know the One being worshipped.",
+      "It began in the first Islamic centuries among ascetics in Iraq and Syria who answered the wealth of the new empire with poverty, night vigils and constant remembrance of God. The name probably comes from ṣūf, the coarse wool they wore. Within a few generations a note of love entered and changed everything. Rābiʿa of Basra, a freed slave, prayed to love God not from fear of hell or hope of paradise but for God’s own sake.",
+      "By the tenth and eleventh centuries the Sufis had a vocabulary and a map. The seeker travels through stations, repentance, patience, gratitude, trust, love, and is visited by states that come as grace. The obstacle is the nafs, the self-centred self. The organ of knowing is the heart. The goal is fanāʾ, the passing away of the self’s claims in awareness of God, and baqāʾ, abiding in God while living in the world. The great theologian al-Ghazālī, after a crisis that left him unable to teach, found certainty among the Sufis and wrote their practice into the mainstream of Islamic thought.",
+      "From the twelfth century the path was organised into orders, each tracing a chain of teachers back to the Prophet Muhammad: the Qādiriyya, the Chishtiyya in India with its devotional music, the Naqshbandiyya with its silent remembrance, the Mevleviyya of Anatolia with its turning ceremony. The orders built lodges, fed the poor, and carried Islam across Africa, Central Asia and the Indian Ocean. Their teaching was often given in verse, which is why Sufism gave the world some of its greatest poets: ʿAṭṭār, Rumi, Saʿdī, Hafez, Yunus Emre.",
+      "Rumi is the best known. A scholar in thirteenth-century Konya, he was overturned in 1244 by meeting a wandering dervish, Shams of Tabriz, and poured the experience into the Masnavi, some twenty-five thousand couplets of stories and teaching. Many popular English \"Rumi\" quotations are loose versions made by writers who did not read Persian, and they tend to leave out the Islam. Read him in a scholarly translation at least once.",
+      "This Onda borrows four things any respectful guest may do: sit in remembrance, read the poets aloud, listen, and keep the night quiet. Sufism is a living tradition of practising Muslims, taught by authorised guides and under pressure in many countries. Its rituals belong to its orders. If the path calls you, go and meet them."
     ],
-    "origin": "Persia, Anatolia and beyond",
-    "era": "8th c. CE to today",
     "figures": [
       {
-        "name": "Rabia al-Adawiyya",
-        "dates": "",
-        "bio": "8th century Basra mystic who taught pure love of God."
+        "name": "Rābiʿa al-ʿAdawiyya",
+        "dates": "c. 717–801",
+        "bio": "Saint of Basra who made selfless love of God the centre of the path."
       },
       {
-        "name": "Al-Ghazali",
-        "dates": "",
-        "bio": "Scholar who joined law and mysticism."
+        "name": "al-Junayd",
+        "dates": "died 910",
+        "bio": "Master of the \"sober\" school in Baghdad. Most later orders trace themselves through him."
       },
       {
-        "name": "Rumi",
-        "dates": "",
-        "bio": "Persian poet, 1207 to 1273, whose followers formed the Mevlevi order."
+        "name": "al-Ḥallāj",
+        "dates": "858–922",
+        "bio": "Ecstatic executed in Baghdad after saying \"I am the Truth\"."
       },
       {
-        "name": "Ibn Arabi",
-        "dates": "",
-        "bio": "Andalusian thinker of the unity of being."
+        "name": "al-Ghazālī",
+        "dates": "1058–1111",
+        "bio": "Jurist and theologian whose Revival of the Religious Sciences reconciled Sufism and law."
+      },
+      {
+        "name": "ʿAbd al-Qādir al-Jīlānī",
+        "dates": "1077–1166",
+        "bio": "Preacher of Baghdad and namesake of the Qādirī order, the most widespread of all."
+      },
+      {
+        "name": "Farīd al-Dīn ʿAṭṭār",
+        "dates": "c. 1145–1221",
+        "bio": "Apothecary-poet of Nishapur. Author of The Conference of the Birds."
+      },
+      {
+        "name": "Ibn ʿArabī",
+        "dates": "1165–1240",
+        "bio": "Andalusian known as \"the Greatest Master\". Wrote hundreds of works on the unity of being."
+      },
+      {
+        "name": "Muʿīn al-Dīn Chishtī",
+        "dates": "1141–1236",
+        "bio": "Brought the Chishti order to India. His shrine at Ajmer draws pilgrims of every religion."
+      },
+      {
+        "name": "Jalāl al-Dīn Rūmī",
+        "dates": "1207–1273",
+        "bio": "Persian poet and teacher of Konya, called Mevlana, \"our master\"."
+      },
+      {
+        "name": "Shams-i Tabrīzī",
+        "dates": "died c. 1248",
+        "bio": "The wandering dervish whose friendship transformed Rumi."
+      },
+      {
+        "name": "Yunus Emre",
+        "dates": "c. 1238–1320",
+        "bio": "Anatolian dervish whose songs founded Turkish literature."
+      },
+      {
+        "name": "Ḥāfeẓ",
+        "dates": "c. 1315–1390",
+        "bio": "Lyric poet of Shiraz whose collected poems are consulted like an oracle in Iranian homes."
       }
     ],
     "history": [
       {
-        "when": "8th c.",
-        "what": "Early ascetics and mystics in Basra and Kufa",
-        "detail": ""
+        "when": "8th century",
+        "what": "The ascetics of Basra and Kufa",
+        "detail": "Ḥasan al-Baṣrī and others preach renunciation and fear of God. Rābiʿa turns the emphasis to love."
       },
       {
-        "when": "11th c.",
-        "what": "Al-Ghazali writes on the revival of the religious sciences",
-        "detail": ""
+        "when": "922",
+        "what": "al-Ḥallāj is executed in Baghdad",
+        "detail": "His cry \"I am the Truth\" was read as blasphemy by the authorities and as the voice of one emptied of self by later Sufis."
+      },
+      {
+        "when": "1046",
+        "what": "al-Qushayrī writes his Epistle",
+        "detail": "A handbook defining the Sufis’ terms and arguing that the path is rooted in the Qur’an and the Prophet’s example."
+      },
+      {
+        "when": "c. 1095–1106",
+        "what": "al-Ghazālī leaves his chair and writes the Revival",
+        "detail": "After a breakdown he spends a decade in retreat and travel. His forty-book work makes inward religion part of Sunni orthodoxy."
+      },
+      {
+        "when": "12th century",
+        "what": "The first orders form",
+        "detail": "Followers of ʿAbd al-Qādir al-Jīlānī and other masters organise into brotherhoods with lodges, initiations and chains of transmission."
+      },
+      {
+        "when": "1177",
+        "what": "ʿAṭṭār completes The Conference of the Birds",
+        "detail": "Thirty birds survive the journey to find the Simorgh, whose name in Persian means \"thirty birds\"."
+      },
+      {
+        "when": "c. 1192",
+        "what": "The Chishti order reaches India",
+        "detail": "Muʿīn al-Dīn Chishtī settles at Ajmer. The order welcomes all comers and uses music in devotion: the origin of qawwali."
+      },
+      {
+        "when": "1229",
+        "what": "Ibn ʿArabī writes The Bezels of Wisdom",
+        "detail": "In Damascus, late in a life that began in Murcia. The book becomes the most commented-upon text of Sufi metaphysics."
+      },
+      {
+        "when": "1244",
+        "what": "Rumi meets Shams in Konya",
+        "detail": "Three years later Shams disappears. Rumi’s grief becomes the Dīvān of Shams, and later the Masnavi, begun around 1258."
       },
       {
         "when": "1273",
-        "what": "Rumi dies in Konya; the Mevlevi order forms",
-        "detail": ""
+        "what": "Rumi dies on 17 December",
+        "detail": "The night is remembered as his \"wedding night\", the reunion with the Beloved. His son Sultan Walad organises the Mevlevi order."
       },
       {
-        "when": "13th c.",
-        "what": "Ibn Arabi writes on the unity of being",
-        "detail": ""
+        "when": "14th century",
+        "what": "The Naqshbandi order",
+        "detail": "Bahāʾ al-Dīn Naqshband of Bukhara teaches silent remembrance and \"solitude in the crowd\". His order spreads from Turkey to China."
+      },
+      {
+        "when": "15th century",
+        "what": "Coffee keeps the dervishes awake",
+        "detail": "Sufis in Yemen adopt coffee to stay alert through night devotions. From their lodges it spreads to Mecca, Cairo and Istanbul."
+      },
+      {
+        "when": "1925",
+        "what": "Turkey closes the lodges",
+        "detail": "The new republic bans the Sufi orders. The Mevlevi ceremony returns in the 1950s as a public commemoration held in Konya each December."
+      },
+      {
+        "when": "2008",
+        "what": "The Mevlevi sema is inscribed by UNESCO",
+        "detail": "Listed as intangible cultural heritage of humanity. The year 2007, eight centuries after Rumi’s birth, had been named for him."
       }
     ],
     "concepts": [
       {
         "term": "Dhikr",
-        "text": "Repeating divine names to polish the heart.",
-        "detail": ""
+        "text": "Remembrance of God.",
+        "detail": "The Qur’an commands it repeatedly. The orders differ in method: aloud or silent, alone or in a circle, with or without movement and music. All agree that the tongue’s remembrance is meant to become the heart’s."
       },
       {
-        "term": "Sema",
-        "text": "The whirling ceremony of the Mevlevi.",
-        "detail": ""
+        "term": "The path and the law",
+        "text": "Sharīʿa, ṭarīqa, ḥaqīqa.",
+        "detail": "The classical image is a circle. The law is the rim, the path is the radius, and reality is the centre. You cannot reach the centre without standing on the rim."
       },
       {
-        "term": "Maqamat",
-        "text": "Stations along the path.",
-        "detail": ""
+        "term": "Fanāʾ and baqāʾ",
+        "text": "Passing away and abiding.",
+        "detail": "Not the annihilation of the person, but of the illusion that one exists apart from God. The mature Sufi returns to ordinary life, transformed."
       },
       {
-        "term": "Ahwal",
-        "text": "States that come as gifts.",
-        "detail": ""
+        "term": "The nafs",
+        "text": "The self in its stages.",
+        "detail": "The Qur’an names a self that commands to evil, a self that blames itself and a self at peace. The Sufis made these a map of inner work."
+      },
+      {
+        "term": "The heart",
+        "text": "The seat of knowing.",
+        "detail": "Not the emotions. A subtle organ that can be veiled or unveiled. A saying holds that heaven and earth cannot contain God, but the heart of the believer can."
+      },
+      {
+        "term": "Love",
+        "text": "The motive of creation and the way back.",
+        "detail": "A tradition much quoted by Sufis has God say: I was a hidden treasure and I loved to be known, so I created the world."
+      },
+      {
+        "term": "Unity of being",
+        "text": "Only the Real truly is.",
+        "detail": "The doctrine of Ibn ʿArabī’s school. Critics feared it erased the difference between Creator and creation. Its defenders say it means that nothing has being of its own."
+      },
+      {
+        "term": "The guide and the chain",
+        "text": "Knowledge passes from heart to heart.",
+        "detail": "Each order keeps a silsila, a chain of names from the present shaykh back to the Prophet. Allegiance to a guide is the formal start of the path."
+      },
+      {
+        "term": "Samāʿ",
+        "text": "Listening to music and verse.",
+        "detail": "Contested among Muslims and among Sufis. The Chishtis and Mevlevis embraced it under strict conditions of time, place and company; the Naqshbandis mostly avoided it."
+      },
+      {
+        "term": "Adab",
+        "text": "Spiritual courtesy.",
+        "detail": "Right behaviour toward God, the teacher, companions, guests and oneself. Often called the whole of the path."
       }
     ],
     "facts": [
       {
-        "text": "The word Sufi may come from suf, meaning wool, the coarse cloth of early ascetics."
+        "text": "In Turkey, Iran and Afghanistan, Rumi is not called Rumi. He is Mevlana or Mawlānā, \"our master\", or Balkhī, after his family’s home. \"Rumi\" means \"from Rome\", that is, from Anatolia."
       },
       {
-        "text": "The Mevlevi whirl with one palm up to receive and one down to give."
+        "text": "The famous lines beginning \"Come, come, whoever you are\" are not found in the earliest manuscripts of Rumi. They are usually credited to an earlier Persian Sufi, Abū Saʿīd Abū al-Khayr."
       },
       {
-        "text": "Qawwali is a devotional music form of South Asian Sufis."
+        "text": "In the Mevlevi ceremony the tall felt hat stands for the tombstone of the ego, the white skirt for its shroud, and the black cloak that is dropped for the grave."
+      },
+      {
+        "text": "The whirling dervish holds the right palm up to receive and the left palm down to give."
+      },
+      {
+        "text": "Many \"Rumi\" and \"Hafez\" quotations online have no source in the Persian. Some popular English Hafez books are original poems by a modern American author."
+      },
+      {
+        "text": "The word coffee comes through Turkish from Arabic qahwa. Its first recorded drinkers were Yemeni Sufis."
+      },
+      {
+        "text": "A carpet bearing Saʿdī’s lines on the children of Adam was presented to the United Nations in New York by Iran."
+      },
+      {
+        "text": "Rūmī’s Masnavi is sometimes called \"the Qur’an in Persian\", a phrase attributed to the poet Jāmī.",
+        "unverified": true
       }
     ],
-    "glossary": [],
-    "furtherReading": [],
-    "learnFrom": [],
-    "sources": []
+    "glossary": [
+      {
+        "term": "Mevlevi",
+        "meaning": "The order founded by Rumi’s followers, known for the turning ceremony."
+      },
+      {
+        "term": "Qawwali",
+        "meaning": "Devotional music of the South Asian Sufi shrines."
+      },
+      {
+        "term": "Dargah",
+        "meaning": "The shrine built over a saint’s tomb, especially in South Asia."
+      },
+      {
+        "term": "Silsila",
+        "meaning": "The chain of teachers linking a shaykh to the Prophet."
+      },
+      {
+        "term": "Masnavi",
+        "meaning": "A long poem in rhyming couplets. Rumi’s is the Masnavi."
+      },
+      {
+        "term": "Simorgh",
+        "meaning": "The mythical bird that is the goal of ʿAṭṭār’s birds."
+      }
+    ],
+    "furtherReading": [
+      {
+        "title": "Sufism: A New History of Islamic Mysticism",
+        "creator": "Alexander Knysh",
+        "year": "2017",
+        "note": "A current academic history."
+      },
+      {
+        "title": "The Sufi Path of Love",
+        "creator": "William C. Chittick",
+        "year": "1983",
+        "note": "Rumi’s teachings arranged by theme, in his own words."
+      },
+      {
+        "title": "Rumi’s Secret",
+        "creator": "Brad Gooch",
+        "year": "2017",
+        "note": "A readable modern biography."
+      },
+      {
+        "title": "The Essential Rumi",
+        "creator": "Coleman Barks",
+        "year": "1995",
+        "note": "The bestselling free versions. Beautiful, and not translations: read them beside Mojaddedi or Nicholson."
+      },
+      {
+        "title": "Early Islamic Mysticism",
+        "creator": "trans. Michael Sells",
+        "year": "1996",
+        "note": "The first Sufis in their own words, including Rābiʿa and Junayd."
+      },
+      {
+        "title": "The Forty Rules of Love",
+        "creator": "Elif Shafak",
+        "year": "2009",
+        "note": "A novel of Rumi and Shams by a Turkish writer."
+      }
+    ],
+    "learnFrom": [
+      {
+        "name": "The Threshold Society",
+        "note": "A Mevlevi-lineage organisation offering teaching in English under authorised guidance."
+      },
+      {
+        "name": "The Mevlana Museum and the December commemoration, Konya",
+        "note": "Rumi’s tomb, and the ceremony performed in its home."
+      },
+      {
+        "name": "A local Sufi order or mosque with a public dhikr",
+        "note": "Many welcome visitors. Ask first, dress modestly and follow your hosts."
+      },
+      {
+        "name": "The Muhyiddin Ibn Arabi Society",
+        "note": "Translations, talks and a journal on Ibn ʿArabī."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Mystical Dimensions of Islam",
+        "creator": "Annemarie Schimmel",
+        "publisher": "University of North Carolina Press",
+        "year": "1975"
+      },
+      {
+        "title": "Rumi: Past and Present, East and West",
+        "creator": "Franklin D. Lewis",
+        "publisher": "Oneworld",
+        "year": "2000"
+      },
+      {
+        "title": "The Masnavi, Book One",
+        "creator": "Jalal al-Din Rumi, trans. Jawid Mojaddedi",
+        "publisher": "Oxford World’s Classics",
+        "year": "2004"
+      },
+      {
+        "title": "Sufism: A New History of Islamic Mysticism",
+        "creator": "Alexander Knysh",
+        "publisher": "Princeton University Press",
+        "year": "2017"
+      },
+      {
+        "title": "The Mathnawí of Jalálu’ddín Rúmí",
+        "creator": "ed. and trans. Reynold A. Nicholson",
+        "publisher": "E. J. W. Gibb Memorial",
+        "year": "1926"
+      },
+      {
+        "title": "Muslim Saints and Mystics: Episodes from the Tadhkirat al-Auliya",
+        "creator": "Farid al-Din Attar, trans. A. J. Arberry",
+        "publisher": "Routledge",
+        "year": "1966"
+      },
+      {
+        "title": "Mevlevi Sema Ceremony",
+        "creator": "UNESCO Representative List of the Intangible Cultural Heritage of Humanity",
+        "year": "2008"
+      }
+    ]
+  },
+  "sensitivity": {
+    "note": "Sufism is the contemplative heart of Islam and a living tradition of practising Muslims. This Onda offers remembrance, poetry, listening and night stillness in a form open to anyone, and does not reproduce the rituals of any order.",
+    "requiredCaveats": [
+      "The dhikr circles, initiations and the Mevlevi turning ceremony belong to the orders and are learned from an authorised guide. Do not imitate them.",
+      "Many popular English \"Rumi\" and \"Hafez\" quotations are loose versions or inventions. Prefer translations made from Persian.",
+      "If you are not Muslim, practice as a respectful guest. If you are, follow your own tradition’s guidance.",
+      "This content has not yet been reviewed by a Sufi teacher or a scholar of Islam. It should be before release."
+    ],
+    "reviewRequired": true
   }
 }

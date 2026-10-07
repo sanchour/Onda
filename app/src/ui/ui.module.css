@@ -178,7 +178,7 @@ button.row:active{background:var(--separator)}
 .menuScrimDim{background:rgba(0,0,0,.08)}
 .menu{
   position:absolute;z-index:70;padding:8px 0;border-radius:var(--radius-menu);
-  background:var(--glass-fill-strong);border:var(--glass-stroke);box-shadow:var(--glass-highlight),var(--shadow-menu);
+  background:var(--glass-fill-menu);border:var(--glass-stroke);box-shadow:var(--glass-highlight),var(--shadow-menu);
   -webkit-backdrop-filter:var(--glass-blur);backdrop-filter:var(--glass-blur);color:var(--label);
   animation:menuPop var(--duration-standard) var(--ease-enter);transform-origin:50% 0;
 }

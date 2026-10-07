@@ -1,0 +1,13 @@
+import { webkit, devices } from '@playwright/test'
+const browser = await webkit.launch()
+const ctx = await browser.newContext({ ...devices['iPhone 15 Pro'] })
+const page = await ctx.newPage()
+page.on('pageerror', (e) => console.log('PAGEERROR', String(e).slice(0, 300)))
+await page.goto('http://localhost:5173/?seed=demo')
+await page.getByText(/Onda · Day \d+ of 14/).waitFor({ timeout: 90000 })
+await page.getByRole('tab', { name: 'Lagos' }).click(); await page.waitForTimeout(700)
+await page.getByRole('button', { name: /Delete social media, day/ }).click(); await page.waitForTimeout(900)
+await page.getByRole('button', { name: 'Check In', exact: true }).first().click(); await page.waitForTimeout(1200)
+console.log('buttons:', await page.getByRole('button').evaluateAll((els) => els.map((e) => e.getAttribute('aria-label') || e.textContent.trim().slice(0, 20))))
+console.log(await page.evaluate(() => { const b = [...document.querySelectorAll('button')].find((x) => x.textContent.trim() === 'Cancel'); if (!b) return 'no cancel in DOM'; const chain = []; for (let e = b; e; e = e.parentElement) chain.push(e.tagName + (e.getAttribute('aria-hidden') ? '[aria-hidden=' + e.getAttribute('aria-hidden') + ']' : '') + (e.getAttribute('role') ? '[role=' + e.getAttribute('role') + ']' : '') + (e.inert ? '[inert]' : '')); return chain.join(' < ') }))
+await browser.close()

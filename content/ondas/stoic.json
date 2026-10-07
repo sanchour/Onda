@@ -1,56 +1,308 @@
 {
-  "version": 1,
+  "version": 2,
   "id": "stoic",
   "name": "Stoicism",
   "origin": "Athens & Rome",
+  "era": "c. 300 BCE to 180 CE, revived today",
   "tone": "blue",
   "icon": "bank",
-  "line": "Live by reason. Accept what is not up to you.",
-  "era": "c. 300 BCE to 180 CE, revived today",
   "font": "Cinzel",
   "pattern": "greek-key",
   "glyph": "ΑΡΕΤΗ",
+  "line": "Live by reason. Accept what is not up to you.",
   "quote": {
     "text": "Men are disturbed not by things, but by the views which they take of them.",
     "by": "Epictetus",
-    "source": ""
+    "source": "Enchiridion 5"
   },
-  "quotes": [],
+  "quotes": [
+    {
+      "text": "The impediment to action advances action. What stands in the way becomes the way.",
+      "by": "Marcus Aurelius",
+      "source": "Meditations 5.20, trans. Gregory Hays"
+    },
+    {
+      "text": "We suffer more often in imagination than in reality.",
+      "by": "Seneca",
+      "source": "Letters to Lucilius 13"
+    },
+    {
+      "text": "First say to yourself what you would be; and then do what you have to do.",
+      "by": "Epictetus",
+      "source": "Discourses 3.23"
+    },
+    {
+      "text": "Waste no more time arguing what a good man should be. Be one.",
+      "by": "Marcus Aurelius",
+      "source": "Meditations 10.16"
+    },
+    {
+      "text": "It is not that we have a short time to live, but that we waste a lot of it.",
+      "by": "Seneca",
+      "source": "On the Shortness of Life 1"
+    },
+    {
+      "text": "If it is not right, do not do it; if it is not true, do not say it.",
+      "by": "Marcus Aurelius",
+      "source": "Meditations 12.17"
+    }
+  ],
   "words": [
     {
-      "id": "word-amor-fati",
-      "term": "Amor fati",
-      "meaning": "Love of fate"
+      "id": "word-arete",
+      "term": "Aretē",
+      "meaning": "Excellence of character; virtue",
+      "pronunciation": "ah-reh-TAY",
+      "language": "Greek",
+      "usage": "The only thing the Stoics call good without qualification."
     },
     {
       "id": "word-prohairesis",
       "term": "Prohairesis",
-      "meaning": "Your power of choice"
+      "meaning": "Your faculty of choice",
+      "pronunciation": "pro-HIGH-reh-sis",
+      "language": "Greek",
+      "usage": "Epictetus: the one thing that cannot be taken from you."
     },
     {
-      "id": "word-memento-mori",
-      "term": "Memento mori",
-      "meaning": "Remember you will die"
-    },
-    {
-      "id": "word-ataraxia",
-      "term": "Ataraxia",
-      "meaning": "Untroubled calm"
-    },
-    {
-      "id": "word-eudaimonia",
-      "term": "Eudaimonia",
-      "meaning": "A flourishing life"
-    },
-    {
-      "id": "word-apatheia",
-      "term": "Apatheia",
-      "meaning": "Freedom from destructive passion"
+      "id": "word-eph-hemin",
+      "term": "Eph’ hēmin",
+      "meaning": "What is up to us",
+      "pronunciation": "ef hay-MEEN",
+      "language": "Greek",
+      "usage": "Judgment, impulse, desire and aversion. The opening line of the Enchiridion."
     },
     {
       "id": "word-logos",
       "term": "Logos",
-      "meaning": "The reason that orders the world"
+      "meaning": "The reason that orders the world",
+      "pronunciation": "LOH-goss",
+      "language": "Greek",
+      "usage": "Also the reason in you. To live well is to bring the two into agreement."
+    },
+    {
+      "id": "word-phantasia",
+      "term": "Phantasia",
+      "meaning": "An impression",
+      "pronunciation": "fan-tah-SEE-ah",
+      "language": "Greek",
+      "usage": "What appears to you before you have judged it."
+    },
+    {
+      "id": "word-synkatathesis",
+      "term": "Synkatathesis",
+      "meaning": "Assent",
+      "pronunciation": "sin-kah-TAH-theh-sis",
+      "language": "Greek",
+      "usage": "Saying yes to an impression. The moment where freedom lives."
+    },
+    {
+      "id": "word-hegemonikon",
+      "term": "Hēgemonikon",
+      "meaning": "The ruling faculty; the commanding part of the mind",
+      "pronunciation": "heh-geh-mon-ih-KON",
+      "language": "Greek",
+      "usage": "Marcus addresses his own constantly."
+    },
+    {
+      "id": "word-apatheia",
+      "term": "Apatheia",
+      "meaning": "Freedom from destructive passion",
+      "pronunciation": "ah-PAH-thay-ah",
+      "language": "Greek",
+      "usage": "Not apathy. The sage still feels; they are not dragged."
+    },
+    {
+      "id": "word-pathos",
+      "term": "Pathos",
+      "meaning": "A passion: an excessive impulse born of a false judgment",
+      "pronunciation": "PAH-thoss",
+      "language": "Greek",
+      "usage": "Four families: distress, fear, craving, and irrational delight."
+    },
+    {
+      "id": "word-eupatheia",
+      "term": "Eupatheia",
+      "meaning": "A good feeling",
+      "pronunciation": "yoo-PAH-thay-ah",
+      "language": "Greek",
+      "usage": "Joy, caution and wishing: the feelings that follow true judgments."
+    },
+    {
+      "id": "word-adiaphora",
+      "term": "Adiaphora",
+      "meaning": "Indifferents",
+      "pronunciation": "ah-dee-AH-for-ah",
+      "language": "Greek",
+      "usage": "Health, wealth, reputation, even life. Neither good nor bad in themselves."
+    },
+    {
+      "id": "word-proegmena",
+      "term": "Proēgmena",
+      "meaning": "Preferred indifferents",
+      "pronunciation": "pro-ayg-MEN-ah",
+      "language": "Greek",
+      "usage": "Things worth choosing, such as health, without needing them to be happy."
+    },
+    {
+      "id": "word-kathekon",
+      "term": "Kathēkon",
+      "meaning": "An appropriate action; what befits your role",
+      "pronunciation": "kah-THAY-kon",
+      "language": "Greek",
+      "usage": "Cicero rendered it as officium, duty."
+    },
+    {
+      "id": "word-oikeiosis",
+      "term": "Oikeiōsis",
+      "meaning": "Appropriation; widening what you treat as your own",
+      "pronunciation": "oy-kay-OH-sis",
+      "language": "Greek",
+      "usage": "From self, to family, to city, to all people."
+    },
+    {
+      "id": "word-sympatheia",
+      "term": "Sympatheia",
+      "meaning": "The mutual interdependence of all things",
+      "pronunciation": "sim-PAH-thay-ah",
+      "language": "Greek",
+      "usage": "Marcus: what harms the hive harms the bee."
+    },
+    {
+      "id": "word-eudaimonia",
+      "term": "Eudaimonia",
+      "meaning": "A flourishing life",
+      "pronunciation": "yoo-dye-moh-NEE-ah",
+      "language": "Greek",
+      "usage": "For Stoics, virtue is sufficient for it."
+    },
+    {
+      "id": "word-phronesis",
+      "term": "Phronēsis",
+      "meaning": "Practical wisdom",
+      "pronunciation": "fro-NAY-sis",
+      "language": "Greek",
+      "usage": "First of the four cardinal virtues: knowing what is truly good, bad and neither."
+    },
+    {
+      "id": "word-dikaiosyne",
+      "term": "Dikaiosynē",
+      "meaning": "Justice",
+      "pronunciation": "dih-kai-oh-SOO-nay",
+      "language": "Greek",
+      "usage": "Giving each person what is due, including kindness."
+    },
+    {
+      "id": "word-andreia",
+      "term": "Andreia",
+      "meaning": "Courage",
+      "pronunciation": "an-DRAY-ah",
+      "language": "Greek",
+      "usage": "Knowing what is and is not worth fearing."
+    },
+    {
+      "id": "word-sophrosyne",
+      "term": "Sōphrosynē",
+      "meaning": "Temperance; self-command",
+      "pronunciation": "so-fro-SOO-nay",
+      "language": "Greek",
+      "usage": "Order in what you choose and what you leave."
+    },
+    {
+      "id": "word-askesis",
+      "term": "Askēsis",
+      "meaning": "Training; disciplined practice",
+      "pronunciation": "AS-kay-sis",
+      "language": "Greek",
+      "usage": "Musonius Rufus: philosophy is learned by habit, like medicine or music."
+    },
+    {
+      "id": "word-prosoche",
+      "term": "Prosochē",
+      "meaning": "Attention to oneself in the present moment",
+      "pronunciation": "pro-so-KHAY",
+      "language": "Greek",
+      "usage": "The basic Stoic attitude, in Pierre Hadot’s reading."
+    },
+    {
+      "id": "word-hupexairesis",
+      "term": "Hupexairesis",
+      "meaning": "The reserve clause: \"if nothing prevents\"",
+      "pronunciation": "hoop-ex-EYE-reh-sis",
+      "language": "Greek",
+      "usage": "Plan fully, then add: fate permitting."
+    },
+    {
+      "id": "word-kosmopolites",
+      "term": "Kosmopolitēs",
+      "meaning": "Citizen of the world",
+      "pronunciation": "koz-mo-po-LEE-tays",
+      "language": "Greek",
+      "usage": "A Cynic word the Stoics made their own."
+    },
+    {
+      "id": "word-sophos",
+      "term": "Sophos",
+      "meaning": "The sage",
+      "pronunciation": "so-FOSS",
+      "language": "Greek",
+      "usage": "An ideal, as rare as the phoenix. Everyone else is \"making progress\"."
+    },
+    {
+      "id": "word-prokopton",
+      "term": "Prokoptōn",
+      "meaning": "One who is making progress",
+      "pronunciation": "pro-KOP-tone",
+      "language": "Greek",
+      "usage": "What a practicing Stoic actually is."
+    },
+    {
+      "id": "word-stoa",
+      "term": "Stoa",
+      "meaning": "A roofed colonnade",
+      "pronunciation": "STOH-ah",
+      "language": "Greek",
+      "usage": "The school is named after the Painted Porch where Zeno taught in public."
+    },
+    {
+      "id": "word-premeditatio-malorum",
+      "term": "Premeditatio malorum",
+      "meaning": "Rehearsing possible troubles in advance",
+      "pronunciation": "preh-meh-dih-TAH-tee-oh mah-LOR-um",
+      "language": "Latin",
+      "usage": "Seneca: what is foreseen arrives more gently."
+    },
+    {
+      "id": "word-tranquillitas",
+      "term": "Tranquillitas",
+      "meaning": "Tranquility; a settled mind",
+      "pronunciation": "tran-KWIL-ih-tahs",
+      "language": "Latin",
+      "usage": "Seneca’s Latin for the Greek euthymia."
+    },
+    {
+      "id": "word-otium",
+      "term": "Otium",
+      "meaning": "Leisure given to study and reflection",
+      "pronunciation": "OH-tee-um",
+      "language": "Latin",
+      "usage": "For Seneca, leisure without study is death."
+    },
+    {
+      "id": "word-memento-mori",
+      "term": "Memento mori",
+      "meaning": "Remember that you will die",
+      "pronunciation": "meh-MEN-toh MOR-ee",
+      "language": "Latin",
+      "usage": "A later Latin phrase for an old Stoic exercise, the practice of death."
+    },
+    {
+      "id": "word-amor-fati",
+      "term": "Amor fati",
+      "meaning": "Love of fate",
+      "pronunciation": "AH-mor FAH-tee",
+      "language": "Latin",
+      "usage": "Coined by Nietzsche in 1882, not by a Stoic, though it echoes Epictetus and Marcus."
     }
   ],
   "practices": [
@@ -62,9 +314,13 @@
       "time": "06:30",
       "minutes": 5,
       "meta": "Morning · 5 min",
-      "instructions": "",
-      "why": "",
-      "variations": []
+      "instructions": "Before you look at a screen, sit up and name the day ahead. Who will you meet? What could go wrong: a delay, a criticism, a temptation? Picture each one plainly, then picture yourself meeting it with patience and good sense. End with the reserve clause: I will do this today, if nothing prevents me.",
+      "why": "Marcus Aurelius opens Book 2 this way: today I will meet the meddling and the ungrateful. Seneca adds that the blow you foresee lands softer. The point is readiness, not pessimism.",
+      "variations": [
+        "Write three lines instead of thinking them.",
+        "Rehearse one specific conversation you are dreading.",
+        "On a calm day, rehearse losing something you rely on."
+      ]
     },
     {
       "id": "cold-shower",
@@ -72,10 +328,15 @@
       "icon": "shower",
       "slot": "Morning",
       "time": "07:00",
+      "minutes": 3,
       "meta": "Morning · Discomfort",
-      "instructions": "",
-      "why": "",
-      "variations": []
+      "instructions": "End your shower with cold water. Start with thirty seconds and breathe slowly through the first shock. Notice the judgment \"this is unbearable\" and watch it turn out to be false. Skip this if you have a heart condition or feel unwell.",
+      "why": "Seneca called himself a cold-water enthusiast and plunged into the Virgo aqueduct on the first of January. Chosen discomfort teaches the body that it can obey you.",
+      "variations": [
+        "Wash your face and forearms in cold water.",
+        "A brisk walk without a coat on a cool day.",
+        "Full cold for two minutes once thirty seconds is easy."
+      ]
     },
     {
       "id": "voluntary-discomfort",
@@ -84,9 +345,13 @@
       "slot": "Afternoon",
       "time": "12:00",
       "meta": "Midday · Fast or go without",
-      "instructions": "",
-      "why": "",
-      "variations": []
+      "instructions": "Pick one comfort and go without it until evening: skip a meal or eat it plain, leave the coffee, take the stairs, sit on the floor. While you go without, ask Seneca’s question: is this what I was afraid of?",
+      "why": "Seneca, Letter 18: set aside days when you are content with the scantiest and cheapest fare. You practice poverty so that fortune cannot frighten you with it.",
+      "variations": [
+        "Plain bread and water for lunch.",
+        "No phone from noon to six.",
+        "Wear your oldest clothes for the day."
+      ]
     },
     {
       "id": "evening-review",
@@ -96,16 +361,20 @@
       "time": "21:30",
       "minutes": 10,
       "meta": "Evening · 10 min",
-      "instructions": "",
-      "why": "",
-      "variations": []
+      "instructions": "When the house is quiet, go back through the day from waking. Ask three questions. What did I do badly? What did I do well? What did I leave undone? Be a fair judge, not a prosecutor: note it, decide what to do tomorrow, and let it go.",
+      "why": "Seneca describes doing this every night once the light was out, a habit he learned from Sextius. Epictetus quotes the same three questions from the Pythagorean Golden Verses.",
+      "variations": [
+        "Write it in your commonplace book.",
+        "Review only your reactions to other people.",
+        "End by naming one thing you will do differently tomorrow."
+      ]
     }
   ],
   "tasks": [
     {
       "id": "read-one-letter-from-seneca",
       "name": "Read one Letter from Seneca",
-      "meta": "Letters from a Stoic",
+      "meta": "Letters to Lucilius",
       "time": "13:00",
       "slot": "Afternoon"
     },
@@ -115,28 +384,45 @@
       "meta": "One page",
       "time": "18:00",
       "slot": "Evening"
+    },
+    {
+      "id": "copy-one-line-worth-keeping",
+      "name": "Copy one line worth keeping",
+      "meta": "Commonplace book",
+      "time": "21:00",
+      "slot": "Evening"
     }
   ],
   "rules": [
     {
       "id": "r1",
       "text": "Do not complain aloud",
-      "why": ""
+      "why": "Marcus Aurelius, Meditations 8.9: let no one hear you blaming palace life, not even yourself. Complaint rehearses the judgment that something bad has happened."
     },
     {
       "id": "r2",
       "text": "Pause before reacting. Name the judgment.",
-      "why": ""
+      "why": "Epictetus: say to every harsh impression, you are an impression and not at all what you appear to be. The pause is where assent can be withheld."
     },
     {
       "id": "r3",
       "text": "One voluntary discomfort a day",
-      "why": ""
+      "why": "Training, not punishment. Small chosen hardships make the unchosen ones smaller."
     },
     {
       "id": "r4",
       "text": "Phone away during meals",
-      "why": ""
+      "why": "Attention is the practice. A meal is a simple place to give something your whole mind."
+    },
+    {
+      "id": "r5",
+      "text": "Speak plainly and only when it helps",
+      "why": "Epictetus, Enchiridion 33: let silence be the general rule, or say only what is necessary, in few words."
+    },
+    {
+      "id": "r6",
+      "text": "Do the next right thing in your role",
+      "why": "A parent, a colleague, a citizen. The Stoics measured a day by duties met, not feelings had."
     }
   ],
   "immerse": {
@@ -144,149 +430,334 @@
       {
         "id": "read-meditations",
         "title": "Meditations",
-        "creator": "Marcus Aurelius",
-        "why": ""
+        "creator": "Marcus Aurelius, trans. Gregory Hays",
+        "year": "c. 170–180 CE",
+        "why": "Private notes to himself, written in Greek on campaign. Read a few entries at a time."
       },
       {
         "id": "read-letters-from-a-stoic",
         "title": "Letters from a Stoic",
-        "creator": "Seneca",
-        "why": ""
+        "creator": "Seneca, trans. Robin Campbell",
+        "year": "c. 62–65 CE",
+        "why": "Letters to his friend Lucilius: warm, practical and full of exercises."
       },
       {
         "id": "read-enchiridion",
         "title": "Enchiridion",
-        "creator": "Epictetus",
-        "why": ""
+        "creator": "Epictetus, recorded by Arrian",
+        "year": "c. 125 CE",
+        "why": "The handbook. Short enough to read in an hour and reread for a lifetime."
       },
       {
-        "id": "read-discourses-selections",
-        "title": "Discourses (selections)",
-        "creator": "Epictetus",
-        "why": ""
+        "id": "read-discourses",
+        "title": "Discourses",
+        "creator": "Epictetus, recorded by Arrian",
+        "year": "c. 108 CE",
+        "why": "The classroom itself: blunt, funny and unsparing."
+      },
+      {
+        "id": "read-on-the-shortness-of-life",
+        "title": "On the Shortness of Life",
+        "creator": "Seneca",
+        "year": "c. 49 CE",
+        "why": "Life is long enough if you know how to use it."
+      },
+      {
+        "id": "read-lectures-and-sayings",
+        "title": "Lectures and Sayings",
+        "creator": "Musonius Rufus, trans. Cynthia King",
+        "year": "1st century CE",
+        "why": "Epictetus’s teacher on food, work, marriage and why women should study philosophy."
+      },
+      {
+        "id": "read-the-inner-citadel",
+        "title": "The Inner Citadel",
+        "creator": "Pierre Hadot",
+        "year": "1992",
+        "why": "The best study of the Meditations as a set of spiritual exercises."
+      },
+      {
+        "id": "read-courage-under-fire",
+        "title": "Courage Under Fire",
+        "creator": "James B. Stockdale",
+        "year": "1993",
+        "why": "A navy pilot on how Epictetus carried him through seven years as a prisoner of war."
+      },
+      {
+        "id": "read-how-to-think-like-a-roman-emperor",
+        "title": "How to Think Like a Roman Emperor",
+        "creator": "Donald Robertson",
+        "year": "2019",
+        "why": "A therapist reads Marcus alongside modern cognitive therapy."
       }
     ],
     "watch": [
       {
-        "id": "watch-gladiator-2000",
-        "title": "Gladiator (2000)",
-        "creator": "Marcus Aurelius on screen",
-        "why": ""
+        "id": "watch-marcus-aurelius-meditations-the-stoic-ideal",
+        "title": "Marcus Aurelius’ Meditations: The Stoic Ideal",
+        "creator": "Michael Sugrue (lecture)",
+        "year": "1992",
+        "why": "Forty-five minutes that have sent a great many people to the book."
       },
       {
-        "id": "watch-documentary-on-roman-philosophy",
-        "title": "Documentary on Roman philosophy",
-        "creator": "Any good survey",
-        "why": ""
+        "id": "watch-the-fall-of-the-roman-empire",
+        "title": "The Fall of the Roman Empire",
+        "creator": "Anthony Mann",
+        "year": "1964",
+        "why": "Alec Guinness as Marcus on the Danube frontier. Epic, and looser with history than it looks."
+      },
+      {
+        "id": "watch-gladiator",
+        "title": "Gladiator",
+        "creator": "Ridley Scott",
+        "year": "2000",
+        "why": "Richard Harris as the old emperor. Fiction, but the opening winter camp sets the mood."
       }
     ],
     "listen": [
       {
         "id": "listen-in-our-time-stoicism",
         "title": "In Our Time: Stoicism",
-        "creator": "BBC Radio 4",
-        "why": ""
+        "creator": "BBC Radio 4, Melvyn Bragg",
+        "year": "2005",
+        "why": "Three scholars on the school from Zeno to Marcus."
       },
       {
-        "id": "listen-meditations-audiobook",
-        "title": "Meditations, audiobook",
-        "creator": "One book a day",
-        "why": ""
+        "id": "listen-in-our-time-marcus-aurelius",
+        "title": "In Our Time: Marcus Aurelius",
+        "creator": "BBC Radio 4, Melvyn Bragg",
+        "year": "2021",
+        "why": "The man, the reign and the notebook."
+      },
+      {
+        "id": "listen-history-of-philosophy-without-any-gaps-the-stoic",
+        "title": "History of Philosophy Without Any Gaps: the Stoics",
+        "creator": "Peter Adamson",
+        "why": "A run of short episodes on Stoic logic, physics and ethics."
+      },
+      {
+        "id": "listen-seikilos-epitaph",
+        "title": "Seikilos epitaph",
+        "creator": "Anonymous, Tralles",
+        "year": "1st–2nd century CE",
+        "why": "The oldest complete song that survives. Its words: while you live, shine; life is short."
+      },
+      {
+        "id": "listen-meditations-read-aloud",
+        "title": "Meditations, read aloud",
+        "creator": "Any unabridged recording",
+        "why": "One book a day, on a walk."
       }
     ],
     "art": [
       {
         "id": "art-equestrian-statue-of-marcus-aurelius",
         "title": "Equestrian statue of Marcus Aurelius",
-        "creator": "Rome",
-        "why": ""
+        "creator": "Capitoline Museums, Rome",
+        "year": "c. 175 CE",
+        "why": "The only bronze equestrian statue of an emperor to survive. His hand is open, not armed."
+      },
+      {
+        "id": "art-column-of-marcus-aurelius",
+        "title": "Column of Marcus Aurelius",
+        "creator": "Piazza Colonna, Rome",
+        "year": "c. 193 CE",
+        "why": "A spiral relief of the Danube wars he wrote the Meditations during."
+      },
+      {
+        "id": "art-the-death-of-seneca",
+        "title": "The Death of Seneca",
+        "creator": "Peter Paul Rubens",
+        "year": "c. 1612",
+        "why": "Seneca in the bath, dictating to the end. Alte Pinakothek, Munich."
+      },
+      {
+        "id": "art-stoa-of-attalos",
+        "title": "Stoa of Attalos",
+        "creator": "Ancient Agora, Athens",
+        "year": "rebuilt 1953–56",
+        "why": "A reconstructed stoa a short walk from where the Painted Porch stood."
       },
       {
         "id": "art-roman-portrait-busts",
         "title": "Roman portrait busts",
         "creator": "Any museum collection",
-        "why": ""
+        "why": "Look for the tired, unflattered faces of the late Republic."
       }
     ],
     "eat": [
       {
         "id": "eat-bread-olives-and-cheese",
         "title": "Bread, olives and cheese",
-        "creator": "Simple, eaten slowly",
-        "why": ""
+        "creator": "Greek and Roman staple",
+        "why": "Simple, eaten slowly, with nothing else going on."
       },
       {
         "id": "eat-lentil-soup",
         "title": "Lentil soup",
         "creator": "A plain pot",
-        "why": ""
+        "why": "The Cynic Crates made the young Zeno carry a pot of lentil soup through Athens to cure his shame."
+      },
+      {
+        "id": "eat-green-figs",
+        "title": "Green figs",
+        "creator": "Fresh or dried",
+        "why": "Zeno’s one recorded indulgence."
+      },
+      {
+        "id": "eat-barley-porridge",
+        "title": "Barley porridge",
+        "creator": "Puls, the food of early Rome",
+        "why": "What Roman soldiers and farmers lived on before bread."
       },
       {
         "id": "eat-one-plain-meal",
         "title": "One plain meal",
-        "creator": "No seasoning rituals",
-        "why": ""
+        "creator": "Musonius Rufus, Lecture 18",
+        "why": "Food that is cheap, easy to get and needs no cook."
       }
     ],
     "drink": [
       {
         "id": "drink-water",
         "title": "Water",
-        "creator": "Only water for a day",
-        "why": ""
+        "creator": "For a full day",
+        "why": "Epictetus: drink water, and do not tell everyone that you drink water."
       },
       {
-        "id": "drink-diluted-wine",
-        "title": "Diluted wine",
-        "creator": "As in the Roman world",
-        "why": ""
+        "id": "drink-wine-mixed-with-water",
+        "title": "Wine mixed with water",
+        "creator": "Greek and Roman custom",
+        "why": "Wine was drunk diluted. Unmixed wine was thought barbarous."
+      },
+      {
+        "id": "drink-posca",
+        "title": "Posca",
+        "creator": "Roman soldiers’ drink",
+        "why": "Water sharpened with wine vinegar. Cheap, sour and reviving."
       }
     ],
     "customs": [
       {
         "id": "customs-plan-for-obstacles-at-dawn",
         "title": "Plan for obstacles at dawn",
-        "creator": "Seneca and Marcus both did",
-        "why": ""
+        "creator": "Marcus Aurelius, Meditations 2.1",
+        "why": "Begin the day expecting difficult people, and decide in advance not to be made worse by them."
       },
       {
-        "id": "customs-keep-a-commonplace-notebook",
-        "title": "Keep a commonplace notebook",
-        "creator": "Copy lines worth keeping",
-        "why": ""
+        "id": "customs-keep-a-commonplace-book",
+        "title": "Keep a commonplace book",
+        "creator": "Hypomnēmata",
+        "why": "Copy lines worth keeping by hand. The Meditations began as one."
+      },
+      {
+        "id": "customs-review-the-day-at-night",
+        "title": "Review the day at night",
+        "creator": "Seneca, On Anger 3.36",
+        "why": "Examine your whole day before sleep, hiding nothing from yourself."
+      },
+      {
+        "id": "customs-practice-poverty-for-a-few-days",
+        "title": "Practice poverty for a few days",
+        "creator": "Seneca, Letter 18",
+        "why": "Coarse food, rough clothes, and the question: is this what I feared?"
+      },
+      {
+        "id": "customs-take-the-view-from-above",
+        "title": "Take the view from above",
+        "creator": "Meditations 9.30",
+        "why": "Look down on cities, armies, weddings and funerals as if from a height."
+      },
+      {
+        "id": "customs-walk-and-talk",
+        "title": "Walk and talk",
+        "creator": "The Stoa Poikile",
+        "why": "The school met in a public walkway, not behind walls. Think on your feet."
       }
     ]
   },
   "ethics": [
     {
       "title": "Virtue is the only good",
-      "text": "Wisdom, justice, courage and moderation. Everything else is preferred or not, never good or bad."
+      "text": "Wisdom, justice, courage and temperance. Everything else, including health and money, is preferred or not, but never good or bad in itself.",
+      "practice": "When you want something today, ask which virtue it serves."
     },
     {
       "title": "We are made for each other",
-      "text": "Marcus: like hands, feet and eyelids, we exist to cooperate."
+      "text": "Marcus: we were born to work together, like feet, hands and eyelids. To turn against another person is against nature.",
+      "practice": "Do one thing today for someone who cannot repay it, and tell no one."
     },
     {
       "title": "Accept what you cannot change",
-      "text": "Meet fate with a steady mind and do your part."
+      "text": "Meet what happens with a steady mind and do your part. Acceptance is the start of action, not the end of it.",
+      "practice": "Name one fact you have been arguing with. Stop arguing; ask what it asks of you."
+    },
+    {
+      "title": "Play your role well",
+      "text": "You did not choose the part: child, parent, citizen, neighbor. Playing it well is up to you.",
+      "practice": "List your roles. Pick the one you have neglected and do its next duty."
+    },
+    {
+      "title": "Widen the circle",
+      "text": "Hierocles drew concentric circles from the self outward to all humanity, and asked us to draw each one in.",
+      "practice": "Treat a stranger today with the courtesy you keep for friends."
+    },
+    {
+      "title": "Anger is a brief madness",
+      "text": "Seneca held that anger is never useful, even in a just cause. Reason does the work better and stops when the work is done.",
+      "practice": "When anger rises, delay. Seneca’s first remedy is time."
     }
   ],
   "philosophy": [
     {
       "title": "The dichotomy of control",
-      "text": "Some things are up to you: judgment, intention, action. The rest is not."
+      "text": "Some things are up to you: judgment, intention, desire, aversion. The rest is not: your body, property, reputation, office. Confuse the two and you will be hindered and upset.",
+      "practice": "Before any worry, sort it: mine to decide, or not?"
     },
     {
       "title": "The view from above",
-      "text": "Imagine your life from far overhead. Most troubles shrink."
+      "text": "Imagine your life from far overhead: the street, the city, the turning earth. Most troubles shrink to their real size.",
+      "practice": "Write one page describing today as seen from orbit."
     },
     {
       "title": "Memento mori",
-      "text": "Death clarifies what matters today."
+      "text": "Death is not far off and not an evil. Holding it in view strips the day of triviality.",
+      "practice": "When you say goodnight to someone, remember quietly that it is not guaranteed again."
     },
     {
       "title": "Premeditation of evils",
-      "text": "Rehearse what could go wrong so it cannot surprise you."
+      "text": "Rehearse what could go wrong so it cannot surprise you. Familiar things lose their sting.",
+      "practice": "Take the thing you most fear this week and walk through it step by step."
+    },
+    {
+      "title": "Impressions and assent",
+      "text": "Things appear to you already wearing a judgment. You may decline to agree. This gap is the whole of Stoic freedom.",
+      "practice": "Catch one \"this is terrible\" today and restate it as bare fact."
+    },
+    {
+      "title": "Living according to nature",
+      "text": "To live well is to live in agreement with reason, your own and the world’s. For a human being that means thinking clearly and acting for the common good.",
+      "practice": "Ask of one decision: what would a reasonable, sociable creature do here?"
+    },
+    {
+      "title": "The obstacle becomes the way",
+      "text": "The mind adapts and converts to its own purposes whatever blocks it. A setback is material for patience, courage or inventiveness.",
+      "practice": "Pick today’s main obstacle and name the virtue it lets you practice."
+    },
+    {
+      "title": "The present is all you have",
+      "text": "No one loses any life but the one they are living now. The past and the future are not yours to hold.",
+      "practice": "Give ten minutes to one task as if nothing else existed."
+    },
+    {
+      "title": "The inner citadel",
+      "text": "Nothing outside can enter the ruling part of the mind unless it opens the gate. You can retreat there at any moment.",
+      "practice": "Three times today, stop and take one slow breath inside the citadel."
+    },
+    {
+      "title": "The discipline of desire",
+      "text": "Want only what depends on you and you will never be disappointed. Want anything else and you hand your peace to chance.",
+      "practice": "Notice one craving. Wait twenty minutes. See what remains."
     }
   ],
   "journal": [
@@ -296,106 +767,406 @@
     "What obstacle did you expect, and how did it go?",
     "Who did you treat unjustly or coldly? What would repair it?",
     "What would you do today if it were your last?",
-    "What did you want that you do not need?"
+    "What did you want that you do not need?",
+    "Which impression did you agree to too quickly?",
+    "What did you complain about, aloud or silently? What was the judgment underneath?",
+    "What discomfort did you choose, and what did it teach you?",
+    "Which of your roles did you play well today? Which poorly?",
+    "What did you fear this morning that did not happen?",
+    "Whose opinion mattered to you too much today?",
+    "Where did anger begin, and what would have stopped it?",
+    "What are you treating as yours that is only on loan?",
+    "What did you put off, and what were you avoiding?",
+    "Describe today from far above. What is still visible?",
+    "What would the best person you know have done in your place?",
+    "What did you say that did not need saying?",
+    "Where did you mistake a preference for a need?",
+    "What did someone do that annoyed you, and when have you done the same?",
+    "What good thing did you do without wanting to be seen doing it?",
+    "What would you lose if you lost your reputation? What would you keep?",
+    "Which pleasure today left you smaller?",
+    "What part of today was simply fate? Did you meet it well?",
+    "What did you learn about your own temper?",
+    "Who taught you something today without meaning to?",
+    "If this day repeated forever, what would you change first?",
+    "What are you grateful to have had, even if it ends tomorrow?",
+    "What will you do first tomorrow, and why does it matter?"
   ],
   "reflect": [
-    "What did you control this Onda, and what did you only think you controlled?",
+    "What did you control during this Onda, and what did you only think you controlled?",
     "Which practice changed you the most, and why?",
-    "Where did you resist, and what was the resistance protecting?"
+    "Where did you resist, and what was the resistance protecting?",
+    "Which judgment have you stopped making automatically?",
+    "What do the people close to you see differently in you now?",
+    "What will you keep doing when no app is counting?"
   ],
-  "dayThemes": [],
+  "dayThemes": [
+    "What is up to you",
+    "The view from above",
+    "Impressions and assent",
+    "Premeditation of evils",
+    "Voluntary discomfort",
+    "Memento mori",
+    "The obstacle becomes the way",
+    "Roles and duties",
+    "Anger delayed",
+    "We are made for each other",
+    "The discipline of desire",
+    "Speaking plainly",
+    "The inner citadel",
+    "Accepting fate",
+    "Wisdom",
+    "Justice",
+    "Courage",
+    "Temperance",
+    "The present moment",
+    "Indifferents",
+    "Widening the circle",
+    "Praise and blame",
+    "Loss on loan",
+    "Time well spent",
+    "Making progress",
+    "The reserve clause",
+    "Living according to nature",
+    "Friendship",
+    "A good death, a good day",
+    "What you will keep"
+  ],
   "guide": {
-    "intro": [
-      "Stoicism is a practical philosophy of life. It teaches that we suffer less from events than from the judgments we add to them, and that a good character is enough for a good life.",
-      "It began in a painted porch in Athens, grew through Rome, and sat close to emperors and slaves alike. Its lessons are exercises: things to practice, not theories to admire."
-    ],
     "origin": "Athens, then Rome",
     "era": "c. 300 BCE to 180 CE, revived today",
+    "intro": [
+      "Stoicism is a practical philosophy of life. It teaches that we suffer less from events than from the judgments we add to them, and that a good character is enough for a good life.",
+      "It began around 300 BCE, when Zeno, a merchant from Cyprus who had lost his cargo in a shipwreck, started teaching in a public colonnade on the edge of the Athenian marketplace. The colonnade was the Stoa Poikile, the Painted Porch, and his students were called Stoics after it. For five centuries it was among the most influential schools of the Greek and Roman world, taught to slaves and senators alike.",
+      "The early Stoics divided philosophy into three parts. Logic trained the mind to tell true impressions from false ones. Physics described a single living cosmos, ordered throughout by reason, the logos, of which each human mind is a fragment. Ethics drew the conclusion: since reason is our nature, the good life is a life in agreement with it. They compared the three to an orchard, with logic the wall, physics the trees and ethics the fruit.",
+      "Their central claim is severe and freeing at once. Only virtue is good: wisdom, justice, courage and temperance. Only vice is bad. Everything else, including health, wealth, reputation and life itself, is \"indifferent\". Some indifferents are naturally worth choosing, but none can make you happy or miserable. What can is how you use them, and that is always up to you.",
+      "Almost nothing survives from the founders. What we read today comes from three Romans of the first and second centuries: Seneca, a statesman who wrote letters on how to live; Epictetus, a former slave whose classes were written down by a student; and Marcus Aurelius, an emperor who kept a notebook for himself. They care less about theory than about practice. Their pages are full of exercises: rehearse the day at dawn, examine it at night, picture what you could lose, go without on purpose, pause before you agree to an impression.",
+      "Stoicism faded as a school in the third century but never left. Christian writers borrowed its language, Renaissance scholars revived it, and the founders of cognitive behavioural therapy named Epictetus as a source. This Onda follows the Roman approach: you will not study Stoicism so much as train in it, a day at a time."
+    ],
     "figures": [
       {
         "name": "Zeno of Citium",
-        "dates": "",
-        "bio": "Founder. Taught at the Stoa Poikile, the painted porch that gave the school its name."
+        "dates": "c. 334–262 BCE",
+        "bio": "Founder. A Phoenician merchant from Cyprus who studied under the Cynic Crates and taught at the Painted Porch that gave the school its name."
+      },
+      {
+        "name": "Cleanthes",
+        "dates": "c. 330–230 BCE",
+        "bio": "Zeno’s successor. A former boxer who carried water at night to pay for his studies. His Hymn to Zeus survives."
+      },
+      {
+        "name": "Chrysippus",
+        "dates": "c. 279–206 BCE",
+        "bio": "Third head of the school and its great systematizer, credited with more than 700 works. The ancients said: no Chrysippus, no Stoa."
+      },
+      {
+        "name": "Panaetius of Rhodes",
+        "dates": "c. 185–109 BCE",
+        "bio": "Brought Stoicism to the Roman elite and softened it for people with public duties. Cicero’s On Duties leans on him."
+      },
+      {
+        "name": "Cato the Younger",
+        "dates": "95–46 BCE",
+        "bio": "Roman senator who lived the philosophy more than he wrote it. His death at Utica made him the model Stoic for centuries."
       },
       {
         "name": "Seneca",
-        "dates": "",
-        "bio": "Roman statesman and playwright. Wrote letters on how to live."
+        "dates": "c. 4 BCE–65 CE",
+        "bio": "Statesman, playwright and tutor to Nero. Wrote essays and 124 letters on how to live. Ordered to kill himself in 65."
+      },
+      {
+        "name": "Musonius Rufus",
+        "dates": "c. 30–101 CE",
+        "bio": "Called the Roman Socrates. Exiled more than once. Taught that philosophy is practice and that women should study it too."
       },
       {
         "name": "Epictetus",
-        "dates": "",
-        "bio": "Born a slave. Taught that freedom lives in your own choices."
+        "dates": "c. 50–135 CE",
+        "bio": "Born into slavery in Phrygia, freed in Rome, later ran a school at Nicopolis. Taught that freedom lives in your own choices."
       },
       {
         "name": "Marcus Aurelius",
-        "dates": "",
-        "bio": "Roman emperor. His private notes became the Meditations."
+        "dates": "121–180 CE",
+        "bio": "Roman emperor from 161. His private notes, written in Greek during the Danube wars, became the Meditations."
+      },
+      {
+        "name": "Hierocles",
+        "dates": "2nd century CE",
+        "bio": "Known for the image of concentric circles: draw each wider circle of people toward the centre."
       }
     ],
     "history": [
       {
         "when": "c. 300 BCE",
         "what": "Zeno begins teaching at the Stoa Poikile in Athens",
-        "detail": "The school took its name from the porch, stoa in Greek."
+        "detail": "After a shipwreck cost him his cargo, Zeno read about Socrates in a bookshop, studied for years under several teachers, and then taught in the open air. The school took its name from the porch, stoa in Greek."
       },
       {
-        "when": "c. 200 BCE",
-        "what": "Chrysippus systematizes Stoic logic and ethics",
-        "detail": ""
+        "when": "c. 262 BCE",
+        "what": "Cleanthes succeeds Zeno",
+        "detail": "He held the school together for three decades and gave Stoic theology its most famous text, the Hymn to Zeus."
       },
       {
-        "when": "1st c. CE",
-        "what": "Seneca and Musonius Rufus carry Stoicism through Rome",
-        "detail": ""
+        "when": "c. 230 BCE",
+        "what": "Chrysippus becomes head and systematizes the school",
+        "detail": "He developed propositional logic and defended Stoic ethics against the sceptical Academy. Most later Stoic doctrine is his."
       },
       {
-        "when": "c. 100 CE",
-        "what": "Epictetus teaches; his student Arrian records the Discourses",
-        "detail": ""
+        "when": "155 BCE",
+        "what": "An embassy of philosophers brings Stoicism to Rome",
+        "detail": "Athens sent three philosophers, among them the Stoic Diogenes of Babylon, to argue a fine before the Senate. Their public lectures caused a sensation."
       },
       {
-        "when": "c. 170 CE",
-        "what": "Marcus Aurelius writes the Meditations on campaign",
-        "detail": ""
+        "when": "c. 140 BCE",
+        "what": "Panaetius joins the circle of Scipio Aemilianus",
+        "detail": "Middle Stoicism takes shape: less about the perfect sage, more about ordinary people making progress."
+      },
+      {
+        "when": "46 BCE",
+        "what": "Cato the Younger dies at Utica",
+        "detail": "Rather than accept pardon from Julius Caesar, Cato took his own life after reading Plato’s Phaedo. Later Stoics treated him as proof the philosophy could be lived."
+      },
+      {
+        "when": "44 BCE",
+        "what": "Cicero writes On Duties",
+        "detail": "Not a Stoic himself, Cicero preserved a great deal of Stoic ethics in Latin and coined much of its vocabulary."
+      },
+      {
+        "when": "41–49 CE",
+        "what": "Seneca is exiled to Corsica",
+        "detail": "Banished by Claudius, he wrote consolations to his mother and others. Recalled in 49, he became tutor and then adviser to the young Nero."
+      },
+      {
+        "when": "62–65 CE",
+        "what": "Seneca writes the Letters to Lucilius",
+        "detail": "Withdrawn from court, he wrote 124 letters in three years. In 65, accused of joining a plot, he was ordered to die and opened his veins."
+      },
+      {
+        "when": "c. 93 CE",
+        "what": "Domitian banishes the philosophers from Rome",
+        "detail": "Epictetus left for Nicopolis in north-western Greece and opened a school there that drew students from across the empire."
+      },
+      {
+        "when": "c. 108 CE",
+        "what": "Arrian records the Discourses of Epictetus",
+        "detail": "Epictetus wrote nothing. His student Arrian took down the classes and later distilled them into the Enchiridion, the handbook."
+      },
+      {
+        "when": "c. 170–180 CE",
+        "what": "Marcus Aurelius writes the Meditations",
+        "detail": "Two books are headed \"among the Quadi\" and \"at Carnuntum\", camps on the Danube frontier. He died on campaign in 180."
+      },
+      {
+        "when": "3rd century CE",
+        "what": "The school fades",
+        "detail": "No head of the Stoa is recorded after this. Its ideas pass into Neoplatonism and early Christian ethics."
+      },
+      {
+        "when": "1584",
+        "what": "Justus Lipsius publishes On Constancy",
+        "detail": "The Flemish scholar launched Neostoicism, an attempt to join Stoic ethics with Christian belief during the wars of religion."
+      },
+      {
+        "when": "1955 onward",
+        "what": "Cognitive therapy names its debt",
+        "detail": "Albert Ellis and later Aaron Beck built therapies on the idea that beliefs, not events, cause distress, and both cited Epictetus."
+      },
+      {
+        "when": "2012",
+        "what": "The first Stoic Week",
+        "detail": "Academics and therapists at the University of Exeter invited the public to live as a Stoic for seven days and measured the result. It has run every year since."
       }
     ],
     "concepts": [
       {
         "term": "Virtue",
         "text": "Moral excellence, the one thing fully in your control.",
-        "detail": ""
+        "detail": "The four cardinal virtues are wisdom, justice, courage and temperance. The Stoics held that they are really one thing, knowledge of how to live, seen from four sides. You cannot have one without the others."
       },
       {
         "term": "Indifferents",
         "text": "Health, wealth and reputation. Preferred, but never the point.",
-        "detail": ""
+        "detail": "Calling them indifferent does not mean not caring. It means they cannot make a life good or bad. A wise person chooses health over sickness when it is on offer and loses nothing essential when it is not."
       },
       {
         "term": "Assent",
         "text": "Impressions arrive uninvited. What you agree to is your choice.",
-        "detail": ""
+        "detail": "An impression says \"I have been insulted\". Assent adds \"and that is a bad thing that has happened to me\". Emotion follows the assent, not the impression. Training attention on that moment is the core of Stoic practice."
+      },
+      {
+        "term": "Passions",
+        "text": "Excessive impulses that come from false judgments about good and bad.",
+        "detail": "There are four families: distress and delight about the present, fear and craving about the future. The cure is not suppression but correcting the judgment underneath."
+      },
+      {
+        "term": "Good feelings",
+        "text": "The emotions that follow true judgments.",
+        "detail": "The sage is not numb. In place of delight there is joy; in place of fear, caution; in place of craving, a reasonable wishing. There is no good counterpart to distress."
       },
       {
         "term": "Sympatheia",
         "text": "All things are connected in one living whole.",
-        "detail": ""
+        "detail": "The Stoic cosmos is a single organism pervaded by reason. Nothing happens in isolation, which is why harming another person is a kind of self-harm."
+      },
+      {
+        "term": "Oikeiōsis",
+        "text": "The natural widening of what you care for as your own.",
+        "detail": "A newborn cares for itself, then its parents, then its city. Reason asks you to keep going until the circle holds every human being."
+      },
+      {
+        "term": "Fate and freedom",
+        "text": "Everything is caused; your character is one of the causes.",
+        "detail": "Chrysippus compared us to a cylinder pushed down a slope. The push comes from outside, but it rolls as it does because of its own shape. What happens is fated; how you meet it is yours."
+      },
+      {
+        "term": "The three disciplines",
+        "text": "Desire, action and assent.",
+        "detail": "Epictetus organised training into three fields: wanting only what depends on you, acting well toward others, and judging impressions carefully. Pierre Hadot showed the Meditations follows the same plan."
+      },
+      {
+        "term": "Living according to nature",
+        "text": "The Stoic formula for the goal of life.",
+        "detail": "Not a call to the countryside. Human nature is rational and social, so to follow nature is to think truthfully and act for the common good."
       }
     ],
     "facts": [
       {
-        "text": "Epictetus was lame, and by tradition his leg was broken by his master."
+        "text": "The word stoic comes from the Stoa Poikile, the Painted Porch, a public colonnade decorated with battle scenes. Its foundations were found in the Athenian Agora in 1981."
       },
       {
-        "text": "Marcus Aurelius never meant the Meditations to be published. The title is not his."
+        "text": "Marcus Aurelius never meant the Meditations to be read. The title is not his; the manuscript tradition calls it \"To Himself\"."
       },
       {
-        "text": "The word stoic comes from the painted porch where Zeno taught."
+        "text": "Epictetus was lame. One ancient source says his master broke his leg; another says he was lame from childhood."
+      },
+      {
+        "text": "Zeno said of his shipwreck: I made a prosperous voyage when I was wrecked."
+      },
+      {
+        "text": "Cleanthes paid for philosophy by drawing water for gardens at night. Athenians nicknamed him the Well-Drawer."
+      },
+      {
+        "text": "Chrysippus is said to have died laughing at his own joke, after seeing a donkey eat his figs."
+      },
+      {
+        "text": "Seneca was among the richest men in Rome, and his critics never let him forget it. He replied that a wise man does not love wealth but prefers to have it."
+      },
+      {
+        "text": "Admiral James Stockdale, shot down over Vietnam in 1965, credited Epictetus for surviving more than seven years as a prisoner of war."
+      },
+      {
+        "text": "Stoic logic, long overlooked in favour of Aristotle’s, anticipated the propositional logic developed in the nineteenth century."
       }
     ],
-    "glossary": [],
-    "furtherReading": [],
-    "learnFrom": [],
-    "sources": []
+    "glossary": [
+      {
+        "term": "Stoa Poikile",
+        "meaning": "The Painted Porch in Athens where the school began."
+      },
+      {
+        "term": "Sage",
+        "meaning": "The perfectly wise person. An ideal to steer by rather than a claim anyone made."
+      },
+      {
+        "term": "Discourses",
+        "meaning": "Arrian’s record of Epictetus teaching. Four of eight books survive."
+      },
+      {
+        "term": "Enchiridion",
+        "meaning": "Greek for handbook: Arrian’s short digest of Epictetus."
+      },
+      {
+        "term": "Neostoicism",
+        "meaning": "The sixteenth-century revival led by Justus Lipsius."
+      },
+      {
+        "term": "Cynics",
+        "meaning": "The school of Diogenes that taught Zeno: virtue is enough, convention is nothing."
+      }
+    ],
+    "furtherReading": [
+      {
+        "title": "The Hellenistic Philosophers",
+        "creator": "A. A. Long and D. N. Sedley",
+        "year": "1987",
+        "note": "The standard sourcebook of surviving fragments, with commentary."
+      },
+      {
+        "title": "Stoicism",
+        "creator": "John Sellars",
+        "year": "2006",
+        "note": "A clear academic introduction to the whole system."
+      },
+      {
+        "title": "Philosophy as a Way of Life",
+        "creator": "Pierre Hadot",
+        "year": "1995",
+        "note": "Why ancient philosophy was a set of exercises before it was a set of doctrines."
+      },
+      {
+        "title": "A Guide to the Good Life",
+        "creator": "William B. Irvine",
+        "year": "2008",
+        "note": "An accessible modern adaptation."
+      },
+      {
+        "title": "Epictetus: A Stoic and Socratic Guide to Life",
+        "creator": "A. A. Long",
+        "year": "2002",
+        "note": "The best single study of Epictetus."
+      },
+      {
+        "title": "Lives of the Eminent Philosophers, Book 7",
+        "creator": "Diogenes Laertius",
+        "year": "3rd century CE",
+        "note": "The main ancient source for the lives and doctrines of the early Stoics."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Stoicism",
+        "creator": "Marion Durand, Simon Shogry and Dirk Baltzly",
+        "publisher": "Stanford Encyclopedia of Philosophy"
+      },
+      {
+        "title": "Epictetus",
+        "creator": "Margaret Graver",
+        "publisher": "Stanford Encyclopedia of Philosophy"
+      },
+      {
+        "title": "Marcus Aurelius",
+        "creator": "Rachana Kamtekar",
+        "publisher": "Stanford Encyclopedia of Philosophy"
+      },
+      {
+        "title": "Seneca",
+        "creator": "Katja Vogt",
+        "publisher": "Stanford Encyclopedia of Philosophy"
+      },
+      {
+        "title": "Lives of the Eminent Philosophers, Book 7",
+        "creator": "Diogenes Laertius, trans. R. D. Hicks",
+        "publisher": "Loeb Classical Library",
+        "year": "1925"
+      },
+      {
+        "title": "The Hellenistic Philosophers, vol. 1",
+        "creator": "A. A. Long and D. N. Sedley",
+        "publisher": "Cambridge University Press",
+        "year": "1987"
+      },
+      {
+        "title": "The Inner Citadel: The Meditations of Marcus Aurelius",
+        "creator": "Pierre Hadot, trans. Michael Chase",
+        "publisher": "Harvard University Press",
+        "year": "1998"
+      },
+      {
+        "title": "Meditations: A New Translation",
+        "creator": "Marcus Aurelius, trans. Gregory Hays",
+        "publisher": "Modern Library",
+        "year": "2002"
+      }
+    ]
   }
 }

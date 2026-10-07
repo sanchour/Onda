@@ -1,56 +1,282 @@
 {
-  "version": 1,
+  "version": 2,
   "id": "transc",
   "name": "Transcendentalism",
   "origin": "New England",
+  "era": "1836 to the 1860s, and its heirs",
   "tone": "purple",
   "icon": "tree",
-  "line": "Simplify. Live deliberately, close to nature.",
-  "era": "1830s to 1850s",
   "font": "Libre Baskerville",
   "pattern": "ruled-lines",
   "glyph": "Nature",
+  "line": "Simplify. Live deliberately, close to nature.",
   "quote": {
-    "text": "I went to the woods because I wished to live deliberately.",
-    "by": "Henry David Thoreau, Walden",
-    "source": ""
+    "text": "I went to the woods because I wished to live deliberately, to front only the essential facts of life.",
+    "by": "Henry David Thoreau",
+    "source": "Walden, 1854"
   },
-  "quotes": [],
+  "quotes": [
+    {
+      "text": "Trust thyself: every heart vibrates to that iron string.",
+      "by": "Ralph Waldo Emerson",
+      "source": "Self-Reliance, 1841"
+    },
+    {
+      "text": "In the woods, we return to reason and faith.",
+      "by": "Ralph Waldo Emerson",
+      "source": "Nature, 1836"
+    },
+    {
+      "text": "Our life is frittered away by detail. Simplicity, simplicity, simplicity!",
+      "by": "Henry David Thoreau",
+      "source": "Walden, 1854"
+    },
+    {
+      "text": "Very early, I knew that the only object in life was to grow.",
+      "by": "Margaret Fuller",
+      "source": "Memoirs of Margaret Fuller Ossoli, 1852"
+    },
+    {
+      "text": "In Wildness is the preservation of the World.",
+      "by": "Henry David Thoreau",
+      "source": "Walking, 1862"
+    },
+    {
+      "text": "If a man does not keep pace with his companions, perhaps it is because he hears a different drummer.",
+      "by": "Henry David Thoreau",
+      "source": "Walden, 1854"
+    }
+  ],
   "words": [
     {
       "id": "word-self-reliance",
       "term": "Self-reliance",
-      "meaning": "Trust your own mind"
+      "meaning": "Trust in your own mind and conscience",
+      "language": "English",
+      "usage": "The title of Emerson’s 1841 essay. Not self-sufficiency: fidelity to your own perception."
     },
     {
-      "id": "word-oversoul",
-      "term": "Oversoul",
-      "meaning": "The shared spirit in all"
+      "id": "word-over-soul",
+      "term": "Over-Soul",
+      "meaning": "The shared spirit within and beyond every person",
+      "language": "English, coined by Emerson",
+      "usage": "That unity within which every particular being is contained and made one with all others."
     },
     {
-      "id": "word-simplicity",
-      "term": "Simplicity",
-      "meaning": "Fewer things, more life"
+      "id": "word-transcendental",
+      "term": "Transcendental",
+      "meaning": "Known by intuition, beyond what the senses give",
+      "pronunciation": "tran-sen-DEN-tul",
+      "language": "From Kant’s German, via Coleridge",
+      "usage": "The name was first used to mock the group. They kept it."
     },
     {
-      "id": "word-sauntering",
-      "term": "Sauntering",
-      "meaning": "Walking as practice"
+      "id": "word-reason",
+      "term": "Reason",
+      "meaning": "The faculty that sees truth directly",
+      "language": "English, in Coleridge’s sense",
+      "usage": "Opposed to the Understanding, which only calculates and compares."
     },
     {
-      "id": "word-nonconformity",
-      "term": "Nonconformity",
-      "meaning": "Refusing the crowd’s script"
-    },
-    {
-      "id": "word-correspondence",
-      "term": "Correspondence",
-      "meaning": "Nature mirrors the mind"
+      "id": "word-intuition",
+      "term": "Intuition",
+      "meaning": "Primary wisdom, before teaching",
+      "language": "English",
+      "usage": "Emerson: we denote this primary wisdom as Intuition, whilst all later teachings are tuitions."
     },
     {
       "id": "word-deliberately",
       "term": "Deliberately",
-      "meaning": "With attention and intention"
+      "meaning": "With full attention and by choice",
+      "language": "English",
+      "usage": "The key word of Walden. From the Latin for weighing."
+    },
+    {
+      "id": "word-simplicity",
+      "term": "Simplicity",
+      "meaning": "Fewer things, more life",
+      "language": "English",
+      "usage": "Thoreau: let your affairs be as two or three, and not a hundred or a thousand."
+    },
+    {
+      "id": "word-economy",
+      "term": "Economy",
+      "meaning": "The real cost of things, counted in life",
+      "language": "English, from Greek oikonomia",
+      "usage": "The first and longest chapter of Walden. The cost of a thing is the amount of life exchanged for it."
+    },
+    {
+      "id": "word-sauntering",
+      "term": "Sauntering",
+      "meaning": "Walking as a practice, without errand",
+      "pronunciation": "SAWN-ter-ing",
+      "language": "English",
+      "usage": "Thoreau fancifully derives it from pilgrims going à la Sainte Terre, to the Holy Land."
+    },
+    {
+      "id": "word-wildness",
+      "term": "Wildness",
+      "meaning": "The untamed, in nature and in the mind",
+      "language": "English",
+      "usage": "Not the same as wilderness. Thoreau found it in a swamp at the edge of town."
+    },
+    {
+      "id": "word-nonconformity",
+      "term": "Nonconformity",
+      "meaning": "Refusing the crowd’s script",
+      "language": "English",
+      "usage": "Emerson: whoso would be a man must be a nonconformist."
+    },
+    {
+      "id": "word-correspondence",
+      "term": "Correspondence",
+      "meaning": "Nature as a mirror of the mind",
+      "language": "English, from Swedenborg",
+      "usage": "Every natural fact is a symbol of some spiritual fact."
+    },
+    {
+      "id": "word-the-not-me",
+      "term": "The Not-Me",
+      "meaning": "Everything that is not the soul",
+      "language": "English, Emerson",
+      "usage": "His definition of nature: all that is separate from us, including one’s own body."
+    },
+    {
+      "id": "word-transparent-eyeball",
+      "term": "Transparent eyeball",
+      "meaning": "The self dissolved in seeing",
+      "language": "English, Emerson",
+      "usage": "\"I am nothing; I see all.\" The most quoted and most teased image in Nature."
+    },
+    {
+      "id": "word-higher-law",
+      "term": "Higher law",
+      "meaning": "Conscience, above statute",
+      "language": "English",
+      "usage": "What one obeys when the law of the land requires injustice."
+    },
+    {
+      "id": "word-civil-disobedience",
+      "term": "Civil disobedience",
+      "meaning": "Openly refusing an unjust law and accepting the penalty",
+      "language": "English",
+      "usage": "The later title of Thoreau’s 1849 essay."
+    },
+    {
+      "id": "word-conscience",
+      "term": "Conscience",
+      "meaning": "The inner voice of right",
+      "pronunciation": "KON-shuns",
+      "language": "English",
+      "usage": "Thoreau: must the citizen resign his conscience to the legislator? Why has every man a conscience, then?"
+    },
+    {
+      "id": "word-self-culture",
+      "term": "Self-culture",
+      "meaning": "The lifelong cultivation of one’s powers",
+      "language": "English",
+      "usage": "From the Unitarian William Ellery Channing. The German word is Bildung."
+    },
+    {
+      "id": "word-genius",
+      "term": "Genius",
+      "meaning": "The voice of one’s own nature",
+      "pronunciation": "JEEN-yus",
+      "language": "English",
+      "usage": "Emerson: to believe that what is true for you in your private heart is true for all, that is genius."
+    },
+    {
+      "id": "word-compensation",
+      "term": "Compensation",
+      "meaning": "The balance that runs through all things",
+      "language": "English",
+      "usage": "An Emerson essay: every excess causes a defect, every defect an excess."
+    },
+    {
+      "id": "word-circles",
+      "term": "Circles",
+      "meaning": "Every truth is surrounded by a larger one",
+      "language": "English",
+      "usage": "An Emerson essay. Around every circle another can be drawn."
+    },
+    {
+      "id": "word-lyceum",
+      "term": "Lyceum",
+      "meaning": "A hall for public lectures",
+      "pronunciation": "lye-SEE-um",
+      "language": "English, from Greek",
+      "usage": "How Emerson earned his living, town by town, for forty years."
+    },
+    {
+      "id": "word-conversation",
+      "term": "Conversation",
+      "meaning": "Guided discussion as a method of education",
+      "language": "English",
+      "usage": "Margaret Fuller’s paid \"Conversations\" for Boston women, 1839 to 1844."
+    },
+    {
+      "id": "word-commonplace-book",
+      "term": "Commonplace book",
+      "meaning": "A notebook of passages copied from one’s reading",
+      "language": "English",
+      "usage": "Both men kept them alongside their journals."
+    },
+    {
+      "id": "word-journal",
+      "term": "Journal",
+      "meaning": "The daily record of observation and thought",
+      "language": "English",
+      "usage": "Thoreau’s runs to some two million words. Emerson called his a savings bank."
+    },
+    {
+      "id": "word-extra-vagant",
+      "term": "Extra-vagant",
+      "meaning": "Wandering beyond the usual bounds",
+      "language": "English, Thoreau’s pun",
+      "usage": "From the Latin for wandering outside. He feared his writing was not extra-vagant enough."
+    },
+    {
+      "id": "word-awake",
+      "term": "Awake",
+      "meaning": "Fully alive to the present",
+      "language": "English",
+      "usage": "Thoreau: to be awake is to be alive. I have never yet met a man who was quite awake."
+    },
+    {
+      "id": "word-solitude",
+      "term": "Solitude",
+      "meaning": "Being alone without being lonely",
+      "language": "English",
+      "usage": "A chapter of Walden: I never found the companion that was so companionable as solitude."
+    },
+    {
+      "id": "word-musketaquid",
+      "term": "Musketaquid",
+      "meaning": "Grass-ground river",
+      "pronunciation": "mus-KET-uh-kwid",
+      "language": "Algonquian",
+      "usage": "The name the area’s first people gave the Concord River. Thoreau used it."
+    },
+    {
+      "id": "word-huckleberrying",
+      "term": "Huckleberrying",
+      "meaning": "Going out to pick wild berries",
+      "language": "English",
+      "usage": "Thoreau led the town’s children on berry-picking parties and thought it an education."
+    },
+    {
+      "id": "word-reform",
+      "term": "Reform",
+      "meaning": "Changing society by first changing oneself",
+      "language": "English",
+      "usage": "They argued about which comes first, and joined abolition either way."
+    },
+    {
+      "id": "word-vocation",
+      "term": "Vocation",
+      "meaning": "A calling; the work that is yours",
+      "language": "English, from Latin",
+      "usage": "Emerson: each man has his own vocation. The talent is the call."
     }
   ],
   "practices": [
@@ -62,9 +288,13 @@
       "time": "06:30",
       "minutes": 15,
       "meta": "Morning · 15 min",
-      "instructions": "",
-      "why": "",
-      "variations": []
+      "instructions": "Before reading anything, write by hand for fifteen minutes. Begin with what you observe: the light, the weather, the state of your mind. Then follow whatever thought is most alive. Do not edit and do not write for a reader. Date the entry.",
+      "why": "Emerson asked the young Thoreau, \"Do you keep a journal?\" and Thoreau began one that day and kept it for twenty-four years. The phrase \"morning pages\" is modern. The habit of writing at dawn is theirs.",
+      "variations": [
+        "Start with one precise observation from the window.",
+        "Copy a sentence from yesterday’s reading and answer it.",
+        "Write outdoors."
+      ]
     },
     {
       "id": "saunter",
@@ -72,10 +302,15 @@
       "icon": "person-simple-walk",
       "slot": "Afternoon",
       "time": "12:00",
+      "minutes": 60,
       "meta": "Midday · 1 hour, no phone",
-      "instructions": "",
-      "why": "",
-      "variations": []
+      "instructions": "Walk for an hour without a phone, a route or a purpose. Go toward whatever is least built: a park, a river, a field edge. Let the walking set the thinking. If your mind stays in the office, notice that your body has gone for a walk without you, and call it back.",
+      "why": "Thoreau wrote that he could not keep his health and spirits without at least four hours a day sauntering through woods and fields, absolutely free from worldly engagements.",
+      "variations": [
+        "Walk the same path all week and note what changes.",
+        "Walk before dawn or after dark.",
+        "Walk in whatever direction you have never gone."
+      ]
     },
     {
       "id": "read-aloud",
@@ -85,9 +320,13 @@
       "time": "16:00",
       "minutes": 20,
       "meta": "Afternoon · 20 min",
-      "instructions": "",
-      "why": "",
-      "variations": []
+      "instructions": "Read a few pages of Walden, an Emerson essay or a Whitman poem aloud, slowly enough to hear the sentences. Mark one passage. Read it again and ask whether you believe it.",
+      "why": "These are spoken texts. Emerson’s essays began as lectures, and Thoreau’s Walden was delivered in the Concord Lyceum before it was a book.",
+      "variations": [
+        "Read to someone else and talk about it afterwards.",
+        "Read outdoors.",
+        "Learn one sentence by heart."
+      ]
     },
     {
       "id": "nature-journal",
@@ -97,9 +336,13 @@
       "time": "19:30",
       "minutes": 10,
       "meta": "Evening · 10 min",
-      "instructions": "",
-      "why": "",
-      "variations": []
+      "instructions": "Record what you saw in the natural world today, with the date: which plants are in leaf or flower, which birds, what the sky did, the temperature, the first or last of anything. Be exact. Sketch if you like. Leave out your opinions.",
+      "why": "In his last decade Thoreau filled his journal with dated records of when each plant flowered and each bird arrived around Concord. Scientists now use them to measure how the climate has shifted.",
+      "variations": [
+        "Follow one tree or one patch of ground.",
+        "Record first sightings of the season.",
+        "Note sunrise and sunset times and what the moon is doing."
+      ]
     }
   ],
   "tasks": [
@@ -116,28 +359,45 @@
       "meta": "And notice the urge",
       "time": "18:00",
       "slot": "Evening"
+    },
+    {
+      "id": "keep-an-account",
+      "name": "Keep an account",
+      "meta": "Write down everything you spend",
+      "time": "20:00",
+      "slot": "Evening"
     }
   ],
   "rules": [
     {
       "id": "r1",
       "text": "Walk outdoors every day",
-      "why": ""
+      "why": "Thinking, for them, was done on foot and in weather."
     },
     {
       "id": "r2",
       "text": "Buy nothing nonessential",
-      "why": ""
+      "why": "A man is rich in proportion to the number of things which he can afford to let alone."
     },
     {
       "id": "r3",
       "text": "One hour without phone",
-      "why": ""
+      "why": "Thoreau on the telegraph: we are in great haste to connect Maine and Texas, but Maine and Texas, it may be, have nothing important to communicate."
     },
     {
       "id": "r4",
       "text": "Trust one decision of your own",
-      "why": ""
+      "why": "Self-reliance is practiced in small acts: say what you think, choose without polling."
+    },
+    {
+      "id": "r5",
+      "text": "Say what you think today",
+      "why": "Emerson: speak what you think now in hard words, and tomorrow speak what tomorrow thinks, though it contradict everything you said today."
+    },
+    {
+      "id": "r6",
+      "text": "Do not cooperate with what you believe is wrong",
+      "why": "The lesson of Thoreau’s night in jail. Start small and close to home."
     }
   ],
   "immerse": {
@@ -146,257 +406,748 @@
         "id": "read-walden",
         "title": "Walden",
         "creator": "Henry David Thoreau",
-        "why": ""
+        "year": "1854",
+        "why": "Two years by a pond, compressed into one. Start with \"Where I Lived, and What I Lived For\"."
       },
       {
         "id": "read-self-reliance",
         "title": "Self-Reliance",
         "creator": "Ralph Waldo Emerson",
-        "why": ""
+        "year": "1841",
+        "why": "The essay. Read it standing up."
       },
       {
         "id": "read-nature",
         "title": "Nature",
         "creator": "Ralph Waldo Emerson",
-        "why": ""
+        "year": "1836",
+        "why": "The small book that started it."
+      },
+      {
+        "id": "read-walking",
+        "title": "Walking",
+        "creator": "Henry David Thoreau",
+        "year": "1862",
+        "why": "A lecture he gave for years, published a month after he died."
+      },
+      {
+        "id": "read-civil-disobedience",
+        "title": "Civil Disobedience",
+        "creator": "Henry David Thoreau",
+        "year": "1849",
+        "why": "Why he spent a night in jail, and why you might."
+      },
+      {
+        "id": "read-woman-in-the-nineteenth-century",
+        "title": "Woman in the Nineteenth Century",
+        "creator": "Margaret Fuller",
+        "year": "1845",
+        "why": "The first major American work of feminism."
+      },
+      {
+        "id": "read-leaves-of-grass",
+        "title": "Leaves of Grass",
+        "creator": "Walt Whitman",
+        "year": "1855",
+        "why": "The poet Emerson had called for. Read \"Song of Myself\"."
+      },
+      {
+        "id": "read-the-journal-1837-1861",
+        "title": "The Journal, 1837–1861",
+        "creator": "Henry David Thoreau, ed. Damion Searls",
+        "year": "2009",
+        "why": "A one-volume selection from the two million words."
+      },
+      {
+        "id": "read-pilgrim-at-tinker-creek",
+        "title": "Pilgrim at Tinker Creek",
+        "creator": "Annie Dillard",
+        "year": "1974",
+        "why": "A year by a Virginia creek, by Thoreau’s most gifted heir."
       }
     ],
     "watch": [
       {
-        "id": "watch-little-women-2019",
-        "title": "Little Women (2019)",
-        "creator": "Alcott and Concord",
-        "why": ""
+        "id": "watch-walden",
+        "title": "Walden",
+        "creator": "Ewers Brothers Productions",
+        "year": "2017",
+        "why": "A short documentary on the pond and the book, made for Thoreau’s bicentennial."
       },
       {
-        "id": "watch-documentary-on-walden-pond",
-        "title": "Documentary on Walden Pond",
-        "creator": "Any good one",
-        "why": ""
+        "id": "watch-henry-david-thoreau-surveyor-of-the-soul",
+        "title": "Henry David Thoreau: Surveyor of the Soul",
+        "creator": "Huey",
+        "year": "2017",
+        "why": "A feature documentary on his life and afterlife."
+      },
+      {
+        "id": "watch-little-women",
+        "title": "Little Women",
+        "creator": "Greta Gerwig",
+        "year": "2019",
+        "why": "The Alcotts’ Concord. Louisa grew up down the road from Emerson."
+      },
+      {
+        "id": "watch-dead-poets-society",
+        "title": "Dead Poets Society",
+        "creator": "Peter Weir",
+        "year": "1989",
+        "why": "Thoreau and Whitman in a boarding school."
+      },
+      {
+        "id": "watch-into-the-wild",
+        "title": "Into the Wild",
+        "creator": "Sean Penn",
+        "year": "2007",
+        "why": "A young man takes Thoreau literally. A warning as much as a tribute."
       }
     ],
     "listen": [
       {
-        "id": "listen-concord-sonata",
-        "title": "Concord Sonata",
-        "creator": "Charles Ives, piano",
-        "why": ""
+        "id": "listen-piano-sonata-no-2-concord-mass-1840-60",
+        "title": "Piano Sonata No. 2, \"Concord, Mass., 1840–60\"",
+        "creator": "Charles Ives",
+        "year": "1920",
+        "why": "Four movements: Emerson, Hawthorne, The Alcotts, Thoreau."
       },
       {
-        "id": "listen-birdsong-at-dawn",
-        "title": "Birdsong at dawn",
-        "creator": "Field recordings",
-        "why": ""
+        "id": "listen-in-our-time-thoreau-and-the-american-idyll",
+        "title": "In Our Time: Thoreau and the American Idyll",
+        "creator": "BBC Radio 4, Melvyn Bragg",
+        "year": "2009",
+        "why": "Scholars on Walden and what it started."
+      },
+      {
+        "id": "listen-simple-gifts",
+        "title": "Simple Gifts",
+        "creator": "Joseph Brackett",
+        "year": "1848",
+        "why": "A Shaker dance song from the same New England years: ’tis the gift to be simple."
+      },
+      {
+        "id": "listen-walden-read-aloud",
+        "title": "Walden, read aloud",
+        "creator": "Any unabridged recording",
+        "why": "On a long walk."
+      },
+      {
+        "id": "listen-the-dawn-chorus",
+        "title": "The dawn chorus",
+        "creator": "Outside your window",
+        "why": "Thoreau: morning is when I am awake and there is a dawn in me."
       }
     ],
     "art": [
       {
-        "id": "art-hudson-river-school",
-        "title": "Hudson River School",
-        "creator": "Thomas Cole, Frederic Church",
-        "why": ""
+        "id": "art-the-oxbow",
+        "title": "The Oxbow",
+        "creator": "Thomas Cole",
+        "year": "1836",
+        "why": "Wilderness and farmland on one canvas, painted the year Nature was published."
       },
       {
-        "id": "art-winslow-homer",
-        "title": "Winslow Homer",
-        "creator": "Watercolors of woods and water",
-        "why": ""
+        "id": "art-kindred-spirits",
+        "title": "Kindred Spirits",
+        "creator": "Asher B. Durand",
+        "year": "1849",
+        "why": "A painter and a poet on a ledge in the Catskills."
+      },
+      {
+        "id": "art-walden-pond",
+        "title": "Walden Pond",
+        "creator": "Concord, Massachusetts",
+        "why": "The pond, the cabin site marked by stones, and a replica of the house."
+      },
+      {
+        "id": "art-the-transparent-eyeball",
+        "title": "The transparent eyeball",
+        "creator": "Christopher Pearse Cranch",
+        "year": "c. 1837",
+        "why": "A friend’s cartoon of Emerson as an eyeball on legs. They could laugh at themselves."
+      },
+      {
+        "id": "art-emerson-seated",
+        "title": "Emerson, seated",
+        "creator": "Daniel Chester French",
+        "year": "1914",
+        "why": "The statue in the Concord Free Public Library, by a sculptor who knew him."
       }
     ],
     "eat": [
       {
         "id": "eat-bread-and-beans",
         "title": "Bread and beans",
-        "creator": "Thoreau’s Walden fare",
-        "why": ""
+        "creator": "Baked beans, unleavened bread",
+        "why": "Thoreau hoed seven miles of bean rows and baked his bread on a shingle over the fire."
       },
       {
         "id": "eat-berries",
         "title": "Berries",
-        "creator": "Gathered in season",
-        "why": ""
+        "creator": "Picked yourself if possible",
+        "why": "He thought a huckleberry never reaches Boston: the essence is lost in the cart."
       },
       {
         "id": "eat-a-simple-one-pot-meal",
         "title": "A simple one-pot meal",
-        "creator": "Cook it yourself",
-        "why": ""
+        "creator": "Rice, beans, vegetables",
+        "why": "His food at the pond cost him about twenty-seven cents a week."
+      },
+      {
+        "id": "eat-apples",
+        "title": "Apples",
+        "creator": "An old variety",
+        "why": "His late essay \"Wild Apples\" praises the sour, uncultivated ones."
       }
     ],
     "drink": [
       {
-        "id": "drink-spring-water",
-        "title": "Spring water",
-        "creator": "Thoreau’s drink",
-        "why": ""
+        "id": "drink-water",
+        "title": "Water",
+        "creator": "From a spring or the tap",
+        "why": "Thoreau: I believe that water is the only drink for a wise man."
       },
       {
         "id": "drink-herbal-tea",
         "title": "Herbal tea",
-        "creator": "From garden herbs",
-        "why": ""
+        "creator": "From something that grows near you",
+        "why": "Mint, lemon balm, pine needles."
+      },
+      {
+        "id": "drink-sweet-cider",
+        "title": "Sweet cider",
+        "creator": "Fresh-pressed apple",
+        "why": "The drink of a New England autumn."
       }
     ],
     "customs": [
       {
         "id": "customs-keep-a-journal",
         "title": "Keep a journal",
-        "creator": "Emerson and Thoreau wrote daily",
-        "why": ""
+        "creator": "Daily",
+        "why": "Emerson and Thoreau both wrote in theirs almost every day of their adult lives."
       },
       {
         "id": "customs-walk-four-hours",
         "title": "Walk four hours",
-        "creator": "Thoreau’s ideal saunter",
-        "why": ""
+        "creator": "Thoreau’s ideal",
+        "why": "Or as close as your day allows."
       },
       {
         "id": "customs-read-in-the-open-air",
         "title": "Read in the open air",
         "creator": "Take a book outside",
-        "why": ""
+        "why": "He kept Homer on his table at the pond."
+      },
+      {
+        "id": "customs-three-chairs",
+        "title": "Three chairs",
+        "creator": "One for solitude, two for friendship, three for society",
+        "why": "How Thoreau furnished his house. Invite one person for real conversation."
+      },
+      {
+        "id": "customs-keep-an-account",
+        "title": "Keep an account",
+        "creator": "Of what you spend and why",
+        "why": "Walden lists the cost of the house to the half cent: twenty-eight dollars, twelve and a half cents."
+      },
+      {
+        "id": "customs-go-to-a-lecture",
+        "title": "Go to a lecture",
+        "creator": "And talk about it afterwards",
+        "why": "The lyceum was their internet. Listen to one long talk in company."
       }
     ]
   },
   "ethics": [
     {
       "title": "Trust thyself",
-      "text": "Emerson: every heart vibrates to that iron string."
+      "text": "Believe your own thought. The conviction in your private heart, honestly held, is your contribution. Imitation is suicide.",
+      "practice": "Give your real opinion once today where you would normally hedge."
     },
     {
       "title": "Live deliberately",
-      "text": "Choose what to spend your life on."
+      "text": "Choose what you do and know why. Do not arrive at death and discover you had not lived.",
+      "practice": "Before one habitual act today, ask whether you chose it."
     },
     {
       "title": "Obey conscience over law",
-      "text": "Thoreau’s Civil Disobedience."
+      "text": "When the law requires you to be the agent of injustice to another, break the law. The only obligation is to do what you think right.",
+      "practice": "Find one small complicity and withdraw from it."
+    },
+    {
+      "title": "Simplify",
+      "text": "Each possession and commitment costs life. Keep the ones worth the price.",
+      "practice": "Remove one obligation or one object this week."
+    },
+    {
+      "title": "Self-culture",
+      "text": "Your first duty is to become fully yourself, because that is what you have to give.",
+      "practice": "Spend an hour today on what develops you, not on what is urgent."
+    },
+    {
+      "title": "Act on principle",
+      "text": "They moved from essays to the Underground Railroad. A belief that costs nothing is only an opinion.",
+      "practice": "Do one concrete thing for a cause you say you care about."
     }
   ],
   "philosophy": [
     {
       "title": "Nature as teacher",
-      "text": "The outer world mirrors the inner."
+      "text": "The natural world is not scenery. Attended to closely, it instructs: in patience, in economy, in the laws of your own mind.",
+      "practice": "Watch one natural process for ten minutes and write what it teaches."
     },
     {
       "title": "Self-reliance",
-      "text": "Do not borrow your life from the crowd."
+      "text": "Society is in conspiracy against the independence of each of its members. The virtue most in request is conformity. Self-reliance is its aversion.",
+      "practice": "Notice one thing you do only because others do."
     },
     {
       "title": "Simplicity",
-      "text": "Reduce to what is necessary."
+      "text": "Most of what we call necessities are not. Reduce your wants and you buy back your time.",
+      "practice": "List what you truly need for a good day. It will be short."
     },
     {
       "title": "The Oversoul",
-      "text": "A spirit common to all minds."
+      "text": "One mind is common to all individual people. In quiet you can feel that the deepest thing in you is not private.",
+      "practice": "Sit in silence for ten minutes and listen for what is not your chatter."
+    },
+    {
+      "title": "The infinitude of the private person",
+      "text": "Emerson said he had taught one doctrine: the infinitude of the private man. Each person has direct access to truth.",
+      "practice": "Take one of your own unspoken ideas seriously today."
+    },
+    {
+      "title": "Correspondence",
+      "text": "The laws of nature and the laws of the mind answer to each other. A fact fully seen becomes a metaphor.",
+      "practice": "Find in today’s weather a picture of your own state."
+    },
+    {
+      "title": "The present",
+      "text": "These roses under my window make no reference to former roses. They exist with God today. Only man postpones and remembers.",
+      "practice": "Give one hour to exactly what is in front of you."
+    },
+    {
+      "title": "Compensation",
+      "text": "Nothing is got for nothing. Every gain has its price and every loss its gift.",
+      "practice": "Name the hidden cost of something you wanted and got."
+    },
+    {
+      "title": "Wildness",
+      "text": "Life consists with wildness. The most alive is the wildest. What is tame in you is what has gone dead.",
+      "practice": "Do one small unscheduled thing."
+    },
+    {
+      "title": "Awakening",
+      "text": "Most people are half asleep. To be awake is to be alive, and it takes practice every morning.",
+      "practice": "Tomorrow, greet the dawn on your feet."
     }
   ],
   "journal": [
-    "What did you notice outdoors that you had not before?",
-    "What did you do today because of the crowd, and what because of you?",
-    "What could you live without?",
-    "What conviction would you follow if no one watched?",
-    "What was the best hour of the day?",
-    "What did you read that spoke to you?",
-    "What would living deliberately change tomorrow?"
+    "What did you see outdoors that you had not noticed?",
+    "Where did you follow the crowd, and where yourself?",
+    "What could you remove from your life?",
+    "What felt most alive today?",
+    "What did your walk give you?",
+    "What did you buy, or want to buy, and why?",
+    "What did you say today that you actually think?",
+    "What did you leave unsaid?",
+    "What is the true cost of something you own?",
+    "When were you awake today?",
+    "What did the morning look like?",
+    "Which sentence from your reading stayed with you?",
+    "Where did you imitate?",
+    "What does your conscience say about how you earn or spend?",
+    "What did the weather teach you?",
+    "What would you do if you needed no one’s approval?",
+    "What is flowering, fruiting or fading where you live?",
+    "What did solitude give you? What did company give you?",
+    "What habit is living your life for you?",
+    "What law, rule or custom are you obeying against your judgement?",
+    "What is enough?",
+    "Which of your possessions owns you?",
+    "What did you do today only for its own sake?",
+    "Where do you feel most yourself?",
+    "What would you do with one more free hour a day?",
+    "What did you learn from a person you disagree with?",
+    "What are you postponing?",
+    "What wild thing is left in you?",
+    "What do you believe that you have never tested?",
+    "What are you living for?"
   ],
   "reflect": [
-    "What did you simplify, and what returned?",
+    "What did living deliberately show you about your ordinary days?",
     "Which practice changed you the most, and why?",
-    "What will you keep of this slower life?"
+    "Where did you resist, and what was the resistance protecting?",
+    "What did you remove, and do you miss it?",
+    "Where did you trust yourself, and what happened?",
+    "What will you keep, now that you are leaving the woods?"
   ],
-  "dayThemes": [],
+  "dayThemes": [
+    "Living deliberately",
+    "Trust thyself",
+    "Nature as teacher",
+    "Simplicity",
+    "Sauntering",
+    "Economy",
+    "Awake",
+    "Solitude",
+    "Nonconformity",
+    "The journal",
+    "The Oversoul",
+    "The present",
+    "Wildness",
+    "Conscience",
+    "Friendship",
+    "Reading",
+    "Self-culture",
+    "Compensation",
+    "What is enough",
+    "The different drummer",
+    "Seeing",
+    "Work and vocation",
+    "Higher laws",
+    "Acting on principle",
+    "The seasons",
+    "Circles",
+    "Morning",
+    "The pond",
+    "Leaving the woods",
+    "More lives to live"
+  ],
   "guide": {
+    "origin": "Concord and Boston, Massachusetts",
+    "era": "1836 to the 1860s, and its heirs",
     "intro": [
-      "Transcendentalism was a circle of New England writers who held that people can know truth through intuition and nature, beyond tradition and institutions.",
-      "It shaped American ideas of individualism, simple living, abolition, women’s rights and the wilderness."
+      "Transcendentalism was a movement of writers, ministers and reformers in New England in the 1830s and 1840s who held that every person has direct access to truth, through intuition and through nature, and need not take it second-hand from church, state or custom.",
+      "It began as a revolt inside Unitarianism, the liberal religion of Boston’s educated class. To a group of young ministers it had become, in Emerson’s phrase, corpse-cold: reasonable, respectable and without fire. Reading the German idealists, the English Romantics and newly translated Hindu and Buddhist scriptures, they concluded that the mind is not a blank page written on by the senses. It has a higher faculty, which they called Reason, that perceives spiritual truth at first hand. In 1836 Ralph Waldo Emerson, who had resigned his own pulpit, published a small book called Nature that asked: why should not we also enjoy an original relation to the universe?",
+      "Around Emerson in the village of Concord gathered a remarkable company. Margaret Fuller edited their magazine, The Dial, and wrote the first great American argument for the equality of women. Bronson Alcott ran experimental schools and a short-lived vegan commune. Elizabeth Peabody published them and opened the country’s first English-language kindergarten. Theodore Parker preached to thousands. And Henry David Thoreau, a pencil-maker’s son fourteen years Emerson’s junior, built a one-room house on Emerson’s land by Walden Pond and lived there for two years, two months and two days, to find out how much of what people call necessary he could do without.",
+      "They did not agree on everything, and they cheerfully admitted to having no system. What they shared were a few convictions. Nature is a teacher and a text, to be read with close attention. The individual conscience outranks any institution. Conformity is a kind of death. A simple life leaves room for a real one. And ideas are worthless until lived, which is why the movement produced experiments: Brook Farm, Fruitlands, the cabin at the pond.",
+      "It also produced resistance. Thoreau went to jail for a night rather than pay a tax to a government that upheld slavery, and wrote the essay later called Civil Disobedience, which Gandhi and Martin Luther King Jr. both acknowledged. By the 1850s nearly all of them were active abolitionists, sheltering fugitives and defending John Brown.",
+      "This Onda follows Thoreau’s method more than Emerson’s theory: write at dawn, walk for an hour, read something worth reading aloud, record the natural world exactly, buy little and decide for yourself. It asks one question for a few weeks: what is essential?"
     ],
-    "origin": "Concord, Massachusetts",
-    "era": "1830s to 1850s",
     "figures": [
       {
         "name": "Ralph Waldo Emerson",
-        "dates": "",
-        "bio": "Essayist and lecturer. Wrote Nature in 1836."
+        "dates": "1803–1882",
+        "bio": "Former minister, essayist and lecturer. The movement’s centre of gravity."
       },
       {
         "name": "Henry David Thoreau",
-        "dates": "",
-        "bio": "Lived at Walden Pond from 1845 to 1847."
+        "dates": "1817–1862",
+        "bio": "Writer, naturalist, surveyor and tax resister. Author of Walden."
       },
       {
         "name": "Margaret Fuller",
-        "dates": "",
-        "bio": "Editor of The Dial, author of Woman in the Nineteenth Century."
+        "dates": "1810–1850",
+        "bio": "Critic, editor of The Dial and foreign correspondent. Died in a shipwreck returning from Italy."
       },
       {
         "name": "Bronson Alcott",
-        "dates": "",
-        "bio": "Educator and founder of Fruitlands."
+        "dates": "1799–1888",
+        "bio": "Educator and idealist. Founder of the Temple School and of Fruitlands. Father of Louisa May."
+      },
+      {
+        "name": "Elizabeth Palmer Peabody",
+        "dates": "1804–1894",
+        "bio": "Bookseller, publisher and educator. Her Boston shop was the movement’s meeting place."
+      },
+      {
+        "name": "Theodore Parker",
+        "dates": "1810–1860",
+        "bio": "Radical minister and abolitionist whose phrases were later echoed by Lincoln and by King."
+      },
+      {
+        "name": "George Ripley",
+        "dates": "1802–1880",
+        "bio": "Founder of Brook Farm."
+      },
+      {
+        "name": "Walt Whitman",
+        "dates": "1819–1892",
+        "bio": "Poet of Leaves of Grass. \"I was simmering, simmering, simmering; Emerson brought me to a boil.\""
+      },
+      {
+        "name": "Louisa May Alcott",
+        "dates": "1832–1888",
+        "bio": "Author of Little Women. Grew up among the Transcendentalists and satirised them fondly."
+      },
+      {
+        "name": "Frederic Henry Hedge",
+        "dates": "1805–1890",
+        "bio": "Scholar of German philosophy. The Transcendental Club was first called Hedge’s Club."
       }
     ],
     "history": [
       {
         "when": "1836",
-        "what": "Emerson publishes Nature; the Transcendental Club meets",
-        "detail": ""
+        "what": "Nature is published and the Transcendental Club first meets",
+        "detail": "Emerson’s book appears anonymously in September. The same month a group of ministers and friends begins meeting in Boston and Concord to talk philosophy."
+      },
+      {
+        "when": "1837",
+        "what": "The American Scholar",
+        "detail": "Emerson’s address at Harvard calls for an end to dependence on European thought. It was later called America’s intellectual declaration of independence."
+      },
+      {
+        "when": "1838",
+        "what": "The Divinity School Address",
+        "detail": "Emerson tells the graduating ministers to find God in themselves and not in historical miracles. Harvard does not invite him back for nearly thirty years."
       },
       {
         "when": "1840",
-        "what": "The Dial begins publication",
-        "detail": ""
+        "what": "The Dial begins",
+        "detail": "The movement’s quarterly, edited first by Margaret Fuller and then by Emerson, runs for four years."
+      },
+      {
+        "when": "1841",
+        "what": "Essays, and Brook Farm",
+        "detail": "Emerson’s first series of essays includes Self-Reliance and The Over-Soul. George Ripley founds a cooperative farm at West Roxbury that lasts until 1847."
+      },
+      {
+        "when": "1843",
+        "what": "Fruitlands",
+        "detail": "Bronson Alcott and Charles Lane start a commune using no animal products or animal labour. It collapses within seven months."
       },
       {
         "when": "1845",
-        "what": "Thoreau moves to Walden Pond",
-        "detail": ""
+        "what": "Thoreau goes to Walden",
+        "detail": "He moves in on the Fourth of July. Margaret Fuller publishes Woman in the Nineteenth Century the same year."
+      },
+      {
+        "when": "1846",
+        "what": "A night in jail",
+        "detail": "Thoreau is arrested for refusing the poll tax, in protest at slavery and the war with Mexico. Someone pays it and he is released next morning, to his annoyance."
       },
       {
         "when": "1849",
-        "what": "Thoreau publishes Civil Disobedience",
-        "detail": ""
+        "what": "Resistance to Civil Government",
+        "detail": "The lecture on his night in jail is published. It is later retitled Civil Disobedience."
+      },
+      {
+        "when": "1850",
+        "what": "The Fugitive Slave Act, and the death of Fuller",
+        "detail": "The law requiring northerners to return escaped slaves turns the group toward open resistance. Fuller drowns off Fire Island with her husband and child in July."
       },
       {
         "when": "1854",
         "what": "Walden is published",
-        "detail": ""
+        "detail": "After seven drafts. It sells slowly. The same summer Thoreau delivers \"Slavery in Massachusetts\"."
+      },
+      {
+        "when": "1855",
+        "what": "Leaves of Grass",
+        "detail": "Whitman sends a copy to Emerson, who replies: I greet you at the beginning of a great career."
+      },
+      {
+        "when": "1862",
+        "what": "Thoreau dies",
+        "detail": "Of tuberculosis, on 6 May, aged forty-four. Asked whether he had made his peace with God, he is said to have answered that he was not aware they had ever quarrelled."
+      },
+      {
+        "when": "1882",
+        "what": "Emerson dies",
+        "detail": "On 27 April, in Concord. He is buried on Authors’ Ridge in Sleepy Hollow Cemetery, near Thoreau, Hawthorne and the Alcotts."
       }
     ],
     "concepts": [
       {
-        "term": "Intuition",
-        "text": "Truth known directly, not only by reason.",
-        "detail": ""
+        "term": "Intuition over tradition",
+        "text": "Truth is perceived directly by each person.",
+        "detail": "They took Kant’s word \"transcendental\", for what the mind brings to experience, and stretched it to mean a faculty of spiritual insight. Scripture and custom are at best reports of someone else’s intuition."
       },
       {
-        "term": "Over-Soul",
-        "text": "A shared spirit that unites all things.",
-        "detail": ""
+        "term": "Nature",
+        "text": "The visible world as a language of spirit.",
+        "detail": "Emerson gives nature four uses: commodity, beauty, language and discipline. Thoreau turned the theory into practice, measuring the pond and recording when each flower opened."
       },
       {
-        "term": "Nonconformity",
-        "text": "Resisting the pressure of society.",
-        "detail": ""
+        "term": "Self-reliance",
+        "text": "Fidelity to one’s own perception.",
+        "detail": "Not rugged individualism. It rests on the claim that the deepest self is shared, so that to be truly oneself is to be in touch with what is universal."
       },
       {
-        "term": "Simple living",
-        "text": "Fewer possessions, more attention.",
-        "detail": ""
+        "term": "The Over-Soul",
+        "text": "The one mind in which all individuals share.",
+        "detail": "Emerson’s name for the divine as an indwelling presence, influenced by his reading of the Upaniṣads and Plotinus."
+      },
+      {
+        "term": "Simplicity and economy",
+        "text": "Counting the cost of things in life.",
+        "detail": "Walden’s first chapter is a household budget and an argument: most people spend their lives earning what they do not need."
+      },
+      {
+        "term": "Civil disobedience",
+        "text": "Non-cooperation with injustice.",
+        "detail": "Under a government which imprisons any unjustly, the true place for a just man is also a prison. The idea travelled to Gandhi in South Africa and to the American civil rights movement."
+      },
+      {
+        "term": "Self-culture",
+        "text": "The duty of unfolding one’s nature.",
+        "detail": "Education is drawing out, not putting in. Fuller’s Conversations and Alcott’s schools tried to practise it."
+      },
+      {
+        "term": "Reform",
+        "text": "Abolition, women’s rights, education, labour.",
+        "detail": "They disagreed over whether to reform society or the self first. In practice they did both."
+      },
+      {
+        "term": "Experiment",
+        "text": "Ideas must be tried in living.",
+        "detail": "Thoreau called his time at Walden an experiment. He left when it was done, saying he had several more lives to live."
+      },
+      {
+        "term": "Legacy",
+        "text": "Environmentalism, nonviolent resistance, American literature.",
+        "detail": "John Muir, the national parks, Whitman and Dickinson, pragmatism and the nature essay all descend from Concord."
       }
     ],
     "facts": [
       {
-        "text": "Thoreau’s cabin cost him about 28 dollars in materials."
+        "text": "Thoreau’s house at Walden measured ten feet by fifteen and cost him twenty-eight dollars, twelve and a half cents."
       },
       {
-        "text": "Walden is built from two years of life compressed into one."
+        "text": "Walden Pond is a mile and a half from Concord centre. Thoreau walked into town most days and often dined with family and friends. He never claimed to be a hermit."
       },
       {
-        "text": "Civil Disobedience later influenced Gandhi and Martin Luther King Jr."
+        "text": "He took a copy of the Bhagavad Gītā to the pond and wrote that in the morning he bathed his intellect in its philosophy."
+      },
+      {
+        "text": "The Thoreau family made the best pencils in America. Henry improved the graphite process that made them so."
+      },
+      {
+        "text": "Scientists have used Thoreau’s records of flowering dates in the 1850s to show that spring in Concord now arrives much earlier."
+      },
+      {
+        "text": "Gandhi read Civil Disobedience in South Africa and said it left a deep impression on him."
+      },
+      {
+        "text": "Louisa May Alcott’s satire of the Fruitlands commune is titled Transcendental Wild Oats."
+      },
+      {
+        "text": "Concord’s river was called Musketaquid by the Algonquian-speaking people who lived there first. The land around Walden is their homeland."
       }
     ],
-    "glossary": [],
-    "furtherReading": [],
-    "learnFrom": [],
-    "sources": []
+    "glossary": [
+      {
+        "term": "Unitarianism",
+        "meaning": "The liberal Christian denomination the movement grew out of and rebelled against."
+      },
+      {
+        "term": "The Dial",
+        "meaning": "The Transcendentalists’ magazine, 1840 to 1844."
+      },
+      {
+        "term": "Brook Farm",
+        "meaning": "A cooperative community near Boston, 1841 to 1847."
+      },
+      {
+        "term": "Fruitlands",
+        "meaning": "Bronson Alcott’s commune at Harvard, Massachusetts, 1843."
+      },
+      {
+        "term": "Lyceum movement",
+        "meaning": "The network of local lecture halls that spread across the United States from the 1820s."
+      },
+      {
+        "term": "Sleepy Hollow",
+        "meaning": "The Concord cemetery where most of them are buried."
+      }
+    ],
+    "furtherReading": [
+      {
+        "title": "Emerson: The Mind on Fire",
+        "creator": "Robert D. Richardson",
+        "year": "1995",
+        "note": "A biography that follows his reading as closely as his life."
+      },
+      {
+        "title": "Henry David Thoreau: A Life",
+        "creator": "Laura Dassow Walls",
+        "year": "2017",
+        "note": "The best modern biography. Thoreau as scientist, neighbour and activist."
+      },
+      {
+        "title": "Margaret Fuller: A New American Life",
+        "creator": "Megan Marshall",
+        "year": "2013",
+        "note": "A life cut short at forty, told in full."
+      },
+      {
+        "title": "The Transcendentalists",
+        "creator": "Barbara L. Packer",
+        "year": "2007",
+        "note": "The clearest short history of the movement."
+      },
+      {
+        "title": "American Bloomsbury",
+        "creator": "Susan Cheever",
+        "year": "2006",
+        "note": "The Concord circle as neighbours, friends and rivals."
+      },
+      {
+        "title": "The Portable Emerson",
+        "creator": "ed. Jeffrey S. Cramer",
+        "year": "2014",
+        "note": "The essential essays, addresses and poems in one volume."
+      }
+    ],
+    "learnFrom": [
+      {
+        "name": "The Walden Woods Project",
+        "note": "Protects the land around the pond and keeps a library of Thoreau’s work."
+      },
+      {
+        "name": "The Thoreau Society",
+        "note": "Founded in 1941. Publishes research and runs an annual gathering in Concord."
+      },
+      {
+        "name": "Walden Pond State Reservation",
+        "note": "You can swim in the pond and walk to the house site."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Transcendentalism",
+        "creator": "Russell Goodman",
+        "publisher": "Stanford Encyclopedia of Philosophy"
+      },
+      {
+        "title": "Walden: A Fully Annotated Edition",
+        "creator": "Henry D. Thoreau, ed. Jeffrey S. Cramer",
+        "publisher": "Yale University Press",
+        "year": "2004"
+      },
+      {
+        "title": "Essays and Lectures",
+        "creator": "Ralph Waldo Emerson, ed. Joel Porte",
+        "publisher": "Library of America",
+        "year": "1983"
+      },
+      {
+        "title": "Henry David Thoreau: A Life",
+        "creator": "Laura Dassow Walls",
+        "publisher": "University of Chicago Press",
+        "year": "2017"
+      },
+      {
+        "title": "Emerson: The Mind on Fire",
+        "creator": "Robert D. Richardson",
+        "publisher": "University of California Press",
+        "year": "1995"
+      },
+      {
+        "title": "The Transcendentalists",
+        "creator": "Barbara L. Packer",
+        "publisher": "University of Georgia Press",
+        "year": "2007"
+      },
+      {
+        "title": "Walden Warming: Climate Change Comes to Thoreau’s Woods",
+        "creator": "Richard B. Primack",
+        "publisher": "University of Chicago Press",
+        "year": "2014"
+      }
+    ]
   }
 }

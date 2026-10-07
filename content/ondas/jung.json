@@ -1,56 +1,301 @@
 {
-  "version": 1,
+  "version": 2,
   "id": "jung",
   "name": "Jungian Individuation",
   "origin": "Zurich",
+  "era": "1900 to today",
   "tone": "blue",
   "icon": "moon-stars",
-  "line": "Meet your shadow through dreams and symbols.",
-  "era": "1910s to today",
   "font": "Libre Caslon Text",
   "pattern": "dots",
   "glyph": "Ψ",
+  "line": "Meet your shadow through dreams and symbols.",
   "quote": {
     "text": "Who looks outside, dreams; who looks inside, awakes.",
-    "by": "Carl Jung",
-    "source": ""
+    "by": "C. G. Jung",
+    "source": "Letter to Fanny Bowditch, 1916"
   },
-  "quotes": [],
+  "quotes": [
+    {
+      "text": "One does not become enlightened by imagining figures of light, but by making the darkness conscious.",
+      "by": "C. G. Jung",
+      "source": "The Philosophical Tree, 1945"
+    },
+    {
+      "text": "When an inner situation is not made conscious, it happens outside, as fate.",
+      "by": "C. G. Jung",
+      "source": "Aion, 1951"
+    },
+    {
+      "text": "The dream is a little hidden door in the innermost and most secret recesses of the soul.",
+      "by": "C. G. Jung",
+      "source": "The Meaning of Psychology for Modern Man, 1933"
+    },
+    {
+      "text": "Everything that irritates us about others can lead us to an understanding of ourselves.",
+      "by": "C. G. Jung",
+      "source": "Memories, Dreams, Reflections, 1962"
+    },
+    {
+      "text": "The meeting of two personalities is like the contact of two chemical substances: if there is any reaction, both are transformed.",
+      "by": "C. G. Jung",
+      "source": "Modern Man in Search of a Soul, 1933"
+    },
+    {
+      "text": "The sole purpose of human existence is to kindle a light in the darkness of mere being.",
+      "by": "C. G. Jung",
+      "source": "Memories, Dreams, Reflections, 1962"
+    }
+  ],
   "words": [
+    {
+      "id": "word-individuation",
+      "term": "Individuation",
+      "meaning": "Becoming whole; becoming who you are",
+      "pronunciation": "in-dih-vid-yoo-AY-shun",
+      "language": "English, from German Individuation",
+      "usage": "The lifelong work of bringing conscious and unconscious into relation."
+    },
     {
       "id": "word-shadow",
       "term": "Shadow",
-      "meaning": "What you disown in yourself"
+      "meaning": "What you disown in yourself",
+      "pronunciation": "SHAD-oh",
+      "language": "German: Schatten",
+      "usage": "Not only the bad. Whatever did not fit the person you needed to be."
     },
     {
       "id": "word-persona",
       "term": "Persona",
-      "meaning": "The mask you show"
+      "meaning": "The mask you show the world",
+      "pronunciation": "per-SOH-nah",
+      "language": "Latin",
+      "usage": "The Roman actor’s mask. Necessary, and dangerous to mistake for your face."
     },
     {
-      "id": "word-anima-and-animus",
-      "term": "Anima and animus",
-      "meaning": "The inner other"
+      "id": "word-anima",
+      "term": "Anima",
+      "meaning": "The inner feminine figure in a man",
+      "pronunciation": "AN-ih-mah",
+      "language": "Latin: soul",
+      "usage": "Jung’s term; later Jungians treat it less by gender and more as the inner other."
     },
     {
-      "id": "word-individuation",
-      "term": "Individuation",
-      "meaning": "Becoming whole"
-    },
-    {
-      "id": "word-archetype",
-      "term": "Archetype",
-      "meaning": "A shared pattern of experience"
-    },
-    {
-      "id": "word-synchronicity",
-      "term": "Synchronicity",
-      "meaning": "Meaningful coincidence"
+      "id": "word-animus",
+      "term": "Animus",
+      "meaning": "The inner masculine figure in a woman",
+      "pronunciation": "AN-ih-mus",
+      "language": "Latin: spirit",
+      "usage": "The counterpart of the anima."
     },
     {
       "id": "word-self",
       "term": "Self",
-      "meaning": "The center and totality of the psyche"
+      "meaning": "The centre and the whole of the psyche",
+      "pronunciation": "self",
+      "language": "German: Selbst",
+      "usage": "Written with a capital. Larger than the ego, which is only the centre of consciousness."
+    },
+    {
+      "id": "word-ego",
+      "term": "Ego",
+      "meaning": "The centre of the conscious mind",
+      "pronunciation": "EE-goh",
+      "language": "Latin: I",
+      "usage": "The \"I\" that thinks it runs the house."
+    },
+    {
+      "id": "word-archetype",
+      "term": "Archetype",
+      "meaning": "An inherited pattern of experience",
+      "pronunciation": "AR-kih-type",
+      "language": "Greek: first imprint",
+      "usage": "Mother, child, trickster, wise old man. The pattern is inherited; the images are not."
+    },
+    {
+      "id": "word-collective-unconscious",
+      "term": "Collective unconscious",
+      "meaning": "The layer of the psyche shared by all people",
+      "language": "German: kollektives Unbewusstes",
+      "usage": "Deeper than personal memory, and the source of myths."
+    },
+    {
+      "id": "word-complex",
+      "term": "Complex",
+      "meaning": "A charged cluster of feelings and memories",
+      "pronunciation": "KOM-pleks",
+      "language": "German: Komplex",
+      "usage": "Jung: people do not have complexes; complexes have them."
+    },
+    {
+      "id": "word-projection",
+      "term": "Projection",
+      "meaning": "Seeing your own contents in someone else",
+      "pronunciation": "pro-JEK-shun",
+      "language": "Latin",
+      "usage": "It happens to you; you do not do it. The clue is disproportionate emotion."
+    },
+    {
+      "id": "word-synchronicity",
+      "term": "Synchronicity",
+      "meaning": "A meaningful coincidence",
+      "pronunciation": "sin-kro-NISS-ih-tee",
+      "language": "Coined by Jung from Greek",
+      "usage": "An inner and an outer event that match in meaning, with no causal link."
+    },
+    {
+      "id": "word-active-imagination",
+      "term": "Active imagination",
+      "meaning": "A waking dialogue with inner figures",
+      "language": "German: aktive Imagination",
+      "usage": "Let an image move, then engage it as real. Jung’s chief method after 1913."
+    },
+    {
+      "id": "word-amplification",
+      "term": "Amplification",
+      "meaning": "Enlarging a dream image through myth and symbol",
+      "pronunciation": "am-plih-fih-KAY-shun",
+      "language": "Latin",
+      "usage": "Ask not only what it reminds you of, but where humanity has met it before."
+    },
+    {
+      "id": "word-enantiodromia",
+      "term": "Enantiodromia",
+      "meaning": "A thing turning into its opposite",
+      "pronunciation": "en-AN-tee-oh-DROH-mee-ah",
+      "language": "Greek: running counter",
+      "usage": "From Heraclitus. Any extreme calls up its contrary."
+    },
+    {
+      "id": "word-numinous",
+      "term": "Numinous",
+      "meaning": "Charged with a sense of the sacred",
+      "pronunciation": "NOO-min-us",
+      "language": "Latin: numen",
+      "usage": "Rudolf Otto’s word. Fascinating and frightening at once."
+    },
+    {
+      "id": "word-mandala",
+      "term": "Mandala",
+      "meaning": "A circle; an image of wholeness",
+      "pronunciation": "MAN-dah-lah",
+      "language": "Sanskrit",
+      "usage": "Jung drew one each morning in 1918–19 and found they tracked his inner state."
+    },
+    {
+      "id": "word-temenos",
+      "term": "Temenos",
+      "meaning": "A protected sacred space",
+      "pronunciation": "TEM-en-oss",
+      "language": "Greek",
+      "usage": "The marked-off precinct of a temple. The analytic hour is one."
+    },
+    {
+      "id": "word-coniunctio",
+      "term": "Coniunctio",
+      "meaning": "The union of opposites",
+      "pronunciation": "kon-YUNK-tee-oh",
+      "language": "Latin",
+      "usage": "The alchemists’ royal marriage. Jung read it as a picture of inner integration."
+    },
+    {
+      "id": "word-nigredo",
+      "term": "Nigredo",
+      "meaning": "The blackening",
+      "pronunciation": "nih-GRAY-doh",
+      "language": "Latin",
+      "usage": "First stage of the alchemical work: darkness, confusion, the meeting with shadow."
+    },
+    {
+      "id": "word-prima-materia",
+      "term": "Prima materia",
+      "meaning": "The first matter",
+      "pronunciation": "PREE-mah mah-TAIR-ee-ah",
+      "language": "Latin",
+      "usage": "The despised raw stuff the work begins with. It is found in the dung heap."
+    },
+    {
+      "id": "word-libido",
+      "term": "Libido",
+      "meaning": "Psychic energy",
+      "pronunciation": "lih-BEE-doh",
+      "language": "Latin: desire",
+      "usage": "For Jung, life energy in general, not only sexual as for Freud."
+    },
+    {
+      "id": "word-psyche",
+      "term": "Psyche",
+      "meaning": "The whole of the mind, conscious and unconscious",
+      "pronunciation": "SYE-kee",
+      "language": "Greek: soul",
+      "usage": "Jung insisted it is as real as the body."
+    },
+    {
+      "id": "word-compensation",
+      "term": "Compensation",
+      "meaning": "The unconscious balancing a one-sided attitude",
+      "language": "Latin",
+      "usage": "Dreams usually show what the day left out."
+    },
+    {
+      "id": "word-transcendent-function",
+      "term": "Transcendent function",
+      "meaning": "The third thing that arises when opposites are held",
+      "language": "Jung’s term, 1916",
+      "usage": "Do not choose too soon. Stay in the tension and a symbol appears."
+    },
+    {
+      "id": "word-inflation",
+      "term": "Inflation",
+      "meaning": "The ego puffed up by identifying with an archetype",
+      "language": "Latin",
+      "usage": "Feeling chosen, or feeling uniquely worthless. Both are inflation."
+    },
+    {
+      "id": "word-introversion",
+      "term": "Introversion",
+      "meaning": "Energy turned toward the inner world",
+      "language": "Coined by Jung, 1921",
+      "usage": "With extraversion, the pair he introduced in Psychological Types."
+    },
+    {
+      "id": "word-trickster",
+      "term": "Trickster",
+      "meaning": "The archetype of disorder and reversal",
+      "language": "English",
+      "usage": "Hermes, Loki, the fool. The one who upsets what has grown rigid."
+    },
+    {
+      "id": "word-puer-aeternus",
+      "term": "Puer aeternus",
+      "meaning": "The eternal youth",
+      "pronunciation": "POO-air eye-TAIR-nus",
+      "language": "Latin",
+      "usage": "Charm, promise, and a refusal to land."
+    },
+    {
+      "id": "word-nekyia",
+      "term": "Nekyia",
+      "meaning": "The night-sea journey; descent to the underworld",
+      "pronunciation": "NEK-ee-ah",
+      "language": "Greek",
+      "usage": "From the Odyssey. Jung’s name for a descent into the unconscious."
+    },
+    {
+      "id": "word-unus-mundus",
+      "term": "Unus mundus",
+      "meaning": "One world",
+      "pronunciation": "OO-nus MOON-dus",
+      "language": "Latin",
+      "usage": "The alchemists’ idea that psyche and matter share a single ground."
+    },
+    {
+      "id": "word-quaternity",
+      "term": "Quaternity",
+      "meaning": "A fourfold pattern of wholeness",
+      "pronunciation": "kwah-TER-nih-tee",
+      "language": "Latin",
+      "usage": "Four directions, four functions. Jung thought three always asks for a fourth."
     }
   ],
   "practices": [
@@ -61,9 +306,13 @@
       "slot": "Morning",
       "time": "06:45",
       "meta": "Morning · On waking",
-      "instructions": "",
-      "why": "",
-      "variations": []
+      "instructions": "Keep a notebook and pen by the bed. On waking, lie still and let the dream return before you move. Write it in the present tense, in order, without tidying it: setting, people, what happened, how it ended. Note the feeling on waking and anything from yesterday it touches. If there is no dream, write that, and write the mood you woke in.",
+      "why": "For Jung the dream is not a disguise. It is a spontaneous self-portrait of the psyche, showing what the conscious view is leaving out.",
+      "variations": [
+        "Give the dream a title.",
+        "Sketch its central image.",
+        "List your own associations to each element before reaching for any dictionary of symbols."
+      ]
     },
     {
       "id": "active-imagination",
@@ -73,9 +322,13 @@
       "time": "15:00",
       "minutes": 20,
       "meta": "Afternoon · 20 min",
-      "instructions": "",
-      "why": "",
-      "variations": []
+      "instructions": "Sit alone and undisturbed. Take an image from a dream, or the feeling of a mood, and hold it in attention until it begins to move by itself. Do not direct it. When a figure appears, speak to it and let it answer; write the exchange down as it happens. Treat what it says as you would a person’s words. End deliberately: close the notebook, stand up, do something physical. Stop if it becomes overwhelming.",
+      "why": "Jung developed the method during his own crisis after 1913 and recorded it in the Red Book. It lets the unconscious speak and requires the ego to answer, so that neither simply rules.",
+      "variations": [
+        "Paint or model the image in clay instead of writing.",
+        "Continue a dream from where it broke off.",
+        "Ask a recurring mood: who are you, and what do you want?"
+      ]
     },
     {
       "id": "draw-a-mandala",
@@ -85,9 +338,13 @@
       "time": "19:30",
       "minutes": 15,
       "meta": "Evening · 15 min",
-      "instructions": "",
-      "why": "",
-      "variations": []
+      "instructions": "Draw a circle that fills the page. Starting at the centre and working outward, fill it with whatever shapes and colours come, without planning or judging. When it feels finished, date it and write one line beneath. Do not interpret it tonight. Keep the drawings together and look back over them at the end of the week.",
+      "why": "While stationed as a camp commandant in 1918–19, Jung sketched a small circular drawing each morning and saw that it changed with his inner state. He came to regard the mandala as an image of the Self.",
+      "variations": [
+        "Use only one colour.",
+        "Make it from stones or leaves outdoors.",
+        "Draw it with your non-writing hand."
+      ]
     },
     {
       "id": "shadow-note",
@@ -97,9 +354,13 @@
       "time": "21:30",
       "minutes": 10,
       "meta": "Evening · 10 min",
-      "instructions": "",
-      "why": "",
-      "variations": []
+      "instructions": "Think of one person who provoked a strong reaction in you today, irritation, contempt, envy or fascination. Write down exactly what quality set you off, in a few adjectives. Then ask honestly: where does this live in me? When have I been this, wanted to be this, or forbidden myself this? Write what you find. No conclusions are needed.",
+      "why": "What we cannot see in ourselves we meet in other people, with a charge. Withdrawing a projection is, for Jung, the first real act of moral work.",
+      "variations": [
+        "Do the same for someone you admire: what are you giving away?",
+        "Write a short letter from your shadow to you.",
+        "Note what you were proudest of today, and what that pride needs you not to be."
+      ]
     }
   ],
   "tasks": [
@@ -116,28 +377,45 @@
       "meta": "Who bothered you, and why?",
       "time": "18:00",
       "slot": "Evening"
+    },
+    {
+      "id": "make-something-with-your-hands",
+      "name": "Make something with your hands",
+      "meta": "Stone, clay, paint or bread",
+      "time": "17:00",
+      "slot": "Evening"
     }
   ],
   "rules": [
     {
       "id": "r1",
       "text": "Write dreams before anything else",
-      "why": ""
+      "why": "Dreams fade within minutes of moving and speaking. The notebook comes before the phone."
     },
     {
       "id": "r2",
       "text": "Do not judge an image. Describe it.",
-      "why": ""
+      "why": "Interpretation too early kills the symbol. Stay with what it looks like and what it does."
     },
     {
       "id": "r3",
       "text": "Name one projection a day",
-      "why": ""
+      "why": "A strong reaction to another person is information about you first."
     },
     {
       "id": "r4",
       "text": "No scrolling for an hour before sleep",
-      "why": ""
+      "why": "Give the night something of your own to work on."
+    },
+    {
+      "id": "r5",
+      "text": "Keep the notebook private",
+      "why": "The work needs a closed vessel. Jung compared it to the sealed flask of the alchemists."
+    },
+    {
+      "id": "r6",
+      "text": "Do something physical after inner work",
+      "why": "Wash up, walk, chop vegetables. Jung insisted on a firm footing in ordinary life."
     }
   ],
   "immerse": {
@@ -145,96 +423,209 @@
       {
         "id": "read-man-and-his-symbols",
         "title": "Man and His Symbols",
-        "creator": "Jung and colleagues",
-        "why": ""
+        "creator": "C. G. Jung and colleagues",
+        "year": "1964",
+        "why": "The one book he wrote for general readers, finished days before he died."
       },
       {
         "id": "read-memories-dreams-reflections",
         "title": "Memories, Dreams, Reflections",
-        "creator": "Autobiography",
-        "why": ""
+        "creator": "C. G. Jung, recorded by Aniela Jaffé",
+        "year": "1962",
+        "why": "An autobiography of the inner life: childhood visions, the break with Freud, the tower."
       },
       {
         "id": "read-modern-man-in-search-of-a-soul",
         "title": "Modern Man in Search of a Soul",
-        "creator": "Essays",
-        "why": ""
+        "creator": "C. G. Jung",
+        "year": "1933",
+        "why": "Essays on dreams, the stages of life and what therapy is for."
+      },
+      {
+        "id": "read-the-undiscovered-self",
+        "title": "The Undiscovered Self",
+        "creator": "C. G. Jung",
+        "year": "1957",
+        "why": "A short, late warning about mass movements and the unexamined individual."
+      },
+      {
+        "id": "read-the-red-book-a-reader-s-edition",
+        "title": "The Red Book: A Reader’s Edition",
+        "creator": "C. G. Jung, ed. Sonu Shamdasani",
+        "year": "2009",
+        "why": "His private record of visions and dialogues, kept from 1913 and unpublished for almost fifty years after his death."
+      },
+      {
+        "id": "read-inner-work",
+        "title": "Inner Work",
+        "creator": "Robert A. Johnson",
+        "year": "1986",
+        "why": "A clear, step-by-step guide to dreams and active imagination."
+      },
+      {
+        "id": "read-owning-your-own-shadow",
+        "title": "Owning Your Own Shadow",
+        "creator": "Robert A. Johnson",
+        "year": "1991",
+        "why": "A very short book on the dark side of the psyche."
+      },
+      {
+        "id": "read-jung-s-map-of-the-soul",
+        "title": "Jung’s Map of the Soul",
+        "creator": "Murray Stein",
+        "year": "1998",
+        "why": "The best single introduction to the theory as a whole."
+      },
+      {
+        "id": "read-demian",
+        "title": "Demian",
+        "creator": "Hermann Hesse",
+        "year": "1919",
+        "why": "A novel written after Hesse’s analysis with a student of Jung."
       }
     ],
     "watch": [
       {
-        "id": "watch-a-dangerous-method-2011",
-        "title": "A Dangerous Method (2011)",
-        "creator": "Jung and Freud",
-        "why": ""
+        "id": "watch-face-to-face-carl-gustav-jung",
+        "title": "Face to Face: Carl Gustav Jung",
+        "creator": "BBC, John Freeman",
+        "year": "1959",
+        "why": "Jung at eighty-four, at home. Asked if he believes in God: \"I don’t need to believe. I know.\""
       },
       {
-        "id": "watch-matter-of-heart-1986",
-        "title": "Matter of Heart (1986)",
-        "creator": "Documentary on Jung",
-        "why": ""
+        "id": "watch-matter-of-heart",
+        "title": "Matter of Heart",
+        "creator": "Mark Whitney",
+        "year": "1986",
+        "why": "A documentary portrait built from interviews with people who knew him."
+      },
+      {
+        "id": "watch-a-dangerous-method",
+        "title": "A Dangerous Method",
+        "creator": "David Cronenberg",
+        "year": "2011",
+        "why": "Jung, Freud and Sabina Spielrein. A dramatisation, with liberties."
+      },
+      {
+        "id": "watch-the-way-of-the-dream",
+        "title": "The Way of the Dream",
+        "creator": "Fraser Boa with Marie-Louise von Franz",
+        "year": "1985",
+        "why": "Jung’s closest collaborator interprets ordinary people’s dreams on camera.",
+        "unverified": true
       }
     ],
     "listen": [
       {
-        "id": "listen-quiet-instrumental-music",
-        "title": "Quiet instrumental music",
-        "creator": "For active imagination",
-        "why": ""
+        "id": "listen-in-our-time-jung",
+        "title": "In Our Time: Jung",
+        "creator": "BBC Radio 4, Melvyn Bragg",
+        "year": "2004",
+        "why": "His life, his ideas and his split from Freud."
       },
       {
-        "id": "listen-lecture-recordings-on-archetypes",
-        "title": "Lecture recordings on archetypes",
-        "creator": "Any good survey",
-        "why": ""
+        "id": "listen-this-jungian-life",
+        "title": "This Jungian Life",
+        "creator": "Three Jungian analysts",
+        "year": "since 2018",
+        "why": "A weekly podcast that ends each episode by working on a listener’s dream."
+      },
+      {
+        "id": "listen-synchronicity",
+        "title": "Synchronicity",
+        "creator": "The Police",
+        "year": "1983",
+        "why": "An album named after Jung’s idea. Sting holds a copy of the book on the cover."
+      },
+      {
+        "id": "listen-the-rhythm-of-the-heat",
+        "title": "The Rhythm of the Heat",
+        "creator": "Peter Gabriel",
+        "year": "1982",
+        "why": "A song about Jung’s night among drummers in East Africa."
       }
     ],
     "art": [
       {
-        "id": "art-the-red-book",
-        "title": "The Red Book",
-        "creator": "Jung’s illuminated journal",
-        "why": ""
+        "id": "art-illuminations-of-the-red-book",
+        "title": "Illuminations of the Red Book",
+        "creator": "C. G. Jung",
+        "year": "1915–1930",
+        "why": "Dragons, trees, mandalas and the figure of Philemon, painted in the manner of a medieval manuscript."
       },
       {
-        "id": "art-surrealist-painting",
-        "title": "Surrealist painting",
-        "creator": "Dalí, Ernst, Magritte",
-        "why": ""
+        "id": "art-systema-munditotius",
+        "title": "Systema Munditotius",
+        "creator": "C. G. Jung",
+        "year": "1916",
+        "why": "His first mandala: a map of the whole cosmos, inner and outer."
+      },
+      {
+        "id": "art-the-bollingen-stone",
+        "title": "The Bollingen stone",
+        "creator": "C. G. Jung",
+        "year": "1950",
+        "why": "A cube he carved with Greek and Latin inscriptions for his seventy-fifth birthday."
+      },
+      {
+        "id": "art-rosarium-philosophorum",
+        "title": "Rosarium Philosophorum",
+        "creator": "Anonymous alchemical woodcuts",
+        "year": "1550",
+        "why": "King and queen meet, merge, die and are reborn. Jung used the series to explain relationship."
+      },
+      {
+        "id": "art-songs-of-innocence-and-of-experience",
+        "title": "Songs of Innocence and of Experience",
+        "creator": "William Blake",
+        "year": "1794",
+        "why": "Words and images from a poet who spoke with his own inner figures."
       }
     ],
     "eat": [
       {
         "id": "eat-rosti",
         "title": "Rösti",
-        "creator": "Swiss potato dish",
-        "why": ""
+        "creator": "Swiss fried potato cake",
+        "why": "Grated, pressed and fried slowly in butter until crisp."
       },
       {
         "id": "eat-dark-bread-and-cheese",
         "title": "Dark bread and cheese",
-        "creator": "Simple Swiss table",
-        "why": ""
+        "creator": "With an apple",
+        "why": "A plain Swiss supper."
       },
       {
-        "id": "eat-soup-by-the-lake",
-        "title": "Soup by the lake",
-        "creator": "Warm and plain",
-        "why": ""
+        "id": "eat-a-slow-stew",
+        "title": "A slow stew",
+        "creator": "Cooked over a fire if you can",
+        "why": "Jung was a keen cook at Bollingen, where meals took hours on a wood stove."
+      },
+      {
+        "id": "eat-bircher-muesli",
+        "title": "Bircher muesli",
+        "creator": "Oats, grated apple, nuts, lemon",
+        "why": "Devised around 1900 by a Zurich physician, a few streets from where Jung trained."
       }
     ],
     "drink": [
       {
         "id": "drink-herbal-tea",
         "title": "Herbal tea",
-        "creator": "For the dream hour",
-        "why": ""
+        "creator": "Lime blossom or verbena",
+        "why": "In the evening, with the notebook."
       },
       {
         "id": "drink-a-single-glass-of-wine",
         "title": "A single glass of wine",
-        "creator": "Slowly, with a book",
-        "why": ""
+        "creator": "With dinner",
+        "why": "One, and attended to."
+      },
+      {
+        "id": "drink-well-water",
+        "title": "Well water",
+        "creator": "Or plain water",
+        "why": "The tower had no running water. He pumped it by hand."
       }
     ],
     "customs": [
@@ -242,161 +633,526 @@
         "id": "customs-keep-a-dream-notebook-by-the-bed",
         "title": "Keep a dream notebook by the bed",
         "creator": "Write before you move",
-        "why": ""
+        "why": "The first minutes after waking are when the dream is still within reach."
       },
       {
         "id": "customs-walk-by-water",
         "title": "Walk by water",
-        "creator": "Jung walked by Lake Zurich",
-        "why": ""
+        "creator": "Lake, river or sea",
+        "why": "Jung lived his whole adult life on the shore of Lake Zurich."
       },
       {
         "id": "customs-build-with-stone",
         "title": "Build with stone",
-        "creator": "Jung built a tower at Bollingen",
-        "why": ""
+        "creator": "Or any slow handwork",
+        "why": "In his crisis of 1912–13 he went back to a childhood game of building with stones by the lake."
+      },
+      {
+        "id": "customs-keep-a-place-apart",
+        "title": "Keep a place apart",
+        "creator": "A room, a desk, a corner",
+        "why": "At Bollingen he had a locked room he alone entered, with painted walls."
+      },
+      {
+        "id": "customs-live-simply-for-a-few-days",
+        "title": "Live simply for a few days",
+        "creator": "No electricity if possible",
+        "why": "At the tower he chopped wood, lit oil lamps and said he felt most himself."
       }
     ]
   },
   "ethics": [
     {
       "title": "Own your shadow",
-      "text": "What you refuse to see, you will project onto others."
+      "text": "What you refuse to see in yourself, you will meet in others and fight there. Taking it back is the beginning of ethics.",
+      "practice": "Take back one accusation you made today and see how much of it is yours."
     },
     {
       "title": "Become whole, not perfect",
-      "text": "Jung: I would rather be whole than good."
+      "text": "Perfection belongs to the gods. Completeness is the human task, and it includes the parts you would rather not have.",
+      "practice": "Name one flaw you will stop hiding and start managing."
     },
     {
       "title": "Take symbols seriously",
-      "text": "Dreams and images carry meaning you did not choose."
+      "text": "A dream or fantasy is a fact of your psyche. It deserves the respect you would give any other fact.",
+      "practice": "Do one small real thing in response to a dream."
+    },
+    {
+      "title": "Carry your own burden",
+      "text": "Each person who withdraws a projection lifts a little weight off the world.",
+      "practice": "Before blaming, ask what you contributed."
+    },
+    {
+      "title": "Stay in the tension",
+      "text": "When two real obligations conflict, do not escape into one side. Holding both is what lets a third way appear.",
+      "practice": "Leave one decision open another day."
+    },
+    {
+      "title": "Honour the second half of life",
+      "text": "What was right at twenty is a lie at fifty. The afternoon of life has its own purpose, turned inward.",
+      "practice": "Ask what your age is asking of you."
     }
   ],
   "philosophy": [
     {
       "title": "The unconscious is not empty",
-      "text": "It holds what you have not lived."
+      "text": "It is not just a cellar of what was repressed. It is older than consciousness, creative, and has its own aims.",
+      "practice": "Before a decision today, ask what the part of you that is not speaking wants."
     },
     {
       "title": "Archetypes",
-      "text": "The Hero, Mother, Trickster and Wise Old Man recur across cultures."
+      "text": "Humans everywhere dream the same figures: mother, child, hero, trickster, wise elder. They are forms the psyche is born with.",
+      "practice": "Which figure has been running your week?"
     },
     {
       "title": "The two halves of life",
-      "text": "Morning builds the self, afternoon asks what it was for."
+      "text": "The first half builds an ego and a place in the world. The second asks what it was all for, and turns toward the Self.",
+      "practice": "Which half are you living in? Which one are you still trying to live?"
     },
     {
       "title": "Synchronicity",
-      "text": "Inner and outer events can rhyme in meaning."
+      "text": "Now and then an outer event answers an inner state so exactly that chance does not cover it. Jung thought psyche and world might be two faces of one thing.",
+      "practice": "Note one coincidence today without explaining it."
+    },
+    {
+      "title": "Compensation",
+      "text": "The psyche regulates itself. Push too far in one direction and dreams, moods and accidents begin pushing back.",
+      "practice": "Where are you one-sided right now? What is the other side saying?"
+    },
+    {
+      "title": "Projection",
+      "text": "We do not see others as they are until we have seen what we put on them.",
+      "practice": "Pick one person and ask what they carry for you."
+    },
+    {
+      "title": "The persona",
+      "text": "Everyone needs a face for the world. The trouble starts when you can no longer take it off.",
+      "practice": "Notice the moment you put the mask on today, and the moment you took it off."
+    },
+    {
+      "title": "The Self",
+      "text": "There is a centre in you that is not the ego and knows more than it does. Individuation is the ego learning to serve it.",
+      "practice": "Recall a time something wiser than your plans steered you."
+    },
+    {
+      "title": "Opposites",
+      "text": "Everything psychic comes in pairs. Consciousness grows by holding both ends, not by picking one.",
+      "practice": "Find the opposite of your strongest opinion and argue for it for a minute."
+    },
+    {
+      "title": "Meaning",
+      "text": "People can bear almost any suffering if it has meaning, and almost none if it does not. Much unhappiness is a life too small for the soul.",
+      "practice": "What, today, felt meaningful? Do more of that."
     }
   ],
   "journal": [
-    "What was the last dream, and what stayed with you?",
-    "Who irritated you today, and what might that be about you?",
-    "What image keeps returning?",
-    "What part of yourself did you hide today?",
-    "What would your shadow say?",
-    "What coincidence seemed to mean something?",
-    "What are you not yet living?"
+    "What did you dream, or what mood did you wake with?",
+    "Who irritated you today, and what did they carry for you?",
+    "What image stayed with you?",
+    "Where did you wear a mask today?",
+    "What did you admire in someone that you have not allowed in yourself?",
+    "What happened in active imagination?",
+    "What are you one-sided about?",
+    "What did your mandala look like tonight?",
+    "Which complex took over today, and what set it off?",
+    "What coincidence did you notice?",
+    "What did you refuse to feel?",
+    "What would the opposite of you have done today?",
+    "What figure appeared in your dream, and what did it want?",
+    "When were you most yourself?",
+    "What are you too proud of?",
+    "What are you ashamed of that might also be a strength?",
+    "What did you avoid looking at?",
+    "What old story about yourself did you repeat today?",
+    "Whom did you envy, and for what?",
+    "What decision are you forcing too soon?",
+    "What did your body know before your mind did?",
+    "Which half of life is speaking to you?",
+    "What did you make with your hands?",
+    "What frightened you, even slightly?",
+    "What did you find numinous?",
+    "What part of you had no say today?",
+    "Whom did you idealise?",
+    "What would you tell no one?",
+    "What feels meaningful right now?",
+    "What is asking to be born in you?"
   ],
   "reflect": [
-    "Which part of the shadow did you meet?",
+    "What did you meet in yourself that you had been avoiding?",
     "Which practice changed you the most, and why?",
-    "What is your next task of individuation?"
+    "Where did you resist, and what was the resistance protecting?",
+    "Which projection did you take back?",
+    "What recurring image or figure appeared, and what do you make of it?",
+    "What does wholeness, as distinct from perfection, look like for you?"
   ],
-  "dayThemes": [],
+  "dayThemes": [
+    "Looking inside",
+    "The dream",
+    "The shadow",
+    "The persona",
+    "Projection",
+    "The image, not the idea",
+    "The mandala",
+    "Complexes",
+    "Compensation",
+    "The inner other",
+    "Opposites",
+    "The numinous",
+    "Active imagination",
+    "The Self",
+    "Synchronicity",
+    "Archetypes",
+    "The trickster",
+    "The descent",
+    "The first matter",
+    "Holding the tension",
+    "The two halves of life",
+    "Envy and admiration",
+    "The body knows",
+    "Making with the hands",
+    "Inflation",
+    "Solitude",
+    "Meaning",
+    "Union of opposites",
+    "Whole, not perfect",
+    "Who you are becoming"
+  ],
   "guide": {
-    "intro": [
-      "Carl Jung was a Swiss psychiatrist who began as Freud’s heir and then went his own way. He proposed that beneath personal memory lies a collective unconscious full of shared images.",
-      "Individuation is his word for the lifelong work of becoming a whole person by meeting what you have split off."
-    ],
     "origin": "Zurich, Switzerland",
-    "era": "1910s to today",
+    "era": "1900 to today",
+    "intro": [
+      "Individuation is Carl Jung’s name for the process of becoming the person you actually are: not better, not perfect, but whole. It is a psychology, not a religion, though Jung thought it answered the same need.",
+      "Jung was a Swiss psychiatrist, born in 1875, who began his career at the Burghölzli hospital in Zurich listening closely to what his patients’ delusions were about. He found patterns in them that recurred in myths the patients had never read. For six years he was Freud’s closest ally and intended heir. They parted in 1913, chiefly over Freud’s insistence that the unconscious is driven by sexuality and Jung’s conviction that it holds something larger.",
+      "What followed was a breakdown, or an experiment, or both. For several years Jung let fantasies rise while awake, talked with the figures that appeared, and wrote and painted the results in a great red folio. Out of that confrontation came nearly all his later ideas. There is a personal unconscious, made of what one has forgotten or pushed away. Beneath it lies a collective unconscious, common to everyone, structured by archetypes: inherited forms that shape experience and surface as the recurring figures of dream and myth.",
+      "Individuation is the gradual meeting with these. First comes the persona, the mask one wears, and behind it the shadow, everything about oneself that was unacceptable. Then the inner other, which Jung called anima or animus. At the centre is the Self, the organising whole of the personality, of which the conscious ego is only a part. The goal is not to conquer the unconscious but to come into relationship with it, so that life is lived from a centre larger than the ego’s wishes.",
+      "His methods are simple to state: write down your dreams and take them seriously; let images speak through active imagination; notice what you project onto other people and take it back; give the psyche form by drawing, painting, carving. He found confirmation for the process in unexpected places, above all in medieval alchemy, which he read as a symbolic account of inner transformation.",
+      "This Onda borrows those methods for a few weeks of self-observation. It is not therapy and does not replace one. Jung himself warned that the unconscious should be approached with respect and a firm footing in ordinary life. If the material that comes up is heavy, take it to a trained analyst or therapist."
+    ],
     "figures": [
       {
-        "name": "Carl Jung",
-        "dates": "",
-        "bio": "Swiss psychiatrist, 1875 to 1961."
+        "name": "Carl Gustav Jung",
+        "dates": "1875–1961",
+        "bio": "Swiss psychiatrist and founder of analytical psychology."
       },
       {
         "name": "Emma Jung",
-        "dates": "",
-        "bio": "Analyst and Jung’s wife, author on the Grail legend."
+        "dates": "1882–1955",
+        "bio": "His wife, an analyst and scholar in her own right. Spent thirty years on a study of the Grail legend."
+      },
+      {
+        "name": "Sigmund Freud",
+        "dates": "1856–1939",
+        "bio": "Founder of psychoanalysis. Jung’s mentor from 1907 until their break in 1913."
+      },
+      {
+        "name": "Toni Wolff",
+        "dates": "1888–1953",
+        "bio": "Analyst and Jung’s close collaborator through the Red Book years."
       },
       {
         "name": "Marie-Louise von Franz",
-        "dates": "",
-        "bio": "Close collaborator on fairy tales and alchemy."
+        "dates": "1915–1998",
+        "bio": "His chief collaborator on alchemy and the leading interpreter of fairy tales."
+      },
+      {
+        "name": "Richard Wilhelm",
+        "dates": "1873–1930",
+        "bio": "Translator of the I Ching and The Secret of the Golden Flower, which turned Jung toward alchemy."
       },
       {
         "name": "Wolfgang Pauli",
-        "dates": "",
-        "bio": "Physicist who worked with Jung on synchronicity."
+        "dates": "1900–1958",
+        "bio": "Nobel physicist who worked with Jung on synchronicity."
+      },
+      {
+        "name": "Aniela Jaffé",
+        "dates": "1903–1991",
+        "bio": "His secretary, who recorded and edited Memories, Dreams, Reflections."
+      },
+      {
+        "name": "James Hillman",
+        "dates": "1926–2011",
+        "bio": "Founder of archetypal psychology, the most influential revision of Jung."
       }
     ],
     "history": [
       {
+        "when": "1900",
+        "what": "Jung joins the Burghölzli hospital",
+        "detail": "Under Eugen Bleuler he studies schizophrenia and develops the word association test, which reveals emotionally charged \"complexes\"."
+      },
+      {
         "when": "1907",
-        "what": "Jung meets Freud and begins a close friendship",
-        "detail": ""
+        "what": "First meeting with Freud",
+        "detail": "They talk in Vienna for thirteen hours without a break. Freud soon names him \"crown prince\" of psychoanalysis."
+      },
+      {
+        "when": "1912",
+        "what": "Symbols of Transformation",
+        "detail": "Jung’s study of a young woman’s fantasies treats libido as general psychic energy and myth as its language. Freud cannot accept it."
       },
       {
         "when": "1913",
-        "what": "After the break with Freud, Jung begins his Red Book",
-        "detail": "He later called this the most important period of his life."
+        "what": "The break, and the descent",
+        "detail": "Their correspondence ends in January. That autumn Jung has visions of Europe drowned in blood, and begins the inner experiment he later called his confrontation with the unconscious."
+      },
+      {
+        "when": "1916",
+        "what": "The first mandala and the first statement of method",
+        "detail": "He paints Systema Munditotius and writes the essay on the transcendent function, describing active imagination."
       },
       {
         "when": "1921",
-        "what": "Psychological Types introduces introversion and extraversion",
-        "detail": ""
+        "what": "Psychological Types",
+        "detail": "Introduces introversion and extraversion and four functions: thinking, feeling, sensation, intuition."
       },
       {
-        "when": "1950s",
-        "what": "Develops synchronicity and late work on alchemy",
-        "detail": ""
+        "when": "1923",
+        "what": "The tower at Bollingen",
+        "detail": "After his mother’s death he begins building a stone tower by the upper lake, with his own hands, and adds to it over three decades."
+      },
+      {
+        "when": "1925",
+        "what": "Travels to Taos and East Africa",
+        "detail": "Conversations with Ochwiay Biano of Taos Pueblo and months among the Elgonyi in Kenya shake his European assumptions."
+      },
+      {
+        "when": "1928",
+        "what": "The Secret of the Golden Flower",
+        "detail": "Richard Wilhelm sends him a Chinese alchemical text. Jung recognises his own mandalas in it and turns to the study of alchemy."
+      },
+      {
+        "when": "1933",
+        "what": "Eranos, and a compromised presidency",
+        "detail": "The Eranos conferences begin at Ascona. The same year Jung becomes president of a German-based psychotherapy society as the Nazis take power; his conduct and writings of this period remain controversial."
+      },
+      {
+        "when": "1944",
+        "what": "Illness and visions",
+        "detail": "After a heart attack he has near-death visions he counted among the greatest experiences of his life. Psychology and Alchemy appears the same year."
+      },
+      {
+        "when": "1948",
+        "what": "The C. G. Jung Institute opens in Zurich",
+        "detail": "Training in analytical psychology becomes formal."
+      },
+      {
+        "when": "1952",
+        "what": "Synchronicity and Answer to Job",
+        "detail": "Two of his most daring late works: one on meaningful coincidence, written alongside Pauli, and one arguing with God."
+      },
+      {
+        "when": "1961",
+        "what": "Death at Küsnacht",
+        "detail": "He dies on 6 June, ten days after finishing his chapter of Man and His Symbols."
       },
       {
         "when": "2009",
         "what": "The Red Book is published",
-        "detail": ""
+        "detail": "After decades in a bank vault, Liber Novus appears in facsimile."
       }
     ],
     "concepts": [
       {
-        "term": "Complex",
-        "text": "A cluster of feelings and memories with its own charge.",
-        "detail": ""
+        "term": "The collective unconscious",
+        "text": "A layer of the psyche common to all humans.",
+        "detail": "It is not shared memory. It is shared structure, as the body shares an anatomy. Jung inferred it from the recurrence of the same motifs in the dreams of modern people and in myths worldwide."
       },
       {
-        "term": "Collective unconscious",
-        "text": "A shared layer of inherited patterns.",
-        "detail": ""
+        "term": "Archetypes",
+        "text": "Innate patterns that organise experience.",
+        "detail": "An archetype has no content of its own. It is like the axial system of a crystal, which shapes the crystal without being visible. We know archetypes only through the images they produce."
       },
       {
-        "term": "Active imagination",
-        "text": "A dialogue with images in a waking state.",
-        "detail": ""
+        "term": "The shadow",
+        "text": "The unlived, unaccepted side of the personality.",
+        "detail": "It contains what the ego rejects, including good qualities that were once unwelcome. It appears in dreams as a figure of the same sex and in waking life as the people we cannot stand."
       },
       {
-        "term": "Transcendent function",
-        "text": "The way opposites can join into something new.",
-        "detail": ""
+        "term": "Persona",
+        "text": "The social mask.",
+        "detail": "A compromise between who one is and what society expects. Identification with it leaves a person brittle and empty."
+      },
+      {
+        "term": "Anima and animus",
+        "text": "The inner figure of the other.",
+        "detail": "Jung described a feminine figure in men and a masculine one in women, mediating between ego and unconscious. Later Jungians have loosened the gendered scheme while keeping the idea of an inner counterpart."
+      },
+      {
+        "term": "The Self",
+        "text": "The totality and the centre of the psyche.",
+        "detail": "It appears in dreams as a circle, a square, a child, a wise figure, a jewel. Jung saw the God-images of the religions as its symbols."
+      },
+      {
+        "term": "Individuation",
+        "text": "The process of becoming an undivided person.",
+        "detail": "Not individualism. Jung held that the more one becomes oneself, the more one is related to others, because projections fall away."
+      },
+      {
+        "term": "Psychological types",
+        "text": "Two attitudes and four functions.",
+        "detail": "Introversion and extraversion describe where energy flows. Thinking, feeling, sensation and intuition describe how one orients. Everyone has a dominant function and a neglected, \"inferior\" one."
+      },
+      {
+        "term": "Synchronicity",
+        "text": "An acausal connecting principle.",
+        "detail": "Jung’s example is a patient describing a dream of a golden scarab just as a scarab-like beetle taps at his window. He proposed that meaning can link events as cause does."
+      },
+      {
+        "term": "Alchemy as psychology",
+        "text": "The alchemists projected the psyche into matter.",
+        "detail": "Their operations, blackening, whitening, reddening and the marriage of opposites, describe stages of inner change. Jung spent thirty years on their texts."
       }
     ],
     "facts": [
       {
-        "text": "Jung coined the terms introvert and extravert."
+        "text": "Jung built his tower at Bollingen without electricity or running water and kept it that way for life."
       },
       {
-        "text": "He carved symbols in stone at his tower in Bollingen."
+        "text": "The Red Book stayed unpublished for forty-eight years after his death. Much of that time it lay in a Swiss bank vault."
       },
       {
-        "text": "The Myers-Briggs types are based on his theory of psychological types."
+        "text": "The Myers-Briggs Type Indicator was developed from Jung’s Psychological Types by Katharine Briggs and Isabel Briggs Myers. Jung did not design it."
+      },
+      {
+        "text": "A letter from Jung to Bill Wilson in 1961 confirmed his part in the story behind Alcoholics Anonymous: he had told a patient that only a spiritual experience could help."
+      },
+      {
+        "text": "Over the door of his house at Küsnacht he carved, in Latin: called or not called, the god will be present."
+      },
+      {
+        "text": "He coined the words introvert, extravert, complex and synchronicity in their modern senses."
+      },
+      {
+        "text": "Jung’s statements about \"Jewish\" and \"Germanic\" psychology in the 1930s have been condemned by many, including Jungians. He later said he had \"slipped up\"."
+      },
+      {
+        "text": "As a child he carved a small manikin, hid it in the attic with a painted stone, and told no one for decades."
       }
     ],
-    "glossary": [],
-    "furtherReading": [],
-    "learnFrom": [],
-    "sources": []
+    "glossary": [
+      {
+        "term": "Analytical psychology",
+        "meaning": "Jung’s name for his school, to distinguish it from Freud’s psychoanalysis."
+      },
+      {
+        "term": "Liber Novus",
+        "meaning": "The \"New Book\": the formal title of the Red Book."
+      },
+      {
+        "term": "Bollingen",
+        "meaning": "The village on Lake Zurich where Jung built his tower."
+      },
+      {
+        "term": "Eranos",
+        "meaning": "Annual conferences at Ascona where scholars of religion met from 1933."
+      },
+      {
+        "term": "Inferior function",
+        "meaning": "The least developed of one’s four functions, and the doorway to the unconscious."
+      },
+      {
+        "term": "Analysand",
+        "meaning": "A person in analysis."
+      }
+    ],
+    "furtherReading": [
+      {
+        "title": "The Essential Jung",
+        "creator": "ed. Anthony Storr",
+        "year": "1983",
+        "note": "Well-chosen extracts from the Collected Works with linking commentary."
+      },
+      {
+        "title": "Jung: A Very Short Introduction",
+        "creator": "Anthony Stevens",
+        "year": "2001",
+        "note": "Life and ideas in a hundred and fifty pages."
+      },
+      {
+        "title": "Jung and the Making of Modern Psychology",
+        "creator": "Sonu Shamdasani",
+        "year": "2003",
+        "note": "The historian’s account, correcting many legends."
+      },
+      {
+        "title": "The Interpretation of Fairy Tales",
+        "creator": "Marie-Louise von Franz",
+        "year": "1970",
+        "note": "How to read a story as a map of the psyche."
+      },
+      {
+        "title": "Re-Visioning Psychology",
+        "creator": "James Hillman",
+        "year": "1975",
+        "note": "A brilliant, argumentative development of Jung."
+      },
+      {
+        "title": "Jung: A Biography",
+        "creator": "Deirdre Bair",
+        "year": "2003",
+        "note": "The fullest life, including the difficult parts."
+      }
+    ],
+    "learnFrom": [
+      {
+        "name": "International Association for Analytical Psychology",
+        "note": "The professional body. Its directory lists trained analysts by country."
+      },
+      {
+        "name": "C. G. Jung Institute, Zurich",
+        "note": "The original training institute, with public lectures."
+      },
+      {
+        "name": "The Philemon Foundation",
+        "note": "Editing and publishing Jung’s unpublished manuscripts and seminars."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Memories, Dreams, Reflections",
+        "creator": "C. G. Jung, ed. Aniela Jaffé",
+        "publisher": "Pantheon",
+        "year": "1963"
+      },
+      {
+        "title": "The Collected Works of C. G. Jung, vols. 6, 7, 9i, 9ii, 12, 13",
+        "creator": "trans. R. F. C. Hull",
+        "publisher": "Princeton University Press"
+      },
+      {
+        "title": "The Red Book: Liber Novus",
+        "creator": "C. G. Jung, ed. Sonu Shamdasani",
+        "publisher": "W. W. Norton",
+        "year": "2009"
+      },
+      {
+        "title": "Jung’s Map of the Soul: An Introduction",
+        "creator": "Murray Stein",
+        "publisher": "Open Court",
+        "year": "1998"
+      },
+      {
+        "title": "Jung: A Biography",
+        "creator": "Deirdre Bair",
+        "publisher": "Little, Brown",
+        "year": "2003"
+      },
+      {
+        "title": "Jung and the Making of Modern Psychology: The Dream of a Science",
+        "creator": "Sonu Shamdasani",
+        "publisher": "Cambridge University Press",
+        "year": "2003"
+      }
+    ]
+  },
+  "sensitivity": {
+    "note": "This Onda is self-observation, not psychotherapy. Jung’s methods can bring up strong material.",
+    "requiredCaveats": [
+      "If you have a history of psychosis, dissociation or severe trauma, skip active imagination unless you are working with a clinician.",
+      "If what comes up is overwhelming or persistent, stop and contact a qualified therapist or Jungian analyst.",
+      "Some of Jung’s ideas about gender, culture and race reflect his time and have been criticised and revised."
+    ],
+    "reviewRequired": false
   }
 }

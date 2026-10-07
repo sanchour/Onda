@@ -7,8 +7,8 @@
 /* ── Screen scaffold ─────────────────────────────────────── */
 .screen{position:absolute;inset:0;overflow:hidden}
 .pane{position:absolute;inset:0;padding-left:var(--sal);padding-right:var(--sar)}
-.bgGrouped{background:var(--surface-grouped)}
-.bgPage{background:var(--surface-page)}
+.bgGrouped{background:var(--surface-grouped);--screen-bg:var(--surface-grouped)}
+.bgPage{background:var(--surface-page);--screen-bg:var(--surface-page)}
 /* Tab root: large title row sits directly below the status bar */
 .padRoot{padding-top:calc(var(--chrome-top) + 2px);padding-bottom:calc(152px + var(--sab))}
 /* Pushed page: content starts below the floating chrome row */
@@ -23,6 +23,7 @@
 .spacer44{width:44px;height:44px}
 
 .bottom{position:absolute;left:calc(16px + var(--sal));right:calc(16px + var(--sar));bottom:max(var(--sab), 16px);z-index:40;display:flex;flex-direction:column;gap:10px}
+.bottom::before{content:"";position:absolute;z-index:-1;pointer-events:none;left:calc(-16px - var(--sal));right:calc(-16px - var(--sar));top:-36px;bottom:calc(-1 * max(var(--sab), 16px));background:linear-gradient(to bottom,transparent,var(--screen-bg) 36px)}
 .bottomRow{flex-direction:row}
 .bottomNote{font:400 var(--fs-13) var(--font-sans);color:var(--label-secondary);text-align:center}
 
@@ -35,7 +36,7 @@
 .toast{position:absolute;left:16px;right:16px;top:calc(var(--chrome-top) + 2px);z-index:95;display:flex;justify-content:center;pointer-events:none}
 .toastCard{
   pointer-events:auto;display:flex;align-items:center;gap:12px;max-width:358px;padding:10px 16px 10px 12px;border-radius:26px;
-  background:var(--glass-fill-strong);border:var(--glass-border);box-shadow:var(--glass-highlight),var(--shadow-menu);
+  background:var(--glass-fill-menu);border:var(--glass-border);box-shadow:var(--glass-highlight),var(--shadow-menu);
   -webkit-backdrop-filter:var(--glass-blur);backdrop-filter:var(--glass-blur);
   animation:toastIn var(--duration-large) var(--ease-enter);
 }

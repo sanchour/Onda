@@ -1,56 +1,308 @@
 {
-  "version": 1,
+  "version": 2,
   "id": "tao",
   "name": "Taoism",
   "origin": "China",
+  "era": "c. 4th century BCE to today",
   "tone": "yellow",
   "icon": "yin-yang",
-  "line": "Move with the way of things, not against it.",
-  "era": "4th c. BCE to today",
   "font": "Cormorant Garamond",
   "pattern": "flowing-lines",
   "glyph": "道",
+  "line": "Move with the way of things, not against it.",
   "quote": {
     "text": "A journey of a thousand miles begins with a single step.",
     "by": "Laozi",
-    "source": ""
+    "source": "Tao Te Ching, ch. 64"
   },
-  "quotes": [],
+  "quotes": [
+    {
+      "text": "The highest good is like water. Water benefits all things and does not contend.",
+      "by": "Laozi",
+      "source": "Tao Te Ching, ch. 8"
+    },
+    {
+      "text": "The Tao that can be told is not the eternal Tao.",
+      "by": "Laozi",
+      "source": "Tao Te Ching, ch. 1"
+    },
+    {
+      "text": "In the pursuit of learning, every day something is acquired. In the pursuit of Tao, every day something is dropped.",
+      "by": "Laozi",
+      "source": "Tao Te Ching, ch. 48, trans. Gia-fu Feng and Jane English"
+    },
+    {
+      "text": "Shape clay into a vessel: it is the space within that makes it useful.",
+      "by": "Laozi",
+      "source": "Tao Te Ching, ch. 11"
+    },
+    {
+      "text": "Nothing in the world is softer or weaker than water, yet nothing is better at overcoming the hard and strong.",
+      "by": "Laozi",
+      "source": "Tao Te Ching, ch. 78"
+    },
+    {
+      "text": "Knowing others is intelligence; knowing yourself is true wisdom.",
+      "by": "Laozi",
+      "source": "Tao Te Ching, ch. 33, trans. Gia-fu Feng and Jane English"
+    }
+  ],
   "words": [
-    {
-      "id": "word-wu-wei",
-      "term": "Wu wei",
-      "meaning": "Effortless action"
-    },
-    {
-      "id": "word-ziran",
-      "term": "Ziran",
-      "meaning": "Naturalness, of itself so"
-    },
-    {
-      "id": "word-qi",
-      "term": "Qi",
-      "meaning": "Vital energy"
-    },
     {
       "id": "word-dao",
       "term": "Dao",
-      "meaning": "The Way"
+      "meaning": "The Way",
+      "pronunciation": "dow",
+      "language": "Chinese",
+      "usage": "The source and pattern of everything. Also written Tao."
     },
     {
       "id": "word-de",
       "term": "De",
-      "meaning": "Virtue, the power of the Way"
+      "meaning": "Virtue; the power of the Way in a particular thing",
+      "pronunciation": "duh",
+      "language": "Chinese",
+      "usage": "What a thing is when nothing interferes with it."
+    },
+    {
+      "id": "word-wu-wei",
+      "term": "Wu wei",
+      "meaning": "Effortless action; not forcing",
+      "pronunciation": "woo way",
+      "language": "Chinese",
+      "usage": "Not doing nothing: doing nothing that goes against the grain."
+    },
+    {
+      "id": "word-ziran",
+      "term": "Ziran",
+      "meaning": "Naturalness; so of itself",
+      "pronunciation": "dzuh-RAHN",
+      "language": "Chinese",
+      "usage": "Literally \"self-so\". How things are when left to be themselves."
     },
     {
       "id": "word-pu",
       "term": "Pu",
-      "meaning": "The uncarved block"
+      "meaning": "The uncarved block",
+      "pronunciation": "poo",
+      "language": "Chinese",
+      "usage": "Plain wood before it is cut: your original simplicity."
+    },
+    {
+      "id": "word-qi",
+      "term": "Qi",
+      "meaning": "Breath; vital energy",
+      "pronunciation": "chee",
+      "language": "Chinese",
+      "usage": "What moves in the body and between heaven and earth."
     },
     {
       "id": "word-yin-and-yang",
       "term": "Yin and yang",
-      "meaning": "Complementary opposites"
+      "meaning": "The shaded and the sunlit; complementary opposites",
+      "pronunciation": "yin, yahng",
+      "language": "Chinese",
+      "usage": "Each contains the seed of the other and turns into it."
+    },
+    {
+      "id": "word-taiji",
+      "term": "Taiji",
+      "meaning": "The great ultimate",
+      "pronunciation": "tie-JEE",
+      "language": "Chinese",
+      "usage": "The turning of yin and yang, drawn as the familiar divided circle."
+    },
+    {
+      "id": "word-wuji",
+      "term": "Wuji",
+      "meaning": "The limitless; before distinctions",
+      "pronunciation": "woo-JEE",
+      "language": "Chinese",
+      "usage": "The stillness that movement comes out of."
+    },
+    {
+      "id": "word-wu",
+      "term": "Wu",
+      "meaning": "Non-being; absence",
+      "pronunciation": "woo",
+      "language": "Chinese",
+      "usage": "The empty hub that lets the wheel turn."
+    },
+    {
+      "id": "word-fan",
+      "term": "Fan",
+      "meaning": "Return; reversal",
+      "pronunciation": "fahn",
+      "language": "Chinese",
+      "usage": "Chapter 40: returning is the movement of the Way."
+    },
+    {
+      "id": "word-rou",
+      "term": "Rou",
+      "meaning": "Softness; yielding",
+      "pronunciation": "roh",
+      "language": "Chinese",
+      "usage": "The living are soft and supple; the dead are stiff and hard."
+    },
+    {
+      "id": "word-shui",
+      "term": "Shui",
+      "meaning": "Water",
+      "pronunciation": "shway",
+      "language": "Chinese",
+      "usage": "The favourite image of the Way: low, soft and unstoppable."
+    },
+    {
+      "id": "word-xin",
+      "term": "Xin",
+      "meaning": "Heart-mind",
+      "pronunciation": "sheen",
+      "language": "Chinese",
+      "usage": "One word for what English splits into thinking and feeling."
+    },
+    {
+      "id": "word-xinzhai",
+      "term": "Xinzhai",
+      "meaning": "Fasting of the mind",
+      "pronunciation": "sheen-JYE",
+      "language": "Chinese",
+      "usage": "Zhuangzi: listen not with the ear or the mind but with qi, which is empty and waits."
+    },
+    {
+      "id": "word-zuowang",
+      "term": "Zuowang",
+      "meaning": "Sitting and forgetting",
+      "pronunciation": "dzwoh-WAHNG",
+      "language": "Chinese",
+      "usage": "Dropping body, knowledge and self until you merge with the great thoroughfare."
+    },
+    {
+      "id": "word-xiaoyao-you",
+      "term": "Xiaoyao you",
+      "meaning": "Free and easy wandering",
+      "pronunciation": "shyow-yow yoh",
+      "language": "Chinese",
+      "usage": "The title of the first chapter of the Zhuangzi."
+    },
+    {
+      "id": "word-wanwu",
+      "term": "Wanwu",
+      "meaning": "The ten thousand things",
+      "pronunciation": "wahn-WOO",
+      "language": "Chinese",
+      "usage": "Everything that exists."
+    },
+    {
+      "id": "word-tian",
+      "term": "Tian",
+      "meaning": "Heaven; nature",
+      "pronunciation": "tyen",
+      "language": "Chinese",
+      "usage": "Not a place above but the order things follow."
+    },
+    {
+      "id": "word-zhenren",
+      "term": "Zhenren",
+      "meaning": "A true person",
+      "pronunciation": "jun-RUN",
+      "language": "Chinese",
+      "usage": "Zhuangzi’s name for someone no longer at odds with the Way."
+    },
+    {
+      "id": "word-xian",
+      "term": "Xian",
+      "meaning": "An immortal; a transcendent",
+      "pronunciation": "shyen",
+      "language": "Chinese",
+      "usage": "The character combines \"person\" and \"mountain\"."
+    },
+    {
+      "id": "word-daoshi",
+      "term": "Daoshi",
+      "meaning": "A Daoist priest",
+      "pronunciation": "dow-SHIH",
+      "language": "Chinese",
+      "usage": "An ordained ritual specialist of the living religion."
+    },
+    {
+      "id": "word-guan",
+      "term": "Guan",
+      "meaning": "A Daoist temple or monastery",
+      "pronunciation": "gwahn",
+      "language": "Chinese",
+      "usage": "The word also means to observe."
+    },
+    {
+      "id": "word-yangsheng",
+      "term": "Yangsheng",
+      "meaning": "Nourishing life",
+      "pronunciation": "yahng-SHUNG",
+      "language": "Chinese",
+      "usage": "The old arts of health: breath, movement, diet, rest."
+    },
+    {
+      "id": "word-qigong",
+      "term": "Qigong",
+      "meaning": "Breath work; energy cultivation",
+      "pronunciation": "chee-GONG",
+      "language": "Chinese",
+      "usage": "A modern umbrella term for very old exercises."
+    },
+    {
+      "id": "word-taijiquan",
+      "term": "Taijiquan",
+      "meaning": "Tai chi",
+      "pronunciation": "tie-jee-CHWEN",
+      "language": "Chinese",
+      "usage": "A martial art practiced slowly as moving meditation."
+    },
+    {
+      "id": "word-dantian",
+      "term": "Dantian",
+      "meaning": "The elixir field",
+      "pronunciation": "dahn-TYEN",
+      "language": "Chinese",
+      "usage": "The centre below the navel where breath is gathered."
+    },
+    {
+      "id": "word-neidan",
+      "term": "Neidan",
+      "meaning": "Inner alchemy",
+      "pronunciation": "nay-DAHN",
+      "language": "Chinese",
+      "usage": "Meditation described in the language of the alchemist’s furnace."
+    },
+    {
+      "id": "word-wuxing",
+      "term": "Wuxing",
+      "meaning": "The five phases",
+      "pronunciation": "woo-SHING",
+      "language": "Chinese",
+      "usage": "Wood, fire, earth, metal, water: a cycle, not a list of substances."
+    },
+    {
+      "id": "word-ci",
+      "term": "Ci",
+      "meaning": "Compassion; tenderness",
+      "pronunciation": "tsuh",
+      "language": "Chinese",
+      "usage": "First of the three treasures in chapter 67."
+    },
+    {
+      "id": "word-jian",
+      "term": "Jian",
+      "meaning": "Frugality; restraint",
+      "pronunciation": "jyen",
+      "language": "Chinese",
+      "usage": "Second of the three treasures."
+    },
+    {
+      "id": "word-he",
+      "term": "He",
+      "meaning": "Harmony",
+      "pronunciation": "huh",
+      "language": "Chinese",
+      "usage": "Different things fitting together without becoming the same."
     }
   ],
   "practices": [
@@ -62,9 +314,13 @@
       "time": "06:30",
       "minutes": 15,
       "meta": "Morning · 15 min",
-      "instructions": "",
-      "why": "",
-      "variations": []
+      "instructions": "Stand with feet shoulder-width apart, knees soft, arms loose. Breathe low into the belly for a minute. Then move slowly through a simple set, such as the Eight Pieces of Brocade: raise the hands to hold up the sky, draw the bow to each side, lift one arm at a time, look back over each shoulder, sway the head and tail, fold forward, punch slowly with a steady gaze, rise onto the toes and drop. Keep every movement unforced and let the breath lead.",
+      "why": "Yangsheng, nourishing life, is one of the oldest strands of Daoist practice. The body is not an obstacle to the Way; it is where you meet it.",
+      "variations": [
+        "Stand still for ten minutes in the \"holding the tree\" posture.",
+        "Follow a tai chi short form.",
+        "Practice outdoors, facing the morning light."
+      ]
     },
     {
       "id": "walk-without-a-goal",
@@ -74,9 +330,13 @@
       "time": "12:30",
       "minutes": 30,
       "meta": "Midday · 30 min",
-      "instructions": "",
-      "why": "",
-      "variations": []
+      "instructions": "Leave without a destination, a step count or headphones. At each corner take whichever way draws you. Walk at the speed at which you can still notice things. If you find yourself planning the route, stop, look around and begin again.",
+      "why": "Zhuangzi’s first chapter is called Free and Easy Wandering. Usefulness and purpose, he suggests, are how the big tree gets cut down.",
+      "variations": [
+        "Follow water: a stream, a canal, a shoreline.",
+        "Wander one small area very slowly.",
+        "Walk in rain if it is raining."
+      ]
     },
     {
       "id": "tea-slowly",
@@ -86,9 +346,13 @@
       "time": "16:00",
       "minutes": 15,
       "meta": "Afternoon · 15 min",
-      "instructions": "",
-      "why": "",
-      "variations": []
+      "instructions": "Use loose leaves and a small pot or lidded cup. Warm the vessel, rinse the leaves with a quick pour, then steep briefly and pour it all out into the cup. Smell it before you drink. Make three or four short infusions and notice how each one differs.",
+      "why": "Gongfu tea means tea made with skill and time. It is a lesson in small adjustments and in not rushing a thing that has its own pace.",
+      "variations": [
+        "Drink the first cup in silence.",
+        "Share the pot with one other person.",
+        "Brew the same leaf every day and track how it changes."
+      ]
     },
     {
       "id": "observe-the-sky",
@@ -98,9 +362,13 @@
       "time": "20:30",
       "minutes": 10,
       "meta": "Evening · 10 min",
-      "instructions": "",
-      "why": "",
-      "variations": []
+      "instructions": "Go outside or to an open window. Look up for ten minutes. Note the phase of the moon, the wind, the temperature, what the clouds are doing. Do not photograph it. If you like, write one line afterwards.",
+      "why": "The old Daoists were sky-watchers and calendar-makers. To follow the Way you first have to notice which way things are moving.",
+      "variations": [
+        "Learn tonight’s moon phase by name.",
+        "Note which of the twenty-four solar terms you are in.",
+        "Watch the same patch of sky at the same time all week."
+      ]
     }
   ],
   "tasks": [
@@ -117,28 +385,45 @@
       "meta": "Notice the difference",
       "time": "18:00",
       "slot": "Evening"
+    },
+    {
+      "id": "remove-one-thing",
+      "name": "Remove one thing",
+      "meta": "From a room, a plan or a sentence",
+      "time": "19:00",
+      "slot": "Evening"
     }
   ],
   "rules": [
     {
       "id": "r1",
       "text": "Do not force. If it resists, rest.",
-      "why": ""
+      "why": "Chapter 30: force is followed by loss of strength. What is pushed against the Way does not last."
     },
     {
       "id": "r2",
       "text": "No rushing between places",
-      "why": ""
+      "why": "Hurry is a way of being absent from where you are."
     },
     {
       "id": "r3",
       "text": "Spend part of the day outdoors",
-      "why": ""
+      "why": "The texts take their images from water, valleys, weather and trees. Go and look at the originals."
     },
     {
       "id": "r4",
       "text": "Say less than you could",
-      "why": ""
+      "why": "Chapter 23: to talk little is natural. A whirlwind does not last the whole morning."
+    },
+    {
+      "id": "r5",
+      "text": "Take the lower place",
+      "why": "Chapter 66: rivers and seas rule the hundred valleys because they lie below them."
+    },
+    {
+      "id": "r6",
+      "text": "Stop when it is enough",
+      "why": "Chapter 9: better to stop in time than to fill to the brim."
     }
   ],
   "immerse": {
@@ -146,62 +431,151 @@
       {
         "id": "read-tao-te-ching",
         "title": "Tao Te Ching",
-        "creator": "Laozi",
-        "why": ""
+        "creator": "Laozi, trans. D. C. Lau",
+        "year": "1963",
+        "why": "Eighty-one short chapters. A careful, scholarly translation."
       },
       {
-        "id": "read-zhuangzi-inner-chapters",
-        "title": "Zhuangzi (Inner Chapters)",
-        "creator": "Zhuangzi",
-        "why": ""
+        "id": "read-lao-tzu-tao-te-ching",
+        "title": "Lao Tzu: Tao Te Ching",
+        "creator": "Ursula K. Le Guin",
+        "year": "1997",
+        "why": "A poet’s rendering made with a sinologist: plain, dry and funny."
+      },
+      {
+        "id": "read-zhuangzi-the-complete-writings",
+        "title": "Zhuangzi: The Complete Writings",
+        "creator": "trans. Brook Ziporyn",
+        "year": "2020",
+        "why": "Butterflies, butchers, useless trees. Start with the seven Inner Chapters."
+      },
+      {
+        "id": "read-the-book-of-lieh-tzu",
+        "title": "The Book of Lieh-tzu",
+        "creator": "trans. A. C. Graham",
+        "year": "1960",
+        "why": "Tales of the third classic, lighter and stranger than the other two."
+      },
+      {
+        "id": "read-cold-mountain-poems",
+        "title": "Cold Mountain Poems",
+        "creator": "Hanshan, trans. Red Pine",
+        "year": "1983",
+        "why": "A recluse who wrote on rocks and laughed at visitors."
+      },
+      {
+        "id": "read-selected-poems",
+        "title": "Selected Poems",
+        "creator": "Tao Yuanming",
+        "year": "4th–5th century",
+        "why": "The official who quit to grow chrysanthemums. The model for every later hermit poet."
+      },
+      {
+        "id": "read-taoism-an-essential-guide",
+        "title": "Taoism: An Essential Guide",
+        "creator": "Eva Wong",
+        "year": "1997",
+        "why": "A practitioner’s map of the schools, from philosophy to ritual and alchemy."
+      },
+      {
+        "id": "read-tao-the-watercourse-way",
+        "title": "Tao: The Watercourse Way",
+        "creator": "Alan Watts",
+        "year": "1975",
+        "why": "A Western popular account. Enjoyable, and to be read as one man’s view."
       },
       {
         "id": "read-the-tao-of-pooh",
         "title": "The Tao of Pooh",
         "creator": "Benjamin Hoff",
-        "why": ""
+        "year": "1982",
+        "why": "Wu wei explained through Winnie-the-Pooh."
       }
     ],
     "watch": [
       {
-        "id": "watch-crouching-tiger-hidden-dragon-2000",
-        "title": "Crouching Tiger, Hidden Dragon (2000)",
-        "creator": "Wudang and Daoist themes",
-        "why": ""
+        "id": "watch-amongst-white-clouds",
+        "title": "Amongst White Clouds",
+        "creator": "Edward A. Burger",
+        "year": "2005",
+        "why": "Hermits in the Zhongnan Mountains. Mostly Buddhist, in the range Daoist recluses made famous."
       },
       {
-        "id": "watch-documentary-on-wudang-mountain",
-        "title": "Documentary on Wudang mountain",
-        "creator": "Any good one",
-        "why": ""
+        "id": "watch-crouching-tiger-hidden-dragon",
+        "title": "Crouching Tiger, Hidden Dragon",
+        "creator": "Ang Lee",
+        "year": "2000",
+        "why": "Wudang swordsmanship and the cost of holding on."
+      },
+      {
+        "id": "watch-tai-chi-master",
+        "title": "Tai Chi Master",
+        "creator": "Yuen Woo-ping",
+        "year": "1993",
+        "why": "A kung fu telling of the Zhang Sanfeng legend: softness defeats force."
       }
     ],
     "listen": [
       {
-        "id": "listen-guqin-music",
-        "title": "Guqin music",
-        "creator": "Seven-string zither",
-        "why": ""
+        "id": "listen-flowing-water-liu-shui",
+        "title": "Flowing Water (Liu Shui)",
+        "creator": "Guan Pinghu, guqin",
+        "why": "Seven strings and a great deal of silence. Sent into space on the Voyager Golden Record."
       },
       {
-        "id": "listen-rain-and-stream-recordings",
-        "title": "Rain and stream recordings",
-        "creator": "For the evening sit",
-        "why": ""
+        "id": "listen-in-our-time-daoism",
+        "title": "In Our Time: Daoism",
+        "creator": "BBC Radio 4, Melvyn Bragg",
+        "year": "2011",
+        "why": "Scholars on the texts, the religion and the difference between them."
+      },
+      {
+        "id": "listen-guqin-and-xiao-duets",
+        "title": "Guqin and xiao duets",
+        "creator": "Any traditional recording",
+        "why": "Zither and bamboo flute: the scholar’s instruments."
+      },
+      {
+        "id": "listen-wudang-daoist-ritual-music",
+        "title": "Wudang Daoist ritual music",
+        "creator": "Temple recordings",
+        "why": "Chant, bells and drums from the mountain monasteries."
       }
     ],
     "art": [
       {
-        "id": "art-shan-shui-landscape-painting",
-        "title": "Shan shui landscape painting",
-        "creator": "Mountains and water",
-        "why": ""
+        "id": "art-early-spring",
+        "title": "Early Spring",
+        "creator": "Guo Xi",
+        "year": "1072",
+        "why": "A mountain that seems to breathe. National Palace Museum, Taipei."
       },
       {
-        "id": "art-chinese-calligraphy",
-        "title": "Chinese calligraphy",
-        "creator": "Copy the character for Dao",
-        "why": ""
+        "id": "art-travelers-among-mountains-and-streams",
+        "title": "Travelers Among Mountains and Streams",
+        "creator": "Fan Kuan",
+        "year": "c. 1000",
+        "why": "Find the travelers. They are very small."
+      },
+      {
+        "id": "art-immortal-in-splashed-ink",
+        "title": "Immortal in Splashed Ink",
+        "creator": "Liang Kai",
+        "year": "13th century",
+        "why": "A drunken sage in a dozen wet strokes."
+      },
+      {
+        "id": "art-laozi-riding-an-ox",
+        "title": "Laozi Riding an Ox",
+        "creator": "Zhang Lu",
+        "year": "16th century",
+        "why": "The old man leaving through the western pass."
+      },
+      {
+        "id": "art-scholar-s-rocks",
+        "title": "Scholar’s rocks",
+        "creator": "Gongshi",
+        "why": "Stones chosen, not carved. Look for one in a museum or a riverbed."
       }
     ],
     "eat": [
@@ -209,196 +583,568 @@
         "id": "eat-congee",
         "title": "Congee",
         "creator": "Rice porridge",
-        "why": ""
+        "why": "Plain, warm and easy on the body. Add ginger or scallion."
       },
       {
         "id": "eat-steamed-seasonal-vegetables",
         "title": "Steamed seasonal vegetables",
-        "creator": "Whatever is in season",
-        "why": ""
+        "creator": "Whatever is growing now",
+        "why": "Barely seasoned, so you can taste the season."
       },
       {
         "id": "eat-tofu-and-mushrooms",
         "title": "Tofu and mushrooms",
-        "creator": "Light and plain",
-        "why": ""
+        "creator": "Braised simply",
+        "why": "Monastery food across China."
+      },
+      {
+        "id": "eat-noodles-in-clear-broth",
+        "title": "Noodles in clear broth",
+        "creator": "With greens",
+        "why": "A meal that asks for very little."
       }
     ],
     "drink": [
       {
         "id": "drink-oolong",
         "title": "Oolong",
-        "creator": "Brewed gongfu style",
-        "why": ""
+        "creator": "Half-oxidised tea",
+        "why": "Good for several short infusions."
       },
       {
         "id": "drink-pu-erh",
         "title": "Pu-erh",
-        "creator": "Aged and earthy",
-        "why": ""
+        "creator": "Aged, fermented tea from Yunnan",
+        "why": "Dark, earthy and settling."
       },
       {
         "id": "drink-chrysanthemum-tea",
         "title": "Chrysanthemum tea",
-        "creator": "Cooling",
-        "why": ""
+        "creator": "Dried flowers in hot water",
+        "why": "Tao Yuanming’s flower. Cooling in warm weather."
+      },
+      {
+        "id": "drink-warm-water",
+        "title": "Warm water",
+        "creator": "Plain",
+        "why": "The everyday drink of much of China."
       }
     ],
     "customs": [
       {
         "id": "customs-practice-at-dawn",
         "title": "Practice at dawn",
-        "creator": "Park tai chi is a living custom",
-        "why": ""
+        "creator": "Parks across China",
+        "why": "Tai chi and qigong in the park at first light is a living custom."
       },
       {
         "id": "customs-eat-with-the-seasons",
         "title": "Eat with the seasons",
-        "creator": "Warm in winter, light in summer",
-        "why": ""
+        "creator": "The twenty-four solar terms",
+        "why": "Warm food in winter, light food in summer."
       },
       {
-        "id": "customs-keep-a-window-open",
-        "title": "Keep a window open",
-        "creator": "Let qi move",
-        "why": ""
+        "id": "customs-leave-space",
+        "title": "Leave space",
+        "creator": "In rooms, paintings and plans",
+        "why": "Chapter 11: the empty part is what makes the thing useful."
+      },
+      {
+        "id": "customs-go-to-the-mountains",
+        "title": "Go to the mountains",
+        "creator": "Wudang, Hua, Tai",
+        "why": "Daoist temples sit on peaks. The climb is part of the visit."
+      },
+      {
+        "id": "customs-offer-incense",
+        "title": "Offer incense",
+        "creator": "At a Daoist temple",
+        "why": "Three sticks, held in both hands. Follow what others do and ask if unsure."
+      },
+      {
+        "id": "customs-follow-the-lunar-calendar",
+        "title": "Follow the lunar calendar",
+        "creator": "New and full moon",
+        "why": "Many observances fall on the first and fifteenth day of the lunar month."
       }
     ]
   },
   "ethics": [
     {
       "title": "Three treasures",
-      "text": "Compassion, moderation and humility."
+      "text": "Chapter 67: compassion, frugality, and not daring to be first in the world. From compassion comes courage; from frugality, generosity; from humility, leadership.",
+      "practice": "Let someone else go first today, in a queue or in a conversation."
     },
     {
       "title": "Be like water",
-      "text": "Yield, benefit all things and do not compete."
+      "text": "Water gives life to everything and does not compete. It settles in the low places people avoid, and so it is close to the Way.",
+      "practice": "In one disagreement, look for the way around instead of the way through."
     },
     {
       "title": "Do not meddle",
-      "text": "A good ruler, like a good cook, does not overhandle the fish."
+      "text": "Govern a large country as you would cook a small fish: do not keep poking it. Much harm is done by fixing what was not broken.",
+      "practice": "Resist improving one thing today that is working well enough."
+    },
+    {
+      "title": "Know when to stop",
+      "text": "To know what is enough is to be rich. Disaster comes from not knowing when to stop.",
+      "practice": "End one activity today while it is still going well."
+    },
+    {
+      "title": "No contention",
+      "text": "Because the sage does not contend, no one under heaven can contend with them.",
+      "practice": "Let one small provocation pass without reply."
+    },
+    {
+      "title": "Requite injury with virtue",
+      "text": "Chapter 63: answer hostility with kindness and deal with the difficult while it is still easy.",
+      "practice": "Do one small kindness for someone who has been cold to you."
     }
   ],
   "philosophy": [
     {
       "title": "Wu wei",
-      "text": "Act in accord with the situation instead of against it."
+      "text": "Act without forcing. The best action fits the situation so well that it looks like no action at all, like a cook whose knife finds the gaps between the joints.",
+      "practice": "Find the easiest true way to do today’s hardest task."
     },
     {
       "title": "The uncarved block",
-      "text": "Simplicity is original nature."
+      "text": "Return to simplicity. The more a thing is cut, named and polished, the further it moves from what it was.",
+      "practice": "Do one thing today without optimising it."
     },
     {
       "title": "Yin and yang",
-      "text": "Opposites arise together and turn into each other."
+      "text": "Opposites create and complete each other: difficult and easy, long and short, before and after. Hold both and the turning makes sense.",
+      "practice": "When something goes badly, ask what it is turning into."
     },
     {
       "title": "Usefulness of emptiness",
-      "text": "The hub of the wheel is useful because it is hollow."
+      "text": "Thirty spokes share one hub; the empty centre makes the wheel work. Doors and windows are what make a room.",
+      "practice": "Leave one hour of today unplanned and guard it."
+    },
+    {
+      "title": "Return",
+      "text": "Returning is the movement of the Way. Things grow, flourish and go back to the root. Going back to the root is called stillness.",
+      "practice": "Sit for five minutes and do nothing whatever."
+    },
+    {
+      "title": "The useless tree",
+      "text": "Zhuangzi: the gnarled tree no carpenter wants is the one that lives out its years. Usefulness is not the only measure of a life.",
+      "practice": "Spend twenty minutes on something with no purpose."
+    },
+    {
+      "title": "Soft overcomes hard",
+      "text": "The tongue outlasts the teeth. What yields, endures; what is rigid, breaks.",
+      "practice": "In your body, find one place you are bracing, and let it go."
+    },
+    {
+      "title": "The butterfly dream",
+      "text": "Zhuangzi dreamt he was a butterfly, and on waking did not know which was the dreamer. Certainty about who you are may be the last thing to loosen.",
+      "practice": "Hold one opinion about yourself a little more lightly today."
+    },
+    {
+      "title": "The Way cannot be named",
+      "text": "Any description of the Way is a finger, not the moon. Words are useful as long as you do not mistake them for the thing.",
+      "practice": "Notice one thing today that you cannot put into words. Leave it unsaid."
+    },
+    {
+      "title": "Knowing enough",
+      "text": "There is no greater misfortune than not knowing what is enough.",
+      "practice": "Before buying or adding anything, ask what you would remove."
     }
   ],
   "journal": [
-    "Where did you push today, and what happened when you stopped?",
-    "What did water teach you today?",
-    "What did you do today that needed no effort?",
-    "What changed with the weather, and how did you change with it?",
-    "Where did you try to be useful instead of present?",
-    "What would the uncarved version of this day look like?",
-    "What did you leave empty, and what filled it?"
+    "Where did you force something today? Where did you yield?",
+    "What happened when you stopped trying?",
+    "What in nature held your attention?",
+    "Where could you do less and get more?",
+    "What did water teach you?",
+    "What was enough today?",
+    "What did you carry that you could set down?",
+    "Where did you rush, and what did rushing cost?",
+    "What went well without your interference?",
+    "Which opposite did you meet today, and how were the two connected?",
+    "What empty space made something else possible?",
+    "When did you say more than was needed?",
+    "What is growing now, and what is going back to the root?",
+    "Where did softness work better than strength?",
+    "What did you notice on your walk that you did not go looking for?",
+    "What would you do if you did not need to be useful?",
+    "Which desire today was really yours?",
+    "What did the sky do tonight?",
+    "Where did you take the higher place when the lower would have served?",
+    "What are you gripping? What would happen if you opened your hand?",
+    "What did the tea taste like, cup by cup?",
+    "What did you leave unimproved?",
+    "What part of your day followed the season?",
+    "Where did you contend, and with whom, and why?",
+    "What happened in your body during qigong?",
+    "What can you not name about today?",
+    "What turned into its opposite?",
+    "When were you most at ease, and what were you doing?",
+    "What would be simpler?",
+    "Describe today as weather."
   ],
   "reflect": [
-    "What did flowing feel like, and what was forcing?",
+    "What changed when you stopped pushing?",
     "Which practice changed you the most, and why?",
-    "What would a year of less effort look like?"
+    "Where did you resist, and what was the resistance protecting?",
+    "What have you removed from your days that you do not miss?",
+    "What does \"enough\" look like to you now?",
+    "What will you keep doing, without effort?"
   ],
-  "dayThemes": [],
+  "dayThemes": [
+    "The Way",
+    "Wu wei",
+    "Be like water",
+    "The uncarved block",
+    "Yin and yang",
+    "Usefulness of emptiness",
+    "Knowing enough",
+    "Return to the root",
+    "Soft overcomes hard",
+    "The lower place",
+    "Saying less",
+    "Three treasures",
+    "The useless tree",
+    "Free and easy wandering",
+    "Fasting of the mind",
+    "Following the season",
+    "Not contending",
+    "Simplicity",
+    "Stillness",
+    "The ten thousand things",
+    "Breath",
+    "Not meddling",
+    "The butterfly dream",
+    "Stopping in time",
+    "The valley spirit",
+    "Nourishing life",
+    "Small and few",
+    "Naturalness",
+    "Sitting and forgetting",
+    "A single step"
+  ],
   "guide": {
-    "intro": [
-      "Daoism is both a philosophy and a religion. As philosophy, it asks you to live in harmony with the Dao, the way things naturally unfold. As religion, it includes temples, priests, and long traditions of inner alchemy and healing.",
-      "Its two great early texts are the Tao Te Ching and the Zhuangzi. They are poetic, playful and hard to pin down on purpose."
-    ],
     "origin": "China",
-    "era": "4th c. BCE to today",
+    "era": "c. 4th century BCE to today",
+    "intro": [
+      "Taoism, or Daoism, is the Chinese tradition of living in accord with the Dao, the Way: the source, pattern and flow of everything that exists. Its advice can sound like doing less. It is closer to say: stop working against the grain.",
+      "It rests on two books. The Tao Te Ching, attributed to an old archivist called Laozi, is eighty-one brief chapters of paradox: the soft overcomes the hard, the empty is useful, the best ruler is barely noticed. The Zhuangzi, named after a fourth-century BCE writer of great wit, makes the same case with stories: a cook whose knife never dulls because it finds the spaces between the joints, a tree so gnarled that no carpenter cuts it down, a man who dreams he is a butterfly and wakes unsure which he is.",
+      "Both were written during the Warring States period, when Chinese kingdoms fought for supremacy and thinkers competed to advise them. Against the Confucian programme of ritual, study and moral effort, the Daoist texts proposed something quieter: return to simplicity, reduce desires, do not interfere, and trust the way things move of themselves.",
+      "From the second century of the common era Daoism also became an organised religion, with priests, temples, scriptures, a pantheon and communal rites. Alongside it grew arts of nourishing life: breathing, movement, diet and the meditative discipline called inner alchemy. Modern scholars no longer draw a hard line between a \"philosophical\" and a \"religious\" Daoism. They are two faces of one long tradition.",
+      "Its influence runs through Chinese medicine, landscape painting, poetry, garden design, the martial arts and tea. When Buddhism arrived in China it was first explained in Daoist words, and Chan, later Zen, carries the mark.",
+      "This Onda draws on the classics and on everyday practices anyone may do: gentle movement at dawn, an aimless walk, tea made slowly, time looking at the sky. Daoism is also a living religion with ordained clergy and its own rites. Those belong to its communities and are not imitated here."
+    ],
     "figures": [
       {
         "name": "Laozi",
-        "dates": "",
-        "bio": "Traditional author of the Tao Te Ching. Historians debate whether he existed."
+        "dates": "traditionally 6th century BCE",
+        "bio": "The \"Old Master\", by legend a royal archivist who wrote the Tao Te Ching at a border pass before leaving China. Many scholars doubt he was a single historical person."
       },
       {
         "name": "Zhuangzi",
-        "dates": "",
-        "bio": "Fourth century BCE writer of parables, humor and freedom."
+        "dates": "c. 369–286 BCE",
+        "bio": "Zhuang Zhou, a minor official who turned down high office. The Inner Chapters of the book that bears his name are among the great works of Chinese prose."
+      },
+      {
+        "name": "Liezi",
+        "dates": "traditionally 5th century BCE",
+        "bio": "The sage who rode the wind. The book named for him was compiled centuries later."
       },
       {
         "name": "Zhang Daoling",
-        "dates": "",
-        "bio": "Founded the Celestial Masters in 142 CE."
+        "dates": "2nd century CE",
+        "bio": "Founder of the Way of the Celestial Masters, the first organised Daoist church."
+      },
+      {
+        "name": "Wang Bi",
+        "dates": "226–249",
+        "bio": "A prodigy whose commentary shaped how the Tao Te Ching has been read ever since. He died at twenty-three."
+      },
+      {
+        "name": "Ge Hong",
+        "dates": "283–343",
+        "bio": "Author of the Baopuzi, the Master Who Embraces Simplicity, on alchemy, immortals and ethics."
+      },
+      {
+        "name": "Tao Yuanming",
+        "dates": "365–427",
+        "bio": "Poet who resigned his post to farm. The patron saint of going home."
       },
       {
         "name": "Wang Chongyang",
-        "dates": "",
-        "bio": "Founded the Quanzhen school in the 12th century."
+        "dates": "1113–1170",
+        "bio": "Founder of the Quanzhen, Complete Perfection, school of monastic Daoism."
+      },
+      {
+        "name": "Qiu Chuji",
+        "dates": "1148–1227",
+        "bio": "Quanzhen master who travelled to Central Asia to meet Genghis Khan and urged him to spare lives."
       }
     ],
     "history": [
       {
-        "when": "c. 400 BCE",
+        "when": "c. 4th century BCE",
         "what": "The Tao Te Ching takes shape",
-        "detail": ""
+        "detail": "The oldest surviving copies are bamboo slips buried around 300 BCE at Guodian. The text was probably compiled over time rather than written by one hand."
       },
       {
         "when": "c. 300 BCE",
-        "what": "Zhuangzi writes on spontaneity and play",
-        "detail": "His parable of the butterfly asks who is dreaming whom."
+        "what": "Zhuangzi writes",
+        "detail": "The seven Inner Chapters are generally thought to be his own. The rest of the book was added by followers and later editors."
+      },
+      {
+        "when": "2nd century BCE",
+        "what": "Huang-Lao thought at the Han court",
+        "detail": "Early Han rulers favoured a blend of Laozi and the Yellow Emperor: govern lightly and let the people recover from war."
       },
       {
         "when": "142 CE",
-        "what": "The Celestial Masters form the first organized Daoist community",
-        "detail": ""
+        "what": "The Way of the Celestial Masters is founded",
+        "detail": "Zhang Daoling reported a revelation from the deified Laozi in Sichuan. His movement had parishes, registers and healing rites, and its lineage continues today."
       },
       {
-        "when": "12th c.",
-        "what": "Quanzhen Daoism blends the three teachings and monastic life",
-        "detail": ""
+        "when": "3rd century",
+        "what": "The age of commentary and withdrawal",
+        "detail": "Wang Bi writes on Laozi and Guo Xiang edits the Zhuangzi into the form we have. The Seven Sages of the Bamboo Grove make a point of drinking, music and avoiding office."
+      },
+      {
+        "when": "c. 317",
+        "what": "Ge Hong completes the Baopuzi",
+        "detail": "The fullest early account of the search for long life through alchemy, diet and virtue."
+      },
+      {
+        "when": "364–370",
+        "what": "The Shangqing revelations",
+        "detail": "The medium Yang Xi records scriptures said to be dictated by celestial beings. The Highest Clarity school, centred on Mount Mao, turns Daoism toward inner visualisation."
+      },
+      {
+        "when": "618–907",
+        "what": "The Tang dynasty honours Laozi",
+        "detail": "The imperial family shared his surname, Li, and claimed him as an ancestor. Daoist texts entered the civil examinations and temples spread across the empire."
+      },
+      {
+        "when": "c. 1167",
+        "what": "Wang Chongyang founds Quanzhen",
+        "detail": "A celibate monastic order joining Daoist inner alchemy with Buddhist and Confucian elements. It is still one of the two main schools."
+      },
+      {
+        "when": "1222",
+        "what": "Qiu Chuji meets Genghis Khan",
+        "detail": "The seventy-four-year-old master travelled for two years to reach the khan’s camp near the Hindu Kush. Asked for the medicine of immortality, he said there was none, only ways to care for life."
+      },
+      {
+        "when": "1445",
+        "what": "The Daoist Canon is printed",
+        "detail": "The Ming Daozang gathers about fifteen hundred texts. It remains the standard collection."
+      },
+      {
+        "when": "17th century",
+        "what": "Tai chi emerges",
+        "detail": "The earliest reliable records place it in the Chen family village in Henan. The story of the immortal Zhang Sanfeng inventing it is later legend."
+      },
+      {
+        "when": "1973 and 1993",
+        "what": "The oldest manuscripts are found",
+        "detail": "Silk copies of the Tao Te Ching from a tomb sealed in 168 BCE come to light at Mawangdui, and the older bamboo slips at Guodian twenty years later."
       }
     ],
     "concepts": [
       {
         "term": "Dao",
-        "text": "The way, source and pattern of all things.",
-        "detail": ""
+        "text": "The Way: the source and course of all things.",
+        "detail": "The first line of the Tao Te Ching warns that the Way that can be spoken of is not the constant Way. It is called the mother of the ten thousand things, yet it does not rule them. It can be followed but not grasped."
+      },
+      {
+        "term": "De",
+        "text": "The power or virtue of the Way as it appears in a particular thing.",
+        "detail": "The second half of the book’s title. A person of deep de is compared to an infant: soft, whole and unafraid."
       },
       {
         "term": "Wu wei",
-        "text": "Non-forcing. Action that fits.",
-        "detail": ""
+        "text": "Non-action, or acting without forcing.",
+        "detail": "The sage acts without acting and so nothing is left undone. It describes skill so complete that effort disappears, and government so light that people say: we did it ourselves."
       },
       {
         "term": "Ziran",
-        "text": "Of itself so. Nature, spontaneity.",
-        "detail": ""
+        "text": "Spontaneity; being so of itself.",
+        "detail": "Humans follow earth, earth follows heaven, heaven follows the Way, and the Way follows what is naturally so."
       },
       {
-        "term": "Neidan",
-        "text": "Inner alchemy, the cultivation of qi and spirit.",
-        "detail": ""
+        "term": "Yin and yang",
+        "text": "The two complementary aspects of everything.",
+        "detail": "Originally the shady and sunny sides of a hill. They are not good and evil. Each grows from the other, and health, in a body or a state, is their balance."
+      },
+      {
+        "term": "Qi",
+        "text": "The breath or energy of which everything is made.",
+        "detail": "Condensed it is matter, rarefied it is spirit. Movement, breathing and meditation practices all work with qi."
+      },
+      {
+        "term": "Pu",
+        "text": "The uncarved block.",
+        "detail": "An image of the mind before preference and ambition have shaped it. To return to it is not to become ignorant but to become whole."
+      },
+      {
+        "term": "Emptiness",
+        "text": "What is absent is what makes a thing work.",
+        "detail": "The hollow of the cup, the space in the room, the pause in the music. Daoist texts keep directing attention to what is not there."
+      },
+      {
+        "term": "Nourishing life",
+        "text": "The arts of health and long life.",
+        "detail": "Breathing, stretching, moderation in food and sex, and regular hours. Their heirs are qigong, tai chi and much of Chinese medicine."
+      },
+      {
+        "term": "Inner alchemy",
+        "text": "Meditation as the refining of essence, breath and spirit.",
+        "detail": "Neidan borrowed the vocabulary of the laboratory, furnace, cauldron and elixir, for a contemplative practice aimed at returning to the Way."
       }
     ],
     "facts": [
       {
-        "text": "The Tao Te Ching has about 5,000 characters, and is among the most translated books ever."
+        "text": "The Tao Te Ching is among the most translated books in the world, with hundreds of versions in English alone."
       },
       {
-        "text": "Tai chi and qigong grew from Daoist and martial traditions."
+        "text": "In the Mawangdui manuscripts the two halves of the book are in the opposite order, De before Dao."
       },
       {
-        "text": "Daoist temples often sit on mountains, called the five sacred peaks."
+        "text": "Laozi means \"Old Master\". By legend he was carried in his mother’s womb for decades and was born with white hair.",
+        "unverified": true
+      },
+      {
+        "text": "Gunpowder was discovered by Chinese alchemists looking for an elixir of long life."
+      },
+      {
+        "text": "The guqin piece Flowing Water travels on the Voyager Golden Record, launched in 1977."
+      },
+      {
+        "text": "Zhuangzi is said to have drummed on a bowl and sung after his wife died, explaining that she had only moved on with the seasons."
+      },
+      {
+        "text": "The yin-yang diagram familiar today is far younger than the idea. Its present form dates from around the Song and Ming dynasties."
+      },
+      {
+        "text": "The White Cloud Temple in Beijing, seat of the Quanzhen order, has been a Daoist site since the Tang dynasty."
       }
     ],
-    "glossary": [],
-    "furtherReading": [],
-    "learnFrom": [],
-    "sources": []
+    "glossary": [
+      {
+        "term": "Tao Te Ching",
+        "meaning": "The Classic of the Way and its Power. Also written Daodejing."
+      },
+      {
+        "term": "Inner Chapters",
+        "meaning": "The first seven chapters of the Zhuangzi."
+      },
+      {
+        "term": "Celestial Masters",
+        "meaning": "The oldest Daoist religious lineage, also called Zhengyi."
+      },
+      {
+        "term": "Quanzhen",
+        "meaning": "Complete Perfection: the monastic school founded in the twelfth century."
+      },
+      {
+        "term": "Daozang",
+        "meaning": "The Daoist Canon."
+      },
+      {
+        "term": "Warring States",
+        "meaning": "The period from about 475 to 221 BCE in which the classics were written."
+      }
+    ],
+    "furtherReading": [
+      {
+        "title": "Daoism Explained",
+        "creator": "Hans-Georg Moeller",
+        "year": "2004",
+        "note": "A philosopher on the central images: the wheel, the root, the butterfly."
+      },
+      {
+        "title": "Taoism: Growth of a Religion",
+        "creator": "Isabelle Robinet",
+        "year": "1997",
+        "note": "The standard short history of the religious tradition."
+      },
+      {
+        "title": "The Taoist Body",
+        "creator": "Kristofer Schipper",
+        "year": "1993",
+        "note": "Written by a scholar who was also an ordained Daoist priest."
+      },
+      {
+        "title": "Disputers of the Tao",
+        "creator": "A. C. Graham",
+        "year": "1989",
+        "note": "Laozi and Zhuangzi among their rivals in ancient China."
+      },
+      {
+        "title": "The Way and Its Power",
+        "creator": "Arthur Waley",
+        "year": "1934",
+        "note": "An early translation with a long and still useful introduction."
+      }
+    ],
+    "learnFrom": [
+      {
+        "name": "A Daoist temple near you",
+        "note": "Visit quietly, follow the customs of the place, and ask before taking photographs."
+      },
+      {
+        "name": "A qualified tai chi or qigong teacher",
+        "note": "Movement is best learned in person, and many teachers hold classes in public parks."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Daoism",
+        "creator": "Chad Hansen",
+        "publisher": "Stanford Encyclopedia of Philosophy"
+      },
+      {
+        "title": "Laozi",
+        "creator": "Alan Chan",
+        "publisher": "Stanford Encyclopedia of Philosophy"
+      },
+      {
+        "title": "Zhuangzi",
+        "creator": "Chad Hansen",
+        "publisher": "Stanford Encyclopedia of Philosophy"
+      },
+      {
+        "title": "Taoism: Growth of a Religion",
+        "creator": "Isabelle Robinet, trans. Phyllis Brooks",
+        "publisher": "Stanford University Press",
+        "year": "1997"
+      },
+      {
+        "title": "Tao Te Ching",
+        "creator": "Lao Tzu, trans. D. C. Lau",
+        "publisher": "Penguin Classics",
+        "year": "1963"
+      },
+      {
+        "title": "Zhuangzi: The Complete Writings",
+        "creator": "trans. Brook Ziporyn",
+        "publisher": "Hackett",
+        "year": "2020"
+      },
+      {
+        "title": "Daoism Handbook",
+        "creator": "ed. Livia Kohn",
+        "publisher": "Brill",
+        "year": "2000"
+      }
+    ]
+  },
+  "sensitivity": {
+    "note": "Daoism is a living religion as well as a body of classic texts. This Onda uses the classics and common health practices. Priestly rites and initiations belong to Daoist communities and are not imitated here.",
+    "requiredCaveats": [
+      "Qigong and tai chi are gentle, but stop if you feel dizzy or unwell.",
+      "Popular Western books on the Tao often leave out the religion. Read them alongside a scholarly or practitioner source."
+    ],
+    "reviewRequired": false
   }
 }

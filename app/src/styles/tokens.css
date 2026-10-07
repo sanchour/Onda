@@ -96,6 +96,7 @@
   --glass-fill-strong:rgba(252,252,255,0.80);
   --glass-fill-dim:rgba(236,236,240,0.78);
   --glass-solid:#F7F7F9;
+  --glass-fill-menu:rgba(250,250,252,0.94);
   --glass-blur:blur(24px) saturate(180%);
   --glass-stroke:0.5px solid rgba(0,0,0,0.14);
   --glass-border:0.5px solid rgba(0,0,0,0.12);
@@ -144,7 +145,7 @@
   --surface-page:#121212; --surface-grouped:#121212; --surface-card:#1E1E1E; --surface-fill:#2E2E30; --surface-fill-strong:#3A3A3D;
   --surface-inverse:#FFFFFF; --surface-soft:#2A2A2C; --day-has:#2B2F55; --separator:#2C2C2E; --scrim:rgba(0,0,0,0.55);
   --accent:#3D94FF; --accent-contrast:#00152E; --destructive:#FF5449;
-  --glass-fill:rgba(44,44,46,0.60); --glass-fill-strong:rgba(44,44,46,0.86); --glass-fill-dim:rgba(30,30,32,0.8); --glass-solid:#2A2A2C;
+  --glass-fill:rgba(44,44,46,0.60); --glass-fill-strong:rgba(44,44,46,0.86); --glass-fill-dim:rgba(30,30,32,0.8); --glass-solid:#2A2A2C; --glass-fill-menu:rgba(40,40,42,0.95);
   --glass-stroke:0.5px solid rgba(255,255,255,0.14); --glass-border:0.5px solid rgba(255,255,255,0.16);
   --glass-shadow:0 1px 2px rgba(0,0,0,0.3), 0 6px 16px rgba(0,0,0,0.35), 0 16px 40px rgba(0,0,0,0.4);
   --glass-pressed:rgba(70,70,74,0.9);

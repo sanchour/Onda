@@ -1,56 +1,308 @@
 {
-  "version": 1,
+  "version": 2,
   "id": "vedanta",
   "name": "Vedanta",
   "origin": "India",
+  "era": "c. 800 BCE to today",
   "tone": "purple",
   "icon": "sun-horizon",
-  "line": "Inquire into the self behind experience.",
-  "era": "c. 800 BCE to today",
   "font": "Spectral",
   "pattern": "rays",
   "glyph": "ॐ",
+  "line": "Inquire into the self behind experience.",
   "quote": {
     "text": "Tat tvam asi: that thou art.",
-    "by": "Chandogya Upanishad",
-    "source": ""
+    "by": "Chāndogya Upaniṣad",
+    "source": "6.8.7"
   },
-  "quotes": [],
+  "quotes": [
+    {
+      "text": "Lead me from the unreal to the real, from darkness to light, from death to immortality.",
+      "by": "Bṛhadāraṇyaka Upaniṣad",
+      "source": "1.3.28"
+    },
+    {
+      "text": "You have a right to your actions, but never to the fruits of your actions.",
+      "by": "Bhagavad Gītā",
+      "source": "2.47"
+    },
+    {
+      "text": "Arise, awake, and having reached the great teachers, learn.",
+      "by": "Kaṭha Upaniṣad",
+      "source": "1.3.14"
+    },
+    {
+      "text": "Brahman is real, the world is appearance, and the self is nothing other than Brahman.",
+      "by": "Traditional summary of Śaṅkara’s teaching",
+      "source": "Brahma satyam jagan mithyā"
+    },
+    {
+      "text": "Truth alone triumphs.",
+      "by": "Muṇḍaka Upaniṣad",
+      "source": "3.1.6"
+    },
+    {
+      "text": "Your own Self-realization is the greatest service you can render the world.",
+      "by": "Ramana Maharshi",
+      "source": "Maharshi’s Gospel"
+    }
+  ],
   "words": [
     {
       "id": "word-atman",
-      "term": "Atman",
-      "meaning": "The self"
+      "term": "Ātman",
+      "meaning": "The self",
+      "pronunciation": "AHT-mun",
+      "language": "Sanskrit",
+      "usage": "Not the personality: the awareness in which the personality appears."
     },
     {
       "id": "word-brahman",
       "term": "Brahman",
-      "meaning": "Ultimate reality"
+      "meaning": "Ultimate reality",
+      "pronunciation": "BRUH-mun",
+      "language": "Sanskrit",
+      "usage": "The one, limitless ground of everything. Not the god Brahmā."
+    },
+    {
+      "id": "word-advaita",
+      "term": "Advaita",
+      "meaning": "Not two",
+      "pronunciation": "ud-VYE-tuh",
+      "language": "Sanskrit",
+      "usage": "The non-dual school: self and reality are one."
+    },
+    {
+      "id": "word-vedanta",
+      "term": "Vedānta",
+      "meaning": "The end of the Vedas",
+      "pronunciation": "vay-DAHN-tuh",
+      "language": "Sanskrit",
+      "usage": "Both the last part of the scriptures, the Upaniṣads, and their final meaning."
+    },
+    {
+      "id": "word-upanisad",
+      "term": "Upaniṣad",
+      "meaning": "Sitting down near",
+      "pronunciation": "oo-PUH-nih-shud",
+      "language": "Sanskrit",
+      "usage": "Teachings given by a teacher to a student sitting close."
+    },
+    {
+      "id": "word-tat-tvam-asi",
+      "term": "Tat tvam asi",
+      "meaning": "That thou art",
+      "pronunciation": "tut tvum UH-see",
+      "language": "Sanskrit",
+      "usage": "One of the four \"great sayings\". Uddālaka says it to his son nine times."
+    },
+    {
+      "id": "word-aham-brahmasmi",
+      "term": "Aham brahmāsmi",
+      "meaning": "I am Brahman",
+      "pronunciation": "uh-HUM bruh-MAHS-mee",
+      "language": "Sanskrit",
+      "usage": "The great saying of the Bṛhadāraṇyaka Upaniṣad."
     },
     {
       "id": "word-neti-neti",
       "term": "Neti neti",
-      "meaning": "Not this, not this"
-    },
-    {
-      "id": "word-moksha",
-      "term": "Moksha",
-      "meaning": "Liberation"
+      "meaning": "Not this, not this",
+      "pronunciation": "NAY-tee NAY-tee",
+      "language": "Sanskrit",
+      "usage": "The method of setting aside everything that can be observed, to find the observer."
     },
     {
       "id": "word-maya",
-      "term": "Maya",
-      "meaning": "The appearance that veils reality"
+      "term": "Māyā",
+      "meaning": "The appearance that veils reality",
+      "pronunciation": "MAH-yah",
+      "language": "Sanskrit",
+      "usage": "Not illusion as nothing, but mistaking: seeing a snake where there is a rope."
+    },
+    {
+      "id": "word-avidya",
+      "term": "Avidyā",
+      "meaning": "Ignorance",
+      "pronunciation": "uh-VID-yah",
+      "language": "Sanskrit",
+      "usage": "Not knowing what you are. The root of bondage."
+    },
+    {
+      "id": "word-moksa",
+      "term": "Mokṣa",
+      "meaning": "Liberation",
+      "pronunciation": "MOKE-shuh",
+      "language": "Sanskrit",
+      "usage": "Freedom from the sense of being a limited, separate self."
     },
     {
       "id": "word-viveka",
       "term": "Viveka",
-      "meaning": "Discrimination between real and unreal"
+      "meaning": "Discrimination between the real and the unreal",
+      "pronunciation": "vih-VAY-kuh",
+      "language": "Sanskrit",
+      "usage": "First of the four qualifications of a student."
     },
     {
-      "id": "word-sat-chit-ananda",
-      "term": "Sat chit ananda",
-      "meaning": "Being, consciousness, bliss"
+      "id": "word-vairagya",
+      "term": "Vairāgya",
+      "meaning": "Dispassion",
+      "pronunciation": "vye-RAHG-yuh",
+      "language": "Sanskrit",
+      "usage": "Losing the conviction that things will complete you."
+    },
+    {
+      "id": "word-mumuksutva",
+      "term": "Mumukṣutva",
+      "meaning": "The longing for freedom",
+      "pronunciation": "moo-mook-SHOOT-vuh",
+      "language": "Sanskrit",
+      "usage": "The fourth qualification, and the one that drives the rest."
+    },
+    {
+      "id": "word-sat-cit-ananda",
+      "term": "Sat-cit-ānanda",
+      "meaning": "Being, consciousness, bliss",
+      "pronunciation": "sut chit AH-nun-duh",
+      "language": "Sanskrit",
+      "usage": "Not three qualities but one nature seen three ways."
+    },
+    {
+      "id": "word-saksin",
+      "term": "Sākṣin",
+      "meaning": "The witness",
+      "pronunciation": "SAHK-shin",
+      "language": "Sanskrit",
+      "usage": "Awareness that observes thoughts without being a thought."
+    },
+    {
+      "id": "word-turiya",
+      "term": "Turīya",
+      "meaning": "The fourth",
+      "pronunciation": "too-REE-yuh",
+      "language": "Sanskrit",
+      "usage": "The awareness underlying waking, dream and deep sleep."
+    },
+    {
+      "id": "word-jnana",
+      "term": "Jñāna",
+      "meaning": "Knowledge",
+      "pronunciation": "GYAH-nuh",
+      "language": "Sanskrit",
+      "usage": "Direct recognition, not information."
+    },
+    {
+      "id": "word-sravana",
+      "term": "Śravaṇa",
+      "meaning": "Listening",
+      "pronunciation": "SHRUH-vuh-nuh",
+      "language": "Sanskrit",
+      "usage": "Hearing the teaching. The first of three steps."
+    },
+    {
+      "id": "word-manana",
+      "term": "Manana",
+      "meaning": "Reflection",
+      "pronunciation": "MUH-nuh-nuh",
+      "language": "Sanskrit",
+      "usage": "Thinking it through until doubt is gone."
+    },
+    {
+      "id": "word-nididhyasana",
+      "term": "Nididhyāsana",
+      "meaning": "Contemplation",
+      "pronunciation": "nih-did-YAH-suh-nuh",
+      "language": "Sanskrit",
+      "usage": "Dwelling in what has been understood until it is steady."
+    },
+    {
+      "id": "word-karma-yoga",
+      "term": "Karma yoga",
+      "meaning": "The yoga of action",
+      "pronunciation": "KUR-muh YOH-guh",
+      "language": "Sanskrit",
+      "usage": "Acting fully and offering the result."
+    },
+    {
+      "id": "word-bhakti",
+      "term": "Bhakti",
+      "meaning": "Devotion",
+      "pronunciation": "BHUK-tee",
+      "language": "Sanskrit",
+      "usage": "Love directed to the divine. A path in its own right."
+    },
+    {
+      "id": "word-seva",
+      "term": "Sevā",
+      "meaning": "Selfless service",
+      "pronunciation": "SAY-vah",
+      "language": "Sanskrit",
+      "usage": "Work done for others with no claim on the outcome."
+    },
+    {
+      "id": "word-om",
+      "term": "Oṃ",
+      "meaning": "The primal sound",
+      "pronunciation": "ohm",
+      "language": "Sanskrit",
+      "usage": "A-U-M and the silence after: waking, dream, deep sleep and the fourth."
+    },
+    {
+      "id": "word-santi",
+      "term": "Śānti",
+      "meaning": "Peace",
+      "pronunciation": "SHAHN-tee",
+      "language": "Sanskrit",
+      "usage": "Chanted three times to close a recitation."
+    },
+    {
+      "id": "word-guru",
+      "term": "Guru",
+      "meaning": "Teacher",
+      "pronunciation": "GOO-roo",
+      "language": "Sanskrit",
+      "usage": "Traditionally explained as the one who removes darkness."
+    },
+    {
+      "id": "word-satsanga",
+      "term": "Satsaṅga",
+      "meaning": "Keeping company with the true",
+      "pronunciation": "SUT-sung",
+      "language": "Sanskrit",
+      "usage": "Gathering with a teacher or with others on the path."
+    },
+    {
+      "id": "word-sadhana",
+      "term": "Sādhana",
+      "meaning": "Spiritual practice",
+      "pronunciation": "SAH-dhuh-nuh",
+      "language": "Sanskrit",
+      "usage": "Whatever you do daily to steady the mind."
+    },
+    {
+      "id": "word-ahimsa",
+      "term": "Ahiṃsā",
+      "meaning": "Non-harming",
+      "pronunciation": "uh-HIM-sah",
+      "language": "Sanskrit",
+      "usage": "In thought, word and deed."
+    },
+    {
+      "id": "word-sattva",
+      "term": "Sattva",
+      "meaning": "Clarity; lightness",
+      "pronunciation": "SUT-tvuh",
+      "language": "Sanskrit",
+      "usage": "One of three qualities of nature, with restlessness and inertia."
+    },
+    {
+      "id": "word-namaste",
+      "term": "Namaste",
+      "meaning": "I bow to you",
+      "pronunciation": "nuh-muh-STAY",
+      "language": "Sanskrit",
+      "usage": "Said with palms together at the heart."
     }
   ],
   "practices": [
@@ -62,9 +314,13 @@
       "time": "06:00",
       "minutes": 10,
       "meta": "Morning · 10 min",
-      "instructions": "",
-      "why": "",
-      "variations": []
+      "instructions": "Sit upright, close your eyes and take three slow breaths. On each long out-breath sound Om in three parts: A, open, from the belly; U, rolling forward through the mouth; M, humming at the lips. Then stay in the silence that follows for as long as the in-breath lasts. Continue for ten minutes. In the last minute, drop the sound and listen only to the silence.",
+      "why": "The Māṇḍūkya Upaniṣad is twelve verses on this one syllable. The three sounds stand for waking, dream and deep sleep, and the silence for the awareness that is present in all three.",
+      "variations": [
+        "Chant silently, hearing it in the mind.",
+        "Chant along with a tanpura drone.",
+        "End with Om śānti śānti śānti."
+      ]
     },
     {
       "id": "self-inquiry-who-am-i",
@@ -74,9 +330,13 @@
       "time": "06:30",
       "minutes": 15,
       "meta": "Morning · 15 min",
-      "instructions": "",
-      "why": "",
-      "variations": []
+      "instructions": "Sit quietly. When a thought arises, do not follow it. Ask instead: to whom has this thought come? The answer is \"to me\". Then ask: who am I? Do not answer in words. Turn attention back toward the sense of \"I\" itself and rest there. When another thought comes, repeat. The question is not a mantra. It is a way of turning the mind around.",
+      "why": "Ramana Maharshi taught this as the most direct means: find the source of the \"I\"-thought and every other thought subsides with it.",
+      "variations": [
+        "Neti neti: I am aware of the body, so I am not the body; of this thought, so not this thought. What remains?",
+        "Sit as the witness and simply watch.",
+        "Ask the question once in the middle of a busy moment."
+      ]
     },
     {
       "id": "study-of-a-verse",
@@ -86,9 +346,13 @@
       "time": "15:00",
       "minutes": 20,
       "meta": "Afternoon · 20 min",
-      "instructions": "",
-      "why": "",
-      "variations": []
+      "instructions": "Take one verse of the Bhagavad Gītā or an Upaniṣad. Read it aloud. Read a commentary if you have one. Then close the book and reflect: what does it claim? Is it true in my experience? What would change if I took it seriously? Write one sentence in your own words.",
+      "why": "The traditional method is three steps: listening, reflecting and contemplating. Study here is not scholarship. It is using words as a mirror.",
+      "variations": [
+        "Memorise the verse.",
+        "Read the same verse for a whole week.",
+        "Compare two translations."
+      ]
     },
     {
       "id": "karma-yoga-service",
@@ -97,9 +361,13 @@
       "slot": "Evening",
       "time": "18:30",
       "meta": "Evening · Without reward",
-      "instructions": "",
-      "why": "",
-      "variations": []
+      "instructions": "Do one piece of work for someone else: cook, clean, help, give. Do it as well as you can. Before you begin, offer it; when it is done, let go of how it is received. Do not mention it.",
+      "why": "The Gītā’s teaching on action: you have a claim on the work, never on its fruits. Action done without clutching at results purifies the mind and makes it fit for knowledge.",
+      "variations": [
+        "Do an ordinary chore as an offering.",
+        "Give something away anonymously.",
+        "Do your paid work today with full care and no thought of credit."
+      ]
     }
   ],
   "tasks": [
@@ -116,28 +384,45 @@
       "meta": "10 minutes",
       "time": "18:00",
       "slot": "Evening"
+    },
+    {
+      "id": "light-a-lamp-at-dusk",
+      "name": "Light a lamp at dusk",
+      "meta": "A small evening ritual",
+      "time": "19:00",
+      "slot": "Evening"
     }
   ],
   "rules": [
     {
       "id": "r1",
       "text": "Begin the day with silence",
-      "why": ""
+      "why": "The hour and a half before sunrise is called brahma muhūrta, the time of Brahman, when the mind is naturally quiet."
     },
     {
       "id": "r2",
       "text": "Act without chasing the result",
-      "why": ""
+      "why": "Gītā 2.47. Do the work completely and hand over the outcome."
     },
     {
       "id": "r3",
       "text": "Eat simple, vegetarian food",
-      "why": ""
+      "why": "A sattvic diet, fresh, light and non-violent, is held to keep the mind clear. Follow it as far as your health allows."
     },
     {
       "id": "r4",
       "text": "Do one act of service, unnoticed",
-      "why": ""
+      "why": "Service thins the sense of a separate doer."
+    },
+    {
+      "id": "r5",
+      "text": "Speak what is true and pleasant",
+      "why": "Gītā 17.15: speech that causes no distress, that is truthful, agreeable and beneficial."
+    },
+    {
+      "id": "r6",
+      "text": "Ask who is upset",
+      "why": "When disturbed, turn from the cause to the one who is disturbed."
     }
   ],
   "immerse": {
@@ -145,264 +430,714 @@
       {
         "id": "read-bhagavad-gita",
         "title": "Bhagavad Gita",
-        "creator": "Translation by Eknath Easwaran",
-        "why": ""
+        "creator": "trans. Eknath Easwaran",
+        "year": "1985",
+        "why": "Seven hundred verses on action, knowledge and devotion, spoken on a battlefield."
       },
       {
-        "id": "read-the-upanishads",
-        "title": "The Upanishads",
-        "creator": "Selected",
-        "why": ""
+        "id": "read-the-upanisads",
+        "title": "The Upaniṣads",
+        "creator": "trans. Patrick Olivelle",
+        "year": "1996",
+        "why": "The source texts in a careful modern translation. Begin with the Kaṭha and the Chāndogya."
       },
       {
         "id": "read-who-am-i",
         "title": "Who Am I?",
         "creator": "Ramana Maharshi",
-        "why": ""
+        "year": "c. 1902",
+        "why": "A few pages of answers written in the sand by a young sage keeping silence."
+      },
+      {
+        "id": "read-crest-jewel-of-discrimination",
+        "title": "Crest-Jewel of Discrimination",
+        "creator": "Attributed to Śaṅkara, trans. Prabhavananda and Isherwood",
+        "year": "1947",
+        "why": "Vivekacūḍāmaṇi: a teacher leads a student from doubt to freedom."
+      },
+      {
+        "id": "read-the-gospel-of-sri-ramakrishna",
+        "title": "The Gospel of Sri Ramakrishna",
+        "creator": "Mahendranath Gupta, trans. Nikhilananda",
+        "year": "1942",
+        "why": "Conversations with the Bengali saint, recorded by a schoolteacher."
+      },
+      {
+        "id": "read-jnana-yoga",
+        "title": "Jnana Yoga",
+        "creator": "Swami Vivekananda",
+        "year": "1899",
+        "why": "Lectures given in London and New York that introduced Advaita to the West."
+      },
+      {
+        "id": "read-i-am-that",
+        "title": "I Am That",
+        "creator": "Nisargadatta Maharaj",
+        "year": "1973",
+        "why": "A Bombay shopkeeper answers visitors with startling directness."
+      },
+      {
+        "id": "read-be-as-you-are",
+        "title": "Be As You Are",
+        "creator": "Ramana Maharshi, ed. David Godman",
+        "year": "1985",
+        "why": "His teachings arranged by subject."
       }
     ],
     "watch": [
       {
-        "id": "watch-talks-on-self-inquiry",
-        "title": "Talks on self-inquiry",
-        "creator": "Ramana Maharshi teachings",
-        "why": ""
+        "id": "watch-abide-as-the-self",
+        "title": "Abide as the Self",
+        "creator": "Documentary on Ramana Maharshi",
+        "why": "With rare film of him at Arunachala.",
+        "unverified": true
       },
       {
-        "id": "watch-documentary-on-the-kumbh-mela",
-        "title": "Documentary on the Kumbh Mela",
-        "creator": "Pilgrimage in motion",
-        "why": ""
+        "id": "watch-the-mahabharata",
+        "title": "The Mahabharata",
+        "creator": "Peter Brook",
+        "year": "1989",
+        "why": "The epic staged with an international cast. The Gītā is spoken on the field before the battle."
+      },
+      {
+        "id": "watch-introduction-to-vedanta",
+        "title": "Introduction to Vedanta",
+        "creator": "Swami Sarvapriyananda (lectures)",
+        "why": "Talks from the Vedanta Society of New York: clear, traditional and funny."
       }
     ],
     "listen": [
       {
-        "id": "listen-om-and-vedic-chanting",
-        "title": "Om and Vedic chanting",
-        "creator": "Morning recordings",
-        "why": ""
+        "id": "listen-bhaja-govindam",
+        "title": "Bhaja Govindam",
+        "creator": "M. S. Subbulakshmi",
+        "why": "A hymn attributed to Śaṅkara, sung by the great voice of South India."
       },
       {
-        "id": "listen-hindustani-raga",
-        "title": "Hindustani raga",
-        "creator": "Dawn and dusk ragas",
-        "why": ""
+        "id": "listen-chants-of-india",
+        "title": "Chants of India",
+        "creator": "Ravi Shankar, produced by George Harrison",
+        "year": "1997",
+        "why": "Vedic prayers and Upaniṣadic verses set with great restraint."
+      },
+      {
+        "id": "listen-in-our-time-the-bhagavad-gita",
+        "title": "In Our Time: The Bhagavad Gita",
+        "creator": "BBC Radio 4, Melvyn Bragg",
+        "year": "2011",
+        "why": "Three scholars on the text and its readers."
+      },
+      {
+        "id": "listen-tanpura-drone",
+        "title": "Tanpura drone",
+        "creator": "Any recording",
+        "why": "The four-string drone behind Indian classical music. Chant Om against it."
+      },
+      {
+        "id": "listen-santi-mantras",
+        "title": "Śānti mantras",
+        "creator": "Any traditional recitation",
+        "why": "The peace invocations that open each Upaniṣad."
       }
     ],
     "art": [
       {
-        "id": "art-chola-bronze-nataraja",
-        "title": "Chola bronze Nataraja",
-        "creator": "Shiva’s cosmic dance",
-        "why": ""
+        "id": "art-shankaracharya-with-his-disciples",
+        "title": "Shankaracharya with his disciples",
+        "creator": "Raja Ravi Varma",
+        "year": "1904",
+        "why": "The philosopher as a young ascetic teaching under a tree."
       },
       {
-        "id": "art-rangoli",
-        "title": "Rangoli",
-        "creator": "Floor art made at dawn",
-        "why": ""
+        "id": "art-arunachala",
+        "title": "Arunachala",
+        "creator": "Tiruvannamalai, Tamil Nadu",
+        "why": "The hill Ramana Maharshi never left. Pilgrims walk the fourteen kilometres around it."
+      },
+      {
+        "id": "art-shiva-as-lord-of-the-dance",
+        "title": "Shiva as Lord of the Dance",
+        "creator": "Chola bronze",
+        "year": "c. 11th century",
+        "why": "Creation and dissolution in one poised figure."
+      },
+      {
+        "id": "art-om-in-devanagari",
+        "title": "Oṃ in Devanāgarī",
+        "creator": "ॐ",
+        "why": "Draw it. Three curves, a crescent and a dot: three states and the fourth."
       }
     ],
     "eat": [
       {
         "id": "eat-khichdi",
         "title": "Khichdi",
-        "creator": "Rice and lentils",
-        "why": ""
+        "creator": "Rice and lentils cooked together",
+        "why": "The plainest and most nourishing of Indian dishes."
       },
       {
         "id": "eat-fresh-fruit",
         "title": "Fresh fruit",
-        "creator": "Seasonal",
-        "why": ""
+        "creator": "In season",
+        "why": "Offered first, then eaten."
       },
       {
         "id": "eat-a-sattvic-meal",
         "title": "A sattvic meal",
-        "creator": "Light, vegetarian, freshly cooked",
-        "why": ""
+        "creator": "Dal, rice, vegetables, ghee",
+        "why": "Freshly cooked, mildly spiced, eaten in a calm frame of mind."
+      },
+      {
+        "id": "eat-curd-rice",
+        "title": "Curd rice",
+        "creator": "Yoghurt and rice with mustard seed",
+        "why": "Cooling, and the last course of a South Indian meal."
       }
     ],
     "drink": [
       {
         "id": "drink-warm-turmeric-milk",
         "title": "Warm turmeric milk",
-        "creator": "Evening",
-        "why": ""
+        "creator": "Haldi doodh",
+        "why": "Taken before bed."
       },
       {
         "id": "drink-masala-chai",
         "title": "Masala chai",
-        "creator": "Slow afternoon",
-        "why": ""
+        "creator": "Spiced milk tea",
+        "why": "Ginger, cardamom, a little pepper."
       },
       {
-        "id": "drink-buttermilk-chaas",
-        "title": "Buttermilk (chaas)",
-        "creator": "Cooling",
-        "why": ""
+        "id": "drink-buttermilk",
+        "title": "Buttermilk",
+        "creator": "Chaas",
+        "why": "Thin, salted, with cumin. After the midday meal."
+      },
+      {
+        "id": "drink-tulsi-tea",
+        "title": "Tulsi tea",
+        "creator": "Holy basil",
+        "why": "An infusion of a plant grown in most Hindu courtyards."
       }
     ],
     "customs": [
       {
         "id": "customs-namaste",
         "title": "Namaste",
-        "creator": "Greet the divine in the other",
-        "why": ""
+        "creator": "Palms together at the heart",
+        "why": "A greeting that honours what is the same in both of you."
       },
       {
         "id": "customs-offer-food-first",
         "title": "Offer food first",
-        "creator": "Prasad, shared blessings",
-        "why": ""
+        "creator": "Prasāda",
+        "why": "What is offered comes back as a gift, to be shared."
       },
       {
         "id": "customs-light-a-lamp-at-dusk",
         "title": "Light a lamp at dusk",
-        "creator": "A small evening ritual",
-        "why": ""
+        "creator": "Dīpa",
+        "why": "A small flame at the meeting of day and night."
+      },
+      {
+        "id": "customs-rise-before-the-sun",
+        "title": "Rise before the sun",
+        "creator": "Brahma muhūrta",
+        "why": "The traditional hour for study and meditation."
+      },
+      {
+        "id": "customs-leave-shoes-at-the-door",
+        "title": "Leave shoes at the door",
+        "creator": "Home, temple, ashram",
+        "why": "You enter a place of practice barefoot."
+      },
+      {
+        "id": "customs-sit-with-others",
+        "title": "Sit with others",
+        "creator": "Satsaṅga",
+        "why": "Listening to a talk, chanting or simply sitting in silence together."
       }
     ]
   },
   "ethics": [
     {
-      "title": "Non-harming (ahimsa)",
-      "text": "Avoid harm in thought, word and deed."
+      "title": "Non-harming",
+      "text": "Ahiṃsā. If one self looks out through every pair of eyes, to harm another is to harm yourself.",
+      "practice": "Go through today without a single cutting remark."
     },
     {
       "title": "Act without clinging to fruits",
-      "text": "The Gita’s karma yoga."
+      "text": "Do what is yours to do, fully, and release the result. Anxiety about outcomes belongs to the sense of being the doer.",
+      "practice": "Choose one task and do it for its own sake."
     },
     {
       "title": "See the self in all beings",
-      "text": "Treat others as extensions of you."
+      "text": "Īśā Upaniṣad: one who sees all beings in the self and the self in all beings does not shrink from anyone.",
+      "practice": "With each person today, silently note: the same awareness."
+    },
+    {
+      "title": "Truthfulness",
+      "text": "Satya. The pursuit of what is real begins with not lying.",
+      "practice": "Catch one small exaggeration before you make it."
+    },
+    {
+      "title": "Contentment",
+      "text": "Santoṣa: being at ease with what is present, while still doing your work.",
+      "practice": "Before bed, name three things that were sufficient."
+    },
+    {
+      "title": "Self-restraint",
+      "text": "The Gītā calls the mind restless and hard to curb, and says it can be trained by practice and dispassion.",
+      "practice": "Decline one indulgence today, kindly and without drama."
     }
   ],
   "philosophy": [
     {
-      "title": "Atman is Brahman",
-      "text": "The deepest self is not separate from reality."
+      "title": "Ātman is Brahman",
+      "text": "The awareness reading these words and the ground of the whole universe are not two things. This is the central claim of Advaita.",
+      "practice": "Sit for a minute as plain awareness, before any description of yourself."
     },
     {
       "title": "The world as appearance",
-      "text": "Names and forms shift, being does not."
+      "text": "In dim light a rope is taken for a snake. The fear is real; the snake never was. So the many are seen where there is only the one.",
+      "practice": "Notice one thing today you feared that turned out to be a rope."
     },
     {
       "title": "The witness",
-      "text": "You are the awareness behind thoughts."
+      "text": "You see the body, so you are not only the body. You know your thoughts, so you are not only your thoughts. What is it that knows?",
+      "practice": "When a mood comes, say: I am aware of this mood."
     },
     {
       "title": "Four aids",
-      "text": "Discrimination, dispassion, six virtues, longing for freedom."
+      "text": "Discrimination, dispassion, the six disciplines of calm and self-control, and the longing for freedom: what a student needs to bring.",
+      "practice": "Which of the four is weakest in you? Work on that one today."
+    },
+    {
+      "title": "Three states",
+      "text": "Waking, dreaming and deep sleep come and go. Something is present through all three, or you could not say \"I slept well\".",
+      "practice": "On waking tomorrow, notice the moment before the day’s story starts."
+    },
+    {
+      "title": "Not this, not this",
+      "text": "Whatever you can point to is an object, and you are the one to whom it appears. Set each aside and see what cannot be set aside.",
+      "practice": "Try it for five minutes: body, breath, feelings, thoughts. What is left?"
+    },
+    {
+      "title": "Action and knowledge",
+      "text": "Action cannot produce what is already the case. It can only clear the mind so the fact is recognised.",
+      "practice": "Do your service today as preparation, not as achievement."
+    },
+    {
+      "title": "The one and the many",
+      "text": "Gold is made into many ornaments and remains gold. Names and forms differ; the substance is one.",
+      "practice": "Look at three very different people and find what is identical."
+    },
+    {
+      "title": "Bliss is your nature",
+      "text": "Happiness is not brought in from outside. It is what remains when wanting pauses.",
+      "practice": "Notice the quiet contentment just after a desire is met. Where did it come from?"
+    },
+    {
+      "title": "Liberation while living",
+      "text": "Freedom is not after death or elsewhere. The jīvanmukta lives an ordinary life with no sense of being bound.",
+      "practice": "Ask once today: what, right now, is actually binding me?"
     }
   ],
   "journal": [
-    "What observed the thoughts today?",
-    "Who am I when I remove the roles?",
-    "Where did you act for the result instead of the act?",
-    "What changed when you looked from the witness?",
-    "What did you take as permanent that was not?",
-    "Whom did you serve today without recognition?",
-    "What would you give up to know yourself?"
+    "Who was aware of your thoughts today?",
+    "Where did you act without needing a result?",
+    "What did you take yourself to be today: body, role, or something else?",
+    "What did silence show you?",
+    "What did you chase today, and did it deliver?",
+    "When did you feel most yourself, and what were you not doing?",
+    "What rope did you take for a snake?",
+    "What did the verse you studied say to you?",
+    "Where did you want credit for your service?",
+    "What disturbed you, and who was disturbed?",
+    "What changed today, and what did not change?",
+    "When did happiness appear without a cause?",
+    "What were you attached to this morning that seems smaller tonight?",
+    "In whom did you fail to see yourself?",
+    "What happened when you asked \"Who am I?\"",
+    "What did you say that was not quite true?",
+    "What would you do tomorrow if success and failure were the same to you?",
+    "What do you believe you lack?",
+    "Describe the moment between two thoughts.",
+    "What did you eat, and how did it leave your mind?",
+    "Which role did you play today as if it were all of you?",
+    "What were you the witness of?",
+    "What did the sound of Om leave behind?",
+    "Where did you harm, even slightly?",
+    "What is the same in you now as when you were a child?",
+    "What do you want most? What do you want that for?",
+    "What did you offer today?",
+    "Which doubt is still alive?",
+    "What does freedom mean to you tonight?",
+    "What remains when today is set aside?"
   ],
   "reflect": [
-    "What stayed the same behind everything that changed?",
+    "What did self-inquiry reveal about who you take yourself to be?",
     "Which practice changed you the most, and why?",
-    "How will you keep a daily moment of inquiry?"
+    "Where did you resist, and what was the resistance protecting?",
+    "How has your relationship to results changed?",
+    "What do you no longer need in order to be at peace?",
+    "What will you keep asking?"
   ],
-  "dayThemes": [],
+  "dayThemes": [
+    "That thou art",
+    "The witness",
+    "Not this, not this",
+    "Action without fruit",
+    "The rope and the snake",
+    "Om and the silence",
+    "Discrimination",
+    "Dispassion",
+    "Three states",
+    "Seeing the self in all",
+    "Non-harming",
+    "Truthfulness",
+    "The one and the many",
+    "Service",
+    "Who is the doer?",
+    "Listening",
+    "Reflection",
+    "Contemplation",
+    "Contentment",
+    "The restless mind",
+    "Bliss is your nature",
+    "Devotion",
+    "The teacher",
+    "Appearance",
+    "The longing for freedom",
+    "Being",
+    "Awareness",
+    "Peace",
+    "Liberation while living",
+    "What remains"
+  ],
   "guide": {
-    "intro": [
-      "Vedanta means the end of the Vedas. It is the philosophy drawn from the Upanishads, asking what the self really is and how to be free of suffering.",
-      "The best known school is Advaita, non-dual Vedanta. It holds that the true self and ultimate reality are one. Other schools, such as Vishishtadvaita and Dvaita, see more difference."
-    ],
     "origin": "India",
     "era": "c. 800 BCE to today",
+    "intro": [
+      "Vedānta is the philosophical heart of the Hindu tradition. Its question is the plainest one there is: what am I? Its answer, in the non-dual school this Onda follows, is that the self behind your experience and the reality behind the universe are one and the same.",
+      "The word means \"the end of the Vedas\". The Vedas are India’s oldest scriptures, and their closing sections, the Upaniṣads, turn from ritual to inquiry. Composed from around 800 BCE onward, they record teachers and students in forest retreats pressing toward what is ultimately real. They call it Brahman. They call the innermost self Ātman. And in a handful of short sentences, the \"great sayings\", they declare the two identical: tat tvam asi, that thou art.",
+      "Two later texts complete the foundation. The Bhagavad Gītā, a dialogue between the warrior Arjuna and his charioteer Krishna on the eve of battle, teaches how to act in the world without being bound by it. The Brahma Sūtras organise the Upaniṣads’ teaching into terse aphorisms. Every school of Vedānta is, formally, a commentary on these three.",
+      "They do not agree. Śaṅkara, who lived around the eighth century, argued for Advaita, \"not two\": only Brahman is real, the world of separate things is an appearance, like a rope mistaken for a snake, and liberation is the direct knowledge that you were never a limited self. Rāmānuja, three centuries later, held that selves and the world are real, as the body of a personal God. Madhva insisted on an eternal difference between God and the soul. Devotional India largely followed the last two. Advaita became the tradition’s best-known philosophy.",
+      "Its method is knowledge, not belief. A student listens to the teaching, reflects until doubts are resolved, and contemplates until the understanding is steady. Ethical life and selfless action prepare the mind. In the twentieth century the sage Ramana Maharshi distilled the whole path into one practice: ask \"Who am I?\" and follow the sense of \"I\" back to its source.",
+      "This Onda combines the Gītā’s yoga of action with Advaita’s inquiry: chant, ask, study, serve. Vedānta lives within Hindu religious life and its lineages of teachers. If the inquiry deepens, the tradition’s own advice is to find one."
+    ],
     "figures": [
       {
-        "name": "Shankara",
-        "dates": "",
-        "bio": "8th century teacher who systematized Advaita."
+        "name": "Yājñavalkya",
+        "dates": "c. 7th century BCE",
+        "bio": "Sage of the Bṛhadāraṇyaka Upaniṣad. Teaches \"not this, not this\" to his wife Maitreyī and King Janaka."
       },
       {
-        "name": "Ramanuja",
-        "dates": "",
-        "bio": "11th century teacher of qualified non-dualism."
+        "name": "Uddālaka Āruṇi",
+        "dates": "c. 7th century BCE",
+        "bio": "Teaches his son Śvetaketu \"that thou art\" with salt dissolved in water."
+      },
+      {
+        "name": "Bādarāyaṇa",
+        "dates": "c. 200 BCE–400 CE",
+        "bio": "Credited with the Brahma Sūtras, the systematic text of Vedānta."
+      },
+      {
+        "name": "Gauḍapāda",
+        "dates": "c. 6th century",
+        "bio": "Author of the verses on the Māṇḍūkya Upaniṣad. Teacher of Śaṅkara’s teacher."
+      },
+      {
+        "name": "Śaṅkara",
+        "dates": "c. 8th century",
+        "bio": "The great expounder of Advaita. Wrote the classic commentaries and by tradition founded four monasteries across India."
+      },
+      {
+        "name": "Rāmānuja",
+        "dates": "traditionally 1017–1137",
+        "bio": "Founder of qualified non-dualism, in which devotion to a personal God is central."
+      },
+      {
+        "name": "Madhva",
+        "dates": "1238–1317",
+        "bio": "Founder of the dualist school."
       },
       {
         "name": "Ramakrishna",
-        "dates": "",
-        "bio": "19th century mystic of Bengal."
+        "dates": "1836–1886",
+        "bio": "Bengali mystic who practiced several religions and declared them paths to one truth."
+      },
+      {
+        "name": "Swami Vivekananda",
+        "dates": "1863–1902",
+        "bio": "Ramakrishna’s disciple. Brought Vedānta to the West in 1893."
       },
       {
         "name": "Ramana Maharshi",
-        "dates": "",
-        "bio": "20th century sage of Arunachala, teacher of self-inquiry."
-      },
-      {
-        "name": "Vivekananda",
-        "dates": "",
-        "bio": "Brought Vedanta to the West in 1893."
+        "dates": "1879–1950",
+        "bio": "Sage of Arunachala. Taught self-inquiry, mostly through silence."
       }
     ],
     "history": [
       {
-        "when": "c. 800 BCE",
-        "what": "The early Upanishads are composed",
-        "detail": ""
+        "when": "c. 800–300 BCE",
+        "what": "The principal Upaniṣads are composed",
+        "detail": "The Bṛhadāraṇyaka and Chāndogya are the oldest. They move the focus of Vedic religion from sacrifice to knowledge of the self."
       },
       {
-        "when": "c. 400 BCE",
-        "what": "The Bhagavad Gita enters the Mahabharata",
-        "detail": ""
+        "when": "c. 200 BCE–200 CE",
+        "what": "The Bhagavad Gītā takes shape",
+        "detail": "Set within the epic Mahābhārata, it gathers the paths of action, knowledge and devotion into one teaching."
       },
       {
-        "when": "8th c. CE",
-        "what": "Shankara writes commentaries and founds monastic centers",
-        "detail": ""
+        "when": "c. 200 BCE–400 CE",
+        "what": "The Brahma Sūtras",
+        "detail": "Some 555 aphorisms attributed to Bādarāyaṇa, so compressed that they cannot be read without a commentary."
+      },
+      {
+        "when": "c. 6th century",
+        "what": "Gauḍapāda writes on the Māṇḍūkya",
+        "detail": "The first systematic statement of non-dualism, analysing waking, dream and sleep."
+      },
+      {
+        "when": "c. 8th century",
+        "what": "Śaṅkara establishes Advaita",
+        "detail": "In a short life he writes commentaries on the three foundational texts, debates rivals across India and, by tradition, founds monasteries at Sringeri, Dwarka, Puri and Jyotirmath."
+      },
+      {
+        "when": "11th–12th century",
+        "what": "Rāmānuja answers Śaṅkara",
+        "detail": "His Śrī Bhāṣya defends a real world and a personal God and gives the devotional movements a philosophy."
+      },
+      {
+        "when": "13th century",
+        "what": "Madhva teaches dualism",
+        "detail": "God, souls and matter are eternally distinct."
+      },
+      {
+        "when": "1657",
+        "what": "The Upaniṣads are translated into Persian",
+        "detail": "The Mughal prince Dara Shikoh has fifty of them rendered as \"The Great Secret\". A Latin version of 1801–02 reaches Schopenhauer, who calls it the consolation of his life."
+      },
+      {
+        "when": "1785",
+        "what": "The Gītā appears in English",
+        "detail": "Charles Wilkins’s translation is read by Emerson and Thoreau in New England."
       },
       {
         "when": "1893",
-        "what": "Vivekananda speaks at the Parliament of the World’s Religions",
-        "detail": ""
+        "what": "Vivekananda speaks in Chicago",
+        "detail": "At the World’s Parliament of Religions he opens with \"Sisters and brothers of America\" and receives a long ovation. He founds the Vedanta Society in New York the next year and the Ramakrishna Mission in 1897."
+      },
+      {
+        "when": "1896",
+        "what": "Ramana Maharshi’s awakening",
+        "detail": "At sixteen, seized by a fear of death, he lies down and inquires into what dies. Weeks later he leaves home for the hill of Arunachala and stays for life."
+      },
+      {
+        "when": "1950",
+        "what": "A motto from the Upaniṣads",
+        "detail": "The Republic of India adopts \"Truth alone triumphs\", from the Muṇḍaka Upaniṣad, as its national motto. In the same years teachers such as Swami Chinmayananda begin teaching Vedānta publicly in English."
+      },
+      {
+        "when": "1973",
+        "what": "I Am That is published",
+        "detail": "The dialogues of Nisargadatta Maharaj reach a worldwide audience."
       }
     ],
     "concepts": [
       {
-        "term": "Prasthanatraya",
-        "text": "The three sources: Upanishads, Brahma Sutras, Gita.",
-        "detail": ""
+        "term": "Brahman",
+        "text": "The one limitless reality.",
+        "detail": "Described only by negation, or as being-consciousness-bliss. It is not a thing among things and not a creator standing apart from creation."
       },
       {
-        "term": "Advaita",
-        "text": "Non-duality of self and reality.",
-        "detail": ""
+        "term": "Ātman",
+        "text": "The self that is pure awareness.",
+        "detail": "Not the ego or the personality, which are objects of awareness. The Upaniṣads call it the seer of seeing, the hearer of hearing."
       },
       {
-        "term": "Jnana, karma, bhakti, raja",
-        "text": "The four yogas: knowledge, action, devotion, meditation.",
-        "detail": ""
+        "term": "Māyā",
+        "text": "The power by which the one appears as many.",
+        "detail": "Śaṅkara calls the world neither real nor unreal: it is experienced, so not nothing; it is cancelled by knowledge, so not final."
       },
       {
-        "term": "Turiya",
-        "text": "The fourth state beyond waking, dream and deep sleep.",
-        "detail": ""
+        "term": "Superimposition",
+        "text": "Mistaking one thing for another.",
+        "detail": "Adhyāsa: the properties of the body and mind are projected onto the self, and the self’s reality onto them. All bondage is this mix-up."
+      },
+      {
+        "term": "The great sayings",
+        "text": "Four sentences that state the identity of self and Brahman.",
+        "detail": "Consciousness is Brahman; I am Brahman; that thou art; this self is Brahman. One from each of the four Vedas."
+      },
+      {
+        "term": "The three states",
+        "text": "Waking, dream and deep sleep.",
+        "detail": "Each cancels the others, yet awareness persists through all. That persisting awareness is called the fourth, turīya."
+      },
+      {
+        "term": "The paths",
+        "text": "Action, devotion and knowledge.",
+        "detail": "Karma yoga purifies the mind, bhakti steadies and sweetens it, and jñāna removes ignorance. Advaita holds knowledge to be the direct means and the others its preparation."
+      },
+      {
+        "term": "The qualified student",
+        "text": "Four requirements for inquiry.",
+        "detail": "Discrimination, dispassion, a set of six inner disciplines, and an intense wish to be free."
+      },
+      {
+        "term": "Listening, reflecting, contemplating",
+        "text": "The method.",
+        "detail": "Hear the teaching from a competent teacher, reason through objections, then dwell on what is understood until it is unshakeable."
+      },
+      {
+        "term": "Liberation",
+        "text": "Mokṣa is knowledge, not an event.",
+        "detail": "Nothing new is gained. A wrong idea about oneself is dropped. One who has dropped it while alive is called jīvanmukta, liberated in life."
       }
     ],
     "facts": [
       {
-        "text": "Upanishad means sitting down near a teacher."
+        "text": "Upaniṣad is usually explained as \"sitting down near\": the teaching was given at close quarters, one to one."
       },
       {
-        "text": "The Gita is a conversation set on a battlefield."
+        "text": "More than a hundred Upaniṣads exist. Ten to thirteen are treated as principal, and Śaṅkara commented on these."
       },
       {
-        "text": "Ramana asked simply, Who am I?"
+        "text": "The Māṇḍūkya Upaniṣad is only twelve verses long. A traditional saying holds that it alone is enough for liberation."
+      },
+      {
+        "text": "Schopenhauer kept a Latin translation of the Upaniṣads at his bedside."
+      },
+      {
+        "text": "Robert Oppenheimer learned Sanskrit to read the Gītā and quoted it after the first atomic test."
+      },
+      {
+        "text": "Ramana Maharshi spent years in near-total silence. Many visitors said the silence taught them more than his words."
+      },
+      {
+        "text": "The syllable Oṃ is analysed as A, U, M and a fourth soundless part, matching waking, dream, sleep and pure awareness."
+      },
+      {
+        "text": "Śaṅkara is traditionally said to have died at thirty-two."
       }
     ],
-    "glossary": [],
-    "furtherReading": [],
-    "learnFrom": [],
-    "sources": []
+    "glossary": [
+      {
+        "term": "Vedas",
+        "meaning": "The oldest Hindu scriptures. Vedānta is their concluding portion."
+      },
+      {
+        "term": "Advaita",
+        "meaning": "Non-dualism: Śaṅkara’s school."
+      },
+      {
+        "term": "Viśiṣṭādvaita",
+        "meaning": "Qualified non-dualism: Rāmānuja’s school."
+      },
+      {
+        "term": "Dvaita",
+        "meaning": "Dualism: Madhva’s school."
+      },
+      {
+        "term": "Prasthānatrayī",
+        "meaning": "The three foundations: Upaniṣads, Brahma Sūtras and Bhagavad Gītā."
+      },
+      {
+        "term": "Ashram",
+        "meaning": "A place of spiritual retreat and teaching."
+      }
+    ],
+    "furtherReading": [
+      {
+        "title": "The Essential Vedanta",
+        "creator": "Eliot Deutsch and Rohit Dalvi",
+        "year": "2004",
+        "note": "A sourcebook of Advaita texts with introductions."
+      },
+      {
+        "title": "Advaita Vedanta: A Philosophical Reconstruction",
+        "creator": "Eliot Deutsch",
+        "year": "1969",
+        "note": "A short, clear account for philosophy readers."
+      },
+      {
+        "title": "The Roots of Vedanta",
+        "creator": "ed. Sudhakshina Rangaswami",
+        "year": "2012",
+        "note": "Selections from Śaṅkara’s own writings."
+      },
+      {
+        "title": "Vedanta: A Simple Introduction",
+        "creator": "Pravrajika Vrajaprana",
+        "year": "1999",
+        "note": "Written by a nun of the Ramakrishna Order."
+      },
+      {
+        "title": "The Hindus: An Alternative History",
+        "creator": "Wendy Doniger",
+        "year": "2009",
+        "note": "Wide context for where Vedānta sits in Hindu life."
+      }
+    ],
+    "learnFrom": [
+      {
+        "name": "Ramakrishna Math and Ramakrishna Mission",
+        "note": "The order founded by Vivekananda, with centres worldwide."
+      },
+      {
+        "name": "Sri Ramanasramam",
+        "note": "Ramana Maharshi’s ashram at Tiruvannamalai. Its publications are the authoritative source for his words."
+      },
+      {
+        "name": "Chinmaya Mission and Arsha Vidya Gurukulam",
+        "note": "Traditional teaching of the texts in English."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Śaṅkara",
+        "creator": "Neil Dalal",
+        "publisher": "Stanford Encyclopedia of Philosophy"
+      },
+      {
+        "title": "Upaniṣads",
+        "creator": "trans. Patrick Olivelle",
+        "publisher": "Oxford World’s Classics",
+        "year": "1996"
+      },
+      {
+        "title": "The Bhagavad Gita",
+        "creator": "trans. Eknath Easwaran",
+        "publisher": "Nilgiri Press",
+        "year": "1985"
+      },
+      {
+        "title": "Advaita Vedanta: A Philosophical Reconstruction",
+        "creator": "Eliot Deutsch",
+        "publisher": "University of Hawaii Press",
+        "year": "1969"
+      },
+      {
+        "title": "Who Am I? (Nan Yar?)",
+        "creator": "Ramana Maharshi",
+        "publisher": "Sri Ramanasramam"
+      },
+      {
+        "title": "A History of Indian Philosophy, vols. 1–2",
+        "creator": "Surendranath Dasgupta",
+        "publisher": "Cambridge University Press",
+        "year": "1922"
+      }
+    ]
+  },
+  "sensitivity": {
+    "note": "Vedānta is part of living Hindu tradition and is normally learned from a teacher within a lineage. This Onda introduces its texts and its most widely taught practices.",
+    "requiredCaveats": [
+      "A vegetarian diet is traditional, not required: adapt it to your health.",
+      "Self-inquiry can be unsettling. If it becomes distressing, pause and return to chanting, study and service."
+    ],
+    "reviewRequired": false
   }
 }

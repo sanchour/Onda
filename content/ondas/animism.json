@@ -1,56 +1,306 @@
 {
-  "version": 1,
+  "version": 2,
   "id": "animism",
   "name": "Native American Animism",
   "origin": "North America",
+  "era": "Time immemorial to today",
   "tone": "green",
   "icon": "feather",
-  "line": "Relate to land, animals and weather as kin.",
-  "era": "Many nations, oral traditions over thousands of years",
   "font": "Zilla Slab",
   "pattern": "geometric-weave",
   "glyph": "Kin",
+  "line": "Relate to land, animals and weather as kin.",
   "quote": {
     "text": "Mitákuye Oyás’iŋ: we are all related.",
     "by": "Lakota saying",
-    "source": ""
+    "source": "Spoken at the close of prayers"
   },
-  "quotes": [],
+  "quotes": [
+    {
+      "text": "All flourishing is mutual.",
+      "by": "Robin Wall Kimmerer (Citizen Potawatomi Nation)",
+      "source": "Braiding Sweetgrass, 2013"
+    },
+    {
+      "text": "Now our minds are one.",
+      "by": "Haudenosaunee Thanksgiving Address",
+      "source": "Refrain of the Ohén:ton Karihwatéhkwen"
+    },
+    {
+      "text": "Paying attention is a form of reciprocity with the living world.",
+      "by": "Robin Wall Kimmerer (Citizen Potawatomi Nation)",
+      "source": "Braiding Sweetgrass, 2013"
+    },
+    {
+      "text": "The old Lakota was wise. He knew that man’s heart, away from nature, becomes hard.",
+      "by": "Luther Standing Bear (Oglala Lakota)",
+      "source": "Land of the Spotted Eagle, 1933"
+    },
+    {
+      "text": "Once in his life a man ought to concentrate his mind upon the remembered earth.",
+      "by": "N. Scott Momaday (Kiowa)",
+      "source": "The Way to Rainy Mountain, 1969"
+    }
+  ],
   "words": [
     {
       "id": "word-mitakuye-oyas-i",
       "term": "Mitákuye Oyás’iŋ",
-      "meaning": "We are all related (Lakota)"
-    },
-    {
-      "id": "word-ahehee",
-      "term": "Ahéhee’",
-      "meaning": "Thank you (Diné)"
+      "meaning": "All my relations; we are all related",
+      "pronunciation": "mee-TAH-koo-yay oh-YAH-seen",
+      "language": "Lakota",
+      "usage": "Said at the end of a prayer. It includes people, animals, plants, stones and weather."
     },
     {
       "id": "word-wophila",
       "term": "Wóphila",
-      "meaning": "Gratitude (Lakota)"
-    },
-    {
-      "id": "word-aho",
-      "term": "Aho",
-      "meaning": "So be it, I agree"
-    },
-    {
-      "id": "word-skennen",
-      "term": "Skennen",
-      "meaning": "Peace (Mohawk, Kanien’kéha)"
+      "meaning": "Gratitude; thanksgiving",
+      "pronunciation": "WOH-pee-lah",
+      "language": "Lakota",
+      "usage": "Also the name of a giving of thanks."
     },
     {
       "id": "word-wakha",
       "term": "Wakȟáŋ",
-      "meaning": "Sacred, mysterious (Lakota)"
+      "meaning": "Sacred; mysterious; holy",
+      "pronunciation": "wah-KAHN",
+      "language": "Lakota",
+      "usage": "Not a thing but a quality that anything may carry."
+    },
+    {
+      "id": "word-mni-wichoni",
+      "term": "Mní wičhóni",
+      "meaning": "Water is life",
+      "pronunciation": "mnee wee-CHOH-nee",
+      "language": "Lakota",
+      "usage": "Heard around the world from Standing Rock in 2016."
+    },
+    {
+      "id": "word-u-ci-makha",
+      "term": "Uŋčí Makȟá",
+      "meaning": "Grandmother Earth",
+      "pronunciation": "oon-CHEE mah-KAH",
+      "language": "Lakota",
+      "usage": "The earth addressed as an elder relative."
+    },
+    {
+      "id": "word-thiyospaye",
+      "term": "Thiyóšpaye",
+      "meaning": "Extended family; the circle one lives in",
+      "pronunciation": "tee-OH-shpah-yay",
+      "language": "Lakota",
+      "usage": "The basic unit of Lakota society, wider than a household."
+    },
+    {
+      "id": "word-hozho",
+      "term": "Hózhó",
+      "meaning": "Balance, beauty, harmony, wellbeing",
+      "pronunciation": "HOH-zho",
+      "language": "Diné (Navajo)",
+      "usage": "A whole way of living, summed up as walking in beauty."
+    },
+    {
+      "id": "word-ahehee",
+      "term": "Ahéhee’",
+      "meaning": "Thank you",
+      "pronunciation": "ah-HYEH-heh",
+      "language": "Diné (Navajo)",
+      "usage": "Everyday thanks."
+    },
+    {
+      "id": "word-ya-at-eeh",
+      "term": "Yá’át’ééh",
+      "meaning": "Hello; it is good",
+      "pronunciation": "yah-ah-TAY",
+      "language": "Diné (Navajo)",
+      "usage": "A greeting and a blessing in one word."
+    },
+    {
+      "id": "word-k-e",
+      "term": "K’é",
+      "meaning": "Kinship; the way of being related",
+      "pronunciation": "keh",
+      "language": "Diné (Navajo)",
+      "usage": "Diné introduce themselves by their four clans before anything else."
+    },
+    {
+      "id": "word-dine",
+      "term": "Diné",
+      "meaning": "The People",
+      "pronunciation": "dih-NEH",
+      "language": "Diné (Navajo)",
+      "usage": "The Navajo Nation’s name for itself."
+    },
+    {
+      "id": "word-haudenosaunee",
+      "term": "Haudenosaunee",
+      "meaning": "People of the Longhouse",
+      "pronunciation": "ho-dee-no-SHOW-nee",
+      "language": "Haudenosaunee languages",
+      "usage": "The confederacy of six nations. \"Iroquois\" is an outsiders’ name."
+    },
+    {
+      "id": "word-ohen-ton-karihwatehkwen",
+      "term": "Ohén:ton Karihwatéhkwen",
+      "meaning": "The words that come before all else",
+      "pronunciation": "oh-HON-don gah-ree-wah-DEH-gwen",
+      "language": "Kanien’kéha (Mohawk)",
+      "usage": "The Thanksgiving Address, spoken to open gatherings.",
+      "unverified": true
+    },
+    {
+      "id": "word-nia-wen",
+      "term": "Niá:wen",
+      "meaning": "Thank you",
+      "pronunciation": "nee-AH-wen",
+      "language": "Kanien’kéha (Mohawk)",
+      "usage": "Everyday thanks."
+    },
+    {
+      "id": "word-sken-nen",
+      "term": "Skén:nen",
+      "meaning": "Peace",
+      "pronunciation": "SKEN-nen",
+      "language": "Kanien’kéha (Mohawk)",
+      "usage": "One of the three principles of the Great Law, with power and a good mind.",
+      "unverified": true
+    },
+    {
+      "id": "word-miigwech",
+      "term": "Miigwech",
+      "meaning": "Thank you",
+      "pronunciation": "mee-GWETCH",
+      "language": "Anishinaabemowin (Ojibwe)",
+      "usage": "Heard across the Great Lakes."
+    },
+    {
+      "id": "word-boozhoo",
+      "term": "Boozhoo",
+      "meaning": "Hello",
+      "pronunciation": "boo-ZHOO",
+      "language": "Anishinaabemowin (Ojibwe)",
+      "usage": "The common greeting."
+    },
+    {
+      "id": "word-manoomin",
+      "term": "Manoomin",
+      "meaning": "Wild rice; the good berry",
+      "pronunciation": "mah-NOO-min",
+      "language": "Anishinaabemowin (Ojibwe)",
+      "usage": "The food that grows on water, at the centre of Anishinaabe life."
+    },
+    {
+      "id": "word-mino-bimaadiziwin",
+      "term": "Mino-bimaadiziwin",
+      "meaning": "The good life; living well",
+      "pronunciation": "mih-no bih-MAH-dih-zih-win",
+      "language": "Anishinaabemowin (Ojibwe)",
+      "usage": "Life lived in balance with all relations."
+    },
+    {
+      "id": "word-aki",
+      "term": "Aki",
+      "meaning": "Earth; land",
+      "pronunciation": "ah-KEH",
+      "language": "Anishinaabemowin (Ojibwe)",
+      "usage": "Land as home and relative, not as property.",
+      "unverified": true
+    },
+    {
+      "id": "word-nibi",
+      "term": "Nibi",
+      "meaning": "Water",
+      "pronunciation": "nih-BIH",
+      "language": "Anishinaabemowin (Ojibwe)",
+      "usage": "Anishinaabe women are its traditional keepers.",
+      "unverified": true
+    },
+    {
+      "id": "word-puhpowee",
+      "term": "Puhpowee",
+      "meaning": "The force that causes mushrooms to push up from the earth overnight",
+      "pronunciation": "puh-POW-ee",
+      "language": "Potawatomi",
+      "usage": "A word Robin Wall Kimmerer describes finding in an Anishinaabe ethnobotany."
+    },
+    {
+      "id": "word-osiyo",
+      "term": "Osiyo",
+      "meaning": "Hello",
+      "pronunciation": "oh-see-YOH",
+      "language": "Tsalagi (Cherokee)",
+      "usage": "The Cherokee Nation’s greeting."
     },
     {
       "id": "word-wado",
       "term": "Wado",
-      "meaning": "Thank you (Cherokee)"
+      "meaning": "Thank you",
+      "pronunciation": "wah-DOH",
+      "language": "Tsalagi (Cherokee)",
+      "usage": "Everyday thanks."
+    },
+    {
+      "id": "word-gadugi",
+      "term": "Gadugi",
+      "meaning": "Working together for the good of the community",
+      "pronunciation": "gah-DOO-gee",
+      "language": "Tsalagi (Cherokee)",
+      "usage": "A Cherokee value: everyone helps and no one is left out."
+    },
+    {
+      "id": "word-mvto",
+      "term": "Mvto",
+      "meaning": "Thank you",
+      "pronunciation": "muh-DOH",
+      "language": "Mvskoke (Muscogee)",
+      "usage": "The v is a short \"uh\" sound."
+    },
+    {
+      "id": "word-yakoke",
+      "term": "Yakoke",
+      "meaning": "Thank you",
+      "pronunciation": "yah-KOH-keh",
+      "language": "Chahta (Choctaw)",
+      "usage": "Everyday thanks."
+    },
+    {
+      "id": "word-halito",
+      "term": "Halito",
+      "meaning": "Hello",
+      "pronunciation": "hah-lih-TOH",
+      "language": "Chahta (Choctaw)",
+      "usage": "The common greeting."
+    },
+    {
+      "id": "word-gunalcheesh",
+      "term": "Gunalchéesh",
+      "meaning": "Thank you",
+      "pronunciation": "goo-nahl-CHEESH",
+      "language": "Lingít (Tlingit)",
+      "usage": "From the Pacific Northwest coast."
+    },
+    {
+      "id": "word-quyana",
+      "term": "Quyana",
+      "meaning": "Thank you",
+      "pronunciation": "koy-AH-nah",
+      "language": "Yugtun (Central Yup’ik)",
+      "usage": "From south-western Alaska."
+    },
+    {
+      "id": "word-koyaanisqatsi",
+      "term": "Koyaanisqatsi",
+      "meaning": "Life out of balance",
+      "pronunciation": "koy-ah-nis-KAHT-see",
+      "language": "Hopi",
+      "usage": "A way of living that calls for another way."
+    },
+    {
+      "id": "word-turtle-island",
+      "term": "Turtle Island",
+      "meaning": "North America",
+      "language": "English, from several nations’ creation stories",
+      "usage": "In Haudenosaunee and Anishinaabe tellings the land was formed on a turtle’s back."
     }
   ],
   "practices": [
@@ -62,9 +312,13 @@
       "time": "06:30",
       "minutes": 5,
       "meta": "Morning · 5 min",
-      "instructions": "",
-      "why": "",
-      "variations": []
+      "instructions": "Step outside or stand at an open window before you do anything else. In your own words, and aloud if you can, give thanks in turn: to the people around you, the ground, the water, the plants that feed you, the animals, the trees, the birds, the wind, the sun. Be specific about what is actually here today. Finish by asking yourself what you can give back.",
+      "why": "The Haudenosaunee open gatherings with the Thanksgiving Address, greeting each part of the living world in order. That address is theirs. What anyone can learn from it is the habit of beginning with thanks, in their own words.",
+      "variations": [
+        "Read the published Thanksgiving Address once as a listener, not a performer.",
+        "Give thanks to one thing only, at length.",
+        "Do it with a child and let them choose the order."
+      ]
     },
     {
       "id": "sit-spot",
@@ -74,9 +328,13 @@
       "time": "07:30",
       "minutes": 20,
       "meta": "Morning · 20 min, same place daily",
-      "instructions": "",
-      "why": "",
-      "variations": []
+      "instructions": "Choose one place outdoors you can reach every day: a garden corner, a park bench, a doorstep. Go there, sit, and stay for twenty minutes without a phone. Notice what is growing, what is moving, what you can hear, how the light falls. Return to exactly the same place each day and see what you begin to recognise.",
+      "why": "This is a nature-awareness practice from outdoor education, not a ceremony. It is here because relationship with a place starts the way any relationship does: by turning up regularly and paying attention.",
+      "variations": [
+        "Go at a different hour and compare.",
+        "Sit in the rain.",
+        "Sketch a simple map of everything living within ten paces."
+      ]
     },
     {
       "id": "learn-one-plant-or-animal-by-name",
@@ -86,9 +344,13 @@
       "time": "15:00",
       "minutes": 20,
       "meta": "Afternoon · 20 min",
-      "instructions": "",
-      "why": "",
-      "variations": []
+      "instructions": "Pick one plant, tree, bird or insect that lives where you live. Learn its common name. Then learn something about its life: what it eats, who eats it, when it flowers or arrives. If the Indigenous language of your area has a name for it and that name is shared publicly, learn that too.",
+      "why": "Robin Wall Kimmerer writes that learning the names of plants is the first step in ceasing to treat them as scenery. You do not ignore those you know by name.",
+      "variations": [
+        "Follow one tree through the whole Onda.",
+        "Learn which plants near you are native and which arrived.",
+        "Learn the name of your watershed."
+      ]
     },
     {
       "id": "evening-thanks",
@@ -98,9 +360,13 @@
       "time": "20:30",
       "minutes": 5,
       "meta": "Evening · 5 min",
-      "instructions": "",
-      "why": "",
-      "variations": []
+      "instructions": "Before sleep, recall what fed, sheltered and carried you today, and say thank you. Then name one thing you took and one thing you gave. If the taking was larger, decide what you will give tomorrow.",
+      "why": "Gratitude in this sense is not a mood. It is the acknowledgement of a debt, and it leads to reciprocity.",
+      "variations": [
+        "Say it at the table before the evening meal.",
+        "Write a line of thanks to someone and send it.",
+        "Leave water out for birds."
+      ]
     }
   ],
   "tasks": [
@@ -117,28 +383,45 @@
       "meta": "Clean a path, plant, feed birds",
       "time": "18:00",
       "slot": "Evening"
+    },
+    {
+      "id": "read-one-native-author-today",
+      "name": "Read one Native author today",
+      "meta": "A page is enough",
+      "time": "20:00",
+      "slot": "Evening"
     }
   ],
   "rules": [
     {
       "id": "r1",
       "text": "Take only what you need",
-      "why": ""
+      "why": "The first rule of what Kimmerer calls the Honorable Harvest, a set of principles shared in different forms by many peoples."
     },
     {
       "id": "r2",
       "text": "Say thank you aloud to what feeds you",
-      "why": ""
+      "why": "Speaking it makes the relationship real to you."
     },
     {
       "id": "r3",
       "text": "Do not imitate sacred ceremonies you were not invited to",
-      "why": ""
+      "why": "Sweat lodges, pipe ceremonies, vision quests and sun dances belong to specific nations and are led by people with the right to lead them. Until 1978 many were restricted by United States law. They are not included here."
     },
     {
       "id": "r4",
       "text": "Listen before you speak, especially to elders",
-      "why": ""
+      "why": "In most Native communities knowledge is earned by listening and by relationship, not requested on demand."
+    },
+    {
+      "id": "r5",
+      "text": "Name the nation",
+      "why": "There is no single Native American culture. Say Diné, Lakota, Haudenosaunee, Cherokee, and say which you mean."
+    },
+    {
+      "id": "r6",
+      "text": "Give before you take",
+      "why": "Reciprocity: leave a place better, and support Native communities with more than interest."
     }
   ],
   "immerse": {
@@ -146,74 +429,173 @@
       {
         "id": "read-braiding-sweetgrass",
         "title": "Braiding Sweetgrass",
-        "creator": "Robin Wall Kimmerer (Potawatomi)",
-        "why": ""
+        "creator": "Robin Wall Kimmerer (Citizen Potawatomi Nation)",
+        "year": "2013",
+        "why": "A botanist on reciprocity, the grammar of animacy and the Honorable Harvest."
       },
       {
         "id": "read-the-thanksgiving-address",
         "title": "The Thanksgiving Address",
-        "creator": "Haudenosaunee, widely published",
-        "why": ""
+        "creator": "Haudenosaunee; published by the Tracking Project and Six Nations Indian Museum",
+        "year": "1993",
+        "why": "Greetings to the natural world, shared publicly in Mohawk and English."
       },
       {
         "id": "read-god-is-red",
         "title": "God Is Red",
         "creator": "Vine Deloria Jr. (Standing Rock Sioux)",
-        "why": ""
+        "year": "1973",
+        "why": "A founding work of Native philosophy: religions of place against religions of history."
+      },
+      {
+        "id": "read-the-way-to-rainy-mountain",
+        "title": "The Way to Rainy Mountain",
+        "creator": "N. Scott Momaday (Kiowa)",
+        "year": "1969",
+        "why": "Kiowa story, history and memory told in three voices."
+      },
+      {
+        "id": "read-ceremony",
+        "title": "Ceremony",
+        "creator": "Leslie Marmon Silko (Laguna Pueblo)",
+        "year": "1977",
+        "why": "A veteran’s healing through story and land. A great American novel."
+      },
+      {
+        "id": "read-land-of-the-spotted-eagle",
+        "title": "Land of the Spotted Eagle",
+        "creator": "Luther Standing Bear (Oglala Lakota)",
+        "year": "1933",
+        "why": "Lakota life and thought described from the inside."
+      },
+      {
+        "id": "read-an-american-sunrise",
+        "title": "An American Sunrise",
+        "creator": "Joy Harjo (Muscogee Nation)",
+        "year": "2019",
+        "why": "Poems on return to the land her people were removed from."
+      },
+      {
+        "id": "read-the-heartbeat-of-wounded-knee",
+        "title": "The Heartbeat of Wounded Knee",
+        "creator": "David Treuer (Leech Lake Ojibwe)",
+        "year": "2019",
+        "why": "Native America from 1890 to the present: not an ending but a continuing."
+      },
+      {
+        "id": "read-all-our-relations",
+        "title": "All Our Relations",
+        "creator": "Winona LaDuke (White Earth Ojibwe)",
+        "year": "1999",
+        "why": "Native struggles for land and life, nation by nation."
       }
     ],
     "watch": [
       {
-        "id": "watch-smoke-signals-1998",
-        "title": "Smoke Signals (1998)",
-        "creator": "Written by Sherman Alexie",
-        "why": ""
-      },
-      {
         "id": "watch-reservation-dogs",
         "title": "Reservation Dogs",
-        "creator": "Series by Sterlin Harjo and Taika Waititi",
-        "why": ""
+        "creator": "Sterlin Harjo (Seminole and Muscogee) and Taika Waititi",
+        "year": "2021–2023",
+        "why": "Four teenagers in rural Oklahoma. Written, directed and acted by Indigenous people."
+      },
+      {
+        "id": "watch-gather",
+        "title": "Gather",
+        "creator": "Sanjay Rawal",
+        "year": "2020",
+        "why": "Native communities reclaiming food: bison, salmon, wild plants."
+      },
+      {
+        "id": "watch-smoke-signals",
+        "title": "Smoke Signals",
+        "creator": "Chris Eyre (Cheyenne and Arapaho)",
+        "year": "1998",
+        "why": "A road film from the Coeur d’Alene reservation. A landmark of Native cinema."
+      },
+      {
+        "id": "watch-rumble-the-indians-who-rocked-the-world",
+        "title": "Rumble: The Indians Who Rocked the World",
+        "creator": "Catherine Bainbridge and Alfonso Maiorana",
+        "year": "2017",
+        "why": "The Native musicians behind blues, jazz and rock."
+      },
+      {
+        "id": "watch-fancy-dance",
+        "title": "Fancy Dance",
+        "creator": "Erica Tremblay (Seneca-Cayuga)",
+        "year": "2023",
+        "why": "An aunt and niece head for a powwow while searching for a missing woman."
       }
     ],
     "listen": [
       {
-        "id": "listen-native-led-radio-and-podcasts",
-        "title": "Native-led radio and podcasts",
-        "creator": "Start with one nation’s own station",
-        "why": ""
+        "id": "listen-all-my-relations",
+        "title": "All My Relations",
+        "creator": "Matika Wilbur (Swinomish and Tulalip) and Adrienne Keene (Cherokee Nation)",
+        "year": "since 2019",
+        "why": "A podcast on relationships to land, to creatures and to one another."
       },
       {
-        "id": "listen-buffy-sainte-marie",
-        "title": "Buffy Sainte-Marie",
-        "creator": "Cree singer-songwriter",
-        "why": ""
+        "id": "listen-canyon-trilogy",
+        "title": "Canyon Trilogy",
+        "creator": "R. Carlos Nakai (Navajo and Ute)",
+        "year": "1989",
+        "why": "Solo Native American flute."
       },
       {
-        "id": "listen-a-tribe-called-red",
-        "title": "A Tribe Called Red",
-        "creator": "Powwow and electronic",
-        "why": ""
+        "id": "listen-matriarch-iroquois-women-s-songs",
+        "title": "Matriarch: Iroquois Women’s Songs",
+        "creator": "Joanne Shenandoah (Oneida)",
+        "year": "1996",
+        "why": "Songs of Haudenosaunee women."
+      },
+      {
+        "id": "listen-toasted-sister-podcast",
+        "title": "Toasted Sister Podcast",
+        "creator": "Andi Murphy (Diné)",
+        "year": "since 2017",
+        "why": "Conversations about Native food and the people bringing it back."
+      },
+      {
+        "id": "listen-powwow-singing",
+        "title": "Powwow singing",
+        "creator": "Any Native-run recording or a public powwow",
+        "why": "Listen for the lead singer’s call and the drum group’s answer."
       }
     ],
     "art": [
       {
-        "id": "art-woodlands-painting",
-        "title": "Woodlands painting",
-        "creator": "Norval Morrisseau",
-        "why": ""
+        "id": "art-i-see-red-target",
+        "title": "I See Red: Target",
+        "creator": "Jaune Quick-to-See Smith (Salish and Kootenai)",
+        "year": "1992",
+        "why": "A painting that answers centuries of stereotypes. National Gallery of Art, Washington."
       },
       {
-        "id": "art-pueblo-pottery",
-        "title": "Pueblo pottery",
-        "creator": "Learn the maker’s name",
-        "why": ""
+        "id": "art-black-on-black-pottery",
+        "title": "Black-on-black pottery",
+        "creator": "Maria Martinez (San Ildefonso Pueblo)",
+        "year": "from c. 1919",
+        "why": "Matte and polished black, made with her husband Julian."
       },
       {
-        "id": "art-beadwork-and-quillwork",
-        "title": "Beadwork and quillwork",
-        "creator": "Visit an Indigenous-run gallery",
-        "why": ""
+        "id": "art-dine-weaving",
+        "title": "Diné weaving",
+        "creator": "Navajo weavers",
+        "why": "Look at how a weaver closes the border, and ask why."
+      },
+      {
+        "id": "art-paintings-of-t-c-cannon",
+        "title": "Paintings of T. C. Cannon",
+        "creator": "T. C. Cannon (Kiowa and Caddo)",
+        "year": "1970s",
+        "why": "Bright, ironic portraits of Native people in the modern world."
+      },
+      {
+        "id": "art-national-museum-of-the-american-indian",
+        "title": "National Museum of the American Indian",
+        "creator": "Washington and New York",
+        "why": "A Smithsonian museum developed with Native communities. Much of the collection is online."
       }
     ],
     "eat": [
@@ -221,190 +603,616 @@
         "id": "eat-three-sisters-stew",
         "title": "Three Sisters stew",
         "creator": "Corn, beans and squash",
-        "why": ""
+        "why": "Grown together by the Haudenosaunee and many other nations: each plant helps the other two."
       },
       {
         "id": "eat-wild-rice",
         "title": "Wild rice",
-        "creator": "Harvested by Anishinaabe people",
-        "why": ""
+        "creator": "Manoomin, hand-harvested",
+        "why": "Buy it from Native harvesters in the Great Lakes region."
       },
       {
         "id": "eat-seasonal-berries",
         "title": "Seasonal berries",
-        "creator": "Eat what grows near you",
-        "why": ""
+        "creator": "Whatever grows near you",
+        "why": "Eaten fresh, with thanks to the plant."
+      },
+      {
+        "id": "eat-a-recipe-from-the-sioux-chef-s-indigenous-kitche",
+        "title": "A recipe from The Sioux Chef’s Indigenous Kitchen",
+        "creator": "Sean Sherman (Oglala Lakota)",
+        "year": "2017",
+        "why": "Indigenous ingredients without wheat flour, dairy or refined sugar."
       }
     ],
     "drink": [
       {
-        "id": "drink-mint-or-sage-tea",
-        "title": "Mint or sage tea",
-        "creator": "Herbal, from a garden",
-        "why": ""
+        "id": "drink-water",
+        "title": "Water",
+        "creator": "Mní wičhóni",
+        "why": "Drink it knowing where it comes from. Find the source of your tap water."
+      },
+      {
+        "id": "drink-wild-mint-tea",
+        "title": "Wild mint tea",
+        "creator": "Fresh or dried leaves",
+        "why": "A common, widely shared drink."
       },
       {
         "id": "drink-maple-water",
         "title": "Maple water",
-        "creator": "Spring tree water",
-        "why": ""
+        "creator": "Sap, before boiling",
+        "why": "Anishinaabe families have tapped maples each spring for generations."
       }
     ],
     "customs": [
       {
         "id": "customs-offer-thanks-before-eating",
         "title": "Offer thanks before eating",
-        "creator": "Name where the food came from",
-        "why": ""
+        "creator": "In your own words",
+        "why": "Name where the food came from."
       },
       {
         "id": "customs-honor-elders-first",
         "title": "Honor elders first",
         "creator": "Serve them before yourself",
-        "why": ""
+        "why": "At most Native gatherings elders eat first and speak when they choose."
       },
       {
-        "id": "customs-learn-the-land-acknowledgment-as-a-first-lesson",
-        "title": "Learn the land acknowledgment as a first lesson",
+        "id": "customs-learn-whose-land-you-are-on",
+        "title": "Learn whose land you are on",
         "creator": "Then ask what you can do",
-        "why": ""
+        "why": "An acknowledgment is a first lesson, not a last one. Native Land Digital maps territories, languages and treaties."
+      },
+      {
+        "id": "customs-the-honorable-harvest",
+        "title": "The Honorable Harvest",
+        "creator": "As described by Robin Wall Kimmerer",
+        "why": "Ask permission. Never take the first or the last. Take only what you need. Use everything. Give thanks. Give a gift in return."
+      },
+      {
+        "id": "customs-visit-a-public-powwow-as-a-guest",
+        "title": "Visit a public powwow as a guest",
+        "creator": "Where the public is welcome",
+        "why": "Stand when asked, ask before photographing, never touch regalia, and listen to the announcer."
+      },
+      {
+        "id": "customs-buy-from-native-makers",
+        "title": "Buy from Native makers",
+        "creator": "Directly where possible",
+        "why": "In the United States it is illegal to sell work as Native-made when it is not."
       }
     ]
   },
   "ethics": [
     {
       "title": "Reciprocity",
-      "text": "Receive gifts from the land, and give something back."
+      "text": "What you take, you answer with a gift. The relationship between people and land runs both ways, and gratitude is how it begins.",
+      "practice": "Match one thing you take today with one thing you give."
     },
     {
       "title": "Kinship with all beings",
-      "text": "People, animals, plants and rivers are relatives, not resources."
+      "text": "Other species are spoken of as relatives, elders and teachers. Relatives are owed respect, and are not resources.",
+      "practice": "Address one non-human being today as \"you\", not \"it\"."
     },
     {
       "title": "Respect cultural protocols",
-      "text": "Some ceremonies are not for outsiders. Learn, do not take."
+      "text": "Knowledge belongs to peoples and is shared on their terms. Some of it is not shared at all, and that is to be respected.",
+      "practice": "When you learn something from a Native source, note who it came from and what they asked of the listener."
+    },
+    {
+      "title": "Responsibility before rights",
+      "text": "Many Native legal and ethical traditions begin from what one owes: to family, to nation, to land, to those not yet born.",
+      "practice": "List your responsibilities to the place you live."
+    },
+    {
+      "title": "The Honorable Harvest",
+      "text": "Take only what is given, only what you need, and in a way that does no harm. Share it. Be grateful. Sustain the ones who sustain you.",
+      "practice": "Apply it to one purchase today."
+    },
+    {
+      "title": "Thinking of those to come",
+      "text": "Haudenosaunee teaching asks leaders to consider the effect of each decision on the seventh generation.",
+      "practice": "Choose once today for someone who is not born yet."
     }
   ],
   "philosophy": [
     {
       "title": "Everything is alive and related",
-      "text": "Persons are not only humans."
+      "text": "Many Native languages treat rivers, mountains and animals grammatically as persons. The world is made of relatives, not objects.",
+      "practice": "For one hour, think of the things around you as \"who\"."
     },
     {
       "title": "Place as teacher",
-      "text": "Knowledge is bound to land, season and story."
+      "text": "Vine Deloria Jr. argued that Native thought begins from particular places and what they teach, where Western thought begins from time and history.",
+      "practice": "Ask what the place you live would have you learn."
     },
     {
       "title": "Seven generations",
-      "text": "Decide with those seven generations ahead in mind (Haudenosaunee)."
+      "text": "A decision is weighed by what it does to people seven generations on, and by what the seven before would say of it.",
+      "practice": "Before a decision, picture a great-grandchild watching."
     },
     {
       "title": "Gratitude as a way of seeing",
-      "text": "Giving thanks changes what you notice."
+      "text": "Giving thanks to each part of the world, in order, is a way of counting what is present and noticing what is missing.",
+      "practice": "Give thanks today to something you have never thanked."
+    },
+    {
+      "title": "The gift",
+      "text": "Kimmerer: a gift creates ongoing relationship. Treating the world as gift, not commodity, changes what you may do with it.",
+      "practice": "Receive one thing today as a gift and see what it asks in return."
+    },
+    {
+      "title": "Knowledge is relationship",
+      "text": "To know a plant or a river is to have duties toward it. Knowing is not standing apart and observing.",
+      "practice": "Learn one thing about a neighbour species, and do one thing for it."
+    },
+    {
+      "title": "Walking in beauty",
+      "text": "The Diné ideal of hózhó: a life in balance with what is before, behind, above, below and around you.",
+      "practice": "Notice where you are out of balance, and make one correction."
+    },
+    {
+      "title": "Story carries law",
+      "text": "Stories told in the right season hold instruction about how to live. They belong to their tellers.",
+      "practice": "Recall a story you were told as a child that taught you how to behave."
+    },
+    {
+      "title": "Language holds a world",
+      "text": "Each of the many Native languages holds knowledge that exists nowhere else. When one goes silent, so does that knowledge.",
+      "practice": "Learn to say thank you in the language of the land you live on."
+    },
+    {
+      "title": "Survivance",
+      "text": "The Anishinaabe writer Gerald Vizenor’s word: more than survival. An active presence, a refusal of tragedy and victimhood.",
+      "practice": "Read or listen to one living Native voice today."
     }
   ],
   "journal": [
-    "What did you give thanks for today, and to whom?",
-    "What did your sit spot show you today?",
-    "What took more than you gave back?",
-    "What did you learn about the place you live?",
-    "Who is an elder in your life, and what have you asked them?",
-    "Where did you treat something as a resource, not a relative?",
-    "What would seven generations from now say about today?"
+    "What did you thank today, and what did you take?",
+    "What did the land teach you?",
+    "Who or what did you treat as kin?",
+    "What will you give back?",
+    "What did you notice at your sit spot that you had missed before?",
+    "Whose land do you live on, and what do you know about them now?",
+    "What did you learn the name of?",
+    "Where does your water come from?",
+    "What did you take more of than you needed?",
+    "What did you eat today, and what did it cost the world?",
+    "Who are your elders, and when did you last listen to them?",
+    "What have you inherited that you did not earn?",
+    "What will those seven generations on think of today?",
+    "What changed outside since yesterday?",
+    "Which living thing near you do you know best? Least?",
+    "What did you assume about Native people that you now doubt?",
+    "What gift did you receive today?",
+    "What responsibility have you been avoiding?",
+    "What did you hear when you stopped talking?",
+    "What is the oldest living thing you saw today?",
+    "Where were you a guest today, and did you behave like one?",
+    "What story was told to you about this land? Who told it, and who was left out?",
+    "What would the plant you learned say about you?",
+    "What did you want to take home that was not yours?",
+    "How did the weather shape your day?",
+    "What did a Native author teach you this week?",
+    "What do you owe the place where you were born?",
+    "What can you do, beyond acknowledging?",
+    "What season is it really, where you are?",
+    "To whom are you related?"
   ],
   "reflect": [
-    "What changed when you named everything as kin?",
+    "How has your sense of kinship with land and other beings changed?",
     "Which practice changed you the most, and why?",
-    "How will you keep giving back to the place you live?"
+    "Where did you resist, and what was the resistance protecting?",
+    "What do you now know about the people whose land you live on, and what will you do with it?",
+    "What have you given back, and what will you keep giving?",
+    "What did you learn about the limits of what is yours to take?"
   ],
-  "dayThemes": [],
+  "dayThemes": [
+    "All my relations",
+    "Beginning with thanks",
+    "Whose land",
+    "Learning a name",
+    "Reciprocity",
+    "Water is life",
+    "Take only what you need",
+    "Place as teacher",
+    "Listening",
+    "Elders",
+    "The gift",
+    "Seven generations",
+    "The Three Sisters",
+    "Kinship",
+    "The Honorable Harvest",
+    "Language",
+    "Being a guest",
+    "Story",
+    "Balance",
+    "The season",
+    "Giving back",
+    "Responsibility",
+    "What was taken",
+    "Survivance",
+    "Animals as teachers",
+    "Plants as teachers",
+    "The watershed",
+    "Gratitude as seeing",
+    "Beyond acknowledgment",
+    "Staying related"
+  ],
   "guide": {
+    "origin": "North America (Turtle Island)",
+    "era": "Time immemorial to today",
     "intro": [
-      "There is no single Native American religion. Hundreds of nations hold distinct languages, stories and practices. Many share a view of the world as a web of relationships among people, animals, plants, waters and places.",
-      "This Onda is an invitation to listen and learn, not to imitate. Prefer Indigenous-authored sources and support nations directly."
+      "This Onda is an invitation to practice one idea held, in many different forms, by the Indigenous peoples of North America: that land, water, plants, animals and weather are relatives, and that a good life is lived in reciprocity with them.",
+      "First, an honest note about the name. There is no single \"Native American\" religion or philosophy. There are 574 federally recognised tribal nations in the United States alone, hundreds more First Nations, Inuit and Métis communities in Canada, and well over a hundred distinct languages still spoken. A Diné sheep herder in Arizona, a Tlingit fisher in Alaska and a Haudenosaunee farmer in New York inherit different stories, laws and ceremonies. \"Animism\" is not their word either. It was coined by a Victorian anthropologist and long used to rank these traditions as primitive. It is kept here only because it points at something real: a world understood as full of persons, only some of whom are human.",
+      "What can be said in common is said best by Native writers themselves. The Lakota close prayers with mitákuye oyás’iŋ, all my relations. The Haudenosaunee open gatherings with the Thanksgiving Address, which greets the people, the earth, the waters, the fish, the plants, the animals, the trees, the birds, the winds, the sun, moon and stars in turn, ending each greeting: now our minds are one. The Diné speak of hózhó, a life walked in balance and beauty. The Potawatomi botanist Robin Wall Kimmerer describes a \"grammar of animacy\" in which a bay or a maple is not an it but a who, and an ethic, the Honorable Harvest, for taking from the world without damaging it.",
+      "These are living traditions that survived a determined attempt to end them. From the 1880s ceremonies were banned under United States regulations, and for generations children were taken to boarding schools designed to remove their languages and beliefs. Full legal protection for Native religious practice came only in 1978. That history is why Native communities guard their ceremonies, and why outsiders are asked not to imitate them.",
+      "So this Onda contains no ceremonies. There is no smudging, no sweat lodge, no pipe, no vision quest. It contains only what Native authors and nations have offered publicly, and what any guest can do: give thanks in your own words, learn the names of your non-human neighbours, find out whose land you live on, read and listen to Native people, take less and give something back.",
+      "Treat it as a beginning in being a better relative and a better guest. The content has been written with care from published Indigenous sources, but it has not yet been reviewed by Indigenous advisers, and it should be before this Onda is released."
     ],
-    "origin": "North America",
-    "era": "Many nations, oral traditions over thousands of years",
     "figures": [
       {
-        "name": "Black Elk",
-        "dates": "",
-        "bio": "Oglala Lakota holy man whose life was told in Black Elk Speaks."
+        "name": "The Peacemaker and Hiawatha",
+        "dates": "founding of the Haudenosaunee Confederacy",
+        "bio": "By Haudenosaunee tradition they united five warring nations under the Great Law of Peace."
+      },
+      {
+        "name": "Po’pay",
+        "dates": "c. 1630–c. 1688",
+        "bio": "Religious leader from Ohkay Owingeh who organised the Pueblo Revolt of 1680."
+      },
+      {
+        "name": "Sequoyah",
+        "dates": "c. 1770–1843",
+        "bio": "Cherokee creator of the Cherokee syllabary, completed in 1821."
+      },
+      {
+        "name": "Black Elk (Heȟáka Sápa)",
+        "dates": "1863–1950",
+        "bio": "Oglala Lakota holy man whose account of his visions has been read around the world."
+      },
+      {
+        "name": "Luther Standing Bear",
+        "dates": "1868–1939",
+        "bio": "Oglala Lakota author, actor and advocate. Among the first students at Carlisle."
+      },
+      {
+        "name": "Zitkála-Šá",
+        "dates": "1876–1938",
+        "bio": "Yankton Dakota writer, musician and campaigner for citizenship and religious freedom."
+      },
+      {
+        "name": "Ella Cara Deloria",
+        "dates": "1889–1971",
+        "bio": "Yankton Dakota linguist and novelist who recorded Dakota and Lakota language and kinship."
       },
       {
         "name": "Vine Deloria Jr.",
-        "dates": "",
-        "bio": "Lakota scholar and author on religion and law."
+        "dates": "1933–2005",
+        "bio": "Standing Rock Sioux lawyer, historian and philosopher. Author of God Is Red."
+      },
+      {
+        "name": "Oren Lyons",
+        "dates": "born 1930",
+        "bio": "Faithkeeper of the Onondaga Nation and a voice for Indigenous peoples at the United Nations."
+      },
+      {
+        "name": "Wilma Mankiller",
+        "dates": "1945–2010",
+        "bio": "Principal Chief of the Cherokee Nation from 1985 to 1995, the first woman in that office."
+      },
+      {
+        "name": "Joy Harjo",
+        "dates": "born 1951",
+        "bio": "Muscogee poet and musician. United States Poet Laureate from 2019 to 2022."
       },
       {
         "name": "Robin Wall Kimmerer",
-        "dates": "",
-        "bio": "Potawatomi botanist and author of Braiding Sweetgrass."
-      },
-      {
-        "name": "Haudenosaunee Confederacy",
-        "dates": "",
-        "bio": "Six nations who share the Thanksgiving Address."
+        "dates": "born 1953",
+        "bio": "Citizen Potawatomi botanist and author of Braiding Sweetgrass."
       }
     ],
     "history": [
       {
-        "when": "Before 1492",
-        "what": "Hundreds of nations live across the continent with distinct governance and ceremony",
-        "detail": ""
+        "when": "Time immemorial",
+        "what": "Peoples live on the continent",
+        "detail": "Nations’ own histories place them on their lands from the beginning. Fossil footprints at White Sands, New Mexico, have been dated to more than 21,000 years ago."
       },
       {
-        "when": "c. 1142 to 1451",
-        "what": "The Haudenosaunee Confederacy forms, by oral account, around the Great Law of Peace",
-        "detail": ""
+        "when": "Before European contact",
+        "what": "The Haudenosaunee Confederacy is founded",
+        "detail": "Five nations join under the Great Law of Peace. Tradition and scholarship offer dates from the twelfth to the fifteenth century. It is among the oldest continuing participatory governments in the world."
+      },
+      {
+        "when": "1680",
+        "what": "The Pueblo Revolt",
+        "detail": "Pueblo peoples of the Rio Grande, coordinated by Po’pay, drive Spanish colonists out for twelve years after decades of forced labour and suppression of their religion."
+      },
+      {
+        "when": "1821",
+        "what": "Sequoyah completes the Cherokee syllabary",
+        "detail": "Within a few years most Cherokee can read and write their language. A newspaper, the Cherokee Phoenix, follows in 1828."
+      },
+      {
+        "when": "1830–1839",
+        "what": "Removal",
+        "detail": "The Indian Removal Act forces the nations of the south-east west of the Mississippi. Thousands of Cherokee die on the Trail of Tears in 1838–39."
+      },
+      {
+        "when": "1864–1868",
+        "what": "The Long Walk of the Diné",
+        "detail": "The Navajo are marched to internment at Bosque Redondo. A treaty in 1868 allows them to return to part of their homeland."
+      },
+      {
+        "when": "1879",
+        "what": "Carlisle Indian Industrial School opens",
+        "detail": "The first of the federal off-reservation boarding schools, founded on the motto of removing the Indian to save the man. Hundreds of such schools operated into the twentieth century."
+      },
+      {
+        "when": "1883",
+        "what": "Ceremonies are outlawed",
+        "detail": "The Code of Indian Offenses bans dances, feasts and the practices of medicine people. The Sun Dance and other ceremonies continue in secret."
+      },
+      {
+        "when": "1890",
+        "what": "Wounded Knee",
+        "detail": "United States cavalry kill some 250 to 300 Lakota, many of them women and children, on 29 December."
+      },
+      {
+        "when": "1924",
+        "what": "The Indian Citizenship Act",
+        "detail": "Native people born in the United States are declared citizens. Several states deny them the vote for decades more."
+      },
+      {
+        "when": "1969–1971",
+        "what": "The occupation of Alcatraz",
+        "detail": "Indians of All Tribes hold the island for nineteen months. The Red Power movement puts self-determination on the national agenda."
       },
       {
         "when": "1978",
-        "what": "The American Indian Religious Freedom Act is passed in the United States",
-        "detail": ""
+        "what": "The American Indian Religious Freedom Act",
+        "detail": "Federal law finally protects the right to believe, express and exercise traditional religions. The Indian Child Welfare Act passes the same year."
       },
       {
-        "when": "Today",
-        "what": "Language and ceremony revitalization led by Native communities",
-        "detail": ""
+        "when": "1990",
+        "what": "NAGPRA and the Native American Languages Act",
+        "detail": "Museums must return ancestors’ remains and sacred objects. Federal policy turns to preserving languages it once punished."
+      },
+      {
+        "when": "2007",
+        "what": "The UN Declaration on the Rights of Indigenous Peoples",
+        "detail": "Adopted by the General Assembly. The United States endorses it in 2010."
+      },
+      {
+        "when": "2016–2017",
+        "what": "Standing Rock",
+        "detail": "Thousands gather with the Standing Rock Sioux to oppose an oil pipeline under the Missouri River. Their phrase, water is life, travels worldwide."
+      },
+      {
+        "when": "2021",
+        "what": "A Native cabinet secretary",
+        "detail": "Deb Haaland of Laguna Pueblo becomes Secretary of the Interior and opens a federal investigation into the boarding schools."
       }
     ],
     "concepts": [
       {
-        "term": "Kinship",
-        "text": "All beings are relatives with obligations.",
-        "detail": ""
+        "term": "Relationality",
+        "text": "Everything exists in relationship, and persons are not only human.",
+        "detail": "This is less a belief than a way of speaking and behaving. If the river is a relative, certain things cannot be done to it."
       },
       {
         "term": "Reciprocity",
-        "text": "Taking and giving are one practice.",
-        "detail": ""
+        "text": "Taking is answered with giving.",
+        "detail": "The human role is not master or steward so much as one participant with duties. Kimmerer asks: what can we give in return for the gifts of the earth?"
+      },
+      {
+        "term": "The Honorable Harvest",
+        "text": "Guidelines for taking from the living world.",
+        "detail": "Know the ways of the ones who take care of you. Ask permission and abide by the answer. Never take the first or the last. Take only what you need and only what is given. Never take more than half. Use it respectfully, share, give thanks, and give a gift in return."
+      },
+      {
+        "term": "Grammar of animacy",
+        "text": "Languages that address the living world as persons.",
+        "detail": "In Potawatomi, as Kimmerer describes it, most of the world is spoken of with the grammar used for family. English makes it an \"it\"."
+      },
+      {
+        "term": "Land as source of law",
+        "text": "Law, ethics and identity come from particular places.",
+        "detail": "Sacred sites are not interchangeable. This is why land return and site protection are religious questions as well as political ones."
+      },
+      {
+        "term": "Seven generations",
+        "text": "Decisions are weighed by their effect on descendants.",
+        "detail": "A principle of Haudenosaunee governance, now widely quoted, and often quoted loosely."
+      },
+      {
+        "term": "Sovereignty",
+        "text": "Native nations are nations.",
+        "detail": "They are governments that predate the United States and hold treaties with it. Culture, land and self-government cannot be separated."
       },
       {
         "term": "Oral tradition",
-        "text": "Law, history and teaching are carried by speakers.",
-        "detail": ""
+        "text": "Knowledge carried by speech and memory.",
+        "detail": "Stories are told by particular people at particular times of year, and some are not for outsiders. Being written down is not the measure of being true."
       },
       {
-        "term": "Land and language",
-        "text": "Words hold local knowledge that translation loses.",
-        "detail": ""
+        "term": "Protocol",
+        "text": "The right way to ask, receive and share.",
+        "detail": "Who may tell a story, sing a song or lead a ceremony is a matter of law within each nation. Respecting protocol is the guest’s first duty."
+      },
+      {
+        "term": "Cultural appropriation",
+        "text": "Taking sacred or identifying things without permission.",
+        "detail": "Headdresses as costume, sweat lodges for sale, invented \"spirit animals\". The harm is real: people have died in imitation ceremonies, and communities see what is most sacred to them turned into product."
       }
     ],
     "facts": [
       {
-        "text": "Many Indigenous languages have no word for religion as a separate part of life."
+        "text": "There are 574 federally recognised tribal nations in the United States."
       },
       {
-        "text": "The Three Sisters, corn, beans and squash, are planted together to help each other grow."
+        "text": "The famous \"Chief Seattle speech\" quoted on posters, with its line about the earth not belonging to man, was written by a screenwriter in 1971. Seattle’s actual 1854 speech survives only in a much later reconstruction."
       },
       {
-        "text": "Some ceremonies are closed. Respecting that is part of the practice."
+        "text": "Corn, beans and squash planted together support one another: corn gives the beans a pole, beans fix nitrogen, and squash leaves shade out weeds."
+      },
+      {
+        "text": "The words squash, moose, raccoon, skunk and pecan all come into English from Algonquian languages."
+      },
+      {
+        "text": "Many Native religious ceremonies were restricted by United States regulations from 1883. The American Indian Religious Freedom Act passed in 1978."
+      },
+      {
+        "text": "Diné Bizaad, the Navajo language, was used by Navajo Code Talkers for a military code in the Second World War that was never broken."
+      },
+      {
+        "text": "The Indian Arts and Crafts Act of 1990 makes it illegal in the United States to market goods as Native-made when they are not."
+      },
+      {
+        "text": "Robin Wall Kimmerer notes that her language, Potawatomi, had nine fluent speakers left when she began learning it."
       }
     ],
-    "glossary": [],
-    "furtherReading": [],
-    "learnFrom": [],
-    "sources": []
+    "glossary": [
+      {
+        "term": "Nation",
+        "meaning": "A sovereign people with its own government, law and territory. Preferred to \"tribe\" by many."
+      },
+      {
+        "term": "Federally recognised",
+        "meaning": "Having a government-to-government relationship with the United States."
+      },
+      {
+        "term": "Regalia",
+        "meaning": "The clothing worn for dance and ceremony. Never a \"costume\"."
+      },
+      {
+        "term": "Powwow",
+        "meaning": "A gathering for dance, song and community. Many are open to the public."
+      },
+      {
+        "term": "Elder",
+        "meaning": "A person recognised by their community for knowledge and conduct, not only for age."
+      },
+      {
+        "term": "Land acknowledgment",
+        "meaning": "A statement naming the peoples of the land where one stands."
+      }
+    ],
+    "furtherReading": [
+      {
+        "title": "Custer Died for Your Sins",
+        "creator": "Vine Deloria Jr. (Standing Rock Sioux)",
+        "year": "1969",
+        "note": "The manifesto that shaped a generation, witty and furious."
+      },
+      {
+        "title": "The Rediscovery of America",
+        "creator": "Ned Blackhawk (Western Shoshone)",
+        "year": "2023",
+        "note": "United States history rewritten with Native nations at the centre."
+      },
+      {
+        "title": "Waterlily",
+        "creator": "Ella Cara Deloria (Yankton Dakota)",
+        "year": "1988",
+        "note": "A novel of Dakota life before the reservations, built on a lifetime of research."
+      },
+      {
+        "title": "Dwellings",
+        "creator": "Linda Hogan (Chickasaw)",
+        "year": "1995",
+        "note": "Essays on the living world."
+      },
+      {
+        "title": "Indigenous Peoples’ History of the United States for Young People",
+        "creator": "adapted by Jean Mendoza and Debbie Reese (Nambé Pueblo)",
+        "year": "2019",
+        "note": "A clear starting point for any age."
+      },
+      {
+        "title": "There There",
+        "creator": "Tommy Orange (Cheyenne and Arapaho)",
+        "year": "2018",
+        "note": "A novel of urban Native life in Oakland."
+      }
+    ],
+    "learnFrom": [
+      {
+        "name": "Native Land Digital",
+        "note": "An Indigenous-led map of territories, languages and treaties. Start by finding where you live."
+      },
+      {
+        "name": "The nation whose land you are on",
+        "note": "Most nations have an official website with their own history, language resources and guidance for visitors."
+      },
+      {
+        "name": "National Congress of American Indians",
+        "note": "The oldest and largest organisation of tribal governments in the United States."
+      },
+      {
+        "name": "First Nations Development Institute and NDN Collective",
+        "note": "Native-led organisations to support with money, not only attention."
+      },
+      {
+        "name": "Native American Rights Fund",
+        "note": "Legal defence of treaties, lands and religious freedom since 1970."
+      },
+      {
+        "name": "A tribal museum or cultural centre",
+        "note": "Run by the community it describes. Go, pay admission and listen."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Braiding Sweetgrass: Indigenous Wisdom, Scientific Knowledge and the Teachings of Plants",
+        "creator": "Robin Wall Kimmerer",
+        "publisher": "Milkweed Editions",
+        "year": "2013"
+      },
+      {
+        "title": "God Is Red: A Native View of Religion",
+        "creator": "Vine Deloria Jr.",
+        "publisher": "Fulcrum",
+        "year": "1973"
+      },
+      {
+        "title": "Thanksgiving Address: Greetings to the Natural World",
+        "creator": "Six Nations Indian Museum and the Tracking Project",
+        "year": "1993"
+      },
+      {
+        "title": "Land of the Spotted Eagle",
+        "creator": "Luther Standing Bear",
+        "publisher": "Houghton Mifflin",
+        "year": "1933"
+      },
+      {
+        "title": "The Heartbeat of Wounded Knee: Native America from 1890 to the Present",
+        "creator": "David Treuer",
+        "publisher": "Riverhead",
+        "year": "2019"
+      },
+      {
+        "title": "Federal Indian Boarding School Initiative Investigative Report",
+        "creator": "United States Department of the Interior",
+        "year": "2022"
+      },
+      {
+        "title": "Tribal Nations and the United States: An Introduction",
+        "creator": "National Congress of American Indians"
+      }
+    ]
+  },
+  "sensitivity": {
+    "note": "There is no single Native American tradition. This Onda draws only on what Native authors and nations have shared publicly, names the nation each idea comes from, and includes no ceremonies. You are a guest: give thanks in your own words, learn whose land you are on, and give something back.",
+    "requiredCaveats": [
+      "Do not perform or imitate smudging, sweat lodges, pipe ceremonies, vision quests, sun dances or any other ceremony. They belong to specific nations.",
+      "Do not wear regalia or headdresses, and do not claim a \"spirit animal\".",
+      "Pronunciations are approximate. Learn words from speakers and from nations’ own language programmes.",
+      "\"Animism\" is an outsiders’ term with a colonial history. It is used here as a pointer, not a description any nation chose.",
+      "This content has not yet been reviewed by Indigenous advisers. It must be before release."
+    ],
+    "reviewRequired": true
   }
 }

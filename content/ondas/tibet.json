@@ -1,56 +1,308 @@
 {
-  "version": 1,
+  "version": 2,
   "id": "tibet",
   "name": "Tibetan Buddhism",
   "origin": "Tibet",
+  "era": "7th century to today",
   "tone": "coral",
   "icon": "mountains",
-  "line": "Train compassion through daily ritual.",
-  "era": "7th c. CE to today",
   "font": "Marcellus",
   "pattern": "prayer-flags",
   "glyph": "ཨོཾ",
+  "line": "Train compassion through daily ritual.",
   "quote": {
     "text": "If you want others to be happy, practice compassion. If you want to be happy, practice compassion.",
     "by": "The 14th Dalai Lama",
-    "source": ""
+    "source": "The Art of Happiness, 1998"
   },
-  "quotes": [],
-  "words": [
+  "quotes": [
     {
-      "id": "word-tonglen",
-      "term": "Tonglen",
-      "meaning": "Giving and receiving"
+      "text": "All the joy the world contains has come through wishing happiness for others. All the misery the world contains has come through wanting pleasure for oneself.",
+      "by": "Śāntideva",
+      "source": "The Way of the Bodhisattva 8.129, trans. Padmakara"
     },
+    {
+      "text": "Be grateful to everyone.",
+      "by": "Geshe Chekawa",
+      "source": "Seven Points of Mind Training, 12th century"
+    },
+    {
+      "text": "For as long as space endures, and for as long as living beings remain, until then may I too abide to dispel the misery of the world.",
+      "by": "Śāntideva",
+      "source": "The Way of the Bodhisattva 10.55"
+    },
+    {
+      "text": "Drive all blames into one.",
+      "by": "Geshe Chekawa",
+      "source": "Seven Points of Mind Training, 12th century"
+    },
+    {
+      "text": "My religion is very simple. My religion is kindness.",
+      "by": "The 14th Dalai Lama",
+      "source": "Kindness, Clarity, and Insight, 1984"
+    },
+    {
+      "text": "Always maintain only a joyful mind.",
+      "by": "Geshe Chekawa",
+      "source": "Seven Points of Mind Training, 12th century"
+    }
+  ],
+  "words": [
     {
       "id": "word-bodhicitta",
       "term": "Bodhicitta",
-      "meaning": "The awakened heart"
+      "meaning": "The awakened heart: the wish to awaken for the sake of all beings",
+      "pronunciation": "boh-dee-CHIT-tah",
+      "language": "Sanskrit",
+      "usage": "The motive that turns any act into practice."
     },
     {
-      "id": "word-lama",
-      "term": "Lama",
-      "meaning": "Teacher"
-    },
-    {
-      "id": "word-tashi-delek",
-      "term": "Tashi delek",
-      "meaning": "Blessings and good luck"
-    },
-    {
-      "id": "word-shamatha",
-      "term": "Shamatha",
-      "meaning": "Calm abiding"
-    },
-    {
-      "id": "word-mandala",
-      "term": "Mandala",
-      "meaning": "A sacred circle, a model of the world"
+      "id": "word-tonglen",
+      "term": "Tonglen",
+      "meaning": "Giving and taking",
+      "pronunciation": "TONG-len",
+      "language": "Tibetan",
+      "usage": "Breathing in others’ pain, breathing out relief."
     },
     {
       "id": "word-lojong",
       "term": "Lojong",
-      "meaning": "Mind training"
+      "meaning": "Mind training",
+      "pronunciation": "loh-JONG",
+      "language": "Tibetan",
+      "usage": "Fifty-nine short slogans for turning daily life into the path."
+    },
+    {
+      "id": "word-nyingje",
+      "term": "Nyingje",
+      "meaning": "Compassion",
+      "pronunciation": "NYING-jay",
+      "language": "Tibetan",
+      "usage": "Literally \"noble heart\". Sanskrit: karuṇā."
+    },
+    {
+      "id": "word-jampa",
+      "term": "Jampa",
+      "meaning": "Loving-kindness",
+      "pronunciation": "JAHM-pah",
+      "language": "Tibetan",
+      "usage": "The wish that others be happy. Sanskrit: maitrī."
+    },
+    {
+      "id": "word-tashi-delek",
+      "term": "Tashi delek",
+      "meaning": "Blessings and good fortune",
+      "pronunciation": "TAH-shee deh-LEK",
+      "language": "Tibetan",
+      "usage": "The everyday greeting, and what people say at the New Year."
+    },
+    {
+      "id": "word-lama",
+      "term": "Lama",
+      "meaning": "Teacher",
+      "pronunciation": "LAH-mah",
+      "language": "Tibetan",
+      "usage": "Translates the Sanskrit guru: one who is weighty with qualities."
+    },
+    {
+      "id": "word-rinpoche",
+      "term": "Rinpoche",
+      "meaning": "Precious one",
+      "pronunciation": "RIN-poh-chay",
+      "language": "Tibetan",
+      "usage": "A title of respect for a reincarnate or highly regarded teacher."
+    },
+    {
+      "id": "word-tulku",
+      "term": "Tulku",
+      "meaning": "A recognised reincarnate teacher",
+      "pronunciation": "TOOL-koo",
+      "language": "Tibetan",
+      "usage": "The Dalai Lama and the Karmapa are the best known."
+    },
+    {
+      "id": "word-geshe",
+      "term": "Geshe",
+      "meaning": "A monastic scholar’s degree",
+      "pronunciation": "GESH-ay",
+      "language": "Tibetan",
+      "usage": "Earned after some twenty years of study and debate."
+    },
+    {
+      "id": "word-sangha",
+      "term": "Sangha",
+      "meaning": "The community of practitioners",
+      "pronunciation": "SAHN-gah",
+      "language": "Sanskrit",
+      "usage": "One of the three jewels in which Buddhists take refuge."
+    },
+    {
+      "id": "word-dharma",
+      "term": "Dharma",
+      "meaning": "The teaching; the truth of how things are",
+      "pronunciation": "DAR-mah",
+      "language": "Sanskrit",
+      "usage": "Tibetan: chö."
+    },
+    {
+      "id": "word-shine",
+      "term": "Shiné",
+      "meaning": "Calm abiding meditation",
+      "pronunciation": "shee-NAY",
+      "language": "Tibetan",
+      "usage": "Resting attention on the breath or an object. Sanskrit: śamatha."
+    },
+    {
+      "id": "word-lhaktong",
+      "term": "Lhaktong",
+      "meaning": "Clear seeing; insight",
+      "pronunciation": "lahk-TONG",
+      "language": "Tibetan",
+      "usage": "Looking into the nature of mind once it is calm. Sanskrit: vipaśyanā."
+    },
+    {
+      "id": "word-tongpa-nyi",
+      "term": "Tongpa nyi",
+      "meaning": "Emptiness",
+      "pronunciation": "TONG-pah nyee",
+      "language": "Tibetan",
+      "usage": "Things lack fixed, independent existence. Sanskrit: śūnyatā."
+    },
+    {
+      "id": "word-tendrel",
+      "term": "Tendrel",
+      "meaning": "Interdependence; auspicious connection",
+      "pronunciation": "TEN-drel",
+      "language": "Tibetan",
+      "usage": "Everything arises through causes and conditions."
+    },
+    {
+      "id": "word-karma",
+      "term": "Karma",
+      "meaning": "Action and its results",
+      "pronunciation": "KAR-mah",
+      "language": "Sanskrit",
+      "usage": "Intentions shape habits, and habits shape a life."
+    },
+    {
+      "id": "word-samsara",
+      "term": "Samsara",
+      "meaning": "The cycle of conditioned existence",
+      "pronunciation": "sahm-SAH-rah",
+      "language": "Sanskrit",
+      "usage": "Tibetan: khorwa, \"going round\"."
+    },
+    {
+      "id": "word-bardo",
+      "term": "Bardo",
+      "meaning": "An in-between state",
+      "pronunciation": "BAR-doh",
+      "language": "Tibetan",
+      "usage": "Most famously between death and rebirth, but also this life, sleep and meditation."
+    },
+    {
+      "id": "word-mantra",
+      "term": "Mantra",
+      "meaning": "Sacred syllables that protect the mind",
+      "pronunciation": "MAHN-trah",
+      "language": "Sanskrit",
+      "usage": "Recited aloud or silently, often counted on a mala."
+    },
+    {
+      "id": "word-om-mani-padme-hum",
+      "term": "Om mani padme hum",
+      "meaning": "The mantra of compassion",
+      "pronunciation": "ohm MAH-nee PAY-may hoong",
+      "language": "Sanskrit",
+      "usage": "Tibetans pronounce the last words \"peme hung\". Carved on stones across the Himalaya."
+    },
+    {
+      "id": "word-mala",
+      "term": "Mala",
+      "meaning": "A string of 108 beads",
+      "pronunciation": "MAH-lah",
+      "language": "Sanskrit",
+      "usage": "Used to count recitations."
+    },
+    {
+      "id": "word-mandala",
+      "term": "Mandala",
+      "meaning": "A sacred circle; a model of an enlightened world",
+      "pronunciation": "MAHN-dah-lah",
+      "language": "Sanskrit",
+      "usage": "Painted, built, or poured in coloured sand and then swept away."
+    },
+    {
+      "id": "word-thangka",
+      "term": "Thangka",
+      "meaning": "A scroll painting",
+      "pronunciation": "TAHN-kah",
+      "language": "Tibetan",
+      "usage": "A support for meditation, painted to strict proportions."
+    },
+    {
+      "id": "word-chorten",
+      "term": "Chörten",
+      "meaning": "A stupa: a reliquary monument",
+      "pronunciation": "CHUR-ten",
+      "language": "Tibetan",
+      "usage": "Walked around clockwise."
+    },
+    {
+      "id": "word-gompa",
+      "term": "Gompa",
+      "meaning": "A monastery; a place of meditation",
+      "pronunciation": "GOM-pah",
+      "language": "Tibetan",
+      "usage": "Literally \"solitary place\"."
+    },
+    {
+      "id": "word-kora",
+      "term": "Kora",
+      "meaning": "Circumambulation",
+      "pronunciation": "KOR-ah",
+      "language": "Tibetan",
+      "usage": "Walking clockwise around a holy place as practice."
+    },
+    {
+      "id": "word-lungta",
+      "term": "Lungta",
+      "meaning": "Wind horse",
+      "pronunciation": "LOONG-tah",
+      "language": "Tibetan",
+      "usage": "The horse printed on prayer flags, carrying good wishes on the wind."
+    },
+    {
+      "id": "word-khata",
+      "term": "Khata",
+      "meaning": "A ceremonial white scarf",
+      "pronunciation": "KAH-tah",
+      "language": "Tibetan",
+      "usage": "Offered at greetings, partings and to teachers."
+    },
+    {
+      "id": "word-ngowa",
+      "term": "Ngowa",
+      "meaning": "Dedication of merit",
+      "pronunciation": "NGOH-wah",
+      "language": "Tibetan",
+      "usage": "Giving away the good of what you have done."
+    },
+    {
+      "id": "word-thukje-che",
+      "term": "Thukje che",
+      "meaning": "Thank you",
+      "pronunciation": "TOO-jay chay",
+      "language": "Tibetan",
+      "usage": "Literally \"great compassion\"."
+    },
+    {
+      "id": "word-losar",
+      "term": "Losar",
+      "meaning": "Tibetan New Year",
+      "pronunciation": "LOH-sar",
+      "language": "Tibetan",
+      "usage": "Fifteen days of offerings, visits and sweet rice in late winter."
     }
   ],
   "practices": [
@@ -62,9 +314,13 @@
       "time": "06:45",
       "minutes": 10,
       "meta": "Morning · 10 min",
-      "instructions": "",
-      "why": "",
-      "variations": []
+      "instructions": "Sit quietly and rest for a minute in open stillness. Then breathe in a sense of heaviness, heat and darkness, and breathe out lightness, coolness and brightness, until the rhythm is steady. Now bring to mind someone who is suffering. Breathe in their pain with the wish that they be free of it; breathe out whatever would help: ease, courage, rest. Finally widen it to everyone in the same situation. Begin with your own discomfort if another person feels too much.",
+      "why": "Tonglen reverses the habit of pulling in what is pleasant and pushing away what hurts. It is the central practice of the lojong tradition, taught openly by Tibetan teachers to anyone.",
+      "variations": [
+        "On-the-spot tonglen: three breaths when you meet suffering during the day.",
+        "Tonglen for yourself and everyone who feels as you do right now.",
+        "Tonglen for someone you find difficult."
+      ]
     },
     {
       "id": "mantra-om-mani-padme-hum",
@@ -73,9 +329,13 @@
       "slot": "Afternoon",
       "time": "12:15",
       "meta": "Midday · 108 times",
-      "instructions": "",
-      "why": "",
-      "variations": []
+      "instructions": "Recite the six syllables aloud or under your breath, one round of 108. If you have a mala, move one bead per recitation with your thumb. Let the sound be even and unhurried. As you recite, hold the wish that all beings be free from suffering.",
+      "why": "This is the mantra of Chenrezig, the bodhisattva of compassion. Tibetans of every school recite it while walking, working and turning prayer wheels. It needs no initiation.",
+      "variations": [
+        "Recite while walking.",
+        "Twenty-one recitations whenever you wait in a queue.",
+        "Listen to a recording and join in."
+      ]
     },
     {
       "id": "mind-training-slogan",
@@ -84,9 +344,14 @@
       "slot": "Afternoon",
       "time": "15:00",
       "meta": "Afternoon · One a day",
-      "instructions": "",
-      "why": "",
-      "variations": []
+      "instructions": "Take one slogan from the Seven Points of Mind Training and write it where you will see it. Read a short commentary on it. For the rest of the day, try to recall it at the moment it applies: when blamed, when praised, when irritated, when pleased with yourself.",
+      "why": "The slogans were kept private for a century before Geshe Chekawa wrote them down. They are deliberately short so they come to mind when needed.",
+      "variations": [
+        "\"Be grateful to everyone.\"",
+        "\"Don’t expect applause.\"",
+        "\"Of the two witnesses, hold the principal one.\"",
+        "\"Train in the three difficulties.\""
+      ]
     },
     {
       "id": "dedication-of-merit",
@@ -96,9 +361,13 @@
       "time": "21:00",
       "minutes": 5,
       "meta": "Evening · 5 min",
-      "instructions": "",
-      "why": "",
-      "variations": []
+      "instructions": "Before sleep, recall the good things you did today, however small, and rejoice in them. Then give them away: may whatever good came from this day help all beings be free from suffering. Name anyone you especially want to include.",
+      "why": "Every Tibetan practice session ends with dedication. Giving the merit away is said to protect it from being burned up by pride or anger.",
+      "variations": [
+        "Recite a traditional dedication verse.",
+        "Dedicate the day to one person who is ill or grieving.",
+        "Light a candle as you dedicate."
+      ]
     }
   ],
   "tasks": [
@@ -115,91 +384,210 @@
       "meta": "Tell no one",
       "time": "18:00",
       "slot": "Evening"
+    },
+    {
+      "id": "offer-a-bowl-of-water",
+      "name": "Offer a bowl of water",
+      "meta": "Fresh each morning, emptied at dusk",
+      "time": "07:00",
+      "slot": "Morning"
     }
   ],
   "rules": [
     {
       "id": "r1",
       "text": "Begin the day by setting a kind intention",
-      "why": ""
+      "why": "The Dalai Lama describes starting each morning by shaping his motivation. What you intend at the start colours everything after."
     },
     {
       "id": "r2",
       "text": "Do not speak ill of anyone",
-      "why": ""
+      "why": "A lojong slogan: do not talk about injured limbs. Dwelling on others’ faults strengthens your own."
     },
     {
       "id": "r3",
       "text": "Offer something small each day",
-      "why": ""
+      "why": "Water, light, food, time. Generosity is the first of the six perfections."
     },
     {
       "id": "r4",
       "text": "End the day by dedicating the good",
-      "why": ""
+      "why": "So that the day’s practice is for everyone and not a private achievement."
+    },
+    {
+      "id": "r5",
+      "text": "Do not attempt practices that need empowerment",
+      "why": "Deity yoga and other tantric methods are given by a qualified teacher within a relationship. They are not part of this Onda."
+    },
+    {
+      "id": "r6",
+      "text": "Handle sacred objects with respect",
+      "why": "Keep texts and images off the floor, and do not step over them."
     }
   ],
   "immerse": {
     "read": [
       {
-        "id": "read-training-the-mind",
-        "title": "Training the Mind",
-        "creator": "Chögyam Trungpa",
-        "why": ""
+        "id": "read-the-way-of-the-bodhisattva",
+        "title": "The Way of the Bodhisattva",
+        "creator": "Śāntideva, trans. Padmakara Translation Group",
+        "year": "8th century",
+        "why": "The Indian poem every Tibetan school studies. The Dalai Lama’s favourite book."
       },
       {
-        "id": "read-ethics-for-the-new-millennium",
-        "title": "Ethics for the New Millennium",
-        "creator": "The Dalai Lama",
-        "why": ""
+        "id": "read-the-great-path-of-awakening",
+        "title": "The Great Path of Awakening",
+        "creator": "Jamgön Kongtrul, trans. Ken McLeod",
+        "year": "19th century",
+        "why": "The classic commentary on the Seven Points of Mind Training."
+      },
+      {
+        "id": "read-start-where-you-are",
+        "title": "Start Where You Are",
+        "creator": "Pema Chödrön",
+        "year": "1994",
+        "why": "An American nun’s warm, practical guide to the slogans and to tonglen."
+      },
+      {
+        "id": "read-the-words-of-my-perfect-teacher",
+        "title": "The Words of My Perfect Teacher",
+        "creator": "Patrul Rinpoche",
+        "year": "19th century",
+        "why": "A beloved guide to the foundations, full of stories and blunt advice."
       },
       {
         "id": "read-the-life-of-milarepa",
         "title": "The Life of Milarepa",
-        "creator": "Classic biography",
-        "why": ""
+        "creator": "Tsangnyön Heruka, trans. Andrew Quintman",
+        "year": "1488",
+        "why": "A murderer becomes Tibet’s greatest yogi. The best-known Tibetan story."
+      },
+      {
+        "id": "read-ethics-for-the-new-millennium",
+        "title": "Ethics for the New Millennium",
+        "creator": "The 14th Dalai Lama",
+        "year": "1999",
+        "why": "Compassion as an ethic for everyone, religious or not."
+      },
+      {
+        "id": "read-freedom-in-exile",
+        "title": "Freedom in Exile",
+        "creator": "The 14th Dalai Lama",
+        "year": "1990",
+        "why": "His autobiography, from a farming village to exile in India."
+      },
+      {
+        "id": "read-the-joy-of-living",
+        "title": "The Joy of Living",
+        "creator": "Yongey Mingyur Rinpoche",
+        "year": "2007",
+        "why": "A Tibetan meditation master on his own panic attacks and how he worked with them."
       }
     ],
     "watch": [
       {
-        "id": "watch-kundun-1997",
-        "title": "Kundun (1997)",
-        "creator": "The young Dalai Lama",
-        "why": ""
+        "id": "watch-the-cup",
+        "title": "The Cup",
+        "creator": "Khyentse Norbu",
+        "year": "1999",
+        "why": "Young monks in exile scheme to watch the World Cup final. Written and directed by a Tibetan Buddhist lama."
       },
       {
-        "id": "watch-samsara-2001",
-        "title": "Samsara (2001)",
-        "creator": "Monastic life and desire",
-        "why": ""
+        "id": "watch-kundun",
+        "title": "Kundun",
+        "creator": "Martin Scorsese",
+        "year": "1997",
+        "why": "The early life of the 14th Dalai Lama, with a score by Philip Glass."
+      },
+      {
+        "id": "watch-unmistaken-child",
+        "title": "Unmistaken Child",
+        "creator": "Nati Baratz",
+        "year": "2008",
+        "why": "A monk searches the Nepali hills for the reincarnation of his teacher."
+      },
+      {
+        "id": "watch-milarepa",
+        "title": "Milarepa",
+        "creator": "Neten Chokling",
+        "year": "2006",
+        "why": "The first half of the yogi’s life: revenge, sorcery and remorse."
+      },
+      {
+        "id": "watch-wheel-of-time",
+        "title": "Wheel of Time",
+        "creator": "Werner Herzog",
+        "year": "2003",
+        "why": "Pilgrims and a sand mandala at a Kalachakra gathering."
       }
     ],
     "listen": [
       {
-        "id": "listen-tibetan-chant-and-overtone-singing",
-        "title": "Tibetan chant and overtone singing",
-        "creator": "Monastic recordings",
-        "why": ""
+        "id": "listen-freedom-chants-from-the-roof-of-the-world",
+        "title": "Freedom Chants from the Roof of the World",
+        "creator": "The Gyuto Monks",
+        "year": "1989",
+        "why": "Deep overtone chanting, each monk sounding a chord."
       },
       {
-        "id": "listen-singing-bowls",
-        "title": "Singing bowls",
-        "creator": "Short evening sit",
-        "why": ""
+        "id": "listen-cho",
+        "title": "Chö",
+        "creator": "Choying Drolma and Steve Tibbetts",
+        "year": "1997",
+        "why": "A Tibetan Buddhist nun from Nepal sings practice songs."
+      },
+      {
+        "id": "listen-tibet-tibet",
+        "title": "Tibet, Tibet",
+        "creator": "Yungchen Lhamo",
+        "year": "1996",
+        "why": "Unaccompanied songs by a singer who walked out over the Himalaya."
+      },
+      {
+        "id": "listen-inner-world",
+        "title": "Inner World",
+        "creator": "The 14th Dalai Lama",
+        "year": "2020",
+        "why": "Mantras and short teachings set to music, released for his eighty-fifth birthday."
+      },
+      {
+        "id": "listen-om-mani-padme-hum",
+        "title": "Om Mani Padme Hum",
+        "creator": "Any monastic recording",
+        "why": "Let it run while you do something with your hands."
       }
     ],
     "art": [
       {
-        "id": "art-thangka-painting",
-        "title": "Thangka painting",
-        "creator": "Scroll painting with deities",
-        "why": ""
+        "id": "art-thangka-of-chenrezig",
+        "title": "Thangka of Chenrezig",
+        "creator": "Any museum or monastery collection",
+        "why": "Four arms: two hold a jewel at the heart, one a mala, one a lotus."
       },
       {
         "id": "art-sand-mandala",
         "title": "Sand mandala",
-        "creator": "Made, then swept away",
-        "why": ""
+        "creator": "Made by visiting monks",
+        "why": "Days of work in coloured sand, then swept up and poured into a river."
+      },
+      {
+        "id": "art-the-wheel-of-life",
+        "title": "The Wheel of Life",
+        "creator": "Painted at monastery doors",
+        "why": "A map of the mind’s habits, held in the jaws of impermanence."
+      },
+      {
+        "id": "art-potala-palace",
+        "title": "Potala Palace",
+        "creator": "Lhasa",
+        "year": "begun 1645",
+        "why": "Winter seat of the Dalai Lamas, thirteen storeys up a hill."
+      },
+      {
+        "id": "art-boudhanath-stupa",
+        "title": "Boudhanath Stupa",
+        "creator": "Kathmandu",
+        "why": "A great white dome with painted eyes, circled all day by pilgrims."
       }
     ],
     "eat": [
@@ -207,195 +595,584 @@
         "id": "eat-momos",
         "title": "Momos",
         "creator": "Steamed dumplings",
-        "why": ""
+        "why": "Vegetable or meat, with a sharp tomato chutney."
       },
       {
         "id": "eat-thukpa",
         "title": "Thukpa",
         "creator": "Noodle soup",
-        "why": ""
+        "why": "What you eat when it is cold, which in Tibet is often."
       },
       {
         "id": "eat-tsampa",
         "title": "Tsampa",
         "creator": "Roasted barley flour",
-        "why": ""
+        "why": "The staple of the plateau, kneaded with tea into a dough."
+      },
+      {
+        "id": "eat-tingmo",
+        "title": "Tingmo",
+        "creator": "Steamed bread",
+        "why": "Soft, layered and plain, for soaking up stew."
+      },
+      {
+        "id": "eat-dresil",
+        "title": "Dresil",
+        "creator": "Sweet rice with butter and dried fruit",
+        "why": "Served at Losar for an auspicious start."
       }
     ],
     "drink": [
       {
-        "id": "drink-butter-tea-po-cha",
-        "title": "Butter tea (po cha)",
-        "creator": "Salty and warming",
-        "why": ""
+        "id": "drink-butter-tea",
+        "title": "Butter tea",
+        "creator": "Po cha",
+        "why": "Tea churned with butter and salt. More like broth than tea."
       },
       {
-        "id": "drink-sweet-milk-tea-cha-ngamo",
-        "title": "Sweet milk tea (cha ngamo)",
-        "creator": "Everyday tea",
-        "why": ""
+        "id": "drink-sweet-milk-tea",
+        "title": "Sweet milk tea",
+        "creator": "Cha ngamo",
+        "why": "The tea of Lhasa’s teahouses."
+      },
+      {
+        "id": "drink-hot-water",
+        "title": "Hot water",
+        "creator": "Plain",
+        "why": "Offered to guests everywhere."
       }
     ],
     "customs": [
       {
         "id": "customs-hang-prayer-flags",
         "title": "Hang prayer flags",
-        "creator": "Let the wind carry the prayers",
-        "why": ""
+        "creator": "Lungta",
+        "why": "Outdoors and high up, so the wind carries the wishes. Do not let them touch the ground."
       },
       {
         "id": "customs-turn-prayer-wheels-clockwise",
         "title": "Turn prayer wheels clockwise",
-        "creator": "Each turn is a recitation",
-        "why": ""
+        "creator": "Mani wheels",
+        "why": "Each turn counts as reciting the mantras rolled inside."
       },
       {
-        "id": "customs-offer-a-white-khata-scarf",
-        "title": "Offer a white khata scarf",
-        "creator": "A sign of respect",
-        "why": ""
+        "id": "customs-offer-a-khata",
+        "title": "Offer a khata",
+        "creator": "A white scarf",
+        "why": "Held in both hands and offered with a slight bow."
+      },
+      {
+        "id": "customs-walk-clockwise",
+        "title": "Walk clockwise",
+        "creator": "Kora",
+        "why": "Around stupas, temples and holy mountains, keeping them on your right."
+      },
+      {
+        "id": "customs-offer-water-bowls",
+        "title": "Offer water bowls",
+        "creator": "Seven bowls on a shelf",
+        "why": "Filled each morning with clean water, a grain’s width apart, and emptied at dusk."
+      },
+      {
+        "id": "customs-light-a-butter-lamp",
+        "title": "Light a butter lamp",
+        "creator": "Or a candle",
+        "why": "An offering of light to dispel the darkness of ignorance."
       }
     ]
   },
   "ethics": [
     {
       "title": "Cherish others more than yourself",
-      "text": "The heart of the bodhisattva path."
+      "text": "The root of the mind-training tradition: self-cherishing is the source of trouble, and cherishing others is the source of every good.",
+      "practice": "In one choice today, deliberately take the lesser share."
     },
     {
       "title": "Turn adversity into the path",
-      "text": "Every difficulty is training material."
+      "text": "When the world is full of harm, transform all mishaps into the way of awakening. Difficult people become your teachers of patience.",
+      "practice": "Name today’s biggest irritation and thank it for what it lets you practice."
     },
     {
       "title": "Dedicate merit to all beings",
-      "text": "Do not hold the good for yourself."
+      "text": "Whatever good you do, give it away at once, so that it belongs to everyone.",
+      "practice": "Finish one good piece of work today and take no credit for it."
+    },
+    {
+      "title": "The six perfections",
+      "text": "Generosity, ethical conduct, patience, joyful effort, concentration and wisdom: the training of a bodhisattva.",
+      "practice": "Pick one of the six and practice it on purpose until evening."
+    },
+    {
+      "title": "Equalising self and other",
+      "text": "Everyone wants to be happy and no one wants to suffer. On that point there is no difference between you and anyone else.",
+      "practice": "With each person you meet, think: just like me, this person wants to be happy."
+    },
+    {
+      "title": "Do no harm",
+      "text": "The Buddha’s summary: do no harm, do what is good, tame your own mind.",
+      "practice": "Go a full day without killing anything, including insects."
     }
   ],
   "philosophy": [
     {
       "title": "Emptiness",
-      "text": "Things have no fixed, independent nature. Everything arises from conditions."
+      "text": "Nothing exists on its own. Things arise in dependence on causes, parts and the mind that names them. This is not nothingness; it is why change is possible.",
+      "practice": "Pick an object and list what it depends on. Keep going."
     },
     {
       "title": "Interdependence",
-      "text": "Everything you use came from countless beings."
+      "text": "Your food, clothes, language and life all come from others. The Dalai Lama calls compassion simply being realistic about this.",
+      "practice": "Trace one meal back through all the hands that made it possible."
     },
     {
       "title": "Impermanence",
-      "text": "All composed things end."
+      "text": "Everything composed comes apart. Remembering it loosens grasping and gives the day urgency.",
+      "practice": "When something pleasant ends today, watch it go without reaching."
     },
     {
       "title": "Karma",
-      "text": "Intentional actions leave traces and shape what comes."
+      "text": "Actions leave traces. What you do, say and think shapes what you become, and intention matters most.",
+      "practice": "Before one action today, stop and check what you actually intend."
+    },
+    {
+      "title": "Precious human life",
+      "text": "To be alive, free and able to practice is rare and will not last. Do not waste it.",
+      "practice": "List five freedoms you have that make practice possible."
+    },
+    {
+      "title": "The nature of mind",
+      "text": "Beneath passing thoughts and moods, awareness itself is clear and open, like sky behind cloud.",
+      "practice": "For one minute, watch thoughts come and go without following any."
+    },
+    {
+      "title": "The two truths",
+      "text": "Conventionally, things work as they appear. Ultimately, they are empty of fixed nature. Both are true at once.",
+      "practice": "Hold a strong opinion today and also see it as one view."
+    },
+    {
+      "title": "Suffering has causes",
+      "text": "The four noble truths: there is suffering, it has causes, it can end, and there is a path.",
+      "practice": "When upset, look for the grasping or aversion underneath."
+    },
+    {
+      "title": "Bodhicitta",
+      "text": "The resolve to wake up for the benefit of everyone. It is said to turn even small acts into gold.",
+      "practice": "Begin one ordinary task with the thought: may this be of use."
+    },
+    {
+      "title": "The bardo of this life",
+      "text": "This life is itself an in-between. How you meet small endings now is practice for the large one.",
+      "practice": "At the end of the day, let it go completely before sleep."
     }
   ],
   "journal": [
-    "Who did you wish well today, including someone difficult?",
-    "What slogan did you work with, and where did it show up?",
-    "What difficulty could be treated as a teacher?",
-    "What did you receive today from beings you will never meet?",
-    "Where did you protect yourself at someone’s cost?",
-    "What good did you do that you can offer to others?",
-    "What did you cling to today?"
+    "Whose suffering did you notice today, and how did you respond?",
+    "Where did self-cherishing appear?",
+    "Which slogan came to mind when you needed it?",
+    "What will you dedicate from today?",
+    "Who was difficult, and what did they teach you?",
+    "What did you give today?",
+    "When did you blame someone? What would taking it on yourself have looked like?",
+    "What happened in tonglen?",
+    "Whom did you depend on today without thanking?",
+    "What did you grasp at?",
+    "What ended today, and how did you meet it?",
+    "Where did you want applause?",
+    "What was your intention this morning? Did you keep it?",
+    "Which of the six perfections was hardest today?",
+    "Who did you exclude from your good wishes?",
+    "What did you say about someone who was not there?",
+    "When was your mind most at ease?",
+    "What irritated you, and what was underneath it?",
+    "What did you rejoice in that was not your own success?",
+    "Where were you patient? Where not?",
+    "What did the mantra do to your mood?",
+    "What are you afraid of losing?",
+    "Who was kind to you today?",
+    "What would you do differently if you remembered this life is short?",
+    "Which habit showed itself again?",
+    "What did you offer, and to whom?",
+    "When did you see yourself in another person?",
+    "What good thing did you do and tell no one?",
+    "What is still clenched tonight? Can you breathe it out?",
+    "To whom do you send this day’s good?"
   ],
   "reflect": [
-    "Whose suffering did you take on, and what changed in you?",
+    "How did training compassion change your days?",
     "Which practice changed you the most, and why?",
-    "What will you keep of this daily rhythm?"
+    "Where did you resist, and what was the resistance protecting?",
+    "Who do you see differently now?",
+    "Which slogan will you keep?",
+    "What will you go on dedicating?"
   ],
-  "dayThemes": [],
+  "dayThemes": [
+    "Setting intention",
+    "Precious human life",
+    "Impermanence",
+    "Karma",
+    "Giving and taking",
+    "Be grateful to everyone",
+    "Interdependence",
+    "Drive all blames into one",
+    "Emptiness",
+    "Patience",
+    "Generosity",
+    "Just like me",
+    "Don’t expect applause",
+    "Turning adversity into the path",
+    "Joyful effort",
+    "Right speech",
+    "The difficult person",
+    "Calm abiding",
+    "Loving-kindness",
+    "Compassion",
+    "Rejoicing",
+    "Equanimity",
+    "The nature of mind",
+    "Do no harm",
+    "Offering",
+    "The two truths",
+    "A joyful mind",
+    "Bodhicitta",
+    "Letting go",
+    "Dedication"
+  ],
   "guide": {
-    "intro": [
-      "Tibetan Buddhism is the form of Vajrayana and Mahayana Buddhism that took root on the Tibetan plateau. It stresses compassion, the training of the mind and a close relationship with a teacher.",
-      "After 1959 many teachers left Tibet and carried the tradition around the world. Its practices use visualization, mantra, prostration and debate alongside quiet sitting."
-    ],
     "origin": "Tibet and the Himalaya",
-    "era": "7th c. CE to today",
+    "era": "7th century to today",
+    "intro": [
+      "Tibetan Buddhism is the form of Buddhism that took root on the Tibetan plateau from the seventh century and spread across the Himalaya, Mongolia and, in the last sixty years, the world. Its daily heart is the deliberate training of compassion.",
+      "It grew from late Indian Buddhism, which reached Tibet in two waves. In the eighth century the king Trisong Detsen invited the abbot Śāntarakṣita and the tantric master Padmasambhava, and together they founded Samye, the first monastery. After a period of collapse, a second wave began in the eleventh century with the Bengali teacher Atiśa and the Tibetan translator Marpa. From these two transmissions come the four main schools: Nyingma, the \"ancient\" school that looks to Padmasambhava; Kagyu, the lineage of Marpa and the hermit-poet Milarepa; Sakya; and Gelug, founded by the scholar Tsongkhapa, to which the Dalai Lamas belong.",
+      "All four share a foundation. One begins by reflecting on the rarity of a human life, on impermanence, on action and its results, and on the unsatisfactoriness of grasping. On that ground stands the Mahāyāna ideal: the bodhisattva, who seeks awakening not for private peace but to be of use to every being. Its motive is bodhicitta, the awakened heart.",
+      "Tibet preserved and refined a set of methods for growing that heart. The best loved is lojong, mind training: fifty-nine pithy slogans written down in the twelfth century, such as \"Be grateful to everyone\" and \"Drive all blames into one\". With them goes tonglen, giving and taking, in which you breathe in the suffering of others and breathe out relief. These practices are taught publicly and need no initiation.",
+      "The tradition also holds Vajrayāna or tantric practices: visualisation, mantra and subtle-body yogas that are given by a teacher through empowerment and within a close relationship. They are not secret out of exclusiveness but because they are easy to misuse. This Onda does not include them.",
+      "Tibetan Buddhism today is practiced under pressure. Since 1959 the Dalai Lama and many of the great teachers have lived in exile, and the monasteries were rebuilt in India and Nepal. Approach this Onda as a guest. Learn from Tibetan teachers where you can, and let the practice be for others."
+    ],
     "figures": [
       {
         "name": "Padmasambhava",
-        "dates": "",
-        "bio": "Eighth century teacher said to subdue obstacles and establish Buddhism in Tibet."
+        "dates": "8th century",
+        "bio": "Guru Rinpoche, the \"second Buddha\" of the Nyingma school, credited with establishing tantric Buddhism in Tibet."
+      },
+      {
+        "name": "Śāntideva",
+        "dates": "8th century",
+        "bio": "Indian monk of Nālandā. Author of The Way of the Bodhisattva."
+      },
+      {
+        "name": "Atiśa",
+        "dates": "982–1054",
+        "bio": "Bengali master who came to Tibet in 1042 and carried the mind-training teachings."
+      },
+      {
+        "name": "Marpa",
+        "dates": "1012–1097",
+        "bio": "Farmer and translator who made three journeys to India for teachings."
       },
       {
         "name": "Milarepa",
-        "dates": "",
-        "bio": "Poet-saint who turned a violent past into realization."
+        "dates": "c. 1052–1135",
+        "bio": "Marpa’s student. After a youth of revenge he spent his life in mountain caves and taught in song."
+      },
+      {
+        "name": "Geshe Chekawa",
+        "dates": "1101–1175",
+        "bio": "Wrote down the Seven Points of Mind Training and taught them openly."
       },
       {
         "name": "Tsongkhapa",
-        "dates": "",
-        "bio": "Founded the Gelug school in 1409."
+        "dates": "1357–1419",
+        "bio": "Scholar and reformer. Founded Ganden monastery and the Gelug school."
       },
       {
-        "name": "The 14th Dalai Lama",
-        "dates": "",
-        "bio": "Tenzin Gyatso, spiritual leader of the Gelug tradition."
+        "name": "Patrul Rinpoche",
+        "dates": "1808–1887",
+        "bio": "Wandering Nyingma teacher who lived as a beggar and wrote The Words of My Perfect Teacher."
+      },
+      {
+        "name": "Jamgön Kongtrul",
+        "dates": "1813–1899",
+        "bio": "Leader of the non-sectarian Rimé movement and author of the standard lojong commentary."
+      },
+      {
+        "name": "Tenzin Gyatso, the 14th Dalai Lama",
+        "dates": "born 1935",
+        "bio": "Spiritual leader of Tibetans. In exile since 1959. Nobel Peace Prize, 1989."
       }
     ],
     "history": [
       {
-        "when": "7th c.",
-        "what": "King Songtsen Gampo brings Buddhism to the court",
-        "detail": ""
+        "when": "7th century",
+        "what": "Buddhism reaches the Tibetan court",
+        "detail": "King Songtsen Gampo unifies Tibet and marries princesses from Nepal and China, who by tradition bring Buddhist images. The Jokhang temple in Lhasa is founded and a Tibetan script is devised."
       },
       {
-        "when": "8th c.",
-        "what": "Padmasambhava helps establish the first monastery, Samye",
-        "detail": ""
+        "when": "c. 779",
+        "what": "Samye, the first monastery, is founded",
+        "detail": "Under King Trisong Detsen, with the abbot Śāntarakṣita and Padmasambhava. The first seven Tibetans are ordained."
       },
       {
-        "when": "11th c.",
-        "what": "Atisha arrives; Milarepa teaches through song",
-        "detail": ""
+        "when": "842",
+        "what": "The empire collapses",
+        "detail": "After the assassination of King Langdarma, central rule breaks down and monastic Buddhism declines for more than a century."
+      },
+      {
+        "when": "1042",
+        "what": "Atiśa arrives in Tibet",
+        "detail": "Invited by a western Tibetan king, he teaches for twelve years. His students found the Kadam school, the source of lojong."
+      },
+      {
+        "when": "11th century",
+        "what": "Marpa and Milarepa",
+        "detail": "Marpa brings teachings from India; his student Milarepa practices in solitude and attracts followers. Gampopa organises their lineage as the Kagyu school."
+      },
+      {
+        "when": "1073",
+        "what": "Sakya monastery is founded",
+        "detail": "The Sakya school later provides Tibet’s rulers under Mongol patronage."
+      },
+      {
+        "when": "12th century",
+        "what": "The mind-training slogans are written down",
+        "detail": "Geshe Chekawa, moved by the line \"give all gain to others, take all loss on yourself\", seeks out the teaching and sets it in seven points."
       },
       {
         "when": "1409",
-        "what": "Tsongkhapa founds the Gelug school",
-        "detail": ""
+        "what": "Tsongkhapa founds Ganden",
+        "detail": "The Gelug school emphasises monastic discipline and a graded path of study."
+      },
+      {
+        "when": "1578",
+        "what": "The title Dalai Lama is first given",
+        "detail": "The Mongol ruler Altan Khan confers it on Sonam Gyatso, counted as the third in the line."
+      },
+      {
+        "when": "1642",
+        "what": "The Fifth Dalai Lama becomes ruler of Tibet",
+        "detail": "With Mongol support he unifies the country. Building of the Potala Palace begins in 1645."
+      },
+      {
+        "when": "19th century",
+        "what": "The Rimé movement",
+        "detail": "Jamgön Kongtrul, Jamyang Khyentse Wangpo and others collect and preserve the teachings of all schools without sectarian bias."
+      },
+      {
+        "when": "1950",
+        "what": "The People’s Liberation Army enters Tibet",
+        "detail": "The fifteen-year-old Dalai Lama assumes full political authority that year."
       },
       {
         "when": "1959",
-        "what": "The Dalai Lama leaves Tibet; teachings spread worldwide",
-        "detail": ""
+        "what": "The Dalai Lama goes into exile",
+        "detail": "After an uprising in Lhasa he crosses the Himalaya to India, followed by tens of thousands. A government in exile is established at Dharamsala."
+      },
+      {
+        "when": "1989",
+        "what": "The Nobel Peace Prize",
+        "detail": "Awarded to the Dalai Lama for his non-violent stance on Tibet."
       }
     ],
     "concepts": [
       {
-        "term": "Four schools",
-        "text": "Nyingma, Kagyu, Sakya and Gelug.",
-        "detail": ""
+        "term": "Bodhicitta",
+        "text": "The resolve to awaken for the sake of all beings.",
+        "detail": "It has two aspects: the wish, and the actual training in the six perfections. Tibetans call it the wish-fulfilling jewel."
       },
       {
         "term": "Lojong",
-        "text": "Slogans such as Drive all blames into one.",
-        "detail": ""
+        "text": "Mind training in seven points.",
+        "detail": "The points move from preliminaries, through the main practice of tonglen and of resting in openness, to turning hardship into the path, and end with lists of commitments and guidelines for daily life."
       },
       {
-        "term": "Mandala",
-        "text": "A map of an enlightened world, built or visualized.",
-        "detail": ""
+        "term": "Tonglen",
+        "text": "Giving and taking on the breath.",
+        "detail": "You take in what you would normally avoid and send out what you would normally keep. The aim is to dissolve the armour around the heart, not to become ill on others’ behalf."
       },
       {
-        "term": "Bardo",
-        "text": "The in-between states, including after death.",
-        "detail": ""
+        "term": "Emptiness",
+        "text": "Things have no independent, fixed existence.",
+        "detail": "The philosophy of Nāgārjuna, studied intensely in Tibet. Emptiness and compassion are called the two wings of a bird: neither works without the other."
+      },
+      {
+        "term": "The three jewels",
+        "text": "Buddha, Dharma and Sangha.",
+        "detail": "Taking refuge in them is what makes someone a Buddhist. Tibetans add the lama as the one who makes the three accessible."
+      },
+      {
+        "term": "The four thoughts",
+        "text": "Reflections that turn the mind to practice.",
+        "detail": "Precious human birth, impermanence and death, action and result, and the defects of cyclic existence."
+      },
+      {
+        "term": "The six perfections",
+        "text": "The bodhisattva’s training.",
+        "detail": "Generosity, ethical conduct, patience, joyful effort, meditative concentration and wisdom."
+      },
+      {
+        "term": "Tulku",
+        "text": "A teacher recognised as the rebirth of a predecessor.",
+        "detail": "The system began with the Karmapas in the thirteenth century. It gave Tibet a way to pass on spiritual authority without heredity."
+      },
+      {
+        "term": "Vajrayāna",
+        "text": "The \"diamond vehicle\" of tantric practice.",
+        "detail": "Methods using visualisation, mantra and the subtle body, said to be swift and to depend on empowerment from a qualified teacher. Not included in this Onda."
+      },
+      {
+        "term": "Merit and dedication",
+        "text": "The positive force of good action, given away.",
+        "detail": "Merit is not a private bank account. Dedicating it to all beings is itself the practice of non-attachment."
       }
     ],
     "facts": [
       {
-        "text": "Prayer flags carry mantras printed in five colors for the five elements."
+        "text": "The Tibetan word for a Buddhist is nangpa, \"insider\": one who looks for the truth inside the mind."
       },
       {
-        "text": "Monks debate with clapping and stamping to sharpen reasoning."
+        "text": "Prayer flags come in five colours for the five elements, always in the same order: blue, white, red, green, yellow."
       },
       {
-        "text": "Sand mandalas take days to build and are swept away in minutes."
+        "text": "Monks may spend days making a sand mandala and then sweep it away in minutes, as a teaching on impermanence."
+      },
+      {
+        "text": "Tibetan monastic debate is physical: the challenger stands, shouts the question and claps one hand down on the other."
+      },
+      {
+        "text": "The title Dalai is Mongolian for ocean. Tibetans more often call him Kundun, \"the presence\"."
+      },
+      {
+        "text": "Tsampa, roasted barley flour, is so central to Tibetan identity that Tibetans sometimes call themselves \"tsampa eaters\"."
+      },
+      {
+        "text": "The lojong slogans were passed on privately for about a century before Geshe Chekawa taught them in public."
+      },
+      {
+        "text": "The mantra Om mani padme hum is carved into stones and stacked in walls, some hundreds of metres long, across the Himalaya."
       }
     ],
-    "glossary": [],
-    "furtherReading": [],
-    "learnFrom": [],
-    "sources": []
+    "glossary": [
+      {
+        "term": "Mahāyāna",
+        "meaning": "The \"great vehicle\": Buddhism of the bodhisattva ideal."
+      },
+      {
+        "term": "Nyingma, Kagyu, Sakya, Gelug",
+        "meaning": "The four main schools of Tibetan Buddhism."
+      },
+      {
+        "term": "Chenrezig",
+        "meaning": "The bodhisattva of compassion. Sanskrit: Avalokiteśvara."
+      },
+      {
+        "term": "Empowerment",
+        "meaning": "A ritual in which a teacher authorises a student for a tantric practice."
+      },
+      {
+        "term": "Dharamsala",
+        "meaning": "The Indian hill town that is the Dalai Lama’s home in exile."
+      },
+      {
+        "term": "Rimé",
+        "meaning": "The nineteenth-century non-sectarian movement."
+      }
+    ],
+    "furtherReading": [
+      {
+        "title": "Introduction to Tibetan Buddhism",
+        "creator": "John Powers",
+        "year": "2007",
+        "note": "The standard academic overview of history, doctrine and practice."
+      },
+      {
+        "title": "Tibet: A History",
+        "creator": "Sam van Schaik",
+        "year": "2011",
+        "note": "A readable history from the empire to the present."
+      },
+      {
+        "title": "Indestructible Truth",
+        "creator": "Reginald Ray",
+        "year": "2000",
+        "note": "The living spirituality of the four schools."
+      },
+      {
+        "title": "The Practice of Lojong",
+        "creator": "Traleg Kyabgon",
+        "year": "2007",
+        "note": "A Tibetan teacher’s detailed commentary on every slogan."
+      },
+      {
+        "title": "Mind Training: The Great Collection",
+        "creator": "trans. Thupten Jinpa",
+        "year": "2006",
+        "note": "The early Tibetan lojong texts in full."
+      }
+    ],
+    "learnFrom": [
+      {
+        "name": "The Office of His Holiness the Dalai Lama",
+        "note": "His teachings, schedule and messages, published by his own office."
+      },
+      {
+        "name": "The Tibet Fund and Tibetan community centres",
+        "note": "Tibetan-run organisations supporting education, health and culture in exile."
+      },
+      {
+        "name": "The 84000 project",
+        "note": "A non-profit translating the Tibetan Buddhist canon into English and publishing it free."
+      },
+      {
+        "name": "A local Tibetan Buddhist centre",
+        "note": "Most offer open meditation evenings led by, or under the guidance of, Tibetan teachers."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Introduction to Tibetan Buddhism, revised edition",
+        "creator": "John Powers",
+        "publisher": "Snow Lion",
+        "year": "2007"
+      },
+      {
+        "title": "Tibet: A History",
+        "creator": "Sam van Schaik",
+        "publisher": "Yale University Press",
+        "year": "2011"
+      },
+      {
+        "title": "The Way of the Bodhisattva",
+        "creator": "Śāntideva, trans. Padmakara Translation Group",
+        "publisher": "Shambhala",
+        "year": "1997"
+      },
+      {
+        "title": "The Great Path of Awakening",
+        "creator": "Jamgön Kongtrul, trans. Ken McLeod",
+        "publisher": "Shambhala",
+        "year": "1987"
+      },
+      {
+        "title": "Mind Training: The Great Collection",
+        "creator": "trans. and ed. Thupten Jinpa",
+        "publisher": "Wisdom Publications",
+        "year": "2006"
+      },
+      {
+        "title": "Freedom in Exile: The Autobiography of the Dalai Lama",
+        "creator": "Tenzin Gyatso",
+        "publisher": "HarperCollins",
+        "year": "1990"
+      }
+    ]
+  },
+  "sensitivity": {
+    "note": "Tibetan Buddhism is a living tradition whose people have been in exile since 1959. This Onda uses only practices that Tibetan teachers offer publicly: tonglen, the compassion mantra and the mind-training slogans. Practice as a guest, and learn from Tibetan teachers where you can.",
+    "requiredCaveats": [
+      "Tantric practices that require empowerment from a qualified teacher are not included and should not be improvised.",
+      "Prayer flags, images and texts are sacred objects, not decoration. Treat them with care.",
+      "If tonglen stirs up more than you can hold, return to simple breathing and seek guidance.",
+      "This content has not yet been reviewed by a Tibetan Buddhist teacher."
+    ],
+    "reviewRequired": true
   }
 }

@@ -1,56 +1,305 @@
 {
-  "version": 1,
+  "version": 2,
   "id": "ubuntu",
   "name": "Ubuntu",
   "origin": "Southern Africa",
+  "era": "An old ethic, named in writing since the 19th century",
   "tone": "yellow",
   "icon": "users-three",
-  "line": "I am because we are.",
-  "era": "Ancient proverbs, named in the 20th c.",
   "font": "Young Serif",
   "pattern": "woven-bands",
   "glyph": "Umuntu",
+  "line": "I am because we are.",
   "quote": {
     "text": "A person is a person through other persons.",
     "by": "Nguni proverb",
-    "source": ""
+    "source": "Umuntu ngumuntu ngabantu"
   },
-  "quotes": [],
+  "quotes": [
+    {
+      "text": "My humanity is caught up, is inextricably bound up, in yours.",
+      "by": "Desmond Tutu",
+      "source": "No Future Without Forgiveness, 1999"
+    },
+    {
+      "text": "I am because we are; and since we are, therefore I am.",
+      "by": "John S. Mbiti",
+      "source": "African Religions and Philosophy, 1969"
+    },
+    {
+      "text": "To be free is not merely to cast off one’s chains, but to live in a way that respects and enhances the freedom of others.",
+      "by": "Nelson Mandela",
+      "source": "Long Walk to Freedom, 1994"
+    },
+    {
+      "text": "In time we shall be in a position to bestow upon South Africa the greatest gift possible: a more human face.",
+      "by": "Steve Biko",
+      "source": "I Write What I Like, 1978"
+    },
+    {
+      "text": "Without forgiveness there is no future.",
+      "by": "Desmond Tutu",
+      "source": "No Future Without Forgiveness, 1999"
+    }
+  ],
   "words": [
     {
       "id": "word-ubuntu",
       "term": "Ubuntu",
-      "meaning": "I am because we are"
-    },
-    {
-      "id": "word-sawubona",
-      "term": "Sawubona",
-      "meaning": "I see you (Zulu)"
-    },
-    {
-      "id": "word-ngiyabonga",
-      "term": "Ngiyabonga",
-      "meaning": "Thank you (Zulu)"
+      "meaning": "Humanness; I am because we are",
+      "pronunciation": "oo-BOON-too",
+      "language": "Nguni languages (isiZulu, isiXhosa)",
+      "usage": "The quality of being a person, shown in how you treat people."
     },
     {
       "id": "word-umuntu-ngumuntu-ngabantu",
       "term": "Umuntu ngumuntu ngabantu",
-      "meaning": "A person is a person through others"
+      "meaning": "A person is a person through other persons",
+      "pronunciation": "oo-MOON-too ngoo-MOON-too ngah-BAHN-too",
+      "language": "isiZulu",
+      "usage": "The proverb that sums up the philosophy."
     },
     {
-      "id": "word-indaba",
-      "term": "Indaba",
-      "meaning": "A gathering to talk things through"
+      "id": "word-umuntu",
+      "term": "Umuntu",
+      "meaning": "A person",
+      "pronunciation": "oo-MOON-too",
+      "language": "isiZulu",
+      "usage": "Plural abantu, people: the root of the word Bantu."
     },
     {
-      "id": "word-ukuhlonipha",
-      "term": "Ukuhlonipha",
-      "meaning": "Respect"
+      "id": "word-botho",
+      "term": "Botho",
+      "meaning": "Humanness; the Sotho-Tswana word for ubuntu",
+      "pronunciation": "BOH-toh",
+      "language": "Sesotho, Setswana",
+      "usage": "Motho ke motho ka batho: a person is a person through people."
+    },
+    {
+      "id": "word-hunhu",
+      "term": "Hunhu",
+      "meaning": "Humanness; the Shona word for ubuntu",
+      "pronunciation": "HOON-hoo",
+      "language": "chiShona",
+      "usage": "Also unhu. The subject of a 1980 Zimbabwean book of philosophy."
+    },
+    {
+      "id": "word-sawubona",
+      "term": "Sawubona",
+      "meaning": "Hello; literally \"we see you\"",
+      "pronunciation": "sah-woo-BOH-nah",
+      "language": "isiZulu",
+      "usage": "Said to one person. The reply is yebo, sawubona."
+    },
+    {
+      "id": "word-sanibonani",
+      "term": "Sanibonani",
+      "meaning": "Hello, to more than one person",
+      "pronunciation": "sah-nee-boh-NAH-nee",
+      "language": "isiZulu",
+      "usage": "Greet the whole room before anything else."
+    },
+    {
+      "id": "word-yebo",
+      "term": "Yebo",
+      "meaning": "Yes",
+      "pronunciation": "YEH-boh",
+      "language": "isiZulu",
+      "usage": "Also the answer to a greeting."
+    },
+    {
+      "id": "word-unjani",
+      "term": "Unjani?",
+      "meaning": "How are you?",
+      "pronunciation": "oon-JAH-nee",
+      "language": "isiZulu",
+      "usage": "The answer is ngiyaphila: I am well. Then you ask in return."
+    },
+    {
+      "id": "word-ngiyabonga",
+      "term": "Ngiyabonga",
+      "meaning": "Thank you",
+      "pronunciation": "ngee-yah-BOHN-gah",
+      "language": "isiZulu",
+      "usage": "Siyabonga is \"we thank you\", often used even by one person."
+    },
+    {
+      "id": "word-molo",
+      "term": "Molo",
+      "meaning": "Hello",
+      "pronunciation": "MOH-loh",
+      "language": "isiXhosa",
+      "usage": "Molweni to more than one."
+    },
+    {
+      "id": "word-enkosi",
+      "term": "Enkosi",
+      "meaning": "Thank you",
+      "pronunciation": "en-KOH-see",
+      "language": "isiXhosa",
+      "usage": "Enkosi kakhulu: thank you very much."
+    },
+    {
+      "id": "word-dumela",
+      "term": "Dumela",
+      "meaning": "Hello",
+      "pronunciation": "doo-MEH-lah",
+      "language": "Sesotho, Setswana",
+      "usage": "Dumelang to more than one."
+    },
+    {
+      "id": "word-kea-leboha",
+      "term": "Kea leboha",
+      "meaning": "Thank you",
+      "pronunciation": "kee-ah leh-BOH-hah",
+      "language": "Sesotho",
+      "usage": "Everyday thanks."
     },
     {
       "id": "word-hamba-kahle",
       "term": "Hamba kahle",
-      "meaning": "Go well"
+      "meaning": "Go well",
+      "pronunciation": "HAHM-bah GAH-shleh",
+      "language": "isiZulu",
+      "usage": "Said to the one leaving. The \"hl\" is a breathy sound made at the side of the tongue."
+    },
+    {
+      "id": "word-sala-kahle",
+      "term": "Sala kahle",
+      "meaning": "Stay well",
+      "pronunciation": "SAH-lah GAH-shleh",
+      "language": "isiZulu",
+      "usage": "Said to the one who stays."
+    },
+    {
+      "id": "word-ukuhlonipha",
+      "term": "Ukuhlonipha",
+      "meaning": "Respect, especially toward elders",
+      "pronunciation": "oo-koo-shloh-NEE-pah",
+      "language": "isiZulu",
+      "usage": "Shown in posture, speech and who speaks first."
+    },
+    {
+      "id": "word-indaba",
+      "term": "Indaba",
+      "meaning": "A matter for discussion; a gathering to talk it through",
+      "pronunciation": "in-DAH-bah",
+      "language": "isiZulu, isiXhosa",
+      "usage": "Everyone with a stake is heard before anything is decided."
+    },
+    {
+      "id": "word-imbizo",
+      "term": "Imbizo",
+      "meaning": "A gathering called by a leader to consult the community",
+      "pronunciation": "im-BEE-zoh",
+      "language": "isiZulu",
+      "usage": "Still used for public consultations in South Africa."
+    },
+    {
+      "id": "word-lekgotla",
+      "term": "Lekgotla",
+      "meaning": "A community council or court",
+      "pronunciation": "leh-KHOT-lah",
+      "language": "Sesotho, Setswana",
+      "usage": "Traditionally held in the open, where anyone may speak."
+    },
+    {
+      "id": "word-ilima",
+      "term": "Ilima",
+      "meaning": "A communal work party",
+      "pronunciation": "ee-LEE-mah",
+      "language": "isiXhosa, isiZulu",
+      "usage": "Neighbours work one family’s field together and are fed for it."
+    },
+    {
+      "id": "word-letsema",
+      "term": "Letsema",
+      "meaning": "Working together on a shared task",
+      "pronunciation": "leh-TSEH-mah",
+      "language": "Sesotho, Setswana",
+      "usage": "The same custom north of the Orange River."
+    },
+    {
+      "id": "word-stokvel",
+      "term": "Stokvel",
+      "meaning": "A savings club whose members take turns receiving the pot",
+      "pronunciation": "STOK-fel",
+      "language": "South African English",
+      "usage": "Millions of South Africans belong to one."
+    },
+    {
+      "id": "word-masakhane",
+      "term": "Masakhane",
+      "meaning": "Let us build each other up",
+      "pronunciation": "mah-sah-KAH-neh",
+      "language": "Nguni languages",
+      "usage": "A call to build together."
+    },
+    {
+      "id": "word-simunye",
+      "term": "Simunye",
+      "meaning": "We are one",
+      "pronunciation": "see-MOON-yeh",
+      "language": "isiZulu",
+      "usage": "A slogan of the new South Africa."
+    },
+    {
+      "id": "word-batho-pele",
+      "term": "Batho pele",
+      "meaning": "People first",
+      "pronunciation": "BAH-toh PEH-leh",
+      "language": "Sesotho",
+      "usage": "The stated principle of South Africa’s public service since 1997."
+    },
+    {
+      "id": "word-umphakathi",
+      "term": "Umphakathi",
+      "meaning": "The community",
+      "pronunciation": "oom-pah-GAH-tee",
+      "language": "isiZulu",
+      "usage": "Those among whom you live and to whom you answer."
+    },
+    {
+      "id": "word-gogo",
+      "term": "Gogo",
+      "meaning": "Grandmother",
+      "pronunciation": "GOH-goh",
+      "language": "isiZulu",
+      "usage": "Used respectfully for any older woman."
+    },
+    {
+      "id": "word-uxolo",
+      "term": "Uxolo",
+      "meaning": "Peace; also \"I am sorry\"",
+      "pronunciation": "oo-KOH-loh",
+      "language": "isiXhosa, isiZulu",
+      "usage": "The x is a click made at the side of the mouth.",
+      "unverified": true
+    },
+    {
+      "id": "word-ukuxolela",
+      "term": "Ukuxolela",
+      "meaning": "To forgive",
+      "pronunciation": "oo-koo-koh-LEH-lah",
+      "language": "isiXhosa, isiZulu",
+      "usage": "From the same root as peace.",
+      "unverified": true
+    },
+    {
+      "id": "word-amandla",
+      "term": "Amandla",
+      "meaning": "Power",
+      "pronunciation": "ah-MAHN-dlah",
+      "language": "Nguni languages",
+      "usage": "The call. The answer is awethu: it is ours."
+    },
+    {
+      "id": "word-thuma-mina",
+      "term": "Thuma mina",
+      "meaning": "Send me",
+      "pronunciation": "TOO-mah MEE-nah",
+      "language": "isiZulu",
+      "usage": "A hymn, and a song by Hugh Masekela, about offering yourself to serve."
     }
   ],
   "practices": [
@@ -61,9 +310,13 @@
       "slot": "Morning",
       "time": "08:00",
       "meta": "Morning · Name, eye, pause",
-      "instructions": "",
-      "why": "",
-      "variations": []
+      "instructions": "With the first people you meet today, stop walking. Look at them, greet them by name, ask how they are and wait for the answer. Then say how you are. Only after that move on to whatever you needed. Do the same for people you usually pass without a word: the cleaner, the bus driver, the neighbour.",
+      "why": "In Zulu the greeting sawubona means \"we see you\". Across southern Africa, to begin with business before greeting is to treat a person as a means.",
+      "variations": [
+        "Greet every person in a room before you sit down.",
+        "Learn one colleague’s family members’ names.",
+        "Greet in isiZulu or Sesotho if you are with speakers who welcome it."
+      ]
     },
     {
       "id": "call-or-visit-one-person",
@@ -72,9 +325,13 @@
       "slot": "Afternoon",
       "time": "15:00",
       "meta": "Afternoon · Ask how are we",
-      "instructions": "",
-      "why": "",
-      "variations": []
+      "instructions": "Choose one person: a relative, an old friend, someone who is ill or alone. Call or go in person; do not text. Ask after them and their family, and listen. Do not bring your own agenda. If they need something you can do, do it.",
+      "why": "A person becomes a person through relationships, and relationships are kept alive by turning up. Presence is the currency of ubuntu.",
+      "variations": [
+        "Visit an elder and ask for a story.",
+        "Call someone you have fallen out with.",
+        "Sit with someone who is grieving, without needing to say anything."
+      ]
     },
     {
       "id": "cook-or-eat-with-others",
@@ -83,9 +340,13 @@
       "slot": "Evening",
       "time": "18:30",
       "meta": "Evening · Shared pot",
-      "instructions": "",
-      "why": "",
-      "variations": []
+      "instructions": "Eat your evening meal with at least one other person. Cook enough for one more than you expect. Serve others before yourself, eldest first. Keep phones off the table. If you live alone, invite someone, or carry a plate next door.",
+      "why": "The proverb says a guest’s stomach is small: there is always enough to share. In much of Africa eating alone when others are near is close to an offence.",
+      "variations": [
+        "Cook one pot and eat from the centre.",
+        "Take food to someone who cannot cook for themselves.",
+        "Host a meal where everyone brings one dish."
+      ]
     },
     {
       "id": "act-of-service",
@@ -94,9 +355,13 @@
       "slot": "Evening",
       "time": "19:30",
       "meta": "Evening · Unrecorded",
-      "instructions": "",
-      "why": "",
-      "variations": []
+      "instructions": "Do one useful thing for your household, street or community that is nobody’s job in particular: carry, fix, clean, mind a child, give a lift. Do it without being asked and without mentioning it.",
+      "why": "Ubuntu is judged by conduct. Of a generous, dependable person people say: yu, u nobuntu. She has ubuntu.",
+      "variations": [
+        "Join a neighbour’s task as an extra pair of hands.",
+        "Give time to a local organisation.",
+        "Contribute to a shared fund."
+      ]
     }
   ],
   "tasks": [
@@ -113,28 +378,45 @@
       "meta": "Then help",
       "time": "18:00",
       "slot": "Evening"
+    },
+    {
+      "id": "thank-someone-specifically",
+      "name": "Thank someone specifically",
+      "meta": "Name what they did",
+      "time": "20:00",
+      "slot": "Evening"
     }
   ],
   "rules": [
     {
       "id": "r1",
       "text": "Greet before you ask",
-      "why": ""
+      "why": "The person comes before the business. A request without a greeting is rude everywhere ubuntu is practiced."
     },
     {
       "id": "r2",
       "text": "No eating alone if you can help it",
-      "why": ""
+      "why": "Food is the simplest thing to share, and sharing it is how strangers become people to each other."
     },
     {
       "id": "r3",
       "text": "Ask how we are, not how I am",
-      "why": ""
+      "why": "In many southern African languages you ask after the whole household, and you answer for yours."
     },
     {
       "id": "r4",
       "text": "Let the elder speak first",
-      "why": ""
+      "why": "Ukuhlonipha. Age is honoured because experience is a resource the community holds in common."
+    },
+    {
+      "id": "r5",
+      "text": "Show up",
+      "why": "For funerals, weddings, illness and trouble. Presence matters more than words."
+    },
+    {
+      "id": "r6",
+      "text": "Repair before you sleep",
+      "why": "If you wronged someone today, go to them. Restoring the relationship is the point, not being right."
     }
   ],
   "immerse": {
@@ -143,101 +425,225 @@
         "id": "read-no-future-without-forgiveness",
         "title": "No Future Without Forgiveness",
         "creator": "Desmond Tutu",
-        "why": ""
+        "year": "1999",
+        "why": "The chairman of the Truth and Reconciliation Commission on ubuntu put to its hardest test."
       },
       {
         "id": "read-long-walk-to-freedom",
         "title": "Long Walk to Freedom",
         "creator": "Nelson Mandela",
-        "why": ""
+        "year": "1994",
+        "why": "From a Thembu childhood through twenty-seven years in prison to the presidency."
       },
       {
-        "id": "read-ubuntu-i-in-you-and-you-in-me",
-        "title": "Ubuntu: I in You and You in Me",
-        "creator": "Michael Battle",
-        "why": ""
+        "id": "read-i-write-what-i-like",
+        "title": "I Write What I Like",
+        "creator": "Steve Biko",
+        "year": "1978",
+        "why": "Essays of the Black Consciousness leader, killed in police custody in 1977."
+      },
+      {
+        "id": "read-african-religions-and-philosophy",
+        "title": "African Religions and Philosophy",
+        "creator": "John S. Mbiti",
+        "year": "1969",
+        "why": "A Kenyan theologian’s survey, and the source of \"I am because we are\"."
+      },
+      {
+        "id": "read-everyday-ubuntu",
+        "title": "Everyday Ubuntu",
+        "creator": "Mungi Ngomane",
+        "year": "2019",
+        "why": "Fourteen short lessons from Desmond Tutu’s granddaughter."
+      },
+      {
+        "id": "read-the-book-of-forgiving",
+        "title": "The Book of Forgiving",
+        "creator": "Desmond Tutu and Mpho Tutu",
+        "year": "2014",
+        "why": "A four-step path: tell the story, name the hurt, grant forgiveness, renew or release."
+      },
+      {
+        "id": "read-born-a-crime",
+        "title": "Born a Crime",
+        "creator": "Trevor Noah",
+        "year": "2016",
+        "why": "A childhood under apartheid and after, held together by his mother."
+      },
+      {
+        "id": "read-mother-to-mother",
+        "title": "Mother to Mother",
+        "creator": "Sindiwe Magona",
+        "year": "1998",
+        "why": "A Xhosa mother writes to the mother of the young American her son helped kill."
+      },
+      {
+        "id": "read-ways-of-dying",
+        "title": "Ways of Dying",
+        "creator": "Zakes Mda",
+        "year": "1995",
+        "why": "A professional mourner walks through the last years of apartheid."
       }
     ],
     "watch": [
       {
-        "id": "watch-invictus-2009",
-        "title": "Invictus (2009)",
-        "creator": "Mandela and the 1995 Rugby World Cup",
-        "why": ""
+        "id": "watch-long-night-s-journey-into-day",
+        "title": "Long Night’s Journey into Day",
+        "creator": "Frances Reid and Deborah Hoffmann",
+        "year": "2000",
+        "why": "Four cases before the Truth and Reconciliation Commission."
       },
       {
-        "id": "watch-long-walk-to-freedom-2013",
-        "title": "Long Walk to Freedom (2013)",
-        "creator": "Biographical film",
-        "why": ""
+        "id": "watch-amandla-a-revolution-in-four-part-harmony",
+        "title": "Amandla! A Revolution in Four-Part Harmony",
+        "creator": "Lee Hirsch",
+        "year": "2002",
+        "why": "How song carried the struggle against apartheid."
+      },
+      {
+        "id": "watch-invictus",
+        "title": "Invictus",
+        "creator": "Clint Eastwood",
+        "year": "2009",
+        "why": "Mandela and the 1995 Rugby World Cup. Hollywood, but true in outline."
+      },
+      {
+        "id": "watch-tsotsi",
+        "title": "Tsotsi",
+        "creator": "Gavin Hood",
+        "year": "2005",
+        "why": "A Johannesburg gang leader and a baby. From the novel by Athol Fugard."
       }
     ],
     "listen": [
       {
-        "id": "listen-ladysmith-black-mambazo",
-        "title": "Ladysmith Black Mambazo",
-        "creator": "Isicathamiya choral music",
-        "why": ""
+        "id": "listen-shaka-zulu",
+        "title": "Shaka Zulu",
+        "creator": "Ladysmith Black Mambazo",
+        "year": "1987",
+        "why": "Isicathamiya: unaccompanied close harmony born in migrant workers’ hostels."
       },
       {
-        "id": "listen-miriam-makeba",
-        "title": "Miriam Makeba",
-        "creator": "Mama Africa",
-        "why": ""
+        "id": "listen-nkosi-sikelel-iafrika",
+        "title": "Nkosi Sikelel’ iAfrika",
+        "creator": "Enoch Sontonga",
+        "year": "1897",
+        "why": "A Xhosa hymn that became a liberation anthem and part of the national anthem."
+      },
+      {
+        "id": "listen-pata-pata",
+        "title": "Pata Pata",
+        "creator": "Miriam Makeba",
+        "year": "1967",
+        "why": "Mama Africa, in exile for thirty-one years."
+      },
+      {
+        "id": "listen-bring-him-back-home",
+        "title": "Bring Him Back Home",
+        "creator": "Hugh Masekela",
+        "year": "1987",
+        "why": "The trumpet call for Mandela’s release."
+      },
+      {
+        "id": "listen-asimbonanga",
+        "title": "Asimbonanga",
+        "creator": "Johnny Clegg and Savuka",
+        "year": "1987",
+        "why": "\"We have not seen him\": a song for Mandela, banned at home."
+      },
+      {
+        "id": "listen-mannenberg",
+        "title": "Mannenberg",
+        "creator": "Abdullah Ibrahim",
+        "year": "1974",
+        "why": "Cape jazz that became an unofficial anthem."
       }
     ],
     "art": [
       {
-        "id": "art-ndebele-house-painting",
-        "title": "Ndebele house painting",
-        "creator": "Bold geometric murals",
-        "why": ""
+        "id": "art-ndebele-painting",
+        "title": "Ndebele painting",
+        "creator": "Esther Mahlangu",
+        "year": "since the 1940s",
+        "why": "Bold geometric murals in a tradition passed from mother to daughter."
+      },
+      {
+        "id": "art-song-of-the-pick",
+        "title": "Song of the Pick",
+        "creator": "Gerard Sekoto",
+        "year": "1946",
+        "why": "Labourers swing in unison under a white overseer."
+      },
+      {
+        "id": "art-ubu-tells-the-truth",
+        "title": "Ubu Tells the Truth",
+        "creator": "William Kentridge",
+        "year": "1997",
+        "why": "Animation made in response to the Truth Commission hearings."
+      },
+      {
+        "id": "art-constitutional-court-art-collection",
+        "title": "Constitutional Court art collection",
+        "creator": "Constitution Hill, Johannesburg",
+        "why": "A court built on the site of a prison, its doors carved with the rights it protects."
       },
       {
         "id": "art-zulu-beadwork",
         "title": "Zulu beadwork",
-        "creator": "Messages in color",
-        "why": ""
+        "creator": "KwaZulu-Natal",
+        "why": "Colour and pattern carry messages between people."
       }
     ],
     "eat": [
       {
         "id": "eat-pap-and-relish",
         "title": "Pap and relish",
-        "creator": "Maize porridge with stew",
-        "why": ""
-      },
-      {
-        "id": "eat-braai",
-        "title": "Braai",
-        "creator": "A fire shared with neighbors",
-        "why": ""
+        "creator": "Maize porridge with chakalaka or stew",
+        "why": "Eaten with the hand from a shared dish."
       },
       {
         "id": "eat-umngqusho",
         "title": "Umngqusho",
         "creator": "Samp and beans",
-        "why": ""
+        "why": "Slow-cooked crushed maize and sugar beans. Said to be Mandela’s favourite."
+      },
+      {
+        "id": "eat-a-braai",
+        "title": "A braai",
+        "creator": "Meat grilled over wood or coals",
+        "why": "Less a meal than an occasion. Everyone stands around the fire."
+      },
+      {
+        "id": "eat-morogo",
+        "title": "Morogo",
+        "creator": "Wild spinach",
+        "why": "Leafy greens cooked down with onion and tomato."
+      },
+      {
+        "id": "eat-vetkoek",
+        "title": "Vetkoek",
+        "creator": "Fried dough, also called amagwinya",
+        "why": "Sold on street corners and filled with mince or jam."
       }
     ],
     "drink": [
       {
         "id": "drink-rooibos",
         "title": "Rooibos",
-        "creator": "South African red tea",
-        "why": ""
+        "creator": "Red bush tea from the Cederberg",
+        "why": "Caffeine-free. Offered to every visitor."
       },
       {
         "id": "drink-ginger-beer",
         "title": "Ginger beer",
-        "creator": "Homemade",
-        "why": ""
+        "creator": "Home-brewed gemmer",
+        "why": "Made in large batches for gatherings."
       },
       {
         "id": "drink-amasi",
         "title": "Amasi",
         "creator": "Fermented milk",
-        "why": ""
+        "why": "Thick and sour, poured over pap."
       }
     ],
     "customs": [
@@ -245,156 +651,548 @@
         "id": "customs-greet-everyone-in-the-room",
         "title": "Greet everyone in the room",
         "creator": "Before business or questions",
-        "why": ""
+        "why": "Individually if the group is small, eldest first."
       },
       {
         "id": "customs-share-the-pot",
         "title": "Share the pot",
         "creator": "Hospitality is expected",
-        "why": ""
+        "why": "A visitor is fed without being asked whether they are hungry."
       },
       {
         "id": "customs-show-respect-to-elders",
         "title": "Show respect to elders",
         "creator": "Ukuhlonipha",
-        "why": ""
+        "why": "Stand when they enter, let them speak first, do not contradict them in public."
+      },
+      {
+        "id": "customs-give-and-receive-with-both-hands",
+        "title": "Give and receive with both hands",
+        "creator": "Or the right hand supported by the left",
+        "why": "A sign that the gift is given, and taken, with the whole person."
+      },
+      {
+        "id": "customs-pool-your-savings",
+        "title": "Pool your savings",
+        "creator": "A stokvel",
+        "why": "Members contribute each month and take turns receiving the whole sum."
+      },
+      {
+        "id": "customs-work-together",
+        "title": "Work together",
+        "creator": "Ilima or letsema",
+        "why": "A task too big for one household is done by many, then everyone eats."
+      },
+      {
+        "id": "customs-sing-together",
+        "title": "Sing together",
+        "creator": "At work, at funerals, at protests",
+        "why": "Call and response: one voice leads and the group answers."
       }
     ]
   },
   "ethics": [
     {
       "title": "Dignity of every person",
-      "text": "Humanness is shared, not earned."
+      "text": "Each person has a worth that does not depend on usefulness, status or behaviour. South Africa’s highest court has read ubuntu into the meaning of human dignity.",
+      "practice": "Give your full attention today to someone the world usually overlooks."
     },
     {
       "title": "Restore, do not just punish",
-      "text": "The Truth and Reconciliation Commission modeled forgiveness."
+      "text": "When harm is done the aim is to mend the relationship and bring the offender back into the community. Justice is repair.",
+      "practice": "With one person who wronged you, ask what would actually mend it."
     },
     {
       "title": "Hospitality as duty",
-      "text": "Strangers are welcomed and fed."
+      "text": "A stranger is a person through whom you become one. Feeding and sheltering a traveller is not optional.",
+      "practice": "Offer something, tea, food, a seat, to someone you were not expecting."
+    },
+    {
+      "title": "Generosity",
+      "text": "What you have is held partly in trust for others. The person praised for ubuntu is the one who shares.",
+      "practice": "Give something today that you will actually notice the lack of."
+    },
+    {
+      "title": "Solidarity",
+      "text": "Your neighbour’s trouble is yours. You go, you carry, you contribute, without waiting to be asked.",
+      "practice": "Find out who near you is having a hard time, and turn up."
+    },
+    {
+      "title": "Respect for elders and ancestors",
+      "text": "Those who came before made your life possible and remain part of the community.",
+      "practice": "Ask an older relative for a story about someone you never met."
     }
   ],
   "philosophy": [
     {
       "title": "Relational personhood",
-      "text": "You become a person through others."
+      "text": "You are not first an individual who then chooses relationships. You become a person in and through them. \"I am because we are.\"",
+      "practice": "List the people without whom you would not be who you are."
     },
     {
       "title": "Community before individual",
-      "text": "Rights and duties are shared."
+      "text": "The good of the group and the good of the person are not rivals. A person thrives when the community does, and is diminished when others are.",
+      "practice": "In one decision today, ask what serves \"us\"."
     },
     {
       "title": "Forgiveness frees both",
-      "text": "Tutu: without forgiveness there is no future."
+      "text": "To forgive is not to forget or excuse. It is to refuse to let the wrong define either of you, and it releases the forgiver first.",
+      "practice": "Name one resentment you are carrying and what it costs you."
     },
     {
       "title": "Consensus",
-      "text": "Talk until the group can move together."
+      "text": "Decisions are talked through until everyone can live with them. The elders sit under the tree until they agree.",
+      "practice": "In a disagreement, keep talking past the point where you would normally vote or leave."
+    },
+    {
+      "title": "Personhood is achieved",
+      "text": "One can be more or less of a person. Cruelty and selfishness diminish it. Of someone who acts inhumanly people say: he is not a person.",
+      "practice": "What did you do today that made you more of a person?"
+    },
+    {
+      "title": "Seeing and being seen",
+      "text": "A greeting acknowledges that the other exists and matters. To be ignored is a small death.",
+      "practice": "Notice who you do not see."
+    },
+    {
+      "title": "The living, the dead and the unborn",
+      "text": "The community extends in time. You answer to ancestors and you hold the world in trust for those to come.",
+      "practice": "What were you handed that you must hand on?"
+    },
+    {
+      "title": "A more human face",
+      "text": "Steve Biko held that Africa’s gift to the world would be in human relationships, where the industrial world had excelled in technology.",
+      "practice": "Where in your life has efficiency replaced a relationship?"
+    },
+    {
+      "title": "Interdependence is strength",
+      "text": "Needing others is not weakness. It is the human condition, and pretending otherwise is the weakness.",
+      "practice": "Ask for help with one thing today."
+    },
+    {
+      "title": "Truth before reconciliation",
+      "text": "There is no shortcut to peace that goes around what was done. It has to be told and heard first.",
+      "practice": "Is there a truth you owe someone before things can be right?"
     }
   ],
   "journal": [
-    "Whom did you really see today?",
-    "What did you share, and with whom?",
-    "When did you act as if you were alone?",
-    "Who helped you today, and did you say so?",
-    "What would the community say about how you treated it?",
-    "Whom do you need to forgive or ask forgiveness from?",
-    "What did you receive that you did not earn?"
+    "Who did you truly see today?",
+    "Who made you more yourself today?",
+    "How did you add to the life of your community?",
+    "Where could you forgive?",
+    "Whom did you greet properly, and whom did you pass by?",
+    "Who fed you today, in any sense?",
+    "What did you share?",
+    "Who needed you to show up, and did you?",
+    "What did an elder teach you?",
+    "Whom do you owe an apology?",
+    "When did you put \"I\" where \"we\" belonged?",
+    "What did you receive that you could not have got alone?",
+    "Who is alone tonight that you could reach?",
+    "What happened at your table?",
+    "Whose trouble did you treat as your own?",
+    "Where did you want to win, and what would repair have looked like?",
+    "Who are the people through whom you are a person?",
+    "What did you do for someone that no one will know about?",
+    "Whom did you treat as a means today?",
+    "What story about your family did you learn or remember?",
+    "Where did you ask for help?",
+    "How were you a good guest? A good host?",
+    "What did you hold back that you could have given?",
+    "Who annoyed you, and what are they carrying?",
+    "What does your street need?",
+    "What grudge is still warm?",
+    "When did you feel you belonged?",
+    "Who does not yet belong, and what could you do?",
+    "What will you hand on?",
+    "How are we?"
   ],
   "reflect": [
-    "How did your sense of I change into we?",
+    "How has your sense of \"I\" shifted toward \"we\"?",
     "Which practice changed you the most, and why?",
-    "Who will you keep investing in?"
+    "Where did you resist, and what was the resistance protecting?",
+    "Which relationship did you repair or deepen?",
+    "What does your community now have from you that it did not before?",
+    "Who will you keep showing up for?"
   ],
-  "dayThemes": [],
+  "dayThemes": [
+    "I see you",
+    "I am because we are",
+    "Greeting",
+    "The shared pot",
+    "Showing up",
+    "Hospitality",
+    "Elders",
+    "Dignity",
+    "Generosity",
+    "Listening until agreement",
+    "Forgiveness",
+    "Repair",
+    "The stranger",
+    "Solidarity",
+    "Asking for help",
+    "Gratitude by name",
+    "Working together",
+    "The household",
+    "The street",
+    "Truth first",
+    "Those who came before",
+    "Those to come",
+    "Song",
+    "Being a guest",
+    "Being a host",
+    "Who is missing",
+    "A more human face",
+    "Reconciliation",
+    "Belonging",
+    "How are we?"
+  ],
   "guide": {
-    "intro": [
-      "Ubuntu is a Nguni Bantu word and ethic often translated as humanity toward others. Its core idea is that we only become fully human through relationship.",
-      "It entered global conversation through Desmond Tutu and Nelson Mandela in South Africa’s transition from apartheid, and is now cited in ethics, leadership and software alike."
-    ],
     "origin": "Southern Africa",
-    "era": "Ancient proverbs, named in the 20th c.",
+    "era": "An old ethic, named in writing since the 19th century",
+    "intro": [
+      "Ubuntu is a word from the Nguni languages of southern Africa for the quality of being human. It is usually explained with a proverb: umuntu ngumuntu ngabantu, a person is a person through other persons.",
+      "It is not a doctrine with a founder or a book. It is an ethic carried in proverbs, greetings, customs and the judgement people pass on one another’s conduct. The same idea appears under other names among neighbouring peoples: botho in Sesotho and Setswana, hunhu in Shona, and related notions across Bantu-speaking Africa. To say that someone \"has ubuntu\" is high praise. It means they are generous, hospitable, compassionate, and aware that their own humanity is bound up with everyone else’s.",
+      "The claim underneath is about what a person is. In much European philosophy the individual comes first: I think, therefore I am. The Kenyan theologian John Mbiti summed up the African alternative in 1969: I am because we are, and since we are, therefore I am. On this view you are not born a complete person who later enters into relationships. You become one, through family, community, the dead who came before and the unborn you are responsible to.",
+      "From that follow practical consequences. Greeting matters, because a greeting acknowledges that the other person exists. Sharing food is expected. A neighbour’s funeral is your business. Decisions are talked through until there is agreement, not carried by a bare majority. And when someone does wrong, the aim is to repair the damage and bring them back, since casting a person out diminishes everyone.",
+      "The world came to know the word in the 1990s. South Africa’s first democratic constitution invoked \"a need for ubuntu but not for victimisation\". The new Constitutional Court relied on it in abolishing the death penalty in 1995. And Archbishop Desmond Tutu made it the moral foundation of the Truth and Reconciliation Commission, which offered amnesty in exchange for full disclosure of the crimes of the apartheid era. Tutu wrote: a person with ubuntu is open and available to others, affirming of others, and does not feel threatened that others are able and good.",
+      "Ubuntu has also been turned into a slogan, a software brand and a management seminar, and South African writers have warned against a romantic version that ignores how hard it is. This Onda keeps it concrete: greet people properly, visit, eat together, serve. It is written from African sources and should be reviewed by people who grew up inside the tradition before release."
+    ],
     "figures": [
       {
-        "name": "Desmond Tutu",
-        "dates": "",
-        "bio": "Archbishop and chair of the Truth and Reconciliation Commission."
+        "name": "Enoch Sontonga",
+        "dates": "c. 1873–1905",
+        "bio": "Xhosa teacher who composed Nkosi Sikelel’ iAfrika in 1897."
+      },
+      {
+        "name": "Jordan Kush Ngubane",
+        "dates": "1917–1985",
+        "bio": "Zulu journalist and novelist, among the first to write about ubuntu as a philosophy."
       },
       {
         "name": "Nelson Mandela",
-        "dates": "",
-        "bio": "South Africa’s first democratic president."
+        "dates": "1918–2013",
+        "bio": "Anti-apartheid leader, prisoner for twenty-seven years, and South Africa’s first democratically elected president."
+      },
+      {
+        "name": "John S. Mbiti",
+        "dates": "1931–2019",
+        "bio": "Kenyan theologian and philosopher. Author of African Religions and Philosophy."
+      },
+      {
+        "name": "Desmond Tutu",
+        "dates": "1931–2021",
+        "bio": "Anglican Archbishop of Cape Town. Nobel Peace Prize 1984. Chaired the Truth and Reconciliation Commission."
+      },
+      {
+        "name": "Stanlake Samkange",
+        "dates": "1922–1988",
+        "bio": "Zimbabwean historian who, with Tommie Marie Samkange, wrote the first book-length philosophy of hunhu."
+      },
+      {
+        "name": "Steve Biko",
+        "dates": "1946–1977",
+        "bio": "Founder of the Black Consciousness Movement. Died in police detention."
+      },
+      {
+        "name": "Yvonne Mokgoro",
+        "dates": "1950–2024",
+        "bio": "Constitutional Court justice whose judgments set out ubuntu as a legal value."
       },
       {
         "name": "Mogobe Ramose",
-        "dates": "",
-        "bio": "Philosopher who wrote on ubuntu as African philosophy."
-      },
-      {
-        "name": "John Mbiti",
-        "dates": "",
-        "bio": "Theologian: I am because we are, and since we are, therefore I am."
+        "dates": "born 1945",
+        "bio": "Philosopher. Author of African Philosophy through Ubuntu.",
+        "unverified": true
       }
     ],
     "history": [
       {
-        "when": "Ancient",
-        "what": "Proverbs across Nguni and Sotho languages carry the idea",
-        "detail": ""
+        "when": "Before writing",
+        "what": "An ethic carried in speech",
+        "detail": "Proverbs, praise poetry, greetings and customary law pass the idea down among Nguni, Sotho-Tswana, Shona and neighbouring peoples."
       },
       {
-        "when": "1960s to 1980s",
-        "what": "Ubuntu is discussed in African independence thought",
-        "detail": ""
+        "when": "1846",
+        "what": "The word appears in print",
+        "detail": "The earliest known written uses of \"ubuntu\" date from the mid-nineteenth century, in texts by missionaries and African writers, where it names a human quality."
       },
       {
-        "when": "1996",
-        "what": "The Truth and Reconciliation Commission begins hearings",
-        "detail": ""
+        "when": "1897",
+        "what": "Nkosi Sikelel’ iAfrika is composed",
+        "detail": "Enoch Sontonga’s hymn, \"God bless Africa\", is later adopted by the African National Congress."
+      },
+      {
+        "when": "1948",
+        "what": "Apartheid becomes law",
+        "detail": "The National Party government classifies South Africans by race and separates them in every area of life: a system built on denying that people belong to one another."
+      },
+      {
+        "when": "1950s–1960s",
+        "what": "Ubuntu is written about as a philosophy",
+        "detail": "Jordan Ngubane and others set it out in essays and novels as a distinctively African humanism."
+      },
+      {
+        "when": "1969",
+        "what": "Mbiti publishes African Religions and Philosophy",
+        "detail": "His formula, \"I am because we are\", becomes the most quoted statement of African communal thought."
+      },
+      {
+        "when": "1977",
+        "what": "Steve Biko dies in detention",
+        "detail": "His essays, published the next year, argue that Africa’s contribution to the world will be to give it a more human face."
+      },
+      {
+        "when": "1980",
+        "what": "Hunhuism or Ubuntuism",
+        "detail": "At Zimbabwe’s independence the Samkanges publish the first book to present ubuntu as a political philosophy."
+      },
+      {
+        "when": "1990",
+        "what": "Mandela walks free",
+        "detail": "Released on 11 February after twenty-seven years, he calls for negotiation and not revenge."
+      },
+      {
+        "when": "1993–1994",
+        "what": "Ubuntu enters the constitution",
+        "detail": "The interim constitution’s closing words call for understanding and not vengeance, reparation and not retaliation, ubuntu and not victimisation. The first democratic election is held in April 1994."
+      },
+      {
+        "when": "1995",
+        "what": "The death penalty is abolished",
+        "detail": "In S v Makwanyane the Constitutional Court rules capital punishment unconstitutional. Several justices ground the decision in ubuntu."
+      },
+      {
+        "when": "1996–1998",
+        "what": "The Truth and Reconciliation Commission",
+        "detail": "Chaired by Tutu, it hears more than twenty thousand statements from victims and receives some seven thousand amnesty applications. It delivers its report in October 1998."
       },
       {
         "when": "1999",
-        "what": "Tutu publishes No Future Without Forgiveness",
-        "detail": ""
+        "what": "No Future Without Forgiveness",
+        "detail": "Tutu’s account of the commission carries the word around the world."
+      },
+      {
+        "when": "2004",
+        "what": "A free operating system takes the name",
+        "detail": "Ubuntu Linux, founded by the South African Mark Shuttleworth, is released."
       }
     ],
     "concepts": [
       {
-        "term": "Umuntu ngumuntu ngabantu",
-        "text": "A person is a person through persons.",
-        "detail": ""
+        "term": "Personhood through others",
+        "text": "Being a person is something achieved in relationship.",
+        "detail": "The philosopher Ifeanyi Menkiti put it sharply: in African thought, personhood is something at which one can fail. It is earned by taking part in community and meeting one’s obligations."
       },
       {
-        "term": "Indaba",
-        "text": "A deliberate gathering to reach shared understanding.",
-        "detail": ""
+        "term": "Communalism",
+        "text": "The community is prior to the individual, without erasing them.",
+        "detail": "Critics inside the tradition, such as Kwame Gyekye, argue for a \"moderate\" version in which individual rights still count. The debate is a live one."
       },
       {
-        "term": "Ukuhlonipha",
-        "text": "Respect shown through action and speech.",
-        "detail": ""
+        "term": "Human dignity",
+        "text": "Every person has worth by being a person.",
+        "detail": "Justice Mokgoro wrote that ubuntu \"envelops the key values of group solidarity, compassion, respect, human dignity, conformity to basic norms and collective unity\"."
       },
       {
         "term": "Restorative justice",
-        "text": "Healing the relationship, not only punishing the act.",
-        "detail": ""
+        "text": "Wrongdoing breaks relationships, and justice mends them.",
+        "detail": "Customary courts aimed at reconciliation and compensation over punishment. The Truth Commission applied the same logic on a national scale."
+      },
+      {
+        "term": "Forgiveness",
+        "text": "Releasing the claim to revenge.",
+        "detail": "Tutu insisted it is not weakness or forgetting. It requires the truth to be told, and it serves the one who forgives as much as the one forgiven."
+      },
+      {
+        "term": "Consensus",
+        "text": "Agreement reached by talking it through.",
+        "detail": "Mandela described watching the regent’s court as a boy: everyone who wished to speak did so, and the meeting continued until some kind of consensus was reached."
+      },
+      {
+        "term": "Hospitality",
+        "text": "The stranger is to be welcomed and fed.",
+        "detail": "Mandela explained ubuntu with a traveller who stops at a village and does not have to ask for food or water."
+      },
+      {
+        "term": "Ancestors",
+        "text": "The dead remain members of the community.",
+        "detail": "They are remembered, consulted and honoured, and the living are answerable to them."
+      },
+      {
+        "term": "Seriti and isithunzi",
+        "text": "A person’s presence, standing or \"shadow\".",
+        "detail": "In Sotho and Zulu thought, how you live builds or shrinks a moral force others can feel."
+      },
+      {
+        "term": "Critiques",
+        "text": "Ubuntu can be romanticised or misused.",
+        "detail": "It has been invoked to demand conformity, to silence dissent and to sell things. Its serious defenders treat it as a demanding standard, not a comfortable identity."
       }
     ],
     "facts": [
       {
-        "text": "Sawubona means I see you, and the reply Sikhona means I am here."
+        "text": "The word Bantu, used for a family of several hundred African languages, simply means \"people\"."
       },
       {
-        "text": "Ubuntu was cited in the interim South African constitution of 1993."
+        "text": "The Zulu greeting sawubona literally means \"we see you\"."
       },
       {
-        "text": "A Linux distribution is named Ubuntu after the idea."
+        "text": "South Africa has eleven official spoken languages, and its national anthem is sung in five of them."
+      },
+      {
+        "text": "The Constitutional Court of South Africa stands on the site of the Old Fort prison, where both Gandhi and Mandela were held."
+      },
+      {
+        "text": "Millions of South Africans belong to stokvels, rotating savings clubs whose name comes from the \"stock fairs\" of the nineteenth-century Eastern Cape."
+      },
+      {
+        "text": "The Boston Celtics adopted \"Ubuntu\" as their team chant in the season they won the 2008 championship."
+      },
+      {
+        "text": "Mandela’s clan name, Madiba, is used as a sign of affection and respect. His given name, Rolihlahla, means \"pulling the branch of a tree\", or troublemaker."
+      },
+      {
+        "text": "Tutu coined the phrase \"rainbow nation\" for post-apartheid South Africa."
       }
     ],
-    "glossary": [],
-    "furtherReading": [],
-    "learnFrom": [],
-    "sources": []
+    "glossary": [
+      {
+        "term": "Nguni",
+        "meaning": "A group of related languages and peoples including Zulu, Xhosa, Swati and Ndebele."
+      },
+      {
+        "term": "Sotho-Tswana",
+        "meaning": "A related group including Sesotho, Setswana and Sepedi."
+      },
+      {
+        "term": "Apartheid",
+        "meaning": "The system of legal racial segregation in South Africa from 1948 to the early 1990s."
+      },
+      {
+        "term": "TRC",
+        "meaning": "The Truth and Reconciliation Commission, 1996–1998."
+      },
+      {
+        "term": "Black Consciousness",
+        "meaning": "The movement led by Steve Biko for psychological and political liberation."
+      },
+      {
+        "term": "Madiba",
+        "meaning": "Nelson Mandela’s clan name."
+      }
+    ],
+    "furtherReading": [
+      {
+        "title": "African Philosophy through Ubuntu",
+        "creator": "Mogobe B. Ramose",
+        "year": "1999",
+        "note": "The fullest philosophical treatment by a South African thinker."
+      },
+      {
+        "title": "Hunhuism or Ubuntuism",
+        "creator": "Stanlake Samkange and Tommie Marie Samkange",
+        "year": "1980",
+        "note": "The founding Zimbabwean text."
+      },
+      {
+        "title": "Ubuntu: I in You and You in Me",
+        "creator": "Michael Battle",
+        "year": "2009",
+        "note": "A study by a theologian ordained by Tutu."
+      },
+      {
+        "title": "Country of My Skull",
+        "creator": "Antjie Krog",
+        "year": "1998",
+        "note": "A poet’s report from two years covering the Truth Commission."
+      },
+      {
+        "title": "A Human Being Died That Night",
+        "creator": "Pumla Gobodo-Madikizela",
+        "year": "2003",
+        "note": "A psychologist on the commission interviews apartheid’s chief assassin."
+      },
+      {
+        "title": "Person and Community in African Traditional Thought",
+        "creator": "Ifeanyi Menkiti",
+        "year": "1984",
+        "note": "The essay that set the terms of the philosophical debate."
+      }
+    ],
+    "learnFrom": [
+      {
+        "name": "Desmond and Leah Tutu Legacy Foundation",
+        "note": "Cape Town. Continues the Archbishop’s work and publishes his teaching."
+      },
+      {
+        "name": "Nelson Mandela Foundation",
+        "note": "Johannesburg. Archives, dialogues and Mandela Day."
+      },
+      {
+        "name": "Steve Biko Foundation",
+        "note": "Ginsberg, Eastern Cape. Community development in Biko’s name."
+      },
+      {
+        "name": "South African Constitutional Court",
+        "note": "Its judgments on ubuntu and dignity are published in full and are readable by non-lawyers."
+      },
+      {
+        "name": "Speakers of the languages",
+        "note": "Learn greetings from isiZulu, isiXhosa and Sesotho speakers and from South African language programmes."
+      }
+    ],
+    "sources": [
+      {
+        "title": "No Future Without Forgiveness",
+        "creator": "Desmond Tutu",
+        "publisher": "Doubleday",
+        "year": "1999"
+      },
+      {
+        "title": "African Religions and Philosophy",
+        "creator": "John S. Mbiti",
+        "publisher": "Heinemann",
+        "year": "1969"
+      },
+      {
+        "title": "The Historical Development of the Written Discourses on Ubuntu",
+        "creator": "Christian B. N. Gade",
+        "publisher": "South African Journal of Philosophy",
+        "year": "2011"
+      },
+      {
+        "title": "S v Makwanyane and Another",
+        "creator": "Constitutional Court of South Africa",
+        "year": "1995"
+      },
+      {
+        "title": "Truth and Reconciliation Commission of South Africa Report",
+        "creator": "Truth and Reconciliation Commission",
+        "year": "1998"
+      },
+      {
+        "title": "Long Walk to Freedom",
+        "creator": "Nelson Mandela",
+        "publisher": "Little, Brown",
+        "year": "1994"
+      },
+      {
+        "title": "African Philosophy through Ubuntu",
+        "creator": "Mogobe B. Ramose",
+        "publisher": "Mond Books",
+        "year": "1999"
+      }
+    ]
+  },
+  "sensitivity": {
+    "note": "Ubuntu is a living ethic of the peoples of southern Africa, not a brand or a technique. This Onda keeps to its everyday practice, greeting, visiting, sharing food and serving, and draws on African authors.",
+    "requiredCaveats": [
+      "Pronunciations are approximate, and isiXhosa and isiZulu clicks cannot be shown in English spelling. Learn from speakers.",
+      "Do not romanticise: ubuntu is demanding, debated among Africans, and has also been misused.",
+      "Customs differ between peoples and families. When you are a guest, follow your hosts.",
+      "This content has not yet been reviewed by southern African advisers. It should be before release."
+    ],
+    "reviewRequired": true
   }
 }

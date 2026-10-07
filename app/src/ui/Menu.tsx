@@ -1,4 +1,4 @@
-import { useEffect, useRef, type CSSProperties } from 'react'
+import { useEffect, useLayoutEffect, useRef, useState } from 'react'
 import { Icon } from './Icon'
 import s from './ui.module.css'
 
@@ -38,15 +38,13 @@ export function Menu({ spec, onClose }: { spec: MenuSpec; onClose: () => void })
     return () => window.removeEventListener('keydown', onKey)
   }, [onClose])
 
-  const rows = (spec.items?.length ?? 0) + (spec.groups?.flat().length ?? 0)
-  const estH = rows * 48 + (spec.quick ? 80 : 0) + 24
   const left = Math.max(12, Math.min(vw - width - 12, spec.align === 'end' ? spec.anchor.right - width : spec.anchor.left))
-  let top = spec.anchor.bottom + 6
-  const origin: CSSProperties = {}
-  if (top + estH > vh - 24) {
-    top = Math.max(60, spec.anchor.top - estH - 6)
-    origin.transformOrigin = '50% 100%'
-  }
+  // Open just below the trigger; if that would run off the bottom, slide up until it fits.
+  const [top, setTop] = useState(spec.anchor.bottom + 6)
+  useLayoutEffect(() => {
+    const h = ref.current?.offsetHeight ?? 0
+    setTop(Math.max(56, Math.min(spec.anchor.bottom + 6, vh - h - 20)))
+  }, [spec.anchor.bottom, vh])
   const hasChecks = !!spec.items?.some((it) => it.checked !== undefined)
   const pick = (it: MenuItem) => () => {
     onClose()
@@ -70,7 +68,7 @@ export function Menu({ spec, onClose }: { spec: MenuSpec; onClose: () => void })
   return (
     <>
       <div className={spec.dim ? `${s.menuScrim} ${s.menuScrimDim}` : s.menuScrim} onPointerDown={onClose} />
-      <div ref={ref} role="menu" className={s.menu} style={{ width, left, top, ...origin }}>
+      <div ref={ref} role="menu" className={s.menu} style={{ width, left, top }}>
         {spec.quick && (
           <div className={s.menuQuick}>
             {spec.quick.map((q, i) => (

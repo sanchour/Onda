@@ -1,56 +1,309 @@
 {
-  "version": 1,
+  "version": 2,
   "id": "zen",
   "name": "Zen Buddhism",
   "origin": "Japan",
+  "era": "6th century China; 12th century Japan to today",
   "tone": "green",
   "icon": "flower-lotus",
-  "line": "Sit, work and eat with full attention.",
-  "era": "6th c. CE to today",
   "font": "Shippori Mincho",
   "pattern": "raked-sand",
   "glyph": "禅",
+  "line": "Sit, work and eat with full attention.",
   "quote": {
-    "text": "Before enlightenment, chop wood, carry water. After enlightenment, chop wood, carry water.",
-    "by": "Zen proverb",
-    "source": ""
+    "text": "To study the Buddha Way is to study the self. To study the self is to forget the self.",
+    "by": "Dōgen",
+    "source": "Genjōkōan, 1233, trans. Kazuaki Tanahashi"
   },
-  "quotes": [],
+  "quotes": [
+    {
+      "text": "In the beginner’s mind there are many possibilities, but in the expert’s there are few.",
+      "by": "Shunryū Suzuki",
+      "source": "Zen Mind, Beginner’s Mind, 1970"
+    },
+    {
+      "text": "Have you eaten your rice porridge? Then you had better wash your bowl.",
+      "by": "Zhaozhou",
+      "source": "The Gateless Gate, case 7"
+    },
+    {
+      "text": "My miraculous power and spiritual activity: drawing water and carrying firewood.",
+      "by": "Layman Pang",
+      "source": "8th century verse"
+    },
+    {
+      "text": "Ordinary mind is the Way.",
+      "by": "Nanquan",
+      "source": "The Gateless Gate, case 19"
+    },
+    {
+      "text": "Do not seek to follow in the footsteps of the wise. Seek what they sought.",
+      "by": "Matsuo Bashō",
+      "source": "Words by a Brushwood Gate, 1693"
+    },
+    {
+      "text": "Before enlightenment, chop wood, carry water. After enlightenment, chop wood, carry water.",
+      "by": "Zen proverb",
+      "source": "Modern wording, source unknown",
+      "unverified": true
+    }
+  ],
   "words": [
     {
       "id": "word-zazen",
       "term": "Zazen",
-      "meaning": "Seated meditation"
+      "meaning": "Seated meditation",
+      "pronunciation": "zah-ZEN",
+      "language": "Japanese",
+      "usage": "Za is to sit, zen is meditation. The heart of the practice."
     },
     {
-      "id": "word-mushin",
-      "term": "Mushin",
-      "meaning": "No-mind"
+      "id": "word-shikantaza",
+      "term": "Shikantaza",
+      "meaning": "Just sitting",
+      "pronunciation": "shee-kahn-TAH-zah",
+      "language": "Japanese",
+      "usage": "Sōtō practice: sitting with no object and no goal."
     },
     {
-      "id": "word-wabi-sabi",
-      "term": "Wabi-sabi",
-      "meaning": "Beauty in the imperfect"
-    },
-    {
-      "id": "word-kensho",
-      "term": "Kensho",
-      "meaning": "Seeing your own nature"
-    },
-    {
-      "id": "word-ichigo-ichie",
-      "term": "Ichigo ichie",
-      "meaning": "One time, one meeting"
-    },
-    {
-      "id": "word-shoshin",
-      "term": "Shoshin",
-      "meaning": "Beginner’s mind"
+      "id": "word-koan",
+      "term": "Kōan",
+      "meaning": "A case for contemplation",
+      "pronunciation": "KOH-ahn",
+      "language": "Japanese",
+      "usage": "A story or question from the old masters that logic cannot settle."
     },
     {
       "id": "word-mu",
       "term": "Mu",
-      "meaning": "Nothing, or no. A koan answer"
+      "meaning": "No; not; without",
+      "pronunciation": "moo",
+      "language": "Japanese",
+      "usage": "Zhaozhou’s answer when asked if a dog has Buddha nature. The first kōan for many students."
+    },
+    {
+      "id": "word-satori",
+      "term": "Satori",
+      "meaning": "Awakening",
+      "pronunciation": "sah-TOH-ree",
+      "language": "Japanese",
+      "usage": "Seeing things as they are. Not a possession and not an ending."
+    },
+    {
+      "id": "word-kensho",
+      "term": "Kenshō",
+      "meaning": "Seeing one’s nature",
+      "pronunciation": "ken-SHOH",
+      "language": "Japanese",
+      "usage": "A first glimpse of awakening, to be deepened by practice."
+    },
+    {
+      "id": "word-shoshin",
+      "term": "Shoshin",
+      "meaning": "Beginner’s mind",
+      "pronunciation": "SHOH-sheen",
+      "language": "Japanese",
+      "usage": "Meeting each thing as if for the first time."
+    },
+    {
+      "id": "word-mushin",
+      "term": "Mushin",
+      "meaning": "No-mind",
+      "pronunciation": "moo-SHEEN",
+      "language": "Japanese",
+      "usage": "The mind not caught on anything; acting without the self in the way."
+    },
+    {
+      "id": "word-samu",
+      "term": "Samu",
+      "meaning": "Work practice",
+      "pronunciation": "SAH-moo",
+      "language": "Japanese",
+      "usage": "Sweeping, cooking and gardening done as meditation."
+    },
+    {
+      "id": "word-kinhin",
+      "term": "Kinhin",
+      "meaning": "Walking meditation",
+      "pronunciation": "KEEN-heen",
+      "language": "Japanese",
+      "usage": "Slow walking between periods of sitting."
+    },
+    {
+      "id": "word-sesshin",
+      "term": "Sesshin",
+      "meaning": "An intensive retreat",
+      "pronunciation": "seh-SHEEN",
+      "language": "Japanese",
+      "usage": "Literally, gathering the mind. Several days of near-continuous sitting."
+    },
+    {
+      "id": "word-zendo",
+      "term": "Zendō",
+      "meaning": "Meditation hall",
+      "pronunciation": "ZEN-doh",
+      "language": "Japanese",
+      "usage": "You bow on entering and on leaving."
+    },
+    {
+      "id": "word-zafu",
+      "term": "Zafu",
+      "meaning": "Round sitting cushion",
+      "pronunciation": "ZAH-foo",
+      "language": "Japanese",
+      "usage": "Sit on the front third so the knees can settle."
+    },
+    {
+      "id": "word-gassho",
+      "term": "Gasshō",
+      "meaning": "Palms together",
+      "pronunciation": "gah-SHOH",
+      "language": "Japanese",
+      "usage": "A gesture of respect and of two becoming one."
+    },
+    {
+      "id": "word-roshi",
+      "term": "Rōshi",
+      "meaning": "Old teacher",
+      "pronunciation": "ROH-shee",
+      "language": "Japanese",
+      "usage": "A title for a senior Zen teacher."
+    },
+    {
+      "id": "word-sangha",
+      "term": "Sangha",
+      "meaning": "The community of practice",
+      "pronunciation": "SAHN-gah",
+      "language": "Sanskrit",
+      "usage": "One of the three treasures, with Buddha and Dharma."
+    },
+    {
+      "id": "word-dharma",
+      "term": "Dharma",
+      "meaning": "The teaching; the way things are",
+      "pronunciation": "DAR-mah",
+      "language": "Sanskrit",
+      "usage": "Both what the Buddha taught and the truth it points to."
+    },
+    {
+      "id": "word-oryoki",
+      "term": "Ōryōki",
+      "meaning": "Just enough",
+      "pronunciation": "oh-RYOH-kee",
+      "language": "Japanese",
+      "usage": "The set of nested bowls, and the formal way of eating from them."
+    },
+    {
+      "id": "word-tenzo",
+      "term": "Tenzo",
+      "meaning": "The monastery cook",
+      "pronunciation": "TEN-zoh",
+      "language": "Japanese",
+      "usage": "Dōgen wrote that the role demands an awakened mind."
+    },
+    {
+      "id": "word-dokusan",
+      "term": "Dokusan",
+      "meaning": "Private meeting with the teacher",
+      "pronunciation": "DOH-koo-sahn",
+      "language": "Japanese",
+      "usage": "Where a student presents their understanding."
+    },
+    {
+      "id": "word-teisho",
+      "term": "Teishō",
+      "meaning": "A teacher’s formal talk",
+      "pronunciation": "tay-SHOH",
+      "language": "Japanese",
+      "usage": "A presentation of the teaching, not a lecture about it."
+    },
+    {
+      "id": "word-kyosaku",
+      "term": "Kyōsaku",
+      "meaning": "The encouragement stick",
+      "pronunciation": "KYOH-sah-koo",
+      "language": "Japanese",
+      "usage": "A flat stick used on the shoulders to wake a drowsy sitter, often on request."
+    },
+    {
+      "id": "word-hara",
+      "term": "Hara",
+      "meaning": "The belly; the body’s centre",
+      "pronunciation": "HAH-rah",
+      "language": "Japanese",
+      "usage": "Breath and attention settle here in zazen."
+    },
+    {
+      "id": "word-hishiryo",
+      "term": "Hishiryō",
+      "meaning": "Non-thinking",
+      "pronunciation": "hee-shee-RYOH",
+      "language": "Japanese",
+      "usage": "Dōgen’s word for the mind in zazen: neither thinking nor suppressing thought."
+    },
+    {
+      "id": "word-mujo",
+      "term": "Mujō",
+      "meaning": "Impermanence",
+      "pronunciation": "moo-JOH",
+      "language": "Japanese",
+      "usage": "Everything is passing. Dōgen: impermanence is itself Buddha nature."
+    },
+    {
+      "id": "word-ku",
+      "term": "Kū",
+      "meaning": "Emptiness",
+      "pronunciation": "koo",
+      "language": "Japanese",
+      "usage": "Nothing has a fixed, separate self. Sanskrit: śūnyatā."
+    },
+    {
+      "id": "word-enso",
+      "term": "Ensō",
+      "meaning": "The circle",
+      "pronunciation": "EN-soh",
+      "language": "Japanese",
+      "usage": "Brushed in a single stroke. It shows the mind of the moment it was made."
+    },
+    {
+      "id": "word-wabi-sabi",
+      "term": "Wabi-sabi",
+      "meaning": "Beauty in the plain, worn and imperfect",
+      "pronunciation": "WAH-bee SAH-bee",
+      "language": "Japanese",
+      "usage": "An aesthetic shaped by Zen and the tea ceremony."
+    },
+    {
+      "id": "word-ichigo-ichie",
+      "term": "Ichigo ichie",
+      "meaning": "One time, one meeting",
+      "pronunciation": "ee-chee-goh ee-chee-eh",
+      "language": "Japanese",
+      "usage": "From the way of tea: this gathering will never happen again."
+    },
+    {
+      "id": "word-zanshin",
+      "term": "Zanshin",
+      "meaning": "Remaining mind",
+      "pronunciation": "ZAHN-sheen",
+      "language": "Japanese",
+      "usage": "Attention that stays after the action is finished."
+    },
+    {
+      "id": "word-gatha",
+      "term": "Gatha",
+      "meaning": "A short verse recited during daily acts",
+      "pronunciation": "GAH-tah",
+      "language": "Sanskrit",
+      "usage": "There are verses for waking, washing and eating."
+    },
+    {
+      "id": "word-bodhisattva",
+      "term": "Bodhisattva",
+      "meaning": "One who vows to awaken with all beings",
+      "pronunciation": "boh-dee-SAHT-vah",
+      "language": "Sanskrit",
+      "usage": "The ideal of Mahāyāna Buddhism, to which Zen belongs."
     }
   ],
   "practices": [
@@ -62,9 +315,13 @@
       "time": "06:00",
       "minutes": 20,
       "meta": "Morning · 20 min",
-      "instructions": "",
-      "why": "",
-      "variations": []
+      "instructions": "Sit on the front third of a firm cushion, or upright on a chair with your feet flat. Lengthen the spine, tuck the chin slightly, rest the left hand in the right with thumbs lightly touching. Keep the eyes half open, lowered to the floor a metre ahead. Breathe through the nose and count each out-breath from one to ten, then start again. When you notice you have drifted, return to one without comment. Do not move until the timer sounds.",
+      "why": "Dōgen called zazen the dharma gate of ease and joy and insisted it is not a means to awakening but awakening practiced. The posture itself is the teaching.",
+      "variations": [
+        "Once counting is steady, drop it and simply follow the breath.",
+        "Shikantaza: no counting, no object. Just sit.",
+        "Two periods of fifteen minutes with five minutes of slow walking between."
+      ]
     },
     {
       "id": "samu",
@@ -72,10 +329,15 @@
       "icon": "broom",
       "slot": "Morning",
       "time": "07:30",
+      "minutes": 15,
       "meta": "Morning · Work practice",
-      "instructions": "",
-      "why": "",
-      "variations": []
+      "instructions": "Choose one physical task: sweep a floor, wash the dishes, weed a bed. Do it in silence with no audio and no hurry. Give the broom, the cloth or the bowl the same attention you gave the breath. When you finish, put every tool back where it lives.",
+      "why": "Baizhang’s rule for Chan monasteries: a day without work is a day without food. In Zen there is no line between practice and chores.",
+      "variations": [
+        "Clean one thing nobody will notice.",
+        "Cook breakfast as samu.",
+        "Fifteen minutes of care for a shared space."
+      ]
     },
     {
       "id": "silent-meal",
@@ -84,9 +346,13 @@
       "slot": "Afternoon",
       "time": "12:30",
       "meta": "Midday",
-      "instructions": "",
-      "why": "",
-      "variations": []
+      "instructions": "Eat one meal without speaking, reading or a screen. Pause before the first bite and consider where the food came from. Take modest portions and finish everything. Put your utensils down between mouthfuls. Wash your bowl as soon as you are done.",
+      "why": "Formal Zen meals, ōryōki, are eaten in silence from nested bowls that are wiped clean with tea or water, which is then drunk. Nothing is wasted.",
+      "variations": [
+        "Recite a short verse of thanks before eating.",
+        "Eat with one bowl and one spoon.",
+        "Share a silent meal with someone."
+      ]
     },
     {
       "id": "tea-and-stillness",
@@ -96,15 +362,19 @@
       "time": "20:00",
       "minutes": 15,
       "meta": "Evening · 15 min",
-      "instructions": "",
-      "why": "",
-      "variations": []
+      "instructions": "Heat the water, warm the cup, make the tea and carry it to a quiet place. Hold the cup in both hands. Drink it while doing nothing else. When the cup is empty, sit for a few more breaths, then wash and dry it.",
+      "why": "Eisai brought tea seeds from China with Zen in 1191, partly to keep monks awake. The tea ceremony grew from that habit into a discipline of its own.",
+      "variations": [
+        "Whisk a bowl of matcha.",
+        "Plain hot water, as monks often drink.",
+        "Sit outside with your tea and watch the light go."
+      ]
     }
   ],
   "tasks": [
     {
       "id": "sit-with-one-koan",
-      "name": "Sit with one koan",
+      "name": "Sit with one kōan",
       "meta": "Do not solve it",
       "time": "13:00",
       "slot": "Afternoon"
@@ -115,28 +385,45 @@
       "meta": "Then leave it clear",
       "time": "18:00",
       "slot": "Evening"
+    },
+    {
+      "id": "copy-one-line-by-hand",
+      "name": "Copy one line by hand",
+      "meta": "Slowly, with a pen",
+      "time": "21:00",
+      "slot": "Evening"
     }
   ],
   "rules": [
     {
       "id": "r1",
       "text": "Do one thing at a time",
-      "why": ""
+      "why": "When walking, walk. When eating, eat. Divided attention is the habit this Onda is here to interrupt."
     },
     {
       "id": "r2",
       "text": "No phone before zazen",
-      "why": ""
+      "why": "The first thing the mind meets sets its tone for the morning. Let it be silence."
     },
     {
       "id": "r3",
       "text": "Eat in silence at one meal",
-      "why": ""
+      "why": "Silence lets a meal be a meal."
     },
     {
       "id": "r4",
       "text": "Leave every space cleaner than you found it",
-      "why": ""
+      "why": "Care for a place is care for everyone who comes after you."
+    },
+    {
+      "id": "r5",
+      "text": "Waste nothing",
+      "why": "A grain of rice, a sheet of paper, a minute. Dōgen had the cook treat one leaf of greens as the body of the Buddha."
+    },
+    {
+      "id": "r6",
+      "text": "Bow before you begin",
+      "why": "A small pause of respect, to the cushion, the meal, the work, marks it as practice."
     }
   ],
   "immerse": {
@@ -144,264 +431,756 @@
       {
         "id": "read-zen-mind-beginner-s-mind",
         "title": "Zen Mind, Beginner’s Mind",
-        "creator": "Shunryu Suzuki",
-        "why": ""
+        "creator": "Shunryū Suzuki",
+        "year": "1970",
+        "why": "Short talks by the founder of San Francisco Zen Center. The clearest way in."
+      },
+      {
+        "id": "read-moon-in-a-dewdrop",
+        "title": "Moon in a Dewdrop",
+        "creator": "Dōgen, ed. Kazuaki Tanahashi",
+        "year": "1985",
+        "why": "Selected writings, including Genjōkōan and instructions for zazen."
+      },
+      {
+        "id": "read-instructions-for-the-cook",
+        "title": "Instructions for the Cook",
+        "creator": "Dōgen",
+        "year": "1237",
+        "why": "Tenzo Kyōkun: how to wash rice with a whole heart."
       },
       {
         "id": "read-the-gateless-gate",
         "title": "The Gateless Gate",
-        "creator": "Mumonkan koans",
-        "why": ""
+        "creator": "Wumen Huikai",
+        "year": "1228",
+        "why": "Forty-eight kōans with a master’s comments. Read one and stop."
       },
       {
-        "id": "read-shobogenzo-selections",
-        "title": "Shōbōgenzō (selections)",
-        "creator": "Dōgen",
-        "why": ""
+        "id": "read-the-platform-sutra",
+        "title": "The Platform Sutra",
+        "creator": "Attributed to Huineng, trans. Red Pine",
+        "year": "8th century",
+        "why": "The illiterate woodcutter who became the Sixth Patriarch."
+      },
+      {
+        "id": "read-the-narrow-road-to-the-deep-north",
+        "title": "The Narrow Road to the Deep North",
+        "creator": "Matsuo Bashō",
+        "year": "1694",
+        "why": "A walking journal in prose and haiku by a poet steeped in Zen."
+      },
+      {
+        "id": "read-one-robe-one-bowl",
+        "title": "One Robe, One Bowl",
+        "creator": "Ryōkan, trans. John Stevens",
+        "year": "1977",
+        "why": "Poems of a hermit monk who played ball with village children."
+      },
+      {
+        "id": "read-the-three-pillars-of-zen",
+        "title": "The Three Pillars of Zen",
+        "creator": "Philip Kapleau",
+        "year": "1965",
+        "why": "Teaching, practice and first-hand accounts from a Japanese training hall."
+      },
+      {
+        "id": "read-the-book-of-tea",
+        "title": "The Book of Tea",
+        "creator": "Okakura Kakuzō",
+        "year": "1906",
+        "why": "How Zen shaped tea, architecture and the Japanese sense of beauty."
       }
     ],
     "watch": [
       {
-        "id": "watch-perfect-days-2023",
-        "title": "Perfect Days (2023)",
-        "creator": "Attention in daily work",
-        "why": ""
+        "id": "watch-zen",
+        "title": "Zen",
+        "creator": "Banmei Takahashi",
+        "year": "2009",
+        "why": "A film life of Dōgen, from China to the founding of Eihei-ji."
       },
       {
-        "id": "watch-spring-summer-fall-winter-and-spring-2003",
-        "title": "Spring, Summer, Fall, Winter… and Spring (2003)",
-        "creator": "Korean Buddhist film",
-        "why": ""
+        "id": "watch-zen-for-nothing",
+        "title": "Zen for Nothing",
+        "creator": "Werner Penzel",
+        "year": "2016",
+        "why": "A season at Antai-ji, a working Sōtō monastery in the mountains."
+      },
+      {
+        "id": "watch-enlightenment-guaranteed",
+        "title": "Enlightenment Guaranteed",
+        "creator": "Doris Dörrie",
+        "year": "1999",
+        "why": "Two German brothers stumble into a Japanese monastery. Funny and honest."
+      },
+      {
+        "id": "watch-why-has-bodhi-dharma-left-for-the-east",
+        "title": "Why Has Bodhi-Dharma Left for the East?",
+        "creator": "Bae Yong-kyun",
+        "year": "1989",
+        "why": "Korean Sŏn rather than Japanese Zen, and almost wordless."
       }
     ],
     "listen": [
       {
-        "id": "listen-shakuhachi-honkyoku",
-        "title": "Shakuhachi honkyoku",
-        "creator": "Solo bamboo flute",
-        "why": ""
+        "id": "listen-a-bell-ringing-in-the-empty-sky",
+        "title": "A Bell Ringing in the Empty Sky",
+        "creator": "Gorō Yamaguchi",
+        "year": "1969",
+        "why": "Shakuhachi pieces once played by wandering monks as blown meditation."
       },
       {
-        "id": "listen-temple-bells-and-chanting",
-        "title": "Temple bells and chanting",
-        "creator": "Morning service recordings",
-        "why": ""
+        "id": "listen-heart-sutra-chant",
+        "title": "Heart Sutra chant",
+        "creator": "Any Sōtō or Rinzai temple recording",
+        "why": "Hannya Shingyō, chanted daily: form is emptiness, emptiness is form."
+      },
+      {
+        "id": "listen-shunryu-suzuki-talks",
+        "title": "Shunryū Suzuki talks",
+        "creator": "San Francisco Zen Center archive",
+        "year": "1965–1971",
+        "why": "The original recordings behind Zen Mind, Beginner’s Mind."
+      },
+      {
+        "id": "listen-4-33",
+        "title": "4′33″",
+        "creator": "John Cage",
+        "year": "1952",
+        "why": "Cage studied Zen with D. T. Suzuki. Four and a half minutes of whatever the room is doing."
       }
     ],
     "art": [
       {
-        "id": "art-enso-circle",
-        "title": "Ensō circle",
-        "creator": "Paint one with a brush",
-        "why": ""
-      },
-      {
-        "id": "art-dry-garden-of-ryoan-ji",
-        "title": "Dry garden of Ryōan-ji",
+        "id": "art-rock-garden-of-ryoan-ji",
+        "title": "Rock garden of Ryōan-ji",
         "creator": "Kyoto",
-        "why": ""
+        "year": "late 15th century",
+        "why": "Fifteen stones in raked gravel. From the veranda you can never see all of them at once."
       },
       {
-        "id": "art-sumi-e-ink-painting",
-        "title": "Sumi-e ink painting",
-        "creator": "Few strokes, much space",
-        "why": ""
+        "id": "art-six-persimmons",
+        "title": "Six Persimmons",
+        "creator": "Muqi",
+        "year": "13th century",
+        "why": "Ink on paper, kept at Daitoku-ji. Almost nothing, and complete."
+      },
+      {
+        "id": "art-splashed-ink-landscape",
+        "title": "Splashed-Ink Landscape",
+        "creator": "Sesshū Tōyō",
+        "year": "1495",
+        "why": "A mountain made of a few wet strokes. Tokyo National Museum."
+      },
+      {
+        "id": "art-pine-trees",
+        "title": "Pine Trees",
+        "creator": "Hasegawa Tōhaku",
+        "year": "c. 1595",
+        "why": "Two folding screens that are mostly mist."
+      },
+      {
+        "id": "art-circle-triangle-square",
+        "title": "Circle, Triangle, Square",
+        "creator": "Sengai Gibon",
+        "year": "early 19th century",
+        "why": "Three shapes and no explanation. Idemitsu Museum of Arts, Tokyo."
+      },
+      {
+        "id": "art-enso",
+        "title": "Ensō",
+        "creator": "Any Zen calligrapher",
+        "why": "Look at several. Each circle is a different mind."
       }
     ],
     "eat": [
       {
+        "id": "eat-rice-porridge",
+        "title": "Rice porridge",
+        "creator": "Okayu, the monastery breakfast",
+        "why": "Rice simmered soft with water and a pinch of salt."
+      },
+      {
+        "id": "eat-miso-soup-and-rice",
+        "title": "Miso soup and rice",
+        "creator": "With one pickle",
+        "why": "One soup, one side: the basic temple meal."
+      },
+      {
         "id": "eat-shojin-ryori",
         "title": "Shōjin ryōri",
-        "creator": "Temple vegetarian cooking",
-        "why": ""
+        "creator": "Buddhist temple cuisine",
+        "why": "Vegetables, tofu and sesame, with no meat, fish, onion or garlic."
       },
       {
-        "id": "eat-miso-soup-rice-and-pickles",
-        "title": "Miso soup, rice and pickles",
-        "creator": "A simple set",
-        "why": ""
+        "id": "eat-sesame-tofu",
+        "title": "Sesame tofu",
+        "creator": "Goma-dōfu",
+        "why": "Ground sesame set with kudzu. A temple dish that takes patience to stir."
       },
       {
-        "id": "eat-wagashi",
-        "title": "Wagashi",
-        "creator": "Seasonal sweets",
-        "why": ""
+        "id": "eat-pickled-daikon",
+        "title": "Pickled daikon",
+        "creator": "Takuan",
+        "why": "By tradition named after the Zen master Takuan Sōhō."
       }
     ],
     "drink": [
       {
         "id": "drink-matcha",
         "title": "Matcha",
-        "creator": "Whisked, drunk slowly",
-        "why": ""
+        "creator": "Whisked powdered green tea",
+        "why": "The tea of the tea ceremony."
       },
       {
-        "id": "drink-hojicha",
-        "title": "Hōjicha",
-        "creator": "Roasted green tea",
-        "why": ""
+        "id": "drink-sencha-or-bancha",
+        "title": "Sencha or bancha",
+        "creator": "Everyday green tea",
+        "why": "Brewed with water just off the boil."
+      },
+      {
+        "id": "drink-hot-water",
+        "title": "Hot water",
+        "creator": "Sayu",
+        "why": "Plain, in a cup you like."
       }
     ],
     "customs": [
       {
-        "id": "customs-bow-before-and-after-sitting",
-        "title": "Bow before and after sitting",
-        "creator": "Gassho",
-        "why": ""
+        "id": "customs-bow-at-the-door",
+        "title": "Bow at the door",
+        "creator": "Gasshō",
+        "why": "Bring the palms together on entering and leaving the place where you sit."
       },
       {
-        "id": "customs-remove-shoes-at-the-door",
-        "title": "Remove shoes at the door",
-        "creator": "Mark a threshold",
-        "why": ""
+        "id": "customs-shoes-off-placed-neatly",
+        "title": "Shoes off, placed neatly",
+        "creator": "At the threshold",
+        "why": "Toes pointing out, ready for whoever leaves next."
       },
       {
-        "id": "customs-wash-the-bowl-with-the-last-tea",
-        "title": "Wash the bowl with the last tea",
-        "creator": "Oryōki practice",
-        "why": ""
+        "id": "customs-wipe-your-own-bowl",
+        "title": "Wipe your own bowl",
+        "creator": "Ōryōki",
+        "why": "Clean it with the last of your tea and drink that too."
+      },
+      {
+        "id": "customs-clean-together",
+        "title": "Clean together",
+        "creator": "Sōji",
+        "why": "A short daily period when everyone cleans, teacher included."
+      },
+      {
+        "id": "customs-turn-toward-the-wall",
+        "title": "Turn toward the wall",
+        "creator": "Sōtō custom",
+        "why": "Sōtō students sit facing the wall, as Bodhidharma is said to have done for nine years."
+      },
+      {
+        "id": "customs-walk-between-sittings",
+        "title": "Walk between sittings",
+        "creator": "Kinhin",
+        "why": "Half a step for each breath, hands held at the chest."
       }
     ]
   },
   "ethics": [
     {
-      "title": "Do no harm, do good, purify the mind",
-      "text": "The heart of the precepts."
+      "title": "Do no harm",
+      "text": "The first of the pure precepts. Before doing good, stop doing damage: in speech, in what you consume, in how you move through a room.",
+      "practice": "Catch one unkind sentence today before it leaves your mouth."
     },
     {
-      "title": "Practice is realization",
-      "text": "Dōgen: sitting is not a means to an end."
+      "title": "The bodhisattva vow",
+      "text": "Beings are numberless; I vow to free them. The vow is impossible on purpose. It turns practice outward.",
+      "practice": "Dedicate this morning’s sitting to one person who is struggling."
     },
     {
-      "title": "Work is practice",
-      "text": "Cooking, cleaning and gardening count as much as sitting."
+      "title": "Not wasting",
+      "text": "Nothing is yours to squander. Use what you have fully and with respect, from water to time.",
+      "practice": "Finish what is on your plate and what is on your desk."
+    },
+    {
+      "title": "Right speech",
+      "text": "Speak what is true, useful and timely, and otherwise be quiet.",
+      "practice": "Before speaking, ask: is it true, is it kind, is it needed?"
+    },
+    {
+      "title": "Not praising self, not blaming others",
+      "text": "One of the ten grave precepts. Both habits keep the self at the centre.",
+      "practice": "Go a day without one self-promoting remark."
+    },
+    {
+      "title": "Gratitude for labour",
+      "text": "The meal verse begins: innumerable labours brought us this food.",
+      "practice": "Thank one person whose work you usually do not see."
     }
   ],
   "philosophy": [
     {
+      "title": "Just this",
+      "text": "Nothing is missing from this moment. The search for something better is the only thing in the way.",
+      "practice": "Stop once an hour and name what is actually here."
+    },
+    {
       "title": "Beginner’s mind",
-      "text": "Expert minds see few possibilities. Beginner minds see many."
+      "text": "Meet each task as if for the first time, without the weight of what you already know.",
+      "practice": "Do one familiar thing today as if you had never done it."
+    },
+    {
+      "title": "Practice and awakening are one",
+      "text": "Dōgen: you do not sit in order to become a Buddha. Sitting is what a Buddha does.",
+      "practice": "Sit today with no goal for the sitting."
     },
     {
       "title": "No separate self",
-      "text": "Self and world arise together."
+      "text": "Look for the one who is looking. What you call the self is a stream, not a thing.",
+      "practice": "When irritated, ask quietly: who is it that is offended?"
     },
     {
       "title": "Impermanence",
-      "text": "Everything arises and passes. Hold lightly."
+      "text": "Everything that begins, ends. Seen clearly this is not sad; it is why anything can happen at all.",
+      "practice": "Watch one thing finish today: a cup of tea, a conversation, the light."
     },
     {
-      "title": "Just this",
-      "text": "No better moment is coming. This one is the practice."
+      "title": "Form is emptiness",
+      "text": "From the Heart Sutra. Things exist, but not on their own: each is made of everything else.",
+      "practice": "Hold a piece of bread and trace it back: baker, wheat, rain, sun."
+    },
+    {
+      "title": "Not knowing",
+      "text": "A Chinese master said: not knowing is most intimate. Certainty closes the door that attention opens.",
+      "practice": "In one conversation, ask instead of telling."
+    },
+    {
+      "title": "Ordinary mind is the Way",
+      "text": "Awakening is not somewhere else. It is washing the bowl, completely.",
+      "practice": "Choose your dullest chore and give it everything."
+    },
+    {
+      "title": "The great doubt",
+      "text": "Rinzai teachers say: great doubt, great awakening. Hold the question; do not rush to fill it.",
+      "practice": "Carry one question all day without answering it."
+    },
+    {
+      "title": "One time, one meeting",
+      "text": "This meeting, with this person, in this light, will not come again.",
+      "practice": "Give the next person you meet your whole attention for two minutes."
     }
   ],
   "journal": [
-    "When were you fully where you were today?",
-    "What did you notice once you stopped reaching?",
-    "What did you do with your hands that deserved full attention?",
-    "Where did you rush? What was the rush for?",
-    "What did you leave unfinished and let be?",
-    "What sound did you hear today that you usually miss?",
-    "What is left when you remove the commentary?"
+    "When were you fully present today, and when were you elsewhere?",
+    "What did you do with complete attention?",
+    "What did you cling to that you could have let pass?",
+    "Describe one ordinary moment in detail.",
+    "What did silence show you?",
+    "Where did you rush, and what were you rushing toward?",
+    "What did you notice today for the first time?",
+    "What happened in your body during zazen?",
+    "Which thought came back most often on the cushion?",
+    "What did you do today that needed no improvement?",
+    "Where did you add a story to a plain fact?",
+    "What did you waste?",
+    "What did the work of your hands teach you?",
+    "Who did you meet as if for the first time?",
+    "What ended today?",
+    "When did you want the moment to be different from what it was?",
+    "What did the meal taste like?",
+    "What were you sure of this morning that you are less sure of now?",
+    "Where did you seek praise?",
+    "What sound did you hear when you stopped?",
+    "What would be different if there were nothing to attain?",
+    "Whose labour did you depend on today?",
+    "What question are you carrying?",
+    "When did you act before thinking, and it was right?",
+    "What did you clean, and how did it feel to finish?",
+    "What are you holding that is already gone?",
+    "Where was the self loudest today?",
+    "What would a beginner have seen that you missed?",
+    "What was enough?",
+    "Write three lines about this evening. Do not explain them."
   ],
   "reflect": [
-    "What did you notice once you stopped reaching?",
+    "What did sitting still reveal that moving had hidden?",
     "Which practice changed you the most, and why?",
-    "Where did you resist, and what was the resistance protecting?"
+    "Where did you resist, and what was the resistance protecting?",
+    "What have you stopped needing?",
+    "What does \"just this\" mean to you now?",
+    "What will you keep doing without counting it?"
   ],
-  "dayThemes": [],
+  "dayThemes": [
+    "Just this",
+    "Beginner’s mind",
+    "Posture and breath",
+    "Do one thing",
+    "Work as practice",
+    "The silent meal",
+    "Impermanence",
+    "Not knowing",
+    "Washing the bowl",
+    "No separate self",
+    "Not wasting",
+    "Right speech",
+    "The great doubt",
+    "Ordinary mind",
+    "Emptiness",
+    "Gratitude for labour",
+    "One time, one meeting",
+    "Sitting with discomfort",
+    "Nothing to attain",
+    "The space between thoughts",
+    "Bowing",
+    "Wabi-sabi",
+    "The circle",
+    "Letting go",
+    "Care for a place",
+    "The bodhisattva vow",
+    "Walking",
+    "Stillness in motion",
+    "Practice is awakening",
+    "Beginning again"
+  ],
   "guide": {
-    "intro": [
-      "Zen is a school of Mahayana Buddhism that points directly at experience: sit, breathe, work, eat, and see what is already here. It grew from Chinese Chan, which blended Indian Buddhism with Daoist naturalness.",
-      "It spread to Korea, Vietnam and Japan, where it shaped tea, gardens, ink painting and archery. Two schools remain central in Japan: Sōtō, which stresses sitting, and Rinzai, which uses koans."
-    ],
     "origin": "China, then Japan",
-    "era": "6th c. CE to today",
+    "era": "6th century China; 12th century Japan to today",
+    "intro": [
+      "Zen is a school of Buddhism built around one act: sitting down, being still and seeing directly. It distrusts explanations, including its own.",
+      "The name tells the story of its journey. The Sanskrit word for meditation, dhyāna, became chan in China and zen in Japan. Tradition traces the school to Bodhidharma, an Indian monk said to have arrived in China around the year 520 and to have sat facing a cave wall for nine years. Whatever the history behind the legend, a distinctive Chinese school had formed by the eighth century, shaped as much by Daoist plainness as by Indian scripture.",
+      "Its early masters taught by encounter rather than lecture: a shout, a question turned back on the asker, a bowl to be washed. These exchanges were collected and became kōans, cases that a student sits with until the reasoning mind gives up and something else answers. A four-line verse attributed to the school sums up its claim: a special transmission outside the scriptures, not depending on words, pointing directly at the mind, seeing one’s nature and becoming Buddha.",
+      "Two Japanese monks carried the practice home. Eisai returned from China in 1191 with the Rinzai school and with tea. Dōgen returned in 1227 with the Sōtō school and a single instruction, shikantaza: just sit. Rinzai trains with kōans and sudden breakthrough. Sōtō holds that sitting itself is awakening and that nothing needs to be added. Both run monasteries where sitting, chanting, cooking and sweeping are one continuous practice.",
+      "Because Zen treats every activity as practice, it soaked into Japanese culture well beyond the temple: ink painting, the dry garden, the tea ceremony, haiku, archery, the taste for things plain and weathered. In the twentieth century it travelled west through the books of D. T. Suzuki and through teachers such as Shunryū Suzuki, who opened a small sitting group in San Francisco in 1959.",
+      "This Onda borrows the daily shape of lay Zen practice: sit in the morning, work with attention, eat one meal in silence, end the day with tea. Zen is a living religious tradition, and nothing here replaces a teacher or a community. If the sitting takes hold, find a local group and sit with them."
+    ],
     "figures": [
       {
         "name": "Bodhidharma",
-        "dates": "",
-        "bio": "Legendary monk said to bring Chan to China from India."
+        "dates": "traditionally 5th–6th century",
+        "bio": "The semi-legendary Indian monk counted as the first patriarch of Chan in China."
       },
       {
         "name": "Huineng",
-        "dates": "",
-        "bio": "Sixth Patriarch of Chan. His sermon is the Platform Sutra."
+        "dates": "638–713",
+        "bio": "The Sixth Patriarch. By tradition an illiterate woodcutter who awakened on hearing a line of the Diamond Sutra."
+      },
+      {
+        "name": "Zhaozhou",
+        "dates": "778–897",
+        "bio": "Tang master of the plain reply: \"Mu\", \"Wash your bowl\", \"Have some tea\"."
+      },
+      {
+        "name": "Linji",
+        "dates": "died 866",
+        "bio": "Fierce Tang master whose line became Rinzai Zen."
+      },
+      {
+        "name": "Eisai",
+        "dates": "1141–1215",
+        "bio": "Brought Rinzai Zen and tea cultivation from China to Japan. Founded Kennin-ji in Kyoto."
       },
       {
         "name": "Dōgen",
-        "dates": "",
-        "bio": "Founded Sōtō Zen in Japan and wrote the Shōbōgenzō."
+        "dates": "1200–1253",
+        "bio": "Founder of Sōtō Zen in Japan and of Eihei-ji. Author of the Shōbōgenzō."
+      },
+      {
+        "name": "Ikkyū",
+        "dates": "1394–1481",
+        "bio": "Poet, abbot and scourge of pious hypocrisy."
+      },
+      {
+        "name": "Sen no Rikyū",
+        "dates": "1522–1591",
+        "bio": "Tea master who gave the tea ceremony its austere, rustic form."
       },
       {
         "name": "Hakuin",
-        "dates": "",
-        "bio": "Revived Rinzai koan practice. Said to have asked the sound of one hand."
+        "dates": "1686–1769",
+        "bio": "Reviver of Rinzai. Organised kōan training and asked for the sound of one hand."
+      },
+      {
+        "name": "Ryōkan",
+        "dates": "1758–1831",
+        "bio": "Hermit monk and poet who called himself the Great Fool."
+      },
+      {
+        "name": "D. T. Suzuki",
+        "dates": "1870–1966",
+        "bio": "Scholar whose English books introduced Zen to the West."
+      },
+      {
+        "name": "Shunryū Suzuki",
+        "dates": "1904–1971",
+        "bio": "Sōtō priest who founded San Francisco Zen Center and Tassajara."
       }
     ],
     "history": [
       {
-        "when": "c. 500 CE",
-        "what": "Bodhidharma, by tradition, brings Chan to China",
-        "detail": "Legend says he sat facing a wall for nine years."
+        "when": "c. 520",
+        "what": "Bodhidharma is said to arrive in China",
+        "detail": "The earliest records are thin and the details are legend, but the story of nine years facing a wall at Shaolin set the tone for the school."
       },
       {
-        "when": "713",
-        "what": "Huineng, Sixth Patriarch, dies. Chan splits into many houses.",
-        "detail": ""
+        "when": "c. 700",
+        "what": "Huineng teaches in southern China",
+        "detail": "The Platform Sutra, composed in his name, argues that awakening is sudden and available to anyone, lettered or not."
+      },
+      {
+        "when": "8th–9th century",
+        "what": "The Tang golden age of Chan",
+        "detail": "Mazu, Zhaozhou, Linji and Dongshan teach by direct encounter. Baizhang is credited with the first monastic rules for Chan, including daily work."
+      },
+      {
+        "when": "1125",
+        "what": "The Blue Cliff Record is compiled",
+        "detail": "Yuanwu’s collection of one hundred kōans with commentary. A century later Wumen assembles the shorter Gateless Gate in 1228."
       },
       {
         "when": "1191",
-        "what": "Eisai brings Rinzai Zen to Japan",
-        "detail": ""
+        "what": "Eisai returns to Japan with Rinzai Zen",
+        "detail": "He also brings tea seeds and later writes a treatise on drinking tea for health."
       },
       {
         "when": "1227",
-        "what": "Dōgen returns to Japan and founds Sōtō Zen",
-        "detail": ""
+        "what": "Dōgen returns from China",
+        "detail": "He writes Universal Recommendations for Zazen almost at once: the first Japanese instructions for sitting."
       },
       {
-        "when": "1700s",
-        "what": "Hakuin revives koan practice in the Rinzai school",
-        "detail": ""
+        "when": "1244",
+        "what": "Dōgen founds Eihei-ji",
+        "detail": "The temple of eternal peace, deep in the mountains of Echizen. It is still one of the two head temples of Sōtō Zen."
+      },
+      {
+        "when": "14th–15th century",
+        "what": "Zen shapes the arts of Kyoto",
+        "detail": "Under shogunal patronage Zen temples become centres of ink painting, garden design and poetry. Ryōan-ji’s rock garden dates from the end of this period."
+      },
+      {
+        "when": "1591",
+        "what": "Sen no Rikyū dies",
+        "detail": "The tea master, ordered to take his own life by the warlord Hideyoshi, leaves behind the wabi style of tea."
+      },
+      {
+        "when": "1689",
+        "what": "Bashō sets out for the north",
+        "detail": "His five-month walk becomes The Narrow Road to the Deep North."
+      },
+      {
+        "when": "18th century",
+        "what": "Hakuin revives Rinzai",
+        "detail": "From a poor country temple he trains a generation of teachers and arranges kōans into a graded course still used today."
+      },
+      {
+        "when": "1893",
+        "what": "Zen is presented in Chicago",
+        "detail": "The Rinzai abbot Shaku Sōen speaks at the World’s Parliament of Religions. His student D. T. Suzuki translates."
+      },
+      {
+        "when": "1927",
+        "what": "D. T. Suzuki publishes Essays in Zen Buddhism",
+        "detail": "The first of the books that introduce Zen to English readers."
+      },
+      {
+        "when": "1959",
+        "what": "Shunryū Suzuki arrives in San Francisco",
+        "detail": "Americans begin joining his dawn sittings. San Francisco Zen Center is incorporated in 1962 and opens Tassajara, a mountain monastery, in 1967."
       }
     ],
     "concepts": [
       {
         "term": "Zazen",
-        "text": "Just sitting. Posture, breath, and letting thoughts pass.",
-        "detail": ""
+        "text": "Seated meditation: the core of the practice.",
+        "detail": "Upright, still, eyes lowered, breathing naturally. In Sōtō it is done facing a wall with no object. In Rinzai it is often done holding a kōan."
       },
       {
-        "term": "Koan",
-        "text": "A paradoxical question that breaks the habit of conceptual answers.",
-        "detail": ""
+        "term": "Kōan",
+        "text": "A recorded exchange used as an object of meditation.",
+        "detail": "A kōan is not a riddle with a clever answer. The student holds it until the habit of standing outside and analysing falls away, then shows the teacher what is left."
       },
       {
-        "term": "Satori",
-        "text": "A moment of sudden insight.",
-        "detail": ""
+        "term": "Kenshō and satori",
+        "text": "Seeing one’s own nature.",
+        "detail": "Rinzai emphasises a breakthrough experience; Sōtō is wary of chasing one. Both agree that an insight not lived out in ordinary conduct is worth little."
       },
       {
-        "term": "Sesshin",
-        "text": "An intensive silent retreat of days.",
-        "detail": ""
+        "term": "Emptiness",
+        "text": "Nothing exists separately or permanently.",
+        "detail": "Emptiness is not nothingness. It means that every thing depends on everything else and has no fixed core, which is exactly why change and compassion are possible."
+      },
+      {
+        "term": "Buddha nature",
+        "text": "Every being already has the capacity for awakening.",
+        "detail": "Dōgen went further and read the phrase as: all beings are Buddha nature. Practice does not create it. Practice expresses it."
+      },
+      {
+        "term": "Transmission",
+        "text": "The teaching passes from teacher to student, mind to mind.",
+        "detail": "Zen lineages are written as family trees back to the Buddha. The early links are legend, but the insistence on a living teacher is real."
+      },
+      {
+        "term": "Rinzai and Sōtō",
+        "text": "The two main schools of Japanese Zen.",
+        "detail": "Rinzai: kōans, vigorous training, close work with a teacher. Sōtō: shikantaza, just sitting, and attention to the forms of daily life. A smaller third school, Ōbaku, arrived in the seventeenth century."
+      },
+      {
+        "term": "Samu",
+        "text": "Manual work as practice.",
+        "detail": "Chan monasteries supported themselves by farming, unlike the alms-based monasteries of India. Work was folded into the meditation schedule and stayed there."
+      },
+      {
+        "term": "Wabi-sabi",
+        "text": "The beauty of the modest and the worn.",
+        "detail": "Wabi is spare simplicity; sabi is the patina of age. The tea masters prized a cracked bowl over a perfect one."
+      },
+      {
+        "term": "The precepts",
+        "text": "The ethical ground of practice.",
+        "detail": "Sixteen in the Sōtō tradition: three refuges, three pure precepts and ten grave precepts, from not killing to not disparaging the three treasures."
       }
     ],
     "facts": [
       {
-        "text": "A traditional Zen meal in a temple uses nested bowls called oryōki."
+        "text": "Zen, chan, sŏn and thiền are the Japanese, Chinese, Korean and Vietnamese readings of one character, which renders the Sanskrit dhyāna, meditation."
       },
       {
-        "text": "The ensō circle is usually painted in one breath, and cannot be corrected."
+        "text": "Dōgen was twenty-three when he sailed to China. An old monastery cook, drying mushrooms in the midday sun, taught him that the kitchen was practice too."
       },
       {
-        "text": "Many Zen gardens use raked gravel to suggest water."
+        "text": "The rock garden at Ryōan-ji holds fifteen stones, arranged so that at least one is always hidden from wherever you sit on the veranda."
+      },
+      {
+        "text": "Eisai’s treatise Drinking Tea for Health opens by calling tea an elixir for nourishing life."
+      },
+      {
+        "text": "Hakuin’s best-known kōan is: you know the sound of two hands clapping. What is the sound of one hand?"
+      },
+      {
+        "text": "In a Zen monastery the cook, the tenzo, is one of the six senior officers and is expected to be a mature practitioner."
+      },
+      {
+        "text": "Legend says Bodhidharma cut off his own eyelids to stay awake, and that the first tea plants grew where they fell.",
+        "unverified": true
+      },
+      {
+        "text": "Steve Jobs studied with the Sōtō priest Kōbun Chino Otogawa, who also officiated at his wedding."
       }
     ],
-    "glossary": [],
-    "furtherReading": [],
-    "learnFrom": [],
-    "sources": []
+    "glossary": [
+      {
+        "term": "Chan",
+        "meaning": "The Chinese school from which Japanese Zen descends."
+      },
+      {
+        "term": "Sōtō",
+        "meaning": "The school of just sitting, brought to Japan by Dōgen."
+      },
+      {
+        "term": "Rinzai",
+        "meaning": "The school of kōan training, brought to Japan by Eisai."
+      },
+      {
+        "term": "Shōbōgenzō",
+        "meaning": "Treasury of the True Dharma Eye, Dōgen’s life work."
+      },
+      {
+        "term": "Heart Sutra",
+        "meaning": "A very short scripture on emptiness, chanted daily in Zen temples."
+      },
+      {
+        "term": "Three treasures",
+        "meaning": "Buddha, Dharma and Sangha: the teacher, the teaching and the community."
+      }
+    ],
+    "furtherReading": [
+      {
+        "title": "Zen Buddhism: A History (2 vols.)",
+        "creator": "Heinrich Dumoulin",
+        "year": "1988",
+        "note": "The standard narrative history of India, China and Japan."
+      },
+      {
+        "title": "Opening the Hand of Thought",
+        "creator": "Kōshō Uchiyama",
+        "year": "1993",
+        "note": "The most practical book on what to do with the mind in zazen."
+      },
+      {
+        "title": "Seeing Through Zen",
+        "creator": "John R. McRae",
+        "year": "2003",
+        "note": "A historian separates what happened from what the tradition says happened."
+      },
+      {
+        "title": "Everyday Zen",
+        "creator": "Charlotte Joko Beck",
+        "year": "1989",
+        "note": "Practice in the middle of work and family life."
+      },
+      {
+        "title": "The Zen Teaching of Huang Po",
+        "creator": "trans. John Blofeld",
+        "year": "1958",
+        "note": "A Tang master on the one mind."
+      }
+    ],
+    "learnFrom": [
+      {
+        "name": "Sōtōshū (Soto Zen Buddhism)",
+        "note": "The Sōtō school’s official international site, with zazen instructions and a temple directory."
+      },
+      {
+        "name": "San Francisco Zen Center",
+        "note": "Founded by Shunryū Suzuki. Online talks and beginner instruction."
+      },
+      {
+        "name": "A local sitting group",
+        "note": "Zen is learned by sitting with others. Most groups welcome first-timers on a set evening each week."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Japanese Zen Buddhist Philosophy",
+        "creator": "Shigenori Nagatomo",
+        "publisher": "Stanford Encyclopedia of Philosophy"
+      },
+      {
+        "title": "Zen Buddhism: A History, vol. 1 India and China; vol. 2 Japan",
+        "creator": "Heinrich Dumoulin",
+        "publisher": "Macmillan",
+        "year": "1988"
+      },
+      {
+        "title": "Seeing Through Zen: Encounter, Transformation, and Genealogy in Chinese Chan Buddhism",
+        "creator": "John R. McRae",
+        "publisher": "University of California Press",
+        "year": "2003"
+      },
+      {
+        "title": "Moon in a Dewdrop: Writings of Zen Master Dōgen",
+        "creator": "ed. Kazuaki Tanahashi",
+        "publisher": "North Point Press",
+        "year": "1985"
+      },
+      {
+        "title": "Zen Mind, Beginner’s Mind",
+        "creator": "Shunryū Suzuki",
+        "publisher": "Weatherhill",
+        "year": "1970"
+      },
+      {
+        "title": "The Gateless Barrier: The Wu-men Kuan",
+        "creator": "trans. Robert Aitken",
+        "publisher": "North Point Press",
+        "year": "1990"
+      }
+    ]
+  },
+  "sensitivity": {
+    "note": "Zen is a living Buddhist tradition. This Onda adapts its everyday lay practices. It is not ordination, and it does not replace a teacher or a community.",
+    "requiredCaveats": [
+      "Sitting through pain is not the goal: adjust your posture or use a chair.",
+      "If meditation brings up distress that does not settle, stop and speak to a qualified teacher or clinician."
+    ],
+    "reviewRequired": false
   }
 }

@@ -100,7 +100,7 @@
 .footnote{font:400 var(--fs-13)/1.35 var(--font-sans);color:var(--label-secondary);padding:12px 36px 0}
 
 /* ── Reflection / Done ───────────────────────────────────── */
-.flow{position:absolute;inset:0;background:var(--surface-page)}
+.flow{position:absolute;inset:0;background:var(--surface-page);--screen-bg:var(--surface-page)}
 .flowBar{position:absolute;top:calc(var(--chrome-top) + 56px);left:0;right:0}
 .flowBody{position:absolute;top:calc(var(--chrome-top) + 80px);left:0;right:0;bottom:calc(76px + max(var(--sab),16px) + var(--kb));padding:0 24px 16px}
 .rfIcon{width:96px;height:96px}
@@ -112,7 +112,7 @@
 .rfField{margin-top:20px;background:var(--surface-grouped);border-radius:26px;padding:16px 20px}
 .keepRow{display:flex;align-items:center;gap:14px;padding:12px 14px 12px 12px;background:var(--surface-grouped);border-radius:22px}
 .keepIcon{width:40px;height:40px}
-.doneWrap{position:absolute;inset:0;background:var(--surface-page);display:flex;flex-direction:column;align-items:center;justify-content:center;padding:0 32px 120px;text-align:center}
+.doneWrap{position:absolute;inset:0;background:var(--surface-page);--screen-bg:var(--surface-page);display:flex;flex-direction:column;align-items:center;justify-content:center;padding:0 32px 120px;text-align:center}
 .doneTitle{font:600 var(--fs-36)/1.08 var(--onda-font);letter-spacing:-0.01em;margin:28px 0 0}
 
 /* ── Onda sheets ─────────────────────────────────────────── */

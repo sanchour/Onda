@@ -102,6 +102,20 @@ describe('calendar feed (ICS)', () => {
   const ics = buildIcs(data, { now: new Date('2026-10-06T07:00:00Z') })
   const unfolded = ics.replace(/\r\n /g, '')
 
+  it('exports only what was chosen, each with an alert', () => {
+    const at = { now: new Date('2026-10-06T07:00:00Z') }
+    const out = (include: { practices: boolean; lagos: boolean; extras: boolean }) => buildIcs(data, { ...at, include }).replace(/\r\n /g, '')
+    const lagosOnly = out({ practices: false, lagos: true, extras: false })
+    expect(lagosOnly).toContain('UID:lago-')
+    expect(lagosOnly).not.toContain('SUMMARY:Morning premeditation')
+    expect(lagosOnly).not.toContain('UID:immerse-')
+    const practicesOnly = out({ practices: true, lagos: false, extras: false })
+    expect(practicesOnly).toContain('SUMMARY:Morning premeditation')
+    expect(practicesOnly).not.toContain('UID:lago-')
+    expect(practicesOnly).not.toContain('UID:immerse-')
+    expect(practicesOnly).toContain('BEGIN:VALARM')
+    expect(out({ practices: false, lagos: false, extras: false })).not.toContain('BEGIN:VEVENT')
+  })
   it('is a valid calendar envelope with CRLF line endings', () => {
     expect(ics.startsWith('BEGIN:VCALENDAR\r\nVERSION:2.0\r\n')).toBe(true)
     expect(ics.endsWith('END:VCALENDAR\r\n')).toBe(true)

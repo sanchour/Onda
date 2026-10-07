@@ -1,5 +1,5 @@
 import { useQuery, useQueryClient } from '@tanstack/react-query'
-import { buildIcs, type FeedData } from '@shared/feeds'
+import { buildIcs, type FeedData, type IcsInclude } from '@shared/feeds'
 import { useStore } from '@/data/store'
 import { backendConfigured, callFunction, functionsUrl } from './supabase'
 
@@ -53,11 +53,26 @@ function feedData(): FeedData {
 }
 
 /** One-time .ics export built on the device. Works offline and without an account. */
-export function downloadIcs() {
-  const blob = new Blob([buildIcs(feedData())], { type: 'text/calendar;charset=utf-8' })
+export function downloadIcs(include?: IcsInclude) {
+  const blob = new Blob([buildIcs(feedData(), { include })], { type: 'text/calendar;charset=utf-8' })
   const a = document.createElement('a')
   a.href = URL.createObjectURL(blob)
   a.download = 'onda.ics'
   a.click()
   setTimeout(() => URL.revokeObjectURL(a.href), 2000)
+}
+
+/** Hand the calendar file to the system share sheet (iPhone offers Calendar there); fall back to a plain download. */
+export async function shareIcs(include: IcsInclude): Promise<'shared' | 'downloaded' | 'cancelled'> {
+  const file = new File([buildIcs(feedData(), { include })], 'onda.ics', { type: 'text/calendar' })
+  try {
+    if (navigator.canShare?.({ files: [file] })) {
+      await navigator.share({ files: [file], title: 'Onda' })
+      return 'shared'
+    }
+  } catch (e) {
+    if ((e as Error).name === 'AbortError') return 'cancelled'
+  }
+  downloadIcs(include)
+  return 'downloaded'
 }

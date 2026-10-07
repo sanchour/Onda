@@ -149,22 +149,31 @@ const IMMERSE_KINDS = ['read', 'listen', 'watch', 'eat', 'words']
 const pickForDay = <T>(items: T[], day: number) => (items.length ? items[(day - 1) % items.length] : undefined)
 
 /** A subscribable calendar: Onda practices at their times, a daily immersion note, the reflection day, and Lago reminders. */
-export function buildIcs(data: FeedData, opts: { now?: Date; name?: string } = {}): string {
+export interface IcsInclude {
+  /** the running Onda's practices and its reflection day */
+  practices?: boolean
+  /** Lago reminders */
+  lagos?: boolean
+  /** the running Onda's tasks and the daily immersion note */
+  extras?: boolean
+}
+export function buildIcs(data: FeedData, opts: { now?: Date; name?: string; include?: IcsInclude } = {}): string {
+  const inc = { practices: true, lagos: true, extras: true, ...opts.include }
   const now = opts.now ?? new Date()
   const dtstamp = stamp(now)
   const events: Vevent[] = []
 
   const run = activeRunOf(data)
-  if (run?.snapshot) {
+  if (run?.snapshot && (inc.practices || inc.extras)) {
     const s = run.snapshot
     const until = `${ymd(runEnd(run))}T235959`
-    for (const p of s.practices) {
+    for (const p of inc.practices ? s.practices : []) {
       events.push({ uid: `practice-${run.id}-${p.id}`, summary: p.name, description: `${s.name} · Onda practice`, date: run.startedAt, time: p.time, minutes: p.minutes, rrule: `FREQ=DAILY;UNTIL=${until}`, alarm: true })
     }
-    for (const t of s.tasks) {
+    for (const t of inc.extras ? s.tasks : []) {
       events.push({ uid: `task-${run.id}-${t.id}`, summary: t.name, description: `${s.name} · Onda task`, date: run.startedAt, time: t.time, minutes: 20, rrule: `FREQ=DAILY;UNTIL=${until}` })
     }
-    for (let day = 1; day <= run.lengthDays; day++) {
+    for (let day = 1; inc.extras && day <= run.lengthDays; day++) {
       const picks = IMMERSE_KINDS.map((k) => pickForDay(s.immerse.filter((m) => m.kind === k), day)).filter((m): m is NonNullable<typeof m> => !!m)
       if (!picks.length) continue
       events.push({
@@ -174,10 +183,10 @@ export function buildIcs(data: FeedData, opts: { now?: Date; name?: string } = {
         date: addDays(run.startedAt, day - 1),
       })
     }
-    events.push({ uid: `reflection-${run.id}`, summary: `Final reflection · ${s.name}`, description: 'Look back, then choose which practices to carry forward as Lagos.', date: runEnd(run), time: '20:00', minutes: 30, alarm: true })
+    if (inc.practices) events.push({ uid: `reflection-${run.id}`, summary: `Final reflection · ${s.name}`, description: 'Look back, then choose which practices to carry forward as Lagos.', date: runEnd(run), time: '20:00', minutes: 30, alarm: true })
   }
 
-  for (const l of data.lagos) {
+  for (const l of inc.lagos ? data.lagos : []) {
     if (l.deletedAt || !l.reminder.on) continue
     const end = lagoEnd(l)
     if (end < addDays(todayOf(now), -1)) continue

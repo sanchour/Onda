@@ -166,8 +166,8 @@ export const en = {
     partial_one: '{{count}} item could not be saved', partial_other: '{{count}} items could not be saved', lastError: 'Last error', disconnected: 'Notion disconnected', queued_one: '{{count}} change queued', queued_other: '{{count}} changes queued',
   },
   calendar: {
-    title: 'Calendar', lead: 'A private calendar feed with your Onda practices, immersion and reflection day, plus Lago reminders. iOS keeps it updated.', add: 'Add to Calendar', download: 'Download .ics', copy: 'Copy Feed Link', rotate: 'Reset Feed Link',
-    rotateFooter: 'Resetting the link stops every calendar that subscribed with the old one.', rotated: 'Feed link reset', lastFetched: 'Last fetched', status: 'Status', ready: 'Ready', notReady: 'Not set up', localFooter: 'Without an account, Download .ics exports a one-time copy from this device.',
+    title: 'Calendar', lead: 'Add your Onda practices and Lago reminders to Calendar, each repeating at its time with an alert. With an account, a live feed keeps it updated.', add: 'Add to Calendar', download: 'Download .ics', copy: 'Copy Feed Link', rotate: 'Reset Feed Link',
+    includeHeader: 'Add to my calendar', incPractices: 'Onda practices', incLagos: 'Lago reminders', incExtras: 'Tasks and daily immersion', includeFooter: 'Each practice and Lago becomes a repeating event at its time, with an alert. They appear in Calendar, not in the Reminders app.', exportNow: 'Share or Add to Calendar', downloaded: 'Saved onda.ics', rotateFooter: 'Resetting the link stops every calendar that subscribed with the old one.', rotated: 'Feed link reset', lastFetched: 'Last fetched', status: 'Status', ready: 'Ready', notReady: 'Not set up', localFooter: 'Without an account, Download .ics exports a one-time copy from this device.',
   },
   reminders: {
     title: 'Apple Reminders', badge: 'Via Shortcuts', lead: 'iOS has no web API for Reminders. A Shortcut reads your private feed each morning and fills a list called Onda.', install: 'Get the Shortcut', copyFeed: 'Copy Feed Link', lastFetched: 'Feed last fetched',

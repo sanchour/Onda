@@ -8,7 +8,7 @@ import { copyText } from '@/lib/platform'
 import { useNav, type SheetEntry } from '@/nav/store'
 import m from '@/screens/more.module.css'
 import s from '@/screens/screens.module.css'
-import { EMPTY_STATUS, calendarFeedUrl, downloadIcs, notionConnect, notionDisconnect, notionSyncNow, remindersFeedUrl, rotateFeedToken, useIntegrations, useRefreshIntegrations, webcalUrl } from '@/sync/integrations'
+import { EMPTY_STATUS, calendarFeedUrl, notionConnect, notionDisconnect, notionSyncNow, remindersFeedUrl, rotateFeedToken, shareIcs, useIntegrations, useRefreshIntegrations, webcalUrl } from '@/sync/integrations'
 import { enablePush } from '@/sync/push'
 import { accountInfo, backendConfigured, sendMagicLink, signInWithApple, signOut } from '@/sync/supabase'
 import { Button, LinkButton } from '@/ui/buttons'
@@ -123,6 +123,9 @@ export function CalendarSheet({ entry }: E<'calendar'>) {
   const refresh = useRefreshIntegrations()
   const c = (q.data ?? EMPTY_STATUS).calendar
   const copied = () => showToast(t('common.copied'), { icon: 'copy' })
+  const [inc, setInc] = useState({ practices: true, lagos: true, extras: false })
+  const none = !inc.practices && !inc.lagos && !inc.extras
+  const exportNow = () => void shareIcs(inc).then((r) => r === 'downloaded' && showToast(t('calendar.downloaded'), { icon: 'download-simple' }))
   return (
     <AppSheet entry={entry} title={t('calendar.title')}>
       <div style={{ padding: '8px 0 60px' }}>
@@ -136,10 +139,19 @@ export function CalendarSheet({ entry }: E<'calendar'>) {
           </div>
         )}
         <div className={m.gap28}>
+          <ListSection header={t('calendar.includeHeader')} footer={t('calendar.includeFooter')}>
+            <ListRow icon="waves" title={t('calendar.incPractices')} accessory="switch" switchOn={inc.practices} onSwitchChange={(v) => setInc((x) => ({ ...x, practices: v }))} />
+            <ListRow icon="check-circle" title={t('calendar.incLagos')} accessory="switch" switchOn={inc.lagos} onSwitchChange={(v) => setInc((x) => ({ ...x, lagos: v }))} />
+            <ListRow icon="list-checks" title={t('calendar.incExtras')} accessory="switch" switchOn={inc.extras} onSwitchChange={(v) => setInc((x) => ({ ...x, extras: v }))} />
+          </ListSection>
+        </div>
+        <div style={{ padding: '20px 16px 0' }}>
+          <Button fullWidth icon="export" disabled={none} onClick={exportNow}>{t('calendar.exportNow')}</Button>
+        </div>
+        <div className={m.gap28}>
           <ListSection footer={c.token ? t('calendar.rotateFooter') : t('calendar.localFooter')}>
             <ListRow icon="info" title={t('calendar.status')} value={c.token ? t('calendar.ready') : t('calendar.notReady')} accessory="none" />
             {c.token && <ListRow icon="clock" title={t('calendar.lastFetched')} value={fmtAgo(c.lastFetchedAt, t)} accessory="none" />}
-            <ListRow icon="download-simple" title={t('calendar.download')} accessory="none" onClick={downloadIcs} />
             {c.token && <ListRow icon="link" title={t('calendar.copy')} accessory="none" onClick={() => void copyText(calendarFeedUrl(c.token!)).then((ok) => ok && copied())} />}
             {c.token && <ListRow icon="arrows-clockwise" title={t('calendar.rotate')} destructive accessory="none" onClick={() => void rotateFeedToken('calendar').then(() => { showToast(t('calendar.rotated'), { icon: 'arrows-clockwise' }); void refresh() }).catch(() => showToast(t('common.error'), { icon: 'warning-circle' }))} />}
           </ListSection>

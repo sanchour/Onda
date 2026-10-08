@@ -91,3 +91,7 @@ Native American Animism, Ubuntu, Tibetan Buddhism and Sufism are flagged `review
 - The server sends reminders in the time zone stored in settings; changing zone on the phone needs a settings write to update it.
 - Lighthouse thresholds are configured in CI but have not been run against a deployed build, so that step reports without failing the build (`continue-on-error`) until someone has tuned it.
 - Content was fact-checked in v1.1 (see `CONTENT_REVIEW.md`): unverifiable items were removed, a handful of claims were checked on the web, and the rest still need a human reviewer.
+
+## 5.0 (in progress)
+
+- **Status bar, hard fix (not verified on a device).** The strip behind the clock and battery stayed pale in dark mode. With `black-translucent` the page runs under the bar and recent iOS versions lay their own frosted material over that strip, which CSS cannot remove. The status bar style is now `default`: the bar is opaque, sits above the page, and iOS colours it from the `theme-color` meta, which the app already sets before first paint and on every appearance or Onda change, so it follows the app's own light or dark and not the system's. `theme_color` was removed from the manifest so no cream value competes with the meta. iOS reads the bar style only when the app is added to the Home Screen, so the app has to be removed and added again once.

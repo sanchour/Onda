@@ -82,6 +82,9 @@ describe('3.0: shell', () => {
     const html = fs.readFileSync(path.resolve(__dirname, '../../index.html'), 'utf8')
     expect(html).toContain("localStorage.getItem(d ? 'onda.bg.dark' : 'onda.bg.light')")
     expect(html).toContain("root.style.setProperty('--surface-grouped', bg)")
-    expect(html).toContain('black-translucent')
+    // 5.0: an opaque bar coloured from theme-color; the translucent style left a pale strip in dark mode
+    expect(html).toContain('name="apple-mobile-web-app-status-bar-style" content="default"')
+    expect(html).not.toContain('black-translucent')
+    expect(html).toContain("document.querySelector('meta[name=theme-color]').setAttribute('content', bg)")
   })
 })

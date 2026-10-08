@@ -611,7 +611,7 @@ test.describe('Update 5.0', () => {
     await row.scrollIntoViewIfNeeded()
     const before = await row.getAttribute('aria-checked')
     await row.dispatchEvent('contextmenu')
-    await tap(page, 'How to do this')
+    await tap(page, 'How to do this', 'menuitem')
     await expect(page.getByText('Why', { exact: true }).first()).toBeVisible()
     await expect(row).toHaveAttribute('aria-checked', before ?? 'false')
   })

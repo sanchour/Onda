@@ -117,7 +117,7 @@ function useShell() {
       const meta = document.createElement('meta')
       meta.name = 'theme-color'
       meta.content = bg
-      document.head.appendChild(meta)
+      document.head.prepend(meta)
       document.querySelector('meta[name="color-scheme"]')?.setAttribute('content', dark ? 'dark' : 'light')
       root.style.colorScheme = dark ? 'dark' : 'light'
     }

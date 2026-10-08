@@ -176,8 +176,11 @@ function ServiceWorkerBridge() {
     navigator.serviceWorker.addEventListener('message', onMessage)
     if (import.meta.env.PROD) {
       void import('virtual:pwa-register').then(({ registerSW }) => {
+        const launched = Date.now()
         const update = registerSW({
-          onNeedRefresh: () => useNav.getState().showToast(t('sw.updateReady'), { icon: 'arrows-clockwise', action: { label: t('sw.reload'), run: () => void update(true) } }),
+          // A version that was already waiting when the app opened (the Reload prompt was missed last time) is applied
+          // straight away. One that arrives while the app is in use asks first.
+          onNeedRefresh: () => (Date.now() - launched < 4000 ? void update(true) : useNav.getState().showToast(t('sw.updateReady'), { icon: 'arrows-clockwise', action: { label: t('sw.reload'), run: () => void update(true) } })),
           onRegisteredSW: (_url, reg) => {
             // An installed PWA can stay open for days: look for a new version every hour.
             if (reg) setInterval(() => void reg.update().catch(() => undefined), 60 * 60 * 1000)

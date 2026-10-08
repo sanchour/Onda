@@ -581,3 +581,74 @@ Caveats shown in the app:
 - Shia communities are still attacked in several countries. Do not confuse the religion with any government that claims it.
 
 Nothing is marked `unverified`.
+
+
+## Rastafari
+
+File: `content/ondas/rasta.json` · version 1 · about 5100 words · 30 words of vocabulary, 30 journal prompts, 13 history entries, 9 concepts, 6 sources.
+
+**Needs review by tradition bearers before launch.** Rastafari is a living faith born from the experience of slavery and colonial rule in Jamaica. This Onda borrows its daily livity: praise, ital food, careful speech and reasoning. It does not ask you to wear locks or colours, to use its sacrament or to claim its identity.
+
+Caveats shown in the app:
+
+- Dreadlocks are a religious covenant for Rastafari. They are not a costume, and the people who wear them have been beaten and jailed for it.
+- Rastafari was made by people of African descent out of their own history. A guest should listen more than speak.
+- The mansions differ on doctrine, on the Bible and on who Haile Selassie is. No summary speaks for all of them.
+- Cannabis is a sacrament in some houses and is illegal in many countries. It is left out of the practices here.
+
+Marked `unverified` (1):
+
+- Quote: "Look to Africa, when a black king shall be crowned, for the day of deliverance is at hand." (Attributed to Marcus Garvey; Widely repeated in the movement. No text by Garvey with these words has been found)
+
+## Discordianism
+
+File: `content/ondas/discordia.json` · version 1 · about 4900 words · 30 words of vocabulary, 30 journal prompts, 12 history entries, 9 concepts, 6 sources.
+
+Framing note shown in the app: Discordianism is a parody religion that some of its followers also mean sincerely. This Onda takes its exercises at face value and its claims with the doubt it asks for. Its pranks are meant to free people and never to deceive them for gain.
+
+Nothing is marked `unverified`.
+
+
+## Platonism
+
+File: `content/ondas/plato.json` · version 1 · about 5000 words · 30 words of vocabulary, 30 journal prompts, 13 history entries, 9 concepts, 6 sources.
+
+Framing note shown in the app: Plato wrote dialogues, not doctrine, and scholars disagree about how much of what Socrates says in them Plato himself believed. This Onda borrows his exercises and questions. It does not ask you to accept his politics or his metaphysics.
+
+Nothing is marked `unverified`.
+
+
+## Epicureanism
+
+File: `content/ondas/epicurus.json` · version 1 · about 5000 words · 30 words of vocabulary, 30 journal prompts, 13 history entries, 9 concepts, 6 sources.
+
+Framing note shown in the app: Epicurus is easy to mistake for a preacher of indulgence. His school taught the reverse: plain food, few wants, and friendship. This Onda keeps to what the surviving texts say and marks later tradition as such.
+
+Nothing is marked `unverified`.
+
+
+## Hedonism
+
+File: `content/ondas/cyrenaic.json` · version 1 · about 5200 words · 30 words of vocabulary, 30 journal prompts, 13 history entries, 9 concepts, 6 sources.
+
+Framing note shown in the app: Hedonism here means the Cyrenaic discipline of enjoying fully while staying free. It is not a licence for excess. The practices ask for attention and self-command, and none of them requires alcohol or expense.
+
+Nothing is marked `unverified`.
+
+
+## Kant
+
+File: `content/ondas/kant.json` · version 1 · about 5200 words · 30 words of vocabulary, 30 journal prompts, 13 history entries, 9 concepts, 6 sources.
+
+Framing note shown in the app: Kant’s moral philosophy is one of the foundations of modern ideas of human dignity. He was also a man of his century, and some of what he wrote falls far below his own principle. This Onda uses the principle and the daily order.
+
+Nothing is marked `unverified`.
+
+
+## Nietzsche
+
+File: `content/ondas/nietzsche.json` · version 1 · about 5000 words · 30 words of vocabulary, 30 journal prompts, 15 history entries, 9 concepts, 6 sources.
+
+Framing note shown in the app: Nietzsche wrote to provoke, and he has been badly misused. This Onda takes from him a discipline of affirmation, honesty and self-overcoming. It does not treat him as an authority, which he asked his readers not to do.
+
+Nothing is marked `unverified`.

@@ -1,0 +1,1236 @@
+{
+  "version": 1,
+  "id": "nietzsche",
+  "name": "Nietzsche",
+  "origin": "Germany",
+  "era": "1844 to 1900, and unsettling readers ever since",
+  "tone": "yellow",
+  "icon": "lightning",
+  "font": "abril-fatface",
+  "pattern": "mountain-ridge",
+  "glyph": "Ja",
+  "line": "Say yes to your life as it is, and become who you are.",
+  "quote": {
+    "text": "My formula for greatness in a human being is amor fati: that one wants nothing to be different, not forward, not backward, not in all eternity.",
+    "by": "Friedrich Nietzsche",
+    "source": "Ecce Homo, written 1888, Why I Am So Clever, section 10, trans. Walter Kaufmann"
+  },
+  "quotes": [
+    {
+      "text": "One must still have chaos in oneself to be able to give birth to a dancing star.",
+      "by": "Friedrich Nietzsche",
+      "source": "Thus Spoke Zarathustra, 1883, Prologue, section 5, trans. Walter Kaufmann"
+    },
+    {
+      "text": "Without music, life would be a mistake.",
+      "by": "Friedrich Nietzsche",
+      "source": "Twilight of the Idols, 1889, Maxims and Arrows 33"
+    },
+    {
+      "text": "What does your conscience say? You shall become the person you are.",
+      "by": "Friedrich Nietzsche",
+      "source": "The Gay Science, 1882, section 270, trans. Walter Kaufmann"
+    },
+    {
+      "text": "Only thoughts reached by walking have value.",
+      "by": "Friedrich Nietzsche",
+      "source": "Twilight of the Idols, 1889, Maxims and Arrows 34"
+    },
+    {
+      "text": "What does not kill me makes me stronger.",
+      "by": "Friedrich Nietzsche",
+      "source": "Twilight of the Idols, 1889, Maxims and Arrows 8"
+    },
+    {
+      "text": "I should only believe in a God that would know how to dance.",
+      "by": "Friedrich Nietzsche",
+      "source": "Thus Spoke Zarathustra, part 1, On Reading and Writing, trans. Thomas Common"
+    }
+  ],
+  "words": [
+    {
+      "id": "word-amor-fati",
+      "term": "Amor fati",
+      "meaning": "Love of fate",
+      "pronunciation": "AH-mor FAH-tee",
+      "language": "Latin",
+      "usage": "Not merely to bear what is necessary, still less to hide it, but to love it."
+    },
+    {
+      "id": "word-jasagen",
+      "term": "Jasagen",
+      "meaning": "Saying yes",
+      "pronunciation": "YAH-zah-gen",
+      "language": "German",
+      "usage": "Affirmation of life as a whole, the painful and questionable parts included. He wanted one day to be only a yes-sayer."
+    },
+    {
+      "id": "word-ubermensch",
+      "term": "Übermensch",
+      "meaning": "Overman; one who goes beyond",
+      "pronunciation": "UE-ber-mensh",
+      "language": "German",
+      "usage": "Zarathustra’s image of what humanity might yet become: a creator of values who affirms the earth. A goal, not a race or a type of ruler."
+    },
+    {
+      "id": "word-der-letzte-mensch",
+      "term": "Der letzte Mensch",
+      "meaning": "The last man",
+      "pronunciation": "dair LETS-tuh MENSH",
+      "language": "German",
+      "usage": "The opposite of the overman: comfortable, cautious, small. He has invented happiness, and he blinks."
+    },
+    {
+      "id": "word-wille-zur-macht",
+      "term": "Wille zur Macht",
+      "meaning": "Will to power",
+      "pronunciation": "VIL-uh tsoor MAKHT",
+      "language": "German",
+      "usage": "The drive of every living thing to grow, overcome and give form. Its highest expression is power over oneself."
+    },
+    {
+      "id": "word-ewige-wiederkunft",
+      "term": "Ewige Wiederkunft",
+      "meaning": "Eternal recurrence",
+      "pronunciation": "AY-vi-guh VEE-der-koonft",
+      "language": "German",
+      "usage": "The thought that this life will return again and again, identical in every detail. He called it the heaviest weight."
+    },
+    {
+      "id": "word-selbstuberwindung",
+      "term": "Selbstüberwindung",
+      "meaning": "Self-overcoming",
+      "pronunciation": "ZELPST-ue-ber-vin-doong",
+      "language": "German",
+      "usage": "Life is that which must always overcome itself. A person grows by mastering what they were."
+    },
+    {
+      "id": "word-umwertung-aller-werte",
+      "term": "Umwertung aller Werte",
+      "meaning": "Revaluation of all values",
+      "pronunciation": "OOM-vair-toong AL-er VAIR-tuh",
+      "language": "German",
+      "usage": "The task of asking what our moral values are themselves worth, and for what kind of life."
+    },
+    {
+      "id": "word-gott-ist-tot",
+      "term": "Gott ist tot",
+      "meaning": "God is dead",
+      "pronunciation": "GOT ist TOHT",
+      "language": "German",
+      "usage": "Belief in the Christian God has become unbelievable. He treats this as an event whose consequences have hardly begun."
+    },
+    {
+      "id": "word-nihilismus",
+      "term": "Nihilismus",
+      "meaning": "Nihilism",
+      "pronunciation": "ni-hi-LIS-moos",
+      "language": "German",
+      "usage": "The condition in which the highest values lose their value and nothing seems worth doing. He saw it coming and sought a way through."
+    },
+    {
+      "id": "word-ressentiment",
+      "term": "Ressentiment",
+      "meaning": "Resentment that turns into a morality",
+      "pronunciation": "ruh-sahn-tee-MAHN",
+      "language": "French, in Nietzsche's use",
+      "usage": "The stored-up grudge of those who cannot act, which revenges itself by calling the strong evil and its own weakness good."
+    },
+    {
+      "id": "word-herrenmoral",
+      "term": "Herrenmoral",
+      "meaning": "Master morality",
+      "pronunciation": "HAIR-en-mo-rahl",
+      "language": "German",
+      "usage": "A way of valuing that begins by saying yes to oneself: good means noble, capable, full. Bad is merely what falls short."
+    },
+    {
+      "id": "word-sklavenmoral",
+      "term": "Sklavenmoral",
+      "meaning": "Slave morality",
+      "pronunciation": "SKLAH-ven-mo-rahl",
+      "language": "German",
+      "usage": "A way of valuing that begins by saying no to the other: evil comes first, and good is whatever is harmless. These are types of valuing found in every person."
+    },
+    {
+      "id": "word-schlechtes-gewissen",
+      "term": "Schlechtes Gewissen",
+      "meaning": "Bad conscience",
+      "pronunciation": "SHLEKH-tes ge-VIS-en",
+      "language": "German",
+      "usage": "Aggression turned inward when it can no longer be discharged outward. The origin of guilt, and also of depth."
+    },
+    {
+      "id": "word-asketisches-ideal",
+      "term": "Asketisches Ideal",
+      "meaning": "The ascetic ideal",
+      "pronunciation": "as-KAY-tish-es ee-de-AHL",
+      "language": "German",
+      "usage": "The belief that denial of life is the path to its meaning. He finds it in priests, philosophers and scientists alike."
+    },
+    {
+      "id": "word-perspektivismus",
+      "term": "Perspektivismus",
+      "meaning": "Perspectivism",
+      "pronunciation": "per-spek-ti-VIS-moos",
+      "language": "German",
+      "usage": "There is only a seeing from somewhere. The more eyes we can bring to a thing, the more complete our concept of it."
+    },
+    {
+      "id": "word-freier-geist",
+      "term": "Freier Geist",
+      "meaning": "Free spirit",
+      "pronunciation": "FRY-er GYST",
+      "language": "German",
+      "usage": "One who has cut loose from the convictions they were raised in and can live with open questions."
+    },
+    {
+      "id": "word-frohliche-wissenschaft",
+      "term": "Fröhliche Wissenschaft",
+      "meaning": "The gay science",
+      "pronunciation": "FRUE-likh-uh VIS-en-shaft",
+      "language": "German",
+      "usage": "Knowledge pursued with lightness and laughter. The title comes from the art of the Provencal troubadours."
+    },
+    {
+      "id": "word-apollinisch",
+      "term": "Apollinisch",
+      "meaning": "Apollonian",
+      "pronunciation": "a-po-LEE-nish",
+      "language": "German",
+      "usage": "The drive to form, clarity, measure and the beautiful dream. One of the two forces of Greek art."
+    },
+    {
+      "id": "word-dionysisch",
+      "term": "Dionysisch",
+      "meaning": "Dionysian",
+      "pronunciation": "dee-o-NUE-zish",
+      "language": "German",
+      "usage": "The drive to intoxication, music and the dissolving of the self. In his late work it names the full affirmation of life."
+    },
+    {
+      "id": "word-geist-der-schwere",
+      "term": "Geist der Schwere",
+      "meaning": "The spirit of gravity",
+      "pronunciation": "GYST dair SHVAY-ruh",
+      "language": "German",
+      "usage": "Zarathustra’s devil: solemn, thorough, heavy. Through him all things fall. One kills him by laughing."
+    },
+    {
+      "id": "word-tanz",
+      "term": "Tanz",
+      "meaning": "Dance",
+      "pronunciation": "TANTS",
+      "language": "German",
+      "usage": "His image for thinking at its best: light-footed, rhythmic, bodily."
+    },
+    {
+      "id": "word-einsamkeit",
+      "term": "Einsamkeit",
+      "meaning": "Solitude",
+      "pronunciation": "YN-zam-kyt",
+      "language": "German",
+      "usage": "His home, as he called it. The condition of his thinking, and the cost."
+    },
+    {
+      "id": "word-redlichkeit",
+      "term": "Redlichkeit",
+      "meaning": "Honesty; intellectual integrity",
+      "pronunciation": "RAYT-likh-kyt",
+      "language": "German",
+      "usage": "The youngest virtue, and the one he claimed for himself: not lying to oneself about what one knows."
+    },
+    {
+      "id": "word-mitleid",
+      "term": "Mitleid",
+      "meaning": "Pity",
+      "pronunciation": "MIT-lyt",
+      "language": "German",
+      "usage": "He distrusted it. Pity can demean the one pitied and flatter the one who pities. He preferred shared joy."
+    },
+    {
+      "id": "word-vornehm",
+      "term": "Vornehm",
+      "meaning": "Noble",
+      "pronunciation": "FOR-naym",
+      "language": "German",
+      "usage": "Having reverence for oneself. The noble soul gives from fullness and does not look around for permission."
+    },
+    {
+      "id": "word-pathos-der-distanz",
+      "term": "Pathos der Distanz",
+      "meaning": "The pathos of distance",
+      "pronunciation": "PAH-tos dair dis-TANTS",
+      "language": "German",
+      "usage": "The feeling of height and difference, which he thought necessary for a person to demand more of themselves."
+    },
+    {
+      "id": "word-heiterkeit",
+      "term": "Heiterkeit",
+      "meaning": "Cheerfulness; serenity",
+      "pronunciation": "HY-ter-kyt",
+      "language": "German",
+      "usage": "A brightness won from having looked into the abyss. The Greeks, he said, were superficial out of profundity."
+    },
+    {
+      "id": "word-gro-er-mittag",
+      "term": "Großer Mittag",
+      "meaning": "The great noon",
+      "pronunciation": "GROH-ser MIT-tahk",
+      "language": "German",
+      "usage": "The moment of shortest shadow, when humanity stands midway and looks towards a new morning."
+    },
+    {
+      "id": "word-verwandlung",
+      "term": "Verwandlung",
+      "meaning": "Metamorphosis",
+      "pronunciation": "fer-VAND-loong",
+      "language": "German",
+      "usage": "The spirit becomes a camel that bears, then a lion that says no, then a child that begins anew."
+    }
+  ],
+  "practices": [
+    {
+      "id": "walk-and-think",
+      "name": "Think on your feet",
+      "icon": "mountains",
+      "slot": "Morning",
+      "time": "08:00",
+      "minutes": 60,
+      "meta": "Morning · 60 min",
+      "instructions": "Walk for an hour, uphill if you can, alone and without earphones. Carry a small notebook and a pencil. Take one question with you and let it work in your legs. When a thought arrives, stop and write it in one sentence, then walk on. Do not sit down to think today until you have walked.",
+      "why": "In the Engadine he walked six or eight hours a day and wrote his books in pencil in notebooks on the way. He said to give no credence to any thought that was not born outdoors while moving freely, when the muscles too are celebrating.",
+      "variations": [
+        "Climb something and write at the top.",
+        "Walk the same path daily for a week and watch the thoughts change.",
+        "Turn your notes into three aphorisms in the evening."
+      ]
+    },
+    {
+      "id": "heaviest-weight",
+      "name": "The heaviest weight",
+      "icon": "repeat",
+      "slot": "Morning",
+      "time": "07:00",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Imagine that a voice tells you this: the life you are living now, you will have to live again, and again without end, every pain and every joy, every thought and sigh, in the same order. Hold that for two minutes. Notice whether you want to curse the voice or bless it. Then look at the day ahead and ask of each thing you plan to do: do I want this again and again? Change one thing so that the answer is yes.",
+      "why": "Section 341 of The Gay Science presents eternal recurrence as a test and not a theory. The question in each and every thing, do you want this once more and innumerable times more, would lie on your actions as the heaviest weight.",
+      "variations": [
+        "Ask it at the moment of each decision today.",
+        "Ask it of yesterday.",
+        "Name the one moment for whose sake you would take the whole of your life again."
+      ]
+    },
+    {
+      "id": "amor-fati",
+      "name": "Amor fati",
+      "icon": "heart",
+      "slot": "Afternoon",
+      "time": "13:00",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Choose one fact of your life that you resent: an illness, a loss, a failure, a parent, your face. Write it at the top of a page. Underneath, write everything that is yours only because of it: what you learned, whom you met, what you became able to see. Then say aloud that you would not have it otherwise. If you cannot yet mean it, say that you will learn to see what is necessary in it as beautiful.",
+      "why": "He lived with near-blindness, days of migraine and vomiting, loneliness and no readers, and wrote that he owed his philosophy to his long sickness. His New Year’s resolution for 1882 was to learn to see as beautiful what is necessary in things.",
+      "variations": [
+        "Do it for something that happened today.",
+        "Do it for a trait in yourself.",
+        "Thank an enemy, silently, for what they made of you."
+      ]
+    },
+    {
+      "id": "overcome-yourself",
+      "name": "Overcome yourself",
+      "icon": "hand-fist",
+      "slot": "Afternoon",
+      "time": "16:00",
+      "minutes": 20,
+      "meta": "Afternoon · 20 min",
+      "instructions": "Find the thing you most want to avoid today and do it first. It should be hard for you in particular: the cold water, the difficult page, the call, the weight you think you cannot lift. Do it with full effort for twenty minutes. Afterwards note what resisted and what gave way. Tomorrow raise the difficulty a little.",
+      "why": "Life itself told Zarathustra its secret: I am that which must always overcome itself. Nietzsche measured freedom by the resistance that has to be overcome, and advised building one’s house on the slopes of a volcano.",
+      "variations": [
+        "End your shower cold.",
+        "Give up, for a week, one comfort you lean on.",
+        "Take the side you disagree with and argue it as well as you can."
+      ]
+    },
+    {
+      "id": "dance",
+      "name": "Music and a light foot",
+      "icon": "music-notes",
+      "slot": "Evening",
+      "time": "20:00",
+      "minutes": 20,
+      "meta": "Evening · 20 min",
+      "instructions": "Put on music that makes you want to move. He would have chosen Bizet’s Carmen. Stand up and dance to it, alone, with the door shut if you like. Be ridiculous. Keep going until you have laughed at least once. Then sit and listen to one piece through with nothing else in your hands.",
+      "why": "He improvised at the piano all his life, composed songs and said we should call every day lost on which we have not danced at least once. He heard Carmen some twenty times and held up its southern lightness against everything heavy and German.",
+      "variations": [
+        "Learn eight bars of something at an instrument.",
+        "Laugh at one thing you took too seriously today.",
+        "Go to hear live music and stand at the front."
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task-read-zarathustra-s-prologue",
+      "name": "Read Zarathustra’s Prologue",
+      "meta": "Read · 30 min",
+      "time": "20:30",
+      "slot": "Evening",
+      "action": "read"
+    },
+    {
+      "id": "task-listen-to-bizet-s-carmen-act-1",
+      "name": "Listen to Bizet’s Carmen, act 1",
+      "meta": "Listen · 50 min",
+      "time": "19:00",
+      "slot": "Evening",
+      "action": "listen"
+    },
+    {
+      "id": "task-watch-human-all-too-human-beyond-good-and-evil",
+      "name": "Watch Human, All Too Human: Beyond Good and Evil",
+      "meta": "Watch · BBC, 50 min",
+      "time": "21:00",
+      "slot": "Evening",
+      "action": "watch"
+    },
+    {
+      "id": "task-eat-a-piedmontese-lunch-soup-a-little-meat-breadsticks-fruit",
+      "name": "Eat a Piedmontese lunch: soup, a little meat, breadsticks, fruit",
+      "meta": "Eat · the Turin table",
+      "time": "12:30",
+      "slot": "Afternoon",
+      "action": "eat"
+    },
+    {
+      "id": "task-journal-what-did-you-say-yes-to-today",
+      "name": "Journal: what did you say yes to today?",
+      "meta": "Journal · 10 min",
+      "time": "21:30",
+      "slot": "Evening",
+      "action": "journal"
+    },
+    {
+      "id": "task-whose-values-are-you-living-by",
+      "name": "Whose values are you living by?",
+      "meta": "Philosophy · 10 min",
+      "time": "09:30",
+      "slot": "Morning",
+      "action": "philosophy"
+    },
+    {
+      "id": "write-three-aphorisms-from-today-s-walk",
+      "name": "Write three aphorisms from today’s walk",
+      "meta": "One sentence each",
+      "time": "18:00",
+      "slot": "Afternoon"
+    },
+    {
+      "id": "spend-two-hours-entirely-alone",
+      "name": "Spend two hours entirely alone",
+      "meta": "Solitude",
+      "time": "14:00",
+      "slot": "Afternoon"
+    },
+    {
+      "id": "notice-one-resentment-and-refuse-to-feed-it",
+      "name": "Notice one resentment and refuse to feed it",
+      "meta": "Against ressentiment",
+      "time": "11:00",
+      "slot": "Morning"
+    }
+  ],
+  "rules": [
+    {
+      "id": "r1",
+      "text": "Say yes",
+      "why": "Do not wish the day, or yourself, other than it is. Start from affirmation."
+    },
+    {
+      "id": "r2",
+      "text": "Walk before you write",
+      "why": "Give no trust to a thought that was not born in the open air."
+    },
+    {
+      "id": "r3",
+      "text": "Do the hard thing first",
+      "why": "Seek out what resists you. Comfort is the last man’s goal."
+    },
+    {
+      "id": "r4",
+      "text": "Hold no grudges",
+      "why": "Resentment poisons the one who carries it. Forget, or act, and then be done."
+    },
+    {
+      "id": "r5",
+      "text": "Be honest with yourself",
+      "why": "No convenient beliefs. Ask of every conviction what in you needs it to be true."
+    },
+    {
+      "id": "r6",
+      "text": "Dance once a day",
+      "why": "A day without lightness and laughter is lost."
+    }
+  ],
+  "immerse": {
+    "read": [
+      {
+        "id": "read-the-gay-science",
+        "title": "The Gay Science",
+        "creator": "Friedrich Nietzsche, trans. Walter Kaufmann",
+        "year": "1882; expanded 1887",
+        "why": "His sunniest book and the best one to start with. It contains the madman who announces the death of God, amor fati and the first statement of eternal recurrence."
+      },
+      {
+        "id": "read-thus-spoke-zarathustra",
+        "title": "Thus Spoke Zarathustra",
+        "creator": "Friedrich Nietzsche",
+        "year": "1883 to 1885",
+        "why": "A prophet comes down from his mountain to teach, fails, and learns. Written in a biblical, singing style. He thought it his greatest gift to humanity."
+      },
+      {
+        "id": "read-on-the-genealogy-of-morality",
+        "title": "On the Genealogy of Morality",
+        "creator": "Friedrich Nietzsche",
+        "year": "1887",
+        "why": "Three essays on where good and evil, guilt and self-denial came from. His most sustained argument."
+      },
+      {
+        "id": "read-twilight-of-the-idols",
+        "title": "Twilight of the Idols",
+        "creator": "Friedrich Nietzsche",
+        "year": "1889",
+        "why": "Written in a few days in 1888 as a summary of his thought. Short, sharp and full of the famous lines."
+      },
+      {
+        "id": "read-i-am-dynamite-a-life-of-friedrich-nietzsche",
+        "title": "I Am Dynamite: A Life of Friedrich Nietzsche",
+        "creator": "Sue Prideaux",
+        "year": "2018",
+        "why": "A vivid biography that gives full weight to the friendships, the illness and the sister."
+      },
+      {
+        "id": "read-nietzsche-philosopher-psychologist-antichrist",
+        "title": "Nietzsche: Philosopher, Psychologist, Antichrist",
+        "creator": "Walter Kaufmann",
+        "year": "1950",
+        "why": "The book that rescued him from the Nazi reading in the English-speaking world."
+      }
+    ],
+    "watch": [
+      {
+        "id": "watch-human-all-too-human-beyond-good-and-evil",
+        "title": "Human, All Too Human: Beyond Good and Evil",
+        "creator": "BBC",
+        "year": "1999",
+        "why": "A fifty-minute documentary on the life and ideas, filmed in Sils Maria and Turin."
+      },
+      {
+        "id": "watch-the-turin-horse",
+        "title": "The Turin Horse",
+        "creator": "Béla Tarr and Ágnes Hranitzky",
+        "year": "2011",
+        "why": "It opens with the story of Nietzsche embracing a beaten horse, then follows the horse home. Slow, bleak and unforgettable."
+      },
+      {
+        "id": "watch-lou-andreas-salome-the-audacity-to-be-free",
+        "title": "Lou Andreas-Salomé: The Audacity to Be Free",
+        "creator": "Cordula Kablitz-Post",
+        "year": "2016",
+        "why": "The life of the woman he loved in 1882, who went on to write the first serious book about him."
+      }
+    ],
+    "listen": [
+      {
+        "id": "listen-carmen",
+        "title": "Carmen",
+        "creator": "Georges Bizet",
+        "year": "1875",
+        "why": "The opera he set against Wagner: it does not sweat, he wrote. Its music is light, cruel, exact and African in its happiness."
+      },
+      {
+        "id": "listen-hymn-to-life",
+        "title": "Hymn to Life",
+        "creator": "Friedrich Nietzsche, text by Lou Salomé",
+        "year": "1887",
+        "why": "His only published composition, for chorus and orchestra. He hoped it would be sung in his memory."
+      },
+      {
+        "id": "listen-also-sprach-zarathustra",
+        "title": "Also sprach Zarathustra",
+        "creator": "Richard Strauss",
+        "year": "1896",
+        "why": "A tone poem freely after the book. Its sunrise opening became the most famous fanfare of the twentieth century."
+      },
+      {
+        "id": "listen-symphony-no-3-fourth-movement",
+        "title": "Symphony No. 3, fourth movement",
+        "creator": "Gustav Mahler",
+        "year": "1896",
+        "why": "An alto sings Zarathustra’s Midnight Song: the world is deep, and all joy wants eternity."
+      },
+      {
+        "id": "listen-prelude-to-tristan-und-isolde",
+        "title": "Prelude to Tristan und Isolde",
+        "creator": "Richard Wagner",
+        "year": "1865",
+        "why": "The music that overwhelmed him at sixteen. He broke with Wagner and never stopped admiring this."
+      }
+    ],
+    "art": [
+      {
+        "id": "art-friedrich-nietzsche",
+        "title": "Friedrich Nietzsche",
+        "creator": "Edvard Munch",
+        "year": "1906",
+        "why": "A posthumous portrait: the philosopher at a railing above a valley under a blazing sky. In the Thiel Gallery, Stockholm."
+      },
+      {
+        "id": "art-bust-of-nietzsche",
+        "title": "Bust of Nietzsche",
+        "creator": "Max Klinger",
+        "year": "1902 to 1904",
+        "why": "A marble herm with the great moustache and heavy brow, made for the archive in Weimar."
+      },
+      {
+        "id": "art-the-nietzsche-archive-interior",
+        "title": "The Nietzsche Archive interior",
+        "creator": "Henry van de Velde",
+        "year": "1903",
+        "why": "The ground floor of the villa in Weimar, redesigned as a single flowing work of Art Nouveau in pale wood and brass."
+      },
+      {
+        "id": "art-landscapes-with-ancient-ruins",
+        "title": "Landscapes with ancient ruins",
+        "creator": "Claude Lorrain",
+        "year": "1630s to 1670s",
+        "why": "Golden afternoon light over calm water. He said the autumn days of 1888 in Turin were a Claude Lorrain thought on into infinity."
+      }
+    ],
+    "eat": [
+      {
+        "id": "eat-minestra",
+        "title": "Minestra",
+        "creator": "A thick Piedmontese soup of vegetables, rice or pasta",
+        "why": "The first course at his trattoria in Turin, which he described in delighted letters home."
+      },
+      {
+        "id": "eat-a-small-piece-of-tender-meat-with-spinach",
+        "title": "A small piece of tender meat with spinach",
+        "creator": "Veal, plainly cooked",
+        "why": "He praised the cooking of Piedmont as the best there is, and blamed heavy German food for half of German philosophy."
+      },
+      {
+        "id": "eat-grissini",
+        "title": "Grissini",
+        "creator": "Thin crisp breadsticks",
+        "why": "The bread of Turin, which he mentions by name."
+      },
+      {
+        "id": "eat-fruit-and-honey",
+        "title": "Fruit and honey",
+        "creator": "Fresh fruit, cooked fruit, a spoonful of honey",
+        "why": "His sensitive stomach did best on small, frequent, light meals."
+      }
+    ],
+    "drink": [
+      {
+        "id": "drink-spring-water",
+        "title": "Spring water",
+        "creator": "Carried in a small cup",
+        "why": "He drank no alcohol in his later years and chose towns, Nice, Turin and Sils, where he could drink from running fountains."
+      },
+      {
+        "id": "drink-thick-cocoa",
+        "title": "Thick cocoa",
+        "creator": "Made with water, an hour before anything else",
+        "why": "His advice in Ecce Homo for beginning the day in a demanding climate."
+      },
+      {
+        "id": "drink-strong-tea",
+        "title": "Strong tea",
+        "creator": "In the morning only, never weak",
+        "why": "He thought weak tea very harmful and coffee a spreader of gloom."
+      }
+    ],
+    "customs": [
+      {
+        "id": "customs-six-hours-on-foot",
+        "title": "Six hours on foot",
+        "creator": "Walking as work",
+        "why": "At Sils Maria he rose at five, washed in cold water, worked, and then walked the lakeshore paths until evening, notebook in hand."
+      },
+      {
+        "id": "customs-the-seasonal-migration",
+        "title": "The seasonal migration",
+        "creator": "Mountains in summer, the sea in winter",
+        "why": "After leaving his chair he lived in rented rooms, moving each year between the Engadine and Genoa, Nice or Turin in search of clear dry air."
+      },
+      {
+        "id": "customs-the-aphorism",
+        "title": "The aphorism",
+        "creator": "Thoughts in a few lines",
+        "why": "He wrote in short numbered sections that can be read in any order. He said it was his ambition to say in ten sentences what others say in a book."
+      },
+      {
+        "id": "customs-solitude",
+        "title": "Solitude",
+        "creator": "A room, a table, a trunk of books",
+        "why": "He had few visitors and almost no readers. He called solitude his homeland."
+      }
+    ],
+    "games": [
+      {
+        "id": "games-dice",
+        "title": "Dice",
+        "creator": "Game of chance",
+        "year": "ancient",
+        "why": "In Zarathustra the sky is a dance floor for divine accidents and the earth a table for dice-throwing gods. Throw, and affirm what falls."
+      },
+      {
+        "id": "games-rhymes-and-riddles",
+        "title": "Rhymes and riddles",
+        "creator": "Word game",
+        "year": "1882",
+        "why": "The Gay Science opens with sixty-three teasing little poems called Jest, Cunning and Revenge. Try to answer one in kind."
+      },
+      {
+        "id": "games-swimming",
+        "title": "Swimming",
+        "creator": "Sport",
+        "year": "19th century",
+        "why": "As a schoolboy at Pforta he was a keen swimmer and wrote home about it. Cold open water suits the philosophy."
+      }
+    ],
+    "festivals": [
+      {
+        "id": "fest-nietzsche-s-birthday",
+        "title": "Nietzsche’s birthday",
+        "creator": "15 October",
+        "why": "He was born on the birthday of the Prussian king and named after him. He began Ecce Homo on his forty-fourth."
+      },
+      {
+        "id": "fest-the-nietzsche-colloquium",
+        "title": "The Nietzsche Colloquium",
+        "creator": "Late September, Sils Maria, Switzerland",
+        "why": "Four days of lectures and walks held every year since 1980 in the village where he spent his summers."
+      },
+      {
+        "id": "fest-the-city-dionysia",
+        "title": "The City Dionysia",
+        "creator": "Early spring, in ancient Athens",
+        "why": "The festival of Dionysus at which the tragedies were performed. His first book argued that Greek tragedy was born from its music."
+      }
+    ],
+    "places": [
+      {
+        "id": "place-nietzsche-house",
+        "title": "Nietzsche House",
+        "creator": "Sils Maria, Engadine, Switzerland",
+        "why": "The plain house where he rented an upstairs room for seven summers. Now a museum and a residence for scholars. The lakes and larch woods are as he described them."
+      },
+      {
+        "id": "place-the-zarathustra-stone",
+        "title": "The Zarathustra stone",
+        "creator": "Lake Silvaplana, near Surlej, Switzerland",
+        "why": "A pyramid-shaped boulder on the lakeside path where, in August 1881, the thought of eternal recurrence came to him."
+      },
+      {
+        "id": "place-the-nietzsche-path",
+        "title": "The Nietzsche path",
+        "creator": "Èze, Alpes-Maritimes, France",
+        "why": "A steep mule track from the sea up to the hilltop village. He composed part of Zarathustra while climbing it in the winter of 1883."
+      },
+      {
+        "id": "place-piazza-carlo-alberto",
+        "title": "Piazza Carlo Alberto",
+        "creator": "Turin, Italy",
+        "why": "A plaque marks the house at number six where he lived in 1888. He collapsed in the square outside on 3 January 1889."
+      },
+      {
+        "id": "place-rocken",
+        "title": "Röcken",
+        "creator": "Saxony-Anhalt, Germany",
+        "why": "The village of his birth. The parsonage is a small museum, and he is buried beside the church wall next to his father and sister."
+      },
+      {
+        "id": "place-the-nietzsche-archive",
+        "title": "The Nietzsche Archive",
+        "creator": "Weimar, Germany",
+        "why": "The villa where he spent his last three years in his sister’s care, and where she edited and distorted his papers."
+      }
+    ]
+  },
+  "ethics": [
+    {
+      "title": "Affirmation",
+      "text": "The highest stance is gratitude towards life as it is, including what is terrible in it.",
+      "practice": "Find one thing today that you would rather not have happened, and say yes to it."
+    },
+    {
+      "title": "Self-overcoming",
+      "text": "Do not stay what you are. The self is something to be surpassed again and again.",
+      "practice": "Do one thing today that the person you were last year could not have done."
+    },
+    {
+      "title": "Honesty",
+      "text": "Refuse comfortable illusions, most of all about your own motives.",
+      "practice": "Take one noble reason you gave today and look for the real one behind it."
+    },
+    {
+      "title": "Nobility",
+      "text": "Give from abundance. Do not measure yourself against others, and do not need them to be small.",
+      "practice": "Praise a rival, sincerely."
+    },
+    {
+      "title": "Freedom from resentment",
+      "text": "A strong nature does not brood on injuries. It shakes them off or answers at once.",
+      "practice": "Let one grievance go completely."
+    },
+    {
+      "title": "Shared joy over pity",
+      "text": "Rejoicing with someone honours them more than suffering over them.",
+      "practice": "Be openly glad about another person’s good fortune."
+    }
+  ],
+  "philosophy": [
+    {
+      "title": "The death of God",
+      "text": "The belief that gave Europe its values has lost its hold, and the values hang in the air. The question is what comes next.",
+      "practice": "Which of your values still rests on a belief you no longer hold?"
+    },
+    {
+      "title": "Eternal recurrence",
+      "text": "Would you live this life again, exactly, for ever? The answer measures how well disposed you are to yourself and to life.",
+      "practice": "Find the part of today you would not repeat, and ask what it would take."
+    },
+    {
+      "title": "Will to power",
+      "text": "Living things do not merely want to survive. They want to grow, to discharge strength, to shape. Mastery of oneself is its highest form.",
+      "practice": "Where did you choose growth over safety today?"
+    },
+    {
+      "title": "Master and slave moralities",
+      "text": "Some values come from self-affirmation and some from the resentment of the powerless. Both live in every modern soul.",
+      "practice": "Find one of your moral judgments that is a disguised complaint."
+    },
+    {
+      "title": "Perspectivism",
+      "text": "There are no facts without interpretation. Knowledge improves as we learn to see with more and different eyes.",
+      "practice": "Describe one quarrel from three points of view."
+    },
+    {
+      "title": "The three metamorphoses",
+      "text": "First the spirit carries heavy loads. Then it says no and wins its freedom. Then it becomes a child and creates.",
+      "practice": "Which are you now: camel, lion or child?"
+    },
+    {
+      "title": "Become who you are",
+      "text": "You are not yet yourself. A self is achieved by giving style to one’s character, strengths and weaknesses alike.",
+      "practice": "Name one weakness and find the place in your life where it could be a strength."
+    },
+    {
+      "title": "The last man and the overman",
+      "text": "Humanity can aim at comfort or at greatness. He feared it would choose comfort.",
+      "practice": "Where did you choose the easy contentment today?"
+    }
+  ],
+  "journal": [
+    "What did you say yes to today?",
+    "Would you live today again, exactly?",
+    "What do you resent, and whom does it serve?",
+    "What hard thing did you seek out?",
+    "Which thought came on foot?",
+    "Whose values are you living by?",
+    "Where did you choose comfort over growth?",
+    "What did you overcome in yourself?",
+    "What are you not being honest about?",
+    "What made you laugh?",
+    "When did you dance?",
+    "What in your past would you now call necessary?",
+    "Which grudge did you feed?",
+    "What did solitude give you?",
+    "What are you carrying that is not yours to carry?",
+    "What must you say no to?",
+    "What would you begin if you were as free as a child?",
+    "Whom did you pity, and did it help them?",
+    "Whose joy did you share?",
+    "Which conviction would you least like to examine?",
+    "What does your body know that your mind denies?",
+    "What weakness of yours is also a strength?",
+    "Where were you heavy?",
+    "What did your suffering teach you this year?",
+    "What do you believe only because it comforts you?",
+    "What would you create if no one were to praise it?",
+    "Who are you becoming?",
+    "What are you grateful to an enemy for?",
+    "What is your why?",
+    "Once more?"
+  ],
+  "reflect": [
+    "What have you learned to affirm?",
+    "What changed when you thought on your feet?",
+    "Which resentments have lost their grip?",
+    "What did seeking difficulty teach you?",
+    "Which of your values are now your own?",
+    "Who are you becoming?"
+  ],
+  "dayThemes": [
+    "Yes",
+    "On foot",
+    "The heaviest weight",
+    "Amor fati",
+    "The camel",
+    "The lion",
+    "The child",
+    "God is dead",
+    "The madman’s lantern",
+    "The last man",
+    "The tightrope",
+    "Self-overcoming",
+    "The spirit of gravity",
+    "The dancing star",
+    "Solitude",
+    "The free spirit",
+    "Honesty",
+    "Many eyes",
+    "Resentment",
+    "The noble soul",
+    "Bad conscience",
+    "What does not kill me",
+    "A why",
+    "Without music",
+    "Apollo and Dionysus",
+    "The great noon",
+    "Sils Maria",
+    "Become who you are",
+    "Once more",
+    "Eternity"
+  ],
+  "guide": {
+    "intro": [
+      "Friedrich Nietzsche was born in 1844 in the village of Röcken in Saxony, the son and grandson of Lutheran pastors. His father died when he was four. He was raised in a household of women, sent to the best classical school in Germany, and at twenty-four, before he had finished his doctorate, was appointed professor of Greek at the University of Basel. He was expected to become the great philologist of his generation.",
+      "He became something else. His first book, on the birth of Greek tragedy, was too wild for his colleagues. His health, never good, gave way: he suffered days of blinding headache and vomiting, and his eyesight was so poor that he could read and write for only short spells. In 1879 he resigned his chair. For the next ten years he lived on a small pension in boarding houses, spending summers at Sils Maria in the high Alps and winters by the Mediterranean, walking for hours each day and writing a book a year that almost nobody bought.",
+      "His subject was a crisis he believed Europe had not yet noticed. Belief in the Christian God was dying among educated people. But European morality, its ideas of good and evil, equality, pity and truth, had been built on that belief. When the foundation went, the values would eventually follow, and the result would be nihilism: the sense that nothing matters. He set himself to understand how those values had arisen in the first place and to ask whether they were good for life.",
+      "His answers were deliberately provoking. Much of morality, he argued, grew from the resentment of the weak against the strong and from a hatred of the body and this world. Against it he set a different test of value. Does a way of living express strength, health and gratitude, or weakness and revenge? He put forward the image of the overman, a humanity that would create its own values and stay faithful to the earth. He proposed the thought of eternal recurrence, the idea of living one’s life again exactly as it has been, as the measure of whether one truly affirms it. And he gave his deepest attitude a Latin name: amor fati, the love of one’s fate.",
+      "On 3 January 1889 he collapsed in a square in Turin. The story that he threw his arms round a carthorse being flogged is unconfirmed but old. He never recovered his mind, and lived eleven more years in the care of his mother and then his sister. She controlled his papers, edited them to suit her own nationalist and antisemitic views, which he had despised, and later presented him to Hitler’s movement as its philosopher. It took decades of scholarship to undo the damage.",
+      "Nietzsche is not a guide to be followed, and he said so. Zarathustra sends his disciples away to find themselves. This Onda borrows his habits and his questions: walk before you think, ask whether you would live the day again, turn a resentment into gratitude, do what is hard, and end with music."
+    ],
+    "origin": "Saxony, Basel, and then rented rooms in the Swiss Alps and on the Italian and French coasts",
+    "era": "Nietzsche was born in 1844 and wrote until his collapse in January 1889. He died in 1900",
+    "figures": [
+      {
+        "name": "Friedrich Nietzsche",
+        "dates": "1844 to 1900",
+        "bio": "Classical scholar turned philosopher, poet and composer. Gentle and formal in person, by all accounts, and ferocious on the page."
+      },
+      {
+        "name": "Arthur Schopenhauer",
+        "dates": "1788 to 1860",
+        "bio": "The pessimist whose book the student Nietzsche found in a Leipzig shop and read through in a fortnight. His first teacher, later opposed."
+      },
+      {
+        "name": "Richard Wagner",
+        "dates": "1813 to 1883",
+        "bio": "The composer who was a second father to him for eight years. The break between them was the central wound of his life."
+      },
+      {
+        "name": "Cosima Wagner",
+        "dates": "1837 to 1930",
+        "bio": "Wagner’s wife and Liszt’s daughter, whom Nietzsche revered. In his madness he addressed notes to her as Ariadne."
+      },
+      {
+        "name": "Lou Andreas-Salomé",
+        "dates": "1861 to 1937",
+        "bio": "A brilliant young Russian whom he met in Rome in 1882 and hoped to make his disciple and perhaps his wife. She refused, and later became a writer and psychoanalyst."
+      },
+      {
+        "name": "Paul Rée",
+        "dates": "1849 to 1901",
+        "bio": "Philosopher and friend with whom he shared a house in Sorrento and then a rivalry over Lou Salomé."
+      },
+      {
+        "name": "Franz Overbeck",
+        "dates": "1837 to 1905",
+        "bio": "Professor of church history at Basel and his most faithful friend, who managed his pension and went to Turin to bring him home."
+      },
+      {
+        "name": "Heinrich Köselitz, called Peter Gast",
+        "dates": "1854 to 1918",
+        "bio": "A composer who served for years as his unpaid secretary, deciphering manuscripts and reading proofs."
+      },
+      {
+        "name": "Elisabeth Förster-Nietzsche",
+        "dates": "1846 to 1935",
+        "bio": "His sister. She founded the archive, forged and suppressed letters, and compiled The Will to Power from his notebooks."
+      },
+      {
+        "name": "Georg Brandes",
+        "dates": "1842 to 1927",
+        "bio": "The Danish critic who gave the first public lectures on Nietzsche, in Copenhagen in 1888, and coined the phrase aristocratic radicalism for his thought."
+      }
+    ],
+    "history": [
+      {
+        "when": "15 October 1844",
+        "what": "Birth at Röcken",
+        "detail": "His father is the village pastor. After the father’s death in 1849 the family moves to Naumburg."
+      },
+      {
+        "when": "1858 to 1864",
+        "what": "Schulpforta",
+        "detail": "Six years at a former monastery that was Germany’s most demanding school for classics."
+      },
+      {
+        "when": "1865",
+        "what": "Schopenhauer",
+        "detail": "As a student at Leipzig he discovers The World as Will and Representation."
+      },
+      {
+        "when": "1869",
+        "what": "Professor at twenty-four",
+        "detail": "Basel appoints him on his teacher’s recommendation. He begins visiting Wagner at Tribschen on Lake Lucerne."
+      },
+      {
+        "when": "1872",
+        "what": "The Birth of Tragedy",
+        "detail": "His first book sets the Apollonian against the Dionysian and hails Wagner. Philologists attack it and his lecture room empties."
+      },
+      {
+        "when": "1876 to 1878",
+        "what": "The break with Wagner",
+        "detail": "He leaves the first Bayreuth festival in dismay. Human, All Too Human, dedicated to Voltaire, ends the friendship."
+      },
+      {
+        "when": "1879",
+        "what": "Resignation",
+        "detail": "Illness forces him to give up teaching. He begins his wandering life."
+      },
+      {
+        "when": "August 1881",
+        "what": "Six thousand feet beyond man and time",
+        "detail": "On a walk by Lake Silvaplana the thought of eternal recurrence comes to him."
+      },
+      {
+        "when": "1882",
+        "what": "The Gay Science and Lou Salomé",
+        "detail": "A year of hope and collapse. He proposes, is refused, and quarrels bitterly with his sister over it."
+      },
+      {
+        "when": "1883 to 1885",
+        "what": "Zarathustra",
+        "detail": "He writes each of the first three parts in about ten days. The fourth is printed privately in forty copies."
+      },
+      {
+        "when": "1886 to 1887",
+        "what": "Beyond Good and Evil and the Genealogy",
+        "detail": "Published at his own expense. They sell a few hundred copies."
+      },
+      {
+        "when": "1888",
+        "what": "The last year",
+        "detail": "In Turin he writes five short books in a few months, among them Twilight of the Idols and Ecce Homo."
+      },
+      {
+        "when": "3 January 1889",
+        "what": "Collapse",
+        "detail": "He breaks down in the street and sends wild letters signed Dionysus and The Crucified. He is taken to a clinic in Basel and then Jena."
+      },
+      {
+        "when": "25 August 1900",
+        "what": "Death in Weimar",
+        "detail": "By now he is famous across Europe and knows nothing of it."
+      },
+      {
+        "when": "1967 to 1977",
+        "what": "The critical edition",
+        "detail": "The Italian scholars Giorgio Colli and Mazzino Montinari publish the complete works and notebooks as he left them."
+      }
+    ],
+    "concepts": [
+      {
+        "term": "The death of God",
+        "text": "A cultural event.",
+        "detail": "In The Gay Science a madman runs into the marketplace with a lantern in daylight, crying that we have killed God. The bystanders laugh. He concludes that he has come too early."
+      },
+      {
+        "term": "Nihilism",
+        "text": "The devaluation of the highest values.",
+        "detail": "If the world has no purpose given from outside, it may seem to have none at all. Nietzsche regards this as a stage to be gone through."
+      },
+      {
+        "term": "The overman",
+        "text": "A direction for humanity.",
+        "detail": "Man is a rope stretched between the animal and the overman. The overman is the meaning of the earth: one who creates values out of affirmation."
+      },
+      {
+        "term": "Eternal recurrence",
+        "text": "The greatest weight.",
+        "detail": "The idea that everything recurs identically for ever. Whether he held it as a fact is debated. As a test of affirmation it is central."
+      },
+      {
+        "term": "Will to power",
+        "text": "The basic drive.",
+        "detail": "A hypothesis that all striving is at bottom a striving to expand and overcome. The book of that title was assembled by others from his notes and does not represent a finished work."
+      },
+      {
+        "term": "Genealogy",
+        "text": "The history of values.",
+        "detail": "A method of asking under what conditions people invented their judgments of good and evil, and what those judgments have done to them."
+      },
+      {
+        "term": "Ressentiment",
+        "text": "Creative revenge.",
+        "detail": "The revolt of those denied real action, who compensate with an imaginary revenge by reversing the values of their masters."
+      },
+      {
+        "term": "The Apollonian and the Dionysian",
+        "text": "Two art-drives.",
+        "detail": "Dream and intoxication, form and flood. Greek tragedy, he argued, was their marriage."
+      },
+      {
+        "term": "Amor fati",
+        "text": "The formula for greatness.",
+        "detail": "Wanting nothing to be different. Not resignation: a positive love of what is necessary."
+      }
+    ],
+    "facts": [
+      {
+        "text": "Nietzsche gave up his Prussian citizenship on moving to Basel and was stateless for the rest of his life."
+      },
+      {
+        "text": "He was among the first philosophers to use a typewriter, a Danish writing ball bought in 1882 because of his eyesight."
+      },
+      {
+        "text": "He composed more than seventy pieces of music, mostly songs and piano works."
+      },
+      {
+        "text": "He broke with his publisher for being an antisemite and wrote that he would have all antisemites shot. His sister married one."
+      },
+      {
+        "text": "The famous whip remark in Zarathustra is spoken by an old woman to Zarathustra, not by Nietzsche in his own voice."
+      },
+      {
+        "text": "Thus Spoke Zarathustra was issued to German soldiers in the First World War in an edition of 150,000, which would have appalled him."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Aphorism",
+        "meaning": "A short, pointed, self-contained thought"
+      },
+      {
+        "term": "Zarathustra",
+        "meaning": "The Persian prophet Zoroaster, whom Nietzsche chose as his mouthpiece because he was first to make morality the centre of things"
+      },
+      {
+        "term": "Decadence",
+        "meaning": "His term for declining life that turns against itself"
+      },
+      {
+        "term": "Philology",
+        "meaning": "The study of ancient languages and texts, his profession"
+      },
+      {
+        "term": "Bayreuth",
+        "meaning": "The Bavarian town where Wagner built his festival theatre"
+      },
+      {
+        "term": "Nachlass",
+        "meaning": "The notebooks and papers left unpublished at his collapse"
+      }
+    ],
+    "furtherReading": [
+      {
+        "title": "Friedrich Nietzsche: A Philosophical Biography",
+        "creator": "Julian Young",
+        "year": "2010",
+        "note": "The fullest account in English of the life and the works together."
+      },
+      {
+        "title": "Nietzsche: A Very Short Introduction",
+        "creator": "Michael Tanner",
+        "year": "2000",
+        "note": "A brisk, opinionated guide through the books in order."
+      },
+      {
+        "title": "Nietzsche: Life as Literature",
+        "creator": "Alexander Nehamas",
+        "year": "1985",
+        "note": "An influential reading of his thought as the project of making a life into a work of art."
+      },
+      {
+        "title": "Hiking with Nietzsche",
+        "creator": "John Kaag",
+        "year": "2018",
+        "note": "A philosopher returns to Sils Maria with his family to walk the paths and reconsider what the books meant to him at nineteen."
+      }
+    ],
+    "learnFrom": [
+      {
+        "name": "Nietzsche Source",
+        "note": "The complete critical edition of the works, notebooks and letters in German, free and searchable.",
+        "link": "http://www.nietzschesource.org"
+      },
+      {
+        "name": "Nietzsche House, Sils Maria",
+        "note": "The museum in his summer lodgings, with a library and regular lectures.",
+        "link": "https://www.nietzschehaus.ch"
+      },
+      {
+        "name": "A long path uphill",
+        "note": "His own classroom. Take one of the books in your pocket and read a single section at the top."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Nietzsche: Philosopher, Psychologist, Antichrist",
+        "creator": "Walter Kaufmann",
+        "publisher": "Princeton University Press",
+        "year": "1950; 4th edition 1974"
+      },
+      {
+        "title": "Friedrich Nietzsche: A Philosophical Biography",
+        "creator": "Julian Young",
+        "publisher": "Cambridge University Press",
+        "year": "2010"
+      },
+      {
+        "title": "I Am Dynamite: A Life of Friedrich Nietzsche",
+        "creator": "Sue Prideaux",
+        "publisher": "Faber and Faber",
+        "year": "2018"
+      },
+      {
+        "title": "The Portable Nietzsche",
+        "creator": "ed. and trans. Walter Kaufmann",
+        "publisher": "Viking",
+        "year": "1954"
+      },
+      {
+        "title": "Nietzsche: A Philosophical Biography",
+        "creator": "Rüdiger Safranski, trans. Shelley Frisch",
+        "publisher": "W. W. Norton",
+        "year": "2002"
+      },
+      {
+        "title": "Sämtliche Werke: Kritische Studienausgabe",
+        "creator": "Friedrich Nietzsche, ed. Giorgio Colli and Mazzino Montinari",
+        "publisher": "de Gruyter",
+        "year": "1980"
+      }
+    ]
+  },
+  "sensitivity": {
+    "note": "Nietzsche wrote to provoke, and he has been badly misused. This Onda takes from him a discipline of affirmation, honesty and self-overcoming. It does not treat him as an authority, which he asked his readers not to do.",
+    "requiredCaveats": [
+      "The Nazi regime claimed Nietzsche with the help of his sister’s falsified editions. He despised antisemitism and German nationalism and said so repeatedly.",
+      "Master morality and will to power describe ways of valuing and of growing. They are not a permission to dominate other people.",
+      "His remarks on women are often contemptuous, and his praise of hardness can be cruel. Read him critically.",
+      "His collapse was an illness. The romantic idea that his philosophy drove him mad has no medical basis."
+    ],
+    "reviewRequired": false
+  }
+}

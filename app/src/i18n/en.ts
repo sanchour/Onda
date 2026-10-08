@@ -83,7 +83,7 @@ export const en = {
     practices: 'Practices', rules: 'Rules', tasks: 'Tasks', immerse: 'Immerse', thinkAbout: 'Think about', seeAll: 'See All', kindPhilosophy: 'Philosophy', kindEthics: 'Ethics',
     journalDay: 'Journal · Day {{day}}', write: 'Write', editEntry: 'Edit Entry', finalReflection: 'Final reflection', reflectionDay: 'Day {{day}}', reflectionOpen: 'Ready when you are',
     begin: 'Begin Onda', endsNote: 'Beginning ends {{name}}. One Onda at a time.', length: 'Length: {{count}} days',
-    menuImmersion: 'Immersion', menuGuide: 'Full guide', menuReflection: 'Final reflection', menuEnd: 'End Onda', ended: '{{name}} ended', loading: 'Loading', how: 'How', why: 'Why', variations: 'Variations',
+    menuImmersion: 'Immersion', menuGuide: 'Full guide', menuReflection: 'Final reflection', menuEnd: 'End Onda', ended: '{{name}} ended', loading: 'Loading', how: 'How', why: 'Why', variations: 'Variations', howTo: 'How to do this', holdHint: 'Hold a practice to see how to do it.', noHowTo: 'There is no description for this practice yet.', markDone: 'Mark as done', doneToday: 'Done today',
     sensitivity: 'A note before you begin',
   },
   kinds: { all: 'All', read: 'Books', watch: 'Watch', listen: 'Listen', art: 'Art', eat: 'Food', drink: 'Drinks', customs: 'Customs', words: 'Language' },

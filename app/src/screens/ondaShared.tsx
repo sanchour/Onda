@@ -1,5 +1,5 @@
 import type { TFunction } from 'i18next'
-import { useMemo } from 'react'
+import { useMemo, useRef } from 'react'
 import { useTranslation } from 'react-i18next'
 import type { OndaContent, OndaIndex, Practice } from '@/content/schema'
 import type { OndaLook } from '@/content/themes'
@@ -87,14 +87,77 @@ export function DayBar({ day, length, strong }: { day: number; length: number; s
   )
 }
 
-export function PracticeRow({ p, done, onToggle, small }: { p: Pick<Practice, 'id' | 'name' | 'icon' | 'meta'>; done: boolean; onToggle: () => void; small?: boolean }) {
+/** Where a practice row lives, so that holding it can offer "How to do this" in that Onda's look. */
+export interface PracticeInfo {
+  ondaId: string
+  style?: React.CSSProperties
+  /** The Onda id when themes are on. */
+  onda?: string
+}
+
+/** Tap ticks the practice. Holding it (or a right click) opens a small menu with "How to do this". */
+export function PracticeRow({ p, done, onToggle, small, info }: { p: Pick<Practice, 'id' | 'name' | 'icon' | 'meta'>; done: boolean; onToggle: () => void; small?: boolean; info?: PracticeInfo }) {
+  const { t } = useTranslation()
+  const ref = useRef<HTMLButtonElement>(null)
+  const press = useRef<{ timer?: ReturnType<typeof setTimeout>; fired: boolean; x: number; y: number }>({ fired: false, x: 0, y: 0 })
+  const cancel = () => clearTimeout(press.current.timer)
+  const openHow = () => {
+    if (!info || !ref.current) return
+    haptic('impact')
+    const r = ref.current.getBoundingClientRect()
+    nav().openMenu({
+      anchor: { top: r.top, bottom: r.bottom, left: r.left + 12, right: r.right },
+      width: 264,
+      dim: true,
+      scope: { style: info.style, onda: info.onda },
+      items: [{ label: t('onda.howTo'), icon: 'info', onClick: () => nav().openSheet({ name: 'practiceInfo', ondaId: info.ondaId, practiceId: p.id }) }],
+    })
+  }
   return (
     <button
+      ref={ref}
       type="button"
       role="checkbox"
       aria-checked={done}
+      aria-haspopup={info ? 'menu' : undefined}
       className={small ? `${o.pRow} ${o.pRowSm}` : o.pRow}
+      onPointerDown={(e) => {
+        if (!info) return
+        const st = press.current
+        st.fired = false
+        st.x = e.clientX
+        st.y = e.clientY
+        cancel()
+        st.timer = setTimeout(() => {
+          st.fired = true
+          openHow()
+        }, 450)
+      }}
+      onPointerMove={(e) => {
+        if (Math.abs(e.clientX - press.current.x) + Math.abs(e.clientY - press.current.y) > 10) cancel()
+      }}
+      onPointerUp={cancel}
+      onPointerLeave={cancel}
+      onPointerCancel={cancel}
+      onContextMenu={(e) => {
+        if (!info) return
+        e.preventDefault()
+        cancel()
+        // a touch hold has already opened the menu by the time the browser reports it
+        if (!press.current.fired) openHow()
+      }}
+      onKeyDown={(e) => {
+        if (info && (e.key === 'ContextMenu' || (e.shiftKey && e.key === 'F10'))) {
+          e.preventDefault()
+          openHow()
+        }
+      }}
       onClick={() => {
+        // the release that ends a hold opened the menu; it does not also tick the practice
+        if (press.current.fired) {
+          press.current.fired = false
+          return
+        }
         haptic(done ? 'select' : 'success')
         onToggle()
       }}

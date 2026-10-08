@@ -1,0 +1,1212 @@
+{
+  "version": 1,
+  "id": "kant",
+  "name": "Kant",
+  "origin": "Prussia",
+  "era": "1724 to 1804, and argued with ever since",
+  "tone": "blue",
+  "icon": "shooting-star",
+  "font": "old-standard-tt",
+  "pattern": "starry-sky",
+  "glyph": "Pflicht",
+  "line": "Think for yourself, and act only as you could will everyone to act.",
+  "quote": {
+    "text": "Two things fill the mind with ever new and increasing admiration and awe, the oftener and the more steadily we reflect on them: the starry heavens above and the moral law within.",
+    "by": "Immanuel Kant",
+    "source": "Critique of Practical Reason, 1788, Conclusion, trans. T. K. Abbott"
+  },
+  "quotes": [
+    {
+      "text": "Act only on that maxim whereby thou canst at the same time will that it should become a universal law.",
+      "by": "Immanuel Kant",
+      "source": "Groundwork of the Metaphysics of Morals, 1785, section 2, trans. T. K. Abbott"
+    },
+    {
+      "text": "So act as to treat humanity, whether in thine own person or in that of any other, in every case as an end withal, never as means only.",
+      "by": "Immanuel Kant",
+      "source": "Groundwork of the Metaphysics of Morals, 1785, section 2, trans. T. K. Abbott"
+    },
+    {
+      "text": "Sapere aude! Have courage to use your own understanding!",
+      "by": "Immanuel Kant",
+      "source": "An Answer to the Question: What Is Enlightenment?, 1784, trans. H. B. Nisbet"
+    },
+    {
+      "text": "Thoughts without content are empty, intuitions without concepts are blind.",
+      "by": "Immanuel Kant",
+      "source": "Critique of Pure Reason, A51/B75, trans. Norman Kemp Smith"
+    },
+    {
+      "text": "Out of the crooked timber of humanity no straight thing was ever made.",
+      "by": "Immanuel Kant",
+      "source": "Idea for a Universal History with a Cosmopolitan Purpose, 1784, sixth proposition, as rendered by Isaiah Berlin"
+    },
+    {
+      "text": "Nothing can possibly be conceived in the world, or even out of it, which can be called good without qualification, except a Good Will.",
+      "by": "Immanuel Kant",
+      "source": "Groundwork of the Metaphysics of Morals, 1785, opening of section 1, trans. T. K. Abbott"
+    }
+  ],
+  "words": [
+    {
+      "id": "word-pflicht",
+      "term": "Pflicht",
+      "meaning": "Duty",
+      "pronunciation": "PFLIKHT",
+      "language": "German",
+      "usage": "What the moral law requires of you, whether you feel like it or not. An act has moral worth when it is done from duty."
+    },
+    {
+      "id": "word-guter-wille",
+      "term": "Guter Wille",
+      "meaning": "Good will",
+      "pronunciation": "GOO-ter VIL-uh",
+      "language": "German",
+      "usage": "The only thing good without qualification. Talents, wealth and even happiness can be misused. A good will cannot."
+    },
+    {
+      "id": "word-kategorischer-imperativ",
+      "term": "Kategorischer Imperativ",
+      "meaning": "Categorical imperative",
+      "pronunciation": "ka-te-GOH-rish-er im-pe-ra-TEEF",
+      "language": "German",
+      "usage": "A command that holds without any if. It is the supreme principle of morality, and Kant gives it several formulations."
+    },
+    {
+      "id": "word-maxime",
+      "term": "Maxime",
+      "meaning": "Maxim",
+      "pronunciation": "mak-SEE-muh",
+      "language": "German",
+      "usage": "The personal rule on which you are actually acting: when I am in such a case, I will do this, for this reason."
+    },
+    {
+      "id": "word-autonomie",
+      "term": "Autonomie",
+      "meaning": "Autonomy; self-legislation",
+      "pronunciation": "ow-to-no-MEE",
+      "language": "German",
+      "usage": "The will giving the law to itself through reason. For Kant this, and nothing else, is freedom."
+    },
+    {
+      "id": "word-heteronomie",
+      "term": "Heteronomie",
+      "meaning": "Heteronomy",
+      "pronunciation": "he-te-ro-no-MEE",
+      "language": "German",
+      "usage": "Being ruled from outside the rational will: by desire, fear, custom, reward or another person’s command."
+    },
+    {
+      "id": "word-wurde",
+      "term": "Würde",
+      "meaning": "Dignity",
+      "pronunciation": "VUER-duh",
+      "language": "German",
+      "usage": "A worth beyond all price. Things have a price and can be replaced. Persons have dignity."
+    },
+    {
+      "id": "word-zweck-an-sich",
+      "term": "Zweck an sich",
+      "meaning": "End in itself",
+      "pronunciation": "TSVEK an ZIKH",
+      "language": "German",
+      "usage": "What a rational being is. It may never be treated merely as a tool for someone’s purposes, including its own."
+    },
+    {
+      "id": "word-reich-der-zwecke",
+      "term": "Reich der Zwecke",
+      "meaning": "Kingdom of ends",
+      "pronunciation": "RYKH dair TSVEK-uh",
+      "language": "German",
+      "usage": "The ideal community in which everyone is both lawgiver and subject and no one is merely used."
+    },
+    {
+      "id": "word-achtung",
+      "term": "Achtung",
+      "meaning": "Respect; reverence",
+      "pronunciation": "AKH-toong",
+      "language": "German",
+      "usage": "The one feeling that reason itself produces: what we feel before the moral law and before persons."
+    },
+    {
+      "id": "word-neigung",
+      "term": "Neigung",
+      "meaning": "Inclination",
+      "pronunciation": "NY-goong",
+      "language": "German",
+      "usage": "Habitual desire. It is not bad, but an act done only from inclination has no moral worth, even when it is the right act."
+    },
+    {
+      "id": "word-vernunft",
+      "term": "Vernunft",
+      "meaning": "Reason",
+      "pronunciation": "fer-NOONFT",
+      "language": "German",
+      "usage": "The faculty of principles, which seeks the unconditioned. It is the source of the moral law, and also of illusions when it oversteps."
+    },
+    {
+      "id": "word-verstand",
+      "term": "Verstand",
+      "meaning": "Understanding",
+      "pronunciation": "fer-SHTANT",
+      "language": "German",
+      "usage": "The faculty of concepts and rules, which organises what the senses deliver into experience."
+    },
+    {
+      "id": "word-anschauung",
+      "term": "Anschauung",
+      "meaning": "Intuition",
+      "pronunciation": "AN-show-oong",
+      "language": "German",
+      "usage": "Immediate awareness of something given. For humans it is always sensible, and its forms are space and time."
+    },
+    {
+      "id": "word-erscheinung",
+      "term": "Erscheinung",
+      "meaning": "Appearance",
+      "pronunciation": "er-SHY-noong",
+      "language": "German",
+      "usage": "A thing as it shows itself to us, shaped by our ways of perceiving and thinking. All our knowledge is of appearances."
+    },
+    {
+      "id": "word-ding-an-sich",
+      "term": "Ding an sich",
+      "meaning": "Thing in itself",
+      "pronunciation": "DING an ZIKH",
+      "language": "German",
+      "usage": "A thing as it is apart from our experience of it. We must think it, and we can never know it."
+    },
+    {
+      "id": "word-noumenon",
+      "term": "Noumenon",
+      "meaning": "An object of pure thought",
+      "pronunciation": "NOO-me-non",
+      "language": "Greek, in Kant's use",
+      "usage": "The thing in itself considered as what a non-sensible intellect would know. A boundary concept."
+    },
+    {
+      "id": "word-a-priori",
+      "term": "A priori",
+      "meaning": "Independent of experience",
+      "pronunciation": "ah pree-OH-ree",
+      "language": "Latin",
+      "usage": "Known without appeal to observation, and so necessary and universal. Mathematics is Kant’s chief example."
+    },
+    {
+      "id": "word-transzendental",
+      "term": "Transzendental",
+      "meaning": "Transcendental",
+      "pronunciation": "trans-tsen-den-TAHL",
+      "language": "German",
+      "usage": "Concerned with the conditions that make experience possible at all. Not the same as transcendent, which means beyond experience."
+    },
+    {
+      "id": "word-kritik",
+      "term": "Kritik",
+      "meaning": "Critique",
+      "pronunciation": "kri-TEEK",
+      "language": "German",
+      "usage": "An examination by reason of its own powers and limits, before it claims to know anything."
+    },
+    {
+      "id": "word-aufklarung",
+      "term": "Aufklärung",
+      "meaning": "Enlightenment",
+      "pronunciation": "OWF-klair-oong",
+      "language": "German",
+      "usage": "Emergence from the inability to use one’s own understanding without another’s guidance."
+    },
+    {
+      "id": "word-mundigkeit",
+      "term": "Mündigkeit",
+      "meaning": "Maturity; being of age",
+      "pronunciation": "MUEN-dikh-kyt",
+      "language": "German",
+      "usage": "Speaking for oneself. Its opposite, Unmündigkeit, is self-incurred when the cause is laziness or cowardice."
+    },
+    {
+      "id": "word-sapere-aude",
+      "term": "Sapere aude",
+      "meaning": "Dare to be wise",
+      "pronunciation": "SAH-pe-reh OW-deh",
+      "language": "Latin",
+      "usage": "From Horace. Kant made it the motto of the Enlightenment."
+    },
+    {
+      "id": "word-urteilskraft",
+      "term": "Urteilskraft",
+      "meaning": "Power of judgment",
+      "pronunciation": "OOR-tyls-kraft",
+      "language": "German",
+      "usage": "The ability to apply a rule to a case. It cannot itself be taught by rules, only practised."
+    },
+    {
+      "id": "word-das-erhabene",
+      "term": "Das Erhabene",
+      "meaning": "The sublime",
+      "pronunciation": "das er-HAH-be-nuh",
+      "language": "German",
+      "usage": "The feeling before what is vast or overwhelming, such as a storm at sea or the night sky, in which we discover something in us that is greater."
+    },
+    {
+      "id": "word-sittengesetz",
+      "term": "Sittengesetz",
+      "meaning": "Moral law",
+      "pronunciation": "ZIT-en-ge-zets",
+      "language": "German",
+      "usage": "The law of freedom, known by reason and binding on every rational being."
+    },
+    {
+      "id": "word-freiheit",
+      "term": "Freiheit",
+      "meaning": "Freedom",
+      "pronunciation": "FRY-hyt",
+      "language": "German",
+      "usage": "Independence from being determined by impulse, and the power to act on a law one gives oneself."
+    },
+    {
+      "id": "word-gluckseligkeit",
+      "term": "Glückseligkeit",
+      "meaning": "Happiness",
+      "pronunciation": "GLUEK-zay-likh-kyt",
+      "language": "German",
+      "usage": "The satisfaction of all one’s inclinations. Everyone wants it, and it cannot be the basis of morality. The task is to be worthy of it."
+    },
+    {
+      "id": "word-weltburger",
+      "term": "Weltbürger",
+      "meaning": "Citizen of the world",
+      "pronunciation": "VELT-buer-ger",
+      "language": "German",
+      "usage": "The standpoint of one who thinks of humankind as a whole. Kant proposed a cosmopolitan right of hospitality for strangers."
+    },
+    {
+      "id": "word-ewiger-friede",
+      "term": "Ewiger Friede",
+      "meaning": "Perpetual peace",
+      "pronunciation": "AY-vi-ger FREE-duh",
+      "language": "German",
+      "usage": "The goal of Kant’s essay of 1795: a federation of free states that has abolished war."
+    }
+  ],
+  "practices": [
+    {
+      "id": "es-ist-zeit",
+      "name": "It is time",
+      "icon": "alarm",
+      "slot": "Morning",
+      "time": "05:00",
+      "minutes": 60,
+      "meta": "Morning · 60 min",
+      "instructions": "Get up at a fixed early hour, the same every day, the moment you are called. Do not negotiate with the alarm. Drink a cup or two of weak tea. Then, before any work or any screen, give the first hour to thinking: sit with a notebook, set out what you owe to whom today, and think through one question slowly on paper. Begin work at a set time.",
+      "why": "For decades Kant’s servant Martin Lampe woke him at five with the words Es ist Zeit, it is time. Kant asked him to witness that he had never once failed to get up. He drank tea, smoked a single pipe and meditated until his lectures began at seven.",
+      "variations": [
+        "Keep the same rising time for thirty days, weekends included.",
+        "Use the hour to plan the day’s duties in order.",
+        "If five is impossible, fix another hour and never move it."
+      ]
+    },
+    {
+      "id": "test-the-maxim",
+      "name": "Test the maxim",
+      "icon": "scales",
+      "slot": "Morning",
+      "time": "10:00",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Take one thing you intend to do today that you are not quite easy about. Write its maxim honestly in one sentence: when I am in this situation, I will do this, in order to get that. First test: could everyone act on that rule? Would the world in which they did still allow your own plan to work, and could you will to live in it? Second test: does it use anyone, yourself included, merely as a means to an end? If it fails either, do not do it.",
+      "why": "This is the categorical imperative in its first two formulations, applied as Kant applies it to his own examples of the false promise and the neglected talent. It asks only for consistency: no exceptions for yourself.",
+      "variations": [
+        "Test a small lie you were planning to tell.",
+        "Test something you did yesterday.",
+        "Find the true maxim behind a habit, and write it without flattering yourself."
+      ]
+    },
+    {
+      "id": "table-company",
+      "name": "Dine in company",
+      "icon": "fork-knife",
+      "slot": "Afternoon",
+      "time": "13:00",
+      "minutes": 60,
+      "meta": "Afternoon · 60 min",
+      "instructions": "Eat your main meal with other people and take time over it. Invite between two and eight guests of different trades and ages. Serve plain good food. Lead the talk in three stages: first the news, then discussion and reasoning, and last jokes and play. Keep shop talk and heavy philosophy off the table. See that everyone speaks and nobody is exposed.",
+      "why": "Kant ate one meal a day, at one o’clock, and never alone, which he thought unhealthy for a scholar. His rule from Lord Chesterfield was that the company should number no fewer than the Graces and no more than the Muses. He wrote that such a meal promotes humanity.",
+      "variations": [
+        "Invite someone outside your own field.",
+        "Give each guest their own small carafe so no one has to ask.",
+        "After the meal, repeat nothing that was said in confidence."
+      ]
+    },
+    {
+      "id": "the-walk",
+      "name": "The philosopher’s walk",
+      "icon": "person-simple-walk",
+      "slot": "Afternoon",
+      "time": "15:30",
+      "minutes": 60,
+      "meta": "Afternoon · 60 min",
+      "instructions": "Walk at the same hour every day, on the same route, in any weather. Go alone. Breathe through your nose and do not talk. Keep an even pace and never hurry so much that you sweat. Let your mind range freely over what you worked on in the morning. Do not take a phone out of your pocket.",
+      "why": "Kant’s afternoon walk was so regular that the people of Königsberg were said to set their clocks by it. He walked alone so that he would not have to open his mouth in the cold air. The path along the river became known as the Philosopher’s Walk.",
+      "variations": [
+        "Walk eight times up and down the same short path, as he did under the lindens.",
+        "Miss the walk only for something as good as the book that once made him miss his.",
+        "Walk in rain with a servant, or a friend, carrying the umbrella behind."
+      ]
+    },
+    {
+      "id": "stars-and-law",
+      "name": "The starry heavens and the moral law",
+      "icon": "shooting-star",
+      "slot": "Evening",
+      "time": "21:30",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Go outside or to a window and look at the night sky for five minutes. Let the scale of it make you small. Then turn to the other thing. Go back over the day and ask three questions. Did I do what I ought, because I ought? Did I make an exception of myself anywhere? Did I treat any person merely as a means? Answer plainly. Go to bed at a fixed hour.",
+      "why": "The conclusion of the Critique of Practical Reason sets the two side by side. The sky annihilates my importance as an animal creature. The moral law raises my worth as a person without limit. Kant went to bed at ten, every night.",
+      "variations": [
+        "On a cloudy night, find a photograph of a deep field of galaxies.",
+        "Write down one act of the day that had real moral worth.",
+        "Name one person you owe an apology, and plan it."
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task-read-what-is-enlightenment",
+      "name": "Read What Is Enlightenment?",
+      "meta": "Read · 20 min",
+      "time": "20:00",
+      "slot": "Evening",
+      "action": "read"
+    },
+    {
+      "id": "task-read-the-first-section-of-the-groundwork",
+      "name": "Read the first section of the Groundwork",
+      "meta": "Read · 45 min",
+      "time": "07:00",
+      "slot": "Morning",
+      "action": "read"
+    },
+    {
+      "id": "task-listen-to-the-finale-of-beethoven-s-ninth-symphony",
+      "name": "Listen to the finale of Beethoven’s Ninth Symphony",
+      "meta": "Listen · 25 min",
+      "time": "19:00",
+      "slot": "Evening",
+      "action": "listen"
+    },
+    {
+      "id": "task-eat-cod-with-mustard-and-buttered-root-vegetables",
+      "name": "Eat cod with mustard and buttered root vegetables",
+      "meta": "Eat · his favourite dish",
+      "time": "13:00",
+      "slot": "Afternoon",
+      "action": "eat"
+    },
+    {
+      "id": "task-journal-where-did-you-make-an-exception-of-yourself",
+      "name": "Journal: where did you make an exception of yourself?",
+      "meta": "Journal · 10 min",
+      "time": "21:00",
+      "slot": "Evening",
+      "action": "journal"
+    },
+    {
+      "id": "task-the-murderer-at-the-door-may-you-lie",
+      "name": "The murderer at the door: may you lie?",
+      "meta": "Philosophy · 10 min",
+      "time": "08:30",
+      "slot": "Morning",
+      "action": "philosophy"
+    },
+    {
+      "id": "form-your-own-judgment-on-one-question-before-reading-anyone-else-s",
+      "name": "Form your own judgment on one question before reading anyone else’s",
+      "meta": "Sapere aude",
+      "time": "09:00",
+      "slot": "Morning"
+    },
+    {
+      "id": "keep-one-promise-that-has-become-inconvenient",
+      "name": "Keep one promise that has become inconvenient",
+      "meta": "Duty",
+      "time": "11:00",
+      "slot": "Morning"
+    },
+    {
+      "id": "do-one-kind-thing-you-do-not-feel-like-doing",
+      "name": "Do one kind thing you do not feel like doing",
+      "meta": "From duty, not inclination",
+      "time": "16:30",
+      "slot": "Afternoon"
+    }
+  ],
+  "rules": [
+    {
+      "id": "r1",
+      "text": "Rise at the fixed hour",
+      "why": "No bargaining with the clock. A regular day leaves the mind free for what matters."
+    },
+    {
+      "id": "r2",
+      "text": "Never lie",
+      "why": "A lie uses the other person’s reason against them and makes your own word worthless."
+    },
+    {
+      "id": "r3",
+      "text": "Make no exception of yourself",
+      "why": "If you could not want everyone to do it, you may not do it either."
+    },
+    {
+      "id": "r4",
+      "text": "Never use a person merely as a means",
+      "why": "Everyone you deal with has purposes of their own. Act so that they could agree to how you treat them."
+    },
+    {
+      "id": "r5",
+      "text": "Think for yourself",
+      "why": "Do not hand your judgment to a book, a pastor or a doctor. Have the courage to use your own understanding."
+    },
+    {
+      "id": "r6",
+      "text": "Keep your promises",
+      "why": "Your word given is a duty owed, whatever your mood when it falls due."
+    }
+  ],
+  "immerse": {
+    "read": [
+      {
+        "id": "read-an-answer-to-the-question-what-is-enlightenment",
+        "title": "An Answer to the Question: What Is Enlightenment?",
+        "creator": "Immanuel Kant",
+        "year": "1784",
+        "why": "Eight pages written for a Berlin monthly. Laziness and cowardice keep people under guardians. The remedy is the freedom to argue in public."
+      },
+      {
+        "id": "read-groundwork-of-the-metaphysics-of-morals",
+        "title": "Groundwork of the Metaphysics of Morals",
+        "creator": "Immanuel Kant, trans. Mary Gregor",
+        "year": "1785",
+        "why": "The short book that states the categorical imperative. Hard going in places, and the foundation of modern ethics."
+      },
+      {
+        "id": "read-toward-perpetual-peace",
+        "title": "Toward Perpetual Peace",
+        "creator": "Immanuel Kant",
+        "year": "1795",
+        "why": "A mock treaty proposing republics, a federation of nations and a right of hospitality. An ancestor of the United Nations."
+      },
+      {
+        "id": "read-kant-a-biography",
+        "title": "Kant: A Biography",
+        "creator": "Manfred Kuehn",
+        "year": "2001",
+        "why": "The standard life. It shows a sociable, witty man behind the legend of the walking clock."
+      },
+      {
+        "id": "read-kant-a-very-short-introduction",
+        "title": "Kant: A Very Short Introduction",
+        "creator": "Roger Scruton",
+        "year": "2001",
+        "why": "The whole system in a hundred and forty pages, clearly."
+      },
+      {
+        "id": "read-the-last-days-of-immanuel-kant",
+        "title": "The Last Days of Immanuel Kant",
+        "creator": "Thomas De Quincey",
+        "year": "1827",
+        "why": "A moving essay drawn from the memoir of Kant’s last assistant, on the old man’s decline and his unbroken courtesy."
+      }
+    ],
+    "watch": [
+      {
+        "id": "watch-the-last-days-of-immanuel-kant",
+        "title": "The Last Days of Immanuel Kant",
+        "creator": "Philippe Collin",
+        "year": "1994",
+        "why": "A quiet black and white French film after De Quincey: the rituals of the household and the mind slowly failing."
+      },
+      {
+        "id": "watch-the-good-place",
+        "title": "The Good Place",
+        "creator": "Michael Schur",
+        "year": "2016 to 2020",
+        "why": "A comedy series set in the afterlife whose anxious hero is a professor of ethics. Kant is quoted in most episodes and usually loses to circumstances."
+      },
+      {
+        "id": "watch-12-angry-men",
+        "title": "12 Angry Men",
+        "creator": "Sidney Lumet",
+        "year": "1957",
+        "why": "One juror insists on reasoning it through when eleven want to go home. The public use of reason in a locked room."
+      }
+    ],
+    "listen": [
+      {
+        "id": "listen-symphony-no-9-in-d-minor",
+        "title": "Symphony No. 9 in D minor",
+        "creator": "Ludwig van Beethoven",
+        "year": "1824",
+        "why": "Beethoven copied Kant’s sentence about the starry heavens and the moral law into a conversation book in 1820. The finale sets Schiller’s hymn to human brotherhood."
+      },
+      {
+        "id": "listen-the-creation",
+        "title": "The Creation",
+        "creator": "Joseph Haydn",
+        "year": "1798",
+        "why": "An oratorio from Kant’s last years. The chorus The heavens are telling is the Enlightenment’s sky in sound."
+      },
+      {
+        "id": "listen-kant-s-categorical-imperative",
+        "title": "Kant’s Categorical Imperative",
+        "creator": "In Our Time, BBC Radio 4",
+        "year": "2017",
+        "why": "Three philosophers explain and test the principle in forty-five minutes."
+      },
+      {
+        "id": "listen-prussian-military-marches",
+        "title": "Prussian military marches",
+        "creator": "Various, such as the Hohenfriedberger Marsch",
+        "year": "18th century",
+        "why": "Kant had little taste for music, calling it the least of the arts, but he is reported to have enjoyed a military band."
+      }
+    ],
+    "art": [
+      {
+        "id": "art-portrait-of-immanuel-kant",
+        "title": "Portrait of Immanuel Kant",
+        "creator": "Johann Gottlieb Becker",
+        "year": "1768",
+        "why": "The best-known likeness: a slight man of forty-four in a brown coat with an alert, amused face. Painted for his bookseller."
+      },
+      {
+        "id": "art-kant-and-his-table-companions",
+        "title": "Kant and His Table Companions",
+        "creator": "Emil Doerstling",
+        "year": "1892 to 1893",
+        "why": "A later imagining of the daily dinner, with his friends of many professions around the table."
+      },
+      {
+        "id": "art-wanderer-above-the-sea-of-fog",
+        "title": "Wanderer above the Sea of Fog",
+        "creator": "Caspar David Friedrich",
+        "year": "about 1818",
+        "why": "A man stands on a rock above the clouds. The standard image of the sublime as Kant described it. In the Hamburger Kunsthalle."
+      },
+      {
+        "id": "art-monument-to-kant",
+        "title": "Monument to Kant",
+        "creator": "Christian Daniel Rauch",
+        "year": "1864; recast 1992",
+        "why": "A bronze of the philosopher with his hat under his arm. The original vanished in 1945, and a copy now stands in Kaliningrad."
+      }
+    ],
+    "eat": [
+      {
+        "id": "eat-cod",
+        "title": "Cod",
+        "creator": "Poached, with butter",
+        "why": "Kabeljau was his favourite dish. He said he could eat it at any hour."
+      },
+      {
+        "id": "eat-mustard",
+        "title": "Mustard",
+        "creator": "Mixed fresh at the table",
+        "why": "He prepared his own mustard and took it with almost everything."
+      },
+      {
+        "id": "eat-teltow-turnips",
+        "title": "Teltow turnips",
+        "creator": "Small sweet turnips glazed in butter",
+        "why": "A Prussian delicacy he had sent from Berlin, and one of the few things he was particular about."
+      },
+      {
+        "id": "eat-bread-butter-and-cheese",
+        "title": "Bread, butter and cheese",
+        "creator": "To end the meal",
+        "why": "Dinner was three plain courses with cheese last, sometimes with fruit from the garden."
+      }
+    ],
+    "drink": [
+      {
+        "id": "drink-weak-tea",
+        "title": "Weak tea",
+        "creator": "Two cups on rising",
+        "why": "Taken at five in the morning with his one pipe of the day."
+      },
+      {
+        "id": "drink-red-wine",
+        "title": "Red wine",
+        "creator": "Medoc, a small bottle to each guest",
+        "why": "Each person at his table had their own carafe. He drank moderately and thought wine loosened the tongue and opened the heart."
+      },
+      {
+        "id": "drink-water",
+        "title": "Water",
+        "creator": "With the meal",
+        "why": "He disliked beer and called it a slow poison. Coffee he loved and for most of his life refused himself."
+      }
+    ],
+    "customs": [
+      {
+        "id": "customs-the-fixed-day",
+        "title": "The fixed day",
+        "creator": "Rise at five, lecture at seven, dine at one, walk in the afternoon, bed at ten",
+        "why": "He kept the same order for some forty years."
+      },
+      {
+        "id": "customs-the-dinner-guests",
+        "title": "The dinner guests",
+        "creator": "Never alone, never more than nine",
+        "why": "Invitations went out the same morning so that no one need break another engagement. The talk lasted until four or five."
+      },
+      {
+        "id": "customs-staying-at-home",
+        "title": "Staying at home",
+        "creator": "Königsberg and its surroundings",
+        "why": "He never travelled more than a few days’ journey from the city where he was born, and learned about the world from books and from sea captains at his table."
+      },
+      {
+        "id": "customs-lecturing",
+        "title": "Lecturing",
+        "creator": "Everything from physics to fireworks",
+        "why": "He taught geography, anthropology, mathematics and ethics as well as philosophy, and was known as a lively speaker."
+      }
+    ],
+    "games": [
+      {
+        "id": "games-billiards",
+        "title": "Billiards",
+        "creator": "Table game",
+        "year": "18th century",
+        "why": "As a poor student Kant played so well that he supplemented his income with his winnings, until nobody would play him."
+      },
+      {
+        "id": "games-l-hombre",
+        "title": "L’hombre",
+        "creator": "Card game · Spain, then all Europe",
+        "year": "17th and 18th century",
+        "why": "A three-handed trick-taking game of bidding. Kant played it in the evenings as a young man and thought it good exercise for the mind."
+      },
+      {
+        "id": "games-the-seven-bridges-of-konigsberg",
+        "title": "The seven bridges of Königsberg",
+        "creator": "Walking puzzle",
+        "year": "posed about 1735",
+        "why": "Can you cross each of the city’s seven bridges exactly once? Euler proved it impossible and founded graph theory. Kant crossed several on his way to dinner."
+      }
+    ],
+    "festivals": [
+      {
+        "id": "fest-kant-s-birthday-and-the-bean-supper",
+        "title": "Kant’s birthday and the Bean Supper",
+        "creator": "22 April",
+        "why": "Since 1805 the Society of Friends of Kant has dined on this day. Whoever finds a silver bean in the cake becomes Bean King and gives next year’s speech."
+      },
+      {
+        "id": "fest-human-rights-day",
+        "title": "Human Rights Day",
+        "creator": "10 December",
+        "why": "Marks the Universal Declaration of 1948, whose first article speaks of the dignity and reason of every person."
+      },
+      {
+        "id": "fest-world-philosophy-day",
+        "title": "World Philosophy Day",
+        "creator": "The third Thursday of November",
+        "why": "Declared by UNESCO. Many universities and cafes hold open discussions."
+      }
+    ],
+    "places": [
+      {
+        "id": "place-kant-s-tomb-and-the-cathedral",
+        "title": "Kant’s tomb and the Cathedral",
+        "creator": "Kant Island, Kaliningrad, Russia",
+        "why": "The colonnaded tomb stands against the wall of the restored brick cathedral, which houses a Kant museum. Check current travel advice before planning a visit."
+      },
+      {
+        "id": "place-the-kant-house-at-veselovka",
+        "title": "The Kant house at Veselovka",
+        "creator": "Chernyakhovsk district, Kaliningrad region, Russia",
+        "why": "The parsonage of the former village of Judtschen, where he worked as a tutor in his twenties. Restored as a museum in 2018."
+      },
+      {
+        "id": "place-east-prussian-state-museum",
+        "title": "East Prussian State Museum",
+        "creator": "Lüneburg, Germany",
+        "why": "It holds the largest collection of Kant’s belongings and portraits outside Kaliningrad, including items from the former museum in Duisburg."
+      },
+      {
+        "id": "place-the-philosophers-walk",
+        "title": "The Philosophers’ Walk",
+        "creator": "Heidelberg, Germany",
+        "why": "Kant’s own path is gone. This hillside walk above the Neckar, named for the university’s thinkers, is the best place to keep his habit."
+      },
+      {
+        "id": "place-a-dark-sky-site-near-you",
+        "title": "A dark-sky site near you",
+        "creator": "Anywhere away from city lights",
+        "why": "The starry heavens are the nearest of his two wonders. Go on a clear, moonless night and stay an hour."
+      }
+    ]
+  },
+  "ethics": [
+    {
+      "title": "Duty",
+      "text": "The right thing is to be done because it is right. Feeling may help or hinder, and neither makes the act good.",
+      "practice": "Do one thing today solely because you ought."
+    },
+    {
+      "title": "Honesty",
+      "text": "Lying is the greatest violation of one’s duty to oneself as a moral being. It throws away one’s own dignity.",
+      "practice": "Go a full day without a single untruth, including polite ones."
+    },
+    {
+      "title": "Respect for persons",
+      "text": "Every person is an end in themselves, with a dignity that has no equivalent.",
+      "practice": "Thank someone whose work you usually treat as a service and nothing more."
+    },
+    {
+      "title": "Self-cultivation",
+      "text": "You have a duty to develop your talents and not let them rust.",
+      "practice": "Give thirty minutes to a capacity you have been neglecting."
+    },
+    {
+      "title": "Beneficence",
+      "text": "We have a duty to make the happiness of others our end, as far as we can.",
+      "practice": "Help one person today without being asked."
+    },
+    {
+      "title": "Autonomy",
+      "text": "Be your own lawgiver. Do not let fashion, fear or authority do your thinking.",
+      "practice": "Find one opinion you hold because others do, and examine it."
+    }
+  ],
+  "philosophy": [
+    {
+      "title": "The good will",
+      "text": "Only a good will is good in itself. Its worth does not depend on what it achieves.",
+      "practice": "Recall a time you did right and it came to nothing. Was it still worth doing?"
+    },
+    {
+      "title": "The categorical imperative",
+      "text": "Act only on a maxim you could will to be a universal law. Morality is reason’s demand for consistency in action.",
+      "practice": "Run today’s most doubtful intention through the test."
+    },
+    {
+      "title": "Persons as ends",
+      "text": "Rational beings may never be treated merely as means. This is the source of the modern idea of human dignity.",
+      "practice": "Notice one moment today when you were using someone."
+    },
+    {
+      "title": "Autonomy",
+      "text": "Freedom is not doing what you like. It is obeying a law you give yourself through reason.",
+      "practice": "When were you most free today: when you did what you wanted, or what you judged right?"
+    },
+    {
+      "title": "The Copernican turn",
+      "text": "We do not simply mirror the world. The mind supplies the forms, space, time and cause, through which anything can be experienced at all.",
+      "practice": "Try to imagine an object that is not in space. Notice that you cannot."
+    },
+    {
+      "title": "The limits of knowledge",
+      "text": "We know things as they appear, never as they are in themselves. God, freedom and immortality cannot be proved or disproved.",
+      "practice": "Name one thing you claim to know that lies beyond any possible experience."
+    },
+    {
+      "title": "Enlightenment",
+      "text": "Immaturity is comfortable. Thinking for oneself takes courage, and a public in which argument is free.",
+      "practice": "State one of your views publicly, with your reasons."
+    },
+    {
+      "title": "The sublime",
+      "text": "Before the vast and the violent in nature we feel small as bodies and great as moral beings.",
+      "practice": "Stand in front of something enormous and attend to both feelings."
+    }
+  ],
+  "journal": [
+    "Where did you make an exception of yourself?",
+    "What did you do today purely because you ought?",
+    "Whom did you treat merely as a means?",
+    "What was the true maxim behind your hardest choice?",
+    "Did you lie, even kindly?",
+    "Which promise is weighing on you?",
+    "What did you think for yourself today?",
+    "Whose judgment did you borrow without checking?",
+    "When did inclination and duty pull apart?",
+    "What would happen if everyone did what you did?",
+    "What talent are you letting rust?",
+    "Who helped you see something at table?",
+    "What came to you on the walk?",
+    "How did the sky make you feel?",
+    "What do you owe, and to whom?",
+    "Where were you lazy, and where cowardly?",
+    "What are you happy about, and are you worthy of it?",
+    "What rule do you live by that you have never said aloud?",
+    "When did you obey someone out of fear?",
+    "What did you want that you were right to refuse yourself?",
+    "Whom do you respect, and what exactly for?",
+    "What can you not know, and can you leave it open?",
+    "Where did you use your own dignity cheaply?",
+    "What would a stranger be owed in your house?",
+    "What would you do differently if no one could ever find out?",
+    "Which habit of your day serves you, and which do you serve?",
+    "What did you do well that no one will reward?",
+    "What do you hope for?",
+    "What ought you to do tomorrow?",
+    "What is a human being?"
+  ],
+  "reflect": [
+    "What did a fixed day free you to do?",
+    "Which of your maxims failed the test?",
+    "Where have you stopped making exceptions for yourself?",
+    "Whom do you see differently as an end in themselves?",
+    "What do you now think for yourself?",
+    "Which duty will you keep?"
+  ],
+  "dayThemes": [
+    "It is time",
+    "The good will",
+    "Duty",
+    "Inclination",
+    "The maxim",
+    "Universal law",
+    "No exceptions",
+    "The false promise",
+    "An end in itself",
+    "Dignity",
+    "The kingdom of ends",
+    "Autonomy",
+    "Dare to know",
+    "Guardians",
+    "The public use of reason",
+    "The walk",
+    "The table",
+    "Never lie",
+    "Respect",
+    "The limits of reason",
+    "Appearance",
+    "The thing in itself",
+    "Space and time",
+    "Crooked timber",
+    "The sublime",
+    "Hospitality",
+    "Perpetual peace",
+    "Worthy of happiness",
+    "The starry heavens",
+    "The moral law within"
+  ],
+  "guide": {
+    "intro": [
+      "Immanuel Kant was born in 1724 in Königsberg, a trading city on the Baltic, the fourth child of a harness maker. His parents were Pietists, members of a plain and earnest Lutheran movement, and he remembered his mother with reverence all his life. He attended the local university, worked for some years as a tutor in country houses, and then returned to lecture. He did not get a salaried chair until he was forty-six. He never married and never travelled further than a few days from home.",
+      "For the first half of his career he was a capable and popular teacher of the philosophy of his day. Then, as he put it, the Scottish sceptic David Hume woke him from his dogmatic slumber. Hume had argued that we never perceive causes, only one event following another. If so, science has no foundation. Kant spent ten years in near silence working out a reply, and in 1781, at fifty-seven, published the Critique of Pure Reason.",
+      "Its central move he compared to that of Copernicus. Earlier philosophers assumed that knowledge must conform to objects. Suppose instead that objects, as we experience them, must conform to our ways of knowing. Space and time are the forms in which we perceive. Cause and substance are concepts the understanding brings to experience. That is why we can be certain in advance that every event has a cause: we could not experience a world that was otherwise. The price is that we know things only as they appear to us and never as they are in themselves. Questions about God, the soul and the beginning of the world lie beyond what reason can settle.",
+      "This clearing of the ground made room for the thing Kant cared about most. If we cannot know that we are merely cogs in nature, we are entitled to regard ourselves as free. And freedom, he argued, shows itself in morality. A moral demand is categorical: it does not say do this if you want that. It says do this. Its content comes from reason alone. Act only on a principle that you could will everyone to act on. Treat every person, yourself included, as an end and never merely as a means. To be bound only by a law one gives oneself is autonomy, and it is the ground of human dignity.",
+      "In the same years he wrote the essay that defined the Enlightenment as the courage to think for oneself, a theory of beauty and the sublime, and a plan for lasting peace between nations. He was censured by the Prussian king for his book on religion and promised to keep silent on the subject, a promise he considered ended when the king died.",
+      "The legend of the philosopher by whose walk the town set its clocks is true of his later years. But the same man gave a dinner every day, loved conversation and jokes, and followed the French Revolution with passionate hope. This Onda keeps his order of the day and puts his test to your own decisions."
+    ],
+    "origin": "Königsberg in East Prussia, a Baltic port that is now Kaliningrad in Russia",
+    "era": "Kant was born in 1724 and died in 1804. His three Critiques appeared between 1781 and 1790",
+    "figures": [
+      {
+        "name": "Immanuel Kant",
+        "dates": "1724 to 1804",
+        "bio": "Professor of logic and metaphysics at Königsberg. Barely five feet tall, frail, punctual, and by every account excellent company."
+      },
+      {
+        "name": "Anna Regina Kant",
+        "dates": "1697 to 1737",
+        "bio": "His mother, who took him walking and taught him the names of plants and stars. He said she planted the first seed of good in him."
+      },
+      {
+        "name": "David Hume",
+        "dates": "1711 to 1776",
+        "bio": "The Scottish philosopher whose doubts about cause and effect set Kant’s critical project going."
+      },
+      {
+        "name": "Jean-Jacques Rousseau",
+        "dates": "1712 to 1778",
+        "bio": "Kant said Rousseau taught him to honour human beings. A portrait of Rousseau was the only picture in his house, and reading Emile is said to have made him miss his walk."
+      },
+      {
+        "name": "Joseph Green",
+        "dates": "1727 to 1786",
+        "bio": "An English merchant in Königsberg and Kant’s closest friend, even more punctual than he was. Kant read every line of the first Critique to him."
+      },
+      {
+        "name": "Martin Lampe",
+        "dates": "1734 to 1806",
+        "bio": "An old soldier who was Kant’s servant for forty years. Dismissed in 1802 for drunkenness, he was so missed that Kant wrote himself a note: the name Lampe must now be completely forgotten."
+      },
+      {
+        "name": "Moses Mendelssohn",
+        "dates": "1729 to 1786",
+        "bio": "The leading Jewish philosopher of the German Enlightenment, Kant’s friend and rival, who answered the same question about enlightenment in the same year."
+      },
+      {
+        "name": "Maria von Herbert",
+        "dates": "1769 to 1803",
+        "bio": "A young Austrian reader who wrote to Kant in despair after telling a truth that cost her a lover. Their short correspondence tests his ethics against a real life."
+      },
+      {
+        "name": "Hannah Arendt",
+        "dates": "1906 to 1975",
+        "bio": "Born into a Königsberg family, she read Kant at fourteen and drew on his account of judgment for her own political thought."
+      },
+      {
+        "name": "John Rawls",
+        "dates": "1921 to 2002",
+        "bio": "American philosopher whose A Theory of Justice rebuilt political philosophy on Kantian ideas of persons as free and equal."
+      }
+    ],
+    "history": [
+      {
+        "when": "22 April 1724",
+        "what": "Birth in Königsberg",
+        "detail": "He is baptised Emanuel and later changes the spelling after learning Hebrew. He is sent at eight to a strict Pietist school."
+      },
+      {
+        "when": "1740 to 1746",
+        "what": "University",
+        "detail": "He studies mathematics, physics and philosophy. His father’s death leaves him without means, and he leaves without a degree."
+      },
+      {
+        "when": "1755",
+        "what": "The nebular hypothesis",
+        "detail": "Back in the city as an unsalaried lecturer, he publishes a theory that the solar system condensed from a rotating cloud of gas, and that the Milky Way is one of many island universes."
+      },
+      {
+        "when": "1770",
+        "what": "Professor at last",
+        "detail": "After turning down posts elsewhere he is appointed to the chair of logic and metaphysics at Königsberg."
+      },
+      {
+        "when": "1781",
+        "what": "Critique of Pure Reason",
+        "detail": "After eleven years of silence the book appears, eight hundred pages long. Early readers find it almost impenetrable. He issues a revised edition in 1787."
+      },
+      {
+        "when": "1784",
+        "what": "What Is Enlightenment?",
+        "detail": "His answer to a question posed by a Berlin pastor is printed in the Berlinische Monatsschrift in December."
+      },
+      {
+        "when": "1785 to 1788",
+        "what": "The moral philosophy",
+        "detail": "The Groundwork and the Critique of Practical Reason set out the categorical imperative and the idea of autonomy."
+      },
+      {
+        "when": "1790",
+        "what": "Critique of the Power of Judgment",
+        "detail": "The third Critique treats beauty, the sublime and purpose in nature, and completes the system."
+      },
+      {
+        "when": "1794",
+        "what": "The royal reprimand",
+        "detail": "After Religion within the Boundaries of Mere Reason, King Frederick William II orders him to stop writing on religion. He complies until the king dies in 1797."
+      },
+      {
+        "when": "1795",
+        "what": "Toward Perpetual Peace",
+        "detail": "Written after a peace treaty between Prussia and revolutionary France. It sells out within weeks."
+      },
+      {
+        "when": "12 February 1804",
+        "what": "Death",
+        "detail": "After several years of failing memory he dies a few weeks before his eightieth birthday. His last words, on being given wine and water, are Es ist gut: it is good. Thousands follow the coffin."
+      },
+      {
+        "when": "1945",
+        "what": "The end of Königsberg",
+        "detail": "The city is destroyed by bombing and siege and annexed by the Soviet Union as Kaliningrad. The German population is expelled. Kant’s tomb survives."
+      },
+      {
+        "when": "1948",
+        "what": "The Universal Declaration of Human Rights",
+        "detail": "Its language of inherent dignity and of persons endowed with reason and conscience comes through a tradition that he shaped."
+      }
+    ],
+    "concepts": [
+      {
+        "term": "The categorical imperative",
+        "text": "The supreme principle of morality.",
+        "detail": "A command of reason that binds unconditionally. Kant states it as a formula of universal law, a formula of humanity as an end in itself, and a formula of the kingdom of ends, and holds that these are at bottom the same."
+      },
+      {
+        "term": "Duty and inclination",
+        "text": "The source of moral worth.",
+        "detail": "The shopkeeper who gives correct change to keep his customers acts rightly but not morally. The one who does so because honesty is required acts from duty."
+      },
+      {
+        "term": "Autonomy",
+        "text": "Self-legislation.",
+        "detail": "The moral law is not imposed by God, nature or society. It is the law a rational will gives itself, and obeying it is the only real freedom."
+      },
+      {
+        "term": "Dignity",
+        "text": "Beyond price.",
+        "detail": "Whatever has a price can be replaced by an equivalent. A person, as a being capable of morality, has no equivalent."
+      },
+      {
+        "term": "Transcendental idealism",
+        "text": "Appearances and things in themselves.",
+        "detail": "Space, time and the categories belong to our way of experiencing. Objects of experience are real, and they are appearances. What they are apart from us is unknowable."
+      },
+      {
+        "term": "Synthetic a priori judgments",
+        "text": "How is metaphysics possible?",
+        "detail": "Claims that tell us something new and yet are known independently of experience, such as every event has a cause. The first Critique asks how there can be such knowledge."
+      },
+      {
+        "term": "The antinomies",
+        "text": "Reason against itself.",
+        "detail": "When reason tries to settle whether the world has a beginning, or whether there is freedom, it can prove both sides. This shows it has gone beyond its limits."
+      },
+      {
+        "term": "Enlightenment",
+        "text": "Coming of age.",
+        "detail": "The exit from self-incurred immaturity. It requires freedom to make public use of one’s reason in all matters."
+      },
+      {
+        "term": "The highest good",
+        "text": "Virtue with happiness.",
+        "detail": "Morality does not aim at happiness, yet a world in which the virtuous were happy in proportion would be the complete good. Kant holds that we may hope for it."
+      }
+    ],
+    "facts": [
+      {
+        "text": "Kant was about one metre fifty-seven tall and had a slightly deformed chest. He attributed his long life to his regular habits."
+      },
+      {
+        "text": "In 1755 he proposed, correctly, that the faint smudges called nebulae are other galaxies far beyond our own."
+      },
+      {
+        "text": "He suggested that the tides slow the rotation of the earth, which was confirmed a century later."
+      },
+      {
+        "text": "He held his stockings up with a device of his own invention, using springs in his pockets, to avoid garters that would stop the circulation."
+      },
+      {
+        "text": "He summed up the whole of philosophy in four questions: What can I know? What ought I to do? What may I hope? What is a human being?"
+      },
+      {
+        "text": "The city of his birth has been Russian since 1945, and its university has borne his name since 2005."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Critique",
+        "meaning": "One of the three main works, on pure reason, practical reason and judgment"
+      },
+      {
+        "term": "Hypothetical imperative",
+        "meaning": "A command that depends on a goal: if you want this, do that"
+      },
+      {
+        "term": "Pietism",
+        "meaning": "The devout Lutheran movement in which Kant was raised"
+      },
+      {
+        "term": "Privatdozent",
+        "meaning": "An unsalaried lecturer paid directly by the students"
+      },
+      {
+        "term": "Categories",
+        "meaning": "The twelve basic concepts of the understanding, such as cause and substance"
+      },
+      {
+        "term": "Deontology",
+        "meaning": "Ethics based on duty, as opposed to consequences"
+      }
+    ],
+    "furtherReading": [
+      {
+        "title": "Creating the Kingdom of Ends",
+        "creator": "Christine M. Korsgaard",
+        "year": "1996",
+        "note": "Essays that make the strongest modern case for Kant’s ethics, including a famous one on the right to lie."
+      },
+      {
+        "title": "Kant’s Ethical Thought",
+        "creator": "Allen W. Wood",
+        "year": "1999",
+        "note": "A thorough account that answers the charge of cold rigorism."
+      },
+      {
+        "title": "Justice: What’s the Right Thing to Do?",
+        "creator": "Michael J. Sandel",
+        "year": "2009",
+        "note": "A lively introduction to moral philosophy with a clear chapter on Kant."
+      },
+      {
+        "title": "Lectures on Kant’s Political Philosophy",
+        "creator": "Hannah Arendt",
+        "year": "1982",
+        "note": "Her last lectures, on judging and the enlarged way of thinking."
+      }
+    ],
+    "learnFrom": [
+      {
+        "name": "Stanford Encyclopedia of Philosophy",
+        "note": "Detailed articles on every part of Kant’s work.",
+        "link": "https://plato.stanford.edu/entries/kant/"
+      },
+      {
+        "name": "Early Modern Texts",
+        "note": "Kant’s main works reworded in plainer English by Jonathan Bennett, free.",
+        "link": "https://www.earlymoderntexts.com"
+      },
+      {
+        "name": "A discussion group",
+        "note": "Kant held that reason needs a public. Read the Enlightenment essay with others and argue about it."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Kant: A Biography",
+        "creator": "Manfred Kuehn",
+        "publisher": "Cambridge University Press",
+        "year": "2001"
+      },
+      {
+        "title": "Practical Philosophy",
+        "creator": "Immanuel Kant, trans. and ed. Mary J. Gregor",
+        "publisher": "Cambridge University Press",
+        "year": "1996"
+      },
+      {
+        "title": "Critique of Pure Reason",
+        "creator": "Immanuel Kant, trans. Paul Guyer and Allen W. Wood",
+        "publisher": "Cambridge University Press",
+        "year": "1998"
+      },
+      {
+        "title": "Kant: A Very Short Introduction",
+        "creator": "Roger Scruton",
+        "publisher": "Oxford University Press",
+        "year": "2001"
+      },
+      {
+        "title": "Kant’s Ethical Thought",
+        "creator": "Allen W. Wood",
+        "publisher": "Cambridge University Press",
+        "year": "1999"
+      },
+      {
+        "title": "Constructions of Reason: Explorations of Kant’s Practical Philosophy",
+        "creator": "Onora O'Neill",
+        "publisher": "Cambridge University Press",
+        "year": "1989"
+      }
+    ]
+  },
+  "sensitivity": {
+    "note": "Kant’s moral philosophy is one of the foundations of modern ideas of human dignity. He was also a man of his century, and some of what he wrote falls far below his own principle. This Onda uses the principle and the daily order.",
+    "requiredCaveats": [
+      "Kant’s lectures and essays on race rank peoples in a hierarchy. These views are false and are at odds with his own teaching that every person has equal dignity.",
+      "He excluded women and servants from full citizenship.",
+      "His claim that one may not lie even to a murderer at the door has been disputed since the day he made it. You are invited to argue with him."
+    ],
+    "reviewRequired": false
+  }
+}

@@ -1,17 +1,18 @@
 import { useMemo, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { immerseSet, pickForDay } from '@/data/derive/onda'
-import { useLook, useOndaIndex } from '@/data/hooks'
+import { useLook, useOnda, useOndaIndex } from '@/data/hooks'
 import { useStore } from '@/data/store'
 import { haptic } from '@/lib/haptics'
 import { detId } from '@/lib/ids'
 import { useNav, type SheetEntry } from '@/nav/store'
 import { KindArt } from '@/screens/KindArt'
-import { Glyph, useActiveOnda, useRunToday } from '@/screens/ondaShared'
+import { Glyph, OndaBanner, OrnDivider, useActiveOnda, useRunToday } from '@/screens/ondaShared'
 import o from '@/screens/ondas.module.css'
 import s from '@/screens/screens.module.css'
 import { Button } from '@/ui/buttons'
 import { Chip } from '@/ui/controls'
+import { Icon } from '@/ui/Icon'
 import { AppSheet, useSheet } from './common'
 import { openExternal } from './guideParts'
 import g from './guide.module.css'
@@ -111,6 +112,73 @@ export function MediaInfoSheet({ entry }: E<'mediaInfo'>) {
             </Button>
           )}
         </div>
+      </div>
+    </AppSheet>
+  )
+}
+
+/* ── How to do one practice: opened by holding its row ─────── */
+export function PracticeInfoSheet({ entry }: E<'practiceInfo'>) {
+  const { t } = useTranslation()
+  const index = useOndaIndex(entry.ondaId)
+  const content = useOnda(entry.ondaId)
+  const look = useLook(index)
+  const active = useActiveOnda()
+  const run = active?.run.ondaId === entry.ondaId ? active.run : undefined
+  const done = useRunToday(run?.id)
+  const snap = run?.snapshot?.practices.find((x) => x.id === entry.practiceId)
+  const p = content?.practices.find((x) => x.id === entry.practiceId)
+  const name = p?.name ?? snap?.name ?? ''
+  const on = done.practices.has(entry.practiceId)
+  const head = (icon: string, label: string) => (
+    <div className={o.howHead}>
+      <Icon name={icon} weight="fill" size={16} />
+      {label}
+    </div>
+  )
+
+  return (
+    <AppSheet entry={entry} look={look} detent={0.82}>
+      <div style={{ padding: '4px 16px 40px' }}>
+        <OndaBanner icon={p?.icon ?? snap?.icon ?? 'circle'} kicker={index?.name} title={name} sub={p?.meta ?? snap?.time} />
+        {!content && !snap && <div className={s.sub} style={{ textAlign: 'center', padding: 24 }}>{t('onda.loading')}</div>}
+        {p?.instructions && (
+          <div className={o.howCard} data-selectable>
+            {head('play', t('onda.howTo'))}
+            {p.instructions}
+          </div>
+        )}
+        {p?.why && (
+          <div className={o.howCard} data-selectable>
+            {head('lightbulb', t('onda.why'))}
+            {p.why}
+          </div>
+        )}
+        {!!p?.variations.length && (
+          <div className={o.howCard} data-selectable>
+            {head('repeat', t('onda.variations'))}
+            <ul className={o.howList}>
+              {p.variations.map((v) => (
+                <li key={v}>{v}</li>
+              ))}
+            </ul>
+          </div>
+        )}
+        {(content || snap) && !p?.instructions && !p?.why && <div className={o.howCard}>{t('onda.noHowTo')}</div>}
+        <OrnDivider look={look} />
+        {run && (
+          <Button
+            fullWidth
+            variant={on ? 'secondary' : 'primary'}
+            icon={on ? 'check' : undefined}
+            onClick={() => {
+              haptic(on ? 'select' : 'success')
+              useStore.getState().togglePractice(run.id, entry.practiceId)
+            }}
+          >
+            {on ? t('onda.doneToday') : t('onda.markDone')}
+          </Button>
+        )}
       </div>
     </AppSheet>
   )

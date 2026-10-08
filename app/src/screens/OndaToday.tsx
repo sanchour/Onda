@@ -194,8 +194,9 @@ export default function OndaToday({ entry }: { entry: Extract<StackEntry, { name
       {toggle.open('p') && (
         <div className={s.stack10} style={{ padding: '0 16px' }}>
           {content.practices.map((p) => (
-            <PracticeRow key={p.id} small p={p} done={pSet.has(p.id)} onToggle={() => (run ? st.togglePractice(run.id, p.id) : flip(p.id))} />
+            <PracticeRow key={p.id} small p={p} done={pSet.has(p.id)} onToggle={() => (run ? st.togglePractice(run.id, p.id) : flip(p.id))} info={{ ondaId: index.id, style: look.vars, onda: settings.ondaThemes ? index.id : undefined }} />
           ))}
+          <div className={o.holdHint}>{t('onda.holdHint')}</div>
         </div>
       )}
 

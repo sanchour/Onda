@@ -1,4 +1,4 @@
-import { useEffect, useLayoutEffect, useRef, useState } from 'react'
+import { useEffect, useLayoutEffect, useRef, useState, type CSSProperties } from 'react'
 import { Icon } from './Icon'
 import s from './ui.module.css'
 
@@ -21,6 +21,8 @@ export interface MenuSpec {
   width?: number
   dim?: boolean
   align?: 'start' | 'end'
+  /** Dress the menu in an Onda's look: its colour variables and, when themes are on, its id. */
+  scope?: { style?: CSSProperties; onda?: string }
 }
 
 /** Glass pop-over anchored to its trigger. No scrim (a faint one for the context menu), closes on outside tap or Escape. */
@@ -68,7 +70,7 @@ export function Menu({ spec, onClose }: { spec: MenuSpec; onClose: () => void })
   return (
     <>
       <div className={spec.dim ? `${s.menuScrim} ${s.menuScrimDim}` : s.menuScrim} onPointerDown={onClose} />
-      <div ref={ref} role="menu" className={s.menu} style={{ width, left, top }}>
+      <div ref={ref} role="menu" className={spec.scope ? `${s.menu} ${s.menuOnda}` : s.menu} style={{ ...spec.scope?.style, width, left, top }} data-onda={spec.scope?.onda}>
         {spec.quick && (
           <div className={s.menuQuick}>
             {spec.quick.map((q, i) => (

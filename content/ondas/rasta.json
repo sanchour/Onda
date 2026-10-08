@@ -1,0 +1,1235 @@
+{
+  "version": 1,
+  "id": "rasta",
+  "name": "Rastafari",
+  "origin": "Jamaica",
+  "era": "From 1930 to today",
+  "tone": "green",
+  "icon": "hand-fist",
+  "font": "alfa-slab-one",
+  "pattern": "three-colour-band",
+  "glyph": "I&I",
+  "line": "Live naturally, speak with care and keep your eyes on Zion.",
+  "quote": {
+    "text": "We are going to emancipate ourselves from mental slavery because whilst others might free the body, none but ourselves can free the mind.",
+    "by": "Marcus Garvey",
+    "source": "Speech at Sydney, Nova Scotia, October 1937, printed in his magazine Black Man"
+  },
+  "quotes": [
+    {
+      "text": "Princes shall come out of Egypt; Ethiopia shall soon stretch out her hands unto God.",
+      "by": "Psalm 68:31",
+      "source": "King James Version. The verse most often cited by early Ethiopianists and Rastafari"
+    },
+    {
+      "text": "Behold, how good and how pleasant it is for brethren to dwell together in unity!",
+      "by": "Psalm 133:1",
+      "source": "King James Version. Recited at Rastafari gatherings"
+    },
+    {
+      "text": "God and history will remember your judgment.",
+      "by": "Haile Selassie I",
+      "source": "Appeal to the League of Nations, Geneva, 30 June 1936"
+    },
+    {
+      "text": "Up, you mighty race, you can accomplish what you will.",
+      "by": "Marcus Garvey",
+      "source": "A rallying call of the Universal Negro Improvement Association in the 1920s, recorded in Philosophy and Opinions of Marcus Garvey"
+    },
+    {
+      "text": "Look to Africa, when a black king shall be crowned, for the day of deliverance is at hand.",
+      "by": "Attributed to Marcus Garvey",
+      "source": "Widely repeated in the movement. No text by Garvey with these words has been found",
+      "unverified": true
+    }
+  ],
+  "words": [
+    {
+      "id": "word-jah",
+      "term": "Jah",
+      "meaning": "God",
+      "pronunciation": "JAH",
+      "language": "Iyaric, from Hebrew",
+      "usage": "A short form of the Hebrew name of God, found in Psalm 68:4 of the King James Bible."
+    },
+    {
+      "id": "word-rastafari",
+      "term": "Rastafari",
+      "meaning": "The movement, and the divine name",
+      "pronunciation": "ras-ta-far-EYE",
+      "language": "Amharic",
+      "usage": "From Ras Tafari, the title and name of Haile Selassie before he was crowned. The ending is said as the word I."
+    },
+    {
+      "id": "word-ras",
+      "term": "Ras",
+      "meaning": "Head; a prince or duke",
+      "pronunciation": "RAHS",
+      "language": "Amharic",
+      "usage": "An Ethiopian noble title. Many Rastafari take it before their own name."
+    },
+    {
+      "id": "word-i-and-i",
+      "term": "I and I",
+      "meaning": "I, we, you and I",
+      "pronunciation": "EYE an EYE",
+      "language": "Iyaric",
+      "usage": "Used in place of me and often of we. It says that Jah is within each person and that speaker and hearer are joined."
+    },
+    {
+      "id": "word-livity",
+      "term": "Livity",
+      "meaning": "The way of life",
+      "pronunciation": "LIV-i-tee",
+      "language": "Iyaric",
+      "usage": "The whole natural, upright way of living: food, speech, work, worship and the life force within them."
+    },
+    {
+      "id": "word-ital",
+      "term": "Ital",
+      "meaning": "Vital; natural and pure",
+      "pronunciation": "EYE-tal",
+      "language": "Iyaric",
+      "usage": "Food and living kept close to the earth. Usually no meat, no salt, nothing processed, and often no alcohol."
+    },
+    {
+      "id": "word-babylon",
+      "term": "Babylon",
+      "meaning": "The system of oppression",
+      "pronunciation": "BAB-i-lon",
+      "language": "Iyaric, from the Bible",
+      "usage": "The powers that enslaved and still exploit: colonial states, police, greed and the mindset that serves them."
+    },
+    {
+      "id": "word-zion",
+      "term": "Zion",
+      "meaning": "The promised home",
+      "pronunciation": "ZY-on",
+      "language": "Iyaric, from Hebrew",
+      "usage": "Africa, and Ethiopia above all. Also a state of freedom and rightness to be lived now."
+    },
+    {
+      "id": "word-ithiopia",
+      "term": "Ithiopia",
+      "meaning": "Ethiopia",
+      "pronunciation": "eye-thee-OH-pee-a",
+      "language": "Iyaric",
+      "usage": "The land of Zion, renamed with the sacred sound I."
+    },
+    {
+      "id": "word-nyabinghi",
+      "term": "Nyabinghi",
+      "meaning": "A gathering with drums and chant; the oldest order",
+      "pronunciation": "ny-a-BING-ee",
+      "language": "Iyaric, from East Africa",
+      "usage": "The name comes from an anti-colonial movement in Uganda and Rwanda. It now names both the drumming rite and the Nyabinghi Order."
+    },
+    {
+      "id": "word-groundation",
+      "term": "Groundation",
+      "meaning": "A holy gathering",
+      "pronunciation": "grown-DAY-shun",
+      "language": "Iyaric",
+      "usage": "Also spelled Grounation. A meeting for drumming, chanting and reasoning, and the name of the day in April 1966 when the Emperor landed in Jamaica."
+    },
+    {
+      "id": "word-reasoning",
+      "term": "Reasoning",
+      "meaning": "Shared spoken reflection",
+      "pronunciation": "REE-zun-ing",
+      "language": "Iyaric",
+      "usage": "Sitting in a circle to talk through scripture, history and daily life. Everyone may speak and no one presides."
+    },
+    {
+      "id": "word-ises",
+      "term": "Ises",
+      "meaning": "Praises",
+      "pronunciation": "EYE-ziz",
+      "language": "Iyaric",
+      "usage": "Thanks and praise to Jah, given aloud. Morning Ises begin the day."
+    },
+    {
+      "id": "word-irie",
+      "term": "Irie",
+      "meaning": "Good, at peace, all right",
+      "pronunciation": "EYE-ree",
+      "language": "Iyaric",
+      "usage": "A greeting and a state of being: things are in harmony."
+    },
+    {
+      "id": "word-overstand",
+      "term": "Overstand",
+      "meaning": "To understand fully",
+      "pronunciation": "OH-va-stand",
+      "language": "Iyaric",
+      "usage": "Knowledge should lift a person up. No one should stand under it."
+    },
+    {
+      "id": "word-downpression",
+      "term": "Downpression",
+      "meaning": "Oppression",
+      "pronunciation": "down-PRESH-un",
+      "language": "Iyaric",
+      "usage": "What presses a people down should not sound like up."
+    },
+    {
+      "id": "word-livicate",
+      "term": "Livicate",
+      "meaning": "To dedicate",
+      "pronunciation": "LIV-i-kate",
+      "language": "Iyaric",
+      "usage": "The word dedicate sounds like dead. A work is offered to life instead."
+    },
+    {
+      "id": "word-apprecilove",
+      "term": "Apprecilove",
+      "meaning": "To appreciate",
+      "pronunciation": "a-PREE-shi-luv",
+      "language": "Iyaric",
+      "usage": "The sound of hate is taken out of the word and love is put in."
+    },
+    {
+      "id": "word-itinually",
+      "term": "Itinually",
+      "meaning": "Continually, for ever",
+      "pronunciation": "eye-TIN-yoo-a-lee",
+      "language": "Iyaric",
+      "usage": "One of many words rebuilt around I."
+    },
+    {
+      "id": "word-idren",
+      "term": "Idren",
+      "meaning": "Brethren; fellow Rastafari",
+      "pronunciation": "EYE-dren",
+      "language": "Iyaric",
+      "usage": "Children of one Father. Used for men and for the community at large."
+    },
+    {
+      "id": "word-sistren",
+      "term": "Sistren",
+      "meaning": "Sisters",
+      "pronunciation": "SIS-tren",
+      "language": "Iyaric",
+      "usage": "Rastafari women. A respected elder woman is an Empress."
+    },
+    {
+      "id": "word-dread",
+      "term": "Dread",
+      "meaning": "A person with locks; awe",
+      "pronunciation": "DRED",
+      "language": "Iyaric",
+      "usage": "First the fear the locksman stirred in respectable Jamaica, then a name worn with pride."
+    },
+    {
+      "id": "word-dreadlocks",
+      "term": "Dreadlocks",
+      "meaning": "Uncut, matted hair",
+      "pronunciation": "DRED-loks",
+      "language": "Iyaric",
+      "usage": "Kept under the Nazirite vow of Numbers 6 and likened to the mane of the Lion of Judah."
+    },
+    {
+      "id": "word-binghi",
+      "term": "Binghi",
+      "meaning": "A Nyabinghi gathering",
+      "pronunciation": "BING-ee",
+      "language": "Iyaric",
+      "usage": "Short for Nyabinghi. A binghi can last for several days and nights."
+    },
+    {
+      "id": "word-akete",
+      "term": "Akete",
+      "meaning": "The set of three drums",
+      "pronunciation": "a-KEH-teh",
+      "language": "Iyaric",
+      "usage": "Bass, funde and repeater. The funde keeps the steady heartbeat, the bass strikes under it and the repeater speaks over the top."
+    },
+    {
+      "id": "word-chant",
+      "term": "Chant",
+      "meaning": "To sing sacred words to the drums",
+      "pronunciation": "CHAHNT",
+      "language": "Iyaric",
+      "usage": "Chants come from psalms, old hymns and the movement’s own verses. To chant down Babylon is to oppose it with word and sound."
+    },
+    {
+      "id": "word-word-sound-and-power",
+      "term": "Word, sound and power",
+      "meaning": "The force of speech",
+      "pronunciation": "WURD SOWND an POW-a",
+      "language": "Iyaric",
+      "usage": "The belief that spoken words shape the world, so they must be chosen carefully."
+    },
+    {
+      "id": "word-selah",
+      "term": "Selah",
+      "meaning": "A pause; so be it",
+      "pronunciation": "SEE-lah",
+      "language": "Hebrew",
+      "usage": "The word that closes many psalms. Used to seal a prayer or a statement."
+    },
+    {
+      "id": "word-negus",
+      "term": "Negus",
+      "meaning": "King",
+      "pronunciation": "NEH-goos",
+      "language": "Amharic",
+      "usage": "Negusa Nagast, King of Kings, was the Ethiopian imperial title."
+    },
+    {
+      "id": "word-repatriation",
+      "term": "Repatriation",
+      "meaning": "The return to Africa",
+      "pronunciation": "ree-pay-tree-AY-shun",
+      "language": "English",
+      "usage": "The first demand of the movement: that the descendants of the enslaved be brought home."
+    }
+  ],
+  "practices": [
+    {
+      "id": "morning-ises",
+      "name": "Morning Ises",
+      "icon": "sun-horizon",
+      "slot": "Morning",
+      "time": "06:15",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Go outside or stand at an open window soon after waking. Before you look at a screen, give thanks aloud for life and for the day. Read one psalm slowly in a full voice: Psalm 1, 121 or 133 are often used. Then name three things you will stand for today. Close with a single word that seals it for you.",
+      "why": "Rastafari begin the day with praises, called Ises, and the Psalms are the best loved book of the Bible in the movement. Speaking aloud matters, because word and sound are held to have power.",
+      "variations": [
+        "Read the psalm facing the rising sun.",
+        "Learn Psalm 133 by heart, a verse a day.",
+        "Give thanks for one hard thing as well as three good ones."
+      ]
+    },
+    {
+      "id": "ital-pot",
+      "name": "The ital pot",
+      "icon": "cooking-pot",
+      "slot": "Afternoon",
+      "time": "12:30",
+      "minutes": 30,
+      "meta": "Afternoon · 30 min",
+      "instructions": "Cook one meal today from whole plants only. Start a pot with coconut milk, thyme, spring onion, garlic and allspice, add pumpkin, yam or potato, carrots, greens and beans or peas, and let it simmer until thick. Use herbs and pepper for flavour and leave out the salt if you can. Eat it slowly, from a bowl, without a screen.",
+      "why": "Ital comes from vital. Many Rastafari eat no meat, and the strictest take no salt and nothing canned or processed, so that the body stays a clean temple and the life in the food passes to the eater.",
+      "variations": [
+        "Eat the whole day ital.",
+        "Buy the vegetables from a grower or a market stall and learn where they came from.",
+        "Cook enough to give a bowl away."
+      ]
+    },
+    {
+      "id": "word-sound",
+      "name": "Word, sound and power",
+      "icon": "megaphone",
+      "slot": "Morning",
+      "time": "09:30",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Choose one habit of speech to change for the day. Catch every phrase in which you make yourself small or passive, such as I have to, I am only, they made me, and say it again as a free person would. Replace one worn word with a truer one of your own making. At midday and in the evening, note what you caught.",
+      "why": "Rastafari rebuilt English into Iyaric because they heard defeat inside its words. Oppression became downpression, understand became overstand, and me became I and I.",
+      "variations": [
+        "Greet everyone you meet today with a blessing.",
+        "Speak no ill of anyone until sunset.",
+        "Write a list of five words you would rebuild, and how."
+      ]
+    },
+    {
+      "id": "earth-hands",
+      "name": "Hands in the earth",
+      "icon": "plant",
+      "slot": "Afternoon",
+      "time": "16:30",
+      "minutes": 20,
+      "meta": "Afternoon · 20 min",
+      "instructions": "Spend twenty minutes with living ground. Tend a garden, a pot of herbs or a patch of street soil: weed it, water it, plant something you can eat. If you have none, walk to the nearest trees or water and stay there without headphones. Take your shoes off if the place allows it.",
+      "why": "Livity is life lived close to the land. Leonard Howell’s community at Pinnacle fed itself from its own hillsides, and many Rastafari still farm, holding that the earth is Jah’s and its fullness is for all.",
+      "variations": [
+        "Start a pot of thyme or spring onions on a windowsill.",
+        "Walk barefoot on grass or sand for ten minutes.",
+        "Learn the names of three plants growing wild near your home."
+      ]
+    },
+    {
+      "id": "heartbeat-reasoning",
+      "name": "Heartbeat and reasoning",
+      "icon": "chats",
+      "slot": "Evening",
+      "time": "19:30",
+      "minutes": 30,
+      "meta": "Evening · 30 min",
+      "instructions": "Put on Nyabinghi drumming, or tap the heartbeat yourself on a table: two soft beats and a rest, about once a second. Sit with it for five minutes and let your breathing slow. Then reason. With one or more people, take a single question about how to live rightly and talk it through. Let each person finish. No one wins. If you are alone, write both sides.",
+      "why": "At a groundation the funde drum holds a pulse like a heart at rest while people chant, and afterwards sit to reason for hours. The circle has no chairman, because each person carries the divine within.",
+      "variations": [
+        "Take a verse of a psalm as the question.",
+        "Reason about one news story: who gains, and who pays?",
+        "Listen to the album Grounation from start to finish."
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task-cook-rice-and-peas-with-coconut-milk-and-callaloo",
+      "name": "Cook rice and peas with coconut milk, and callaloo",
+      "meta": "Eat · ital",
+      "time": "18:00",
+      "slot": "Evening",
+      "action": "eat"
+    },
+    {
+      "id": "task-listen-to-burning-spear-s-album-marcus-garvey",
+      "name": "Listen to Burning Spear’s album Marcus Garvey",
+      "meta": "Listen · 33 min",
+      "time": "17:00",
+      "slot": "Afternoon",
+      "action": "listen"
+    },
+    {
+      "id": "task-read-chapters-1-to-30-of-the-kebra-nagast",
+      "name": "Read chapters 1 to 30 of the Kebra Nagast",
+      "meta": "Read · Solomon and the Queen of Sheba",
+      "time": "20:00",
+      "slot": "Evening",
+      "action": "read"
+    },
+    {
+      "id": "task-watch-rockers",
+      "name": "Watch Rockers",
+      "meta": "Watch · Kingston, 1978",
+      "time": "20:30",
+      "slot": "Evening",
+      "action": "watch"
+    },
+    {
+      "id": "task-journal-where-did-babylon-get-into-your-head-today",
+      "name": "Journal: where did Babylon get into your head today?",
+      "meta": "Journal · 10 min",
+      "time": "21:30",
+      "slot": "Evening",
+      "action": "journal"
+    },
+    {
+      "id": "task-i-and-i-who-did-you-treat-as-separate-from-you",
+      "name": "I and I: who did you treat as separate from you?",
+      "meta": "Philosophy · 10 min",
+      "time": "08:30",
+      "slot": "Morning",
+      "action": "philosophy"
+    },
+    {
+      "id": "go-a-full-day-without-anything-processed-or-packaged",
+      "name": "Go a full day without anything processed or packaged",
+      "meta": "Ital",
+      "time": "07:30",
+      "slot": "Morning"
+    },
+    {
+      "id": "give-thanks-aloud-before-every-meal",
+      "name": "Give thanks aloud before every meal",
+      "meta": "Ises",
+      "time": "12:00",
+      "slot": "Afternoon"
+    },
+    {
+      "id": "learn-one-fact-of-african-history-you-were-never-taught",
+      "name": "Learn one fact of African history you were never taught",
+      "meta": "Know your past",
+      "time": "15:00",
+      "slot": "Afternoon"
+    }
+  ],
+  "rules": [
+    {
+      "id": "r1",
+      "text": "Give thanks first",
+      "why": "Begin the day with praise, spoken aloud, before news or messages."
+    },
+    {
+      "id": "r2",
+      "text": "Eat ital",
+      "why": "Whole food from the earth. Nothing dead, nothing processed, as far as you can keep it."
+    },
+    {
+      "id": "r3",
+      "text": "Guard your words",
+      "why": "Speak life. Do not curse yourself or anyone else, even in jest."
+    },
+    {
+      "id": "r4",
+      "text": "Do not serve Babylon in your mind",
+      "why": "Notice where greed, status and fear are doing your thinking, and refuse them."
+    },
+    {
+      "id": "r5",
+      "text": "Stay close to the earth",
+      "why": "Touch soil, water or trees every day."
+    },
+    {
+      "id": "r6",
+      "text": "Meet every person as I and I",
+      "why": "The same life is in them as in you. Greet them as an equal."
+    }
+  ],
+  "immerse": {
+    "read": [
+      {
+        "id": "read-the-kebra-nagast",
+        "title": "The Kebra Nagast",
+        "creator": "trans. E. A. Wallis Budge",
+        "year": "14th century; English 1922",
+        "why": "The Glory of Kings: the Ethiopian national epic, which tells how Solomon and the Queen of Sheba founded the royal line that ended with Haile Selassie."
+      },
+      {
+        "id": "read-philosophy-and-opinions-of-marcus-garvey",
+        "title": "Philosophy and Opinions of Marcus Garvey",
+        "creator": "ed. Amy Jacques Garvey",
+        "year": "1923 and 1925",
+        "why": "Speeches and articles by the man Rastafari honour as a prophet, collected by his wife while he was in prison."
+      },
+      {
+        "id": "read-rastafari-roots-and-ideology",
+        "title": "Rastafari: Roots and Ideology",
+        "creator": "Barry Chevannes",
+        "year": "1994",
+        "why": "A Jamaican anthropologist’s account, built on long conversations with the elders who were there at the start."
+      },
+      {
+        "id": "read-brother-man",
+        "title": "Brother Man",
+        "creator": "Roger Mais",
+        "year": "1954",
+        "why": "A novel of the Kingston slums with a gentle Rastafari healer at its centre. The first sympathetic portrait in fiction."
+      },
+      {
+        "id": "read-the-children-of-sisyphus",
+        "title": "The Children of Sisyphus",
+        "creator": "Orlando Patterson",
+        "year": "1964",
+        "why": "A bleak, vivid novel set on the Kingston rubbish tip called the Dungle, where the poor wait for the ships to Africa."
+      },
+      {
+        "id": "read-catch-a-fire-the-life-of-bob-marley",
+        "title": "Catch a Fire: The Life of Bob Marley",
+        "creator": "Timothy White",
+        "year": "1983",
+        "why": "The standard biography, with a long opening on Ethiopia, Garvey and the Jamaica that made the music."
+      }
+    ],
+    "watch": [
+      {
+        "id": "watch-rockers",
+        "title": "Rockers",
+        "creator": "Ted Bafaloukos",
+        "year": "1978",
+        "why": "A drummer’s motorbike is stolen and he gets even. The cast are the real musicians of roots reggae, speaking their own language."
+      },
+      {
+        "id": "watch-the-harder-they-come",
+        "title": "The Harder They Come",
+        "creator": "Perry Henzell",
+        "year": "1972",
+        "why": "A country boy comes to Kingston to be a singer and becomes an outlaw. The film that carried reggae abroad."
+      },
+      {
+        "id": "watch-countryman",
+        "title": "Countryman",
+        "creator": "Dickie Jobson",
+        "year": "1982",
+        "why": "A fisherman who lives by nature’s law hides two crash survivors. A fable of livity, played by a real Rastafari fisherman."
+      },
+      {
+        "id": "watch-marley",
+        "title": "Marley",
+        "creator": "Kevin Macdonald",
+        "year": "2012",
+        "why": "A full documentary life, made with the family, with rare footage and the people who knew him."
+      }
+    ],
+    "listen": [
+      {
+        "id": "listen-grounation",
+        "title": "Grounation",
+        "creator": "Count Ossie and the Mystic Revelation of Rastafari",
+        "year": "1973",
+        "why": "Three records of Nyabinghi drums, horns, chant and spoken history. The nearest a recording comes to a gathering in the hills."
+      },
+      {
+        "id": "listen-marcus-garvey",
+        "title": "Marcus Garvey",
+        "creator": "Burning Spear",
+        "year": "1975",
+        "why": "Winston Rodney’s deep, dry voice calls up the prophet and the slave ships. A cornerstone of roots reggae."
+      },
+      {
+        "id": "listen-satta-massagana",
+        "title": "Satta Massagana",
+        "creator": "The Abyssinians",
+        "year": "1976",
+        "why": "The title song, partly in Amharic, became an anthem sung almost as a hymn."
+      },
+      {
+        "id": "listen-exodus",
+        "title": "Exodus",
+        "creator": "Bob Marley and the Wailers",
+        "year": "1977",
+        "why": "Recorded in London after an attempt on his life. The first side is the movement of Jah people set to music."
+      },
+      {
+        "id": "listen-two-sevens-clash",
+        "title": "Two Sevens Clash",
+        "creator": "Culture",
+        "year": "1977",
+        "why": "Joseph Hill sings a Garvey prophecy about the seventh of July 1977. Kingston shut its shops on the day."
+      }
+    ],
+    "art": [
+      {
+        "id": "art-pencil-portraits-of-rastafari",
+        "title": "Pencil portraits of Rastafari",
+        "creator": "Ras Daniel Heartman",
+        "year": "1960s and 1970s",
+        "why": "Finely drawn heads of locksmen and children, sold as prints across Jamaica. The first images in which the movement saw its own dignity."
+      },
+      {
+        "id": "art-ethiopian-apple-and-other-paintings",
+        "title": "Ethiopian Apple and other paintings",
+        "creator": "Everald Brown",
+        "year": "1960s to 1990s",
+        "why": "A self-taught visionary and Ethiopian Orthodox elder who painted the hills full of hidden figures and built his own instruments."
+      },
+      {
+        "id": "art-the-imperial-standard-of-ethiopia",
+        "title": "The imperial standard of Ethiopia",
+        "creator": "Ethiopian court workshops",
+        "year": "to 1974",
+        "why": "Green, gold and red with the crowned Lion of Judah carrying a cross-topped staff. The source of the colours seen everywhere in the movement."
+      },
+      {
+        "id": "art-album-sleeves-for-bob-marley-and-the-wailers",
+        "title": "Album sleeves for Bob Marley and the Wailers",
+        "creator": "Neville Garrick",
+        "year": "1976 to 1983",
+        "why": "Rastaman Vibration, Exodus and Survival. Garrick brought Ethiopian lettering and the flags of Africa to record shops worldwide."
+      }
+    ],
+    "eat": [
+      {
+        "id": "eat-ital-stew",
+        "title": "Ital stew",
+        "creator": "Pumpkin, yam, beans and greens in coconut milk with thyme and allspice",
+        "why": "The one-pot meal of the movement, seasoned with herbs and hot pepper and little or no salt."
+      },
+      {
+        "id": "eat-rice-and-peas",
+        "title": "Rice and peas",
+        "creator": "Rice with kidney beans or gungo peas, coconut milk and thyme",
+        "why": "The Sunday dish of all Jamaica, and ital as it stands."
+      },
+      {
+        "id": "eat-callaloo",
+        "title": "Callaloo",
+        "creator": "Steamed amaranth leaves with onion, tomato and pepper",
+        "why": "A dark green leaf grown in every yard. Eaten at breakfast with boiled green banana."
+      },
+      {
+        "id": "eat-roast-breadfruit",
+        "title": "Roast breadfruit",
+        "creator": "A whole breadfruit turned over coals until black, then peeled",
+        "why": "Smoky and filling, and eaten by hand. Breadfruit trees feed whole districts in season."
+      }
+    ],
+    "drink": [
+      {
+        "id": "drink-coconut-water",
+        "title": "Coconut water",
+        "creator": "Drunk from a green jelly coconut",
+        "why": "Sold at the roadside and opened with a machete. Clean water straight from the tree."
+      },
+      {
+        "id": "drink-bush-tea",
+        "title": "Bush tea",
+        "creator": "Fever grass, mint, or bitter cerasee, steeped in hot water",
+        "why": "Jamaican herb teas taken in the morning. Fever grass is lemongrass."
+      },
+      {
+        "id": "drink-sorrel",
+        "title": "Sorrel",
+        "creator": "Hibiscus sepals steeped with ginger and pimento",
+        "why": "A deep red drink made at Christmas. Leave out the rum."
+      },
+      {
+        "id": "drink-fresh-juice",
+        "title": "Fresh juice",
+        "creator": "Soursop, june plum, or carrot blended with water and lime",
+        "why": "Ital shops sell juices made to order with nothing added."
+      }
+    ],
+    "customs": [
+      {
+        "id": "customs-the-colours",
+        "title": "The colours",
+        "creator": "Red, gold and green, and often black",
+        "why": "From the Ethiopian flag and from Garvey’s movement. Commonly read as blood, wealth and the land, with black for the people."
+      },
+      {
+        "id": "customs-locks-and-the-covered-head",
+        "title": "Locks and the covered head",
+        "creator": "The Nazirite vow",
+        "why": "Many Rastafari let their hair grow uncut and matted and cover it with a knitted tam or a wrap. The locks are a covenant, and visitors should not treat them as a style to try on."
+      },
+      {
+        "id": "customs-greeting-with-blessing",
+        "title": "Greeting with blessing",
+        "creator": "Blessed love; Give thanks; One love",
+        "why": "Words of greeting and parting are blessings. Among the brethren a fist is touched to a fist and then to the heart."
+      },
+      {
+        "id": "customs-the-herb",
+        "title": "The herb",
+        "creator": "A sacrament of some houses",
+        "why": "Cannabis is smoked by many Rastafari as an aid to reasoning and prayer, with a blessing first. It is a rite of the community and is not part of this Onda."
+      }
+    ],
+    "games": [
+      {
+        "id": "games-dominoes",
+        "title": "Dominoes",
+        "creator": "Table game · Jamaica",
+        "year": "20th century",
+        "why": "Played in fours, in partners, and slammed down hard. The game of every yard and rum-free ital shop on the island."
+      },
+      {
+        "id": "games-football",
+        "title": "Football",
+        "creator": "Team sport",
+        "year": "modern",
+        "why": "Bob Marley played every day he could, on tour and at Hope Road. Roots musicians and footballers shared the same yards."
+      },
+      {
+        "id": "games-ludi",
+        "title": "Ludi",
+        "creator": "Board game · Jamaica",
+        "year": "20th century",
+        "why": "The Jamaican form of ludo, played on large hand-painted wooden boards with two dice."
+      }
+    ],
+    "festivals": [
+      {
+        "id": "fest-groundation-day",
+        "title": "Groundation Day",
+        "creator": "21 April",
+        "why": "The day in 1966 when Haile Selassie landed at Kingston. Marked with Nyabinghi drumming and chant."
+      },
+      {
+        "id": "fest-the-birthday-of-his-imperial-majesty",
+        "title": "The Birthday of His Imperial Majesty",
+        "creator": "23 July",
+        "why": "Born in 1892 at Ejersa Goro in Ethiopia. One of the largest gatherings of the year."
+      },
+      {
+        "id": "fest-coronation-day",
+        "title": "Coronation Day",
+        "creator": "2 November",
+        "why": "The crowning in Addis Ababa in 1930, the event from which the movement dates itself."
+      },
+      {
+        "id": "fest-ethiopian-christmas",
+        "title": "Ethiopian Christmas",
+        "creator": "7 January",
+        "why": "Lidät in Ethiopia. Kept with a binghi and an ital feast."
+      }
+    ],
+    "places": [
+      {
+        "id": "place-bob-marley-museum",
+        "title": "Bob Marley Museum",
+        "creator": "56 Hope Road, Kingston, Jamaica",
+        "why": "His home and studio from 1975, kept much as he left it. The tour is led by people who know the music well."
+      },
+      {
+        "id": "place-rastafari-indigenous-village",
+        "title": "Rastafari Indigenous Village",
+        "creator": "Montego River Gardens, near Montego Bay, Jamaica",
+        "why": "A living community that receives visitors for drumming, ital food and conversation. Book ahead."
+      },
+      {
+        "id": "place-pinnacle",
+        "title": "Pinnacle",
+        "creator": "Sligoville, St Catherine, Jamaica",
+        "why": "The hilltop where Leonard Howell built the first Rastafari community in 1940. Ruins and a wide view remain, and part of the land is protected."
+      },
+      {
+        "id": "place-shashamane",
+        "title": "Shashamane",
+        "creator": "Oromia, Ethiopia",
+        "why": "Land the Emperor granted in 1948 to people of African descent who wished to return. A small Rastafari settlement lives there still."
+      },
+      {
+        "id": "place-holy-trinity-cathedral",
+        "title": "Holy Trinity Cathedral",
+        "creator": "Addis Ababa, Ethiopia",
+        "why": "Haile Selassie and Empress Menen are buried here in granite tombs. An Ethiopian Orthodox church: dress modestly and take off your shoes."
+      }
+    ]
+  },
+  "ethics": [
+    {
+      "title": "Dignity",
+      "text": "The movement began by telling the poorest black Jamaicans that they were sons and daughters of kings. Every person is to be met as royal.",
+      "practice": "Carry yourself today as someone whose worth is not in question, and grant the same to each person you meet."
+    },
+    {
+      "title": "Natural living",
+      "text": "The body is a temple and the earth is a gift. What is closest to how it grew is best.",
+      "practice": "Replace one manufactured thing in your day with its natural form."
+    },
+    {
+      "title": "Truth in speech",
+      "text": "Words make and unmake. Lies, flattery and curses do harm in the world.",
+      "practice": "Say nothing today that you do not mean."
+    },
+    {
+      "title": "Justice",
+      "text": "Equal rights and justice is a constant demand. Peace without them is only quiet.",
+      "practice": "Find one unfairness within your reach and act on it."
+    },
+    {
+      "title": "Sharing",
+      "text": "At Pinnacle and in the camps food was held in common. What Jah gives is for all.",
+      "practice": "Share a meal today with someone who did not expect it."
+    },
+    {
+      "title": "Love",
+      "text": "One love means one human family under one Creator. It is asked of the oppressed towards one another first, and then towards everyone.",
+      "practice": "Settle one quarrel, or take the first step."
+    }
+  ],
+  "philosophy": [
+    {
+      "title": "I and I",
+      "text": "Jah lives within each person. There is no you set against me, only I and I. The grammar itself refuses to let anyone be an object.",
+      "practice": "For one conversation today, think of the other person as I."
+    },
+    {
+      "title": "Babylon and Zion",
+      "text": "History is read as captivity and return. Babylon is every system that lives off others, and Zion is the home and the rightness from which people were taken.",
+      "practice": "Name one thing in your life that belongs to Babylon, and one that belongs to Zion."
+    },
+    {
+      "title": "Mental slavery",
+      "text": "Chains came off the body in 1838. The harder work is to free a mind taught to despise itself.",
+      "practice": "Trace one belief about yourself back to who taught it to you."
+    },
+    {
+      "title": "Word, sound and power",
+      "text": "Language is not neutral. To rename a thing is to see it differently, and to speak is to act.",
+      "practice": "Change one word you use for yourself."
+    },
+    {
+      "title": "Livity",
+      "text": "Faith is a way of living more than a set of beliefs. It shows in the pot, the garden, the greeting and the day’s work.",
+      "practice": "Ask of one ordinary act today: does this give life?"
+    },
+    {
+      "title": "The living God",
+      "text": "Rastafari look for God in a living person and in this world. Many hold Haile Selassie to be the returned Christ. Others see him as a king chosen by God.",
+      "practice": "Where do you look for the sacred: far off, or in front of you?"
+    },
+    {
+      "title": "Know your history",
+      "text": "A people cut off from their past can be told anything. Learning African history is a religious duty.",
+      "practice": "Learn the story of one ancestor, or one event your schooling left out."
+    },
+    {
+      "title": "Repatriation",
+      "text": "To go home. For some it means ships to Africa. For others it means building Zion where they stand and carrying Africa within.",
+      "practice": "Ask where home is for you, and what it would take to live there."
+    }
+  ],
+  "journal": [
+    "Where did Babylon get into your head today?",
+    "What did you give thanks for this morning?",
+    "What did you eat today that was alive?",
+    "Which of your words did harm?",
+    "Whom did you treat as separate from you?",
+    "What do you believe about yourself that someone else put there?",
+    "Where is Zion for you?",
+    "What part of your history were you never taught?",
+    "When did you feel like royalty today?",
+    "Whom did you look down on?",
+    "What did the earth give you today?",
+    "What are you still a slave to?",
+    "Which word would you rebuild?",
+    "Where did you keep quiet for the sake of peace without justice?",
+    "What would you do if you were not afraid of the system?",
+    "Whom do you call brother or sister, and mean it?",
+    "What did the drum do to your breathing?",
+    "What did you learn by reasoning that you could not learn alone?",
+    "Where did you see Jah in a person today?",
+    "What are you growing?",
+    "What did you buy that you did not need?",
+    "Who are your ancestors, and what did they survive?",
+    "What vow would you keep for life?",
+    "What does your body tell you about how you are living?",
+    "Whose labour made your day possible?",
+    "What would freedom of mind look like tomorrow?",
+    "What song carried you today?",
+    "What does one love ask of you this week?",
+    "Where do you feel in exile?",
+    "What are you carrying home?"
+  ],
+  "reflect": [
+    "What changed when the day began with thanks?",
+    "What did eating ital teach you about your habits?",
+    "Which words have you stopped using?",
+    "Where do you now see Babylon that you did not before?",
+    "What did reasoning with others open up?",
+    "What part of this livity will you keep?"
+  ],
+  "dayThemes": [
+    "Give thanks",
+    "I and I",
+    "Ital",
+    "Word and sound",
+    "Babylon",
+    "Zion",
+    "The heartbeat",
+    "Mental slavery",
+    "Know your history",
+    "The Lion of Judah",
+    "Livity",
+    "Hands in the earth",
+    "The psalm",
+    "Reasoning",
+    "The covenant",
+    "Garvey’s ships",
+    "The crowning",
+    "Pinnacle",
+    "Equal rights",
+    "The temple of the body",
+    "Overstanding",
+    "Exile",
+    "The King comes to Kingston",
+    "Chant down",
+    "Brethren in unity",
+    "Roots",
+    "The living God",
+    "One love",
+    "Repatriation",
+    "Home"
+  ],
+  "guide": {
+    "intro": [
+      "Rastafari began in Jamaica in the early 1930s. The island was a British colony. Slavery had ended less than a century before, and most of the descendants of the enslaved were landless, poor and taught at school and in church that everything good was white. Against this stood Marcus Garvey, a Jamaican printer who had built the largest black movement in history, told his people to be proud of Africa and to look there for their redemption.",
+      "In November 1930 a nobleman named Ras Tafari Makonnen was crowned Emperor of Ethiopia as Haile Selassie I, King of Kings and Conquering Lion of the Tribe of Judah. Ethiopia was an ancient Christian kingdom, never colonised, whose rulers claimed descent from Solomon and the Queen of Sheba. Princes came from Europe to bow at the coronation. In Jamaica, several street preachers who knew their Bibles, Leonard Howell first among them, read the news with the Book of Revelation open and concluded that the promised king had come, and that God was black.",
+      "The colonial authorities jailed Howell for sedition. On his release he founded a community at Pinnacle, in the hills, where several thousand people farmed and lived in common until the police broke it up in the 1950s. Its people scattered into the Kingston slums and took the movement with them. There a younger generation grew their hair into locks, shaped a way of speaking of their own, and worked out the practice of drumming, chanting and reasoning.",
+      "For thirty years Rastafari were despised, beaten and shaved by the police. Two things changed their standing. In April 1966 Haile Selassie visited Jamaica, and a crowd of a hundred thousand met him at the airport. And in the 1970s the musicians of Kingston, Bob Marley above all, carried the message around the world in reggae.",
+      "Rastafari has no church, no creed and no head. Its main houses, or mansions, are the Nyabinghi Order, the Bobo Ashanti and the Twelve Tribes of Israel, and many belong to none. What is shared is a reading of the Bible from the side of the captive, reverence for Haile Selassie, love of Africa, a natural way of life called livity, and refusal of Babylon, the system that lives off the poor. There may be around a million Rastafari today, in the Caribbean, Africa, Europe, the Americas and Japan.",
+      "This Onda follows a day of livity: thanks at sunrise, careful speech, an ital pot, hands in the earth and reasoning to the heartbeat drum. You are a guest. The movement was made by people of African descent out of their own history of slavery, and its sacraments, its locks and its faith in the Emperor are theirs. What it offers anyone is a clear look at what rules the mind, and a simpler way to live."
+    ],
+    "origin": "Jamaica, among the poor of Kingston and the eastern parishes, looking towards Ethiopia",
+    "era": "From the crowning of Haile Selassie in 1930 to the present day",
+    "figures": [
+      {
+        "name": "Marcus Garvey",
+        "dates": "1887 to 1940",
+        "bio": "Jamaican founder of the Universal Negro Improvement Association and the Black Star Line. He was not a Rastafari and criticised the Emperor, yet the movement honours him as its John the Baptist."
+      },
+      {
+        "name": "Haile Selassie I",
+        "dates": "1892 to 1975",
+        "bio": "Emperor of Ethiopia from 1930 to 1974. He resisted the Italian invasion, helped found the Organisation of African Unity, and remained a devout Ethiopian Orthodox Christian who never claimed divinity."
+      },
+      {
+        "name": "Empress Menen Asfaw",
+        "dates": "1889 to 1962",
+        "bio": "Crowned beside her husband in 1930. Rastafari women honour her as the model of the Empress, and her birthday is kept in some houses."
+      },
+      {
+        "name": "Leonard Howell",
+        "dates": "1898 to 1981",
+        "bio": "Often called the first Rasta. He travelled widely, began preaching the divinity of the Emperor in 1933, was jailed for sedition and founded Pinnacle."
+      },
+      {
+        "name": "Joseph Hibbert",
+        "dates": "1894 to 1986",
+        "bio": "One of the first preachers, who had lived in Costa Rica and brought an interest in Ethiopian mystical lore."
+      },
+      {
+        "name": "Mortimo Planno",
+        "dates": "1929 to 2006",
+        "bio": "A Nyabinghi elder and a member of the 1961 mission to Africa. He calmed the crowd at the airport in 1966 and later taught Bob Marley."
+      },
+      {
+        "name": "Prince Emmanuel Charles Edwards",
+        "dates": "about 1915 to 1994",
+        "bio": "Founder of the Bobo Ashanti, a strict priestly order that lives in community at Bull Bay, wears turbans and robes and keeps the Sabbath."
+      },
+      {
+        "name": "Vernon Carrington, the Prophet Gad",
+        "dates": "1936 to 2005",
+        "bio": "Founder in 1968 of the Twelve Tribes of Israel, the most open of the mansions, which encourages daily Bible reading and counted many musicians as members."
+      },
+      {
+        "name": "Count Ossie",
+        "dates": "1926 to 1976",
+        "bio": "The master drummer whose camp in the Wareika Hills brought Nyabinghi rhythm together with jazz players and shaped Jamaican popular music."
+      },
+      {
+        "name": "Bob Marley",
+        "dates": "1945 to 1981",
+        "bio": "Singer and songwriter from Nine Mile who made the movement known on every continent. He was baptised into the Ethiopian Orthodox Church shortly before his death."
+      }
+    ],
+    "history": [
+      {
+        "when": "1914",
+        "what": "Garvey founds the UNIA",
+        "detail": "In Kingston. Within a few years it has millions of followers across the Americas and Africa, a newspaper and a shipping line."
+      },
+      {
+        "when": "2 November 1930",
+        "what": "The coronation",
+        "detail": "Ras Tafari is crowned Haile Selassie I in Addis Ababa. Photographs appear in newspapers worldwide and reach Jamaica."
+      },
+      {
+        "when": "1933 to 1934",
+        "what": "Howell preaches and is tried",
+        "detail": "He sells pictures of the Emperor as passports to Ethiopia and tells crowds they owe the British king nothing. He is sentenced to two years for sedition."
+      },
+      {
+        "when": "1935 to 1941",
+        "what": "Italy invades Ethiopia",
+        "detail": "Mussolini’s army uses poison gas. The Emperor appeals to the League of Nations in vain, goes into exile in England and returns with Allied help. Black people worldwide rally to Ethiopia."
+      },
+      {
+        "when": "1940",
+        "what": "Pinnacle",
+        "detail": "Howell buys an abandoned estate above Sligoville. For over a decade it is a self-governing community, raided again and again."
+      },
+      {
+        "when": "1948",
+        "what": "The Shashamane grant",
+        "detail": "The Emperor sets aside land for black people of the West who supported Ethiopia in the war. The first settlers arrive in the 1950s."
+      },
+      {
+        "when": "1954",
+        "what": "Pinnacle is destroyed",
+        "detail": "Police raze the settlement. Its people move to the shanty towns of west Kingston, where the dreadlocks and the Nyabinghi drumming take form."
+      },
+      {
+        "when": "1960",
+        "what": "The University report",
+        "detail": "At the request of Rastafari elders, three scholars of the University College of the West Indies study the movement and urge the government to stop the persecution and send a mission to Africa."
+      },
+      {
+        "when": "April 1963",
+        "what": "Coral Gardens",
+        "detail": "After a violent incident near Montego Bay the government orders a round-up. Hundreds of Rastafari are beaten, shorn and jailed. The day is remembered as Bad Friday, and the state apologised in 2017."
+      },
+      {
+        "when": "21 April 1966",
+        "what": "The Emperor in Jamaica",
+        "detail": "The crowd on the tarmac is so great that Haile Selassie stays in the aircraft until Mortimo Planno is asked to make a way. Rastafari elders are received at King’s House for the first time."
+      },
+      {
+        "when": "1973 to 1981",
+        "what": "Roots reggae",
+        "detail": "The Wailers’ Catch a Fire opens a decade in which the music takes the message to Africa, Europe and the Pacific."
+      },
+      {
+        "when": "1974 to 1975",
+        "what": "The fall and death of the Emperor",
+        "detail": "A military committee deposes Haile Selassie in a year of famine. He dies in custody in August 1975. Many Rastafari do not accept that he could die."
+      },
+      {
+        "when": "2015",
+        "what": "The law changes in Jamaica",
+        "detail": "Possession of small amounts of cannabis is decriminalised, and Rastafari are granted the right to use it as a sacrament."
+      }
+    ],
+    "concepts": [
+      {
+        "term": "Jah Rastafari",
+        "text": "The living God.",
+        "detail": "God is not a spirit in the sky. For most Rastafari he was revealed in the person of Haile Selassie, and he dwells within every human being."
+      },
+      {
+        "term": "Babylon",
+        "text": "The system.",
+        "detail": "Named after the empire that carried Israel into captivity. It covers slavery, colonial rule and their heirs in government, commerce, police and church."
+      },
+      {
+        "term": "Zion",
+        "text": "The home.",
+        "detail": "Ethiopia stands for all Africa, the land from which the ancestors were taken. Zion is also the condition of living rightly, which can begin anywhere."
+      },
+      {
+        "term": "I and I",
+        "text": "The grammar of unity.",
+        "detail": "The first person replaces the others. It asserts the speaker’s dignity, the presence of Jah within, and the bond between people."
+      },
+      {
+        "term": "Livity",
+        "text": "Right living.",
+        "detail": "The daily discipline of natural food, clean speech, honest work and praise. More weight is placed on how one lives than on what one professes."
+      },
+      {
+        "term": "Ital",
+        "text": "The vital diet.",
+        "detail": "Rules differ between houses, but the direction is always towards plants, freshness and simplicity, and away from meat, salt, alcohol and anything processed."
+      },
+      {
+        "term": "Word, sound and power",
+        "text": "Speech as action.",
+        "detail": "Words carry force through their sound. Iyaric, the movement’s speech, removes sounds of defeat from English and plants I throughout."
+      },
+      {
+        "term": "The mansions",
+        "text": "Many rooms in one house.",
+        "detail": "From John 14:2. The Nyabinghi Order, the Bobo Ashanti and the Twelve Tribes of Israel differ in dress, discipline and doctrine. None can speak for all."
+      },
+      {
+        "term": "Repatriation",
+        "text": "The return.",
+        "detail": "The original and still living demand that the descendants of enslaved Africans be returned home, as a right and at the cost of those who took them."
+      }
+    ],
+    "facts": [
+      {
+        "text": "The name Haile Selassie means Power of the Trinity. It is a baptismal name he took as his throne name."
+      },
+      {
+        "text": "Ethiopia is the only African country that defeated a European army in the Scramble for Africa, at Adwa in 1896."
+      },
+      {
+        "text": "The funde drum plays close to the pace of a resting heart, and Nyabinghi chant is slower than any other Jamaican music."
+      },
+      {
+        "text": "The one-drop rhythm of reggae, with the weight on the third beat, grew out of studio drummers who had played in Rastafari camps."
+      },
+      {
+        "text": "Slavery in Jamaica ended fully on 1 August 1838, still kept as Emancipation Day."
+      },
+      {
+        "text": "Haile Selassie gave a gold medal to each of the Rastafari elders he received in 1966."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Nazirite",
+        "meaning": "One under the vow of Numbers 6: no razor, no strong drink"
+      },
+      {
+        "term": "Tam",
+        "meaning": "The large knitted cap worn over locks"
+      },
+      {
+        "term": "Bobo",
+        "meaning": "A member of the Bobo Ashanti, the Ethiopia Africa Black International Congress"
+      },
+      {
+        "term": "Funde",
+        "meaning": "The middle drum that holds the heartbeat"
+      },
+      {
+        "term": "Dungle",
+        "meaning": "The former rubbish tip of west Kingston where many early Rastafari lived"
+      },
+      {
+        "term": "UNIA",
+        "meaning": "The Universal Negro Improvement Association, founded by Marcus Garvey"
+      }
+    ],
+    "furtherReading": [
+      {
+        "title": "Rastafari: A Very Short Introduction",
+        "creator": "Ennis B. Edmonds",
+        "year": "2012",
+        "note": "A short, clear guide by a Jamaican scholar."
+      },
+      {
+        "title": "The First Rasta: Leonard Howell and the Rise of Rastafarianism",
+        "creator": "Hélène Lee",
+        "year": "2003",
+        "note": "A journalist’s search for the forgotten founder."
+      },
+      {
+        "title": "Dread: The Rastafarians of Jamaica",
+        "creator": "Joseph Owens",
+        "year": "1976",
+        "note": "A priest who lived among the brethren in west Kingston sets down their theology in their own words."
+      },
+      {
+        "title": "Negro with a Hat: The Rise and Fall of Marcus Garvey",
+        "creator": "Colin Grant",
+        "year": "2008",
+        "note": "A full and fair life of Garvey."
+      }
+    ],
+    "learnFrom": [
+      {
+        "name": "Rastafari Indigenous Village",
+        "note": "A community near Montego Bay that teaches visitors about livity, drumming and ital food.",
+        "link": "https://www.rastavillage.com"
+      },
+      {
+        "name": "Bob Marley Museum",
+        "note": "The house at 56 Hope Road in Kingston, run by the family.",
+        "link": "https://www.bobmarleymuseum.com"
+      },
+      {
+        "name": "Elders and houses near you",
+        "note": "Rastafari communities exist in most large cities. Go to a public event, listen first, and ask before you photograph anyone."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Rastafari: Roots and Ideology",
+        "creator": "Barry Chevannes",
+        "publisher": "Syracuse University Press",
+        "year": "1994"
+      },
+      {
+        "title": "Rastafari: A Very Short Introduction",
+        "creator": "Ennis B. Edmonds",
+        "publisher": "Oxford University Press",
+        "year": "2012"
+      },
+      {
+        "title": "The Rastafarians",
+        "creator": "Leonard E. Barrett",
+        "publisher": "Beacon Press",
+        "year": "1977; revised 1997"
+      },
+      {
+        "title": "Chanting Down Babylon: The Rastafari Reader",
+        "creator": "ed. Nathaniel Samuel Murrell, William David Spencer and Adrian Anthony McFarlane",
+        "publisher": "Temple University Press",
+        "year": "1998"
+      },
+      {
+        "title": "Rasta and Resistance: From Marcus Garvey to Walter Rodney",
+        "creator": "Horace Campbell",
+        "publisher": "Africa World Press",
+        "year": "1987"
+      },
+      {
+        "title": "The Rastafari Movement in Kingston, Jamaica",
+        "creator": "M. G. Smith, Roy Augier and Rex Nettleford",
+        "publisher": "University College of the West Indies",
+        "year": "1960"
+      }
+    ]
+  },
+  "sensitivity": {
+    "note": "Rastafari is a living faith born from the experience of slavery and colonial rule in Jamaica. This Onda borrows its daily livity: praise, ital food, careful speech and reasoning. It does not ask you to wear locks or colours, to use its sacrament or to claim its identity.",
+    "requiredCaveats": [
+      "Dreadlocks are a religious covenant for Rastafari. They are not a costume, and the people who wear them have been beaten and jailed for it.",
+      "Rastafari was made by people of African descent out of their own history. A guest should listen more than speak.",
+      "The mansions differ on doctrine, on the Bible and on who Haile Selassie is. No summary speaks for all of them.",
+      "Cannabis is a sacrament in some houses and is illegal in many countries. It is left out of the practices here."
+    ],
+    "reviewRequired": true
+  }
+}

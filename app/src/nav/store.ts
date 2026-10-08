@@ -32,6 +32,7 @@ export type SheetRoute =
   | { name: 'ondaPractices'; ondaId: string }
   | { name: 'journalEdit'; day?: number; fromList?: boolean }
   | { name: 'mediaInfo'; item: MediaItem; ondaId: string; runId?: string }
+  | { name: 'practiceInfo'; ondaId: string; practiceId: string }
   | { name: 'createOnda' }
   | { name: 'achievements'; focus?: AchievementKey }
   | { name: 'dayLog'; date: string }

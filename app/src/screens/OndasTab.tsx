@@ -119,8 +119,9 @@ export default function OndasTab() {
           {seg === 'practices' && (
             <div className={s.stack14}>
               {practices.map((p) => (
-                <PracticeRow key={p.id} p={p} done={done.practices.has(p.id)} onToggle={() => togglePractice(run.id, p.id)} />
+                <PracticeRow key={p.id} p={p} done={done.practices.has(p.id)} onToggle={() => togglePractice(run.id, p.id)} info={{ ondaId: run.ondaId, style: look.vars, onda: themed ? run.ondaId : undefined }} />
               ))}
+              {practices.length > 0 && <div className={o.holdHint}>{t('onda.holdHint')}</div>}
             </div>
           )}
           {seg === 'tasks' && <TasksList tasks={tasks} done={done.tasks} go onToggle={(id) => toggleItem('taskLogs', run.id, id)} />}

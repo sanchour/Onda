@@ -1,0 +1,1215 @@
+{
+  "version": 1,
+  "id": "discordia",
+  "name": "Discordianism",
+  "origin": "United States",
+  "era": "From about 1958 to today",
+  "tone": "yellow",
+  "icon": "pinwheel",
+  "font": "special-elite",
+  "pattern": "pentagons-and-fnords",
+  "glyph": "Fnord",
+  "line": "Hold your beliefs lightly, welcome disorder and laugh.",
+  "quote": {
+    "text": "It is my firm belief that it is a mistake to hold firm beliefs.",
+    "by": "Malaclypse the Younger",
+    "source": "Principia Discordia, 4th edition, 1970"
+  },
+  "quotes": [
+    {
+      "text": "We Discordians must stick apart.",
+      "by": "Malaclypse the Younger",
+      "source": "Principia Discordia, 4th edition, 1970"
+    },
+    {
+      "text": "A Discordian is Prohibited of Believing what he reads.",
+      "by": "The Pentabarf, fifth commandment",
+      "source": "Principia Discordia, 4th edition, 1970"
+    },
+    {
+      "text": "The human race will begin solving its problems on the day that it ceases taking itself so seriously.",
+      "by": "Malaclypse the Younger",
+      "source": "Principia Discordia, 4th edition, 1970"
+    },
+    {
+      "text": "’Tis an ill wind that blows no minds.",
+      "by": "Malaclypse the Younger",
+      "source": "Principia Discordia, 4th edition, 1970"
+    },
+    {
+      "text": "If you can master nonsense as well as you have already learned to master sense, then each will expose the other for what it is: absurdity.",
+      "by": "Malaclypse the Younger",
+      "source": "Principia Discordia, 4th edition, 1970, from the passage on nonsense as salvation"
+    },
+    {
+      "text": "I find the Law of Fives to be more and more manifest the harder I look.",
+      "by": "Lord Omar Khayyam Ravenhurst",
+      "source": "Principia Discordia, 4th edition, 1970"
+    }
+  ],
+  "words": [
+    {
+      "id": "word-eris",
+      "term": "Eris",
+      "meaning": "The Greek goddess of strife",
+      "pronunciation": "EH-ris",
+      "language": "Ancient Greek",
+      "usage": "The patron of the religion. Discordians say she is the goddess of chaos and creative confusion, and that she is rather fun."
+    },
+    {
+      "id": "word-discordia",
+      "term": "Discordia",
+      "meaning": "The Roman name of Eris",
+      "pronunciation": "dis-KOR-dee-a",
+      "language": "Latin",
+      "usage": "It gives the movement its name."
+    },
+    {
+      "id": "word-kallisti",
+      "term": "Kallisti",
+      "meaning": "To the prettiest one",
+      "pronunciation": "kal-LIS-tee",
+      "language": "Ancient Greek",
+      "usage": "The word Eris wrote on the golden apple. It is the motto of the religion."
+    },
+    {
+      "id": "word-chaos",
+      "term": "Chaos",
+      "meaning": "The stuff of which everything is made",
+      "pronunciation": "KAY-os",
+      "language": "Discordian English, from Greek",
+      "usage": "Not disorder. Pure chaos is what is there before anyone sorts it into order and disorder."
+    },
+    {
+      "id": "word-sacred-chao",
+      "term": "Sacred Chao",
+      "meaning": "The emblem of the faith",
+      "pronunciation": "SAY-kred KOW",
+      "language": "Discordian English",
+      "usage": "A yin-yang with a pentagon in one half and the golden apple in the other. A chao is a single unit of chaos, and it rhymes with cow."
+    },
+    {
+      "id": "word-hodge",
+      "term": "Hodge",
+      "meaning": "The disorderly half",
+      "pronunciation": "HOJ",
+      "language": "Discordian English",
+      "usage": "One side of the Sacred Chao. The other is Podge."
+    },
+    {
+      "id": "word-podge",
+      "term": "Podge",
+      "meaning": "The orderly half",
+      "pronunciation": "POJ",
+      "language": "Discordian English",
+      "usage": "Hodge and Podge chase each other. Neither is the truth."
+    },
+    {
+      "id": "word-aneristic",
+      "term": "Aneristic",
+      "meaning": "Of apparent order",
+      "pronunciation": "an-er-IS-tik",
+      "language": "Discordian English",
+      "usage": "The view that sees pattern. The Aneristic Illusion is the belief that order is real and disorder is its absence."
+    },
+    {
+      "id": "word-eristic",
+      "term": "Eristic",
+      "meaning": "Of apparent disorder",
+      "pronunciation": "er-IS-tik",
+      "language": "Discordian English, from Greek",
+      "usage": "The view that sees no pattern. The Eristic Illusion is the belief that only disorder is real."
+    },
+    {
+      "id": "word-grid",
+      "term": "Grid",
+      "meaning": "A frame through which reality is seen",
+      "pronunciation": "GRID",
+      "language": "Discordian English",
+      "usage": "Order and disorder are grids that people lay over chaos. Some grids are more useful than others. None is truer."
+    },
+    {
+      "id": "word-greyface",
+      "term": "Greyface",
+      "meaning": "The man who declared life serious",
+      "pronunciation": "GRAY-face",
+      "language": "Discordian English",
+      "usage": "In 1166 BC, the story goes, a humourless malcontent taught that play is sin. People believed him."
+    },
+    {
+      "id": "word-the-curse-of-greyface",
+      "term": "The Curse of Greyface",
+      "meaning": "Humourlessness as a social disease",
+      "pronunciation": "KURS ov GRAY-face",
+      "language": "Discordian English",
+      "usage": "The imbalance that comes from valuing order and seriousness above all else."
+    },
+    {
+      "id": "word-turkey-curse",
+      "term": "Turkey Curse",
+      "meaning": "The counter-spell",
+      "pronunciation": "TUR-kee KURS",
+      "language": "Discordian English",
+      "usage": "Revealed to counteract Greyface. You wave your arms and gobble like a turkey until the seriousness breaks."
+    },
+    {
+      "id": "word-pentabarf",
+      "term": "Pentabarf",
+      "meaning": "The five commandments",
+      "pronunciation": "PEN-ta-barf",
+      "language": "Discordian English",
+      "usage": "Found by the hermit Apostle Zarathud, carved in gilded stone. The fifth forbids believing the other four."
+    },
+    {
+      "id": "word-law-of-fives",
+      "term": "Law of Fives",
+      "meaning": "Everything relates to five",
+      "pronunciation": "LAW ov FYVZ",
+      "language": "Discordian English",
+      "usage": "All things happen in fives, or are divisible by five, or are somehow connected to five. The harder you look, the more you find."
+    },
+    {
+      "id": "word-fnord",
+      "term": "Fnord",
+      "meaning": "The word you were trained not to see",
+      "pronunciation": "FNORD",
+      "language": "Discordian English",
+      "usage": "It first appears in the Principia. In the Illuminatus novels it is printed throughout the news to cause unease, and only the enlightened can see it."
+    },
+    {
+      "id": "word-pope",
+      "term": "Pope",
+      "meaning": "Every single human being",
+      "pronunciation": "POHP",
+      "language": "Discordian English",
+      "usage": "All people are genuine and authorised Popes of Discordia, including those who have never heard of it."
+    },
+    {
+      "id": "word-episkopos",
+      "term": "Episkopos",
+      "meaning": "Overseer of a sect",
+      "pronunciation": "eh-PIS-ko-pos",
+      "language": "Ancient Greek",
+      "usage": "A Discordian who has founded their own cabal and hears from Eris through the pineal gland."
+    },
+    {
+      "id": "word-cabal",
+      "term": "Cabal",
+      "meaning": "A Discordian group",
+      "pronunciation": "ka-BAL",
+      "language": "Discordian English",
+      "usage": "Any number of people, including one. Each is independent, and schism is encouraged."
+    },
+    {
+      "id": "word-poee",
+      "term": "POEE",
+      "meaning": "The Paratheo-Anametamystikhood of Eris Esoteric",
+      "pronunciation": "POH-ee",
+      "language": "Discordian English",
+      "usage": "The founding cabal of Malaclypse the Younger. Described as a non-prophet irreligious disorganisation."
+    },
+    {
+      "id": "word-erisian",
+      "term": "Erisian",
+      "meaning": "Of Eris; a follower",
+      "pronunciation": "eh-RIZ-ee-an",
+      "language": "Discordian English",
+      "usage": "Used alongside Discordian. An Erisian tends to the lighter side of the faith."
+    },
+    {
+      "id": "word-catma",
+      "term": "Catma",
+      "meaning": "A belief held loosely",
+      "pronunciation": "KAT-ma",
+      "language": "Discordian English",
+      "usage": "The opposite of dogma. A catma is entertained for as long as it is useful or amusing."
+    },
+    {
+      "id": "word-pineal-gland",
+      "term": "Pineal gland",
+      "meaning": "Where Eris speaks",
+      "pronunciation": "pin-EE-al",
+      "language": "English",
+      "usage": "Discordians are told to consult their pineal gland for revelation. Any answer it gives is correct for the person who asked."
+    },
+    {
+      "id": "word-original-snub",
+      "term": "Original Snub",
+      "meaning": "The first slight",
+      "pronunciation": "o-RIJ-in-al SNUB",
+      "language": "Discordian English",
+      "usage": "Eris was not invited to the wedding of Peleus and Thetis. Her reply was the golden apple, and the Trojan War followed."
+    },
+    {
+      "id": "word-operation-mindfuck",
+      "term": "Operation Mindfuck",
+      "meaning": "A campaign of pranks and hoaxes",
+      "pronunciation": "op-er-AY-shun",
+      "language": "Discordian English",
+      "usage": "Begun in 1968 to make people doubt their certainties, chiefly by attributing everything to a secret society."
+    },
+    {
+      "id": "word-jake",
+      "term": "Jake",
+      "meaning": "A coordinated prank",
+      "pronunciation": "JAYK",
+      "language": "Discordian English",
+      "usage": "Many Discordians all write to the same solemn person on the same day, to honour them for their seriousness."
+    },
+    {
+      "id": "word-hail-eris",
+      "term": "Hail Eris",
+      "meaning": "The greeting",
+      "pronunciation": "HAYL EH-ris",
+      "language": "Discordian English",
+      "usage": "Answered with All hail Discordia."
+    },
+    {
+      "id": "word-st-tib-s-day",
+      "term": "St. Tib's Day",
+      "meaning": "The extra day",
+      "pronunciation": "saynt TIBZ",
+      "language": "Discordian English",
+      "usage": "The Discordian leap day. It falls outside the week and outside the seasons."
+    },
+    {
+      "id": "word-setting-orange",
+      "term": "Setting Orange",
+      "meaning": "The fifth day of the week",
+      "pronunciation": "SET-ing OR-inj",
+      "language": "Discordian English",
+      "usage": "The days are Sweetmorn, Boomtime, Pungenday, Prickle-Prickle and Setting Orange."
+    },
+    {
+      "id": "word-kopyleft",
+      "term": "Kopyleft",
+      "meaning": "All rites reversed",
+      "pronunciation": "KOP-ee-left",
+      "language": "Discordian English",
+      "usage": "The notice in the Principia, which invites anyone to reprint what they like."
+    }
+  ],
+  "practices": [
+    {
+      "id": "erisian-date",
+      "name": "Name the day",
+      "icon": "calendar-star",
+      "slot": "Morning",
+      "time": "08:00",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Work out today’s date in the Discordian calendar. The year has five seasons of seventy-three days: Chaos begins on 1 January, Discord on 15 March, Confusion on 27 May, Bureaucracy on 8 August and The Aftermath on 20 October. The five weekdays run in order from Sweetmorn on 1 January. Add 1166 to the year. Say the date aloud, then decide what kind of day that makes it and act accordingly.",
+      "why": "The calendar is set out in the Principia Discordia and shipped for decades as a small program on Unix systems. It works perfectly well, which makes the ordinary calendar look like one grid among others.",
+      "variations": [
+        "Write the Discordian date at the top of everything you write today.",
+        "Find out which of the five apostles owns the current season.",
+        "On the fifth and fiftieth day of a season, declare a holiday."
+      ]
+    },
+    {
+      "id": "pineal",
+      "name": "Consult your pineal gland",
+      "icon": "brain",
+      "slot": "Morning",
+      "time": "08:30",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Sit down and close your eyes. Ask one question that has been bothering you. Take the first answer that arrives, however odd, and write it down without improving it. Then write the opposite answer underneath. Carry both through the day and see which the day agrees with.",
+      "why": "The Principia tells every Discordian to consult their own pineal gland instead of an authority. The joke has a point: you already have an opinion, and it is worth hearing before anyone else’s.",
+      "variations": [
+        "Ask the question and open a book at random for the answer.",
+        "Ask five questions and answer all of them with the same word.",
+        "Flip a coin, and notice which side you hoped for."
+      ]
+    },
+    {
+      "id": "break-a-pattern",
+      "name": "Creative disorder",
+      "icon": "pinwheel",
+      "slot": "Afternoon",
+      "time": "13:00",
+      "minutes": 15,
+      "meta": "Afternoon · 15 min",
+      "instructions": "Pick one thing you do the same way every day and do it differently. Take another route, eat lunch at a strange hour, use the wrong hand, sit in a different chair, speak first where you usually wait. It must harm no one. Notice what the habit was protecting you from, and what turned up in its place.",
+      "why": "Discordians distinguish creative disorder from destructive disorder, and count the first as a blessing. Too much order is the Curse of Greyface, and the cure is to let a little chaos back in.",
+      "variations": [
+        "Let a die choose between six options for the afternoon.",
+        "Rearrange one shelf or one room.",
+        "Spend fifteen minutes on something with no purpose whatever."
+      ]
+    },
+    {
+      "id": "both-grids",
+      "name": "Look through both grids",
+      "icon": "eye",
+      "slot": "Afternoon",
+      "time": "16:00",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Take one situation that is on your mind. First describe it as orderly: write five sentences on the pattern in it, what causes what and where it is heading. Then describe it as disorderly: five sentences on what is random, unknown or out of anyone’s hands. Read both. Notice that each is a way of looking, and choose which is more use to you today.",
+      "why": "The Sacred Chao teaches that order and disorder are both grids laid over a reality that is neither. Wisdom lies in knowing that you are using a grid.",
+      "variations": [
+        "Do it for a news story.",
+        "Do it for your own life story.",
+        "Ask someone else which grid they think you live in."
+      ]
+    },
+    {
+      "id": "turkey-curse",
+      "name": "Lift the Curse of Greyface",
+      "icon": "mask-happy",
+      "slot": "Evening",
+      "time": "19:00",
+      "minutes": 5,
+      "meta": "Evening · 5 min",
+      "instructions": "Recall the moment today when you took yourself most seriously. Stand up. Wave your arms and say gobble, gobble, gobble, loudly, five times, as the Turkey Curse directs. Keep going until you laugh or at least feel foolish. Then name five things from the day, of any kind, and find what connects them to the number five.",
+      "why": "The Turkey Curse was revealed, according to the Principia, to neutralise the Curse of Greyface, which is the belief that life is a serious matter. It is very hard to stay pompous while gobbling.",
+      "variations": [
+        "Do it with someone else.",
+        "Do it silently in a meeting, in your head.",
+        "Write a solemn apology to yourself for being so serious."
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task-eat-a-hot-dog-with-no-bun-alone-and-with-joy",
+      "name": "Eat a hot dog with no bun, alone and with joy",
+      "meta": "Eat · the third and fourth commandments",
+      "time": "12:30",
+      "slot": "Afternoon",
+      "action": "eat"
+    },
+    {
+      "id": "task-read-the-principia-discordia-from-wherever-it-falls-open",
+      "name": "Read the Principia Discordia from wherever it falls open",
+      "meta": "Read · 20 min",
+      "time": "20:00",
+      "slot": "Evening",
+      "action": "read"
+    },
+    {
+      "id": "task-watch-maybe-logic",
+      "name": "Watch Maybe Logic",
+      "meta": "Watch · Robert Anton Wilson",
+      "time": "20:30",
+      "slot": "Evening",
+      "action": "watch"
+    },
+    {
+      "id": "task-listen-to-chill-out-by-the-klf-in-one-sitting",
+      "name": "Listen to Chill Out by the KLF, in one sitting",
+      "meta": "Listen · 44 min",
+      "time": "22:00",
+      "slot": "Evening",
+      "action": "listen"
+    },
+    {
+      "id": "task-journal-what-did-you-take-too-seriously-today",
+      "name": "Journal: what did you take too seriously today?",
+      "meta": "Journal · 10 min",
+      "time": "21:30",
+      "slot": "Evening",
+      "action": "journal"
+    },
+    {
+      "id": "task-catma-which-belief-could-you-hold-more-loosely",
+      "name": "Catma: which belief could you hold more loosely?",
+      "meta": "Philosophy · 10 min",
+      "time": "09:00",
+      "slot": "Morning",
+      "action": "philosophy"
+    },
+    {
+      "id": "declare-someone-a-pope-and-tell-them-so",
+      "name": "Declare someone a Pope and tell them so",
+      "meta": "Everyone already is",
+      "time": "11:00",
+      "slot": "Morning"
+    },
+    {
+      "id": "find-five-fives-before-sunset",
+      "name": "Find five fives before sunset",
+      "meta": "The Law of Fives",
+      "time": "15:00",
+      "slot": "Afternoon"
+    },
+    {
+      "id": "leave-a-harmless-puzzling-kindness-for-a-stranger",
+      "name": "Leave a harmless, puzzling kindness for a stranger",
+      "meta": "Creative disorder",
+      "time": "17:30",
+      "slot": "Afternoon"
+    }
+  ],
+  "rules": [
+    {
+      "id": "r1",
+      "text": "Believe nothing you read",
+      "why": "Including this rule. Check, doubt, and then decide for yourself."
+    },
+    {
+      "id": "r2",
+      "text": "Break one habit every day",
+      "why": "A little disorder keeps the order from setting hard."
+    },
+    {
+      "id": "r3",
+      "text": "Do not take yourself seriously",
+      "why": "Seriousness is the Curse of Greyface. Laugh at yourself before anyone else has to."
+    },
+    {
+      "id": "r4",
+      "text": "Look through both grids",
+      "why": "Before you judge anything, describe it once as orderly and once as chaotic."
+    },
+    {
+      "id": "r5",
+      "text": "Treat everyone as a Pope",
+      "why": "Each person is the final authority on their own life. So are you."
+    },
+    {
+      "id": "r6",
+      "text": "Keep your disorder creative",
+      "why": "Surprise people, but never at their expense. Chaos that hurts is the wrong kind."
+    }
+  ],
+  "immerse": {
+    "read": [
+      {
+        "id": "read-principia-discordia",
+        "title": "Principia Discordia",
+        "creator": "Malaclypse the Younger and Lord Omar Khayyam Ravenhurst",
+        "year": "1965; 4th edition 1970",
+        "why": "The scripture: a collage of typewriter text, rubber stamps, cartoons and footnotes. It is free to copy and easy to find. Subtitled How I Found Goddess and What I Did to Her When I Found Her."
+      },
+      {
+        "id": "read-the-illuminatus-trilogy",
+        "title": "The Illuminatus Trilogy",
+        "creator": "Robert Shea and Robert Anton Wilson",
+        "year": "1975",
+        "why": "Three novels in which every conspiracy theory is true at once and the Discordians are the heroes. The book that spread the religion."
+      },
+      {
+        "id": "read-cosmic-trigger-final-secret-of-the-illuminati",
+        "title": "Cosmic Trigger: Final Secret of the Illuminati",
+        "creator": "Robert Anton Wilson",
+        "year": "1977",
+        "why": "Wilson’s memoir of what happened to his mind while writing Illuminatus. Funny, and honest about the risks of believing things."
+      },
+      {
+        "id": "read-zen-without-zen-masters",
+        "title": "Zen Without Zen Masters",
+        "creator": "Camden Benares",
+        "year": "1977",
+        "why": "Short tales and exercises by an early Discordian. The lightest book of koans there is."
+      },
+      {
+        "id": "read-historia-discordia",
+        "title": "Historia Discordia",
+        "creator": "Adam Gorightly",
+        "year": "2014",
+        "why": "The early letters, drafts and artwork from the Discordian archives, with the true story of how the Principia was made."
+      },
+      {
+        "id": "read-the-klf-chaos-magic-and-the-band-who-burned-a-million-pounds",
+        "title": "The KLF: Chaos, Magic and the Band Who Burned a Million Pounds",
+        "creator": "John Higgs",
+        "year": "2012",
+        "why": "How Discordian ideas travelled from California through a Liverpool theatre into British pop."
+      }
+    ],
+    "watch": [
+      {
+        "id": "watch-maybe-logic-the-lives-and-ideas-of-robert-anton-wilson",
+        "title": "Maybe Logic: The Lives and Ideas of Robert Anton Wilson",
+        "creator": "Lance Bauscher",
+        "year": "2003",
+        "why": "Wilson, elderly and merry, explains why he believes nothing and suspects everything."
+      },
+      {
+        "id": "watch-who-killed-the-klf",
+        "title": "Who Killed the KLF?",
+        "creator": "Chris Atkins",
+        "year": "2021",
+        "why": "The story of the two men who had number one records, deleted their catalogue and burned the proceeds."
+      },
+      {
+        "id": "watch-f-for-fake",
+        "title": "F for Fake",
+        "creator": "Orson Welles",
+        "year": "1973",
+        "why": "An essay film about forgers and hoaxers that tricks its audience as it goes. Not Discordian, but entirely in the spirit."
+      },
+      {
+        "id": "watch-duck-soup",
+        "title": "Duck Soup",
+        "creator": "Leo McCarey, with the Marx Brothers",
+        "year": "1933",
+        "why": "Groucho is made dictator of Freedonia. Seventy minutes of creative disorder aimed at pomp and war."
+      }
+    ],
+    "listen": [
+      {
+        "id": "listen-chill-out",
+        "title": "Chill Out",
+        "creator": "The KLF",
+        "year": "1990",
+        "why": "A single unbroken piece: a night drive across the American South made of steel guitar, sheep, trains and radio voices."
+      },
+      {
+        "id": "listen-robert-anton-wilson-explains-everything",
+        "title": "Robert Anton Wilson Explains Everything",
+        "creator": "Robert Anton Wilson",
+        "year": "2001",
+        "why": "Six hours of interview on reality tunnels, model agnosticism and the uses of doubt."
+      },
+      {
+        "id": "listen-indeterminacy",
+        "title": "Indeterminacy",
+        "creator": "John Cage and David Tudor",
+        "year": "1959",
+        "why": "Cage reads ninety one-minute stories while Tudor plays unrelated sounds in another room. Chance made into art, in the same years the religion was born."
+      },
+      {
+        "id": "listen-the-white-room",
+        "title": "The White Room",
+        "creator": "The KLF",
+        "year": "1991",
+        "why": "Stadium house full of references to the Justified Ancients of Mu Mu, a name taken from Illuminatus."
+      }
+    ],
+    "art": [
+      {
+        "id": "art-the-sacred-chao",
+        "title": "The Sacred Chao",
+        "creator": "Malaclypse the Younger",
+        "year": "1960s",
+        "why": "The emblem drawn for the Principia: a pentagon and an apple curled together like yin and yang."
+      },
+      {
+        "id": "art-the-pages-of-the-principia-discordia",
+        "title": "The pages of the Principia Discordia",
+        "creator": "Greg Hill and friends",
+        "year": "1965 to 1970",
+        "why": "Cut-and-paste collage made on typewriters and early photocopiers, years before punk fanzines used the same look."
+      },
+      {
+        "id": "art-the-judgement-of-paris",
+        "title": "The Judgement of Paris",
+        "creator": "Peter Paul Rubens",
+        "year": "about 1632 to 1635",
+        "why": "Three goddesses, one shepherd and the apple. In the National Gallery, London. Eris hovers in the storm cloud above."
+      },
+      {
+        "id": "art-the-golden-apple-of-discord",
+        "title": "The Golden Apple of Discord",
+        "creator": "Jacob Jordaens, after a sketch by Rubens",
+        "year": "1633",
+        "why": "The wedding feast at the moment the apple lands on the table. In the Prado, Madrid."
+      }
+    ],
+    "eat": [
+      {
+        "id": "eat-a-hot-dog-with-no-bun",
+        "title": "A hot dog with no bun",
+        "creator": "On a Friday, alone, joyously",
+        "why": "The third commandment requires it, as a protest against the food rules of every other religion. The fourth forbids the bun."
+      },
+      {
+        "id": "eat-a-golden-apple",
+        "title": "A golden apple",
+        "creator": "Any yellow apple",
+        "why": "Write Kallisti on it first if you like. Then decide for yourself who is the prettiest one, and eat it."
+      },
+      {
+        "id": "eat-bowling-alley-food",
+        "title": "Bowling alley food",
+        "creator": "Chips, pie or whatever the counter has",
+        "why": "The first revelation came in an all-night bowling alley in southern California. Honour the setting."
+      }
+    ],
+    "drink": [
+      {
+        "id": "drink-coffee",
+        "title": "Coffee",
+        "creator": "Black, late, from a thick cup",
+        "why": "The founders were drinking coffee in the bowling alley when time stopped and a chimpanzee showed them the Sacred Chao."
+      },
+      {
+        "id": "drink-apple-juice-or-cider",
+        "title": "Apple juice or cider",
+        "creator": "Cloudy for preference",
+        "why": "The fruit of the goddess in liquid form."
+      },
+      {
+        "id": "drink-a-drink-chosen-by-a-die",
+        "title": "A drink chosen by a die",
+        "creator": "Number six options and roll",
+        "why": "Let chance order for you once."
+      }
+    ],
+    "customs": [
+      {
+        "id": "customs-everyone-is-a-pope",
+        "title": "Everyone is a Pope",
+        "creator": "Pope cards",
+        "why": "The Principia includes a card to cut out, certifying the bearer as a genuine and authorised Pope. Discordians hand them to anyone."
+      },
+      {
+        "id": "customs-schism",
+        "title": "Schism",
+        "creator": "Start your own cabal",
+        "why": "There is no central body. A Discordian who disagrees is expected to found a new sect, with a grand title, at once."
+      },
+      {
+        "id": "customs-holy-names",
+        "title": "Holy names",
+        "creator": "Take a title",
+        "why": "Members give themselves names such as Malaclypse the Younger or Lord Omar Khayyam Ravenhurst. Choose one that makes you laugh."
+      },
+      {
+        "id": "customs-all-rites-reversed",
+        "title": "All rites reversed",
+        "creator": "Copy freely",
+        "why": "Nothing Discordian is owned. Texts are reprinted, altered and added to by whoever wishes."
+      }
+    ],
+    "games": [
+      {
+        "id": "games-sink",
+        "title": "Sink",
+        "creator": "Outdoor game · Principia Discordia",
+        "year": "1960s",
+        "why": "Find something that floats, put it in water, and take turns throwing things at it until it sinks. The one who sinks it shouts I sunk it. Then find another."
+      },
+      {
+        "id": "games-illuminati",
+        "title": "Illuminati",
+        "creator": "Card game · Steve Jackson Games",
+        "year": "1982",
+        "why": "Each player runs a secret conspiracy, one of them the Discordian Society. Made in direct homage to the Illuminatus novels."
+      },
+      {
+        "id": "games-ten-pin-bowling",
+        "title": "Ten-pin bowling",
+        "creator": "Sport",
+        "year": "modern",
+        "why": "The birthplace of the faith was a bowling alley. A game in memory of the founders is as close as the religion comes to a pilgrimage."
+      },
+      {
+        "id": "games-fluxx",
+        "title": "Fluxx",
+        "creator": "Card game · Looney Labs",
+        "year": "1997",
+        "why": "The rules and the winning condition change with every card played. Order and disorder in a small box."
+      }
+    ],
+    "festivals": [
+      {
+        "id": "fest-st-tib-s-day",
+        "title": "St. Tib’s Day",
+        "creator": "29 February",
+        "why": "The leap day, which belongs to no season and no week. Do something that does not count."
+      },
+      {
+        "id": "fest-chaoflux",
+        "title": "Chaoflux",
+        "creator": "19 February, the 50th of Chaos",
+        "why": "The season holiday of Chaos. The Principia gives the names of the holidays and leaves what to do on them to you."
+      },
+      {
+        "id": "fest-mojoday",
+        "title": "Mojoday",
+        "creator": "19 March, the 5th of Discord",
+        "why": "The day of the Apostle Dr. Van Van Mojo, patron of the season of Discord."
+      },
+      {
+        "id": "fest-maladay",
+        "title": "Maladay",
+        "creator": "24 October, the 5th of The Aftermath",
+        "why": "The day of the Apostle Malaclypse the Elder, who carried a sign reading DUMB."
+      }
+    ],
+    "places": [
+      {
+        "id": "place-an-all-night-bowling-alley",
+        "title": "An all-night bowling alley",
+        "creator": "Whittier, California, United States, or wherever you are",
+        "why": "The Principia sets the first revelation in a bowling alley near Whittier in 1958 or 1959. The original is uncertain, so any alley will do."
+      },
+      {
+        "id": "place-the-french-quarter",
+        "title": "The French Quarter",
+        "creator": "New Orleans, Louisiana, United States",
+        "why": "Greg Hill and Kerry Thornley lived here in the early 1960s, and the first edition of the Principia was copied in the city in 1965."
+      },
+      {
+        "id": "place-the-grave-of-emperor-norton",
+        "title": "The grave of Emperor Norton",
+        "creator": "Woodlawn Memorial Park, Colma, California, United States",
+        "why": "Joshua Norton declared himself Emperor of the United States in 1859 and San Francisco played along. He is a Discordian saint."
+      },
+      {
+        "id": "place-mathew-street",
+        "title": "Mathew Street",
+        "creator": "Liverpool, United Kingdom",
+        "why": "A bust of Carl Jung marks the site of the warehouse where Ken Campbell staged Illuminatus in 1976. Jung once dreamed of Liverpool as the pool of life."
+      },
+      {
+        "id": "place-the-isle-of-jura",
+        "title": "The Isle of Jura",
+        "creator": "Inner Hebrides, Scotland",
+        "why": "In a boathouse here in August 1994 the two former members of the KLF burned a million pounds in banknotes. A long, quiet island with a distillery and many deer."
+      }
+    ]
+  },
+  "ethics": [
+    {
+      "title": "Non-seriousness",
+      "text": "Solemnity is how people come to do terrible things with a clear conscience. Laughter loosens the grip.",
+      "practice": "Find the funny side of the thing you are most earnest about."
+    },
+    {
+      "title": "Think for yourself",
+      "text": "Every person is a Pope and no text is to be believed. Authority has to be earned each time.",
+      "practice": "Check one thing today that you have always simply accepted."
+    },
+    {
+      "title": "Creative disorder",
+      "text": "Disorder that opens things up is good. So is order that helps. The harm lies in destruction of either kind.",
+      "practice": "Before you disrupt something, ask who it will hurt."
+    },
+    {
+      "title": "Tolerance of schism",
+      "text": "Discordians expect to disagree and celebrate it. No one is cast out, because there is nothing to be cast out of.",
+      "practice": "Let someone be wrong today without correcting them."
+    },
+    {
+      "title": "Play",
+      "text": "Play needs no excuse and no result. A life with no play in it is under a curse.",
+      "practice": "Do one thing for no reason."
+    },
+    {
+      "title": "Generosity with ideas",
+      "text": "All rites reversed. What you make is for others to take, change and pass on.",
+      "practice": "Give away something you made without your name on it."
+    }
+  ],
+  "philosophy": [
+    {
+      "title": "The Sacred Chao",
+      "text": "Reality is pure chaos, which is neither orderly nor disorderly. Order and disorder are human concepts laid over it, and each is real only inside the frame that sees it.",
+      "practice": "Catch yourself calling something a mess, and ask by whose rules."
+    },
+    {
+      "title": "Grids",
+      "text": "We look at the world through windows marked with a grid and then mistake the grid for the world. Different cultures and people use different grids.",
+      "practice": "Describe your morning through the grid of someone quite unlike you."
+    },
+    {
+      "title": "The Aneristic Illusion",
+      "text": "The belief that order is true and disorder is false or wrong. Western thought since Greyface has mostly lived inside it.",
+      "practice": "Notice one place where you impose order because disorder frightens you."
+    },
+    {
+      "title": "The Curse of Greyface",
+      "text": "People were persuaded that life is serious and that play is sin. The result is a world that is unbalanced, anxious and dull.",
+      "practice": "Ask who taught you that this matter is serious."
+    },
+    {
+      "title": "The Law of Fives",
+      "text": "Everything is connected to the number five, if you look hard enough. The lesson is that the mind finds whatever pattern it is told to find.",
+      "practice": "Pick any number this morning and count how often it finds you."
+    },
+    {
+      "title": "Catma",
+      "text": "A dogma is a belief you are forbidden to doubt. A catma is one you are free to drop. Discordians collect catmas.",
+      "practice": "State one of your convictions as a catma: for now, it seems to me that."
+    },
+    {
+      "title": "Every one a Pope",
+      "text": "Infallibility belongs to everyone, which comes to the same thing as belonging to no one. Each person is the authority on their own experience.",
+      "practice": "Take your own advice today as seriously as you take other people’s."
+    },
+    {
+      "title": "Nonsense as salvation",
+      "text": "Sense and nonsense, mastered equally, show each other up as games. Seeing that is a kind of freedom.",
+      "practice": "Say something completely nonsensical with complete conviction, and watch what happens."
+    }
+  ],
+  "journal": [
+    "What did you take too seriously today?",
+    "Which belief could you hold more loosely?",
+    "What pattern did you find because you were looking for it?",
+    "Where did a little disorder help?",
+    "What did your pineal gland say?",
+    "Which habit did you break, and what was it guarding?",
+    "Who is your Greyface?",
+    "When did you last play for no reason?",
+    "What grid are you looking through?",
+    "What would the opposite of your opinion look like from inside?",
+    "Whom did you treat as an authority without checking?",
+    "What made you laugh at yourself?",
+    "What golden apple did someone throw into your day?",
+    "Who was not invited, and what did it cost?",
+    "What do you believe only because it is written down?",
+    "Where did order do harm today?",
+    "What was the most useless thing you did, and was it good?",
+    "What would you do differently if nobody were keeping score?",
+    "Which rule do you follow that nobody made?",
+    "What five things happened today?",
+    "What title would you give yourself?",
+    "What are you certain of, and how do you know?",
+    "What surprised you?",
+    "What did you copy, and from whom?",
+    "Where are you your own Pope, and where are you someone else’s subject?",
+    "What disagreement did you enjoy?",
+    "What would you start if you did not need permission?",
+    "What nonsense turned out to be true?",
+    "What do you see that others seem trained not to?",
+    "What will you not believe tomorrow?"
+  ],
+  "reflect": [
+    "Which of your certainties got lighter?",
+    "What did breaking habits show you?",
+    "Where do you see grids now?",
+    "What did laughing at yourself change?",
+    "Which patterns turned out to be your own making?",
+    "What catma will you keep, for now?"
+  ],
+  "dayThemes": [
+    "Kallisti",
+    "The golden apple",
+    "The Original Snub",
+    "Pure chaos",
+    "The Sacred Chao",
+    "Hodge and Podge",
+    "Grids",
+    "The pineal gland",
+    "Greyface",
+    "The Turkey Curse",
+    "The Law of Fives",
+    "Fnord",
+    "Every one a Pope",
+    "The Pentabarf",
+    "No hot dog buns",
+    "Catma",
+    "Creative disorder",
+    "Sweetmorn",
+    "The bowling alley",
+    "Stick apart",
+    "Schism",
+    "Emperor Norton",
+    "All rites reversed",
+    "The jake",
+    "Believe nothing",
+    "Both grids",
+    "Nonsense",
+    "St. Tib’s Day",
+    "Maybe",
+    "All hail Discordia"
+  ],
+  "guide": {
+    "intro": [
+      "Discordianism is a religion that worships Eris, the Greek goddess of strife, and it is either an elaborate joke disguised as a religion or a religion disguised as an elaborate joke. Its followers decline to say which, and the refusal is the teaching.",
+      "It began with two school friends from Whittier, California: Greg Hill and Kerry Thornley. By their own account they were drinking coffee in an all-night bowling alley, in 1958 or 1959, complaining about the confusion of the world, when time stood still and a chimpanzee appeared and showed them a scroll bearing a strange diagram. A few nights later the goddess herself came to them in a dream and explained that the confusion they complained of was her doing, and that they had been taught to see it wrongly.",
+      "Out of this came the Principia Discordia, written chiefly by Hill under the name Malaclypse the Younger, with Thornley as Lord Omar Khayyam Ravenhurst. A handful of copies were run off in New Orleans in 1965. It is a small, dense collage of mock scripture, cartoons, borrowed rubber stamps and real philosophy, and it carries no copyright. Its central idea is drawn in its emblem, the Sacred Chao. Reality itself is chaos, which is neither ordered nor disordered. Order and disorder are grids that human beings lay over it. Western culture has mistaken one grid for the truth and made itself humourless and afraid.",
+      "The remedy is disorder of a creative kind: play, pranks, nonsense, doubt, and the refusal to believe anything too firmly, this religion included. Every person is declared a Pope. Each believer is urged to found a sect of their own. The fifth of its five commandments forbids believing what you read.",
+      "The religion would have stayed a private game among friends if two editors at Playboy magazine, Robert Shea and Robert Anton Wilson, had not joined it and written the Illuminatus trilogy, published in 1975. The novels sold very widely, were staged as a ten-hour play in Liverpool, and carried Discordian ideas into science fiction, computing, chaos magic and pop music. The early internet took to it at once.",
+      "Nobody knows how many Discordians there are, since there is nothing to join. This Onda treats it as what it says it is: a set of exercises for loosening the mind. You will name the day by another calendar, consult yourself before consulting anyone else, break a habit, look at one thing in two opposite ways and end by laughing at your own solemnity. If any of it starts to feel like doctrine, you are doing it wrong."
+    ],
+    "origin": "Southern California, then New Orleans, San Francisco and the photocopier",
+    "era": "Revealed in a bowling alley in about 1958. Still spreading, in so far as anyone can tell",
+    "figures": [
+      {
+        "name": "Eris",
+        "dates": "Timeless",
+        "bio": "Goddess of strife in Hesiod and Homer, sister of the war god. She rolled the golden apple into the wedding feast. Discordians hold that she was misunderstood."
+      },
+      {
+        "name": "Greg Hill, Malaclypse the Younger",
+        "dates": "1941 to 2000",
+        "bio": "Co-founder and principal author and designer of the Principia Discordia. He later worked quietly for a bank in San Francisco."
+      },
+      {
+        "name": "Kerry Thornley, Lord Omar Khayyam Ravenhurst",
+        "dates": "1938 to 1998",
+        "bio": "Co-founder. He had served in the Marines with Lee Harvey Oswald and written a novel about him before 1963, which drew him into real conspiracy investigations and, in time, real paranoia."
+      },
+      {
+        "name": "Robert Anton Wilson",
+        "dates": "1932 to 2007",
+        "bio": "Novelist and essayist, co-author of Illuminatus. He taught model agnosticism: never fully believing any one map of reality."
+      },
+      {
+        "name": "Robert Shea",
+        "dates": "1933 to 1994",
+        "bio": "Playboy editor, co-author of Illuminatus and later a historical novelist."
+      },
+      {
+        "name": "Camden Benares",
+        "dates": "died 2000",
+        "bio": "Born John Overton. An early member who wrote Zen Without Zen Masters and founded a cabal in Los Angeles."
+      },
+      {
+        "name": "Emperor Norton",
+        "dates": "about 1818 to 1880",
+        "bio": "A ruined San Francisco merchant who proclaimed himself Emperor of the United States. The city honoured his decrees and his home-made money. A saint of the faith."
+      },
+      {
+        "name": "Ken Campbell",
+        "dates": "1941 to 2008",
+        "bio": "English actor and director who staged Illuminatus in Liverpool in 1976 and took it to open a new stage at the National Theatre in London."
+      },
+      {
+        "name": "Bill Drummond and Jimmy Cauty",
+        "dates": "born 1953 and 1956",
+        "bio": "As the Justified Ancients of Mu Mu and the KLF they turned Discordian themes into hit records, then left the music business in 1992."
+      }
+    ],
+    "history": [
+      {
+        "when": "8th century BCE",
+        "what": "Eris in Greek poetry",
+        "detail": "Hesiod describes two kinds of strife: one that brings war, and a good one that sets neighbour competing with neighbour. The story of the apple belongs to the lost epic called the Cypria."
+      },
+      {
+        "when": "about 1958",
+        "what": "The revelation",
+        "detail": "Hill and Thornley, in their late teens, have their vision in a bowling alley. They found the Discordian Society soon afterwards."
+      },
+      {
+        "when": "1965",
+        "what": "The first Principia",
+        "detail": "Five copies are run off in New Orleans, by legend on a copier in the office of the district attorney Jim Garrison."
+      },
+      {
+        "when": "1968",
+        "what": "Operation Mindfuck",
+        "detail": "Thornley, Wilson and others begin planting letters and articles that blame world events on the Bavarian Illuminati, to teach readers to doubt."
+      },
+      {
+        "when": "1968",
+        "what": "Garrison and Thornley",
+        "detail": "The same district attorney, now investigating the Kennedy assassination, accuses Thornley of involvement and has him charged with perjury. The charge is later dropped."
+      },
+      {
+        "when": "1970",
+        "what": "The fourth edition",
+        "detail": "Rip Off Press of San Francisco prints the form of the Principia that is still read."
+      },
+      {
+        "when": "1975",
+        "what": "Illuminatus",
+        "detail": "Shea and Wilson’s trilogy is published in three paperbacks. It quotes the Principia at length and makes Discordians of many readers."
+      },
+      {
+        "when": "1976",
+        "what": "Illuminatus on stage",
+        "detail": "Ken Campbell and Chris Langham’s adaptation opens in Liverpool on 23 November. Jimmy Cauty and Bill Drummond are both connected with the production."
+      },
+      {
+        "when": "1987 to 1992",
+        "what": "The JAMs and the KLF",
+        "detail": "Drummond and Cauty release records under names from the novels, reach number one, then delete their entire catalogue."
+      },
+      {
+        "when": "1990s",
+        "what": "The internet",
+        "detail": "The Principia circulates on bulletin boards and Usenet. A command that prints the Discordian date is included in standard Unix systems."
+      },
+      {
+        "when": "23 August 1994",
+        "what": "A million pounds",
+        "detail": "On Jura the two men burn a million pounds of their earnings and film it. They have never fully explained why."
+      },
+      {
+        "when": "1998 to 2007",
+        "what": "The founders die",
+        "detail": "Thornley in 1998, Hill in 2000, Wilson in 2007. The Discordian archives pass to the writer Adam Gorightly."
+      }
+    ],
+    "concepts": [
+      {
+        "term": "The Sacred Chao",
+        "text": "Hodge and Podge.",
+        "detail": "The symbol of the faith. The pentagon stands for the Aneristic Principle of apparent order, the apple for the Eristic Principle of apparent disorder. Both sit inside the circle of pure chaos."
+      },
+      {
+        "term": "Pure chaos",
+        "text": "What is actually there.",
+        "detail": "A level deeper than order and disorder, on which everything simply is. The Principia says that all things are true, false and meaningless in some sense."
+      },
+      {
+        "term": "The Aneristic and Eristic Illusions",
+        "text": "Two opposite mistakes.",
+        "detail": "To believe that order alone is real is the Aneristic Illusion. To believe that disorder alone is real is the Eristic Illusion. Most people are trained into the first."
+      },
+      {
+        "term": "The Curse of Greyface",
+        "text": "The disease of seriousness.",
+        "detail": "Greyface and his followers took the game of playing at life more seriously than they took life. The curse is destructive order: rules kept for their own sake."
+      },
+      {
+        "term": "The Pentabarf",
+        "text": "Five commandments.",
+        "detail": "There is no goddess but Goddess. Use the official numbering system. Eat a hot dog on a Friday. Eat no hot dog buns. Believe nothing you read."
+      },
+      {
+        "term": "The Law of Fives",
+        "text": "The harder you look.",
+        "detail": "Everything can be related to five, given enough ingenuity. Wilson moved the same joke to the number twenty-three. It is a demonstration of how belief finds evidence."
+      },
+      {
+        "term": "Popes and cabals",
+        "text": "Authority for all.",
+        "detail": "Every human being is a Pope. Any Discordian may found a cabal, ordain anyone, declare saints and excommunicate themselves."
+      },
+      {
+        "term": "Operation Mindfuck",
+        "text": "Guerrilla enlightenment.",
+        "detail": "Hoaxes meant to break people out of fixed belief by overloading them with rival explanations. Its authors later worried about what it had helped to start."
+      },
+      {
+        "term": "Catma",
+        "text": "Beliefs on loan.",
+        "detail": "A provisional, playful belief, held as long as it is interesting. Wilson’s phrase for the attitude was maybe logic."
+      }
+    ],
+    "facts": [
+      {
+        "text": "The Discordian year is the ordinary year plus 1166. The year 2026 is 3192."
+      },
+      {
+        "text": "Each of the five seasons has seventy-three days, and five times seventy-three is 365."
+      },
+      {
+        "text": "The Principia Discordia has never been under copyright. Its notice reads: all rites reversed, reprint what you like."
+      },
+      {
+        "text": "Only fictional characters can be saints of the first class, on the grounds that real people are too flawed."
+      },
+      {
+        "text": "The dwarf planet found in 2005 that caused Pluto to be reclassified was named Eris, and its moon Dysnomia, after her daughter Lawlessness."
+      },
+      {
+        "text": "The word fnord appears in the Principia without any explanation at all."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Malaclypse the Elder",
+        "meaning": "A legendary prophet, sometimes confused with the author"
+      },
+      {
+        "term": "Zarathud",
+        "meaning": "The hermit who found the Pentabarf"
+      },
+      {
+        "term": "Aneris",
+        "meaning": "The sister of Eris, goddess of order, who is non-existent"
+      },
+      {
+        "term": "Bavarian Illuminati",
+        "meaning": "A real secret society of 1776, blamed by Discordians for everything"
+      },
+      {
+        "term": "Reality tunnel",
+        "meaning": "Robert Anton Wilson’s term for a person’s grid"
+      },
+      {
+        "term": "Chaoflux",
+        "meaning": "The holiday on the fiftieth day of the season of Chaos"
+      }
+    ],
+    "furtherReading": [
+      {
+        "title": "The Prankster and the Conspiracy",
+        "creator": "Adam Gorightly",
+        "year": "2003",
+        "note": "The strange and sad life of Kerry Thornley."
+      },
+      {
+        "title": "Invented Religions: Imagination, Fiction and Faith",
+        "creator": "Carole M. Cusack",
+        "year": "2010",
+        "note": "A scholar of religion takes Discordianism seriously, which it would deplore."
+      },
+      {
+        "title": "Prometheus Rising",
+        "creator": "Robert Anton Wilson",
+        "year": "1983",
+        "note": "A manual of exercises for changing your own mind."
+      },
+      {
+        "title": "Works and Days",
+        "creator": "Hesiod",
+        "year": "about 700 BCE",
+        "note": "It opens with the two kinds of Strife, one of them good for mortals."
+      }
+    ],
+    "learnFrom": [
+      {
+        "name": "Historia Discordia",
+        "note": "The Discordian archives online, kept by Adam Gorightly, with scans of the original papers.",
+        "link": "https://historiadiscordia.com"
+      },
+      {
+        "name": "Principia Discordia online",
+        "note": "Complete texts of several editions, free, as the authors wished.",
+        "link": "https://principiadiscordia.com"
+      },
+      {
+        "name": "Your own pineal gland",
+        "note": "The only authority the Principia recognises. Consult it."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Principia Discordia, 4th edition",
+        "creator": "Malaclypse the Younger",
+        "publisher": "Rip Off Press; reprinted by Loompanics",
+        "year": "1970; 1979"
+      },
+      {
+        "title": "Historia Discordia: The Origins of the Discordian Society",
+        "creator": "Adam Gorightly",
+        "publisher": "RVP Press",
+        "year": "2014"
+      },
+      {
+        "title": "Invented Religions: Imagination, Fiction and Faith",
+        "creator": "Carole M. Cusack",
+        "publisher": "Ashgate",
+        "year": "2010"
+      },
+      {
+        "title": "The Prankster and the Conspiracy: The Story of Kerry Thornley",
+        "creator": "Adam Gorightly",
+        "publisher": "Paraview Press",
+        "year": "2003"
+      },
+      {
+        "title": "Cosmic Trigger: Final Secret of the Illuminati",
+        "creator": "Robert Anton Wilson",
+        "publisher": "And/Or Press",
+        "year": "1977"
+      },
+      {
+        "title": "The KLF: Chaos, Magic and the Band Who Burned a Million Pounds",
+        "creator": "John Higgs",
+        "publisher": "Weidenfeld and Nicolson",
+        "year": "2012"
+      }
+    ]
+  },
+  "sensitivity": {
+    "note": "Discordianism is a parody religion that some of its followers also mean sincerely. This Onda takes its exercises at face value and its claims with the doubt it asks for. Its pranks are meant to free people and never to deceive them for gain.",
+    "requiredCaveats": [
+      "Hoaxes about secret societies were a game in 1968. Conspiracy belief does real harm now, and the pranks here are kept kind and obvious.",
+      "Kerry Thornley’s later life shows that a mind can lose its footing while playing with belief. If the exercises unsettle you, stop."
+    ],
+    "reviewRequired": false
+  }
+}

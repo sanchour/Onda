@@ -57,6 +57,7 @@ export const SHEETS: Record<SheetRoute['name'], Lazy> = {
   time: pick(lagoSheets, 'TimeSheet'),
   journalEdit: pick(ondaSheets, 'JournalEditSheet'),
   mediaInfo: pick(ondaSheets, 'MediaInfoSheet'),
+  practiceInfo: pick(ondaSheets, 'PracticeInfoSheet'),
   createOnda: pick(() => import('@/sheets/CreateOndaSheet'), 'CreateOndaSheet'),
   achievements: pick(statsSheets, 'AchievementsSheet'),
   dayLog: pick(statsSheets, 'DayLogSheet'),

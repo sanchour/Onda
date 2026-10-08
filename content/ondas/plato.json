@@ -1,0 +1,1207 @@
+{
+  "version": 1,
+  "id": "plato",
+  "name": "Platonism",
+  "origin": "Greece",
+  "era": "From about 387 BCE, and read ever since",
+  "tone": "blue",
+  "icon": "cube",
+  "font": "gfs-didot",
+  "pattern": "triangles",
+  "glyph": "εἶδος",
+  "line": "Question what you think you know, and turn towards what is good.",
+  "quote": {
+    "text": "The life which is unexamined is not worth living.",
+    "by": "Socrates, in Plato",
+    "source": "Apology 38a, trans. Benjamin Jowett"
+  },
+  "quotes": [
+    {
+      "text": "Wonder is the feeling of a philosopher, and philosophy begins in wonder.",
+      "by": "Socrates, in Plato",
+      "source": "Theaetetus 155d, trans. Benjamin Jowett"
+    },
+    {
+      "text": "The beginning is the most important part of the work.",
+      "by": "Socrates, in Plato",
+      "source": "Republic 377a, trans. Benjamin Jowett"
+    },
+    {
+      "text": "No evil can happen to a good man, either in life or after death.",
+      "by": "Socrates, in Plato",
+      "source": "Apology 41d, trans. Benjamin Jowett"
+    },
+    {
+      "text": "The safest general characterization of the European philosophical tradition is that it consists of a series of footnotes to Plato.",
+      "by": "Alfred North Whitehead",
+      "source": "Process and Reality, 1929, part 2, chapter 1"
+    },
+    {
+      "text": "I neither know nor think that I know.",
+      "by": "Socrates, in Plato",
+      "source": "Apology 21d, trans. Benjamin Jowett"
+    }
+  ],
+  "words": [
+    {
+      "id": "word-eidos",
+      "term": "Eidos",
+      "meaning": "Form; the look of a thing",
+      "pronunciation": "AY-dos",
+      "language": "Ancient Greek",
+      "usage": "What all beautiful things share, which is not itself any one of them. Plato also uses the word idea."
+    },
+    {
+      "id": "word-idea",
+      "term": "Idea",
+      "meaning": "Form; what is seen by the mind",
+      "pronunciation": "ee-DEH-a",
+      "language": "Ancient Greek",
+      "usage": "Not a thought in someone’s head. For Plato an idea is more real than the things that copy it."
+    },
+    {
+      "id": "word-agathon",
+      "term": "Agathon",
+      "meaning": "The Good",
+      "pronunciation": "a-ga-THON",
+      "language": "Ancient Greek",
+      "usage": "The highest Form, which the Republic compares to the sun. It makes everything else knowable and worth having."
+    },
+    {
+      "id": "word-kalon",
+      "term": "Kalon",
+      "meaning": "The beautiful, the fine",
+      "pronunciation": "ka-LON",
+      "language": "Ancient Greek",
+      "usage": "Beauty and nobility in one word. A fine deed is kalon as much as a fine face."
+    },
+    {
+      "id": "word-psyche",
+      "term": "Psyche",
+      "meaning": "Soul",
+      "pronunciation": "psoo-KHAY",
+      "language": "Ancient Greek",
+      "usage": "What makes a living thing alive, and in people the seat of thought and character. Plato argues it is immortal."
+    },
+    {
+      "id": "word-logos",
+      "term": "Logos",
+      "meaning": "Reason; account; argument",
+      "pronunciation": "LOG-os",
+      "language": "Ancient Greek",
+      "usage": "To know something is to be able to give a logos of it: to say what it is and why."
+    },
+    {
+      "id": "word-dialektike",
+      "term": "Dialektike",
+      "meaning": "Dialectic",
+      "pronunciation": "dee-a-lek-ti-KAY",
+      "language": "Ancient Greek",
+      "usage": "Reasoning by question and answer between people who want the truth more than they want to win."
+    },
+    {
+      "id": "word-elenchos",
+      "term": "Elenchos",
+      "meaning": "Testing; refutation",
+      "pronunciation": "EL-en-khos",
+      "language": "Ancient Greek",
+      "usage": "The method of Socrates. He asks for a definition, draws out what follows from it, and shows that it contradicts something else you believe."
+    },
+    {
+      "id": "word-aporia",
+      "term": "Aporia",
+      "meaning": "Being at a loss",
+      "pronunciation": "a-po-REE-a",
+      "language": "Ancient Greek",
+      "usage": "Literally no way through. Many dialogues end here. It is counted as progress, since now you know that you do not know."
+    },
+    {
+      "id": "word-anamnesis",
+      "term": "Anamnesis",
+      "meaning": "Recollection",
+      "pronunciation": "a-NAM-nay-sis",
+      "language": "Ancient Greek",
+      "usage": "The teaching that learning is remembering what the soul knew before birth. In the Meno a slave boy works out a geometry problem from questions alone."
+    },
+    {
+      "id": "word-doxa",
+      "term": "Doxa",
+      "meaning": "Opinion; belief; seeming",
+      "pronunciation": "DOK-sa",
+      "language": "Ancient Greek",
+      "usage": "What most of us have most of the time. It may be true, but it cannot explain itself."
+    },
+    {
+      "id": "word-episteme",
+      "term": "Episteme",
+      "meaning": "Knowledge",
+      "pronunciation": "e-pis-TAY-may",
+      "language": "Ancient Greek",
+      "usage": "Belief that is tied down by reasons and so does not run away."
+    },
+    {
+      "id": "word-nous",
+      "term": "Nous",
+      "meaning": "Mind; intellect",
+      "pronunciation": "NOOS",
+      "language": "Ancient Greek",
+      "usage": "The power that grasps the Forms directly. The highest part of the soul."
+    },
+    {
+      "id": "word-noesis",
+      "term": "Noesis",
+      "meaning": "Understanding",
+      "pronunciation": "NO-ay-sis",
+      "language": "Ancient Greek",
+      "usage": "The top of the divided line: thought that rises to first principles without leaning on images."
+    },
+    {
+      "id": "word-dianoia",
+      "term": "Dianoia",
+      "meaning": "Step-by-step thinking",
+      "pronunciation": "dee-A-noy-a",
+      "language": "Ancient Greek",
+      "usage": "The reasoning of mathematics, which starts from assumptions and uses diagrams."
+    },
+    {
+      "id": "word-arete",
+      "term": "Arete",
+      "meaning": "Excellence; virtue",
+      "pronunciation": "a-reh-TAY",
+      "language": "Ancient Greek",
+      "usage": "Being good at being what you are. Socrates suspected that all the virtues are one, and that it is a kind of knowledge."
+    },
+    {
+      "id": "word-sophia",
+      "term": "Sophia",
+      "meaning": "Wisdom",
+      "pronunciation": "so-FEE-a",
+      "language": "Ancient Greek",
+      "usage": "The virtue of the reasoning part. Philosophy is the love of it, which admits to not yet having it."
+    },
+    {
+      "id": "word-andreia",
+      "term": "Andreia",
+      "meaning": "Courage",
+      "pronunciation": "an-DRAY-a",
+      "language": "Ancient Greek",
+      "usage": "The virtue of the spirited part: holding to what reason says is and is not to be feared."
+    },
+    {
+      "id": "word-sophrosyne",
+      "term": "Sophrosyne",
+      "meaning": "Moderation; soundness of mind",
+      "pronunciation": "so-fro-SOO-nay",
+      "language": "Ancient Greek",
+      "usage": "Self-command, and agreement within the soul about which part should lead."
+    },
+    {
+      "id": "word-dikaiosyne",
+      "term": "Dikaiosyne",
+      "meaning": "Justice",
+      "pronunciation": "di-kai-o-SOO-nay",
+      "language": "Ancient Greek",
+      "usage": "In the Republic, each part of the soul and each class in the city doing its own work and not meddling with the others."
+    },
+    {
+      "id": "word-thymos",
+      "term": "Thymos",
+      "meaning": "Spirit",
+      "pronunciation": "thoo-MOS",
+      "language": "Ancient Greek",
+      "usage": "The part of the soul that feels anger, pride and shame. A natural ally of reason, if well trained."
+    },
+    {
+      "id": "word-epithymia",
+      "term": "Epithymia",
+      "meaning": "Appetite",
+      "pronunciation": "e-pi-thoo-MEE-a",
+      "language": "Ancient Greek",
+      "usage": "The desiring part: hunger, thirst, sex and the love of money. The largest part, and the hardest to rule."
+    },
+    {
+      "id": "word-eros",
+      "term": "Eros",
+      "meaning": "Passionate love",
+      "pronunciation": "EH-ros",
+      "language": "Ancient Greek",
+      "usage": "Desire for the beautiful. In the Symposium it is the force that can carry a person all the way to the Form of Beauty."
+    },
+    {
+      "id": "word-mimesis",
+      "term": "Mimesis",
+      "meaning": "Imitation",
+      "pronunciation": "MEE-may-sis",
+      "language": "Ancient Greek",
+      "usage": "What poets and painters do, and what things do to Forms. Plato distrusted art for being a copy of a copy."
+    },
+    {
+      "id": "word-methexis",
+      "term": "Methexis",
+      "meaning": "Participation",
+      "pronunciation": "METH-ek-sis",
+      "language": "Ancient Greek",
+      "usage": "The relation of a thing to its Form: a beautiful thing shares in Beauty. Plato knew the idea was hard to make precise."
+    },
+    {
+      "id": "word-demiourgos",
+      "term": "Demiourgos",
+      "meaning": "Craftsman",
+      "pronunciation": "day-mee-oor-GOS",
+      "language": "Ancient Greek",
+      "usage": "The maker in the Timaeus, who shapes the world out of disorder by looking to the Forms."
+    },
+    {
+      "id": "word-kosmos",
+      "term": "Kosmos",
+      "meaning": "Order; the world",
+      "pronunciation": "KOS-mos",
+      "language": "Ancient Greek",
+      "usage": "The universe seen as a beautiful arrangement. The same word means ornament."
+    },
+    {
+      "id": "word-paideia",
+      "term": "Paideia",
+      "meaning": "Education; upbringing",
+      "pronunciation": "pai-DAY-a",
+      "language": "Ancient Greek",
+      "usage": "The forming of a whole person. In the cave image it is the turning round of the soul."
+    },
+    {
+      "id": "word-politeia",
+      "term": "Politeia",
+      "meaning": "Constitution; the ordering of a city",
+      "pronunciation": "po-li-TAY-a",
+      "language": "Ancient Greek",
+      "usage": "The Greek title of the Republic. It applies equally to a city and to a soul."
+    },
+    {
+      "id": "word-akademeia",
+      "term": "Akademeia",
+      "meaning": "The Academy",
+      "pronunciation": "a-ka-DAY-may-a",
+      "language": "Ancient Greek",
+      "usage": "A grove outside the walls of Athens sacred to the hero Akademos, where Plato taught. Every later academy is named after it."
+    }
+  ],
+  "practices": [
+    {
+      "id": "geometry",
+      "name": "A proof before breakfast",
+      "icon": "triangle",
+      "slot": "Morning",
+      "time": "07:00",
+      "minutes": 15,
+      "meta": "Morning · 15 min",
+      "instructions": "Take paper, a pencil, a straight edge and something to draw a circle with. Work one geometrical problem by hand. Begin with the one from the Meno: draw a square, then find the square with exactly twice its area. Do not look up the answer. Draw, guess, test and correct. When you have it, say aloud why it must be so and could not be otherwise.",
+      "why": "Plato held that mathematics turns the soul from the things we see towards the things we can only think. Later tradition said a sign over the Academy door read: let no one ignorant of geometry enter.",
+      "variations": [
+        "Prove that the angles of a triangle add up to two right angles.",
+        "Build one of the five regular solids from card.",
+        "Explain the proof to someone else using questions only."
+      ]
+    },
+    {
+      "id": "what-is-it",
+      "name": "What is it?",
+      "icon": "question",
+      "slot": "Morning",
+      "time": "10:00",
+      "minutes": 15,
+      "meta": "Morning · 15 min",
+      "instructions": "Choose one word you rely on: courage, friendship, fairness, success. Write your best one-sentence definition. Now attack it as Socrates would. Find a case that fits the definition but is plainly not the thing, or a clear case of the thing that the definition leaves out. Mend the definition and attack it again. Do three rounds. Stop wherever you are, and note what you no longer think you know.",
+      "why": "This is the elenchus, the testing by question that fills the early dialogues. They seldom reach an answer. What they give is the discovery that one’s opinions were not yet knowledge.",
+      "variations": [
+        "Do it aloud with a friend, taking turns as questioner.",
+        "Use a word from your own job description.",
+        "Read the Euthyphro and follow its five definitions."
+      ]
+    },
+    {
+      "id": "music-gymnastic",
+      "name": "Music and gymnastic",
+      "icon": "barbell",
+      "slot": "Afternoon",
+      "time": "16:00",
+      "minutes": 30,
+      "meta": "Afternoon · 30 min",
+      "instructions": "Train the body for twenty minutes: run, wrestle, lift, swim, or walk hard. Keep it plain and stop short of exhaustion. Then spend ten minutes on music in Plato’s wide sense. Sing, play, or learn eight lines of good poetry by heart and say them aloud. Do both every day, so that neither one outruns the other.",
+      "why": "The Republic prescribes two things for the young: gymnastic for the body and music for the soul. Too much of the first makes a person harsh, and too much of the second makes them soft. The aim of the pair is a soul in tune.",
+      "variations": [
+        "Take a wrestling or grappling class.",
+        "Learn a simple song in a single mode and sing it daily.",
+        "Walk and recite."
+      ]
+    },
+    {
+      "id": "ladder",
+      "name": "The ladder of beauty",
+      "icon": "eye",
+      "slot": "Afternoon",
+      "time": "18:00",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Find one beautiful thing in front of you: a face, a tree, a well-made tool. Look at it for two full minutes. Then climb, one step at a time. What do all beautiful bodies share with it? What is beautiful in a person’s character, apart from their looks? In a good law, or a good custom? In a proof or a true explanation? Last, try to think of beauty itself, which none of these is and all of them borrow from. Stay there as long as you can.",
+      "why": "In the Symposium the priestess Diotima teaches Socrates that love is a ladder. One begins with a single beautiful body and rises by steps to Beauty itself, pure and unchanging.",
+      "variations": [
+        "Do the same with goodness in place of beauty.",
+        "Do it in a museum, in front of one work.",
+        "Write down the step at which you get stuck."
+      ]
+    },
+    {
+      "id": "charioteer",
+      "name": "The charioteer’s review",
+      "icon": "horse",
+      "slot": "Evening",
+      "time": "21:30",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Go back over the day and sort its moments by which part of you was in charge. When did appetite pull: food, comfort, money, the screen? When did spirit pull: anger, pride, the wish to win, shame? When did reason hold the reins and the other two go with it? Pick the one moment you would most like to drive again, and say how.",
+      "why": "The Phaedrus pictures the soul as a charioteer with two winged horses, one noble and one unruly. The Republic gives it three parts and calls a person just when each does its own work under reason.",
+      "variations": [
+        "Give each horse a name.",
+        "Ask what the unruly horse was really after.",
+        "Plan tomorrow’s hardest moment in advance."
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task-read-the-apology-of-socrates",
+      "name": "Read the Apology of Socrates",
+      "meta": "Read · about an hour",
+      "time": "20:00",
+      "slot": "Evening",
+      "action": "read"
+    },
+    {
+      "id": "task-read-the-cave-republic-book-7-to-521b",
+      "name": "Read the cave: Republic, book 7, to 521b",
+      "meta": "Read · 30 min",
+      "time": "07:30",
+      "slot": "Morning",
+      "action": "read"
+    },
+    {
+      "id": "task-look-closely-at-raphael-s-school-of-athens",
+      "name": "Look closely at Raphael’s School of Athens",
+      "meta": "Art · find Plato pointing up",
+      "time": "13:00",
+      "slot": "Afternoon",
+      "action": "art"
+    },
+    {
+      "id": "task-eat-as-the-first-city-in-the-republic-eats-barley-bread-olives-cheese-",
+      "name": "Eat as the first city in the Republic eats: barley bread, olives, cheese, figs",
+      "meta": "Eat · Republic 372",
+      "time": "12:30",
+      "slot": "Afternoon",
+      "action": "eat"
+    },
+    {
+      "id": "task-journal-what-did-you-find-you-did-not-know",
+      "name": "Journal: what did you find you did not know?",
+      "meta": "Journal · 10 min",
+      "time": "21:00",
+      "slot": "Evening",
+      "action": "journal"
+    },
+    {
+      "id": "task-the-cave-what-shadows-did-you-take-for-real-today",
+      "name": "The cave: what shadows did you take for real today?",
+      "meta": "Philosophy · 10 min",
+      "time": "08:30",
+      "slot": "Morning",
+      "action": "philosophy"
+    },
+    {
+      "id": "ask-someone-a-real-question-and-follow-their-answer-wherever-it-goes",
+      "name": "Ask someone a real question and follow their answer wherever it goes",
+      "meta": "Dialectic",
+      "time": "11:00",
+      "slot": "Morning"
+    },
+    {
+      "id": "admit-ignorance-once-aloud",
+      "name": "Admit ignorance once, aloud",
+      "meta": "I do not know",
+      "time": "15:00",
+      "slot": "Afternoon"
+    },
+    {
+      "id": "talk-philosophy-over-a-meal-with-friends",
+      "name": "Talk philosophy over a meal with friends",
+      "meta": "A symposium",
+      "time": "19:30",
+      "slot": "Evening"
+    }
+  ],
+  "rules": [
+    {
+      "id": "r1",
+      "text": "Examine one belief every day",
+      "why": "Take a thing you are sure of and ask what exactly it means and how you know it."
+    },
+    {
+      "id": "r2",
+      "text": "Say I do not know when you do not",
+      "why": "Pretended knowledge blocks the way to the real thing."
+    },
+    {
+      "id": "r3",
+      "text": "Follow the argument",
+      "why": "Go where the reasoning leads, even when it is against your side or your comfort."
+    },
+    {
+      "id": "r4",
+      "text": "Let reason hold the reins",
+      "why": "Appetite and anger are to be heard, and then steered. They do not drive."
+    },
+    {
+      "id": "r5",
+      "text": "Train body and soul together",
+      "why": "Exercise and music every day, so that you grow neither brutal nor soft."
+    },
+    {
+      "id": "r6",
+      "text": "Prefer the real to the seeming",
+      "why": "Care more about being good than about looking good."
+    }
+  ],
+  "immerse": {
+    "read": [
+      {
+        "id": "read-apology",
+        "title": "Apology",
+        "creator": "Plato",
+        "year": "about 399 to 390 BCE",
+        "why": "Socrates’ defence at his trial. Short, proud and the best place to begin."
+      },
+      {
+        "id": "read-symposium",
+        "title": "Symposium",
+        "creator": "Plato",
+        "year": "about 385 to 370 BCE",
+        "why": "Seven speeches about love at a drinking party, ending with the ladder of beauty and a drunken Alcibiades. The most enjoyable dialogue."
+      },
+      {
+        "id": "read-republic",
+        "title": "Republic",
+        "creator": "Plato",
+        "year": "about 375 BCE",
+        "why": "What is justice, and is the just person happier? The answer takes ten books, an imaginary city, the sun, the line and the cave."
+      },
+      {
+        "id": "read-phaedo",
+        "title": "Phaedo",
+        "creator": "Plato",
+        "year": "about 380 to 360 BCE",
+        "why": "The last day of Socrates, spent arguing in his cell that the soul does not die."
+      },
+      {
+        "id": "read-the-sovereignty-of-good",
+        "title": "The Sovereignty of Good",
+        "creator": "Iris Murdoch",
+        "year": "1970",
+        "why": "Three essays by a novelist and philosopher who makes Plato’s idea of the Good usable in ordinary moral life."
+      },
+      {
+        "id": "read-the-last-days-of-socrates",
+        "title": "The Last Days of Socrates",
+        "creator": "Plato, trans. Hugh Tredennick and Harold Tarrant",
+        "year": "Penguin Classics edition 2003",
+        "why": "Euthyphro, Apology, Crito and Phaedo in one small book."
+      }
+    ],
+    "watch": [
+      {
+        "id": "watch-socrates",
+        "title": "Socrates",
+        "creator": "Roberto Rossellini",
+        "year": "1971",
+        "why": "A plain, careful film for television that stages the trial and death almost entirely in Plato’s words."
+      },
+      {
+        "id": "watch-the-matrix",
+        "title": "The Matrix",
+        "creator": "Lana and Lilly Wachowski",
+        "year": "1999",
+        "why": "The cave retold: prisoners who take a projection for the world, and one who is turned round."
+      },
+      {
+        "id": "watch-my-dinner-with-andre",
+        "title": "My Dinner with Andre",
+        "creator": "Louis Malle",
+        "year": "1981",
+        "why": "Two men talk through a meal about how to live. The nearest thing on film to a dialogue."
+      }
+    ],
+    "listen": [
+      {
+        "id": "listen-socrate",
+        "title": "Socrate",
+        "creator": "Erik Satie",
+        "year": "1918",
+        "why": "Passages of Plato on Socrates set for voice and small orchestra, as white and even as an antique frieze. It ends with the death in the Phaedo."
+      },
+      {
+        "id": "listen-serenade-after-plato-s-symposium",
+        "title": "Serenade after Plato’s Symposium",
+        "creator": "Leonard Bernstein",
+        "year": "1954",
+        "why": "A violin concerto in five movements, each named after speakers at the banquet."
+      },
+      {
+        "id": "listen-music-of-ancient-greece",
+        "title": "Music of Ancient Greece",
+        "creator": "Atrium Musicae de Madrid, directed by Gregorio Paniagua",
+        "year": "1979",
+        "why": "Reconstructions of the surviving fragments, including the Delphic hymns. A guess at how the modes sounded that Plato wanted to regulate."
+      },
+      {
+        "id": "listen-plato-s-republic",
+        "title": "Plato’s Republic",
+        "creator": "In Our Time, BBC Radio 4",
+        "year": "2017",
+        "why": "Three scholars talk through the book in forty-five minutes."
+      }
+    ],
+    "art": [
+      {
+        "id": "art-the-school-of-athens",
+        "title": "The School of Athens",
+        "creator": "Raphael",
+        "year": "1509 to 1511",
+        "why": "A fresco in the Vatican. Plato, with the face of Leonardo, points to the sky and carries the Timaeus. Aristotle beside him holds his hand flat over the earth."
+      },
+      {
+        "id": "art-the-death-of-socrates",
+        "title": "The Death of Socrates",
+        "creator": "Jacques-Louis David",
+        "year": "1787",
+        "why": "Socrates reaches for the cup while still teaching. Plato sits at the foot of the bed, an old man, though he was young at the time and was not there. In the Metropolitan Museum, New York."
+      },
+      {
+        "id": "art-plato-s-academy-mosaic",
+        "title": "Plato’s Academy mosaic",
+        "creator": "Roman workshop, from a villa near Pompeii",
+        "year": "1st century BCE",
+        "why": "Seven philosophers gathered under a tree round a globe. In the National Archaeological Museum, Naples."
+      },
+      {
+        "id": "art-the-five-regular-solids",
+        "title": "The five regular solids",
+        "creator": "Described in the Timaeus",
+        "year": "about 360 BCE",
+        "why": "Tetrahedron, cube, octahedron, dodecahedron and icosahedron. Plato assigned them to fire, earth, air, the cosmos and water."
+      }
+    ],
+    "eat": [
+      {
+        "id": "eat-maza",
+        "title": "Maza",
+        "creator": "Barley meal kneaded with water or oil into a flat cake",
+        "why": "The daily bread of Athens. The first, healthy city of the Republic lives on it, served on clean leaves."
+      },
+      {
+        "id": "eat-olives-cheese-and-figs",
+        "title": "Olives, cheese and figs",
+        "creator": "With boiled greens and chickpeas",
+        "why": "The relishes Socrates allows his simple citizens when Glaucon complains that he is feeding them like pigs."
+      },
+      {
+        "id": "eat-dried-figs-and-nuts",
+        "title": "Dried figs and nuts",
+        "creator": "The second tables",
+        "why": "At a symposium the tables were cleared and brought back with fruit and nuts for the drinking and the talk."
+      }
+    ],
+    "drink": [
+      {
+        "id": "drink-wine-mixed-with-water",
+        "title": "Wine mixed with water",
+        "creator": "Two or three parts water to one of wine",
+        "why": "Greeks thought unmixed wine barbarous. The leader of the symposium set the strength for all."
+      },
+      {
+        "id": "drink-water",
+        "title": "Water",
+        "creator": "From a cup or a spring",
+        "why": "Socrates could drink anyone under the table and was never seen drunk. He was as content with water."
+      },
+      {
+        "id": "drink-kykeon",
+        "title": "Kykeon",
+        "creator": "Barley and water, sometimes with mint or cheese",
+        "why": "A thick country drink mentioned in the Republic as a soldier’s and a farmer’s refreshment."
+      }
+    ],
+    "customs": [
+      {
+        "id": "customs-the-symposium",
+        "title": "The symposium",
+        "creator": "Drinking together after dinner",
+        "why": "Guests reclined on couches, poured a libation, agreed how much to drink and took turns to speak or sing."
+      },
+      {
+        "id": "customs-teaching-by-question",
+        "title": "Teaching by question",
+        "creator": "No lectures, no fees",
+        "why": "Socrates took no money and claimed to teach nothing. He questioned people in the marketplace, the gymnasium and the workshops."
+      },
+      {
+        "id": "customs-walking-and-talking",
+        "title": "Walking and talking",
+        "creator": "In the grove and the colonnade",
+        "why": "Philosophy was done on foot and in company. The Phaedrus takes place on a walk along a stream outside the walls."
+      },
+      {
+        "id": "customs-philosophy-written-as-conversation",
+        "title": "Philosophy written as conversation",
+        "creator": "The dialogue",
+        "why": "Plato never speaks in his own voice. Each dialogue is a scene with named people, and the reader has to judge the argument for themselves."
+      }
+    ],
+    "games": [
+      {
+        "id": "games-petteia",
+        "title": "Petteia",
+        "creator": "Board game · Greece",
+        "year": "5th century BCE or earlier",
+        "why": "A game of pebbles on a grid in which a piece is captured by being trapped between two others. Plato uses it as an image for dialectic."
+      },
+      {
+        "id": "games-knucklebones",
+        "title": "Knucklebones",
+        "creator": "Game of skill and chance · Greece",
+        "year": "ancient",
+        "why": "Played with the ankle bones of sheep, thrown as dice or tossed and caught. Boys are playing it when Socrates arrives in the Lysis."
+      },
+      {
+        "id": "games-wrestling",
+        "title": "Wrestling",
+        "creator": "Sport · Greece",
+        "year": "ancient",
+        "why": "The centre of gymnastic education. Plato is said to have wrestled at the Isthmian Games, and his name may be a nickname meaning broad."
+      },
+      {
+        "id": "games-kottabos",
+        "title": "Kottabos",
+        "creator": "Drinking game · Greece",
+        "year": "6th to 4th century BCE",
+        "why": "At a symposium, players flicked the dregs of their wine at a target across the room."
+      }
+    ],
+    "festivals": [
+      {
+        "id": "fest-the-panathenaea",
+        "title": "The Panathenaea",
+        "creator": "Midsummer, in the Athenian month Hekatombaion",
+        "why": "The great festival of Athena, with a procession to the Acropolis, games and recitations of Homer. Several dialogues are set during it."
+      },
+      {
+        "id": "fest-the-bendideia",
+        "title": "The Bendideia",
+        "creator": "Early summer, in the month Thargelion",
+        "why": "A festival of the Thracian goddess Bendis at the port of Piraeus, with a torch race on horseback. Socrates has gone down to see it when the Republic begins."
+      },
+      {
+        "id": "fest-plato-s-birthday",
+        "title": "Plato’s birthday",
+        "creator": "7 Thargelion; kept on 7 November since the Renaissance",
+        "why": "Ancient Platonists held a banquet with readings each year. Marsilio Ficino revived it in Florence in the 1460s with a reading of the Symposium."
+      }
+    ],
+    "places": [
+      {
+        "id": "place-plato-s-academy",
+        "title": "Plato’s Academy",
+        "creator": "Akadimia Platonos, Athens, Greece",
+        "why": "A quiet public park a short way north-west of the centre, with the foundations of the gymnasium among the trees and a small digital museum nearby."
+      },
+      {
+        "id": "place-the-ancient-agora",
+        "title": "The Ancient Agora",
+        "creator": "Athens, Greece",
+        "why": "The marketplace where Socrates questioned people. The foundations of a building thought to be the prison where he died lie just outside it."
+      },
+      {
+        "id": "place-ortygia",
+        "title": "Ortygia",
+        "creator": "Syracuse, Sicily, Italy",
+        "why": "The island citadel of the tyrants Plato tried three times to educate. The Greek theatre and quarries are on the mainland opposite."
+      },
+      {
+        "id": "place-the-stanza-della-segnatura",
+        "title": "The Stanza della Segnatura",
+        "creator": "Vatican Museums, Vatican City",
+        "why": "The room that holds the School of Athens. Go early, and bring a list of who is who."
+      },
+      {
+        "id": "place-villa-medici-at-careggi",
+        "title": "Villa Medici at Careggi",
+        "creator": "Florence, Italy",
+        "why": "Where Ficino translated Plato for Cosimo de’ Medici and the Florentine circle met. Check whether it is open before you travel."
+      }
+    ]
+  },
+  "ethics": [
+    {
+      "title": "Wisdom",
+      "text": "The rule of reason in the soul: knowing what is good for the whole of oneself and not only for one part.",
+      "practice": "Before one decision today, ask what each part of you wants and what is good for all of you."
+    },
+    {
+      "title": "Courage",
+      "text": "Keeping hold, through pain and pleasure, of the right belief about what is truly to be feared.",
+      "practice": "Do one thing you have been putting off out of fear."
+    },
+    {
+      "title": "Moderation",
+      "text": "Agreement among the parts of the soul that the better should lead. It shows as ease, and it is not the same as strain.",
+      "practice": "Stop one pleasure today while you still want more."
+    },
+    {
+      "title": "Justice",
+      "text": "Each part doing its own work. The just person is at peace within and therefore deals fairly outside.",
+      "practice": "Notice one place where you are meddling in what is not your business, and step back."
+    },
+    {
+      "title": "Better to suffer wrong than to do it",
+      "text": "Doing injustice damages the soul of the one who does it. That is a worse harm than anything suffered.",
+      "practice": "Think of a wrong you got away with. What did it cost you?"
+    },
+    {
+      "title": "Care of the soul",
+      "text": "Socrates told Athens to care less for money and reputation and more for the state of its soul.",
+      "practice": "Count the minutes you gave today to each of the three."
+    }
+  ],
+  "philosophy": [
+    {
+      "title": "The Forms",
+      "text": "Behind the many changing beautiful, equal or just things there is in each case one thing that is perfectly and always so. It is grasped by thought and not by the senses.",
+      "practice": "Find two things you call fair and ask what makes both of them so."
+    },
+    {
+      "title": "The cave",
+      "text": "We are like prisoners who have only ever seen shadows on a wall. Education is being turned round, dragged up into the daylight, and then going back down to help.",
+      "practice": "Name one shadow you have mistaken for the thing itself."
+    },
+    {
+      "title": "The Good as the sun",
+      "text": "As the sun gives things both their visibility and their growth, the Good makes everything else intelligible and worth pursuing.",
+      "practice": "Ask of your main aim this year: good for what?"
+    },
+    {
+      "title": "The divided line",
+      "text": "There are grades of clarity: images, things, mathematical reasoning and direct understanding. Most of life is spent on the lower half.",
+      "practice": "Take one belief and place it on the line."
+    },
+    {
+      "title": "The three-part soul",
+      "text": "Reason, spirit and appetite. Inner conflict is real, and a good life is one where the three are friends.",
+      "practice": "Catch one inner argument today and identify the speakers."
+    },
+    {
+      "title": "Recollection",
+      "text": "We could not look for what we did not in some way already know. Learning draws out what is latent.",
+      "practice": "Teach someone something today using questions only."
+    },
+    {
+      "title": "Love as ascent",
+      "text": "Desire is not to be killed. It is to be educated, from the love of one body upwards to the love of what is beautiful in itself.",
+      "practice": "Ask what your strongest desire is really a desire for."
+    },
+    {
+      "title": "Knowing that you do not know",
+      "text": "The oracle called Socrates the wisest of men. He concluded it was because he alone did not think he knew what he did not.",
+      "practice": "List three things you act as if you know."
+    }
+  ],
+  "journal": [
+    "What did you find you did not know?",
+    "Which shadow did you take for the real thing?",
+    "Which part of your soul drove today?",
+    "What question did you avoid asking?",
+    "Where did you follow the argument, and where did you leave it?",
+    "What word do you use without being able to define it?",
+    "What was beautiful today, and why?",
+    "Did you care more about being good or about seeming good?",
+    "What did you do for your body, and what for your soul?",
+    "Whom did you really talk with?",
+    "What opinion did you defend only because it was yours?",
+    "What would you do with a ring that made you invisible?",
+    "What did appetite ask for?",
+    "What made you angry, and was the anger on the side of reason?",
+    "What are you in love with, and where is it leading you?",
+    "When were you at a loss, and did you stay there?",
+    "What do you believe on someone else’s authority?",
+    "Who turned you round, and when?",
+    "What would you go back down into the cave for?",
+    "What is your own work, and did you do it?",
+    "What did you teach, and how?",
+    "What did you remember that you did not know you knew?",
+    "What wrong would you sooner suffer than commit?",
+    "What have you copied from a copy?",
+    "What in you is in tune, and what is out?",
+    "What would a just version of today have looked like?",
+    "What do you fear that is not worth fearing?",
+    "Where is the Good in what you are chasing?",
+    "What would you say at your own trial?",
+    "What is left to examine?"
+  ],
+  "reflect": [
+    "Which of your beliefs did not survive questioning?",
+    "What did a daily proof do to your thinking?",
+    "Which horse do you know better now?",
+    "What did real conversation give you that reading alone did not?",
+    "Where did you glimpse something that does not change?",
+    "Which question will you keep asking?"
+  ],
+  "dayThemes": [
+    "Wonder",
+    "I do not know",
+    "What is it?",
+    "The gadfly",
+    "At a loss",
+    "The midwife",
+    "Recollection",
+    "The square doubled",
+    "Opinion and knowledge",
+    "The Forms",
+    "The cave",
+    "The turning",
+    "The sun",
+    "The divided line",
+    "Three parts",
+    "The charioteer",
+    "Courage",
+    "Moderation",
+    "Justice in the soul",
+    "The ring of Gyges",
+    "Music and gymnastic",
+    "The ladder",
+    "Beauty itself",
+    "The symposium",
+    "The city in speech",
+    "The craftsman",
+    "Care of the soul",
+    "The trial",
+    "The last day",
+    "Back down the cave"
+  ],
+  "guide": {
+    "intro": [
+      "Plato was born in Athens around 427 BCE into one of its oldest families, at the start of a long war that the city would lose. He was expected to go into politics. What changed his course was an ugly, barefoot stonemason’s son named Socrates, who spent his days in the marketplace asking people what they meant by courage, or piety, or justice, and showing them that they could not say.",
+      "In 399 BCE the restored democracy tried Socrates for impiety and for corrupting the young, and put him to death. Plato was about twenty-eight. He left Athens for some years, and when he came back he did two things that shaped the rest of Western thought. He began to write dialogues, philosophical dramas in which Socrates is usually the main speaker. And in about 387 he founded a school in a grove sacred to the hero Akademos, where mathematics, astronomy and philosophy were studied by men and at least two women for the love of it. Aristotle stayed there for twenty years.",
+      "The early dialogues show Socrates at work: testing, refuting, professing ignorance. In the middle ones a positive picture appears. The things we see and touch are always changing and are never perfectly what we call them. No drawn circle is truly round. Yet we know what a circle is. So there must be, Plato reasons, a perfect and unchanging Circle, Justice and Beauty that our minds grasp and that visible things only resemble. He calls these Forms. At their head stands the Good, which is to thought what the sun is to sight.",
+      "From this follows a view of human life. The soul belongs with the Forms more than with the body. It has three parts, reason, spirit and appetite, and it is healthy when reason rules with the consent of the others. Education is the turning of the whole soul from shadows towards what is real, as in the famous image of the cave. Love, rightly led, climbs from one beautiful body to Beauty itself. And a city will not be well governed until those who rule it are those who love wisdom and do not want power.",
+      "Plato went three times to Syracuse to try this last idea on a real ruler, and failed each time. His late works are more cautious, and he criticises his own theory of Forms sharply. He died at about eighty, by one account at a wedding feast. His writings survive complete, which is true of no other major ancient philosopher.",
+      "This Onda takes the Academy’s day as its pattern: a proof in the morning, a definition tested by questions, exercise and music, the contemplation of something beautiful and an evening review of who held the reins. You will not be asked to believe in the Forms. You will be asked to notice how much of what you say you know is only opinion, and to find that this is a beginning."
+    ],
+    "origin": "Athens, in a grove outside the Dipylon gate",
+    "era": "Plato lived from about 427 to 347 BCE. His Academy lasted in one form or another for nine centuries",
+    "figures": [
+      {
+        "name": "Socrates",
+        "dates": "469 to 399 BCE",
+        "bio": "Plato’s teacher. He wrote nothing, claimed to know nothing and was executed by Athens. Almost all we know of him comes from Plato and Xenophon."
+      },
+      {
+        "name": "Plato",
+        "dates": "about 427 to 347 BCE",
+        "bio": "Founder of the Academy and author of some thirty dialogues. His given name was reportedly Aristocles."
+      },
+      {
+        "name": "Diotima of Mantinea",
+        "dates": "5th century BCE, if she existed",
+        "bio": "The priestess who, Socrates says in the Symposium, taught him everything he knew about love. She may be Plato’s invention."
+      },
+      {
+        "name": "Aristotle",
+        "dates": "384 to 322 BCE",
+        "bio": "Plato’s greatest pupil and sharpest critic. He rejected separate Forms and founded his own school, the Lyceum."
+      },
+      {
+        "name": "Speusippus",
+        "dates": "about 408 to 339 BCE",
+        "bio": "Plato’s nephew and his successor as head of the Academy."
+      },
+      {
+        "name": "Axiothea of Phlius",
+        "dates": "4th century BCE",
+        "bio": "One of two women recorded as students at the Academy. She is said to have come after reading the Republic, and to have dressed as a man."
+      },
+      {
+        "name": "Plotinus",
+        "dates": "about 204 to 270 CE",
+        "bio": "The founder of what is now called Neoplatonism. He taught in Rome that all things flow from the One and long to return to it."
+      },
+      {
+        "name": "Hypatia",
+        "dates": "about 355 to 415 CE",
+        "bio": "Mathematician and head of the Platonist school at Alexandria. She was murdered by a Christian mob."
+      },
+      {
+        "name": "Augustine of Hippo",
+        "dates": "354 to 430 CE",
+        "bio": "The Christian bishop who said the books of the Platonists prepared him for conversion, and who carried much of Plato into Christian theology."
+      },
+      {
+        "name": "Marsilio Ficino",
+        "dates": "1433 to 1499",
+        "bio": "Florentine priest and physician who made the first complete Latin translation of Plato, published in 1484, and coined the phrase Platonic love."
+      }
+    ],
+    "history": [
+      {
+        "when": "about 427 BCE",
+        "what": "Birth of Plato",
+        "detail": "In Athens or on Aegina, four years into the Peloponnesian War. On his mother’s side he descends from the lawgiver Solon."
+      },
+      {
+        "when": "404 BCE",
+        "what": "The Thirty",
+        "detail": "After Athens surrenders to Sparta a junta of thirty takes power. It includes two of Plato’s relatives and kills some fifteen hundred citizens. Plato is repelled."
+      },
+      {
+        "when": "399 BCE",
+        "what": "The death of Socrates",
+        "detail": "Convicted by a jury of 501, he refuses to propose exile, refuses to escape, and drinks hemlock a month later."
+      },
+      {
+        "when": "about 387 BCE",
+        "what": "Sicily and the Academy",
+        "detail": "Plato visits the Pythagoreans of southern Italy and the court of Dionysius I at Syracuse. On his return he founds the school."
+      },
+      {
+        "when": "367 BCE",
+        "what": "The second voyage; Aristotle arrives",
+        "detail": "Invited by Dion to educate the young Dionysius II, Plato sails for Syracuse. Court intrigue wrecks the plan. The seventeen-year-old Aristotle joins the Academy."
+      },
+      {
+        "when": "361 BCE",
+        "what": "The third voyage",
+        "detail": "Plato returns to Syracuse, is held under guard and is extracted by friends. The Seventh Letter, if genuine, is his account of the affair."
+      },
+      {
+        "when": "about 347 BCE",
+        "what": "Death of Plato",
+        "detail": "He is buried in the grounds of the Academy. He leaves the Laws unfinished."
+      },
+      {
+        "when": "about 266 BCE",
+        "what": "The sceptical Academy",
+        "detail": "Under Arcesilaus the school turns to Socratic doubt and argues for two centuries that nothing can be known for certain."
+      },
+      {
+        "when": "86 BCE",
+        "what": "Sulla at Athens",
+        "detail": "The Roman general besieges the city and fells the trees of the Academy for siege engines. Platonists continue to teach elsewhere."
+      },
+      {
+        "when": "3rd century CE",
+        "what": "Plotinus",
+        "detail": "In Rome he builds a spiritual system on Plato. His pupil Porphyry edits it as the Enneads."
+      },
+      {
+        "when": "529 CE",
+        "what": "The schools close",
+        "detail": "The emperor Justinian forbids pagans to teach. The last Platonists of Athens leave for Persia."
+      },
+      {
+        "when": "1462 to 1484",
+        "what": "Plato returns to the West",
+        "detail": "Cosimo de’ Medici gives Ficino a Greek manuscript and a villa. The Latin Plato is printed in Florence in 1484."
+      },
+      {
+        "when": "1578",
+        "what": "The Stephanus edition",
+        "detail": "Henri Estienne prints the Greek text in Geneva. Its page numbers and letters are still used to cite Plato."
+      }
+    ],
+    "concepts": [
+      {
+        "term": "Forms",
+        "text": "What is truly real.",
+        "detail": "Perfect, unchanging objects of knowledge, such as Beauty, Equality and Justice, of which visible things are imperfect likenesses. Plato himself raised the hardest objections to the theory in the Parmenides."
+      },
+      {
+        "term": "The Good",
+        "text": "Beyond being.",
+        "detail": "The highest object of study. Socrates says he cannot define it and offers the sun as its child and likeness."
+      },
+      {
+        "term": "The cave",
+        "text": "An image of education.",
+        "detail": "Prisoners chained from birth watch shadows cast by a fire. One is freed, climbs out, is dazzled, comes to see the sun, and returns to those who will not believe him."
+      },
+      {
+        "term": "The tripartite soul",
+        "text": "Reason, spirit, appetite.",
+        "detail": "Argued in Republic 4 from the fact of inner conflict. Each part has its own desires, and each has a virtue."
+      },
+      {
+        "term": "Recollection",
+        "text": "Learning as remembering.",
+        "detail": "Offered in the Meno and Phaedo as the answer to how we can seek what we do not know, and as evidence that the soul existed before birth."
+      },
+      {
+        "term": "Dialectic",
+        "text": "The highest study.",
+        "detail": "Disciplined conversation that tests assumptions and rises towards an unassumed first principle. In the Republic it comes only after ten years of mathematics."
+      },
+      {
+        "term": "Eros",
+        "text": "Love as a guide.",
+        "detail": "A spirit between mortal and divine, the child of Resource and Poverty, always lacking and always seeking. Properly led, it is philosophy itself."
+      },
+      {
+        "term": "The philosopher-ruler",
+        "text": "Power for those who do not want it.",
+        "detail": "The proposal that cities be governed by people trained for decades to know the Good, owning no property and ruling as a duty."
+      },
+      {
+        "term": "Platonic love",
+        "text": "A later phrase.",
+        "detail": "Coined by Ficino for a love between friends that leads both towards the divine. Its modern meaning of love without sex is narrower than Plato’s own account."
+      }
+    ],
+    "facts": [
+      {
+        "text": "Plato mentions himself only three times in the dialogues: twice as present at the trial of Socrates, and once as absent, ill, from his death."
+      },
+      {
+        "text": "Every work Plato is known to have published has survived, along with several he probably did not write."
+      },
+      {
+        "text": "The numbers and letters used to cite Plato, such as Republic 514a, are the pages and sections of a Geneva edition of 1578."
+      },
+      {
+        "text": "The Academy held its land for the worship of the Muses, which made it legally a religious association."
+      },
+      {
+        "text": "The Republic proposes that women of the ruling class receive the same education and hold the same offices as men."
+      },
+      {
+        "text": "The story of Atlantis first appears in Plato’s Timaeus and Critias, and nowhere earlier."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Dialogue",
+        "meaning": "A philosophical work written as a conversation"
+      },
+      {
+        "term": "Sophist",
+        "meaning": "A paid travelling teacher of rhetoric and success, Plato’s frequent target"
+      },
+      {
+        "term": "Hemlock",
+        "meaning": "The poison by which Athens executed citizens"
+      },
+      {
+        "term": "Guardian",
+        "meaning": "A member of the ruling or soldier class in the Republic"
+      },
+      {
+        "term": "Neoplatonism",
+        "meaning": "The religious Platonism of Plotinus and his successors"
+      },
+      {
+        "term": "Stephanus number",
+        "meaning": "The standard reference to a passage in Plato"
+      }
+    ],
+    "furtherReading": [
+      {
+        "title": "Plato: A Very Short Introduction",
+        "creator": "Julia Annas",
+        "year": "2003",
+        "note": "A hundred pages that show how to read him without turning him into a system."
+      },
+      {
+        "title": "Plato at the Googleplex",
+        "creator": "Rebecca Newberger Goldstein",
+        "year": "2014",
+        "note": "Plato on a modern book tour, arguing with a software engineer and a cable news host."
+      },
+      {
+        "title": "The Open Society and Its Enemies, volume 1",
+        "creator": "Karl Popper",
+        "year": "1945",
+        "note": "The fiercest case against the politics of the Republic, written during the war."
+      },
+      {
+        "title": "What Is Ancient Philosophy?",
+        "creator": "Pierre Hadot",
+        "year": "1995; English 2002",
+        "note": "On philosophy as a way of life, with a chapter on life in the Academy."
+      }
+    ],
+    "learnFrom": [
+      {
+        "name": "Perseus Digital Library",
+        "note": "All of Plato in Greek and English, free, with every word linked to a dictionary.",
+        "link": "https://www.perseus.tufts.edu"
+      },
+      {
+        "name": "Stanford Encyclopedia of Philosophy",
+        "note": "Long, reliable articles on Plato and on each main dialogue.",
+        "link": "https://plato.stanford.edu"
+      },
+      {
+        "name": "A reading group",
+        "note": "The dialogues were written to be argued over. Read one aloud with two or three other people."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Plato: Complete Works",
+        "creator": "ed. John M. Cooper",
+        "publisher": "Hackett",
+        "year": "1997"
+      },
+      {
+        "title": "Plato: A Very Short Introduction",
+        "creator": "Julia Annas",
+        "publisher": "Oxford University Press",
+        "year": "2003"
+      },
+      {
+        "title": "The Cambridge Companion to Plato",
+        "creator": "ed. Richard Kraut",
+        "publisher": "Cambridge University Press",
+        "year": "1992"
+      },
+      {
+        "title": "The People of Plato: A Prosopography of Plato and Other Socratics",
+        "creator": "Debra Nails",
+        "publisher": "Hackett",
+        "year": "2002"
+      },
+      {
+        "title": "Lives of Eminent Philosophers, book 3",
+        "creator": "Diogenes Laertius, trans. R. D. Hicks",
+        "publisher": "Loeb Classical Library",
+        "year": "1925"
+      },
+      {
+        "title": "What Is Ancient Philosophy?",
+        "creator": "Pierre Hadot, trans. Michael Chase",
+        "publisher": "Harvard University Press",
+        "year": "2002"
+      }
+    ]
+  },
+  "sensitivity": {
+    "note": "Plato wrote dialogues, not doctrine, and scholars disagree about how much of what Socrates says in them Plato himself believed. This Onda borrows his exercises and questions. It does not ask you to accept his politics or his metaphysics.",
+    "requiredCaveats": [
+      "The ideal city of the Republic censors poets, deceives its citizens and abolishes the family for its rulers. Many readers have found it authoritarian.",
+      "Athens ran on slavery and excluded women from public life. Plato questions the second and largely accepts the first."
+    ],
+    "reviewRequired": false
+  }
+}

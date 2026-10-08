@@ -1,0 +1,1219 @@
+{
+  "version": 1,
+  "id": "cyrenaic",
+  "name": "Hedonism",
+  "origin": "Cyrene",
+  "era": "4th and 3rd centuries BCE, with heirs ever since",
+  "tone": "purple",
+  "icon": "wine",
+  "font": "playfair-display",
+  "pattern": "waves-of-wine",
+  "glyph": "ἡδονή",
+  "line": "Enjoy what is in front of you, and stay its master.",
+  "quote": {
+    "text": "It is not abstinence from pleasures that is best, but mastery over them without ever being worsted.",
+    "by": "Aristippus of Cyrene",
+    "source": "Diogenes Laertius, Lives of Eminent Philosophers 2.75, trans. R. D. Hicks"
+  },
+  "quotes": [
+    {
+      "text": "The ability to feel at ease in any society.",
+      "by": "Aristippus of Cyrene",
+      "source": "Asked what he had gained from philosophy; Diogenes Laertius, Lives 2.68, trans. R. D. Hicks"
+    },
+    {
+      "text": "He was capable of adapting himself to place, time and person, and of playing his part appropriately under whatever circumstances.",
+      "by": "Diogenes Laertius, on Aristippus",
+      "source": "Lives of Eminent Philosophers 2.66, trans. R. D. Hicks"
+    },
+    {
+      "text": "It is better to be a beggar than to be uneducated; the one needs money, the others need to be humanized.",
+      "by": "Aristippus of Cyrene",
+      "source": "Diogenes Laertius, Lives 2.70, trans. R. D. Hicks"
+    },
+    {
+      "text": "Nature has placed mankind under the governance of two sovereign masters, pain and pleasure.",
+      "by": "Jeremy Bentham",
+      "source": "An Introduction to the Principles of Morals and Legislation, 1789, chapter 1"
+    },
+    {
+      "text": "To burn always with this hard, gem-like flame, to maintain this ecstasy, is success in life.",
+      "by": "Walter Pater",
+      "source": "Studies in the History of the Renaissance, 1873, Conclusion"
+    },
+    {
+      "text": "The only way to get rid of a temptation is to yield to it.",
+      "by": "Oscar Wilde",
+      "source": "Lord Henry Wotton in The Picture of Dorian Gray, 1890, chapter 2"
+    }
+  ],
+  "words": [
+    {
+      "id": "word-hedone",
+      "term": "Hedone",
+      "meaning": "Pleasure",
+      "pronunciation": "hay-do-NAY",
+      "language": "Ancient Greek",
+      "usage": "The one thing good in itself. The Cyrenaics mean pleasure actually felt, in the body first of all."
+    },
+    {
+      "id": "word-ponos",
+      "term": "Ponos",
+      "meaning": "Pain; toil",
+      "pronunciation": "PO-nos",
+      "language": "Ancient Greek",
+      "usage": "The one thing bad in itself. Pleasure and pain are the only two measures."
+    },
+    {
+      "id": "word-pathos",
+      "term": "Pathos",
+      "meaning": "An experience; what one undergoes",
+      "pronunciation": "PA-thos",
+      "language": "Ancient Greek",
+      "usage": "The Cyrenaics held that we know only our own experiences: that I am sweetened or warmed, never what the thing is in itself."
+    },
+    {
+      "id": "word-kinesis",
+      "term": "Kinesis",
+      "meaning": "Movement",
+      "pronunciation": "KI-nay-sis",
+      "language": "Ancient Greek",
+      "usage": "Pleasure and pain are both movements. A state of rest is neither."
+    },
+    {
+      "id": "word-leia-kinesis",
+      "term": "Leia kinesis",
+      "meaning": "Smooth motion",
+      "pronunciation": "LAY-a KI-nay-sis",
+      "language": "Ancient Greek",
+      "usage": "The Cyrenaic definition of pleasure, like a gentle swell at sea. Pain is rough motion, like a storm."
+    },
+    {
+      "id": "word-telos",
+      "term": "Telos",
+      "meaning": "The end; the goal",
+      "pronunciation": "TEL-os",
+      "language": "Ancient Greek",
+      "usage": "For the Cyrenaics the goal is each particular pleasure. Happiness is only the sum, and is wanted for the sake of its parts."
+    },
+    {
+      "id": "word-monochronos",
+      "term": "Monochronos",
+      "meaning": "Of a single time",
+      "pronunciation": "mo-NO-khro-nos",
+      "language": "Ancient Greek",
+      "usage": "A later writer says Aristippus placed pleasure in the single present moment and gave no weight to memory or hope."
+    },
+    {
+      "id": "word-to-paron",
+      "term": "To paron",
+      "meaning": "The present",
+      "pronunciation": "to pa-RON",
+      "language": "Ancient Greek",
+      "usage": "The only time that is ours. The past is gone and the future is unclear."
+    },
+    {
+      "id": "word-kairos",
+      "term": "Kairos",
+      "meaning": "The right moment",
+      "pronunciation": "kai-ROS",
+      "language": "Ancient Greek",
+      "usage": "Time as opportunity. Aristippus was famous for making the best of whatever the moment offered."
+    },
+    {
+      "id": "word-enkrateia",
+      "term": "Enkrateia",
+      "meaning": "Mastery; self-command",
+      "pronunciation": "en-KRA-tay-a",
+      "language": "Ancient Greek",
+      "usage": "Being in control while enjoying. The best rider is the one who can ride the horse, and need not avoid it."
+    },
+    {
+      "id": "word-phronesis",
+      "term": "Phronesis",
+      "meaning": "Practical wisdom",
+      "pronunciation": "FRO-nay-sis",
+      "language": "Ancient Greek",
+      "usage": "Valued for what it brings. The wise person gets more pleasure and less pain than the fool."
+    },
+    {
+      "id": "word-eudaimonia",
+      "term": "Eudaimonia",
+      "meaning": "Happiness over a life",
+      "pronunciation": "ew-dai-mo-NEE-a",
+      "language": "Ancient Greek",
+      "usage": "The Cyrenaics, unlike other schools, did not make it the goal. A life is too long and uncertain to aim at."
+    },
+    {
+      "id": "word-chara",
+      "term": "Chara",
+      "meaning": "Joy",
+      "pronunciation": "kha-RAH",
+      "language": "Ancient Greek",
+      "usage": "Pleasure of the mind. Anniceris taught that joy in a friend’s good fortune is worth having for itself."
+    },
+    {
+      "id": "word-lype",
+      "term": "Lype",
+      "meaning": "Distress",
+      "pronunciation": "LOO-pay",
+      "language": "Ancient Greek",
+      "usage": "Pain of the mind. The Cyrenaics thought bodily pains were worse, which is why criminals are punished in the body."
+    },
+    {
+      "id": "word-tryphe",
+      "term": "Tryphe",
+      "meaning": "Luxury; softness",
+      "pronunciation": "troo-FAY",
+      "language": "Ancient Greek",
+      "usage": "Fine food, perfume and dress. Aristippus enjoyed them openly and said that if luxury were wrong it would not be used at the festivals of the gods."
+    },
+    {
+      "id": "word-eutrapelia",
+      "term": "Eutrapelia",
+      "meaning": "Ready wit",
+      "pronunciation": "ew-tra-pe-LEE-a",
+      "language": "Ancient Greek",
+      "usage": "Turning a remark neatly. Most of what survives of Aristippus is his replies."
+    },
+    {
+      "id": "word-homilia",
+      "term": "Homilia",
+      "meaning": "Company; social ease",
+      "pronunciation": "ho-mi-LEE-a",
+      "language": "Ancient Greek",
+      "usage": "The art of getting on with anyone, which Aristippus named as the gain of philosophy."
+    },
+    {
+      "id": "word-parrhesia",
+      "term": "Parrhesia",
+      "meaning": "Free speech",
+      "pronunciation": "par-ray-SEE-a",
+      "language": "Ancient Greek",
+      "usage": "Saying what one thinks to anyone, tyrants included. He named it as what distinguishes the educated."
+    },
+    {
+      "id": "word-tharsos",
+      "term": "Tharsos",
+      "meaning": "Confidence",
+      "pronunciation": "THAR-sos",
+      "language": "Ancient Greek",
+      "usage": "Asked what his daughter should be taught, he is said to have answered: to despise excess, and to take heart."
+    },
+    {
+      "id": "word-symposion",
+      "term": "Symposion",
+      "meaning": "Drinking party",
+      "pronunciation": "sim-PO-see-on",
+      "language": "Ancient Greek",
+      "usage": "The evening gathering of couches, wine, music, games and talk."
+    },
+    {
+      "id": "word-hetaira",
+      "term": "Hetaira",
+      "meaning": "Companion; courtesan",
+      "pronunciation": "he-TAI-ra",
+      "language": "Ancient Greek",
+      "usage": "An educated woman who lived independently by her company. Lais of Corinth was the most famous of her day."
+    },
+    {
+      "id": "word-silphion",
+      "term": "Silphion",
+      "meaning": "Silphium",
+      "pronunciation": "SIL-fee-on",
+      "language": "Ancient Greek",
+      "usage": "The wild plant that made Cyrene rich, used as a seasoning and a medicine. It was harvested to extinction in Roman times."
+    },
+    {
+      "id": "word-kyrenaikoi",
+      "term": "Kyrenaikoi",
+      "meaning": "The Cyrenaics",
+      "pronunciation": "koo-ray-nai-KOY",
+      "language": "Ancient Greek",
+      "usage": "The school named after the city, not after its founder."
+    },
+    {
+      "id": "word-metrodidaktos",
+      "term": "Metrodidaktos",
+      "meaning": "Mother-taught",
+      "pronunciation": "may-tro-DI-dak-tos",
+      "language": "Ancient Greek",
+      "usage": "The nickname of Aristippus the Younger, who learned philosophy from his mother Arete."
+    },
+    {
+      "id": "word-peisithanatos",
+      "term": "Peisithanatos",
+      "meaning": "The death-persuader",
+      "pronunciation": "pay-si-THA-na-tos",
+      "language": "Ancient Greek",
+      "usage": "The nickname of Hegesias, who argued so well that pleasure is out of reach that his lectures were banned."
+    },
+    {
+      "id": "word-atheos",
+      "term": "Atheos",
+      "meaning": "Godless",
+      "pronunciation": "A-the-os",
+      "language": "Ancient Greek",
+      "usage": "The nickname of Theodorus, who denied the gods of the city and was expelled from Athens."
+    },
+    {
+      "id": "word-sophos",
+      "term": "Sophos",
+      "meaning": "The wise person",
+      "pronunciation": "so-FOS",
+      "language": "Ancient Greek",
+      "usage": "The one who does not envy, fall madly in love or fear the gods, though he will still feel pain and fear, which are natural."
+    },
+    {
+      "id": "word-carpe-diem",
+      "term": "Carpe diem",
+      "meaning": "Pluck the day",
+      "pronunciation": "KAR-pay DEE-em",
+      "language": "Latin",
+      "usage": "From an ode of Horace. The image is of picking fruit when it is ripe."
+    },
+    {
+      "id": "word-voluptas",
+      "term": "Voluptas",
+      "meaning": "Pleasure",
+      "pronunciation": "wo-LUP-tas",
+      "language": "Latin",
+      "usage": "The Roman word. Cicero uses it when he reports and attacks the Cyrenaic view."
+    },
+    {
+      "id": "word-utility",
+      "term": "Utility",
+      "meaning": "The balance of pleasure over pain",
+      "pronunciation": "yoo-TIL-i-tee",
+      "language": "English",
+      "usage": "Bentham’s term of 1789. He made the greatest happiness of the greatest number the test of law."
+    }
+  ],
+  "practices": [
+    {
+      "id": "first-pleasure",
+      "name": "The first pleasure of the day",
+      "icon": "sun",
+      "slot": "Morning",
+      "time": "07:30",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Choose one pleasure of the senses that the morning offers: hot water on your back, the first coffee, sun on your face, fresh bread, stretching. Give it your whole attention for ten minutes. Do nothing else at the same time. Notice where in the body the pleasure is, how it rises and how it fades. When it is over, let it be over.",
+      "why": "The Cyrenaics taught that pleasure exists only while it is being felt. It is a smooth motion in the present moment, and it cannot be stored. So the skill is to be fully there for it.",
+      "variations": [
+        "Eat one piece of fruit as slowly as you can.",
+        "Put on a scent or oil and attend to it.",
+        "Lie in the sun for ten minutes with your eyes closed."
+      ]
+    },
+    {
+      "id": "one-good-thing",
+      "name": "One pleasure, taken whole",
+      "icon": "sparkle",
+      "slot": "Afternoon",
+      "time": "13:00",
+      "minutes": 30,
+      "meta": "Afternoon · 30 min",
+      "instructions": "Plan one real pleasure for today and take it properly. A very good lunch, a swim, an hour of music, a walk somewhere beautiful, time with someone you find delightful. Pay for quality over quantity. While it lasts, do not photograph it, do not check anything, do not apologise for it. Afterwards do not ask whether you deserved it.",
+      "why": "Aristippus spent freely on good things and was unembarrassed by it. Reproached for paying a high price for a fish, he asked his critic whether he would have bought it for a small coin, and concluded that the difference between them was the love of money and not the love of pleasure.",
+      "variations": [
+        "Share it with one person who will enjoy it as much.",
+        "Choose a pleasure you have been denying yourself out of habit.",
+        "Spend the same money you would waste on three poor things on one good one."
+      ]
+    },
+    {
+      "id": "possess-not-possessed",
+      "name": "I possess, I am not possessed",
+      "icon": "key",
+      "slot": "Afternoon",
+      "time": "16:00",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Pick the pleasure that has the most hold on you: the phone, sweet things, a drink, a show, shopping. Enjoy a measured amount of it now, fully. Then stop in the middle, while you still want more, and walk away for the rest of the day. Watch what the wanting does over the next ten minutes. If you cannot stop, you have learned who owns whom.",
+      "why": "Aristippus kept company with the courtesan Lais and said: I have her, she does not have me. His rule was that the best thing is to master pleasures without being worsted by them, and that going in is no disgrace, only being unable to come out.",
+      "variations": [
+        "Do without that pleasure for a whole day, cheerfully.",
+        "Leave a party while it is still good.",
+        "Halve the portion and double the attention."
+      ]
+    },
+    {
+      "id": "at-ease-anywhere",
+      "name": "At ease anywhere",
+      "icon": "handshake",
+      "slot": "Afternoon",
+      "time": "18:00",
+      "minutes": 15,
+      "meta": "Afternoon · 15 min",
+      "instructions": "Put yourself in company or surroundings that are not your own and make yourself at home there. Talk to someone far richer or far poorer, older or younger than you. Go into a place that is too smart or too rough for you. Dress up or dress down against your habit. Your task is to be the same person, easy and good-humoured, and to enjoy what that place has to offer.",
+      "why": "Plato is said to have told Aristippus: you alone can wear both a fine cloak and rags. Horace wrote that every condition suited him. He could dine with a tyrant one day and walk away with nothing the next, and enjoy both.",
+      "variations": [
+        "Accept an invitation you would normally refuse.",
+        "Make friends with whoever is next to you on a journey.",
+        "When something goes wrong today, look for what can be enjoyed in the new situation."
+      ]
+    },
+    {
+      "id": "only-today",
+      "name": "Only today",
+      "icon": "hourglass",
+      "slot": "Evening",
+      "time": "21:30",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Go back through the day and mark its motions. List the smooth ones: every moment of real pleasure, however brief. List the rough ones. Then do two things. Drop any regret over a pleasure that has passed, and any worry about one that has not come. And name the single thing you will enjoy first tomorrow.",
+      "why": "A later writer records his advice: keep your mind on the day, and on the part of the day in which you are acting or thinking, since only the present is ours. He did not toil over the past or labour ahead for the future.",
+      "variations": [
+        "Count how many of today’s pleasures you were actually present for.",
+        "Write down one worry and put it away until morning.",
+        "End the day with something pleasant and take it to bed."
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task-cook-or-order-one-really-good-fish-dish",
+      "name": "Cook or order one really good fish dish",
+      "meta": "Eat · quality over quantity",
+      "time": "19:00",
+      "slot": "Evening",
+      "action": "eat"
+    },
+    {
+      "id": "task-drink-one-glass-of-something-excellent-slowly",
+      "name": "Drink one glass of something excellent, slowly",
+      "meta": "Drink · one, not three",
+      "time": "19:30",
+      "slot": "Evening",
+      "action": "drink"
+    },
+    {
+      "id": "task-read-the-life-of-aristippus-in-diogenes-laertius-book-2",
+      "name": "Read the life of Aristippus in Diogenes Laertius, book 2",
+      "meta": "Read · 25 min of anecdotes",
+      "time": "20:30",
+      "slot": "Evening",
+      "action": "read"
+    },
+    {
+      "id": "task-listen-to-debussy-s-prelude-to-the-afternoon-of-a-faun-lying-down",
+      "name": "Listen to Debussy’s Prelude to the Afternoon of a Faun, lying down",
+      "meta": "Listen · 10 min",
+      "time": "15:00",
+      "slot": "Afternoon",
+      "action": "listen"
+    },
+    {
+      "id": "accept-an-invitation-you-would-usually-refuse",
+      "name": "Accept an invitation you would usually refuse",
+      "meta": "At ease anywhere",
+      "time": "18:30",
+      "slot": "Evening"
+    },
+    {
+      "id": "task-journal-what-did-you-enjoy-today-and-were-you-there-for-it",
+      "name": "Journal: what did you enjoy today, and were you there for it?",
+      "meta": "Journal · 10 min",
+      "time": "21:00",
+      "slot": "Evening",
+      "action": "journal"
+    },
+    {
+      "id": "task-is-a-pleasure-in-memory-still-a-pleasure",
+      "name": "Is a pleasure in memory still a pleasure?",
+      "meta": "Philosophy · 10 min",
+      "time": "08:30",
+      "slot": "Morning",
+      "action": "philosophy"
+    },
+    {
+      "id": "say-something-witty-and-true-to-someone-powerful",
+      "name": "Say something witty and true to someone powerful",
+      "meta": "Free speech",
+      "time": "11:00",
+      "slot": "Morning"
+    },
+    {
+      "id": "give-up-one-pleasure-today-with-a-light-heart",
+      "name": "Give up one pleasure today with a light heart",
+      "meta": "Mastery",
+      "time": "09:00",
+      "slot": "Morning"
+    }
+  ],
+  "rules": [
+    {
+      "id": "r1",
+      "text": "Enjoy what is here",
+      "why": "The pleasure in front of you is the only one you can have. Take it with full attention."
+    },
+    {
+      "id": "r2",
+      "text": "Stay the master",
+      "why": "Use pleasures and do not be used by them. Be able to stop at any point."
+    },
+    {
+      "id": "r3",
+      "text": "Do not toil over yesterday or tomorrow",
+      "why": "Regret and worry are pains you add for nothing. Only the present is yours."
+    },
+    {
+      "id": "r4",
+      "text": "Be at home in every company",
+      "why": "Adapt to the place, the time and the person, and be the same self in a palace or a ditch."
+    },
+    {
+      "id": "r5",
+      "text": "Speak freely",
+      "why": "Say what you think to anyone, with wit and without fear."
+    },
+    {
+      "id": "r6",
+      "text": "Prefer the good thing to the many things",
+      "why": "One fine pleasure well chosen is better than a heap of poor ones."
+    }
+  ],
+  "immerse": {
+    "read": [
+      {
+        "id": "read-lives-of-eminent-philosophers-book-2-chapters-65-to-104",
+        "title": "Lives of Eminent Philosophers, book 2, chapters 65 to 104",
+        "creator": "Diogenes Laertius",
+        "year": "3rd century CE",
+        "why": "The main ancient source: a string of sharp replies and stories about Aristippus, followed by a summary of what his school taught."
+      },
+      {
+        "id": "read-memorabilia-book-2-chapter-1",
+        "title": "Memorabilia, book 2, chapter 1",
+        "creator": "Xenophon",
+        "year": "about 370 BCE",
+        "why": "Socrates argues with Aristippus about whether a life of ease or a life of effort is better, and tells him the story of Heracles at the crossroads."
+      },
+      {
+        "id": "read-the-birth-of-hedonism",
+        "title": "The Birth of Hedonism",
+        "creator": "Kurt Lampe",
+        "year": "2015",
+        "why": "The only full modern book on the Cyrenaics as a way of life. Scholarly and readable."
+      },
+      {
+        "id": "read-the-picture-of-dorian-gray",
+        "title": "The Picture of Dorian Gray",
+        "creator": "Oscar Wilde",
+        "year": "1890",
+        "why": "A young man is persuaded to live for sensation alone. The novel that both preaches the new hedonism and shows its price."
+      },
+      {
+        "id": "read-marius-the-epicurean",
+        "title": "Marius the Epicurean",
+        "creator": "Walter Pater",
+        "year": "1885",
+        "why": "A slow, beautiful novel of a Roman youth who passes through a new Cyrenaicism on his way elsewhere."
+      },
+      {
+        "id": "read-the-rubaiyat-of-omar-khayyam",
+        "title": "The Rubaiyat of Omar Khayyam",
+        "creator": "trans. Edward FitzGerald",
+        "year": "1859",
+        "why": "A Victorian poem made from Persian quatrains: wine, a book of verse and the shortness of life."
+      }
+    ],
+    "watch": [
+      {
+        "id": "watch-the-taste-of-things",
+        "title": "The Taste of Things",
+        "creator": "Tran Anh Hung",
+        "year": "2023",
+        "why": "A cook and a gourmet in a French country kitchen in 1885. Long scenes of food being made with complete attention."
+      },
+      {
+        "id": "watch-the-great-beauty",
+        "title": "The Great Beauty",
+        "creator": "Paolo Sorrentino",
+        "year": "2013",
+        "why": "An ageing Roman socialite drifts through parties and palaces, wondering what all the pleasure came to."
+      },
+      {
+        "id": "watch-big-night",
+        "title": "Big Night",
+        "creator": "Campbell Scott and Stanley Tucci",
+        "year": "1996",
+        "why": "Two brothers stake their failing restaurant on one perfect dinner."
+      },
+      {
+        "id": "watch-the-picture-of-dorian-gray",
+        "title": "The Picture of Dorian Gray",
+        "creator": "Albert Lewin",
+        "year": "1945",
+        "why": "The classic film of Wilde’s novel, in black and white with the portrait in colour."
+      }
+    ],
+    "listen": [
+      {
+        "id": "listen-prelude-to-the-afternoon-of-a-faun",
+        "title": "Prelude to the Afternoon of a Faun",
+        "creator": "Claude Debussy",
+        "year": "1894",
+        "why": "Ten minutes of a faun dozing in the heat. Music that wants nothing except to be heard."
+      },
+      {
+        "id": "listen-carmina-burana",
+        "title": "Carmina Burana",
+        "creator": "Carl Orff",
+        "year": "1937",
+        "why": "Medieval students’ songs about spring, the tavern and love, set for huge chorus and orchestra."
+      },
+      {
+        "id": "listen-getz-gilberto",
+        "title": "Getz/Gilberto",
+        "creator": "Stan Getz and João Gilberto",
+        "year": "1964",
+        "why": "Bossa nova at its most relaxed. The sound of being at ease."
+      },
+      {
+        "id": "listen-don-giovanni",
+        "title": "Don Giovanni",
+        "creator": "Wolfgang Amadeus Mozart, libretto by Lorenzo Da Ponte",
+        "year": "1787",
+        "why": "The most charming of libertines pursues pleasure with no thought of tomorrow, until tomorrow arrives."
+      }
+    ],
+    "art": [
+      {
+        "id": "art-silver-coins-of-cyrene",
+        "title": "Silver coins of Cyrene",
+        "creator": "The mint of Cyrene",
+        "year": "6th to 3rd century BCE",
+        "why": "They show the silphium plant, thick-stemmed and leafy, on one side. The best record of a plant that no longer exists. Examples are in the British Museum."
+      },
+      {
+        "id": "art-the-venus-of-cyrene",
+        "title": "The Venus of Cyrene",
+        "creator": "Roman copy of a Hellenistic statue",
+        "year": "2nd century CE",
+        "why": "A headless marble Aphrodite rising from the sea, found at Cyrene in 1913 after a storm and returned by Italy to Libya in 2008."
+      },
+      {
+        "id": "art-bacchus",
+        "title": "Bacchus",
+        "creator": "Caravaggio",
+        "year": "about 1596",
+        "why": "A flushed boy in a toga offers the viewer a shallow glass of wine across a bowl of fruit that is just starting to rot. In the Uffizi, Florence."
+      },
+      {
+        "id": "art-luncheon-of-the-boating-party",
+        "title": "Luncheon of the Boating Party",
+        "creator": "Pierre-Auguste Renoir",
+        "year": "1881",
+        "why": "Friends on a restaurant balcony by the Seine after a meal, with wine, fruit, a small dog and sunlight. In the Phillips Collection, Washington."
+      }
+    ],
+    "eat": [
+      {
+        "id": "eat-a-whole-grilled-fish",
+        "title": "A whole grilled fish",
+        "creator": "With olive oil, herbs and lemon",
+        "why": "Fish was the luxury of the Greek table, and half the stories about Aristippus involve him buying one."
+      },
+      {
+        "id": "eat-roast-partridge-or-other-game-bird",
+        "title": "Roast partridge or other game bird",
+        "creator": "With a sharp sauce",
+        "why": "He once paid fifty drachmas for a partridge and defended the price."
+      },
+      {
+        "id": "eat-honey-cakes",
+        "title": "Honey cakes",
+        "creator": "Flat cakes of flour, cheese and honey",
+        "why": "The sweet of the symposium, eaten with nuts and dried fruit when the wine came out."
+      },
+      {
+        "id": "eat-a-dish-seasoned-with-asafoetida",
+        "title": "A dish seasoned with asafoetida",
+        "creator": "Lentils or lamb with a pinch of the resin",
+        "why": "Silphium is gone. The Romans replaced it with asafoetida from Persia, which is the nearest taste still to be had."
+      }
+    ],
+    "drink": [
+      {
+        "id": "drink-an-old-good-wine",
+        "title": "An old, good wine",
+        "creator": "One glass, at the right temperature",
+        "why": "He drank the best he could get and smelled of perfume. Choose one fine glass over a bottle of something ordinary."
+      },
+      {
+        "id": "drink-wine-cooled-with-snow",
+        "title": "Wine cooled with snow",
+        "creator": "Or simply well chilled",
+        "why": "A luxury of rich Greek and Sicilian tables, with snow carried down from the mountains and kept in pits."
+      },
+      {
+        "id": "drink-spring-water",
+        "title": "Spring water",
+        "creator": "Cold, from a good source",
+        "why": "Mastery includes enjoying water as much as wine when water is what there is."
+      }
+    ],
+    "customs": [
+      {
+        "id": "customs-the-symposium",
+        "title": "The symposium",
+        "creator": "An evening on couches",
+        "why": "Guests bathed, were garlanded and perfumed, ate, and then drank wine mixed with water to music, riddles and conversation."
+      },
+      {
+        "id": "customs-teaching-for-a-fee",
+        "title": "Teaching for a fee",
+        "creator": "The first Socratic to charge",
+        "why": "Aristippus took money from his students and sent some to Socrates, who returned it. He said he took it to show them how money should be spent."
+      },
+      {
+        "id": "customs-the-ready-reply",
+        "title": "The ready reply",
+        "creator": "Wit under pressure",
+        "why": "When the tyrant Dionysius spat on him he let it pass, saying that fishermen let the sea drench them to catch a small fish."
+      },
+      {
+        "id": "customs-a-school-passed-through-a-woman",
+        "title": "A school passed through a woman",
+        "creator": "Arete of Cyrene",
+        "why": "He taught his daughter, who led the school for decades and taught her own son. It is one of very few ancient schools headed by a woman."
+      }
+    ],
+    "games": [
+      {
+        "id": "games-kottabos",
+        "title": "Kottabos",
+        "creator": "Drinking game · Sicily and Greece",
+        "year": "6th to 4th century BCE",
+        "why": "Players reclining on couches flick the last drops of wine from their cups at a small disc balanced on a stand. It began in Sicily, where Aristippus spent years at court."
+      },
+      {
+        "id": "games-kyboi",
+        "title": "Kyboi",
+        "creator": "Dice · Greece",
+        "year": "ancient",
+        "why": "Three six-sided dice thrown from a cup. The best throw, three sixes, was called Aphrodite."
+      },
+      {
+        "id": "games-polis",
+        "title": "Polis",
+        "creator": "Board game · Greece",
+        "year": "5th century BCE or earlier",
+        "why": "The City: a game of many pieces on a grid, in which a piece is taken by being surrounded."
+      }
+    ],
+    "festivals": [
+      {
+        "id": "fest-the-anthesteria",
+        "title": "The Anthesteria",
+        "creator": "Late winter, in the Athenian month Anthesterion",
+        "why": "Three days of Dionysus. The jars of the new wine were opened, and there was a drinking contest."
+      },
+      {
+        "id": "fest-the-city-dionysia",
+        "title": "The City Dionysia",
+        "creator": "Early spring, in the month Elaphebolion",
+        "why": "The great Athenian festival of processions, wine and new plays, tragedies and comedies alike."
+      },
+      {
+        "id": "fest-the-karneia",
+        "title": "The Karneia",
+        "creator": "Late summer",
+        "why": "The chief festival of Apollo at Cyrene, brought by its founders from the Dorian homeland, with feasting, music and races."
+      }
+    ],
+    "places": [
+      {
+        "id": "place-cyrene",
+        "title": "Cyrene",
+        "creator": "Shahhat, Jebel Akhdar, Libya",
+        "why": "A Greek city on a green plateau above the sea, with a sanctuary of Apollo, a vast temple of Zeus and a spring. A World Heritage Site. Check current travel advice carefully before planning a visit."
+      },
+      {
+        "id": "place-the-british-museum-cyrene-sculptures",
+        "title": "The British Museum, Cyrene sculptures",
+        "creator": "London, United Kingdom",
+        "why": "Statues and coins brought from Cyrene in the 1860s, including a fine Apollo with a lyre."
+      },
+      {
+        "id": "place-ortygia",
+        "title": "Ortygia",
+        "creator": "Syracuse, Sicily, Italy",
+        "why": "The island fortress of the tyrants at whose table Aristippus dined and joked. The fish market there is still excellent."
+      },
+      {
+        "id": "place-aegina",
+        "title": "Aegina",
+        "creator": "Saronic Gulf, Greece",
+        "why": "The island where he was living well when Socrates died, an absence Plato records. An easy ferry from Athens, known for pistachios and fish."
+      },
+      {
+        "id": "place-the-ancient-agora",
+        "title": "The Ancient Agora",
+        "creator": "Athens, Greece",
+        "why": "Where he first heard Socrates, having sailed from Africa on the strength of a report at the Olympic Games."
+      }
+    ]
+  },
+  "ethics": [
+    {
+      "title": "Mastery",
+      "text": "Pleasure is good and slavery is bad. A person ruled by any pleasure has lost the thing that makes pleasure worth having.",
+      "practice": "Name the pleasure you could least easily give up, and give it up for a day."
+    },
+    {
+      "title": "Presence",
+      "text": "The good is felt now or not at all. Hope and memory are too faint to live on.",
+      "practice": "Catch yourself three times today saving a pleasure for later, and take it now."
+    },
+    {
+      "title": "Adaptability",
+      "text": "Fortune changes. The wise person is ready to enjoy whatever it brings and to lose whatever it takes.",
+      "practice": "When a plan fails today, find the pleasure in what is left."
+    },
+    {
+      "title": "Frankness",
+      "text": "Say what you think without fear. Freedom of speech is the mark of a free mind.",
+      "practice": "Tell one polite truth you would normally keep back."
+    },
+    {
+      "title": "Friendship",
+      "text": "The early Cyrenaics valued friends for their use. Anniceris corrected this: one comes to love a friend and will accept pain for them.",
+      "practice": "Do something inconvenient for a friend and notice what you feel."
+    },
+    {
+      "title": "No envy, no superstition",
+      "text": "These are pains that rest on empty belief, and the wise are free of them.",
+      "practice": "Find one envy in yourself and ask what you imagine the other person has."
+    }
+  ],
+  "philosophy": [
+    {
+      "title": "Pleasure is the good",
+      "text": "Every living thing is drawn to pleasure and pushed away by pain, from birth and without teaching. That is the only evidence of value there is.",
+      "practice": "Before each choice today ask plainly: which do I expect to feel better?"
+    },
+    {
+      "title": "Present pleasure",
+      "text": "The Cyrenaics aimed at the particular pleasure of the moment, where Epicurus aimed at a tranquil lifetime. A life is not something anyone can experience all at once.",
+      "practice": "Is there anything you are doing only for the sake of the whole of your life? Does it please you now?"
+    },
+    {
+      "title": "Smooth and rough motion",
+      "text": "Pleasure is a gentle movement, pain a harsh one. The mere absence of pain is like sleep, and is not pleasure.",
+      "practice": "Tell apart, once today, feeling good from merely feeling nothing."
+    },
+    {
+      "title": "Only experiences are known",
+      "text": "I can be sure that I am tasting sweetness. I cannot be sure the honey is sweet, or that you taste what I taste. We share words, not sensations.",
+      "practice": "Ask someone to describe a taste, and notice how little you can check."
+    },
+    {
+      "title": "Bodily pleasure first",
+      "text": "The school rated pleasures of the body above those of the mind, and bodily pain as worse than mental. They are stronger and more certain.",
+      "practice": "What did your body enjoy today that your mind overlooked?"
+    },
+    {
+      "title": "Wisdom as a means",
+      "text": "Prudence, education and virtue are good because of what they yield. A wise person simply lives more pleasantly than a fool.",
+      "practice": "Which of your virtues actually makes your life more pleasant?"
+    },
+    {
+      "title": "The pessimist’s turn",
+      "text": "Hegesias took the same premises and concluded that pain so outweighs pleasure that happiness is impossible. The school contained its own refutation.",
+      "practice": "Does more attention to pleasure make you more content, or less?"
+    },
+    {
+      "title": "The experience machine",
+      "text": "A modern test: if a machine could give you any pleasant experience you chose, for life, would you plug in? Most people say no, and so seem to want more than pleasure.",
+      "practice": "What would you miss inside the machine?"
+    }
+  ],
+  "journal": [
+    "What did you enjoy today, and were you there for it?",
+    "Which pleasure has the most hold on you?",
+    "When did you stop while you still wanted more?",
+    "What did your body enjoy that your mind overlooked?",
+    "What did you put off enjoying, and why?",
+    "Where did regret take a bite out of today?",
+    "What worry about tomorrow cost you a pleasure now?",
+    "In what company were you least yourself?",
+    "What did you pay for that was worth every coin?",
+    "What cheap pleasure left you worse off?",
+    "What did you say freely, and what did you swallow?",
+    "Where were you smooth, and where rough?",
+    "What pleasure do you feel guilty about, and is the guilt earned?",
+    "Who delighted you today?",
+    "What would you do with a day that had no consequences?",
+    "What luxury do you secretly think is wrong?",
+    "What changed in your plans, and what did you make of it?",
+    "When did feeling nothing pass itself off as feeling fine?",
+    "What do you own that owns you?",
+    "What was the best taste of the day?",
+    "Whom did you envy?",
+    "What did you do for a friend that cost you something?",
+    "What would you wear, eat and do if no one were watching?",
+    "What pleasure have you never allowed yourself?",
+    "Where did wit get you out of trouble?",
+    "What are you saving for later that may never come?",
+    "What pain did you add to today by thinking about it?",
+    "What would you miss in the experience machine?",
+    "Is your life more pleasant than a year ago?",
+    "What will you enjoy first tomorrow?"
+  ],
+  "reflect": [
+    "Which pleasures did you find you had been missing while having them?",
+    "What turned out to own you?",
+    "What did living in the day do to regret and worry?",
+    "Where are you more at ease than before?",
+    "What is pleasure not enough for?",
+    "What will you go on enjoying, on purpose?"
+  ],
+  "dayThemes": [
+    "Pleasure",
+    "The first taste",
+    "Smooth motion",
+    "Only today",
+    "Whole attention",
+    "The fish",
+    "I possess",
+    "Not possessed",
+    "Stop while it is good",
+    "Rags and purple",
+    "At ease anywhere",
+    "The right moment",
+    "The ready reply",
+    "Free speech",
+    "The tyrant’s table",
+    "Shipwreck",
+    "Quality",
+    "Perfume",
+    "The body first",
+    "What is only mine",
+    "Neither pleasure nor pain",
+    "Arete’s school",
+    "Mother-taught",
+    "A friend’s joy",
+    "The death-persuader",
+    "Pluck the day",
+    "The gem-like flame",
+    "The machine",
+    "No regret",
+    "Tomorrow’s first pleasure"
+  ],
+  "guide": {
+    "intro": [
+      "Hedonism is the view that pleasure is the good. It has been held in many forms, in India and China as well as Greece, and it is still argued over. Its first full statement in the West came from a pupil of Socrates named Aristippus, and from the school his daughter and grandson built in their home city of Cyrene.",
+      "Cyrene was a Greek colony on the African coast, famous for horses, roses and a medicinal plant called silphium that grew nowhere else and made the city wealthy. Aristippus was born there around 435 BCE. He heard about Socrates from a traveller at the Olympic Games and sailed to Athens to find him. He took from Socrates a way of questioning and a complete freedom from convention, and then drew a conclusion his teacher would not have accepted. If we look honestly at what we and every other animal actually pursue, he said, it is pleasure. That is the good, and pain is the evil.",
+      "He lived accordingly, and cheerfully. He charged fees, wore fine clothes and scent, ate well, kept company with a celebrated courtesan and spent years at the court of the tyrants of Syracuse, where he gave as good as he got. What saved this from being mere self-indulgence was a second principle that he stated just as clearly: I possess, I am not possessed. The point is to enjoy without being enslaved, to be able to take a pleasure or leave it, and to be equally oneself in purple or in rags. When he was shipwrecked and lost everything, he is said to have walked up the beach, found the local gymnasium, and talked philosophy until he was fed and clothed.",
+      "His daughter Arete took over his teaching and passed it to her son, who gave it system. The Cyrenaics held that pleasure is a smooth motion and pain a rough one; that the present pleasure is the goal, since the past is gone and the future uncertain; that bodily pleasures are keener than mental ones; and that we can be sure only of our own experiences, never of the things that cause them. This last idea is one of the earliest forms of scepticism about the outside world.",
+      "The school ended oddly. One later member, Hegesias, reasoned from the same starting point that life contains more pain than pleasure and happiness is impossible. Another, Anniceris, softened the doctrine to make room for friendship, gratitude and love of country. Soon afterwards Epicurus offered a calmer hedonism of few desires and long tranquillity, and the Cyrenaics were absorbed.",
+      "The idea returned with force in modern times: in Bentham’s proposal to measure laws by the pleasure and pain they cause, in the aesthetes of the 1890s, and in present-day research on wellbeing. This Onda goes back to the source. It asks you to take real pleasures with full attention, to test who is master, to be at ease in any company and to let the day be enough."
+    ],
+    "origin": "Cyrene, a rich Greek city on the coast of what is now Libya, by way of Athens and Syracuse",
+    "era": "Aristippus lived from about 435 to 356 BCE. His school lasted about a century and a half",
+    "figures": [
+      {
+        "name": "Aristippus of Cyrene",
+        "dates": "about 435 to 356 BCE",
+        "bio": "Companion of Socrates and the first of his circle to teach for money. Known for luxury, wit and an unshakeable good temper."
+      },
+      {
+        "name": "Arete of Cyrene",
+        "dates": "4th century BCE",
+        "bio": "His daughter and successor. She is said to have taught for thirty-five years. Nothing she wrote survives."
+      },
+      {
+        "name": "Aristippus the Younger",
+        "dates": "4th century BCE",
+        "bio": "Her son, called the Mother-taught. He probably gave the school’s doctrine its systematic form."
+      },
+      {
+        "name": "Lais of Corinth",
+        "dates": "active about 400 BCE",
+        "bio": "The most sought-after courtesan in Greece. She was Aristippus’s companion for part of each year."
+      },
+      {
+        "name": "Dionysius I of Syracuse",
+        "dates": "about 432 to 367 BCE",
+        "bio": "The tyrant at whose court Aristippus lived as a guest and licensed jester. Some of the stories may belong to his son, Dionysius II."
+      },
+      {
+        "name": "Theodorus the Atheist",
+        "dates": "about 340 to 250 BCE",
+        "bio": "A Cyrenaic who denied the gods, was tried at Athens and served as an envoy for the first Ptolemy. He made joy and grief of the mind the ends, in place of bodily pleasure."
+      },
+      {
+        "name": "Hegesias of Cyrene",
+        "dates": "active about 290 BCE",
+        "bio": "The pessimist of the school. Cicero reports that King Ptolemy forbade him to lecture in Alexandria because listeners were taking their own lives."
+      },
+      {
+        "name": "Anniceris of Cyrene",
+        "dates": "active about 300 BCE",
+        "bio": "He restored friendship, family and gratitude to the doctrine, holding that we should share a friend’s pain even at a cost in pleasure."
+      },
+      {
+        "name": "Jeremy Bentham",
+        "dates": "1748 to 1832",
+        "bio": "English reformer who founded utilitarianism on the measurement of pleasure and pain, and applied it to prisons, law and the treatment of animals."
+      },
+      {
+        "name": "Walter Pater",
+        "dates": "1839 to 1894",
+        "bio": "Oxford critic whose call to burn with a hard, gem-like flame made him the unwilling prophet of the aesthetic movement. He later described a new Cyrenaicism in fiction."
+      }
+    ],
+    "history": [
+      {
+        "when": "about 631 BCE",
+        "what": "Cyrene is founded",
+        "detail": "Settlers from the island of Thera, driven out by drought, establish a city near a spring on the Libyan plateau. It grows rich on grain, horses and silphium."
+      },
+      {
+        "when": "about 435 BCE",
+        "what": "Birth of Aristippus",
+        "detail": "Into a prosperous family. As a young man he sails to Athens to join the circle of Socrates."
+      },
+      {
+        "when": "399 BCE",
+        "what": "The death of Socrates",
+        "detail": "Aristippus is not present. Plato notes in the Phaedo that he was said to be on Aegina."
+      },
+      {
+        "when": "early 4th century BCE",
+        "what": "At Syracuse",
+        "detail": "He lives for long periods at the tyrant’s court, alongside Plato and other visiting philosophers, and becomes the hero of dozens of anecdotes."
+      },
+      {
+        "when": "about 356 BCE",
+        "what": "Arete heads the school",
+        "detail": "After her father’s death she teaches in Cyrene and educates her son."
+      },
+      {
+        "when": "about 300 BCE",
+        "what": "Three branches",
+        "detail": "The followers of Hegesias, Anniceris and Theodorus each take the doctrine in a different direction."
+      },
+      {
+        "when": "3rd century BCE",
+        "what": "Eclipse",
+        "detail": "Epicureanism, founded in 306 BCE, takes over the hedonist position. The Cyrenaic school is extinct by about 250 BCE."
+      },
+      {
+        "when": "96 BCE",
+        "what": "Cyrene becomes Roman",
+        "detail": "The last Greek king leaves the territory to Rome in his will."
+      },
+      {
+        "when": "1st century CE",
+        "what": "The end of silphium",
+        "detail": "Pliny writes that only a single stalk had been found within living memory, and that it was sent to the emperor Nero."
+      },
+      {
+        "when": "3rd century CE",
+        "what": "Diogenes Laertius",
+        "detail": "His Lives preserves the anecdotes and the summary of doctrine on which almost all later knowledge depends."
+      },
+      {
+        "when": "1789",
+        "what": "Bentham’s Principles",
+        "detail": "He proposes a calculus of pleasures by intensity, duration, certainty and extent, as the basis of morals and legislation."
+      },
+      {
+        "when": "1873 to 1890",
+        "what": "The new hedonism",
+        "detail": "Pater’s Renaissance and Wilde’s Dorian Gray make the pursuit of exquisite experience a public scandal and a movement."
+      },
+      {
+        "when": "1974",
+        "what": "The experience machine",
+        "detail": "The philosopher Robert Nozick proposes his thought experiment in Anarchy, State, and Utopia as an argument that pleasure is not all we value."
+      }
+    ],
+    "concepts": [
+      {
+        "term": "Pleasure as the end",
+        "text": "The good is what is felt as good.",
+        "detail": "Particular pleasures are wanted for themselves. Happiness, the total, is wanted only for the sake of the pleasures that make it up."
+      },
+      {
+        "term": "Smooth and rough motion",
+        "text": "A physical account.",
+        "detail": "Pleasure is a smooth movement of the flesh carried to the senses. Pain is a rough one. Between them is a neutral state that is neither."
+      },
+      {
+        "term": "The present",
+        "text": "The only time we have.",
+        "detail": "Pleasure is exhausted in the moment of its being felt. The memory of past goods and the expectation of future ones do not count as pleasure."
+      },
+      {
+        "term": "Mastery",
+        "text": "To have and not be had.",
+        "detail": "The Cyrenaic sage enjoys fully and is never captured. This is what separates the school from mere indulgence."
+      },
+      {
+        "term": "Knowledge of experiences only",
+        "text": "I am being whitened.",
+        "detail": "We have certain knowledge of how we are affected, and none of external objects. The Cyrenaics even coined verbs for it: I am sweetened, I am reddened."
+      },
+      {
+        "term": "The primacy of the body",
+        "text": "Stronger and surer.",
+        "detail": "Bodily pleasures are far better than those of the soul, and bodily pains far worse. Not every mental pleasure even depends on a bodily one."
+      },
+      {
+        "term": "Convention",
+        "text": "Just and unjust by custom.",
+        "detail": "Nothing is just, fine or base by nature. The sensible person nonetheless avoids wrongdoing because of the penalties and the bad name."
+      },
+      {
+        "term": "Hegesian indifference",
+        "text": "Happiness is impossible.",
+        "detail": "The body is full of suffering and fortune defeats our hopes. The wise aim only to live without pain and distress, and are indifferent between life and death."
+      },
+      {
+        "term": "The hedonic calculus",
+        "text": "Bentham’s measure.",
+        "detail": "A method for adding up the pleasures and pains an action will cause to everyone affected. The ancestor of modern cost-benefit thinking."
+      }
+    ],
+    "facts": [
+      {
+        "text": "Not one line written by any Cyrenaic survives. Everything known comes from later reporters, some of them hostile."
+      },
+      {
+        "text": "Aristippus is the first person recorded as saying that a philosopher is better off than other people because, if all laws were repealed, he would go on living as before."
+      },
+      {
+        "text": "The silphium trade was so central to Cyrene that the plant appears on nearly all its coins for three hundred years."
+      },
+      {
+        "text": "The heart shape may derive from the silphium seed pod as shown on Cyrenaic coins. This is a guess, though a popular one."
+      },
+      {
+        "text": "Bentham asked for his body to be preserved after death. It sits, dressed, in a cabinet at University College London."
+      },
+      {
+        "text": "Psychologists use the phrase hedonic treadmill for the way people return to the same level of contentment after gains and losses."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Socratic",
+        "meaning": "A member of the circle of Socrates, or a school descended from one"
+      },
+      {
+        "term": "Drachma",
+        "meaning": "A silver coin, roughly a day’s wage for a skilled worker"
+      },
+      {
+        "term": "Tyrant",
+        "meaning": "A sole ruler who has seized power, good or bad"
+      },
+      {
+        "term": "Utilitarianism",
+        "meaning": "The view that the right act is the one that produces the most happiness overall"
+      },
+      {
+        "term": "Aestheticism",
+        "meaning": "The nineteenth-century movement that put beauty and experience above moral purpose"
+      },
+      {
+        "term": "Hedonic adaptation",
+        "meaning": "Getting used to a pleasure so that it no longer pleases"
+      }
+    ],
+    "furtherReading": [
+      {
+        "title": "The Cyrenaics",
+        "creator": "Ugo Zilioli",
+        "year": "2012",
+        "note": "A short study that takes their theory of knowledge seriously."
+      },
+      {
+        "title": "Pleasure and the Good Life",
+        "creator": "Fred Feldman",
+        "year": "2004",
+        "note": "A modern philosopher defends a carefully revised hedonism."
+      },
+      {
+        "title": "The Art of Happiness: An Introduction to Hedonism",
+        "creator": "Michel Onfray",
+        "year": "1991; in French",
+        "note": "A contemporary French philosopher’s case for a materialist ethics of pleasure, tracing it from Aristippus."
+      },
+      {
+        "title": "Stumbling on Happiness",
+        "creator": "Daniel Gilbert",
+        "year": "2006",
+        "note": "A psychologist on why we are so bad at predicting what will please us. It makes the Cyrenaic distrust of the future look sensible."
+      }
+    ],
+    "learnFrom": [
+      {
+        "name": "Perseus Digital Library",
+        "note": "Diogenes Laertius and Xenophon in Greek and English, free.",
+        "link": "https://www.perseus.tufts.edu"
+      },
+      {
+        "name": "Internet Encyclopedia of Philosophy",
+        "note": "Peer-reviewed articles on the Cyrenaics and on Aristippus.",
+        "link": "https://iep.utm.edu/cyren/"
+      },
+      {
+        "name": "A very good cook",
+        "note": "Someone who can teach you to taste. Attention to pleasure is a skill, and it is learned from people who have it."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Lives of Eminent Philosophers, book 2",
+        "creator": "Diogenes Laertius, trans. R. D. Hicks",
+        "publisher": "Loeb Classical Library",
+        "year": "1925"
+      },
+      {
+        "title": "The Birth of Hedonism: The Cyrenaic Philosophers and Pleasure as a Way of Life",
+        "creator": "Kurt Lampe",
+        "publisher": "Princeton University Press",
+        "year": "2015"
+      },
+      {
+        "title": "The Epistemology of the Cyrenaic School",
+        "creator": "Voula Tsouna",
+        "publisher": "Cambridge University Press",
+        "year": "1998"
+      },
+      {
+        "title": "The Cyrenaics",
+        "creator": "Ugo Zilioli",
+        "publisher": "Acumen",
+        "year": "2012"
+      },
+      {
+        "title": "Memorabilia",
+        "creator": "Xenophon, trans. E. C. Marchant",
+        "publisher": "Loeb Classical Library",
+        "year": "1923"
+      },
+      {
+        "title": "An Introduction to the Principles of Morals and Legislation",
+        "creator": "Jeremy Bentham",
+        "publisher": "T. Payne and Son",
+        "year": "1789"
+      }
+    ]
+  },
+  "sensitivity": {
+    "note": "Hedonism here means the Cyrenaic discipline of enjoying fully while staying free. It is not a licence for excess. The practices ask for attention and self-command, and none of them requires alcohol or expense.",
+    "requiredCaveats": [
+      "If a pleasure has become a dependence, the mastery exercises are no substitute for proper help.",
+      "The pessimism of Hegesias is reported here as history. If you are in distress, speak to someone you trust or to a helpline.",
+      "Aristippus lived at the expense of tyrants and in a society that kept slaves. His ease had a price that others paid."
+    ],
+    "reviewRequired": false
+  }
+}

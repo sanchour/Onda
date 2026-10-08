@@ -1,0 +1,1212 @@
+{
+  "version": 1,
+  "id": "epicurus",
+  "name": "Epicureanism",
+  "origin": "Greece",
+  "era": "From 306 BCE to the 3rd century CE, and revived since",
+  "tone": "green",
+  "icon": "plant",
+  "font": "alegreya",
+  "pattern": "garden-vines",
+  "glyph": "κῆπος",
+  "line": "Want little, fear nothing and keep your friends close.",
+  "quote": {
+    "text": "Death is nothing to us.",
+    "by": "Epicurus",
+    "source": "Principal Doctrines 2, in Diogenes Laertius, Lives of Eminent Philosophers 10.139, trans. R. D. Hicks"
+  },
+  "quotes": [
+    {
+      "text": "Of all the means which are procured by wisdom to ensure happiness throughout the whole of life, by far the most important is the acquisition of friends.",
+      "by": "Epicurus",
+      "source": "Principal Doctrines 27, in Diogenes Laertius 10.148, trans. R. D. Hicks"
+    },
+    {
+      "text": "It is impossible to live a pleasant life without living wisely and well and justly, and it is impossible to live wisely and well and justly without living pleasantly.",
+      "by": "Epicurus",
+      "source": "Principal Doctrines 5, in Diogenes Laertius 10.140, trans. R. D. Hicks"
+    },
+    {
+      "text": "Let no one be slow to seek wisdom when he is young nor weary in the search thereof when he is grown old.",
+      "by": "Epicurus",
+      "source": "Letter to Menoeceus, in Diogenes Laertius 10.122, trans. R. D. Hicks"
+    },
+    {
+      "text": "Send me a little pot of cheese, that, when I like, I may fare sumptuously.",
+      "by": "Epicurus",
+      "source": "From a letter, quoted in Diogenes Laertius 10.11, trans. R. D. Hicks"
+    },
+    {
+      "text": "Nothing is sufficient for him to whom what is sufficient seems little.",
+      "by": "Epicurus",
+      "source": "Vatican Sayings 68, trans. Cyril Bailey, 1926"
+    },
+    {
+      "text": "I too am an Epicurean.",
+      "by": "Thomas Jefferson",
+      "source": "Letter to William Short, 31 October 1819"
+    }
+  ],
+  "words": [
+    {
+      "id": "word-kepos",
+      "term": "Kepos",
+      "meaning": "The Garden",
+      "pronunciation": "KAY-pos",
+      "language": "Ancient Greek",
+      "usage": "The house and garden outside Athens where Epicurus and his friends lived. The school took its name from it."
+    },
+    {
+      "id": "word-hedone",
+      "term": "Hedone",
+      "meaning": "Pleasure",
+      "pronunciation": "hay-do-NAY",
+      "language": "Ancient Greek",
+      "usage": "The goal of life. Epicurus means chiefly the absence of pain in the body and of trouble in the mind."
+    },
+    {
+      "id": "word-ataraxia",
+      "term": "Ataraxia",
+      "meaning": "Freedom from disturbance",
+      "pronunciation": "a-ta-rak-SEE-a",
+      "language": "Ancient Greek",
+      "usage": "A mind without fear or anxious desire. The highest mental pleasure."
+    },
+    {
+      "id": "word-aponia",
+      "term": "Aponia",
+      "meaning": "Freedom from bodily pain",
+      "pronunciation": "a-po-NEE-a",
+      "language": "Ancient Greek",
+      "usage": "Not hungry, not thirsty, not cold. Once you have this, bodily pleasure can be varied but not increased."
+    },
+    {
+      "id": "word-galene",
+      "term": "Galene",
+      "meaning": "Calm sea",
+      "pronunciation": "ga-LAY-nay",
+      "language": "Ancient Greek",
+      "usage": "The image Epicurus uses for a settled mind: water with no wind on it."
+    },
+    {
+      "id": "word-tarache",
+      "term": "Tarache",
+      "meaning": "Disturbance",
+      "pronunciation": "ta-ra-KHAY",
+      "language": "Ancient Greek",
+      "usage": "The storm in the soul that comes from fear and empty desire. The opposite of ataraxia."
+    },
+    {
+      "id": "word-philia",
+      "term": "Philia",
+      "meaning": "Friendship",
+      "pronunciation": "fi-LEE-a",
+      "language": "Ancient Greek",
+      "usage": "The greatest means to a happy life. It begins from mutual help and becomes loved for itself."
+    },
+    {
+      "id": "word-phronesis",
+      "term": "Phronesis",
+      "meaning": "Practical wisdom",
+      "pronunciation": "FRO-nay-sis",
+      "language": "Ancient Greek",
+      "usage": "The sober reckoning of what each choice will bring in pleasure and pain. Epicurus rates it above philosophy itself."
+    },
+    {
+      "id": "word-autarkeia",
+      "term": "Autarkeia",
+      "meaning": "Self-sufficiency",
+      "pronunciation": "ow-TAR-kay-a",
+      "language": "Ancient Greek",
+      "usage": "Being content with little, so that plenty is a bonus and scarcity no disaster."
+    },
+    {
+      "id": "word-tetrapharmakos",
+      "term": "Tetrapharmakos",
+      "meaning": "The fourfold remedy",
+      "pronunciation": "tet-ra-FAR-ma-kos",
+      "language": "Ancient Greek",
+      "usage": "The teaching in four lines: do not fear god, do not worry about death, what is good is easy to get, what is terrible is easy to endure."
+    },
+    {
+      "id": "word-atomos",
+      "term": "Atomos",
+      "meaning": "Uncuttable; an atom",
+      "pronunciation": "A-to-mos",
+      "language": "Ancient Greek",
+      "usage": "The smallest bodies, solid and eternal, from which everything is made."
+    },
+    {
+      "id": "word-kenon",
+      "term": "Kenon",
+      "meaning": "The void",
+      "pronunciation": "ken-ON",
+      "language": "Ancient Greek",
+      "usage": "Empty space, in which atoms move. Atoms and void are all there is."
+    },
+    {
+      "id": "word-parenklisis",
+      "term": "Parenklisis",
+      "meaning": "The swerve",
+      "pronunciation": "pa-REN-kli-sis",
+      "language": "Ancient Greek",
+      "usage": "A tiny unpredictable shift in the path of an atom. Lucretius calls it the clinamen. It lets worlds form and leaves room for free will."
+    },
+    {
+      "id": "word-physiologia",
+      "term": "Physiologia",
+      "meaning": "The study of nature",
+      "pronunciation": "foo-see-o-lo-GEE-a",
+      "language": "Ancient Greek",
+      "usage": "Understanding how the world works, undertaken to cure fear of the gods and of death."
+    },
+    {
+      "id": "word-kanon",
+      "term": "Kanon",
+      "meaning": "The measuring rod",
+      "pronunciation": "ka-NOHN",
+      "language": "Ancient Greek",
+      "usage": "The Epicurean theory of knowledge: the tests by which we tell true from false."
+    },
+    {
+      "id": "word-aisthesis",
+      "term": "Aisthesis",
+      "meaning": "Sensation",
+      "pronunciation": "ICE-thay-sis",
+      "language": "Ancient Greek",
+      "usage": "The first test of truth. The senses do not lie. Error comes in with the opinions we add."
+    },
+    {
+      "id": "word-prolepsis",
+      "term": "Prolepsis",
+      "meaning": "Preconception",
+      "pronunciation": "PRO-lep-sis",
+      "language": "Ancient Greek",
+      "usage": "The general notion of a thing built up from many experiences, which lets us recognise the next one."
+    },
+    {
+      "id": "word-pathos",
+      "term": "Pathos",
+      "meaning": "Feeling",
+      "pronunciation": "PA-thos",
+      "language": "Ancient Greek",
+      "usage": "Pleasure and pain. They are nature’s own signals of what to choose and what to avoid."
+    },
+    {
+      "id": "word-kenodoxia",
+      "term": "Kenodoxia",
+      "meaning": "Empty opinion",
+      "pronunciation": "ken-o-dok-SEE-a",
+      "language": "Ancient Greek",
+      "usage": "False belief about what one needs. The source of desires that can never be filled."
+    },
+    {
+      "id": "word-kyriai-doxai",
+      "term": "Kyriai Doxai",
+      "meaning": "The Principal Doctrines",
+      "pronunciation": "KOO-ree-eye DOK-sigh",
+      "language": "Ancient Greek",
+      "usage": "Forty short sayings that members of the school learned by heart."
+    },
+    {
+      "id": "word-lathe-biosas",
+      "term": "Lathe biosas",
+      "meaning": "Live unnoticed",
+      "pronunciation": "LA-thay bee-OH-sas",
+      "language": "Ancient Greek",
+      "usage": "The advice to stay out of politics and the pursuit of fame."
+    },
+    {
+      "id": "word-parrhesia",
+      "term": "Parrhesia",
+      "meaning": "Frank speech",
+      "pronunciation": "par-ray-SEE-a",
+      "language": "Ancient Greek",
+      "usage": "Honest criticism between friends, given kindly. The Epicurean Philodemus wrote a handbook on it."
+    },
+    {
+      "id": "word-eikas",
+      "term": "Eikas",
+      "meaning": "The twentieth",
+      "pronunciation": "ay-KAS",
+      "language": "Ancient Greek",
+      "usage": "The monthly feast of the school, held on the twentieth day in memory of Epicurus and Metrodorus."
+    },
+    {
+      "id": "word-makarios",
+      "term": "Makarios",
+      "meaning": "Blessed",
+      "pronunciation": "ma-KA-ree-os",
+      "language": "Ancient Greek",
+      "usage": "The state of the gods, who are untroubled and trouble no one. The wise person lives like a god among mortals."
+    },
+    {
+      "id": "word-sophos",
+      "term": "Sophos",
+      "meaning": "The wise person",
+      "pronunciation": "so-FOS",
+      "language": "Ancient Greek",
+      "usage": "The Epicurean sage, who will be happy even on the rack, will marry only in some circumstances and will not make fine speeches."
+    },
+    {
+      "id": "word-epilogismos",
+      "term": "Epilogismos",
+      "meaning": "Reckoning; appraisal",
+      "pronunciation": "e-pi-lo-gis-MOS",
+      "language": "Ancient Greek",
+      "usage": "Thinking a choice through by comparing its pleasures and pains over the long run."
+    },
+    {
+      "id": "word-metakosmia",
+      "term": "Metakosmia",
+      "meaning": "The spaces between worlds",
+      "pronunciation": "me-ta-KOS-mee-a",
+      "language": "Ancient Greek",
+      "usage": "Where the gods live, far from us and without concern for us."
+    },
+    {
+      "id": "word-meteora",
+      "term": "Meteora",
+      "meaning": "Things in the sky",
+      "pronunciation": "me-TEH-o-ra",
+      "language": "Ancient Greek",
+      "usage": "Thunder, eclipses, comets. Epicurus offers several natural explanations for each, since any of them removes the fear."
+    },
+    {
+      "id": "word-voluptas",
+      "term": "Voluptas",
+      "meaning": "Pleasure",
+      "pronunciation": "wo-LUP-tas",
+      "language": "Latin",
+      "usage": "The word Lucretius uses. His poem opens by calling Venus the pleasure of gods and men."
+    },
+    {
+      "id": "word-clinamen",
+      "term": "Clinamen",
+      "meaning": "The swerve",
+      "pronunciation": "KLEE-na-men",
+      "language": "Latin",
+      "usage": "Lucretius’s name for the atomic deviation, in the second book of On the Nature of Things."
+    }
+  ],
+  "practices": [
+    {
+      "id": "fourfold-remedy",
+      "name": "The fourfold remedy",
+      "icon": "leaf",
+      "slot": "Morning",
+      "time": "07:30",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Say the four lines aloud slowly, and after each one stop and test it against whatever is on your mind this morning. Nothing to fear from the gods. Nothing to feel in death. What is good is easy to get. What is terrible is easy to endure. For the third line, name what you actually need today. For the fourth, recall a pain you once dreaded and came through.",
+      "why": "The tetrapharmakos is a four-line summary of the first four Principal Doctrines, found on a papyrus from Herculaneum. Epicureans kept such summaries by heart so that the cure was at hand when fear arrived.",
+      "variations": [
+        "Write the four lines where you will see them.",
+        "Take one line a day and stay with it for ten minutes.",
+        "Read Principal Doctrines 1 to 4 in full."
+      ]
+    },
+    {
+      "id": "sort-desires",
+      "name": "Sort your desires",
+      "icon": "scales",
+      "slot": "Morning",
+      "time": "09:30",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Write down everything you want today, large and small. Put each in one of three columns. Natural and necessary: food, water, warmth, safety, friends, a clear mind. Natural but not necessary: the tastier meal, the nicer room. Empty: fame, status, more money than you can use, anything with no limit. Then act on the first column, enjoy the second if it comes easily, and cross out one item in the third.",
+      "why": "The Letter to Menoeceus divides desires this way. The necessary ones are few and easily met. The empty ones rest on false belief and grow with feeding, which is why they cause most human misery.",
+      "variations": [
+        "Do it for a purchase you are considering.",
+        "Ask of one empty desire: what will happen to me if this is satisfied, and what if it is not?",
+        "Go a day buying nothing but food."
+      ]
+    },
+    {
+      "id": "plain-meal",
+      "name": "Bread, water and a friend",
+      "icon": "bread",
+      "slot": "Afternoon",
+      "time": "13:00",
+      "minutes": 30,
+      "meta": "Afternoon · 30 min",
+      "instructions": "Make the simplest meal you can enjoy: good bread, water, perhaps olives, a piece of cheese or a bowl of lentils. Do not eat it alone. Sit with a friend, outside if possible, with no phones on the table. Eat slowly enough to notice when hunger ends, and stop there. Spend the rest of the time talking.",
+      "why": "Epicurus lived mainly on bread and water and called a pot of cheese a feast. He also said that one should look for someone to eat with before looking for something to eat, since dining alone is the life of a lion or a wolf.",
+      "variations": [
+        "Eat when truly hungry and notice how plain food tastes.",
+        "Invite someone you have not seen for a long time.",
+        "Hold a feast on the twentieth of the month."
+      ]
+    },
+    {
+      "id": "study-nature",
+      "name": "Study nature",
+      "icon": "atom",
+      "slot": "Afternoon",
+      "time": "16:30",
+      "minutes": 20,
+      "meta": "Afternoon · 20 min",
+      "instructions": "Pick one thing in the natural world that you do not understand or that vaguely frightens you: lightning, an illness, the size of the universe, what happens to a body after death. Spend twenty minutes learning how it actually works from a sound source. Then explain it in five plain sentences. If you have a garden or a pot, do some of your thinking with your hands in the soil.",
+      "why": "Epicurus said that if we were not troubled by fears about the sky and about death we would have no need of natural science. Its whole purpose is peace of mind. Lucretius wrote six books of physics for the same reason.",
+      "variations": [
+        "Read fifty lines of Lucretius.",
+        "Watch the night sky and consider that the atoms in you are as old as it is.",
+        "Grow one thing you can eat."
+      ]
+    },
+    {
+      "id": "remember-pleasures",
+      "name": "Remember past pleasures",
+      "icon": "heart",
+      "slot": "Evening",
+      "time": "21:30",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Before sleep, bring back three good things. One from today, one from this year, one from long ago. Take each slowly: who was there, what was said, how it felt in the body. Let the pleasure come again. Then give thanks for it as something that has happened and cannot now be taken away.",
+      "why": "Epicurus taught that the mind can draw on pleasures past and to come, and so outweigh present pain. On his last day, in agony from kidney stones, he wrote to a friend that the joy of remembering their conversations stood against all of it.",
+      "variations": [
+        "Write one of the three to the friend who was in it.",
+        "Recall a past pain that has completely gone.",
+        "Tell someone a happy memory that includes them."
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task-read-the-letter-to-menoeceus",
+      "name": "Read the Letter to Menoeceus",
+      "meta": "Read · 15 min",
+      "time": "20:00",
+      "slot": "Evening",
+      "action": "read"
+    },
+    {
+      "id": "task-eat-a-meal-of-bread-cheese-olives-and-water",
+      "name": "Eat a meal of bread, cheese, olives and water",
+      "meta": "Eat · a little pot of cheese",
+      "time": "12:30",
+      "slot": "Afternoon",
+      "action": "eat"
+    },
+    {
+      "id": "task-watch-epicurus-on-happiness",
+      "name": "Watch Epicurus on Happiness",
+      "meta": "Watch · 24 min",
+      "time": "20:30",
+      "slot": "Evening",
+      "action": "watch"
+    },
+    {
+      "id": "task-listen-to-the-seikilos-song",
+      "name": "Listen to the Seikilos song",
+      "meta": "Listen · 2 min, the oldest complete song",
+      "time": "08:00",
+      "slot": "Morning",
+      "action": "listen"
+    },
+    {
+      "id": "task-journal-which-of-today-s-desires-were-empty",
+      "name": "Journal: which of today’s desires were empty?",
+      "meta": "Journal · 10 min",
+      "time": "21:00",
+      "slot": "Evening",
+      "action": "journal"
+    },
+    {
+      "id": "task-death-is-nothing-to-us-sit-with-the-argument",
+      "name": "Death is nothing to us: sit with the argument",
+      "meta": "Philosophy · 10 min",
+      "time": "07:00",
+      "slot": "Morning",
+      "action": "philosophy"
+    },
+    {
+      "id": "spend-an-unhurried-hour-with-a-friend",
+      "name": "Spend an unhurried hour with a friend",
+      "meta": "Philia",
+      "time": "17:00",
+      "slot": "Afternoon"
+    },
+    {
+      "id": "turn-down-one-chance-to-be-noticed",
+      "name": "Turn down one chance to be noticed",
+      "meta": "Live unnoticed",
+      "time": "11:00",
+      "slot": "Morning"
+    },
+    {
+      "id": "tell-a-friend-one-honest-thing-kindly",
+      "name": "Tell a friend one honest thing, kindly",
+      "meta": "Frank speech",
+      "time": "15:00",
+      "slot": "Afternoon"
+    }
+  ],
+  "rules": [
+    {
+      "id": "r1",
+      "text": "Want what is easy to get",
+      "why": "Meet your natural needs and let go of desires that have no limit."
+    },
+    {
+      "id": "r2",
+      "text": "Do not eat alone",
+      "why": "Find the company first and the food second."
+    },
+    {
+      "id": "r3",
+      "text": "Stay out of the race",
+      "why": "Avoid the pursuit of fame, office and wealth. They cost more peace than they buy."
+    },
+    {
+      "id": "r4",
+      "text": "Weigh every pleasure",
+      "why": "Ask what it will cost later. Refuse the pleasure that brings more pain, and accept the pain that brings more pleasure."
+    },
+    {
+      "id": "r5",
+      "text": "Fear neither gods nor death",
+      "why": "Where death is, you are not. Nothing in nature is out to punish you."
+    },
+    {
+      "id": "r6",
+      "text": "Be grateful for what has been",
+      "why": "A good thing that has happened is yours for ever. Remember it."
+    }
+  ],
+  "immerse": {
+    "read": [
+      {
+        "id": "read-letter-to-menoeceus",
+        "title": "Letter to Menoeceus",
+        "creator": "Epicurus",
+        "year": "about 300 BCE",
+        "why": "His whole ethics in a few pages: the gods, death, desire, pleasure and prudence. Preserved by Diogenes Laertius."
+      },
+      {
+        "id": "read-principal-doctrines",
+        "title": "Principal Doctrines",
+        "creator": "Epicurus",
+        "year": "about 300 BCE",
+        "why": "Forty sayings for memorising. The first four are the fourfold remedy."
+      },
+      {
+        "id": "read-on-the-nature-of-things",
+        "title": "On the Nature of Things",
+        "creator": "Lucretius, trans. A. E. Stallings or Martin Ferguson Smith",
+        "year": "about 55 BCE",
+        "why": "A Roman poet sets Epicurean physics to verse to free his reader from the fear of death. One of the great poems in Latin."
+      },
+      {
+        "id": "read-the-swerve-how-the-world-became-modern",
+        "title": "The Swerve: How the World Became Modern",
+        "creator": "Stephen Greenblatt",
+        "year": "2011",
+        "why": "The finding of the last copy of Lucretius in a German monastery in 1417, told as a detective story."
+      },
+      {
+        "id": "read-travels-with-epicurus",
+        "title": "Travels with Epicurus",
+        "creator": "Daniel Klein",
+        "year": "2012",
+        "why": "A man in his seventies takes a suitcase of philosophy books to a Greek island to work out how to grow old."
+      },
+      {
+        "id": "read-how-to-be-an-epicurean",
+        "title": "How to Be an Epicurean",
+        "creator": "Catherine Wilson",
+        "year": "2019",
+        "why": "A historian of philosophy argues that this is the ancient school best suited to modern life."
+      }
+    ],
+    "watch": [
+      {
+        "id": "watch-epicurus-on-happiness",
+        "title": "Epicurus on Happiness",
+        "creator": "Alain de Botton, in Philosophy: A Guide to Happiness",
+        "year": "2000",
+        "why": "A short television film on friends, freedom and thought as the three things Epicurus said we need."
+      },
+      {
+        "id": "watch-babette-s-feast",
+        "title": "Babette’s Feast",
+        "creator": "Gabriel Axel",
+        "year": "1987",
+        "why": "A cook spends all she has on one dinner for a stern village. A film about what a shared table can do."
+      },
+      {
+        "id": "watch-perfect-days",
+        "title": "Perfect Days",
+        "creator": "Wim Wenders",
+        "year": "2023",
+        "why": "A Tokyo toilet cleaner lives on little and enjoys trees, cassettes and paperbacks. Ataraxia without the word."
+      }
+    ],
+    "listen": [
+      {
+        "id": "listen-the-seikilos-epitaph",
+        "title": "The Seikilos epitaph",
+        "creator": "Seikilos; many recordings",
+        "year": "1st or 2nd century CE",
+        "why": "The oldest complete piece of music, carved on a tombstone in Asia Minor. Its words say to shine while you live, since life is short."
+      },
+      {
+        "id": "listen-epicureanism",
+        "title": "Epicureanism",
+        "creator": "In Our Time, BBC Radio 4",
+        "year": "2013",
+        "why": "Three scholars on the Garden, the atoms and the reputation."
+      },
+      {
+        "id": "listen-history-of-philosophy-without-any-gaps-episodes-55-to-59",
+        "title": "History of Philosophy Without Any Gaps, episodes 55 to 59",
+        "creator": "Peter Adamson",
+        "year": "2011",
+        "why": "Five short, clear episodes on Epicurus and Lucretius."
+      },
+      {
+        "id": "listen-de-rerum-natura-read-in-latin",
+        "title": "De Rerum Natura read in Latin",
+        "creator": "Many readers; recordings from the Society for the Oral Reading of Greek and Latin Literature",
+        "year": "about 55 BCE",
+        "why": "Hear how the hexameters move, even without the language."
+      }
+    ],
+    "art": [
+      {
+        "id": "art-portrait-head-of-epicurus",
+        "title": "Portrait head of Epicurus",
+        "creator": "Roman copies of a Greek original of about 270 BCE",
+        "year": "1st to 2nd century CE",
+        "why": "A long, lined, serious face. Copies are in the Metropolitan Museum, the British Museum and the Capitoline. Followers kept his image on rings and cups."
+      },
+      {
+        "id": "art-the-boscoreale-skeleton-cups",
+        "title": "The Boscoreale skeleton cups",
+        "creator": "Roman silversmiths",
+        "year": "1st century CE",
+        "why": "Two silver cups in the Louvre on which skeletons labelled Epicurus and Zeno debate. An inscription beside Epicurus reads: pleasure is the goal."
+      },
+      {
+        "id": "art-the-bronzes-of-the-villa-of-the-papyri",
+        "title": "The bronzes of the Villa of the Papyri",
+        "creator": "From Herculaneum",
+        "year": "1st century BCE",
+        "why": "Runners, dancers and busts of philosophers from the villa whose library was Epicurean. In the National Archaeological Museum, Naples."
+      },
+      {
+        "id": "art-the-inscription-of-diogenes-of-oenoanda",
+        "title": "The inscription of Diogenes of Oenoanda",
+        "creator": "Oenoanda, Lycia",
+        "year": "2nd century CE",
+        "why": "An old man had Epicurean teaching carved on a public wall some eighty metres long, as a gift to passers-by. Fragments are still being found."
+      }
+    ],
+    "eat": [
+      {
+        "id": "eat-barley-bread",
+        "title": "Barley bread",
+        "creator": "With water",
+        "why": "His daily food. He said bread and water give the highest pleasure when brought to someone hungry."
+      },
+      {
+        "id": "eat-a-little-pot-of-cheese",
+        "title": "A little pot of cheese",
+        "creator": "Sheep or goat cheese kept in brine",
+        "why": "What he asked a friend to send, so that he could feast when he liked."
+      },
+      {
+        "id": "eat-lentils-and-beans",
+        "title": "Lentils and beans",
+        "creator": "Boiled, with oil and salt",
+        "why": "During a siege of Athens he is said to have kept the school alive by counting out beans to each member."
+      },
+      {
+        "id": "eat-figs-olives-and-garden-greens",
+        "title": "Figs, olives and garden greens",
+        "creator": "Whatever the plot gives",
+        "why": "The Garden grew its own vegetables. The school was probably the first in Athens to do so inside the city."
+      }
+    ],
+    "drink": [
+      {
+        "id": "drink-water",
+        "title": "Water",
+        "creator": "From the spring",
+        "why": "The usual drink of the Garden. Thirst met with water is a complete pleasure."
+      },
+      {
+        "id": "drink-half-a-pint-of-thin-wine",
+        "title": "Half a pint of thin wine",
+        "creator": "Well watered",
+        "why": "Diogenes Laertius says the friends were content with this much, and otherwise drank water."
+      },
+      {
+        "id": "drink-wine-at-the-twentieth",
+        "title": "Wine at the Twentieth",
+        "creator": "Shared at the monthly feast",
+        "why": "The feast day was the one occasion for something better than the daily fare."
+      }
+    ],
+    "customs": [
+      {
+        "id": "customs-the-feast-of-the-twentieth",
+        "title": "The feast of the Twentieth",
+        "creator": "Monthly",
+        "why": "On the twentieth of each month the school dined together in memory of the founder and his friend Metrodorus, as his will directed."
+      },
+      {
+        "id": "customs-a-school-open-to-all",
+        "title": "A school open to all",
+        "creator": "Women and slaves as members",
+        "why": "The Garden admitted women such as Leontion and Themista and slaves such as Mys. This was unheard of, and was used against it."
+      },
+      {
+        "id": "customs-learning-the-doctrines-by-heart",
+        "title": "Learning the doctrines by heart",
+        "creator": "Summaries and sayings",
+        "why": "Epicurus wrote short digests of his teaching so that students could carry it with them."
+      },
+      {
+        "id": "customs-portraits-of-the-master",
+        "title": "Portraits of the master",
+        "creator": "Rings, cups and busts",
+        "why": "Epicureans kept his likeness about them and asked themselves how he would see what they were doing."
+      }
+    ],
+    "games": [
+      {
+        "id": "games-pente-grammai",
+        "title": "Pente grammai",
+        "creator": "Board game · Greece",
+        "year": "from the 7th century BCE",
+        "why": "Five Lines. Two players race pieces along five lines by the throw of dice. The middle line was called the sacred line."
+      },
+      {
+        "id": "games-knucklebones",
+        "title": "Knucklebones",
+        "creator": "Game of skill and chance · Greece",
+        "year": "ancient",
+        "why": "Five sheep bones tossed and caught on the back of the hand. A game for a garden bench and two friends."
+      },
+      {
+        "id": "games-ball-play",
+        "title": "Ball play",
+        "creator": "Exercise · Greece and Rome",
+        "year": "ancient",
+        "why": "Catching games played in a circle were thought the best gentle exercise. A Roman doctor wrote a whole essay in praise of the small ball."
+      }
+    ],
+    "festivals": [
+      {
+        "id": "fest-eikas-the-twentieth",
+        "title": "Eikas, the Twentieth",
+        "creator": "The 20th day of every month",
+        "why": "A shared meal with friends, reading and talk. Modern Epicurean groups still keep it."
+      },
+      {
+        "id": "fest-the-birthday-of-epicurus",
+        "title": "The birthday of Epicurus",
+        "creator": "The 10th of Gamelion, in January or February",
+        "why": "His will left money for an annual gathering on the day."
+      },
+      {
+        "id": "fest-panhellenic-symposium-of-epicurean-philosophy",
+        "title": "Panhellenic Symposium of Epicurean Philosophy",
+        "creator": "February, at Pallini near Athens",
+        "why": "A free weekend of talks held every year since 2011 in the district where his family came from."
+      }
+    ],
+    "places": [
+      {
+        "id": "place-the-kerameikos",
+        "title": "The Kerameikos",
+        "creator": "Athens, Greece",
+        "why": "The ancient cemetery by the Dipylon gate. The Garden lay somewhere just outside it on the road to the Academy. Nothing is marked, but you can walk the road."
+      },
+      {
+        "id": "place-herculaneum-and-the-villa-of-the-papyri",
+        "title": "Herculaneum and the Villa of the Papyri",
+        "creator": "Ercolano, near Naples, Italy",
+        "why": "The town buried in 79 CE. The villa that held the only library to survive from antiquity is partly excavated at its edge."
+      },
+      {
+        "id": "place-national-archaeological-museum",
+        "title": "National Archaeological Museum",
+        "creator": "Naples, Italy",
+        "why": "The bronzes from the villa and some of the carbonised scrolls, most of them works by the Epicurean Philodemus."
+      },
+      {
+        "id": "place-the-getty-villa",
+        "title": "The Getty Villa",
+        "creator": "Pacific Palisades, California, United States",
+        "why": "A full-size reconstruction of the Villa of the Papyri, with its long pool and gardens. Free with a timed ticket."
+      },
+      {
+        "id": "place-samos",
+        "title": "Samos",
+        "creator": "North Aegean, Greece",
+        "why": "The island where Epicurus was born to Athenian settlers and grew up. Green, quiet and good for walking."
+      }
+    ]
+  },
+  "ethics": [
+    {
+      "title": "Prudence",
+      "text": "The beginning and the greatest good. From it come all the other virtues, because it shows that one cannot live pleasantly without living well.",
+      "practice": "Before one choice today, reckon its pleasures and pains a week out."
+    },
+    {
+      "title": "Friendship",
+      "text": "Friends give security and joy, and the wise will sometimes suffer and even die for a friend. Friendship dances round the world, says one saying, calling us to wake to happiness.",
+      "practice": "Do something for a friend today that they did not ask for."
+    },
+    {
+      "title": "Justice",
+      "text": "A pact neither to harm nor be harmed. Injustice is bad because the fear of being found out never leaves.",
+      "practice": "Is there anything you hope nobody finds out? Put it right."
+    },
+    {
+      "title": "Simplicity",
+      "text": "Those who need luxury least enjoy it most. Plain living is a training in freedom.",
+      "practice": "Go without one comfort today, and notice whether you are less happy."
+    },
+    {
+      "title": "Gratitude",
+      "text": "The ungrateful forget past goods and are always starting to live. The wise are thankful and do not grow old in spirit.",
+      "practice": "Thank one person for something from long ago."
+    },
+    {
+      "title": "Frankness",
+      "text": "A friend tells you the truth about your faults, gently and in private, and takes it in return.",
+      "practice": "Ask a friend what you most need to hear."
+    }
+  ],
+  "philosophy": [
+    {
+      "title": "Pleasure as the goal",
+      "text": "Every creature from birth seeks pleasure and avoids pain. That is nature’s guide. But the pleasure worth having is a body without pain and a mind without trouble.",
+      "practice": "Notice a moment today when nothing hurts and nothing is wanted. That is it."
+    },
+    {
+      "title": "The limit of pleasure",
+      "text": "Once pain is removed, pleasure cannot be increased. It can only be varied. Chasing more past that point is a mistake about arithmetic.",
+      "practice": "Stop eating at the moment hunger ends."
+    },
+    {
+      "title": "Death is nothing to us",
+      "text": "All good and evil lie in sensation, and death is the end of sensation. While we are, death is not. When death is, we are not.",
+      "practice": "Consider the time before you were born. Did it trouble you?"
+    },
+    {
+      "title": "The gods are no threat",
+      "text": "If there are gods they are perfectly blessed, and a blessed being has no anger and no favourites. Nature runs by itself.",
+      "practice": "Name one fear of punishment you carry that has no basis."
+    },
+    {
+      "title": "Atoms and void",
+      "text": "The world is bodies moving in space. Souls are made of fine atoms and scatter at death. Nothing comes from nothing, and nothing vanishes into nothing.",
+      "practice": "Look at an object and think about what it was a thousand years ago."
+    },
+    {
+      "title": "The swerve",
+      "text": "Atoms sometimes deviate without cause. So the future is not fixed, and our choices are our own.",
+      "practice": "Find one thing you assumed was fated and treat it as open."
+    },
+    {
+      "title": "The three kinds of desire",
+      "text": "Natural and necessary, natural and unnecessary, and empty. Most unhappiness comes from taking the third kind for the first.",
+      "practice": "Reclassify one thing you think you need."
+    },
+    {
+      "title": "Live unnoticed",
+      "text": "Public life brings rivalry, fear and dependence on the crowd. A small circle of friends in a garden is safer and sweeter.",
+      "practice": "Do one good thing today that nobody will ever know about."
+    }
+  ],
+  "journal": [
+    "Which of today’s desires were empty?",
+    "What did you actually need today, and did you have it?",
+    "When did nothing hurt and nothing lack?",
+    "Whom did you eat with?",
+    "What fear turned out to have nothing behind it?",
+    "What pleasure cost more than it gave?",
+    "What pain was worth bearing for what it brought?",
+    "What do you believe about death, and does it trouble you?",
+    "Which friend did you neglect?",
+    "What did you chase for the sake of being noticed?",
+    "What would be enough?",
+    "What old pleasure can you still taste?",
+    "What did you learn about how the world works?",
+    "Where were you greedy?",
+    "What are you afraid of losing that you could live without?",
+    "Who told you an honest thing, and how did you take it?",
+    "What disturbed your calm, and was it worth it?",
+    "What did you buy that you did not need?",
+    "What simple thing pleased you most?",
+    "Whose company makes you easy in yourself?",
+    "What are you postponing your happiness for?",
+    "What punishment do you secretly expect?",
+    "What did you do that you would not want known?",
+    "When did you stop at enough?",
+    "What have you had that can never be taken back?",
+    "What would you do if you had no reputation to keep?",
+    "How did you look after your body today?",
+    "What do you owe a friend?",
+    "What chance event are you glad of?",
+    "If today were complete, what would be missing?"
+  ],
+  "reflect": [
+    "Which desires have fallen away?",
+    "What did plain food and good company show you?",
+    "What are you less afraid of?",
+    "Who are the friends your happiness rests on?",
+    "What does enough look like now?",
+    "Which line of the remedy do you most need to keep?"
+  ],
+  "dayThemes": [
+    "The Garden",
+    "Pleasure",
+    "Nothing hurts",
+    "Calm sea",
+    "Three desires",
+    "Enough",
+    "Bread and water",
+    "A pot of cheese",
+    "Do not eat alone",
+    "Friends",
+    "The fourfold remedy",
+    "No fear of the gods",
+    "Death is nothing",
+    "Easy to get",
+    "Easy to endure",
+    "Atoms and void",
+    "The swerve",
+    "Study nature",
+    "The senses",
+    "Prudence",
+    "Weigh the cost",
+    "Live unnoticed",
+    "Frank speech",
+    "The pact",
+    "Gratitude",
+    "The Twentieth",
+    "Past pleasures",
+    "The last letter",
+    "Never too young, never too old",
+    "A god among mortals"
+  ],
+  "guide": {
+    "intro": [
+      "Epicurus was born in 341 BCE on the island of Samos, the son of an Athenian schoolmaster. He grew up in the unsettled years after the death of Alexander the Great, when the old city-states had lost their independence and ordinary people had little say in their own fate. He studied the atomism of Democritus, taught for some years on the coast of Asia Minor, and in 306 came to Athens with a group of friends and bought a house with a garden.",
+      "The community that lived there was unlike the other schools. It included women and slaves as full members. It took no part in politics. Its members studied, gardened, wrote to one another when apart and ate together, and its founder was loved in a way that struck outsiders as close to worship. Epicurus wrote some three hundred rolls. Three letters, two collections of sayings and some charred fragments survive.",
+      "His starting point is that pleasure is the good and pain the evil, as every infant and animal shows. This got him a reputation he did not deserve. The pleasure he meant is not the pleasure of banquets. It is the condition of a body that is not in pain and a mind that is not afraid, and it is easily reached. Hunger is cured by bread, thirst by water. What ruins human life is not lack of luxuries but two fears and one mistake: fear of the gods, fear of death, and the belief that we need things we do not need.",
+      "Against the fears he offered physics. The universe consists of atoms moving in empty space. Worlds form and dissolve by natural causes. The gods, if they exist, live in perfect peace and have nothing to do with us. The soul is made of atoms too and scatters when the body dies, so that death is simply the end of feeling and cannot be bad for the one who has died. Against the mistake he offered a sorting of desires into the necessary, the merely natural and the empty, with the advice to satisfy the first, enjoy the second and drop the third.",
+      "And he prized friendship above everything else that wisdom provides. A meal without a friend, he said, is the feeding of a lion or a wolf.",
+      "The school spread quickly. In Rome it produced Lucretius, whose poem On the Nature of Things is its fullest surviving statement. Christianity found its denial of providence and of an afterlife intolerable, and for a thousand years Epicurean meant glutton and atheist. The rediscovery of Lucretius in 1417, and later the scrolls dug out at Herculaneum, brought it back, and it fed into modern science and the modern idea that happiness in this life is a proper aim.",
+      "This Onda follows the Garden’s way: the four remedies in the morning, a sorting of desires, a plain meal with a friend, some study of nature, and a grateful look back at night."
+    ],
+    "origin": "Athens, in a house with a kitchen garden outside the Dipylon gate",
+    "era": "Epicurus founded the Garden in 306 BCE. Schools lasted across the Greek and Roman world for six centuries",
+    "figures": [
+      {
+        "name": "Epicurus",
+        "dates": "341 to 270 BCE",
+        "bio": "The founder. Frail for much of his life, generous to his friends, and by all accounts in his school the kindest of men. He freed several of his slaves in his will."
+      },
+      {
+        "name": "Democritus",
+        "dates": "about 460 to 370 BCE",
+        "bio": "The earlier philosopher from whom Epicurus took atoms and void. Known as the laughing philosopher."
+      },
+      {
+        "name": "Metrodorus of Lampsacus",
+        "dates": "331 to 278 BCE",
+        "bio": "His closest friend and the school’s second mind. He died first, and Epicurus provided for his children."
+      },
+      {
+        "name": "Hermarchus of Mytilene",
+        "dates": "about 325 to 250 BCE",
+        "bio": "A companion from the early days and the first head of the Garden after the founder."
+      },
+      {
+        "name": "Leontion",
+        "dates": "active about 300 BCE",
+        "bio": "A member of the Garden and a former courtesan, who wrote a treatise against Theophrastus that Cicero grudgingly admired for its style."
+      },
+      {
+        "name": "Themista of Lampsacus",
+        "dates": "active about 300 BCE",
+        "bio": "A philosopher of the school to whom Epicurus addressed letters. Later writers named her as a model of a wise woman."
+      },
+      {
+        "name": "Philodemus of Gadara",
+        "dates": "about 110 to 35 BCE",
+        "bio": "Epicurean teacher and poet on the Bay of Naples, friend of Virgil’s circle. Most of the Herculaneum scrolls are his works."
+      },
+      {
+        "name": "Lucretius",
+        "dates": "about 99 to 55 BCE",
+        "bio": "Roman poet of whom almost nothing is known beyond his poem in six books."
+      },
+      {
+        "name": "Diogenes of Oenoanda",
+        "dates": "2nd century CE",
+        "bio": "A wealthy old man in a mountain town of Lycia who inscribed Epicurean philosophy on a wall for strangers and those not yet born."
+      },
+      {
+        "name": "Pierre Gassendi",
+        "dates": "1592 to 1655",
+        "bio": "French priest and scientist who cleared Epicurus’s name and reconciled atomism with Christianity, opening the way for modern physics."
+      }
+    ],
+    "history": [
+      {
+        "when": "341 BCE",
+        "what": "Birth on Samos",
+        "detail": "His parents are Athenian colonists. He says he turned to philosophy at fourteen, when his teachers could not explain what came before chaos in Hesiod."
+      },
+      {
+        "when": "323 BCE",
+        "what": "Athens and exile",
+        "detail": "He does his military service in Athens in the year Alexander dies. The Athenians are then expelled from Samos, and he joins his family as a refugee at Colophon."
+      },
+      {
+        "when": "about 311 to 307 BCE",
+        "what": "Mytilene and Lampsacus",
+        "detail": "He begins teaching and gathers the friends who will stay with him for life."
+      },
+      {
+        "when": "306 BCE",
+        "what": "The Garden",
+        "detail": "He buys a house in the city and a garden outside the walls for eighty minae."
+      },
+      {
+        "when": "270 BCE",
+        "what": "Death of Epicurus",
+        "detail": "After two weeks of pain from a blocked bladder he gets into a warm bath, asks for wine, tells his friends to remember his teachings, and dies. His will frees four slaves."
+      },
+      {
+        "when": "about 55 BCE",
+        "what": "Lucretius",
+        "detail": "On the Nature of Things appears in Rome. Cicero reads it and remarks on its genius."
+      },
+      {
+        "when": "79 CE",
+        "what": "Vesuvius",
+        "detail": "The eruption buries a villa at Herculaneum with its philosophical library of perhaps a thousand scrolls."
+      },
+      {
+        "when": "2nd century CE",
+        "what": "The wall at Oenoanda",
+        "detail": "Diogenes sets up his inscription. In the same century the emperor Marcus Aurelius funds a chair of Epicurean philosophy at Athens."
+      },
+      {
+        "when": "4th century CE",
+        "what": "Decline",
+        "detail": "The schools fade. The emperor Julian is glad that most Epicurean books are already lost."
+      },
+      {
+        "when": "1417",
+        "what": "Lucretius found",
+        "detail": "The papal secretary Poggio Bracciolini discovers a manuscript of the poem in a German monastery and has it copied."
+      },
+      {
+        "when": "1649",
+        "what": "Gassendi’s Epicurus",
+        "detail": "His study of the life and philosophy presents Epicurus as sober and admirable."
+      },
+      {
+        "when": "1752",
+        "what": "The papyri",
+        "detail": "Workmen tunnelling at Herculaneum find the carbonised scrolls. Reading them has taken until the present century, lately with X-ray imaging."
+      },
+      {
+        "when": "1888",
+        "what": "The Vatican Sayings",
+        "detail": "A collection of eighty-one Epicurean maxims is found in a fourteenth-century manuscript in the Vatican Library."
+      }
+    ],
+    "concepts": [
+      {
+        "term": "Pleasure",
+        "text": "The beginning and end of the blessed life.",
+        "detail": "It comes in two kinds. Moving pleasures are those of satisfying a want. Settled pleasure is the state of having no want and no pain, and it is the higher."
+      },
+      {
+        "term": "Ataraxia",
+        "text": "The untroubled mind.",
+        "detail": "Reached by removing false beliefs about the gods, death and what we need. It is described as a calm, not as excitement."
+      },
+      {
+        "term": "The fourfold remedy",
+        "text": "Four lines.",
+        "detail": "God is not to be feared, death is not to be felt, the good is easy to obtain, the terrible is easy to endure."
+      },
+      {
+        "term": "The classification of desires",
+        "text": "Three kinds.",
+        "detail": "Natural and necessary desires have a limit and must be met. Natural but unnecessary ones only vary pleasure. Empty ones have no limit and come from opinion."
+      },
+      {
+        "term": "Atomism",
+        "text": "Bodies and space.",
+        "detail": "Everything is made of indivisible particles differing in shape and size, falling through infinite void. There are countless worlds."
+      },
+      {
+        "term": "The swerve",
+        "text": "Uncaused deviation.",
+        "detail": "Without it atoms would fall in parallel for ever and never meet. With it there is collision, a world, and freedom from strict fate."
+      },
+      {
+        "term": "The mortality of the soul",
+        "text": "No afterlife.",
+        "detail": "The soul is a body of fine atoms spread through the flesh. It cannot feel or think apart from the body, and it disperses like smoke at death."
+      },
+      {
+        "term": "The symmetry argument",
+        "text": "Before birth and after death.",
+        "detail": "Lucretius: look back at the eternity before we were born. It was nothing to us. Nature holds it up as a mirror of the time to come."
+      },
+      {
+        "term": "Justice as agreement",
+        "text": "Neither harm nor be harmed.",
+        "detail": "There is no justice in itself. It is a compact made for mutual advantage, and what is just can differ between places and times."
+      }
+    ],
+    "facts": [
+      {
+        "text": "Above the gate of the Garden, according to Seneca, was written: stranger, here you will do well to stay; here our highest good is pleasure."
+      },
+      {
+        "text": "Seneca, a Stoic, quotes Epicurus with approval in letter after letter, saying that what is true is his own."
+      },
+      {
+        "text": "A common Epicurean epitaph across the Roman empire read: I was not, I was, I am not, I do not care."
+      },
+      {
+        "text": "The word for an unbeliever in rabbinic Hebrew, apikoros, comes from his name."
+      },
+      {
+        "text": "Karl Marx wrote his doctoral thesis on the difference between the atomism of Democritus and that of Epicurus."
+      },
+      {
+        "text": "Scrolls from Herculaneum that could never be unrolled began to be read in 2023 using scans and machine learning."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Katastematic pleasure",
+        "meaning": "The settled pleasure of being free from pain and trouble"
+      },
+      {
+        "term": "Kinetic pleasure",
+        "meaning": "The moving pleasure of satisfying a desire"
+      },
+      {
+        "term": "Vatican Sayings",
+        "meaning": "A collection of maxims found in the Vatican Library in 1888"
+      },
+      {
+        "term": "Hetaira",
+        "meaning": "A courtesan; several members of the Garden had been hetairai"
+      },
+      {
+        "term": "Mina",
+        "meaning": "An Athenian sum of money, a hundred drachmas"
+      },
+      {
+        "term": "Intermundia",
+        "meaning": "Cicero’s Latin word for the spaces between worlds where the gods dwell"
+      }
+    ],
+    "furtherReading": [
+      {
+        "title": "Epicureanism: A Very Short Introduction",
+        "creator": "Catherine Wilson",
+        "year": "2015",
+        "note": "The philosophy and its long afterlife in science and politics."
+      },
+      {
+        "title": "Facing Death: Epicurus and His Critics",
+        "creator": "James Warren",
+        "year": "2004",
+        "note": "A careful test of whether the arguments against fearing death actually work."
+      },
+      {
+        "title": "The Therapy of Desire",
+        "creator": "Martha Nussbaum",
+        "year": "1994",
+        "note": "On Hellenistic philosophy as medicine for the soul, with sympathetic and critical chapters on the Garden."
+      },
+      {
+        "title": "Epicurus and His Philosophy",
+        "creator": "Norman Wentworth DeWitt",
+        "year": "1954",
+        "note": "An old-fashioned, warm portrait that many modern Epicureans start from."
+      }
+    ],
+    "learnFrom": [
+      {
+        "name": "Epicurus.net",
+        "note": "The surviving texts in public domain translations, with a short history of the school.",
+        "link": "http://www.epicurus.net"
+      },
+      {
+        "name": "Society of Friends of Epicurus",
+        "note": "A modern community with essays, study guides and a monthly Twentieth.",
+        "link": "https://societyofepicurus.com"
+      },
+      {
+        "name": "A table and a friend",
+        "note": "The school’s own method. Read one saying together over a simple meal and talk about it."
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Epicurus Reader: Selected Writings and Testimonia",
+        "creator": "trans. Brad Inwood and L. P. Gerson",
+        "publisher": "Hackett",
+        "year": "1994"
+      },
+      {
+        "title": "Lives of Eminent Philosophers, book 10",
+        "creator": "Diogenes Laertius, trans. R. D. Hicks",
+        "publisher": "Loeb Classical Library",
+        "year": "1925"
+      },
+      {
+        "title": "On the Nature of Things",
+        "creator": "Lucretius, trans. Martin Ferguson Smith",
+        "publisher": "Hackett",
+        "year": "2001"
+      },
+      {
+        "title": "The Hellenistic Philosophers, volume 1",
+        "creator": "A. A. Long and D. N. Sedley",
+        "publisher": "Cambridge University Press",
+        "year": "1987"
+      },
+      {
+        "title": "The Cambridge Companion to Epicureanism",
+        "creator": "ed. James Warren",
+        "publisher": "Cambridge University Press",
+        "year": "2009"
+      },
+      {
+        "title": "Epicureanism",
+        "creator": "Tim O'Keefe",
+        "publisher": "Acumen",
+        "year": "2010"
+      }
+    ]
+  },
+  "sensitivity": {
+    "note": "Epicurus is easy to mistake for a preacher of indulgence. His school taught the reverse: plain food, few wants, and friendship. This Onda keeps to what the surviving texts say and marks later tradition as such.",
+    "requiredCaveats": [
+      "Epicurus advised withdrawal from public life. Critics from Cicero onward have asked who then looks after the city.",
+      "The arguments against fearing death are meant for the thought of one’s own death. They are not offered as a comfort for grief, which Epicurus himself felt and honoured."
+    ],
+    "reviewRequired": false
+  }
+}

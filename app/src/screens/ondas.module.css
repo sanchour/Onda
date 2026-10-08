@@ -323,3 +323,5 @@ button.softCard{width:100%;text-align:start;display:block}
 :global([data-theme="dark"]) .banner.themed::after,:global([data-theme="dark"]) .ondaTile.themed::after{background:radial-gradient(120% 90% at 0% 0%,rgba(255,255,255,.1),transparent 58%)}
 .ondaTile.themed{position:relative;overflow:hidden}
 .rulesItem .ruleWhy{display:block;-webkit-line-clamp:unset;overflow:visible;font-size:var(--fs-14);margin-top:4px}
+
+.browseSec{content-visibility:auto;contain-intrinsic-size:auto 640px}

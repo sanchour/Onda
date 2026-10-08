@@ -3,7 +3,8 @@ import { addDays, fromDateStr, todayStr } from '@/lib/dates'
 import { detId, uuid } from '@/lib/ids'
 import { db, getMeta } from './db'
 import { snapshotOf, useStore } from './store'
-import { SettingsSchema, type BaseRecord, type CheckIn, type JournalEntry, type Lago, type OndaRun, type PracticeLog, type Reflection, type Tables } from './types'
+import { SettingsSchema } from './schemas'
+import { type BaseRecord, type CheckIn, type JournalEntry, type Lago, type OndaRun, type PracticeLog, type Reflection, type Tables } from './types'
 
 /* Demo data matching the prototype: Stoicism on day 4 of 14, five Lagos (two checked in today),
    two completed Ondas behind it and a few weeks of history.

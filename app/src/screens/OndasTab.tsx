@@ -171,7 +171,7 @@ export function AllOndas() {
         <div className={`${s.sub} ${s.sub2}`}>{t('ondas.allSub')}</div>
       </div>
       {sections.map((sec) => (
-        <section key={sec.key} aria-label={sec.title}>
+        <section key={sec.key} aria-label={sec.title} className={o.browseSec}>
           <SectionToggle title={sec.title} meta={sec.real.length + sec.soon.length} open={!closed[sec.key]} onToggle={toggle(sec.key)} />
           {!closed[sec.key] && (
             <div className={s.grid2}>

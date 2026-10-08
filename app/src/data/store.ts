@@ -8,7 +8,7 @@ import { backendConfigured } from '@/sync/supabase'
 import { db, getMeta, setMeta } from './db'
 import { earnedAchievements, type AchievementKey } from './derive/achievements'
 import { mergeRecord, stamp } from './merge'
-import { COLLECTIONS, SCHEMAS, SettingsSchema, type BaseRecord, type CheckIn, type Collection, type Frequency, type Lago, type OndaRun, type RunSnapshot, type Settings, type Tables, type User } from './types'
+import { COLLECTIONS, withDefaults, type BaseRecord, type CheckIn, type Collection, type Frequency, type Lago, type OndaRun, type RunSnapshot, type Settings, type Tables, type User } from './types'
 
 type Lists = { [K in Exclude<Collection, 'user'>]: Tables[K][] }
 
@@ -79,7 +79,7 @@ function newUser(deviceId: string): User {
   } catch {
     /* keep UTC */
   }
-  return { id: 'me', updatedAt: ts, deviceId, name: '', createdAt: now().toISOString(), plus: 'none', trialStartedAt: null, settings: SettingsSchema.parse({ timezone }) }
+  return { id: 'me', updatedAt: ts, deviceId, name: '', createdAt: now().toISOString(), plus: 'none', trialStartedAt: null, settings: withDefaults({ timezone }) }
 }
 
 export function snapshotOf(c: OndaContent): RunSnapshot {
@@ -113,7 +113,11 @@ export const useStore = create<AppState>()((set, get) => {
           await db.outbox.add({ collection, id: rec.id })
         })
       : db.table(collection).put(rec)
-    void Promise.resolve(saved).catch((e) => console.error('[onda] write failed', collection, e))
+    void Promise.resolve(saved).catch((e) => {
+      console.error('[onda] write failed', collection, e)
+      // iOS can run out of room (or evict storage); the UI tells the person rather than silently losing a write
+      if ((e as Error)?.name === 'QuotaExceededError') window.dispatchEvent(new Event('onda:storage-full'))
+    })
     return rec
   }
   const remove = <K extends Exclude<Collection, 'user'>>(collection: K, id: string) => {
@@ -174,7 +178,7 @@ export const useStore = create<AppState>()((set, get) => {
       const loaded = await Promise.all(COLLECTIONS.map((c) => db.table(c).toArray()))
       const data = Object.fromEntries(COLLECTIONS.map((c, i) => [c, loaded[i]])) as unknown as Lists & { user: User[] }
       let user = data.user[0] ?? null
-      if (user) user = { ...user, settings: SettingsSchema.parse(user.settings ?? {}) }
+      if (user) user = { ...user, settings: withDefaults(user.settings) }
       const { user: _u, ...lists } = data
       set({ ...lists, user, deviceId, ready: true, today: todayStr() })
       if (!user) write('user', newUser(deviceId))
@@ -194,7 +198,7 @@ export const useStore = create<AppState>()((set, get) => {
       if (collection === 'user') {
         const r = records[records.length - 1] as User
         const m = mergeRecord(s.user ?? undefined, { ...r, id: 'me' })
-        const user = { ...m, settings: SettingsSchema.parse(m.settings ?? {}) }
+        const user = { ...m, settings: withDefaults(m.settings) }
         set({ user })
         merged.push(user)
       } else {
@@ -363,6 +367,7 @@ export const useStore = create<AppState>()((set, get) => {
       const d = raw as Record<string, unknown> | null
       if (!d || typeof d !== 'object' || d.app !== 'onda') throw new Error('not-onda-file')
       if (typeof d.formatVersion !== 'number' || d.formatVersion > 1) throw new Error('unsupported-version')
+      const { SCHEMAS } = await import('./schemas')
       let imported = 0
       let skipped = 0
       for (const c of COLLECTIONS) {

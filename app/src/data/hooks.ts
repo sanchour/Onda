@@ -1,15 +1,14 @@
 import { useQuery } from '@tanstack/react-query'
 import { useEffect, useMemo, useState } from 'react'
 import { ONDA_INDEX, isShipped, loadOnda, toIndex } from '@/content'
-import { OndaContentSchema, type OndaContent, type OndaIndex } from '@/content/schema'
+import type { OndaContent, OndaIndex } from '@/content/schema'
 import { ondaLook, type OndaLook } from '@/content/themes'
 import { now } from '@/lib/dates'
 import { plusState, type PlusState } from './entitlement'
 import { useStore } from './store'
-import { SettingsSchema, type BaseRecord, type Lago, type OndaRun, type Settings } from './types'
+import { DEFAULT_SETTINGS, type BaseRecord, type Lago, type OndaRun, type Settings } from './types'
 
 const live = <T extends BaseRecord>(x: T) => !x.deletedAt
-const DEFAULT_SETTINGS = SettingsSchema.parse({})
 
 export function useSettings(): Settings {
   return useStore((s) => s.user?.settings) ?? DEFAULT_SETTINGS
@@ -45,16 +44,26 @@ export function useDark(): boolean {
   return mode === 'dark' || (mode === 'auto' && system)
 }
 
+/** The user's own Ondas. They are checked against the content schema after zod has loaded (it is not part of start-up), so they appear a moment later. */
 function useCustomOndas(): OndaContent[] {
   const custom = useStore((s) => s.customOndas)
-  return useMemo(
-    () =>
-      custom.filter(live).flatMap((c) => {
+  const [valid, setValid] = useState<OndaContent[]>([])
+  useEffect(() => {
+    const rows = custom.filter(live)
+    if (!rows.length) return setValid((v) => (v.length ? [] : v))
+    let off = false
+    void import('@/content/schema').then(({ OndaContentSchema }) => {
+      if (off) return
+      setValid(rows.flatMap((c) => {
         const r = OndaContentSchema.safeParse(c.content)
         return r.success ? [r.data] : []
-      }),
-    [custom],
-  )
+      }))
+    })
+    return () => {
+      off = true
+    }
+  }, [custom])
+  return valid
 }
 
 /** Shipped Ondas followed by the user's own. */

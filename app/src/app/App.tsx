@@ -1,6 +1,5 @@
 import { Suspense, lazy, useEffect, useLayoutEffect, useRef } from 'react'
 import { useTranslation } from 'react-i18next'
-import { preloadAllOndas } from '@/content'
 import { useActiveRun, useDark, useLook, useOndaIndex, useSettings } from '@/data/hooks'
 import { accentFor, mix } from '@/lib/color'
 import i18n from '@/i18n'
@@ -138,6 +137,13 @@ export function App() {
   const ready = useStore((s) => s.ready)
   const init = useStore((s) => s.init)
   const onboarded = useStore((s) => s.user?.settings.onboarded)
+  useEffect(() => {
+    try {
+      if (onboarded) localStorage.setItem('onda.ob', '1')
+    } catch {
+      /* private mode */
+    }
+  }, [onboarded])
   const menu = useNav((n) => n.menu)
   const closeMenu = useNav((n) => n.closeMenu)
   const overlay = useNav((n) => n.sheets.length > 0 || !!n.menu)
@@ -173,9 +179,23 @@ export function App() {
         useNav.getState().popToRoot('ondas')
       }).catch((e) => console.error('[onda] demo seed failed', e))
     }
-    // Warm every Onda's content once the app is idle so all of it works offline after first load.
-    if ('requestIdleCallback' in window) window.requestIdleCallback(() => (prefetchChunks(), preloadAllOndas()))
-    else setTimeout(() => (prefetchChunks(), preloadAllOndas()), 1500)
+    // Offline: the service worker precaches every screen and every Onda. Here we only warm the screens, one per idle slice.
+    prefetchChunks()
+  }, [ready])
+
+  // Ask the browser to keep our data when space is tight (installed apps are usually granted it silently; a refusal is fine).
+  useEffect(() => {
+    if (ready && onboarded) void navigator.storage?.persist?.().catch(() => undefined)
+  }, [ready, onboarded])
+  useEffect(() => {
+    const full = () => useNav.getState().showToast(i18n.t('common.storageFull'), { icon: 'warning-circle' })
+    window.addEventListener('onda:storage-full', full)
+    return () => window.removeEventListener('onda:storage-full', full)
+  }, [])
+
+  // The HTML carries a tiny launch shell; take it away once the app can paint
+  useEffect(() => {
+    if (ready) requestAnimationFrame(() => document.getElementById('boot')?.remove())
   }, [ready])
 
   if (!ready) return null

@@ -15,6 +15,7 @@
     "lhci": "lhci autorun",
     "icons": "node scripts/gen-icons.mjs",
     "content:check": "tsx scripts/check-content.ts",
+    "content:normalize": "tsx scripts/normalize-content.ts",
     "icons:data": "node scripts/gen-icon-data.mjs"
   },
   "dependencies": {

@@ -2,7 +2,7 @@ import { create } from 'zustand'
 import { db, getMeta, setMeta } from '@/data/db'
 import { LOCAL_PREFIX } from '@/data/photos'
 import { useStore } from '@/data/store'
-import { COLLECTIONS, SCHEMAS, type BaseRecord, type Collection } from '@/data/types'
+import { COLLECTIONS, type BaseRecord, type Collection } from '@/data/types'
 import { backendConfigured, ensureSession, getSupabase } from './supabase'
 
 /* Sync engine. The device database is the source of truth; the server is a replica.
@@ -62,6 +62,7 @@ async function push(): Promise<number> {
 async function pull(): Promise<number> {
   const sb = await getSupabase()
   if (!sb) return 0
+  const { SCHEMAS } = await import('@/data/schemas')
   let cursor = (await getMeta<number>('pullCursor')) ?? 0
   let got = 0
   for (;;) {

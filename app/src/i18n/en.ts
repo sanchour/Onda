@@ -8,6 +8,7 @@ export const en = {
     newEntry: 'New entry', add: 'Add', unlocked: 'Unlocked', locked: 'Locked', selected: 'Selected', length: 'Length', time: 'Time',
   },
   common: {
+    storageFull: 'This device is out of storage, so your last change was not saved. Free some space and try again.',
     unitDays: 'days', cancel: 'Cancel', save: 'Save', done: 'Done', next: 'Next', back: 'Back', continue: 'Continue', close: 'Close', ok: 'OK', on: 'On', off: 'Off',
     days_one: '{{count}} day', days_other: '{{count}} days', daysCap_one: '{{count}} Day', daysCap_other: '{{count}} Days',
     never: 'Never', justNow: 'Just now', minAgo_one: '{{count}} min ago', minAgo_other: '{{count}} min ago', hoursAgo_one: '{{count}} hour ago', hoursAgo_other: '{{count}} hours ago',

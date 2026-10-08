@@ -1,8 +1,9 @@
 import indexJson from '@content/index.json'
-import { OndaContentSchema, OndaIndexSchema, type ImmerseItem, type ImmerseKind, type OndaContent, type OndaIndex } from './schema'
+import type { ImmerseItem, ImmerseKind, OndaContent, OndaIndex } from './schema'
 
-/** The ten shipped Ondas, in display order. Tiles render from this without loading any content file. */
-export const ONDA_INDEX: OndaIndex[] = OndaIndexSchema.array().parse(indexJson)
+/** The shipped Ondas, in display order. Tiles render from this without loading any content file.
+ *  Shipped content is validated at build time (content:check and a unit test), so it is not parsed again at launch. */
+export const ONDA_INDEX = indexJson as OndaIndex[]
 
 // One chunk per Onda: content is fetched (and precached by the service worker) only when that Onda is opened.
 const files = import.meta.glob<{ default: unknown }>('../../../content/ondas/*.json')
@@ -15,9 +16,9 @@ export async function loadOnda(id: string): Promise<OndaContent> {
   if (hit) return hit
   const load = files[`../../../content/ondas/${id}.json`]
   if (!load) throw new Error(`Unknown Onda: ${id}`)
-  const parsed = OndaContentSchema.parse((await load()).default)
-  cache.set(id, parsed)
-  return parsed
+  const content = (await load()).default as OndaContent
+  cache.set(id, content)
+  return content
 }
 
 /** Warm the cache so every Onda works offline right after first load (called when idle). */

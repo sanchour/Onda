@@ -9,7 +9,7 @@
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-title" content="Onda" />
     <meta name="application-name" content="Onda" />
-    <!-- default in light, black-translucent in dark: the inline script below sets it at launch, App.tsx keeps it in step -->
+    <!-- Always translucent: the page shows through, so the bar follows dark or light by itself (see DECISIONS.md, Update 2.0) -->
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <meta name="theme-color" content="#F5F1E8" />
     <meta name="color-scheme" content="light dark" />
@@ -44,6 +44,8 @@
       html,body{margin:0;background:#F5F1E8}
       @media (prefers-color-scheme:dark){html[data-theme="auto"],html[data-theme="auto"] body{background:#1B1C1F}}
       html[data-theme="dark"],html[data-theme="dark"] body{background:#1B1C1F}
+      #boot{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;font:600 44px/1 "Newsreader",Georgia,serif;letter-spacing:-.01em;color:#8A8A8E;pointer-events:none;z-index:1}
+      html[data-theme="dark"] #boot{color:#6C6C70}
     </style>
     <script>
       // Apply the saved appearance before first paint so there is no flash.
@@ -57,6 +59,7 @@
   </head>
   <body>
     <div id="root"></div>
+    <div id="boot" aria-hidden="true">Onda</div>
     <noscript>Onda needs JavaScript to run.</noscript>
     <script type="module" src="/src/main.tsx"></script>
   </body>

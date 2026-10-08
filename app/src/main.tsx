@@ -11,6 +11,13 @@ const queryClient = new QueryClient({
   defaultOptions: { queries: { retry: 1, refetchOnWindowFocus: false, networkMode: 'offlineFirst' }, mutations: { networkMode: 'offlineFirst' } },
 })
 
+// The first screen is known from the last launch, so fetch its chunk while the database opens instead of after.
+try {
+  void import(localStorage.getItem('onda.ob') === '1' ? './screens/OndasTab' : './screens/Onboarding')
+} catch {
+  /* private mode */
+}
+
 // iOS only applies :active styles when a touch listener exists on the document.
 document.addEventListener('touchstart', () => undefined, { passive: true })
 // Pinch and double-tap zoom are browser chrome, not app behaviour.

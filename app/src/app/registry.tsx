@@ -15,10 +15,20 @@ const ondaSheets = () => import('@/sheets/OndaSheets')
 const statsSheets = () => import('@/sheets/StatsSheets')
 const settingsSheets = () => import('@/sheets/SettingsSheets')
 
-/** Fetch every on-demand chunk once the app is idle, so a tap never waits on the network (the first tap used to show nothing, so people tapped twice). */
+/** Warm the on-demand screens so a tap never waits on the network (a first tap that shows nothing makes people tap twice).
+ *  One chunk per idle slice, so launch and the first interactions are never competing with it. */
 export function prefetchChunks() {
-  const loaders = [gallery, ondasTab, ondaFlow, ondaPages, lagoSheets, ondaSheets, statsSheets, settingsSheets, () => import('@/screens/OndaToday'), () => import('@/screens/Guide'), () => import('@/screens/Settings'), () => import('@/screens/LagoInsights')]
-  loaders.forEach((load, i) => setTimeout(() => void load().catch(() => undefined), i * 120))
+  const loaders = [ondaPages, lagoSheets, ondaSheets, () => import('@/screens/Settings'), gallery, () => import('@/screens/Guide'), () => import('@/screens/OndaToday'), ondaFlow, statsSheets, settingsSheets, () => import('@/screens/LagoInsights')]
+  const idle = (cb: () => void) => ('requestIdleCallback' in window ? window.requestIdleCallback(cb, { timeout: 3000 }) : setTimeout(cb, 600))
+  const next = (i: number) => {
+    const load = loaders[i]
+    if (!load) return
+    idle(() => {
+      void load().catch(() => undefined)
+      next(i + 1)
+    })
+  }
+  next(0)
 }
 
 export const ROUTES: Record<Route['name'], Lazy> = {

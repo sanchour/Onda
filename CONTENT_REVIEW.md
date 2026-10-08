@@ -652,3 +652,33 @@ File: `content/ondas/nietzsche.json` · version 1 · about 5000 words · 30 word
 Framing note shown in the app: Nietzsche wrote to provoke, and he has been badly misused. This Onda takes from him a discipline of affirmation, honesty and self-overcoming. It does not treat him as an authority, which he asked his readers not to do.
 
 Nothing is marked `unverified`.
+
+
+## Freud
+
+File: `content/ondas/freud.json` · version 1 · about 5000 words · 30 words of vocabulary, 30 journal prompts, 13 history entries, 9 concepts, 6 sources.
+
+Framing note shown in the app: This Onda borrows Freud’s habits of attention: recording dreams, speaking freely, noticing slips and listening. It is not psychoanalysis and it is not treatment. If you are struggling, please see a doctor or a qualified therapist.
+
+Marked `unverified` (1):
+
+- Quote: "To love and to work." (Attributed to Sigmund Freud; His reported answer when asked what a normal person should be able to do well; told by Erik Erikson in Childhood and Society, 1950)
+
+## Existentialism
+
+File: `content/ondas/existential.json` · version 1 · about 4800 words · 30 words of vocabulary, 30 journal prompts, 13 history entries, 9 concepts, 6 sources.
+
+Framing note shown in the app: Existentialism asks you to look directly at freedom, death and the absence of ready-made meaning. This Onda treats those as sources of clarity. It is a philosophical exercise and is not meant to be done in a low state.
+
+Nothing is marked `unverified`.
+
+
+## Gandhi
+
+File: `content/ondas/gandhi.json` · version 1 · about 5200 words · 30 words of vocabulary, 30 journal prompts, 13 history entries, 9 concepts, 6 sources.
+
+Framing note shown in the app: Gandhi is revered in India as the father of the nation and is also seriously criticised there and elsewhere. This Onda borrows his daily discipline and his tests of conduct. It does not present him as a saint, and it leaves out his fasts and his more extreme experiments.
+
+Marked `unverified` (1):
+
+- Quote: "My life is my message." (Mohandas K. Gandhi; Written in Bengali for a journalist who asked for a message, 1947, as commonly reported)

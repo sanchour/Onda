@@ -1,0 +1,1232 @@
+{
+  "version": 1,
+  "id": "gandhi",
+  "name": "Gandhi",
+  "origin": "India",
+  "era": "1869 to 1948, and a living example since",
+  "tone": "yellow",
+  "icon": "yarn",
+  "font": "martel",
+  "pattern": "khadi-weave",
+  "glyph": "सत्य",
+  "line": "Hold to the truth, harm no one and do your own work with your hands.",
+  "quote": {
+    "text": "I have nothing new to teach the world. Truth and non-violence are as old as the hills.",
+    "by": "Mohandas K. Gandhi",
+    "source": "Harijan, 28 March 1936"
+  },
+  "quotes": [
+    {
+      "text": "Non-violence is the greatest force at the disposal of mankind.",
+      "by": "Mohandas K. Gandhi",
+      "source": "Harijan, 20 July 1935"
+    },
+    {
+      "text": "Recall the face of the poorest and the weakest man whom you may have seen, and ask yourself if the step you contemplate is going to be of any use to him.",
+      "by": "Mohandas K. Gandhi",
+      "source": "A note known as the Talisman, written in August 1947; printed in Pyarelal, Mahatma Gandhi: The Last Phase, 1958"
+    },
+    {
+      "text": "I object to violence because when it appears to do good, the good is only temporary; the evil it does is permanent.",
+      "by": "Mohandas K. Gandhi",
+      "source": "Young India, 21 May 1925"
+    },
+    {
+      "text": "If we could change ourselves, the tendencies in the world would also change.",
+      "by": "Mohandas K. Gandhi",
+      "source": "Indian Opinion, 1913; Collected Works, volume 13. The likely source of the saying about being the change"
+    },
+    {
+      "text": "Earth provides enough to satisfy every man’s needs, but not every man’s greed.",
+      "by": "Mohandas K. Gandhi",
+      "source": "As reported by his secretary Pyarelal in Mahatma Gandhi: The Last Phase, 1958"
+    },
+    {
+      "text": "My life is my message.",
+      "by": "Mohandas K. Gandhi",
+      "source": "Written in Bengali for a journalist who asked for a message, 1947, as commonly reported",
+      "unverified": true
+    }
+  ],
+  "words": [
+    {
+      "id": "word-satya",
+      "term": "Satya",
+      "meaning": "Truth",
+      "pronunciation": "SUT-ya",
+      "language": "Sanskrit",
+      "usage": "From sat, that which is. For Gandhi truth is not only accurate speech. It is reality itself, and he came to say that Truth is God."
+    },
+    {
+      "id": "word-ahimsa",
+      "term": "Ahimsa",
+      "meaning": "Non-harm; non-violence",
+      "pronunciation": "a-HIM-sa",
+      "language": "Sanskrit",
+      "usage": "Refusing to injure any living being in thought, word or deed. Gandhi made it active: the positive force of love."
+    },
+    {
+      "id": "word-satyagraha",
+      "term": "Satyagraha",
+      "meaning": "Holding firmly to truth",
+      "pronunciation": "sut-YAH-gruh-ha",
+      "language": "Sanskrit",
+      "usage": "The word coined in South Africa in 1908 for his method of non-violent resistance. Also translated truth-force or soul-force."
+    },
+    {
+      "id": "word-satyagrahi",
+      "term": "Satyagrahi",
+      "meaning": "One who practises satyagraha",
+      "pronunciation": "sut-YAH-gruh-hee",
+      "language": "Sanskrit",
+      "usage": "Someone who breaks an unjust law openly, accepts the penalty and bears no hatred towards the opponent."
+    },
+    {
+      "id": "word-swaraj",
+      "term": "Swaraj",
+      "meaning": "Self-rule",
+      "pronunciation": "swuh-RAHJ",
+      "language": "Hindi and Gujarati",
+      "usage": "Independence for India, and beneath that the rule of each person over their own self."
+    },
+    {
+      "id": "word-swadeshi",
+      "term": "Swadeshi",
+      "meaning": "Of one’s own country",
+      "pronunciation": "swuh-DAY-shee",
+      "language": "Hindi and Gujarati",
+      "usage": "Using what is made near by, and serving one’s immediate neighbours first."
+    },
+    {
+      "id": "word-sarvodaya",
+      "term": "Sarvodaya",
+      "meaning": "The welfare of all",
+      "pronunciation": "sur-VOH-duh-ya",
+      "language": "Sanskrit",
+      "usage": "His title for his Gujarati version of Ruskin’s Unto This Last. The good of each is contained in the good of all."
+    },
+    {
+      "id": "word-antyodaya",
+      "term": "Antyodaya",
+      "meaning": "The rise of the last",
+      "pronunciation": "un-TYOH-duh-ya",
+      "language": "Sanskrit",
+      "usage": "Beginning with the person who has least."
+    },
+    {
+      "id": "word-khadi",
+      "term": "Khadi",
+      "meaning": "Hand-spun, hand-woven cloth",
+      "pronunciation": "KHAH-dee",
+      "language": "Hindi",
+      "usage": "Also khaddar. He called it the livery of freedom and asked every Indian to wear it in place of mill cloth."
+    },
+    {
+      "id": "word-charkha",
+      "term": "Charkha",
+      "meaning": "Spinning wheel",
+      "pronunciation": "CHUR-kha",
+      "language": "Hindi",
+      "usage": "He spun every day and put the wheel at the centre of the national flag of the 1920s."
+    },
+    {
+      "id": "word-takli",
+      "term": "Takli",
+      "meaning": "Drop spindle",
+      "pronunciation": "TUK-lee",
+      "language": "Hindi",
+      "usage": "A weighted stick for spinning by hand. Small enough to use while walking or in a meeting."
+    },
+    {
+      "id": "word-ashram",
+      "term": "Ashram",
+      "meaning": "A community of shared discipline",
+      "pronunciation": "AHSH-rum",
+      "language": "Sanskrit",
+      "usage": "He founded four: Phoenix and Tolstoy Farm in South Africa, Sabarmati and Sevagram in India."
+    },
+    {
+      "id": "word-vrata",
+      "term": "Vrata",
+      "meaning": "Vow",
+      "pronunciation": "VRUH-ta",
+      "language": "Sanskrit",
+      "usage": "A promise that binds whatever one’s mood. The ashram lived by eleven of them."
+    },
+    {
+      "id": "word-brahmacharya",
+      "term": "Brahmacharya",
+      "meaning": "Chastity; conduct that leads to God",
+      "pronunciation": "bruh-ma-CHAR-ya",
+      "language": "Sanskrit",
+      "usage": "Control of all the senses. He took a vow of celibacy in 1906, at thirty-six."
+    },
+    {
+      "id": "word-aparigraha",
+      "term": "Aparigraha",
+      "meaning": "Non-possession",
+      "pronunciation": "a-puh-RIG-ruh-ha",
+      "language": "Sanskrit",
+      "usage": "Owning nothing one does not need. At his death his belongings fitted on a small tray."
+    },
+    {
+      "id": "word-asteya",
+      "term": "Asteya",
+      "meaning": "Non-stealing",
+      "pronunciation": "us-TAY-ya",
+      "language": "Sanskrit",
+      "usage": "He extended it: to keep more than you need while others lack is a kind of theft."
+    },
+    {
+      "id": "word-abhaya",
+      "term": "Abhaya",
+      "meaning": "Fearlessness",
+      "pronunciation": "a-BHUH-ya",
+      "language": "Sanskrit",
+      "usage": "The first requirement of non-violence. He said cowardice and ahimsa do not go together."
+    },
+    {
+      "id": "word-sharir-shram",
+      "term": "Sharir shram",
+      "meaning": "Bread labour",
+      "pronunciation": "shuh-REER SHRUM",
+      "language": "Hindi",
+      "usage": "Everyone should do some manual work for their keep, whatever else they do. An idea he took from Tolstoy and Ruskin."
+    },
+    {
+      "id": "word-seva",
+      "term": "Seva",
+      "meaning": "Service",
+      "pronunciation": "SAY-va",
+      "language": "Sanskrit",
+      "usage": "Work done for others without thought of return. He called it the surest way to find oneself."
+    },
+    {
+      "id": "word-tapasya",
+      "term": "Tapasya",
+      "meaning": "Self-discipline; voluntary suffering",
+      "pronunciation": "tuh-PUS-ya",
+      "language": "Sanskrit",
+      "usage": "Taking suffering on oneself in place of inflicting it, in order to move an opponent’s heart."
+    },
+    {
+      "id": "word-upvas",
+      "term": "Upvas",
+      "meaning": "Fast",
+      "pronunciation": "oop-VAHS",
+      "language": "Hindi and Gujarati",
+      "usage": "Literally dwelling near. He fasted for self-purification and, seventeen times, as a public appeal."
+    },
+    {
+      "id": "word-maun",
+      "term": "Maun",
+      "meaning": "Silence",
+      "pronunciation": "MOWN",
+      "language": "Hindi",
+      "usage": "He kept every Monday as a day of silence and communicated by scribbled notes."
+    },
+    {
+      "id": "word-prarthana",
+      "term": "Prarthana",
+      "meaning": "Prayer",
+      "pronunciation": "PRAR-thuh-na",
+      "language": "Sanskrit",
+      "usage": "Morning and evening prayer in the open air, with verses and hymns from several religions, was the fixed frame of his day."
+    },
+    {
+      "id": "word-ramanama",
+      "term": "Ramanama",
+      "meaning": "The name of Rama",
+      "pronunciation": "RAH-ma-NAH-ma",
+      "language": "Sanskrit",
+      "usage": "Repeating a name of God. A nurse taught it to him as a child to cure his fear of the dark."
+    },
+    {
+      "id": "word-hartal",
+      "term": "Hartal",
+      "meaning": "A general stoppage of work",
+      "pronunciation": "hur-TAHL",
+      "language": "Gujarati",
+      "usage": "Shops shut and work ceases for a day as mourning or protest. He called one across India in April 1919."
+    },
+    {
+      "id": "word-bapu",
+      "term": "Bapu",
+      "meaning": "Father",
+      "pronunciation": "BAH-poo",
+      "language": "Gujarati",
+      "usage": "What those close to him, and then the country, called him."
+    },
+    {
+      "id": "word-mahatma",
+      "term": "Mahatma",
+      "meaning": "Great soul",
+      "pronunciation": "muh-HAHT-ma",
+      "language": "Sanskrit",
+      "usage": "A title that attached to him from about 1915. He disliked it and said it had often pained him."
+    },
+    {
+      "id": "word-nai-talim",
+      "term": "Nai Talim",
+      "meaning": "New education",
+      "pronunciation": "NY tah-LEEM",
+      "language": "Hindi and Urdu",
+      "usage": "His scheme of schooling through a craft, with head, heart and hands taught together."
+    },
+    {
+      "id": "word-gram-swaraj",
+      "term": "Gram swaraj",
+      "meaning": "Village self-rule",
+      "pronunciation": "GRAHM swuh-RAHJ",
+      "language": "Hindi",
+      "usage": "His picture of free India as a republic of self-sufficient villages."
+    },
+    {
+      "id": "word-sarva-dharma-samabhava",
+      "term": "Sarva dharma samabhava",
+      "meaning": "Equal regard for all religions",
+      "pronunciation": "SUR-va DHUR-ma suh-ma-BHAH-va",
+      "language": "Sanskrit",
+      "usage": "One of the eleven vows. His prayer meetings read from the Gita, the Quran, the Bible and others."
+    }
+  ],
+  "practices": [
+    {
+      "id": "dawn-prayer",
+      "name": "Prayer before dawn",
+      "icon": "sun-horizon",
+      "slot": "Morning",
+      "time": "05:30",
+      "minutes": 15,
+      "meta": "Morning · 15 min",
+      "instructions": "Rise before the sun and wash. Sit outside or at an open window, on the floor if you can. Keep silence for five minutes. Then read aloud a short passage from the scripture or poetry that means most to you, and one from a tradition that is not your own. Name the truth you will hold to today and the person you will try not to wrong. Sit quietly for a minute more.",
+      "why": "The ashram bell rang at four and prayers began at twenty past, on open ground by the river, in every season. They included verses from the Gita on the person of steady wisdom, with Muslim, Christian, Parsi and Buddhist prayers alongside.",
+      "variations": [
+        "Recite the same eighteen verses daily: Gita, chapter 2, verses 54 to 72.",
+        "Sing or listen to Vaishnava Jana To.",
+        "Keep the first hour of the day free of any screen."
+      ]
+    },
+    {
+      "id": "spin",
+      "name": "Half an hour of handwork",
+      "icon": "yarn",
+      "slot": "Morning",
+      "time": "08:00",
+      "minutes": 30,
+      "meta": "Morning · 30 min",
+      "instructions": "Spend thirty minutes making or mending something useful with your hands: spin, knit, sew a seam, darn, weave, carve, repair a tool. Sit upright, work steadily and do not listen to anything. Let the rhythm of the work hold your attention. Keep what you make in use, and count it at the end of the week.",
+      "why": "Gandhi spun for at least half an hour every day, even on trains and in prison, and called the wheel his prayer. He asked the nation to spin so that the villages would have work, the body its share of labour and the mind a daily discipline.",
+      "variations": [
+        "Learn the drop spindle. It costs almost nothing.",
+        "Mend one thing you would otherwise replace.",
+        "Wear something made by hand, and find out who made it."
+      ]
+    },
+    {
+      "id": "bread-labour",
+      "name": "Clean it yourself",
+      "icon": "broom",
+      "slot": "Afternoon",
+      "time": "13:30",
+      "minutes": 20,
+      "meta": "Afternoon · 20 min",
+      "instructions": "Do the dirtiest job in your household or workplace yourself today, with care and without complaint. Clean the toilet, take out the rubbish, scrub the drain, wash everyone’s dishes. Do it thoroughly and tell nobody. While you work, think of the people who are usually left to do this, and what they are paid in money and in respect.",
+      "why": "At his ashrams everyone took turns cleaning the latrines, work that Indian society forced on the people it called untouchable. He once threatened to put his wife out for refusing to empty a guest’s chamber pot, and was ashamed of the threat for the rest of his life. He held that no work is low.",
+      "variations": [
+        "Pick up litter in your street for twenty minutes.",
+        "Learn the name of the person who cleans where you work, and thank them.",
+        "Carry your own bag, cook your own meal, wash your own clothes for a day."
+      ]
+    },
+    {
+      "id": "talisman",
+      "name": "The talisman",
+      "icon": "scales",
+      "slot": "Afternoon",
+      "time": "16:00",
+      "minutes": 5,
+      "meta": "Afternoon · 5 min",
+      "instructions": "When you are in doubt today, or when the self becomes too much with you, stop. Call to mind the face of the poorest and weakest person you have ever seen. Ask whether the step you are considering will be of any use to them. Will they gain anything by it? Will it give them back some control over their own life? Decide in the light of the answer.",
+      "why": "He wrote this out as a talisman for a correspondent in August 1947, in the last months of his life. It was his plainest statement of how to test a decision, and it hangs in schools and offices across India.",
+      "variations": [
+        "Apply it to a purchase.",
+        "Apply it to how you will spend this evening.",
+        "Give something today to a person, not to a cause."
+      ]
+    },
+    {
+      "id": "evening-silence",
+      "name": "Evening prayer and silence",
+      "icon": "moon",
+      "slot": "Evening",
+      "time": "19:00",
+      "minutes": 20,
+      "meta": "Evening · 20 min",
+      "instructions": "At dusk walk for ten minutes, briskly, without talking. Then sit down. Go back over the day and ask where you departed from the truth: an exaggeration, a convenient silence, a promise not kept. Ask whom you harmed, in word or even in thought. Write the answers in two lines in a diary. Finish with a few minutes of complete silence, and go to bed early.",
+      "why": "Evening prayers at the ashram were held under the open sky at seven, followed by a short talk. He kept a diary all his life, urged everyone to do so as a watch over the self, and went to bed by nine.",
+      "variations": [
+        "Keep one whole day of silence this week, as he did every Monday.",
+        "Write to someone you wronged today.",
+        "Eat nothing after sunset."
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task-read-the-first-five-chapters-of-his-autobiography",
+      "name": "Read the first five chapters of his Autobiography",
+      "meta": "Read · 30 min",
+      "time": "20:00",
+      "slot": "Evening",
+      "action": "read"
+    },
+    {
+      "id": "task-watch-gandhi-richard-attenborough-s-film",
+      "name": "Watch Gandhi, Richard Attenborough’s film",
+      "meta": "Watch · three hours, in two sittings",
+      "time": "20:30",
+      "slot": "Evening",
+      "action": "watch"
+    },
+    {
+      "id": "task-listen-to-vaishnava-jana-to",
+      "name": "Listen to Vaishnava Jana To",
+      "meta": "Listen · his favourite hymn",
+      "time": "06:00",
+      "slot": "Morning",
+      "action": "listen"
+    },
+    {
+      "id": "task-eat-a-plain-meal-of-no-more-than-five-foods-before-sunset",
+      "name": "Eat a plain meal of no more than five foods, before sunset",
+      "meta": "Eat · his rule from 1915",
+      "time": "17:30",
+      "slot": "Afternoon",
+      "action": "eat"
+    },
+    {
+      "id": "task-journal-where-did-you-depart-from-the-truth-today",
+      "name": "Journal: where did you depart from the truth today?",
+      "meta": "Journal · 10 min",
+      "time": "21:00",
+      "slot": "Evening",
+      "action": "journal"
+    },
+    {
+      "id": "task-can-the-end-justify-the-means",
+      "name": "Can the end justify the means?",
+      "meta": "Philosophy · 10 min",
+      "time": "09:00",
+      "slot": "Morning",
+      "action": "philosophy"
+    },
+    {
+      "id": "walk-for-an-hour-at-a-good-pace",
+      "name": "Walk for an hour at a good pace",
+      "meta": "He walked about eighteen kilometres a day",
+      "time": "07:00",
+      "slot": "Morning"
+    },
+    {
+      "id": "answer-every-message-you-owe-briefly-and-honestly",
+      "name": "Answer every message you owe, briefly and honestly",
+      "meta": "He replied to every letter",
+      "time": "11:00",
+      "slot": "Morning"
+    },
+    {
+      "id": "refuse-openly-and-politely-to-go-along-with-one-thing-you-believe-is-w",
+      "name": "Refuse, openly and politely, to go along with one thing you believe is wrong",
+      "meta": "Non-cooperation",
+      "time": "14:30",
+      "slot": "Afternoon"
+    }
+  ],
+  "rules": [
+    {
+      "id": "r1",
+      "text": "Tell the truth",
+      "why": "No lies, no exaggeration, no convenient silence. If you cannot say it truthfully, do not say it."
+    },
+    {
+      "id": "r2",
+      "text": "Harm no one",
+      "why": "Not in act, word or thought. Oppose what a person does and keep goodwill towards the person."
+    },
+    {
+      "id": "r3",
+      "text": "Own little",
+      "why": "Keep only what you use. What you hold beyond your need belongs to someone who lacks it."
+    },
+    {
+      "id": "r4",
+      "text": "Do some work with your hands each day",
+      "why": "Make, mend, grow or clean. No task is beneath you."
+    },
+    {
+      "id": "r5",
+      "text": "Eat simply and sparingly",
+      "why": "Plain food, few items, nothing for the sake of the palate alone."
+    },
+    {
+      "id": "r6",
+      "text": "Fear nothing",
+      "why": "Not loss, not opinion, not authority. Without courage there is no non-violence."
+    }
+  ],
+  "immerse": {
+    "read": [
+      {
+        "id": "read-an-autobiography-the-story-of-my-experiments-with-truth",
+        "title": "An Autobiography: The Story of My Experiments with Truth",
+        "creator": "M. K. Gandhi, trans. Mahadev Desai",
+        "year": "1927 to 1929",
+        "why": "Written in weekly instalments, mostly in prison. Frank about his failures, his diet, his marriage and how he became who he was. It stops in 1921."
+      },
+      {
+        "id": "read-hind-swaraj",
+        "title": "Hind Swaraj",
+        "creator": "M. K. Gandhi",
+        "year": "1909",
+        "why": "Written in ten days on a ship, as a dialogue. A fierce short attack on modern civilisation and a statement of what real self-rule would be."
+      },
+      {
+        "id": "read-gandhi-the-years-that-changed-the-world-1914-to-1948",
+        "title": "Gandhi: The Years That Changed the World, 1914 to 1948",
+        "creator": "Ramachandra Guha",
+        "year": "2018",
+        "why": "The fullest modern biography, drawing on archives across four continents. Admiring and critical."
+      },
+      {
+        "id": "read-unto-this-last",
+        "title": "Unto This Last",
+        "creator": "John Ruskin",
+        "year": "1860",
+        "why": "The book a friend gave him for a train journey in 1904. He did not sleep that night and changed his life the next morning."
+      },
+      {
+        "id": "read-the-kingdom-of-god-is-within-you",
+        "title": "The Kingdom of God Is Within You",
+        "creator": "Leo Tolstoy",
+        "year": "1894",
+        "why": "The argument for Christian non-resistance that overwhelmed him as a young lawyer."
+      },
+      {
+        "id": "read-annihilation-of-caste",
+        "title": "Annihilation of Caste",
+        "creator": "B. R. Ambedkar",
+        "year": "1936",
+        "why": "The undelivered speech by his greatest Indian critic, with Gandhi’s reply and Ambedkar’s rejoinder. Essential for seeing where Gandhi fell short."
+      }
+    ],
+    "watch": [
+      {
+        "id": "watch-gandhi",
+        "title": "Gandhi",
+        "creator": "Richard Attenborough",
+        "year": "1982",
+        "why": "The epic film with Ben Kingsley. It simplifies, but the Salt March and the funeral are staged on the scale they happened."
+      },
+      {
+        "id": "watch-the-making-of-the-mahatma",
+        "title": "The Making of the Mahatma",
+        "creator": "Shyam Benegal",
+        "year": "1996",
+        "why": "The twenty-one years in South Africa, where a shy lawyer became a leader. Based on a book by Fatima Meer."
+      },
+      {
+        "id": "watch-lage-raho-munna-bhai",
+        "title": "Lage Raho Munna Bhai",
+        "creator": "Rajkumar Hirani",
+        "year": "2006",
+        "why": "A Mumbai gangster starts seeing Gandhi and tries truth and kindness on his enemies. A hit comedy that made his methods popular with a new generation."
+      },
+      {
+        "id": "watch-newsreels-of-the-salt-march",
+        "title": "Newsreels of the Salt March",
+        "creator": "Various cameramen",
+        "year": "1930",
+        "why": "A few minutes of silent film survive: a thin man with a staff walking very fast, and the crowd behind him."
+      }
+    ],
+    "listen": [
+      {
+        "id": "listen-vaishnava-jana-to",
+        "title": "Vaishnava Jana To",
+        "creator": "Narsinh Mehta; sung by M. S. Subbulakshmi and many others",
+        "year": "15th century",
+        "why": "A Gujarati hymn describing the true devotee as one who feels the pain of others. Sung at his prayer meetings daily."
+      },
+      {
+        "id": "listen-raghupati-raghava-raja-ram",
+        "title": "Raghupati Raghava Raja Ram",
+        "creator": "Traditional; as sung on the Salt March",
+        "year": "arranged about 1930",
+        "why": "The chant of the marchers, with a line added to say that Ishwar and Allah are both God’s names."
+      },
+      {
+        "id": "listen-abide-with-me",
+        "title": "Abide with Me",
+        "creator": "Henry Francis Lyte and William Henry Monk",
+        "year": "1847 and 1861",
+        "why": "His favourite Christian hymn. Indian military bands played it at the close of Republic Day ceremonies for decades."
+      },
+      {
+        "id": "listen-gandhi-s-voice",
+        "title": "Gandhi’s voice",
+        "creator": "Recorded at Kingsley Hall, London",
+        "year": "1931",
+        "why": "A six-minute statement on God, the only studio recording he made. Slow, quiet and exact."
+      }
+    ],
+    "art": [
+      {
+        "id": "art-bapuji-12-april-1930",
+        "title": "Bapuji, 12 April 1930",
+        "creator": "Nandalal Bose",
+        "year": "1930",
+        "why": "A linocut in black and white: Gandhi striding with his staff on the Salt March. The image that fixed him in the Indian mind."
+      },
+      {
+        "id": "art-gandhi-at-his-spinning-wheel",
+        "title": "Gandhi at his spinning wheel",
+        "creator": "Margaret Bourke-White",
+        "year": "1946",
+        "why": "The photograph for Life magazine, with the wheel large in the foreground. She had to learn to spin before she was allowed to take it."
+      },
+      {
+        "id": "art-gyarah-murti",
+        "title": "Gyarah Murti",
+        "creator": "Devi Prasad Roy Choudhury",
+        "year": "completed 1982",
+        "why": "Eleven bronze figures of every kind of Indian follow Gandhi along a road in New Delhi."
+      },
+      {
+        "id": "art-his-possessions",
+        "title": "His possessions",
+        "creator": "National Gandhi Museum, New Delhi",
+        "year": "1948",
+        "why": "Spectacles, sandals, a watch, a bowl and spoon, a small book of songs. Almost everything he owned."
+      }
+    ],
+    "eat": [
+      {
+        "id": "eat-fruit-nuts-and-dates",
+        "title": "Fruit, nuts and dates",
+        "creator": "Whatever is in season, with a few almonds or peanuts",
+        "why": "For years he lived mainly on raw food. He experimented with his diet all his life and wrote a book about it."
+      },
+      {
+        "id": "eat-boiled-vegetables-without-spices",
+        "title": "Boiled vegetables without spices",
+        "creator": "With unpolished rice or a little bread",
+        "why": "Ashram food was plain on principle: food is to keep the body in service, not to please the tongue."
+      },
+      {
+        "id": "eat-khichdi",
+        "title": "Khichdi",
+        "creator": "Rice and lentils cooked soft together",
+        "why": "The simplest complete meal in India, and what a guest at Sevagram would be given."
+      },
+      {
+        "id": "eat-jaggery",
+        "title": "Jaggery",
+        "creator": "Unrefined cane sugar",
+        "why": "He preferred it to white sugar as a village product, and distributed it to break fasts."
+      }
+    ],
+    "drink": [
+      {
+        "id": "drink-goat-s-milk",
+        "title": "Goat’s milk",
+        "creator": "A cup, warm",
+        "why": "Having vowed never to drink cow’s or buffalo’s milk, he was persuaded by his wife during an illness that the vow did not mention goats. He took a goat with him to London in 1931."
+      },
+      {
+        "id": "drink-warm-water-with-lemon-and-honey",
+        "title": "Warm water with lemon and honey",
+        "creator": "First thing in the morning",
+        "why": "His usual start to the day."
+      },
+      {
+        "id": "drink-water",
+        "title": "Water",
+        "creator": "Boiled and cooled",
+        "why": "He took no tea, coffee or alcohol and campaigned for prohibition."
+      }
+    ],
+    "customs": [
+      {
+        "id": "customs-wearing-khadi",
+        "title": "Wearing khadi",
+        "creator": "Cloth you or your neighbours have spun",
+        "why": "From 1921 he wore only a short loincloth and shawl of homespun, so as to dress like the poorest Indian."
+      },
+      {
+        "id": "customs-the-day-of-silence",
+        "title": "The day of silence",
+        "creator": "Every Monday",
+        "why": "He would not speak from Sunday evening to Monday evening, and wrote notes on scraps of paper when necessary. He used the day to catch up on letters."
+      },
+      {
+        "id": "customs-the-prayer-meeting",
+        "title": "The prayer meeting",
+        "creator": "Open to anyone, morning and evening",
+        "why": "Hymns, readings from several scriptures and a short talk. He was shot on his way to one."
+      },
+      {
+        "id": "customs-the-eleven-vows",
+        "title": "The eleven vows",
+        "creator": "Recited daily at the ashram",
+        "why": "Truth, non-violence, chastity, control of the palate, non-stealing, non-possession, fearlessness, removal of untouchability, bread labour, equal respect for religions and swadeshi."
+      }
+    ],
+    "games": [
+      {
+        "id": "games-football",
+        "title": "Football",
+        "creator": "Team sport · South Africa",
+        "year": "1900s",
+        "why": "He helped found football clubs in Durban, Pretoria and Johannesburg, all named the Passive Resisters, and used the matches to talk to crowds about resistance."
+      },
+      {
+        "id": "games-spinning-contests",
+        "title": "Spinning contests",
+        "creator": "Ashram and Congress pastime",
+        "year": "1920s onward",
+        "why": "Who can spin the most even yarn in an hour? Competitions with the wheel and the drop spindle were held at national gatherings."
+      },
+      {
+        "id": "games-gilli-danda",
+        "title": "Gilli-danda",
+        "creator": "Village game · India",
+        "year": "ancient",
+        "why": "A short stick is flicked into the air and struck with a longer one. It needs nothing that money can buy, which is the swadeshi of games."
+      }
+    ],
+    "festivals": [
+      {
+        "id": "fest-gandhi-jayanti",
+        "title": "Gandhi Jayanti",
+        "creator": "2 October",
+        "why": "His birthday, a national holiday in India and the United Nations International Day of Non-Violence. Prayer meetings are held at Raj Ghat."
+      },
+      {
+        "id": "fest-martyrs-day",
+        "title": "Martyrs’ Day",
+        "creator": "30 January",
+        "why": "The day of his assassination in 1948. India keeps two minutes of silence at eleven in the morning."
+      },
+      {
+        "id": "fest-anniversary-of-the-salt-march",
+        "title": "Anniversary of the Salt March",
+        "creator": "12 March to 6 April",
+        "why": "Groups still walk the route from Sabarmati to the sea at Dandi, some 385 kilometres."
+      }
+    ],
+    "places": [
+      {
+        "id": "place-sabarmati-ashram",
+        "title": "Sabarmati Ashram",
+        "creator": "Ahmedabad, Gujarat, India",
+        "why": "His home from 1917 to 1930 on the bank of the river. His small room, Hriday Kunj, is kept as it was. The Salt March started from the gate."
+      },
+      {
+        "id": "place-sevagram-ashram",
+        "title": "Sevagram Ashram",
+        "creator": "Wardha, Maharashtra, India",
+        "why": "A cluster of mud and bamboo huts in the middle of India where he lived from 1936. Still a working community. Visitors can stay."
+      },
+      {
+        "id": "place-gandhi-smriti",
+        "title": "Gandhi Smriti",
+        "creator": "Tees January Marg, New Delhi, India",
+        "why": "The house where he spent his last 144 days. Concrete footprints lead across the lawn to the spot where he fell."
+      },
+      {
+        "id": "place-raj-ghat",
+        "title": "Raj Ghat",
+        "creator": "New Delhi, India",
+        "why": "A black marble platform by the Yamuna marks the place of his cremation. An eternal flame burns at one end. Remove your shoes."
+      },
+      {
+        "id": "place-pietermaritzburg-railway-station",
+        "title": "Pietermaritzburg railway station",
+        "creator": "KwaZulu-Natal, South Africa",
+        "why": "Where he was thrown off a train in June 1893 for sitting in a first-class carriage. A plaque on the platform and a small exhibition mark the night that changed him."
+      },
+      {
+        "id": "place-mani-bhavan",
+        "title": "Mani Bhavan",
+        "creator": "Laburnum Road, Mumbai, India",
+        "why": "His base in Bombay for seventeen years, now a museum with his room, his wheel and a fine library."
+      }
+    ]
+  },
+  "ethics": [
+    {
+      "title": "Truth",
+      "text": "Be truthful in thought, speech and action, and be ready to admit error publicly. He called his biggest retreat a Himalayan miscalculation, in print.",
+      "practice": "Correct one thing you said today that was not quite true."
+    },
+    {
+      "title": "Non-violence",
+      "text": "Refuse to injure, and go further: wish your opponent well and try to win them over.",
+      "practice": "Do one kindness today for someone who has wronged you."
+    },
+    {
+      "title": "Non-possession",
+      "text": "Reduce your wants. Simplicity frees you for service and frees resources for others.",
+      "practice": "Give away one thing you have not used in a year."
+    },
+    {
+      "title": "Bread labour",
+      "text": "Share in the manual work that keeps you alive. It breeds respect and breaks down caste and class.",
+      "practice": "Do one job today that you normally pay or expect someone else to do."
+    },
+    {
+      "title": "Fearlessness",
+      "text": "Truth and love require courage. He preferred violence to cowardice, and non-violence to both.",
+      "practice": "Say the true thing you are afraid to say."
+    },
+    {
+      "title": "Service of the last",
+      "text": "Measure any plan by what it does for the weakest.",
+      "practice": "Apply the talisman to one decision today."
+    }
+  ],
+  "philosophy": [
+    {
+      "title": "Truth is God",
+      "text": "He began by saying God is Truth and ended by reversing it. Truth is the one thing even an atheist cannot deny. Each of us sees only a part.",
+      "practice": "Whose partial truth have you dismissed this week?"
+    },
+    {
+      "title": "Means and ends",
+      "text": "The means are the end in the making. A just society cannot come from unjust methods, any more than a rose from a weed’s seed.",
+      "practice": "Is there something good you are pursuing by a doubtful method?"
+    },
+    {
+      "title": "Satyagraha",
+      "text": "Resist injustice openly, without violence and without hatred, accepting the suffering this brings. The aim is to convert the opponent, not to defeat them.",
+      "practice": "Think of a conflict you are in. What would it look like to seek the other’s change of heart?"
+    },
+    {
+      "title": "Swaraj",
+      "text": "Political freedom is worthless without mastery of oneself. A nation of people ruled by their appetites will only change masters.",
+      "practice": "What rules you that you would like to rule?"
+    },
+    {
+      "title": "Swadeshi",
+      "text": "Our first duty is to those nearest. Buy from, work with and serve your neighbours before the distant and abstract.",
+      "practice": "Find out where one thing you used today was made, and by whom."
+    },
+    {
+      "title": "Trusteeship",
+      "text": "Whatever wealth or talent you hold beyond your needs, you hold in trust for society.",
+      "practice": "What are you a trustee of, and for whom?"
+    },
+    {
+      "title": "Sarvodaya",
+      "text": "A good economy is one in which the last person is provided for. There can be no welfare of some at the cost of others.",
+      "practice": "Who pays the hidden cost of your comfort?"
+    },
+    {
+      "title": "The experiment",
+      "text": "He called his life experiments with truth. Every conviction was to be tested in practice, and revised if it failed.",
+      "practice": "Choose one belief and design a week’s test of it."
+    }
+  ],
+  "journal": [
+    "Where did you depart from the truth today?",
+    "Whom did you harm, in word or thought?",
+    "What did you make or mend with your hands?",
+    "What do you own that you do not need?",
+    "What were you afraid of?",
+    "What work did you leave to someone else because it was beneath you?",
+    "Who was the poorest person you saw today, and did you look at them?",
+    "What did you eat for pleasure alone?",
+    "What wrong did you go along with?",
+    "Towards whom do you carry ill will?",
+    "What promise did you keep at a cost?",
+    "What did you want that you did well to refuse?",
+    "Where did your means not match your ends?",
+    "What mistake should you admit publicly?",
+    "Whom did you serve today?",
+    "What did silence show you?",
+    "Where did you exaggerate?",
+    "What in you still needs to be governed?",
+    "Whose truth did you fail to hear?",
+    "What did you buy, and who made it?",
+    "Whom do you treat as untouchable?",
+    "What would you go to prison for?",
+    "Where did anger rule you?",
+    "What did the dawn give you?",
+    "How much is enough for you?",
+    "What are you a trustee of?",
+    "Whom have you not forgiven?",
+    "What experiment is your life running now?",
+    "What would your day say, if your life were your message?",
+    "What will you hold to tomorrow?"
+  ],
+  "reflect": [
+    "What did strict truthfulness cost you, and give you?",
+    "What did working with your hands change?",
+    "What have you given up, and do you miss it?",
+    "Whom do you oppose without hating?",
+    "Whose face do you now call to mind when you decide?",
+    "Which vow will you keep?"
+  ],
+  "dayThemes": [
+    "Truth",
+    "Non-harm",
+    "Before dawn",
+    "The wheel",
+    "The thread",
+    "Homespun",
+    "Own little",
+    "Five foods",
+    "Clean it yourself",
+    "No work is low",
+    "The last person",
+    "The talisman",
+    "Fearlessness",
+    "The train at Pietermaritzburg",
+    "Holding to truth",
+    "Without hatred",
+    "Means and ends",
+    "Self-rule",
+    "The neighbour",
+    "A pinch of salt",
+    "The march",
+    "The prison cell",
+    "Silence",
+    "The fast",
+    "All religions",
+    "Trusteeship",
+    "The experiment",
+    "The Himalayan miscalculation",
+    "The walk through Noakhali",
+    "My life is my message"
+  ],
+  "guide": {
+    "intro": [
+      "Mohandas Gandhi was born in 1869 in Porbandar, a small port on the coast of Gujarat, into a family of the merchant caste that had served as chief ministers to local princes. His mother was devout and given to long fasts. He was married at thirteen, was an indifferent student, and at eighteen was sent to London to become a barrister. He came home qualified and so shy that he could not speak in court.",
+      "In 1893 he took a year’s contract with an Indian firm in South Africa. A week after landing he was thrown off a train at Pietermaritzburg for refusing to leave a first-class compartment reserved for whites. He spent the night in the cold waiting room deciding whether to go home. He stayed for twenty-one years. In that time he built a law practice, led the Indian community’s resistance to discriminatory laws, founded two rural communes, took vows of poverty and celibacy, and worked out a method he named satyagraha: holding firmly to truth. Unjust laws were to be broken openly and peacefully, and the punishment accepted without retaliation, so as to move the conscience of the opponent.",
+      "He returned to India in 1915, aged forty-five, and within five years had turned the Indian National Congress from a debating club of lawyers into a mass movement. He dressed in a loincloth of homespun cotton, travelled third class, spoke to villagers in their own languages and asked them to spin, to boycott British cloth and courts, and to lose their fear. In 1930 he walked 385 kilometres to the sea to make salt in defiance of the government monopoly, and tens of thousands followed him to prison. He was jailed for a total of more than six years.",
+      "His aims went far beyond independence. He fought the practice of untouchability, worked for friendship between Hindus and Muslims, promoted village industries and a new kind of school, and treated all of it as a single religious search. Truth, he said, was God, and non-violence the way to it. He regarded his life as a series of experiments and published his mistakes.",
+      "Independence came in August 1947 together with the partition of the country and the killing of perhaps a million people. Gandhi took no part in the celebrations. He walked through the riot districts of Bengal and fasted in Calcutta and Delhi until the leaders of the communities pledged peace. On 30 January 1948, on his way to evening prayers, he was shot dead by a Hindu nationalist who thought him too generous to Muslims.",
+      "He has critics, and they have a case. As a young man in South Africa he wrote of Africans with contempt. Dr Ambedkar, the leader of the Dalits, thought his approach to caste paternalistic and inadequate. His tests of his own celibacy in old age disturbed even his followers. This Onda takes his daily discipline of prayer, handwork, plain food, humble labour and self-examination, and the talisman he left for hard decisions, and leaves you to judge the man."
+    ],
+    "origin": "Gujarat in western India, by way of London and twenty-one years in South Africa",
+    "era": "Mohandas Karamchand Gandhi was born in 1869 and assassinated in 1948",
+    "figures": [
+      {
+        "name": "Mohandas K. Gandhi",
+        "dates": "1869 to 1948",
+        "bio": "Lawyer, editor, organiser and seeker. He weighed about fifty kilograms, laughed a great deal and answered his own post."
+      },
+      {
+        "name": "Kasturba Gandhi",
+        "dates": "1869 to 1944",
+        "bio": "His wife for sixty-two years. Unlettered when they married, she became a satyagrahi in her own right, was jailed several times and died a prisoner beside him."
+      },
+      {
+        "name": "Shrimad Rajchandra",
+        "dates": "1867 to 1901",
+        "bio": "A Jain jeweller and poet in Bombay, the nearest he had to a spiritual guide. Gandhi said no one else had so impressed him."
+      },
+      {
+        "name": "Leo Tolstoy",
+        "dates": "1828 to 1910",
+        "bio": "The Russian novelist whose late religious writings shaped him. They exchanged letters in Tolstoy’s last year, and Gandhi named a farm after him."
+      },
+      {
+        "name": "Gopal Krishna Gokhale",
+        "dates": "1866 to 1915",
+        "bio": "The moderate Congress leader he called his political guru, who told him to spend a year in India with his ears open and his mouth shut."
+      },
+      {
+        "name": "Mahadev Desai",
+        "dates": "1892 to 1942",
+        "bio": "His secretary, translator and diarist for twenty-five years, who died in prison with him."
+      },
+      {
+        "name": "Jawaharlal Nehru",
+        "dates": "1889 to 1964",
+        "bio": "His chosen political heir and India’s first prime minister, who shared few of his views on machines and villages and loved him all the same."
+      },
+      {
+        "name": "Khan Abdul Ghaffar Khan",
+        "dates": "1890 to 1988",
+        "bio": "The Pashtun leader who raised a non-violent army of a hundred thousand Muslims on the North-West Frontier. Known as the Frontier Gandhi."
+      },
+      {
+        "name": "B. R. Ambedkar",
+        "dates": "1891 to 1956",
+        "bio": "Jurist, architect of India’s constitution and leader of the Dalits. He clashed with Gandhi over separate electorates and regarded him as an obstacle to the ending of caste."
+      },
+      {
+        "name": "Sarojini Naidu",
+        "dates": "1879 to 1949",
+        "bio": "Poet and Congress president who led the raid on the Dharasana salt works after his arrest. She teased him that it cost a fortune to keep him in poverty."
+      },
+      {
+        "name": "Vinoba Bhave",
+        "dates": "1895 to 1982",
+        "bio": "The scholar he chose as the first individual satyagrahi in 1940. After 1951 he walked India asking landowners to give land to the landless."
+      }
+    ],
+    "history": [
+      {
+        "when": "2 October 1869",
+        "what": "Birth at Porbandar",
+        "detail": "The youngest child of the prince’s chief minister. He is married to Kasturba in 1883, when both are thirteen."
+      },
+      {
+        "when": "1888 to 1891",
+        "what": "London",
+        "detail": "He studies law at the Inner Temple, joins the Vegetarian Society and first reads the Bhagavad Gita, in English."
+      },
+      {
+        "when": "7 June 1893",
+        "what": "Pietermaritzburg",
+        "detail": "Ejected from the train. Within a year he has founded the Natal Indian Congress."
+      },
+      {
+        "when": "1904",
+        "what": "Phoenix Settlement",
+        "detail": "After reading Ruskin overnight he moves his newspaper and its staff to a farm near Durban, where everyone draws the same wage."
+      },
+      {
+        "when": "11 September 1906",
+        "what": "The birth of satyagraha",
+        "detail": "At a mass meeting in Johannesburg three thousand Indians swear to go to jail sooner than register under a new pass law."
+      },
+      {
+        "when": "1915",
+        "what": "Return to India",
+        "detail": "He founds an ashram at Ahmedabad and admits an untouchable family, which nearly ends it."
+      },
+      {
+        "when": "1917 to 1918",
+        "what": "Champaran, Kheda, Ahmedabad",
+        "detail": "His first Indian campaigns: for indigo growers in Bihar, drought-hit farmers in Gujarat and mill workers in the city."
+      },
+      {
+        "when": "1919 to 1922",
+        "what": "Non-cooperation",
+        "detail": "After the massacre at Amritsar he leads a national boycott. When a mob burns policemen alive at Chauri Chaura he calls it off, and is sentenced to six years."
+      },
+      {
+        "when": "12 March to 6 April 1930",
+        "what": "The Salt March",
+        "detail": "With seventy-eight companions he walks from Sabarmati to Dandi and picks up a lump of salt from the shore. Some sixty thousand people are arrested in the months that follow."
+      },
+      {
+        "when": "1932",
+        "what": "The Poona fast",
+        "detail": "In prison he fasts against separate electorates for the depressed classes. Ambedkar yields under pressure and signs a compromise he always resented."
+      },
+      {
+        "when": "August 1942",
+        "what": "Quit India",
+        "detail": "He calls on the British to leave at once and is interned in the Aga Khan Palace at Pune, where Kasturba and Mahadev Desai die."
+      },
+      {
+        "when": "1946 to 1947",
+        "what": "Noakhali and Calcutta",
+        "detail": "At seventy-seven he walks barefoot from village to village in riot-torn East Bengal. On independence day he is fasting and spinning in a Muslim house in Calcutta."
+      },
+      {
+        "when": "30 January 1948",
+        "what": "The assassination",
+        "detail": "Nathuram Godse fires three shots at close range in the garden of Birla House in Delhi."
+      }
+    ],
+    "concepts": [
+      {
+        "term": "Satya",
+        "text": "Truth as the ground of being.",
+        "detail": "More than honesty. Since no one possesses the whole truth, no one has the right to coerce another, which is why truth requires non-violence."
+      },
+      {
+        "term": "Ahimsa",
+        "text": "Non-violence as love.",
+        "detail": "Not passivity. He distinguished the non-violence of the brave, which could strike and chooses not to, from that of the weak."
+      },
+      {
+        "term": "Satyagraha",
+        "text": "Truth-force.",
+        "detail": "A method with rules: open declaration, no secrecy, no violence, no hatred, willingness to suffer and readiness to negotiate at any moment."
+      },
+      {
+        "term": "Swaraj",
+        "text": "Self-rule, inner and outer.",
+        "detail": "In Hind Swaraj he argues that India is held by Indians’ own cooperation and desires, and will be free when individuals govern themselves."
+      },
+      {
+        "term": "Swadeshi",
+        "text": "The neighbourhood principle.",
+        "detail": "Economic self-reliance through local production, above all hand spinning. The burning of foreign cloth was its most dramatic sign."
+      },
+      {
+        "term": "Sarvodaya",
+        "text": "The welfare of all.",
+        "detail": "A social order built up from the last person, with dignity of labour and equal value for all work."
+      },
+      {
+        "term": "Trusteeship",
+        "text": "Wealth held for others.",
+        "detail": "The rich are to keep what they reasonably need and act as trustees of the rest. Critics thought it naive. He thought it the only alternative to class war."
+      },
+      {
+        "term": "The constructive programme",
+        "text": "Building the new society now.",
+        "detail": "Spinning, sanitation, basic education, Hindu-Muslim unity, removal of untouchability, uplift of women. He considered it more important than civil disobedience."
+      },
+      {
+        "term": "The fast",
+        "text": "A last appeal.",
+        "detail": "Undertaken to purify himself or to awaken the conscience of those who loved him. He held that one may fast only against a friend, never to coerce an enemy."
+      }
+    ],
+    "facts": [
+      {
+        "text": "He was nominated for the Nobel Peace Prize five times and never received it. The committee later publicly regretted the omission."
+      },
+      {
+        "text": "He wrote with either hand, and his collected works fill a hundred volumes."
+      },
+      {
+        "text": "He never held any office in the government of India."
+      },
+      {
+        "text": "On the Salt March he walked about sixteen kilometres a day at the age of sixty-one, and younger marchers struggled to keep up."
+      },
+      {
+        "text": "He carried a watch pinned to his loincloth and was fanatical about punctuality."
+      },
+      {
+        "text": "The saying about being the change you wish to see in the world does not appear in his writings in those words."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Congress",
+        "meaning": "The Indian National Congress, the main organisation of the independence movement"
+      },
+      {
+        "term": "Raj",
+        "meaning": "British rule in India"
+      },
+      {
+        "term": "Dalit",
+        "meaning": "The name chosen by those once called untouchable. Gandhi used the word Harijan, which many Dalits reject"
+      },
+      {
+        "term": "Civil disobedience",
+        "meaning": "The deliberate, open, non-violent breaking of an unjust law"
+      },
+      {
+        "term": "Partition",
+        "meaning": "The division of British India into India and Pakistan in August 1947"
+      },
+      {
+        "term": "Young India and Harijan",
+        "meaning": "The weekly newspapers he edited and largely wrote"
+      }
+    ],
+    "furtherReading": [
+      {
+        "title": "Gandhi Before India",
+        "creator": "Ramachandra Guha",
+        "year": "2013",
+        "note": "The South African years in full, including what he said and did about Africans."
+      },
+      {
+        "title": "Gandhi: A Very Short Introduction",
+        "creator": "Bhikhu Parekh",
+        "year": "1997",
+        "note": "A political philosopher on the ideas, with a fair chapter of criticism."
+      },
+      {
+        "title": "Great Soul: Mahatma Gandhi and His Struggle with India",
+        "creator": "Joseph Lelyveld",
+        "year": "2011",
+        "note": "A reporter’s unsentimental account of where his social aims succeeded and failed."
+      },
+      {
+        "title": "Stride Toward Freedom",
+        "creator": "Martin Luther King Jr.",
+        "year": "1958",
+        "note": "The Montgomery bus boycott, and how King came to Gandhi’s method."
+      }
+    ],
+    "learnFrom": [
+      {
+        "name": "Gandhi Heritage Portal",
+        "note": "The complete collected works, his journals and thousands of photographs, free, run from Sabarmati Ashram.",
+        "link": "https://www.gandhiheritageportal.org"
+      },
+      {
+        "name": "Sabarmati Ashram",
+        "note": "The ashram’s own site, with visiting information and an online archive.",
+        "link": "https://gandhiashramsabarmati.org"
+      },
+      {
+        "name": "Someone who works with their hands",
+        "note": "A spinner, weaver, mender or grower near you. Ask them to teach you for an hour."
+      }
+    ],
+    "sources": [
+      {
+        "title": "An Autobiography: The Story of My Experiments with Truth",
+        "creator": "M. K. Gandhi, trans. Mahadev Desai",
+        "publisher": "Navajivan",
+        "year": "1927 to 1929"
+      },
+      {
+        "title": "Gandhi: The Years That Changed the World, 1914 to 1948",
+        "creator": "Ramachandra Guha",
+        "publisher": "Penguin Allen Lane",
+        "year": "2018"
+      },
+      {
+        "title": "Gandhi Before India",
+        "creator": "Ramachandra Guha",
+        "publisher": "Penguin Allen Lane",
+        "year": "2013"
+      },
+      {
+        "title": "Gandhi: A Very Short Introduction",
+        "creator": "Bhikhu Parekh",
+        "publisher": "Oxford University Press",
+        "year": "2001"
+      },
+      {
+        "title": "Gandhi: Prisoner of Hope",
+        "creator": "Judith M. Brown",
+        "publisher": "Yale University Press",
+        "year": "1989"
+      },
+      {
+        "title": "The Collected Works of Mahatma Gandhi",
+        "creator": "M. K. Gandhi",
+        "publisher": "Publications Division, Government of India",
+        "year": "1958 to 1994"
+      }
+    ]
+  },
+  "sensitivity": {
+    "note": "Gandhi is revered in India as the father of the nation and is also seriously criticised there and elsewhere. This Onda borrows his daily discipline and his tests of conduct. It does not present him as a saint, and it leaves out his fasts and his more extreme experiments.",
+    "requiredCaveats": [
+      "In his early years in South Africa Gandhi wrote of black Africans in demeaning terms and sought privileges for Indians apart from them. His views changed, but the record stands.",
+      "Many Dalits, following Dr Ambedkar, regard his approach to caste as patronising and reject the name Harijan that he gave them.",
+      "Long fasts are dangerous. Nothing here asks you to fast, and people with any history of disordered eating should skip the food rules.",
+      "His celibacy experiments in old age involved young women in his care and were wrong by any ordinary standard."
+    ],
+    "reviewRequired": false
+  }
+}

@@ -1,0 +1,1225 @@
+{
+  "version": 1,
+  "id": "existential",
+  "name": "Existentialism",
+  "origin": "Europe",
+  "era": "From the 1840s, at its height in Paris from 1943 to 1960",
+  "tone": "blue",
+  "icon": "door-open",
+  "font": "bebas-neue",
+  "pattern": "ruled-lines",
+  "glyph": "Être",
+  "line": "You are free. Choose, and answer for what you choose.",
+  "quote": {
+    "text": "Existence precedes essence.",
+    "by": "Jean-Paul Sartre",
+    "source": "Existentialism Is a Humanism, lecture of 29 October 1945, published 1946, trans. Philip Mairet"
+  },
+  "quotes": [
+    {
+      "text": "Man is condemned to be free.",
+      "by": "Jean-Paul Sartre",
+      "source": "Existentialism Is a Humanism, 1946, trans. Philip Mairet"
+    },
+    {
+      "text": "One is not born, but rather becomes, a woman.",
+      "by": "Simone de Beauvoir",
+      "source": "The Second Sex, 1949, opening of volume 2, trans. H. M. Parshley"
+    },
+    {
+      "text": "One must imagine Sisyphus happy.",
+      "by": "Albert Camus",
+      "source": "The Myth of Sisyphus, 1942, last line, trans. Justin O’Brien"
+    },
+    {
+      "text": "Anxiety is the dizziness of freedom.",
+      "by": "Søren Kierkegaard",
+      "source": "The Concept of Anxiety, 1844, trans. Reidar Thomte"
+    },
+    {
+      "text": "Hell is other people.",
+      "by": "Jean-Paul Sartre",
+      "source": "Garcin in the play No Exit, first performed in Paris in May 1944"
+    },
+    {
+      "text": "In the midst of winter, I found there was, within me, an invincible summer.",
+      "by": "Albert Camus",
+      "source": "Return to Tipasa, 1952, in the collection Summer"
+    },
+    {
+      "text": "Life must be understood backwards. But it must be lived forwards.",
+      "by": "Søren Kierkegaard",
+      "source": "Journals, 1843; a common English condensation of the entry"
+    }
+  ],
+  "words": [
+    {
+      "id": "word-existence",
+      "term": "Existence",
+      "meaning": "Being here, concretely, as this person",
+      "pronunciation": "eg-zis-TAHNS",
+      "language": "French",
+      "usage": "What comes first. A human being turns up in the world and only afterwards defines what they are."
+    },
+    {
+      "id": "word-essence",
+      "term": "Essence",
+      "meaning": "What a thing is; its nature",
+      "pronunciation": "eh-SAHNS",
+      "language": "French",
+      "usage": "A paper knife has one before it is made. A person, Sartre says, does not."
+    },
+    {
+      "id": "word-liberte",
+      "term": "Liberté",
+      "meaning": "Freedom",
+      "pronunciation": "lee-bair-TAY",
+      "language": "French",
+      "usage": "Not a possession. It is the very structure of being human: at every moment one must choose, and not choosing is a choice."
+    },
+    {
+      "id": "word-angoisse",
+      "term": "Angoisse",
+      "meaning": "Anguish",
+      "pronunciation": "ahn-GWAHS",
+      "language": "French",
+      "usage": "What freedom feels like from inside, when one sees that nothing forces or justifies the choice."
+    },
+    {
+      "id": "word-angest",
+      "term": "Angest",
+      "meaning": "Anxiety; dread",
+      "pronunciation": "AHNG-est",
+      "language": "Danish",
+      "usage": "Kierkegaard’s word. Unlike fear it has no object. It is the awareness of possibility."
+    },
+    {
+      "id": "word-mauvaise-foi",
+      "term": "Mauvaise foi",
+      "meaning": "Bad faith",
+      "pronunciation": "moh-VEZ FWAH",
+      "language": "French",
+      "usage": "Lying to oneself to escape freedom, by pretending to be a fixed thing: I had no choice, that is just how I am."
+    },
+    {
+      "id": "word-authenticite",
+      "term": "Authenticité",
+      "meaning": "Authenticity",
+      "pronunciation": "oh-tahn-tee-see-TAY",
+      "language": "French",
+      "usage": "Owning one’s freedom and one’s situation without excuses."
+    },
+    {
+      "id": "word-l-absurde",
+      "term": "L'absurde",
+      "meaning": "The absurd",
+      "pronunciation": "lap-SUERD",
+      "language": "French",
+      "usage": "Camus’s term for the clash between the human demand for meaning and the silence of the world."
+    },
+    {
+      "id": "word-revolte",
+      "term": "Révolte",
+      "meaning": "Revolt",
+      "pronunciation": "ray-VOLT",
+      "language": "French",
+      "usage": "Camus’s answer to the absurd: to live fully and lucidly without appeal, and to refuse what degrades people."
+    },
+    {
+      "id": "word-engagement",
+      "term": "Engagement",
+      "meaning": "Commitment",
+      "pronunciation": "ahn-gazh-MAHN",
+      "language": "French",
+      "usage": "Taking a side in one’s time. A writer who stays silent has also chosen."
+    },
+    {
+      "id": "word-facticite",
+      "term": "Facticité",
+      "meaning": "Facticity",
+      "pronunciation": "fak-tee-see-TAY",
+      "language": "French",
+      "usage": "Everything about me that is simply given: my body, my past, my birthplace, my death."
+    },
+    {
+      "id": "word-transcendance",
+      "term": "Transcendance",
+      "meaning": "Transcendence; going beyond",
+      "pronunciation": "trahn-sahn-DAHNS",
+      "language": "French",
+      "usage": "The human power to project past what is given towards what is not yet."
+    },
+    {
+      "id": "word-neant",
+      "term": "Néant",
+      "meaning": "Nothingness",
+      "pronunciation": "nay-AHN",
+      "language": "French",
+      "usage": "The gap that consciousness opens in being. Because I am not simply what I am, I can become otherwise."
+    },
+    {
+      "id": "word-etre-en-soi",
+      "term": "Être-en-soi",
+      "meaning": "Being-in-itself",
+      "pronunciation": "ET-ruh ahn SWAH",
+      "language": "French",
+      "usage": "The way things exist: solid, full, identical with themselves."
+    },
+    {
+      "id": "word-etre-pour-soi",
+      "term": "Être-pour-soi",
+      "meaning": "Being-for-itself",
+      "pronunciation": "ET-ruh poor SWAH",
+      "language": "French",
+      "usage": "The way consciousness exists: always at a distance from itself, never finished."
+    },
+    {
+      "id": "word-le-regard",
+      "term": "Le regard",
+      "meaning": "The look",
+      "pronunciation": "luh ruh-GAR",
+      "language": "French",
+      "usage": "The gaze of another person, under which I become an object and feel shame or pride."
+    },
+    {
+      "id": "word-autrui",
+      "term": "Autrui",
+      "meaning": "The Other; other people",
+      "pronunciation": "oh-TRWEE",
+      "language": "French",
+      "usage": "Those through whom I come to know myself, and who can also fix me in a role."
+    },
+    {
+      "id": "word-situation",
+      "term": "Situation",
+      "meaning": "Situation",
+      "pronunciation": "see-tue-ah-SYOHN",
+      "language": "French",
+      "usage": "Freedom is always freedom in a situation. Beauvoir stressed that some situations leave very little room."
+    },
+    {
+      "id": "word-projet",
+      "term": "Projet",
+      "meaning": "Project",
+      "pronunciation": "pro-ZHAY",
+      "language": "French",
+      "usage": "The chosen direction of a life, towards which one throws oneself forward."
+    },
+    {
+      "id": "word-delaissement",
+      "term": "Délaissement",
+      "meaning": "Abandonment",
+      "pronunciation": "day-less-MAHN",
+      "language": "French",
+      "usage": "Being left without a God or a rulebook to tell us what to do."
+    },
+    {
+      "id": "word-ambiguite",
+      "term": "Ambiguïté",
+      "meaning": "Ambiguity",
+      "pronunciation": "ahm-bee-gwee-TAY",
+      "language": "French",
+      "usage": "Beauvoir’s word for the human condition: at once subject and object, free and bound."
+    },
+    {
+      "id": "word-nausee",
+      "term": "Nausée",
+      "meaning": "Nausea",
+      "pronunciation": "noh-ZAY",
+      "language": "French",
+      "usage": "In Sartre’s novel, the sick feeling that comes when ordinary things lose their names and are simply, stickily there."
+    },
+    {
+      "id": "word-dasein",
+      "term": "Dasein",
+      "meaning": "Being-there; human existence",
+      "pronunciation": "DAH-zyn",
+      "language": "German",
+      "usage": "Heidegger’s term for the kind of being that we are: the one for whom its own being is a question."
+    },
+    {
+      "id": "word-geworfenheit",
+      "term": "Geworfenheit",
+      "meaning": "Thrownness",
+      "pronunciation": "ge-VOR-fen-hyt",
+      "language": "German",
+      "usage": "We did not choose to be born, or where, or when. We find ourselves already thrown into a world."
+    },
+    {
+      "id": "word-das-man",
+      "term": "Das Man",
+      "meaning": "The They; the anonymous one",
+      "pronunciation": "das MAHN",
+      "language": "German",
+      "usage": "The faceless everybody whose opinions we adopt: one does this, one does not do that."
+    },
+    {
+      "id": "word-sein-zum-tode",
+      "term": "Sein zum Tode",
+      "meaning": "Being-towards-death",
+      "pronunciation": "ZYN tsoom TOH-duh",
+      "language": "German",
+      "usage": "Living in the knowledge that one’s time is finite and one’s death is one’s own."
+    },
+    {
+      "id": "word-sorge",
+      "term": "Sorge",
+      "meaning": "Care",
+      "pronunciation": "ZOR-guh",
+      "language": "German",
+      "usage": "The basic structure of human existence for Heidegger: things matter to us."
+    },
+    {
+      "id": "word-grenzsituation",
+      "term": "Grenzsituation",
+      "meaning": "Limit situation",
+      "pronunciation": "GRENTS-zi-too-a-tsyohn",
+      "language": "German",
+      "usage": "Karl Jaspers’s term for death, suffering, guilt and struggle, where ordinary life breaks open."
+    },
+    {
+      "id": "word-den-enkelte",
+      "term": "Den Enkelte",
+      "meaning": "The single individual",
+      "pronunciation": "den ENG-kel-teh",
+      "language": "Danish",
+      "usage": "Kierkegaard’s hero and addressee. He asked for these words on his gravestone."
+    },
+    {
+      "id": "word-springet",
+      "term": "Springet",
+      "meaning": "The leap",
+      "pronunciation": "SPRING-et",
+      "language": "Danish",
+      "usage": "The move into faith or commitment that no argument can make for you."
+    }
+  ],
+  "practices": [
+    {
+      "id": "i-choose",
+      "name": "I choose",
+      "icon": "door-open",
+      "slot": "Morning",
+      "time": "07:30",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Write down the three main things you will do today. In front of each write the words I choose to. Not I have to, not I must. Then finish each sentence with because, and give your real reason. If you find you would not choose one of them, face that: either change it or choose it knowingly. Catch every have to during the day and rephrase it.",
+      "why": "Sartre held that we are condemned to be free: even under orders or in prison, we decide what to make of our situation. To say I have no choice is the commonest form of bad faith.",
+      "variations": [
+        "Do it for the thing you most resent.",
+        "Say no to one thing you would normally drift into.",
+        "At a moment of indecision, note that not deciding is deciding."
+      ]
+    },
+    {
+      "id": "describe-the-thing",
+      "name": "Describe the thing itself",
+      "icon": "coffee",
+      "slot": "Morning",
+      "time": "10:30",
+      "minutes": 30,
+      "meta": "Morning · 30 min",
+      "instructions": "Go to a cafe with a notebook and sit where you can see. Order something and take your time. Choose one object in front of you, a cup, a glass, your own hand. For ten minutes describe exactly what you perceive, as if you had never seen such a thing: colour, edge, weight, how it is given to you. Leave out what you know about it. Then write for twenty minutes about anything, starting from there.",
+      "why": "The French existentialists began from phenomenology, the careful description of experience. Sartre’s conversion came around the turn of 1933 when a friend pointed at an apricot cocktail and told him that with this method he could make philosophy out of that glass.",
+      "variations": [
+        "Describe a feeling in the same way, as it shows itself in the body.",
+        "Describe a person at another table without deciding who they are.",
+        "Work in the cafe for a whole morning, as they did."
+      ]
+    },
+    {
+      "id": "bad-faith",
+      "name": "Catch your bad faith",
+      "icon": "mask-happy",
+      "slot": "Afternoon",
+      "time": "14:00",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Look back over the last few hours for moments when you hid from your own freedom. There are two usual forms. In one you treat yourself as a thing: I am just a shy person, I am only doing my job, that is how I was raised. In the other you pretend you are pure freedom with no facts: my past does not count, I could stop any time. Write down one of each. Then restate both truthfully.",
+      "why": "Being and Nothingness describes a cafe waiter whose movements are a little too precise. He is playing at being a waiter, as if that were all he was. Bad faith is the wish to be a finished object and so be spared the trouble of choosing.",
+      "variations": [
+        "Notice which role you over-play.",
+        "Drop the phrase that is just who I am for a week.",
+        "Ask someone what excuse you use most."
+      ]
+    },
+    {
+      "id": "commit",
+      "name": "Commit to something",
+      "icon": "hand-fist",
+      "slot": "Afternoon",
+      "time": "17:00",
+      "minutes": 20,
+      "meta": "Afternoon · 20 min",
+      "instructions": "Choose one thing in the world that you think is wrong and within your reach, however slightly. Do one concrete act about it today: write the letter, give the hour, join the group, tell the truth in the meeting, turn up. It must cost you something and it must be public enough that you can be held to it. Do not wait until you are certain.",
+      "why": "For Sartre and Beauvoir freedom that never acts is empty. They wrote, signed, marched and edited a journal for forty years, often wrongly, on the principle that to stand aside is also to take a position.",
+      "variations": [
+        "Make a promise to another person and keep it.",
+        "Put your name to something.",
+        "Finish one thing you have been keeping open so as not to be judged on it."
+      ]
+    },
+    {
+      "id": "sisyphus",
+      "name": "The rock and the summit",
+      "icon": "mountains",
+      "slot": "Evening",
+      "time": "21:00",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Take the most repetitive task of your day, the dishes, the commute, the inbox, and do it tonight with full attention and no resentment, as the thing you are doing with this part of your one life. Then sit for five minutes with a plain fact: you will die, and you do not know when. Let it clarify. What, in the light of it, matters tomorrow, and what does not?",
+      "why": "Camus ends The Myth of Sisyphus with the man walking back down to his rock, conscious and unbowed: the struggle towards the heights is enough to fill a heart. Heidegger held that facing one’s own death is what frees a person from the They.",
+      "variations": [
+        "Do the task badly on purpose once, then well, and feel the difference.",
+        "Write what you would regret not having done.",
+        "Watch the sun go down and name what was good today."
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task-read-existentialism-is-a-humanism",
+      "name": "Read Existentialism Is a Humanism",
+      "meta": "Read · about an hour",
+      "time": "20:00",
+      "slot": "Evening",
+      "action": "read"
+    },
+    {
+      "id": "task-watch-cleo-from-5-to-7",
+      "name": "Watch Cléo from 5 to 7",
+      "meta": "Watch · 90 min in real time",
+      "time": "20:30",
+      "slot": "Evening",
+      "action": "watch"
+    },
+    {
+      "id": "task-listen-to-miles-davis-s-ascenseur-pour-l-echafaud",
+      "name": "Listen to Miles Davis’s Ascenseur pour l’échafaud",
+      "meta": "Listen · Paris, 1957",
+      "time": "22:00",
+      "slot": "Evening",
+      "action": "listen"
+    },
+    {
+      "id": "task-drink-an-apricot-cocktail-or-a-coffee-and-look-at-the-glass",
+      "name": "Drink an apricot cocktail, or a coffee, and look at the glass",
+      "meta": "Drink · where it began",
+      "time": "18:00",
+      "slot": "Evening",
+      "action": "drink"
+    },
+    {
+      "id": "task-journal-what-did-you-choose-today-and-what-did-you-let-happen",
+      "name": "Journal: what did you choose today, and what did you let happen?",
+      "meta": "Journal · 10 min",
+      "time": "21:30",
+      "slot": "Evening",
+      "action": "journal"
+    },
+    {
+      "id": "task-if-nothing-is-laid-down-in-advance-what-do-you-owe",
+      "name": "If nothing is laid down in advance, what do you owe?",
+      "meta": "Philosophy · 10 min",
+      "time": "08:30",
+      "slot": "Morning",
+      "action": "philosophy"
+    },
+    {
+      "id": "make-one-decision-you-have-been-putting-off",
+      "name": "Make one decision you have been putting off",
+      "meta": "Before midnight",
+      "time": "12:00",
+      "slot": "Afternoon"
+    },
+    {
+      "id": "look-one-person-in-the-eye-and-let-them-look-back",
+      "name": "Look one person in the eye and let them look back",
+      "meta": "The look",
+      "time": "15:30",
+      "slot": "Afternoon"
+    },
+    {
+      "id": "refuse-one-thing-that-everybody-does",
+      "name": "Refuse one thing that everybody does",
+      "meta": "Against the They",
+      "time": "11:30",
+      "slot": "Morning"
+    }
+  ],
+  "rules": [
+    {
+      "id": "r1",
+      "text": "Say I choose",
+      "why": "Never say I have to. Own each act as yours, with your reason."
+    },
+    {
+      "id": "r2",
+      "text": "Make no excuses",
+      "why": "Not your nature, your parents, your job or the times. They are your situation, and what you do with it is yours."
+    },
+    {
+      "id": "r3",
+      "text": "Decide",
+      "why": "Do not hide in keeping options open. Choose, and let yourself be judged by it."
+    },
+    {
+      "id": "r4",
+      "text": "Take a side",
+      "why": "Silence and neutrality are positions too. Commit where it matters, and say so."
+    },
+    {
+      "id": "r5",
+      "text": "Treat others as free",
+      "why": "Do not fix anyone in a role, and do not let them fix you. Will their freedom along with your own."
+    },
+    {
+      "id": "r6",
+      "text": "Remember that you will die",
+      "why": "Let it sort the important from the trivial, daily."
+    }
+  ],
+  "immerse": {
+    "read": [
+      {
+        "id": "read-existentialism-is-a-humanism",
+        "title": "Existentialism Is a Humanism",
+        "creator": "Jean-Paul Sartre",
+        "year": "1946",
+        "why": "The lecture that made the word famous. Clear, combative and short. He later thought it too simple, which is why it is the place to start."
+      },
+      {
+        "id": "read-the-myth-of-sisyphus",
+        "title": "The Myth of Sisyphus",
+        "creator": "Albert Camus",
+        "year": "1942",
+        "why": "Is life worth living if it has no meaning? An essay written at twenty-eight, in occupied France."
+      },
+      {
+        "id": "read-the-ethics-of-ambiguity",
+        "title": "The Ethics of Ambiguity",
+        "creator": "Simone de Beauvoir",
+        "year": "1947",
+        "why": "The best account of what existentialist freedom asks of us in dealing with other people."
+      },
+      {
+        "id": "read-the-stranger",
+        "title": "The Stranger",
+        "creator": "Albert Camus",
+        "year": "1942",
+        "why": "A clerk in Algiers kills a man on a beach and will not pretend to feelings he does not have. A hundred and twenty pages."
+      },
+      {
+        "id": "read-nausea",
+        "title": "Nausea",
+        "creator": "Jean-Paul Sartre",
+        "year": "1938",
+        "why": "The diary of a man in a provincial town for whom the existence of things becomes unbearable, and then a kind of revelation."
+      },
+      {
+        "id": "read-at-the-existentialist-cafe",
+        "title": "At the Existentialist Café",
+        "creator": "Sarah Bakewell",
+        "year": "2016",
+        "why": "The whole movement told as a story of friendships and quarrels, with the philosophy made plain."
+      }
+    ],
+    "watch": [
+      {
+        "id": "watch-cleo-from-5-to-7",
+        "title": "Cléo from 5 to 7",
+        "creator": "Agnès Varda",
+        "year": "1962",
+        "why": "A singer wanders Paris for ninety minutes waiting for a medical result. A film about being looked at and beginning to look."
+      },
+      {
+        "id": "watch-ikiru",
+        "title": "Ikiru",
+        "creator": "Akira Kurosawa",
+        "year": "1952",
+        "why": "A Tokyo bureaucrat learns he has months to live and finally decides to do one real thing. Its title means to live."
+      },
+      {
+        "id": "watch-the-seventh-seal",
+        "title": "The Seventh Seal",
+        "creator": "Ingmar Bergman",
+        "year": "1957",
+        "why": "A knight home from the Crusades plays chess with Death to gain time for one meaningful act."
+      },
+      {
+        "id": "watch-breathless",
+        "title": "Breathless",
+        "creator": "Jean-Luc Godard",
+        "year": "1960",
+        "why": "A small-time crook and an American student drift through Paris. The cinema’s version of a life improvised with no script."
+      }
+    ],
+    "listen": [
+      {
+        "id": "listen-ascenseur-pour-l-echafaud",
+        "title": "Ascenseur pour l’échafaud",
+        "creator": "Miles Davis",
+        "year": "1958",
+        "why": "Improvised in one night in Paris while the film played on a screen in the studio. The sound of the city after midnight."
+      },
+      {
+        "id": "listen-songs-of-juliette-greco",
+        "title": "Songs of Juliette Gréco",
+        "creator": "Juliette Gréco",
+        "year": "1950s",
+        "why": "The voice of Saint-Germain-des-Prés. Sartre wrote lyrics for her and said her voice held millions of poems."
+      },
+      {
+        "id": "listen-le-deserteur",
+        "title": "Le Déserteur",
+        "creator": "Boris Vian",
+        "year": "1954",
+        "why": "A polite letter to the president from a man who will not go to war. Banned from French radio for years."
+      },
+      {
+        "id": "listen-existentialism",
+        "title": "Existentialism",
+        "creator": "In Our Time, BBC Radio 4",
+        "year": "2001",
+        "why": "A forty-minute discussion of where it came from and what it claimed."
+      }
+    ],
+    "art": [
+      {
+        "id": "art-walking-man-i",
+        "title": "Walking Man I",
+        "creator": "Alberto Giacometti",
+        "year": "1960",
+        "why": "A thin bronze figure striding forward on heavy feet. Sartre wrote the catalogue essay for Giacometti’s first post-war show and saw in his figures the human being at a distance, alone and upright."
+      },
+      {
+        "id": "art-photographs-of-saint-germain-des-pres",
+        "title": "Photographs of Saint-Germain-des-Prés",
+        "creator": "Robert Doisneau and Brassaï",
+        "year": "1940s and 1950s",
+        "why": "The cafes, cellars and faces of the Left Bank as they were. Brassaï photographed Sartre and Beauvoir at the Flore."
+      },
+      {
+        "id": "art-nighthawks",
+        "title": "Nighthawks",
+        "creator": "Edward Hopper",
+        "year": "1942",
+        "why": "Four people in a lit diner on a dark corner, together and separate. Painted in New York in the year of The Stranger."
+      },
+      {
+        "id": "art-hostage-series",
+        "title": "Hostage series",
+        "creator": "Jean Fautrier",
+        "year": "1943 to 1945",
+        "why": "Thick, scarred paintings of heads made while in hiding outside Paris, within earshot of executions."
+      }
+    ],
+    "eat": [
+      {
+        "id": "eat-a-hard-boiled-egg-at-the-counter",
+        "title": "A hard-boiled egg at the counter",
+        "creator": "With salt, and bread",
+        "why": "The cheapest thing in a Paris cafe, taken from the wire stand on the bar. Writers lived on them."
+      },
+      {
+        "id": "eat-croque-monsieur",
+        "title": "Croque-monsieur",
+        "creator": "Toasted ham and cheese",
+        "why": "Cafe food for someone who intends to stay at the table for six hours."
+      },
+      {
+        "id": "eat-choucroute",
+        "title": "Choucroute",
+        "creator": "Sauerkraut with sausages and pork",
+        "why": "The dish of the Brasserie Lipp across the boulevard, where they went when they had money."
+      },
+      {
+        "id": "eat-couscous",
+        "title": "Couscous",
+        "creator": "Semolina with vegetables, chickpeas and broth",
+        "why": "The food of Camus’s Algiers, where he grew up poor in a working-class district."
+      }
+    ],
+    "drink": [
+      {
+        "id": "drink-an-apricot-cocktail",
+        "title": "An apricot cocktail",
+        "creator": "Apricot liqueur with something stronger",
+        "why": "The speciality of the Bec-de-Gaz bar in Montparnasse, where Raymond Aron pointed at the glass and told Sartre and Beauvoir about phenomenology."
+      },
+      {
+        "id": "drink-coffee",
+        "title": "Coffee",
+        "creator": "A small black one, made to last",
+        "why": "The price of a seat. During the Occupation they wrote at the Café de Flore all day because it had a stove."
+      },
+      {
+        "id": "drink-a-glass-of-red",
+        "title": "A glass of red",
+        "creator": "Ordinary wine, at the bar",
+        "why": "With the evening argument."
+      }
+    ],
+    "customs": [
+      {
+        "id": "customs-the-cafe-as-a-study",
+        "title": "The cafe as a study",
+        "creator": "A table, a pen, the same seat",
+        "why": "Sartre and Beauvoir wrote in cafes from morning to night, at separate tables, and received visitors there."
+      },
+      {
+        "id": "customs-the-review",
+        "title": "The review",
+        "creator": "Les Temps modernes",
+        "why": "Founded in 1945 to take a position on everything that happened. Its editorial meetings were held in Sartre’s flat."
+      },
+      {
+        "id": "customs-signing",
+        "title": "Signing",
+        "creator": "Petitions and manifestos",
+        "why": "They put their names to causes throughout their lives, among them the 1960 manifesto supporting the right to refuse to fight in Algeria."
+      },
+      {
+        "id": "customs-refusing-honours",
+        "title": "Refusing honours",
+        "creator": "No prizes, no institutions",
+        "why": "Sartre declined the Nobel Prize in 1964, saying a writer should not let himself be turned into an institution."
+      }
+    ],
+    "games": [
+      {
+        "id": "games-football",
+        "title": "Football",
+        "creator": "Team sport",
+        "year": "modern",
+        "why": "Camus kept goal for a university team in Algiers until tuberculosis stopped him at seventeen. He said that what he knew most surely about morality and duty he owed to sport."
+      },
+      {
+        "id": "games-chess",
+        "title": "Chess",
+        "creator": "Board game",
+        "year": "ancient",
+        "why": "The game the knight plays against Death in The Seventh Seal. Every move is a decision that cannot be taken back."
+      },
+      {
+        "id": "games-boxing",
+        "title": "Boxing",
+        "creator": "Sport",
+        "year": "modern",
+        "why": "As a young teacher in Le Havre, Sartre boxed with his pupils. He was small, stubborn and enjoyed a fight."
+      }
+    ],
+    "festivals": [
+      {
+        "id": "fest-night-of-ideas",
+        "title": "Night of Ideas",
+        "creator": "Late January, in Paris and many other cities",
+        "why": "An evening and night of free public talks and debates organised each year by the Institut français."
+      },
+      {
+        "id": "fest-kierkegaard-s-birthday",
+        "title": "Kierkegaard’s birthday",
+        "creator": "5 May",
+        "why": "Born in Copenhagen in 1813. The city’s university and its research centre mark the day."
+      },
+      {
+        "id": "fest-simone-de-beauvoir-prize",
+        "title": "Simone de Beauvoir Prize",
+        "creator": "9 January, her birthday",
+        "why": "Awarded in Paris each year since 2008 to a person or group defending the freedom of women."
+      }
+    ],
+    "places": [
+      {
+        "id": "place-cafe-de-flore",
+        "title": "Café de Flore",
+        "creator": "172 boulevard Saint-Germain, Paris, France",
+        "why": "Where much of Being and Nothingness was written. Go early on a weekday, sit upstairs and stay a long time. The square outside is named for Sartre and Beauvoir."
+      },
+      {
+        "id": "place-montparnasse-cemetery",
+        "title": "Montparnasse Cemetery",
+        "creator": "Paris, France",
+        "why": "Sartre and Beauvoir share a plain pale stone just inside the main gate, usually covered in metro tickets and lipstick kisses."
+      },
+      {
+        "id": "place-lourmarin",
+        "title": "Lourmarin",
+        "creator": "Vaucluse, Provence, France",
+        "why": "The village where Camus bought a house with his Nobel money. His grave in the cemetery is a rough stone with his name, among rosemary."
+      },
+      {
+        "id": "place-tipasa",
+        "title": "Tipasa",
+        "creator": "Tipaza Province, Algeria",
+        "why": "Roman ruins above the sea that Camus loved. A stele there carries his words about the right to love without measure. Check travel advice before going."
+      },
+      {
+        "id": "place-assistens-cemetery",
+        "title": "Assistens Cemetery",
+        "creator": "Nørrebro, Copenhagen, Denmark",
+        "why": "Kierkegaard lies in the family plot in what is now a much-used city park."
+      }
+    ]
+  },
+  "ethics": [
+    {
+      "title": "Responsibility",
+      "text": "In choosing for myself I choose an image of what a human being should be. I am answerable for all of it.",
+      "practice": "Take one decision today as if everyone would follow your example."
+    },
+    {
+      "title": "Authenticity",
+      "text": "Live without self-deception about your freedom and your facts.",
+      "practice": "Name one thing you do only because one does."
+    },
+    {
+      "title": "Willing the freedom of others",
+      "text": "My freedom depends on theirs. To oppress is to contradict oneself.",
+      "practice": "Give someone a real choice today where you would usually decide for them."
+    },
+    {
+      "title": "Lucidity",
+      "text": "Look at what is the case, death and absurdity included, and do not flinch into comfort.",
+      "practice": "State one hard fact about your life in a single plain sentence."
+    },
+    {
+      "title": "Solidarity",
+      "text": "Camus: I revolt, therefore we are. Refusing injustice discovers a common ground.",
+      "practice": "Stand beside someone today who is being treated as a thing."
+    },
+    {
+      "title": "Commitment",
+      "text": "Values exist only where someone acts on them.",
+      "practice": "Do one thing today that makes a belief of yours true."
+    }
+  ],
+  "philosophy": [
+    {
+      "title": "Existence precedes essence",
+      "text": "There is no human nature laid down beforehand. We exist first and define ourselves by what we do.",
+      "practice": "Finish the sentence I am, using only things you did this week."
+    },
+    {
+      "title": "Condemned to be free",
+      "text": "We did not choose to be free, and we cannot resign from it. Even obedience is chosen.",
+      "practice": "Find one have to today and translate it into I choose to, because."
+    },
+    {
+      "title": "Bad faith",
+      "text": "We flee freedom by pretending to be objects with fixed properties, or by ignoring the facts of our situation.",
+      "practice": "Catch yourself playing a part a little too well."
+    },
+    {
+      "title": "The absurd",
+      "text": "We ask the world for meaning and it does not answer. Camus asks us neither to despair nor to invent a false answer.",
+      "practice": "Do one thing today simply because it is good to do, with no further purpose."
+    },
+    {
+      "title": "The look",
+      "text": "Under another’s gaze I become an object. Relations with others are a struggle over who defines whom, and they can also be mutual recognition.",
+      "practice": "Notice when you feel watched, and how you change."
+    },
+    {
+      "title": "Situation and ambiguity",
+      "text": "Freedom is never abstract. Poverty, sex, colour and history make the field in which each person chooses. Beauvoir insists we judge with that in view.",
+      "practice": "Whose freedom is narrower than yours today, and why?"
+    },
+    {
+      "title": "Being-towards-death",
+      "text": "My death is the one thing no one can do for me. Holding it in view pulls me out of the crowd and back to my own life.",
+      "practice": "If you had one year, what would you stop doing?"
+    },
+    {
+      "title": "The single individual",
+      "text": "Truth that matters has to be lived by someone. No system, crowd or church can exist in your place.",
+      "practice": "What do you believe that you have never acted on?"
+    }
+  ],
+  "journal": [
+    "What did you choose today, and what did you let happen?",
+    "Where did you say I have to?",
+    "What excuse did you reach for?",
+    "What part did you play too well?",
+    "What decision are you avoiding?",
+    "Who looked at you today, and what did you become?",
+    "Whom did you fix in a role?",
+    "What are you keeping open so that you cannot be judged?",
+    "What did you do because one does?",
+    "What made you anxious, and what possibility was behind it?",
+    "What is simply given in your life, and what have you made of it?",
+    "Where did you take a side?",
+    "Where did you stay neutral, and whom did that help?",
+    "What would you do with a year to live?",
+    "What rock do you push?",
+    "Was there a moment today when things were merely, strangely there?",
+    "What do you owe to someone whose freedom is narrower than yours?",
+    "What promise are you bound by?",
+    "Who are you, judged only by this week?",
+    "What do you believe that you have never acted on?",
+    "What would you do if no one could justify it for you?",
+    "Where did you treat a person as a thing?",
+    "What are you waiting for permission to do?",
+    "What did you refuse?",
+    "What is absurd in your life, and can you smile at it?",
+    "When were you most yourself?",
+    "What have you become that you did not decide?",
+    "What will you answer for?",
+    "What was good today, with no reason needed?",
+    "What will you choose tomorrow?"
+  ],
+  "reflect": [
+    "Which of your have-tos turned out to be choices?",
+    "What excuses have you retired?",
+    "What did you commit to?",
+    "How has remembering death changed your days?",
+    "Whose freedom do you see more clearly?",
+    "What are you now willing to answer for?"
+  ],
+  "dayThemes": [
+    "Thrown",
+    "Existence first",
+    "Condemned to be free",
+    "I choose",
+    "Anguish",
+    "No excuses",
+    "The waiter",
+    "Bad faith",
+    "The thing itself",
+    "The apricot cocktail",
+    "Nausea",
+    "The look",
+    "Other people",
+    "The They",
+    "The single one",
+    "The leap",
+    "Situation",
+    "Ambiguity",
+    "Becoming",
+    "Commitment",
+    "Take a side",
+    "The absurd",
+    "Revolt",
+    "The stranger",
+    "The plague",
+    "Being-towards-death",
+    "The limit",
+    "Sisyphus",
+    "The summit",
+    "Invincible summer"
+  ],
+  "guide": {
+    "intro": [
+      "Existentialism is less a doctrine than a family of thinkers who start from the same place: the single human being, alive, free, mortal and obliged to decide how to live. Its ancestors are a Dane and a German of the nineteenth century. Søren Kierkegaard, writing in Copenhagen in the 1840s, argued against the great philosophical systems of his day that truth is something an individual must live, in anxiety and by a leap that no proof can make for him. Friedrich Nietzsche, a generation later, announced that God was dead and that we must create our own values. In the 1920s Martin Heidegger recast philosophy as the analysis of human existence: thrown into a world, absorbed in the anonymous They, and summoned to itself by the fact of death.",
+      "The movement that bears the name was made in Paris. Around the turn of 1933 a young teacher, Jean-Paul Sartre, was drinking with his companion Simone de Beauvoir and their friend Raymond Aron, who had been studying in Berlin. Aron pointed at his apricot cocktail and said that with the new German method one could talk about that glass and it would be philosophy. Sartre, by Beauvoir’s account, turned pale with excitement. He went to Berlin to learn it.",
+      "What he and Beauvoir built over the next fifteen years, in cafes because their rooms were unheated, was a philosophy of freedom. A human being has no fixed nature. We exist first and make ourselves by our choices. There is no God and no table of values to appeal to, so each of us is wholly responsible for what we become, and in choosing we propose a pattern for all humanity. The realisation is dizzying, and we commonly flee it by telling ourselves that we had no choice. Sartre called this bad faith.",
+      "These ideas came into their own under the German Occupation and after the Liberation, when questions of choice, collaboration and responsibility were matters of life and death. In October 1945 Sartre gave a public lecture so crowded that people fainted, and existentialism became a fashion, with its cafes, its jazz cellars and its black jumpers. Beauvoir applied it to the situation of women in The Second Sex, one of the most influential books of the century. Albert Camus, who refused the label, wrote in parallel about the absurd and about revolt. Maurice Merleau-Ponty explored the body, and Frantz Fanon the experience of the colonised.",
+      "The group broke apart over politics in the 1950s, above all over communism and the Algerian war. Structuralism replaced it in the universities. But its vocabulary of authenticity, commitment, anxiety and the absurd has never left ordinary speech, and its central demand has not dated.",
+      "This Onda asks you to live by that demand for a while: to speak of your acts as chosen, to describe what is in front of you, to catch your own excuses, to commit to something, and each evening to look at your rock and your death without flinching."
+    ],
+    "origin": "Copenhagen and Germany for its sources. Paris, on the Left Bank, for its great moment",
+    "era": "Kierkegaard wrote in the 1840s. The movement that took the name flourished from 1943 to about 1960",
+    "figures": [
+      {
+        "name": "Søren Kierkegaard",
+        "dates": "1813 to 1855",
+        "bio": "Danish writer who published under a crowd of pseudonyms, broke his engagement to the woman he loved, and attacked the comfortable Christianity of his country."
+      },
+      {
+        "name": "Fyodor Dostoevsky",
+        "dates": "1821 to 1881",
+        "bio": "Russian novelist whose Underground Man and Ivan Karamazov set out the problems of freedom without God that later thinkers took up."
+      },
+      {
+        "name": "Martin Heidegger",
+        "dates": "1889 to 1976",
+        "bio": "German philosopher whose Being and Time of 1927 gave the movement its concepts. He joined the Nazi Party in 1933 and never properly accounted for it."
+      },
+      {
+        "name": "Karl Jaspers",
+        "dates": "1883 to 1969",
+        "bio": "Psychiatrist turned philosopher at Heidelberg. Dismissed by the Nazis because his wife was Jewish, he wrote after the war on German guilt."
+      },
+      {
+        "name": "Gabriel Marcel",
+        "dates": "1889 to 1973",
+        "bio": "French Catholic philosopher and playwright who was among the first to use the word existentialism, and who gave it a religious form."
+      },
+      {
+        "name": "Jean-Paul Sartre",
+        "dates": "1905 to 1980",
+        "bio": "Philosopher, novelist, playwright and tireless public figure. Short, wall-eyed, generous with money, and the most famous intellectual of his age."
+      },
+      {
+        "name": "Simone de Beauvoir",
+        "dates": "1908 to 1986",
+        "bio": "Philosopher and novelist. Her partnership with Sartre lasted fifty-one years. The Second Sex and her memoirs made her a founder of modern feminism."
+      },
+      {
+        "name": "Albert Camus",
+        "dates": "1913 to 1960",
+        "bio": "Born poor in French Algeria, he edited the Resistance newspaper Combat and won the Nobel Prize at forty-four. He died in a car crash three years later."
+      },
+      {
+        "name": "Maurice Merleau-Ponty",
+        "dates": "1908 to 1961",
+        "bio": "The group’s most careful philosopher. He showed that we are in the world first of all as bodies."
+      },
+      {
+        "name": "Frantz Fanon",
+        "dates": "1925 to 1961",
+        "bio": "Psychiatrist from Martinique who used existentialist ideas to describe the experience of racism and colonial rule, and joined the Algerian struggle."
+      }
+    ],
+    "history": [
+      {
+        "when": "1843",
+        "what": "Kierkegaard’s first books",
+        "detail": "Either/Or and Fear and Trembling appear in Copenhagen under pseudonyms. They are little read outside Denmark for sixty years."
+      },
+      {
+        "when": "1864",
+        "what": "Notes from Underground",
+        "detail": "Dostoevsky’s narrator insists on his freedom to act against his own interest, simply to prove he is not a piano key."
+      },
+      {
+        "when": "1927",
+        "what": "Being and Time",
+        "detail": "Heidegger’s unfinished masterpiece is published and makes him famous at thirty-seven."
+      },
+      {
+        "when": "about 1933",
+        "what": "The apricot cocktail",
+        "detail": "Aron tells Sartre and Beauvoir about phenomenology in a Montparnasse bar. Sartre spends the following year at the French Institute in Berlin."
+      },
+      {
+        "when": "1938",
+        "what": "Nausea",
+        "detail": "Sartre’s first novel is published. He is a schoolteacher in Le Havre and then Paris."
+      },
+      {
+        "when": "1940 to 1941",
+        "what": "Prisoner of war",
+        "detail": "Captured with his unit, Sartre spends nine months in a camp at Trier, where he reads Heidegger and writes a Christmas play."
+      },
+      {
+        "when": "1942",
+        "what": "The Stranger and The Myth of Sisyphus",
+        "detail": "Camus publishes both in occupied Paris and joins the Resistance press."
+      },
+      {
+        "when": "1943",
+        "what": "Being and Nothingness",
+        "detail": "Sartre’s major work appears, along with Beauvoir’s first novel, She Came to Stay."
+      },
+      {
+        "when": "29 October 1945",
+        "what": "The lecture",
+        "detail": "Sartre speaks on whether existentialism is a humanism to an overflowing hall. The same month the first issue of Les Temps modernes appears."
+      },
+      {
+        "when": "1949",
+        "what": "The Second Sex",
+        "detail": "Beauvoir’s two volumes sell twenty thousand copies in a week and are placed on the Vatican’s index of forbidden books."
+      },
+      {
+        "when": "1952",
+        "what": "Sartre and Camus break",
+        "detail": "After a harsh review of Camus’s The Rebel in Sartre’s journal, the two exchange public letters and never speak again."
+      },
+      {
+        "when": "1960 to 1964",
+        "what": "Deaths and a refusal",
+        "detail": "Camus is killed in a crash in January 1960. Merleau-Ponty and Fanon die in 1961. Sartre declines the Nobel Prize in 1964."
+      },
+      {
+        "when": "19 April 1980",
+        "what": "Sartre’s funeral",
+        "detail": "Some fifty thousand people follow the coffin through Paris to Montparnasse. Beauvoir is buried beside him six years later."
+      }
+    ],
+    "concepts": [
+      {
+        "term": "Existence precedes essence",
+        "text": "The first principle.",
+        "detail": "A manufactured object is conceived before it exists. A human being exists first, encounters themselves, and is afterwards only what they make of themselves."
+      },
+      {
+        "term": "Freedom and responsibility",
+        "text": "No excuses.",
+        "detail": "Because nothing determines my choice, I am its sole author, and in choosing I affirm a value for everyone."
+      },
+      {
+        "term": "Anguish, abandonment, despair",
+        "text": "Three moods of freedom.",
+        "detail": "Anguish at the weight of choosing. Abandonment because no God or nature decides for us. Despair in the sense of counting only on what depends on our own will."
+      },
+      {
+        "term": "Bad faith",
+        "text": "Self-deception.",
+        "detail": "The attempt to escape freedom by identifying with a role or a nature, or to escape the facts by imagining oneself unbound."
+      },
+      {
+        "term": "The absurd",
+        "text": "Camus’s starting point.",
+        "detail": "Born of the encounter between human longing and the unreasonable silence of the world. It can be lived, with revolt, freedom and passion."
+      },
+      {
+        "term": "Being-for-others",
+        "text": "The look.",
+        "detail": "Other people reveal me to myself as an object in their world. Shame is the recognition that I am as they see me."
+      },
+      {
+        "term": "Situation",
+        "text": "Freedom in context.",
+        "detail": "Each person is free within a concrete situation of body, class, sex, race and history. Beauvoir showed how a situation can be made into a destiny by others."
+      },
+      {
+        "term": "Authenticity",
+        "text": "Owning oneself.",
+        "detail": "In Heidegger, resolutely taking over one’s own finite existence. In Sartre and Beauvoir, living one’s freedom lucidly and willing the freedom of all."
+      },
+      {
+        "term": "The leap",
+        "text": "Kierkegaard’s move.",
+        "detail": "The passage from one way of life to another, aesthetic, ethical or religious, cannot be reasoned into. It is made, by the single individual, in fear and trembling."
+      }
+    ],
+    "facts": [
+      {
+        "text": "Sartre and Beauvoir placed first and second in the national philosophy examination of 1929. She was twenty-one, the youngest ever to pass."
+      },
+      {
+        "text": "They addressed each other with the formal vous all their lives."
+      },
+      {
+        "text": "Camus always denied being an existentialist, and Heidegger and Jaspers both rejected the label too."
+      },
+      {
+        "text": "Being and Nothingness weighed exactly a kilogram, and is said to have sold well in wartime to shopkeepers who used it as a weight."
+      },
+      {
+        "text": "Sartre wrote the screenplay for John Huston’s film about Freud. It ran to eight hundred pages, and he took his name off the result."
+      },
+      {
+        "text": "Kierkegaard walked the streets of Copenhagen daily, talking to anyone, and called it his people bath."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Phenomenology",
+        "meaning": "The careful description of experience as it is lived, founded by Edmund Husserl"
+      },
+      {
+        "term": "Left Bank",
+        "meaning": "The south side of the Seine in Paris, home of the university and the cafes"
+      },
+      {
+        "term": "The Occupation",
+        "meaning": "German rule of France from 1940 to 1944"
+      },
+      {
+        "term": "Les Temps modernes",
+        "meaning": "The monthly review Sartre and Beauvoir founded in 1945"
+      },
+      {
+        "term": "Pseudonym",
+        "meaning": "A pen name. Kierkegaard used many, each with its own point of view"
+      },
+      {
+        "term": "Humanism",
+        "meaning": "Here, the view that human beings are the source of value"
+      }
+    ],
+    "furtherReading": [
+      {
+        "title": "Existentialism: A Very Short Introduction",
+        "creator": "Thomas R. Flynn",
+        "year": "2006",
+        "note": "Five themes and the main figures, clearly laid out."
+      },
+      {
+        "title": "Becoming Beauvoir",
+        "creator": "Kate Kirkpatrick",
+        "year": "2019",
+        "note": "A life that draws on newly released letters and diaries and shows her as a philosopher in her own right."
+      },
+      {
+        "title": "Existentialism from Dostoevsky to Sartre",
+        "creator": "ed. Walter Kaufmann",
+        "year": "1956",
+        "note": "The classic anthology of primary texts."
+      },
+      {
+        "title": "Black Skin, White Masks",
+        "creator": "Frantz Fanon",
+        "year": "1952",
+        "note": "The look, as experienced by a black man in France."
+      }
+    ],
+    "learnFrom": [
+      {
+        "name": "Stanford Encyclopedia of Philosophy",
+        "note": "A long, careful entry on existentialism and separate ones on each thinker.",
+        "link": "https://plato.stanford.edu/entries/existentialism/"
+      },
+      {
+        "name": "Internet Encyclopedia of Philosophy",
+        "note": "Peer-reviewed, plainly written articles on the movement and its figures.",
+        "link": "https://iep.utm.edu/existent/"
+      },
+      {
+        "name": "A cafe table",
+        "note": "The original classroom. Take one of the short books and a friend who disagrees with you."
+      }
+    ],
+    "sources": [
+      {
+        "title": "At the Existentialist Café: Freedom, Being and Apricot Cocktails",
+        "creator": "Sarah Bakewell",
+        "publisher": "Chatto and Windus",
+        "year": "2016"
+      },
+      {
+        "title": "Existentialism: A Very Short Introduction",
+        "creator": "Thomas R. Flynn",
+        "publisher": "Oxford University Press",
+        "year": "2006"
+      },
+      {
+        "title": "Being and Nothingness",
+        "creator": "Jean-Paul Sartre, trans. Sarah Richmond",
+        "publisher": "Routledge",
+        "year": "2018"
+      },
+      {
+        "title": "The Ethics of Ambiguity",
+        "creator": "Simone de Beauvoir, trans. Bernard Frechtman",
+        "publisher": "Philosophical Library",
+        "year": "1948"
+      },
+      {
+        "title": "The Myth of Sisyphus",
+        "creator": "Albert Camus, trans. Justin O'Brien",
+        "publisher": "Hamish Hamilton",
+        "year": "1955"
+      },
+      {
+        "title": "Becoming Beauvoir: A Life",
+        "creator": "Kate Kirkpatrick",
+        "publisher": "Bloomsbury",
+        "year": "2019"
+      }
+    ]
+  },
+  "sensitivity": {
+    "note": "Existentialism asks you to look directly at freedom, death and the absence of ready-made meaning. This Onda treats those as sources of clarity. It is a philosophical exercise and is not meant to be done in a low state.",
+    "requiredCaveats": [
+      "If thinking about death or meaninglessness weighs on you, stop the evening practice and talk to someone you trust or to a helpline.",
+      "Heidegger was a member of the Nazi Party. His concepts are used here because the movement cannot be explained without them, not as an endorsement of the man.",
+      "Sartre defended Soviet communism for years, and he and Beauvoir sometimes treated younger people in their circle badly. Admire the ideas with open eyes.",
+      "Radical freedom can sound like blaming people for their circumstances. Beauvoir’s point about situation is the corrective."
+    ],
+    "reviewRequired": false
+  }
+}

@@ -19,7 +19,7 @@ export const SettingsSchema = z.object({
   avatarPhoto: z.string().default(''),
   avatarIcon: z.string().default(''),
   avatarTone: z.enum(['blue', 'green', 'yellow', 'coral', 'purple']).default('blue'),
-  themeMode: z.enum(['light', 'dark', 'auto']).default('light'),
+  themeMode: z.enum(['light', 'dark', 'auto']).default('auto'),
   ondaThemes: z.boolean().default(true),
   /** A very light wash of the running Onda's colour behind every screen. */
   ondaTint: z.boolean().default(true),

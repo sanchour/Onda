@@ -133,7 +133,7 @@ export function RulesList({ rules, done, onToggle }: { rules: { id: string; text
 }
 
 /** Tasks: cards with an accent bar on the left, a time pill and a square checkbox. */
-const GO_ICON: Record<string, string> = { journal: 'notebook', philosophy: 'lightbulb', read: 'book-open-text', watch: 'film-strip', listen: 'headphones', art: 'paint-brush', eat: 'bowl-food', drink: 'coffee', customs: 'hand-heart' }
+const GO_ICON: Record<string, string> = { journal: 'notebook', philosophy: 'lightbulb', read: 'book-open-text', watch: 'film-strip', listen: 'headphones', art: 'paint-brush', eat: 'bowl-food', drink: 'coffee', customs: 'hand-heart', games: 'game-controller', travel: 'map-trifold' }
 
 export function TasksList({ tasks, done, onToggle, go }: { tasks: { id: string; name: string; meta: string; time?: string; action?: string }[]; done: Set<string>; onToggle: (id: string) => void; go?: boolean }) {
   const { t } = useTranslation()

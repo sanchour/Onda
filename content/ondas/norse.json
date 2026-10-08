@@ -1,0 +1,1289 @@
+{
+  "version": 1,
+  "id": "norse",
+  "name": "Norse",
+  "origin": "Scandinavia & Iceland",
+  "era": "About 750 to 1100, and remembered since",
+  "tone": "blue",
+  "icon": "boat",
+  "font": "metamorphous",
+  "pattern": "runic-zigzag",
+  "glyph": "Urðr",
+  "line": "Meet your fate with courage, keep your word and open your door.",
+  "quote": {
+    "text": "Cattle die, and kinsmen die, and so one dies one’s self; but a noble name will never die, if good renown one gets.",
+    "by": "Hávamál",
+    "source": "The Poetic Edda, Hávamál, stanza 77, trans. Henry Adams Bellows, 1923"
+  },
+  "quotes": [
+    {
+      "text": "A better burden may no man bear for wanderings wide than wisdom; it is better than wealth on unknown ways, and in grief a refuge it gives.",
+      "by": "Hávamál",
+      "source": "The Poetic Edda, Hávamál, stanza 10, trans. Henry Adams Bellows, 1923"
+    },
+    {
+      "text": "If a friend thou hast whom thou fully wilt trust, and good from him wouldst get, thy thoughts with his mingle, and gifts shalt thou make, and fare to find him oft.",
+      "by": "Hávamál",
+      "source": "The Poetic Edda, Hávamál, stanza 44, trans. Henry Adams Bellows, 1923"
+    },
+    {
+      "text": "The witless man is awake all night, thinking of many things; care-worn he is when the morning comes, and his woe is just as it was.",
+      "by": "Hávamál",
+      "source": "The Poetic Edda, Hávamál, stanza 23, trans. Henry Adams Bellows, 1923"
+    },
+    {
+      "text": "The lame rides a horse, the handless is herdsman, the deaf in battle is bold; the blind man is better than one that is burned, no good can come of a corpse.",
+      "by": "Hávamál",
+      "source": "The Poetic Edda, Hávamál, stanza 71, trans. Henry Adams Bellows, 1923"
+    },
+    {
+      "text": "The sun turns black, earth sinks in the sea, the hot stars down from heaven are whirled.",
+      "by": "Völuspá",
+      "source": "The Poetic Edda, Völuspá, stanza 57, trans. Henry Adams Bellows, 1923"
+    }
+  ],
+  "words": [
+    {
+      "id": "word-ur-r",
+      "term": "Urðr",
+      "meaning": "Fate; what has come to be",
+      "pronunciation": "OORTH-r",
+      "language": "Old Norse",
+      "usage": "Also the name of one of the three Norns who tend the well under the world tree."
+    },
+    {
+      "id": "word-orlog",
+      "term": "Örlög",
+      "meaning": "The first-laid law; one’s allotted fate",
+      "pronunciation": "UR-lurg",
+      "language": "Old Norse",
+      "usage": "What was set down at the beginning. Even the gods live under it."
+    },
+    {
+      "id": "word-hamingja",
+      "term": "Hamingja",
+      "meaning": "Luck, as a force that runs in a person or a family",
+      "pronunciation": "HAH-ming-ya",
+      "language": "Old Norse",
+      "usage": "Luck could be lent, inherited and worn out. In modern Icelandic the word means happiness."
+    },
+    {
+      "id": "word-drengskapr",
+      "term": "Drengskapr",
+      "meaning": "Honour; the bearing of a good man or woman",
+      "pronunciation": "DRENG-skap-r",
+      "language": "Old Norse",
+      "usage": "Fairness, courage and generosity together. The highest praise in the sagas is to be called a good drengr."
+    },
+    {
+      "id": "word-fri-r",
+      "term": "Friðr",
+      "meaning": "Peace, above all the peace among kin",
+      "pronunciation": "FRITH-r",
+      "language": "Old Norse",
+      "usage": "More than the absence of fighting: the bond that makes a household safe."
+    },
+    {
+      "id": "word-hugr",
+      "term": "Hugr",
+      "meaning": "Mind, heart and courage in one",
+      "pronunciation": "HOOG-r",
+      "language": "Old Norse",
+      "usage": "The seat of thought and of nerve. To have a good hugr is to be both kind and brave."
+    },
+    {
+      "id": "word-skald",
+      "term": "Skáld",
+      "meaning": "A poet",
+      "pronunciation": "SKOWLD",
+      "language": "Old Norse",
+      "usage": "Skalds served kings, and a good verse could save a life. Egill composed one overnight to keep his head."
+    },
+    {
+      "id": "word-kenning",
+      "term": "Kenning",
+      "meaning": "A poetic name made of two words",
+      "pronunciation": "KEN-ing",
+      "language": "Old Norse",
+      "usage": "The sea is the whale-road, a ship is a wave-horse, gold is Sif’s hair."
+    },
+    {
+      "id": "word-saga",
+      "term": "Saga",
+      "meaning": "A tale; literally, what is said",
+      "pronunciation": "SAH-ga",
+      "language": "Old Norse",
+      "usage": "The long prose stories written in Iceland in the thirteenth and fourteenth centuries."
+    },
+    {
+      "id": "word-edda",
+      "term": "Edda",
+      "meaning": "The name of two books of myth and poetry",
+      "pronunciation": "ED-da",
+      "language": "Old Norse",
+      "usage": "The Poetic Edda is a collection of old poems. The Prose Edda is Snorri’s handbook for poets. The meaning of the word is disputed."
+    },
+    {
+      "id": "word-ing",
+      "term": "Þing",
+      "meaning": "An assembly of free people",
+      "pronunciation": "THING",
+      "language": "Old Norse",
+      "usage": "Where law was recited, cases were heard and deals were struck. The word survives in the names of Nordic parliaments."
+    },
+    {
+      "id": "word-al-ingi",
+      "term": "Alþingi",
+      "meaning": "The general assembly of Iceland",
+      "pronunciation": "AL-thing-ee",
+      "language": "Old Norse",
+      "usage": "Founded about 930 at Þingvellir. Iceland’s parliament still carries the name."
+    },
+    {
+      "id": "word-go-i",
+      "term": "Goði",
+      "meaning": "A chieftain who also led worship",
+      "pronunciation": "GOH-thee",
+      "language": "Old Norse",
+      "usage": "In Iceland the office could be bought, shared and inherited, and followers were free to change chieftain."
+    },
+    {
+      "id": "word-blot",
+      "term": "Blót",
+      "meaning": "An offering feast",
+      "pronunciation": "BLOHT",
+      "language": "Old Norse",
+      "usage": "A sacrifice followed by a shared meal. Modern Heathens use the word for a rite of offering."
+    },
+    {
+      "id": "word-sumbl",
+      "term": "Sumbl",
+      "meaning": "A formal round of drinking and toasts",
+      "pronunciation": "SOOM-bl",
+      "language": "Old Norse",
+      "usage": "A horn goes round. Each person speaks over it: to the gods, to the dead, to a promise."
+    },
+    {
+      "id": "word-sei-r",
+      "term": "Seiðr",
+      "meaning": "A kind of magic concerned with fate and foresight",
+      "pronunciation": "SAYTH-r",
+      "language": "Old Norse",
+      "usage": "Practised mostly by women, and by Odin. What it involved is known only in outline."
+    },
+    {
+      "id": "word-volva",
+      "term": "Völva",
+      "meaning": "A seeress",
+      "pronunciation": "VUL-va",
+      "language": "Old Norse",
+      "usage": "A travelling woman with a staff who was asked to see what was coming. The poem Völuspá is spoken by one."
+    },
+    {
+      "id": "word-run",
+      "term": "Rún",
+      "meaning": "A secret; a letter of the runic alphabet",
+      "pronunciation": "ROON",
+      "language": "Old Norse",
+      "usage": "The same word means mystery and written sign."
+    },
+    {
+      "id": "word-yggdrasill",
+      "term": "Yggdrasill",
+      "meaning": "The world tree",
+      "pronunciation": "IG-dra-sil",
+      "language": "Old Norse",
+      "usage": "An ash that holds all the worlds, watered by the Norns and gnawed at root and branch."
+    },
+    {
+      "id": "word-mi-gar-r",
+      "term": "Miðgarðr",
+      "meaning": "The middle enclosure: the world of people",
+      "pronunciation": "MITH-garth-r",
+      "language": "Old Norse",
+      "usage": "Fenced off from the wild outside and ringed by a serpent in the sea."
+    },
+    {
+      "id": "word-asgar-r",
+      "term": "Ásgarðr",
+      "meaning": "The enclosure of the gods",
+      "pronunciation": "OWS-garth-r",
+      "language": "Old Norse",
+      "usage": "Home of the Æsir, joined to the human world by the bridge Bifröst."
+    },
+    {
+      "id": "word-ragnarok",
+      "term": "Ragnarök",
+      "meaning": "The fate of the gods",
+      "pronunciation": "RAG-na-ruk",
+      "language": "Old Norse",
+      "usage": "The last battle, in which the gods fall and the earth sinks, and after which a green world rises."
+    },
+    {
+      "id": "word-valholl",
+      "term": "Valhöll",
+      "meaning": "The hall of the slain",
+      "pronunciation": "VAL-hurl",
+      "language": "Old Norse",
+      "usage": "Odin’s hall, where chosen warriors feast and train for the last battle. Most of the dead went elsewhere."
+    },
+    {
+      "id": "word-norn",
+      "term": "Norn",
+      "meaning": "One of the women who shape fate",
+      "pronunciation": "NORN",
+      "language": "Old Norse",
+      "usage": "Three sit at the well, named for what was, what is becoming and what shall be."
+    },
+    {
+      "id": "word-fylgja",
+      "term": "Fylgja",
+      "meaning": "A follower: a spirit that goes with a person",
+      "pronunciation": "FILG-ya",
+      "language": "Old Norse",
+      "usage": "Often seen as an animal or a woman, and sometimes in dreams before a death."
+    },
+    {
+      "id": "word-landv-ttir",
+      "term": "Landvættir",
+      "meaning": "The spirits of the land",
+      "pronunciation": "LAND-vie-tir",
+      "language": "Old Norse",
+      "usage": "Icelandic law once told ships to take down their dragon heads so as not to frighten them. Four of them stand on Iceland’s coat of arms."
+    },
+    {
+      "id": "word-jol",
+      "term": "Jól",
+      "meaning": "Yule: the midwinter feast",
+      "pronunciation": "YOHL",
+      "language": "Old Norse",
+      "usage": "Days of drinking and oath-taking at the darkest time of the year. The Nordic word for Christmas still comes from it."
+    },
+    {
+      "id": "word-mjo-r",
+      "term": "Mjöðr",
+      "meaning": "Mead",
+      "pronunciation": "MYUTH-r",
+      "language": "Old Norse",
+      "usage": "Honey, water and time. In the myths, the mead of poetry makes anyone who drinks it a poet."
+    },
+    {
+      "id": "word-skal",
+      "term": "Skál",
+      "meaning": "A bowl; a toast",
+      "pronunciation": "SKOWL",
+      "language": "Old Norse",
+      "usage": "Still the Scandinavian word when glasses are raised."
+    },
+    {
+      "id": "word-hnefatafl",
+      "term": "Hnefatafl",
+      "meaning": "The game of the king’s table",
+      "pronunciation": "NEF-a-tafl",
+      "language": "Old Norse",
+      "usage": "A board game in which a king at the centre tries to break out through a ring of attackers."
+    },
+    {
+      "id": "word-knorr",
+      "term": "Knörr",
+      "meaning": "A broad cargo ship",
+      "pronunciation": "KNUR",
+      "language": "Old Norse",
+      "usage": "The ship that carried settlers, livestock and timber across the North Atlantic."
+    },
+    {
+      "id": "word-viking",
+      "term": "Víking",
+      "meaning": "A sea expedition for trade or plunder",
+      "pronunciation": "VEE-king",
+      "language": "Old Norse",
+      "usage": "Something a person went on. Most people of the age were farmers who never did."
+    }
+  ],
+  "practices": [
+    {
+      "id": "morning-counsel",
+      "name": "Morning counsel",
+      "icon": "book-open",
+      "slot": "Morning",
+      "time": "07:15",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Before the day starts, read one stanza of the Hávamál, the sayings of the High One. Read it twice, the second time aloud. Put it in your own words in a single sentence, and decide where in today it might apply: a meeting, a meal, a quarrel. Take the stanzas in order from the first, one each morning. They begin with a guest arriving at a door.",
+      "why": "The Hávamál is the closest thing the Norse world left to a book of advice. It is practical and dry: how to be a guest, how much to drink, whom to trust. One verse a morning is how such counsel was meant to be carried.",
+      "variations": [
+        "Write the stanza on a card and keep it in your pocket.",
+        "Learn one stanza by heart each week.",
+        "Read the Old Norse aloud alongside the translation, for the sound."
+      ]
+    },
+    {
+      "id": "out-in-all-weather",
+      "name": "Out in all weather",
+      "icon": "wind",
+      "slot": "Afternoon",
+      "time": "13:00",
+      "minutes": 20,
+      "meta": "Afternoon · 20 min",
+      "instructions": "Go outside for twenty minutes whatever the sky is doing. Dress for it properly and leave the headphones behind. Walk until you are warm. Notice the wind direction, the light and one thing that has changed since yesterday. If it is foul, go anyway and come back to something hot. The only rule is that the weather does not get a vote.",
+      "why": "People of the North lived by reading sea, sky and season, and the old poems are full of weather. Going out daily without waiting for a good day builds the plain hardiness the sagas admire.",
+      "variations": [
+        "Walk to water: a shore, a river, a canal.",
+        "Go at first light or last light.",
+        "Take someone with you and say little."
+      ]
+    },
+    {
+      "id": "handwork",
+      "name": "Handwork",
+      "icon": "hammer",
+      "slot": "Afternoon",
+      "time": "17:30",
+      "minutes": 20,
+      "meta": "Afternoon · 20 min",
+      "instructions": "Spend twenty minutes making or mending something with your hands. Whittle a spoon, sew on a button, sharpen the kitchen knives, knit a row, oil a hinge, patch a jacket. Choose one piece of work and keep to it across the days so you can watch it grow. Work without a screen. Stop when the time is up, and leave the tools ready for tomorrow.",
+      "why": "A Norse household made nearly everything it used, and skill of hand was honoured in farmers and in kings alike. A well-made, well-kept thing was a form of reputation.",
+      "variations": [
+        "Carve your initial in runes on something you made.",
+        "Learn one sound knot and use it.",
+        "Repair something for a neighbour."
+      ]
+    },
+    {
+      "id": "open-door",
+      "name": "Open door",
+      "icon": "campfire",
+      "slot": "Evening",
+      "time": "18:30",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Do one act of hospitality each day. Offer a drink and a seat to whoever comes to your door. Share your food with a colleague. Ask a new neighbour in. Give a traveller directions and walk them to the corner. On a day when no one comes, send word to someone who is alone. The Hávamál lists what a guest needs: fire, food, dry clothes, water, a towel and a welcome.",
+      "why": "In a land of long roads and hard winters, turning a traveller away could kill them. Hospitality was law and honour together, and the Hávamál opens with it.",
+      "variations": [
+        "Keep something in the house to offer at short notice.",
+        "Invite one person to eat with you this week.",
+        "Be a good guest in return: arrive on time, leave in good time."
+      ]
+    },
+    {
+      "id": "evening-telling",
+      "name": "Evening telling",
+      "icon": "moon-stars",
+      "slot": "Evening",
+      "time": "21:00",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "At the end of the day, tell it as a saga would. Three or four sentences, in the past tense, with no adjectives you do not need and no account of feelings: only who did what and what was said. Say it aloud to someone, or write it down. Then read or listen to ten minutes of a real saga or a poem from the Edda, and let that be the last thing in your head.",
+      "why": "The sagas tell terrible and funny things in the same level voice and leave the judging to the listener. Telling your own day that way takes the self-pity out of it and shows what actually happened.",
+      "variations": [
+        "Give the day a title, as saga chapters have.",
+        "Tell it to a child as a story.",
+        "Compose one kenning for something you saw today."
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": "write-your-name-in-runes",
+      "name": "Write your name in runes",
+      "meta": "Elder Futhark, on paper or scrap wood",
+      "time": "16:00",
+      "slot": "Afternoon"
+    },
+    {
+      "id": "sharpen-a-blade-or-mend-something-you-own",
+      "name": "Sharpen a blade or mend something you own",
+      "meta": "A knife, an axe, a boot, a seam",
+      "time": "17:00",
+      "slot": "Afternoon"
+    },
+    {
+      "id": "learn-to-tie-a-bowline-and-use-it-once",
+      "name": "Learn to tie a bowline and use it once",
+      "meta": "The knot that does not slip",
+      "time": "12:00",
+      "slot": "Afternoon"
+    },
+    {
+      "id": "task-read-the-first-twenty-stanzas-of-the-havamal-aloud",
+      "name": "Read the first twenty stanzas of the Hávamál aloud",
+      "meta": "Read · the guest at the door",
+      "time": "20:00",
+      "slot": "Evening",
+      "action": "read"
+    },
+    {
+      "id": "task-listen-to-helvegen-with-your-eyes-shut",
+      "name": "Listen to Helvegen with your eyes shut",
+      "meta": "Listen · Wardruna, 7 min",
+      "time": "21:30",
+      "slot": "Evening",
+      "action": "listen"
+    },
+    {
+      "id": "task-play-a-game-of-hnefatafl",
+      "name": "Play a game of hnefatafl",
+      "meta": "Games · the king must escape",
+      "time": "19:00",
+      "slot": "Evening",
+      "action": "games"
+    },
+    {
+      "id": "task-journal-what-will-be-said-of-you-when-you-are-gone",
+      "name": "Journal: what will be said of you when you are gone?",
+      "meta": "Journal · 10 min",
+      "time": "21:15",
+      "slot": "Evening",
+      "action": "journal"
+    },
+    {
+      "id": "task-if-the-ending-were-already-fixed-what-would-you-still-do-today",
+      "name": "If the ending were already fixed, what would you still do today?",
+      "meta": "Philosophy · 10 min",
+      "time": "08:00",
+      "slot": "Morning",
+      "action": "philosophy"
+    }
+  ],
+  "rules": [
+    {
+      "id": "r1",
+      "text": "Give every guest a seat, a drink and a welcome",
+      "why": "The first stanzas of the Hávamál are about the stranger at the door. Whoever comes in today, see to them before yourself."
+    },
+    {
+      "id": "r2",
+      "text": "Say less than you know",
+      "why": "The wise guest in the poem keeps quiet, listens and looks. Speak when you have something to add, and let one silence stand today."
+    },
+    {
+      "id": "r3",
+      "text": "Give your word rarely and keep it wholly",
+      "why": "An oath was sworn on a ring and remembered for generations. Promise one thing fewer today, and do every one you promise."
+    },
+    {
+      "id": "r4",
+      "text": "Drink with measure",
+      "why": "The Hávamál says the more a man drinks, the less he knows his own mind. Stop one before you would have."
+    },
+    {
+      "id": "r5",
+      "text": "Answer a gift with a gift",
+      "why": "Friendship in the poems is kept alive by exchange. If someone gave you time, food or help, give something back within the day."
+    },
+    {
+      "id": "r6",
+      "text": "Praise the day at evening",
+      "why": "The poem says to praise a day when it is over, ice when it is crossed and ale when it is drunk. Finish the work before you talk about it."
+    }
+  ],
+  "immerse": {
+    "read": [
+      {
+        "id": "read-the-poetic-edda",
+        "title": "The Poetic Edda",
+        "creator": "trans. Carolyne Larrington",
+        "year": "poems written down about 1270; this translation 2014",
+        "why": "The old poems themselves: the seeress’s vision of the beginning and end, Odin’s sayings, Thor in a wedding dress. Start with Völuspá and Hávamál."
+      },
+      {
+        "id": "read-the-prose-edda",
+        "title": "The Prose Edda",
+        "creator": "Snorri Sturluson, trans. Jesse Byock",
+        "year": "about 1220",
+        "why": "An Icelandic chieftain’s handbook for poets, and the source of most of the myths as they are told today."
+      },
+      {
+        "id": "read-njal-s-saga",
+        "title": "Njal’s Saga",
+        "creator": "Anonymous, trans. Robert Cook",
+        "year": "about 1280",
+        "why": "The greatest of the sagas of Icelanders: a fifty-year feud that law, friendship and good sense all fail to stop."
+      },
+      {
+        "id": "read-egil-s-saga",
+        "title": "Egil’s Saga",
+        "creator": "Anonymous, trans. Bernard Scudder",
+        "year": "about 1240",
+        "why": "The life of a warrior-poet who was ugly, greedy, violent and the finest skald of his age."
+      },
+      {
+        "id": "read-the-saga-of-the-volsungs",
+        "title": "The Saga of the Volsungs",
+        "creator": "Anonymous, trans. Jesse Byock",
+        "year": "13th century",
+        "why": "Sigurd, the dragon and the cursed gold. The tale behind Wagner’s Ring and much of Tolkien."
+      },
+      {
+        "id": "read-children-of-ash-and-elm",
+        "title": "Children of Ash and Elm",
+        "creator": "Neil Price",
+        "year": "2020",
+        "why": "A history of the Viking Age by an archaeologist, told from the inside: what they believed, feared and wore."
+      },
+      {
+        "id": "read-norse-mythology",
+        "title": "Norse Mythology",
+        "creator": "Neil Gaiman",
+        "year": "2017",
+        "why": "The myths retold plainly and well, close to the sources. A good first book."
+      }
+    ],
+    "watch": [
+      {
+        "id": "watch-the-northman",
+        "title": "The Northman",
+        "creator": "Robert Eggers",
+        "year": "2022",
+        "why": "A revenge saga filmed with archaeologists at the director’s elbow. The clothes, halls and rites are as near as film has come."
+      },
+      {
+        "id": "watch-when-the-raven-flies",
+        "title": "When the Raven Flies",
+        "creator": "Hrafn Gunnlaugsson",
+        "year": "1984",
+        "why": "An Icelandic film in the bleak, dry manner of the sagas, shot on the black sands where they are set."
+      },
+      {
+        "id": "watch-vikings-unearthed",
+        "title": "Vikings Unearthed",
+        "creator": "NOVA, PBS",
+        "year": "2016",
+        "why": "A documentary on how far west the Norse sailed, and on the search for a second site in North America."
+      },
+      {
+        "id": "watch-valhalla-rising",
+        "title": "Valhalla Rising",
+        "creator": "Nicolas Winding Refn",
+        "year": "2009",
+        "why": "A near-wordless film of a mute warrior carried over the sea. Harsh and strange, and not for every evening."
+      }
+    ],
+    "listen": [
+      {
+        "id": "listen-runaljod-yggdrasil",
+        "title": "Runaljod – Yggdrasil",
+        "creator": "Wardruna",
+        "year": "2013",
+        "why": "Music built on old Nordic instruments: bone flutes, goat horn, lyre and frame drum. The album includes Helvegen, a song for the road of the dead."
+      },
+      {
+        "id": "listen-edda-myths-from-medieval-iceland",
+        "title": "Edda: Myths from Medieval Iceland",
+        "creator": "Sequentia",
+        "year": "1999",
+        "why": "An attempt to sing the Eddic poems as they may once have sounded, in Old Norse, with harp and fiddle."
+      },
+      {
+        "id": "listen-rimur",
+        "title": "Rímur",
+        "creator": "Steindór Andersen",
+        "year": "2003",
+        "why": "Icelandic chanted verse, a tradition unbroken since the Middle Ages, sung by its best-known modern voice."
+      },
+      {
+        "id": "listen-der-ring-des-nibelungen",
+        "title": "Der Ring des Nibelungen",
+        "creator": "Richard Wagner",
+        "year": "1876",
+        "why": "Fifteen hours of opera drawn from the Volsung saga and the Eddas. A nineteenth-century German dream of the North, and the origin of the horned helmet."
+      }
+    ],
+    "art": [
+      {
+        "id": "art-the-oseberg-ship",
+        "title": "The Oseberg ship",
+        "creator": "Buried in 834, Norway",
+        "year": "about 820",
+        "why": "An oak ship with a spiral prow, buried with two women, a cart, sledges and tapestries. It is held by the Museum of the Viking Age in Oslo."
+      },
+      {
+        "id": "art-the-lewis-chessmen",
+        "title": "The Lewis chessmen",
+        "creator": "Walrus ivory, probably carved in Norway",
+        "year": "12th century",
+        "why": "Wide-eyed kings, queens and shield-biting warriors found on a Hebridean beach. Shown in the British Museum and the National Museum of Scotland."
+      },
+      {
+        "id": "art-the-jelling-stones",
+        "title": "The Jelling stones",
+        "creator": "Jelling, Denmark",
+        "year": "10th century",
+        "why": "Two rune stones raised by King Gorm and his son Harald Bluetooth, the second with the oldest image of Christ in Scandinavia."
+      },
+      {
+        "id": "art-gotland-picture-stones",
+        "title": "Gotland picture stones",
+        "creator": "Gotland, Sweden",
+        "year": "5th to 11th century",
+        "why": "Tall carved slabs showing ships under sail, riders welcomed with a horn and scenes from lost stories."
+      },
+      {
+        "id": "art-urnes-stave-church-portal",
+        "title": "Urnes stave church portal",
+        "creator": "Luster, Norway",
+        "year": "about 1130",
+        "why": "A doorway of interlaced beasts biting each other, carved for an earlier church and kept. It gave its name to the last Viking art style."
+      }
+    ],
+    "eat": [
+      {
+        "id": "eat-skyr",
+        "title": "Skyr",
+        "creator": "Thick cultured milk, with berries",
+        "why": "Made in Iceland since the settlement and mentioned in the sagas. Eat it with bilberries or a spoon of honey."
+      },
+      {
+        "id": "eat-flatbread",
+        "title": "Flatbread",
+        "creator": "Rye or barley, baked on a hot pan",
+        "why": "The daily bread of the North. Mix flour, water and salt, roll it thin and cook it dry."
+      },
+      {
+        "id": "eat-barley-porridge",
+        "title": "Barley porridge",
+        "creator": "With butter",
+        "why": "The plain staple of farm and ship. Simmer it slowly and stir in butter at the end."
+      },
+      {
+        "id": "eat-dried-or-smoked-fish",
+        "title": "Dried or smoked fish",
+        "creator": "With butter or on rye bread",
+        "why": "Wind-dried fish kept through winter and was traded across Europe. Smoked mackerel or herring is the nearest thing in most shops."
+      },
+      {
+        "id": "eat-lamb-and-root-vegetable-soup",
+        "title": "Lamb and root vegetable soup",
+        "creator": "A long-simmered pot",
+        "why": "Lamb, turnip, onion and herbs, in the spirit of the cauldron that hung over every hearth."
+      }
+    ],
+    "drink": [
+      {
+        "id": "drink-mead",
+        "title": "Mead",
+        "creator": "Honey wine, or honey in warm water",
+        "why": "The drink of halls and poems. A spoon of honey in hot water with a slice of apple is the version without alcohol."
+      },
+      {
+        "id": "drink-buttermilk-or-whey",
+        "title": "Buttermilk or whey",
+        "creator": "Cold",
+        "why": "The everyday drink on a dairy farm. Sour whey was also used to preserve food."
+      },
+      {
+        "id": "drink-small-ale",
+        "title": "Small ale",
+        "creator": "Or a malt drink without alcohol",
+        "why": "Weak ale was drunk daily by everyone. Any dark malt drink stands in well."
+      }
+    ],
+    "customs": [
+      {
+        "id": "customs-the-round-of-toasts",
+        "title": "The round of toasts",
+        "creator": "A horn or cup passed hand to hand",
+        "why": "At a feast each person speaks over the drink in turn: thanks, remembrance of the dead, a promise. Try one round at your own table, with any drink."
+      },
+      {
+        "id": "customs-gift-for-gift",
+        "title": "Gift for gift",
+        "creator": "Exchange that keeps a friendship",
+        "why": "A gift called for a gift in return, of fitting size. Too large a gift could shame the receiver."
+      },
+      {
+        "id": "customs-the-guest-s-three-nights",
+        "title": "The guest’s three nights",
+        "creator": "A welcome with a limit",
+        "why": "A traveller was owed shelter, and good manners kept the stay short. The Hávamál warns that the loved guest becomes loathed if he sits too long."
+      },
+      {
+        "id": "customs-naming-what-you-rely-on",
+        "title": "Naming what you rely on",
+        "creator": "Ships, swords and halls had names",
+        "why": "Things that carried a life were given names and treated with care. Name a tool, a bicycle or a boat."
+      }
+    ],
+    "games": [
+      {
+        "id": "games-hnefatafl",
+        "title": "Hnefatafl",
+        "creator": "Board game · Norse",
+        "year": "Viking Age",
+        "why": "A king and his guard at the centre, twice as many attackers at the edges. The king wins by reaching a corner. Rules are reconstructed, and boards are easy to draw."
+      },
+      {
+        "id": "games-god-of-war",
+        "title": "God of War",
+        "creator": "Video game · Santa Monica Studio",
+        "year": "2018",
+        "why": "A father and son walk through the nine worlds to scatter a mother’s ashes. The myths are bent freely and treated with unexpected tenderness."
+      },
+      {
+        "id": "games-assassin-s-creed-valhalla-discovery-tour",
+        "title": "Assassin’s Creed Valhalla: Discovery Tour",
+        "creator": "Video game · Ubisoft Montreal",
+        "year": "2021",
+        "why": "A combat-free tour of Viking Age Norway and England, with quests on farming, trade, law and belief written with historians."
+      },
+      {
+        "id": "games-valheim",
+        "title": "Valheim",
+        "creator": "Video game · Iron Gate",
+        "year": "2021",
+        "why": "Build a hall, sail a longship into fog and live through the weather. It captures the pleasure of timber, fire and a safe roof."
+      }
+    ],
+    "festivals": [
+      {
+        "id": "fest-orrablot",
+        "title": "Þorrablót",
+        "creator": "Late January to late February, Iceland",
+        "why": "A midwinter feast revived in the nineteenth century, with the old preserved foods, verses and song."
+      },
+      {
+        "id": "fest-up-helly-aa",
+        "title": "Up Helly Aa",
+        "creator": "Last Tuesday of January, Lerwick, Shetland",
+        "why": "A torchlit procession of a thousand guizers that ends with the burning of a galley. The form is Victorian, the islands’ Norse past is real."
+      },
+      {
+        "id": "fest-midsummer",
+        "title": "Midsummer",
+        "creator": "Around 21 to 24 June, across Scandinavia",
+        "why": "Bonfires, flowers and a night that barely darkens. The feast is far older than any name it has carried."
+      },
+      {
+        "id": "fest-jorvik-viking-festival",
+        "title": "Jorvik Viking Festival",
+        "creator": "February, York, England",
+        "why": "A week of living history, craft and talks in the city that was the Norse capital of northern England."
+      }
+    ],
+    "places": [
+      {
+        "id": "place-ingvellir",
+        "title": "Þingvellir",
+        "creator": "Iceland",
+        "why": "The rift valley where the Icelanders met each summer from about 930 to make law in the open air. A World Heritage Site."
+      },
+      {
+        "id": "place-viking-ship-museum",
+        "title": "Viking Ship Museum",
+        "creator": "Roskilde, Denmark",
+        "why": "Five original ships raised from the fjord, and a boatyard that builds and sails full-size reconstructions."
+      },
+      {
+        "id": "place-jelling",
+        "title": "Jelling",
+        "creator": "Jutland, Denmark",
+        "why": "Two royal mounds, the rune stones and a church between them. The place where Denmark names itself for the first time."
+      },
+      {
+        "id": "place-birka",
+        "title": "Birka",
+        "creator": "Björkö, Lake Mälaren, Sweden",
+        "why": "A trading town of the eighth to tenth centuries reached by boat from Stockholm, with thousands of grave mounds."
+      },
+      {
+        "id": "place-l-anse-aux-meadows",
+        "title": "L’Anse aux Meadows",
+        "creator": "Newfoundland, Canada",
+        "why": "The one confirmed Norse site in North America. Tree rings show wood was being cut there in the year 1021."
+      },
+      {
+        "id": "place-lofotr-viking-museum",
+        "title": "Lofotr Viking Museum",
+        "creator": "Borg, Lofoten, Norway",
+        "why": "A chieftain’s longhouse 83 metres long, rebuilt on the spot where it was found."
+      }
+    ]
+  },
+  "ethics": [
+    {
+      "title": "The open door",
+      "text": "A traveller is owed fire, food and a welcome. The Hávamál begins here, and it treats the way you receive a stranger as the measure of your house.",
+      "practice": "Offer food or drink to the next person who comes through your door, before they ask."
+    },
+    {
+      "title": "A name that outlives you",
+      "text": "Possessions and people pass. What remains is what is said of how you acted. Norse ethics is less about rules than about being someone of whom a good story can be told.",
+      "practice": "Before a decision today, ask how it would sound told plainly to your grandchildren."
+    },
+    {
+      "title": "The kept word",
+      "text": "Oaths bound families for generations, and oath-breakers have the worst place in the afterlife the seeress describes. A promise is a debt.",
+      "practice": "List every promise you have outstanding. Keep one today or release it honestly."
+    },
+    {
+      "title": "Gift and return",
+      "text": "Friendship is made of exchange: visits, help, gifts, time. The poem says to go often to a friend’s house, because weeds grow on the path no one walks.",
+      "practice": "Visit, call or write to a friend whose path has grown over."
+    },
+    {
+      "title": "Measure",
+      "text": "The Hávamál praises the middle: enough food, enough drink, enough wisdom. It warns that the over-wise are seldom glad.",
+      "practice": "Stop one thing today while it is still good: a meal, a drink, an argument."
+    },
+    {
+      "title": "Courage without hope of reward",
+      "text": "The gods know they will lose the last battle and prepare for it anyway. Doing right is not made pointless by a bad outcome.",
+      "practice": "Do one right thing today that you expect to get no credit for."
+    }
+  ],
+  "philosophy": [
+    {
+      "title": "Fate and the free hand",
+      "text": "What will happen is laid down, and the Norns have cut it. What is left to you is how you meet it, and that is where all honour lies. The sagas admire people who walk into a known end with a joke.",
+      "practice": "Name one thing you cannot change this week. Write one sentence on how you intend to meet it."
+    },
+    {
+      "title": "The world ends, and the work goes on",
+      "text": "Norse myth is unusual in telling of the gods’ defeat. Odin gathers warriors knowing it will not be enough. The meaning lies in the stand and not in the result.",
+      "practice": "Do today’s work as if it mattered whether or not it lasts."
+    },
+    {
+      "title": "Wisdom is paid for",
+      "text": "Odin gave an eye for a drink from the well of wisdom and hung nine nights on the tree to win the runes. Nothing worth knowing came free, even to a god.",
+      "practice": "Choose one thing you want to understand. Decide what you will give up this week to make room for it."
+    },
+    {
+      "title": "Middling wise",
+      "text": "Three stanzas of the Hávamál say a person should be wise in measure, never too wise. Whoever sees their fate too clearly has no easy heart.",
+      "practice": "Leave one question unresearched today. Notice whether you are lighter for it."
+    },
+    {
+      "title": "The gnawed tree",
+      "text": "The world tree holds everything and is eaten at every moment: a serpent at the root, deer in the branches, rot in the trunk. The world is sustained and wearing out at once, and it is tended anyway.",
+      "practice": "Tend one thing today that is slowly wearing out: a friendship, a tool, your own back."
+    },
+    {
+      "title": "Luck is a thing you build",
+      "text": "Hamingja was luck, and also something like stored worth. It grew with good dealing, could be lent to a friend on a journey and passed to a child with a name.",
+      "practice": "Do one thing today that adds to the luck of someone younger than you."
+    },
+    {
+      "title": "With law the land is built",
+      "text": "A saying found in Njal’s Saga and in old Nordic law: with law shall the land be built up, and with lawlessness laid waste. Free people settled disputes by argument at the assembly, when it worked.",
+      "practice": "Settle one disagreement today by terms both sides can state aloud."
+    }
+  ],
+  "journal": [
+    "Who came to your door today, in any sense, and how did you receive them?",
+    "What would be said of today if it were told in three plain sentences?",
+    "Which promise are you carrying, and how does it stand?",
+    "What did you make or mend with your hands?",
+    "Where did you say more than you knew?",
+    "What can you not change, and how did you meet it?",
+    "Who gave you something today, and what will you give back?",
+    "What was the weather, and what did it ask of you?",
+    "When did you stop at enough, and when did you not?",
+    "Whose path to your house has grown over with grass?",
+    "What did you do today that took some nerve?",
+    "Which stanza stayed with you, and where did it apply?",
+    "What are you paying for the thing you most want to know?",
+    "What name would you give to a tool or thing you rely on?",
+    "Who are your kin, by blood or by choice, and what do you owe them?",
+    "What would you do differently if no one would ever hear of it?",
+    "What is wearing out around you that deserves tending?",
+    "When were you a good guest today?",
+    "What did you listen to in silence?",
+    "What quarrel could be settled by stating terms aloud?",
+    "What did the dark part of the day give you?",
+    "Which of your possessions would you want buried with you, and why?",
+    "What piece of luck did you inherit, and from whom?",
+    "Where did you wait to praise until the thing was done?",
+    "What story do you tell about yourself that a saga would cut?",
+    "What do you want to be known for in your own street?",
+    "What did you learn from an older person this week?",
+    "Which fear turned out smaller when you walked up to it?",
+    "What would you carry on a long crossing, and what would you leave?",
+    "What will you still do, knowing how it ends?"
+  ],
+  "reflect": [
+    "What did living by an open door change in your house?",
+    "Which rule was hardest to keep, and what did that show you?",
+    "What did you make or mend in these days, and what will you keep making?",
+    "How has your view of fate, luck and effort shifted?",
+    "What do you now want to be said of you?",
+    "Which stanza or story will you carry forward?"
+  ],
+  "dayThemes": [
+    "The guest at the door",
+    "Say less than you know",
+    "Fire, food and welcome",
+    "The kept word",
+    "Out in all weather",
+    "The work of the hands",
+    "Gift for gift",
+    "The middle measure",
+    "A name that lasts",
+    "The path to a friend",
+    "Odin’s price",
+    "The well and the tree",
+    "What the Norns have cut",
+    "Courage at the crossing",
+    "The long winter",
+    "The telling of the day",
+    "Kin and peace",
+    "The assembly",
+    "Luck that is built",
+    "Praise the day at evening",
+    "The sea road",
+    "The whale-road and the wave-horse",
+    "The seeress speaks",
+    "The gnawed tree",
+    "The settler’s first year",
+    "The lawspeaker’s choice",
+    "The last stand",
+    "The green earth rising",
+    "What you carry aboard",
+    "Fame after death"
+  ],
+  "guide": {
+    "intro": [
+      "The Norse were the people of Scandinavia in the centuries before and during its conversion to Christianity. They were farmers and fishers first. Some were also traders, settlers, poets and raiders, and in the age we call Viking they reached Baghdad by river and North America by sea. This Onda is about how they saw the world: a view built on fate, reputation, hospitality and a dry, unsentimental courage.",
+      "They had no single holy book and no word for religion. They spoke of custom. There were many gods, among them Odin, who sought wisdom at any price; Thor, who defended the human world; and Freyja and Freyr, who gave love and harvest. There were also spirits of land and family, honoured at the farm. Worship meant offerings and shared feasts, led by the head of the household or a chieftain, outdoors or in the hall.",
+      "Nearly everything we can read about this world was written down later, by Christians, mostly in Iceland. Around 1220 the chieftain Snorri Sturluson wrote a handbook for poets that retells the myths. Around 1270 someone copied a collection of old poems into the small manuscript now called the Codex Regius. The sagas, long prose stories about the settlers of Iceland and their feuds, were written in the same century. These sources are precious and are not neutral. Archaeology fills in the rest: ships, graves, rune stones, combs and gaming pieces.",
+      "What comes through is a moral world without a promise of rescue. The gods themselves will die at Ragnarök, and they know it. Fate is fixed and cannot be bargained with. What is left to a person is conduct: to keep faith with kin and friends, to be generous to a guest, to speak little and carefully, to hold to a promise and to face what comes without complaint. A good name is the one thing that outlasts death.",
+      "The practices here are taken from that everyday ethic, above all from the Hávamál, the poem of advice put in Odin’s mouth. You will read a stanza each morning, go out in all weather, work with your hands, keep an open door and tell your day plainly at night. Nothing here is a religious rite. Heathenry is a living religion today, in Iceland and elsewhere, and its rites belong to its communities.",
+      "One more thing needs saying. In the last two centuries Norse symbols have been taken up by nationalist and racist movements, from the Nazis to groups active now. That use is a modern invention. The Viking world was a trading world that married, borrowed and settled across every border it crossed."
+    ],
+    "origin": "Scandinavia, and the places its people settled: Iceland, the Faroes, Greenland, the British Isles and the rivers of the east",
+    "era": "The Viking Age, about 750 to 1100, with roots centuries older and written sources from thirteenth-century Iceland",
+    "figures": [
+      {
+        "name": "Snorri Sturluson",
+        "dates": "1179–1241",
+        "bio": "Icelandic chieftain, lawspeaker and writer. His Prose Edda preserved the myths and his Heimskringla the lives of the Norwegian kings. He was killed in his own cellar on the orders of one of them."
+      },
+      {
+        "name": "Egill Skallagrímsson",
+        "dates": "c. 910–c. 990",
+        "bio": "Farmer, fighter and the greatest skald of the Viking Age. His lament for his drowned son, Sonatorrek, is one of the first personal poems in a northern language."
+      },
+      {
+        "name": "Aud the Deep-Minded",
+        "dates": "9th century",
+        "bio": "A queen’s widow who had a ship built in secret, sailed her household from Scotland to Iceland and took a whole district, giving land and freedom to those who came with her."
+      },
+      {
+        "name": "Thorgeir Thorkelsson",
+        "dates": "10th century",
+        "bio": "Lawspeaker of Iceland and a pagan priest. Asked to rule between the old faith and the new around the year 1000, he lay under a cloak for a day and a night and chose one law for all, to keep the peace."
+      },
+      {
+        "name": "Gudrid Thorbjarnardóttir",
+        "dates": "c. 980–after 1020",
+        "bio": "Called the far-traveller. She sailed to Greenland and to Vinland, where her son was born, and in old age walked to Rome."
+      },
+      {
+        "name": "Leif Eriksson",
+        "dates": "c. 970–c. 1020",
+        "bio": "Son of Erik the Red. Around the year 1000 he led the first known European landing in North America."
+      },
+      {
+        "name": "Harald Bluetooth",
+        "dates": "died c. 986",
+        "bio": "King who united Denmark and, as his rune stone at Jelling says, made the Danes Christian. A wireless standard carries his name."
+      },
+      {
+        "name": "Saxo Grammaticus",
+        "dates": "c. 1150–c. 1220",
+        "bio": "Danish cleric whose Latin history of the Danes gives other versions of the myths, and the first telling of the story of Hamlet."
+      },
+      {
+        "name": "Brynjólfur Sveinsson",
+        "dates": "1605–1675",
+        "bio": "Bishop of Skálholt who came into possession of the Codex Regius in 1643 and saw what it was. Without him the Eddic poems might be lost."
+      },
+      {
+        "name": "Sveinbjörn Beinteinsson",
+        "dates": "1924–1993",
+        "bio": "Icelandic farmer and poet, master of the old chanted verse. In 1972 he founded Ásatrúarfélagið, which won recognition for the old religion in Iceland the following year."
+      }
+    ],
+    "history": [
+      {
+        "when": "c. 160 CE",
+        "what": "The first runes",
+        "detail": "A comb found in a Danish bog at Vimose carries one of the oldest runic inscriptions known: a single name. Runes stayed in use for well over a thousand years."
+      },
+      {
+        "when": "793",
+        "what": "The raid on Lindisfarne",
+        "detail": "Seaborne raiders attacked a monastery off the coast of Northumbria. Writers at the time treated it as a shock, and later historians made it the opening date of the Viking Age."
+      },
+      {
+        "when": "834",
+        "what": "The Oseberg burial",
+        "detail": "Two women were buried in southern Norway in a richly carved ship with animals, wagons and textiles. It is the finest grave of the age, and no one knows who they were."
+      },
+      {
+        "when": "c. 870",
+        "what": "The settlement of Iceland",
+        "detail": "Families from Norway and the British Isles began to settle an empty island. Within sixty years the usable land was taken."
+      },
+      {
+        "when": "c. 930",
+        "what": "The Althing is founded",
+        "detail": "The Icelanders set up a general assembly at Þingvellir, with a lawspeaker who recited the law from memory. There was no king."
+      },
+      {
+        "when": "c. 965",
+        "what": "Harald’s stone at Jelling",
+        "detail": "Harald Bluetooth raised a great carved stone saying he had won all Denmark and made the Danes Christian. Conversion in the North was slow and came mostly from the top."
+      },
+      {
+        "when": "c. 986",
+        "what": "Greenland",
+        "detail": "Erik the Red, outlawed from Iceland, led settlers to the fjords of south-west Greenland. The colony lasted more than four hundred years."
+      },
+      {
+        "when": "c. 1000",
+        "what": "One law in Iceland",
+        "detail": "With the country close to splitting, the Althing accepted Christianity by the decision of a pagan lawspeaker. Private worship of the old gods was allowed for a time."
+      },
+      {
+        "when": "1021",
+        "what": "Timber cut in Newfoundland",
+        "detail": "Tree rings from L’Anse aux Meadows show that Norse people were felling trees there in exactly this year, the earliest precise date for Europeans in the Americas."
+      },
+      {
+        "when": "1066",
+        "what": "Stamford Bridge",
+        "detail": "Harald Hardrada of Norway died invading England. The date is the conventional end of the Viking Age."
+      },
+      {
+        "when": "c. 1220",
+        "what": "Snorri writes the Prose Edda",
+        "detail": "Two centuries after the conversion, an Icelandic chieftain set down the old myths so that young poets could still understand the old images."
+      },
+      {
+        "when": "c. 1270",
+        "what": "The Codex Regius",
+        "detail": "An unknown scribe copied twenty-nine poems about gods and heroes into a small plain book. It is the main source of the Poetic Edda."
+      },
+      {
+        "when": "1971",
+        "what": "The manuscripts come home",
+        "detail": "Denmark returned the Codex Regius and Flateyjarbók to Iceland by warship. Crowds lined the harbour in Reykjavík and the day was shown live on television."
+      },
+      {
+        "when": "1973",
+        "what": "The old religion is recognised",
+        "detail": "Iceland gave official standing to Ásatrúarfélagið, founded the year before. It is now one of the largest religious groups in the country outside the national church."
+      }
+    ],
+    "concepts": [
+      {
+        "term": "Yggdrasil",
+        "text": "The ash tree that holds the worlds.",
+        "detail": "Its three roots reach to three wells. An eagle sits at the top, a serpent gnaws below and a squirrel carries insults between them. The Norns water it daily. The image is of a universe that is alive, suffering and cared for."
+      },
+      {
+        "term": "The Norns and fate",
+        "text": "Three women who shape what will be.",
+        "detail": "Urðr, Verðandi and Skuld sit at the well and cut the fate of every child. Nothing in the myths can overrule them, not Odin and not prayer. The ethical weight therefore falls on how a fate is met."
+      },
+      {
+        "term": "Ragnarök",
+        "text": "The fate of the gods.",
+        "detail": "After three winters with no summer, the bound wolf breaks loose, the serpent leaves the sea and the gods fight a battle they lose. The earth sinks. Then it rises again green, and two people who hid in the tree begin once more."
+      },
+      {
+        "term": "Æsir and Vanir",
+        "text": "Two families of gods.",
+        "detail": "The Æsir, among them Odin, Thor and Frigg, are tied to rule, war and wisdom. The Vanir, among them Njörðr, Freyr and Freyja, are tied to sea, harvest and desire. The myths say they fought, made peace and exchanged hostages."
+      },
+      {
+        "term": "Valhalla and Hel",
+        "text": "Where the dead go.",
+        "detail": "Warriors chosen by Odin feast in Valhalla, and Freyja takes half the slain to her own field. Most people went to Hel, a quiet realm under the earth with a ruler of the same name. It was not a place of punishment."
+      },
+      {
+        "term": "Hospitality",
+        "text": "The duty to the guest.",
+        "detail": "The opening of the Hávamál sets out what a traveller needs and how host and guest should behave. Odin himself was said to walk the roads in disguise, which gave every stranger a certain weight."
+      },
+      {
+        "term": "Honour and reputation",
+        "text": "What is said of you.",
+        "detail": "In a society without police or prisons, standing was a person’s protection. An insult had to be answered, a debt paid and a promise kept, or the family’s worth fell. The sagas show the cost of this as clearly as its dignity."
+      },
+      {
+        "term": "The assembly",
+        "text": "Law made in the open.",
+        "detail": "Free farmers met at local and national assemblies to hear the law, bring cases and arrange settlements. There was no force to carry out a verdict, so enforcement fell to the winning side, and feuds grew from that gap."
+      },
+      {
+        "term": "Skaldic verse and kennings",
+        "text": "Poetry as a craft of riddles.",
+        "detail": "Court poets worked in tight metres with internal rhyme and layered names. To follow a verse you needed the myths, which is why Snorri wrote them down."
+      },
+      {
+        "term": "Runes",
+        "text": "Letters cut in wood and stone.",
+        "detail": "The older alphabet had twenty-four signs and the Viking Age one sixteen. Most inscriptions are memorials, ownership marks and messages: this stone was raised for a good brother; Gyda says you should go home."
+      }
+    ],
+    "facts": [
+      {
+        "text": "No horned helmet has ever been found in a Viking grave. The horns were added by a costume designer for the first complete staging of Wagner’s Ring in 1876."
+      },
+      {
+        "text": "Tuesday, Wednesday, Thursday and Friday are named in English after Tyr, Odin, Thor and Frigg, in their Old English forms."
+      },
+      {
+        "text": "The Bluetooth symbol joins two runes, the initials of King Harald Bluetooth, who joined Denmark and Norway."
+      },
+      {
+        "text": "Combs, tweezers and ear spoons are among the most common finds in Norse graves. The Old Norse word for Saturday, laugardagr, means washing day."
+      },
+      {
+        "text": "A piece of wood from Bergen, carved about 1200, reads: Gyda says you should go home. It was probably sent to a husband in the tavern."
+      },
+      {
+        "text": "Iceland’s parliament, the Althing, traces its founding to about 930, which makes it one of the oldest in the world."
+      },
+      {
+        "text": "The poem Völuspá says that after the end of the world the gods will find their golden gaming pieces lying in the grass."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Æsir",
+        "meaning": "The main family of gods, including Odin, Thor and Frigg"
+      },
+      {
+        "term": "Vanir",
+        "meaning": "The gods of sea, harvest and desire, including Freyr and Freyja"
+      },
+      {
+        "term": "Jötunn",
+        "meaning": "A giant: one of the old powers who are rivals and relatives of the gods"
+      },
+      {
+        "term": "Futhark",
+        "meaning": "The runic alphabet, named for its first six letters"
+      },
+      {
+        "term": "Heathenry",
+        "meaning": "A modern name for the living religion that honours the old Germanic gods"
+      },
+      {
+        "term": "Codex Regius",
+        "meaning": "The thirteenth-century Icelandic manuscript that holds most of the Eddic poems"
+      }
+    ],
+    "furtherReading": [
+      {
+        "title": "The Viking Way: Magic and Mind in Late Iron Age Scandinavia",
+        "creator": "Neil Price",
+        "year": "2019",
+        "note": "The fullest study of sorcery, seeresses and the Norse mind."
+      },
+      {
+        "title": "Norse Mythology: A Guide to the Gods, Heroes, Rituals, and Beliefs",
+        "creator": "John Lindow",
+        "year": "2001",
+        "note": "A reliable reference, arranged by name."
+      },
+      {
+        "title": "Women in the Viking Age",
+        "creator": "Judith Jesch",
+        "year": "1991",
+        "note": "What runes, graves and texts say about half the population."
+      },
+      {
+        "title": "The Sagas of Icelanders: A Selection",
+        "creator": "ed. Örnólfur Thorsson",
+        "year": "2000",
+        "note": "Ten sagas and seven tales in good modern translations, with maps and notes."
+      },
+      {
+        "title": "Viking Age Iceland",
+        "creator": "Jesse Byock",
+        "year": "2001",
+        "note": "How a society without a king or an army kept order, and how it failed."
+      }
+    ],
+    "learnFrom": [
+      {
+        "name": "The Árni Magnússon Institute for Icelandic Studies",
+        "note": "Keeper of the Codex Regius and the saga manuscripts in Reykjavík, with an exhibition in the house called Edda.",
+        "link": "https://www.arnastofnun.is/en"
+      },
+      {
+        "name": "Ásatrúarfélagið",
+        "note": "The Icelandic Heathen fellowship, recognised since 1973. It explains its own beliefs and rites and rejects racist uses of the tradition.",
+        "link": "https://asatru.is"
+      },
+      {
+        "name": "Viking Ship Museum, Roskilde",
+        "note": "Original ships, experimental archaeology and sea trials of reconstructed vessels.",
+        "link": "https://www.vikingeskibsmuseet.dk/en/"
+      },
+      {
+        "name": "National Museum of Denmark",
+        "note": "Collections and plain-language articles on the Viking Age, including the Jelling monuments.",
+        "link": "https://en.natmus.dk"
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Poetic Edda",
+        "creator": "trans. Carolyne Larrington",
+        "publisher": "Oxford University Press",
+        "year": "2014"
+      },
+      {
+        "title": "The Poetic Edda",
+        "creator": "trans. Henry Adams Bellows",
+        "publisher": "American-Scandinavian Foundation",
+        "year": "1923"
+      },
+      {
+        "title": "The Prose Edda",
+        "creator": "Snorri Sturluson, trans. Jesse Byock",
+        "publisher": "Penguin Classics",
+        "year": "2005"
+      },
+      {
+        "title": "Children of Ash and Elm: A History of the Vikings",
+        "creator": "Neil Price",
+        "publisher": "Basic Books",
+        "year": "2020"
+      },
+      {
+        "title": "Norse Mythology: A Guide to the Gods, Heroes, Rituals, and Beliefs",
+        "creator": "John Lindow",
+        "publisher": "Oxford University Press",
+        "year": "2001"
+      },
+      {
+        "title": "Evidence for European presence in the Americas in AD 1021",
+        "creator": "Margot Kuitems and others",
+        "publisher": "Nature, vol. 601",
+        "year": "2022"
+      },
+      {
+        "title": "Njal’s Saga",
+        "creator": "trans. Robert Cook",
+        "publisher": "Penguin Classics",
+        "year": "2001"
+      }
+    ]
+  },
+  "sensitivity": {
+    "note": "The old Norse religion is known mainly through texts written by Christians two centuries after the conversion, and it is also a living religion today, known as Heathenry or Ásatrú. This Onda draws on the everyday ethics of the sources. It does not offer religious rites, and it rejects the use of Norse symbols by racist movements.",
+    "requiredCaveats": [
+      "The sources are late and partial. Much of what is said about Norse belief is reconstruction, and scholars disagree.",
+      "Heathenry is practised today. Its rites belong to its communities; nothing here imitates them.",
+      "Runes and other Norse symbols have been used by Nazi and white-supremacist groups. That use is modern and has nothing to do with the Viking Age.",
+      "The Viking Age included raiding, killing and a large trade in enslaved people. The sagas’ ideals of honour sat alongside that.",
+      "This content has not yet been reviewed by scholars of Old Norse or by Heathen communities. It should be before release."
+    ],
+    "reviewRequired": true
+  }
+}

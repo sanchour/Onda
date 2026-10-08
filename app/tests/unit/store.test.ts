@@ -36,7 +36,7 @@ const flush = () => new Promise((r) => setTimeout(r, 30))
 describe('store: Lagos', () => {
   it('creates a user with default settings on first launch', () => {
     expect(s().user).toMatchObject({ id: 'me', plus: 'none' })
-    expect(s().user!.settings).toMatchObject({ onboarded: false, themeMode: 'light', defaultOndaLength: 14 })
+    expect(s().user!.settings).toMatchObject({ onboarded: false, themeMode: 'auto', defaultOndaLength: 14 })
   })
   it('creates a Lago starting today and checks in idempotently', () => {
     const l = s().createLago(input)

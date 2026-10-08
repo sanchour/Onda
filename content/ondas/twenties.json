@@ -1,0 +1,1353 @@
+{
+  "version": 1,
+  "id": "twenties",
+  "name": "The 1920s",
+  "origin": "United States",
+  "era": "1920 to 1929",
+  "tone": "purple",
+  "icon": "vinyl-record",
+  "font": "limelight",
+  "pattern": "deco-chevrons",
+  "glyph": "Jazz",
+  "line": "Dress up, go out, dance to new music and make something modern.",
+  "quote": {
+    "text": "My candle burns at both ends; It will not last the night; But ah, my foes, and oh, my friends— It gives a lovely light!",
+    "by": "Edna St. Vincent Millay",
+    "source": "First Fig, in A Few Figs from Thistles, 1920"
+  },
+  "quotes": [
+    {
+      "text": "So we beat on, boats against the current, borne back ceaselessly into the past.",
+      "by": "F. Scott Fitzgerald",
+      "source": "The Great Gatsby, 1925, closing line"
+    },
+    {
+      "text": "I was within and without, simultaneously enchanted and repelled by the inexhaustible variety of life.",
+      "by": "F. Scott Fitzgerald",
+      "source": "The Great Gatsby, 1925, chapter 2"
+    },
+    {
+      "text": "We younger Negro artists who create now intend to express our individual dark-skinned selves without fear or shame.",
+      "by": "Langston Hughes",
+      "source": "The Negro Artist and the Racial Mountain, The Nation, 1926"
+    },
+    {
+      "text": "I do not weep at the world—I am too busy sharpening my oyster knife.",
+      "by": "Zora Neale Hurston",
+      "source": "How It Feels to Be Colored Me, 1928"
+    },
+    {
+      "text": "After all, the chief business of the American people is business.",
+      "by": "Calvin Coolidge",
+      "source": "Address to the American Society of Newspaper Editors, 17 January 1925"
+    }
+  ],
+  "words": [
+    {
+      "id": "word-jazz-age",
+      "term": "Jazz Age",
+      "meaning": "The 1920s, as named by the man who wrote them down",
+      "language": "American English",
+      "usage": "F. Scott Fitzgerald put the phrase in a book title in 1922 and it stuck."
+    },
+    {
+      "id": "word-flapper",
+      "term": "Flapper",
+      "meaning": "A young woman with short hair, short skirts and her own plans",
+      "language": "1920s slang",
+      "usage": "She smoked, drove, danced and voted. Older people were appalled, and that was half the point."
+    },
+    {
+      "id": "word-speakeasy",
+      "term": "Speakeasy",
+      "meaning": "An illegal bar",
+      "language": "1920s slang",
+      "usage": "You spoke quietly at the door. New York is thought to have had tens of thousands of them."
+    },
+    {
+      "id": "word-bootlegger",
+      "term": "Bootlegger",
+      "meaning": "Someone who makes or sells illegal alcohol",
+      "language": "American English",
+      "usage": "From the old trick of hiding a flask in a boot top."
+    },
+    {
+      "id": "word-hooch",
+      "term": "Hooch",
+      "meaning": "Illegal liquor, usually bad",
+      "language": "1920s slang",
+      "usage": "From Hoochinoo, a Tlingit village in Alaska known for its home-made spirits."
+    },
+    {
+      "id": "word-giggle-water",
+      "term": "Giggle water",
+      "meaning": "Champagne, or any alcoholic drink",
+      "language": "1920s slang",
+      "usage": "One of dozens of cheerful names for the thing you were not supposed to have."
+    },
+    {
+      "id": "word-blind-pig",
+      "term": "Blind pig",
+      "meaning": "A cheap speakeasy",
+      "language": "American English",
+      "usage": "The owner charged to see an animal and gave away the drink, to get round the law."
+    },
+    {
+      "id": "word-bee-s-knees",
+      "term": "Bee's knees",
+      "meaning": "The very best",
+      "language": "1920s slang",
+      "usage": "One of a litter of animal phrases: the cat’s pajamas, the eel’s hips, the snake’s hips."
+    },
+    {
+      "id": "word-cat-s-pajamas",
+      "term": "Cat's pajamas",
+      "meaning": "Something splendid and new",
+      "language": "1920s slang",
+      "usage": "Pajamas were themselves a daring novelty."
+    },
+    {
+      "id": "word-swell",
+      "term": "Swell",
+      "meaning": "Excellent",
+      "language": "1920s slang",
+      "usage": "As in a swell party, or a swell fellow."
+    },
+    {
+      "id": "word-jake",
+      "term": "Jake",
+      "meaning": "Fine; all right",
+      "language": "1920s slang",
+      "usage": "Everything’s jake means there is nothing to worry about."
+    },
+    {
+      "id": "word-copacetic",
+      "term": "Copacetic",
+      "meaning": "Entirely satisfactory",
+      "pronunciation": "koh-pa-SET-ik",
+      "language": "American English",
+      "usage": "A word of unknown origin made popular by the tap dancer Bill Robinson."
+    },
+    {
+      "id": "word-applesauce",
+      "term": "Applesauce",
+      "meaning": "Nonsense; flattery",
+      "language": "1920s slang",
+      "usage": "Said flatly, as a reply."
+    },
+    {
+      "id": "word-and-how",
+      "term": "And how",
+      "meaning": "Yes, very much so",
+      "language": "1920s slang",
+      "usage": "Emphatic agreement in two words."
+    },
+    {
+      "id": "word-heebie-jeebies",
+      "term": "Heebie-jeebies",
+      "meaning": "The jitters",
+      "language": "1920s slang",
+      "usage": "Coined by the cartoonist Billy DeBeck in 1923. Louis Armstrong recorded a song of that name in 1926."
+    },
+    {
+      "id": "word-big-cheese",
+      "term": "Big cheese",
+      "meaning": "The most important person in the room",
+      "language": "1920s slang",
+      "usage": "Also big shot and big wheel."
+    },
+    {
+      "id": "word-ritzy",
+      "term": "Ritzy",
+      "meaning": "Elegant, expensive",
+      "language": "1920s slang",
+      "usage": "After the Ritz hotels."
+    },
+    {
+      "id": "word-sheik",
+      "term": "Sheik",
+      "meaning": "A handsome man with a way about him",
+      "language": "1920s slang",
+      "usage": "After Rudolph Valentino’s film of 1921. His female counterpart was a sheba."
+    },
+    {
+      "id": "word-flivver",
+      "term": "Flivver",
+      "meaning": "A cheap old car, usually a Ford Model T",
+      "language": "1920s slang",
+      "usage": "Also a tin lizzie or a jalopy."
+    },
+    {
+      "id": "word-talkie",
+      "term": "Talkie",
+      "meaning": "A film with sound",
+      "language": "1920s slang",
+      "usage": "New in 1927. Within three years silent pictures were finished."
+    },
+    {
+      "id": "word-rent-party",
+      "term": "Rent party",
+      "meaning": "A party at home with a small charge at the door",
+      "language": "Harlem, 1920s",
+      "usage": "The takings paid the rent. There was a pianist, food from the kitchen and dancing in the hall."
+    },
+    {
+      "id": "word-stride",
+      "term": "Stride",
+      "meaning": "A style of jazz piano",
+      "language": "Harlem, 1920s",
+      "usage": "The left hand strides between bass notes and chords while the right hand flies."
+    },
+    {
+      "id": "word-cutting-contest",
+      "term": "Cutting contest",
+      "meaning": "A duel between musicians",
+      "language": "Jazz slang",
+      "usage": "Pianists took turns at the same instrument until one was outplayed."
+    },
+    {
+      "id": "word-charleston",
+      "term": "Charleston",
+      "meaning": "The dance of the decade",
+      "language": "American English",
+      "usage": "Named for the city in South Carolina. It reached Broadway in 1923, with kicking feet and swinging arms."
+    },
+    {
+      "id": "word-lindy-hop",
+      "term": "Lindy Hop",
+      "meaning": "A partner dance born in Harlem ballrooms",
+      "language": "Harlem, 1928",
+      "usage": "Named, the story goes, for Lindbergh’s hop across the Atlantic."
+    },
+    {
+      "id": "word-blues",
+      "term": "Blues",
+      "meaning": "Music of feeling in twelve bars",
+      "language": "African American English",
+      "usage": "It came north from the Mississippi Delta with the Great Migration and was recorded in quantity from 1920."
+    },
+    {
+      "id": "word-new-negro",
+      "term": "New Negro",
+      "meaning": "A Black American who defines himself or herself",
+      "language": "American English, 1920s",
+      "usage": "The title of Alain Locke’s anthology of 1925, which announced the Harlem Renaissance."
+    },
+    {
+      "id": "word-great-migration",
+      "term": "Great Migration",
+      "meaning": "The movement of Black Southerners to Northern cities",
+      "language": "American English",
+      "usage": "About a million and a half people left the South between 1916 and 1930."
+    },
+    {
+      "id": "word-lost-generation",
+      "term": "Lost Generation",
+      "meaning": "Those who came of age during the First World War",
+      "language": "American English",
+      "usage": "Gertrude Stein’s phrase, used by Hemingway at the front of his first novel."
+    },
+    {
+      "id": "word-bob",
+      "term": "Bob",
+      "meaning": "A short haircut for women, level with the jaw",
+      "language": "American English",
+      "usage": "Cutting off long hair was a public statement. Barbers had queues out of the door."
+    },
+    {
+      "id": "word-cloche",
+      "term": "Cloche",
+      "meaning": "A close-fitting, bell-shaped hat",
+      "pronunciation": "klosh",
+      "language": "French",
+      "usage": "It only worked with short hair, and it was worn low over the eyes."
+    },
+    {
+      "id": "word-art-deco",
+      "term": "Art Deco",
+      "meaning": "The decade’s style: geometric, sleek and rich",
+      "language": "From French",
+      "usage": "Named much later after the Paris exhibition of decorative arts of 1925."
+    }
+  ],
+  "practices": [
+    {
+      "id": "dress-the-part",
+      "name": "Dress the part",
+      "icon": "sparkle",
+      "slot": "Morning",
+      "time": "07:30",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Get dressed on purpose. Press the shirt or steam the dress. Shine your shoes. Choose one detail with care: a tie, a scarf, a hat, a pin, a pocket square, a red lip. Check the whole in a mirror before you leave, the way you would before a party. The aim is to be turned out, not expensive. On a day at home, dress exactly as well.",
+      "why": "The decade believed that you could make yourself up as you went along, and style was the first tool. The flapper’s bob and the sharp suit were ways of announcing a modern self.",
+      "variations": [
+        "Wear something of your grandparents’.",
+        "Go a full week without wearing sports clothes outside sport.",
+        "Have one thing altered so that it fits properly."
+      ]
+    },
+    {
+      "id": "dance-one-record",
+      "name": "Dance one record",
+      "icon": "vinyl-record",
+      "slot": "Afternoon",
+      "time": "17:30",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Put on a recording from the 1920s: Louis Armstrong’s Hot Five, Duke Ellington, Fletcher Henderson, Bessie Smith. Clear a little floor. Dance to one whole side, about three minutes, and then to two more. If you want steps, learn the Charleston basic: step back on one foot, kick back with the other, step forward, kick forward, with the heels twisting out and in. Otherwise simply keep moving until the record ends.",
+      "why": "The 1920s danced, in ballrooms, at rent parties and in kitchens. Jazz was dance music before it was anything else, and its makers judged a band by whether the floor was full.",
+      "variations": [
+        "Dance with someone.",
+        "Learn one new step a week from a film clip.",
+        "Go to a swing dance class or social."
+      ]
+    },
+    {
+      "id": "read-the-moderns",
+      "name": "Read the moderns",
+      "icon": "book-open",
+      "slot": "Evening",
+      "time": "21:00",
+      "minutes": 20,
+      "meta": "Evening · 20 min",
+      "instructions": "Read twenty minutes each day from the writers of the decade. Start with The Great Gatsby, which takes about a week at this pace. Then read the poems of Langston Hughes aloud, a few at a time. Then Nella Larsen’s Passing, or stories by Dorothy Parker, Hemingway or Zora Neale Hurston. Read in a chair, with a drink beside you and no screen in the room.",
+      "why": "American writing found its modern voice in these ten years: short sentences, city speech, jazz rhythm, and Black writers publishing on their own terms. Reading them is the fastest way into the decade’s head.",
+      "variations": [
+        "Read a chapter aloud to someone.",
+        "Copy out one sentence you wish you had written.",
+        "Read a magazine piece from the period in a library archive."
+      ]
+    },
+    {
+      "id": "go-out",
+      "name": "Go out",
+      "icon": "users-three",
+      "slot": "Evening",
+      "time": "19:30",
+      "minutes": 60,
+      "meta": "Evening · 60 min",
+      "instructions": "Leave the house for pleasure every day. See a film on a big screen. Hear live music. Eat at a counter. Take a walk under the lights of the busiest street you can reach. Call on a friend without a reason. On days when you cannot go out, bring the evening in: invite someone over, put on a record and make it an occasion. Say yes to one invitation you would normally turn down.",
+      "why": "Electric light, the car, the picture palace and the dance hall pulled Americans out of their parlours. For the first time most of them lived in towns, and the night belonged to anyone with a few coins.",
+      "variations": [
+        "Go somewhere alone and talk to a stranger.",
+        "Host a small party with a small charge for a good cause.",
+        "Go to a matinee."
+      ]
+    },
+    {
+      "id": "make-it-new",
+      "name": "Make it new",
+      "icon": "pen-nib",
+      "slot": "Afternoon",
+      "time": "15:00",
+      "minutes": 15,
+      "meta": "Afternoon · 15 min",
+      "instructions": "Spend fifteen minutes making something in a way you have not tried before. Write a poem with no rhyme. Draw the view from your window using only straight lines. Photograph one object from six angles. Rewrite a paragraph in the shortest sentences you can. Arrange a drink or a plate as if it were a design. Keep what you make, however slight, and date it.",
+      "why": "The artists of the decade thought that the old forms could not hold modern life, and they broke them open: free verse, montage, skyscrapers, collage. The habit of trying a new form is the modernist practice.",
+      "variations": [
+        "Make one thing every day in the same notebook.",
+        "Copy a work from the period, then change one rule.",
+        "Show what you made to one person."
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": "do-today-s-crossword-in-pen",
+      "name": "Do today’s crossword in pen",
+      "meta": "The craze of 1924",
+      "time": "08:00",
+      "slot": "Morning"
+    },
+    {
+      "id": "learn-the-charleston-basic-and-do-it-for-one-whole-song",
+      "name": "Learn the Charleston basic and do it for one whole song",
+      "meta": "Step, kick, step, kick",
+      "time": "17:30",
+      "slot": "Afternoon"
+    },
+    {
+      "id": "mix-a-drink-without-alcohol-name-it-and-serve-it-in-a-proper-glass",
+      "name": "Mix a drink without alcohol, name it and serve it in a proper glass",
+      "meta": "Ginger ale, lemon, honey, ice",
+      "time": "18:30",
+      "slot": "Evening"
+    },
+    {
+      "id": "task-read-chapter-3-of-the-great-gatsby-the-party",
+      "name": "Read chapter 3 of The Great Gatsby: the party",
+      "meta": "Read · 25 min",
+      "time": "21:00",
+      "slot": "Evening",
+      "action": "read"
+    },
+    {
+      "id": "task-play-west-end-blues-twice-and-follow-the-opening-trumpet",
+      "name": "Play West End Blues twice and follow the opening trumpet",
+      "meta": "Listen · Louis Armstrong, 1928",
+      "time": "20:00",
+      "slot": "Evening",
+      "action": "listen"
+    },
+    {
+      "id": "task-watch-sherlock-jr-by-buster-keaton",
+      "name": "Watch Sherlock Jr. by Buster Keaton",
+      "meta": "Watch · 45 min, no words needed",
+      "time": "20:30",
+      "slot": "Evening",
+      "action": "watch"
+    },
+    {
+      "id": "task-journal-what-did-you-go-out-of-your-way-for-today-and-what-did-it-cost",
+      "name": "Journal: what did you go out of your way for today, and what did it cost?",
+      "meta": "Journal · 10 min",
+      "time": "22:00",
+      "slot": "Evening",
+      "action": "journal"
+    },
+    {
+      "id": "task-find-your-green-light-what-are-you-still-reaching-for",
+      "name": "Find your green light: what are you still reaching for?",
+      "meta": "Philosophy · 10 min",
+      "time": "08:30",
+      "slot": "Morning",
+      "action": "philosophy"
+    }
+  ],
+  "rules": [
+    {
+      "id": "r1",
+      "text": "Dress as if you might be photographed",
+      "why": "The decade took care with collars, hems and hats. Put on real clothes today, whoever is going to see them."
+    },
+    {
+      "id": "r2",
+      "text": "Go to the music",
+      "why": "Radio was new and wonderful, and people still crossed town to hear a band. Once today, hear something live or give a record your whole attention."
+    },
+    {
+      "id": "r3",
+      "text": "Keep your head",
+      "why": "The party is the point and the drink is not. Every drink in this Onda has a version without alcohol. Never drive after one with."
+    },
+    {
+      "id": "r4",
+      "text": "Pay cash",
+      "why": "Americans bought the decade on the instalment plan, and 1929 presented the bill. Buy nothing on credit today."
+    },
+    {
+      "id": "r5",
+      "text": "Know who made it",
+      "why": "Jazz, the blues and the Charleston were Black American inventions that others often sold. When you play, dance or praise something today, name its makers."
+    },
+    {
+      "id": "r6",
+      "text": "Say yes to one invitation",
+      "why": "Gatsby’s parties were full of people who simply turned up. Accept something today that you would usually decline."
+    }
+  ],
+  "immerse": {
+    "read": [
+      {
+        "id": "read-the-great-gatsby",
+        "title": "The Great Gatsby",
+        "creator": "F. Scott Fitzgerald",
+        "year": "1925",
+        "why": "A summer of parties on Long Island and the man who throws them for one guest who never comes. It is short, exact and sadder each time."
+      },
+      {
+        "id": "read-the-weary-blues",
+        "title": "The Weary Blues",
+        "creator": "Langston Hughes",
+        "year": "1926",
+        "why": "His first book of poems, written to the beat of the music he heard in Harlem. Read them aloud."
+      },
+      {
+        "id": "read-passing",
+        "title": "Passing",
+        "creator": "Nella Larsen",
+        "year": "1929",
+        "why": "Two childhood friends meet again in a Chicago hotel. One of them is living as a white woman. A tense short novel about the colour line."
+      },
+      {
+        "id": "read-cane",
+        "title": "Cane",
+        "creator": "Jean Toomer",
+        "year": "1923",
+        "why": "Sketches, poems and a play moving from rural Georgia to Washington and back. The book that opened the Harlem Renaissance."
+      },
+      {
+        "id": "read-the-sun-also-rises",
+        "title": "The Sun Also Rises",
+        "creator": "Ernest Hemingway",
+        "year": "1926",
+        "why": "Americans adrift in Paris and Spain after the war, drinking and not saying what hurts."
+      },
+      {
+        "id": "read-enough-rope",
+        "title": "Enough Rope",
+        "creator": "Dorothy Parker",
+        "year": "1926",
+        "why": "Light verse with a blade in it, from the sharpest tongue at the Algonquin Round Table."
+      },
+      {
+        "id": "read-only-yesterday",
+        "title": "Only Yesterday",
+        "creator": "Frederick Lewis Allen",
+        "year": "1931",
+        "why": "An informal history of the decade written as soon as it was over, covering fads, scandals, stocks and skirts."
+      },
+      {
+        "id": "read-the-new-negro",
+        "title": "The New Negro",
+        "creator": "ed. Alain Locke",
+        "year": "1925",
+        "why": "The anthology that gathered the young Black writers and artists of Harlem and gave their movement its name."
+      }
+    ],
+    "watch": [
+      {
+        "id": "watch-sherlock-jr",
+        "title": "Sherlock Jr.",
+        "creator": "Buster Keaton",
+        "year": "1924",
+        "why": "A cinema projectionist falls asleep and walks into the film. Forty-five minutes of invention with real stunts."
+      },
+      {
+        "id": "watch-the-general",
+        "title": "The General",
+        "creator": "Buster Keaton",
+        "year": "1926",
+        "why": "A train chase across the Civil War South, done with full-size locomotives. The film’s sympathies are with the Confederacy, which is worth noticing."
+      },
+      {
+        "id": "watch-safety-last",
+        "title": "Safety Last",
+        "creator": "Harold Lloyd",
+        "year": "1923",
+        "why": "A shop clerk climbs a department store and ends up hanging from the hands of a clock."
+      },
+      {
+        "id": "watch-within-our-gates",
+        "title": "Within Our Gates",
+        "creator": "Oscar Micheaux",
+        "year": "1920",
+        "why": "The oldest surviving feature by a Black American director. It is an answer to the racism of the films of its day, and it shows a lynching plainly."
+      },
+      {
+        "id": "watch-the-jazz-singer",
+        "title": "The Jazz Singer",
+        "creator": "Alan Crosland",
+        "year": "1927",
+        "why": "The first feature film with spoken words. Its star performs in blackface, as many white entertainers then did. Watch it as a document."
+      },
+      {
+        "id": "watch-jazz-episodes-2-to-4",
+        "title": "Jazz, episodes 2 to 4",
+        "creator": "Ken Burns",
+        "year": "2001",
+        "why": "The documentary’s chapters on the 1920s: Armstrong in Chicago, Ellington in Harlem and the music going national."
+      }
+    ],
+    "listen": [
+      {
+        "id": "listen-west-end-blues",
+        "title": "West End Blues",
+        "creator": "Louis Armstrong and His Hot Five",
+        "year": "1928",
+        "why": "It opens with an unaccompanied trumpet call that changed what a soloist could be. Three minutes."
+      },
+      {
+        "id": "listen-rhapsody-in-blue",
+        "title": "Rhapsody in Blue",
+        "creator": "George Gershwin",
+        "year": "1924",
+        "why": "A clarinet slides up into a concert piece made of the city’s noise. It was first played in New York on 12 February 1924."
+      },
+      {
+        "id": "listen-east-st-louis-toodle-oo",
+        "title": "East St. Louis Toodle-Oo",
+        "creator": "Duke Ellington and His Orchestra",
+        "year": "1927",
+        "why": "The growling trumpet and slow strut that were the band’s signature at the Cotton Club."
+      },
+      {
+        "id": "listen-st-louis-blues",
+        "title": "St. Louis Blues",
+        "creator": "Bessie Smith, with Louis Armstrong",
+        "year": "1925",
+        "why": "The Empress of the Blues with a cornet answering each line, and a harmonium wheezing behind."
+      },
+      {
+        "id": "listen-black-bottom-stomp",
+        "title": "Black Bottom Stomp",
+        "creator": "Jelly Roll Morton’s Red Hot Peppers",
+        "year": "1926",
+        "why": "New Orleans jazz at its most organised and most joyful, by the man who claimed to have invented it."
+      },
+      {
+        "id": "listen-dark-was-the-night-cold-was-the-ground",
+        "title": "Dark Was the Night, Cold Was the Ground",
+        "creator": "Blind Willie Johnson",
+        "year": "1927",
+        "why": "A wordless moan over slide guitar, recorded in Dallas. It is now travelling beyond the solar system aboard Voyager."
+      },
+      {
+        "id": "listen-the-bristol-sessions",
+        "title": "The Bristol Sessions",
+        "creator": "The Carter Family, Jimmie Rodgers and others",
+        "year": "1927",
+        "why": "Two weeks of recording in a hat warehouse in Tennessee that started commercial country music."
+      }
+    ],
+    "art": [
+      {
+        "id": "art-the-chrysler-building",
+        "title": "The Chrysler Building",
+        "creator": "William Van Alen",
+        "year": "1928–1930",
+        "why": "A steel crown of sunbursts and eagle-headed gargoyles copied from car bonnets. The most loved skyscraper in New York."
+      },
+      {
+        "id": "art-radiator-building-night-new-york",
+        "title": "Radiator Building—Night, New York",
+        "creator": "Georgia O’Keeffe",
+        "year": "1927",
+        "why": "A skyscraper as a column of lit windows against a black sky. Crystal Bridges Museum of American Art."
+      },
+      {
+        "id": "art-automat",
+        "title": "Automat",
+        "creator": "Edward Hopper",
+        "year": "1927",
+        "why": "A woman alone with a cup of coffee at night, with the lamps of the restaurant reflected into darkness. Des Moines Art Center."
+      },
+      {
+        "id": "art-blues",
+        "title": "Blues",
+        "creator": "Archibald Motley",
+        "year": "1929",
+        "why": "A crowded Paris nightclub of dancers and musicians in hot colour, painted by a Chicago artist of the Harlem Renaissance."
+      },
+      {
+        "id": "art-i-saw-the-figure-5-in-gold",
+        "title": "I Saw the Figure 5 in Gold",
+        "creator": "Charles Demuth",
+        "year": "1928",
+        "why": "A fire engine’s number rushing through the city, painted after a poem by William Carlos Williams. Metropolitan Museum of Art."
+      },
+      {
+        "id": "art-god-s-trombones-illustrations",
+        "title": "God’s Trombones illustrations",
+        "creator": "Aaron Douglas",
+        "year": "1927",
+        "why": "Flat silhouettes and rays of light for James Weldon Johnson’s book of sermons in verse. The look of the Harlem Renaissance."
+      }
+    ],
+    "eat": [
+      {
+        "id": "eat-caesar-salad",
+        "title": "Caesar salad",
+        "creator": "Romaine, egg, lemon, garlic, cheese",
+        "year": "1924",
+        "why": "Made up in Tijuana by the restaurateur Caesar Cardini for Americans who had crossed the border to drink legally."
+      },
+      {
+        "id": "eat-pineapple-upside-down-cake",
+        "title": "Pineapple upside-down cake",
+        "creator": "Baked in a skillet",
+        "year": "1925",
+        "why": "A canned-pineapple contest in 1925 drew thousands of recipes for it. The dessert of the modern kitchen."
+      },
+      {
+        "id": "eat-automat-supper",
+        "title": "Automat supper",
+        "creator": "Baked beans, macaroni and cheese, a slice of pie",
+        "why": "At Horn and Hardart you put nickels in a slot and opened a little glass door. Fast, cheap and open to everyone."
+      },
+      {
+        "id": "eat-party-food",
+        "title": "Party food",
+        "creator": "Devilled eggs, stuffed celery, olives, salted nuts",
+        "why": "Food for one hand, invented because the other was holding a glass."
+      },
+      {
+        "id": "eat-rent-party-plate",
+        "title": "Rent party plate",
+        "creator": "Fried chicken, collard greens, black-eyed peas and rice",
+        "why": "Southern cooking brought north, sold by the plate from the kitchen while the piano played."
+      }
+    ],
+    "drink": [
+      {
+        "id": "drink-ginger-ale-highball",
+        "title": "Ginger ale highball",
+        "creator": "Ginger ale over ice with lemon peel",
+        "why": "Dry ginger ale boomed in the 1920s as a mixer. On its own in a tall glass it needs no help."
+      },
+      {
+        "id": "drink-egg-cream",
+        "title": "Egg cream",
+        "creator": "Milk, chocolate syrup and soda water",
+        "why": "A New York soda fountain drink with no egg and no cream. Soda fountains thrived when the saloons shut."
+      },
+      {
+        "id": "drink-bee-s-knees",
+        "title": "Bee’s Knees",
+        "creator": "Lemon juice and honey, with or without gin",
+        "why": "Honey and lemon were said to cover the taste of bad gin. Shaken with ice and topped with soda, it is good without any."
+      },
+      {
+        "id": "drink-coffee-black",
+        "title": "Coffee, black",
+        "creator": "In a thick white cup",
+        "why": "The drink of the Automat, the lunch counter and the morning after."
+      }
+    ],
+    "customs": [
+      {
+        "id": "customs-the-cocktail-party",
+        "title": "The cocktail party",
+        "creator": "Early evening, standing up",
+        "why": "A new kind of gathering: short, mixed and held at home, with small food and conversation in place of a dinner."
+      },
+      {
+        "id": "customs-the-rent-party",
+        "title": "The rent party",
+        "creator": "A piano, a kettle of food and a quarter at the door",
+        "why": "Harlem tenants, charged more than their white neighbours, raised the rent by throwing a party. Some of the best jazz piano was played at them."
+      },
+      {
+        "id": "customs-going-to-the-pictures",
+        "title": "Going to the pictures",
+        "creator": "Once a week or more",
+        "why": "By the end of the decade Americans bought tens of millions of cinema tickets a week, in palaces built like temples."
+      },
+      {
+        "id": "customs-the-sunday-drive",
+        "title": "The Sunday drive",
+        "creator": "No destination",
+        "why": "With a car in the family, the road itself became the outing."
+      }
+    ],
+    "games": [
+      {
+        "id": "games-mah-jongg",
+        "title": "Mah-jongg",
+        "creator": "Tile game · China, by way of California",
+        "year": "craze of 1922–1924",
+        "why": "An American importer simplified the Chinese game and sold millions of sets. For two years the whole country clicked tiles."
+      },
+      {
+        "id": "games-the-crossword",
+        "title": "The crossword",
+        "creator": "Word puzzle",
+        "year": "1924",
+        "why": "The first book of crosswords came out in 1924 with a pencil attached and started a national mania. Trains carried dictionaries for commuters."
+      },
+      {
+        "id": "games-contract-bridge",
+        "title": "Contract bridge",
+        "creator": "Card game · Harold Vanderbilt",
+        "year": "1925",
+        "why": "Worked out on a cruise ship in the autumn of 1925. Within a few years it was the card game of every living room."
+      },
+      {
+        "id": "games-cuphead",
+        "title": "Cuphead",
+        "creator": "Video game · Studio MDHR",
+        "year": "2017",
+        "why": "Drawn and inked by hand in the rubber-limbed manner of cartoons from the years around 1930, with a big-band score. Hard and beautiful."
+      },
+      {
+        "id": "games-empire-of-sin",
+        "title": "Empire of Sin",
+        "creator": "Video game · Romero Games",
+        "year": "2020",
+        "why": "Run a bootlegging outfit in Prohibition Chicago. A strategy game with good hats and a jazz soundtrack."
+      }
+    ],
+    "festivals": [
+      {
+        "id": "fest-jazz-age-lawn-party",
+        "title": "Jazz Age Lawn Party",
+        "creator": "Summer weekends, Governors Island, New York",
+        "why": "Thousands of people in period dress picnic and dance the Charleston to a live orchestra, a ferry ride from Manhattan."
+      },
+      {
+        "id": "fest-new-orleans-jazz-and-heritage-festival",
+        "title": "New Orleans Jazz and Heritage Festival",
+        "creator": "Late April and early May, New Orleans",
+        "why": "Two weekends of music and food in the city where jazz began."
+      },
+      {
+        "id": "fest-harlem-week",
+        "title": "Harlem Week",
+        "creator": "August, New York",
+        "why": "A neighbourhood celebration of Harlem’s history, music and food, with concerts in the streets."
+      },
+      {
+        "id": "fest-world-lindy-hop-day",
+        "title": "World Lindy Hop Day",
+        "creator": "26 May",
+        "why": "The birthday of the dancer Frankie Manning. Swing dancers hold socials around the world."
+      },
+      {
+        "id": "fest-repeal-day",
+        "title": "Repeal Day",
+        "creator": "5 December",
+        "why": "The date in 1933 when Prohibition ended. Bars mark it. A good evening for a well-made drink of any kind."
+      }
+    ],
+    "places": [
+      {
+        "id": "place-schomburg-center-for-research-in-black-culture",
+        "title": "Schomburg Center for Research in Black Culture",
+        "creator": "Harlem, New York",
+        "why": "The library collection begun in 1925 at the heart of the Harlem Renaissance. Langston Hughes’s ashes rest beneath the floor of its lobby."
+      },
+      {
+        "id": "place-the-chrysler-building-lobby",
+        "title": "The Chrysler Building lobby",
+        "creator": "Midtown Manhattan, New York",
+        "why": "Red marble, chrome and a ceiling mural of flight and labour. Free to enter during office hours."
+      },
+      {
+        "id": "place-green-mill-cocktail-lounge",
+        "title": "Green Mill Cocktail Lounge",
+        "creator": "Uptown, Chicago",
+        "why": "A jazz club open since 1907 and a speakeasy in the 1920s with links to Al Capone’s gang. It still has live music every night."
+      },
+      {
+        "id": "place-new-orleans-jazz-museum",
+        "title": "New Orleans Jazz Museum",
+        "creator": "The Old U.S. Mint, New Orleans",
+        "why": "Instruments, recordings and Louis Armstrong’s first cornet, in the French Quarter."
+      },
+      {
+        "id": "place-greenwood-rising",
+        "title": "Greenwood Rising",
+        "creator": "Tulsa, Oklahoma",
+        "why": "A history centre on the prosperous Black district known as Black Wall Street and its destruction by a white mob in 1921."
+      },
+      {
+        "id": "place-scott-and-zelda-fitzgerald-museum",
+        "title": "Scott and Zelda Fitzgerald Museum",
+        "creator": "Montgomery, Alabama",
+        "why": "The last house the family shared, in Zelda’s home town, with her paintings on the walls."
+      }
+    ]
+  },
+  "ethics": [
+    {
+      "title": "Credit where it is due",
+      "text": "The decade’s music and dance came from Black Americans who were often shut out of the rooms where it was sold. A white bandleader was crowned the King of Jazz. Honest pleasure includes knowing whose work it is.",
+      "practice": "Find out who wrote and first performed one piece of music you love, and tell someone."
+    },
+    {
+      "title": "Freedom and its price",
+      "text": "Young people threw off their parents’ rules about dress, courtship and drink. Fitzgerald, who wrote the handbook, also wrote the bill: carelessness smashes things and leaves others to clean up.",
+      "practice": "Enjoy something fully today, and then deal with the whole of its mess yourself."
+    },
+    {
+      "title": "The law and the conscience",
+      "text": "Prohibition was a law that millions of otherwise law-abiding people broke each week. It made gangsters rich and courts corrupt. The decade asks when a rule deserves obedience, and what breaking it does to the breaker.",
+      "practice": "Name one rule you follow without respecting it. Decide whether to respect it or to argue openly for changing it."
+    },
+    {
+      "title": "Who is left outside",
+      "text": "The prosperity was real and narrow. Farmers were in depression, immigrants were shut out by quota in 1924, the Ku Klux Klan had millions of members, and the best-known nightclub in Harlem seated only white customers.",
+      "practice": "At the next good thing you are part of, look for who is not in the room and why."
+    },
+    {
+      "title": "Living on credit",
+      "text": "For the first time, ordinary families bought cars, radios and shares with borrowed money. It felt like wealth. In October 1929 it turned out to have been a loan.",
+      "practice": "Add up what you owe, in money and in favours. Pay one thing back today."
+    },
+    {
+      "title": "The new woman",
+      "text": "American women won the vote in 1920 and a new freedom of movement, work and dress along with it. Many Black, Native and Asian American women were still kept from the ballot for decades.",
+      "practice": "Notice one freedom you use daily that someone had to win. Learn her name."
+    }
+  ],
+  "philosophy": [
+    {
+      "title": "Make it new",
+      "text": "The modernists held that the forms they had inherited could not carry modern experience: the city, the machine, the war. So they broke the sentence, the picture and the tune and put them together again. The slogan is linked with Ezra Pound.",
+      "practice": "Take one routine thing you make, such as an email, a meal or a list, and give it a completely different form today."
+    },
+    {
+      "title": "The self you invent",
+      "text": "James Gatz of North Dakota wrote out a schedule for self-improvement and became Jay Gatsby. America in the 1920s believed that a person could be designed. The novel admires the nerve and counts the cost.",
+      "practice": "Write down the person you are trying to become. Then mark which parts are for you and which are for an audience."
+    },
+    {
+      "title": "The green light",
+      "text": "Gatsby stretches his arms toward a light at the end of a dock, and what he wants is behind him, in the past. Desire, Fitzgerald suggests, is aimed at something already lost.",
+      "practice": "Name the thing you keep reaching for. Ask honestly whether it lies ahead of you or behind."
+    },
+    {
+      "title": "Pleasure taken seriously",
+      "text": "A generation that had seen the war and the influenza of 1918 decided that joy was not a sin. Dancing, flirting and laughing were treated as worth doing well.",
+      "practice": "Plan one pleasure for today with the care you would give a piece of work."
+    },
+    {
+      "title": "The New Negro",
+      "text": "Alain Locke argued that Black Americans, by moving to the cities and making their own art, had become the authors of their own image. Self-definition comes first, he said, and it is done through culture.",
+      "practice": "Describe yourself in three sentences without using anyone else’s label for you."
+    },
+    {
+      "title": "Speed",
+      "text": "The car, the aeroplane, the telephone and the radio shrank distance within ten years. People felt that time itself had sped up. Some found that thrilling and others could not sleep.",
+      "practice": "Do one thing today at half speed, and one thing as fast as you well can. Compare."
+    },
+    {
+      "title": "Everyone hears the same song",
+      "text": "Radio and records meant that a farmhouse and a penthouse could hear the same band on the same night. A shared popular culture was born, and with it advertising that taught people what to want.",
+      "practice": "Trace one of your wants back to where you first saw it."
+    },
+    {
+      "title": "After the war",
+      "text": "Hemingway’s characters cannot speak about what happened to them, so they talk about fishing and drink. The Lost Generation distrusted big words and trusted things done well and plainly.",
+      "practice": "Say one hard thing today in the plainest words you can find."
+    }
+  ],
+  "journal": [
+    "What did you go out of your way for today, and what did it cost?",
+    "How did you dress, and what did it change?",
+    "What music moved your feet?",
+    "Where did you go tonight, and who was there?",
+    "What did you make today that was new, at least to you?",
+    "What are you still reaching for?",
+    "Who made the thing you enjoyed most today?",
+    "What did you buy, and with whose money?",
+    "Which invitation did you accept, and which did you refuse?",
+    "Who was not in the room?",
+    "What was the most modern moment of your day?",
+    "What rule did you break, and how do you feel about it?",
+    "What would you put on your own schedule for self-improvement?",
+    "What sentence did you read today that you wish you had written?",
+    "When were you careless, and who cleaned up?",
+    "What did you hear live?",
+    "Which part of the person you present is invention?",
+    "What did you do at night that you could not have done by day?",
+    "What freedom did you use today that someone else won?",
+    "What did you want today because you were shown it?",
+    "What would your party be like, and whom would it be for?",
+    "Where did you move fast, and where did you slow down?",
+    "What plain words did you find for a hard thing?",
+    "What from your own past are you trying to repeat?",
+    "Who taught you to dance, or who could?",
+    "What is your city like after dark?",
+    "What are you living on credit for?",
+    "What made you laugh out loud?",
+    "What will people a hundred years from now find charming and what shameful about how you live?",
+    "What gives a lovely light in your life, and how long will it last?"
+  ],
+  "reflect": [
+    "What did dressing up and going out every day do to you?",
+    "Which record, book or film from the decade stayed with you?",
+    "What did you make in these days, and will you go on?",
+    "What did you learn about pleasure and its bill?",
+    "Whose work do you now know by name?",
+    "What will you keep: a step, a habit, a rule?"
+  ],
+  "dayThemes": [
+    "A lovely light",
+    "Dressed for it",
+    "The first record",
+    "Out after dark",
+    "Make it new",
+    "The green light",
+    "The rent party",
+    "The crossword",
+    "Flappers",
+    "The picture palace",
+    "West End Blues",
+    "The colour line",
+    "The self you invent",
+    "Bee’s knees",
+    "Speakeasy",
+    "Harlem",
+    "The Charleston",
+    "A new voice on the radio",
+    "The Lost Generation",
+    "The skyscraper",
+    "The Sunday drive",
+    "On the instalment plan",
+    "The Automat",
+    "The Great Migration",
+    "The cutting contest",
+    "Who is left outside",
+    "The cocktail hour",
+    "The long flight",
+    "The morning after",
+    "Boats against the current"
+  ],
+  "guide": {
+    "intro": [
+      "The 1920s in America were ten years of noise, speed and reinvention between a world war and a depression. For the first time more Americans lived in towns than in the country. They had electric light, cars, radios and cinemas, and many had money to spend. A generation that had lived through the war and the influenza of 1918 was in no mood for its parents’ rules. This Onda asks you to live for a while as the decade’s city people did: turned out, out late, dancing, reading and trying new forms.",
+      "Two events in 1920 set the stage. In January the sale of alcohol became illegal nationwide. Drinking went underground into tens of thousands of speakeasies, and a criminal industry grew up to supply them. In August women won the right to vote. The young woman of the decade cut her hair, shortened her skirt, took a job and went out without a chaperone. People called her a flapper.",
+      "The sound of it all was jazz. The music came up the Mississippi from New Orleans with Black musicians who were part of the Great Migration to Northern cities. In Chicago Louis Armstrong turned the trumpet solo into an art form. In New York Duke Ellington led his orchestra at the Cotton Club. Records and the new radio networks carried the music into every home, and the whole country learned the Charleston.",
+      "In Harlem, in upper Manhattan, the same migration produced a flowering of writing, painting and thought. Langston Hughes, Zora Neale Hurston, Nella Larsen, Claude McKay, Aaron Douglas and many others set out to show Black life in their own terms. Elsewhere Fitzgerald, Hemingway, Dorothy Parker and the poets of the day were remaking American prose and verse. Hollywood became the capital of a new art, first silent and then, from 1927, talking.",
+      "There was a darker side, and it was not hidden. The Ku Klux Klan had millions of members in the middle of the decade and marched down Pennsylvania Avenue. A white mob destroyed the Black district of Greenwood in Tulsa in 1921. Congress shut the door on most immigrants in 1924. The Cotton Club, where Ellington played, admitted only white customers. Farmers were poor throughout. The boom itself rested on borrowed money, and it ended in a week in October 1929.",
+      "The practices here are the cheerful half of that story, taken honestly. You will dress with care, dance to one record a day, read the decade’s writers, go out every evening and make something new each afternoon. Every drink mentioned has a version without alcohol, and nothing depends on it."
+    ],
+    "origin": "The cities of the United States, above all New York, Chicago, New Orleans and Los Angeles",
+    "era": "From the start of Prohibition in January 1920 to the stock market crash of October 1929",
+    "figures": [
+      {
+        "name": "F. Scott Fitzgerald",
+        "dates": "1896–1940",
+        "bio": "Novelist from Minnesota who named the Jazz Age and wrote its great book at twenty-eight. He lived the life he described and was worn out by it."
+      },
+      {
+        "name": "Zelda Fitzgerald",
+        "dates": "1900–1948",
+        "bio": "Writer, painter and dancer from Alabama, called the first flapper by her husband, who drew on her diaries and letters for his fiction."
+      },
+      {
+        "name": "Louis Armstrong",
+        "dates": "1901–1971",
+        "bio": "Trumpeter and singer from New Orleans. His recordings of 1925 to 1928 set the terms for jazz as a soloist’s art."
+      },
+      {
+        "name": "Duke Ellington",
+        "dates": "1899–1974",
+        "bio": "Pianist, composer and bandleader from Washington. His residency at the Cotton Club from 1927 was broadcast nationwide."
+      },
+      {
+        "name": "Bessie Smith",
+        "dates": "1894–1937",
+        "bio": "The Empress of the Blues, and the best-paid Black entertainer of the decade. She toured in her own railway car."
+      },
+      {
+        "name": "Langston Hughes",
+        "dates": "1901–1967",
+        "bio": "Poet of Harlem who brought the rhythm of jazz and the blues into verse, and who insisted on writing about ordinary Black life."
+      },
+      {
+        "name": "Zora Neale Hurston",
+        "dates": "1891–1960",
+        "bio": "Writer and anthropologist from Eatonville, Florida. She arrived in New York in 1925, became the wit of the Harlem Renaissance and collected Southern folklore."
+      },
+      {
+        "name": "Alain Locke",
+        "dates": "1885–1954",
+        "bio": "Philosopher at Howard University and the first Black Rhodes Scholar. His anthology The New Negro defined the movement."
+      },
+      {
+        "name": "Josephine Baker",
+        "dates": "1906–1975",
+        "bio": "Dancer from St. Louis who left for Paris in 1925 and became the most famous entertainer in Europe. She later worked for the French Resistance."
+      },
+      {
+        "name": "Dorothy Parker",
+        "dates": "1893–1967",
+        "bio": "Poet, critic and short story writer, feared for her reviews and quoted for her lunches at the Algonquin Hotel."
+      },
+      {
+        "name": "Clara Bow",
+        "dates": "1905–1965",
+        "bio": "The film star from a Brooklyn tenement who became the It girl of 1927 and received tens of thousands of fan letters a month."
+      },
+      {
+        "name": "Bessie Coleman",
+        "dates": "1892–1926",
+        "bio": "The first Black woman and first Native American to hold a pilot’s licence, which she earned in France in 1921 because no American school would teach her."
+      },
+      {
+        "name": "Georgia O'Keeffe",
+        "dates": "1887–1986",
+        "bio": "Painter who made her name in New York in the 1920s with huge flowers and night-time skyscrapers."
+      }
+    ],
+    "history": [
+      {
+        "when": "17 January 1920",
+        "what": "Prohibition begins",
+        "detail": "The Eighteenth Amendment took effect and banned the making, sale and transport of intoxicating liquor. Drinking it was never itself illegal. Smuggling and illegal bars began at once."
+      },
+      {
+        "when": "18 August 1920",
+        "what": "Votes for women",
+        "detail": "Tennessee became the last state needed to ratify the Nineteenth Amendment. In practice many Black women in the South and most Native and Asian American women remained shut out."
+      },
+      {
+        "when": "2 November 1920",
+        "what": "The first commercial radio broadcast",
+        "detail": "Station KDKA in Pittsburgh went on the air with the results of the presidential election. Within two years there were more than five hundred stations."
+      },
+      {
+        "when": "31 May–1 June 1921",
+        "what": "The Tulsa race massacre",
+        "detail": "A white mob burned thirty-five blocks of the Greenwood district in Tulsa, Oklahoma, and killed as many as three hundred people. No one was convicted."
+      },
+      {
+        "when": "1922",
+        "what": "Armstrong goes to Chicago",
+        "detail": "Louis Armstrong left New Orleans to join King Oliver’s band. The centre of jazz moved north with him."
+      },
+      {
+        "when": "12 February 1924",
+        "what": "Rhapsody in Blue",
+        "detail": "George Gershwin played his new piece for piano and jazz band at Aeolian Hall in New York. Jazz had entered the concert hall."
+      },
+      {
+        "when": "May 1924",
+        "what": "The door closes",
+        "detail": "The Immigration Act set strict national quotas, cut arrivals from southern and eastern Europe to a trickle and barred those from Asia."
+      },
+      {
+        "when": "1925",
+        "what": "A year of books",
+        "detail": "The Great Gatsby came out in April and The New Negro in December. In July a Tennessee teacher, John Scopes, was tried for teaching evolution."
+      },
+      {
+        "when": "20–21 May 1927",
+        "what": "Lindbergh flies the Atlantic",
+        "detail": "Charles Lindbergh flew alone from New York to Paris in thirty-three and a half hours and came home the most famous man alive."
+      },
+      {
+        "when": "6 October 1927",
+        "what": "The Jazz Singer opens",
+        "detail": "The first feature film with synchronised speech. Audiences heard a few lines and some songs, and the silent era was over within three years."
+      },
+      {
+        "when": "4 December 1927",
+        "what": "Ellington at the Cotton Club",
+        "detail": "Duke Ellington’s orchestra began its run at the Harlem nightclub. Radio broadcasts from the club made the band known across the country."
+      },
+      {
+        "when": "18 November 1928",
+        "what": "Steamboat Willie",
+        "detail": "Walt Disney’s cartoon with synchronised sound opened in New York and introduced Mickey Mouse."
+      },
+      {
+        "when": "14 February 1929",
+        "what": "The St. Valentine’s Day Massacre",
+        "detail": "Seven men of a rival gang were shot in a Chicago garage, almost certainly on Al Capone’s orders. Public opinion began to turn against Prohibition."
+      },
+      {
+        "when": "24–29 October 1929",
+        "what": "The crash",
+        "detail": "Share prices on the New York Stock Exchange collapsed over several days of panic selling. The decade’s prosperity ended, and the Great Depression followed."
+      },
+      {
+        "when": "5 December 1933",
+        "what": "Repeal",
+        "detail": "The Twenty-first Amendment ended national Prohibition after almost fourteen years."
+      }
+    ],
+    "concepts": [
+      {
+        "term": "The Jazz Age",
+        "text": "A decade named after its music.",
+        "detail": "Fitzgerald’s term for the years between the war and the crash. He described them as a time when a whole race went hedonistic and decided on pleasure. Jazz stood for everything new: speed, youth, the city, the mixing of people."
+      },
+      {
+        "term": "Prohibition",
+        "text": "The noble experiment.",
+        "detail": "A national ban on alcohol, won by decades of campaigning by churches and women’s groups. It cut drinking at first, and then produced bootleggers, poisonous liquor, bribed police and organised crime. It also put men and women in the same bars for the first time."
+      },
+      {
+        "term": "The Harlem Renaissance",
+        "text": "A flowering of Black art and thought.",
+        "detail": "From about 1918 to the mid-1930s, with Harlem as its capital. Writers, painters, musicians and scholars claimed the right to describe Black life for themselves. It changed American culture for good."
+      },
+      {
+        "term": "The Great Migration",
+        "text": "The move north.",
+        "detail": "About six million Black Americans left the rural South between 1916 and 1970, the first wave in the years around the 1920s. They went for work and to get away from the terror of lynching and the laws of segregation. They brought the blues and jazz with them."
+      },
+      {
+        "term": "The flapper",
+        "text": "The new woman, in a short skirt.",
+        "detail": "A young woman who worked, danced, smoked and chose her own company. She was a real social change and also an invention of films and advertisements. Most women’s lives changed more slowly than the pictures suggested."
+      },
+      {
+        "term": "Mass culture",
+        "text": "One country, one audience.",
+        "detail": "National radio networks, Hollywood films, chain stores and magazines meant that Americans in every state saw and heard the same things in the same week. Celebrity in the modern sense dates from this."
+      },
+      {
+        "term": "Buying on time",
+        "text": "The instalment plan.",
+        "detail": "Cars, furniture, radios and washing machines were sold for a little down and a little each month. Shares were bought the same way, on margin. Debt came to seem ordinary."
+      },
+      {
+        "term": "Art Deco",
+        "text": "The look of the modern.",
+        "detail": "Zigzags, sunbursts, stepped towers, chrome and lacquer, borrowed from Cubism, from machines and from Egypt and Mexico. It covered skyscrapers, cinemas, cigarette cases and dresses."
+      },
+      {
+        "term": "The Lost Generation",
+        "text": "Americans abroad.",
+        "detail": "Writers and artists who left for Paris, where the dollar was strong and wine was legal. They wrote about disillusion in a clean new style and came home when the money ran out."
+      },
+      {
+        "term": "Nativism",
+        "text": "The backlash.",
+        "detail": "Fear of immigrants, Catholics, Jews and Black Americans ran through the decade and drove the revived Ku Klux Klan and the quota laws. The modern and the reactionary grew together."
+      }
+    ],
+    "facts": [
+      {
+        "text": "The Great Gatsby sold poorly. When Fitzgerald died in 1940, unsold copies of the second printing were still in the publisher’s warehouse."
+      },
+      {
+        "text": "The census of 1920 was the first to find more Americans living in towns and cities than in the countryside."
+      },
+      {
+        "text": "The style we call Art Deco was not given that name until the 1960s."
+      },
+      {
+        "text": "Under Prohibition a doctor could prescribe whiskey, and families could make a limited amount of wine at home."
+      },
+      {
+        "text": "Sliced bread first went on sale in July 1928, in Chillicothe, Missouri."
+      },
+      {
+        "text": "The first book of crossword puzzles, published in 1924, was the first title of a new firm called Simon and Schuster."
+      },
+      {
+        "text": "Louis Armstrong’s recording of Heebie Jeebies in 1926 made wordless scat singing popular. He liked to say that he had dropped the lyric sheet."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Volstead Act",
+        "meaning": "The law of 1919 that enforced Prohibition and defined intoxicating liquor"
+      },
+      {
+        "term": "Cotton Club",
+        "meaning": "The Harlem nightclub with Black performers and a whites-only audience"
+      },
+      {
+        "term": "Margin",
+        "meaning": "Buying shares with borrowed money"
+      },
+      {
+        "term": "Hot Five",
+        "meaning": "Louis Armstrong’s recording group of 1925 to 1928"
+      },
+      {
+        "term": "Algonquin Round Table",
+        "meaning": "A circle of New York writers and wits who lunched together at the Algonquin Hotel"
+      },
+      {
+        "term": "Scat",
+        "meaning": "Jazz singing with improvised syllables in place of words"
+      }
+    ],
+    "furtherReading": [
+      {
+        "title": "Last Call: The Rise and Fall of Prohibition",
+        "creator": "Daniel Okrent",
+        "year": "2010",
+        "note": "How the country voted itself dry, and what happened next."
+      },
+      {
+        "title": "When Harlem Was in Vogue",
+        "creator": "David Levering Lewis",
+        "year": "1981",
+        "note": "The classic history of the Harlem Renaissance and the people who made it."
+      },
+      {
+        "title": "The Warmth of Other Suns",
+        "creator": "Isabel Wilkerson",
+        "year": "2010",
+        "note": "The Great Migration told through three lives."
+      },
+      {
+        "title": "Flapper",
+        "creator": "Joshua Zeitz",
+        "year": "2006",
+        "note": "The women who made the type: Zelda Fitzgerald, Coco Chanel, Clara Bow, Lois Long."
+      },
+      {
+        "title": "One Summer: America, 1927",
+        "creator": "Bill Bryson",
+        "year": "2013",
+        "note": "Lindbergh, Babe Ruth, the talkies and the Mississippi flood, in one crowded season."
+      }
+    ],
+    "learnFrom": [
+      {
+        "name": "Schomburg Center for Research in Black Culture",
+        "note": "The New York Public Library’s research library in Harlem, with digital collections from the period.",
+        "link": "https://www.nypl.org/locations/schomburg"
+      },
+      {
+        "name": "National Museum of African American History and Culture",
+        "note": "The Smithsonian museum’s collections and essays on the Great Migration, the Harlem Renaissance and jazz.",
+        "link": "https://nmaahc.si.edu"
+      },
+      {
+        "name": "Louis Armstrong House Museum",
+        "note": "His home in Queens, with his own tape recordings and scrapbooks online.",
+        "link": "https://www.louisarmstronghouse.org"
+      },
+      {
+        "name": "Library of Congress: National Jukebox",
+        "note": "Thousands of recordings made before 1926, free to hear.",
+        "link": "https://www.loc.gov/collections/national-jukebox/"
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Great Gatsby",
+        "creator": "F. Scott Fitzgerald",
+        "publisher": "Charles Scribner's Sons",
+        "year": "1925"
+      },
+      {
+        "title": "Only Yesterday: An Informal History of the 1920s",
+        "creator": "Frederick Lewis Allen",
+        "publisher": "Harper and Brothers",
+        "year": "1931"
+      },
+      {
+        "title": "Last Call: The Rise and Fall of Prohibition",
+        "creator": "Daniel Okrent",
+        "publisher": "Scribner",
+        "year": "2010"
+      },
+      {
+        "title": "When Harlem Was in Vogue",
+        "creator": "David Levering Lewis",
+        "publisher": "Knopf",
+        "year": "1981"
+      },
+      {
+        "title": "The New Negro: An Interpretation",
+        "creator": "ed. Alain Locke",
+        "publisher": "Albert and Charles Boni",
+        "year": "1925"
+      },
+      {
+        "title": "Tulsa Race Riot: A Report by the Oklahoma Commission to Study the Tulsa Race Riot of 1921",
+        "creator": "Oklahoma Commission",
+        "publisher": "State of Oklahoma",
+        "year": "2001"
+      },
+      {
+        "title": "Jazz: A History of America’s Music",
+        "creator": "Geoffrey C. Ward and Ken Burns",
+        "publisher": "Knopf",
+        "year": "2000"
+      }
+    ]
+  },
+  "sensitivity": {
+    "note": "The 1920s gave the world jazz, the Harlem Renaissance and modern American writing. The same decade saw the Ku Klux Klan at its largest, the Tulsa massacre, laws against immigrants and segregation in the very clubs where the music was played. This Onda enjoys the first and does not hide the second. Alcohol is never required.",
+    "requiredCaveats": [
+      "Jazz, the blues and the decade’s dances were created by Black Americans, who were often denied the profit and the credit.",
+      "Several films of the period use blackface or racist stereotypes. They are listed as documents and described as such.",
+      "Every drink has a version without alcohol. If drinking is a difficulty for you, skip those items entirely.",
+      "The prosperity was narrow and built on debt. Most Americans were not at Gatsby’s parties."
+    ],
+    "reviewRequired": false
+  }
+}

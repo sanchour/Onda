@@ -22,6 +22,12 @@ export const GROUP_OF: Record<string, BrowseGroup> = {
   aztec: 'state',
   egypt: 'state',
   yoruba: 'culture',
+  norse: 'religion',
+  cynic: 'philosophy',
+  confucian: 'philosophy',
+  abbasid: 'state',
+  twenties: 'culture',
+  cuba: 'culture',
 }
 
 export interface ComingSoon {
@@ -44,15 +50,12 @@ export const COMING_SOON: ComingSoon[] = [
   { name: 'Christianity', origin: 'The Mediterranean world', group: 'religion' },
   { name: 'Islam: Sunni', origin: 'Arabia and beyond', group: 'religion' },
   { name: 'Islam: Shia', origin: 'Arabia and beyond', group: 'religion' },
-  { name: 'Norse', origin: 'Scandinavia', group: 'religion' },
   { name: 'Rastafari', origin: 'Jamaica', group: 'religion' },
   { name: 'Discordianism', origin: 'United States', group: 'religion' },
   // Philosophy, thinkers and schools of thought
   { name: 'Platonism', origin: 'Greece', group: 'philosophy' },
   { name: 'Epicureanism', origin: 'Greece', group: 'philosophy' },
-  { name: 'Diogenes and the Cynics', origin: 'Greece', group: 'philosophy' },
   { name: 'Hedonism', origin: 'Greece', group: 'philosophy' },
-  { name: 'Confucianism', origin: 'China', group: 'philosophy' },
   { name: 'Kant', origin: 'Prussia', group: 'philosophy' },
   { name: 'Nietzsche', origin: 'Germany', group: 'philosophy' },
   { name: 'Freud', origin: 'Vienna', group: 'philosophy' },
@@ -62,7 +65,6 @@ export const COMING_SOON: ComingSoon[] = [
   { name: 'Roman Empire', origin: 'The Mediterranean', group: 'state' },
   { name: 'Qing Dynasty', origin: 'China', group: 'state' },
   { name: 'Mongol Empire', origin: 'Central Asia', group: 'state' },
-  { name: 'Abbasid Caliphate', origin: 'Baghdad', group: 'state' },
   { name: 'Ottoman Empire', origin: 'Anatolia and beyond', group: 'state' },
   { name: 'Mughal Empire', origin: 'South Asia', group: 'state' },
   { name: 'Johor Sultanate', origin: 'The Malay world', group: 'state' },
@@ -71,13 +73,12 @@ export const COMING_SOON: ComingSoon[] = [
   { name: 'Holy Roman Empire', origin: 'Central Europe', group: 'state' },
   { name: 'Nazi Germany', origin: 'Germany', group: 'state' },
   // Cultures, eras and peoples
-  { name: 'The 1920s', origin: 'United States', group: 'culture' },
   { name: 'The 1960s', origin: 'United States', group: 'culture' },
   { name: 'The Renaissance', origin: 'Italy', group: 'culture' },
-  { name: 'Traditional Cuban', origin: 'Cuba', group: 'culture' },
   { name: 'Maasai', origin: 'East Africa', group: 'culture' },
   { name: 'Aboriginal Australian', origin: 'Australia', group: 'culture' },
   { name: 'Frisian', origin: 'Friesland', group: 'culture' },
   { name: 'Polynesian', origin: 'The Pacific', group: 'culture' },
   { name: 'Melanesian', origin: 'The Pacific', group: 'culture' },
+  { name: 'Micronesian', origin: 'The Pacific', group: 'culture' },
 ]

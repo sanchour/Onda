@@ -1,5 +1,5 @@
 import indexJson from '@content/index.json'
-import type { ImmerseItem, ImmerseKind, OndaContent, OndaIndex } from './schema'
+import type { ImmerseItem, OndaContent, OndaIndex } from './schema'
 
 /** The shipped Ondas, in display order. Tiles render from this without loading any content file.
  *  Shipped content is validated at build time (content:check and a unit test), so it is not parsed again at launch. */
@@ -26,8 +26,8 @@ export function preloadAllOndas() {
   for (const o of ONDA_INDEX) void loadOnda(o.id).catch(() => undefined)
 }
 
-export const KIND_ICON: Record<ImmerseKind | 'words', string> = { read: 'book-open', listen: 'headphones', watch: 'film-strip', art: 'paint-brush', eat: 'bowl-food', drink: 'coffee', customs: 'hand-heart', words: 'translate' }
-export const MEDIA_KINDS = ['read', 'watch', 'listen', 'art', 'eat', 'drink', 'customs', 'words'] as const
+export const MEDIA_KINDS = ['read', 'watch', 'listen', 'art', 'eat', 'drink', 'customs', 'games', 'travel', 'words'] as const
+export const KIND_ICON: Record<(typeof MEDIA_KINDS)[number], string> = { read: 'book-open', listen: 'headphones', watch: 'film-strip', art: 'paint-brush', eat: 'bowl-food', drink: 'coffee', customs: 'hand-heart', games: 'game-controller', travel: 'map-trifold', words: 'translate' }
 export type MediaKind = (typeof MEDIA_KINDS)[number]
 
 export interface MediaItem {
@@ -49,10 +49,16 @@ const metaOf = (it: ImmerseItem) => [it.creator, it.year].filter(Boolean).join('
 /** Flat immersion list: every book, film, dish, custom and word, each with a stable id for logging. */
 export function mediaFor(c: OndaContent, opts: { includeFood: boolean } = { includeFood: true }): MediaItem[] {
   const out: MediaItem[] = []
-  for (const kind of ['read', 'watch', 'listen', 'art', 'eat', 'drink', 'customs'] as const) {
-    if (!opts.includeFood && (kind === 'eat' || kind === 'drink')) continue
-    for (const it of c.immerse[kind]) out.push({ id: it.id, kind, title: it.title, meta: metaOf(it), why: it.why, creator: it.creator, year: it.year, link: it.link, unverified: it.unverified })
+  const add = (kind: MediaKind, list: ImmerseItem[] | undefined) => {
+    for (const it of list ?? []) out.push({ id: it.id, kind, title: it.title, meta: metaOf(it), why: it.why, creator: it.creator, year: it.year, link: it.link, unverified: it.unverified })
   }
+  for (const kind of ['read', 'watch', 'listen', 'art', 'eat', 'drink', 'customs', 'games'] as const) {
+    if (!opts.includeFood && (kind === 'eat' || kind === 'drink')) continue
+    add(kind, c.immerse[kind])
+  }
+  // Travel: the calendar first, then the places
+  add('travel', c.immerse.festivals)
+  add('travel', c.immerse.places)
   for (const w of c.words) out.push({ id: w.id, kind: 'words', title: w.term, meta: w.meaning, why: w.usage ?? '', unverified: w.unverified, extra: [w.pronunciation, w.language].filter(Boolean).join(' · ') })
   return out
 }

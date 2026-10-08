@@ -1,0 +1,1427 @@
+{
+  "version": 1,
+  "id": "cuba",
+  "name": "Traditional Cuban",
+  "origin": "Cuba",
+  "era": "A living culture, formed over five centuries",
+  "tone": "coral",
+  "icon": "tree-palm",
+  "font": "lobster-two",
+  "pattern": "havana-tiles",
+  "glyph": "Son",
+  "line": "Live close to music, neighbours, strong coffee and the art of making do.",
+  "quote": {
+    "text": "I am a sincere man from where the palm tree grows, and before I die I want to pour out the verses of my soul.",
+    "by": "José Martí",
+    "source": "Versos sencillos I, 1891"
+  },
+  "quotes": [
+    {
+      "text": "Homeland is humanity.",
+      "by": "José Martí",
+      "source": "Patria, 26 January 1895"
+    },
+    {
+      "text": "I grow a white rose, in July as in January, for the sincere friend who gives me his open hand.",
+      "by": "José Martí",
+      "source": "Versos sencillos XXXIX, 1891"
+    },
+    {
+      "text": "To be educated is the only way to be free.",
+      "by": "José Martí",
+      "source": "Maestros ambulantes, La América, New York, May 1884"
+    },
+    {
+      "text": "Cuba is an ajiaco.",
+      "by": "Fernando Ortiz",
+      "source": "Los factores humanos de la cubanidad, lecture at the University of Havana, 1939"
+    },
+    {
+      "text": "To bad weather, a good face.",
+      "by": "Proverb",
+      "source": "A Spanish-language saying in daily use in Cuba"
+    }
+  ],
+  "words": [
+    {
+      "id": "word-resolver",
+      "term": "Resolver",
+      "meaning": "To solve; to get by; to find a way",
+      "pronunciation": "reh-sol-VEHR",
+      "language": "Cuban Spanish",
+      "usage": "The national verb. You resolve a spare part, a birthday cake, a lift to the next town."
+    },
+    {
+      "id": "word-inventar",
+      "term": "Inventar",
+      "meaning": "To invent; to improvise a solution",
+      "pronunciation": "een-ven-TAR",
+      "language": "Cuban Spanish",
+      "usage": "What you do when there is nothing to resolve with. A fan motor becomes a bicycle engine."
+    },
+    {
+      "id": "word-sobremesa",
+      "term": "Sobremesa",
+      "meaning": "The time at the table after the meal is over",
+      "pronunciation": "so-breh-MEH-sa",
+      "language": "Spanish",
+      "usage": "Nobody gets up. Coffee comes. This is when the real conversation happens."
+    },
+    {
+      "id": "word-cafecito",
+      "term": "Cafecito",
+      "meaning": "A small, strong, sweet coffee",
+      "pronunciation": "ka-feh-SEE-to",
+      "language": "Cuban Spanish",
+      "usage": "Offered to anyone who comes through the door, at any hour."
+    },
+    {
+      "id": "word-son",
+      "term": "Son",
+      "meaning": "The root music of Cuba",
+      "pronunciation": "sohn",
+      "language": "Cuban Spanish",
+      "usage": "Born in the eastern hills from Spanish strings and African rhythm. Salsa is its grandchild."
+    },
+    {
+      "id": "word-clave",
+      "term": "Clave",
+      "meaning": "The key rhythm; also the pair of sticks that play it",
+      "pronunciation": "KLAH-veh",
+      "language": "Cuban Spanish",
+      "usage": "Five strokes across two bars. Every other instrument fits itself to it."
+    },
+    {
+      "id": "word-tumbao",
+      "term": "Tumbao",
+      "meaning": "The repeating groove of bass or conga; also a person’s swing",
+      "pronunciation": "toom-BAH-oh",
+      "language": "Cuban Spanish",
+      "usage": "To walk with tumbao is to walk as if the music were on."
+    },
+    {
+      "id": "word-montuno",
+      "term": "Montuno",
+      "meaning": "The call-and-response section of a son",
+      "pronunciation": "mon-TOO-no",
+      "language": "Cuban Spanish",
+      "usage": "The singer improvises, the chorus answers and the dancers take off."
+    },
+    {
+      "id": "word-rumba",
+      "term": "Rumba",
+      "meaning": "Drum, song and dance of the Havana and Matanzas docks",
+      "pronunciation": "ROOM-ba",
+      "language": "Cuban Spanish",
+      "usage": "Three drums, sticks and voices. No relation to the ballroom dance of the same name."
+    },
+    {
+      "id": "word-guajiro",
+      "term": "Guajiro",
+      "meaning": "A countryman; a small farmer",
+      "pronunciation": "gwa-HEE-ro",
+      "language": "Cuban Spanish",
+      "usage": "The straw-hatted figure of the tobacco fields, and of the country music named after him."
+    },
+    {
+      "id": "word-guateque",
+      "term": "Guateque",
+      "meaning": "A country party with music, roast pork and dancing",
+      "pronunciation": "gwa-TEH-keh",
+      "language": "Cuban Spanish",
+      "usage": "Now used for any lively get-together."
+    },
+    {
+      "id": "word-decima",
+      "term": "Décima",
+      "meaning": "A ten-line stanza",
+      "pronunciation": "DEH-see-ma",
+      "language": "Spanish",
+      "usage": "The verse form of the Cuban countryside, sung and often made up on the spot."
+    },
+    {
+      "id": "word-repentista",
+      "term": "Repentista",
+      "meaning": "A poet who improvises verses in song",
+      "pronunciation": "reh-pen-TEES-ta",
+      "language": "Cuban Spanish",
+      "usage": "Two of them duel in décimas over a guitar, answering each other line for line."
+    },
+    {
+      "id": "word-bohio",
+      "term": "Bohío",
+      "meaning": "A palm-thatched country house",
+      "pronunciation": "bo-EE-oh",
+      "language": "Taíno",
+      "usage": "One of the Taíno words that survived the people who first spoke it, like hammock, canoe and tobacco."
+    },
+    {
+      "id": "word-vega",
+      "term": "Vega",
+      "meaning": "A tobacco field",
+      "pronunciation": "VEH-ga",
+      "language": "Cuban Spanish",
+      "usage": "The best lie in the red soil of Vuelta Abajo, in Pinar del Río."
+    },
+    {
+      "id": "word-torcedor",
+      "term": "Torcedor",
+      "meaning": "A cigar roller",
+      "pronunciation": "tor-seh-DOR",
+      "language": "Cuban Spanish",
+      "usage": "A trade learned over years. Rollers tap their blades on the bench to applaud the reader."
+    },
+    {
+      "id": "word-lector",
+      "term": "Lector",
+      "meaning": "The reader in a cigar factory",
+      "pronunciation": "lek-TOR",
+      "language": "Cuban Spanish",
+      "usage": "Paid by the workers to read newspapers and novels aloud while they roll. The custom began in 1865."
+    },
+    {
+      "id": "word-guarapo",
+      "term": "Guarapo",
+      "meaning": "Fresh-pressed sugar cane juice",
+      "pronunciation": "gwa-RAH-po",
+      "language": "Cuban Spanish",
+      "usage": "Sold from hand-cranked presses at the roadside, over ice."
+    },
+    {
+      "id": "word-ajiaco",
+      "term": "Ajiaco",
+      "meaning": "A stew of many roots and meats",
+      "pronunciation": "ah-hee-AH-ko",
+      "language": "Cuban Spanish",
+      "usage": "Fernando Ortiz made it the image of the Cuban people: everything in one pot, still cooking."
+    },
+    {
+      "id": "word-congri",
+      "term": "Congrí",
+      "meaning": "Rice cooked together with beans",
+      "pronunciation": "kon-GREE",
+      "language": "Cuban Spanish",
+      "usage": "Red beans in the east; with black beans the dish is called moros y cristianos."
+    },
+    {
+      "id": "word-malecon",
+      "term": "Malecón",
+      "meaning": "The sea wall and promenade of Havana",
+      "pronunciation": "ma-leh-KOHN",
+      "language": "Spanish",
+      "usage": "Eight kilometres of stone bench facing the Straits of Florida. The city’s living room."
+    },
+    {
+      "id": "word-portal",
+      "term": "Portal",
+      "meaning": "A covered porch or arcade at the front of a house",
+      "pronunciation": "por-TAHL",
+      "language": "Spanish",
+      "usage": "Where the rocking chairs are, and where the evening is spent."
+    },
+    {
+      "id": "word-solar",
+      "term": "Solar",
+      "meaning": "A tenement built round a shared courtyard",
+      "pronunciation": "so-LAR",
+      "language": "Cuban Spanish",
+      "usage": "Many families, one yard, one tap. Rumba was born in them."
+    },
+    {
+      "id": "word-comparsa",
+      "term": "Comparsa",
+      "meaning": "A carnival street band with dancers",
+      "pronunciation": "kom-PAR-sa",
+      "language": "Cuban Spanish",
+      "usage": "Each neighbourhood has its own, with its drums, lanterns and colours."
+    },
+    {
+      "id": "word-domino",
+      "term": "Dominó",
+      "meaning": "Dominoes",
+      "pronunciation": "do-mee-NO",
+      "language": "Spanish",
+      "usage": "Played in pairs at a table in the street, loudly, with a ring of advisers."
+    },
+    {
+      "id": "word-pelota",
+      "term": "Pelota",
+      "meaning": "Baseball; literally, ball",
+      "pronunciation": "peh-LOH-ta",
+      "language": "Cuban Spanish",
+      "usage": "The national passion since the 1860s. Arguments about it in Havana’s Parque Central never end."
+    },
+    {
+      "id": "word-asere",
+      "term": "Asere",
+      "meaning": "Friend; mate",
+      "pronunciation": "ah-SEH-reh",
+      "language": "Cuban Spanish",
+      "usage": "The everyday greeting between friends. The word came into street Spanish from the Abakuá brotherhoods."
+    },
+    {
+      "id": "word-ache",
+      "term": "Aché",
+      "meaning": "Blessing; life force; good luck",
+      "pronunciation": "ah-CHEH",
+      "language": "Lucumí, from Yoruba",
+      "usage": "A word from Afro-Cuban religion that everyone uses: to have aché is to have grace."
+    },
+    {
+      "id": "word-guayabera",
+      "term": "Guayabera",
+      "meaning": "A pleated shirt with four pockets, worn untucked",
+      "pronunciation": "gwa-ya-BEH-ra",
+      "language": "Cuban Spanish",
+      "usage": "Formal dress for a hot country. Said to come from Sancti Spíritus."
+    },
+    {
+      "id": "word-almendron",
+      "term": "Almendrón",
+      "meaning": "An old American car used as a shared taxi",
+      "pronunciation": "al-men-DROHN",
+      "language": "Cuban Spanish",
+      "usage": "Literally a big almond. A 1950s body, kept going with whatever engine could be found."
+    },
+    {
+      "id": "word-mambi",
+      "term": "Mambí",
+      "meaning": "A fighter in the wars of independence against Spain",
+      "pronunciation": "mam-BEE",
+      "language": "Cuban Spanish",
+      "usage": "The barefoot cavalry of the nineteenth century, many of them formerly enslaved."
+    },
+    {
+      "id": "word-chevere",
+      "term": "Chévere",
+      "meaning": "Great; cool",
+      "pronunciation": "CHEH-veh-reh",
+      "language": "Caribbean Spanish",
+      "usage": "General approval, for a person, a plan or a plate of food."
+    }
+  ],
+  "practices": [
+    {
+      "id": "cafecito",
+      "name": "Cafecito",
+      "icon": "coffee",
+      "slot": "Morning",
+      "time": "07:30",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Make coffee the Cuban way in a stovetop pot. Put a spoonful of sugar in a cup. When the first dark drops come up, pour them onto the sugar and beat it with a spoon until it turns pale and thick. Pour in the rest of the coffee and stir, so that a light foam rises. Serve it in small cups. Take one to someone: a neighbour, a colleague, whoever is in the house. Drink it with them without hurrying, standing or sitting.",
+      "why": "In Cuba coffee is a visit. It is the first thing offered to anyone who arrives, and refusing it takes some explaining. Sharing it each morning starts the day with another person and not with a screen.",
+      "variations": [
+        "Without caffeine, make the same small ceremony with a sweet herbal drink.",
+        "Carry a flask and small cups to work.",
+        "Drink it on the front step and greet whoever passes."
+      ]
+    },
+    {
+      "id": "clave",
+      "name": "Find the clave",
+      "icon": "music-notes",
+      "slot": "Afternoon",
+      "time": "13:30",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Put on a son or a rumba: the Septeto Nacional, Arsenio Rodríguez, Los Muñequitos de Matanzas. Clap the clave, the five-stroke pattern that holds the music together. Count eight quick beats in a bar. In the first bar clap on one, on four and on seven. In the second bar clap on three and on five. Repeat without stopping. Keep it steady for one whole song while the band moves round you. Then try stepping in place as you clap.",
+      "why": "Cuban musicians say that the clave is the key, and that a band out of clave falls apart. Learning to hold it puts you inside the music with the players.",
+      "variations": [
+        "Clap with two wooden spoons.",
+        "Learn the rumba clave, where the third stroke comes a little later.",
+        "Step the basic son: quick, quick, slow."
+      ]
+    },
+    {
+      "id": "sobremesa",
+      "name": "Sobremesa",
+      "icon": "users-three",
+      "slot": "Afternoon",
+      "time": "14:00",
+      "minutes": 20,
+      "meta": "Afternoon · 20 min",
+      "instructions": "After the main meal of the day, stay at the table for twenty minutes. Leave the plates where they are. Bring coffee or fruit. Keep phones out of sight. Talk, and let the talk go where it wants: a story, the news of the street, an old argument, a plan. If you eat alone, take the twenty minutes anyway with a coffee and a call to someone who would have been there.",
+      "why": "The meal in a Cuban house is only half over when the food is gone. Family business is done in the sobremesa and guests stop being guests.",
+      "variations": [
+        "Ask an older person at the table for one story from before you were born.",
+        "Play one round of dominoes at the table.",
+        "Invite the neighbours in for the coffee."
+      ]
+    },
+    {
+      "id": "resolver",
+      "name": "Resolver",
+      "icon": "hammer",
+      "slot": "Afternoon",
+      "time": "17:00",
+      "minutes": 15,
+      "meta": "Afternoon · 15 min",
+      "instructions": "Each day solve one small problem with what you already have. Mend the broken thing before you replace it. Cook from what is in the cupboard. Borrow the tool from next door and return it with something. Turn a jar into a lamp, a crate into a shelf, yesterday’s rice into today’s lunch. Keep a short note of what you resolved and how.",
+      "why": "Decades of shortage have made Cubans some of the most inventive repairers in the world. The skill was forced on them, and it is admired as wit: there is always a way.",
+      "variations": [
+        "Fix something for a neighbour.",
+        "Go a week without buying anything new.",
+        "Ask someone handy to teach you one repair."
+      ]
+    },
+    {
+      "id": "the-evening-air",
+      "name": "Take the evening air",
+      "icon": "sun-horizon",
+      "slot": "Evening",
+      "time": "19:00",
+      "minutes": 30,
+      "meta": "Evening · 30 min",
+      "instructions": "When the heat goes out of the day, go and sit where people pass: the front step, a balcony, a bench, the sea wall if you have one. Take a chair if you can. Greet everyone by name or with a nod. Let conversations start. Do not bring anything to do. On a wet evening, stand at an open window or door for ten minutes and then telephone a neighbour.",
+      "why": "Cuban houses open onto the street, and in the evening the street becomes one long room. In Havana people go to the Malecón to sit facing the sea, talk and pass the night.",
+      "variations": [
+        "Bring a guitar, a radio or a domino set.",
+        "Walk the same loop every evening and learn who lives where.",
+        "Carry out a second chair."
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": "play-dominoes-with-a-partner-loudly",
+      "name": "Play dominoes with a partner, loudly",
+      "meta": "Double-nine if you can find a set",
+      "time": "17:30",
+      "slot": "Afternoon"
+    },
+    {
+      "id": "write-a-decima-ten-lines-of-eight-syllables-about-your-day",
+      "name": "Write a décima: ten lines of eight syllables about your day",
+      "meta": "Rhyme it abba ac cddc",
+      "time": "16:00",
+      "slot": "Afternoon"
+    },
+    {
+      "id": "mend-one-thing-with-what-is-already-in-the-house",
+      "name": "Mend one thing with what is already in the house",
+      "meta": "And tell someone how you did it",
+      "time": "11:00",
+      "slot": "Afternoon"
+    },
+    {
+      "id": "task-listen-to-chan-chan-and-clap-the-clave-all-the-way-through",
+      "name": "Listen to Chan Chan and clap the clave all the way through",
+      "meta": "Listen · Buena Vista Social Club, 4 min",
+      "time": "18:00",
+      "slot": "Evening",
+      "action": "listen"
+    },
+    {
+      "id": "task-watch-buena-vista-social-club",
+      "name": "Watch Buena Vista Social Club",
+      "meta": "Watch · the old masters, found again",
+      "time": "20:30",
+      "slot": "Evening",
+      "action": "watch"
+    },
+    {
+      "id": "task-cook-black-beans-from-dried-slowly-with-a-sofrito",
+      "name": "Cook black beans from dried, slowly, with a sofrito",
+      "meta": "Eat · start in the morning",
+      "time": "10:00",
+      "slot": "Morning",
+      "action": "eat"
+    },
+    {
+      "id": "task-read-ten-of-marti-s-simple-verses-aloud",
+      "name": "Read ten of Martí’s Simple Verses aloud",
+      "meta": "Read · 10 min",
+      "time": "21:00",
+      "slot": "Evening",
+      "action": "read"
+    },
+    {
+      "id": "task-journal-whom-did-you-greet-today-and-who-greeted-you",
+      "name": "Journal: whom did you greet today, and who greeted you?",
+      "meta": "Journal · 10 min",
+      "time": "21:30",
+      "slot": "Evening",
+      "action": "journal"
+    },
+    {
+      "id": "task-what-is-in-your-ajiaco-list-what-you-are-made-of",
+      "name": "What is in your ajiaco? List what you are made of",
+      "meta": "Philosophy · 10 min",
+      "time": "09:00",
+      "slot": "Morning",
+      "action": "philosophy"
+    }
+  ],
+  "rules": [
+    {
+      "id": "r1",
+      "text": "Greet everyone on your own street",
+      "why": "In a Cuban neighbourhood no one passes in silence. Good morning to every person between your door and the corner, every time."
+    },
+    {
+      "id": "r2",
+      "text": "Mend before you buy",
+      "why": "Resolver comes first. Nothing new enters the house today until you have tried to fix, borrow or adapt."
+    },
+    {
+      "id": "r3",
+      "text": "Where one eats, two eat",
+      "why": "The saying goes: donde come uno, comen dos. Whatever you cook today, there is enough for whoever turns up."
+    },
+    {
+      "id": "r4",
+      "text": "Music on while you work",
+      "why": "Cooking, cleaning and repairs are done to a radio. Put on a son or a bolero for at least one chore, and move to it."
+    },
+    {
+      "id": "r5",
+      "text": "Stay at the table",
+      "why": "Do not be the first to get up. Give the sobremesa twenty minutes after the last mouthful."
+    },
+    {
+      "id": "r6",
+      "text": "A good face for bad weather",
+      "why": "Al mal tiempo, buena cara. Complain once, make a joke of it and get on with finding a way."
+    }
+  ],
+  "immerse": {
+    "read": [
+      {
+        "id": "read-versos-sencillos",
+        "title": "Versos sencillos",
+        "creator": "José Martí",
+        "year": "1891",
+        "why": "Forty-six short poems written in the Catskill Mountains by an exile homesick for the island. Every Cuban knows some by heart, and one became the words of Guantanamera."
+      },
+      {
+        "id": "read-cuban-counterpoint-tobacco-and-sugar",
+        "title": "Cuban Counterpoint: Tobacco and Sugar",
+        "creator": "Fernando Ortiz",
+        "year": "1940",
+        "why": "The founding book of Cuban self-understanding. He sets the two great crops against each other like characters, and coins the word transculturation."
+      },
+      {
+        "id": "read-biography-of-a-runaway-slave",
+        "title": "Biography of a Runaway Slave",
+        "creator": "Miguel Barnet, from the words of Esteban Montejo",
+        "year": "1966",
+        "why": "A man of 103 recalls slavery, years hidden in the forest and the war of independence."
+      },
+      {
+        "id": "read-cecilia-valdes",
+        "title": "Cecilia Valdés",
+        "creator": "Cirilo Villaverde",
+        "year": "1882",
+        "why": "The great Cuban novel of the nineteenth century: love, colour and slavery in the Havana of the 1830s."
+      },
+      {
+        "id": "read-motivos-de-son",
+        "title": "Motivos de son",
+        "creator": "Nicolás Guillén",
+        "year": "1930",
+        "why": "Eight poems in the speech and rhythm of Black Havana. They caused a scandal and changed Spanish-language poetry."
+      },
+      {
+        "id": "read-the-old-man-and-the-sea",
+        "title": "The Old Man and the Sea",
+        "creator": "Ernest Hemingway",
+        "year": "1952",
+        "why": "Written at his house outside Havana about a fisherman from Cojímar. Short enough for one sitting."
+      },
+      {
+        "id": "read-cuba-an-american-history",
+        "title": "Cuba: An American History",
+        "creator": "Ada Ferrer",
+        "year": "2021",
+        "why": "Five centuries of the island and its tangled life with the United States, by a historian born in Havana."
+      },
+      {
+        "id": "read-dreaming-in-cuban",
+        "title": "Dreaming in Cuban",
+        "creator": "Cristina García",
+        "year": "1992",
+        "why": "Three generations of women divided between Havana and Brooklyn. A novel of the diaspora."
+      }
+    ],
+    "watch": [
+      {
+        "id": "watch-buena-vista-social-club",
+        "title": "Buena Vista Social Club",
+        "creator": "Wim Wenders",
+        "year": "1999",
+        "why": "A group of half-forgotten musicians in their seventies and eighties record an album and play Carnegie Hall. Watch their faces."
+      },
+      {
+        "id": "watch-memories-of-underdevelopment",
+        "title": "Memories of Underdevelopment",
+        "creator": "Tomás Gutiérrez Alea",
+        "year": "1968",
+        "why": "A well-off writer stays behind when his family leaves for Miami and watches Havana change around him. The classic of Cuban cinema."
+      },
+      {
+        "id": "watch-strawberry-and-chocolate",
+        "title": "Strawberry and Chocolate",
+        "creator": "Tomás Gutiérrez Alea and Juan Carlos Tabío",
+        "year": "1993",
+        "why": "A friendship between a young Communist student and a gay artist in 1970s Havana. Funny, brave and full of the city."
+      },
+      {
+        "id": "watch-chico-and-rita",
+        "title": "Chico and Rita",
+        "creator": "Fernando Trueba and Javier Mariscal",
+        "year": "2010",
+        "why": "An animated love story between a pianist and a singer, from Havana in 1948 to New York, with a great score."
+      },
+      {
+        "id": "watch-vampires-in-havana",
+        "title": "Vampires in Havana",
+        "creator": "Juan Padrón",
+        "year": "1985",
+        "why": "A cartoon comedy about a trumpet player who does not know he is a vampire, set in the 1930s. A cult favourite on the island."
+      },
+      {
+        "id": "watch-i-am-cuba",
+        "title": "I Am Cuba",
+        "creator": "Mikhail Kalatozov",
+        "year": "1964",
+        "why": "A Soviet-Cuban production with some of the most astonishing camera movements ever filmed. Propaganda, and unforgettable to look at."
+      }
+    ],
+    "listen": [
+      {
+        "id": "listen-buena-vista-social-club",
+        "title": "Buena Vista Social Club",
+        "creator": "Buena Vista Social Club",
+        "year": "1997",
+        "why": "Recorded in six days in an old Havana studio. Start with Chan Chan and Dos gardenias."
+      },
+      {
+        "id": "listen-son-de-la-loma",
+        "title": "Son de la loma",
+        "creator": "Trío Matamoros",
+        "year": "1920s",
+        "why": "They are from the hills and they sing on the plain. One of the first sones the whole island sang."
+      },
+      {
+        "id": "listen-benny-more-with-his-banda-gigante",
+        "title": "Benny Moré with his Banda Gigante",
+        "creator": "Benny Moré",
+        "year": "1950s",
+        "why": "The greatest voice of Cuban popular music, in front of a big band he led without being able to read a note."
+      },
+      {
+        "id": "listen-guantanamera",
+        "title": "Guantanamera",
+        "creator": "Joseíto Fernández, with verses by José Martí",
+        "why": "A country tune that a radio singer used for the day’s news in the 1930s, later joined to Martí’s Simple Verses."
+      },
+      {
+        "id": "listen-los-munequitos-de-matanzas",
+        "title": "Los Muñequitos de Matanzas",
+        "creator": "Rumba",
+        "year": "since 1952",
+        "why": "The leading rumba group. Three drums, sticks, a lead singer and a chorus, and nothing else."
+      },
+      {
+        "id": "listen-la-comparsa",
+        "title": "La Comparsa",
+        "creator": "Ernesto Lecuona",
+        "year": "1912",
+        "why": "A piano piece in which a carnival band approaches from far off, passes and fades. He wrote it at seventeen."
+      },
+      {
+        "id": "listen-celia-cruz-with-la-sonora-matancera",
+        "title": "Celia Cruz with La Sonora Matancera",
+        "creator": "Celia Cruz",
+        "year": "1950s",
+        "why": "The Havana recordings that made her the queen of the music, before she left the island in 1960."
+      }
+    ],
+    "art": [
+      {
+        "id": "art-the-jungle",
+        "title": "The Jungle",
+        "creator": "Wifredo Lam",
+        "year": "1943",
+        "why": "Figures that are part human, part sugar cane and part mask crowd a moonlit thicket. Painted on his return to Cuba from Europe. Museum of Modern Art, New York."
+      },
+      {
+        "id": "art-gitana-tropical",
+        "title": "Gitana tropical",
+        "creator": "Víctor Manuel",
+        "year": "1929",
+        "why": "A calm young woman against a tropical landscape, often called the Mona Lisa of Cuban painting. Museo Nacional de Bellas Artes, Havana."
+      },
+      {
+        "id": "art-still-lifes-and-the-habana-libre-mural",
+        "title": "Still lifes and the Habana Libre mural",
+        "creator": "Amelia Peláez",
+        "year": "1940s–1958",
+        "why": "Fruit, fish and flowers held inside thick black lines like the stained glass of old Havana houses, and a vast mosaic on a hotel front."
+      },
+      {
+        "id": "art-havana-fanlights",
+        "title": "Havana fanlights",
+        "creator": "Coloured glass above doors and windows",
+        "year": "19th century",
+        "why": "Half-wheels of red, blue and yellow glass that break the hard sun into colour on the floor. The plainest sign of a Havana house."
+      },
+      {
+        "id": "art-fusterlandia",
+        "title": "Fusterlandia",
+        "creator": "José Fuster",
+        "year": "since 1975",
+        "why": "An artist covered his own house in mosaic and then, with their agreement, the houses of his neighbours. Jaimanitas, Havana."
+      }
+    ],
+    "eat": [
+      {
+        "id": "eat-moros-y-cristianos",
+        "title": "Moros y cristianos",
+        "creator": "Black beans and rice cooked together",
+        "why": "The daily plate. The beans are simmered with a sofrito of onion, garlic, pepper, cumin and bay."
+      },
+      {
+        "id": "eat-ropa-vieja",
+        "title": "Ropa vieja",
+        "creator": "Shredded beef stewed with tomato and peppers",
+        "why": "The name means old clothes. It came from the Canary Islands and became a national dish."
+      },
+      {
+        "id": "eat-ajiaco",
+        "title": "Ajiaco",
+        "creator": "A stew of roots, corn, plantain and several meats",
+        "why": "Cassava, malanga, sweet potato and yam cooked for hours. The dish Ortiz took as the picture of Cuba."
+      },
+      {
+        "id": "eat-lechon-asado-with-yuca",
+        "title": "Lechón asado with yuca",
+        "creator": "Roast pork with garlic and sour orange, and boiled cassava",
+        "why": "The meal of Christmas Eve, cooked outdoors for the whole family and half the street."
+      },
+      {
+        "id": "eat-tostones",
+        "title": "Tostones",
+        "creator": "Green plantain, fried, flattened and fried again",
+        "why": "Salted and eaten hot. Ripe plantain fried soft and sweet is their opposite number."
+      },
+      {
+        "id": "eat-guava-with-white-cheese",
+        "title": "Guava with white cheese",
+        "creator": "A slice of each",
+        "why": "The simplest dessert on the island, in a pastry or on a plate."
+      }
+    ],
+    "drink": [
+      {
+        "id": "drink-cafe-cubano",
+        "title": "Café cubano",
+        "creator": "Strong coffee beaten with sugar",
+        "why": "Small, dark and sweet, with a pale foam on top. Made to be shared."
+      },
+      {
+        "id": "drink-guarapo",
+        "title": "Guarapo",
+        "creator": "Fresh sugar cane juice over ice",
+        "why": "Pressed while you wait. Grassy, sweet and cold."
+      },
+      {
+        "id": "drink-batido",
+        "title": "Batido",
+        "creator": "A fruit milkshake",
+        "why": "Mamey, mango, guava or banana, blended with milk and ice."
+      },
+      {
+        "id": "drink-mojito",
+        "title": "Mojito",
+        "creator": "Mint, lime, sugar and soda water, with or without rum",
+        "why": "Crush the mint gently with the sugar and lime. Without the rum it is still a very good drink."
+      }
+    ],
+    "customs": [
+      {
+        "id": "customs-the-reader-in-the-factory",
+        "title": "The reader in the factory",
+        "creator": "A voice over the workbenches",
+        "why": "Since 1865 cigar rollers have paid one of their number to read to them: the newspapers in the morning and a novel in the afternoon. Some cigars are named after the books they liked."
+      },
+      {
+        "id": "customs-asking-a-blessing",
+        "title": "Asking a blessing",
+        "creator": "A greeting to elders",
+        "why": "Children and grown children greet parents, grandparents and godparents by asking for their blessing, and are answered: God bless you."
+      },
+      {
+        "id": "customs-burning-the-old-year",
+        "title": "Burning the old year",
+        "creator": "Midnight on 31 December",
+        "why": "A rag doll that stands for the year’s troubles is set alight, and a bucket of water is thrown out of the front door to carry them off."
+      },
+      {
+        "id": "customs-dominoes-in-the-street",
+        "title": "Dominoes in the street",
+        "creator": "A table, four chairs and an audience",
+        "why": "Tiles are slapped down hard, and commentary from the onlookers is part of the game."
+      },
+      {
+        "id": "customs-the-fifteenth-birthday",
+        "title": "The fifteenth birthday",
+        "creator": "Los quince",
+        "why": "A girl’s coming of age, marked with a dress, a party, a waltz and a book of photographs that families save up for."
+      }
+    ],
+    "games": [
+      {
+        "id": "games-domino",
+        "title": "Dominó",
+        "creator": "Tile game · Cuba",
+        "year": "since the 19th century",
+        "why": "Havana plays with a double-nine set of fifty-five tiles, in two pairs. You may not speak to your partner about the game, so everything is said with the tiles."
+      },
+      {
+        "id": "games-pelota",
+        "title": "Pelota",
+        "creator": "Baseball · Cuba",
+        "year": "since 1874",
+        "why": "The first recorded game on the island was played at Palmar de Junco in Matanzas in 1874. Children play a street version called four corners with a stick and a bottle cap."
+      },
+      {
+        "id": "games-chess-after-capablanca",
+        "title": "Chess, after Capablanca",
+        "creator": "Board game",
+        "year": "world champion 1921–1927",
+        "why": "José Raúl Capablanca learned the game at four by watching his father and went eight years without losing. Play through one of his endgames."
+      },
+      {
+        "id": "games-santiago-de-cuba",
+        "title": "Santiago de Cuba",
+        "creator": "Board game · Michael Rieneck",
+        "year": "2011",
+        "why": "Drive a car round the city, calling on a tobacco grower, a musician and a rum maker, and load the ships in the harbour. Light and quick."
+      },
+      {
+        "id": "games-tropico-6",
+        "title": "Tropico 6",
+        "creator": "Video game · Limbic Entertainment",
+        "year": "2019",
+        "why": "A comic strategy game about ruling a Caribbean island, with a score by Cuban-style bands. It is a caricature, and it knows it."
+      }
+    ],
+    "festivals": [
+      {
+        "id": "fest-carnival-of-santiago-de-cuba",
+        "title": "Carnival of Santiago de Cuba",
+        "creator": "Late July",
+        "why": "The oldest and loudest on the island. Neighbourhood comparsas parade behind drums and the wail of the Chinese cornet."
+      },
+      {
+        "id": "fest-parrandas-de-remedios",
+        "title": "Parrandas de Remedios",
+        "creator": "24 December, Remedios",
+        "why": "Two halves of a small town compete all night with floats, lanterns and fireworks. Recognised by UNESCO in 2018."
+      },
+      {
+        "id": "fest-havana-jazz-festival",
+        "title": "Havana Jazz Festival",
+        "creator": "January",
+        "why": "Founded in 1980. Cuban and visiting musicians play in theatres and clubs across the city."
+      },
+      {
+        "id": "fest-romerias-de-mayo",
+        "title": "Romerías de Mayo",
+        "creator": "Early May, Holguín",
+        "why": "Young artists from many countries fill the town for a week that starts with a walk up the Hill of the Cross."
+      },
+      {
+        "id": "fest-christmas-eve",
+        "title": "Christmas Eve",
+        "creator": "24 December",
+        "why": "Nochebuena: the whole family at one long table for roast pork, beans, cassava and music."
+      },
+      {
+        "id": "fest-day-of-cuban-culture",
+        "title": "Day of Cuban Culture",
+        "creator": "20 October",
+        "why": "The anniversary of the first singing of the national anthem, in Bayamo in 1868."
+      }
+    ],
+    "places": [
+      {
+        "id": "place-old-havana",
+        "title": "Old Havana",
+        "creator": "Havana, Cuba",
+        "why": "Five squares, baroque churches and streets of balconies, founded in 1519. A World Heritage Site and a lived-in neighbourhood."
+      },
+      {
+        "id": "place-vinales-valley",
+        "title": "Viñales Valley",
+        "creator": "Pinar del Río, Cuba",
+        "why": "Red earth, tobacco fields worked with oxen and limestone hills that rise like haystacks. Farmers show visitors how leaves are dried and rolled."
+      },
+      {
+        "id": "place-trinidad",
+        "title": "Trinidad",
+        "creator": "Sancti Spíritus, Cuba",
+        "why": "A sugar town of cobbled streets and pastel houses, with the valley of the old mills below. The fortunes were made by enslaved labour."
+      },
+      {
+        "id": "place-casa-de-la-trova",
+        "title": "Casa de la Trova",
+        "creator": "Santiago de Cuba",
+        "why": "A small room open to the street where the old songs have been played every day for decades."
+      },
+      {
+        "id": "place-matanzas",
+        "title": "Matanzas",
+        "creator": "Matanzas, Cuba",
+        "why": "The city of bridges where the danzón was first played and rumba grew up among the dockworkers."
+      },
+      {
+        "id": "place-callejon-de-hamel",
+        "title": "Callejón de Hamel",
+        "creator": "Centro Habana, Cuba",
+        "why": "An alley covered in murals by Salvador González, with rumba played in the open on Sundays."
+      },
+      {
+        "id": "place-calle-ocho",
+        "title": "Calle Ocho",
+        "creator": "Little Havana, Miami, USA",
+        "why": "The main street of the Cuban diaspora: coffee windows, cigar rollers and the old men at Domino Park."
+      },
+      {
+        "id": "place-ybor-city",
+        "title": "Ybor City",
+        "creator": "Tampa, Florida, USA",
+        "why": "The cigar town built by Cuban, Spanish and Italian workers in the 1880s, where Martí came to raise money and the readers read."
+      }
+    ]
+  },
+  "ethics": [
+    {
+      "title": "Where one eats, two eat",
+      "text": "Food is shared with whoever is there, and a visitor is never asked whether they have eaten: a plate is put in front of them. With ration books and shortages, this has not been a small thing.",
+      "practice": "Cook more than you need today and take a plate to someone."
+    },
+    {
+      "title": "The neighbour comes first",
+      "text": "When something breaks or runs out, the first call is next door. Tools, sugar, medicine and news move along the street. What you lend comes back in another form.",
+      "practice": "Ask a neighbour for a small favour today, and offer one."
+    },
+    {
+      "title": "Respect for elders",
+      "text": "Grandparents live in the house and are greeted first. Children ask for their blessing. An old person’s story is not interrupted.",
+      "practice": "Greet the oldest person you meet today before anyone else, and ask them something."
+    },
+    {
+      "title": "Dignity in making do",
+      "text": "To resolve is to refuse to be beaten by lack. It asks for patience, wit and pride in the workmanship. It should not be romanticised: people would rather have had the spare part.",
+      "practice": "Do one repair today properly, so that it will last."
+    },
+    {
+      "title": "Laughing at power",
+      "text": "Cubans call it choteo: the habit of taking nothing solemnly and deflating anyone who puts on airs. The essayist Jorge Mañach studied it in 1928 as both a weakness and a defence.",
+      "practice": "Find the joke in something that is weighing on you, and tell it to someone."
+    },
+    {
+      "title": "Pride in craft",
+      "text": "A cigar roller, a tres player and a mechanic who keeps a 1952 Chevrolet running are all masters, and are spoken of as such. Doing a thing well is its own standing.",
+      "practice": "Do one ordinary task today as a craftsman would."
+    }
+  ],
+  "philosophy": [
+    {
+      "title": "Transculturation",
+      "text": "Fernando Ortiz coined the word in 1940. When peoples meet, he argued, neither side simply takes on the other’s ways. Both lose something and both are changed, and something new is born that did not exist before. Cuba is his example.",
+      "practice": "Name one thing in your life that exists only because two traditions met."
+    },
+    {
+      "title": "The ajiaco",
+      "text": "Ortiz’s image for the nation is a stew that never leaves the fire. Taíno roots, Spanish meat, African yams and Chinese spice go in at different times and cook at different rates. The broth at the bottom is thick and blended, and what went in last is still whole on top.",
+      "practice": "List the ingredients of your own stew: places, languages, people. Which are fully cooked and which are still whole?"
+    },
+    {
+      "title": "Homeland is humanity",
+      "text": "José Martí spent most of his adult life in exile, organising a war of independence that he hoped would be free of hatred. He wrote that the homeland is that part of humanity we see most closely and into which we happened to be born.",
+      "practice": "Do something today for the part of humanity nearest to you."
+    },
+    {
+      "title": "Our America",
+      "text": "In an essay of 1891 Martí told the young republics of Latin America to stop copying Europe and the United States and to study their own lands and peoples. Graft the world onto our republics, he wrote, but let the trunk be our own.",
+      "practice": "Take one idea you have borrowed and ask whether it fits the ground you actually stand on."
+    },
+    {
+      "title": "The marvellous real",
+      "text": "The novelist Alejo Carpentier argued in 1949 that in the Caribbean the marvellous does not have to be invented, as it was by the surrealists in Paris. It is found in the history and the daily life of the place.",
+      "practice": "Write down the most improbable true thing you saw today."
+    },
+    {
+      "title": "Time at the table",
+      "text": "The sobremesa and the evening on the porch treat unhurried talk as a good in itself. Time spent with people is not thought of as lost.",
+      "practice": "Give someone an hour today without looking at a clock."
+    },
+    {
+      "title": "Call and response",
+      "text": "In the montuno a singer throws out a line and the chorus throws it back, again and again, while each player varies his part inside the clave. The music is a model of how to be one voice among many.",
+      "practice": "In your next group conversation, answer what was actually said before adding your own line."
+    },
+    {
+      "title": "There is always a way",
+      "text": "Resolver and inventar rest on a belief that no problem is final. It is practical optimism, held without illusions and usually with a joke.",
+      "practice": "Take one problem you have called impossible and list three imperfect ways through it."
+    }
+  ],
+  "journal": [
+    "Whom did you greet today, and who greeted you?",
+    "Who drank coffee with you?",
+    "What did you resolve today, and with what?",
+    "How long did you stay at the table, and what was said?",
+    "What music was playing while you worked?",
+    "What is in your ajiaco?",
+    "Who came to the door, and what did you offer?",
+    "What did you borrow, and what did you lend?",
+    "What did you see from the front step this evening?",
+    "Where did you find the clave today, and where did you lose it?",
+    "What made you laugh at something serious?",
+    "Whose blessing would you ask?",
+    "What did you mend instead of replace?",
+    "What story did an older person tell you?",
+    "What did you cook, and who ate it?",
+    "What is the most improbable true thing you saw today?",
+    "Which neighbour do you still not know by name?",
+    "What did you do today with real craft?",
+    "What do you miss about a place you have left?",
+    "What was the bad weather today, and what face did you put on it?",
+    "When did you dance, or want to?",
+    "What have two different traditions made in you that neither had alone?",
+    "What did you do slowly that you usually rush?",
+    "What would you carry with you if you had to leave?",
+    "Who is your street, and what do you owe it?",
+    "Which borrowed idea does not fit your ground?",
+    "What did you give away today?",
+    "What song is stuck in your head, and where is it from?",
+    "What looked impossible this morning and was done by night?",
+    "For whom do you grow a white rose?"
+  ],
+  "reflect": [
+    "What changed when you greeted everyone on your street?",
+    "What did you mend or invent that you are proud of?",
+    "What happened at the table after the plates were empty?",
+    "What did holding the clave teach you about listening?",
+    "What have you learned about what you are made of?",
+    "Which habit will stay in your house?"
+  ],
+  "dayThemes": [
+    "The first coffee",
+    "Good morning to the whole street",
+    "The clave",
+    "Resolver",
+    "Sobremesa",
+    "The evening air",
+    "Where one eats, two eat",
+    "The ajiaco",
+    "The reader’s voice",
+    "Where the palm tree grows",
+    "A good face for bad weather",
+    "Dominoes",
+    "Black beans, slowly",
+    "The front step",
+    "Son from the hills",
+    "The neighbour’s tool",
+    "The white rose",
+    "Rumba in the courtyard",
+    "The décima",
+    "Inventar",
+    "Tobacco and sugar",
+    "The sea wall",
+    "Call and response",
+    "The blessing",
+    "Choteo",
+    "The marvellous real",
+    "Those who left and those who stayed",
+    "Carnival",
+    "The master’s hand",
+    "Homeland is humanity"
+  ],
+  "guide": {
+    "intro": [
+      "Cuba is the largest island in the Caribbean, long and narrow, a hundred and fifty kilometres south of Florida. Its culture is one of the most recognisable on earth and one of the most mixed. Out of the meeting of Spanish settlers, enslaved Africans, the island’s first peoples and later arrivals from China, Haiti and elsewhere came a music the whole world dances to, a cuisine of rice, beans and pork, a way of talking with the whole body and a gift for getting by. This Onda is about that everyday culture: how Cubans live with one another.",
+      "The Spanish arrived with Columbus in 1492 and within decades the Taíno people had been all but destroyed by violence and disease, leaving words, foods and blood lines behind. For three centuries the island was a staging post for the treasure fleets. Then came sugar. From the late eighteenth century Cuba became the richest colony in the world and one of the cruellest, as hundreds of thousands of Africans were brought in chains to cut cane. Slavery lasted until 1886. The Yoruba, Kongo, Carabalí and other peoples carried their religions, drums and languages with them and kept them alive in mutual aid societies and in the courtyards of the poor.",
+      "Cuban culture grew where those worlds touched. The son, born in the eastern mountains, set a Spanish guitar over an African pulse. Rumba grew up among dockworkers in Havana and Matanzas. Catholic saints and African orishas came to share altars. The scholar Fernando Ortiz gave this process a name, transculturation, and gave the country its favourite image of itself: an ajiaco, a stew in which everything keeps cooking together.",
+      "The island won independence from Spain in 1898 after thirty years of war inspired by the poet José Martí, and then lived for six decades in the shadow of the United States. The revolution of 1959 brought free schools and clinics, a one-party state and a rupture with Washington that has lasted ever since. More than two million Cubans now live abroad. The collapse of the Soviet Union in 1991 began years of severe shortage. Through all of it, daily life has depended on the neighbour, the extended family and the ability to resolve.",
+      "Cubans disagree deeply about their government, and families are divided by the sea and by politics. This Onda takes no side in that argument. It is concerned with what people on the island and off it share: the first coffee offered to a visitor, the long talk after a meal, the evening on the porch, the rhythm called the clave, the repair that should not have worked.",
+      "You will make and share coffee each morning, learn to clap the clave, stay at the table, fix one thing a day and take the evening air. The Afro-Cuban religions are described here with respect and are not offered as practices. They are entered through initiation, under the guidance of their own elders."
+    ],
+    "origin": "The island of Cuba, and Cuban communities abroad, above all in Florida",
+    "era": "A living culture, shaped since the sixteenth century by Taíno, Spanish, African and Chinese inheritances",
+    "figures": [
+      {
+        "name": "José Martí",
+        "dates": "1853–1895",
+        "bio": "Poet, journalist and organiser of the last war of independence. Exiled at seventeen, he wrote and raised funds in New York for fifteen years, and was killed in his first battle. Every side of every Cuban argument claims him."
+      },
+      {
+        "name": "Carlos Manuel de Céspedes",
+        "dates": "1819–1874",
+        "bio": "A planter who freed the people he had enslaved on 10 October 1868 and called on them to join him in fighting Spain. Known as the Father of the Homeland."
+      },
+      {
+        "name": "Antonio Maceo",
+        "dates": "1845–1896",
+        "bio": "The Bronze Titan: a mule driver’s son of mixed descent who rose to second in command of the liberation army and was wounded more than twenty times."
+      },
+      {
+        "name": "Mariana Grajales",
+        "dates": "1815–1893",
+        "bio": "Mother of Antonio Maceo. She ran field hospitals during the first war and sent all her sons to fight. Honoured as the mother of the nation."
+      },
+      {
+        "name": "Fernando Ortiz",
+        "dates": "1881–1969",
+        "bio": "Lawyer turned anthropologist who spent sixty years studying Afro-Cuban music, religion and language and argued that they are the heart of Cuban culture. Called the third discoverer of Cuba."
+      },
+      {
+        "name": "Lydia Cabrera",
+        "dates": "1899–1991",
+        "bio": "Writer who recorded the stories, plant lore and beliefs of Afro-Cuban elders in El Monte, published in 1954. She left the island in 1960."
+      },
+      {
+        "name": "Nicolás Guillén",
+        "dates": "1902–1989",
+        "bio": "Poet from Camagüey who brought the rhythm of the son and the speech of Black Cubans into literature."
+      },
+      {
+        "name": "Alejo Carpentier",
+        "dates": "1904–1980",
+        "bio": "Novelist and historian of Cuban music whose idea of the marvellous real shaped Latin American fiction."
+      },
+      {
+        "name": "Ernesto Lecuona",
+        "dates": "1895–1963",
+        "bio": "Pianist and composer of more than six hundred pieces, among them Siboney and Malagueña. The most played Cuban composer."
+      },
+      {
+        "name": "Arsenio Rodríguez",
+        "dates": "1911–1970",
+        "bio": "Blind player of the tres, descended from Kongo people, who added congas, piano and trumpets to the son band and laid the ground for salsa."
+      },
+      {
+        "name": "Benny Moré",
+        "dates": "1919–1963",
+        "bio": "Singer from a village in Cienfuegos, known as the Barbarian of Rhythm, at home in every Cuban style."
+      },
+      {
+        "name": "Celia Cruz",
+        "dates": "1925–2003",
+        "bio": "Singer from a poor district of Havana who became the best-known voice of Cuban music in the world. She left in 1960 and was never allowed to return."
+      },
+      {
+        "name": "José Raúl Capablanca",
+        "dates": "1888–1942",
+        "bio": "World chess champion from 1921 to 1927, admired for the clarity of his play. Cuba’s first global celebrity."
+      },
+      {
+        "name": "Wifredo Lam",
+        "dates": "1902–1982",
+        "bio": "Painter of Chinese, African and Spanish descent who worked alongside Picasso in Paris and then turned Afro-Cuban imagery into modern art."
+      },
+      {
+        "name": "Alicia Alonso",
+        "dates": "1920–2019",
+        "bio": "Ballerina who danced for decades while nearly blind and founded the company that became the National Ballet of Cuba."
+      }
+    ],
+    "history": [
+      {
+        "when": "Before 1492",
+        "what": "The first peoples",
+        "detail": "Taíno farmers and older groups of fishers and gatherers lived across the island. They grew cassava, maize and tobacco and slept in hammocks. All four words come from their language."
+      },
+      {
+        "when": "28 October 1492",
+        "what": "Columbus lands",
+        "detail": "He came ashore on the north-east coast and wrote that it was the most beautiful land human eyes had seen. Conquest followed from 1511, led by Diego Velázquez. The chief Hatuey, who resisted, was burned at the stake."
+      },
+      {
+        "when": "1519",
+        "what": "Havana",
+        "detail": "The town was moved to its present site beside a deep, sheltered bay. It became the gathering point for Spain’s treasure fleets and one of the most heavily fortified ports in the Americas."
+      },
+      {
+        "when": "1762",
+        "what": "The British take Havana",
+        "detail": "They held the city for eleven months and opened it to trade. When Spain got it back, the island’s economy began to shift toward sugar and enslaved labour on a large scale."
+      },
+      {
+        "when": "1791 onward",
+        "what": "The sugar boom",
+        "detail": "Revolution in neighbouring Haiti ended production there. Cuba took its place. Over the next seventy years several hundred thousand Africans were brought to the island, and planters fleeing Haiti started coffee farms in the east."
+      },
+      {
+        "when": "10 October 1868",
+        "what": "The Cry of Yara",
+        "detail": "Carlos Manuel de Céspedes freed those he held in slavery and declared independence. The Ten Years’ War that followed failed, and it made a nation of people who had fought side by side."
+      },
+      {
+        "when": "1886",
+        "what": "The end of slavery",
+        "detail": "Spain abolished slavery in Cuba, later than anywhere in the Americas except Brazil."
+      },
+      {
+        "when": "19 May 1895",
+        "what": "The death of Martí",
+        "detail": "Three months after launching the final war of independence, José Martí rode into a Spanish ambush at Dos Ríos and was killed."
+      },
+      {
+        "when": "1898–1902",
+        "what": "Independence, with conditions",
+        "detail": "The United States entered the war after the battleship Maine blew up in Havana harbour. Spain gave up the island. A republic was declared on 20 May 1902, under a clause that let Washington intervene."
+      },
+      {
+        "when": "1920s",
+        "what": "The son conquers Havana",
+        "detail": "The music of the east reached the capital and was taken up by sextets and septets. Radio began in 1922. In 1930 a recording of The Peanut Vendor made in New York started a worldwide craze for Cuban rhythm."
+      },
+      {
+        "when": "1940",
+        "what": "A constitution and a book",
+        "detail": "A progressive constitution was adopted. In the same year Fernando Ortiz published Cuban Counterpoint."
+      },
+      {
+        "when": "1 January 1959",
+        "what": "The revolution",
+        "detail": "The dictator Fulgencio Batista fled and the rebel movement led by Fidel Castro took power. Land and businesses were nationalised and a one-party socialist state followed. Hundreds of thousands left, most for Florida."
+      },
+      {
+        "when": "1961–1962",
+        "what": "Literacy, embargo and missiles",
+        "detail": "A national campaign sent young volunteers to teach the countryside to read. The United States imposed a trade embargo that is still in force. In October 1962 the island was at the centre of the nuclear crisis between Washington and Moscow."
+      },
+      {
+        "when": "1991",
+        "what": "The Special Period",
+        "detail": "The Soviet Union collapsed and with it most of Cuba’s trade. Fuel, food and electricity ran short for years. People planted city gardens, rode bicycles and learned to mend everything."
+      },
+      {
+        "when": "1997",
+        "what": "Buena Vista Social Club",
+        "detail": "An album by veteran musicians, recorded in Havana, sold millions and reminded the world of the old son."
+      },
+      {
+        "when": "2016",
+        "what": "Rumba is recognised",
+        "detail": "UNESCO added Cuban rumba to its list of the intangible heritage of humanity. The country singing called punto followed in 2017."
+      }
+    ],
+    "concepts": [
+      {
+        "term": "Son",
+        "text": "The root of Cuban popular music.",
+        "detail": "It took shape in the mountains of Oriente in the late nineteenth century: a tres guitar, a bass, bongos, maracas, claves and voices. A sung verse leads into the montuno, where soloist and chorus answer each other. Mambo, cha-cha-chá and salsa all grow from it."
+      },
+      {
+        "term": "Clave",
+        "text": "The key.",
+        "detail": "A pattern of five strokes spread unevenly across two bars, with three on one side and two on the other. It comes from West and Central African timelines. Musicians do not so much play it as play inside it, and dancers feel it even when no one is striking the sticks."
+      },
+      {
+        "term": "Rumba",
+        "text": "The art of the courtyard.",
+        "detail": "A secular tradition of drumming, singing and dance created by Black workers in the ports. It has three forms: the slow yambú, the flirtatious guaguancó and the fast, acrobatic columbia, danced by men."
+      },
+      {
+        "term": "Transculturation",
+        "text": "How cultures make something new.",
+        "detail": "Ortiz’s term of 1940, offered as a correction to the idea that one culture simply absorbs another. In Cuba, he argued, every group was uprooted and every group was changed, and Cuban culture is the result."
+      },
+      {
+        "term": "Resolver",
+        "text": "Getting by as a skill.",
+        "detail": "The everyday practice of solving problems of supply through repair, substitution, barter and favours. It depends on knowing people. It is spoken of with pride and with weariness."
+      },
+      {
+        "term": "Tobacco and sugar",
+        "text": "The two Cubas.",
+        "detail": "Ortiz set them against each other. Tobacco is native, grown on small farms by free men and worked by hand with skill. Sugar is foreign, grown on vast estates by enslaved people and processed by machine. The island’s history is their argument."
+      },
+      {
+        "term": "The reader",
+        "text": "Education at the workbench.",
+        "detail": "Cigar rolling is quiet work, and from 1865 the workers hired readers. They heard the news, political essays, Hugo, Dumas and Cervantes. Cigar workers became the best-informed trade on the island and the backbone of the independence movement in exile."
+      },
+      {
+        "term": "Punto and décima",
+        "text": "The poetry of the countryside.",
+        "detail": "Country singers improvise ten-line stanzas over a small guitar, often in contest. The form came from Spain in the sixteenth century and was kept up by farmers of Canary Island descent."
+      },
+      {
+        "term": "Afro-Cuban religions",
+        "text": "Faiths carried across the sea.",
+        "detail": "Regla de Ocha, widely called Santería, honours the orishas of the Yoruba, who are paired with Catholic saints. Palo has Kongo roots, and Abakuá is a brotherhood from the Cross River region. They are living, initiatory religions with their own priests, and they have given Cuban music many of its rhythms and words."
+      },
+      {
+        "term": "The diaspora",
+        "text": "Cuba outside Cuba.",
+        "detail": "More than two million Cubans live abroad, the largest number in and around Miami. They have kept the food, the music, the coffee windows and the dominoes, and changed them. Cuban culture today is made on both sides of the water."
+      }
+    ],
+    "facts": [
+      {
+        "text": "Two famous cigar brands, Montecristo and Romeo y Julieta, take their names from novels and plays that factory readers read aloud."
+      },
+      {
+        "text": "The bee hummingbird, the smallest bird in the world, lives only in Cuba. It weighs less than two grams."
+      },
+      {
+        "text": "Cuba had a working railway in 1837, more than ten years before Spain did."
+      },
+      {
+        "text": "The words hammock, canoe, tobacco, barbecue and hurricane all came into European languages from Taíno."
+      },
+      {
+        "text": "The national bird, the tocororo, has red, white and blue feathers, the colours of the flag."
+      },
+      {
+        "text": "José Raúl Capablanca did not lose a single tournament or match game between 1916 and 1924."
+      },
+      {
+        "text": "The daiquiri is named after a beach and iron mine near Santiago de Cuba, where an American engineer is said to have mixed the first one around 1898."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Tres",
+        "meaning": "A guitar with three pairs of strings, the lead instrument of the son"
+      },
+      {
+        "term": "Orisha",
+        "meaning": "A divinity of the Yoruba religion and of Regla de Ocha"
+      },
+      {
+        "term": "Oriente",
+        "meaning": "The eastern end of the island, home of the son and of every rebellion"
+      },
+      {
+        "term": "Danzón",
+        "meaning": "The elegant couple dance first played in Matanzas in 1879"
+      },
+      {
+        "term": "Special Period",
+        "meaning": "The years of severe shortage after 1991"
+      },
+      {
+        "term": "Sofrito",
+        "meaning": "Onion, garlic and pepper fried gently in oil: the base of Cuban cooking"
+      }
+    ],
+    "furtherReading": [
+      {
+        "title": "Cuba and Its Music: From the First Drums to the Mambo",
+        "creator": "Ned Sublette",
+        "year": "2004",
+        "note": "A huge, lively history of the island told through its sound."
+      },
+      {
+        "title": "Music in Cuba",
+        "creator": "Alejo Carpentier",
+        "year": "1946",
+        "note": "The first full history of Cuban music, by a novelist who was also a musicologist."
+      },
+      {
+        "title": "On Becoming Cuban",
+        "creator": "Louis A. Pérez Jr.",
+        "year": "1999",
+        "note": "How Cuban identity was shaped by a century of closeness to the United States."
+      },
+      {
+        "title": "Afro-Cuban Tales",
+        "creator": "Lydia Cabrera",
+        "year": "1936",
+        "note": "Stories she heard as a child from the family’s Black servants, retold with wit."
+      },
+      {
+        "title": "Havana: A Subtropical Delirium",
+        "creator": "Mark Kurlansky",
+        "year": "2017",
+        "note": "A short, affectionate portrait of the city through its history, food and music."
+      }
+    ],
+    "learnFrom": [
+      {
+        "name": "Fundación Fernando Ortiz",
+        "note": "The Havana foundation that keeps and continues the work of Cuba’s leading scholar of its own culture.",
+        "link": "http://www.fundacionfernandoortiz.org"
+      },
+      {
+        "name": "Cuban Heritage Collection, University of Miami",
+        "note": "The largest archive of Cuban and Cuban exile history outside the island, with much of it online.",
+        "link": "https://www.library.miami.edu/chc/"
+      },
+      {
+        "name": "Smithsonian Folkways",
+        "note": "Field and studio recordings of son, rumba and country music, with notes by people who know the players.",
+        "link": "https://folkways.si.edu"
+      },
+      {
+        "name": "UNESCO Intangible Cultural Heritage: Rumba in Cuba",
+        "note": "The official description, with film of the music and dance.",
+        "link": "https://ich.unesco.org/en/RL/rumba-in-cuba-a-festive-combination-of-music-and-dances-and-all-the-practices-associated-01185"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Cuban Counterpoint: Tobacco and Sugar",
+        "creator": "Fernando Ortiz, trans. Harriet de Onís",
+        "publisher": "Duke University Press",
+        "year": "1995"
+      },
+      {
+        "title": "Cuba: An American History",
+        "creator": "Ada Ferrer",
+        "publisher": "Scribner",
+        "year": "2021"
+      },
+      {
+        "title": "Cuba and Its Music: From the First Drums to the Mambo",
+        "creator": "Ned Sublette",
+        "publisher": "Chicago Review Press",
+        "year": "2004"
+      },
+      {
+        "title": "Selected Writings",
+        "creator": "José Martí, trans. Esther Allen",
+        "publisher": "Penguin Classics",
+        "year": "2002"
+      },
+      {
+        "title": "On Becoming Cuban: Identity, Nationality, and Culture",
+        "creator": "Louis A. Pérez Jr.",
+        "publisher": "University of North Carolina Press",
+        "year": "1999"
+      },
+      {
+        "title": "El Lector: A History of the Cigar Factory Reader",
+        "creator": "Araceli Tinajero, trans. Judith E. Grasberg",
+        "publisher": "University of Texas Press",
+        "year": "2010"
+      },
+      {
+        "title": "Rumba: Dance and Social Change in Contemporary Cuba",
+        "creator": "Yvonne Daniel",
+        "publisher": "Indiana University Press",
+        "year": "1995"
+      }
+    ]
+  },
+  "sensitivity": {
+    "note": "This Onda draws on the everyday culture of a living people, on the island and in the diaspora, who disagree strongly about their country’s politics. It takes no side. It also describes skills that grew out of real hardship, and religions that are entered only through initiation. It treats the first with respect and does not offer the second as practices.",
+    "requiredCaveats": [
+      "Making do is admired in Cuba and was not chosen. Shortage, power cuts and emigration are painful facts and should not be treated as charming.",
+      "Cubans on and off the island hold strong and differing views of the revolution and the government. Nothing here endorses or condemns either position.",
+      "Regla de Ocha, Palo and Abakuá are initiatory religions. They are described here and never imitated.",
+      "Rum and cigars are part of the island’s history. Nothing in this Onda asks you to drink or smoke, and tobacco harms health.",
+      "This content has not yet been reviewed by Cuban cultural bearers or scholars. It should be before release."
+    ],
+    "reviewRequired": true
+  }
+}

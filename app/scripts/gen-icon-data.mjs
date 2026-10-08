@@ -16,13 +16,17 @@ fire flag flag-checkered flower-lotus footprints fork-knife gear-six guitar hamm
 infinity info laptop leaf lightbulb link list-checks lock medal minus moon moon-stars mountains music-notes notebook notion-logo paint-brush
 pen-nib pencil-simple person-simple-run person-simple-tai-chi person-simple-walk phone play plugs plus plus-circle prohibit question repeat
 scales seal-check share-network shield-check shower sign-out spade sparkle speaker-high spiral squares-four star stop-circle sun sun-horizon
-translate trash tree trophy user users-three vibrate warning-circle wave-sine waveform waves wifi-slash wind x x-circle yin-yang`.split(/\s+/).filter(Boolean)
+translate trash tree trophy boat books calendar-star campfire chats dog game-controller lamp map-pin map-trifold martini scroll tree-palm vinyl-record user users-three vibrate warning-circle wave-sine waveform waves wifi-slash wind x x-circle yin-yang`.split(/\s+/).filter(Boolean)
 
 const inner = (file) => fs.readFileSync(file, 'utf8').replace(/^<svg[^>]*>/, '').replace(/<\/svg>\s*$/, '')
 const rows = NAMES.map((n) => {
   const w = { regular: inner(path.join(assets, 'regular', `${n}.svg`)), bold: inner(path.join(assets, 'bold', `${n}-bold.svg`)), fill: inner(path.join(assets, 'fill', `${n}-fill.svg`)) }
   return `  '${n}': [${JSON.stringify(w.regular)}, ${JSON.stringify(w.bold)}, ${JSON.stringify(w.fill)}],`
 })
+
+// Drawn here, not Phosphor: a single soft wave for the Lagos tab (a gentler curve than wave-sine).
+const soft = (w) => `<path d="M24,128c35-42,69-42,104,0s69,42,104,0" fill="none" stroke="currentColor" stroke-width="${w}" stroke-linecap="round" stroke-linejoin="round"/>`
+rows.push(`  'wave-soft': [${JSON.stringify(soft(16))}, ${JSON.stringify(soft(24))}, ${JSON.stringify(soft(28))}],`)
 
 fs.writeFileSync(
   path.join(root, 'src/ui/icons.ts'),
@@ -35,4 +39,4 @@ ${rows.join('\n')}
 export type IconName = keyof typeof ICONS
 `,
 )
-console.log(`icons.ts: ${NAMES.length} icons`)
+console.log(`icons.ts: ${rows.length} icons`)

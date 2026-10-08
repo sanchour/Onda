@@ -33,7 +33,7 @@ export const en = {
 
   paywall: {
     title: 'Ondas+', tagline: 'Live every tradition.',
-    b1: 'Every Onda', b1t: 'Sixteen worlds, plus your own.', b2: 'Unlimited Lagos', b2t: 'No limit on habits or check ins.',
+    b1: 'Every Onda', b1t: 'Twenty-two worlds, plus your own.', b2: 'Unlimited Lagos', b2t: 'No limit on habits or check ins.',
     b3: 'Sync everywhere', b3t: 'Reminders, Calendar and Notion.', b4: 'Complete privacy', b4t: 'No ads, no data collected, no tracking.',
     startTrial: 'Start Free Trial', getLifetime: 'Get Lifetime · € 14,99', done: 'Done',
     subFree: '7 days free, then lifetime access for just € 14,99', subTrial: 'Lifetime access for just € 14,99', subLife: 'You have lifetime access',
@@ -72,12 +72,12 @@ export const en = {
   ondas: {
     title: 'Ondas', newOnda: 'New Onda', browse: 'Browse Ondas', noRunning: 'No Onda running', noRunningSub: 'Browse the Ondas and step into one', kicker: 'Onda · {{label}}',
     dayOf: 'Day {{day}} of {{length}}', immerse: 'Immerse', journal: 'Journal', philosophy: 'Philosophy', guide: 'Full guide', today: 'Today', practicesOf: '{{done}} of {{total}} practices', tasksOf: '{{done}} of {{total}} tasks', rulesOf: '{{done}} of {{total}} rules kept',
-    go: { journal: 'Open Journal', philosophy: 'Open Philosophy', read: 'Open reading', watch: 'Open watching', listen: 'Open listening', art: 'Open art', eat: 'Open food', drink: 'Open drinks', customs: 'Open customs' },
-    practices: 'Practices', rules: 'Rules', tasks: 'Tasks', allTitle: 'All Ondas', allSub: 'Sixteen worlds to live in, and more on the way', active: 'Active', mine: 'Yours',
+    go: { journal: 'Open Journal', philosophy: 'Open Philosophy', read: 'Open reading', watch: 'Open watching', listen: 'Open listening', art: 'Open art', eat: 'Open food', drink: 'Open drinks', customs: 'Open customs', games: 'Open games', travel: 'Open travel' },
+    practices: 'Practices', rules: 'Rules', tasks: 'Tasks', allTitle: 'All Ondas', allSub: 'Twenty-two worlds to live in, and more on the way', active: 'Active', mine: 'Yours',
     noRules: 'No rules for this Onda', noTasks: 'No tasks for this Onda',
   },
   browse: { religion: 'Religions and spiritual traditions', philosophy: 'Philosophy, thinkers and schools of thought', state: 'Empires, states and political systems', culture: 'Cultures, eras and peoples', mine: 'Yours', soon: 'Coming soon' },
-  rulesPage: { lead: '{{count}} rules to live by. Read them; there is nothing to tick.' },
+  rulesPage: { lead: 'Tap a rule when you have kept it today.' },
   onda: {
     todayTheme: 'Today: {{theme}}', quoteOfDay: 'Quote of the day', wordOfDay: 'Word of the day', guideSub: 'Context, history, ideas, culture and language',
     practices: 'Practices', rules: 'Rules', tasks: 'Tasks', immerse: 'Immerse', thinkAbout: 'Think about', seeAll: 'See All', kindPhilosophy: 'Philosophy', kindEthics: 'Ethics',
@@ -87,10 +87,10 @@ export const en = {
     sensitivity: 'A note before you begin',
   },
   kinds: { all: 'All', read: 'Books', watch: 'Watch', listen: 'Listen', art: 'Art', eat: 'Food', drink: 'Drinks', customs: 'Customs', words: 'Language' },
-  kindLabel: { read: 'Read', watch: 'Watch', listen: 'Listen', art: 'Art', eat: 'Eat', drink: 'Drink', customs: 'Customs', words: 'Words' },
+  kindLabel: { read: 'Read', watch: 'Watch', listen: 'Listen', art: 'Art', eat: 'Eat', drink: 'Drink', customs: 'Customs', games: 'Games', travel: 'Travel', words: 'Words' },
   immersion: {
     title: 'Immersion', experienced: '{{done}} of {{total}} experienced', footer: 'Tap an item to read about it. Tick it when you have experienced it.', empty: 'Nothing here yet',
-    kindCount: '{{done}} of {{total}}', about: 'About {{name}}', markExperienced: 'Mark as experienced', experiencedBtn: 'Experienced', learnMore: 'Learn more', noNote: 'No note for this one yet.',
+    kindCount: '{{done}} of {{total}}', about: 'About {{name}}', markExperienced: 'Mark as experienced', experiencedBtn: 'Experienced', learnMore: 'Learn more', noNote: 'No note for this one yet.', shelf_one: '{{count}} on the shelf', shelf_other: '{{count}} on the shelf', no: 'No. {{n}}',
   },
   journal: {
     count_one: '{{count}} entry', count_other: '{{count}} entries',
@@ -98,16 +98,16 @@ export const en = {
     saved: 'Entry saved',
   },
   philosophy: {
-    title: 'Philosophy', lead: 'Ideas to carry through the day, and how to act on them.', think: 'Think about', ethics: 'Ethics and morality', ethicsTab: 'Ethics', tryIt: 'Try', tryThis: 'Try this today', onList: 'On your list for today', all: 'All',
+    title: 'Philosophy', lead: 'Ideas to carry through the day, and how to act on them.', think: 'Think about', ethics: 'Ethics and morality', ethicsTab: 'Ethics', tryIt: 'Try', tryThis: 'Try this today', onList: 'On your list for today', all: 'All', count_one: '{{count}} idea', count_other: '{{count}} ideas',
     pickedCount_one: '{{count}} thing to try today', pickedCount_other: '{{count}} things to try today',
   },
   guide: {
-    tabs: { overview: 'Overview', history: 'History', ideas: 'Ideas', ways: 'Ways', culture: 'Culture', language: 'Language', facts: 'Facts' },
-    leadHistory: 'How it unfolded', leadIdeas: 'What it asks you to think about', leadWays: 'How to behave, and what to keep', leadCulture: 'Books, films, music, art, food and drink',
+    tabs: { overview: 'Overview', history: 'History', ideas: 'Ideas', ethics: 'Ethics', ways: 'Practices', culture: 'Culture', travel: 'Travel', language: 'Language', facts: 'Facts' },
+    leadHistory: 'How it unfolded', leadIdeas: 'What it asks you to think about', leadEthics: 'What is right, what is owed, and why', leadWays: 'What to do each day, what to keep, and the customs around it', leadCulture: 'Books, films, music, art, food, drink and games', leadTravel: 'When to go and where to stand',
     leadLanguage: 'Words to carry through the days', leadFacts: 'Small things worth knowing',
     jumpTo: 'Jump to', introduction: 'Introduction', origin: 'Origin', era: 'Era', rule: 'Rule', practice: 'Practice', didYouKnow: 'Did you know', framing: 'A note on respect', learnFrom: 'Learn from', furtherReading: 'Further reading', sources: 'Sources',
     unverified: 'Not yet verified', empty: 'Nothing added yet',
-    concepts: 'Concepts', practices: 'Practices', rules: 'Rules', customs: 'Customs', words: 'Words', glossary: 'Glossary', figures: 'Key figures',
+    concepts: 'Concepts', practices: 'Practices', rules: 'Rules', customs: 'Customs', words: 'Words', glossary: 'Glossary', figures: 'Key figures', festivals: 'Festivals and calendar', places: 'Places to visit',
     readMore: 'Read more', showLess: 'Show less', expandAll: 'Expand all', collapseAll: 'Collapse all', nOf: '{{n}} of {{total}}', openLink: 'Open link',
     count_one: '{{count}} item', count_other: '{{count}} items',
   },
@@ -186,6 +186,7 @@ export const en = {
   a2hs: { title: 'Add Onda to Home Screen', body: 'Tap Share, then Add to Home Screen. Onda opens full screen and works offline.', dismiss: 'Dismiss' },
   sw: { updateReady: 'A new version is ready', reload: 'Reload', offlineReady: 'Ready to use offline' },
   whatsNew: { title: "What's New", v1: '1.0', v1date: '2026-10-06', v1a: 'Lagos: habit experiments with streaks, notes and photos.', v1b: 'Ondas: ten traditions to live for 7 to 30 days.', v1c: 'Notion, Calendar and Reminders integrations.',
+    v30: '3.0', v30date: '2026-10-13', v30a: 'Six new Ondas, each with its own look: Norse, Diogenes, Confucianism, Abbasid Caliphate, The 1920s and Traditional Cuban.', v30b: 'Every Onda now has games to play and a Travel section with festivals and places to visit. Immerse opens like a small library.', v30c: 'Rules can be ticked off each day, Philosophy is an easy list, and the app follows your phone between light and dark.',
     v21: '2.1', v21date: '2026-10-12', v21a: 'Faster launch: the app paints at once and the heavy start-up work is gone, so it opens sooner and stays smoother.', v21b: 'Every Onda has new rules and livelier tasks written in its own voice.', v21c: 'Less work in the background and a clearer message if your phone runs out of storage.',
     v20: '2.0', v20date: '2026-10-11', v20a: 'A soft wash of your Onda color behind every screen, in light and dark. Turn it off in Settings, Appearance.', v20b: 'Browse Ondas in four groups, with more worlds on the way. The accent now follows your Onda everywhere.', v20c: 'Journal, Philosophy and Rules open as full pages. Tap your Onda card for its full guide.',
     v14: '1.4', v14date: '2026-10-10', v14a: 'Every Onda now has five or more practices and eight tasks: reading, listening, journaling and writing about its philosophy, each with a shortcut that opens the right place.', v14b: 'Add a practice from your running Onda as a Lago. Ticking one ticks the other.', v14c: 'Add to Calendar is now one tap from the Ondas and Lagos tabs. The app opens on Ondas.',

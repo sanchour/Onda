@@ -1,0 +1,1265 @@
+{
+  "version": 1,
+  "id": "cynic",
+  "name": "Diogenes",
+  "origin": "Sinope & Athens",
+  "era": "4th century BCE, and the Cynics after him",
+  "tone": "yellow",
+  "icon": "dog",
+  "font": "vollkorn",
+  "pattern": "jar-scallops",
+  "glyph": "κύων",
+  "line": "Need little, say what is true and laugh at the rest.",
+  "quote": {
+    "text": "Stand out of my light.",
+    "by": "Diogenes of Sinope",
+    "source": "To Alexander the Great, as told in Diogenes Laertius, Lives of Eminent Philosophers 6.38, trans. R. D. Hicks"
+  },
+  "quotes": [
+    {
+      "text": "I am a citizen of the world.",
+      "by": "Diogenes of Sinope",
+      "source": "Diogenes Laertius, Lives of Eminent Philosophers 6.63, trans. R. D. Hicks"
+    },
+    {
+      "text": "I am looking for a man.",
+      "by": "Diogenes of Sinope",
+      "source": "Said while carrying a lit lamp in daylight; Diogenes Laertius, Lives 6.41, trans. R. D. Hicks"
+    },
+    {
+      "text": "A child has beaten me in plainness of living.",
+      "by": "Diogenes of Sinope",
+      "source": "On throwing away his cup; Diogenes Laertius, Lives 6.37, trans. R. D. Hicks"
+    },
+    {
+      "text": "Freedom of speech.",
+      "by": "Diogenes of Sinope",
+      "source": "Asked what was the most beautiful thing in the world; Diogenes Laertius, Lives 6.69, trans. R. D. Hicks"
+    },
+    {
+      "text": "A Socrates gone mad.",
+      "by": "Plato",
+      "source": "Asked what sort of man Diogenes was; Diogenes Laertius, Lives 6.54, trans. R. D. Hicks"
+    },
+    {
+      "text": "I fawn on those who give me anything, I yelp at those who refuse, and I set my teeth in rascals.",
+      "by": "Diogenes of Sinope",
+      "source": "Asked why he was called a dog; Diogenes Laertius, Lives 6.60, trans. R. D. Hicks"
+    }
+  ],
+  "words": [
+    {
+      "id": "word-kyon",
+      "term": "Kyon",
+      "meaning": "Dog",
+      "pronunciation": "KOO-ohn",
+      "language": "Ancient Greek",
+      "usage": "The insult Diogenes took as a title. A dog lives in the open, has no shame, guards its friends and bites its enemies."
+    },
+    {
+      "id": "word-kynikos",
+      "term": "Kynikos",
+      "meaning": "Dog-like; a Cynic",
+      "pronunciation": "koo-nee-KOSS",
+      "language": "Ancient Greek",
+      "usage": "The name of the school. It has nothing to do with the modern sense of expecting the worst of people."
+    },
+    {
+      "id": "word-askesis",
+      "term": "Askesis",
+      "meaning": "Training",
+      "pronunciation": "AS-kay-sis",
+      "language": "Ancient Greek",
+      "usage": "The athlete’s word for practice. Diogenes applied it to the whole of life: train the body and the mind to need less."
+    },
+    {
+      "id": "word-autarkeia",
+      "term": "Autarkeia",
+      "meaning": "Self-sufficiency",
+      "pronunciation": "ow-TAR-kay-a",
+      "language": "Ancient Greek",
+      "usage": "Needing nothing you cannot supply yourself. For the Cynics this was the mark of a free person."
+    },
+    {
+      "id": "word-parrhesia",
+      "term": "Parrhesia",
+      "meaning": "Frank speech; saying everything",
+      "pronunciation": "par-ray-SEE-a",
+      "language": "Ancient Greek",
+      "usage": "The right of a free citizen to speak his mind. Diogenes called it the finest thing in the world and used it on kings."
+    },
+    {
+      "id": "word-anaideia",
+      "term": "Anaideia",
+      "meaning": "Shamelessness",
+      "pronunciation": "an-EYE-day-a",
+      "language": "Ancient Greek",
+      "usage": "Doing in public whatever is not wrong in itself. A test of which rules rest on reason and which only on habit."
+    },
+    {
+      "id": "word-typhos",
+      "term": "Typhos",
+      "meaning": "Smoke; vanity, delusion",
+      "pronunciation": "TOO-foss",
+      "language": "Ancient Greek",
+      "usage": "The fog of self-importance and false value that the Cynic tries to blow away."
+    },
+    {
+      "id": "word-atyphia",
+      "term": "Atyphia",
+      "meaning": "Freedom from smoke; clear-headedness",
+      "pronunciation": "a-too-FEE-a",
+      "language": "Ancient Greek",
+      "usage": "What is left when pretension is gone."
+    },
+    {
+      "id": "word-physis",
+      "term": "Physis",
+      "meaning": "Nature",
+      "pronunciation": "FOO-sis",
+      "language": "Ancient Greek",
+      "usage": "What a thing is and needs by itself, before custom adds to it. The Cynic standard for living."
+    },
+    {
+      "id": "word-nomos",
+      "term": "Nomos",
+      "meaning": "Custom, convention, law",
+      "pronunciation": "NOM-oss",
+      "language": "Ancient Greek",
+      "usage": "What people have agreed to treat as right. Also the root of the word for coinage."
+    },
+    {
+      "id": "word-nomisma",
+      "term": "Nomisma",
+      "meaning": "Currency; what is accepted by custom",
+      "pronunciation": "NOM-iz-ma",
+      "language": "Ancient Greek",
+      "usage": "The oracle told Diogenes to deface it. He decided the god meant the false coin of social values."
+    },
+    {
+      "id": "word-kosmopolites",
+      "term": "Kosmopolites",
+      "meaning": "Citizen of the world",
+      "pronunciation": "koz-mo-po-LEE-tays",
+      "language": "Ancient Greek",
+      "usage": "His answer when asked where he was from. The first recorded use of the idea."
+    },
+    {
+      "id": "word-ponos",
+      "term": "Ponos",
+      "meaning": "Toil, hardship",
+      "pronunciation": "PON-oss",
+      "language": "Ancient Greek",
+      "usage": "The Cynics held that chosen hardship is good, and that most of the toil people undergo for money and fame is wasted."
+    },
+    {
+      "id": "word-euteleia",
+      "term": "Euteleia",
+      "meaning": "Cheapness; thrift",
+      "pronunciation": "ew-TEL-ay-a",
+      "language": "Ancient Greek",
+      "usage": "Living on what costs little. Crates wrote a hymn to it."
+    },
+    {
+      "id": "word-eleutheria",
+      "term": "Eleutheria",
+      "meaning": "Freedom",
+      "pronunciation": "el-ew-ther-EE-a",
+      "language": "Ancient Greek",
+      "usage": "What Diogenes said he valued above everything, as Heracles did."
+    },
+    {
+      "id": "word-arete",
+      "term": "Arete",
+      "meaning": "Virtue; excellence",
+      "pronunciation": "ar-ET-ay",
+      "language": "Ancient Greek",
+      "usage": "The Cynics held it can be taught, cannot be lost and is enough for happiness."
+    },
+    {
+      "id": "word-eudaimonia",
+      "term": "Eudaimonia",
+      "meaning": "Flourishing; a life that goes well",
+      "pronunciation": "ew-dye-mo-NEE-a",
+      "language": "Ancient Greek",
+      "usage": "The aim of every Greek school. The Cynic route to it was the shortest and the steepest."
+    },
+    {
+      "id": "word-karteria",
+      "term": "Karteria",
+      "meaning": "Endurance",
+      "pronunciation": "kar-ter-EE-a",
+      "language": "Ancient Greek",
+      "usage": "The power to bear heat, cold, hunger and insult without being moved."
+    },
+    {
+      "id": "word-enkrateia",
+      "term": "Enkrateia",
+      "meaning": "Mastery of oneself",
+      "pronunciation": "en-KRAT-ay-a",
+      "language": "Ancient Greek",
+      "usage": "Rule over appetite. Antisthenes took it from Socrates and made it central."
+    },
+    {
+      "id": "word-apatheia",
+      "term": "Apatheia",
+      "meaning": "Freedom from disturbing passions",
+      "pronunciation": "a-PATH-ay-a",
+      "language": "Ancient Greek",
+      "usage": "A calm that cannot be bought or threatened. The Stoics inherited the word."
+    },
+    {
+      "id": "word-adiaphora",
+      "term": "Adiaphora",
+      "meaning": "Things that make no difference",
+      "pronunciation": "a-dee-AF-or-a",
+      "language": "Ancient Greek",
+      "usage": "Wealth, rank, reputation and comfort: neither good nor bad in themselves."
+    },
+    {
+      "id": "word-doxa",
+      "term": "Doxa",
+      "meaning": "Opinion; reputation",
+      "pronunciation": "DOK-sa",
+      "language": "Ancient Greek",
+      "usage": "What people think of you. The Cynics trained themselves to do without it."
+    },
+    {
+      "id": "word-pithos",
+      "term": "Pithos",
+      "meaning": "A large clay storage jar",
+      "pronunciation": "PITH-oss",
+      "language": "Ancient Greek",
+      "usage": "The home of Diogenes in Athens. It was a jar big enough to sit in. Later artists turned it into a barrel."
+    },
+    {
+      "id": "word-tribon",
+      "term": "Tribon",
+      "meaning": "A rough, worn cloak",
+      "pronunciation": "TREE-bohn",
+      "language": "Ancient Greek",
+      "usage": "He folded it double and slept in it. With the staff and pouch, it became the Cynic uniform."
+    },
+    {
+      "id": "word-pera",
+      "term": "Pera",
+      "meaning": "A leather pouch",
+      "pronunciation": "PAY-ra",
+      "language": "Ancient Greek",
+      "usage": "It held the day’s food and nothing else. Crates wrote a poem about an ideal city called Pera."
+    },
+    {
+      "id": "word-bakteria",
+      "term": "Bakteria",
+      "meaning": "A walking staff",
+      "pronunciation": "bak-tay-REE-a",
+      "language": "Ancient Greek",
+      "usage": "The third piece of Cynic equipment."
+    },
+    {
+      "id": "word-chreia",
+      "term": "Chreia",
+      "meaning": "A short pointed anecdote",
+      "pronunciation": "KRAY-a",
+      "language": "Ancient Greek",
+      "usage": "The form in which nearly everything about Diogenes survives. Schoolboys copied them for centuries."
+    },
+    {
+      "id": "word-diatribe",
+      "term": "Diatribe",
+      "meaning": "A lively moral talk",
+      "pronunciation": "dee-a-tree-BAY",
+      "language": "Ancient Greek",
+      "usage": "A street lecture with jokes, questions and imaginary opponents, developed by Bion. Its tone passed into the sermon."
+    },
+    {
+      "id": "word-spoudogeloion",
+      "term": "Spoudogeloion",
+      "meaning": "The serious-funny",
+      "pronunciation": "spoo-do-GEL-oy-on",
+      "language": "Ancient Greek",
+      "usage": "Teaching through jokes and parody. The method of Diogenes, Crates and Menippus."
+    },
+    {
+      "id": "word-philanthropia",
+      "term": "Philanthropia",
+      "meaning": "Love of humankind",
+      "pronunciation": "fil-an-thro-PEE-a",
+      "language": "Ancient Greek",
+      "usage": "The gentler side of the school. Crates went from house to house settling quarrels and was called the door-opener."
+    },
+    {
+      "id": "word-agora",
+      "term": "Agora",
+      "meaning": "The marketplace and public square",
+      "pronunciation": "ag-or-AH",
+      "language": "Ancient Greek",
+      "usage": "Where Diogenes ate, slept, taught and made a nuisance of himself."
+    }
+  ],
+  "practices": [
+    {
+      "id": "subtract-one",
+      "name": "Subtract one thing",
+      "icon": "minus",
+      "slot": "Morning",
+      "time": "07:30",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Each morning choose one thing to do without until tomorrow: sugar in the coffee, the lift, the podcast on the way to work, a second helping, a purchase you had planned. Say plainly to yourself what it is. During the day, notice the moment you reach for it and what the reaching feels like. In the evening ask whether you needed it or only had it. Choose a different thing each day.",
+      "why": "Diogenes saw a child drink from cupped hands and threw away his cup. The exercise is about finding out by experiment how short the list of real needs is.",
+      "variations": [
+        "Give the thing away instead of only skipping it.",
+        "Go a whole day without spending money.",
+        "Do without something for a week and see whether you take it back."
+      ]
+    },
+    {
+      "id": "weather-training",
+      "name": "Weather training",
+      "icon": "shower",
+      "slot": "Morning",
+      "time": "07:45",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Give your body a small dose of chosen discomfort. End your shower with thirty seconds of cold water. Or walk the first five minutes outside without a coat. Or sit on the floor instead of a chair for a meal. Keep it short and safe. The point is to stay calm inside it: breathe slowly and do not hurry to end it. Skip this if you are unwell.",
+      "why": "Diogenes rolled in hot sand in summer and embraced snow-covered statues in winter, to harden himself. He held that training the body trains the will.",
+      "variations": [
+        "Sleep one night on a mat on the floor.",
+        "Take the stairs all day.",
+        "Carry your shopping home on foot."
+      ]
+    },
+    {
+      "id": "plain-meal",
+      "name": "The plain meal",
+      "icon": "bowl-food",
+      "slot": "Afternoon",
+      "time": "13:00",
+      "minutes": 20,
+      "meta": "Afternoon · 20 min",
+      "instructions": "Make one meal a day as plain as a Cynic’s: lentils or beans, bread, olives, an onion, fruit and water. Eat it outdoors if you can, on a bench or a step, with no screen. Eat slowly enough to notice that hunger makes it good. If someone asks what you are doing, tell them the truth.",
+      "why": "Diogenes ate in the marketplace, which respectable Athenians did not do, and lived on barley cake, lentils and figs. He said hunger was the best sauce and cost nothing.",
+      "variations": [
+        "Share the meal with someone and talk about what enough means.",
+        "Eat only what is already in the house for a day.",
+        "Drink only water for a day."
+      ]
+    },
+    {
+      "id": "frank-word",
+      "name": "The frank word",
+      "icon": "chats",
+      "slot": "Afternoon",
+      "time": "16:00",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Once a day say one true thing you would normally soften, swallow or save for later. Say it to the person’s face, briefly, without heat, and then stop talking. It can be praise you were too shy to give, a no you were about to turn into a maybe, or an honest answer to how are you. The rule has two halves: nothing behind anyone’s back, and nothing meant to wound.",
+      "why": "Diogenes called freedom of speech the most beautiful thing in the world. The Cynics treated flattery as a kind of slavery, for both sides.",
+      "variations": [
+        "Tell someone a truth about yourself that you usually hide.",
+        "Refuse one thing today without giving a false reason.",
+        "Ask a friend to tell you one thing you do not want to hear."
+      ]
+    },
+    {
+      "id": "lamp-at-dusk",
+      "name": "The lamp at dusk",
+      "icon": "lamp",
+      "slot": "Evening",
+      "time": "21:00",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "In the evening light a candle or a small lamp and go through the day by it. Ask three questions and answer each in a sentence, aloud or on paper. What did I do today for applause? What did I want today that I did not need? Where was I free? Do not scold yourself. Laugh if you can. Then blow out the light.",
+      "why": "Diogenes went about in daylight with a lit lamp, saying he was looking for a human being. Turned on yourself, the lamp shows where you were acting a part.",
+      "variations": [
+        "Walk the block with a torch and do the review on foot.",
+        "Do it with a friend, each answering in turn.",
+        "Keep the answers for the whole Onda and read them at the end."
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": "give-away-one-thing-you-have-not-used-in-a-year",
+      "name": "Give away one thing you have not used in a year",
+      "meta": "A cup, a coat, a gadget",
+      "time": "11:00",
+      "slot": "Afternoon"
+    },
+    {
+      "id": "sit-in-the-sun-for-ten-minutes-and-ask-for-nothing",
+      "name": "Sit in the sun for ten minutes and ask for nothing",
+      "meta": "No phone, no book",
+      "time": "12:30",
+      "slot": "Afternoon"
+    },
+    {
+      "id": "ask-for-something-you-expect-to-be-refused",
+      "name": "Ask for something you expect to be refused",
+      "meta": "Practice in hearing no",
+      "time": "15:00",
+      "slot": "Afternoon"
+    },
+    {
+      "id": "task-read-book-6-of-the-lives-of-eminent-philosophers",
+      "name": "Read Book 6 of the Lives of Eminent Philosophers",
+      "meta": "Read · every story about Diogenes, in an hour",
+      "time": "20:00",
+      "slot": "Evening",
+      "action": "read"
+    },
+    {
+      "id": "task-find-diogenes-on-the-steps-in-the-school-of-athens",
+      "name": "Find Diogenes on the steps in The School of Athens",
+      "meta": "Art · he is the one who does not care",
+      "time": "17:00",
+      "slot": "Afternoon",
+      "action": "art"
+    },
+    {
+      "id": "task-eat-lentils-bread-and-olives-outdoors",
+      "name": "Eat lentils, bread and olives outdoors",
+      "meta": "Eat · the Cynic lunch",
+      "time": "13:00",
+      "slot": "Afternoon",
+      "action": "eat"
+    },
+    {
+      "id": "task-journal-what-did-you-do-today-for-applause",
+      "name": "Journal: what did you do today for applause?",
+      "meta": "Journal · 10 min",
+      "time": "21:15",
+      "slot": "Evening",
+      "action": "journal"
+    },
+    {
+      "id": "task-deface-the-currency-name-one-custom-you-keep-only-from-habit",
+      "name": "Deface the currency: name one custom you keep only from habit",
+      "meta": "Philosophy · 10 min",
+      "time": "08:30",
+      "slot": "Morning",
+      "action": "philosophy"
+    }
+  ],
+  "rules": [
+    {
+      "id": "r1",
+      "text": "Want less before you earn more",
+      "why": "The Cynic’s wealth is the shortness of the list of things needed. Before buying anything today, wait an hour and ask again."
+    },
+    {
+      "id": "r2",
+      "text": "Say it to their face or not at all",
+      "why": "Frank speech is spoken to the person concerned. No complaining about anyone who is not in the room."
+    },
+    {
+      "id": "r3",
+      "text": "Do one good thing that no one sees",
+      "why": "Reputation is smoke. Once today, help, tidy or give without telling anyone, including later."
+    },
+    {
+      "id": "r4",
+      "text": "Eat what is cheap and near",
+      "why": "Lentils, bread, fruit, water. One meal today costs almost nothing and needs no praise."
+    },
+    {
+      "id": "r5",
+      "text": "Laugh at yourself first",
+      "why": "Diogenes won arguments with jokes and was the butt of plenty. Catch yourself being pompous once today and say so."
+    },
+    {
+      "id": "r6",
+      "text": "Harm no one and stay inside the law",
+      "why": "The Cynics broke customs to test them. Take the nerve and leave the offence: nothing indecent, nothing illegal, nothing at another person’s expense."
+    }
+  ],
+  "immerse": {
+    "read": [
+      {
+        "id": "read-lives-of-eminent-philosophers-book-6",
+        "title": "Lives of Eminent Philosophers, Book 6",
+        "creator": "Diogenes Laertius, trans. Pamela Mensch",
+        "year": "3rd century CE; this translation 2018",
+        "why": "Almost everything we have: a few pages on Antisthenes, then story after story about Diogenes, Crates and Hipparchia."
+      },
+      {
+        "id": "read-sayings-and-anecdotes-with-other-popular-moralists",
+        "title": "Sayings and Anecdotes, with Other Popular Moralists",
+        "creator": "Diogenes the Cynic, trans. Robin Hard",
+        "year": "2012",
+        "why": "All the ancient stories gathered from every source and sorted by theme. The best single book."
+      },
+      {
+        "id": "read-discourses-3-22-on-cynicism",
+        "title": "Discourses 3.22: On Cynicism",
+        "creator": "Epictetus",
+        "year": "about 108 CE",
+        "why": "A Stoic teacher tells a student what the Cynic calling really asks. It is far harder than a cloak and a staff."
+      },
+      {
+        "id": "read-philosophies-for-sale",
+        "title": "Philosophies for Sale",
+        "creator": "Lucian of Samosata",
+        "year": "2nd century CE",
+        "why": "Zeus auctions off the philosophers. Diogenes goes for two obols. Satire by a writer who learned his trade from the Cynics."
+      },
+      {
+        "id": "read-the-dangerous-life-and-ideas-of-diogenes-the-cynic",
+        "title": "The Dangerous Life and Ideas of Diogenes the Cynic",
+        "creator": "Jean-Manuel Roubineau",
+        "year": "2023",
+        "why": "A short, sharp modern portrait that takes the man seriously as a thinker."
+      },
+      {
+        "id": "read-cynics",
+        "title": "Cynics",
+        "creator": "William Desmond",
+        "year": "2008",
+        "why": "A clear guide to the whole movement and its long afterlife."
+      },
+      {
+        "id": "read-critique-of-cynical-reason",
+        "title": "Critique of Cynical Reason",
+        "creator": "Peter Sloterdijk",
+        "year": "1983",
+        "why": "A German philosopher sets the cheeky ancient Cynic against the tired modern cynic. Long, and worth sampling."
+      }
+    ],
+    "watch": [
+      {
+        "id": "watch-the-gleaners-and-i",
+        "title": "The Gleaners and I",
+        "creator": "Agnès Varda",
+        "year": "2000",
+        "why": "A documentary about people who live on what others leave behind in fields and markets. Curious, warm and without pity."
+      },
+      {
+        "id": "watch-nomadland",
+        "title": "Nomadland",
+        "creator": "Chloé Zhao",
+        "year": "2020",
+        "why": "A woman lives in her van and works the seasons across the American West. A film about what is lost and found with a house."
+      },
+      {
+        "id": "watch-captain-fantastic",
+        "title": "Captain Fantastic",
+        "creator": "Matt Ross",
+        "year": "2016",
+        "why": "A father raises six children in the forest on philosophy and hard training, then has to take them into town."
+      },
+      {
+        "id": "watch-into-the-wild",
+        "title": "Into the Wild",
+        "creator": "Sean Penn",
+        "year": "2007",
+        "why": "A graduate gives away his savings and walks into Alaska. A true story about the pull of having nothing, and its price."
+      }
+    ],
+    "listen": [
+      {
+        "id": "listen-in-our-time-cynicism",
+        "title": "In Our Time: Cynicism",
+        "creator": "BBC Radio 4, with Melvyn Bragg",
+        "year": "2005",
+        "why": "Three scholars on Diogenes and the school in forty minutes."
+      },
+      {
+        "id": "listen-history-of-philosophy-without-any-gaps-the-cynics",
+        "title": "History of Philosophy Without Any Gaps: the Cynics",
+        "creator": "Peter Adamson",
+        "year": "2011",
+        "why": "A short, funny and careful episode in a series that covers everyone."
+      },
+      {
+        "id": "listen-mercedes-benz",
+        "title": "Mercedes Benz",
+        "creator": "Janis Joplin",
+        "year": "1971",
+        "why": "Under two minutes, unaccompanied: a prayer for a car, a television and a night on the town. The driest song about wanting things."
+      },
+      {
+        "id": "listen-the-courage-of-truth",
+        "title": "The Courage of Truth",
+        "creator": "Michel Foucault, lectures at the Collège de France",
+        "year": "1984",
+        "why": "His last lecture course, much of it on the Cynics as people who made their lives the proof of what they said. Published in English in 2011."
+      }
+    ],
+    "art": [
+      {
+        "id": "art-the-school-of-athens",
+        "title": "The School of Athens",
+        "creator": "Raphael",
+        "year": "1509–1511",
+        "why": "In the middle of the steps, alone, half dressed and reading, with his cup beside him. Everyone else is in a conversation. Vatican Museums."
+      },
+      {
+        "id": "art-diogenes",
+        "title": "Diogenes",
+        "creator": "Jean-Léon Gérôme",
+        "year": "1860",
+        "why": "He sits in his jar lighting the lamp while four dogs watch him like students. Walters Art Museum, Baltimore."
+      },
+      {
+        "id": "art-diogenes-2",
+        "title": "Diogenes",
+        "creator": "John William Waterhouse",
+        "year": "1882",
+        "why": "Three young women with parasols look down at the philosopher in his jar, and he does not look up. Art Gallery of New South Wales."
+      },
+      {
+        "id": "art-alexander-and-diogenes",
+        "title": "Alexander and Diogenes",
+        "creator": "Edwin Landseer",
+        "year": "1848",
+        "why": "The famous meeting replayed by dogs: a scruffy terrier in a barrel and a white bulldog in a fine collar. Tate, London."
+      },
+      {
+        "id": "art-statue-of-diogenes",
+        "title": "Statue of Diogenes",
+        "creator": "Sinop, Turkey",
+        "year": "2006",
+        "why": "In his home town on the Black Sea he stands on a jar holding a lamp, with a dog at his feet."
+      }
+    ],
+    "eat": [
+      {
+        "id": "eat-lentil-soup",
+        "title": "Lentil soup",
+        "creator": "Lentils, onion, olive oil, vinegar",
+        "why": "The dish most tied to the Cynics. Crates wrote that a pot of lentils should not be traded for a rich table and the quarrels that come with it."
+      },
+      {
+        "id": "eat-barley-cake",
+        "title": "Barley cake",
+        "creator": "Barley meal kneaded with water and oil",
+        "why": "The cheapest bread of ancient Greece, eaten unbaked or lightly toasted. Any coarse flatbread will do."
+      },
+      {
+        "id": "eat-figs-and-olives",
+        "title": "Figs and olives",
+        "creator": "Dried figs, a handful of olives",
+        "why": "Diogenes is often shown eating dried figs. Food that needs no cooking and no plate."
+      },
+      {
+        "id": "eat-lupin-beans",
+        "title": "Lupin beans",
+        "creator": "Soaked and salted",
+        "why": "A street snack so linked with the Cynics that ancient writers joke about it. Sold in jars today across the Mediterranean."
+      }
+    ],
+    "drink": [
+      {
+        "id": "drink-water-from-your-hands",
+        "title": "Water from your hands",
+        "creator": "At a tap or a spring",
+        "why": "The whole story in one gesture. Try it once and see what a cup is for."
+      },
+      {
+        "id": "drink-kykeon",
+        "title": "Kykeon",
+        "creator": "Barley meal stirred into water, with mint",
+        "why": "A peasant’s drink, thick and plain, older than Homer."
+      },
+      {
+        "id": "drink-water-with-a-little-vinegar",
+        "title": "Water with a little vinegar",
+        "creator": "Sour and cooling",
+        "why": "The drink of labourers and soldiers. It costs nothing and quenches thirst better than wine."
+      }
+    ],
+    "customs": [
+      {
+        "id": "customs-begging-from-a-statue",
+        "title": "Begging from a statue",
+        "creator": "Practice in being refused",
+        "why": "Diogenes was seen asking a statue for alms. He said he was getting used to hearing no. Ask for something unlikely today, politely."
+      },
+      {
+        "id": "customs-walking-in-as-others-walk-out",
+        "title": "Walking in as others walk out",
+        "creator": "Against the crowd",
+        "why": "He entered the theatre as everyone else was leaving and said this was what he practised all his life. Take a route or an hour that others avoid."
+      },
+      {
+        "id": "customs-eating-in-the-marketplace",
+        "title": "Eating in the marketplace",
+        "creator": "Public and unashamed",
+        "why": "Told off for eating in the square, he said it was in the square that he felt hungry. Eat your lunch outside where people can see."
+      },
+      {
+        "id": "customs-the-folded-cloak",
+        "title": "The folded cloak",
+        "creator": "One garment for everything",
+        "why": "He doubled his cloak to make it serve as coat and bedding. Wear the same plain clothes for a week and count who notices."
+      }
+    ],
+    "games": [
+      {
+        "id": "games-petteia",
+        "title": "Petteia",
+        "creator": "Board game · ancient Greece",
+        "year": "antiquity",
+        "why": "Pebbles on a grid, captured by trapping them between two of yours. Plato mentions it. Rules are reconstructed, so settle yours first."
+      },
+      {
+        "id": "games-untitled-goose-game",
+        "title": "Untitled Goose Game",
+        "creator": "Video game · House House",
+        "year": "2019",
+        "why": "You are a goose in a tidy English village with a list of small outrages to commit. The nearest thing to Diogenes in a game."
+      },
+      {
+        "id": "games-the-stanley-parable",
+        "title": "The Stanley Parable",
+        "creator": "Video game · Galactic Cafe",
+        "year": "2013",
+        "why": "A narrator tells you which door to take. You do not have to listen. A comedy about obeying and disobeying a script."
+      }
+    ],
+    "festivals": [
+      {
+        "id": "fest-isthmian-games",
+        "title": "Isthmian Games",
+        "creator": "Every two years in spring, ancient Corinth",
+        "why": "Diogenes lived his last years at Corinth. One story has him crown himself at the games, saying he had beaten harder opponents than any athlete: poverty, exile and desire."
+      },
+      {
+        "id": "fest-city-dionysia",
+        "title": "City Dionysia",
+        "creator": "March, ancient Athens",
+        "why": "The great theatre festival. He walked in against the crowd as it was leaving."
+      },
+      {
+        "id": "fest-world-philosophy-day",
+        "title": "World Philosophy Day",
+        "creator": "Third Thursday of November",
+        "why": "Held each year by UNESCO since 2002. A good day to do philosophy in the street, where he did it."
+      },
+      {
+        "id": "fest-buy-nothing-day",
+        "title": "Buy Nothing Day",
+        "creator": "The day after American Thanksgiving, in late November",
+        "why": "A modern protest held since the 1990s on the busiest shopping day of the year. He would have approved."
+      }
+    ],
+    "places": [
+      {
+        "id": "place-sinop",
+        "title": "Sinop",
+        "creator": "Black Sea coast, Turkey",
+        "why": "His birthplace, from which he was exiled over the coinage. A statue with lamp, dog and jar stands near the harbour."
+      },
+      {
+        "id": "place-the-ancient-agora",
+        "title": "The Ancient Agora",
+        "creator": "Athens, Greece",
+        "why": "He lived in a storage jar beside the Metroon, the city archive, whose foundations can still be seen on the west side."
+      },
+      {
+        "id": "place-ancient-corinth",
+        "title": "Ancient Corinth",
+        "creator": "Peloponnese, Greece",
+        "why": "Where he spent his old age, met Alexander by tradition, and was buried by a city gate under a pillar topped with a marble dog."
+      },
+      {
+        "id": "place-delphi",
+        "title": "Delphi",
+        "creator": "Phocis, Greece",
+        "why": "The oracle that, in the story, told him to deface the currency. Walk the sacred way up to the temple of Apollo."
+      },
+      {
+        "id": "place-the-raphael-rooms",
+        "title": "The Raphael Rooms",
+        "creator": "Vatican Museums, Rome",
+        "why": "Stand in front of The School of Athens and find the one man who is not trying to impress anyone."
+      }
+    ]
+  },
+  "ethics": [
+    {
+      "title": "Virtue is enough",
+      "text": "The Cynics held that a good character is all a person needs to live well, and that money, rank and comfort add nothing to it. Everything else in the school follows from this.",
+      "practice": "Name one thing you believe you need in order to be happy. Go today as if you already had enough without it."
+    },
+    {
+      "title": "Frank speech",
+      "text": "To flatter is to be a slave and to make one. The Cynic tells the truth to the powerful, in public and at his own risk, and takes the consequences.",
+      "practice": "Say one honest thing today to someone who has power over you, kindly and plainly."
+    },
+    {
+      "title": "Citizen of the world",
+      "text": "Asked where he came from, Diogenes gave no city. If your home is the whole world, no one is a foreigner and no border decides whom you owe decency.",
+      "practice": "Do a small kindness today for someone outside every group you belong to."
+    },
+    {
+      "title": "Shame only at what is wrong",
+      "text": "Most embarrassment guards custom, not right. The Cynic keeps shame for cruelty, cowardice and lying, and drops it for cheap clothes and plain food.",
+      "practice": "Do one harmless thing today that you usually avoid because of how it looks."
+    },
+    {
+      "title": "Love of humankind",
+      "text": "Crates gave away his fortune and spent his days walking into houses to settle quarrels. The barking is meant to wake people up.",
+      "practice": "Help settle one small dispute today without taking a side."
+    },
+    {
+      "title": "Freedom above comfort",
+      "text": "Captured and put up for sale, Diogenes was asked what he could do. He answered: govern men. A person who needs nothing cannot be owned.",
+      "practice": "Find one thing someone could use to control you: a debt, a habit, a need for approval. Loosen it by one step."
+    }
+  ],
+  "philosophy": [
+    {
+      "title": "Deface the currency",
+      "text": "His father ran the mint at Sinope, and the two were accused of damaging the coinage. Diogenes turned the charge into a mission. The Greek word for currency also means custom, and he spent his life marking false social values as counterfeit.",
+      "practice": "Pick one thing everyone around you treats as valuable. Ask what it would be worth if no one could see you had it."
+    },
+    {
+      "title": "The short road",
+      "text": "The other schools offered years of study. The Cynics called their way a short cut to virtue: no books, only practice. It is short because it is steep.",
+      "practice": "Take one thing you have been reading about doing and do it today, badly if need be."
+    },
+    {
+      "title": "Nature against custom",
+      "text": "Hunger, thirst, sleep and friendship are from nature and are easy to satisfy. Fashion, status and luxury are from custom and are never satisfied. The Cynic strips life back to see which is which.",
+      "practice": "Sort your wants today into two columns, nature and custom. Meet the first and let one of the second go."
+    },
+    {
+      "title": "Two kinds of training",
+      "text": "Diogenes said there is a training of the body and a training of the soul, and that neither works without the other. Athletes and flute players sweat for small prizes. The same effort spent on character would make people happy.",
+      "practice": "Give ten minutes of deliberate effort today to something that earns no money and no praise."
+    },
+    {
+      "title": "Smoke",
+      "text": "Typhos is the Cynic word for the haze of self-importance: titles, opinions, the wish to be thought well of. Seeing clearly means letting it blow off.",
+      "practice": "Catch one sentence today that you say to sound impressive. Say the plain version instead."
+    },
+    {
+      "title": "Laughter as an argument",
+      "text": "Plato defined a human being as a featherless biped. Diogenes plucked a chicken and brought it to the lecture. A joke can show in a second what a treatise takes a year to prove.",
+      "practice": "Answer one pompous thing today with gentle humour instead of anger."
+    },
+    {
+      "title": "Like the gods",
+      "text": "It is the privilege of the gods to need nothing, he said, and of godlike people to need little. Self-sufficiency is a kind of strength, and it is what makes giving possible.",
+      "practice": "Count how many things you used today. Tomorrow, try to use ten fewer."
+    },
+    {
+      "title": "The things that own you",
+      "text": "When his one slave ran away, Diogenes refused to chase him: it would be absurd if Manes could live without Diogenes and Diogenes could not live without Manes. Every possession asks for upkeep and worry.",
+      "practice": "Find one possession that costs you more attention than it gives. Decide its fate this week."
+    }
+  ],
+  "journal": [
+    "What did you do today for applause?",
+    "What did you want today that you did not need?",
+    "Where were you free today?",
+    "What did you go without, and what happened?",
+    "Which true thing did you say, and which did you swallow?",
+    "What custom did you follow today without knowing why?",
+    "What would you be ashamed for people to see, and is the shame deserved?",
+    "Who has power over you, and through what need?",
+    "What made you laugh at yourself?",
+    "What is the smallest amount you could live on, in things?",
+    "When did you flatter someone today?",
+    "What did hunger, cold or tiredness teach you?",
+    "Which possession owns you?",
+    "If no one could ever know what you had, what would you still want?",
+    "Where did you walk with the crowd, and where against it?",
+    "What are you training for?",
+    "What did you ask for and get refused?",
+    "Who is a foreigner to you, and why?",
+    "What did you eat today, and how much of it did you taste?",
+    "What would the dog make of your day?",
+    "Which of your opinions is only smoke?",
+    "What good thing did you do that nobody saw?",
+    "Where did comfort cost you freedom?",
+    "What would you say to the most powerful person you know, if you had nothing to lose?",
+    "What have you been reading about instead of doing?",
+    "What is in your pouch: what do you really carry through a day?",
+    "Who stood in your light today, and did you say so?",
+    "Which rule did you break in your head but keep in your conduct, and was that right?",
+    "What quarrel could you have helped to settle?",
+    "What is enough?"
+  ],
+  "reflect": [
+    "What did you find you could do without?",
+    "Which true thing was hardest to say, and what came of it?",
+    "Which of your wants turned out to be custom and which nature?",
+    "Where are you freer than when you began?",
+    "What did the laughter do that seriousness could not?",
+    "What will you not take back?"
+  ],
+  "dayThemes": [
+    "The cup and the child",
+    "Stand out of my light",
+    "The dog’s virtues",
+    "Defacing the currency",
+    "The short road",
+    "The lamp in daylight",
+    "Eating in the square",
+    "The plucked chicken",
+    "Smoke",
+    "Enough",
+    "Citizen of the world",
+    "The folded cloak",
+    "Begging from a statue",
+    "Against the crowd",
+    "Nature and custom",
+    "The frank word",
+    "Chosen hardship",
+    "The jar by the archive",
+    "What owns you",
+    "The slave who governs",
+    "Crates gives it away",
+    "Hipparchia chooses",
+    "The door-opener",
+    "Laughter as argument",
+    "Unseen good",
+    "Sun and nothing else",
+    "Like the gods",
+    "The pouch",
+    "A Socrates gone mad",
+    "The marble dog"
+  ],
+  "guide": {
+    "intro": [
+      "Diogenes of Sinope owned a cloak, a staff and a pouch, slept in a large clay jar in the marketplace of Athens and said exactly what he thought to anyone, including Alexander the Great. People called him the Dog. He took the name and wore it. From it comes the word Cynic, which first meant someone who lived like him: in the open, on almost nothing, free of pretence.",
+      "He was born around 412 BCE in a Greek trading city on the south coast of the Black Sea, where his father was in charge of the mint. Some scandal over the coinage sent Diogenes into exile. He came to Athens, attached himself to Antisthenes, a rough-mannered follower of Socrates, and began the experiment that made him famous. He would find out by living it how little a person needs in order to be good and happy.",
+      "His answer was: very little. Hunger, thirst and tiredness are easily met. Almost everything else people work, worry and lie for is custom, and the Cynic word for the fog it produces is smoke. So he trained. He walked barefoot in snow, ate in public when that was thought shameful, threw away his cup when he saw a child drink from its hands, and answered pomp with jokes. He carried a lamp in daylight, looking, he said, for a human being.",
+      "He wrote books that are lost. What survives is a few hundred anecdotes, most of them collected five centuries later by a writer called Diogenes Laertius. They cannot all be true, and some contradict each other. They are best read the way they were used in ancient schools: as a portrait of a way of life, sharpened into stories. His followers Crates and Hipparchia, who gave up wealth and lived as equals on the street, show its kinder face. Zeno, a student of Crates, softened it into Stoicism.",
+      "This Onda takes the Cynic’s nerve and leaves his offences. Some of what Diogenes did was indecent or against the law, and none of that is asked of you. What you will do is subtract one thing each morning, train a little against comfort, eat one plain meal, say one frank thing and review the day by lamplight. Nearly all of it costs nothing. It is meant to be funny as well as hard.",
+      "A caution belongs here. Diogenes chose his poverty and could have left it. Most people who sleep outdoors have no such choice, and their situation is not a philosophy. The practice is to need less, and then to be more generous with what you have."
+    ],
+    "origin": "Sinope on the Black Sea, then Athens and Corinth",
+    "era": "Diogenes lived from about 412 to 323 BCE. The Cynic movement lasted some eight hundred years after him",
+    "figures": [
+      {
+        "name": "Antisthenes",
+        "dates": "c. 446–c. 366 BCE",
+        "bio": "A companion of Socrates who taught that virtue is enough and that hardship is good. Later Cynics counted him as the founder, though Diogenes may have known him only by his books."
+      },
+      {
+        "name": "Diogenes of Sinope",
+        "dates": "c. 412–323 BCE",
+        "bio": "The Dog. Exile, beggar, wit and the model of the school. He died at Corinth in old age, by tradition on the same day as Alexander died in Babylon."
+      },
+      {
+        "name": "Crates of Thebes",
+        "dates": "c. 365–c. 285 BCE",
+        "bio": "A rich man who gave everything away after hearing Diogenes. Gentle and funny, he was welcome in every house and was known as the door-opener."
+      },
+      {
+        "name": "Hipparchia of Maroneia",
+        "dates": "born c. 350 BCE",
+        "bio": "She left a wealthy family to marry Crates and live exactly as he did, going with him to dinners and debates. Asked why she was not at her loom, she said she had spent her time on education instead."
+      },
+      {
+        "name": "Metrocles",
+        "dates": "4th century BCE",
+        "bio": "Hipparchia’s brother, won for the school by Crates after a humiliating moment in a lecture. He is said to have invented the collected anecdote."
+      },
+      {
+        "name": "Bion of Borysthenes",
+        "dates": "c. 325–c. 250 BCE",
+        "bio": "Son of a freed slave, sold with his family as a child. He became a travelling lecturer and gave the street sermon its mix of jokes and moral force."
+      },
+      {
+        "name": "Menippus of Gadara",
+        "dates": "3rd century BCE",
+        "bio": "A former slave whose lost comic writings mixed prose and verse to mock the learned. A whole kind of satire is named after him."
+      },
+      {
+        "name": "Demetrius the Cynic",
+        "dates": "1st century CE",
+        "bio": "A friend of Seneca in Rome who refused a fortune from Caligula and was banished by Vespasian for speaking against him."
+      },
+      {
+        "name": "Dio Chrysostom",
+        "dates": "c. 40–c. 115 CE",
+        "bio": "A Greek orator who was exiled by the emperor Domitian, wandered as a Cynic for years and later wrote speeches in which Diogenes is the hero."
+      },
+      {
+        "name": "Demonax",
+        "dates": "2nd century CE",
+        "bio": "A Cynic of Athens so loved for his wit and kindness that people fed him at their doors in old age and the city gave him a public funeral."
+      }
+    ],
+    "history": [
+      {
+        "when": "c. 412 BCE",
+        "what": "Diogenes is born at Sinope",
+        "detail": "A Greek colony on the Black Sea. His father Hicesias was a banker or master of the mint. Coins of the city from this period carry that name."
+      },
+      {
+        "when": "c. 399 BCE",
+        "what": "The death of Socrates",
+        "detail": "Antisthenes, who had walked miles each day to hear him, carried forward the hard half of his teaching: that a good person needs nothing else."
+      },
+      {
+        "when": "Mid-4th century BCE",
+        "what": "Exile over the coinage",
+        "detail": "Father or son was accused of defacing the currency of Sinope. Hoards of Sinopean coins with deliberate chisel cuts have been found, so something of the kind did happen. Diogenes left and never went back."
+      },
+      {
+        "when": "After c. 360 BCE",
+        "what": "The jar in the marketplace",
+        "detail": "In Athens he took up his cloak, staff and pouch and made a storage jar beside the public archive his home. He became a figure everyone knew and many quoted."
+      },
+      {
+        "when": "Date unknown",
+        "what": "Sold as a slave",
+        "detail": "A story says he was taken by pirates on a voyage and sold at Corinth to a man named Xeniades, whose sons he then taught. Asked what he could do, he said: govern men."
+      },
+      {
+        "when": "336 BCE",
+        "what": "The meeting with Alexander",
+        "detail": "By tradition the young king came to see him at Corinth and offered him anything he liked. Diogenes asked him to move out of the sun. The story may be invented, and it has never been forgotten."
+      },
+      {
+        "when": "323 BCE",
+        "what": "Death at Corinth",
+        "detail": "He was about ninety. The causes given include a raw octopus, a dog bite and holding his breath. The Corinthians set a marble dog over his grave."
+      },
+      {
+        "when": "c. 320 BCE",
+        "what": "Crates and Hipparchia",
+        "detail": "Crates gave up his estate at Thebes and Hipparchia chose him against her family’s wishes. Their life together showed that the Cynic way was open to women and could be gentle."
+      },
+      {
+        "when": "c. 300 BCE",
+        "what": "Stoicism grows from the school",
+        "detail": "Zeno of Citium, shipwrecked and newly arrived in Athens, studied under Crates before founding his own school in the Painted Porch. Stoic ethics kept the Cynic core."
+      },
+      {
+        "when": "3rd century BCE",
+        "what": "The Cynic style in writing",
+        "detail": "Bion’s street talks and Menippus’s satires turned a way of life into literary forms that passed to Horace, Lucian and, much later, Swift."
+      },
+      {
+        "when": "1st and 2nd centuries CE",
+        "what": "Cynics in the Roman Empire",
+        "detail": "Cloaked preachers appeared in every large city. Some were serious, such as Demetrius and Demonax. Many were not, and writers mocked them."
+      },
+      {
+        "when": "165 CE",
+        "what": "Peregrinus at Olympia",
+        "detail": "A showman Cynic burned himself alive at the Olympic Games before a crowd. Lucian, who was there, wrote a scornful account."
+      },
+      {
+        "when": "362 CE",
+        "what": "Julian defends the original",
+        "detail": "The emperor Julian wrote two speeches against the uneducated Cynics of his day, holding up Diogenes and Crates as the real thing."
+      },
+      {
+        "when": "c. 500 CE",
+        "what": "The last known Cynic",
+        "detail": "Sallustius of Emesa, who walked barefoot and tested himself with fire, is the last named follower in the ancient sources."
+      },
+      {
+        "when": "1984",
+        "what": "Foucault’s last lectures",
+        "detail": "In the final months of his life Michel Foucault lectured in Paris on the Cynics as the model of a life that proves its truth by being lived."
+      }
+    ],
+    "concepts": [
+      {
+        "term": "The dog",
+        "text": "An insult worn as a badge.",
+        "detail": "Dogs eat and sleep in public, own nothing, are loyal to friends and fierce to wrongdoers, and cannot be embarrassed. The Cynics took all of it as a programme. The name may also come from the Cynosarges, the gymnasium where Antisthenes taught."
+      },
+      {
+        "term": "Askesis",
+        "text": "Life as training.",
+        "detail": "Borrowed from athletics. The Cynic practises going without, being refused and being laughed at until none of it disturbs him. It is the origin of the word ascetic, though the Cynic aim was freedom and good cheer."
+      },
+      {
+        "term": "Autarkeia",
+        "text": "Self-sufficiency.",
+        "detail": "To need only what you can provide for yourself anywhere. It makes a person impossible to bribe or threaten. The Stoics and Epicureans each kept the idea in a milder form."
+      },
+      {
+        "term": "Parrhesia",
+        "text": "Saying everything.",
+        "detail": "In democratic Athens it meant the citizen’s right to speak in the assembly. The Cynics made it a personal duty to tell the truth to anyone’s face. Its test is risk: the speaker has something to lose."
+      },
+      {
+        "term": "Shamelessness",
+        "text": "Testing custom in public.",
+        "detail": "If a thing is not wrong, it is not wrong in the marketplace. By eating, sleeping and arguing in the open, the Cynics forced the question of which rules are moral and which are only manners. Ancient writers disagreed about how far they went."
+      },
+      {
+        "term": "Defacing the currency",
+        "text": "Revaluing values.",
+        "detail": "The phrase plays on a Greek word that means both coinage and custom. The Cynic treats accepted values as coins to be tested, and marks the false ones so that they cannot circulate."
+      },
+      {
+        "term": "According to nature",
+        "text": "The standard for a good life.",
+        "detail": "Nature here means what a human being needs in order to live and act well. Animals, children and the poor were the Cynic’s teachers, because they show how little that is."
+      },
+      {
+        "term": "Cosmopolitanism",
+        "text": "The world as one city.",
+        "detail": "Diogenes refused to name a home city. The Stoics built the idea into a theory of universal human fellowship, and it runs from them into later thinking about human rights."
+      },
+      {
+        "term": "Smoke",
+        "text": "The fog of false value.",
+        "detail": "Typhos covers vanity, pretension and the confused wanting they produce. The Cynic Monimus said that everything people suppose is smoke. Clearing it is the first job."
+      },
+      {
+        "term": "The serious-funny",
+        "text": "Teaching by joke.",
+        "detail": "Parody, puns, stunts and comebacks were the Cynic’s tools. The joke gets past defences that an argument would raise, and it can be remembered and repeated."
+      }
+    ],
+    "facts": [
+      {
+        "text": "His home was a pithos, a clay storage jar taller than a man. Barrels were not used in Greece. The barrel in paintings comes from later artists."
+      },
+      {
+        "text": "Coins of Sinope from his lifetime have been found slashed with a chisel, and others are stamped with his father’s name."
+      },
+      {
+        "text": "When Plato defined a human being as a featherless biped, Diogenes brought a plucked chicken into the Academy. The definition was amended to add: with broad nails."
+      },
+      {
+        "text": "The medical term Diogenes syndrome, for extreme self-neglect and hoarding, was coined in 1975. It is badly named. He owned almost nothing and looked after himself."
+      },
+      {
+        "text": "Corinth and Sinope both put up monuments to him. The one at Corinth was a pillar with a dog in Parian marble."
+      },
+      {
+        "text": "Hipparchia is the only woman to have her own chapter in Diogenes Laertius’s Lives of Eminent Philosophers."
+      },
+      {
+        "text": "Seeing a boy scoop lentils with a hollowed crust of bread, he is said to have thrown away his bowl as well as his cup."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Cynic",
+        "meaning": "A follower of the way of life of Diogenes; from the Greek for dog-like"
+      },
+      {
+        "term": "Chreia",
+        "meaning": "A short anecdote ending in a pointed saying"
+      },
+      {
+        "term": "Pithos",
+        "meaning": "A large clay storage jar"
+      },
+      {
+        "term": "Academy",
+        "meaning": "Plato’s school in Athens, a frequent target of Diogenes"
+      },
+      {
+        "term": "Stoicism",
+        "meaning": "The school founded by Zeno, a student of the Cynic Crates"
+      },
+      {
+        "term": "Menippean satire",
+        "meaning": "A mix of prose, verse and mockery named after the Cynic Menippus"
+      }
+    ],
+    "furtherReading": [
+      {
+        "title": "Diogenes the Cynic: The War Against the World",
+        "creator": "Luis E. Navia",
+        "year": "2005",
+        "note": "A sympathetic full-length study of the man and his sources."
+      },
+      {
+        "title": "The Cynics: The Cynic Movement in Antiquity and Its Legacy",
+        "creator": "ed. R. Bracht Branham and Marie-Odile Goulet-Cazé",
+        "year": "1996",
+        "note": "The standard collection of essays, from Antisthenes to Nietzsche."
+      },
+      {
+        "title": "The Courage of Truth",
+        "creator": "Michel Foucault",
+        "year": "2011",
+        "note": "The 1984 lectures, with a long reading of Cynic life as truth made visible."
+      },
+      {
+        "title": "How to Say No: An Ancient Guide to the Art of Cynicism",
+        "creator": "Diogenes and the Cynics, trans. M. D. Usher",
+        "year": "2022",
+        "note": "A small selection of the ancient texts in fresh English."
+      },
+      {
+        "title": "Lucian: Selected Dialogues",
+        "creator": "trans. C. D. N. Costa",
+        "year": "2005",
+        "note": "Includes Menippus in the underworld, laughing at dead kings."
+      }
+    ],
+    "learnFrom": [
+      {
+        "name": "Internet Encyclopedia of Philosophy: Cynics",
+        "note": "A free, peer-reviewed overview of the movement and its main ideas.",
+        "link": "https://iep.utm.edu/cynics/"
+      },
+      {
+        "name": "Perseus Digital Library",
+        "note": "The Greek text and the Hicks translation of Diogenes Laertius, free to read and search.",
+        "link": "https://www.perseus.tufts.edu"
+      },
+      {
+        "name": "History of Philosophy Without Any Gaps",
+        "note": "Peter Adamson’s podcast and reading lists on every ancient school.",
+        "link": "https://historyofphilosophy.net"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Lives of Eminent Philosophers",
+        "creator": "Diogenes Laertius, trans. R. D. Hicks",
+        "publisher": "Loeb Classical Library, Harvard University Press",
+        "year": "1925"
+      },
+      {
+        "title": "Lives of the Eminent Philosophers",
+        "creator": "Diogenes Laertius, trans. Pamela Mensch, ed. James Miller",
+        "publisher": "Oxford University Press",
+        "year": "2018"
+      },
+      {
+        "title": "Sayings and Anecdotes, with Other Popular Moralists",
+        "creator": "Diogenes the Cynic, trans. Robin Hard",
+        "publisher": "Oxford World's Classics",
+        "year": "2012"
+      },
+      {
+        "title": "Cynics",
+        "creator": "William Desmond",
+        "publisher": "Acumen",
+        "year": "2008"
+      },
+      {
+        "title": "The Cynics: The Cynic Movement in Antiquity and Its Legacy",
+        "creator": "ed. R. Bracht Branham and Marie-Odile Goulet-Cazé",
+        "publisher": "University of California Press",
+        "year": "1996"
+      },
+      {
+        "title": "The Dangerous Life and Ideas of Diogenes the Cynic",
+        "creator": "Jean-Manuel Roubineau, trans. Malcolm DeBevoise",
+        "publisher": "Oxford University Press",
+        "year": "2023"
+      }
+    ]
+  },
+  "sensitivity": {
+    "note": "What we know of Diogenes comes from anecdotes written down centuries after his death, and some of what they describe was indecent or illegal. This Onda borrows his nerve, his thrift and his honesty. It does not ask you to offend, expose or endanger anyone, and it does not treat poverty as a game.",
+    "requiredCaveats": [
+      "The stories are a portrait and not a record. Many are unverifiable and some are plainly invented.",
+      "Choosing to live on little is different from having little. Homelessness is not a philosophy and should not be played at.",
+      "Frank speech is aimed upward and at oneself. It is not a licence for cruelty.",
+      "Cold water and going without are meant as small, safe tests. Skip them if you are unwell or if food is a difficult subject for you."
+    ],
+    "reviewRequired": false
+  }
+}

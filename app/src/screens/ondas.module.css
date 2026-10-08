@@ -21,7 +21,7 @@
 .dayBarStrong .dPast{background:var(--onda-strong)}
 .dayBarStrong .dNow{background:var(--onda-solid)}
 .quick{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;padding:18px 16px 0}
-.quickTile{position:relative;overflow:hidden;background:color-mix(in srgb,var(--onda-solid) 55%,var(--surface-card));border-radius:calc(var(--onda-radius,26px) * .9);padding:20px 2px 16px;min-height:112px;justify-content:center;display:flex;flex-direction:column;align-items:center;gap:11px;font:600 var(--fs-14) var(--font-sans);color:var(--label);min-width:0}
+.quickTile{position:relative;overflow:hidden;background:color-mix(in srgb,var(--onda-solid) 55%,var(--surface-card));border-radius:var(--onda-radius-md,23px);padding:20px 2px 16px;min-height:112px;justify-content:center;display:flex;flex-direction:column;align-items:center;gap:11px;font:600 var(--fs-14) var(--font-sans);color:var(--label);min-width:0}
 .quickTile > span:last-child{max-width:100%;overflow-wrap:anywhere;text-align:center}
 .quickTile::before{content:"";position:absolute;inset:0;background:var(--onda-fill);opacity:.45;pointer-events:none}
 .quickTile > *{position:relative}
@@ -194,7 +194,7 @@ button.softCard{width:100%;text-align:start;display:block}
 .kindTile::before{content:"";position:absolute;inset:0;background:var(--onda-fill);opacity:.38;pointer-events:none}
 .kindTile > *{position:relative}
 .kindTile:active{opacity:.8}
-.kindArt{display:flex;align-items:center;justify-content:center;height:92px;border-radius:calc(var(--onda-radius,26px) * .65);background:var(--onda-chip)}
+.kindArt{display:flex;align-items:center;justify-content:center;height:92px;border-radius:var(--onda-radius-sm,17px);background:var(--onda-chip)}
 .kindArt svg{width:116px;height:78px}
 .kindName{font:600 var(--fs-20)/1.15 var(--onda-font);letter-spacing:var(--onda-track,0);margin:8px 4px 0}
 .kindCount{display:flex;align-items:center;gap:8px;margin:0 4px;font:400 var(--fs-13) var(--font-sans);color:var(--label-secondary)}
@@ -325,3 +325,59 @@ button.softCard{width:100%;text-align:start;display:block}
 .rulesItem .ruleWhy{display:block;-webkit-line-clamp:unset;overflow:visible;font-size:var(--fs-14);margin-top:4px}
 
 .browseSec{content-visibility:auto;contain-intrinsic-size:auto 640px}
+
+[data-onda="norse"]{--bar-h:12px;--bar-r:0}
+[data-onda="norse"] .todayBar > [role=progressbar]{-webkit-mask:url("data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%2714%27%20height%3D%2712%27%3E%3Cpath%20d%3D%27M0%2012L5%200H9L14%2012Z%27%2F%3E%3C%2Fsvg%3E") 0 0/14px 12px repeat-x;mask:url("data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%2714%27%20height%3D%2712%27%3E%3Cpath%20d%3D%27M0%2012L5%200H9L14%2012Z%27%2F%3E%3C%2Fsvg%3E") 0 0/14px 12px repeat-x}
+[data-onda="norse"] .pRow{border-radius:6px 6px 22px 22px;box-shadow:inset 0 -4px 0 var(--onda-strong)}
+[data-onda="norse"] .pCircle{border-radius:6px 6px 50% 50% !important}
+
+[data-onda="cynic"]{--bar-h:6px}
+[data-onda="cynic"] .pRow{background:transparent;border-radius:0;border-bottom:1.5px dashed color-mix(in srgb,var(--onda-strong) 50%,transparent);padding-left:6px;padding-right:6px}
+
+[data-onda="confucian"]{--bar-h:10px;--bar-r:2px}
+[data-onda="confucian"] .todayBar > [role=progressbar]{-webkit-mask-image:repeating-linear-gradient(90deg,#000 0 26px,transparent 26px 29px);mask-image:repeating-linear-gradient(90deg,#000 0 26px,transparent 26px 29px)}
+[data-onda="confucian"] .pRow{border-radius:8px;box-shadow:inset 0 0 0 1.5px color-mix(in srgb,var(--onda-strong) 32%,transparent)}
+[data-onda="confucian"] .pCircle{border-radius:7px !important}
+
+[data-onda="abbasid"]{--bar-h:14px;--bar-r:0}
+[data-onda="abbasid"] .todayBar > [role=progressbar]{-webkit-mask:url("data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%2714%27%20height%3D%2714%27%3E%3Cpath%20d%3D%27M1%2014V7C1%204%204%202.5%207%200C10%202.5%2013%204%2013%207V14Z%27%2F%3E%3C%2Fsvg%3E") 0 0/14px 14px repeat-x;mask:url("data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%2714%27%20height%3D%2714%27%3E%3Cpath%20d%3D%27M1%2014V7C1%204%204%202.5%207%200C10%202.5%2013%204%2013%207V14Z%27%2F%3E%3C%2Fsvg%3E") 0 0/14px 14px repeat-x}
+[data-onda="abbasid"] .pRow{border-radius:24px;box-shadow:inset 0 0 0 1px color-mix(in srgb,var(--onda-text) 38%,transparent),inset 0 0 0 4px var(--surface-card),inset 0 0 0 5px color-mix(in srgb,var(--onda-text) 18%,transparent)}
+
+[data-onda="twenties"]{--bar-h:10px;--bar-r:0}
+[data-onda="twenties"] .todayBar > [role=progressbar]{-webkit-mask-image:repeating-linear-gradient(90deg,#000 0 3px,transparent 3px 6px);mask-image:repeating-linear-gradient(90deg,#000 0 3px,transparent 3px 6px)}
+[data-onda="twenties"] .pRow{border-radius:4px;clip-path:polygon(14px 0,calc(100% - 14px) 0,100% 14px,100% calc(100% - 14px),calc(100% - 14px) 100%,14px 100%,0 calc(100% - 14px),0 14px);box-shadow:inset 0 0 0 1.5px color-mix(in srgb,var(--onda-text) 40%,transparent)}
+[data-onda="twenties"] .pCircle{border-radius:0 !important;clip-path:polygon(28% 0,72% 0,100% 28%,100% 72%,72% 100%,28% 100%,0 72%,0 28%)}
+
+[data-onda="cuba"]{--bar-h:12px}
+[data-onda="cuba"] .todayBar > [role=progressbar] > div{background:repeating-linear-gradient(-45deg,var(--onda-strong) 0 8px,color-mix(in srgb,var(--onda-strong) 62%,#fff) 8px 16px) !important}
+[data-onda="cuba"] .pRow{border-radius:30px;border-bottom:4px solid color-mix(in srgb,var(--onda-strong) 55%,transparent)}
+
+/* ── Immersion as a little library: one cover per item, two to a shelf ── */
+.libHead{display:flex;align-items:center;gap:12px;padding:20px 20px 0;font:500 var(--fs-13) var(--font-sans);letter-spacing:.02em;color:var(--label-secondary)}
+.libMeter{flex:1;height:4px;border-radius:2px;background:color-mix(in srgb,var(--onda-strong) 18%,transparent);overflow:hidden}
+.libMeter i{display:block;height:100%;border-radius:2px;background:var(--onda-strong);transition:width var(--duration-large) var(--ease-enter)}
+.lib{list-style:none;margin:0;padding:14px 16px 0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px 12px}
+/* a book: straight spine on the left, rounded fore-edge, a sliver of pages on the right */
+.libCard{position:relative;display:flex;border-radius:5px 18px 18px 5px;background:color-mix(in srgb,var(--onda-solid) 42%,var(--surface-card));box-shadow:inset 7px 0 0 var(--onda-strong),inset 9px 0 0 color-mix(in srgb,var(--onda-strong) 30%,transparent),0 5px 0 -2px color-mix(in srgb,var(--onda-strong) 22%,transparent);content-visibility:auto;contain-intrinsic-size:auto 204px;transition:background var(--duration-standard)}
+.libOpen{flex:1;min-width:0;display:flex;flex-direction:column;align-items:flex-start;gap:5px;padding:12px 12px 14px 20px;text-align:start;min-height:196px}
+.libOpen:active{opacity:.75}
+.libNo{font:600 var(--fs-11)/1 var(--font-sans);letter-spacing:.08em;text-transform:uppercase;color:var(--onda-text);min-height:26px;display:flex;align-items:center}
+.libArt{align-self:stretch;display:flex;align-items:center;justify-content:center;height:70px;margin:2px 0 6px;border-radius:12px;background:var(--onda-chip)}
+.libArt svg{width:84px;height:56px}
+.libTitle{font:600 var(--fs-17)/1.2 var(--onda-font);letter-spacing:var(--onda-track,0);text-wrap:balance;overflow-wrap:anywhere;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.libBy{font:400 var(--fs-13)/1.3 var(--font-sans);color:var(--label-secondary);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+/* the due-date stamp: an empty dashed ring until you have experienced it */
+.libStamp{position:absolute;top:4px;right:4px;width:44px;height:44px;display:flex;align-items:center;justify-content:center;color:transparent}
+.libStamp::before{content:"";position:absolute;inset:8px;border-radius:50%;border:1.5px dashed color-mix(in srgb,var(--onda-text) 55%,transparent);transition:background var(--duration-standard),transform var(--duration-standard) var(--ease-enter)}
+.libStamp > *{position:relative}
+.libOn{background:color-mix(in srgb,var(--onda-solid) 80%,var(--surface-card))}
+.libOn .libStamp{color:var(--onda-on)}
+.libOn .libStamp::before{background:var(--onda-deep);border:1.5px solid var(--onda-deep);transform:rotate(-10deg) scale(1.06)}
+@media (prefers-reduced-motion:reduce){.libStamp::before,.libMeter i{transition:none}}
+
+/* ── Rules you can keep: the same numbered cards, with the reason shown in full ── */
+.rulesKeep{display:flex;flex-direction:column;gap:10px;margin-top:18px}
+.rulesKeep .rule{align-items:flex-start;padding:16px}
+.rulesKeep .ruleNum{border-radius:var(--onda-shape,14px);clip-path:var(--onda-clip,none);font-size:var(--fs-19)}
+.rulesKeep .ruleWhy{display:block;-webkit-line-clamp:unset;overflow:visible;font-size:var(--fs-14);line-height:1.4;margin-top:2px}
+.rulesMeter{display:flex;align-items:center;gap:12px;margin:18px 4px 0;font:500 var(--fs-14) var(--font-sans);color:var(--label-secondary)}

@@ -65,6 +65,25 @@ const ART: Record<MediaKind, ReactNode> = {
       <path d="M37 40l-6-3M83 40l6-3M34 52h-7M86 52h7" opacity=".4" />
     </>
   ),
+  games: (
+    <>
+      <rect x="20" y="20" width="46" height="46" rx="8" fill={SOFT} />
+      <path d="M20 43h46M43 20v46" opacity=".45" />
+      <circle cx="31.5" cy="31.5" r="5" fill={ACCENT} stroke={ACCENT} />
+      <circle cx="54.5" cy="54.5" r="5" />
+      <rect x="74" y="34" width="28" height="28" rx="6" fill={SOFT} transform="rotate(12 88 48)" />
+      <path d="M82 43h.1M94 53h.1M88 48h.1" strokeWidth="4" stroke={ACCENT} />
+    </>
+  ),
+  travel: (
+    <>
+      <path d="M22 24l24-8 28 8 24-8v40l-24 8-28-8-24 8z" fill={SOFT} />
+      <path d="M46 16v40M74 24v40" opacity=".45" />
+      <path d="M33 50c8-10 14 4 22-4s10-6 16-2" strokeDasharray="1 7" />
+      <path d="M84 22c7 0 12 5 12 11.5 0 8-12 18.5-12 18.5S72 41.5 72 33.5C72 27 77 22 84 22z" fill={ACCENT} stroke={ACCENT} />
+      <circle cx="84" cy="33.5" r="4" fill="var(--onda-solid)" stroke="none" />
+    </>
+  ),
   words: (
     <>
       <path d="M26 19h68a7 7 0 0 1 7 7v26a7 7 0 0 1-7 7H58L43 71V59H26a7 7 0 0 1-7-7V26a7 7 0 0 1 7-7z" fill={SOFT} />
@@ -156,6 +175,37 @@ const ORNAMENTS: Record<Ornament, ReactNode> = {
     <>
       <path d="M12 3.5l7.4 12.8H4.6z" />
       <path d="M12 20.5L4.6 7.7h14.8z" />
+    </>
+  ),
+  longship: (
+    <>
+      <path d="M3 13.5c2.5 5.5 15.5 5.5 18 0z" />
+      <path d="M12 13.5V3.5M7.5 5.5h9v5.5h-9zM3 13.5V10M21 13.5V10" />
+    </>
+  ),
+  lantern: (
+    <>
+      <path d="M9 9h6l1.5 9h-9z" />
+      <path d="M10 9V7a2 2 0 0 1 4 0v2M12 5V3M7 20.5h10M12 12v3" />
+    </>
+  ),
+  seal: (
+    <>
+      <rect x="4.5" y="4.5" width="15" height="15" rx="2" />
+      <path d="M8.5 9h7M8.5 12h7M8.5 15h7M12 9v6" />
+    </>
+  ),
+  arch: (
+    <>
+      <path d="M5.5 20.5V12c0-4 3-6 6.5-8.5 3.5 2.5 6.5 4.5 6.5 8.5v8.5" />
+      <path d="M3 20.5h18M9.5 20.5V14c0-1.6 1-2.5 2.5-3.5 1.5 1 2.5 1.900 2.5 3.5v6.5" />
+    </>
+  ),
+  fan: <path d="M3 19.5h18M12 19.5L4.5 12M12 19.5L8 8M12 19.5V5.5M12 19.5L16 8M12 19.5L19.5 12" />,
+  palm: (
+    <>
+      <path d="M12 21c0-5 .5-8 1.5-11" />
+      <path d="M13.5 10C11 6 7 6 5 8M13.5 10c-1.5-4.5.5-6.5 3.5-6.5M13.5 10c3-2.5 6-1.5 7 1M13.5 10c-3-.5-6 1-6.5 4" />
     </>
   ),
   pleroma: (

@@ -20,7 +20,7 @@ test.describe('Onboarding and paywall', () => {
     await expect(page.getByRole('slider')).toHaveAttribute('aria-valuenow', '14')
     await tap(page, 'Next')
     await expect(page.getByRole('heading', { name: 'Which Onda calls you first?' })).toBeVisible()
-    await expect(page.getByRole('radio')).toHaveCount(16)
+    await expect(page.getByRole('radio')).toHaveCount(22)
     await tap(page, /Zen Buddhism/, 'radio')
     await expect(page.getByRole('button', { name: /skip/i })).toHaveCount(0)
     await tap(page, 'Get Started')
@@ -101,7 +101,15 @@ test.describe('Update 1.3', () => {
     await tab(page, 'Lagos')
     await tap(page, 'Gallery')
     await expect(page.getByRole('heading', { name: 'From the Ondas' })).toBeVisible()
-    // two Ondas are shown, the running one first; the rest sit behind See more
+    // two Ondas are shown, the running one first; the rest sit behind See more, grouped as in Browse Ondas
+    await tap(page, /^From the Ondas See more/)
+    for (const g of ['Religions and spiritual traditions', 'Philosophy, thinkers and schools of thought', 'Empires, states and political systems', 'Cultures, eras and peoples']) await expect(page.getByRole('button', { name: new RegExp('^' + g) })).toBeVisible()
+    await expect(page.getByText('Coming soon')).toHaveCount(0)
+    await tap(page, /^Religions and spiritual traditions/)
+    await expect(page.getByRole('button', { name: /Zen Buddhism/ })).toHaveCount(0)
+    await expect(page.getByRole('button', { name: /Norse/ })).toHaveCount(0)
+    await expect(page.getByRole('button', { name: /Confucianism/ })).toBeVisible()
+    await tap(page, 'Back')
     await tap(page, /Stoicism/)
     const sheet = page.getByRole('dialog')
     await sheet.getByRole('checkbox', { name: /Cold shower/ }).click()
@@ -317,15 +325,27 @@ test.describe('Ondas', () => {
     await expect(page.getByRole('checkbox', { name: /Read one Letter from Seneca/ })).toBeVisible()
   })
 
-  test('Rules is a read-only page; Journal and Philosophy are full pages; the Onda card opens the full guide', async ({ page }) => {
+  test('Rules can be kept on their own page; Journal and Philosophy are full pages; the Onda card opens the full guide', async ({ page }) => {
     await tap(page, 'Rules')
     await expect(page.getByText('Complain to no one, not even yourself')).toBeVisible()
-    await expect(page.getByRole('checkbox')).toHaveCount(0) // nothing to tick here
+    // each rule can be ticked for today, and the count follows
+    await expect(page.getByRole('checkbox')).toHaveCount(6)
+    await expect(page.getByText('0 of 6 rules kept')).toBeVisible()
+    await page.getByRole('checkbox', { name: /Complain to no one/ }).click()
+    await expect(page.getByRole('checkbox', { name: /Complain to no one/ })).toBeChecked()
+    await expect(page.getByText('1 of 6 rules kept')).toBeVisible()
     await expect(page.getByRole('dialog')).toHaveCount(0)
     await tap(page, 'Back')
     await tap(page, 'Philosophy')
     await expect(page.getByRole('heading', { name: 'Philosophy' })).toBeVisible()
     await expect(page.getByRole('dialog')).toHaveCount(0)
+    // a list of ideas: the first is open, the others open on a tap, and each has something to try
+    const ideas = page.getByRole('button', { expanded: false })
+    await expect(page.getByRole('button', { expanded: true })).toHaveCount(1)
+    await ideas.first().click()
+    await expect(page.getByRole('button', { expanded: true })).toHaveCount(2)
+    await page.getByRole('checkbox').first().click()
+    await expect(page.getByText('1 thing to try today')).toBeVisible()
     await tap(page, 'Back')
     await page.getByRole('button', { name: /Onda · Day 4 of 14/ }).click()
     await expect(page.getByRole('tab', { name: 'Overview', exact: true })).toBeVisible()
@@ -333,7 +353,7 @@ test.describe('Ondas', () => {
     await expect(page.getByText('Onda · Day 4 of 14')).toBeVisible()
   })
 
-  test('Today page, Full guide with seven tabs, and the immersion grid with its quick sheet', async ({ page }) => {
+  test('Today page, Full guide with nine tabs, and the immersion library with its quick sheet', async ({ page }) => {
     await tap(page, 'Browse Ondas')
     await tap(page, /Stoicism/)
     await settle(page, 900)
@@ -348,14 +368,20 @@ test.describe('Ondas', () => {
     const guide = page
     await expect(guide.getByRole('tab', { name: 'Overview', exact: true })).toBeVisible()
     await expect(page.getByRole('dialog')).toHaveCount(0)
-    for (const t of ['Overview', 'History', 'Ideas', 'Ways', 'Culture', 'Language', 'Facts']) await expect(guide.getByRole('tab', { name: t, exact: true })).toBeVisible()
+    for (const t of ['Overview', 'History', 'Ideas', 'Ethics', 'Practices', 'Culture', 'Travel', 'Language', 'Facts']) await expect(guide.getByRole('tab', { name: t, exact: true })).toBeVisible()
     await guide.getByRole('tab', { name: 'History', exact: true }).click()
     await guide.getByRole('button', { name: /c\. 300 BCE/ }).click()
     await expect(guide.getByText(/The school took its name from the porch/)).toBeVisible()
     await guide.getByRole('tab', { name: 'Language', exact: true }).click()
     await expect(guide.getByText('Prohairesis')).toBeVisible()
     // Long tabs are split into sections you can jump between
-    await guide.getByRole('tab', { name: 'Ways', exact: true }).click()
+    // Ethics has its own tab; practices, rules and customs share another; Travel lists festivals and places
+    await guide.getByRole('tab', { name: 'Ethics', exact: true }).click()
+    await expect(guide.getByText('Virtue is the only good')).toBeVisible()
+    await guide.getByRole('tab', { name: 'Travel', exact: true }).click()
+    await expect(guide.getByRole('button', { name: /^Festivals and calendar/ }).first()).toBeVisible()
+    await expect(guide.getByText('The Painted Porch')).toBeVisible()
+    await guide.getByRole('tab', { name: 'Practices', exact: true }).click()
     await expect(guide.getByRole('group', { name: 'Jump to' })).toBeVisible()
     await guide.getByRole('group', { name: 'Jump to' }).getByRole('button', { name: /^Rules/ }).click()
     await expect(guide.getByRole('button', { name: /^Rules/, expanded: true }).first()).toBeVisible()
@@ -363,8 +389,8 @@ test.describe('Ondas', () => {
 
     await tap(page, 'See All')
     await expect(page.getByText('Immersion', { exact: true })).toBeVisible()
-    // Two per row: Read, Watch, Listen, Art, Eat, Drink, Customs, Words
-    for (const c of ['Read', 'Watch', 'Listen', 'Art', 'Eat', 'Drink', 'Customs', 'Words']) await expect(page.getByRole('button', { name: new RegExp('^' + c + ' \\d+ of \\d+') })).toBeVisible()
+    // Two per row: Read, Watch, Listen, Art, Eat, Drink, Customs, Games, Travel, Words
+    for (const c of ['Read', 'Watch', 'Listen', 'Art', 'Eat', 'Drink', 'Customs', 'Games', 'Travel', 'Words']) await expect(page.getByRole('button', { name: new RegExp('^' + c + ' \\d+ of \\d+') })).toBeVisible()
     await tap(page, /^Eat \d+ of \d+/)
     await expect(page.getByText('Lentil soup', { exact: true })).toBeVisible()
     await expect(page.getByText('Meditations', { exact: true })).toHaveCount(0)
@@ -401,7 +427,7 @@ test.describe('Ondas', () => {
   test('browsing another Onda previews it; beginning it ends the current one', async ({ page }) => {
     await startTrial(page)
     await tap(page, 'Browse Ondas')
-    await expect(page.getByText('Sixteen worlds to live in, and more on the way')).toBeVisible()
+    await expect(page.getByText('Twenty-two worlds to live in, and more on the way')).toBeVisible()
     await expect(page.getByRole('button', { name: /Stoicism/ })).toContainText('Active')
     await tap(page, /Taoism/)
     await expect(page.getByRole('heading', { name: '14 days' })).toBeVisible()

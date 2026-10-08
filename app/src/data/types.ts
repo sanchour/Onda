@@ -13,7 +13,7 @@ export const DEFAULT_SETTINGS: Settings = {
   avatarPhoto: '',
   avatarIcon: '',
   avatarTone: 'blue',
-  themeMode: 'light',
+  themeMode: 'auto',
   ondaThemes: true,
   ondaTint: true,
   defaultOndaLength: 14,

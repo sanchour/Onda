@@ -96,26 +96,16 @@ button.foldBtn:active{opacity:.75}
 .dotOn::after{width:20px;border-radius:4px;background:var(--onda-strong)}
 
 /* ── Philosophy ──────────────────────────────────────────── */
-.phCard{background:var(--onda-fill);color:var(--onda-ink);border-radius:var(--onda-radius,26px);padding:20px 20px 18px;position:relative;overflow:hidden;min-height:288px;display:flex;flex-direction:column;gap:10px}
-.phTop{display:flex;align-items:center;justify-content:space-between}
-.phNum{font:600 var(--fs-44)/1 var(--onda-font);opacity:.9}
 .phOrn{opacity:.5}
-.phTitle{font:600 var(--fs-26)/1.15 var(--onda-font);letter-spacing:var(--onda-track,0);text-transform:var(--onda-case,none);margin:0;text-wrap:balance}
-.phText{font:400 var(--fs-16)/1.5 var(--font-sans);margin:0;text-wrap:pretty;opacity:.92}
-.phTry{margin-top:auto;display:flex;align-items:flex-start;gap:12px;padding:12px 14px;border-radius:18px;background:var(--onda-chip);width:100%;text-align:start;color:var(--onda-ink);transition:background var(--duration-standard)}
+.phCount{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:18px 4px 10px;font:500 var(--fs-14) var(--font-sans);color:var(--label-secondary)}
+.phPicked{color:var(--onda-text);font-weight:600}
+.phTry{display:flex;align-items:flex-start;gap:12px;padding:12px 14px;border-radius:16px;background:color-mix(in srgb,var(--onda-solid) 55%,var(--surface-card));width:100%;text-align:start;color:var(--label);white-space:normal;transition:background var(--duration-standard)}
 .phTry:active{opacity:.8}
 .phTryOn{background:var(--onda-deep);color:var(--onda-on)}
 .phTryBox{flex:none;width:26px;height:26px;border-radius:8px;border:2px solid currentColor;display:flex;align-items:center;justify-content:center;opacity:.8;margin-top:1px}
 .phTryOn .phTryBox{background:var(--onda-on);border-color:var(--onda-on);color:var(--onda-deep);opacity:1}
 .phTryText{font:400 var(--fs-14)/1.4 var(--font-sans);display:block;text-wrap:pretty}
 .phTryText b{display:block;font:600 var(--fs-11) var(--font-sans);letter-spacing:.07em;text-transform:uppercase;opacity:.92;margin-bottom:2px}
-.jump{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
-.jumpBtn{display:inline-flex;align-items:center;gap:8px;max-width:100%;padding:7px 14px 7px 8px;border-radius:999px;background:var(--surface-card);font:500 var(--fs-14) var(--font-sans);transition:background var(--duration-standard)}
-.jumpBtn span:last-child{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.jumpNum{flex:none;min-width:24px;height:24px;padding:0 4px;border-radius:var(--onda-shape,50%);clip-path:var(--onda-clip,none);background:var(--onda-solid);color:var(--onda-ink);display:flex;align-items:center;justify-content:center;font:600 var(--fs-13)/1 var(--onda-font)}
-.jumpOn{background:var(--onda-deep);color:var(--onda-on)}
-.jumpOn .jumpNum{background:var(--onda-on);color:var(--onda-deep)}
-.picked{margin:14px 4px 0;font:500 var(--fs-14) var(--font-sans);color:var(--onda-text);text-align:center}
 
 /* ── Media sheet ─────────────────────────────────────────── */
 .miHero{position:relative;overflow:hidden;border-radius:var(--onda-radius,26px);height:100px;display:flex;align-items:center;justify-content:center;margin-bottom:16px}
@@ -143,3 +133,6 @@ button.foldBtn:active{opacity:.75}
 .groupHead .caret{padding-top:0}
 .groupKind svg{width:56px;height:38px;flex:none}
 .group:first-child .groupHead{margin-top:4px}
+
+/* an opened card is for reading: its text takes the full label colour */
+.foldOpen .foldSub{color:var(--label)}

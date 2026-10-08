@@ -5,13 +5,13 @@ import { useStore } from '@/data/store'
 import { haptic } from '@/lib/haptics'
 import { BackButton, ChromeSpacer, ChromeTitle, Screen } from '@/nav/Screen'
 import { useNav } from '@/nav/store'
-import { Deck } from '@/sheets/guideParts'
+import { Fold } from '@/sheets/guideParts'
 import g from '@/sheets/guide.module.css'
 import { Button, GlassButton } from '@/ui/buttons'
 import { SegmentedControl } from '@/ui/controls'
+import { ProgressBar } from '@/ui/data'
 import { Icon } from '@/ui/Icon'
-import { OrnamentIcon } from './KindArt'
-import { OndaBanner, useActiveOnda } from './ondaShared'
+import { OndaBanner, useActiveOnda, useRunToday } from './ondaShared'
 import o from './ondas.module.css'
 import s from './screens.module.css'
 
@@ -26,6 +26,7 @@ function OndaPage({ title, trailing, children }: { title: string; trailing?: Rea
       dataOnda={themed ? active?.run.ondaId : undefined}
       chrome={
         <>
+          <span className={g.topMask} aria-hidden />
           <BackButton />
           <ChromeTitle>{title}</ChromeTitle>
           {trailing ?? <ChromeSpacer />}
@@ -78,7 +79,7 @@ export function JournalPage() {
   )
 }
 
-/* ── Philosophy: a deck of idea cards, each with something to try ── */
+/* ── Philosophy: a calm list. Every idea shows its title and first lines; tap one to read it and pick up something to try. ── */
 export function PhilosophyPage() {
   const { t } = useTranslation()
   const active = useActiveOnda()
@@ -86,17 +87,12 @@ export function PhilosophyPage() {
   const look = active?.look
   const sets = { ideas: c?.philosophy ?? [], ethics: c?.ethics ?? [] }
   const available = (['ideas', 'ethics'] as const).filter((k) => sets[k].length > 0)
-  const [part, setPart] = useState<'ideas' | 'ethics'>('ideas')
-  const [at, setAt] = useState(0)
+  const [chosen, setPart] = useState<'ideas' | 'ethics'>('ideas')
+  const part = available.includes(chosen) ? chosen : (available[0] ?? 'ideas')
+  const [open, setOpen] = useState<Record<string, boolean>>({ 'ideas:0': true, 'ethics:0': true })
   const [picked, setPicked] = useState<Record<string, boolean>>({})
-  const shown = sets[available.includes(part) ? part : (available[0] ?? 'ideas')]
-  const key = (i: number) => `${part}:${i}`
+  const shown = sets[part]
   const pickedCount = Object.values(picked).filter(Boolean).length
-
-  const choose = (v: 'ideas' | 'ethics') => {
-    setPart(v)
-    setAt(0)
-  }
 
   return (
     <OndaPage title={t('philosophy.title')}>
@@ -107,86 +103,93 @@ export function PhilosophyPage() {
             <SegmentedControl<'ideas' | 'ethics'>
               options={[{ value: 'ideas', label: t('philosophy.think') }, { value: 'ethics', label: t('philosophy.ethicsTab') }]}
               value={part}
-              onChange={choose}
+              onChange={setPart}
               fullWidth
               ariaLabel={t('philosophy.title')}
             />
           </div>
         )}
-        <div style={{ marginTop: 18 }}>
-          {look && shown.length > 0 && (
-            <Deck
-              label={t(part === 'ideas' ? 'philosophy.think' : 'philosophy.ethics')}
-              index={at}
-              onIndex={setAt}
-              slides={shown.map((x, i) => (
-                <article key={x.title} className={`${g.phCard} ${o.themed}`}>
-                  <div className={g.phTop}>
-                    <span className={g.phNum} aria-hidden>{look.numeral(i + 1)}</span>
-                    <span className={g.phOrn}><OrnamentIcon name={look.ornament} size={28} /></span>
-                  </div>
-                  <h3 className={g.phTitle}>{x.title}</h3>
-                  <p className={g.phText} data-selectable>{x.text}</p>
-                  {x.practice && (
-                    <button
-                      type="button"
-                      role="checkbox"
-                      aria-checked={!!picked[key(i)]}
-                      className={picked[key(i)] ? `${g.phTry} ${g.phTryOn}` : g.phTry}
-                      onClick={() => {
-                        haptic(picked[key(i)] ? 'select' : 'success')
-                        setPicked((p) => ({ ...p, [key(i)]: !p[key(i)] }))
-                      }}
-                    >
-                      <span className={g.phTryBox} aria-hidden>{picked[key(i)] && <Icon name="check" weight="bold" size={15} />}</span>
-                      <span className={g.phTryText}>
-                        <b>{picked[key(i)] ? t('philosophy.onList') : t('philosophy.tryThis')}</b>
-                        {x.practice}
-                      </span>
-                    </button>
-                  )}
-                </article>
-              ))}
-            />
-          )}
+        <div className={g.phCount}>
+          <span>{t('philosophy.count', { count: shown.length })}</span>
+          {pickedCount > 0 && <span className={g.phPicked}>{t('philosophy.pickedCount', { count: pickedCount })}</span>}
         </div>
-        {shown.length > 1 && look && (
-          <div className={g.jump} role="group" aria-label={t('philosophy.all')}>
-            {shown.map((x, i) => (
-              <button key={x.title} type="button" className={i === at ? `${g.jumpBtn} ${g.jumpOn}` : g.jumpBtn} onClick={() => setAt(i)}>
-                <span className={g.jumpNum}>{look.numeral(i + 1)}</span>
-                <span>{x.title}</span>
-              </button>
-            ))}
-          </div>
-        )}
-        {pickedCount > 0 && <div className={g.picked}>{t('philosophy.pickedCount', { count: pickedCount })}</div>}
+        <div className={g.stack}>
+          {shown.map((x, i) => {
+            const k = `${part}:${i}`
+            return (
+              <Fold key={k} title={x.title} sub={x.text} badge={look ? look.numeral(i + 1) : String(i + 1)} open={!!open[k]} onToggle={() => setOpen((v) => ({ ...v, [k]: !v[k] }))} expandable>
+                {x.practice && (
+                  <button
+                    type="button"
+                    role="checkbox"
+                    aria-checked={!!picked[k]}
+                    className={picked[k] ? `${g.phTry} ${g.phTryOn}` : g.phTry}
+                    onClick={() => {
+                      haptic(picked[k] ? 'select' : 'success')
+                      setPicked((p) => ({ ...p, [k]: !p[k] }))
+                    }}
+                  >
+                    <span className={g.phTryBox} aria-hidden>{picked[k] && <Icon name="check" weight="bold" size={15} />}</span>
+                    <span className={g.phTryText}>
+                      <b>{picked[k] ? t('philosophy.onList') : t('philosophy.tryThis')}</b>
+                      {x.practice}
+                    </span>
+                  </button>
+                )}
+              </Fold>
+            )
+          })}
+        </div>
       </div>
     </OndaPage>
   )
 }
 
-/* ── Rules: the Onda's rules to read and live by. Nothing to tick here. ── */
+/* ── Rules: the Onda's rules. Tap one when you have kept it today. ── */
 export function RulesPage() {
   const { t } = useTranslation()
   const active = useActiveOnda()
   const look = active?.look
+  const done = useRunToday(active?.run.id).rules
   const rules = active?.content?.rules ?? active?.run.snapshot?.rules.map((r) => ({ ...r, why: '' })) ?? []
+  const kept = rules.filter((r) => done.has(r.id)).length
   return (
     <OndaPage title={t('ondas.rules')}>
       <div style={{ padding: '4px 16px 24px' }}>
         {look && <OndaBanner look={look} icon="scales" kicker={active?.index?.name} title={t('ondas.rules')} sub={t('rulesPage.lead', { count: rules.length })} />}
-        <ol className={o.rulesPage}>
-          {rules.map((r, i) => (
-            <li key={r.id} className={o.rulesItem}>
-              <span className={o.rulesNum} aria-hidden>{look ? look.numeral(i + 1) : i + 1}</span>
-              <span className={o.ruleBody}>
-                <span className={o.ruleText}>{r.text}</span>
-                {r.why && <span className={o.ruleWhy}>{r.why}</span>}
-              </span>
-            </li>
-          ))}
-        </ol>
+        {rules.length > 0 && (
+          <div className={o.rulesMeter}>
+            <span style={{ flex: 'none' }}>{t('ondas.rulesOf', { done: kept, total: rules.length })}</span>
+            <span style={{ flex: 1 }} className={o.todayBar}>
+              <ProgressBar value={kept / rules.length} tone="var(--onda-strong)" height={6} label={t('ondas.rulesOf', { done: kept, total: rules.length })} />
+            </span>
+          </div>
+        )}
+        <div className={o.rulesKeep}>
+          {rules.map((r, i) => {
+            const on = done.has(r.id)
+            return (
+              <button
+                key={r.id}
+                type="button"
+                role="checkbox"
+                aria-checked={on}
+                className={on ? `${o.rule} ${o.ruleOn}` : o.rule}
+                onClick={() => {
+                  if (!active) return
+                  haptic(on ? 'select' : 'success')
+                  useStore.getState().toggleItem('ruleLogs', active.run.id, r.id)
+                }}
+              >
+                <span className={o.ruleNum} aria-hidden>{on ? <Icon name="check" weight="bold" size={20} /> : look ? look.numeral(i + 1) : i + 1}</span>
+                <span className={o.ruleBody}>
+                  <span className={o.ruleText}>{r.text}</span>
+                  {r.why && <span className={o.ruleWhy}>{r.why}</span>}
+                </span>
+              </button>
+            )
+          })}
+        </div>
       </div>
     </OndaPage>
   )

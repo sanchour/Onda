@@ -151,32 +151,28 @@ export function OndaTile({ x, onOpen, active }: { x: ReturnType<typeof useOndaLi
   )
 }
 
-/** Browse Ondas: four groups (religions, philosophies, states, cultures). Each lists the Ondas that exist, then greyed placeholders. */
-export function AllOndas() {
+/** The four groups (religions, philosophies, states, cultures) with a toggle each, then the user's own Ondas.
+ *  Browse Ondas also lists the worlds that are on the way; a picker shows only what exists. */
+export function OndaGroups({ onOpen, soon }: { onOpen: (id: string) => void; soon?: boolean }) {
   const { t } = useTranslation()
-  const push = useNav((n) => n.push)
   const list = useOndaList()
   const activeId = useActiveOnda()?.run.ondaId
   const [closed, setClosed] = useState<Record<string, boolean>>({})
   const toggle = (k: string) => () => setClosed((c) => ({ ...c, [k]: !c[k] }))
   const mine = list.filter((x) => !GROUP_OF[x.id])
   const sections = [
-    ...BROWSE_GROUPS.map((g) => ({ key: g, title: t(`browse.${g}`), real: list.filter((x) => GROUP_OF[x.id] === g), soon: COMING_SOON.filter((c) => c.group === g) })),
+    ...BROWSE_GROUPS.map((g) => ({ key: g, title: t(`browse.${g}`), real: list.filter((x) => GROUP_OF[x.id] === g), soon: soon ? COMING_SOON.filter((c) => c.group === g) : [] })),
     ...(mine.length ? [{ key: 'mine', title: t('browse.mine'), real: mine, soon: [] as typeof COMING_SOON }] : []),
-  ]
+  ].filter((sec) => sec.real.length + sec.soon.length > 0)
   return (
-    <Screen chrome={<BackButton />}>
-      <div className={s.pageHead} style={{ paddingBottom: 8 }}>
-        <h1 className={s.largeTitle}>{t('ondas.allTitle')}</h1>
-        <div className={`${s.sub} ${s.sub2}`}>{t('ondas.allSub')}</div>
-      </div>
+    <>
       {sections.map((sec) => (
         <section key={sec.key} aria-label={sec.title} className={o.browseSec}>
           <SectionToggle title={sec.title} meta={sec.real.length + sec.soon.length} open={!closed[sec.key]} onToggle={toggle(sec.key)} />
           {!closed[sec.key] && (
             <div className={s.grid2}>
               {sec.real.map((x) => (
-                <OndaTile key={x.id} x={x} active={activeId === x.id} onOpen={() => push({ name: 'onda', id: x.id })} />
+                <OndaTile key={x.id} x={x} active={activeId === x.id} onOpen={() => onOpen(x.id)} />
               ))}
               {sec.soon.map((c) => (
                 <div key={c.name} className={o.soonTile} aria-disabled="true">
@@ -189,6 +185,21 @@ export function AllOndas() {
           )}
         </section>
       ))}
+    </>
+  )
+}
+
+/** Browse Ondas: every Onda by group, with greyed placeholders for the ones still to come. */
+export function AllOndas() {
+  const { t } = useTranslation()
+  const push = useNav((n) => n.push)
+  return (
+    <Screen chrome={<BackButton />}>
+      <div className={s.pageHead} style={{ paddingBottom: 8 }}>
+        <h1 className={s.largeTitle}>{t('ondas.allTitle')}</h1>
+        <div className={`${s.sub} ${s.sub2}`}>{t('ondas.allSub')}</div>
+      </div>
+      <OndaGroups soon onOpen={(id) => push({ name: 'onda', id })} />
     </Screen>
   )
 }

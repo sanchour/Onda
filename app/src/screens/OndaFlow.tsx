@@ -10,7 +10,7 @@ import { BackButton, ChromeSpacer, ChromeTitle, Screen } from '@/nav/Screen'
 import navCss from '@/nav/nav.module.css'
 import { useNav, type StackEntry } from '@/nav/store'
 import { Button } from '@/ui/buttons'
-import { CheckDot, Switch } from '@/ui/controls'
+import { Switch } from '@/ui/controls'
 import { ProgressRing, StepBar } from '@/ui/data'
 import { Icon } from '@/ui/Icon'
 import { KindArt } from './KindArt'
@@ -39,7 +39,7 @@ export function Immersion({ entry }: { entry: Extract<StackEntry, { name: 'immer
   }
 
   return (
-    <Screen chrome={<BackButton />} style={active.look.vars}>
+    <Screen chrome={<BackButton />} style={active.look.vars} dataOnda={settings.ondaThemes ? active.run.ondaId : undefined}>
       <div style={{ padding: '0 16px' }}>
         <OndaBanner
           look={active.look}
@@ -78,38 +78,44 @@ export function Immersion({ entry }: { entry: Extract<StackEntry, { name: 'immer
       )}
 
       {kind && (
-        <ul className={s.stack10} style={{ padding: '18px 16px 0', margin: 0, listStyle: 'none' }}>
-          {list.map((m) => {
-            const on = done.has(m.id)
-            return (
-              <li key={m.id} className={o.imRow}>
-                <button type="button" className={o.imOpen} aria-label={t('immersion.about', { name: m.title })} onClick={() => openSheet({ name: 'mediaInfo', item: m, ondaId: active.run.ondaId, runId: active.run.id })}>
-                  <span className={o.imThumb} aria-hidden>
-                    <KindArt kind={m.kind} />
-                  </span>
-                  <span style={{ flex: 1, minWidth: 0, display: 'block' }}>
-                    <span className={o.imTitle} style={{ display: 'block' }}>{m.title}</span>
-                    <span className={s.sub} style={{ display: 'block' }}>{m.meta}</span>
-                    {m.why && <span className={o.imWhy} style={{ display: 'block' }}>{m.why}</span>}
-                  </span>
-                </button>
-                <button
-                  type="button"
-                  role="checkbox"
-                  aria-checked={on}
-                  aria-label={t('a11y.markDone', { name: m.title })}
-                  className={o.imCheck}
-                  onClick={() => {
-                    haptic(on ? 'select' : 'success')
-                    useStore.getState().toggleImmerse(active.run.id, m.id)
-                  }}
-                >
-                  <CheckDot on={on} size={32} icon={16} soft />
-                </button>
-              </li>
-            )
-          })}
-        </ul>
+        <>
+          <div className={o.libHead}>
+            <span>{t('immersion.shelf', { count: list.length })}</span>
+            <span className={o.libMeter} aria-hidden>
+              <i style={{ width: `${list.length ? (count(kind).seen / list.length) * 100 : 0}%` }} />
+            </span>
+          </div>
+          <ul className={o.lib}>
+            {list.map((m, i) => {
+              const on = done.has(m.id)
+              return (
+                <li key={m.id} className={on ? `${o.libCard} ${o.libOn}` : o.libCard}>
+                  <button type="button" className={o.libOpen} aria-label={t('immersion.about', { name: m.title })} onClick={() => openSheet({ name: 'mediaInfo', item: m, ondaId: active.run.ondaId, runId: active.run.id })}>
+                    <span className={o.libNo} aria-hidden>{t('immersion.no', { n: active.look.numeral(i + 1) })}</span>
+                    <span className={o.libArt} aria-hidden>
+                      <KindArt kind={m.kind} />
+                    </span>
+                    <span className={o.libTitle}>{m.title}</span>
+                    {m.meta && <span className={o.libBy}>{m.meta}</span>}
+                  </button>
+                  <button
+                    type="button"
+                    role="checkbox"
+                    aria-checked={on}
+                    aria-label={t('a11y.markDone', { name: m.title })}
+                    className={o.libStamp}
+                    onClick={() => {
+                      haptic(on ? 'select' : 'success')
+                      useStore.getState().toggleImmerse(active.run.id, m.id)
+                    }}
+                  >
+                    <Icon name="check" weight="bold" size={16} />
+                  </button>
+                </li>
+              )
+            })}
+          </ul>
+        </>
       )}
       {kind && <div className={o.footnote}>{t('immersion.footer')}</div>}
     </Screen>

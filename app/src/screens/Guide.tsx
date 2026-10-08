@@ -16,9 +16,9 @@ import o from './ondas.module.css'
 import s from './screens.module.css'
 
 /* ── Full guide ───────────────────────────────────────────── */
-const TABS = ['overview', 'history', 'ideas', 'ways', 'culture', 'language', 'facts'] as const
+const TABS = ['overview', 'history', 'ideas', 'ethics', 'ways', 'culture', 'travel', 'language', 'facts'] as const
 type GuideTab = (typeof TABS)[number]
-const TAB_ICON: Record<GuideTab, string> = { overview: 'compass', history: 'clock-counter-clockwise', ideas: 'lightbulb', ways: 'footprints', culture: 'book-open-text', language: 'translate', facts: 'sparkle' }
+const TAB_ICON: Record<GuideTab, string> = { overview: 'compass', history: 'clock-counter-clockwise', ideas: 'lightbulb', ethics: 'scales', ways: 'footprints', culture: 'book-open-text', travel: 'map-trifold', language: 'translate', facts: 'sparkle' }
 
 interface GRow {
   key: string
@@ -55,21 +55,27 @@ function guideGroups(c: OndaContent, tab: GuideTab, t: TFn): GGroup[] {
         { key: 'concepts', title: g.concepts.length ? t('guide.concepts') : undefined, rows: g.concepts.map((x, i) => ({ key: `c${i}`, title: x.term, sub: x.text, body: x.detail || undefined })) },
         { key: 'ideas', title: c.philosophy.length ? t('philosophy.think') : undefined, rows: c.philosophy.map((p, i) => ({ key: `p${i}`, title: p.title, sub: p.text, tryIt: tryOf(p.practice) })) },
       ].filter((x) => x.rows.length)
+    case 'ethics':
+      return [{ key: 'ethics', rows: c.ethics.map((e, i) => ({ key: `e${i}`, title: e.title, sub: e.text, tryIt: tryOf(e.practice), tag: String(i + 1) })) }].filter((x) => x.rows.length)
+    case 'travel':
+      return [
+        { key: 'festivals', title: t('guide.festivals'), rows: (c.immerse.festivals ?? []).map((x) => ({ key: x.id, title: x.title, sub: x.creator || undefined, body: x.why || undefined, icon: 'calendar-star', tag: unv(x.unverified), link: x.link })) },
+        { key: 'places', title: t('guide.places'), rows: (c.immerse.places ?? []).map((x) => ({ key: x.id, title: x.title, sub: x.creator || undefined, body: x.why || undefined, icon: 'map-pin', tag: unv(x.unverified), link: x.link })) },
+      ].filter((x) => x.rows.length)
     case 'ways':
       return [
         { key: 'practices', title: t('guide.practices'), rows: c.practices.map((p) => ({ key: p.id, title: p.name, sub: p.why || p.meta, icon: p.icon, steps: p.instructions || undefined, list: p.variations.length ? p.variations : undefined })) },
         { key: 'rules', title: t('guide.rules'), rows: c.rules.map((r, i) => ({ key: r.id, title: r.text, sub: r.why || undefined, tag: String(i + 1) })) },
-        { key: 'ethics', title: t('philosophy.ethics'), rows: c.ethics.map((e, i) => ({ key: `e${i}`, title: e.title, sub: e.text, tryIt: tryOf(e.practice) })) },
         { key: 'customs', title: t('guide.customs'), rows: c.immerse.customs.map((x) => ({ key: x.id, title: x.title, sub: x.creator || undefined, body: x.why || undefined, tag: unv(x.unverified) })) },
       ].filter((x) => x.rows.length)
     case 'culture':
       return [
-        ...(['read', 'watch', 'listen', 'art', 'eat', 'drink'] as const)
+        ...(['read', 'watch', 'listen', 'art', 'eat', 'drink', 'games'] as const)
           .map((k) => ({
             key: k,
             title: t(`kindLabel.${k}`),
             kind: k as MediaKind,
-            rows: c.immerse[k].map((it) => ({ key: it.id, title: it.title, sub: [it.creator, it.year].filter(Boolean).join(', ') || undefined, body: it.why || undefined, tag: unv(it.unverified), link: it.link })),
+            rows: (c.immerse[k] ?? []).map((it) => ({ key: it.id, title: it.title, sub: [it.creator, it.year].filter(Boolean).join(', ') || undefined, body: it.why || undefined, tag: unv(it.unverified), link: it.link })),
           }))
           .filter((x) => x.rows.length),
         { key: 'further', title: t('guide.furtherReading'), rows: g.furtherReading.map((r, i) => ({ key: `f${i}`, title: r.title, sub: [r.creator, r.year].filter(Boolean).join(', ') || undefined, body: r.note || undefined })) },

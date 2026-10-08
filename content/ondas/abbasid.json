@@ -1,0 +1,1314 @@
+{
+  "version": 1,
+  "id": "abbasid",
+  "name": "Abbasid Caliphate",
+  "origin": "Baghdad",
+  "era": "750 to 1258",
+  "tone": "yellow",
+  "icon": "books",
+  "font": "reem-kufi",
+  "pattern": "pointed-arches",
+  "glyph": "حكمة",
+  "line": "Seek knowledge from every quarter, test it, write it down and share your table.",
+  "quote": {
+    "text": "We ought not to be ashamed of appreciating the truth and of acquiring it wherever it comes from, even if it comes from races distant and nations different from us.",
+    "by": "al-Kindi",
+    "source": "On First Philosophy, 9th century, trans. Alfred L. Ivry, 1974"
+  },
+  "quotes": [
+    {
+      "text": "The seeker after the truth is not one who studies the writings of the ancients and, following his natural disposition, puts his trust in them, but rather the one who suspects his faith in them and questions what he gathers from them.",
+      "by": "Ibn al-Haytham",
+      "source": "Doubts Concerning Ptolemy, 11th century, trans. A. I. Sabra"
+    },
+    {
+      "text": "The finest seat in this world is the saddle of a swift horse, and the best companion for all time is a book.",
+      "by": "al-Mutanabbi",
+      "source": "Diwan, 10th century"
+    },
+    {
+      "text": "What is easiest and most useful in arithmetic, such as men constantly require in cases of inheritance, legacies, partition, law-suits, and trade.",
+      "by": "al-Khwarizmi",
+      "source": "Preface to The Compendious Book on Calculation by Completion and Balancing, c. 820, trans. Frederic Rosen, 1831"
+    },
+    {
+      "text": "To thirst after a comprehension of things as they really are was my habit and custom from a very early age.",
+      "by": "al-Ghazali",
+      "source": "Deliverance from Error, c. 1108, trans. W. Montgomery Watt, 1953"
+    },
+    {
+      "text": "The book is a companion that does not flatter you, a friend that does not tempt you and a comrade that does not weary you.",
+      "by": "al-Jahiz",
+      "source": "The Book of Animals, 9th century",
+      "unverified": true
+    }
+  ],
+  "words": [
+    {
+      "id": "word-bayt-al-hikma",
+      "term": "Bayt al-Hikma",
+      "meaning": "The House of Wisdom",
+      "pronunciation": "bayt al-HIK-ma",
+      "language": "Arabic",
+      "usage": "The caliphs’ library in Baghdad, linked with translators and astronomers. How large and how formal it was is still debated."
+    },
+    {
+      "id": "word-ilm",
+      "term": "Ilm",
+      "meaning": "Knowledge",
+      "pronunciation": "ILM",
+      "language": "Arabic",
+      "usage": "Learning of every kind, religious and worldly. Seeking it was held to be a duty."
+    },
+    {
+      "id": "word-hikma",
+      "term": "Hikma",
+      "meaning": "Wisdom",
+      "pronunciation": "HIK-ma",
+      "language": "Arabic",
+      "usage": "Knowledge joined to judgement. Also used for philosophy and for the sciences inherited from the Greeks."
+    },
+    {
+      "id": "word-adab",
+      "term": "Adab",
+      "meaning": "Good manners; polite learning; literature",
+      "pronunciation": "A-dab",
+      "language": "Arabic",
+      "usage": "The cultivation expected of an educated person: wit, wide reading, tact and good Arabic."
+    },
+    {
+      "id": "word-kitab",
+      "term": "Kitab",
+      "meaning": "A book",
+      "pronunciation": "ki-TAAB",
+      "language": "Arabic",
+      "usage": "The object the age fell in love with. Baghdad’s book market had about a hundred shops by 900."
+    },
+    {
+      "id": "word-warraq",
+      "term": "Warraq",
+      "meaning": "A paper seller, copyist and bookseller",
+      "pronunciation": "war-RAAQ",
+      "language": "Arabic",
+      "usage": "The trade that made a city of readers. The street of the warraqs was where scholars met."
+    },
+    {
+      "id": "word-kaghad",
+      "term": "Kaghad",
+      "meaning": "Paper",
+      "pronunciation": "KAA-ghad",
+      "language": "Arabic, from Persian",
+      "usage": "Made from rags. It reached Baghdad in the late eighth century and replaced papyrus and parchment in government offices."
+    },
+    {
+      "id": "word-tarjama",
+      "term": "Tarjama",
+      "meaning": "Translation",
+      "pronunciation": "TAR-ja-ma",
+      "language": "Arabic",
+      "usage": "For two centuries, nearly every Greek work of science and philosophy that could be found was put into Arabic."
+    },
+    {
+      "id": "word-falsafa",
+      "term": "Falsafa",
+      "meaning": "Philosophy",
+      "pronunciation": "FAL-sa-fa",
+      "language": "Arabic, from Greek",
+      "usage": "The tradition of Aristotle and Plato carried on in Arabic by al-Kindi, al-Farabi and their successors."
+    },
+    {
+      "id": "word-kalam",
+      "term": "Kalam",
+      "meaning": "Rational theology; literally, speech",
+      "pronunciation": "ka-LAAM",
+      "language": "Arabic",
+      "usage": "The practice of arguing about God, justice and free will by reasoned debate."
+    },
+    {
+      "id": "word-munazara",
+      "term": "Munazara",
+      "meaning": "A formal disputation",
+      "pronunciation": "mu-NAA-za-ra",
+      "language": "Arabic",
+      "usage": "A debate held before an audience under rules of courtesy, often between people of different faiths."
+    },
+    {
+      "id": "word-majlis",
+      "term": "Majlis",
+      "meaning": "A sitting; a salon or session",
+      "pronunciation": "MAJ-lis",
+      "language": "Arabic",
+      "usage": "A gathering in the house of a patron or scholar for poetry, music, argument and food."
+    },
+    {
+      "id": "word-isnad",
+      "term": "Isnad",
+      "meaning": "A chain of transmitters",
+      "pronunciation": "is-NAAD",
+      "language": "Arabic",
+      "usage": "The list of people through whom a report has passed, name by name, back to its source."
+    },
+    {
+      "id": "word-ijaza",
+      "term": "Ijaza",
+      "meaning": "A licence to transmit",
+      "pronunciation": "i-JAA-za",
+      "language": "Arabic",
+      "usage": "Written permission from a teacher to pass on a book you have studied with them."
+    },
+    {
+      "id": "word-al-jabr",
+      "term": "Al-jabr",
+      "meaning": "Restoring; setting right",
+      "pronunciation": "al-JABR",
+      "language": "Arabic",
+      "usage": "One of al-Khwarizmi’s two operations for solving an equation. It gave the world the word algebra."
+    },
+    {
+      "id": "word-hisab",
+      "term": "Hisab",
+      "meaning": "Calculation; arithmetic",
+      "pronunciation": "hi-SAAB",
+      "language": "Arabic",
+      "usage": "The practical mathematics of merchants, surveyors and tax officials."
+    },
+    {
+      "id": "word-sifr",
+      "term": "Sifr",
+      "meaning": "Empty; zero",
+      "pronunciation": "SIFR",
+      "language": "Arabic",
+      "usage": "The sign for nothing in the Indian system of numerals. The words cipher and zero both come from it."
+    },
+    {
+      "id": "word-zij",
+      "term": "Zij",
+      "meaning": "A set of astronomical tables",
+      "pronunciation": "ZEEJ",
+      "language": "Arabic, from Persian",
+      "usage": "Tables for finding the positions of sun, moon and planets, checked against new observations."
+    },
+    {
+      "id": "word-asturlab",
+      "term": "Asturlab",
+      "meaning": "An astrolabe",
+      "pronunciation": "as-tur-LAAB",
+      "language": "Arabic, from Greek",
+      "usage": "A brass instrument for telling the time, finding the direction of Mecca and measuring the height of stars."
+    },
+    {
+      "id": "word-bimaristan",
+      "term": "Bimaristan",
+      "meaning": "A hospital",
+      "pronunciation": "bee-maa-ris-TAAN",
+      "language": "Arabic, from Persian",
+      "usage": "A public hospital with wards, a pharmacy and salaried physicians, where treatment was free."
+    },
+    {
+      "id": "word-tibb",
+      "term": "Tibb",
+      "meaning": "Medicine",
+      "pronunciation": "TIBB",
+      "language": "Arabic",
+      "usage": "The art of al-Razi and his colleagues, built on Galen and corrected by case notes."
+    },
+    {
+      "id": "word-kimiya",
+      "term": "Kimiya",
+      "meaning": "Alchemy; the study of substances",
+      "pronunciation": "KEE-mi-yaa",
+      "language": "Arabic",
+      "usage": "The origin of the word chemistry, and of laboratory methods such as distilling and crystallising."
+    },
+    {
+      "id": "word-suq",
+      "term": "Suq",
+      "meaning": "A market",
+      "pronunciation": "SOOQ",
+      "language": "Arabic",
+      "usage": "Baghdad’s markets were arranged by trade: perfumers, cloth sellers, booksellers, cooks."
+    },
+    {
+      "id": "word-sakk",
+      "term": "Sakk",
+      "meaning": "A written order for payment",
+      "pronunciation": "SAKK",
+      "language": "Arabic",
+      "usage": "A merchant could write one in Baghdad and have it honoured far away. The word cheque is often traced to it."
+    },
+    {
+      "id": "word-wazir",
+      "term": "Wazir",
+      "meaning": "A vizier; the caliph’s chief minister",
+      "pronunciation": "wa-ZEER",
+      "language": "Arabic",
+      "usage": "The head of the administration. The Barmakid family held the office with famous generosity until their fall in 803."
+    },
+    {
+      "id": "word-khalifa",
+      "term": "Khalifa",
+      "meaning": "Caliph; successor or deputy",
+      "pronunciation": "kha-LEE-fa",
+      "language": "Arabic",
+      "usage": "The title of the head of the Muslim community. The Abbasids claimed it through the Prophet’s uncle al-Abbas."
+    },
+    {
+      "id": "word-madinat-al-salam",
+      "term": "Madinat al-Salam",
+      "meaning": "The City of Peace",
+      "pronunciation": "ma-DEE-nat as-sa-LAAM",
+      "language": "Arabic",
+      "usage": "The official name al-Mansur gave his new capital. Everyone went on calling it Baghdad."
+    },
+    {
+      "id": "word-qasida",
+      "term": "Qasida",
+      "meaning": "An ode",
+      "pronunciation": "qa-SEE-da",
+      "language": "Arabic",
+      "usage": "The long formal poem in a single rhyme, the great form of Arabic verse."
+    },
+    {
+      "id": "word-maqama",
+      "term": "Maqama",
+      "meaning": "A tale in rhymed prose",
+      "pronunciation": "ma-QAA-ma",
+      "language": "Arabic",
+      "usage": "Short comic episodes about an eloquent trickster, invented by al-Hamadhani in the tenth century."
+    },
+    {
+      "id": "word-hakawati",
+      "term": "Hakawati",
+      "meaning": "A storyteller",
+      "pronunciation": "ha-ka-WAA-tee",
+      "language": "Arabic",
+      "usage": "The teller of tales in the coffee houses of later centuries, heir to the storytellers of the Abbasid street."
+    },
+    {
+      "id": "word-oud",
+      "term": "Oud",
+      "meaning": "A short-necked lute",
+      "pronunciation": "OOD",
+      "language": "Arabic",
+      "usage": "The chief instrument of the court. The European lute takes its name from al-ud."
+    },
+    {
+      "id": "word-rihla",
+      "term": "Rihla",
+      "meaning": "A journey, especially one in search of knowledge",
+      "pronunciation": "RIH-la",
+      "language": "Arabic",
+      "usage": "Scholars travelled for years to hear a text from someone who had heard it from its author."
+    }
+  ],
+  "practices": [
+    {
+      "id": "scholars-hour",
+      "name": "The scholar’s hour",
+      "icon": "books",
+      "slot": "Morning",
+      "time": "07:00",
+      "minutes": 25,
+      "meta": "Morning · 25 min",
+      "instructions": "Give the first clear half hour of the day to learning something hard: a proof, a language, a chapter of history, an instrument. Sit at a table with paper and pen. Read or work for twenty minutes, then spend five writing down in your own words what you now know and one question you still have. Keep the same subject for the whole Onda. Tomorrow begin by reading yesterday’s question.",
+      "why": "The scholars of Baghdad treated study as a daily duty and a pleasure. Al-Jahiz rented booksellers’ shops overnight in order to read through their stock. Steady hours at a desk are what the whole culture was built on.",
+      "variations": [
+        "Study with a partner and question each other.",
+        "Read a primary source in place of a summary.",
+        "Teach what you learned to someone before noon."
+      ]
+    },
+    {
+      "id": "render-it",
+      "name": "Render it",
+      "icon": "translate",
+      "slot": "Afternoon",
+      "time": "12:30",
+      "minutes": 15,
+      "meta": "Afternoon · 15 min",
+      "instructions": "Take one paragraph each day and carry it into another form. Translate a few lines from a language you are learning. Or rewrite a technical passage so that a twelve-year-old would follow it. Or put a poem into plain prose. Compare your version with the original line by line. Note the one place where you had to choose between the words and the sense.",
+      "why": "Hunayn ibn Ishaq and his school collected several manuscripts of each Greek book, compared them and translated for the sense. Translation is the closest form of reading, and it is how Baghdad made the world’s knowledge its own.",
+      "variations": [
+        "Translate the same passage twice, a week apart, and compare.",
+        "Translate with a friend who knows the language better.",
+        "Translate a recipe, then cook from your version."
+      ]
+    },
+    {
+      "id": "doubt-and-test",
+      "name": "Doubt and test",
+      "icon": "eye",
+      "slot": "Afternoon",
+      "time": "15:00",
+      "minutes": 15,
+      "meta": "Afternoon · 15 min",
+      "instructions": "Choose one thing you believe because you were told it: a claim in the news, a rule of thumb, a fact about your own habits. Write it down. Then check it by the most direct means you have. Measure, count, time it, look it up in two independent sources, or try it. Write what you found beside the claim. One claim a day.",
+      "why": "Ibn al-Haytham, born in Basra, wrote that a seeker of truth must make himself the enemy of all that he reads. He tested how vision works with a dark room and a small hole, and the method outlived the theory.",
+      "variations": [
+        "Repeat someone else’s simple experiment at home.",
+        "Keep a page of things you were wrong about.",
+        "Ask an expert how they know."
+      ]
+    },
+    {
+      "id": "the-majlis",
+      "name": "The majlis",
+      "icon": "chats",
+      "slot": "Evening",
+      "time": "19:30",
+      "minutes": 40,
+      "meta": "Evening · 40 min",
+      "instructions": "Hold a sitting. Invite one person or several, in your home or by call. Put out tea and something sweet. Set one question for the evening and let each person speak to it in turn before anyone answers anyone. Include a poem, a song or a story. The host’s task is to see that every guest is heard and that no one leaves hungry. On days without company, write a letter to someone you would have asked.",
+      "why": "The salons of viziers, physicians and booksellers were where Abbasid culture happened. Muslims, Christians, Jews and sceptics debated in them under rules of courtesy that were set before they began.",
+      "variations": [
+        "Ask each guest to bring one thing to read aloud.",
+        "Agree at the start that no one may quote an authority in place of a reason.",
+        "Hold it outdoors after dark."
+      ]
+    },
+    {
+      "id": "read-the-sky",
+      "name": "Read the sky",
+      "icon": "moon-stars",
+      "slot": "Evening",
+      "time": "21:30",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Go out after dark and look up for ten minutes. Find the moon and note its phase. Find one bright star and learn its name: Aldebaran, Altair, Vega, Deneb, Betelgeuse and Rigel all come from Arabic. Note where it stands compared with a roof or a tree, and look again at the same hour tomorrow. On cloudy nights, read a page about the star you found last.",
+      "why": "Al-Mamun’s astronomers measured the size of the Earth from the plain of Sinjar and checked Ptolemy’s tables against the sky. About two hundred stars still carry Arabic names.",
+      "variations": [
+        "Follow the moon through a whole month.",
+        "Find the direction of sunrise and mark how it shifts.",
+        "Use a free star chart to learn one constellation a week."
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": "solve-one-equation-by-completing-the-square",
+      "name": "Solve one equation by completing the square",
+      "meta": "Try x squared plus 10x equals 39, as al-Khwarizmi did",
+      "time": "11:00",
+      "slot": "Afternoon"
+    },
+    {
+      "id": "find-five-star-names-that-come-from-arabic",
+      "name": "Find five star names that come from Arabic",
+      "meta": "Start with Aldebaran, the follower",
+      "time": "22:00",
+      "slot": "Evening"
+    },
+    {
+      "id": "copy-a-page-you-love-by-hand-and-give-it-to-someone",
+      "name": "Copy a page you love by hand and give it to someone",
+      "meta": "The way every book was once made",
+      "time": "16:00",
+      "slot": "Afternoon"
+    },
+    {
+      "id": "task-read-three-nights-of-the-thousand-and-one-nights",
+      "name": "Read three nights of the Thousand and One Nights",
+      "meta": "Read · stop where she stops",
+      "time": "21:00",
+      "slot": "Evening",
+      "action": "read"
+    },
+    {
+      "id": "task-listen-to-an-oud-improvisation-with-your-eyes-closed",
+      "name": "Listen to an oud improvisation with your eyes closed",
+      "meta": "Listen · Munir Bashir, 10 min",
+      "time": "20:30",
+      "slot": "Evening",
+      "action": "listen"
+    },
+    {
+      "id": "task-cook-a-sweet-and-sour-stew-from-a-tenth-century-baghdad-cookbook",
+      "name": "Cook a sweet and sour stew from a tenth-century Baghdad cookbook",
+      "meta": "Eat · sikbaj",
+      "time": "18:00",
+      "slot": "Evening",
+      "action": "eat"
+    },
+    {
+      "id": "task-journal-what-did-you-take-on-trust-today-and-from-whom",
+      "name": "Journal: what did you take on trust today, and from whom?",
+      "meta": "Journal · 10 min",
+      "time": "21:45",
+      "slot": "Evening",
+      "action": "journal"
+    },
+    {
+      "id": "task-take-a-truth-from-someone-you-disagree-with",
+      "name": "Take a truth from someone you disagree with",
+      "meta": "Philosophy · 10 min",
+      "time": "09:00",
+      "slot": "Morning",
+      "action": "philosophy"
+    }
+  ],
+  "rules": [
+    {
+      "id": "r1",
+      "text": "Take the truth from wherever it comes",
+      "why": "Al-Kindi wrote that nothing should be dearer to the seeker than truth, whatever its source. Today, learn one thing from a person or a people you would not have asked."
+    },
+    {
+      "id": "r2",
+      "text": "Name your source",
+      "why": "Every report in Baghdad travelled with the chain of people who passed it on. When you repeat something today, say where you got it, or say that you do not know."
+    },
+    {
+      "id": "r3",
+      "text": "Doubt the authority, then check",
+      "why": "Ibn al-Haytham made himself the opponent of whatever he read. Test one confident claim today before you pass it on."
+    },
+    {
+      "id": "r4",
+      "text": "Write it down today",
+      "why": "Paper made this civilisation possible. A thought not written is lost by the evening. Keep a notebook on you and use it."
+    },
+    {
+      "id": "r5",
+      "text": "Argue the point and honour the person",
+      "why": "The debates had rules: no shouting, no insults, no appeals to your own scripture against someone of another faith. Keep them in every disagreement today."
+    },
+    {
+      "id": "r6",
+      "text": "Leave room at the table",
+      "why": "A host was judged by who was fed. Cook or order for one more than you expect, and find that one."
+    }
+  ],
+  "immerse": {
+    "read": [
+      {
+        "id": "read-the-arabian-nights",
+        "title": "The Arabian Nights",
+        "creator": "trans. Husain Haddawy",
+        "year": "stories gathered from the 9th century; this translation 1990",
+        "why": "The core stories from the oldest surviving manuscript, without the later additions. Harun al-Rashid walks the streets of Baghdad in disguise."
+      },
+      {
+        "id": "read-the-book-of-misers",
+        "title": "The Book of Misers",
+        "creator": "al-Jahiz, trans. R. B. Serjeant",
+        "year": "9th century",
+        "why": "Portraits of stingy men from Basra and Khurasan, by the funniest prose writer in Arabic. A window onto ordinary life."
+      },
+      {
+        "id": "read-mission-to-the-volga",
+        "title": "Mission to the Volga",
+        "creator": "Ibn Fadlan, trans. James E. Montgomery",
+        "year": "921–922",
+        "why": "A caliph’s envoy travels north from Baghdad and describes the Turks, the Bulghars and a ship burial among the Rus. An eyewitness to the Viking world."
+      },
+      {
+        "id": "read-impostures",
+        "title": "Impostures",
+        "creator": "al-Hariri, trans. Michael Cooperson",
+        "year": "about 1100",
+        "why": "Fifty tales of a silver-tongued rogue, each rendered in a different kind of English to match the wordplay of the original."
+      },
+      {
+        "id": "read-stories-of-piety-and-prayer-deliverance-follows-adversity",
+        "title": "Stories of Piety and Prayer: Deliverance Follows Adversity",
+        "creator": "al-Tanukhi, trans. Julia Bray",
+        "year": "10th century",
+        "why": "A judge’s collection of true and half-true stories about people rescued at the last moment."
+      },
+      {
+        "id": "read-the-house-of-wisdom",
+        "title": "The House of Wisdom",
+        "creator": "Jim Al-Khalili",
+        "year": "2010",
+        "why": "A physicist born in Baghdad tells the story of Arabic science and the people who made it."
+      },
+      {
+        "id": "read-when-baghdad-ruled-the-muslim-world",
+        "title": "When Baghdad Ruled the Muslim World",
+        "creator": "Hugh Kennedy",
+        "year": "2005",
+        "why": "The court of the caliphs at its height: the palaces, the poets, the harem and the murders."
+      }
+    ],
+    "watch": [
+      {
+        "id": "watch-science-and-islam",
+        "title": "Science and Islam",
+        "creator": "BBC, presented by Jim Al-Khalili",
+        "year": "2009",
+        "why": "Three episodes on medicine, mathematics and astronomy, filmed in Iraq, Iran, Syria and Egypt."
+      },
+      {
+        "id": "watch-the-adventures-of-prince-achmed",
+        "title": "The Adventures of Prince Achmed",
+        "creator": "Lotte Reiniger",
+        "year": "1926",
+        "why": "The oldest surviving animated feature, cut from black paper by hand and drawn from the Thousand and One Nights."
+      },
+      {
+        "id": "watch-islam-empire-of-faith",
+        "title": "Islam: Empire of Faith",
+        "creator": "PBS",
+        "year": "2000",
+        "why": "A documentary history from the Prophet to the Ottomans. The second part covers Baghdad and the translation movement."
+      },
+      {
+        "id": "watch-1001-inventions-and-the-library-of-secrets",
+        "title": "1001 Inventions and the Library of Secrets",
+        "creator": "Alan Deakins",
+        "year": "2010",
+        "why": "A thirteen-minute film in which a librarian played by Ben Kingsley introduces schoolchildren to the scientists of the age."
+      }
+    ],
+    "listen": [
+      {
+        "id": "listen-the-art-of-the-oud",
+        "title": "The Art of the Oud",
+        "creator": "Munir Bashir",
+        "year": "1971",
+        "why": "Solo improvisations by the Iraqi master who made the oud a concert instrument."
+      },
+      {
+        "id": "listen-iraqi-maqam",
+        "title": "Iraqi maqam",
+        "creator": "Farida Mohammad Ali and the Iraqi Maqam Ensemble",
+        "why": "The classical song tradition of Baghdad, with santur, spike fiddle and drum. It is on UNESCO’s list of intangible heritage."
+      },
+      {
+        "id": "listen-in-our-time-the-abbasid-caliphs",
+        "title": "In Our Time: The Abbasid Caliphs",
+        "creator": "BBC Radio 4, with Melvyn Bragg",
+        "year": "2006",
+        "why": "Three historians on the dynasty in forty-five minutes."
+      },
+      {
+        "id": "listen-scheherazade",
+        "title": "Scheherazade",
+        "creator": "Nikolai Rimsky-Korsakov",
+        "year": "1888",
+        "why": "A Russian composer’s dream of the Nights, with a solo violin as the voice of the storyteller. It shows how Europe imagined Baghdad."
+      }
+    ],
+    "art": [
+      {
+        "id": "art-the-spiral-minaret-of-samarra",
+        "title": "The spiral minaret of Samarra",
+        "creator": "Great Mosque of Samarra, Iraq",
+        "year": "848–852",
+        "why": "A tower of baked brick 52 metres high with a ramp winding round the outside. It is called the Malwiya, the twisted one."
+      },
+      {
+        "id": "art-the-maqamat-of-al-hariri",
+        "title": "The Maqamat of al-Hariri",
+        "creator": "Painted by Yahya al-Wasiti",
+        "year": "1237",
+        "why": "Ninety-nine lively pictures of libraries, caravans, taverns and villages, made in Baghdad two decades before its fall. Bibliothèque nationale de France."
+      },
+      {
+        "id": "art-the-qur-an-of-ibn-al-bawwab",
+        "title": "The Qur’an of Ibn al-Bawwab",
+        "creator": "Baghdad",
+        "year": "1000–1001",
+        "why": "The earliest surviving Qur’an on paper in a rounded hand, by the calligrapher who perfected proportioned script. Chester Beatty, Dublin."
+      },
+      {
+        "id": "art-abbasid-lustreware",
+        "title": "Abbasid lustreware",
+        "creator": "Iraq",
+        "year": "9th century",
+        "why": "Potters trying to match Chinese porcelain invented a white glaze and a metallic sheen fired onto it. The technique passed to Egypt, Spain and Italy."
+      },
+      {
+        "id": "art-mustansiriya-madrasa",
+        "title": "Mustansiriya Madrasa",
+        "creator": "Baghdad, Iraq",
+        "year": "1227–1234",
+        "why": "A college for all four Sunni schools of law built beside the Tigris, with a courtyard of pointed arches and brickwork inscriptions."
+      }
+    ],
+    "eat": [
+      {
+        "id": "eat-sikbaj",
+        "title": "Sikbaj",
+        "creator": "Meat stewed with vinegar, honey and dried fruit",
+        "why": "The most praised dish of the court. It travelled west with the Arabs and survives as escabeche."
+      },
+      {
+        "id": "eat-tharid",
+        "title": "Tharid",
+        "creator": "Bread soaked in a rich broth",
+        "why": "Torn flatbread under meat and stock. An old Arabian dish that stayed in favour."
+      },
+      {
+        "id": "eat-harisa",
+        "title": "Harisa",
+        "creator": "Wheat and meat beaten to a porridge",
+        "why": "Cooked overnight and sold in the morning markets, with a spoonful of fat on top."
+      },
+      {
+        "id": "eat-judhaba",
+        "title": "Judhaba",
+        "creator": "Sweet bread pudding set under roasting chicken",
+        "why": "A tray of bread, sugar and apricots catches the dripping juices. Sold in the market and loved by poets."
+      },
+      {
+        "id": "eat-lauzinaj",
+        "title": "Lauzinaj",
+        "creator": "Almond paste in thin pastry, soaked in syrup",
+        "why": "The sweet that ended a good dinner, scented with rosewater."
+      }
+    ],
+    "drink": [
+      {
+        "id": "drink-sharab",
+        "title": "Sharab",
+        "creator": "Fruit syrup stirred into cold water",
+        "why": "Pomegranate, quince, rose or lemon. The words sherbet, sorbet and syrup all come from it."
+      },
+      {
+        "id": "drink-sakanjabin",
+        "title": "Sakanjabin",
+        "creator": "Vinegar and honey syrup with mint",
+        "why": "A cooling drink that physicians prescribed, taken diluted in summer."
+      },
+      {
+        "id": "drink-fuqqa",
+        "title": "Fuqqa",
+        "creator": "A lightly fermented barley drink",
+        "why": "Sold in the streets in sealed jars and drunk cold. A malt drink without alcohol stands in."
+      }
+    ],
+    "customs": [
+      {
+        "id": "customs-washing-hands-at-the-table",
+        "title": "Washing hands at the table",
+        "creator": "Before and after the meal",
+        "why": "A servant brought a basin and ewer to each guest in turn. Perfume was offered at the end."
+      },
+      {
+        "id": "customs-reading-for-a-licence",
+        "title": "Reading for a licence",
+        "creator": "Studying a book with its teacher",
+        "why": "You read the whole text aloud to someone who had it from its author’s line, and they wrote their permission on your copy."
+      },
+      {
+        "id": "customs-riddles-and-capping-verses",
+        "title": "Riddles and capping verses",
+        "creator": "Games of the majlis",
+        "why": "One guest gives a line of poetry and the next must answer with a line that starts on its last letter."
+      },
+      {
+        "id": "customs-lending-a-book",
+        "title": "Lending a book",
+        "creator": "With a note of thanks on its return",
+        "why": "Books were lent freely among scholars, and returning one late or damaged was a known disgrace."
+      }
+    ],
+    "games": [
+      {
+        "id": "games-shatranj",
+        "title": "Shatranj",
+        "creator": "Board game · the Islamic world",
+        "year": "from the 7th century",
+        "why": "Chess before the modern queen. The Baghdad courtier al-Suli was the strongest player of his century and wrote the first book of opening theory and problems."
+      },
+      {
+        "id": "games-nard",
+        "title": "Nard",
+        "creator": "Board game · Persia",
+        "year": "ancient",
+        "why": "Backgammon. Abbasid moralists disapproved of the dice and everyone played anyway."
+      },
+      {
+        "id": "games-assassin-s-creed-mirage",
+        "title": "Assassin’s Creed Mirage",
+        "creator": "Video game · Ubisoft Bordeaux",
+        "year": "2023",
+        "why": "Set in ninth-century Baghdad, with the round city, the House of Wisdom and the markets rebuilt in detail. A built-in history guide was written with scholars."
+      },
+      {
+        "id": "games-tales-of-the-arabian-nights",
+        "title": "Tales of the Arabian Nights",
+        "creator": "Board game · Eric Goldberg",
+        "year": "1985",
+        "why": "A storytelling game with a book of more than two thousand numbered paragraphs. You wander, and things happen to you."
+      }
+    ],
+    "festivals": [
+      {
+        "id": "fest-ramadan-nights",
+        "title": "Ramadan nights",
+        "creator": "The ninth month of the Islamic calendar",
+        "why": "After sunset the city came alive with shared meals, recitation and visiting. The Abbasid caliphs fed crowds at public tables."
+      },
+      {
+        "id": "fest-nowruz",
+        "title": "Nowruz",
+        "creator": "The spring equinox, around 20 March",
+        "why": "The Persian new year. The caliphs kept it at court with gifts and bonfires, a sign of how Persian the empire was."
+      },
+      {
+        "id": "fest-friday-on-al-mutanabbi-street",
+        "title": "Friday on al-Mutanabbi Street",
+        "creator": "Every Friday, Baghdad",
+        "why": "The booksellers’ street by the river fills with stalls, readers and poets, as the book market of the city has for a thousand years."
+      },
+      {
+        "id": "fest-world-arabic-language-day",
+        "title": "World Arabic Language Day",
+        "creator": "18 December",
+        "why": "Marked by UNESCO since 2012 with readings, calligraphy and music."
+      }
+    ],
+    "places": [
+      {
+        "id": "place-samarra",
+        "title": "Samarra",
+        "creator": "Salah al-Din, Iraq",
+        "why": "The caliphs’ capital from 836 to 892: the great mosque, its spiral minaret and miles of ruined palaces. A World Heritage Site. Check current travel advice for Iraq before planning a visit."
+      },
+      {
+        "id": "place-mustansiriya-madrasa-and-al-mutanabbi-street",
+        "title": "Mustansiriya Madrasa and al-Mutanabbi Street",
+        "creator": "Baghdad, Iraq",
+        "why": "The thirteenth-century college on the Tigris and, beside it, the street of booksellers. Check current travel advice for Iraq before planning a visit."
+      },
+      {
+        "id": "place-mosque-of-ibn-tulun",
+        "title": "Mosque of Ibn Tulun",
+        "creator": "Cairo, Egypt",
+        "why": "Built from 876 by a governor raised in Samarra, in the Abbasid style, with its own spiral minaret. The best-preserved building of the age."
+      },
+      {
+        "id": "place-museum-of-islamic-art",
+        "title": "Museum of Islamic Art",
+        "creator": "Doha, Qatar",
+        "why": "Abbasid ceramics, glass, astrolabes and manuscripts in a building by I. M. Pei."
+      },
+      {
+        "id": "place-chester-beatty",
+        "title": "Chester Beatty",
+        "creator": "Dublin, Ireland",
+        "why": "One of the great collections of Arabic manuscripts, including the Qur’an copied by Ibn al-Bawwab in Baghdad."
+      },
+      {
+        "id": "place-house-of-wisdom",
+        "title": "House of Wisdom",
+        "creator": "Sharjah, United Arab Emirates",
+        "why": "A public library opened in 2020 and named for its Baghdad ancestor, with exhibitions on the history of the book."
+      }
+    ]
+  },
+  "ethics": [
+    {
+      "title": "Knowledge is a duty",
+      "text": "Seeking knowledge was understood as an obligation on every person and a form of worship. The ink of scholars was praised and learning was pursued across deserts.",
+      "practice": "Ask someone today to teach you one thing they know and you do not."
+    },
+    {
+      "title": "Generosity",
+      "text": "Karam, open-handedness, was the first quality expected of the great. The Barmakid viziers were remembered for centuries for their giving. A full table was a moral achievement.",
+      "practice": "Feed someone today who did not expect it."
+    },
+    {
+      "title": "Good manners in learning",
+      "text": "Adab meant knowing how to behave in company: to listen, to speak in turn, to be witty without wounding and to wear learning lightly.",
+      "practice": "In your next conversation, ask two questions before you offer an opinion."
+    },
+    {
+      "title": "Honest weights",
+      "text": "Every market had an inspector, the muhtasib, who checked scales, prices and the quality of food. Fair dealing was a public matter.",
+      "practice": "Give exact measure today in something small: time owed, change, credit for an idea."
+    },
+    {
+      "title": "Care for the sick",
+      "text": "The hospitals of Baghdad treated anyone, of any faith, without charge, and had separate wards and a pharmacy. Al-Razi wrote a book on medicine for those with no doctor to turn to.",
+      "practice": "Visit, call or cook for someone who is unwell."
+    },
+    {
+      "title": "Humility before the truth",
+      "text": "Al-Razi argued that later scholars can surpass the ancients because they add to what was handed down. No one, however great, is beyond correction.",
+      "practice": "Tell someone today about a thing you were wrong about."
+    }
+  ],
+  "philosophy": [
+    {
+      "title": "Truth has no nation",
+      "text": "Al-Kindi opened his book on first philosophy by thanking the Greeks and arguing that truth should be taken from wherever it is found. The translation movement put this into practice on the scale of an empire.",
+      "practice": "Read one page today from a tradition you know nothing about, looking for what is right in it."
+    },
+    {
+      "title": "Reason and revelation",
+      "text": "The Mutazila held that God is just, that people are free and that reason can tell right from wrong. Their opponents answered that reason has limits. The quarrel shaped Islamic theology, and the question is still open in every tradition.",
+      "practice": "Take one belief you hold and write down what reason alone can say for it."
+    },
+    {
+      "title": "Doubt as a method",
+      "text": "Ibn al-Haytham held that authorities are human and full of error. The student’s task is to attack what he reads from every side, and also to suspect himself.",
+      "practice": "Argue against your own favourite opinion for five minutes, in writing."
+    },
+    {
+      "title": "The experiment",
+      "text": "Asked to choose the site for a hospital, al-Razi is said to have hung meat in different quarters of Baghdad and built where it spoiled last. He also divided patients into groups to compare a treatment.",
+      "practice": "Settle one question today by trying it both ways."
+    },
+    {
+      "title": "Translation as creation",
+      "text": "The translators had no Arabic words for many Greek ideas, so they made them. A language was enlarged to hold another civilisation’s thought, and new thought then grew in the room that was made.",
+      "practice": "Explain a term from your own work to someone outside it, without using the term."
+    },
+    {
+      "title": "The virtuous city",
+      "text": "Al-Farabi, called the Second Teacher after Aristotle, wrote that people reach their perfection only in a community that is ordered toward knowledge and justice, in which each helps the others toward happiness.",
+      "practice": "Do one thing today that makes the place where you live a little more learned or more just."
+    },
+    {
+      "title": "Paper and memory",
+      "text": "Cheap paper meant that a clerk, a cook or a doctor could own books and write them. Knowledge left the palace. The culture of the notebook, the index and the catalogue starts here.",
+      "practice": "Start an index at the back of your notebook."
+    },
+    {
+      "title": "The search for certainty",
+      "text": "Al-Ghazali, the most famous professor in Baghdad, found that he could doubt his senses and his reasoning, lost the power to speak and left his post in 1095 to look for what could be known for sure.",
+      "practice": "Write down one thing you are certain of, and how you know it."
+    }
+  ],
+  "journal": [
+    "What did you take on trust today, and from whom?",
+    "What did you learn, and where did it come from?",
+    "What did you test, and what did you find?",
+    "Who sat at your table, in any sense?",
+    "What did you write down that you would otherwise have lost?",
+    "Which truth came from an unexpected source?",
+    "What did translating show you that reading had not?",
+    "Where did you quote an authority in place of a reason?",
+    "What question are you carrying into tomorrow?",
+    "What did the sky look like tonight?",
+    "Whom did you teach, and what did teaching show you?",
+    "What were you wrong about?",
+    "In which argument did you honour the person, and in which did you fail to?",
+    "What book has been your best companion, and why?",
+    "What would you travel a long way to learn?",
+    "Who are the people in the chain that brought you what you know?",
+    "What did you give today without counting?",
+    "Which belief of yours could not stand being checked?",
+    "What did you copy, and what did the copying teach?",
+    "Where did reason run out today?",
+    "What would you save if the library were burning?",
+    "Whose learning do you rely on without thanking them?",
+    "What did you understand today that you only knew before?",
+    "What is the hardest thing you are studying, and how is it going?",
+    "Which word did you have to invent or borrow to say what you meant?",
+    "Who was missing from the conversation?",
+    "What did you measure?",
+    "What are you certain of, and how?",
+    "What does your city need that you could add to?",
+    "What will you hand on, and to whom?"
+  ],
+  "reflect": [
+    "What did a daily hour of hard study give you?",
+    "What did you find out by checking that you had only assumed?",
+    "Who came to your table, and what was said there?",
+    "From which unexpected quarter did you learn most?",
+    "What does a notebook full of these days contain?",
+    "Which practice will you keep?"
+  ],
+  "dayThemes": [
+    "Truth from every quarter",
+    "The round city",
+    "Paper",
+    "The scholar’s hour",
+    "The translators",
+    "Name your source",
+    "The book as companion",
+    "Completion and balancing",
+    "The sitting",
+    "A full table",
+    "Doubt and test",
+    "The dark room",
+    "The physician’s notes",
+    "Stars with Arabic names",
+    "The measured Earth",
+    "Manners of the learned",
+    "The honest scale",
+    "Riddles and verses",
+    "The storyteller’s dawn",
+    "The book market",
+    "Reason and revelation",
+    "The virtuous city",
+    "The journey for knowledge",
+    "The licence to teach",
+    "The oud",
+    "The hospital",
+    "Sweet and sour",
+    "The professor’s doubt",
+    "What the river carried",
+    "Handing it on"
+  ],
+  "guide": {
+    "intro": [
+      "In 762 the caliph al-Mansur had a perfectly round city laid out on the west bank of the Tigris and named it the City of Peace. Within two generations Baghdad was probably the largest city in the world outside China, and certainly the most curious. This Onda is about its great age: a culture in love with books, argument, mathematics, medicine, poetry and good food.",
+      "The Abbasids took power in 750 from the Umayyads of Damascus, in a revolution that began in eastern Iran. Their empire was Arab in its language and faith and deeply Persian in its style of government. It was served by Muslims, Christians, Jews, Zoroastrians and Sabians. Wealth came down the rivers and across the Indian Ocean. With it came paper, a Chinese invention that reached Baghdad late in the eighth century and made books cheap for the first time anywhere.",
+      "What followed has no real precedent. Over about two hundred years, nearly every work of Greek science and philosophy that could be found was translated into Arabic, along with Persian and Indian learning. The work was paid for by caliphs, viziers, doctors and merchants. The translators, many of them Syriac-speaking Christians such as Hunayn ibn Ishaq, built a scientific language as they went. A library and circle of scholars attached to the court became known as the House of Wisdom.",
+      "The translations were only the start. Al-Khwarizmi wrote the book that gave algebra its name and introduced Indian numerals to the West. Al-Kindi made philosophy speak Arabic. Al-Razi ran the hospital in Baghdad and wrote case notes that told smallpox apart from measles. Astronomers measured the Earth. Ibn al-Haytham, born in Basra, worked out how vision works by experiment. Around them were grammarians, historians, cooks who wrote recipe books, and al-Jahiz, who wrote about everything.",
+      "It was not a paradise. The court was violent, and one caliph ran an inquisition over a point of theology. The empire’s southern estates were worked by enslaved East Africans, whose revolt from 869 lasted fourteen years. From the tenth century the caliphs lost real power to their own soldiers and then to outside dynasties. In February 1258 a Mongol army took Baghdad, killed the last caliph and wrecked the city. Much of what it had learned had already travelled, to Cairo, Córdoba, Samarkand and, in Latin, to the universities of Europe.",
+      "The practices here follow the habits of its scholars and hosts. You will study each morning, translate a paragraph, test one claim a day, hold a gathering in the evening and look at the stars. This Onda is about a civilisation and its love of knowledge. It is not instruction in Islam, which is a living faith with its own teachers."
+    ],
+    "origin": "Baghdad on the Tigris, capital of an empire that reached from North Africa to Central Asia",
+    "era": "The Abbasid caliphate, 750 to 1258, at its height in the ninth and tenth centuries",
+    "figures": [
+      {
+        "name": "al-Mansur",
+        "dates": "ruled 754–775",
+        "bio": "The second Abbasid caliph and founder of Baghdad. Thrifty, hard and far-sighted, he collected books and had astrologers choose the day building began."
+      },
+      {
+        "name": "Harun al-Rashid",
+        "dates": "ruled 786–809",
+        "bio": "Caliph at the empire’s richest moment and the ruler of the Thousand and One Nights. He exchanged embassies with Charlemagne and sent him an elephant."
+      },
+      {
+        "name": "al-Mamun",
+        "dates": "ruled 813–833",
+        "bio": "The scholar-caliph. He funded translation and observatories, had the Earth measured, and also forced a theological test on judges and scholars."
+      },
+      {
+        "name": "Zubayda",
+        "dates": "died 831",
+        "bio": "Wife of Harun al-Rashid. She paid for wells, cisterns and rest houses along the pilgrim road from Kufa to Mecca, which is still called by her name."
+      },
+      {
+        "name": "al-Khwarizmi",
+        "dates": "c. 780–c. 850",
+        "bio": "Mathematician and astronomer. His book on completion and balancing founded algebra, and his own name, in Latin, became the word algorithm."
+      },
+      {
+        "name": "Hunayn ibn Ishaq",
+        "dates": "809–873",
+        "bio": "A Christian physician from al-Hira and the greatest of the translators. He put more than a hundred works of Galen into Syriac and Arabic and was said to be paid their weight in gold."
+      },
+      {
+        "name": "al-Kindi",
+        "dates": "c. 801–873",
+        "bio": "The philosopher of the Arabs. He wrote on everything from metaphysics to music and perfume, and described how to break a cipher by counting letters."
+      },
+      {
+        "name": "al-Jahiz",
+        "dates": "776–869",
+        "bio": "A prose writer from Basra, grandson of an East African. His books on animals, misers and eloquence are sharp, digressive and funny."
+      },
+      {
+        "name": "The Banu Musa",
+        "dates": "9th century",
+        "bio": "Three brothers, sons of a reformed highwayman, who measured the Earth for al-Mamun, hired translators and wrote a book of ingenious mechanical devices."
+      },
+      {
+        "name": "Arib al-Mamuniyya",
+        "dates": "797–890",
+        "bio": "The most famous singer, poet and composer of the court. She served under several caliphs and was credited with a thousand songs."
+      },
+      {
+        "name": "al-Razi",
+        "dates": "c. 865–925",
+        "bio": "Physician and hospital director, known in Latin as Rhazes. He kept clinical notes, doubted Galen where the evidence required and wrote for the poor."
+      },
+      {
+        "name": "Ibn al-Nadim",
+        "dates": "died c. 995",
+        "bio": "A Baghdad bookseller who catalogued every book he had seen or heard of in Arabic. Thousands of lost works are known only from his list."
+      },
+      {
+        "name": "Ibn al-Haytham",
+        "dates": "c. 965–c. 1040",
+        "bio": "Born in Basra and active in Cairo. His Book of Optics showed by experiment that we see because light enters the eye."
+      },
+      {
+        "name": "al-Ghazali",
+        "dates": "1058–1111",
+        "bio": "Jurist, theologian and mystic. He left a famous chair in Baghdad in a crisis of doubt and wrote the most influential religious books of medieval Islam."
+      }
+    ],
+    "history": [
+      {
+        "when": "750",
+        "what": "The Abbasid revolution",
+        "detail": "An army from Khurasan under black banners defeated the Umayyad caliph on the river Zab. A new dynasty, descended from the Prophet’s uncle, took the caliphate and moved its centre east to Iraq."
+      },
+      {
+        "when": "751",
+        "what": "Paper comes west",
+        "detail": "Tradition holds that Chinese papermakers captured at the battle of Talas brought their craft to Samarkand. Whatever the route, paper mills were working in Baghdad before the century was out."
+      },
+      {
+        "when": "762",
+        "what": "The founding of Baghdad",
+        "detail": "Al-Mansur laid out a round city about two kilometres across, with four gates and his palace and mosque at the centre. The first brick was laid on 30 July, a day chosen by his astrologers."
+      },
+      {
+        "when": "786–809",
+        "what": "Harun al-Rashid",
+        "detail": "The empire at its richest. The Barmakid family of viziers ran the state and paid for scholars and poets, until Harun destroyed them in 803."
+      },
+      {
+        "when": "813–833",
+        "what": "Al-Mamun and the translators",
+        "detail": "After a civil war against his brother, al-Mamun made the court a centre of science. Greek works were sought as far away as Constantinople, and observatories were built in Baghdad and Damascus."
+      },
+      {
+        "when": "c. 820",
+        "what": "Algebra",
+        "detail": "Al-Khwarizmi wrote his short book on calculation by completion and balancing for the caliph, with worked problems on inheritance, trade and surveying."
+      },
+      {
+        "when": "833–848",
+        "what": "The inquisition",
+        "detail": "Al-Mamun and his successors required judges and scholars to affirm that the Qur’an was created. The jurist Ahmad ibn Hanbal refused and was flogged. The policy failed and was dropped."
+      },
+      {
+        "when": "836–892",
+        "what": "Samarra",
+        "detail": "The caliphs moved their court and their Turkish soldiers to a new city up the Tigris and built on a vast scale before returning to Baghdad."
+      },
+      {
+        "when": "869–883",
+        "what": "The Zanj revolt",
+        "detail": "Enslaved East Africans who had been forced to clear the salt marshes of southern Iraq rose under a leader named Ali ibn Muhammad. They sacked Basra and held out for fourteen years."
+      },
+      {
+        "when": "945",
+        "what": "The Buyids enter Baghdad",
+        "detail": "An Iranian dynasty took control of the capital. The caliph kept his title and little else. Learning went on flourishing under new patrons."
+      },
+      {
+        "when": "1065",
+        "what": "The Nizamiyya opens",
+        "detail": "The Seljuk vizier Nizam al-Mulk founded a college in Baghdad with salaried professors and funded students. It became the model for the madrasa."
+      },
+      {
+        "when": "1095",
+        "what": "Al-Ghazali leaves",
+        "detail": "The Nizamiyya’s most celebrated teacher found himself unable to lecture, gave away his wealth and left the city. He was away for a decade."
+      },
+      {
+        "when": "1234",
+        "what": "The Mustansiriya opens",
+        "detail": "One of the last caliphs founded a college on the Tigris with a library, a hospital and a water clock. Its building still stands."
+      },
+      {
+        "when": "1258",
+        "what": "The fall of Baghdad",
+        "detail": "The Mongol army of Hulegu took the city in February after a short siege, killed the caliph al-Mustasim and a great many of the inhabitants, and destroyed libraries. The caliphate in Iraq ended."
+      }
+    ],
+    "concepts": [
+      {
+        "term": "The House of Wisdom",
+        "text": "The caliphs’ library and its circle.",
+        "detail": "Later writers pictured a great academy. The early evidence points to a palace library where translators, astronomers and copyists worked under royal pay. Whatever its size, the name stands for a real thing: state support for knowledge on a scale the world had not seen."
+      },
+      {
+        "term": "The translation movement",
+        "text": "Greek, Persian and Indian learning into Arabic.",
+        "detail": "It lasted from the mid-eighth to the late tenth century and was paid for across the whole of elite society. Translators compared manuscripts, revised earlier versions and invented a technical vocabulary. Aristotle, Galen, Euclid and Ptolemy survive in part because of it."
+      },
+      {
+        "term": "Paper",
+        "text": "The cheap page.",
+        "detail": "Rag paper cost a fraction of parchment and could not be scraped clean and altered, which made it ideal for records. It created professional copyists, bookshops, private libraries and the habit of writing things down."
+      },
+      {
+        "term": "Adab",
+        "text": "The culture of the well-bred mind.",
+        "detail": "A body of literature and a way of behaving. The educated person knew poetry, history, proverbs and a little of every science, and could use them with grace. Many of the best Abbasid books are anthologies made to teach it."
+      },
+      {
+        "term": "The Mutazila",
+        "text": "The party of justice and unity.",
+        "detail": "Theologians who argued that God must be just, that people are therefore responsible for what they do and that scripture should be read in the light of reason. Favoured and then abandoned by the court, they left their methods to all later theology."
+      },
+      {
+        "term": "The bimaristan",
+        "text": "The public hospital.",
+        "detail": "Founded by caliphs and viziers and paid for by endowments, with wards for different illnesses, a pharmacy, bedside teaching and written records. Patients were treated free, whatever their religion."
+      },
+      {
+        "term": "Isnad",
+        "text": "Knowing who said it.",
+        "detail": "Scholars of prophetic tradition tested each report by its chain of transmitters and the character of each link. The habit of citing sources spread from them into history, law and literature."
+      },
+      {
+        "term": "Al-jabr",
+        "text": "Algebra.",
+        "detail": "Al-Khwarizmi solved equations in words, without symbols, by two moves: restoring a subtracted quantity to the other side and balancing like terms. He proved each rule with a geometric figure."
+      },
+      {
+        "term": "The round city",
+        "text": "Baghdad as a diagram.",
+        "detail": "Al-Mansur’s city was a circle with the ruler at the centre and roads to the four quarters of the empire. Nothing of it remains above ground. Within decades the life of the city had spilled far outside its walls."
+      },
+      {
+        "term": "The majlis",
+        "text": "The sitting.",
+        "detail": "A gathering under a host for debate, poetry or music. Its etiquette allowed people of different schools and faiths to argue in public. Records of these sessions are among the liveliest writing of the age."
+      }
+    ],
+    "facts": [
+      {
+        "text": "The word algorithm is al-Khwarizmi’s name as it was spelled in medieval Latin. Algebra comes from the title of his book."
+      },
+      {
+        "text": "Harun al-Rashid sent Charlemagne an elephant named Abul-Abbas, which reached the emperor’s court at Aachen in 802."
+      },
+      {
+        "text": "Aldebaran, Altair, Vega, Deneb, Rigel and Betelgeuse are all Arabic names. So are the words zenith, nadir and azimuth."
+      },
+      {
+        "text": "Al-Mamun’s astronomers measured one degree of latitude on a plain in northern Iraq and arrived at a figure for the Earth’s circumference that was close to the true one."
+      },
+      {
+        "text": "Al-Jahiz is said to have died in his nineties when a stack of books fell on him."
+      },
+      {
+        "text": "Baghdad’s tenth-century cookbook, by Ibn Sayyar al-Warraq, contains more than six hundred recipes, with poems in praise of the dishes."
+      },
+      {
+        "text": "Coffee was unknown in Abbasid Baghdad. It arrived from Yemen several centuries later."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Caliph",
+        "meaning": "The head of the Muslim community; the Abbasid ruler"
+      },
+      {
+        "term": "Vizier",
+        "meaning": "The caliph’s chief minister"
+      },
+      {
+        "term": "Madrasa",
+        "meaning": "A college of law and religious learning"
+      },
+      {
+        "term": "Barmakids",
+        "meaning": "The Persian family of viziers who ran the empire under Harun al-Rashid"
+      },
+      {
+        "term": "Syriac",
+        "meaning": "The form of Aramaic used by Middle Eastern Christians; the bridge language for many translations"
+      },
+      {
+        "term": "Samarra",
+        "meaning": "The caliphs’ second capital, on the Tigris north of Baghdad"
+      }
+    ],
+    "furtherReading": [
+      {
+        "title": "Greek Thought, Arabic Culture",
+        "creator": "Dimitri Gutas",
+        "year": "1998",
+        "note": "The standard study of the translation movement and why a whole society paid for it."
+      },
+      {
+        "title": "Baghdad: City of Peace, City of Blood",
+        "creator": "Justin Marozzi",
+        "year": "2014",
+        "note": "Thirteen centuries of the city, from the first brick to the present."
+      },
+      {
+        "title": "Annals of the Caliphs’ Kitchens",
+        "creator": "Ibn Sayyar al-Warraq, trans. Nawal Nasrallah",
+        "year": "2007",
+        "note": "The tenth-century cookbook in full, with notes that make it usable."
+      },
+      {
+        "title": "Paper Before Print",
+        "creator": "Jonathan M. Bloom",
+        "year": "2001",
+        "note": "How paper changed the Islamic world, and through it everyone else."
+      },
+      {
+        "title": "The Fihrist of al-Nadim",
+        "creator": "trans. Bayard Dodge",
+        "year": "1970",
+        "note": "The bookseller’s catalogue: a walk through a lost library."
+      }
+    ],
+    "learnFrom": [
+      {
+        "name": "Library of Arabic Literature",
+        "note": "Facing-page editions and translations of classical Arabic books, many of them from Abbasid Iraq.",
+        "link": "https://www.libraryofarabicliterature.org"
+      },
+      {
+        "name": "The Metropolitan Museum of Art: Heilbrunn Timeline of Art History",
+        "note": "Illustrated essays on Abbasid art, Samarra and the art of the book.",
+        "link": "https://www.metmuseum.org/toah/"
+      },
+      {
+        "name": "Chester Beatty Digital Collections",
+        "note": "Arabic manuscripts photographed page by page and free to view.",
+        "link": "https://viewer.cbl.ie"
+      },
+      {
+        "name": "UNESCO World Heritage Centre: Samarra Archaeological City",
+        "note": "The official description of the site and its condition.",
+        "link": "https://whc.unesco.org/en/list/276"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Greek Thought, Arabic Culture: The Graeco-Arabic Translation Movement in Baghdad and Early Abbasid Society",
+        "creator": "Dimitri Gutas",
+        "publisher": "Routledge",
+        "year": "1998"
+      },
+      {
+        "title": "When Baghdad Ruled the Muslim World: The Rise and Fall of Islam’s Greatest Dynasty",
+        "creator": "Hugh Kennedy",
+        "publisher": "Da Capo Press",
+        "year": "2005"
+      },
+      {
+        "title": "Al-Kindi’s Metaphysics",
+        "creator": "trans. Alfred L. Ivry",
+        "publisher": "State University of New York Press",
+        "year": "1974"
+      },
+      {
+        "title": "The Algebra of Mohammed ben Musa",
+        "creator": "trans. Frederic Rosen",
+        "publisher": "Oriental Translation Fund",
+        "year": "1831"
+      },
+      {
+        "title": "Paper Before Print: The History and Impact of Paper in the Islamic World",
+        "creator": "Jonathan M. Bloom",
+        "publisher": "Yale University Press",
+        "year": "2001"
+      },
+      {
+        "title": "The House of Wisdom: How Arabic Science Saved Ancient Knowledge and Gave Us the Renaissance",
+        "creator": "Jim Al-Khalili",
+        "publisher": "Penguin Press",
+        "year": "2010"
+      },
+      {
+        "title": "Annals of the Caliphs’ Kitchens",
+        "creator": "Ibn Sayyar al-Warraq, trans. Nawal Nasrallah",
+        "publisher": "Brill",
+        "year": "2007"
+      }
+    ]
+  },
+  "sensitivity": {
+    "note": "Abbasid Baghdad was the work of Arabs, Persians, Syriac Christians, Jews and many others, within a Muslim empire. Its learning is part of the heritage of people living today, in Iraq above all. This Onda explores the culture of knowledge of that time. It is not instruction in Islam, and it does not treat the period as a lost golden age.",
+    "requiredCaveats": [
+      "The empire rested in part on conquest and on slavery. The Zanj revolt and the violence of the court are part of the story.",
+      "Golden age is a later label. Learning in Arabic did not stop in 1258, and it flourished in many cities besides Baghdad.",
+      "Islam is a living faith. Its beliefs and practices are for its own teachers to explain; nothing here imitates worship.",
+      "Much of what is said about the House of Wisdom comes from later writers, and historians disagree about how much to believe.",
+      "This content has not yet been reviewed by historians of the period or by people from Iraq. It should be before release."
+    ],
+    "reviewRequired": true
+  }
+}

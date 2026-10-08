@@ -9,7 +9,7 @@
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-title" content="Onda" />
     <meta name="application-name" content="Onda" />
-    <!-- Always translucent: the page shows through, so the bar follows dark or light by itself (see DECISIONS.md, Update 2.0) -->
+    <!-- Always translucent: the page shows through, so the bar follows dark or light by itself (see DECISIONS.md, 2.0 and 3.0) -->
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <meta name="theme-color" content="#F5F1E8" />
     <meta name="color-scheme" content="light dark" />
@@ -41,20 +41,27 @@
     <link rel="apple-touch-startup-image" href="/splash/dark-750x1334.png" media="screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait) and (prefers-color-scheme: dark)" />
     <!--/splash-->
     <style>
-      html,body{margin:0;background:#F5F1E8}
-      @media (prefers-color-scheme:dark){html[data-theme="auto"],html[data-theme="auto"] body{background:#1B1C1F}}
-      html[data-theme="dark"],html[data-theme="dark"] body{background:#1B1C1F}
+      html,body{margin:0;background:var(--boot-bg,#F5F1E8)}
+      html[data-theme="dark"],html[data-theme="dark"] body{background:var(--boot-bg,#1B1C1F)}
       #boot{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;font:600 44px/1 "Newsreader",Georgia,serif;letter-spacing:-.01em;color:#8A8A8E;pointer-events:none;z-index:1}
       html[data-theme="dark"] #boot{color:#6C6C70}
     </style>
     <script>
-      // Apply the saved appearance before first paint so there is no flash.
-      try {
-        var m = localStorage.getItem('onda.theme');
-        if (m) document.documentElement.dataset.theme = m === 'auto' ? (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : m;
-        var d = document.documentElement.dataset.theme === 'dark';
-        document.querySelector('meta[name=theme-color]').setAttribute('content', d ? '#1B1C1F' : '#F5F1E8');
-      } catch (e) {}
+      // Apply the saved appearance and background before first paint. iOS colours the strip behind the clock and
+      // battery from the page as it is at launch, so the right background has to be here already (see DECISIONS.md, 3.0).
+      (function () {
+        var root = document.documentElement, m = 'auto', bg = null;
+        try { m = localStorage.getItem('onda.theme') || 'auto'; } catch (e) {}
+        var d = m === 'dark' || (m !== 'light' && matchMedia('(prefers-color-scheme: dark)').matches);
+        root.dataset.theme = d ? 'dark' : 'light';
+        try { bg = localStorage.getItem(d ? 'onda.bg.dark' : 'onda.bg.light'); } catch (e) {}
+        if (!/^#[0-9a-fA-F]{6}$/.test(bg || '')) bg = d ? '#1B1C1F' : '#F5F1E8';
+        root.style.setProperty('--boot-bg', bg);
+        // the app stylesheet paints body with this token, and it loads before the app does
+        root.style.setProperty('--surface-grouped', bg);
+        root.style.backgroundColor = bg;
+        document.querySelector('meta[name=theme-color]').setAttribute('content', bg);
+      })();
     </script>
   </head>
   <body>

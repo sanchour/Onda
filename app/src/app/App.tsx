@@ -1,6 +1,7 @@
 import { Suspense, lazy, useEffect, useLayoutEffect, useRef } from 'react'
 import { useTranslation } from 'react-i18next'
 import { useActiveRun, useDark, useLook, useOndaIndex, useSettings } from '@/data/hooks'
+import { ondaLook } from '@/content/themes'
 import { accentFor, mix } from '@/lib/color'
 import i18n from '@/i18n'
 import { refreshEntitlement } from '@/sync/entitlement'
@@ -49,7 +50,7 @@ function Tabs() {
         <TabBar<Tab>
           items={[
             { key: 'ondas', icon: 'waves', label: t('tabs.ondas') },
-            { key: 'lagos', icon: 'wave-sine', label: t('tabs.lagos'), wave: true },
+            { key: 'lagos', icon: 'wave-soft', label: t('tabs.lagos') },
             { key: 'stats', icon: 'chart-bar', label: t('tabs.stats') },
           ]}
           activeKey={tab}
@@ -91,12 +92,16 @@ function useShell() {
   // The accent, and a very light wash behind every screen, follow the running Onda in all three tabs and in Settings.
   // Turning the wash off (Settings, Appearance) returns the plain light or dark background.
   const run = useActiveRun()
-  const look = useLook(useOndaIndex(run?.ondaId))
+  const index = useOndaIndex(run?.ondaId)
+  const look = useLook(index)
   const tint = useSettings().ondaTint
+  const themed = useSettings().ondaThemes
   useLayoutEffect(() => {
     const root = document.documentElement
-    const base = dark ? { grouped: '#1B1C1F', page: '#1B1C1F' } : { grouped: '#F5F1E8', page: '#FDFBF6' }
-    const wash = run && tint ? { grouped: mix(base.grouped, look.solid, dark ? 0.34 : 0.3), page: mix(base.page, look.solid, dark ? 0.34 : 0.14) } : null
+    const baseOf = (d: boolean) => (d ? { grouped: '#1B1C1F', page: '#1B1C1F' } : { grouped: '#F5F1E8', page: '#FDFBF6' })
+    const washOf = (d: boolean, solid: string) => (run && tint ? { grouped: mix(baseOf(d).grouped, solid, d ? 0.34 : 0.3), page: mix(baseOf(d).page, solid, d ? 0.34 : 0.14) } : null)
+    const base = baseOf(dark)
+    const wash = washOf(dark, look.solid)
     for (const [k, v] of [['--surface-grouped', wash?.grouped], ['--surface-page', wash?.page]] as const) {
       if (v) root.style.setProperty(k, v)
       else root.style.removeProperty(k)
@@ -105,6 +110,16 @@ function useShell() {
     root.style.backgroundColor = bg
     document.body.style.backgroundColor = bg
     document.querySelector('meta[name="theme-color"]')?.setAttribute('content', bg)
+    // iOS takes the colour behind the clock and battery from the page as it is at launch, before this code runs.
+    // So the background for both appearances is saved here and index.html applies it before the first paint.
+    try {
+      for (const d of [false, true]) {
+        const solid = ondaLook(index, { themed, dark: d }).solid
+        localStorage.setItem(d ? 'onda.bg.dark' : 'onda.bg.light', washOf(d, solid)?.grouped ?? baseOf(d).grouped)
+      }
+    } catch {
+      /* private mode */
+    }
     if (!run) {
       root.style.removeProperty('--accent')
       root.style.removeProperty('--accent-contrast')
@@ -113,7 +128,7 @@ function useShell() {
     const { accent, on } = accentFor(look.strong, dark)
     root.style.setProperty('--accent', accent)
     root.style.setProperty('--accent-contrast', on)
-  }, [run, look.strong, look.solid, dark, tint])
+  }, [run, index, themed, look.strong, look.solid, dark, tint])
 
   useEffect(() => {
     // On-screen keyboard height, so sheets can keep the focused field visible
@@ -181,6 +196,19 @@ export function App() {
     }
     // Offline: the service worker precaches every screen and every Onda. Here we only warm the screens, one per idle slice.
     prefetchChunks()
+  }, [ready])
+
+  // 3.0: appearance follows the phone unless you choose otherwise. People on the old default (Light) are moved over once.
+  useEffect(() => {
+    if (!ready) return
+    try {
+      if (localStorage.getItem('onda.auto3')) return
+      localStorage.setItem('onda.auto3', '1')
+      const st = useStore.getState()
+      if (st.user?.settings.themeMode === 'light') st.updateSettings({ themeMode: 'auto' })
+    } catch {
+      /* private mode */
+    }
   }, [ready])
 
   // Ask the browser to keep our data when space is tight (installed apps are usually granted it silently; a refusal is fine).

@@ -216,12 +216,3 @@ button.row:active{background:var(--separator)}
 .toggleAction{font:400 var(--fs-15) var(--font-sans);color:var(--accent)}
 button.toggleAction::after{content:"";position:absolute;inset:-12px -6px}
 
-.tabWave{animation:tabWave 1.5s cubic-bezier(.37,0,.63,1) both}
-@keyframes tabWave{
-  0%{transform:translate3d(0,0,0) rotate(0)}
-  22%{transform:translate3d(-2.5px,-1.5px,0) rotate(-5deg)}
-  50%{transform:translate3d(2px,1.2px,0) rotate(4deg)}
-  76%{transform:translate3d(-1px,-.5px,0) rotate(-1.5deg)}
-  100%{transform:translate3d(0,0,0) rotate(0)}
-}
-@media (prefers-reduced-motion:reduce){.tabWave{animation:none}}

@@ -27,9 +27,11 @@ interface Theme {
   track?: string
 }
 
-export type Ornament = 'column' | 'enso' | 'yinyang' | 'lotus' | 'sun' | 'mandala' | 'feather' | 'rings' | 'star8' | 'leaf' | 'dot' | 'ankh' | 'star5' | 'sunstone' | 'drum' | 'hexagram' | 'pleroma'
+export type Ornament = 'column' | 'enso' | 'yinyang' | 'lotus' | 'sun' | 'mandala' | 'feather' | 'rings' | 'star8' | 'leaf' | 'dot' | 'ankh' | 'star5' | 'sunstone' | 'drum' | 'hexagram' | 'pleroma' | 'longship' | 'lantern' | 'seal' | 'arch' | 'fan' | 'palm'
 
 const OCTAGRAM = 'polygon(50% 0%,64.5% 14.9%,85.4% 14.6%,85.1% 35.5%,100% 50%,85.1% 64.5%,85.4% 85.4%,64.5% 85.1%,50% 100%,35.5% 85.1%,14.6% 85.4%,14.9% 64.5%,0% 50%,14.9% 35.5%,14.6% 14.6%,35.5% 14.9%)'
+const SHIELD = 'polygon(0 0,100% 0,100% 58%,50% 100%,0 58%)'
+const DECO = 'polygon(28% 0,72% 0,100% 28%,100% 72%,72% 100%,28% 100%,0 72%,0 28%)'
 const HEXAGON = 'polygon(25% 4%,75% 4%,100% 50%,75% 96%,25% 96%,0% 50%)'
 
 export const THEMES: Record<string, Theme> = {
@@ -112,7 +114,36 @@ export const THEMES: Record<string, Theme> = {
     bg: '#E7D9DE', strong: '#7A4A66', darkBg: '#3B2633', darkStrong: '#C48AAA', glyph: 'Gnosis', font: 'Forum,serif',
     pattern: (i) => `repeating-radial-gradient(circle at 0 100%,transparent 0 16px,rgba(${i},.07) 16px 17px)`,
   },
-
+  norse: {
+    shape: '0', clip: SHIELD, radius: '6px 6px 24px 24px', numerals: 'latin', ornament: 'longship', track: '.01em',
+    bg: '#CFE0E6', strong: '#2B6C86', darkBg: '#1C3540', darkStrong: '#7FC0D8', glyph: 'Wyrd', font: 'Metamorphous,serif',
+    pattern: (i) => `${sv(`<svg xmlns='http://www.w3.org/2000/svg' width='24' height='14'><path d='M0 12L6 3L12 12L18 3L24 12' fill='none' stroke='rgba(${i},.15)' stroke-width='1.5'/></svg>`)} repeat-x 0 calc(100% - 6px)/24px 14px`,
+  },
+  cynic: {
+    shape: '50%', radius: '40px 40px 22px 22px', numerals: 'greek', ornament: 'lantern',
+    bg: '#E6E5BF', strong: '#77781F', darkBg: '#38381A', darkStrong: '#C9CA6A', glyph: 'κύων', font: 'Vollkorn,serif',
+    pattern: (i) => `${sv(`<svg xmlns='http://www.w3.org/2000/svg' width='28' height='14'><path d='M0 14Q14 -4 28 14' fill='none' stroke='rgba(${i},.13)' stroke-width='1.4'/></svg>`)} repeat-x 0 100%/28px 14px`,
+  },
+  confucian: {
+    shape: '7px', radius: '10px', numerals: 'kanji', ornament: 'seal',
+    bg: '#F0E2CE', strong: '#9B2D20', darkBg: '#40221C', darkStrong: '#EE8E78', glyph: '仁', font: "'Noto Serif SC',serif",
+    pattern: (i) => `${sv(`<svg xmlns='http://www.w3.org/2000/svg' width='28' height='28'><path d='M0 14H8V6H20V22H8V14M20 14H28' fill='none' stroke='rgba(${i},.09)' stroke-width='1.3'/></svg>`)} 0 0/28px 28px`,
+  },
+  abbasid: {
+    shape: '50%', radius: '24px', numerals: 'arabic', ornament: 'arch',
+    bg: '#E5DCC6', strong: '#3A3530', darkBg: '#262320', darkStrong: '#D9BD7A', glyph: 'حكمة', font: "'Reem Kufi',sans-serif",
+    pattern: (i) => `${sv(`<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><path d='M2 22V12C2 7 6 5 11 1.5C16 5 20 7 20 12V22' fill='none' stroke='rgba(${i},.13)' stroke-width='1.3'/></svg>`)} repeat-x 0 100%/22px 22px`,
+  },
+  twenties: {
+    shape: '0', clip: DECO, radius: '4px', numerals: 'roman', ornament: 'fan', caps: true, track: '.06em',
+    bg: '#EBDDC4', strong: '#5A2A72', darkBg: '#1F1826', darkStrong: '#E3B94F', glyph: 'Jazz', font: 'Limelight,serif',
+    pattern: (i) => `${sv(`<svg xmlns='http://www.w3.org/2000/svg' width='28' height='18'><path d='M0 18L14 3L28 18M6 18L14 9.5L22 18' fill='none' stroke='rgba(${i},.14)' stroke-width='1.3'/></svg>`)} repeat-x 0 100%/28px 18px`,
+  },
+  cuba: {
+    shape: '36%', radius: '30px', numerals: 'latin', ornament: 'palm',
+    bg: '#F8D6DC', strong: '#CF3F6B', darkBg: '#4A1F2C', darkStrong: '#F58BA8', glyph: 'Son', font: "'Lobster Two',cursive",
+    pattern: (i) => `${sv(`<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32'><g fill='none' stroke='rgba(${i},.1)' stroke-width='1.3'><circle cx='0' cy='0' r='11'/><circle cx='32' cy='0' r='11'/><circle cx='0' cy='32' r='11'/><circle cx='32' cy='32' r='11'/><path d='M16 10L22 16L16 22L10 16Z'/></g></svg>`)} 0 0/32px 32px`,
+  },
 }
 
 const TONES: Record<string, { bg: string; strong: string; darkBg: string; darkStrong: string }> = {
@@ -124,6 +155,9 @@ const TONES: Record<string, { bg: string; strong: string; darkBg: string; darkSt
 }
 export const TONE_KEYS = ['blue', 'green', 'yellow', 'coral', 'purple'] as const
 export const toneFill = (tone: string, dark: boolean) => (dark ? TONES[tone]?.darkBg : TONES[tone]?.bg) ?? TONES.blue!.bg
+
+/** A corner radius scaled down for smaller cards. Radii with several values cannot be scaled with calc() in CSS. */
+const scaleRadius = (r: string, k: number) => r.replace(/(d+(?:.d+)?)px/g, (_, n) => `${Math.round(Number(n) * k)}px`)
 
 export interface OndaLook {
   /** CSS custom properties to spread on a wrapper; components read --onda-* */
@@ -185,6 +219,8 @@ export function ondaLook(o: Pick<OndaIndex, 'id' | 'tone'> | undefined, opts: { 
       '--onda-shape': shape,
       '--onda-clip': clip,
       '--onda-radius': radius,
+      '--onda-radius-md': scaleRadius(radius, 0.9),
+      '--onda-radius-sm': scaleRadius(radius, 0.65),
       '--onda-track': track,
       '--onda-case': caps ? 'uppercase' : 'none',
       '--onda-now': dark ? 'rgba(255,255,255,.55)' : 'rgba(0,0,0,.45)',

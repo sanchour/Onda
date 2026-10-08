@@ -31,7 +31,7 @@ export const PracticeSchema = z.object({
 })
 
 /** What a task offers to open: the Journal, the Philosophy sheet, or the Immerse list for a kind. */
-export const TASK_ACTIONS = ['journal', 'philosophy', 'read', 'watch', 'listen', 'art', 'eat', 'drink', 'customs'] as const
+export const TASK_ACTIONS = ['journal', 'philosophy', 'read', 'watch', 'listen', 'art', 'eat', 'drink', 'customs', 'games', 'travel'] as const
 export type TaskAction = (typeof TASK_ACTIONS)[number]
 export const TaskSchema = z.object({ id: z.string(), name: z.string(), meta: z.string(), time: hhmm, slot: SlotSchema, action: z.enum(TASK_ACTIONS).optional() })
 export const RuleSchema = z.object({ id: z.string(), text: z.string(), why: z.string().default('') })
@@ -45,7 +45,8 @@ export const ImmerseItemSchema = z.object({
   link: z.string().url().optional(),
   unverified: z.boolean().optional(),
 })
-export const IMMERSE_KINDS = ['read', 'watch', 'listen', 'art', 'eat', 'drink', 'customs'] as const
+/** Lists kept under `immerse`. Festivals and places are shown together as Travel; for those two `creator` holds when or where. */
+export const IMMERSE_KINDS = ['read', 'watch', 'listen', 'art', 'eat', 'drink', 'customs', 'games', 'festivals', 'places'] as const
 export type ImmerseKind = (typeof IMMERSE_KINDS)[number]
 const items = z.array(ImmerseItemSchema).default([])
 
@@ -87,7 +88,9 @@ export const OndaContentSchema = z.object({
   practices: z.array(PracticeSchema).default([]),
   tasks: z.array(TaskSchema).default([]),
   rules: z.array(RuleSchema).default([]),
-  immerse: z.object({ read: items, watch: items, listen: items, art: items, eat: items, drink: items, customs: items }).default({ read: [], watch: [], listen: [], art: [], eat: [], drink: [], customs: [] }),
+  immerse: z
+    .object({ read: items, watch: items, listen: items, art: items, eat: items, drink: items, customs: items, games: items, festivals: items, places: items })
+    .default({ read: [], watch: [], listen: [], art: [], eat: [], drink: [], customs: [], games: [], festivals: [], places: [] }),
   ethics: z.array(IdeaSchema).default([]),
   philosophy: z.array(IdeaSchema).default([]),
   journal: z.array(z.string()).default([]),
@@ -106,5 +109,5 @@ export type Word = z.infer<typeof WordSchema>
 export const OndaIndexSchema = z.object({ id: z.string(), name: z.string(), origin: z.string(), tone: OndaContentSchema.shape.tone, icon: z.string(), line: z.string(), custom: z.boolean().optional() })
 export type OndaIndex = z.infer<typeof OndaIndexSchema>
 
-/** Quality bar for the ten shipped Ondas (enforced by `npm run content:check` and a unit test). */
+/** Quality bar for the shipped Ondas (enforced by `npm run content:check` and a unit test). */
 export const SHIPPED_MINIMUMS = { words: 30, journal: 30, reflect: 5, dayThemes: 30, history: 10, concepts: 8, practices: 5, rules: 4 } as const

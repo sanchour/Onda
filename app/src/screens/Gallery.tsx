@@ -5,7 +5,7 @@ import { BackButton, Screen } from '@/nav/Screen'
 import { useNav, type StackEntry } from '@/nav/store'
 import { Button } from '@/ui/buttons'
 import { Icon } from '@/ui/Icon'
-import { OndaTile } from './OndasTab'
+import { OndaGroups, OndaTile } from './OndasTab'
 import s from './screens.module.css'
 
 function Tile({ it, tall }: { it: GalleryLago; tall?: boolean }) {
@@ -103,23 +103,17 @@ export function Category({ entry }: { entry: Extract<StackEntry, { name: 'catego
   )
 }
 
-/** Every Onda, to pick practices from: the page behind "See more" in the Gallery. */
+/** Every Onda, to pick practices from: the page behind "See more" in the Gallery, grouped like Browse Ondas. */
 export function PickOndas() {
   const { t } = useTranslation()
   const openSheet = useNav((n) => n.openSheet)
-  const ondas = useOndaList()
-  const activeId = useActiveRun()?.ondaId
   return (
     <Screen bg="page" chrome={<BackButton />}>
-      <div className={s.pageHead}>
+      <div className={s.pageHead} style={{ paddingBottom: 8 }}>
         <h1 className={s.largeTitle}>{t('gallery.fromOndas')}</h1>
         <div className={`${s.sub} ${s.sub2}`}>{t('gallery.fromOndasSub')}</div>
       </div>
-      <div className={s.grid2} style={{ paddingTop: 20 }}>
-        {ondas.map((x) => (
-          <OndaTile key={x.id} x={x} active={activeId === x.id} onOpen={() => openSheet({ name: 'ondaPractices', ondaId: x.id })} />
-        ))}
-      </div>
+      <OndaGroups onOpen={(id) => openSheet({ name: 'ondaPractices', ondaId: id })} />
     </Screen>
   )
 }

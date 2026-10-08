@@ -1,0 +1,1239 @@
+{
+  "version": 1,
+  "id": "aboriginal",
+  "name": "Aboriginal Australian",
+  "origin": "Australia",
+  "era": "At least 65,000 years, to today",
+  "tone": "yellow",
+  "icon": "footprints",
+  "font": "nunito",
+  "pattern": "ochre-ground",
+  "glyph": "Country",
+  "line": "Know whose Country you are on, listen deeply, move with the seasons and look after the place that looks after you.",
+  "quote": {
+    "text": "We cannot hurry the river. We have to move with its current and understand its ways.",
+    "by": "Miriam-Rose Ungunmerr-Baumann",
+    "source": "Dadirri: Inner Deep Listening and Quiet Still Awareness, a reflection first given in 1988. She is an Elder of the Ngan’gityemerri people of the Daly River"
+  },
+  "quotes": [
+    {
+      "text": "We invite you to walk with us in a movement of the Australian people for a better future.",
+      "by": "The Uluru Statement from the Heart",
+      "source": "The closing line of the statement issued by the First Nations National Constitutional Convention, 26 May 2017"
+    },
+    {
+      "text": "Let no one say the past is dead. The past is all about us and within.",
+      "by": "Oodgeroo Noonuccal",
+      "source": "The opening of her poem The Past, 1970"
+    },
+    {
+      "text": "The land is my backbone.",
+      "by": "Galarrwuy Yunupingu",
+      "source": "From his Letter from Black to White, 1976. He was a leader of the Gumatj clan of the Yolŋu people"
+    },
+    {
+      "text": "One cannot fix the Dreaming in time: it was, and is, everywhen.",
+      "by": "W. E. H. Stanner",
+      "source": "The Dreaming, 1953. An anthropologist’s attempt to put an Aboriginal idea into English"
+    },
+    {
+      "text": "If you have come here to help me, you are wasting your time. But if you have come because your liberation is bound up with mine, then let us work together.",
+      "by": "Aboriginal activists group, Queensland, 1970s",
+      "source": "Often credited to Lilla Watson, a Gangulu woman, who asks that it be credited to the group she worked with"
+    }
+  ],
+  "words": [
+    {
+      "id": "word-country",
+      "term": "Country",
+      "meaning": "The land, waters and sky a person belongs to",
+      "language": "Aboriginal English",
+      "usage": "Much more than scenery or property. Country is family, law and story, and it is spoken of as a living relative. It is written with a capital."
+    },
+    {
+      "id": "word-the-dreaming",
+      "term": "The Dreaming",
+      "meaning": "The creation and the law that came from it",
+      "language": "English",
+      "usage": "An imperfect English word for ideas that each language names differently. Ancestral beings shaped the land and laid down how to live, and what they did is still present."
+    },
+    {
+      "id": "word-tjukurpa",
+      "term": "Tjukurpa",
+      "meaning": "The law and stories of creation",
+      "pronunciation": "CHOOK-oor-pa",
+      "language": "Pitjantjatjara",
+      "usage": "The word used by Anangu of the Western Desert. The Warlpiri say Jukurrpa and the Arrernte Altyerre. Each means law, story and the right way of living together."
+    },
+    {
+      "id": "word-everywhen",
+      "term": "Everywhen",
+      "meaning": "Past, present and future at once",
+      "language": "English",
+      "usage": "A word coined by the anthropologist W. E. H. Stanner in 1953 to say that the Dreaming is not a time long ago."
+    },
+    {
+      "id": "word-songline",
+      "term": "Songline",
+      "meaning": "A track of an ancestral journey, held in song",
+      "language": "English",
+      "usage": "Routes across the continent marked by places where ancestors acted. The songs carry the map, the law and the knowledge of water and food."
+    },
+    {
+      "id": "word-dadirri",
+      "term": "Dadirri",
+      "meaning": "Deep listening and quiet, still awareness",
+      "pronunciation": "da-DID-ee",
+      "language": "Ngan'gikurunggurr",
+      "usage": "A word from the Daly River region, shared with all Australians by the Elder Miriam-Rose Ungunmerr-Baumann. It is a patient, contemplative attention."
+    },
+    {
+      "id": "word-kanyini",
+      "term": "Kanyini",
+      "meaning": "Holding; caring with responsibility",
+      "pronunciation": "kan-YIN-ee",
+      "language": "Pitjantjatjara",
+      "usage": "The principle of connectedness through care. The Elder Bob Randall taught it as four ties: to law, to spirit, to land and to family."
+    },
+    {
+      "id": "word-ngura",
+      "term": "Ngura",
+      "meaning": "Home; camp; one’s Country",
+      "pronunciation": "NGOO-ra",
+      "language": "Pitjantjatjara",
+      "usage": "The place a person belongs to and is responsible for."
+    },
+    {
+      "id": "word-walytja",
+      "term": "Walytja",
+      "meaning": "Family; kin",
+      "pronunciation": "WOL-cha",
+      "language": "Pitjantjatjara",
+      "usage": "Relations in the widest sense, including people, places and other species one is tied to."
+    },
+    {
+      "id": "word-ngapartji-ngapartji",
+      "term": "Ngapartji ngapartji",
+      "meaning": "In turn; I give and you give",
+      "pronunciation": "NGAH-par-chee",
+      "language": "Pitjantjatjara",
+      "usage": "Reciprocity. What is given comes back around, and both sides are bound by it."
+    },
+    {
+      "id": "word-yindyamarra",
+      "term": "Yindyamarra",
+      "meaning": "Respect; to go slowly, be gentle and honour",
+      "pronunciation": "yin-jah-MAH-rah",
+      "language": "Wiradjuri",
+      "usage": "A way of living that is careful, polite and considered. The Elder Stan Grant Senior helped to revive the Wiradjuri language that carries it."
+    },
+    {
+      "id": "word-winanga-li",
+      "term": "Winanga-li",
+      "meaning": "To hear; to listen; to know; to remember",
+      "pronunciation": "win-AHNG-ah-lee",
+      "language": "Gamilaraay",
+      "usage": "One verb for all four. To know something is to have listened."
+    },
+    {
+      "id": "word-gurrutu",
+      "term": "Gurrutu",
+      "meaning": "The system of kinship",
+      "pronunciation": "GOO-roo-too",
+      "language": "Yolŋu Matha",
+      "usage": "The Yolŋu web of relationship that places every person, clan, place and animal in a family tie with every other."
+    },
+    {
+      "id": "word-makarrata",
+      "term": "Makarrata",
+      "meaning": "Coming together after a struggle",
+      "pronunciation": "mah-kah-RAH-tah",
+      "language": "Yolŋu Matha",
+      "usage": "A process of peacemaking in which a wrong is faced and settled so that people can live together again. The Uluru Statement asks for one."
+    },
+    {
+      "id": "word-ganma",
+      "term": "Ganma",
+      "meaning": "Where fresh water and salt water meet",
+      "pronunciation": "GAHN-mah",
+      "language": "Yolŋu Matha",
+      "usage": "The place in a lagoon where two currents mix and foam. Yolŋu teachers use it as a picture of two kinds of knowledge meeting without either being lost."
+    },
+    {
+      "id": "word-garma",
+      "term": "Garma",
+      "meaning": "An open ceremonial ground; a place of two-way learning",
+      "pronunciation": "GAR-mah",
+      "language": "Yolŋu Matha",
+      "usage": "A place where people of different clans, and now different peoples, meet to share knowledge."
+    },
+    {
+      "id": "word-liyan",
+      "term": "Liyan",
+      "meaning": "Inner spirit; one’s feeling of wellbeing",
+      "pronunciation": "LEE-yahn",
+      "language": "Yawuru",
+      "usage": "From Broome. Good liyan comes from right relations with family, community and Country."
+    },
+    {
+      "id": "word-mob",
+      "term": "Mob",
+      "meaning": "One’s people",
+      "language": "Aboriginal English",
+      "usage": "Family, clan or community. Which mob are you is a way of asking where a person belongs."
+    },
+    {
+      "id": "word-elder",
+      "term": "Elder",
+      "meaning": "A senior person who holds knowledge and authority",
+      "language": "English",
+      "usage": "Recognised by the community for wisdom and service, not simply for age."
+    },
+    {
+      "id": "word-aunty-and-uncle",
+      "term": "Aunty and Uncle",
+      "meaning": "Respectful titles for older people",
+      "language": "Aboriginal English",
+      "usage": "Used for Elders whether or not they are relatives. It is polite to wait until you are invited to use them."
+    },
+    {
+      "id": "word-yarning",
+      "term": "Yarning",
+      "meaning": "Talking together; telling stories",
+      "language": "Aboriginal English",
+      "usage": "Unhurried conversation in which people sit as equals and each has a turn. Knowledge is passed on this way."
+    },
+    {
+      "id": "word-skin-name",
+      "term": "Skin name",
+      "meaning": "A person’s place in the kinship system",
+      "language": "Aboriginal English",
+      "usage": "In many communities each person is born into a named group that sets how they relate to everyone else."
+    },
+    {
+      "id": "word-totem",
+      "term": "Totem",
+      "meaning": "A species or thing a person is tied to and must protect",
+      "language": "English",
+      "usage": "An animal, plant or feature of the land inherited through family. Each language has its own word for it."
+    },
+    {
+      "id": "word-sorry-business",
+      "term": "Sorry business",
+      "meaning": "The customs of mourning",
+      "language": "Aboriginal English",
+      "usage": "The time and duties that follow a death. In many communities the name and image of the person are not used for a period."
+    },
+    {
+      "id": "word-welcome-to-country",
+      "term": "Welcome to Country",
+      "meaning": "A greeting given by Traditional Owners",
+      "language": "English",
+      "usage": "Only the people of that Country can give it. Others may offer an Acknowledgement of Country."
+    },
+    {
+      "id": "word-caring-for-country",
+      "term": "Caring for Country",
+      "meaning": "Looking after land and sea as a duty",
+      "language": "English",
+      "usage": "Burning, protecting sites, managing water and species. Indigenous rangers now do this work across almost half the continent."
+    },
+    {
+      "id": "word-cultural-burning",
+      "term": "Cultural burning",
+      "meaning": "Small, cool fires lit at the right time",
+      "language": "English",
+      "usage": "Patch burning that clears undergrowth, brings new growth and prevents large wildfires. It has been practised for tens of thousands of years."
+    },
+    {
+      "id": "word-bush-tucker",
+      "term": "Bush tucker",
+      "meaning": "Native foods",
+      "language": "Australian English",
+      "usage": "Seeds, fruits, roots, game and fish gathered and prepared with detailed knowledge of season and place."
+    },
+    {
+      "id": "word-deadly",
+      "term": "Deadly",
+      "meaning": "Excellent",
+      "language": "Aboriginal English",
+      "usage": "The highest praise."
+    },
+    {
+      "id": "word-palya",
+      "term": "Palya",
+      "meaning": "Good; fine; hello",
+      "pronunciation": "PAHL-ya",
+      "language": "Pitjantjatjara",
+      "usage": "A greeting, a thank you and a word of agreement in the Western Desert."
+    }
+  ],
+  "practices": [
+    {
+      "id": "dadirri",
+      "name": "Dadirri: deep listening",
+      "icon": "wave-soft",
+      "slot": "Morning",
+      "time": "06:30",
+      "minutes": 15,
+      "meta": "Morning · 15 min",
+      "instructions": "Go outside, or sit by an open window, and be still for fifteen minutes. There is nothing to achieve. Do not try to empty your mind and do not look for anything. Listen to what is around you: wind, birds, water, traffic, your own breath. Let whatever comes, come, and wait. If thoughts pull you away, return to listening. When you get up, do not rush into the next thing.",
+      "why": "Dadirri is a word from the languages of the Daly River in the Northern Territory. The Elder, teacher and artist Miriam-Rose Ungunmerr-Baumann has described it as inner deep listening and quiet, still awareness, learned by her people over many thousands of years of waiting on the seasons. She has offered it as a gift to other Australians and to anyone who needs it.",
+      "variations": [
+        "Sit by moving water if there is any near you.",
+        "Practise it while someone is speaking to you, without preparing your reply.",
+        "Read Miriam-Rose’s own words on dadirri at the Miriam Rose Foundation."
+      ]
+    },
+    {
+      "id": "acknowledge",
+      "name": "Acknowledge Country",
+      "icon": "map-pin",
+      "slot": "Morning",
+      "time": "08:00",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Find out whose land you are standing on. In Australia, learn the name of the Traditional Owners of the place where you live and how to say it. Elsewhere, learn who lived on your land first and whether they are still there. Then say so, aloud, at the start of the day: name the place, name its people, and pay your respects to their Elders past and present. Mean it.",
+      "why": "An Acknowledgement of Country is a short statement of respect that anyone may make. It recognises that the land has owners who have cared for it since long before it was taken, and who are still here. It is now usual in Australia at the start of meetings and events. A Welcome to Country is different, and only Traditional Owners can give one.",
+      "variations": [
+        "Look up your home on the AIATSIS map of Indigenous Australia, or on native-land.ca.",
+        "Learn three place names near you that come from the local language, and what they mean.",
+        "Find out which organisation speaks for the Traditional Owners where you live."
+      ]
+    },
+    {
+      "id": "read-the-season",
+      "name": "Read the season",
+      "icon": "leaf",
+      "slot": "Afternoon",
+      "time": "15:00",
+      "minutes": 30,
+      "meta": "Afternoon · 30 min",
+      "instructions": "Walk slowly for half an hour through the nearest piece of open ground. Go at a pace that lets you notice things. What is in flower, what is fruiting and what is dying back. Which birds and insects are about. Where the wind is from and what the light is like. Decide for yourself what season this is, by what you see and not by the calendar. Write three signs in your notebook and date them.",
+      "why": "Aboriginal peoples do not use four seasons brought from Europe. Each Country has its own calendar, read from signs. The Noongar of the south-west count six seasons, the D’harawal of the Sydney basin six, and peoples of the tropical north as many as seven or more. The flowering of one plant tells you that a certain fish is fat or that it is time to burn.",
+      "variations": [
+        "Look up the published seasonal calendar for the Country nearest you.",
+        "Keep a list of first sightings through the month.",
+        "Go to the same spot each week and note what changed."
+      ]
+    },
+    {
+      "id": "care-for-country",
+      "name": "Look after your place",
+      "icon": "plant",
+      "slot": "Afternoon",
+      "time": "17:00",
+      "minutes": 20,
+      "meta": "Afternoon · 20 min",
+      "instructions": "Choose one small piece of ground that you can reach every day: a garden, a verge, a creek bank, a corner of a park. Spend twenty minutes looking after it. Pick up what does not belong. Pull weeds if you know them. Water what is dry. Plant something native to the place if you can. Above all, get to know it well, and take nothing from it that you do not need.",
+      "why": "The duty to care for Country runs through every Aboriginal culture. Land is not owned in order to be used up. People belong to it, and they keep it healthy by burning at the right time, protecting water, harvesting with restraint and performing the proper observances. In return, Country provides. Indigenous ranger groups and protected areas now look after a large share of Australia’s conservation land.",
+      "variations": [
+        "Join a local group that restores bushland or cleans a waterway.",
+        "Learn which plants are native to your area and which are invaders.",
+        "Support an Indigenous ranger programme."
+      ]
+    },
+    {
+      "id": "yarn",
+      "name": "Yarn under the sky",
+      "icon": "moon-stars",
+      "slot": "Evening",
+      "time": "20:00",
+      "minutes": 20,
+      "meta": "Evening · 20 min",
+      "instructions": "After dark, sit outside with the people of your household, or on your own, and look up. Let your eyes adjust. Look at the dark spaces as well as the stars. Then talk without hurry. Tell what happened to you today as a story, with a beginning and an end. Ask an older person for a story of theirs. Let silences be. Nobody needs to fix anything or reach a conclusion.",
+      "why": "Knowledge in Aboriginal societies is carried in story, song and conversation and passed between generations face to face. Yarning is the Aboriginal English word for this kind of talk. The night sky is part of it. Many peoples read the dark dust lanes of the Milky Way as an emu, whose changing position through the year shows when emus are laying.",
+      "variations": [
+        "Find the Emu in the Sky, stretching from the Southern Cross along the Milky Way. In the north, find the dark lanes anyway.",
+        "Hold a yarning circle in which each person speaks in turn and all are equal.",
+        "Listen to a recorded story told by an Elder."
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task-read-the-uluru-statement-from-the-heart",
+      "name": "Read the Uluru Statement from the Heart",
+      "meta": "Read · one page, 2017",
+      "time": "20:30",
+      "slot": "Evening",
+      "action": "read"
+    },
+    {
+      "id": "task-listen-to-the-album-gurrumul",
+      "name": "Listen to the album Gurrumul",
+      "meta": "Listen · Geoffrey Gurrumul Yunupingu, 2008, sung mostly in Yolŋu languages",
+      "time": "07:00",
+      "slot": "Morning",
+      "action": "listen"
+    },
+    {
+      "id": "task-look-at-earth-s-creation",
+      "name": "Look at Earth’s Creation",
+      "meta": "Art · Emily Kame Kngwarreye, 1994",
+      "time": "13:00",
+      "slot": "Afternoon",
+      "action": "art"
+    },
+    {
+      "id": "task-play-keentan",
+      "name": "Play keentan",
+      "meta": "Games · a jumping catch game from north-west Queensland",
+      "time": "16:00",
+      "slot": "Afternoon",
+      "action": "games"
+    },
+    {
+      "id": "task-journal-what-place-do-you-belong-to-and-what-do-you-owe-it",
+      "name": "Journal: what place do you belong to, and what do you owe it?",
+      "meta": "Journal · 10 min",
+      "time": "21:00",
+      "slot": "Evening",
+      "action": "journal"
+    },
+    {
+      "id": "task-do-you-own-land-or-does-it-own-you",
+      "name": "Do you own land, or does it own you?",
+      "meta": "Philosophy · 10 min",
+      "time": "09:30",
+      "slot": "Morning",
+      "action": "philosophy"
+    },
+    {
+      "id": "learn-the-name-of-the-people-whose-country-you-are-on",
+      "name": "Learn the name of the people whose Country you are on",
+      "meta": "Whose Country",
+      "time": "10:30",
+      "slot": "Morning"
+    },
+    {
+      "id": "go-slowly-through-one-task-that-you-usually-rush",
+      "name": "Go slowly through one task that you usually rush",
+      "meta": "Yindyamarra",
+      "time": "12:00",
+      "slot": "Afternoon"
+    },
+    {
+      "id": "ask-an-older-person-in-your-family-about-the-place-they-come-from",
+      "name": "Ask an older person in your family about the place they come from",
+      "meta": "Listening to Elders",
+      "time": "18:30",
+      "slot": "Evening"
+    }
+  ],
+  "rules": [
+    {
+      "id": "r1",
+      "text": "Know whose Country you are on",
+      "why": "Learn the name of its people and say it. You are a guest."
+    },
+    {
+      "id": "r2",
+      "text": "Listen before you speak",
+      "why": "Be still, wait and take it in. Understanding comes in its own time."
+    },
+    {
+      "id": "r3",
+      "text": "Respect your Elders",
+      "why": "They carry what was handed down. Go to them and listen."
+    },
+    {
+      "id": "r4",
+      "text": "Look after your place",
+      "why": "Take only what you need and leave it healthy for those who follow."
+    },
+    {
+      "id": "r5",
+      "text": "Keep your ties",
+      "why": "To family, to land, to story. You are who you are through them."
+    },
+    {
+      "id": "r6",
+      "text": "Go slowly and gently",
+      "why": "Do things with care and respect. Do not hurry the river."
+    }
+  ],
+  "immerse": {
+    "read": [
+      {
+        "id": "read-sand-talk-how-indigenous-thinking-can-save-the-world",
+        "title": "Sand Talk: How Indigenous Thinking Can Save the World",
+        "creator": "Tyson Yunkaporta",
+        "year": "2019",
+        "why": "A member of the Apalech clan looks at the modern world through Aboriginal ways of knowing, with a drawing in the sand for each chapter."
+      },
+      {
+        "id": "read-welcome-to-country-a-travel-guide-to-indigenous-australia",
+        "title": "Welcome to Country: A Travel Guide to Indigenous Australia",
+        "creator": "Marcia Langton",
+        "year": "2018",
+        "why": "A professor and Yiman and Bidjara woman explains culture, history, etiquette and where to go, state by state."
+      },
+      {
+        "id": "read-talking-to-my-country",
+        "title": "Talking to My Country",
+        "creator": "Stan Grant",
+        "year": "2016",
+        "why": "A Wiradjuri journalist writes about his family, his Country and what it is to be Aboriginal in Australia."
+      },
+      {
+        "id": "read-follow-the-rabbit-proof-fence",
+        "title": "Follow the Rabbit-Proof Fence",
+        "creator": "Doris Pilkington Garimara",
+        "year": "1996",
+        "why": "The true story of her mother, who was taken from her family in 1931 and walked sixteen hundred kilometres home with two other girls."
+      },
+      {
+        "id": "read-songlines-the-power-and-promise",
+        "title": "Songlines: The Power and Promise",
+        "creator": "Margo Neale and Lynne Kelly",
+        "year": "2020",
+        "why": "How songlines hold knowledge across a continent. The first book of the First Knowledges series."
+      },
+      {
+        "id": "read-growing-up-aboriginal-in-australia",
+        "title": "Growing Up Aboriginal in Australia",
+        "creator": "Edited by Anita Heiss",
+        "year": "2018",
+        "why": "Fifty short accounts of childhood from across the country, showing how different those lives are."
+      }
+    ],
+    "watch": [
+      {
+        "id": "watch-first-australians",
+        "title": "First Australians",
+        "creator": "Rachel Perkins for SBS",
+        "year": "2008",
+        "why": "Seven episodes on the history of the continent since 1788 from the side of its first peoples. Made by an Arrernte and Kalkadoon director."
+      },
+      {
+        "id": "watch-ten-canoes",
+        "title": "Ten Canoes",
+        "creator": "Rolf de Heer and Peter Djigirr",
+        "year": "2006",
+        "why": "A story within a story told by the people of Ramingining in their own languages, the first feature film made that way."
+      },
+      {
+        "id": "watch-samson-and-delilah",
+        "title": "Samson and Delilah",
+        "creator": "Warwick Thornton",
+        "year": "2009",
+        "why": "Two teenagers leave a desert community for Alice Springs. Hard to watch, nearly wordless and tender."
+      },
+      {
+        "id": "watch-in-my-blood-it-runs",
+        "title": "In My Blood It Runs",
+        "creator": "Maya Newell, made with the family of Dujuan Hoosan",
+        "year": "2019",
+        "why": "A ten-year-old Arrernte and Garrwa boy, a healer and a speaker of three languages, is failing at school."
+      }
+    ],
+    "listen": [
+      {
+        "id": "listen-gurrumul",
+        "title": "Gurrumul",
+        "creator": "Geoffrey Gurrumul Yunupingu",
+        "year": "2008",
+        "why": "A blind singer from Elcho Island with a high, clear voice, singing of his ancestors and his Country."
+      },
+      {
+        "id": "listen-tribal-voice",
+        "title": "Tribal Voice",
+        "creator": "Yothu Yindi",
+        "year": "1991",
+        "why": "Yolŋu and non-Indigenous musicians together. It carries the song Treaty, which put a broken promise on the radio."
+      },
+      {
+        "id": "listen-charcoal-lane",
+        "title": "Charcoal Lane",
+        "creator": "Archie Roach",
+        "year": "1990",
+        "why": "Songs from a man taken from his family as a small child, among them his account of that day."
+      },
+      {
+        "id": "listen-from-little-things-big-things-grow",
+        "title": "From Little Things Big Things Grow",
+        "creator": "Kev Carmody and Paul Kelly",
+        "year": "1991",
+        "why": "The story of Vincent Lingiari and the Gurindji walk-off, told as a ballad."
+      }
+    ],
+    "art": [
+      {
+        "id": "art-earth-s-creation",
+        "title": "Earth’s Creation",
+        "creator": "Emily Kame Kngwarreye",
+        "year": "1994",
+        "why": "Four panels six metres wide, covered in drifts of green, yellow and blue after rain. She began painting on canvas when she was nearly eighty."
+      },
+      {
+        "id": "art-the-aboriginal-memorial",
+        "title": "The Aboriginal Memorial",
+        "creator": "Forty-three artists of Ramingining",
+        "year": "1987 to 1988",
+        "why": "Two hundred painted hollow logs, one for each year of colonisation, standing as a forest for those who died defending their land. In the National Gallery of Australia."
+      },
+      {
+        "id": "art-the-yirrkala-bark-petitions",
+        "title": "The Yirrkala Bark Petitions",
+        "creator": "Yolŋu clan leaders",
+        "year": "1963",
+        "why": "Typed petitions to Parliament framed in painted bark that sets out the clans’ title to their land. They hang in Parliament House."
+      },
+      {
+        "id": "art-watercolours-of-the-western-ranges",
+        "title": "Watercolours of the western ranges",
+        "creator": "Albert Namatjira",
+        "year": "1930s to 1950s",
+        "why": "Ghost gums and purple hills painted by a Western Arrernte man who saw his own Country in them."
+      }
+    ],
+    "eat": [
+      {
+        "id": "eat-wattleseed",
+        "title": "Wattleseed",
+        "creator": "Roasted and ground acacia seed",
+        "why": "Nutty, with a taste of coffee and chocolate. Seeds were ground for bread on stones that are among the oldest in the world."
+      },
+      {
+        "id": "eat-finger-lime",
+        "title": "Finger lime",
+        "creator": "A small native citrus",
+        "why": "Its flesh is made of tiny beads that burst in the mouth. From the rainforests of the east coast."
+      },
+      {
+        "id": "eat-kangaroo",
+        "title": "Kangaroo",
+        "creator": "Lean red meat, cooked quickly",
+        "why": "Hunted and shared according to strict rules about who receives which part."
+      },
+      {
+        "id": "eat-damper",
+        "title": "Damper",
+        "creator": "Bread baked in the ashes",
+        "why": "Made long ago from the flour of native seeds, and later from wheat flour on missions and cattle stations."
+      }
+    ],
+    "drink": [
+      {
+        "id": "drink-lemon-myrtle-tea",
+        "title": "Lemon myrtle tea",
+        "creator": "Leaves of a rainforest tree",
+        "why": "Strongly lemon-scented. Buy it from an Indigenous-owned grower."
+      },
+      {
+        "id": "drink-flower-nectar-water",
+        "title": "Flower nectar water",
+        "creator": "Banksia or grevillea blossoms soaked in water",
+        "why": "A sweet drink made by steeping nectar-rich flowers."
+      },
+      {
+        "id": "drink-water",
+        "title": "Water",
+        "creator": "From a known source",
+        "why": "On the driest inhabited continent, knowing where water is has always been the first knowledge."
+      }
+    ],
+    "customs": [
+      {
+        "id": "customs-welcome-to-country",
+        "title": "Welcome to Country",
+        "creator": "Given by Traditional Owners",
+        "why": "A speech, song, dance or smoking by which the people of a place welcome visitors and wish them safe passage."
+      },
+      {
+        "id": "customs-respect-for-elders",
+        "title": "Respect for Elders",
+        "creator": "Aunty and Uncle",
+        "why": "Older people are served first, listened to and consulted before decisions are made."
+      },
+      {
+        "id": "customs-names-of-those-who-have-died",
+        "title": "Names of those who have died",
+        "creator": "A period of silence",
+        "why": "In many communities the name and image of a person are not used after their death. Australian films and books carry a warning for this reason."
+      },
+      {
+        "id": "customs-sharing",
+        "title": "Sharing",
+        "creator": "What you have belongs to your kin",
+        "why": "Food, money and belongings move along the lines of kinship. To keep things for yourself is poor behaviour."
+      }
+    ],
+    "games": [
+      {
+        "id": "games-keentan",
+        "title": "Keentan",
+        "creator": "Ball game · north-west Queensland",
+        "year": "traditional",
+        "why": "Two teams pass a ball, and it must be caught by a player jumping off the ground. The name means play in the Wik-Mungkan language."
+      },
+      {
+        "id": "games-marngrook",
+        "title": "Marngrook",
+        "creator": "Ball game · western Victoria",
+        "year": "traditional",
+        "why": "A game of the Gunditjmara and neighbouring peoples played with a ball of possum skin, with high kicks and leaping catches."
+      },
+      {
+        "id": "games-woggabaliri",
+        "title": "Woggabaliri",
+        "creator": "Ball game · New South Wales",
+        "year": "traditional",
+        "why": "A Wiradjuri game in which a circle of players keeps a ball in the air with feet and knees and no one wins."
+      },
+      {
+        "id": "games-gorri",
+        "title": "Gorri",
+        "creator": "Target game · many regions",
+        "year": "traditional",
+        "why": "A disc of bark is rolled along the ground and players throw at it as it passes, as practice for hunting."
+      }
+    ],
+    "festivals": [
+      {
+        "id": "fest-naidoc-week",
+        "title": "NAIDOC Week",
+        "creator": "The first full week of July",
+        "why": "A week celebrating the history, culture and achievements of Aboriginal and Torres Strait Islander peoples, with events in every town."
+      },
+      {
+        "id": "fest-national-reconciliation-week",
+        "title": "National Reconciliation Week",
+        "creator": "27 May to 3 June",
+        "why": "Between the anniversaries of the 1967 referendum and the Mabo decision. It follows National Sorry Day on 26 May."
+      },
+      {
+        "id": "fest-garma-festival",
+        "title": "Garma Festival",
+        "creator": "Early August, north-east Arnhem Land",
+        "why": "Four days of dance, song, art and public debate hosted by the Yolŋu on their own ground."
+      },
+      {
+        "id": "fest-laura-quinkan-dance-festival",
+        "title": "Laura Quinkan Dance Festival",
+        "creator": "Every second July, Cape York",
+        "why": "Communities from across the Cape gather to dance on a ground used for that purpose for a very long time."
+      }
+    ],
+    "places": [
+      {
+        "id": "place-uluru-and-kata-tjuta",
+        "title": "Uluru and Kata Tjuta",
+        "creator": "Northern Territory",
+        "why": "The great rock and the domes beside it, owned by Anangu and returned to them in 1985. Walk around the base. The climb was closed in 2019 at the owners’ request."
+      },
+      {
+        "id": "place-kakadu",
+        "title": "Kakadu",
+        "creator": "Northern Territory",
+        "why": "Country of the Bininj and Mungguy, with rock paintings at Ubirr and Burrungkuy made over some twenty thousand years."
+      },
+      {
+        "id": "place-budj-bim",
+        "title": "Budj Bim",
+        "creator": "South-west Victoria",
+        "why": "Channels, weirs and ponds built in lava flows by the Gunditjmara to farm eels, some of them 6,600 years old. A World Heritage site run by its owners."
+      },
+      {
+        "id": "place-lake-mungo",
+        "title": "Lake Mungo",
+        "creator": "Willandra Lakes, New South Wales",
+        "why": "A dry lake bed where people were laid to rest with ceremony some forty-two thousand years ago. Visit with a guide from the three Traditional Owner groups."
+      },
+      {
+        "id": "place-brewarrina-fish-traps",
+        "title": "Brewarrina fish traps",
+        "creator": "Barwon River, New South Wales",
+        "why": "Stone walls and pens across half a kilometre of river, kept by the Ngemba and shared with neighbouring peoples at great gatherings."
+      },
+      {
+        "id": "place-the-aboriginal-tent-embassy",
+        "title": "The Aboriginal Tent Embassy",
+        "creator": "Canberra",
+        "why": "Set up on the lawn opposite Parliament on 26 January 1972 and still there. The longest continuous protest for Indigenous land rights in the world."
+      }
+    ]
+  },
+  "ethics": [
+    {
+      "title": "Respect",
+      "text": "For Elders, for Country, for other people’s business.",
+      "practice": "Ask before you assume you are entitled to know or to enter."
+    },
+    {
+      "title": "Responsibility",
+      "text": "Rights to land come with the duty to look after it.",
+      "practice": "Name one place you are responsible for and do something for it."
+    },
+    {
+      "title": "Reciprocity",
+      "text": "What is given returns. Share what you have.",
+      "practice": "Give something today to someone in your circle who needs it."
+    },
+    {
+      "title": "Patience",
+      "text": "Things come in their season.",
+      "practice": "Wait for one thing today without pushing."
+    },
+    {
+      "title": "Listening",
+      "text": "The one who listens learns.",
+      "practice": "In one conversation today, say only a quarter of what you want to."
+    },
+    {
+      "title": "Truth-telling",
+      "text": "The past has to be faced before it can be put right.",
+      "practice": "Find out one hard fact about the history of the place you live."
+    }
+  ],
+  "philosophy": [
+    {
+      "title": "Belonging to land",
+      "text": "People do not own Country. They belong to it and are answerable to it.",
+      "practice": "What place are you answerable to?"
+    },
+    {
+      "title": "Everywhen",
+      "text": "Creation is not over. The ancestral past is present in the land and renewed by those who care for it.",
+      "practice": "Where does the past feel present to you?"
+    },
+    {
+      "title": "Knowledge in place",
+      "text": "What is known is tied to particular places and carried in story, song and walking.",
+      "practice": "What do you know that you could only have learned in one place?"
+    },
+    {
+      "title": "Kinship with everything",
+      "text": "Every person, animal, plant and place stands in a family relation to every other.",
+      "practice": "How would you treat a river if it were a relative?"
+    },
+    {
+      "title": "Kanyini",
+      "text": "A person is held by four ties: law, spirit, land and family. Cut them and the person is lost.",
+      "practice": "Which of your ties is weakest?"
+    },
+    {
+      "title": "Two-way learning",
+      "text": "Where fresh and salt water meet, both remain. Different kinds of knowledge can meet in the same way.",
+      "practice": "What have you dismissed because it was not your kind of knowledge?"
+    },
+    {
+      "title": "The right to know",
+      "text": "Not all knowledge is for everyone. Some is earned, and some belongs to others.",
+      "practice": "What are you not entitled to know?"
+    },
+    {
+      "title": "Makarrata",
+      "text": "After a wrong, the parties face each other, the truth is told and peace is made.",
+      "practice": "What struggle in your life is waiting for its coming together?"
+    }
+  ],
+  "journal": [
+    "What place do you belong to, and what do you owe it?",
+    "Whose Country are you on?",
+    "What did you hear when you were still?",
+    "What season is it, by the signs?",
+    "What did you do for your patch of ground?",
+    "Who are your Elders?",
+    "What did an older person tell you?",
+    "What story did you tell today?",
+    "What did you see in the night sky?",
+    "What did you take today that you did not need?",
+    "Where did you hurry the river?",
+    "Which of your ties needs tending?",
+    "Who are your kin beyond your family?",
+    "What plant or animal do you feel bound to protect?",
+    "What happened where you live before your people came?",
+    "What do you know only because someone told you face to face?",
+    "What is the oldest thing you have touched?",
+    "Where does your water come from?",
+    "What did you share?",
+    "What were you given?",
+    "What knowledge is not yours to have?",
+    "What truth is hard to tell?",
+    "What would you put right?",
+    "Whom did you listen to all the way through?",
+    "What did the wind do today?",
+    "What does home mean to you?",
+    "Where would you be a stranger?",
+    "How do you want to be an ancestor?",
+    "What did the silence hold?",
+    "What will you hand on?"
+  ],
+  "reflect": [
+    "What did deep listening give you?",
+    "What do you now know about the land you live on and its people?",
+    "What signs of the season did you learn to read?",
+    "How is your patch of ground?",
+    "What stories were told?",
+    "Which rule will you keep?"
+  ],
+  "dayThemes": [
+    "Whose Country",
+    "Be still",
+    "Deep listening",
+    "The river",
+    "The season",
+    "The first sign",
+    "Water",
+    "Fire",
+    "The patch of ground",
+    "Take only what you need",
+    "Kin",
+    "Elders",
+    "Aunty and Uncle",
+    "The yarn",
+    "The story",
+    "The night sky",
+    "The dark between the stars",
+    "The track",
+    "The song",
+    "Everywhen",
+    "Holding",
+    "In turn",
+    "Go slowly",
+    "Two waters meeting",
+    "Truth-telling",
+    "The long memory",
+    "Still here",
+    "Coming together",
+    "Walk with us",
+    "Handing on"
+  ],
+  "guide": {
+    "intro": [
+      "People reached Australia by sea at least sixty-five thousand years ago, according to tools and ground ochre dated at a rock shelter in Arnhem Land. Their descendants spread across every part of a continent the size of Europe, from tropical coast to desert to cold southern forest. By 1788 there were several hundred nations, speaking more than two hundred and fifty languages and many more dialects. Aboriginal Australians are not one people with one culture. A Yolŋu person from Arnhem Land and a Noongar person from the south-west differ as much as a Greek and a Swede. Torres Strait Islanders, from the islands to the north, are a separate group of peoples again.",
+      "What these cultures share is a way of understanding the relation between people and land. Each group belongs to a particular Country, a word that in Aboriginal English takes in the earth, waters, sky, plants, animals and the spirits of the place. In the beginning, ancestral beings travelled across the land, forming its hills and rivers and giving each people its law, its language and its ceremonies. English calls this the Dreaming, a poor translation of words such as Tjukurpa and Jukurrpa. It is not a time that is over. The ancestors remain in the places they made, and their journeys are remembered in songs that also serve as maps.",
+      "From this follows a duty. People do not own Country so much as belong to it and care for it. They managed the land with skill, burning it in small patches to renew growth, building stone traps for fish and eels, harvesting and storing seeds and moving with the seasons. Elaborate systems of kinship set out how each person was related to every other and what each owed. Authority lay with Elders, and knowledge was passed on in stages through story, song, painting and ceremony. Much of it remains restricted to those with the right to know.",
+      "British colonisation began at Sydney in January 1788. The colonists treated the land as belonging to no one. Smallpox and other diseases killed great numbers of people, and settlers and police killed many thousands more in a frontier war that lasted into the 1930s. Survivors were pushed onto missions and reserves, where governments controlled where they lived, whom they married and whether they were paid. From about 1910 to 1970, many thousands of children were taken from their families to be raised in institutions or white homes. They are known as the Stolen Generations.",
+      "Aboriginal people never stopped resisting. A Day of Mourning was held in 1938. In 1966 Gurindji stockmen walked off a cattle station and stayed out for eight years until land was returned. A referendum in 1967 passed with more than ninety per cent in favour. In 1992 the High Court, in a case brought by Eddie Mabo of the Torres Strait, ruled that the land had not been empty and that native title could survive. The Prime Minister apologised to the Stolen Generations in 2008. In 2017 the Uluru Statement from the Heart asked for a voice, a treaty and truth-telling. A referendum on the voice failed in 2023.",
+      "About a million Australians now identify as Aboriginal or Torres Strait Islander. Most live in towns and cities. Languages are being revived, land is being returned and Indigenous rangers care for vast areas of the continent.",
+      "This Onda takes its practices only from what Aboriginal teachers have openly shared with everyone: deep listening, acknowledging Country, reading the seasons, caring for a place and yarning."
+    ],
+    "origin": "The continent of Australia and its islands, home to several hundred distinct nations",
+    "era": "People have lived in Australia for at least 65,000 years. Aboriginal cultures are the oldest continuing cultures on Earth",
+    "figures": [
+      {
+        "name": "Pemulwuy",
+        "dates": "about 1750 to 1802",
+        "bio": "A Bidjigal man who led twelve years of armed resistance to the colony at Sydney. He was shot dead and his head was sent to England."
+      },
+      {
+        "name": "Truganini",
+        "dates": "about 1812 to 1876",
+        "bio": "A Nuenonne woman of Tasmania who lived through the destruction of her people’s society, worked as a guide and negotiator and was long wrongly called the last of her people."
+      },
+      {
+        "name": "William Cooper",
+        "dates": "1860 to 1941",
+        "bio": "A Yorta Yorta man who petitioned the King for representation in Parliament and organised the Day of Mourning in 1938. That year he also led a protest against the Nazi persecution of Jews."
+      },
+      {
+        "name": "David Unaipon",
+        "dates": "1872 to 1967",
+        "bio": "A Ngarrindjeri preacher, inventor and the first Aboriginal author to be published. He appears on the fifty dollar note."
+      },
+      {
+        "name": "Albert Namatjira",
+        "dates": "1902 to 1959",
+        "bio": "A Western Arrernte painter who became famous across Australia and was the first Aboriginal person in the Northern Territory to be granted citizenship rights."
+      },
+      {
+        "name": "Vincent Lingiari",
+        "dates": "1908 to 1988",
+        "bio": "A Gurindji stockman who led the walk-off from Wave Hill station in 1966. In 1975 the Prime Minister poured a handful of soil into his hand as the land was returned."
+      },
+      {
+        "name": "Emily Kame Kngwarreye",
+        "dates": "about 1910 to 1996",
+        "bio": "An Anmatyerr Elder from Utopia who produced some three thousand paintings in eight years and is counted among the great painters of the century."
+      },
+      {
+        "name": "Oodgeroo Noonuccal",
+        "dates": "1920 to 1993",
+        "bio": "A poet and activist of Minjerribah. Her book We Are Going, 1964, was the first book of verse published by an Aboriginal writer."
+      },
+      {
+        "name": "Charles Perkins",
+        "dates": "1936 to 2000",
+        "bio": "An Arrernte and Kalkadoon man who led the Freedom Ride through country towns of New South Wales in 1965 and later headed the federal Aboriginal affairs department."
+      },
+      {
+        "name": "Galarrwuy Yunupingu",
+        "dates": "1948 to 2023",
+        "bio": "A Gumatj leader who as a young man helped draft the bark petitions and spent his life pressing for land rights and constitutional recognition."
+      },
+      {
+        "name": "Miriam-Rose Ungunmerr-Baumann",
+        "dates": "born 1950",
+        "bio": "An artist and educator from Nauiyu on the Daly River, the first fully qualified Aboriginal teacher in the Northern Territory. Senior Australian of the Year in 2021."
+      },
+      {
+        "name": "Cathy Freeman",
+        "dates": "born 1973",
+        "bio": "A Kuku Yalanji and Birri Gubba sprinter who lit the flame at the Sydney Olympics in 2000 and won the 400 metres."
+      }
+    ],
+    "history": [
+      {
+        "when": "At least 65,000 years ago",
+        "what": "First peoples",
+        "detail": "Stone axes, grindstones and ochre at Madjedbebe in Arnhem Land are the oldest evidence so far of people in Australia."
+      },
+      {
+        "when": "About 42,000 years ago",
+        "what": "Lake Mungo",
+        "detail": "A woman is cremated and a man buried with red ochre on the shore of a lake in what is now New South Wales. They are among the oldest ritual burials known."
+      },
+      {
+        "when": "About 6,600 years ago",
+        "what": "Budj Bim",
+        "detail": "The Gunditjmara begin building channels and traps to farm eels, among the oldest aquaculture systems in the world."
+      },
+      {
+        "when": "From about 1700",
+        "what": "Visitors from the north",
+        "detail": "Fishermen from Makassar sail each year to Arnhem Land for sea cucumber and trade with the Yolŋu, who take up words, pipes and sails from them."
+      },
+      {
+        "when": "26 January 1788",
+        "what": "Colonisation",
+        "detail": "The First Fleet lands at Sydney Cove on Gadigal land. Smallpox kills perhaps half the people of the region the following year."
+      },
+      {
+        "when": "1788 to the 1930s",
+        "what": "The frontier wars",
+        "detail": "Fighting and massacres follow the spread of settlement. The last officially sanctioned killings are at Coniston in 1928."
+      },
+      {
+        "when": "About 1910 to 1970",
+        "what": "The Stolen Generations",
+        "detail": "Governments remove Aboriginal children from their families under laws of protection and assimilation."
+      },
+      {
+        "when": "26 January 1938",
+        "what": "The Day of Mourning",
+        "detail": "On the 150th anniversary of the landing, Aboriginal leaders meet in Sydney to demand citizenship and equality."
+      },
+      {
+        "when": "1963 to 1966",
+        "what": "Petitions and walk-off",
+        "detail": "The Yolŋu send bark petitions against a mine on their land. Students ride through New South Wales to expose segregation. The Gurindji walk off Wave Hill."
+      },
+      {
+        "when": "27 May 1967",
+        "what": "The referendum",
+        "detail": "Australians vote to count Aboriginal people in the census and let the national parliament make laws for them."
+      },
+      {
+        "when": "1972 to 1976",
+        "what": "Land rights",
+        "detail": "The Tent Embassy is raised in Canberra. The Aboriginal flag, designed by Harold Thomas, flies there. A land rights law for the Northern Territory passes in 1976."
+      },
+      {
+        "when": "3 June 1992",
+        "what": "The Mabo decision",
+        "detail": "The High Court rejects the doctrine that Australia belonged to no one in 1788 and recognises native title."
+      },
+      {
+        "when": "13 February 2008",
+        "what": "The Apology",
+        "detail": "Prime Minister Kevin Rudd apologises in Parliament to the Stolen Generations."
+      },
+      {
+        "when": "2017 and 2023",
+        "what": "The Uluru Statement and the referendum",
+        "detail": "Delegates from across the country ask for a voice to Parliament, treaty and truth. The proposal for a voice is defeated at a referendum on 14 October 2023."
+      }
+    ],
+    "concepts": [
+      {
+        "term": "Country",
+        "text": "Land as kin.",
+        "detail": "Country includes everything within it and is addressed as a person. People speak to it, sing to it, worry about it and grieve for it."
+      },
+      {
+        "term": "The Dreaming",
+        "text": "Creation, law and the present.",
+        "detail": "The ancestral beings made the world and set down the law. Their actions are held in story and ceremony and fixed in the features of the land."
+      },
+      {
+        "term": "Songlines",
+        "text": "A continent mapped in song.",
+        "detail": "Each song cycle follows an ancestor’s route from place to place. To know the song is to know the way, the water and the law of each stretch."
+      },
+      {
+        "term": "Kinship",
+        "text": "Everyone is related.",
+        "detail": "Systems of sections and skin names give each person a known relationship, with its duties and its manners, to every other person and to the natural world."
+      },
+      {
+        "term": "Caring for Country",
+        "text": "Custodianship.",
+        "detail": "Looking after land is a religious, legal and practical duty. Fire, harvest and ceremony all keep Country healthy."
+      },
+      {
+        "term": "Law",
+        "text": "Given at the beginning and unchanged.",
+        "detail": "Aboriginal law covers marriage, land, ceremony, trade and punishment. It is held by senior men and women and taught over a lifetime."
+      },
+      {
+        "term": "Restricted knowledge",
+        "text": "Not everything is for everyone.",
+        "detail": "Some knowledge belongs only to men or to women, to particular clans or to the initiated. Respecting this is basic courtesy."
+      },
+      {
+        "term": "Sovereignty never ceded",
+        "text": "No treaty was made.",
+        "detail": "Unlike in New Zealand or North America, Britain signed no treaty with the peoples of Australia. Their claim to the land was never given up."
+      },
+      {
+        "term": "Deep time memory",
+        "text": "Stories that keep ancient events.",
+        "detail": "Stories from several coasts describe the sea rising at the end of the last ice age, some ten thousand years ago, and geologists have matched them to drowned shorelines."
+      }
+    ],
+    "facts": [
+      {
+        "text": "The Aboriginal flag is black for the people, red for the earth and yellow for the sun. Harold Thomas, a Luritja man, designed it in 1971."
+      },
+      {
+        "text": "Of more than 250 languages spoken in 1788, about 120 are still spoken and only a dozen or so are being learned by children as a first language."
+      },
+      {
+        "text": "Ground-edge axes found in northern Australia are the oldest in the world."
+      },
+      {
+        "text": "Indigenous Protected Areas make up about half of Australia’s national reserve system on land."
+      },
+      {
+        "text": "The name kangaroo comes from gangurru in the Guugu Yimithirr language of north Queensland, written down by James Cook’s party in 1770."
+      },
+      {
+        "text": "The census of 2021 counted 812,728 Aboriginal and Torres Strait Islander people. The official estimate of the true number is about 984,000."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Traditional Owners",
+        "meaning": "The people with ancestral rights and duties to a particular area"
+      },
+      {
+        "term": "First Nations",
+        "meaning": "A collective term for Aboriginal and Torres Strait Islander peoples"
+      },
+      {
+        "term": "Koori, Murri, Noongar, Nunga, Palawa",
+        "meaning": "Names that Aboriginal people of the south-east, Queensland, the south-west, South Australia and Tasmania use for themselves"
+      },
+      {
+        "term": "Native title",
+        "meaning": "The recognition in Australian law of rights to land under traditional law"
+      },
+      {
+        "term": "Terra nullius",
+        "meaning": "Land belonging to no one. The legal fiction on which Britain claimed Australia"
+      },
+      {
+        "term": "Yidaki",
+        "meaning": "The Yolŋu name for the instrument widely called the didgeridoo, which comes from Arnhem Land"
+      }
+    ],
+    "furtherReading": [
+      {
+        "title": "Aboriginal Australians: A History Since 1788",
+        "creator": "Richard Broome",
+        "year": "5th edition 2019",
+        "note": "The standard general history."
+      },
+      {
+        "title": "Fire Country: How Indigenous Fire Management Could Help Save Australia",
+        "creator": "Victor Steffensen",
+        "year": "2020",
+        "note": "A Tagalaka man describes learning to burn from two Elders and bringing the practice back."
+      },
+      {
+        "title": "Finding the Heart of the Nation",
+        "creator": "Thomas Mayo",
+        "year": "2019",
+        "note": "A Torres Strait Islander carries the Uluru Statement around the country and records the people he meets."
+      },
+      {
+        "title": "The Dreaming and Other Essays",
+        "creator": "W. E. H. Stanner",
+        "year": "2009",
+        "note": "The essays that changed how other Australians thought about Aboriginal religion and about their own silence."
+      }
+    ],
+    "learnFrom": [
+      {
+        "name": "AIATSIS",
+        "note": "The Australian Institute of Aboriginal and Torres Strait Islander Studies, with its map of Indigenous Australia and guides to respectful practice.",
+        "link": "https://aiatsis.gov.au"
+      },
+      {
+        "name": "Miriam Rose Foundation",
+        "note": "Founded by Miriam-Rose Ungunmerr-Baumann. Her own words on dadirri are here.",
+        "link": "https://www.miriamrosefoundation.org.au"
+      },
+      {
+        "name": "Common Ground",
+        "note": "A First Nations-led organisation that shares cultures, histories and lived experience for a general audience.",
+        "link": "https://www.commonground.org.au"
+      },
+      {
+        "name": "The Traditional Owners where you are",
+        "note": "Local land councils and cultural centres run tours, talks and language classes. Learn from the people of the place."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Dadirri: Inner Deep Listening and Quiet Still Awareness",
+        "creator": "Miriam-Rose Ungunmerr-Baumann",
+        "publisher": "Miriam Rose Foundation",
+        "year": "1988"
+      },
+      {
+        "title": "Aboriginal Australians: A History Since 1788",
+        "creator": "Richard Broome",
+        "publisher": "Allen and Unwin",
+        "year": "5th edition 2019"
+      },
+      {
+        "title": "Welcome to Country: A Travel Guide to Indigenous Australia",
+        "creator": "Marcia Langton",
+        "publisher": "Hardie Grant",
+        "year": "2018"
+      },
+      {
+        "title": "Songlines: The Power and Promise",
+        "creator": "Margo Neale and Lynne Kelly",
+        "publisher": "Thames and Hudson Australia",
+        "year": "2020"
+      },
+      {
+        "title": "Human occupation of northern Australia by 65,000 years ago",
+        "creator": "Chris Clarkson and others",
+        "publisher": "Nature, volume 547",
+        "year": "2017"
+      },
+      {
+        "title": "Yulunga: Traditional Indigenous Games",
+        "creator": "Ken Edwards",
+        "publisher": "Australian Sports Commission",
+        "year": "2008"
+      }
+    ]
+  },
+  "sensitivity": {
+    "note": "Aboriginal and Torres Strait Islander readers are advised that this Onda contains the names of people who have died. It was written by outsiders from published sources and uses only what Aboriginal teachers have shared publicly. It should be reviewed by Aboriginal readers.",
+    "requiredCaveats": [
+      "There is no single Aboriginal culture. Each word here belongs to a particular language and people, who are named, and customs differ from one Country to the next.",
+      "Ceremonies, sacred sites, designs and much traditional knowledge are restricted. Nothing in this Onda asks you to copy a ceremony, paint in an Aboriginal style or play the yidaki.",
+      "Colonisation is not in the past. Its effects on health, land, language and family are still being lived, and telling the truth about it is part of respect.",
+      "Buy art, food and tours from Aboriginal-owned businesses, and check that artists have been paid fairly."
+    ],
+    "reviewRequired": true
+  }
+}

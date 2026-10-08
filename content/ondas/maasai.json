@@ -1,0 +1,1243 @@
+{
+  "version": 1,
+  "id": "maasai",
+  "name": "Maasai",
+  "origin": "East Africa",
+  "era": "From about the 15th century to today",
+  "tone": "coral",
+  "icon": "cow",
+  "font": "rubik",
+  "pattern": "shuka-check",
+  "glyph": "Enkai",
+  "line": "Greet everyone with respect, walk your land, look after what is in your care and give when you are asked.",
+  "quote": {
+    "text": "One finger does not kill a louse.",
+    "by": "Maasai proverb",
+    "source": "Recorded by A. C. Hollis in The Masai: Their Language and Folklore, 1905. Nothing is done alone"
+  },
+  "quotes": [
+    {
+      "text": "The neck cannot go above the head.",
+      "by": "Maasai proverb",
+      "source": "On the respect owed to those who are older; in Naomi Kipury, Oral Literature of the Maasai, 1983"
+    },
+    {
+      "text": "The eye that has travelled is wise.",
+      "by": "Maasai proverb",
+      "source": "A common English rendering. One who has seen other places understands more"
+    },
+    {
+      "text": "Mountains do not meet, but people do.",
+      "by": "Maasai proverb",
+      "source": "Shared with other peoples of East Africa. Said at partings, and to those who quarrel"
+    },
+    {
+      "text": "God, give us children and cattle.",
+      "by": "Maasai prayer",
+      "source": "The usual petition of morning prayers and blessings, in a common English rendering"
+    },
+    {
+      "text": "A zebra does not despise its stripes.",
+      "by": "Maasai proverb",
+      "source": "Widely quoted as Maasai; the original Maa form is not given in the sources consulted",
+      "unverified": true
+    }
+  ],
+  "words": [
+    {
+      "id": "word-maa",
+      "term": "Maa",
+      "meaning": "The Maasai language",
+      "pronunciation": "MAH",
+      "language": "Maa",
+      "usage": "Maasai means the people who speak Maa. It is a Nilotic language, related to those of the upper Nile, and is shared with the Samburu and others."
+    },
+    {
+      "id": "word-enkai",
+      "term": "Enkai",
+      "meaning": "God; also sky and rain",
+      "pronunciation": "en-KYE",
+      "language": "Maa",
+      "usage": "One God. The word is grammatically feminine. Enkai is called the Black God when kind, like a rain cloud, and the Red God when angry, like the dry season."
+    },
+    {
+      "id": "word-enkanyit",
+      "term": "Enkanyit",
+      "meaning": "Respect",
+      "pronunciation": "en-KAH-nyit",
+      "language": "Maa",
+      "usage": "The first virtue. It means honour, obedience to elders, modesty and good manners, and it governs how every age and sex behaves toward the others."
+    },
+    {
+      "id": "word-osotua",
+      "term": "Osotua",
+      "meaning": "The umbilical cord; a bond",
+      "pronunciation": "oh-SOH-twah",
+      "language": "Maa",
+      "usage": "A lifelong partnership in which each gives to the other in real need, with no debt recorded and no repayment expected."
+    },
+    {
+      "id": "word-enkishon",
+      "term": "Enkishon",
+      "meaning": "Life; wellbeing",
+      "pronunciation": "en-kee-SHON",
+      "language": "Maa",
+      "usage": "The fullness of life that elders ask for in blessing: many children, many cattle, peace and old age."
+    },
+    {
+      "id": "word-inkishu",
+      "term": "Inkishu",
+      "meaning": "Cattle",
+      "pronunciation": "in-KEE-shoo",
+      "language": "Maa",
+      "usage": "The centre of Maasai life. Food, wealth, bride-gift, fine and sacrifice. Tradition says Enkai sent them down from the sky for the Maasai to keep."
+    },
+    {
+      "id": "word-enkiteng",
+      "term": "Enkiteng",
+      "meaning": "A cow",
+      "pronunciation": "en-KEE-teng",
+      "language": "Maa",
+      "usage": "Each animal is known by its colour, horn shape, temper and line of descent, and many have names."
+    },
+    {
+      "id": "word-eramatare",
+      "term": "Eramatare",
+      "meaning": "Herding; taking care",
+      "pronunciation": "eh-rah-mah-TAH-reh",
+      "language": "Maa",
+      "usage": "The management of livestock, pasture and water. The same word covers looking after people and land."
+    },
+    {
+      "id": "word-enkang",
+      "term": "Enkang",
+      "meaning": "A homestead",
+      "pronunciation": "en-KAHNG",
+      "language": "Maa",
+      "usage": "Several families’ houses in a ring inside a thorn fence, with the cattle brought into the middle at night."
+    },
+    {
+      "id": "word-enkaji",
+      "term": "Enkaji",
+      "meaning": "A house",
+      "pronunciation": "en-KAH-jee",
+      "language": "Maa",
+      "usage": "Low and loaf-shaped, built by the women from a frame of poles plastered with mud and cattle dung. A house belongs to the woman who built it."
+    },
+    {
+      "id": "word-emanyatta",
+      "term": "Emanyatta",
+      "meaning": "The warriors’ village",
+      "pronunciation": "eh-mahn-YAH-tah",
+      "language": "Maa",
+      "usage": "A camp built for an age-set of young men, where they live apart with their mothers and learn to govern themselves."
+    },
+    {
+      "id": "word-olporror",
+      "term": "Olporror",
+      "meaning": "An age-set",
+      "pronunciation": "ol-POR-ror",
+      "language": "Maa",
+      "usage": "All the men initiated in the same period of about fifteen years. They move through life together and are equals for good."
+    },
+    {
+      "id": "word-olmurrani",
+      "term": "Olmurrani",
+      "meaning": "A warrior",
+      "pronunciation": "ol-moo-RAH-nee",
+      "language": "Maa",
+      "usage": "A young man of the junior age grade, charged with protecting people and herds. The plural is ilmurran."
+    },
+    {
+      "id": "word-olpayian",
+      "term": "Olpayian",
+      "meaning": "An elder",
+      "pronunciation": "ol-PAH-yahn",
+      "language": "Maa",
+      "usage": "A married man who has left warriorhood. Elders hold authority, settle disputes and give blessings."
+    },
+    {
+      "id": "word-olaiguenani",
+      "term": "Olaiguenani",
+      "meaning": "The spokesman of an age-set",
+      "pronunciation": "oh-lye-gweh-NAH-nee",
+      "language": "Maa",
+      "usage": "Chosen for good sense and fair speech. He leads discussion and speaks for his fellows, and cannot give orders."
+    },
+    {
+      "id": "word-oloiboni",
+      "term": "Oloiboni",
+      "meaning": "A ritual expert and prophet",
+      "pronunciation": "oh-LOY-boh-nee",
+      "language": "Maa",
+      "usage": "A man of one particular family who divines, makes medicines and advises on ceremonies. Outsiders called him the laibon."
+    },
+    {
+      "id": "word-enkiguena",
+      "term": "Enkiguena",
+      "meaning": "A meeting; a discussion",
+      "pronunciation": "en-kee-GWEH-nah",
+      "language": "Maa",
+      "usage": "Matters are settled by talk under a tree, where each man may speak in turn until agreement is reached."
+    },
+    {
+      "id": "word-olosho",
+      "term": "Olosho",
+      "meaning": "A section; a territory",
+      "pronunciation": "oh-LOH-shoh",
+      "language": "Maa",
+      "usage": "One of the sixteen or so divisions of the Maasai, each with its own land and age-sets, such as the Purko, Kisongo and Loita."
+    },
+    {
+      "id": "word-enkop",
+      "term": "Enkop",
+      "meaning": "Land; earth",
+      "pronunciation": "en-KOP",
+      "language": "Maa",
+      "usage": "Held in common by a section. Families moved over it with the seasons, resting pasture as they went."
+    },
+    {
+      "id": "word-olchani",
+      "term": "Olchani",
+      "meaning": "A tree; a medicine",
+      "pronunciation": "ol-CHAH-nee",
+      "language": "Maa",
+      "usage": "One word for both. Almost every plant of the savanna has a use that herders learn as children."
+    },
+    {
+      "id": "word-oreteti",
+      "term": "Oreteti",
+      "meaning": "The wild fig tree",
+      "pronunciation": "oh-reh-TEH-tee",
+      "language": "Maa",
+      "usage": "A sacred tree, linked with Enkai. People pray and make offerings beneath it."
+    },
+    {
+      "id": "word-kule",
+      "term": "Kule",
+      "meaning": "Milk",
+      "pronunciation": "KOO-leh",
+      "language": "Maa",
+      "usage": "The daily food, drunk fresh or soured from a long gourd cleaned with a burning stick of wild olive."
+    },
+    {
+      "id": "word-olpul",
+      "term": "Olpul",
+      "meaning": "A meat camp",
+      "pronunciation": "ol-POOL",
+      "language": "Maa",
+      "usage": "A place in the bush where men withdraw to slaughter an animal, eat, rest and gather strength, with soups made from bark and roots."
+    },
+    {
+      "id": "word-adumu",
+      "term": "Adumu",
+      "meaning": "The jumping dance",
+      "pronunciation": "ah-DOO-moo",
+      "language": "Maa",
+      "usage": "Warriors take turns to leap straight up from a standing start, heels never touching the ground, while the others sing."
+    },
+    {
+      "id": "word-olkarasha",
+      "term": "Olkarasha",
+      "meaning": "The cloth worn as a wrap",
+      "pronunciation": "ol-kah-RAH-shah",
+      "language": "Maa",
+      "usage": "Usually red, often checked. Known across East Africa by the Swahili word shuka."
+    },
+    {
+      "id": "word-orinka",
+      "term": "Orinka",
+      "meaning": "A club",
+      "pronunciation": "oh-RIN-kah",
+      "language": "Maa",
+      "usage": "A short wooden club with a knob, carried by men. A black one is the sign of an elder or a leader."
+    },
+    {
+      "id": "word-supa",
+      "term": "Supa",
+      "meaning": "Hello",
+      "pronunciation": "SOO-pah",
+      "language": "Maa",
+      "usage": "The greeting to a man. The answer is ipa. A woman is greeted with takwenya and answers iko."
+    },
+    {
+      "id": "word-ashe-oleng",
+      "term": "Ashe oleng",
+      "meaning": "Thank you very much",
+      "pronunciation": "AH-sheh oh-LENG",
+      "language": "Maa",
+      "usage": "Ashe alone is thank you."
+    },
+    {
+      "id": "word-sere",
+      "term": "Sere",
+      "meaning": "Goodbye",
+      "pronunciation": "SEH-reh",
+      "language": "Maa",
+      "usage": "Said on parting."
+    },
+    {
+      "id": "word-emutai",
+      "term": "Emutai",
+      "meaning": "The wiping out",
+      "pronunciation": "eh-moo-TYE",
+      "language": "Maa",
+      "usage": "The Maasai name for the years 1883 to 1902, when cattle plague, smallpox and drought killed most of their herds and a great many people."
+    }
+  ],
+  "practices": [
+    {
+      "id": "greet",
+      "name": "Greet with respect",
+      "icon": "hand-waving",
+      "slot": "Morning",
+      "time": "07:30",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Greet every person you meet this morning, and take your time over it. Stop, look at them and ask how they are, and then how their family is. Let them answer. Greet older people first and let them speak first. With those you live or work with, do not begin on any business until the greetings are finished. Thank people aloud and say goodbye when you leave.",
+      "why": "Respect, enkanyit, is the first Maasai virtue, and greeting is where it shows. Greetings are long and ask after the home, the children and the cattle. A child greets an elder by bowing the head to be touched. To pass someone without greeting is an insult.",
+      "variations": [
+        "Learn the greetings in Maa: supa and ipa, takwenya and iko.",
+        "Ring an older relative only to ask how they are.",
+        "Greet a neighbour you have never spoken to."
+      ]
+    },
+    {
+      "id": "walk-the-land",
+      "name": "Walk your land",
+      "icon": "footprints",
+      "slot": "Morning",
+      "time": "08:30",
+      "minutes": 40,
+      "meta": "Morning · 40 min",
+      "instructions": "Walk for forty minutes at a steady pace through the place where you live, without headphones. Walk as a herder walks: upright, unhurried, looking far ahead. Notice the state of things. Where is the water. What is growing and what is dry. Which way the wind is blowing and what the sky is doing. Who is about. Learn the name of one plant, bird or place you pass.",
+      "why": "Herding is walking. A herder may cover twenty kilometres in a day, and boys begin with the calves and goats at about five. The work depends on knowing every stretch of pasture, each water point, the uses of the plants and the signs of the weather. Land was rested by moving on.",
+      "variations": [
+        "Carry a stick, as every herder does.",
+        "Walk the same route each week and note what has changed.",
+        "Find out where your water comes from."
+      ]
+    },
+    {
+      "id": "in-your-care",
+      "name": "Count what is in your care",
+      "icon": "cow",
+      "slot": "Afternoon",
+      "time": "13:00",
+      "minutes": 15,
+      "meta": "Afternoon · 15 min",
+      "instructions": "Name the living things and the people that depend on you: children, parents, animals, plants, a team, a friend in trouble. Go to each one today, in person if you can, and look at them properly. Is this one well. Has it eaten. Is anything wrong that you had not noticed. Do the one thing that most needs doing, before you do anything for yourself.",
+      "why": "A herder knows each animal in a herd of hundreds by its colour, its horns and its mother, and sees at once if one is missing or sick. Wealth is counted in what is alive and in your keeping. Maasai tradition holds that cattle were entrusted to them by Enkai, which makes the keeping a duty.",
+      "variations": [
+        "Check on someone in your care by going to see them.",
+        "Look after a plant or an animal daily for the month.",
+        "Find out which cattle breeds are kept where you live, and by whom."
+      ]
+    },
+    {
+      "id": "osotua",
+      "name": "Give when you are asked",
+      "icon": "hand-heart",
+      "slot": "Afternoon",
+      "time": "16:00",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "If someone asks you today for something they really need, give it if you can, and give no more than is needed. Do not write it down. Do not mention it again or expect it back. If nobody asks, think of one person with whom you could have this kind of bond, and one real need of your own that you have been too proud to ask help with. Ask.",
+      "why": "Maasai herders form partnerships called osotua, a word that also means the umbilical cord. A partner who is in real need may ask, and the other must give what he can spare. No debt is created and no account is kept, and the tie passes down to the children. Studies of the system show that it protects whole communities from drought.",
+      "variations": [
+        "Ask a friend for help with one real need.",
+        "Give without being thanked.",
+        "Find out how neighbours near you share in hard times."
+      ]
+    },
+    {
+      "id": "talk-it-through",
+      "name": "Talk it through at the fire",
+      "icon": "campfire",
+      "slot": "Evening",
+      "time": "19:30",
+      "minutes": 30,
+      "meta": "Evening · 30 min",
+      "instructions": "Sit down with the people you live with when the day’s work is over, around a fire, a candle or the table. Let the oldest speak first. If there is a matter to settle, let each person say their piece without being cut short, and go on until you find something all can accept. If there is nothing to settle, tell what you saw today, a story or a riddle. No screens.",
+      "why": "Maasai communities govern themselves by meeting. Men of an age-set gather under a tree, each may stand and speak holding his stick, and the spokesman draws the talk toward an agreement that all will keep. No one gives orders. In the evening, with the cattle safely in, grandmothers tell the children stories and riddles by the fire.",
+      "variations": [
+        "Hold a household meeting in which everyone speaks once before anyone speaks twice.",
+        "Ask the oldest person you know for a story from their childhood.",
+        "Learn a riddle and try it on a child."
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task-read-a-chapter-of-the-worlds-of-a-maasai-warrior",
+      "name": "Read a chapter of The Worlds of a Maasai Warrior",
+      "meta": "Read · Tepilit Ole Saitoti’s autobiography, 1986",
+      "time": "20:30",
+      "slot": "Evening",
+      "action": "read"
+    },
+    {
+      "id": "task-listen-to-maasai-call-and-response-singing",
+      "name": "Listen to Maasai call-and-response singing",
+      "meta": "Listen · voices only, with the chorus keeping the rhythm in the throat",
+      "time": "07:00",
+      "slot": "Morning",
+      "action": "listen"
+    },
+    {
+      "id": "task-look-closely-at-a-beaded-collar",
+      "name": "Look closely at a beaded collar",
+      "meta": "Art · and learn what each colour stands for",
+      "time": "13:30",
+      "slot": "Afternoon",
+      "action": "art"
+    },
+    {
+      "id": "task-play-a-game-of-enkeshui",
+      "name": "Play a game of enkeshui",
+      "meta": "Games · the Maasai form of the sowing game",
+      "time": "19:00",
+      "slot": "Evening",
+      "action": "games"
+    },
+    {
+      "id": "task-journal-who-and-what-is-in-your-care-and-how-are-they",
+      "name": "Journal: who and what is in your care, and how are they?",
+      "meta": "Journal · 10 min",
+      "time": "21:00",
+      "slot": "Evening",
+      "action": "journal"
+    },
+    {
+      "id": "task-can-land-belong-to-one-person",
+      "name": "Can land belong to one person?",
+      "meta": "Philosophy · 10 min",
+      "time": "09:30",
+      "slot": "Morning",
+      "action": "philosophy"
+    },
+    {
+      "id": "let-someone-older-speak-first-and-hear-them-out",
+      "name": "Let someone older speak first, and hear them out",
+      "meta": "Enkanyit",
+      "time": "11:00",
+      "slot": "Morning"
+    },
+    {
+      "id": "drink-a-glass-of-milk-slowly-and-think-where-it-came-from",
+      "name": "Drink a glass of milk slowly and think where it came from",
+      "meta": "Kule",
+      "time": "12:30",
+      "slot": "Afternoon"
+    },
+    {
+      "id": "do-one-task-together-with-the-people-of-your-own-age",
+      "name": "Do one task together with the people of your own age",
+      "meta": "The age-set",
+      "time": "17:00",
+      "slot": "Evening"
+    }
+  ],
+  "rules": [
+    {
+      "id": "r1",
+      "text": "Greet everyone",
+      "why": "Stop and ask after people and their families. Respect starts with a greeting."
+    },
+    {
+      "id": "r2",
+      "text": "Honour your elders",
+      "why": "Let them speak first and listen to the end. They have seen more seasons."
+    },
+    {
+      "id": "r3",
+      "text": "Look after what is in your care",
+      "why": "Know each one. See to their needs before your own."
+    },
+    {
+      "id": "r4",
+      "text": "Give to real need",
+      "why": "When a friend asks, give what you can and keep no account of it."
+    },
+    {
+      "id": "r5",
+      "text": "Stand with your age-mates",
+      "why": "Share with your peers as equals. Nothing is done with one finger."
+    },
+    {
+      "id": "r6",
+      "text": "Settle things by talking",
+      "why": "Let everyone speak, and stay until there is agreement."
+    }
+  ],
+  "immerse": {
+    "read": [
+      {
+        "id": "read-the-worlds-of-a-maasai-warrior-an-autobiography",
+        "title": "The Worlds of a Maasai Warrior: An Autobiography",
+        "creator": "Tepilit Ole Saitoti",
+        "year": "1986",
+        "why": "From herding as a boy in Tanzania and initiation as a warrior to study in the United States and the return home. The best first-hand account in English."
+      },
+      {
+        "id": "read-facing-the-lion-growing-up-maasai-on-the-african-savanna",
+        "title": "Facing the Lion: Growing Up Maasai on the African Savanna",
+        "creator": "Joseph Lemasolai Lekuton",
+        "year": "2003",
+        "why": "A short memoir of a nomadic childhood in northern Kenya, boarding school and the long walk between them. Written for young readers and good for anyone."
+      },
+      {
+        "id": "read-blossoms-of-the-savannah",
+        "title": "Blossoms of the Savannah",
+        "creator": "Henry R. ole Kulet",
+        "year": "2008",
+        "why": "A novel by a Maasai writer about two sisters who return from town to their father’s country and resist what is planned for them."
+      },
+      {
+        "id": "read-maasai",
+        "title": "Maasai",
+        "creator": "Tepilit Ole Saitoti, with photographs by Carol Beckwith",
+        "year": "1980",
+        "why": "The stages of life from birth to elderhood, described from inside and photographed with the families’ consent."
+      },
+      {
+        "id": "read-being-maasai-ethnicity-and-identity-in-east-africa",
+        "title": "Being Maasai: Ethnicity and Identity in East Africa",
+        "creator": "Edited by Thomas Spear and Richard Waller",
+        "year": "1993",
+        "why": "Essays by historians and anthropologists showing how varied the Maasai are and how the image of them was made."
+      },
+      {
+        "id": "read-oral-literature-of-the-maasai",
+        "title": "Oral Literature of the Maasai",
+        "creator": "Naomi Kipury",
+        "year": "1983",
+        "why": "Stories, proverbs, riddles and songs collected and translated by a Maasai scholar."
+      }
+    ],
+    "watch": [
+      {
+        "id": "watch-maasai-women",
+        "title": "Maasai Women",
+        "creator": "Melissa Llewelyn-Davies for Granada, Disappearing World",
+        "year": "1974",
+        "why": "Loita Maasai women talk about their own lives, marriages and work. Made by an anthropologist who spoke Maa."
+      },
+      {
+        "id": "watch-milking-the-rhino",
+        "title": "Milking the Rhino",
+        "creator": "David E. Simpson",
+        "year": "2009",
+        "why": "A Maasai community in Kenya turns from herding alone to running its own wildlife conservancy, and argues about the cost."
+      },
+      {
+        "id": "watch-warriors",
+        "title": "Warriors",
+        "creator": "Barney Douglas",
+        "year": "2015",
+        "why": "Young Maasai men form a cricket team and use it to argue with their elders for an end to the cutting of girls."
+      },
+      {
+        "id": "watch-enkipaata-eunoto-and-olng-esherr",
+        "title": "Enkipaata, Eunoto and Olng’esherr",
+        "creator": "UNESCO and the Government of Kenya",
+        "year": "2018",
+        "why": "A short film made with the community for the listing of the three male rites of passage as heritage in need of safeguarding."
+      }
+    ],
+    "listen": [
+      {
+        "id": "listen-songs-of-the-ilmurran",
+        "title": "Songs of the ilmurran",
+        "creator": "Maasai warriors; many field recordings exist",
+        "why": "A leader sings a line and the group answers, while a deep rhythmic breathing in the throat carries the beat. There are no drums."
+      },
+      {
+        "id": "listen-osiligi-maasai-warriors",
+        "title": "Osiligi Maasai Warriors",
+        "creator": "A troupe from Kajiado County, Kenya",
+        "why": "Traditional songs and dances performed on tour to pay for a school and water in their own community."
+      },
+      {
+        "id": "listen-maasai-hip-hop",
+        "title": "Maasai Hip Hop",
+        "creator": "X Plastaz",
+        "year": "2004",
+        "why": "A group from Arusha, Tanzania, who rap in Swahili and Maa over Maasai chant."
+      }
+    ],
+    "art": [
+      {
+        "id": "art-beaded-collars",
+        "title": "Beaded collars",
+        "creator": "Maasai women",
+        "why": "Flat discs of glass beads strung on wire, worn in layers. Red is for bravery and cattle, white for milk and peace, blue for the sky and rain, green for the land after rain."
+      },
+      {
+        "id": "art-the-painted-shield",
+        "title": "The painted shield",
+        "creator": "Maasai warriors",
+        "why": "Buffalo hide stretched on a frame and painted in red, white and black with designs that showed a man’s section and age-set. One appears on the flag of Kenya."
+      },
+      {
+        "id": "art-the-red-cloth",
+        "title": "The red cloth",
+        "creator": "Worn by men and women",
+        "why": "Checked or striped cotton in red, which is said to be the colour that lions fear. It replaced dressed hides in the twentieth century."
+      },
+      {
+        "id": "art-the-milk-gourd",
+        "title": "The milk gourd",
+        "creator": "Maasai women",
+        "why": "A long calabash with a leather cap and strap, often trimmed with beads and cowrie shells. Each member of a household has their own."
+      }
+    ],
+    "eat": [
+      {
+        "id": "eat-milk",
+        "title": "Milk",
+        "creator": "Fresh or soured, from a gourd",
+        "why": "The staple. A family’s herd is managed so that there is milk through the year."
+      },
+      {
+        "id": "eat-roast-meat",
+        "title": "Roast meat",
+        "creator": "Goat or beef, grilled on sticks beside the fire",
+        "why": "Eaten at celebrations and meat camps. Known across Kenya as nyama choma."
+      },
+      {
+        "id": "eat-ugali",
+        "title": "Ugali",
+        "creator": "Stiff maize porridge",
+        "why": "Now the everyday food of most Maasai families, eaten with milk or greens."
+      },
+      {
+        "id": "eat-soup-with-bark-and-roots",
+        "title": "Soup with bark and roots",
+        "creator": "Meat broth boiled with medicinal plants",
+        "why": "Made at the meat camp, bitter and strengthening."
+      }
+    ],
+    "drink": [
+      {
+        "id": "drink-soured-milk",
+        "title": "Soured milk",
+        "creator": "Kule naoto",
+        "why": "Left to thicken in a smoked gourd, which gives it a taste of wood smoke."
+      },
+      {
+        "id": "drink-chai",
+        "title": "Chai",
+        "creator": "Tea boiled with milk and plenty of sugar",
+        "why": "Offered to every visitor."
+      },
+      {
+        "id": "drink-honey-beer",
+        "title": "Honey beer",
+        "creator": "Brewed from honey and water with the roots of an aloe",
+        "why": "Made for elders, and needed for blessings at ceremonies."
+      }
+    ],
+    "customs": [
+      {
+        "id": "customs-the-child-s-greeting",
+        "title": "The child’s greeting",
+        "creator": "A bowed head",
+        "why": "A child comes to an elder and lowers the head, and the elder touches it lightly with a hand."
+      },
+      {
+        "id": "customs-blessing",
+        "title": "Blessing",
+        "creator": "Elders bless the young",
+        "why": "An elder blesses by sprinkling milk or honey beer from a tuft of grass, or with a light spray of spittle, which is a mark of goodwill."
+      },
+      {
+        "id": "customs-grass-for-peace",
+        "title": "Grass for peace",
+        "creator": "A handful held up",
+        "why": "Grass feeds the cattle and is a sign of peace. A tuft tied to a gourd or held in the hand asks for a truce or a blessing."
+      },
+      {
+        "id": "customs-building-the-house",
+        "title": "Building the house",
+        "creator": "Women’s work",
+        "why": "Women build, repair and own the houses, and can put one up in a matter of days."
+      }
+    ],
+    "games": [
+      {
+        "id": "games-enkeshui",
+        "title": "Enkeshui",
+        "creator": "Board game · Maasai",
+        "year": "traditional",
+        "why": "A sowing game of the mancala family, played by elders on a long wooden board with rows of hollows and seeds or pebbles."
+      },
+      {
+        "id": "games-the-maasai-olympics",
+        "title": "The Maasai Olympics",
+        "creator": "Athletics · Kenya",
+        "year": "since 2012",
+        "why": "Warriors from the villages around Amboseli compete at running, spear and club throwing and the standing high jump. The elders set it up to take the place of lion hunting."
+      },
+      {
+        "id": "games-riddles",
+        "title": "Riddles",
+        "creator": "Word game · Maasai",
+        "year": "traditional",
+        "why": "Played in the evening between children and grandmothers, with a set opening exchange before each riddle."
+      },
+      {
+        "id": "games-jumping",
+        "title": "Jumping",
+        "creator": "Contest · Maasai",
+        "year": "traditional",
+        "why": "The high standing leap of the adumu is a test of strength and style among age-mates."
+      }
+    ],
+    "festivals": [
+      {
+        "id": "fest-eunoto",
+        "title": "Eunoto",
+        "creator": "Once for each age-set, about every fifteen years",
+        "why": "The ceremony at which warriors become senior. Their mothers shave off their long hair. It belongs to the families concerned and is not a show."
+      },
+      {
+        "id": "fest-enkipaata",
+        "title": "Enkipaata",
+        "creator": "Before a new age-set is opened",
+        "why": "Boys travel their section together to announce the forming of a new age-set."
+      },
+      {
+        "id": "fest-the-maasai-olympics",
+        "title": "The Maasai Olympics",
+        "creator": "Every second December, Kimana, Kenya",
+        "why": "A public day of sport at the foot of Kilimanjaro, open to visitors."
+      },
+      {
+        "id": "fest-maa-cultural-festival",
+        "title": "Maa Cultural Festival",
+        "creator": "November, Kenya",
+        "why": "A gathering of the Maa-speaking communities of several counties, first held in the Maasai Mara in 2023."
+      }
+    ],
+    "places": [
+      {
+        "id": "place-maasai-mara-and-its-conservancies",
+        "title": "Maasai Mara and its conservancies",
+        "creator": "Narok County, Kenya",
+        "why": "Grassland where Maasai families lease their land together as wildlife conservancies and go on herding. Stay in one that is owned by the community."
+      },
+      {
+        "id": "place-amboseli",
+        "title": "Amboseli",
+        "creator": "Kajiado County, Kenya",
+        "why": "Swamps and plains beneath Kilimanjaro, long used as dry-season grazing. The surrounding group ranches are Maasai land."
+      },
+      {
+        "id": "place-ngorongoro",
+        "title": "Ngorongoro",
+        "creator": "Arusha Region, Tanzania",
+        "why": "A great volcanic crater and highlands set aside in 1959 as a place for both wildlife and Maasai herders. Their right to stay is now disputed."
+      },
+      {
+        "id": "place-ol-doinyo-lengai",
+        "title": "Ol Doinyo Lengai",
+        "creator": "Near Lake Natron, Tanzania",
+        "why": "The Mountain of God, an active volcano where people go to pray for rain and for children."
+      },
+      {
+        "id": "place-the-loita-forest",
+        "title": "The Loita Forest",
+        "creator": "Narok County, Kenya",
+        "why": "The Forest of the Lost Child, a highland forest kept by the Loita Maasai and their ritual leaders. Go only with a local guide."
+      },
+      {
+        "id": "place-il-ngwesi",
+        "title": "Il Ngwesi",
+        "creator": "Laikipia County, Kenya",
+        "why": "A lodge and conservancy owned and run since 1996 by a Maasai community."
+      }
+    ]
+  },
+  "ethics": [
+    {
+      "title": "Respect",
+      "text": "Enkanyit. Give each person the honour due to their age and place.",
+      "practice": "Show respect today to someone you usually take for granted."
+    },
+    {
+      "title": "Courage",
+      "text": "A person must be able to stand firm and protect others.",
+      "practice": "Do one thing you are afraid of for the sake of someone else."
+    },
+    {
+      "title": "Generosity",
+      "text": "A guest is fed, and a friend in need is given what he asks.",
+      "practice": "Give something today before you are thanked for it."
+    },
+    {
+      "title": "Solidarity",
+      "text": "Age-mates share everything and no one eats alone.",
+      "practice": "Share a meal with your peers."
+    },
+    {
+      "title": "Self-command",
+      "text": "Do not show pain, anger or greed.",
+      "practice": "Hold back one complaint."
+    },
+    {
+      "title": "Stewardship",
+      "text": "Cattle and land are held in trust for those who come after.",
+      "practice": "Leave one thing in better condition than you found it."
+    }
+  ],
+  "philosophy": [
+    {
+      "title": "Wealth is what is alive",
+      "text": "A rich person is one with many cattle and many children. Both must be cared for daily and neither can be hoarded.",
+      "practice": "What is your wealth if you count only what is alive?"
+    },
+    {
+      "title": "Age as order",
+      "text": "Authority comes with age. Everyone will hold it in turn, and no one holds it early.",
+      "practice": "What will you be trusted with when you are older?"
+    },
+    {
+      "title": "The age-set",
+      "text": "Men who were initiated together are equals for life, whatever each later owns.",
+      "practice": "Who are your equals for life?"
+    },
+    {
+      "title": "Land in common",
+      "text": "Pasture belongs to the section. The herder uses it and moves on.",
+      "practice": "What do you use that you do not need to own?"
+    },
+    {
+      "title": "Giving without debt",
+      "text": "In osotua nothing is owed. Need alone is the claim.",
+      "practice": "Whose need has a claim on you?"
+    },
+    {
+      "title": "Black God and Red God",
+      "text": "One God sends both the rain and the drought.",
+      "practice": "How do you hold together what blesses you and what harms you?"
+    },
+    {
+      "title": "Agreement over command",
+      "text": "A leader speaks for his people and cannot order them.",
+      "practice": "Where do you give orders when you should be seeking agreement?"
+    },
+    {
+      "title": "Change and continuity",
+      "text": "Maasai have changed their customs before and are doing so now, on their own terms.",
+      "practice": "What would you change in order to keep what matters?"
+    }
+  ],
+  "journal": [
+    "Who and what is in your care, and how are they?",
+    "Whom did you greet today, and how?",
+    "What did you see on your walk?",
+    "Who asked you for something?",
+    "What did you ask for?",
+    "Who are your age-mates?",
+    "Which elder did you listen to?",
+    "What did they know that you did not?",
+    "What is your wealth, counted in living things?",
+    "What did you hold back?",
+    "Where was courage asked of you?",
+    "What was settled by talking?",
+    "Who had not yet spoken?",
+    "What land do you know well?",
+    "Where does your water come from?",
+    "What plant can you name and use?",
+    "What do you use without owning?",
+    "Whom do you owe that keeps no account?",
+    "What blessing would you ask for?",
+    "What blessing could you give?",
+    "What has your family lost and survived?",
+    "Who taught you to walk?",
+    "What did the weather tell you?",
+    "Whom did you pass without greeting?",
+    "What is being kept in trust by you?",
+    "What should change, and who decides?",
+    "What story did you tell?",
+    "What made you proud of where you come from?",
+    "What does respect look like in your home?",
+    "What will you hand on?"
+  ],
+  "reflect": [
+    "What changed when you greeted everyone?",
+    "What do you now know about your own land?",
+    "How are those in your care?",
+    "With whom do you have a bond of need?",
+    "What did the evenings by the fire settle?",
+    "Which rule will you keep?"
+  ],
+  "dayThemes": [
+    "The greeting",
+    "Respect",
+    "The elders",
+    "The child’s bowed head",
+    "The herd",
+    "Know each one",
+    "The walk",
+    "Grass",
+    "Water",
+    "Rain",
+    "Milk",
+    "The homestead",
+    "The house",
+    "The age-set",
+    "One finger",
+    "The warrior",
+    "Courage",
+    "Self-command",
+    "The meeting tree",
+    "The spokesman",
+    "The bond",
+    "Giving",
+    "Land in common",
+    "The fig tree",
+    "Black God and Red God",
+    "The wiping out",
+    "The moving",
+    "The beads",
+    "The fire",
+    "Blessing"
+  ],
+  "guide": {
+    "intro": [
+      "The Maasai are a people of the high grasslands that run along the Great Rift Valley from central Kenya into northern Tanzania. They speak Maa, a language of the Nilotic family, and their own traditions and the evidence of language agree that their ancestors came south from the region of the upper Nile, reaching their present country in stages from about the fifteenth century. By the middle of the nineteenth century they held a territory some eleven hundred kilometres long. The census of Kenya in 2019 counted nearly 1.2 million Maasai, and there are perhaps as many again in Tanzania.",
+      "Their way of life is built on cattle. Traditional belief holds that Enkai, the one God, who is also the sky and the rain, let cattle down from heaven and gave them to the Maasai to keep. Milk is the daily food, with meat on occasions, and sheep and goats are kept as well. Because rain on the savanna is patchy, herders have always moved with the seasons, grazing one area and letting another rest. Land belonged to the section, not to individuals. Families live in a ring of houses inside a thorn fence, with the animals in the middle at night. The women build the houses.",
+      "Society is organised by age. Every fifteen years or so a new age-set is opened, and the boys initiated into it become warriors together, charged with protecting the herds and the community. They later graduate together into elderhood, when they marry, manage herds and take part in the councils where matters are settled by long discussion. Each age-set chooses a spokesman, who leads by persuasion. There have never been chiefs or kings. Ritual experts called iloibonok give advice and blessing. Women pass through their own stages, own their houses and the milk, and are known for beadwork whose colours all have meanings.",
+      "At the end of the nineteenth century disaster struck. Between 1883 and 1902 cattle lung disease, rinderpest, smallpox and drought killed most of the herds and a large part of the people. The Maasai call it the Emutai, the wiping out. British and German colonial rule arrived in the same years. By agreements of 1904 and 1911 the British moved the Maasai of Kenya off their best northern pastures to make room for settlers, and they lost more than half their land. Later, more was taken for the national parks and reserves that visitors know: the Serengeti, Amboseli, the Mara.",
+      "The pressure has continued since independence through farms, fences, the dividing of common land into private plots and, in Tanzania, removals for conservation and hunting areas. Maasai communities have answered in many ways. Some run their own wildlife conservancies. Many are Christian, most children go to school, and there are Maasai doctors, lawyers, novelists, members of parliament and athletes. Campaigners from within the community have worked to end the cutting of girls and early marriage, and to defend land rights in court.",
+      "The picture of the tall red-robed warrior with a spear is known around the world, and has been used to sell everything from safaris to cars, usually without asking. Real Maasai life is more varied than the picture and belongs to the people who live it.",
+      "This Onda takes its practices from everyday Maasai values and not from any ceremony: a proper greeting, walking the land, care for what depends on you, giving in need and talking things through."
+    ],
+    "origin": "The Great Rift Valley of southern Kenya and northern Tanzania",
+    "era": "Maa speakers moved south into the Rift Valley from about the fifteenth century. Around two million Maasai live there now",
+    "figures": [
+      {
+        "name": "Mbatian",
+        "dates": "died 1890",
+        "bio": "The most influential oloiboni of the nineteenth century, who is said to have foretold the coming of disease and of white men. A peak of Mount Kenya bears his name."
+      },
+      {
+        "name": "Olonana",
+        "dates": "about 1870 to 1911",
+        "bio": "Mbatian’s son, known to the British as Lenana. He was recognised by them as paramount chief, a post the Maasai had never had, and signed the agreement of 1904."
+      },
+      {
+        "name": "Senteu",
+        "dates": "about 1870 to 1933",
+        "bio": "Olonana’s brother and rival for their father’s position. The war between their followers in the 1890s deepened the ruin of those years."
+      },
+      {
+        "name": "Parsaloi ole Gilisho",
+        "dates": "about 1875 to 1939",
+        "bio": "Spokesman of the Purko warriors, who opposed the second move and in 1913 took the British government to court. The case was dismissed on a technicality."
+      },
+      {
+        "name": "Edward Moringe Sokoine",
+        "dates": "1938 to 1984",
+        "bio": "A Maasai from Monduli who was twice prime minister of Tanzania, respected for his honesty. He died in a road accident."
+      },
+      {
+        "name": "William ole Ntimama",
+        "dates": "1927 to 2016",
+        "bio": "A teacher who became the leading Maasai politician in Kenya for four decades and a fierce defender of Maasai land."
+      },
+      {
+        "name": "Tepilit Ole Saitoti",
+        "dates": "born 1949",
+        "bio": "Writer and naturalist from Tanzania whose books told the world about Maasai life from the inside."
+      },
+      {
+        "name": "Henry R. ole Kulet",
+        "dates": "1946 to 2021",
+        "bio": "Kenyan novelist who wrote nine novels about Maasai society in a time of change."
+      },
+      {
+        "name": "Kakenya Ntaiya",
+        "dates": "born 1978",
+        "bio": "From Enoosaen in Kenya. She bargained with her father and her village elders to continue her schooling, earned a doctorate and came home to found a school for girls."
+      },
+      {
+        "name": "Nice Nailantei Leng'ete",
+        "dates": "born 1991",
+        "bio": "Ran away from the cut as a child and later persuaded the elders of her area to accept rites of passage for girls without it. Thousands of girls have gone through them."
+      },
+      {
+        "name": "David Rudisha",
+        "dates": "born 1988",
+        "bio": "From Kilgoris. Twice Olympic champion at 800 metres, he set the world record of 1 minute 40.91 seconds in London in 2012."
+      },
+      {
+        "name": "Richard Turere",
+        "dates": "born about 2000",
+        "bio": "As a boy herding beside Nairobi National Park he built a system of flashing lights that keeps lions away from cattle pens at night. It is now used across Kenya."
+      }
+    ],
+    "history": [
+      {
+        "when": "Before 1500",
+        "what": "The move south",
+        "detail": "Maa-speaking herders move from the area north-west of Lake Turkana down the Rift Valley over several centuries."
+      },
+      {
+        "when": "17th and 18th centuries",
+        "what": "Into the highlands",
+        "detail": "Maasai sections spread across the plains of central Kenya and northern Tanzania, displacing or absorbing earlier herders."
+      },
+      {
+        "when": "Mid-19th century",
+        "what": "The widest extent",
+        "detail": "Maasai country reaches from Laikipia in the north to the steppe south of Arusha. Wars are fought between sections over pasture."
+      },
+      {
+        "when": "1883 to 1902",
+        "what": "The Emutai",
+        "detail": "Lung disease among cattle in 1883, rinderpest in 1891, smallpox in 1892 and years of drought. An Austrian traveller reported that two-thirds of the Maasai in the south had died."
+      },
+      {
+        "when": "1890",
+        "what": "The death of Mbatian",
+        "detail": "His sons Olonana and Senteu fight over the succession through the worst of the famine."
+      },
+      {
+        "when": "1895",
+        "what": "British and German rule",
+        "detail": "Britain declares the East Africa Protectorate. The border with German East Africa cuts Maasai country in two."
+      },
+      {
+        "when": "1904",
+        "what": "The first agreement",
+        "detail": "The Maasai of the central Rift are moved into two reserves, north and south, which are promised to them for as long as they exist as a people."
+      },
+      {
+        "when": "1911 to 1913",
+        "what": "The second move",
+        "detail": "The northern reserve on Laikipia is taken for settlers and some twenty thousand people and their herds are marched south at gunpoint. Many die on the way."
+      },
+      {
+        "when": "1951 to 1959",
+        "what": "The Serengeti",
+        "detail": "A national park is declared. In 1959 the Maasai living in it are moved to Ngorongoro on a promise that their rights there will come first."
+      },
+      {
+        "when": "1961 and 1963",
+        "what": "Independence",
+        "detail": "Tanganyika and then Kenya become independent. The new governments press herders to settle."
+      },
+      {
+        "when": "1968",
+        "what": "Group ranches",
+        "detail": "Kenyan law gives groups of Maasai title to blocks of land. From the 1980s many are divided into private plots, and much is sold."
+      },
+      {
+        "when": "From 2005",
+        "what": "Community conservancies",
+        "detail": "Landowners around the Mara and elsewhere pool their plots as conservancies that earn rent from tourism while grazing continues."
+      },
+      {
+        "when": "2018",
+        "what": "Heritage listing",
+        "detail": "UNESCO lists three Maasai male rites of passage as heritage in need of urgent safeguarding."
+      },
+      {
+        "when": "2022",
+        "what": "Loliondo and Ngorongoro",
+        "detail": "Tanzanian security forces move to fence off grazing land at Loliondo for a game reserve. People are injured and thousands flee. Relocation from Ngorongoro continues."
+      }
+    ],
+    "concepts": [
+      {
+        "term": "Pastoralism",
+        "text": "Living from herds on open range.",
+        "detail": "A skilled way of using dry grassland that cannot be farmed. It depends on mobility, shared access to land and close knowledge of animals and plants."
+      },
+      {
+        "term": "The age-set system",
+        "text": "A society ordered by age.",
+        "detail": "Each man belongs for life to the set he was initiated with. Sets move together through the grades of warrior, junior elder, senior elder and retired elder, and each grade has its duties."
+      },
+      {
+        "term": "Enkanyit",
+        "text": "Respect as the basis of order.",
+        "detail": "Without chiefs or police, order rests on trained respect: of young for old, of age-mates for each other, of hosts for guests."
+      },
+      {
+        "term": "Osotua",
+        "text": "Risk shared through bonds of need.",
+        "detail": "Each herder keeps several such partners in different places. When drought or disease strikes one area, help comes from another."
+      },
+      {
+        "term": "Enkai",
+        "text": "One God of sky and rain.",
+        "detail": "Prayed to at dawn and in every blessing, without temples or priests. Many Maasai are now Christian and use the same name for God."
+      },
+      {
+        "term": "Sections",
+        "text": "A people of peoples.",
+        "detail": "The Maasai are a number of territorial sections with their own customs and dialects. They have never had a single government."
+      },
+      {
+        "term": "Commons",
+        "text": "Land held together.",
+        "detail": "Grazing was open to all members of a section and managed by agreement among elders, with some areas kept in reserve for the dry season."
+      },
+      {
+        "term": "Blessing and curse",
+        "text": "The power of elders’ words.",
+        "detail": "The blessing of an elder is sought at every step of life. His curse is feared, and the fear of it is the main sanction against wrongdoing."
+      },
+      {
+        "term": "Coexistence with wildlife",
+        "text": "Herds and wild animals on one land.",
+        "detail": "Maasai did not hunt for food and their grazing kept the plains open. Most of East Africa’s great wildlife areas are former Maasai land."
+      }
+    ],
+    "facts": [
+      {
+        "text": "Many place names in Kenya and Tanzania are Maa. Nairobi comes from the words for the place of cool waters, and Serengeti from a word for an endless plain."
+      },
+      {
+        "text": "The flag of Kenya shows a Maasai shield and two spears."
+      },
+      {
+        "text": "Maasai traditionally did not eat wild game or birds, and did not dig the earth."
+      },
+      {
+        "text": "The English name of the Olduvai Gorge is a misheard form of oldupai, the Maa word for the wild sisal that grows there."
+      },
+      {
+        "text": "The Maa language has separate words for a great many cattle colours and patterns."
+      },
+      {
+        "text": "Kenya’s 2019 census counted 1,189,522 Maasai."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Laibon",
+        "meaning": "The anglicised form of oloiboni, a ritual expert"
+      },
+      {
+        "term": "Moran",
+        "meaning": "The anglicised form of olmurrani, a warrior"
+      },
+      {
+        "term": "Manyatta",
+        "meaning": "Used in English for any Maasai settlement, though the Maa word means the warriors’ village only"
+      },
+      {
+        "term": "Shuka",
+        "meaning": "The Swahili word for the cloth wrap"
+      },
+      {
+        "term": "Rinderpest",
+        "meaning": "A viral cattle plague brought to Africa in the 1880s, declared eradicated worldwide in 2011"
+      },
+      {
+        "term": "Conservancy",
+        "meaning": "Land set aside for wildlife by its owners, often with grazing allowed"
+      }
+    ],
+    "furtherReading": [
+      {
+        "title": "Once Intrepid Warriors: Gender, Ethnicity and the Cultural Politics of Maasai Development",
+        "creator": "Dorothy L. Hodgson",
+        "year": "2001",
+        "note": "How colonial rule and development schemes changed the standing of Maasai men and women."
+      },
+      {
+        "title": "The Maasai of Matapato: A Study of Rituals of Rebellion",
+        "creator": "Paul Spencer",
+        "year": "1988",
+        "note": "A detailed account of the age system in one Kenyan section."
+      },
+      {
+        "title": "Moving the Maasai: A Colonial Misadventure",
+        "creator": "Lotte Hughes",
+        "year": "2006",
+        "note": "The history of the forced moves of 1904 to 1913 and the court case that followed."
+      },
+      {
+        "title": "Staying Maasai? Livelihoods, Conservation and Development in East African Rangelands",
+        "creator": "Edited by Katherine Homewood, Patti Kristjanson and Pippa Chenevix Trench",
+        "year": "2009",
+        "note": "What families live on now, measured across several regions."
+      }
+    ],
+    "learnFrom": [
+      {
+        "name": "Kakenya’s Dream",
+        "note": "Schools and health programmes for girls in rural Kenya, founded and led by Kakenya Ntaiya.",
+        "link": "https://www.kakenyasdream.org"
+      },
+      {
+        "name": "Pastoral Women’s Council",
+        "note": "An organisation of Maasai women in northern Tanzania working on education, land rights and livelihoods.",
+        "link": "https://www.pastoralwomenscouncil.org"
+      },
+      {
+        "name": "Maasai Wilderness Conservation Trust",
+        "note": "A Maasai-led trust in the Chyulu Hills of Kenya that links conservation with health and schooling.",
+        "link": "https://maasaiwilderness.org"
+      },
+      {
+        "name": "A Maasai guide or host",
+        "note": "If you visit, stay in a conservancy or lodge owned by the community and learn from the people whose land it is."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Being Maasai: Ethnicity and Identity in East Africa",
+        "creator": "Thomas Spear and Richard Waller, editors",
+        "publisher": "James Currey",
+        "year": "1993"
+      },
+      {
+        "title": "The Maasai of Matapato: A Study of Rituals of Rebellion",
+        "creator": "Paul Spencer",
+        "publisher": "Manchester University Press",
+        "year": "1988"
+      },
+      {
+        "title": "Moving the Maasai: A Colonial Misadventure",
+        "creator": "Lotte Hughes",
+        "publisher": "Palgrave Macmillan",
+        "year": "2006"
+      },
+      {
+        "title": "The Worlds of a Maasai Warrior: An Autobiography",
+        "creator": "Tepilit Ole Saitoti",
+        "publisher": "Random House",
+        "year": "1986"
+      },
+      {
+        "title": "Oral Literature of the Maasai",
+        "creator": "Naomi Kipury",
+        "publisher": "Heinemann Educational Books",
+        "year": "1983"
+      },
+      {
+        "title": "Risk-Pooling and Herd Survival: An Agent-Based Model of a Maasai Gift-Giving System",
+        "creator": "C. Athena Aktipis, Lee Cronk and Rolando de Aguiar",
+        "publisher": "Human Ecology, volume 39",
+        "year": "2011"
+      }
+    ]
+  },
+  "sensitivity": {
+    "note": "The Maasai are a living people with their own voices, and this Onda was written by outsiders from published sources. It borrows only everyday values such as greeting, care and sharing. It does not ask you to dress as a Maasai or to copy any ceremony, and it should be checked by Maasai readers.",
+    "requiredCaveats": [
+      "Initiation and the other rites of passage belong to Maasai families and are not practices for anyone else.",
+      "The Maasai image and name are widely used in advertising and tourism without consent or payment. Buy beadwork from the women who make it and choose lodges owned by the community.",
+      "Customs differ between sections and between Kenya and Tanzania, and many Maasai live in towns, are Christian, or herd no cattle at all.",
+      "Some customs, including the cutting of girls and early marriage, are opposed and being changed by Maasai campaigners themselves. Spellings and translations of Maa words here follow English-language sources and may be imperfect."
+    ],
+    "reviewRequired": true
+  }
+}

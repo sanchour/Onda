@@ -833,3 +833,35 @@ Framing note shown in the app: This Onda borrows the working habits of Renaissan
 Marked `unverified` (1):
 
 - Quote: "I am still learning." (Attributed to Michelangelo; Ancora imparo. An older motto, found on a sixteenth-century print of an old man in a child’s walker; its link to Michelangelo is tradition)
+
+## Maasai
+
+File: `content/ondas/maasai.json` · version 1 · about 5300 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
+
+**Needs review by tradition bearers before launch.** The Maasai are a living people with their own voices, and this Onda was written by outsiders from published sources. It borrows only everyday values such as greeting, care and sharing. It does not ask you to dress as a Maasai or to copy any ceremony, and it should be checked by Maasai readers.
+
+Caveats shown in the app:
+
+- Initiation and the other rites of passage belong to Maasai families and are not practices for anyone else.
+- The Maasai image and name are widely used in advertising and tourism without consent or payment. Buy beadwork from the women who make it and choose lodges owned by the community.
+- Customs differ between sections and between Kenya and Tanzania, and many Maasai live in towns, are Christian, or herd no cattle at all.
+- Some customs, including the cutting of girls and early marriage, are opposed and being changed by Maasai campaigners themselves. Spellings and translations of Maa words here follow English-language sources and may be imperfect.
+
+Marked `unverified` (1):
+
+- Quote: "A zebra does not despise its stripes." (Maasai proverb; Widely quoted as Maasai; the original Maa form is not given in the sources consulted)
+
+## Aboriginal Australian
+
+File: `content/ondas/aboriginal.json` · version 1 · about 5700 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
+
+**Needs review by tradition bearers before launch.** Aboriginal and Torres Strait Islander readers are advised that this Onda contains the names of people who have died. It was written by outsiders from published sources and uses only what Aboriginal teachers have shared publicly. It should be reviewed by Aboriginal readers.
+
+Caveats shown in the app:
+
+- There is no single Aboriginal culture. Each word here belongs to a particular language and people, who are named, and customs differ from one Country to the next.
+- Ceremonies, sacred sites, designs and much traditional knowledge are restricted. Nothing in this Onda asks you to copy a ceremony, paint in an Aboriginal style or play the yidaki.
+- Colonisation is not in the past. Its effects on health, land, language and family are still being lived, and telling the truth about it is part of respect.
+- Buy art, food and tours from Aboriginal-owned businesses, and check that artists have been paid fairly.
+
+Nothing is marked `unverified`.

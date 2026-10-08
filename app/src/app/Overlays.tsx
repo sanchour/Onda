@@ -190,6 +190,29 @@ function ServiceWorkerBridge() {
   return null
 }
 
+/** Fetches the newest version and restarts into it. For when the Reload prompt was missed. */
+export async function fetchLatestVersion(): Promise<void> {
+  const reg = 'serviceWorker' in navigator ? await navigator.serviceWorker.getRegistration().catch(() => undefined) : undefined
+  if (!reg) return location.reload()
+  await reg.update().catch(() => undefined)
+  const pending = reg.installing
+  if (pending && !reg.waiting) {
+    await new Promise<void>((done) => {
+      const t = setTimeout(done, 15000)
+      pending.addEventListener('statechange', () => {
+        if (pending.state === 'installed' || pending.state === 'redundant') {
+          clearTimeout(t)
+          done()
+        }
+      })
+    })
+  }
+  if (!reg.waiting) return location.reload()
+  navigator.serviceWorker.addEventListener('controllerchange', () => location.reload(), { once: true })
+  reg.waiting.postMessage({ type: 'SKIP_WAITING' })
+  setTimeout(() => location.reload(), 3000)
+}
+
 export function Overlays() {
   return (
     <>

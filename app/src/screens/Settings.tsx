@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next'
 import { hasPlus } from '@/data/entitlement'
 import { activityByDate, currentStreak } from '@/data/derive/stats'
 import { useLagos, usePlus, useSettings } from '@/data/hooks'
+import { fetchLatestVersion } from '@/app/Overlays'
 import { useStore } from '@/data/store'
 import type { Settings as SettingsT } from '@/data/types'
 import { disableLock, enableLock, lockSupported } from '@/lib/applock'
@@ -24,7 +25,7 @@ import { RulerPicker } from '@/ui/pickers'
 import m from './more.module.css'
 import s from './screens.module.css'
 
-const APP_VERSION = '3.0'
+const APP_VERSION = '5.0'
 const BUILD = '1'
 const HUB: [string, SettingsPage][] = [['seal-check', 'subscription'], ['paint-brush', 'appearance'], ['bell', 'notifications'], ['sparkle', 'practice'], ['arrows-clockwise', 'integrations'], ['database', 'data'], ['lock', 'privacy'], ['question', 'help']]
 
@@ -234,7 +235,7 @@ export default function Settings({ entry }: { entry: Extract<StackEntry, { name:
         </div>
         <div className={m.gap28}>
           <ListSection header={t('settings.help.about')}>
-            <ListRow icon="info" title={t('settings.help.versionRow')} value={`${APP_VERSION} (${BUILD})`} accessory="none" />
+            <ListRow icon="info" title={t('settings.help.versionRow')} value={`${APP_VERSION} (${BUILD})`} accessory="none" onClick={() => { showToast(t('settings.help.checking'), { icon: 'arrows-clockwise' }); void fetchLatestVersion() }} />
             <ListRow icon="arrow-counter-clockwise" title={t('settings.help.replay')} onClick={() => { popToRoot(); update({ onboarded: false }) }} />
             {!isStandalone() && <ListRow icon="device-mobile" title={t('settings.help.install')} onClick={() => { update({ a2hsDismissed: false }); popToRoot() }} />}
           </ListSection>

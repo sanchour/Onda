@@ -20,7 +20,7 @@ test.describe('Onboarding and paywall', () => {
     await expect(page.getByRole('slider')).toHaveAttribute('aria-valuenow', '14')
     await tap(page, 'Next')
     await expect(page.getByRole('heading', { name: 'Which Onda calls you first?' })).toBeVisible()
-    await expect(page.getByRole('radio')).toHaveCount(22)
+    await expect(page.getByRole('radio')).toHaveCount(60)
     await tap(page, /Zen Buddhism/, 'radio')
     await expect(page.getByRole('button', { name: /skip/i })).toHaveCount(0)
     await tap(page, 'Get Started')
@@ -158,14 +158,13 @@ test.describe('Update 1.4', () => {
 })
 
 test.describe('Update 2.0', () => {
-  test('Browse Ondas has four groups with greyed, unclickable placeholders', async ({ page }) => {
+  test('Browse Ondas has four groups, and since 5.0 every Onda in them can be opened', async ({ page }) => {
     await seedDemo(page)
     await tap(page, 'Browse Ondas')
     for (const g of ['Religions and spiritual traditions', 'Philosophy, thinkers and schools of thought', 'Empires, states and political systems', 'Cultures, eras and peoples']) await expect(page.getByRole('button', { name: new RegExp('^' + g) })).toBeVisible()
-    const soon = page.getByText('Nietzsche', { exact: true })
-    await expect(soon).toBeVisible()
-    await expect(page.getByRole('button', { name: /Nietzsche/ })).toHaveCount(0) // not a button: nothing to open
-    await expect(page.locator('[aria-disabled="true"]', { hasText: 'Nietzsche' })).toBeVisible()
+    await expect(page.getByRole('button', { name: /Nietzsche/ })).toBeVisible()
+    await expect(page.getByText('Coming soon')).toHaveCount(0)
+    await expect(page.locator('[aria-disabled="true"]', { hasText: 'Nietzsche' })).toHaveCount(0)
   })
 
   test('the background takes a light wash of the Onda colour, and Settings can turn it off', async ({ page }) => {
@@ -427,7 +426,7 @@ test.describe('Ondas', () => {
   test('browsing another Onda previews it; beginning it ends the current one', async ({ page }) => {
     await startTrial(page)
     await tap(page, 'Browse Ondas')
-    await expect(page.getByText('Twenty-two worlds to live in, and more on the way')).toBeVisible()
+    await expect(page.getByText('Sixty worlds to live in')).toBeVisible()
     await expect(page.getByRole('button', { name: /Stoicism/ })).toContainText('Active')
     await tap(page, /Taoism/)
     await expect(page.getByRole('heading', { name: '14 days' })).toBeVisible()
@@ -601,5 +600,35 @@ test.describe('Native-feeling navigation', () => {
       expect(box.width).toBeGreaterThanOrEqual(44)
       expect(box.height).toBeGreaterThanOrEqual(44)
     }
+  })
+})
+
+test.describe('Update 5.0', () => {
+  test('holding a practice opens How to do this; a tap still ticks it', async ({ page }) => {
+    await seedDemo(page)
+    await tab(page, 'Ondas')
+    const row = page.locator('[role=checkbox][aria-haspopup=menu]').first()
+    await row.scrollIntoViewIfNeeded()
+    const before = await row.getAttribute('aria-checked')
+    await row.dispatchEvent('contextmenu')
+    await tap(page, 'How to do this')
+    await expect(page.getByText('Why', { exact: true }).first()).toBeVisible()
+    await expect(row).toHaveAttribute('aria-checked', before ?? 'false')
+  })
+
+  test('Settings shows version 5.0 and the theme colour follows light and dark', async ({ page }) => {
+    await seedDemo(page)
+    await tap(page, 'Settings')
+    await expect(page.getByText('Onda 5.0')).toBeVisible()
+    const bar = () => page.evaluate(() => [document.querySelectorAll('meta[name="theme-color"]').length, document.querySelector('meta[name="theme-color"]')?.getAttribute('content'), document.querySelector('meta[name="color-scheme"]')?.getAttribute('content'), getComputedStyle(document.documentElement).backgroundColor].join('|'))
+    await tap(page, /^Appearance/)
+    await tap(page, 'Dark', 'tab')
+    await expect.poll(async () => (await bar()).split('|')[2]).toBe('dark')
+    const dark = await bar()
+    await tap(page, 'Light', 'tab')
+    await expect.poll(async () => (await bar()).split('|')[2]).toBe('light')
+    const light = await bar()
+    expect(dark.split('|')[0]).toBe('1')
+    expect(light.split('|')[1]).not.toBe(dark.split('|')[1])
   })
 })

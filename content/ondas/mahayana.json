@@ -1,0 +1,1217 @@
+{
+  "version": 1,
+  "id": "mahayana",
+  "name": "Mahayana Buddhism",
+  "origin": "East Asia",
+  "era": "From about the 1st century BCE to today",
+  "tone": "purple",
+  "icon": "flower-lotus",
+  "font": "zen-old-mincho",
+  "pattern": "lotus-petals",
+  "glyph": "空",
+  "line": "Wake up for the sake of everyone, and practise kindness as if nothing were separate.",
+  "quote": {
+    "text": "For as long as space endures, and for as long as living beings remain, until then may I too abide to dispel the misery of the world.",
+    "by": "Shantideva",
+    "source": "A Guide to the Bodhisattva’s Way of Life 10.55, trans. Stephen Batchelor"
+  },
+  "quotes": [
+    {
+      "text": "Form is emptiness, emptiness is form.",
+      "by": "The Heart Sutra",
+      "source": "Prajnaparamita Hridaya, in its common English rendering"
+    },
+    {
+      "text": "Because all living beings are sick, therefore I am sick.",
+      "by": "Vimalakirti",
+      "source": "The Vimalakirti Sutra, chapter 5, trans. Burton Watson"
+    },
+    {
+      "text": "All the joy the world contains has come through wishing happiness for others. All the misery the world contains has come through wanting pleasure for oneself.",
+      "by": "Shantideva",
+      "source": "The Way of the Bodhisattva 8.129, trans. Padmakara Translation Group"
+    },
+    {
+      "text": "Beings are numberless; I vow to save them.",
+      "by": "The Four Great Vows",
+      "source": "Recited daily in East Asian temples; a common English version"
+    },
+    {
+      "text": "As a lamp, a cataract, a star in space, an illusion, a dewdrop, a bubble, a dream, a cloud, a flash of lightning: view all created things like this.",
+      "by": "The Diamond Sutra",
+      "source": "Chapter 32, trans. Red Pine"
+    }
+  ],
+  "words": [
+    {
+      "id": "word-mahayana",
+      "term": "Mahayana",
+      "meaning": "The Great Vehicle",
+      "pronunciation": "ma-ha-YAH-na",
+      "language": "Sanskrit",
+      "usage": "The name the movement gave itself: a vehicle large enough to carry everyone to awakening."
+    },
+    {
+      "id": "word-bodhisattva",
+      "term": "Bodhisattva",
+      "meaning": "An awakening being",
+      "pronunciation": "bo-dee-SUT-va",
+      "language": "Sanskrit",
+      "usage": "One who vows to become a buddha in order to free all beings, and stays in the world to help."
+    },
+    {
+      "id": "word-bodhicitta",
+      "term": "Bodhicitta",
+      "meaning": "The mind of awakening",
+      "pronunciation": "bo-dee-CHIT-ta",
+      "language": "Sanskrit",
+      "usage": "The wish to wake up for the sake of others. Everything in the Mahayana starts from it."
+    },
+    {
+      "id": "word-karuna",
+      "term": "Karuna",
+      "meaning": "Compassion",
+      "pronunciation": "ka-roo-NAH",
+      "language": "Sanskrit",
+      "usage": "The wish that others be free of suffering, joined to the will to do something about it."
+    },
+    {
+      "id": "word-prajna",
+      "term": "Prajna",
+      "meaning": "Wisdom",
+      "pronunciation": "PRUJ-nya",
+      "language": "Sanskrit",
+      "usage": "Seeing how things actually are: changing, dependent and without a fixed core."
+    },
+    {
+      "id": "word-shunyata",
+      "term": "Shunyata",
+      "meaning": "Emptiness",
+      "pronunciation": "shoon-ya-TAH",
+      "language": "Sanskrit",
+      "usage": "Nothing exists by itself, apart from causes, parts and the mind that names it. It does not mean that nothing exists."
+    },
+    {
+      "id": "word-paramita",
+      "term": "Paramita",
+      "meaning": "A perfection",
+      "pronunciation": "pa-ra-mee-TAH",
+      "language": "Sanskrit",
+      "usage": "One of the six qualities a bodhisattva trains in: giving, ethics, patience, effort, meditation and wisdom."
+    },
+    {
+      "id": "word-dana",
+      "term": "Dana",
+      "meaning": "Giving",
+      "pronunciation": "DAH-na",
+      "language": "Sanskrit",
+      "usage": "The first perfection. Giving things, giving safety and giving the teaching."
+    },
+    {
+      "id": "word-kshanti",
+      "term": "Kshanti",
+      "meaning": "Patience",
+      "pronunciation": "KSHAHN-tee",
+      "language": "Sanskrit",
+      "usage": "Bearing harm and hardship without anger. Shantideva gives it his longest chapter."
+    },
+    {
+      "id": "word-upaya",
+      "term": "Upaya",
+      "meaning": "Skilful means",
+      "pronunciation": "oo-PAH-ya",
+      "language": "Sanskrit",
+      "usage": "Teaching and helping in whatever way fits the person. The Lotus Sutra’s great theme."
+    },
+    {
+      "id": "word-tathagatagarbha",
+      "term": "Tathagatagarbha",
+      "meaning": "Buddha nature",
+      "pronunciation": "ta-TAH-ga-ta-GAR-ba",
+      "language": "Sanskrit",
+      "usage": "The teaching that every being already has the capacity to awaken. In Chinese it is foxing."
+    },
+    {
+      "id": "word-dharma",
+      "term": "Dharma",
+      "meaning": "The teaching; the way things are",
+      "pronunciation": "DAR-ma",
+      "language": "Sanskrit",
+      "usage": "What the Buddha taught, and also any single thing or event."
+    },
+    {
+      "id": "word-sangha",
+      "term": "Sangha",
+      "meaning": "The community",
+      "pronunciation": "SUNG-ga",
+      "language": "Sanskrit",
+      "usage": "Monks, nuns and lay people who practise together. One of the three refuges."
+    },
+    {
+      "id": "word-sutra",
+      "term": "Sutra",
+      "meaning": "A discourse",
+      "pronunciation": "SOO-tra",
+      "language": "Sanskrit",
+      "usage": "A text presented as the Buddha’s speech. Mahayana sutras were written down from about the first century BCE."
+    },
+    {
+      "id": "word-guanyin",
+      "term": "Guanyin",
+      "meaning": "The one who hears the cries of the world",
+      "pronunciation": "gwahn-YIN",
+      "language": "Chinese",
+      "usage": "The bodhisattva of compassion, Avalokiteshvara, loved across East Asia. Kannon in Japan, Gwaneum in Korea, Quan Am in Vietnam."
+    },
+    {
+      "id": "word-amituofo",
+      "term": "Amituofo",
+      "meaning": "Amitabha Buddha",
+      "pronunciation": "ah-mee-twaw-FAW",
+      "language": "Chinese",
+      "usage": "The Buddha of Infinite Light. In China his name is also an everyday greeting among Buddhists."
+    },
+    {
+      "id": "word-nianfo",
+      "term": "Nianfo",
+      "meaning": "Recollecting the Buddha",
+      "pronunciation": "nyen-FAW",
+      "language": "Chinese",
+      "usage": "Reciting the name of Amitabha. Nembutsu in Japanese. The main practice of the Pure Land schools."
+    },
+    {
+      "id": "word-jingtu",
+      "term": "Jingtu",
+      "meaning": "Pure Land",
+      "pronunciation": "jing-TOO",
+      "language": "Chinese",
+      "usage": "A realm made by a buddha’s vows where awakening is easy. Amitabha’s is in the west."
+    },
+    {
+      "id": "word-pusa",
+      "term": "Pusa",
+      "meaning": "Bodhisattva",
+      "pronunciation": "poo-SAH",
+      "language": "Chinese",
+      "usage": "The everyday Chinese word, used for Guanyin and as a term of respect."
+    },
+    {
+      "id": "word-chan",
+      "term": "Chan",
+      "meaning": "Meditation",
+      "pronunciation": "CHAHN",
+      "language": "Chinese",
+      "usage": "The Chinese meditation school, from the Sanskrit dhyana. It became Seon in Korea, Thien in Vietnam and Zen in Japan."
+    },
+    {
+      "id": "word-gongde",
+      "term": "Gongde",
+      "meaning": "Merit",
+      "pronunciation": "gong-DUH",
+      "language": "Chinese",
+      "usage": "The good that comes of good action. In the Mahayana it is given away at once to all beings."
+    },
+    {
+      "id": "word-huixiang",
+      "term": "Huixiang",
+      "meaning": "Dedicating merit",
+      "pronunciation": "hway-SHYAHNG",
+      "language": "Chinese",
+      "usage": "The short verse at the end of any practice that turns its benefit toward everyone."
+    },
+    {
+      "id": "word-shakyo",
+      "term": "Shakyo",
+      "meaning": "Sutra copying",
+      "pronunciation": "SHAH-kyoh",
+      "language": "Japanese",
+      "usage": "Tracing or writing out a sutra by hand as a practice. Many Japanese temples offer it to visitors."
+    },
+    {
+      "id": "word-jizo",
+      "term": "Jizo",
+      "meaning": "Earth Store bodhisattva",
+      "pronunciation": "JEE-zoh",
+      "language": "Japanese",
+      "usage": "Ksitigarbha, who vowed not to rest until the hells are empty. The roadside guardian of travellers and children in Japan."
+    },
+    {
+      "id": "word-gassho",
+      "term": "Gassho",
+      "meaning": "Palms together",
+      "pronunciation": "GUSH-shoh",
+      "language": "Japanese",
+      "usage": "The gesture of greeting, thanks and respect. Hezhang in Chinese."
+    },
+    {
+      "id": "word-tonsure",
+      "term": "Tonsure",
+      "meaning": "Shaving the head",
+      "pronunciation": "TON-shur",
+      "language": "English",
+      "usage": "The mark of leaving home to become a monk or nun."
+    },
+    {
+      "id": "word-sunim",
+      "term": "Sunim",
+      "meaning": "A monk or nun",
+      "pronunciation": "SOO-nim",
+      "language": "Korean",
+      "usage": "The respectful Korean title for a monastic of either sex."
+    },
+    {
+      "id": "word-balwoo-gongyang",
+      "term": "Balwoo gongyang",
+      "meaning": "The formal bowl meal",
+      "pronunciation": "BAL-oo gong-YAHNG",
+      "language": "Korean",
+      "usage": "The silent monastic meal eaten from four nested bowls, in which nothing is wasted and the bowls are rinsed and drunk."
+    },
+    {
+      "id": "word-zhai",
+      "term": "Zhai",
+      "meaning": "Vegetarian food",
+      "pronunciation": "JYE",
+      "language": "Chinese",
+      "usage": "The meat-free diet kept by Chinese monastics and by many lay people on set days."
+    },
+    {
+      "id": "word-pratityasamutpada",
+      "term": "Pratityasamutpada",
+      "meaning": "Dependent arising",
+      "pronunciation": "pra-TEET-ya-sa-moot-PAH-da",
+      "language": "Sanskrit",
+      "usage": "Everything arises from conditions and passes when they pass. The reasoning behind emptiness."
+    }
+  ],
+  "practices": [
+    {
+      "id": "morning-vow",
+      "name": "The morning vow",
+      "icon": "sun-horizon",
+      "slot": "Morning",
+      "time": "06:45",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Before you look at a screen, sit up and put your palms together. Call to mind the people and creatures you will meet today, including the ones you would prefer to avoid. Say, aloud or silently: may what I do today be of use to them. If you wish, recite the four great vows, which begin: beings are numberless, I vow to save them. Bow once and begin the day.",
+      "why": "The bodhisattva path starts by setting a motive larger than oneself and renewing it daily. East Asian temples chant the four vows every morning for this reason.",
+      "variations": [
+        "Write the vow on a card and keep it in your pocket.",
+        "Name three particular people in it.",
+        "Make three full bows to the floor."
+      ]
+    },
+    {
+      "id": "perfection-of-the-day",
+      "name": "One perfection a day",
+      "icon": "list-checks",
+      "slot": "Morning",
+      "time": "08:30",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Take the six perfections in order, one a day, and begin again on the seventh: giving, ethical care, patience, energy, meditation and wisdom. In the morning decide on one concrete way to practise today’s. On a giving day, give something. On a patience day, pick the situation that will test you and decide beforehand how you will meet it. In the evening note what happened.",
+      "why": "The six perfections are the bodhisattva’s training plan, set out in the Perfection of Wisdom sutras and by every later teacher. Taking one at a time makes a vast ideal workable.",
+      "variations": [
+        "Pair each perfection with a person who needs it from you.",
+        "On the seventh day rest and review.",
+        "Practise the day’s perfection toward yourself as well."
+      ]
+    },
+    {
+      "id": "exchange",
+      "name": "Exchanging self and other",
+      "icon": "users-three",
+      "slot": "Afternoon",
+      "time": "13:00",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Sit quietly and bring to mind someone you find difficult. For a few minutes imagine their day from the inside: what they woke up to, what they fear, what they are trying to protect. Notice that they want to be happy and not to suffer, exactly as you do. Then ask what you would want from yourself if you were them. Do one small thing in that direction today.",
+      "why": "Shantideva teaches that self and other are positions, like this bank and that bank of a river, and can be swapped in the mind. The exercise loosens the habit of putting oneself first.",
+      "variations": [
+        "Do it for a stranger you see on a train.",
+        "Do it for an animal.",
+        "Do it for someone you love and have stopped noticing."
+      ]
+    },
+    {
+      "id": "sutra-copying",
+      "name": "Copying the Heart Sutra",
+      "icon": "pen-nib",
+      "slot": "Evening",
+      "time": "19:30",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Take paper, a good pen and an English version of the Heart Sutra, which is about a page long. Sit upright. Copy it out slowly by hand, one line at a time, a few lines each evening. Do not hurry and do not try to work out what it means as you write. If you make a mistake, carry on. When you reach the end, start again from the beginning on a fresh sheet.",
+      "why": "Copying sutras by hand has been a practice for lay people in East Asia for well over a thousand years. Many temples in Japan and Korea set out brushes and paper for visitors.",
+      "variations": [
+        "Read it aloud once before you start.",
+        "Trace the Chinese characters from a printed template.",
+        "Give a finished copy to someone, or leave it at a temple."
+      ]
+    },
+    {
+      "id": "dedication",
+      "name": "Giving the day away",
+      "icon": "hand-heart",
+      "slot": "Evening",
+      "time": "21:30",
+      "minutes": 5,
+      "meta": "Evening · 5 min",
+      "instructions": "Before sleep, recall whatever good came of the day: a kindness done, an effort made, a moment of patience. However small it was, give it away. Say: may any good in this day go to all beings, and may they be free from suffering. Then recall one failure, acknowledge it without excuses and let it rest until tomorrow.",
+      "why": "Dedicating merit ends every Mahayana ceremony. Giving it up at once keeps practice from turning into a private store of virtue.",
+      "variations": [
+        "Dedicate it to one person who is ill or struggling.",
+        "Add the people you found hardest today.",
+        "Say it together with someone in your home."
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task-eat-one-meal-in-silence-and-waste-nothing",
+      "name": "Eat one meal in silence and waste nothing",
+      "meta": "Eat · the five contemplations before you start",
+      "time": "12:30",
+      "slot": "Afternoon",
+      "action": "eat"
+    },
+    {
+      "id": "task-read-chapter-6-of-the-way-of-the-bodhisattva-on-patience",
+      "name": "Read chapter 6 of The Way of the Bodhisattva, on patience",
+      "meta": "Read · Shantideva",
+      "time": "20:00",
+      "slot": "Evening",
+      "action": "read"
+    },
+    {
+      "id": "task-listen-to-the-heart-sutra-chanted-in-chinese-or-korean",
+      "name": "Listen to the Heart Sutra chanted in Chinese or Korean",
+      "meta": "Listen · five minutes",
+      "time": "07:15",
+      "slot": "Morning",
+      "action": "listen"
+    },
+    {
+      "id": "task-look-at-a-water-moon-guanyin-painting",
+      "name": "Look at a Water-Moon Guanyin painting",
+      "meta": "Art · Goryeo Korea, 14th century",
+      "time": "17:00",
+      "slot": "Afternoon",
+      "action": "art"
+    },
+    {
+      "id": "release-a-debt-a-grudge-or-a-small-creature",
+      "name": "Release a debt, a grudge or a small creature",
+      "meta": "The spirit of fangsheng, releasing life",
+      "time": "15:00",
+      "slot": "Afternoon"
+    },
+    {
+      "id": "give-something-away-without-being-asked",
+      "name": "Give something away without being asked",
+      "meta": "Dana · the first perfection",
+      "time": "11:00",
+      "slot": "Afternoon"
+    },
+    {
+      "id": "task-journal-whose-suffering-did-you-step-toward-today",
+      "name": "Journal: whose suffering did you step toward today?",
+      "meta": "Journal · 10 min",
+      "time": "21:00",
+      "slot": "Evening",
+      "action": "journal"
+    },
+    {
+      "id": "task-emptiness-find-one-thing-that-exists-by-itself",
+      "name": "Emptiness: find one thing that exists by itself",
+      "meta": "Philosophy · 10 min",
+      "time": "09:00",
+      "slot": "Morning",
+      "action": "philosophy"
+    },
+    {
+      "id": "offer-a-flower-or-a-stick-of-incense-and-bow-once",
+      "name": "Offer a flower or a stick of incense and bow once",
+      "meta": "For all beings",
+      "time": "07:30",
+      "slot": "Morning"
+    }
+  ],
+  "rules": [
+    {
+      "id": "r1",
+      "text": "Start the day for others",
+      "why": "Before anything else, set the intention that today’s work will be of use to someone besides you."
+    },
+    {
+      "id": "r2",
+      "text": "Take no life and eat no meat",
+      "why": "East Asian Buddhism keeps a vegetarian table. Hold to it for the length of the Onda, and step around the small creatures too."
+    },
+    {
+      "id": "r3",
+      "text": "Give something every day",
+      "why": "An object, a meal, your time, your attention or reassurance to someone afraid. Giving is the first training."
+    },
+    {
+      "id": "r4",
+      "text": "Meet anger with patience once",
+      "why": "When the heat rises, wait for ten breaths before you answer. One held temper counts as the day’s practice."
+    },
+    {
+      "id": "r5",
+      "text": "Speak no ill of anyone",
+      "why": "No blaming, no gossip, no praising yourself at another’s cost. This is among the bodhisattva precepts."
+    },
+    {
+      "id": "r6",
+      "text": "Give the merit away at night",
+      "why": "Whatever good was done, dedicate it to all beings before you sleep. Keep nothing back."
+    }
+  ],
+  "immerse": {
+    "read": [
+      {
+        "id": "read-the-way-of-the-bodhisattva",
+        "title": "The Way of the Bodhisattva",
+        "creator": "Shantideva, trans. Padmakara Translation Group",
+        "year": "8th century",
+        "why": "The handbook of the bodhisattva path in verse, written by an Indian monk at Nalanda. Chapter 6 on patience and chapter 8 on exchanging self and other are the heart."
+      },
+      {
+        "id": "read-the-heart-sutra",
+        "title": "The Heart Sutra",
+        "creator": "trans. Red Pine",
+        "year": "about 1st to 7th century",
+        "why": "Two hundred and sixty Chinese characters that deny every category of Buddhist thought and are chanted daily across East Asia. Red Pine’s commentary goes line by line."
+      },
+      {
+        "id": "read-the-lotus-sutra",
+        "title": "The Lotus Sutra",
+        "creator": "trans. Burton Watson",
+        "year": "about 1st century CE",
+        "why": "Parables of a burning house, a lost son and a hidden jewel, all saying that everyone will become a buddha. The most loved scripture in East Asia."
+      },
+      {
+        "id": "read-the-vimalakirti-sutra",
+        "title": "The Vimalakirti Sutra",
+        "creator": "trans. Burton Watson",
+        "year": "about 1st to 2nd century CE",
+        "why": "A wealthy householder outwits the Buddha’s greatest disciples from his sickbed. Funny, and the charter for lay practice."
+      },
+      {
+        "id": "read-the-three-pure-land-sutras",
+        "title": "The Three Pure Land Sutras",
+        "creator": "trans. Hisao Inagaki",
+        "year": "1st to 5th century",
+        "why": "The vows of Amitabha and the description of his land. The scriptural basis of the most widely practised Buddhism in the world."
+      },
+      {
+        "id": "read-the-heart-of-the-buddha-s-teaching",
+        "title": "The Heart of the Buddha’s Teaching",
+        "creator": "Thich Nhat Hanh",
+        "year": "1998",
+        "why": "A Vietnamese Zen master sets out the whole teaching in plain words, with the Mahayana reading of each part."
+      }
+    ],
+    "watch": [
+      {
+        "id": "watch-spring-summer-fall-winter-and-spring",
+        "title": "Spring, Summer, Fall, Winter... and Spring",
+        "creator": "Kim Ki-duk",
+        "year": "2003",
+        "why": "A monk and a boy on a floating temple in a Korean lake, through the seasons of a life. Karma shown and never explained."
+      },
+      {
+        "id": "watch-why-has-bodhi-dharma-left-for-the-east",
+        "title": "Why Has Bodhi-Dharma Left for the East?",
+        "creator": "Bae Yong-kyun",
+        "year": "1989",
+        "why": "An old monk, a young monk and an orphan in a mountain hermitage. Slow, exact and very beautiful."
+      },
+      {
+        "id": "watch-walk-with-me",
+        "title": "Walk With Me",
+        "creator": "Marc J. Francis and Max Pugh",
+        "year": "2017",
+        "why": "A year inside Plum Village, Thich Nhat Hanh’s monastery in France, with almost no commentary."
+      },
+      {
+        "id": "watch-departures",
+        "title": "Departures",
+        "creator": "Yojiro Takita",
+        "year": "2008",
+        "why": "A cellist becomes an encoffiner in rural Japan. A warm film about the Buddhist funeral and care for the dead."
+      }
+    ],
+    "listen": [
+      {
+        "id": "listen-the-great-compassion-mantra",
+        "title": "The Great Compassion Mantra",
+        "creator": "Chinese monastic chanting; many recordings",
+        "year": "traditional",
+        "why": "The Dabei Zhou, eighty-four phrases addressed to Guanyin, chanted to a wooden fish drum in temples every morning."
+      },
+      {
+        "id": "listen-heart-sutra",
+        "title": "Heart Sutra",
+        "creator": "Korean Seon monastic chant",
+        "year": "traditional",
+        "why": "The Banya Simgyeong, driven by the moktak, the hollow wooden clapper. Listen for the mantra at the end."
+      },
+      {
+        "id": "listen-namo-amituofo",
+        "title": "Namo Amituofo",
+        "creator": "Pure Land recitation; many recordings",
+        "year": "traditional",
+        "why": "Four or six syllables repeated for hours in a slow, rising melody. The sound of ordinary Chinese Buddhism."
+      },
+      {
+        "id": "listen-shomyo-buddhist-ritual-chant",
+        "title": "Shomyo: Buddhist Ritual Chant",
+        "creator": "Monks of Japanese Tendai and Shingon temples",
+        "year": "traditional",
+        "why": "Long sliding vocal lines brought from Tang China in the ninth century. One of the oldest living vocal traditions."
+      }
+    ],
+    "art": [
+      {
+        "id": "art-water-moon-avalokiteshvara",
+        "title": "Water-Moon Avalokiteshvara",
+        "creator": "Goryeo court painters, Korea",
+        "year": "14th century",
+        "why": "Guanyin sits on a rock by the sea under a full moon, in gold line on silk so fine the veil is see-through. About 160 survive, in Seoul, Tokyo, New York and elsewhere."
+      },
+      {
+        "id": "art-the-leshan-giant-buddha",
+        "title": "The Leshan Giant Buddha",
+        "creator": "Sichuan, China",
+        "year": "713 to 803",
+        "why": "A seated Maitreya seventy-one metres high carved from a river cliff, begun by a monk who hoped it would calm the waters."
+      },
+      {
+        "id": "art-seokguram-grotto",
+        "title": "Seokguram Grotto",
+        "creator": "Gyeongju, South Korea",
+        "year": "8th century",
+        "why": "A granite Buddha in a domed chamber on a mountain, facing the sunrise over the East Sea. Among the finest sculpture in Asia."
+      },
+      {
+        "id": "art-amida-buddha-of-the-phoenix-hall",
+        "title": "Amida Buddha of the Phoenix Hall",
+        "creator": "Jocho; Byodo-in, Uji, Japan",
+        "year": "1053",
+        "why": "A gilded Amitabha in a hall built to look like his palace in the Pure Land, reflected in a pond. It is on the ten-yen coin."
+      }
+    ],
+    "eat": [
+      {
+        "id": "eat-buddha-s-delight-luohan-zhai",
+        "title": "Buddha’s delight (luohan zhai)",
+        "creator": "Tofu skin, mushrooms, wood ear, cabbage and glass noodles braised together",
+        "why": "The best known dish of Chinese temple cooking, eaten in many homes on the first day of the new year."
+      },
+      {
+        "id": "eat-korean-temple-food",
+        "title": "Korean temple food",
+        "creator": "Seasonal greens, fermented soybean paste, rice and soup",
+        "why": "No meat and none of the five pungent plants, such as garlic and onion, which are said to disturb the mind. Jeong Kwan made it famous."
+      },
+      {
+        "id": "eat-shojin-ryori",
+        "title": "Shojin ryori",
+        "creator": "Sesame tofu, simmered vegetables, pickles, rice and miso soup",
+        "why": "Japanese devotion cuisine: small dishes in five colours and five tastes, nothing wasted."
+      },
+      {
+        "id": "eat-congee",
+        "title": "Congee",
+        "creator": "Rice simmered with plenty of water until it breaks down",
+        "why": "The morning meal of Chinese monasteries, praised in the monastic codes for ten benefits."
+      }
+    ],
+    "drink": [
+      {
+        "id": "drink-green-tea",
+        "title": "Green tea",
+        "creator": "Loose leaf, water just off the boil",
+        "why": "Tea and Chan grew up together in the mountains of China. Monks drank it to stay awake in meditation."
+      },
+      {
+        "id": "drink-lotus-leaf-tea",
+        "title": "Lotus leaf tea",
+        "creator": "Dried lotus leaf steeped in hot water",
+        "why": "A Korean temple drink, mild and faintly sweet. The lotus grows from mud without being stained by it."
+      },
+      {
+        "id": "drink-barley-tea",
+        "title": "Barley tea",
+        "creator": "Roasted barley, hot or cold",
+        "why": "The everyday drink of Korea and Japan, with no caffeine, served with temple meals."
+      }
+    ],
+    "customs": [
+      {
+        "id": "customs-palms-together",
+        "title": "Palms together",
+        "creator": "The greeting and the thanks",
+        "why": "A slight bow with joined hands when meeting a monastic, entering a hall or receiving food."
+      },
+      {
+        "id": "customs-three-bows",
+        "title": "Three bows",
+        "creator": "To the Buddha, the teaching and the community",
+        "why": "On entering a main hall, people bow three times to the floor. Visitors may simply stand quietly or bow from the waist."
+      },
+      {
+        "id": "customs-offering-incense",
+        "title": "Offering incense",
+        "creator": "One stick or three, held to the forehead",
+        "why": "Lit, raised with both hands and placed upright in the burner. The fragrance stands for conduct that benefits everyone around."
+      },
+      {
+        "id": "customs-the-five-contemplations",
+        "title": "The five contemplations",
+        "creator": "Before eating",
+        "why": "A short reflection on where the food came from, whether one has earned it, and why one eats: to sustain the body for practice."
+      }
+    ],
+    "games": [
+      {
+        "id": "games-go-weiqi-baduk",
+        "title": "Go (weiqi, baduk)",
+        "creator": "Board game · China",
+        "year": "over 2,500 years old",
+        "why": "Black and white stones on a grid. Loved by monks and scholars across East Asia as a lesson in balance, patience and letting go of small gains."
+      },
+      {
+        "id": "games-table-of-buddhist-promotion-seongbuldo",
+        "title": "Table of Buddhist Promotion (Seongbuldo)",
+        "creator": "Board game · Korea",
+        "year": "traditional",
+        "why": "A dice game on a chart of the realms of rebirth, from the hells up to buddhahood, played in Korean temples at new year. Players chant as they roll."
+      },
+      {
+        "id": "games-journey-to-the-west",
+        "title": "Journey to the West",
+        "creator": "Novel and many game adaptations, including Black Myth: Wukong (2024)",
+        "year": "16th century novel",
+        "why": "The Monkey King escorts a monk to India to fetch the sutras. The games are action spectacles, but the tale underneath is a Buddhist pilgrimage."
+      }
+    ],
+    "festivals": [
+      {
+        "id": "fest-buddha-s-birthday",
+        "title": "Buddha’s Birthday",
+        "creator": "8th day of the 4th lunar month, April or May",
+        "why": "Lantern parades in Korea, bathing a small statue of the infant Buddha with sweet tea in China and Japan."
+      },
+      {
+        "id": "fest-ullambana-the-ghost-festival",
+        "title": "Ullambana, the Ghost Festival",
+        "creator": "15th day of the 7th lunar month, August",
+        "why": "Offerings for ancestors and all hungry spirits. Obon in Japan, with dances and lanterns floated on water."
+      },
+      {
+        "id": "fest-guanyin-s-days",
+        "title": "Guanyin’s days",
+        "creator": "19th of the 2nd, 6th and 9th lunar months",
+        "why": "Her birth, awakening and leaving home. Temples are crowded and many people eat vegetarian."
+      },
+      {
+        "id": "fest-bodhi-day",
+        "title": "Bodhi Day",
+        "creator": "8th day of the 12th lunar month; 8 December in Japan",
+        "why": "The Buddha’s awakening. Chinese families cook laba congee with eight kinds of grain and fruit."
+      }
+    ],
+    "places": [
+      {
+        "id": "place-mount-putuo",
+        "title": "Mount Putuo",
+        "creator": "Zhejiang, China",
+        "why": "An island of temples sacred to Guanyin, reached by ferry. One of the four holy mountains of Chinese Buddhism."
+      },
+      {
+        "id": "place-haeinsa",
+        "title": "Haeinsa",
+        "creator": "South Gyeongsang, South Korea",
+        "why": "A mountain monastery that keeps the Tripitaka Koreana: the whole canon carved on more than eighty thousand wooden blocks in the thirteenth century. Temple stays are offered."
+      },
+      {
+        "id": "place-todai-ji",
+        "title": "Todai-ji",
+        "creator": "Nara, Japan",
+        "why": "A sixteen-metre bronze Buddha of the eighth century inside one of the largest wooden buildings in the world."
+      },
+      {
+        "id": "place-the-mogao-caves",
+        "title": "The Mogao Caves",
+        "creator": "Dunhuang, Gansu, China",
+        "why": "Nearly five hundred painted cave temples on the Silk Road, made over a thousand years. Book ahead, since visitor numbers are limited."
+      },
+      {
+        "id": "place-plum-village",
+        "title": "Plum Village",
+        "creator": "Dordogne, France",
+        "why": "The monastery founded by Thich Nhat Hanh in 1982. Lay people can join retreats and days of mindfulness."
+      }
+    ]
+  },
+  "ethics": [
+    {
+      "title": "Compassion in action",
+      "text": "Compassion is counted as the root of the whole path. It is measured by what it does: staying with those who suffer and working to relieve them.",
+      "practice": "Do one thing today for someone who is suffering, even if it is only to sit with them."
+    },
+    {
+      "title": "Giving",
+      "text": "The bodhisattva gives things, gives protection from fear and gives the teaching. The best gift is made with no thought of giver, gift or receiver.",
+      "practice": "Give something today and tell no one."
+    },
+    {
+      "title": "Patience",
+      "text": "Anger burns up good faster than anything. Shantideva says an enemy is as useful as a treasure found at home, because only an enemy lets you practise patience.",
+      "practice": "Thank someone who irritated you today, silently, for the practice."
+    },
+    {
+      "title": "Not harming",
+      "text": "The first precept is to take no life. In East Asia this became a vegetarian table and the custom of freeing animals bound for slaughter.",
+      "practice": "Eat nothing today that was killed for you."
+    },
+    {
+      "title": "Truthful and kind speech",
+      "text": "The bodhisattva precepts forbid lying, slander, praising oneself and putting down others. Speech should be true, timely and of benefit.",
+      "practice": "Catch one unkind remark before it leaves your mouth."
+    },
+    {
+      "title": "Equality of self and other",
+      "text": "My suffering matters to me only because it is mine. Seen from outside, everyone’s weighs the same. Ethics begins from that view.",
+      "practice": "Give a stranger’s inconvenience the same weight as your own, once."
+    }
+  ],
+  "philosophy": [
+    {
+      "title": "The bodhisattva vow",
+      "text": "Earlier Buddhism aimed at one’s own release. The Mahayana held up a larger aim: to become a buddha so as to free everyone, however long it takes. The vow is absurdly large on purpose.",
+      "practice": "State one aim for your life that is not about you."
+    },
+    {
+      "title": "Emptiness",
+      "text": "Look for the thing in itself and you find parts, causes and a name. A cup is clay, fire, a potter and a use. It is real, it holds tea, and it has no core apart from all that. So with a self.",
+      "practice": "Pick one object and trace five things it depends on to exist."
+    },
+    {
+      "title": "Wisdom and compassion",
+      "text": "They are called the two wings of a bird. Wisdom without compassion is cold, and compassion without wisdom is blind and soon exhausted. Each trains the other.",
+      "practice": "In one decision today ask both questions: what is true here, and what is kind."
+    },
+    {
+      "title": "Skilful means",
+      "text": "The Lotus Sutra tells of a father who lures his children from a burning house by promising toys. A teaching is judged by whether it helps. There are as many doors as there are people.",
+      "practice": "Help someone today in the way they need, which may not be the way you prefer."
+    },
+    {
+      "title": "Buddha nature",
+      "text": "Every being already has what it takes to awaken, as a seed has the tree. Practice uncovers this capacity. East Asian Buddhism builds its confidence on the idea.",
+      "practice": "Treat one person today as someone who will certainly become wise."
+    },
+    {
+      "title": "Interbeing",
+      "text": "Thich Nhat Hanh’s word for dependent arising. In a sheet of paper there is a cloud, rain, a tree and a logger. Nothing stands alone, and so nothing is beneath concern.",
+      "practice": "Before one meal, name five beings who made it possible."
+    },
+    {
+      "title": "Samsara is nirvana",
+      "text": "Nagarjuna argued that there is no line between the troubled world and peace. Freedom is this same life, seen without grasping. So the bodhisattva has no reason to leave.",
+      "practice": "Find one ordinary, tedious moment today and give it your whole attention."
+    },
+    {
+      "title": "Other-power",
+      "text": "The Pure Land schools teach that in a hard age few can free themselves by effort. One relies on the vow of Amitabha, and practice becomes an expression of gratitude.",
+      "practice": "Notice one thing today that you received and could never have earned."
+    }
+  ],
+  "journal": [
+    "Whose suffering did you step toward today?",
+    "What did you give, and what did you hold back?",
+    "When did anger rise, and what did you do with it?",
+    "Who did you find difficult, and what might their day have been like?",
+    "What does your morning vow actually commit you to?",
+    "What exists by itself?",
+    "Where did you put yourself first without noticing?",
+    "What did you eat today, and who made it possible?",
+    "Which of the six perfections is weakest in you?",
+    "What would you do if you were certain everyone could awaken?",
+    "Where were you kind without being wise?",
+    "Where were you right without being kind?",
+    "What are you storing up that you could give away?",
+    "Who heard your cries when you needed it?",
+    "Whose cries do you not want to hear?",
+    "What did copying the sutra do to your mind?",
+    "What merit, however small, can you dedicate tonight?",
+    "What is the self you are defending?",
+    "What help did you offer in your way and not in theirs?",
+    "What have you received that you could never repay?",
+    "Where did you waste something today?",
+    "What grudge could you release?",
+    "What would patience have looked like?",
+    "Which creature did you step around?",
+    "What ordinary moment was complete?",
+    "What does emptiness take away from you, and what does it give?",
+    "Who is your enemy, and what are they teaching you?",
+    "How large could your aim be?",
+    "What do you still want only for yourself?",
+    "For as long as space endures: what will you stay for?"
+  ],
+  "reflect": [
+    "What changed when you began each day for others?",
+    "Which perfection grew, and which resisted?",
+    "Whom do you see differently after exchanging places with them?",
+    "What did giving away the merit each night do?",
+    "What does emptiness mean to you now, in your own words?",
+    "Which vow will you carry forward?"
+  ],
+  "dayThemes": [
+    "The morning vow",
+    "Giving",
+    "Ethical care",
+    "Patience",
+    "Energy",
+    "Meditation",
+    "Wisdom",
+    "The burning house",
+    "The one who hears",
+    "Form and emptiness",
+    "Self and other",
+    "The enemy as teacher",
+    "Vimalakirti’s sickbed",
+    "The hidden jewel",
+    "Interbeing",
+    "The silent meal",
+    "Skilful means",
+    "Buddha nature",
+    "The dewdrop",
+    "Releasing life",
+    "The name recited",
+    "Earth Store’s vow",
+    "Two wings",
+    "Incense",
+    "The lost son",
+    "Nothing wasted",
+    "This world is the place",
+    "Gratitude",
+    "Giving it all away",
+    "As long as space endures"
+  ],
+  "guide": {
+    "intro": [
+      "About four centuries after the Buddha’s death, new scriptures began to circulate among Buddhist monks and nuns in India. They praised a figure called the bodhisattva: a person who vows to become a fully awakened buddha, over as many lifetimes as it takes, in order to free every living being. The movement that grew around these texts called itself the Mahayana, the Great Vehicle. It is the Buddhism of China, Korea, Japan, Vietnam, Tibet and Mongolia, and of more than half the world’s Buddhists.",
+      "Two ideas carry it. The first is compassion without limit. A bodhisattva does not leave the world for a private peace but stays, and the vow is renewed every morning: beings are numberless, I vow to save them. The second is emptiness. The Perfection of Wisdom sutras and the philosopher Nagarjuna argued that nothing has a fixed nature of its own. Everything arises in dependence on everything else. Far from a bleak teaching, this is what makes change, kindness and awakening possible.",
+      "From these roots came many schools. Chan, which became Zen, stressed meditation and direct insight. Pure Land taught reliance on the vow of the Buddha Amitabha and the recitation of his name, and became the faith of most ordinary people. Tiantai and Huayan built vast systems of thought around the Lotus and Flower Garland sutras. The Vajrayana of Tibet is a Mahayana tradition with its own methods. This app has separate Ondas for Zen and for Tibetan Buddhism. This one keeps to the common ground beneath them.",
+      "That common ground is practical. It is the six perfections: giving, ethical care, patience, energy, meditation and wisdom. It is devotion to Guanyin, who hears the cries of the world, and to Earth Store, who will not rest until the hells are empty. It is vegetarian food, incense, bows, the copying of sutras, and the habit of giving away the merit of every good act as soon as it is done.",
+      "In this Onda you will set a vow each morning, take one perfection each day, practise exchanging yourself with someone difficult, copy the Heart Sutra by hand and dedicate the day before sleep. You are a guest. Taking refuge and receiving the bodhisattva precepts are formal steps made with a teacher and a community, and nothing here stands in for them.",
+      "One caution about a word. Mahayana texts sometimes call earlier Buddhism the Hinayana, the lesser vehicle. The term is a polemic and is not used for the living Theravada tradition, which has its own Onda here."
+    ],
+    "origin": "India, then China, Korea, Japan, Vietnam and the Himalayas",
+    "era": "Mahayana sutras appear from about the 1st century BCE. It is the majority form of Buddhism today",
+    "figures": [
+      {
+        "name": "Nagarjuna",
+        "dates": "about 150 to 250 CE",
+        "bio": "The Indian philosopher of the middle way, who argued in tight verse that all things are empty of a nature of their own. Nearly every Mahayana school claims him."
+      },
+      {
+        "name": "Asanga and Vasubandhu",
+        "dates": "4th to 5th century",
+        "bio": "Half-brothers from Gandhara who founded the Yogachara school, a close study of how the mind builds its world."
+      },
+      {
+        "name": "Kumarajiva",
+        "dates": "344 to 413",
+        "bio": "A monk from Kucha on the Silk Road, taken to China as a captive, whose translations of the Lotus, Diamond and Vimalakirti sutras are still the ones chanted."
+      },
+      {
+        "name": "Zhiyi",
+        "dates": "538 to 597",
+        "bio": "Founder of the Tiantai school on a mountain in Zhejiang. He ordered the whole of Buddhist teaching around the Lotus Sutra and wrote great manuals of meditation."
+      },
+      {
+        "name": "Xuanzang",
+        "dates": "602 to 664",
+        "bio": "A Chinese monk who walked to India and back, a journey of seventeen years, and returned with hundreds of texts. His version of the Heart Sutra is the standard one."
+      },
+      {
+        "name": "Shantideva",
+        "dates": "8th century",
+        "bio": "A monk of Nalanda university. Legend says his fellows thought him lazy until he recited The Way of the Bodhisattva and rose into the air."
+      },
+      {
+        "name": "Wonhyo",
+        "dates": "617 to 686",
+        "bio": "The most loved Korean monk, who gave up his robes, sang and danced the teaching through villages and wrote some eighty works reconciling the schools."
+      },
+      {
+        "name": "Shinran",
+        "dates": "1173 to 1263",
+        "bio": "A Japanese monk who married, called himself neither monk nor layman and taught complete trust in Amitabha’s vow. His school is the largest in Japan."
+      },
+      {
+        "name": "Thich Nhat Hanh",
+        "dates": "1926 to 2022",
+        "bio": "A Vietnamese Zen master exiled for opposing the war. He taught mindfulness and engaged Buddhism worldwide from Plum Village in France."
+      }
+    ],
+    "history": [
+      {
+        "when": "about 5th century BCE",
+        "what": "The life of the Buddha",
+        "detail": "Siddhartha Gautama awakens under a tree at Bodh Gaya and teaches for some forty-five years across the plain of the Ganges."
+      },
+      {
+        "when": "about 1st century BCE",
+        "what": "The first Mahayana sutras",
+        "detail": "The Perfection of Wisdom texts begin to circulate in writing. Their origin is debated. They may have arisen among forest monks and in several places at once."
+      },
+      {
+        "when": "1st to 2nd century CE",
+        "what": "Buddhism reaches China",
+        "detail": "Monks and merchants carry texts and images along the Silk Road. The first translations into Chinese are made at Luoyang."
+      },
+      {
+        "when": "about 150 to 250",
+        "what": "Nagarjuna",
+        "detail": "His Fundamental Verses on the Middle Way give the Mahayana its philosophy of emptiness."
+      },
+      {
+        "when": "372 and 552",
+        "what": "Korea and Japan",
+        "detail": "Buddhism is brought to the Korean kingdom of Goguryeo in 372, and from Baekje to the Japanese court in the middle of the sixth century."
+      },
+      {
+        "when": "401",
+        "what": "Kumarajiva arrives in Chang’an",
+        "detail": "With a team of hundreds he produces clear, beautiful Chinese versions of the main sutras. Chinese Buddhism can now think in its own language."
+      },
+      {
+        "when": "6th to 9th century",
+        "what": "The schools of Tang China",
+        "detail": "Tiantai, Huayan, Pure Land and Chan take shape. Monasteries become the largest landowners and centres of learning in the empire."
+      },
+      {
+        "when": "845",
+        "what": "The great persecution",
+        "detail": "The emperor Wuzong closes thousands of monasteries and returns a quarter of a million monks and nuns to lay life. Chan and Pure Land, which need few books and buildings, survive best."
+      },
+      {
+        "when": "868",
+        "what": "The Diamond Sutra is printed",
+        "detail": "A copy found at Dunhuang is the oldest dated printed book in the world. It was made for free distribution, to earn merit for the donor’s parents."
+      },
+      {
+        "when": "1236 to 1251",
+        "what": "The Tripitaka Koreana",
+        "detail": "With the Mongols invading, the Goryeo court has the entire canon carved on more than eighty thousand woodblocks. They are still kept at Haeinsa."
+      },
+      {
+        "when": "12th to 13th century",
+        "what": "New schools in Japan",
+        "detail": "Honen and Shinran teach the Pure Land path, Eisai and Dogen bring Zen, and Nichiren preaches the Lotus Sutra. All three movements still thrive."
+      },
+      {
+        "when": "20th century",
+        "what": "War, revolution and renewal",
+        "detail": "Buddhism is suppressed in China during the Cultural Revolution and revives afterward. Reformers such as Taixu and movements such as Fo Guang Shan and Tzu Chi in Taiwan turn it toward social service."
+      },
+      {
+        "when": "1960s onward",
+        "what": "The Mahayana goes global",
+        "detail": "Teachers from Japan, Korea, Vietnam and Taiwan found centres on every continent. Engaged Buddhism links practice to peace work and care for the earth."
+      }
+    ],
+    "concepts": [
+      {
+        "term": "Bodhisattva",
+        "text": "One who lives for the awakening of all.",
+        "detail": "The ideal person of the Mahayana. The term covers great figures such as Guanyin and Manjushri and also anyone who has made the vow. The path is mapped in ten stages."
+      },
+      {
+        "term": "Bodhicitta",
+        "text": "The awakening mind.",
+        "detail": "The resolve to become a buddha for the sake of others. Teachers distinguish the wish from the active practice, as planning a journey differs from setting out."
+      },
+      {
+        "term": "Emptiness",
+        "text": "No fixed essence anywhere.",
+        "detail": "Things exist, but only in dependence on causes, parts and naming. Nagarjuna calls this the middle way between saying things truly exist and saying they do not."
+      },
+      {
+        "term": "The six perfections",
+        "text": "The bodhisattva’s training.",
+        "detail": "Giving, ethics, patience, energy, meditation and wisdom. The first five are called blind without the sixth. Some lists add four more to make ten."
+      },
+      {
+        "term": "Skilful means",
+        "text": "The right help for each person.",
+        "detail": "Buddhas teach differently to different hearers, as a doctor prescribes differently for different patients. The Lotus Sutra uses the idea to reconcile all earlier teachings as one vehicle."
+      },
+      {
+        "term": "Buddha nature",
+        "text": "The seed of awakening in everyone.",
+        "detail": "Taught in the Tathagatagarbha sutras and central in East Asia. It is likened to gold in ore or a statue wrapped in rags."
+      },
+      {
+        "term": "The three bodies",
+        "text": "Three ways a buddha is present.",
+        "detail": "The body of truth, which is reality itself; the body of enjoyment, seen in visions and pure lands; and the body of appearance, such as the historical Buddha."
+      },
+      {
+        "term": "Pure Land",
+        "text": "A world shaped by compassion.",
+        "detail": "Amitabha vowed to create a land where anyone who calls on him could be reborn and awaken easily. Some take it as a place and some as the purified mind."
+      },
+      {
+        "term": "Merit and its dedication",
+        "text": "Good that is given away.",
+        "detail": "Good acts produce benefit. A bodhisattva turns that benefit over to all beings at once, which also guards against pride."
+      }
+    ],
+    "facts": [
+      {
+        "text": "The Diamond Sutra of 868, found in a sealed cave at Dunhuang and now in the British Library, is the oldest complete printed book that carries a date."
+      },
+      {
+        "text": "Guanyin began in India as the male bodhisattva Avalokiteshvara and came to be pictured as a woman in China from about the tenth century."
+      },
+      {
+        "text": "The laughing fat figure often called the Buddha in the West is Budai, a tenth century Chinese monk regarded as a form of the future buddha Maitreya."
+      },
+      {
+        "text": "The Heart Sutra is short enough to be printed on a fan or a teacup, and it is."
+      },
+      {
+        "text": "The Tripitaka Koreana has more than fifty-two million characters and scholars have found almost no errors in it."
+      },
+      {
+        "text": "Tofu, soy milk and wheat gluten owe much of their development to the kitchens of Chinese monasteries."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Arhat",
+        "meaning": "One who has reached release; the ideal of earlier Buddhism"
+      },
+      {
+        "term": "Avalokiteshvara",
+        "meaning": "The bodhisattva of compassion; Guanyin"
+      },
+      {
+        "term": "Manjushri",
+        "meaning": "The bodhisattva of wisdom, shown with a sword"
+      },
+      {
+        "term": "Maitreya",
+        "meaning": "The buddha of the future"
+      },
+      {
+        "term": "Nirvana",
+        "meaning": "The end of greed, hatred and delusion"
+      },
+      {
+        "term": "Tripitaka",
+        "meaning": "The Buddhist canon, literally three baskets"
+      }
+    ],
+    "furtherReading": [
+      {
+        "title": "Mahayana Buddhism: The Doctrinal Foundations",
+        "creator": "Paul Williams",
+        "year": "2nd edition 2009",
+        "note": "The standard scholarly survey of every school and sutra."
+      },
+      {
+        "title": "Old Path White Clouds",
+        "creator": "Thich Nhat Hanh",
+        "year": "1991",
+        "note": "The life of the Buddha retold from the sources as a novel."
+      },
+      {
+        "title": "Buddhism in China: A Historical Survey",
+        "creator": "Kenneth Ch'en",
+        "year": "1964",
+        "note": "Old but still the clearest single account of how an Indian religion became Chinese."
+      },
+      {
+        "title": "No Mud, No Lotus",
+        "creator": "Thich Nhat Hanh",
+        "year": "2014",
+        "note": "A short modern book on meeting suffering with compassion."
+      }
+    ],
+    "learnFrom": [
+      {
+        "name": "Plum Village",
+        "note": "Talks, guided practices and retreat information from Thich Nhat Hanh’s community.",
+        "link": "https://plumvillage.org"
+      },
+      {
+        "name": "84000: Translating the Words of the Buddha",
+        "note": "Free, careful English translations of Mahayana sutras from the Tibetan canon.",
+        "link": "https://84000.co"
+      },
+      {
+        "name": "Templestay",
+        "note": "The official programme for staying at Korean Buddhist monasteries, open to visitors of any background.",
+        "link": "https://eng.templestay.com"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Mahayana Buddhism: The Doctrinal Foundations",
+        "creator": "Paul Williams",
+        "publisher": "Routledge",
+        "year": "2nd edition 2009"
+      },
+      {
+        "title": "The Way of the Bodhisattva",
+        "creator": "Shantideva, trans. Padmakara Translation Group",
+        "publisher": "Shambhala",
+        "year": "revised edition 2006"
+      },
+      {
+        "title": "The Heart Sutra",
+        "creator": "trans. and commentary Red Pine",
+        "publisher": "Counterpoint",
+        "year": "2004"
+      },
+      {
+        "title": "The Lotus Sutra",
+        "creator": "trans. Burton Watson",
+        "publisher": "Columbia University Press",
+        "year": "1993"
+      },
+      {
+        "title": "The Vimalakirti Sutra",
+        "creator": "trans. Burton Watson",
+        "publisher": "Columbia University Press",
+        "year": "1997"
+      },
+      {
+        "title": "An Introduction to Buddhism: Teachings, History and Practices",
+        "creator": "Peter Harvey",
+        "publisher": "Cambridge University Press",
+        "year": "2nd edition 2013"
+      }
+    ]
+  },
+  "sensitivity": {
+    "note": "Mahayana Buddhism is the living religion of hundreds of millions of people. This Onda offers practices that East Asian traditions share with lay visitors. It is no substitute for taking refuge, receiving precepts or learning from a teacher and a community.",
+    "requiredCaveats": [
+      "Schools differ widely. What is central in Pure Land may be marginal in Chan, and the reverse.",
+      "Images of buddhas and bodhisattvas are objects of devotion. Do not use them as decoration, and never place them on the floor.",
+      "The word Hinayana is a polemical term. It should not be used for Theravada Buddhists.",
+      "Emptiness is easily misheard as nihilism. It is taught alongside compassion for that reason."
+    ],
+    "reviewRequired": true
+  }
+}

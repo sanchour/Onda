@@ -1,0 +1,1240 @@
+{
+  "version": 1,
+  "id": "hindu",
+  "name": "Hinduism",
+  "origin": "India",
+  "era": "From the Vedas, about 1500 BCE, to today",
+  "tone": "coral",
+  "icon": "hands-praying",
+  "font": "eczar",
+  "pattern": "marigold-garland",
+  "glyph": "धर्म",
+  "line": "Do your duty with love, offer the result and see the sacred in everything.",
+  "quote": {
+    "text": "Be intent on action, not on the fruits of action.",
+    "by": "Krishna to Arjuna",
+    "source": "Bhagavad Gita 2.47, trans. Barbara Stoler Miller"
+  },
+  "quotes": [
+    {
+      "text": "Truth is one; the wise call it by many names.",
+      "by": "Rig Veda",
+      "source": "Rig Veda 1.164.46, in its common English rendering"
+    },
+    {
+      "text": "Lead me from the unreal to the real, from darkness to light, from death to immortality.",
+      "by": "Brihadaranyaka Upanishad",
+      "source": "Brihadaranyaka Upanishad 1.3.28, in its common English rendering"
+    },
+    {
+      "text": "Let noble thoughts come to us from every side.",
+      "by": "Rig Veda",
+      "source": "Rig Veda 1.89.1, in its common English rendering"
+    },
+    {
+      "text": "The world is one family.",
+      "by": "Maha Upanishad",
+      "source": "Vasudhaiva kutumbakam, Maha Upanishad 6.71"
+    },
+    {
+      "text": "Whatever you do, whatever you eat, whatever you offer or give away, do it as an offering to me.",
+      "by": "Krishna to Arjuna",
+      "source": "Bhagavad Gita 9.27, paraphrased from several translations"
+    }
+  ],
+  "words": [
+    {
+      "id": "word-dharma",
+      "term": "Dharma",
+      "meaning": "Duty, right order, the way to live",
+      "pronunciation": "DAR-ma",
+      "language": "Sanskrit",
+      "usage": "What holds the world and a life together. It changes with your age, your work and the people who depend on you."
+    },
+    {
+      "id": "word-karma",
+      "term": "Karma",
+      "meaning": "Action and its results",
+      "pronunciation": "KAR-ma",
+      "language": "Sanskrit",
+      "usage": "Every act leaves a trace that returns, in this life or another. It means deed before it means fate."
+    },
+    {
+      "id": "word-samsara",
+      "term": "Samsara",
+      "meaning": "The round of birth and death",
+      "pronunciation": "sum-SAH-ra",
+      "language": "Sanskrit",
+      "usage": "The wandering of the self from life to life until it is free."
+    },
+    {
+      "id": "word-moksha",
+      "term": "Moksha",
+      "meaning": "Release, freedom",
+      "pronunciation": "MOKE-sha",
+      "language": "Sanskrit",
+      "usage": "The end of the round. The fourth and last aim of human life."
+    },
+    {
+      "id": "word-atman",
+      "term": "Atman",
+      "meaning": "The self",
+      "pronunciation": "AHT-mun",
+      "language": "Sanskrit",
+      "usage": "The innermost self, which the Upanishads say is not born and does not die."
+    },
+    {
+      "id": "word-brahman",
+      "term": "Brahman",
+      "meaning": "The ultimate reality",
+      "pronunciation": "BRUH-mun",
+      "language": "Sanskrit",
+      "usage": "The ground of everything. Not to be confused with Brahma the creator god or the brahmin priest."
+    },
+    {
+      "id": "word-bhakti",
+      "term": "Bhakti",
+      "meaning": "Loving devotion",
+      "pronunciation": "BUK-tee",
+      "language": "Sanskrit",
+      "usage": "The way of the heart: love for a chosen form of God, shown in song, service and worship."
+    },
+    {
+      "id": "word-puja",
+      "term": "Puja",
+      "meaning": "Worship",
+      "pronunciation": "POO-ja",
+      "language": "Sanskrit",
+      "usage": "Honouring a deity as an honoured guest, with water, flowers, light, incense and food."
+    },
+    {
+      "id": "word-darshan",
+      "term": "Darshan",
+      "meaning": "Seeing and being seen",
+      "pronunciation": "DAR-shun",
+      "language": "Sanskrit",
+      "usage": "The heart of a temple visit. You look at the deity and the deity looks at you."
+    },
+    {
+      "id": "word-prasad",
+      "term": "Prasad",
+      "meaning": "Blessed food",
+      "pronunciation": "pruh-SAHD",
+      "language": "Sanskrit",
+      "usage": "Food that has been offered and comes back as a gift. It is shared with everyone present."
+    },
+    {
+      "id": "word-murti",
+      "term": "Murti",
+      "meaning": "A consecrated image",
+      "pronunciation": "MOOR-tee",
+      "language": "Sanskrit",
+      "usage": "A form in which the deity is invited to be present. Better translated as embodiment than as idol."
+    },
+    {
+      "id": "word-mandir",
+      "term": "Mandir",
+      "meaning": "Temple",
+      "pronunciation": "mun-DEER",
+      "language": "Hindi",
+      "usage": "A house of the deity. Many homes also have a small shrine in a corner or a cupboard."
+    },
+    {
+      "id": "word-namaste",
+      "term": "Namaste",
+      "meaning": "I bow to you",
+      "pronunciation": "nuh-muh-STAY",
+      "language": "Sanskrit",
+      "usage": "Said with the palms together. A greeting that honours the person in front of you."
+    },
+    {
+      "id": "word-om",
+      "term": "Om",
+      "meaning": "The sacred syllable",
+      "pronunciation": "OHM",
+      "language": "Sanskrit",
+      "usage": "The sound that opens and closes prayers. The Mandukya Upanishad treats it as the whole of reality in one breath."
+    },
+    {
+      "id": "word-mantra",
+      "term": "Mantra",
+      "meaning": "A sacred formula",
+      "pronunciation": "MUN-tra",
+      "language": "Sanskrit",
+      "usage": "Words whose power lies in their sound and repetition as well as their meaning."
+    },
+    {
+      "id": "word-japa",
+      "term": "Japa",
+      "meaning": "Repeating a name or mantra",
+      "pronunciation": "JUH-pa",
+      "language": "Sanskrit",
+      "usage": "Often counted on a string of 108 beads called a mala."
+    },
+    {
+      "id": "word-yoga",
+      "term": "Yoga",
+      "meaning": "Yoking, discipline",
+      "pronunciation": "YO-ga",
+      "language": "Sanskrit",
+      "usage": "Any steady path that joins the self to what is highest. Postures are one small part of it."
+    },
+    {
+      "id": "word-ahimsa",
+      "term": "Ahimsa",
+      "meaning": "Non-harming",
+      "pronunciation": "uh-HIM-sa",
+      "language": "Sanskrit",
+      "usage": "Doing no injury in act, word or thought. The root of much Hindu vegetarianism."
+    },
+    {
+      "id": "word-seva",
+      "term": "Seva",
+      "meaning": "Selfless service",
+      "pronunciation": "SAY-va",
+      "language": "Sanskrit",
+      "usage": "Work done for others with no thought of return, as an offering."
+    },
+    {
+      "id": "word-guru",
+      "term": "Guru",
+      "meaning": "Teacher",
+      "pronunciation": "GOO-roo",
+      "language": "Sanskrit",
+      "usage": "The one who removes darkness. A relationship of trust that is entered slowly."
+    },
+    {
+      "id": "word-ishta-devata",
+      "term": "Ishta devata",
+      "meaning": "Chosen deity",
+      "pronunciation": "ISH-ta DAY-vuh-ta",
+      "language": "Sanskrit",
+      "usage": "The form of the divine a person feels closest to. Families and regions have theirs too."
+    },
+    {
+      "id": "word-avatar",
+      "term": "Avatar",
+      "meaning": "A descent of God",
+      "pronunciation": "UH-vuh-tar",
+      "language": "Sanskrit",
+      "usage": "Vishnu coming into the world when order fails, as Rama, Krishna and others."
+    },
+    {
+      "id": "word-lila",
+      "term": "Lila",
+      "meaning": "Divine play",
+      "pronunciation": "LEE-la",
+      "language": "Sanskrit",
+      "usage": "The idea that the world is God’s play, made from joy and for no gain."
+    },
+    {
+      "id": "word-shakti",
+      "term": "Shakti",
+      "meaning": "Power, the Goddess",
+      "pronunciation": "SHUK-tee",
+      "language": "Sanskrit",
+      "usage": "The energy that moves everything, worshipped as Durga, Kali, Lakshmi and many others."
+    },
+    {
+      "id": "word-artha",
+      "term": "Artha",
+      "meaning": "Wealth and means",
+      "pronunciation": "AR-ta",
+      "language": "Sanskrit",
+      "usage": "The second aim of life. Earning a living honestly is a duty of the householder."
+    },
+    {
+      "id": "word-kama",
+      "term": "Kama",
+      "meaning": "Pleasure and love",
+      "pronunciation": "KAH-ma",
+      "language": "Sanskrit",
+      "usage": "The third aim of life: beauty, affection and delight, enjoyed within dharma."
+    },
+    {
+      "id": "word-ashrama",
+      "term": "Ashrama",
+      "meaning": "A stage of life",
+      "pronunciation": "AHSH-ruh-ma",
+      "language": "Sanskrit",
+      "usage": "Student, householder, forest dweller and renouncer: four seasons, each with its own duties."
+    },
+    {
+      "id": "word-tirtha",
+      "term": "Tirtha",
+      "meaning": "A crossing place",
+      "pronunciation": "TEER-ta",
+      "language": "Sanskrit",
+      "usage": "A place of pilgrimage, often at a river, where this world and the other are close."
+    },
+    {
+      "id": "word-aarti",
+      "term": "Aarti",
+      "meaning": "The offering of light",
+      "pronunciation": "AR-tee",
+      "language": "Hindi",
+      "usage": "A lamp circled before the deity while a hymn is sung. The flame is then offered to each person."
+    },
+    {
+      "id": "word-shanti",
+      "term": "Shanti",
+      "meaning": "Peace",
+      "pronunciation": "SHAHN-tee",
+      "language": "Sanskrit",
+      "usage": "Said three times at the end of a prayer: peace in oneself, in others and in the world."
+    }
+  ],
+  "practices": [
+    {
+      "id": "morning-offering",
+      "name": "The morning offering",
+      "icon": "sun-horizon",
+      "slot": "Morning",
+      "time": "06:45",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Wash first. Then stand or sit facing the early light. Put your palms together and take three slow breaths. Offer something simple: a glass of fresh water, a flower or a lit candle on a clean shelf or windowsill. Say in your own words, or silently, that the work of this day is offered and that you ask to do it well. Stay a minute longer in quiet. Leave the water for a plant afterwards.",
+      "why": "Most Hindu worship happens at home, at a small shrine, before the day’s work starts. Beginning with an offering frames everything that follows as service.",
+      "variations": [
+        "Greet the sun with twelve slow rounds of the sun salutation.",
+        "Read one verse of the Bhagavad Gita aloud before you begin.",
+        "Keep the same place and the same hour for the whole Onda."
+      ]
+    },
+    {
+      "id": "work-as-offering",
+      "name": "Work without the fruit",
+      "icon": "briefcase",
+      "slot": "Morning",
+      "time": "09:00",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Before your main task of the day, name it and name the result you are hoping for: praise, payment, a win. Then set that result down for the length of the task. Decide to do the work as well as it can be done because it is yours to do. When you finish, notice the pull to check how it was received, and wait an hour before you look.",
+      "why": "This is karma yoga as Krishna teaches it to Arjuna on the battlefield: act fully and give up the claim on the outcome. It is said to free the mind while the hands stay busy.",
+      "variations": [
+        "Do one piece of work today that nobody will know you did.",
+        "Dedicate the task to a person you love.",
+        "At the end of the day list what you did, not what you got."
+      ]
+    },
+    {
+      "id": "japa",
+      "name": "Japa: 108 breaths of a name",
+      "icon": "repeat",
+      "slot": "Afternoon",
+      "time": "13:30",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Sit comfortably with your back straight. Choose one short phrase and keep it for the whole Onda. Om is the simplest. Om shanti, peace, is another. Repeat it quietly once for each out-breath and count on your fingers or on a string of beads, to 108 if you have the time or 27 if you do not. When the mind wanders, return to the sound without comment.",
+      "why": "Repeating a holy name is among the most widely kept practices in every Hindu tradition. It needs no priest, no temple and no learning.",
+      "variations": [
+        "Walk slowly and repeat the phrase in step.",
+        "Hum Om aloud for five minutes and feel where it sounds in the body.",
+        "Listen to a recorded chant and join in."
+      ]
+    },
+    {
+      "id": "seva",
+      "name": "Seva: one act of service",
+      "icon": "hand-heart",
+      "slot": "Afternoon",
+      "time": "16:30",
+      "minutes": 15,
+      "meta": "Afternoon · 15 min",
+      "instructions": "Do one useful thing for someone else and tell no one. Cook for a neighbour, feed birds, carry something, clean a shared space, give time to someone lonely. Choose the act in the morning so that it happens. While you do it, hold the thought that the person in front of you carries the same self that you do.",
+      "why": "Service is treated as worship: the guest, the parent, the teacher and the stranger are each to be honoured as God. Feeding others is the classic form.",
+      "variations": [
+        "Give food to someone who needs it.",
+        "Offer your skill for free for an hour.",
+        "Serve the people you live with before you serve yourself at one meal."
+      ]
+    },
+    {
+      "id": "evening-lamp",
+      "name": "The evening lamp",
+      "icon": "fire",
+      "slot": "Evening",
+      "time": "19:30",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "At dusk light a small lamp or candle. Stand before it with your palms together. If you like, circle your hand slowly in front of the flame three times as families do in aarti. Then sit and go through the day: where did you act from duty, where from wanting, where from love. Give thanks for one thing. End by saying peace three times.",
+      "why": "Lamps are lit at twilight in millions of homes. The meeting points of the day, dawn and dusk, are the traditional hours for prayer.",
+      "variations": [
+        "Sing or play one devotional song.",
+        "Share a sweet with the household afterwards, as prasad.",
+        "Do it outdoors under the first stars."
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": "take-off-your-shoes-at-the-door-and-keep-one-corner-of-your-home-clean",
+      "name": "Take off your shoes at the door and keep one corner of your home clean and clear",
+      "meta": "A place set apart",
+      "time": "08:00",
+      "slot": "Morning"
+    },
+    {
+      "id": "task-eat-a-vegetarian-meal-with-your-right-hand-sitting-on-the-floor",
+      "name": "Eat a vegetarian meal with your right hand, sitting on the floor",
+      "meta": "Eat · slowly and with thanks",
+      "time": "13:00",
+      "slot": "Afternoon",
+      "action": "eat"
+    },
+    {
+      "id": "task-read-chapter-2-of-the-bhagavad-gita",
+      "name": "Read chapter 2 of the Bhagavad Gita",
+      "meta": "Read · the teaching begins",
+      "time": "20:00",
+      "slot": "Evening",
+      "action": "read"
+    },
+    {
+      "id": "task-listen-to-a-morning-raga-at-sunrise",
+      "name": "Listen to a morning raga at sunrise",
+      "meta": "Listen · Bhairav or Ahir Bhairav",
+      "time": "07:00",
+      "slot": "Morning",
+      "action": "listen"
+    },
+    {
+      "id": "task-look-closely-at-the-dancing-shiva",
+      "name": "Look closely at the dancing Shiva",
+      "meta": "Art · the Chola bronze Nataraja",
+      "time": "17:00",
+      "slot": "Afternoon",
+      "action": "art"
+    },
+    {
+      "id": "task-visit-a-hindu-temple-as-a-guest-if-one-is-near-you",
+      "name": "Visit a Hindu temple as a guest, if one is near you",
+      "meta": "Travel · ask before you enter and follow what others do",
+      "time": "11:00",
+      "slot": "Afternoon",
+      "action": "travel"
+    },
+    {
+      "id": "task-journal-what-is-your-duty-in-this-season-of-life",
+      "name": "Journal: what is your duty in this season of life?",
+      "meta": "Journal · 10 min",
+      "time": "21:00",
+      "slot": "Evening",
+      "action": "journal"
+    },
+    {
+      "id": "task-the-four-aims-where-does-your-week-actually-go",
+      "name": "The four aims: where does your week actually go?",
+      "meta": "Philosophy · 10 min",
+      "time": "08:30",
+      "slot": "Morning",
+      "action": "philosophy"
+    },
+    {
+      "id": "draw-a-simple-pattern-at-your-doorstep-with-chalk-or-flour",
+      "name": "Draw a simple pattern at your doorstep with chalk or flour",
+      "meta": "A welcome at the threshold",
+      "time": "07:30",
+      "slot": "Morning"
+    },
+    {
+      "id": "call-or-write-to-an-elder-or-a-teacher",
+      "name": "Call or write to an elder or a teacher",
+      "meta": "Honour those who formed you",
+      "time": "18:00",
+      "slot": "Evening"
+    }
+  ],
+  "rules": [
+    {
+      "id": "r1",
+      "text": "Begin the day clean and with an offering",
+      "why": "Wash, then give something before you take anything: water, a flower, a moment of thanks."
+    },
+    {
+      "id": "r2",
+      "text": "Do the work and release the result",
+      "why": "Give each task your full care. Leave praise, blame and reward to arrive when they will."
+    },
+    {
+      "id": "r3",
+      "text": "Harm no living thing today",
+      "why": "Eat no meat, speak no cruelty and step around the insect. Ahimsa covers act, word and thought."
+    },
+    {
+      "id": "r4",
+      "text": "Feed someone before you eat",
+      "why": "A guest, a neighbour, a bird, a plant. No meal is only for yourself."
+    },
+    {
+      "id": "r5",
+      "text": "Honour your elders and teachers",
+      "why": "Contact one of them today: a call, a letter, a visit, a word of thanks."
+    },
+    {
+      "id": "r6",
+      "text": "Keep company with the wise",
+      "why": "A page of scripture, a hymn, a good friend. Give at least ten minutes to something that lifts the mind."
+    }
+  ],
+  "immerse": {
+    "read": [
+      {
+        "id": "read-the-bhagavad-gita",
+        "title": "The Bhagavad Gita",
+        "creator": "trans. Laurie L. Patton, or Barbara Stoler Miller",
+        "year": "about 2nd century BCE to 2nd century CE",
+        "why": "Seven hundred verses on a battlefield: a warrior who cannot act and a god who teaches him how to. The best door into the tradition."
+      },
+      {
+        "id": "read-the-upanishads",
+        "title": "The Upanishads",
+        "creator": "trans. Patrick Olivelle",
+        "year": "about 700 to 300 BCE",
+        "why": "The dialogues in which teachers and students search for the self. Read the Katha and the Chandogya first."
+      },
+      {
+        "id": "read-the-ramayana",
+        "title": "The Ramayana",
+        "creator": "retold by R. K. Narayan",
+        "year": "1972",
+        "why": "The story of Rama, Sita and Hanuman in two hundred light pages by a great Indian novelist."
+      },
+      {
+        "id": "read-the-mahabharata-a-modern-rendering",
+        "title": "The Mahabharata: A Modern Rendering",
+        "creator": "Ramesh Menon",
+        "year": "2006",
+        "why": "The vast epic of a family war in which nobody is simply right. A readable prose version."
+      },
+      {
+        "id": "read-speaking-of-siva",
+        "title": "Speaking of Siva",
+        "creator": "trans. A. K. Ramanujan",
+        "year": "1973",
+        "why": "Short, fierce devotional poems by the Kannada saints of the twelfth century, who had no patience for ritual without love."
+      },
+      {
+        "id": "read-darsan-seeing-the-divine-image-in-india",
+        "title": "Darsan: Seeing the Divine Image in India",
+        "creator": "Diana L. Eck",
+        "year": "1981",
+        "why": "A short classic on why Hindus go to look at God, and what an image is."
+      }
+    ],
+    "watch": [
+      {
+        "id": "watch-pather-panchali",
+        "title": "Pather Panchali",
+        "creator": "Satyajit Ray",
+        "year": "1955",
+        "why": "Village life in Bengal through a child’s eyes. Ritual, poverty and beauty with no explanation added."
+      },
+      {
+        "id": "watch-the-mahabharata",
+        "title": "The Mahabharata",
+        "creator": "Peter Brook",
+        "year": "1989",
+        "why": "A long, spare staging of the epic with an international cast. Uneven, serious and unforgettable in places."
+      },
+      {
+        "id": "watch-sita-sings-the-blues",
+        "title": "Sita Sings the Blues",
+        "creator": "Nina Paley",
+        "year": "2008",
+        "why": "The Ramayana told from Sita’s side with shadow puppets and 1920s jazz. Three narrators argue about the details, as families do."
+      },
+      {
+        "id": "watch-short-cut-to-nirvana-kumbh-mela",
+        "title": "Short Cut to Nirvana: Kumbh Mela",
+        "creator": "Maurizio Benazzo and Nick Day",
+        "year": "2004",
+        "why": "A documentary walk through the largest religious gathering on earth."
+      }
+    ],
+    "listen": [
+      {
+        "id": "listen-vishnu-sahasranamam",
+        "title": "Vishnu Sahasranamam",
+        "creator": "M. S. Subbulakshmi",
+        "year": "1970",
+        "why": "The thousand names of Vishnu sung by the most loved voice in South Indian music. Played in countless homes at dawn."
+      },
+      {
+        "id": "listen-call-of-the-valley",
+        "title": "Call of the Valley",
+        "creator": "Shivkumar Sharma, Hariprasad Chaurasia and Brij Bhushan Kabra",
+        "year": "1967",
+        "why": "A day in Kashmir told in ragas, from morning to night. A gentle first record of Indian classical music."
+      },
+      {
+        "id": "listen-hanuman-chalisa",
+        "title": "Hanuman Chalisa",
+        "creator": "Many singers; try the version by Hariharan",
+        "year": "16th century text",
+        "why": "Forty verses in praise of Hanuman by the poet Tulsidas. Many people know all of it by heart."
+      },
+      {
+        "id": "listen-bhajans-of-mirabai",
+        "title": "Bhajans of Mirabai",
+        "creator": "Sung by Lata Mangeshkar and others",
+        "year": "16th century songs",
+        "why": "Love songs to Krishna by a Rajput princess who walked away from her palace."
+      }
+    ],
+    "art": [
+      {
+        "id": "art-shiva-as-lord-of-the-dance-nataraja",
+        "title": "Shiva as Lord of the Dance (Nataraja)",
+        "creator": "Chola bronze casters, Tamil Nadu",
+        "year": "about 11th century",
+        "why": "Shiva dances the world into being and out again inside a ring of fire, one foot on ignorance. Fine examples are in Chennai, New York and Amsterdam."
+      },
+      {
+        "id": "art-kandariya-mahadeva-temple",
+        "title": "Kandariya Mahadeva Temple",
+        "creator": "Khajuraho, Madhya Pradesh",
+        "year": "about 1030",
+        "why": "A stone mountain of towers rising to a peak, its walls crowded with gods, dancers and lovers."
+      },
+      {
+        "id": "art-descent-of-the-ganges",
+        "title": "Descent of the Ganges",
+        "creator": "Mamallapuram, Tamil Nadu",
+        "year": "7th century",
+        "why": "A cliff face carved with gods, sages and a family of elephants, all turned toward the river coming down from heaven."
+      },
+      {
+        "id": "art-krishna-and-radha-in-a-grove",
+        "title": "Krishna and Radha in a Grove",
+        "creator": "Kangra school of painting",
+        "year": "about 1780",
+        "why": "Small paintings from the Himalayan foothills in which the love of Radha and Krishna stands for the soul and God."
+      }
+    ],
+    "eat": [
+      {
+        "id": "eat-khichdi",
+        "title": "Khichdi",
+        "creator": "Rice and split mung beans cooked soft with turmeric and ghee",
+        "why": "The plainest and most trusted meal in India. Offered in temples and given to the sick."
+      },
+      {
+        "id": "eat-a-vegetarian-thali",
+        "title": "A vegetarian thali",
+        "creator": "Dal, vegetables, rice, bread, yogurt and pickle on one plate",
+        "why": "A whole meal that balances the six tastes. Eaten with the right hand."
+      },
+      {
+        "id": "eat-laddu",
+        "title": "Laddu",
+        "creator": "Chickpea flour, ghee and sugar rolled into balls",
+        "why": "The favourite sweet of Ganesha and the usual prasad at his festival."
+      },
+      {
+        "id": "eat-curd-rice",
+        "title": "Curd rice",
+        "creator": "Rice mixed with yogurt, tempered with mustard seeds and curry leaves",
+        "why": "The cooling last course of a South Indian meal and a standard temple offering."
+      }
+    ],
+    "drink": [
+      {
+        "id": "drink-masala-chai",
+        "title": "Masala chai",
+        "creator": "Black tea boiled with milk, sugar, ginger and cardamom",
+        "why": "Not ancient, since tea drinking spread in India in the twentieth century, but now part of every day and every welcome."
+      },
+      {
+        "id": "drink-lassi",
+        "title": "Lassi",
+        "creator": "Yogurt beaten with water, sweet or salted",
+        "why": "Cooling and old. Thinner versions are called chaas or buttermilk."
+      },
+      {
+        "id": "drink-panchamrita",
+        "title": "Panchamrita",
+        "creator": "Milk, yogurt, ghee, honey and sugar",
+        "why": "The five nectars used to bathe a deity and then shared a spoonful at a time."
+      }
+    ],
+    "customs": [
+      {
+        "id": "customs-namaste",
+        "title": "Namaste",
+        "creator": "Palms together at the heart",
+        "why": "The greeting and the gesture of worship are the same. Bow the head slightly to elders."
+      },
+      {
+        "id": "customs-shoes-off",
+        "title": "Shoes off",
+        "creator": "At the door of a home or temple",
+        "why": "Leather and street dust stay outside. Feet are not pointed at people, books or images."
+      },
+      {
+        "id": "customs-touching-the-feet-of-elders",
+        "title": "Touching the feet of elders",
+        "creator": "A bow and a blessing",
+        "why": "Younger people bend to touch an elder’s feet and receive a hand on the head. Only do this where it is clearly welcome."
+      },
+      {
+        "id": "customs-rangoli-and-kolam",
+        "title": "Rangoli and kolam",
+        "creator": "Patterns at the threshold",
+        "why": "Designs drawn in rice flour or coloured powder each morning to welcome guests and good fortune. Ants eat the flour, which is part of the point."
+      }
+    ],
+    "games": [
+      {
+        "id": "games-pachisi",
+        "title": "Pachisi",
+        "creator": "Board game · India",
+        "year": "at least 16th century",
+        "why": "A cross-shaped race game played with cowrie shells. The emperor Akbar is said to have played it on a courtyard with people as pieces. Ludo descends from it."
+      },
+      {
+        "id": "games-snakes-and-ladders-moksha-patam",
+        "title": "Snakes and Ladders (Moksha Patam)",
+        "creator": "Board game · India",
+        "year": "medieval",
+        "why": "Made as a lesson in karma: ladders stand for virtues, snakes for vices and the last square for release."
+      },
+      {
+        "id": "games-raji-an-ancient-epic",
+        "title": "Raji: An Ancient Epic",
+        "creator": "Video game · Nodding Heads Games",
+        "year": "2020",
+        "why": "A girl chosen by Durga fights demons to save her brother, through levels drawn from temple and shadow-puppet art. Made in Pune."
+      }
+    ],
+    "festivals": [
+      {
+        "id": "fest-diwali",
+        "title": "Diwali",
+        "creator": "October or November, five days",
+        "why": "The festival of lights. Lamps are set in every window for the return of Rama and the welcome of Lakshmi. Sweets, new clothes and fireworks."
+      },
+      {
+        "id": "fest-holi",
+        "title": "Holi",
+        "creator": "March, at the full moon",
+        "why": "The spring festival of colour. A bonfire the night before, then a morning when everyone throws powder at everyone."
+      },
+      {
+        "id": "fest-navaratri-and-durga-puja",
+        "title": "Navaratri and Durga Puja",
+        "creator": "September or October, nine nights",
+        "why": "Nine nights for the Goddess. Circle dances in Gujarat, great clay images of Durga in Bengal."
+      },
+      {
+        "id": "fest-maha-shivaratri",
+        "title": "Maha Shivaratri",
+        "creator": "February or March",
+        "why": "The great night of Shiva, kept with fasting and a vigil until dawn."
+      },
+      {
+        "id": "fest-kumbh-mela",
+        "title": "Kumbh Mela",
+        "creator": "Every three years, in turn at four river cities",
+        "why": "Tens of millions gather to bathe at an auspicious hour. The largest is at Prayagraj every twelve years."
+      }
+    ],
+    "places": [
+      {
+        "id": "place-varanasi",
+        "title": "Varanasi",
+        "creator": "Uttar Pradesh, India",
+        "why": "The city of Shiva on the Ganges. Go to the river steps before dawn and again for the evening lamp ceremony. Cremations are private rites, so do not photograph them."
+      },
+      {
+        "id": "place-meenakshi-temple",
+        "title": "Meenakshi Temple",
+        "creator": "Madurai, Tamil Nadu, India",
+        "why": "A temple city inside a city, with towers covered in thousands of painted figures. Some inner shrines are open to Hindus only."
+      },
+      {
+        "id": "place-rishikesh-and-haridwar",
+        "title": "Rishikesh and Haridwar",
+        "creator": "Uttarakhand, India",
+        "why": "Where the Ganges leaves the Himalayas. Ashrams, pilgrims and the evening aarti at Har Ki Pauri."
+      },
+      {
+        "id": "place-hampi",
+        "title": "Hampi",
+        "creator": "Karnataka, India",
+        "why": "The ruined capital of the Vijayanagara empire among boulders, with one great temple still in worship."
+      },
+      {
+        "id": "place-uluwatu-and-besakih",
+        "title": "Uluwatu and Besakih",
+        "creator": "Bali, Indonesia",
+        "why": "Balinese Hinduism has its own calendar, offerings and temples. Dress as asked and stay out of the inner courts during ceremonies."
+      }
+    ]
+  },
+  "ethics": [
+    {
+      "title": "Dharma comes first",
+      "text": "Each person has duties that come with their place: as child, parent, worker, neighbour, citizen. Doing your own duty imperfectly is held to be better than doing another’s well.",
+      "practice": "Write down the three roles that make the strongest claim on you. Do one thing for the one you have neglected."
+    },
+    {
+      "title": "Ahimsa",
+      "text": "Non-harming is called the highest duty. It asks for restraint in what you eat, how you speak and what you wish on others.",
+      "practice": "Go through today without one harsh word, including about people who are not present."
+    },
+    {
+      "title": "Truthfulness",
+      "text": "Satya means matching your words to what is so, and saying it in a way that does not injure. An old verse advises: say what is true and say what is pleasant.",
+      "practice": "Before you speak today, check each thing against two tests: is it true and is it kind."
+    },
+    {
+      "title": "Giving",
+      "text": "Dana is giving without contempt, to the right person at the right time, and expecting nothing back. The Gita calls any other gift tainted.",
+      "practice": "Give something today that you will miss a little."
+    },
+    {
+      "title": "The guest is God",
+      "text": "The Taittiriya Upanishad tells the student to treat mother, father, teacher and guest as divine. Hospitality is a religious act.",
+      "practice": "Offer food or drink to the next person who comes to your door."
+    },
+    {
+      "title": "Self-restraint",
+      "text": "Dama, mastery of the senses, is what makes every other virtue possible. A person pulled about by appetite cannot keep a promise.",
+      "practice": "Choose one craving today and let it pass once without feeding it."
+    }
+  ],
+  "philosophy": [
+    {
+      "title": "The four aims of life",
+      "text": "A full life has four goals: dharma, living rightly; artha, earning well; kama, enjoying love and beauty; and moksha, freedom. None is despised. Trouble comes when one crowds out the rest.",
+      "practice": "Divide yesterday’s waking hours among the four aims. Which had none?"
+    },
+    {
+      "title": "Karma",
+      "text": "Actions shape the one who does them. A generous act makes a generous person and a cruel one hardens. The law is closer to cause and effect than to reward and punishment.",
+      "practice": "Trace one difficulty in your life back to a habit of your own. Start the opposite habit today, once."
+    },
+    {
+      "title": "Three paths",
+      "text": "The Gita describes three ways to freedom: selfless action, knowledge and devotion. People differ, and the tradition expects them to climb by different roads.",
+      "practice": "Decide which of the three is most natural to you. Take one step on the one that is least natural."
+    },
+    {
+      "title": "Many forms, one reality",
+      "text": "Hindus worship Vishnu, Shiva, the Goddess, Ganesha and thousands of local deities. Most understand them as faces of a single reality that is too large for one name.",
+      "practice": "Notice something sacred in three different places today: a person, an animal and a place."
+    },
+    {
+      "title": "The self is not the body",
+      "text": "As a person takes off worn clothes and puts on new ones, says the Gita, so the self takes on new bodies. What you are does not age.",
+      "practice": "Sit for five minutes and watch your thoughts as you would watch traffic. Ask who is watching."
+    },
+    {
+      "title": "The four stages",
+      "text": "Life has seasons: learning, building a household, stepping back and letting go. Each has its duties, and what is right at twenty-five may be wrong at seventy.",
+      "practice": "Name your stage. Name one thing you are doing that belongs to an earlier one."
+    },
+    {
+      "title": "Lila",
+      "text": "The world is described as God’s play: made from fullness, for delight. Seen this way, life is something to take part in wholeheartedly without gripping it.",
+      "practice": "Do one thing today purely for the joy of it, with no purpose and no record."
+    },
+    {
+      "title": "Seeing the same self in all",
+      "text": "The wise person, says the Gita, sees the same in a learned priest, a cow, an elephant, a dog and an outcaste. Every hierarchy is answered by this line.",
+      "practice": "Greet the person you would normally overlook with full attention."
+    }
+  ],
+  "journal": [
+    "What is your duty in this season of life?",
+    "What did you do today for its own sake?",
+    "Which result are you gripping hardest?",
+    "What did you offer this morning, and how did it change the day?",
+    "Where did you harm today, in act, word or thought?",
+    "Who taught you, and have you thanked them?",
+    "Which of the four aims is starved in your life?",
+    "Who was your guest today?",
+    "Where did you see something sacred?",
+    "What habit of yours is making your future?",
+    "What do you serve?",
+    "Which form of the divine, or of the good, are you drawn to, and why?",
+    "What did you eat today, and what did it cost other beings?",
+    "What would you do if praise and blame were the same to you?",
+    "What are you when you are not your work, your name or your body?",
+    "What did you give today without counting?",
+    "Whose feet would you touch?",
+    "Where did desire lead you today?",
+    "What truth did you soften into a lie?",
+    "What would it mean to treat your work as worship?",
+    "What do you need to step back from?",
+    "Which story from childhood still tells you how to live?",
+    "What does your home say about what you honour?",
+    "When were you fully absorbed today?",
+    "What is the duty you keep avoiding?",
+    "Who depends on you, and do they have what they need?",
+    "What would you repeat 108 times?",
+    "Where did you play today?",
+    "What are you ready to let go of?",
+    "What does peace, said three times, ask of you?"
+  ],
+  "reflect": [
+    "What changed when you began each day with an offering?",
+    "Which result did you manage to release, and which not?",
+    "What did service teach you that study could not?",
+    "Which of the four aims needs more room in your life?",
+    "Where did you see the same self in someone unlike you?",
+    "What will you keep doing each dawn or dusk?"
+  ],
+  "dayThemes": [
+    "The morning offering",
+    "Arjuna puts down his bow",
+    "Action without fruit",
+    "The guest is God",
+    "Ahimsa",
+    "The lamp at dusk",
+    "The four aims",
+    "Darshan",
+    "A name repeated",
+    "Truth is one",
+    "Dharma",
+    "The self is not the body",
+    "Seva",
+    "Many forms",
+    "Hanuman’s devotion",
+    "The six tastes",
+    "Karma",
+    "The teacher",
+    "The threshold pattern",
+    "Sita’s strength",
+    "The river",
+    "Giving",
+    "Lila",
+    "The dancing Shiva",
+    "The four stages",
+    "Mirabai walks out",
+    "The same self in all",
+    "Festival of lights",
+    "Letting go",
+    "Peace, peace, peace"
+  ],
+  "guide": {
+    "intro": [
+      "Hinduism is the name outsiders gave to the religious life of the Indian subcontinent. It has no founder, no single scripture and no central authority. Many Hindus prefer to call it sanatana dharma, the eternal way. It is practised today by about 1.2 billion people, and it is better understood as a family of traditions that share a vocabulary than as one system.",
+      "What they share is roughly this. There is an order to the world, called dharma, and each person has a part in keeping it. Actions have consequences that follow the doer, called karma. The self passes through many lives, and the final aim is freedom from that round, called moksha. There is one ultimate reality, and it can be approached through many forms: Vishnu and his descents as Rama and Krishna, Shiva, the Goddess in her many aspects, Ganesha who removes obstacles, and countless others.",
+      "The oldest texts are the four Vedas, hymns and ritual instructions composed in Sanskrit more than three thousand years ago and passed on by memory. The Upanishads, added at their end, turn from ritual to the search for the self. Most people, however, have learned their religion from the two great epics, the Ramayana and the Mahabharata, and from the Puranas, the story collections of the gods. The Bhagavad Gita, a short dialogue inside the Mahabharata, is the most widely read Hindu book.",
+      "Daily religion is concrete. It is a lamp lit at a household shrine, a mark on the forehead, a fast on a certain weekday, a visit to a temple to see the deity and be seen, food offered and shared, a pilgrimage to a river. It is also music, dance, sculpture and festivals that fill the streets. Philosophy runs alongside all of this, from strict non-dualism to warm devotional theism. The Vedanta Onda in this app follows one of those philosophical schools in depth.",
+      "This Onda follows the householder’s path, which is the path of most Hindus: begin the day clean and with an offering, do your work as service without clinging to its result, repeat a holy name, serve someone, and light a lamp at dusk. You are a guest here. Nothing asks you to worship any deity or to take on rites that belong to initiation or to a family line.",
+      "Two cautions. Hindu society has been shaped for centuries by caste, a hierarchy of birth that many Hindus, from the medieval poet-saints to B. R. Ambedkar and countless people today, have fought as a betrayal of the teaching that the same self lives in all. And Hindu symbols and words, from Om to karma to yoga, are often borrowed carelessly. The practice is to learn what they mean to the people who live by them."
+    ],
+    "origin": "The Indian subcontinent, and today Nepal, Bali, Mauritius, the Caribbean and a worldwide diaspora",
+    "era": "The oldest hymns date from about 1500 BCE. The tradition has never stopped changing since",
+    "figures": [
+      {
+        "name": "Yajnavalkya",
+        "dates": "about 8th to 7th century BCE",
+        "bio": "The great sage of the Brihadaranyaka Upanishad, who teaches the self by saying what it is not. His debates with Gargi and his wife Maitreyi are among the oldest philosophy in the world."
+      },
+      {
+        "name": "Valmiki",
+        "dates": "traditional; perhaps 5th century BCE",
+        "bio": "The poet credited with the Sanskrit Ramayana. Legend makes him a robber who was changed by repeating a holy name."
+      },
+      {
+        "name": "Adi Shankara",
+        "dates": "about 8th century CE",
+        "bio": "The philosopher who argued that the self and ultimate reality are one, and who is credited with founding monasteries at the four corners of India."
+      },
+      {
+        "name": "Andal",
+        "dates": "about 8th to 9th century",
+        "bio": "A Tamil poet-saint, the only woman among the twelve Alvars. Her thirty-verse Tiruppavai is still sung every winter dawn."
+      },
+      {
+        "name": "Ramanuja",
+        "dates": "traditionally 1017 to 1137",
+        "bio": "The theologian of devotion, who held that souls are real, distinct and held within a personal God. He opened temple worship to lower castes."
+      },
+      {
+        "name": "Basava",
+        "dates": "12th century",
+        "bio": "A minister in Karnataka who led a movement of Shiva devotees rejecting caste and temple ritual. Its short poems, the vachanas, are still loved."
+      },
+      {
+        "name": "Mirabai",
+        "dates": "about 1498 to 1547",
+        "bio": "A Rajput princess who took Krishna as her only husband, left court life and wandered singing. Her songs are known across North India."
+      },
+      {
+        "name": "Tulsidas",
+        "dates": "about 1532 to 1623",
+        "bio": "The poet who retold the Ramayana in the everyday language of North India. His Ramcharitmanas is recited and staged every autumn."
+      },
+      {
+        "name": "Swami Vivekananda",
+        "dates": "1863 to 1902",
+        "bio": "A monk from Calcutta whose speech at the Parliament of Religions in Chicago in 1893 introduced Hindu thought to a wide Western public."
+      },
+      {
+        "name": "Mohandas K. Gandhi",
+        "dates": "1869 to 1948",
+        "bio": "He read the Gita daily as a manual of selfless action and made non-violence and truth the tools of a political struggle."
+      }
+    ],
+    "history": [
+      {
+        "when": "about 2600 to 1900 BCE",
+        "what": "The Indus Valley cities",
+        "detail": "Mohenjo-daro and Harappa had baths, seals and figurines that some scholars link to later practice. Their script is unread, so the links remain uncertain."
+      },
+      {
+        "when": "about 1500 to 1000 BCE",
+        "what": "The Rig Veda",
+        "detail": "More than a thousand hymns to Agni, Indra and other powers, composed in early Sanskrit and handed down by exact oral recitation, which continues today."
+      },
+      {
+        "when": "about 700 to 300 BCE",
+        "what": "The Upanishads",
+        "detail": "Forest teachers turn inward and ask what the self is. The ideas of karma, rebirth and release take shape. The Buddha and Mahavira teach in the same period."
+      },
+      {
+        "when": "about 400 BCE to 400 CE",
+        "what": "The epics take form",
+        "detail": "The Mahabharata and the Ramayana grow over centuries into their present size. The Bhagavad Gita is composed within the first."
+      },
+      {
+        "when": "4th to 6th century CE",
+        "what": "The Gupta age",
+        "detail": "The first stone temples, classical Sanskrit poetry and the Puranas. Worship of images in temples becomes the main form of public religion."
+      },
+      {
+        "when": "6th to 9th century",
+        "what": "The Tamil poet-saints",
+        "detail": "The Alvars and Nayanars sing to Vishnu and Shiva in Tamil, in the people’s language. The devotional movement they begin spreads north over the next thousand years."
+      },
+      {
+        "when": "about 8th century",
+        "what": "Shankara and non-dualism",
+        "detail": "Shankara’s commentaries make Advaita Vedanta the most influential Hindu philosophy among scholars."
+      },
+      {
+        "when": "10th to 13th century",
+        "what": "The great temples",
+        "detail": "Thanjavur, Khajuraho, Konark and Angkor Wat in Cambodia, which was built for Vishnu. Hindu kingdoms flourish across Southeast Asia."
+      },
+      {
+        "when": "15th to 17th century",
+        "what": "Devotion in the north",
+        "detail": "Kabir, Mirabai, Surdas, Chaitanya and Tulsidas preach and sing a religion of love that questions caste and empty ritual, much of it under Muslim rule."
+      },
+      {
+        "when": "19th century",
+        "what": "Reform under colonial rule",
+        "detail": "Ram Mohan Roy, Dayananda Saraswati and others campaign against widow burning and child marriage and argue over what the tradition really teaches."
+      },
+      {
+        "when": "1893",
+        "what": "Vivekananda in Chicago",
+        "detail": "His address to the Parliament of the World’s Religions, opening with a greeting to his sisters and brothers of America, begins the modern global presence of Hinduism."
+      },
+      {
+        "when": "1947 and 1950",
+        "what": "Independence and the constitution",
+        "detail": "India becomes independent and is partitioned. The constitution, drafted under B. R. Ambedkar, outlaws untouchability."
+      },
+      {
+        "when": "20th and 21st centuries",
+        "what": "A world religion",
+        "detail": "Migration carries temples to every continent. Yoga and meditation become global, and debates about identity, caste and politics continue within India."
+      }
+    ],
+    "concepts": [
+      {
+        "term": "Dharma",
+        "text": "The order of things and one’s part in it.",
+        "detail": "From a root meaning to hold. It covers law, duty, virtue and religion. Texts distinguish the duties common to everyone, such as truth and non-harming, from those that belong to a role or a stage of life."
+      },
+      {
+        "term": "Karma and rebirth",
+        "text": "Acts bear fruit across lives.",
+        "detail": "The self carries the traces of what it has done into new births. The idea explains difference without blaming a god, and it puts responsibility on the doer. It has also been misused to justify inequality."
+      },
+      {
+        "term": "Moksha",
+        "text": "Release.",
+        "detail": "Freedom from the round of birth and death. Schools differ on what it is: the self knowing itself as ultimate reality, or the soul living forever in the presence of God."
+      },
+      {
+        "term": "Brahman and atman",
+        "text": "The ground of all and the self.",
+        "detail": "The Upanishads teach that the reality behind the world and the reality behind the person are the same. The schools of Vedanta disagree about how exactly."
+      },
+      {
+        "term": "The Trimurti and the Goddess",
+        "text": "Creating, keeping, dissolving.",
+        "detail": "Brahma creates, Vishnu preserves and Shiva dissolves. In practice most Hindus are devoted to Vishnu, to Shiva or to the Goddess, Shakti, as the supreme."
+      },
+      {
+        "term": "Avatar",
+        "text": "God comes down.",
+        "detail": "Vishnu is said to descend whenever dharma declines. Ten descents are usually listed, including the fish, the boar, Rama, Krishna and, in many lists, the Buddha."
+      },
+      {
+        "term": "Puja and darshan",
+        "text": "Worship as hospitality and sight.",
+        "detail": "The deity present in an image is woken, bathed, dressed, fed and put to rest. The worshipper comes to see and be seen, and takes home food that has been blessed."
+      },
+      {
+        "term": "Bhakti",
+        "text": "The path of love.",
+        "detail": "Devotion to a personal God, open to everyone whatever their birth, sex or learning. It produced most of the poetry and music of the tradition."
+      },
+      {
+        "term": "The three paths",
+        "text": "Action, knowledge and devotion.",
+        "detail": "Karma yoga, jnana yoga and bhakti yoga are set out in the Bhagavad Gita as routes suited to different temperaments. Later teachers added the discipline of meditation as a fourth."
+      },
+      {
+        "term": "Sruti and smriti",
+        "text": "What was heard and what is remembered.",
+        "detail": "The Vedas and Upanishads are held to be revealed. Epics, law books and Puranas are remembered tradition, with less authority and far more readers."
+      }
+    ],
+    "facts": [
+      {
+        "text": "The number 108 turns up everywhere: beads on a mala, names of a deity, sun salutations. Explanations vary and none is official."
+      },
+      {
+        "text": "The Mahabharata has about one hundred thousand verses, roughly seven times the Iliad and the Odyssey together."
+      },
+      {
+        "text": "Angkor Wat in Cambodia, the largest religious monument in the world, was built in the twelfth century as a temple to Vishnu."
+      },
+      {
+        "text": "Vedic recitation is passed on with such exact methods of cross-checking that UNESCO listed it as intangible heritage in 2008."
+      },
+      {
+        "text": "The swastika is an ancient sign of good fortune in Hindu, Jain and Buddhist use. Its meaning there has nothing to do with its abuse in twentieth century Europe."
+      },
+      {
+        "text": "Bali is a Hindu-majority island in a Muslim-majority country, with a tradition that developed on its own for a thousand years."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Veda",
+        "meaning": "The oldest scriptures: Rig, Sama, Yajur and Atharva"
+      },
+      {
+        "term": "Purana",
+        "meaning": "A collection of stories of the gods, the ages and the kings"
+      },
+      {
+        "term": "Brahmin",
+        "meaning": "A member of the priestly class; not the same as Brahman"
+      },
+      {
+        "term": "Sadhu",
+        "meaning": "A wandering holy man who has given up home and property"
+      },
+      {
+        "term": "Tilak",
+        "meaning": "A mark worn on the forehead, showing tradition or a blessing received"
+      },
+      {
+        "term": "Ghat",
+        "meaning": "Steps leading down to a river"
+      }
+    ],
+    "furtherReading": [
+      {
+        "title": "An Introduction to Hinduism",
+        "creator": "Gavin Flood",
+        "year": "1996",
+        "note": "The standard university introduction, clear and balanced."
+      },
+      {
+        "title": "The Hindus: An Alternative History",
+        "creator": "Wendy Doniger",
+        "year": "2009",
+        "note": "A lively history that follows women, lower castes and animals through the texts. Disputed by some Hindu groups, which is worth knowing."
+      },
+      {
+        "title": "Banaras: City of Light",
+        "creator": "Diana L. Eck",
+        "year": "1982",
+        "note": "A whole religion seen through its holiest city."
+      },
+      {
+        "title": "Annihilation of Caste",
+        "creator": "B. R. Ambedkar",
+        "year": "1936",
+        "note": "The undelivered speech in which the future author of India’s constitution takes caste apart."
+      }
+    ],
+    "learnFrom": [
+      {
+        "name": "Oxford Centre for Hindu Studies",
+        "note": "An academic centre with free online lectures and short courses taught by scholars and practitioners.",
+        "link": "https://ochs.org.uk"
+      },
+      {
+        "name": "The Pluralism Project: Hinduism",
+        "note": "Harvard’s plain introductions to Hindu belief and to Hindu life in America.",
+        "link": "https://pluralism.org/hinduism"
+      },
+      {
+        "name": "A temple near you",
+        "note": "Most temples welcome respectful visitors. Ring ahead, ask what to wear and go at the time of the evening aarti."
+      }
+    ],
+    "sources": [
+      {
+        "title": "An Introduction to Hinduism",
+        "creator": "Gavin Flood",
+        "publisher": "Cambridge University Press",
+        "year": "1996"
+      },
+      {
+        "title": "The Bhagavad-Gita: Krishna’s Counsel in Time of War",
+        "creator": "trans. Barbara Stoler Miller",
+        "publisher": "Bantam",
+        "year": "1986"
+      },
+      {
+        "title": "Upanisads",
+        "creator": "trans. Patrick Olivelle",
+        "publisher": "Oxford World's Classics",
+        "year": "1996"
+      },
+      {
+        "title": "Darsan: Seeing the Divine Image in India",
+        "creator": "Diana L. Eck",
+        "publisher": "Columbia University Press",
+        "year": "3rd edition 1998"
+      },
+      {
+        "title": "Hinduism: A Very Short Introduction",
+        "creator": "Kim Knott",
+        "publisher": "Oxford University Press",
+        "year": "2nd edition 2016"
+      },
+      {
+        "title": "The Rig Veda: An Anthology",
+        "creator": "trans. Wendy Doniger",
+        "publisher": "Penguin Classics",
+        "year": "1981"
+      }
+    ]
+  },
+  "sensitivity": {
+    "note": "Hinduism is a living religion of more than a billion people and enormous variety. This Onda offers a guest’s version of the householder’s day. It does not ask you to worship any deity, and it leaves out rites that need initiation, a priest or a family tradition.",
+    "requiredCaveats": [
+      "No single account fits all Hindus. Practice differs by region, language, community and family.",
+      "Sacred images, words and symbols such as Om are objects of worship. Treat them with the care their owners do.",
+      "Caste has caused great suffering and is opposed by many Hindus. Nothing here endorses it.",
+      "In temples, follow local rules on dress, shoes, photography and which areas are open to visitors."
+    ],
+    "reviewRequired": true
+  }
+}

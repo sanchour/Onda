@@ -1,0 +1,1220 @@
+{
+  "version": 1,
+  "id": "judaism",
+  "name": "Judaism",
+  "origin": "The Levant and the diaspora",
+  "era": "From about 1200 BCE to today",
+  "tone": "blue",
+  "icon": "star-of-david",
+  "font": "frank-ruhl-libre",
+  "pattern": "tallit-stripes",
+  "glyph": "חי",
+  "line": "Give thanks, study with a friend, do justice and keep one day holy.",
+  "quote": {
+    "text": "What is hateful to you, do not do to your fellow. That is the whole Torah; the rest is commentary. Go and learn.",
+    "by": "Hillel the Elder",
+    "source": "Babylonian Talmud, Shabbat 31a"
+  },
+  "quotes": [
+    {
+      "text": "If I am not for myself, who will be for me? And if I am only for myself, what am I? And if not now, when?",
+      "by": "Hillel the Elder",
+      "source": "Mishnah, Pirkei Avot 1:14"
+    },
+    {
+      "text": "It is not your duty to finish the work, but neither are you free to desist from it.",
+      "by": "Rabbi Tarfon",
+      "source": "Mishnah, Pirkei Avot 2:16"
+    },
+    {
+      "text": "Only to do justice, and to love goodness, and to walk modestly with your God.",
+      "by": "The prophet Micah",
+      "source": "Micah 6:8, Jewish Publication Society translation, 1985"
+    },
+    {
+      "text": "Whoever saves a single life, it is as if he had saved an entire world.",
+      "by": "The Mishnah",
+      "source": "Sanhedrin 4:5"
+    },
+    {
+      "text": "The seventh day is a palace in time which we build.",
+      "by": "Abraham Joshua Heschel",
+      "source": "The Sabbath, 1951"
+    }
+  ],
+  "words": [
+    {
+      "id": "word-torah",
+      "term": "Torah",
+      "meaning": "Teaching, instruction",
+      "pronunciation": "toh-RAH",
+      "language": "Hebrew",
+      "usage": "The five books of Moses, and more widely the whole body of Jewish teaching, written and oral."
+    },
+    {
+      "id": "word-mitzvah",
+      "term": "Mitzvah",
+      "meaning": "A commandment",
+      "pronunciation": "mitz-VAH",
+      "language": "Hebrew",
+      "usage": "One of the 613 obligations of the Torah. In everyday speech, any good deed."
+    },
+    {
+      "id": "word-shabbat",
+      "term": "Shabbat",
+      "meaning": "The Sabbath",
+      "pronunciation": "shah-BAHT",
+      "language": "Hebrew",
+      "usage": "The seventh day, from Friday sunset to Saturday nightfall: rest, prayer, three meals and no work."
+    },
+    {
+      "id": "word-shalom",
+      "term": "Shalom",
+      "meaning": "Peace, wholeness",
+      "pronunciation": "shah-LOME",
+      "language": "Hebrew",
+      "usage": "Hello, goodbye and the name of the hope. From a root meaning complete."
+    },
+    {
+      "id": "word-tzedakah",
+      "term": "Tzedakah",
+      "meaning": "Justice; giving to those in need",
+      "pronunciation": "tze-dah-KAH",
+      "language": "Hebrew",
+      "usage": "Usually translated charity, but the root means justice. Giving is an obligation, owed even by the poor."
+    },
+    {
+      "id": "word-chesed",
+      "term": "Chesed",
+      "meaning": "Loving-kindness",
+      "pronunciation": "KHEH-sed",
+      "language": "Hebrew",
+      "usage": "Loyal, generous love shown in acts: visiting the sick, welcoming guests, burying the dead."
+    },
+    {
+      "id": "word-tikkun-olam",
+      "term": "Tikkun olam",
+      "meaning": "Repair of the world",
+      "pronunciation": "tee-KOON oh-LAHM",
+      "language": "Hebrew",
+      "usage": "From mystical teaching about gathering scattered sparks. Now also the duty to work for a more just society."
+    },
+    {
+      "id": "word-teshuvah",
+      "term": "Teshuvah",
+      "meaning": "Return; repentance",
+      "pronunciation": "teh-shoo-VAH",
+      "language": "Hebrew",
+      "usage": "Turning back to the right path. It requires admitting the wrong, making amends and not repeating it."
+    },
+    {
+      "id": "word-tefillah",
+      "term": "Tefillah",
+      "meaning": "Prayer",
+      "pronunciation": "teh-fee-LAH",
+      "language": "Hebrew",
+      "usage": "Three daily services. The Hebrew verb to pray is reflexive: it also means to judge oneself."
+    },
+    {
+      "id": "word-kavanah",
+      "term": "Kavanah",
+      "meaning": "Intention, direction of the heart",
+      "pronunciation": "kah-vah-NAH",
+      "language": "Hebrew",
+      "usage": "The inner attention that turns a recited prayer or a routine act into a real one."
+    },
+    {
+      "id": "word-bracha",
+      "term": "Bracha",
+      "meaning": "A blessing",
+      "pronunciation": "brah-KHAH",
+      "language": "Hebrew",
+      "usage": "A short formula of thanks said before eating, on seeing a rainbow, on hearing good or bad news. Tradition asks for a hundred a day."
+    },
+    {
+      "id": "word-halakhah",
+      "term": "Halakhah",
+      "meaning": "The way to walk; Jewish law",
+      "pronunciation": "hah-lah-KHAH",
+      "language": "Hebrew",
+      "usage": "The detailed practice that shapes eating, work, rest, business and family life."
+    },
+    {
+      "id": "word-talmud",
+      "term": "Talmud",
+      "meaning": "Study, learning",
+      "pronunciation": "tahl-MOOD",
+      "language": "Hebrew",
+      "usage": "The vast record of rabbinic debate, completed in Babylonia around the sixth century. It preserves the losing arguments too."
+    },
+    {
+      "id": "word-midrash",
+      "term": "Midrash",
+      "meaning": "Searching out; interpretation",
+      "pronunciation": "mid-RAHSH",
+      "language": "Hebrew",
+      "usage": "Stories and readings that fill the gaps in the biblical text and draw new meaning from it."
+    },
+    {
+      "id": "word-havruta",
+      "term": "Havruta",
+      "meaning": "Fellowship; a study partner",
+      "pronunciation": "khahv-ROO-tah",
+      "language": "Aramaic",
+      "usage": "Two people reading a text aloud and arguing over it. The classic way of Jewish learning."
+    },
+    {
+      "id": "word-machloket",
+      "term": "Machloket",
+      "meaning": "Disagreement",
+      "pronunciation": "makh-LOH-ket",
+      "language": "Hebrew",
+      "usage": "An argument for the sake of heaven is one conducted to find the truth, and it is prized."
+    },
+    {
+      "id": "word-kosher",
+      "term": "Kosher",
+      "meaning": "Fit, proper",
+      "pronunciation": "KOH-sher",
+      "language": "Hebrew",
+      "usage": "Food permitted by the dietary laws: no pork or shellfish, meat and milk kept apart, animals slaughtered with care."
+    },
+    {
+      "id": "word-minyan",
+      "term": "Minyan",
+      "meaning": "A quorum of ten",
+      "pronunciation": "min-YAHN",
+      "language": "Hebrew",
+      "usage": "The ten adults needed for public prayer. Some things cannot be done alone."
+    },
+    {
+      "id": "word-shema",
+      "term": "Shema",
+      "meaning": "Hear",
+      "pronunciation": "sheh-MAH",
+      "language": "Hebrew",
+      "usage": "The declaration of God’s oneness from Deuteronomy, said morning and night and as the last words of life."
+    },
+    {
+      "id": "word-mezuzah",
+      "term": "Mezuzah",
+      "meaning": "A doorpost scroll",
+      "pronunciation": "meh-ZOO-zah",
+      "language": "Hebrew",
+      "usage": "A small case on the doorframe holding the Shema, touched on entering and leaving."
+    },
+    {
+      "id": "word-siddur",
+      "term": "Siddur",
+      "meaning": "The prayer book",
+      "pronunciation": "see-DOOR",
+      "language": "Hebrew",
+      "usage": "From the word for order. It sets out the daily, Sabbath and festival services."
+    },
+    {
+      "id": "word-kaddish",
+      "term": "Kaddish",
+      "meaning": "The mourner’s prayer",
+      "pronunciation": "kah-DEESH",
+      "language": "Aramaic",
+      "usage": "Said for a parent for eleven months and on each anniversary. It praises God and never mentions death."
+    },
+    {
+      "id": "word-shiva",
+      "term": "Shiva",
+      "meaning": "Seven",
+      "pronunciation": "SHIH-vah",
+      "language": "Hebrew",
+      "usage": "The week of mourning at home after a burial, when the community comes to sit with the bereaved and bring food."
+    },
+    {
+      "id": "word-simcha",
+      "term": "Simcha",
+      "meaning": "Joy; a celebration",
+      "pronunciation": "SIM-khah",
+      "language": "Hebrew",
+      "usage": "A wedding or a coming of age, and the duty to rejoice."
+    },
+    {
+      "id": "word-l-chaim",
+      "term": "L'chaim",
+      "meaning": "To life",
+      "pronunciation": "leh-KHAH-yim",
+      "language": "Hebrew",
+      "usage": "The toast. Life is the value that outweighs almost every law."
+    },
+    {
+      "id": "word-pikuach-nefesh",
+      "term": "Pikuach nefesh",
+      "meaning": "Saving a life",
+      "pronunciation": "pee-KOO-akh NEH-fesh",
+      "language": "Hebrew",
+      "usage": "The principle that nearly any commandment must be set aside to preserve life."
+    },
+    {
+      "id": "word-lashon-hara",
+      "term": "Lashon hara",
+      "meaning": "The evil tongue",
+      "pronunciation": "lah-SHOWN hah-RAH",
+      "language": "Hebrew",
+      "usage": "Harmful speech about another person, forbidden even when it is true."
+    },
+    {
+      "id": "word-b-tzelem-elohim",
+      "term": "B'tzelem Elohim",
+      "meaning": "In the image of God",
+      "pronunciation": "beh-TZEH-lem eh-loh-HEEM",
+      "language": "Hebrew",
+      "usage": "From Genesis: every human being is made so. The ground of equal dignity."
+    },
+    {
+      "id": "word-mensch",
+      "term": "Mensch",
+      "meaning": "A person of integrity",
+      "pronunciation": "MENSH",
+      "language": "Yiddish",
+      "usage": "Someone decent, responsible and kind. The highest ordinary compliment."
+    },
+    {
+      "id": "word-rabbi",
+      "term": "Rabbi",
+      "meaning": "My teacher",
+      "pronunciation": "RAB-eye",
+      "language": "Hebrew",
+      "usage": "A scholar ordained to teach and to decide questions of law. Not a priest. Any knowledgeable Jew can lead prayers."
+    }
+  ],
+  "practices": [
+    {
+      "id": "modeh-ani",
+      "name": "Waking with thanks",
+      "icon": "sun-horizon",
+      "slot": "Morning",
+      "time": "06:45",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Before you get out of bed and before you reach for anything, say thank you for waking up. The traditional words are: I give thanks before you, living and enduring King, that you have returned my soul to me in compassion; great is your faithfulness. Use those, or your own. Then wash your hands, pouring water over each in turn. Name three ordinary things that are working this morning: eyes that open, feet on the floor, a roof.",
+      "why": "Modeh ani is the first prayer a Jewish child learns. The morning service goes on to bless small things one by one: sight, clothing, the ground being firm. Gratitude is put before everything else.",
+      "variations": [
+        "Say it aloud so that you hear it.",
+        "Write the three things down for the whole Onda.",
+        "Thank one person before breakfast."
+      ]
+    },
+    {
+      "id": "blessings",
+      "name": "A blessing before you eat",
+      "icon": "bread",
+      "slot": "Afternoon",
+      "time": "12:30",
+      "minutes": 5,
+      "meta": "Afternoon · 5 min",
+      "instructions": "Do not put anything in your mouth today without stopping first. Look at the food. Think where it came from: earth, tree, vine, someone’s work. Say a sentence of thanks, in the traditional form or your own, such as blessed is the source that brings bread out of the earth. Then eat. Try to keep count of the times you manage it.",
+      "why": "Jewish practice surrounds eating with short blessings, different for bread, fruit, wine and vegetables, and a longer grace afterward. The rabbis said that to enjoy the world without a blessing is like taking what is not yours.",
+      "variations": [
+        "Aim for ten deliberate thank-yous in a day, toward the traditional hundred.",
+        "Say thanks after the meal as well.",
+        "Bless something that is not food: a view, good news, an old friend."
+      ]
+    },
+    {
+      "id": "havruta",
+      "name": "Study with a partner",
+      "icon": "book-open",
+      "slot": "Afternoon",
+      "time": "17:00",
+      "minutes": 20,
+      "meta": "Afternoon · 20 min",
+      "instructions": "Find one person to study with for the length of the Onda, in person or by phone. Take a short text, a few lines only: start with Pirkei Avot, the Ethics of the Fathers. Read it aloud. Ask what it says, what it could mean, what is odd about it and whether it is right. Disagree with each other properly. Stop after twenty minutes even if you have not finished. If you have no partner today, argue with the page in writing.",
+      "why": "Torah study is counted equal to all the other commandments together, and it is done in pairs, out loud. The Talmud says: either a partner or death. The friction is the method.",
+      "variations": [
+        "Take the side you disagree with for ten minutes.",
+        "Read a weekly Torah portion with a commentary.",
+        "Teach someone else what you learned."
+      ]
+    },
+    {
+      "id": "tzedakah",
+      "name": "Tzedakah before sunset",
+      "icon": "hand-coins",
+      "slot": "Evening",
+      "time": "18:00",
+      "minutes": 5,
+      "meta": "Evening · 5 min",
+      "instructions": "Keep a jar, a box or a dedicated account. Every day before the sun goes down put something in, however small. On Friday afternoon add a little more. At the end of each week give what has gathered to someone who needs it or to an organisation that helps. If you can, give in a way that leaves the receiver’s dignity whole.",
+      "why": "Giving is a duty. It does not wait for a generous mood. Many homes keep a tzedakah box by the Sabbath candles. Maimonides ranked eight levels of giving: the highest is helping a person to stand on their own feet, and after that comes giving when neither side knows the other.",
+      "variations": [
+        "Give your time: an hour to someone who is alone.",
+        "Work out a tenth of your income, the traditional measure.",
+        "Give anonymously."
+      ]
+    },
+    {
+      "id": "bedtime",
+      "name": "Forgiving before sleep",
+      "icon": "moon-stars",
+      "slot": "Evening",
+      "time": "22:00",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "At the end of the day take stock. What did I do well? Where did I fall short, and toward whom? What will I repair tomorrow, and how? Then say, and mean as far as you can: I forgive anyone who angered or wronged me today, in body, in property, in honour or in anything else. Let the day close. On the last night of the week, look back over all seven.",
+      "why": "The bedtime prayers open with a declaration of forgiveness for everyone, before the Shema is said. Moral stock-taking, cheshbon hanefesh, is an old discipline that the Musar teachers of the nineteenth century turned into a daily practice.",
+      "variations": [
+        "Write the account in a notebook.",
+        "Apologise to one person directly tomorrow.",
+        "Work on one trait for the whole Onda: patience, generosity, truthfulness."
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": "keep-one-full-day-of-rest-this-week-no-work-no-shopping-no-screens",
+      "name": "Keep one full day of rest this week: no work, no shopping, no screens",
+      "meta": "A sabbath in your own way, from one evening to the next",
+      "time": "18:00",
+      "slot": "Evening"
+    },
+    {
+      "id": "task-share-a-long-meal-with-people-you-love-with-bread-something-to-drink-a",
+      "name": "Share a long meal with people you love, with bread, something to drink and a song or a story",
+      "meta": "Eat · the Friday night table",
+      "time": "19:00",
+      "slot": "Evening",
+      "action": "eat"
+    },
+    {
+      "id": "task-read-chapter-1-of-pirkei-avot",
+      "name": "Read chapter 1 of Pirkei Avot",
+      "meta": "Read · eighteen short sayings",
+      "time": "20:00",
+      "slot": "Evening",
+      "action": "read"
+    },
+    {
+      "id": "task-listen-to-kol-nidre",
+      "name": "Listen to Kol Nidre",
+      "meta": "Listen · the melody that opens the Day of Atonement",
+      "time": "17:30",
+      "slot": "Afternoon",
+      "action": "listen"
+    },
+    {
+      "id": "task-look-at-the-pages-of-the-sarajevo-haggadah",
+      "name": "Look at the pages of the Sarajevo Haggadah",
+      "meta": "Art · a book that survived everything",
+      "time": "16:00",
+      "slot": "Afternoon",
+      "action": "art"
+    },
+    {
+      "id": "ask-a-real-question-about-something-everyone-takes-for-granted",
+      "name": "Ask a real question about something everyone takes for granted",
+      "meta": "Questions are honoured here",
+      "time": "10:00",
+      "slot": "Morning"
+    },
+    {
+      "id": "task-journal-whom-did-you-wrong-this-week-and-how-will-you-put-it-right",
+      "name": "Journal: whom did you wrong this week, and how will you put it right?",
+      "meta": "Journal · 10 min",
+      "time": "21:00",
+      "slot": "Evening",
+      "action": "journal"
+    },
+    {
+      "id": "task-rest-as-a-statement-what-would-a-day-without-making-or-buying-show-you",
+      "name": "Rest as a statement: what would a day without making or buying show you?",
+      "meta": "Philosophy · 10 min",
+      "time": "09:00",
+      "slot": "Morning",
+      "action": "philosophy"
+    },
+    {
+      "id": "call-someone-who-is-ill-or-in-mourning",
+      "name": "Call someone who is ill or in mourning",
+      "meta": "An act of loving-kindness",
+      "time": "15:00",
+      "slot": "Afternoon"
+    }
+  ],
+  "rules": [
+    {
+      "id": "r1",
+      "text": "Give thanks before you take",
+      "why": "On waking and before every meal. Say it in words."
+    },
+    {
+      "id": "r2",
+      "text": "Guard your tongue",
+      "why": "No gossip and no talking a person down, even if every word is true."
+    },
+    {
+      "id": "r3",
+      "text": "Give something every day",
+      "why": "Money, food or time, before sunset. It is justice, and it is owed."
+    },
+    {
+      "id": "r4",
+      "text": "Learn something and question it",
+      "why": "A page, a paragraph, a verse, with a partner if you can. Ask why."
+    },
+    {
+      "id": "r5",
+      "text": "Keep one day apart",
+      "why": "One day in seven without work, purchases or screens, with good food and people."
+    },
+    {
+      "id": "r6",
+      "text": "Repair what you break",
+      "why": "When you wrong someone, go to them, say so and make it good. Do it within the week."
+    }
+  ],
+  "immerse": {
+    "read": [
+      {
+        "id": "read-pirkei-avot-ethics-of-the-fathers",
+        "title": "Pirkei Avot: Ethics of the Fathers",
+        "creator": "The Mishnah; many translations",
+        "year": "about 200 CE",
+        "why": "Six short chapters of sayings from the early rabbis. The usual first text for study, and free in every prayer book and online."
+      },
+      {
+        "id": "read-the-sabbath",
+        "title": "The Sabbath",
+        "creator": "Abraham Joshua Heschel",
+        "year": "1951",
+        "why": "A hundred pages on why Judaism builds its cathedrals in time and not in space. Beautiful and brief."
+      },
+      {
+        "id": "read-tanakh-the-holy-scriptures",
+        "title": "Tanakh: The Holy Scriptures",
+        "creator": "Jewish Publication Society translation",
+        "year": "1985",
+        "why": "The Hebrew Bible in the standard modern Jewish translation. Begin with Genesis, Exodus, Ruth and Ecclesiastes."
+      },
+      {
+        "id": "read-jewish-literacy",
+        "title": "Jewish Literacy",
+        "creator": "Joseph Telushkin",
+        "year": "1991; revised 2008",
+        "why": "Some 350 two-page entries on everything from Abraham to Yiddish. A good book to dip into."
+      },
+      {
+        "id": "read-the-chosen",
+        "title": "The Chosen",
+        "creator": "Chaim Potok",
+        "year": "1967",
+        "why": "Two boys in 1940s Brooklyn, one Hasidic and one modern Orthodox, become friends over a baseball injury and the Talmud."
+      },
+      {
+        "id": "read-tales-of-the-hasidim",
+        "title": "Tales of the Hasidim",
+        "creator": "Martin Buber",
+        "year": "1947",
+        "why": "Hundreds of short stories about the early Hasidic masters. Each takes a minute to read and a week to digest."
+      }
+    ],
+    "watch": [
+      {
+        "id": "watch-fiddler-on-the-roof",
+        "title": "Fiddler on the Roof",
+        "creator": "Norman Jewison",
+        "year": "1971",
+        "why": "A milkman in a Russian village in 1905 argues with God while tradition slips through his fingers. The musical the whole world knows."
+      },
+      {
+        "id": "watch-ushpizin",
+        "title": "Ushpizin",
+        "creator": "Gidi Dar",
+        "year": "2004",
+        "why": "A poor, devout couple in Jerusalem receive unexpected guests for the festival of Sukkot. Made with and by members of the ultra-Orthodox community."
+      },
+      {
+        "id": "watch-shtisel",
+        "title": "Shtisel",
+        "creator": "Ori Elon and Yehonatan Indursky",
+        "year": "2013 to 2021",
+        "why": "A television drama about a strictly Orthodox family in Jerusalem. Tender, funny and never condescending."
+      },
+      {
+        "id": "watch-a-serious-man",
+        "title": "A Serious Man",
+        "creator": "Joel and Ethan Coen",
+        "year": "2009",
+        "why": "A physics professor in 1960s Minnesota watches his life collapse and seeks advice from three rabbis. The Book of Job as dark comedy."
+      }
+    ],
+    "listen": [
+      {
+        "id": "listen-kol-nidre",
+        "title": "Kol Nidre",
+        "creator": "Cantorial tradition; Max Bruch’s setting for cello, 1880",
+        "year": "medieval melody",
+        "why": "The declaration sung three times at dusk as the Day of Atonement begins. Hear a cantor sing it, then hear the cello."
+      },
+      {
+        "id": "listen-klezmer",
+        "title": "Klezmer",
+        "creator": "The Klezmatics, Giora Feidman, Dave Tarras",
+        "year": "19th century to the present",
+        "why": "The wedding music of Eastern European Jews: a clarinet that laughs and cries."
+      },
+      {
+        "id": "listen-who-by-fire",
+        "title": "Who by Fire",
+        "creator": "Leonard Cohen",
+        "year": "1974",
+        "why": "A song built on the prayer Unetaneh Tokef, which asks on the New Year who will live and who will die."
+      },
+      {
+        "id": "listen-ladino-songs",
+        "title": "Ladino songs",
+        "creator": "Flory Jagoda, Yasmin Levy",
+        "year": "from the 15th century",
+        "why": "Songs in the Judeo-Spanish that the Jews expelled from Spain carried across the Mediterranean."
+      }
+    ],
+    "art": [
+      {
+        "id": "art-the-sarajevo-haggadah",
+        "title": "The Sarajevo Haggadah",
+        "creator": "Scribes and painters of Catalonia",
+        "year": "about 1350",
+        "why": "An illuminated Passover book, wine-stained from use. It left Spain with the expulsion, and was hidden from the Nazis by a Muslim librarian and from shelling in the 1990s."
+      },
+      {
+        "id": "art-the-dura-europos-synagogue-murals",
+        "title": "The Dura-Europos synagogue murals",
+        "creator": "Syria",
+        "year": "about 244 CE",
+        "why": "Walls covered with scenes from the Bible, buried for seventeen centuries. They overturned the idea that ancient Jews made no pictures."
+      },
+      {
+        "id": "art-the-jerusalem-windows",
+        "title": "The Jerusalem Windows",
+        "creator": "Marc Chagall; Hadassah Medical Centre, Jerusalem",
+        "year": "1962",
+        "why": "Twelve stained-glass windows for the twelve tribes, in blazing colour with animals, fish and candlesticks and no human figures."
+      },
+      {
+        "id": "art-the-old-new-synagogue",
+        "title": "The Old-New Synagogue",
+        "creator": "Prague, Czech Republic",
+        "year": "about 1270",
+        "why": "The oldest working synagogue in Europe: a small Gothic hall with a banner given by an emperor. Legend puts the golem in its attic."
+      }
+    ],
+    "eat": [
+      {
+        "id": "eat-challah",
+        "title": "Challah",
+        "creator": "Braided egg bread",
+        "why": "Two loaves on the Sabbath table, covered with a cloth, blessed, torn and dipped in salt."
+      },
+      {
+        "id": "eat-chicken-soup-with-matzah-balls",
+        "title": "Chicken soup with matzah balls",
+        "creator": "Clear broth with dumplings of matzah meal",
+        "why": "The Ashkenazi cure for everything, served on Friday nights and at Passover."
+      },
+      {
+        "id": "eat-cholent-or-hamin",
+        "title": "Cholent or hamin",
+        "creator": "Beans, barley, potatoes and meat cooked overnight",
+        "why": "Since cooking is not done on the Sabbath, a stew is started on Friday and left on low heat until Saturday lunch. Every community has a version."
+      },
+      {
+        "id": "eat-shakshuka",
+        "title": "Shakshuka",
+        "creator": "Eggs poached in spiced tomato and pepper sauce",
+        "why": "Brought to Israel by Jews from North Africa and now eaten everywhere."
+      }
+    ],
+    "drink": [
+      {
+        "id": "drink-wine-or-grape-juice-for-kiddush",
+        "title": "Wine or grape juice for kiddush",
+        "creator": "A full cup",
+        "why": "The Sabbath and every festival begin with a blessing over wine. Grape juice is equally valid."
+      },
+      {
+        "id": "drink-tea-with-lemon-in-a-glass",
+        "title": "Tea with lemon in a glass",
+        "creator": "Strong black tea",
+        "why": "The Russian Jewish habit, drunk through a sugar cube during study and argument."
+      },
+      {
+        "id": "drink-mint-tea",
+        "title": "Mint tea",
+        "creator": "Green tea with fresh mint and sugar",
+        "why": "The drink of Moroccan Jewish hospitality."
+      }
+    ],
+    "customs": [
+      {
+        "id": "customs-lighting-two-candles",
+        "title": "Lighting two candles",
+        "creator": "Friday, eighteen minutes before sunset",
+        "why": "The Sabbath is welcomed with light, usually by the woman of the house, who covers her eyes and says the blessing."
+      },
+      {
+        "id": "customs-the-mezuzah",
+        "title": "The mezuzah",
+        "creator": "On the right doorpost",
+        "why": "A scroll in a case, set at an angle. People touch it and then kiss their fingers as they pass."
+      },
+      {
+        "id": "customs-covering-the-head",
+        "title": "Covering the head",
+        "creator": "The kippah",
+        "why": "A small cap worn by men, and in liberal communities by some women, as a sign of reverence. Visitors to a synagogue are usually offered one."
+      },
+      {
+        "id": "customs-stones-on-a-grave",
+        "title": "Stones on a grave",
+        "creator": "A visit recorded",
+        "why": "Visitors leave a small stone on the headstone, not flowers. It shows that someone came and remembers."
+      }
+    ],
+    "games": [
+      {
+        "id": "games-dreidel",
+        "title": "Dreidel",
+        "creator": "Spinning top game · Ashkenazi tradition",
+        "year": "at least 18th century",
+        "why": "A four-sided top with Hebrew letters, played for nuts or chocolate coins at Hanukkah. The letters stand for: a great miracle happened there."
+      },
+      {
+        "id": "games-chess",
+        "title": "Chess",
+        "creator": "Board game",
+        "year": "medieval to the present",
+        "why": "Loved in Jewish communities since the Middle Ages, when rabbis wrote poems about it. Steinitz, Lasker, Botvinnik, Tal and Judit Polgar came from Jewish families."
+      },
+      {
+        "id": "games-the-shivah",
+        "title": "The Shivah",
+        "creator": "Video game · Wadjet Eye Games",
+        "year": "2006",
+        "why": "A point-and-click mystery in which a disillusioned New York rabbi investigates a death in his congregation. You can answer questions with questions."
+      }
+    ],
+    "festivals": [
+      {
+        "id": "fest-rosh-hashanah-and-yom-kippur",
+        "title": "Rosh Hashanah and Yom Kippur",
+        "creator": "September or October",
+        "why": "The New Year and, ten days later, the Day of Atonement: a twenty-five hour fast spent in prayer. Before it, people ask each other’s forgiveness."
+      },
+      {
+        "id": "fest-passover-pesach",
+        "title": "Passover (Pesach)",
+        "creator": "March or April, seven or eight days",
+        "why": "The exodus from Egypt, retold at a home meal, the seder, built round questions asked by the youngest child. No leavened bread is eaten."
+      },
+      {
+        "id": "fest-sukkot",
+        "title": "Sukkot",
+        "creator": "September or October, a week",
+        "why": "Families eat, and some sleep, in a hut roofed with branches through which the stars can be seen."
+      },
+      {
+        "id": "fest-hanukkah",
+        "title": "Hanukkah",
+        "creator": "December, eight nights",
+        "why": "One more candle is lit each evening to recall the rededication of the Temple. Fried food, songs and the dreidel."
+      }
+    ],
+    "places": [
+      {
+        "id": "place-the-western-wall",
+        "title": "The Western Wall",
+        "creator": "Jerusalem",
+        "why": "The surviving retaining wall of the Second Temple mount, where prayers have been said for centuries and notes are pressed between the stones. Dress modestly. Men and women pray in separate sections."
+      },
+      {
+        "id": "place-the-jewish-quarter-josefov",
+        "title": "The Jewish Quarter (Josefov)",
+        "creator": "Prague, Czech Republic",
+        "why": "Six synagogues and an old cemetery with twelve thousand crowded headstones, including that of Rabbi Judah Loew."
+      },
+      {
+        "id": "place-the-portuguese-synagogue",
+        "title": "The Portuguese Synagogue",
+        "creator": "Amsterdam, Netherlands",
+        "why": "Built in 1675 by descendants of Jews who fled Spain and Portugal. It is still lit only by candles."
+      },
+      {
+        "id": "place-kazimierz-and-the-polin-museum",
+        "title": "Kazimierz and the POLIN Museum",
+        "creator": "Kraków and Warsaw, Poland",
+        "why": "The old Jewish town of Kraków, and in Warsaw a museum of a thousand years of Polish Jewish life, built on the site of the ghetto."
+      },
+      {
+        "id": "place-the-tenement-museum-and-eldridge-street-synagogue",
+        "title": "The Tenement Museum and Eldridge Street Synagogue",
+        "creator": "Lower East Side, New York, United States",
+        "why": "Where Jewish immigrants landed in their hundreds of thousands around 1900. The restored synagogue of 1887 is a few streets from the tenements."
+      }
+    ]
+  },
+  "ethics": [
+    {
+      "title": "Justice",
+      "text": "Justice, justice shall you pursue, says Deuteronomy. The prophets judged a society by how it treated the widow, the orphan, the poor and the stranger.",
+      "practice": "Find one unfair thing within your reach and do something about it."
+    },
+    {
+      "title": "Loving-kindness",
+      "text": "The world is said to stand on three things: Torah, worship and acts of kindness. Kindness is practical: a meal, a visit, a lift, a loan.",
+      "practice": "Visit, call or cook for someone who is ill or alone."
+    },
+    {
+      "title": "The stranger",
+      "text": "You shall love the stranger, for you were strangers in the land of Egypt. The instruction appears, the rabbis counted, thirty-six times.",
+      "practice": "Make one newcomer or outsider feel expected today."
+    },
+    {
+      "title": "Guarding speech",
+      "text": "Words can kill a reputation, and the damage cannot be recalled. Gossip is said to harm three people: the speaker, the listener and the subject.",
+      "practice": "Go a full day without discussing anyone who is not present."
+    },
+    {
+      "title": "Honouring parents",
+      "text": "The fifth commandment. It means seeing that they have food, clothing and company, and not shaming them.",
+      "practice": "Do something concrete for a parent or an elder this week."
+    },
+    {
+      "title": "Repentance and repair",
+      "text": "For wrongs against another person, the Day of Atonement does not atone until you have gone to them and made it right.",
+      "practice": "Make one overdue apology, with repair attached."
+    }
+  ],
+  "philosophy": [
+    {
+      "title": "One God, one humanity",
+      "text": "The Shema declares that God is one. From that follows a single moral law and a single human family, each member made in the divine image.",
+      "practice": "Treat the next person who annoys you as bearing that image."
+    },
+    {
+      "title": "Covenant",
+      "text": "The relationship between God and Israel is a contract with obligations on both sides. One party may argue with the other. Abraham bargains over Sodom, and Job demands an answer.",
+      "practice": "Name the commitments you have chosen that now bind you. Are you keeping them?"
+    },
+    {
+      "title": "Deed over creed",
+      "text": "Judaism asks less what you believe than what you do. Holiness is built from many small acts repeated: what you eat, how you trade, when you stop.",
+      "practice": "Pick one value you hold and give it a fixed, daily action."
+    },
+    {
+      "title": "Holiness in time",
+      "text": "The first thing the Bible calls holy is a day. The Sabbath makes a sanctuary out of hours, portable through every exile. For one day people stop making and simply are.",
+      "practice": "Decide when your day of rest begins and what stays outside it."
+    },
+    {
+      "title": "The argument for the sake of heaven",
+      "text": "The Talmud records minority opinions with respect and often leaves disputes open. When the schools of Hillel and Shammai clashed, a voice said: both are the words of the living God.",
+      "practice": "In your next disagreement, state the other position so well that they would sign it."
+    },
+    {
+      "title": "Repairing the world",
+      "text": "The sixteenth century mystic Isaac Luria taught that the vessels of creation shattered and that sparks of light lie scattered in everything. Each good act lifts one. The work is shared and unfinished.",
+      "practice": "Do one small, concrete repair today: mend something broken or mediate between two people."
+    },
+    {
+      "title": "Choose life",
+      "text": "I have set before you life and death, says Deuteronomy: choose life. Saving life overrides almost every law. The tradition is stubbornly on the side of this world.",
+      "practice": "Say l’chaim to something today. Mark one good thing with a toast or a thank-you."
+    },
+    {
+      "title": "Remember",
+      "text": "The command to remember appears again and again: the exodus, the Sabbath, what was done to you, that you were slaves. Memory is a duty, retold at the table so that it becomes each generation’s own.",
+      "practice": "Tell someone younger a story about where your family came from."
+    }
+  ],
+  "journal": [
+    "What were you thankful for when you woke?",
+    "Whom did you wrong this week, and how will you put it right?",
+    "What did you learn today, and what question did it raise?",
+    "What did you give, and was it justice or generosity?",
+    "Whom did you speak about who was not in the room?",
+    "What would a real day of rest ask you to stop?",
+    "Who is the stranger in your life?",
+    "What blessing did you forget to say?",
+    "Where did you argue well, and where badly?",
+    "What promise binds you?",
+    "Whom do you need to forgive before you sleep?",
+    "What have you inherited, and what will you hand on?",
+    "Where did you see the divine image today?",
+    "What did you do today that you would do whether or not you believed anything?",
+    "What is yours to repair?",
+    "What work are you not free to abandon?",
+    "If not now, when?",
+    "What would it mean to be for yourself and not only for yourself?",
+    "Who sat at your table this week?",
+    "What do you remember that must not be forgotten?",
+    "Where did you choose life?",
+    "Whose honour did you protect or damage?",
+    "What did you take without thanks?",
+    "Which commandment of your own making do you keep?",
+    "When did you stop today?",
+    "What question are you afraid to ask?",
+    "Who taught you, and what do you owe them?",
+    "What grief did you sit with, yours or someone else’s?",
+    "What did the rest day show you about the other six?",
+    "What is hateful to you, and did you do it to anyone?"
+  ],
+  "reflect": [
+    "What changed when thanks came first each morning?",
+    "What did studying with a partner give you that reading alone does not?",
+    "What did a day of rest reveal?",
+    "Whom did you make peace with?",
+    "What did daily giving do to your sense of what is yours?",
+    "Which practice will you carry on?"
+  ],
+  "dayThemes": [
+    "I give thanks",
+    "A hundred blessings",
+    "Go and learn",
+    "Justice, justice",
+    "The stranger",
+    "The day of rest",
+    "A palace in time",
+    "Hear",
+    "The image",
+    "The whole Torah on one foot",
+    "If not now, when",
+    "Not yours to finish",
+    "The evil tongue",
+    "Kindness",
+    "The doorpost",
+    "Bread and salt",
+    "Two candles",
+    "A partner or death",
+    "Both are living words",
+    "Return",
+    "Repair",
+    "The sparks",
+    "Choose life",
+    "Remember",
+    "Ask a question",
+    "Honour",
+    "A single life",
+    "Sitting with the mourner",
+    "To life",
+    "Peace"
+  ],
+  "guide": {
+    "intro": [
+      "Judaism is the religion and way of life of the Jewish people. It is the oldest of the three great monotheisms and the root of the other two. There are about fifteen million Jews in the world today, nearly half in Israel and most of the rest in North America. Their history is long, their numbers have always been small, and their influence on how much of humanity thinks about God, law, justice and time is beyond calculation.",
+      "The story it tells about itself begins with Abraham, who left Mesopotamia at God’s call, and with his descendants, enslaved in Egypt and led out by Moses. At Mount Sinai the freed slaves entered a covenant: they would be God’s people and live by the Torah, the teaching. At its centre is the claim that there is one God, who cares how human beings treat each other. The prophets pressed the point: ritual without justice is worthless.",
+      "For a thousand years Jewish worship centred on the Temple in Jerusalem. The Romans destroyed it in the year 70 and scattered the people. What survived was a portable religion of study, prayer and practice built by the rabbis: the Mishnah, the Talmud, the synagogue, the Sabbath table. This rabbinic Judaism is the Judaism of today, carried through medieval Spain and Iraq, the villages of Poland and Yemen, and into the modern world.",
+      "It is a religion of action more than belief. The Torah contains 613 commandments, and the tradition has spent two thousand years working out how to keep them: what to eat, how to conduct business honestly, how to rest on the seventh day, how to mourn, how to give. It is also a religion of argument. Its central books are records of debate in which the minority view is preserved, and questioning is a form of devotion.",
+      "Modern Jews differ widely. The Orthodox keep traditional law closely. The Conservative, Reform and Reconstructionist movements adapt it in various degrees. Many Jews are secular and express their identity through family, culture, memory and ethics. All share a calendar, a set of texts and a history that includes repeated persecution and the murder of six million European Jews between 1941 and 1945.",
+      "This Onda borrows practices that Jewish teachers readily share: waking with thanks, blessing food, studying with a partner, giving daily, taking stock at night and keeping a day of rest. Judaism does not seek converts, and holds that the righteous of all nations have a share in the world to come. You are a guest. The commandments particular to the covenant, and the Sabbath in its full form, belong to the Jewish people."
+    ],
+    "origin": "The land of Israel, and for two thousand years communities across the Middle East, Europe, North Africa and the Americas",
+    "era": "Three thousand years and more, from the Israelite tribes to the present",
+    "figures": [
+      {
+        "name": "Moses",
+        "dates": "traditionally 13th century BCE",
+        "bio": "The prophet who led the Israelites out of Egypt and received the Torah at Sinai. Called simply our teacher. He died within sight of the land he never entered."
+      },
+      {
+        "name": "Hillel the Elder",
+        "dates": "about 110 BCE to 10 CE",
+        "bio": "A Babylonian-born sage in Jerusalem, famous for patience and for rulings that favoured ordinary people. His school’s views became the norm."
+      },
+      {
+        "name": "Rabbi Akiva",
+        "dates": "about 50 to 135 CE",
+        "bio": "A shepherd who began to study at forty and became the greatest scholar of his age. The Romans executed him for teaching Torah."
+      },
+      {
+        "name": "Bruriah",
+        "dates": "2nd century CE",
+        "bio": "A scholar of law quoted in the Talmud, whose rulings were accepted over those of leading rabbis. She taught her husband to pray for the end of sin, not of sinners."
+      },
+      {
+        "name": "Rashi (Rabbi Shlomo Yitzchaki)",
+        "dates": "1040 to 1105",
+        "bio": "A winegrower of Troyes in France whose line-by-line commentaries on the Bible and Talmud are still printed beside the text and studied first."
+      },
+      {
+        "name": "Maimonides (Rambam)",
+        "dates": "1138 to 1204",
+        "bio": "Born in Córdoba, physician to the sultan’s court in Cairo. He codified the whole of Jewish law and wrote the Guide for the Perplexed to reconcile it with philosophy."
+      },
+      {
+        "name": "The Baal Shem Tov",
+        "dates": "about 1700 to 1760",
+        "bio": "A healer in the Carpathian foothills who taught that God is reached through joy, sincerity and song. Founder of Hasidism."
+      },
+      {
+        "name": "Glückel of Hameln",
+        "dates": "1646 to 1724",
+        "bio": "A Hamburg merchant and mother of twelve whose memoirs, written for her children, are the first known autobiography by a Jewish woman."
+      },
+      {
+        "name": "Abraham Joshua Heschel",
+        "dates": "1907 to 1972",
+        "bio": "A Polish-born rabbi and philosopher in America, who marched at Selma with Martin Luther King and said he felt his legs were praying."
+      },
+      {
+        "name": "Regina Jonas",
+        "dates": "1902 to 1944",
+        "bio": "Ordained in Berlin in 1935, the first woman rabbi. She went on teaching and counselling in the Theresienstadt ghetto and was murdered at Auschwitz."
+      }
+    ],
+    "history": [
+      {
+        "when": "about 1200 BCE",
+        "what": "Israel in Canaan",
+        "detail": "An Egyptian inscription of about 1208 BCE is the first mention of a people called Israel. Tribes settle the hill country."
+      },
+      {
+        "when": "about 1000 to 586 BCE",
+        "what": "Kingdoms and the First Temple",
+        "detail": "David makes Jerusalem his capital and Solomon builds the Temple. The kingdom splits. The prophets Amos, Isaiah and Jeremiah preach justice."
+      },
+      {
+        "when": "586 BCE",
+        "what": "The Babylonian exile",
+        "detail": "Nebuchadnezzar destroys Jerusalem and deports its leading families. In exile the scriptures are gathered and edited, and a religion takes shape that can live without a land."
+      },
+      {
+        "when": "538 to 516 BCE",
+        "what": "Return and the Second Temple",
+        "detail": "Cyrus of Persia allows the exiles home. A new Temple is dedicated, and Ezra reads the Torah publicly."
+      },
+      {
+        "when": "167 to 164 BCE",
+        "what": "The Maccabees",
+        "detail": "A revolt against a Greek king who had banned Jewish practice ends with the rededication of the Temple, remembered at Hanukkah."
+      },
+      {
+        "when": "70 CE",
+        "what": "The destruction of the Temple",
+        "detail": "Rome crushes a Jewish revolt and burns the Temple. Rabbi Yohanan ben Zakkai founds a school at Yavneh, and study begins to take the place of sacrifice."
+      },
+      {
+        "when": "about 200 and about 500",
+        "what": "Mishnah and Talmud",
+        "detail": "Rabbi Judah the Prince compiles the oral law. Three centuries of discussion of it in Babylonia are gathered into the Talmud."
+      },
+      {
+        "when": "10th to 12th century",
+        "what": "The golden age in Spain",
+        "detail": "Under Muslim rule in al-Andalus, Jewish poets, physicians and philosophers flourish. Maimonides is born at its end."
+      },
+      {
+        "when": "1096 and 1492",
+        "what": "Massacre and expulsion",
+        "detail": "Crusaders destroy the Jewish communities of the Rhineland. In 1492 the Jews of Spain are forced to convert or leave, and settle around the Mediterranean and in the Ottoman empire."
+      },
+      {
+        "when": "18th century",
+        "what": "Hasidism and Enlightenment",
+        "detail": "The Baal Shem Tov’s movement of joyful piety sweeps Eastern Europe. In Berlin Moses Mendelssohn argues that Jews can be both observant and modern."
+      },
+      {
+        "when": "19th century",
+        "what": "Emancipation and new movements",
+        "detail": "Jews gain citizenship across Western Europe. Reform, Conservative and modern Orthodox Judaism take shape. From 1881 pogroms in Russia drive two million to America."
+      },
+      {
+        "when": "1933 to 1945",
+        "what": "The Shoah",
+        "detail": "Nazi Germany and its collaborators murder six million Jews, two thirds of the Jews of Europe, among them a million and a half children."
+      },
+      {
+        "when": "1948",
+        "what": "The State of Israel",
+        "detail": "A Jewish state is declared in part of the ancient homeland, three years after the Shoah. Most Jews from Arab countries move there over the following decades."
+      }
+    ],
+    "concepts": [
+      {
+        "term": "Covenant",
+        "text": "Brit: the binding relationship.",
+        "detail": "Made with Abraham, sealed at Sinai. It sets out obligations and promises on both sides and is understood to be permanent."
+      },
+      {
+        "term": "Torah, written and oral",
+        "text": "The teaching and its unfolding.",
+        "detail": "The five books are the written Torah. The oral Torah is the interpretation handed down with it, later written as the Mishnah and Talmud. Study never ends."
+      },
+      {
+        "term": "Mitzvot",
+        "text": "The commandments.",
+        "detail": "613 by the traditional count: 248 to do and 365 to refrain from. They cover ritual and ethics without distinguishing sharply between the two."
+      },
+      {
+        "term": "Halakhah and aggadah",
+        "text": "Law and lore.",
+        "detail": "The tradition has two voices: legal reasoning about what to do, and story, parable and theology about why."
+      },
+      {
+        "term": "Shabbat",
+        "text": "The seventh day.",
+        "detail": "Thirty-nine kinds of creative work are set aside from Friday sunset. In their place come candles, wine, bread, song, study, sleep and company."
+      },
+      {
+        "term": "Teshuvah",
+        "text": "Return.",
+        "detail": "Human beings can always change course. The ten days from the New Year to the Day of Atonement are given to it, but the gates are said never to close."
+      },
+      {
+        "term": "Chosenness",
+        "text": "Chosen for responsibility.",
+        "detail": "The idea that Israel was singled out to keep the Torah. The tradition reads it as extra obligation, not superiority, and other peoples have their own paths."
+      },
+      {
+        "term": "The messianic hope",
+        "text": "A repaired world.",
+        "detail": "The expectation of an age of peace and justice, when nation shall not lift up sword against nation. Views differ on whether a person or human effort will bring it."
+      },
+      {
+        "term": "Klal Yisrael",
+        "text": "The whole people.",
+        "detail": "All Jews are responsible for one another. Jewish identity is that of a people as well as of a faith, which is why a non-believing Jew remains a Jew."
+      }
+    ],
+    "facts": [
+      {
+        "text": "The Hebrew calendar counts from the traditional date of creation. The year that began in autumn 2026 is 5787."
+      },
+      {
+        "text": "A Torah scroll is written by hand with a quill on parchment, 304,805 letters in all. A single mistake makes it unfit until corrected."
+      },
+      {
+        "text": "The Talmud is printed with the same page layout in every edition. A reference such as Shabbat 31a will find the same words anywhere in the world."
+      },
+      {
+        "text": "Since 1923 Jews around the world have studied one page of Talmud a day in a shared cycle that takes about seven and a half years."
+      },
+      {
+        "text": "Hebrew ceased to be a daily spoken language for some seventeen centuries and was revived as a mother tongue at the end of the nineteenth."
+      },
+      {
+        "text": "The word chai, life, adds up to eighteen in Hebrew letters, so gifts to charity are often given in multiples of eighteen."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Tanakh",
+        "meaning": "The Hebrew Bible: Torah, Prophets and Writings"
+      },
+      {
+        "term": "Synagogue",
+        "meaning": "A house of assembly, prayer and study; also called shul or temple"
+      },
+      {
+        "term": "Ashkenazi",
+        "meaning": "Jews whose ancestors lived in Central and Eastern Europe"
+      },
+      {
+        "term": "Sephardi",
+        "meaning": "Jews whose ancestors lived in Spain and Portugal"
+      },
+      {
+        "term": "Mizrahi",
+        "meaning": "Jews of the Middle East and North Africa"
+      },
+      {
+        "term": "Bar and bat mitzvah",
+        "meaning": "Coming of age at thirteen or twelve, when a child becomes responsible for the commandments"
+      }
+    ],
+    "furtherReading": [
+      {
+        "title": "Judaism: A Very Short Introduction",
+        "creator": "Norman Solomon",
+        "year": "2nd edition 2014",
+        "note": "A compact and candid overview."
+      },
+      {
+        "title": "Back to the Sources: Reading the Classic Jewish Texts",
+        "creator": "ed. Barry W. Holtz",
+        "year": "1984",
+        "note": "A guide to how to read Bible, Talmud, midrash, philosophy and mysticism."
+      },
+      {
+        "title": "The Story of the Jews",
+        "creator": "Simon Schama",
+        "year": "2013 and 2017",
+        "note": "Two volumes of narrative history, vivid and personal."
+      },
+      {
+        "title": "To Heal a Fractured World: The Ethics of Responsibility",
+        "creator": "Jonathan Sacks",
+        "year": "2005",
+        "note": "A former chief rabbi on justice, kindness and repair."
+      }
+    ],
+    "learnFrom": [
+      {
+        "name": "Sefaria",
+        "note": "A free library of Jewish texts in Hebrew and English, linked to their commentaries.",
+        "link": "https://www.sefaria.org"
+      },
+      {
+        "name": "My Jewish Learning",
+        "note": "Plain articles on practice, holidays, texts and history from every movement.",
+        "link": "https://www.myjewishlearning.com"
+      },
+      {
+        "name": "A local synagogue or Jewish museum",
+        "note": "Many offer open days and introductory classes. Call ahead before attending a service."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Tanakh: The Holy Scriptures",
+        "publisher": "Jewish Publication Society",
+        "year": "1985"
+      },
+      {
+        "title": "Pirke Avot: A Modern Commentary on Jewish Ethics",
+        "creator": "ed. Leonard Kravitz and Kerry Olitzky",
+        "publisher": "UAHC Press",
+        "year": "1993"
+      },
+      {
+        "title": "The Sabbath: Its Meaning for Modern Man",
+        "creator": "Abraham Joshua Heschel",
+        "publisher": "Farrar, Straus and Giroux",
+        "year": "1951"
+      },
+      {
+        "title": "Jewish Literacy",
+        "creator": "Joseph Telushkin",
+        "publisher": "William Morrow",
+        "year": "revised edition 2008"
+      },
+      {
+        "title": "Judaism: A Very Short Introduction",
+        "creator": "Norman Solomon",
+        "publisher": "Oxford University Press",
+        "year": "2nd edition 2014"
+      },
+      {
+        "title": "A History of Judaism",
+        "creator": "Martin Goodman",
+        "publisher": "Allen Lane",
+        "year": "2017"
+      }
+    ]
+  },
+  "sensitivity": {
+    "note": "Judaism is the living tradition of a people. This Onda borrows practices of gratitude, study, giving and rest that Jewish teachers share openly. It is not a conversion course, and it does not ask you to take on commandments or symbols that belong to the covenant.",
+    "requiredCaveats": [
+      "Jewish practice ranges from strictly Orthodox to secular. No single description fits everyone.",
+      "Antisemitism is old and present. If you meet stereotypes while exploring, name them for what they are.",
+      "Ritual objects such as the tallit, tefillin and Torah scroll are not for outsiders to use.",
+      "This Onda concerns the religion and its way of life. It takes no position on the politics of the modern Middle East."
+    ],
+    "reviewRequired": true
+  }
+}

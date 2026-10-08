@@ -2,32 +2,13 @@ import type { CSSProperties } from 'react'
 import { accentFor, readableText } from '@/lib/color'
 import { numeral, type NumeralSet } from './numerals'
 import type { OndaIndex } from './schema'
+import { sv, type Ornament, type Theme } from './themeKit'
+import { THEMES5 } from './themes5'
+
+export type { Ornament } from './themeKit'
 
 /* Per-Onda aesthetics: pastel tone, pattern, display face and glyph, taken from the prototype.
    Each theme also has a dark variant. The "Onda themes" setting turns all of this off, leaving the plain tone. */
-
-const sv = (s: string) => `url("data:image/svg+xml,${encodeURIComponent(s)}")`
-
-interface Theme {
-  bg: string
-  strong: string
-  darkBg: string
-  darkStrong: string
-  glyph: string
-  font: string
-  /** CSS background layers; `i` is the ink as "r,g,b" so the pattern works on light and dark fills. */
-  pattern: (i: string) => string
-  /** Extras that make each Onda feel like its own place. */
-  shape: string
-  clip?: string
-  radius: string
-  numerals: NumeralSet
-  ornament: Ornament
-  caps?: boolean
-  track?: string
-}
-
-export type Ornament = 'column' | 'enso' | 'yinyang' | 'lotus' | 'sun' | 'mandala' | 'feather' | 'rings' | 'star8' | 'leaf' | 'dot' | 'ankh' | 'star5' | 'sunstone' | 'drum' | 'hexagram' | 'pleroma' | 'longship' | 'lantern' | 'seal' | 'arch' | 'fan' | 'palm'
 
 const OCTAGRAM = 'polygon(50% 0%,64.5% 14.9%,85.4% 14.6%,85.1% 35.5%,100% 50%,85.1% 64.5%,85.4% 85.4%,64.5% 85.1%,50% 100%,35.5% 85.1%,14.6% 85.4%,14.9% 64.5%,0% 50%,14.9% 35.5%,14.6% 14.6%,35.5% 14.9%)'
 const SHIELD = 'polygon(0 0,100% 0,100% 58%,50% 100%,0 58%)'
@@ -144,6 +125,7 @@ export const THEMES: Record<string, Theme> = {
     bg: '#F8D6DC', strong: '#CF3F6B', darkBg: '#4A1F2C', darkStrong: '#F58BA8', glyph: 'Son', font: "'Lobster Two',cursive",
     pattern: (i) => `${sv(`<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32'><g fill='none' stroke='rgba(${i},.1)' stroke-width='1.3'><circle cx='0' cy='0' r='11'/><circle cx='32' cy='0' r='11'/><circle cx='0' cy='32' r='11'/><circle cx='32' cy='32' r='11'/><path d='M16 10L22 16L16 22L10 16Z'/></g></svg>`)} 0 0/32px 32px`,
   },
+  ...THEMES5,
 }
 
 const TONES: Record<string, { bg: string; strong: string; darkBg: string; darkStrong: string }> = {
@@ -157,7 +139,7 @@ export const TONE_KEYS = ['blue', 'green', 'yellow', 'coral', 'purple'] as const
 export const toneFill = (tone: string, dark: boolean) => (dark ? TONES[tone]?.darkBg : TONES[tone]?.bg) ?? TONES.blue!.bg
 
 /** A corner radius scaled down for smaller cards. Radii with several values cannot be scaled with calc() in CSS. */
-const scaleRadius = (r: string, k: number) => r.replace(/(d+(?:.d+)?)px/g, (_, n) => `${Math.round(Number(n) * k)}px`)
+const scaleRadius = (r: string, k: number) => r.replace(/(\d+(?:\.\d+)?)px/g, (_, n) => `${Math.round(Number(n) * k)}px`)
 
 export interface OndaLook {
   /** CSS custom properties to spread on a wrapper; components read --onda-* */

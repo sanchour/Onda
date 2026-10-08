@@ -1,8 +1,11 @@
 /* Numerals in each tradition's own script, used for rule numbers and index badges. Each set is standard Unicode. */
 
-export type NumeralSet = 'latin' | 'roman' | 'kanji' | 'tibetan' | 'devanagari' | 'arabic' | 'greek'
+export type NumeralSet = 'latin' | 'roman' | 'kanji' | 'tibetan' | 'devanagari' | 'arabic' | 'greek' | 'gurmukhi' | 'thai' | 'persian' | 'hebrew'
 
-const DIGITS: Record<'tibetan' | 'devanagari' | 'arabic', string> = {
+const DIGITS: Record<'tibetan' | 'devanagari' | 'arabic' | 'gurmukhi' | 'thai' | 'persian', string> = {
+  gurmukhi: '੦੧੨੩੪੫੬੭੮੯',
+  thai: '๐๑๒๓๔๕๖๗๘๙',
+  persian: '۰۱۲۳۴۵۶۷۸۹',
   tibetan: '༠༡༢༣༤༥༦༧༨༩',
   devanagari: '०१२३४५६७८९',
   arabic: '٠١٢٣٤٥٦٧٨٩',
@@ -35,6 +38,11 @@ const GREEK_TENS = ['', 'ι', 'κ', 'λ', 'μ', 'ν', 'ξ', 'ο', 'π', 'ϟ']
 /** Greek alphabetic numerals, marked with the keraia (ʹ) as in ancient use. */
 const greek = (n: number) => GREEK_TENS[Math.floor(n / 10)]! + GREEK_UNITS[n % 10]! + 'ʹ'
 
+const HEBREW_UNITS = ['', 'א', 'ב', 'ג', 'ד', 'ה', 'ו', 'ז', 'ח', 'ט']
+const HEBREW_TENS = ['', 'י', 'כ', 'ל', 'מ', 'נ', 'ס', 'ע', 'פ', 'צ']
+/** Hebrew letter numerals. 15 and 16 are written 9+6 and 9+7, as is the custom. */
+const hebrew = (n: number) => (n === 15 ? 'טו' : n === 16 ? 'טז' : HEBREW_TENS[Math.floor(n / 10)]! + HEBREW_UNITS[n % 10]!)
+
 /** Format a small positive integer (1..99) in the given numeral set. */
 export function numeral(set: NumeralSet, n: number): string {
   if (n < 1 || n > 99 || !Number.isInteger(n)) return String(n)
@@ -45,6 +53,11 @@ export function numeral(set: NumeralSet, n: number): string {
       return kanji(n)
     case 'greek':
       return greek(n)
+    case 'hebrew':
+      return hebrew(n)
+    case 'gurmukhi':
+    case 'thai':
+    case 'persian':
     case 'tibetan':
     case 'devanagari':
     case 'arabic':

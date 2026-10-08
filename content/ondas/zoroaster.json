@@ -1,0 +1,1207 @@
+{
+  "version": 1,
+  "id": "zoroaster",
+  "name": "Zoroastrianism",
+  "origin": "Persia",
+  "era": "From Zarathustra, before 600 BCE, to today",
+  "tone": "coral",
+  "icon": "fire",
+  "font": "gilda-display",
+  "pattern": "flames",
+  "glyph": "Asha",
+  "line": "Choose the truth in thought, in word and in deed, and make the world better for it.",
+  "quote": {
+    "text": "Listen with your ears to the best things. Reflect with a clear mind, each person for themselves, upon the two choices.",
+    "by": "Zarathustra",
+    "source": "Gathas, Yasna 30.2, after the translation of Stanley Insler, 1975"
+  },
+  "quotes": [
+    {
+      "text": "Righteousness is the best good. It is happiness. Happiness comes to the one who is righteous for the sake of the best righteousness.",
+      "by": "The Ashem Vohu",
+      "source": "The first prayer a Zoroastrian child learns; a common English rendering"
+    },
+    {
+      "text": "Happiness comes to the one who brings happiness to others.",
+      "by": "Zarathustra",
+      "source": "Gathas, Yasna 43.1, in its common English paraphrase"
+    },
+    {
+      "text": "I pledge myself to the well-thought thought, the well-spoken word and the well-done deed.",
+      "by": "The Zoroastrian creed",
+      "source": "Yasna 12.8, in a common English rendering"
+    },
+    {
+      "text": "What is right, that is my desire. To the man who is a follower of the Lie I am not a friend.",
+      "by": "Darius the Great",
+      "source": "Inscription DNb on his tomb at Naqsh-e Rustam, trans. Roland G. Kent, 1950"
+    }
+  ],
+  "words": [
+    {
+      "id": "word-ahura-mazda",
+      "term": "Ahura Mazda",
+      "meaning": "The Wise Lord",
+      "pronunciation": "a-HOO-ra MAZ-da",
+      "language": "Avestan",
+      "usage": "The one uncreated God, wholly good, creator of all that is good. Ohrmazd in Middle Persian."
+    },
+    {
+      "id": "word-asha",
+      "term": "Asha",
+      "meaning": "Truth, order, rightness",
+      "pronunciation": "AH-sha",
+      "language": "Avestan",
+      "usage": "The way things ought to be and at their best are: the order of the stars, the honesty of a contract, the health of a field."
+    },
+    {
+      "id": "word-druj",
+      "term": "Druj",
+      "meaning": "The Lie",
+      "pronunciation": "DROOJ",
+      "language": "Avestan",
+      "usage": "Falsehood, disorder and decay. The opposite of asha in the world and in the mind."
+    },
+    {
+      "id": "word-humata-hukhta-hvarshta",
+      "term": "Humata, hukhta, hvarshta",
+      "meaning": "Good thoughts, good words, good deeds",
+      "pronunciation": "hoo-MA-ta, HOOKH-ta, hvarsh-TA",
+      "language": "Avestan",
+      "usage": "The whole ethic in three words. The order matters: deed follows word, and word follows thought."
+    },
+    {
+      "id": "word-spenta-mainyu",
+      "term": "Spenta Mainyu",
+      "meaning": "The bounteous spirit",
+      "pronunciation": "SPEN-ta MINE-yoo",
+      "language": "Avestan",
+      "usage": "The creative, life-giving spirit through which Ahura Mazda acts."
+    },
+    {
+      "id": "word-angra-mainyu",
+      "term": "Angra Mainyu",
+      "meaning": "The hostile spirit",
+      "pronunciation": "UNG-ra MINE-yoo",
+      "language": "Avestan",
+      "usage": "The destructive spirit, source of death and falsehood. Ahriman in Middle Persian. He is not God’s equal and will be defeated."
+    },
+    {
+      "id": "word-amesha-spentas",
+      "term": "Amesha Spentas",
+      "meaning": "The bounteous immortals",
+      "pronunciation": "a-MESH-a SPEN-tas",
+      "language": "Avestan",
+      "usage": "Six or seven divine qualities of Ahura Mazda, each guarding a part of creation: good mind, truth, good rule, devotion, wholeness and immortality."
+    },
+    {
+      "id": "word-vohu-manah",
+      "term": "Vohu Manah",
+      "meaning": "Good mind",
+      "pronunciation": "VO-hoo MA-na",
+      "language": "Avestan",
+      "usage": "Clear, kindly thought. The first of the immortals and guardian of cattle and all animals."
+    },
+    {
+      "id": "word-armaiti",
+      "term": "Armaiti",
+      "meaning": "Devotion, right-mindedness",
+      "pronunciation": "ar-MY-tee",
+      "language": "Avestan",
+      "usage": "Serene, loving attention. Guardian of the earth."
+    },
+    {
+      "id": "word-khshathra",
+      "term": "Khshathra",
+      "meaning": "Good rule, right power",
+      "pronunciation": "KSHA-thra",
+      "language": "Avestan",
+      "usage": "Power used well. The dominion a person has over their own choices, and the just order to come."
+    },
+    {
+      "id": "word-atar",
+      "term": "Atar",
+      "meaning": "Fire",
+      "pronunciation": "AH-tar",
+      "language": "Avestan",
+      "usage": "The visible sign of asha: light, warmth and energy. Zoroastrians pray before fire. They do not worship it."
+    },
+    {
+      "id": "word-atash-behram",
+      "term": "Atash Behram",
+      "meaning": "Fire of victory",
+      "pronunciation": "AH-tash beh-RAHM",
+      "language": "Persian",
+      "usage": "The highest grade of consecrated fire, made from sixteen sources including lightning. There are nine in the world."
+    },
+    {
+      "id": "word-agiary",
+      "term": "Agiary",
+      "meaning": "A fire temple",
+      "pronunciation": "a-GYAH-ree",
+      "language": "Gujarati",
+      "usage": "The Parsi word. In Iran it is an atashkadeh or dar-e mehr, the door of Mithra."
+    },
+    {
+      "id": "word-avesta",
+      "term": "Avesta",
+      "meaning": "The scriptures",
+      "pronunciation": "a-VES-ta",
+      "language": "Middle Persian",
+      "usage": "What survives of a much larger body of sacred texts, in an ancient Iranian language."
+    },
+    {
+      "id": "word-gathas",
+      "term": "Gathas",
+      "meaning": "The hymns of Zarathustra",
+      "pronunciation": "GAH-tahs",
+      "language": "Avestan",
+      "usage": "Seventeen songs in very old, difficult verse, the only words that come from the prophet himself."
+    },
+    {
+      "id": "word-sudreh",
+      "term": "Sudreh",
+      "meaning": "The sacred shirt",
+      "pronunciation": "SOOD-reh",
+      "language": "Persian",
+      "usage": "A plain white cotton undershirt with a tiny pocket at the throat to be filled with good deeds."
+    },
+    {
+      "id": "word-kusti",
+      "term": "Kusti",
+      "meaning": "The sacred cord",
+      "pronunciation": "KOOS-tee",
+      "language": "Persian",
+      "usage": "A cord of seventy-two lambswool threads wound three times round the waist and untied and retied with prayers several times a day."
+    },
+    {
+      "id": "word-navjote",
+      "term": "Navjote",
+      "meaning": "New birth",
+      "pronunciation": "nav-JOTE",
+      "language": "Gujarati",
+      "usage": "The ceremony at which a child first puts on the sudreh and kusti. Sedreh pushi in Iran."
+    },
+    {
+      "id": "word-mobed",
+      "term": "Mobed",
+      "meaning": "A priest",
+      "pronunciation": "MO-bed",
+      "language": "Persian",
+      "usage": "The priesthood is hereditary. A high priest is a dastur."
+    },
+    {
+      "id": "word-yasna",
+      "term": "Yasna",
+      "meaning": "Worship; the main liturgy",
+      "pronunciation": "YAS-na",
+      "language": "Avestan",
+      "usage": "The long daily rite performed by priests before the fire, and the text recited in it, which contains the Gathas."
+    },
+    {
+      "id": "word-frashokereti",
+      "term": "Frashokereti",
+      "meaning": "The making wonderful",
+      "pronunciation": "fra-sho-KEH-reh-tee",
+      "language": "Avestan",
+      "usage": "The final renewal of the world, when evil is overcome and creation is restored to perfection. People help to bring it about."
+    },
+    {
+      "id": "word-saoshyant",
+      "term": "Saoshyant",
+      "meaning": "The one who will bring benefit",
+      "pronunciation": "SOWSH-yant",
+      "language": "Avestan",
+      "usage": "The future saviour who will lead the last renewal. In the Gathas the word may mean anyone who works for good."
+    },
+    {
+      "id": "word-chinvat",
+      "term": "Chinvat",
+      "meaning": "The bridge of the separator",
+      "pronunciation": "chin-VAHT",
+      "language": "Avestan",
+      "usage": "The bridge each soul crosses after death. It is wide for the truthful and a razor’s edge for the false."
+    },
+    {
+      "id": "word-daena",
+      "term": "Daena",
+      "meaning": "Conscience; vision; religion",
+      "pronunciation": "DAY-na",
+      "language": "Avestan",
+      "usage": "One’s inner self. At the bridge it meets the soul as a beautiful or a hideous figure and says: I am your own deeds."
+    },
+    {
+      "id": "word-fravashi",
+      "term": "Fravashi",
+      "meaning": "The guardian spirit",
+      "pronunciation": "fra-VA-shee",
+      "language": "Avestan",
+      "usage": "The higher part of each person, which exists before birth and protects the living."
+    },
+    {
+      "id": "word-faravahar",
+      "term": "Faravahar",
+      "meaning": "The winged figure",
+      "pronunciation": "fa-ra-va-HAR",
+      "language": "Persian",
+      "usage": "A man rising from a winged disc, carved at Persepolis. Now the best known emblem of the faith."
+    },
+    {
+      "id": "word-nowruz",
+      "term": "Nowruz",
+      "meaning": "New day",
+      "pronunciation": "no-ROOZ",
+      "language": "Persian",
+      "usage": "The new year at the spring equinox, the greatest festival, celebrated across the Iranian world by people of every religion."
+    },
+    {
+      "id": "word-gahambar",
+      "term": "Gahambar",
+      "meaning": "A seasonal feast",
+      "pronunciation": "ga-hum-BAR",
+      "language": "Persian",
+      "usage": "One of six festivals of the farming year, kept with communal meals to which rich and poor contribute and sit together."
+    },
+    {
+      "id": "word-ushta",
+      "term": "Ushta",
+      "meaning": "Happiness, radiant well-being",
+      "pronunciation": "OOSH-ta",
+      "language": "Avestan",
+      "usage": "A greeting and a blessing. The joy that comes of living by asha."
+    },
+    {
+      "id": "word-hamazor",
+      "term": "Hamazor",
+      "meaning": "Be of one strength",
+      "pronunciation": "ha-ma-ZOR",
+      "language": "Persian",
+      "usage": "A ritual handclasp and greeting exchanged after prayers: may we be united in righteousness."
+    }
+  ],
+  "practices": [
+    {
+      "id": "three-knots",
+      "name": "Three knots",
+      "icon": "repeat",
+      "slot": "Morning",
+      "time": "06:45",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "After washing, stand facing a source of light: the sun, a window, a lamp. Take a belt, a cord or the hem of your shirt in both hands. Tie one knot, or touch it, and say: today, good thoughts. A second: good words. A third: good deeds. Then say in your own words that you choose the side of truth today and reject the lie. Stand still for a few breaths in the light.",
+      "why": "Zoroastrians untie and retie the kusti, the sacred cord, on rising and through the day, facing the light and renewing their commitment. This is a guest’s version of the same resolve, without the cord itself.",
+      "variations": [
+        "Say the three words again each time you wash your hands.",
+        "Learn the Ashem Vohu in English and say it once.",
+        "Do it outdoors at sunrise."
+      ]
+    },
+    {
+      "id": "keep-the-flame",
+      "name": "Keep a flame",
+      "icon": "fire",
+      "slot": "Morning",
+      "time": "07:00",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Light a candle or an oil lamp in a clean, safe place. Sit before it for ten minutes. Look at the flame steadily. Think of what it does: it gives light, it gives warmth, it rises, it cannot be made dirty. Ask what in you is like that and what dims it. Put it out by pinching or covering the wick. Do not blow on it.",
+      "why": "Fire is the sign of asha and of the divine presence. In the great temples a fire has been fed by hand five times a day for centuries. A priest covers his mouth so that his breath does not touch it.",
+      "variations": [
+        "Sit facing the rising or setting sun instead.",
+        "Keep one lamp burning through an evening and tend it.",
+        "Add a little sandalwood or incense, as worshippers do."
+      ]
+    },
+    {
+      "id": "one-true-word",
+      "name": "The true word",
+      "icon": "chats",
+      "slot": "Afternoon",
+      "time": "13:00",
+      "minutes": 5,
+      "meta": "Afternoon · 5 min",
+      "instructions": "Choose one moment today when a lie, a flattering half-truth or a convenient silence would be easier, and tell the truth instead, plainly and without unkindness. Keep every promise you make today, including the small ones about time. In the evening count the day’s untruths, including the ones told to yourself.",
+      "why": "The religion’s deepest opposition is between truth and the lie. The Persians, wrote Herodotus, taught their sons three things: to ride, to draw the bow and to speak the truth.",
+      "variations": [
+        "Correct one false impression you have allowed to stand.",
+        "Pay a bill or a debt on the day it is due.",
+        "Say I do not know when you do not."
+      ]
+    },
+    {
+      "id": "tend-creation",
+      "name": "Tend the creation",
+      "icon": "plant",
+      "slot": "Afternoon",
+      "time": "16:00",
+      "minutes": 15,
+      "meta": "Afternoon · 15 min",
+      "instructions": "Do one thing that leaves the physical world in better order: clear rubbish from a stream or a street, water a tree, plant something, clean a neglected corner, feed an animal, mend what is broken. Take care not to foul water, soil or fire while you do it. Think of it as taking a side.",
+      "why": "Each of the seven creations has a divine guardian: sky, water, earth, plants, animals, humankind and fire. Humans are the stewards. Zoroastrianism has been called the first ecological religion for this reason.",
+      "variations": [
+        "Never pour anything dirty into a river or the sea.",
+        "Plant something that will outlive the Onda.",
+        "Care for a dog, which the tradition holds in special honour."
+      ]
+    },
+    {
+      "id": "evening-account",
+      "name": "The evening account",
+      "icon": "scales",
+      "slot": "Evening",
+      "time": "21:00",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Sit quietly and go through the day in three columns: thoughts, words, deeds. In each, name one that was good and one that was not. For the bad ones, decide on a concrete repair for tomorrow and resolve on it. Then do something that gives joy before bed: music, a story, laughter with someone. Gloom is counted a fault.",
+      "why": "After death the soul’s thoughts, words and deeds are weighed, and its own conscience meets it at the bridge. Reviewing them each night is the obvious preparation. The tradition also insists on cheerfulness and forbids despair.",
+      "variations": [
+        "Write the three columns in a notebook.",
+        "End by giving something to a cause that helps strangers.",
+        "Share the review with a friend."
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": "give-to-a-cause-that-will-outlast-you",
+      "name": "Give to a cause that will outlast you",
+      "meta": "Parsi philanthropy built hospitals, schools and wells",
+      "time": "11:00",
+      "slot": "Afternoon"
+    },
+    {
+      "id": "set-a-table-of-seven-good-things",
+      "name": "Set a table of seven good things",
+      "meta": "The haft-sin idea: growth, health, sweetness, patience",
+      "time": "17:00",
+      "slot": "Afternoon"
+    },
+    {
+      "id": "task-read-yasna-30-the-hymn-of-the-two-spirits",
+      "name": "Read Yasna 30, the hymn of the two spirits",
+      "meta": "Read · eleven stanzas",
+      "time": "20:00",
+      "slot": "Evening",
+      "action": "read"
+    },
+    {
+      "id": "task-listen-to-the-ashem-vohu-chanted-in-avestan",
+      "name": "Listen to the Ashem Vohu chanted in Avestan",
+      "meta": "Listen · one minute, three thousand years old",
+      "time": "07:15",
+      "slot": "Morning",
+      "action": "listen"
+    },
+    {
+      "id": "task-look-at-the-winged-figure-above-the-doors-of-persepolis",
+      "name": "Look at the winged figure above the doors of Persepolis",
+      "meta": "Art · the faravahar",
+      "time": "16:30",
+      "slot": "Afternoon",
+      "action": "art"
+    },
+    {
+      "id": "task-play-backgammon",
+      "name": "Play backgammon",
+      "meta": "Games · the Persian game of fate and choice",
+      "time": "19:30",
+      "slot": "Evening",
+      "action": "games"
+    },
+    {
+      "id": "task-journal-one-good-thought-one-good-word-one-good-deed",
+      "name": "Journal: one good thought, one good word, one good deed",
+      "meta": "Journal · 10 min",
+      "time": "21:15",
+      "slot": "Evening",
+      "action": "journal"
+    },
+    {
+      "id": "task-the-two-choices-where-did-you-choose-today",
+      "name": "The two choices: where did you choose today?",
+      "meta": "Philosophy · 10 min",
+      "time": "08:30",
+      "slot": "Morning",
+      "action": "philosophy"
+    },
+    {
+      "id": "plant-something-or-water-a-tree",
+      "name": "Plant something or water a tree",
+      "meta": "Tending the good creation",
+      "time": "09:30",
+      "slot": "Morning"
+    }
+  ],
+  "rules": [
+    {
+      "id": "r1",
+      "text": "Good thoughts",
+      "why": "Catch a mean, envious or despairing thought today and replace it on purpose with a better one."
+    },
+    {
+      "id": "r2",
+      "text": "Good words",
+      "why": "Tell no lies, break no promises and speak ill of no one. Say one thing that encourages."
+    },
+    {
+      "id": "r3",
+      "text": "Good deeds",
+      "why": "Do at least one useful thing for someone else or for the world, and do it today."
+    },
+    {
+      "id": "r4",
+      "text": "Keep water, earth and fire clean",
+      "why": "No litter, nothing foul down the drain, no waste. Leave the elements as you would want to find them."
+    },
+    {
+      "id": "r5",
+      "text": "Be cheerful",
+      "why": "Sadness nursed is a kind of defeat. Take pleasure in food, company and work, and bring some to others."
+    },
+    {
+      "id": "r6",
+      "text": "Give generously",
+      "why": "Wealth is good when it is earned honestly and shared. Part of what you have goes to those who lack."
+    }
+  ],
+  "immerse": {
+    "read": [
+      {
+        "id": "read-the-hymns-of-zoroaster",
+        "title": "The Hymns of Zoroaster",
+        "creator": "trans. M. L. West",
+        "year": "2010",
+        "why": "The seventeen Gathas in clear English with a long introduction. The prophet’s own voice, so far as it can be recovered."
+      },
+      {
+        "id": "read-zoroastrians-their-religious-beliefs-and-practices",
+        "title": "Zoroastrians: Their Religious Beliefs and Practices",
+        "creator": "Mary Boyce",
+        "year": "1979",
+        "why": "The classic one-volume history by the scholar who lived among the villagers of Yazd."
+      },
+      {
+        "id": "read-zoroastrianism-an-introduction",
+        "title": "Zoroastrianism: An Introduction",
+        "creator": "Jenny Rose",
+        "year": "2011",
+        "why": "An up-to-date and even-handed guide, from the Gathas to the diaspora."
+      },
+      {
+        "id": "read-shahnameh-the-persian-book-of-kings",
+        "title": "Shahnameh: The Persian Book of Kings",
+        "creator": "Abolqasem Ferdowsi, trans. Dick Davis",
+        "year": "about 1010",
+        "why": "The national epic of Iran, written by a Muslim poet from Zoroastrian sources. Zarathustra, the sacred fires and the old kings are all in it."
+      },
+      {
+        "id": "read-such-a-long-journey",
+        "title": "Such a Long Journey",
+        "creator": "Rohinton Mistry",
+        "year": "1991",
+        "why": "A Parsi bank clerk in Bombay in 1971. The prayers, the tower of silence and the daily worries of a small community, in a fine novel."
+      },
+      {
+        "id": "read-the-crow-eaters",
+        "title": "The Crow Eaters",
+        "creator": "Bapsi Sidhwa",
+        "year": "1978",
+        "why": "A comic novel of a Parsi family making its fortune in Lahore a century ago."
+      }
+    ],
+    "watch": [
+      {
+        "id": "watch-little-zizou",
+        "title": "Little Zizou",
+        "creator": "Sooni Taraporevala",
+        "year": "2008",
+        "why": "A sweet comedy about two feuding Parsi families in Mumbai, one headed by a fanatic and the other by a liberal newspaperman."
+      },
+      {
+        "id": "watch-on-wings-of-fire",
+        "title": "On Wings of Fire",
+        "creator": "Cyrus Bharucha",
+        "year": "1986",
+        "why": "A documentary history of the religion presented by the conductor Zubin Mehta, himself a Parsi."
+      },
+      {
+        "id": "watch-qissa-e-parsi-the-parsi-story",
+        "title": "Qissa-e Parsi: The Parsi Story",
+        "creator": "Divya Cowasji and Shilpi Gulati",
+        "year": "2014",
+        "why": "A short documentary on the community’s history, humour and anxieties about its shrinking numbers."
+      },
+      {
+        "id": "watch-pestonjee",
+        "title": "Pestonjee",
+        "creator": "Vijaya Mehta",
+        "year": "1988",
+        "why": "A quiet drama of friendship, envy and marriage among Bombay Parsis in the 1950s."
+      }
+    ],
+    "listen": [
+      {
+        "id": "listen-avestan-prayers-ashem-vohu-and-yatha-ahu-vairyo",
+        "title": "Avestan prayers: Ashem Vohu and Yatha Ahu Vairyo",
+        "creator": "Recited by Zoroastrian priests; many recordings",
+        "year": "ancient",
+        "why": "The two short prayers every Zoroastrian knows. The second is said to be the oldest of all."
+      },
+      {
+        "id": "listen-also-sprach-zarathustra",
+        "title": "Also sprach Zarathustra",
+        "creator": "Richard Strauss",
+        "year": "1896",
+        "why": "A tone poem after Nietzsche, whose Zarathustra is his own invention. The opening sunrise is the most famous use of the prophet’s name in the West."
+      },
+      {
+        "id": "listen-die-zauberflote",
+        "title": "Die Zauberflöte",
+        "creator": "Wolfgang Amadeus Mozart",
+        "year": "1791",
+        "why": "The wise priest of the sun in The Magic Flute is called Sarastro, an Italian form of Zoroaster."
+      },
+      {
+        "id": "listen-bohemian-rhapsody",
+        "title": "Bohemian Rhapsody",
+        "creator": "Queen",
+        "year": "1975",
+        "why": "Freddie Mercury was born Farrokh Bulsara to a Parsi family in Zanzibar and had a Zoroastrian funeral."
+      }
+    ],
+    "art": [
+      {
+        "id": "art-the-winged-figure-at-persepolis",
+        "title": "The winged figure at Persepolis",
+        "creator": "Achaemenid stone carvers, Fars, Iran",
+        "year": "about 500 BCE",
+        "why": "A bearded man in a winged ring hovers over the king in the doorways of the palace. Scholars debate whether he is Ahura Mazda, the royal glory or a guardian spirit."
+      },
+      {
+        "id": "art-the-investiture-of-ardashir-i",
+        "title": "The investiture of Ardashir I",
+        "creator": "Naqsh-e Rustam, Fars, Iran",
+        "year": "3rd century CE",
+        "why": "A rock relief in which the god Ohrmazd, on horseback, hands the ring of kingship to the first Sasanian king. Each horse tramples an enemy, and the god’s is Ahriman."
+      },
+      {
+        "id": "art-the-cube-of-zoroaster",
+        "title": "The Cube of Zoroaster",
+        "creator": "Naqsh-e Rustam, Fars, Iran",
+        "year": "5th century BCE",
+        "why": "A square stone tower facing the royal tombs. Its purpose is unknown, and the name is medieval."
+      },
+      {
+        "id": "art-sasanian-silver-plates",
+        "title": "Sasanian silver plates",
+        "creator": "Royal workshops of Iran",
+        "year": "3rd to 7th century",
+        "why": "Gilded dishes showing kings hunting lions and boar: an image of the good ruler overcoming disorder. Fine examples are in St Petersburg, London and New York."
+      }
+    ],
+    "eat": [
+      {
+        "id": "eat-dhansak",
+        "title": "Dhansak",
+        "creator": "Lentils, vegetables and meat cooked together, with caramelised brown rice",
+        "why": "The best known Parsi dish, mixing Persian and Gujarati cooking. It is eaten on Sundays and never at celebrations."
+      },
+      {
+        "id": "eat-ash-e-reshteh",
+        "title": "Ash-e reshteh",
+        "creator": "Thick soup of herbs, beans and noodles",
+        "why": "Eaten in Iran at the new year. The noodles stand for the paths of the year ahead."
+      },
+      {
+        "id": "eat-ravo",
+        "title": "Ravo",
+        "creator": "Sweet semolina pudding with rosewater, nuts and raisins",
+        "why": "Made on birthdays and auspicious mornings in Parsi homes."
+      },
+      {
+        "id": "eat-sabzi-polo-ba-mahi",
+        "title": "Sabzi polo ba mahi",
+        "creator": "Herbed rice with fish",
+        "why": "The meal for the first day of Nowruz across Iran."
+      }
+    ],
+    "drink": [
+      {
+        "id": "drink-parsi-choi",
+        "title": "Parsi choi",
+        "creator": "Black tea brewed with mint and lemongrass",
+        "why": "The morning tea of Parsi households."
+      },
+      {
+        "id": "drink-falooda",
+        "title": "Falooda",
+        "creator": "Cold milk with rose syrup, basil seeds and vermicelli",
+        "why": "Drunk at the new year. The Persian original is a frozen noodle sherbet from Shiraz."
+      },
+      {
+        "id": "drink-pomegranate-juice",
+        "title": "Pomegranate juice",
+        "creator": "Fresh pressed",
+        "why": "The pomegranate is a tree of plenty and immortality in Iranian tradition, and its twigs are used in ritual."
+      }
+    ],
+    "customs": [
+      {
+        "id": "customs-praying-toward-light",
+        "title": "Praying toward light",
+        "creator": "Sun, fire or lamp",
+        "why": "A Zoroastrian turns to a source of light to pray. In a fire temple worshippers bring sandalwood and take a pinch of ash for the forehead."
+      },
+      {
+        "id": "customs-the-haft-sin-table",
+        "title": "The haft-sin table",
+        "creator": "Seven things beginning with the letter s",
+        "why": "For Nowruz families lay out sprouted wheat, garlic, apple, vinegar, sumac, dried oleaster and wheat pudding, with a mirror, candles and a book of wisdom."
+      },
+      {
+        "id": "customs-chalk-at-the-threshold",
+        "title": "Chalk at the threshold",
+        "creator": "Chowk",
+        "why": "Parsi doorsteps are stamped each morning with patterns in white chalk powder, and doorways are hung with garlands."
+      },
+      {
+        "id": "customs-sugar-in-the-milk",
+        "title": "Sugar in the milk",
+        "creator": "A founding story",
+        "why": "When Persian refugees landed in Gujarat, the local king sent a full bowl of milk to say there was no room. Their priest stirred in sugar and sent it back: we will sweeten without spilling."
+      }
+    ],
+    "games": [
+      {
+        "id": "games-backgammon-nard",
+        "title": "Backgammon (nard)",
+        "creator": "Board game · Persia",
+        "year": "at least 1,500 years old",
+        "why": "A Middle Persian text says the sage Bozorgmehr invented it as an image of fate: the board is the earth, the dice are the turning heavens, and the player still has to choose."
+      },
+      {
+        "id": "games-chess-chatrang",
+        "title": "Chess (chatrang)",
+        "creator": "Board game · India and Sasanian Persia",
+        "year": "6th century",
+        "why": "The same text tells how chess came from India to the court of Khosrow I. The words check and mate come from the Persian for the king is helpless."
+      },
+      {
+        "id": "games-prince-of-persia",
+        "title": "Prince of Persia",
+        "creator": "Video game · Ubisoft Montreal",
+        "year": "2008",
+        "why": "A wanderer and a princess heal a land corrupted by the dark god Ahriman, who has broken out of the tree where the god of light, Ormazd, imprisoned him. A loose but direct use of the myth."
+      }
+    ],
+    "festivals": [
+      {
+        "id": "fest-nowruz",
+        "title": "Nowruz",
+        "creator": "20 or 21 March",
+        "why": "The new year at the spring equinox. Houses are cleaned, the haft-sin table is laid and thirteen days of visiting follow. Many Parsis also keep a new year in August, by an older calendar."
+      },
+      {
+        "id": "fest-sadeh",
+        "title": "Sadeh",
+        "creator": "30 January",
+        "why": "A midwinter festival of fire, fifty days before the new year. A great bonfire is lit at dusk."
+      },
+      {
+        "id": "fest-mehregan",
+        "title": "Mehregan",
+        "creator": "Early October",
+        "why": "The autumn festival of Mithra, guardian of contracts and friendship."
+      },
+      {
+        "id": "fest-the-six-gahambars",
+        "title": "The six Gahambars",
+        "creator": "Spread through the year",
+        "why": "Seasonal feasts of five days each, marked by communal meals to which everyone contributes and at which everyone sits together."
+      }
+    ],
+    "places": [
+      {
+        "id": "place-yazd",
+        "title": "Yazd",
+        "creator": "Central Iran",
+        "why": "The desert city where the faith held on. The fire in its temple is said to have burned since about 470 CE and can be seen through glass. The towers of silence stand on hills outside. Check current travel advice for Iran."
+      },
+      {
+        "id": "place-chak-chak-pir-e-sabz",
+        "title": "Chak Chak (Pir-e Sabz)",
+        "creator": "Yazd Province, Iran",
+        "why": "A shrine in a cliff where water drips from the rock. Thousands of Zoroastrians make a pilgrimage here each June."
+      },
+      {
+        "id": "place-persepolis-and-naqsh-e-rustam",
+        "title": "Persepolis and Naqsh-e Rustam",
+        "creator": "Fars Province, Iran",
+        "why": "The ceremonial capital of Darius and the rock tombs of the Achaemenid kings, with Sasanian reliefs below them."
+      },
+      {
+        "id": "place-udvada",
+        "title": "Udvada",
+        "creator": "Gujarat, India",
+        "why": "A quiet seaside town that houses the Iranshah, the holiest Parsi fire, burning since the refugees first consecrated it. In India only Zoroastrians may enter fire temples. The town and its museum are open to all."
+      },
+      {
+        "id": "place-takht-e-soleyman",
+        "title": "Takht-e Soleyman",
+        "creator": "West Azerbaijan Province, Iran",
+        "why": "The ruins of a great Sasanian fire temple round a crater lake, where kings came on foot after their coronation."
+      }
+    ]
+  },
+  "ethics": [
+    {
+      "title": "Truth above all",
+      "text": "To lie is to join the wrong side of the cosmic struggle. Keeping one’s word, especially in contracts and debts, is a religious duty.",
+      "practice": "Make one promise today and keep it to the minute."
+    },
+    {
+      "title": "Active goodness",
+      "text": "Avoiding evil is only the beginning. A person must do good, build, plant, heal and earn. The religion distrusts fasting, celibacy and withdrawal.",
+      "practice": "Add one good thing to the world today that was not there this morning."
+    },
+    {
+      "title": "Charity",
+      "text": "Wealth honestly made is praised, and so is giving it away. Parsi families endowed hospitals, schools and housing open to all communities.",
+      "practice": "Give to something that helps people you will never meet."
+    },
+    {
+      "title": "Care for creation",
+      "text": "Water, earth, fire, plants and animals are sacred trusts. Polluting them is a sin and tending them is worship.",
+      "practice": "Clean up one place you did not dirty."
+    },
+    {
+      "title": "Responsibility",
+      "text": "Every person chooses freely between truth and the lie, and answers for the choice. No one can be saved by another’s merit.",
+      "practice": "Own one mistake today without explaining it away."
+    },
+    {
+      "title": "Joy",
+      "text": "Happiness is a virtue and a weapon against evil. Festivals, feasting, marriage and laughter are commanded.",
+      "practice": "Organise a small pleasure for other people this week."
+    }
+  ],
+  "philosophy": [
+    {
+      "title": "The two spirits",
+      "text": "In the beginning, says Zarathustra, there were twin spirits, the better and the bad in thought, word and deed, and between them the wise chose rightly. Good and evil are choices before they are forces.",
+      "practice": "Notice one fork in the road today, however small, and take the better branch on purpose."
+    },
+    {
+      "title": "Free will",
+      "text": "Human beings are made free. The Wise Lord does not compel, and the world’s outcome depends in part on what people decide. This may be the oldest clear statement of moral freedom.",
+      "practice": "Catch yourself saying I had no choice. Check whether it is true."
+    },
+    {
+      "title": "A good world, under attack",
+      "text": "The material world is the good creation of a good God. Death, decay and cruelty are an invasion and do not belong to the design. So the body, food, work and family are to be enjoyed and defended.",
+      "practice": "Take full pleasure in one good physical thing today and give thanks for it."
+    },
+    {
+      "title": "Partners in the repair",
+      "text": "People are fellow workers with God in driving evil out of the world. Every true word and useful act shortens the struggle. The end, the making wonderful, is certain, and each person has a hand in it.",
+      "practice": "Pick one small wrong within your reach and put it right."
+    },
+    {
+      "title": "Asha",
+      "text": "The same word names the order of nature and the rightness of an act. To be truthful is to move with the grain of the universe.",
+      "practice": "Find one thing in your life that is out of true: a misaligned habit or a crooked arrangement. Straighten it."
+    },
+    {
+      "title": "Thought first",
+      "text": "Good thoughts come first in the formula because words and deeds grow from them. Guarding the mind is the first discipline.",
+      "practice": "Follow one resentful thought back to its start. Decide what you will think instead."
+    },
+    {
+      "title": "Conscience as a mirror",
+      "text": "At the bridge the soul meets its own conscience in the shape of a woman, lovely or foul, who says: I was beautiful and you made me more beautiful, or the reverse. Judgment is self-recognition.",
+      "practice": "Ask what your conduct this week would look like if it had a face."
+    },
+    {
+      "title": "Wisdom",
+      "text": "The supreme being is named Wisdom. Zarathustra asks questions, tells his hearers to reflect with a clear mind and to choose for themselves. Blind faith is not asked for.",
+      "practice": "Take one thing you believe on someone’s say-so and look into it yourself."
+    }
+  ],
+  "journal": [
+    "One good thought, one good word, one good deed: what were they?",
+    "Where did you choose today?",
+    "What lie did you tell, including to yourself?",
+    "What promise did you keep, and which is outstanding?",
+    "What did you leave better than you found it?",
+    "What dimmed your flame today?",
+    "What did you do to keep water, earth or fire clean?",
+    "Where did you say I had no choice?",
+    "What did you give?",
+    "What gave you joy, and whom did you share it with?",
+    "Which thought did you replace?",
+    "What would your conscience look like if you met it?",
+    "What is out of true in your life?",
+    "Whose happiness did you add to?",
+    "What are you building that will outlast you?",
+    "Where did you side with the lie by keeping quiet?",
+    "What good thing in the physical world did you fully enjoy?",
+    "What wrong within your reach have you left alone?",
+    "How was your money earned this week?",
+    "What do you believe only on someone’s word?",
+    "What did you tend?",
+    "What are you gloomy about, and is the gloom doing any good?",
+    "Which word of yours encouraged someone?",
+    "What did sitting with the flame show you?",
+    "Where does your power lie, and how did you use it?",
+    "What would you do if the outcome depended partly on you?",
+    "Who taught you to tell the truth?",
+    "What did you repair?",
+    "What will you weigh on the scales tonight?",
+    "What will you choose tomorrow?"
+  ],
+  "reflect": [
+    "What changed when you renewed the three commitments each morning?",
+    "Where did telling the truth cost you, and what did it buy?",
+    "What have you left in better order?",
+    "What have you learned about your own thoughts?",
+    "Where did joy turn out to be a discipline?",
+    "What will you keep choosing?"
+  ],
+  "dayThemes": [
+    "Three knots",
+    "The two choices",
+    "Good thoughts",
+    "Good words",
+    "Good deeds",
+    "The flame",
+    "Truth and the lie",
+    "The Wise Lord",
+    "A good world",
+    "Water",
+    "Earth",
+    "Plants",
+    "Animals",
+    "The clear mind",
+    "A promise kept",
+    "Sugar in the milk",
+    "Right power",
+    "Giving",
+    "Joy",
+    "The seven guardians",
+    "Fellow workers",
+    "Honest wealth",
+    "Light",
+    "The seasonal feast",
+    "Conscience",
+    "The bridge",
+    "The scales",
+    "New day",
+    "The making wonderful",
+    "Ushta"
+  ],
+  "guide": {
+    "intro": [
+      "Zoroastrianism is the religion taught by the prophet Zarathustra, whom the Greeks called Zoroaster. It may be the oldest of the world’s revealed religions, and it was for a thousand years the faith of the largest empires on earth. Today it has perhaps 120,000 followers, most of them in India, where they are known as Parsis, and in Iran. Few religions so small have given so much to others.",
+      "No one knows exactly when or where Zarathustra lived. The language of his hymns points to the eastern Iranian world, somewhere between the Aral Sea and Afghanistan, and to a date that scholars put anywhere from about 1500 to 600 BCE. He was a priest among cattle-herding people. In a vision by a river he came to see that there is one God, Ahura Mazda, the Wise Lord, wholly good, and that the world is the scene of a struggle between truth and the lie in which every person must choose a side.",
+      "That choice is made in thought, word and deed. The world is good, made by a good God, and has been invaded by a hostile spirit that brings death and falsehood. Human beings are free and are needed. By thinking clearly, speaking truly and acting well they help to drive evil back, and at the end of time the world will be made wonderful, the dead raised and evil destroyed. Ideas of heaven and hell, a final judgment, a saviour to come and the resurrection appear here very early, and many scholars think they passed from Persia into Judaism, Christianity and Islam.",
+      "Worship centres on fire, the cleanest of the elements and the sign of truth. In the great temples a consecrated flame is fed five times a day and never allowed to go out. Believers wear a white shirt and a woven cord that they untie and retie with prayers, facing the light. The religion asks for an active, cheerful, useful life: marry, plant trees, earn honestly, give generously, keep the earth and water clean. It has no monks and does not prize fasting.",
+      "Under the Achaemenid kings Cyrus and Darius, the Parthians and then the Sasanians it was the religion of Iran. After the Arab conquest in the seventh century most Iranians gradually became Muslim. Some believers held on in the desert towns of Yazd and Kerman. Others sailed to Gujarat in western India, where their descendants, the Parsis, became shipbuilders, industrialists and philanthropists out of all proportion to their numbers.",
+      "This Onda borrows the shape of a Zoroastrian day: a morning renewal of the three commitments, time before a flame, one deliberately true word, an act of care for the physical world and an evening account. You are a guest. The sacred shirt and cord, the prayers in Avestan and the fire temple belong to those born or initiated into the faith."
+    ],
+    "origin": "The Iranian plateau and Central Asia; today Iran, India and a worldwide diaspora",
+    "era": "Zarathustra lived perhaps around 1200 BCE, perhaps as late as the 6th century BCE. His religion was the faith of three Persian empires",
+    "figures": [
+      {
+        "name": "Zarathustra",
+        "dates": "dates uncertain; perhaps about 1200 BCE",
+        "bio": "Priest, poet and prophet. Tradition says he received his vision at thirty, preached for ten years with one convert, and was at last accepted by King Vishtaspa."
+      },
+      {
+        "name": "Vishtaspa",
+        "dates": "Zarathustra's time",
+        "bio": "The ruler who became the prophet’s patron and protected the new teaching. His court is where the religion first took root."
+      },
+      {
+        "name": "Cyrus the Great",
+        "dates": "ruled 559 to 530 BCE",
+        "bio": "Founder of the Persian empire, who let the peoples he conquered keep their gods and sent the Jewish exiles home. How far he was a Zoroastrian is debated."
+      },
+      {
+        "name": "Darius I",
+        "dates": "ruled 522 to 486 BCE",
+        "bio": "He declares in his inscriptions that he is king by the favour of Ahuramazda and that his enemies followed the Lie."
+      },
+      {
+        "name": "Kartir",
+        "dates": "3rd century CE",
+        "bio": "A powerful Sasanian high priest who organised the state church, founded fires across the empire and persecuted other religions. His own inscriptions record it."
+      },
+      {
+        "name": "Adurbad Mahraspandan",
+        "dates": "4th century CE",
+        "bio": "A high priest under Shapur II, remembered for his wise sayings and for proving the faith by an ordeal of molten metal."
+      },
+      {
+        "name": "Jamsetji Tata",
+        "dates": "1839 to 1904",
+        "bio": "A Parsi industrialist of Bombay who founded what became India’s largest business group and gave much of his fortune to science and education."
+      },
+      {
+        "name": "Dadabhai Naoroji",
+        "dates": "1825 to 1917",
+        "bio": "A Parsi scholar and politician, the first Indian elected to the British Parliament, who showed with figures how colonial rule drained India’s wealth."
+      },
+      {
+        "name": "Mary Boyce",
+        "dates": "1920 to 2006",
+        "bio": "A British scholar who spent a year in a village near Yazd in the 1960s and transformed the modern study of the religion."
+      }
+    ],
+    "history": [
+      {
+        "when": "perhaps 1500 to 1000 BCE",
+        "what": "Zarathustra",
+        "detail": "He composes the Gathas in an eastern Iranian language. They are memorised by priests and passed on orally for well over a thousand years."
+      },
+      {
+        "when": "550 to 330 BCE",
+        "what": "The Achaemenid empire",
+        "detail": "From Cyrus to Darius III the Persian kings rule from Egypt to India. Their inscriptions invoke Ahuramazda, and Greek writers describe the magi and their fires."
+      },
+      {
+        "when": "539 BCE",
+        "what": "Cyrus takes Babylon",
+        "detail": "He allows deported peoples to go home. The Hebrew Bible calls him the Lord’s anointed. Jewish and Persian ideas are in contact for the next two centuries."
+      },
+      {
+        "when": "330 BCE",
+        "what": "Alexander",
+        "detail": "He burns Persepolis. Zoroastrian tradition remembers him as the accursed, who killed priests and scattered the scriptures."
+      },
+      {
+        "when": "247 BCE to 224 CE",
+        "what": "The Parthians",
+        "detail": "A looser Iranian empire under which the religion continues and, by tradition, the first effort is made to collect the scattered texts."
+      },
+      {
+        "when": "224 to 651 CE",
+        "what": "The Sasanian empire",
+        "detail": "Zoroastrianism becomes a state church with a hierarchy of priests. The Avesta is written down in a specially invented alphabet."
+      },
+      {
+        "when": "633 to 651",
+        "what": "The Arab conquest",
+        "detail": "The last Sasanian king is killed in 651. Zoroastrians become a tolerated and taxed minority, and conversion to Islam proceeds over several centuries."
+      },
+      {
+        "when": "8th to 10th century",
+        "what": "The voyage to India",
+        "detail": "A group of believers from Khorasan sails to Gujarat. The Story of Sanjan, written in 1599, tells how a local king gave them leave to settle and they consecrated a fire."
+      },
+      {
+        "when": "9th to 10th century",
+        "what": "The Pahlavi books",
+        "detail": "Priests in Iran write down the great compilations of doctrine and myth, such as the Bundahishn and the Denkard, to save what could be saved."
+      },
+      {
+        "when": "17th to 19th century",
+        "what": "The Parsis of Bombay",
+        "detail": "Parsis move to the new British port and prosper as shipbuilders, traders and mill owners. They found schools, hospitals and the first Indian cricket club."
+      },
+      {
+        "when": "1882",
+        "what": "Relief in Iran",
+        "detail": "After long campaigning by Parsi envoys, the poll tax on Iran’s Zoroastrians is abolished. Their legal position slowly improves."
+      },
+      {
+        "when": "20th and 21st centuries",
+        "what": "Diaspora and decline",
+        "detail": "Communities form in Britain, North America and Australia. Numbers fall through low birth rates and marriage outside the faith, and the question of accepting converts is fiercely argued."
+      }
+    ],
+    "concepts": [
+      {
+        "term": "Ahura Mazda",
+        "text": "The Wise Lord.",
+        "detail": "The one eternal God, entirely good. He is not the source of evil and is not yet all-powerful over it, which is how the religion answers the problem of suffering."
+      },
+      {
+        "term": "Asha and druj",
+        "text": "Truth and the lie.",
+        "detail": "Asha is cosmic and moral order. Druj is its denial. The righteous person is ashavan, a possessor of truth."
+      },
+      {
+        "term": "The two spirits",
+        "text": "The origin of good and evil.",
+        "detail": "The bounteous spirit and the hostile spirit chose life and not-life at the beginning. Later theology set Ohrmazd directly against Ahriman, giving the religion its dualist reputation."
+      },
+      {
+        "term": "The seven creations",
+        "text": "Sky, water, earth, plants, animals, humankind, fire.",
+        "detail": "Each was made perfect and each is protected by one of the bounteous immortals. The seven are honoured at the seasonal feasts."
+      },
+      {
+        "term": "Free choice",
+        "text": "The dignity of the human being.",
+        "detail": "Each person chooses, and the choice matters to the fate of the world. Men and women are equally responsible."
+      },
+      {
+        "term": "Fire",
+        "text": "The sign of truth.",
+        "detail": "Fires are graded in three ranks and tended by priests. Worshippers stand before the fire to pray to God. They do not pray to the fire."
+      },
+      {
+        "term": "Purity",
+        "text": "Keeping the good creation clean.",
+        "detail": "Decay belongs to the hostile spirit, so earth, water and fire must not be polluted. Hence the old custom of exposing the dead on raised towers and not burying or burning them."
+      },
+      {
+        "term": "Judgment",
+        "text": "The bridge and the scales.",
+        "detail": "On the fourth dawn after death the soul is judged and crosses to the house of song or falls. Punishment is not eternal."
+      },
+      {
+        "term": "The renewal",
+        "text": "Frashokereti.",
+        "detail": "At the end a saviour born of the prophet’s line will raise the dead, all will pass through a river of molten metal that feels like warm milk to the righteous, and the world will be restored."
+      }
+    ],
+    "facts": [
+      {
+        "text": "The word magic comes from the magi, the Zoroastrian priests. The wise men who follow a star in the Gospel of Matthew are called magi."
+      },
+      {
+        "text": "The word paradise comes from an old Iranian word for a walled garden."
+      },
+      {
+        "text": "The Mazda car company chose its name partly for Ahura Mazda, as a symbol of wisdom and light."
+      },
+      {
+        "text": "The Iranshah fire at Udvada has, by tradition, burned without a break for more than a thousand years."
+      },
+      {
+        "text": "Traditional funerals expose the body to the sun and to vultures on a tower of silence. In Mumbai the collapse of the vulture population since the 1990s has forced the community to add solar concentrators."
+      },
+      {
+        "text": "Only about a quarter of the original Avesta is thought to survive. The rest was lost in the centuries after Alexander and the Arab conquest."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Avestan",
+        "meaning": "The ancient Iranian language of the scriptures, close to the Sanskrit of the Vedas"
+      },
+      {
+        "term": "Pahlavi",
+        "meaning": "Middle Persian, the language of the Sasanian empire and the later religious books"
+      },
+      {
+        "term": "Magi",
+        "meaning": "The hereditary priests of ancient Iran"
+      },
+      {
+        "term": "Parsi",
+        "meaning": "A Zoroastrian of India; the word means Persian"
+      },
+      {
+        "term": "Dakhma",
+        "meaning": "A tower of silence, where the dead are laid out"
+      },
+      {
+        "term": "Yazata",
+        "meaning": "A being worthy of worship, such as Mithra or Anahita"
+      }
+    ],
+    "furtherReading": [
+      {
+        "title": "In Search of Zarathustra",
+        "creator": "Paul Kriwaczek",
+        "year": "2002",
+        "note": "A traveller’s readable pursuit of the prophet’s influence from Central Asia to Europe."
+      },
+      {
+        "title": "Zoroastrianism: A Guide for the Perplexed",
+        "creator": "Jenny Rose",
+        "year": "2011",
+        "note": "Short answers to the questions newcomers actually ask."
+      },
+      {
+        "title": "Textual Sources for the Study of Zoroastrianism",
+        "creator": "ed. and trans. Mary Boyce",
+        "year": "1984",
+        "note": "The key passages from every period, with notes."
+      },
+      {
+        "title": "The Parsis of India: Preservation of Identity in Bombay City",
+        "creator": "Jesse S. Palsetia",
+        "year": "2001",
+        "note": "How a tiny community shaped a great city and kept itself distinct."
+      }
+    ],
+    "learnFrom": [
+      {
+        "name": "FEZANA: Federation of Zoroastrian Associations of North America",
+        "note": "Community news, a journal and plain introductions to belief and practice.",
+        "link": "https://fezana.org"
+      },
+      {
+        "name": "Avesta.org",
+        "note": "The scriptures and later religious texts in translation, maintained by a Zoroastrian volunteer for decades.",
+        "link": "https://www.avesta.org"
+      },
+      {
+        "name": "Encyclopaedia Iranica",
+        "note": "The standard scholarly reference on Iranian civilisation, free online.",
+        "link": "https://www.iranicaonline.org"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Zoroastrians: Their Religious Beliefs and Practices",
+        "creator": "Mary Boyce",
+        "publisher": "Routledge",
+        "year": "1979; revised 2001"
+      },
+      {
+        "title": "Zoroastrianism: An Introduction",
+        "creator": "Jenny Rose",
+        "publisher": "I. B. Tauris",
+        "year": "2011"
+      },
+      {
+        "title": "The Hymns of Zoroaster: A New Translation of the Most Ancient Sacred Texts of Iran",
+        "creator": "M. L. West",
+        "publisher": "I. B. Tauris",
+        "year": "2010"
+      },
+      {
+        "title": "The Gathas of Zarathustra",
+        "creator": "Stanley Insler",
+        "publisher": "Acta Iranica, Brill",
+        "year": "1975"
+      },
+      {
+        "title": "Old Persian: Grammar, Texts, Lexicon",
+        "creator": "Roland G. Kent",
+        "publisher": "American Oriental Society",
+        "year": "2nd edition 1953"
+      },
+      {
+        "title": "The Wiley Blackwell Companion to Zoroastrianism",
+        "creator": "ed. Michael Stausberg and Yuhan Vevaina",
+        "publisher": "Wiley-Blackwell",
+        "year": "2015"
+      }
+    ]
+  },
+  "sensitivity": {
+    "note": "Zoroastrianism is a small, living religion that has survived centuries of pressure. This Onda borrows its ethic and the outline of its day. It does not reproduce the sacred cord, the Avestan prayers or temple worship, which belong to the community.",
+    "requiredCaveats": [
+      "Most Parsi authorities do not accept converts, and non-Zoroastrians may not enter fire temples in India. Respect both.",
+      "Zoroastrians pray before fire as a symbol. Calling them fire worshippers is an old insult.",
+      "The dates and homeland of Zarathustra are uncertain, and scholars disagree about how much later religions took from his.",
+      "Iranian and Parsi practice differ, and so do reformist and traditional views within each."
+    ],
+    "reviewRequired": true
+  }
+}

@@ -1,0 +1,1219 @@
+{
+  "version": 1,
+  "id": "christian",
+  "name": "Christianity",
+  "origin": "The Mediterranean world",
+  "era": "From the 1st century CE to today",
+  "tone": "purple",
+  "icon": "cross",
+  "font": "eb-garamond",
+  "pattern": "quatrefoil",
+  "glyph": "ΙΧΘΥΣ",
+  "line": "Love God and your neighbour, forgive as you are forgiven and serve the least.",
+  "quote": {
+    "text": "Thou shalt love the Lord thy God with all thy heart, and with all thy soul, and with all thy mind. Thou shalt love thy neighbour as thyself.",
+    "by": "Jesus of Nazareth",
+    "source": "Matthew 22:37 and 39, King James Version"
+  },
+  "quotes": [
+    {
+      "text": "Inasmuch as ye have done it unto one of the least of these my brethren, ye have done it unto me.",
+      "by": "Jesus of Nazareth",
+      "source": "Matthew 25:40, King James Version"
+    },
+    {
+      "text": "And now abideth faith, hope, charity, these three; but the greatest of these is charity.",
+      "by": "Paul of Tarsus",
+      "source": "1 Corinthians 13:13, King James Version"
+    },
+    {
+      "text": "Thou hast made us for thyself, and our heart is restless until it rests in thee.",
+      "by": "Augustine of Hippo",
+      "source": "Confessions 1.1, about 400 CE"
+    },
+    {
+      "text": "All shall be well, and all shall be well, and all manner of thing shall be well.",
+      "by": "Julian of Norwich",
+      "source": "Revelations of Divine Love, chapter 27, about 1395"
+    },
+    {
+      "text": "Love your enemies, bless them that curse you, do good to them that hate you.",
+      "by": "Jesus of Nazareth",
+      "source": "Matthew 5:44, King James Version"
+    }
+  ],
+  "words": [
+    {
+      "id": "word-agape",
+      "term": "Agape",
+      "meaning": "Self-giving love",
+      "pronunciation": "ah-GAH-pay",
+      "language": "Greek",
+      "usage": "The New Testament’s word for the love God has for people and asks of them: willed, generous and owed even to enemies. Caritas in Latin."
+    },
+    {
+      "id": "word-gospel",
+      "term": "Gospel",
+      "meaning": "Good news",
+      "pronunciation": "GOS-pul",
+      "language": "English",
+      "usage": "From Old English godspel, translating the Greek evangelion. The message of Jesus, and each of the four books that tell his life."
+    },
+    {
+      "id": "word-grace",
+      "term": "Grace",
+      "meaning": "Unearned favour",
+      "pronunciation": "GRAYSS",
+      "language": "English",
+      "usage": "Charis in Greek. The love and help God gives freely, before and apart from anything a person deserves."
+    },
+    {
+      "id": "word-christ",
+      "term": "Christ",
+      "meaning": "The anointed one",
+      "pronunciation": "KRYST",
+      "language": "Greek",
+      "usage": "Christos translates the Hebrew messiah. A title, not a surname."
+    },
+    {
+      "id": "word-logos",
+      "term": "Logos",
+      "meaning": "Word; reason",
+      "pronunciation": "LOH-goss",
+      "language": "Greek",
+      "usage": "In the beginning was the Word, begins John’s Gospel. The divine wisdom through which all things were made, become flesh in Jesus."
+    },
+    {
+      "id": "word-abba",
+      "term": "Abba",
+      "meaning": "Father",
+      "pronunciation": "AH-bah",
+      "language": "Aramaic",
+      "usage": "The intimate word Jesus used in prayer, in his own language."
+    },
+    {
+      "id": "word-amen",
+      "term": "Amen",
+      "meaning": "Truly; so be it",
+      "pronunciation": "ah-MEN",
+      "language": "Hebrew",
+      "usage": "The assent that ends a prayer. Jesus also used it to begin solemn sayings."
+    },
+    {
+      "id": "word-alleluia",
+      "term": "Alleluia",
+      "meaning": "Praise the Lord",
+      "pronunciation": "al-leh-LOO-ya",
+      "language": "Hebrew",
+      "usage": "The shout of Easter. It is not sung during the forty days of Lent."
+    },
+    {
+      "id": "word-kyrie-eleison",
+      "term": "Kyrie eleison",
+      "meaning": "Lord, have mercy",
+      "pronunciation": "KEE-ree-ay eh-LAY-ee-son",
+      "language": "Greek",
+      "usage": "The oldest prayer of the liturgy still said in its original language in East and West."
+    },
+    {
+      "id": "word-metanoia",
+      "term": "Metanoia",
+      "meaning": "A change of mind; repentance",
+      "pronunciation": "meh-tah-NOY-ah",
+      "language": "Greek",
+      "usage": "Turning round. The first word of Jesus’s preaching in Mark is the command to do it."
+    },
+    {
+      "id": "word-ekklesia",
+      "term": "Ekklesia",
+      "meaning": "The assembly; the church",
+      "pronunciation": "ek-klay-SEE-ah",
+      "language": "Greek",
+      "usage": "The gathered people, before it means a building."
+    },
+    {
+      "id": "word-koinonia",
+      "term": "Koinonia",
+      "meaning": "Fellowship, sharing",
+      "pronunciation": "koy-noh-NEE-ah",
+      "language": "Greek",
+      "usage": "Communion with God and each other. The first Christians in Jerusalem held their goods in common."
+    },
+    {
+      "id": "word-eucharist",
+      "term": "Eucharist",
+      "meaning": "Thanksgiving",
+      "pronunciation": "YOO-ka-rist",
+      "language": "Greek",
+      "usage": "The meal of bread and wine in memory of Jesus’s last supper. Also called Mass, Holy Communion, the Lord’s Supper or the Divine Liturgy."
+    },
+    {
+      "id": "word-baptism",
+      "term": "Baptism",
+      "meaning": "Immersion",
+      "pronunciation": "BAP-tiz-um",
+      "language": "Greek",
+      "usage": "Washing with water in the name of the Father, Son and Holy Spirit. The rite of entry into the church."
+    },
+    {
+      "id": "word-trinity",
+      "term": "Trinity",
+      "meaning": "Three in one",
+      "pronunciation": "TRIN-i-tee",
+      "language": "Latin",
+      "usage": "One God in three persons: Father, Son and Holy Spirit. Defined by the councils of the fourth century."
+    },
+    {
+      "id": "word-incarnation",
+      "term": "Incarnation",
+      "meaning": "Becoming flesh",
+      "pronunciation": "in-kar-NAY-shun",
+      "language": "Latin",
+      "usage": "The belief that in Jesus God took on a human life completely."
+    },
+    {
+      "id": "word-kenosis",
+      "term": "Kenosis",
+      "meaning": "Self-emptying",
+      "pronunciation": "keh-NOH-sis",
+      "language": "Greek",
+      "usage": "From Paul’s hymn in Philippians: Christ emptied himself and took the form of a servant. The pattern for Christian humility."
+    },
+    {
+      "id": "word-beatitude",
+      "term": "Beatitude",
+      "meaning": "A blessing",
+      "pronunciation": "bee-AT-i-tyood",
+      "language": "Latin",
+      "usage": "One of the eight sayings that open the Sermon on the Mount: blessed are the poor in spirit, the meek, the merciful, the peacemakers."
+    },
+    {
+      "id": "word-parable",
+      "term": "Parable",
+      "meaning": "A story laid alongside",
+      "pronunciation": "PA-ra-bul",
+      "language": "Greek",
+      "usage": "Jesus taught in short stories from daily life: a lost sheep, a mustard seed, a man beaten on the road."
+    },
+    {
+      "id": "word-shalom-and-pax",
+      "term": "Shalom and pax",
+      "meaning": "Peace",
+      "pronunciation": "sha-LOME, PAHKS",
+      "language": "Hebrew and Latin",
+      "usage": "Peace be with you is the greeting of the risen Christ and is exchanged in most services."
+    },
+    {
+      "id": "word-liturgy",
+      "term": "Liturgy",
+      "meaning": "The work of the people",
+      "pronunciation": "LIT-ur-jee",
+      "language": "Greek",
+      "usage": "Public worship in its set form."
+    },
+    {
+      "id": "word-psalm",
+      "term": "Psalm",
+      "meaning": "A song to a stringed instrument",
+      "pronunciation": "SAHM",
+      "language": "Greek",
+      "usage": "One of the 150 Hebrew poems that have been the daily prayer of monks, nuns and ordinary Christians for two thousand years."
+    },
+    {
+      "id": "word-lectio-divina",
+      "term": "Lectio divina",
+      "meaning": "Sacred reading",
+      "pronunciation": "LEK-tsee-oh di-VEE-na",
+      "language": "Latin",
+      "usage": "Slow, prayerful reading of scripture in four steps: read, reflect, respond, rest."
+    },
+    {
+      "id": "word-examen",
+      "term": "Examen",
+      "meaning": "An examination",
+      "pronunciation": "eg-ZAY-men",
+      "language": "Latin",
+      "usage": "The short daily review of conscience taught by Ignatius of Loyola."
+    },
+    {
+      "id": "word-ora-et-labora",
+      "term": "Ora et labora",
+      "meaning": "Pray and work",
+      "pronunciation": "OH-ra et la-BOH-ra",
+      "language": "Latin",
+      "usage": "The motto associated with the Benedictine monks, whose day alternates the two."
+    },
+    {
+      "id": "word-deo-gratias",
+      "term": "Deo gratias",
+      "meaning": "Thanks be to God",
+      "pronunciation": "DAY-oh GRAH-tsee-ahs",
+      "language": "Latin",
+      "usage": "The response to a reading, and to good news of any kind."
+    },
+    {
+      "id": "word-hesychia",
+      "term": "Hesychia",
+      "meaning": "Stillness",
+      "pronunciation": "heh-see-KHEE-ah",
+      "language": "Greek",
+      "usage": "The inner quiet sought by Eastern monks through the Jesus Prayer."
+    },
+    {
+      "id": "word-saint",
+      "term": "Saint",
+      "meaning": "A holy one",
+      "pronunciation": "SAYNT",
+      "language": "Latin",
+      "usage": "In the New Testament, every member of the church. Later, those whose lives are held up as examples."
+    },
+    {
+      "id": "word-pilgrim",
+      "term": "Pilgrim",
+      "meaning": "A stranger, a traveller",
+      "pronunciation": "PIL-grim",
+      "language": "Latin",
+      "usage": "One who walks to a holy place. An old image of the whole Christian life."
+    },
+    {
+      "id": "word-maranatha",
+      "term": "Maranatha",
+      "meaning": "Come, Lord",
+      "pronunciation": "ma-ra-NAH-tha",
+      "language": "Aramaic",
+      "usage": "A prayer of the first Christians, kept in their own language at the end of Paul’s first letter to Corinth."
+    }
+  ],
+  "practices": [
+    {
+      "id": "morning-prayer",
+      "name": "Morning prayer",
+      "icon": "sun-horizon",
+      "slot": "Morning",
+      "time": "06:45",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Before the day’s noise begins, stand or kneel. Say the prayer that Jesus taught, slowly, one phrase to a breath: Our Father, who art in heaven. Then read one psalm aloud. Begin with Psalm 23, 121 or 139 and move through the book. End with a sentence that hands over the day: its work, its people and whatever goes wrong in it. If you do not pray, read the words as poetry and sit with them.",
+      "why": "Christians have prayed at daybreak since the first century, with the Lord’s Prayer and the psalms at the centre. Monasteries still sing the whole psalter through in a week or a month.",
+      "variations": [
+        "Add the Benedictus, the song of Zechariah, from Luke 1.",
+        "Pray for three people by name.",
+        "Use a published daily office for a week."
+      ]
+    },
+    {
+      "id": "lectio",
+      "name": "Lectio divina",
+      "icon": "book-open",
+      "slot": "Morning",
+      "time": "08:00",
+      "minutes": 15,
+      "meta": "Morning · 15 min",
+      "instructions": "Take a short passage from a Gospel, ten verses at most. Start with Mark and go straight through over the Onda. Read it aloud, slowly. Read it a second time and stop at the word or phrase that catches you. Stay with that phrase for some minutes and ask why it struck you. Say something back, in thanks or in argument. Then sit in silence for two minutes and expect nothing.",
+      "why": "This way of reading comes from the desert monks and was fixed in four steps by a twelfth century Carthusian: reading, meditation, prayer and contemplation. It treats a text as a letter addressed to you.",
+      "variations": [
+        "Copy the phrase out and carry it all day.",
+        "Read the Sermon on the Mount, Matthew 5 to 7, across a week.",
+        "Do it with one other person and share the phrase."
+      ]
+    },
+    {
+      "id": "work-of-mercy",
+      "name": "A work of mercy",
+      "icon": "hand-heart",
+      "slot": "Afternoon",
+      "time": "13:00",
+      "minutes": 20,
+      "meta": "Afternoon · 20 min",
+      "instructions": "Each day do one of the seven works of mercy in some real form. Feed the hungry. Give drink to the thirsty. Clothe those who lack clothes. Shelter the stranger. Visit the sick. Visit the prisoner. Bury the dead, which today may mean comforting the bereaved. Plan it in the morning. Do it without telling anyone, and look the person in the face.",
+      "why": "The list comes from Jesus’s picture of the last judgment in Matthew 25, where the only question asked is what was done for the hungry, the stranger, the sick and the prisoner.",
+      "variations": [
+        "Take one work per day for a week, in order.",
+        "Add a spiritual work: comfort, counsel, forgive, bear patiently.",
+        "Give to a food bank, shelter or prison charity."
+      ]
+    },
+    {
+      "id": "midday-pause",
+      "name": "The pause at noon",
+      "icon": "bell",
+      "slot": "Afternoon",
+      "time": "12:00",
+      "minutes": 3,
+      "meta": "Afternoon · 3 min",
+      "instructions": "At midday stop what you are doing for three minutes. Stand up. Recall that the morning is gone and will not come back, and that the afternoon is still open. Say thank you for one thing. Ask pardon for one thing. Think of one person who is having a harder day than you and wish them well. Then go back to work.",
+      "why": "For centuries church bells have rung at morning, noon and evening to call people to stop and pray the Angelus wherever they stood, in the field or the street.",
+      "variations": [
+        "Set a chime on your phone.",
+        "Say the Jesus Prayer ten times on the breath: Lord Jesus Christ, have mercy on me.",
+        "Step outside and look at the sky."
+      ]
+    },
+    {
+      "id": "examen",
+      "name": "The evening examen",
+      "icon": "moon-stars",
+      "slot": "Evening",
+      "time": "21:30",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Sit quietly. First give thanks: go back through the day hour by hour and notice what was good in it. Second, look for where you felt most alive, most loving, most yourself. Third, look for where you were closed, afraid or unkind. Ask forgiveness for that and forgive whoever wronged you. Fourth, look at tomorrow and ask for what you will need. Close with the Lord’s Prayer.",
+      "why": "Ignatius of Loyola told his companions that if they could keep only one prayer in a busy day, it should be this one. It trains a person to notice where love was at work and where it was refused.",
+      "variations": [
+        "Write three lines only: thanks, sorry, please.",
+        "Do it on the walk home.",
+        "Do it together with your household."
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": "forgive-someone-a-real-debt-or-injury-and-tell-them-if-that-is-wise",
+      "name": "Forgive someone a real debt or injury, and tell them if that is wise",
+      "meta": "As we forgive those who trespass against us",
+      "time": "10:00",
+      "slot": "Morning"
+    },
+    {
+      "id": "keep-sunday-no-work-a-shared-meal-a-walk",
+      "name": "Keep Sunday: no work, a shared meal, a walk",
+      "meta": "The first day of the week",
+      "time": "09:00",
+      "slot": "Morning"
+    },
+    {
+      "id": "task-read-the-sermon-on-the-mount",
+      "name": "Read the Sermon on the Mount",
+      "meta": "Read · Matthew chapters 5 to 7",
+      "time": "20:00",
+      "slot": "Evening",
+      "action": "read"
+    },
+    {
+      "id": "task-listen-to-erbarme-dich-from-bach-s-st-matthew-passion",
+      "name": "Listen to Erbarme dich from Bach’s St Matthew Passion",
+      "meta": "Listen · seven minutes",
+      "time": "17:00",
+      "slot": "Afternoon",
+      "action": "listen"
+    },
+    {
+      "id": "task-look-at-rembrandt-s-return-of-the-prodigal-son",
+      "name": "Look at Rembrandt’s Return of the Prodigal Son",
+      "meta": "Art · look at the hands",
+      "time": "16:00",
+      "slot": "Afternoon",
+      "action": "art"
+    },
+    {
+      "id": "task-share-bread-and-a-simple-meal-with-someone-who-would-otherwise-eat-alo",
+      "name": "Share bread and a simple meal with someone who would otherwise eat alone",
+      "meta": "Eat · the table is the oldest Christian practice",
+      "time": "18:30",
+      "slot": "Evening",
+      "action": "eat"
+    },
+    {
+      "id": "task-journal-where-did-you-love-today-and-where-did-you-refuse-to",
+      "name": "Journal: where did you love today, and where did you refuse to?",
+      "meta": "Journal · 10 min",
+      "time": "21:45",
+      "slot": "Evening",
+      "action": "journal"
+    },
+    {
+      "id": "task-the-least-of-these-who-is-that-for-you",
+      "name": "The least of these: who is that for you?",
+      "meta": "Philosophy · 10 min",
+      "time": "08:30",
+      "slot": "Morning",
+      "action": "philosophy"
+    },
+    {
+      "id": "light-a-candle-for-someone-and-keep-them-in-mind-for-a-minute",
+      "name": "Light a candle for someone and keep them in mind for a minute",
+      "meta": "A prayer that goes on burning",
+      "time": "19:30",
+      "slot": "Evening"
+    }
+  ],
+  "rules": [
+    {
+      "id": "r1",
+      "text": "Begin and end the day in prayer or silence",
+      "why": "Ten minutes at each end: thanks, the Lord’s Prayer, a psalm, an honest look at the day."
+    },
+    {
+      "id": "r2",
+      "text": "Do one work of mercy",
+      "why": "Feed, shelter, visit or comfort someone today, in person where possible."
+    },
+    {
+      "id": "r3",
+      "text": "Forgive before sunset",
+      "why": "Do not let the sun go down on your anger. Let go of one grievance today, however small."
+    },
+    {
+      "id": "r4",
+      "text": "Return no insult",
+      "why": "Answer harshness with patience. Pray for, or at least wish well to, whoever is hardest to like."
+    },
+    {
+      "id": "r5",
+      "text": "Give in secret",
+      "why": "Let your giving and your good deeds go unannounced. Your left hand need not know what your right is doing."
+    },
+    {
+      "id": "r6",
+      "text": "Tell the truth plainly",
+      "why": "Let your yes be yes and your no be no. No oaths, no exaggeration, no flattery."
+    }
+  ],
+  "immerse": {
+    "read": [
+      {
+        "id": "read-the-gospel-of-mark",
+        "title": "The Gospel of Mark",
+        "creator": "New Revised Standard Version, or any translation you like",
+        "year": "about 70 CE",
+        "why": "The earliest and shortest Gospel. It can be read aloud in ninety minutes and was written to be."
+      },
+      {
+        "id": "read-confessions",
+        "title": "Confessions",
+        "creator": "Augustine of Hippo, trans. Maria Boulding or Henry Chadwick",
+        "year": "about 400",
+        "why": "A restless, brilliant African tells God the story of his life. The first autobiography, and still one of the best."
+      },
+      {
+        "id": "read-the-rule-of-saint-benedict",
+        "title": "The Rule of Saint Benedict",
+        "creator": "Benedict of Nursia",
+        "year": "about 530",
+        "why": "Seventy-three short chapters on how a community should pray, work, eat and settle quarrels. Moderate, shrewd and humane."
+      },
+      {
+        "id": "read-revelations-of-divine-love",
+        "title": "Revelations of Divine Love",
+        "creator": "Julian of Norwich, trans. Barry Windeatt",
+        "year": "about 1395",
+        "why": "An anchoress reflects for twenty years on visions she had while close to death. The first book in English known to be by a woman."
+      },
+      {
+        "id": "read-life-together",
+        "title": "Life Together",
+        "creator": "Dietrich Bonhoeffer",
+        "year": "1939",
+        "why": "A short book on Christian community, written from an illegal seminary under the Nazis by a pastor they later hanged."
+      },
+      {
+        "id": "read-gilead",
+        "title": "Gilead",
+        "creator": "Marilynne Robinson",
+        "year": "2004",
+        "why": "An old Iowa minister writes a long letter to his young son. A novel full of grace in both senses."
+      }
+    ],
+    "watch": [
+      {
+        "id": "watch-the-gospel-according-to-st-matthew",
+        "title": "The Gospel According to St. Matthew",
+        "creator": "Pier Paolo Pasolini",
+        "year": "1964",
+        "why": "The text of the Gospel and nothing added, filmed with peasants in the stony south of Italy by a Marxist poet."
+      },
+      {
+        "id": "watch-of-gods-and-men",
+        "title": "Of Gods and Men",
+        "creator": "Xavier Beauvois",
+        "year": "2010",
+        "why": "French Trappist monks in Algeria in 1996 must decide whether to stay with their Muslim neighbours as violence closes in. A true story."
+      },
+      {
+        "id": "watch-babette-s-feast",
+        "title": "Babette’s Feast",
+        "creator": "Gabriel Axel",
+        "year": "1987",
+        "why": "A refugee cook spends all she has on one dinner for an austere Danish congregation. A parable about grace."
+      },
+      {
+        "id": "watch-into-great-silence",
+        "title": "Into Great Silence",
+        "creator": "Philip Gröning",
+        "year": "2005",
+        "why": "Nearly three hours inside the Grande Chartreuse monastery in the French Alps, with almost no speech."
+      }
+    ],
+    "listen": [
+      {
+        "id": "listen-st-matthew-passion",
+        "title": "St Matthew Passion",
+        "creator": "Johann Sebastian Bach",
+        "year": "1727",
+        "why": "The story of the arrest and death of Jesus for two choirs and two orchestras. Start with the alto aria Erbarme dich, have mercy."
+      },
+      {
+        "id": "listen-gregorian-chant",
+        "title": "Gregorian chant",
+        "creator": "The monks of Solesmes or of Santo Domingo de Silos",
+        "year": "from the 9th century",
+        "why": "A single unaccompanied line of melody, the sung prayer of Western monasteries for more than a thousand years."
+      },
+      {
+        "id": "listen-amazing-grace",
+        "title": "Amazing Grace",
+        "creator": "Aretha Franklin",
+        "year": "1972",
+        "why": "Recorded live over two nights in a Baptist church in Los Angeles. The best-selling gospel album ever made."
+      },
+      {
+        "id": "listen-all-night-vigil",
+        "title": "All-Night Vigil",
+        "creator": "Sergei Rachmaninoff",
+        "year": "1915",
+        "why": "Russian Orthodox evening and morning prayer for unaccompanied choir, with basses that go lower than seems possible."
+      }
+    ],
+    "art": [
+      {
+        "id": "art-the-trinity",
+        "title": "The Trinity",
+        "creator": "Andrei Rublev; Tretyakov Gallery, Moscow",
+        "year": "about 1411 to 1427",
+        "why": "Three angels sit at a table round a cup, heads inclined to one another. The front of the table is left open for the viewer."
+      },
+      {
+        "id": "art-chartres-cathedral",
+        "title": "Chartres Cathedral",
+        "creator": "Chartres, France",
+        "year": "1194 to about 1220",
+        "why": "A Gothic church with nearly all its medieval glass intact. The blue has never been matched."
+      },
+      {
+        "id": "art-the-return-of-the-prodigal-son",
+        "title": "The Return of the Prodigal Son",
+        "creator": "Rembrandt; Hermitage, St Petersburg",
+        "year": "about 1668",
+        "why": "A ragged young man kneels with one shoe off. His father’s two hands rest on his back."
+      },
+      {
+        "id": "art-pieta",
+        "title": "Pietà",
+        "creator": "Michelangelo; St Peter’s Basilica, Rome",
+        "year": "1498 to 1499",
+        "why": "Mary holds her dead son across her lap. Carved when the sculptor was twenty-four."
+      }
+    ],
+    "eat": [
+      {
+        "id": "eat-bread",
+        "title": "Bread",
+        "creator": "A plain loaf, broken and shared",
+        "why": "The central food of the faith. Break it with your hands at table and pass it round."
+      },
+      {
+        "id": "eat-a-lenten-soup",
+        "title": "A Lenten soup",
+        "creator": "Beans, vegetables and herbs, no meat",
+        "why": "The plain cooking of the forty days before Easter, in every country from Greece to Ireland."
+      },
+      {
+        "id": "eat-fish-on-friday",
+        "title": "Fish on Friday",
+        "creator": "Any simple fish",
+        "why": "Meat was given up on Fridays in memory of the crucifixion. The fish was also a secret sign of the first Christians."
+      },
+      {
+        "id": "eat-easter-bread",
+        "title": "Easter bread",
+        "creator": "Sweet enriched dough: paska, tsoureki, colomba, hot cross buns",
+        "why": "Rich with the eggs and butter that were forbidden through Lent."
+      }
+    ],
+    "drink": [
+      {
+        "id": "drink-wine-or-grape-juice",
+        "title": "Wine or grape juice",
+        "creator": "A shared cup",
+        "why": "With bread, the other element of the Eucharist. Many Protestant churches use unfermented juice."
+      },
+      {
+        "id": "drink-monastery-beer",
+        "title": "Monastery beer",
+        "creator": "Trappist ales of Belgium and beyond",
+        "why": "Brewed by monks to support their houses and their charities. Skip it if you do not drink."
+      },
+      {
+        "id": "drink-water",
+        "title": "Water",
+        "creator": "From the tap, drunk with thanks",
+        "why": "The sign of baptism. A cup of cold water given to someone thirsty is singled out for praise in the Gospel."
+      }
+    ],
+    "customs": [
+      {
+        "id": "customs-grace-before-meals",
+        "title": "Grace before meals",
+        "creator": "A sentence of thanks",
+        "why": "Said aloud, hands joined, before anyone eats."
+      },
+      {
+        "id": "customs-the-sign-of-peace",
+        "title": "The sign of peace",
+        "creator": "A handshake or embrace",
+        "why": "In most services people turn to those near them and say: peace be with you."
+      },
+      {
+        "id": "customs-lighting-a-candle",
+        "title": "Lighting a candle",
+        "creator": "For a person or an intention",
+        "why": "Visitors to almost any Catholic or Orthodox church may light one. It stands for a prayer that goes on after you leave."
+      },
+      {
+        "id": "customs-pilgrimage-on-foot",
+        "title": "Pilgrimage on foot",
+        "creator": "Walking to a holy place",
+        "why": "The journey is the practice. Carry little, accept hospitality and greet other walkers."
+      }
+    ],
+    "games": [
+      {
+        "id": "games-pentiment",
+        "title": "Pentiment",
+        "creator": "Video game · Obsidian Entertainment",
+        "year": "2022",
+        "why": "You are a painter working in a Bavarian abbey in the years of the Reformation, drawn into a murder. Drawn like a manuscript, and exact about monastic hours, heresy and village faith."
+      },
+      {
+        "id": "games-nine-men-s-morris",
+        "title": "Nine Men’s Morris",
+        "creator": "Board game · ancient and medieval Europe",
+        "year": "at least Roman",
+        "why": "Boards are found scratched into cloister benches and choir stalls of English cathedrals, where bored monks and masons played."
+      },
+      {
+        "id": "games-that-dragon-cancer",
+        "title": "That Dragon, Cancer",
+        "creator": "Video game · Numinous Games",
+        "year": "2016",
+        "why": "Two Christian parents made this about their small son’s illness and death. Prayer, doubt and hope are shown without disguise. Gentle and very sad."
+      }
+    ],
+    "festivals": [
+      {
+        "id": "fest-easter",
+        "title": "Easter",
+        "creator": "A Sunday in March or April; Orthodox dates often differ",
+        "why": "The resurrection, and the centre of the year. It follows Holy Week: Palm Sunday, the Last Supper on Thursday, the cross on Friday, the vigil with new fire on Saturday night."
+      },
+      {
+        "id": "fest-christmas",
+        "title": "Christmas",
+        "creator": "25 December; 7 January in some Orthodox churches",
+        "why": "The birth of Jesus, prepared for through the four weeks of Advent and kept for twelve days."
+      },
+      {
+        "id": "fest-lent",
+        "title": "Lent",
+        "creator": "Forty days before Easter, from Ash Wednesday",
+        "why": "A season of fasting, prayer and giving. People take on a discipline or give something up."
+      },
+      {
+        "id": "fest-pentecost",
+        "title": "Pentecost",
+        "creator": "Fifty days after Easter",
+        "why": "The coming of the Holy Spirit on the first disciples. Often called the birthday of the church."
+      }
+    ],
+    "places": [
+      {
+        "id": "place-the-church-of-the-holy-sepulchre",
+        "title": "The Church of the Holy Sepulchre",
+        "creator": "Jerusalem",
+        "why": "Built over the sites venerated as the place of the crucifixion and the tomb. Six ancient churches share it, and a Muslim family has kept the key for centuries."
+      },
+      {
+        "id": "place-the-camino-de-santiago",
+        "title": "The Camino de Santiago",
+        "creator": "Northern Spain",
+        "why": "A network of medieval pilgrim roads ending at the cathedral of Santiago de Compostela. The classic route from the Pyrenees takes about five weeks on foot."
+      },
+      {
+        "id": "place-lalibela",
+        "title": "Lalibela",
+        "creator": "Amhara Region, Ethiopia",
+        "why": "Eleven churches cut downward into solid rock in about the twelfth century and still in daily use. Check current travel advice."
+      },
+      {
+        "id": "place-taize",
+        "title": "Taizé",
+        "creator": "Burgundy, France",
+        "why": "A community of brothers from many churches, founded in 1940. Thousands of young people come each week to pray in simple chants and silence."
+      },
+      {
+        "id": "place-assisi",
+        "title": "Assisi",
+        "creator": "Umbria, Italy",
+        "why": "The hill town of Francis and Clare. See Giotto’s frescoes in the basilica, then walk up to the hermitage in the woods."
+      }
+    ]
+  },
+  "ethics": [
+    {
+      "title": "Love of neighbour",
+      "text": "Asked who counts as a neighbour, Jesus told of a foreigner who stopped for a beaten man when the respectable walked past. A neighbour is whoever you come upon in need.",
+      "practice": "Stop today for someone you would normally walk past."
+    },
+    {
+      "title": "Forgiveness",
+      "text": "Peter asked whether seven times was enough. Seventy times seven, he was told. Forgiveness is asked for and given in the same sentence of the Lord’s Prayer.",
+      "practice": "Write down one thing you are holding against someone. Decide what releasing it would take."
+    },
+    {
+      "title": "Mercy to the least",
+      "text": "The hungry, the stranger, the sick and the prisoner stand in for Christ himself. How they are treated is the test.",
+      "practice": "Give time today to someone who can do nothing for you."
+    },
+    {
+      "title": "Humility",
+      "text": "The first shall be last. Jesus washed his followers’ feet on the night before he died and told them to do the same for each other.",
+      "practice": "Take the lowest job in the room today and say nothing about it."
+    },
+    {
+      "title": "Peacemaking",
+      "text": "Blessed are the peacemakers. Turn the other cheek, go the second mile, put up the sword. For its first three centuries the church largely refused violence.",
+      "practice": "Make the first move to end one quarrel."
+    },
+    {
+      "title": "Simplicity",
+      "text": "You cannot serve God and money. Consider the lilies. Sell what you have and give to the poor. The Gospels are hard on wealth and anxious care.",
+      "practice": "Give away something you would notice losing."
+    }
+  ],
+  "philosophy": [
+    {
+      "title": "God is love",
+      "text": "The First Letter of John puts it in three words. Everything else in Christian teaching is an attempt to say what follows if that is true: creation is a gift, persons matter without limit, and love is the measure of a life.",
+      "practice": "Ask of one decision today: what would love do here?"
+    },
+    {
+      "title": "The Word made flesh",
+      "text": "Christians believe that God entered human life as a poor man in an occupied country, was born in a stable and died as a criminal. It follows that no human situation is beneath God’s concern and that bodies matter.",
+      "practice": "Look for the sacred today in something ordinary and physical."
+    },
+    {
+      "title": "Grace",
+      "text": "A person is loved before achieving anything. The prodigal is embraced before he finishes his speech. Good action flows from being accepted. It is not a way of earning acceptance.",
+      "practice": "Do one generous thing today for someone who has not earned it."
+    },
+    {
+      "title": "The upside-down kingdom",
+      "text": "Blessed are the poor, the meek, those who mourn. The Beatitudes turn the usual order over: greatness is service, strength is gentleness, and the one who loses their life finds it.",
+      "practice": "Read the eight Beatitudes and choose the one you least believe. Live by it for a day."
+    },
+    {
+      "title": "Death and resurrection",
+      "text": "The central claim is that Jesus was killed and raised, and that this pattern, loss and then new life, runs through everything. A grain of wheat must fall into the ground.",
+      "practice": "Name something in your life that has to end so that something else can begin."
+    },
+    {
+      "title": "The image of God",
+      "text": "Each human being is made in the divine image and is, in Paul’s words, one for whom Christ died. Slave or free, male or female, all are one. The idea of universal human dignity has roots here.",
+      "practice": "Treat the most irritating person you meet today as someone of infinite worth."
+    },
+    {
+      "title": "Faith, hope and love",
+      "text": "Paul names three things that last. Faith is trust more than opinion. Hope is the refusal to accept that the present is final. Love is the greatest because it alone is already the thing hoped for.",
+      "practice": "Which of the three is thinnest in you now? Do one act that belongs to it."
+    },
+    {
+      "title": "The body of many members",
+      "text": "Paul compares the church to a body in which the eye cannot say to the hand, I have no need of you. People are made to belong to one another, and the weakest parts are owed the most honour.",
+      "practice": "Thank someone whose gift is the opposite of yours."
+    }
+  ],
+  "journal": [
+    "Where did you love today, and where did you refuse to?",
+    "What are you thankful for, hour by hour?",
+    "Whom do you need to forgive?",
+    "Whose forgiveness do you need?",
+    "Who was the least of these today, and what did you do?",
+    "Which phrase from your reading stayed with you?",
+    "What are you anxious about, and what would trusting look like?",
+    "Whom did you walk past?",
+    "What did you give in secret?",
+    "Who is your enemy, and can you wish them well?",
+    "Where were you proud?",
+    "What do you serve in practice: what gets your best hours?",
+    "What must end so that something can begin?",
+    "When did you feel most alive today?",
+    "Where were you closed or afraid?",
+    "What did you receive today that you did not earn?",
+    "What would you ask for tomorrow?",
+    "Whose feet would you find it hard to wash?",
+    "What do you own that owns you?",
+    "Where did you make peace, or fail to?",
+    "What does your restlessness want?",
+    "Who has been the face of grace to you?",
+    "What did the silence hold?",
+    "Which Beatitude troubles you?",
+    "When did you say yes and mean no?",
+    "Whom do you belong to?",
+    "What did you do today that will last?",
+    "Where did you see new life?",
+    "Who is your neighbour?",
+    "What would it mean for all to be well?"
+  ],
+  "reflect": [
+    "What did praying or sitting at both ends of the day change?",
+    "Whom have you forgiven, and what did it cost?",
+    "Which work of mercy came hardest?",
+    "What did slow reading of one Gospel show you?",
+    "Where did you meet grace?",
+    "What will you go on doing?"
+  ],
+  "dayThemes": [
+    "Our Father",
+    "The two commandments",
+    "Blessed are the poor",
+    "The lost sheep",
+    "The Samaritan",
+    "The prodigal",
+    "The day of rest",
+    "Daily bread",
+    "Forgive us as we forgive",
+    "The mustard seed",
+    "Consider the lilies",
+    "The least of these",
+    "Washing feet",
+    "Love your enemies",
+    "The second mile",
+    "Salt and light",
+    "In secret",
+    "The narrow gate",
+    "Yes and no",
+    "The widow’s coin",
+    "Restless heart",
+    "The grain of wheat",
+    "Bread broken",
+    "One body",
+    "Faith",
+    "Hope",
+    "Love",
+    "Peace be with you",
+    "All shall be well",
+    "Go in peace"
+  ],
+  "guide": {
+    "intro": [
+      "Christianity is the largest religion in the world, with about 2.4 billion followers. It began as a movement within Judaism around a Galilean teacher and healer, Jesus of Nazareth, who was executed by the Roman governor in Jerusalem around the year 30. His followers soon proclaimed that God had raised him from the dead. Within three centuries their faith had spread across the Roman empire and beyond it to Armenia, Ethiopia, Persia and India.",
+      "Jesus taught in villages, mostly to poor people, in stories and short sayings. He announced that the kingdom of God was near. He summed up the Jewish law as love of God and love of neighbour, stretched neighbour to include enemies and foreigners, ate with outcasts and warned the rich and the pious. His teaching is gathered in the four Gospels, and most compactly in the Sermon on the Mount.",
+      "What makes Christianity distinct is what it says about him. Christians believe that in this man God lived a human life, that his death reconciled humanity to God and that his resurrection began the renewal of all things. The first to work this out in writing was Paul, a Jewish scholar who had persecuted the movement and then carried it to non-Jews around the Mediterranean. The councils of the fourth and fifth centuries stated it as the doctrines of the Trinity and the Incarnation.",
+      "Christians are divided into three great families. The Catholic Church, led by the bishop of Rome, is the largest. The Orthodox churches of the East parted from it in 1054. The Protestant churches arose in the sixteenth century, when reformers such as Luther and Calvin protested against abuses and insisted on scripture and grace. Pentecostal and independent churches, born in the twentieth century, are now the fastest growing. Most Christians today live in Africa, Latin America and Asia.",
+      "For all the differences, some things are shared nearly everywhere: baptism with water, a meal of bread and wine, the Bible, the Lord’s Prayer, Sunday worship, the cycle of Christmas and Easter, and the conviction that faith must show itself in love, especially toward the poor. This Onda follows that common ground. You will pray or sit in silence morning and evening, read a Gospel slowly, do one work of mercy each day and review the day before you sleep.",
+      "You are welcome whatever you believe. The practices here are open to anyone and can be done as exercises in attention and kindness. Baptism and communion are acts of commitment and belong within the churches. And the history must be told straight: Christians have fed the hungry, founded hospitals and fought slavery, and Christians have also blessed crusades, persecuted Jews and dissenters and sanctified conquest. The tradition judges both by the same Gospel."
+    ],
+    "origin": "Roman Judaea and Galilee; today every continent",
+    "era": "From the life of Jesus, about 4 BCE to 30 CE, to the present",
+    "figures": [
+      {
+        "name": "Jesus of Nazareth",
+        "dates": "about 4 BCE to about 30 CE",
+        "bio": "A Jewish craftsman’s son from Galilee who taught for perhaps three years and was crucified under Pontius Pilate. Christians confess him as the Christ, the Son of God."
+      },
+      {
+        "name": "Mary of Nazareth",
+        "dates": "1st century",
+        "bio": "His mother. Honoured above all saints by Catholics and Orthodox as the God-bearer, and by all Christians for her yes."
+      },
+      {
+        "name": "Mary Magdalene",
+        "dates": "1st century",
+        "bio": "A follower from Galilee who stood by the cross and, in all four Gospels, was the first witness of the resurrection. The apostle to the apostles."
+      },
+      {
+        "name": "Paul of Tarsus",
+        "dates": "about 5 to about 65 CE",
+        "bio": "A Pharisee who became the movement’s great missionary and thinker. His letters are the earliest Christian writings."
+      },
+      {
+        "name": "Augustine of Hippo",
+        "dates": "354 to 430",
+        "bio": "A North African bishop whose writings on grace, memory, time and the city of God shaped Western thought for a thousand years."
+      },
+      {
+        "name": "Benedict of Nursia",
+        "dates": "about 480 to 547",
+        "bio": "The author of the rule that organised Western monastic life around prayer, work and reading."
+      },
+      {
+        "name": "Francis of Assisi",
+        "dates": "1181 or 1182 to 1226",
+        "bio": "A merchant’s son who gave away everything, embraced lepers, preached to birds and founded an order of wandering brothers vowed to poverty."
+      },
+      {
+        "name": "Martin Luther",
+        "dates": "1483 to 1546",
+        "bio": "A German friar and professor whose protest of 1517 against the sale of indulgences split the Western church. He translated the Bible into German."
+      },
+      {
+        "name": "Teresa of Ávila",
+        "dates": "1515 to 1582",
+        "bio": "A Spanish Carmelite, reformer and writer on prayer with a sharp sense of humour. The first woman named a Doctor of the Church."
+      },
+      {
+        "name": "Martin Luther King Jr.",
+        "dates": "1929 to 1968",
+        "bio": "A Baptist pastor who led the non-violent movement for civil rights in the United States, drawing on the Sermon on the Mount and the Hebrew prophets."
+      }
+    ],
+    "history": [
+      {
+        "when": "about 30 CE",
+        "what": "Crucifixion and Easter",
+        "detail": "Jesus is executed at Jerusalem at Passover. His followers announce his resurrection and, at Pentecost, begin to preach publicly."
+      },
+      {
+        "when": "about 48 to 60",
+        "what": "Paul’s journeys",
+        "detail": "Communities of Jews and non-Jews form in Asia Minor, Greece and Rome. A council in Jerusalem decides that converts need not keep the whole Jewish law."
+      },
+      {
+        "when": "about 70 to 100",
+        "what": "The Gospels are written",
+        "detail": "Mark, then Matthew and Luke, then John. The separation from Judaism widens after the fall of the Temple."
+      },
+      {
+        "when": "64 to 312",
+        "what": "Persecution",
+        "detail": "From Nero to Diocletian, Christians are at times executed for refusing to sacrifice to the gods of Rome. The church grows steadily all the same."
+      },
+      {
+        "when": "313",
+        "what": "Toleration",
+        "detail": "The emperor Constantine legalises Christianity. In 380 Theodosius makes it the religion of the empire. The change brings privilege and with it the temptations of power."
+      },
+      {
+        "when": "325 and 451",
+        "what": "Nicaea and Chalcedon",
+        "detail": "Councils of bishops define that the Son is of one being with the Father, and that Christ is fully God and fully human. The Nicene Creed is still recited."
+      },
+      {
+        "when": "3rd to 6th century",
+        "what": "Desert and monastery",
+        "detail": "Anthony and thousands of others withdraw to the Egyptian desert. Monastic communities become the keepers of prayer and learning through the collapse of the Western empire."
+      },
+      {
+        "when": "1054",
+        "what": "East and West divide",
+        "detail": "Rome and Constantinople excommunicate each other after centuries of growing apart. The sack of Constantinople by crusaders in 1204 makes the break bitter."
+      },
+      {
+        "when": "1095 to 1291",
+        "what": "The Crusades",
+        "detail": "Popes call armed expeditions to take Jerusalem. They bring massacres of Jews and Muslims and lasting damage to relations between the faiths."
+      },
+      {
+        "when": "1517",
+        "what": "The Reformation",
+        "detail": "Luther’s ninety-five theses set off a movement that produces Lutheran, Reformed, Anglican and Anabaptist churches. A century of religious wars follows."
+      },
+      {
+        "when": "18th and 19th centuries",
+        "what": "Revival, mission and abolition",
+        "detail": "Methodists and evangelicals preach personal conversion. Missionaries travel with, and sometimes against, European empires. Christians lead campaigns to end the slave trade, and others defend it from the Bible."
+      },
+      {
+        "when": "1906",
+        "what": "Azusa Street",
+        "detail": "A revival led by the Black preacher William Seymour in Los Angeles launches Pentecostalism, now the faith of several hundred million people."
+      },
+      {
+        "when": "1962 to 1965",
+        "what": "The Second Vatican Council",
+        "detail": "The Catholic Church opens its worship to local languages, affirms religious freedom and repudiates the charge that the Jewish people are guilty of the death of Christ."
+      }
+    ],
+    "concepts": [
+      {
+        "term": "The kingdom of God",
+        "text": "God’s rule, arriving.",
+        "detail": "The main subject of Jesus’s preaching: a state of things in which God’s will is done on earth. It is already present like a seed and still to come in full."
+      },
+      {
+        "term": "Incarnation",
+        "text": "God with us.",
+        "detail": "The eternal Word became a human being. It grounds the Christian regard for the body, the poor and the material world, and the use of images in worship."
+      },
+      {
+        "term": "Trinity",
+        "text": "One God in three persons.",
+        "detail": "Father, Son and Holy Spirit share one divine life. The doctrine says that God is in God’s own being a communion of love."
+      },
+      {
+        "term": "Atonement",
+        "text": "Being made at one.",
+        "detail": "The belief that the death of Jesus heals the breach between humanity and God. Churches explain it differently: as a victory, a sacrifice, a ransom or an example of love."
+      },
+      {
+        "term": "Resurrection",
+        "text": "Death is not the end.",
+        "detail": "Christ was raised bodily, and all will be raised. The hope is for a renewed creation, and not only for the soul’s survival."
+      },
+      {
+        "term": "Grace and faith",
+        "text": "Gift and trust.",
+        "detail": "Salvation is a gift received by trust. Catholics, Orthodox and Protestants have argued for centuries over how grace and human effort work together."
+      },
+      {
+        "term": "Sacraments",
+        "text": "Visible signs of grace.",
+        "detail": "Baptism and the Eucharist are kept by nearly all. Catholics and Orthodox count seven, adding confirmation, confession, marriage, ordination and the anointing of the sick."
+      },
+      {
+        "term": "Scripture",
+        "text": "The Bible.",
+        "detail": "The Hebrew scriptures, called the Old Testament, with twenty-seven books of the New: four Gospels, Acts, letters and Revelation. Read aloud at every service."
+      },
+      {
+        "term": "The church",
+        "text": "The body of Christ.",
+        "detail": "The community of the baptised across time and place. Christians confess it as one, though it is visibly divided, and work at mending that through the ecumenical movement."
+      }
+    ],
+    "facts": [
+      {
+        "text": "The fish was an early Christian sign because the Greek word for it, ichthys, spells out the initials of Jesus Christ, Son of God, Saviour."
+      },
+      {
+        "text": "The Bible, in whole or part, has been translated into more than 3,500 languages, more than any other book."
+      },
+      {
+        "text": "Armenia became the first state to adopt Christianity, by tradition in 301. Ethiopia followed within a few decades."
+      },
+      {
+        "text": "The dating of years as AD was devised by a monk, Dionysius Exiguus, in 525. He seems to have placed the birth of Jesus a few years too late."
+      },
+      {
+        "text": "Hospitals, universities and musical notation all developed in Europe out of church institutions."
+      },
+      {
+        "text": "There are now more Christians in Africa than on any other continent."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Apostle",
+        "meaning": "One sent: the twelve chosen by Jesus, and Paul"
+      },
+      {
+        "term": "Creed",
+        "meaning": "A short agreed statement of belief"
+      },
+      {
+        "term": "Bishop",
+        "meaning": "The overseer of the churches in a region"
+      },
+      {
+        "term": "Monk and nun",
+        "meaning": "Those who live under vows in a community of prayer"
+      },
+      {
+        "term": "Advent",
+        "meaning": "The four weeks of preparation before Christmas"
+      },
+      {
+        "term": "Ecumenical",
+        "meaning": "Concerning the unity of all the churches"
+      }
+    ],
+    "furtherReading": [
+      {
+        "title": "Christianity: The First Three Thousand Years",
+        "creator": "Diarmaid MacCulloch",
+        "year": "2009",
+        "note": "A masterly single-volume history that begins with Greece and Israel."
+      },
+      {
+        "title": "Mere Christianity",
+        "creator": "C. S. Lewis",
+        "year": "1952",
+        "note": "Wartime radio talks arguing for the beliefs that nearly all Christians share."
+      },
+      {
+        "title": "The Cost of Discipleship",
+        "creator": "Dietrich Bonhoeffer",
+        "year": "1937",
+        "note": "A reading of the Sermon on the Mount that attacks cheap grace."
+      },
+      {
+        "title": "The Way of a Pilgrim",
+        "creator": "Anonymous, Russia",
+        "year": "19th century",
+        "note": "A wanderer learns to pray without ceasing. A doorway into Orthodox spirituality."
+      }
+    ],
+    "learnFrom": [
+      {
+        "name": "Bible Gateway",
+        "note": "The Bible in many translations and languages, free to read and compare.",
+        "link": "https://www.biblegateway.com"
+      },
+      {
+        "name": "Pray as You Go",
+        "note": "A daily twelve-minute prayer with music and scripture, made by British Jesuits.",
+        "link": "https://pray-as-you-go.org"
+      },
+      {
+        "name": "A church near you",
+        "note": "Most services are open to all. Sit at the back, follow along and stay for coffee. Ask before receiving communion."
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Holy Bible",
+        "publisher": "King James Version, 1611; New Revised Standard Version, 1989"
+      },
+      {
+        "title": "Christianity: The First Three Thousand Years",
+        "creator": "Diarmaid MacCulloch",
+        "publisher": "Allen Lane",
+        "year": "2009"
+      },
+      {
+        "title": "Confessions",
+        "creator": "Augustine, trans. Henry Chadwick",
+        "publisher": "Oxford World's Classics",
+        "year": "1991"
+      },
+      {
+        "title": "The Rule of St Benedict",
+        "creator": "trans. Timothy Fry",
+        "publisher": "Liturgical Press",
+        "year": "1981"
+      },
+      {
+        "title": "Revelations of Divine Love",
+        "creator": "Julian of Norwich, trans. Barry Windeatt",
+        "publisher": "Oxford World's Classics",
+        "year": "2015"
+      },
+      {
+        "title": "Christianity: A Very Short Introduction",
+        "creator": "Linda Woodhead",
+        "publisher": "Oxford University Press",
+        "year": "2nd edition 2014"
+      }
+    ]
+  },
+  "sensitivity": {
+    "note": "Christianity is the living faith of a third of humanity, in thousands of churches that disagree on much. This Onda keeps to practices shared by most of them and open to anyone. It is not a statement of doctrine and it does not replace a church.",
+    "requiredCaveats": [
+      "Catholic, Orthodox, Protestant and Pentecostal Christians differ on authority, sacraments and worship.",
+      "Baptism and communion are acts of commitment. Take part only as each church invites.",
+      "Christian institutions have done grave harm as well as great good, including to Jews, to Indigenous peoples and to those they judged heretics.",
+      "No one should be pressed to believe. Use these practices freely and leave what you cannot honestly do."
+    ],
+    "reviewRequired": true
+  }
+}

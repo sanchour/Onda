@@ -1,0 +1,1221 @@
+{
+  "version": 1,
+  "id": "sikh",
+  "name": "Sikhism",
+  "origin": "Punjab",
+  "era": "From 1469 to today",
+  "tone": "blue",
+  "icon": "hand-heart",
+  "font": "anek-gurmukhi",
+  "pattern": "chakkar",
+  "glyph": "ੴ",
+  "line": "Remember the One, earn an honest living and share what you have.",
+  "quote": {
+    "text": "Truth is high, but higher still is truthful living.",
+    "by": "Guru Nanak",
+    "source": "Guru Granth Sahib, Sri Rag, page 62; a common English rendering"
+  },
+  "quotes": [
+    {
+      "text": "No one is my enemy and no one is a stranger. I get along with everyone.",
+      "by": "Guru Arjan",
+      "source": "Guru Granth Sahib, Kanara, page 1299; a common English rendering"
+    },
+    {
+      "text": "Recognise the whole human race as one.",
+      "by": "Guru Gobind Singh",
+      "source": "Manas ki jat sabhai ekai pahichanbo, from Akal Ustat in the Dasam Granth"
+    },
+    {
+      "text": "From woman, man is born. So why call her bad, from whom kings are born?",
+      "by": "Guru Nanak",
+      "source": "Guru Granth Sahib, Asa di Var, page 473; abridged from a common English rendering"
+    },
+    {
+      "text": "Through your will, may everyone prosper.",
+      "by": "The Ardas",
+      "source": "Tere bhane sarbat da bhala: the closing line of the Sikh congregational prayer"
+    },
+    {
+      "text": "There is no Hindu and there is no Muslim.",
+      "by": "Guru Nanak",
+      "source": "His first words after his revelation at the river Bein, according to the Janamsakhi tradition"
+    }
+  ],
+  "words": [
+    {
+      "id": "word-sikh",
+      "term": "Sikh",
+      "meaning": "A learner, a disciple",
+      "pronunciation": "SIK",
+      "language": "Punjabi",
+      "usage": "From the Sanskrit for student. A Sikh is someone who is learning from the Guru."
+    },
+    {
+      "id": "word-guru",
+      "term": "Guru",
+      "meaning": "Teacher; the one who brings light",
+      "pronunciation": "GOO-roo",
+      "language": "Punjabi",
+      "usage": "The ten human Gurus, then the scripture, and finally the divine Word itself."
+    },
+    {
+      "id": "word-ik-onkar",
+      "term": "Ik Onkar",
+      "meaning": "There is one God",
+      "pronunciation": "ik ohng-KAR",
+      "language": "Punjabi",
+      "usage": "The first words of the scripture and the best known Sikh symbol. One reality, of which everything is an expression."
+    },
+    {
+      "id": "word-waheguru",
+      "term": "Waheguru",
+      "meaning": "Wonderful teacher",
+      "pronunciation": "VAH-heh-goo-roo",
+      "language": "Punjabi",
+      "usage": "The most common Sikh name for God, repeated in meditation."
+    },
+    {
+      "id": "word-naam",
+      "term": "Naam",
+      "meaning": "The Name",
+      "pronunciation": "NAHM",
+      "language": "Punjabi",
+      "usage": "The presence of the divine in everything. To remember it constantly is the heart of practice."
+    },
+    {
+      "id": "word-simran",
+      "term": "Simran",
+      "meaning": "Remembrance",
+      "pronunciation": "SIM-run",
+      "language": "Punjabi",
+      "usage": "Keeping the Name in mind, by quiet repetition or simply by attention."
+    },
+    {
+      "id": "word-seva",
+      "term": "Seva",
+      "meaning": "Selfless service",
+      "pronunciation": "SAY-va",
+      "language": "Punjabi",
+      "usage": "Work done for others with no thought of reward: cooking, cleaning shoes, serving food, building."
+    },
+    {
+      "id": "word-langar",
+      "term": "Langar",
+      "meaning": "The free kitchen",
+      "pronunciation": "LUNG-gur",
+      "language": "Punjabi",
+      "usage": "Every gurdwara feeds anyone who comes, free, every day. Everyone sits on the floor in rows and eats the same food."
+    },
+    {
+      "id": "word-sangat",
+      "term": "Sangat",
+      "meaning": "The congregation",
+      "pronunciation": "SUNG-gut",
+      "language": "Punjabi",
+      "usage": "The company of those who seek the truth. Sikh teaching holds that the Guru is present in it."
+    },
+    {
+      "id": "word-pangat",
+      "term": "Pangat",
+      "meaning": "The row",
+      "pronunciation": "PUNG-gut",
+      "language": "Punjabi",
+      "usage": "Sitting side by side to eat, with no order of rank. Emperors were asked to sit in it before meeting the Guru."
+    },
+    {
+      "id": "word-gurdwara",
+      "term": "Gurdwara",
+      "meaning": "The Guru’s door",
+      "pronunciation": "goor-DWAH-ra",
+      "language": "Punjabi",
+      "usage": "A Sikh place of worship. It is open to all, and its four doors face the four directions."
+    },
+    {
+      "id": "word-guru-granth-sahib",
+      "term": "Guru Granth Sahib",
+      "meaning": "The scripture as living Guru",
+      "pronunciation": "goo-roo GRUNT sah-HIB",
+      "language": "Punjabi",
+      "usage": "1,430 pages of hymns by six Gurus and by Hindu and Muslim saints, treated with the honour due to a sovereign."
+    },
+    {
+      "id": "word-gurbani",
+      "term": "Gurbani",
+      "meaning": "The Guru’s word",
+      "pronunciation": "goor-BAH-nee",
+      "language": "Punjabi",
+      "usage": "The hymns of the scripture. They are set to ragas and meant to be sung."
+    },
+    {
+      "id": "word-kirtan",
+      "term": "Kirtan",
+      "meaning": "Sung praise",
+      "pronunciation": "KEER-tun",
+      "language": "Punjabi",
+      "usage": "The singing of gurbani with harmonium and tabla. The main form of Sikh worship."
+    },
+    {
+      "id": "word-kirat-karni",
+      "term": "Kirat karni",
+      "meaning": "Earning by honest work",
+      "pronunciation": "KI-rut KUR-nee",
+      "language": "Punjabi",
+      "usage": "The second pillar. Sikhs are to be householders who work, never beggars or recluses."
+    },
+    {
+      "id": "word-vand-chakna",
+      "term": "Vand chakna",
+      "meaning": "Sharing what you have",
+      "pronunciation": "vund CHUK-na",
+      "language": "Punjabi",
+      "usage": "The third pillar: share your food and earnings before you consume them."
+    },
+    {
+      "id": "word-dasvandh",
+      "term": "Dasvandh",
+      "meaning": "The tenth part",
+      "pronunciation": "dus-VUND",
+      "language": "Punjabi",
+      "usage": "A tenth of one’s income given to the community and to those in need."
+    },
+    {
+      "id": "word-hukam",
+      "term": "Hukam",
+      "meaning": "The divine order",
+      "pronunciation": "HOO-kum",
+      "language": "Punjabi",
+      "usage": "The will by which everything happens. To live in tune with it is the opposite of self-centredness."
+    },
+    {
+      "id": "word-haumai",
+      "term": "Haumai",
+      "meaning": "I-me; ego",
+      "pronunciation": "how-MAY",
+      "language": "Punjabi",
+      "usage": "The sense of separate self-importance. Guru Nanak calls it the deepest disease, and one that contains its own cure."
+    },
+    {
+      "id": "word-manmukh",
+      "term": "Manmukh",
+      "meaning": "One who faces the self",
+      "pronunciation": "mun-MOOK",
+      "language": "Punjabi",
+      "usage": "A person led by their own ego."
+    },
+    {
+      "id": "word-gurmukh",
+      "term": "Gurmukh",
+      "meaning": "One who faces the Guru",
+      "pronunciation": "goor-MOOK",
+      "language": "Punjabi",
+      "usage": "A person turned toward the truth and living by it."
+    },
+    {
+      "id": "word-khalsa",
+      "term": "Khalsa",
+      "meaning": "The pure; those directly the Guru’s own",
+      "pronunciation": "KHAHL-sa",
+      "language": "Punjabi",
+      "usage": "The community of initiated Sikhs founded in 1699, committed to a discipline and to defending the weak."
+    },
+    {
+      "id": "word-amrit",
+      "term": "Amrit",
+      "meaning": "Nectar",
+      "pronunciation": "UM-rit",
+      "language": "Punjabi",
+      "usage": "Sweetened water stirred with a double-edged sword, used in the Khalsa initiation."
+    },
+    {
+      "id": "word-amrit-vela",
+      "term": "Amrit vela",
+      "meaning": "The ambrosial hours",
+      "pronunciation": "UM-rit VAY-la",
+      "language": "Punjabi",
+      "usage": "The last hours before dawn, held to be the best time for remembrance."
+    },
+    {
+      "id": "word-chardi-kala",
+      "term": "Chardi kala",
+      "meaning": "Rising spirits",
+      "pronunciation": "CHUR-dee KUH-la",
+      "language": "Punjabi",
+      "usage": "Steady, defiant optimism, kept up especially in hardship."
+    },
+    {
+      "id": "word-sarbat-da-bhala",
+      "term": "Sarbat da bhala",
+      "meaning": "The welfare of all",
+      "pronunciation": "SUR-but da buh-LAH",
+      "language": "Punjabi",
+      "usage": "What Sikhs pray for at the end of every service: the good of everyone, everywhere."
+    },
+    {
+      "id": "word-miri-piri",
+      "term": "Miri piri",
+      "meaning": "Worldly and spiritual authority",
+      "pronunciation": "MEE-ree PEE-ree",
+      "language": "Punjabi",
+      "usage": "The two swords of Guru Hargobind. A Sikh attends to both justice in the world and devotion."
+    },
+    {
+      "id": "word-sat-sri-akal",
+      "term": "Sat Sri Akal",
+      "meaning": "The timeless one is truth",
+      "pronunciation": "SUT sree a-KAHL",
+      "language": "Punjabi",
+      "usage": "A common Sikh greeting, and the answer to a victory call."
+    },
+    {
+      "id": "word-karah-prashad",
+      "term": "Karah prashad",
+      "meaning": "The blessed sweet",
+      "pronunciation": "kuh-RAH pur-SHAHD",
+      "language": "Punjabi",
+      "usage": "Warm pudding of flour, butter and sugar given to everyone at the end of a service. Receive it in cupped hands."
+    },
+    {
+      "id": "word-nishan-sahib",
+      "term": "Nishan Sahib",
+      "meaning": "The honoured flag",
+      "pronunciation": "ni-SHAHN sah-HIB",
+      "language": "Punjabi",
+      "usage": "The tall saffron flag that marks every gurdwara, so a traveller can find food and shelter from far off."
+    }
+  ],
+  "practices": [
+    {
+      "id": "amrit-vela",
+      "name": "The ambrosial hour",
+      "icon": "sun-horizon",
+      "slot": "Morning",
+      "time": "05:45",
+      "minutes": 15,
+      "meta": "Morning · 15 min",
+      "instructions": "Rise before or near dawn and wash. Sit quietly with your back straight. Read aloud, or listen to, the opening of the Japji: there is one reality, truth is its name, the creator, without fear, without hatred, timeless, unborn, self-existent, known by grace. Then sit for ten minutes repeating a single word of remembrance on the breath. Use Waheguru if it sits well with you, or the word truth. When thoughts come, return.",
+      "why": "Guru Nanak’s Japji says: in the ambrosial hour before dawn, reflect on the true Name. Observant Sikhs begin every day this way, before the household wakes.",
+      "variations": [
+        "Listen to the whole Japji Sahib, about twenty minutes.",
+        "Walk outside as it gets light, repeating the word in step.",
+        "If dawn is impossible, keep the first quarter-hour after waking."
+      ]
+    },
+    {
+      "id": "honest-work",
+      "name": "Honest work",
+      "icon": "briefcase",
+      "slot": "Morning",
+      "time": "09:00",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Before you start work, name the task and ask three questions. Is this work honest: does it cheat or mislead anyone? Am I giving a full measure for what I am paid? Whom does it serve? Then work hard and without complaint. During the day, when you catch yourself cutting a corner, put it right at once.",
+      "why": "Kirat karni, earning by one’s own honest labour, is one of the three pillars Guru Nanak taught. He himself farmed at Kartarpur in his last years. The tradition has no monks and no begging.",
+      "variations": [
+        "Do one job today that is beneath your position.",
+        "Pay a debt or return something borrowed.",
+        "Thank someone whose labour you depend on."
+      ]
+    },
+    {
+      "id": "share-first",
+      "name": "Share before you eat",
+      "icon": "hand-heart",
+      "slot": "Afternoon",
+      "time": "12:30",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Before your main meal, share. Give part of your food to someone, pay for a stranger’s meal, or set aside a tenth of today’s earnings in a jar or an account kept for giving. Do it before you take your first mouthful. At the end of each week give away what has gathered.",
+      "why": "Vand chakna, sharing, is the third pillar. Sikhs set aside a tenth of income as dasvandh, and the free kitchen in every gurdwara is paid for and staffed by it.",
+      "variations": [
+        "Eat with someone you would not usually sit with.",
+        "Take food to a shelter or a food bank.",
+        "Invite a neighbour to your table."
+      ]
+    },
+    {
+      "id": "seva",
+      "name": "Seva: serve with your hands",
+      "icon": "broom",
+      "slot": "Afternoon",
+      "time": "16:30",
+      "minutes": 20,
+      "meta": "Afternoon · 20 min",
+      "instructions": "Give twenty minutes to work that helps other people and earns you nothing: wash dishes that are not yours, sweep a shared place, carry, cook, serve, mend. Choose the humblest job available. Do not mention it. While you work, keep your word of remembrance going quietly.",
+      "why": "In gurdwaras people of every background cook, serve and clean side by side, and minding the shoes of the congregation is counted an honour. Service wears down haumai, the self-importance at the root of suffering.",
+      "variations": [
+        "Volunteer at a gurdwara langar. Anyone may help.",
+        "Serve the people you live with, and eat last.",
+        "Pick up litter on your street."
+      ]
+    },
+    {
+      "id": "evening-kirtan",
+      "name": "Evening song and the prayer for all",
+      "icon": "music-notes",
+      "slot": "Evening",
+      "time": "19:30",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "At dusk sit down and listen to ten minutes of kirtan, the sung hymns of the Guru Granth Sahib, without doing anything else. Follow a translation if you can. Then stand, put your palms together and make a short prayer of your own in three parts: thanks for the day, mention of anyone who needs help, and last the wish that everyone, everywhere, may prosper.",
+      "why": "Sikhs recite Rehras at sunset and end every service standing for the Ardas, which closes with a prayer for the welfare of all humankind.",
+      "variations": [
+        "Sing along, however badly.",
+        "Play the live broadcast from the Golden Temple.",
+        "End the day with Kirtan Sohila, the short bedtime prayer, in translation."
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task-eat-a-meal-sitting-on-the-floor-beside-someone-the-same-food-for-both",
+      "name": "Eat a meal sitting on the floor beside someone, the same food for both",
+      "meta": "Eat · pangat",
+      "time": "13:00",
+      "slot": "Afternoon",
+      "action": "eat"
+    },
+    {
+      "id": "task-visit-a-gurdwara-cover-your-head-and-eat-in-the-langar",
+      "name": "Visit a gurdwara, cover your head and eat in the langar",
+      "meta": "Travel · all are welcome, every day",
+      "time": "12:00",
+      "slot": "Afternoon",
+      "action": "travel"
+    },
+    {
+      "id": "task-read-the-japji-in-translation",
+      "name": "Read the Japji in translation",
+      "meta": "Read · thirty-eight short stanzas",
+      "time": "20:00",
+      "slot": "Evening",
+      "action": "read"
+    },
+    {
+      "id": "task-listen-to-asa-di-var-at-dawn",
+      "name": "Listen to Asa di Var at dawn",
+      "meta": "Listen · the morning ballad",
+      "time": "06:30",
+      "slot": "Morning",
+      "action": "listen"
+    },
+    {
+      "id": "put-a-tenth-of-today-s-income-aside",
+      "name": "Put a tenth of today’s income aside",
+      "meta": "Dasvandh",
+      "time": "18:00",
+      "slot": "Evening"
+    },
+    {
+      "id": "stand-up-for-someone-who-is-being-treated-unfairly",
+      "name": "Stand up for someone who is being treated unfairly",
+      "meta": "A small act counts",
+      "time": "15:00",
+      "slot": "Afternoon"
+    },
+    {
+      "id": "task-journal-where-did-the-self-get-in-the-way-today",
+      "name": "Journal: where did the self get in the way today?",
+      "meta": "Journal · 10 min",
+      "time": "21:00",
+      "slot": "Evening",
+      "action": "journal"
+    },
+    {
+      "id": "task-hukam-what-are-you-fighting-that-simply-is",
+      "name": "Hukam: what are you fighting that simply is?",
+      "meta": "Philosophy · 10 min",
+      "time": "08:30",
+      "slot": "Morning",
+      "action": "philosophy"
+    },
+    {
+      "id": "greet-a-stranger-as-an-equal-and-learn-their-name",
+      "name": "Greet a stranger as an equal and learn their name",
+      "meta": "No one is a stranger",
+      "time": "10:00",
+      "slot": "Morning"
+    }
+  ],
+  "rules": [
+    {
+      "id": "r1",
+      "text": "Rise early and remember",
+      "why": "Give the first quarter-hour of the day to stillness and the Name, before news and messages."
+    },
+    {
+      "id": "r2",
+      "text": "Earn honestly",
+      "why": "No cheating, no padding, no living off others. Give a full day’s work."
+    },
+    {
+      "id": "r3",
+      "text": "Share before you consume",
+      "why": "Part of every meal and a tenth of every earning goes to someone else first."
+    },
+    {
+      "id": "r4",
+      "text": "Treat everyone as equal",
+      "why": "Same greeting, same seat, same respect for the cleaner and the director. No one is a stranger."
+    },
+    {
+      "id": "r5",
+      "text": "Serve with your hands every day",
+      "why": "One humble job for others, unpaid and unannounced."
+    },
+    {
+      "id": "r6",
+      "text": "Keep your spirits high",
+      "why": "No complaining today. Meet setbacks with chardi kala: rising spirits."
+    }
+  ],
+  "immerse": {
+    "read": [
+      {
+        "id": "read-hymns-of-the-sikh-gurus",
+        "title": "Hymns of the Sikh Gurus",
+        "creator": "trans. Nikky-Guninder Kaur Singh",
+        "year": "2019",
+        "why": "A wide selection from the scripture in clear modern English, with the daily prayers complete."
+      },
+      {
+        "id": "read-japji-sahib",
+        "title": "Japji Sahib",
+        "creator": "Guru Nanak; many translations",
+        "year": "about 1500",
+        "why": "The morning prayer that opens the scripture. Thirty-eight stanzas on the One, the divine order and the stages of the journey."
+      },
+      {
+        "id": "read-sikhism-a-very-short-introduction",
+        "title": "Sikhism: A Very Short Introduction",
+        "creator": "Eleanor Nesbitt",
+        "year": "2nd edition 2016",
+        "why": "A reliable small book on history, practice and Sikh life today."
+      },
+      {
+        "id": "read-a-history-of-the-sikhs",
+        "title": "A History of the Sikhs",
+        "creator": "Khushwant Singh",
+        "year": "1963; revised 2004",
+        "why": "Two volumes by the great Punjabi man of letters. Readable and unsentimental."
+      },
+      {
+        "id": "read-the-sikhs",
+        "title": "The Sikhs",
+        "creator": "Patwant Singh",
+        "year": "1999",
+        "why": "One volume, told with feeling, from Nanak to 1984."
+      },
+      {
+        "id": "read-train-to-pakistan",
+        "title": "Train to Pakistan",
+        "creator": "Khushwant Singh",
+        "year": "1956",
+        "why": "A short novel of a border village in the summer of 1947, as Partition tears Sikh and Muslim neighbours apart."
+      }
+    ],
+    "watch": [
+      {
+        "id": "watch-himself-he-cooks",
+        "title": "Himself He Cooks",
+        "creator": "Valérie Berteau and Philippe Witjes",
+        "year": "2011",
+        "why": "A wordless hour inside the kitchen of the Golden Temple, where volunteers feed tens of thousands every day."
+      },
+      {
+        "id": "watch-chaar-sahibzaade",
+        "title": "Chaar Sahibzaade",
+        "creator": "Harry Baweja",
+        "year": "2014",
+        "why": "An animated telling of the martyrdom of Guru Gobind Singh’s four sons. Loved by Sikh families."
+      },
+      {
+        "id": "watch-punjab-1984",
+        "title": "Punjab 1984",
+        "creator": "Anurag Singh",
+        "year": "2014",
+        "why": "A mother searches for her son during the insurgency years. A Punjabi film about how ordinary families lived through them."
+      },
+      {
+        "id": "watch-bend-it-like-beckham",
+        "title": "Bend It Like Beckham",
+        "creator": "Gurinder Chadha",
+        "year": "2002",
+        "why": "A British Punjabi Sikh girl wants to play football. Light, warm and exact about a diaspora household."
+      }
+    ],
+    "listen": [
+      {
+        "id": "listen-live-kirtan-from-sri-harmandir-sahib",
+        "title": "Live kirtan from Sri Harmandir Sahib",
+        "creator": "Hazuri ragis of the Golden Temple",
+        "year": "daily",
+        "why": "Hymns are sung there from before dawn until late at night and broadcast live. Put it on and leave it on."
+      },
+      {
+        "id": "listen-asa-di-var",
+        "title": "Asa di Var",
+        "creator": "Bhai Surjan Singh, or the Golden Temple ragis",
+        "year": "16th century text",
+        "why": "Guru Nanak’s morning ballad, sung before sunrise. It contains the lines on the dignity of women."
+      },
+      {
+        "id": "listen-japji-sahib",
+        "title": "Japji Sahib",
+        "creator": "Recited by Bhai Tarlochan Singh and many others",
+        "year": "about 1500",
+        "why": "The morning prayer recited at an even pace. Twenty minutes."
+      },
+      {
+        "id": "listen-gurbani-in-the-original-ragas",
+        "title": "Gurbani in the original ragas",
+        "creator": "Bhai Avtar Singh and Bhai Gurcharan Singh",
+        "year": "20th century recordings",
+        "why": "Eleventh-generation musicians who kept the old melodic forms, with stringed instruments in place of the harmonium."
+      }
+    ],
+    "art": [
+      {
+        "id": "art-sri-harmandir-sahib-the-golden-temple",
+        "title": "Sri Harmandir Sahib, the Golden Temple",
+        "creator": "Amritsar, Punjab",
+        "year": "founded 1577; gilded in the early 19th century",
+        "why": "A low marble and gold shrine in the middle of a pool, reached by a causeway and entered by descending steps. Its four doors stand open to all sides."
+      },
+      {
+        "id": "art-janamsakhi-paintings",
+        "title": "Janamsakhi paintings",
+        "creator": "Punjab workshops, such as the B-40 manuscript of 1733",
+        "year": "17th to 19th century",
+        "why": "Lively small pictures of the travels of Guru Nanak with Mardana the Muslim musician and Bala. The B-40 is in the British Library."
+      },
+      {
+        "id": "art-portraits-of-guru-nanak",
+        "title": "Portraits of Guru Nanak",
+        "creator": "Sobha Singh",
+        "year": "1969",
+        "why": "The gentle, white-bearded image with a raised hand that hangs in millions of Sikh homes. It is a modern devotional picture and no likeness survives."
+      },
+      {
+        "id": "art-slough-and-entwined",
+        "title": "Slough and EnTWINed",
+        "creator": "The Singh Twins",
+        "year": "1990s to the present",
+        "why": "Two British Sikh sisters paint diaspora life and imperial history in the jewelled style of Indian miniatures."
+      }
+    ],
+    "eat": [
+      {
+        "id": "eat-langar-dal-and-roti",
+        "title": "Langar dal and roti",
+        "creator": "Black lentils simmered for hours, with flatbread",
+        "why": "The meal of every gurdwara: simple, vegetarian so that everyone can eat it, and served to all in the same rows."
+      },
+      {
+        "id": "eat-karah-prashad",
+        "title": "Karah prashad",
+        "creator": "Equal parts wholewheat flour, ghee and sugar, with water",
+        "why": "Stirred over heat while prayers are recited and given warm to everyone present."
+      },
+      {
+        "id": "eat-sarson-da-saag-and-makki-di-roti",
+        "title": "Sarson da saag and makki di roti",
+        "creator": "Mustard greens with maize flatbread and white butter",
+        "why": "The winter dish of Punjab’s farmers."
+      },
+      {
+        "id": "eat-kheer",
+        "title": "Kheer",
+        "creator": "Rice pudding with cardamom",
+        "why": "Served in the langar on festival days."
+      }
+    ],
+    "drink": [
+      {
+        "id": "drink-lassi",
+        "title": "Lassi",
+        "creator": "Churned yogurt, salted or sweet",
+        "why": "The drink of Punjab, served in tall steel tumblers."
+      },
+      {
+        "id": "drink-cha",
+        "title": "Cha",
+        "creator": "Milky tea boiled with cardamom and fennel",
+        "why": "Tea is served to visitors in the langar hall at all hours."
+      },
+      {
+        "id": "drink-sweet-water-at-a-chhabeel",
+        "title": "Sweet water at a chhabeel",
+        "creator": "Milk, water, sugar and rose syrup",
+        "why": "In the heat of June Sikhs set up roadside stalls and hand cold sweet drinks to every passer-by, in memory of Guru Arjan."
+      }
+    ],
+    "customs": [
+      {
+        "id": "customs-covering-the-head-and-removing-shoes",
+        "title": "Covering the head and removing shoes",
+        "creator": "On entering a gurdwara",
+        "why": "Everyone does both. Scarves are provided. Tobacco and alcohol are never brought in."
+      },
+      {
+        "id": "customs-bowing-to-the-guru-granth-sahib",
+        "title": "Bowing to the Guru Granth Sahib",
+        "creator": "Matha tekna",
+        "why": "On entering the hall people walk to the scripture, kneel and touch the forehead to the floor. A visitor may simply stand respectfully, then sit on the floor with the congregation."
+      },
+      {
+        "id": "customs-the-names-singh-and-kaur",
+        "title": "The names Singh and Kaur",
+        "creator": "Lion and princess",
+        "why": "Given to all Khalsa Sikhs in 1699 to erase caste surnames and to give women a name of their own."
+      },
+      {
+        "id": "customs-the-five-ks",
+        "title": "The five Ks",
+        "creator": "Articles of the initiated",
+        "why": "Uncut hair, a wooden comb, a steel bracelet, cotton shorts and a short sword. They are articles of faith worn by initiated Sikhs, and visitors should not copy them."
+      }
+    ],
+    "games": [
+      {
+        "id": "games-kabaddi",
+        "title": "Kabaddi",
+        "creator": "Team sport · Punjab",
+        "year": "ancient",
+        "why": "A raider crosses the line on one breath, tags a defender and tries to get home. Punjab plays the circle style, and Sikh villages are its heartland."
+      },
+      {
+        "id": "games-gatka",
+        "title": "Gatka",
+        "creator": "Martial art · Punjab",
+        "year": "from the 17th century",
+        "why": "The Sikh art of the stick and sword, practised to drums and displayed at festivals. Find a demonstration at Vaisakhi."
+      },
+      {
+        "id": "games-field-hockey",
+        "title": "Field hockey",
+        "creator": "Team sport",
+        "year": "modern",
+        "why": "Punjab’s adopted game. Sikh players such as Balbir Singh Sr., who won three Olympic golds, made India the great hockey power of the mid twentieth century."
+      }
+    ],
+    "festivals": [
+      {
+        "id": "fest-vaisakhi",
+        "title": "Vaisakhi",
+        "creator": "13 or 14 April",
+        "why": "The spring harvest and the founding of the Khalsa in 1699. Processions, new flags on every gurdwara and street langars."
+      },
+      {
+        "id": "fest-guru-nanak-gurpurab",
+        "title": "Guru Nanak Gurpurab",
+        "creator": "November, at the full moon of Kartik",
+        "why": "The founder’s birthday. The whole scripture is read aloud without a break over forty-eight hours beforehand."
+      },
+      {
+        "id": "fest-bandi-chhor-divas",
+        "title": "Bandi Chhor Divas",
+        "creator": "October or November, on Diwali",
+        "why": "The day of release, when Guru Hargobind left prison bringing fifty-two captive princes with him. The Golden Temple is lit with lamps."
+      },
+      {
+        "id": "fest-hola-mohalla",
+        "title": "Hola Mohalla",
+        "creator": "March, the day after Holi",
+        "why": "Three days of mock battles, riding and poetry at Anandpur Sahib, begun by Guru Gobind Singh."
+      }
+    ],
+    "places": [
+      {
+        "id": "place-sri-harmandir-sahib",
+        "title": "Sri Harmandir Sahib",
+        "creator": "Amritsar, Punjab, India",
+        "why": "The Golden Temple. Walk the marble path round the pool, listen, and eat in the langar, which serves around a hundred thousand meals a day. Go before dawn as well."
+      },
+      {
+        "id": "place-anandpur-sahib",
+        "title": "Anandpur Sahib",
+        "creator": "Punjab, India",
+        "why": "The town where the Khalsa was created. The Virasat-e-Khalsa museum here tells Sikh history in a building by Moshe Safdie."
+      },
+      {
+        "id": "place-gurdwara-darbar-sahib-kartarpur",
+        "title": "Gurdwara Darbar Sahib, Kartarpur",
+        "creator": "Narowal, Pakistan",
+        "why": "Where Guru Nanak farmed and died. Since 2019 a visa-free corridor has let pilgrims cross from India for the day. Check that it is open."
+      },
+      {
+        "id": "place-gurdwara-bangla-sahib",
+        "title": "Gurdwara Bangla Sahib",
+        "creator": "New Delhi, India",
+        "why": "A gold-domed gurdwara with a large pool in the middle of the capital. An easy and welcoming first visit."
+      },
+      {
+        "id": "place-gurdwara-sri-guru-singh-sabha",
+        "title": "Gurdwara Sri Guru Singh Sabha",
+        "creator": "Southall, London, United Kingdom",
+        "why": "One of the largest gurdwaras outside India. The langar is open every day."
+      }
+    ]
+  },
+  "ethics": [
+    {
+      "title": "Equality",
+      "text": "The Gurus rejected caste, taught the equal dignity of women and men and built the free kitchen so that everyone would eat together. There is one light in all.",
+      "practice": "Share a meal or a table today with someone of a different standing from your own."
+    },
+    {
+      "title": "Honest labour",
+      "text": "Guru Nanak chose to eat the coarse bread of a carpenter over a rich official’s feast, saying that honest bread holds milk and extorted bread holds blood.",
+      "practice": "Look at where your money came from this month. Is any of it not clean?"
+    },
+    {
+      "title": "Service",
+      "text": "Seva is done with body, mind and wealth. It is owed to everyone without distinction, as when Bhai Kanhaiya gave water to wounded enemies on the battlefield.",
+      "practice": "Help someone today who is not on your side."
+    },
+    {
+      "title": "Courage for justice",
+      "text": "A Sikh is to be a saint-soldier: gentle, and ready to defend the oppressed. Guru Tegh Bahadur gave his life for the right of another religion to exist.",
+      "practice": "Speak up once today where staying quiet would be easier."
+    },
+    {
+      "title": "Contentment",
+      "text": "Santokh is being at ease with what one has while working hard. It guards against the five thieves: lust, anger, greed, attachment and pride.",
+      "practice": "Name which of the five thieves visited you today."
+    },
+    {
+      "title": "Humility",
+      "text": "The scripture is fanned and carried on the head, and its Gurus described themselves as the lowest of the low. Greatness is measured by service.",
+      "practice": "Let someone else take the credit today."
+    }
+  ],
+  "philosophy": [
+    {
+      "title": "One",
+      "text": "The scripture begins with the numeral one. There is a single reality, without form or gender, present in everything and beyond everything. All religions’ names for it are accepted.",
+      "practice": "Look for the same light in three people you meet today."
+    },
+    {
+      "title": "The Name",
+      "text": "Naam is the divine as it sounds through the world. Remembering it, by repetition and by attention, slowly re-tunes a person from self-centred to centred on the One.",
+      "practice": "Set three alarms today. At each, stop for one minute and remember."
+    },
+    {
+      "title": "The disease of I",
+      "text": "Haumai, the sense of I and mine, is what separates a person from others and from God. It cannot be removed by ritual or by willpower. It dissolves through remembrance, service and grace.",
+      "practice": "Count how many of your sentences today begin with I."
+    },
+    {
+      "title": "The divine order",
+      "text": "Everything happens within hukam. To recognise it is to stop saying I did this, and to act fully while accepting what comes. Guru Nanak says the one who understands it has no ego.",
+      "practice": "Take one thing you are resisting and act as if it had been given to you on purpose."
+    },
+    {
+      "title": "Householder, not hermit",
+      "text": "The Gurus married, worked and raised children. Liberation is found, in the scripture’s image, like the lotus that lives in water and stays dry.",
+      "practice": "Find the sacred in one domestic chore today."
+    },
+    {
+      "title": "The three pillars",
+      "text": "Remember the Name, earn honestly, share with others. They are meant to be done together: devotion without work is idle, work without sharing is greed.",
+      "practice": "Check which pillar is shortest in your life this week."
+    },
+    {
+      "title": "Saint and soldier",
+      "text": "Guru Hargobind wore two swords, for spiritual and worldly authority. Prayer and justice belong together, and force is allowed only as a last resort in defence of the weak.",
+      "practice": "Ask what you would defend, and what it would cost you."
+    },
+    {
+      "title": "The Word as Guru",
+      "text": "In 1708 the last human Guru named the scripture as his successor. Authority passed from a person to a text sung in community, so that no one could own it.",
+      "practice": "Read one hymn slowly aloud and ask what it asks of you today."
+    }
+  ],
+  "journal": [
+    "Where did the self get in the way today?",
+    "What did you remember in the first hour?",
+    "Was today’s work honest?",
+    "What did you share before you ate?",
+    "Whom did you serve, and did you tell anyone?",
+    "Whom did you treat as a stranger?",
+    "Which of the five thieves visited?",
+    "What did you complain about?",
+    "Where were your spirits tested?",
+    "What are you fighting that simply is?",
+    "Who sat beside you today, and who was not welcome?",
+    "What would you defend at a cost to yourself?",
+    "What job do you think is beneath you?",
+    "How much of your income is truly yours to keep?",
+    "When were you a learner today?",
+    "What did the music do?",
+    "Whose labour fed you?",
+    "What do you want credit for?",
+    "Where did you stay silent when you should have spoken?",
+    "What does the welfare of all require of you?",
+    "What is your company doing to you?",
+    "What did you do today with your hands?",
+    "Whom do you look down on?",
+    "Where did you see the same light?",
+    "What would contentment look like?",
+    "What fear governs you?",
+    "What hatred do you carry?",
+    "Who is your teacher?",
+    "How open are the doors of your home?",
+    "What will you do tomorrow before dawn?"
+  ],
+  "reflect": [
+    "What changed when the day began with remembrance?",
+    "What did serving with your hands teach you about yourself?",
+    "What did sharing first do to your sense of what is yours?",
+    "Whom do you now see as an equal?",
+    "Where did you find rising spirits?",
+    "Which pillar will you keep building?"
+  ],
+  "dayThemes": [
+    "One",
+    "The ambrosial hour",
+    "Truthful living",
+    "Honest bread",
+    "Share first",
+    "The row",
+    "Seva",
+    "No stranger",
+    "The Name",
+    "The disease of I",
+    "The divine order",
+    "Nanak at the river",
+    "Mardana’s rabab",
+    "The free kitchen",
+    "Four doors",
+    "Lotus in water",
+    "A tenth",
+    "Five thieves",
+    "Contentment",
+    "The carpenter’s bread",
+    "Two swords",
+    "Standing for another",
+    "Lion and princess",
+    "Water for the enemy",
+    "Rising spirits",
+    "The Word as Guru",
+    "Sung praise",
+    "The humblest job",
+    "The whole human race",
+    "The welfare of all"
+  ],
+  "guide": {
+    "intro": [
+      "Sikhism began in Punjab at the end of the fifteenth century with a man named Nanak. He was born in 1469 to a Hindu family in a village west of Lahore, in a region ruled by Muslims. Around the age of thirty he disappeared while bathing in a river and returned three days later saying: there is no Hindu, there is no Muslim. He spent the next two decades travelling, by tradition as far as Mecca, Tibet and Sri Lanka, with a Muslim musician named Mardana, singing what he had understood.",
+      "What he taught was simple and hard. There is one God, formless and present in everyone. No ritual, pilgrimage, caste or priest brings a person closer. What does is to remember the divine Name, to earn a living by honest work and to share what one earns. Women and men, high and low, are equal. He settled at last as a farmer at Kartarpur, where his followers, called Sikhs or learners, worked, sang and ate together.",
+      "Nine Gurus followed him, and each added to the community. The free kitchen was made a fixed rule. The city of Amritsar was founded and its temple built with doors on four sides. The fifth Guru, Arjan, compiled the hymns of his predecessors and of Hindu and Muslim saints into a scripture, and was tortured to death by the Mughal emperor in 1606. After that the Gurus bore arms. The ninth, Tegh Bahadur, was beheaded in Delhi in 1675 for defending the freedom of Hindus to practise their religion.",
+      "His son, Guru Gobind Singh, gave the community its final form. On the spring festival of 1699 he founded the Khalsa, an order of initiated women and men committed to a strict discipline, to equality and to the defence of the weak, marked by five articles of faith including uncut hair. Before his death in 1708 he declared that there would be no more human Gurus. The scripture, the Guru Granth Sahib, is the Guru, and it is treated as a living sovereign.",
+      "There are about twenty-five million Sikhs today, most in Indian Punjab, with large communities in Britain, Canada, the United States, East Africa and Australia. Wherever they have settled there is a gurdwara, and in every gurdwara there is a kitchen that feeds anyone who walks in, free, with no questions.",
+      "This Onda follows the three pillars through a day: remembrance before dawn, honest work, sharing before eating, service with the hands and song at dusk. You are a guest. The articles of faith and the initiation belong to committed Sikhs, and you are not asked to adopt them. A visit to a gurdwara, though, is open to everyone, and you will be fed."
+    ],
+    "origin": "Punjab, the land of five rivers, now divided between India and Pakistan",
+    "era": "Guru Nanak was born in 1469. The line of ten Gurus ended in 1708 with the scripture as Guru",
+    "figures": [
+      {
+        "name": "Guru Nanak",
+        "dates": "1469 to 1539",
+        "bio": "The founder. Poet, traveller and farmer. His 974 hymns are the foundation of the scripture."
+      },
+      {
+        "name": "Bhai Mardana",
+        "dates": "1459 to 1534",
+        "bio": "A Muslim musician of the minstrel caste who accompanied Nanak on the rabab for decades. The first Sikh after the Guru’s sister."
+      },
+      {
+        "name": "Guru Amar Das",
+        "dates": "1479 to 1574",
+        "bio": "The third Guru. He made eating in the langar a condition of meeting him, appointed women as preachers and opposed the veil and widow burning."
+      },
+      {
+        "name": "Guru Arjan",
+        "dates": "1563 to 1606",
+        "bio": "The fifth Guru. He completed the Harmandir Sahib, compiled the scripture in 1604 and became the first Sikh martyr."
+      },
+      {
+        "name": "Guru Hargobind",
+        "dates": "1595 to 1644",
+        "bio": "The sixth Guru, who wore two swords, built the Akal Takht as a seat of worldly authority and trained the Sikhs to defend themselves."
+      },
+      {
+        "name": "Guru Tegh Bahadur",
+        "dates": "1621 to 1675",
+        "bio": "The ninth Guru. Executed in Delhi after he took up the cause of Kashmiri Hindus who faced forced conversion."
+      },
+      {
+        "name": "Guru Gobind Singh",
+        "dates": "1666 to 1708",
+        "bio": "The tenth Guru: poet, warrior and founder of the Khalsa. He lost his father, his mother and all four sons to the struggle."
+      },
+      {
+        "name": "Mai Bhago",
+        "dates": "late 17th to early 18th century",
+        "bio": "A woman who shamed forty deserters into returning and led them into battle at Muktsar in 1705. She later served as one of the Guru’s bodyguards."
+      },
+      {
+        "name": "Maharaja Ranjit Singh",
+        "dates": "1780 to 1839",
+        "bio": "The one-eyed ruler who united Punjab into a Sikh kingdom, employed ministers of every faith and gave the gold for the temple at Amritsar."
+      },
+      {
+        "name": "Bhagat Puran Singh",
+        "dates": "1904 to 1992",
+        "bio": "He carried a disabled boy on his back for years and founded Pingalwara in Amritsar, a home for the destitute and sick that still runs on donations."
+      }
+    ],
+    "history": [
+      {
+        "when": "1469",
+        "what": "Birth of Nanak",
+        "detail": "At Talwandi, now Nankana Sahib in Pakistan. He works as a storekeeper for a local governor before his calling."
+      },
+      {
+        "when": "about 1499",
+        "what": "The revelation at the river",
+        "detail": "Nanak vanishes into the Bein and emerges with his message. He gives away his goods and begins his travels."
+      },
+      {
+        "when": "about 1521",
+        "what": "Kartarpur",
+        "detail": "He founds a village on the Ravi, farms, and establishes the pattern of work, worship and shared meals."
+      },
+      {
+        "when": "1577",
+        "what": "Amritsar founded",
+        "detail": "Guru Ram Das digs the pool of nectar. His son Arjan builds the Harmandir in its centre, lower than the surrounding ground and open on four sides."
+      },
+      {
+        "when": "1604",
+        "what": "The scripture is installed",
+        "detail": "The Adi Granth, written out by Bhai Gurdas, is placed in the Harmandir. It includes hymns by Kabir, Farid, Ravidas and other saints of both religions and all castes."
+      },
+      {
+        "when": "1606",
+        "what": "Martyrdom of Guru Arjan",
+        "detail": "He is tortured to death at Lahore on the orders of the emperor Jahangir. His son takes up arms."
+      },
+      {
+        "when": "1675",
+        "what": "Martyrdom of Guru Tegh Bahadur",
+        "detail": "He is beheaded in Chandni Chowk, Delhi, under Aurangzeb. Gurdwara Sis Ganj stands on the site."
+      },
+      {
+        "when": "1699",
+        "what": "The Khalsa",
+        "detail": "At Anandpur on Vaisakhi day, Gobind Singh calls for a volunteer to give his head. Five come forward, are initiated with sweetened water and then initiate him."
+      },
+      {
+        "when": "1708",
+        "what": "The Granth becomes Guru",
+        "detail": "Dying of stab wounds at Nanded, Guru Gobind Singh ends the human line and vests authority in the scripture and the community."
+      },
+      {
+        "when": "1799 to 1849",
+        "what": "The Sikh kingdom",
+        "detail": "Ranjit Singh takes Lahore and rules an empire from the Khyber to the Sutlej. Ten years after his death it falls to the British after two wars."
+      },
+      {
+        "when": "1919 and 1920s",
+        "what": "Amritsar and reform",
+        "detail": "British troops kill hundreds at a Vaisakhi gathering in Jallianwala Bagh. Soon after, a non-violent campaign wins control of the gurdwaras for an elected Sikh body."
+      },
+      {
+        "when": "1947",
+        "what": "Partition",
+        "detail": "Punjab is cut in two. Millions of Sikhs leave their homes and holy places in the west, and hundreds of thousands of people of all communities die."
+      },
+      {
+        "when": "1984",
+        "what": "The assault on the Golden Temple and after",
+        "detail": "In June the Indian army storms the temple complex to remove armed militants, with heavy loss of life. After two Sikh bodyguards assassinate the prime minister in October, mobs kill thousands of Sikhs in Delhi and elsewhere."
+      }
+    ],
+    "concepts": [
+      {
+        "term": "Ik Onkar",
+        "text": "The One.",
+        "detail": "God is single, formless, without fear or enmity, beyond birth and death, and known through grace. The opening statement, the Mul Mantar, is recited daily."
+      },
+      {
+        "term": "Naam",
+        "text": "The Name.",
+        "detail": "Both the name of God and God’s presence pervading creation. Naam japna, remembering the Name, is the first pillar."
+      },
+      {
+        "term": "Haumai",
+        "text": "Ego.",
+        "detail": "The root problem: living as though one were separate and central. Its five outgrowths are lust, anger, greed, attachment and pride."
+      },
+      {
+        "term": "Hukam",
+        "text": "The order.",
+        "detail": "The will or command by which the universe runs. Wisdom is to recognise it and act in harmony with it."
+      },
+      {
+        "term": "Grace",
+        "text": "Nadar, the glance of favour.",
+        "detail": "Effort is required, but liberation finally comes as a gift. This keeps the devout from pride in their own virtue."
+      },
+      {
+        "term": "The Guru",
+        "text": "One light in ten lamps.",
+        "detail": "Sikhs hold that a single guiding light passed through ten human teachers and now rests in the scripture and in the gathered community."
+      },
+      {
+        "term": "Sangat and pangat",
+        "text": "Company and the row.",
+        "detail": "Worshipping together and eating together as equals. The two institutions that made a community out of followers."
+      },
+      {
+        "term": "The Khalsa",
+        "text": "The order of the pure.",
+        "detail": "Initiated Sikhs keep the five articles of faith, rise early to pray, give a tenth and abstain from tobacco, intoxicants and adultery."
+      },
+      {
+        "term": "Miri and piri",
+        "text": "Temporal and spiritual.",
+        "detail": "The principle that religion must concern itself with justice in the world. The Akal Takht faces the Harmandir Sahib for this reason."
+      }
+    ],
+    "facts": [
+      {
+        "text": "The kitchen of the Golden Temple serves between fifty thousand and a hundred thousand free meals every day, almost entirely with volunteer labour."
+      },
+      {
+        "text": "The Guru Granth Sahib has 1,430 pages in every printed copy, with the same hymn on the same page everywhere."
+      },
+      {
+        "text": "The scripture is arranged by musical mode: thirty-one ragas, with instructions on how each hymn is to be sung."
+      },
+      {
+        "text": "Each night the scripture is carried in procession to a bedchamber and each morning it is brought back and opened at random for the order of the day."
+      },
+      {
+        "text": "The steel bracelet has no beginning and no end, and it is on the hand that works."
+      },
+      {
+        "text": "Sikhs are about two per cent of India’s population and have long made up a far larger share of its army."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Mul Mantar",
+        "meaning": "The opening statement of the scripture, beginning Ik Onkar"
+      },
+      {
+        "term": "Ardas",
+        "meaning": "The standing prayer that closes every service"
+      },
+      {
+        "term": "Akal Takht",
+        "meaning": "The throne of the timeless one: the seat of Sikh temporal authority at Amritsar"
+      },
+      {
+        "term": "Granthi",
+        "meaning": "The reader and custodian of the scripture in a gurdwara"
+      },
+      {
+        "term": "Ragi",
+        "meaning": "A musician who sings gurbani"
+      },
+      {
+        "term": "Gurmukhi",
+        "meaning": "The script of the scripture and of modern Punjabi"
+      }
+    ],
+    "furtherReading": [
+      {
+        "title": "The Sikhs: History, Religion and Society",
+        "creator": "W. H. McLeod",
+        "year": "1989",
+        "note": "A careful historian’s account. Some of his conclusions are disputed within the community."
+      },
+      {
+        "title": "The First Sikh: The Life and Legacy of Guru Nanak",
+        "creator": "Nikky-Guninder Kaur Singh",
+        "year": "2019",
+        "note": "A biography that draws on the hymns and the early paintings."
+      },
+      {
+        "title": "Empire of the Sikhs",
+        "creator": "Patwant Singh and Jyoti M. Rai",
+        "year": "2008",
+        "note": "The life and times of Maharaja Ranjit Singh."
+      },
+      {
+        "title": "I Accuse: The Anti-Sikh Violence of 1984",
+        "creator": "Jarnail Singh",
+        "year": "2009",
+        "note": "Testimony from the survivors of November 1984."
+      }
+    ],
+    "learnFrom": [
+      {
+        "name": "SikhNet",
+        "note": "Daily readings, recorded kirtan and introductions to belief and practice.",
+        "link": "https://www.sikhnet.com"
+      },
+      {
+        "name": "SikhiToTheMax",
+        "note": "The full text of the scripture with transliteration and English translation, searchable.",
+        "link": "https://www.sikhitothemax.org"
+      },
+      {
+        "name": "Your nearest gurdwara",
+        "note": "Open to everyone, every day. Cover your head, take off your shoes, and stay for langar."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Sikhism: A Very Short Introduction",
+        "creator": "Eleanor Nesbitt",
+        "publisher": "Oxford University Press",
+        "year": "2nd edition 2016"
+      },
+      {
+        "title": "Hymns of the Sikh Gurus",
+        "creator": "trans. Nikky-Guninder Kaur Singh",
+        "publisher": "Penguin Classics",
+        "year": "2019"
+      },
+      {
+        "title": "A History of the Sikhs, volumes 1 and 2",
+        "creator": "Khushwant Singh",
+        "publisher": "Oxford University Press",
+        "year": "2nd edition 2004"
+      },
+      {
+        "title": "The Sikhs",
+        "creator": "Patwant Singh",
+        "publisher": "John Murray",
+        "year": "1999"
+      },
+      {
+        "title": "The Oxford Handbook of Sikh Studies",
+        "creator": "ed. Pashaura Singh and Louis E. Fenech",
+        "publisher": "Oxford University Press",
+        "year": "2014"
+      },
+      {
+        "title": "Sikhism: An Introduction",
+        "creator": "Nikky-Guninder Kaur Singh",
+        "publisher": "I. B. Tauris",
+        "year": "2011"
+      }
+    ]
+  },
+  "sensitivity": {
+    "note": "Sikhism is a living faith with a strong sense of identity. This Onda borrows the three pillars and the spirit of service. It does not ask you to wear the articles of faith or to imitate initiation, and it is no substitute for the sangat, the Sikh congregation.",
+    "requiredCaveats": [
+      "The turban and the five Ks are articles of faith. They are not costume.",
+      "The Guru Granth Sahib is treated as a living Guru. Printed or digital gurbani should be handled with respect.",
+      "The events of 1984 and of Partition are within living memory and remain painful.",
+      "Sikhs are often mistaken for members of other religions and have suffered violence because of it. Learn the difference."
+    ],
+    "reviewRequired": true
+  }
+}

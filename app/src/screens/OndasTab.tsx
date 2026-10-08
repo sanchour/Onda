@@ -160,8 +160,9 @@ export function OndaGroups({ onOpen, soon }: { onOpen: (id: string) => void; soo
   const [closed, setClosed] = useState<Record<string, boolean>>({})
   const toggle = (k: string) => () => setClosed((c) => ({ ...c, [k]: !c[k] }))
   const mine = list.filter((x) => !GROUP_OF[x.id])
+  const shipped = new Set(list.map((x) => x.id))
   const sections = [
-    ...BROWSE_GROUPS.map((g) => ({ key: g, title: t(`browse.${g}`), real: list.filter((x) => GROUP_OF[x.id] === g), soon: soon ? COMING_SOON.filter((c) => c.group === g) : [] })),
+    ...BROWSE_GROUPS.map((g) => ({ key: g, title: t(`browse.${g}`), real: list.filter((x) => GROUP_OF[x.id] === g), soon: soon ? COMING_SOON.filter((c) => c.group === g && !shipped.has(c.id)) : [] })),
     ...(mine.length ? [{ key: 'mine', title: t('browse.mine'), real: mine, soon: [] as typeof COMING_SOON }] : []),
   ].filter((sec) => sec.real.length + sec.soon.length > 0)
   return (

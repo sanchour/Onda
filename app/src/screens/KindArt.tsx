@@ -1,3 +1,4 @@
+import { ORNAMENTS5 } from './ornaments5'
 import type { ReactNode } from 'react'
 import type { MediaKind } from '@/content'
 import type { Ornament } from '@/content/themes'
@@ -215,6 +216,7 @@ const ORNAMENTS: Record<Ornament, ReactNode> = {
       <path d="M12 3.5v4M12 16.5v4M3.5 12h4M16.5 12h4" />
     </>
   ),
+  ...ORNAMENTS5,
 }
 
 export function OrnamentIcon({ name, size = 22 }: { name: Ornament; size?: number }) {

@@ -1,0 +1,1212 @@
+{
+  "version": 1,
+  "id": "jain",
+  "name": "Jainism",
+  "origin": "India",
+  "era": "From at least the 6th century BCE to today",
+  "tone": "yellow",
+  "icon": "hand-palm",
+  "font": "rozha-one",
+  "pattern": "four-dots",
+  "glyph": "अहिंसा",
+  "line": "Harm nothing that lives, own little and allow that others may also be right.",
+  "quote": {
+    "text": "I forgive all living beings. May all living beings forgive me. I have friendship with all and enmity with none.",
+    "by": "Jain prayer of forgiveness",
+    "source": "Khamemi savve jive, from the Pratikramana Sutra; a common English rendering"
+  },
+  "quotes": [
+    {
+      "text": "All breathing, existing, living, sentient creatures should not be slain, nor treated with violence, nor abused, nor tormented, nor driven away.",
+      "by": "Acaranga Sutra",
+      "source": "Acaranga Sutra 1.4.1, trans. Hermann Jacobi, Sacred Books of the East, 1884"
+    },
+    {
+      "text": "Souls render service to one another.",
+      "by": "Umasvati",
+      "source": "Parasparopagraho jivanam, Tattvartha Sutra 5.21; the motto of the Jain emblem"
+    },
+    {
+      "text": "Right faith, right knowledge and right conduct together are the path to liberation.",
+      "by": "Umasvati",
+      "source": "Tattvartha Sutra 1.1, in its common English rendering"
+    },
+    {
+      "text": "The essence of the conduct of a wise person is that they do not injure anything.",
+      "by": "Sutrakritanga",
+      "source": "Sutrakritanga 1.1.4.10, after the translation of Hermann Jacobi, 1895"
+    }
+  ],
+  "words": [
+    {
+      "id": "word-ahimsa",
+      "term": "Ahimsa",
+      "meaning": "Non-violence",
+      "pronunciation": "uh-HIM-sa",
+      "language": "Sanskrit",
+      "usage": "The first vow and the centre of the religion. It covers thought and speech as well as action, and every form of life."
+    },
+    {
+      "id": "word-jina",
+      "term": "Jina",
+      "meaning": "Conqueror",
+      "pronunciation": "JI-na",
+      "language": "Sanskrit",
+      "usage": "One who has overcome anger, pride, deceit and greed. Jains are the followers of the Jinas."
+    },
+    {
+      "id": "word-tirthankara",
+      "term": "Tirthankara",
+      "meaning": "Ford-maker",
+      "pronunciation": "teer-TUNG-ka-ra",
+      "language": "Sanskrit",
+      "usage": "One of the twenty-four teachers of this age who show the crossing over the river of rebirth."
+    },
+    {
+      "id": "word-jiva",
+      "term": "Jiva",
+      "meaning": "Soul; a living being",
+      "pronunciation": "JEE-va",
+      "language": "Sanskrit",
+      "usage": "Every living thing has one, from a person to a drop of water, and all are equal in their nature."
+    },
+    {
+      "id": "word-ajiva",
+      "term": "Ajiva",
+      "meaning": "The non-living",
+      "pronunciation": "uh-JEE-va",
+      "language": "Sanskrit",
+      "usage": "Matter, space, time and the principles of motion and rest. Karma belongs here."
+    },
+    {
+      "id": "word-karma",
+      "term": "Karma",
+      "meaning": "Subtle matter that clings to the soul",
+      "pronunciation": "KAR-ma",
+      "language": "Sanskrit",
+      "usage": "For Jains it is a physical substance. Passion makes the soul sticky, and action brings the dust."
+    },
+    {
+      "id": "word-moksha",
+      "term": "Moksha",
+      "meaning": "Liberation",
+      "pronunciation": "MOKE-sha",
+      "language": "Sanskrit",
+      "usage": "The soul, freed of all karma, rises to the top of the universe and stays in perfect knowledge and bliss."
+    },
+    {
+      "id": "word-anekantavada",
+      "term": "Anekantavada",
+      "meaning": "The doctrine of many-sidedness",
+      "pronunciation": "uh-nay-KAHN-ta-VAH-da",
+      "language": "Sanskrit",
+      "usage": "Reality has countless aspects, and no single statement captures it. A reason for humility in argument."
+    },
+    {
+      "id": "word-syadvada",
+      "term": "Syadvada",
+      "meaning": "The doctrine of maybe",
+      "pronunciation": "SYAHD-vah-da",
+      "language": "Sanskrit",
+      "usage": "Every claim should be qualified: in some respect it is so, in some respect it is not."
+    },
+    {
+      "id": "word-aparigraha",
+      "term": "Aparigraha",
+      "meaning": "Non-possession",
+      "pronunciation": "uh-puh-ree-GRUH-ha",
+      "language": "Sanskrit",
+      "usage": "Limiting what one owns and loosening attachment to it. The fifth vow."
+    },
+    {
+      "id": "word-satya",
+      "term": "Satya",
+      "meaning": "Truthfulness",
+      "pronunciation": "SUT-ya",
+      "language": "Sanskrit",
+      "usage": "The second vow. Truth that would cause harm is to be left unsaid."
+    },
+    {
+      "id": "word-asteya",
+      "term": "Asteya",
+      "meaning": "Not stealing",
+      "pronunciation": "uh-STAY-ya",
+      "language": "Sanskrit",
+      "usage": "The third vow: take nothing that is not freely given."
+    },
+    {
+      "id": "word-brahmacharya",
+      "term": "Brahmacharya",
+      "meaning": "Chastity",
+      "pronunciation": "bruh-ma-CHAR-ya",
+      "language": "Sanskrit",
+      "usage": "The fourth vow. Celibacy for monks and nuns, faithfulness for householders."
+    },
+    {
+      "id": "word-anuvrata",
+      "term": "Anuvrata",
+      "meaning": "A lesser vow",
+      "pronunciation": "uh-noo-VRUH-ta",
+      "language": "Sanskrit",
+      "usage": "The five vows as kept by lay people, within the limits of family and working life."
+    },
+    {
+      "id": "word-mahavrata",
+      "term": "Mahavrata",
+      "meaning": "A great vow",
+      "pronunciation": "ma-ha-VRUH-ta",
+      "language": "Sanskrit",
+      "usage": "The same five vows kept absolutely by monks and nuns."
+    },
+    {
+      "id": "word-samayika",
+      "term": "Samayika",
+      "meaning": "Equanimity",
+      "pronunciation": "sah-MAH-yi-ka",
+      "language": "Sanskrit",
+      "usage": "A daily period of forty-eight minutes spent in stillness, treating all beings alike."
+    },
+    {
+      "id": "word-pratikramana",
+      "term": "Pratikramana",
+      "meaning": "Turning back",
+      "pronunciation": "pruh-ti-KRUH-ma-na",
+      "language": "Sanskrit",
+      "usage": "The rite of reviewing and repenting harm done, performed daily by the devout and yearly by almost everyone."
+    },
+    {
+      "id": "word-micchami-dukkadam",
+      "term": "Micchami dukkadam",
+      "meaning": "May my wrongs be without effect",
+      "pronunciation": "mich-CHAH-mi DOOK-ka-dum",
+      "language": "Prakrit",
+      "usage": "Said to everyone one knows on the last day of Paryushana, asking pardon for any hurt caused."
+    },
+    {
+      "id": "word-namokar-mantra",
+      "term": "Namokar mantra",
+      "meaning": "The salutation prayer",
+      "pronunciation": "na-mo-KAR",
+      "language": "Prakrit",
+      "usage": "The most important Jain prayer. It bows to five kinds of worthy beings and names no person and asks for nothing."
+    },
+    {
+      "id": "word-sadhu-and-sadhvi",
+      "term": "Sadhu and sadhvi",
+      "meaning": "A monk and a nun",
+      "pronunciation": "SAH-doo, SAHD-vee",
+      "language": "Sanskrit",
+      "usage": "Wandering ascetics who own almost nothing, travel on foot and eat what they are given."
+    },
+    {
+      "id": "word-shravaka",
+      "term": "Shravaka",
+      "meaning": "A layman; literally a listener",
+      "pronunciation": "SHRAH-va-ka",
+      "language": "Sanskrit",
+      "usage": "A lay woman is a shravika. The four-part community is monks, nuns, laymen and laywomen."
+    },
+    {
+      "id": "word-digambara",
+      "term": "Digambara",
+      "meaning": "Sky-clad",
+      "pronunciation": "di-GUM-ba-ra",
+      "language": "Sanskrit",
+      "usage": "The branch whose monks go naked, having given up even clothing."
+    },
+    {
+      "id": "word-shvetambara",
+      "term": "Shvetambara",
+      "meaning": "White-clad",
+      "pronunciation": "shvay-TAHM-ba-ra",
+      "language": "Sanskrit",
+      "usage": "The branch whose monks and nuns wear plain white cloth."
+    },
+    {
+      "id": "word-upvas",
+      "term": "Upvas",
+      "meaning": "A fast",
+      "pronunciation": "oop-VAHS",
+      "language": "Sanskrit",
+      "usage": "Going without food for a day or more. Fasting burns off old karma and is practised by lay people of all ages."
+    },
+    {
+      "id": "word-sallekhana",
+      "term": "Sallekhana",
+      "meaning": "The fast to death",
+      "pronunciation": "sul-LAY-ka-na",
+      "language": "Sanskrit",
+      "usage": "A vow taken at the very end of life, with permission, to stop eating and meet death in calm. Rare and strictly regulated."
+    },
+    {
+      "id": "word-derasar",
+      "term": "Derasar",
+      "meaning": "A temple",
+      "pronunciation": "DAY-ra-sar",
+      "language": "Gujarati",
+      "usage": "The Shvetambara word. Digambaras say mandir or basadi."
+    },
+    {
+      "id": "word-kevala-jnana",
+      "term": "Kevala jnana",
+      "meaning": "Omniscience",
+      "pronunciation": "KAY-va-la GYAH-na",
+      "language": "Sanskrit",
+      "usage": "The complete knowledge a soul has when all obscuring karma is gone."
+    },
+    {
+      "id": "word-dana",
+      "term": "Dana",
+      "meaning": "Giving",
+      "pronunciation": "DAH-na",
+      "language": "Sanskrit",
+      "usage": "Above all the gift of food to ascetics and of safety to living beings, called abhaya dana."
+    },
+    {
+      "id": "word-jiv-daya",
+      "term": "Jiv daya",
+      "meaning": "Compassion for living beings",
+      "pronunciation": "jeev DA-ya",
+      "language": "Gujarati",
+      "usage": "The spirit behind Jain animal hospitals and bird shelters."
+    },
+    {
+      "id": "word-jai-jinendra",
+      "term": "Jai Jinendra",
+      "meaning": "Honour to the supreme Jinas",
+      "pronunciation": "jay ji-NEN-dra",
+      "language": "Sanskrit",
+      "usage": "The usual Jain greeting."
+    }
+  ],
+  "practices": [
+    {
+      "id": "navkar",
+      "name": "Morning salutation",
+      "icon": "sun-horizon",
+      "slot": "Morning",
+      "time": "06:30",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "On waking, sit up with your palms together. Bow in your mind to five kinds of people: those who have conquered themselves, those who are fully free, the leaders of communities of practice, the teachers, and all those anywhere who are sincerely on the path. If you wish, say or listen to the Namokar mantra itself. Then set one intention: today I will try not to harm.",
+      "why": "The Namokar mantra is the first thing a Jain child learns and the first prayer of the day. It honours qualities, not persons, and it asks for nothing.",
+      "variations": [
+        "Repeat it nine times, counted on your fingers.",
+        "Name one living person whose conduct you admire.",
+        "Say it again before sleep."
+      ]
+    },
+    {
+      "id": "careful-walking",
+      "name": "Careful walking",
+      "icon": "footprints",
+      "slot": "Morning",
+      "time": "08:30",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "For ten minutes walk as a Jain ascetic does. Look at the ground a few steps ahead. Do not tread on anything alive if you can see it: ants, snails, worms after rain, seedlings in a crack. Slow down enough to make this possible. Keep your hands free and your phone away. Notice how much lives on a pavement.",
+      "why": "Care in walking, irya samiti, is the first of five kinds of carefulness. Monks and nuns travel only on foot and by daylight, and some carry a soft broom to move insects from their path.",
+      "variations": [
+        "Carry an insect out of your house instead of killing it.",
+        "Move a worm or snail off the path.",
+        "Walk a familiar route and count the species you see."
+      ]
+    },
+    {
+      "id": "samayika",
+      "name": "Samayika: forty-eight still minutes",
+      "icon": "hourglass",
+      "slot": "Afternoon",
+      "time": "13:00",
+      "minutes": 20,
+      "meta": "Afternoon · 20 min",
+      "instructions": "Sit on the floor or a chair in a quiet place and resolve not to move from it, nor to do, buy, send or plan anything, for a set time. The traditional period is forty-eight minutes. Start with twenty. Let the mind rest on the breath or on the thought that every living being wants to live, as you do. For this time hold no one as friend or enemy. When the time is up, bow and return to the day.",
+      "why": "Samayika means becoming equal toward all. For its duration a lay person lives as a monk or nun does. Many Jains do it daily, and it is the first of the six daily duties.",
+      "variations": [
+        "Read a page of scripture in the last ten minutes.",
+        "Do it at dawn or dusk, the traditional hours.",
+        "Extend toward the full forty-eight minutes by the end of the Onda."
+      ]
+    },
+    {
+      "id": "limit",
+      "name": "Set a limit",
+      "icon": "minus",
+      "slot": "Morning",
+      "time": "09:00",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Each morning set one limit for the day and keep it. I will eat only five different things. I will spend nothing. I will not travel beyond my neighbourhood. I will use my phone for one hour. I will speak only when it is useful. Make it specific and write it down. A limit is kept from waking to waking.",
+      "why": "Lay Jains take vows that limit their consumption, travel and possessions, sometimes for a day and sometimes for life. A limit chosen freely weakens greed and reduces the harm one’s life causes.",
+      "variations": [
+        "Give away one object for each new one that enters the house.",
+        "Fix an upper limit for what you want to own and write it down.",
+        "Keep the same limit for a whole week."
+      ]
+    },
+    {
+      "id": "pratikramana",
+      "name": "The evening turning back",
+      "icon": "arrow-counter-clockwise",
+      "slot": "Evening",
+      "time": "20:30",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Before sunset if you can, finish eating. Later, sit and go back through the day from the morning. Recall each harm you did, in act, word or thought: the insect, the sharp reply, the wasteful purchase, the contempt you did not voice. For each one say inwardly: may this wrong be without effect. Then say the forgiveness prayer: I forgive all living beings, may all living beings forgive me.",
+      "why": "Pratikramana is among the oldest Jain rites. Reviewing harm the same day keeps the karma from setting hard, like wiping a spill before it dries.",
+      "variations": [
+        "Ask one person’s pardon directly, today.",
+        "Write the list and tear it up.",
+        "Do it together with your household."
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": "eat-nothing-after-sunset-once-this-week",
+      "name": "Eat nothing after sunset, once this week",
+      "meta": "Chauvihar; skip if unwise for your health",
+      "time": "17:30",
+      "slot": "Afternoon"
+    },
+    {
+      "id": "strain-or-filter-the-water-you-drink-today",
+      "name": "Strain or filter the water you drink today",
+      "meta": "Care for the smallest lives",
+      "time": "08:00",
+      "slot": "Morning"
+    },
+    {
+      "id": "task-cook-a-meal-with-no-meat-eggs-honey-or-root-vegetables",
+      "name": "Cook a meal with no meat, eggs, honey or root vegetables",
+      "meta": "Eat · the Jain kitchen",
+      "time": "12:30",
+      "slot": "Afternoon",
+      "action": "eat"
+    },
+    {
+      "id": "task-read-the-first-lecture-of-the-acaranga-sutra",
+      "name": "Read the first lecture of the Acaranga Sutra",
+      "meta": "Read · on knowing the lives around you",
+      "time": "20:00",
+      "slot": "Evening",
+      "action": "read"
+    },
+    {
+      "id": "task-look-at-the-statue-of-bahubali-at-shravanabelagola",
+      "name": "Look at the statue of Bahubali at Shravanabelagola",
+      "meta": "Art · so still that vines climb his legs",
+      "time": "16:00",
+      "slot": "Afternoon",
+      "action": "art"
+    },
+    {
+      "id": "task-play-gyan-chaupar-the-original-snakes-and-ladders",
+      "name": "Play Gyan Chaupar, the original snakes and ladders",
+      "meta": "Games · karma on a board",
+      "time": "19:00",
+      "slot": "Evening",
+      "action": "games"
+    },
+    {
+      "id": "task-journal-what-did-you-harm-today-and-could-you-have-avoided-it",
+      "name": "Journal: what did you harm today, and could you have avoided it?",
+      "meta": "Journal · 10 min",
+      "time": "21:00",
+      "slot": "Evening",
+      "action": "journal"
+    },
+    {
+      "id": "task-many-sidedness-argue-the-other-side-of-something-you-believe",
+      "name": "Many-sidedness: argue the other side of something you believe",
+      "meta": "Philosophy · 10 min",
+      "time": "10:00",
+      "slot": "Morning",
+      "action": "philosophy"
+    },
+    {
+      "id": "give-away-one-possession-you-will-not-miss",
+      "name": "Give away one possession you will not miss",
+      "meta": "Non-possession",
+      "time": "11:00",
+      "slot": "Afternoon"
+    }
+  ],
+  "rules": [
+    {
+      "id": "r1",
+      "text": "Harm no living being",
+      "why": "No meat, fish or eggs, no killing of insects, no cruelty in word. When in doubt, choose the course that hurts less."
+    },
+    {
+      "id": "r2",
+      "text": "Say only what is true and harmless",
+      "why": "No lies, no exaggeration, no truth told in order to wound. Otherwise keep silent."
+    },
+    {
+      "id": "r3",
+      "text": "Take only what is given",
+      "why": "Nothing borrowed without asking, no extra from the office, no unearned credit."
+    },
+    {
+      "id": "r4",
+      "text": "Own less tonight than this morning",
+      "why": "Give, return or release one thing each day. Set a ceiling on what you will acquire."
+    },
+    {
+      "id": "r5",
+      "text": "Grant that the other view may be partly right",
+      "why": "In every disagreement today, state the other side fairly before your own."
+    },
+    {
+      "id": "r6",
+      "text": "Ask forgiveness before you sleep",
+      "why": "Review the day, own the harm and let no quarrel last past sunset."
+    }
+  ],
+  "immerse": {
+    "read": [
+      {
+        "id": "read-that-which-is-tattvartha-sutra",
+        "title": "That Which Is (Tattvartha Sutra)",
+        "creator": "Umasvati, trans. Nathmal Tatia",
+        "year": "about 2nd to 5th century CE",
+        "why": "The one text all Jain branches accept: the whole system in 350 terse aphorisms, with the commentaries of each tradition."
+      },
+      {
+        "id": "read-jaina-sutras-part-1-the-acaranga-sutra",
+        "title": "Jaina Sutras, part 1: the Acaranga Sutra",
+        "creator": "trans. Hermann Jacobi",
+        "year": "about 4th to 3rd century BCE; translated 1884",
+        "why": "The oldest Jain scripture. It opens by asking the reader to recognise that earth, water, fire, air and plants are alive."
+      },
+      {
+        "id": "read-the-jains",
+        "title": "The Jains",
+        "creator": "Paul Dundas",
+        "year": "2nd edition 2002",
+        "why": "The standard scholarly account of history, doctrine and practice."
+      },
+      {
+        "id": "read-jainism-an-introduction",
+        "title": "Jainism: An Introduction",
+        "creator": "Jeffery D. Long",
+        "year": "2009",
+        "why": "A clear short book with good chapters on many-sidedness."
+      },
+      {
+        "id": "read-the-jaina-path-of-purification",
+        "title": "The Jaina Path of Purification",
+        "creator": "Padmanabh S. Jaini",
+        "year": "1979",
+        "why": "How the path works, stage by stage, by a scholar raised in the tradition."
+      },
+      {
+        "id": "read-life-force-the-world-of-jainism",
+        "title": "Life Force: The World of Jainism",
+        "creator": "Michael Tobias",
+        "year": "1991",
+        "why": "A naturalist’s warm account of Jain ethics toward animals and the earth."
+      }
+    ],
+    "watch": [
+      {
+        "id": "watch-ship-of-theseus",
+        "title": "Ship of Theseus",
+        "creator": "Anand Gandhi",
+        "year": "2012",
+        "why": "Three stories set in Mumbai. In the second a monk who is suing to stop animal testing falls ill and must decide whether to take medicine. Closely modelled on Jain thought."
+      },
+      {
+        "id": "watch-ahimsa-non-violence",
+        "title": "Ahimsa: Non-Violence",
+        "creator": "Michael Tobias",
+        "year": "1987",
+        "why": "A documentary made for American public television and still the best film introduction to Jain life."
+      },
+      {
+        "id": "watch-the-story-of-india-episode-2-the-power-of-ideas",
+        "title": "The Story of India, episode 2: The Power of Ideas",
+        "creator": "Michael Wood, BBC",
+        "year": "2007",
+        "why": "Sets Mahavira and the Buddha in the world of the Ganges plain in the fifth century BCE."
+      },
+      {
+        "id": "watch-mahamastakabhisheka-films",
+        "title": "Mahamastakabhisheka films",
+        "creator": "News and documentary footage",
+        "year": "2006 and 2018",
+        "why": "Every twelve years the great statue at Shravanabelagola is bathed in milk, saffron and sandalwood from a scaffold. Watch any good record of it."
+      }
+    ],
+    "listen": [
+      {
+        "id": "listen-namokar-mantra",
+        "title": "Namokar Mantra",
+        "creator": "Many recordings; try Lata Mangeshkar’s",
+        "year": "traditional",
+        "why": "The salutation prayer sung slowly. Nine lines in Prakrit."
+      },
+      {
+        "id": "listen-bhaktamar-stotra",
+        "title": "Bhaktamar Stotra",
+        "creator": "Acharya Manatunga; many recordings",
+        "year": "about 7th century",
+        "why": "Forty-eight Sanskrit verses in praise of the first Tirthankara. Legend says each verse broke one of the chains that held the poet."
+      },
+      {
+        "id": "listen-stavans",
+        "title": "Stavans",
+        "creator": "Jain devotional singers",
+        "year": "traditional",
+        "why": "Hymns in Gujarati and Hindi sung in temples and at home, often to familiar folk tunes."
+      },
+      {
+        "id": "listen-uvasaggaharam-stotra",
+        "title": "Uvasaggaharam Stotra",
+        "creator": "Attributed to Bhadrabahu",
+        "year": "ancient",
+        "why": "A short Prakrit hymn to Parshvanatha, recited for protection."
+      }
+    ],
+    "art": [
+      {
+        "id": "art-gommateshwara-bahubali",
+        "title": "Gommateshwara (Bahubali)",
+        "creator": "Shravanabelagola, Karnataka",
+        "year": "981 CE",
+        "why": "A figure seventeen metres tall cut from one block of granite on a hilltop. He stands in meditation so long that creepers have grown up his limbs."
+      },
+      {
+        "id": "art-the-dilwara-temples",
+        "title": "The Dilwara Temples",
+        "creator": "Mount Abu, Rajasthan",
+        "year": "11th to 13th century",
+        "why": "Plain outside. Inside, white marble carved so thin that the ceilings look like lace."
+      },
+      {
+        "id": "art-the-adinatha-temple",
+        "title": "The Adinatha Temple",
+        "creator": "Ranakpur, Rajasthan",
+        "year": "15th century",
+        "why": "A marble hall on 1,444 pillars, no two carved alike."
+      },
+      {
+        "id": "art-illustrated-kalpa-sutra-manuscripts",
+        "title": "Illustrated Kalpa Sutra manuscripts",
+        "creator": "Western India",
+        "year": "14th to 16th century",
+        "why": "Lives of the Tirthankaras painted in red, gold and blue, with the characteristic eye that projects beyond the face. In many museum collections."
+      }
+    ],
+    "eat": [
+      {
+        "id": "eat-dal-rice-and-rotli",
+        "title": "Dal, rice and rotli",
+        "creator": "Lentils, rice, flatbread and a green vegetable",
+        "why": "The everyday Gujarati Jain plate. No onion, garlic, potato or carrot, because pulling a root kills the plant and the small lives around it."
+      },
+      {
+        "id": "eat-khichdi-and-kadhi",
+        "title": "Khichdi and kadhi",
+        "creator": "Rice and lentils with a spiced yogurt soup",
+        "why": "A plain supper, eaten before dark."
+      },
+      {
+        "id": "eat-khakhra",
+        "title": "Khakhra",
+        "creator": "Thin roasted wheat crispbread",
+        "why": "Dry food that keeps for weeks and suits fasting days and travel."
+      },
+      {
+        "id": "eat-raw-banana-curry",
+        "title": "Raw banana curry",
+        "creator": "Green plantain cooked with spices",
+        "why": "The Jain stand-in for potato in many dishes."
+      }
+    ],
+    "drink": [
+      {
+        "id": "drink-boiled-water",
+        "title": "Boiled water",
+        "creator": "Boiled, cooled and drunk within the day",
+        "why": "Monks, nuns and strict lay people drink only water that has been boiled, to avoid harming the minute lives in it."
+      },
+      {
+        "id": "drink-chaas",
+        "title": "Chaas",
+        "creator": "Thin spiced buttermilk",
+        "why": "Served with every Gujarati meal."
+      },
+      {
+        "id": "drink-warm-milk-with-saffron",
+        "title": "Warm milk with saffron",
+        "creator": "Kesar dudh",
+        "why": "Given to break a long fast gently."
+      }
+    ],
+    "customs": [
+      {
+        "id": "customs-eating-before-sunset",
+        "title": "Eating before sunset",
+        "creator": "Chauvihar",
+        "why": "Cooking and eating stop at dusk, when insects are drawn to lamps and food and cannot be seen."
+      },
+      {
+        "id": "customs-the-mouth-cloth",
+        "title": "The mouth cloth",
+        "creator": "Muhpatti",
+        "why": "A small white cloth held or tied before the mouth during prayer, and worn always by some ascetics, to avoid harming life in the air."
+      },
+      {
+        "id": "customs-giving-food-to-ascetics",
+        "title": "Giving food to ascetics",
+        "creator": "Gochari",
+        "why": "Monks and nuns collect a little from many homes, as a cow grazes, so that no household is burdened. To give is an honour."
+      },
+      {
+        "id": "customs-asking-pardon",
+        "title": "Asking pardon",
+        "creator": "Kshamapana",
+        "why": "At the end of Paryushana Jains contact family, friends, colleagues and rivals to ask forgiveness for the year."
+      }
+    ],
+    "games": [
+      {
+        "id": "games-gyan-chaupar",
+        "title": "Gyan Chaupar",
+        "creator": "Board game · India",
+        "year": "at least 18th century",
+        "why": "The game of knowledge, ancestor of snakes and ladders. The oldest surviving boards are Jain, with eighty-four squares mapping the soul’s climb from the hells to liberation."
+      },
+      {
+        "id": "games-chaupar",
+        "title": "Chaupar",
+        "creator": "Board game · India",
+        "year": "ancient",
+        "why": "A cross-shaped race game played with long dice. Jain texts caution against gambling, so play for nothing."
+      },
+      {
+        "id": "games-journey",
+        "title": "Journey",
+        "creator": "Video game · thatgamecompany",
+        "year": "2012",
+        "why": "A robed figure crosses a desert toward a mountain. There is no combat and no speech, and strangers can only help each other. Not Jain, but close in spirit."
+      }
+    ],
+    "festivals": [
+      {
+        "id": "fest-paryushana",
+        "title": "Paryushana",
+        "creator": "August or September, eight or ten days",
+        "why": "The main festival: fasting, scripture and repentance, ending in the day of universal forgiveness. Digambaras call their ten days Das Lakshana."
+      },
+      {
+        "id": "fest-mahavir-jayanti",
+        "title": "Mahavir Jayanti",
+        "creator": "March or April",
+        "why": "The birth of Mahavira, marked with processions, giving and the freeing of animals."
+      },
+      {
+        "id": "fest-diwali",
+        "title": "Diwali",
+        "creator": "October or November",
+        "why": "For Jains the night lamps were lit to mark Mahavira’s final liberation. The new year begins the next day."
+      },
+      {
+        "id": "fest-mahamastakabhisheka",
+        "title": "Mahamastakabhisheka",
+        "creator": "Every 12 years; last in 2018",
+        "why": "The head-anointing of the Bahubali statue at Shravanabelagola. The next is expected in 2030."
+      }
+    ],
+    "places": [
+      {
+        "id": "place-shravanabelagola",
+        "title": "Shravanabelagola",
+        "creator": "Karnataka, India",
+        "why": "Climb about six hundred rock-cut steps barefoot to the great statue. By tradition the emperor Chandragupta Maurya ended his life as a monk on the hill opposite."
+      },
+      {
+        "id": "place-palitana",
+        "title": "Palitana",
+        "creator": "Gujarat, India",
+        "why": "Shatrunjaya hill, with some nine hundred marble temples on its summit and 3,800 steps up. No one may stay on the hill overnight, and the town below is meat-free by law."
+      },
+      {
+        "id": "place-ranakpur",
+        "title": "Ranakpur",
+        "creator": "Rajasthan, India",
+        "why": "The temple of a thousand pillars in a quiet wooded valley. Open to visitors from midday."
+      },
+      {
+        "id": "place-dilwara-mount-abu",
+        "title": "Dilwara, Mount Abu",
+        "creator": "Rajasthan, India",
+        "why": "Five marble temples in a hill station. Photography is not allowed inside."
+      },
+      {
+        "id": "place-jain-center-of-greater-phoenix-oshwal-centre-and-others",
+        "title": "Jain Center of Greater Phoenix, Oshwal Centre and others",
+        "creator": "Diaspora temples in the US, UK and Kenya",
+        "why": "Jain communities abroad have built fine temples and usually welcome visitors. Ask about dress, and leave leather outside."
+      }
+    ]
+  },
+  "ethics": [
+    {
+      "title": "Non-violence",
+      "text": "All living beings want to live and none wants to suffer. From this follows a strict vegetarian diet, care in every movement and professions chosen to do least harm.",
+      "practice": "Trace one thing you used today back to any harm in its making. Find a gentler alternative."
+    },
+    {
+      "title": "Truth",
+      "text": "Speak what is true, pleasant and beneficial. A truth that would lead to violence is better withheld.",
+      "practice": "Go the whole day without a single exaggeration."
+    },
+    {
+      "title": "Not taking",
+      "text": "Whatever has not been freely given is not yours, including time, attention and ideas.",
+      "practice": "Give credit today to someone whose work you used."
+    },
+    {
+      "title": "Restraint of desire",
+      "text": "Sexual and sensual restraint keep the mind clear and others unharmed. For householders this means faithfulness and moderation.",
+      "practice": "Notice one craving today and wait it out."
+    },
+    {
+      "title": "Non-possession",
+      "text": "Possessions tie the soul down, and what we hoard is taken from others. Lay Jains set a ceiling on their wealth and give away the surplus.",
+      "practice": "Decide what enough is for one category of things you own. Give away what is over."
+    },
+    {
+      "title": "Forgiveness",
+      "text": "Anger binds karma faster than anything. Forgiving and asking forgiveness are counted as marks of strength.",
+      "practice": "Send the message you have been putting off: I am sorry, or I forgive you."
+    }
+  ],
+  "philosophy": [
+    {
+      "title": "Everything is alive",
+      "text": "Jain thought finds souls in people and animals and also in plants, water, fire, air and earth, ranked by how many senses they have. No act is free of harm, so the aim is always to do less.",
+      "practice": "Count the kinds of living things your lunch involved."
+    },
+    {
+      "title": "Karma as matter",
+      "text": "Karma here is a fine substance that sticks to the soul when it acts from passion, as dust sticks to an oiled cloth. Stop the passion and the dust stops. Practise restraint and the old dust wears off.",
+      "practice": "Catch one moment of anger, pride, deceit or greed today and name it as it happens."
+    },
+    {
+      "title": "Many-sidedness",
+      "text": "A thing has endless aspects, and each viewpoint grasps some of them. The parable is of blind men and an elephant: each is right about his part and wrong to claim the whole.",
+      "practice": "Take a position you oppose and write three things that are true in it."
+    },
+    {
+      "title": "In some respect",
+      "text": "Jain logicians taught that a careful statement begins with maybe, or in some respect. A pot exists as clay and here, and does not exist as gold or there.",
+      "practice": "Add in some respect to your strongest opinion today and see what changes."
+    },
+    {
+      "title": "Self-reliance",
+      "text": "There is no creator and no saviour who can lift the weight. The Tirthankaras show the ford and each soul crosses by its own effort. The same fact makes every soul capable of freedom.",
+      "practice": "Do one hard thing today that you have been waiting for someone else to fix."
+    },
+    {
+      "title": "The three jewels",
+      "text": "Right faith, right knowledge and right conduct. Seeing truly, understanding accurately and acting on it. They are three legs of one stool, and none stands alone.",
+      "practice": "Find a belief of yours that your conduct contradicts."
+    },
+    {
+      "title": "The soul is equal in all",
+      "text": "Every soul, from a mite to a master, has the same nature: knowledge, perception, energy and bliss, more or less covered over. Difference lies in the covering only.",
+      "practice": "Look at one creature you dislike and consider that it wants to live."
+    },
+    {
+      "title": "Stopping and shedding",
+      "text": "The path has two movements. Samvara stops new karma coming in, by vows and carefulness. Nirjara burns off the old, by fasting, study and meditation.",
+      "practice": "Choose one inflow to stop today: a habit of speech, a feed, a purchase."
+    }
+  ],
+  "journal": [
+    "What did you harm today, and could you have avoided it?",
+    "What lives did you notice that you usually miss?",
+    "What did you take that was not freely given?",
+    "What truth did you tell to wound?",
+    "What limit did you set, and did it hold?",
+    "What do you own that owns you?",
+    "Whose forgiveness do you need to ask?",
+    "Whom have you not forgiven?",
+    "What is true in the view you oppose?",
+    "When did anger arise, and what came with it?",
+    "When did pride arise?",
+    "When did you deceive, even slightly?",
+    "When did greed arise?",
+    "What did forty-eight still minutes show you?",
+    "What did your meal cost other beings?",
+    "How much is enough?",
+    "What did you say today that needed in some respect in front of it?",
+    "What are you waiting for someone else to do for you?",
+    "Which creature do you find it hardest to care about?",
+    "What would you give up if you took the vows seriously?",
+    "What harm is built into how you earn your living?",
+    "What did you give today?",
+    "Where did carelessness cause damage?",
+    "What did hunger teach?",
+    "Whose side of a quarrel have you never tried to state?",
+    "What clings to you from this week?",
+    "What would it mean to have enmity with none?",
+    "What did you do today that reduced suffering?",
+    "What could you stop doing?",
+    "If every soul is equal, what must change?"
+  ],
+  "reflect": [
+    "What do you now see as alive that you did not before?",
+    "Which limit was easiest to keep and which hardest?",
+    "What changed in an argument when you granted the other side its truth?",
+    "Whom did you forgive, and who forgave you?",
+    "What harm have you stopped doing?",
+    "What will you keep?"
+  ],
+  "dayThemes": [
+    "The salutation",
+    "Everything wants to live",
+    "Careful steps",
+    "Truth without harm",
+    "Not taking",
+    "A limit",
+    "Enough",
+    "Forty-eight minutes",
+    "The elephant and the blind men",
+    "In some respect",
+    "Dust on the soul",
+    "Anger",
+    "Pride",
+    "Deceit",
+    "Greed",
+    "Before sunset",
+    "Filtered water",
+    "The broom",
+    "Giving safety",
+    "The ford-makers",
+    "Mahavira leaves home",
+    "Bahubali stands still",
+    "Three jewels",
+    "Stopping the inflow",
+    "Wearing away",
+    "Equal souls",
+    "The fast",
+    "Turning back",
+    "I ask pardon",
+    "Friendship with all"
+  ],
+  "guide": {
+    "intro": [
+      "Jainism is one of the oldest religions in the world still practised, and one of the smallest: about five million people, most of them in India. Its influence is far larger than its numbers. It has carried the idea of non-violence further than any other tradition, and through Gandhi, who grew up among Jains in Gujarat, that idea changed the twentieth century.",
+      "Jains follow the Jinas, the conquerors: human beings who overcame their own anger, pride, deceit and greed and so became free. There are twenty-four in each great cycle of time. They are also called Tirthankaras, makers of the ford across the river of rebirth. The most recent, Mahavira, was born a prince in what is now Bihar, left home at thirty, spent twelve years in severe self-discipline and taught for thirty more. He was an older contemporary of the Buddha.",
+      "The teaching begins from a simple observation: every living thing wants to live and does not want to suffer. Jains find life everywhere, in animals and plants and also in water, fire, air and earth. Each life is a soul, equal in nature to every other. Souls are weighed down by karma, which Jains understand as a fine matter that sticks to the soul when it acts with passion. The way to freedom is to stop the inflow and wear away what has gathered, through right faith, right knowledge and right conduct.",
+      "Conduct means five vows: not to harm, not to lie, not to steal, to be chaste and to renounce possessions. Monks and nuns keep them completely. They own nothing, walk barefoot from village to village, eat once a day what they are given and sweep the ground before they sit. Lay people keep them as far as family and working life allow. All Jains are vegetarian. Many do not eat after dark or eat root vegetables, and many fast regularly.",
+      "A second great idea is many-sidedness. Reality is complex, and every viewpoint catches only part of it. So Jain philosophers trained themselves to state an opponent’s case fairly and to qualify their own. It is non-violence applied to thinking.",
+      "This Onda borrows the lay Jain’s day in a mild form: a morning salutation, ten minutes of careful walking, a period of stillness, one freely chosen limit and an evening review that ends in asking forgiveness. You will eat no meat for its length. You are a guest. The long fasts and the ascetic life belong to people formed by the tradition and guided by its teachers, and they are not to be imitated."
+    ],
+    "origin": "The Ganges plain of north India; today mainly Gujarat, Rajasthan, Maharashtra and Karnataka",
+    "era": "Mahavira taught in the 6th or 5th century BCE; Jains hold the teaching to be eternal",
+    "figures": [
+      {
+        "name": "Rishabhanatha",
+        "dates": "mythic antiquity",
+        "bio": "The first Tirthankara of this age, also called Adinatha. Tradition credits him with teaching farming, crafts and writing before he renounced the world."
+      },
+      {
+        "name": "Parshvanatha",
+        "dates": "about 8th to 7th century BCE",
+        "bio": "The twenty-third Tirthankara, shown under a canopy of cobra hoods. Probably a historical teacher whose followers Mahavira’s parents belonged to."
+      },
+      {
+        "name": "Mahavira",
+        "dates": "traditionally 599 to 527 BCE; many scholars place him about a century later",
+        "bio": "Born Vardhamana. He left his family, endured twelve years of hardship without retaliating against anyone and reorganised the community that still exists."
+      },
+      {
+        "name": "Indrabhuti Gautama",
+        "dates": "6th to 5th century BCE",
+        "bio": "A learned brahmin who came to debate Mahavira and stayed as his chief disciple. He is remembered each Diwali."
+      },
+      {
+        "name": "Bhadrabahu",
+        "dates": "about 4th to 3rd century BCE",
+        "bio": "The last teacher said to have known all the scriptures. Tradition says he led monks south during a famine, taking with him the retired emperor Chandragupta Maurya."
+      },
+      {
+        "name": "Kundakunda",
+        "dates": "early centuries CE",
+        "bio": "The most revered Digambara thinker, who taught the difference between the soul as it truly is and as it appears."
+      },
+      {
+        "name": "Umasvati",
+        "dates": "about 2nd to 5th century CE",
+        "bio": "Author of the Tattvartha Sutra, the first Jain work in Sanskrit and the only one accepted by every branch."
+      },
+      {
+        "name": "Haribhadra",
+        "dates": "about 8th century",
+        "bio": "A prolific scholar-monk who wrote with unusual fairness about other schools and said he sided with whoever’s teaching was sound."
+      },
+      {
+        "name": "Hemachandra",
+        "dates": "1088 to 1173",
+        "bio": "Monk, grammarian, poet and adviser to the kings of Gujarat. Under his influence the state banned animal slaughter."
+      },
+      {
+        "name": "Shrimad Rajchandra",
+        "dates": "1867 to 1901",
+        "bio": "A jeweller, poet and mystic of Gujarat. Gandhi called him his guide and wrote to him with his doubts from South Africa."
+      }
+    ],
+    "history": [
+      {
+        "when": "about 8th to 7th century BCE",
+        "what": "Parshvanatha",
+        "detail": "An ascetic teacher at Varanasi founds an order with four vows. Mahavira is born into a family that follows him."
+      },
+      {
+        "when": "6th to 5th century BCE",
+        "what": "Mahavira",
+        "detail": "He renounces at thirty, reaches omniscience at forty-two and teaches in Magadha until his death at Pavapuri at seventy-two. He adds chastity as a fifth vow."
+      },
+      {
+        "when": "about 300 BCE",
+        "what": "The move south",
+        "detail": "According to Digambara tradition, Bhadrabahu leads part of the community to Karnataka to escape a twelve-year famine. Differences between those who left and those who stayed begin to harden."
+      },
+      {
+        "when": "2nd century BCE",
+        "what": "Kharavela of Kalinga",
+        "detail": "A Jain king records his deeds in an inscription in the Udayagiri caves in Odisha, one of the earliest datable pieces of Jain history."
+      },
+      {
+        "when": "early centuries CE",
+        "what": "The great division",
+        "detail": "The community separates into Digambaras, whose monks go naked and who hold the original scriptures lost, and Shvetambaras, who wear white and preserve a canon."
+      },
+      {
+        "when": "5th century CE",
+        "what": "The Council of Valabhi",
+        "detail": "Shvetambara monks meet in Gujarat and commit their scriptures to writing in the form still used."
+      },
+      {
+        "when": "981",
+        "what": "The colossus at Shravanabelagola",
+        "detail": "The minister Chamundaraya has a seventeen-metre figure of Bahubali carved from the hilltop. It becomes the great pilgrimage site of the south."
+      },
+      {
+        "when": "11th to 13th century",
+        "what": "Marble and learning in the west",
+        "detail": "Jain merchants and ministers in Gujarat and Rajasthan build the Dilwara temples. Hemachandra flourishes at the Solanki court."
+      },
+      {
+        "when": "15th century",
+        "what": "Reform movements",
+        "detail": "Lonka Shah, a scribe in Ahmedabad, criticises image worship. The Sthanakvasi and later the Terapanthi orders, who use no temples, descend from his protest."
+      },
+      {
+        "when": "16th century",
+        "what": "At the Mughal court",
+        "detail": "The monk Hiravijaya impresses the emperor Akbar, who bans animal slaughter during the Paryushana festival."
+      },
+      {
+        "when": "1893",
+        "what": "Chicago",
+        "detail": "Virchand Gandhi, a young lawyer, represents Jainism at the Parliament of the World’s Religions and lectures across America."
+      },
+      {
+        "when": "20th century",
+        "what": "Diaspora and influence",
+        "detail": "Jains settle in East Africa, Britain and North America. Mohandas Gandhi applies non-violence to politics. In 1974 the branches agree on a shared emblem and a common text, Saman Suttam."
+      }
+    ],
+    "concepts": [
+      {
+        "term": "Ahimsa",
+        "text": "Non-violence in thought, word and deed.",
+        "detail": "Jain texts analyse harm in detail: done oneself, caused through others or approved; by body, speech or mind. Intention matters most, and care is always required."
+      },
+      {
+        "term": "Jiva and ajiva",
+        "text": "The living and the non-living.",
+        "detail": "The universe consists of souls and five kinds of non-soul. It was never created and will never end. Souls are classed by the number of senses they have, from one to five."
+      },
+      {
+        "term": "Karma",
+        "text": "Matter that binds the soul.",
+        "detail": "There are eight main kinds, which obscure knowledge, produce pleasure and pain, fix lifespan and so on. Passions are the glue. Even a good deed binds if done with attachment."
+      },
+      {
+        "term": "The three jewels",
+        "text": "Right faith, knowledge and conduct.",
+        "detail": "Together they make up the path. Faith here means a clear view of how things are and trust in those who have seen it."
+      },
+      {
+        "term": "The five vows",
+        "text": "The shape of right conduct.",
+        "detail": "Non-violence, truth, not stealing, chastity and non-possession. Kept in a limited form by lay people, with seven supporting vows, and absolutely by ascetics."
+      },
+      {
+        "term": "Anekantavada",
+        "text": "Reality is many-sided.",
+        "detail": "Things are both permanent in substance and changing in form. One-sided views are partial truths taken for the whole. The doctrine underlies Jain tolerance."
+      },
+      {
+        "term": "Syadvada and the seven statements",
+        "text": "How to speak accurately.",
+        "detail": "Of anything one can say: in a way it is, in a way it is not, in a way both, in a way it cannot be said, and three combinations of these."
+      },
+      {
+        "term": "The Tirthankaras",
+        "text": "Human teachers, not gods.",
+        "detail": "They have left the world entirely and cannot answer prayers. Their images are honoured as reminders of what a soul can become."
+      },
+      {
+        "term": "The fourteen stages",
+        "text": "The ladder of the soul.",
+        "detail": "The gunasthanas map progress from wrong belief through the vows to omniscience and final release. Gyan Chaupar boards are pictures of it."
+      }
+    ],
+    "facts": [
+      {
+        "text": "The raised open hand of the Jain emblem carries a wheel with the word ahimsa in its centre. It means stop and consider before you act."
+      },
+      {
+        "text": "Jains run animal hospitals called panjrapoles, some of which have been open for centuries. The one beside the Red Fort in Delhi treats birds free of charge."
+      },
+      {
+        "text": "Jains are about four in every thousand Indians and have long had the highest literacy rate of any religious community in the country."
+      },
+      {
+        "text": "Some Jain libraries, such as those of Jaisalmer and Patan, preserved palm-leaf manuscripts for a thousand years, including many non-Jain works that survive nowhere else."
+      },
+      {
+        "text": "The swastika is a central Jain symbol. Its four arms stand for the four states of rebirth: heavenly, human, animal and hellish."
+      },
+      {
+        "text": "Farming is traditionally avoided because ploughing kills creatures in the soil, which is one reason Jains became traders, bankers and jewellers."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Agama",
+        "meaning": "The canonical scriptures, composed in Prakrit"
+      },
+      {
+        "term": "Acharya",
+        "meaning": "The head of an order of monks and nuns"
+      },
+      {
+        "term": "Siddha",
+        "meaning": "A liberated soul"
+      },
+      {
+        "term": "Arihant",
+        "meaning": "One who has destroyed the inner enemies and teaches before final release"
+      },
+      {
+        "term": "Prakrit",
+        "meaning": "The family of everyday ancient Indian languages in which Mahavira taught"
+      },
+      {
+        "term": "Rajoharan",
+        "meaning": "The soft broom carried by Shvetambara ascetics"
+      }
+    ],
+    "furtherReading": [
+      {
+        "title": "Collected Papers on Jaina Studies",
+        "creator": "Padmanabh S. Jaini",
+        "year": "2000",
+        "note": "Essays on karma, women and liberation and the relation to Buddhism."
+      },
+      {
+        "title": "Riches and Renunciation: Religion, Economy and Society among the Jains",
+        "creator": "James Laidlaw",
+        "year": "1995",
+        "note": "An anthropologist among the jewellers of Jaipur asks how a merchant community lives an ascetic ideal."
+      },
+      {
+        "title": "An Autobiography: The Story of My Experiments with Truth",
+        "creator": "M. K. Gandhi",
+        "year": "1927",
+        "note": "For the Jain atmosphere of his childhood and his debt to Rajchandra."
+      },
+      {
+        "title": "Saman Suttam",
+        "creator": "compiled under Vinoba Bhave's encouragement",
+        "year": "1974",
+        "note": "A selection of verses agreed by all the branches."
+      }
+    ],
+    "learnFrom": [
+      {
+        "name": "Jainpedia",
+        "note": "An online encyclopedia built with the Institute of Jainology and British libraries, with digitised manuscripts.",
+        "link": "https://jainpedia.org"
+      },
+      {
+        "name": "Jain eLibrary",
+        "note": "A very large free collection of Jain texts and educational books run by JAINA.",
+        "link": "https://jainelibrary.org"
+      },
+      {
+        "name": "JAINA: Federation of Jain Associations in North America",
+        "note": "Lists temples and study groups, many of which welcome visitors.",
+        "link": "https://www.jaina.org"
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Jains",
+        "creator": "Paul Dundas",
+        "publisher": "Routledge",
+        "year": "2nd edition 2002"
+      },
+      {
+        "title": "The Jaina Path of Purification",
+        "creator": "Padmanabh S. Jaini",
+        "publisher": "University of California Press",
+        "year": "1979"
+      },
+      {
+        "title": "That Which Is: Tattvartha Sutra",
+        "creator": "Umasvati, trans. Nathmal Tatia",
+        "publisher": "HarperCollins",
+        "year": "1994"
+      },
+      {
+        "title": "Jaina Sutras, parts 1 and 2",
+        "creator": "trans. Hermann Jacobi",
+        "publisher": "Sacred Books of the East, Oxford",
+        "year": "1884 and 1895"
+      },
+      {
+        "title": "Jainism: An Introduction",
+        "creator": "Jeffery D. Long",
+        "publisher": "I. B. Tauris",
+        "year": "2009"
+      },
+      {
+        "title": "Jains in the World: Religious Values and Ideology in India",
+        "creator": "John E. Cort",
+        "publisher": "Oxford University Press",
+        "year": "2001"
+      }
+    ]
+  },
+  "sensitivity": {
+    "note": "Jainism is a living religion with a demanding ascetic core. This Onda offers a mild version of a lay person’s discipline. It does not ask for long fasts or for anything that could harm your health, and it is no substitute for the guidance of the Jain community.",
+    "requiredCaveats": [
+      "Digambara, Shvetambara, Sthanakvasi and Terapanthi Jains differ on images, scriptures and practice.",
+      "Fasting and not eating after dark are optional here. Do not attempt them if you are unwell, pregnant or have a history of disordered eating.",
+      "The fast to death is a rare, regulated religious act at the natural end of life. It is neither suicide nor a practice for outsiders to romanticise.",
+      "Images of the Tirthankaras are sacred. In temples, remove shoes and leather and follow local guidance."
+    ],
+    "reviewRequired": true
+  }
+}

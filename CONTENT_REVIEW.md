@@ -404,3 +404,180 @@ Caveats shown in the app:
 - This content has not yet been reviewed by Cuban cultural bearers or scholars. It should be before release.
 
 Nothing is marked `unverified`.
+
+
+## Hinduism
+
+File: `content/ondas/hindu.json` · version 1 · about 5300 words · 30 words of vocabulary, 30 journal prompts, 13 history entries, 10 concepts, 6 sources.
+
+**Needs review by tradition bearers before launch.** Hinduism is a living religion of more than a billion people and enormous variety. This Onda offers a guest’s version of the householder’s day. It does not ask you to worship any deity, and it leaves out rites that need initiation, a priest or a family tradition.
+
+Caveats shown in the app:
+
+- No single account fits all Hindus. Practice differs by region, language, community and family.
+- Sacred images, words and symbols such as Om are objects of worship. Treat them with the care their owners do.
+- Caste has caused great suffering and is opposed by many Hindus. Nothing here endorses it.
+- In temples, follow local rules on dress, shoes, photography and which areas are open to visitors.
+
+Nothing is marked `unverified`.
+
+
+## Mahayana Buddhism
+
+File: `content/ondas/mahayana.json` · version 1 · about 5200 words · 30 words of vocabulary, 30 journal prompts, 13 history entries, 9 concepts, 6 sources.
+
+**Needs review by tradition bearers before launch.** Mahayana Buddhism is the living religion of hundreds of millions of people. This Onda offers practices that East Asian traditions share with lay visitors. It is no substitute for taking refuge, receiving precepts or learning from a teacher and a community.
+
+Caveats shown in the app:
+
+- Schools differ widely. What is central in Pure Land may be marginal in Chan, and the reverse.
+- Images of buddhas and bodhisattvas are objects of devotion. Do not use them as decoration, and never place them on the floor.
+- The word Hinayana is a polemical term. It should not be used for Theravada Buddhists.
+- Emptiness is easily misheard as nihilism. It is taught alongside compassion for that reason.
+
+Nothing is marked `unverified`.
+
+
+## Theravada Buddhism
+
+File: `content/ondas/theravada.json` · version 1 · about 4900 words · 30 words of vocabulary, 30 journal prompts, 13 history entries, 9 concepts, 6 sources.
+
+**Needs review by tradition bearers before launch.** Theravada Buddhism is a living religion with an unbroken monastic community. This Onda offers the ordinary practices of lay Buddhists. It does not replace a teacher, and intensive meditation is best begun with guidance.
+
+Caveats shown in the app:
+
+- Customs vary between Sri Lanka, Myanmar, Thailand, Laos and Cambodia, and between village and forest monasteries.
+- Buddha images are sacred. In several countries using them as decoration or tattoos is offensive and may be illegal.
+- Not eating after midday is optional here and unsuitable for some people. Put your health first.
+- Meditation can bring up difficult states. If that happens, stop, and speak to a qualified teacher or a health professional.
+
+Nothing is marked `unverified`.
+
+
+## Shinto
+
+File: `content/ondas/shinto.json` · version 1 · about 5100 words · 30 words of vocabulary, 30 journal prompts, 12 history entries, 9 concepts, 6 sources.
+
+**Needs review by tradition bearers before launch.** Shinto is a living tradition rooted in particular places, shrines and communities in Japan. This Onda borrows everyday habits that Japanese people share freely with visitors. It does not ask you to worship kami or to copy shrine rites at home.
+
+Caveats shown in the app:
+
+- Shinto is tied to place and community. Outside Japan it is practised at only a handful of shrines.
+- Between 1868 and 1945 the state used Shinto to promote emperor worship and militarism. The tradition is older and wider than that period, and the period should not be glossed over.
+- Ideas of pollution were also used to justify discrimination against the burakumin. Nothing here endorses that.
+- Talismans, shrine objects and sacred ropes are religious items. Do not treat them as decoration.
+
+Marked `unverified` (1):
+
+- Quote: "What it is that dwells here I do not know, yet my tears fall in gratitude." (Attributed to the monk Saigyo; Said to have been composed at the Ise shrines in the 12th century; the attribution is traditional)
+
+## Jainism
+
+File: `content/ondas/jain.json` · version 1 · about 4900 words · 30 words of vocabulary, 30 journal prompts, 12 history entries, 9 concepts, 6 sources.
+
+**Needs review by tradition bearers before launch.** Jainism is a living religion with a demanding ascetic core. This Onda offers a mild version of a lay person’s discipline. It does not ask for long fasts or for anything that could harm your health, and it is no substitute for the guidance of the Jain community.
+
+Caveats shown in the app:
+
+- Digambara, Shvetambara, Sthanakvasi and Terapanthi Jains differ on images, scriptures and practice.
+- Fasting and not eating after dark are optional here. Do not attempt them if you are unwell, pregnant or have a history of disordered eating.
+- The fast to death is a rare, regulated religious act at the natural end of life. It is neither suicide nor a practice for outsiders to romanticise.
+- Images of the Tirthankaras are sacred. In temples, remove shoes and leather and follow local guidance.
+
+Nothing is marked `unverified`.
+
+
+## Sikhism
+
+File: `content/ondas/sikh.json` · version 1 · about 4900 words · 30 words of vocabulary, 30 journal prompts, 13 history entries, 9 concepts, 6 sources.
+
+**Needs review by tradition bearers before launch.** Sikhism is a living faith with a strong sense of identity. This Onda borrows the three pillars and the spirit of service. It does not ask you to wear the articles of faith or to imitate initiation, and it is no substitute for the sangat, the Sikh congregation.
+
+Caveats shown in the app:
+
+- The turban and the five Ks are articles of faith. They are not costume.
+- The Guru Granth Sahib is treated as a living Guru. Printed or digital gurbani should be handled with respect.
+- The events of 1984 and of Partition are within living memory and remain painful.
+- Sikhs are often mistaken for members of other religions and have suffered violence because of it. Learn the difference.
+
+Nothing is marked `unverified`.
+
+
+## Zoroastrianism
+
+File: `content/ondas/zoroaster.json` · version 1 · about 5200 words · 30 words of vocabulary, 30 journal prompts, 12 history entries, 9 concepts, 6 sources.
+
+**Needs review by tradition bearers before launch.** Zoroastrianism is a small, living religion that has survived centuries of pressure. This Onda borrows its ethic and the outline of its day. It does not reproduce the sacred cord, the Avestan prayers or temple worship, which belong to the community.
+
+Caveats shown in the app:
+
+- Most Parsi authorities do not accept converts, and non-Zoroastrians may not enter fire temples in India. Respect both.
+- Zoroastrians pray before fire as a symbol. Calling them fire worshippers is an old insult.
+- The dates and homeland of Zarathustra are uncertain, and scholars disagree about how much later religions took from his.
+- Iranian and Parsi practice differ, and so do reformist and traditional views within each.
+
+Nothing is marked `unverified`.
+
+
+## Judaism
+
+File: `content/ondas/judaism.json` · version 1 · about 5200 words · 30 words of vocabulary, 30 journal prompts, 13 history entries, 9 concepts, 6 sources.
+
+**Needs review by tradition bearers before launch.** Judaism is the living tradition of a people. This Onda borrows practices of gratitude, study, giving and rest that Jewish teachers share openly. It is not a conversion course, and it does not ask you to take on commandments or symbols that belong to the covenant.
+
+Caveats shown in the app:
+
+- Jewish practice ranges from strictly Orthodox to secular. No single description fits everyone.
+- Antisemitism is old and present. If you meet stereotypes while exploring, name them for what they are.
+- Ritual objects such as the tallit, tefillin and Torah scroll are not for outsiders to use.
+- This Onda concerns the religion and its way of life. It takes no position on the politics of the modern Middle East.
+
+Nothing is marked `unverified`.
+
+
+## Christianity
+
+File: `content/ondas/christian.json` · version 1 · about 5200 words · 30 words of vocabulary, 30 journal prompts, 13 history entries, 9 concepts, 6 sources.
+
+**Needs review by tradition bearers before launch.** Christianity is the living faith of a third of humanity, in thousands of churches that disagree on much. This Onda keeps to practices shared by most of them and open to anyone. It is not a statement of doctrine and it does not replace a church.
+
+Caveats shown in the app:
+
+- Catholic, Orthodox, Protestant and Pentecostal Christians differ on authority, sacraments and worship.
+- Baptism and communion are acts of commitment. Take part only as each church invites.
+- Christian institutions have done grave harm as well as great good, including to Jews, to Indigenous peoples and to those they judged heretics.
+- No one should be pressed to believe. Use these practices freely and leave what you cannot honestly do.
+
+Nothing is marked `unverified`.
+
+
+## Islam: Sunni
+
+File: `content/ondas/sunni.json` · version 1 · about 5200 words · 30 words of vocabulary, 30 journal prompts, 13 history entries, 9 concepts, 6 sources.
+
+**Needs review by tradition bearers before launch.** Sunni Islam is the living faith of well over a billion people. This Onda borrows the rhythm and the ethics of a Muslim day. It does not ask a guest to perform the ritual prayer or to recite the testimony of faith, and it is no substitute for learning from Muslims.
+
+Caveats shown in the app:
+
+- Muslims differ by school of law, country and culture. Local custom is often mistaken for religion.
+- The Prophet is not depicted, and Muslims add a blessing when naming him. The Qur’an in Arabic is handled with ritual care.
+- Muslims are frequent targets of prejudice. Do not treat the acts of extremists as representative.
+- Fasting is optional here. Do not fast if you are ill, pregnant or have a history of disordered eating.
+
+Nothing is marked `unverified`.
+
+
+## Islam: Shia
+
+File: `content/ondas/shia.json` · version 1 · about 5500 words · 30 words of vocabulary, 30 journal prompts, 12 history entries, 9 concepts, 6 sources.
+
+**Needs review by tradition bearers before launch.** Shia Islam is a living faith whose followers have often been a persecuted minority. This Onda tells its history as Shia Muslims tell it and borrows its ethics of justice and remembrance. It does not ask a guest to join mourning rites or ritual prayer.
+
+Caveats shown in the app:
+
+- Sunni and Shia Muslims agree on far more than they dispute. The early history is read differently by each, and both accounts deserve a hearing.
+- Twelver, Ismaili and Zaydi Shia differ, and so do the practices of Iran, Iraq, Lebanon and South Asia.
+- The holy family is not depicted in many communities, and their names are followed by a blessing.
+- Shia communities are still attacked in several countries. Do not confuse the religion with any government that claims it.
+
+Nothing is marked `unverified`.

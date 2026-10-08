@@ -1,0 +1,1221 @@
+{
+  "version": 1,
+  "id": "sunni",
+  "name": "Islam: Sunni",
+  "origin": "Arabia and beyond",
+  "era": "From 610 CE to today",
+  "tone": "green",
+  "icon": "compass",
+  "font": "aref-ruqaa",
+  "pattern": "hexagon-tiling",
+  "glyph": "توحيد",
+  "line": "Remember God through the day, give what is due and trust what you cannot control.",
+  "quote": {
+    "text": "So truly where there is hardship there is also ease; truly where there is hardship there is also ease.",
+    "by": "The Qur’an",
+    "source": "Surah 94, verses 5 and 6, trans. M. A. S. Abdel Haleem"
+  },
+  "quotes": [
+    {
+      "text": "God does not burden any soul with more than it can bear.",
+      "by": "The Qur’an",
+      "source": "Surah 2, verse 286, trans. M. A. S. Abdel Haleem"
+    },
+    {
+      "text": "People, We created you all from a single man and a single woman, and made you into races and tribes so that you should get to know one another.",
+      "by": "The Qur’an",
+      "source": "Surah 49, verse 13, trans. M. A. S. Abdel Haleem"
+    },
+    {
+      "text": "None of you truly believes until he loves for his brother what he loves for himself.",
+      "by": "The Prophet Muhammad",
+      "source": "Hadith related by al-Bukhari and Muslim; number 13 in al-Nawawi’s Forty Hadith"
+    },
+    {
+      "text": "Actions are judged by intentions, and everyone will have what they intended.",
+      "by": "The Prophet Muhammad",
+      "source": "Hadith related by al-Bukhari and Muslim; number 1 in al-Nawawi’s Forty Hadith"
+    },
+    {
+      "text": "There is no compulsion in religion.",
+      "by": "The Qur’an",
+      "source": "Surah 2, verse 256, trans. M. A. S. Abdel Haleem"
+    }
+  ],
+  "words": [
+    {
+      "id": "word-islam",
+      "term": "Islam",
+      "meaning": "Willing surrender to God",
+      "pronunciation": "is-LAHM",
+      "language": "Arabic",
+      "usage": "From the same root as salam, peace. A Muslim is one who surrenders."
+    },
+    {
+      "id": "word-allah",
+      "term": "Allah",
+      "meaning": "God",
+      "pronunciation": "al-LAH",
+      "language": "Arabic",
+      "usage": "The Arabic word for the one God, used by Arabic-speaking Christians and Jews as well."
+    },
+    {
+      "id": "word-tawhid",
+      "term": "Tawhid",
+      "meaning": "The oneness of God",
+      "pronunciation": "tow-HEED",
+      "language": "Arabic",
+      "usage": "The central teaching. God is one, without partner, child or likeness."
+    },
+    {
+      "id": "word-qur-an",
+      "term": "Qur'an",
+      "meaning": "The recitation",
+      "pronunciation": "kur-AHN",
+      "language": "Arabic",
+      "usage": "The revelation given to Muhammad over twenty-three years. It is God’s speech, and it is recited aloud more than it is read silently."
+    },
+    {
+      "id": "word-sunnah",
+      "term": "Sunnah",
+      "meaning": "The trodden path",
+      "pronunciation": "SOON-na",
+      "language": "Arabic",
+      "usage": "The example of the Prophet: what he said, did and approved. Sunnis take their name from it."
+    },
+    {
+      "id": "word-hadith",
+      "term": "Hadith",
+      "meaning": "A report",
+      "pronunciation": "ha-DEETH",
+      "language": "Arabic",
+      "usage": "A saying or action of the Prophet handed down through a named chain of narrators, graded for reliability."
+    },
+    {
+      "id": "word-shahada",
+      "term": "Shahada",
+      "meaning": "The testimony",
+      "pronunciation": "sha-HAH-da",
+      "language": "Arabic",
+      "usage": "There is no god but God, and Muhammad is the messenger of God. Saying it with conviction makes one a Muslim."
+    },
+    {
+      "id": "word-salat",
+      "term": "Salat",
+      "meaning": "The ritual prayer",
+      "pronunciation": "sa-LAHT",
+      "language": "Arabic",
+      "usage": "Performed five times a day facing Mecca, with standing, bowing and prostration."
+    },
+    {
+      "id": "word-zakat",
+      "term": "Zakat",
+      "meaning": "The purifying due",
+      "pronunciation": "za-KAHT",
+      "language": "Arabic",
+      "usage": "An annual payment of one fortieth of savings to those in need. It is a right the poor hold over the rich."
+    },
+    {
+      "id": "word-sawm",
+      "term": "Sawm",
+      "meaning": "Fasting",
+      "pronunciation": "SOWM",
+      "language": "Arabic",
+      "usage": "No food, drink or sex from dawn to sunset through the month of Ramadan."
+    },
+    {
+      "id": "word-hajj",
+      "term": "Hajj",
+      "meaning": "The pilgrimage",
+      "pronunciation": "HAJ",
+      "language": "Arabic",
+      "usage": "The journey to Mecca once in a lifetime for those who can manage it."
+    },
+    {
+      "id": "word-iman",
+      "term": "Iman",
+      "meaning": "Faith",
+      "pronunciation": "ee-MAHN",
+      "language": "Arabic",
+      "usage": "Belief in God, the angels, the scriptures, the prophets, the last day and the divine decree."
+    },
+    {
+      "id": "word-ihsan",
+      "term": "Ihsan",
+      "meaning": "Excellence, doing what is beautiful",
+      "pronunciation": "ih-SAHN",
+      "language": "Arabic",
+      "usage": "To worship God as though you see Him, for though you do not see Him, He sees you."
+    },
+    {
+      "id": "word-taqwa",
+      "term": "Taqwa",
+      "meaning": "God-consciousness",
+      "pronunciation": "TAK-wa",
+      "language": "Arabic",
+      "usage": "Careful awareness of God that makes a person guard their conduct. The Qur’an calls it the best provision."
+    },
+    {
+      "id": "word-dhikr",
+      "term": "Dhikr",
+      "meaning": "Remembrance",
+      "pronunciation": "THIK-r",
+      "language": "Arabic",
+      "usage": "Repeating phrases that recall God, on the fingers or on a string of beads."
+    },
+    {
+      "id": "word-du-a",
+      "term": "Du'a",
+      "meaning": "Supplication",
+      "pronunciation": "doo-AH",
+      "language": "Arabic",
+      "usage": "Personal prayer in one’s own words and language, at any time."
+    },
+    {
+      "id": "word-niyyah",
+      "term": "Niyyah",
+      "meaning": "Intention",
+      "pronunciation": "NEE-ya",
+      "language": "Arabic",
+      "usage": "The purpose formed in the heart before an act. It decides the act’s worth."
+    },
+    {
+      "id": "word-sabr",
+      "term": "Sabr",
+      "meaning": "Patient perseverance",
+      "pronunciation": "SAH-br",
+      "language": "Arabic",
+      "usage": "Steadiness in hardship and in doing right. The Qur’an says God is with those who have it."
+    },
+    {
+      "id": "word-shukr",
+      "term": "Shukr",
+      "meaning": "Gratitude",
+      "pronunciation": "SHOOK-r",
+      "language": "Arabic",
+      "usage": "Thankfulness shown in the heart, on the tongue and in how blessings are used."
+    },
+    {
+      "id": "word-tawakkul",
+      "term": "Tawakkul",
+      "meaning": "Trust in God",
+      "pronunciation": "ta-WAK-kul",
+      "language": "Arabic",
+      "usage": "Doing what you can and leaving the outcome. The saying goes: tie your camel, then trust."
+    },
+    {
+      "id": "word-rahma",
+      "term": "Rahma",
+      "meaning": "Mercy",
+      "pronunciation": "RAH-ma",
+      "language": "Arabic",
+      "usage": "The first quality of God named in the Qur’an. The Prophet is described as a mercy to the worlds."
+    },
+    {
+      "id": "word-sadaqa",
+      "term": "Sadaqa",
+      "meaning": "Voluntary charity",
+      "pronunciation": "SA-da-ka",
+      "language": "Arabic",
+      "usage": "Any good freely given. A smile counts, and so does removing something harmful from the road."
+    },
+    {
+      "id": "word-ummah",
+      "term": "Ummah",
+      "meaning": "The community",
+      "pronunciation": "OOM-ma",
+      "language": "Arabic",
+      "usage": "The worldwide body of Muslims, of every nation and colour."
+    },
+    {
+      "id": "word-adhan",
+      "term": "Adhan",
+      "meaning": "The call to prayer",
+      "pronunciation": "a-THAN",
+      "language": "Arabic",
+      "usage": "Called aloud from the mosque five times a day by a human voice."
+    },
+    {
+      "id": "word-wudu",
+      "term": "Wudu",
+      "meaning": "Ablution",
+      "pronunciation": "woo-DOO",
+      "language": "Arabic",
+      "usage": "Washing the hands, mouth, face, arms, head and feet before prayer."
+    },
+    {
+      "id": "word-masjid",
+      "term": "Masjid",
+      "meaning": "A place of prostration",
+      "pronunciation": "MAS-jid",
+      "language": "Arabic",
+      "usage": "A mosque. The Prophet said that the whole earth had been made a place of prayer."
+    },
+    {
+      "id": "word-bismillah",
+      "term": "Bismillah",
+      "meaning": "In the name of God",
+      "pronunciation": "bis-mil-LAH",
+      "language": "Arabic",
+      "usage": "Said before eating, travelling, working or beginning anything."
+    },
+    {
+      "id": "word-alhamdulillah",
+      "term": "Alhamdulillah",
+      "meaning": "Praise be to God",
+      "pronunciation": "al-HAM-du-lil-LAH",
+      "language": "Arabic",
+      "usage": "Thanks, said after eating, on good news and in answer to how are you."
+    },
+    {
+      "id": "word-insha-allah",
+      "term": "Insha'Allah",
+      "meaning": "If God wills",
+      "pronunciation": "in-SHAH-al-LAH",
+      "language": "Arabic",
+      "usage": "Added to any statement about the future, as a reminder of who decides it."
+    },
+    {
+      "id": "word-as-salamu-alaykum",
+      "term": "As-salamu alaykum",
+      "meaning": "Peace be upon you",
+      "pronunciation": "as-sa-LAH-moo a-LAY-koom",
+      "language": "Arabic",
+      "usage": "The greeting. The reply is wa alaykum as-salam: and upon you, peace."
+    }
+  ],
+  "practices": [
+    {
+      "id": "five-pauses",
+      "name": "Five pauses",
+      "icon": "compass",
+      "slot": "Morning",
+      "time": "05:45",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Mark the five moments at which Muslims pray: before sunrise, just after midday, in the late afternoon, just after sunset and when night has fallen. Look up the times for your town. At each one stop what you are doing for two minutes. Stand, be still and turn your attention away from your concerns toward what is greater than you. If you are Muslim, pray. If you are a guest, simply stand in silence, give thanks and return to the day.",
+      "why": "The five daily prayers are the second pillar and the backbone of Muslim life. They cut the day into portions so that no stretch of it passes without remembrance. This guest’s version keeps the rhythm and leaves the rite to those whose it is.",
+      "variations": [
+        "Wash your hands and face with care before each pause.",
+        "Begin with the dawn pause alone and add one each week.",
+        "Listen to the call to prayer at one of the five times."
+      ]
+    },
+    {
+      "id": "intention",
+      "name": "State your intention",
+      "icon": "pencil-simple",
+      "slot": "Morning",
+      "time": "08:00",
+      "minutes": 3,
+      "meta": "Morning · 3 min",
+      "instructions": "Before the day’s main work, and before any act that matters, stop and name your intention to yourself. Whom is this for? What good do I mean by it? If the honest answer is to be seen, to win or to get even, either correct the aim or leave the act alone. Begin with the words in the name of God, or with a plain statement of purpose.",
+      "why": "The first hadith in the best known collections is that actions are judged by intentions. Scholars called it a third of all knowledge. An ordinary act, done for a good reason, becomes worship.",
+      "variations": [
+        "Say bismillah before eating, driving and opening your laptop.",
+        "Re-check your intention halfway through a long task.",
+        "At night, recall one act and ask what it was really for."
+      ]
+    },
+    {
+      "id": "remembrance",
+      "name": "Thirty-three times three",
+      "icon": "repeat",
+      "slot": "Afternoon",
+      "time": "13:15",
+      "minutes": 5,
+      "meta": "Afternoon · 5 min",
+      "instructions": "Sit for five minutes. On the joints of your fingers count out thirty-three repetitions of a phrase of wonder, such as how perfect, then thirty-three of a phrase of thanks, such as all praise and thanks, then thirty-three of a phrase of greatness, such as greater than all this. Muslims say subhanAllah, alhamdulillah and Allahu akbar. Use those or your own. Let the mind rest on the meaning.",
+      "why": "This sequence of ninety-nine is recited after each prayer on the Prophet’s recommendation. Remembrance is called the polish of the heart.",
+      "variations": [
+        "Use a string of beads.",
+        "Through the day answer how are you with a sincere thanks.",
+        "Walk and repeat one phrase in step."
+      ]
+    },
+    {
+      "id": "daily-charity",
+      "name": "Give every day",
+      "icon": "hand-heart",
+      "slot": "Afternoon",
+      "time": "16:00",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Give something away every day. Money to someone who needs it is best, in secret if you can. If you have none to spare, give something else: help with a load, a word of encouragement, a visit, water for an animal, a stone moved off the path. Once in the Onda work out what one fortieth of your savings would be, and consider giving it.",
+      "why": "Zakat, the third pillar, is fixed at 2.5 per cent of saved wealth a year. Beyond it lies sadaqa, open-ended generosity. The Prophet said that every joint of the body owes a charity each day.",
+      "variations": [
+        "Feed someone.",
+        "Give to a relative or neighbour first, as the tradition advises.",
+        "Set up a standing gift, however small."
+      ]
+    },
+    {
+      "id": "night-account",
+      "name": "The night account",
+      "icon": "moon-stars",
+      "slot": "Evening",
+      "time": "22:00",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Before sleep, call yourself to account before you are called. Go through the day. For what went well, say thanks. For what went wrong, admit it, ask forgiveness and decide what you will put right with any person you wronged. Then put tomorrow in other hands: I have done what I could, and the rest is not mine to carry. Lie down in peace.",
+      "why": "The caliph Umar is credited with the saying: call yourselves to account before you are called to account. Turning back in repentance, tawba, is open at every moment, and trust in God is what allows sleep.",
+      "variations": [
+        "Read a few verses of the Qur’an in translation first.",
+        "Forgive everyone who wronged you today before closing your eyes.",
+        "Rise a little before dawn one day and sit in the quiet."
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": "fast-from-dawn-to-sunset-one-day-this-week-if-your-health-allows",
+      "name": "Fast from dawn to sunset one day this week, if your health allows",
+      "meta": "Then break the fast with water and dates, with others",
+      "time": "05:30",
+      "slot": "Morning"
+    },
+    {
+      "id": "greet-everyone-you-meet-today-with-a-wish-of-peace",
+      "name": "Greet everyone you meet today with a wish of peace",
+      "meta": "Spread peace",
+      "time": "09:00",
+      "slot": "Morning"
+    },
+    {
+      "id": "task-read-surah-93-the-morning-brightness-and-surah-94-relief",
+      "name": "Read Surah 93, The Morning Brightness, and Surah 94, Relief",
+      "meta": "Read · two short chapters of comfort",
+      "time": "20:00",
+      "slot": "Evening",
+      "action": "read"
+    },
+    {
+      "id": "task-listen-to-surah-ar-rahman-recited-by-abdul-basit-abdus-samad",
+      "name": "Listen to Surah ar-Rahman recited by Abdul Basit Abdus Samad",
+      "meta": "Listen · the chapter of the All-Merciful",
+      "time": "17:00",
+      "slot": "Afternoon",
+      "action": "listen"
+    },
+    {
+      "id": "task-look-at-a-page-of-the-blue-qur-an",
+      "name": "Look at a page of the Blue Qur’an",
+      "meta": "Art · gold Kufic script on indigo",
+      "time": "16:30",
+      "slot": "Afternoon",
+      "action": "art"
+    },
+    {
+      "id": "task-visit-a-mosque-on-an-open-day-or-outside-prayer-times",
+      "name": "Visit a mosque on an open day or outside prayer times",
+      "meta": "Travel · dress modestly, take off your shoes",
+      "time": "11:00",
+      "slot": "Afternoon",
+      "action": "travel"
+    },
+    {
+      "id": "task-journal-what-did-you-worry-about-that-was-never-yours-to-control",
+      "name": "Journal: what did you worry about that was never yours to control?",
+      "meta": "Journal · 10 min",
+      "time": "21:30",
+      "slot": "Evening",
+      "action": "journal"
+    },
+    {
+      "id": "task-stewardship-what-has-been-placed-in-your-care",
+      "name": "Stewardship: what has been placed in your care?",
+      "meta": "Philosophy · 10 min",
+      "time": "08:30",
+      "slot": "Morning",
+      "action": "philosophy"
+    },
+    {
+      "id": "remove-something-harmful-from-a-path-or-a-street",
+      "name": "Remove something harmful from a path or a street",
+      "meta": "Counted as a charity",
+      "time": "14:00",
+      "slot": "Afternoon"
+    }
+  ],
+  "rules": [
+    {
+      "id": "r1",
+      "text": "Stop five times a day",
+      "why": "At dawn, midday, afternoon, sunset and night, be still for two minutes and remember what is greater than you."
+    },
+    {
+      "id": "r2",
+      "text": "Begin with a good intention",
+      "why": "Before each task say what it is for. If the purpose is poor, change it."
+    },
+    {
+      "id": "r3",
+      "text": "Give something every day",
+      "why": "Money, food, effort or a kind word. Give quietly."
+    },
+    {
+      "id": "r4",
+      "text": "Speak good or stay silent",
+      "why": "No backbiting, no mockery, no lies. The Prophet tied this directly to faith."
+    },
+    {
+      "id": "r5",
+      "text": "No alcohol and no intoxicants",
+      "why": "Keep a clear head for the length of the Onda, and eat with thanks and without waste."
+    },
+    {
+      "id": "r6",
+      "text": "Be good to parents, kin and neighbours",
+      "why": "Contact one of them today. The neighbour’s rights were stressed so often that the Prophet thought they might inherit."
+    }
+  ],
+  "immerse": {
+    "read": [
+      {
+        "id": "read-the-qur-an-a-new-translation",
+        "title": "The Qur’an: A New Translation",
+        "creator": "trans. M. A. S. Abdel Haleem",
+        "year": "2004",
+        "why": "Clear modern English by an Egyptian scholar who knows the text by heart. Start with the short chapters at the back and with chapters 1, 12, 19 and 55."
+      },
+      {
+        "id": "read-an-nawawi-s-forty-hadith",
+        "title": "An-Nawawi’s Forty Hadith",
+        "creator": "Yahya ibn Sharaf al-Nawawi; many translations",
+        "year": "13th century",
+        "why": "Forty-two short sayings of the Prophet chosen to hold the essentials of the religion. The first book many Muslim children memorise."
+      },
+      {
+        "id": "read-muhammad-his-life-based-on-the-earliest-sources",
+        "title": "Muhammad: His Life Based on the Earliest Sources",
+        "creator": "Martin Lings",
+        "year": "1983",
+        "why": "The Prophet’s life told as a narrative from the early Arabic biographies. Loved by Muslim readers."
+      },
+      {
+        "id": "read-islam-a-short-history",
+        "title": "Islam: A Short History",
+        "creator": "Karen Armstrong",
+        "year": "2000",
+        "why": "Two hundred pages from Mecca to the modern world, written for the general reader."
+      },
+      {
+        "id": "read-the-autobiography-of-malcolm-x",
+        "title": "The Autobiography of Malcolm X",
+        "creator": "Malcolm X with Alex Haley",
+        "year": "1965",
+        "why": "The chapter on his pilgrimage to Mecca in 1964, where he prayed beside people of every colour, is one of the great accounts of the hajj."
+      },
+      {
+        "id": "read-the-travels-of-ibn-battuta",
+        "title": "The Travels of Ibn Battuta",
+        "creator": "Ibn Battuta, abridged by Tim Mackintosh-Smith",
+        "year": "1355",
+        "why": "A Moroccan jurist spends thirty years crossing the Muslim world from Mali to China and finds a mosque, a judge and a welcome almost everywhere."
+      }
+    ],
+    "watch": [
+      {
+        "id": "watch-the-message",
+        "title": "The Message",
+        "creator": "Moustapha Akkad",
+        "year": "1976",
+        "why": "The rise of Islam told without ever showing or voicing the Prophet, in keeping with Muslim practice. Approved in its day by scholars of al-Azhar."
+      },
+      {
+        "id": "watch-le-grand-voyage",
+        "title": "Le Grand Voyage",
+        "creator": "Ismaël Ferroukhi",
+        "year": "2004",
+        "why": "An ageing Moroccan father makes his French-born son drive him from Provence to Mecca. A road film about faith between generations."
+      },
+      {
+        "id": "watch-inside-mecca",
+        "title": "Inside Mecca",
+        "creator": "Anisa Mehdi, National Geographic",
+        "year": "2003",
+        "why": "Three pilgrims from South Africa, Malaysia and the United States are followed through the hajj by a Muslim crew."
+      },
+      {
+        "id": "watch-malcolm-x",
+        "title": "Malcolm X",
+        "creator": "Spike Lee",
+        "year": "1992",
+        "why": "Denzel Washington in the title role. The hajj sequence was filmed in Mecca itself by a second unit."
+      }
+    ],
+    "listen": [
+      {
+        "id": "listen-qur-an-recitation",
+        "title": "Qur’an recitation",
+        "creator": "Abdul Basit Abdus Samad",
+        "year": "1950s to 1980s",
+        "why": "The Egyptian reciter with the long breath, heard in homes and taxis from Morocco to Indonesia. Try Surah ar-Rahman or the short chapters."
+      },
+      {
+        "id": "listen-the-call-to-prayer",
+        "title": "The call to prayer",
+        "creator": "Muezzins of Cairo, Istanbul, Mecca and Medina",
+        "year": "since the 7th century",
+        "why": "The same Arabic words everywhere, in local melodic styles. First called by Bilal, a freed Ethiopian slave."
+      },
+      {
+        "id": "listen-tala-al-badru-alayna",
+        "title": "Tala al-Badru Alayna",
+        "creator": "Traditional",
+        "year": "7th century by tradition",
+        "why": "The full moon has risen over us: the song with which the people of Medina are said to have welcomed the Prophet."
+      },
+      {
+        "id": "listen-qasidat-al-burda",
+        "title": "Qasidat al-Burda",
+        "creator": "Imam al-Busiri; many recordings",
+        "year": "13th century",
+        "why": "The Poem of the Cloak in praise of the Prophet, sung at gatherings across the Sunni world."
+      }
+    ],
+    "art": [
+      {
+        "id": "art-the-dome-of-the-rock",
+        "title": "The Dome of the Rock",
+        "creator": "Jerusalem",
+        "year": "completed 691 or 692",
+        "why": "The oldest surviving Islamic monument: an octagon under a golden dome, with the earliest dated Qur’anic inscriptions running round the inside in mosaic."
+      },
+      {
+        "id": "art-the-blue-qur-an",
+        "title": "The Blue Qur’an",
+        "creator": "Probably Kairouan, Tunisia, or Spain",
+        "year": "9th to 10th century",
+        "why": "Gold letters on parchment dyed deep indigo. Leaves are in Tunis, New York, Doha and other collections."
+      },
+      {
+        "id": "art-the-qur-an-of-ibn-al-bawwab",
+        "title": "The Qur’an of Ibn al-Bawwab",
+        "creator": "Baghdad; Chester Beatty Library, Dublin",
+        "year": "1000 to 1001",
+        "why": "The earliest dated Qur’an in a rounded cursive hand, by the calligrapher who perfected proportioned script."
+      },
+      {
+        "id": "art-the-alhambra",
+        "title": "The Alhambra",
+        "creator": "Granada, Spain",
+        "year": "13th to 14th century",
+        "why": "Palace walls covered in geometry, carved plaster and the repeated phrase: there is no victor but God."
+      }
+    ],
+    "eat": [
+      {
+        "id": "eat-dates-and-water",
+        "title": "Dates and water",
+        "creator": "An odd number of dates",
+        "why": "How the Prophet broke his fast, and how most Muslims still do at sunset in Ramadan."
+      },
+      {
+        "id": "eat-harira",
+        "title": "Harira",
+        "creator": "Tomato, lentil and chickpea soup with herbs",
+        "why": "The soup that opens the evening meal in Ramadan across Morocco."
+      },
+      {
+        "id": "eat-biryani-or-kabsa",
+        "title": "Biryani or kabsa",
+        "creator": "Spiced rice with meat, cooked in one pot",
+        "why": "A dish for feeding many people from one tray, at weddings and at the two festivals."
+      },
+      {
+        "id": "eat-lamb-shared-in-three-parts",
+        "title": "Lamb shared in three parts",
+        "creator": "At the festival of sacrifice",
+        "why": "The meat is divided: a third for the household, a third for relatives and neighbours and a third for the poor."
+      }
+    ],
+    "drink": [
+      {
+        "id": "drink-mint-tea",
+        "title": "Mint tea",
+        "creator": "Green tea with fresh mint and sugar",
+        "why": "The drink of welcome from Morocco to the Sahel. Refusing the first glass is impolite."
+      },
+      {
+        "id": "drink-arabic-coffee",
+        "title": "Arabic coffee",
+        "creator": "Lightly roasted, with cardamom, in small cups",
+        "why": "Poured for guests with the left hand holding the pot. Coffee drinking began among Sufis in Yemen who wanted to stay awake for night prayer."
+      },
+      {
+        "id": "drink-laban-or-ayran",
+        "title": "Laban or ayran",
+        "creator": "Salted yogurt drink",
+        "why": "Cooling, and common at the meal that breaks the fast."
+      }
+    ],
+    "customs": [
+      {
+        "id": "customs-right-hand-and-bismillah",
+        "title": "Right hand, and bismillah",
+        "creator": "At table",
+        "why": "Food is taken with the right hand after saying in the name of God, and the meal ends with praise be to God."
+      },
+      {
+        "id": "customs-shoes-off-modest-dress",
+        "title": "Shoes off, modest dress",
+        "creator": "In mosques and many homes",
+        "why": "Prayer halls are carpeted for prostration. Visitors cover arms and legs, and women are often asked to cover their hair."
+      },
+      {
+        "id": "customs-blessing-the-prophet",
+        "title": "Blessing the Prophet",
+        "creator": "Peace be upon him",
+        "why": "Muslims add this phrase whenever they mention Muhammad, and they do not depict him."
+      },
+      {
+        "id": "customs-friday",
+        "title": "Friday",
+        "creator": "The day of congregation",
+        "why": "At midday on Friday men are obliged, and women welcome, to pray together at the mosque and hear a sermon."
+      }
+    ],
+    "games": [
+      {
+        "id": "games-shatranj",
+        "title": "Shatranj",
+        "creator": "Board game · Persia and the Arab world",
+        "year": "from the 7th century",
+        "why": "The older form of chess. Players at the caliphs’ court in Baghdad, such as al-Adli and as-Suli, wrote the first books of openings and problems."
+      },
+      {
+        "id": "games-mancala",
+        "title": "Mancala",
+        "creator": "Board game · Africa and the Middle East",
+        "year": "ancient",
+        "why": "Seeds sown round rows of pits. The name is Arabic, from a word for moving. Played from Syria to Zanzibar."
+      },
+      {
+        "id": "games-engare",
+        "title": "Engare",
+        "creator": "Video game · Mahdi Bahrami",
+        "year": "2017",
+        "why": "A puzzle game from Iran in which moving shapes trace the repeating patterns of Islamic geometric art. It ends as a tool for drawing your own."
+      }
+    ],
+    "festivals": [
+      {
+        "id": "fest-ramadan",
+        "title": "Ramadan",
+        "creator": "The ninth lunar month; it moves about eleven days earlier each year",
+        "why": "A month of fasting from dawn to sunset, extra night prayers and reading the whole Qur’an. Evenings are sociable and generous."
+      },
+      {
+        "id": "fest-eid-al-fitr",
+        "title": "Eid al-Fitr",
+        "creator": "The first day after Ramadan",
+        "why": "The festival of breaking the fast. A charity is paid for every member of the household before the morning prayer. New clothes, visits and sweets."
+      },
+      {
+        "id": "fest-eid-al-adha",
+        "title": "Eid al-Adha",
+        "creator": "The 10th of the twelfth month",
+        "why": "The festival of sacrifice, recalling Abraham, on the day pilgrims at Mecca complete the central rites of the hajj."
+      },
+      {
+        "id": "fest-the-prophet-s-birthday-mawlid",
+        "title": "The Prophet’s birthday (Mawlid)",
+        "creator": "The 12th of the third month",
+        "why": "Kept with poetry, processions and sweets in much of the Sunni world. Some Muslims do not celebrate it."
+      }
+    ],
+    "places": [
+      {
+        "id": "place-mecca-and-medina",
+        "title": "Mecca and Medina",
+        "creator": "Saudi Arabia",
+        "why": "The Kaaba, toward which all Muslims pray, and the Prophet’s mosque and tomb. Mecca and the sacred centre of Medina are open to Muslims only."
+      },
+      {
+        "id": "place-al-azhar-mosque-and-islamic-cairo",
+        "title": "Al-Azhar Mosque and Islamic Cairo",
+        "creator": "Cairo, Egypt",
+        "why": "A mosque and university founded in 970 that became the leading seat of Sunni learning. Visitors are welcome outside prayer times."
+      },
+      {
+        "id": "place-the-great-mosque-of-kairouan",
+        "title": "The Great Mosque of Kairouan",
+        "creator": "Tunisia",
+        "why": "Founded in 670 and rebuilt in the ninth century. One of the oldest mosques in the world, with a forest of reused Roman columns."
+      },
+      {
+        "id": "place-the-mosque-cathedral-of-cordoba",
+        "title": "The Mosque-Cathedral of Córdoba",
+        "creator": "Andalusia, Spain",
+        "why": "Hundreds of red and white double arches from the tenth century capital of Muslim Spain, with a church set in the middle since the sixteenth."
+      },
+      {
+        "id": "place-istiqlal-mosque",
+        "title": "Istiqlal Mosque",
+        "creator": "Jakarta, Indonesia",
+        "why": "The national mosque of the country with the most Muslims in the world, facing the Catholic cathedral across the road. Guided visits are free."
+      }
+    ]
+  },
+  "ethics": [
+    {
+      "title": "Justice",
+      "text": "Stand firmly for justice, says the Qur’an, even against yourselves, your parents or your kin, whether the person is rich or poor.",
+      "practice": "Admit you were wrong in one matter today, to the person concerned."
+    },
+    {
+      "title": "Mercy",
+      "text": "Every chapter of the Qur’an but one opens in the name of God, the Lord of Mercy, the Giver of Mercy. Those who show no mercy, said the Prophet, will be shown none.",
+      "practice": "Let someone off today when you could have insisted."
+    },
+    {
+      "title": "Honesty in dealings",
+      "text": "Give full measure and weight. The Prophet was known as the trustworthy before he was a prophet, and a merchant who is honest is promised the company of the martyrs.",
+      "practice": "Check one bill, claim or timesheet for fairness to the other side."
+    },
+    {
+      "title": "Generosity",
+      "text": "Wealth is a trust. The one who sleeps full while a neighbour is hungry is not a believer, runs a hadith.",
+      "practice": "Find out whether anyone near you is going without, and act."
+    },
+    {
+      "title": "Guarding the tongue",
+      "text": "Backbiting is likened in the Qur’an to eating the flesh of one’s dead brother. Suspicion and spying are forbidden with it.",
+      "practice": "Defend someone who is being talked about in their absence."
+    },
+    {
+      "title": "Kindness to parents",
+      "text": "Do not say to them even a word of contempt, says the Qur’an, and lower to them the wing of humility. Paradise is said to lie at the feet of mothers.",
+      "practice": "Serve a parent or an elder today without being asked."
+    }
+  ],
+  "philosophy": [
+    {
+      "title": "One God",
+      "text": "Tawhid is more than counting gods. If God alone is ultimate, then nothing else is: money, nation, self, fear. To surrender to the One is to be freed from serving the many.",
+      "practice": "Name the thing that actually governs your day. Would you choose it as your master?"
+    },
+    {
+      "title": "Stewardship",
+      "text": "The Qur’an says God placed humankind on earth as khalifa, a deputy or steward. The earth, the body, wealth and children are held in trust and will be answered for.",
+      "practice": "List three things in your care. Do one thing today to look after each."
+    },
+    {
+      "title": "The natural disposition",
+      "text": "Every child is born on the fitra, a natural inclination to know God and do good. Religion is a reminder of what one already is. The human problem is forgetfulness more than corruption.",
+      "practice": "Set three reminders today of what you most want to remember."
+    },
+    {
+      "title": "Intention",
+      "text": "Two people may do the same act and one is rewarded and the other not. What a deed is depends on why it was done. This gives ordinary life a hidden depth.",
+      "practice": "Take a routine chore and decide, before doing it, to do it as a gift."
+    },
+    {
+      "title": "Trust and effort",
+      "text": "A man asked whether he should tie his camel or trust in God. Tie it, said the Prophet, and trust. Do everything in your power, then release the result.",
+      "practice": "Pick one worry. Do the one thing you can about it today and put the rest down."
+    },
+    {
+      "title": "Hardship and ease",
+      "text": "The verse does not say that ease follows hardship. It says ease comes with it, and says so twice. Difficulty is treated as a test and a cleansing, never as abandonment.",
+      "practice": "Find the ease that is already inside a present difficulty."
+    },
+    {
+      "title": "Excellence",
+      "text": "The angel Gabriel asked the Prophet what ihsan is. He answered: to worship God as if you see Him. It means doing everything beautifully because it is seen.",
+      "practice": "Do one unobserved task today to the highest standard you can."
+    },
+    {
+      "title": "The middle community",
+      "text": "The Qur’an calls Muslims a community of the middle way. The Prophet rebuked followers who vowed to fast every day, pray all night and never marry. Moderation is the norm.",
+      "practice": "Notice where you run to an extreme, and move one step toward the middle."
+    }
+  ],
+  "journal": [
+    "What did you worry about that was never yours to control?",
+    "What did the five pauses interrupt?",
+    "What was your real intention in the most important thing you did?",
+    "What did you give today?",
+    "What are you thankful for, named one by one?",
+    "Whom did you speak ill of?",
+    "What has been placed in your care?",
+    "Where did you find ease inside a hardship?",
+    "What do you serve?",
+    "What did you forget today that you wanted to remember?",
+    "Whose rights over you did you neglect?",
+    "What did hunger teach you?",
+    "Where did you fall short of full measure?",
+    "Whom did you greet with peace, and whom did you avoid?",
+    "What would you do differently if you knew it was seen?",
+    "What did you tie, and what did you trust?",
+    "Who is your neighbour, and do they have enough?",
+    "Where did you go to an extreme?",
+    "What did you do for your parents or elders?",
+    "What needs forgiving in you tonight?",
+    "Whom do you need to forgive?",
+    "What burden are you carrying that is more than yours?",
+    "What do you owe from your wealth?",
+    "Whom did you come to know today who is unlike you?",
+    "What good did you leave undone?",
+    "Where were you patient?",
+    "What did the recitation make you feel?",
+    "What would it mean to surrender this one thing?",
+    "What mercy did you receive?",
+    "What will you intend tomorrow?"
+  ],
+  "reflect": [
+    "What did stopping five times a day do to your sense of time?",
+    "What changed when you named your intention first?",
+    "What did daily giving loosen?",
+    "What have you stopped trying to control?",
+    "What did fasting or restraint show you?",
+    "Which practice will stay with you?"
+  ],
+  "dayThemes": [
+    "In the name of God",
+    "The opening",
+    "Intention",
+    "The dawn pause",
+    "Remembrance",
+    "Charity",
+    "Friday",
+    "One God",
+    "Mercy",
+    "The trustworthy",
+    "Full measure",
+    "Hardship and ease",
+    "No more than you can bear",
+    "Tie your camel",
+    "Gratitude",
+    "Patience",
+    "The neighbour",
+    "Parents",
+    "Guard the tongue",
+    "Know one another",
+    "The steward",
+    "The fast",
+    "Dates and water",
+    "The middle way",
+    "As if you see",
+    "The night account",
+    "Turning back",
+    "The journey",
+    "Peace",
+    "If God wills"
+  ],
+  "guide": {
+    "intro": [
+      "Islam is the religion of about two billion people, nearly a quarter of humanity. Its name means willing surrender to God, and it shares a root with the word for peace. Muslims understand it as the same faith taught by Abraham, Moses and Jesus, restored and completed in the revelation given to Muhammad, a merchant of Mecca, between the years 610 and 632.",
+      "That revelation is the Qur’an, which Muslims hold to be the speech of God in Arabic, memorised and recited ever since. Its message is the oneness of God, who is merciful and just, the moral responsibility of every person, the reality of a final reckoning and the duty to care for orphans, the poor and the traveller. Alongside it stands the Sunnah, the example of the Prophet, preserved in thousands of reports called hadith.",
+      "Practice rests on five pillars. The testimony of faith. Prayer five times a day, facing Mecca. An annual due of one fortieth of savings for those in need. Fasting from dawn to sunset through the month of Ramadan. And the pilgrimage to Mecca once in a lifetime for those able. Around these has grown a detailed way of life covering food, family, trade and manners, worked out by jurists and known as the sharia, the path to water.",
+      "Sunni is short for the people of the Prophet’s way and of the community. The name goes back to a disagreement after the Prophet’s death about who should lead. Those who became the Sunnis accepted the leaders chosen by the community, beginning with his close companion Abu Bakr. Those who became the Shia held that leadership belonged to his cousin and son-in-law Ali and his descendants. The two share the Qur’an, the pillars and most of their practice. Shia Islam has its own Onda in this app.",
+      "Sunni Islam has no pope and no priesthood. Authority lies with scholars, and four schools of law, the Hanafi, Maliki, Shafi’i and Hanbali, are recognised as equally valid. From the eighth century onward Sunni scholars built one of the great intellectual traditions of the world in law, theology, grammar, medicine and mathematics, and the mystical path of the Sufis grew up within it.",
+      "This Onda borrows the shape of a Muslim day: five pauses at the times of prayer, a stated intention, remembrance on the fingers, daily giving and an account at night. If you are Muslim, it may refresh what you know. If you are a guest, you are not asked to perform the ritual prayer or to say the testimony of faith, which are acts of commitment. A mosque visit is usually easy to arrange, and you will be welcome."
+    ],
+    "origin": "Mecca and Medina in western Arabia; today from Senegal to Indonesia and worldwide",
+    "era": "The Prophet Muhammad lived from about 570 to 632. Sunni Islam is the faith of about 85 to 90 per cent of Muslims",
+    "figures": [
+      {
+        "name": "The Prophet Muhammad",
+        "dates": "about 570 to 632",
+        "bio": "Born in Mecca and orphaned early. He received the first revelation at forty in a cave on Mount Hira, emigrated to Medina in 622 and by his death had united Arabia."
+      },
+      {
+        "name": "Khadija bint Khuwaylid",
+        "dates": "about 555 to 619",
+        "bio": "A wealthy merchant who employed and then married Muhammad. She was the first to believe him and supported him with her fortune."
+      },
+      {
+        "name": "Abu Bakr",
+        "dates": "about 573 to 634",
+        "bio": "The Prophet’s closest friend and father-in-law, and the first caliph. He held the community together after the Prophet’s death."
+      },
+      {
+        "name": "Umar ibn al-Khattab",
+        "dates": "about 584 to 644",
+        "bio": "The second caliph, under whom Muslim rule reached Egypt and Persia. Remembered for plain living and strict justice."
+      },
+      {
+        "name": "Aisha bint Abi Bakr",
+        "dates": "about 613 to 678",
+        "bio": "A wife of the Prophet and one of the chief transmitters of his sayings. Companions and later scholars came to her for rulings."
+      },
+      {
+        "name": "Abu Hanifa",
+        "dates": "699 to 767",
+        "bio": "A silk merchant of Kufa and founder of the most widely followed school of law. He refused a judgeship and died in prison."
+      },
+      {
+        "name": "Muhammad al-Bukhari",
+        "dates": "810 to 870",
+        "bio": "From Bukhara. He travelled for sixteen years sifting reports of the Prophet and kept some seven thousand in the collection Sunnis rank next to the Qur’an."
+      },
+      {
+        "name": "Fatima al-Fihri",
+        "dates": "about 800 to 880",
+        "bio": "A merchant’s daughter who used her inheritance to found the Qarawiyyin mosque in Fez in 859. It grew into what is often called the oldest university still operating."
+      },
+      {
+        "name": "Abu Hamid al-Ghazali",
+        "dates": "1058 to 1111",
+        "bio": "The most celebrated teacher in Baghdad, who left his post after a crisis of doubt and wrote The Revival of the Religious Sciences, joining law, theology and the inner life."
+      },
+      {
+        "name": "Ibn Battuta",
+        "dates": "1304 to about 1369",
+        "bio": "A jurist from Tangier who set out for Mecca at twenty-one and kept travelling for nearly thirty years."
+      }
+    ],
+    "history": [
+      {
+        "when": "610",
+        "what": "The first revelation",
+        "detail": "In a cave outside Mecca the angel Gabriel commands Muhammad: recite. He begins to preach the oneness of God, and the city’s leaders turn against him."
+      },
+      {
+        "when": "622",
+        "what": "The emigration",
+        "detail": "Muhammad and his followers move to Medina, where he founds a community and makes a pact with its tribes, including its Jews. The Muslim calendar starts from this year."
+      },
+      {
+        "when": "630 to 632",
+        "what": "Mecca and the farewell",
+        "detail": "Mecca surrenders almost without bloodshed and the Kaaba is cleared of idols. In 632 the Prophet makes his only pilgrimage, preaches that no Arab is superior to a non-Arab, and dies in Medina."
+      },
+      {
+        "when": "632 to 661",
+        "what": "The Rightly Guided Caliphs",
+        "detail": "Abu Bakr, Umar, Uthman and Ali lead in turn. Muslim armies take Syria, Egypt, Iraq and Persia. The period ends in civil war."
+      },
+      {
+        "when": "about 650",
+        "what": "The Qur’an is standardised",
+        "detail": "Under Uthman an official written text is compiled from the reciters and the early written pieces, and copies are sent to the main cities."
+      },
+      {
+        "when": "661 to 750",
+        "what": "The Umayyads",
+        "detail": "A dynasty ruling from Damascus extends the empire from Spain to the Indus. The Dome of the Rock is built."
+      },
+      {
+        "when": "750 to 1258",
+        "what": "The Abbasids",
+        "detail": "The capital moves to Baghdad. Greek, Persian and Indian learning is translated, and the sciences of law, hadith and theology mature."
+      },
+      {
+        "when": "8th to 9th century",
+        "what": "The schools of law",
+        "detail": "Abu Hanifa, Malik, al-Shafi’i and Ahmad ibn Hanbal work out methods for deriving law. Their four schools become the framework of Sunni practice."
+      },
+      {
+        "when": "9th century",
+        "what": "The six books",
+        "detail": "Al-Bukhari, Muslim and four others compile the hadith collections that Sunnis treat as canonical."
+      },
+      {
+        "when": "11th to 12th century",
+        "what": "Colleges and synthesis",
+        "detail": "Madrasas spread from Baghdad. Al-Ghazali reconciles legal learning with Sufi devotion."
+      },
+      {
+        "when": "1258",
+        "what": "The fall of Baghdad",
+        "detail": "The Mongols sack the city and kill the caliph. New centres of Sunni power arise in Cairo, Delhi and later Istanbul."
+      },
+      {
+        "when": "13th to 16th century",
+        "what": "South and east",
+        "detail": "Traders and Sufis carry Islam into West Africa, the Indian Ocean coasts and the Malay archipelago. Mali, Timbuktu and Aceh become centres of learning."
+      },
+      {
+        "when": "1924",
+        "what": "The end of the caliphate",
+        "detail": "The Turkish republic abolishes the Ottoman caliphate. The twentieth century brings colonial rule and independence, reform movements and wide debate about law, the state and modern life."
+      }
+    ],
+    "concepts": [
+      {
+        "term": "The five pillars",
+        "text": "The frame of practice.",
+        "detail": "Testimony, prayer, alms, fasting and pilgrimage. They are set out in a famous hadith in which the angel Gabriel questions the Prophet."
+      },
+      {
+        "term": "The six articles of faith",
+        "text": "What is believed.",
+        "detail": "God, the angels, the revealed books, the messengers, the last day and the divine decree, both its good and its bitter."
+      },
+      {
+        "term": "Qur’an and Sunnah",
+        "text": "The two sources.",
+        "detail": "The Qur’an is God’s word, and the Sunnah shows how the Prophet lived it. Jurists add consensus and reasoning by analogy."
+      },
+      {
+        "term": "Sharia and fiqh",
+        "text": "The path and its understanding.",
+        "detail": "Sharia is the divine will for human conduct. Fiqh is the human effort to understand it, and that effort is fallible and varied. Acts are graded from required to forbidden, with most things simply permitted."
+      },
+      {
+        "term": "The four schools",
+        "text": "Agreed diversity.",
+        "detail": "Hanafi, Maliki, Shafi’i and Hanbali differ in method and in many details and recognise one another as sound."
+      },
+      {
+        "term": "Prophethood",
+        "text": "A chain of messengers.",
+        "detail": "God sent guidance to every people. Adam, Noah, Abraham, Moses and Jesus are all honoured, and Muhammad is the seal who closes the line."
+      },
+      {
+        "term": "The hereafter",
+        "text": "Return and reckoning.",
+        "detail": "Every soul will be raised and shown its deeds, down to an atom’s weight of good or evil. God’s mercy is said to outstrip His wrath."
+      },
+      {
+        "term": "Ijma",
+        "text": "Consensus.",
+        "detail": "The agreement of the community’s scholars. Sunnis cite the saying that the community will not agree on an error."
+      },
+      {
+        "term": "Jihad",
+        "text": "Struggle.",
+        "detail": "The word means striving in God’s cause. Scholars distinguish the struggle against one’s own lower self from armed defence, which is bound by strict rules."
+      }
+    ],
+    "facts": [
+      {
+        "text": "The Muslim year has twelve lunar months and is about eleven days shorter than the solar year, so Ramadan passes through every season in thirty-three years."
+      },
+      {
+        "text": "Millions of living people know the entire Qur’an by heart. One who does is called a hafiz, a guardian."
+      },
+      {
+        "text": "The country with the most Muslims is Indonesia. Most Muslims are not Arabs."
+      },
+      {
+        "text": "The words algebra and algorithm come from the name and the book of al-Khwarizmi, a ninth century scholar in Baghdad."
+      },
+      {
+        "text": "Mosques have no images of living beings. Decoration is geometry, plant forms and writing."
+      },
+      {
+        "text": "About two million people from nearly every country gather for the hajj each year, the men dressed in two unsewn white cloths."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Surah",
+        "meaning": "A chapter of the Qur’an; there are 114"
+      },
+      {
+        "term": "Imam",
+        "meaning": "In Sunni usage, the person who leads the prayer; also a title for great scholars"
+      },
+      {
+        "term": "Caliph",
+        "meaning": "A successor to the Prophet as leader of the community"
+      },
+      {
+        "term": "Mihrab",
+        "meaning": "The niche in a mosque wall that shows the direction of Mecca"
+      },
+      {
+        "term": "Halal and haram",
+        "meaning": "Permitted and forbidden"
+      },
+      {
+        "term": "Hijra",
+        "meaning": "The emigration to Medina in 622"
+      }
+    ],
+    "furtherReading": [
+      {
+        "title": "No god but God: The Origins, Evolution and Future of Islam",
+        "creator": "Reza Aslan",
+        "year": "2005",
+        "note": "A lively narrative that argues with received views inside and outside the faith."
+      },
+      {
+        "title": "Destiny Disrupted: A History of the World Through Islamic Eyes",
+        "creator": "Tamim Ansary",
+        "year": "2009",
+        "note": "World history as it looks from the Muslim centre."
+      },
+      {
+        "title": "Deliverance from Error",
+        "creator": "Abu Hamid al-Ghazali",
+        "year": "about 1108",
+        "note": "His short spiritual autobiography, on doubt and how he came through it."
+      },
+      {
+        "title": "Misquoting Muhammad",
+        "creator": "Jonathan A. C. Brown",
+        "year": "2014",
+        "note": "How Muslim scholars have interpreted the Prophet’s legacy, and the arguments about it today."
+      }
+    ],
+    "learnFrom": [
+      {
+        "name": "Quran.com",
+        "note": "The Qur’an in Arabic with many translations and audio from leading reciters.",
+        "link": "https://quran.com"
+      },
+      {
+        "name": "Yaqeen Institute",
+        "note": "Articles and short courses by Sunni scholars on belief, practice and contemporary questions.",
+        "link": "https://yaqeeninstitute.org"
+      },
+      {
+        "name": "A mosque open day",
+        "note": "Many mosques hold them and welcome questions. Call or write first if none is advertised."
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Qur’an: A New Translation",
+        "creator": "trans. M. A. S. Abdel Haleem",
+        "publisher": "Oxford World's Classics",
+        "year": "2004"
+      },
+      {
+        "title": "An-Nawawi’s Forty Hadith",
+        "creator": "trans. Ezzeddin Ibrahim and Denys Johnson-Davies",
+        "publisher": "Islamic Texts Society",
+        "year": "1997"
+      },
+      {
+        "title": "Muhammad: His Life Based on the Earliest Sources",
+        "creator": "Martin Lings",
+        "publisher": "Islamic Texts Society",
+        "year": "1983"
+      },
+      {
+        "title": "Islam: A Short History",
+        "creator": "Karen Armstrong",
+        "publisher": "Modern Library",
+        "year": "2000"
+      },
+      {
+        "title": "The Venture of Islam, volume 1",
+        "creator": "Marshall G. S. Hodgson",
+        "publisher": "University of Chicago Press",
+        "year": "1974"
+      },
+      {
+        "title": "Hadith: Muhammad’s Legacy in the Medieval and Modern World",
+        "creator": "Jonathan A. C. Brown",
+        "publisher": "Oneworld",
+        "year": "2nd edition 2017"
+      }
+    ]
+  },
+  "sensitivity": {
+    "note": "Sunni Islam is the living faith of well over a billion people. This Onda borrows the rhythm and the ethics of a Muslim day. It does not ask a guest to perform the ritual prayer or to recite the testimony of faith, and it is no substitute for learning from Muslims.",
+    "requiredCaveats": [
+      "Muslims differ by school of law, country and culture. Local custom is often mistaken for religion.",
+      "The Prophet is not depicted, and Muslims add a blessing when naming him. The Qur’an in Arabic is handled with ritual care.",
+      "Muslims are frequent targets of prejudice. Do not treat the acts of extremists as representative.",
+      "Fasting is optional here. Do not fast if you are ill, pregnant or have a history of disordered eating."
+    ],
+    "reviewRequired": true
+  }
+}

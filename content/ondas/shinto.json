@@ -1,0 +1,1207 @@
+{
+  "version": 1,
+  "id": "shinto",
+  "name": "Shinto",
+  "origin": "Japan",
+  "era": "From prehistory to today",
+  "tone": "coral",
+  "icon": "tree",
+  "font": "kaisei-opti",
+  "pattern": "paper-streamers",
+  "glyph": "神",
+  "line": "Keep yourself and your place clean, give thanks and bow to what is greater than you.",
+  "quote": {
+    "text": "Anything whatsoever which was outside the ordinary, which possessed superior power, or which was awe-inspiring was called kami.",
+    "by": "Motoori Norinaga",
+    "source": "Kojiki-den, 1798, as translated in Sources of Japanese Tradition, ed. Tsunoda, de Bary and Keene"
+  },
+  "quotes": [
+    {
+      "text": "Purify us, cleanse us; as you are kami, protect us and bring us happiness.",
+      "by": "Shrine prayer",
+      "source": "Harae tamae, kiyome tamae, kamu nagara mamori tamae, sakiwae tamae: the short prayer said by worshippers at shrines"
+    },
+    {
+      "text": "Eight clouds arise. The eight-fold fence of Idzumo makes an eight-fold fence for the spouses to retire within. Oh! that eight-fold fence.",
+      "by": "Susanoo",
+      "source": "Kojiki, trans. Basil Hall Chamberlain, 1882. By tradition the first poem in Japanese"
+    },
+    {
+      "text": "What it is that dwells here I do not know, yet my tears fall in gratitude.",
+      "by": "Attributed to the monk Saigyo",
+      "source": "Said to have been composed at the Ise shrines in the 12th century; the attribution is traditional",
+      "unverified": true
+    },
+    {
+      "text": "Shinto has no philosophy, no code of ethics, no metaphysics; and yet, by its very immateriality, it can resist the invasion of Occidental religious thought as no other Orient faith can.",
+      "by": "Lafcadio Hearn",
+      "source": "Glimpses of Unfamiliar Japan, 1894"
+    }
+  ],
+  "words": [
+    {
+      "id": "word-kami",
+      "term": "Kami",
+      "meaning": "Spirits, deities, sacred powers",
+      "pronunciation": "KAH-mee",
+      "language": "Japanese",
+      "usage": "Present in mountains, trees, waterfalls, ancestors, great people and the gods of the myths. The word is both singular and plural."
+    },
+    {
+      "id": "word-shinto",
+      "term": "Shinto",
+      "meaning": "The way of the kami",
+      "pronunciation": "SHIN-toh",
+      "language": "Japanese",
+      "usage": "A Chinese-style name coined to tell native practice apart from Buddhism. The older reading is kami no michi."
+    },
+    {
+      "id": "word-jinja",
+      "term": "Jinja",
+      "meaning": "A shrine",
+      "pronunciation": "JIN-ja",
+      "language": "Japanese",
+      "usage": "The dwelling of a kami. There are about eighty thousand in Japan."
+    },
+    {
+      "id": "word-torii",
+      "term": "Torii",
+      "meaning": "The shrine gate",
+      "pronunciation": "TOH-ree-ee",
+      "language": "Japanese",
+      "usage": "Two posts and two crossbeams marking the line between the everyday world and sacred ground."
+    },
+    {
+      "id": "word-harae",
+      "term": "Harae",
+      "meaning": "Purification",
+      "pronunciation": "ha-RAH-eh",
+      "language": "Japanese",
+      "usage": "Removing pollution and misfortune by water, salt, a wand of paper streamers or spoken formula. The central rite."
+    },
+    {
+      "id": "word-kegare",
+      "term": "Kegare",
+      "meaning": "Pollution, a withered state",
+      "pronunciation": "keh-GAH-reh",
+      "language": "Japanese",
+      "usage": "Something that clings after contact with death, blood or disaster. Not sin: it is washed off, not confessed."
+    },
+    {
+      "id": "word-misogi",
+      "term": "Misogi",
+      "meaning": "Purification by water",
+      "pronunciation": "mee-SOH-gee",
+      "language": "Japanese",
+      "usage": "Standing under a waterfall or in the sea. It goes back to the god Izanagi washing after his return from the land of the dead."
+    },
+    {
+      "id": "word-temizu",
+      "term": "Temizu",
+      "meaning": "Hand water",
+      "pronunciation": "teh-MEE-zoo",
+      "language": "Japanese",
+      "usage": "Rinsing the hands and mouth at the basin before approaching a shrine. A small misogi."
+    },
+    {
+      "id": "word-matsuri",
+      "term": "Matsuri",
+      "meaning": "A festival",
+      "pronunciation": "ma-TSOO-ree",
+      "language": "Japanese",
+      "usage": "From a word meaning to serve or attend upon. The kami is entertained, fed and carried through the neighbourhood."
+    },
+    {
+      "id": "word-mikoshi",
+      "term": "Mikoshi",
+      "meaning": "A portable shrine",
+      "pronunciation": "mee-KOH-shee",
+      "language": "Japanese",
+      "usage": "The kami’s palanquin, shouldered through the streets at festivals with much shouting and jolting."
+    },
+    {
+      "id": "word-norito",
+      "term": "Norito",
+      "meaning": "Ritual prayer",
+      "pronunciation": "noh-REE-toh",
+      "language": "Japanese",
+      "usage": "Formal words addressed to the kami in archaic Japanese. The right words, rightly spoken, are held to have power."
+    },
+    {
+      "id": "word-kotodama",
+      "term": "Kotodama",
+      "meaning": "The spirit of words",
+      "pronunciation": "koh-toh-DAH-ma",
+      "language": "Japanese",
+      "usage": "The belief that spoken words can bring about what they name. A reason to speak well of things."
+    },
+    {
+      "id": "word-musubi",
+      "term": "Musubi",
+      "meaning": "The power of growth and binding",
+      "pronunciation": "moo-SOO-bee",
+      "language": "Japanese",
+      "usage": "The creative force that brings things into being and ties them together. Also the everyday word for a knot."
+    },
+    {
+      "id": "word-makoto",
+      "term": "Makoto",
+      "meaning": "Sincerity",
+      "pronunciation": "ma-KOH-toh",
+      "language": "Japanese",
+      "usage": "A true heart, with nothing hidden. The quality the kami are said to care about most."
+    },
+    {
+      "id": "word-kannagara",
+      "term": "Kannagara",
+      "meaning": "Following the way of the kami",
+      "pronunciation": "kahn-NAH-ga-ra",
+      "language": "Japanese",
+      "usage": "Living in accord with the natural order, as the kami do."
+    },
+    {
+      "id": "word-shinboku",
+      "term": "Shinboku",
+      "meaning": "A sacred tree",
+      "pronunciation": "SHIN-boh-koo",
+      "language": "Japanese",
+      "usage": "An old tree in which a kami dwells, marked with a rope. Often camphor, cedar or ginkgo."
+    },
+    {
+      "id": "word-shimenawa",
+      "term": "Shimenawa",
+      "meaning": "The sacred rope",
+      "pronunciation": "shee-meh-NAH-wa",
+      "language": "Japanese",
+      "usage": "Twisted rice straw hung with zigzag paper, marking something or somewhere as pure and set apart."
+    },
+    {
+      "id": "word-shide",
+      "term": "Shide",
+      "meaning": "Zigzag paper streamers",
+      "pronunciation": "SHEE-deh",
+      "language": "Japanese",
+      "usage": "Folded white paper hung from ropes and wands. The form is said to recall lightning, which brings rain for the rice."
+    },
+    {
+      "id": "word-kamidana",
+      "term": "Kamidana",
+      "meaning": "The kami shelf",
+      "pronunciation": "ka-mee-DAH-na",
+      "language": "Japanese",
+      "usage": "A small shrine kept high on a wall at home or in a shop, with offerings of rice, salt and water."
+    },
+    {
+      "id": "word-ofuda",
+      "term": "Ofuda",
+      "meaning": "A shrine talisman",
+      "pronunciation": "oh-FOO-da",
+      "language": "Japanese",
+      "usage": "A paper or wooden tablet from a shrine, kept in the kamidana and renewed each year."
+    },
+    {
+      "id": "word-omamori",
+      "term": "Omamori",
+      "meaning": "A protective charm",
+      "pronunciation": "oh-ma-MOH-ree",
+      "language": "Japanese",
+      "usage": "A small brocade bag sold at shrines for safe travel, study or health. It is not to be opened."
+    },
+    {
+      "id": "word-ema",
+      "term": "Ema",
+      "meaning": "A votive tablet",
+      "pronunciation": "EH-ma",
+      "language": "Japanese",
+      "usage": "A small wooden plaque on which a wish is written and left at the shrine. The name means picture horse."
+    },
+    {
+      "id": "word-omikuji",
+      "term": "Omikuji",
+      "meaning": "A fortune slip",
+      "pronunciation": "oh-MEE-koo-jee",
+      "language": "Japanese",
+      "usage": "Drawn at random at a shrine. A bad fortune is tied to a rack or a tree and left behind."
+    },
+    {
+      "id": "word-kannushi",
+      "term": "Kannushi",
+      "meaning": "A shrine priest",
+      "pronunciation": "KAHN-noo-shee",
+      "language": "Japanese",
+      "usage": "One who serves the kami and performs the rites. Priests marry and women can be ordained."
+    },
+    {
+      "id": "word-miko",
+      "term": "Miko",
+      "meaning": "A shrine maiden",
+      "pronunciation": "MEE-koh",
+      "language": "Japanese",
+      "usage": "A young woman in white and red who assists at rites and performs sacred dance."
+    },
+    {
+      "id": "word-kagura",
+      "term": "Kagura",
+      "meaning": "Sacred dance and music",
+      "pronunciation": "KAH-goo-ra",
+      "language": "Japanese",
+      "usage": "Entertainment for the kami, said to begin with the dance that lured the sun goddess out of her cave."
+    },
+    {
+      "id": "word-ujigami",
+      "term": "Ujigami",
+      "meaning": "The guardian kami of a place",
+      "pronunciation": "oo-jee-GAH-mee",
+      "language": "Japanese",
+      "usage": "The kami of one’s neighbourhood. Those under its care are ujiko, children of the clan."
+    },
+    {
+      "id": "word-hatsumode",
+      "term": "Hatsumode",
+      "meaning": "The first shrine visit of the year",
+      "pronunciation": "ha-tsoo-MOH-deh",
+      "language": "Japanese",
+      "usage": "Made in the first days of January by most of the population."
+    },
+    {
+      "id": "word-itadakimasu",
+      "term": "Itadakimasu",
+      "meaning": "I humbly receive",
+      "pronunciation": "ee-ta-da-kee-MAS",
+      "language": "Japanese",
+      "usage": "Said before eating, with hands together. Thanks to the lives taken and the people who made the meal."
+    },
+    {
+      "id": "word-okagesama-de",
+      "term": "Okagesama de",
+      "meaning": "Thanks to the shade",
+      "pronunciation": "oh-KAH-geh-sa-ma deh",
+      "language": "Japanese",
+      "usage": "An everyday phrase meaning thanks to you, or thanks to unseen help. Gratitude for what supports a life without being noticed."
+    }
+  ],
+  "practices": [
+    {
+      "id": "morning-water",
+      "name": "Morning water",
+      "icon": "drop",
+      "slot": "Morning",
+      "time": "06:45",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Begin the day at the tap as you would at a shrine basin. Rinse your left hand, then your right. Cup water in your left hand and rinse your mouth, then rinse the hand again. Wash your face. Go to a window or step outside, face the light, stand straight and bow once. Say good morning to the day, aloud if you can. Open a window to let fresh air through the house.",
+      "why": "Purification by water is the oldest and most constant act in Shinto. The myths trace it to the god Izanagi washing in a river, and every shrine visit starts with it.",
+      "variations": [
+        "Finish your shower with a short burst of cold water.",
+        "Greet the sun with two claps as many older Japanese do.",
+        "Wash at an outdoor tap, stream or the sea when you can."
+      ]
+    },
+    {
+      "id": "cleaning",
+      "name": "Cleaning as practice",
+      "icon": "broom",
+      "slot": "Morning",
+      "time": "08:00",
+      "minutes": 15,
+      "meta": "Morning · 15 min",
+      "instructions": "Each day clean one place properly: the entrance, a floor, a desk, a shelf, the pavement in front of your door. Sweep or wipe with full attention, corners first. Put back only what belongs. Treat it as preparing a room for an honoured guest. When you finish, stand a moment and look at it.",
+      "why": "Shrine priests sweep the grounds every morning. Cleanliness is close to the heart of the tradition: a clean place and a clear heart are the conditions in which the kami can be present.",
+      "variations": [
+        "Clean something that is not yours: a shared stairwell, a bus shelter.",
+        "Wash and polish your shoes and line them up at the door.",
+        "Do a full end-of-year clean of one room."
+      ]
+    },
+    {
+      "id": "tree-visit",
+      "name": "Visit a tree",
+      "icon": "tree",
+      "slot": "Afternoon",
+      "time": "13:00",
+      "minutes": 15,
+      "meta": "Afternoon · 15 min",
+      "instructions": "Choose one old tree, rock, spring or stretch of water near you and go to it every day of the Onda. Stop a few paces away. Stand straight, bow, and stay for some minutes simply looking. Notice what has changed since yesterday. You need not ask for anything or believe anything. Before leaving, give thanks, bow again and take any litter with you.",
+      "why": "Shrines began as places in nature where presence was felt: a grove, a waterfall, a mountain. Great trees are still roped off and greeted. Going back to the same place is how a relationship is made.",
+      "variations": [
+        "Learn the tree’s species, age and history.",
+        "Bring a cup of clean water and pour it at the roots.",
+        "Visit at a different hour each day."
+      ]
+    },
+    {
+      "id": "itadakimasu",
+      "name": "Receiving the meal",
+      "icon": "bowl-food",
+      "slot": "Afternoon",
+      "time": "12:30",
+      "minutes": 5,
+      "meta": "Afternoon · 5 min",
+      "instructions": "Before one meal a day, set the food down, sit straight, put your hands together and say itadakimasu: I humbly receive. Take ten seconds to think of what was alive and the people who grew, carried and cooked it. Eat without a screen and finish what is in the bowl. At the end say gochisosama: it was a feast.",
+      "why": "The phrases are said in nearly every Japanese home. They come from the sense that food is a gift of the kami and of other lives, and that waste is an offence.",
+      "variations": [
+        "Offer the first spoonful of rice on a small dish before you eat.",
+        "Cook one thing that is exactly in season.",
+        "Thank the cook in person."
+      ]
+    },
+    {
+      "id": "evening-bath",
+      "name": "The evening bath",
+      "icon": "shower",
+      "slot": "Evening",
+      "time": "21:00",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Wash thoroughly first, then soak in a hot bath if you have one, or stand under the shower without hurrying. As the water runs off, let the day’s irritations, bad news and small failures go with it. Name them if that helps. Put on clean clothes for sleep. End by thinking of one thing in the day you are grateful for.",
+      "why": "The Japanese evening bath is everyday purification. Pollution in Shinto is something picked up, like dust, and washed away. It is not guilt to be carried.",
+      "variations": [
+        "Scatter a pinch of salt in the bathwater.",
+        "Visit a public bath or hot spring.",
+        "Wash only your hands and face, slowly, if that is all you can do."
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": "take-your-shoes-off-at-the-door-and-keep-the-entrance-clear",
+      "name": "Take your shoes off at the door and keep the entrance clear",
+      "meta": "The threshold matters",
+      "time": "08:00",
+      "slot": "Morning"
+    },
+    {
+      "id": "notice-what-season-it-is-find-one-thing-that-was-not-there-last-week",
+      "name": "Notice what season it is: find one thing that was not there last week",
+      "meta": "The 72 micro-seasons",
+      "time": "10:00",
+      "slot": "Morning"
+    },
+    {
+      "id": "task-read-the-story-of-amaterasu-and-the-cave",
+      "name": "Read the story of Amaterasu and the cave",
+      "meta": "Read · Kojiki, book one",
+      "time": "20:00",
+      "slot": "Evening",
+      "action": "read"
+    },
+    {
+      "id": "task-watch-my-neighbor-totoro",
+      "name": "Watch My Neighbor Totoro",
+      "meta": "Watch · a camphor tree and its kami",
+      "time": "19:00",
+      "slot": "Evening",
+      "action": "watch"
+    },
+    {
+      "id": "task-listen-to-gagaku-court-music",
+      "name": "Listen to gagaku court music",
+      "meta": "Listen · Etenraku",
+      "time": "17:00",
+      "slot": "Afternoon",
+      "action": "listen"
+    },
+    {
+      "id": "task-cook-plain-white-rice-with-care-and-eat-the-first-bowl-in-silence",
+      "name": "Cook plain white rice with care and eat the first bowl in silence",
+      "meta": "Eat · rice is the centre",
+      "time": "18:30",
+      "slot": "Evening",
+      "action": "eat"
+    },
+    {
+      "id": "task-journal-what-clung-to-you-today-and-what-washed-it-off",
+      "name": "Journal: what clung to you today, and what washed it off?",
+      "meta": "Journal · 10 min",
+      "time": "21:30",
+      "slot": "Evening",
+      "action": "journal"
+    },
+    {
+      "id": "task-kami-what-near-you-is-outside-the-ordinary",
+      "name": "Kami: what near you is outside the ordinary?",
+      "meta": "Philosophy · 10 min",
+      "time": "09:00",
+      "slot": "Morning",
+      "action": "philosophy"
+    },
+    {
+      "id": "write-one-thanks-on-a-slip-of-paper-and-tie-it-to-a-branch",
+      "name": "Write one thanks on a slip of paper and tie it to a branch",
+      "meta": "In the spirit of the wishes left at shrines",
+      "time": "15:00",
+      "slot": "Afternoon"
+    }
+  ],
+  "rules": [
+    {
+      "id": "r1",
+      "text": "Wash before you begin",
+      "why": "Hands, mouth and face in the morning, with attention. Start nothing important unwashed."
+    },
+    {
+      "id": "r2",
+      "text": "Leave every place cleaner than you found it",
+      "why": "Pick up, wipe down, straighten. This includes pavements, trains and other people’s kitchens."
+    },
+    {
+      "id": "r3",
+      "text": "Bow to what is greater",
+      "why": "Once a day stop before a tree, a mountain, the sea, the sun or an elder, and bow."
+    },
+    {
+      "id": "r4",
+      "text": "Say thank you before and after eating",
+      "why": "Itadakimasu and gochisosama. Leave nothing in the bowl."
+    },
+    {
+      "id": "r5",
+      "text": "Speak well",
+      "why": "Words have spirit. Say nothing today that you would not want to come true."
+    },
+    {
+      "id": "r6",
+      "text": "Be sincere",
+      "why": "Do what you say you will do. Bring your whole attention to each person and task."
+    }
+  ],
+  "immerse": {
+    "read": [
+      {
+        "id": "read-the-kojiki-an-account-of-ancient-matters",
+        "title": "The Kojiki: An Account of Ancient Matters",
+        "creator": "O no Yasumaro, trans. Gustav Heldt",
+        "year": "712",
+        "why": "The oldest Japanese book: the birth of the islands, the sun goddess in her cave, the storm god and the eight-headed serpent. Heldt translates the names so that the stories can be followed."
+      },
+      {
+        "id": "read-shinto-the-kami-way",
+        "title": "Shinto: The Kami Way",
+        "creator": "Sokyo Ono",
+        "year": "1962",
+        "why": "A short, plain account by a Japanese scholar of the tradition. Still the best first book."
+      },
+      {
+        "id": "read-the-essence-of-shinto-japan-s-spiritual-heart",
+        "title": "The Essence of Shinto: Japan’s Spiritual Heart",
+        "creator": "Motohisa Yamakage",
+        "year": "2006",
+        "why": "A Shinto master explains purification, the soul and the kami from the inside."
+      },
+      {
+        "id": "read-shinto-a-history",
+        "title": "Shinto: A History",
+        "creator": "Helen Hardacre",
+        "year": "2016",
+        "why": "The full scholarly history, including the uncomfortable modern chapters."
+      },
+      {
+        "id": "read-glimpses-of-unfamiliar-japan",
+        "title": "Glimpses of Unfamiliar Japan",
+        "creator": "Lafcadio Hearn",
+        "year": "1894",
+        "why": "An outsider who stayed for life describes household shrines, Izumo and the festival of the dead in the 1890s."
+      },
+      {
+        "id": "read-the-book-of-tea",
+        "title": "The Book of Tea",
+        "creator": "Kakuzo Okakura",
+        "year": "1906",
+        "why": "Not about Shinto, yet full of its feeling for cleanliness, simplicity and the unfinished."
+      }
+    ],
+    "watch": [
+      {
+        "id": "watch-my-neighbor-totoro",
+        "title": "My Neighbor Totoro",
+        "creator": "Hayao Miyazaki",
+        "year": "1988",
+        "why": "Two sisters move to the country and meet the spirit of a giant camphor tree. Their father takes them to bow to it. The gentlest picture of the kami in film."
+      },
+      {
+        "id": "watch-spirited-away",
+        "title": "Spirited Away",
+        "creator": "Hayao Miyazaki",
+        "year": "2001",
+        "why": "A bathhouse where eight million gods come to wash. A polluted river spirit is cleaned, and a girl learns to work and to remember names."
+      },
+      {
+        "id": "watch-princess-mononoke",
+        "title": "Princess Mononoke",
+        "creator": "Hayao Miyazaki",
+        "year": "1997",
+        "why": "Forest gods at war with an ironworks. Nobody is simply wrong, and nature is neither kind nor safe."
+      },
+      {
+        "id": "watch-your-name",
+        "title": "Your Name",
+        "creator": "Makoto Shinkai",
+        "year": "2016",
+        "why": "A shrine family, a braided cord and a ritual sake offering tie two strangers together across time. Musubi made into a plot."
+      }
+    ],
+    "listen": [
+      {
+        "id": "listen-etenraku",
+        "title": "Etenraku",
+        "creator": "Gagaku court ensemble",
+        "year": "traditional; from about the 8th century",
+        "why": "The best known piece of the imperial court music played at shrine rites and weddings. Reed pipes, mouth organ and drum, in no hurry at all."
+      },
+      {
+        "id": "listen-kagura-music",
+        "title": "Kagura music",
+        "creator": "Shrine musicians of Izumo and Takachiho",
+        "year": "traditional",
+        "why": "Flute and drum for the sacred dances that replay the myths through winter nights."
+      },
+      {
+        "id": "listen-kodo-heartbeat-drummers-of-japan",
+        "title": "Kodo: Heartbeat Drummers of Japan",
+        "creator": "Kodo",
+        "year": "1985",
+        "why": "Festival drumming from Sado Island by a group that lives and trains as a community."
+      },
+      {
+        "id": "listen-festival-music-matsuri-bayashi",
+        "title": "Festival music (matsuri-bayashi)",
+        "creator": "Gion or Chichibu festival ensembles",
+        "year": "traditional",
+        "why": "Flutes, bells and drums played from the floats. The sound of a Japanese summer."
+      }
+    ],
+    "art": [
+      {
+        "id": "art-the-ise-grand-shrine",
+        "title": "The Ise Grand Shrine",
+        "creator": "Ise, Mie Prefecture",
+        "year": "rebuilt every 20 years; next in 2033",
+        "why": "Plain cypress, thatch and white gravel. The shrine is torn down and built new beside itself every generation, so it is always both ancient and fresh."
+      },
+      {
+        "id": "art-the-floating-torii-of-itsukushima",
+        "title": "The floating torii of Itsukushima",
+        "creator": "Miyajima, Hiroshima Prefecture",
+        "year": "present gate 1875",
+        "why": "A vermilion gate standing in the sea. At high tide the whole shrine seems to float."
+      },
+      {
+        "id": "art-the-great-wave-off-kanagawa",
+        "title": "The Great Wave off Kanagawa",
+        "creator": "Katsushika Hokusai",
+        "year": "about 1831",
+        "why": "From Thirty-six Views of Mount Fuji. The sacred mountain sits small and calm under a claw of water."
+      },
+      {
+        "id": "art-nachi-waterfall",
+        "title": "Nachi Waterfall",
+        "creator": "Hanging scroll, Nezu Museum, Tokyo",
+        "year": "13th to 14th century",
+        "why": "A painting of a waterfall that is itself the kami. No figure, no shrine, only the falling water."
+      }
+    ],
+    "eat": [
+      {
+        "id": "eat-plain-rice",
+        "title": "Plain rice",
+        "creator": "Short-grain white rice, washed and steamed",
+        "why": "The first offering on every shrine altar. The emperor still offers the new rice to the kami each November."
+      },
+      {
+        "id": "eat-mochi",
+        "title": "Mochi",
+        "creator": "Pounded glutinous rice cakes",
+        "why": "Stacked in two tiers with an orange on top for new year, as a seat for the kami of the year."
+      },
+      {
+        "id": "eat-ozoni",
+        "title": "Ozoni",
+        "creator": "New year soup with mochi",
+        "why": "Every region and family has its own version: clear in Tokyo, white miso in Kyoto."
+      },
+      {
+        "id": "eat-sekihan",
+        "title": "Sekihan",
+        "creator": "Glutinous rice steamed with red adzuki beans",
+        "why": "Red rice for celebrations: births, graduations, festivals."
+      }
+    ],
+    "drink": [
+      {
+        "id": "drink-sake",
+        "title": "Sake",
+        "creator": "Rice wine",
+        "why": "Brewed for the kami before it was brewed for people. Offered sake is omiki, shared after a rite to join the worshippers to the kami. Skip it if you do not drink."
+      },
+      {
+        "id": "drink-amazake",
+        "title": "Amazake",
+        "creator": "Sweet fermented rice drink, almost alcohol-free",
+        "why": "Served hot at shrines at new year and at the dolls’ festival."
+      },
+      {
+        "id": "drink-fresh-spring-water",
+        "title": "Fresh spring water",
+        "creator": "From a shrine well or a mountain spring",
+        "why": "Many shrines stand at springs, and people carry the water home."
+      }
+    ],
+    "customs": [
+      {
+        "id": "customs-two-bows-two-claps-one-bow",
+        "title": "Two bows, two claps, one bow",
+        "creator": "At the offering hall",
+        "why": "Toss a coin in the box, ring the bell if there is one, bow twice deeply, clap twice, pray in silence and bow once more."
+      },
+      {
+        "id": "customs-walking-at-the-side",
+        "title": "Walking at the side",
+        "creator": "On the approach to a shrine",
+        "why": "The centre of the path is for the kami. Bow once at the torii on the way in and again on the way out."
+      },
+      {
+        "id": "customs-seven-five-three",
+        "title": "Seven-five-three",
+        "creator": "15 November",
+        "why": "Children of three, five and seven are dressed in kimono and taken to the shrine to give thanks for growing up."
+      },
+      {
+        "id": "customs-salt-at-the-door",
+        "title": "Salt at the door",
+        "creator": "Small cones of salt",
+        "why": "Set at the entrances of restaurants and homes to purify and to welcome. Sumo wrestlers throw salt for the same reason."
+      }
+    ],
+    "games": [
+      {
+        "id": "games-okami",
+        "title": "Okami",
+        "creator": "Video game · Clover Studio",
+        "year": "2006",
+        "why": "You are the sun goddess Amaterasu in the form of a white wolf, restoring a withered land with a painter’s brush. The myths of the Kojiki, played."
+      },
+      {
+        "id": "games-karuta",
+        "title": "Karuta",
+        "creator": "Card game · Japan",
+        "year": "from the 17th century",
+        "why": "A reader chants the first half of a classical poem and players race to slap the card with the second half. Played at new year."
+      },
+      {
+        "id": "games-sumo",
+        "title": "Sumo",
+        "creator": "Wrestling · Japan",
+        "year": "over 1,500 years old",
+        "why": "Each bout is a rite: the ring is purified with salt, a shrine roof hangs above it and the referee is dressed as a priest. Watch a tournament broadcast."
+      }
+    ],
+    "festivals": [
+      {
+        "id": "fest-new-year-oshogatsu",
+        "title": "New Year (Oshogatsu)",
+        "creator": "1 to 3 January",
+        "why": "The house is cleaned, the kami of the year is welcomed with pine and rice cakes, and nearly everyone makes a first shrine visit."
+      },
+      {
+        "id": "fest-setsubun",
+        "title": "Setsubun",
+        "creator": "3 February",
+        "why": "The day before spring. Roasted soybeans are thrown out of the door to drive off bad luck: demons out, fortune in."
+      },
+      {
+        "id": "fest-gion-matsuri",
+        "title": "Gion Matsuri",
+        "creator": "July, Kyoto",
+        "why": "A month-long festival begun in 869 to calm an epidemic. Huge wooden floats are pulled through the streets on the 17th and 24th."
+      },
+      {
+        "id": "fest-niiname-sai",
+        "title": "Niiname-sai",
+        "creator": "23 November",
+        "why": "The harvest rite in which the first rice is offered to the kami. Now also a national holiday of thanks for labour."
+      }
+    ],
+    "places": [
+      {
+        "id": "place-ise-jingu",
+        "title": "Ise Jingu",
+        "creator": "Ise, Mie Prefecture, Japan",
+        "why": "The shrine of the sun goddess and the most sacred site in Shinto. Cross the bridge, wash at the Isuzu river and walk through old cedar forest. The inner buildings are seen only over a fence."
+      },
+      {
+        "id": "place-izumo-taisha",
+        "title": "Izumo Taisha",
+        "creator": "Shimane Prefecture, Japan",
+        "why": "Perhaps the oldest shrine, home of the kami of marriage and good connections. All the gods of Japan are said to gather here each autumn."
+      },
+      {
+        "id": "place-fushimi-inari-taisha",
+        "title": "Fushimi Inari Taisha",
+        "creator": "Kyoto, Japan",
+        "why": "Thousands of vermilion gates climbing a wooded hill, given by businesses to the kami of rice and prosperity. Go at dawn."
+      },
+      {
+        "id": "place-itsukushima-shrine",
+        "title": "Itsukushima Shrine",
+        "creator": "Miyajima, Hiroshima Prefecture, Japan",
+        "why": "The island itself is the kami, so the shrine was built over the water. Stay until the tide turns."
+      },
+      {
+        "id": "place-meiji-jingu",
+        "title": "Meiji Jingu",
+        "creator": "Tokyo, Japan",
+        "why": "A forest of a hundred thousand donated trees planted in the 1920s in the middle of the city. The easiest great shrine to visit."
+      }
+    ]
+  },
+  "ethics": [
+    {
+      "title": "Purity",
+      "text": "Cleanliness of body, place and heart is the first value. Wrongdoing is thought of as a stain that dims a person’s natural brightness, and it can be removed.",
+      "practice": "Clean one neglected thing today: a drawer, an inbox, an apology you owe."
+    },
+    {
+      "title": "Sincerity",
+      "text": "Makoto is a heart with nothing behind it. A simple prayer offered sincerely is said to count for more than an elaborate rite performed without it.",
+      "practice": "Do one promised thing today exactly as you said you would."
+    },
+    {
+      "title": "Gratitude",
+      "text": "Life is received: from the kami, from ancestors, from the land and from other people. The fitting response is thanks, stated often.",
+      "practice": "Thank three people today for things they do not know you noticed."
+    },
+    {
+      "title": "Harmony with the group",
+      "text": "Wa, harmony, is kept by attention to others: not standing out at their cost, sharing the work of the festival, taking turns.",
+      "practice": "Do one unglamorous job for a group you belong to."
+    },
+    {
+      "title": "Reverence for nature",
+      "text": "Mountains, forests and water are neither scenery nor resources first. They are presences. Taking from them calls for restraint and thanks.",
+      "practice": "Leave one natural place better than you found it."
+    },
+    {
+      "title": "Honouring ancestors",
+      "text": "Those who came before are still part of the household and are greeted, told the news and thanked.",
+      "practice": "Tell someone a story about a grandparent, or find one out."
+    }
+  ],
+  "philosophy": [
+    {
+      "title": "Kami",
+      "text": "Kami are whatever calls forth awe: a mountain, an ancient tree, a storm, a founder, the sun. They are countless, local and close at hand, and they stand in this world.",
+      "practice": "Find one thing within walking distance that gives you a sense of presence. Go and stand before it."
+    },
+    {
+      "title": "Purity and pollution",
+      "text": "Things go wrong when life becomes clogged: by death, illness, neglect, ill will. This is kegare, and it is remedied by washing, airing and starting again. No one is stained for good.",
+      "practice": "Name what has built up on you this week. Decide how you will wash it off."
+    },
+    {
+      "title": "Human nature is good",
+      "text": "Shinto has no fall and no original sin. People are children of the kami and bright by nature. Dust settles, and one wipes the mirror.",
+      "practice": "Assume good faith in someone today and see what happens."
+    },
+    {
+      "title": "This world",
+      "text": "The tradition says little about an afterlife and a great deal about births, harvests, weddings and new years. The sacred is found here, in this life going well.",
+      "practice": "Mark one ordinary occasion today as if it were a ceremony."
+    },
+    {
+      "title": "Musubi",
+      "text": "A generative power runs through things and ties them to each other. Knots, braids and ropes are its sign. To make, to grow and to connect people is to take part in it.",
+      "practice": "Introduce two people who should know each other."
+    },
+    {
+      "title": "The always new",
+      "text": "The shrine at Ise is rebuilt every twenty years with the same plan, tools and songs. What is handed on is the skill and the form, and the timber changes. Renewal is how it lasts.",
+      "practice": "Renew one thing you have been preserving: replace, repaint, re-sew, relearn."
+    },
+    {
+      "title": "Place",
+      "text": "Each kami belongs somewhere, and each person belongs to the kami of where they live. Religion starts with knowing your own hill, river and street.",
+      "practice": "Learn the name and source of the nearest stream or river."
+    },
+    {
+      "title": "Practice before doctrine",
+      "text": "Shinto has no founder, creed or required belief. One takes part: washes, bows, claps, joins the festival. Understanding, if it comes, comes from doing.",
+      "practice": "Do today’s practices without asking whether you believe in them."
+    }
+  ],
+  "journal": [
+    "What clung to you today, and what washed it off?",
+    "What did you clean, and how did it feel after?",
+    "What did you bow to?",
+    "What has changed at your tree since yesterday?",
+    "Which season is it, exactly?",
+    "What did you receive today that you did not make?",
+    "Where were you not sincere?",
+    "What words did you speak that you would want to come true?",
+    "What have you let build up?",
+    "Who are your ancestors, and what did they hand you?",
+    "Which place do you belong to?",
+    "What gave you a sense of awe?",
+    "What did you waste?",
+    "Who did you thank?",
+    "What needs renewing in your life?",
+    "What would a clean start look like tomorrow?",
+    "Where is the line between your everyday world and what you hold sacred?",
+    "What did you do today only because it is done?",
+    "What knot ties you to another person?",
+    "What have you been preserving that should be rebuilt?",
+    "What did the water feel like this morning?",
+    "What is the kami of your street?",
+    "What festival would you start?",
+    "What did you eat today that was in season?",
+    "Who cleaned up after you?",
+    "What brightness in you has dust on it?",
+    "What part did you play in a group today?",
+    "What did you ask for, and what did you give thanks for?",
+    "What did you take from nature today?",
+    "What are you grateful for that you cannot see?"
+  ],
+  "reflect": [
+    "What did beginning each day with water change?",
+    "What do you know about your tree and your place that you did not before?",
+    "What have you washed off and left behind?",
+    "Where did cleaning turn into something more than cleaning?",
+    "What do you now give thanks for without thinking?",
+    "What will you rebuild?"
+  ],
+  "dayThemes": [
+    "Morning water",
+    "The gate",
+    "Eight million kami",
+    "Sweeping",
+    "The roped tree",
+    "I humbly receive",
+    "The evening bath",
+    "The cave of heaven",
+    "Sincerity",
+    "Salt",
+    "The mirror",
+    "Dust",
+    "Two bows, two claps",
+    "The season",
+    "Rice",
+    "The spirit of words",
+    "The knot",
+    "The guardian of this place",
+    "Ancestors",
+    "The festival",
+    "Carrying the shrine",
+    "The waterfall",
+    "The always new",
+    "Thanks to the shade",
+    "The centre of the path",
+    "A wish on wood",
+    "The mountain",
+    "First visit",
+    "Renewal",
+    "The bright heart"
+  ],
+  "guide": {
+    "intro": [
+      "Shinto is the old religion of Japan and it is still everywhere in the country: in the gate at the foot of a wooded hill, the rope round a great tree, the small shelf above a shop counter, the crowd at midnight on New Year’s Eve. It has no founder, no scripture in the usual sense and no list of things one must believe. It is something people do.",
+      "At its centre are the kami. The word is usually translated as gods or spirits, and neither fits well. The scholar Motoori Norinaga wrote in the eighteenth century that anything outside the ordinary and awe-inspiring was called kami: the sun, a mountain, a waterfall, a fox, thunder, an ancestor, an emperor. There are said to be eight million of them, which means beyond counting. They live in particular places and are honoured at shrines, of which Japan has about eighty thousand.",
+      "The oldest stories are in the Kojiki and the Nihon Shoki, compiled at court in 712 and 720. They tell how the pair Izanagi and Izanami stirred the sea and made the islands, how Izanagi washed after visiting the land of the dead and so gave birth to the sun goddess Amaterasu, and how she hid in a cave until the other gods lured her out with laughter, a mirror and a dance. The imperial family traces its line to her.",
+      "From those myths come the main concerns of practice. Purity comes first. Life gathers pollution, called kegare, through contact with death, illness or wrongdoing, and it is removed with water, salt and ritual words. Then gratitude: the kami are thanked for harvests, births and safe returns. Then festivals, in which the kami is feasted and carried through its neighbourhood on the shoulders of its people.",
+      "Shinto and Buddhism lived together for more than a thousand years, sharing sites and even deities, until the state forced them apart in 1868. Most Japanese still use both: shrines for births, weddings and new year, temples for funerals. Between 1868 and 1945 the government turned shrine rites into a patriotic duty centred on the emperor and used them to support militarism. That system was dismantled after the war. Shrines today are private religious bodies, and the tradition has returned to what it was for most of its history: local, seasonal and concerned with ordinary life.",
+      "This Onda borrows its daily habits: washing with attention, cleaning as practice, visiting a tree, receiving food with thanks and bathing at night. You are not asked to worship or to set up a shrine. If you visit one, you will be welcome, and the etiquette is given here."
+    ],
+    "origin": "The Japanese islands",
+    "era": "Roots in prehistory; written myths from 712; a living tradition today",
+    "figures": [
+      {
+        "name": "Amaterasu Omikami",
+        "dates": "mythic",
+        "bio": "The kami of the sun, enshrined at Ise. Her withdrawal into the cave and return is the central story of the tradition."
+      },
+      {
+        "name": "Susanoo",
+        "dates": "mythic",
+        "bio": "Her storm-god brother: destructive in heaven, a hero on earth, where he kills an eight-headed serpent and composes the first poem."
+      },
+      {
+        "name": "Okuninushi",
+        "dates": "mythic",
+        "bio": "The kind-hearted kami of Izumo who built the land and then gave it up to the descendants of the sun. Patron of marriage and good ties."
+      },
+      {
+        "name": "O no Yasumaro",
+        "dates": "died 723",
+        "bio": "The court official who wrote down the Kojiki in 712 from the recitation of Hieda no Are, who had memorised the old accounts."
+      },
+      {
+        "name": "Sugawara no Michizane",
+        "dates": "845 to 903",
+        "bio": "A scholar and minister who died in unjust exile. After disasters struck the capital he was enshrined as Tenjin, kami of learning. Students still pray to him before exams."
+      },
+      {
+        "name": "Yoshida Kanetomo",
+        "dates": "1435 to 1511",
+        "bio": "A Kyoto priest who argued that Shinto was the root of all teachings and built an organisation that licensed shrine priests for centuries."
+      },
+      {
+        "name": "Motoori Norinaga",
+        "dates": "1730 to 1801",
+        "bio": "A doctor in Matsusaka who spent thirty-five years on a commentary to the Kojiki and tried to recover a native sensibility from under Chinese learning."
+      },
+      {
+        "name": "Hirata Atsutane",
+        "dates": "1776 to 1843",
+        "bio": "Norinaga’s self-declared heir. He gave Shinto a theology of the afterlife and a nationalism that later fed the Meiji state."
+      },
+      {
+        "name": "Sokyo Ono",
+        "dates": "1904 to 1990",
+        "bio": "A professor at Kokugakuin University whose short book explained the kami way to foreign readers after the war."
+      }
+    ],
+    "history": [
+      {
+        "when": "before 300 BCE",
+        "what": "Jomon and Yayoi roots",
+        "detail": "Hunter-gatherers and then rice farmers honour the powers of mountains, the sea and fertility. Rice agriculture gives the tradition its calendar."
+      },
+      {
+        "when": "3rd to 6th century CE",
+        "what": "Clan kami",
+        "detail": "Powerful families worship their own ancestral and local kami. The Yamato clan, whose kami is the sun, comes to rule and its myths become the nation’s."
+      },
+      {
+        "when": "538 or 552",
+        "what": "Buddhism arrives",
+        "detail": "A Korean king sends an image and sutras to the Japanese court. The native rites acquire a name, Shinto, to tell them apart from the new teaching."
+      },
+      {
+        "when": "about 690",
+        "what": "The first rebuilding at Ise",
+        "detail": "The empress Jito carries out the first recorded renewal of the Ise shrines. It has been repeated about every twenty years since, sixty-two times by 2013."
+      },
+      {
+        "when": "712 and 720",
+        "what": "Kojiki and Nihon Shoki",
+        "detail": "The myths and early history are written down by order of the court, to establish the descent and legitimacy of the imperial line."
+      },
+      {
+        "when": "927",
+        "what": "The Engishiki",
+        "detail": "A code of court procedure lists 2,861 official shrines and records the texts of the main prayers, including the Great Purification."
+      },
+      {
+        "when": "9th to 16th century",
+        "what": "Kami and buddhas combined",
+        "detail": "Kami are understood as local forms of buddhas. Shrines and temples share grounds, priests and festivals. This blend is the normal religion of Japan for a millennium."
+      },
+      {
+        "when": "18th century",
+        "what": "National Learning",
+        "detail": "Scholars such as Motoori Norinaga study the oldest texts to find a Japanese way before foreign influence. Their work gives Shinto an identity of its own."
+      },
+      {
+        "when": "1868",
+        "what": "The separation order",
+        "detail": "The new Meiji government orders kami and buddhas to be separated. Buddhist images are removed from shrines and many temples are destroyed."
+      },
+      {
+        "when": "1868 to 1945",
+        "what": "State Shinto",
+        "detail": "Shrine rites are declared civic duty, the emperor is presented as a living kami, and the system is used to mobilise the nation for empire and war. Yasukuni Shrine, which honours the war dead, dates from 1869."
+      },
+      {
+        "when": "1945 to 1946",
+        "what": "Disestablishment",
+        "detail": "The occupation authorities end state support for shrines. On 1 January 1946 the emperor issues a statement denying that he is divine. The Association of Shinto Shrines is formed as a private body."
+      },
+      {
+        "when": "2013",
+        "what": "The sixty-second renewal of Ise",
+        "detail": "The shrines are rebuilt once more with eight years of preparation and timber raised in dedicated forests. The next rebuilding falls in 2033."
+      }
+    ],
+    "concepts": [
+      {
+        "term": "Kami",
+        "text": "The sacred, wherever it shows itself.",
+        "detail": "Kami include the deities of myth, the spirits of natural places, ancestors and remarkable people. They can be rough as well as gentle, and are neither all-powerful nor all-good."
+      },
+      {
+        "term": "Harae",
+        "text": "Purification.",
+        "detail": "The rite that begins every other rite. A priest waves a wand of paper streamers, or water or salt is used. Twice a year the Great Purification is performed for the whole nation."
+      },
+      {
+        "term": "Kegare",
+        "text": "Pollution.",
+        "detail": "A state caused by death, blood, disease or disaster. It is contagious and impersonal. Historically the idea also fed discrimination against people whose work involved death, a wrong that lasts into the present."
+      },
+      {
+        "term": "Matsuri",
+        "text": "Serving the kami.",
+        "detail": "A festival has three parts: purifying and welcoming the kami, offering food, music and dance, and sharing the offerings in a feast. Many include a procession."
+      },
+      {
+        "term": "The shrine",
+        "text": "A dwelling, not a hall of worship.",
+        "detail": "The kami resides in an inner sanctuary that almost no one enters, in an object such as a mirror that is never seen. Worshippers pray from outside."
+      },
+      {
+        "term": "Makoto",
+        "text": "Sincerity.",
+        "detail": "The inner side of purity: a true and undivided heart. Medieval texts say the kami live in an honest mind."
+      },
+      {
+        "term": "Musubi",
+        "text": "Creative, binding power.",
+        "detail": "Two of the first kami in the Kojiki have musubi in their names. Later thinkers made it the principle of growth, birth and connection."
+      },
+      {
+        "term": "Shinbutsu shugo",
+        "text": "Kami and buddhas together.",
+        "detail": "The long fusion of Shinto and Buddhism. It explains why many shrines have Buddhist features and why Japanese people see no conflict in using both."
+      },
+      {
+        "term": "Ujigami and ujiko",
+        "text": "The guardian and its children.",
+        "detail": "Every neighbourhood has a tutelary kami, and residents belong to it by living there. Belonging is by place and participation. No conversion is involved."
+      }
+    ],
+    "facts": [
+      {
+        "text": "The Ise shrines are built without nails, and the old timbers are passed on to repair other shrines across Japan."
+      },
+      {
+        "text": "Shinto priests can be men or women, and they marry. Many shrines are run by the same family for dozens of generations."
+      },
+      {
+        "text": "The thick rope across the front of Izumo Taisha’s hall is about thirteen metres long and weighs around five tonnes."
+      },
+      {
+        "text": "Foxes are the messengers of Inari, the kami of rice. There are about thirty thousand Inari shrines, more than of any other kind."
+      },
+      {
+        "text": "New cars, building sites and even computer servers are commonly purified by a priest before use."
+      },
+      {
+        "text": "Surveys regularly find that most Japanese say they have no religion, while most also visit a shrine at new year."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Honden",
+        "meaning": "The inner sanctuary where the kami resides"
+      },
+      {
+        "term": "Haiden",
+        "meaning": "The hall of worship in front of it"
+      },
+      {
+        "term": "Shintai",
+        "meaning": "The object in which the kami dwells, such as a mirror, sword or stone"
+      },
+      {
+        "term": "Komainu",
+        "meaning": "The pair of guardian lion-dogs at a shrine entrance"
+      },
+      {
+        "term": "Tamagushi",
+        "meaning": "A sprig of the evergreen sakaki tree offered at rites"
+      },
+      {
+        "term": "Kokugaku",
+        "meaning": "National Learning: the 18th century study of the earliest Japanese texts"
+      }
+    ],
+    "furtherReading": [
+      {
+        "title": "Shinto: The Way Home",
+        "creator": "Thomas P. Kasulis",
+        "year": "2004",
+        "note": "A philosopher’s short account of Shinto as a way of feeling at home in the world."
+      },
+      {
+        "title": "A New History of Shinto",
+        "creator": "John Breen and Mark Teeuwen",
+        "year": "2010",
+        "note": "Shows through three case studies how recent much of what looks ancient really is."
+      },
+      {
+        "title": "Shinto Norito: A Book of Prayers",
+        "creator": "Ann Llewellyn Evans",
+        "year": "2001",
+        "note": "The main ritual prayers in Japanese and English."
+      },
+      {
+        "title": "Kokoro: Hints and Echoes of Japanese Inner Life",
+        "creator": "Lafcadio Hearn",
+        "year": "1896",
+        "note": "Essays on ancestor reverence and everyday feeling in Meiji Japan."
+      }
+    ],
+    "learnFrom": [
+      {
+        "name": "Jinja Honcho: Association of Shinto Shrines",
+        "note": "The body to which most shrines belong, with an English introduction to beliefs, rites and etiquette.",
+        "link": "https://www.jinjahoncho.or.jp/en/"
+      },
+      {
+        "name": "Kokugakuin University Encyclopedia of Shinto",
+        "note": "A free scholarly reference in English covering kami, shrines, rites and history.",
+        "link": "https://d-museum.kokugakuin.ac.jp/eos/"
+      },
+      {
+        "name": "Tsubaki Grand Shrine of America",
+        "note": "A branch of a major Japanese shrine, long the main source of Shinto teaching in English."
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Kojiki: An Account of Ancient Matters",
+        "creator": "O no Yasumaro, trans. Gustav Heldt",
+        "publisher": "Columbia University Press",
+        "year": "2014"
+      },
+      {
+        "title": "Shinto: The Kami Way",
+        "creator": "Sokyo Ono",
+        "publisher": "Tuttle",
+        "year": "1962"
+      },
+      {
+        "title": "Shinto: A History",
+        "creator": "Helen Hardacre",
+        "publisher": "Oxford University Press",
+        "year": "2016"
+      },
+      {
+        "title": "A New History of Shinto",
+        "creator": "John Breen and Mark Teeuwen",
+        "publisher": "Wiley-Blackwell",
+        "year": "2010"
+      },
+      {
+        "title": "Sources of Japanese Tradition, volume 1",
+        "creator": "ed. Wm. Theodore de Bary and others",
+        "publisher": "Columbia University Press",
+        "year": "2nd edition 2001"
+      },
+      {
+        "title": "Shinto: The Way Home",
+        "creator": "Thomas P. Kasulis",
+        "publisher": "University of Hawaii Press",
+        "year": "2004"
+      }
+    ]
+  },
+  "sensitivity": {
+    "note": "Shinto is a living tradition rooted in particular places, shrines and communities in Japan. This Onda borrows everyday habits that Japanese people share freely with visitors. It does not ask you to worship kami or to copy shrine rites at home.",
+    "requiredCaveats": [
+      "Shinto is tied to place and community. Outside Japan it is practised at only a handful of shrines.",
+      "Between 1868 and 1945 the state used Shinto to promote emperor worship and militarism. The tradition is older and wider than that period, and the period should not be glossed over.",
+      "Ideas of pollution were also used to justify discrimination against the burakumin. Nothing here endorses that.",
+      "Talismans, shrine objects and sacred ropes are religious items. Do not treat them as decoration."
+    ],
+    "reviewRequired": true
+  }
+}

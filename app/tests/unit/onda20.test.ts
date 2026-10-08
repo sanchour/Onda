@@ -9,14 +9,14 @@ describe('Browse Ondas groups', () => {
   it('puts every shipped Onda in exactly one of the four groups', () => {
     expect(BROWSE_GROUPS).toHaveLength(4)
     for (const o of ONDA_INDEX) expect(BROWSE_GROUPS, o.id).toContain(GROUP_OF[o.id])
-    expect(Object.keys(GROUP_OF).sort()).toEqual(ONDA_INDEX.map((o) => o.id).sort())
+    expect(Object.keys(GROUP_OF)).toEqual(expect.arrayContaining(ONDA_INDEX.map((o) => o.id)))
   })
   it('lists placeholders that are unique, grouped, and not shipped Ondas', () => {
     const names = COMING_SOON.map((c) => c.name)
     expect(new Set(names).size).toBe(names.length)
     for (const c of COMING_SOON) expect(BROWSE_GROUPS).toContain(c.group)
-    for (const g of BROWSE_GROUPS) expect(COMING_SOON.some((c) => c.group === g)).toBe(true)
-    expect(names).toEqual(expect.arrayContaining(['Nietzsche', 'Roman Empire', 'Maasai', 'Zoroastrianism', 'Islam: Sunni', 'Islam: Shia']))
+    // a placeholder carries the id it will ship under, and has a theme waiting
+    for (const c of COMING_SOON) expect(GROUP_OF[c.id], c.name).toBe(c.group)
   })
 })
 

@@ -1,0 +1,1216 @@
+{
+  "version": 1,
+  "id": "shia",
+  "name": "Islam: Shia",
+  "origin": "Arabia and beyond",
+  "era": "From 632 CE to today",
+  "tone": "green",
+  "icon": "mosque",
+  "font": "markazi-text",
+  "pattern": "tile-diamonds",
+  "glyph": "عدل",
+  "line": "Stand with the wronged, remember those who stood before you and wait by working for justice.",
+  "quote": {
+    "text": "People are of two kinds: either your brother in faith or your equal in humanity.",
+    "by": "Ali ibn Abi Talib",
+    "source": "Letter 53 to Malik al-Ashtar, governor of Egypt, in Nahj al-Balagha; a common English rendering"
+  },
+  "quotes": [
+    {
+      "text": "I saw nothing but beauty.",
+      "by": "Zaynab bint Ali",
+      "source": "Her answer in Kufa when the governor asked how she found what God had done to her family at Karbala; reported in al-Luhuf of Ibn Tawus"
+    },
+    {
+      "text": "I see death as nothing but happiness, and life with oppressors as nothing but misery.",
+      "by": "Husayn ibn Ali",
+      "source": "Spoken on the road to Karbala in 680; reported in Tuhaf al-Uqul and other early collections"
+    },
+    {
+      "text": "Raise me not a single degree before the people without lowering me its like in myself.",
+      "by": "Ali ibn al-Husayn, Zayn al-Abidin",
+      "source": "Supplication on noble moral traits, al-Sahifa al-Sajjadiyya 20, trans. William C. Chittick"
+    },
+    {
+      "text": "The worth of every person is in what they do well.",
+      "by": "Ali ibn Abi Talib",
+      "source": "Nahj al-Balagha, saying 81; a common English rendering"
+    },
+    {
+      "text": "Do not let hatred of others lead you away from justice.",
+      "by": "The Qur’an",
+      "source": "Surah 5, verse 8, trans. M. A. S. Abdel Haleem"
+    }
+  ],
+  "words": [
+    {
+      "id": "word-shia",
+      "term": "Shia",
+      "meaning": "Partisans, followers",
+      "pronunciation": "SHEE-a",
+      "language": "Arabic",
+      "usage": "Short for shi’at Ali, the party of Ali: those who held that he was the Prophet’s rightful successor."
+    },
+    {
+      "id": "word-imam",
+      "term": "Imam",
+      "meaning": "Leader, guide",
+      "pronunciation": "ee-MAHM",
+      "language": "Arabic",
+      "usage": "For Shia, one of the divinely appointed successors of the Prophet from his family, who preserve and explain the religion."
+    },
+    {
+      "id": "word-ahl-al-bayt",
+      "term": "Ahl al-Bayt",
+      "meaning": "The people of the house",
+      "pronunciation": "AHL al-BAYT",
+      "language": "Arabic",
+      "usage": "The Prophet’s family: above all Fatima, Ali, Hasan and Husayn, and the Imams descended from them."
+    },
+    {
+      "id": "word-imama",
+      "term": "Imama",
+      "meaning": "The imamate",
+      "pronunciation": "ee-MAH-ma",
+      "language": "Arabic",
+      "usage": "The doctrine that God did not leave the community without a guide after the Prophet."
+    },
+    {
+      "id": "word-wilaya",
+      "term": "Wilaya",
+      "meaning": "Guardianship; devoted loyalty",
+      "pronunciation": "wi-LAH-ya",
+      "language": "Arabic",
+      "usage": "The authority of the Imams, and the love and allegiance owed to them."
+    },
+    {
+      "id": "word-adl",
+      "term": "Adl",
+      "meaning": "Justice",
+      "pronunciation": "ADL",
+      "language": "Arabic",
+      "usage": "God is just and does no wrong. One of the five principles of Shia belief, and the measure of a ruler."
+    },
+    {
+      "id": "word-mawla",
+      "term": "Mawla",
+      "meaning": "Master, patron, close friend",
+      "pronunciation": "MOW-la",
+      "language": "Arabic",
+      "usage": "The word the Prophet used of Ali at Ghadir Khumm. Its meaning is the hinge of the Sunni and Shia disagreement."
+    },
+    {
+      "id": "word-karbala",
+      "term": "Karbala",
+      "meaning": "The plain where Husayn was killed",
+      "pronunciation": "KAR-ba-la",
+      "language": "Arabic",
+      "usage": "In Iraq. The event of 680 and the city that grew round his tomb. The saying runs: every day is Ashura and every land is Karbala."
+    },
+    {
+      "id": "word-ashura",
+      "term": "Ashura",
+      "meaning": "The tenth",
+      "pronunciation": "ah-SHOO-ra",
+      "language": "Arabic",
+      "usage": "The tenth of the month of Muharram, the day of Husayn’s death. The great day of mourning."
+    },
+    {
+      "id": "word-arba-een",
+      "term": "Arba'een",
+      "meaning": "The fortieth",
+      "pronunciation": "ar-ba-EEN",
+      "language": "Arabic",
+      "usage": "Forty days after Ashura, when millions walk to Karbala."
+    },
+    {
+      "id": "word-majlis",
+      "term": "Majlis",
+      "meaning": "A sitting, a gathering",
+      "pronunciation": "MAJ-lis",
+      "language": "Arabic",
+      "usage": "An assembly to hear the story of Karbala retold, with a sermon, elegies and weeping."
+    },
+    {
+      "id": "word-rawda",
+      "term": "Rawda",
+      "meaning": "A recital of the sufferings of Karbala",
+      "pronunciation": "ROW-da",
+      "language": "Arabic",
+      "usage": "Rowzeh in Persian. From the title of a sixteenth century book, The Garden of the Martyrs."
+    },
+    {
+      "id": "word-noha",
+      "term": "Noha",
+      "meaning": "A lament",
+      "pronunciation": "NO-ha",
+      "language": "Arabic",
+      "usage": "A rhythmic elegy chanted while mourners beat their chests in time."
+    },
+    {
+      "id": "word-ta-ziya",
+      "term": "Ta'ziya",
+      "meaning": "Consolation; the passion play",
+      "pronunciation": "ta-zee-YA",
+      "language": "Arabic",
+      "usage": "In Iran, the staged re-enactment of Karbala. In South Asia, a model of Husayn’s tomb carried in procession."
+    },
+    {
+      "id": "word-husayniyya",
+      "term": "Husayniyya",
+      "meaning": "A hall for mourning Husayn",
+      "pronunciation": "hoo-say-NEE-ya",
+      "language": "Arabic",
+      "usage": "A community building for the gatherings of Muharram. An imambara in India and Pakistan."
+    },
+    {
+      "id": "word-ziyara",
+      "term": "Ziyara",
+      "meaning": "Visitation",
+      "pronunciation": "zee-YAH-ra",
+      "language": "Arabic",
+      "usage": "Pilgrimage to the shrine of an Imam or a member of the family, and the salutation recited there."
+    },
+    {
+      "id": "word-turba",
+      "term": "Turba",
+      "meaning": "A tablet of earth",
+      "pronunciation": "TOOR-ba",
+      "language": "Arabic",
+      "usage": "A small disc of baked clay, often from Karbala, on which the forehead rests in prayer. A mohr in Persian."
+    },
+    {
+      "id": "word-mahdi",
+      "term": "Mahdi",
+      "meaning": "The rightly guided one",
+      "pronunciation": "MAH-dee",
+      "language": "Arabic",
+      "usage": "The twelfth Imam, believed to be alive and hidden, who will return to fill the earth with justice."
+    },
+    {
+      "id": "word-ghayba",
+      "term": "Ghayba",
+      "meaning": "Occultation",
+      "pronunciation": "GHAY-ba",
+      "language": "Arabic",
+      "usage": "The hiddenness of the twelfth Imam, since 874."
+    },
+    {
+      "id": "word-intizar",
+      "term": "Intizar",
+      "meaning": "Awaiting",
+      "pronunciation": "in-ti-ZAR",
+      "language": "Arabic",
+      "usage": "Active expectation of the Mahdi. Waiting well means preparing the ground for justice."
+    },
+    {
+      "id": "word-marja",
+      "term": "Marja",
+      "meaning": "A source to follow",
+      "pronunciation": "MAR-ja",
+      "language": "Arabic",
+      "usage": "A senior jurist whose rulings believers choose to follow in matters of practice."
+    },
+    {
+      "id": "word-ijtihad",
+      "term": "Ijtihad",
+      "meaning": "Independent reasoning",
+      "pronunciation": "ij-ti-HAD",
+      "language": "Arabic",
+      "usage": "The effort of a qualified scholar to derive rulings. In Shia law the gate has always stood open."
+    },
+    {
+      "id": "word-aql",
+      "term": "Aql",
+      "meaning": "Reason, intellect",
+      "pronunciation": "AKL",
+      "language": "Arabic",
+      "usage": "Counted as a source of law beside the Qur’an and the traditions. A saying of the sixth Imam calls it the inner proof of God."
+    },
+    {
+      "id": "word-khums",
+      "term": "Khums",
+      "meaning": "The fifth",
+      "pronunciation": "KHOOMS",
+      "language": "Arabic",
+      "usage": "A fifth of yearly surplus income, given through the scholars for the poor, for education and for needy descendants of the Prophet."
+    },
+    {
+      "id": "word-tawassul",
+      "term": "Tawassul",
+      "meaning": "Seeking a means of approach",
+      "pronunciation": "ta-WAS-sul",
+      "language": "Arabic",
+      "usage": "Asking God through those He loves. Shia ask the Prophet and the Imams to intercede."
+    },
+    {
+      "id": "word-mazlum",
+      "term": "Mazlum",
+      "meaning": "The wronged one",
+      "pronunciation": "maz-LOOM",
+      "language": "Arabic",
+      "usage": "A title of Husayn, and the word for anyone oppressed. Its opposite is zalim, the oppressor."
+    },
+    {
+      "id": "word-sabil",
+      "term": "Sabil",
+      "meaning": "A way; a public drinking fountain",
+      "pronunciation": "sa-BEEL",
+      "language": "Arabic",
+      "usage": "Free water and food given to passers-by in Muharram, in memory of the thirst at Karbala."
+    },
+    {
+      "id": "word-nazr",
+      "term": "Nazr",
+      "meaning": "A vow; food given in fulfilment of one",
+      "pronunciation": "NAZ-r",
+      "language": "Arabic",
+      "usage": "Cooked in great pots and handed out to everyone, of any faith, during Muharram."
+    },
+    {
+      "id": "word-sayyid",
+      "term": "Sayyid",
+      "meaning": "A descendant of the Prophet",
+      "pronunciation": "SAY-yid",
+      "language": "Arabic",
+      "usage": "Through Fatima and Ali. Sayyid clerics wear a black turban."
+    },
+    {
+      "id": "word-ya-ali-madad",
+      "term": "Ya Ali madad",
+      "meaning": "O Ali, help",
+      "pronunciation": "yah AH-lee MA-dad",
+      "language": "Arabic and Persian",
+      "usage": "A greeting and a call for strength, used among Ismailis and across South Asia."
+    }
+  ],
+  "practices": [
+    {
+      "id": "three-stops",
+      "name": "Three stops in the day",
+      "icon": "compass",
+      "slot": "Morning",
+      "time": "05:45",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Shia Muslims commonly gather the five daily prayers into three sessions: at dawn, after midday and after sunset. Mark those three. At each, stop for a few minutes, wash your hands and face, stand still and turn your attention toward what is highest. If you are Muslim, pray. If you are a guest, stand in silence, then touch your forehead to your open palm for a breath, as a sign that you are made of earth, and return to the day.",
+      "why": "Prayer is the pillar of the religion for all Muslims. Shia practice joins the noon and afternoon prayers and the sunset and night prayers, following reports that the Prophet sometimes did so. Worshippers rest the forehead on a small tablet of clay.",
+      "variations": [
+        "Say a blessing on the Prophet and his family, if you are Muslim, after each.",
+        "Keep only the dawn stop at first.",
+        "Read a line from the Psalms of Islam at each stop."
+      ]
+    },
+    {
+      "id": "side-with-the-wronged",
+      "name": "Side with the wronged",
+      "icon": "scales",
+      "slot": "Afternoon",
+      "time": "13:30",
+      "minutes": 15,
+      "meta": "Afternoon · 15 min",
+      "instructions": "Every day find one place where someone is being treated unfairly and do something about it. It may be near: a colleague talked over, a child blamed, a worker unpaid. It may be far: a cause that needs a letter, a donation or your presence. The act can be small. What matters is that you do not stay neutral. If you cannot act, at least refuse to agree with the injustice in your heart, and say so to one person.",
+      "why": "Ali’s instruction to his sons on his deathbed was: be an enemy to the oppressor and a helper to the oppressed. Husayn’s stand at Karbala is read as proof that a person can refuse a wrong even when refusing will fail.",
+      "variations": [
+        "Ask who in your workplace has least power, and check how they are treated.",
+        "Give to an organisation that defends people’s rights.",
+        "Admit one wrong you yourself have done to someone weaker."
+      ]
+    },
+    {
+      "id": "remember-the-thirsty",
+      "name": "Water for the thirsty",
+      "icon": "drop",
+      "slot": "Afternoon",
+      "time": "16:00",
+      "minutes": 5,
+      "meta": "Afternoon · 5 min",
+      "instructions": "Before your first glass of water each afternoon, hold it for a moment. Think of those who lack water today, and of anyone who has gone thirsty for refusing to give in. Then drink slowly. After that, give drink to someone else: carry water to a person working in the heat, fill a bowl for birds or a dog, pay for a stranger’s tea.",
+      "why": "At Karbala Husayn’s camp was cut off from the river Euphrates for three days. Since then Shia communities have handed out free water, sherbet and food in Muharram, and many say peace be upon Husayn when they drink.",
+      "variations": [
+        "Set out water for passers-by on a hot day.",
+        "Give to a clean-water charity.",
+        "Go without a comfort for a day and note what it shows you."
+      ]
+    },
+    {
+      "id": "whispered-prayer",
+      "name": "A whispered prayer",
+      "icon": "moon-stars",
+      "slot": "Evening",
+      "time": "21:00",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "In the evening read one supplication from the Psalms of Islam, the prayers of the fourth Imam, in translation. Read it slowly, aloud and quietly. They ask for honesty, for a gentle character, for parents, for neighbours, for enemies. Stop at the line that asks for something you lack. Then add a few sentences of your own. On Thursday night, if you have longer, read the Supplication of Kumayl.",
+      "why": "After Karbala Husayn’s surviving son could not preach openly. He taught through prayers, and they were gathered as al-Sahifa al-Sajjadiyya. Shia devotion is rich in long, intimate supplications handed down from the Imams.",
+      "variations": [
+        "Read the supplication on noble moral traits over several nights.",
+        "Listen to a recorded recitation in Arabic while following a translation.",
+        "Write your own supplication for someone who wronged you."
+      ]
+    },
+    {
+      "id": "visit",
+      "name": "A visit of remembrance",
+      "icon": "footprints",
+      "slot": "Morning",
+      "time": "10:00",
+      "minutes": 20,
+      "meta": "Morning · 20 min",
+      "instructions": "Once a week go to a grave, a memorial or the home of an old person who carries your community’s memory. Greet the dead or the living with peace. Stay a while. Recall aloud what this person stood for and what was done to them or by them. Ask what loyalty to that memory requires of you now. On the other days, keep one minute for remembering by name someone who suffered for doing right.",
+      "why": "Ziyara, visitation, is central to Shia life. The pilgrim addresses the Imam directly: peace be upon you. It is an act of loyalty across time, and the walk to Karbala each year is its largest form.",
+      "variations": [
+        "Clean a neglected grave.",
+        "Record an elder telling a story.",
+        "Walk to your visit instead of driving, as an offering."
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task-cook-a-large-pot-and-share-it-with-neighbours-of-any-faith",
+      "name": "Cook a large pot and share it with neighbours of any faith",
+      "meta": "Eat · nazr, food given away",
+      "time": "17:00",
+      "slot": "Afternoon",
+      "action": "eat"
+    },
+    {
+      "id": "task-read-ali-s-letter-to-malik-al-ashtar",
+      "name": "Read Ali’s letter to Malik al-Ashtar",
+      "meta": "Read · on how to govern justly",
+      "time": "20:00",
+      "slot": "Evening",
+      "action": "read"
+    },
+    {
+      "id": "task-listen-to-the-supplication-of-kumayl",
+      "name": "Listen to the Supplication of Kumayl",
+      "meta": "Listen · Thursday night",
+      "time": "21:30",
+      "slot": "Evening",
+      "action": "listen"
+    },
+    {
+      "id": "task-look-at-the-tilework-of-the-shah-mosque-in-isfahan",
+      "name": "Look at the tilework of the Shah Mosque in Isfahan",
+      "meta": "Art · seven colours under a turquoise dome",
+      "time": "16:30",
+      "slot": "Afternoon",
+      "action": "art"
+    },
+    {
+      "id": "use-your-reason-test-one-belief-you-hold-on-someone-s-authority",
+      "name": "Use your reason: test one belief you hold on someone’s authority",
+      "meta": "Aql, the inner proof",
+      "time": "09:30",
+      "slot": "Morning"
+    },
+    {
+      "id": "give-a-fifth-of-something-you-saved-this-week",
+      "name": "Give a fifth of something you saved this week",
+      "meta": "The idea of khums",
+      "time": "18:00",
+      "slot": "Evening"
+    },
+    {
+      "id": "task-journal-where-did-you-stay-neutral-today-and-what-did-it-cost",
+      "name": "Journal: where did you stay neutral today, and what did it cost?",
+      "meta": "Journal · 10 min",
+      "time": "21:45",
+      "slot": "Evening",
+      "action": "journal"
+    },
+    {
+      "id": "task-karbala-what-would-you-refuse-even-if-refusing-failed",
+      "name": "Karbala: what would you refuse, even if refusing failed?",
+      "meta": "Philosophy · 10 min",
+      "time": "08:30",
+      "slot": "Morning",
+      "action": "philosophy"
+    },
+    {
+      "id": "write-to-someone-in-authority-about-a-wrong-that-needs-righting",
+      "name": "Write to someone in authority about a wrong that needs righting",
+      "meta": "A word of truth",
+      "time": "11:00",
+      "slot": "Afternoon"
+    }
+  ],
+  "rules": [
+    {
+      "id": "r1",
+      "text": "Stop three times a day",
+      "why": "At dawn, after noon and after sunset, be still and remember what is highest."
+    },
+    {
+      "id": "r2",
+      "text": "Do not side with an oppressor",
+      "why": "Not by action, not by silence, not for advantage. Help one wronged person today."
+    },
+    {
+      "id": "r3",
+      "text": "Give water and food",
+      "why": "Share drink or food with someone every day, whoever they are."
+    },
+    {
+      "id": "r4",
+      "text": "Keep faith with your dead",
+      "why": "Remember by name someone who suffered for what was right, and act on what they stood for."
+    },
+    {
+      "id": "r5",
+      "text": "Use your reason",
+      "why": "Accept nothing on mere habit. Ask for the evidence, and then follow those who know."
+    },
+    {
+      "id": "r6",
+      "text": "Guard your dignity and others’",
+      "why": "Do not humiliate anyone and do not sell your conscience. Husayn’s phrase was: far from us is humiliation."
+    }
+  ],
+  "immerse": {
+    "read": [
+      {
+        "id": "read-nahj-al-balagha-the-peak-of-eloquence",
+        "title": "Nahj al-Balagha: The Peak of Eloquence",
+        "creator": "Sermons, letters and sayings of Ali ibn Abi Talib, compiled by al-Sharif al-Radi",
+        "year": "about 1000 CE",
+        "why": "The great book of Shia prose. Read letter 53, to Malik al-Ashtar, on justice in government, and the short sayings at the end. Tahera Qutbuddin’s 2024 translation is the most exact."
+      },
+      {
+        "id": "read-the-psalms-of-islam-al-sahifa-al-sajjadiyya",
+        "title": "The Psalms of Islam (al-Sahifa al-Sajjadiyya)",
+        "creator": "Ali ibn al-Husayn, trans. William C. Chittick",
+        "year": "about 700 CE; translated 1988",
+        "why": "Fifty-four supplications by the survivor of Karbala. Among the most beautiful prayers in any language."
+      },
+      {
+        "id": "read-an-introduction-to-shi-i-islam",
+        "title": "An Introduction to Shi’i Islam",
+        "creator": "Moojan Momen",
+        "year": "1985",
+        "why": "The standard English reference on Twelver history, doctrine and practice."
+      },
+      {
+        "id": "read-after-the-prophet-the-epic-story-of-the-shia-sunni-split",
+        "title": "After the Prophet: The Epic Story of the Shia-Sunni Split",
+        "creator": "Lesley Hazleton",
+        "year": "2009",
+        "why": "The succession and Karbala told as narrative from the early Arabic sources."
+      },
+      {
+        "id": "read-shi-ite-islam",
+        "title": "Shi’ite Islam",
+        "creator": "Allamah Sayyid Muhammad Husayn Tabataba’i, trans. Seyyed Hossein Nasr",
+        "year": "1975",
+        "why": "An account of the tradition from inside, by one of its leading twentieth century scholars."
+      },
+      {
+        "id": "read-the-shia-revival",
+        "title": "The Shia Revival",
+        "creator": "Vali Nasr",
+        "year": "2006",
+        "why": "How the Shia past shapes the politics of the modern Middle East. Read it with the date in mind."
+      }
+    ],
+    "watch": [
+      {
+        "id": "watch-under-the-moonlight",
+        "title": "Under the Moonlight",
+        "creator": "Reza Mirkarimi",
+        "year": "2001",
+        "why": "A young seminary student in Tehran loses his clerical robes to a street boy on the eve of his graduation and follows him under a bridge. Gentle and searching."
+      },
+      {
+        "id": "watch-a-separation",
+        "title": "A Separation",
+        "creator": "Asghar Farhadi",
+        "year": "2011",
+        "why": "A Tehran divorce and a lawsuit turn on whether a devout woman will swear a false oath on the Qur’an. Conscience as the whole drama."
+      },
+      {
+        "id": "watch-the-lizard-marmoulak",
+        "title": "The Lizard (Marmoulak)",
+        "creator": "Kamal Tabrizi",
+        "year": "2004",
+        "why": "A thief escapes prison disguised as a cleric and finds people listening to him. A hugely popular Iranian comedy that was pulled from cinemas."
+      },
+      {
+        "id": "watch-mokhtarnameh",
+        "title": "Mokhtarnameh",
+        "creator": "Davud Mirbagheri",
+        "year": "2010 to 2011",
+        "why": "An Iranian television epic about Mukhtar al-Thaqafi, who rose in Kufa to avenge Karbala. The faces of the holy family are not shown."
+      }
+    ],
+    "listen": [
+      {
+        "id": "listen-du-a-kumayl",
+        "title": "Du’a Kumayl",
+        "creator": "Recited by Abathar al-Halawaji and many others",
+        "year": "7th century text",
+        "why": "The long supplication Ali taught his companion Kumayl, recited on Thursday nights. A plea for mercy that keeps returning to hope."
+      },
+      {
+        "id": "listen-latmiyyat-and-noha",
+        "title": "Latmiyyat and noha",
+        "creator": "Bassim al-Karbalai, Nadeem Sarwar",
+        "year": "ongoing",
+        "why": "Elegies for Husayn chanted to the beat of hands on chests. Iraqi and South Asian styles are both worth hearing."
+      },
+      {
+        "id": "listen-rabbana",
+        "title": "Rabbana",
+        "creator": "Mohammad-Reza Shajarian",
+        "year": "1979",
+        "why": "Four short Qur’anic prayers sung by the great master of Persian classical song. For decades it was broadcast across Iran at sunset in Ramadan."
+      },
+      {
+        "id": "listen-man-kunto-maula",
+        "title": "Man Kunto Maula",
+        "creator": "Words attributed to Amir Khusrau; sung by Nusrat Fateh Ali Khan and Abida Parveen",
+        "year": "13th century",
+        "why": "A qawwali built on the Prophet’s words at Ghadir: whoever has me as master has Ali as master. Loved by Sunnis and Shia alike."
+      }
+    ],
+    "art": [
+      {
+        "id": "art-the-shah-mosque-imam-mosque",
+        "title": "The Shah Mosque (Imam Mosque)",
+        "creator": "Isfahan, Iran",
+        "year": "1611 to 1629",
+        "why": "Built for the Safavid Shah Abbas. Every surface is tiled in blue, turquoise and yellow, and a whisper under the main dome echoes seven times."
+      },
+      {
+        "id": "art-the-ardabil-carpet",
+        "title": "The Ardabil Carpet",
+        "creator": "Victoria and Albert Museum, London",
+        "year": "1539 to 1540",
+        "why": "One of the largest and finest carpets in the world, made for the shrine of the ancestor of the Safavid dynasty. It carries a verse of Hafez and the weaver’s signature."
+      },
+      {
+        "id": "art-coffee-house-paintings-of-karbala",
+        "title": "Coffee-house paintings of Karbala",
+        "creator": "Folk painters of Qajar Iran, such as Mohammad Modabber",
+        "year": "19th to early 20th century",
+        "why": "Large canvases crowded with the scenes of Ashura, unrolled by storytellers who pointed and narrated."
+      },
+      {
+        "id": "art-the-mirror-halls-of-the-shrines",
+        "title": "The mirror halls of the shrines",
+        "creator": "Mashhad, Qom, Shiraz and Karbala",
+        "year": "from the 17th century",
+        "why": "Vaults faced with thousands of small cut mirrors, so that no visitor sees a single whole reflection of themselves."
+      }
+    ],
+    "eat": [
+      {
+        "id": "eat-qeema",
+        "title": "Qeema",
+        "creator": "Minced meat and split chickpeas cooked for hours with dried lime",
+        "why": "The dish of Iraqi Muharram, stirred in huge pots with wooden paddles and served on rice to anyone who comes."
+      },
+      {
+        "id": "eat-sholeh-zard",
+        "title": "Sholeh zard",
+        "creator": "Saffron rice pudding with rosewater, decorated with cinnamon",
+        "why": "Cooked in fulfilment of a vow and taken round to the neighbours. The names of the holy family are often written on top."
+      },
+      {
+        "id": "eat-ash-e-nazri",
+        "title": "Ash-e nazri",
+        "creator": "Thick soup of herbs, beans and noodles",
+        "why": "Made in quantity in Iran on mourning days and given away at the door."
+      },
+      {
+        "id": "eat-haleem",
+        "title": "Haleem",
+        "creator": "Wheat, lentils and meat pounded to a paste",
+        "why": "Distributed in South Asia during Muharram and to break the fast in Ramadan."
+      }
+    ],
+    "drink": [
+      {
+        "id": "drink-sherbet",
+        "title": "Sherbet",
+        "creator": "Cold water sweetened with rose or saffron syrup",
+        "why": "Handed out at stalls along the processions of Ashura in memory of the thirst of Karbala."
+      },
+      {
+        "id": "drink-iraqi-tea",
+        "title": "Iraqi tea",
+        "creator": "Strong black tea in small glasses with a great deal of sugar",
+        "why": "Served from thousands of roadside tents along the walk to Karbala."
+      },
+      {
+        "id": "drink-plain-water-given-away",
+        "title": "Plain water, given away",
+        "creator": "A cup offered to a stranger",
+        "why": "The simplest and most meaningful drink in this tradition."
+      }
+    ],
+    "customs": [
+      {
+        "id": "customs-black-in-muharram",
+        "title": "Black in Muharram",
+        "creator": "The first ten days of the year",
+        "why": "People wear black, hang black banners and hold no weddings. Each night a different part of the story is told."
+      },
+      {
+        "id": "customs-weeping",
+        "title": "Weeping",
+        "creator": "At the majlis",
+        "why": "Tears for Husayn are held to be an act of love and a schooling of the heart. The preacher builds to the story of the day and the hall weeps together."
+      },
+      {
+        "id": "customs-the-clay-tablet",
+        "title": "The clay tablet",
+        "creator": "In prayer",
+        "why": "The forehead is placed on earth, not on carpet. It is a surface for prostration and not an object of worship."
+      },
+      {
+        "id": "customs-salutation-toward-karbala",
+        "title": "Salutation toward Karbala",
+        "creator": "Peace be upon you, O Aba Abdillah",
+        "why": "Many Shia greet Husayn after prayers and whenever they drink water."
+      }
+    ],
+    "games": [
+      {
+        "id": "games-zurkhaneh-pahlevani",
+        "title": "Zurkhaneh (Pahlevani)",
+        "creator": "Traditional athletics · Iran",
+        "year": "centuries old",
+        "why": "Men swing heavy clubs and whirl in a sunken octagonal pit to a drummer who chants poetry in praise of Ali, the model of the chivalrous strongman. Listed by UNESCO."
+      },
+      {
+        "id": "games-hokm",
+        "title": "Hokm",
+        "creator": "Card game · Iran",
+        "year": "modern",
+        "why": "A trick-taking game for four in two partnerships, played in every Iranian family gathering. The name means command."
+      },
+      {
+        "id": "games-1979-revolution-black-friday",
+        "title": "1979 Revolution: Black Friday",
+        "creator": "Video game · iNK Stories",
+        "year": "2016",
+        "why": "You play a young photographer in Tehran as the revolution gathers. Made by Iranian exiles from interviews and archive photographs. Banned in Iran."
+      }
+    ],
+    "festivals": [
+      {
+        "id": "fest-ashura",
+        "title": "Ashura",
+        "creator": "10th of Muharram, the first month",
+        "why": "The anniversary of Karbala. Processions, passion plays, sermons and food given away. Mourning lasts ten days and reaches its height on this day."
+      },
+      {
+        "id": "fest-arba-een",
+        "title": "Arba’een",
+        "creator": "20th of Safar, forty days later",
+        "why": "Pilgrims walk about eighty kilometres from Najaf to Karbala. In recent years well over ten million have taken part, fed and housed free by local people."
+      },
+      {
+        "id": "fest-eid-al-ghadir",
+        "title": "Eid al-Ghadir",
+        "creator": "18th of Dhu al-Hijja",
+        "why": "The day the Prophet, returning from his last pilgrimage, took Ali by the hand before the assembled pilgrims. A joyful festival."
+      },
+      {
+        "id": "fest-the-nights-of-power-and-the-martyrdom-of-ali",
+        "title": "The Nights of Power and the martyrdom of Ali",
+        "creator": "19th, 21st and 23rd of Ramadan",
+        "why": "Vigils are kept through the night with the Qur’an held above the head. Ali was struck in the mosque of Kufa on the 19th and died on the 21st."
+      }
+    ],
+    "places": [
+      {
+        "id": "place-karbala",
+        "title": "Karbala",
+        "creator": "Iraq",
+        "why": "The gold-domed shrines of Husayn and his brother Abbas face each other across a wide walkway. Check current travel advice for Iraq before planning."
+      },
+      {
+        "id": "place-najaf",
+        "title": "Najaf",
+        "creator": "Iraq",
+        "why": "The shrine of Ali, the oldest Shia seminary and Wadi al-Salam, the Valley of Peace, one of the largest cemeteries on earth."
+      },
+      {
+        "id": "place-mashhad",
+        "title": "Mashhad",
+        "creator": "Khorasan, Iran",
+        "why": "The vast shrine of the eighth Imam, Ali al-Rida, visited by some twenty million people a year. Non-Muslims may enter the outer courtyards with a guide. Check current travel advice for Iran."
+      },
+      {
+        "id": "place-isfahan",
+        "title": "Isfahan",
+        "creator": "Iran",
+        "why": "The Safavid capital: the great square, the Shah Mosque and the Sheikh Lotfollah Mosque, built when Twelver Shiism became the religion of Iran."
+      },
+      {
+        "id": "place-bara-imambara",
+        "title": "Bara Imambara",
+        "creator": "Lucknow, Uttar Pradesh, India",
+        "why": "A huge vaulted hall built in 1784 by a Shia ruler as famine relief work. Lucknow’s Muharram processions are among the most elaborate in the world."
+      }
+    ]
+  },
+  "ethics": [
+    {
+      "title": "Justice",
+      "text": "Shia theology insists that God is just and that human rulers will be judged by the same measure. Ali’s letter to his governor says: let your heart hold mercy for your subjects, and do not stand over them like a beast of prey.",
+      "practice": "Look at one place where you hold power over someone. Is it used fairly?"
+    },
+    {
+      "title": "Refusing oppression",
+      "text": "Husayn was offered safety in return for an oath of allegiance to a ruler he held to be unjust. He refused, knowing the cost.",
+      "practice": "Withdraw your cooperation from one small wrong today."
+    },
+    {
+      "title": "Loyalty",
+      "text": "Abbas, Husayn’s brother, rode to the river for the children’s water and would not drink before them. Loyalty to those who depend on you is a core virtue.",
+      "practice": "Put someone else’s need before your own once today, and tell no one."
+    },
+    {
+      "title": "Patience with dignity",
+      "text": "Zaynab, taken captive after the battle, spoke before the governor and the caliph with such force that she shamed them. Endurance here means standing straight.",
+      "practice": "Meet one humiliation or setback today without bitterness and without bowing."
+    },
+    {
+      "title": "Generosity",
+      "text": "A verse of the Qur’an praises those who feed the needy, the orphan and the captive for love of God, wanting no reward or thanks. Shia tradition says it was revealed about Ali and Fatima giving away their own meal three evenings in a row.",
+      "practice": "Give away the thing you were about to enjoy."
+    },
+    {
+      "title": "Knowledge",
+      "text": "Ali is called the gate to the city of knowledge. Seeking learning is a duty, and scholars are honoured. The seminaries of Najaf and Qom teach logic and philosophy alongside law.",
+      "practice": "Learn one thing properly today, from a source you have checked."
+    }
+  ],
+  "philosophy": [
+    {
+      "title": "Guidance does not stop",
+      "text": "Sunnis hold that prophecy ended with Muhammad and that the community interprets his legacy. Shia agree that prophecy ended, and add that guidance continued through twelve Imams of his house, who knew the inner meaning of the revelation.",
+      "practice": "Ask who has actually guided you, and whether you have honoured it."
+    },
+    {
+      "title": "Karbala as a mirror",
+      "text": "In 680 seventy-two people faced an army and were killed. Shia thought returns to that day again and again, because it sets the question plainly: when power and right part company, where do you stand?",
+      "practice": "Name the thing you would not do for any price. Has it been tested?"
+    },
+    {
+      "title": "Justice as a principle of faith",
+      "text": "The five roots of Twelver belief are divine unity, justice, prophecy, the imamate and the resurrection. Justice is in the creed. God does not wrong anyone, so no wrong can be blamed on God’s will.",
+      "practice": "Take one thing you call fate and ask whether it is really an injustice someone could mend."
+    },
+    {
+      "title": "Reason",
+      "text": "A saying of the sixth Imam holds that God has two proofs over humankind: the outer, which is the prophets, and the inner, which is the intellect. Shia law never closed the door of independent reasoning.",
+      "practice": "Work through one hard question today with your own mind before looking up an answer."
+    },
+    {
+      "title": "The hidden Imam",
+      "text": "The twelfth Imam is believed to have been hidden by God since 874 and to be alive. He will return with Jesus to establish justice. Until then the world is never without a guide, though the guide is unseen.",
+      "practice": "Do one thing today that would belong in the world you are hoping for."
+    },
+    {
+      "title": "Waiting as work",
+      "text": "Intizar is called the best of deeds. It is read as active: those who expect justice must become people who could live under it, and must build what they can now.",
+      "practice": "Pick a wrong you have been waiting for someone else to fix. Take the first step."
+    },
+    {
+      "title": "Grief that builds",
+      "text": "Shia communities gather every year to weep for someone killed fourteen centuries ago. The mourning passes on a conscience: each generation learns in its body whose side to be on.",
+      "practice": "Let yourself feel one loss you have skipped past. What does it ask of you?"
+    },
+    {
+      "title": "The outward and the inward",
+      "text": "Every verse and every rite has an outer form and an inner meaning. The law is kept, and the Imams are held to be the guides to what lies inside it. Ismaili thought developed this furthest.",
+      "practice": "Take one routine you perform and ask what it is for underneath."
+    }
+  ],
+  "journal": [
+    "Where did you stay neutral today, and what did it cost?",
+    "Whom did you help who had been wronged?",
+    "What would you refuse, even if refusing failed?",
+    "Whom do you remember who suffered for what was right?",
+    "Who was thirsty near you?",
+    "What did you give away?",
+    "Where do you hold power, and how did you use it?",
+    "Which line of the supplication was about you?",
+    "Whose side are you on?",
+    "What are you waiting for, and what are you doing meanwhile?",
+    "What grief have you not let yourself feel?",
+    "Who guided you, and did you follow?",
+    "What did reason show you that habit had hidden?",
+    "Where did you keep your dignity?",
+    "Where did you sell a little of your conscience?",
+    "Who depends on your loyalty?",
+    "What injustice do you call fate?",
+    "Whom did you humiliate, even slightly?",
+    "What did you see of beauty in a hard thing?",
+    "What would you say to the governor?",
+    "Who are your dead, and what do you owe them?",
+    "What knowledge did you seek today?",
+    "How did you treat those under you?",
+    "What did you do for your neighbours?",
+    "What do you put before your own thirst?",
+    "Where did you bow when you should have stood?",
+    "What would the world you hope for ask of you today?",
+    "What is the inner meaning of something you do every day?",
+    "Whom did you greet with peace?",
+    "What will you stand for tomorrow?"
+  ],
+  "reflect": [
+    "Where did you take a side, and what happened?",
+    "What did remembering the wronged change in you?",
+    "What did the whispered prayers ask for that you had not known you lacked?",
+    "What does waiting mean to you now?",
+    "Whose memory will you keep faith with?",
+    "What will you go on refusing?"
+  ],
+  "dayThemes": [
+    "The three stops",
+    "The people of the house",
+    "The hand raised at Ghadir",
+    "The gate of knowledge",
+    "Equal in humanity",
+    "The just ruler",
+    "Thursday night",
+    "The road to Karbala",
+    "The river",
+    "The water-carrier",
+    "The tenth day",
+    "Nothing but beauty",
+    "The survivor’s prayers",
+    "Tears",
+    "The clay",
+    "A pot for the neighbours",
+    "The inner proof",
+    "The sixth Imam’s school",
+    "The fifth",
+    "The visit",
+    "Peace be upon you",
+    "The wronged",
+    "Dignity",
+    "The hidden guide",
+    "Waiting as work",
+    "Forty days",
+    "The walk",
+    "The valley of peace",
+    "Justice",
+    "Every day, every land"
+  ],
+  "guide": {
+    "intro": [
+      "Shia Islam is the second great branch of Islam, the faith of perhaps two hundred million people. Shia Muslims share with all Muslims the Qur’an, the Prophet Muhammad, the daily prayers, the fast of Ramadan and the pilgrimage to Mecca. What sets them apart is their answer to a question that arose on the day the Prophet died: who should lead?",
+      "The majority accepted the Prophet’s companion Abu Bakr, chosen by leading men of the community. A smaller group believed that the Prophet had already named his successor: Ali, his cousin, the husband of his daughter Fatima, raised in his household. They pointed to a day in 632 at a pool called Ghadir Khumm, where the Prophet took Ali’s hand before the pilgrims and said: whoever has me as his master, Ali is his master. They were the shi’at Ali, the party of Ali.",
+      "For the Shia, leadership is a matter of divine guidance. God, being just, would not leave people without a guide, and so after the Prophet came a line of Imams from his family, each designated by the one before, sinless and possessed of the inner knowledge of the revelation. Ali was the first. His sons Hasan and Husayn were the second and third.",
+      "In 680 Husayn refused to swear allegiance to the caliph Yazid, whom he regarded as a tyrant. On the plain of Karbala in Iraq he, his family and about seventy companions were surrounded, cut off from water and killed on the tenth day of the month of Muharram. The women and children were led away captive. That day, Ashura, is the centre of Shia memory. It is mourned every year with gatherings, elegies, processions and food given freely, and it has made resistance to injustice a religious duty.",
+      "Most Shia are Twelvers, who count twelve Imams. The twelfth, the Mahdi, is believed to have been hidden by God in 874 and to be still alive. He will return to fill the earth with justice. In his absence the community is guided by senior jurists. Other branches include the Ismailis, led today by the Aga Khan, and the Zaydis of Yemen. Shia thought has a strong philosophical and legal tradition and gives reason an honoured place.",
+      "This Onda borrows from Shia life: three stops for remembrance, a daily act on the side of someone wronged, water given in memory of the thirsty, the whispered prayers of the fourth Imam and a weekly visit of remembrance. If you are a guest, you are not asked to take part in mourning rites or the ritual prayer. The story is told here as Shia Muslims tell it. Sunni Muslims honour Ali and Husayn too and read parts of this history differently, and the Sunni Onda gives their account."
+    ],
+    "origin": "Medina and Kufa; today Iran, Iraq, Bahrain, Azerbaijan, Lebanon, South Asia and a worldwide diaspora",
+    "era": "From the death of the Prophet in 632. About one Muslim in eight is Shia",
+    "figures": [
+      {
+        "name": "Ali ibn Abi Talib",
+        "dates": "about 600 to 661",
+        "bio": "The Prophet’s cousin and son-in-law, the first Imam and fourth caliph. Famous for courage, learning and plain living. He was struck down while praying in the mosque of Kufa."
+      },
+      {
+        "name": "Fatima al-Zahra",
+        "dates": "about 605 to 632",
+        "bio": "The Prophet’s daughter, wife of Ali and mother of Hasan and Husayn. She died a few months after her father. All the Imams descend from her."
+      },
+      {
+        "name": "Hasan ibn Ali",
+        "dates": "625 to 670",
+        "bio": "The second Imam. He gave up his claim to the caliphate in a treaty to prevent civil war and lived quietly in Medina."
+      },
+      {
+        "name": "Husayn ibn Ali",
+        "dates": "626 to 680",
+        "bio": "The third Imam, called the Prince of Martyrs. His refusal and death at Karbala define the tradition."
+      },
+      {
+        "name": "Zaynab bint Ali",
+        "dates": "about 626 to 682",
+        "bio": "Husayn’s sister. She protected the survivors of Karbala and, as a captive, denounced the rulers to their faces. It is said that without her the story would have been buried."
+      },
+      {
+        "name": "Ali ibn al-Husayn, Zayn al-Abidin",
+        "dates": "659 to 713",
+        "bio": "The fourth Imam, who was too ill to fight at Karbala and survived. He taught through prayers and wrote a Treatise on Rights."
+      },
+      {
+        "name": "Ja'far al-Sadiq",
+        "dates": "702 to 765",
+        "bio": "The sixth Imam, a teacher in Medina whose students included founders of Sunni schools of law. Twelver law is named Ja’fari after him."
+      },
+      {
+        "name": "Ali al-Rida",
+        "dates": "766 to 818",
+        "bio": "The eighth Imam, named heir by an Abbasid caliph and then, Shia hold, poisoned. He is the only Imam buried in Iran, at Mashhad."
+      },
+      {
+        "name": "Nasir al-Din al-Tusi",
+        "dates": "1201 to 1274",
+        "bio": "A Shia theologian, astronomer and mathematician who built the observatory at Maragha. His planetary models reached Copernicus."
+      },
+      {
+        "name": "Mulla Sadra",
+        "dates": "about 1571 to 1640",
+        "bio": "The philosopher of Shiraz who taught that existence itself is in motion. He is still central to the curriculum at Qom."
+      }
+    ],
+    "history": [
+      {
+        "when": "632",
+        "what": "Ghadir and the succession",
+        "detail": "In March the Prophet speaks of Ali at Ghadir Khumm. In June he dies. While Ali washes the body, a meeting chooses Abu Bakr as caliph."
+      },
+      {
+        "when": "656 to 661",
+        "what": "Ali’s caliphate",
+        "detail": "After three caliphs, Ali is chosen as the fourth and faces civil war. He moves the capital to Kufa in Iraq and is assassinated there by an extremist."
+      },
+      {
+        "when": "680",
+        "what": "Karbala",
+        "detail": "On 10 Muharram, 10 October 680, Husayn and his companions are killed by the army of the Umayyad caliph Yazid."
+      },
+      {
+        "when": "8th century",
+        "what": "The school of Ja’far al-Sadiq",
+        "detail": "Under the fifth and sixth Imams Shia law and theology are set out. On Ja’far’s death the community divides over his heir. Those who follow his son Ismail become the Ismailis."
+      },
+      {
+        "when": "874 and 941",
+        "what": "The occultation",
+        "detail": "The eleventh Imam dies in Samarra under house arrest. His young son goes into hiding and communicates through four deputies until 941, when the greater occultation begins."
+      },
+      {
+        "when": "909 to 1171",
+        "what": "The Fatimids",
+        "detail": "An Ismaili dynasty rules North Africa and Egypt, founds Cairo in 969 and establishes al-Azhar."
+      },
+      {
+        "when": "945 to 1055",
+        "what": "The Buyid century",
+        "detail": "Shia princes hold power in Baghdad. Public mourning for Ashura and the celebration of Ghadir begin, and scholars such as al-Mufid and al-Tusi write the foundational books."
+      },
+      {
+        "when": "1501",
+        "what": "The Safavids",
+        "detail": "Shah Ismail makes Twelver Shiism the religion of Iran and brings scholars from Lebanon and Iraq. Iran has been mainly Shia ever since."
+      },
+      {
+        "when": "18th to 19th century",
+        "what": "The jurists",
+        "detail": "The Usuli school, which upholds independent reasoning, prevails. The practice of each believer following a living senior jurist takes shape."
+      },
+      {
+        "when": "1979",
+        "what": "The Iranian revolution",
+        "detail": "A movement led by Ayatollah Khomeini overthrows the shah and founds a state governed by a jurist. Many leading Shia scholars, especially in Najaf, do not accept that doctrine."
+      },
+      {
+        "when": "2003 onward",
+        "what": "Iraq",
+        "detail": "After the fall of Saddam Hussein, who had banned the processions, the Arba’een walk revives and becomes the largest annual gathering in the world. Shia communities are also the targets of repeated bombings."
+      },
+      {
+        "when": "today",
+        "what": "Many communities",
+        "detail": "Twelvers in Iran, Iraq, Lebanon, the Gulf and South Asia; Ismailis from Tajikistan to East Africa and Canada; Zaydis in Yemen; Alevis and Alawites with their own distinct traditions."
+      }
+    ],
+    "concepts": [
+      {
+        "term": "The imamate",
+        "text": "Guidance after the Prophet.",
+        "detail": "The Imams do not bring a new revelation. They guard and interpret the one given. Twelvers hold them to be protected from sin and error."
+      },
+      {
+        "term": "Divine justice",
+        "text": "God does no wrong.",
+        "detail": "Human beings are free and responsible. This principle links Shia theology to the rationalist Mu’tazili school of early Islam."
+      },
+      {
+        "term": "The fourteen infallibles",
+        "text": "The purified household.",
+        "detail": "The Prophet, Fatima and the twelve Imams. Shia read the Qur’an’s verse about God purifying the people of the house as referring to them."
+      },
+      {
+        "term": "Martyrdom and witness",
+        "text": "Shahada.",
+        "detail": "The Arabic word means both. Husayn’s death is understood as testimony: a truth stated with a life."
+      },
+      {
+        "term": "The occultation",
+        "text": "The hidden twelfth Imam.",
+        "detail": "He is absent from sight and present in the world. Believers pray for his return every day and on the fifteenth of the month of Sha’ban celebrate his birth."
+      },
+      {
+        "term": "Marja’iyya",
+        "text": "Following a jurist.",
+        "detail": "Lay people choose a living senior scholar and follow his rulings on practice. There are several at any time, in Najaf, Qom and elsewhere, and they often disagree."
+      },
+      {
+        "term": "Intercession",
+        "text": "Asking through the beloved of God.",
+        "detail": "Shia ask the Prophet and Imams to pray for them, and visit their tombs. They hold that all power remains God’s."
+      },
+      {
+        "term": "Taqiyya",
+        "text": "Prudent concealment.",
+        "detail": "Permission to hide one’s belief under threat of death or persecution. It grew from centuries as a hunted minority and is often misrepresented by opponents."
+      },
+      {
+        "term": "Khums and zakat",
+        "text": "Dues on wealth.",
+        "detail": "Besides the general alms, Shia pay a fifth of annual savings, which funds seminaries, clinics and welfare independent of the state."
+      }
+    ],
+    "facts": [
+      {
+        "text": "The walk to Karbala for Arba’een draws more people than any other annual gathering on earth, and almost everyone on it is fed, housed and treated without charge by volunteers."
+      },
+      {
+        "text": "Twelver Shia add to the call to prayer the phrase: I bear witness that Ali is the friend of God."
+      },
+      {
+        "text": "Al-Azhar in Cairo, now the leading Sunni university, was founded by the Shia Fatimids and named for Fatima al-Zahra."
+      },
+      {
+        "text": "Wadi al-Salam in Najaf holds several million graves. Shia from across the world ask to be buried there, near Ali."
+      },
+      {
+        "text": "In Trinidad the Muharram commemoration became Hosay, a street festival with drums and tall model tombs, joined by people of many religions."
+      },
+      {
+        "text": "A black turban marks a cleric who descends from the Prophet. Other clerics wear white."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Twelver",
+        "meaning": "A Shia who accepts twelve Imams; the majority branch"
+      },
+      {
+        "term": "Ismaili",
+        "meaning": "A Shia branch following the line of Ismail, son of the sixth Imam"
+      },
+      {
+        "term": "Zaydi",
+        "meaning": "A Shia branch of Yemen, close to Sunni practice"
+      },
+      {
+        "term": "Ayatollah",
+        "meaning": "Sign of God: a title for a senior Twelver jurist"
+      },
+      {
+        "term": "Hawza",
+        "meaning": "A Shia seminary"
+      },
+      {
+        "term": "Muharram",
+        "meaning": "The first month of the Islamic year, the month of mourning"
+      }
+    ],
+    "furtherReading": [
+      {
+        "title": "Shi’ism: A Religion of Protest",
+        "creator": "Hamid Dabashi",
+        "year": "2011",
+        "note": "A sweeping interpretation of Shia history, art and thought as a tradition of dissent."
+      },
+      {
+        "title": "The Succession to Muhammad",
+        "creator": "Wilferd Madelung",
+        "year": "1997",
+        "note": "A detailed scholarly study of the early caliphate, sympathetic to Ali’s claim."
+      },
+      {
+        "title": "Reliving Karbala: Martyrdom in South Asian Memory",
+        "creator": "Syed Akbar Hyder",
+        "year": "2006",
+        "note": "How Karbala lives in Urdu poetry and in the devotion of Shia, Sunnis and Hindus."
+      },
+      {
+        "title": "A Treatise on Rights (Risalat al-Huquq)",
+        "creator": "Ali ibn al-Husayn",
+        "year": "about 700",
+        "note": "Fifty short paragraphs on what is owed to God, to oneself, to parents, to neighbours and to those one has power over."
+      }
+    ],
+    "learnFrom": [
+      {
+        "name": "Al-Islam.org",
+        "note": "A very large free library of Shia texts, histories and introductions in English.",
+        "link": "https://www.al-islam.org"
+      },
+      {
+        "name": "The Institute of Ismaili Studies",
+        "note": "Research, publications and short guides on Ismaili and wider Shia history.",
+        "link": "https://www.iis.ac.uk"
+      },
+      {
+        "name": "A local husayniyya or Islamic centre in Muharram",
+        "note": "The first ten nights are usually open to respectful visitors. Wear dark clothes, and you will be fed."
+      }
+    ],
+    "sources": [
+      {
+        "title": "An Introduction to Shi’i Islam",
+        "creator": "Moojan Momen",
+        "publisher": "Yale University Press",
+        "year": "1985"
+      },
+      {
+        "title": "The Psalms of Islam: al-Sahifat al-Kamilat al-Sajjadiyya",
+        "creator": "trans. William C. Chittick",
+        "publisher": "Muhammadi Trust",
+        "year": "1988"
+      },
+      {
+        "title": "Nahj al-Balagha: The Wisdom and Eloquence of Ali",
+        "creator": "ed. and trans. Tahera Qutbuddin",
+        "publisher": "Brill",
+        "year": "2024"
+      },
+      {
+        "title": "Shi’ism",
+        "creator": "Heinz Halm",
+        "publisher": "Edinburgh University Press",
+        "year": "2nd edition 2004"
+      },
+      {
+        "title": "Shi’ite Islam",
+        "creator": "Muhammad Husayn Tabataba'i, trans. Seyyed Hossein Nasr",
+        "publisher": "State University of New York Press",
+        "year": "1975"
+      },
+      {
+        "title": "The Qur’an: A New Translation",
+        "creator": "trans. M. A. S. Abdel Haleem",
+        "publisher": "Oxford World's Classics",
+        "year": "2004"
+      }
+    ]
+  },
+  "sensitivity": {
+    "note": "Shia Islam is a living faith whose followers have often been a persecuted minority. This Onda tells its history as Shia Muslims tell it and borrows its ethics of justice and remembrance. It does not ask a guest to join mourning rites or ritual prayer.",
+    "requiredCaveats": [
+      "Sunni and Shia Muslims agree on far more than they dispute. The early history is read differently by each, and both accounts deserve a hearing.",
+      "Twelver, Ismaili and Zaydi Shia differ, and so do the practices of Iran, Iraq, Lebanon and South Asia.",
+      "The holy family is not depicted in many communities, and their names are followed by a blessing.",
+      "Shia communities are still attacked in several countries. Do not confuse the religion with any government that claims it."
+    ],
+    "reviewRequired": true
+  }
+}

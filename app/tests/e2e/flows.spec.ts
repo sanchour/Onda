@@ -319,7 +319,7 @@ test.describe('Ondas', () => {
 
   test('Rules is a read-only page; Journal and Philosophy are full pages; the Onda card opens the full guide', async ({ page }) => {
     await tap(page, 'Rules')
-    await expect(page.getByText('Do not complain aloud')).toBeVisible()
+    await expect(page.getByText('Complain to no one, not even yourself')).toBeVisible()
     await expect(page.getByRole('checkbox')).toHaveCount(0) // nothing to tick here
     await expect(page.getByRole('dialog')).toHaveCount(0)
     await tap(page, 'Back')

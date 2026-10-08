@@ -409,41 +409,41 @@
       "slot": "Evening"
     },
     {
-      "id": "task-read-a-chapter-of-meditations",
-      "name": "Read a chapter of Meditations",
-      "meta": "Read · 15 min",
+      "id": "task-read-a-page-of-meditations-then-answer-it",
+      "name": "Read a page of Meditations, then answer it",
+      "meta": "Read · Marcus wrote it for himself",
       "time": "12:30",
       "slot": "Afternoon",
       "action": "read"
     },
     {
-      "id": "task-listen-to-in-our-time-stoicism",
-      "name": "Listen to In Our Time: Stoicism",
-      "meta": "Listen",
+      "id": "task-take-in-our-time-stoicism-for-a-walk",
+      "name": "Take In Our Time: Stoicism for a walk",
+      "meta": "Listen · a walk-length lecture",
       "time": "17:00",
       "slot": "Afternoon",
       "action": "listen"
     },
     {
-      "id": "task-journal-what-was-up-to-you-today",
-      "name": "Journal: what was up to you today?",
+      "id": "task-evening-audit-what-was-up-to-you-today",
+      "name": "Evening audit: what was up to you today?",
       "meta": "Journal · 10 min",
       "time": "21:15",
       "slot": "Evening",
       "action": "journal"
     },
     {
-      "id": "task-write-three-lines-on-the-dichotomy-of-control",
-      "name": "Write three lines on the dichotomy of control",
+      "id": "task-put-your-biggest-annoyance-through-the-dichotomy-of-control",
+      "name": "Put your biggest annoyance through the dichotomy of control",
       "meta": "Philosophy · 10 min",
       "time": "19:30",
       "slot": "Evening",
       "action": "philosophy"
     },
     {
-      "id": "task-eat-a-plain-meal-of-bread-olives-and-cheese",
-      "name": "Eat a plain meal of bread, olives and cheese",
-      "meta": "Eat · simple",
+      "id": "task-eat-like-a-stoic-bread-olives-and-cheese-no-screen",
+      "name": "Eat like a Stoic: bread, olives and cheese, no screen",
+      "meta": "Eat · plain on purpose",
       "time": "13:00",
       "slot": "Afternoon",
       "action": "eat"
@@ -452,33 +452,33 @@
   "rules": [
     {
       "id": "r1",
-      "text": "Do not complain aloud",
-      "why": "Marcus Aurelius, Meditations 8.9: let no one hear you blaming palace life, not even yourself. Complaint rehearses the judgment that something bad has happened."
+      "text": "Complain to no one, not even yourself",
+      "why": "Marcus Aurelius (Meditations 8.9) says let no one hear you blaming palace life, not even yourself. Grumbling is rehearsal: you get good at whatever you practise, and complaint rehearses the judgment that something bad has happened."
     },
     {
       "id": "r2",
-      "text": "Pause before reacting. Name the judgment.",
-      "why": "Epictetus: say to every harsh impression, you are an impression and not at all what you appear to be. The pause is where assent can be withheld."
+      "text": "Catch the first jolt and name the judgment",
+      "why": "Epictetus tells you to say to every harsh impression: you are an impression and not at all what you appear to be. The pause between the jolt and your reply is where assent can be withheld."
     },
     {
       "id": "r3",
-      "text": "One voluntary discomfort a day",
-      "why": "Training, not punishment. Small chosen hardships make the unchosen ones smaller."
+      "text": "Choose one small discomfort a day",
+      "why": "Skip the second coffee, take the stairs, finish the shower cold. This is training, not punishment: chosen hardships make the unchosen ones smaller."
     },
     {
       "id": "r4",
-      "text": "Phone away during meals",
-      "why": "Attention is the practice. A meal is a simple place to give something your whole mind."
+      "text": "Eat with your phone in another room",
+      "why": "A meal is the easiest place to give something your whole mind, and the Stoics treated attention as the thing you actually own."
     },
     {
       "id": "r5",
-      "text": "Speak plainly and only when it helps",
-      "why": "Epictetus, Enchiridion 33: let silence be the general rule, or say only what is necessary, in few words."
+      "text": "Say what is needed, in few words",
+      "why": "Epictetus (Enchiridion 33): let silence be the general rule, or say only what is necessary, and briefly. Narrating your whole day is optional. Skipping it is a workout."
     },
     {
       "id": "r6",
       "text": "Do the next right thing in your role",
-      "why": "A parent, a colleague, a citizen. The Stoics measured a day by duties met, not feelings had."
+      "why": "Parent, colleague, neighbour, citizen. The Stoics measured a day by duties met, not by feelings had. Ask what the role in front of you asks, then do that."
     }
   ],
   "immerse": {

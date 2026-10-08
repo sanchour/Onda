@@ -410,40 +410,40 @@
       "slot": "Evening"
     },
     {
-      "id": "task-watch-amongst-white-clouds",
-      "name": "Watch Amongst White Clouds",
-      "meta": "Watch",
+      "id": "task-watch-amongst-white-clouds-hermits-in-the-mountains",
+      "name": "Watch Amongst White Clouds: hermits in the mountains",
+      "meta": "Watch · slow on purpose",
       "time": "20:00",
       "slot": "Evening",
       "action": "watch"
     },
     {
-      "id": "task-listen-to-flowing-water-liu-shui",
-      "name": "Listen to Flowing Water (Liu Shui)",
-      "meta": "Listen",
+      "id": "task-close-your-eyes-for-flowing-water-liu-shui",
+      "name": "Close your eyes for Flowing Water (Liu Shui)",
+      "meta": "Listen · a guqin classic",
       "time": "16:30",
       "slot": "Afternoon",
       "action": "listen"
     },
     {
-      "id": "task-journal-where-did-you-force-it-where-did-you-yield",
-      "name": "Journal: where did you force it, where did you yield?",
+      "id": "task-journal-where-did-you-push-and-where-did-you-flow",
+      "name": "Journal: where did you push, and where did you flow?",
       "meta": "Journal · 10 min",
       "time": "21:15",
       "slot": "Evening",
       "action": "journal"
     },
     {
-      "id": "task-write-on-wu-wei-one-thing-you-will-not-force",
-      "name": "Write on wu wei: one thing you will not force",
-      "meta": "Philosophy · 10 min",
+      "id": "task-pick-one-thing-for-tomorrow-and-plan-to-not-force-it",
+      "name": "Pick one thing for tomorrow and plan to not force it",
+      "meta": "Philosophy · wu wei, 10 min",
       "time": "19:30",
       "slot": "Evening",
       "action": "philosophy"
     },
     {
-      "id": "task-eat-a-bowl-of-congee-slowly",
-      "name": "Eat a bowl of congee slowly",
+      "id": "task-eat-a-bowl-of-congee-slowly-as-if-it-were-the-main-event",
+      "name": "Eat a bowl of congee slowly, as if it were the main event",
       "meta": "Eat · 15 min",
       "time": "08:00",
       "slot": "Morning",
@@ -453,33 +453,33 @@
   "rules": [
     {
       "id": "r1",
-      "text": "Do not force. If it resists, rest.",
-      "why": "Chapter 30: force is followed by loss of strength. What is pushed against the Way does not last."
+      "text": "If it resists, stop pushing",
+      "why": "Chapter 30 warns that force is followed by loss of strength: what is pushed against the Way does not last. Try another angle, or a nap."
     },
     {
       "id": "r2",
-      "text": "No rushing between places",
-      "why": "Hurry is a way of being absent from where you are."
+      "text": "Never rush between places",
+      "why": "Hurry is a way of being absent from where you are. Walk as if you had already arrived."
     },
     {
       "id": "r3",
-      "text": "Spend part of the day outdoors",
-      "why": "The texts take their images from water, valleys, weather and trees. Go and look at the originals."
+      "text": "Spend part of the day outside",
+      "why": "The texts take their images from water, valleys, weather and trees. Go and check the originals."
     },
     {
       "id": "r4",
       "text": "Say less than you could",
-      "why": "Chapter 23: to talk little is natural. A whirlwind does not last the whole morning."
+      "why": "Chapter 23: to talk little is natural, and a whirlwind does not last the whole morning. Leave the last sentence unsaid and see what happens."
     },
     {
       "id": "r5",
       "text": "Take the lower place",
-      "why": "Chapter 66: rivers and seas rule the hundred valleys because they lie below them."
+      "why": "Chapter 66: rivers and seas rule the hundred valleys because they lie below them. Let someone else go first, sit last, speak second."
     },
     {
       "id": "r6",
       "text": "Stop when it is enough",
-      "why": "Chapter 9: better to stop in time than to fill to the brim."
+      "why": "Chapter 9: better to stop in time than to fill to the brim. Find the point where one more is one too many."
     }
   ],
   "immerse": {

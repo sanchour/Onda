@@ -44,14 +44,14 @@ All ten Ondas were expanded from the first-draft `onda-data.js` by an AI model (
 
 ## Stoicism
 
-File: `content/ondas/stoic.json` · version 2 · about 4400 words · 32 words of vocabulary, 30 journal prompts, 16 history entries, 10 concepts, 8 sources.
+File: `content/ondas/stoic.json` · version 2 · about 4600 words · 32 words of vocabulary, 30 journal prompts, 16 history entries, 10 concepts, 8 sources.
 
 Nothing is marked `unverified`.
 
 
 ## Zen Buddhism
 
-File: `content/ondas/zen.json` · version 2 · about 3800 words · 32 words of vocabulary, 30 journal prompts, 14 history entries, 10 concepts, 6 sources.
+File: `content/ondas/zen.json` · version 2 · about 4000 words · 32 words of vocabulary, 30 journal prompts, 14 history entries, 10 concepts, 6 sources.
 
 Framing note shown in the app: Zen is a living Buddhist tradition. This Onda adapts its everyday lay practices. It is not ordination, and it does not replace a teacher or a community.
 
@@ -61,7 +61,7 @@ Marked `unverified` (1):
 
 ## Taoism
 
-File: `content/ondas/tao.json` · version 2 · about 3900 words · 32 words of vocabulary, 30 journal prompts, 13 history entries, 10 concepts, 7 sources.
+File: `content/ondas/tao.json` · version 2 · about 4100 words · 32 words of vocabulary, 30 journal prompts, 13 history entries, 10 concepts, 7 sources.
 
 Framing note shown in the app: Daoism is a living religion as well as a body of classic texts. This Onda uses the classics and common health practices. Priestly rites and initiations belong to Daoist communities and are not imitated here.
 
@@ -71,7 +71,7 @@ Marked `unverified` (1):
 
 ## Tibetan Buddhism
 
-File: `content/ondas/tibet.json` · version 2 · about 3800 words · 32 words of vocabulary, 30 journal prompts, 14 history entries, 10 concepts, 6 sources.
+File: `content/ondas/tibet.json` · version 2 · about 4000 words · 32 words of vocabulary, 30 journal prompts, 14 history entries, 10 concepts, 6 sources.
 
 **Needs review by tradition bearers before launch.** Tibetan Buddhism is a living tradition whose people have been in exile since 1959. This Onda uses only practices that Tibetan teachers offer publicly: tonglen, the compassion mantra and the mind-training slogans. Practice as a guest, and learn from Tibetan teachers where you can.
 
@@ -87,7 +87,7 @@ Nothing is marked `unverified`.
 
 ## Vedanta
 
-File: `content/ondas/vedanta.json` · version 2 · about 3600 words · 32 words of vocabulary, 30 journal prompts, 13 history entries, 10 concepts, 6 sources.
+File: `content/ondas/vedanta.json` · version 2 · about 3800 words · 32 words of vocabulary, 30 journal prompts, 13 history entries, 10 concepts, 6 sources.
 
 Framing note shown in the app: Vedānta is part of living Hindu tradition and is normally learned from a teacher within a lineage. This Onda introduces its texts and its most widely taught practices.
 
@@ -96,7 +96,7 @@ Nothing is marked `unverified`.
 
 ## Jungian Individuation
 
-File: `content/ondas/jung.json` · version 2 · about 4200 words · 32 words of vocabulary, 30 journal prompts, 15 history entries, 10 concepts, 6 sources.
+File: `content/ondas/jung.json` · version 2 · about 4400 words · 32 words of vocabulary, 30 journal prompts, 15 history entries, 10 concepts, 6 sources.
 
 Framing note shown in the app: This Onda is self-observation, not psychotherapy. Jung’s methods can bring up strong material.
 
@@ -106,7 +106,7 @@ Marked `unverified` (1):
 
 ## Native American Animism
 
-File: `content/ondas/animism.json` · version 2 · about 4500 words · 32 words of vocabulary, 30 journal prompts, 16 history entries, 10 concepts, 7 sources.
+File: `content/ondas/animism.json` · version 2 · about 4600 words · 32 words of vocabulary, 30 journal prompts, 16 history entries, 10 concepts, 7 sources.
 
 **Needs review by tradition bearers before launch.** There is no single Native American tradition. This Onda draws only on what Native authors and nations have shared publicly, names the nation each idea comes from, and includes no ceremonies. You are a guest: give thanks in your own words, learn whose land you are on, and give something back.
 
@@ -127,7 +127,7 @@ Marked `unverified` (4):
 
 ## Ubuntu
 
-File: `content/ondas/ubuntu.json` · version 2 · about 3900 words · 32 words of vocabulary, 30 journal prompts, 14 history entries, 10 concepts, 7 sources.
+File: `content/ondas/ubuntu.json` · version 2 · about 4100 words · 32 words of vocabulary, 30 journal prompts, 14 history entries, 10 concepts, 7 sources.
 
 **Needs review by tradition bearers before launch.** Ubuntu is a living ethic of the peoples of southern Africa, not a brand or a technique. This Onda keeps to its everyday practice, greeting, visiting, sharing food and serving, and draws on African authors.
 
@@ -145,7 +145,7 @@ Marked `unverified` (2):
 
 ## Sufism
 
-File: `content/ondas/sufi.json` · version 2 · about 4100 words · 32 words of vocabulary, 30 journal prompts, 14 history entries, 10 concepts, 7 sources.
+File: `content/ondas/sufi.json` · version 2 · about 4300 words · 32 words of vocabulary, 30 journal prompts, 14 history entries, 10 concepts, 7 sources.
 
 **Needs review by tradition bearers before launch.** Sufism is the contemplative heart of Islam and a living tradition of practising Muslims. This Onda offers remembrance, poetry, listening and night stillness in a form open to anyone, and does not reproduce the rituals of any order.
 
@@ -161,14 +161,14 @@ Nothing is marked `unverified`.
 
 ## Transcendentalism
 
-File: `content/ondas/transc.json` · version 2 · about 4000 words · 32 words of vocabulary, 30 journal prompts, 14 history entries, 10 concepts, 7 sources.
+File: `content/ondas/transc.json` · version 2 · about 4100 words · 32 words of vocabulary, 30 journal prompts, 14 history entries, 10 concepts, 7 sources.
 
 Nothing is marked `unverified`.
 
 
 ## Soviet Union
 
-File: `content/ondas/soviet.json` · version 1 · about 5200 words · 32 words of vocabulary, 30 journal prompts, 12 history entries, 10 concepts, 7 sources.
+File: `content/ondas/soviet.json` · version 1 · about 5400 words · 32 words of vocabulary, 30 journal prompts, 12 history entries, 10 concepts, 7 sources.
 
 **Needs review by tradition bearers before launch.** The Soviet Union was a one-party state responsible for mass repression, famine and war crimes, and also home to great art, science and ordinary kindness. This Onda explores the culture, ideas and daily habits of its people. It does not endorse the regime or its successors.
 
@@ -185,7 +185,7 @@ Marked `unverified` (1):
 
 ## Yoruba
 
-File: `content/ondas/yoruba.json` · version 1 · about 4500 words · 35 words of vocabulary, 30 journal prompts, 11 history entries, 10 concepts, 6 sources.
+File: `content/ondas/yoruba.json` · version 1 · about 4600 words · 35 words of vocabulary, 30 journal prompts, 11 history entries, 10 concepts, 6 sources.
 
 **Needs review by tradition bearers before launch.** Yoruba religion and culture are living traditions practised by tens of millions of people in Nigeria and across the diaspora. This Onda offers greetings, proverbs, ethics and listening in a form open to anyone. It does not teach the rites of initiates.
 
@@ -213,7 +213,7 @@ Marked `unverified` (12):
 
 ## Aztec
 
-File: `content/ondas/aztec.json` · version 1 · about 4500 words · 33 words of vocabulary, 30 journal prompts, 13 history entries, 10 concepts, 7 sources.
+File: `content/ondas/aztec.json` · version 1 · about 4700 words · 33 words of vocabulary, 30 journal prompts, 13 history entries, 10 concepts, 7 sources.
 
 **Needs review by tradition bearers before launch.** The Mexica and other Nahua peoples built a great civilisation, and their descendants live today. This Onda offers gratitude, poetry and reflection inspired by Nahua thought. It does not reproduce ceremonies, and it treats the sacrificial side of Mexica religion as part of an honest history.
 
@@ -250,7 +250,7 @@ Marked `unverified` (21):
 
 ## Ancient Egypt
 
-File: `content/ondas/egypt.json` · version 1 · about 4800 words · 33 words of vocabulary, 30 journal prompts, 13 history entries, 10 concepts, 6 sources.
+File: `content/ondas/egypt.json` · version 1 · about 4900 words · 33 words of vocabulary, 30 journal prompts, 13 history entries, 10 concepts, 6 sources.
 
 Framing note shown in the app: Ancient Egyptian religion is no longer practised as a continuous tradition, though some modern groups reconstruct it. This Onda borrows ethical ideas, habits of attention and cultural material, and does not ask you to worship its gods. Vowels in Egyptian words are conventional, since the script did not record them.
 
@@ -270,7 +270,7 @@ Marked `unverified` (11):
 
 ## Hermeticism
 
-File: `content/ondas/hermes.json` · version 1 · about 4500 words · 33 words of vocabulary, 30 journal prompts, 14 history entries, 10 concepts, 6 sources.
+File: `content/ondas/hermes.json` · version 1 · about 4600 words · 33 words of vocabulary, 30 journal prompts, 14 history entries, 10 concepts, 6 sources.
 
 Framing note shown in the app: Hermeticism includes ancient philosophy, Renaissance learning, historical alchemy and modern esoteric movements. This Onda draws on the first two and treats alchemy as symbol and history. It offers habits of attention and does not ask you to practise ritual magic or handle chemicals.
 
@@ -287,7 +287,7 @@ Marked `unverified` (8):
 
 ## Gnosticism
 
-File: `content/ondas/gnostic.json` · version 1 · about 4700 words · 32 words of vocabulary, 30 journal prompts, 12 history entries, 10 concepts, 7 sources.
+File: `content/ondas/gnostic.json` · version 1 · about 4800 words · 32 words of vocabulary, 30 journal prompts, 12 history entries, 10 concepts, 7 sources.
 
 **Needs review by tradition bearers before launch.** Gnosticism is a modern umbrella term for diverse ancient movements, and the Mandaeans are a living gnostic community. This Onda offers questions, images and attention in a form open to anyone. It does not reproduce the rites of any group.
 

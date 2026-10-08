@@ -401,38 +401,38 @@
     {
       "id": "task-read-a-chapter-of-the-way-of-the-bodhisattva",
       "name": "Read a chapter of The Way of the Bodhisattva",
-      "meta": "Read · 15 min",
+      "meta": "Read · compassion as training",
       "time": "12:30",
       "slot": "Afternoon",
       "action": "read"
     },
     {
-      "id": "task-watch-the-cup",
-      "name": "Watch The Cup",
-      "meta": "Watch",
+      "id": "task-watch-the-cup-young-monks-and-a-world-cup-final",
+      "name": "Watch The Cup: young monks and a World Cup final",
+      "meta": "Watch · funnier than you expect",
       "time": "20:00",
       "slot": "Evening",
       "action": "watch"
     },
     {
-      "id": "task-journal-whose-suffering-did-you-notice-today",
-      "name": "Journal: whose suffering did you notice today?",
+      "id": "task-journal-whose-suffering-did-you-notice-today-and-what-did-you-do",
+      "name": "Journal: whose suffering did you notice today, and what did you do?",
       "meta": "Journal · 10 min",
       "time": "21:15",
       "slot": "Evening",
       "action": "journal"
     },
     {
-      "id": "task-write-what-emptiness-means-to-you-in-three-sentences",
-      "name": "Write what “emptiness” means to you in three sentences",
+      "id": "task-explain-emptiness-in-three-sentences-then-doubt-them",
+      "name": "Explain emptiness in three sentences, then doubt them",
       "meta": "Philosophy · 10 min",
       "time": "19:30",
       "slot": "Evening",
       "action": "philosophy"
     },
     {
-      "id": "task-drink-a-cup-of-tea-in-silence-and-dedicate-it",
-      "name": "Drink a cup of tea in silence and dedicate it",
+      "id": "task-drink-a-cup-of-tea-in-silence-and-dedicate-it-to-someone",
+      "name": "Drink a cup of tea in silence and dedicate it to someone",
       "meta": "Drink · 10 min",
       "time": "15:30",
       "slot": "Afternoon",
@@ -442,33 +442,33 @@
   "rules": [
     {
       "id": "r1",
-      "text": "Begin the day by setting a kind intention",
+      "text": "Open the day by choosing your motivation",
       "why": "The Dalai Lama describes starting each morning by shaping his motivation. What you intend at the start colours everything after."
     },
     {
       "id": "r2",
-      "text": "Do not speak ill of anyone",
-      "why": "A lojong slogan: do not talk about injured limbs. Dwelling on others’ faults strengthens your own."
+      "text": "Speak ill of no one",
+      "why": "A lojong slogan advises: do not talk about injured limbs. Dwelling on other people’s faults strengthens your own."
     },
     {
       "id": "r3",
-      "text": "Offer something small each day",
-      "why": "Water, light, food, time. Generosity is the first of the six perfections."
+      "text": "Offer something small every day",
+      "why": "Water, light, food, time. Generosity is the first of the six perfections, and it starts small."
     },
     {
       "id": "r4",
-      "text": "End the day by dedicating the good",
-      "why": "So that the day’s practice is for everyone and not a private achievement."
+      "text": "Close the day by dedicating the good",
+      "why": "So that the day’s practice belongs to everyone, not to a private scoreboard."
     },
     {
       "id": "r5",
-      "text": "Do not attempt practices that need empowerment",
-      "why": "Deity yoga and other tantric methods are given by a qualified teacher within a relationship. They are not part of this Onda."
+      "text": "Leave empowerment practices to a teacher",
+      "why": "Deity yoga and other tantric methods are given by a qualified teacher within a relationship. They are not part of this Onda, and they are not a do-it-yourself project."
     },
     {
       "id": "r6",
-      "text": "Handle sacred objects with respect",
-      "why": "Keep texts and images off the floor, and do not step over them."
+      "text": "Treat sacred objects with respect",
+      "why": "Keep texts and images off the floor and do not step over them. It is a small habit that shows how much a thing can mean to someone else."
     }
   ],
   "immerse": {

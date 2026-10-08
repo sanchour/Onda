@@ -399,41 +399,41 @@
       "slot": "Evening"
     },
     {
-      "id": "task-read-ten-pages-of-zen-mind-beginner-s-mind",
-      "name": "Read ten pages of Zen Mind, Beginner’s Mind",
-      "meta": "Read · 15 min",
+      "id": "task-read-ten-pages-of-zen-mind-beginner-s-mind-slowly",
+      "name": "Read ten pages of Zen Mind, Beginner’s Mind, slowly",
+      "meta": "Read · Suzuki, pen close by",
       "time": "12:30",
       "slot": "Afternoon",
       "action": "read"
     },
     {
-      "id": "task-listen-to-the-heart-sutra-chant",
-      "name": "Listen to the Heart Sutra chant",
-      "meta": "Listen",
+      "id": "task-let-the-heart-sutra-chant-play-while-you-tidy",
+      "name": "Let the Heart Sutra chant play while you tidy",
+      "meta": "Listen · let it wash over you",
       "time": "16:30",
       "slot": "Afternoon",
       "action": "listen"
     },
     {
-      "id": "task-journal-where-were-you-fully-present-today",
-      "name": "Journal: where were you fully present today?",
+      "id": "task-journal-three-moments-you-were-truly-here",
+      "name": "Journal: three moments you were truly here",
       "meta": "Journal · 10 min",
       "time": "21:15",
       "slot": "Evening",
       "action": "journal"
     },
     {
-      "id": "task-write-about-just-this-in-your-own-words",
-      "name": "Write about “Just this” in your own words",
+      "id": "task-explain-just-this-to-a-friend-who-hates-meditation",
+      "name": "Explain “Just this” to a friend who hates meditation",
       "meta": "Philosophy · 10 min",
       "time": "19:30",
       "slot": "Evening",
       "action": "philosophy"
     },
     {
-      "id": "task-drink-a-bowl-of-matcha-without-a-screen",
-      "name": "Drink a bowl of matcha without a screen",
-      "meta": "Drink · 10 min",
+      "id": "task-whisk-a-bowl-of-matcha-and-give-it-your-whole-attention",
+      "name": "Whisk a bowl of matcha and give it your whole attention",
+      "meta": "Drink · 10 min · no screen",
       "time": "15:30",
       "slot": "Afternoon",
       "action": "drink"
@@ -442,33 +442,33 @@
   "rules": [
     {
       "id": "r1",
-      "text": "Do one thing at a time",
-      "why": "When walking, walk. When eating, eat. Divided attention is the habit this Onda is here to interrupt."
+      "text": "One thing at a time. Really.",
+      "why": "Walk when you walk, eat when you eat. Divided attention is the habit this Onda exists to interrupt."
     },
     {
       "id": "r2",
-      "text": "No phone before zazen",
-      "why": "The first thing the mind meets sets its tone for the morning. Let it be silence."
+      "text": "Let silence open the day: no phone before you sit",
+      "why": "The first thing the mind meets sets its tone for the morning. Give it a few breaths of nothing before you give it the world."
     },
     {
       "id": "r3",
-      "text": "Eat in silence at one meal",
-      "why": "Silence lets a meal be a meal."
+      "text": "Hold one meal in silence",
+      "why": "Without chatter, a bowl of rice turns out to have flavour, weight and a whole history behind it."
     },
     {
       "id": "r4",
-      "text": "Leave every space cleaner than you found it",
-      "why": "Care for a place is care for everyone who comes after you."
+      "text": "Leave every room cleaner than you found it",
+      "why": "Care for a place is care for everyone who comes after you. In Zen training, cleaning is practice, not chore."
     },
     {
       "id": "r5",
-      "text": "Waste nothing",
-      "why": "A grain of rice, a sheet of paper, a minute. Dōgen had the cook treat one leaf of greens as the body of the Buddha."
+      "text": "Waste nothing: a grain, a page, a minute",
+      "why": "Dōgen had the cook treat a single leaf of greens as the body of the Buddha. If a leaf deserves that, so does your next minute."
     },
     {
       "id": "r6",
       "text": "Bow before you begin",
-      "why": "A small pause of respect, to the cushion, the meal, the work, marks it as practice."
+      "why": "A small pause of respect, to the cushion, the meal or the work, marks it as practice and not just activity."
     }
   ],
   "immerse": {

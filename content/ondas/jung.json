@@ -404,38 +404,38 @@
     {
       "id": "task-read-a-chapter-of-memories-dreams-reflections",
       "name": "Read a chapter of Memories, Dreams, Reflections",
-      "meta": "Read · 20 min",
+      "meta": "Read · Jung’s late, strange autobiography",
       "time": "12:00",
       "slot": "Afternoon",
       "action": "read"
     },
     {
-      "id": "task-watch-face-to-face-carl-gustav-jung",
-      "name": "Watch Face to Face: Carl Gustav Jung",
-      "meta": "Watch",
+      "id": "task-watch-carl-jung-s-face-to-face-interview",
+      "name": "Watch Carl Jung’s Face to Face interview",
+      "meta": "Watch · the man himself",
       "time": "19:00",
       "slot": "Evening",
       "action": "watch"
     },
     {
-      "id": "task-journal-write-down-last-night-s-dream",
-      "name": "Journal: write down last night’s dream",
+      "id": "task-journal-catch-last-night-s-dream-before-it-escapes",
+      "name": "Journal: catch last night’s dream before it escapes",
       "meta": "Journal · 10 min",
       "time": "08:00",
       "slot": "Morning",
       "action": "journal"
     },
     {
-      "id": "task-write-about-the-unconscious-is-not-empty",
-      "name": "Write about “The unconscious is not empty”",
+      "id": "task-write-about-the-unconscious-is-not-empty-what-might-yours-be-saying",
+      "name": "Write about “The unconscious is not empty”: what might yours be saying?",
       "meta": "Philosophy · 10 min",
       "time": "19:30",
       "slot": "Evening",
       "action": "philosophy"
     },
     {
-      "id": "task-look-at-pages-from-the-red-book-illuminations",
-      "name": "Look at pages from the Red Book illuminations",
+      "id": "task-spend-ten-minutes-with-one-red-book-image-describe-it-do-not-explain-it",
+      "name": "Spend ten minutes with one Red Book image: describe it, do not explain it",
       "meta": "Art · 10 min",
       "time": "16:30",
       "slot": "Afternoon",
@@ -445,22 +445,22 @@
   "rules": [
     {
       "id": "r1",
-      "text": "Write dreams before anything else",
+      "text": "Write the dream before you do anything else",
       "why": "Dreams fade within minutes of moving and speaking. The notebook comes before the phone."
     },
     {
       "id": "r2",
-      "text": "Do not judge an image. Describe it.",
-      "why": "Interpretation too early kills the symbol. Stay with what it looks like and what it does."
+      "text": "Describe the image; do not judge it",
+      "why": "Interpretation too early kills the symbol. Stay with what it looks like and what it does, the way you would with a stranger."
     },
     {
       "id": "r3",
       "text": "Name one projection a day",
-      "why": "A strong reaction to another person is information about you first."
+      "why": "A strong reaction to another person is information about you first. Who got under your skin, and what were they carrying for you?"
     },
     {
       "id": "r4",
-      "text": "No scrolling for an hour before sleep",
+      "text": "Leave the last hour before sleep unscrolled",
       "why": "Give the night something of your own to work on."
     },
     {
@@ -470,8 +470,8 @@
     },
     {
       "id": "r6",
-      "text": "Do something physical after inner work",
-      "why": "Wash up, walk, chop vegetables. Jung insisted on a firm footing in ordinary life."
+      "text": "Follow inner work with something physical",
+      "why": "Wash up, walk, chop vegetables. Jung insisted on a firm footing in ordinary life, and so should you."
     }
   ],
   "immerse": {

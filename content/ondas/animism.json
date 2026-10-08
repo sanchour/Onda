@@ -408,40 +408,40 @@
       "slot": "Evening"
     },
     {
-      "id": "task-read-a-chapter-of-braiding-sweetgrass",
-      "name": "Read a chapter of Braiding Sweetgrass",
-      "meta": "Read · 20 min",
+      "id": "task-read-a-chapter-of-braiding-sweetgrass-with-a-plant-nearby",
+      "name": "Read a chapter of Braiding Sweetgrass with a plant nearby",
+      "meta": "Read · Robin Wall Kimmerer",
       "time": "12:30",
       "slot": "Afternoon",
       "action": "read"
     },
     {
-      "id": "task-listen-to-canyon-trilogy",
-      "name": "Listen to Canyon Trilogy",
-      "meta": "Listen",
+      "id": "task-listen-to-canyon-trilogy-eyes-closed",
+      "name": "Listen to Canyon Trilogy, eyes closed",
+      "meta": "Listen · Native flute",
       "time": "17:00",
       "slot": "Afternoon",
       "action": "listen"
     },
     {
-      "id": "task-journal-what-did-you-take-and-what-did-you-give-back",
-      "name": "Journal: what did you take, and what did you give back?",
+      "id": "task-journal-what-did-you-take-today-and-what-did-you-give-back",
+      "name": "Journal: what did you take today, and what did you give back?",
       "meta": "Journal · 10 min",
       "time": "21:15",
       "slot": "Evening",
       "action": "journal"
     },
     {
-      "id": "task-write-about-everything-is-alive-and-related",
-      "name": "Write about “Everything is alive and related”",
+      "id": "task-write-about-everything-is-alive-and-related-using-one-real-neighbour-a-tree-a-river-a-crow",
+      "name": "Write about “Everything is alive and related” using one real neighbour: a tree, a river, a crow",
       "meta": "Philosophy · 10 min",
       "time": "19:30",
       "slot": "Evening",
       "action": "philosophy"
     },
     {
-      "id": "task-offer-thanks-before-eating-one-meal",
-      "name": "Offer thanks before eating one meal",
+      "id": "task-thank-your-food-aloud-before-one-meal",
+      "name": "Thank your food aloud before one meal",
       "meta": "Customs · 2 min",
       "time": "13:00",
       "slot": "Afternoon",
@@ -452,12 +452,12 @@
     {
       "id": "r1",
       "text": "Take only what you need",
-      "why": "The first rule of what Kimmerer calls the Honorable Harvest, a set of principles shared in different forms by many peoples."
+      "why": "The first rule of what Kimmerer calls the Honorable Harvest, a set of principles shared in different forms by many peoples. Pick one thing today and take less of it."
     },
     {
       "id": "r2",
       "text": "Say thank you aloud to what feeds you",
-      "why": "Speaking it makes the relationship real to you."
+      "why": "Speaking it makes the relationship real to you, and a spoken thanks is hard to fake."
     },
     {
       "id": "r3",
@@ -477,7 +477,7 @@
     {
       "id": "r6",
       "text": "Give before you take",
-      "why": "Reciprocity: leave a place better, and support Native communities with more than interest."
+      "why": "Reciprocity: leave a place better than you found it, and support Native communities with more than interest."
     }
   ],
   "immerse": {

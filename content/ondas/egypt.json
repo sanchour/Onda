@@ -419,9 +419,9 @@
       "slot": "Evening"
     },
     {
-      "id": "task-read-a-hymn-from-ancient-egyptian-literature",
-      "name": "Read a hymn from Ancient Egyptian Literature",
-      "meta": "Read · 15 min",
+      "id": "task-read-a-hymn-or-a-story-from-ancient-egyptian-literature",
+      "name": "Read a hymn or a story from Ancient Egyptian Literature",
+      "meta": "Read · the oldest voices",
       "time": "12:30",
       "slot": "Afternoon",
       "action": "read"
@@ -429,14 +429,14 @@
     {
       "id": "task-watch-egypt-s-golden-empire",
       "name": "Watch Egypt’s Golden Empire",
-      "meta": "Watch",
+      "meta": "Watch · the New Kingdom",
       "time": "20:00",
       "slot": "Evening",
       "action": "watch"
     },
     {
-      "id": "task-journal-what-was-true-today",
-      "name": "Journal: what was true today?",
+      "id": "task-journal-what-was-true-today-even-the-small-things",
+      "name": "Journal: what was true today, even the small things?",
       "meta": "Journal · 10 min",
       "time": "21:15",
       "slot": "Evening",
@@ -451,8 +451,8 @@
       "action": "philosophy"
     },
     {
-      "id": "task-drink-a-cup-of-karkade",
-      "name": "Drink a cup of karkade",
+      "id": "task-drink-a-cup-of-karkade-hibiscus-tea",
+      "name": "Drink a cup of karkade, hibiscus tea",
       "meta": "Drink · 10 min",
       "time": "15:30",
       "slot": "Afternoon",
@@ -468,7 +468,7 @@
     {
       "id": "r2",
       "text": "Do not take what is not yours",
-      "why": "The scribes taught that moving a boundary stone or falsifying a weight was among the gravest offences. Be exact in what you claim."
+      "why": "The scribes taught that moving a boundary stone or falsifying a weight was among the gravest offences. Be exact about what is yours."
     },
     {
       "id": "r3",
@@ -478,7 +478,7 @@
     {
       "id": "r4",
       "text": "Do not cause weeping",
-      "why": "The declaration of innocence includes \"I have not made anyone weep\". Notice who might be hurt by what you do."
+      "why": "The declaration of innocence includes “I have not made anyone weep”. Notice who might be hurt by what you do."
     },
     {
       "id": "r5",
@@ -488,7 +488,7 @@
     {
       "id": "r6",
       "text": "Be exact",
-      "why": "Egyptian scribes valued precision. Measure, count and write carefully."
+      "why": "Egyptian scribes valued precision. Measure, count and write carefully, and let the small numbers be right."
     }
   ],
   "immerse": {

@@ -409,40 +409,40 @@
       "slot": "Evening"
     },
     {
-      "id": "task-read-a-chapter-of-the-upani-ads",
-      "name": "Read a chapter of the Upaniṣads",
-      "meta": "Read · 15 min",
+      "id": "task-read-a-chapter-of-the-upani-ads-and-carry-one-line-all-day",
+      "name": "Read a chapter of the Upaniṣads and carry one line all day",
+      "meta": "Read · short and deep",
       "time": "12:30",
       "slot": "Afternoon",
       "action": "read"
     },
     {
-      "id": "task-listen-to-bhaja-govindam",
-      "name": "Listen to Bhaja Govindam",
-      "meta": "Listen",
+      "id": "task-listen-to-bhaja-govindam-a-song-attributed-to-a-kara",
+      "name": "Listen to Bhaja Govindam, a song attributed to Śaṅkara",
+      "meta": "Listen · sung wisdom",
       "time": "16:30",
       "slot": "Afternoon",
       "action": "listen"
     },
     {
-      "id": "task-journal-what-did-you-take-yourself-to-be-today",
-      "name": "Journal: what did you take yourself to be today?",
+      "id": "task-journal-what-did-you-take-yourself-to-be-today-body-role-mind",
+      "name": "Journal: what did you take yourself to be today: body, role, mind?",
       "meta": "Journal · 10 min",
       "time": "21:15",
       "slot": "Evening",
       "action": "journal"
     },
     {
-      "id": "task-write-on-tman-is-brahman-what-would-change-if-it-were-true",
-      "name": "Write on “Ātman is Brahman”: what would change if it were true?",
+      "id": "task-write-on-tman-is-brahman-what-changes-if-you-believe-it",
+      "name": "Write on “Ātman is Brahman”: what changes if you believe it?",
       "meta": "Philosophy · 10 min",
       "time": "19:30",
       "slot": "Evening",
       "action": "philosophy"
     },
     {
-      "id": "task-eat-a-simple-bowl-of-khichdi",
-      "name": "Eat a simple bowl of khichdi",
+      "id": "task-eat-a-plain-bowl-of-khichdi-and-taste-each-thing-in-it",
+      "name": "Eat a plain bowl of khichdi and taste each thing in it",
       "meta": "Eat · 15 min",
       "time": "13:00",
       "slot": "Afternoon",
@@ -452,33 +452,33 @@
   "rules": [
     {
       "id": "r1",
-      "text": "Begin the day with silence",
-      "why": "The hour and a half before sunrise is called brahma muhūrta, the time of Brahman, when the mind is naturally quiet."
+      "text": "Begin in silence",
+      "why": "The hour and a half before sunrise is called brahma muhūrta, the time of Brahman, when the mind is held to be naturally quiet. Even five minutes of it counts."
     },
     {
       "id": "r2",
-      "text": "Act without chasing the result",
-      "why": "Gītā 2.47. Do the work completely and hand over the outcome."
+      "text": "Do the work, release the result",
+      "why": "Gītā 2.47: you have a claim on the action, not on its fruits. Give the task everything, then hand the outcome back."
     },
     {
       "id": "r3",
-      "text": "Eat simple, vegetarian food",
-      "why": "A sattvic diet, fresh, light and non-violent, is held to keep the mind clear. Follow it as far as your health allows."
+      "text": "Eat simple, light, vegetarian food",
+      "why": "A sattvic diet, fresh, light and non-violent, is held to keep the mind clear. Follow it as far as your health allows, and without making a show of it."
     },
     {
       "id": "r4",
-      "text": "Do one act of service, unnoticed",
-      "why": "Service thins the sense of a separate doer."
+      "text": "Do one act of service that no one sees",
+      "why": "Service thins the sense of being a separate doer. Better still if there is no thank-you."
     },
     {
       "id": "r5",
-      "text": "Speak what is true and pleasant",
-      "why": "Gītā 17.15: speech that causes no distress, that is truthful, agreeable and beneficial."
+      "text": "Speak what is true and kind",
+      "why": "Gītā 17.15 calls good speech truthful, agreeable and beneficial, and speech that causes no distress."
     },
     {
       "id": "r6",
-      "text": "Ask who is upset",
-      "why": "When disturbed, turn from the cause to the one who is disturbed."
+      "text": "When you are upset, ask who is upset",
+      "why": "Turn from the cause to the one who is disturbed. It is the shortest self-inquiry there is."
     }
   ],
   "immerse": {

@@ -915,3 +915,21 @@ Caveats shown in the app:
 - Much classic writing on the region is by foreign anthropologists. Read Melanesian authors alongside them. The future of West Papua, Bougainville and New Caledonia is contested and unresolved.
 
 Nothing is marked `unverified`.
+
+
+## Micronesian
+
+File: `content/ondas/micronesia.json` · version 1 · about 5300 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
+
+**Needs review by tradition bearers before launch.** Micronesia is a label that outsiders gave to many distinct peoples. This Onda was written from published sources, names the language and island each word comes from, and should be reviewed by Micronesian readers.
+
+Caveats shown in the app:
+
+- Navigation is sacred knowledge in the Carolines, passed on through initiation. The practice here borrows only the idea of finding your way with attention, not the teaching itself.
+- Customs differ from island to island. What holds on Yap may be unknown on Guam or in Kiribati.
+- Nuclear testing, displacement and the rising sea are present realities for these communities, not history.
+- Spellings and pronunciations follow common English-language sources and are approximate.
+
+Marked `unverified` (1):
+
+- Quote: "To navigate you must be brave, and to be brave you must remember." (Attributed to Mau Piailug; The master navigator of Satawal, as his teaching is often summed up by his students)

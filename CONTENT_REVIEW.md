@@ -761,3 +761,21 @@ Caveats shown in the app:
 - The culture described here belongs to the living peoples of India, Pakistan, Bangladesh and Afghanistan. Enjoy it as a guest.
 
 Nothing is marked `unverified`.
+
+
+## Johor Sultanate
+
+File: `content/ondas/johor.json` · version 1 · about 5600 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
+
+**Needs review by tradition bearers before launch.** The Johor Sultanate is a living monarchy and Malay culture is a living culture, shared across Malaysia, Singapore, Indonesia and Brunei. This Onda borrows everyday courtesies and verse forms. It is written by outsiders and should be checked by Malay readers.
+
+Caveats shown in the app:
+
+- The sultan and the royal house are held in deep respect in Johor. Speak of them accordingly.
+- Malay custom is closely tied to Islam. The practices here are the social ones. They are not a substitute for the faith, and they do not require it.
+- The old order rested on rank, and on debt bondage and slavery, which the sea people and others bore. Loyalty was not always freely given.
+- Malays, Bugis, Orang Laut and the Chinese and Indian communities of Johor each have their own account of this history.
+
+Marked `unverified` (1):
+
+- Quote: "Never shall the Malays vanish from the earth." (Attributed to Hang Tuah; Takkan Melayu hilang di dunia. A traditional saying given to the legendary admiral of Malacca)

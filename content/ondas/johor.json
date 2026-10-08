@@ -1,0 +1,1254 @@
+{
+  "version": 1,
+  "id": "johor",
+  "name": "Johor Sultanate",
+  "origin": "The Malay world",
+  "era": "From 1528 to today",
+  "tone": "green",
+  "icon": "anchor",
+  "font": "harmattan",
+  "pattern": "songket-diamonds",
+  "glyph": "جوهر",
+  "line": "Speak gently, honour custom, repay kindness and work alongside your neighbours.",
+  "quote": {
+    "text": "Golden bananas carried on a voyage, one ripens on top of the chest. A debt of gold can be repaid; a debt of kindness is carried to the grave.",
+    "by": "Malay pantun",
+    "source": "Traditional. Pisang emas dibawa belayar, masak sebiji di atas peti; hutang emas boleh dibayar, hutang budi dibawa mati"
+  },
+  "quotes": [
+    {
+      "text": "If you wish to know a person of good breeding, look to their conduct and their speech.",
+      "by": "Raja Ali Haji",
+      "source": "Gurindam Dua Belas, the Twelve Gurindam, fifth section, written on Penyengat Island in 1847. Translated from the Malay"
+    },
+    {
+      "text": "When the tongue is guarded, benefit will surely come of it.",
+      "by": "Raja Ali Haji",
+      "source": "Gurindam Dua Belas, third section, 1847. Translated from the Malay"
+    },
+    {
+      "text": "Where you set your foot on the earth, there you hold up the sky.",
+      "by": "Malay proverb",
+      "source": "Di mana bumi dipijak, di situ langit dijunjung. Follow the custom of the place you are in"
+    },
+    {
+      "text": "Let the child die, but not the custom.",
+      "by": "Malay proverb",
+      "source": "Biar mati anak, jangan mati adat. A hard saying about how much the old order was thought to matter"
+    },
+    {
+      "text": "A just king is a king obeyed. A cruel king is a king defied.",
+      "by": "Malay saying",
+      "source": "Raja adil raja disembah, raja zalim raja disanggah. Linked in tradition with the story of Hang Jebat"
+    },
+    {
+      "text": "If the ruler puts a single one of his subjects to shame, that shall be a sign that his kingdom will be destroyed by Almighty God.",
+      "by": "The covenant of Sri Tri Buana and Demang Lebar Daun",
+      "source": "Sejarah Melayu, the Malay Annals, compiled at the Johor court in 1612, after the translation of C. C. Brown"
+    },
+    {
+      "text": "Never shall the Malays vanish from the earth.",
+      "by": "Attributed to Hang Tuah",
+      "source": "Takkan Melayu hilang di dunia. A traditional saying given to the legendary admiral of Malacca",
+      "unverified": true
+    }
+  ],
+  "words": [
+    {
+      "id": "word-adat",
+      "term": "Adat",
+      "meaning": "Custom; the right way of doing things",
+      "pronunciation": "AH-dat",
+      "language": "Malay, from Arabic",
+      "usage": "The inherited code that governs ceremony, inheritance, dress and manners. It sits beside religious law, and people say that custom rests on it."
+    },
+    {
+      "id": "word-budi",
+      "term": "Budi",
+      "meaning": "Kindness; good character; wisdom",
+      "pronunciation": "BOO-dee",
+      "language": "Malay, from Sanskrit",
+      "usage": "The quality most admired in a person. To do someone a kindness is to plant budi, and the debt can never be fully repaid."
+    },
+    {
+      "id": "word-budi-bahasa",
+      "term": "Budi bahasa",
+      "meaning": "Courtesy in conduct and speech",
+      "pronunciation": "BOO-dee ba-HA-sa",
+      "language": "Malay",
+      "usage": "Refined manners and gentle language together. The saying goes that language shows the people."
+    },
+    {
+      "id": "word-halus",
+      "term": "Halus",
+      "meaning": "Refined; fine; gentle",
+      "pronunciation": "HA-loos",
+      "language": "Malay",
+      "usage": "The ideal for speech, movement, weaving and feeling. Its opposite, kasar, is coarse."
+    },
+    {
+      "id": "word-malu",
+      "term": "Malu",
+      "meaning": "Shame; modesty; a sense of propriety",
+      "pronunciation": "MA-loo",
+      "language": "Malay",
+      "usage": "Knowing how to behave so as not to embarrass yourself or others. To make someone lose face is a grave offence."
+    },
+    {
+      "id": "word-maruah",
+      "term": "Maruah",
+      "meaning": "Dignity; honour",
+      "pronunciation": "ma-ROO-ah",
+      "language": "Malay, from Arabic",
+      "usage": "A person’s or a people’s self-respect, to be guarded and never trampled."
+    },
+    {
+      "id": "word-hormat",
+      "term": "Hormat",
+      "meaning": "Respect",
+      "pronunciation": "HOR-mat",
+      "language": "Malay, from Arabic",
+      "usage": "Shown to elders, teachers and rulers by words, posture and precedence."
+    },
+    {
+      "id": "word-muafakat",
+      "term": "Muafakat",
+      "meaning": "Agreement reached by discussion",
+      "pronunciation": "moo-AH-fa-kat",
+      "language": "Malay, from Arabic",
+      "usage": "Decisions are talked through until everyone can accept them. A proverb says that agreement brings blessing."
+    },
+    {
+      "id": "word-gotong-royong",
+      "term": "Gotong-royong",
+      "meaning": "Working together for the common good",
+      "pronunciation": "GO-tong ROH-yong",
+      "language": "Malay",
+      "usage": "Neighbours join to build a house, clear a drain or cook for a wedding, with no payment but food and the certainty of help in return."
+    },
+    {
+      "id": "word-kampung",
+      "term": "Kampung",
+      "meaning": "Village; home community",
+      "pronunciation": "KAM-pong",
+      "language": "Malay",
+      "usage": "Houses on stilts among fruit trees, each household known to the others. English took the word compound from it."
+    },
+    {
+      "id": "word-kenduri",
+      "term": "Kenduri",
+      "meaning": "A communal feast",
+      "pronunciation": "ken-DOO-ree",
+      "language": "Malay, from Persian",
+      "usage": "Given for weddings, births, thanksgiving and the dead. The whole village is invited and the whole village cooks."
+    },
+    {
+      "id": "word-daulat",
+      "term": "Daulat",
+      "meaning": "The sacred majesty of a ruler",
+      "pronunciation": "DOW-lat",
+      "language": "Malay, from Arabic",
+      "usage": "A mystical power believed to rest in the sultan. Subjects still greet him with the cry Daulat Tuanku."
+    },
+    {
+      "id": "word-derhaka",
+      "term": "Derhaka",
+      "meaning": "Treason against the ruler",
+      "pronunciation": "der-HA-ka",
+      "language": "Malay, from Sanskrit",
+      "usage": "The worst of crimes in the old order, believed to bring a curse on the offender."
+    },
+    {
+      "id": "word-setia",
+      "term": "Setia",
+      "meaning": "Loyalty",
+      "pronunciation": "se-TEE-a",
+      "language": "Malay, from Sanskrit",
+      "usage": "The first virtue of a subject. Hang Tuah is its model, to a degree that later generations questioned."
+    },
+    {
+      "id": "word-sultan",
+      "term": "Sultan",
+      "meaning": "The ruler",
+      "pronunciation": "SOOL-tan",
+      "language": "Malay, from Arabic",
+      "usage": "Head of state and of religion in his state. Johor’s sultans trace their authority back to Malacca."
+    },
+    {
+      "id": "word-bendahara",
+      "term": "Bendahara",
+      "meaning": "Chief minister",
+      "pronunciation": "ben-da-HA-ra",
+      "language": "Malay, from Sanskrit",
+      "usage": "The highest office under the sultan. In 1699 a Bendahara took the throne of Johor."
+    },
+    {
+      "id": "word-temenggong",
+      "term": "Temenggong",
+      "meaning": "Minister of security and justice",
+      "pronunciation": "te-MENG-gong",
+      "language": "Malay",
+      "usage": "The official in charge of police and the capital. The present royal house of Johor descends from the Temenggongs."
+    },
+    {
+      "id": "word-laksamana",
+      "term": "Laksamana",
+      "meaning": "Admiral",
+      "pronunciation": "lak-sa-MA-na",
+      "language": "Malay, from Sanskrit",
+      "usage": "Commander of the fleet, a great office in a kingdom that lived by the sea."
+    },
+    {
+      "id": "word-istana",
+      "term": "Istana",
+      "meaning": "Palace",
+      "pronunciation": "is-TA-na",
+      "language": "Malay",
+      "usage": "The ruler’s residence and the centre of ceremony."
+    },
+    {
+      "id": "word-orang-laut",
+      "term": "Orang Laut",
+      "meaning": "Sea people",
+      "pronunciation": "OH-rang LA-oot",
+      "language": "Malay",
+      "usage": "Boat-dwelling communities of the straits and islands, who served the sultans as pilots, rowers and fighters and were the kingdom’s strength at sea."
+    },
+    {
+      "id": "word-perahu",
+      "term": "Perahu",
+      "meaning": "Boat",
+      "pronunciation": "pe-RA-hoo",
+      "language": "Malay",
+      "usage": "The general word for the vessels on which the Malay world traded, fished and went to war."
+    },
+    {
+      "id": "word-merantau",
+      "term": "Merantau",
+      "meaning": "To leave home and seek one’s fortune",
+      "pronunciation": "me-RAN-tow",
+      "language": "Malay",
+      "usage": "Going abroad to trade, study or work, with the intention of returning with honour."
+    },
+    {
+      "id": "word-pantun",
+      "term": "Pantun",
+      "meaning": "A four-line verse",
+      "pronunciation": "PAN-toon",
+      "language": "Malay",
+      "usage": "The first two lines give an image from nature or daily life. The second two give the meaning. They rhyme alternately and are exchanged in courtship, at feasts and in argument."
+    },
+    {
+      "id": "word-gurindam",
+      "term": "Gurindam",
+      "meaning": "A two-line moral verse",
+      "pronunciation": "goo-RIN-dam",
+      "language": "Malay, from Tamil",
+      "usage": "The first line sets a condition and the second its result. Raja Ali Haji’s twelve sets are the best known."
+    },
+    {
+      "id": "word-hikayat",
+      "term": "Hikayat",
+      "meaning": "A prose tale or chronicle",
+      "pronunciation": "hee-KA-yat",
+      "language": "Malay, from Arabic",
+      "usage": "Romances and histories, read aloud from manuscripts to a listening circle."
+    },
+    {
+      "id": "word-jawi",
+      "term": "Jawi",
+      "meaning": "Malay written in Arabic script",
+      "pronunciation": "JA-wee",
+      "language": "Malay",
+      "usage": "The script of the old court, of letters between rulers and of every manuscript. Still used in Johor for religious and royal purposes."
+    },
+    {
+      "id": "word-keris",
+      "term": "Keris",
+      "meaning": "The dagger with a wavy or straight blade",
+      "pronunciation": "ke-REES",
+      "language": "Malay",
+      "usage": "A weapon, an heirloom and a mark of rank, forged with patterned steel and believed to have a character of its own."
+    },
+    {
+      "id": "word-songket",
+      "term": "Songket",
+      "meaning": "Silk or cotton brocaded with gold thread",
+      "pronunciation": "SONG-ket",
+      "language": "Malay",
+      "usage": "The cloth of ceremony, worn by rulers and by every bride and groom."
+    },
+    {
+      "id": "word-sirih",
+      "term": "Sirih",
+      "meaning": "Betel leaf",
+      "pronunciation": "SEE-reh",
+      "language": "Malay",
+      "usage": "Offered to a guest with lime, areca nut and gambier from a brass set. It opens every formal meeting and every marriage proposal."
+    },
+    {
+      "id": "word-zapin",
+      "term": "Zapin",
+      "meaning": "A dance of Arab origin",
+      "pronunciation": "ZA-pin",
+      "language": "Malay, from Arabic",
+      "usage": "Brought by traders from Hadhramaut and made Johor’s own, with quick neat footwork to lute and drums."
+    }
+  ],
+  "practices": [
+    {
+      "id": "budi-bahasa",
+      "name": "Gentle speech",
+      "icon": "hand-heart",
+      "slot": "Morning",
+      "time": "08:00",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Before you speak to anyone today, decide how you will speak. Greet each person first. Touch your hand lightly to your chest as you do it. Use their name or a term of respect. Keep your voice low and your words soft, especially when you disagree or must refuse. Say nothing that would make another person lose face in front of others. If you have to correct someone, do it alone and indirectly.",
+      "why": "Malay culture places budi bahasa, courtesy in speech and conduct, above cleverness. The court of Johor and Riau made refined language an art, and Raja Ali Haji wrote that good breeding is known by manners and words. To shame a person publicly was the one thing a ruler had sworn never to do.",
+      "variations": [
+        "Refuse one request today without using the word no.",
+        "Address every older person with a title.",
+        "Notice each time your voice rises, and lower it."
+      ]
+    },
+    {
+      "id": "pantun",
+      "name": "A pantun a day",
+      "icon": "feather",
+      "slot": "Morning",
+      "time": "10:00",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Write one pantun. It has four lines of eight to twelve syllables, rhyming first with third and second with fourth. Lines one and two are the shadow: an image from what is in front of you, a tree, a boat, the weather, food. Lines three and four are the meaning: the thing you want to say, about love, thanks, advice or a joke. The image should hint at the meaning without explaining it. Say it aloud to someone today.",
+      "why": "The pantun is the oldest and best loved form of Malay verse. People traded them at harvest, in courtship and at weddings, each speaker answering the last. Thousands survive, and the form travelled to France and England as the pantoum.",
+      "variations": [
+        "Answer someone else’s pantun with one of your own.",
+        "Learn the golden bananas pantun by heart.",
+        "Give thanks to someone in verse."
+      ]
+    },
+    {
+      "id": "gotong-royong",
+      "name": "Work with your neighbours",
+      "icon": "handshake",
+      "slot": "Afternoon",
+      "time": "16:30",
+      "minutes": 30,
+      "meta": "Afternoon · 30 min",
+      "instructions": "Give half an hour to a job that belongs to everyone or to someone else on your street. Sweep a shared stair, clear a drain, tidy a common garden, carry for an older neighbour, cook for a family with a new baby or a death. Ask others to join you. Bring food or drink to share when the work is done. Keep no account.",
+      "why": "Gotong-royong, carrying together, is how Malay villages built houses, planted rice and prepared feasts. A kenduri for a wedding might feed a thousand people, with every household sending hands, pots and firewood. The custom is still called on in Malaysia, Singapore and Indonesia for clean-ups and celebrations.",
+      "variations": [
+        "Organise a clean-up of one shared space this month.",
+        "Lend something before you are asked.",
+        "When someone near you is celebrating or grieving, turn up and find a job."
+      ]
+    },
+    {
+      "id": "eat-together",
+      "name": "Eat together, with the right hand",
+      "icon": "bowl-food",
+      "slot": "Evening",
+      "time": "19:00",
+      "minutes": 30,
+      "meta": "Evening · 30 min",
+      "instructions": "Share the evening meal. Set rice in the middle with a few dishes around it, and sit together, on a mat on the floor if you can. Wash your hands. Let the eldest begin. Take a little of each dish on to your rice and eat with the fingers of the right hand, or with a spoon. Serve others before taking more yourself. Leave the last piece for someone else. Talk quietly, and thank the cook.",
+      "why": "A Malay meal is one of rice with shared dishes, eaten with the right hand after washing from a spouted water vessel. Manners at the mat were part of a child’s first training: take what is nearest, do not reach across, wait for your elders.",
+      "variations": [
+        "Cook one Johor dish, such as laksa Johor.",
+        "Invite a neighbour to the mat.",
+        "Send a plate next door before you sit down."
+      ]
+    },
+    {
+      "id": "gurindam",
+      "name": "One couplet of the Gurindam",
+      "icon": "book-open-text",
+      "slot": "Evening",
+      "time": "21:00",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Read one couplet of Raja Ali Haji’s Twelve Gurindam, in Malay if you can and in translation if not. Read it twice, aloud. Then hold the day up to it. The third section alone will last a week: it speaks of guarding the eyes, the ears, the tongue, the hands, the stomach and the feet. Take the one for today and ask plainly how you did. Write one line.",
+      "why": "The Gurindam Dua Belas was written in 1847 on the island of Penyengat, seat of the Johor-Riau viceroys, by the greatest scholar of the Malay world. Its twelve sections of rhyming couplets cover faith, self-knowledge, family, friendship and the duties of rulers, and Malay schoolchildren still learn them.",
+      "variations": [
+        "Memorise one couplet a week.",
+        "Copy it out by hand, in Jawi if you are learning the script.",
+        "Write a gurindam of your own: if this, then that."
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task-read-the-covenant-between-ruler-and-people-in-the-malay-annals",
+      "name": "Read the covenant between ruler and people in the Malay Annals",
+      "meta": "Read · Sejarah Melayu, chapter 2",
+      "time": "20:00",
+      "slot": "Evening",
+      "action": "read"
+    },
+    {
+      "id": "task-listen-to-a-set-of-ghazal-johor",
+      "name": "Listen to a set of ghazal Johor",
+      "meta": "Listen · harmonium, gambus, violin and tabla",
+      "time": "17:30",
+      "slot": "Afternoon",
+      "action": "listen"
+    },
+    {
+      "id": "task-watch-hang-tuah-with-p-ramlee",
+      "name": "Watch Hang Tuah, with P. Ramlee",
+      "meta": "Watch · 1956, the first Malay film in colour",
+      "time": "20:30",
+      "slot": "Evening",
+      "action": "watch"
+    },
+    {
+      "id": "task-play-congkak",
+      "name": "Play congkak",
+      "meta": "Games · seven houses a side",
+      "time": "15:00",
+      "slot": "Afternoon",
+      "action": "games"
+    },
+    {
+      "id": "task-journal-whose-kindness-are-you-carrying-and-how-will-you-honour-it",
+      "name": "Journal: whose kindness are you carrying, and how will you honour it?",
+      "meta": "Journal · 10 min",
+      "time": "21:30",
+      "slot": "Evening",
+      "action": "journal"
+    },
+    {
+      "id": "task-loyalty-or-justice-was-hang-tuah-right-or-hang-jebat",
+      "name": "Loyalty or justice: was Hang Tuah right, or Hang Jebat?",
+      "meta": "Philosophy · 10 min",
+      "time": "09:00",
+      "slot": "Morning",
+      "action": "philosophy"
+    },
+    {
+      "id": "repay-one-kindness-today-knowing-it-cannot-be-repaid",
+      "name": "Repay one kindness today, knowing it cannot be repaid",
+      "meta": "A debt of budi",
+      "time": "11:30",
+      "slot": "Morning"
+    },
+    {
+      "id": "take-off-your-shoes-at-the-door-and-offer-every-visitor-a-drink",
+      "name": "Take off your shoes at the door and offer every visitor a drink",
+      "meta": "Welcome",
+      "time": "13:00",
+      "slot": "Afternoon"
+    },
+    {
+      "id": "follow-the-custom-of-the-place-you-are-in-even-where-it-is-not-yours",
+      "name": "Follow the custom of the place you are in, even where it is not yours",
+      "meta": "Where you tread, hold up the sky",
+      "time": "14:00",
+      "slot": "Afternoon"
+    }
+  ],
+  "rules": [
+    {
+      "id": "r1",
+      "text": "Speak softly",
+      "why": "Gentle words, low voice, no public shaming. Language shows the person."
+    },
+    {
+      "id": "r2",
+      "text": "Remember kindness",
+      "why": "A debt of budi is for life. Name it, honour it and pass it on."
+    },
+    {
+      "id": "r3",
+      "text": "Honour your elders and teachers",
+      "why": "Greet them first, give them precedence and listen before you speak."
+    },
+    {
+      "id": "r4",
+      "text": "Decide by agreement",
+      "why": "Talk a matter through until all can accept it. Do not force a result."
+    },
+    {
+      "id": "r5",
+      "text": "Do your share of the common work",
+      "why": "When neighbours labour, be there. When they feast or mourn, be there too."
+    },
+    {
+      "id": "r6",
+      "text": "Follow the custom of the land",
+      "why": "Wherever you stand, respect the ways of the people whose ground it is."
+    }
+  ],
+  "immerse": {
+    "read": [
+      {
+        "id": "read-sejarah-melayu-the-malay-annals",
+        "title": "Sejarah Melayu, the Malay Annals",
+        "creator": "Compiled by Tun Sri Lanang; trans. C. C. Brown, or John Leyden",
+        "year": "1612",
+        "why": "The founding work of Malay literature, put in order at the Johor court by its chief minister. It tells the rise and fall of Malacca in linked stories, witty and unsparing about rulers."
+      },
+      {
+        "id": "read-the-epic-of-hang-tuah",
+        "title": "The Epic of Hang Tuah",
+        "creator": "Anonymous, trans. Muhammad Haji Salleh",
+        "year": "about 1700",
+        "why": "The adventures of the perfect Malay warrior and servant, written in Johor. Its central episode, in which Tuah kills his rebel friend for the sultan, has been argued over ever since."
+      },
+      {
+        "id": "read-the-precious-gift",
+        "title": "The Precious Gift",
+        "creator": "Raja Ali Haji, trans. Virginia Matheson and Barbara Watson Andaya",
+        "year": "1866 to 1872",
+        "why": "The Tuhfat al-Nafis, a history of Johor-Riau and the Bugis by the scholar of Penyengat. The first Malay history to give dates and weigh its sources."
+      },
+      {
+        "id": "read-the-hikayat-abdullah",
+        "title": "The Hikayat Abdullah",
+        "creator": "Munshi Abdullah, trans. A. H. Hill",
+        "year": "1849",
+        "why": "The autobiography of a Malay teacher in Malacca and Singapore who knew Raffles and watched the old world give way. Sharp, modern and critical of rulers."
+      },
+      {
+        "id": "read-the-kingdom-of-johor-1641-to-1728",
+        "title": "The Kingdom of Johor, 1641 to 1728",
+        "creator": "Leonard Y. Andaya",
+        "year": "1975",
+        "why": "The classic study of the sultanate at its height and through the crisis of the regicide."
+      },
+      {
+        "id": "read-prince-of-pirates",
+        "title": "Prince of Pirates",
+        "creator": "Carl A. Trocki",
+        "year": "1979",
+        "why": "How the Temenggongs turned from lords of the sea people into rulers of a modern state built on gambier and pepper."
+      }
+    ],
+    "watch": [
+      {
+        "id": "watch-hang-tuah",
+        "title": "Hang Tuah",
+        "creator": "Phani Majumdar, with P. Ramlee",
+        "year": "1956",
+        "why": "The Shaw Brothers’ film of the legend, made in Singapore, with songs by its star. It ends with Tuah asking himself who was right."
+      },
+      {
+        "id": "watch-hang-jebat",
+        "title": "Hang Jebat",
+        "creator": "Hussain Haniff",
+        "year": "1961",
+        "why": "The same story from the rebel’s side. A dark, tightly made film that takes justice over loyalty."
+      },
+      {
+        "id": "watch-puteri-gunung-ledang",
+        "title": "Puteri Gunung Ledang",
+        "creator": "Saw Teong Hin",
+        "year": "2004",
+        "why": "The sultan of Malacca sends Hang Tuah to win a mountain princess, who sets seven impossible conditions. Lavish, and the legend belongs to Johor’s own Mount Ledang."
+      },
+      {
+        "id": "watch-bujang-lapok",
+        "title": "Bujang Lapok",
+        "creator": "P. Ramlee",
+        "year": "1957",
+        "why": "Three bachelors share lodgings in a Singapore kampung. The warmest picture of ordinary Malay neighbourhood life on film."
+      }
+    ],
+    "listen": [
+      {
+        "id": "listen-ghazal-johor",
+        "title": "Ghazal Johor",
+        "creator": "Groups such as Sri Maharani Ghazal of Muar",
+        "year": "from the late 19th century",
+        "why": "Sung Malay poetry over harmonium, gambus lute, violin, guitar and tabla. It came from India by way of the Riau court and was shaped in the houses of Johor’s nobility."
+      },
+      {
+        "id": "listen-zapin-music",
+        "title": "Zapin music",
+        "creator": "Zapin ensembles of Johor",
+        "year": "traditional",
+        "why": "Gambus, small hand drums and violin driving the dance. Lancang Kuning and Ya Salam are standards."
+      },
+      {
+        "id": "listen-songs-of-p-ramlee",
+        "title": "Songs of P. Ramlee",
+        "creator": "P. Ramlee",
+        "year": "1950s and 1960s",
+        "why": "The best loved Malay singer and composer. Getaran Jiwa is the one to begin with."
+      },
+      {
+        "id": "listen-dondang-sayang",
+        "title": "Dondang Sayang",
+        "creator": "Singers of Malacca",
+        "year": "traditional",
+        "why": "Two singers trade pantun over violin and drums, each trying to outdo the other in wit."
+      }
+    ],
+    "art": [
+      {
+        "id": "art-the-keris",
+        "title": "The keris",
+        "creator": "Malay and Javanese smiths",
+        "year": "from the 14th century",
+        "why": "A blade forged from layers of iron and nickel steel so that pale patterns appear in the metal, with a carved hilt and sheath. The state regalia of Johor include several."
+      },
+      {
+        "id": "art-songket",
+        "title": "Songket",
+        "creator": "Weavers of the Malay Peninsula and Riau",
+        "year": "from the 16th century",
+        "why": "Gold or silver thread is floated across a silk ground in bands of small repeated motifs: bamboo shoots, stars, cloves. Malaysia’s songket is on the UNESCO heritage list."
+      },
+      {
+        "id": "art-the-raffles-manuscript-of-the-malay-annals",
+        "title": "The Raffles manuscript of the Malay Annals",
+        "creator": "Malay scribes",
+        "year": "copied about 1812",
+        "why": "The oldest and best text of the Sejarah Melayu, in Jawi script, now in the Royal Asiatic Society, London."
+      },
+      {
+        "id": "art-the-sultan-abu-bakar-state-mosque",
+        "title": "The Sultan Abu Bakar State Mosque",
+        "creator": "Johor Bahru",
+        "year": "1892 to 1900",
+        "why": "A white mosque on a hill above the strait whose four minarets look like English clock towers: the mark of a ruler who was at home in both worlds."
+      }
+    ],
+    "eat": [
+      {
+        "id": "eat-laksa-johor",
+        "title": "Laksa Johor",
+        "creator": "Thick noodles in a rich fish and coconut gravy, with fresh herbs",
+        "why": "Made with spaghetti, a taste said to go back to Sultan Abu Bakar’s travels in Europe. Traditionally eaten with the hand."
+      },
+      {
+        "id": "eat-nasi-lemak",
+        "title": "Nasi lemak",
+        "creator": "Rice cooked in coconut milk, with sambal, anchovies, peanuts and egg",
+        "why": "The breakfast of the peninsula, once wrapped in a banana leaf for the fields."
+      },
+      {
+        "id": "eat-telur-pindang",
+        "title": "Telur pindang",
+        "creator": "Eggs simmered for days with herbs and leaves until brown through",
+        "why": "A Johor speciality given to guests at weddings."
+      },
+      {
+        "id": "eat-otak-otak",
+        "title": "Otak-otak",
+        "creator": "Spiced fish paste grilled in a palm leaf",
+        "why": "The snack of Muar, Johor’s old royal town on the river."
+      }
+    ],
+    "drink": [
+      {
+        "id": "drink-teh-tarik",
+        "title": "Teh tarik",
+        "creator": "Strong tea with condensed milk, pulled between two cups until it froths",
+        "why": "The drink of every roadside stall, poured from a height."
+      },
+      {
+        "id": "drink-air-bandung",
+        "title": "Air bandung",
+        "creator": "Rose syrup with milk, over ice",
+        "why": "Pink and sweet, served at weddings and at the breaking of the fast."
+      },
+      {
+        "id": "drink-young-coconut-water",
+        "title": "Young coconut water",
+        "creator": "Drunk from the shell",
+        "why": "The plainest refreshment of the coast."
+      }
+    ],
+    "customs": [
+      {
+        "id": "customs-offering-sirih",
+        "title": "Offering sirih",
+        "creator": "The betel set",
+        "why": "A brass or silver box with leaf, lime, nut and gambier is set before guests. It begins formal talks, and a marriage proposal is made by presenting one."
+      },
+      {
+        "id": "customs-the-salam",
+        "title": "The salam",
+        "creator": "Hands, then the heart",
+        "why": "Take the other person’s hand lightly in both of yours, then bring your hand to your chest. The young kiss the hand of an elder."
+      },
+      {
+        "id": "customs-shoes-off-right-hand-only",
+        "title": "Shoes off, right hand only",
+        "creator": "At the door and at the mat",
+        "why": "Outdoor shoes stay on the steps. Food and gifts are given and taken with the right hand."
+      },
+      {
+        "id": "customs-king-and-queen-for-a-day",
+        "title": "King and queen for a day",
+        "creator": "The wedding dais",
+        "why": "Bride and groom sit in state in songket on a decorated dais and are blessed with scented water and rice, treated for that day as royalty."
+      }
+    ],
+    "games": [
+      {
+        "id": "games-congkak",
+        "title": "Congkak",
+        "creator": "Board game · Malay world",
+        "year": "old",
+        "why": "A boat-shaped board with two rows of seven holes and a store at each end. Players sow shells or seeds round it. Once a game of palace women, now of everyone."
+      },
+      {
+        "id": "games-sepak-raga",
+        "title": "Sepak raga",
+        "creator": "Ball game · Malay world",
+        "year": "at least the 15th century",
+        "why": "A woven rattan ball kept in the air with feet, knees and head. The Malay Annals record a death over a game. Its modern form over a net is sepak takraw."
+      },
+      {
+        "id": "games-gasing",
+        "title": "Gasing",
+        "creator": "Top spinning · Malay Peninsula",
+        "year": "old",
+        "why": "Heavy wooden tops launched with a rope. Contests are for the longest spin or for knocking a rival’s top out of the ring."
+      },
+      {
+        "id": "games-batu-seremban",
+        "title": "Batu seremban",
+        "creator": "Five stones · Malay world",
+        "year": "old",
+        "why": "Five small stones or beanbags tossed and caught in a set order of rising difficulty. Played by children on any floor."
+      }
+    ],
+    "festivals": [
+      {
+        "id": "fest-hari-raya-aidilfitri",
+        "title": "Hari Raya Aidilfitri",
+        "creator": "At the end of Ramadan, by the lunar calendar",
+        "why": "Families ask one another’s forgiveness, visit graves and keep open house, with everyone of every faith welcome to come in and eat."
+      },
+      {
+        "id": "fest-the-sultan-of-johor-s-birthday",
+        "title": "The Sultan of Johor’s birthday",
+        "creator": "23 March",
+        "why": "A public holiday in the state, with an investiture at the palace and prayers at the state mosque."
+      },
+      {
+        "id": "fest-chingay-in-johor-bahru",
+        "title": "Chingay in Johor Bahru",
+        "creator": "The 21st day of the first lunar month, in February or March",
+        "why": "The five Chinese clans of the city carry their deities through the streets together by night. A tradition of the gambier and pepper settlers that the sultans protected, more than a century old."
+      }
+    ],
+    "places": [
+      {
+        "id": "place-kota-johor-lama",
+        "title": "Kota Johor Lama",
+        "creator": "Kota Tinggi, Johor, Malaysia",
+        "why": "The earth ramparts of the sixteenth-century capital on a bend of the Johor River, with a small museum. Portuguese ships came up this river to burn it in 1587."
+      },
+      {
+        "id": "place-kampung-makam",
+        "title": "Kampung Makam",
+        "creator": "Kota Tinggi, Johor, Malaysia",
+        "why": "The tomb of Sultan Mahmud II, killed in 1699 while being carried on a litter, with whom the line of Malacca ended. The graves of ministers and of the admiral who struck him are near by."
+      },
+      {
+        "id": "place-the-sultan-abu-bakar-state-mosque-and-the-grand-palace",
+        "title": "The Sultan Abu Bakar State Mosque and the Grand Palace",
+        "creator": "Johor Bahru, Johor, Malaysia",
+        "why": "The mosque is open outside prayer times to visitors who dress modestly. The palace of 1866 stands in gardens beside the strait. Check whether its museum is open."
+      },
+      {
+        "id": "place-penyengat-island",
+        "title": "Penyengat Island",
+        "creator": "Off Tanjung Pinang, Riau Islands, Indonesia",
+        "why": "The small island seat of the Bugis viceroys. A yellow mosque said to have egg white in its mortar, royal tombs and the grave of Raja Ali Haji. Ten minutes by boat."
+      },
+      {
+        "id": "place-kampong-glam",
+        "title": "Kampong Glam",
+        "creator": "Singapore",
+        "why": "The palace of Sultan Hussein, now the Malay Heritage Centre, and the Sultan Mosque beside it, in the quarter set aside for the Johor royal house in 1819."
+      },
+      {
+        "id": "place-muar",
+        "title": "Muar",
+        "creator": "Johor, Malaysia",
+        "why": "Bandar Maharani, the royal town on the river, with fine colonial offices, a customs house and some of the best food in the state."
+      }
+    ]
+  },
+  "ethics": [
+    {
+      "title": "Budi",
+      "text": "Kindness given freely and remembered for life. A person without budi is no one, whatever their wealth.",
+      "practice": "Do a kindness today that cannot be returned."
+    },
+    {
+      "title": "Courtesy",
+      "text": "Gentle speech and correct conduct protect everyone’s dignity.",
+      "practice": "Soften one thing you were going to say sharply."
+    },
+    {
+      "title": "Loyalty",
+      "text": "Stand by those to whom you owe allegiance: ruler, teacher, friend, family.",
+      "practice": "Be reliable today to someone who is counting on you."
+    },
+    {
+      "title": "Shame and modesty",
+      "text": "A proper sense of malu keeps a person from boasting, grabbing and exposing others.",
+      "practice": "Let someone else take the credit."
+    },
+    {
+      "title": "Consensus",
+      "text": "A decision everyone can live with is better than a quick one that divides.",
+      "practice": "In one disagreement today, look for the answer that both sides can accept."
+    },
+    {
+      "title": "Justice in rulers",
+      "text": "The covenant runs both ways. The people owe loyalty, and the ruler owes them freedom from humiliation.",
+      "practice": "If you have power over someone, check that you have not shamed them."
+    }
+  ],
+  "philosophy": [
+    {
+      "title": "The debt of kindness",
+      "text": "Money debts can be cleared. What you owe to those who were good to you cannot, and that is what ties a community together.",
+      "practice": "List three people whose kindness made you. Have you told them?"
+    },
+    {
+      "title": "Language shows the people",
+      "text": "How a person speaks reveals their upbringing and their heart. Refinement of words is refinement of self.",
+      "practice": "Listen to yourself for an hour. What does your speech say about you?"
+    },
+    {
+      "title": "The covenant",
+      "text": "In the Malay Annals the first ruler and the first chief swear an oath: subjects will never rebel, and rulers will never shame their subjects. A kingdom falls when either side breaks it.",
+      "practice": "What unwritten covenant holds between you and those you lead or follow?"
+    },
+    {
+      "title": "Tuah and Jebat",
+      "text": "Hang Tuah kills his friend out of loyalty to an unjust king. Hang Jebat rebels for the sake of his friend. Malays have debated for three centuries which was the hero.",
+      "practice": "When loyalty and justice part, which do you follow?"
+    },
+    {
+      "title": "Custom and the sky",
+      "text": "Wherever you stand, the local order is the sky above you. A guest adapts.",
+      "practice": "Where are you a guest, and are you behaving like one?"
+    },
+    {
+      "title": "Shadow and meaning",
+      "text": "A pantun says the important thing sideways, through an image. Truth told indirectly can be heard.",
+      "practice": "What do you need to say that would be better said through a picture?"
+    },
+    {
+      "title": "A kingdom of water",
+      "text": "Johor was a network of rivers, straits and loyal seafarers. Its capitals moved many times. The kingdom was its people and its trade, wherever the court sat.",
+      "practice": "What in your life would survive if its buildings were lost?"
+    },
+    {
+      "title": "Many peoples, one roof",
+      "text": "Malays, Bugis, sea people, Chinese planters, Arabs and Indians all had a place under the sultans. The state’s skill was in giving each a role.",
+      "practice": "Who around you has no acknowledged place?"
+    }
+  ],
+  "journal": [
+    "Whose kindness are you carrying, and how will you honour it?",
+    "How did you speak today?",
+    "Whom did you shame, even slightly?",
+    "What custom did you follow that is not your own?",
+    "What did you do alongside your neighbours?",
+    "Who ate with you?",
+    "What pantun did the day suggest?",
+    "Which elder did you greet first?",
+    "Where did you raise your voice?",
+    "What did you refuse, and how gently?",
+    "What decision did you force that should have been agreed?",
+    "To whom are you loyal, and are they worthy of it?",
+    "Where did loyalty and justice pull apart?",
+    "What did you guard today: eyes, ears, tongue, hands, stomach or feet?",
+    "What did you let slip?",
+    "Whose face did you save?",
+    "Who taught you your manners?",
+    "What do you owe your teacher?",
+    "What have you gone abroad to seek?",
+    "What will you bring home?",
+    "Whom did you welcome at the door?",
+    "What did you give with your right hand?",
+    "What common work have you been avoiding?",
+    "Who near you is celebrating or grieving, and were you there?",
+    "What would the covenant say about how you use your authority?",
+    "What did you say sideways that was understood?",
+    "What part of your heritage is in danger of vanishing?",
+    "Where is your kampung?",
+    "What kindness did you plant today?",
+    "What debt will you carry to the grave, gladly?"
+  ],
+  "reflect": [
+    "How has your speech changed?",
+    "Which debts of kindness did you name?",
+    "What did working with neighbours build?",
+    "Which couplet stayed with you?",
+    "Where do you stand between Tuah and Jebat?",
+    "Which custom will you keep?"
+  ],
+  "dayThemes": [
+    "Budi",
+    "Gentle speech",
+    "The salam",
+    "The debt of kindness",
+    "Golden bananas",
+    "Shadow and meaning",
+    "The pantun",
+    "Custom",
+    "Hold up the sky",
+    "The betel box",
+    "The mat",
+    "The right hand",
+    "The neighbour",
+    "Carrying together",
+    "The feast",
+    "Agreement",
+    "The covenant",
+    "No shame",
+    "Loyalty",
+    "Tuah and Jebat",
+    "The just king",
+    "The keris",
+    "Gold thread",
+    "The sea people",
+    "The river capital",
+    "Going abroad",
+    "Guard the tongue",
+    "Guard the eyes",
+    "The scholar of Penyengat",
+    "Never vanish"
+  ],
+  "guide": {
+    "intro": [
+      "In the fifteenth century the port of Malacca, on the strait that bears its name, was the richest trading city in Southeast Asia and the centre of the Malay world. Its rulers had adopted Islam, its language had become the common tongue of trade from Sumatra to the Spice Islands, and its court set the pattern of Malay custom, dress and ceremony. In 1511 a Portuguese fleet took it by storm.",
+      "The sultan escaped. After years of wandering, his son Alauddin Riayat Shah established a new capital on the Johor River in about 1528. The Sultanate of Johor regarded itself as Malacca continued: it had the old royal line, the regalia and the loyalty of the Orang Laut, the sea people whose boats controlled the straits. For a century it fought a three-cornered war with the Portuguese and with the Sumatran kingdom of Aceh. Its capital was burned and moved many times. In 1641 it helped the Dutch take Malacca and entered its most prosperous age, as a free port for Chinese, Indian, Arab and European traders.",
+      "It was at the Johor court in 1612 that the chief minister, Tun Sri Lanang, was commanded to set down the Sejarah Melayu, the Malay Annals, so that later generations would know the customs and the history of the Malay kings. The book is the foundation of Malay literature. At its heart is a covenant: subjects will never rebel, and rulers will never put a subject to shame.",
+      "In 1699 that covenant was tested. The young sultan, a cruel and unstable man, was stabbed to death by one of his nobles while being carried to the mosque. He left no heir, and the line of Malacca ended. The chief minister took the throne, a Sumatran pretender challenged him, and Bugis warriors from Sulawesi were called in. From 1722 the kingdom, now centred on the Riau islands, was run by Bugis viceroys under Malay sultans. Their island of Penyengat became the great centre of Malay learning, where Raja Ali Haji wrote history, grammar and the Twelve Gurindam.",
+      "In 1819 Stamford Raffles obtained Singapore from the Temenggong, the minister who governed the southern part of the kingdom, and from a prince he recognised as sultan for the purpose. Five years later Britain and the Netherlands drew a line through the straits that cut the old kingdom in two. The mainland half was rebuilt by the Temenggong’s family. Daeng Ibrahim opened the jungle to Chinese pepper and gambier planters. His son Abu Bakar founded Johor Bahru, travelled to Europe, became a friend of Queen Victoria, took the title of sultan and in 1895 gave his state a written constitution, the first in the Malay states.",
+      "Johor joined the Federation of Malaya in 1948 and independent Malaya in 1957. Its sultans still reign, and take their turn as king of Malaysia.",
+      "This Onda takes its practices from the culture that the court preserved and the villages lived: gentle speech, the daily pantun, shared labour, the shared meal and a couplet of the Gurindam at night. It is the culture of living people in Malaysia, Singapore and Indonesia, and you are a guest in it."
+    ],
+    "origin": "The southern Malay Peninsula, the Johor River, and the islands of Riau and Singapore",
+    "era": "Founded in 1528 by the heir of Malacca. The royal house of Johor reigns today as one of Malaysia’s nine",
+    "figures": [
+      {
+        "name": "Sultan Alauddin Riayat Shah II",
+        "dates": "reigned about 1528 to 1564",
+        "bio": "Son of the last sultan of Malacca and founder of Johor. He died a captive in Aceh."
+      },
+      {
+        "name": "Hang Tuah",
+        "dates": "15th century, in legend",
+        "bio": "The admiral of Malacca, hero of the epic written in Johor. Whether he lived is uncertain. What he stands for is not."
+      },
+      {
+        "name": "Tun Sri Lanang",
+        "dates": "1565 to 1659",
+        "bio": "Chief minister of Johor and compiler of the Malay Annals. Carried off to Aceh in 1613, he ended his life as a ruler there."
+      },
+      {
+        "name": "Laksamana Tun Abdul Jamil",
+        "dates": "died 1688",
+        "bio": "The admiral who rebuilt Johor’s trade and power after a Sumatran rival sacked its capital in 1673."
+      },
+      {
+        "name": "Sultan Mahmud II",
+        "dates": "1675 to 1699",
+        "bio": "The last of the Malacca line, remembered as the king who died on the litter. His murder haunted Malay political thought."
+      },
+      {
+        "name": "Daeng Marewah",
+        "dates": "died 1728",
+        "bio": "The first Bugis viceroy, installed in 1722. He and his four brothers changed the balance of the Malay world."
+      },
+      {
+        "name": "Raja Haji Fisabilillah",
+        "dates": "1727 to 1784",
+        "bio": "The fourth Bugis viceroy, who died attacking the Dutch at Malacca. A national hero of Indonesia."
+      },
+      {
+        "name": "Raja Ali Haji",
+        "dates": "about 1808 to 1873",
+        "bio": "His grandson: historian, poet, grammarian and jurist of Penyengat, and the author of the first Malay dictionary by a Malay."
+      },
+      {
+        "name": "Sultan Hussein Shah",
+        "dates": "1776 to 1835",
+        "bio": "The elder prince passed over for the throne, whom Raffles recognised as sultan in 1819 in order to obtain Singapore."
+      },
+      {
+        "name": "Temenggong Daeng Ibrahim",
+        "dates": "1810 to 1862",
+        "bio": "He turned from suppressing piracy to granting river concessions to Chinese planters, and made Johor rich."
+      },
+      {
+        "name": "Sultan Abu Bakar",
+        "dates": "1833 to 1895",
+        "bio": "The father of modern Johor. English-educated, a shrewd diplomat and builder, he kept his state independent of British control in his lifetime."
+      },
+      {
+        "name": "Onn Jaafar",
+        "dates": "1895 to 1962",
+        "bio": "Chief minister of Johor and founder of the United Malays National Organisation in 1946, at the Grand Palace in Johor Bahru."
+      }
+    ],
+    "history": [
+      {
+        "when": "about 1400",
+        "what": "Malacca",
+        "detail": "A prince from Palembang founds a port on the strait. Within a century it is the meeting point of the Indian Ocean and China trades."
+      },
+      {
+        "when": "August 1511",
+        "what": "The fall of Malacca",
+        "detail": "Afonso de Albuquerque takes the city. Sultan Mahmud Shah retreats south and dies in Sumatra in 1528."
+      },
+      {
+        "when": "about 1528",
+        "what": "Johor is founded",
+        "detail": "His son sets up a capital on the upper Johor River. It will move more than twenty times in the next two centuries."
+      },
+      {
+        "when": "1587",
+        "what": "Johor Lama burned",
+        "detail": "A Portuguese fleet sails up the river and destroys the fortified capital."
+      },
+      {
+        "when": "1612 to 1613",
+        "what": "The Malay Annals; the Acehnese raid",
+        "detail": "Tun Sri Lanang begins the chronicle. The following year Aceh sacks the capital and carries off the court."
+      },
+      {
+        "when": "1641",
+        "what": "Malacca falls to the Dutch",
+        "detail": "Johor fights as their ally and is rewarded with trading privileges and half a century of prosperity."
+      },
+      {
+        "when": "1699",
+        "what": "The regicide",
+        "detail": "Sultan Mahmud II is killed at Kota Tinggi. The chief minister ascends the throne as the first of a new dynasty."
+      },
+      {
+        "when": "1718 to 1722",
+        "what": "Raja Kecil and the Bugis",
+        "detail": "A prince from Sumatra claiming to be the dead sultan’s son seizes Johor. Five Bugis brothers expel him and take the office of viceroy."
+      },
+      {
+        "when": "1784",
+        "what": "The Dutch take Riau",
+        "detail": "After the death of Raja Haji the Dutch garrison the capital. The kingdom never fully recovers its independence."
+      },
+      {
+        "when": "6 February 1819",
+        "what": "Singapore",
+        "detail": "Raffles signs a treaty with the Temenggong and with Hussein, whom he installs as sultan, for a British trading post."
+      },
+      {
+        "when": "1824",
+        "what": "The kingdom divided",
+        "detail": "The Anglo-Dutch Treaty puts the peninsula and Singapore under Britain and the Riau and Lingga islands under the Netherlands."
+      },
+      {
+        "when": "1855 to 1866",
+        "what": "The Temenggongs’ Johor",
+        "detail": "The sultan’s heir cedes the state to the Temenggong. A new capital is laid out on the strait and later named Johor Bahru."
+      },
+      {
+        "when": "1885 to 1895",
+        "what": "Sultan and constitution",
+        "detail": "Abu Bakar is recognised as sultan by Britain. Shortly before his death he proclaims a written constitution."
+      },
+      {
+        "when": "1914 to 1957",
+        "what": "Adviser, federation, independence",
+        "detail": "Johor accepts a British general adviser in 1914, joins the Federation of Malaya in 1948 and becomes part of an independent country in 1957."
+      }
+    ],
+    "concepts": [
+      {
+        "term": "Daulat and derhaka",
+        "text": "Majesty and treason.",
+        "detail": "The ruler carries a sacred force, and to defy him is to invite a curse. The idea held Malay kingdoms together and made the killing of 1699 a catastrophe."
+      },
+      {
+        "term": "The covenant",
+        "text": "Wa’ad.",
+        "detail": "The mythical contract in the Malay Annals between the first king and the chief of the people, which binds rulers not to humiliate and subjects not to rebel."
+      },
+      {
+        "term": "Adat",
+        "text": "Custom as law.",
+        "detail": "The rules of ceremony, rank, marriage and inheritance, handed down and adjusted by agreement. The saying is that custom rests on religious law, and religious law on the Book."
+      },
+      {
+        "term": "Budi",
+        "text": "The measure of a person.",
+        "detail": "A cluster of kindness, good sense and gratitude. Malay proverbs, pantun and tales return to it more than to any other idea."
+      },
+      {
+        "term": "The four great offices",
+        "text": "Bendahara, Temenggong, Laksamana, Penghulu Bendahari.",
+        "detail": "Chief minister, minister of justice, admiral and treasurer. The pattern was inherited from Malacca, and two of the offices in turn founded dynasties in Johor."
+      },
+      {
+        "term": "The sea people",
+        "text": "The kingdom’s fleet.",
+        "detail": "Orang Laut groups owed service to the ruler personally, each with its own task. Their withdrawal after the regicide left the new dynasty exposed."
+      },
+      {
+        "term": "The Bugis viceroyalty",
+        "text": "Malay sultan, Bugis strong arm.",
+        "detail": "From 1722 a Bugis Yang Dipertuan Muda held real power beside a Malay sultan, sealed by an oath of loyalty and by marriages."
+      },
+      {
+        "term": "The river concession",
+        "text": "The kangchu system.",
+        "detail": "Chinese headmen were granted rights over a river valley to plant gambier and pepper, collect taxes and keep order. It opened the interior of Johor in a generation."
+      },
+      {
+        "term": "Muafakat",
+        "text": "Rule by consultation.",
+        "detail": "Decisions were reached in council by talking until agreement emerged. Johor’s state motto pairs it with trust in God."
+      }
+    ],
+    "facts": [
+      {
+        "text": "The capital of Johor moved at least twenty times between 1528 and 1855, usually along the Johor River."
+      },
+      {
+        "text": "The word Johor is thought to come from the Arabic jauhar, a jewel."
+      },
+      {
+        "text": "Johor is the only Malaysian state with its own military force, founded by Sultan Abu Bakar in 1886."
+      },
+      {
+        "text": "The Malay Annals survive in some thirty manuscripts, no two alike."
+      },
+      {
+        "text": "Singapore, the Riau Islands of Indonesia and the Malaysian state of Johor were all one kingdom until 1824."
+      },
+      {
+        "text": "The pantun form reached French poetry through a note in a book by Victor Hugo in 1829."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Malacca",
+        "meaning": "The fifteenth-century sultanate from which Johor claimed descent"
+      },
+      {
+        "term": "Riau-Lingga",
+        "meaning": "The island half of the kingdom, under Dutch influence after 1824"
+      },
+      {
+        "term": "Bugis",
+        "meaning": "A seafaring people of South Sulawesi who settled widely in the Malay world"
+      },
+      {
+        "term": "Yang Dipertuan Muda",
+        "meaning": "The viceroy, literally the junior ruler"
+      },
+      {
+        "term": "Gambier",
+        "meaning": "A plant extract used in tanning and with betel, Johor’s main export in the nineteenth century"
+      },
+      {
+        "term": "Tuanku",
+        "meaning": "The form of address to a ruler"
+      }
+    ],
+    "furtherReading": [
+      {
+        "title": "A History of Malaysia",
+        "creator": "Barbara Watson Andaya and Leonard Y. Andaya",
+        "year": "3rd edition 2017",
+        "note": "The standard general history, strong on the period before colonial rule."
+      },
+      {
+        "title": "The Malays",
+        "creator": "Anthony Milner",
+        "year": "2008",
+        "note": "What Malayness has meant at different times, and how it was shaped at courts like Johor’s."
+      },
+      {
+        "title": "Leaves of the Same Tree: Trade and Ethnicity in the Straits of Melaka",
+        "creator": "Leonard Y. Andaya",
+        "year": "2008",
+        "note": "The peoples of the straits, the sea people among them, and how they became distinct."
+      },
+      {
+        "title": "Seven Hundred Years: A History of Singapore",
+        "creator": "Kwa Chong Guan, Derek Heng, Peter Borschberg and Tan Tai Yong",
+        "year": "2019",
+        "note": "Singapore placed back inside the long history of Johor and the straits."
+      }
+    ],
+    "learnFrom": [
+      {
+        "name": "Malay Heritage Centre",
+        "note": "The museum in the former palace at Kampong Glam, Singapore, on the Malay world of the straits.",
+        "link": "https://www.malayheritage.gov.sg"
+      },
+      {
+        "name": "Yayasan Warisan Johor",
+        "note": "The Johor Heritage Foundation, which teaches and documents zapin, ghazal, weaving and court tradition."
+      },
+      {
+        "name": "Malay elders and teachers",
+        "note": "Pantun, silat, songket weaving and Jawi are taught person to person. Ask politely to learn, and accept the teacher’s pace."
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Kingdom of Johor, 1641 to 1728",
+        "creator": "Leonard Y. Andaya",
+        "publisher": "Oxford University Press",
+        "year": "1975"
+      },
+      {
+        "title": "A History of Malaysia",
+        "creator": "Barbara Watson Andaya and Leonard Y. Andaya",
+        "publisher": "Palgrave",
+        "year": "3rd edition 2017"
+      },
+      {
+        "title": "Prince of Pirates: The Temenggongs and the Development of Johor and Singapore, 1784 to 1885",
+        "creator": "Carl A. Trocki",
+        "publisher": "NUS Press",
+        "year": "2nd edition 2007"
+      },
+      {
+        "title": "Sejarah Melayu or Malay Annals",
+        "creator": "trans. C. C. Brown",
+        "publisher": "Oxford University Press",
+        "year": "1970"
+      },
+      {
+        "title": "The Precious Gift (Tuhfat al-Nafis)",
+        "creator": "Raja Ali Haji, trans. Virginia Matheson and Barbara Watson Andaya",
+        "publisher": "Oxford University Press",
+        "year": "1982"
+      },
+      {
+        "title": "A History of Johore, 1365 to 1895",
+        "creator": "R. O. Winstedt",
+        "publisher": "Malaysian Branch of the Royal Asiatic Society",
+        "year": "1932; reprinted 1992"
+      }
+    ]
+  },
+  "sensitivity": {
+    "note": "The Johor Sultanate is a living monarchy and Malay culture is a living culture, shared across Malaysia, Singapore, Indonesia and Brunei. This Onda borrows everyday courtesies and verse forms. It is written by outsiders and should be checked by Malay readers.",
+    "requiredCaveats": [
+      "The sultan and the royal house are held in deep respect in Johor. Speak of them accordingly.",
+      "Malay custom is closely tied to Islam. The practices here are the social ones. They are not a substitute for the faith, and they do not require it.",
+      "The old order rested on rank, and on debt bondage and slavery, which the sea people and others bore. Loyalty was not always freely given.",
+      "Malays, Bugis, Orang Laut and the Chinese and Indian communities of Johor each have their own account of this history."
+    ],
+    "reviewRequired": true
+  }
+}

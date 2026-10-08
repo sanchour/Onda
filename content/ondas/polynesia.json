@@ -1,0 +1,1266 @@
+{
+  "version": 1,
+  "id": "polynesia",
+  "name": "Polynesian",
+  "origin": "The Pacific",
+  "era": "From about 900 BC to today",
+  "tone": "yellow",
+  "icon": "sailboat",
+  "font": "josefin-sans",
+  "pattern": "tapa-triangles",
+  "glyph": "Mana",
+  "line": "Know where you come from, get in the water, serve before you lead and look after the space between people.",
+  "quote": {
+    "text": "What is the most important thing in the world? It is people, it is people, it is people.",
+    "by": "Māori proverb",
+    "source": "He aha te mea nui o te ao? He tangata, he tangata, he tangata"
+  },
+  "quotes": [
+    {
+      "text": "The path to authority is through service.",
+      "by": "Samoan proverb",
+      "source": "O le ala i le pule o le tautua"
+    },
+    {
+      "text": "No task is too big when done together by all.",
+      "by": "Hawaiian proverb",
+      "source": "’A’ohe hana nui ke alu ’ia. In Mary Kawena Pukui, ’Ōlelo No’eau, 1983, number 142"
+    },
+    {
+      "text": "The land is a chief; man is its servant.",
+      "by": "Hawaiian proverb",
+      "source": "He ali’i ka ’āina; he kauwā ke kanaka. In Mary Kawena Pukui, ’Ōlelo No’eau, 1983, number 531"
+    },
+    {
+      "text": "We are the sea, we are the ocean.",
+      "by": "Epeli Hau’ofa",
+      "source": "Our Sea of Islands, 1993. A Tongan writer and scholar, born in Papua New Guinea"
+    },
+    {
+      "text": "The life of the land is perpetuated in righteousness.",
+      "by": "Kamehameha III",
+      "source": "Ua mau ke ea o ka ’āina i ka pono. Spoken on 31 July 1843, when Hawaiian sovereignty was restored after a British seizure. Now the state motto"
+    },
+    {
+      "text": "I walk backwards into the future with my eyes fixed on my past.",
+      "by": "Māori proverb",
+      "source": "Kia whakatōmuri te haere whakamua"
+    }
+  ],
+  "words": [
+    {
+      "id": "word-mana",
+      "term": "Mana",
+      "meaning": "Spiritual power; authority; standing",
+      "pronunciation": "MAH-nah",
+      "language": "Pan-Polynesian",
+      "usage": "A force that comes from the ancestors and is shown in what a person achieves and how they treat others. It can grow and it can be lost."
+    },
+    {
+      "id": "word-tapu",
+      "term": "Tapu",
+      "meaning": "Sacred; set apart; restricted",
+      "pronunciation": "TAH-poo",
+      "language": "Māori and Tongan",
+      "usage": "Kapu in Hawaiian. People, places and things under tapu must be treated with care. Captain Cook’s crews took the word home as taboo."
+    },
+    {
+      "id": "word-noa",
+      "term": "Noa",
+      "meaning": "Ordinary; free of restriction",
+      "pronunciation": "NO-ah",
+      "language": "Māori",
+      "usage": "The everyday state. Water and cooked food lift tapu and make things noa again."
+    },
+    {
+      "id": "word-aloha",
+      "term": "Aloha",
+      "meaning": "Love; compassion; greeting",
+      "pronunciation": "ah-LO-hah",
+      "language": "Hawaiian",
+      "usage": "Affection, mercy and kindness. Used for hello and goodbye, and understood as a way to live."
+    },
+    {
+      "id": "word-aroha",
+      "term": "Aroha",
+      "meaning": "Love; compassion; empathy",
+      "pronunciation": "AH-ro-hah",
+      "language": "Māori",
+      "usage": "The same word in another Polynesian language. Alofa in Samoan and ’ofa in Tongan."
+    },
+    {
+      "id": "word-fa-a-samoa",
+      "term": "Fa'a Sāmoa",
+      "meaning": "The Samoan way",
+      "pronunciation": "fah-ah SAH-mo-ah",
+      "language": "Samoan",
+      "usage": "The whole order of Samoan life: family, chiefs, church, respect and obligation."
+    },
+    {
+      "id": "word-va",
+      "term": "Vā",
+      "meaning": "The space between",
+      "pronunciation": "VAH",
+      "language": "Samoan and Tongan",
+      "usage": "The relationship that both joins and separates people. It is something to be looked after, in the phrase teu le vā, tend the space."
+    },
+    {
+      "id": "word-tautua",
+      "term": "Tautua",
+      "meaning": "Service",
+      "pronunciation": "tow-TOO-ah",
+      "language": "Samoan",
+      "usage": "Serving the family and its chief, by work, food and care. It is how a young person earns a title."
+    },
+    {
+      "id": "word-fa-aaloalo",
+      "term": "Fa'aaloalo",
+      "meaning": "Respect",
+      "pronunciation": "fah-ah-ah-lo-AH-lo",
+      "language": "Samoan",
+      "usage": "Shown in posture, in a special vocabulary for addressing chiefs, and in giving way."
+    },
+    {
+      "id": "word-ohana",
+      "term": "'Ohana",
+      "meaning": "Family",
+      "pronunciation": "oh-HAH-nah",
+      "language": "Hawaiian",
+      "usage": "Family in the wide sense, by blood, adoption or choice. From ’ohā, the shoots that grow from the taro corm."
+    },
+    {
+      "id": "word-whanau",
+      "term": "Whānau",
+      "meaning": "Extended family",
+      "pronunciation": "FAH-no",
+      "language": "Māori",
+      "usage": "Several generations acting as one household. The word also means to be born."
+    },
+    {
+      "id": "word-whakapapa",
+      "term": "Whakapapa",
+      "meaning": "Genealogy",
+      "pronunciation": "fah-kah-PAH-pah",
+      "language": "Māori",
+      "usage": "The layers of descent that link a person to ancestors, to land and finally to the gods. Reciting it says who you are."
+    },
+    {
+      "id": "word-whenua",
+      "term": "Whenua",
+      "meaning": "Land; also the placenta",
+      "pronunciation": "FEN-oo-ah",
+      "language": "Māori",
+      "usage": "The afterbirth is buried in family land. The people of a place are tangata whenua, people of the land."
+    },
+    {
+      "id": "word-kaitiakitanga",
+      "term": "Kaitiakitanga",
+      "meaning": "Guardianship",
+      "pronunciation": "kye-tee-ah-kee-TAHNG-ah",
+      "language": "Māori",
+      "usage": "The duty of a people to protect the land, waters and living things of their area for the generations to come."
+    },
+    {
+      "id": "word-manaakitanga",
+      "term": "Manaakitanga",
+      "meaning": "Hospitality; care for guests",
+      "pronunciation": "mah-nah-ah-kee-TAHNG-ah",
+      "language": "Māori",
+      "usage": "Generosity that raises the mana of the guest and so of the host."
+    },
+    {
+      "id": "word-malama-aina",
+      "term": "Mālama 'āina",
+      "meaning": "To care for the land",
+      "pronunciation": "MAH-lah-mah EYE-nah",
+      "language": "Hawaiian",
+      "usage": "’Āina means that which feeds. People look after it as they would an elder brother or sister."
+    },
+    {
+      "id": "word-kuleana",
+      "term": "Kuleana",
+      "meaning": "Responsibility; also a right",
+      "pronunciation": "koo-leh-AH-nah",
+      "language": "Hawaiian",
+      "usage": "One word for both. A person’s kuleana is the thing that is theirs to look after."
+    },
+    {
+      "id": "word-pono",
+      "term": "Pono",
+      "meaning": "Rightness; balance",
+      "pronunciation": "PO-no",
+      "language": "Hawaiian",
+      "usage": "Being in right relation with other people, the land and the divine."
+    },
+    {
+      "id": "word-ho-oponopono",
+      "term": "Ho'oponopono",
+      "meaning": "To make right",
+      "pronunciation": "ho-oh-po-no-PO-no",
+      "language": "Hawaiian",
+      "usage": "A family meeting, led by an elder, in which a wrong is spoken of honestly, forgiven and let go."
+    },
+    {
+      "id": "word-moana",
+      "term": "Moana",
+      "meaning": "The ocean",
+      "pronunciation": "mo-AH-nah",
+      "language": "Pan-Polynesian",
+      "usage": "The open sea. Moana-nui-a-Kiwa, the great ocean of Kiwa, is a Māori name for the Pacific."
+    },
+    {
+      "id": "word-vaka",
+      "term": "Vaka",
+      "meaning": "A canoe",
+      "pronunciation": "VAH-kah",
+      "language": "Pan-Polynesian",
+      "usage": "Waka in Māori, wa’a in Hawaiian, va’a in Samoan and Tahitian. The double-hulled voyaging canoe settled the Pacific."
+    },
+    {
+      "id": "word-hokule-a",
+      "term": "Hōkūle'a",
+      "meaning": "Star of gladness",
+      "pronunciation": "ho-koo-LEH-ah",
+      "language": "Hawaiian",
+      "usage": "The star Arcturus, which passes directly over Hawai’i. Also the name of the voyaging canoe launched in 1975."
+    },
+    {
+      "id": "word-talanoa",
+      "term": "Talanoa",
+      "meaning": "Talk without an agenda",
+      "pronunciation": "tah-lah-NO-ah",
+      "language": "Tongan, Samoan and Fijian",
+      "usage": "Open, patient conversation in which people tell their stories until trust and agreement form."
+    },
+    {
+      "id": "word-kava",
+      "term": "Kava",
+      "meaning": "A drink made from a pepper root",
+      "pronunciation": "KAH-vah",
+      "language": "Tongan",
+      "usage": "’Ava in Samoan and ’awa in Hawaiian. Calming and slightly numbing, it is shared at every formal meeting."
+    },
+    {
+      "id": "word-tatau",
+      "term": "Tatau",
+      "meaning": "Tattoo",
+      "pronunciation": "tah-TOW",
+      "language": "Samoan",
+      "usage": "The source of the English word. The male pe’a covers the body from waist to knee and is tapped in with combs over many days."
+    },
+    {
+      "id": "word-marae",
+      "term": "Marae",
+      "meaning": "A meeting ground",
+      "pronunciation": "mah-RYE",
+      "language": "Māori",
+      "usage": "The open space before the meeting house, where guests are welcomed and the dead are mourned. Malae in Samoan."
+    },
+    {
+      "id": "word-haka",
+      "term": "Haka",
+      "meaning": "A posture dance",
+      "pronunciation": "HAH-kah",
+      "language": "Māori",
+      "usage": "Chanted, stamped and performed in unison, to welcome, to honour, to challenge and to mourn."
+    },
+    {
+      "id": "word-hula",
+      "term": "Hula",
+      "meaning": "Hawaiian dance",
+      "pronunciation": "HOO-lah",
+      "language": "Hawaiian",
+      "usage": "Dance that tells a chant with the hands and body. It carries history, genealogy and prayer."
+    },
+    {
+      "id": "word-umu",
+      "term": "Umu",
+      "meaning": "An earth oven",
+      "pronunciation": "OO-moo",
+      "language": "Samoan and Tongan",
+      "usage": "Hāngī in Māori and imu in Hawaiian. Food is wrapped in leaves and cooked on hot stones under the ground."
+    },
+    {
+      "id": "word-kia-ora",
+      "term": "Kia ora",
+      "meaning": "Be well",
+      "pronunciation": "kee-ah OR-ah",
+      "language": "Māori",
+      "usage": "Hello and thank you in Aotearoa. Samoans say tālofa and Tongans mālō e lelei."
+    }
+  ],
+  "practices": [
+    {
+      "id": "where-from",
+      "name": "Say where you come from",
+      "icon": "tree",
+      "slot": "Morning",
+      "time": "07:00",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Begin the day by naming your people. Say aloud the names of your parents, your grandparents and as many great-grandparents as you know, and where each was from. Name the land where you grew up, and a mountain, river or shore that you think of as home. If there are gaps, write them down as questions to ask an older relative. Then go about your day as someone who represents all those people.",
+      "why": "Across Polynesia a person is known through genealogy. Māori call it whakapapa and Hawaiians mo’okū’auhau, and experts could recite lines of descent over dozens of generations, back to the crews of the first canoes. A formal introduction says where you are from before it gives your name.",
+      "variations": [
+        "Ring a relative and ask for one name you do not know.",
+        "Draw your family tree as far back as you can.",
+        "Find out where the names in your family come from."
+      ]
+    },
+    {
+      "id": "into-the-water",
+      "name": "Get in the water",
+      "icon": "waves",
+      "slot": "Morning",
+      "time": "08:00",
+      "minutes": 20,
+      "meta": "Morning · 20 min",
+      "instructions": "Go to water today and get into it: the sea if you can, otherwise a lake, a river or a pool. Swim, paddle, float or simply stand in it up to the waist. Before you go in, stop at the edge for a moment and look at what the water is doing. Go in with respect and never alone in rough conditions. If no water can be reached, wash slowly in cold water and give it your full attention.",
+      "why": "Polynesians are people of the ocean. Children learned to swim as they learned to walk, and surfing, canoe racing and fishing filled daily life. In many islands the sea is also where one goes to be cleansed, as in the Hawaiian custom of bathing in the sea at dawn to wash away trouble.",
+      "variations": [
+        "Paddle a canoe, a kayak or a board.",
+        "Watch waves for ten minutes and count the sets.",
+        "Learn to float on your back."
+      ]
+    },
+    {
+      "id": "serve-first",
+      "name": "Serve first",
+      "icon": "hand-heart",
+      "slot": "Afternoon",
+      "time": "13:00",
+      "minutes": 20,
+      "meta": "Afternoon · 20 min",
+      "instructions": "Do twenty minutes of service today for your family or household, without being asked and without announcing it. Cook, carry, clean, fetch, look after the children or the old. Serve the others their food before you take your own, starting with the eldest. If a guest comes, give them the best of what you have. Expect nothing back.",
+      "why": "In Samoa the untitled men of a family serve its chief, cooking the food and bringing it to the elders, and it is from among those who served well that the next chief is chosen. Across Polynesia generosity to guests is what gives a host standing. A leader who does not feed people has no mana.",
+      "variations": [
+        "Take food to a neighbour or someone who is unwell.",
+        "Do the lowest job at a gathering.",
+        "Host a meal and eat last."
+      ]
+    },
+    {
+      "id": "tend-the-va",
+      "name": "Tend the space between",
+      "icon": "handshake",
+      "slot": "Evening",
+      "time": "18:30",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Think of one relationship that is out of order: a coolness, an unreturned favour, a harsh word. Do one thing today to put it right. Go to the person, or call. Say plainly what happened as you see it, own your part, ask forgiveness or give it, and agree to let the matter rest. If nothing is out of order, strengthen a tie that you have let weaken with a visit, a gift of food or a message.",
+      "why": "Samoans and Tongans speak of the vā, the space between people, as something that must be kept in good order. Hawaiian families practised ho’oponopono, in which an elder gathered the household to talk through a wrong, with prayer, confession, forgiveness and release, and then shared a meal.",
+      "variations": [
+        "Hold a family meeting to clear the air, with the eldest leading.",
+        "Return something you owe.",
+        "Thank someone in person for something they did long ago."
+      ]
+    },
+    {
+      "id": "read-the-sky",
+      "name": "Read the sky like a navigator",
+      "icon": "compass",
+      "slot": "Evening",
+      "time": "20:30",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Go outside at dusk or after dark. Find where the sun set today against a landmark, and remember it. Find one bright star or planet and note where it stands. Feel which way the wind is blowing and name the direction. If you can see water, see which way the swell is running. Do this from the same spot each evening and watch how each sign moves through the month.",
+      "why": "Polynesian navigators crossed thousands of kilometres of open ocean without instruments. They steered by the rising and setting points of stars, held a course by the feel of the swells against the hull, and found land from the flight of birds and the colour of clouds. The art was revived in the 1970s with the canoe Hōkūle’a.",
+      "variations": [
+        "Learn the four stars of the Southern Cross, or the Pole Star in the north.",
+        "Learn the Hawaiian star compass of thirty-two houses.",
+        "Watch where the moon rises tonight and tomorrow."
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task-read-our-sea-of-islands",
+      "name": "Read Our Sea of Islands",
+      "meta": "Read · Epeli Hau’ofa’s essay, 1993",
+      "time": "20:00",
+      "slot": "Evening",
+      "action": "read"
+    },
+    {
+      "id": "task-listen-to-facing-future",
+      "name": "Listen to Facing Future",
+      "meta": "Listen · Israel Kamakawiwo’ole, 1993",
+      "time": "07:30",
+      "slot": "Morning",
+      "action": "listen"
+    },
+    {
+      "id": "task-look-at-a-sheet-of-tongan-ngatu",
+      "name": "Look at a sheet of Tongan ngatu",
+      "meta": "Art · painted barkcloth, made by groups of women",
+      "time": "13:30",
+      "slot": "Afternoon",
+      "action": "art"
+    },
+    {
+      "id": "task-play-konane",
+      "name": "Play kōnane",
+      "meta": "Games · the Hawaiian board game of jumps",
+      "time": "19:00",
+      "slot": "Evening",
+      "action": "games"
+    },
+    {
+      "id": "task-journal-whose-descendant-are-you-and-whose-ancestor-will-you-be",
+      "name": "Journal: whose descendant are you, and whose ancestor will you be?",
+      "meta": "Journal · 10 min",
+      "time": "21:00",
+      "slot": "Evening",
+      "action": "journal"
+    },
+    {
+      "id": "task-is-the-ocean-what-divides-islands-or-what-joins-them",
+      "name": "Is the ocean what divides islands, or what joins them?",
+      "meta": "Philosophy · 10 min",
+      "time": "09:30",
+      "slot": "Morning",
+      "action": "philosophy"
+    },
+    {
+      "id": "do-a-job-together-with-others-that-you-would-usually-do-alone",
+      "name": "Do a job together with others that you would usually do alone",
+      "meta": "Many hands",
+      "time": "11:00",
+      "slot": "Morning"
+    },
+    {
+      "id": "give-a-guest-or-a-stranger-the-best-of-what-you-have",
+      "name": "Give a guest, or a stranger, the best of what you have",
+      "meta": "Manaakitanga",
+      "time": "15:00",
+      "slot": "Afternoon"
+    },
+    {
+      "id": "name-the-thing-that-is-yours-to-look-after-and-look-after-it",
+      "name": "Name the thing that is yours to look after, and look after it",
+      "meta": "Kuleana",
+      "time": "17:00",
+      "slot": "Evening"
+    }
+  ],
+  "rules": [
+    {
+      "id": "r1",
+      "text": "Know where you come from",
+      "why": "Carry your ancestors’ names. You stand for them."
+    },
+    {
+      "id": "r2",
+      "text": "Serve before you lead",
+      "why": "Authority is earned by looking after others."
+    },
+    {
+      "id": "r3",
+      "text": "Feed your guests",
+      "why": "Generosity is the measure of a person and a family."
+    },
+    {
+      "id": "r4",
+      "text": "Tend the space between",
+      "why": "Keep your relationships in good order. Put wrongs right quickly."
+    },
+    {
+      "id": "r5",
+      "text": "Care for land and sea",
+      "why": "They feed you. You are their younger relative."
+    },
+    {
+      "id": "r6",
+      "text": "Work together",
+      "why": "Paddle in time. No task is too big for many hands."
+    }
+  ],
+  "immerse": {
+    "read": [
+      {
+        "id": "read-we-are-the-ocean-selected-works",
+        "title": "We Are the Ocean: Selected Works",
+        "creator": "Epeli Hau’ofa",
+        "year": "2008",
+        "why": "Essays, stories and poems by the Tongan scholar who taught the Pacific to see itself as a sea of islands joined by water."
+      },
+      {
+        "id": "read-sea-people-the-puzzle-of-polynesia",
+        "title": "Sea People: The Puzzle of Polynesia",
+        "creator": "Christina Thompson",
+        "year": "2019",
+        "why": "How the islands were settled, and how outsiders and Polynesians have tried to work it out."
+      },
+      {
+        "id": "read-the-whale-rider",
+        "title": "The Whale Rider",
+        "creator": "Witi Ihimaera",
+        "year": "1987",
+        "why": "A girl of the Māori east coast is born into a line of chiefs that has always passed through men."
+      },
+      {
+        "id": "read-leaves-of-the-banyan-tree",
+        "title": "Leaves of the Banyan Tree",
+        "creator": "Albert Wendt",
+        "year": "1979",
+        "why": "Three generations of a Samoan family through the years of colonial rule and independence."
+      },
+      {
+        "id": "read-hawaii-s-story-by-hawaii-s-queen",
+        "title": "Hawaii’s Story by Hawaii’s Queen",
+        "creator": "Lili’uokalani",
+        "year": "1898",
+        "why": "The last monarch’s own account of her kingdom and its overthrow."
+      },
+      {
+        "id": "read-potiki",
+        "title": "Potiki",
+        "creator": "Patricia Grace",
+        "year": "1986",
+        "why": "A small coastal community resists developers who want its land. Told by many voices, as stories are on a marae."
+      }
+    ],
+    "watch": [
+      {
+        "id": "watch-whale-rider",
+        "title": "Whale Rider",
+        "creator": "Niki Caro",
+        "year": "2002",
+        "why": "The film of Ihimaera’s novel, made at Whāngārā with the people of the place."
+      },
+      {
+        "id": "watch-the-orator",
+        "title": "The Orator",
+        "creator": "Tusi Tamasese",
+        "year": "2011",
+        "why": "O Le Tulafale. A small man, a taro farmer, must find the courage to speak as a chief. The first feature film in the Samoan language."
+      },
+      {
+        "id": "watch-boy",
+        "title": "Boy",
+        "creator": "Taika Waititi",
+        "year": "2010",
+        "why": "An eleven-year-old on the east coast of New Zealand in 1984, and the return of the father he has imagined."
+      },
+      {
+        "id": "watch-moananuiakea-one-ocean-one-people-one-canoe",
+        "title": "Moananuiākea: One Ocean, One People, One Canoe",
+        "creator": "Nā’ālehu Anthony",
+        "year": "2018",
+        "why": "The three-year voyage of Hōkūle’a around the world, navigated without instruments."
+      }
+    ],
+    "listen": [
+      {
+        "id": "listen-facing-future",
+        "title": "Facing Future",
+        "creator": "Israel Kamakawiwo’ole",
+        "year": "1993",
+        "why": "A huge man with a gentle tenor and a ukulele, singing for Hawaiian land and sovereignty."
+      },
+      {
+        "id": "listen-gabby",
+        "title": "Gabby",
+        "creator": "Gabby Pahinui",
+        "year": "1972",
+        "why": "The master of Hawaiian slack-key guitar, at the start of the Hawaiian cultural renaissance."
+      },
+      {
+        "id": "listen-rapa-iti",
+        "title": "Rapa Iti",
+        "creator": "The Tahitian Choir",
+        "year": "1992",
+        "why": "Massed voices from a remote island of French Polynesia, with harmonies that slide downward in a way heard nowhere else."
+      },
+      {
+        "id": "listen-tutuki",
+        "title": "Tutuki",
+        "creator": "Te Vaka",
+        "year": "2004",
+        "why": "Songs in Tokelauan, Samoan and Tuvaluan over log drums, by the group that later wrote for the film Moana."
+      }
+    ],
+    "art": [
+      {
+        "id": "art-the-moai",
+        "title": "The moai",
+        "creator": "The people of Rapa Nui",
+        "year": "about 1250 to 1500",
+        "why": "Nearly a thousand stone figures of ancestors, most of them set on platforms facing inland to watch over their descendants."
+      },
+      {
+        "id": "art-ngatu",
+        "title": "Ngatu",
+        "creator": "Tongan women",
+        "year": "living tradition",
+        "why": "Barkcloth beaten from the paper mulberry, joined into sheets up to fifty metres long and printed with brown and black designs. Given at weddings, funerals and royal occasions."
+      },
+      {
+        "id": "art-the-carved-meeting-house",
+        "title": "The carved meeting house",
+        "creator": "Māori carvers",
+        "year": "from the 19th century",
+        "why": "The house is the body of an ancestor: the ridge pole is the spine, the rafters the ribs, and carved figures along the walls are the forebears of the tribe."
+      },
+      {
+        "id": "art-the-feather-cloak-of-kalani-opu-u",
+        "title": "The feather cloak of Kalani’ōpu’u",
+        "creator": "Hawaiian featherworkers",
+        "year": "before 1779",
+        "why": "Made from the feathers of some twenty thousand birds and given by a high chief to Captain Cook. It returned to Hawai’i in 2016."
+      }
+    ],
+    "eat": [
+      {
+        "id": "eat-taro",
+        "title": "Taro",
+        "creator": "Baked, boiled, or pounded into poi",
+        "why": "The staple root. In Hawaiian tradition the taro plant is the elder brother of humankind."
+      },
+      {
+        "id": "eat-palusami",
+        "title": "Palusami",
+        "creator": "Taro leaves baked with coconut cream",
+        "why": "Wrapped in parcels and cooked in the earth oven. The centre of a Samoan Sunday lunch."
+      },
+      {
+        "id": "eat-raw-fish-in-coconut-milk",
+        "title": "Raw fish in coconut milk",
+        "creator": "’Ota ’ika, oka or poisson cru",
+        "why": "Fresh fish cured in lime juice and mixed with coconut cream, onion and tomato."
+      },
+      {
+        "id": "eat-breadfruit",
+        "title": "Breadfruit",
+        "creator": "Roasted whole in the fire",
+        "why": "One tree feeds a family for much of the year. The voyagers carried it across the ocean as cuttings."
+      }
+    ],
+    "drink": [
+      {
+        "id": "drink-kava",
+        "title": "Kava",
+        "creator": "Ground root mixed with water",
+        "why": "Earthy and numbing on the tongue. Drunk from a half coconut shell, in order of rank."
+      },
+      {
+        "id": "drink-coconut-water",
+        "title": "Coconut water",
+        "creator": "From a green nut",
+        "why": "Clean drink on islands with little fresh water."
+      },
+      {
+        "id": "drink-koko-samoa",
+        "title": "Koko Sāmoa",
+        "creator": "Samoan cocoa",
+        "why": "Roasted cacao beans pounded to a paste and boiled with water and sugar, grounds and all."
+      }
+    ],
+    "customs": [
+      {
+        "id": "customs-the-hongi",
+        "title": "The hongi",
+        "creator": "Pressing noses",
+        "why": "Māori greet by pressing nose and forehead together and sharing breath."
+      },
+      {
+        "id": "customs-giving-a-lei",
+        "title": "Giving a lei",
+        "creator": "A garland of flowers",
+        "why": "Placed around the neck of someone arriving, leaving or being honoured."
+      },
+      {
+        "id": "customs-sunday-lunch",
+        "title": "Sunday lunch",
+        "creator": "To’ona’i",
+        "why": "In Samoa the earth oven is lit before dawn on Sunday, the family goes to church in white, and everyone eats together afterwards and rests."
+      },
+      {
+        "id": "customs-sitting-to-speak",
+        "title": "Sitting to speak",
+        "creator": "Keeping low",
+        "why": "In a Samoan or Tongan house you sit cross-legged on the mat, do not stand over seated elders, and excuse yourself when passing in front of anyone."
+      }
+    ],
+    "games": [
+      {
+        "id": "games-surfing",
+        "title": "Surfing",
+        "creator": "He’e nalu · Hawai’i and Tahiti",
+        "year": "ancient",
+        "why": "Riding waves on wooden boards, by chiefs and commoners, men and women. Duke Kahanamoku took it to the world."
+      },
+      {
+        "id": "games-canoe-racing",
+        "title": "Canoe racing",
+        "creator": "Va’a · all Polynesia",
+        "year": "ancient",
+        "why": "Six paddlers in an outrigger canoe. The Hawaiki Nui race in French Polynesia covers 129 kilometres between islands over three days."
+      },
+      {
+        "id": "games-kilikiti",
+        "title": "Kilikiti",
+        "creator": "Samoan cricket",
+        "year": "from the 1880s",
+        "why": "Whole villages play, with a three-sided bat, a rubber ball, any number a side, and singing and dancing between innings."
+      },
+      {
+        "id": "games-konane",
+        "title": "Kōnane",
+        "creator": "Board game · Hawai’i",
+        "year": "ancient",
+        "why": "Black and white pebbles fill a board of pits. Players jump and remove each other’s stones, and the last to move wins."
+      },
+      {
+        "id": "games-ti-rakau",
+        "title": "Tī rākau",
+        "creator": "Stick game · Aotearoa",
+        "year": "traditional",
+        "why": "Partners kneel facing each other and throw and catch short sticks in rhythm to a chant."
+      }
+    ],
+    "festivals": [
+      {
+        "id": "fest-matariki",
+        "title": "Matariki",
+        "creator": "June or July, Aotearoa",
+        "why": "The rising of the Pleiades marks the Māori new year, a time to remember the dead, share food and plan. A public holiday in New Zealand since 2022."
+      },
+      {
+        "id": "fest-merrie-monarch-festival",
+        "title": "Merrie Monarch Festival",
+        "creator": "The week after Easter, Hilo, Hawai’i",
+        "why": "The most important hula competition, named for King Kalākaua, who brought the dance back into public life."
+      },
+      {
+        "id": "fest-heiva-i-tahiti",
+        "title": "Heiva i Tahiti",
+        "creator": "July, Papeete",
+        "why": "Weeks of dance, drumming, choral singing, canoe races and stone lifting."
+      },
+      {
+        "id": "fest-te-matatini",
+        "title": "Te Matatini",
+        "creator": "Every two years, Aotearoa",
+        "why": "The national festival of kapa haka, with dozens of teams of forty performers."
+      }
+    ],
+    "places": [
+      {
+        "id": "place-taputapuatea",
+        "title": "Taputapuātea",
+        "creator": "Ra’iātea, French Polynesia",
+        "why": "A great stone marae on a point of land facing a pass in the reef. For centuries the religious centre of eastern Polynesia, from which voyages set out."
+      },
+      {
+        "id": "place-rapa-nui",
+        "title": "Rapa Nui",
+        "creator": "Easter Island, Chile",
+        "why": "The most remote inhabited island on Earth, with its statues, quarries and the village of the birdman at Orongo."
+      },
+      {
+        "id": "place-waitangi-treaty-grounds",
+        "title": "Waitangi Treaty Grounds",
+        "creator": "Bay of Islands, New Zealand",
+        "why": "Where the treaty between Māori chiefs and the British Crown was first signed on 6 February 1840."
+      },
+      {
+        "id": "place-pu-uhonua-o-honaunau",
+        "title": "Pu’uhonua o Hōnaunau",
+        "creator": "Hawai’i Island",
+        "why": "A place of refuge behind a massive stone wall. Anyone who had broken a kapu and reached it could be absolved."
+      },
+      {
+        "id": "place-ha-amonga-a-maui",
+        "title": "Ha’amonga ’a Maui",
+        "creator": "Tongatapu, Tonga",
+        "why": "A gateway of three coral limestone blocks, each of some thirty tons, raised about 1200."
+      },
+      {
+        "id": "place-te-papa-tongarewa",
+        "title": "Te Papa Tongarewa",
+        "creator": "Wellington, New Zealand",
+        "why": "The national museum, run in partnership with Māori, with a working marae inside it."
+      }
+    ]
+  },
+  "ethics": [
+    {
+      "title": "Aloha",
+      "text": "Meet others with kindness and without conditions.",
+      "practice": "Greet a stranger warmly today."
+    },
+    {
+      "title": "Respect",
+      "text": "Honour elders, guests and those of rank.",
+      "practice": "Lower yourself, in posture or in words, before someone older."
+    },
+    {
+      "title": "Service",
+      "text": "Look after the family before yourself.",
+      "practice": "Do one thing for the household that nobody sees."
+    },
+    {
+      "title": "Generosity",
+      "text": "Give freely, above all food.",
+      "practice": "Share a meal with someone outside your household."
+    },
+    {
+      "title": "Reciprocity",
+      "text": "What is given must be returned in time.",
+      "practice": "Return a kindness you have left unanswered."
+    },
+    {
+      "title": "Guardianship",
+      "text": "Protect land and sea for those who come after.",
+      "practice": "Pick up what the tide or the wind has left."
+    }
+  ],
+  "philosophy": [
+    {
+      "title": "Mana",
+      "text": "Standing comes from ancestors and is kept by conduct. To act generously and well increases it for your whole family.",
+      "practice": "What have you done lately that added to your family’s standing?"
+    },
+    {
+      "title": "Tapu and noa",
+      "text": "Some things are set apart and some are ordinary, and life depends on keeping them distinct.",
+      "practice": "What do you treat as sacred?"
+    },
+    {
+      "title": "A sea of islands",
+      "text": "Hau’ofa argued that the Pacific is not small islands in a far sea but a great ocean that joins its peoples.",
+      "practice": "What looks like a barrier in your life that is really a road?"
+    },
+    {
+      "title": "Walking backwards",
+      "text": "The past lies in front, where it can be seen. The future is behind, unseen.",
+      "practice": "What in your past should you keep your eyes on?"
+    },
+    {
+      "title": "The vā",
+      "text": "A relationship is a space with its own life, and both sides are responsible for it.",
+      "practice": "Which space between you and another needs tending?"
+    },
+    {
+      "title": "Kuleana",
+      "text": "A right and a responsibility are the same thing looked at from two sides.",
+      "practice": "What right of yours carries a duty you have ignored?"
+    },
+    {
+      "title": "Land as kin",
+      "text": "The land is an elder that feeds the family, not a possession.",
+      "practice": "What do you owe the ground you live on?"
+    },
+    {
+      "title": "The navigator",
+      "text": "The wayfinder holds the whole voyage in the mind and reads every sign, and the island comes to the canoe.",
+      "practice": "What are you steering toward, and what are the signs?"
+    }
+  ],
+  "journal": [
+    "Whose descendant are you, and whose ancestor will you be?",
+    "What names did you say this morning?",
+    "What did the water do for you?",
+    "Whom did you serve?",
+    "Who ate before you?",
+    "Which relationship did you tend?",
+    "Where did the sun set?",
+    "Which way was the wind?",
+    "What is yours to look after?",
+    "What did you give away?",
+    "What did you receive that you must return?",
+    "Whom did you welcome?",
+    "What did you do together with others?",
+    "Where were you out of balance?",
+    "What needs to be forgiven?",
+    "What do you hold sacred?",
+    "What story about your family do you tell?",
+    "Which ancestor are you most like?",
+    "What land fed you today?",
+    "What joins you to people far away?",
+    "Whom did you treat as family who is not kin?",
+    "What did you learn from someone older?",
+    "What added to your standing, and what took from it?",
+    "What are you steering toward?",
+    "What sign did you miss?",
+    "Where is home?",
+    "What would you carry in the canoe?",
+    "What did you sing or hear sung?",
+    "What will you hand on?",
+    "Who are your people?"
+  ],
+  "reflect": [
+    "What do you now know about where you come from?",
+    "What did the water become to you?",
+    "How did serving first change your household?",
+    "Which space between you and another is in better order?",
+    "What can you read in the sky?",
+    "Which rule will you keep?"
+  ],
+  "dayThemes": [
+    "The names",
+    "Genealogy",
+    "The homeland",
+    "The ocean",
+    "Into the water",
+    "The canoe",
+    "Paddling in time",
+    "The star",
+    "The swell",
+    "The bird",
+    "Landfall",
+    "The land that feeds",
+    "Taro",
+    "The earth oven",
+    "The guest",
+    "Service",
+    "The chief who serves",
+    "Respect",
+    "The space between",
+    "Making right",
+    "Mana",
+    "Sacred and ordinary",
+    "The right that is a duty",
+    "The meeting ground",
+    "Talk without an agenda",
+    "The dance",
+    "Many hands",
+    "A sea of islands",
+    "Walking backwards",
+    "It is people"
+  ],
+  "guide": {
+    "intro": [
+      "Polynesia, the many islands, is the name given to a vast triangle of the Pacific with its corners at Hawai’i in the north, Aotearoa New Zealand in the south-west and Rapa Nui, or Easter Island, in the east. Inside it lie Samoa, Tonga, Tahiti and the Society Islands, the Marquesas, the Cook Islands, Niue, Tokelau, Tuvalu and many more. The triangle covers an area larger than Africa, almost all of it water. The peoples who live there are distinct nations with their own histories, yet they speak closely related languages and share ancestors, gods and customs.",
+      "Those ancestors were seafarers who came out of island South-East Asia some three and a half thousand years ago. They are known to archaeology by their decorated pottery, called Lapita. By about 900 BC they had reached Tonga and Samoa, where over the following centuries a Polynesian culture took form. Then, from about a thousand years ago, their descendants sailed east and settled every habitable island across thousands of kilometres within a few generations. They reached Hawai’i and Rapa Nui, and around 1250 to 1300 Aotearoa, the last large land on Earth to be settled. The sweet potato, an American plant, shows that some of them reached South America and returned.",
+      "They did it in double-hulled sailing canoes, carrying families, pigs, dogs, chickens and the roots and cuttings of taro, breadfruit, banana and coconut. Navigators steered without instruments, by the stars, the swells, the winds and the birds. On land they built societies ordered by genealogy and rank. Chiefs traced their descent from the gods and held mana, a sacred power that had to be protected by rules of tapu. Orators, priests, navigators, carvers and tattooists were honoured specialists. History and knowledge were held in memory and performed in chant, speech and dance.",
+      "Europeans began to arrive in number in the late eighteenth century. They brought diseases that killed a large share of the population, followed by missionaries, traders and colonial rule. Almost all Polynesians became Christian, and the churches are now at the heart of community life. The Hawaiian kingdom was overthrown in 1893 and annexed by the United States. Māori signed a treaty with the British Crown in 1840 and then lost most of their land. Tahiti became French. Tonga alone kept its own monarchy throughout. Samoa regained independence in 1962, the first in the Pacific to do so.",
+      "Since the 1970s there has been a strong cultural revival. Languages that were close to dying are taught in immersion schools. Hula, haka, tattoo and carving have returned to the centre of life. In 1976 the canoe Hōkūle’a sailed from Hawai’i to Tahiti by traditional navigation and proved that the old voyages had been deliberate. Large Polynesian communities now live in Auckland, Sydney, Honolulu and California.",
+      "This Onda takes its practices from values that Polynesians share and speak of openly, and leaves ceremonies to those they belong to: knowing your descent, going to the water, serving first, tending relationships and reading the sky."
+    ],
+    "origin": "The islands of the central and eastern Pacific, within the triangle of Hawai’i, Aotearoa New Zealand and Rapa Nui",
+    "era": "The ancestors of the Polynesians reached Tonga and Samoa about 900 BC. Some two million people of Polynesian descent live in the islands and abroad today",
+    "figures": [
+      {
+        "name": "Kupe",
+        "dates": "traditional, perhaps the 10th to 13th century",
+        "bio": "The navigator who, in Māori tradition, discovered Aotearoa while chasing a great octopus across the ocean, and returned home with sailing directions."
+      },
+      {
+        "name": "Tupaia",
+        "dates": "about 1725 to 1770",
+        "bio": "A high priest and navigator of Ra’iātea who joined Cook’s first voyage, drew a chart of more than seventy islands and spoke for the ship to Māori, whose language he could follow."
+      },
+      {
+        "name": "Kamehameha I",
+        "dates": "about 1758 to 1819",
+        "bio": "The chief of Hawai’i Island who brought all the Hawaiian islands under one rule by 1810."
+      },
+      {
+        "name": "Lili'uokalani",
+        "dates": "1838 to 1917",
+        "bio": "The last monarch of Hawai’i, deposed in 1893. A composer of more than a hundred and fifty songs."
+      },
+      {
+        "name": "Tupua Tamasese Lealofi III",
+        "dates": "1901 to 1929",
+        "bio": "A leader of the Mau, the peaceful Samoan movement for independence. He was shot by New Zealand police during a march and died asking that no blood be shed in return."
+      },
+      {
+        "name": "Te Puea Hērangi",
+        "dates": "1883 to 1952",
+        "bio": "A Waikato leader who rebuilt her people after land confiscation and war, nursing them through epidemics and founding a great marae with her own labour."
+      },
+      {
+        "name": "Mary Kawena Pukui",
+        "dates": "1895 to 1986",
+        "bio": "A Hawaiian scholar, dancer and translator who recorded the language, proverbs and customs of her people in more than fifty books."
+      },
+      {
+        "name": "Queen Sālote Tupou III",
+        "dates": "1900 to 1965",
+        "bio": "She ruled Tonga for forty-seven years, wrote poetry and song and guided her country through the colonial era with its independence intact."
+      },
+      {
+        "name": "Duke Kahanamoku",
+        "dates": "1890 to 1968",
+        "bio": "A Hawaiian swimmer who won five Olympic medals and carried surfing to Australia and California."
+      },
+      {
+        "name": "Dame Whina Cooper",
+        "dates": "1895 to 1994",
+        "bio": "At seventy-nine she led a march of a thousand kilometres to Parliament to protest the loss of Māori land."
+      },
+      {
+        "name": "Epeli Hau'ofa",
+        "dates": "1939 to 2009",
+        "bio": "A Tongan anthropologist, satirist and teacher in Fiji whose essays changed how Pacific peoples speak of themselves."
+      },
+      {
+        "name": "Nainoa Thompson",
+        "dates": "born 1953",
+        "bio": "The first Hawaiian in some six centuries to navigate a canoe to Tahiti without instruments. He learned from the Micronesian master Mau Piailug."
+      }
+    ],
+    "history": [
+      {
+        "when": "About 900 BC",
+        "what": "Tonga and Samoa",
+        "detail": "Lapita voyagers settle the western edge of the triangle. Over the next thousand years a distinct Polynesian culture and language emerge there."
+      },
+      {
+        "when": "About AD 1000 to 1150",
+        "what": "The great voyages east",
+        "detail": "Canoes reach the Society Islands and the Marquesas and, soon after, the far corners."
+      },
+      {
+        "when": "About 1200",
+        "what": "Hawai’i and Rapa Nui",
+        "detail": "Both are settled within a century or so. Contact is also made with South America, where the sweet potato is obtained."
+      },
+      {
+        "when": "About 1250 to 1300",
+        "what": "Aotearoa",
+        "detail": "The ancestors of Māori arrive from the tropics in a planned migration of several canoes."
+      },
+      {
+        "when": "1595 and 1722",
+        "what": "First European sightings",
+        "detail": "A Spanish expedition reaches the Marquesas. A Dutch one finds Rapa Nui on Easter Sunday."
+      },
+      {
+        "when": "1769 to 1779",
+        "what": "Cook’s voyages",
+        "detail": "James Cook charts Tahiti, New Zealand and Hawai’i with the help of Tupaia and others, and is killed at Kealakekua Bay."
+      },
+      {
+        "when": "1797 to 1830",
+        "what": "The missions",
+        "detail": "Protestant missionaries land at Tahiti, then Hawai’i, Tonga and Samoa. In 1819 Hawaiian chiefs abolish the kapu system."
+      },
+      {
+        "when": "6 February 1840",
+        "what": "The Treaty of Waitangi",
+        "detail": "Māori chiefs and the Crown sign an agreement whose two language versions differ on the question of sovereignty."
+      },
+      {
+        "when": "1862 to 1863",
+        "what": "The slave raids",
+        "detail": "Ships from Peru carry off some fifteen hundred people from Rapa Nui and hundreds from other islands. Almost none return, and disease follows."
+      },
+      {
+        "when": "17 January 1893",
+        "what": "The overthrow in Hawai’i",
+        "detail": "American businessmen backed by marines depose Queen Lili’uokalani. The United States annexes the islands in 1898."
+      },
+      {
+        "when": "1918 and 1929",
+        "what": "Samoa under New Zealand",
+        "detail": "Influenza admitted by the administration kills about a fifth of the people of Western Samoa. Eleven years later police fire on a Mau procession."
+      },
+      {
+        "when": "1 January 1962",
+        "what": "Samoan independence",
+        "detail": "Western Samoa becomes the first independent Pacific island state. Tonga ends its protected status in 1970."
+      },
+      {
+        "when": "1975 and 1976",
+        "what": "Revival",
+        "detail": "Whina Cooper leads the land march and the Waitangi Tribunal is set up. Hōkūle’a sails to Tahiti in a month."
+      },
+      {
+        "when": "2013 to 2017",
+        "what": "Around the world",
+        "detail": "Hōkūle’a sails some sixty thousand kilometres to carry the message of caring for the Earth."
+      }
+    ],
+    "concepts": [
+      {
+        "term": "Mana and tapu",
+        "text": "Power and its protection.",
+        "detail": "Mana flows from the gods through the ancestors. Tapu is the set of restrictions that guards it. Together they ordered rank, land, food, birth and death."
+      },
+      {
+        "term": "Genealogy",
+        "text": "Identity as descent.",
+        "detail": "Lines of descent tie each person to a place, a canoe and a god. Land rights, titles and marriages all turn on them."
+      },
+      {
+        "term": "Wayfinding",
+        "text": "Navigation without instruments.",
+        "detail": "The navigator memorises the rising and setting points of hundreds of stars, reads several swells at once and keeps a running picture of the canoe’s position."
+      },
+      {
+        "term": "Chiefs and service",
+        "text": "Rank with obligations.",
+        "detail": "Chiefs hold the land and titles on behalf of the family and must provide for it. In Samoa titles are conferred by the family on those who have served."
+      },
+      {
+        "term": "The gift",
+        "text": "Exchange that binds.",
+        "detail": "Fine mats, barkcloth, food and money move between families at weddings, funerals and title ceremonies. Giving creates ties and standing."
+      },
+      {
+        "term": "Oratory",
+        "text": "Speech as an art.",
+        "detail": "Formal speeches rich in proverb and genealogy open every important occasion. Samoa has a class of chiefs who are orators by title."
+      },
+      {
+        "term": "The earth oven and the feast",
+        "text": "Food shared in order.",
+        "detail": "Food cooked together and distributed by rank makes visible the relationships of everyone present."
+      },
+      {
+        "term": "Care for land and sea",
+        "text": "People as the younger kin of nature.",
+        "detail": "Seasonal bans on fishing or harvesting, called rāhui in Māori and kapu in Hawaiian, let stocks recover."
+      },
+      {
+        "term": "The sea of islands",
+        "text": "One connected ocean.",
+        "detail": "Voyaging, trade and marriage linked the archipelagos for centuries. Modern migration continues the pattern."
+      }
+    ],
+    "facts": [
+      {
+        "text": "When Tupaia reached New Zealand with Cook in 1769 he could talk with Māori, though their ancestors had parted hundreds of years before."
+      },
+      {
+        "text": "The English words taboo and tattoo both come from Polynesian languages."
+      },
+      {
+        "text": "The Polynesian word for sweet potato, kūmara, resembles its name in languages of the Andes."
+      },
+      {
+        "text": "Auckland has the largest Polynesian population of any city in the world."
+      },
+      {
+        "text": "Tonga is the only Pacific island nation never to have been formally colonised."
+      },
+      {
+        "text": "Hōkūle’a sailed from Hawai’i to Tahiti in 1976 in thirty-four days, navigated by Mau Piailug of Satawal."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Aotearoa",
+        "meaning": "The Māori name for New Zealand, often translated as land of the long white cloud"
+      },
+      {
+        "term": "Lapita",
+        "meaning": "The ancestral culture of the Polynesians, named after a site in New Caledonia"
+      },
+      {
+        "term": "Matai",
+        "meaning": "A Samoan titled chief, the head of an extended family"
+      },
+      {
+        "term": "Ali'i, ariki",
+        "meaning": "A chief of high rank, in Hawaiian and in Māori and Cook Islands usage"
+      },
+      {
+        "term": "Pākehā and Pālagi",
+        "meaning": "The Māori and Samoan words for people of European descent"
+      },
+      {
+        "term": "Kapa haka",
+        "meaning": "Māori performing arts: song, dance and haka by a group in rows"
+      }
+    ],
+    "furtherReading": [
+      {
+        "title": "On the Road of the Winds: An Archaeological History of the Pacific Islands before European Contact",
+        "creator": "Patrick Vinton Kirch",
+        "year": "revised edition 2017",
+        "note": "The standard account of how and when the islands were settled."
+      },
+      {
+        "title": "Voyage of Rediscovery: A Cultural Odyssey through Polynesia",
+        "creator": "Ben Finney",
+        "year": "1994",
+        "note": "The story of Hōkūle’a by one of those who built her."
+      },
+      {
+        "title": "Tikanga Māori: Living by Māori Values",
+        "creator": "Hirini Moko Mead",
+        "year": "2003",
+        "note": "A clear guide to the principles behind Māori custom by a Māori scholar."
+      },
+      {
+        "title": "’Ōlelo No’eau: Hawaiian Proverbs and Poetical Sayings",
+        "creator": "Mary Kawena Pukui",
+        "year": "1983",
+        "note": "Nearly three thousand sayings with translations and explanations."
+      }
+    ],
+    "learnFrom": [
+      {
+        "name": "Polynesian Voyaging Society",
+        "note": "The home of Hōkūle’a, with lessons on wayfinding and the star compass.",
+        "link": "https://www.hokulea.com"
+      },
+      {
+        "name": "Te Ara, the Encyclopedia of New Zealand",
+        "note": "Authoritative entries on Māori history and custom, many written by Māori scholars.",
+        "link": "https://teara.govt.nz"
+      },
+      {
+        "name": "Ulukau, the Hawaiian Electronic Library",
+        "note": "Dictionaries, newspapers and books in Hawaiian and English, free to read.",
+        "link": "https://ulukau.org"
+      },
+      {
+        "name": "A Pacific community near you",
+        "note": "Churches, cultural groups and festivals in many cities welcome visitors. Go as a guest and listen."
+      }
+    ],
+    "sources": [
+      {
+        "title": "On the Road of the Winds",
+        "creator": "Patrick Vinton Kirch",
+        "publisher": "University of California Press",
+        "year": "2017"
+      },
+      {
+        "title": "We Are the Ocean: Selected Works",
+        "creator": "Epeli Hau'ofa",
+        "publisher": "University of Hawai'i Press",
+        "year": "2008"
+      },
+      {
+        "title": "’Ōlelo No’eau: Hawaiian Proverbs and Poetical Sayings",
+        "creator": "Mary Kawena Pukui",
+        "publisher": "Bishop Museum Press",
+        "year": "1983"
+      },
+      {
+        "title": "Tikanga Māori: Living by Māori Values",
+        "creator": "Hirini Moko Mead",
+        "publisher": "Huia Publishers",
+        "year": "2003"
+      },
+      {
+        "title": "Sea People: The Puzzle of Polynesia",
+        "creator": "Christina Thompson",
+        "publisher": "Harper",
+        "year": "2019"
+      },
+      {
+        "title": "High-precision radiocarbon dating shows recent and rapid initial human colonization of East Polynesia",
+        "creator": "Janet M. Wilmshurst and others",
+        "publisher": "Proceedings of the National Academy of Sciences, volume 108",
+        "year": "2011"
+      }
+    ]
+  },
+  "sensitivity": {
+    "note": "Polynesia is many living nations, each with its own language and customs. This Onda was written by outsiders from published sources. It draws on shared values, names the people each word belongs to, and should be reviewed by Polynesian readers.",
+    "requiredCaveats": [
+      "Haka, hula, tattoo, kava ceremonies and formal introductions belong to particular peoples and are learned from them. Nothing here asks you to perform them.",
+      "Customs differ greatly between island groups. What is right in Samoa may be wrong in Hawai’i or Aotearoa.",
+      "Colonisation, land loss and nuclear testing are recent, and questions of sovereignty in Hawai’i, Aotearoa, Tahiti and Rapa Nui are still open.",
+      "The popular one-line version of ho’oponopono is a modern adaptation. The traditional practice is a guided family process."
+    ],
+    "reviewRequired": true
+  }
+}

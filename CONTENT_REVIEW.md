@@ -884,3 +884,34 @@ Marked `unverified` (2):
 
 - Quote: "Butter, bread and green cheese: whoever cannot say that is no true Frisian." (Attributed to Grutte Pier; Bûter, brea en griene tsiis; wa’t dat net sizze kin, is gjin oprjochte Fries. By tradition the test he put to captured sailors, about 1515)
 - Quote: "We Frisians kneel only before God." (Attributed to Gemme van Burmania; Said to have been his answer in 1555 when told to kneel to Philip II. A tradition, first recorded later)
+
+## Polynesian
+
+File: `content/ondas/polynesia.json` · version 1 · about 5000 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
+
+**Needs review by tradition bearers before launch.** Polynesia is many living nations, each with its own language and customs. This Onda was written by outsiders from published sources. It draws on shared values, names the people each word belongs to, and should be reviewed by Polynesian readers.
+
+Caveats shown in the app:
+
+- Haka, hula, tattoo, kava ceremonies and formal introductions belong to particular peoples and are learned from them. Nothing here asks you to perform them.
+- Customs differ greatly between island groups. What is right in Samoa may be wrong in Hawai’i or Aotearoa.
+- Colonisation, land loss and nuclear testing are recent, and questions of sovereignty in Hawai’i, Aotearoa, Tahiti and Rapa Nui are still open.
+- The popular one-line version of ho’oponopono is a modern adaptation. The traditional practice is a guided family process.
+
+Nothing is marked `unverified`.
+
+
+## Melanesian
+
+File: `content/ondas/melanesia.json` · version 1 · about 5300 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
+
+**Needs review by tradition bearers before launch.** Melanesia holds more than a thousand distinct peoples, and no summary can speak for them. This Onda was written by outsiders from published sources, draws on everyday values held widely across the region, and should be reviewed by Melanesian readers.
+
+Caveats shown in the app:
+
+- Every word here comes from a particular language, which is named. Customs of the highlands, the coasts, Vanuatu, the Kanak country and Fiji differ greatly.
+- Initiations, spirit houses, masks and much ritual knowledge are restricted, often to initiated men or to women. Nothing here asks you to imitate them.
+- The name Melanesia was given by Europeans on the basis of skin colour. Many people now use it proudly, and many prefer the name of their own people.
+- Much classic writing on the region is by foreign anthropologists. Read Melanesian authors alongside them. The future of West Papua, Bougainville and New Caledonia is contested and unresolved.
+
+Nothing is marked `unverified`.

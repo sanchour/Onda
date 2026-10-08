@@ -2,7 +2,7 @@ import { Suspense, lazy, useEffect, useLayoutEffect, useRef } from 'react'
 import { useTranslation } from 'react-i18next'
 import { preloadAllOndas } from '@/content'
 import { useActiveRun, useDark, useLook, useOndaIndex, useSettings } from '@/data/hooks'
-import { accentFor } from '@/lib/color'
+import { accentFor, mix } from '@/lib/color'
 import i18n from '@/i18n'
 import { refreshEntitlement } from '@/sync/entitlement'
 import { useStore } from '@/data/store'
@@ -50,7 +50,7 @@ function Tabs() {
         <TabBar<Tab>
           items={[
             { key: 'ondas', icon: 'waves', label: t('tabs.ondas') },
-            { key: 'lagos', icon: 'wave-sine', label: t('tabs.lagos') },
+            { key: 'lagos', icon: 'wave-sine', label: t('tabs.lagos'), wave: true },
             { key: 'stats', icon: 'chart-bar', label: t('tabs.stats') },
           ]}
           activeKey={tab}
@@ -82,9 +82,6 @@ function useShell() {
   useLayoutEffect(() => {
     const root = document.documentElement
     root.dataset.theme = dark ? 'dark' : 'light'
-    const bg = dark ? '#1B1C1F' : '#F5F1E8'
-    document.querySelector('meta[name="theme-color"]')?.setAttribute('content', bg)
-    document.querySelector('meta[name="apple-mobile-web-app-status-bar-style"]')?.setAttribute('content', dark ? 'black-translucent' : 'default')
     try {
       localStorage.setItem('onda.theme', mode)
     } catch {
@@ -92,13 +89,24 @@ function useShell() {
     }
   }, [dark, mode])
 
-  // The accent follows the running Onda everywhere except the Lagos tab (and what is opened from it), which stays blue.
-  const tab = useNav((n) => n.tab)
+  // The accent, and a very light wash behind every screen, follow the running Onda in all three tabs and in Settings.
+  // Turning the wash off (Settings, Appearance) returns the plain light or dark background.
   const run = useActiveRun()
   const look = useLook(useOndaIndex(run?.ondaId))
+  const tint = useSettings().ondaTint
   useLayoutEffect(() => {
     const root = document.documentElement
-    if (tab === 'lagos' || !run) {
+    const base = dark ? { grouped: '#1B1C1F', page: '#1B1C1F' } : { grouped: '#F5F1E8', page: '#FDFBF6' }
+    const wash = run && tint ? { grouped: mix(base.grouped, look.solid, dark ? 0.34 : 0.3), page: mix(base.page, look.solid, dark ? 0.34 : 0.14) } : null
+    for (const [k, v] of [['--surface-grouped', wash?.grouped], ['--surface-page', wash?.page]] as const) {
+      if (v) root.style.setProperty(k, v)
+      else root.style.removeProperty(k)
+    }
+    const bg = wash?.grouped ?? base.grouped
+    root.style.backgroundColor = bg
+    document.body.style.backgroundColor = bg
+    document.querySelector('meta[name="theme-color"]')?.setAttribute('content', bg)
+    if (!run) {
       root.style.removeProperty('--accent')
       root.style.removeProperty('--accent-contrast')
       return
@@ -106,7 +114,7 @@ function useShell() {
     const { accent, on } = accentFor(look.strong, dark)
     root.style.setProperty('--accent', accent)
     root.style.setProperty('--accent-contrast', on)
-  }, [tab, run, look.strong, dark])
+  }, [run, look.strong, look.solid, dark, tint])
 
   useEffect(() => {
     // On-screen keyboard height, so sheets can keep the focused field visible
@@ -192,6 +200,7 @@ export function App() {
         </Suspense>
       )}
       <SheetHost />
+      <div className={navCss.statusFill} aria-hidden />
       {menu && <Menu spec={menu} onClose={closeMenu} />}
       <Overlays />
     </div>

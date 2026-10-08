@@ -24,7 +24,7 @@ import { RulerPicker } from '@/ui/pickers'
 import m from './more.module.css'
 import s from './screens.module.css'
 
-const APP_VERSION = '1.4'
+const APP_VERSION = '2.0'
 const BUILD = '1'
 const HUB: [string, SettingsPage][] = [['seal-check', 'subscription'], ['paint-brush', 'appearance'], ['bell', 'notifications'], ['sparkle', 'practice'], ['arrows-clockwise', 'integrations'], ['database', 'data'], ['lock', 'privacy'], ['question', 'help']]
 
@@ -133,6 +133,7 @@ export default function Settings({ entry }: { entry: Extract<StackEntry, { name:
         <div className={m.gap28}>
           <ListSection footer={`${t('settings.display.footer')} ${t('settings.display.textSize')}`}>
             <ListRow icon="paint-brush" title={t('settings.display.themes')} {...sw('ondaThemes')} />
+            <ListRow icon="drop" title={t('settings.display.tint')} {...sw('ondaTint')} />
           </ListSection>
         </div>
       </>

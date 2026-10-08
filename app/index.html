@@ -10,7 +10,7 @@
     <meta name="apple-mobile-web-app-title" content="Onda" />
     <meta name="application-name" content="Onda" />
     <!-- default in light, black-translucent in dark: the inline script below sets it at launch, App.tsx keeps it in step -->
-    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <meta name="theme-color" content="#F5F1E8" />
     <meta name="color-scheme" content="light dark" />
     <meta name="format-detection" content="telephone=no, date=no, address=no, email=no" />
@@ -50,10 +50,7 @@
       try {
         var m = localStorage.getItem('onda.theme');
         if (m) document.documentElement.dataset.theme = m === 'auto' ? (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : m;
-        // iOS reads the status bar style when the app launches, so set it now from the saved appearance:
-        // dark gets a translucent bar that shows the dark page behind it (no white strip).
         var d = document.documentElement.dataset.theme === 'dark';
-        document.querySelector('meta[name=apple-mobile-web-app-status-bar-style]').setAttribute('content', d ? 'black-translucent' : 'default');
         document.querySelector('meta[name=theme-color]').setAttribute('content', d ? '#1B1C1F' : '#F5F1E8');
       } catch (e) {}
     </script>

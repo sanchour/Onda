@@ -51,6 +51,14 @@ Trial and purchase are an **app-level entitlement**: the server sets `trial_star
 - **Calendar.** Add to Calendar is reachable from the Ondas and Lagos tabs and from editing a Lago. Reminders itself still needs Shortcuts or a native wrapper.
 - **Launch tab** is Ondas. The small beta note on the Ondas+ page is removed.
 
+## Update 2.0
+
+- **Wash.** The running Onda tints the page background (about 30% of its pastel over cream in light mode, 34% over charcoal in dark mode) and the accent follows it in all three tabs and in Settings. Settings, Appearance, "Onda background tint" turns it off and returns the plain light or dark background. No Onda running means no tint.
+- **Status bar (not verified on a device).** iOS only reads `apple-mobile-web-app-status-bar-style` at launch and `black-translucent` always draws white text, so a runtime switch is not possible. The page now always uses `black-translucent`: the page background shows through and follows dark or light on its own. In light mode a band of the accent colour (white text passes 4.5:1 on it) sits behind the status bar and fades out below it; in dark mode it is transparent.
+- **Browse Ondas** is grouped into four: religions and spiritual traditions, philosophy and schools of thought, empires and states, cultures and eras. `src/content/browse.ts` holds the grouping and the greyed placeholders (not buttons, no content). The Nazi Germany placeholder is only a name; if it is ever built it needs the same sensitivity review as the other flagged Ondas, framed as history, with no glorification.
+- **Navigation.** The Onda card on the Ondas tab opens the full guide. The old Today page is still reachable through Browse Ondas (the running Onda is marked Active), which is where Final reflection and End Onda live. Journal, Philosophy and Rules are pushed pages; Rules is read-only and no longer a tab under Today. The Calendar export lives only in Settings, Integrations.
+- **Lagos and Stats** borrow the running Onda's type, ornament divider, bar shapes and calendar marks. Hero cards got a fine inner line and a soft highlight.
+
 ## Cultural care
 
 Native American Animism, Ubuntu, Tibetan Buddhism and Sufism are flagged `reviewRequired` and carry a framing note shown before the Onda begins. No closed ceremony is offered, which a test enforces. All four need review by tradition bearers before launch, as does the use of the word "animism". See `CONTENT_REVIEW.md`: all content was written without live fact-checking, and that file says so.

@@ -4,7 +4,8 @@ import { ONDA_INDEX, loadOnda } from '@/content'
 import { canBeginOnda, plusState } from '@/data/entitlement'
 import { useLookFn } from '@/data/hooks'
 import { useStore } from '@/data/store'
-import { fromClock, now, toClock } from '@/lib/dates'
+import { now } from '@/lib/dates'
+import { columnWidth, fitSize } from '@/lib/fit'
 import { EASE_ENTER, PUSH_MS, reducedMotion } from '@/lib/motion'
 import { ChromeTitle } from '@/nav/Screen'
 import navCss from '@/nav/nav.module.css'
@@ -12,7 +13,7 @@ import { nav } from '@/nav/store'
 import { Button, GlassButton } from '@/ui/buttons'
 import { ProgressRing, StepBar } from '@/ui/data'
 import { Icon } from '@/ui/Icon'
-import { RulerPicker, WheelPicker } from '@/ui/pickers'
+import { RulerPicker } from '@/ui/pickers'
 import s from './screens.module.css'
 
 /** The Onda chosen on the last step. It begins once the paywall closes, if the user is entitled to it. */
@@ -30,18 +31,13 @@ export async function beginPendingOnda() {
   }
 }
 
-const HOURS = Array.from({ length: 12 }, (_, i) => ({ value: i + 1, label: String(i + 1) }))
-const MINS = [0, 15, 30, 45].map((m) => ({ value: m, label: (m < 10 ? '0' : '') + m }))
-const AP = [{ value: 'AM', label: 'AM' }, { value: 'PM', label: 'PM' }]
-
-/** First run: three intro pages, then length, reminder time and first Onda. No Skip anywhere. */
+/** First run: three intro pages, then length and first Onda. No Skip anywhere. */
 export default function Onboarding() {
   const { t } = useTranslation()
   const look = useLookFn()
   const settings = useStore((st) => st.user?.settings)
   const [step, setStep] = useState(0)
   const [len, setLen] = useState(settings?.defaultOndaLength ?? 14)
-  const [time, setTime] = useState(() => fromClock(settings?.reminderTime ?? '08:00'))
   const [pick, setPick] = useState('stoic')
   const pane = useRef<HTMLDivElement>(null)
   const last = useRef(0)
@@ -57,11 +53,11 @@ export default function Onboarding() {
 
   const finish = () => {
     pendingFirstOnda = { id: pick, length: len }
-    useStore.getState().updateSettings({ onboarded: true, defaultOndaLength: len, reminderTime: toClock(time.h, time.m, time.ap) })
+    useStore.getState().updateSettings({ onboarded: true, defaultOndaLength: len })
     nav().popToRoot('ondas')
     nav().push({ name: 'paywall' })
   }
-  const next = () => (step < 5 ? setStep(step + 1) : finish())
+  const next = () => (step < 4 ? setStep(step + 1) : finish())
 
   const lagoCard = (icon: string, name: string, meta: string, ring: number) => (
     <div key={name} className={s.obCard}>
@@ -96,7 +92,6 @@ export default function Onboarding() {
   ]
   const setup = [
     { q: t('onboarding.qLength'), h: t('onboarding.hLength') },
-    { q: t('onboarding.qTime'), h: t('onboarding.hTime') },
     { q: t('onboarding.qPick'), h: t('onboarding.hPick') },
   ]
   const intro = step < 3
@@ -131,7 +126,7 @@ export default function Onboarding() {
           </>
         ) : (
           <>
-            <StepBar value={(step - 2) / 3} style={{ marginTop: 'calc(var(--chrome-top) + 56px)' }} />
+            <StepBar value={(step - 2) / 2} style={{ marginTop: 'calc(var(--chrome-top) + 56px)' }} />
             <h1 className={s.obQuestion}>{su.q}</h1>
             <div className={s.obHint}>{su.h}</div>
             {step === 3 && (
@@ -142,21 +137,10 @@ export default function Onboarding() {
               </div>
             )}
             {step === 4 && (
-              <div className={s.obPicker}>
-                <WheelPicker
-                  columns={[
-                    { items: HOURS, value: time.h, onChange: (v) => setTime((x) => ({ ...x, h: Number(v) })), ariaLabel: t('common.hour') },
-                    { items: MINS, value: MINS.some((m) => m.value === time.m) ? time.m : 0, onChange: (v) => setTime((x) => ({ ...x, m: Number(v) })), ariaLabel: t('common.minute') },
-                    { items: AP, value: time.ap, onChange: (v) => setTime((x) => ({ ...x, ap: v as 'AM' | 'PM' })), ariaLabel: t('common.period') },
-                  ]}
-                />
-              </div>
-            )}
-            {step === 5 && (
               <div className={`scroll ${s.obPicks}`} role="radiogroup" aria-label={su.q}>
                 {ONDA_INDEX.map((o) => (
                   <button key={o.id} type="button" role="radio" aria-checked={pick === o.id} className={pick === o.id ? `${s.obPick} ${s.obPickOn}` : s.obPick} style={look(o).vars} onClick={() => setPick(o.id)}>
-                    <span className={s.obPickName}>{o.name}</span>
+                    <span className={s.obPickName} style={{ fontSize: fitSize(o.name, columnWidth() / 2 - 70, 20, 12, look(o).caps) }}>{o.name}</span>
                     <span className={s.obPickOrigin}>{o.origin}</span>
                   </button>
                 ))}
@@ -167,7 +151,7 @@ export default function Onboarding() {
       </div>
       <div className={s.obCta}>
         <Button fullWidth onClick={next}>
-          {step < 3 ? t('common.continue') : step < 5 ? t('common.next') : t('onboarding.getStarted')}
+          {step < 3 ? t('common.continue') : step < 4 ? t('common.next') : t('onboarding.getStarted')}
         </Button>
       </div>
     </div>

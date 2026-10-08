@@ -16,6 +16,10 @@ export type Route =
   | { name: 'onda'; id: string; length?: number }
   | { name: 'immersion'; kind?: MediaKind }
   | { name: 'guide'; ondaId: string }
+  | { name: 'journal' }
+  | { name: 'philosophy' }
+  | { name: 'rules' }
+  | { name: 'pickOndas' }
   | { name: 'reflection' }
   | { name: 'done'; ondaId: string; kept: number }
   | { name: 'settings'; page?: SettingsPage }
@@ -26,10 +30,8 @@ export type SheetRoute =
   | { name: 'lagoForm'; editId?: string }
   | { name: 'lagoInfo'; info: GalleryLago }
   | { name: 'ondaPractices'; ondaId: string }
-  | { name: 'journalList' }
   | { name: 'journalEdit'; day?: number; fromList?: boolean }
   | { name: 'mediaInfo'; item: MediaItem; ondaId: string; runId?: string }
-  | { name: 'philosophy' }
   | { name: 'createOnda' }
   | { name: 'achievements'; focus?: AchievementKey }
   | { name: 'dayLog'; date: string }
@@ -100,7 +102,7 @@ export const useNav = create<NavState>()((set, get) => ({
   openSheet: (s) => {
     // A second tap while the first sheet is still arriving must not stack another one.
     const top = get().sheets.find((e) => !e.closing && e.name === s.name && s.name !== 'time')
-    if (top && (s.name === 'journalList' || s.name === 'philosophy' || s.name === 'createOnda' || s.name === 'achievements')) return
+    if (top && (s.name === 'createOnda' || s.name === 'achievements')) return
     set({ sheets: [...get().sheets, { ...s, key: key() }], menu: null })
   },
   closeSheet: (k) => {

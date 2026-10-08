@@ -8,6 +8,8 @@ export interface TabItem<K extends string> {
   icon: string
   label: string
   weight?: IconWeight
+  /** A gentle eased wave when the tab is selected. */
+  wave?: boolean
 }
 
 interface TabBarProps<K extends string> {
@@ -38,7 +40,7 @@ export function TabBar<K extends string>({ items, activeKey, onChange, style }: 
             if (e.detail === 0) onChange(it.key)
           }}
         >
-          <span className={s.tabIcon}>
+          <span className={it.wave && it.key === activeKey ? `${s.tabIcon} ${s.tabWave}` : s.tabIcon}>
             <Icon name={it.icon} weight={it.weight ?? 'bold'} size={32} />
           </span>
         </button>

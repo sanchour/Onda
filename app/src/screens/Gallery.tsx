@@ -1,12 +1,11 @@
 import { useTranslation } from 'react-i18next'
 import { CATEGORIES, CATEGORY_NAMES, FEATURED, type GalleryLago } from '@/data/catalog'
-import { useLookFn, useOndaList } from '@/data/hooks'
-import { fitSize } from '@/lib/fit'
+import { useActiveRun, useOndaList } from '@/data/hooks'
 import { BackButton, Screen } from '@/nav/Screen'
 import { useNav, type StackEntry } from '@/nav/store'
 import { Button } from '@/ui/buttons'
 import { Icon } from '@/ui/Icon'
-import o from './ondas.module.css'
+import { OndaTile } from './OndasTab'
 import s from './screens.module.css'
 
 function Tile({ it, tall }: { it: GalleryLago; tall?: boolean }) {
@@ -28,7 +27,9 @@ export function Gallery() {
   const { t } = useTranslation()
   const { push, openSheet } = useNav()
   const ondas = useOndaList()
-  const look = useLookFn()
+  const activeId = useActiveRun()?.ondaId
+  // The running Onda first, then the rest in order; two are shown and the rest sit behind See more
+  const first = [...ondas].sort((a, b) => Number(b.id === activeId) - Number(a.id === activeId)).slice(0, 2)
   return (
     <Screen bg="page" chrome={<BackButton />}>
       <div className={s.pageHead}>
@@ -55,17 +56,14 @@ export function Gallery() {
         ))}
       </div>
 
-      <h2 className={s.h20} style={{ padding: '24px 20px 4px' }}>{t('gallery.fromOndas')}</h2>
-      <div className={s.sub} style={{ padding: '0 20px 12px' }}>{t('gallery.fromOndasSub')}</div>
-      <div className={`hscroll ${o.galleryOndas}`}>
-        {ondas.map((x) => (
-          <button key={x.id} type="button" className={`${o.gOnda} ${o.themed}`} style={look(x).vars} onClick={() => openSheet({ name: 'ondaPractices', ondaId: x.id })}>
-            <span className={`${s.circle} ${o.gOndaIcon} ${o.chipCircle}`}>
-              <Icon name={x.icon} weight="fill" size={20} />
-            </span>
-            <span className={o.gOndaName} style={{ fontSize: fitSize(x.name, 112, 18, 12, look(x).caps) }}>{x.name}</span>
-            <span className={o.gOndaSub}>{t('gallery.pickPractices')}</span>
-          </button>
+      <button type="button" className={s.groupHead} style={{ paddingTop: 24 }} onClick={() => push({ name: 'pickOndas' })}>
+        <h2 className={s.h20}>{t('gallery.fromOndas')}</h2>
+        <span className={s.seeMore}>{t('gallery.seeMore')}</span>
+      </button>
+      <div className={s.sub} style={{ padding: '0 20px 8px' }}>{t('gallery.fromOndasSub')}</div>
+      <div className={s.grid2}>
+        {first.map((x) => (
+          <OndaTile key={x.id} x={x} active={activeId === x.id} onOpen={() => openSheet({ name: 'ondaPractices', ondaId: x.id })} />
         ))}
       </div>
 
@@ -99,6 +97,27 @@ export function Category({ entry }: { entry: Extract<StackEntry, { name: 'catego
       <div className={s.grid2} style={{ paddingTop: 20 }}>
         {items.map((it) => (
           <Tile key={it.name} it={it} tall />
+        ))}
+      </div>
+    </Screen>
+  )
+}
+
+/** Every Onda, to pick practices from: the page behind "See more" in the Gallery. */
+export function PickOndas() {
+  const { t } = useTranslation()
+  const openSheet = useNav((n) => n.openSheet)
+  const ondas = useOndaList()
+  const activeId = useActiveRun()?.ondaId
+  return (
+    <Screen bg="page" chrome={<BackButton />}>
+      <div className={s.pageHead}>
+        <h1 className={s.largeTitle}>{t('gallery.fromOndas')}</h1>
+        <div className={`${s.sub} ${s.sub2}`}>{t('gallery.fromOndasSub')}</div>
+      </div>
+      <div className={s.grid2} style={{ paddingTop: 20 }}>
+        {ondas.map((x) => (
+          <OndaTile key={x.id} x={x} active={activeId === x.id} onOpen={() => openSheet({ name: 'ondaPractices', ondaId: x.id })} />
         ))}
       </div>
     </Screen>

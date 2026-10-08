@@ -1,0 +1,11 @@
+import { webkit, devices } from '@playwright/test'
+const browser = await webkit.launch()
+const ctx = await browser.newContext({ ...devices['iPhone 15 Pro'] })
+const page = await ctx.newPage()
+await page.goto('http://localhost:5173/?seed=demo')
+await page.getByText('Onda · Day 4 of 14').waitFor({ timeout: 90000 })
+await page.getByRole('tab', { name: 'Stats' }).click()
+await page.getByText('Consistency').first().waitFor({ timeout: 20000 })
+await page.waitForTimeout(1800)
+await page.screenshot({ path: 'shots/v20-stats.png' })
+await browser.close()

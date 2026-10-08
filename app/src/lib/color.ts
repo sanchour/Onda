@@ -40,3 +40,10 @@ export function readableText(strong: string, backgrounds: string[], dark: boolea
   }
   return toHex(c)
 }
+
+/** Blend two colours: `t` of the way from `a` to `b`. */
+export function mix(a: string, b: string, t: number): string {
+  const x = parse(a)
+  const y = parse(b)
+  return toHex([0, 1, 2].map((i) => x[i]! + (y[i]! - x[i]!) * t) as [number, number, number])
+}

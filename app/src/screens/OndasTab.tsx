@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
+import { BROWSE_GROUPS, COMING_SOON, GROUP_OF } from '@/content/browse'
 import { useLookFn, useOndaList, useSettings } from '@/data/hooks'
 import { columnWidth, fitSize } from '@/lib/fit'
 import { useStore } from '@/data/store'
@@ -9,11 +10,12 @@ import { Button, GlassButton } from '@/ui/buttons'
 import { SegmentedControl } from '@/ui/controls'
 import { ProgressBar } from '@/ui/data'
 import { Icon } from '@/ui/Icon'
-import { DayBar, OrnDivider, PracticeRow, RulesList, TasksList, CalendarNudge, guardCreateOnda, nameSize, useActiveOnda, useRunToday } from './ondaShared'
+import { SectionToggle } from '@/ui/lists'
+import { DayBar, OrnDivider, PracticeRow, TasksList, guardCreateOnda, nameSize, useActiveOnda, useRunToday } from './ondaShared'
 import o from './ondas.module.css'
 import s from './screens.module.css'
 
-type Seg = 'practices' | 'tasks' | 'rules'
+type Seg = 'practices' | 'tasks'
 
 /** Ondas tab: the running Onda's banner, four shortcuts, then Today with one list at a time. */
 export default function OndasTab() {
@@ -59,16 +61,14 @@ export default function OndasTab() {
   const practices = content?.practices ?? run.snapshot?.practices.map((p) => ({ ...p, meta: p.time })) ?? []
   const pDone = practices.filter((p) => done.practices.has(p.id)).length
   const tasks = content?.tasks ?? []
-  const rules = content?.rules ?? run.snapshot?.rules ?? []
   const tDone = tasks.filter((x) => done.tasks.has(x.id)).length
-  const rDone = rules.filter((x) => done.rules.has(x.id)).length
-  const bar = seg === 'practices' ? { n: pDone, total: practices.length, key: 'practicesOf' } : seg === 'tasks' ? { n: tDone, total: tasks.length, key: 'tasksOf' } : { n: rDone, total: rules.length, key: 'rulesOf' }
+  const bar = seg === 'practices' ? { n: pDone, total: practices.length, key: 'practicesOf' } : { n: tDone, total: tasks.length, key: 'tasksOf' }
   const name = index?.name ?? run.snapshot?.name ?? ''
   const quick: [string, string, () => void][] = [
     ['headphones', t('ondas.immerse'), () => push({ name: 'immersion' })],
-    ['notebook', t('ondas.journal'), () => openSheet({ name: 'journalList' })],
-    ['lightbulb', t('ondas.philosophy'), () => openSheet({ name: 'philosophy' })],
-    ['book-open-text', t('ondas.guide'), () => push({ name: 'guide', ondaId: run.ondaId })],
+    ['notebook', t('ondas.journal'), () => push({ name: 'journal' })],
+    ['lightbulb', t('ondas.philosophy'), () => push({ name: 'philosophy' })],
+    ['scales', t('ondas.rules'), () => push({ name: 'rules' })],
   ]
 
   return (
@@ -77,7 +77,7 @@ export default function OndasTab() {
       {header}
       {themed && <OrnDivider look={look} />}
       <div>
-        <button type="button" className={`${o.banner} ${o.themed}`} onClick={() => push({ name: 'onda', id: run.ondaId })}>
+        <button type="button" className={`${o.banner} ${o.themed}`} onClick={() => push({ name: 'guide', ondaId: run.ondaId })} aria-label={`${t('ondas.kicker', { label: t('ondas.dayOf', { day, length: run.lengthDays }) })}, ${name}. ${t('ondas.guide')}`}>
           <span className={o.bannerKicker}>
             <Icon name={index?.icon ?? 'sparkle'} weight="fill" size={16} />
             <span>{t('ondas.kicker', { label: t('ondas.dayOf', { day, length: run.lengthDays }) })}</span>
@@ -90,7 +90,7 @@ export default function OndasTab() {
           {quick.map(([icon, label, go]) => (
             <button key={label} type="button" className={o.quickTile} onClick={go}>
               <span className={`${s.circle} ${o.quickCircle} ${o.solidCircle}`}>
-                <Icon name={icon} weight="fill" size={27} />
+                <Icon name={icon} weight="regular" size={29} />
               </span>
               <span style={{ fontSize: fitSize(label, 78, 14, 11) }}>{label}</span>
             </button>
@@ -108,7 +108,7 @@ export default function OndasTab() {
         </div>
         <div style={{ padding: '16px 16px 0' }}>
           <SegmentedControl<Seg>
-            options={[{ value: 'practices', label: t('ondas.practices') }, { value: 'tasks', label: t('ondas.tasks') }, { value: 'rules', label: t('ondas.rules') }]}
+            options={[{ value: 'practices', label: t('ondas.practices') }, { value: 'tasks', label: t('ondas.tasks') }]}
             value={seg}
             onChange={setSeg}
             fullWidth
@@ -124,8 +124,6 @@ export default function OndasTab() {
             </div>
           )}
           {seg === 'tasks' && <TasksList tasks={tasks} done={done.tasks} go onToggle={(id) => toggleItem('taskLogs', run.id, id)} />}
-          {seg === 'rules' && <RulesList rules={rules} done={done.rules} onToggle={(id) => toggleItem('ruleLogs', run.id, id)} />}
-          <CalendarNudge />
         </div>
       </div>
       </div>
@@ -133,35 +131,64 @@ export default function OndasTab() {
   )
 }
 
-/** All Ondas: two-column grid of themed tiles, the user's own Ondas last. */
+/** One Onda as a themed tile, used by Browse Ondas and the Gallery picker. */
+export function OndaTile({ x, onOpen, active }: { x: ReturnType<typeof useOndaList>[number]; onOpen: () => void; active?: boolean }) {
+  const { t } = useTranslation()
+  const look = useLookFn()(x)
+  return (
+    <button type="button" className={`${o.ondaTile} ${o.themed}`} style={look.vars} onClick={onOpen}>
+      <span className={o.ondaTileTop}>
+        <span className={`${s.circle} ${o.ondaTileIcon} ${o.chipCircle}`}>
+          <Icon name={x.icon} weight="fill" size={20} />
+        </span>
+        {active ? <span className={o.badge}>{t('ondas.active')}</span> : x.custom ? <span className={o.badge}>{t('ondas.mine')}</span> : null}
+      </span>
+      <span>
+        <span className={o.ondaTileName} style={{ display: 'block', fontSize: fitSize(x.name, columnWidth() / 2 - 58, 22, 13, look.caps) }}>{x.name}</span>
+        <span className={o.ondaTileOrigin} style={{ display: 'block' }}>{x.origin}</span>
+      </span>
+    </button>
+  )
+}
+
+/** Browse Ondas: four groups (religions, philosophies, states, cultures). Each lists the Ondas that exist, then greyed placeholders. */
 export function AllOndas() {
   const { t } = useTranslation()
   const push = useNav((n) => n.push)
   const list = useOndaList()
-  const look = useLookFn()
   const activeId = useActiveOnda()?.run.ondaId
+  const [closed, setClosed] = useState<Record<string, boolean>>({})
+  const toggle = (k: string) => () => setClosed((c) => ({ ...c, [k]: !c[k] }))
+  const mine = list.filter((x) => !GROUP_OF[x.id])
+  const sections = [
+    ...BROWSE_GROUPS.map((g) => ({ key: g, title: t(`browse.${g}`), real: list.filter((x) => GROUP_OF[x.id] === g), soon: COMING_SOON.filter((c) => c.group === g) })),
+    ...(mine.length ? [{ key: 'mine', title: t('browse.mine'), real: mine, soon: [] as typeof COMING_SOON }] : []),
+  ]
   return (
     <Screen chrome={<BackButton />}>
-      <div className={s.pageHead} style={{ paddingBottom: 16 }}>
+      <div className={s.pageHead} style={{ paddingBottom: 8 }}>
         <h1 className={s.largeTitle}>{t('ondas.allTitle')}</h1>
         <div className={`${s.sub} ${s.sub2}`}>{t('ondas.allSub')}</div>
       </div>
-      <div className={s.grid2}>
-        {list.map((x) => (
-          <button key={x.id} type="button" className={`${o.ondaTile} ${o.themed}`} style={look(x).vars} onClick={() => push({ name: 'onda', id: x.id })}>
-            <span className={o.ondaTileTop}>
-              <span className={`${s.circle} ${o.ondaTileIcon} ${o.chipCircle}`}>
-                <Icon name={x.icon} weight="fill" size={20} />
-              </span>
-              {activeId === x.id ? <span className={o.badge}>{t('ondas.active')}</span> : x.custom ? <span className={o.badge}>{t('ondas.mine')}</span> : null}
-            </span>
-            <span>
-              <span className={o.ondaTileName} style={{ display: 'block', fontSize: fitSize(x.name, columnWidth() / 2 - 58, 22, 13, look(x).caps) }}>{x.name}</span>
-              <span className={o.ondaTileOrigin} style={{ display: 'block' }}>{x.origin}</span>
-            </span>
-          </button>
-        ))}
-      </div>
+      {sections.map((sec) => (
+        <section key={sec.key} aria-label={sec.title}>
+          <SectionToggle title={sec.title} meta={sec.real.length + sec.soon.length} open={!closed[sec.key]} onToggle={toggle(sec.key)} />
+          {!closed[sec.key] && (
+            <div className={s.grid2}>
+              {sec.real.map((x) => (
+                <OndaTile key={x.id} x={x} active={activeId === x.id} onOpen={() => push({ name: 'onda', id: x.id })} />
+              ))}
+              {sec.soon.map((c) => (
+                <div key={c.name} className={o.soonTile} aria-disabled="true">
+                  <span className={o.soonName}>{c.name}</span>
+                  <span className={o.soonOrigin}>{c.origin}</span>
+                  <span className={o.soonBadge}>{t('browse.soon')}</span>
+                </div>
+              ))}
+            </div>
+          )}
+        </section>
+      ))}
     </Screen>
   )
 }

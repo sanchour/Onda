@@ -48,3 +48,10 @@
 
 /* Privacy cover for the app switcher */
 .cover{position:absolute;inset:0;z-index:200;background:var(--surface-grouped);display:flex;align-items:center;justify-content:center;flex-direction:column;gap:14px}
+
+/* The iOS status bar is translucent and always draws white text. In dark mode the dark page shows through and that is right.
+   In light mode a band of the accent colour sits behind it, fading out below, so the white clock and battery stay readable. */
+.statusFill{position:fixed;z-index:300;top:0;left:0;right:0;height:env(safe-area-inset-top,0px);pointer-events:none;background:var(--accent)}
+.statusFill::after{content:"";position:absolute;left:0;right:0;top:100%;height:min(16px,calc(env(safe-area-inset-top,0px) * 100));background:linear-gradient(to bottom,var(--accent),transparent)}
+:global([data-theme="dark"]) .statusFill{background:transparent}
+:global([data-theme="dark"]) .statusFill::after{display:none}

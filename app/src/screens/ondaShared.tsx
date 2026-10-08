@@ -3,9 +3,9 @@ import { useMemo } from 'react'
 import { useTranslation } from 'react-i18next'
 import type { OndaContent, OndaIndex, Practice } from '@/content/schema'
 import type { OndaLook } from '@/content/themes'
-import { canBeginOnda, canCreateOnda, canUseIntegrations, plusState } from '@/data/entitlement'
+import { canBeginOnda, canCreateOnda, plusState } from '@/data/entitlement'
 import { doneSet, runDay } from '@/data/derive/onda'
-import { useActiveRun, useLook, useOnda, useOndaIndex } from '@/data/hooks'
+import { useActiveRun, useLook, useOnda, useOndaIndex, useSettings } from '@/data/hooks'
 import { useStore } from '@/data/store'
 import type { OndaRun } from '@/data/types'
 import { now } from '@/lib/dates'
@@ -132,37 +132,15 @@ export function RulesList({ rules, done, onToggle }: { rules: { id: string; text
   )
 }
 
-/** One tap from the lists to the Calendar export: practices and Lagos become repeating events with alerts. */
-export function CalendarNudge() {
-  const { t } = useTranslation()
-  const user = useStore((x) => x.user)
-  const go = () => {
-    if (!canUseIntegrations(plusState(user, now().getTime()))) {
-      nav().showToast(t('paywall.gateSync'), { icon: 'seal-check' })
-      nav().push({ name: 'paywall' })
-    } else nav().openSheet({ name: 'calendar' })
-  }
-  return (
-    <button type="button" className={o.calNudge} onClick={go}>
-      <span className={`${s.circle} ${o.calNudgeIcon}`}><Icon name="calendar-dots" weight="fill" size={20} /></span>
-      <span style={{ flex: 1, minWidth: 0 }}>
-        <span className={o.calNudgeTitle}>{t('calendar.nudgeTitle')}</span>
-        <span className={o.calNudgeSub}>{t('calendar.nudgeSub')}</span>
-      </span>
-      <Icon name="caret-right" weight="bold" size={16} color="var(--label-tertiary)" />
-    </button>
-  )
-}
-
 /** Tasks: cards with an accent bar on the left, a time pill and a square checkbox. */
 const GO_ICON: Record<string, string> = { journal: 'notebook', philosophy: 'lightbulb', read: 'book-open-text', watch: 'film-strip', listen: 'headphones', art: 'paint-brush', eat: 'bowl-food', drink: 'coffee', customs: 'hand-heart' }
 
 export function TasksList({ tasks, done, onToggle, go }: { tasks: { id: string; name: string; meta: string; time?: string; action?: string }[]; done: Set<string>; onToggle: (id: string) => void; go?: boolean }) {
   const { t } = useTranslation()
-  const { push, openSheet } = useNav()
+  const { push } = useNav()
   const open = (a: string) => {
-    if (a === 'journal') openSheet({ name: 'journalList' })
-    else if (a === 'philosophy') openSheet({ name: 'philosophy' })
+    if (a === 'journal') push({ name: 'journal' })
+    else if (a === 'philosophy') push({ name: 'philosophy' })
     else push({ name: 'immersion', kind: a as MediaKind })
   }
   if (!tasks.length) return <div className={o.rulesCard} style={{ padding: '20px', textAlign: 'center', color: 'var(--label-secondary)' }}>{t('ondas.noTasks')}</div>
@@ -204,6 +182,14 @@ export function TasksList({ tasks, done, onToggle, go }: { tasks: { id: string; 
   )
 }
 
+/** The running Onda's look as props for a wrapper element, so Lagos and Stats pick up its character (type, ornament, bar shapes). */
+export function useOndaScope() {
+  const active = useActiveOnda()
+  const themed = useSettings().ondaThemes
+  if (!active) return null
+  return { look: active.look, themed, props: { style: active.look.vars, 'data-onda': themed ? active.run.ondaId : undefined } as { style: React.CSSProperties; 'data-onda'?: string } }
+}
+
 /** Today's done sets for a run. */
 export function useRunToday(runId: string | undefined) {
   const today = useStore((s) => s.today)
@@ -221,10 +207,9 @@ export function useRunToday(runId: string | undefined) {
 }
 
 /** A themed header card for sheets and pages: the Onda's fill, glyph watermark, icon and display face. */
-export function OndaBanner({ look, icon, kicker, title, sub }: { look: OndaLook; icon: string; kicker?: string; title: string; sub?: string }) {
+export function OndaBanner({ icon, kicker, title, sub }: { look?: OndaLook; icon: string; kicker?: string; title: string; sub?: string }) {
   return (
     <div className={`${o.sBanner} ${o.themed}`}>
-      <Glyph look={look} opacity={0.14} right={14} bottom={4} />
       <span className={`${o.sBannerIcon} ${o.chipCircle}`}>
         <Icon name={icon} weight="fill" size={22} />
       </span>

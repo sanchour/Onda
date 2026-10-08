@@ -9,6 +9,7 @@ const pick = <M, K extends keyof M>(load: () => Promise<M>, key: K): Lazy => laz
 const gallery = () => import('@/screens/Gallery')
 const ondasTab = () => import('@/screens/OndasTab')
 const ondaFlow = () => import('@/screens/OndaFlow')
+const ondaPages = () => import('@/screens/OndaPages')
 const lagoSheets = () => import('@/sheets/LagoSheets')
 const ondaSheets = () => import('@/sheets/OndaSheets')
 const statsSheets = () => import('@/sheets/StatsSheets')
@@ -16,7 +17,7 @@ const settingsSheets = () => import('@/sheets/SettingsSheets')
 
 /** Fetch every on-demand chunk once the app is idle, so a tap never waits on the network (the first tap used to show nothing, so people tapped twice). */
 export function prefetchChunks() {
-  const loaders = [gallery, ondasTab, ondaFlow, lagoSheets, ondaSheets, statsSheets, settingsSheets, () => import('@/screens/OndaToday'), () => import('@/screens/Guide'), () => import('@/screens/Settings'), () => import('@/screens/LagoInsights')]
+  const loaders = [gallery, ondasTab, ondaFlow, ondaPages, lagoSheets, ondaSheets, statsSheets, settingsSheets, () => import('@/screens/OndaToday'), () => import('@/screens/Guide'), () => import('@/screens/Settings'), () => import('@/screens/LagoInsights')]
   loaders.forEach((load, i) => setTimeout(() => void load().catch(() => undefined), i * 120))
 }
 
@@ -29,6 +30,10 @@ export const ROUTES: Record<Route['name'], Lazy> = {
   onda: lazy(() => import('@/screens/OndaToday')),
   immersion: pick(ondaFlow, 'Immersion'),
   guide: lazy(() => import('@/screens/Guide')),
+  journal: pick(ondaPages, 'JournalPage'),
+  philosophy: pick(ondaPages, 'PhilosophyPage'),
+  rules: pick(ondaPages, 'RulesPage'),
+  pickOndas: pick(gallery, 'PickOndas'),
   reflection: pick(ondaFlow, 'Reflection'),
   done: pick(ondaFlow, 'Done'),
   settings: lazy(() => import('@/screens/Settings')),
@@ -40,10 +45,8 @@ export const SHEETS: Record<SheetRoute['name'], Lazy> = {
   lagoInfo: pick(lagoSheets, 'LagoInfoSheet'),
   ondaPractices: pick(lagoSheets, 'OndaPracticesSheet'),
   time: pick(lagoSheets, 'TimeSheet'),
-  journalList: pick(ondaSheets, 'JournalListSheet'),
   journalEdit: pick(ondaSheets, 'JournalEditSheet'),
   mediaInfo: pick(ondaSheets, 'MediaInfoSheet'),
-  philosophy: pick(ondaSheets, 'PhilosophySheet'),
   createOnda: pick(() => import('@/sheets/CreateOndaSheet'), 'CreateOndaSheet'),
   achievements: pick(statsSheets, 'AchievementsSheet'),
   dayLog: pick(statsSheets, 'DayLogSheet'),

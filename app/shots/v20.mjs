@@ -1,0 +1,31 @@
+import { webkit, devices } from '@playwright/test'
+const browser = await webkit.launch()
+const scheme = process.argv[2] || 'light'
+const ctx = await browser.newContext({ ...devices['iPhone 15 Pro'], colorScheme: scheme })
+const page = await ctx.newPage()
+const errors = []
+page.on('pageerror', (e) => errors.push(String(e)))
+const w = (ms = 900) => page.waitForTimeout(ms)
+const shot = (n) => page.screenshot({ path: `shots/v20-${scheme}-${n}.png` })
+await page.goto('http://localhost:5173/?seed=demo')
+await page.getByText('Onda · Day 4 of 14').waitFor({ timeout: 90000 })
+const d = page.getByRole('button', { name: 'Dismiss' })
+if (await d.isVisible().catch(() => false)) await d.click()
+if (scheme === 'dark') {
+  await page.getByRole('button', { name: 'Settings' }).first().click(); await w()
+  await page.getByRole('button', { name: /^Appearance/ }).first().click(); await w(700)
+  await page.getByText('Dark', { exact: true }).first().click(); await w(500)
+  await page.getByRole('button', { name: 'Back' }).first().click(); await w(500)
+  await page.getByRole('button', { name: 'Back' }).first().click(); await w(700)
+}
+await w(1000); await shot('1-ondas')
+await page.getByRole('button', { name: 'Rules', exact: true }).click(); await w(1200); await shot('2-rules')
+await page.getByRole('button', { name: 'Back' }).first().click(); await w(800)
+await page.getByRole('button', { name: 'Journal', exact: true }).click(); await w(1200); await shot('3-journal')
+await page.getByRole('button', { name: 'Back' }).first().click(); await w(800)
+await page.getByRole('tab', { name: 'Lagos' }).click(); await w(1000); await shot('4-lagos')
+await page.getByRole('tab', { name: 'Stats' }).click(); await w(2500); await shot('5-stats')
+await page.getByRole('tab', { name: 'Ondas' }).click(); await w(800)
+await page.getByRole('button', { name: 'Browse Ondas' }).click(); await w(1500); await shot('6-browse')
+console.log(JSON.stringify({ errors }))
+await browser.close()

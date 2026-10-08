@@ -210,7 +210,7 @@ export function LagoFormSheet({ entry }: E<'lagoForm'>) {
             <ListRow icon="bell" title={t('lagoForm.reminder')} accessory="switch" switchOn={remind} onSwitchChange={setRemind} />
             <ListRow icon="clock" title={t('lagoForm.time')} value={fmtClock(time)} onClick={() => openSheet({ name: 'time', title: t('lagoForm.time'), value: time, onPick: setTime })} />
           </ListSection>
-          {editing && <ListSection footer={t('calendar.nudgeSub')}><ListRow icon="calendar-dots" title={t('calendar.nudgeTitle')} onClick={() => openSheet({ name: 'calendar' })} /></ListSection>}
+
         </div>
       </div>
     </AppSheet>

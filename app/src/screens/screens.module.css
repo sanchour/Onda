@@ -65,8 +65,8 @@
 .pwBenefit{display:flex;align-items:center;gap:16px}
 .pwIcon{width:44px;height:44px;background:var(--surface-soft)}
 .pwBTitle{font:600 var(--fs-17) var(--font-sans)}
-.pwFoot{position:relative;text-align:center;padding:0 16px}
-.pwSubline{font:400 var(--fs-15) var(--font-sans);color:var(--label-secondary);margin-bottom:14px;text-wrap:balance}
+.pwFoot{position:relative;text-align:center;padding:0 16px;display:flex;flex-direction:column;gap:14px}
+.pwSubline{font:400 var(--fs-15) var(--font-sans);color:var(--label-secondary);margin-bottom:2px;text-wrap:balance}
 .pwLegal{display:flex;justify-content:center;align-items:center;gap:6px;font:400 var(--fs-13) var(--font-sans);color:var(--label-secondary);margin-top:6px}
 .pwLegal button{padding:10px 2px;color:var(--label-secondary)}
 

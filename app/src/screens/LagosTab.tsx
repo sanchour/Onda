@@ -12,7 +12,8 @@ import { ProgressBar } from '@/ui/data'
 import { Icon } from '@/ui/Icon'
 import { SectionToggle } from '@/ui/lists'
 import { guardNewLago, lagoMenu } from './lagoActions'
-import { CalendarNudge } from './ondaShared'
+import { OrnDivider, useOndaScope } from './ondaShared'
+import o from './ondas.module.css'
 import s from './screens.module.css'
 
 type Row = { lago: Lago; st: LagoStats }
@@ -113,6 +114,7 @@ export default function LagosTab() {
   const checkIns = useStore((x) => x.checkIns)
   const today = useStore((x) => x.today)
   const [closed, setClosed] = useState<Record<string, boolean>>({})
+  const scope = useOndaScope()
 
   const groups = useMemo(() => {
     const rows = lagos.map((lago) => ({ lago, st: lagoStats(lago, checkIns, today) })).sort((a, b) => b.lago.startedAt.localeCompare(a.lago.startedAt) || b.lago.updatedAt - a.lago.updatedAt)
@@ -145,6 +147,7 @@ export default function LagosTab() {
 
   return (
     <Screen variant="root">
+      <div className={scope ? o.scope : undefined} {...scope?.props}>
       <div className={s.titleRow}>
         <h1 className={s.largeTitle}>{t('lagos.title')}</h1>
         <div className={s.actions}>
@@ -153,18 +156,20 @@ export default function LagosTab() {
           <GlassButton icon="gear-six" ariaLabel={t('a11y.settings')} onClick={() => push({ name: 'settings' })} />
         </div>
       </div>
+      {scope?.themed && <OrnDivider look={scope.look} />}
       <div className={s.todayCard}>
         <div className={s.todayRow}>
           <span className={s.todayTitle}>{t('lagos.today')}</span>
           <span className={s.sub}>{t('lagos.checkedInOf', { done, total: due })}</span>
         </div>
-        <ProgressBar value={due ? done / due : 0} height={10} style={{ marginTop: 14 }} label={t('lagos.today')} />
+        <div className={o.todayBar} style={{ marginTop: 14 }}>
+          <ProgressBar value={due ? done / due : 0} height={10} label={t('lagos.today')} />
+        </div>
       </div>
       {section('todo', t('lagos.toCheckIn'))}
       {section('checked', t('lagos.checkedIn'))}
       {section('notToday', t('lagos.notToday'))}
       {section('finished', t('lagos.finished'))}
-      {!none && <CalendarNudge />}
       {none && (
         <>
           <div className={s.empty}>
@@ -183,6 +188,7 @@ export default function LagosTab() {
           </button>
         </>
       )}
+      </div>
     </Screen>
   )
 }

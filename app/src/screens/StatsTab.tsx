@@ -12,6 +12,8 @@ import { GlassButton } from '@/ui/buttons'
 import { SegmentedControl } from '@/ui/controls'
 import { Icon } from '@/ui/Icon'
 import { SectionToggle } from '@/ui/lists'
+import { OrnDivider, useOndaScope } from './ondaShared'
+import o from './ondas.module.css'
 import m from './more.module.css'
 import s from './screens.module.css'
 
@@ -70,6 +72,7 @@ export default function StatsTab() {
   const [range, setRange] = useState<Range>('week')
   const [closed, setClosed] = useState<Record<string, boolean>>({})
   const [back, setBack] = useState(0) // months before the current one, 0..11
+  const scope = useOndaScope()
 
   const input = useMemo(() => ({ lagos, checkIns, runs, practiceLogs, journal, reflections }), [lagos, checkIns, runs, practiceLogs, journal, reflections])
   const act = useMemo(() => activityByDate(input, today), [input, today])
@@ -98,10 +101,12 @@ export default function StatsTab() {
 
   return (
     <Screen variant="root">
+      <div className={scope ? o.scope : undefined} {...scope?.props}>
       <div className={s.titleRow}>
         <h1 className={s.largeTitle}>{t('stats.title')}</h1>
         <GlassButton icon="gear-six" ariaLabel={t('a11y.settings')} onClick={() => push({ name: 'settings' })} />
       </div>
+      {scope?.themed && <OrnDivider look={scope.look} />}
       <Barometer score={cons.score} tier={cons.tier} />
 
       <SectionToggle title={t('stats.activity')} meta={t(`stats.${range}`)} open={!closed.act} onToggle={toggle('act')} />
@@ -230,6 +235,7 @@ export default function StatsTab() {
           )}
         </div>
       )}
+      </div>
     </Screen>
   )
 }

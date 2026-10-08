@@ -20,6 +20,8 @@ export const SettingsSchema = z.object({
   avatarTone: z.enum(['blue', 'green', 'yellow', 'coral', 'purple']).default('blue'),
   themeMode: z.enum(['light', 'dark', 'auto']).default('light'),
   ondaThemes: z.boolean().default(true),
+  /** A very light wash of the running Onda's colour behind every screen. */
+  ondaTint: z.boolean().default(true),
   defaultOndaLength: z.number().int().min(7).max(30).default(14),
   reminderTime: z.string().default('08:00'),
   eveningTime: z.string().default('21:30'),

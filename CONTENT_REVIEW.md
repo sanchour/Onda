@@ -779,3 +779,37 @@ Caveats shown in the app:
 Marked `unverified` (1):
 
 - Quote: "Never shall the Malays vanish from the earth." (Attributed to Hang Tuah; Takkan Melayu hilang di dunia. A traditional saying given to the legendary admiral of Malacca)
+
+## Inca Empire
+
+File: `content/ondas/inca.json` · version 1 · about 5600 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
+
+**Needs review by tradition bearers before launch.** The Inca state ended in the sixteenth century. The Andean way of life it drew on is that of millions of Quechua and Aymara people today. This Onda borrows everyday practices of reciprocity and thanks. It is written by outsiders and needs review by Andean readers.
+
+Caveats shown in the app:
+
+- Offerings to Pachamama and the mountains belong to a living religion. The simple pouring of the first drops is shared freely. Full offering ceremonies are the work of trained specialists and are not for imitation.
+- Coca leaf is sacred and lawful in the Andes and is a controlled substance elsewhere. It is described here and is not part of any practice.
+- The Inca Empire was itself a conquest state that moved populations by force and practised human sacrifice. Many Andean peoples fought against it.
+- Quechua and Aymara communities still face discrimination and poverty. If you visit, see that your money reaches them.
+
+Marked `unverified` (1):
+
+- Quote: "I will return, and I will be millions." (Attributed to Túpac Katari; The Aymara leader’s last words before his execution in 1781, as handed down)
+
+## Habsburg Monarchy
+
+File: `content/ondas/habsburg.json` · version 1 · about 5400 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
+
+Framing note shown in the app: The Habsburg Monarchy is remembered fondly in some of its former lands and resentfully in others. This Onda borrows the civil habits of its towns. It is partly a portrait of a world seen through nostalgia, and says so.
+
+Nothing is marked `unverified`.
+
+
+## Holy Roman Empire
+
+File: `content/ondas/hre.json` · version 1 · about 5600 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
+
+Framing note shown in the app: This Onda draws on the civic and monastic life of the old Empire’s towns. That life was Christian through and through, and the practices keep its shape while leaving belief to you. The Empire’s history also includes much that should not be imitated.
+
+Nothing is marked `unverified`.

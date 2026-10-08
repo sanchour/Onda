@@ -1,0 +1,1260 @@
+{
+  "version": 1,
+  "id": "hre",
+  "name": "Holy Roman Empire",
+  "origin": "Central Europe",
+  "era": "800 or 962 to 1806",
+  "tone": "coral",
+  "icon": "castle-turret",
+  "font": "grenze-gotisch",
+  "pattern": "heraldic-chequer",
+  "glyph": "Sacrum",
+  "line": "Keep the hours, master a craft, serve your town and stop when the bell rings.",
+  "quote": {
+    "text": "City air makes you free.",
+    "by": "German legal saying",
+    "source": "Stadtluft macht frei. A later phrase for the medieval rule that a serf who lived in a town for a year and a day could no longer be reclaimed by a lord"
+  },
+  "quotes": [
+    {
+      "text": "This body which was called and which still calls itself the Holy Roman Empire was in no way holy, nor Roman, nor an empire.",
+      "by": "Voltaire",
+      "source": "Essay on the Manners and Spirit of Nations, 1756, chapter 70"
+    },
+    {
+      "text": "I cannot and will not recant anything, since it is neither safe nor right to go against conscience.",
+      "by": "Martin Luther",
+      "source": "Before the emperor and the Diet at Worms, 18 April 1521, as recorded at the time. The words here I stand were added later"
+    },
+    {
+      "text": "Thus am I, a feather on the breath of God.",
+      "by": "Hildegard of Bingen",
+      "source": "Letter to Odo of Soissons, about 1148"
+    },
+    {
+      "text": "I sat upon a stone and crossed one leg over the other. I pondered anxiously how one ought to live in this world.",
+      "by": "Walther von der Vogelweide",
+      "source": "The opening of his song Ich saz ûf eime steine, about 1200. Translated from the Middle High German"
+    },
+    {
+      "text": "The dear old Holy Roman Empire, how does it hold together?",
+      "by": "Johann Wolfgang von Goethe",
+      "source": "A student’s drinking song in Auerbach’s cellar; Faust, Part One, 1808"
+    },
+    {
+      "text": "What beauty is, I do not know.",
+      "by": "Albrecht Dürer",
+      "source": "From a draft for his book on human proportion, 1512"
+    },
+    {
+      "text": "An irregular body, and like a monster.",
+      "by": "Samuel von Pufendorf",
+      "source": "On the constitution of the Empire, 1667. It fitted none of the categories of political science"
+    }
+  ],
+  "words": [
+    {
+      "id": "word-reich",
+      "term": "Reich",
+      "meaning": "Realm; empire",
+      "pronunciation": "RYKH",
+      "language": "German",
+      "usage": "The whole body of lands and people under the emperor. For most of its life it was simply the Empire, with no need to say which."
+    },
+    {
+      "id": "word-sacrum-imperium",
+      "term": "Sacrum Imperium",
+      "meaning": "The Holy Empire",
+      "pronunciation": "SAH-kroom im-PEH-ri-oom",
+      "language": "Latin",
+      "usage": "The style adopted under Frederick Barbarossa in 1157, to claim a dignity equal to the Holy Church."
+    },
+    {
+      "id": "word-kaiser",
+      "term": "Kaiser",
+      "meaning": "Emperor",
+      "pronunciation": "KY-zer",
+      "language": "German",
+      "usage": "Chosen by election, not by birth alone. He was overlord and supreme judge, and had little power to command."
+    },
+    {
+      "id": "word-kurfurst",
+      "term": "Kurfürst",
+      "meaning": "Prince-elector",
+      "pronunciation": "KOOR-fuerst",
+      "language": "German",
+      "usage": "One of the seven, later nine, princes who chose the king. Three were archbishops."
+    },
+    {
+      "id": "word-reichstag",
+      "term": "Reichstag",
+      "meaning": "The imperial diet",
+      "pronunciation": "RYKHS-tahk",
+      "language": "German",
+      "usage": "The assembly of electors, princes and cities where the emperor had to seek consent for taxes and war."
+    },
+    {
+      "id": "word-reichsstadt",
+      "term": "Reichsstadt",
+      "meaning": "A free imperial city",
+      "pronunciation": "RYKHS-shtaht",
+      "language": "German",
+      "usage": "A town that answered to no lord but the emperor and governed itself. There were about sixty-five of them around 1500."
+    },
+    {
+      "id": "word-reichsunmittelbar",
+      "term": "Reichsunmittelbar",
+      "meaning": "Immediate to the Empire",
+      "pronunciation": "RYKHS-oon-mit-tel-bar",
+      "language": "German",
+      "usage": "Having no overlord between oneself and the emperor. Abbeys, knights and even a few villages held this prized status."
+    },
+    {
+      "id": "word-burger",
+      "term": "Bürger",
+      "meaning": "Citizen; burgher",
+      "pronunciation": "BUER-ger",
+      "language": "German",
+      "usage": "A sworn member of a town, with a house, a trade and the duty to pay tax, keep watch and bear arms on the walls."
+    },
+    {
+      "id": "word-rat",
+      "term": "Rat",
+      "meaning": "The council",
+      "pronunciation": "RAHT",
+      "language": "German",
+      "usage": "The body of citizens that ran a town. The Rathaus, its hall, stood on the market square."
+    },
+    {
+      "id": "word-eid",
+      "term": "Eid",
+      "meaning": "Oath",
+      "pronunciation": "YT",
+      "language": "German",
+      "usage": "The bond that held the whole order together. Citizens swore to their town, vassals to their lords, the emperor to the laws."
+    },
+    {
+      "id": "word-gemeiner-nutz",
+      "term": "Gemeiner Nutz",
+      "meaning": "The common good",
+      "pronunciation": "ge-MY-ner NOOTS",
+      "language": "German",
+      "usage": "The standard by which a council, a guild or a prince was to be judged, set against private gain."
+    },
+    {
+      "id": "word-zunft",
+      "term": "Zunft",
+      "meaning": "Guild",
+      "pronunciation": "TSOONFT",
+      "language": "German",
+      "usage": "The sworn association of all masters of a craft in a town. It fixed quality and prices, trained the young, buried the dead and manned a stretch of wall."
+    },
+    {
+      "id": "word-lehrling",
+      "term": "Lehrling",
+      "meaning": "Apprentice",
+      "pronunciation": "LAIR-ling",
+      "language": "German",
+      "usage": "A boy bound to a master for several years, living in his house."
+    },
+    {
+      "id": "word-geselle",
+      "term": "Geselle",
+      "meaning": "Journeyman",
+      "pronunciation": "ge-ZEL-leh",
+      "language": "German",
+      "usage": "A trained craftsman not yet a master, working for wages. Literally a room companion."
+    },
+    {
+      "id": "word-meister",
+      "term": "Meister",
+      "meaning": "Master",
+      "pronunciation": "MY-ster",
+      "language": "German",
+      "usage": "One who has proved his skill, been admitted by the guild and may keep a shop and take apprentices."
+    },
+    {
+      "id": "word-meisterstuck",
+      "term": "Meisterstück",
+      "meaning": "Masterpiece",
+      "pronunciation": "MY-ster-shtuek",
+      "language": "German",
+      "usage": "The test piece a journeyman had to make, unaided, to be accepted as a master."
+    },
+    {
+      "id": "word-walz",
+      "term": "Walz",
+      "meaning": "The journeyman’s travels",
+      "pronunciation": "VAHLTS",
+      "language": "German",
+      "usage": "Three years and a day on the road, working in other towns and never coming near home. Some trades still do it."
+    },
+    {
+      "id": "word-markt",
+      "term": "Markt",
+      "meaning": "Market",
+      "pronunciation": "MARKT",
+      "language": "German",
+      "usage": "A right granted by the ruler, held on set days under a special peace. Most towns began as one."
+    },
+    {
+      "id": "word-landfriede",
+      "term": "Landfriede",
+      "meaning": "The public peace",
+      "pronunciation": "LAHNT-free-deh",
+      "language": "German",
+      "usage": "A sworn ban on private war. In 1495 it was made perpetual, and disputes were to go to court."
+    },
+    {
+      "id": "word-fehde",
+      "term": "Fehde",
+      "meaning": "Feud",
+      "pronunciation": "FAY-deh",
+      "language": "German",
+      "usage": "The old right of a free man to pursue his claim by force after formal notice. Law slowly replaced it."
+    },
+    {
+      "id": "word-kloster",
+      "term": "Kloster",
+      "meaning": "Monastery",
+      "pronunciation": "KLOH-ster",
+      "language": "German",
+      "usage": "Houses of monks and nuns held great estates, ran schools and hospitals, and in many cases ruled as princes of the Empire."
+    },
+    {
+      "id": "word-ora-et-labora",
+      "term": "Ora et labora",
+      "meaning": "Pray and work",
+      "pronunciation": "OH-rah et lah-BOH-rah",
+      "language": "Latin",
+      "usage": "The summary of Benedictine life, which divided the day by bells between the choir, the book and the field."
+    },
+    {
+      "id": "word-dom",
+      "term": "Dom",
+      "meaning": "Cathedral",
+      "pronunciation": "DOHM",
+      "language": "German",
+      "usage": "The bishop’s church, and the largest thing a town would ever build. Cologne’s took 632 years."
+    },
+    {
+      "id": "word-burg",
+      "term": "Burg",
+      "meaning": "Castle",
+      "pronunciation": "BOORK",
+      "language": "German",
+      "usage": "The fortified seat of a lord. A burgher was first of all someone who lived within a town’s defences."
+    },
+    {
+      "id": "word-minne",
+      "term": "Minne",
+      "meaning": "Courtly love",
+      "pronunciation": "MIN-neh",
+      "language": "Middle High German",
+      "usage": "Devoted service to a lady, sung by knight-poets called Minnesingers. It also meant loving remembrance."
+    },
+    {
+      "id": "word-meistersinger",
+      "term": "Meistersinger",
+      "meaning": "A master singer",
+      "pronunciation": "MY-ster-zing-er",
+      "language": "German",
+      "usage": "Craftsmen who formed guilds of song, with rule books, tests and prizes. The shoemaker Hans Sachs of Nuremberg was the greatest."
+    },
+    {
+      "id": "word-hanse",
+      "term": "Hanse",
+      "meaning": "The Hanseatic League",
+      "pronunciation": "HAHN-zeh",
+      "language": "German",
+      "usage": "A league of merchant towns from the Rhine to the Baltic, led by Lübeck, which traded and made war as a power in its own right."
+    },
+    {
+      "id": "word-allmende",
+      "term": "Allmende",
+      "meaning": "The commons",
+      "pronunciation": "ahl-MEN-deh",
+      "language": "German",
+      "usage": "Pasture, wood and water held by a village together. Their loss was a grievance in the great peasant rising."
+    },
+    {
+      "id": "word-fachwerk",
+      "term": "Fachwerk",
+      "meaning": "Timber framing",
+      "pronunciation": "FAHKH-vairk",
+      "language": "German",
+      "usage": "Houses built as a frame of oak beams filled with wattle and plaster. The look of every old German town."
+    },
+    {
+      "id": "word-feierabend",
+      "term": "Feierabend",
+      "meaning": "The evening off; knocking-off time",
+      "pronunciation": "FY-er-ah-bent",
+      "language": "German",
+      "usage": "First the eve of a holy day, then the end of the working day, announced by a bell. It is wished to colleagues as a blessing."
+    }
+  ],
+  "practices": [
+    {
+      "id": "by-the-bell",
+      "name": "Keep the hours by the bell",
+      "icon": "bell",
+      "slot": "Morning",
+      "time": "06:00",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Set four bells for the day and obey them. One to rise. One to begin work. One at noon, when you stop, stand still for a minute and eat. One in the evening that ends the working day for good. When the morning bell rings, get up at once, wash, and keep one minute of silence or say a prayer before you begin. Do not start early and do not run over. Let the bell decide.",
+      "why": "Life in the towns and abbeys of the Empire ran on bells. They called monks to the eight offices, opened and closed the gates and the market, marked noon, and rang in the evening rest. The rule of Saint Benedict, followed in hundreds of imperial abbeys, divided every day between prayer, reading and manual work.",
+      "variations": [
+        "Use a real bell or a single plain chime, never an alarm tune.",
+        "Add a fifth bell for a mid-afternoon pause.",
+        "Find the nearest church bells and learn what each ringing means."
+      ]
+    },
+    {
+      "id": "masterpiece",
+      "name": "Work at your masterpiece",
+      "icon": "hammer",
+      "slot": "Morning",
+      "time": "08:00",
+      "minutes": 45,
+      "meta": "Morning · 45 min",
+      "instructions": "Choose one thing in your trade or craft that you will make this month entirely yourself and as well as it can be made: a piece of writing, a joint, a garment, a program, a loaf. Work on it for forty-five minutes today with no shortcuts and no one else’s hand in it. Check it against the best example you know. When it is finished, put your mark on it and show it to someone qualified to judge.",
+      "why": "No one could open a workshop in a guild town without presenting a masterpiece to the sworn masters of the craft, made alone, to set specifications. Goods were inspected and stamped, and a master who sold bad work was fined or expelled. The system was restrictive, and it made German metalwork, clocks and instruments famous.",
+      "variations": [
+        "Design a maker’s mark and use it only on work you are proud of.",
+        "Ask a master of your craft to tell you what is wrong with your piece.",
+        "Spend the session only on sharpening tools and setting up."
+      ]
+    },
+    {
+      "id": "wanderjahre",
+      "name": "The journeyman’s road",
+      "icon": "footprints",
+      "slot": "Afternoon",
+      "time": "14:00",
+      "minutes": 30,
+      "meta": "Afternoon · 30 min",
+      "instructions": "Learn something today from a workshop that is not your own. Walk to another part of town or another team, find someone who does what you do, or something near it, and ask to watch and help for half an hour. Take no payment and give your labour freely. Ask how they do one thing differently from you and why. Bring one technique home. Thank them properly.",
+      "why": "After his apprenticeship a journeyman took to the road for three years and a day, working for masters in other towns and forbidden to come within a day’s walk of home. He carried his tools, a staff and a book of testimonials. German carpenters, roofers and masons in black corduroy and wide hats still travel this way.",
+      "variations": [
+        "Visit a craftsperson and ask about their training.",
+        "Work for a day somewhere you know no one.",
+        "Keep a small book in which those you learn from write a line."
+      ]
+    },
+    {
+      "id": "common-good",
+      "name": "A turn for the common good",
+      "icon": "shield",
+      "slot": "Afternoon",
+      "time": "17:00",
+      "minutes": 20,
+      "meta": "Afternoon · 20 min",
+      "instructions": "Do twenty minutes of duty for the place you live. Citizens once took turns on the walls and at the gates. Yours might be to clear a path, report a hazard, attend a residents’ meeting, help at a school or a food bank, check on an old neighbour, or stand for some small office that nobody wants. If you are in a dispute with anyone, take one step today to settle it by fair process and not by force or sulking.",
+      "why": "A burgher of an imperial city swore an oath each year to obey the council, pay his share, keep watch and defend the walls. In Ulm the mayor still swears on a Monday each July to be the same man to rich and poor. The Empire’s proudest achievement was the public peace of 1495, which outlawed the feud and sent quarrels to court.",
+      "variations": [
+        "Find out who your local councillors are and write to one about something that needs mending.",
+        "Join the body that runs your building, street or club.",
+        "Offer to mediate in a quarrel that is not yours."
+      ]
+    },
+    {
+      "id": "feierabend",
+      "name": "Feierabend",
+      "icon": "bread",
+      "slot": "Evening",
+      "time": "18:30",
+      "minutes": 30,
+      "meta": "Evening · 30 min",
+      "instructions": "When the evening bell rings, stop. Put your tools away clean and close the shop: shut the laptop, clear the bench. Say aloud that the day’s work is done. Then keep the evening as time that is not for sale. Eat bread and something plain with your household or your fellow workers. Sing a song together or tell what happened in the day. Do no work until the morning bell.",
+      "why": "Guild rules forbade work by candlelight, on the eve of feasts and after the evening bell, partly for the sake of quality and partly so that no master could steal a march on the rest. Journeymen gathered in their own inn. The German word for the end of the working day still means, literally, celebration evening.",
+      "variations": [
+        "Wish everyone you work with a good Feierabend as you leave.",
+        "Bake or buy a proper rye loaf and share it.",
+        "Keep one evening a week for singing or playing with others."
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task-read-the-twelve-articles-of-the-peasants-1525",
+      "name": "Read the Twelve Articles of the peasants, 1525",
+      "meta": "Read · three pages, among the first lists of rights in Europe",
+      "time": "20:00",
+      "slot": "Evening",
+      "action": "read"
+    },
+    {
+      "id": "task-listen-to-a-feather-on-the-breath-of-god",
+      "name": "Listen to A Feather on the Breath of God",
+      "meta": "Listen · Hildegard of Bingen, sung by Gothic Voices",
+      "time": "06:30",
+      "slot": "Morning",
+      "action": "listen"
+    },
+    {
+      "id": "task-look-closely-at-durer-s-melencolia-i",
+      "name": "Look closely at Dürer’s Melencolia I",
+      "meta": "Art · an engraving of 1514, with a magic square",
+      "time": "13:00",
+      "slot": "Afternoon",
+      "action": "art"
+    },
+    {
+      "id": "task-play-nine-men-s-morris",
+      "name": "Play Nine Men’s Morris",
+      "meta": "Games · scratched on cloister benches everywhere",
+      "time": "19:30",
+      "slot": "Evening",
+      "action": "games"
+    },
+    {
+      "id": "task-journal-what-did-you-make-today-that-you-would-put-your-mark-on",
+      "name": "Journal: what did you make today that you would put your mark on?",
+      "meta": "Journal · 10 min",
+      "time": "21:00",
+      "slot": "Evening",
+      "action": "journal"
+    },
+    {
+      "id": "task-many-small-powers-and-no-strong-centre-weakness-or-freedom",
+      "name": "Many small powers and no strong centre: weakness, or freedom?",
+      "meta": "Philosophy · 10 min",
+      "time": "09:30",
+      "slot": "Morning",
+      "action": "philosophy"
+    },
+    {
+      "id": "keep-a-promise-as-if-you-had-sworn-it",
+      "name": "Keep a promise as if you had sworn it",
+      "meta": "The oath",
+      "time": "10:30",
+      "slot": "Morning"
+    },
+    {
+      "id": "buy-something-directly-from-the-person-who-made-it",
+      "name": "Buy something directly from the person who made it",
+      "meta": "The market",
+      "time": "11:30",
+      "slot": "Morning"
+    },
+    {
+      "id": "stop-work-on-the-stroke-of-the-bell-mid-task-if-need-be",
+      "name": "Stop work on the stroke of the bell, mid-task if need be",
+      "meta": "Feierabend",
+      "time": "18:30",
+      "slot": "Evening"
+    }
+  ],
+  "rules": [
+    {
+      "id": "r1",
+      "text": "Keep the hours",
+      "why": "Rise, work, eat and stop at the appointed times. An ordered day is half the work."
+    },
+    {
+      "id": "r2",
+      "text": "Do honest work and mark it",
+      "why": "Make nothing you would be ashamed to sign. Let others inspect it."
+    },
+    {
+      "id": "r3",
+      "text": "Learn on the road",
+      "why": "Seek out other masters and other towns. Skill comes from having seen how others do it."
+    },
+    {
+      "id": "r4",
+      "text": "Serve your commune",
+      "why": "Take your turn at the common duties. A town is its citizens."
+    },
+    {
+      "id": "r5",
+      "text": "Take your quarrel to law",
+      "why": "No feuds. Seek judgment, accept it and keep the peace."
+    },
+    {
+      "id": "r6",
+      "text": "Stop when the bell rings",
+      "why": "The evening is not for work. Rest is part of the craft."
+    }
+  ],
+  "immerse": {
+    "read": [
+      {
+        "id": "read-the-holy-roman-empire-a-thousand-years-of-europe-s-history",
+        "title": "The Holy Roman Empire: A Thousand Years of Europe’s History",
+        "creator": "Peter H. Wilson",
+        "year": "2016",
+        "why": "The fullest modern account, arguing that the Empire was a working order of shared rights and negotiation, and not a failed nation."
+      },
+      {
+        "id": "read-the-adventures-of-simplicius-simplicissimus",
+        "title": "The Adventures of Simplicius Simplicissimus",
+        "creator": "Hans Jakob Christoffel von Grimmelshausen",
+        "year": "1668",
+        "why": "A simple boy is swept through the Thirty Years’ War as page, fool, soldier and hermit. The first great German novel, funny and terrible."
+      },
+      {
+        "id": "read-parzival",
+        "title": "Parzival",
+        "creator": "Wolfram von Eschenbach",
+        "year": "about 1210",
+        "why": "A knight raised in ignorance blunders his way to the Grail by learning to ask a question out of compassion."
+      },
+      {
+        "id": "read-the-nibelungenlied",
+        "title": "The Nibelungenlied",
+        "creator": "Anonymous",
+        "year": "about 1200",
+        "why": "Siegfried, Kriemhild and the destruction of the Burgundians. An epic of loyalty kept to the point of ruin."
+      },
+      {
+        "id": "read-martin-luther-renegade-and-prophet",
+        "title": "Martin Luther: Renegade and Prophet",
+        "creator": "Lyndal Roper",
+        "year": "2016",
+        "why": "A life of the reformer that places him in the mining towns, friendships and hatreds of his world."
+      },
+      {
+        "id": "read-the-twelve-articles",
+        "title": "The Twelve Articles",
+        "creator": "The peasants of Upper Swabia, at Memmingen",
+        "year": "1525",
+        "why": "A short printed list of demands: to choose their own pastor, to end serfdom, to have the commons back. Twenty-five thousand copies circulated in two months."
+      }
+    ],
+    "watch": [
+      {
+        "id": "watch-vision-from-the-life-of-hildegard-von-bingen",
+        "title": "Vision: From the Life of Hildegard von Bingen",
+        "creator": "Margarethe von Trotta",
+        "year": "2009",
+        "why": "The abbess, composer and naturalist who corresponded with emperors and founded her own house against her abbot’s will."
+      },
+      {
+        "id": "watch-luther",
+        "title": "Luther",
+        "creator": "Eric Till",
+        "year": "2003",
+        "why": "From the thunderstorm vow to the Diet of Worms and the Wartburg. Conventional, and clear about the politics of the princes."
+      },
+      {
+        "id": "watch-the-last-valley",
+        "title": "The Last Valley",
+        "creator": "James Clavell",
+        "year": "1971",
+        "why": "A scholar and a band of mercenaries find a village untouched by the Thirty Years’ War and agree to spare it for a winter."
+      },
+      {
+        "id": "watch-die-deutschen",
+        "title": "Die Deutschen",
+        "creator": "ZDF",
+        "year": "2008 and 2010",
+        "why": "A German television history in twenty episodes, each on one figure from Otto the Great onwards."
+      }
+    ],
+    "listen": [
+      {
+        "id": "listen-a-feather-on-the-breath-of-god",
+        "title": "A Feather on the Breath of God",
+        "creator": "Hildegard of Bingen; Gothic Voices with Emma Kirkby",
+        "year": "1982",
+        "why": "Sequences and hymns by the twelfth-century abbess. Long soaring single lines over a drone."
+      },
+      {
+        "id": "listen-palastinalied",
+        "title": "Palästinalied",
+        "creator": "Walther von der Vogelweide",
+        "year": "about 1228",
+        "why": "The one song by the greatest Minnesinger whose melody survives complete. A crusader sees the Holy Land for the first time."
+      },
+      {
+        "id": "listen-musikalische-exequien",
+        "title": "Musikalische Exequien",
+        "creator": "Heinrich Schütz",
+        "year": "1636",
+        "why": "A German requiem written for a prince’s funeral in the middle of the Thirty Years’ War."
+      },
+      {
+        "id": "listen-mass-in-b-minor",
+        "title": "Mass in B minor",
+        "creator": "Johann Sebastian Bach",
+        "year": "completed 1749",
+        "why": "The summit of the Empire’s music, by a Lutheran town organist from Thuringia, part of it offered to a Catholic elector."
+      }
+    ],
+    "art": [
+      {
+        "id": "art-the-imperial-crown",
+        "title": "The Imperial Crown",
+        "creator": "A west German workshop",
+        "year": "about 960 to 1000",
+        "why": "An octagon of hinged gold plates set with pearls, sapphires and enamel pictures of the kings of Israel, with a later arch and cross. Used at coronations for eight centuries. In the Imperial Treasury, Vienna."
+      },
+      {
+        "id": "art-self-portrait-at-twenty-eight",
+        "title": "Self-Portrait at Twenty-Eight",
+        "creator": "Albrecht Dürer",
+        "year": "1500",
+        "why": "The painter of Nuremberg shows himself full-face in a fur collar, in a pose reserved for Christ. In the Alte Pinakothek, Munich."
+      },
+      {
+        "id": "art-the-codex-manesse",
+        "title": "The Codex Manesse",
+        "creator": "Scribes and painters of Zurich",
+        "year": "about 1304 to 1340",
+        "why": "The great song book of the Minnesingers, with 137 full-page portraits of the poets hawking, jousting, courting and playing chess. In the University Library, Heidelberg."
+      },
+      {
+        "id": "art-the-isenheim-altarpiece",
+        "title": "The Isenheim Altarpiece",
+        "creator": "Matthias Grünewald",
+        "year": "1512 to 1516",
+        "why": "Painted for a hospital of plague and ergot victims: a tortured Crucifixion that opens to a blaze of resurrection. In the Unterlinden Museum, Colmar."
+      }
+    ],
+    "eat": [
+      {
+        "id": "eat-rye-bread",
+        "title": "Rye bread",
+        "creator": "Dark sourdough, sliced thick",
+        "why": "The daily bread north of the Alps. Bakers were among the most closely regulated of trades, and short weight earned a ducking."
+      },
+      {
+        "id": "eat-nuremberg-sausages",
+        "title": "Nuremberg sausages",
+        "creator": "Finger-length pork sausages with marjoram, grilled over beech wood",
+        "why": "The city council laid down their recipe and size in 1313 and has policed them since."
+      },
+      {
+        "id": "eat-lebkuchen",
+        "title": "Lebkuchen",
+        "creator": "Spiced honey cake",
+        "why": "Baked in Nuremberg since at least 1395, with spices that came up the trade routes from Venice."
+      },
+      {
+        "id": "eat-a-pretzel",
+        "title": "A pretzel",
+        "creator": "Lye-dipped bread in a knot",
+        "why": "The emblem of German bakers’ guilds since the twelfth century, and by tradition a monastery reward for children who learned their prayers."
+      }
+    ],
+    "drink": [
+      {
+        "id": "drink-beer",
+        "title": "Beer",
+        "creator": "Barley, hops and water",
+        "why": "The Bavarian purity order of 1516 allowed nothing else. Towns and abbeys alike brewed, and beer was safer than water."
+      },
+      {
+        "id": "drink-rhine-wine",
+        "title": "Rhine wine",
+        "creator": "Riesling from the slopes above the river",
+        "why": "The grape is first recorded in 1435. Monasteries planted the best vineyards."
+      },
+      {
+        "id": "drink-apple-wine",
+        "title": "Apple wine",
+        "creator": "Sour cider from a stoneware jug",
+        "why": "The drink of Frankfurt, the city where emperors were elected and crowned."
+      }
+    ],
+    "customs": [
+      {
+        "id": "customs-the-journeyman-years",
+        "title": "The journeyman years",
+        "creator": "Three years and a day",
+        "why": "Travelling craftsmen in black corduroy, with a staff and a bundle, still ask for work and a bed from town to town. They may not pay for travel or come near home."
+      },
+      {
+        "id": "customs-oath-monday",
+        "title": "Oath Monday",
+        "creator": "Ulm, each July",
+        "why": "Since 1397 the mayor has given an account of the year from a balcony and sworn the city’s oath to the citizens."
+      },
+      {
+        "id": "customs-the-topping-out",
+        "title": "The topping-out",
+        "creator": "A wreath on the roof",
+        "why": "When the frame of a building is up, the carpenters fix a decorated tree or crown to the ridge, a speech is made in rhyme, and the owner stands the workers a meal."
+      },
+      {
+        "id": "customs-the-church-fair",
+        "title": "The church fair",
+        "creator": "Kirchweih",
+        "why": "Each parish keeps the anniversary of its church’s dedication with a fair, a dance and a tree in the square."
+      }
+    ],
+    "games": [
+      {
+        "id": "games-muhle",
+        "title": "Mühle",
+        "creator": "Board game · Europe",
+        "year": "ancient",
+        "why": "Nine Men’s Morris. Each player places and slides nine pieces to form rows of three and remove the enemy’s. Boards are cut into cathedral seats and castle sills."
+      },
+      {
+        "id": "games-kegeln",
+        "title": "Kegeln",
+        "creator": "Ninepins · Germany",
+        "year": "from the Middle Ages",
+        "why": "The ancestor of bowling. It began in church cloisters, where the pin stood for a sinner to be knocked down."
+      },
+      {
+        "id": "games-karnoffel",
+        "title": "Karnöffel",
+        "creator": "Card game · south Germany",
+        "year": "first recorded 1426",
+        "why": "The oldest identifiable European card game, in which low cards can beat the king and the pope. German packs still use acorns, leaves, hearts and bells."
+      },
+      {
+        "id": "games-the-shooting-match",
+        "title": "The shooting match",
+        "creator": "Town contest · Germany",
+        "year": "from the 14th century",
+        "why": "Citizens’ crossbow and later gun companies shot at a wooden bird on a pole for the title of king. The clubs and their festivals continue."
+      }
+    ],
+    "festivals": [
+      {
+        "id": "fest-christmas-markets",
+        "title": "Christmas markets",
+        "creator": "Advent, from late November",
+        "why": "Dresden’s dates from 1434 and Nuremberg’s from the sixteenth century. Stalls of gingerbread, toys and hot spiced wine on the market square."
+      },
+      {
+        "id": "fest-fastnacht",
+        "title": "Fastnacht",
+        "creator": "The days before Ash Wednesday",
+        "why": "The world turned upside down before Lent. In the south-west, masked figures in wooden faces and bells still run through the old imperial towns."
+      },
+      {
+        "id": "fest-the-landshut-wedding",
+        "title": "The Landshut Wedding",
+        "creator": "Every four years, in June and July",
+        "why": "The whole town re-enacts the marriage of its duke to a Polish princess in 1475, with two thousand citizens in costume."
+      },
+      {
+        "id": "fest-oath-monday-in-ulm",
+        "title": "Oath Monday in Ulm",
+        "creator": "The second-last Monday of July",
+        "why": "After the oath comes a parade of decorated rafts on the Danube and a town-wide party."
+      }
+    ],
+    "places": [
+      {
+        "id": "place-aachen-cathedral",
+        "title": "Aachen Cathedral",
+        "creator": "Aachen, Germany",
+        "why": "Charlemagne’s eight-sided palace chapel of about 800, with his marble throne in the gallery. Thirty-one German kings were crowned here."
+      },
+      {
+        "id": "place-nuremberg",
+        "title": "Nuremberg",
+        "creator": "Bavaria, Germany",
+        "why": "The imperial castle on its rock, Dürer’s house and the churches of a great free city where the crown jewels were kept for nearly four centuries."
+      },
+      {
+        "id": "place-regensburg",
+        "title": "Regensburg",
+        "creator": "Bavaria, Germany",
+        "why": "The best preserved medieval city in Germany. In the old town hall the diet of the Empire sat without a break from 1663 to 1806."
+      },
+      {
+        "id": "place-the-imperial-treasury",
+        "title": "The Imperial Treasury",
+        "creator": "Hofburg, Vienna, Austria",
+        "why": "The crown, the orb, the sceptre, the Holy Lance and the coronation robes made in Palermo in 1133."
+      },
+      {
+        "id": "place-the-fuggerei",
+        "title": "The Fuggerei",
+        "creator": "Augsburg, Germany",
+        "why": "A walled settlement of small houses founded by the banker Jakob Fugger in 1521 for poor citizens. The rent is still one Rhenish guilder a year and three prayers a day."
+      },
+      {
+        "id": "place-the-wartburg",
+        "title": "The Wartburg",
+        "creator": "Eisenach, Thuringia, Germany",
+        "why": "A hilltop castle where the Minnesingers held their legendary contest and where Luther, in hiding, translated the New Testament in eleven weeks."
+      }
+    ]
+  },
+  "ethics": [
+    {
+      "title": "Honest craft",
+      "text": "A master’s name stood behind every piece. Shoddy work shamed the whole guild.",
+      "practice": "Redo one thing today that you know is not right."
+    },
+    {
+      "title": "The oath",
+      "text": "Society was a web of sworn promises. To break one was to put oneself outside it.",
+      "practice": "Before you promise anything today, ask whether you would swear to it."
+    },
+    {
+      "title": "The common good",
+      "text": "Private advantage is to give way to what serves the whole town.",
+      "practice": "Do one thing today from which you gain nothing and your neighbours do."
+    },
+    {
+      "title": "Peace through law",
+      "text": "Right is to be sought before a judge, not taken by the sword.",
+      "practice": "Take one grievance to the proper person instead of nursing it."
+    },
+    {
+      "title": "Conscience",
+      "text": "Luther stood before the highest powers on earth and said he could not go against his.",
+      "practice": "Is there something you are going along with against your own conscience?"
+    },
+    {
+      "title": "Rest",
+      "text": "The seventh day and the evening belong to something other than work.",
+      "practice": "Guard tonight from every kind of labour."
+    }
+  ],
+  "philosophy": [
+    {
+      "title": "Many powers, one peace",
+      "text": "The Empire had hundreds of rulers and no strong centre. It worked by negotiation, shared courts and mutual guarantee. Small members were protected by law against large ones.",
+      "practice": "Where in your life does a loose arrangement work better than a tight one would?"
+    },
+    {
+      "title": "Freedom as privilege",
+      "text": "Liberties here were particular: this town’s charter, that guild’s right, this abbey’s immunity. Freedom meant the rights of one’s own group, defended at law.",
+      "practice": "Which freedoms of yours depend on a group you belong to?"
+    },
+    {
+      "title": "Election",
+      "text": "The crown was never simply inherited. The king was chosen and had to promise to respect the laws before he was crowned.",
+      "practice": "What authority over you has been consented to, and what merely assumed?"
+    },
+    {
+      "title": "Two swords",
+      "text": "Emperor and pope each claimed supreme authority, and neither won. The long quarrel left room in between for cities, universities and consciences.",
+      "practice": "What two authorities check each other in your life?"
+    },
+    {
+      "title": "The masterpiece",
+      "text": "Skill is proved by a finished object judged by one’s peers, not by confidence or credentials.",
+      "practice": "What have you made that would stand as your masterpiece?"
+    },
+    {
+      "title": "Whose realm, his religion",
+      "text": "After a generation of war, the Empire let each prince decide his land’s confession and let subjects leave. It was not tolerance, but it was a way to stop killing.",
+      "practice": "What imperfect truce are you refusing because it is not justice?"
+    },
+    {
+      "title": "A feather on the breath",
+      "text": "Hildegard, who advised emperors, described herself as moved by a power not her own.",
+      "practice": "What carries you that you did not make?"
+    },
+    {
+      "title": "Neither holy, nor Roman, nor an empire",
+      "text": "Voltaire’s joke is fair by his standards. By its own, the Empire kept the peace among very different members for longer than any modern state has existed.",
+      "practice": "What do you dismiss because it fits none of your categories?"
+    }
+  ],
+  "journal": [
+    "What did you make today that you would put your mark on?",
+    "Did you keep the hours?",
+    "What rang, and did you obey it?",
+    "What did you learn from someone else’s workshop?",
+    "Who is your master?",
+    "Whom are you training?",
+    "What did you do for your town?",
+    "What oath are you bound by?",
+    "What quarrel should go to judgment?",
+    "Where did you work past the bell, and what was it worth?",
+    "Who shared your bread?",
+    "What did you sing?",
+    "Whose inspection do you avoid?",
+    "What would the guild say of your week’s work?",
+    "Where did private gain beat the common good in you?",
+    "What freedom do you owe to a group?",
+    "What road should you take for a year and a day?",
+    "What are you building that you will not see finished?",
+    "What does your conscience refuse?",
+    "What authority did you consent to?",
+    "What truce could you accept?",
+    "What did the walls keep out today, and what did they keep in?",
+    "What did you buy from the hand that made it?",
+    "Who is outside your town’s protection?",
+    "What carries you?",
+    "How ought one to live in this world?",
+    "What beauty did you see that you cannot explain?",
+    "What small right will you defend?",
+    "What holds your loose world together?",
+    "Is the day’s work done?"
+  ],
+  "reflect": [
+    "What did living by the bell do to your days?",
+    "How far has the masterpiece come?",
+    "What did you bring home from other workshops?",
+    "What part of your commune do you now carry?",
+    "What have your evenings become?",
+    "Which rule will you keep?"
+  ],
+  "dayThemes": [
+    "The morning bell",
+    "Pray and work",
+    "The workshop",
+    "The apprentice",
+    "The journeyman",
+    "The master",
+    "The masterpiece",
+    "The mark",
+    "The guild",
+    "The market",
+    "City air",
+    "The oath",
+    "The council",
+    "The wall",
+    "The common good",
+    "The public peace",
+    "No feud",
+    "The road",
+    "A year and a day",
+    "The cathedral",
+    "The cloister",
+    "A feather on the breath",
+    "I sat upon a stone",
+    "The printing press",
+    "Conscience",
+    "The Twelve Articles",
+    "Whose realm",
+    "The patchwork",
+    "How does it hold together",
+    "The evening bell"
+  ],
+  "guide": {
+    "intro": [
+      "On Christmas Day in the year 800 the pope placed a crown on the head of the Frankish king Charlemagne in Rome and hailed him as emperor, reviving in the West a title that had lapsed three centuries earlier. His empire fell apart under his grandsons. In 962 the title was taken up again by Otto, king of the Germans, and from then until 1806, for 844 years, there was an emperor in central Europe who claimed to be the heir of Rome and the secular head of Christendom.",
+      "The Holy Roman Empire, as it came to be called, was never a state in the modern sense. It had no capital, no standing army and almost no central taxation. At its fullest it covered what are now Germany, Austria, Switzerland, the Czech lands, the Low Countries, eastern France and northern Italy. Within it were some three hundred territories of every size and kind: electorates and duchies, counties, lands ruled by bishops and abbots, about sixty-five free cities that governed themselves, and hundreds of imperial knights with a village or two each.",
+      "The emperor was elected. From 1356 the choice lay with seven prince-electors, and each new king had to swear to respect the rights of the estates before he was crowned. He could not make law or raise money without the consent of the diet, where princes and cities sat. What he offered in return was legitimacy and justice. Every member, down to the smallest abbey, held its rights from the Empire and could defend them in the imperial courts against a stronger neighbour. In 1495 private war was forbidden for good. The system was slow, legalistic and often mocked, and it kept a great many small communities alive and independent for a very long time.",
+      "It was within this framework that the life of the German towns developed. A burgher swore an oath to his commune, took his turn on the walls and belonged to a guild that governed his craft. A boy served an apprenticeship, went on the road as a journeyman and, if he could produce a masterpiece, became a master. Bells divided the day. Monasteries kept the round of prayer and work. In these towns Gutenberg printed with movable type around 1450, Dürer engraved, and merchants like the Fuggers financed emperors.",
+      "In 1517 a professor at one of the Empire’s new universities, Martin Luther, challenged the sale of indulgences. Because the Empire had no power to silence him and several princes chose to protect him, the Reformation survived. The religious division led to the Thirty Years’ War, which between 1618 and 1648 killed perhaps a third of the population. The Peace of Westphalia that ended it confirmed the rights of the estates and of three Christian confessions, and the Empire lived on for another century and a half as a guarantor of that settlement, until Napoleon’s victories persuaded the last emperor to dissolve it.",
+      "Later German nationalists despised it as weak, and the Nazis misused its memory. Historians now tend to see something more interesting: a way of holding together many different communities by law and consent.",
+      "This Onda takes its practices from the life of its towns and cloisters: the day kept by bells, the masterpiece, the journeyman’s road, a turn of duty for the commune and the evening rest."
+    ],
+    "origin": "The German lands, with Bohemia, the Low Countries, Burgundy and northern Italy",
+    "era": "Charlemagne was crowned emperor in 800 and Otto the Great in 962. Francis II laid down the crown on 6 August 1806",
+    "figures": [
+      {
+        "name": "Charlemagne",
+        "dates": "about 748 to 814",
+        "bio": "King of the Franks, crowned emperor in 800. Later ages treated him as the founder, and Barbarossa had him declared a saint."
+      },
+      {
+        "name": "Otto I, the Great",
+        "dates": "912 to 973",
+        "bio": "The Saxon king who defeated the Magyars in 955 and was crowned emperor in Rome in 962. The continuous line begins with him."
+      },
+      {
+        "name": "Hildegard of Bingen",
+        "dates": "1098 to 1179",
+        "bio": "Abbess, visionary, composer and writer on medicine and nature. She preached in public and rebuked an emperor by letter."
+      },
+      {
+        "name": "Frederick I Barbarossa",
+        "dates": "about 1122 to 1190",
+        "bio": "The red-bearded emperor who fought for decades to master Italy and drowned on crusade. Legend says he sleeps in a mountain until he is needed."
+      },
+      {
+        "name": "Frederick II",
+        "dates": "1194 to 1250",
+        "bio": "Raised in Sicily, speaker of six languages, falconer and sceptic. Contemporaries called him the wonder of the world. He left Germany largely to its princes."
+      },
+      {
+        "name": "Walther von der Vogelweide",
+        "dates": "about 1170 to 1230",
+        "bio": "The greatest of the Minnesingers, who also wrote sharp political verse and begged patrons for a home of his own."
+      },
+      {
+        "name": "Charles IV",
+        "dates": "1316 to 1378",
+        "bio": "King of Bohemia and emperor. He founded the university of Prague and issued the Golden Bull that fixed how emperors were elected."
+      },
+      {
+        "name": "Johannes Gutenberg",
+        "dates": "about 1400 to 1468",
+        "bio": "A goldsmith of Mainz who devised printing with cast metal type. He lost his workshop to his creditor before his Bible was sold."
+      },
+      {
+        "name": "Jakob Fugger",
+        "dates": "1459 to 1525",
+        "bio": "Merchant and banker of Augsburg, perhaps the richest private person in history. His loans bought the election of Charles V. He also founded the Fuggerei."
+      },
+      {
+        "name": "Albrecht Dürer",
+        "dates": "1471 to 1528",
+        "bio": "A goldsmith’s son from Nuremberg who brought Italian ideas north and made the print a major art."
+      },
+      {
+        "name": "Martin Luther",
+        "dates": "1483 to 1546",
+        "bio": "An Augustinian friar and professor at Wittenberg. His translation of the Bible shaped the German language."
+      },
+      {
+        "name": "Maria Sibylla Merian",
+        "dates": "1647 to 1717",
+        "bio": "Born in the free city of Frankfurt into a family of engravers. She studied the life cycles of insects and sailed to Suriname at fifty-two to paint them."
+      }
+    ],
+    "history": [
+      {
+        "when": "25 December 800",
+        "what": "Charlemagne crowned",
+        "detail": "Pope Leo III crowns him in Saint Peter’s. His realm is divided among his grandsons at Verdun in 843."
+      },
+      {
+        "when": "2 February 962",
+        "what": "Otto the Great",
+        "detail": "The German king is crowned emperor in Rome. From now on the imperial title belongs to whoever is elected king in Germany."
+      },
+      {
+        "when": "1077 to 1122",
+        "what": "Emperor against pope",
+        "detail": "Henry IV stands barefoot in the snow at Canossa to have his excommunication lifted. The quarrel over who appoints bishops ends in a compromise at Worms."
+      },
+      {
+        "when": "1157",
+        "what": "The Holy Empire",
+        "detail": "Barbarossa’s chancery begins to style the realm sacred. The full name Holy Roman Empire appears in 1254."
+      },
+      {
+        "when": "1254 to 1273",
+        "what": "The Interregnum",
+        "detail": "For nineteen years there is no generally accepted king. Princes and towns learn to look after themselves and form leagues."
+      },
+      {
+        "when": "1356",
+        "what": "The Golden Bull",
+        "detail": "Charles IV fixes the electors at seven: the archbishops of Mainz, Cologne and Trier, the king of Bohemia, and the rulers of the Palatinate, Saxony and Brandenburg."
+      },
+      {
+        "when": "about 1450 to 1455",
+        "what": "Printing",
+        "detail": "Gutenberg prints a Bible of forty-two lines to the page at Mainz. Within fifty years there are presses in some two hundred and fifty towns."
+      },
+      {
+        "when": "1495",
+        "what": "The Diet of Worms",
+        "detail": "The estates and Maximilian I agree a perpetual public peace, a supreme court and a common tax. The Empire gains its lasting institutions."
+      },
+      {
+        "when": "31 October 1517",
+        "what": "The ninety-five theses",
+        "detail": "Luther circulates his objections to indulgences. Four years later he refuses to recant before the emperor at Worms."
+      },
+      {
+        "when": "1524 to 1525",
+        "what": "The Peasants’ War",
+        "detail": "Some three hundred thousand rise across the south. Their Twelve Articles are printed at Memmingen. The princes kill perhaps a hundred thousand of them."
+      },
+      {
+        "when": "1555",
+        "what": "The Peace of Augsburg",
+        "detail": "Each ruler may choose between the Catholic and Lutheran faiths for his territory. Those who dissent may emigrate."
+      },
+      {
+        "when": "1618 to 1648",
+        "what": "The Thirty Years’ War",
+        "detail": "A Bohemian revolt grows into a European war fought on German soil. Famine and plague follow the armies."
+      },
+      {
+        "when": "1648",
+        "what": "The Peace of Westphalia",
+        "detail": "Signed at Münster and Osnabrück. It recognises Calvinists, fixes the rights of the estates and makes the Empire’s constitution a matter of European treaty."
+      },
+      {
+        "when": "6 August 1806",
+        "what": "The end",
+        "detail": "After Napoleon reorganises Germany and sixteen princes leave to join his confederation, Francis II declares the imperial office extinct."
+      }
+    ],
+    "concepts": [
+      {
+        "term": "Elective monarchy",
+        "text": "Chosen, not born.",
+        "detail": "Even when the crown stayed in one family for centuries, each succession had to be bought with promises. The emperor was first among his peers."
+      },
+      {
+        "term": "The imperial estates",
+        "text": "Those with a seat and a voice.",
+        "detail": "Electors, princes, prelates, counts and free cities, each with a place at the diet. They, with the emperor, were the Empire."
+      },
+      {
+        "term": "Imperial immediacy",
+        "text": "No lord but the emperor.",
+        "detail": "The status that made a city, abbey or knight a member of the Empire in its own right, and the thing every small power guarded most jealously."
+      },
+      {
+        "term": "The public peace",
+        "text": "Law in place of feud.",
+        "detail": "The Eternal Peace of 1495 banned private warfare. Two supreme courts heard cases between members and appeals from their subjects, including peasants against their lords."
+      },
+      {
+        "term": "German liberty",
+        "text": "The rights of the estates.",
+        "detail": "The freedoms of princes and cities against central power. Outsiders saw anarchy. Members saw protection against tyranny."
+      },
+      {
+        "term": "The guild order",
+        "text": "Regulated craft.",
+        "detail": "Guilds limited who could work, set standards and prices, and gave members security and a political voice. They excluded women, Jews and outsiders."
+      },
+      {
+        "term": "The communal oath",
+        "text": "A town as a sworn association.",
+        "detail": "Citizens bound themselves to one another each year. The commune, not a lord, was the source of the town’s law."
+      },
+      {
+        "term": "Confessional parity",
+        "text": "Three churches, one Empire.",
+        "detail": "After 1648 Catholics and Protestants each had a veto in religious matters at the diet, and some cities shared every office between the confessions."
+      },
+      {
+        "term": "Translation of empire",
+        "text": "Rome continued.",
+        "detail": "The idea that the Roman Empire had not ended but passed to the Franks and then the Germans, and would last until the end of the world."
+      }
+    ],
+    "facts": [
+      {
+        "text": "The Empire’s last diet sat continuously in Regensburg for 143 years, which makes it a candidate for the first permanent parliament."
+      },
+      {
+        "text": "At the Peace of Westphalia the Empire had some three hundred sovereign members and about fifteen hundred other lordships."
+      },
+      {
+        "text": "Cologne Cathedral was begun in 1248, left with a crane on its unfinished tower for four hundred years, and completed in 1880."
+      },
+      {
+        "text": "Gutenberg printed about 180 copies of his Bible. Forty-nine survive in whole or part."
+      },
+      {
+        "text": "Peasants could and did sue their rulers in the imperial courts, and sometimes won."
+      },
+      {
+        "text": "The imperial regalia were kept in Nuremberg from 1424 and shown to the public once a year."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "King of the Romans",
+        "meaning": "The title of the elected ruler before his coronation as emperor"
+      },
+      {
+        "term": "Estate",
+        "meaning": "A member of the Empire with a seat at the diet"
+      },
+      {
+        "term": "Prince-bishop",
+        "meaning": "A bishop who was also the secular ruler of a territory"
+      },
+      {
+        "term": "Mediatisation",
+        "meaning": "The loss of immediate status, when a small territory was absorbed by a larger one"
+      },
+      {
+        "term": "Confession",
+        "meaning": "One of the recognised forms of Christianity: Catholic, Lutheran or Reformed"
+      },
+      {
+        "term": "Minnesinger",
+        "meaning": "A poet-composer of courtly love song, 12th to 14th century"
+      }
+    ],
+    "furtherReading": [
+      {
+        "title": "The Holy Roman Empire: A Short History",
+        "creator": "Barbara Stollberg-Rilinger",
+        "year": "2018",
+        "note": "A hundred and fifty pages on how the Empire actually functioned after 1495, through ritual and consensus."
+      },
+      {
+        "title": "Europe’s Tragedy: A New History of the Thirty Years War",
+        "creator": "Peter H. Wilson",
+        "year": "2009",
+        "note": "The war in full, and why it was not simply a war of religion."
+      },
+      {
+        "title": "The Holy Roman Empire: A Very Short Introduction",
+        "creator": "Joachim Whaley",
+        "year": "2018",
+        "note": "The thousand years in outline."
+      },
+      {
+        "title": "Hildegard of Bingen: The Woman of Her Age",
+        "creator": "Fiona Maddocks",
+        "year": "2001",
+        "note": "A clear-headed life of the abbess, separating the person from the legend."
+      }
+    ],
+    "learnFrom": [
+      {
+        "name": "Heidelberg University Library",
+        "note": "The complete Codex Manesse, digitised page by page.",
+        "link": "https://digi.ub.uni-heidelberg.de/diglit/cpg848"
+      },
+      {
+        "name": "Germanisches Nationalmuseum",
+        "note": "The national museum of German culture in Nuremberg, with a large online collection of crafts, instruments and prints.",
+        "link": "https://www.gnm.de/en"
+      },
+      {
+        "name": "A master of a craft",
+        "note": "The German system of apprentice, journeyman and master still exists. Find a workshop near you that trains, and ask to see how it is done."
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Holy Roman Empire: A Thousand Years of Europe’s History",
+        "creator": "Peter H. Wilson",
+        "publisher": "Allen Lane",
+        "year": "2016"
+      },
+      {
+        "title": "Germany and the Holy Roman Empire, 1493 to 1806",
+        "creator": "Joachim Whaley",
+        "publisher": "Oxford University Press",
+        "year": "2012"
+      },
+      {
+        "title": "The Holy Roman Empire: A Short History",
+        "creator": "Barbara Stollberg-Rilinger, trans. Yair Mintzker",
+        "publisher": "Princeton University Press",
+        "year": "2018"
+      },
+      {
+        "title": "Society and Economy in Germany, 1300 to 1600",
+        "creator": "Tom Scott",
+        "publisher": "Palgrave",
+        "year": "2002"
+      },
+      {
+        "title": "The Revolution of 1525: The German Peasants’ War from a New Perspective",
+        "creator": "Peter Blickle, trans. Thomas A. Brady and H. C. Erik Midelfort",
+        "publisher": "Johns Hopkins University Press",
+        "year": "1981"
+      },
+      {
+        "title": "Martin Luther: Renegade and Prophet",
+        "creator": "Lyndal Roper",
+        "publisher": "The Bodley Head",
+        "year": "2016"
+      }
+    ]
+  },
+  "sensitivity": {
+    "note": "This Onda draws on the civic and monastic life of the old Empire’s towns. That life was Christian through and through, and the practices keep its shape while leaving belief to you. The Empire’s history also includes much that should not be imitated.",
+    "requiredCaveats": [
+      "Jewish communities lived under the emperor’s protection and were nevertheless massacred in 1096 and 1349 and expelled from many cities. Luther’s late writings against the Jews are vicious.",
+      "Some twenty-five thousand people, most of them women, were executed as witches in the Empire, more than anywhere else in Europe.",
+      "The guilds and communes were for sworn male householders. Women, the poor, serfs and outsiders had few rights in them.",
+      "The Nazi regime called itself the Third Reich and staged its rallies in Nuremberg to claim this past. The claim was false."
+    ],
+    "reviewRequired": false
+  }
+}

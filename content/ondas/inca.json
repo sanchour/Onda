@@ -1,0 +1,1254 @@
+{
+  "version": 1,
+  "id": "inca",
+  "name": "Inca Empire",
+  "origin": "The Andes",
+  "era": "About 1438 to 1572, and a living Andean world",
+  "tone": "yellow",
+  "icon": "sun",
+  "font": "andada-pro",
+  "pattern": "stepped-stones",
+  "glyph": "Inti",
+  "line": "Give and receive in turn, work with your hands and thank the earth.",
+  "quote": {
+    "text": "Today for you, tomorrow for me.",
+    "by": "Quechua saying",
+    "source": "Kunan qampaq, paqarin ñoqapaq. The rule of ayni, the exchange of help between households"
+  },
+  "quotes": [
+    {
+      "text": "Do not steal, do not lie, do not be lazy.",
+      "by": "Quechua moral code",
+      "source": "Ama sua, ama llulla, ama qhella. Traditionally ascribed to the Incas and first written down under Spanish rule"
+    },
+    {
+      "text": "Envy is a worm that gnaws and consumes the entrails of the envious.",
+      "by": "Attributed to Pachacuti Inca Yupanqui",
+      "source": "Garcilaso de la Vega, Royal Commentaries of the Incas, 1609, book 6, trans. Harold V. Livermore"
+    },
+    {
+      "text": "What rainbow is this black rainbow that rises?",
+      "by": "Anonymous Quechua elegy",
+      "source": "Apu Inka Atawallpaman, on the death of Atahualpa, 16th century, after the Spanish version of José María Arguedas"
+    },
+    {
+      "text": "To write it is to weep.",
+      "by": "Felipe Guaman Poma de Ayala",
+      "source": "The First New Chronicle and Good Government, 1615. Translated from the Spanish"
+    },
+    {
+      "text": "I believe that, in human memory, there has been no account of a road as great as this.",
+      "by": "Pedro de Cieza de León",
+      "source": "Chronicle of Peru, 1553, on the Inca highway. Translated from the Spanish"
+    },
+    {
+      "text": "I will return, and I will be millions.",
+      "by": "Attributed to Túpac Katari",
+      "source": "The Aymara leader’s last words before his execution in 1781, as handed down",
+      "unverified": true
+    }
+  ],
+  "words": [
+    {
+      "id": "word-tawantinsuyu",
+      "term": "Tawantinsuyu",
+      "meaning": "The four parts together",
+      "pronunciation": "ta-wan-tin-SOO-yoo",
+      "language": "Quechua",
+      "usage": "The Incas’ name for their realm: four quarters meeting at Cusco."
+    },
+    {
+      "id": "word-qosqo",
+      "term": "Qosqo",
+      "meaning": "Cusco",
+      "pronunciation": "KOS-ko",
+      "language": "Quechua",
+      "usage": "The capital, laid out in the shape of a puma. The name is often explained as navel."
+    },
+    {
+      "id": "word-sapa-inka",
+      "term": "Sapa Inka",
+      "meaning": "The sole Inca",
+      "pronunciation": "SA-pa ING-ka",
+      "language": "Quechua",
+      "usage": "The ruler, held to be the son of the Sun. Inca first meant the ruling lineage, not the whole people."
+    },
+    {
+      "id": "word-qoya",
+      "term": "Qoya",
+      "meaning": "The queen",
+      "pronunciation": "KOY-a",
+      "language": "Quechua",
+      "usage": "The ruler’s principal wife, daughter of the Moon, with her own lands and authority."
+    },
+    {
+      "id": "word-inti",
+      "term": "Inti",
+      "meaning": "The Sun",
+      "pronunciation": "IN-tee",
+      "language": "Quechua",
+      "usage": "The divine ancestor of the Inca house. His main temple, the Qorikancha, was sheeted in gold."
+    },
+    {
+      "id": "word-pachamama",
+      "term": "Pachamama",
+      "meaning": "Mother Earth; mother of time and space",
+      "pronunciation": "pa-cha-MA-ma",
+      "language": "Quechua",
+      "usage": "The living earth who feeds and must be fed. Still honoured across the Andes with the first drops of every drink."
+    },
+    {
+      "id": "word-apu",
+      "term": "Apu",
+      "meaning": "Lord; a mountain spirit",
+      "pronunciation": "AH-poo",
+      "language": "Quechua",
+      "usage": "The great snow peaks are persons who watch over the valleys beneath them."
+    },
+    {
+      "id": "word-wak-a",
+      "term": "Wak'a",
+      "meaning": "A sacred thing or place",
+      "pronunciation": "WA-ka",
+      "language": "Quechua",
+      "usage": "A spring, a rock, a mummy, a twin ear of maize: anything in which unusual power shows itself."
+    },
+    {
+      "id": "word-pacha",
+      "term": "Pacha",
+      "meaning": "World; time; earth",
+      "pronunciation": "PA-cha",
+      "language": "Quechua",
+      "usage": "One word for space and time together. An age of the world, and the turning over that ends it."
+    },
+    {
+      "id": "word-ayllu",
+      "term": "Ayllu",
+      "meaning": "The kin community",
+      "pronunciation": "EYE-yoo",
+      "language": "Quechua",
+      "usage": "A group of families who hold land in common, share an ancestor and owe one another labour."
+    },
+    {
+      "id": "word-ayni",
+      "term": "Ayni",
+      "meaning": "Reciprocity",
+      "pronunciation": "EYE-nee",
+      "language": "Quechua",
+      "usage": "Help given that must be returned in kind: a day’s ploughing for a day’s ploughing. It extends to the earth and the mountains."
+    },
+    {
+      "id": "word-mink-a",
+      "term": "Mink'a",
+      "meaning": "Communal work",
+      "pronunciation": "MING-ka",
+      "language": "Quechua",
+      "usage": "The whole community turns out for a job that benefits all, such as cleaning the canals, and the sponsor provides food, drink and music."
+    },
+    {
+      "id": "word-mit-a",
+      "term": "Mit'a",
+      "meaning": "A turn of service",
+      "pronunciation": "MEE-ta",
+      "language": "Quechua",
+      "usage": "Labour owed to the state in rotation: building roads, farming the Sun’s fields, serving in the army. The Incas taxed in work, not goods."
+    },
+    {
+      "id": "word-kuraka",
+      "term": "Kuraka",
+      "meaning": "A local lord",
+      "pronunciation": "koo-RA-ka",
+      "language": "Quechua",
+      "usage": "The hereditary head of an ayllu or province, who organised labour and was responsible for his people’s welfare."
+    },
+    {
+      "id": "word-khipu",
+      "term": "Khipu",
+      "meaning": "A knotted cord record",
+      "pronunciation": "KEE-poo",
+      "language": "Quechua",
+      "usage": "Coloured strings with knots that recorded numbers in a decimal system, and perhaps narratives too. The Incas had no writing as we know it."
+    },
+    {
+      "id": "word-khipukamayuq",
+      "term": "Khipukamayuq",
+      "meaning": "Keeper of the knots",
+      "pronunciation": "kee-poo-ka-MA-yok",
+      "language": "Quechua",
+      "usage": "An official trained to make and read khipus. Each village had several."
+    },
+    {
+      "id": "word-qhapaq-nan",
+      "term": "Qhapaq Ñan",
+      "meaning": "The royal road",
+      "pronunciation": "KA-pak NYAN",
+      "language": "Quechua",
+      "usage": "Some forty thousand kilometres of paved and stepped roads binding the empire from Colombia to Chile."
+    },
+    {
+      "id": "word-chaski",
+      "term": "Chaski",
+      "meaning": "A relay runner",
+      "pronunciation": "CHAS-kee",
+      "language": "Quechua",
+      "usage": "Runners stationed in pairs every few kilometres carried messages and khipus about 240 kilometres in a day."
+    },
+    {
+      "id": "word-tampu",
+      "term": "Tampu",
+      "meaning": "A way station",
+      "pronunciation": "TAM-poo",
+      "language": "Quechua",
+      "usage": "Lodgings and stores set a day’s walk apart along the roads."
+    },
+    {
+      "id": "word-qollqa",
+      "term": "Qollqa",
+      "meaning": "A storehouse",
+      "pronunciation": "KOL-ka",
+      "language": "Quechua",
+      "usage": "Stone silos on windy hillsides, filled with freeze-dried potatoes, maize, cloth and weapons against bad years."
+    },
+    {
+      "id": "word-chakana",
+      "term": "Chakana",
+      "meaning": "The stepped cross",
+      "pronunciation": "cha-KA-na",
+      "language": "Quechua",
+      "usage": "A cross with three steps on each arm, an Andean emblem of the levels of the world. Also the name of the Southern Cross."
+    },
+    {
+      "id": "word-yanantin",
+      "term": "Yanantin",
+      "meaning": "A matched pair",
+      "pronunciation": "ya-NAN-tin",
+      "language": "Quechua",
+      "usage": "Two different things that belong together and complete each other, like two hands or a married couple."
+    },
+    {
+      "id": "word-hanan-and-hurin",
+      "term": "Hanan and hurin",
+      "meaning": "Upper and lower",
+      "pronunciation": "HA-nan, HOO-rin",
+      "language": "Quechua",
+      "usage": "Every community, and Cusco itself, was divided into two halves that competed and cooperated."
+    },
+    {
+      "id": "word-runasimi",
+      "term": "Runasimi",
+      "meaning": "The people’s speech",
+      "pronunciation": "roo-na-SEE-mee",
+      "language": "Quechua",
+      "usage": "The Quechua language, spread by the Incas as a common tongue and spoken today by some eight to ten million people."
+    },
+    {
+      "id": "word-aqha",
+      "term": "Aqha",
+      "meaning": "Maize beer",
+      "pronunciation": "AH-ka",
+      "language": "Quechua",
+      "usage": "Called chicha in Spanish. Brewed by women, offered to the Sun and the dead, and owed by every host to those who work for him."
+    },
+    {
+      "id": "word-ch-alla",
+      "term": "Ch'alla",
+      "meaning": "A sprinkled offering",
+      "pronunciation": "CHA-ya",
+      "language": "Quechua and Aymara",
+      "usage": "A few drops poured on the ground for Pachamama before one drinks."
+    },
+    {
+      "id": "word-ch-unu",
+      "term": "Ch'uñu",
+      "meaning": "Freeze-dried potato",
+      "pronunciation": "CHOO-nyoo",
+      "language": "Quechua",
+      "usage": "Potatoes left out in the frost, trodden to squeeze out the water and dried in the sun. They keep for years."
+    },
+    {
+      "id": "word-qompi",
+      "term": "Qompi",
+      "meaning": "The finest cloth",
+      "pronunciation": "KOM-pee",
+      "language": "Quechua",
+      "usage": "Tapestry woven of alpaca and vicuña by specialists. Cloth was the most valued thing in the Inca world, above gold."
+    },
+    {
+      "id": "word-mallki",
+      "term": "Mallki",
+      "meaning": "An ancestor; a mummy; a young tree",
+      "pronunciation": "MAL-kee",
+      "language": "Quechua",
+      "usage": "The preserved bodies of the dead rulers were dressed, fed and consulted, and kept their own estates."
+    },
+    {
+      "id": "word-mayu",
+      "term": "Mayu",
+      "meaning": "The river; the Milky Way",
+      "pronunciation": "MA-yoo",
+      "language": "Quechua",
+      "usage": "The river of the sky. The Andean constellations are the dark shapes in it: a llama, a toad, a serpent, a fox."
+    }
+  ],
+  "practices": [
+    {
+      "id": "sun-and-earth",
+      "name": "Greet the sun, thank the earth",
+      "icon": "sun-horizon",
+      "slot": "Morning",
+      "time": "06:15",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "At sunrise go outside and face east. Stand until the sun clears the horizon or the rooftops, and greet it. Take the first drink of your day with you. Before you taste it, tip a few drops on to the ground, and say thank you to the earth for the food you will eat today. Then drink. Look at the nearest hill or high point and acknowledge that too.",
+      "why": "The Inca state centred on the Sun, whose rising at the solstices was watched from stone pillars above Cusco. The offering of the first drops, the ch’alla, is older than the Incas and is made today by millions of Andean people before any drink.",
+      "variations": [
+        "On 1 August, the day of Pachamama, give the earth a proper share of a meal.",
+        "Learn where the sun rises at midsummer and midwinter from your home.",
+        "Pour the drops before every drink for one whole day."
+      ]
+    },
+    {
+      "id": "ayni",
+      "name": "Ayni",
+      "icon": "handshake",
+      "slot": "Morning",
+      "time": "09:00",
+      "minutes": 20,
+      "meta": "Morning · 20 min",
+      "instructions": "Do a piece of real work for someone today on the understanding that it will come back. Help a neighbour move, dig, paint, harvest, mind children, fix something. Make it labour, not money. Then keep the account honestly: write down what you have given and what you have received this month, and from whom. Where you are in debt, set a day to repay it in kind.",
+      "why": "Ayni is the rule under all Andean life. A household cannot plough, roof a house or bring in a harvest alone, so help is lent and returned, day for day. Those who receive and do not give back lose their standing. The same rule governs dealings with the earth and the mountains.",
+      "variations": [
+        "Ask for help with something, and so open an exchange.",
+        "Return a favour that is years old.",
+        "Bring food and drink for everyone you work beside."
+      ]
+    },
+    {
+      "id": "khipu",
+      "name": "Knot the day",
+      "icon": "yarn",
+      "slot": "Afternoon",
+      "time": "13:00",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Keep today’s record on a string. Take a main cord and tie hanging strings to it, one for each thing you want to count: tasks done, people helped, hours worked, money spent, debts owed. Use a different colour for each if you can. Tie one simple knot for each unit, and a long knot of several turns for the numbers two to nine. At the end of the week read the cord back without notes.",
+      "why": "The Incas ran an empire of ten million people without writing. Census, tribute, storehouse contents and calendars were kept on khipus by trained cord keepers, who could recite them years later. About a thousand survive, and scholars can read the numbers.",
+      "variations": [
+        "Record a whole week on one khipu.",
+        "Use position on the string for tens and hundreds, as the Incas did.",
+        "Tie one cord for what you owe and one for what you are owed."
+      ]
+    },
+    {
+      "id": "walk-the-road",
+      "name": "Walk the road",
+      "icon": "footprints",
+      "slot": "Afternoon",
+      "time": "16:00",
+      "minutes": 45,
+      "meta": "Afternoon · 45 min",
+      "instructions": "Walk for forty-five minutes on foot, uphill for as much of it as you can find, at a steady pace that lets you breathe through your nose. Carry something for someone: a parcel to deliver, shopping for a neighbour, a message to give in person. Take steps and steep paths in preference to flat ones. When you reach a high point, stop, add a stone to a pile if there is one, and look back along the way you came.",
+      "why": "The Inca road system crossed the highest inhabited mountains on earth with stairways, causeways and grass suspension bridges. Everything moved along it on foot or on llamas. Travellers still add a stone to the cairns called apachetas at each pass.",
+      "variations": [
+        "Run a short relay with a friend, passing a spoken message exactly.",
+        "Walk to deliver something you would normally send.",
+        "Climb the highest ground within reach and name what you can see."
+      ]
+    },
+    {
+      "id": "three-laws",
+      "name": "The three laws and the river of stars",
+      "icon": "moon-stars",
+      "slot": "Evening",
+      "time": "21:00",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "At the end of the day ask yourself three questions and answer them aloud. Did I take anything today that was not mine: goods, credit, time? Did I say anything that was not true? Was I idle when there was work to do? Put right tomorrow whatever needs it. Then go outside. If the sky is dark, find the Milky Way and look for the dark shapes within it, not the bright stars.",
+      "why": "Ama sua, ama llulla, ama qhella is the best known moral rule of the Andes, and the United Nations adopted it in 2015 as a principle for honest public service. Andean astronomers saw their constellations in the dark clouds of the Milky Way, which they called the river.",
+      "variations": [
+        "Add a fourth, as some do: do not be servile.",
+        "Greet someone tomorrow with the three laws, as a wish.",
+        "Learn to find the Southern Cross or, in the north, the Pleiades, which the Incas watched to forecast the harvest."
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task-look-through-guaman-poma-s-drawings-of-the-twelve-months-of-work",
+      "name": "Look through Guaman Poma’s drawings of the twelve months of work",
+      "meta": "Art · the Royal Library’s online facsimile",
+      "time": "13:30",
+      "slot": "Afternoon",
+      "action": "art"
+    },
+    {
+      "id": "task-read-the-capture-of-atahualpa-in-an-eyewitness-account",
+      "name": "Read the capture of Atahualpa in an eyewitness account",
+      "meta": "Read · Cajamarca, 16 November 1532",
+      "time": "20:00",
+      "slot": "Evening",
+      "action": "read"
+    },
+    {
+      "id": "task-listen-to-hanacpachap-cussicuinin",
+      "name": "Listen to Hanacpachap cussicuinin",
+      "meta": "Listen · a hymn in Quechua printed in 1631",
+      "time": "18:00",
+      "slot": "Evening",
+      "action": "listen"
+    },
+    {
+      "id": "task-cook-potatoes-three-ways-and-learn-the-name-of-each-variety",
+      "name": "Cook potatoes three ways, and learn the name of each variety",
+      "meta": "Eat · the Andes grow thousands",
+      "time": "12:30",
+      "slot": "Afternoon",
+      "action": "eat"
+    },
+    {
+      "id": "task-journal-what-did-you-receive-today-and-what-did-you-give-back",
+      "name": "Journal: what did you receive today, and what did you give back?",
+      "meta": "Journal · 10 min",
+      "time": "21:30",
+      "slot": "Evening",
+      "action": "journal"
+    },
+    {
+      "id": "task-a-state-with-no-money-and-no-hunger-at-what-price",
+      "name": "A state with no money and no hunger: at what price?",
+      "meta": "Philosophy · 10 min",
+      "time": "08:00",
+      "slot": "Morning",
+      "action": "philosophy"
+    },
+    {
+      "id": "take-your-turn-at-a-job-that-everyone-leaves-to-someone-else",
+      "name": "Take your turn at a job that everyone leaves to someone else",
+      "meta": "Mit’a",
+      "time": "11:00",
+      "slot": "Morning"
+    },
+    {
+      "id": "mend-or-make-something-of-cloth",
+      "name": "Mend or make something of cloth",
+      "meta": "Cloth was worth more than gold",
+      "time": "15:00",
+      "slot": "Afternoon"
+    },
+    {
+      "id": "put-something-by-for-a-bad-year",
+      "name": "Put something by for a bad year",
+      "meta": "The storehouses",
+      "time": "17:30",
+      "slot": "Afternoon"
+    }
+  ],
+  "rules": [
+    {
+      "id": "r1",
+      "text": "Give back what you receive",
+      "why": "Help, food and labour are owed in return. Keep the exchange going and keep it even."
+    },
+    {
+      "id": "r2",
+      "text": "Do not steal",
+      "why": "Take nothing that is not yours, including other people’s time and credit."
+    },
+    {
+      "id": "r3",
+      "text": "Do not lie",
+      "why": "Speak what is so. A community run on spoken promises cannot afford false ones."
+    },
+    {
+      "id": "r4",
+      "text": "Do not be idle",
+      "why": "There is always work. Do your share, and take your turn at the common tasks."
+    },
+    {
+      "id": "r5",
+      "text": "Thank the earth first",
+      "why": "Before you eat or drink, acknowledge where it came from."
+    },
+    {
+      "id": "r6",
+      "text": "Store against the frost",
+      "why": "In good years put something aside, for yourself and for others."
+    }
+  ],
+  "immerse": {
+    "read": [
+      {
+        "id": "read-the-first-new-chronicle-and-good-government",
+        "title": "The First New Chronicle and Good Government",
+        "creator": "Felipe Guaman Poma de Ayala",
+        "year": "1615",
+        "why": "A letter of nearly twelve hundred pages from an Andean nobleman to the king of Spain, describing Inca life and colonial abuse, with 398 full-page drawings. It lay unread in Copenhagen until 1908."
+      },
+      {
+        "id": "read-royal-commentaries-of-the-incas",
+        "title": "Royal Commentaries of the Incas",
+        "creator": "Inca Garcilaso de la Vega, trans. Harold V. Livermore",
+        "year": "1609",
+        "why": "The son of a conquistador and an Inca princess, writing in Spain in old age, sets down what his mother’s family told him. Idealised and indispensable."
+      },
+      {
+        "id": "read-the-conquest-of-the-incas",
+        "title": "The Conquest of the Incas",
+        "creator": "John Hemming",
+        "year": "1970",
+        "why": "The standard narrative of the invasion and the forty years of resistance, written from the documents and from the ground."
+      },
+      {
+        "id": "read-the-incas",
+        "title": "The Incas",
+        "creator": "Terence N. D’Altroy",
+        "year": "2002; 2nd edition 2014",
+        "why": "The best modern account of how the empire was built and run."
+      },
+      {
+        "id": "read-deep-rivers",
+        "title": "Deep Rivers",
+        "creator": "José María Arguedas",
+        "year": "1958",
+        "why": "A novel of a boy caught between the Spanish-speaking world of his father and the Quechua world that raised him, by Peru’s great bilingual writer."
+      },
+      {
+        "id": "read-the-huarochiri-manuscript",
+        "title": "The Huarochirí Manuscript",
+        "creator": "Anonymous, trans. Frank Salomon and George Urioste",
+        "year": "about 1608",
+        "why": "The only book-length text in Quechua from the colonial period: the gods, mountains and origins of one province, as its people told them."
+      }
+    ],
+    "watch": [
+      {
+        "id": "watch-winaypacha",
+        "title": "Wiñaypacha",
+        "creator": "Óscar Catacora",
+        "year": "2017",
+        "why": "An old couple wait for their son in a hut high in the Peruvian Andes. The first feature made wholly in Aymara. Slow, severe and tender."
+      },
+      {
+        "id": "watch-the-great-inca-rebellion",
+        "title": "The Great Inca Rebellion",
+        "creator": "NOVA and National Geographic",
+        "year": "2007",
+        "why": "Archaeology at a cemetery outside Lima changes the story of how the conquest was won, and by whom."
+      },
+      {
+        "id": "watch-retablo",
+        "title": "Retablo",
+        "creator": "Álvaro Delgado-Aparicio",
+        "year": "2017",
+        "why": "A boy in Ayacucho is apprenticed to his father, a maker of painted altar boxes. Spoken in Quechua."
+      },
+      {
+        "id": "watch-secrets-of-lost-empires-inca",
+        "title": "Secrets of Lost Empires: Inca",
+        "creator": "NOVA",
+        "year": "1997",
+        "why": "Villagers rebuild a grass suspension bridge in three days, as their ancestors have done every year for five centuries."
+      }
+    ],
+    "listen": [
+      {
+        "id": "listen-hanacpachap-cussicuinin",
+        "title": "Hanacpachap cussicuinin",
+        "creator": "Anonymous; published by Juan Pérez Bocanegra",
+        "year": "1631",
+        "why": "A processional hymn to the Virgin in Quechua, for four voices. The first polyphonic music printed in the Americas."
+      },
+      {
+        "id": "listen-sikuri-ensembles-of-lake-titicaca",
+        "title": "Sikuri ensembles of Lake Titicaca",
+        "creator": "Community panpipe bands of Puno and the Bolivian altiplano",
+        "year": "traditional",
+        "why": "Dozens of players with pipes and drums. The melody is split between pairs of instruments, so that no one can play it alone."
+      },
+      {
+        "id": "listen-huaynos",
+        "title": "Huaynos",
+        "creator": "Singers such as Pastorita Huaracina, or the guitarist Manuelcha Prado",
+        "year": "20th century",
+        "why": "The song and dance of the highlands, in Quechua and Spanish, bright on the surface and sad underneath."
+      },
+      {
+        "id": "listen-el-condor-pasa",
+        "title": "El cóndor pasa",
+        "creator": "Daniel Alomía Robles",
+        "year": "1913",
+        "why": "An orchestral piece from a Peruvian musical play, built on melodies its composer collected in the mountains. Later borrowed around the world."
+      }
+    ],
+    "art": [
+      {
+        "id": "art-machu-picchu",
+        "title": "Machu Picchu",
+        "creator": "Built for Pachacuti Inca Yupanqui",
+        "year": "about 1450",
+        "why": "A royal estate on a ridge above the Urubamba, with temples, fountains and terraces cut and fitted into the rock. Never found by the Spanish."
+      },
+      {
+        "id": "art-the-stone-of-twelve-angles",
+        "title": "The stone of twelve angles",
+        "creator": "Inca masons",
+        "year": "15th century",
+        "why": "A single block in a palace wall on Hatun Rumiyoq street, Cusco, fitted to its neighbours on twelve sides without mortar. A knife blade will not go between them."
+      },
+      {
+        "id": "art-the-all-tocapu-tunic",
+        "title": "The all-tocapu tunic",
+        "creator": "Inca weavers",
+        "year": "about 1450 to 1540",
+        "why": "A man’s tapestry tunic covered in small square designs, each different, which may have carried meaning. In the Dumbarton Oaks collection, Washington."
+      },
+      {
+        "id": "art-miniature-gold-llama",
+        "title": "Miniature gold llama",
+        "creator": "Inca goldsmiths",
+        "year": "about 1500",
+        "why": "A hollow figure six centimetres high, of the kind left with offerings on mountain tops. In the British Museum. Almost all Inca goldwork was melted down in 1533."
+      }
+    ],
+    "eat": [
+      {
+        "id": "eat-native-potatoes",
+        "title": "Native potatoes",
+        "creator": "Boiled in their skins, with a sauce of chilli and herbs",
+        "why": "The potato was domesticated in the Andes, where more than three thousand varieties are still grown, in every colour and shape."
+      },
+      {
+        "id": "eat-quinoa-soup",
+        "title": "Quinoa soup",
+        "creator": "With potatoes, herbs and a little chilli",
+        "why": "The Incas called quinoa the mother grain. It grows where maize cannot."
+      },
+      {
+        "id": "eat-pachamanca",
+        "title": "Pachamanca",
+        "creator": "Meat, potatoes, beans and maize baked in a pit on hot stones",
+        "why": "The earth oven. The food is buried and the ground itself does the cooking."
+      },
+      {
+        "id": "eat-ch-unu",
+        "title": "Ch’uñu",
+        "creator": "Freeze-dried potato, soaked and cooked in a stew",
+        "why": "Light, almost everlasting, and the food that filled the storehouses and fed the armies."
+      }
+    ],
+    "drink": [
+      {
+        "id": "drink-chicha-de-jora",
+        "title": "Chicha de jora",
+        "creator": "Beer of sprouted maize",
+        "why": "Cloudy, sour and mild. In Andean villages a red flag or a bunch of flowers on a pole outside a house means a fresh batch is ready."
+      },
+      {
+        "id": "drink-chicha-morada",
+        "title": "Chicha morada",
+        "creator": "Purple maize boiled with pineapple peel, cinnamon and cloves",
+        "why": "A sweet, deep purple drink without alcohol, served cold."
+      },
+      {
+        "id": "drink-muna-tea",
+        "title": "Muña tea",
+        "creator": "An Andean mint steeped in hot water",
+        "why": "Drunk for the stomach and against the effects of altitude."
+      }
+    ],
+    "customs": [
+      {
+        "id": "customs-the-first-drops",
+        "title": "The first drops",
+        "creator": "Ch’alla",
+        "why": "Before drinking, a little is poured or flicked on to the ground for Pachamama. Guests do the same."
+      },
+      {
+        "id": "customs-rebuilding-the-bridge",
+        "title": "Rebuilding the bridge",
+        "creator": "Q’eswachaka, each June",
+        "why": "Four communities in Cusco twist grass into cables and re-weave a hanging bridge across the Apurímac in three days, then feast. The custom has not lapsed since Inca times."
+      },
+      {
+        "id": "customs-the-first-haircut",
+        "title": "The first haircut",
+        "creator": "Rutuchikuy",
+        "why": "A small child’s hair is cut for the first time by relatives and godparents, who each give a present for every lock. It ties the child into a net of obligation."
+      },
+      {
+        "id": "customs-coca-among-andean-people",
+        "title": "Coca among Andean people",
+        "creator": "A sacred leaf",
+        "why": "Three perfect leaves are held up and offered to the mountains before chewing, and leaves are exchanged as a greeting. It is central to Andean religion and not something for visitors to play at."
+      }
+    ],
+    "games": [
+      {
+        "id": "games-pichqa",
+        "title": "Pichqa",
+        "creator": "Dice game · Andes",
+        "year": "Inca period",
+        "why": "Named for the number five. A single die, often a truncated pyramid, was thrown for points. It was played at wakes as well as for amusement."
+      },
+      {
+        "id": "games-taptana",
+        "title": "Taptana",
+        "creator": "Board game · Andes",
+        "year": "Inca period",
+        "why": "A hunt game on a marked board, with one piece as the puma against many as the llamas. Guaman Poma drew Atahualpa playing a board game in his captivity."
+      },
+      {
+        "id": "games-sapo",
+        "title": "Sapo",
+        "creator": "Tossing game · Peru",
+        "year": "colonial, with an Inca legend attached",
+        "why": "Players throw brass discs at a table of holes, aiming for the open mouth of a metal toad. The story says the Incas threw gold pieces to a sacred toad in Lake Titicaca."
+      }
+    ],
+    "festivals": [
+      {
+        "id": "fest-inti-raymi",
+        "title": "Inti Raymi",
+        "creator": "24 June, at Cusco",
+        "why": "The festival of the Sun at the southern winter solstice, banned by the Spanish in 1535 and re-created as a great public pageant in 1944."
+      },
+      {
+        "id": "fest-pachamama-day",
+        "title": "Pachamama Day",
+        "creator": "1 August",
+        "why": "The earth is opened and fed with food, drink and coca before the planting season. All of August belongs to her."
+      },
+      {
+        "id": "fest-qoyllur-rit-i",
+        "title": "Qoyllur Rit’i",
+        "creator": "Late May or early June, in the Sinakara valley",
+        "why": "Tens of thousands of pilgrims climb to a sanctuary below a glacier at 4,700 metres, with dancers from every district. Andean and Catholic devotion joined."
+      },
+      {
+        "id": "fest-the-renewal-of-q-eswachaka",
+        "title": "The renewal of Q’eswachaka",
+        "creator": "The second week of June, in Canas province",
+        "why": "Four days of cable-twisting, bridge-weaving and celebration."
+      }
+    ],
+    "places": [
+      {
+        "id": "place-machu-picchu",
+        "title": "Machu Picchu",
+        "creator": "Urubamba valley, Cusco, Peru",
+        "why": "Reached by train and bus or on foot along the Inca Trail. Numbers are limited and tickets sell out months ahead. Go early and walk up to the Sun Gate."
+      },
+      {
+        "id": "place-cusco-the-qorikancha-and-sacsayhuaman",
+        "title": "Cusco: the Qorikancha and Sacsayhuamán",
+        "creator": "Cusco, Peru",
+        "why": "The curved wall of the Sun temple under a Spanish church, and above the city a fortress-temple of zigzag walls built from stones as big as houses."
+      },
+      {
+        "id": "place-ollantaytambo",
+        "title": "Ollantaytambo",
+        "creator": "Sacred Valley, Cusco, Peru",
+        "why": "A town still lived in on its Inca street plan, with water running in the original channels, beneath a great unfinished temple."
+      },
+      {
+        "id": "place-moray-and-the-salt-pans-of-maras",
+        "title": "Moray and the salt pans of Maras",
+        "creator": "Sacred Valley, Cusco, Peru",
+        "why": "Concentric terraces sunk into the earth like an amphitheatre, perhaps for testing crops, and thousands of small salt pools worked by local families since before the Incas."
+      },
+      {
+        "id": "place-isla-del-sol",
+        "title": "Isla del Sol",
+        "creator": "Lake Titicaca, Bolivia",
+        "why": "The island where, in Inca belief, the Sun was born. Terraces, a sacred rock and a long walk at nearly four thousand metres."
+      },
+      {
+        "id": "place-ingapirca",
+        "title": "Ingapirca",
+        "creator": "Cañar, Ecuador",
+        "why": "The best preserved Inca site in the north: an oval Sun temple of fitted stone on an older Cañari sacred place."
+      }
+    ]
+  },
+  "ethics": [
+    {
+      "title": "Reciprocity",
+      "text": "Nothing is taken without return. This holds between people, and between people and the land.",
+      "practice": "Return one thing today that you have been given: help, a meal, attention."
+    },
+    {
+      "title": "Honesty",
+      "text": "No theft and no lies. Doors in Inca towns were said to have no locks.",
+      "practice": "Give something back that you have kept too long."
+    },
+    {
+      "title": "Industry",
+      "text": "Idleness was punished. Even the old and the very young had tasks suited to them.",
+      "practice": "Do one useful thing before you sit down this evening."
+    },
+    {
+      "title": "Care for the weak",
+      "text": "Widows, orphans and the sick were fed from the community’s and the state’s stores, and their fields were worked first.",
+      "practice": "Do the work of someone who cannot do it today."
+    },
+    {
+      "title": "Respect for the land",
+      "text": "Earth, water and mountains are living elders. One asks before taking.",
+      "practice": "Before you use something from the natural world today, stop and acknowledge it."
+    },
+    {
+      "title": "Provision",
+      "text": "A good ruler, and a good household, fills the storehouse before the famine.",
+      "practice": "Set aside one thing today for a time of need."
+    }
+  ],
+  "philosophy": [
+    {
+      "title": "Ayni",
+      "text": "The world runs on exchange. To live well is to keep one’s exchanges in balance with neighbours, ancestors, earth and sky.",
+      "practice": "With whom are you out of balance?"
+    },
+    {
+      "title": "Yanantin",
+      "text": "Reality comes in complementary pairs: upper and lower, male and female, right and left. Difference is not opposition. Each half needs the other.",
+      "practice": "What is the other half of something you think you do alone?"
+    },
+    {
+      "title": "Pacha",
+      "text": "Time and place are one thing. The past lies in front of us, where it can be seen, and the future comes from behind.",
+      "practice": "Turn round. What is coming that you cannot see, and what past is in plain view?"
+    },
+    {
+      "title": "The living landscape",
+      "text": "Mountains, springs and stones are persons with whom one has relations. A place can be greeted, fed and offended.",
+      "practice": "What place has shaped you, and what do you owe it?"
+    },
+    {
+      "title": "Wealth as work",
+      "text": "The Incas had no markets and no money. Riches were people’s labour, and a lord’s greatness was how many he could feed.",
+      "practice": "Measure your wealth today in what others would do for you, and you for them."
+    },
+    {
+      "title": "Order and its price",
+      "text": "No one starved, and no one chose their work, their home or sometimes their spouse. Whole peoples were moved to suit the state.",
+      "practice": "How much freedom would you trade for security?"
+    },
+    {
+      "title": "Memory without writing",
+      "text": "A civilisation can keep its accounts, laws and history in cords, songs and trained minds.",
+      "practice": "What do you know by heart?"
+    },
+    {
+      "title": "Still here",
+      "text": "Quechua speakers say kachkaniraqmi: I still am. Five centuries after the conquest the language, the fields and the offerings continue.",
+      "practice": "What in you has survived everything?"
+    }
+  ],
+  "journal": [
+    "What did you receive today, and what did you give back?",
+    "Whom do you owe a day’s work?",
+    "What did you take that was not yours?",
+    "Where did you bend the truth?",
+    "When were you idle?",
+    "What did you thank the earth for?",
+    "What did the sunrise look like?",
+    "Who is your ayllu?",
+    "What common task did you take your turn at?",
+    "What did you carry, and for whom?",
+    "How far did you walk?",
+    "What did you count on your cord?",
+    "What do you know by heart?",
+    "What have you stored against a bad year?",
+    "Whose field should you work first?",
+    "What is the other half of what you do?",
+    "What place do you have a relationship with?",
+    "What mountain watches over you?",
+    "What did you make with your hands?",
+    "What past is in front of you?",
+    "Whom did you feed?",
+    "Who fed you?",
+    "What would your neighbours say you are worth to them?",
+    "What freedom have you given up for safety?",
+    "What debt have you let go unpaid?",
+    "What did you see in the dark part of the sky?",
+    "What have you inherited that you must hand on unbroken?",
+    "What bridge needs re-weaving this year?",
+    "What in you is still here?",
+    "Tomorrow, for whom?"
+  ],
+  "reflect": [
+    "What exchanges did you open or settle?",
+    "What did the three laws catch?",
+    "What did keeping accounts in knots show you?",
+    "How has your sense of the ground you live on changed?",
+    "Who is in your ayllu now?",
+    "Which practice will you keep?"
+  ],
+  "dayThemes": [
+    "Sunrise",
+    "The first drops",
+    "Mother Earth",
+    "The mountain lord",
+    "Ayni",
+    "Today for you",
+    "The ayllu",
+    "Your turn",
+    "The common work",
+    "Do not steal",
+    "Do not lie",
+    "Do not be idle",
+    "The knot",
+    "The cord keeper",
+    "The road",
+    "The runner",
+    "The way station",
+    "The storehouse",
+    "The terrace",
+    "The potato",
+    "Cloth",
+    "The fitted stone",
+    "The matched pair",
+    "Upper and lower",
+    "The four quarters",
+    "The river of stars",
+    "The grass bridge",
+    "The black rainbow",
+    "To write is to weep",
+    "Still here"
+  ],
+  "guide": {
+    "intro": [
+      "The Inca Empire was the largest state ever formed in the Americas before the arrival of Europeans. At its height around 1525 it ran for more than four thousand kilometres along the Andes, from the south of present-day Colombia to the middle of Chile, and held perhaps ten or twelve million people who spoke dozens of languages. Its makers called it Tawantinsuyu, the four parts together. It was built in less than a century.",
+      "The Incas began as one of many small peoples in the valley of Cusco, at 3,400 metres. Their own histories said that around 1438 a neighbouring people attacked, the old ruler fled, and a younger son named Pachacuti rallied the defence, aided by stones that rose from the fields and fought as soldiers. Pachacuti, whose name means the one who turns the world over, rebuilt Cusco in fitted stone and began the conquests that his son and grandson carried to the limits of the Andean world.",
+      "They ruled a vertical land of deserts, terraced valleys, high grassland and cloud forest, and they did it without writing, money, markets, iron or the wheel. Their solution was labour. Every household owed turns of work to the state: farming the fields of the Sun and the ruler, building roads and terraces, weaving, soldiering. In return the state fed the workers, kept vast storehouses against famine, and feasted its subjects with maize beer on a lavish scale. The principle was the one on which every Andean village already ran, reciprocity, stretched to cover an empire. Records were kept on knotted cords. Messages went by relay runners along a road system of forty thousand kilometres.",
+      "The order was real and it was hard. Conquered peoples were resettled in their thousands, far from home, to break resistance and fill empty valleys. Chosen girls were taken from their families to weave and brew for the state, and some children were sacrificed on the mountain peaks. The Inca nobility lived in great luxury. Many subject peoples hated them, which the Spanish soon discovered.",
+      "In the 1520s an epidemic from the Old World, travelling ahead of the Europeans, killed the emperor Huayna Capac and his heir. Two sons fought a ruinous civil war. The winner, Atahualpa, was resting at Cajamarca in November 1532 when Francisco Pizarro arrived with 168 men, horses and guns. They seized him in an ambush, took a roomful of gold as ransom and then killed him. Aided by tens of thousands of Andean allies, the Spanish occupied Cusco. An Inca state held out in the forests of Vilcabamba until 1572.",
+      "The colonial century that followed killed most of the Andean population through disease, forced labour in the silver mines and the breaking of the old systems of provision. But the people did not vanish. Quechua is spoken by some eight to ten million people today, and Aymara by two million. The potato terraces are farmed, the first drops are still poured for the earth, and help is still lent and returned.",
+      "This Onda takes its practices from that continuing Andean way: greeting the sun and thanking the earth, the exchange of labour, a record kept in knots, a long walk uphill, and three old rules at night."
+    ],
+    "origin": "The valley of Cusco in the southern Peruvian Andes, and from there along the mountains from Colombia to central Chile",
+    "era": "The empire expanded from about 1438. The Spanish seized its ruler in 1532 and killed the last independent Inca in 1572",
+    "figures": [
+      {
+        "name": "Manco Capac and Mama Ocllo",
+        "dates": "Legendary",
+        "bio": "The founding ancestors, brother and sister, who emerged from a cave or from Lake Titicaca and settled where a golden staff sank into the ground at Cusco."
+      },
+      {
+        "name": "Pachacuti Inca Yupanqui",
+        "dates": "reigned about 1438 to 1471",
+        "bio": "The ninth ruler by the traditional count and the true founder of the empire. He rebuilt Cusco, reorganised its religion and built Machu Picchu as his estate."
+      },
+      {
+        "name": "Topa Inca Yupanqui",
+        "dates": "reigned about 1471 to 1493",
+        "bio": "His son, the great conqueror, who took the coastal kingdom of Chimor and pushed the frontier into Ecuador and Chile."
+      },
+      {
+        "name": "Huayna Capac",
+        "dates": "reigned about 1493 to 1527",
+        "bio": "The last ruler of an undivided empire. He died in the north of a disease the Andes had never known."
+      },
+      {
+        "name": "Atahualpa",
+        "dates": "about 1502 to 1533",
+        "bio": "Victor of the civil war. Captured at Cajamarca, he filled a room with gold for his freedom and was garrotted on 26 July 1533."
+      },
+      {
+        "name": "Manco Inca",
+        "dates": "about 1516 to 1544",
+        "bio": "Crowned by the Spanish as a puppet, he escaped, besieged Cusco for ten months with a huge army and founded the free state of Vilcabamba."
+      },
+      {
+        "name": "Túpac Amaru",
+        "dates": "1545 to 1572",
+        "bio": "The last Inca of Vilcabamba, captured and beheaded in the square of Cusco before a weeping crowd."
+      },
+      {
+        "name": "Felipe Guaman Poma de Ayala",
+        "dates": "about 1535 to after 1616",
+        "bio": "An Andean nobleman and interpreter who spent decades walking Peru and writing his illustrated appeal to the king."
+      },
+      {
+        "name": "Inca Garcilaso de la Vega",
+        "dates": "1539 to 1616",
+        "bio": "Born in Cusco to a Spanish captain and the princess Chimpu Ocllo. He left for Spain at twenty-one and became the first great writer of the Americas."
+      },
+      {
+        "name": "Túpac Amaru II",
+        "dates": "1738 to 1781",
+        "bio": "José Gabriel Condorcanqui, a trader and local lord who claimed descent from the last Inca and led the largest rebellion in colonial Spanish America."
+      },
+      {
+        "name": "Micaela Bastidas",
+        "dates": "1744 to 1781",
+        "bio": "His wife and the chief strategist of the rising, who managed its supplies and urged him to march on Cusco sooner. She was executed in front of him."
+      },
+      {
+        "name": "José María Arguedas",
+        "dates": "1911 to 1969",
+        "bio": "Novelist and anthropologist, raised by Quechua-speaking servants, who gave the Andean world its voice in modern literature."
+      }
+    ],
+    "history": [
+      {
+        "when": "about 1200",
+        "what": "The Incas at Cusco",
+        "detail": "A small farming people establish themselves in the valley, among older and larger neighbours. Great Andean states had risen and fallen before them for three thousand years."
+      },
+      {
+        "when": "about 1438",
+        "what": "Pachacuti",
+        "detail": "After defeating the Chanka, he takes the fringed headband of rule and begins to transform a local chiefdom into an imperial state."
+      },
+      {
+        "when": "about 1450",
+        "what": "Machu Picchu",
+        "detail": "A royal retreat is built on a saddle between two peaks, with some two hundred buildings and a population of perhaps seven hundred and fifty."
+      },
+      {
+        "when": "about 1471 to 1527",
+        "what": "The expansion",
+        "detail": "Topa Inca and Huayna Capac extend the realm to its limits. Roads, way stations, storehouses and provincial capitals are built throughout."
+      },
+      {
+        "when": "about 1524 to 1527",
+        "what": "The epidemic",
+        "detail": "A sickness, probably smallpox, spreads south from the Caribbean and kills the emperor, his designated heir and a large part of the population."
+      },
+      {
+        "when": "1529 to 1532",
+        "what": "The war of the brothers",
+        "detail": "Huascar in Cusco and Atahualpa in Quito fight for the succession. Atahualpa’s generals win and massacre Huascar’s kin."
+      },
+      {
+        "when": "16 November 1532",
+        "what": "Cajamarca",
+        "detail": "Atahualpa enters the square on a litter with thousands of unarmed attendants. The Spanish fire cannon, charge on horseback and take him alive. Several thousand Andeans die in two hours."
+      },
+      {
+        "when": "1533",
+        "what": "The ransom and the garrotte",
+        "detail": "Some six tonnes of gold and twelve of silver are melted down. Atahualpa is tried and strangled in July. The Spanish enter Cusco in November."
+      },
+      {
+        "when": "1536 to 1537",
+        "what": "The great rebellion",
+        "detail": "Manco Inca besieges Cusco and nearly retakes it. Failing, he withdraws to the forests beyond Ollantaytambo."
+      },
+      {
+        "when": "1572",
+        "what": "The end of Vilcabamba",
+        "detail": "Viceroy Francisco de Toledo sends an army to the last Inca capital. Túpac Amaru is brought to Cusco in chains and executed."
+      },
+      {
+        "when": "1570s",
+        "what": "The colonial order",
+        "detail": "Toledo resettles Andean people into Spanish-style towns and turns the old labour turn into forced service in the silver mine of Potosí."
+      },
+      {
+        "when": "1780 to 1781",
+        "what": "Túpac Amaru II",
+        "detail": "A rebellion spreads from Cusco to Bolivia and is put down with some hundred thousand dead. Quechua dress, theatre and the memory of the Incas are banned."
+      },
+      {
+        "when": "24 July 1911",
+        "what": "Machu Picchu made known",
+        "detail": "A local farmer leads the Yale lecturer Hiram Bingham up to ruins his neighbours had always known. Peruvians had visited and written their names there before him."
+      },
+      {
+        "when": "1944 to 2014",
+        "what": "Return",
+        "detail": "Inti Raymi is revived at Cusco. Quechua becomes an official language of Peru in 1975, and in 2014 six countries together place the Inca road on the World Heritage list."
+      }
+    ],
+    "concepts": [
+      {
+        "term": "Reciprocity and redistribution",
+        "text": "The economy without money.",
+        "detail": "Households exchanged labour. The state took labour and gave back food, cloth, beer and security from its stores. Markets played almost no part in the highlands."
+      },
+      {
+        "term": "The labour turn",
+        "text": "Mit’a.",
+        "detail": "Every married man owed a period of work each year, organised in units of ten, a hundred and a thousand households. It built everything the Incas left."
+      },
+      {
+        "term": "The vertical archipelago",
+        "text": "Many climates, one community.",
+        "detail": "An Andean group held fields at different altitudes, from hot valley to high pasture, so as to produce everything it needed. The empire did the same on a vast scale."
+      },
+      {
+        "term": "The khipu",
+        "text": "Information in cords.",
+        "detail": "Knots and their positions give numbers in base ten. Colour, twist and the way strings are attached carried further meaning that is only partly understood."
+      },
+      {
+        "term": "Split inheritance",
+        "text": "The dead keep their own.",
+        "detail": "A ruler’s palaces, lands and servants stayed with his mummy and his descendants. His successor inherited only the office and had to conquer an estate of his own."
+      },
+      {
+        "term": "Resettlement",
+        "text": "Mitmaq.",
+        "detail": "Whole communities were moved hundreds of kilometres, loyal peoples into restless provinces and rebels into loyal ones. Perhaps a quarter of the population was shifted."
+      },
+      {
+        "term": "The ceque system",
+        "text": "Lines from the centre.",
+        "detail": "Forty-one imagined lines ran out from the Sun temple in Cusco, with 328 shrines along them, each cared for by a particular kin group on a particular day."
+      },
+      {
+        "term": "The chosen women",
+        "text": "Aqllakuna.",
+        "detail": "Girls selected at about ten, housed in convent-like compounds, who wove the finest cloth and brewed for the state. Some were given in marriage as rewards."
+      },
+      {
+        "term": "Sacred landscape",
+        "text": "Wak’as and apus.",
+        "detail": "Springs, outcrops, peaks and ancestors’ bodies were all charged with power and tied to particular families. Conquered peoples’ shrines were brought to Cusco as honoured hostages."
+      }
+    ],
+    "facts": [
+      {
+        "text": "Inca masons fitted many-sided stones weighing over a hundred tonnes so tightly that their walls have ridden out five centuries of earthquakes."
+      },
+      {
+        "text": "The potato, the tomato’s cousin from the Andes, now feeds more people worldwide than any crop except maize, wheat and rice."
+      },
+      {
+        "text": "The words llama, puma, condor, quinoa, jerky and guano all come from Quechua."
+      },
+      {
+        "text": "Relay runners could bring fresh fish from the coast to the ruler in Cusco, over the mountains, in two days."
+      },
+      {
+        "text": "The Incas performed skull surgery with survival rates higher than those of field surgeons in the American Civil War."
+      },
+      {
+        "text": "Guaman Poma’s manuscript was found in the Royal Library of Denmark in 1908. No one knows how it got there."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Quechua",
+        "meaning": "The language family spread by the Incas, and the people who speak it"
+      },
+      {
+        "term": "Aymara",
+        "meaning": "The language and people of the Titicaca basin and the Bolivian highlands"
+      },
+      {
+        "term": "Chicha",
+        "meaning": "The Spanish-American word for maize beer"
+      },
+      {
+        "term": "Andén",
+        "meaning": "The Spanish word for an agricultural terrace, which gave the Andes their name by one account"
+      },
+      {
+        "term": "Vilcabamba",
+        "meaning": "The forest region north-west of Cusco where the Incas held out until 1572"
+      },
+      {
+        "term": "Conquistador",
+        "meaning": "One of the Spanish adventurers who invaded the Americas"
+      }
+    ],
+    "furtherReading": [
+      {
+        "title": "The Last Days of the Incas",
+        "creator": "Kim MacQuarrie",
+        "year": "2007",
+        "note": "A vivid narrative of the conquest and of the search for the lost capital of Vilcabamba."
+      },
+      {
+        "title": "History of the Inca Realm",
+        "creator": "María Rostworowski",
+        "year": "1988; English 1999",
+        "note": "A Peruvian historian reads the chronicles against the Andean logic of reciprocity and kinship."
+      },
+      {
+        "title": "The Hold Life Has: Coca and Cultural Identity in an Andean Community",
+        "creator": "Catherine J. Allen",
+        "year": "1988; 2nd edition 2002",
+        "note": "A year in a Quechua village near Cusco. The best book on how the old ideas are lived now."
+      },
+      {
+        "title": "Inka History in Knots",
+        "creator": "Gary Urton",
+        "year": "2017",
+        "note": "What the surviving khipus can and cannot tell us."
+      }
+    ],
+    "learnFrom": [
+      {
+        "name": "Center for Traditional Textiles of Cusco",
+        "note": "A non-profit run with ten weaving communities, which teaches, documents and sells their work fairly.",
+        "link": "https://www.textilescusco.org"
+      },
+      {
+        "name": "The Guaman Poma website",
+        "note": "The complete manuscript with its drawings, free, from the Royal Library of Denmark.",
+        "link": "https://poma.kb.dk"
+      },
+      {
+        "name": "Museo Larco",
+        "note": "A museum in Lima with a superb collection of ancient Peruvian art and an open online catalogue.",
+        "link": "https://www.museolarco.org"
+      },
+      {
+        "name": "Quechua and Aymara speakers",
+        "note": "If you travel in the Andes, hire local guides, stay with community tourism groups and ask how the income is shared."
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Incas",
+        "creator": "Terence N. D'Altroy",
+        "publisher": "Wiley-Blackwell",
+        "year": "2nd edition 2014"
+      },
+      {
+        "title": "The Conquest of the Incas",
+        "creator": "John Hemming",
+        "publisher": "Macmillan",
+        "year": "1970"
+      },
+      {
+        "title": "History of the Inca Realm",
+        "creator": "María Rostworowski de Diez Canseco, trans. Harry B. Iceland",
+        "publisher": "Cambridge University Press",
+        "year": "1999"
+      },
+      {
+        "title": "Royal Commentaries of the Incas and General History of Peru",
+        "creator": "Garcilaso de la Vega, trans. Harold V. Livermore",
+        "publisher": "University of Texas Press",
+        "year": "1966"
+      },
+      {
+        "title": "The First New Chronicle and Good Government",
+        "creator": "Felipe Guaman Poma de Ayala, trans. Roland Hamilton",
+        "publisher": "University of Texas Press",
+        "year": "2009"
+      },
+      {
+        "title": "The Hold Life Has: Coca and Cultural Identity in an Andean Community",
+        "creator": "Catherine J. Allen",
+        "publisher": "Smithsonian Institution Press",
+        "year": "2nd edition 2002"
+      }
+    ]
+  },
+  "sensitivity": {
+    "note": "The Inca state ended in the sixteenth century. The Andean way of life it drew on is that of millions of Quechua and Aymara people today. This Onda borrows everyday practices of reciprocity and thanks. It is written by outsiders and needs review by Andean readers.",
+    "requiredCaveats": [
+      "Offerings to Pachamama and the mountains belong to a living religion. The simple pouring of the first drops is shared freely. Full offering ceremonies are the work of trained specialists and are not for imitation.",
+      "Coca leaf is sacred and lawful in the Andes and is a controlled substance elsewhere. It is described here and is not part of any practice.",
+      "The Inca Empire was itself a conquest state that moved populations by force and practised human sacrifice. Many Andean peoples fought against it.",
+      "Quechua and Aymara communities still face discrimination and poverty. If you visit, see that your money reaches them."
+    ],
+    "reviewRequired": true
+  }
+}

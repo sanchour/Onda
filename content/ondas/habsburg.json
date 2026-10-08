@@ -1,0 +1,1248 @@
+{
+  "version": 1,
+  "id": "habsburg",
+  "name": "Habsburg Monarchy",
+  "origin": "Central Europe",
+  "era": "1273 to 1918",
+  "tone": "yellow",
+  "icon": "crown",
+  "font": "bodoni-moda",
+  "pattern": "imperial-stripes",
+  "glyph": "AEIOU",
+  "line": "Do your duty early, take your coffee slowly and make music at home.",
+  "quote": {
+    "text": "The Café Central is a place for people who want to be alone, but who need company to do it.",
+    "by": "Alfred Polgar",
+    "source": "Theory of the Café Central, 1926. Translated from the German"
+  },
+  "quotes": [
+    {
+      "text": "Let others wage war. You, happy Austria, marry.",
+      "by": "Latin couplet",
+      "source": "Bella gerant alii, tu felix Austria nube. Traditional, 15th or 16th century, on the dynasty’s rise by marriage"
+    },
+    {
+      "text": "With united strength.",
+      "by": "Franz Joseph I",
+      "source": "Viribus unitis, the personal motto he chose on his accession in December 1848"
+    },
+    {
+      "text": "Truly, if the Austrian empire had not existed for ages, it would be necessary, in the interest of Europe, in the interest of mankind itself, to create it with all speed.",
+      "by": "František Palacký",
+      "source": "The Czech historian’s letter declining a seat in the Frankfurt Parliament, 11 April 1848"
+    },
+    {
+      "text": "When I attempt to find a simple formula for the period in which I grew up, prior to the First World War, I hope that I convey its fullness by calling it the Golden Age of Security.",
+      "by": "Stefan Zweig",
+      "source": "The World of Yesterday, 1942, opening of chapter 1, in the English translation of 1943"
+    },
+    {
+      "text": "You have worries, of one kind or another: to the coffeehouse.",
+      "by": "Peter Altenberg",
+      "source": "From his prose poem Kaffeehaus, 1918. Translated from the German"
+    },
+    {
+      "text": "I am spared nothing in this world.",
+      "by": "Franz Joseph I",
+      "source": "On being told of the murder of the Empress Elisabeth, 10 September 1898, as reported by his adjutant"
+    }
+  ],
+  "words": [
+    {
+      "id": "word-kaiser",
+      "term": "Kaiser",
+      "meaning": "Emperor",
+      "pronunciation": "KY-zer",
+      "language": "German",
+      "usage": "From Caesar. The head of the house was Holy Roman Emperor for most of four centuries and Emperor of Austria from 1804."
+    },
+    {
+      "id": "word-k-u-k",
+      "term": "k. u. k.",
+      "meaning": "Imperial and royal",
+      "pronunciation": "KAH oont KAH",
+      "language": "German",
+      "usage": "Kaiserlich und königlich: the label on everything shared by Austria and Hungary after 1867, from the army to the tobacco shops."
+    },
+    {
+      "id": "word-hofburg",
+      "term": "Hofburg",
+      "meaning": "The court castle",
+      "pronunciation": "HOHF-boork",
+      "language": "German",
+      "usage": "The sprawling winter palace in the middle of Vienna, added to by every generation for six hundred years."
+    },
+    {
+      "id": "word-pflicht",
+      "term": "Pflicht",
+      "meaning": "Duty",
+      "pronunciation": "PFLIKHT",
+      "language": "German",
+      "usage": "Franz Joseph’s ruling idea. He called himself the first servant of his state and worked at his desk daily for sixty-eight years."
+    },
+    {
+      "id": "word-beamter",
+      "term": "Beamter",
+      "meaning": "Civil servant",
+      "pronunciation": "be-AHM-ter",
+      "language": "German",
+      "usage": "The official, in uniform, who held the empire together from Trieste to Galicia. Honest, slow and proud of his files."
+    },
+    {
+      "id": "word-hofrat",
+      "term": "Hofrat",
+      "meaning": "Court councillor",
+      "pronunciation": "HOHF-raht",
+      "language": "German",
+      "usage": "A senior civil service title, still awarded in Austria and still used when addressing its holder and his wife."
+    },
+    {
+      "id": "word-ausgleich",
+      "term": "Ausgleich",
+      "meaning": "The Compromise",
+      "pronunciation": "OWS-glykh",
+      "language": "German",
+      "usage": "The settlement of 1867 that made Hungary an equal partner, creating the Dual Monarchy of Austria-Hungary."
+    },
+    {
+      "id": "word-kronland",
+      "term": "Kronland",
+      "meaning": "Crown land",
+      "pronunciation": "KROHN-lahnt",
+      "language": "German",
+      "usage": "One of the seventeen provinces of the Austrian half, each with its own diet, capital and coat of arms."
+    },
+    {
+      "id": "word-vielvolkerstaat",
+      "term": "Vielvölkerstaat",
+      "meaning": "A state of many peoples",
+      "pronunciation": "FEEL-ful-ker-shtaht",
+      "language": "German",
+      "usage": "Germans, Hungarians, Czechs, Poles, Ukrainians, Romanians, Croats, Serbs, Slovaks, Slovenes and Italians under one crown."
+    },
+    {
+      "id": "word-kaffeehaus",
+      "term": "Kaffeehaus",
+      "meaning": "Coffeehouse",
+      "pronunciation": "ka-FAY-hows",
+      "language": "German",
+      "usage": "The second living room of the Viennese. One orders a coffee and may stay all day with the newspapers."
+    },
+    {
+      "id": "word-melange",
+      "term": "Melange",
+      "meaning": "Coffee with steamed milk",
+      "pronunciation": "may-LAHNZH",
+      "language": "Viennese German, from French",
+      "usage": "The standard Viennese order: half coffee, half hot milk, with foam."
+    },
+    {
+      "id": "word-einspanner",
+      "term": "Einspänner",
+      "meaning": "Black coffee with whipped cream, in a glass",
+      "pronunciation": "YN-shpen-ner",
+      "language": "Viennese German",
+      "usage": "Named after the one-horse cab. The cream kept it warm for drivers waiting in the cold."
+    },
+    {
+      "id": "word-herr-ober",
+      "term": "Herr Ober",
+      "meaning": "Waiter",
+      "pronunciation": "hair OH-ber",
+      "language": "Viennese German",
+      "usage": "The way to address a coffeehouse waiter, who wears a dinner jacket and knows every regular’s order."
+    },
+    {
+      "id": "word-stammgast",
+      "term": "Stammgast",
+      "meaning": "A regular",
+      "pronunciation": "SHTAHM-gahst",
+      "language": "German",
+      "usage": "A guest with his own table and his own hour. Writers gave the cafe as their postal address."
+    },
+    {
+      "id": "word-jause",
+      "term": "Jause",
+      "meaning": "The afternoon snack",
+      "pronunciation": "YOW-zeh",
+      "language": "Austrian German, from Slovene",
+      "usage": "Coffee and cake, or bread and cold meats, at about four."
+    },
+    {
+      "id": "word-mehlspeise",
+      "term": "Mehlspeise",
+      "meaning": "A flour dish; a pastry or pudding",
+      "pronunciation": "MAYL-shpy-zeh",
+      "language": "Austrian German",
+      "usage": "The Austrian word for the whole kingdom of strudels, dumplings, pancakes and cakes, which could be a meal in themselves."
+    },
+    {
+      "id": "word-gemutlichkeit",
+      "term": "Gemütlichkeit",
+      "meaning": "Cosiness; unhurried good humour",
+      "pronunciation": "ge-MUET-likh-kyt",
+      "language": "German",
+      "usage": "A room, an evening or a person that makes you comfortable and in no hurry to leave."
+    },
+    {
+      "id": "word-schmah",
+      "term": "Schmäh",
+      "meaning": "Viennese wit",
+      "pronunciation": "SHMAY",
+      "language": "Viennese German",
+      "usage": "Charm, irony and a little gentle deception, all at once. A way of speaking that never quite says what it means."
+    },
+    {
+      "id": "word-kuss-die-hand",
+      "term": "Küss die Hand",
+      "meaning": "I kiss your hand",
+      "pronunciation": "KUES dee HAHNT",
+      "language": "Viennese German",
+      "usage": "A greeting to a lady, usually only spoken. Still heard from older gentlemen and waiters."
+    },
+    {
+      "id": "word-servus",
+      "term": "Servus",
+      "meaning": "Hello and goodbye, among friends",
+      "pronunciation": "ZAIR-voos",
+      "language": "Austrian German, from Latin",
+      "usage": "Literally your servant. Used across the old empire, and still in Austria, Hungary, Slovakia, Croatia and Transylvania."
+    },
+    {
+      "id": "word-spaziergang",
+      "term": "Spaziergang",
+      "meaning": "A walk for pleasure",
+      "pronunciation": "shpa-TSEER-gahng",
+      "language": "German",
+      "usage": "The daily stroll, properly dressed, in the park or along the boulevard."
+    },
+    {
+      "id": "word-korso",
+      "term": "Korso",
+      "meaning": "The promenade",
+      "pronunciation": "KOR-zoh",
+      "language": "Austrian German, from Italian",
+      "usage": "The hour when the whole town walks up and down the main street to see and be seen. Every city of the monarchy had one."
+    },
+    {
+      "id": "word-prater",
+      "term": "Prater",
+      "meaning": "Vienna’s great park",
+      "pronunciation": "PRAH-ter",
+      "language": "German",
+      "usage": "An imperial hunting ground that Joseph II opened to the public in 1766. Meadows, a chestnut avenue and a fairground."
+    },
+    {
+      "id": "word-ringstra-e",
+      "term": "Ringstraße",
+      "meaning": "The Ring boulevard",
+      "pronunciation": "RING-shtrah-seh",
+      "language": "German",
+      "usage": "The grand circular avenue built from 1857 where Vienna’s walls had stood, lined with the opera, the parliament, the university and the museums."
+    },
+    {
+      "id": "word-walzer",
+      "term": "Walzer",
+      "meaning": "Waltz",
+      "pronunciation": "VAHL-tser",
+      "language": "German",
+      "usage": "A turning dance in three-four time that scandalised and then conquered Europe from Vienna."
+    },
+    {
+      "id": "word-ball",
+      "term": "Ball",
+      "meaning": "A ball",
+      "pronunciation": "BAHL",
+      "language": "German",
+      "usage": "Vienna still holds some four hundred each winter, given by every profession from the doctors to the chimney sweeps."
+    },
+    {
+      "id": "word-hausmusik",
+      "term": "Hausmusik",
+      "meaning": "Music made at home",
+      "pronunciation": "HOWS-moo-zeek",
+      "language": "German",
+      "usage": "Family and friends playing and singing together in the drawing room. The source of most of the chamber music of the age."
+    },
+    {
+      "id": "word-biedermeier",
+      "term": "Biedermeier",
+      "meaning": "The domestic style of 1815 to 1848",
+      "pronunciation": "BEE-der-my-er",
+      "language": "German",
+      "usage": "Plain, graceful furniture and a quiet private life under a watchful police state."
+    },
+    {
+      "id": "word-heuriger",
+      "term": "Heuriger",
+      "meaning": "This year’s wine; a wine tavern",
+      "pronunciation": "HOY-ri-ger",
+      "language": "Austrian German",
+      "usage": "Growers in the villages round Vienna may sell their own new wine at home. A green branch over the door shows they are open."
+    },
+    {
+      "id": "word-fortwursteln",
+      "term": "Fortwursteln",
+      "meaning": "Muddling through",
+      "pronunciation": "FORT-voor-steln",
+      "language": "Austrian German",
+      "usage": "A prime minister’s cheerful description of how the monarchy was governed: keep everyone in a state of even, moderate discontent."
+    }
+  ],
+  "practices": [
+    {
+      "id": "first-servant",
+      "name": "At the desk at five",
+      "icon": "alarm",
+      "slot": "Morning",
+      "time": "05:00",
+      "minutes": 45,
+      "meta": "Morning · 45 min",
+      "instructions": "Rise early, wash in cold water and be at your desk before the rest of the house is up. Take the pile of things awaiting your decision, letters, forms, requests, bills, and go through them in order, one at a time. Read each properly. Decide it, sign or answer it, and put it on the finished pile. Do not skip the dull ones. Stop when the pile is done or the time is up, and note what is left.",
+      "why": "Franz Joseph rose at half past three or four every day of his reign, slept on an iron army bed, and was reading files by five. He received some hundred thousand people in audience over his life and annotated papers until a few days before his death at eighty-six.",
+      "variations": [
+        "Give each paper a date and your initials.",
+        "Answer every personal letter within two days.",
+        "Hold a fixed hour each week when anyone may come and ask you for something."
+      ]
+    },
+    {
+      "id": "another-tongue",
+      "name": "A phrase in your neighbour’s tongue",
+      "icon": "translate",
+      "slot": "Morning",
+      "time": "08:30",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Choose a language spoken by people you live or work among, or by a neighbouring country, that is not your own. Learn one useful phrase in it today: a greeting, thanks, how are you, a toast. Say it aloud until it is easy. Then use it on a real person before the day is over. Keep a list and add one phrase daily.",
+      "why": "The monarchy recognised eleven languages. Its officers were required to learn the languages of their regiments, the emperor could speak to most of his subjects in their own, and an educated person in Prague, Lviv or Trieste commonly used three or four in a day.",
+      "variations": [
+        "Learn to say good day in all the languages of the old empire.",
+        "Read a street sign, a menu or a headline in the other language.",
+        "Ask a neighbour to correct your pronunciation."
+      ]
+    },
+    {
+      "id": "coffeehouse",
+      "name": "An hour in the coffeehouse",
+      "icon": "coffee",
+      "slot": "Afternoon",
+      "time": "15:00",
+      "minutes": 60,
+      "meta": "Afternoon · 60 min",
+      "instructions": "Go to a cafe where you will be left alone. Order one coffee. It should come with a glass of water. Take a newspaper or two, on paper, and read them through, including a page you would normally skip. Then write: a letter, a diary page, an idea. Keep your phone in your pocket. Stay an hour. Do not order more unless you want to. Greet the waiter on the way in and on the way out.",
+      "why": "The Viennese coffeehouse, born after 1683, was an office, club and reading room in one. For the price of a single cup a guest could sit all day among dozens of newspapers on wooden holders, with paper, pen and a fresh glass of water brought unasked. Much of the literature of central Europe was written there.",
+      "variations": [
+        "Go to the same cafe at the same hour for a week.",
+        "Play a game of chess.",
+        "Take a friend, and talk about what is in the papers."
+      ]
+    },
+    {
+      "id": "promenade",
+      "name": "The promenade",
+      "icon": "person-simple-walk",
+      "slot": "Afternoon",
+      "time": "17:00",
+      "minutes": 30,
+      "meta": "Afternoon · 30 min",
+      "instructions": "Late in the afternoon dress properly, as if you might meet someone, and go for a walk with no errand. Choose a park, a river bank or a handsome street. Walk at an easy pace. Greet everyone you know and stop for a word. Lift your hat, or your hand. Look at the buildings above the shop fronts and at the trees. If there is a bench with a view, sit on it for five minutes.",
+      "why": "The daily Spaziergang and the evening Korso were fixtures of life in every town of the monarchy. In Vienna society drove and walked in the chestnut avenue of the Prater, and from the 1860s along the new Ringstrasse, where the hour before dinner was the time to be seen.",
+      "variations": [
+        "Walk the same circuit daily and note what changes.",
+        "Walk with someone older and let them set the pace.",
+        "End at a bandstand, a cafe terrace or a wine garden."
+      ]
+    },
+    {
+      "id": "hausmusik",
+      "name": "Music at home",
+      "icon": "music-notes",
+      "slot": "Evening",
+      "time": "20:00",
+      "minutes": 30,
+      "meta": "Evening · 30 min",
+      "instructions": "Make music in your own home this evening, with whoever is there. Sing a song everyone knows, play duets, pick out a tune on any instrument, or put on a waltz and dance in the kitchen. It does not have to be good. If you are alone, learn eight bars of something and play or sing it through three times. Finish by listening together to one short piece, in silence.",
+      "why": "Before recordings, music in Vienna meant music in the drawing room. Schubert wrote his songs and dances for evenings among friends, who called them Schubertiades. Every middle-class family had a piano, and the string quartet was invented for four amateurs round a table.",
+      "variations": [
+        "Invite two friends and each bring one piece or song.",
+        "Learn the steps of the Viennese waltz, six to a turn.",
+        "Take up again the instrument you once played."
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task-read-the-first-chapter-of-the-world-of-yesterday",
+      "name": "Read the first chapter of The World of Yesterday",
+      "meta": "Read · The World of Security, 40 min",
+      "time": "20:30",
+      "slot": "Evening",
+      "action": "read"
+    },
+    {
+      "id": "task-listen-to-the-slow-movement-of-haydn-s-emperor-quartet",
+      "name": "Listen to the slow movement of Haydn’s Emperor Quartet",
+      "meta": "Listen · the imperial hymn, 7 min",
+      "time": "19:00",
+      "slot": "Evening",
+      "action": "listen"
+    },
+    {
+      "id": "task-watch-colonel-redl",
+      "name": "Watch Colonel Redl",
+      "meta": "Watch · the army of the last years",
+      "time": "20:45",
+      "slot": "Evening",
+      "action": "watch"
+    },
+    {
+      "id": "task-eat-boiled-beef-with-apple-and-horseradish-as-the-emperor-did-daily",
+      "name": "Eat boiled beef with apple and horseradish, as the emperor did daily",
+      "meta": "Eat · Tafelspitz",
+      "time": "12:30",
+      "slot": "Afternoon",
+      "action": "eat"
+    },
+    {
+      "id": "task-journal-what-was-your-duty-today-and-did-you-do-it",
+      "name": "Journal: what was your duty today, and did you do it?",
+      "meta": "Journal · 10 min",
+      "time": "21:30",
+      "slot": "Evening",
+      "action": "journal"
+    },
+    {
+      "id": "task-many-peoples-under-one-roof-can-it-hold",
+      "name": "Many peoples under one roof: can it hold?",
+      "meta": "Philosophy · 10 min",
+      "time": "09:30",
+      "slot": "Morning",
+      "action": "philosophy"
+    },
+    {
+      "id": "address-everyone-today-by-their-proper-title-and-name",
+      "name": "Address everyone today by their proper title and name",
+      "meta": "Courtesy",
+      "time": "10:00",
+      "slot": "Morning"
+    },
+    {
+      "id": "write-one-letter-by-hand-and-post-it",
+      "name": "Write one letter by hand and post it",
+      "meta": "The imperial post reached every village",
+      "time": "11:30",
+      "slot": "Morning"
+    },
+    {
+      "id": "have-coffee-and-cake-at-four-with-someone-you-have-not-seen-for-a-whil",
+      "name": "Have coffee and cake at four with someone you have not seen for a while",
+      "meta": "Jause",
+      "time": "16:00",
+      "slot": "Afternoon"
+    }
+  ],
+  "rules": [
+    {
+      "id": "r1",
+      "text": "Begin early and do your duty first",
+      "why": "Clear what others are waiting on you for before you do anything for yourself."
+    },
+    {
+      "id": "r2",
+      "text": "Be courteous to everyone",
+      "why": "Greet, thank and give each person their title. Form is a kindness."
+    },
+    {
+      "id": "r3",
+      "text": "Learn the other person’s language",
+      "why": "A few words in someone’s own tongue are the beginning of living together."
+    },
+    {
+      "id": "r4",
+      "text": "Take time over coffee",
+      "why": "An hour with the newspapers is not wasted. Do not hurry and do not hurry others."
+    },
+    {
+      "id": "r5",
+      "text": "Walk every day",
+      "why": "Out of doors, properly dressed, with no purpose but the walk."
+    },
+    {
+      "id": "r6",
+      "text": "Make music, do not only hear it",
+      "why": "Sing or play something each evening, however badly."
+    }
+  ],
+  "immerse": {
+    "read": [
+      {
+        "id": "read-the-world-of-yesterday",
+        "title": "The World of Yesterday",
+        "creator": "Stefan Zweig, trans. Anthea Bell",
+        "year": "1942",
+        "why": "A memoir of Vienna before 1914 and of everything that came after, written in exile and posted to the publisher the day before he took his life."
+      },
+      {
+        "id": "read-the-radetzky-march",
+        "title": "The Radetzky March",
+        "creator": "Joseph Roth",
+        "year": "1932",
+        "why": "Three generations of a family raised up by saving the emperor’s life decline along with the empire. The great novel of the monarchy’s end."
+      },
+      {
+        "id": "read-the-habsburg-empire-a-new-history",
+        "title": "The Habsburg Empire: A New History",
+        "creator": "Pieter M. Judson",
+        "year": "2016",
+        "why": "A history that argues the empire worked better, and was more popular with its peoples, than its obituarists allowed."
+      },
+      {
+        "id": "read-danubia",
+        "title": "Danubia",
+        "creator": "Simon Winder",
+        "year": "2013",
+        "why": "A funny, opinionated ramble through the dynasty’s lands and oddities."
+      },
+      {
+        "id": "read-the-man-without-qualities",
+        "title": "The Man Without Qualities",
+        "creator": "Robert Musil",
+        "year": "1930 to 1943",
+        "why": "A vast unfinished novel of Vienna in 1913, in which a committee tries to find a great idea for the emperor’s jubilee. He named the country Kakania."
+      },
+      {
+        "id": "read-the-hare-with-amber-eyes",
+        "title": "The Hare with Amber Eyes",
+        "creator": "Edmund de Waal",
+        "year": "2010",
+        "why": "A family of Jewish bankers on the Ringstrasse, their palace and what became of them, traced through a collection of small Japanese carvings."
+      }
+    ],
+    "watch": [
+      {
+        "id": "watch-colonel-redl",
+        "title": "Colonel Redl",
+        "creator": "István Szabó",
+        "year": "1985",
+        "why": "A railwayman’s son rises in the imperial army by loyalty and concealment. A Hungarian film about what the monarchy asked of its servants."
+      },
+      {
+        "id": "watch-amadeus",
+        "title": "Amadeus",
+        "creator": "Miloš Forman",
+        "year": "1984",
+        "why": "Mozart at the court of Joseph II, as told by his rival. Filmed in Prague, with the emperor a decent man who thinks there are too many notes."
+      },
+      {
+        "id": "watch-sissi",
+        "title": "Sissi",
+        "creator": "Ernst Marischka",
+        "year": "1955",
+        "why": "The young Empress Elisabeth as a fairy tale, with Romy Schneider. Wholly sentimental, and shown on Austrian television every Christmas."
+      },
+      {
+        "id": "watch-corsage",
+        "title": "Corsage",
+        "creator": "Marie Kreutzer",
+        "year": "2022",
+        "why": "The same empress at forty, bored, watched and laced tight. An antidote to the film above."
+      }
+    ],
+    "listen": [
+      {
+        "id": "listen-string-quartet-in-c-opus-76-no-3-the-emperor",
+        "title": "String Quartet in C, Opus 76 No. 3, the Emperor",
+        "creator": "Joseph Haydn",
+        "year": "1797",
+        "why": "The slow movement is a set of variations on the hymn he wrote for Emperor Franz. The tune outlived the empire."
+      },
+      {
+        "id": "listen-piano-quintet-in-a-the-trout",
+        "title": "Piano Quintet in A, the Trout",
+        "creator": "Franz Schubert",
+        "year": "1819",
+        "why": "Written for a mining official who played the cello, to be performed at home among friends."
+      },
+      {
+        "id": "listen-the-blue-danube",
+        "title": "The Blue Danube",
+        "creator": "Johann Strauss II",
+        "year": "1867",
+        "why": "The waltz that became Vienna’s second anthem, written in the year of the Compromise."
+      },
+      {
+        "id": "listen-radetzky-march",
+        "title": "Radetzky March",
+        "creator": "Johann Strauss I",
+        "year": "1848",
+        "why": "Composed for the field marshal who put down the Italian revolt. It closes the New Year’s Concert each year, with the audience clapping."
+      }
+    ],
+    "art": [
+      {
+        "id": "art-the-crown-of-rudolf-ii",
+        "title": "The crown of Rudolf II",
+        "creator": "Jan Vermeyen, court goldsmith in Prague",
+        "year": "1602",
+        "why": "A circlet, a high arch and a bishop’s mitre in gold, enamel, pearls and a great sapphire. Later the crown of the Austrian Empire. In the Imperial Treasury, Vienna."
+      },
+      {
+        "id": "art-the-bruegel-room",
+        "title": "The Bruegel room",
+        "creator": "Pieter Bruegel the Elder",
+        "year": "1560s",
+        "why": "The Hunters in the Snow, the Tower of Babel and ten more, gathered by Habsburg archdukes. The largest group of his paintings anywhere, in the Kunsthistorisches Museum."
+      },
+      {
+        "id": "art-the-kiss",
+        "title": "The Kiss",
+        "creator": "Gustav Klimt",
+        "year": "1907 to 1908",
+        "why": "A couple wrapped in gold on a flowered cliff edge. Bought by the state for its new modern gallery before it was finished. In the Belvedere."
+      },
+      {
+        "id": "art-the-postal-savings-bank",
+        "title": "The Postal Savings Bank",
+        "creator": "Otto Wagner",
+        "year": "1904 to 1906",
+        "why": "A public building clad in marble slabs fixed with aluminium bolts, with a glass-roofed hall. Modern architecture begins here, in an imperial ministry."
+      }
+    ],
+    "eat": [
+      {
+        "id": "eat-tafelspitz",
+        "title": "Tafelspitz",
+        "creator": "Simmered beef with root vegetables, apple horseradish and chive sauce",
+        "why": "Franz Joseph ate boiled beef at almost every midday meal, and the dish was served throughout the empire on his birthday."
+      },
+      {
+        "id": "eat-wiener-schnitzel",
+        "title": "Wiener Schnitzel",
+        "creator": "Veal beaten thin, breaded and fried in butter",
+        "why": "It should cover the plate and puff away from the meat. Served with lemon and potato salad."
+      },
+      {
+        "id": "eat-gulasch",
+        "title": "Gulasch",
+        "creator": "Beef stewed with onions and paprika",
+        "why": "A Hungarian herdsman’s dish that became the standby of every Viennese inn and army kitchen."
+      },
+      {
+        "id": "eat-kaiserschmarrn",
+        "title": "Kaiserschmarrn",
+        "creator": "A thick torn pancake with raisins, dusted with sugar, with plum compote",
+        "why": "The emperor’s mess. One story says it was made for Franz Joseph when a dessert went wrong."
+      }
+    ],
+    "drink": [
+      {
+        "id": "drink-a-melange",
+        "title": "A melange",
+        "creator": "With a glass of water on a small silver tray",
+        "why": "The spoon is balanced across the water glass. The water is refilled without your asking."
+      },
+      {
+        "id": "drink-a-white-wine-spritzer",
+        "title": "A white wine spritzer",
+        "creator": "Young wine with soda water",
+        "why": "The drink of the Heuriger gardens on a summer evening."
+      },
+      {
+        "id": "drink-tokaji",
+        "title": "Tokaji",
+        "creator": "Sweet golden wine from north-east Hungary",
+        "why": "Called the wine of kings and the king of wines. The court sent it as a diplomatic present."
+      }
+    ],
+    "customs": [
+      {
+        "id": "customs-titles",
+        "title": "Titles",
+        "creator": "Herr Doktor, Frau Hofrat",
+        "why": "People are addressed by their degree or rank, and a wife by her husband’s. It is still done in Austria, half seriously."
+      },
+      {
+        "id": "customs-staying",
+        "title": "Staying",
+        "creator": "The coffeehouse table is yours",
+        "why": "No waiter will bring a bill until asked. To be hurried would be an insult."
+      },
+      {
+        "id": "customs-the-ball-season",
+        "title": "The ball season",
+        "creator": "From New Year to Shrove Tuesday",
+        "why": "Young couples in white open each ball with a polonaise, and at midnight everyone dances a quadrille."
+      },
+      {
+        "id": "customs-washing-of-the-feet",
+        "title": "Washing of the feet",
+        "creator": "On Maundy Thursday",
+        "why": "Each year the emperor knelt and washed the feet of twelve poor old men of Vienna, then served them a meal with his own hands."
+      }
+    ],
+    "games": [
+      {
+        "id": "games-tarock",
+        "title": "Tarock",
+        "creator": "Card game · Austria and Hungary",
+        "year": "from the 18th century",
+        "why": "A family of trick-taking games played with fifty-four cards, twenty-two of them trumps. Every coffeehouse had its tables, and every regiment its school."
+      },
+      {
+        "id": "games-chess",
+        "title": "Chess",
+        "creator": "Board game",
+        "year": "ancient",
+        "why": "Vienna’s cafes were among the chess capitals of the world. Trotsky played daily at the Café Central before 1914."
+      },
+      {
+        "id": "games-schnapsen",
+        "title": "Schnapsen",
+        "creator": "Card game · Austria",
+        "year": "from the 18th century",
+        "why": "A fast game for two with twenty cards, the object being to reach sixty-six points first. The game of every country inn."
+      },
+      {
+        "id": "games-carambole-billiards",
+        "title": "Carambole billiards",
+        "creator": "Table game",
+        "year": "19th century",
+        "why": "Three balls and no pockets. The better coffeehouses kept several tables in a back room."
+      }
+    ],
+    "festivals": [
+      {
+        "id": "fest-the-new-year-s-concert",
+        "title": "The New Year’s Concert",
+        "creator": "1 January, in the Musikverein, Vienna",
+        "why": "The Vienna Philharmonic plays waltzes and polkas by the Strauss family, broadcast to some ninety countries."
+      },
+      {
+        "id": "fest-the-vienna-opera-ball",
+        "title": "The Vienna Opera Ball",
+        "creator": "The Thursday before Ash Wednesday",
+        "why": "The State Opera’s stalls are floored over, and five thousand guests dance until five in the morning."
+      },
+      {
+        "id": "fest-the-emperor-s-birthday",
+        "title": "The Emperor’s Birthday",
+        "creator": "18 August, at Bad Ischl",
+        "why": "The spa town where Franz Joseph spent eighty-three summers still marks the day with a mass and a parade of bands in old uniforms."
+      }
+    ],
+    "places": [
+      {
+        "id": "place-the-hofburg",
+        "title": "The Hofburg",
+        "creator": "Vienna, Austria",
+        "why": "The imperial apartments, with Franz Joseph’s iron bed and standing desk, and the Treasury with the crowns of two empires."
+      },
+      {
+        "id": "place-schonbrunn",
+        "title": "Schönbrunn",
+        "creator": "Vienna, Austria",
+        "why": "The yellow summer palace of Maria Theresa, with its garden, its hilltop pavilion and the oldest zoo in the world. The colour gave its name to a shade used on public buildings across the monarchy."
+      },
+      {
+        "id": "place-the-imperial-crypt",
+        "title": "The Imperial Crypt",
+        "creator": "Capuchin Church, Vienna, Austria",
+        "why": "A hundred and fifty Habsburgs lie here in metal coffins, from the extravagant double tomb of Maria Theresa to the plain one of Joseph II."
+      },
+      {
+        "id": "place-cafe-sperl",
+        "title": "Café Sperl",
+        "creator": "Gumpendorfer Strasse 11, Vienna, Austria",
+        "why": "Opened in 1880 and hardly altered: bentwood chairs, marble tables, billiards, newspapers and waiters in black."
+      },
+      {
+        "id": "place-bad-ischl",
+        "title": "Bad Ischl",
+        "creator": "Salzkammergut, Austria",
+        "why": "The small spa among mountains where the emperor became engaged, hunted every summer and signed the declaration of war in 1914. His villa is open."
+      },
+      {
+        "id": "place-trieste",
+        "title": "Trieste",
+        "creator": "Friuli-Venezia Giulia, Italy",
+        "why": "The monarchy’s seaport: Italian in speech, Viennese in its coffeehouses and offices, with the white castle of Miramare on the shore."
+      }
+    ]
+  },
+  "ethics": [
+    {
+      "title": "Duty",
+      "text": "Do the work that falls to you, daily, whether or not anyone thanks you.",
+      "practice": "Finish today the thing you are responsible for and least want to do."
+    },
+    {
+      "title": "Courtesy",
+      "text": "Politeness makes it possible for very different people to share a city.",
+      "practice": "Use a formal greeting and a title with someone you usually treat casually."
+    },
+    {
+      "title": "Tolerance",
+      "text": "Joseph II granted freedom of worship in 1781. Living together begins with leaving people alone.",
+      "practice": "Let someone do a thing their way without comment."
+    },
+    {
+      "title": "Moderation",
+      "text": "The empire’s wisdom was to settle for the bearable compromise.",
+      "practice": "In a dispute today, propose the solution with which no one is delighted and all can live."
+    },
+    {
+      "title": "Cultivation",
+      "text": "A person should read the papers, hear music, know some history and speak more than one language.",
+      "practice": "Learn one thing today for no practical reason."
+    },
+    {
+      "title": "Constancy",
+      "text": "The same desk, the same cafe, the same walk. There is strength in a regular life.",
+      "practice": "Do one thing today at exactly the hour you did it yesterday."
+    }
+  ],
+  "philosophy": [
+    {
+      "title": "An empire of many peoples",
+      "text": "The monarchy was not a nation and did not try to be. Loyalty was to a dynasty and a shared order, across eleven languages.",
+      "practice": "What holds a community together when it has no single culture?"
+    },
+    {
+      "title": "If it did not exist",
+      "text": "A Czech patriot argued that the small peoples between Germany and Russia needed a common roof, and that without Austria they would be swallowed one by one. He was proved right after 1918.",
+      "practice": "What imperfect arrangement in your life protects more than you notice?"
+    },
+    {
+      "title": "Marriage over war",
+      "text": "The Habsburgs gained most of their lands at the altar. Patience and alliance can win what force cannot.",
+      "practice": "What could you gain by joining forces that you are trying to win by a fight?"
+    },
+    {
+      "title": "Muddling through",
+      "text": "The monarchy survived for centuries by never fully solving anything. It adjusted, postponed and compromised.",
+      "practice": "Is there a problem you should stop trying to solve and simply manage?"
+    },
+    {
+      "title": "Form",
+      "text": "Titles, uniforms and ceremony gave people a place and a way to behave. Form can be empty, and it can also be a shelter.",
+      "practice": "Which of your routines is holding you up?"
+    },
+    {
+      "title": "The golden age of security",
+      "text": "Zweig’s parents believed that progress was assured and the future insured. Within a generation everything was gone.",
+      "practice": "What do you assume is permanent?"
+    },
+    {
+      "title": "Alone in company",
+      "text": "The coffeehouse offered a third thing between solitude and society: one’s own table in a full room.",
+      "practice": "Where can you be alone among people?"
+    },
+    {
+      "title": "Gay apocalypse",
+      "text": "Vienna around 1900 produced Freud, Mahler, Klimt, Schoenberg and Wittgenstein while its politics decayed. A critic called the city a laboratory for the end of the world.",
+      "practice": "What is flowering around you, and what is rotting?"
+    }
+  ],
+  "journal": [
+    "What was your duty today, and did you do it?",
+    "What is still on the pile?",
+    "Whom did you greet properly?",
+    "What phrase did you learn, and whom did you say it to?",
+    "What did you read in the paper that you would normally skip?",
+    "What did you write at your table?",
+    "Whom did you meet on your walk?",
+    "What did you notice above the shop fronts?",
+    "What music did you make?",
+    "Whom do you serve?",
+    "What compromise did you reach?",
+    "What did you postpone, wisely or not?",
+    "Whose language should you learn?",
+    "What do you assume is permanent?",
+    "Which routine is holding you up?",
+    "Where were you alone among people?",
+    "What form did you observe that felt empty?",
+    "What form did you drop that you now miss?",
+    "Whom did you leave in peace?",
+    "What was comfortable today?",
+    "What alliance would serve you better than a quarrel?",
+    "What did you muddle through?",
+    "Who are the many peoples in your life?",
+    "What is flowering around you?",
+    "What is quietly decaying?",
+    "What would you put in a letter you would be glad to have kept?",
+    "Who is your regular company, and at what table?",
+    "What have you been spared, and what not?",
+    "What world of yesterday do you carry?",
+    "What will you be at your desk for tomorrow?"
+  ],
+  "reflect": [
+    "What did an early, orderly start change?",
+    "What languages have you begun?",
+    "What did the coffeehouse hour give you?",
+    "Whom did the daily walk bring you to?",
+    "What music is now in the house?",
+    "Which habit of the old monarchy will you keep?"
+  ],
+  "dayThemes": [
+    "Five o’clock",
+    "The first servant",
+    "The pile",
+    "The signature",
+    "The title",
+    "I kiss your hand",
+    "Your servant",
+    "Eleven languages",
+    "The neighbour’s tongue",
+    "The coffeehouse",
+    "A glass of water",
+    "The newspapers",
+    "The regular’s table",
+    "Alone in company",
+    "Coffee and cake",
+    "The promenade",
+    "The chestnut avenue",
+    "The Ring",
+    "Music at home",
+    "The waltz",
+    "The quartet",
+    "Marry, do not fight",
+    "United strength",
+    "The Compromise",
+    "Muddling through",
+    "Many peoples",
+    "If it did not exist",
+    "The iron bed",
+    "The golden age of security",
+    "The world of yesterday"
+  ],
+  "guide": {
+    "intro": [
+      "The Habsburgs took their name from a castle on a hill in what is now northern Switzerland. In 1273 the German princes, wanting a king too weak to trouble them, elected Count Rudolf of Habsburg. He surprised them by defeating the king of Bohemia and taking the duchies of Austria for his family. They kept them for 640 years.",
+      "They were not great conquerors. Their gift was for marriage, patience and survival. Around 1500 three weddings in a row brought them the Netherlands, then Spain with its new American empire, then Bohemia and Hungary. A Latin verse summed it up: let others wage war; you, happy Austria, marry. Charles V, who inherited most of this, ruled lands on which, it was said, the sun never set. He divided them, and from 1556 there were two branches. The Spanish line died out in 1700. The Austrian line held central Europe.",
+      "For two centuries their main task was to defend it, against the Ottomans, who twice besieged Vienna, and against Protestant revolt and French ambition. After the Turkish siege of 1683 was broken, the monarchy expanded down the Danube and Vienna was rebuilt in the baroque. In the eighteenth century Maria Theresa, who had to fight for her inheritance as a woman, and her son Joseph II reformed it from above: compulsory schooling for all children, an honest professional civil service, the end of serfdom, and freedom of worship for Protestants, Orthodox and Jews.",
+      "What emerged was something unique in Europe. It was not a nation. It was a collection of kingdoms and provinces, with a dozen peoples and faiths, held together by a dynasty, an army, a bureaucracy and the Catholic Church, and later by railways, schools and a shared way of life. From Lviv to Trieste one found the same yellow-painted stations and offices, the same coffeehouses with the same newspapers, the same pastries, uniforms and forms of address.",
+      "In the nineteenth century nationalism made this harder each decade. The young Franz Joseph came to the throne in the revolution of 1848 and reigned until 1916. Defeated by Prussia, he came to terms with the Hungarians in 1867 and created the Dual Monarchy of Austria-Hungary. He rose before dawn, slept on an iron bed, and read his files. His brother was shot in Mexico, his only son killed himself, his wife was murdered. Around him Vienna, Budapest and Prague became some of the most brilliant cities in the world, the homes of Mahler, Klimt, Freud, Kafka and Bartók.",
+      "On 28 June 1914 his heir was assassinated at Sarajevo. The war the monarchy began in response destroyed it. In the autumn of 1918 its peoples declared their independence one after another, and the last emperor, Karl, withdrew. Seven states arose on its territory.",
+      "Many who lived through what followed came to look back on the old monarchy as a lost world of security and tolerance. That is partly nostalgia. This Onda takes from it the habits that made its daily life: duty done early, a courteous word, another language, an unhurried coffee, a walk and music at home."
+    ],
+    "origin": "A castle in what is now Switzerland, then Vienna, and lands from the North Sea to the Carpathians",
+    "era": "Rudolf of Habsburg was elected king in 1273. The last emperor withdrew from government on 11 November 1918",
+    "figures": [
+      {
+        "name": "Rudolf I",
+        "dates": "1218 to 1291",
+        "bio": "The count who became king and won Austria. He is said to have given his horse to a priest carrying the sacrament, a story the family told for centuries."
+      },
+      {
+        "name": "Maximilian I",
+        "dates": "1459 to 1519",
+        "bio": "The last knight and the first modern publicist, who arranged the marriages that made his grandsons masters of half of Europe."
+      },
+      {
+        "name": "Charles V",
+        "dates": "1500 to 1558",
+        "bio": "Ruler of Spain, the Netherlands, much of Italy, the German empire and the Americas. Worn out, he abdicated and retired to a monastery."
+      },
+      {
+        "name": "Rudolf II",
+        "dates": "1552 to 1612",
+        "bio": "A melancholy collector who moved the court to Prague and filled it with astronomers, alchemists and painters, Kepler and Arcimboldo among them."
+      },
+      {
+        "name": "Maria Theresa",
+        "dates": "1717 to 1780",
+        "bio": "The only woman to rule the Habsburg lands. She bore sixteen children, fought two long wars and founded the monarchy’s schools and administration."
+      },
+      {
+        "name": "Joseph II",
+        "dates": "1741 to 1790",
+        "bio": "Her son, the impatient reformer, who issued some six thousand decrees in ten years and asked for the epitaph: here lies a prince whose intentions were pure, and who saw all his plans fail."
+      },
+      {
+        "name": "Prince Metternich",
+        "dates": "1773 to 1859",
+        "bio": "The chancellor who presided over the Congress of Vienna and for thirty years kept Europe at peace and its liberals under watch."
+      },
+      {
+        "name": "Franz Schubert",
+        "dates": "1797 to 1828",
+        "bio": "A schoolmaster’s son who wrote some six hundred songs and died at thirty-one. He hardly left Vienna and was hardly known outside his circle of friends."
+      },
+      {
+        "name": "Franz Joseph I",
+        "dates": "1830 to 1916",
+        "bio": "Emperor for sixty-eight years. Dutiful, unimaginative and personally modest, he became the one thing all his peoples had in common."
+      },
+      {
+        "name": "Elisabeth",
+        "dates": "1837 to 1898",
+        "bio": "His Bavarian wife, known as Sisi. Beautiful, restless and unhappy at court, she championed Hungary, wrote poetry and was stabbed by an anarchist in Geneva."
+      },
+      {
+        "name": "Johann Strauss II",
+        "dates": "1825 to 1899",
+        "bio": "The waltz king, who conducted with his violin in his hand and made Viennese dance music known from Boston to St Petersburg."
+      },
+      {
+        "name": "Karl I",
+        "dates": "1887 to 1922",
+        "bio": "The last emperor, who tried in secret to make peace in 1917. He died in exile on Madeira."
+      }
+    ],
+    "history": [
+      {
+        "when": "1273 to 1282",
+        "what": "A king and a duchy",
+        "detail": "Rudolf is elected King of the Romans, defeats Ottokar of Bohemia in 1278 and grants Austria and Styria to his sons."
+      },
+      {
+        "when": "1477 to 1526",
+        "what": "Three marriages",
+        "detail": "Burgundy and the Netherlands come with Mary of Burgundy, Spain with Joanna of Castile, and Bohemia and Hungary when the young king Louis falls fighting the Turks at Mohács."
+      },
+      {
+        "when": "1529 and 1683",
+        "what": "Vienna besieged",
+        "detail": "Ottoman armies twice reach the walls. The second siege is broken on 12 September 1683 by a relief army under the king of Poland."
+      },
+      {
+        "when": "1685",
+        "what": "The first coffeehouse",
+        "detail": "An Armenian merchant, Johannes Diodato, is given the first licence to serve coffee in Vienna."
+      },
+      {
+        "when": "1740 to 1780",
+        "what": "Maria Theresa",
+        "detail": "She defends her succession, loses Silesia to Prussia, and orders in 1774 that every child from six to twelve shall go to school."
+      },
+      {
+        "when": "1781",
+        "what": "Toleration",
+        "detail": "Joseph II grants freedom of worship to Lutherans, Calvinists and Orthodox, eases restrictions on Jews and abolishes personal serfdom."
+      },
+      {
+        "when": "1804 to 1806",
+        "what": "Two empires",
+        "detail": "Franz II proclaims himself Emperor of Austria and, under pressure from Napoleon, lays down the crown of the Holy Roman Empire."
+      },
+      {
+        "when": "1814 to 1815",
+        "what": "The Congress of Vienna",
+        "detail": "The powers redraw the map of Europe between balls and dinners. The settlement keeps the general peace for a century."
+      },
+      {
+        "when": "1848",
+        "what": "Revolution",
+        "detail": "Risings in Vienna, Prague, Budapest and Milan nearly end the monarchy. Metternich flees, and the eighteen-year-old Franz Joseph becomes emperor."
+      },
+      {
+        "when": "1857 to 1865",
+        "what": "The Ringstrasse",
+        "detail": "The emperor orders the city walls demolished. A boulevard of public buildings and private palaces rises in their place."
+      },
+      {
+        "when": "1867",
+        "what": "The Compromise",
+        "detail": "After defeat by Prussia, Hungary receives its own government and parliament. Franz Joseph is crowned its king in Budapest."
+      },
+      {
+        "when": "1889 to 1898",
+        "what": "Mayerling and Geneva",
+        "detail": "Crown Prince Rudolf shoots his young mistress and himself at a hunting lodge. Nine years later the empress is murdered."
+      },
+      {
+        "when": "28 June 1914",
+        "what": "Sarajevo",
+        "detail": "The heir, Franz Ferdinand, and his wife are shot by a Bosnian Serb student. A month later the monarchy declares war on Serbia."
+      },
+      {
+        "when": "November 1918",
+        "what": "The end",
+        "detail": "With the army dissolving, Karl signs a statement renouncing any part in affairs of state. Austria is declared a republic the next day."
+      }
+    ],
+    "concepts": [
+      {
+        "term": "The dynasty",
+        "text": "A family, not a nation.",
+        "detail": "The lands had nothing in common but their ruler. Each was held by a separate title, and the emperor’s full style ran to several dozen."
+      },
+      {
+        "term": "AEIOU",
+        "text": "A motto and a riddle.",
+        "detail": "Frederick III marked his possessions with the five vowels in the fifteenth century. The usual readings are that Austria is destined to rule the whole world, or that Austria will last to the end of time."
+      },
+      {
+        "term": "The Pragmatic Sanction",
+        "text": "One and indivisible.",
+        "detail": "The law of 1713 that declared the lands inseparable and allowed a daughter to inherit them. Maria Theresa had to defend it in arms."
+      },
+      {
+        "term": "Enlightened absolutism",
+        "text": "Everything for the people, nothing by them.",
+        "detail": "Reform ordered from the throne by rulers who believed the state existed for the welfare of its subjects and did not consult them."
+      },
+      {
+        "term": "Dualism",
+        "text": "Two states, one monarch.",
+        "detail": "After 1867 Austria and Hungary shared only the ruler, the army, foreign policy and the finances for those, renegotiated every ten years."
+      },
+      {
+        "term": "The nationalities question",
+        "text": "Eleven peoples.",
+        "detail": "No group was a majority. Language rights in schools, courts and offices became the main business of politics, argued out bench by bench."
+      },
+      {
+        "term": "The coffeehouse",
+        "text": "A democratic club.",
+        "detail": "Open to anyone for the price of a cup. Its newspapers, heating and writing materials made it the workplace of people with small rooms and large ideas."
+      },
+      {
+        "term": "Biedermeier",
+        "text": "The private life.",
+        "detail": "Between 1815 and 1848, barred from politics, the middle classes turned to the home, to music, walking and friendship. A style and a state of mind."
+      },
+      {
+        "term": "Vienna 1900",
+        "text": "Modernism at the centre.",
+        "detail": "Within a few streets and years: psychoanalysis, twelve-tone music, the Secession, modern architecture, logical philosophy and political Zionism."
+      }
+    ],
+    "facts": [
+      {
+        "text": "Franz Joseph reigned for sixty-seven years and 355 days, longer than any European monarch then living could remember."
+      },
+      {
+        "text": "The imperial anthem was sung in at least eleven official languages, to Haydn’s tune."
+      },
+      {
+        "text": "The croissant’s ancestor, the crescent-shaped kipferl, is Viennese. Legend ties it to the siege of 1683."
+      },
+      {
+        "text": "The monarchy’s banknotes carried their value in ten languages."
+      },
+      {
+        "text": "When a Habsburg was buried, the herald knocked at the crypt door and was refused admission until he announced the dead only as a poor sinner."
+      },
+      {
+        "text": "The dye called Schönbrunn yellow coloured stations and barracks from the Alps to what is now Ukraine."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Archduke",
+        "meaning": "The title of every prince of the house"
+      },
+      {
+        "term": "Dual Monarchy",
+        "meaning": "Austria-Hungary, 1867 to 1918"
+      },
+      {
+        "term": "Cisleithania",
+        "meaning": "The Austrian half, on the near side of the little river Leitha"
+      },
+      {
+        "term": "Diet",
+        "meaning": "A provincial assembly"
+      },
+      {
+        "term": "Secession",
+        "meaning": "The group of artists around Klimt who left the official academy in 1897"
+      },
+      {
+        "term": "Fiaker",
+        "meaning": "A two-horse cab, and its driver"
+      }
+    ],
+    "furtherReading": [
+      {
+        "title": "The Habsburgs: The Rise and Fall of a World Power",
+        "creator": "Martyn Rady",
+        "year": "2020",
+        "note": "The whole dynasty, Spanish and Austrian, in one fast-moving volume."
+      },
+      {
+        "title": "Fin-de-Siècle Vienna: Politics and Culture",
+        "creator": "Carl E. Schorske",
+        "year": "1980",
+        "note": "Seven essays on how a failing liberal order produced modern art and thought."
+      },
+      {
+        "title": "Danube",
+        "creator": "Claudio Magris",
+        "year": "1986",
+        "note": "A journey down the river from its source to the Black Sea by a scholar from Trieste, through every layer of central European memory."
+      },
+      {
+        "title": "The Emperor’s Tomb",
+        "creator": "Joseph Roth",
+        "year": "1938",
+        "note": "A short, bitter sequel to The Radetzky March, ending at the Capuchin crypt in 1938."
+      }
+    ],
+    "learnFrom": [
+      {
+        "name": "The World of the Habsburgs",
+        "note": "A large online history from the company that runs the Vienna palaces, with objects, people and themes.",
+        "link": "https://www.habsburger.net/en"
+      },
+      {
+        "name": "Kunsthistorisches Museum",
+        "note": "The dynasty’s art collections, with a searchable catalogue.",
+        "link": "https://www.khm.at/en"
+      },
+      {
+        "name": "A Viennese coffeehouse",
+        "note": "The custom is listed by UNESCO as part of Austria’s intangible heritage. Go alone, with a newspaper, and stay."
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Habsburg Empire: A New History",
+        "creator": "Pieter M. Judson",
+        "publisher": "Harvard University Press",
+        "year": "2016"
+      },
+      {
+        "title": "The Habsburgs: The Rise and Fall of a World Power",
+        "creator": "Martyn Rady",
+        "publisher": "Allen Lane",
+        "year": "2020"
+      },
+      {
+        "title": "A Concise History of Austria",
+        "creator": "Steven Beller",
+        "publisher": "Cambridge University Press",
+        "year": "2006"
+      },
+      {
+        "title": "Fin-de-Siècle Vienna: Politics and Culture",
+        "creator": "Carl E. Schorske",
+        "publisher": "Alfred A. Knopf",
+        "year": "1980"
+      },
+      {
+        "title": "The Viennese Café and Fin-de-Siècle Culture",
+        "creator": "ed. Charlotte Ashby, Tag Gronberg and Simon Shaw-Miller",
+        "publisher": "Berghahn Books",
+        "year": "2013"
+      },
+      {
+        "title": "The World of Yesterday",
+        "creator": "Stefan Zweig, trans. Anthea Bell",
+        "publisher": "Pushkin Press",
+        "year": "2009"
+      }
+    ]
+  },
+  "sensitivity": {
+    "note": "The Habsburg Monarchy is remembered fondly in some of its former lands and resentfully in others. This Onda borrows the civil habits of its towns. It is partly a portrait of a world seen through nostalgia, and says so.",
+    "requiredCaveats": [
+      "Czechs, Hungarians, Poles, Ukrainians, Italians, South Slavs and Romanians each remember Habsburg rule differently, and many fought to leave it.",
+      "The golden age of security was golden for the middle and upper classes. Vienna around 1900 also had some of the worst housing in Europe.",
+      "The city that gave Jews civil equality also elected an openly antisemitic mayor in 1897, and the young Hitler learned his politics there."
+    ],
+    "reviewRequired": false
+  }
+}

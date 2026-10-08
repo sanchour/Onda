@@ -1,0 +1,1273 @@
+{
+  "version": 1,
+  "id": "frisian",
+  "name": "Frisian",
+  "origin": "Friesland",
+  "era": "From about 600 BC to today",
+  "tone": "blue",
+  "icon": "waves",
+  "font": "bitter",
+  "pattern": "pompebleden",
+  "glyph": "Frysk",
+  "line": "Speak your own language, go out in the wind, keep your stretch of the dike and say plainly what you mean.",
+  "quote": {
+    "text": "If it cannot be done the way it should, it must be done the way it can.",
+    "by": "Frisian saying",
+    "source": "As it net kin sa’t it moat, dan moat it mar sa’t it kin"
+  },
+  "quotes": [
+    {
+      "text": "Butter, bread and green cheese: whoever cannot say that is no true Frisian.",
+      "by": "Attributed to Grutte Pier",
+      "source": "Bûter, brea en griene tsiis; wa’t dat net sizze kin, is gjin oprjochte Fries. By tradition the test he put to captured sailors, about 1515",
+      "unverified": true
+    },
+    {
+      "text": "We Frisians kneel only before God.",
+      "by": "Attributed to Gemme van Burmania",
+      "source": "Said to have been his answer in 1555 when told to kneel to Philip II. A tradition, first recorded later",
+      "unverified": true
+    },
+    {
+      "text": "Rather dead than a slave.",
+      "by": "Frisian motto",
+      "source": "Leaver dea as slaef. Carved on the monument at Warns that marks the defeat of the Count of Holland in 1345"
+    },
+    {
+      "text": "Who will not dike must leave.",
+      "by": "Old law of the coast",
+      "source": "Dy’t net dykje wol, moat wike. A landholder who failed to keep up his length of dike forfeited his land"
+    },
+    {
+      "text": "God made the sea, the Frisian made the coast.",
+      "by": "Latin saying of the North Sea coast",
+      "source": "Deus mare, Friso litora fecit"
+    },
+    {
+      "text": "As long as the wind blows from the clouds and the world stands.",
+      "by": "Old Frisian law",
+      "source": "The formula for how long the Frisians were to remain free, from the medieval law texts; a common rendering"
+    },
+    {
+      "text": "No men stand before the Germans in arms or in good faith.",
+      "by": "The Frisian envoys Verritus and Malorix",
+      "source": "On seating themselves among the senators in the theatre of Pompey at Rome, AD 58; Tacitus, Annals 13.54"
+    }
+  ],
+  "words": [
+    {
+      "id": "word-frysk",
+      "term": "Frysk",
+      "meaning": "Frisian",
+      "pronunciation": "FREESK",
+      "language": "West Frisian",
+      "usage": "The language and the people. It is the closest living relative of English on the continent."
+    },
+    {
+      "id": "word-fryslan",
+      "term": "Fryslân",
+      "meaning": "Friesland",
+      "pronunciation": "FREES-lawn",
+      "language": "West Frisian",
+      "usage": "The province in the north of the Netherlands. Since 1997 the Frisian form has been its official name."
+    },
+    {
+      "id": "word-heitelan",
+      "term": "Heitelân",
+      "meaning": "The fatherland",
+      "pronunciation": "HIGH-tuh-lawn",
+      "language": "West Frisian",
+      "usage": "Literally father’s land. A Frisian away from home is said to live outside the province, om utens."
+    },
+    {
+      "id": "word-memmetaal",
+      "term": "Memmetaal",
+      "meaning": "Mother tongue",
+      "pronunciation": "MEM-muh-tahl",
+      "language": "West Frisian",
+      "usage": "The language learned at home. Rather more than half the people of the province have Frisian as theirs."
+    },
+    {
+      "id": "word-mienskip",
+      "term": "Mienskip",
+      "meaning": "Community",
+      "pronunciation": "MEEN-skip",
+      "language": "West Frisian",
+      "usage": "The village, the neighbours and the feeling of doing things together. The chosen theme when Leeuwarden was a European Capital of Culture in 2018."
+    },
+    {
+      "id": "word-frijheid",
+      "term": "Frijheid",
+      "meaning": "Freedom",
+      "pronunciation": "FRAY-hite",
+      "language": "West Frisian",
+      "usage": "The Frisian freedom was the medieval condition of having no count or duke between the people and the distant emperor."
+    },
+    {
+      "id": "word-terp",
+      "term": "Terp",
+      "meaning": "A dwelling mound",
+      "pronunciation": "TAIRP",
+      "language": "West Frisian",
+      "usage": "A hill of clay, turf and dung raised by hand above the tide. More than a thousand were built before there were dikes."
+    },
+    {
+      "id": "word-dyk",
+      "term": "Dyk",
+      "meaning": "A dike",
+      "pronunciation": "DEEK",
+      "language": "West Frisian",
+      "usage": "An earth wall against the sea. The first ring dikes date from about the year 1000."
+    },
+    {
+      "id": "word-waad",
+      "term": "Waad",
+      "meaning": "The mudflats",
+      "pronunciation": "WAHD",
+      "language": "West Frisian",
+      "usage": "The shallow Wadden Sea between the coast and the islands, which falls dry twice a day."
+    },
+    {
+      "id": "word-wetter",
+      "term": "Wetter",
+      "meaning": "Water",
+      "pronunciation": "VET-ter",
+      "language": "West Frisian",
+      "usage": "Lakes, canals and ditches cover a large part of the province. A regional water board is a wetterskip."
+    },
+    {
+      "id": "word-skutsje",
+      "term": "Skûtsje",
+      "meaning": "A flat-bottomed sailing barge",
+      "pronunciation": "SKOOT-shuh",
+      "language": "West Frisian",
+      "usage": "Built from the eighteenth century to carry peat, manure and potatoes over shallow water. A family lived in the tiny cabin."
+    },
+    {
+      "id": "word-skutsjesilen",
+      "term": "Skûtsjesilen",
+      "meaning": "Barge racing",
+      "pronunciation": "SKOOT-shuh-see-lun",
+      "language": "West Frisian",
+      "usage": "Eleven days of racing each summer between fourteen old cargo barges, each sailing for a town or village."
+    },
+    {
+      "id": "word-fierljeppen",
+      "term": "Fierljeppen",
+      "meaning": "Leaping far",
+      "pronunciation": "FEER-lyep-pun",
+      "language": "West Frisian",
+      "usage": "Vaulting over a canal by climbing a long pole as it swings across. It began as the way to cross ditches when looking for eggs."
+    },
+    {
+      "id": "word-keatsen",
+      "term": "Keatsen",
+      "meaning": "Frisian handball",
+      "pronunciation": "KYET-sun",
+      "language": "West Frisian",
+      "usage": "Two teams of three strike a small hard ball with a gloved hand on a grass field. One of the oldest ball games in Europe."
+    },
+    {
+      "id": "word-alvestedetocht",
+      "term": "Alvestêdetocht",
+      "meaning": "The Eleven Cities Tour",
+      "pronunciation": "AL-vuh-STEH-duh-tocht",
+      "language": "West Frisian",
+      "usage": "A skating race and tour of nearly two hundred kilometres over the canals between the eleven old towns, held only when the ice is thick enough."
+    },
+    {
+      "id": "word-reedride",
+      "term": "Reedride",
+      "meaning": "To skate",
+      "pronunciation": "RAY-ree-duh",
+      "language": "West Frisian",
+      "usage": "On natural ice, with long strokes, hands behind the back and head down into the wind."
+    },
+    {
+      "id": "word-it-giet-oan",
+      "term": "It giet oan",
+      "meaning": "It is on",
+      "pronunciation": "it GEET OH-un",
+      "language": "West Frisian",
+      "usage": "The words with which the chairman announced the Eleven Cities Tour in 1985. They are now said of anything long hoped for."
+    },
+    {
+      "id": "word-pompebled",
+      "term": "Pompeblêd",
+      "meaning": "A leaf of the yellow water lily",
+      "pronunciation": "POM-puh-bled",
+      "language": "West Frisian",
+      "usage": "Seven red ones lie on the blue and white stripes of the Frisian flag, standing for the seven sea-lands of the Middle Ages."
+    },
+    {
+      "id": "word-pleats",
+      "term": "Pleats",
+      "meaning": "A farm",
+      "pronunciation": "PLEH-ats",
+      "language": "West Frisian",
+      "usage": "The old type is called head-neck-rump: a house, a narrow link and a great barn in one line."
+    },
+    {
+      "id": "word-stins",
+      "term": "Stins",
+      "meaning": "A stone house",
+      "pronunciation": "STINS",
+      "language": "West Frisian",
+      "usage": "The fortified home of a leading family, built of brick when everything else was wood and clay."
+    },
+    {
+      "id": "word-buorplicht",
+      "term": "Buorplicht",
+      "meaning": "Neighbour duty",
+      "pronunciation": "BOOR-plicht",
+      "language": "West Frisian",
+      "usage": "The obligation of the nearest households to help at a birth, an illness and above all a death, when they lay out the body and carry the coffin."
+    },
+    {
+      "id": "word-junpraten",
+      "term": "Jûnpraten",
+      "meaning": "An evening visit for a talk",
+      "pronunciation": "YOON-prah-tun",
+      "language": "West Frisian",
+      "usage": "Calling on neighbours after supper, without an invitation, for coffee and conversation."
+    },
+    {
+      "id": "word-rjocht-en-sljocht",
+      "term": "Rjocht en sljocht",
+      "meaning": "Straight and plain",
+      "pronunciation": "RYOCHT en SLYOCHT",
+      "language": "West Frisian",
+      "usage": "Honest, simple and without airs. What a Frisian hopes to be called."
+    },
+    {
+      "id": "word-stiif",
+      "term": "Stiif",
+      "meaning": "Stiff; stubborn",
+      "pronunciation": "STEEF",
+      "language": "West Frisian",
+      "usage": "The stiff head of the Frisian is proverbial. A stânfries is one who stands firm and will not be moved."
+    },
+    {
+      "id": "word-kop-derfoar",
+      "term": "Kop derfoar",
+      "meaning": "Head down and into it",
+      "pronunciation": "kop der-FOAR",
+      "language": "West Frisian",
+      "usage": "What you say to someone facing a hard job or a headwind."
+    },
+    {
+      "id": "word-nuver",
+      "term": "Nuver",
+      "meaning": "Odd; remarkable",
+      "pronunciation": "NOO-ver",
+      "language": "West Frisian",
+      "usage": "A much used word that covers strange, striking and suspicious, according to tone."
+    },
+    {
+      "id": "word-noflik",
+      "term": "Noflik",
+      "meaning": "Pleasant; comfortable",
+      "pronunciation": "NOF-lik",
+      "language": "West Frisian",
+      "usage": "The feeling of being at ease in good company."
+    },
+    {
+      "id": "word-goeie",
+      "term": "Goeie",
+      "meaning": "Hello",
+      "pronunciation": "GOO-yuh",
+      "language": "West Frisian",
+      "usage": "The everyday greeting, at any hour."
+    },
+    {
+      "id": "word-tige-tank",
+      "term": "Tige tank",
+      "meaning": "Many thanks",
+      "pronunciation": "TEE-guh TAHNK",
+      "language": "West Frisian",
+      "usage": "Tank alone is thanks."
+    },
+    {
+      "id": "word-oant-sjen",
+      "term": "Oant sjen",
+      "meaning": "Until we see each other",
+      "pronunciation": "OAHNT SHEN",
+      "language": "West Frisian",
+      "usage": "Goodbye."
+    }
+  ],
+  "practices": [
+    {
+      "id": "memmetaal",
+      "name": "Speak your mother tongue",
+      "icon": "translate",
+      "slot": "Morning",
+      "time": "07:30",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Use the language you were raised in today, on purpose. If you have a home language, a dialect or an accent that you put away at work or in town, bring it out: greet people in it, think in it, ring someone who shares it. Read one short poem aloud in it. If you only have one language, learn the Frisian greeting goeie and three words of the oldest local speech of the place where you live.",
+      "why": "About 450,000 people speak West Frisian, most of them at home and in the village. It survived centuries without schools, courts or churches of its own because parents went on speaking it to their children. On 16 November 1951 a crowd in Leeuwarden was beaten back by police after a judge refused to hear Frisian in court. Within five years the law was changed.",
+      "variations": [
+        "Say the old test aloud: bûter, brea en griene tsiis.",
+        "Write a few lines in your home language to an older relative.",
+        "Follow a free first lesson in Frisian from Afûk."
+      ]
+    },
+    {
+      "id": "into-the-wind",
+      "name": "Out in the wind",
+      "icon": "wind",
+      "slot": "Morning",
+      "time": "08:30",
+      "minutes": 40,
+      "meta": "Morning · 40 min",
+      "instructions": "Go out for forty minutes whatever the weather. Dress for it. Find open ground or water if you can, and walk or cycle the first half straight into the wind, so that it carries you home. Keep a steady pace and do not stop to shelter. Look at the sky, which in flat country is most of the view, and say what the weather will do in the next hour. Come home and get warm.",
+      "why": "Friesland is flat, open and wet, and the wind off the North Sea is seldom still. People there live outdoors in it: cycling to school along the dikes, sailing the lakes, walking over the mudflats to the islands at low tide. The landscape itself was made by generations who went out daily to dig, drain and mend.",
+      "variations": [
+        "Walk along a dike, a sea wall or a river bank.",
+        "Cycle instead, and take the headwind first.",
+        "With a licensed guide, walk the mudflats of the Wadden Sea."
+      ]
+    },
+    {
+      "id": "your-stretch",
+      "name": "Keep your stretch of the dike",
+      "icon": "spade",
+      "slot": "Afternoon",
+      "time": "14:00",
+      "minutes": 20,
+      "meta": "Afternoon · 20 min",
+      "instructions": "Name one thing that protects more people than yourself and that only holds if everyone does their part: a shared stairwell, a team’s records, a street, a club, a family’s finances. Find your stretch of it. Spend twenty minutes today putting that stretch in good order, properly, whether or not anyone will inspect it. If a neighbour’s stretch is failing, offer a hand before you complain.",
+      "why": "A dike is only as strong as its weakest length. Under the old law of the coast each farm was responsible for a measured section, inspectors walked the whole line each spring and autumn, and a holder who could not keep his part up had to plant his spade in the dike and give up his land. From this grew the water boards, the oldest elected bodies in the Netherlands.",
+      "variations": [
+        "Find out who looks after flood defences or drains where you live.",
+        "Do a job for your building or street that is nobody’s job.",
+        "Help a neighbour with a repair."
+      ]
+    },
+    {
+      "id": "kop-derfoar",
+      "name": "Head down and go the distance",
+      "icon": "person-simple-run",
+      "slot": "Afternoon",
+      "time": "16:30",
+      "minutes": 30,
+      "meta": "Afternoon · 30 min",
+      "instructions": "Do thirty minutes of steady effort in the open air: skating if there is ice, otherwise a run, a row, a sail, a long ride or a game with a ball. Choose a distance a little further than is comfortable and finish it at an even pace. Do not talk about how hard it is. When you most want to stop, put your head down and count a hundred more strokes or steps.",
+      "why": "Frisian sports are plain, outdoor and stubborn. The Eleven Cities Tour covers nearly two hundred kilometres of canal ice in a day and has been held only fifteen times since 1909, the last on 4 January 1997. In 1963 it was skated in a blizzard at eighteen degrees below zero, and of some ten thousand who started, sixty-nine finished.",
+      "variations": [
+        "Play ball against a wall with the palm of your hand.",
+        "Jump a ditch, or measure how far you can leap from standing.",
+        "Walk or cycle a stage of the Eleven Cities route."
+      ]
+    },
+    {
+      "id": "junpraten",
+      "name": "An evening visit",
+      "icon": "coffee",
+      "slot": "Evening",
+      "time": "19:30",
+      "minutes": 30,
+      "meta": "Evening · 30 min",
+      "instructions": "After supper, call on a neighbour or a friend nearby, or ask one in. Keep it simple: coffee or tea and something sweet, sitting at the kitchen table. Talk about what is going on in the street, the village, the family. Say plainly what you think, in few words, and let silences sit. Do not look at a phone. Go home at a decent hour.",
+      "why": "In Frisian villages people went jûnpraten, evening talking, dropping in on neighbours through the dark months. It kept alive the tie of neighbour duty, by which the households nearest to you help at a birth, a sickness and a funeral. Frisians have a name for being short of speech and straight in it. A visitor is told what the host thinks.",
+      "variations": [
+        "Bring sugar bread or a few biscuits.",
+        "Visit the oldest person in your street.",
+        "Agree with your nearest neighbours what you would do for each other in trouble."
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task-read-the-rider-on-the-white-horse",
+      "name": "Read The Rider on the White Horse",
+      "meta": "Read · Theodor Storm’s novella of a North Frisian dike master, 1888",
+      "time": "20:30",
+      "slot": "Evening",
+      "action": "read"
+    },
+    {
+      "id": "task-listen-to-sielesalt",
+      "name": "Listen to Sielesâlt",
+      "meta": "Listen · Nynke Laverman sings Frisian verse as fado, 2004",
+      "time": "07:00",
+      "slot": "Morning",
+      "action": "listen"
+    },
+    {
+      "id": "task-look-at-the-paintings-of-jopie-huisman",
+      "name": "Look at the paintings of Jopie Huisman",
+      "meta": "Art · old shoes, rag dolls and patched trousers, painted with great tenderness",
+      "time": "13:00",
+      "slot": "Afternoon",
+      "action": "art"
+    },
+    {
+      "id": "task-play-frisian-draughts",
+      "name": "Play Frisian draughts",
+      "meta": "Games · you may capture in eight directions",
+      "time": "19:00",
+      "slot": "Evening",
+      "action": "games"
+    },
+    {
+      "id": "task-journal-what-is-your-stretch-of-the-dike-and-how-is-it-holding",
+      "name": "Journal: what is your stretch of the dike, and how is it holding?",
+      "meta": "Journal · 10 min",
+      "time": "21:00",
+      "slot": "Evening",
+      "action": "journal"
+    },
+    {
+      "id": "task-what-makes-a-people-free-having-no-master-or-keeping-the-dike-together",
+      "name": "What makes a people free: having no master, or keeping the dike together?",
+      "meta": "Philosophy · 10 min",
+      "time": "09:30",
+      "slot": "Morning",
+      "action": "philosophy"
+    },
+    {
+      "id": "say-one-thing-today-plainly-that-you-would-usually-wrap-up",
+      "name": "Say one thing today plainly that you would usually wrap up",
+      "meta": "Rjocht en sljocht",
+      "time": "11:00",
+      "slot": "Morning"
+    },
+    {
+      "id": "finish-a-job-you-have-been-putting-off-without-a-word-of-complaint",
+      "name": "Finish a job you have been putting off, without a word of complaint",
+      "meta": "Kop derfoar",
+      "time": "15:30",
+      "slot": "Afternoon"
+    },
+    {
+      "id": "do-something-for-a-neighbour-before-they-ask",
+      "name": "Do something for a neighbour before they ask",
+      "meta": "Buorplicht",
+      "time": "18:00",
+      "slot": "Evening"
+    }
+  ],
+  "rules": [
+    {
+      "id": "r1",
+      "text": "Speak your own language",
+      "why": "Use it at home and in the street. A language lives only in the mouth."
+    },
+    {
+      "id": "r2",
+      "text": "Go out in all weathers",
+      "why": "Wind and rain are no reason to stay in. Head into it first."
+    },
+    {
+      "id": "r3",
+      "text": "Keep your stretch",
+      "why": "The dike holds only if each part holds. See to yours without being told."
+    },
+    {
+      "id": "r4",
+      "text": "Stand by your neighbours",
+      "why": "Be there at the birth, the sickbed and the grave."
+    },
+    {
+      "id": "r5",
+      "text": "Be straight and plain",
+      "why": "Say what you mean in few words, and do not put on airs."
+    },
+    {
+      "id": "r6",
+      "text": "Bow to no one, and get on with it",
+      "why": "Keep your freedom, keep your head down and finish the job."
+    }
+  ],
+  "immerse": {
+    "read": [
+      {
+        "id": "read-the-rider-on-the-white-horse",
+        "title": "The Rider on the White Horse",
+        "creator": "Theodor Storm",
+        "year": "1888",
+        "why": "Der Schimmelreiter. A gifted, proud dike master on the North Frisian coast builds a new kind of dike against the will of his village. The great novel of the sea wall."
+      },
+      {
+        "id": "read-rimen-en-teltsjes",
+        "title": "Rimen en Teltsjes",
+        "creator": "Joost, Eeltsje and Tsjalling Halbertsma",
+        "year": "1871",
+        "why": "Rhymes and Tales. Songs, comic stories and poems by three brothers, the book that made Frisian a written language again. Every household had one."
+      },
+      {
+        "id": "read-strange-shores",
+        "title": "Strange Shores",
+        "creator": "Tsjêbbe Hettinga",
+        "year": "1999",
+        "why": "Frjemde kusten. Long, rolling poems of sea, land and leaving by a blind poet who recited them from memory. Published with English translations."
+      },
+      {
+        "id": "read-the-comfort-bird",
+        "title": "The Comfort Bird",
+        "creator": "Hylke Speerstra",
+        "year": "2013",
+        "why": "De treastfûgel. Two Frisian families, one that emigrated to America and one that stayed, followed through a century and a world war."
+      },
+      {
+        "id": "read-the-edge-of-the-world-how-the-north-sea-made-us",
+        "title": "The Edge of the World: How the North Sea Made Us",
+        "creator": "Michael Pye",
+        "year": "2014",
+        "why": "A history of the North Sea that opens with the Frisian traders who brought money and markets back to northern Europe."
+      },
+      {
+        "id": "read-the-riddle-of-the-sands",
+        "title": "The Riddle of the Sands",
+        "creator": "Erskine Childers",
+        "year": "1903",
+        "why": "Two Englishmen in a small yacht among the sandbanks and tides of the East Frisian islands. The first modern spy novel."
+      }
+    ],
+    "watch": [
+      {
+        "id": "watch-de-hel-van-63",
+        "title": "De Hel van ’63",
+        "creator": "Steven de Jong",
+        "year": "2009",
+        "why": "The Eleven Cities Tour of 1963, the coldest and hardest ever skated, through four of those who set out."
+      },
+      {
+        "id": "watch-de-dream",
+        "title": "De Dream",
+        "creator": "Pieter Verhoeff",
+        "year": "1985",
+        "why": "A Frisian-language film about three poor brothers convicted of a burglary in 1895 on doubtful evidence, and the fight to clear them."
+      },
+      {
+        "id": "watch-nynke",
+        "title": "Nynke",
+        "creator": "Pieter Verhoeff",
+        "year": "2001",
+        "why": "The marriage of the children’s writer Nienke van Hichtum and the socialist leader Pieter Jelles Troelstra. In Frisian and Dutch."
+      },
+      {
+        "id": "watch-the-eleven-cities-tour-of-1997",
+        "title": "The Eleven Cities Tour of 1997",
+        "creator": "Dutch public television",
+        "year": "1997",
+        "why": "The broadcast of the last race, from the start in the dark at Leeuwarden to the finish on the Bonkevaart."
+      }
+    ],
+    "listen": [
+      {
+        "id": "listen-sielesalt",
+        "title": "Sielesâlt",
+        "creator": "Nynke Laverman",
+        "year": "2004",
+        "why": "Salt of the soul. Poems translated into Frisian and sung in the style of Portuguese fado."
+      },
+      {
+        "id": "listen-wer-bisto",
+        "title": "Wêr bisto",
+        "creator": "Twarres",
+        "year": "2000",
+        "why": "Where are you. A song in Frisian by two teenagers that went to number one in the Netherlands and Flanders."
+      },
+      {
+        "id": "listen-in-nije-dei",
+        "title": "In nije dei",
+        "creator": "De Kast",
+        "year": "1997",
+        "why": "A new day. A ballad from a Frisian-language rock musical that became a national hit."
+      },
+      {
+        "id": "listen-de-alde-friezen",
+        "title": "De Alde Friezen",
+        "creator": "Words by Eeltsje Halbertsma, 1829, revised 1875",
+        "why": "The Old Frisians, the anthem of the province, sung standing at every match and gathering."
+      }
+    ],
+    "art": [
+      {
+        "id": "art-painted-furniture-of-hindeloopen",
+        "title": "Painted furniture of Hindeloopen",
+        "creator": "The craftsmen of a small seafaring town",
+        "year": "from the 17th century",
+        "why": "Cupboards, chairs and sledges covered in curling flowers and leaves in red, green and blue, in a style its sailors brought home."
+      },
+      {
+        "id": "art-makkum-earthenware",
+        "title": "Makkum earthenware",
+        "creator": "Royal Tichelaar Makkum",
+        "year": "from the 16th century",
+        "why": "Tin-glazed pottery and tiles made from local sea clay by a firm that has worked in the village for more than four hundred years."
+      },
+      {
+        "id": "art-the-paintings-of-jopie-huisman",
+        "title": "The paintings of Jopie Huisman",
+        "creator": "Jopie Huisman of Workum",
+        "year": "1960s to 1990s",
+        "why": "A rag and scrap dealer who taught himself to paint the worn things he collected. His museum is in his home town."
+      },
+      {
+        "id": "art-the-owl-board",
+        "title": "The owl board",
+        "creator": "Frisian farm builders",
+        "year": "traditional",
+        "why": "A carved board on the gable of a barn, with two swans back to back above the hole left for owls."
+      }
+    ],
+    "eat": [
+      {
+        "id": "eat-sukerbole",
+        "title": "Sûkerbôle",
+        "creator": "Sugar bread",
+        "why": "A white loaf baked with lumps of sugar and cinnamon. Traditionally given to a mother who has had a daughter."
+      },
+      {
+        "id": "eat-clove-cheese-on-rye",
+        "title": "Clove cheese on rye",
+        "creator": "Nagelkaas with Frisian rye bread",
+        "why": "A firm skimmed-milk cheese spiced with cloves and cumin, on dark steamed rye."
+      },
+      {
+        "id": "eat-oranjekoek",
+        "title": "Oranjekoek",
+        "creator": "A pink-iced cake with almond paste",
+        "why": "Scented with candied orange peel and aniseed. Served at weddings and birthdays."
+      },
+      {
+        "id": "eat-dumkes",
+        "title": "Dúmkes",
+        "creator": "Thumb biscuits",
+        "why": "Small hard biscuits with hazelnut and aniseed, with the dent of the baker’s thumb in each."
+      }
+    ],
+    "drink": [
+      {
+        "id": "drink-beerenburg",
+        "title": "Beerenburg",
+        "creator": "A bitter of gin and herbs",
+        "why": "Made with a mixture of some fifteen herbs first sold in Amsterdam by Hendrik Beerenburg in the eighteenth century and taken up by Frisian skippers."
+      },
+      {
+        "id": "drink-coffee",
+        "title": "Coffee",
+        "creator": "A small cup, often",
+        "why": "The drink of every visit, poured as soon as you sit down."
+      },
+      {
+        "id": "drink-east-frisian-tea",
+        "title": "East Frisian tea",
+        "creator": "Strong black tea over rock sugar, with cream",
+        "why": "Across the border in Germany the Frisians drink more tea per head than anyone. The cream is laid on with a spoon and never stirred, and three cups is the rule."
+      }
+    ],
+    "customs": [
+      {
+        "id": "customs-neighbour-duty",
+        "title": "Neighbour duty",
+        "creator": "Buorplicht",
+        "why": "The households on either side are told first of a death. They inform the village, lay out the body and carry the coffin."
+      },
+      {
+        "id": "customs-sint-piter",
+        "title": "Sint Piter",
+        "creator": "21 February, in Grou",
+        "why": "The village of Grou keeps its own bringer of gifts in place of Saint Nicholas: Saint Peter, in a white cloak, with his helper."
+      },
+      {
+        "id": "customs-looking-for-lapwing-eggs",
+        "title": "Looking for lapwing eggs",
+        "creator": "Aaisykjen, in March",
+        "why": "Finding the first lapwing egg of the year was an honour. Taking eggs is now barred, and the searchers mark and protect the nests from the mowers."
+      },
+      {
+        "id": "customs-the-fire-of-biike",
+        "title": "The fire of Biike",
+        "creator": "21 February, North Frisia",
+        "why": "On the islands and coast of North Frisia great bonfires are lit at dusk to drive out the winter, followed by a supper of kale."
+      }
+    ],
+    "games": [
+      {
+        "id": "games-keatsen",
+        "title": "Keatsen",
+        "creator": "Handball · Friesland",
+        "year": "from the Middle Ages",
+        "why": "A server strikes the ball to the opposing three, who try to return it past a line. The main tournament, at Franeker, has been held each summer since 1854."
+      },
+      {
+        "id": "games-fierljeppen",
+        "title": "Fierljeppen",
+        "creator": "Pole vaulting for distance · Friesland",
+        "year": "contests since 1767",
+        "why": "The jumper sprints to a pole standing in the canal, climbs it as it tips forward and drops on a sand bed. The record is over twenty-two metres."
+      },
+      {
+        "id": "games-skutsjesilen",
+        "title": "Skûtsjesilen",
+        "creator": "Sailing · Friesland",
+        "year": "organised since 1945",
+        "why": "Old iron cargo barges twenty metres long, sailed by crews of a dozen or more from the villages they once served."
+      },
+      {
+        "id": "games-frysk-damjen",
+        "title": "Frysk damjen",
+        "creator": "Draughts · Friesland",
+        "year": "from the 17th century",
+        "why": "Draughts on a hundred squares in which pieces capture straight as well as diagonally, which makes the game sharp and fast."
+      },
+      {
+        "id": "games-the-eleven-cities-tour",
+        "title": "The Eleven Cities Tour",
+        "creator": "Skating · Friesland",
+        "year": "since 1909",
+        "why": "Skaters collect a stamp in each of the eleven towns. Three hundred race and sixteen thousand follow as tourers."
+      }
+    ],
+    "festivals": [
+      {
+        "id": "fest-skutsjesilen",
+        "title": "Skûtsjesilen",
+        "creator": "Late July and early August",
+        "why": "Eleven race days on different lakes, followed by a fleet of spectator boats."
+      },
+      {
+        "id": "fest-the-pc-at-franeker",
+        "title": "The PC at Franeker",
+        "creator": "The fifth Wednesday after 30 June",
+        "why": "The great day of keatsen, when the best player is named king and the winners are driven round in a carriage."
+      },
+      {
+        "id": "fest-sneek-week",
+        "title": "Sneek Week",
+        "creator": "From the first Saturday of August",
+        "why": "The largest inland sailing regatta in Europe, with a fair and fireworks in the town."
+      },
+      {
+        "id": "fest-oerol",
+        "title": "Oerol",
+        "creator": "Ten days in June, Terschelling",
+        "why": "A festival of theatre and music that uses the beaches, dunes and barns of a Wadden island as its stages."
+      }
+    ],
+    "places": [
+      {
+        "id": "place-leeuwarden",
+        "title": "Leeuwarden",
+        "creator": "Ljouwert, Friesland",
+        "why": "The capital, with the leaning tower called the Oldehove, which began to sink while it was being built in 1529, and the Fries Museum."
+      },
+      {
+        "id": "place-the-eise-eisinga-planetarium",
+        "title": "The Eise Eisinga Planetarium",
+        "creator": "Franeker, Friesland",
+        "why": "A working model of the solar system built into the living room ceiling of a wool comber between 1774 and 1781. It still runs. A World Heritage site."
+      },
+      {
+        "id": "place-the-terp-of-hegebeintum",
+        "title": "The terp of Hegebeintum",
+        "creator": "North of Leeuwarden",
+        "why": "The highest dwelling mound in the country, nearly nine metres above sea level, with a small church on top. Much of it was dug away for fertile soil."
+      },
+      {
+        "id": "place-the-wadden-sea",
+        "title": "The Wadden Sea",
+        "creator": "The coast and islands from Den Helder to Denmark",
+        "why": "The largest unbroken system of tidal flats in the world, and a World Heritage site. Take the ferry to Schiermonnikoog or Terschelling."
+      },
+      {
+        "id": "place-the-wouda-pumping-station",
+        "title": "The Wouda pumping station",
+        "creator": "Lemmer, Friesland",
+        "why": "The largest steam-driven pumping station ever built, opened in 1920 and still fired up when the water is high."
+      },
+      {
+        "id": "place-the-red-cliff",
+        "title": "The Red Cliff",
+        "creator": "Warns, Friesland",
+        "why": "A low bluff on the old sea coast with the boulder that commemorates the battle of 1345. Frisians gather there each September."
+      }
+    ]
+  },
+  "ethics": [
+    {
+      "title": "Freedom",
+      "text": "Kneel to no one. Decide your own affairs with your equals.",
+      "practice": "Where are you bowing today when you need not?"
+    },
+    {
+      "title": "Shared duty",
+      "text": "Each keeps a part of what protects all.",
+      "practice": "Do your part of a common task before you are asked."
+    },
+    {
+      "title": "Plain dealing",
+      "text": "Say what you mean and do what you say.",
+      "practice": "Give one straight answer today."
+    },
+    {
+      "title": "Steadfastness",
+      "text": "Do not give up because the wind is against you.",
+      "practice": "Carry on with one thing for ten minutes past the point where you want to stop."
+    },
+    {
+      "title": "Neighbourliness",
+      "text": "The nearest houses are your first family in need.",
+      "practice": "Find out how the people next door are."
+    },
+    {
+      "title": "Loyalty to your own",
+      "text": "Language, village and landscape are yours to keep.",
+      "practice": "Use a word today that only people from your home would know."
+    }
+  ],
+  "philosophy": [
+    {
+      "title": "Freedom without a lord",
+      "text": "For some three centuries the Frisians had no count, no knights and no serfs. Farmers judged their own cases.",
+      "practice": "What in your life do you run without a boss, and how well?"
+    },
+    {
+      "title": "Freedom as shared burden",
+      "text": "That freedom was possible because everyone was bound to the dike. Liberty and duty came together.",
+      "practice": "What obligation makes your freedom possible?"
+    },
+    {
+      "title": "Land that is made",
+      "text": "Much of the country was won from the sea by hand and can be lost again.",
+      "practice": "What do you have that only lasts as long as you maintain it?"
+    },
+    {
+      "title": "A small language",
+      "text": "A tongue spoken by half a million people has no use except to those who love it.",
+      "practice": "What do you keep alive for no practical reason?"
+    },
+    {
+      "title": "Stubbornness",
+      "text": "The stiff head is a fault and a strength. It kept a people distinct for two thousand years.",
+      "practice": "Where is your stubbornness serving you, and where not?"
+    },
+    {
+      "title": "Plainness",
+      "text": "No show, no rank, few words.",
+      "practice": "What would be left of your day with the display taken out?"
+    },
+    {
+      "title": "Staying and leaving",
+      "text": "Many Frisians emigrated, and many who stayed speak of those outside the province as still belonging.",
+      "practice": "Where is home if you have left it?"
+    },
+    {
+      "title": "If not as it should, then as it can",
+      "text": "When the right way is closed, find a workable one and get on.",
+      "practice": "What are you not doing because you cannot do it perfectly?"
+    }
+  ],
+  "journal": [
+    "What is your stretch of the dike, and how is it holding?",
+    "What language did you think in today?",
+    "What did the wind do?",
+    "Whom did you visit?",
+    "What did you say plainly?",
+    "What did you wrap up that should have been said straight?",
+    "Where did you keep going?",
+    "Where did you bow?",
+    "What did you do for a neighbour?",
+    "Who would carry your coffin?",
+    "What word from home did you use?",
+    "What did you mend?",
+    "What have you made that needs keeping up?",
+    "What did the sky look like?",
+    "Where are you stubborn to no purpose?",
+    "What did you finish?",
+    "What are you waiting for the ice to bear?",
+    "Who are your people?",
+    "What do you keep alive for love alone?",
+    "What freedom did you use today?",
+    "What duty came with it?",
+    "What did you do as it could be done?",
+    "When were you last properly cold, and then warm?",
+    "What water is near you?",
+    "Who taught you to work?",
+    "What is plain and good in your life?",
+    "Where is home?",
+    "What would you defend?",
+    "What did the evening talk bring?",
+    "Is your stretch sound?"
+  ],
+  "reflect": [
+    "How did using your own language feel?",
+    "What did the daily time outdoors give you?",
+    "Which shared thing is in better order because of you?",
+    "What did you finish that you would have dropped?",
+    "Which neighbours do you know better?",
+    "Which rule will you keep?"
+  ],
+  "dayThemes": [
+    "The mother tongue",
+    "Butter, bread and green cheese",
+    "The wind",
+    "The sky",
+    "The mound",
+    "The dike",
+    "Your stretch",
+    "The spade",
+    "The water",
+    "The mudflats",
+    "The neighbour",
+    "The evening visit",
+    "Straight and plain",
+    "Few words",
+    "The stiff head",
+    "Head down",
+    "The ice",
+    "It is on",
+    "Eleven towns",
+    "The barge",
+    "The leap",
+    "The farm",
+    "The village",
+    "Freedom",
+    "Kneel to no one",
+    "The red cliff",
+    "Those who left",
+    "As it can be done",
+    "The water lily leaf",
+    "Home ground"
+  ],
+  "guide": {
+    "intro": [
+      "The Frisians are the people of the low coast of the North Sea. Roman writers of the first century already knew them by that name, living on the marshes between the Rhine and the Ems. Today there are three groups. By far the largest lives in Fryslân, a province in the north of the Netherlands with some 660,000 inhabitants, where West Frisian is spoken. Across the German border a few thousand speak Saterland Frisian and North Frisian, the latter on the coast and islands just below Denmark. East Frisia in Germany keeps the name and much of the identity, though its language is now Low German.",
+      "Their history has been shaped by water. The first settlers farmed salt marsh that flooded at every high tide, and from about 500 BC they raised mounds of clay and dung, called terpen, on which to build. The Roman writer Pliny described people of this coast living like sailors when the sea covered the land and like the shipwrecked when it withdrew. Around the year 1000 they began to link the mounds with dikes, and over the following centuries enclosed, drained and reclaimed the land they now live on. Keeping the dikes was a shared duty laid down in law, and whoever could not maintain his length lost his farm.",
+      "In the early Middle Ages the Frisians were the great traders of northern Europe, carrying cloth, slaves and wine between the Rhineland, England and Scandinavia. Their kings, the best remembered of whom is Redbad, resisted both the Franks and Christianity until a defeat in 734. Later, uniquely in Europe, feudalism never took hold. From the eleventh century to the end of the fifteenth the Frisian lands had no count and no nobility with rights over the farmers, who governed themselves through assemblies and their own written laws. This was the Frisian freedom, and its memory is still the centre of Frisian identity.",
+      "It ended in 1498, and Friesland later became one of the seven provinces of the Dutch Republic. Frisian ceased to be used in government and was for three centuries a spoken language only. It was revived as a literary language in the nineteenth century by writers such as the Halbertsma brothers. In the twentieth century a language movement won its use in court, in schools and in the provincial government, and it is now the second official language of the Netherlands.",
+      "Frisian is the closest relative of English. A rhyme makes the point: butter, bread and green cheese is good English and good Frisian. Otherwise the culture is known for black horses and black-and-white cattle, for sailing and for skating, above all the Eleven Cities Tour, which can be held only in the rare winters when two hundred kilometres of canal freeze hard.",
+      "Frisians have a reputation among the Dutch for being stubborn, taciturn, proud and direct. They tend to agree, and take it as praise.",
+      "This Onda takes its practices from that life: the mother tongue, the wind, the stretch of dike, the long distance and the evening visit."
+    ],
+    "origin": "The North Sea coast, from the north of the Netherlands across north-west Germany to the Danish border",
+    "era": "Farmers settled the salt marshes about 600 BC. Around half a million people speak a Frisian language now",
+    "figures": [
+      {
+        "name": "Redbad",
+        "dates": "died 719",
+        "bio": "King of the Frisians, who fought the Franks and won back his kingdom. Legend says he stepped back from the baptismal font on being told his ancestors were in hell, preferring their company."
+      },
+      {
+        "name": "Grutte Pier",
+        "dates": "about 1480 to 1520",
+        "bio": "Pier Gerlofs Donia, a farmer of great size who turned rebel and pirate after soldiers burned his village. His seven-foot sword is in the Fries Museum."
+      },
+      {
+        "name": "Menno Simons",
+        "dates": "1496 to 1561",
+        "bio": "A village priest from Witmarsum who left the church in 1536 and led the peaceful Anabaptists. The Mennonites are named after him."
+      },
+      {
+        "name": "Gysbert Japicx",
+        "dates": "1603 to 1666",
+        "bio": "A schoolmaster of Bolsward who wrote poetry in Frisian when no one else did. The chief Frisian literary prize bears his name."
+      },
+      {
+        "name": "Maria Louise of Hesse-Kassel",
+        "dates": "1688 to 1765",
+        "bio": "Princess and twice regent, who lived simply in Leeuwarden and was loved as Marijke Meu, Aunt Mary. Every reigning monarch in Europe descends from her."
+      },
+      {
+        "name": "Eise Eisinga",
+        "dates": "1744 to 1828",
+        "bio": "A wool comber of Franeker who taught himself mathematics and built a planetarium in his house to calm fears of a collision of the planets."
+      },
+      {
+        "name": "The Halbertsma brothers",
+        "dates": "Joost 1789 to 1869; Eeltsje 1797 to 1858",
+        "bio": "A minister and a doctor who collected and wrote the stories and songs that began modern Frisian literature."
+      },
+      {
+        "name": "Pieter Jelles Troelstra",
+        "dates": "1860 to 1930",
+        "bio": "A lawyer from Leeuwarden who led the Dutch socialists for thirty years and wrote much-loved verse in Frisian."
+      },
+      {
+        "name": "Titus Brandsma",
+        "dates": "1881 to 1942",
+        "bio": "A farmer’s son from near Bolsward, Carmelite friar, professor and champion of the Frisian language. He opposed Nazi control of the press and died in Dachau. He was made a saint in 2022."
+      },
+      {
+        "name": "Fedde Schurer",
+        "dates": "1898 to 1968",
+        "bio": "Poet and newspaper editor whose trial for criticising a judge set off the language riot of 1951."
+      },
+      {
+        "name": "Atje Keulen-Deelstra",
+        "dates": "1938 to 2013",
+        "bio": "A farmer’s wife and mother of three who took up serious skating late and was four times world all-round champion."
+      },
+      {
+        "name": "Sven Kramer",
+        "dates": "born 1986",
+        "bio": "A skater from Heerenveen, nine times world all-round champion and winner of four Olympic gold medals."
+      }
+    ],
+    "history": [
+      {
+        "when": "About 600 BC",
+        "what": "The marsh is settled",
+        "detail": "Farmers move onto the salt marshes of the north and soon begin to raise the first dwelling mounds."
+      },
+      {
+        "when": "12 BC to AD 47",
+        "what": "Rome",
+        "detail": "The Frisians become tributaries of Rome. In AD 28 they revolt over a tax in ox hides and defeat a Roman force. The frontier is later fixed on the Rhine."
+      },
+      {
+        "when": "7th and 8th centuries",
+        "what": "The Frisian kingdom",
+        "detail": "Under Aldgisl and Redbad the Frisians hold the coast from Flanders to the Weser and dominate North Sea trade from the port of Dorestad."
+      },
+      {
+        "when": "734",
+        "what": "The battle of the Boarn",
+        "detail": "The Franks under Charles Martel defeat the Frisians and take their heartland. The missionary Boniface is killed at Dokkum in 754."
+      },
+      {
+        "when": "About 800",
+        "what": "The Frisian law",
+        "detail": "Charlemagne has the customs of the Frisians written down. Later legend credited him with granting their freedom."
+      },
+      {
+        "when": "About 1000",
+        "what": "The first dikes",
+        "detail": "Monasteries and farmers start to enclose the land with sea walls."
+      },
+      {
+        "when": "11th to 15th centuries",
+        "what": "The Frisian freedom",
+        "detail": "The Frisian lands govern themselves without feudal lords. Delegates of the sea-lands meet at the Upstalsboom near Aurich."
+      },
+      {
+        "when": "26 September 1345",
+        "what": "The battle of Warns",
+        "detail": "Count William IV of Holland lands with an army to conquer Friesland and is killed with most of his knights."
+      },
+      {
+        "when": "1498",
+        "what": "The end of freedom",
+        "detail": "Worn down by feuds between two parties, Friesland falls to Duke Albert of Saxony. In 1524 it passes to the emperor Charles V."
+      },
+      {
+        "when": "1579 to 1795",
+        "what": "The Republic",
+        "detail": "Friesland is one of the seven United Provinces, with its own stadtholder at Leeuwarden and, from 1585, its own university at Franeker."
+      },
+      {
+        "when": "1844",
+        "what": "The language movement",
+        "detail": "A society for Frisian language and literature is founded. The poems and tales of the Halbertsmas circulate widely."
+      },
+      {
+        "when": "2 January 1909",
+        "what": "The first Eleven Cities Tour",
+        "detail": "Twenty-two skaters start, and nine finish."
+      },
+      {
+        "when": "16 November 1951",
+        "what": "Cudgel Friday",
+        "detail": "Police with batons and water cannon break up a crowd outside the court in Leeuwarden. Frisian is admitted in court in 1956."
+      },
+      {
+        "when": "1980 to 2014",
+        "what": "Recognition",
+        "detail": "Frisian becomes a compulsory subject in primary schools in 1980. A law of 2014 confirms it as an official language of the province."
+      }
+    ],
+    "concepts": [
+      {
+        "term": "The Frisian freedom",
+        "text": "No lord but the emperor.",
+        "detail": "The medieval condition of self-rule by free landowning farmers. It was justified by a legendary charter from Charlemagne and defended in several battles."
+      },
+      {
+        "term": "Terp and dike",
+        "text": "Land made by hand.",
+        "detail": "First the mounds, then the sea walls, then drainage by windmill and steam. The landscape is an artefact that needs constant upkeep."
+      },
+      {
+        "term": "Dike duty",
+        "text": "Shared responsibility by law.",
+        "detail": "Each holding maintained a section in proportion to its land, under inspection. The rule made cooperation a condition of ownership."
+      },
+      {
+        "term": "Mienskip",
+        "text": "The community of the village.",
+        "detail": "Villages are small and far apart, and clubs for sailing, skating, music and keatsen bind them. Things get done by joining in."
+      },
+      {
+        "term": "The three Frisias",
+        "text": "One name, three regions.",
+        "detail": "West Frisia in the Netherlands, East Frisia and the Saterland in Lower Saxony, and North Frisia in Schleswig-Holstein. They meet in a common council."
+      },
+      {
+        "term": "A minority language",
+        "text": "Frisian beside Dutch.",
+        "detail": "Almost all speakers are bilingual. The language is strong in speech and in the countryside and weaker in writing and in towns."
+      },
+      {
+        "term": "The eleven cities",
+        "text": "Towns with medieval charters.",
+        "detail": "From Leeuwarden to tiny Sloten, which has some seven hundred inhabitants. In 2018 each was given a fountain by an international artist."
+      },
+      {
+        "term": "Water boards",
+        "text": "Democracy from drainage.",
+        "detail": "Bodies of landowners elected to manage dikes and water levels. They are older than the Dutch state and still levy their own tax."
+      },
+      {
+        "term": "Rjocht en sljocht",
+        "text": "Straight and plain.",
+        "detail": "A code of manners that values honesty, modesty and sobriety over polish."
+      }
+    ],
+    "facts": [
+      {
+        "text": "The Eleven Cities Tour has been held fifteen times since 1909. The ice must be at least fifteen centimetres thick along the whole route."
+      },
+      {
+        "text": "The Frisian flag was first described in the sixteenth century and officially adopted in 1957."
+      },
+      {
+        "text": "The black Friesian horse and the black-and-white Holstein Friesian cow both take their names from the region."
+      },
+      {
+        "text": "The Oera Linda Book, which claimed to be an ancient Frisian chronicle, appeared in 1867 and is a nineteenth-century hoax."
+      },
+      {
+        "text": "Old Frisian law lists three needs in which a mother may sell her child’s inheritance. One is when the child is naked and homeless in the dark mist and cold winter."
+      },
+      {
+        "text": "Peter Stuyvesant, the last Dutch governor of New Amsterdam, was the son of a Frisian minister."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "West Frisian",
+        "meaning": "The Frisian language of the Dutch province of Fryslân"
+      },
+      {
+        "term": "North Frisian",
+        "meaning": "A group of Frisian dialects spoken in Schleswig-Holstein, Germany"
+      },
+      {
+        "term": "Saterland Frisian",
+        "meaning": "The last remnant of East Frisian, spoken in three villages in Lower Saxony"
+      },
+      {
+        "term": "Stadsfries",
+        "meaning": "The mixed Dutch and Frisian speech of the old towns"
+      },
+      {
+        "term": "Elfstedentocht",
+        "meaning": "The Dutch name of the Eleven Cities Tour"
+      },
+      {
+        "term": "Wadlopen",
+        "meaning": "Walking across the mudflats at low tide"
+      }
+    ],
+    "furtherReading": [
+      {
+        "title": "Frisians and Their North Sea Neighbours",
+        "creator": "Edited by John Hines and Nelleke IJssennagger",
+        "year": "2017",
+        "note": "Essays on the early Frisians and their links with England and Scandinavia."
+      },
+      {
+        "title": "The Frisian Language and Literature: A Historical Study",
+        "creator": "Waterman Thomas Hewett",
+        "year": "1879",
+        "note": "An early account in English, with samples of the old laws."
+      },
+      {
+        "title": "Frisia Coast Trail",
+        "creator": "Hans Faber and Frans Riemersma",
+        "year": "online",
+        "note": "Long, well-sourced essays in English on the history of the whole Frisian coast."
+      },
+      {
+        "title": "The Embarrassment of Riches",
+        "creator": "Simon Schama",
+        "year": "1987",
+        "note": "On the Dutch Republic, with a fine opening on the moral meaning of the struggle with water."
+      }
+    ],
+    "learnFrom": [
+      {
+        "name": "Afûk",
+        "note": "The organisation that teaches and promotes Frisian, with free online lessons.",
+        "link": "https://afuk.frl"
+      },
+      {
+        "name": "Fryske Akademy",
+        "note": "The research institute for Frisian language, history and culture, with online dictionaries.",
+        "link": "https://www.fryske-akademy.nl"
+      },
+      {
+        "name": "Fries Museum",
+        "note": "The museum of the province in Leeuwarden, with the sword of Grutte Pier and the finds from the terpen.",
+        "link": "https://www.friesmuseum.nl"
+      },
+      {
+        "name": "A Frisian speaker",
+        "note": "Ask one to say the green cheese sentence, and then to tell you about their village."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Handbuch des Friesischen / Handbook of Frisian Studies",
+        "creator": "Horst Haider Munske, editor",
+        "publisher": "Max Niemeyer Verlag",
+        "year": "2001"
+      },
+      {
+        "title": "De Friese vrijheid: droom of werkelijkheid",
+        "creator": "Oebele Vries",
+        "publisher": "Fryske Akademy",
+        "year": "1986"
+      },
+      {
+        "title": "Frisians and Their North Sea Neighbours",
+        "creator": "John Hines and Nelleke IJssennagger, editors",
+        "publisher": "Boydell Press",
+        "year": "2017"
+      },
+      {
+        "title": "Geschiedenis van Friesland 1750 to 1995",
+        "creator": "Johan Frieswijk and others, editors",
+        "publisher": "Boom",
+        "year": "1998"
+      },
+      {
+        "title": "The Annals",
+        "creator": "Tacitus, trans. A. J. Woodman",
+        "publisher": "Hackett",
+        "year": "2004"
+      },
+      {
+        "title": "De Tocht der Tochten",
+        "creator": "Koninklijke Vereniging De Friesche Elf Steden",
+        "publisher": "The society's own history of the Eleven Cities Tour",
+        "year": "2009"
+      }
+    ]
+  },
+  "sensitivity": {
+    "note": "Frisians are a living people and a recognised national minority in the Netherlands and Germany. This Onda was written from published sources, mostly about West Friesland, and Frisian readers are warmly invited to correct it.",
+    "requiredCaveats": [
+      "North Frisia and East Frisia have their own histories, dialects and customs, which are touched on only lightly here.",
+      "The stubborn, silent Frisian is a stereotype that Frisians enjoy and also outgrow. Most live ordinary modern Dutch or German lives.",
+      "Several of the best-known sayings, including those of Grutte Pier and Gemme van Burmania, rest on tradition and were written down long after the event.",
+      "Pronunciations are approximate. Frisian has sounds that English spelling cannot show."
+    ],
+    "reviewRequired": true
+  }
+}

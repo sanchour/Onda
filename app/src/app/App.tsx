@@ -109,7 +109,26 @@ function useShell() {
     const bg = wash?.grouped ?? base.grouped
     root.style.backgroundColor = bg
     document.body.style.backgroundColor = bg
-    document.querySelector('meta[name="theme-color"]')?.setAttribute('content', bg)
+    // iOS colours the bar behind the clock and battery from these. It does not always notice an attribute changing on
+    // an existing tag, so the theme-color tag is replaced, the colour scheme is pinned to the app's own appearance,
+    // and both are applied once more on the next frame and whenever the app comes back to the front.
+    const paintBar = () => {
+      document.querySelectorAll('meta[name="theme-color"]').forEach((m) => m.remove())
+      const meta = document.createElement('meta')
+      meta.name = 'theme-color'
+      meta.content = bg
+      document.head.appendChild(meta)
+      document.querySelector('meta[name="color-scheme"]')?.setAttribute('content', dark ? 'dark' : 'light')
+      root.style.colorScheme = dark ? 'dark' : 'light'
+    }
+    paintBar()
+    const raf = requestAnimationFrame(paintBar)
+    const onShow = () => document.visibilityState === 'visible' && paintBar()
+    document.addEventListener('visibilitychange', onShow)
+    const stopBar = () => {
+      cancelAnimationFrame(raf)
+      document.removeEventListener('visibilitychange', onShow)
+    }
     // iOS takes the colour behind the clock and battery from the page as it is at launch, before this code runs.
     // So the background for both appearances is saved here and index.html applies it before the first paint.
     try {
@@ -123,11 +142,12 @@ function useShell() {
     if (!run) {
       root.style.removeProperty('--accent')
       root.style.removeProperty('--accent-contrast')
-      return
+      return stopBar
     }
     const { accent, on } = accentFor(look.strong, dark)
     root.style.setProperty('--accent', accent)
     root.style.setProperty('--accent-contrast', on)
+    return stopBar
   }, [run, index, themed, look.strong, look.solid, dark, tint])
 
   useEffect(() => {

@@ -61,6 +61,8 @@
         root.style.setProperty('--surface-grouped', bg);
         root.style.backgroundColor = bg;
         document.querySelector('meta[name=theme-color]').setAttribute('content', bg);
+        document.querySelector('meta[name=color-scheme]').setAttribute('content', d ? 'dark' : 'light');
+        root.style.colorScheme = d ? 'dark' : 'light';
       })();
     </script>
   </head>

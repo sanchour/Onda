@@ -865,3 +865,22 @@ Caveats shown in the app:
 - Buy art, food and tours from Aboriginal-owned businesses, and check that artists have been paid fairly.
 
 Nothing is marked `unverified`.
+
+
+## Frisian
+
+File: `content/ondas/frisian.json` · version 1 · about 5400 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
+
+**Needs review by tradition bearers before launch.** Frisians are a living people and a recognised national minority in the Netherlands and Germany. This Onda was written from published sources, mostly about West Friesland, and Frisian readers are warmly invited to correct it.
+
+Caveats shown in the app:
+
+- North Frisia and East Frisia have their own histories, dialects and customs, which are touched on only lightly here.
+- The stubborn, silent Frisian is a stereotype that Frisians enjoy and also outgrow. Most live ordinary modern Dutch or German lives.
+- Several of the best-known sayings, including those of Grutte Pier and Gemme van Burmania, rest on tradition and were written down long after the event.
+- Pronunciations are approximate. Frisian has sounds that English spelling cannot show.
+
+Marked `unverified` (2):
+
+- Quote: "Butter, bread and green cheese: whoever cannot say that is no true Frisian." (Attributed to Grutte Pier; Bûter, brea en griene tsiis; wa’t dat net sizze kin, is gjin oprjochte Fries. By tradition the test he put to captured sailors, about 1515)
+- Quote: "We Frisians kneel only before God." (Attributed to Gemme van Burmania; Said to have been his answer in 1555 when told to kneel to Philip II. A tradition, first recorded later)

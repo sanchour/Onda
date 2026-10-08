@@ -1,0 +1,1265 @@
+{
+  "version": 1,
+  "id": "bantu",
+  "name": "Bantu",
+  "origin": "Central, Eastern and Southern Africa",
+  "era": "From about 3000 BC to today",
+  "tone": "green",
+  "icon": "tree",
+  "font": "sora",
+  "pattern": "ring-and-seed",
+  "glyph": "Ntu",
+  "line": "Go slowly, add a little each day, keep the common ground, speak in proverbs and tell a story at night.",
+  "quote": {
+    "text": "Little by little fills the measure.",
+    "by": "Swahili proverb",
+    "source": "Haba na haba hujaza kibaba"
+  },
+  "quotes": [
+    {
+      "text": "One hand does not raise a child.",
+      "by": "Swahili proverb",
+      "source": "Mkono mmoja haulei mwana"
+    },
+    {
+      "text": "Hurry, hurry has no blessing.",
+      "by": "Swahili proverb",
+      "source": "Haraka haraka haina baraka"
+    },
+    {
+      "text": "One head cannot carry a roof.",
+      "by": "Chewa proverb",
+      "source": "Mutu umodzi susenza denga. Said in Malawi and Zambia"
+    },
+    {
+      "text": "Teeth that stand together are the ones that bite the meat.",
+      "by": "Ganda proverb",
+      "source": "Agali awamu ge galuma ennyama. Said in Uganda"
+    },
+    {
+      "text": "No day dawns like another.",
+      "by": "Kikuyu proverb",
+      "source": "Gũtirĩ mũthenya ũkĩaga ta ũngĩ. Said in Kenya"
+    },
+    {
+      "text": "A person is a person through other people.",
+      "by": "Sotho and Tswana proverb",
+      "source": "Motho ke motho ka batho. The same saying is found across the Bantu languages"
+    }
+  ],
+  "words": [
+    {
+      "id": "word-bantu",
+      "term": "Bantu",
+      "meaning": "People",
+      "pronunciation": "BAHN-too",
+      "language": "Many Bantu languages",
+      "usage": "The plural of a word for person, formed with the prefix ba-. In 1862 a German linguist chose it as the name for the whole family of languages that share it."
+    },
+    {
+      "id": "word-muntu",
+      "term": "Muntu",
+      "meaning": "A person",
+      "pronunciation": "MOON-too",
+      "language": "Many Bantu languages",
+      "usage": "The singular: mu- for one human being, ba- for several. Umuntu in Zulu, mtu in Swahili, munhu in Shona, motho in Sotho."
+    },
+    {
+      "id": "word-ntu",
+      "term": "Ntu",
+      "meaning": "The root of being",
+      "pronunciation": "N-too",
+      "language": "Reconstructed root",
+      "usage": "What is left when the prefix is taken off. Philosophers such as Alexis Kagame built an account of Bantu thought on the classes of things this root can form."
+    },
+    {
+      "id": "word-utu",
+      "term": "Utu",
+      "meaning": "Humanity; humaneness",
+      "pronunciation": "OO-too",
+      "language": "Swahili",
+      "usage": "The quality of being a true person. The same word as ubuntu in Zulu, unhu in Shona and umunthu in Chewa."
+    },
+    {
+      "id": "word-botho",
+      "term": "Botho",
+      "meaning": "Humanity; good character",
+      "pronunciation": "BOO-too",
+      "language": "Sotho and Tswana",
+      "usage": "Respect, courtesy and compassion. It is named as a national principle of Botswana."
+    },
+    {
+      "id": "word-karibu",
+      "term": "Karibu",
+      "meaning": "Welcome; come near",
+      "pronunciation": "kah-REE-boo",
+      "language": "Swahili",
+      "usage": "Said to anyone arriving, and in answer to a knock. Karibu chakula means come and eat."
+    },
+    {
+      "id": "word-habari",
+      "term": "Habari",
+      "meaning": "News; how are you",
+      "pronunciation": "hah-BAH-ree",
+      "language": "Swahili",
+      "usage": "A greeting asks for news: of the morning, of home, of work, of the children. The answer is nzuri, good, before anything else is said."
+    },
+    {
+      "id": "word-shikamoo",
+      "term": "Shikamoo",
+      "meaning": "A greeting to an elder",
+      "pronunciation": "shee-kah-MOH",
+      "language": "Swahili",
+      "usage": "Said by a younger person to an older one. The elder answers marahaba."
+    },
+    {
+      "id": "word-asante",
+      "term": "Asante",
+      "meaning": "Thank you",
+      "pronunciation": "ah-SAHN-teh",
+      "language": "Swahili",
+      "usage": "Asante sana is thank you very much."
+    },
+    {
+      "id": "word-pole",
+      "term": "Pole",
+      "meaning": "I am sorry for your trouble",
+      "pronunciation": "POH-leh",
+      "language": "Swahili",
+      "usage": "Said to anyone who is tired, hurt, bereaved or simply carrying something heavy. Said twice, pole pole, it means slowly."
+    },
+    {
+      "id": "word-mbote",
+      "term": "Mbote",
+      "meaning": "Hello",
+      "pronunciation": "m-BOH-teh",
+      "language": "Lingala and Kikongo",
+      "usage": "The greeting of both banks of the Congo river. It means goodness."
+    },
+    {
+      "id": "word-mzee",
+      "term": "Mzee",
+      "meaning": "An elder",
+      "pronunciation": "m-ZEH-eh",
+      "language": "Swahili",
+      "usage": "A title of respect for an older man, and for founding leaders."
+    },
+    {
+      "id": "word-mwalimu",
+      "term": "Mwalimu",
+      "meaning": "Teacher",
+      "pronunciation": "mwah-LEE-moo",
+      "language": "Swahili",
+      "usage": "The title by which Julius Nyerere, a schoolteacher who became president, was always known."
+    },
+    {
+      "id": "word-vadzimu",
+      "term": "Vadzimu",
+      "meaning": "The ancestors",
+      "pronunciation": "vah-DZEE-moo",
+      "language": "Shona",
+      "usage": "The spirits of the family’s dead, who guard their descendants. Mizimu in Swahili and badimo in Tswana come from the same root."
+    },
+    {
+      "id": "word-mulungu",
+      "term": "Mulungu",
+      "meaning": "God",
+      "pronunciation": "moo-LOON-goo",
+      "language": "Chewa, Yao and many East African languages",
+      "usage": "The creator, distant and above all spirits. Other Bantu languages say Nzambi, Mwari, Leza or Modimo."
+    },
+    {
+      "id": "word-ngoma",
+      "term": "Ngoma",
+      "meaning": "Drum; dance; a gathering to heal",
+      "pronunciation": "n-GOH-mah",
+      "language": "Many Bantu languages",
+      "usage": "One word across half a continent for the drum, the music and dance made with it, and the rites of healing it serves."
+    },
+    {
+      "id": "word-mbira",
+      "term": "Mbira",
+      "meaning": "A thumb piano",
+      "pronunciation": "m-BEE-rah",
+      "language": "Shona",
+      "usage": "Metal keys on a wooden board, played inside a gourd. Its music calls the ancestors at Shona ceremonies."
+    },
+    {
+      "id": "word-hadithi",
+      "term": "Hadithi",
+      "meaning": "A story",
+      "pronunciation": "hah-DEE-thee",
+      "language": "Swahili",
+      "usage": "The teller calls hadithi, hadithi, and the listeners answer hadithi njoo, story, come."
+    },
+    {
+      "id": "word-methali",
+      "term": "Methali",
+      "meaning": "A proverb",
+      "pronunciation": "meh-THAH-lee",
+      "language": "Swahili",
+      "usage": "The compressed wisdom of the elders. A case is argued, and a child corrected, with a proverb."
+    },
+    {
+      "id": "word-harambee",
+      "term": "Harambee",
+      "meaning": "Let us all pull together",
+      "pronunciation": "hah-rahm-BEH",
+      "language": "Swahili",
+      "usage": "A work call of dock labourers that Jomo Kenyatta made the motto of Kenya. It now means a community fundraising."
+    },
+    {
+      "id": "word-ujamaa",
+      "term": "Ujamaa",
+      "meaning": "Familyhood",
+      "pronunciation": "oo-jah-MAH",
+      "language": "Swahili",
+      "usage": "Living and working together as one extended family. Nyerere made it the name of Tanzania’s village socialism."
+    },
+    {
+      "id": "word-umuganda",
+      "term": "Umuganda",
+      "meaning": "Coming together for a common purpose",
+      "pronunciation": "oo-moo-GAHN-dah",
+      "language": "Kinyarwanda",
+      "usage": "Shared labour for the community. In Rwanda the last Saturday morning of each month is given to it by law."
+    },
+    {
+      "id": "word-kgotla",
+      "term": "Kgotla",
+      "meaning": "The public assembly",
+      "pronunciation": "KHOT-lah",
+      "language": "Tswana",
+      "usage": "A meeting place by the chief’s cattle enclosure where any adult may speak and matters are settled by consensus. It is also the customary court."
+    },
+    {
+      "id": "word-mbongi",
+      "term": "Mbongi",
+      "meaning": "The community meeting house",
+      "pronunciation": "m-BOHN-gee",
+      "language": "Kikongo",
+      "usage": "An open shelter at the centre of a Kongo village where people gather around a fire to hear disputes, teach the young and receive strangers."
+    },
+    {
+      "id": "word-shamba",
+      "term": "Shamba",
+      "meaning": "A field; a farm",
+      "pronunciation": "SHAHM-bah",
+      "language": "Swahili",
+      "usage": "The family’s cultivated land. Most Bantu-speaking peoples have been farmers for three thousand years."
+    },
+    {
+      "id": "word-ng-ombe",
+      "term": "Ng'ombe",
+      "meaning": "Cattle",
+      "pronunciation": "NG-OHM-beh",
+      "language": "Swahili",
+      "usage": "A word that has barely changed in four thousand years: inkomo in Zulu, mombe in Shona, kgomo in Tswana."
+    },
+    {
+      "id": "word-ugali",
+      "term": "Ugali",
+      "meaning": "Stiff maize porridge",
+      "pronunciation": "oo-GAH-lee",
+      "language": "Swahili",
+      "usage": "The staple from Kenya to the Cape under many names: sadza, nsima, pap, posho. Eaten with the hand from a common dish."
+    },
+    {
+      "id": "word-kwacha",
+      "term": "Kwacha",
+      "meaning": "Dawn",
+      "pronunciation": "KWAH-chah",
+      "language": "Chewa and Bemba",
+      "usage": "A cry of the independence movements, it is dawn. Zambia and Malawi named their money after it."
+    },
+    {
+      "id": "word-uhuru",
+      "term": "Uhuru",
+      "meaning": "Freedom",
+      "pronunciation": "oo-HOO-roo",
+      "language": "Swahili",
+      "usage": "The word for independence across East Africa. The highest point of Kilimanjaro bears the name."
+    },
+    {
+      "id": "word-zimbabwe",
+      "term": "Zimbabwe",
+      "meaning": "Houses of stone",
+      "pronunciation": "zim-BAHB-weh",
+      "language": "Shona",
+      "usage": "From dzimba dza mabwe. The name of the great walled capital and, since 1980, of the country."
+    }
+  ],
+  "practices": [
+    {
+      "id": "pole-pole",
+      "name": "Pole pole: one thing slowly",
+      "icon": "hourglass",
+      "slot": "Morning",
+      "time": "07:30",
+      "minutes": 15,
+      "meta": "Morning · 15 min",
+      "instructions": "Take the first task of your day and do it at half your usual speed. Make the tea, wash, sweep, write the first message, walk to the bus, without rushing and without doing anything else at once. Give it your whole attention until it is properly finished. If someone speaks to you, stop and answer them fully before you go on. Notice what the hurry was for.",
+      "why": "The Swahili proverb says that hurry, hurry has no blessing, and pole pole, slowly, is advice heard every day from the coast to the lakes. Time in village life is measured by tasks and by people. Greeting a neighbour properly comes before the business one came for.",
+      "variations": [
+        "Walk somewhere today without checking the time.",
+        "Let a conversation run until it is finished.",
+        "Say pole to someone who is tired or struggling."
+      ]
+    },
+    {
+      "id": "haba-na-haba",
+      "name": "Little by little",
+      "icon": "plant",
+      "slot": "Morning",
+      "time": "09:00",
+      "minutes": 15,
+      "meta": "Morning · 15 min",
+      "instructions": "Choose one thing that can only be done over a long time: a language, a debt, a skill, a field, a book, a friendship. Give it fifteen minutes today, and only fifteen. Do a small, definite piece and stop. Mark the day on a calendar. Tomorrow add the next piece. Do not try to make up for lost days, and do not skip one because the piece seems too small to matter.",
+      "why": "Haba na haba hujaza kibaba: little by little fills the measure. The proverb comes from a world of farmers who cleared forest with hoes and built granaries a basket at a time. Village savings circles, in which each member puts in a small sum every week, work on the same principle.",
+      "variations": [
+        "Put aside one coin a day.",
+        "Learn three words a day of a Bantu language.",
+        "Start a savings circle with friends."
+      ]
+    },
+    {
+      "id": "umuganda",
+      "name": "Keep the common ground",
+      "icon": "broom",
+      "slot": "Afternoon",
+      "time": "14:00",
+      "minutes": 20,
+      "meta": "Afternoon · 20 min",
+      "instructions": "Spend twenty minutes on a place that belongs to everyone and so to no one: the pavement outside your door, a stairwell, a path, a park, a bus shelter. Sweep it, clear the litter, unblock the drain, cut back what is overgrown. Ask a neighbour to join you. Afterwards stand for a minute and talk with whoever is there about what else the place needs.",
+      "why": "In Rwanda the last Saturday morning of every month is umuganda. Shops close, traffic stops and each neighbourhood turns out to clean streets, dig ditches and build houses for those in need, and then holds a meeting. Kenyans call such joint effort harambee, and Tswana speakers letsema.",
+      "variations": [
+        "Fix a day each month for your street to do this together.",
+        "Help build or repair something for a neighbour who cannot.",
+        "Go to a local public meeting."
+      ]
+    },
+    {
+      "id": "methali",
+      "name": "Carry a proverb",
+      "icon": "chats",
+      "slot": "Afternoon",
+      "time": "16:00",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Learn one proverb today, from this Onda or from your own grandparents. Say it aloud until you have it by heart. Then think of one situation in your life that it fits, and one that it does not. Before the day ends, use it in conversation in place of giving advice or winning an argument. Write it in your journal with the date.",
+      "why": "In Bantu-speaking societies a proverb is the proper way to make a point. Elders settle disputes with them, parents correct children with them, and a speaker who uses them well is thought wise. They put a hard truth indirectly, so that no one is shamed. Collections in Swahili, Shona, Kikuyu and Zulu run to thousands.",
+      "variations": [
+        "Ask an older relative for a saying from their childhood.",
+        "Answer a question today with a proverb and nothing more.",
+        "Collect one proverb a day for the month."
+      ]
+    },
+    {
+      "id": "hadithi",
+      "name": "Tell a story with a chorus",
+      "icon": "campfire",
+      "slot": "Evening",
+      "time": "19:30",
+      "minutes": 20,
+      "meta": "Evening · 20 min",
+      "instructions": "After the evening meal, tell a story aloud to whoever is in the house. Begin with a call that your listeners must answer, such as story, story, and wait for story, come. Tell a tale you were told, or what happened today as if it were a tale. Give it a short line or a song that comes round several times, for everyone to join in. End with what the story is for.",
+      "why": "Before writing, everything was carried in spoken word, and the evening fire was the school. Folktales of the clever hare and the greedy hyena are told from Cameroon to the Cape, with a set opening exchange and with songs that the audience sings. The drum, the ngoma, turns the same gathering into dance.",
+      "variations": [
+        "Tell a hare story to a child.",
+        "Clap a steady rhythm together and let people take turns over it.",
+        "Ask the oldest person present for a story."
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task-read-a-chapter-of-the-river-between",
+      "name": "Read a chapter of The River Between",
+      "meta": "Read · Ngũgĩ wa Thiong’o, 1965",
+      "time": "20:30",
+      "slot": "Evening",
+      "action": "read"
+    },
+    {
+      "id": "task-listen-to-mbira-music",
+      "name": "Listen to mbira music",
+      "meta": "Listen · Stella Chiweshe, or any recording of the Shona mbira",
+      "time": "07:00",
+      "slot": "Morning",
+      "action": "listen"
+    },
+    {
+      "id": "task-look-at-a-luba-memory-board",
+      "name": "Look at a Luba memory board",
+      "meta": "Art · a lukasa, read with the fingers",
+      "time": "13:00",
+      "slot": "Afternoon",
+      "action": "art"
+    },
+    {
+      "id": "task-play-bao",
+      "name": "Play bao",
+      "meta": "Games · the sowing game of the Swahili coast, or any mancala",
+      "time": "18:30",
+      "slot": "Evening",
+      "action": "games"
+    },
+    {
+      "id": "task-journal-what-did-you-add-to-today-little-by-little",
+      "name": "Journal: what did you add to today, little by little?",
+      "meta": "Journal · 10 min",
+      "time": "21:00",
+      "slot": "Evening",
+      "action": "journal"
+    },
+    {
+      "id": "task-can-one-head-carry-a-roof",
+      "name": "Can one head carry a roof?",
+      "meta": "Philosophy · 10 min",
+      "time": "09:30",
+      "slot": "Morning",
+      "action": "philosophy"
+    },
+    {
+      "id": "greet-an-older-person-first-and-ask-for-their-news",
+      "name": "Greet an older person first, and ask for their news",
+      "meta": "Shikamoo",
+      "time": "10:30",
+      "slot": "Morning"
+    },
+    {
+      "id": "welcome-someone-in-and-feed-them",
+      "name": "Welcome someone in and feed them",
+      "meta": "Karibu",
+      "time": "12:30",
+      "slot": "Afternoon"
+    },
+    {
+      "id": "eat-from-a-shared-dish-tonight",
+      "name": "Eat from a shared dish tonight",
+      "meta": "The common plate",
+      "time": "18:00",
+      "slot": "Evening"
+    }
+  ],
+  "rules": [
+    {
+      "id": "r1",
+      "text": "Go slowly",
+      "why": "Hurry has no blessing. Finish one thing and greet people properly."
+    },
+    {
+      "id": "r2",
+      "text": "Add a little every day",
+      "why": "Small, steady work fills the measure."
+    },
+    {
+      "id": "r3",
+      "text": "Do it together",
+      "why": "One head cannot carry a roof. Call others, and come when called."
+    },
+    {
+      "id": "r4",
+      "text": "Honour your elders and your dead",
+      "why": "They went ahead of you. Greet them first and remember their names."
+    },
+    {
+      "id": "r5",
+      "text": "Welcome the stranger",
+      "why": "Say come near, and share what is in the pot."
+    },
+    {
+      "id": "r6",
+      "text": "Speak with care",
+      "why": "Put hard things in a proverb or a story, so that no one is shamed."
+    }
+  ],
+  "immerse": {
+    "read": [
+      {
+        "id": "read-the-river-between",
+        "title": "The River Between",
+        "creator": "Ngũgĩ wa Thiong’o",
+        "year": "1965",
+        "why": "Two Kikuyu villages on facing ridges are divided by the coming of the missions. A short, clear novel by the writer who later chose to write only in his own language."
+      },
+      {
+        "id": "read-nervous-conditions",
+        "title": "Nervous Conditions",
+        "creator": "Tsitsi Dangarembga",
+        "year": "1988",
+        "why": "A Shona girl in 1960s Rhodesia fights for the schooling her brother was given. Sharp on family, hunger and the price of an education."
+      },
+      {
+        "id": "read-paradise",
+        "title": "Paradise",
+        "creator": "Abdulrazak Gurnah",
+        "year": "1994",
+        "why": "A boy is pawned to a merchant and travels with a caravan from the Swahili coast into the interior, on the eve of German rule."
+      },
+      {
+        "id": "read-unbowed",
+        "title": "Unbowed",
+        "creator": "Wangari Maathai",
+        "year": "2006",
+        "why": "The memoir of the Kikuyu scientist who founded the Green Belt Movement and planted tens of millions of trees."
+      },
+      {
+        "id": "read-chaka",
+        "title": "Chaka",
+        "creator": "Thomas Mofolo",
+        "year": "written about 1910, published 1925",
+        "why": "A tragic novel of the Zulu king written in Sesotho. One of the first novels in an African language."
+      },
+      {
+        "id": "read-facing-mount-kenya",
+        "title": "Facing Mount Kenya",
+        "creator": "Jomo Kenyatta",
+        "year": "1938",
+        "why": "An account of Kikuyu life by the man who would be Kenya’s first president, written as a student of anthropology in London."
+      }
+    ],
+    "watch": [
+      {
+        "id": "watch-lumumba",
+        "title": "Lumumba",
+        "creator": "Raoul Peck",
+        "year": "2000",
+        "why": "The few months in 1960 and 1961 in which Patrice Lumumba led the Congo to independence and was destroyed."
+      },
+      {
+        "id": "watch-the-boy-who-harnessed-the-wind",
+        "title": "The Boy Who Harnessed the Wind",
+        "creator": "Chiwetel Ejiofor",
+        "year": "2019",
+        "why": "A true story from Malawi, largely in Chichewa. During a famine a schoolboy builds a windmill from scrap to pump water."
+      },
+      {
+        "id": "watch-neria",
+        "title": "Neria",
+        "creator": "Godwin Mawuru",
+        "year": "1993",
+        "why": "A widow in Zimbabwe fights her husband’s brother for her home and children. Written by Tsitsi Dangarembga."
+      },
+      {
+        "id": "watch-felicite",
+        "title": "Félicité",
+        "creator": "Alain Gomis",
+        "year": "2017",
+        "why": "A singer in a Kinshasa bar searches the city for money to save her son. In Lingala, with the music of the Kasai Allstars."
+      }
+    ],
+    "listen": [
+      {
+        "id": "listen-francophonic",
+        "title": "Francophonic",
+        "creator": "Franco and TPOK Jazz",
+        "year": "recordings 1953 to 1989",
+        "why": "The giant of Congolese rumba, whose long guitar-led songs were heard across the whole continent."
+      },
+      {
+        "id": "listen-ambuya",
+        "title": "Ambuya?",
+        "creator": "Stella Chiweshe",
+        "year": "1987",
+        "why": "The mbira of the Shona, played by one of the first women to master an instrument long reserved for men."
+      },
+      {
+        "id": "listen-pata-pata",
+        "title": "Pata Pata",
+        "creator": "Miriam Makeba",
+        "year": "1967",
+        "why": "Songs in Xhosa, Zulu and Swahili by the singer the world called Mama Africa."
+      },
+      {
+        "id": "listen-zanzibar",
+        "title": "Zanzibar",
+        "creator": "Bi Kidude",
+        "year": "1998",
+        "why": "Taarab and the drum songs of the Swahili coast, from a singer who performed for some eighty years."
+      }
+    ],
+    "art": [
+      {
+        "id": "art-the-zimbabwe-birds",
+        "title": "The Zimbabwe birds",
+        "creator": "Carvers of Great Zimbabwe",
+        "year": "13th to 15th centuries",
+        "why": "Eight birds of prey in soapstone that stood on pillars in the royal enclosure. One is on the national flag."
+      },
+      {
+        "id": "art-kuba-cloth",
+        "title": "Kuba cloth",
+        "creator": "Kuba weavers and embroiderers, Congo",
+        "year": "from the 17th century",
+        "why": "Men weave panels of raffia palm and women work them in cut pile with interlocking geometric designs, each with a name."
+      },
+      {
+        "id": "art-the-lukasa",
+        "title": "The lukasa",
+        "creator": "Luba court historians, Congo",
+        "year": "18th and 19th centuries",
+        "why": "A hand-sized wooden board studded with beads and shells. A trained elder touches it to recall the history of kings."
+      },
+      {
+        "id": "art-ndebele-house-painting",
+        "title": "Ndebele house painting",
+        "creator": "Esther Mahlangu and the women of the Ndebele",
+        "year": "20th century to today",
+        "why": "Bold bands and blocks of colour outlined in black, painted freehand on the walls of homes."
+      }
+    ],
+    "eat": [
+      {
+        "id": "eat-ugali",
+        "title": "Ugali",
+        "creator": "Stiff maize or millet porridge",
+        "why": "Rolled into a ball with the right hand, dented with the thumb and used to scoop up relish."
+      },
+      {
+        "id": "eat-greens",
+        "title": "Greens",
+        "creator": "Sukuma wiki, fried with onion and tomato",
+        "why": "The name means push the week. The cheap dish that stretches a household’s money."
+      },
+      {
+        "id": "eat-matoke",
+        "title": "Matoke",
+        "creator": "Steamed green bananas, mashed",
+        "why": "The staple of Buganda, cooked in banana leaves."
+      },
+      {
+        "id": "eat-cassava-leaves",
+        "title": "Cassava leaves",
+        "creator": "Pondu, pounded and stewed with palm oil",
+        "why": "The everyday relish of the Congo basin."
+      },
+      {
+        "id": "eat-pilau",
+        "title": "Pilau",
+        "creator": "Rice cooked in spiced broth",
+        "why": "The feast dish of the Swahili coast, where Africa met Arabia and India."
+      }
+    ],
+    "drink": [
+      {
+        "id": "drink-spiced-tea",
+        "title": "Spiced tea",
+        "creator": "Chai with ginger, boiled with milk",
+        "why": "Sold from kettles on every street corner of East Africa."
+      },
+      {
+        "id": "drink-palm-wine",
+        "title": "Palm wine",
+        "creator": "The sap of the raffia or oil palm",
+        "why": "Sweet in the morning and sour by evening. The drink of ceremony in the Congo basin."
+      },
+      {
+        "id": "drink-banana-beer",
+        "title": "Banana beer",
+        "creator": "Brewed from ripe bananas and sorghum",
+        "why": "Shared through straws from one pot in Rwanda, Burundi and around the great lakes."
+      }
+    ],
+    "customs": [
+      {
+        "id": "customs-greeting-an-elder",
+        "title": "Greeting an elder",
+        "creator": "Shikamoo and marahaba",
+        "why": "On the Swahili coast a younger person offers this greeting, and the elder returns a blessing."
+      },
+      {
+        "id": "customs-washing-hands-and-the-common-dish",
+        "title": "Washing hands and the common dish",
+        "creator": "Eating together",
+        "why": "Water is poured over each person’s hands, eldest first, and everyone eats from one dish with the right hand."
+      },
+      {
+        "id": "customs-naming-after-grandparents",
+        "title": "Naming after grandparents",
+        "creator": "The Kikuyu pattern",
+        "why": "The first son is named for the father’s father and the first daughter for the father’s mother, and the next two for the mother’s parents. The grandparents live again in the children."
+      },
+      {
+        "id": "customs-the-long-handshake",
+        "title": "The long handshake",
+        "creator": "Hands held while talking",
+        "why": "Friends may go on holding hands through a whole greeting. A hand to the right forearm adds respect."
+      }
+    ],
+    "games": [
+      {
+        "id": "games-bao",
+        "title": "Bao",
+        "creator": "Board game · the Swahili coast",
+        "year": "centuries old",
+        "why": "A sowing game on four rows of eight pits with sixty-four seeds. The most complex of all the mancala games, with recognised masters."
+      },
+      {
+        "id": "games-omweso",
+        "title": "Omweso",
+        "creator": "Board game · Uganda",
+        "year": "centuries old",
+        "why": "The royal game of Buganda, played very fast on four rows of eight. Kings were once tested at it."
+      },
+      {
+        "id": "games-nhodo",
+        "title": "Nhodo",
+        "creator": "Stone game · Zimbabwe",
+        "year": "traditional",
+        "why": "One stone is tossed up while others are swept in and out of a hole in the ground."
+      },
+      {
+        "id": "games-morabaraba",
+        "title": "Morabaraba",
+        "creator": "Board game · southern Africa",
+        "year": "ancient",
+        "why": "Each player has twelve tokens called cows and tries to form rows of three."
+      }
+    ],
+    "festivals": [
+      {
+        "id": "fest-kuomboka",
+        "title": "Kuomboka",
+        "creator": "March or April, western Zambia",
+        "why": "When the Zambezi floods, the Lozi king is rowed in a great black and white barge from the plain to higher ground, to the sound of royal drums."
+      },
+      {
+        "id": "fest-umuganura",
+        "title": "Umuganura",
+        "creator": "The first Friday of August, Rwanda",
+        "why": "The festival of first fruits. The harvest is shared and the year’s work reviewed."
+      },
+      {
+        "id": "fest-sauti-za-busara",
+        "title": "Sauti za Busara",
+        "creator": "February, Zanzibar",
+        "why": "Sounds of Wisdom. Four days of live music from across the continent inside the old fort of Stone Town."
+      },
+      {
+        "id": "fest-world-kiswahili-language-day",
+        "title": "World Kiswahili Language Day",
+        "creator": "7 July",
+        "why": "Proclaimed by UNESCO in 2021, the first such day for an African language."
+      }
+    ],
+    "places": [
+      {
+        "id": "place-great-zimbabwe",
+        "title": "Great Zimbabwe",
+        "creator": "Near Masvingo, Zimbabwe",
+        "why": "The granite walls of a city of some eighteen thousand people that flourished from the eleventh to the fifteenth century. The outer wall of the Great Enclosure is eleven metres high and built without mortar."
+      },
+      {
+        "id": "place-kilwa-kisiwani",
+        "title": "Kilwa Kisiwani",
+        "creator": "The south coast of Tanzania",
+        "why": "The ruins of the richest Swahili city of the fourteenth century, with its great mosque and palace."
+      },
+      {
+        "id": "place-lamu-old-town",
+        "title": "Lamu Old Town",
+        "creator": "The north coast of Kenya",
+        "why": "The oldest continuously lived-in Swahili town, a maze of coral stone houses with carved doors and no cars."
+      },
+      {
+        "id": "place-mbanza-kongo",
+        "title": "Mbanza Kongo",
+        "creator": "Northern Angola",
+        "why": "The capital of the Kingdom of Kongo, on a plateau where its kings were crowned and buried."
+      },
+      {
+        "id": "place-the-kasubi-tombs",
+        "title": "The Kasubi Tombs",
+        "creator": "Kampala, Uganda",
+        "why": "The burial place of four kings of Buganda, under a vast thatched dome that was rebuilt after a fire in 2010."
+      },
+      {
+        "id": "place-mapungubwe",
+        "title": "Mapungubwe",
+        "creator": "Limpopo, South Africa",
+        "why": "The hill where the rulers of southern Africa’s first kingdom lived about 1220. A small rhinoceros of gold foil was found in a grave here."
+      }
+    ]
+  },
+  "ethics": [
+    {
+      "title": "Utu",
+      "text": "Be a real person: humane, generous, considerate.",
+      "practice": "Do something kind for a stranger."
+    },
+    {
+      "title": "Respect for elders",
+      "text": "Age is experience. Greet first and listen.",
+      "practice": "Ask an older person for advice and take it."
+    },
+    {
+      "title": "Hospitality",
+      "text": "A guest is a blessing. There is always enough for one more.",
+      "practice": "Invite someone to eat."
+    },
+    {
+      "title": "Solidarity",
+      "text": "Share work, food and trouble.",
+      "practice": "Turn up for someone else’s task."
+    },
+    {
+      "title": "Patience",
+      "text": "Good things are built slowly.",
+      "practice": "Do not hurry one thing today."
+    },
+    {
+      "title": "Indirection",
+      "text": "Correct without shaming.",
+      "practice": "Say something difficult through a story."
+    }
+  ],
+  "philosophy": [
+    {
+      "title": "I am because we are",
+      "text": "John Mbiti summed up the view in one line: I am because we are, and since we are, therefore I am.",
+      "practice": "Which we are you because of?"
+    },
+    {
+      "title": "Being as force",
+      "text": "Some thinkers describe a Bantu view of being as living force that can be strengthened or weakened by how one lives with others. Other African philosophers reject so general a claim.",
+      "practice": "What strengthens life in you, and what weakens it?"
+    },
+    {
+      "title": "The living, the dead and the unborn",
+      "text": "A family includes those who have gone and those still to come.",
+      "practice": "What do you owe to people you will never meet?"
+    },
+    {
+      "title": "Consensus",
+      "text": "At the kgotla people talk until they agree. A decision that divides the community is not a decision.",
+      "practice": "Where do you settle for winning a vote?"
+    },
+    {
+      "title": "Little by little",
+      "text": "Great things are the sum of small ones done faithfully.",
+      "practice": "What are you trying to do all at once?"
+    },
+    {
+      "title": "The wisdom of the indirect",
+      "text": "A proverb lets the hearer reach the conclusion themselves.",
+      "practice": "What do you say too bluntly?"
+    },
+    {
+      "title": "Familyhood",
+      "text": "Nyerere held that a nation should work as an extended family, in which no one is rich while another goes hungry.",
+      "practice": "How far does your family extend?"
+    },
+    {
+      "title": "Many peoples, one root",
+      "text": "Hundreds of nations share related words and none of them is the same.",
+      "practice": "What do you share with people you think of as foreign?"
+    }
+  ],
+  "journal": [
+    "What did you add to today, little by little?",
+    "What did you do slowly?",
+    "What was the hurry for?",
+    "What common ground did you keep?",
+    "Who worked beside you?",
+    "Which proverb did you carry?",
+    "Where did it fit?",
+    "What story did you tell?",
+    "Who joined in the chorus?",
+    "Whom did you welcome?",
+    "Who welcomed you?",
+    "Which elder did you greet?",
+    "What news did you ask for?",
+    "Whose trouble did you notice?",
+    "What roof are you trying to carry alone?",
+    "Whom could you call?",
+    "What did you share from the pot?",
+    "What saying did your grandparents use?",
+    "Who went ahead of you?",
+    "Who is coming after?",
+    "What did you say too bluntly?",
+    "Where did you reach agreement?",
+    "What grows in your field?",
+    "What is filling, measure by measure?",
+    "What made you a real person today?",
+    "What did the drum do?",
+    "How far does your family reach?",
+    "What word did you learn?",
+    "What dawned today that was not like yesterday?",
+    "What will you add tomorrow?"
+  ],
+  "reflect": [
+    "What did going slowly give you?",
+    "What has filled, little by little?",
+    "What common ground is better for your work?",
+    "Which proverbs stayed with you?",
+    "What stories were told?",
+    "Which rule will you keep?"
+  ],
+  "dayThemes": [
+    "Slowly",
+    "Little by little",
+    "The measure",
+    "The field",
+    "The hoe",
+    "The greeting",
+    "The news",
+    "The elder",
+    "Welcome",
+    "The common dish",
+    "One hand",
+    "The roof",
+    "Teeth together",
+    "Pulling together",
+    "The common ground",
+    "The meeting place",
+    "Talking until we agree",
+    "The proverb",
+    "The story",
+    "The chorus",
+    "The drum",
+    "The ancestors",
+    "Those to come",
+    "The name",
+    "A real person",
+    "Familyhood",
+    "Dawn",
+    "Freedom",
+    "Houses of stone",
+    "No day like another"
+  ],
+  "guide": {
+    "intro": [
+      "Bantu is the name of a family of languages, not of a people. It takes in some five hundred related languages spoken across the southern half of Africa by about 350 million people, among them Swahili, Zulu, Xhosa, Shona, Kikuyu, Ganda, Kinyarwanda, Lingala, Kongo, Bemba, Chewa, Sotho and Tswana. The name was chosen in 1862 by the linguist Wilhelm Bleek, who noticed that in language after language the word for people was some form of ba-ntu. The speakers of these languages belong to hundreds of distinct nations with their own histories, and none has ever called itself Bantu.",
+      "The languages are alike because they descend from one ancestor, spoken about five thousand years ago in the borderland of what are now Nigeria and Cameroon. From there, over some three thousand years, farming communities who made pottery and later worked iron spread east and south through the rainforest and around it, reaching the great lakes of East Africa about three thousand years ago and the far south-east of the continent by about AD 300. They mixed with and largely absorbed the hunters and herders who lived there before them. It was one of the great migrations of human history, and it was slow: a matter of villages moving a few kilometres in a generation.",
+      "The shared inheritance shows in grammar and vocabulary. Bantu languages sort all nouns into classes marked by prefixes, so that one root gives the words for a person, people, a language, a country and a quality. Words for cattle, drum, ancestor and chief are recognisably the same across thousands of kilometres. With the words go habits of life that are widely shared, though never uniform: farming with the hoe, the keeping of cattle in the east and south, respect for elders, the continuing presence of the ancestors, decisions reached in open assembly, and a rich art of proverb, story, song and drum.",
+      "Speakers of Bantu languages built many states. On the east coast, from about the eighth century, the Swahili towns traded gold and ivory across the Indian Ocean. Inland, the rulers of Mapungubwe and Great Zimbabwe raised palaces of stone. The Kingdom of Kongo exchanged ambassadors with Portugal and the Pope. Luba, Lunda, Buganda, Rwanda, the Zulu and the Sotho all formed powerful kingdoms.",
+      "From the sixteenth century the Atlantic slave trade carried off millions of people from the Congo and Angola, more than from any other part of Africa, and with them the words and rhythms that shaped the music and religion of Brazil, Cuba and the American South. Colonial conquest followed in the 1880s, with particular horror in the Congo. In South Africa the apartheid state used the word Bantu as its official label for Black people, and it remains offensive there when applied to persons.",
+      "Independence came between 1960 and 1994. Swahili, with perhaps two hundred million speakers, is now a working language of the African Union.",
+      "This Onda takes its practices from habits found widely among these peoples, and names the language each word comes from."
+    ],
+    "origin": "From Cameroon across the Congo basin to Kenya and south to the Cape",
+    "era": "The first Bantu speakers lived about five thousand years ago. Some 350 million people speak a Bantu language today",
+    "figures": [
+      {
+        "name": "Afonso I of Kongo",
+        "dates": "about 1456 to 1543",
+        "bio": "Mvemba a Nzinga. A Christian king who wrote some two dozen surviving letters to the kings of Portugal, asking for teachers and doctors and protesting at the seizure of his people as slaves."
+      },
+      {
+        "name": "Nzinga Mbande",
+        "dates": "about 1583 to 1663",
+        "bio": "Queen of Ndongo and Matamba in what is now Angola. Diplomat and commander, she resisted the Portuguese for forty years."
+      },
+      {
+        "name": "Kimpa Vita",
+        "dates": "1684 to 1706",
+        "bio": "A young Kongo noblewoman who led a movement to reunite the kingdom and taught that Jesus and the saints were Kongolese. She was burned as a heretic."
+      },
+      {
+        "name": "Moshoeshoe I",
+        "dates": "about 1786 to 1870",
+        "bio": "Founder of the Basotho nation. From his mountain fortress he gathered refugees of the wars and kept his kingdom by diplomacy as much as by arms."
+      },
+      {
+        "name": "Nehanda Nyakasikana",
+        "dates": "about 1840 to 1898",
+        "bio": "A Shona spirit medium who inspired the rising of 1896 against the British South Africa Company and was hanged. She is honoured as the grandmother of Zimbabwe."
+      },
+      {
+        "name": "Khama III",
+        "dates": "about 1837 to 1923",
+        "bio": "King of the Bangwato, who travelled to London in 1895 and kept his country out of the hands of Cecil Rhodes."
+      },
+      {
+        "name": "Alexis Kagame",
+        "dates": "1912 to 1981",
+        "bio": "Rwandan priest, poet and historian who analysed the grammar of his language to set out a Bantu philosophy of being."
+      },
+      {
+        "name": "Nelson Mandela",
+        "dates": "1918 to 2013",
+        "bio": "A Xhosa of the Thembu royal house, lawyer, prisoner for twenty-seven years and first president of a democratic South Africa."
+      },
+      {
+        "name": "Julius Nyerere",
+        "dates": "1922 to 1999",
+        "bio": "Teacher and first president of Tanzania. He made Swahili the language of the nation and translated Shakespeare into it."
+      },
+      {
+        "name": "Patrice Lumumba",
+        "dates": "1925 to 1961",
+        "bio": "First prime minister of the independent Congo, overthrown and murdered within seven months."
+      },
+      {
+        "name": "Ngũgĩ wa Thiong'o",
+        "dates": "1938 to 2025",
+        "bio": "Kenyan novelist who was imprisoned for a play in Kikuyu and from then on wrote his fiction in that language."
+      },
+      {
+        "name": "Wangari Maathai",
+        "dates": "1940 to 2011",
+        "bio": "Kenyan biologist and founder of the Green Belt Movement. The first African woman to receive the Nobel Peace Prize."
+      }
+    ],
+    "history": [
+      {
+        "when": "About 3000 BC",
+        "what": "The homeland",
+        "detail": "The ancestral Bantu language is spoken by farmers of yams and oil palms in the grasslands of western Cameroon."
+      },
+      {
+        "when": "About 1500 to 500 BC",
+        "what": "Through the forest",
+        "detail": "Communities spread along the rivers and the coast into the Congo basin and reach the great lakes."
+      },
+      {
+        "when": "About 500 BC",
+        "what": "Iron",
+        "detail": "Smelting furnaces are in use around Lake Victoria. Iron hoes and axes speed the clearing of land."
+      },
+      {
+        "when": "About AD 300",
+        "what": "The far south",
+        "detail": "Farmers who speak Bantu languages are settled south of the Limpopo."
+      },
+      {
+        "when": "From about 800",
+        "what": "The Swahili coast",
+        "detail": "Trading towns grow up from Somalia to Mozambique. Their people become Muslim, build in coral stone and speak a Bantu language rich in Arabic words."
+      },
+      {
+        "when": "About 1075 to 1450",
+        "what": "Mapungubwe and Great Zimbabwe",
+        "detail": "Kingdoms on the plateau grow rich on gold and ivory sold to the coast. Great Zimbabwe is at its height in the fourteenth century."
+      },
+      {
+        "when": "About 1390",
+        "what": "The Kingdom of Kongo",
+        "detail": "A state forms south of the Congo river. Portuguese ships arrive in 1483, and the king is baptised in 1491."
+      },
+      {
+        "when": "1500s to 1860s",
+        "what": "The Atlantic slave trade",
+        "detail": "More than five million people are shipped from the ports of Kongo and Angola to the Americas."
+      },
+      {
+        "when": "1700s and 1800s",
+        "what": "The inland kingdoms",
+        "detail": "Luba, Lunda, Buganda and Rwanda are at their strongest. Caravans from Zanzibar bring guns and take ivory and slaves."
+      },
+      {
+        "when": "1884 to 1908",
+        "what": "Partition",
+        "detail": "The Berlin conference divides the continent. In the Congo Free State of King Leopold II, forced rubber collection kills millions."
+      },
+      {
+        "when": "1904 to 1908",
+        "what": "The Herero",
+        "detail": "German forces in South West Africa drive the Herero into the desert. Most of the nation dies."
+      },
+      {
+        "when": "1948 to 1994",
+        "what": "Apartheid",
+        "detail": "South Africa classifies Black people as Bantu, gives them an inferior Bantu education and assigns them to ten homelands."
+      },
+      {
+        "when": "1960 to 1994",
+        "what": "Independence",
+        "detail": "The Congo in 1960, Tanganyika in 1961, Kenya in 1963, Zambia and Malawi in 1964, Angola and Mozambique in 1975, Zimbabwe in 1980, Namibia in 1990 and a free South Africa in 1994."
+      },
+      {
+        "when": "2021 and 2022",
+        "what": "Swahili",
+        "detail": "UNESCO proclaims a world day for the language, and the African Union adopts it as a working language."
+      }
+    ],
+    "concepts": [
+      {
+        "term": "A language family",
+        "text": "One ancestor, five hundred descendants.",
+        "detail": "Bantu languages are as closely related as the Romance or Germanic languages. A Swahili speaker can recognise many words of Zulu."
+      },
+      {
+        "term": "Noun classes",
+        "text": "Meaning by prefix.",
+        "detail": "Every noun belongs to a class with its own prefix, and adjectives and verbs agree with it. Mu-ntu is a person, ba-ntu people, ki-ntu a thing, bu-ntu humanity."
+      },
+      {
+        "term": "The expansion",
+        "text": "A slow spread of farmers.",
+        "detail": "Not a conquest or a single journey. Small groups budded off and moved on over a hundred generations, taking crops, pottery and language with them."
+      },
+      {
+        "term": "Personhood through community",
+        "text": "One becomes a person.",
+        "detail": "A child is brought into humanity by others, through naming, teaching and initiation, and adults keep it by how they behave."
+      },
+      {
+        "term": "Ancestors",
+        "text": "The living dead.",
+        "detail": "Those who have died and are still remembered by name remain close to the family and are consulted and honoured."
+      },
+      {
+        "term": "Elders and councils",
+        "text": "Authority of age and talk.",
+        "detail": "Villages and kingdoms alike were run through councils of senior men, and sometimes women, who deliberated in public."
+      },
+      {
+        "term": "Oral literature",
+        "text": "Knowledge in the mouth.",
+        "detail": "Proverbs, riddles, folktales, praise poems, epics and songs carried law, history and morals without writing."
+      },
+      {
+        "term": "Ngoma",
+        "text": "Drum, dance and healing as one.",
+        "detail": "Illness and misfortune are treated in gatherings of music and movement that restore a person to their community."
+      },
+      {
+        "term": "Swahili",
+        "text": "A Bantu language of the world.",
+        "detail": "Born of African and Indian Ocean trade, it is now a first or second language from Somalia to the Congo."
+      }
+    ],
+    "facts": [
+      {
+        "text": "Swahili has no native speakers in most of the countries where it is spoken. It is a second language for the great majority of its users."
+      },
+      {
+        "text": "The word safari is Swahili, from an Arabic word for a journey."
+      },
+      {
+        "text": "The banjo, the samba, the conga and the word zombie all trace back to the peoples of Kongo and Angola."
+      },
+      {
+        "text": "The walls of Great Zimbabwe contain about a million granite blocks, laid without mortar."
+      },
+      {
+        "text": "Linguists have reconstructed several thousand words of the ancestral Bantu language, including words for canoe, goat, pot and drum."
+      },
+      {
+        "text": "Some Bantu languages of the south, such as Zulu and Xhosa, took their click sounds from the Khoisan peoples they met."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Proto-Bantu",
+        "meaning": "The reconstructed ancestor of all the Bantu languages"
+      },
+      {
+        "term": "Nguni",
+        "meaning": "The southern branch that includes Zulu, Xhosa, Swati and Ndebele"
+      },
+      {
+        "term": "Kiswahili",
+        "meaning": "The name of Swahili in the language itself"
+      },
+      {
+        "term": "Lingala",
+        "meaning": "The trade language of the Congo river, spoken in Kinshasa and Brazzaville"
+      },
+      {
+        "term": "Mancala",
+        "meaning": "The family of sowing games played on rows of pits"
+      },
+      {
+        "term": "Bantustan",
+        "meaning": "A territory set aside for Black South Africans under apartheid"
+      }
+    ],
+    "furtherReading": [
+      {
+        "title": "Paths in the Rainforests",
+        "creator": "Jan Vansina",
+        "year": "1990",
+        "note": "How the peoples of equatorial Africa built their societies over three thousand years, read from their words."
+      },
+      {
+        "title": "An African Classical Age",
+        "creator": "Christopher Ehret",
+        "year": "1998",
+        "note": "Eastern and southern Africa from 1000 BC to AD 400, reconstructed from language and archaeology."
+      },
+      {
+        "title": "African Religions and Philosophy",
+        "creator": "John S. Mbiti",
+        "year": "1969",
+        "note": "A Kenyan theologian’s influential survey of belief across the continent."
+      },
+      {
+        "title": "Decolonising the Mind",
+        "creator": "Ngũgĩ wa Thiong'o",
+        "year": "1986",
+        "note": "Why a writer should write in the language of his own people."
+      }
+    ],
+    "learnFrom": [
+      {
+        "name": "National Museums of Kenya",
+        "note": "The museums and heritage sites of Kenya, including Lamu and the Swahili coast.",
+        "link": "https://www.museums.or.ke"
+      },
+      {
+        "name": "National Museums and Monuments of Zimbabwe",
+        "note": "The custodians of Great Zimbabwe.",
+        "link": "https://www.nmmz.co.zw"
+      },
+      {
+        "name": "Language learning in Swahili",
+        "note": "Free courses in Swahili are widely available. A few weeks will open the greetings and proverbs."
+      },
+      {
+        "name": "A speaker of a Bantu language",
+        "note": "Ask what the proverbs of their home are, and how people greet each other there."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Paths in the Rainforests: Toward a History of Political Tradition in Equatorial Africa",
+        "creator": "Jan Vansina",
+        "publisher": "University of Wisconsin Press",
+        "year": "1990"
+      },
+      {
+        "title": "An African Classical Age",
+        "creator": "Christopher Ehret",
+        "publisher": "University Press of Virginia",
+        "year": "1998"
+      },
+      {
+        "title": "The Bantu Languages",
+        "creator": "Derek Nurse and Gérard Philippson, editors",
+        "publisher": "Routledge",
+        "year": "2003"
+      },
+      {
+        "title": "Africans: The History of a Continent",
+        "creator": "John Iliffe",
+        "publisher": "Cambridge University Press",
+        "year": "3rd edition 2017"
+      },
+      {
+        "title": "African Religions and Philosophy",
+        "creator": "John S. Mbiti",
+        "publisher": "Heinemann",
+        "year": "1969"
+      },
+      {
+        "title": "La philosophie bantu-rwandaise de l’être",
+        "creator": "Alexis Kagame",
+        "publisher": "Académie royale des sciences coloniales",
+        "year": "1956"
+      }
+    ]
+  },
+  "sensitivity": {
+    "note": "Bantu is a family of languages spoken by hundreds of different peoples, and there is no single Bantu culture. This Onda gathers habits that are widely shared, names the language of every word and proverb, and should be reviewed by speakers of those languages.",
+    "requiredCaveats": [
+      "In South Africa the word Bantu was the apartheid state’s label for Black people and is offensive when applied to persons. Here it is used only in its linguistic sense.",
+      "Customs differ greatly between, say, the Swahili coast, the Congo forest and the southern grasslands. Nothing said here is true of every people.",
+      "The idea of a single Bantu philosophy was first set out by a Belgian missionary in 1945 and has been strongly criticised by African philosophers.",
+      "Rites of initiation, healing and the ancestors belong to particular communities and are not practices for outsiders."
+    ],
+    "reviewRequired": true
+  }
+}

@@ -30,6 +30,7 @@ export type Ornament =
   | 'solid' | 'atom' | 'cup' | 'starsky' | 'bolt' | 'couch' | 'boulder' | 'charkha'
   | 'laurel' | 'cash' | 'ger' | 'tulip' | 'paisley' | 'kris' | 'chakana' | 'crown' | 'orb'
   | 'peace' | 'dividers' | 'shield' | 'boomerang' | 'pompeblad' | 'hook' | 'shell' | 'stickchart'
+  | 'beads' | 'mbira' | 'prasat' | 'triskele'
 
 /** A small SVG tile. In `body`, `$` stands for the ink colour up to its alpha: stroke='$.12)'.
  *  `edge` runs the tile once along the bottom instead of filling the card. */

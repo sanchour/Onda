@@ -1,0 +1,1256 @@
+{
+  "version": 1,
+  "id": "zulu",
+  "name": "Zulu",
+  "origin": "Southern Africa",
+  "era": "From about 1700 to today",
+  "tone": "coral",
+  "icon": "shield",
+  "font": "lexend",
+  "pattern": "bead-diamonds",
+  "glyph": "Sawubona",
+  "line": "See the person in front of you, praise by name, work together and ask the way of those who went before.",
+  "quote": {
+    "text": "The way is asked of those who have gone ahead.",
+    "by": "Zulu proverb",
+    "source": "Indlela ibuzwa kwabaphambili. In C. L. S. Nyembezi, Zulu Proverbs, 1954"
+  },
+  "quotes": [
+    {
+      "text": "A person is a person through other people.",
+      "by": "Zulu proverb",
+      "source": "Umuntu ngumuntu ngabantu"
+    },
+    {
+      "text": "Hands wash each other.",
+      "by": "Zulu proverb",
+      "source": "Izandla ziyagezana. In C. L. S. Nyembezi, Zulu Proverbs, 1954"
+    },
+    {
+      "text": "A king is a king through his people.",
+      "by": "Zulu proverb",
+      "source": "Inkosi yinkosi ngabantu bayo"
+    },
+    {
+      "text": "The bull is among the calves.",
+      "by": "Zulu proverb",
+      "source": "Inkunzi isematholeni. Tomorrow’s leaders are among today’s children"
+    },
+    {
+      "text": "You will not rule when I am gone. The land will be ruled by the swallows.",
+      "by": "Attributed to Shaka",
+      "source": "His dying words to his assassins in 1828, according to Zulu oral tradition. The swallows are taken to mean the white settlers",
+      "unverified": true
+    }
+  ],
+  "words": [
+    {
+      "id": "word-sawubona",
+      "term": "Sawubona",
+      "meaning": "Hello; we see you",
+      "pronunciation": "sah-woo-BOH-nah",
+      "language": "isiZulu",
+      "usage": "The greeting to one person. Literally we see you. Sanibonani greets more than one."
+    },
+    {
+      "id": "word-yebo",
+      "term": "Yebo",
+      "meaning": "Yes",
+      "pronunciation": "YEH-boh",
+      "language": "isiZulu",
+      "usage": "The reply to a greeting: yebo, sawubona. Yes, we see you too."
+    },
+    {
+      "id": "word-ngiyaphila",
+      "term": "Ngiyaphila",
+      "meaning": "I am well; I am alive",
+      "pronunciation": "ngee-yah-PEE-lah",
+      "language": "isiZulu",
+      "usage": "The answer to unjani, how are you. The proper reply adds a question back: and you."
+    },
+    {
+      "id": "word-ngiyabonga",
+      "term": "Ngiyabonga",
+      "meaning": "Thank you",
+      "pronunciation": "ngee-yah-BOHN-gah",
+      "language": "isiZulu",
+      "usage": "From the verb bonga, which also means to praise. To thank someone is to praise them."
+    },
+    {
+      "id": "word-hamba-kahle",
+      "term": "Hamba kahle",
+      "meaning": "Go well",
+      "pronunciation": "HAHM-bah GAH-shleh",
+      "language": "isiZulu",
+      "usage": "Said to the one who is leaving. The one who stays is told sala kahle, stay well."
+    },
+    {
+      "id": "word-izulu",
+      "term": "iZulu",
+      "meaning": "The sky; heaven",
+      "pronunciation": "ee-ZOO-loo",
+      "language": "isiZulu",
+      "usage": "The amaZulu are the people of heaven. The name comes from a founding ancestor called Zulu, who lived about 1700."
+    },
+    {
+      "id": "word-ubuntu",
+      "term": "Ubuntu",
+      "meaning": "Humanity; being a person among persons",
+      "pronunciation": "oo-BOON-too",
+      "language": "isiZulu",
+      "usage": "Kindness, generosity and respect, understood as what makes someone fully human."
+    },
+    {
+      "id": "word-hlonipha",
+      "term": "Hlonipha",
+      "meaning": "To show respect",
+      "pronunciation": "shlo-NEE-pah",
+      "language": "isiZulu",
+      "usage": "Respect shown in conduct and in speech. It includes a custom by which a married woman avoids the names of her husband’s senior relatives and words that sound like them."
+    },
+    {
+      "id": "word-amadlozi",
+      "term": "Amadlozi",
+      "meaning": "The ancestors",
+      "pronunciation": "ah-mah-DLOH-zee",
+      "language": "isiZulu",
+      "usage": "The spirits of the family’s dead, who watch over the living and are spoken to at the back of the main house. Also called abaphansi, those below."
+    },
+    {
+      "id": "word-unkulunkulu",
+      "term": "uNkulunkulu",
+      "meaning": "The Great-Great One",
+      "pronunciation": "oon-koo-loon-KOO-loo",
+      "language": "isiZulu",
+      "usage": "The first ancestor and creator. The word is now used for God in Zulu Christianity."
+    },
+    {
+      "id": "word-umuzi",
+      "term": "Umuzi",
+      "meaning": "A homestead",
+      "pronunciation": "oo-MOO-zee",
+      "language": "isiZulu",
+      "usage": "A circle of beehive houses around a cattle enclosure, home to a man, his wives, children and dependants."
+    },
+    {
+      "id": "word-isibaya",
+      "term": "Isibaya",
+      "meaning": "The cattle enclosure",
+      "pronunciation": "ee-see-BAH-yah",
+      "language": "isiZulu",
+      "usage": "The round pen at the centre of the homestead. Grain was stored in pits beneath it, and it is a place of the ancestors."
+    },
+    {
+      "id": "word-inkomo",
+      "term": "Inkomo",
+      "meaning": "A head of cattle",
+      "pronunciation": "in-KOH-moh",
+      "language": "isiZulu",
+      "usage": "Wealth, bridewealth and the link with the ancestors. isiZulu has hundreds of terms for the colour patterns of hides."
+    },
+    {
+      "id": "word-inkosi",
+      "term": "Inkosi",
+      "meaning": "King; chief",
+      "pronunciation": "in-KOH-see",
+      "language": "isiZulu",
+      "usage": "A hereditary ruler. The Zulu king is addressed as the Lion or the Elephant."
+    },
+    {
+      "id": "word-induna",
+      "term": "Induna",
+      "meaning": "A headman; an officer",
+      "pronunciation": "in-DOO-nah",
+      "language": "isiZulu",
+      "usage": "A man appointed by the king or chief to command a regiment or administer a district."
+    },
+    {
+      "id": "word-ibutho",
+      "term": "Ibutho",
+      "meaning": "An age regiment",
+      "pronunciation": "ee-BOO-toh",
+      "language": "isiZulu",
+      "usage": "Young men of the same age were enrolled together to serve the king as soldiers and labourers until he gave them leave to marry."
+    },
+    {
+      "id": "word-indaba",
+      "term": "Indaba",
+      "meaning": "A matter; a discussion of it",
+      "pronunciation": "in-DAH-bah",
+      "language": "isiZulu",
+      "usage": "Business to be talked through, and the gathering at which leaders do so. The word has passed into South African English."
+    },
+    {
+      "id": "word-izibongo",
+      "term": "Izibongo",
+      "meaning": "Praises",
+      "pronunciation": "ee-zee-BOHN-goh",
+      "language": "isiZulu",
+      "usage": "Poetry that names a person’s deeds, descent and character in vivid images. Kings, clans, cattle and ordinary people all have praises."
+    },
+    {
+      "id": "word-imbongi",
+      "term": "Imbongi",
+      "meaning": "A praise poet",
+      "pronunciation": "im-BOHN-gee",
+      "language": "isiZulu",
+      "usage": "One who composes and declaims praises in public, and who may also criticise the ruler he praises."
+    },
+    {
+      "id": "word-isibongo",
+      "term": "Isibongo",
+      "meaning": "A clan name",
+      "pronunciation": "ee-see-BOHN-goh",
+      "language": "isiZulu",
+      "usage": "A family name such as Zulu, Buthelezi or Khumalo. Each has its own string of praise names, called izithakazelo."
+    },
+    {
+      "id": "word-ilima",
+      "term": "Ilima",
+      "meaning": "A work party",
+      "pronunciation": "ee-LEE-mah",
+      "language": "isiZulu",
+      "usage": "Neighbours gather to plough, weed or build for one household, which thanks them with food and beer."
+    },
+    {
+      "id": "word-ilobolo",
+      "term": "Ilobolo",
+      "meaning": "Bridewealth",
+      "pronunciation": "ee-loh-BOH-loh",
+      "language": "isiZulu",
+      "usage": "Cattle, or now their value, given by the groom’s family to the bride’s. It joins two families and their ancestors."
+    },
+    {
+      "id": "word-isangoma",
+      "term": "Isangoma",
+      "meaning": "A diviner",
+      "pronunciation": "ee-sahn-GOH-mah",
+      "language": "isiZulu",
+      "usage": "A person called by the ancestors, most often a woman, who finds the causes of illness and misfortune."
+    },
+    {
+      "id": "word-inyanga",
+      "term": "Inyanga",
+      "meaning": "A herbalist; also the moon",
+      "pronunciation": "in-YAHN-gah",
+      "language": "isiZulu",
+      "usage": "A healer who works with plant medicines. The same word means moon and month."
+    },
+    {
+      "id": "word-ubuhlalu",
+      "term": "Ubuhlalu",
+      "meaning": "Beads",
+      "pronunciation": "oo-boo-SHLAH-loo",
+      "language": "isiZulu",
+      "usage": "Glass beads worked into panels, collars and aprons whose colours and patterns carry messages about the wearer."
+    },
+    {
+      "id": "word-indlamu",
+      "term": "Indlamu",
+      "meaning": "A stamping dance",
+      "pronunciation": "in-DLAH-moo",
+      "language": "isiZulu",
+      "usage": "Dancers in line lift one foot above the head and bring it down hard in time with the drum."
+    },
+    {
+      "id": "word-isicathamiya",
+      "term": "Isicathamiya",
+      "meaning": "Singing on tiptoe",
+      "pronunciation": "ee-see-kah-tah-MEE-yah",
+      "language": "isiZulu",
+      "usage": "Unaccompanied male choirs with soft, careful footwork, a style born in the hostels of migrant workers. The c is a click."
+    },
+    {
+      "id": "word-ukhamba",
+      "term": "Ukhamba",
+      "meaning": "A beer pot",
+      "pronunciation": "oo-KAHM-bah",
+      "language": "isiZulu",
+      "usage": "A round blackened clay pot from which sorghum beer is served and shared."
+    },
+    {
+      "id": "word-isihlangu",
+      "term": "Isihlangu",
+      "meaning": "A war shield",
+      "pronunciation": "ee-see-SHLAHN-goo",
+      "language": "isiZulu",
+      "usage": "A tall oval of cowhide. The colour of the hide showed the regiment."
+    },
+    {
+      "id": "word-gogo",
+      "term": "Gogo",
+      "meaning": "Grandmother",
+      "pronunciation": "GOH-goh",
+      "language": "isiZulu",
+      "usage": "A title of respect for any elderly woman. A grandfather is mkhulu."
+    }
+  ],
+  "practices": [
+    {
+      "id": "sawubona",
+      "name": "Sawubona: see the person",
+      "icon": "eye",
+      "slot": "Morning",
+      "time": "07:30",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Greet every person you meet this morning properly. Stop walking. Look at them. Say hello and ask how they are, and wait for the answer. If they ask you, answer truthfully and ask in return. Greet people you would usually pass by: the cleaner, the driver, a child, a neighbour. Greet older people first. When you part, wish them well on their way.",
+      "why": "The Zulu greeting sawubona means we see you, and the reply is yes, we see you too. A full greeting then asks after the other’s health and family. To walk past someone without greeting is rude, and greeting a stranger is ordinary good manners. A person exists in being recognised by others.",
+      "variations": [
+        "Learn the exchange: sawubona, yebo sawubona, unjani, ngiyaphila.",
+        "Greet one stranger each day for a week.",
+        "Use people’s names when you greet them."
+      ]
+    },
+    {
+      "id": "ask-the-way",
+      "name": "Ask the way of those ahead",
+      "icon": "footprints",
+      "slot": "Morning",
+      "time": "09:30",
+      "minutes": 15,
+      "meta": "Morning · 15 min",
+      "instructions": "Think of one thing you are trying to do or decide. Find someone who has already been down that road, an older relative, a senior colleague, a neighbour, and ask them how they did it. Go in person or call. Ask, listen without arguing, and thank them. If the person you would most like to ask has died, sit quietly for a few minutes, say their name and ask what they would tell you.",
+      "why": "The proverb says that the way is asked of those who have gone ahead. Respect for elders, hlonipha, is the foundation of Zulu manners, and the old are the family’s memory. The ancestors remain part of the household and are told of births, marriages and troubles.",
+      "variations": [
+        "Ask the oldest person in your family about a decision they once faced.",
+        "Write down the names of your grandparents and great-grandparents.",
+        "Visit a grave or light a candle for someone who guided you."
+      ]
+    },
+    {
+      "id": "izibongo",
+      "name": "Praise by name",
+      "icon": "megaphone",
+      "slot": "Afternoon",
+      "time": "13:00",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Choose one person today and praise them aloud, to their face or before others. Be exact. Name what they did, what it cost and what kind of person it shows them to be, and use an image if one comes: you are the one who stays when the others have gone home. Do not flatter and do not add advice. If you are praised, receive it without waving it away.",
+      "why": "Praise poetry, izibongo, is the great art of the Zulu language. Kings had poets who declaimed their praises at gatherings, and every clan has praise names that are recited when greeting or thanking one of its members. The verb to thank and the verb to praise are the same.",
+      "variations": [
+        "Write three lines of praise for someone you love and read them out.",
+        "Learn the meaning of your own family name.",
+        "Thank someone by saying exactly what their help did."
+      ]
+    },
+    {
+      "id": "ilima",
+      "name": "Join a work party",
+      "icon": "users-three",
+      "slot": "Afternoon",
+      "time": "15:30",
+      "minutes": 30,
+      "meta": "Afternoon · 30 min",
+      "instructions": "Give half an hour of your labour to someone else’s job today, or call others to help with one of yours. Dig, carry, paint, cook, sort, mend. Work alongside each other and sing or talk as you go. The one who is helped feeds the helpers afterwards. Keep no count of the hours. Next time it will be another household’s turn.",
+      "why": "When a Zulu family has a field to plough or a house to build, it calls an ilima. Neighbours come with their own tools and the work is done in a day, with the host providing food and beer. A proverb says that hands wash each other.",
+      "variations": [
+        "Organise a working afternoon for a neighbour.",
+        "Cook for people who helped you.",
+        "Sing while you work together."
+      ]
+    },
+    {
+      "id": "evening-song",
+      "name": "Sing together in the evening",
+      "icon": "music-notes",
+      "slot": "Evening",
+      "time": "19:30",
+      "minutes": 20,
+      "meta": "Evening · 20 min",
+      "instructions": "When the day’s work is done, sing with other people. Any song that everyone knows will do. Let one voice lead and the others answer. Add a low part and a high part if you can, and move your feet in time. If you are alone, sing along with a recording of a Zulu choir, quietly at first. Sing until you are not thinking about how you sound.",
+      "why": "Zulu music is choral. Songs for work, weddings, war and worship are sung in parts with a leader and a response, and with the body moving. Migrant workers in the mines and hostels made the soft, close harmonies of isicathamiya, competing through Saturday night until dawn.",
+      "variations": [
+        "Learn the chorus of one Zulu song.",
+        "Listen to a whole isicathamiya album.",
+        "Clap a steady rhythm with a child."
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task-read-a-canto-of-emperor-shaka-the-great",
+      "name": "Read a canto of Emperor Shaka the Great",
+      "meta": "Read · Mazisi Kunene’s epic, 1979",
+      "time": "20:30",
+      "slot": "Evening",
+      "action": "read"
+    },
+    {
+      "id": "task-listen-to-ladysmith-black-mambazo",
+      "name": "Listen to Ladysmith Black Mambazo",
+      "meta": "Listen · the album Shaka Zulu, 1987",
+      "time": "07:00",
+      "slot": "Morning",
+      "action": "listen"
+    },
+    {
+      "id": "task-look-at-a-zulu-beadwork-panel",
+      "name": "Look at a Zulu beadwork panel",
+      "meta": "Art · and find out what the colours say",
+      "time": "13:30",
+      "slot": "Afternoon",
+      "action": "art"
+    },
+    {
+      "id": "task-play-umlabalaba",
+      "name": "Play umlabalaba",
+      "meta": "Games · the mill game played with stones",
+      "time": "18:30",
+      "slot": "Evening",
+      "action": "games"
+    },
+    {
+      "id": "task-journal-whom-did-you-really-see-today",
+      "name": "Journal: whom did you really see today?",
+      "meta": "Journal · 10 min",
+      "time": "21:00",
+      "slot": "Evening",
+      "action": "journal"
+    },
+    {
+      "id": "task-are-you-a-person-by-yourself-or-through-other-people",
+      "name": "Are you a person by yourself, or through other people?",
+      "meta": "Philosophy · 10 min",
+      "time": "09:00",
+      "slot": "Morning",
+      "action": "philosophy"
+    },
+    {
+      "id": "receive-whatever-you-are-handed-today-with-both-hands",
+      "name": "Receive whatever you are handed today with both hands",
+      "meta": "Respect",
+      "time": "11:00",
+      "slot": "Morning"
+    },
+    {
+      "id": "give-way-to-an-older-person-and-let-them-speak-first",
+      "name": "Give way to an older person and let them speak first",
+      "meta": "Hlonipha",
+      "time": "12:00",
+      "slot": "Afternoon"
+    },
+    {
+      "id": "share-your-food-or-drink-from-one-dish-with-those-present",
+      "name": "Share your food or drink from one dish with those present",
+      "meta": "The shared pot",
+      "time": "18:00",
+      "slot": "Evening"
+    }
+  ],
+  "rules": [
+    {
+      "id": "r1",
+      "text": "Greet everyone",
+      "why": "Stop, look and ask after them. To be seen is to exist."
+    },
+    {
+      "id": "r2",
+      "text": "Respect your elders",
+      "why": "Give way, speak after them and ask their guidance."
+    },
+    {
+      "id": "r3",
+      "text": "Remember those who came before",
+      "why": "Know their names. They are still part of the family."
+    },
+    {
+      "id": "r4",
+      "text": "Praise what deserves it",
+      "why": "Say it aloud and by name. Thanks and praise are one word."
+    },
+    {
+      "id": "r5",
+      "text": "Work together",
+      "why": "Hands wash each other. Lend yours and ask for others’."
+    },
+    {
+      "id": "r6",
+      "text": "Carry yourself with dignity",
+      "why": "Stand straight, keep your word and do not shame your name."
+    }
+  ],
+  "immerse": {
+    "read": [
+      {
+        "id": "read-emperor-shaka-the-great-a-zulu-epic",
+        "title": "Emperor Shaka the Great: A Zulu Epic",
+        "creator": "Mazisi Kunene",
+        "year": "1979",
+        "why": "Seventeen thousand lines on the life of Shaka, composed in Zulu from oral tradition and translated by the poet. It shows a nation builder and thinker where colonial writers saw a tyrant."
+      },
+      {
+        "id": "read-let-my-people-go",
+        "title": "Let My People Go",
+        "creator": "Albert Luthuli",
+        "year": "1962",
+        "why": "The autobiography of a Zulu chief, teacher and Christian who led the African National Congress and won the Nobel Peace Prize."
+      },
+      {
+        "id": "read-zulu-proverbs",
+        "title": "Zulu Proverbs",
+        "creator": "C. L. S. Nyembezi",
+        "year": "1954",
+        "why": "Hundreds of proverbs with translations and explanations of where each comes from, by a great scholar of the language."
+      },
+      {
+        "id": "read-zulu-horizons",
+        "title": "Zulu Horizons",
+        "creator": "B. W. Vilakazi, translated by Florence Louie Friedman",
+        "year": "1973",
+        "why": "English versions of the poems that founded modern Zulu literature in the 1930s and 1940s."
+      },
+      {
+        "id": "read-rope-of-sand-the-rise-and-fall-of-the-zulu-kingdom-in-the-nineteenth-c",
+        "title": "Rope of Sand: The Rise and Fall of the Zulu Kingdom in the Nineteenth Century",
+        "creator": "John Laband",
+        "year": "1995",
+        "why": "The standard narrative history, from Shaka to the British conquest."
+      },
+      {
+        "id": "read-terrific-majesty-the-powers-of-shaka-zulu-and-the-limits-of-historical",
+        "title": "Terrific Majesty: The Powers of Shaka Zulu and the Limits of Historical Invention",
+        "creator": "Carolyn Hamilton",
+        "year": "1998",
+        "why": "How the image of Shaka was made and remade by Zulu and by white writers."
+      }
+    ],
+    "watch": [
+      {
+        "id": "watch-shaka-ilembe",
+        "title": "Shaka iLembe",
+        "creator": "Mzansi Magic",
+        "year": "2023",
+        "why": "A South African series in isiZulu on the making of the Zulu king, written with historians and the royal family."
+      },
+      {
+        "id": "watch-yesterday",
+        "title": "Yesterday",
+        "creator": "Darrell James Roodt",
+        "year": "2004",
+        "why": "A mother in a rural village in KwaZulu-Natal learns that she is ill and sets herself to live until her daughter starts school. The first feature film in isiZulu."
+      },
+      {
+        "id": "watch-on-tiptoe-gentle-steps-to-freedom",
+        "title": "On Tiptoe: Gentle Steps to Freedom",
+        "creator": "Eric Simonson",
+        "year": "2000",
+        "why": "Joseph Shabalala and Ladysmith Black Mambazo, and the story of isicathamiya."
+      },
+      {
+        "id": "watch-amandla-a-revolution-in-four-part-harmony",
+        "title": "Amandla: A Revolution in Four-Part Harmony",
+        "creator": "Lee Hirsch",
+        "year": "2002",
+        "why": "How song carried the struggle against apartheid."
+      }
+    ],
+    "listen": [
+      {
+        "id": "listen-shaka-zulu",
+        "title": "Shaka Zulu",
+        "creator": "Ladysmith Black Mambazo",
+        "year": "1987",
+        "why": "Ten men’s voices, deep and soft, from the group Joseph Shabalala formed in Ladysmith in the 1960s."
+      },
+      {
+        "id": "listen-urbanzulu",
+        "title": "Urbanzulu",
+        "creator": "Busi Mhlongo",
+        "year": "1999",
+        "why": "Maskandi, the music of Zulu guitarists and migrant workers, sung by a woman with a huge voice."
+      },
+      {
+        "id": "listen-thokozile",
+        "title": "Thokozile",
+        "creator": "Mahlathini and the Mahotella Queens",
+        "year": "1987",
+        "why": "Township mbaqanga: a growling bass singer, three women in harmony and a driving band."
+      },
+      {
+        "id": "listen-the-zulu-songs-of-princess-constance-magogo-kadinuzulu",
+        "title": "The Zulu Songs of Princess Constance Magogo kaDinuzulu",
+        "creator": "Princess Magogo, recorded by Hugh Tracey",
+        "year": "1973",
+        "why": "A king’s daughter sings old royal songs to the single-stringed musical bow."
+      }
+    ],
+    "art": [
+      {
+        "id": "art-beadwork",
+        "title": "Beadwork",
+        "creator": "Zulu women",
+        "year": "from the 19th century",
+        "why": "Small panels and necklaces given as tokens between young people. White, red, blue, green, yellow, pink and black each carry several meanings, which shift with their neighbours."
+      },
+      {
+        "id": "art-beer-pots",
+        "title": "Beer pots",
+        "creator": "Nesta Nala and the potters of the Thukela valley",
+        "year": "20th century",
+        "why": "Hand-coiled vessels burnished and fired black, with raised bumps in bands. Nesta Nala made the form known across the world."
+      },
+      {
+        "id": "art-telephone-wire-baskets",
+        "title": "Telephone wire baskets",
+        "creator": "Zulu weavers",
+        "year": "from the 1960s",
+        "why": "Night watchmen began weaving bright plastic-coated wire into bowls with spiralling patterns. It is now a major craft."
+      },
+      {
+        "id": "art-the-married-woman-s-hat",
+        "title": "The married woman’s hat",
+        "creator": "Isicholo",
+        "year": "19th century to today",
+        "why": "A wide flaring disc, once a hairstyle built up with red ochre and fat and later a hat of woven fibre."
+      }
+    ],
+    "eat": [
+      {
+        "id": "eat-uphuthu-with-amasi",
+        "title": "Uphuthu with amasi",
+        "creator": "Crumbly maize meal with soured milk",
+        "why": "The everyday dish. The maize is cooked dry and broken up with a fork, and the thick sour milk is poured over."
+      },
+      {
+        "id": "eat-ujeqe",
+        "title": "Ujeqe",
+        "creator": "Steamed bread",
+        "why": "A soft white loaf steamed in a pot, eaten with stew or beans."
+      },
+      {
+        "id": "eat-isijingi",
+        "title": "Isijingi",
+        "creator": "Pumpkin and maize porridge",
+        "why": "Sweet, yellow and smooth. A food of autumn."
+      },
+      {
+        "id": "eat-amadumbe",
+        "title": "Amadumbe",
+        "creator": "A small taro root",
+        "why": "Boiled in its skin and eaten with salt. Grown along the humid coast."
+      }
+    ],
+    "drink": [
+      {
+        "id": "drink-amasi",
+        "title": "Amasi",
+        "creator": "Soured milk",
+        "why": "Once fermented in a gourd. By custom it was shared only among relatives."
+      },
+      {
+        "id": "drink-utshwala",
+        "title": "Utshwala",
+        "creator": "Sorghum beer",
+        "why": "Brewed by the women of the house over several days. It is thick, sour and low in alcohol, and the first drops are for the ancestors."
+      },
+      {
+        "id": "drink-amahewu",
+        "title": "Amahewu",
+        "creator": "A fermented maize drink",
+        "why": "Thin, slightly sour and not alcoholic. Drunk by workers in the fields."
+      }
+    ],
+    "customs": [
+      {
+        "id": "customs-receiving-with-both-hands",
+        "title": "Receiving with both hands",
+        "creator": "A sign of gratitude",
+        "why": "A gift is taken with both hands cupped, or with the right hand while the left touches the right forearm."
+      },
+      {
+        "id": "customs-greeting-by-clan-name",
+        "title": "Greeting by clan name",
+        "creator": "Praise names",
+        "why": "A person may be greeted or thanked by their clan name and its praises, which honours all their ancestors at once."
+      },
+      {
+        "id": "customs-the-shared-beer-pot",
+        "title": "The shared beer pot",
+        "creator": "Passed in order",
+        "why": "The host drinks first to show the beer is good, and the pot then passes by seniority. One kneels or sits to drink."
+      },
+      {
+        "id": "customs-not-looking-an-elder-in-the-eye",
+        "title": "Not looking an elder in the eye",
+        "creator": "Lowered gaze",
+        "why": "Young people show respect by not staring at their seniors and by sitting when an elder is seated."
+      }
+    ],
+    "games": [
+      {
+        "id": "games-stick-fighting",
+        "title": "Stick fighting",
+        "creator": "Martial game · Zulu",
+        "year": "traditional",
+        "why": "Two young men fence with a striking stick and a parrying stick under the eye of a referee. A bout ends at first blood and the fighters wash each other’s wounds."
+      },
+      {
+        "id": "games-umlabalaba",
+        "title": "Umlabalaba",
+        "creator": "Board game · southern Africa",
+        "year": "ancient",
+        "why": "Each player places and moves twelve stones, called cows, to make rows of three and take the opponent’s. Herd boys scratch the board in the earth."
+      },
+      {
+        "id": "games-ingqathu",
+        "title": "Ingqathu",
+        "creator": "Skipping · Zulu",
+        "year": "traditional",
+        "why": "Rope skipping with songs, by one child or many at once."
+      },
+      {
+        "id": "games-amagende",
+        "title": "Amagende",
+        "creator": "Stone game · Zulu",
+        "year": "traditional",
+        "why": "One stone is thrown up while others are scooped in and out of a hollow, in rounds of rising difficulty."
+      }
+    ],
+    "festivals": [
+      {
+        "id": "fest-the-reed-dance",
+        "title": "The Reed Dance",
+        "creator": "September, Nongoma, KwaZulu-Natal",
+        "why": "Umkhosi woMhlanga. Tens of thousands of young women carry tall reeds to the king’s residence. It belongs to its participants."
+      },
+      {
+        "id": "fest-heritage-day",
+        "title": "Heritage Day",
+        "creator": "24 September, KwaDukuza",
+        "why": "The day once kept as Shaka’s Day. The king addresses the nation at Shaka’s grave."
+      },
+      {
+        "id": "fest-the-first-fruits",
+        "title": "The First Fruits",
+        "creator": "December, Nongoma",
+        "why": "Umkhosi Wokweshwama. The king tastes the new harvest before anyone else may, and the regiments gather."
+      },
+      {
+        "id": "fest-the-isandlwana-commemoration",
+        "title": "The Isandlwana commemoration",
+        "creator": "January, Isandlwana",
+        "why": "Regiments in traditional dress and British re-enactors mark the battle of 1879 together."
+      }
+    ],
+    "places": [
+      {
+        "id": "place-isandlwana",
+        "title": "Isandlwana",
+        "creator": "KwaZulu-Natal, South Africa",
+        "why": "The sphinx-shaped hill where the Zulu army destroyed a British column on 22 January 1879. White cairns mark where the dead were buried."
+      },
+      {
+        "id": "place-the-emakhosini-valley",
+        "title": "The eMakhosini valley",
+        "creator": "Near Ulundi, KwaZulu-Natal",
+        "why": "The Valley of the Kings, where the early Zulu chiefs are buried, with the rebuilt royal residence of Dingane at uMgungundlovu."
+      },
+      {
+        "id": "place-ondini",
+        "title": "Ondini",
+        "creator": "Ulundi, KwaZulu-Natal",
+        "why": "The capital of King Cetshwayo, burned by the British in 1879. Part of the great circle of houses has been rebuilt, with a museum beside it."
+      },
+      {
+        "id": "place-kwadukuza",
+        "title": "KwaDukuza",
+        "creator": "North coast, KwaZulu-Natal",
+        "why": "The site of Shaka’s last capital and of his grave, in the middle of a modern town."
+      },
+      {
+        "id": "place-ncome",
+        "title": "Ncome",
+        "creator": "Near Dundee, KwaZulu-Natal",
+        "why": "A museum built in the shape of the Zulu battle formation, facing the Afrikaner monument across the river where the two armies met in 1838."
+      },
+      {
+        "id": "place-the-luthuli-museum",
+        "title": "The Luthuli Museum",
+        "creator": "Groutville, KwaZulu-Natal",
+        "why": "The modest home of Chief Albert Luthuli, where he lived under banning orders."
+      }
+    ]
+  },
+  "ethics": [
+    {
+      "title": "Ubuntu",
+      "text": "You become human by how you treat others.",
+      "practice": "Do one kindness today for someone who cannot repay it."
+    },
+    {
+      "title": "Respect",
+      "text": "Honour age, rank and the dead.",
+      "practice": "Let an older person go first and speak first."
+    },
+    {
+      "title": "Courage",
+      "text": "Stand firm and face what must be faced.",
+      "practice": "Have the conversation you are avoiding."
+    },
+    {
+      "title": "Generosity",
+      "text": "A visitor is fed. A stingy person is no person.",
+      "practice": "Share your meal."
+    },
+    {
+      "title": "Solidarity",
+      "text": "Hands wash each other.",
+      "practice": "Help with a job that is not yours."
+    },
+    {
+      "title": "Dignity",
+      "text": "Bear yourself well and keep your name clean.",
+      "practice": "Do nothing today that you would not want told of you."
+    }
+  ],
+  "philosophy": [
+    {
+      "title": "A person through people",
+      "text": "No one becomes a person alone. Character is made in relationships and shown in them.",
+      "practice": "Who made you who you are?"
+    },
+    {
+      "title": "To see and be seen",
+      "text": "The greeting says we see you. Recognition is the first gift.",
+      "practice": "Whom do you look past?"
+    },
+    {
+      "title": "The living and the dead",
+      "text": "The ancestors are part of the family and take an interest in it.",
+      "practice": "What would your dead say about how you are living?"
+    },
+    {
+      "title": "The king through the people",
+      "text": "Authority exists because people give it and can be forfeited by misuse.",
+      "practice": "What authority do you hold, and who gave it?"
+    },
+    {
+      "title": "Praise as truth",
+      "text": "A praise names what a person really is. It can also contain a rebuke.",
+      "practice": "What would an honest praise poem say of you?"
+    },
+    {
+      "title": "The one who went ahead",
+      "text": "Wisdom is experience passed down, not invented afresh.",
+      "practice": "Whose experience are you ignoring?"
+    },
+    {
+      "title": "Cattle as relationship",
+      "text": "Cattle joined families in marriage and the living with the dead. Wealth was a tie, not a hoard.",
+      "practice": "What do you own that binds you to others?"
+    },
+    {
+      "title": "Whose Shaka",
+      "text": "Much of what is told about the Zulu past was written by their enemies.",
+      "practice": "Who wrote the story you believe about yourself?"
+    }
+  ],
+  "journal": [
+    "Whom did you really see today?",
+    "Who saw you?",
+    "Whom did you pass without greeting?",
+    "Whose guidance did you ask?",
+    "What did they tell you?",
+    "Whom did you praise, and for what?",
+    "What praise did you receive, and could you take it?",
+    "Whose work did you share?",
+    "Who helped you?",
+    "What did you sing?",
+    "What are the names of your great-grandparents?",
+    "What would they think of you?",
+    "What does your family name mean?",
+    "Where did you show respect?",
+    "Where did you fail to?",
+    "What did you receive with both hands?",
+    "Where was courage asked of you?",
+    "What made you stand tall today?",
+    "What did you do that honours your name?",
+    "Who made you a person?",
+    "Whom are you making?",
+    "What did you share?",
+    "What story about your people is told by others?",
+    "What would you tell differently?",
+    "Who is the bull among your calves?",
+    "What authority do you hold through others?",
+    "What did an elder know that you needed?",
+    "What will you teach?",
+    "Whom do you need to thank by name?",
+    "How did you send people on their way?"
+  ],
+  "reflect": [
+    "What changed when you greeted everyone?",
+    "Whose guidance did you seek, and what came of it?",
+    "Whom did you praise, and how did they receive it?",
+    "What work was done together?",
+    "What did the singing do?",
+    "Which rule will you keep?"
+  ],
+  "dayThemes": [
+    "We see you",
+    "Yes, we see you",
+    "How are you",
+    "Go well",
+    "The people of heaven",
+    "A person through people",
+    "The elder",
+    "Those who went ahead",
+    "The ancestors",
+    "The name",
+    "The clan",
+    "The praise",
+    "The poet",
+    "Thanks",
+    "Both hands",
+    "The homestead",
+    "The cattle",
+    "The shared pot",
+    "The work party",
+    "Hands wash each other",
+    "The matter discussed",
+    "The king through the people",
+    "The regiment",
+    "The shield",
+    "Courage",
+    "Dignity",
+    "The beads",
+    "The song",
+    "The bull among the calves",
+    "Stay well"
+  ],
+  "guide": {
+    "intro": [
+      "The Zulu are the largest people of South Africa. About thirteen million strong, they make up nearly a quarter of the population, and isiZulu is the most widely spoken home language in the country. Their heartland is the province of KwaZulu-Natal, a country of green hills that falls from the Drakensberg mountains to the Indian Ocean, though millions also live in and around Johannesburg.",
+      "They belong to the Nguni branch of the Bantu-speaking peoples, farmers and cattle keepers who have lived in south-eastern Africa for well over a thousand years. Until about two hundred years ago the Zulu were one small clan among many, named after a founding ancestor, Zulu, whose name means heaven. In 1816 Shaka, a son of the Zulu chief, took the chieftainship. Within a dozen years, by war, diplomacy and the absorbing of defeated neighbours, he had built a kingdom of perhaps a quarter of a million people. Its strength lay in the regiments, into which all the young men of the kingdom were enrolled by age, and which served the king as army and workforce.",
+      "Life was centred on the homestead, a circle of domed thatched houses around a cattle enclosure. Cattle were the measure of wealth, the means of marriage and the link with the ancestors, who remained members of the family and were spoken to and given offerings. Manners rested on respect for seniors. History, law and identity were carried in speech, above all in praise poetry, which records the deeds of kings and clans in compressed and brilliant images.",
+      "The kingdom met the expanding European colonies almost at once. Shaka was assassinated by his half-brothers in 1828. His successor Dingane fought the Afrikaner trekkers and was defeated at the Ncome river in 1838. In January 1879 Britain invaded. At Isandlwana the army of King Cetshwayo overran a British camp, among the worst defeats ever inflicted on a colonial force, but by July the capital was burned, the king was a prisoner and the kingdom had been broken into thirteen pieces. A last armed rising against a poll tax, led by Chief Bhambatha, was crushed in 1906.",
+      "Under segregation and apartheid the Zulu lost most of their land and became a reservoir of migrant labour for the mines and cities. In those hostels and townships new music was born, and Zulu leaders stood at the head of the freedom struggle: John Dube was the first president of the African National Congress and Albert Luthuli its president when he won the Nobel Peace Prize in 1960. The years before the first democratic election in 1994 brought bitter political violence in the province.",
+      "Today the Zulu king has no political power and great symbolic weight. The language thrives in radio, television, music and literature. Most Zulu are Christians, many in African independent churches, and respect for the ancestors continues beside it.",
+      "This Onda takes its practices from everyday Zulu manners and arts: the greeting, asking the way, praise, the work party and song."
+    ],
+    "origin": "KwaZulu-Natal, on the eastern coast of South Africa",
+    "era": "The Zulu clan dates from about 1700 and the kingdom from 1816. Some thirteen million people are Zulu today",
+    "figures": [
+      {
+        "name": "Mkabayi kaJama",
+        "dates": "about 1750 to 1843",
+        "bio": "A princess who never married, ruled as regent and decided the succession more than once. She had a hand in the removal of Shaka and of Dingane."
+      },
+      {
+        "name": "Nandi",
+        "dates": "about 1760 to 1827",
+        "bio": "The mother of Shaka, who raised him in exile and hardship. As queen mother she was among the most powerful people in the kingdom."
+      },
+      {
+        "name": "Shaka kaSenzangakhona",
+        "dates": "about 1787 to 1828",
+        "bio": "The founder of the Zulu kingdom. A commander of genius and a ruthless ruler, known chiefly through oral tradition and the accounts of a few traders."
+      },
+      {
+        "name": "Cetshwayo kaMpande",
+        "dates": "about 1826 to 1884",
+        "bio": "The king who tried to avoid war with Britain, won at Isandlwana, lost his kingdom and travelled to London to plead with Queen Victoria for its return."
+      },
+      {
+        "name": "Bhambatha kaMancinza",
+        "dates": "about 1865 to 1906",
+        "bio": "A chief of the Zondi who led the last armed resistance to colonial rule in Natal."
+      },
+      {
+        "name": "Dinuzulu kaCetshwayo",
+        "dates": "1868 to 1913",
+        "bio": "Cetshwayo’s heir, exiled to Saint Helena for seven years and later imprisoned for his supposed part in the rising of 1906."
+      },
+      {
+        "name": "John Langalibalele Dube",
+        "dates": "1871 to 1946",
+        "bio": "Minister, educator and newspaper founder. He set up the Ohlange Institute in 1900 and was the first president of the African National Congress in 1912."
+      },
+      {
+        "name": "Albert Luthuli",
+        "dates": "1898 to 1967",
+        "bio": "Teacher, elected chief of Groutville and president of the African National Congress. He was the first African to receive the Nobel Peace Prize."
+      },
+      {
+        "name": "Princess Magogo kaDinuzulu",
+        "dates": "1900 to 1984",
+        "bio": "Singer, composer and player of the musical bow, who preserved a great body of royal song."
+      },
+      {
+        "name": "Benedict Wallet Vilakazi",
+        "dates": "1906 to 1947",
+        "bio": "Poet, novelist and the first Black South African to earn a doctorate. He brought new forms into Zulu verse."
+      },
+      {
+        "name": "Mazisi Kunene",
+        "dates": "1930 to 2006",
+        "bio": "Poet of two great epics in isiZulu, written in exile. South Africa’s first poet laureate."
+      },
+      {
+        "name": "Joseph Shabalala",
+        "dates": "1940 to 2020",
+        "bio": "A farm boy from Ladysmith who dreamed a sound, founded Ladysmith Black Mambazo and took Zulu harmony around the world."
+      }
+    ],
+    "history": [
+      {
+        "when": "About AD 400",
+        "what": "Farmers in the east",
+        "detail": "Bantu-speaking communities who grow grain, keep cattle and work iron are settled in what is now KwaZulu-Natal."
+      },
+      {
+        "when": "About 1700",
+        "what": "The Zulu clan",
+        "detail": "Zulu, son of Malandela, founds a small chiefdom in the valley of the White Mfolozi."
+      },
+      {
+        "when": "1816",
+        "what": "Shaka",
+        "detail": "On the death of his father Senzangakhona, Shaka takes the chieftainship with the backing of his patron Dingiswayo."
+      },
+      {
+        "when": "1818 to 1828",
+        "what": "The kingdom",
+        "detail": "Shaka defeats the Ndwandwe and brings the chiefdoms between the Phongolo and the Thukela under one rule. The upheavals of these years scatter peoples across southern Africa."
+      },
+      {
+        "when": "22 September 1828",
+        "what": "The assassination",
+        "detail": "Shaka is stabbed at KwaDukuza by his half-brothers Dingane and Mhlangana. Dingane takes the throne."
+      },
+      {
+        "when": "1838",
+        "what": "The trekkers",
+        "detail": "Dingane has the Boer leader Piet Retief and his party killed in February. On 16 December a Boer force defeats the Zulu army at the Ncome, which they name Blood River."
+      },
+      {
+        "when": "1840 to 1872",
+        "what": "Mpande",
+        "detail": "Dingane’s brother rules for thirty-two years in uneasy peace with the colony of Natal. His sons fight a civil war in 1856, which Cetshwayo wins."
+      },
+      {
+        "when": "22 January 1879",
+        "what": "Isandlwana",
+        "detail": "Some twenty thousand Zulu overwhelm the British camp. About thirteen hundred of the invading force are killed, and more than a thousand Zulu."
+      },
+      {
+        "when": "4 July 1879",
+        "what": "Ulundi",
+        "detail": "The British defeat the Zulu army and burn the capital. The kingdom is divided among thirteen appointed chiefs and falls into civil war."
+      },
+      {
+        "when": "1887 to 1897",
+        "what": "Annexation",
+        "detail": "Britain annexes Zululand and then joins it to Natal. Much of the land is opened to white farmers."
+      },
+      {
+        "when": "1906",
+        "what": "The Bhambatha rising",
+        "detail": "A poll tax provokes rebellion. Colonial troops kill between three and four thousand people."
+      },
+      {
+        "when": "1912 and 1913",
+        "what": "A congress and a law",
+        "detail": "John Dube is elected first president of what becomes the African National Congress. The Natives Land Act reserves most of the country for whites."
+      },
+      {
+        "when": "1970s to 1994",
+        "what": "The homeland and the violence",
+        "detail": "A KwaZulu homeland is set up under Chief Mangosuthu Buthelezi. Conflict between his Inkatha movement and supporters of the African National Congress costs many thousands of lives."
+      },
+      {
+        "when": "1994 to today",
+        "what": "Democracy",
+        "detail": "KwaZulu-Natal becomes a province of a democratic South Africa. King Goodwill Zwelithini reigns for fifty years until 2021 and is succeeded by Misuzulu kaZwelithini."
+      }
+    ],
+    "concepts": [
+      {
+        "term": "Ubuntu",
+        "text": "Humanity through others.",
+        "detail": "A person’s worth and identity come from their relationships. The proverb about being a person through people is Zulu in the form most often quoted."
+      },
+      {
+        "term": "Hlonipha",
+        "text": "Respect in act and word.",
+        "detail": "A code of deference toward seniors, in-laws and the ancestors, with its own vocabulary of avoidance."
+      },
+      {
+        "term": "The ancestors",
+        "text": "The dead remain kin.",
+        "detail": "They protect, warn through dreams and illness, and are addressed with offerings of beer and meat at family ceremonies."
+      },
+      {
+        "term": "The regiments",
+        "text": "Service by age.",
+        "detail": "Age regiments cut across clan loyalties and bound young men directly to the king. They built his residences, herded his cattle and fought his wars."
+      },
+      {
+        "term": "The homestead",
+        "text": "A circle around the cattle.",
+        "detail": "The layout shows the order of the family: the great house at the top, the wives’ houses by rank on either side and the enclosure of the cattle and ancestors in the middle."
+      },
+      {
+        "term": "Praise poetry",
+        "text": "History in images.",
+        "detail": "Izibongo are built from praise names strung together. They are a people’s archive and are still composed for presidents, kings and footballers."
+      },
+      {
+        "term": "Bridewealth",
+        "text": "Cattle that join families.",
+        "detail": "Ilobolo is negotiated between families and creates lasting obligations on both sides. It is not a purchase."
+      },
+      {
+        "term": "Kingship",
+        "text": "The king as the nation.",
+        "detail": "The king embodied the unity of the people and led the great rituals of the first fruits. He ruled with a council and through chiefs."
+      },
+      {
+        "term": "The scattering",
+        "text": "The wars of the 1820s.",
+        "detail": "Historians debate how far the upheavals of Shaka’s time were caused by the Zulu kingdom and how far by drought and the slave and ivory trades."
+      }
+    ],
+    "facts": [
+      {
+        "text": "isiZulu has three click sounds, written c, q and x, which it took from the Khoisan languages."
+      },
+      {
+        "text": "The battle formation credited to Shaka was called the horns of the buffalo: a chest, two encircling horns and a reserve of loins."
+      },
+      {
+        "text": "The song that became The Lion Sleeps Tonight was composed in isiZulu by Solomon Linda in 1939 under the title Mbube, lion."
+      },
+      {
+        "text": "The South African national anthem includes a verse in isiZulu."
+      },
+      {
+        "text": "Words such as indaba, impi and donga have entered South African English from isiZulu."
+      },
+      {
+        "text": "Nelson Mandela cast his first vote, in 1994, at John Dube’s Ohlange school."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Nguni",
+        "meaning": "The group of related peoples and languages that includes Zulu, Xhosa, Swati and Ndebele"
+      },
+      {
+        "term": "KwaZulu",
+        "meaning": "The place of the Zulu"
+      },
+      {
+        "term": "Kraal",
+        "meaning": "A colonial word for a homestead or cattle enclosure, from Portuguese"
+      },
+      {
+        "term": "Assegai",
+        "meaning": "A colonial word for a spear. The short stabbing spear is called iklwa in isiZulu"
+      },
+      {
+        "term": "Maskandi",
+        "meaning": "Zulu guitar music, from the Afrikaans word for musician"
+      },
+      {
+        "term": "Mfecane",
+        "meaning": "A name given to the wars and migrations of the 1820s"
+      }
+    ],
+    "furtherReading": [
+      {
+        "title": "The Destruction of the Zulu Kingdom",
+        "creator": "Jeff Guy",
+        "year": "1979",
+        "note": "How the kingdom was deliberately broken up after 1879."
+      },
+      {
+        "title": "The Creation of the Zulu Kingdom, 1815 to 1828",
+        "creator": "Elizabeth A. Eldredge",
+        "year": "2014",
+        "note": "A reconstruction of Shaka’s reign that takes the oral traditions seriously."
+      },
+      {
+        "title": "Zulu Thought-Patterns and Symbolism",
+        "creator": "Axel-Ivar Berglund",
+        "year": "1976",
+        "note": "A careful study of belief and ritual, based on long conversations with Zulu thinkers."
+      },
+      {
+        "title": "Musho: Zulu Popular Praises",
+        "creator": "Liz Gunner and Mafika Gwala",
+        "year": "1991",
+        "note": "Praise poems of chiefs, women, workers and trade unions, in Zulu and English."
+      }
+    ],
+    "learnFrom": [
+      {
+        "name": "Luthuli Museum",
+        "note": "The museum at Chief Albert Luthuli’s home in Groutville.",
+        "link": "https://luthulimuseum.org.za"
+      },
+      {
+        "name": "KwaZulu-Natal Museum",
+        "note": "The provincial museum in Pietermaritzburg, with collections on Zulu history and material culture.",
+        "link": "https://www.nmsa.org.za"
+      },
+      {
+        "name": "Campbell Collections",
+        "note": "The University of KwaZulu-Natal’s archive of Zulu history, beadwork and oral testimony.",
+        "link": "https://campbell.ukzn.ac.za"
+      },
+      {
+        "name": "A speaker of isiZulu",
+        "note": "Ask one to teach you the greeting properly, clicks and all, and to tell you their clan praises."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Rope of Sand: The Rise and Fall of the Zulu Kingdom in the Nineteenth Century",
+        "creator": "John Laband",
+        "publisher": "Jonathan Ball",
+        "year": "1995"
+      },
+      {
+        "title": "The Destruction of the Zulu Kingdom",
+        "creator": "Jeff Guy",
+        "publisher": "Longman",
+        "year": "1979"
+      },
+      {
+        "title": "Zulu Proverbs",
+        "creator": "C. L. S. Nyembezi",
+        "publisher": "Witwatersrand University Press",
+        "year": "1954"
+      },
+      {
+        "title": "Terrific Majesty",
+        "creator": "Carolyn Hamilton",
+        "publisher": "Harvard University Press",
+        "year": "1998"
+      },
+      {
+        "title": "The Social System of the Zulus",
+        "creator": "Eileen Jensen Krige",
+        "publisher": "Longmans, Green",
+        "year": "1936"
+      },
+      {
+        "title": "Zulu Thought-Patterns and Symbolism",
+        "creator": "Axel-Ivar Berglund",
+        "publisher": "Hurst",
+        "year": "1976"
+      }
+    ]
+  },
+  "sensitivity": {
+    "note": "The Zulu are a living nation of some thirteen million people. This Onda was written by outsiders from published sources and borrows only everyday manners and arts. It should be reviewed by Zulu readers.",
+    "requiredCaveats": [
+      "The picture of the Zulu as a warrior people was largely made by their colonial enemies. Much of what is told of Shaka comes from hostile or self-interested witnesses.",
+      "Ceremonies for the ancestors, the calling of a diviner, the Reed Dance and the First Fruits belong to Zulu families and the Zulu nation. Nothing here asks you to imitate them.",
+      "Some customs described, such as hlonipha speech and bridewealth, are debated among Zulu people today, particularly by women.",
+      "Pronunciations are approximate. The clicks and the hl and dl sounds of isiZulu cannot be shown in English spelling."
+    ],
+    "reviewRequired": true
+  }
+}

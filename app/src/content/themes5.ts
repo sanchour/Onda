@@ -206,4 +206,25 @@ export const THEMES5: Record<string, Theme> = {
     bg: '#D2F0F2', strong: '#0B8FA8', darkBg: '#0F3038', darkStrong: '#62D8E8', glyph: 'Etak', font: 'Quicksand,sans-serif',
     pattern: tile(40, 40, ln('M0 30L40 10M10 0L30 40M0 8L18 40', '.08') + "<circle cx='20' cy='20' r='1.8' fill='$.16)'/>"),
   },
+  // Added in 5.1
+  zulu: {
+    shape: '0', clip: DIAMOND, radius: '6px 26px 6px 26px', numerals: 'latin', ornament: 'beads',
+    bg: '#F4E7D3', strong: '#1E1E1E', darkBg: '#221C17', darkStrong: '#F2B632', glyph: 'Sawubona', font: 'Lexend,sans-serif',
+    pattern: tile(24, 24, "<path d='M12 2L22 12L12 22L2 12Z' fill='none' stroke='$.10)' stroke-width='1.5'/><path d='M12 8L16 12L12 16L8 12Z' fill='rgba(200,30,40,.12)'/>"),
+  },
+  bantu: {
+    shape: '50% 50% 14px 14px', radius: '30px 30px 12px 12px', numerals: 'latin', ornament: 'mbira',
+    bg: '#EAE4C8', strong: '#2F6B3A', darkBg: '#1B2A1D', darkStrong: '#8FD49A', glyph: 'Ntu', font: 'Sora,sans-serif',
+    pattern: tile(18, 18, "<circle cx='9' cy='9' r='5' fill='none' stroke='$.09)' stroke-width='1.2'/><circle cx='9' cy='9' r='1.4' fill='$.12)'/>"),
+  },
+  khmer: {
+    shape: '0', clip: GATE, radius: '4px 4px 22px 22px', numerals: 'khmer', ornament: 'prasat',
+    bg: '#E9DFC6', strong: '#7A5A1E', darkBg: '#2A2416', darkStrong: '#E3BE6A', glyph: 'អង្គរ', font: 'Suwannaphum,serif',
+    pattern: tile(24, 14, ln('M0 14C4 14 4 6 8 6S12 14 12 14M12 14C16 14 16 6 20 6S24 14 24 14M12 6V2', '.10'), true),
+  },
+  celtic: {
+    shape: '50%', radius: '30px', numerals: 'latin', ornament: 'triskele',
+    bg: '#DDEBDD', strong: '#1F6B4A', darkBg: '#14281F', darkStrong: '#7FD3A8', glyph: 'Awen', font: "'Uncial Antiqua',serif",
+    pattern: tile(28, 28, ln('M0 7C7 7 7 21 14 21S21 7 28 7M0 21C7 21 7 7 14 7S21 21 28 21', '.09')),
+  },
 }

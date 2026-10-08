@@ -933,3 +933,35 @@ Caveats shown in the app:
 Marked `unverified` (1):
 
 - Quote: "To navigate you must be brave, and to be brave you must remember." (Attributed to Mau Piailug; The master navigator of Satawal, as his teaching is often summed up by his students)
+
+## Zulu
+
+File: `content/ondas/zulu.json` · version 1 · about 4800 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
+
+**Needs review by tradition bearers before launch.** The Zulu are a living nation of some thirteen million people. This Onda was written by outsiders from published sources and borrows only everyday manners and arts. It should be reviewed by Zulu readers.
+
+Caveats shown in the app:
+
+- The picture of the Zulu as a warrior people was largely made by their colonial enemies. Much of what is told of Shaka comes from hostile or self-interested witnesses.
+- Ceremonies for the ancestors, the calling of a diviner, the Reed Dance and the First Fruits belong to Zulu families and the Zulu nation. Nothing here asks you to imitate them.
+- Some customs described, such as hlonipha speech and bridewealth, are debated among Zulu people today, particularly by women.
+- Pronunciations are approximate. The clicks and the hl and dl sounds of isiZulu cannot be shown in English spelling.
+
+Marked `unverified` (1):
+
+- Quote: "You will not rule when I am gone. The land will be ruled by the swallows." (Attributed to Shaka; His dying words to his assassins in 1828, according to Zulu oral tradition. The swallows are taken to mean the white settlers)
+
+## Bantu
+
+File: `content/ondas/bantu.json` · version 1 · about 4900 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
+
+**Needs review by tradition bearers before launch.** Bantu is a family of languages spoken by hundreds of different peoples, and there is no single Bantu culture. This Onda gathers habits that are widely shared, names the language of every word and proverb, and should be reviewed by speakers of those languages.
+
+Caveats shown in the app:
+
+- In South Africa the word Bantu was the apartheid state’s label for Black people and is offensive when applied to persons. Here it is used only in its linguistic sense.
+- Customs differ greatly between, say, the Swahili coast, the Congo forest and the southern grasslands. Nothing said here is true of every people.
+- The idea of a single Bantu philosophy was first set out by a Belgian missionary in 1945 and has been strongly criticised by African philosophers.
+- Rites of initiation, healing and the ancestors belong to particular communities and are not practices for outsiders.
+
+Nothing is marked `unverified`.

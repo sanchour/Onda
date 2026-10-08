@@ -78,7 +78,7 @@ describe('Onda content', () => {
   })
 
   it('traditions that need cultural care carry a framing note, caveats and community sources, and are flagged for review', () => {
-    const living = ['hindu', 'mahayana', 'theravada', 'shinto', 'jain', 'sikh', 'zoroaster', 'judaism', 'christian', 'sunni', 'shia', 'rasta', 'maasai', 'aboriginal', 'polynesia', 'melanesia', 'micronesia', 'inca'].filter((id) => ONDA_INDEX.some((o) => o.id === id))
+    const living = ['hindu', 'mahayana', 'theravada', 'shinto', 'jain', 'sikh', 'zoroaster', 'judaism', 'christian', 'sunni', 'shia', 'rasta', 'maasai', 'aboriginal', 'polynesia', 'melanesia', 'micronesia', 'inca', 'zulu', 'bantu', 'khmer', 'celtic'].filter((id) => ONDA_INDEX.some((o) => o.id === id))
     for (const id of ['animism', 'ubuntu', 'tibet', 'sufi', 'soviet', 'yoruba', 'aztec', 'gnostic', 'norse', 'confucian', 'abbasid', 'cuba', ...living]) {
       const c = load(id)
       expect(c.sensitivity, id).toBeDefined()

@@ -66,6 +66,10 @@ export const GROUP_OF: Record<string, BrowseGroup> = {
   polynesia: 'culture',
   melanesia: 'culture',
   micronesia: 'culture',
+  zulu: 'culture',
+  bantu: 'culture',
+  khmer: 'state',
+  celtic: 'culture',
 }
 
 export interface ComingSoon {

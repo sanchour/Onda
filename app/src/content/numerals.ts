@@ -1,10 +1,11 @@
 /* Numerals in each tradition's own script, used for rule numbers and index badges. Each set is standard Unicode. */
 
-export type NumeralSet = 'latin' | 'roman' | 'kanji' | 'tibetan' | 'devanagari' | 'arabic' | 'greek' | 'gurmukhi' | 'thai' | 'persian' | 'hebrew'
+export type NumeralSet = 'latin' | 'roman' | 'kanji' | 'tibetan' | 'devanagari' | 'arabic' | 'greek' | 'gurmukhi' | 'thai' | 'persian' | 'hebrew' | 'khmer'
 
-const DIGITS: Record<'tibetan' | 'devanagari' | 'arabic' | 'gurmukhi' | 'thai' | 'persian', string> = {
+const DIGITS: Record<'tibetan' | 'devanagari' | 'arabic' | 'gurmukhi' | 'thai' | 'persian' | 'khmer', string> = {
   gurmukhi: '੦੧੨੩੪੫੬੭੮੯',
   thai: '๐๑๒๓๔๕๖๗๘๙',
+  khmer: '០១២៣៤៥៦៧៨៩',
   persian: '۰۱۲۳۴۵۶۷۸۹',
   tibetan: '༠༡༢༣༤༥༦༧༨༩',
   devanagari: '०१२३४५६७८९',

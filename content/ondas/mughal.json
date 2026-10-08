@@ -1,0 +1,1259 @@
+{
+  "version": 1,
+  "id": "mughal",
+  "name": "Mughal Empire",
+  "origin": "South Asia",
+  "era": "1526 to 1858",
+  "tone": "green",
+  "icon": "flower",
+  "font": "yatra-one",
+  "pattern": "eight-point-stars",
+  "glyph": "نور",
+  "line": "Be at peace with all, look closely at the world and make something beautiful of the day.",
+  "quote": {
+    "text": "It is my duty to be in good understanding with all men. If they walk in the way of God’s will, interference with them would be in itself reprehensible; and if otherwise, they are under the malady of ignorance and deserve my compassion.",
+    "by": "Akbar",
+    "source": "Letter to Shah Abbas of Persia, 1594, in Abu’l-Fazl, Akbarnama, trans. H. Beveridge"
+  },
+  "quotes": [
+    {
+      "text": "I have simply written the truth. I do not intend by what I have written to compliment myself; I have simply set down exactly what happened.",
+      "by": "Babur",
+      "source": "The Baburnama, his memoirs, about 1529, trans. Wheeler M. Thackston"
+    },
+    {
+      "text": "If there is a paradise on earth, it is this, it is this, it is this.",
+      "by": "Persian couplet attributed to Amir Khusrau",
+      "source": "Inscribed in gold on the walls of the Hall of Private Audience in the Red Fort, Delhi, 1648"
+    },
+    {
+      "text": "Jesus, son of Mary, on whom be peace, said: The world is a bridge. Pass over it, but build no houses upon it.",
+      "by": "Inscription",
+      "source": "On the Buland Darwaza, Akbar’s great gateway at Fatehpur Sikri, 1601"
+    },
+    {
+      "text": "Let nothing cover my grave save the green grass, for grass suffices as the covering of the lowly.",
+      "by": "Jahanara Begum",
+      "source": "The Persian verse she composed for her own open-topped tomb at the shrine of Nizamuddin, Delhi, 1681"
+    },
+    {
+      "text": "Thousands of desires, each one worth dying for. Many of my wishes were fulfilled, and yet they were few.",
+      "by": "Mirza Ghalib",
+      "source": "The opening couplet of a ghazal, Delhi, about 1850. Translated from the Urdu"
+    },
+    {
+      "text": "One teardrop on the cheek of time.",
+      "by": "Rabindranath Tagore",
+      "source": "On the Taj Mahal, from his Bengali poem Shah Jahan, 1914"
+    }
+  ],
+  "words": [
+    {
+      "id": "word-sulh-i-kull",
+      "term": "Sulh-i kull",
+      "meaning": "Peace with all",
+      "pronunciation": "SOOL-hee KOOL",
+      "language": "Persian",
+      "usage": "Akbar’s governing principle: the ruler favours no religion over another, and every subject is under his protection."
+    },
+    {
+      "id": "word-padshah",
+      "term": "Padshah",
+      "meaning": "Emperor",
+      "pronunciation": "pahd-SHAH",
+      "language": "Persian",
+      "usage": "The title Babur took at Kabul in 1507. It means master king."
+    },
+    {
+      "id": "word-darbar",
+      "term": "Darbar",
+      "meaning": "The court in session",
+      "pronunciation": "dur-BAHR",
+      "language": "Persian",
+      "usage": "The formal assembly at which the emperor heard petitions, received envoys and gave orders, with everyone standing in order of rank."
+    },
+    {
+      "id": "word-jharokha",
+      "term": "Jharokha",
+      "meaning": "The balcony of appearance",
+      "pronunciation": "juh-ROH-kah",
+      "language": "Hindustani",
+      "usage": "Each sunrise the emperor showed himself at a window in the palace wall so that the people could see he was alive and bring him their complaints."
+    },
+    {
+      "id": "word-diwan-i-am",
+      "term": "Diwan-i Am",
+      "meaning": "Hall of public audience",
+      "pronunciation": "dee-WAHN-ee AHM",
+      "language": "Persian",
+      "usage": "A pillared hall open on three sides, where anyone might in principle approach the throne."
+    },
+    {
+      "id": "word-diwan-i-khas",
+      "term": "Diwan-i Khas",
+      "meaning": "Hall of private audience",
+      "pronunciation": "dee-WAHN-ee KHAHS",
+      "language": "Persian",
+      "usage": "The inner hall for ministers, ambassadors and confidential business."
+    },
+    {
+      "id": "word-mansab",
+      "term": "Mansab",
+      "meaning": "Rank",
+      "pronunciation": "MUN-sub",
+      "language": "Persian, from Arabic",
+      "usage": "A number, from ten to several thousand, that fixed a noble’s pay and the cavalry he must maintain. Persians, Turks, Afghans, Rajputs and Indian Muslims all held them."
+    },
+    {
+      "id": "word-farman",
+      "term": "Farman",
+      "meaning": "Imperial decree",
+      "pronunciation": "fur-MAHN",
+      "language": "Persian",
+      "usage": "An order under the emperor’s seal, written in a fine hand and often beautifully illuminated."
+    },
+    {
+      "id": "word-zenana",
+      "term": "Zenana",
+      "meaning": "The women’s quarters",
+      "pronunciation": "zeh-NAH-nah",
+      "language": "Persian",
+      "usage": "A walled world of several thousand women with its own officers, incomes and politics. Senior women traded, built and advised."
+    },
+    {
+      "id": "word-charbagh",
+      "term": "Charbagh",
+      "meaning": "Fourfold garden",
+      "pronunciation": "CHAR-bahg",
+      "language": "Persian",
+      "usage": "A walled garden divided by water channels into four, recalling the rivers of paradise. Babur brought the form to India."
+    },
+    {
+      "id": "word-bagh",
+      "term": "Bagh",
+      "meaning": "Garden",
+      "pronunciation": "BAHG",
+      "language": "Persian",
+      "usage": "Mughal rulers camped, held court, celebrated and were buried in gardens."
+    },
+    {
+      "id": "word-ibadat-khana",
+      "term": "Ibadat Khana",
+      "meaning": "House of worship",
+      "pronunciation": "ee-BAH-dut KHAH-nah",
+      "language": "Persian",
+      "usage": "The hall at Fatehpur Sikri where Akbar gathered scholars of every religion to debate before him on Thursday nights."
+    },
+    {
+      "id": "word-adab",
+      "term": "Adab",
+      "meaning": "Etiquette; refinement",
+      "pronunciation": "AH-dub",
+      "language": "Persian and Urdu, from Arabic",
+      "usage": "The whole code of courteous conduct: how to greet, sit, speak, eat and disagree. Also a word of greeting."
+    },
+    {
+      "id": "word-tehzeeb",
+      "term": "Tehzeeb",
+      "meaning": "Cultivation; civility",
+      "pronunciation": "teh-ZEEB",
+      "language": "Urdu, from Arabic",
+      "usage": "Polished manners and taste. The shared culture of Hindus and Muslims in the northern cities is called the Ganga-Jamuni tehzeeb, after the two rivers that meet."
+    },
+    {
+      "id": "word-taslim",
+      "term": "Taslim",
+      "meaning": "The court salutation",
+      "pronunciation": "tus-LEEM",
+      "language": "Persian, from Arabic",
+      "usage": "Placing the back of the right hand on the ground and raising it gently to the head while standing up."
+    },
+    {
+      "id": "word-khilat",
+      "term": "Khilat",
+      "meaning": "Robe of honour",
+      "pronunciation": "KHIL-ut",
+      "language": "Persian, from Arabic",
+      "usage": "A garment, ideally one the emperor had worn, given as a mark of favour. To put it on was to accept his service."
+    },
+    {
+      "id": "word-nazr",
+      "term": "Nazr",
+      "meaning": "A gift to a superior",
+      "pronunciation": "NUZ-ur",
+      "language": "Persian, from Arabic",
+      "usage": "Gold coins offered on a cloth when approaching the emperor. He touched them and often gave more in return."
+    },
+    {
+      "id": "word-kitabkhana",
+      "term": "Kitabkhana",
+      "meaning": "The house of books",
+      "pronunciation": "kee-TAHB-khah-nah",
+      "language": "Persian",
+      "usage": "The imperial library and workshop, where calligraphers, painters, gilders and binders worked together on manuscripts."
+    },
+    {
+      "id": "word-musawwir",
+      "term": "Musawwir",
+      "meaning": "Painter",
+      "pronunciation": "moo-SAHV-vir",
+      "language": "Persian, from Arabic",
+      "usage": "Court painters signed with humble phrases. Jahangir boasted he could tell which of them had painted each face in a picture."
+    },
+    {
+      "id": "word-parchin-kari",
+      "term": "Parchin kari",
+      "meaning": "Stone inlay",
+      "pronunciation": "pur-CHEEN KAH-ree",
+      "language": "Persian",
+      "usage": "Flowers of cut carnelian, jade and lapis set flush into white marble. The decoration of the Taj Mahal."
+    },
+    {
+      "id": "word-jali",
+      "term": "Jali",
+      "meaning": "Pierced stone screen",
+      "pronunciation": "JAH-lee",
+      "language": "Hindustani",
+      "usage": "A lattice carved from a single slab, which lets in air and patterned light and keeps out glare and eyes."
+    },
+    {
+      "id": "word-attar",
+      "term": "Attar",
+      "meaning": "Perfume oil",
+      "pronunciation": "UT-tur",
+      "language": "Persian, from Arabic",
+      "usage": "Scent distilled from flowers into sandalwood oil. Jahangir records that Nur Jahan’s mother discovered the attar of roses."
+    },
+    {
+      "id": "word-mehfil",
+      "term": "Mehfil",
+      "meaning": "A gathering for music or poetry",
+      "pronunciation": "MEH-fil",
+      "language": "Urdu, from Arabic",
+      "usage": "An intimate evening in which the listeners’ appreciation is part of the performance."
+    },
+    {
+      "id": "word-mushaira",
+      "term": "Mushaira",
+      "meaning": "Poetry assembly",
+      "pronunciation": "moo-SHY-rah",
+      "language": "Urdu, from Arabic",
+      "usage": "Poets recite in turn, a candle is placed before each, and the audience answers good lines aloud."
+    },
+    {
+      "id": "word-ghazal",
+      "term": "Ghazal",
+      "meaning": "A lyric poem of couplets",
+      "pronunciation": "GUH-zul",
+      "language": "Persian and Urdu, from Arabic",
+      "usage": "Each couplet is complete in itself, and all share a rhyme and refrain. Its subject is love, human or divine, usually unattained."
+    },
+    {
+      "id": "word-sher",
+      "term": "Sher",
+      "meaning": "A couplet",
+      "pronunciation": "SHAIR",
+      "language": "Persian and Urdu",
+      "usage": "Two lines that must hold a whole thought. People quote them in conversation as proof and as comfort."
+    },
+    {
+      "id": "word-raga",
+      "term": "Raga",
+      "meaning": "A melodic mode",
+      "pronunciation": "RAH-gah",
+      "language": "Sanskrit",
+      "usage": "A set of notes and phrases with a mood, a season and an hour of the day. The court musician Tansen is credited with several."
+    },
+    {
+      "id": "word-dastarkhwan",
+      "term": "Dastarkhwan",
+      "meaning": "The spread cloth for a meal",
+      "pronunciation": "dus-tur-KHAHN",
+      "language": "Persian",
+      "usage": "The cloth on the floor around which diners sit, and by extension the whole art of the table."
+    },
+    {
+      "id": "word-paan",
+      "term": "Paan",
+      "meaning": "Betel leaf folded round areca nut and spices",
+      "pronunciation": "PAHN",
+      "language": "Hindustani",
+      "usage": "Offered at the end of a meal or an audience. To be given it by the emperor’s hand was an honour."
+    },
+    {
+      "id": "word-nur",
+      "term": "Nur",
+      "meaning": "Light",
+      "pronunciation": "NOOR",
+      "language": "Persian, from Arabic",
+      "usage": "A favourite Mughal word. Jahangir’s full title was Light of the Faith, and he named his wife Nur Jahan, Light of the World."
+    }
+  ],
+  "practices": [
+    {
+      "id": "jharokha",
+      "name": "Appear at sunrise",
+      "icon": "sun-horizon",
+      "slot": "Morning",
+      "time": "06:30",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Be up before the sun and go to a window, a balcony or your doorstep. Watch the sun rise and greet it in silence. Then make yourself available. Ask each person in your household, or message the people who depend on you, with one question: is there anything you need from me today? Deal with what you can at once. Note the rest and settle it before evening.",
+      "why": "Akbar began the custom of jharokha darshan. Every morning at sunrise the emperor appeared at a palace window above the riverbank, where crowds waited to see him and to hand up petitions. Jahangir hung a golden chain with bells from his walls so that anyone wronged could ring it and be heard.",
+      "variations": [
+        "Keep one hour a week when anyone may come to you with a complaint.",
+        "Answer the oldest unanswered request first.",
+        "Watch the sunrise from the same place each day and note how it moves."
+      ]
+    },
+    {
+      "id": "memoir",
+      "name": "Write exactly what happened",
+      "icon": "notebook",
+      "slot": "Morning",
+      "time": "08:00",
+      "minutes": 15,
+      "meta": "Morning · 15 min",
+      "instructions": "Write one page in a notebook as Babur did: plainly, exactly and without flattering yourself. Describe one thing from the natural world that you have looked at closely today, a tree, a fruit, a bird, the weather, with its colour, size and habits, as if for someone who has never seen it. Then set down one thing you did, including what you got wrong. Add no moral.",
+      "why": "The founder of the dynasty kept a diary in his native Turkic for most of his life. It records melons and battles, his first love and his hangovers, with the same frank eye. His great-grandson Jahangir did likewise, dissecting a lion to see where courage lay and ordering his painters to record a turkey, a zebra and a falling meteorite.",
+      "variations": [
+        "Draw the thing as well as describing it.",
+        "Measure it.",
+        "Describe a person you met today in five exact sentences."
+      ]
+    },
+    {
+      "id": "house-of-dialogue",
+      "name": "The house of dialogue",
+      "icon": "chats",
+      "slot": "Afternoon",
+      "time": "14:00",
+      "minutes": 20,
+      "meta": "Afternoon · 20 min",
+      "instructions": "Give twenty minutes to a view of the world that is not yours. Read a page of another tradition’s scripture, or sit with someone of a different religion, politics or background and ask them to explain what they hold most important and why. Your task is to understand it well enough to state it back to their satisfaction. Do not argue. Afterwards write down one thing in it that you could respect.",
+      "why": "In 1575 Akbar built a hall at Fatehpur Sikri and filled it on Thursday nights with Sunni and Shia scholars, Hindu pandits, Jains, Zoroastrians, Jews and Jesuit priests from Goa, to debate in front of him. He concluded that no one faith held all the truth, and made peace with all the rule of his empire.",
+      "variations": [
+        "Read a text sacred to others in a good translation, as Akbar had the Mahabharata put into Persian.",
+        "Invite two friends who disagree and keep the peace between them.",
+        "Visit a place of worship that is not your own, as a respectful guest."
+      ]
+    },
+    {
+      "id": "garden",
+      "name": "The fourfold garden",
+      "icon": "flower",
+      "slot": "Afternoon",
+      "time": "17:00",
+      "minutes": 20,
+      "meta": "Afternoon · 20 min",
+      "instructions": "Spend twenty minutes in a garden near the end of the day. If you have any ground or even a tray of pots, arrange it in four parts round a centre, and tend it: water, weed, tie up, plant something scented. If you have none, go to a public garden and walk its paths slowly. Find running or still water and sit by it. Smell at least one flower properly. Notice what has changed since yesterday.",
+      "why": "Babur’s first act in India was to lay out a garden, since he found the country had no running water or order. His descendants built hundreds, divided in four by channels with a pavilion or tomb at the crossing, planted with fruit, cypress and roses. They received ambassadors in them and are buried in them.",
+      "variations": [
+        "Plant a rose, a jasmine or a fruit tree.",
+        "Put a bowl of water with floating petals where you will see it.",
+        "Wear a drop of rose or sandalwood oil."
+      ]
+    },
+    {
+      "id": "mehfil",
+      "name": "An evening of verse and raga",
+      "icon": "music-notes",
+      "slot": "Evening",
+      "time": "20:00",
+      "minutes": 25,
+      "meta": "Evening · 25 min",
+      "instructions": "Close the day with a small mehfil. Sit on the floor with cushions, a lamp and something to drink. Listen to one raga meant for the evening, such as Yaman, for fifteen minutes with your eyes closed. Then read two or three couplets of a ghazal aloud, slowly, twice each. Choose one line to learn by heart. If others are with you, let each bring a couplet, and say so when a line is good.",
+      "why": "Akbar kept thirty-six musicians of the first rank, with the singer Tansen at their head, and each raga had its hour. In later Delhi the mushaira became the city’s great entertainment, and the last emperor, Zafar, was himself a poet who presided over Ghalib and his rivals.",
+      "variations": [
+        "Learn one couplet a week.",
+        "Match the raga to the hour: a morning raga at dawn, a rain raga in the monsoon.",
+        "Hold a mehfil for friends once a month."
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task-read-babur-s-description-of-hindustan-in-the-baburnama",
+      "name": "Read Babur’s description of Hindustan in the Baburnama",
+      "meta": "Read · the plants, animals and people, 30 min",
+      "time": "20:30",
+      "slot": "Evening",
+      "action": "read"
+    },
+    {
+      "id": "task-look-closely-at-one-mughal-miniature-for-ten-minutes",
+      "name": "Look closely at one Mughal miniature for ten minutes",
+      "meta": "Art · Mansur’s animals or a page of the Padshahnama",
+      "time": "13:00",
+      "slot": "Afternoon",
+      "action": "art"
+    },
+    {
+      "id": "task-listen-to-raga-darbari-said-to-be-tansen-s-own",
+      "name": "Listen to Raga Darbari, said to be Tansen’s own",
+      "meta": "Listen · late evening, 20 min",
+      "time": "21:30",
+      "slot": "Evening",
+      "action": "listen"
+    },
+    {
+      "id": "task-cook-a-biryani-or-a-plain-khichdi-as-akbar-ate",
+      "name": "Cook a biryani, or a plain khichdi as Akbar ate",
+      "meta": "Eat · share it",
+      "time": "18:30",
+      "slot": "Evening",
+      "action": "eat"
+    },
+    {
+      "id": "task-journal-what-did-you-see-today-that-you-had-never-properly-looked-at",
+      "name": "Journal: what did you see today that you had never properly looked at?",
+      "meta": "Journal · 10 min",
+      "time": "21:00",
+      "slot": "Evening",
+      "action": "journal"
+    },
+    {
+      "id": "task-can-a-ruler-or-a-person-be-at-peace-with-all",
+      "name": "Can a ruler, or a person, be at peace with all?",
+      "meta": "Philosophy · 10 min",
+      "time": "09:00",
+      "slot": "Morning",
+      "action": "philosophy"
+    },
+    {
+      "id": "greet-everyone-you-meet-today-with-full-courtesy",
+      "name": "Greet everyone you meet today with full courtesy",
+      "meta": "Adab",
+      "time": "10:00",
+      "slot": "Morning"
+    },
+    {
+      "id": "give-a-gift-to-someone-who-serves-you",
+      "name": "Give a gift to someone who serves you",
+      "meta": "A robe of honour",
+      "time": "12:00",
+      "slot": "Afternoon"
+    },
+    {
+      "id": "settle-one-complaint-against-you-fairly-before-sunset",
+      "name": "Settle one complaint against you, fairly, before sunset",
+      "meta": "The chain of justice",
+      "time": "16:00",
+      "slot": "Afternoon"
+    }
+  ],
+  "rules": [
+    {
+      "id": "r1",
+      "text": "Be at peace with all",
+      "why": "Quarrel with no one over their beliefs. Protect everyone under your roof alike."
+    },
+    {
+      "id": "r2",
+      "text": "Be seen, and hear complaints",
+      "why": "Do not hide from those who depend on you. Give them a regular time and listen."
+    },
+    {
+      "id": "r3",
+      "text": "Look closely",
+      "why": "Observe one thing each day as if you would have to paint it."
+    },
+    {
+      "id": "r4",
+      "text": "Write the truth about yourself",
+      "why": "No flattering account. Set down what happened."
+    },
+    {
+      "id": "r5",
+      "text": "Keep good manners",
+      "why": "Greet, thank and give way with grace. Courtesy costs nothing and governs everything."
+    },
+    {
+      "id": "r6",
+      "text": "Make beauty part of use",
+      "why": "Whatever you build, cook, write or plant, finish it well. Leave a garden behind you."
+    }
+  ],
+  "immerse": {
+    "read": [
+      {
+        "id": "read-the-baburnama-memoirs-of-babur-prince-and-emperor",
+        "title": "The Baburnama: Memoirs of Babur, Prince and Emperor",
+        "creator": "Babur, trans. Wheeler M. Thackston",
+        "year": "about 1494 to 1529",
+        "why": "One of the great autobiographies. A homesick prince from Central Asia loses a kingdom, wins another and writes down everything from his defeats to the taste of mangoes."
+      },
+      {
+        "id": "read-the-empire-of-the-great-mughals",
+        "title": "The Empire of the Great Mughals",
+        "creator": "Annemarie Schimmel",
+        "year": "2000; English 2004",
+        "why": "A scholar’s loving survey of court life: women, religion, books, jewels, food, gardens and painting."
+      },
+      {
+        "id": "read-the-great-moghuls",
+        "title": "The Great Moghuls",
+        "creator": "Bamber Gascoigne",
+        "year": "1971",
+        "why": "The six great emperors from Babur to Aurangzeb, told as a family story. Still the most readable introduction."
+      },
+      {
+        "id": "read-the-last-mughal",
+        "title": "The Last Mughal",
+        "creator": "William Dalrymple",
+        "year": "2006",
+        "why": "Delhi in 1857: the poet-emperor Zafar, the uprising and the destruction of a civilisation, drawn from thousands of unread Urdu and Persian papers."
+      },
+      {
+        "id": "read-the-jahangirnama",
+        "title": "The Jahangirnama",
+        "creator": "Jahangir, trans. Wheeler M. Thackston",
+        "year": "1605 to 1624",
+        "why": "The memoirs of an emperor who was more interested in birds, meteorites and painting than in war."
+      },
+      {
+        "id": "read-ghalib-selected-poems-and-letters",
+        "title": "Ghalib: Selected Poems and Letters",
+        "creator": "Mirza Ghalib, trans. Frances W. Pritchett and Owen T. A. Cornwall",
+        "year": "19th century",
+        "why": "The greatest Urdu poet, who watched the Mughal world end. His letters are as good as his verse."
+      }
+    ],
+    "watch": [
+      {
+        "id": "watch-mughal-e-azam",
+        "title": "Mughal-e-Azam",
+        "creator": "K. Asif",
+        "year": "1960",
+        "why": "Prince Salim loves a court dancer and defies his father Akbar. The grandest of all Hindi films, sixteen years in the making, with a famous song filmed in a hall of mirrors."
+      },
+      {
+        "id": "watch-jodhaa-akbar",
+        "title": "Jodhaa Akbar",
+        "creator": "Ashutosh Gowariker",
+        "year": "2008",
+        "why": "The young Akbar and his Rajput wife learn to respect each other’s faith. Romantic and inventive with the facts, and good on the idea of peace with all."
+      },
+      {
+        "id": "watch-the-great-moghuls",
+        "title": "The Great Moghuls",
+        "creator": "Channel 4; presented by Bamber Gascoigne",
+        "year": "1990",
+        "why": "Six documentary films shot in the palaces, tombs and gardens."
+      },
+      {
+        "id": "watch-mirza-ghalib",
+        "title": "Mirza Ghalib",
+        "creator": "Gulzar",
+        "year": "1988",
+        "why": "A television series on the poet’s life in the last days of Mughal Delhi, with the ghazals sung by Jagjit Singh."
+      }
+    ],
+    "listen": [
+      {
+        "id": "listen-dhrupad",
+        "title": "Dhrupad",
+        "creator": "The Dagar family, or the Gundecha Brothers",
+        "year": "tradition of the 15th to 16th century",
+        "why": "The oldest surviving form of North Indian classical singing, slow and austere, as it was sung at Akbar’s court."
+      },
+      {
+        "id": "listen-raga-darbari-kanada",
+        "title": "Raga Darbari Kanada",
+        "creator": "Ustad Amir Khan, or Pandit Bhimsen Joshi",
+        "year": "attributed to Tansen, 16th century",
+        "why": "The raga of the court, grave and deep, for late at night."
+      },
+      {
+        "id": "listen-ghazals-of-ghalib",
+        "title": "Ghazals of Ghalib",
+        "creator": "Begum Akhtar",
+        "year": "recorded 1950s to 1970s",
+        "why": "The queen of the ghazal sings the last great poet of Mughal Delhi."
+      },
+      {
+        "id": "listen-qawwali-at-nizamuddin",
+        "title": "Qawwali at Nizamuddin",
+        "creator": "The hereditary qawwals of the shrine in Delhi",
+        "year": "tradition of the 13th century",
+        "why": "Devotional songs in the form created by Amir Khusrau, sung every Thursday evening at the tomb of the saint the Mughals revered."
+      }
+    ],
+    "art": [
+      {
+        "id": "art-the-taj-mahal",
+        "title": "The Taj Mahal",
+        "creator": "Built for Shah Jahan; attributed to Ustad Ahmad Lahori",
+        "year": "1632 to 1653",
+        "why": "The tomb of Mumtaz Mahal at Agra, in white marble inlaid with flowers and scripture, set at the end of a fourfold garden and not at its centre."
+      },
+      {
+        "id": "art-jahangir-preferring-a-sufi-shaikh-to-kings",
+        "title": "Jahangir Preferring a Sufi Shaikh to Kings",
+        "creator": "Bichitr",
+        "year": "about 1615 to 1618",
+        "why": "The emperor on an hourglass throne hands a book to a holy man and ignores the Ottoman sultan and King James of England. In the Freer Gallery, Washington."
+      },
+      {
+        "id": "art-natural-history-studies",
+        "title": "Natural history studies",
+        "creator": "Ustad Mansur",
+        "year": "about 1610 to 1624",
+        "why": "A zebra, a turkey cock, a chameleon, Kashmiri flowers and one of the few paintings of a dodo from life. Jahangir titled him Wonder of the Age."
+      },
+      {
+        "id": "art-the-padshahnama",
+        "title": "The Padshahnama",
+        "creator": "Court painters of Shah Jahan",
+        "year": "about 1630 to 1657",
+        "why": "The illustrated chronicle of the reign: weddings, sieges and darbars in which every face is a portrait. In the Royal Collection at Windsor."
+      }
+    ],
+    "eat": [
+      {
+        "id": "eat-biryani",
+        "title": "Biryani",
+        "creator": "Rice and spiced meat cooked together in a sealed pot",
+        "why": "The festive dish of the Mughal world, descended from Persian pilaf and made its own by every Indian city."
+      },
+      {
+        "id": "eat-khichdi",
+        "title": "Khichdi",
+        "creator": "Rice and lentils cooked soft with ghee",
+        "why": "Abu’l-Fazl gives the recipe from Akbar’s kitchen. Jahangir was so pleased with a Gujarati version that he ordered it served on his meatless days."
+      },
+      {
+        "id": "eat-kebabs",
+        "title": "Kebabs",
+        "creator": "Minced or cubed meat grilled on skewers",
+        "why": "The imperial kitchen list in the Ain-i Akbari names several kinds."
+      },
+      {
+        "id": "eat-mangoes",
+        "title": "Mangoes",
+        "creator": "Eaten ripe, in season",
+        "why": "Babur thought them overrated. His descendants were devoted: Akbar planted an orchard of a hundred thousand trees."
+      }
+    ],
+    "drink": [
+      {
+        "id": "drink-sherbet",
+        "title": "Sherbet",
+        "creator": "Rose, pomegranate or falsa berries in sweetened water, chilled",
+        "why": "Ice was brought from the mountains by relays of boats and runners to cool the court’s drinks."
+      },
+      {
+        "id": "drink-water-from-the-ganges",
+        "title": "Water from the Ganges",
+        "creator": "Carried in sealed jars",
+        "why": "Akbar called it the water of immortality and drank nothing else, at home or on campaign."
+      },
+      {
+        "id": "drink-lassi",
+        "title": "Lassi",
+        "creator": "Churned yoghurt, salted or sweet",
+        "why": "The drink of the plains, cooling in the heat."
+      }
+    ],
+    "customs": [
+      {
+        "id": "customs-the-weighing-of-the-emperor",
+        "title": "The weighing of the emperor",
+        "creator": "Twice a year, on his birthdays",
+        "why": "He sat in one pan of a great golden scale and was weighed against gold, silver, grain and cloth, which were then given to the poor. The custom was taken from Hindu kings."
+      },
+      {
+        "id": "customs-robes-of-honour",
+        "title": "Robes of honour",
+        "creator": "Khilat",
+        "why": "Favour was shown by the gift of clothing, and ambassadors, poets and governors were robed in open court."
+      },
+      {
+        "id": "customs-paan-at-parting",
+        "title": "Paan at parting",
+        "creator": "A folded leaf from the host’s hand",
+        "why": "The sign that an audience or a meal is over, and that the guest leaves in favour."
+      },
+      {
+        "id": "customs-the-manners-of-the-mushaira",
+        "title": "The manners of the mushaira",
+        "creator": "Appreciation aloud",
+        "why": "A good couplet is met with cries of praise and a request to hear it again. A poet acknowledges it by raising a hand to the forehead."
+      }
+    ],
+    "games": [
+      {
+        "id": "games-chaupar",
+        "title": "Chaupar",
+        "creator": "Board game · India",
+        "year": "ancient; a Mughal passion",
+        "why": "A race game on a cross-shaped cloth, close to pachisi. Akbar is said to have played it at Fatehpur Sikri on a courtyard marked out in stone, with people as the pieces."
+      },
+      {
+        "id": "games-ganjifa",
+        "title": "Ganjifa",
+        "creator": "Card game · Persia and India",
+        "year": "from the 16th century",
+        "why": "Round hand-painted cards in eight or more suits. Babur sent a pack to a friend, and Akbar devised his own version."
+      },
+      {
+        "id": "games-shatranj",
+        "title": "Shatranj",
+        "creator": "Chess · India and Persia",
+        "year": "ancient",
+        "why": "Played throughout the court in its older form, with an elephant in place of the bishop and a minister in place of the queen."
+      },
+      {
+        "id": "games-chaugan",
+        "title": "Chaugan",
+        "creator": "Polo · Persia and Central Asia",
+        "year": "ancient",
+        "why": "Akbar played it by night with a ball of smouldering wood, and required his nobles to play so that he could judge their character."
+      }
+    ],
+    "festivals": [
+      {
+        "id": "fest-nauroz",
+        "title": "Nauroz",
+        "creator": "Around 21 March",
+        "why": "The Persian new year at the spring equinox. The court kept it for nineteen days with gifts, a palace bazaar and the weighing of the emperor."
+      },
+      {
+        "id": "fest-diwali-and-holi-at-court",
+        "title": "Diwali and Holi at court",
+        "creator": "Autumn and spring, by the Hindu calendar",
+        "why": "Akbar, Jahangir and Shah Jahan all took part. The Red Fort was lit with lamps, and paintings show emperors playing with colour."
+      },
+      {
+        "id": "fest-phool-walon-ki-sair",
+        "title": "Phool Walon Ki Sair",
+        "creator": "September or October, in Mehrauli, Delhi",
+        "why": "The procession of the flower sellers, begun under the Mughals in 1812. Floral fans are offered at both a Sufi shrine and a Hindu temple."
+      },
+      {
+        "id": "fest-eid",
+        "title": "Eid",
+        "creator": "At the end of Ramadan, by the lunar calendar",
+        "why": "The emperor rode in procession to the great mosque and gave robes and alms."
+      }
+    ],
+    "places": [
+      {
+        "id": "place-the-taj-mahal-and-agra-fort",
+        "title": "The Taj Mahal and Agra Fort",
+        "creator": "Agra, Uttar Pradesh, India",
+        "why": "Go to the Taj at sunrise. From the fort across the bend of the river you can stand where Shah Jahan, deposed by his son, spent his last years looking at it."
+      },
+      {
+        "id": "place-fatehpur-sikri",
+        "title": "Fatehpur Sikri",
+        "creator": "Near Agra, Uttar Pradesh, India",
+        "why": "Akbar’s red sandstone capital, built in the 1570s and left after fourteen years. The courts, the great gate and the white tomb of the saint are almost intact."
+      },
+      {
+        "id": "place-humayun-s-tomb",
+        "title": "Humayun’s Tomb",
+        "creator": "Nizamuddin, New Delhi, India",
+        "why": "The first great garden tomb, built by his widow in the 1560s, and the model for the Taj. The restored garden and the nursery park beside it are a pleasure to walk."
+      },
+      {
+        "id": "place-the-red-fort",
+        "title": "The Red Fort",
+        "creator": "Old Delhi, India",
+        "why": "Shah Jahan’s palace of 1648. The marble halls with the paradise inscription survive among later barracks. The old city he founded lies at its gate."
+      },
+      {
+        "id": "place-lahore-fort-and-the-shalimar-gardens",
+        "title": "Lahore Fort and the Shalimar Gardens",
+        "creator": "Lahore, Punjab, Pakistan",
+        "why": "A second capital. The fort has a hall of mirrors and a wall of tile pictures, and the terraced gardens of 1641 still run with water on special days."
+      },
+      {
+        "id": "place-the-garden-of-babur",
+        "title": "The Garden of Babur",
+        "creator": "Kabul, Afghanistan",
+        "why": "The hillside garden he laid out and asked to be buried in, under the open sky. Restored in the 2000s. Check current travel advice."
+      }
+    ]
+  },
+  "ethics": [
+    {
+      "title": "Peace with all",
+      "text": "No community is to be favoured or persecuted. Akbar abolished the tax on non-Muslims and forbade forced conversion.",
+      "practice": "Treat someone whose beliefs you dislike with exact fairness today."
+    },
+    {
+      "title": "Justice",
+      "text": "The emperor’s first duty was to be reachable by the wronged.",
+      "practice": "Hear out someone who has a grievance against you, to the end."
+    },
+    {
+      "title": "Generosity",
+      "text": "A ruler was judged by his open hand. Twice a year the emperor’s own weight in gold went to the poor.",
+      "practice": "Give away something of real value."
+    },
+    {
+      "title": "Courtesy",
+      "text": "Adab governs how people of unequal power can live together without humiliation.",
+      "practice": "Greet the person of lowest rank in the room first."
+    },
+    {
+      "title": "Truthfulness",
+      "text": "Babur’s memoirs record his own defeats, fears and follies.",
+      "practice": "Tell one story today in which you do not come out well."
+    },
+    {
+      "title": "Stewardship of beauty",
+      "text": "Gardens, books and buildings were made to outlast their makers.",
+      "practice": "Mend or tend one beautiful thing you did not make."
+    }
+  ],
+  "philosophy": [
+    {
+      "title": "Sulh-i kull",
+      "text": "Truth is too large for one religion. A just ruler therefore stands above all of them and keeps the peace among them. It was a political idea as much as a spiritual one.",
+      "practice": "Where do you insist others share your view before you will work with them?"
+    },
+    {
+      "title": "The ruler as light",
+      "text": "Abu’l-Fazl taught that kingship is a ray from God, given so that the king may care for all people as a father. It raised the emperor above the clergy.",
+      "practice": "What gives anyone the right to rule, in your view?"
+    },
+    {
+      "title": "Reason over tradition",
+      "text": "Akbar’s circle held that inherited belief must answer to reason. He tested claims by experiment, once raising infants in silence to find the natural language.",
+      "practice": "Which of your beliefs have you only inherited?"
+    },
+    {
+      "title": "The world as a bridge",
+      "text": "The gateway at Fatehpur Sikri tells the visitor to cross the world and build no house on it. The city behind it was abandoned within a generation.",
+      "practice": "What are you building as if it would last?"
+    },
+    {
+      "title": "Looking as knowledge",
+      "text": "Jahangir trusted his own eyes over the books. To paint a thing exactly was to know it.",
+      "practice": "What do you think you know but have never examined?"
+    },
+    {
+      "title": "The garden as paradise",
+      "text": "A garden is order, water and shade made in a harsh land: an image of the next world and a claim on this one.",
+      "practice": "What small paradise can you make where you are?"
+    },
+    {
+      "title": "The meeting of two seas",
+      "text": "Prince Dara Shikoh translated the Upanishads into Persian and wrote that Hindu and Muslim mystics had found the same ocean. His brother had him killed for it.",
+      "practice": "What two traditions meet in you?"
+    },
+    {
+      "title": "Splendour and its cost",
+      "text": "The Taj was paid for by the taxes of peasants, and the empire’s wars emptied its treasury. Beauty and burden came together.",
+      "practice": "Who pays for the beautiful things you enjoy?"
+    }
+  ],
+  "journal": [
+    "What did you see today that you had never properly looked at?",
+    "Who needed you today, and were you there?",
+    "What complaint did you hear out?",
+    "What did you write truthfully about yourself?",
+    "Whose belief did you come to understand better?",
+    "With whom are you not at peace?",
+    "What did you tend?",
+    "What scent do you remember from today?",
+    "Which line of verse stayed with you?",
+    "What music suited the hour?",
+    "Whom did you greet carelessly?",
+    "What did you give, and was it worthy of the receiver?",
+    "What did you receive, and how did you honour it?",
+    "What have you only inherited as a belief?",
+    "What are you building as if it would last?",
+    "Where were you homesick?",
+    "What did you finish beautifully?",
+    "Who serves you, and what do you owe them?",
+    "What quarrel did you keep the peace in?",
+    "What have you taken from a culture not your own?",
+    "What would you want translated so that others could read it?",
+    "Where did you put splendour before justice?",
+    "Whom did you weigh, and against what?",
+    "What would you plant for your grandchildren?",
+    "What is your garden?",
+    "What bridge are you crossing?",
+    "What desire did you fulfil, and was it enough?",
+    "What do you want written on your grave?",
+    "Who would grieve for you as Shah Jahan grieved?",
+    "What light did you add to the day?"
+  ],
+  "reflect": [
+    "With whom have you made peace?",
+    "What did looking closely teach you?",
+    "What did you learn from a view that is not yours?",
+    "What have you made more beautiful?",
+    "Which couplet will you carry?",
+    "Which custom of the court will you keep?"
+  ],
+  "dayThemes": [
+    "The window at sunrise",
+    "The chain of justice",
+    "Exactly what happened",
+    "The melon and the mango",
+    "The fourfold garden",
+    "Running water",
+    "Peace with all",
+    "The house of dialogue",
+    "Thursday night",
+    "Reason",
+    "The painter’s eye",
+    "The zebra",
+    "The book workshop",
+    "The robe of honour",
+    "The open hand",
+    "The scales",
+    "Courtesy",
+    "The cloth is spread",
+    "The rose",
+    "Light",
+    "The raga’s hour",
+    "The couplet",
+    "The candle before the poet",
+    "Two seas",
+    "The bridge",
+    "The abandoned city",
+    "A teardrop",
+    "Green grass on the grave",
+    "Thousands of desires",
+    "Paradise on earth"
+  ],
+  "guide": {
+    "intro": [
+      "The Mughal Empire was founded in 1526 by a prince from Central Asia named Babur. He was descended from Timur on his father’s side and Chinggis Khan on his mother’s, and he had spent his youth winning and losing the city of Samarkand. Driven from his homeland, he took Kabul, and from there led a small army with cannon into the plains of northern India and defeated the Sultan of Delhi. He found the country hot, dusty and without good melons, and he stayed. He also wrote one of the most candid memoirs any ruler has left.",
+      "His grandson Akbar, who came to the throne at thirteen in 1556 and reigned for forty-nine years, made the conquest into an empire. He was a formidable soldier and could not read, probably because of what we would now call dyslexia, and he had books read to him every day. He understood that a Muslim dynasty ruling a largely Hindu population could not last by force. He married Rajput princesses and made their fathers and brothers his generals. He abolished the tax on non-Muslims, forbade forced conversion, had the Hindu epics translated into Persian, and invited scholars of every religion to debate in his presence. His principle was sulh-i kull, peace with all.",
+      "Under Akbar and his successors Jahangir and Shah Jahan, the empire was among the richest states on earth, with perhaps a hundred million people and a quarter of the world’s manufacturing. Its nobility was drawn from Iran, Central Asia, Afghanistan and India and ranked by a single system of numbered grades. Its court language was Persian. Its culture was a deliberate blend. Painters trained in the Persian manner learned from Indian colourists and European prints, and produced a school of miniature painting of extraordinary delicacy. Architects joined the Persian dome and garden to Indian stone carving, and built Fatehpur Sikri, the Red Forts of Agra and Delhi and, for Shah Jahan’s wife, the Taj Mahal. Musicians, cooks, perfumers and poets worked in the same spirit.",
+      "The sixth emperor, Aurangzeb, was an austere and tireless man who seized the throne from his father in 1658 and killed his brother Dara Shikoh, the heir who had tried to reconcile Hindu and Muslim thought. He extended the empire to its greatest size and exhausted it in twenty-six years of war in the south. He reimposed the tax on non-Muslims and is remembered very differently by different communities. After his death in 1707 the provinces broke away. A Persian invader carried off the Peacock Throne in 1739, and the British East India Company gradually became the real power.",
+      "The emperors remained in the Red Fort as pensioners, and Delhi enjoyed a last flowering of Urdu poetry. In 1857 rebel soldiers proclaimed the aged poet-emperor Bahadur Shah Zafar their leader. The British retook the city, shot his sons and exiled him to Rangoon, where he died.",
+      "The Mughals left the subcontinent much of what the world thinks of as Indian: its best-known building, its court cuisine, its classical music in the north, the Urdu language, and an ideal of civility shared across faiths. This Onda draws on the court at its best: the ruler visible at sunrise, the honest diary, the house of dialogue, the garden and the evening of verse."
+    ],
+    "origin": "The Ferghana valley and Kabul, then the plains of northern India: Agra, Delhi and Lahore",
+    "era": "Babur won Delhi in 1526. The last emperor was exiled by the British in 1858",
+    "figures": [
+      {
+        "name": "Babur",
+        "dates": "1483 to 1530",
+        "bio": "Founder of the dynasty. Soldier, gardener, poet and diarist, who missed the mountains of his youth all his life."
+      },
+      {
+        "name": "Gulbadan Begum",
+        "dates": "about 1523 to 1603",
+        "bio": "Babur’s daughter. At her nephew Akbar’s request she wrote a memoir of her father and brother, the only surviving history of the period by a woman of the court."
+      },
+      {
+        "name": "Humayun",
+        "dates": "1508 to 1556",
+        "bio": "The second emperor, who lost the kingdom, spent fifteen years in exile in Persia, won it back and died within a year, falling on his library stairs."
+      },
+      {
+        "name": "Akbar",
+        "dates": "1542 to 1605",
+        "bio": "The third emperor and the true architect of the empire. Restless, curious, physically fearless and uninterested in doctrine."
+      },
+      {
+        "name": "Abu'l-Fazl",
+        "dates": "1551 to 1602",
+        "bio": "Akbar’s friend, minister and historian. His Akbarnama and its appendix, the Ain-i Akbari, describe the empire down to the price of mangoes."
+      },
+      {
+        "name": "Tansen",
+        "dates": "about 1500 to 1589",
+        "bio": "The foremost singer of the age, one of the nine jewels of Akbar’s court. Legends say his ragas could bring rain and light lamps."
+      },
+      {
+        "name": "Jahangir",
+        "dates": "1569 to 1627",
+        "bio": "The fourth emperor: naturalist, connoisseur and drinker, who left much of the governing to his wife."
+      },
+      {
+        "name": "Nur Jahan",
+        "dates": "1577 to 1645",
+        "bio": "Born on the road as her Persian parents fled to India. Jahangir’s twentieth wife and in effect co-ruler: coins were struck in her name, and she was a crack shot."
+      },
+      {
+        "name": "Shah Jahan",
+        "dates": "1592 to 1666",
+        "bio": "The fifth emperor, the great builder. He spent his last eight years confined in Agra Fort."
+      },
+      {
+        "name": "Jahanara Begum",
+        "dates": "1614 to 1681",
+        "bio": "Shah Jahan’s eldest daughter, first lady of the court after her mother’s death, a Sufi writer, and the designer of the main street of Delhi."
+      },
+      {
+        "name": "Dara Shikoh",
+        "dates": "1615 to 1659",
+        "bio": "The heir apparent, a mystic and scholar who translated fifty Upanishads into Persian. Defeated and executed by his younger brother."
+      },
+      {
+        "name": "Aurangzeb",
+        "dates": "1618 to 1707",
+        "bio": "The sixth emperor, who ruled for forty-nine years. Pious, frugal and unbending, he sewed caps to pay for his own tomb."
+      },
+      {
+        "name": "Bahadur Shah Zafar",
+        "dates": "1775 to 1862",
+        "bio": "The last emperor, a calligrapher and poet with no power beyond his palace walls."
+      }
+    ],
+    "history": [
+      {
+        "when": "21 April 1526",
+        "what": "The first battle of Panipat",
+        "detail": "Babur’s twelve thousand men, with field guns and matchlocks, defeat the far larger army of the Sultan of Delhi."
+      },
+      {
+        "when": "1540 to 1555",
+        "what": "Exile and return",
+        "detail": "Humayun is driven out by the Afghan ruler Sher Shah, whose roads and coinage the Mughals later adopt. He returns with Persian help."
+      },
+      {
+        "when": "1556",
+        "what": "Akbar",
+        "detail": "The thirteen-year-old is enthroned in a garden in Punjab. His regent wins a second battle at Panipat to secure the throne."
+      },
+      {
+        "when": "1562 to 1564",
+        "what": "The Rajput alliance",
+        "detail": "Akbar marries a princess of Amber and takes her family into his service. He abolishes the pilgrim tax and the poll tax on non-Muslims."
+      },
+      {
+        "when": "1571 to 1585",
+        "what": "Fatehpur Sikri",
+        "detail": "A new capital is built beside the hermitage of a Sufi saint. The House of Worship opens there in 1575."
+      },
+      {
+        "when": "1600",
+        "what": "The East India Company",
+        "detail": "Queen Elizabeth charters a company of London merchants to trade with the East. Its envoy reaches Jahangir’s court in 1615."
+      },
+      {
+        "when": "1611",
+        "what": "Nur Jahan",
+        "detail": "Jahangir marries the widow Mihr un-Nisa. Her family dominates the court for a generation."
+      },
+      {
+        "when": "1631 to 1653",
+        "what": "The Taj Mahal",
+        "detail": "Mumtaz Mahal dies bearing her fourteenth child. Some twenty thousand workers spend two decades on her tomb."
+      },
+      {
+        "when": "1648",
+        "what": "Shahjahanabad",
+        "detail": "The court moves to a new walled city at Delhi, with the Red Fort and the largest mosque in India."
+      },
+      {
+        "when": "1658 to 1659",
+        "what": "The war of succession",
+        "detail": "Aurangzeb defeats his brothers, imprisons his father and has Dara Shikoh paraded in rags and put to death."
+      },
+      {
+        "when": "1681 to 1707",
+        "what": "The Deccan wars",
+        "detail": "Aurangzeb leaves the north for the last time to fight the southern sultanates and the Marathas. He dies in camp at eighty-eight."
+      },
+      {
+        "when": "1739",
+        "what": "Nadir Shah",
+        "detail": "The ruler of Persia sacks Delhi, kills many thousands and takes away the Peacock Throne and the Koh-i-Noor diamond."
+      },
+      {
+        "when": "1757 to 1803",
+        "what": "The Company’s rise",
+        "detail": "After victories in Bengal the British become the main power in India. In 1803 they take Delhi and the emperor under their protection."
+      },
+      {
+        "when": "1857 to 1858",
+        "what": "The end",
+        "detail": "The great uprising makes Zafar its figurehead. After the fall of Delhi he is tried, exiled to Burma, and the dynasty is declared extinct."
+      }
+    ],
+    "concepts": [
+      {
+        "term": "Sulh-i kull",
+        "text": "Universal peace.",
+        "detail": "The doctrine that the emperor is the impartial protector of all faiths. It was the ideological core of Akbar’s state and was kept, with lapses, by his son and grandson."
+      },
+      {
+        "term": "The mansab system",
+        "text": "One ladder of rank.",
+        "detail": "Every officer held a numbered rank that set his salary and military obligation. Ranks were not hereditary, so the nobility depended on the emperor."
+      },
+      {
+        "term": "The land revenue settlement",
+        "text": "Measured and moderate.",
+        "detail": "Under Akbar’s Hindu finance minister, Todar Mal, fields were surveyed and tax fixed on average yields. It was the foundation of the empire’s wealth."
+      },
+      {
+        "term": "The divine faith",
+        "text": "Tauhid-i Ilahi.",
+        "detail": "A small circle of disciples formed around Akbar in 1582, devoted to the emperor and to the worship of God through light. It had no scripture or clergy and died with him."
+      },
+      {
+        "term": "The translation bureau",
+        "text": "Sanskrit into Persian.",
+        "detail": "Akbar had the Mahabharata, the Ramayana and other works translated and illustrated so that his nobles might understand their Hindu subjects."
+      },
+      {
+        "term": "The paradise garden",
+        "text": "Order from water.",
+        "detail": "The walled, four-part garden as the setting for court life and as a tomb. Inscriptions compare them outright to the gardens promised in scripture."
+      },
+      {
+        "term": "The imperial workshop",
+        "text": "Collaboration in art.",
+        "detail": "A painting might have one master for the design, another for the colouring and a third for the faces. More than a hundred painters worked for Akbar."
+      },
+      {
+        "term": "Persianate culture",
+        "text": "A shared high language.",
+        "detail": "Persian was the tongue of government and letters from Istanbul to Bengal. From its meeting with the speech of Delhi came Urdu."
+      },
+      {
+        "term": "The jharokha",
+        "text": "Kingship made visible.",
+        "detail": "The daily appearance at the window, which let the people see their ruler as a Hindu deity is seen. Aurangzeb ended it as un-Islamic."
+      }
+    ],
+    "facts": [
+      {
+        "text": "The Taj Mahal changes colour through the day, from pink at dawn to white at noon and gold at dusk."
+      },
+      {
+        "text": "Akbar’s library held some twenty-four thousand volumes, though he could not read them himself."
+      },
+      {
+        "text": "The Peacock Throne took seven years to make and cost twice as much as the Taj Mahal."
+      },
+      {
+        "text": "The word mogul, for a powerful person, comes from the Persian for Mongol, a name the dynasty did not use for itself."
+      },
+      {
+        "text": "Jahangir had the death of a famous courtier painted from life, so that the effects of opium and drink might be recorded."
+      },
+      {
+        "text": "Shah Jahan and Mumtaz Mahal lie in plain graves in a crypt below the Taj. The decorated tombs above are empty."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Timurid",
+        "meaning": "Descended from Timur, which is how the dynasty thought of itself"
+      },
+      {
+        "term": "Rajput",
+        "meaning": "The Hindu warrior clans of Rajasthan, many of whom served the Mughals"
+      },
+      {
+        "term": "Jizya",
+        "meaning": "The poll tax on non-Muslims, abolished by Akbar in 1564 and restored by Aurangzeb in 1679"
+      },
+      {
+        "term": "Pietra dura",
+        "meaning": "The Italian name for hard-stone inlay"
+      },
+      {
+        "term": "Nine jewels",
+        "meaning": "The nine most brilliant men of Akbar’s court, in later tradition"
+      },
+      {
+        "term": "Urdu",
+        "meaning": "The language that grew up in and around the imperial camp, written in Persian script"
+      }
+    ],
+    "furtherReading": [
+      {
+        "title": "The Mughal Empire",
+        "creator": "John F. Richards",
+        "year": "1993",
+        "note": "The standard scholarly history of how the state worked."
+      },
+      {
+        "title": "Akbar: The Great Mughal",
+        "creator": "Ira Mukhoty",
+        "year": "2020",
+        "note": "A vivid recent life that gives proper space to the women of his household."
+      },
+      {
+        "title": "Empress: The Astonishing Reign of Nur Jahan",
+        "creator": "Ruby Lal",
+        "year": "2018",
+        "note": "The woman who ruled an empire from behind a screen."
+      },
+      {
+        "title": "Aurangzeb: The Man and the Myth",
+        "creator": "Audrey Truschke",
+        "year": "2017",
+        "note": "A short and much argued-over attempt to see the most hated Mughal in the terms of his own time."
+      }
+    ],
+    "learnFrom": [
+      {
+        "name": "Victoria and Albert Museum",
+        "note": "One of the finest collections of Mughal painting, jade and textiles, with thousands of objects online.",
+        "link": "https://www.vam.ac.uk/collections/south-asia"
+      },
+      {
+        "name": "Aga Khan Trust for Culture",
+        "note": "The body that has restored Humayun’s Tomb, the Garden of Babur and other Mughal sites, with detailed accounts of the work.",
+        "link": "https://the.akdn/en/how-we-work/our-agencies/aga-khan-trust-culture"
+      },
+      {
+        "name": "A teacher of Hindustani music or Urdu poetry",
+        "note": "Both arts are still taught face to face, by teachers who can name their own teachers back for generations."
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Mughal Empire",
+        "creator": "John F. Richards",
+        "publisher": "Cambridge University Press",
+        "year": "1993"
+      },
+      {
+        "title": "The Empire of the Great Mughals: History, Art and Culture",
+        "creator": "Annemarie Schimmel, trans. Corinne Attwood",
+        "publisher": "Reaktion Books",
+        "year": "2004"
+      },
+      {
+        "title": "The Baburnama: Memoirs of Babur, Prince and Emperor",
+        "creator": "trans. Wheeler M. Thackston",
+        "publisher": "Oxford University Press",
+        "year": "1996"
+      },
+      {
+        "title": "The Ain-i Akbari",
+        "creator": "Abu'l-Fazl, trans. H. Blochmann and H. S. Jarrett",
+        "publisher": "Asiatic Society of Bengal",
+        "year": "1873 to 1894"
+      },
+      {
+        "title": "The Complete Taj Mahal and the Riverfront Gardens of Agra",
+        "creator": "Ebba Koch",
+        "publisher": "Thames and Hudson",
+        "year": "2006"
+      },
+      {
+        "title": "The Last Mughal: The Fall of a Dynasty, Delhi, 1857",
+        "creator": "William Dalrymple",
+        "publisher": "Bloomsbury",
+        "year": "2006"
+      }
+    ]
+  },
+  "sensitivity": {
+    "note": "The Mughal past is argued over in South Asia today, sometimes bitterly. This Onda draws on the court’s ideals of peace among faiths, close observation and refinement. It reports the conquests and the intolerance as well, and takes no side in present-day politics.",
+    "requiredCaveats": [
+      "The empire was founded and enlarged by war. Temples were destroyed at various times, and two Sikh Gurus were executed on the orders of Mughal emperors.",
+      "Hindus, Muslims and Sikhs remember particular emperors, Aurangzeb above all, in sharply different ways. Read historians from more than one community.",
+      "The splendour of the court rested on heavy taxation of the peasantry.",
+      "The culture described here belongs to the living peoples of India, Pakistan, Bangladesh and Afghanistan. Enjoy it as a guest."
+    ],
+    "reviewRequired": true
+  }
+}

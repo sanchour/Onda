@@ -1,0 +1,1256 @@
+{
+  "version": 1,
+  "id": "ottoman",
+  "name": "Ottoman Empire",
+  "origin": "Anatolia and beyond",
+  "era": "About 1299 to 1922",
+  "tone": "coral",
+  "icon": "flower-tulip",
+  "font": "el-messiri",
+  "pattern": "tulips",
+  "glyph": "دولت",
+  "line": "Give in secret, work your craft with care and take your coffee slowly with a friend.",
+  "quote": {
+    "text": "Let us love and be loved. The world will be left to no one.",
+    "by": "Yunus Emre",
+    "source": "From the hymn that begins Gelin tanış olalım, about 1300. He sang in the Turkish of Anatolia in the years the Ottoman state was founded"
+  },
+  "quotes": [
+    {
+      "text": "A cup of coffee is remembered for forty years.",
+      "by": "Turkish proverb",
+      "source": "Bir fincan kahvenin kırk yıl hatırı vardır. A small kindness creates a long obligation"
+    },
+    {
+      "text": "The people think of wealth and power as the greatest fate, but in this world a spell of health is the best state.",
+      "by": "Süleyman the Magnificent, writing as Muhibbi",
+      "source": "The best-known couplet of his collected poems, 16th century"
+    },
+    {
+      "text": "The spider is the curtain-holder in the palace of the Caesars; the owl sounds the watch in the towers of Afrasiab.",
+      "by": "Mehmed II",
+      "source": "A Persian couplet he is said to have recited on entering the ruined imperial palace of Constantinople, May 1453"
+    },
+    {
+      "text": "Among the Turks, therefore, honours, high posts and judgeships are the rewards of great ability and good service.",
+      "by": "Ogier Ghiselin de Busbecq",
+      "source": "The Habsburg ambassador at Istanbul, Turkish Letters, about 1560, trans. E. S. Forster"
+    },
+    {
+      "text": "Travel, O Messenger of God.",
+      "by": "Evliya Çelebi",
+      "source": "What he blurted out in a dream of the Prophet in 1630, meaning to ask for intercession; Book of Travels, volume 1. The two words rhyme in Turkish"
+    },
+    {
+      "text": "Let the people live, so that the state may live.",
+      "by": "Attributed to Sheikh Edebali",
+      "source": "Advice to his son-in-law Osman, the founder, as handed down in Turkish tradition",
+      "unverified": true
+    }
+  ],
+  "words": [
+    {
+      "id": "word-devlet",
+      "term": "Devlet",
+      "meaning": "State; fortune",
+      "pronunciation": "dev-LET",
+      "language": "Ottoman Turkish",
+      "usage": "From the Arabic for a turn of fortune. The Ottomans called their realm the Exalted State, and the same word means good luck."
+    },
+    {
+      "id": "word-osmanl",
+      "term": "Osmanlı",
+      "meaning": "Ottoman",
+      "pronunciation": "os-MAHN-luh",
+      "language": "Ottoman Turkish",
+      "usage": "A follower of the house of Osman. It named a ruling class open to anyone who served, before it named a people."
+    },
+    {
+      "id": "word-padisah",
+      "term": "Padişah",
+      "meaning": "Emperor",
+      "pronunciation": "pah-dee-SHAH",
+      "language": "Ottoman Turkish, from Persian",
+      "usage": "The sultan’s usual title. He was also khan, caesar of Rome and, from 1517, guardian of the holy cities."
+    },
+    {
+      "id": "word-saray",
+      "term": "Saray",
+      "meaning": "Palace",
+      "pronunciation": "sah-RY",
+      "language": "Ottoman Turkish, from Persian",
+      "usage": "The sultan’s household and the centre of government. It gives the word seraglio."
+    },
+    {
+      "id": "word-divan",
+      "term": "Divan",
+      "meaning": "Council; a collection of poems",
+      "pronunciation": "dee-VAHN",
+      "language": "Ottoman Turkish",
+      "usage": "The imperial council that met under a dome in the palace. Also the couch along the wall on which its members sat, and a poet’s collected works."
+    },
+    {
+      "id": "word-kanun",
+      "term": "Kanun",
+      "meaning": "Sultanic law",
+      "pronunciation": "kah-NOON",
+      "language": "Ottoman Turkish, from Greek",
+      "usage": "Rules made by the sultan alongside religious law. Süleyman is called Kanuni, the Lawgiver, in Turkish."
+    },
+    {
+      "id": "word-adalet",
+      "term": "Adalet",
+      "meaning": "Justice",
+      "pronunciation": "ah-dah-LET",
+      "language": "Ottoman Turkish",
+      "usage": "The ruler’s first duty. A tower of justice stood above the council chamber so that it could be seen from the city."
+    },
+    {
+      "id": "word-millet",
+      "term": "Millet",
+      "meaning": "A religious community",
+      "pronunciation": "mil-LET",
+      "language": "Ottoman Turkish",
+      "usage": "Orthodox Christians, Armenians and Jews each ran their own courts, schools and charities under their own leaders."
+    },
+    {
+      "id": "word-vak-f",
+      "term": "Vakıf",
+      "meaning": "Pious foundation",
+      "pronunciation": "vah-KUF",
+      "language": "Ottoman Turkish, from Arabic",
+      "usage": "Property given for ever to a good purpose. Mosques, hospitals, fountains, bridges, schools and soup kitchens were all built and run this way."
+    },
+    {
+      "id": "word-sadaka",
+      "term": "Sadaka",
+      "meaning": "Voluntary charity",
+      "pronunciation": "sah-dah-KAH",
+      "language": "Ottoman Turkish, from Arabic",
+      "usage": "Giving beyond what is required, best done so that the left hand does not know what the right has given."
+    },
+    {
+      "id": "word-imaret",
+      "term": "İmaret",
+      "meaning": "Public kitchen",
+      "pronunciation": "ee-mah-RET",
+      "language": "Ottoman Turkish",
+      "usage": "A kitchen attached to a mosque complex that fed students, travellers and the poor every day, free."
+    },
+    {
+      "id": "word-kulliye",
+      "term": "Külliye",
+      "meaning": "Mosque complex",
+      "pronunciation": "kool-lee-YEH",
+      "language": "Ottoman Turkish",
+      "usage": "A mosque with its school, hospital, kitchen, bath, library and market, built as one foundation."
+    },
+    {
+      "id": "word-mahalle",
+      "term": "Mahalle",
+      "meaning": "Neighbourhood",
+      "pronunciation": "mah-hal-LEH",
+      "language": "Ottoman Turkish",
+      "usage": "A few dozen households round a place of worship, which answered for one another’s taxes, conduct and needs."
+    },
+    {
+      "id": "word-komsu",
+      "term": "Komşu",
+      "meaning": "Neighbour",
+      "pronunciation": "kom-SHOO",
+      "language": "Turkish",
+      "usage": "A relation with duties. The proverb says: buy the neighbour, not the house."
+    },
+    {
+      "id": "word-misafir",
+      "term": "Misafir",
+      "meaning": "Guest",
+      "pronunciation": "mee-sah-FEER",
+      "language": "Ottoman Turkish, from Arabic",
+      "usage": "A guest is called God’s guest and is fed before any question is asked."
+    },
+    {
+      "id": "word-esnaf",
+      "term": "Esnaf",
+      "meaning": "Tradesmen; the guilds",
+      "pronunciation": "es-NAHF",
+      "language": "Ottoman Turkish",
+      "usage": "Every trade had its guild, with a patron saint, a code of honest dealing and a fund for members in need."
+    },
+    {
+      "id": "word-usta",
+      "term": "Usta",
+      "meaning": "Master craftsman",
+      "pronunciation": "oos-TAH",
+      "language": "Ottoman Turkish, from Persian",
+      "usage": "One who has served his time, received his apron in a ceremony and may open a shop and train others."
+    },
+    {
+      "id": "word-c-rak",
+      "term": "Çırak",
+      "meaning": "Apprentice",
+      "pronunciation": "chuh-RAHK",
+      "language": "Ottoman Turkish",
+      "usage": "A boy bound to a master, who learns by watching and repeating for years before he is trusted with real work."
+    },
+    {
+      "id": "word-mesk",
+      "term": "Meşk",
+      "meaning": "The copying lesson",
+      "pronunciation": "MESHK",
+      "language": "Ottoman Turkish",
+      "usage": "The master writes a line and the pupil copies it under his eye until it is right. The method of teaching calligraphy and music."
+    },
+    {
+      "id": "word-hat",
+      "term": "Hat",
+      "meaning": "Calligraphy",
+      "pronunciation": "HAHT",
+      "language": "Ottoman Turkish, from Arabic",
+      "usage": "The highest of the arts. A saying runs: the Quran was revealed in Mecca, recited in Cairo and written in Istanbul."
+    },
+    {
+      "id": "word-tugra",
+      "term": "Tuğra",
+      "meaning": "The sultan’s monogram",
+      "pronunciation": "TOO-rah",
+      "language": "Ottoman Turkish",
+      "usage": "An elaborate looped signature placed at the head of every decree, drawn by a court official and often gilded."
+    },
+    {
+      "id": "word-ebru",
+      "term": "Ebru",
+      "meaning": "Marbled paper",
+      "pronunciation": "eb-ROO",
+      "language": "Ottoman Turkish, from Persian",
+      "usage": "Colours floated on thickened water, combed into patterns and lifted off on a sheet. Each print is unique."
+    },
+    {
+      "id": "word-cini",
+      "term": "Çini",
+      "meaning": "Glazed tile",
+      "pronunciation": "chee-NEE",
+      "language": "Ottoman Turkish",
+      "usage": "The tiles of İznik, with their tulips and carnations in cobalt, turquoise and a raised tomato red."
+    },
+    {
+      "id": "word-lale",
+      "term": "Lale",
+      "meaning": "Tulip",
+      "pronunciation": "lah-LEH",
+      "language": "Ottoman Turkish, from Persian",
+      "usage": "The court flower. Written in Arabic letters it uses the same ones as the name of God, and it gave its name to an age."
+    },
+    {
+      "id": "word-hamam",
+      "term": "Hamam",
+      "meaning": "Bathhouse",
+      "pronunciation": "hah-MAHM",
+      "language": "Ottoman Turkish, from Arabic",
+      "usage": "A domed steam bath with a heated marble platform. A weekly visit was a social event as well as a wash."
+    },
+    {
+      "id": "word-kahvehane",
+      "term": "Kahvehane",
+      "meaning": "Coffeehouse",
+      "pronunciation": "kah-veh-hah-NEH",
+      "language": "Ottoman Turkish",
+      "usage": "From the 1550s the place where men met to talk, play backgammon and listen to storytellers. Sultans closed them more than once."
+    },
+    {
+      "id": "word-sohbet",
+      "term": "Sohbet",
+      "meaning": "Conversation",
+      "pronunciation": "soh-BET",
+      "language": "Ottoman Turkish, from Arabic",
+      "usage": "Unhurried talk among companions, valued as a way of learning and of friendship."
+    },
+    {
+      "id": "word-keyif",
+      "term": "Keyif",
+      "meaning": "Pleasurable ease",
+      "pronunciation": "kay-EEF",
+      "language": "Turkish, from Arabic",
+      "usage": "The enjoyment of doing nothing in particular, well: a view, a glass, a quiet hour."
+    },
+    {
+      "id": "word-sofra",
+      "term": "Sofra",
+      "meaning": "The spread table",
+      "pronunciation": "sof-RAH",
+      "language": "Ottoman Turkish",
+      "usage": "A cloth or a round tray on a low stand, with everyone eating from shared dishes."
+    },
+    {
+      "id": "word-edep",
+      "term": "Edep",
+      "meaning": "Good manners; right conduct",
+      "pronunciation": "eh-DEP",
+      "language": "Ottoman Turkish, from Arabic",
+      "usage": "Knowing one’s place and behaving with modesty and grace. Dervish lodges hung a plaque that read: manners, O He."
+    }
+  ],
+  "practices": [
+    {
+      "id": "charity-stone",
+      "name": "The charity stone",
+      "icon": "hand-coins",
+      "slot": "Morning",
+      "time": "07:30",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Before you earn or spend anything today, set aside a gift. Put a coin or a note in a place where someone in need will find it and you will not see who takes it: a community fridge, a pay-it-forward board at a cafe, an envelope through a door, an anonymous transfer. Tell no one. Give an amount you will notice. If you are the one in need today, take what you need from such a place, and no more.",
+      "why": "Ottoman towns had sadaka taşı, hollowed stone pillars at street corners and mosque gates. People left money in the hollow on their way past, and the poor came after dark and took only enough for the day. Giver and receiver never met, so no one was shamed.",
+      "variations": [
+        "Pay for a loaf at the bakery for whoever asks next. Turks call it bread on the hook.",
+        "Settle a stranger’s small debt at a local shop.",
+        "Give time in place of money, without saying so."
+      ]
+    },
+    {
+      "id": "mesk",
+      "name": "The copying lesson",
+      "icon": "pen-nib",
+      "slot": "Morning",
+      "time": "09:00",
+      "minutes": 30,
+      "meta": "Morning · 30 min",
+      "instructions": "Choose one craft and one model made by a master of it: a line of fine handwriting, a drawing, a phrase of music, a joint in wood, a dish. For thirty minutes do nothing but copy that one model, again and again, as exactly as you can. Lay each attempt beside the original and find the difference. Do not vary it and do not move on. Keep at the same model until someone better than you says it is right.",
+      "why": "Ottoman calligraphers learned by meşk. The master wrote a line, the pupil copied it for a week, and the master corrected it with small marks in red. It took years to earn the licence to sign one’s own work. The same patient method trained musicians, tile painters and every guild apprentice.",
+      "variations": [
+        "Find a teacher and ask to be corrected.",
+        "Sign nothing as your own for thirty days.",
+        "Do one honest piece of work today for a customer who would never know the difference."
+      ]
+    },
+    {
+      "id": "coffee-and-talk",
+      "name": "Coffee and conversation",
+      "icon": "coffee",
+      "slot": "Afternoon",
+      "time": "15:00",
+      "minutes": 30,
+      "meta": "Afternoon · 30 min",
+      "instructions": "Make Turkish coffee for two. Put a heaped teaspoon of very fine coffee and a small cup of cold water per person in a long-handled pot, with sugar if wanted. Heat it slowly without stirring until the foam rises, spoon the foam into the cups, bring it up once more and pour. Serve it with a glass of water and something sweet. Sit down with your guest and talk for as long as the cups take, about anything except work. Do not look at a phone.",
+      "why": "The first coffeehouses in Istanbul opened in the 1550s and quickly became the centre of city life: a place for news, poetry, chess, backgammon and argument. The proverb says a single cup of coffee is remembered for forty years.",
+      "variations": [
+        "Take the coffee to a neighbour you do not know well.",
+        "Go to a real coffeehouse and play a game of backgammon.",
+        "Drink the water first, to clear the palate, as is done."
+      ]
+    },
+    {
+      "id": "hamam",
+      "name": "The bath",
+      "icon": "drop",
+      "slot": "Afternoon",
+      "time": "17:30",
+      "minutes": 40,
+      "meta": "Afternoon · 40 min",
+      "instructions": "Wash as if it were an occasion. Warm the room. Sit and pour hot water over yourself from a bowl for several minutes until the skin softens. Scrub the whole body firmly with a coarse cloth or mitt, then lather with plain olive oil soap and rinse with many bowls of water. Wrap yourself in a towel, lie down somewhere cool and rest for ten minutes with a cold drink. Do this fully once a week, and briefly each day.",
+      "why": "Every Ottoman town had its hamam, built by a foundation and open to all for a small fee, with separate hours or halls for women and men. People spent half a day there. An English visitor in 1717 called it the women’s coffeehouse, where all the news of the town was told.",
+      "variations": [
+        "Go to a public steam bath or sauna with a friend.",
+        "Take fruit and sherbet, and make an afternoon of it.",
+        "End with cold water over the head."
+      ]
+    },
+    {
+      "id": "keyif",
+      "name": "An hour of keyif",
+      "icon": "flower-tulip",
+      "slot": "Evening",
+      "time": "19:30",
+      "minutes": 20,
+      "meta": "Evening · 20 min",
+      "instructions": "At the end of the day sit somewhere pleasant with nothing to accomplish. By water if there is any, or in a garden, on a balcony, at a window with a view. Have a glass of tea or sherbet beside you. Watch the light change. If there are birds or street animals, put out food and water for them. If you have plants, tend them. Let the day’s business go. You are not resting in order to work better tomorrow. This is the point.",
+      "why": "Ottomans prized the art of ease: evenings in waterside pavilions, picnics in the meadows of the Golden Horn, tulip gardens lit by candles on the backs of tortoises. Foundations existed to feed street dogs and stray birds, and mosque walls carry tiny stone palaces built as birdhouses.",
+      "variations": [
+        "Plant bulbs for spring.",
+        "Put out a bowl of water for animals and keep it filled.",
+        "Listen to one piece of classical Turkish music from start to finish."
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task-read-evliya-celebi-on-the-guilds-of-istanbul-parading-before-the-sulta",
+      "name": "Read Evliya Çelebi on the guilds of Istanbul parading before the sultan",
+      "meta": "Read · from An Ottoman Traveller",
+      "time": "20:00",
+      "slot": "Evening",
+      "action": "read"
+    },
+    {
+      "id": "task-listen-to-jordi-savall-s-istanbul-the-music-of-dimitrie-cantemir",
+      "name": "Listen to Jordi Savall’s Istanbul: the music of Dimitrie Cantemir",
+      "meta": "Listen · the court around 1700",
+      "time": "18:30",
+      "slot": "Evening",
+      "action": "listen"
+    },
+    {
+      "id": "task-watch-kedi",
+      "name": "Watch Kedi",
+      "meta": "Watch · the street cats of Istanbul, 80 min",
+      "time": "20:30",
+      "slot": "Evening",
+      "action": "watch"
+    },
+    {
+      "id": "task-cook-stuffed-vine-leaves-or-stuffed-peppers-enough-to-share",
+      "name": "Cook stuffed vine leaves or stuffed peppers, enough to share",
+      "meta": "Eat · dolma",
+      "time": "12:30",
+      "slot": "Afternoon",
+      "action": "eat"
+    },
+    {
+      "id": "task-journal-what-did-you-give-today-that-no-one-saw",
+      "name": "Journal: what did you give today that no one saw?",
+      "meta": "Journal · 10 min",
+      "time": "21:30",
+      "slot": "Evening",
+      "action": "journal"
+    },
+    {
+      "id": "task-different-laws-for-different-communities-tolerance-or-inequality",
+      "name": "Different laws for different communities: tolerance, or inequality?",
+      "meta": "Philosophy · 10 min",
+      "time": "08:30",
+      "slot": "Morning",
+      "action": "philosophy"
+    },
+    {
+      "id": "take-a-plate-of-food-to-a-neighbour",
+      "name": "Take a plate of food to a neighbour",
+      "meta": "The neighbour’s right",
+      "time": "13:30",
+      "slot": "Afternoon"
+    },
+    {
+      "id": "weigh-and-charge-fairly-in-every-dealing-today",
+      "name": "Weigh and charge fairly in every dealing today",
+      "meta": "The guildsman’s oath",
+      "time": "10:30",
+      "slot": "Morning"
+    },
+    {
+      "id": "feed-a-street-animal-or-the-birds",
+      "name": "Feed a street animal or the birds",
+      "meta": "As the foundations did",
+      "time": "16:30",
+      "slot": "Afternoon"
+    }
+  ],
+  "rules": [
+    {
+      "id": "r1",
+      "text": "Give in secret, daily",
+      "why": "A small gift before the day’s business, with no name on it and no thanks expected."
+    },
+    {
+      "id": "r2",
+      "text": "Deal honestly",
+      "why": "Fair weight, fair price, no adulteration. A cheat was paraded through the market with his goods round his neck."
+    },
+    {
+      "id": "r3",
+      "text": "Honour the guest",
+      "why": "Whoever comes is fed and made comfortable before anything else."
+    },
+    {
+      "id": "r4",
+      "text": "Look after your neighbour",
+      "why": "Know who lives near you. Share food when you cook something good, and notice when a chimney does not smoke."
+    },
+    {
+      "id": "r5",
+      "text": "Respect the master and the method",
+      "why": "Learn slowly, by copying those who know. Do not sign what you have not earned."
+    },
+    {
+      "id": "r6",
+      "text": "Make time for ease",
+      "why": "Sit, look, drink something and be content. A life with no keyif is badly managed."
+    }
+  ],
+  "immerse": {
+    "read": [
+      {
+        "id": "read-an-ottoman-traveller-selections-from-the-book-of-travels",
+        "title": "An Ottoman Traveller: Selections from the Book of Travels",
+        "creator": "Evliya Çelebi, trans. Robert Dankoff and Sooyong Kim",
+        "year": "about 1640 to 1680",
+        "why": "Forty years of journeys from Vienna to the Sudan by the empire’s greatest travel writer: curious, boastful and very funny."
+      },
+      {
+        "id": "read-osman-s-dream-the-story-of-the-ottoman-empire",
+        "title": "Osman’s Dream: The Story of the Ottoman Empire",
+        "creator": "Caroline Finkel",
+        "year": "2005",
+        "why": "The full six centuries in one volume, told from Ottoman sources."
+      },
+      {
+        "id": "read-my-name-is-red",
+        "title": "My Name Is Red",
+        "creator": "Orhan Pamuk",
+        "year": "1998",
+        "why": "A murder among the miniature painters of the court in 1591, told by many voices, a coin and a tree among them."
+      },
+      {
+        "id": "read-the-turkish-embassy-letters",
+        "title": "The Turkish Embassy Letters",
+        "creator": "Lady Mary Wortley Montagu",
+        "year": "1716 to 1718",
+        "why": "The wife of the British ambassador visits the women’s baths and the harems and reports that almost everything written by male travellers was wrong."
+      },
+      {
+        "id": "read-istanbul-memories-and-the-city",
+        "title": "Istanbul: Memories and the City",
+        "creator": "Orhan Pamuk",
+        "year": "2003",
+        "why": "A childhood among the decaying mansions of a lost empire, and a meditation on the melancholy that he calls hüzün."
+      },
+      {
+        "id": "read-the-bridge-on-the-drina",
+        "title": "The Bridge on the Drina",
+        "creator": "Ivo Andrić",
+        "year": "1945",
+        "why": "Four centuries in a Bosnian town, from the building of its Ottoman bridge to 1914. A view of the empire from one of its far provinces."
+      }
+    ],
+    "watch": [
+      {
+        "id": "watch-kedi",
+        "title": "Kedi",
+        "creator": "Ceyda Torun",
+        "year": "2016",
+        "why": "Seven street cats and the shopkeepers, fishermen and artists who look after them. The old habit of caring for the city’s animals, alive today."
+      },
+      {
+        "id": "watch-the-ottomans-europe-s-muslim-emperors",
+        "title": "The Ottomans: Europe’s Muslim Emperors",
+        "creator": "BBC; presented by Rageh Omaar",
+        "year": "2013",
+        "why": "Three documentary films from the founding to the collapse, shot across the former empire."
+      },
+      {
+        "id": "watch-magnificent-century",
+        "title": "Magnificent Century",
+        "creator": "Meral Okay and Yılmaz Şahin",
+        "year": "2011 to 2014",
+        "why": "A hugely popular Turkish drama of the court of Süleyman and Hürrem. Lavish, loose with the facts and watched from the Balkans to Latin America."
+      },
+      {
+        "id": "watch-crossing-the-bridge-the-sound-of-istanbul",
+        "title": "Crossing the Bridge: The Sound of Istanbul",
+        "creator": "Fatih Akın",
+        "year": "2005",
+        "why": "A musician wanders the city recording everything from dervish flutes to rock, and finds the old empire’s mixture still there."
+      }
+    ],
+    "listen": [
+      {
+        "id": "listen-istanbul-dimitrie-cantemir",
+        "title": "Istanbul: Dimitrie Cantemir",
+        "creator": "Jordi Savall and Hespèrion XXI",
+        "year": "2009",
+        "why": "Court music of around 1700, from the notebook of a Moldavian prince who lived in Istanbul, played by Turkish, Armenian, Greek and Sephardic musicians together."
+      },
+      {
+        "id": "listen-mehter-marches",
+        "title": "Mehter marches",
+        "creator": "The Mehter band of the Military Museum, Istanbul",
+        "year": "traditional",
+        "why": "The Janissary band, with kettledrums, cymbals and shrill reed pipes. It terrified Europe and then inspired Mozart and Beethoven."
+      },
+      {
+        "id": "listen-works-of-itri",
+        "title": "Works of Itrî",
+        "creator": "Classical Turkish ensembles",
+        "year": "about 1700",
+        "why": "The greatest composer of the classical tradition. His Segâh Tekbir is still sung at festivals in every mosque in Turkey."
+      },
+      {
+        "id": "listen-taksims",
+        "title": "Taksims",
+        "creator": "Tanburi Cemil Bey",
+        "year": "recorded 1910 to 1914",
+        "why": "Improvisations on the long-necked lute and the bowed kemençe, from the last years of the empire. Crackling and unforgettable."
+      }
+    ],
+    "art": [
+      {
+        "id": "art-the-suleymaniye-mosque",
+        "title": "The Süleymaniye Mosque",
+        "creator": "Mimar Sinan",
+        "year": "1550 to 1557",
+        "why": "A vast calm dome above the Golden Horn, with a hospital, schools, a kitchen and baths around it. Sinan placed jars in the walls for the acoustics and a chamber to collect lamp soot for ink."
+      },
+      {
+        "id": "art-iznik-tiles-of-the-rustem-pasha-mosque",
+        "title": "İznik tiles of the Rüstem Pasha Mosque",
+        "creator": "İznik workshops",
+        "year": "about 1563",
+        "why": "A small mosque above the spice market, lined inside and out with tulips, carnations and hyacinths in blue and red."
+      },
+      {
+        "id": "art-the-tughra-of-suleyman",
+        "title": "The tughra of Süleyman",
+        "creator": "Court chancery",
+        "year": "about 1555",
+        "why": "The sultan’s name and titles drawn as a great looped emblem and filled with spiralling flowers in gold and blue. Examples are in the Metropolitan Museum and the British Museum."
+      },
+      {
+        "id": "art-the-tortoise-trainer",
+        "title": "The Tortoise Trainer",
+        "creator": "Osman Hamdi Bey",
+        "year": "1906",
+        "why": "An old dervish with a flute tries to teach tortoises in a tiled room. A wry picture of how slowly things change, by the founder of Turkey’s first museum. In the Pera Museum, Istanbul."
+      }
+    ],
+    "eat": [
+      {
+        "id": "eat-dolma",
+        "title": "Dolma",
+        "creator": "Vine leaves, peppers or aubergines stuffed with rice, herbs and currants",
+        "why": "The palace kitchens had a separate corps of cooks for stuffed dishes. Made in quantity, because some always goes next door."
+      },
+      {
+        "id": "eat-pilav",
+        "title": "Pilav",
+        "creator": "Rice cooked in butter and stock",
+        "why": "The test of a cook, and the dish served to the Janissaries. Overturning the cauldron was their signal for revolt."
+      },
+      {
+        "id": "eat-baklava",
+        "title": "Baklava",
+        "creator": "Paper-thin pastry with nuts and syrup",
+        "why": "Each Ramadan the sultan sent trays of it to the Janissary barracks, carried through the city in procession."
+      },
+      {
+        "id": "eat-asure",
+        "title": "Aşure",
+        "creator": "A pudding of wheat, pulses, dried fruit and nuts",
+        "why": "Noah’s pudding, said to have been made from the last stores on the ark. Cooked in a great pot and sent in bowls to all the neighbours."
+      }
+    ],
+    "drink": [
+      {
+        "id": "drink-turkish-coffee",
+        "title": "Turkish coffee",
+        "creator": "Boiled in a small pot, served with the grounds",
+        "why": "Drunk in small cups with a glass of water and a piece of lokum. Afterwards the cup is turned over and the grounds are read."
+      },
+      {
+        "id": "drink-sherbet",
+        "title": "Sherbet",
+        "creator": "Fruit, flowers or spices steeped in sweetened water",
+        "why": "Rose, tamarind, sour cherry, lemon. The festive soft drink of the empire, served cold."
+      },
+      {
+        "id": "drink-boza",
+        "title": "Boza",
+        "creator": "Thick fermented millet, with cinnamon and roasted chickpeas",
+        "why": "A winter drink sold by street criers at night. The shop of Vefa in Istanbul has made it since 1876."
+      }
+    ],
+    "customs": [
+      {
+        "id": "customs-charity-stones",
+        "title": "Charity stones",
+        "creator": "Giving without being seen",
+        "why": "Stone pillars with a hollow in the top stood at street corners. Money left there was taken only by those who needed it."
+      },
+      {
+        "id": "customs-birdhouses",
+        "title": "Birdhouses",
+        "creator": "Palaces for sparrows",
+        "why": "Ottoman builders set miniature stone pavilions high on the walls of mosques, schools and houses for birds to nest in."
+      },
+      {
+        "id": "customs-shoes-off-and-the-best-seat-for-the-guest",
+        "title": "Shoes off, and the best seat for the guest",
+        "creator": "At the door",
+        "why": "Outdoor shoes are left at the threshold. The guest is given the place of honour, away from the door."
+      },
+      {
+        "id": "customs-each-to-their-own-law",
+        "title": "Each to their own law",
+        "creator": "Communities side by side",
+        "why": "Jews, Christians and Muslims lived under their own religious leaders, paid different taxes and wore different colours. It allowed great variety, and it was not equality."
+      }
+    ],
+    "games": [
+      {
+        "id": "games-tavla",
+        "title": "Tavla",
+        "creator": "Board game · Turkey",
+        "year": "ancient",
+        "why": "Backgammon, played fast in every coffeehouse with the dice called out in Persian numbers."
+      },
+      {
+        "id": "games-mangala",
+        "title": "Mangala",
+        "creator": "Board game · Turkey",
+        "year": "ancient",
+        "why": "The Turkish form of the sowing game, played with forty-eight stones in twelve pits. Miniatures show it at court."
+      },
+      {
+        "id": "games-oil-wrestling",
+        "title": "Oil wrestling",
+        "creator": "Sport · Thrace",
+        "year": "by tradition since 1362",
+        "why": "Wrestlers in leather breeches, drenched in olive oil, grapple in a meadow to drums and pipes. The Kırkpınar tournament at Edirne is among the oldest sporting events in the world."
+      },
+      {
+        "id": "games-karagoz",
+        "title": "Karagöz",
+        "creator": "Shadow theatre · Turkey",
+        "year": "from the 16th century",
+        "why": "Painted leather puppets behind a lit screen. The coarse Karagöz and the pompous Hacivat argue, and every people of the empire appears and is mocked."
+      }
+    ],
+    "festivals": [
+      {
+        "id": "fest-ramazan-bayram",
+        "title": "Ramazan Bayramı",
+        "creator": "Three days at the end of Ramadan, by the lunar calendar",
+        "why": "The Sugar Feast. The young visit the old and kiss their hands, sweets are handed round, and children are given coins."
+      },
+      {
+        "id": "fest-h-drellez",
+        "title": "Hıdrellez",
+        "creator": "5 and 6 May",
+        "why": "The start of summer, when the prophets Hızır and İlyas are said to meet on earth. Wishes are tied to rose bushes and bonfires are jumped. Kept across Turkey and the Balkans."
+      },
+      {
+        "id": "fest-k-rkp-nar",
+        "title": "Kırkpınar",
+        "creator": "Late June or early July, at Edirne",
+        "why": "A week of oil wrestling and a fair, on the meadows outside the old capital."
+      },
+      {
+        "id": "fest-the-istanbul-tulip-festival",
+        "title": "The Istanbul Tulip Festival",
+        "creator": "April",
+        "why": "Millions of tulips are planted in the city’s parks each year, in memory of the flower’s Ottoman age."
+      }
+    ],
+    "places": [
+      {
+        "id": "place-topkap-palace",
+        "title": "Topkapı Palace",
+        "creator": "Sultanahmet, Istanbul, Turkey",
+        "why": "The seat of the sultans for four centuries: a series of courts and pavilions above the meeting of three waters. See the council chamber, the kitchens and the harem."
+      },
+      {
+        "id": "place-the-suleymaniye",
+        "title": "The Süleymaniye",
+        "creator": "Istanbul, Turkey",
+        "why": "Sinan’s mosque and its foundation. Sit in the courtyard, then eat beans and rice at one of the small restaurants in what was its soup kitchen street."
+      },
+      {
+        "id": "place-the-grand-bazaar",
+        "title": "The Grand Bazaar",
+        "creator": "Beyazıt, Istanbul, Turkey",
+        "why": "A covered market of some four thousand shops, begun in 1461. Each street was once a single guild. Go to the old inner hall and the surrounding hans."
+      },
+      {
+        "id": "place-edirne-and-the-selimiye-mosque",
+        "title": "Edirne and the Selimiye Mosque",
+        "creator": "Edirne, Turkey",
+        "why": "The earlier capital in Thrace. Sinan considered the Selimiye, finished when he was in his eighties, his masterpiece."
+      },
+      {
+        "id": "place-safranbolu",
+        "title": "Safranbolu",
+        "creator": "Karabük, Turkey",
+        "why": "A town of some two thousand timber-framed Ottoman houses on a caravan route, with its market, baths and inn. A World Heritage Site."
+      },
+      {
+        "id": "place-the-old-bridge-at-mostar",
+        "title": "The Old Bridge at Mostar",
+        "creator": "Mostar, Bosnia and Herzegovina",
+        "why": "A single stone arch over the Neretva, built by a pupil of Sinan in 1566, destroyed by shellfire in 1993 and rebuilt from the same quarry in 2004."
+      }
+    ]
+  },
+  "ethics": [
+    {
+      "title": "Charity",
+      "text": "Wealth carries a duty. The best gift is one that does not humble the receiver.",
+      "practice": "Give something today in a way that cannot be traced to you."
+    },
+    {
+      "title": "Justice",
+      "text": "The state stands on justice. The circle of equity held that there is no ruler without soldiers, no soldiers without money, no money without prosperous subjects and no prosperity without justice.",
+      "practice": "Is there someone who depends on you whom you have treated unfairly?"
+    },
+    {
+      "title": "Honest craft",
+      "text": "The guild oath bound a tradesman to give true measure and good work.",
+      "practice": "Do one job today to a standard no one will check."
+    },
+    {
+      "title": "Hospitality",
+      "text": "The guest comes with ten blessings, eats one and leaves nine, the saying goes.",
+      "practice": "Invite someone in."
+    },
+    {
+      "title": "Neighbourliness",
+      "text": "A neighbour has rights over you: your greeting, your help, a share of your cooking.",
+      "practice": "Learn the name of one neighbour and take them something."
+    },
+    {
+      "title": "Kindness to animals",
+      "text": "Foundations were endowed to feed dogs, treat storks and shelter birds.",
+      "practice": "Leave water out today for whatever needs it."
+    }
+  ],
+  "philosophy": [
+    {
+      "title": "The circle of justice",
+      "text": "Power rests on the army, the army on revenue, revenue on the people’s well-being and their well-being on just rule. Break the circle anywhere and the state falls.",
+      "practice": "What does your own prosperity rest on, link by link?"
+    },
+    {
+      "title": "Fortune turns",
+      "text": "Devlet means both state and luck. Every empire is a turn of the wheel, and a wise ruler remembers the spider in the palace of the Caesars.",
+      "practice": "What do you hold now that you should hold more lightly?"
+    },
+    {
+      "title": "Health over power",
+      "text": "The most powerful man of his century wrote that a breath of health is worth more than all his dominion.",
+      "practice": "What would you give up to be well?"
+    },
+    {
+      "title": "Many peoples under one roof",
+      "text": "The empire did not try to make its subjects alike. It ranked them and left them to themselves. That is different from both equality and persecution.",
+      "practice": "Do you want the people around you to be like you, or only to be at peace with you?"
+    },
+    {
+      "title": "Giving for ever",
+      "text": "A foundation outlives its founder. The Ottomans built their cities out of gifts meant to last until the end of time.",
+      "practice": "What could you set up that would go on doing good without you?"
+    },
+    {
+      "title": "The master’s hand",
+      "text": "Art is a tradition received. Originality comes last, after years of faithful copying, and then only a little.",
+      "practice": "Whose work do you know well enough to copy?"
+    },
+    {
+      "title": "Slave and vizier",
+      "text": "The empire’s rulers were often men taken as boys from Christian villages. Service, not birth, made a career. It was opportunity built on compulsion.",
+      "practice": "Which of your advantages began in something you did not choose?"
+    },
+    {
+      "title": "Ease",
+      "text": "Keyif is a serious value. A person who cannot sit still by the water has missed something.",
+      "practice": "When did you last do nothing, and enjoy it?"
+    }
+  ],
+  "journal": [
+    "What did you give today that no one saw?",
+    "Whom did you welcome?",
+    "What did you copy, and from whom?",
+    "Was your work honest in the places no one looks?",
+    "Who drank coffee with you, and what was said?",
+    "Which neighbour do you not know?",
+    "What did you cook, and who shared it?",
+    "When did you sit and do nothing?",
+    "What did you tend?",
+    "Which animal did you feed?",
+    "Who is your master in your craft?",
+    "What have you signed that you had not earned?",
+    "Where did you give short measure?",
+    "What kindness are you still in debt for, forty years on?",
+    "How is your health, and what is it worth to you?",
+    "What fortune has turned in your favour, and will it stay?",
+    "Whom did you expect to be like you?",
+    "What community do you answer for?",
+    "What would you endow, if you could?",
+    "What beauty did you add to something useful?",
+    "Whom did you shame without meaning to?",
+    "What news did you hear at the bath or the cafe?",
+    "Where did you travel today, even in thought?",
+    "What did you take that you did not need?",
+    "Who taught you manners?",
+    "What is falling into ruin around you, and do you care?",
+    "What do you love about the place you live?",
+    "What will be left of your work?",
+    "Whom do you love, and do they know?",
+    "What will you leave to no one, since the world is left to no one?"
+  ],
+  "reflect": [
+    "What did giving in secret do to you?",
+    "What did the copying lesson teach your hand?",
+    "Who are your neighbours now?",
+    "What conversations did the coffee make?",
+    "Where did you find ease?",
+    "Which custom will you keep?"
+  ],
+  "dayThemes": [
+    "Osman’s dream",
+    "The gift unseen",
+    "The charity stone",
+    "Bread on the hook",
+    "The guest",
+    "The neighbour’s bowl",
+    "The master’s line",
+    "The apprentice",
+    "Fair weight",
+    "The guild",
+    "The copying lesson",
+    "The pen",
+    "The tulip",
+    "The tile",
+    "The dome",
+    "The foundation",
+    "The soup kitchen",
+    "The fountain",
+    "The birdhouse",
+    "The street cat",
+    "Coffee",
+    "Forty years",
+    "Conversation",
+    "The bath",
+    "The bazaar",
+    "Many peoples",
+    "The circle of justice",
+    "The spider in the palace",
+    "A breath of health",
+    "Ease by the water"
+  ],
+  "guide": {
+    "intro": [
+      "The Ottoman Empire began around 1300 as one of a dozen small Turkish principalities on the frontier of the shrinking Byzantine world. It was named after its founder, Osman, of whom almost nothing certain is known. His descendants ruled in unbroken succession for more than six hundred years, a record few dynasties anywhere have matched.",
+      "They expanded first into the Balkans and then across Anatolia. In 1453 the young sultan Mehmed II took Constantinople, the last remnant of the Roman Empire, and made it his capital. Within seventy years his successors had added Syria, Egypt, the holy cities of Arabia, Iraq, Hungary and the North African coast. Under Süleyman, who reigned from 1520 to 1566 and was called the Magnificent in Europe and the Lawgiver at home, the empire was the strongest power in the world west of China, with a population of perhaps twenty-five million people of every faith and tongue.",
+      "It was governed in an unusual way. The sultan’s ministers, governors and elite infantry, the Janissaries, were for centuries drawn largely from boys levied from Christian villages in the Balkans, converted, educated and bound to the sultan alone. A shepherd’s son could become grand vizier. A Flemish ambassador wrote home in the 1550s with envy that among the Turks, rank was the reward of ability. The system was meritocratic, and it rested on taking children from their parents.",
+      "The empire did not try to make its subjects alike. Muslims were first, but Orthodox and Armenian Christians and Jews ran their own courts, schools and charities under their own leaders. When Spain expelled its Jews in 1492, the sultan sent ships to bring them to his ports. Cities were patchworks of neighbourhoods, each centred on its mosque, church or synagogue.",
+      "Urban life was built by gift. Wealthy men and women, from sultans to merchants, endowed foundations that paid in perpetuity for mosques, schools, hospitals, fountains, bridges, baths, soup kitchens and inns. The architect Sinan alone raised some three hundred buildings for such patrons. Trades were organised in guilds with strict codes. From the 1550s the coffeehouse spread from Istanbul across the empire and beyond, and the bathhouse was in every town. A high culture of calligraphy, tile, textile, poetry and music grew up around the court.",
+      "From the late seventeenth century the empire lost wars and territory to Austria and Russia, and in the nineteenth it struggled to reform itself as nationalism pulled its peoples apart. Its last decades were marked by great violence, above all the destruction of the Armenian population of Anatolia in 1915. Defeat in the First World War ended it, and the Republic of Turkey was founded in 1923 by one of its generals.",
+      "Some thirty modern countries were once wholly or partly Ottoman, and they remember it very differently. This Onda leaves the wars and the palace to the history section and takes its practices from the life of the towns: the hidden gift, the patient craft, the coffee shared, the bath and the hour of ease."
+    ],
+    "origin": "North-west Anatolia, then Bursa, Edirne and Istanbul, ruling from Algiers to Basra and from Budapest to Yemen",
+    "era": "Osman’s principality emerged around 1299. The sultanate was abolished on 1 November 1922",
+    "figures": [
+      {
+        "name": "Osman I",
+        "dates": "about 1258 to 1324",
+        "bio": "The founder. Later legend gave him a dream in which a tree grew from his body and shaded the world."
+      },
+      {
+        "name": "Mehmed II",
+        "dates": "1432 to 1481",
+        "bio": "The Conqueror, who took Constantinople at twenty-one. He read Greek and Latin history, repopulated the city with people of all faiths and had his portrait painted by a Venetian."
+      },
+      {
+        "name": "Süleyman I",
+        "dates": "1494 to 1566",
+        "bio": "The longest-reigning sultan. Soldier, lawgiver, goldsmith and poet under the name Muhibbi, the lover."
+      },
+      {
+        "name": "Hürrem Sultan",
+        "dates": "about 1504 to 1558",
+        "bio": "Captured in what is now Ukraine and brought to the palace as a slave. Süleyman freed and married her, against all custom. She endowed baths, kitchens and a hospital."
+      },
+      {
+        "name": "Mimar Sinan",
+        "dates": "about 1490 to 1588",
+        "bio": "Taken in the child levy from an Anatolian Christian village, he served as a military engineer and then for fifty years as chief architect."
+      },
+      {
+        "name": "Mihrimah Sultan",
+        "dates": "1522 to 1578",
+        "bio": "Daughter of Süleyman and Hürrem, the richest woman of her age and patron of two of Sinan’s finest mosques."
+      },
+      {
+        "name": "Piri Reis",
+        "dates": "about 1470 to 1553",
+        "bio": "Admiral and cartographer. His world map of 1513 shows the coasts of South America, drawing on a lost chart by Columbus."
+      },
+      {
+        "name": "Evliya Çelebi",
+        "dates": "1611 to about 1684",
+        "bio": "A courtier’s son who spent his life on the road and wrote ten volumes about everything he saw, ate and heard."
+      },
+      {
+        "name": "Itrî",
+        "dates": "about 1640 to 1712",
+        "bio": "Composer, calligrapher and poet, held to be the founder of Turkish classical music. Only some forty of his thousand works survive."
+      },
+      {
+        "name": "İbrahim Müteferrika",
+        "dates": "1674 to 1745",
+        "bio": "A Hungarian-born convert who set up the first Ottoman Turkish printing press in 1727 and printed maps, histories and a dictionary."
+      },
+      {
+        "name": "Osman Hamdi Bey",
+        "dates": "1842 to 1910",
+        "bio": "Painter, archaeologist and founder of the Istanbul Archaeology Museums and the academy of fine arts."
+      },
+      {
+        "name": "Fatma Aliye",
+        "dates": "1862 to 1936",
+        "bio": "Novelist and essayist, among the first women in the Muslim world to publish novels under her own name."
+      }
+    ],
+    "history": [
+      {
+        "when": "about 1299",
+        "what": "Osman",
+        "detail": "A chieftain in the hills of Bithynia begins raiding Byzantine territory. His son takes Bursa in 1326 and makes it a capital."
+      },
+      {
+        "when": "1361 to 1389",
+        "what": "Into Europe",
+        "detail": "Edirne becomes the capital. The Balkan states are defeated, most famously on the field of Kosovo."
+      },
+      {
+        "when": "1402",
+        "what": "Timur",
+        "detail": "The conqueror from Samarkand captures Sultan Bayezid at Ankara. The Ottoman state nearly dissolves and is rebuilt over the next generation."
+      },
+      {
+        "when": "29 May 1453",
+        "what": "Constantinople",
+        "detail": "After a siege of fifty-three days, with huge cannon and ships dragged overland, Mehmed II takes the city. The great church of Hagia Sophia becomes a mosque."
+      },
+      {
+        "when": "1492",
+        "what": "Refuge for the Jews of Spain",
+        "detail": "Bayezid II orders his governors to receive them. Their descendants keep their Spanish for five hundred years in Salonica, Izmir and Istanbul."
+      },
+      {
+        "when": "1516 to 1517",
+        "what": "Syria, Egypt and the holy cities",
+        "detail": "Selim I defeats the Mamluks. The Ottoman sultan is now the leading ruler of the Sunni Muslim world."
+      },
+      {
+        "when": "1520 to 1566",
+        "what": "Süleyman",
+        "detail": "Belgrade, Rhodes and most of Hungary fall. Vienna is besieged in 1529. At home the laws are codified and Sinan builds."
+      },
+      {
+        "when": "about 1554",
+        "what": "The first coffeehouses",
+        "detail": "Two Syrians open them in the Tahtakale district of Istanbul. Within a few decades there are hundreds."
+      },
+      {
+        "when": "1683 to 1699",
+        "what": "Vienna and after",
+        "detail": "A second siege of Vienna fails. The war that follows ends with the first major loss of territory, at the Treaty of Karlowitz."
+      },
+      {
+        "when": "1718 to 1730",
+        "what": "The Tulip Era",
+        "detail": "A decade of peace, garden parties, French fashions and the first press, ended by a revolt in the capital."
+      },
+      {
+        "when": "1826 to 1839",
+        "what": "Reform",
+        "detail": "Mahmud II destroys the Janissaries. In 1839 the Tanzimat edict promises security of life and property and equality before the law to all subjects."
+      },
+      {
+        "when": "1876 to 1909",
+        "what": "Constitution and autocracy",
+        "detail": "A constitution is proclaimed and suspended by Abdülhamid II, who rules for thirty years until the Young Turk revolution."
+      },
+      {
+        "when": "1915",
+        "what": "The Armenian genocide",
+        "detail": "During the First World War the government deports the Armenians of Anatolia. Around a million die by massacre, starvation and forced march."
+      },
+      {
+        "when": "1922 to 1924",
+        "what": "The end",
+        "detail": "The sultanate is abolished in November 1922, the republic declared in October 1923 and the caliphate ended in March 1924. The dynasty is sent into exile."
+      }
+    ],
+    "concepts": [
+      {
+        "term": "The circle of justice",
+        "text": "The theory of the state.",
+        "detail": "No power without troops, no troops without wealth, no wealth without subjects, no subjects without justice. It was painted on walls and quoted in every book of advice to sultans."
+      },
+      {
+        "term": "The child levy",
+        "text": "Devşirme.",
+        "detail": "The periodic collection of boys from Christian subjects for the palace schools and the Janissaries. They became the ruling class, legally the sultan’s slaves."
+      },
+      {
+        "term": "The millet system",
+        "text": "Self-rule by religion.",
+        "detail": "Non-Muslim communities governed their own family law, education and welfare. They paid a poll tax and accepted a lower legal status in exchange for protection."
+      },
+      {
+        "term": "The foundation",
+        "text": "Vakıf.",
+        "detail": "An endowment of property whose income supports a charitable purpose for ever, under the terms of the founder’s deed. At times a third of the empire’s farmland was held this way."
+      },
+      {
+        "term": "The guilds",
+        "text": "Organised trades.",
+        "detail": "Each craft fixed prices and standards, trained apprentices, supported the sick and marched together in festivals. Many had Christian, Jewish and Muslim members."
+      },
+      {
+        "term": "The harem",
+        "text": "The private household.",
+        "detail": "The family quarters of the palace, forbidden to outsiders. It was a hierarchy and a school, and in the seventeenth century the sultan’s mother often ran the state from it."
+      },
+      {
+        "term": "Sultanic law",
+        "text": "Kanun alongside sharia.",
+        "detail": "Decrees on taxation, land and crime that supplemented religious law. Judges applied both."
+      },
+      {
+        "term": "The Tulip Era",
+        "text": "A taste for peace.",
+        "detail": "The years 1718 to 1730, when the court turned to gardens, poetry and festivals and tulip bulbs changed hands for fortunes."
+      },
+      {
+        "term": "The Tanzimat",
+        "text": "Reordering.",
+        "detail": "The reform period of 1839 to 1876, which introduced equal citizenship, new courts, schools, railways and, in the end, a constitution."
+      }
+    ],
+    "facts": [
+      {
+        "text": "Thirty-six sultans of one family reigned in succession over 623 years."
+      },
+      {
+        "text": "The kitchens of Topkapı Palace cooked for up to five thousand people a day and had a chimney for each of ten kitchens."
+      },
+      {
+        "text": "Tulips came to the Netherlands from Ottoman gardens in the sixteenth century. The word comes from the Turkish for turban."
+      },
+      {
+        "text": "Smallpox inoculation was brought to western Europe from Istanbul in 1721 by Lady Mary Wortley Montagu, who had her own children treated."
+      },
+      {
+        "text": "Coffee, yoghurt, kiosk, divan, sofa and turquoise all reached English through the Ottoman world."
+      },
+      {
+        "text": "Sinan lived to about ninety-eight and is buried in a small tomb he designed himself, beside the Süleymaniye."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Sultan",
+        "meaning": "The ruler. Also a title for his mother, wives and daughters"
+      },
+      {
+        "term": "Grand vizier",
+        "meaning": "The sultan’s chief minister and deputy"
+      },
+      {
+        "term": "Janissary",
+        "meaning": "A soldier of the standing infantry, from the Turkish for new troop"
+      },
+      {
+        "term": "Pasha",
+        "meaning": "The highest rank of official and general"
+      },
+      {
+        "term": "Sublime Porte",
+        "meaning": "The grand vizier’s office, used to mean the Ottoman government"
+      },
+      {
+        "term": "Han",
+        "meaning": "A city inn for merchants, built round a courtyard, with stabling and storerooms"
+      }
+    ],
+    "furtherReading": [
+      {
+        "title": "Subjects of the Sultan: Culture and Daily Life in the Ottoman Empire",
+        "creator": "Suraiya Faroqhi",
+        "year": "1995; English 2000",
+        "note": "How ordinary townspeople lived, worked, ate, read and celebrated."
+      },
+      {
+        "title": "The Ottomans: Khans, Caesars and Caliphs",
+        "creator": "Marc David Baer",
+        "year": "2021",
+        "note": "A recent history that places the empire firmly inside the story of Europe, and does not look away from its violence."
+      },
+      {
+        "title": "Constantinople: City of the World’s Desire, 1453 to 1924",
+        "creator": "Philip Mansel",
+        "year": "1995",
+        "note": "The capital and its dynasty, told through its people of every community."
+      },
+      {
+        "title": "A Shameful Act: The Armenian Genocide and the Question of Turkish Responsibility",
+        "creator": "Taner Akçam",
+        "year": "2006",
+        "note": "A Turkish historian’s account, based on Ottoman documents, of what was done in 1915."
+      }
+    ],
+    "learnFrom": [
+      {
+        "name": "Pera Museum",
+        "note": "A museum in Istanbul with fine collections of Ottoman painting, tiles and weights and measures, much of it online.",
+        "link": "https://www.peramuseum.org"
+      },
+      {
+        "name": "SALT Research",
+        "note": "A free digital archive in Istanbul of photographs, maps and documents of the late empire.",
+        "link": "https://saltresearch.org"
+      },
+      {
+        "name": "A calligraphy, marbling or music teacher",
+        "note": "The traditional arts are still taught master to pupil in Istanbul and in Turkish cultural centres abroad. Take one lesson."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Osman’s Dream: The Story of the Ottoman Empire, 1300 to 1923",
+        "creator": "Caroline Finkel",
+        "publisher": "John Murray",
+        "year": "2005"
+      },
+      {
+        "title": "Subjects of the Sultan: Culture and Daily Life in the Ottoman Empire",
+        "creator": "Suraiya Faroqhi",
+        "publisher": "I. B. Tauris",
+        "year": "2000"
+      },
+      {
+        "title": "The Ottoman Empire: The Classical Age, 1300 to 1600",
+        "creator": "Halil İnalcık",
+        "publisher": "Weidenfeld and Nicolson",
+        "year": "1973"
+      },
+      {
+        "title": "The Ottoman Empire, 1700 to 1922",
+        "creator": "Donald Quataert",
+        "publisher": "Cambridge University Press",
+        "year": "2nd edition 2005"
+      },
+      {
+        "title": "A Social History of Ottoman Istanbul",
+        "creator": "Ebru Boyar and Kate Fleet",
+        "publisher": "Cambridge University Press",
+        "year": "2010"
+      },
+      {
+        "title": "Coffee and Coffeehouses: The Origins of a Social Beverage in the Medieval Near East",
+        "creator": "Ralph S. Hattox",
+        "publisher": "University of Washington Press",
+        "year": "1985"
+      }
+    ]
+  },
+  "sensitivity": {
+    "note": "The Ottoman Empire is remembered with pride in Turkey and with pain in many of the lands it ruled. This Onda borrows the civic customs of its towns: charity, craft, hospitality and ease. It does not offer a verdict on the empire.",
+    "requiredCaveats": [
+      "The destruction of the Ottoman Armenians in 1915 is recognised as genocide by most historians. The same years saw mass killing and expulsion of Assyrians and Greeks, and of Muslims in the Balkans and the Caucasus.",
+      "Slavery was legal for most of the empire’s history, and the child levy took boys from their families by force.",
+      "Several customs here, such as charity and the bath, have roots in Islamic practice. They are given in their everyday civic form. For the religion itself, see the Onda on Islam.",
+      "Greeks, Serbs, Bulgarians, Arabs, Armenians, Kurds and Turks each tell this history differently. Listen to more than one."
+    ],
+    "reviewRequired": true
+  }
+}

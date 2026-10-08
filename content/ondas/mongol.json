@@ -1,0 +1,1246 @@
+{
+  "version": 1,
+  "id": "mongol",
+  "name": "Mongol Empire",
+  "origin": "Central Asia",
+  "era": "1206 to 1368, and a living steppe culture",
+  "tone": "blue",
+  "icon": "horse",
+  "font": "kurale",
+  "pattern": "steppe-clouds",
+  "glyph": "Тэнгэр",
+  "line": "Travel light, keep your word, open your door and look to the sky.",
+  "quote": {
+    "text": "If, like the five arrow-shafts, each of you keeps to himself, you can easily be broken by anyone. If you are together and of one mind, like the bound arrow-shafts, how can anyone easily break you?",
+    "by": "Alan the Fair, to her five sons",
+    "source": "The Secret History of the Mongols, section 22, after the translation of Igor de Rachewiltz"
+  },
+  "quotes": [
+    {
+      "text": "We have no friend but our shadow, we have no whip but our horse’s tail.",
+      "by": "Hoelun, mother of Temüjin",
+      "source": "The Secret History of the Mongols, sections 76 to 78, after the translation of Igor de Rachewiltz"
+    },
+    {
+      "text": "I hate luxury and exercise moderation. I have only one coat and one food. I eat the same food and am dressed in the same tatters as my humble herdsmen.",
+      "by": "Chinggis Khan",
+      "source": "Letter summoning the Daoist master Changchun, 1219, trans. E. Bretschneider, 1888"
+    },
+    {
+      "text": "Just as God gave different fingers to the hand so has He given different ways to men.",
+      "by": "Möngke Khan",
+      "source": "To the friar William of Rubruck at Karakorum, 1254, in Rubruck’s report, trans. in Christopher Dawson, The Mongol Mission"
+    },
+    {
+      "text": "From the rising of the sun to its setting, all the lands have been made subject to me.",
+      "by": "Güyük Khan",
+      "source": "Letter to Pope Innocent IV, 1246, trans. in Christopher Dawson, The Mongol Mission"
+    },
+    {
+      "text": "They came, they sapped, they burnt, they slew, they plundered and they departed.",
+      "by": "A survivor of the sack of Bukhara",
+      "source": "Reported by Juvaini, The History of the World Conqueror, about 1260, trans. J. A. Boyle"
+    },
+    {
+      "text": "The empire was won on horseback, but it cannot be governed on horseback.",
+      "by": "Yelü Chucai",
+      "source": "His advice to Ögedei Khan, as recorded in the Chinese History of the Yuan"
+    }
+  ],
+  "words": [
+    {
+      "id": "word-tenger",
+      "term": "Tenger",
+      "meaning": "Sky; heaven",
+      "pronunciation": "TENG-ger",
+      "language": "Mongolian",
+      "usage": "The highest power. Older texts write Tengri. The Mongols prayed to the Eternal Blue Sky and believed it had given them the earth to rule."
+    },
+    {
+      "id": "word-mongke-tenger",
+      "term": "Möngke Tenger",
+      "meaning": "The Eternal Sky",
+      "pronunciation": "MUNG-keh TENG-ger",
+      "language": "Mongolian",
+      "usage": "The phrase that opened every imperial decree: by the strength of the Eternal Sky."
+    },
+    {
+      "id": "word-khan",
+      "term": "Khan",
+      "meaning": "Ruler",
+      "pronunciation": "KHAHN",
+      "language": "Mongolian",
+      "usage": "The lord of a people. The supreme ruler was the khagan, the great khan."
+    },
+    {
+      "id": "word-ger",
+      "term": "Ger",
+      "meaning": "The round felt tent; home",
+      "pronunciation": "GAIR",
+      "language": "Mongolian",
+      "usage": "A lattice wall and roof poles covered in felt, put up in an hour and warm at forty below. The door faces south. Russians call it a yurt."
+    },
+    {
+      "id": "word-ordo",
+      "term": "Ordo",
+      "meaning": "The ruler’s camp",
+      "pronunciation": "OR-doh",
+      "language": "Mongolian",
+      "usage": "A mobile palace of tents and carts. It gives English the word horde."
+    },
+    {
+      "id": "word-khuriltai",
+      "term": "Khuriltai",
+      "meaning": "The great assembly",
+      "pronunciation": "khoo-ril-TY",
+      "language": "Mongolian",
+      "usage": "A council of princes and commanders that chose the khan and decided on war. Staying away meant opposition."
+    },
+    {
+      "id": "word-yasa",
+      "term": "Yasa",
+      "meaning": "The law; the decrees",
+      "pronunciation": "YAH-sah",
+      "language": "Mongolian",
+      "usage": "In Mongolian, Ikh Zasag, the great law. The rulings of Chinggis Khan on discipline, theft, the hunt and the sharing of spoils. No full text survives."
+    },
+    {
+      "id": "word-bilig",
+      "term": "Bilig",
+      "meaning": "Wise sayings",
+      "pronunciation": "BIL-ig",
+      "language": "Mongolian",
+      "usage": "The maxims of Chinggis Khan, memorised and recited at gatherings."
+    },
+    {
+      "id": "word-yam",
+      "term": "Yam",
+      "meaning": "The relay post",
+      "pronunciation": "YAHM",
+      "language": "Mongolian",
+      "usage": "In Mongolian, örtöö. Stations a day’s ride apart with fresh horses, food and lodging for couriers, across the whole empire."
+    },
+    {
+      "id": "word-paiza",
+      "term": "Paiza",
+      "meaning": "Tablet of authority",
+      "pronunciation": "PY-zah",
+      "language": "Mongolian, from Chinese",
+      "usage": "In Mongolian, gerege. A metal passport that entitled the bearer to horses and supplies at every station."
+    },
+    {
+      "id": "word-nokor",
+      "term": "Nökör",
+      "meaning": "Companion; sworn follower",
+      "pronunciation": "NUH-kur",
+      "language": "Mongolian",
+      "usage": "One who has left his own clan to serve a leader of his choosing. Chinggis Khan built his army from them."
+    },
+    {
+      "id": "word-anda",
+      "term": "Anda",
+      "meaning": "Sworn brother",
+      "pronunciation": "AHN-dah",
+      "language": "Mongolian",
+      "usage": "Two men who exchange gifts and an oath become closer than kin. Temüjin and Jamukha were anda, and then enemies."
+    },
+    {
+      "id": "word-ulus",
+      "term": "Ulus",
+      "meaning": "A people; a realm",
+      "pronunciation": "oo-LOOS",
+      "language": "Mongolian",
+      "usage": "First the people who follow a ruler, wherever they camp. Only later the land. Modern Mongolia calls itself Mongol Uls."
+    },
+    {
+      "id": "word-tumen",
+      "term": "Tumen",
+      "meaning": "Ten thousand",
+      "pronunciation": "TOO-men",
+      "language": "Mongolian",
+      "usage": "The largest unit of an army organised in tens, hundreds and thousands, which cut across the old tribes."
+    },
+    {
+      "id": "word-keshig",
+      "term": "Keshig",
+      "meaning": "The imperial guard",
+      "pronunciation": "KEH-shig",
+      "language": "Mongolian",
+      "usage": "Ten thousand picked men who served the khan by day and night in turns. It was also the school of generals and governors."
+    },
+    {
+      "id": "word-darkhan",
+      "term": "Darkhan",
+      "meaning": "One set free of dues",
+      "pronunciation": "DAR-khan",
+      "language": "Mongolian",
+      "usage": "A title given for great service, carrying freedom from tax and pardon for up to nine offences."
+    },
+    {
+      "id": "word-sulde",
+      "term": "Sülde",
+      "meaning": "The spirit banner",
+      "pronunciation": "SOOL-deh",
+      "language": "Mongolian",
+      "usage": "A spear hung with horsehair, white for peace and black for war. It held the soul and fortune of a leader."
+    },
+    {
+      "id": "word-boo",
+      "term": "Böö",
+      "meaning": "Shaman",
+      "pronunciation": "BUH",
+      "language": "Mongolian",
+      "usage": "One who speaks with the spirits of sky, earth and ancestors, with a drum and a costume hung with iron."
+    },
+    {
+      "id": "word-ovoo",
+      "term": "Ovoo",
+      "meaning": "A sacred cairn",
+      "pronunciation": "oh-VOH",
+      "language": "Mongolian",
+      "usage": "A heap of stones on a pass or hilltop. Travellers walk round it three times, with the sun, and add a stone."
+    },
+    {
+      "id": "word-tsatsal",
+      "term": "Tsatsal",
+      "meaning": "A sprinkled offering",
+      "pronunciation": "TSAH-tsal",
+      "language": "Mongolian",
+      "usage": "Milk or tea flicked skywards with a carved wooden spoon, to the sky and the land, each morning and before a journey."
+    },
+    {
+      "id": "word-gal-golomt",
+      "term": "Gal golomt",
+      "meaning": "The hearth",
+      "pronunciation": "gal goh-LOMT",
+      "language": "Mongolian",
+      "usage": "The fire at the centre of the ger. It is the family line itself. Nothing unclean goes into it."
+    },
+    {
+      "id": "word-nutag",
+      "term": "Nutag",
+      "meaning": "Homeland; home pasture",
+      "pronunciation": "NOO-tak",
+      "language": "Mongolian",
+      "usage": "The land a person belongs to, wherever they have been taken. A deep word in Mongolian songs."
+    },
+    {
+      "id": "word-tal",
+      "term": "Tal",
+      "meaning": "The steppe",
+      "pronunciation": "TAHL",
+      "language": "Mongolian",
+      "usage": "The open grassland, a sea of it, from Hungary to Manchuria."
+    },
+    {
+      "id": "word-mori",
+      "term": "Mori",
+      "meaning": "Horse",
+      "pronunciation": "MOR",
+      "language": "Mongolian",
+      "usage": "Children ride before they walk far. Each soldier took three or four remounts, which is how armies covered a hundred kilometres a day."
+    },
+    {
+      "id": "word-airag",
+      "term": "Airag",
+      "meaning": "Fermented mare’s milk",
+      "pronunciation": "AY-rak",
+      "language": "Mongolian",
+      "usage": "Lightly alcoholic and sour, churned in a hide bag by the door. The drink of summer. Turkic peoples call it kumis."
+    },
+    {
+      "id": "word-tsagaan-idee",
+      "term": "Tsagaan idee",
+      "meaning": "White foods",
+      "pronunciation": "tsa-GAHN ee-DEH",
+      "language": "Mongolian",
+      "usage": "Milk, curds, cream, dried cheese. Pure and honoured, the food of summer, as meat is the food of winter."
+    },
+    {
+      "id": "word-bokh",
+      "term": "Bökh",
+      "meaning": "Wrestling",
+      "pronunciation": "BUKH",
+      "language": "Mongolian",
+      "usage": "The first of the three manly games. No weight classes and no time limit: whoever touches the ground first loses."
+    },
+    {
+      "id": "word-naadam",
+      "term": "Naadam",
+      "meaning": "Games; festival",
+      "pronunciation": "NAH-dam",
+      "language": "Mongolian",
+      "usage": "The gathering for wrestling, archery and horse racing, held since the empire and before."
+    },
+    {
+      "id": "word-deel",
+      "term": "Deel",
+      "meaning": "The long robe",
+      "pronunciation": "DELL",
+      "language": "Mongolian",
+      "usage": "A wrap-over coat belted with a sash, worn by men and women, cut for riding."
+    },
+    {
+      "id": "word-zud",
+      "term": "Zud",
+      "meaning": "Winter disaster",
+      "pronunciation": "DZOOD",
+      "language": "Mongolian",
+      "usage": "A winter of deep snow or ice that kills the herds. The steppe’s oldest fear."
+    }
+  ],
+  "practices": [
+    {
+      "id": "sky-offering",
+      "name": "The morning offering to the sky",
+      "icon": "sun-horizon",
+      "slot": "Morning",
+      "time": "06:30",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "As soon as you have made the first tea or opened the first milk of the day, take a small cup of it outside or to an open window. Face the rising sun. Flick a few drops upward to the sky, then to the four directions and to the ground under your feet. Look at the whole horizon and the weather. Say thanks for the day, and ask for a clear road. Then drink what is left.",
+      "why": "Mongolian households still make this offering, the tsatsal, each morning with the first of the milk or tea, using a wooden spoon with nine hollows. Chinggis Khan went up the mountain Burkhan Khaldun, took off his cap, hung his belt round his neck and sprinkled milk to the sky before every great decision.",
+      "variations": [
+        "Do it before a journey, in the direction you will travel.",
+        "Use plain water if that is what you have.",
+        "Stay a full minute looking at the sky before you go in."
+      ]
+    },
+    {
+      "id": "cover-ground",
+      "name": "Cover ground",
+      "icon": "horse",
+      "slot": "Morning",
+      "time": "08:00",
+      "minutes": 60,
+      "meta": "Morning · 60 min",
+      "instructions": "Go a long way under the open sky today, further than is convenient, by your own effort or on an animal: walk, run, ride a horse or a bicycle. Leave the paths you know. Carry water and little else. As you go, read the land the way a herder does. Where is the wind from? Where does water lie? What is growing, and what has passed this way? Come home by a different route.",
+      "why": "The Mongols lived on the move, shifting camp with the seasons, and their armies and couriers covered distances no one else thought possible. A rider on the relay post could cross three hundred kilometres in a day by changing horses.",
+      "variations": [
+        "Learn to find south without a device.",
+        "Take a riding lesson.",
+        "Sleep outside one night this month."
+      ]
+    },
+    {
+      "id": "three-games",
+      "name": "One of the three games",
+      "icon": "barbell",
+      "slot": "Afternoon",
+      "time": "16:00",
+      "minutes": 30,
+      "meta": "Afternoon · 30 min",
+      "instructions": "Train one of the three skills of the steppe for thirty minutes. Wrestling: grapple with a partner, or practise the stance, squats and lifts that wrestlers use. Archery: shoot at a target, or throw at one, with full attention on a steady stance, a clean release and following through. Riding: balance, legs and core. Work until you are properly tired, and finish by stretching your arms like the wings of the wrestler’s eagle dance.",
+      "why": "Wrestling, archery and horse racing are the three manly games, though girls ride in the races and women shoot. They were the training of every herder for the hunt and for war, and Naadam still crowns a champion in each every July.",
+      "variations": [
+        "Join a wrestling, judo or archery club for a session.",
+        "Do a hundred squats through the day.",
+        "Hold a contest among friends, with a song for the winner."
+      ]
+    },
+    {
+      "id": "open-door",
+      "name": "Keep an open door",
+      "icon": "door-open",
+      "slot": "Afternoon",
+      "time": "18:00",
+      "minutes": 20,
+      "meta": "Afternoon · 20 min",
+      "instructions": "Today, feed whoever comes. Put the kettle on the moment anyone crosses your threshold, before you ask what they want. Offer the cup with your right hand, the left hand under your elbow. Give food with it, and the best of what you have. Ask after their family, their health and their journey before any business. If no one comes, take food to a neighbour or a stranger.",
+      "why": "On the steppe a traveller could die between camps, so every ger was open to anyone who rode up. The door was not locked, tea was poured at once, and to refuse a guest was a disgrace. The custom holds in the countryside of Mongolia today.",
+      "variations": [
+        "Keep a pot of tea ready all day.",
+        "Leave something by your door for whoever needs it.",
+        "Accept hospitality as well as you give it: take what is offered, at least a taste."
+      ]
+    },
+    {
+      "id": "hearth",
+      "name": "Tend the hearth",
+      "icon": "campfire",
+      "slot": "Evening",
+      "time": "20:30",
+      "minutes": 20,
+      "meta": "Evening · 20 min",
+      "instructions": "End the day at a fire or a single flame. Tidy the space round it first. Sit with your household or alone and keep the flame for twenty minutes without a screen. Put nothing dirty into it. Tell one story from your family’s past, or recite the names of your forebears as far back as you can. Before you sleep, check your gear for tomorrow: what you will carry, and what you can leave behind.",
+      "why": "The hearth at the centre of the ger is the seat of the family and its line. The youngest son was called the prince of the fire and inherited the home tent. Mongols learned their ancestry by heart for seven generations and more, and The Secret History itself begins as a genealogy.",
+      "variations": [
+        "Learn the names of your eight great-grandparents.",
+        "Tell the story of how your family came to live where it does.",
+        "Reduce what you own by one thing a day."
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task-read-the-childhood-of-temujin-in-the-secret-history",
+      "name": "Read the childhood of Temüjin in The Secret History",
+      "meta": "Read · sections 59 to 103",
+      "time": "20:00",
+      "slot": "Evening",
+      "action": "read"
+    },
+    {
+      "id": "task-listen-to-a-mongolian-long-song-by-norovbanzad",
+      "name": "Listen to a Mongolian long song by Norovbanzad",
+      "meta": "Listen · eyes closed, 8 min",
+      "time": "17:30",
+      "slot": "Afternoon",
+      "action": "listen"
+    },
+    {
+      "id": "task-watch-the-story-of-the-weeping-camel",
+      "name": "Watch The Story of the Weeping Camel",
+      "meta": "Watch · a herding family in the Gobi",
+      "time": "20:30",
+      "slot": "Evening",
+      "action": "watch"
+    },
+    {
+      "id": "task-make-salty-milk-tea-and-drink-it-from-a-bowl",
+      "name": "Make salty milk tea and drink it from a bowl",
+      "meta": "Drink · suutei tsai",
+      "time": "07:00",
+      "slot": "Morning",
+      "action": "drink"
+    },
+    {
+      "id": "task-journal-what-did-you-carry-today-that-you-did-not-need",
+      "name": "Journal: what did you carry today that you did not need?",
+      "meta": "Journal · 10 min",
+      "time": "21:30",
+      "slot": "Evening",
+      "action": "journal"
+    },
+    {
+      "id": "task-can-an-empire-be-won-on-horseback-and-governed-otherwise",
+      "name": "Can an empire be won on horseback and governed otherwise?",
+      "meta": "Philosophy · 10 min",
+      "time": "09:30",
+      "slot": "Morning",
+      "action": "philosophy"
+    },
+    {
+      "id": "keep-one-promise-to-the-letter-whatever-it-costs",
+      "name": "Keep one promise to the letter, whatever it costs",
+      "meta": "A Mongol’s word",
+      "time": "11:00",
+      "slot": "Morning"
+    },
+    {
+      "id": "decide-something-together-that-you-would-normally-decide-alone",
+      "name": "Decide something together that you would normally decide alone",
+      "meta": "Khuriltai",
+      "time": "13:00",
+      "slot": "Afternoon"
+    },
+    {
+      "id": "promote-or-praise-someone-for-merit-regardless-of-who-they-are",
+      "name": "Promote or praise someone for merit, regardless of who they are",
+      "meta": "As Chinggis did",
+      "time": "15:00",
+      "slot": "Afternoon"
+    }
+  ],
+  "rules": [
+    {
+      "id": "r1",
+      "text": "Greet the sky first",
+      "why": "Begin outside, with the horizon and the weather, before anything on a screen."
+    },
+    {
+      "id": "r2",
+      "text": "Own what you can carry",
+      "why": "If you had to move camp tomorrow, what would you take? Keep little else."
+    },
+    {
+      "id": "r3",
+      "text": "Your word is iron",
+      "why": "Do what you said. The steppe has no contracts, only oaths."
+    },
+    {
+      "id": "r4",
+      "text": "Feed the guest before you ask his business",
+      "why": "Anyone who comes to your door is given tea and food."
+    },
+    {
+      "id": "r5",
+      "text": "Share the spoils",
+      "why": "What is won together is divided fairly. Take your portion last if you lead."
+    },
+    {
+      "id": "r6",
+      "text": "Respect every faith and quarrel with none",
+      "why": "Honour what others hold sacred, as the khans required."
+    }
+  ],
+  "immerse": {
+    "read": [
+      {
+        "id": "read-the-secret-history-of-the-mongols",
+        "title": "The Secret History of the Mongols",
+        "creator": "Anonymous, trans. Igor de Rachewiltz or Urgunge Onon",
+        "year": "about 1228 or 1252",
+        "why": "The Mongols’ own account of the rise of Chinggis Khan, written for the royal family. Part genealogy, part epic, blunt about fear, theft and murder. The only source from inside."
+      },
+      {
+        "id": "read-genghis-khan-and-the-making-of-the-modern-world",
+        "title": "Genghis Khan and the Making of the Modern World",
+        "creator": "Jack Weatherford",
+        "year": "2004",
+        "why": "A warm and widely read retelling that argues for the empire’s contributions to trade, law and tolerance. Enthusiastic, and worth balancing with a more sober history."
+      },
+      {
+        "id": "read-the-mission-of-friar-william-of-rubruck",
+        "title": "The Mission of Friar William of Rubruck",
+        "creator": "William of Rubruck, trans. Peter Jackson",
+        "year": "1255",
+        "why": "A Flemish friar’s report of his journey to the court at Karakorum. Sharp-eyed about food, tents, drinking and a public debate between religions."
+      },
+      {
+        "id": "read-the-travels",
+        "title": "The Travels",
+        "creator": "Marco Polo and Rustichello of Pisa",
+        "year": "about 1298",
+        "why": "Seventeen years in the service of Khubilai Khan, dictated in a Genoese prison. Its account of the relay post and of paper money astonished Europe."
+      },
+      {
+        "id": "read-the-mongols",
+        "title": "The Mongols",
+        "creator": "David Morgan",
+        "year": "1986; 2nd edition 2007",
+        "why": "The standard short history, careful with the evidence."
+      },
+      {
+        "id": "read-the-horde-how-the-mongols-changed-the-world",
+        "title": "The Horde: How the Mongols Changed the World",
+        "creator": "Marie Favereau",
+        "year": "2021",
+        "why": "The western khanate on the Volga, seen from its own side as a lasting and inventive nomadic state."
+      }
+    ],
+    "watch": [
+      {
+        "id": "watch-the-story-of-the-weeping-camel",
+        "title": "The Story of the Weeping Camel",
+        "creator": "Byambasuren Davaa and Luigi Falorni",
+        "year": "2003",
+        "why": "A Gobi family sends for a musician when a mother camel rejects her calf. A film made with a real family in their own ger."
+      },
+      {
+        "id": "watch-mongol",
+        "title": "Mongol",
+        "creator": "Sergei Bodrov",
+        "year": "2007",
+        "why": "The early life of Temüjin, filmed on the steppe in Mongolian. Romantic, but the landscapes and the cold are true."
+      },
+      {
+        "id": "watch-the-cave-of-the-yellow-dog",
+        "title": "The Cave of the Yellow Dog",
+        "creator": "Byambasuren Davaa",
+        "year": "2005",
+        "why": "A girl in a herding family finds a dog. Daily life, the moving of camp and the pull of the city, played by a real family."
+      },
+      {
+        "id": "watch-the-eagle-huntress",
+        "title": "The Eagle Huntress",
+        "creator": "Otto Bell",
+        "year": "2016",
+        "why": "A thirteen-year-old Kazakh girl in western Mongolia trains a golden eagle. The Altai mountains in winter."
+      }
+    ],
+    "listen": [
+      {
+        "id": "listen-long-songs",
+        "title": "Long songs",
+        "creator": "Namjilyn Norovbanzad",
+        "year": "recorded 1960s to 1990s",
+        "why": "Urtiin duu: a few words drawn out over minutes in huge slow arcs, with horse-head fiddle. Sung to the steppe, to horses and at weddings."
+      },
+      {
+        "id": "listen-throat-singing",
+        "title": "Throat singing",
+        "creator": "Ensembles such as Altai Khairkhan and Egschiglen",
+        "year": "traditional",
+        "why": "Khöömii: one singer holds a low drone and whistles a melody above it at the same time, in imitation of wind and water."
+      },
+      {
+        "id": "listen-horse-head-fiddle",
+        "title": "Horse-head fiddle",
+        "creator": "Morin khuur players such as Chi Bulag",
+        "year": "traditional",
+        "why": "Two strings of horsehair and a carved horse’s head. It can gallop, neigh and weep."
+      },
+      {
+        "id": "listen-wrath-of-the-khans",
+        "title": "Wrath of the Khans",
+        "creator": "Dan Carlin, Hardcore History",
+        "year": "2012",
+        "why": "Five long podcast episodes on the conquests that do not look away from what they cost."
+      }
+    ],
+    "art": [
+      {
+        "id": "art-illustrations-to-the-compendium-of-chronicles",
+        "title": "Illustrations to the Compendium of Chronicles",
+        "creator": "Workshop of Rashid al-Din, Tabriz",
+        "year": "about 1306 to 1314",
+        "why": "The first world history, written for the Mongol rulers of Iran. Its paintings show sieges, courts and enthronements in a style that joins Persian and Chinese. Leaves are in Edinburgh and the Khalili Collection."
+      },
+      {
+        "id": "art-portraits-of-chinggis-and-khubilai-khan",
+        "title": "Portraits of Chinggis and Khubilai Khan",
+        "creator": "Yuan court painters",
+        "year": "about 1278 to 1294",
+        "why": "Half-length album portraits on silk in the National Palace Museum, Taipei. The source of every later image of the two men."
+      },
+      {
+        "id": "art-khubilai-khan-hunting",
+        "title": "Khubilai Khan Hunting",
+        "creator": "Liu Guandao",
+        "year": "1280",
+        "why": "The khan in white ermine on a dark horse, with his consort Chabi and attendants from several lands, one of them drawing a bow at a bird."
+      },
+      {
+        "id": "art-a-paiza",
+        "title": "A paiza",
+        "creator": "Yuan dynasty workshop",
+        "year": "late 13th century",
+        "why": "An iron tablet inlaid with silver script reading: by the strength of Eternal Heaven, an edict of the Emperor. He who has no respect shall be guilty. One is in the Metropolitan Museum, New York."
+      }
+    ],
+    "eat": [
+      {
+        "id": "eat-boiled-mutton",
+        "title": "Boiled mutton",
+        "creator": "On the bone, in salted water, eaten with a knife",
+        "why": "The plain festive dish of the steppe. The fat is prized, and the guest of honour is given the shoulder blade."
+      },
+      {
+        "id": "eat-buuz",
+        "title": "Buuz",
+        "creator": "Steamed dumplings of minced mutton and onion",
+        "why": "Made in their hundreds by every family for the lunar new year."
+      },
+      {
+        "id": "eat-aaruul",
+        "title": "Aaruul",
+        "creator": "Dried curds",
+        "why": "Sour, rock-hard and long-keeping. Soldiers carried it in their saddlebags."
+      },
+      {
+        "id": "eat-khorkhog",
+        "title": "Khorkhog",
+        "creator": "Mutton cooked in a sealed can with hot stones",
+        "why": "The stones go in with the meat and cook it from inside. Afterwards the hot, greasy stones are passed from hand to hand for health."
+      }
+    ],
+    "drink": [
+      {
+        "id": "drink-suutei-tsai",
+        "title": "Suutei tsai",
+        "creator": "Tea boiled with milk and salt",
+        "why": "The first thing offered in any ger, ladled high to mix it. Sometimes with a spoonful of butter or millet."
+      },
+      {
+        "id": "drink-airag",
+        "title": "Airag",
+        "creator": "Fermented mare’s milk",
+        "why": "Summer’s drink, fizzy and sour, about as strong as weak beer. A guest is handed a full bowl."
+      },
+      {
+        "id": "drink-black-tea-from-a-brick",
+        "title": "Black tea from a brick",
+        "creator": "Shaved from a pressed block",
+        "why": "Tea came to the steppe as bricks, which were also used as money."
+      }
+    ],
+    "customs": [
+      {
+        "id": "customs-the-threshold",
+        "title": "The threshold",
+        "creator": "Step over it, never on it",
+        "why": "To tread on the threshold of a ger was an insult to the household. At the court of the khans, guards stood by to enforce it, and envoys were warned."
+      },
+      {
+        "id": "customs-passing-with-the-right-hand",
+        "title": "Passing with the right hand",
+        "creator": "Left hand under the right elbow",
+        "why": "Give and receive food and drink with the right hand or both hands, sleeves rolled down. Take at least a sip."
+      },
+      {
+        "id": "customs-circling-the-ovoo",
+        "title": "Circling the ovoo",
+        "creator": "Three times, with the sun",
+        "why": "At a cairn on a pass, walk round it clockwise, add a stone and perhaps a little milk, and continue."
+      },
+      {
+        "id": "customs-respect-for-the-fire-and-for-water",
+        "title": "Respect for the fire and for water",
+        "creator": "Nothing unclean in either",
+        "why": "Do not put rubbish in the hearth, point a knife at it or stretch your feet towards it. The old law forbade washing in running streams."
+      }
+    ],
+    "games": [
+      {
+        "id": "games-shagai",
+        "title": "Shagai",
+        "creator": "Game of ankle bones · Mongolia",
+        "year": "ancient",
+        "why": "Sheep ankle bones land on one of four sides, called horse, camel, sheep and goat. They are flicked, thrown, raced and used to tell fortunes."
+      },
+      {
+        "id": "games-bokh",
+        "title": "Bökh",
+        "creator": "Wrestling · Mongolia",
+        "year": "ancient",
+        "why": "Wrestlers in open jackets and boots enter with an eagle dance. A bout ends when any part of the body above the knee touches the ground."
+      },
+      {
+        "id": "games-shatar",
+        "title": "Shatar",
+        "creator": "Mongolian chess",
+        "year": "medieval",
+        "why": "Played with carved camels for bishops and carts for rooks. The queen is a guard dog or a tiger."
+      },
+      {
+        "id": "games-archery",
+        "title": "Archery",
+        "creator": "Sport · Mongolia",
+        "year": "ancient",
+        "why": "At Naadam, men and women shoot blunt arrows at a low wall of small leather rings, and the judges sing out the hits."
+      }
+    ],
+    "festivals": [
+      {
+        "id": "fest-naadam",
+        "title": "Naadam",
+        "creator": "11 to 13 July",
+        "why": "The national games: wrestling, archery and long-distance races ridden by children. Held in the capital and in every district."
+      },
+      {
+        "id": "fest-tsagaan-sar",
+        "title": "Tsagaan Sar",
+        "creator": "The lunar new year, in January or February",
+        "why": "The White Moon. Families visit their elders in order of age, greet them by supporting their forearms, and eat dumplings and white foods."
+      },
+      {
+        "id": "fest-chinggis-khaan-s-birthday",
+        "title": "Chinggis Khaan’s birthday",
+        "creator": "The first day of the first month of winter, in November",
+        "why": "A public holiday in Mongolia since 2012. The nine white banners are honoured."
+      }
+    ],
+    "places": [
+      {
+        "id": "place-kharkhorin",
+        "title": "Kharkhorin",
+        "creator": "Övörkhangai, Mongolia",
+        "why": "The site of Karakorum, the imperial capital. Little remains but stone tortoises and a good museum. Beside it stands Erdene Zuu, a monastery built from its ruins in 1586."
+      },
+      {
+        "id": "place-burkhan-khaldun",
+        "title": "Burkhan Khaldun",
+        "creator": "Khentii, Mongolia",
+        "why": "The mountain where the young Temüjin hid from his enemies and which he vowed to honour every morning. A World Heritage Site in a strictly protected area. Permits are needed."
+      },
+      {
+        "id": "place-chinggis-khaan-national-museum",
+        "title": "Chinggis Khaan National Museum",
+        "creator": "Ulaanbaatar, Mongolia",
+        "why": "Opened in 2022, with nine floors on the steppe empires from the Xiongnu onwards."
+      },
+      {
+        "id": "place-the-equestrian-statue-at-tsonjin-boldog",
+        "title": "The equestrian statue at Tsonjin Boldog",
+        "creator": "Töv, Mongolia",
+        "why": "A forty-metre steel Chinggis Khan on horseback, an hour east of the capital. You can stand on the horse’s head."
+      },
+      {
+        "id": "place-the-orkhon-valley",
+        "title": "The Orkhon Valley",
+        "creator": "Central Mongolia",
+        "why": "Grassland along the river that was the heart of steppe empires for a thousand years. Stay with a herding family through a community tourism group."
+      },
+      {
+        "id": "place-the-site-of-xanadu",
+        "title": "The site of Xanadu",
+        "creator": "Zhenglan Banner, Inner Mongolia, China",
+        "why": "The grass-grown walls of Shangdu, Khubilai’s summer capital, which Marco Polo described and Coleridge dreamed of."
+      }
+    ]
+  },
+  "ethics": [
+    {
+      "title": "Loyalty",
+      "text": "Chinggis Khan rewarded those who stayed true to their own lords, even his enemies, and executed those who betrayed them to him.",
+      "practice": "Stand by someone today when it would be easier not to."
+    },
+    {
+      "title": "Keeping one’s word",
+      "text": "An oath is the whole of the law between free riders.",
+      "practice": "Make no promise today that you will not keep exactly."
+    },
+    {
+      "title": "Hospitality",
+      "text": "The guest is fed and sheltered, whoever he is.",
+      "practice": "Give your best food to a visitor."
+    },
+    {
+      "title": "Merit",
+      "text": "Commanders were chosen for ability. A herdsman could lead ten thousand.",
+      "practice": "Give credit today to the person who earned it, not the person who outranks them."
+    },
+    {
+      "title": "Frugality",
+      "text": "The khan wore what his herdsmen wore and distrusted luxury as the ruin of nations.",
+      "practice": "Go without one comfort you take for granted."
+    },
+    {
+      "title": "Respect for all faiths",
+      "text": "Priests of every religion were freed from tax and asked to pray for the khan. No one was to be persecuted for belief.",
+      "practice": "Learn one thing today about a faith that is not yours, from someone who holds it."
+    }
+  ],
+  "philosophy": [
+    {
+      "title": "The Eternal Sky",
+      "text": "Above every people and every creed is one heaven, which grants fortune to those in harmony with it. The Mongols prayed to it directly, on high ground.",
+      "practice": "Stand under the open sky for five minutes and ask what it asks of you."
+    },
+    {
+      "title": "The bound arrows",
+      "text": "One shaft snaps. Five together do not. The founding story of the nation is a lesson in unity.",
+      "practice": "Whom do you need to be bound with?"
+    },
+    {
+      "title": "A people is its people",
+      "text": "A nomad realm is the folk who follow, not a stretch of land. Loyalty has to be earned and kept, or they ride away.",
+      "practice": "What holds the people in your life to you?"
+    },
+    {
+      "title": "Movement",
+      "text": "To stay in one place is to exhaust it. Health, for land and for people, lies in moving on at the right time.",
+      "practice": "What have you stayed in too long?"
+    },
+    {
+      "title": "Different fingers, one hand",
+      "text": "Möngke Khan told a missionary that God has given different ways to different peoples. The court set the religions to debate instead of fight.",
+      "practice": "Hold two rival views in your hand today without closing it."
+    },
+    {
+      "title": "Won on horseback",
+      "text": "Conquest and government are different skills. The Mongols learned to borrow administrators from the peoples they had beaten.",
+      "practice": "What did you win by force that you now need other gifts to keep?"
+    },
+    {
+      "title": "The price",
+      "text": "The same armies that opened the roads from China to Europe destroyed cities and killed on a scale not seen before. Both are true.",
+      "practice": "What good in your life has a cost someone else paid?"
+    },
+    {
+      "title": "Fortune",
+      "text": "Chinggis Khan believed heaven had chosen him, and also that he must not grow soft. Luck is given, and must be deserved daily.",
+      "practice": "What luck have you had, and what have you done to deserve it?"
+    }
+  ],
+  "journal": [
+    "What did you carry today that you did not need?",
+    "What did the sky look like this morning?",
+    "How far did you go?",
+    "What did you read from the land?",
+    "Whom did you feed?",
+    "Whose hospitality did you accept, and how well?",
+    "What promise did you keep?",
+    "Who are your sworn companions?",
+    "Whom have you bound yourself to?",
+    "Where are you one arrow alone?",
+    "What did you share, and did you take your portion last?",
+    "What have you stayed in too long?",
+    "What would you take if you moved camp tomorrow?",
+    "What did your body learn today?",
+    "Whom did you honour for merit?",
+    "What luxury is softening you?",
+    "What does your homeland mean to you?",
+    "Who are your ancestors, seven generations back?",
+    "What story did you tell at the fire?",
+    "What did you decide alone that should have gone to council?",
+    "Whose faith did you respect today?",
+    "What did you win that you do not know how to keep?",
+    "Who paid for something you enjoy?",
+    "What threshold did you tread on?",
+    "What winter are you preparing for?",
+    "When did you last sleep under the sky?",
+    "What is your horse: the thing that carries you?",
+    "What fortune have you been given?",
+    "What have you done to deserve it?",
+    "Which way will you ride tomorrow?"
+  ],
+  "reflect": [
+    "What did greeting the sky each morning change?",
+    "What do you now own less of?",
+    "Whose door did you open, and who opened theirs?",
+    "What can your body do that it could not before?",
+    "Whom are you bound with?",
+    "Which habit of the steppe will you keep?"
+  ],
+  "dayThemes": [
+    "The Eternal Sky",
+    "The blue-grey wolf",
+    "The bound arrows",
+    "No friend but our shadow",
+    "The ger",
+    "The door faces south",
+    "Milk to the four directions",
+    "The hearth",
+    "The threshold",
+    "The open door",
+    "Tea first",
+    "The horse",
+    "Cover ground",
+    "Read the land",
+    "Move camp",
+    "What you can carry",
+    "The oath",
+    "Sworn brothers",
+    "The companion",
+    "Merit",
+    "The council",
+    "Share the spoils",
+    "One coat, one food",
+    "The relay post",
+    "The tablet",
+    "Different fingers",
+    "Won on horseback",
+    "The price",
+    "Homeland",
+    "The long song"
+  ],
+  "guide": {
+    "intro": [
+      "In the twelfth century the peoples of the Mongolian steppe were herders of horses, sheep, goats, cattle and camels, living in felt tents and moving with the seasons. They were divided into feuding tribes, and the settled empires to the south paid one to fight another. Into this world, around 1162, a boy named Temüjin was born to a minor chief. When he was nine his father was poisoned by enemies and the clan abandoned the widow and her children to starve. They survived on roots, fish and marmots. Temüjin was captured and enslaved, escaped, and slowly gathered followers who came to him for his ability, not his birth.",
+      "By 1206 he had defeated or absorbed every tribe on the steppe. A great assembly on the Onon river gave him the title Chinggis Khan. He then did something new. He broke up the old tribes and reorganised the whole people into units of ten, a hundred, a thousand and ten thousand, commanded by men he chose for merit and loyalty. He had a script adopted, laws recorded and a guard formed that served as a school for officers. The nation he made was an army, and the army was a nation.",
+      "What followed was the largest land empire in history. In twenty years Chinggis Khan’s armies took northern China and overran Central Asia and Iran. Under his sons and grandsons they conquered Russia, reached Hungary and Poland, destroyed Baghdad, and completed the conquest of China, where his grandson Khubilai founded the Yuan dynasty. At its height the empire ran from the Pacific to the Danube.",
+      "The conquests were terrible. Cities that resisted were destroyed and their people killed or driven before the army. Parts of Iran and Central Asia took centuries to recover. A survivor of Bukhara summed it up in six verbs: they came, they sapped, they burnt, they slew, they plundered and they departed.",
+      "Yet once the wars were over the Mongols held the roads of Eurasia open as no one had before. A system of relay stations carried couriers and envoys across the continent. Merchants, craftsmen, doctors and astronomers moved under the khans’ protection, and with them went paper money, gunpowder, printing, noodles and new medicine. The rulers taxed lightly, promoted foreigners, and required that every religion be left in peace: a Flemish friar found Christians, Muslims, Buddhists and Daoists debating at the court of Karakorum by the khan’s command. The plague travelled the same roads in the 1340s, and the empire’s successor states weakened and fell one by one.",
+      "The culture that produced all this was never only an army. It was, and is, a way of living lightly on a hard land: the round tent that goes up in an hour, the hearth that must be kept clean, the tea poured for any stranger, the oath that is kept, the morning milk flicked to the sky. About a quarter of Mongolia’s people still herd. This Onda follows that older, quieter pattern, and keeps the conquests in view as history, with their price."
+    ],
+    "origin": "The grasslands of Mongolia, and from there to Korea, Hungary, Syria and Vietnam",
+    "era": "Temüjin was proclaimed Chinggis Khan in 1206. The Mongols were driven from China in 1368. The steppe way of life continues",
+    "figures": [
+      {
+        "name": "Chinggis Khan",
+        "dates": "about 1162 to 1227",
+        "bio": "Born Temüjin. Founder of the Mongol nation and empire. He could not read, forbade the use of his name and image, and was buried in a place still unknown."
+      },
+      {
+        "name": "Hoelun",
+        "dates": "died about 1208",
+        "bio": "His mother, who kept five children alive after the clan left them. The Secret History gives her some of its fiercest speeches."
+      },
+      {
+        "name": "Börte",
+        "dates": "about 1161 to 1230",
+        "bio": "His first wife, betrothed to him in childhood, kidnapped and recovered. Mother of the four sons who inherited the empire, and his counsellor."
+      },
+      {
+        "name": "Jamukha",
+        "dates": "died 1206",
+        "bio": "His sworn brother and then his great rival for the steppe. Defeated at last, he asked for a death without bloodshed and was given it."
+      },
+      {
+        "name": "Subutai",
+        "dates": "about 1175 to 1248",
+        "bio": "A blacksmith’s son who became the greatest of the generals, directing campaigns from China to Hungary."
+      },
+      {
+        "name": "Ögedei Khan",
+        "dates": "1186 to 1241",
+        "bio": "The third son and second great khan. Genial and a heavy drinker, he built Karakorum and the relay post."
+      },
+      {
+        "name": "Sorghaghtani Beki",
+        "dates": "about 1190 to 1252",
+        "bio": "A Christian princess, widow of the youngest son. She ran her own lands, educated her four sons in different traditions and saw two of them become great khans."
+      },
+      {
+        "name": "Yelü Chucai",
+        "dates": "1190 to 1244",
+        "bio": "A Khitan scholar taken into service after the fall of Beijing. He persuaded the Mongols to tax northern China instead of turning it into pasture."
+      },
+      {
+        "name": "Möngke Khan",
+        "dates": "1209 to 1259",
+        "bio": "Grandson of Chinggis and the last ruler of a united empire. Austere and capable."
+      },
+      {
+        "name": "Khubilai Khan",
+        "dates": "1215 to 1294",
+        "bio": "Grandson who conquered southern China, founded the Yuan dynasty and built a capital on the site of Beijing. Marco Polo’s patron."
+      },
+      {
+        "name": "Khutulun",
+        "dates": "about 1260 to 1306",
+        "bio": "A great-great-granddaughter of Chinggis who rode to war with her father and, by Marco Polo’s account, would marry only a man who could out-wrestle her. None did."
+      },
+      {
+        "name": "Rashid al-Din",
+        "dates": "1247 to 1318",
+        "bio": "Physician and vizier to the Mongol rulers of Iran, who wrote for them a history of all the peoples of the known world."
+      }
+    ],
+    "history": [
+      {
+        "when": "about 1162",
+        "what": "Birth of Temüjin",
+        "detail": "On the Onon river, clutching a clot of blood in his fist, as the story has it. His father dies about nine years later."
+      },
+      {
+        "when": "1206",
+        "what": "The great assembly",
+        "detail": "At the head of the Onon the united tribes raise a white banner with nine tails and proclaim him Chinggis Khan."
+      },
+      {
+        "when": "1211 to 1215",
+        "what": "War in northern China",
+        "detail": "The Jin empire is invaded. Its capital, on the site of modern Beijing, falls in 1215."
+      },
+      {
+        "when": "1219 to 1221",
+        "what": "The western campaign",
+        "detail": "After a governor murders a Mongol trade caravan, the Khwarazmian empire is destroyed. Bukhara, Samarkand, Merv and Nishapur are sacked."
+      },
+      {
+        "when": "1227",
+        "what": "Death of Chinggis Khan",
+        "detail": "He dies in August while besieging the Tangut kingdom. His body is taken home and buried in secret."
+      },
+      {
+        "when": "1235",
+        "what": "Karakorum",
+        "detail": "Ögedei builds a walled capital on the Orkhon, with a palace, quarters for craftsmen and merchants and places of worship for several faiths."
+      },
+      {
+        "when": "1237 to 1242",
+        "what": "Russia and Europe",
+        "detail": "Batu and Subutai conquer the Russian principalities and, in April 1241, defeat Polish and Hungarian armies within two days. News of Ögedei’s death turns them back."
+      },
+      {
+        "when": "1254",
+        "what": "The debate at Karakorum",
+        "detail": "Möngke Khan orders Christians, Muslims and Buddhists to argue their cases before judges. William of Rubruck takes part and records it."
+      },
+      {
+        "when": "1258",
+        "what": "The fall of Baghdad",
+        "detail": "Hülegü’s army takes the city of the caliphs after a short siege. The slaughter and the loss of its libraries are remembered across the Muslim world."
+      },
+      {
+        "when": "1260",
+        "what": "Ain Jalut and the division",
+        "detail": "An Egyptian army defeats a Mongol force in Palestine. In the same year civil war over the succession splits the empire into four realms."
+      },
+      {
+        "when": "1271 to 1279",
+        "what": "The Yuan",
+        "detail": "Khubilai proclaims a Chinese-style dynasty and completes the conquest of the Song. For the first time in centuries all China has one ruler."
+      },
+      {
+        "when": "1274 and 1281",
+        "what": "Japan",
+        "detail": "Two seaborne invasions fail, the second wrecked by a typhoon the Japanese call the divine wind."
+      },
+      {
+        "when": "1340s",
+        "what": "The plague",
+        "detail": "The Black Death spreads along the trade routes from Central Asia to the Black Sea and on into Europe and the Middle East."
+      },
+      {
+        "when": "1368",
+        "what": "The end of the Yuan",
+        "detail": "A Chinese rebel founds the Ming dynasty and the last Yuan emperor rides north to the steppe, where the Mongols continue under their own khans."
+      }
+    ],
+    "concepts": [
+      {
+        "term": "Tenger",
+        "text": "The sky as highest power.",
+        "detail": "The Mongols held that the Eternal Blue Sky had given Chinggis Khan and his line the mandate to rule the world. Submission was obedience to heaven, and resistance was rebellion."
+      },
+      {
+        "term": "The decimal army",
+        "text": "Tens, hundreds, thousands.",
+        "detail": "Every man from fifteen to seventy belonged to a unit that mixed the old tribes. No one could leave his unit, and the ten answered for each of its members."
+      },
+      {
+        "term": "The Yasa",
+        "text": "The khan’s law.",
+        "detail": "Rulings on military discipline, the great hunt, theft of livestock, the treatment of envoys and the division of booty. Known only from quotations by others."
+      },
+      {
+        "term": "The relay post",
+        "text": "The empire’s nervous system.",
+        "detail": "Stations every forty kilometres or so, supplied by the local people. Envoys with a tablet of authority changed horses and rode on."
+      },
+      {
+        "term": "The khuriltai",
+        "text": "Rule by assembly.",
+        "detail": "The princes and commanders gathered to acclaim a new khan and settle great matters. Its decisions bound those who came."
+      },
+      {
+        "term": "Religious tolerance",
+        "text": "A policy, with a purpose.",
+        "detail": "Clergy of all faiths were exempt from tax and labour service and were asked to pray for the ruler. It kept subject peoples quiet and hedged heaven’s bets."
+      },
+      {
+        "term": "The Pax Mongolica",
+        "text": "The Mongol peace.",
+        "detail": "The century in which a single power kept the routes between China and the Mediterranean open and safe. Later writers said a girl could carry a gold dish across it unharmed."
+      },
+      {
+        "term": "The four khanates",
+        "text": "One family, four realms.",
+        "detail": "After 1260: the Yuan in China and Mongolia, the Ilkhanate in Iran, the Chaghatai realm in Central Asia and the Golden Horde on the western steppe."
+      },
+      {
+        "term": "The white and the black banner",
+        "text": "Peace and war.",
+        "detail": "The spirit banner of white horsehair stood before the khan’s tent in peacetime. The black one went to war. Both held the fortune of the nation."
+      }
+    ],
+    "facts": [
+      {
+        "text": "A Mongol soldier travelled with three or four spare horses and could live for days on dried curd and mare’s milk."
+      },
+      {
+        "text": "The empire at its height covered about twenty-four million square kilometres."
+      },
+      {
+        "text": "Women managed the camps, the herds and the trade while the men were at war, and several widows ruled the empire as regents."
+      },
+      {
+        "text": "The Mongolian vertical script was adapted from Uyghur writing in the time of Chinggis Khan and is still used in Inner Mongolia."
+      },
+      {
+        "text": "Khubilai’s government issued paper money that had to be accepted on pain of death."
+      },
+      {
+        "text": "Mongolia today has about three and a half million people and some seventy million head of livestock."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Steppe",
+        "meaning": "The belt of grassland across the middle of Eurasia"
+      },
+      {
+        "term": "Golden Horde",
+        "meaning": "The Mongol state on the Volga that ruled the Russian lands until the fifteenth century"
+      },
+      {
+        "term": "Ilkhanate",
+        "meaning": "The Mongol state in Iran and Iraq, 1256 to 1335"
+      },
+      {
+        "term": "Yuan",
+        "meaning": "The dynasty founded by Khubilai in China, 1271 to 1368"
+      },
+      {
+        "term": "Tatar",
+        "meaning": "A tribe defeated by Chinggis Khan, whose name Europeans gave to all the Mongols"
+      },
+      {
+        "term": "Kumis",
+        "meaning": "The Turkic word for fermented mare’s milk"
+      }
+    ],
+    "furtherReading": [
+      {
+        "title": "The Mongol Empire",
+        "creator": "Timothy May",
+        "year": "2018",
+        "note": "A thorough recent history of the whole empire and its successor states."
+      },
+      {
+        "title": "Khubilai Khan: His Life and Times",
+        "creator": "Morris Rossabi",
+        "year": "1988",
+        "note": "The standard biography of the grandson who ruled China."
+      },
+      {
+        "title": "The Secret History of the Mongol Queens",
+        "creator": "Jack Weatherford",
+        "year": "2010",
+        "note": "The daughters and widows who held the empire together, and how they were written out."
+      },
+      {
+        "title": "The Mongol Mission",
+        "creator": "ed. Christopher Dawson",
+        "year": "1955",
+        "note": "The reports of the first European envoys, with the khans’ replies to the Pope."
+      }
+    ],
+    "learnFrom": [
+      {
+        "name": "Chinggis Khaan National Museum",
+        "note": "The national museum in Ulaanbaatar, with an online collection.",
+        "link": "https://chinggismuseum.com"
+      },
+      {
+        "name": "Mongolian herding families",
+        "note": "Community-based tourism groups in Mongolia arrange stays in family gers, with the income going to the herders. Ask how the family is paid."
+      },
+      {
+        "name": "A Mongolian cultural centre near you",
+        "note": "Mongolian communities abroad hold Naadam and Tsagaan Sar each year, and many welcome visitors."
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Secret History of the Mongols: A Mongolian Epic Chronicle of the Thirteenth Century",
+        "creator": "trans. Igor de Rachewiltz",
+        "publisher": "Brill",
+        "year": "2004"
+      },
+      {
+        "title": "The Mongols",
+        "creator": "David Morgan",
+        "publisher": "Blackwell",
+        "year": "2nd edition 2007"
+      },
+      {
+        "title": "The Mongol Empire",
+        "creator": "Timothy May",
+        "publisher": "Edinburgh University Press",
+        "year": "2018"
+      },
+      {
+        "title": "The Mongol Mission",
+        "creator": "ed. Christopher Dawson",
+        "publisher": "Sheed and Ward",
+        "year": "1955"
+      },
+      {
+        "title": "Genghis Khan and the Making of the Modern World",
+        "creator": "Jack Weatherford",
+        "publisher": "Crown",
+        "year": "2004"
+      },
+      {
+        "title": "The Horde: How the Mongols Changed the World",
+        "creator": "Marie Favereau",
+        "publisher": "Harvard University Press",
+        "year": "2021"
+      }
+    ]
+  },
+  "sensitivity": {
+    "note": "The Mongol Empire was built by conquest that killed millions. The culture behind it is the living heritage of Mongolians today. This Onda borrows the daily customs of the steppe, which are older and gentler than the empire, and reports the conquests plainly.",
+    "requiredCaveats": [
+      "The Mongol conquests destroyed cities and populations across Asia and eastern Europe. Admiration for the empire’s order should not hide that.",
+      "The offering to the sky and the respect for hearth and cairn are living religious customs in Mongolia. Do them simply, as a guest would, or leave them out.",
+      "Chinggis Khan is a national founder to Mongolians and a destroyer in the memory of Iranians, Arabs, Russians and Chinese. Both views are held by people alive now."
+    ],
+    "reviewRequired": true
+  }
+}

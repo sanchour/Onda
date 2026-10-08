@@ -288,6 +288,6 @@ module.exports = {
       "Long fasts are dangerous. Nothing here asks you to fast, and people with any history of disordered eating should skip the food rules.",
       "His celibacy experiments in old age involved young women in his care and were wrong by any ordinary standard.",
     ],
-    review: false,
+    review: true,
   },
 }

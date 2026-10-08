@@ -677,8 +677,87 @@ Nothing is marked `unverified`.
 
 File: `content/ondas/gandhi.json` · version 1 · about 5200 words · 30 words of vocabulary, 30 journal prompts, 13 history entries, 9 concepts, 6 sources.
 
-Framing note shown in the app: Gandhi is revered in India as the father of the nation and is also seriously criticised there and elsewhere. This Onda borrows his daily discipline and his tests of conduct. It does not present him as a saint, and it leaves out his fasts and his more extreme experiments.
+**Needs review by tradition bearers before launch.** Gandhi is revered in India as the father of the nation and is also seriously criticised there and elsewhere. This Onda borrows his daily discipline and his tests of conduct. It does not present him as a saint, and it leaves out his fasts and his more extreme experiments.
+
+Caveats shown in the app:
+
+- In his early years in South Africa Gandhi wrote of black Africans in demeaning terms and sought privileges for Indians apart from them. His views changed, but the record stands.
+- Many Dalits, following Dr Ambedkar, regard his approach to caste as patronising and reject the name Harijan that he gave them.
+- Long fasts are dangerous. Nothing here asks you to fast, and people with any history of disordered eating should skip the food rules.
+- His celibacy experiments in old age involved young women in his care and were wrong by any ordinary standard.
 
 Marked `unverified` (1):
 
 - Quote: "My life is my message." (Mohandas K. Gandhi; Written in Bengali for a journalist who asked for a message, 1947, as commonly reported)
+
+## Roman Empire
+
+File: `content/ondas/rome.json` · version 1 · about 5200 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
+
+Framing note shown in the app: This Onda follows the day of a free citizen of a Roman town. That day was made possible by conquest and by the labour of enslaved people. The practices borrow the pattern and the virtues. They do not celebrate the empire.
+
+Nothing is marked `unverified`.
+
+
+## Qing Dynasty
+
+File: `content/ondas/qing.json` · version 1 · about 5500 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
+
+**Needs review by tradition bearers before launch.** This Onda follows the daily discipline of a Qing scholar-official, a small and privileged class. The dynasty they served was a conquest empire, and the culture they lived in is the inheritance of people living today. Take the habits with respect and the history whole.
+
+Caveats shown in the app:
+
+- The Qing conquest and its later wars killed very large numbers of people, among them the Dzungar Mongols, who were all but destroyed in the 1750s.
+- The scholar’s life was open only to men. Women were excluded from the examinations, and many Han women had their feet bound, a practice the Manchus forbade their own daughters.
+- Zeng Guofan is admired for his self-discipline and also remembered for the severity with which his armies put down the Taiping.
+
+Marked `unverified` (1):
+
+- Quote: "Do not ask about the harvest. Ask only about the ploughing." (Zeng Guofan; A maxim from his diaries and family letters, as commonly cited)
+
+## Mongol Empire
+
+File: `content/ondas/mongol.json` · version 1 · about 5500 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
+
+**Needs review by tradition bearers before launch.** The Mongol Empire was built by conquest that killed millions. The culture behind it is the living heritage of Mongolians today. This Onda borrows the daily customs of the steppe, which are older and gentler than the empire, and reports the conquests plainly.
+
+Caveats shown in the app:
+
+- The Mongol conquests destroyed cities and populations across Asia and eastern Europe. Admiration for the empire’s order should not hide that.
+- The offering to the sky and the respect for hearth and cairn are living religious customs in Mongolia. Do them simply, as a guest would, or leave them out.
+- Chinggis Khan is a national founder to Mongolians and a destroyer in the memory of Iranians, Arabs, Russians and Chinese. Both views are held by people alive now.
+
+Nothing is marked `unverified`.
+
+
+## Ottoman Empire
+
+File: `content/ondas/ottoman.json` · version 1 · about 5700 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
+
+**Needs review by tradition bearers before launch.** The Ottoman Empire is remembered with pride in Turkey and with pain in many of the lands it ruled. This Onda borrows the civic customs of its towns: charity, craft, hospitality and ease. It does not offer a verdict on the empire.
+
+Caveats shown in the app:
+
+- The destruction of the Ottoman Armenians in 1915 is recognised as genocide by most historians. The same years saw mass killing and expulsion of Assyrians and Greeks, and of Muslims in the Balkans and the Caucasus.
+- Slavery was legal for most of the empire’s history, and the child levy took boys from their families by force.
+- Several customs here, such as charity and the bath, have roots in Islamic practice. They are given in their everyday civic form. For the religion itself, see the Onda on Islam.
+- Greeks, Serbs, Bulgarians, Arabs, Armenians, Kurds and Turks each tell this history differently. Listen to more than one.
+
+Marked `unverified` (1):
+
+- Quote: "Let the people live, so that the state may live." (Attributed to Sheikh Edebali; Advice to his son-in-law Osman, the founder, as handed down in Turkish tradition)
+
+## Mughal Empire
+
+File: `content/ondas/mughal.json` · version 1 · about 5700 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
+
+**Needs review by tradition bearers before launch.** The Mughal past is argued over in South Asia today, sometimes bitterly. This Onda draws on the court’s ideals of peace among faiths, close observation and refinement. It reports the conquests and the intolerance as well, and takes no side in present-day politics.
+
+Caveats shown in the app:
+
+- The empire was founded and enlarged by war. Temples were destroyed at various times, and two Sikh Gurus were executed on the orders of Mughal emperors.
+- Hindus, Muslims and Sikhs remember particular emperors, Aurangzeb above all, in sharply different ways. Read historians from more than one community.
+- The splendour of the court rested on heavy taxation of the peasantry.
+- The culture described here belongs to the living peoples of India, Pakistan, Bangladesh and Afghanistan. Enjoy it as a guest.
+
+Nothing is marked `unverified`.

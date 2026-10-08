@@ -813,3 +813,23 @@ File: `content/ondas/hre.json` · version 1 · about 5600 words · 30 words of v
 Framing note shown in the app: This Onda draws on the civic and monastic life of the old Empire’s towns. That life was Christian through and through, and the practices keep its shape while leaving belief to you. The Empire’s history also includes much that should not be imitated.
 
 Nothing is marked `unverified`.
+
+
+## The 1960s
+
+File: `content/ondas/sixties.json` · version 1 · about 5500 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
+
+Framing note shown in the app: This Onda draws on the methods of the movements of the 1960s. People were beaten, jailed and killed for what is described here, and many who took part are still alive. The practices are offered with respect for them, and are not a costume.
+
+Nothing is marked `unverified`.
+
+
+## The Renaissance
+
+File: `content/ondas/renaissance.json` · version 1 · about 5100 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
+
+Framing note shown in the app: This Onda borrows the working habits of Renaissance artists and scholars. The picture of a golden age is partly the period’s own invention, and it is worth holding it together with the facts below.
+
+Marked `unverified` (1):
+
+- Quote: "I am still learning." (Attributed to Michelangelo; Ancora imparo. An older motto, found on a sixteenth-century print of an old man in a child’s walker; its link to Michelangelo is tradition)

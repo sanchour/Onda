@@ -1,0 +1,1267 @@
+{
+  "version": 1,
+  "id": "renaissance",
+  "name": "The Renaissance",
+  "origin": "Italy",
+  "era": "About 1350 to 1600",
+  "tone": "coral",
+  "icon": "eye",
+  "font": "cardo",
+  "pattern": "perspective-grid",
+  "glyph": "Virtù",
+  "line": "Look closely, draw what you see, read the old books and try your hand at everything.",
+  "quote": {
+    "text": "A man can do all things if he will.",
+    "by": "Leon Battista Alberti",
+    "source": "The saying by which he was remembered, as given by Jacob Burckhardt in 1860 from an anonymous fifteenth-century life"
+  },
+  "quotes": [
+    {
+      "text": "All our knowledge has its origin in our perceptions.",
+      "by": "Leonardo da Vinci",
+      "source": "Notebooks, Codex Trivulzianus, folio 20 verso; translated by Jean Paul Richter, 1883"
+    },
+    {
+      "text": "Thou mayest fashion thyself in whatever shape thou shalt prefer.",
+      "by": "Giovanni Pico della Mirandola",
+      "source": "God speaking to Adam in the Oration on the Dignity of Man, 1486; translated by Elizabeth Livermore Forbes"
+    },
+    {
+      "text": "I enter the ancient courts of ancient men, where, received by them with affection, I feed on that food which only is mine.",
+      "by": "Niccolò Machiavelli",
+      "source": "Letter to Francesco Vettori, 10 December 1513, on his evenings of reading in exile"
+    },
+    {
+      "text": "I am still learning.",
+      "by": "Attributed to Michelangelo",
+      "source": "Ancora imparo. An older motto, found on a sixteenth-century print of an old man in a child’s walker; its link to Michelangelo is tradition",
+      "unverified": true
+    },
+    {
+      "text": "Practise in all things a certain nonchalance which conceals all artistry and makes whatever one says or does seem uncontrived and effortless.",
+      "by": "Baldassare Castiglione",
+      "source": "The Book of the Courtier, 1528, book 1, chapter 26; translated by George Bull"
+    },
+    {
+      "text": "Painting is philosophy.",
+      "by": "Leonardo da Vinci",
+      "source": "Treatise on Painting, compiled from his notes after his death, opening section"
+    },
+    {
+      "text": "Men go to admire the heights of mountains and the mighty waves of the sea, and pass themselves by.",
+      "by": "Augustine, as read by Petrarch",
+      "source": "Confessions, book 10, abridged. Petrarch tells how he opened the book at this passage on the summit of Mont Ventoux in 1336"
+    }
+  ],
+  "words": [
+    {
+      "id": "word-rinascita",
+      "term": "Rinascita",
+      "meaning": "Rebirth",
+      "pronunciation": "ree-nah-SHEE-tah",
+      "language": "Italian",
+      "usage": "Giorgio Vasari’s word in 1550 for the revival of the arts since Giotto. The French form, renaissance, became the name of the age only in the nineteenth century."
+    },
+    {
+      "id": "word-umanista",
+      "term": "Umanista",
+      "meaning": "A humanist",
+      "pronunciation": "oo-mah-NEE-stah",
+      "language": "Italian",
+      "usage": "Student slang for a teacher of the humanities: grammar, rhetoric, poetry, history and moral philosophy."
+    },
+    {
+      "id": "word-studia-humanitatis",
+      "term": "Studia humanitatis",
+      "meaning": "The studies of humanity",
+      "pronunciation": "STOO-dee-ah hoo-mah-nee-TAH-tis",
+      "language": "Latin",
+      "usage": "The curriculum of the humanists, built on the reading of Latin and Greek authors. The origin of the humanities."
+    },
+    {
+      "id": "word-ad-fontes",
+      "term": "Ad fontes",
+      "meaning": "To the sources",
+      "pronunciation": "ahd FON-tays",
+      "language": "Latin",
+      "usage": "The humanists’ rule: go behind the commentaries to the original text, in the original language."
+    },
+    {
+      "id": "word-virtu",
+      "term": "Virtù",
+      "meaning": "Ability; force of character",
+      "pronunciation": "veer-TOO",
+      "language": "Italian",
+      "usage": "Not virtue in the moral sense. The skill and energy with which a person meets circumstances and makes something of them."
+    },
+    {
+      "id": "word-fortuna",
+      "term": "Fortuna",
+      "meaning": "Fortune",
+      "pronunciation": "for-TOO-nah",
+      "language": "Italian",
+      "usage": "The power of chance, pictured as a woman with a wheel. Machiavelli gave her half of human affairs and left the other half to us."
+    },
+    {
+      "id": "word-uomo-universale",
+      "term": "Uomo universale",
+      "meaning": "The universal man",
+      "pronunciation": "WOH-moh oo-nee-vair-SAH-lay",
+      "language": "Italian",
+      "usage": "A person accomplished in every field, in body and in mind. Alberti and Leonardo are the models."
+    },
+    {
+      "id": "word-ingegno",
+      "term": "Ingegno",
+      "meaning": "Inborn talent; wit",
+      "pronunciation": "een-JEN-yoh",
+      "language": "Italian",
+      "usage": "The natural gift that no training supplies. The root of engineer and of ingenious."
+    },
+    {
+      "id": "word-disegno",
+      "term": "Disegno",
+      "meaning": "Drawing; design",
+      "pronunciation": "dee-ZEN-yoh",
+      "language": "Italian",
+      "usage": "Both the line on the paper and the idea in the mind. Florentines held it to be the father of painting, sculpture and architecture."
+    },
+    {
+      "id": "word-bottega",
+      "term": "Bottega",
+      "meaning": "Workshop",
+      "pronunciation": "bot-TAY-gah",
+      "language": "Italian",
+      "usage": "A master’s shop, where apprentices from the age of twelve or so ground colours, prepared panels and learned by copying."
+    },
+    {
+      "id": "word-garzone",
+      "term": "Garzone",
+      "meaning": "A shop boy; an apprentice",
+      "pronunciation": "gar-TSOH-nay",
+      "language": "Italian",
+      "usage": "The lowest rank in the workshop, who swept, ran errands and drew when he could."
+    },
+    {
+      "id": "word-maestro",
+      "term": "Maestro",
+      "meaning": "Master",
+      "pronunciation": "mah-ESS-troh",
+      "language": "Italian",
+      "usage": "The head of a workshop, who signed the contracts and painted the faces."
+    },
+    {
+      "id": "word-prospettiva",
+      "term": "Prospettiva",
+      "meaning": "Perspective",
+      "pronunciation": "pro-spet-TEE-vah",
+      "language": "Italian",
+      "usage": "The geometry by which depth is shown on a flat surface, with lines that meet at a vanishing point. Brunelleschi demonstrated it around 1415."
+    },
+    {
+      "id": "word-chiaroscuro",
+      "term": "Chiaroscuro",
+      "meaning": "Light and dark",
+      "pronunciation": "kyah-roh-SKOO-roh",
+      "language": "Italian",
+      "usage": "Modelling forms by shadow so that they look round."
+    },
+    {
+      "id": "word-sfumato",
+      "term": "Sfumato",
+      "meaning": "Smoked; softened",
+      "pronunciation": "sfoo-MAH-toh",
+      "language": "Italian",
+      "usage": "Leonardo’s way of blending tones without lines or edges, like smoke."
+    },
+    {
+      "id": "word-contrapposto",
+      "term": "Contrapposto",
+      "meaning": "Counterpoise",
+      "pronunciation": "kon-trap-POS-toh",
+      "language": "Italian",
+      "usage": "A standing pose with the weight on one leg, so that hips and shoulders tilt opposite ways. Taken from ancient statues."
+    },
+    {
+      "id": "word-fresco",
+      "term": "Fresco",
+      "meaning": "Fresh",
+      "pronunciation": "FRESS-koh",
+      "language": "Italian",
+      "usage": "Painting on wet plaster, which binds the colour into the wall. Each day’s patch must be finished before it dries."
+    },
+    {
+      "id": "word-tempera",
+      "term": "Tempera",
+      "meaning": "Egg paint",
+      "pronunciation": "TEM-peh-rah",
+      "language": "Italian",
+      "usage": "Pigment bound with egg yolk, the usual medium on panel until oil took over."
+    },
+    {
+      "id": "word-cartone",
+      "term": "Cartone",
+      "meaning": "A cartoon; a full-size drawing",
+      "pronunciation": "kar-TOH-nay",
+      "language": "Italian",
+      "usage": "A drawing on heavy paper made to transfer a design to a wall or panel."
+    },
+    {
+      "id": "word-zibaldone",
+      "term": "Zibaldone",
+      "meaning": "A heap of things; a commonplace book",
+      "pronunciation": "dzee-bal-DOH-nay",
+      "language": "Italian",
+      "usage": "A notebook into which a Florentine merchant copied poems, recipes, sums, prayers and anything worth keeping."
+    },
+    {
+      "id": "word-sprezzatura",
+      "term": "Sprezzatura",
+      "meaning": "Studied ease",
+      "pronunciation": "spret-tsah-TOO-rah",
+      "language": "Italian",
+      "usage": "Castiglione’s word of 1528 for the art of making what is difficult look effortless."
+    },
+    {
+      "id": "word-cortegiano",
+      "term": "Cortegiano",
+      "meaning": "A courtier",
+      "pronunciation": "kor-teh-JAH-noh",
+      "language": "Italian",
+      "usage": "The ideal gentleman or lady of a court: armed, lettered, musical, witty and graceful."
+    },
+    {
+      "id": "word-mecenate",
+      "term": "Mecenate",
+      "meaning": "A patron",
+      "pronunciation": "meh-cheh-NAH-tay",
+      "language": "Italian",
+      "usage": "From Maecenas, the friend of Virgil. Almost every work of the age was made to order for one."
+    },
+    {
+      "id": "word-signoria",
+      "term": "Signoria",
+      "meaning": "The lordship; the government",
+      "pronunciation": "seen-yoh-REE-ah",
+      "language": "Italian",
+      "usage": "In Florence, the nine citizens chosen by lot from the guilds to govern for two months at a time."
+    },
+    {
+      "id": "word-condottiere",
+      "term": "Condottiere",
+      "meaning": "A contractor; a mercenary captain",
+      "pronunciation": "kon-dot-TYEH-ray",
+      "language": "Italian",
+      "usage": "A general who hired out his army by contract. Some became princes and patrons."
+    },
+    {
+      "id": "word-studiolo",
+      "term": "Studiolo",
+      "meaning": "A little study",
+      "pronunciation": "stoo-dee-OH-loh",
+      "language": "Italian",
+      "usage": "A small private room for reading and thinking, lined with books, instruments and pictures."
+    },
+    {
+      "id": "word-dignita-dell-uomo",
+      "term": "Dignità dell'uomo",
+      "meaning": "The dignity of man",
+      "pronunciation": "deen-yee-TAH del-WOH-moh",
+      "language": "Italian",
+      "usage": "The humanist theme that a person is free to rise or fall by their own choice."
+    },
+    {
+      "id": "word-otium",
+      "term": "Otium",
+      "meaning": "Leisure given to study",
+      "pronunciation": "OH-tee-oom",
+      "language": "Latin",
+      "usage": "Free time well spent on books and conversation, as opposed to negotium, business."
+    },
+    {
+      "id": "word-paragone",
+      "term": "Paragone",
+      "meaning": "Comparison",
+      "pronunciation": "pah-rah-GOH-nay",
+      "language": "Italian",
+      "usage": "The debate over which art is nobler: painting or sculpture, the eye or the ear."
+    },
+    {
+      "id": "word-non-finito",
+      "term": "Non finito",
+      "meaning": "Unfinished",
+      "pronunciation": "non fee-NEE-toh",
+      "language": "Italian",
+      "usage": "Works left rough, like Michelangelo’s figures half emerged from the block. Leonardo finished perhaps fifteen paintings."
+    }
+  ],
+  "practices": [
+    {
+      "id": "draw-from-life",
+      "name": "Draw from life",
+      "icon": "pencil-simple",
+      "slot": "Morning",
+      "time": "07:30",
+      "minutes": 20,
+      "meta": "Morning · 20 min",
+      "instructions": "Take a pencil and plain paper and draw one real thing in front of you for twenty minutes: your own hand, a folded cloth, a plant, a face. Do not draw what you know is there. Look for longer than you draw, and put down only what you see: the angle of this edge, where the shadow stops. Do not rub out. Date the sheet and keep it.",
+      "why": "Every Renaissance workshop began with drawing. Cennino Cennini’s handbook, written around 1400, tells the apprentice to draw every day without fail, however little. Leonardo filled thousands of pages with studies of hands, water, muscles and plants, convinced that drawing was a way of finding out how things are made.",
+      "variations": [
+        "Copy a drawing by a master, line for line, as apprentices did.",
+        "Draw the same object every day for a week.",
+        "Draw a drapery study from a cloth dipped in plaster or simply pinned up."
+      ]
+    },
+    {
+      "id": "notebook",
+      "name": "Keep a notebook like Leonardo",
+      "icon": "notebook",
+      "slot": "Morning",
+      "time": "09:00",
+      "minutes": 15,
+      "meta": "Morning · 15 min",
+      "instructions": "Carry a small notebook all day. In the morning write a list of things you want to find out, as plainly as he did: how a bird holds still in wind, why the sky is blue, ask the mason how the wall is built. During the day write and sketch what you notice. Put everything in one book: sums, shopping, ideas, things overheard. Tomorrow, answer one item on the list by looking or by asking someone who knows.",
+      "why": "About seven thousand pages of Leonardo’s notebooks survive. They mix anatomy, engineering, grocery lists, jokes and drafts of letters, and they are full of notes to himself such as describe the tongue of the woodpecker. Florentine merchants kept similar books of everything worth remembering, which they called a zibaldone.",
+      "variations": [
+        "Write a to-find-out list of ten items.",
+        "Try a line of mirror writing, right to left, as he wrote.",
+        "Ask an expert in any trade to show you one thing."
+      ]
+    },
+    {
+      "id": "ad-fontes",
+      "name": "Converse with the ancients",
+      "icon": "book-open-text",
+      "slot": "Evening",
+      "time": "20:00",
+      "minutes": 30,
+      "meta": "Evening · 30 min",
+      "instructions": "Before you sit down, wash your face and change out of your working clothes. Then read for thirty minutes from an author who has been dead for at least five hundred years: Cicero, Seneca, Plutarch, Plato, Virgil, Dante. Read the text itself, not a summary. Read with a pen. When something strikes you, copy it into your notebook and write beneath it what you would ask the author if you could.",
+      "why": "The humanists believed that the best minds of Greece and Rome could be spoken with directly through their books. Petrarch wrote letters to Cicero. Machiavelli, banished to his farm, described how each evening he took off his muddy clothes, put on the robes of court and spent four hours with the ancients, asking them the reasons for their actions.",
+      "variations": [
+        "Read a page with the original language on the facing side.",
+        "Write a letter to a dead author.",
+        "Learn ten lines of a poem by heart."
+      ]
+    },
+    {
+      "id": "well-rounded",
+      "name": "Train the whole person",
+      "icon": "person-simple-run",
+      "slot": "Afternoon",
+      "time": "16:00",
+      "minutes": 30,
+      "meta": "Afternoon · 30 min",
+      "instructions": "Spend half an hour on whichever side of yourself you have neglected. If you live in your head, do something with your body: run, swim, wrestle, ride, dance, lift. If you live in your body, sing, play an instrument, work a problem in geometry or write verse. Whatever you choose, work at it until it begins to look easy, and do not complain about the effort.",
+      "why": "The age admired those who could do everything. Alberti was architect, author, athlete and musician, and was said to jump over a standing man with his feet together. Castiglione’s courtier had to ride, fence, swim, dance, draw, sing to the lute and speak well, and to do it all with an ease that hid the labour.",
+      "variations": [
+        "Learn the first steps of a dance.",
+        "Take up an instrument for the month.",
+        "Practise one skill until you can do it without showing strain."
+      ]
+    },
+    {
+      "id": "studiolo",
+      "name": "An hour in the study",
+      "icon": "lamp",
+      "slot": "Evening",
+      "time": "21:15",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Make one small place your study: a desk, a corner, a chair by a lamp. Put in it only what helps you think: a few books, your notebook, one beautiful object. Sit there for fifteen minutes at the end of the day with no screen. Look back through today’s notes. Finish one small thing you began, or decide plainly to leave it. Write tomorrow’s list of things to find out.",
+      "why": "Scholars and princes built themselves a studiolo, a small private room for study. The duke of Urbino lined his with pictures of books, instruments and a squirrel made in inlaid wood, under portraits of great thinkers. Jerome in his study was among the most painted subjects of the century.",
+      "variations": [
+        "Tidy your desk as if a painter were coming to paint it.",
+        "Choose one portrait of someone you admire to hang above it.",
+        "Spend the time in conversation with a friend, as the academies did."
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task-read-a-chapter-of-the-lives-of-the-artists",
+      "name": "Read a chapter of The Lives of the Artists",
+      "meta": "Read · Giorgio Vasari, 1550; try the life of Brunelleschi",
+      "time": "20:30",
+      "slot": "Evening",
+      "action": "read"
+    },
+    {
+      "id": "task-listen-to-the-missa-pange-lingua",
+      "name": "Listen to the Missa Pange lingua",
+      "meta": "Listen · Josquin des Prez, about 1515",
+      "time": "07:00",
+      "slot": "Morning",
+      "action": "listen"
+    },
+    {
+      "id": "task-look-for-ten-minutes-at-the-school-of-athens",
+      "name": "Look for ten minutes at The School of Athens",
+      "meta": "Art · Raphael, 1509 to 1511; find the vanishing point",
+      "time": "13:00",
+      "slot": "Afternoon",
+      "action": "art"
+    },
+    {
+      "id": "task-play-a-game-of-chess",
+      "name": "Play a game of chess",
+      "meta": "Games · the modern queen dates from about 1475",
+      "time": "19:00",
+      "slot": "Evening",
+      "action": "games"
+    },
+    {
+      "id": "task-journal-what-did-you-see-today-that-you-had-looked-at-for-years",
+      "name": "Journal: what did you see today that you had looked at for years?",
+      "meta": "Journal · 10 min",
+      "time": "21:30",
+      "slot": "Evening",
+      "action": "journal"
+    },
+    {
+      "id": "task-how-much-of-your-life-is-fortune-and-how-much-is-yours",
+      "name": "How much of your life is fortune, and how much is yours?",
+      "meta": "Philosophy · 10 min",
+      "time": "09:30",
+      "slot": "Morning",
+      "action": "philosophy"
+    },
+    {
+      "id": "ask-someone-who-knows-how-a-thing-is-made",
+      "name": "Ask someone who knows how a thing is made",
+      "meta": "The to-find-out list",
+      "time": "11:00",
+      "slot": "Morning"
+    },
+    {
+      "id": "measure-something-and-work-out-its-proportions",
+      "name": "Measure something and work out its proportions",
+      "meta": "Measure",
+      "time": "14:30",
+      "slot": "Afternoon"
+    },
+    {
+      "id": "do-one-hard-thing-today-as-if-it-cost-you-nothing",
+      "name": "Do one hard thing today as if it cost you nothing",
+      "meta": "Sprezzatura",
+      "time": "17:30",
+      "slot": "Evening"
+    }
+  ],
+  "rules": [
+    {
+      "id": "r1",
+      "text": "Look for yourself",
+      "why": "Trust your eyes before the textbook. Experience is the teacher of those who teach."
+    },
+    {
+      "id": "r2",
+      "text": "Draw every day",
+      "why": "Even a little. The hand teaches the eye to see."
+    },
+    {
+      "id": "r3",
+      "text": "Go to the sources",
+      "why": "Read the original and not the commentary on it."
+    },
+    {
+      "id": "r4",
+      "text": "Try your hand at everything",
+      "why": "Body and mind, art and number. A person is not one trade."
+    },
+    {
+      "id": "r5",
+      "text": "Make it look easy",
+      "why": "Work hard in private and carry the result lightly in company."
+    },
+    {
+      "id": "r6",
+      "text": "Stay a learner",
+      "why": "However old or skilled, keep a list of what you do not know."
+    }
+  ],
+  "immerse": {
+    "read": [
+      {
+        "id": "read-the-lives-of-the-artists",
+        "title": "The Lives of the Artists",
+        "creator": "Giorgio Vasari",
+        "year": "1550, enlarged 1568",
+        "why": "Lives of the painters, sculptors and architects from Cimabue to Michelangelo, by a painter who knew many of them. Gossipy, partial to Florence and the founding book of art history."
+      },
+      {
+        "id": "read-the-book-of-the-courtier",
+        "title": "The Book of the Courtier",
+        "creator": "Baldassare Castiglione",
+        "year": "1528",
+        "why": "Four evenings of conversation at the court of Urbino on what makes the perfect gentleman and lady."
+      },
+      {
+        "id": "read-the-prince",
+        "title": "The Prince",
+        "creator": "Niccolò Machiavelli",
+        "year": "written 1513",
+        "why": "A short and cold handbook on how power is won and kept, written by an out-of-office civil servant hoping for a job."
+      },
+      {
+        "id": "read-oration-on-the-dignity-of-man",
+        "title": "Oration on the Dignity of Man",
+        "creator": "Giovanni Pico della Mirandola",
+        "year": "1486",
+        "why": "A speech by a twenty-three-year-old to introduce nine hundred theses he offered to defend against all comers."
+      },
+      {
+        "id": "read-leonardo-da-vinci",
+        "title": "Leonardo da Vinci",
+        "creator": "Walter Isaacson",
+        "year": "2017",
+        "why": "A life built from the notebooks, showing how the painting and the science fed each other."
+      },
+      {
+        "id": "read-the-civilization-of-the-renaissance-in-italy",
+        "title": "The Civilization of the Renaissance in Italy",
+        "creator": "Jacob Burckhardt",
+        "year": "1860",
+        "why": "The book that formed the idea of the Renaissance as the birth of the modern individual. Still worth arguing with."
+      }
+    ],
+    "watch": [
+      {
+        "id": "watch-civilisation-episodes-4-and-5",
+        "title": "Civilisation, episodes 4 and 5",
+        "creator": "Kenneth Clark for the BBC",
+        "year": "1969",
+        "why": "Man the Measure of All Things and The Hero as Artist. A personal tour from Urbino to the Sistine Chapel."
+      },
+      {
+        "id": "watch-the-agony-and-the-ecstasy",
+        "title": "The Agony and the Ecstasy",
+        "creator": "Carol Reed",
+        "year": "1965",
+        "why": "Michelangelo and Pope Julius II quarrel their way through four years of the Sistine ceiling."
+      },
+      {
+        "id": "watch-medici-godfathers-of-the-renaissance",
+        "title": "Medici: Godfathers of the Renaissance",
+        "creator": "Justin Hardy for PBS",
+        "year": "2004",
+        "why": "Four hours on the banking family that ran Florence and paid for much of its art."
+      },
+      {
+        "id": "watch-leonardo-the-works",
+        "title": "Leonardo: The Works",
+        "creator": "Phil Grabsky, Exhibition on Screen",
+        "year": "2019",
+        "why": "Every painting attributed to Leonardo, filmed slowly and in close detail for the five hundredth anniversary of his death."
+      }
+    ],
+    "listen": [
+      {
+        "id": "listen-missa-pange-lingua",
+        "title": "Missa Pange lingua",
+        "creator": "Josquin des Prez",
+        "year": "about 1515",
+        "why": "A late mass for four voices in which each line grows from a plainchant hymn. Luther called him the master of the notes."
+      },
+      {
+        "id": "listen-nuper-rosarum-flores",
+        "title": "Nuper rosarum flores",
+        "creator": "Guillaume Dufay",
+        "year": "1436",
+        "why": "Written for the consecration of Florence Cathedral under Brunelleschi’s new dome."
+      },
+      {
+        "id": "listen-missa-papae-marcelli",
+        "title": "Missa Papae Marcelli",
+        "creator": "Giovanni Pierluigi da Palestrina",
+        "year": "about 1562",
+        "why": "Six voices in clear and serene polyphony, long said to have saved church music at the Council of Trent."
+      },
+      {
+        "id": "listen-l-orfeo",
+        "title": "L’Orfeo",
+        "creator": "Claudio Monteverdi",
+        "year": "1607",
+        "why": "The first great opera, made at Mantua by musicians trying to revive Greek tragedy."
+      }
+    ],
+    "art": [
+      {
+        "id": "art-the-school-of-athens",
+        "title": "The School of Athens",
+        "creator": "Raphael",
+        "year": "1509 to 1511",
+        "why": "Plato and Aristotle walk through a vast hall among the philosophers of antiquity, several with the faces of Raphael’s contemporaries. In the Vatican."
+      },
+      {
+        "id": "art-primavera",
+        "title": "Primavera",
+        "creator": "Sandro Botticelli",
+        "year": "about 1480",
+        "why": "Venus, the Graces, Mercury and Flora in an orange grove with some five hundred kinds of plant. In the Uffizi, Florence."
+      },
+      {
+        "id": "art-the-holy-trinity",
+        "title": "The Holy Trinity",
+        "creator": "Masaccio",
+        "year": "about 1427",
+        "why": "A painted chapel that seems to open into the wall of the church. The first full use of mathematical perspective. In Santa Maria Novella, Florence."
+      },
+      {
+        "id": "art-david",
+        "title": "David",
+        "creator": "Michelangelo",
+        "year": "1501 to 1504",
+        "why": "Seventeen feet of marble carved by a man of twenty-six from a block others had abandoned. In the Accademia, Florence."
+      },
+      {
+        "id": "art-the-vitruvian-man",
+        "title": "The Vitruvian Man",
+        "creator": "Leonardo da Vinci",
+        "year": "about 1490",
+        "why": "A man in a circle and a square, after the Roman architect’s rule of proportion. In the Accademia, Venice."
+      }
+    ],
+    "eat": [
+      {
+        "id": "eat-ribollita",
+        "title": "Ribollita",
+        "creator": "Reboiled bread and bean soup with black cabbage",
+        "why": "Tuscan thrift. Yesterday’s soup cooked again with stale bread."
+      },
+      {
+        "id": "eat-pici-with-garlic",
+        "title": "Pici with garlic",
+        "creator": "Thick hand-rolled pasta",
+        "why": "Flour and water rolled between the palms, as in the countryside around Siena."
+      },
+      {
+        "id": "eat-panforte",
+        "title": "Panforte",
+        "creator": "A dense cake of honey, nuts and spice",
+        "why": "Made in Siena since the Middle Ages with pepper and other costly spices."
+      },
+      {
+        "id": "eat-roast-meat-with-rosemary",
+        "title": "Roast meat with rosemary",
+        "creator": "Cooked on the spit",
+        "why": "Leonardo’s notebooks include a design for a roasting spit turned by the rising heat of its own fire."
+      }
+    ],
+    "drink": [
+      {
+        "id": "drink-red-wine-of-tuscany",
+        "title": "Red wine of Tuscany",
+        "creator": "Sangiovese",
+        "why": "Machiavelli grew and sold it from his farm at Sant’Andrea in Percussina, where the estate still makes wine."
+      },
+      {
+        "id": "drink-watered-wine",
+        "title": "Watered wine",
+        "creator": "Wine cut with water",
+        "why": "The everyday drink at table for all ages."
+      },
+      {
+        "id": "drink-vin-santo",
+        "title": "Vin santo",
+        "creator": "Sweet amber wine",
+        "why": "Made from dried grapes and served with hard almond biscuits for dipping."
+      }
+    ],
+    "customs": [
+      {
+        "id": "customs-the-commonplace-book",
+        "title": "The commonplace book",
+        "creator": "Copying out what is worth keeping",
+        "why": "Schoolboys were taught to keep a notebook of passages under headings, to be drawn on in their own writing."
+      },
+      {
+        "id": "customs-the-evening-walk",
+        "title": "The evening walk",
+        "creator": "The passeggiata",
+        "why": "Before supper Italians still walk slowly through the main street or square to see and be seen."
+      },
+      {
+        "id": "customs-the-competition",
+        "title": "The competition",
+        "creator": "Art by contest",
+        "why": "Florence awarded its great commissions by public competition. Ghiberti beat Brunelleschi for the Baptistery doors in 1401."
+      },
+      {
+        "id": "customs-the-academy",
+        "title": "The academy",
+        "creator": "Friends who meet to talk",
+        "why": "Marsilio Ficino gathered a circle at a Medici villa to read Plato together and kept a lamp burning before his bust."
+      }
+    ],
+    "games": [
+      {
+        "id": "games-chess",
+        "title": "Chess",
+        "creator": "Board game · Europe",
+        "year": "modern rules from about 1475",
+        "why": "In the late fifteenth century the queen and bishop gained their long moves and the game became fast. Castiglione thought a courtier should play it, but not too well."
+      },
+      {
+        "id": "games-tarocchi",
+        "title": "Tarocchi",
+        "creator": "Card game · northern Italy",
+        "year": "from about 1440",
+        "why": "A trick-taking game with an extra suit of picture trumps, painted for the dukes of Milan. Fortune-telling came three centuries later."
+      },
+      {
+        "id": "games-calcio-storico",
+        "title": "Calcio storico",
+        "creator": "Ball game · Florence",
+        "year": "from the 15th century",
+        "why": "Twenty-seven a side in a sand-covered square, part football and part brawl. It is still played each June in costume."
+      },
+      {
+        "id": "games-pallone",
+        "title": "Pallone",
+        "creator": "Ball game · Italy",
+        "year": "from the 16th century",
+        "why": "A heavy ball struck with a spiked wooden sleeve on the forearm, played against town walls."
+      }
+    ],
+    "festivals": [
+      {
+        "id": "fest-the-feast-of-saint-john",
+        "title": "The feast of Saint John",
+        "creator": "24 June, Florence",
+        "why": "The patron’s day, with the final of the historic football in Piazza Santa Croce and fireworks over the Arno."
+      },
+      {
+        "id": "fest-the-palio",
+        "title": "The Palio",
+        "creator": "2 July and 16 August, Siena",
+        "why": "Ten of the city’s districts race bareback three times round the shell-shaped square, as they have since the Middle Ages."
+      },
+      {
+        "id": "fest-carnival",
+        "title": "Carnival",
+        "creator": "The days before Lent, Venice",
+        "why": "Masks and disguise in the squares. Lorenzo de’ Medici wrote songs for the Florentine carnival floats."
+      },
+      {
+        "id": "fest-the-explosion-of-the-cart",
+        "title": "The Explosion of the Cart",
+        "creator": "Easter Sunday, Florence",
+        "why": "A tall cart is drawn by white oxen to the cathedral and set off with fireworks lit by a dove-shaped rocket from the altar."
+      }
+    ],
+    "places": [
+      {
+        "id": "place-florence-cathedral",
+        "title": "Florence Cathedral",
+        "creator": "Florence, Italy",
+        "why": "Brunelleschi’s dome of 1420 to 1436, built without scaffolding from the ground and still the largest brick dome in the world. Climb between its two shells."
+      },
+      {
+        "id": "place-the-uffizi",
+        "title": "The Uffizi",
+        "creator": "Florence, Italy",
+        "why": "The Medici offices turned gallery, with Botticelli, Leonardo, Michelangelo and Raphael in sequence."
+      },
+      {
+        "id": "place-the-ducal-palace",
+        "title": "The Ducal Palace",
+        "creator": "Urbino, Italy",
+        "why": "The hilltop court of Federico da Montefeltro, with his inlaid study and the rooms where the Courtier is set."
+      },
+      {
+        "id": "place-the-vatican-museums",
+        "title": "The Vatican Museums",
+        "creator": "Rome",
+        "why": "Raphael’s rooms and Michelangelo’s Sistine ceiling and Last Judgment."
+      },
+      {
+        "id": "place-santa-maria-delle-grazie",
+        "title": "Santa Maria delle Grazie",
+        "creator": "Milan, Italy",
+        "why": "Leonardo’s Last Supper on the wall of the friars’ dining room, painted in an experimental technique that began to flake in his lifetime."
+      },
+      {
+        "id": "place-clos-luce",
+        "title": "Clos Lucé",
+        "creator": "Amboise, France",
+        "why": "The small manor where Leonardo spent his last three years as guest of the king of France, with models of his machines in the garden."
+      }
+    ]
+  },
+  "ethics": [
+    {
+      "title": "Curiosity",
+      "text": "The desire to know is the mark of a good mind.",
+      "practice": "Find out today the answer to one question you have carried for years."
+    },
+    {
+      "title": "Diligence",
+      "text": "Talent is completed by daily practice.",
+      "practice": "Do your twenty minutes of drawing whether you feel like it or not."
+    },
+    {
+      "title": "Dignity",
+      "text": "Each person is free to make something of themselves.",
+      "practice": "Treat someone today as capable of more than their position suggests."
+    },
+    {
+      "title": "Civic duty",
+      "text": "Learning is for the service of one’s city.",
+      "practice": "Use something you know for the good of the place you live."
+    },
+    {
+      "title": "Grace",
+      "text": "Carry your skill lightly, without display.",
+      "practice": "Let someone else take the credit for something."
+    },
+    {
+      "title": "Generosity to the arts",
+      "text": "Wealth is well spent on beauty that all may see.",
+      "practice": "Pay an artist, a musician or a maker for their work today."
+    }
+  ],
+  "philosophy": [
+    {
+      "title": "The dignity of man",
+      "text": "Pico imagined God telling Adam that he alone has no fixed nature and may make himself beast or angel.",
+      "practice": "What are you making of yourself?"
+    },
+    {
+      "title": "Fortune and virtù",
+      "text": "Machiavelli compared fortune to a river in flood. It cannot be stopped, and it can be prepared for with dykes.",
+      "practice": "What dyke should you be building now?"
+    },
+    {
+      "title": "Experience before authority",
+      "text": "Leonardo called himself a disciple of experience and distrusted those who only quoted books.",
+      "practice": "What do you believe only because you were told?"
+    },
+    {
+      "title": "The active and the contemplative life",
+      "text": "Humanists argued over whether it is better to study or to serve the city. Most said both.",
+      "practice": "Which do you neglect?"
+    },
+    {
+      "title": "Man the measure",
+      "text": "Proportions of buildings were taken from the human body, and the human view was put at the centre of the picture.",
+      "practice": "What in your surroundings is out of human scale?"
+    },
+    {
+      "title": "Imitation and invention",
+      "text": "Artists learned by copying the ancients closely, so as to surpass them.",
+      "practice": "Whom are you copying on the way to your own manner?"
+    },
+    {
+      "title": "Is it better to be loved or feared",
+      "text": "Machiavelli answered that for a ruler it is safer to be feared, if he cannot be both, so long as he avoids being hated.",
+      "practice": "Is he right about anything in your own life?"
+    },
+    {
+      "title": "The unfinished",
+      "text": "Leonardo left most of what he began. Perfection kept him from completion.",
+      "practice": "What are you refusing to finish?"
+    }
+  ],
+  "journal": [
+    "What did you see today that you had looked at for years?",
+    "What did you draw, and what did drawing it show you?",
+    "What is on your list of things to find out?",
+    "Whom did you ask, and what did they teach you?",
+    "What did the ancient author say to you?",
+    "What would you ask them in return?",
+    "Which side of yourself did you train?",
+    "What did you make look easy?",
+    "What did it cost in private?",
+    "How much of today was fortune?",
+    "What are you making of yourself?",
+    "What do you believe only on authority?",
+    "What did you measure?",
+    "What are you leaving unfinished, and why?",
+    "Who is your master?",
+    "Whom do you copy?",
+    "What would you paint if you could?",
+    "Who are your patrons?",
+    "Whose work did you pay for?",
+    "What did you copy into your notebook?",
+    "What is your city owed by you?",
+    "What skill would complete you?",
+    "Where does your attention go when it is free?",
+    "What was beautiful today?",
+    "What did you understand by taking it apart?",
+    "What do you know from your own eyes?",
+    "What conversation fed you?",
+    "What would the person you were ten years ago learn from you?",
+    "What are you still learning?",
+    "What will you leave behind?"
+  ],
+  "reflect": [
+    "Look through the month’s drawings. What changed?",
+    "What did your notebook catch that you would have lost?",
+    "Which ancient became a companion?",
+    "Which neglected side of you grew?",
+    "What did you find out?",
+    "Which rule will you keep?"
+  ],
+  "dayThemes": [
+    "Rebirth",
+    "To the sources",
+    "The eye",
+    "The pencil",
+    "The workshop",
+    "The apprentice",
+    "The notebook",
+    "Things to find out",
+    "Ask one who knows",
+    "Perspective",
+    "Proportion",
+    "Light and shadow",
+    "The dome",
+    "The competition",
+    "The patron",
+    "The study",
+    "The ancient courts",
+    "The dignity of man",
+    "Fortune",
+    "Virtù",
+    "The universal man",
+    "The body",
+    "Music",
+    "The courtier",
+    "Studied ease",
+    "The city",
+    "The printing press",
+    "The unfinished",
+    "Still learning",
+    "What you leave"
+  ],
+  "guide": {
+    "intro": [
+      "In the fourteenth century the cities of northern Italy were the richest in Europe. Florence, Venice, Milan and Genoa lived by trade, cloth and banking, governed themselves and competed fiercely with one another. Their citizens were surrounded by the ruins of ancient Rome and spoke a language descended from Latin. Out of that setting came a movement that looked back past the preceding centuries to the Greeks and Romans, and by studying them changed what Europeans thought a human being could do.",
+      "It began with books. The poet Petrarch, who died in 1374, hunted through monastery libraries for lost works of Cicero and wrote letters to him as to a friend. Those who followed him were called humanists, after the humanities they taught: grammar, rhetoric, poetry, history and moral philosophy, studied from the original texts. They learned Greek from scholars who came from Constantinople, corrected corrupt manuscripts and exposed forgeries. They held that such an education made a person eloquent, wise and useful to the city. After 1450 the printing press spread their editions across the continent.",
+      "The same turn toward the ancient and the observed transformed the arts. In Florence in the 1420s the architect Brunelleschi raised a dome over the cathedral that no one had known how to build and worked out the rules of perspective. The sculptor Donatello made the first free-standing nude since antiquity. The painter Masaccio gave his figures weight and shadow. Artists studied anatomy, geometry and optics, and a trade that had been counted among the manual crafts began to claim a place among the liberal arts.",
+      "All of this was paid for by patrons. Guilds, popes, princes and bankers such as the Medici competed for the best artists as a matter of honour and policy. Works were made to contract in busy workshops where boys began as apprentices at twelve or thirteen. Leonardo trained in the shop of Verrocchio, and Michelangelo in that of Ghirlandaio.",
+      "Around 1500 the movement reached its height in the work of three men: Leonardo da Vinci, painter, engineer and student of everything; Michelangelo, sculptor of the David and painter of the Sistine ceiling; and Raphael, whose frescoes in the Vatican gave the age its image of calm perfection. In the same years Machiavelli wrote about politics as it is and not as it ought to be, and Castiglione described the ideal courtier. The sack of Rome by imperial troops in 1527 is often taken as the end of the High Renaissance, though its methods spread north to Dürer, Erasmus, Montaigne and Shakespeare.",
+      "The picture of a sudden dawn after a dark age was the Renaissance’s own advertisement, and historians no longer accept it. The Middle Ages had their own learning, and much was owed to Arab and Byzantine scholars who had kept Greek science alive. The age was violent, and its opportunities were open to few.",
+      "This Onda takes its practices from the habits of its artists and scholars: drawing from life, the notebook, reading the ancients, training body and mind together, and an hour in the study."
+    ],
+    "origin": "The cities of northern and central Italy, above all Florence, and later the rest of Europe",
+    "era": "From Petrarch in the mid-fourteenth century to about 1600. The High Renaissance of Leonardo, Michelangelo and Raphael falls between about 1490 and 1527",
+    "figures": [
+      {
+        "name": "Francesco Petrarca, called Petrarch",
+        "dates": "1304 to 1374",
+        "bio": "Poet and scholar from Arezzo, crowned laureate in Rome in 1341. His recovery of Cicero’s letters and his Italian sonnets made him the father of humanism."
+      },
+      {
+        "name": "Filippo Brunelleschi",
+        "dates": "1377 to 1446",
+        "bio": "A goldsmith who lost the competition for the Baptistery doors, went to Rome to measure ruins, and came back to build the dome."
+      },
+      {
+        "name": "Leon Battista Alberti",
+        "dates": "1404 to 1472",
+        "bio": "Architect, athlete and author of the first modern treatises on painting, building and the family. The original universal man."
+      },
+      {
+        "name": "Lorenzo de' Medici",
+        "dates": "1449 to 1492",
+        "bio": "Banker, poet and unofficial ruler of Florence, called the Magnificent. He kept Botticelli and the young Michelangelo in his household."
+      },
+      {
+        "name": "Leonardo da Vinci",
+        "dates": "1452 to 1519",
+        "bio": "The illegitimate son of a notary from a village near Florence. He painted the Last Supper and the Mona Lisa, dissected some thirty bodies and designed machines that were never built."
+      },
+      {
+        "name": "Isabella d'Este",
+        "dates": "1474 to 1539",
+        "bio": "Marchioness of Mantua, who governed the state in her husband’s absence and was the most demanding collector of her time. Her study and letters survive."
+      },
+      {
+        "name": "Michelangelo Buonarroti",
+        "dates": "1475 to 1564",
+        "bio": "Sculptor, painter, architect and poet. He thought of himself as a carver and worked until six days before his death at eighty-eight."
+      },
+      {
+        "name": "Raphael",
+        "dates": "1483 to 1520",
+        "bio": "Raffaello Sanzio of Urbino. Charming and prolific, he ran the largest workshop in Rome and died at thirty-seven."
+      },
+      {
+        "name": "Niccolò Machiavelli",
+        "dates": "1469 to 1527",
+        "bio": "Secretary to the Florentine republic for fourteen years, then dismissed, tortured and sent to his farm, where he wrote."
+      },
+      {
+        "name": "Sofonisba Anguissola",
+        "dates": "about 1532 to 1625",
+        "bio": "A nobleman’s daughter from Cremona who became court painter to the queen of Spain. Michelangelo praised her drawing, and Van Dyck visited her when she was past ninety."
+      },
+      {
+        "name": "Vittoria Colonna",
+        "dates": "1492 to 1547",
+        "bio": "The most admired poet of her generation and Michelangelo’s closest friend, to whom he wrote sonnets and gave drawings."
+      },
+      {
+        "name": "Giorgio Vasari",
+        "dates": "1511 to 1574",
+        "bio": "Painter and architect of the Uffizi, remembered for his book of artists’ lives."
+      }
+    ],
+    "history": [
+      {
+        "when": "1341",
+        "what": "Petrarch crowned",
+        "detail": "The poet receives the laurel on the Capitol in Rome, in a ceremony revived from antiquity."
+      },
+      {
+        "when": "1397",
+        "what": "Greek returns",
+        "detail": "Manuel Chrysoloras arrives from Constantinople to teach Greek in Florence. The Medici bank is founded in the same year."
+      },
+      {
+        "when": "1401",
+        "what": "The Baptistery competition",
+        "detail": "Seven sculptors submit bronze panels of the sacrifice of Isaac. Ghiberti wins and spends the next fifty years on two sets of doors."
+      },
+      {
+        "when": "1420 to 1436",
+        "what": "The dome",
+        "detail": "Brunelleschi vaults the cathedral with a double shell of brick laid in a herringbone pattern, using hoists of his own invention."
+      },
+      {
+        "when": "1434",
+        "what": "Cosimo de’ Medici",
+        "detail": "The banker returns from exile and governs Florence from behind the scenes for thirty years, spending a fortune on building and books."
+      },
+      {
+        "when": "1435",
+        "what": "On Painting",
+        "detail": "Alberti writes down the rules of perspective and declares that the painter must be a learned man."
+      },
+      {
+        "when": "1453 and about 1455",
+        "what": "Constantinople and Gutenberg",
+        "detail": "The Byzantine capital falls and Greek scholars and manuscripts move west. In Mainz the first printed Bible is completed."
+      },
+      {
+        "when": "1469 to 1492",
+        "what": "Lorenzo the Magnificent",
+        "detail": "Florence at its most brilliant. He survives an assassination attempt in the cathedral in 1478 in which his brother is killed."
+      },
+      {
+        "when": "1494 to 1498",
+        "what": "Savonarola",
+        "detail": "The French invade, the Medici are expelled and a Dominican friar rules Florence, burning vanities in the square until he is burned himself."
+      },
+      {
+        "when": "about 1495 to 1498",
+        "what": "The Last Supper",
+        "detail": "Leonardo paints the refectory wall in Milan for Duke Ludovico Sforza."
+      },
+      {
+        "when": "1508 to 1512",
+        "what": "The Sistine ceiling",
+        "detail": "Michelangelo paints more than three hundred figures on the vault, standing on a scaffold. Raphael is at work in the pope’s rooms next door."
+      },
+      {
+        "when": "1513",
+        "what": "The Prince",
+        "detail": "Machiavelli writes his treatise in exile. It is printed in 1532, after his death."
+      },
+      {
+        "when": "1527",
+        "what": "The sack of Rome",
+        "detail": "Unpaid troops of Emperor Charles V loot the city for months. Artists scatter across Italy and Europe."
+      },
+      {
+        "when": "1550",
+        "what": "Vasari’s Lives",
+        "detail": "The first history of art is published in Florence and gives the age its name of rebirth."
+      }
+    ],
+    "concepts": [
+      {
+        "term": "Humanism",
+        "text": "Education through the classics.",
+        "detail": "A programme of study, not a creed. Its claim was that reading the best ancient authors in their own words forms judgment, eloquence and character."
+      },
+      {
+        "term": "Linear perspective",
+        "text": "Space made measurable.",
+        "detail": "Parallel lines running away from the viewer are drawn to meet at a single point on the horizon. The picture becomes a window, with the viewer’s eye at a fixed place."
+      },
+      {
+        "term": "The universal man",
+        "text": "Excellence in all things.",
+        "detail": "The ideal of a person developed on every side. It rested on the belief that the arts and sciences are connected and that one mind can hold them."
+      },
+      {
+        "term": "Virtù and fortuna",
+        "text": "Skill against chance.",
+        "detail": "Life is a contest between what happens to us and what we are able to make of it. The able person watches for occasion and seizes it."
+      },
+      {
+        "term": "Patronage",
+        "text": "Art to order.",
+        "detail": "Painters worked to written contracts that named the subject, the size, the delivery date and how much blue and gold was to be used."
+      },
+      {
+        "term": "Imitation of nature",
+        "text": "Paint what is there.",
+        "detail": "Artists were to study the visible world directly: bodies, plants, light, weather. Leonardo told painters to carry a notebook and draw people in the street."
+      },
+      {
+        "term": "The revival of antiquity",
+        "text": "Rome as a standard.",
+        "detail": "Ancient statues, buildings and texts were measured and copied as models of excellence. To be modern was to be like the ancients."
+      },
+      {
+        "term": "Civic humanism",
+        "text": "Learning in the service of the republic.",
+        "detail": "Florentine chancellors such as Leonardo Bruni argued that the educated citizen owes his talents to public life."
+      },
+      {
+        "term": "Neoplatonism",
+        "text": "Beauty as a ladder.",
+        "detail": "Ficino’s circle taught that love of visible beauty can lead the soul upward to the divine. The idea shaped Botticelli and Michelangelo."
+      }
+    ],
+    "facts": [
+      {
+        "text": "Leonardo wrote his notes from right to left in mirror script, probably because he was left-handed and it kept his hand out of the wet ink."
+      },
+      {
+        "text": "Brunelleschi’s dome contains more than four million bricks and weighs about thirty-seven thousand tons."
+      },
+      {
+        "text": "The word renaissance was not used in English for the period until the 1830s."
+      },
+      {
+        "text": "Michelangelo signed only one work, the Pietà in Saint Peter’s, on the band across the Virgin’s chest."
+      },
+      {
+        "text": "About twenty million books had been printed in Europe by 1500."
+      },
+      {
+        "text": "Florence had perhaps sixty thousand inhabitants in the fifteenth century, fewer than a small modern town."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Quattrocento",
+        "meaning": "The fourteen hundreds; the fifteenth century in Italy"
+      },
+      {
+        "term": "Cinquecento",
+        "meaning": "The fifteen hundreds; the sixteenth century"
+      },
+      {
+        "term": "High Renaissance",
+        "meaning": "The few decades around 1500 in Florence and Rome"
+      },
+      {
+        "term": "Mannerism",
+        "meaning": "The elegant and strained style that followed, from about 1520"
+      },
+      {
+        "term": "Guild",
+        "meaning": "A sworn association of a trade. Painters in Florence belonged to the guild of doctors and apothecaries"
+      },
+      {
+        "term": "Polymath",
+        "meaning": "A person learned in many fields"
+      }
+    ],
+    "furtherReading": [
+      {
+        "title": "Painting and Experience in Fifteenth-Century Italy",
+        "creator": "Michael Baxandall",
+        "year": "1972",
+        "note": "How merchants, preachers and dancing masters shaped the way people looked at pictures. Short and brilliant."
+      },
+      {
+        "title": "Brunelleschi’s Dome",
+        "creator": "Ross King",
+        "year": "2000",
+        "note": "The story of how the dome was built, problem by problem."
+      },
+      {
+        "title": "The Renaissance: A Very Short Introduction",
+        "creator": "Jerry Brotton",
+        "year": "2006",
+        "note": "The period in a wider frame, including its debts to the Islamic world."
+      },
+      {
+        "title": "The Craftsman’s Handbook",
+        "creator": "Cennino Cennini, translated by Daniel V. Thompson",
+        "year": "about 1400",
+        "note": "A working painter explains how to make charcoal, grind colours, lay gold and learn the trade."
+      }
+    ],
+    "learnFrom": [
+      {
+        "name": "The Uffizi Galleries",
+        "note": "The collection online in high resolution, with virtual exhibitions.",
+        "link": "https://www.uffizi.it/en"
+      },
+      {
+        "name": "Leonardo’s notebooks at the British Library",
+        "note": "The Codex Arundel, digitised page by page.",
+        "link": "https://www.bl.uk"
+      },
+      {
+        "name": "A life drawing class",
+        "note": "Most towns have one. An hour drawing from a model with others is the nearest thing to a Renaissance workshop."
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Civilization of the Renaissance in Italy",
+        "creator": "Jacob Burckhardt, trans. S. G. C. Middlemore",
+        "publisher": "Penguin Classics",
+        "year": "1990"
+      },
+      {
+        "title": "The Italian Renaissance: Culture and Society in Italy",
+        "creator": "Peter Burke",
+        "publisher": "Polity Press",
+        "year": "3rd edition 2014"
+      },
+      {
+        "title": "Painting and Experience in Fifteenth-Century Italy",
+        "creator": "Michael Baxandall",
+        "publisher": "Oxford University Press",
+        "year": "1972"
+      },
+      {
+        "title": "The Lives of the Artists",
+        "creator": "Giorgio Vasari, trans. Julia Conaway Bondanella and Peter Bondanella",
+        "publisher": "Oxford World's Classics",
+        "year": "1991"
+      },
+      {
+        "title": "The Notebooks of Leonardo da Vinci",
+        "creator": "Edited by Jean Paul Richter",
+        "publisher": "Dover",
+        "year": "1970"
+      },
+      {
+        "title": "The Book of the Courtier",
+        "creator": "Baldassare Castiglione, trans. George Bull",
+        "publisher": "Penguin Classics",
+        "year": "1967"
+      }
+    ]
+  },
+  "sensitivity": {
+    "note": "This Onda borrows the working habits of Renaissance artists and scholars. The picture of a golden age is partly the period’s own invention, and it is worth holding it together with the facts below.",
+    "requiredCaveats": [
+      "The education and the workshops described here were open to very few, and to almost no women. Those who did succeed, like Sofonisba Anguissola, were exceptions made possible by rank.",
+      "Italian cities of the time kept slaves, fought constant wars and persecuted Jews, and the same age opened the Atlantic slave trade and the conquest of the Americas.",
+      "Greek science and philosophy reached Italy largely through Arab and Byzantine scholars, whose part the humanists played down."
+    ],
+    "reviewRequired": false
+  }
+}

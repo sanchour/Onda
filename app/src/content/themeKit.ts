@@ -28,7 +28,7 @@ export type Ornament =
   | 'longship' | 'lantern' | 'seal' | 'arch' | 'fan' | 'palm'
   | 'diya' | 'wheel' | 'stupa' | 'torii' | 'hand' | 'khanda' | 'flame' | 'menorah' | 'cross' | 'crescent' | 'dome' | 'lion' | 'apple'
   | 'solid' | 'atom' | 'cup' | 'starsky' | 'bolt' | 'couch' | 'boulder' | 'charkha'
-  | 'laurel' | 'cash' | 'ger' | 'tulip' | 'paisley' | 'kris' | 'chakana' | 'crown' | 'orb' | 'stone'
+  | 'laurel' | 'cash' | 'ger' | 'tulip' | 'paisley' | 'kris' | 'chakana' | 'crown' | 'orb'
   | 'peace' | 'dividers' | 'shield' | 'boomerang' | 'pompeblad' | 'hook' | 'shell' | 'stickchart'
 
 /** A small SVG tile. In `body`, `$` stands for the ink colour up to its alpha: stroke='$.12)'.

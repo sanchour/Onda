@@ -502,10 +502,6 @@ button.softCard{width:100%;text-align:start;display:block}
 [data-onda="hre"] .todayBar > [role=progressbar]{-webkit-mask:url("data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20width%3D'14'%20height%3D'12'%3E%3Cpath%20d%3D'M0%2012V0H4V4H10V0H14V12Z'%2F%3E%3C%2Fsvg%3E") 0 0/14px 12px repeat-x;mask:url("data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20width%3D'14'%20height%3D'12'%3E%3Cpath%20d%3D'M0%2012V0H4V4H10V0H14V12Z'%2F%3E%3C%2Fsvg%3E") 0 0/14px 12px repeat-x}
 [data-onda="hre"] .pRow{border-radius:4px 4px 18px 18px;box-shadow:inset 0 0 0 1.5px color-mix(in srgb,var(--onda-strong) 40%,transparent)}
 
-[data-onda="thirdreich"]{--bar-h:3px;--bar-r:0}
-[data-onda="thirdreich"] .pRow{border-radius:3px;border-left:3px solid var(--onda-text)}
-[data-onda="thirdreich"] .pCircle{border-radius:3px !important}
-
 [data-onda="sixties"]{--bar-h:14px}
 [data-onda="sixties"] .todayBar > [role=progressbar] > div{background:linear-gradient(90deg,#E8590C,#E0218A,#7B2FBE,#1E88C8,#2FA84F,#F2C230) !important}
 [data-onda="sixties"] .pRow{border-radius:34px 12px 34px 12px;border-bottom:4px solid var(--onda-strong)}

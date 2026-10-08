@@ -106,12 +106,6 @@ export const ORNAMENTS5 = {
       <path d="M5.500 14h13M12 7.500v13M12 7.500v-5M10 4.500h4" />
     </>
   ),
-  stone: (
-    <>
-      <rect x="5" y="5" width="14" height="14" rx="1.500" />
-      <path d="M8.500 9.500h7M8.500 12.500h7M8.500 15.500h4" />
-    </>
-  ),
   peace: (
     <>
       <circle cx="12" cy="12" r="8.500" />

@@ -60,7 +60,7 @@ function build(s) {
   return c
 }
 
-const ORDER = 'norse cynic confucian abbasid twenties cuba hindu mahayana theravada shinto jain sikh zoroaster judaism christian sunni shia rasta discordia plato epicurus cyrenaic kant nietzsche freud existential gandhi rome qing mongol ottoman mughal johor inca habsburg hre thirdreich sixties renaissance maasai aboriginal frisian polynesia melanesia micronesia'.split(' ')
+const ORDER = 'norse cynic confucian abbasid twenties cuba hindu mahayana theravada shinto jain sikh zoroaster judaism christian sunni shia rasta discordia plato epicurus cyrenaic kant nietzsche freud existential gandhi rome qing mongol ottoman mughal johor inca habsburg hre sixties renaissance maasai aboriginal frisian polynesia melanesia micronesia'.split(' ')
 const only = process.argv.slice(2)
 const NL = String.fromCharCode(10)
 const built = []

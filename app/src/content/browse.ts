@@ -58,7 +58,6 @@ export const GROUP_OF: Record<string, BrowseGroup> = {
   inca: 'state',
   habsburg: 'state',
   hre: 'state',
-  thirdreich: 'state',
   sixties: 'culture',
   renaissance: 'culture',
   maasai: 'culture',
@@ -112,7 +111,6 @@ export const COMING_SOON: ComingSoon[] = [
   { id: 'inca', name: 'Inca Empire', origin: 'The Andes', group: 'state' },
   { id: 'habsburg', name: 'Habsburg Monarchy', origin: 'Central Europe', group: 'state' },
   { id: 'hre', name: 'Holy Roman Empire', origin: 'Central Europe', group: 'state' },
-  { id: 'thirdreich', name: 'Nazi Germany', origin: 'Germany', group: 'state' },
   // Cultures, eras and peoples
   { id: 'sixties', name: 'The 1960s', origin: 'United States', group: 'culture' },
   { id: 'renaissance', name: 'The Renaissance', origin: 'Italy', group: 'culture' },

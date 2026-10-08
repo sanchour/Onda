@@ -165,11 +165,6 @@ export const THEMES5: Record<string, Theme> = {
     bg: '#EDE3C8', strong: '#8A1C1C', darkBg: '#2E2318', darkStrong: '#E9B949', glyph: 'Sacrum', font: "'Grenze Gotisch',serif",
     pattern: (i) => `linear-gradient(45deg,rgba(${i},.05) 25%,transparent 25% 75%,rgba(${i},.05) 75%) 0 0/20px 20px`,
   },
-  thirdreich: {
-    shape: '3px', radius: '3px', numerals: 'latin', ornament: 'stone',
-    bg: '#E3E3E0', strong: '#4A4A4A', darkBg: '#232323', darkStrong: '#B9B9B4', glyph: '1933', font: "'Courier Prime',monospace",
-    pattern: (i) => `linear-gradient(rgba(${i},.06),rgba(${i},.06)) 0 0/100% 5px no-repeat`,
-  },
   // Cultures, eras and peoples
   sixties: {
     shape: '50%', radius: '34px 12px 34px 12px', numerals: 'latin', ornament: 'peace',

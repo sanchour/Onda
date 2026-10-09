@@ -13,7 +13,8 @@ const here = path.dirname(fileURLToPath(import.meta.url))
 const out = path.join(here, 'sweep')
 fs.mkdirSync(out, { recursive: true })
 const index = JSON.parse(fs.readFileSync(path.join(here, '..', '..', 'content', 'index.json'), 'utf8'))
-const ondas = Array.isArray(index) ? index : index.ondas
+const only = (process.argv.find((a) => a.startsWith('--only=')) ?? '').slice(7).split(',').filter(Boolean)
+const ondas = (Array.isArray(index) ? index : index.ondas).filter((o) => !only.length || only.includes(o.id))
 const server = spawn('npx', ['vite', 'preview', '--port', '4179', '--strictPort'], { cwd: path.join(here, '..'), shell: true, stdio: 'ignore' })
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms))
 await sleep(3000)
@@ -139,7 +140,8 @@ try {
 
   // Every Onda: its page and its Full guide
   await page.getByRole('button', { name: 'Browse Ondas', exact: true }).first().click()
-  await sleep(2000)
+  await page.getByText('Zen Buddhism').first().waitFor({ timeout: 30000 })
+  await sleep(600)
   await check('All Ondas')
   await shot('browse')
   let done = 0
@@ -147,7 +149,8 @@ try {
     if (n > 0 && n % 12 === 0) {
       await fresh()
       await page.getByRole('button', { name: 'Browse Ondas', exact: true }).first().click()
-      await sleep(2000)
+      await page.getByText('Zen Buddhism').first().waitFor({ timeout: 30000 })
+      await sleep(600)
     }
     where = `Onda ${o.name}`
     const b = page.getByRole('button', { name: new RegExp(esc(o.name)) }).first()

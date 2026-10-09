@@ -283,17 +283,17 @@
     {
       "id": "navkar",
       "name": "Morning salutation",
-      "icon": "sun-horizon",
+      "icon": "hands-praying",
       "slot": "Morning",
       "time": "06:30",
       "minutes": 5,
       "meta": "Morning · 5 min",
-      "instructions": "On waking, sit up with your palms together. Bow in your mind to five kinds of people: those who have conquered themselves, those who are fully free, the leaders of communities of practice, the teachers, and all those anywhere who are sincerely on the path. If you wish, say or listen to the Namokar mantra itself. Then set one intention: today I will try not to harm.",
-      "why": "The Namokar mantra is the first thing a Jain child learns and the first prayer of the day. It honours qualities, not persons, and it asks for nothing.",
+      "instructions": "On waking, sit up with your palms together. Bow in your mind to five kinds of people: those who have conquered themselves, those who are fully free, the leaders of communities of practice, the teachers, and all those anywhere who live with discipline. Take a breath for each. Then rise. The salutation asks nothing for yourself.",
+      "why": "The Namokar Mantra is the central prayer of Jainism, honouring qualities rather than a creator. Reciting it on waking is a daily habit in Jain homes.",
       "variations": [
-        "Repeat it nine times, counted on your fingers.",
-        "Name one living person whose conduct you admire.",
-        "Say it again before sleep."
+        "Say it aloud, slowly, nine times.",
+        "Say it silently while looking at the sky.",
+        "Learn the first line in Prakrit."
       ]
     },
     {
@@ -304,177 +304,517 @@
       "time": "08:30",
       "minutes": 10,
       "meta": "Morning · 10 min",
-      "instructions": "For ten minutes walk as a Jain ascetic does. Look at the ground a few steps ahead. Do not tread on anything alive if you can see it: ants, snails, worms after rain, seedlings in a crack. Slow down enough to make this possible. Keep your hands free and your phone away. Notice how much lives on a pavement.",
-      "why": "Care in walking, irya samiti, is the first of five kinds of carefulness. Monks and nuns travel only on foot and by daylight, and some carry a soft broom to move insects from their path.",
+      "instructions": "For ten minutes walk as a Jain ascetic does. Look at the ground a few steps ahead. Do not tread on anything alive if you can see it: ants, snails, worms after rain, seedlings in a crack. Slow down enough to make this possible. If you find something in your path, step around it or move it gently aside. Say to yourself: I will harm nothing that lives.",
+      "why": "Jain monks and nuns sweep the path before them to avoid stepping on small beings. Walking with this care is the most direct way to feel ahimsa in the body.",
       "variations": [
-        "Carry an insect out of your house instead of killing it.",
-        "Move a worm or snail off the path.",
-        "Walk a familiar route and count the species you see."
-      ]
-    },
-    {
-      "id": "samayika",
-      "name": "Samayika: forty-eight still minutes",
-      "icon": "hourglass",
-      "slot": "Afternoon",
-      "time": "13:00",
-      "minutes": 20,
-      "meta": "Afternoon · 20 min",
-      "instructions": "Sit on the floor or a chair in a quiet place and resolve not to move from it, nor to do, buy, send or plan anything, for a set time. The traditional period is forty-eight minutes. Start with twenty. Let the mind rest on the breath or on the thought that every living being wants to live, as you do. For this time hold no one as friend or enemy. When the time is up, bow and return to the day.",
-      "why": "Samayika means becoming equal toward all. For its duration a lay person lives as a monk or nun does. Many Jains do it daily, and it is the first of the six daily duties.",
-      "variations": [
-        "Read a page of scripture in the last ten minutes.",
-        "Do it at dawn or dusk, the traditional hours.",
-        "Extend toward the full forty-eight minutes by the end of the Onda."
+        "Walk a short loop at your slowest.",
+        "Do it barefoot on a clean floor.",
+        "Lift a snail from a path to the grass."
       ]
     },
     {
       "id": "limit",
       "name": "Set a limit",
-      "icon": "minus",
+      "icon": "ruler",
       "slot": "Morning",
       "time": "09:00",
       "minutes": 5,
       "meta": "Morning · 5 min",
-      "instructions": "Each morning set one limit for the day and keep it. I will eat only five different things. I will spend nothing. I will not travel beyond my neighbourhood. I will use my phone for one hour. I will speak only when it is useful. Make it specific and write it down. A limit is kept from waking to waking.",
-      "why": "Lay Jains take vows that limit their consumption, travel and possessions, sometimes for a day and sometimes for life. A limit chosen freely weakens greed and reduces the harm one’s life causes.",
+      "instructions": "Each morning set one limit for the day and keep it. I will eat only five different things. I will spend nothing. I will not travel beyond my neighbourhood. I will use my phone for one hour. I will speak only when it is useful. Write it down. At night, note whether you kept it. Keep the limit gentle and safe for your health.",
+      "why": "Jain lay people take small daily vows to limit consumption and travel. Self-chosen limits teach how little is needed.",
       "variations": [
-        "Give away one object for each new one that enters the house.",
-        "Fix an upper limit for what you want to own and write it down.",
-        "Keep the same limit for a whole week."
+        "Limit the clothes you wear to what you have on.",
+        "Limit your screen to one hour.",
+        "Limit the number of words you use in messages."
+      ]
+    },
+    {
+      "id": "water-with-care",
+      "name": "Water with care",
+      "icon": "drop",
+      "slot": "Morning",
+      "time": "07:15",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Pour your drinking water for the day through a clean cloth into a jug or bottle, to catch anything small, and return what the cloth catches to the source, a plant or a stream. Jains traditionally boil or filter water for the same reason. Drink the first glass slowly and notice that every glass holds living things.",
+      "why": "Straining water is an old Jain custom to avoid harming tiny beings. Even a symbolic version makes you aware of what you drink and what lives in it.",
+      "variations": [
+        "Filter the water with a tea strainer.",
+        "Water a plant with what is left in glasses.",
+        "Drink a whole glass of water first thing."
+      ]
+    },
+    {
+      "id": "free-the-little-ones",
+      "name": "Free the little ones",
+      "icon": "butterfly",
+      "slot": "Morning",
+      "time": "07:45",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "If you find an insect, a spider or a beetle in the house today, do not kill it. Catch it under a cup with a card slid beneath and carry it outdoors. Say: go well. If none turn up, check a window ledge or sweep a corner gently and see who lives with you. Jiv daya, compassion for living beings, begins at home.",
+      "why": "Jiv daya, compassion for all living beings, is the practical side of ahimsa. Jains rescue insects as a matter of course, and it makes the house a kinder place.",
+      "variations": [
+        "Rescue a spider and watch it go.",
+        "Move a worm from a pavement after rain.",
+        "Leave a window open for a bee."
+      ]
+    },
+    {
+      "id": "a-harmless-first-word",
+      "name": "A harmless first word",
+      "icon": "chat-teardrop",
+      "slot": "Morning",
+      "time": "07:00",
+      "minutes": 3,
+      "meta": "Morning · 3 min",
+      "instructions": "Make the first words you speak today true, kind and necessary. Wait until you have something to say that passes all three tests. Greet people with a smile before a word if you need to. Satya, truth, and ahimsa, non-harm, in speech: the rule of this Onda is to say only what is true and harmless.",
+      "why": "Jain ethics apply to speech as well as action. Starting the day with a considered word sets the tone for the rest of it.",
+      "variations": [
+        "Hold your tongue for the first ten minutes at home.",
+        "Begin with a thank you.",
+        "Pause before every reply for an hour."
+      ]
+    },
+    {
+      "id": "samayika",
+      "name": "Samayika: forty-eight still minutes",
+      "icon": "moon-stars",
+      "slot": "Afternoon",
+      "time": "13:00",
+      "minutes": 20,
+      "meta": "Afternoon · 20 min",
+      "instructions": "Sit on the floor or a chair in a quiet place and resolve not to move from it, nor to do, buy, send or plan anything, for a set time. The traditional period is forty-eight minutes. Start with twenty. Let the mind rest on equanimity: the same towards friend and stranger, praise and blame. Do not be alarmed by itches or thoughts; let them pass. Sit comfortably and stop if you feel unwell.",
+      "why": "Samayika is the Jain practice of equanimity, done daily by many lay people. Staying still for a set time teaches how much of life is the urge to move.",
+      "variations": [
+        "Sit for ten minutes only, but every day.",
+        "Sit in a place with a view of the sky.",
+        "Sit with a plain cloth under you."
+      ]
+    },
+    {
+      "id": "let-go-of-one-thing",
+      "name": "Let go of one thing",
+      "icon": "gift",
+      "slot": "Afternoon",
+      "time": "15:00",
+      "minutes": 15,
+      "meta": "Afternoon · 15 min",
+      "instructions": "Choose one thing you own and do not need: a book unread for years, a shirt, a gadget, a kitchen item. Give it to someone who will use it, or take it to a donation point today. Notice any reluctance. Aparigraha, non-possessiveness, is one of the great vows. The rule of this Onda is to own less tonight than this morning.",
+      "why": "Aparigraha, not clinging to possessions, is a central Jain virtue. Giving away one thing at a time is a gentle, steady way to practise it.",
+      "variations": [
+        "Give away something you like.",
+        "Clear one shelf completely.",
+        "Hand it over in person."
+      ]
+    },
+    {
+      "id": "argue-the-other-side",
+      "name": "Argue the other side",
+      "icon": "scales",
+      "slot": "Afternoon",
+      "time": "14:00",
+      "minutes": 15,
+      "meta": "Afternoon · 15 min",
+      "instructions": "Pick an opinion you hold firmly. Write down the best argument for the opposite, as a person who held it would put it. Then find one part of it that is true. Anekantavada, the doctrine of many-sidedness, holds that reality is too rich for a single view. Grant that the other view may be partly right. Say it aloud to someone if you can.",
+      "why": "Anekantavada, the many-sided view, is Jainism’s special contribution to the world’s thought. It encourages humility and respectful disagreement.",
+      "variations": [
+        "Do it for a disagreement with a family member.",
+        "Do it with a newspaper opinion you dislike.",
+        "Ask someone to argue your side back to you."
+      ]
+    },
+    {
+      "id": "water-for-the-creatures",
+      "name": "Water for the creatures",
+      "icon": "bird",
+      "slot": "Afternoon",
+      "time": "16:00",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Put out a shallow dish of fresh water and a handful of grain or seeds for the birds, bees and small animals near you. Place it in the shade and wash it daily. Jains have long supported shelters for animals and bird feeders in towns. Stay quiet and watch from a distance for a while. Do no harm.",
+      "why": "Jiv daya, compassion for living things, is put into practice in Jain communities through bird feeders and animal shelters. A saucer of water is the smallest version.",
+      "variations": [
+        "Visit an animal shelter or give a donation.",
+        "Put out water for bees.",
+        "Count the visitors you get."
+      ]
+    },
+    {
+      "id": "a-simple-light-meal",
+      "name": "A simple, light meal",
+      "icon": "bowl-steam",
+      "slot": "Afternoon",
+      "time": "12:30",
+      "minutes": 25,
+      "meta": "Afternoon · 25 min",
+      "instructions": "Eat one meal today that is simple, vegetarian and plain: dal, rice, a vegetable, a flatbread. Take only what you will eat and finish it all. Chew slowly and stop when you are not quite full. Wash up with as little water as you can. The Jain table is a place for taking only what is needed.",
+      "why": "Jain food is vegetarian and carefully chosen to avoid harm. A simple meal eaten with attention embodies the whole ethic.",
+      "variations": [
+        "Leave out onions and garlic for the day.",
+        "Skip a dessert you do not need.",
+        "Cook enough to feed only the people at the table."
+      ]
+    },
+    {
+      "id": "one-hour-of-true-words",
+      "name": "One hour of true words",
+      "icon": "microphone-stage",
+      "slot": "Afternoon",
+      "time": "17:00",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "For the next hour say only what is true and harmless. If you cannot say it truthfully and kindly, stay silent. Notice how many small exaggerations, flattering lies and sharp remarks you would normally make. If you slip, note it, say sorry and go on. Satya, truthfulness, is a vow; this is a small trial of it.",
+      "why": "Truthfulness is one of the five vows of Jainism. Even a short period of watching speech shows how automatic our small untruths are.",
+      "variations": [
+        "Do it at work.",
+        "Do it with family.",
+        "Note your slips in a notebook."
       ]
     },
     {
       "id": "pratikramana",
       "name": "The evening turning back",
-      "icon": "arrow-counter-clockwise",
+      "icon": "repeat",
       "slot": "Evening",
       "time": "20:30",
       "minutes": 10,
       "meta": "Evening · 10 min",
-      "instructions": "Before sunset if you can, finish eating. Later, sit and go back through the day from the morning. Recall each harm you did, in act, word or thought: the insect, the sharp reply, the wasteful purchase, the contempt you did not voice. For each one say inwardly: may this wrong be without effect. Then say the forgiveness prayer: I forgive all living beings, may all living beings forgive me.",
-      "why": "Pratikramana is among the oldest Jain rites. Reviewing harm the same day keeps the karma from setting hard, like wiping a spill before it dries.",
+      "instructions": "Before sunset if you can, finish eating. Later, sit and go back through the day from the morning. Recall each harm you did, in act, word or thought: the insect, the sharp reply, the wasteful purchase, the contempt you did not voice. Do not defend yourself. Say aloud, micchami dukkadam: may any harm I did be undone. Then resolve one small thing for tomorrow.",
+      "why": "Pratikramana, literally turning back, is the Jain daily review and confession, often done at dusk. It is honest, brief and without drama.",
       "variations": [
-        "Ask one person’s pardon directly, today.",
-        "Write the list and tear it up.",
-        "Do it together with your household."
-      ]
-    }
-  ],
-  "tasks": [
-    {
-      "id": "eat-nothing-after-sunset-once-this-week",
-      "name": "Eat nothing after sunset, once this week",
-      "meta": "Chauvihar; skip if unwise for your health",
-      "time": "17:30",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "strain-or-filter-the-water-you-drink-today",
-      "name": "Strain or filter the water you drink today",
-      "meta": "Care for the smallest lives",
-      "time": "08:00",
-      "slot": "Morning"
-    },
-    {
-      "id": "task-cook-a-meal-with-no-meat-eggs-honey-or-root-vegetables",
-      "name": "Cook a meal with no meat, eggs, honey or root vegetables",
-      "meta": "Eat · the Jain kitchen",
-      "time": "12:30",
-      "slot": "Afternoon",
-      "action": "eat"
-    },
-    {
-      "id": "task-read-the-first-lecture-of-the-acaranga-sutra",
-      "name": "Read the first lecture of the Acaranga Sutra",
-      "meta": "Read · on knowing the lives around you",
-      "time": "20:00",
-      "slot": "Evening",
-      "action": "read"
-    },
-    {
-      "id": "task-look-at-the-statue-of-bahubali-at-shravanabelagola",
-      "name": "Look at the statue of Bahubali at Shravanabelagola",
-      "meta": "Art · so still that vines climb his legs",
-      "time": "16:00",
-      "slot": "Afternoon",
-      "action": "art"
-    },
-    {
-      "id": "task-play-gyan-chaupar-the-original-snakes-and-ladders",
-      "name": "Play Gyan Chaupar, the original snakes and ladders",
-      "meta": "Games · karma on a board",
-      "time": "19:00",
-      "slot": "Evening",
-      "action": "games"
-    },
-    {
-      "id": "task-journal-what-did-you-harm-today-and-could-you-have-avoided-it",
-      "name": "Journal: what did you harm today, and could you have avoided it?",
-      "meta": "Journal · 10 min",
-      "time": "21:00",
-      "slot": "Evening",
+        "Write the harms and the good in two columns.",
+        "Do it standing by an open window.",
+        "Do it with a family member who is also reviewing."
+      ],
       "action": "journal"
     },
     {
-      "id": "task-many-sidedness-argue-the-other-side-of-something-you-believe",
-      "name": "Many-sidedness: argue the other side of something you believe",
-      "meta": "Philosophy · 10 min",
-      "time": "10:00",
-      "slot": "Morning",
-      "action": "philosophy"
+      "id": "an-early-supper",
+      "name": "An early supper",
+      "icon": "sun-horizon",
+      "slot": "Evening",
+      "time": "17:30",
+      "minutes": 30,
+      "meta": "Evening · 30 min",
+      "instructions": "Finish your evening meal before sunset or at least three hours before bed. Eat lightly and at a regular time. Chauvihar, the vow of not eating after dark, is kept by many Jains to avoid harming insects drawn to lamps. Try a gentle version: set a time and stop eating at it, without strain. If you have a health condition that needs food at set times, follow your doctor’s advice instead.",
+      "why": "Eating before sunset is a Jain custom that fits well with digestion and rest. It also leaves the evening free.",
+      "variations": [
+        "Eat supper in daylight on the porch.",
+        "Have a warm drink instead of a late snack.",
+        "Make the early meal an occasion."
+      ]
     },
     {
-      "id": "give-away-one-possession-you-will-not-miss",
-      "name": "Give away one possession you will not miss",
-      "meta": "Non-possession",
-      "time": "11:00",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "treat-watch-your-step-for-small-creatures-on-one-walk",
-      "name": "Watch your step for small creatures on one walk",
-      "meta": "Go round them",
-      "time": "15:30",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "treat-open-the-window-and-let-a-fly-out",
-      "name": "Open the window and let a fly out",
-      "meta": "Patiently",
-      "time": "15:30",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "treat-go-one-meal-without-wanting-seconds",
-      "name": "Go one meal without wanting seconds",
-      "meta": "Notice the wanting",
+      "id": "micchami-dukkadam",
+      "name": "Micchami dukkadam",
+      "icon": "handshake",
+      "slot": "Evening",
       "time": "19:30",
-      "slot": "Evening"
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Ask forgiveness from someone you may have wronged, with simple words: if I hurt you in any way, I am sorry. Say it in person, by phone or in a message. Forgive anyone who has asked, or anyone you still hold something against, at least silently. The Jain rule is to ask forgiveness before you sleep, and to bear no grudge.",
+      "why": "Micchami dukkadam, may my wrong be in vain, is said by Jains during Paryushana and in daily review. Asking and giving forgiveness is a daily skill.",
+      "variations": [
+        "Send three short messages.",
+        "Say it to a family member.",
+        "Forgive someone and tell no one."
+      ]
     },
     {
-      "id": "treat-say-sorry-to-something-you-bumped-into-even-a-chair",
-      "name": "Say sorry to something you bumped into, even a chair",
-      "meta": "It builds the habit",
-      "time": "08:30",
-      "slot": "Morning"
+      "id": "own-less-tonight",
+      "name": "Own less tonight",
+      "icon": "archive",
+      "slot": "Evening",
+      "time": "20:00",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Before you go to bed, take one item out of your house. A broken thing, an old magazine, a drawer of cables, a set of clothes you do not wear. Take it out now: to the bin, to a charity bag by the door, to a neighbour. The rule of this Onda is to own less tonight than this morning.",
+      "why": "Aparigraha is practised by letting go of small things regularly. A daily item adds up to a lighter life.",
+      "variations": [
+        "Clear one drawer.",
+        "Photograph a keepsake and let the object go.",
+        "Choose something someone will use."
+      ]
     },
     {
-      "id": "daily-ask-forgiveness-from-someone-you-may-have-hurt",
-      "name": "Ask forgiveness from someone you may have hurt",
-      "meta": "Micchami dukkadam: may any wrong be undone",
-      "time": "20:30",
-      "slot": "Evening"
+      "id": "listen-to-the-bhaktamar-stotra",
+      "name": "Listen to the Bhaktamar Stotra",
+      "icon": "waveform",
+      "slot": "Evening",
+      "time": "21:00",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Play the Bhaktamar Stotra, a Sanskrit hymn of praise composed about thirteen hundred years ago, in a recording by a Jain chorus. Sit upright and listen for ten minutes. Follow a translation if you can. The hymn is said to have been composed by Acharya Manatunga and is recited by Jains each morning and evening.",
+      "why": "The Bhaktamar Stotra is one of the best-loved Jain hymns, praising the first tirthankara. Its steady rhythm makes it good for listening.",
+      "variations": [
+        "Read the English translation while listening.",
+        "Listen with the lights off.",
+        "Hum along with the last verse."
+      ]
     },
     {
-      "id": "daily-sit-in-silence-for-ten-minutes-and-wish-all-beings-well",
-      "name": "Sit in silence for ten minutes and wish all beings well",
-      "meta": "Maitri",
-      "time": "20:30",
-      "slot": "Evening"
+      "id": "the-elephant-and-the-blind-men",
+      "name": "The elephant and the blind men",
+      "icon": "chats",
+      "slot": "Evening",
+      "time": "19:00",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Tell the story of the elephant and the blind men to someone, or read it aloud. Each touches a different part and insists the elephant is a rope, a pillar, a fan, a wall. Tell it with voices. Then ask: where in your life are you holding a part and calling it the whole? This is the many-sided view, told as a tale.",
+      "why": "The tale of the blind men and the elephant is told in Jain and Buddhist traditions. Anekantavada uses it to teach that every view captures only part of the truth.",
+      "variations": [
+        "Tell it to a child.",
+        "Add a fifth man who sees the whole.",
+        "Use it in a real disagreement."
+      ]
+    },
+    {
+      "id": "a-jain-style-feast-without-roots",
+      "name": "A Jain-style feast without roots",
+      "icon": "cooking-pot",
+      "slot": "Special",
+      "time": "17:00",
+      "minutes": 90,
+      "meta": "On a free afternoon · 90 min",
+      "instructions": "Cook a meal in the Jain style for friends, avoiding root vegetables such as onion, garlic, potato and carrot, since pulling them up kills the plant. Use lentils, rice, gourds, beans, leafy vegetables and fruit, with ginger-free spices if you prefer. Eat it in daylight. A Jain meal is a creative challenge that shows how much flavour is possible.",
+      "why": "Jain cooking avoids root vegetables, honey and anything that harms living beings, yet is rich and varied. Cooking it is a pleasing puzzle.",
+      "variations": [
+        "Make a raw banana curry.",
+        "Serve khakhra with chutney.",
+        "Share the recipe with a guest."
+      ]
+    },
+    {
+      "id": "a-day-of-forgiveness-letters",
+      "name": "A day of forgiveness letters",
+      "icon": "envelope-simple",
+      "slot": "Special",
+      "time": "10:00",
+      "minutes": 60,
+      "meta": "On a free morning · 60 min",
+      "instructions": "On a free day, write short letters of forgiveness to five people: ask pardon from those you may have hurt and offer it to those who hurt you. Be specific and brief. Send some and keep others to yourself if you prefer. In Jain communities the day of Samvatsari is for exactly this. Finish with a deep breath and a feeling of lightness.",
+      "why": "The last day of Paryushana is a day of asking and giving forgiveness, with a greeting of micchami dukkadam to everyone. A private version brings the same relief.",
+      "variations": [
+        "Write one letter to your younger self.",
+        "Write to someone you have not spoken with for years.",
+        "Phone someone instead of writing."
+      ]
     }
   ],
-  "immersePlan": [],
+  "tasks": [],
+  "immersePlan": [
+    {
+      "kind": "read",
+      "item": "read-jainism-an-introduction",
+      "name": "Read Jainism: An Introduction",
+      "text": "Read a chapter of Jeffery Long’s clear introduction to the history and ideas of Jainism. Note one idea that is new to you.",
+      "minutes": 20
+    },
+    {
+      "kind": "read",
+      "item": "read-jaina-sutras-part-1-the-acaranga-sutra",
+      "name": "Read from the Acaranga Sutra",
+      "text": "Read a passage of the oldest Jain scripture, about how to move through the world without harm. Notice how detailed the care is.",
+      "minutes": 15
+    },
+    {
+      "kind": "read",
+      "item": "read-that-which-is-tattvartha-sutra",
+      "name": "Read the Tattvartha Sutra",
+      "text": "Read a few of Umasvati’s short aphorisms on the nature of the soul and the world. Pick one to think about for the day.",
+      "minutes": 15
+    },
+    {
+      "kind": "watch",
+      "item": "watch-ship-of-theseus",
+      "name": "Watch Ship of Theseus",
+      "text": "Watch Anand Gandhi’s 2012 film about identity, in which a blind photographer, a monk and a stockbroker meet through an organ transplant. The monk is a Jain on a hunger strike over animal testing, so notice how the film treats his convictions.",
+      "minutes": 140
+    },
+    {
+      "kind": "watch",
+      "item": "watch-ahimsa-non-violence",
+      "name": "Watch Ahimsa: Non-Violence",
+      "text": "Watch Michael Tobias’s documentary on Jain life and the ethic of non-harm. Note the images of everyday care.",
+      "minutes": 55
+    },
+    {
+      "kind": "watch",
+      "item": "watch-the-story-of-india-episode-2-the-power-of-ideas",
+      "name": "Watch The Story of India, episode two",
+      "text": "Watch the BBC episode in which Michael Wood visits the cave where Mahavira and the Buddha taught, and the thinkers of sixth-century BCE India.",
+      "minutes": 60
+    },
+    {
+      "kind": "listen",
+      "item": "listen-namokar-mantra",
+      "name": "Listen to the Namokar Mantra",
+      "text": "Play a recording of the central Jain prayer, sung by a choir or a single voice. Sit still for its five lines.",
+      "minutes": 10
+    },
+    {
+      "kind": "listen",
+      "item": "listen-bhaktamar-stotra",
+      "name": "Listen to the Bhaktamar Stotra",
+      "text": "Play the Sanskrit hymn in praise of the first tirthankara. Follow the translation or the rhythm.",
+      "minutes": 15
+    },
+    {
+      "kind": "listen",
+      "item": "listen-stavans",
+      "name": "Listen to Jain stavans",
+      "text": "Play devotional songs in Gujarati sung by Jain singers. Notice the simple, steady melodies.",
+      "minutes": 15
+    },
+    {
+      "kind": "art",
+      "item": "art-gommateshwara-bahubali",
+      "name": "Look at Gommateshwara",
+      "text": "Look at pictures of the 17-metre naked statue of Bahubali at Shravanabelagola, carved from a single granite rock in 981. Notice the vines climbing his legs.",
+      "minutes": 10
+    },
+    {
+      "kind": "art",
+      "item": "art-the-dilwara-temples",
+      "name": "Look at the Dilwara Temples",
+      "text": "Look at the marble carving of the temples at Mount Abu, so fine that it looks like lace. Choose a ceiling and look at it for five minutes.",
+      "minutes": 10
+    },
+    {
+      "kind": "art",
+      "item": "art-illustrated-kalpa-sutra-manuscripts",
+      "name": "Look at Kalpa Sutra manuscripts",
+      "text": "Look at the brightly painted manuscripts of the lives of the tirthankaras, with gold and ultramarine. Find one with an animal in it.",
+      "minutes": 10
+    },
+    {
+      "kind": "eat",
+      "item": "eat-dal-rice-and-rotli",
+      "name": "Cook dal, rice and rotli",
+      "text": "Cook a simple plate of lentils, rice and flatbread, with a vegetable. Eat it in daylight and finish all of it.",
+      "minutes": 45
+    },
+    {
+      "kind": "eat",
+      "item": "eat-khichdi-and-kadhi",
+      "name": "Cook khichdi and kadhi",
+      "text": "Cook rice and lentils together, and a spiced yogurt curry on the side. It is the comfort meal of Gujarat.",
+      "minutes": 50
+    },
+    {
+      "kind": "eat",
+      "item": "eat-khakhra",
+      "name": "Taste khakhra",
+      "text": "Crunch on thin roasted wheat crispbread, a travelling food of Jain families. Eat it with chutney or a cup of tea.",
+      "minutes": 10
+    },
+    {
+      "kind": "drink",
+      "item": "drink-boiled-water",
+      "name": "Drink boiled water",
+      "text": "Boil water, let it cool and drink it through the day. Jains do this to avoid harming tiny life in raw water. Drink a glass slowly and think about what it took to make.",
+      "minutes": 10
+    },
+    {
+      "kind": "drink",
+      "item": "drink-chaas",
+      "name": "Drink chaas",
+      "text": "Whisk yogurt with cold water, salt and roasted cumin until frothy. It is the cooling drink of Gujarat and Rajasthan. Share a glass.",
+      "minutes": 10
+    },
+    {
+      "kind": "drink",
+      "item": "drink-warm-milk-with-saffron",
+      "name": "Drink warm milk with saffron",
+      "text": "Warm milk with a few threads of saffron and a pinch of cardamom, and drink it before bed. It is a quiet, golden drink.",
+      "minutes": 10
+    },
+    {
+      "kind": "customs",
+      "item": "customs-eating-before-sunset",
+      "name": "Eat before sunset",
+      "text": "Have your evening meal in daylight today, as many Jains do. Sit and notice how the evening changes when supper is early.",
+      "minutes": 30
+    },
+    {
+      "kind": "customs",
+      "item": "customs-giving-food-to-ascetics",
+      "name": "Learn about giving food to monks",
+      "text": "Read about how Jain households offer pure food to monks and nuns on their rounds. Then give a plate of food to someone who needs it.",
+      "minutes": 15
+    },
+    {
+      "kind": "customs",
+      "item": "customs-asking-pardon",
+      "name": "Ask someone’s pardon",
+      "text": "Say micchami dukkadam, may any wrong be undone, to one person, in person or by message. Ask and listen.",
+      "minutes": 10
+    },
+    {
+      "kind": "games",
+      "item": "games-gyan-chaupar",
+      "name": "Play Gyan Chaupar",
+      "text": "Play the Jain game of knowledge, a cousin of snakes and ladders in which virtues lift you and vices drop you. Draw the board and play with a friend.",
+      "minutes": 30
+    },
+    {
+      "kind": "games",
+      "item": "games-chaupar",
+      "name": "Play chaupar",
+      "text": "Play the ancient cross-shaped race game with cowries or dice, as in India for centuries. Make a board from cloth or paper.",
+      "minutes": 30
+    },
+    {
+      "kind": "games",
+      "item": "games-journey",
+      "name": "Play Journey",
+      "text": "Play the wordless game of a robed traveller crossing a desert to a mountain. Play it in one sitting and pay attention to your pace.",
+      "minutes": 120
+    },
+    {
+      "kind": "travel",
+      "item": "fest-paryushana",
+      "name": "Mark Paryushana",
+      "text": "Paryushana is an eight-to-ten-day period of reflection and forgiveness in late summer. Spend a few minutes today forgiving someone and asking forgiveness of someone.",
+      "minutes": 15
+    },
+    {
+      "kind": "travel",
+      "item": "fest-mahavir-jayanti",
+      "name": "Mark Mahavir Jayanti",
+      "text": "Mahavir Jayanti, in March or April, marks the birth of the last tirthankara. Read a short account of his life and do one small kind act in his spirit.",
+      "minutes": 15
+    },
+    {
+      "kind": "travel",
+      "item": "place-shravanabelagola",
+      "name": "Look up Shravanabelagola",
+      "text": "Look at the hill town in Karnataka where Bahubali’s statue stands. Read about the festival held every twelve years when the statue is bathed.",
+      "minutes": 10
+    },
+    {
+      "kind": "words",
+      "item": "word-anekantavada",
+      "name": "Practise anekantavada",
+      "text": "Anekantavada is the many-sided view. In one conversation today, try to state the other person’s view fairly before you give yours.",
+      "minutes": 10
+    },
+    {
+      "kind": "words",
+      "item": "word-aparigraha",
+      "name": "Practise aparigraha",
+      "text": "Aparigraha is non-possessiveness. Go through one pocket, bag or drawer and remove three things you do not need.",
+      "minutes": 10
+    },
+    {
+      "kind": "words",
+      "item": "word-micchami-dukkadam",
+      "name": "Say micchami dukkadam",
+      "text": "Say micchami dukkadam to someone, meaning may any wrong I did be in vain. Say it kindly and mean it.",
+      "minutes": 5
+    }
+  ],
   "rules": [
     {
       "id": "r1",

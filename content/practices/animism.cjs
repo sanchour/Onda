@@ -61,7 +61,7 @@ module.exports = {
       'Before sleep, recall what fed, sheltered and carried you today, and say thank you. Then name one thing you took and one thing you gave. If the taking was larger, decide what you will give tomorrow.',
       'Gratitude in this sense is not a mood. It is the acknowledgement of a debt, and it leads to reciprocity.',
       ['Say it at the table before the evening meal.', 'Write a line of thanks to someone and send it.', 'Leave water out for birds.'],
-      { id: 'evening-thanks' }],
+      { id: 'evening-thanks', action: 'journal' }],
     ['Leave water for the birds', 'bird', 5, '19:00',
       'Put out a shallow dish of fresh water for the birds and insects. Choose a spot with a clear view and some cover, so they feel safe. Check it each day and clean it. Watch who comes. This is a small way to give back to the creatures who share your place, and it costs only a saucer.',
       'Sharing water with other beings is a simple act of reciprocity. It also trains the eye to see who lives alongside you.',

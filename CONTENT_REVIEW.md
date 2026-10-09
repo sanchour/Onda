@@ -270,7 +270,7 @@ Marked `unverified` (11):
 
 ## Hermeticism
 
-File: `content/ondas/hermes.json` · version 1 · about 5000 words · 33 words of vocabulary, 30 journal prompts, 14 history entries, 10 concepts, 6 sources.
+File: `content/ondas/hermes.json` · version 1 · about 7600 words · 33 words of vocabulary, 30 journal prompts, 14 history entries, 10 concepts, 6 sources.
 
 Framing note shown in the app: Hermeticism includes ancient philosophy, Renaissance learning, historical alchemy and modern esoteric movements. This Onda draws on the first two and treats alchemy as symbol and history. It offers habits of attention and does not ask you to practise ritual magic or handle chemicals.
 
@@ -288,7 +288,7 @@ Marked `unverified` (9):
 
 ## Gnosticism
 
-File: `content/ondas/gnostic.json` · version 1 · about 5200 words · 32 words of vocabulary, 30 journal prompts, 12 history entries, 10 concepts, 7 sources.
+File: `content/ondas/gnostic.json` · version 1 · about 7900 words · 32 words of vocabulary, 30 journal prompts, 12 history entries, 10 concepts, 7 sources.
 
 **Needs review by tradition bearers before launch.** Gnosticism is a modern umbrella term for diverse ancient movements, and the Mandaeans are a living gnostic community. This Onda offers questions, images and attention in a form open to anyone. It does not reproduce the rites of any group.
 
@@ -321,7 +321,7 @@ Marked `unverified` (17):
 
 ## Norse
 
-File: `content/ondas/norse.json` · version 1 · about 6200 words · 32 words of vocabulary, 30 journal prompts, 14 history entries, 10 concepts, 7 sources.
+File: `content/ondas/norse.json` · version 1 · about 8500 words · 32 words of vocabulary, 30 journal prompts, 14 history entries, 10 concepts, 7 sources.
 
 **Needs review by tradition bearers before launch.** The old Norse religion is known mainly through texts written by Christians two centuries after the conversion, and it is also a living religion today, known as Heathenry or Ásatrú. This Onda draws on the everyday ethics of the sources. It does not offer religious rites, and it rejects the use of Norse symbols by racist movements.
 
@@ -338,7 +338,7 @@ Nothing is marked `unverified`.
 
 ## Diogenes
 
-File: `content/ondas/cynic.json` · version 1 · about 5900 words · 31 words of vocabulary, 30 journal prompts, 15 history entries, 10 concepts, 6 sources.
+File: `content/ondas/cynic.json` · version 1 · about 8200 words · 31 words of vocabulary, 30 journal prompts, 15 history entries, 10 concepts, 6 sources.
 
 Framing note shown in the app: What we know of Diogenes comes from anecdotes written down centuries after his death, and some of what they describe was indecent or illegal. This Onda borrows his nerve, his thrift and his honesty. It does not ask you to offend, expose or endanger anyone, and it does not treat poverty as a game.
 
@@ -347,7 +347,7 @@ Nothing is marked `unverified`.
 
 ## Confucianism
 
-File: `content/ondas/confucian.json` · version 1 · about 6300 words · 32 words of vocabulary, 30 journal prompts, 15 history entries, 10 concepts, 7 sources.
+File: `content/ondas/confucian.json` · version 1 · about 8600 words · 32 words of vocabulary, 30 journal prompts, 15 history entries, 10 concepts, 7 sources.
 
 **Needs review by tradition bearers before launch.** Confucianism is a living tradition for hundreds of millions of people in China, Korea, Japan, Vietnam and their diasporas, and it means different things in each place. It has also been used by rulers to demand obedience, and by families to subordinate women and the young. This Onda presents its ethics of learning, care and good form, and names the criticism.
 
@@ -364,7 +364,7 @@ Nothing is marked `unverified`.
 
 ## Abbasid Caliphate
 
-File: `content/ondas/abbasid.json` · version 1 · about 6100 words · 32 words of vocabulary, 30 journal prompts, 14 history entries, 10 concepts, 7 sources.
+File: `content/ondas/abbasid.json` · version 1 · about 8300 words · 32 words of vocabulary, 30 journal prompts, 14 history entries, 10 concepts, 7 sources.
 
 **Needs review by tradition bearers before launch.** Abbasid Baghdad was the work of Arabs, Persians, Syriac Christians, Jews and many others, within a Muslim empire. Its learning is part of the heritage of people living today, in Iraq above all. This Onda explores the culture of knowledge of that time. It is not instruction in Islam, and it does not treat the period as a lost golden age.
 
@@ -382,7 +382,7 @@ Marked `unverified` (1):
 
 ## The 1920s
 
-File: `content/ondas/twenties.json` · version 1 · about 6100 words · 32 words of vocabulary, 30 journal prompts, 15 history entries, 10 concepts, 7 sources.
+File: `content/ondas/twenties.json` · version 1 · about 8400 words · 32 words of vocabulary, 30 journal prompts, 15 history entries, 10 concepts, 7 sources.
 
 Framing note shown in the app: The 1920s gave the world jazz, the Harlem Renaissance and modern American writing. The same decade saw the Ku Klux Klan at its largest, the Tulsa massacre, laws against immigrants and segregation in the very clubs where the music was played. This Onda enjoys the first and does not hide the second. Alcohol is never required.
 
@@ -391,7 +391,7 @@ Nothing is marked `unverified`.
 
 ## Traditional Cuban
 
-File: `content/ondas/cuba.json` · version 1 · about 6600 words · 32 words of vocabulary, 30 journal prompts, 16 history entries, 10 concepts, 7 sources.
+File: `content/ondas/cuba.json` · version 1 · about 8700 words · 32 words of vocabulary, 30 journal prompts, 16 history entries, 10 concepts, 7 sources.
 
 **Needs review by tradition bearers before launch.** This Onda draws on the everyday culture of a living people, on the island and in the diaspora, who disagree strongly about their country’s politics. It takes no side. It also describes skills that grew out of real hardship, and religions that are entered only through initiation. It treats the first with respect and does not offer the second as practices.
 
@@ -408,7 +408,7 @@ Nothing is marked `unverified`.
 
 ## Hinduism
 
-File: `content/ondas/hindu.json` · version 1 · about 5400 words · 30 words of vocabulary, 30 journal prompts, 13 history entries, 10 concepts, 6 sources.
+File: `content/ondas/hindu.json` · version 1 · about 7700 words · 30 words of vocabulary, 30 journal prompts, 13 history entries, 10 concepts, 6 sources.
 
 **Needs review by tradition bearers before launch.** Hinduism is a living religion of more than a billion people and enormous variety. This Onda offers a guest’s version of the householder’s day. It does not ask you to worship any deity, and it leaves out rites that need initiation, a priest or a family tradition.
 
@@ -424,7 +424,7 @@ Nothing is marked `unverified`.
 
 ## Mahayana Buddhism
 
-File: `content/ondas/mahayana.json` · version 1 · about 5300 words · 30 words of vocabulary, 30 journal prompts, 13 history entries, 9 concepts, 6 sources.
+File: `content/ondas/mahayana.json` · version 1 · about 7500 words · 30 words of vocabulary, 30 journal prompts, 13 history entries, 9 concepts, 6 sources.
 
 **Needs review by tradition bearers before launch.** Mahayana Buddhism is the living religion of hundreds of millions of people. This Onda offers practices that East Asian traditions share with lay visitors. It is no substitute for taking refuge, receiving precepts or learning from a teacher and a community.
 
@@ -440,7 +440,7 @@ Nothing is marked `unverified`.
 
 ## Theravada Buddhism
 
-File: `content/ondas/theravada.json` · version 1 · about 5000 words · 30 words of vocabulary, 30 journal prompts, 13 history entries, 9 concepts, 6 sources.
+File: `content/ondas/theravada.json` · version 1 · about 7100 words · 30 words of vocabulary, 30 journal prompts, 13 history entries, 9 concepts, 6 sources.
 
 **Needs review by tradition bearers before launch.** Theravada Buddhism is a living religion with an unbroken monastic community. This Onda offers the ordinary practices of lay Buddhists. It does not replace a teacher, and intensive meditation is best begun with guidance.
 
@@ -456,7 +456,7 @@ Nothing is marked `unverified`.
 
 ## Shinto
 
-File: `content/ondas/shinto.json` · version 1 · about 5200 words · 30 words of vocabulary, 30 journal prompts, 12 history entries, 9 concepts, 6 sources.
+File: `content/ondas/shinto.json` · version 1 · about 7400 words · 30 words of vocabulary, 30 journal prompts, 12 history entries, 9 concepts, 6 sources.
 
 **Needs review by tradition bearers before launch.** Shinto is a living tradition rooted in particular places, shrines and communities in Japan. This Onda borrows everyday habits that Japanese people share freely with visitors. It does not ask you to worship kami or to copy shrine rites at home.
 
@@ -473,7 +473,7 @@ Marked `unverified` (1):
 
 ## Jainism
 
-File: `content/ondas/jain.json` · version 1 · about 5000 words · 30 words of vocabulary, 30 journal prompts, 12 history entries, 9 concepts, 6 sources.
+File: `content/ondas/jain.json` · version 1 · about 7100 words · 30 words of vocabulary, 30 journal prompts, 12 history entries, 9 concepts, 6 sources.
 
 **Needs review by tradition bearers before launch.** Jainism is a living religion with a demanding ascetic core. This Onda offers a mild version of a lay person’s discipline. It does not ask for long fasts or for anything that could harm your health, and it is no substitute for the guidance of the Jain community.
 
@@ -489,7 +489,7 @@ Nothing is marked `unverified`.
 
 ## Sikhism
 
-File: `content/ondas/sikh.json` · version 1 · about 5000 words · 30 words of vocabulary, 30 journal prompts, 13 history entries, 9 concepts, 6 sources.
+File: `content/ondas/sikh.json` · version 1 · about 7000 words · 30 words of vocabulary, 30 journal prompts, 13 history entries, 9 concepts, 6 sources.
 
 **Needs review by tradition bearers before launch.** Sikhism is a living faith with a strong sense of identity. This Onda borrows the three pillars and the spirit of service. It does not ask you to wear the articles of faith or to imitate initiation, and it is no substitute for the sangat, the Sikh congregation.
 

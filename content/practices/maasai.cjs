@@ -81,7 +81,7 @@ module.exports = {
     ['A last look at those in your care', 'eye', 5, '21:30',
       'Before you sleep, go round those you look after. Look in on the sleeping child, check the elder is comfortable, water the thirsty plant, say goodnight to the animal. If someone is far away, send a short message. Then close the day knowing each one has been seen. A good keeper sleeps well.',
       'A herder counts the animals in at night and checks for any that are missing or sick. Care does not end at dusk. A last look is how a keeper ends the day.',
-      ['Say goodnight to each person by name.', 'Check one thing you worry about and settle it.', 'Look at the sky once before you go in.']],
+      ['Say goodnight to each person by name.', 'Check one thing you worry about and settle it.', 'Look at the sky once before you go in.'], { action: 'journal' }],
   ],
   special: [
     ['Under the open sky', 'moon-stars', 20, '22:00', 'At night',

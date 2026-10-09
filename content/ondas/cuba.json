@@ -309,60 +309,189 @@
       "time": "07:30",
       "minutes": 10,
       "meta": "Morning · 10 min",
-      "instructions": "Make coffee the Cuban way in a stovetop pot. Put a spoonful of sugar in a cup. When the first dark drops come up, pour them onto the sugar and beat it with a spoon until it turns pale and thick. Pour in the rest of the coffee and stir, so that a light foam rises. Serve it in small cups. Take one to someone: a neighbour, a colleague, whoever is in the house. Drink it with them without hurrying, standing or sitting.",
-      "why": "In Cuba coffee is a visit. It is the first thing offered to anyone who arrives, and refusing it takes some explaining. Sharing it each morning starts the day with another person and not with a screen.",
+      "instructions": "Make coffee the Cuban way in a stovetop pot. Put a spoonful of sugar in a cup. When the first dark drops come up, pour them onto the sugar and beat it with a spoon until it turns pale and thick. Pour in the rest of the coffee and stir, so that a light foam rises. Serve it in small cups. Take one to someone: a neighbour, a colleague, someone at home.",
+      "why": "In Cuba coffee is a gift passed from hand to hand. The pale foam, the espumita, is the pride of the maker, and a cup offered at the door is the first act of welcome.",
       "variations": [
-        "Without caffeine, make the same small ceremony with a sweet herbal drink.",
-        "Carry a flask and small cups to work.",
-        "Drink it on the front step and greet whoever passes."
+        "Make it for three people and drink it together.",
+        "Add a pinch of salt or a drop of milk.",
+        "Take a cup to the person next door."
+      ]
+    },
+    {
+      "id": "greet-the-street",
+      "name": "Greet the street",
+      "icon": "hand-waving",
+      "slot": "Morning",
+      "time": "08:00",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "On your way out, greet everyone you meet by name or with a nod, in the Cuban way: buenos días, a smile, a question after the family. Say it to the neighbour on the stairs, the person at the shop, the person on the bench. A street is a place where everybody knows everybody a little. Practise making it so.",
+      "why": "In Cuban neighbourhoods, a greeting is expected, and walking by without one is rude. The rule of this Onda is to greet everyone on your own street.",
+      "variations": [
+        "Learn one new neighbour’s name.",
+        "Ask after someone’s mother.",
+        "Greet people in Spanish, if you can."
+      ]
+    },
+    {
+      "id": "a-song-with-the-dishes",
+      "name": "A song with the dishes",
+      "icon": "music-notes",
+      "slot": "Morning",
+      "time": "07:00",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Put on a son or a bolero while you tidy the kitchen, wash the cups and make the bed. Sing along, badly. Move your hips a little as you carry things. In Cuba music is on while one works, from the radio, the neighbour or the street. The task goes faster and the house is warmer for it.",
+      "why": "Music on while you work is a Cuban rule. It takes the dullness out of morning chores and makes a house feel lived in.",
+      "variations": [
+        "Use an old radio station.",
+        "Learn the chorus of one song.",
+        "Dance one step while the kettle boils."
+      ]
+    },
+    {
+      "id": "fresh-juice-from-what-you-have",
+      "name": "Fresh juice from what you have",
+      "icon": "orange",
+      "slot": "Morning",
+      "time": "08:15",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Squeeze juice from whatever fruit is in the house, orange, lime, grapefruit or guava, and drink it in a tall glass, with ice if it is hot. In Cuba fruit is served fresh, in a batido or a juice, and nothing is wasted. Drink it slowly at the window. If you have no fruit, cut one apple into neat slices and share it.",
+      "why": "Fresh fruit is part of everyday Cuban eating. The habit of using what you have, in a way that makes something small feel like a treat, is at the heart of the Onda.",
+      "variations": [
+        "Make a batido with milk and banana.",
+        "Add mint and a pinch of sugar.",
+        "Share a glass with someone."
+      ]
+    },
+    {
+      "id": "mend-something-small",
+      "name": "Mend something small",
+      "icon": "needle",
+      "slot": "Morning",
+      "time": "09:00",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Choose one thing that is broken or loose: a button, a hinge, a torn bag, a wobbly chair. Spend ten minutes mending it with what you have. Use tape, glue, thread, a nail. In Cuba, things are fixed and fixed again, and fixing is a skill that people are proud of. Put it back in use right away.",
+      "why": "Mending before buying is one of the Onda’s rules. Decades of scarcity made Cuban repair and invention famous, and the pleasure of making a thing work again is universal.",
+      "variations": [
+        "Fix something for a neighbour.",
+        "Learn a new repair from a video.",
+        "Make something useful from a jar or box."
+      ]
+    },
+    {
+      "id": "open-the-windows-and-the-day",
+      "name": "Open the windows and the day",
+      "icon": "house",
+      "slot": "Morning",
+      "time": "07:15",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Open every shutter and window you can, let in the air and the street noise, and stand in the light for a few moments with a coffee. Cuban houses are built to breathe, with high ceilings and open doors. Greet the day the way you would greet a guest. If it is cold, open them for just two minutes and then close.",
+      "why": "Cuban houses are open to air and to street, with portales, porches, and wide doors. Letting the day in is a small pleasure that connects the inside to the outside.",
+      "variations": [
+        "Sit on the front step for five minutes.",
+        "Water a plant while the window is open.",
+        "Wave to someone across the street."
       ]
     },
     {
       "id": "clave",
       "name": "Find the clave",
-      "icon": "music-notes",
+      "icon": "waveform",
       "slot": "Afternoon",
       "time": "13:30",
       "minutes": 10,
       "meta": "Afternoon · 10 min",
-      "instructions": "Put on a son or a rumba: the Septeto Nacional, Arsenio Rodríguez, Los Muñequitos de Matanzas. Clap the clave, the five-stroke pattern that holds the music together. Count eight quick beats in a bar. In the first bar clap on one, on four and on seven. In the second bar clap on three and on five. Repeat without stopping. Keep it steady for one whole song while the band moves round you. Then try stepping in place as you clap.",
-      "why": "Cuban musicians say that the clave is the key, and that a band out of clave falls apart. Learning to hold it puts you inside the music with the players.",
+      "instructions": "Put on a son or a rumba: the Septeto Nacional, Arsenio Rodríguez, Los Muñequitos de Matanzas. Clap the clave, the five-stroke pattern that holds the music together. Count eight quick beats in a bar. In the first bar clap on one, on four and on seven. In the second bar clap on three and on five. Repeat without stopping. Keep it steady.",
+      "why": "Cuban music is built on the clave, a pattern that every instrument either plays or plays around. Once you can feel it, the music opens up.",
       "variations": [
-        "Clap with two wooden spoons.",
-        "Learn the rumba clave, where the third stroke comes a little later.",
-        "Step the basic son: quick, quick, slow."
+        "Clap it on two sticks or spoons.",
+        "Walk to the beat.",
+        "Clap it while someone else sings."
       ]
     },
     {
       "id": "sobremesa",
       "name": "Sobremesa",
-      "icon": "users-three",
+      "icon": "chats",
       "slot": "Afternoon",
       "time": "14:00",
       "minutes": 20,
       "meta": "Afternoon · 20 min",
-      "instructions": "After the main meal of the day, stay at the table for twenty minutes. Leave the plates where they are. Bring coffee or fruit. Keep phones out of sight. Talk, and let the talk go where it wants: a story, the news of the street, an old argument, a plan. If you eat alone, take the twenty minutes anyway with a coffee and a call to someone who would have been there.",
-      "why": "The meal in a Cuban house is only half over when the food is gone. Family business is done in the sobremesa and guests stop being guests.",
+      "instructions": "After the main meal of the day, stay at the table for twenty minutes. Leave the plates where they are. Bring coffee or fruit. Keep phones out of sight. Talk, and let the talk go where it wants: a story, the news of the street, an old argument, a plan. If you eat alone, take the twenty minutes anyway with a coffee and a call to someone.",
+      "why": "The meal in a Cuban home does not end when the plates are empty. The time after is where the talk and the family happen, and it is what people remember.",
       "variations": [
-        "Ask an older person at the table for one story from before you were born.",
-        "Play one round of dominoes at the table.",
-        "Invite the neighbours in for the coffee."
+        "Play dominoes or cards at the table.",
+        "Tell the story of one of your elders.",
+        "Serve a small sweet with the coffee."
       ]
     },
     {
       "id": "resolver",
       "name": "Resolver",
-      "icon": "hammer",
+      "icon": "wrench",
       "slot": "Afternoon",
       "time": "17:00",
       "minutes": 15,
       "meta": "Afternoon · 15 min",
       "instructions": "Each day solve one small problem with what you already have. Mend the broken thing before you replace it. Cook from what is in the cupboard. Borrow the tool from next door and return it with something. Turn a jar into a lamp, a crate into a shelf, yesterday’s rice into today’s lunch. Keep a short note of what you resolved and how.",
-      "why": "Decades of shortage have made Cubans some of the most inventive repairers in the world. The skill was forced on them, and it is admired as wit: there is always a way.",
+      "why": "Decades of shortages made resolver, to find a way, a national art. It is resourcefulness with humour, and it is a skill worth having anywhere.",
       "variations": [
-        "Fix something for a neighbour.",
-        "Go a week without buying anything new.",
-        "Ask someone handy to teach you one repair."
+        "Solve a problem for someone else.",
+        "Make a tool from what is lying around.",
+        "Swap something you do not need for something you do."
+      ],
+      "action": "journal"
+    },
+    {
+      "id": "slap-down-a-domino",
+      "name": "Slap down a domino",
+      "icon": "cube",
+      "slot": "Afternoon",
+      "time": "16:00",
+      "minutes": 30,
+      "meta": "Afternoon · 30 min",
+      "instructions": "Play dominoes with a neighbour, a friend or family, in pairs, as Cubans do on the street, on a card table in the shade. Slap each tile down with a flourish and talk loudly. Play a game to 100, or just for twenty minutes. Win with style and lose with a joke. If you have no one to play with, play against yourself.",
+      "why": "Dominoes is the game of the Cuban street and portal. The sound of tiles slapped on a table is a part of daily life.",
+      "variations": [
+        "Play with a double-nine set.",
+        "Teach a child to play.",
+        "Play in the street, in front of your house."
+      ]
+    },
+    {
+      "id": "dance-a-few-bars-of-son",
+      "name": "Dance a few bars of son",
+      "icon": "person-simple-walk",
+      "slot": "Afternoon",
+      "time": "17:30",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Put on a son and learn the basic step: three steps in a box, back and forth, with a pause on the fourth beat. Move your hips gently and keep your shoulders still. Dance alone or with a partner. In Cuba the dance is learned by watching and doing, in the street and at parties. Ten minutes is enough to start.",
+      "why": "Son is the root of Cuban dance music, and its basic step is easy to pick up. Dancing it feels like joining a conversation.",
+      "variations": [
+        "Follow a video lesson.",
+        "Dance with a neighbour or friend.",
+        "Dance one slow bolero with someone."
+      ]
+    },
+    {
+      "id": "share-what-you-have",
+      "name": "Share what you have",
+      "icon": "gift",
+      "slot": "Afternoon",
+      "time": "15:30",
+      "minutes": 15,
+      "meta": "Afternoon · 15 min",
+      "instructions": "Give something to a neighbour or friend today: a bowl of fruit, a cup of rice, a jar of jam, a tool lent, an hour of help. Where one eats, two eat. Do not wait to be asked. It does not have to be much. Sharing is how people get through hard times in Cuba, and it is also how a street becomes a community.",
+      "why": "Where one eats, two eat is a Cuban rule. A culture of sharing sustained people through many shortages and made neighbourhoods strong.",
+      "variations": [
+        "Share a meal with someone alone.",
+        "Lend something and do not ask for it back.",
+        "Leave a gift at a neighbour’s door."
       ]
     },
     {
@@ -373,150 +502,340 @@
       "time": "19:00",
       "minutes": 30,
       "meta": "Evening · 30 min",
-      "instructions": "When the heat goes out of the day, go and sit where people pass: the front step, a balcony, a bench, the sea wall if you have one. Take a chair if you can. Greet everyone by name or with a nod. Let conversations start. Do not bring anything to do. On a wet evening, stand at an open window or door for ten minutes and then telephone a neighbour.",
-      "why": "Cuban houses open onto the street, and in the evening the street becomes one long room. In Havana people go to the Malecón to sit facing the sea, talk and pass the night.",
+      "instructions": "When the heat goes out of the day, go and sit where people pass: the front step, a balcony, a bench, the sea wall if you have one. Take a chair if you can. Greet everyone by name or with a nod. Let conversations start. Do not bring anything to do. On a wet evening, stand at an open window or door for ten minutes and then telephone someone.",
+      "why": "Sitting out in the evening on the portal, the porch, or along the Malecón is the heart of Cuban social life. It costs nothing and it is the best part of the day.",
       "variations": [
-        "Bring a guitar, a radio or a domino set.",
-        "Walk the same loop every evening and learn who lives where.",
-        "Carry out a second chair."
+        "Bring a stool and sit by the road.",
+        "Bring a flask of coffee for passers-by.",
+        "Listen to the street without a phone."
+      ]
+    },
+    {
+      "id": "cook-moros-y-cristianos",
+      "name": "Cook moros y cristianos",
+      "icon": "cooking-pot",
+      "slot": "Evening",
+      "time": "18:00",
+      "minutes": 60,
+      "meta": "Evening · 60 min",
+      "instructions": "Cook black beans with rice in one pot: sofrito of onion, green pepper and garlic, cumin, a bay leaf, and the beans and rice simmered together until the rice is swollen with the dark stock. Serve with a slice of lime and a spoon of oil. It is the daily plate and the meal that brings people to the table.",
+      "why": "Moros y cristianos, black beans and white rice together, is a basic Cuban dish. A pot of it feeds many people, and the smell of the sofrito brings the family into the kitchen.",
+      "variations": [
+        "Make it with leftover rice.",
+        "Cook it and take a bowl next door.",
+        "Serve it with fried plantain."
+      ]
+    },
+    {
+      "id": "a-decima-by-candlelight",
+      "name": "A décima by candlelight",
+      "icon": "feather",
+      "slot": "Evening",
+      "time": "20:00",
+      "minutes": 20,
+      "meta": "Evening · 20 min",
+      "instructions": "Write or read a décima, the ten-line verse of rural Cuba, with a rhyme scheme of ABBAACCDDC. Write ten lines about your day, a person you love or your street. Read it aloud, or sing it to a simple tune. Guajiros improvised décimas in contests called controversias. You do not have to be good. You have to be playful.",
+      "why": "The décima is the folk poem of Cuba, brought from Spain and made local. Improvising rhyme in front of friends is an old pleasure of the countryside.",
+      "variations": [
+        "Write a décima with a friend, line by line.",
+        "Use a proverb as the last line.",
+        "Read a décima by a Cuban poet."
+      ]
+    },
+    {
+      "id": "the-bolero-hour",
+      "name": "The bolero hour",
+      "icon": "microphone-stage",
+      "slot": "Evening",
+      "time": "21:00",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Put on a bolero, such as Los Panchos, Olga Guillot or Beny Moré’s Como fue, and listen to the whole thing sitting down, with the lights low. Boleros are slow songs of love and longing, in Cuba since the 1880s. Sing along if you wish. It is a gentle, romantic end to the day.",
+      "why": "The bolero is Cuba’s slow love song. It has crossed the whole Spanish-speaking world, and it makes a quiet evening feel special.",
+      "variations": [
+        "Dance a bolero slowly with a partner.",
+        "Learn the words of a chorus.",
+        "Listen with your eyes closed."
+      ]
+    },
+    {
+      "id": "a-phone-call-to-family",
+      "name": "A phone call to family",
+      "icon": "phone",
+      "slot": "Evening",
+      "time": "19:30",
+      "minutes": 20,
+      "meta": "Evening · 20 min",
+      "instructions": "Phone a relative or an old friend, especially one who lives far away, and have a proper talk of twenty minutes. Ask about their day, their health and their garden. In Cuban families, spread across the island and the world, phone calls are how the family is held together. Call someone without being asked.",
+      "why": "The Cuban family is spread between the island and the diaspora, and the regular call is a tie that holds it together.",
+      "variations": [
+        "Call a grandparent.",
+        "Call someone you have not spoken to for a year.",
+        "Send a voice message to someone far away."
+      ]
+    },
+    {
+      "id": "slow-dancing-in-the-kitchen",
+      "name": "Slow dancing in the kitchen",
+      "icon": "heart",
+      "slot": "Evening",
+      "time": "21:30",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Before bed, put on one slow song and dance in the kitchen or the living room with a partner, a child or alone. Hold on, sway and say nothing. A house in Cuba often has a radio on and someone swaying as they cook. It is a little act of closeness at the end of the day.",
+      "why": "Dancing at home, spontaneously, is part of everyday Cuban life. It turns the end of the day into something warm.",
+      "variations": [
+        "Dance barefoot.",
+        "Dance with a child on your feet.",
+        "Dance alone and enjoy it."
+      ]
+    },
+    {
+      "id": "a-domino-afternoon-on-the-street",
+      "name": "A domino afternoon on the street",
+      "icon": "users-three",
+      "slot": "Special",
+      "time": "16:00",
+      "minutes": 120,
+      "meta": "On a free afternoon · 120 min",
+      "instructions": "Set up a table in the shade, outside if you can, with a set of dominoes, a pot of coffee and a few friends or neighbours. Play in pairs for a couple of hours, trading jokes and gossip. Cuban streets have a table like this on almost every corner. Keep a tally on a bit of paper. Let someone new join the game.",
+      "why": "A domino table is the social centre of many Cuban neighbourhoods. Playing for the pleasure of company is the point.",
+      "variations": [
+        "Hold a small tournament.",
+        "Play at a park table.",
+        "Bring a pot of coffee to share."
+      ]
+    },
+    {
+      "id": "a-feast-of-ajiaco",
+      "name": "A feast of ajiaco",
+      "icon": "cooking-pot",
+      "slot": "Special",
+      "time": "14:00",
+      "minutes": 120,
+      "meta": "On a free afternoon · 120 min",
+      "instructions": "Cook a big pot of ajiaco, the stew of roots, corn, plantain and meat or beans that Fernando Ortiz used as an image of Cuba itself. Cassava, malanga, sweet potato, pumpkin and corn simmered together for hours. Invite friends, and let each bring an ingredient. Eat it all together, and talk about what is in it and where it came from.",
+      "why": "Ajiaco is a stew into which everything goes, and Ortiz used it as an image for Cuban culture, a mix that stays distinct yet becomes one. Cooking it with others is a good lesson.",
+      "variations": [
+        "Ask each guest to bring an ingredient.",
+        "Make a vegetarian version.",
+        "Serve with lime and hot sauce."
       ]
     }
   ],
-  "tasks": [
+  "tasks": [],
+  "immersePlan": [
     {
-      "id": "play-dominoes-with-a-partner-loudly",
-      "name": "Play dominoes with a partner, loudly",
-      "meta": "Double-nine if you can find a set",
-      "time": "17:30",
-      "slot": "Afternoon"
+      "kind": "read",
+      "item": "read-versos-sencillos",
+      "name": "Read Versos sencillos",
+      "text": "Read five of José Martí’s simple verses, written in the Catskill Mountains by an exile homesick for Cuba. Read one aloud, slowly, and learn a line.",
+      "minutes": 15
     },
     {
-      "id": "write-a-decima-ten-lines-of-eight-syllables-about-your-day",
-      "name": "Write a décima: ten lines of eight syllables about your day",
-      "meta": "Rhyme it abba ac cddc",
-      "time": "16:00",
-      "slot": "Afternoon"
+      "kind": "read",
+      "item": "read-motivos-de-son",
+      "name": "Read Motivos de son",
+      "text": "Read poems by Nicolás Guillén that take the rhythm of son and the speech of the street. Read them aloud, with the beat.",
+      "minutes": 15
     },
     {
-      "id": "mend-one-thing-with-what-is-already-in-the-house",
-      "name": "Mend one thing with what is already in the house",
-      "meta": "And tell someone how you did it",
-      "time": "11:00",
-      "slot": "Afternoon"
+      "kind": "read",
+      "item": "read-dreaming-in-cuban",
+      "name": "Read a chapter of Dreaming in Cuban",
+      "text": "Read a chapter of Cristina García’s novel of three generations of women, split between Havana and Brooklyn. Notice the voices that speak.",
+      "minutes": 20
     },
     {
-      "id": "task-listen-to-chan-chan-and-clap-the-clave-all-the-way-through",
-      "name": "Listen to Chan Chan and clap the clave all the way through",
-      "meta": "Listen · Buena Vista Social Club, 4 min",
-      "time": "18:00",
-      "slot": "Evening",
-      "action": "listen"
-    },
-    {
-      "id": "task-watch-buena-vista-social-club",
+      "kind": "watch",
+      "item": "watch-buena-vista-social-club",
       "name": "Watch Buena Vista Social Club",
-      "meta": "Watch · the old masters, found again",
-      "time": "20:30",
-      "slot": "Evening",
-      "action": "watch"
+      "text": "Watch Wim Wenders’s film about a group of half-forgotten Cuban musicians in their seventies and eighties who record an album and go on tour. Watch the faces as they play.",
+      "minutes": 105
     },
     {
-      "id": "task-cook-black-beans-from-dried-slowly-with-a-sofrito",
-      "name": "Cook black beans from dried, slowly, with a sofrito",
-      "meta": "Eat · start in the morning",
-      "time": "10:00",
-      "slot": "Morning",
-      "action": "eat"
+      "kind": "watch",
+      "item": "watch-chico-and-rita",
+      "name": "Watch Chico and Rita",
+      "text": "Watch the animated love story of a pianist and a singer, from Havana in the 1940s to New York. The music is the story. Sing along when you can.",
+      "minutes": 95
     },
     {
-      "id": "task-read-ten-of-marti-s-simple-verses-aloud",
-      "name": "Read ten of Martí’s Simple Verses aloud",
-      "meta": "Read · 10 min",
-      "time": "21:00",
-      "slot": "Evening",
-      "action": "read"
+      "kind": "watch",
+      "item": "watch-strawberry-and-chocolate",
+      "name": "Watch Strawberry and Chocolate",
+      "text": "Watch the 1993 film about a friendship between a young student and a gay artist in Havana. Notice the humour, and what is said over ice cream.",
+      "minutes": 110
     },
     {
-      "id": "task-journal-whom-did-you-greet-today-and-who-greeted-you",
-      "name": "Journal: whom did you greet today, and who greeted you?",
-      "meta": "Journal · 10 min",
-      "time": "21:30",
-      "slot": "Evening",
-      "action": "journal"
+      "kind": "listen",
+      "item": "listen-buena-vista-social-club",
+      "name": "Listen to the Buena Vista album",
+      "text": "Play the album recorded in six days in an old Havana studio, starting with Chan Chan. Hum the bassline.",
+      "minutes": 20
     },
     {
-      "id": "task-what-is-in-your-ajiaco-list-what-you-are-made-of",
-      "name": "What is in your ajiaco? List what you are made of",
-      "meta": "Philosophy · 10 min",
-      "time": "09:00",
-      "slot": "Morning",
-      "action": "philosophy"
+      "kind": "listen",
+      "item": "listen-benny-more-with-his-banda-gigante",
+      "name": "Listen to Benny Moré",
+      "text": "Play the greatest voice of Cuban popular music in front of the big band he led. Pick one song, listen twice and dance once.",
+      "minutes": 15
     },
     {
-      "id": "treat-put-on-a-son-or-a-bolero-and-sway-while-the-coffee-brews",
-      "name": "Put on a son or a bolero and sway while the coffee brews",
-      "meta": "Three minutes",
-      "time": "08:30",
-      "slot": "Morning"
+      "kind": "listen",
+      "item": "listen-los-munequitos-de-matanzas",
+      "name": "Listen to Los Muñequitos de Matanzas",
+      "text": "Play the rumba group who built their sound on drums and voices. Listen for the clave and the answering voices, and clap along.",
+      "minutes": 15
     },
     {
-      "id": "treat-sit-outside-your-door-for-ten-minutes-and-greet-whoever-pass",
-      "name": "Sit outside your door for ten minutes and greet whoever passes",
-      "meta": "A chair helps",
-      "time": "19:30",
-      "slot": "Evening"
+      "kind": "art",
+      "item": "art-the-jungle",
+      "name": "Look at The Jungle",
+      "text": "Look at Wifredo Lam’s painting where figures that are part human, part cane and part mask crowd a moonlit field. Decide what each figure is.",
+      "minutes": 10
     },
     {
-      "id": "treat-squeeze-lime-over-something-that-did-not-ask-for-it",
-      "name": "Squeeze lime over something that did not ask for it",
-      "meta": "It will be better",
-      "time": "15:30",
-      "slot": "Afternoon"
+      "kind": "art",
+      "item": "art-gitana-tropical",
+      "name": "Look at Gitana tropical",
+      "text": "Look at Víctor Manuel’s 1929 portrait of a calm young woman against a tropical landscape, often called the Mona Lisa of Cuba. Look at her eyes.",
+      "minutes": 5
     },
     {
-      "id": "treat-hum-a-tune-while-you-wash-up",
-      "name": "Hum a tune while you wash up",
-      "meta": "Loudly",
-      "time": "19:30",
-      "slot": "Evening"
+      "kind": "art",
+      "item": "art-fusterlandia",
+      "name": "Look at Fusterlandia",
+      "text": "Look at pictures of the tile-covered houses and streets of a Havana neighbourhood, made by the artist José Fuster. Pick the corner you would sit on.",
+      "minutes": 10
     },
     {
-      "id": "daily-open-the-windows-and-let-the-street-in",
-      "name": "Open the windows and let the street in",
-      "meta": "Sounds, smells, neighbours",
-      "time": "07:15",
-      "slot": "Morning"
+      "kind": "eat",
+      "item": "eat-moros-y-cristianos",
+      "name": "Cook moros y cristianos",
+      "text": "Cook black beans and rice together in one pot, with a sofrito of onion, pepper and garlic. Serve it with a slice of lime and share a bowl.",
+      "minutes": 60
     },
     {
-      "id": "daily-sing-along-to-the-radio-while-you-cook-or-tidy",
-      "name": "Sing along to the radio while you cook or tidy",
-      "meta": "Badly is fine",
-      "time": "07:15",
-      "slot": "Morning"
+      "kind": "eat",
+      "item": "eat-tostones",
+      "name": "Make tostones",
+      "text": "Cut green plantains into thick slices, fry once, squash flat, and fry again until golden. Salt them and eat them hot with garlic sauce.",
+      "minutes": 30
     },
     {
-      "id": "daily-say-good-morning-to-every-person-you-pass-on-your-street",
-      "name": "Say good morning to every person you pass on your street",
-      "meta": "The whole block is your company",
-      "time": "07:15",
-      "slot": "Morning"
+      "kind": "eat",
+      "item": "eat-guava-with-white-cheese",
+      "name": "Eat guava with white cheese",
+      "text": "Eat a slice of guava paste on a slice of fresh white cheese, the classic simple dessert. Notice how sweet and salty meet.",
+      "minutes": 5
     },
     {
-      "id": "daily-sit-on-a-step-or-a-balcony-and-watch-the-street-go-by",
-      "name": "Sit on a step or a balcony and watch the street go by",
-      "meta": "A chair outside is a Cuban living room",
-      "time": "20:30",
-      "slot": "Evening"
+      "kind": "drink",
+      "item": "drink-cafe-cubano",
+      "name": "Make a café cubano",
+      "text": "Beat the first dark drops of coffee with sugar until pale and thick, and pour in the rest. Serve in small cups and share one.",
+      "minutes": 10
     },
     {
-      "id": "daily-dance-one-song-in-the-kitchen-however-small-the-kitchen",
-      "name": "Dance one song in the kitchen, however small the kitchen",
-      "meta": "Son, bolero or anything with a beat",
-      "time": "20:30",
-      "slot": "Evening"
+      "kind": "drink",
+      "item": "drink-batido",
+      "name": "Make a batido",
+      "text": "Blend a fruit with milk and ice: mamey, mango, guava or banana. Drink it cold with a straw and a friend.",
+      "minutes": 10
+    },
+    {
+      "kind": "drink",
+      "item": "drink-guarapo",
+      "name": "Drink fresh sugar cane juice",
+      "text": "Drink cold sugar cane juice, pressed while you wait, if you can find it. If not, drink a glass of cold sweet fruit juice slowly in the shade.",
+      "minutes": 10
+    },
+    {
+      "kind": "customs",
+      "item": "customs-the-reader-in-the-factory",
+      "name": "Be the reader in the factory",
+      "text": "Read a chapter aloud to someone while they work or cook. Since 1865 cigar rollers have paid one of their number to read to them. Choose a chapter that makes them laugh.",
+      "minutes": 20
+    },
+    {
+      "kind": "customs",
+      "item": "customs-dominoes-in-the-street",
+      "name": "Play dominoes in the street",
+      "text": "Play dominoes with a neighbour at a table outside. Slap the tiles down with a flourish and tell stories between hands.",
+      "minutes": 40
+    },
+    {
+      "kind": "customs",
+      "item": "customs-asking-a-blessing",
+      "name": "Greet an elder with respect",
+      "text": "Greet your parents, grandparents or an elder with respect and ask for their blessing, as children do in Cuban families. Say it warmly and listen to the reply.",
+      "minutes": 5
+    },
+    {
+      "kind": "games",
+      "item": "games-domino",
+      "name": "Play dominó",
+      "text": "Play with a double-nine set of fifty-five tiles in two pairs. Count points to 100 and slap the tiles on the table.",
+      "minutes": 40
+    },
+    {
+      "kind": "games",
+      "item": "games-pelota",
+      "name": "Play pelota",
+      "text": "Play or watch baseball, Cuba’s national game, first recorded at Palmar de Junco in 1874. Throw a ball back and forth with someone for ten minutes.",
+      "minutes": 30
+    },
+    {
+      "kind": "games",
+      "item": "games-chess-after-capablanca",
+      "name": "Play chess after Capablanca",
+      "text": "Play a short game of chess, in the manner of José Raúl Capablanca, who learned at four and became world champion. Aim for clarity, not tricks.",
+      "minutes": 30
+    },
+    {
+      "kind": "travel",
+      "item": "fest-carnival-of-santiago-de-cuba",
+      "name": "Look up the Carnival of Santiago",
+      "text": "Look at photographs and videos of the oldest and loudest carnival on the island, held in late July with neighbourhood comparsas parading. Pick your favourite drum.",
+      "minutes": 15
+    },
+    {
+      "kind": "travel",
+      "item": "place-old-havana",
+      "name": "Walk through Old Havana in pictures",
+      "text": "Look at photographs of the five squares, baroque churches and streets of balconies, founded in 1519. Pick a balcony and imagine the view.",
+      "minutes": 15
+    },
+    {
+      "kind": "travel",
+      "item": "place-casa-de-la-trova",
+      "name": "Visit the Casa de la Trova in Santiago",
+      "text": "Look up the small room open to the street where musicians play son every day. Listen to a video of a session.",
+      "minutes": 15
+    },
+    {
+      "kind": "words",
+      "item": "word-resolver",
+      "name": "Learn resolver",
+      "text": "Resolver means to solve, to get by. Find one small problem today and solve it with what you already have.",
+      "minutes": 10
+    },
+    {
+      "kind": "words",
+      "item": "word-sobremesa",
+      "name": "Learn sobremesa",
+      "text": "Sobremesa is the time at the table after the meal. Stay for twenty minutes today after one meal and talk.",
+      "minutes": 20
+    },
+    {
+      "kind": "words",
+      "item": "word-clave",
+      "name": "Learn clave",
+      "text": "Clave is the key rhythm of Cuban music. Clap it with a record for two minutes and feel it settle.",
+      "minutes": 10
     }
   ],
-  "immersePlan": [],
   "rules": [
     {
       "id": "r1",

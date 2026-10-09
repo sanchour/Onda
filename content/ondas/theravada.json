@@ -288,17 +288,17 @@
     {
       "id": "refuge-and-precepts",
       "name": "The five precepts at dawn",
-      "icon": "sun-horizon",
+      "icon": "hands-praying",
       "slot": "Morning",
       "time": "06:30",
       "minutes": 5,
       "meta": "Morning · 5 min",
-      "instructions": "Sit upright with your palms together. Recollect the three things Buddhists rely on: an awakened teacher, his teaching and the community that keeps it. Then undertake the five precepts for today, one at a time, in your own words: I will not kill. I will not take what is not given. I will not misuse sex. I will not lie. I will not cloud my mind with drink or drugs. They are undertakings you choose, and you make them afresh each day.",
-      "why": "Lay Buddhists across Sri Lanka and Southeast Asia recite these five most mornings and at every ceremony. Virtue comes first because a mind without remorse settles easily.",
+      "instructions": "Sit upright with your palms together. Recollect the three things Buddhists rely on: an awakened teacher, his teaching and the community that keeps it. Then undertake the five precepts for today, one at a time, in your own words: to take no life, to take nothing not given, to cause no harm in sex, to speak what is true and useful, and to keep the mind clear. Then begin the day.",
+      "why": "Lay Buddhists across South and Southeast Asia start the day by recalling the three jewels and the five precepts. They are simple intentions for the day that give conduct a shape.",
       "variations": [
-        "On one day a week add the eighth-precept habit of not eating after midday.",
-        "Chant them in Pali from a recording.",
-        "At night check each of the five against the day."
+        "Say each precept as a hope rather than a rule.",
+        "Choose one precept to watch closely today.",
+        "Write the precepts on a card and keep them by the bed."
       ]
     },
     {
@@ -309,12 +309,12 @@
       "time": "07:00",
       "minutes": 20,
       "meta": "Morning · 20 min",
-      "instructions": "Sit on a cushion or a chair with your back straight and your hands in your lap. Close your eyes. Find the place where the breath is clearest, at the nostrils or the belly, and rest your attention there. Know a long breath as long and a short breath as short. Do not control it. When you find you have been thinking, note that, let it go and return to the next breath. Begin with fifteen minutes and add a little each week.",
-      "why": "This is anapanasati, set out by the Buddha in sixteen steps in the Middle Length Discourses. It calms the mind and is the usual base for insight.",
+      "instructions": "Sit on a cushion or a chair with your back straight and your hands in your lap. Close your eyes. Find the place where the breath is clearest, at the nostrils or the belly, and rest your attention there. Know a long breath as long, and a short one as short. When the mind wanders, which it will, note that it has and come back. Do twenty minutes, or ten at first.",
+      "why": "Anapanasati, mindfulness of breathing, is the most widely taught meditation in the Theravada tradition. It trains steadiness and a calm that does not depend on events.",
       "variations": [
-        "Count breaths from one to ten and start again.",
-        "Sit for five minutes at midday as well.",
-        "Try it lying down before sleep, staying awake."
+        "Count breaths from one to ten and begin again.",
+        "Sit for ten minutes only, but every day.",
+        "Sit outdoors where it is quiet."
       ]
     },
     {
@@ -325,12 +325,60 @@
       "time": "11:00",
       "minutes": 10,
       "meta": "Morning · 10 min",
-      "instructions": "Each day give food to someone before you eat your own main meal. Cook an extra portion for a neighbour, buy lunch for a colleague, leave food at a food bank, feed birds. Give with your own hand where you can, respectfully and without making anything of it. Afterwards notice the state of your mind.",
-      "why": "At dawn across the Theravada world people stand at the roadside to put rice in the bowls of passing monks. The Buddha taught giving first because generosity loosens the grip of craving.",
+      "instructions": "Each day give food to someone before you eat your own main meal. Cook an extra portion for a neighbour, buy lunch for a colleague, leave food at a food bank, feed birds. Give with your own hand where you can, respectfully, and without looking for thanks. The rule of this Onda is to give before you eat.",
+      "why": "Dana, giving, is the first practice of the lay Buddhist, and feeding monks on their alms round is the model. Giving food before eating loosens clinging and brings joy.",
       "variations": [
-        "Give money you had planned to spend on yourself.",
-        "Give time to someone who needs help.",
-        "If there is a monastery near you, ask how to offer a meal."
+        "Give to someone who cannot repay you.",
+        "Give the best portion, not the leftovers.",
+        "Set aside a coin each day for giving."
+      ]
+    },
+    {
+      "id": "sweep-the-body",
+      "name": "Sweep the body",
+      "icon": "user",
+      "slot": "Morning",
+      "time": "07:30",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Sit or lie down. Move your attention slowly from the top of the head to the soles of the feet, noticing each area: scalp, face, throat, shoulders, arms, chest, belly, hips, legs, feet. Notice warmth, tingling, tightness, nothing at all. Do not try to change it. Take ten minutes. When you reach the feet, rest there a moment and open your eyes.",
+      "why": "Sweeping through the body with attention is a core Theravada practice of mindfulness of the body. It builds a calm, factual relationship with how you feel.",
+      "variations": [
+        "Do it in bed before you rise.",
+        "Go from the feet upward.",
+        "Spend the whole time on one hand."
+      ]
+    },
+    {
+      "id": "one-mindful-cup-of-tea",
+      "name": "One mindful cup of tea",
+      "icon": "coffee",
+      "slot": "Morning",
+      "time": "08:00",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Make one cup of plain tea and drink it with nothing else. Watch the water pour. Hold the warm cup in both hands. Smell it. Notice the first sip, the heat, the taste, the swallow. Put it down between sips. When you notice your mind in another place, bring it back to the cup. Ten minutes for a single cup.",
+      "why": "Mindful drinking is an everyday application of sati, remembering to be present. A single cup can be a short meditation.",
+      "variations": [
+        "Do it with a glass of water.",
+        "Do it outside on a step.",
+        "Do it in silence with someone else."
+      ]
+    },
+    {
+      "id": "open-the-ears",
+      "name": "Open the ears",
+      "icon": "ear",
+      "slot": "Morning",
+      "time": "07:15",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Sit still and listen for five minutes with your eyes closed to every sound around you: near and far, loud and faint. Do not name them or follow them. Notice how each sound arises and fades. Then notice the silence between. Hearing is one of the six doors of the senses, and listening without commentary is a short, easy practice.",
+      "why": "Mindfulness of sounds is taught by Theravada teachers as an accessible start. It shows how a sound arises and passes without our doing anything.",
+      "variations": [
+        "Do it with the window open.",
+        "Do it in a place with birds.",
+        "Do it in the middle of a busy street."
       ]
     },
     {
@@ -341,12 +389,92 @@
       "time": "15:00",
       "minutes": 10,
       "meta": "Afternoon · 10 min",
-      "instructions": "Find a straight path of about twenty paces, indoors or out. Stand at one end and feel your feet. Walk to the other end slowly, eyes lowered, hands held together in front, attention on the lifting, moving and placing of each foot. Stop, stand, turn and walk back. When the mind wanders, stop walking until it returns.",
-      "why": "Forest monks spend hours each day on such a path. The Buddha walked up and down in the open at dawn. It trains mindfulness in movement and suits a restless mind.",
+      "instructions": "Find a straight path of about twenty paces, indoors or out. Stand at one end and feel your feet. Walk to the other end slowly, eyes lowered, hands held together in front, attention on the lifting, moving and placing of each foot. At the end, stop, turn, stand for a breath and walk back. Keep it up for ten minutes.",
+      "why": "Walking meditation is practised alternately with sitting in Theravada monasteries and wherever people meditate. It trains attention in motion.",
       "variations": [
-        "Walk at normal speed to the shops with the same attention.",
-        "Do it barefoot on grass.",
-        "Walk for ten minutes directly after eating."
+        "Say lifting, moving, placing silently as you walk.",
+        "Walk slower than feels natural.",
+        "Walk barefoot on grass or clean floor."
+      ]
+    },
+    {
+      "id": "note-what-is-here",
+      "name": "Note what is here",
+      "icon": "eye",
+      "slot": "Afternoon",
+      "time": "14:00",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Sit and for ten minutes name whatever is most obvious in the present moment in one word: hearing, seeing, thinking, planning, remembering, itching, warmth, restless. Note it gently and go on. Do not follow the story. Noting turns the mind from a tangle of stories into a stream of events, and takes the weight off them.",
+      "why": "Mental noting is part of many Theravada teachers’ instructions, especially in the Burmese tradition. It keeps attention honest and light.",
+      "variations": [
+        "Note only the body for five minutes.",
+        "Note feelings as pleasant, unpleasant or neutral.",
+        "Do it in a queue or on a bus."
+      ]
+    },
+    {
+      "id": "be-glad-for-someone",
+      "name": "Be glad for someone",
+      "icon": "smiley",
+      "slot": "Afternoon",
+      "time": "16:00",
+      "minutes": 5,
+      "meta": "Afternoon · 5 min",
+      "instructions": "Think of someone doing well: a friend who got a job, a neighbour whose garden is thriving, a rival who won a prize. Let yourself feel glad for them. If envy comes, note it, smile and return to gladness. Say: may your joy continue. Mudita, sympathetic joy, is one of the four boundless states. If you can, tell them you are glad.",
+      "why": "Mudita is the least known of the four brahmaviharas, and the antidote to envy. Practising it takes the sting out of other people’s success.",
+      "variations": [
+        "Congratulate someone in writing.",
+        "Be glad for a stranger who is laughing.",
+        "Be glad for yourself about one small thing."
+      ]
+    },
+    {
+      "id": "watch-something-change",
+      "name": "Watch something change",
+      "icon": "hourglass",
+      "slot": "Afternoon",
+      "time": "15:30",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Choose something that changes and watch it for ten minutes: a candle burning down, ice melting in a glass, a cloud passing, a shadow moving across a floor. Say quietly to yourself: this is anicca, impermanence. Notice how nothing stays. Then notice a small feeling of ease about that.",
+      "why": "Anicca, impermanence, is one of the three marks of existence in Theravada teaching. Watching a thing change brings it from idea to experience.",
+      "variations": [
+        "Watch ice melt.",
+        "Photograph the same spot at three hours of the day.",
+        "Watch your own breath for the same time."
+      ]
+    },
+    {
+      "id": "eat-one-meal-slowly",
+      "name": "Eat one meal slowly",
+      "icon": "fork-knife",
+      "slot": "Afternoon",
+      "time": "12:30",
+      "minutes": 25,
+      "meta": "Afternoon · 25 min",
+      "instructions": "Eat your main meal with full attention. Put the food on a plate, sit down, and look at it. Take the first bite and put down the fork. Chew until it is gone. Notice the textures, flavours and temperatures. Leave the phone out of sight. Stop when you are about three quarters full. Twenty-five minutes, and see what you notice.",
+      "why": "Monks eat one meal a day in silence and with reflection. Lay people can borrow the attention without the discipline, and enjoy the food more.",
+      "variations": [
+        "Eat the first five bites in silence.",
+        "Eat with the non-dominant hand.",
+        "Eat in front of a window."
+      ]
+    },
+    {
+      "id": "sit-in-a-public-place",
+      "name": "Sit in a public place",
+      "icon": "chair",
+      "slot": "Afternoon",
+      "time": "17:00",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Sit on a bench, in a café or on a bus for ten minutes with no phone, and watch your mind and the scene. Feel the seat and your breath. Notice the thoughts that arise about people passing. Let each go, and wish well to whoever passes: may you be happy. You do not need a quiet room to practise.",
+      "why": "Informal practice in daily life is emphasised by modern Theravada teachers. A public place can be as good a place as a hall.",
+      "variations": [
+        "Do it at a station.",
+        "Do it in a park with a flask of tea.",
+        "Do it at a lunch hour."
       ]
     },
     {
@@ -357,129 +485,341 @@
       "time": "21:30",
       "minutes": 10,
       "meta": "Evening · 10 min",
-      "instructions": "Sit or lie comfortably. Begin with yourself: may I be safe, may I be well, may I be at ease. Then bring to mind in turn someone who has helped you, a friend, a person you hardly know, a person you find difficult, and finally all beings in every direction, and wish each of them the same. Go slowly. Where the wish will not come, stay with that person a little longer and do not force it.",
-      "why": "The Metta Sutta asks for a heart as wide as a mother’s for her only child, extended to every being. It is chanted nightly in monasteries and is the standard remedy for ill will.",
+      "instructions": "Sit or lie comfortably. Begin with yourself: may I be safe, may I be well, may I be at ease. Then bring to mind in turn someone who has helped you, a friend, a person you hardly know, a person you find difficult, and finally all beings. Repeat the same phrases for each, slowly, for a minute or two. Go to sleep with the last of them.",
+      "why": "Metta, loving-kindness, is taught by the Buddha as an antidote to ill will, and a practice for the end of the day. It turns the mind toward warmth before sleep.",
       "variations": [
-        "Send it only to the difficult person for a week.",
-        "Do it on the bus for each passenger.",
-        "End by sharing the good of the day with those who have died."
+        "Use the phrases aloud.",
+        "Send metta to those you passed on the street.",
+        "Do it with a hand on the heart."
       ]
-    }
-  ],
-  "tasks": [
-    {
-      "id": "eat-your-last-meal-before-midday-once-this-week",
-      "name": "Eat your last meal before midday, once this week",
-      "meta": "The uposatha habit; skip if unwise for your health",
-      "time": "11:30",
-      "slot": "Afternoon"
     },
     {
-      "id": "task-read-the-first-two-chapters-of-the-dhammapada",
-      "name": "Read the first two chapters of the Dhammapada",
-      "meta": "Read · forty verses",
-      "time": "20:00",
+      "id": "listen-to-a-chant",
+      "name": "Listen to a chant",
+      "icon": "waveform",
       "slot": "Evening",
-      "action": "read"
+      "time": "19:30",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Play a recording of Pali chanting, such as the Metta Sutta or Mangala Sutta, by monks or nuns. Sit upright with your hands in your lap and listen for ten minutes. You need not follow the words. Notice the way the voices rise and fall, and the long stillness between verses. Chanting is a daily practice in every Theravada monastery.",
+      "why": "Pali chanting has been passed down for over two thousand years. Listening is a restful way to share in it.",
+      "variations": [
+        "Read an English translation first.",
+        "Join in softly with the last verse.",
+        "Listen with the lights off."
+      ]
     },
     {
-      "id": "task-listen-to-the-metta-sutta-chanted-in-pali",
-      "name": "Listen to the Metta Sutta chanted in Pali",
-      "meta": "Listen · five minutes",
-      "time": "07:30",
-      "slot": "Morning",
-      "action": "listen"
-    },
-    {
-      "id": "task-look-at-the-reclining-buddha-of-gal-vihara",
-      "name": "Look at the reclining Buddha of Gal Vihara",
-      "meta": "Art · Polonnaruwa, 12th century",
-      "time": "17:00",
-      "slot": "Afternoon",
-      "action": "art"
-    },
-    {
-      "id": "sit-in-silence-for-ten-minutes-after-sunset-with-no-device-in-the-room",
-      "name": "Sit in silence for ten minutes after sunset with no device in the room",
-      "meta": "Noble silence",
-      "time": "19:00",
-      "slot": "Evening"
-    },
-    {
-      "id": "task-cook-rice-and-a-simple-curry-and-share-it",
-      "name": "Cook rice and a simple curry and share it",
-      "meta": "Eat · give the first portion away",
-      "time": "12:00",
-      "slot": "Afternoon",
-      "action": "eat"
-    },
-    {
-      "id": "task-journal-what-did-you-crave-today-and-what-happened-to-it",
-      "name": "Journal: what did you crave today, and what happened to it?",
-      "meta": "Journal · 10 min",
+      "id": "review-the-day-by-the-precepts",
+      "name": "Review the day by the precepts",
+      "icon": "scales",
+      "slot": "Evening",
       "time": "21:00",
-      "slot": "Evening",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Look back over the day against the five precepts. Did I harm any creature? Take anything not given? Speak untruth, or unkindly? Cloud my mind? Make no excuses, and do not punish yourself. Note what you did well too. Resolve one small thing for tomorrow. Close with a wish for the benefit of all.",
+      "why": "Daily review is a part of lay practice in many Theravada communities. A fair look at the day keeps conduct honest without harshness.",
+      "variations": [
+        "Write one line for each precept.",
+        "Look at only one precept per night.",
+        "Share the review with a friend."
+      ],
       "action": "journal"
     },
     {
-      "id": "task-the-three-marks-watch-one-pleasant-thing-end",
-      "name": "The three marks: watch one pleasant thing end",
-      "meta": "Philosophy · 10 min",
+      "id": "listen-to-a-dhamma-talk",
+      "name": "Listen to a Dhamma talk",
+      "icon": "microphone-stage",
+      "slot": "Evening",
+      "time": "20:00",
+      "minutes": 25,
+      "meta": "Evening · 25 min",
+      "instructions": "Put on a Dhamma talk by Ajahn Brahm, Ajahn Sumedho, Ajahn Chah or another teacher, and listen for twenty-five minutes without doing anything else. Hear it as if the teacher were speaking to you alone. Note one thing that struck you, and take it into your sleep. Many talks are free online and full of humour.",
+      "why": "Dhamma talks are a main way lay people learn in Theravada Buddhism. They are often funny, warm and practical.",
+      "variations": [
+        "Listen and write down one sentence.",
+        "Listen with a friend and compare notes.",
+        "Choose a short talk on one theme for the week."
+      ]
+    },
+    {
+      "id": "pay-respects-to-a-teacher",
+      "name": "Pay respects to a teacher",
+      "icon": "envelope-simple",
+      "slot": "Evening",
+      "time": "20:30",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Think of someone who taught you something that matters: a teacher, a parent, a coach, a friend. Bow your head to them in your mind and say thank you. If you can, write them a short note or call them. Respect for teachers is a core virtue in Theravada countries, expressed even to a person who taught you a single useful thing.",
+      "why": "Gratitude to teachers is one of the blessings in the Mangala Sutta. It acknowledges how much of what we are came from others.",
+      "variations": [
+        "Visit a teacher in person.",
+        "Thank a teacher from your school days.",
+        "Offer a small gift of fruit to a teacher."
+      ]
+    },
+    {
+      "id": "wind-down",
+      "name": "Wind down",
+      "icon": "moon-stars",
+      "slot": "Evening",
+      "time": "22:00",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Put away screens for the last ten minutes of the evening. Dim the lights, open a window a little, and sit on the edge of the bed. Take ten slow breaths. Think: whatever remains unfinished can wait for tomorrow. Then lie down. Equanimity, upekkha, is the fourth of the boundless states, and bedtime is a good place to practise it.",
+      "why": "Upekkha, equanimity, is the mind that stays balanced when things go well or badly. Letting go of the day’s unfinished business is a small training in it.",
+      "variations": [
+        "Say: may I be at peace with things as they are.",
+        "Write tomorrow’s first task and close the notebook.",
+        "Count ten breaths in the dark."
+      ]
+    },
+    {
+      "id": "a-quiet-day-uposatha-style",
+      "name": "A quiet day, uposatha style",
+      "icon": "moon-stars",
+      "slot": "Special",
       "time": "09:00",
-      "slot": "Morning",
-      "action": "philosophy"
+      "minutes": 120,
+      "meta": "On a free morning · 120 min",
+      "instructions": "On a free day, keep the spirit of the uposatha, the observance day kept on the moon’s phases. Dress simply, avoid shopping and entertainment, speak less and sit for two sessions of twenty minutes with a walk between. Read a few pages of the Dhammapada. Eat normally and in moderation, at regular times. End with a few minutes of loving-kindness.",
+      "why": "Uposatha days are kept by lay Buddhists in Sri Lanka, Thailand and Myanmar with extra attention to the precepts. A quiet day at home borrows the mood without any special vows.",
+      "variations": [
+        "Do it with a friend in separate rooms.",
+        "Spend the afternoon in a park.",
+        "Make it the day of a full moon."
+      ]
     },
     {
-      "id": "carry-an-insect-outside-instead-of-killing-it",
-      "name": "Carry an insect outside instead of killing it",
-      "meta": "The first precept in practice",
-      "time": "14:00",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "treat-eat-one-mouthful-counting-twenty-chews",
-      "name": "Eat one mouthful counting twenty chews",
-      "meta": "Only one",
-      "time": "15:30",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "treat-walk-barefoot-across-a-room-and-feel-each-step",
-      "name": "Walk barefoot across a room and feel each step",
-      "meta": "Slowly",
-      "time": "08:30",
-      "slot": "Morning"
-    },
-    {
-      "id": "treat-give-the-next-person-who-asks-you-for-something-a-yes",
-      "name": "Give the next person who asks you for something a yes",
-      "meta": "If it harms no one",
-      "time": "15:30",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "treat-watch-the-breath-for-ten-breaths-while-the-kettle-boils",
-      "name": "Watch the breath for ten breaths while the kettle boils",
-      "meta": "Start over when you lose count",
-      "time": "08:30",
-      "slot": "Morning"
-    },
-    {
-      "id": "daily-sit-and-watch-your-breath-for-ten-minutes",
-      "name": "Sit and watch your breath for ten minutes",
-      "meta": "Count to ten, then start again",
-      "time": "20:30",
-      "slot": "Evening"
-    },
-    {
-      "id": "daily-wish-three-people-well-then-yourself",
-      "name": "Wish three people well, then yourself",
-      "meta": "Metta",
-      "time": "20:30",
-      "slot": "Evening"
+      "id": "make-a-vesak-lantern",
+      "name": "Make a Vesak lantern",
+      "icon": "lamp",
+      "slot": "Special",
+      "time": "16:00",
+      "minutes": 90,
+      "meta": "On a free afternoon · 90 min",
+      "instructions": "Make a paper lantern, a coloured paper star or a simple lantern from tissue paper and a frame of sticks, as is done for Vesak in Sri Lanka. Glue, paint and light it with a small LED or battery light. Hang it by the window. Vesak commemorates the birth, awakening and passing of the Buddha, and the lantern is a symbol of light.",
+      "why": "Lantern-making is a joyful part of Vesak in Sri Lanka, where whole streets are lit with them. It is a craft anyone can enjoy.",
+      "variations": [
+        "Make a set of small ones with children.",
+        "Give a lantern to a neighbour.",
+        "Use recycled paper."
+      ]
     }
   ],
-  "immersePlan": [],
+  "tasks": [],
+  "immersePlan": [
+    {
+      "kind": "read",
+      "item": "read-the-dhammapada",
+      "name": "Read a chapter of the Dhammapada",
+      "text": "Read one chapter of the 423 verses attributed to the Buddha, such as the one on the mind. Choose a single verse and say it to yourself three times.",
+      "minutes": 10
+    },
+    {
+      "kind": "read",
+      "item": "read-what-the-buddha-taught",
+      "name": "Read What the Buddha Taught",
+      "text": "Read a chapter of Walpola Rahula’s clear account of the four noble truths and the path. Notice which truth you already knew in your bones.",
+      "minutes": 20
+    },
+    {
+      "kind": "read",
+      "item": "read-mindfulness-in-plain-english",
+      "name": "Read Mindfulness in Plain English",
+      "text": "Read a chapter of Bhante Gunaratana’s practical guide. Try the exercise it describes right after you finish.",
+      "minutes": 15
+    },
+    {
+      "kind": "watch",
+      "item": "watch-uncle-boonmee-who-can-recall-his-past-lives",
+      "name": "Watch Uncle Boonmee",
+      "text": "Watch Apichatpong Weerasethakul’s dreamy film from northern Thailand, in which a dying farmer meets ghosts and the spirits of his past. Watch it slowly.",
+      "minutes": 115
+    },
+    {
+      "kind": "watch",
+      "item": "watch-the-burmese-harp",
+      "name": "Watch The Burmese Harp",
+      "text": "Watch Kon Ichikawa’s 1956 film about a Japanese soldier in Burma who becomes a monk, and the music he plays. It is humane and quiet.",
+      "minutes": 115
+    },
+    {
+      "kind": "watch",
+      "item": "watch-the-buddha",
+      "name": "Watch The Buddha",
+      "text": "Watch David Grubin’s documentary on the Buddha’s life, filmed in India and Nepal. Notice the places where the story happened.",
+      "minutes": 110
+    },
+    {
+      "kind": "listen",
+      "item": "listen-pali-chanting-the-metta-mangala-and-ratana-suttas",
+      "name": "Listen to Pali chanting",
+      "text": "Play Sri Lankan pirith or monastic chanting of the three protective suttas. Sit upright and let the chanting settle you.",
+      "minutes": 20
+    },
+    {
+      "kind": "listen",
+      "item": "listen-piphat-ensemble-music",
+      "name": "Listen to piphat music",
+      "text": "Play the Thai classical ensemble of xylophones, gongs and oboe heard at temple festivals. Follow one instrument at a time.",
+      "minutes": 15
+    },
+    {
+      "kind": "listen",
+      "item": "listen-dhamma-talks",
+      "name": "Listen to a Dhamma talk",
+      "text": "Play a talk by Ajahn Brahm or another teacher, and listen as you would to a friend. Notice where you laughed.",
+      "minutes": 30
+    },
+    {
+      "kind": "art",
+      "item": "art-gal-vihara",
+      "name": "Look at Gal Vihara",
+      "text": "Look at the four giant Buddhas carved from a single granite rock at Polonnaruwa: seated, standing and reclining. Notice the calm in the reclining Buddha’s face.",
+      "minutes": 10
+    },
+    {
+      "kind": "art",
+      "item": "art-walking-buddha",
+      "name": "Look at the Walking Buddha",
+      "text": "Look at the Sukhothai bronze of the Buddha in mid-stride, the arm swinging like a branch in wind. Walk like that for a minute.",
+      "minutes": 5
+    },
+    {
+      "kind": "art",
+      "item": "art-the-temples-of-bagan",
+      "name": "Look at the temples of Bagan",
+      "text": "Look at photographs of thousands of brick temples and pagodas on the plain of Bagan in Myanmar. Pick one and imagine climbing it at sunrise.",
+      "minutes": 10
+    },
+    {
+      "kind": "eat",
+      "item": "eat-rice-and-curry",
+      "name": "Eat rice and curry",
+      "text": "Make or order Sri Lankan rice and curry: rice with dal, a vegetable curry and a sambol, eaten with the right hand if you like. Taste each in turn.",
+      "minutes": 45
+    },
+    {
+      "kind": "eat",
+      "item": "eat-sticky-rice",
+      "name": "Eat sticky rice",
+      "text": "Steam glutinous rice in a basket, roll it into a ball with your fingers and eat it with something salty. In northern Thailand and Laos it is the daily staple.",
+      "minutes": 40
+    },
+    {
+      "kind": "eat",
+      "item": "eat-kiribath",
+      "name": "Make kiribath",
+      "text": "Cook rice in coconut milk until thick, set it in a tray and cut it into diamonds. It is the milk rice eaten on auspicious days in Sri Lanka.",
+      "minutes": 40
+    },
+    {
+      "kind": "drink",
+      "item": "drink-plain-tea",
+      "name": "Drink a cup of plain tea",
+      "text": "Make a cup of plain, unsweetened black tea and drink it with attention. Taste its bitterness and its warmth.",
+      "minutes": 10
+    },
+    {
+      "kind": "drink",
+      "item": "drink-water-drunk-with-attention",
+      "name": "Drink water with attention",
+      "text": "Pour a full glass of water, hold it with both hands, and drink it in sips. Feel it travel down. Offer a glass to someone else.",
+      "minutes": 5
+    },
+    {
+      "kind": "drink",
+      "item": "drink-fresh-coconut-water",
+      "name": "Drink fresh coconut water",
+      "text": "Drink from a green coconut if you can find one, or from a carton. It is the everyday refresher of South and Southeast Asia. Notice the sweetness and coolness.",
+      "minutes": 10
+    },
+    {
+      "kind": "customs",
+      "item": "customs-the-alms-round",
+      "name": "Learn about the alms round",
+      "text": "Read about the monks’ dawn walk to receive food from the lay community, and the silence in which it is given. Then give food to someone today.",
+      "minutes": 15
+    },
+    {
+      "kind": "customs",
+      "item": "customs-three-bows",
+      "name": "Learn the three bows",
+      "text": "Read how lay Buddhists bow three times, to the Buddha, the Dhamma and the Sangha, with palms together at the forehead. Bow to something you respect.",
+      "minutes": 5
+    },
+    {
+      "kind": "customs",
+      "item": "customs-feet-and-heads",
+      "name": "Mind your feet and head",
+      "text": "In Theravada countries the head is the highest part and the feet the lowest. Do not point feet at people or images, and do not touch another person’s head. Notice how you sit today.",
+      "minutes": 5
+    },
+    {
+      "kind": "games",
+      "item": "games-makruk",
+      "name": "Play makruk",
+      "text": "Play Thai chess, an older cousin of chess with a slowly advancing queen-less army. Learn the pieces and play a short game against a friend or a program.",
+      "minutes": 30
+    },
+    {
+      "kind": "games",
+      "item": "games-chinlone",
+      "name": "Play chinlone",
+      "text": "Try Myanmar’s woven rattan ball game in which players pass the ball with feet, knees and heels in a circle, not to win but to make beautiful moves. Use a small soft ball.",
+      "minutes": 20
+    },
+    {
+      "kind": "games",
+      "item": "games-mandala",
+      "name": "Play Mandala",
+      "text": "Play the board game of building a mandala in tiles, a calm game for two. Notice the patience it asks for.",
+      "minutes": 30
+    },
+    {
+      "kind": "travel",
+      "item": "fest-vesak",
+      "name": "Mark Vesak",
+      "text": "Vesak, at the full moon of May, marks the Buddha’s birth, awakening and passing. Light a candle or lantern at dusk and give some food away.",
+      "minutes": 20
+    },
+    {
+      "kind": "travel",
+      "item": "fest-songkran-and-thingyan",
+      "name": "Look up Songkran and Thingyan",
+      "text": "Look at pictures of the mid-April new year water festivals, with street splashing and gentle pouring of water on the hands of elders. Pour water on a plant in the same spirit.",
+      "minutes": 15
+    },
+    {
+      "kind": "travel",
+      "item": "place-shwedagon-pagoda",
+      "name": "Look at the Shwedagon Pagoda",
+      "text": "Look at pictures of the golden pagoda in Yangon. Notice the people walking clockwise around it in the evening light.",
+      "minutes": 10
+    },
+    {
+      "kind": "words",
+      "item": "word-anicca",
+      "name": "Practise anicca",
+      "text": "Anicca is impermanence. Watch one thing change today, and each time something passes, say anicca quietly.",
+      "minutes": 5
+    },
+    {
+      "kind": "words",
+      "item": "word-mudita",
+      "name": "Practise mudita",
+      "text": "Mudita is joy in others’ good fortune. Find one person doing well and be glad for them, in words.",
+      "minutes": 5
+    },
+    {
+      "kind": "words",
+      "item": "word-sati",
+      "name": "Practise sati",
+      "text": "Sati is mindfulness, remembering to be here. Set three random times today to stop and feel your feet for one breath.",
+      "minutes": 5
+    }
+  ],
   "rules": [
     {
       "id": "r1",

@@ -61,10 +61,16 @@ describe('3.0: the six new Ondas', () => {
     expect(names).toContain('Micronesian')
   })
   it.each(all.filter(([id]) => fresh.includes(id)))('%s has eight or more tasks, with a shortcut on at least five', (_id, c) => {
-    expect(c.tasks.length).toBeGreaterThanOrEqual(8)
-    expect(c.tasks.filter((t) => t.action).length).toBeGreaterThanOrEqual(5)
-    expect(c.tasks.some((t) => t.action === 'journal')).toBe(true)
-    expect(c.tasks.some((t) => t.action === 'philosophy')).toBe(true)
+    if (c.immersePlan.length >= 30) {
+      // 6.0: the practices replace the old tasks
+      expect(c.practices.length).toBeGreaterThanOrEqual(20)
+      expect(c.practices.some((p) => p.action === 'journal')).toBe(true)
+    } else {
+      expect(c.tasks.length).toBeGreaterThanOrEqual(8)
+      expect(c.tasks.filter((t) => t.action).length).toBeGreaterThanOrEqual(5)
+      expect(c.tasks.some((t) => t.action === 'journal')).toBe(true)
+      expect(c.tasks.some((t) => t.action === 'philosophy')).toBe(true)
+    }
     expect(c.rules).toHaveLength(6)
     expect(c.quotes.length).toBeGreaterThanOrEqual(4)
   })

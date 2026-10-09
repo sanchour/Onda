@@ -307,13 +307,13 @@
     {
       "id": "seek",
       "name": "Seek until you find",
-      "icon": "lightbulb",
+      "icon": "magnifying-glass",
       "slot": "Morning",
       "time": "07:00",
       "minutes": 10,
       "meta": "Morning · 10 min",
       "instructions": "Write one question you are living with on a card. Make it a real one, such as what is mine to do, or what am I afraid of. Sit with it for five minutes without answering. Then write what comes to mind in a few lines. Do not hurry to a conclusion. Repeat the same question each morning for the length of the Onda and see how it changes.",
-      "why": "The Gospel of Thomas begins by saying that one who seeks must not stop until they find. Treating a question as a companion, not a problem to dispose of, is a gentle way of practising that spirit.",
+      "why": "The Gospel of Thomas begins by saying that one who seeks must not stop until they find. Treating a question as a companion, not a problem to dispose of, is the heart of the practice.",
       "variations": [
         "Choose a different question each day.",
         "Ask it aloud to a friend and listen to theirs.",
@@ -321,51 +321,83 @@
       ]
     },
     {
-      "id": "bring-forth",
-      "name": "What is within",
-      "icon": "fire",
-      "slot": "Afternoon",
-      "time": "15:30",
-      "minutes": 15,
-      "meta": "Afternoon · 15 min",
-      "instructions": "Set aside fifteen minutes for something that is within you and rarely comes out: a sketch, a paragraph, a song, a letter you will not send. Do it without an audience and without a purpose. Stop when the time is up. Afterwards write a line on what it felt like to bring it forth and what it might mean to keep it back.",
-      "why": "Saying 70 of the Gospel of Thomas says that what you bring forth will save you and what you do not will destroy you. Whether read as religion or psychology, it points to the cost of leaving what is inside unexpressed.",
-      "variations": [
-        "Do it with your non-dominant hand.",
-        "Write it and burn or delete it.",
-        "Show it to one trusted person."
-      ]
-    },
-    {
-      "id": "three-questions",
-      "name": "Who, whence and whither",
-      "icon": "compass",
-      "slot": "Evening",
-      "time": "21:00",
-      "minutes": 10,
-      "meta": "Evening · 10 min",
-      "instructions": "Take the old Valentinian questions and answer them in a notebook, a line each: Who were we? What have we become? Where were we, and where have we been placed? Where are we hastening? From what are we redeemed? What is birth, and what is rebirth? Do not try to answer all in one night. Pick one each evening and write for ten minutes.",
-      "why": "The Valentinians summed up gnosis as knowing who we were, what we have become, where we are heading and from what we are released. The questions work as a daily review of identity and direction.",
-      "variations": [
-        "Answer in a letter to yourself in ten years.",
-        "Discuss one with a friend.",
-        "Draw a map of your own answer."
-      ]
-    },
-    {
       "id": "stillness-and-light",
       "name": "Stillness and light",
-      "icon": "sun",
+      "icon": "sun-dim",
       "slot": "Morning",
       "time": "06:30",
       "minutes": 10,
       "meta": "Morning · 10 min",
       "instructions": "Sit comfortably in a dim room. Close your eyes or look softly at a single candle or window. Imagine, without forcing it, a small light in the centre of your chest. Do not try to make it bigger. Stay with it, and when thoughts take you, return. At the end, say to yourself quietly: this is where I come from. Then open your eyes.",
-      "why": "Many gnostic texts speak of a spark of light within the person that comes from the divine source. A practice of quiet attention is a safe and old way to explore that image as a poetic idea.",
+      "why": "Many gnostic texts speak of a spark of light within the person that comes from the divine source. A practice of quiet attention is a safe and old way to meet the idea.",
       "variations": [
         "Do it outdoors at dawn.",
         "Say a line from Thomas or Thunder, Perfect Mind in place of the closing sentence.",
         "Write a line afterwards on what you saw."
+      ]
+    },
+    {
+      "id": "a-saying-at-sunrise",
+      "name": "A saying at sunrise",
+      "icon": "quotes",
+      "slot": "Morning",
+      "time": "06:45",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Read one saying from the Gospel of Thomas aloud, slowly, and again, without comment. Then sit for a minute. Do not look for the right interpretation; let it work on you. The sayings were meant to be heard and pondered, not skimmed. Carry the saying with you for the morning, and notice when it comes back.",
+      "why": "The Gospel of Thomas is a collection of 114 sayings found at Nag Hammadi. Many are short, strange and arresting. They were designed to be turned over, like a stone in the hand.",
+      "variations": [
+        "Read it aloud to someone.",
+        "Choose a saying at random.",
+        "Write it on a card and put it where you will see it."
+      ]
+    },
+    {
+      "id": "write-the-dream",
+      "name": "Write the dream",
+      "icon": "moon-stars",
+      "slot": "Morning",
+      "time": "07:15",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Before the day takes over, write down whatever you remember from the night: a dream, a fragment, a feeling. Do it before you check anything. Many modern readers connect gnostic ideas with inner work, and the dream is the most direct material you have. Leave the interpretation for later. The writing is enough.",
+      "why": "Gnostic writings are full of visions and dreams, and later readers such as Jung read them as the first psychology of the inner world. A dream journal is a simple way of attending to it.",
+      "variations": [
+        "Draw the main image.",
+        "Give the dream a title.",
+        "Look at the dreams of a week at once."
+      ]
+    },
+    {
+      "id": "what-i-do-not-know",
+      "name": "What I do not know",
+      "icon": "question",
+      "slot": "Morning",
+      "time": "08:00",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Look at the sky, or out of a window, and name three things you do not know: about the world, about yourself, about someone near you. Say them without anxiety. This is the opposite of false certainty, and one of the rules of this Onda is to claim no certainty about what is unknown. Notice how roomy it feels.",
+      "why": "Gnostic texts often speak of a seeker who finds that what they thought they knew was not true. An honest list of what you do not know is a good place to begin to look.",
+      "variations": [
+        "Do it with a friend and compare.",
+        "Add one thing you used to think you knew.",
+        "Make it a daily list."
+      ]
+    },
+    {
+      "id": "go-to-the-source",
+      "name": "Go to the source",
+      "icon": "book-open-text",
+      "slot": "Morning",
+      "time": "09:00",
+      "minutes": 15,
+      "meta": "Morning · 15 min",
+      "instructions": "Choose a claim you have heard about the Gnostics, or about anything, and go to the source: find the text itself, not a summary or a video. Read a page of the original or the best translation you can find. Notice what it says that the summary did not. One rule of this Onda is to read the sources, not the summaries.",
+      "why": "The Nag Hammadi find in 1945 meant that for the first time scholars could read Gnostic writings in their own words, instead of through hostile reports. Going to the source is the lesson of the whole discovery.",
+      "variations": [
+        "Look for the original of a famous quote.",
+        "Read a primary source for ten minutes.",
+        "Ask what the summary left out."
       ]
     },
     {
@@ -383,114 +415,432 @@
         "Ask a friend the same three questions.",
         "Revisit it a week later."
       ]
-    }
-  ],
-  "tasks": [
-    {
-      "id": "read-one-saying-of-thomas-slowly",
-      "name": "Read one saying of Thomas slowly",
-      "meta": "And ask what it asks of you",
-      "time": "12:00",
-      "slot": "Afternoon"
     },
     {
-      "id": "look-at-the-sky-at-dusk-and-name-what-you-do-not-know",
-      "name": "Look at the sky at dusk and name what you do not know",
-      "meta": "A list of three unknowns",
-      "time": "19:00",
-      "slot": "Evening"
-    },
-    {
-      "id": "keep-a-dream-or-thought-journal-for-the-night",
-      "name": "Keep a dream or thought journal for the night",
-      "meta": "Place a notebook beside the bed",
-      "time": "22:00",
-      "slot": "Evening"
-    },
-    {
-      "id": "task-read-a-section-of-the-nag-hammadi-scriptures",
-      "name": "Read a section of The Nag Hammadi Scriptures",
-      "meta": "Read · a buried library",
-      "time": "12:30",
+      "id": "bring-forth",
+      "name": "What is within",
+      "icon": "sparkle",
       "slot": "Afternoon",
-      "action": "read"
+      "time": "15:30",
+      "minutes": 15,
+      "meta": "Afternoon · 15 min",
+      "instructions": "Set aside fifteen minutes for something that is within you and rarely comes out: a sketch, a paragraph, a song, a letter you will not send. Do it without an audience and without a purpose. Stop when the time is up. Afterwards write a line on what it felt like to bring it forth and what it might mean to keep it back.",
+      "why": "Saying 70 of the Gospel of Thomas says that what you bring forth will save you and what you do not will destroy you. Whether read as religion or psychology, it is a bracing thought.",
+      "variations": [
+        "Do it with your non-dominant hand.",
+        "Write it and burn or delete it.",
+        "Show it to one trusted person."
+      ]
     },
     {
-      "id": "task-watch-the-gospel-of-judas",
-      "name": "Watch The Gospel of Judas",
-      "meta": "Watch · a recovered text",
-      "time": "20:00",
-      "slot": "Evening",
-      "action": "watch"
+      "id": "honour-the-body",
+      "name": "Honour the body",
+      "icon": "heartbeat",
+      "slot": "Afternoon",
+      "time": "14:30",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Do one kind thing for your body right now: stretch, drink water, stand in the sun, eat something good, take a short walk. Treat the body and the world with respect. Many Gnostic writers were wary of matter, but this Onda’s rule is to be gentle with it. The body is where you are, and a decent host.",
+      "why": "Some Gnostic sources despised the body, others did not. This Onda’s rule is respect: you cannot seek anything well if you neglect the place you are seeking from.",
+      "variations": [
+        "Walk for ten minutes.",
+        "Stretch for ten minutes.",
+        "Cook yourself a proper meal."
+      ]
     },
     {
-      "id": "task-journal-what-question-are-you-carrying-today",
-      "name": "Journal: what question are you carrying today?",
-      "meta": "Journal · 10 min",
-      "time": "21:15",
+      "id": "say-i-do-not-know",
+      "name": "Say I do not know",
+      "icon": "chat-teardrop",
+      "slot": "Afternoon",
+      "time": "16:00",
+      "minutes": 5,
+      "meta": "Afternoon · 5 min",
+      "instructions": "Today, say I do not know aloud three times, in situations where you would normally bluff or guess. In a meeting, in a conversation, in your own head. Notice how it feels. It is a sign of the seeker, not of weakness. Honesty about the edges of knowledge is the other side of wanting to know more.",
+      "why": "The Gnostic seeker begins from not knowing. In many texts the first step is the shock of recognising ignorance. Saying so aloud is a mild and useful form of it.",
+      "variations": [
+        "Say it to a child and let them teach you.",
+        "Say it to yourself in the mirror.",
+        "Say it and then ask a good question."
+      ]
+    },
+    {
+      "id": "study-a-stranger-subject",
+      "name": "Study a stranger subject",
+      "icon": "graduation-cap",
+      "slot": "Afternoon",
+      "time": "17:00",
+      "minutes": 20,
+      "meta": "Afternoon · 20 min",
+      "instructions": "Pick a subject you know nothing about and spend twenty minutes learning the basics: a language, a craft, a plant, a period of history. Read, watch, or ask. Notice the excitement of beginning from zero. Sophia, wisdom, in Gnostic myth is the one who wanted to know more than she was given. Follow her, gently.",
+      "why": "Sophia is the figure of Wisdom in many Gnostic myths. Her longing to know is the beginning of the story. Real study is the daily version of that longing.",
+      "variations": [
+        "Learn ten words of a language.",
+        "Learn about a tree outside your window.",
+        "Ask someone to teach you something they love."
+      ]
+    },
+    {
+      "id": "look-for-the-light-in-someone",
+      "name": "Look for the light in someone",
+      "icon": "users-three",
+      "slot": "Afternoon",
+      "time": "12:30",
+      "minutes": 5,
+      "meta": "Afternoon · 5 min",
+      "instructions": "Think of one person you find difficult and try to see the light in them: the spark of what they are at their best, or what they might once have been. Say it to yourself in a sentence. Do not excuse what they do. Only look. It is a way of practising the idea that everyone carries a spark.",
+      "why": "The idea that each person holds a spark of the divine is one of the warmest in Gnostic thought. It does not remove the need for judgment, but it makes you a better judge.",
+      "variations": [
+        "Do it for a family member.",
+        "Do it for a public figure.",
+        "Do it for yourself on a hard day."
+      ]
+    },
+    {
+      "id": "three-questions",
+      "name": "Who, whence and whither",
+      "icon": "compass",
       "slot": "Evening",
+      "time": "21:00",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Take the old Valentinian questions and answer them in a notebook, a line each: Who were we? What have we become? Where were we, and where have we been placed? Where are we hastening? From what are we redeemed? What is birth, and what is rebirth? Do not try to answer all in one night. Pick one each evening and write for ten minutes.",
+      "why": "The Valentinians summed up gnosis as knowing who we were, what we have become, where we are heading and from what we are released. The questions work as a nightly compass, even without the theology.",
+      "variations": [
+        "Answer in a letter to yourself in ten years.",
+        "Discuss one with a friend.",
+        "Draw a map of your own answer."
+      ],
       "action": "journal"
     },
     {
-      "id": "task-write-on-the-spark-within-what-in-you-remembers-where-it-came-from",
-      "name": "Write on “The spark within”: what in you remembers where it came from?",
-      "meta": "Philosophy · 10 min",
-      "time": "19:30",
+      "id": "light-a-candle-in-a-dark-room",
+      "name": "Light a candle in a dark room",
+      "icon": "flame",
       "slot": "Evening",
-      "action": "philosophy"
+      "time": "20:00",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Turn off the lights in a room, light a single candle, and sit with it for ten minutes. Look at the flame, then at the dark around it. Think of the small light in the dark as an image of what the Gnostic texts call the spark. Do not try to feel anything in particular. Just sit, and then blow it out.",
+      "why": "A single flame in the dark is the simplest picture of the spark of light in the Gnostic imagination. It needs no belief, and it is quietly beautiful.",
+      "variations": [
+        "Do it outdoors on a still night.",
+        "Do it with a friend in silence.",
+        "Write one line afterward."
+      ]
     },
     {
-      "id": "task-look-at-an-abraxas-gem-and-say-what-you-think-it-is-for",
-      "name": "Look at an Abraxas gem and say what you think it is for",
-      "meta": "Art · 10 min",
-      "time": "16:30",
-      "slot": "Afternoon",
-      "action": "art"
-    },
-    {
-      "id": "treat-stand-in-the-dark-for-a-minute-then-switch-on-one-light",
-      "name": "Stand in the dark for a minute, then switch on one light",
-      "meta": "Notice the moment",
+      "id": "read-a-paradox-poem",
+      "name": "Read a paradox poem",
+      "icon": "scroll",
+      "slot": "Evening",
       "time": "19:30",
-      "slot": "Evening"
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Read a few lines of Thunder, Perfect Mind, the Nag Hammadi poem in which a divine voice speaks in paradoxes: I am the first and the last, the honoured and the scorned. Read slowly and aloud. Let the contradictions stand without trying to resolve them. Notice what they do in the body, in your breath.",
+      "why": "Thunder, Perfect Mind is among the most startling texts from Nag Hammadi, a poem in a woman’s voice that sets opposite things side by side. It is made to be heard.",
+      "variations": [
+        "Read it aloud to someone.",
+        "Write your own set of paradoxes in the same voice.",
+        "Listen to a musical setting."
+      ]
     },
     {
-      "id": "treat-look-at-your-own-hand-as-if-you-had-never-seen-one",
-      "name": "Look at your own hand as if you had never seen one",
-      "meta": "One minute",
-      "time": "15:30",
-      "slot": "Afternoon"
+      "id": "what-i-forgot",
+      "name": "What I forgot",
+      "icon": "hourglass",
+      "slot": "Evening",
+      "time": "21:30",
+      "minutes": 8,
+      "meta": "Evening · 8 min",
+      "instructions": "Ask yourself what you have forgotten today: a promise, a person, a part of yourself. Write one thing. The old Gnostic myths speak of a forgetting from which the soul wakes. In plain terms, ask what you let slip, and see whether it can be picked up tomorrow. Remember one thing, and say so.",
+      "why": "Waking from forgetfulness is a central Gnostic image: the seeker remembers who they are and where they come from. An evening question about what you have forgotten is a modest, practical form of it.",
+      "variations": [
+        "Ask a friend what you forgot to tell them.",
+        "Write a note to your future self.",
+        "Remember a person you have lost touch with and write to them."
+      ],
+      "action": "journal"
     },
     {
-      "id": "treat-read-a-road-sign-as-if-it-were-a-secret-message-for-you",
-      "name": "Read a road sign as if it were a secret message for you",
-      "meta": "Just for fun",
-      "time": "15:30",
-      "slot": "Afternoon"
+      "id": "walk-at-dusk",
+      "name": "Walk at dusk",
+      "icon": "footprints",
+      "slot": "Evening",
+      "time": "18:30",
+      "minutes": 20,
+      "meta": "Evening · 20 min",
+      "instructions": "Walk at dusk for twenty minutes and ask: what here belongs to the world, and what belongs to me? Notice the buildings, the trees, the people, your own thoughts. Sort them, loosely, in your mind. Do not decide that the world is bad or good. Only notice where you end and it begins. Come home to a lit room.",
+      "why": "The Gnostic writers asked what belongs to the world and what to the self, often sharply. A dusk walk puts the question gently and in the open air.",
+      "variations": [
+        "Do it with a friend.",
+        "Do it in a place you know well.",
+        "Do it in the rain."
+      ]
     },
     {
-      "id": "treat-watch-dust-in-a-beam-of-sunlight",
-      "name": "Watch dust in a beam of sunlight",
-      "meta": "Sparks, if you like",
-      "time": "08:30",
-      "slot": "Morning"
+      "id": "where-did-i-claim-too-much",
+      "name": "Where did I claim too much?",
+      "icon": "scales",
+      "slot": "Evening",
+      "time": "22:00",
+      "minutes": 8,
+      "meta": "Evening · 8 min",
+      "instructions": "Look back over the day and find one place where you claimed more certainty than you had: a statement of fact, a prediction, a judgment of someone. Write it down, then rewrite it honestly. This Onda’s rule is to claim no certainty about what is unknown. Notice how lightly you can hold a view and still hold it.",
+      "why": "Gnostic texts are full of claims about the unseen, and their critics were suspicious of them. Checking your own claims at night is the useful side of that suspicion.",
+      "variations": [
+        "Rewrite a text message you regret.",
+        "Choose one opinion and rate your confidence from one to ten.",
+        "Say sorry to someone you were too sure with."
+      ],
+      "action": "journal"
     },
     {
-      "id": "daily-ask-one-real-question-before-you-look-at-the-news",
-      "name": "Ask one real question before you look at the news",
-      "meta": "Seek until you find",
-      "time": "07:15",
-      "slot": "Morning"
+      "id": "a-night-of-questions",
+      "name": "A night of questions",
+      "icon": "lamp",
+      "slot": "Special",
+      "time": "20:30",
+      "minutes": 60,
+      "meta": "On a free evening · 60 min",
+      "instructions": "Invite a friend for an evening of real questions. Each of you brings three, the kind with no easy answer: what do we owe to the dead? What would I be if no one were watching? Take turns. The rule is to ask, listen and wonder; no one has to win. End by choosing one question each to carry for a week.",
+      "why": "The Gnostic texts are dialogues and questions at heart. A night spent asking and not answering is a very old pleasure, and the best kind of company.",
+      "variations": [
+        "Do it by phone.",
+        "Do it as a walk.",
+        "Write the questions down for next time."
+      ]
     },
     {
-      "id": "daily-look-at-the-first-light-for-one-full-minute",
-      "name": "Look at the first light for one full minute",
-      "meta": "Light before words",
-      "time": "07:15",
-      "slot": "Morning"
+      "id": "an-hour-with-old-manuscripts",
+      "name": "An hour with old manuscripts",
+      "icon": "archive",
+      "slot": "Special",
+      "time": "15:00",
+      "minutes": 60,
+      "meta": "On a free afternoon · 60 min",
+      "instructions": "Spend an hour looking at digitised manuscripts online: the Nag Hammadi codices, the Codex Tchacos, any Coptic or Greek papyri from a museum or library. Look at the hands, the margins, the repairs. Let the sense of looking at something made by hand, long ago, quiet your mind. Choose one page and look at it for ten minutes.",
+      "why": "The Nag Hammadi codices were found in a sealed jar in 1945 and are now in the Coptic Museum in Cairo. Many are online. Looking at them is a way of seeing the hands that copied the words.",
+      "variations": [
+        "Compare two scripts.",
+        "Try copying one line of Coptic.",
+        "Find the same text in a translation."
+      ]
     }
   ],
-  "immersePlan": [],
+  "tasks": [],
+  "immersePlan": [
+    {
+      "kind": "read",
+      "item": "read-the-nag-hammadi-scriptures",
+      "name": "Read a short text from Nag Hammadi",
+      "text": "Open the Meyer volume and read a short text, such as Thunder, Perfect Mind, or the Gospel of Truth. Read it slowly. Note one image that stays with you.",
+      "minutes": 20
+    },
+    {
+      "kind": "read",
+      "item": "read-the-gospel-of-thomas-the-hidden-sayings-of-jesus",
+      "name": "Read ten sayings of Thomas",
+      "text": "Read ten sayings from Marvin Meyer’s translation of the Gospel of Thomas. Pick the one that bothers you, and the one that comforts you, and say why.",
+      "minutes": 15
+    },
+    {
+      "kind": "read",
+      "item": "read-the-gnostic-gospels",
+      "name": "Read a chapter of The Gnostic Gospels",
+      "text": "Read a chapter of Elaine Pagels’s book on how the Nag Hammadi find changed ideas about early Christianity. Notice what you did not know.",
+      "minutes": 25
+    },
+    {
+      "kind": "watch",
+      "item": "watch-the-gospel-of-judas",
+      "name": "Watch The Gospel of Judas",
+      "text": "Watch the National Geographic documentary about the discovery, restoration and meaning of the Codex Tchacos. Notice how long it took to piece the pages back together.",
+      "minutes": 90
+    },
+    {
+      "kind": "watch",
+      "item": "watch-the-matrix",
+      "name": "Watch The Matrix with Gnostic eyes",
+      "text": "Watch the film or part of it, as scholars have noted gnostic themes in it: a false world, a hidden truth, an awakening. Notice which choice you would make.",
+      "minutes": 135
+    },
+    {
+      "kind": "watch",
+      "item": "watch-dark-city",
+      "name": "Watch Dark City",
+      "text": "Watch the film in which a man wakes in a city that changes while its people sleep. It is often discussed alongside gnostic themes. Notice who made the world, and what the hero does about it.",
+      "minutes": 100
+    },
+    {
+      "kind": "listen",
+      "item": "listen-in-our-time-gnosticism",
+      "name": "Listen to In Our Time on Gnosticism",
+      "text": "Put on the programme in which three scholars discuss who the Gnostics were, what the Nag Hammadi find changed, and why the word is now disputed. Note one idea that you want to look into.",
+      "minutes": 45
+    },
+    {
+      "kind": "listen",
+      "item": "listen-thunder-perfect-mind",
+      "name": "Listen to Thunder Perfect Mind",
+      "text": "Play the album named after the Nag Hammadi poem, and read the poem itself first. Notice how the music approaches the paradoxes.",
+      "minutes": 40
+    },
+    {
+      "kind": "listen",
+      "item": "listen-the-secret-history-of-western-esotericism-podcast",
+      "name": "Listen to an episode on the Gnostics",
+      "text": "Play an episode of Earl Fontainelle’s careful podcast on the Gnostics, or on Valentinus. Listen on a walk, and note one name to look up.",
+      "minutes": 50
+    },
+    {
+      "kind": "art",
+      "item": "art-abraxas-gems",
+      "name": "Look at an Abraxas gem",
+      "text": "Look at pictures of the small engraved stones showing a figure with a rooster’s head and snake legs. Ask what a person wearing one might have wanted it to do.",
+      "minutes": 10
+    },
+    {
+      "kind": "art",
+      "item": "art-the-ancient-of-days",
+      "name": "Look at Blake’s Ancient of Days",
+      "text": "Look at William Blake’s frontispiece of a figure measuring the world with compasses. Many see it as Blake’s image of the lesser creator. Ask what you think he is making.",
+      "minutes": 10
+    },
+    {
+      "kind": "art",
+      "item": "art-codex-ii-of-nag-hammadi",
+      "name": "Look at a Nag Hammadi page",
+      "text": "Look at pictures of a page of Codex II, the leather-bound papyrus book that contains the Gospel of Thomas. Look at the handwriting, and imagine who copied it.",
+      "minutes": 10
+    },
+    {
+      "kind": "eat",
+      "item": "eat-bread-and-olives",
+      "name": "Eat bread and olives",
+      "text": "Lay out bread and olives and eat slowly, with nothing else going on. It is the plain fare of late antique Egypt, where the Nag Hammadi books were copied.",
+      "minutes": 15
+    },
+    {
+      "kind": "eat",
+      "item": "eat-lentil-stew",
+      "name": "Cook a lentil stew",
+      "text": "Cook lentils with onion and olive oil, slowly. It was the staple of ordinary Mediterranean households. Eat it hot, with bread, and think of the scribes eating the same.",
+      "minutes": 45
+    },
+    {
+      "kind": "eat",
+      "item": "eat-figs",
+      "name": "Eat a fig slowly",
+      "text": "Eat a fresh or dried fig slowly. Notice the seeds, the sweetness and the texture. A small pleasure to go with a book.",
+      "minutes": 5
+    },
+    {
+      "kind": "drink",
+      "item": "drink-water",
+      "name": "Drink a glass of water slowly",
+      "text": "Drink a glass of plain cool water and attend to it: temperature, taste, the feeling of swallowing. It is the simplest drink there is.",
+      "minutes": 5
+    },
+    {
+      "kind": "drink",
+      "item": "drink-wine-mixed-with-water",
+      "name": "Mix wine and water",
+      "text": "If you drink wine, mix it half with water and drink it slowly. If not, mix grape juice with water. In the ancient Mediterranean wine was always diluted.",
+      "minutes": 10
+    },
+    {
+      "kind": "drink",
+      "item": "drink-barley-water",
+      "name": "Make barley water",
+      "text": "Boil pearl barley in water, cool and strain, and add a squeeze of lemon. A gentle drink for a quiet evening of reading.",
+      "minutes": 40
+    },
+    {
+      "kind": "customs",
+      "item": "customs-sit-with-a-question",
+      "name": "Sit with one question",
+      "text": "Choose a question and sit with it for ten minutes, with no need to answer. The gnostic texts treat seeking as a practice, not a stage to get over.",
+      "minutes": 10
+    },
+    {
+      "kind": "customs",
+      "item": "customs-read-one-saying-aloud",
+      "name": "Read one saying aloud",
+      "text": "Read one saying from Thomas, or a poem of your choice, aloud, slowly. The sayings were meant to be heard and pondered, not skimmed.",
+      "minutes": 5
+    },
+    {
+      "kind": "customs",
+      "item": "customs-light-a-candle-in-a-dark-room",
+      "name": "Light a candle in a dark room",
+      "text": "Turn off the lights, light one candle and sit with it for a few minutes. It is a simple image of the spark of light in the dark.",
+      "minutes": 10
+    },
+    {
+      "kind": "games",
+      "item": "games-the-talos-principle",
+      "name": "Play The Talos Principle",
+      "text": "Play a few puzzles of the game in which a voice calling itself your maker sets you tasks in a garden of ruins. Notice what you start to ask about it.",
+      "minutes": 30
+    },
+    {
+      "kind": "games",
+      "item": "games-xenogears",
+      "name": "Look up Xenogears",
+      "text": "Xenogears is a long science-fiction epic built on Gnostic themes: a false god, a sleeping memory, a hero who has to ask what he is. Read a short summary or watch a clip.",
+      "minutes": 20
+    },
+    {
+      "kind": "games",
+      "item": "games-carcassonne",
+      "name": "Play Carcassonne",
+      "text": "Play the tile-laying board game in which you build the walled towns and roads of the Languedoc, the land of the Cathars. Notice how the map grows by many small choices.",
+      "minutes": 45
+    },
+    {
+      "kind": "travel",
+      "item": "fest-feast-of-mary-magdalene",
+      "name": "Keep the feast of Mary Magdalene",
+      "text": "On 22 July, the feast of Mary Magdalene, whom several texts found at Nag Hammadi present as the disciple who understood. Read a few lines of the Gospel of Mary, and think of what it means to understand.",
+      "minutes": 15
+    },
+    {
+      "kind": "travel",
+      "item": "place-coptic-museum",
+      "name": "Look up the Coptic Museum",
+      "text": "Look up the Coptic Museum in Old Cairo, home of the Nag Hammadi codices. Read a short account of how they were found, and look at a photograph of the jar.",
+      "minutes": 15
+    },
+    {
+      "kind": "travel",
+      "item": "fest-montsegur-remembered",
+      "name": "Remember Montségur",
+      "text": "On 16 March, in 1244, more than two hundred Cathars who would not recant were burned below the castle of Montségur. Read a short account, and spend a quiet minute thinking of people who kept to a belief at a cost.",
+      "minutes": 15
+    },
+    {
+      "kind": "words",
+      "item": "word-gnosis",
+      "name": "Think about gnosis",
+      "text": "Gnosis is knowledge by direct insight, not by being told. Choose one thing you know only because you were told, and one you know because you saw it. Write both. Notice the difference.",
+      "minutes": 10
+    },
+    {
+      "kind": "words",
+      "item": "word-sophia",
+      "name": "Think about Sophia",
+      "text": "Sophia is Wisdom, the aeon whose longing to know begins the story. Think of the last time you wanted to know something badly enough to follow it. Do one more step toward it today.",
+      "minutes": 10
+    },
+    {
+      "kind": "words",
+      "item": "word-pleroma",
+      "name": "Think about the pleroma",
+      "text": "Pleroma is fullness, the divine realm of light. Think of a moment when you felt completely full of something, such as joy, attention or love. Write three lines about where you were, and what you were doing.",
+      "minutes": 10
+    }
+  ],
   "rules": [
     {
       "id": "r1",
@@ -596,6 +946,13 @@
         "creator": "The Wachowskis",
         "year": "1999",
         "why": "A film about a false world and awakening. Scholars have noted gnostic echoes. It is a modern work and not a source."
+      },
+      {
+        "id": "watch-dark-city",
+        "title": "Dark City",
+        "creator": "Alex Proyas",
+        "year": "1998",
+        "why": "A film in which a man wakes in a city that changes while its people sleep, and slowly learns who made it. Often discussed alongside gnostic themes of a false world and awakening."
       }
     ],
     "listen": [
@@ -644,8 +1001,46 @@
         "why": "A leather-bound papyrus book that contains the Gospel of Thomas, kept in the Coptic Museum in Cairo."
       }
     ],
-    "eat": [],
-    "drink": [],
+    "eat": [
+      {
+        "id": "eat-bread-and-olives",
+        "title": "Bread and olives",
+        "creator": "Plain fare of late antique Egypt",
+        "why": "The everyday food of the Egypt where the Nag Hammadi books were copied. Eat slowly, with nothing else going on."
+      },
+      {
+        "id": "eat-lentil-stew",
+        "title": "Lentil stew",
+        "creator": "A plain pot",
+        "why": "Lentils with onion and olive oil, the staple of ordinary Mediterranean households in late antiquity. Eat it hot, with bread."
+      },
+      {
+        "id": "eat-figs",
+        "title": "Figs",
+        "creator": "Fruit of the eastern Mediterranean",
+        "why": "A fruit eaten fresh and dried in the ancient Mediterranean. A small pleasure to eat while you read."
+      }
+    ],
+    "drink": [
+      {
+        "id": "drink-water",
+        "title": "Water",
+        "creator": "Plain and cool",
+        "why": "The simplest drink and the clearest image of what runs through many ancient texts. Drink a glass slowly and attend to it."
+      },
+      {
+        "id": "drink-wine-mixed-with-water",
+        "title": "Wine mixed with water",
+        "creator": "A late antique custom",
+        "why": "Wine was usually drunk diluted in the ancient Mediterranean. Non-drinkers can mix grape juice and water the same way."
+      },
+      {
+        "id": "drink-barley-water",
+        "title": "Barley water",
+        "creator": "A plain drink",
+        "why": "Boiled barley, cooled and strained, a gentle non-alcoholic drink of the ancient Mediterranean. Good for a quiet evening."
+      }
+    ],
     "customs": [
       {
         "id": "customs-sit-with-a-question",

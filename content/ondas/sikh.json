@@ -293,12 +293,12 @@
       "time": "05:45",
       "minutes": 15,
       "meta": "Morning · 15 min",
-      "instructions": "Rise before or near dawn and wash. Sit quietly with your back straight. Read aloud, or listen to, the opening of the Japji: there is one reality, truth is its name, the creator, without fear, without hatred, timeless, unborn, self-existent, known by grace. Then sit for ten minutes repeating a single word of remembrance on the breath. Use Waheguru if it sits well with you, or the word truth. When thoughts come, return.",
-      "why": "Guru Nanak’s Japji says: in the ambrosial hour before dawn, reflect on the true Name. Observant Sikhs begin every day this way, before the household wakes.",
+      "instructions": "Rise before or near dawn and wash. Sit quietly with your back straight. Read aloud, or listen to, the opening of the Japji: there is one reality, truth is its name, the creator, without fear, without hatred, timeless, unborn, self-existent. Stay with those words for ten minutes and let the quiet of the early day settle in. If you cannot rise early, do it as soon as you are awake.",
+      "why": "Amrit vela, the ambrosial hour before dawn, is the time Sikhs are encouraged to remember the One in quiet. The rule of this Onda is to rise early and remember.",
       "variations": [
-        "Listen to the whole Japji Sahib, about twenty minutes.",
-        "Walk outside as it gets light, repeating the word in step.",
-        "If dawn is impossible, keep the first quarter-hour after waking."
+        "Listen to a recording of the Japji.",
+        "Sit outdoors if it is warm.",
+        "Memorise the opening line."
       ]
     },
     {
@@ -309,44 +309,172 @@
       "time": "09:00",
       "minutes": 5,
       "meta": "Morning · 5 min",
-      "instructions": "Before you start work, name the task and ask three questions. Is this work honest: does it cheat or mislead anyone? Am I giving a full measure for what I am paid? Whom does it serve? Then work hard and without complaint. During the day, when you catch yourself cutting a corner, put it right at once.",
-      "why": "Kirat karni, earning by one’s own honest labour, is one of the three pillars Guru Nanak taught. He himself farmed at Kartarpur in his last years. The tradition has no monks and no begging.",
+      "instructions": "Before you start work, name the task and ask three questions. Is this work honest: does it cheat or mislead anyone? Am I giving a full measure for what I am paid? Whom does it serve? Then work hard and without complaint. Kirat karni, earning an honest living, is the first pillar of Sikh life.",
+      "why": "Guru Nanak lived as a farmer in his later years and taught that honest labour is the proper way to live. It stands beside remembering the One and sharing.",
       "variations": [
-        "Do one job today that is beneath your position.",
-        "Pay a debt or return something borrowed.",
-        "Thank someone whose labour you depend on."
+        "Do the least pleasant task first.",
+        "Check one corner you could cut and do not.",
+        "Finish work on time and stop."
+      ]
+    },
+    {
+      "id": "today-s-hukam",
+      "name": "Today’s hukam",
+      "icon": "book-open",
+      "slot": "Morning",
+      "time": "06:30",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Read today’s hukamnama, the verse chosen each day from the Guru Granth Sahib at the Golden Temple in Amritsar and published online with a translation. Read it aloud once and then silently. Pick one phrase to carry through the day. Hukam means order or command, the way things are.",
+      "why": "The hukamnama is read each morning in gurdwaras around the world. A guest can follow the daily verse online and find a short thought for the day.",
+      "variations": [
+        "Copy one line in a notebook.",
+        "Read it to someone else.",
+        "Compare it with the day’s events at night."
+      ]
+    },
+    {
+      "id": "rise-in-high-spirits",
+      "name": "Rise in high spirits",
+      "icon": "sun-dim",
+      "slot": "Morning",
+      "time": "07:00",
+      "minutes": 8,
+      "meta": "Morning · 8 min",
+      "instructions": "Start the day with chardi kala, rising spirits. Put on music you love, stretch for two minutes, smile at yourself in the mirror and say: today will be a good day whatever happens. Sikhs are encouraged to stay in high spirits through every difficulty. The rule of this Onda is to keep your spirits high.",
+      "why": "Chardi kala, ever-rising spirits, is a Sikh ideal of cheerful courage, whether things are going well or badly. A morning ritual helps it become habit.",
+      "variations": [
+        "Dance in the kitchen to one song.",
+        "Sing out loud in the shower.",
+        "Tell someone good morning with all your heart."
+      ]
+    },
+    {
+      "id": "sit-with-ik-onkar",
+      "name": "Sit with Ik Onkar",
+      "icon": "flower-lotus",
+      "slot": "Morning",
+      "time": "06:15",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Sit still and say, silently or softly, the phrase Ik Onkar, one reality, on each out-breath, for five minutes. It is the first words of the Guru Granth Sahib and the symbol seen on every gurdwara. Let the phrase quieten the mind. When you wander, come back. Simran is the Sikh word for such remembering.",
+      "why": "Ik Onkar, there is one reality, opens the Sikh scripture and is the root of Sikh belief. Repeating it is a calming form of simran.",
+      "variations": [
+        "Say it with a long exhale.",
+        "Say it while walking.",
+        "Write it in a notebook ten times."
+      ]
+    },
+    {
+      "id": "greet-everyone-as-an-equal",
+      "name": "Greet everyone as an equal",
+      "icon": "hand-waving",
+      "slot": "Morning",
+      "time": "08:00",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Today greet every person you meet with sat sri akal, truth is timeless, or with a plain hello, looking them in the eye, whatever their age, job or background. Treat a cleaner, a boss and a stranger with the same warmth. The rule of this Onda is to treat everyone as equal. Notice who you treat differently.",
+      "why": "Equality of all people is a basic principle of Sikhism, rejecting caste and rank. Sat sri akal is the common greeting and means that truth is eternal.",
+      "variations": [
+        "Learn names of three people you pass daily.",
+        "Ask someone you rarely talk to how they are.",
+        "Hold a door and wait for someone."
       ]
     },
     {
       "id": "share-first",
       "name": "Share before you eat",
-      "icon": "hand-heart",
+      "icon": "hand-coins",
       "slot": "Afternoon",
       "time": "12:30",
       "minutes": 10,
       "meta": "Afternoon · 10 min",
-      "instructions": "Before your main meal, share. Give part of your food to someone, pay for a stranger’s meal, or set aside a tenth of today’s earnings in a jar or an account kept for giving. Do it before you take your first mouthful. At the end of each week give away what has gathered.",
-      "why": "Vand chakna, sharing, is the third pillar. Sikhs set aside a tenth of income as dasvandh, and the free kitchen in every gurdwara is paid for and staffed by it.",
+      "instructions": "Before your main meal, share. Give part of your food to someone, pay for a stranger’s meal, or set aside a tenth of today’s earnings in a jar or an account kept for giving. Do it before you take your first mouthful. At the Golden Temple, langar feeds tens of thousands of people every day. Vand chakna, sharing, is the second pillar.",
+      "why": "Vand chakna, to share what you have, is a Sikh duty and joy. Setting aside a tenth, dasvandh, is customary.",
       "variations": [
-        "Eat with someone you would not usually sit with.",
-        "Take food to a shelter or a food bank.",
-        "Invite a neighbour to your table."
+        "Share the largest portion.",
+        "Share with someone you do not know.",
+        "Cook extra for a neighbour."
       ]
     },
     {
       "id": "seva",
       "name": "Seva: serve with your hands",
-      "icon": "broom",
+      "icon": "hand-grabbing",
       "slot": "Afternoon",
       "time": "16:30",
       "minutes": 20,
       "meta": "Afternoon · 20 min",
-      "instructions": "Give twenty minutes to work that helps other people and earns you nothing: wash dishes that are not yours, sweep a shared place, carry, cook, serve, mend. Choose the humblest job available. Do not mention it. While you work, keep your word of remembrance going quietly.",
-      "why": "In gurdwaras people of every background cook, serve and clean side by side, and minding the shoes of the congregation is counted an honour. Service wears down haumai, the self-importance at the root of suffering.",
+      "instructions": "Give twenty minutes to work that helps other people and earns you nothing: wash dishes that are not yours, sweep a shared place, carry, cook, serve, mend. Choose the humblest job available. Do not mention it. While you work, think of nothing in particular, only of the task. Seva is the third pillar, and it is done every day.",
+      "why": "In a gurdwara kitchen everyone, rich or poor, chops, kneads, serves and washes up side by side. The humblest jobs are the most prized.",
       "variations": [
-        "Volunteer at a gurdwara langar. Anyone may help.",
-        "Serve the people you live with, and eat last.",
-        "Pick up litter on your street."
+        "Wash the shoes of the household.",
+        "Clean a shared space at work.",
+        "Serve food at a community meal."
+      ]
+    },
+    {
+      "id": "eat-as-equals",
+      "name": "Eat as equals",
+      "icon": "users-three",
+      "slot": "Afternoon",
+      "time": "13:00",
+      "minutes": 30,
+      "meta": "Afternoon · 30 min",
+      "instructions": "Sit on the floor, or at one table, with someone from a different background, and eat the same simple food together at the same level. In a gurdwara, langar is eaten by all in a line, pangat, with no seating by rank. Talk about anything. Notice how a shared plain meal makes everyone the same.",
+      "why": "Pangat, sitting together in a row to eat, was Guru Nanak’s answer to caste divisions. Everyone is served the same food, in the same place.",
+      "variations": [
+        "Invite a colleague to lunch.",
+        "Eat on the floor with the family.",
+        "Eat with someone who is on their own."
+      ]
+    },
+    {
+      "id": "roll-a-roti",
+      "name": "Roll a roti",
+      "icon": "bread",
+      "slot": "Afternoon",
+      "time": "15:00",
+      "minutes": 30,
+      "meta": "Afternoon · 30 min",
+      "instructions": "Make a simple flatbread from wholewheat flour and water. Knead the dough for five minutes, rest it, roll small balls into rounds and cook each on a hot dry pan until it puffs. Make enough to share with someone else. In a gurdwara kitchen volunteers make thousands of rotis a day, side by side.",
+      "why": "Roti is the bread of langar, and making it is a favourite seva. The rhythm of rolling and turning is calming.",
+      "variations": [
+        "Make them with a child.",
+        "Make double and give half away.",
+        "Try a stuffed paratha."
+      ]
+    },
+    {
+      "id": "a-game-of-kabaddi-tag",
+      "name": "A game of kabaddi tag",
+      "icon": "person-simple-run",
+      "slot": "Afternoon",
+      "time": "17:00",
+      "minutes": 20,
+      "meta": "Afternoon · 20 min",
+      "instructions": "Play a simple version of kabaddi with friends or children in a safe open space. Mark a middle line; each team sends one raider across the line, who must hold one breath and say kabaddi kabaddi aloud without stopping while tagging defenders and getting back. It is the game of the Punjab village. Play gently and stop if anyone is hurt.",
+      "why": "Kabaddi is Punjab’s great team sport, played in villages and in international tournaments. It is energetic, funny and loud.",
+      "variations": [
+        "Play a shorter version with two on a side.",
+        "Watch a kabaddi match online first.",
+        "Play on grass."
+      ]
+    },
+    {
+      "id": "give-a-fair-measure",
+      "name": "Give a fair measure",
+      "icon": "scales",
+      "slot": "Afternoon",
+      "time": "14:30",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Look at one thing you do today for pay or for others and check you are giving an honest measure: the full time, the full care, the true price. If you sell, do not shave the weight. If you buy, pay the fair price. Fix one thing that is slightly short. Kirat karni is honest earning in every detail.",
+      "why": "Guru Nanak taught that a person should earn by honest labour. Giving a fair measure is the other side of the coin.",
+      "variations": [
+        "Tip generously.",
+        "Pay a bill early.",
+        "Be honest about a small mistake in your favour."
       ]
     },
     {
@@ -357,129 +485,341 @@
       "time": "19:30",
       "minutes": 15,
       "meta": "Evening · 15 min",
-      "instructions": "At dusk sit down and listen to ten minutes of kirtan, the sung hymns of the Guru Granth Sahib, without doing anything else. Follow a translation if you can. Then stand, put your palms together and make a short prayer of your own in three parts: thanks for the day, mention of anyone who needs help, and last the wish that everyone, everywhere, may prosper.",
-      "why": "Sikhs recite Rehras at sunset and end every service standing for the Ardas, which closes with a prayer for the welfare of all humankind.",
+      "instructions": "At dusk sit down and listen to ten minutes of kirtan, the sung hymns of the Guru Granth Sahib, without doing anything else. Follow a translation if you can. Then stand, put your palms together and make a short prayer of your own for the good of all: sarbat da bhala. Name a few people who need it.",
+      "why": "Kirtan is the heart of Sikh worship, sung in ragas to the harmonium and tabla. Sarbat da bhala, the welfare of all, ends every Sikh prayer.",
       "variations": [
-        "Sing along, however badly.",
-        "Play the live broadcast from the Golden Temple.",
-        "End the day with Kirtan Sohila, the short bedtime prayer, in translation."
+        "Listen to live kirtan from the Golden Temple.",
+        "Hum along to the chorus.",
+        "Write down the names for your prayer."
       ]
-    }
-  ],
-  "tasks": [
-    {
-      "id": "task-eat-a-meal-sitting-on-the-floor-beside-someone-the-same-food-for-both",
-      "name": "Eat a meal sitting on the floor beside someone, the same food for both",
-      "meta": "Eat · pangat",
-      "time": "13:00",
-      "slot": "Afternoon",
-      "action": "eat"
     },
     {
-      "id": "task-visit-a-gurdwara-cover-your-head-and-eat-in-the-langar",
-      "name": "Visit a gurdwara, cover your head and eat in the langar",
-      "meta": "Travel · all are welcome, every day",
-      "time": "12:00",
-      "slot": "Afternoon",
-      "action": "travel"
-    },
-    {
-      "id": "task-read-the-japji-in-translation",
-      "name": "Read the Japji in translation",
-      "meta": "Read · thirty-eight short stanzas",
-      "time": "20:00",
+      "id": "a-hymn-for-bedtime",
+      "name": "A hymn for bedtime",
+      "icon": "moon-stars",
       "slot": "Evening",
-      "action": "read"
+      "time": "21:30",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Play the Kirtan Sohila, the hymn Sikhs recite before sleep, or any quiet kirtan. Lie or sit comfortably in the dark and listen. The hymn speaks of the evening of life and of trust that all is in order. Let the music take over, and fall asleep as soon as you like.",
+      "why": "Kirtan Sohila is the traditional night prayer for Sikhs, said before bed and at funerals. Its calm tone suits listening at the end of the day.",
+      "variations": [
+        "Read the translation first.",
+        "Listen with a lamp turned low.",
+        "Hum the last line."
+      ]
     },
     {
-      "id": "task-listen-to-asa-di-var-at-dawn",
-      "name": "Listen to Asa di Var at dawn",
-      "meta": "Listen · the morning ballad",
-      "time": "06:30",
-      "slot": "Morning",
-      "action": "listen"
+      "id": "serve-then-eat",
+      "name": "Serve, then eat",
+      "icon": "bowl-steam",
+      "slot": "Evening",
+      "time": "18:30",
+      "minutes": 30,
+      "meta": "Evening · 30 min",
+      "instructions": "At the evening meal, serve everyone else before yourself, and eat last. Bring water, check that each person has what they need, and clear plates. In a gurdwara those who serve eat last. Let the pleasure of serving season the food. Sit down only when everyone is settled.",
+      "why": "Serving others before eating is part of langar and of Punjabi hospitality. It makes the meal a gift rather than a transaction.",
+      "variations": [
+        "Do it for the whole week.",
+        "Cook the meal as well.",
+        "Serve a guest with both hands."
+      ]
     },
     {
-      "id": "put-a-tenth-of-today-s-income-aside",
-      "name": "Put a tenth of today’s income aside",
-      "meta": "Dasvandh",
-      "time": "18:00",
-      "slot": "Evening"
-    },
-    {
-      "id": "stand-up-for-someone-who-is-being-treated-unfairly",
-      "name": "Stand up for someone who is being treated unfairly",
-      "meta": "A small act counts",
-      "time": "15:00",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "task-journal-where-did-the-self-get-in-the-way-today",
-      "name": "Journal: where did the self get in the way today?",
-      "meta": "Journal · 10 min",
+      "id": "thank-you-for-five-things",
+      "name": "Thank you for five things",
+      "icon": "heart",
+      "slot": "Evening",
       "time": "21:00",
-      "slot": "Evening",
+      "minutes": 5,
+      "meta": "Evening · 5 min",
+      "instructions": "Before you sleep, say or write five things you are thankful for today. Begin with the plainest: water, a roof, a meal. Shukar, thankfulness, is the mood that supports chardi kala. Say them with a smile. End by saying sat sri akal to the room.",
+      "why": "Gratitude is at the heart of Sikh prayer, which thanks the One for what is given. Counting blessings keeps the spirit rising.",
+      "variations": [
+        "Write them on a note by the bed.",
+        "Say them aloud with a partner.",
+        "Thank someone for each one."
+      ],
       "action": "journal"
     },
     {
-      "id": "task-hukam-what-are-you-fighting-that-simply-is",
-      "name": "Hukam: what are you fighting that simply is?",
-      "meta": "Philosophy · 10 min",
-      "time": "08:30",
-      "slot": "Morning",
-      "action": "philosophy"
+      "id": "wish-well-to-all",
+      "name": "Wish well to all",
+      "icon": "globe-hemisphere-west",
+      "slot": "Evening",
+      "time": "20:00",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Stand for a minute with palms together. Say: may all be well. Then name, one by one, the people, places or peoples who are on your mind: those who are ill, in danger, hungry or alone, and those you are angry with. Sarbat da bhala, the welfare of all, is the closing prayer of every Sikh gathering. Hold the wish for each name for a breath.",
+      "why": "Sarbat da bhala is said at the end of Ardas, the Sikh prayer, and expresses the whole faith in a phrase. It turns private concern outwards.",
+      "variations": [
+        "Include a stranger in the news.",
+        "Write the list down.",
+        "Include someone you dislike."
+      ]
     },
     {
-      "id": "greet-a-stranger-as-an-equal-and-learn-their-name",
-      "name": "Greet a stranger as an equal and learn their name",
-      "meta": "No one is a stranger",
-      "time": "10:00",
-      "slot": "Morning"
+      "id": "the-true-bargain",
+      "name": "The true bargain",
+      "icon": "coins",
+      "slot": "Evening",
+      "time": "19:00",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Tell the story of Sacha Sauda to someone, or read it aloud. Guru Nanak as a young man was given twenty rupees to make a profit in trade. He met hungry holy men on the road and spent it all feeding them. When his father was angry, he said that this was the truest bargain of all. Then ask what your own true bargain would be.",
+      "why": "Sacha Sauda is a favourite story from the Janamsakhi and the origin of many langars. It shows that service outweighs profit.",
+      "variations": [
+        "Tell it to a child.",
+        "Draw the scene.",
+        "Spend a small sum feeding someone this week."
+      ]
     },
     {
-      "id": "treat-make-a-cup-of-tea-for-someone-before-they-ask",
-      "name": "Make a cup of tea for someone before they ask",
-      "meta": "Serve it with both hands",
-      "time": "08:30",
-      "slot": "Morning"
+      "id": "cook-a-langar-style-meal",
+      "name": "Cook a langar-style meal",
+      "icon": "cooking-pot",
+      "slot": "Special",
+      "time": "16:00",
+      "minutes": 120,
+      "meta": "On a free afternoon · 120 min",
+      "instructions": "Cook a big pot of dal with rice or rotis for friends, neighbours or a shelter. Keep it simple, vegetarian and free for anyone to take. Cook with others if you can, share the jobs, and eat sitting at one level. Langar is the free kitchen of every gurdwara, open to everyone. Wash up together.",
+      "why": "Langar, the free community kitchen begun by Guru Nanak, serves people of every background. Cooking a pot of dal for others recreates the spirit.",
+      "variations": [
+        "Cook for a local shelter.",
+        "Invite a neighbour you rarely see.",
+        "Make a double batch and freeze half for someone."
+      ]
     },
     {
-      "id": "treat-hum-or-sing-while-you-work-with-your-hands",
-      "name": "Hum or sing while you work with your hands",
-      "meta": "Any tune",
-      "time": "15:30",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "treat-share-your-snack-in-two-equal-halves",
-      "name": "Share your snack in two equal halves",
-      "meta": "Give away the better half",
-      "time": "15:30",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "treat-stand-tall-and-tie-or-brush-your-hair-with-care",
-      "name": "Stand tall and tie or brush your hair with care",
-      "meta": "Dignity is a practice",
-      "time": "08:30",
-      "slot": "Morning"
-    },
-    {
-      "id": "daily-listen-to-kirtan-for-ten-minutes",
-      "name": "Listen to kirtan for ten minutes",
-      "meta": "Hymns sung to ragas",
-      "time": "20:30",
-      "slot": "Evening"
-    },
-    {
-      "id": "daily-write-down-three-things-you-are-grateful-for",
-      "name": "Write down three things you are grateful for",
-      "meta": "Shukar",
-      "time": "20:30",
-      "slot": "Evening"
+      "id": "visit-a-gurdwara",
+      "name": "Visit a gurdwara",
+      "icon": "house",
+      "slot": "Special",
+      "time": "11:00",
+      "minutes": 90,
+      "meta": "On a free morning · 90 min",
+      "instructions": "Visit a gurdwara on an open day or a Sunday, as a guest. Cover your head, take off your shoes, wash your hands and sit on the floor, not pointing your feet at the scripture. Listen to the kirtan. Accept the karah prashad and stay to eat in the langar. Ask nothing and see what you are offered. Sikhs welcome all visitors.",
+      "why": "Every gurdwara has four doors, open to all, and a free kitchen. A visit is the best introduction to the faith, and people are glad to show you around.",
+      "variations": [
+        "Go with a friend.",
+        "Ask the volunteers to show you the kitchen.",
+        "Offer to help wash the dishes."
+      ]
     }
   ],
-  "immersePlan": [],
+  "tasks": [],
+  "immersePlan": [
+    {
+      "kind": "read",
+      "item": "read-japji-sahib",
+      "name": "Read the Japji Sahib",
+      "text": "Read a few stanzas of Guru Nanak’s morning prayer in translation. Choose a line to hold for the day.",
+      "minutes": 15
+    },
+    {
+      "kind": "read",
+      "item": "read-sikhism-a-very-short-introduction",
+      "name": "Read Sikhism: A Very Short Introduction",
+      "text": "Read a chapter of Eleanor Nesbitt’s short, clear guide to Sikh history and practice. Note one custom you did not know.",
+      "minutes": 20
+    },
+    {
+      "kind": "read",
+      "item": "read-hymns-of-the-sikh-gurus",
+      "name": "Read hymns of the Gurus",
+      "text": "Read some of the hymns in Nikky-Guninder Kaur Singh’s translation. Read one aloud, slowly.",
+      "minutes": 15
+    },
+    {
+      "kind": "watch",
+      "item": "watch-himself-he-cooks",
+      "name": "Watch Himself He Cooks",
+      "text": "Watch the gentle documentary on the volunteers in the Golden Temple’s kitchen, where tens of thousands are fed each day. Watch the hands.",
+      "minutes": 65
+    },
+    {
+      "kind": "watch",
+      "item": "watch-bend-it-like-beckham",
+      "name": "Watch Bend It Like Beckham",
+      "text": "Watch Gurinder Chadha’s 2002 film about a young Punjabi woman in London who wants to play football. It is warm and funny.",
+      "minutes": 110
+    },
+    {
+      "kind": "watch",
+      "item": "watch-chaar-sahibzaade",
+      "name": "Watch Chaar Sahibzaade",
+      "text": "Watch the animated film about the four sons of Guru Gobind Singh. It is a serious story of courage, so choose a quiet time.",
+      "minutes": 140
+    },
+    {
+      "kind": "listen",
+      "item": "listen-live-kirtan-from-sri-harmandir-sahib",
+      "name": "Listen to live kirtan from the Golden Temple",
+      "text": "Play the live stream of hymns sung by the ragis at the Golden Temple. Listen for ten minutes with your eyes closed.",
+      "minutes": 15
+    },
+    {
+      "kind": "listen",
+      "item": "listen-japji-sahib",
+      "name": "Listen to the Japji Sahib",
+      "text": "Play a recitation of Guru Nanak’s morning prayer and sit while it runs. Follow in translation if you like.",
+      "minutes": 25
+    },
+    {
+      "kind": "listen",
+      "item": "listen-gurbani-in-the-original-ragas",
+      "name": "Listen to gurbani in its ragas",
+      "text": "Play recordings of the hymns in the classical ragas set for them in the scripture. Notice how each raga has a mood.",
+      "minutes": 20
+    },
+    {
+      "kind": "art",
+      "item": "art-sri-harmandir-sahib-the-golden-temple",
+      "name": "Look at the Golden Temple",
+      "text": "Look at pictures of the gold-covered shrine in the middle of the pool, with its four doors open in all directions. Notice the reflection.",
+      "minutes": 10
+    },
+    {
+      "kind": "art",
+      "item": "art-janamsakhi-paintings",
+      "name": "Look at Janamsakhi paintings",
+      "text": "Look at paintings from the illustrated life stories of Guru Nanak. Find the scene with the guru among travellers.",
+      "minutes": 10
+    },
+    {
+      "kind": "art",
+      "item": "art-slough-and-entwined",
+      "name": "Look at the Singh Twins’ paintings",
+      "text": "Look at the detailed, jewel-bright paintings of the Singh Twins, which mix Indian miniature style with modern British life. Look for jokes.",
+      "minutes": 10
+    },
+    {
+      "kind": "eat",
+      "item": "eat-langar-dal-and-roti",
+      "name": "Cook langar dal and roti",
+      "text": "Simmer black lentils slowly with ginger and spices, and eat with fresh roti. Share a plate with someone.",
+      "minutes": 90
+    },
+    {
+      "kind": "eat",
+      "item": "eat-karah-prashad",
+      "name": "Make karah prashad",
+      "text": "Cook equal parts wholewheat flour, ghee and sugar with water into a warm, rich pudding. It is shared at the end of every gurdwara service. Give it to whoever is near.",
+      "minutes": 30
+    },
+    {
+      "kind": "eat",
+      "item": "eat-kheer",
+      "name": "Make kheer",
+      "text": "Simmer rice in milk with cardamom and sugar until creamy. Share a bowl with a neighbour.",
+      "minutes": 60
+    },
+    {
+      "kind": "drink",
+      "item": "drink-lassi",
+      "name": "Make a lassi",
+      "text": "Churn yogurt with water and either salt or sugar until frothy. Pour a tall glass for a friend and have one yourself.",
+      "minutes": 10
+    },
+    {
+      "kind": "drink",
+      "item": "drink-cha",
+      "name": "Boil Punjabi cha",
+      "text": "Boil milk, water and black tea with cardamom and ginger. Serve it strong and sweet with something to dip.",
+      "minutes": 15
+    },
+    {
+      "kind": "drink",
+      "item": "drink-sweet-water-at-a-chhabeel",
+      "name": "Offer sweet water",
+      "text": "Make a jug of milk, water, sugar and rose syrup, and offer a glass to anyone passing, as is done at a chhabeel in the summer.",
+      "minutes": 15
+    },
+    {
+      "kind": "customs",
+      "item": "customs-covering-the-head-and-removing-shoes",
+      "name": "Learn how to enter a gurdwara",
+      "text": "Read how visitors cover their heads and remove shoes at a gurdwara and sit on the floor. Think about why. Try covering your head with a scarf when you eat today.",
+      "minutes": 10
+    },
+    {
+      "kind": "customs",
+      "item": "customs-the-names-singh-and-kaur",
+      "name": "Learn about Singh and Kaur",
+      "text": "Read why Sikh men and women share the names Singh, lion, and Kaur, princess, as a statement of equality that removes caste from the name.",
+      "minutes": 5
+    },
+    {
+      "kind": "customs",
+      "item": "customs-the-five-ks",
+      "name": "Read about the five Ks",
+      "text": "Read about the five articles that initiated Sikhs wear: uncut hair, a comb, a bracelet, a short sword and a cotton undergarment. Treat them with respect, and do not imitate them.",
+      "minutes": 10
+    },
+    {
+      "kind": "games",
+      "item": "games-kabaddi",
+      "name": "Play kabaddi",
+      "text": "Play a quick game of kabaddi tag with friends in a safe open space. Hold your breath and chant as you raid.",
+      "minutes": 20
+    },
+    {
+      "kind": "games",
+      "item": "games-gatka",
+      "name": "Watch a gatka display",
+      "text": "Watch a video of the Sikh martial art of stick and sword fighting, performed in a display at Vaisakhi. Notice the footwork and the control.",
+      "minutes": 10
+    },
+    {
+      "kind": "games",
+      "item": "games-field-hockey",
+      "name": "Play or watch field hockey",
+      "text": "Play a simple game of hockey with friends or watch a match. Punjab has produced many of India’s Olympic hockey players.",
+      "minutes": 40
+    },
+    {
+      "kind": "travel",
+      "item": "fest-vaisakhi",
+      "name": "Mark Vaisakhi",
+      "text": "Vaisakhi, on 13 or 14 April, is the harvest festival and the day the Khalsa was founded. Look at pictures of the parades, then share some food with a neighbour.",
+      "minutes": 20
+    },
+    {
+      "kind": "travel",
+      "item": "fest-guru-nanak-gurpurab",
+      "name": "Mark Guru Nanak’s birthday",
+      "text": "In November, Sikhs mark the birth of Guru Nanak with prayers and langar. Light a candle and do one act of service.",
+      "minutes": 20
+    },
+    {
+      "kind": "travel",
+      "item": "place-sri-harmandir-sahib",
+      "name": "Look up Sri Harmandir Sahib",
+      "text": "Look at the Golden Temple, the pool, the causeway and the communal kitchen. Read about the langar hall and its tens of thousands of daily meals.",
+      "minutes": 15
+    },
+    {
+      "kind": "words",
+      "item": "word-chardi-kala",
+      "name": "Practise chardi kala",
+      "text": "Chardi kala is ever-rising spirits. Choose one difficulty today and meet it with a smile.",
+      "minutes": 5
+    },
+    {
+      "kind": "words",
+      "item": "word-sarbat-da-bhala",
+      "name": "Say sarbat da bhala",
+      "text": "Sarbat da bhala means the welfare of all. Wish it for three people, one by one, before you sleep.",
+      "minutes": 5
+    },
+    {
+      "kind": "words",
+      "item": "word-langar",
+      "name": "Practise langar",
+      "text": "Langar is the free community kitchen. Share a meal with someone today and make sure everyone gets the same.",
+      "minutes": 30
+    }
+  ],
   "rules": [
     {
       "id": "r1",

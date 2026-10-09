@@ -69,7 +69,7 @@ module.exports = {
     ['Speak a name', 'heart', 5, '21:00',
       'Say aloud the name of someone who has died and whom you wish to remember, and say one thing they did or said. Hold a moment of quiet. The Nahua thought of memory as the way the dead go on, and of remembrance as a duty. Do not turn it into a rite. Say the name, say the thing, and let it be enough.',
       'This Onda’s rule is to treat the dead with memory. Keeping names and stories alive is one of the oldest and kindest of human duties.',
-      ['Tell the story to someone who did not know them.', 'Write the name in a notebook.', 'Do it for a person you never met but who made your life possible.']],
+      ['Tell the story to someone who did not know them.', 'Write the name in a notebook.', 'Do it for a person you never met but who made your life possible.'], { action: 'journal' }],
     ['Flowers for someone you miss', 'flower-tulip', 10, '19:30',
       'Put a few flowers, any flowers, beside a photograph of someone you miss, and sit for ten minutes. Say what you would like to tell them. Marigolds are the flower of Mexico’s Day of the Dead, a living tradition with Indigenous and Catholic roots. You do not need the whole tradition. A flower and a photograph are enough.',
       'Flowers and memory are tied together in Mexican life. Marigolds are said to guide the dead home. A small gesture of this kind is within anyone’s reach.',

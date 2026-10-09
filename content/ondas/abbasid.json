@@ -310,12 +310,92 @@
       "time": "07:00",
       "minutes": 25,
       "meta": "Morning · 25 min",
-      "instructions": "Give the first clear half hour of the day to learning something hard: a proof, a language, a chapter of history, an instrument. Sit at a table with paper and pen. Read or work for twenty minutes, then spend five writing down in your own words what you now know and one question you still have. Keep the same subject for the whole Onda. Tomorrow begin by reading yesterday’s question.",
-      "why": "The scholars of Baghdad treated study as a daily duty and a pleasure. Al-Jahiz rented booksellers’ shops overnight in order to read through their stock. Steady hours at a desk are what the whole culture was built on.",
+      "instructions": "Give the first clear half hour of the day to learning something hard: a proof, a language, a chapter of history, an instrument. Sit at a table with paper and pen. Read or work for twenty minutes, then spend five writing down in your own words what you now know and one question you still have. Keep the same subject for the whole Onda.",
+      "why": "The scholars of Baghdad treated study as a daily duty and a pleasure. Al-Jahiz rented booksellers’ shops overnight in order to read through their stock.",
       "variations": [
         "Study with a partner and question each other.",
         "Read a primary source in place of a summary.",
         "Teach what you learned to someone before noon."
+      ]
+    },
+    {
+      "id": "name-your-source",
+      "name": "Name your source",
+      "icon": "quotes",
+      "slot": "Morning",
+      "time": "08:00",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Pick one thing you know, a fact, a recipe, a rule of thumb, and write where you learned it: a person, a book, a site. If you do not know, say so, and try to find out. Abbasid scholars cited their chain of transmitters for a saying. Naming your source makes you a more honest speaker and a better learner.",
+      "why": "The rule of this Onda is to name your source. In Abbasid learning, a statement was only as good as its chain of transmission, the isnad. A habit of naming where you learned something is the modern form.",
+      "variations": [
+        "Name three sources for one claim.",
+        "Do it for an opinion of your own.",
+        "Thank the person who taught you."
+      ]
+    },
+    {
+      "id": "copy-a-line-into-your-notebook",
+      "name": "Copy a line into your notebook",
+      "icon": "notebook",
+      "slot": "Morning",
+      "time": "08:30",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Choose one line you have read or heard this morning and copy it into a notebook, with its source and the date. The rule is to write it down today. The great Baghdad scholars filled sheets of paper, which had just come west from China. A page of good lines is a library of one.",
+      "why": "Paper arrived in Baghdad around 751 and made a culture of books possible. The warraqin, paper sellers and copyists, filled the booksellers’ markets. Copying a line is a little of that world.",
+      "variations": [
+        "Copy a line you disagree with.",
+        "Copy a proverb in two languages.",
+        "Copy a line for someone else."
+      ]
+    },
+    {
+      "id": "wash-and-scent-your-hands",
+      "name": "Wash and scent your hands",
+      "icon": "hand-soap",
+      "slot": "Morning",
+      "time": "07:15",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Wash your hands slowly, with warm water and soap, and finish with a drop of scent, such as rosewater, lavender or orange blossom. A servant brought a basin and ewer to each guest in Baghdad, and perfumes were passed. Take a minute for yourself, and dry your hands with care. It is a small luxury that starts the day pleasantly.",
+      "why": "Washing the hands before and after meals was a courtesy in the Abbasid house, and scent was part of a civilised life. It is an easy pleasure to borrow.",
+      "variations": [
+        "Use rosewater.",
+        "Wash a guest’s hands, with a jug and basin.",
+        "Do it before and after every meal today."
+      ]
+    },
+    {
+      "id": "a-line-of-calligraphy",
+      "name": "A line of calligraphy",
+      "icon": "paint-brush",
+      "slot": "Morning",
+      "time": "09:00",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Draw one Arabic letter, such as alif, a single vertical stroke, again and again, as slowly and steadily as you can. Or write your name in any beautiful script. Baghdad’s calligraphers, such as Ibn al-Bawwab, perfected the rounded cursive hands. The point is the attention. Put your best line on the wall.",
+      "why": "Ibn al-Bawwab (died 1022) is said to have refined the proportioned cursive scripts. Even one slow, perfect line is an honest pleasure and a lesson in patience.",
+      "variations": [
+        "Use a flat-nibbed pen or marker.",
+        "Try your name in a script you do not know.",
+        "Look up a master’s page first."
+      ]
+    },
+    {
+      "id": "a-little-algebra-before-breakfast",
+      "name": "A little algebra before breakfast",
+      "icon": "ruler",
+      "slot": "Morning",
+      "time": "07:30",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Solve one small problem with unknowns before you eat: if three baskets and two apples weigh eight and one basket and two apples weigh four, how much is a basket? Al-Khwarizmi called the method al-jabr, restoring: moving a term to the other side to balance it. Work it out on paper, and enjoy the click when it comes.",
+      "why": "Algebra takes its name from al-jabr in al-Khwarizmi’s book of about 820. It was written to solve practical problems of inheritance, trade and land, and is still a good morning exercise.",
+      "variations": [
+        "Make up a problem for someone else.",
+        "Try a puzzle with two unknowns.",
+        "Look up how al-Khwarizmi did it."
       ]
     },
     {
@@ -326,8 +406,8 @@
       "time": "12:30",
       "minutes": 15,
       "meta": "Afternoon · 15 min",
-      "instructions": "Take one paragraph each day and carry it into another form. Translate a few lines from a language you are learning. Or rewrite a technical passage so that a twelve-year-old would follow it. Or put a poem into plain prose. Compare your version with the original line by line. Note the one place where you had to choose between the words and the sense.",
-      "why": "Hunayn ibn Ishaq and his school collected several manuscripts of each Greek book, compared them and translated for the sense. Translation is the closest form of reading, and it is how Baghdad made the world’s knowledge its own.",
+      "instructions": "Take one paragraph each day and carry it into another form. Translate a few lines from a language you are learning. Or rewrite a technical passage so that a twelve-year-old would follow it. Or put a poem into plain prose. Compare your version with the original line by line. Note the one place where you had to choose between the letter and the sense.",
+      "why": "Hunayn ibn Ishaq and his school collected several manuscripts of each Greek book, compared them and translated for the sense. Translation is the closest reading there is.",
       "variations": [
         "Translate the same passage twice, a week apart, and compare.",
         "Translate with a friend who knows the language better.",
@@ -337,29 +417,94 @@
     {
       "id": "doubt-and-test",
       "name": "Doubt and test",
-      "icon": "eye",
+      "icon": "flask",
       "slot": "Afternoon",
       "time": "15:00",
       "minutes": 15,
       "meta": "Afternoon · 15 min",
       "instructions": "Choose one thing you believe because you were told it: a claim in the news, a rule of thumb, a fact about your own habits. Write it down. Then check it by the most direct means you have. Measure, count, time it, look it up in two independent sources, or try it. Write what you found beside the claim. One claim a day.",
-      "why": "Ibn al-Haytham, born in Basra, wrote that a seeker of truth must make himself the enemy of all that he reads. He tested how vision works with a dark room and a small hole, and the method outlived the theory.",
+      "why": "Ibn al-Haytham, born in Basra, wrote that a seeker of truth must make himself the enemy of all that he reads. He tested how vision works with a dark room and a pinhole.",
       "variations": [
         "Repeat someone else’s simple experiment at home.",
         "Keep a page of things you were wrong about.",
         "Ask an expert how they know."
+      ],
+      "action": "journal"
+    },
+    {
+      "id": "learn-from-someone-you-disagree-with",
+      "name": "Learn from someone you disagree with",
+      "icon": "handshake",
+      "slot": "Afternoon",
+      "time": "13:30",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Choose someone whose views you do not share and ask them a real question about what they think, and why. Listen to the whole answer. Find one thing you can take from it. The rule of this Onda is to take the truth from wherever it comes. Al-Kindi said we should not be ashamed to accept truth from any source, even from peoples far from us.",
+      "why": "Al-Kindi wrote that we ought not to be ashamed of acquiring truth from any source, even from races distant and different from us. It is a good motto for any open-minded person.",
+      "variations": [
+        "Do it with someone from another field.",
+        "Do it by reading, not talking.",
+        "Thank them for the one good thing."
+      ]
+    },
+    {
+      "id": "a-friendly-disputation",
+      "name": "A friendly disputation",
+      "icon": "chats",
+      "slot": "Afternoon",
+      "time": "16:00",
+      "minutes": 15,
+      "meta": "Afternoon · 15 min",
+      "instructions": "Pick a friend and a question, and hold a short munazara, a disputation: each in turn states a case, answers the other’s, and then both say what they have learned. Argue the point and honour the person. The aim is to find out, not to win. Shake hands at the end, and say what changed your mind.",
+      "why": "Formal disputation, munazara, was a major form of Abbasid intellectual life. The best of it combined a sharp argument with a graceful respect for the other side.",
+      "variations": [
+        "Do it on a trivial question for fun.",
+        "Switch sides halfway.",
+        "Do it in writing."
+      ]
+    },
+    {
+      "id": "lend-or-return-a-book",
+      "name": "Lend or return a book",
+      "icon": "book-open",
+      "slot": "Afternoon",
+      "time": "14:30",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Lend a book to someone who would enjoy it, with a note, or return one you have borrowed, with a note of thanks. Books were lent freely among scholars, and returning one late or damaged was bad form. Pick the book that is just right for the person. Then ask them next week what they thought.",
+      "why": "In Abbasid learning, books were lent, copied and passed on, and returning them in good order was a mark of good manners. A well-chosen loan is also a gift.",
+      "variations": [
+        "Lend a book you love.",
+        "Return something that has been on your shelf too long.",
+        "Join or start a book swap."
+      ]
+    },
+    {
+      "id": "a-shop-you-would-not-enter",
+      "name": "A shop you would not enter",
+      "icon": "storefront",
+      "slot": "Afternoon",
+      "time": "17:00",
+      "minutes": 30,
+      "meta": "Afternoon · 30 min",
+      "instructions": "Visit a bookshop, a library or a secondhand market, and choose a book from a shelf you would never usually look at. Read the first page, and take it home if you like it. Al-Jahiz, who loved books, would hire a bookseller’s stall overnight to read it all. Follow your curiosity a short way.",
+      "why": "Al-Jahiz is said to have read all night in the booksellers’ shops of Baghdad. A visit to a shelf you do not know is a small version of his habit.",
+      "variations": [
+        "Choose by the cover.",
+        "Ask the bookseller what they would read.",
+        "Read a chapter at a café."
       ]
     },
     {
       "id": "the-majlis",
       "name": "The majlis",
-      "icon": "chats",
+      "icon": "users-three",
       "slot": "Evening",
       "time": "19:30",
       "minutes": 40,
       "meta": "Evening · 40 min",
-      "instructions": "Hold a sitting. Invite one person or several, in your home or by call. Put out tea and something sweet. Set one question for the evening and let each person speak to it in turn before anyone answers anyone. Include a poem, a song or a story. The host’s task is to see that every guest is heard and that no one leaves hungry. On days without company, write a letter to someone you would have asked.",
-      "why": "The salons of viziers, physicians and booksellers were where Abbasid culture happened. Muslims, Christians, Jews and sceptics debated in them under rules of courtesy that were set before they began.",
+      "instructions": "Hold a sitting. Invite one person or several, in your home or by call. Put out tea and something sweet. Set one question for the evening and let each person speak to it in turn before anyone answers anyone. Include a poem, a song or a story. The host’s task is to see that every guest is heard and that no one leaves hungry.",
+      "why": "The salons of viziers, physicians and booksellers were where Abbasid culture happened. Muslims, Christians, Jews and sceptics debated in them under rules of courtesy.",
       "variations": [
         "Ask each guest to bring one thing to read aloud.",
         "Agree at the start that no one may quote an authority in place of a reason.",
@@ -374,135 +519,324 @@
       "time": "21:30",
       "minutes": 10,
       "meta": "Evening · 10 min",
-      "instructions": "Go out after dark and look up for ten minutes. Find the moon and note its phase. Find one bright star and learn its name: Aldebaran, Altair, Vega, Deneb, Betelgeuse and Rigel all come from Arabic. Note where it stands compared with a roof or a tree, and look again at the same hour tomorrow. On cloudy nights, read a page about the star you found last.",
+      "instructions": "Go out after dark and look up for ten minutes. Find the moon and note its phase. Find one bright star and learn its name: Aldebaran, Altair, Vega, Deneb, Betelgeuse and Rigel all come from Arabic. Note where it stands compared with a roof or a tree, and look again at the same hour tomorrow. On cloudy nights, read a page about the stars.",
       "why": "Al-Mamun’s astronomers measured the size of the Earth from the plain of Sinjar and checked Ptolemy’s tables against the sky. About two hundred stars still carry Arabic names.",
       "variations": [
         "Follow the moon through a whole month.",
         "Find the direction of sunrise and mark how it shifts.",
         "Use a free star chart to learn one constellation a week."
       ]
-    }
-  ],
-  "tasks": [
-    {
-      "id": "solve-one-equation-by-completing-the-square",
-      "name": "Solve one equation by completing the square",
-      "meta": "Try x squared plus 10x equals 39, as al-Khwarizmi did",
-      "time": "11:00",
-      "slot": "Afternoon"
     },
     {
-      "id": "find-five-star-names-that-come-from-arabic",
-      "name": "Find five star names that come from Arabic",
-      "meta": "Start with Aldebaran, the follower",
-      "time": "22:00",
-      "slot": "Evening"
-    },
-    {
-      "id": "copy-a-page-you-love-by-hand-and-give-it-to-someone",
-      "name": "Copy a page you love by hand and give it to someone",
-      "meta": "The way every book was once made",
-      "time": "16:00",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "task-read-three-nights-of-the-thousand-and-one-nights",
-      "name": "Read three nights of the Thousand and One Nights",
-      "meta": "Read · stop where she stops",
-      "time": "21:00",
+      "id": "leave-room-at-the-table",
+      "name": "Leave room at the table",
+      "icon": "armchair",
       "slot": "Evening",
-      "action": "read"
+      "time": "19:00",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Set one more place at the table than you need, and cook enough for it. If someone comes, welcome them, and if not, send the extra to a neighbour or save it for tomorrow. The last rule of this Onda is to leave room at the table. A good majlis host sees that no one leaves hungry. Make a habit of a little too much.",
+      "why": "Generosity at the table was a mark of Abbasid civilisation, and of Arab hospitality older than it. Leaving a place open is a practical way of saying that a guest is welcome.",
+      "variations": [
+        "Invite someone at short notice.",
+        "Share a dish with the person next door.",
+        "Leave a seat free and see who fills it."
+      ]
     },
     {
-      "id": "task-listen-to-an-oud-improvisation-with-your-eyes-closed",
-      "name": "Listen to an oud improvisation with your eyes closed",
-      "meta": "Listen · Munir Bashir, 10 min",
+      "id": "capping-verses",
+      "name": "Capping verses",
+      "icon": "feather",
+      "slot": "Evening",
+      "time": "20:00",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Play the game of the majlis: one person gives a line of poetry or a line of any song, and the next must answer with a line that begins with the last letter or word of that one. Play with a friend, or with a poem book open. Laugh when you stumble. It is a quick, friendly test of memory and wit.",
+      "why": "Riddles and capping verses were games of the Baghdad salon, and poets played them for sport. A capping game is easy to start and easy to enjoy.",
+      "variations": [
+        "Play it with proverbs.",
+        "Play it by text with a faraway friend.",
+        "Play it with a child, with simple words."
+      ]
+    },
+    {
+      "id": "a-cold-sharab",
+      "name": "A cold sharab",
+      "icon": "drop",
+      "slot": "Evening",
       "time": "20:30",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Stir a spoonful of fruit syrup, pomegranate, rose, lemon or quince, into a glass of cold water, and drink it slowly. The words syrup, sherbet and sorbet all come from the Arabic sharab. Make a jug for friends and enjoy the colour. It is a cool pleasure for a warm evening.",
+      "why": "Fruit syrups stirred into cold water were a favourite refreshment of Baghdad. The word sherbet and its cousins came west through the Arabic sharab, a drink.",
+      "variations": [
+        "Make it with real pomegranate juice.",
+        "Add fresh mint leaves.",
+        "Make a jug for a gathering."
+      ]
+    },
+    {
+      "id": "listen-to-the-oud",
+      "name": "Listen to the oud",
+      "icon": "guitar",
       "slot": "Evening",
-      "action": "listen"
+      "time": "21:00",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Play an oud improvisation by Munir Bashir, Naseer Shamma or another master, and do nothing else for fifteen minutes. Listen with eyes closed. The oud is the short-necked lute of the Abbasid court, said to have been refined in Baghdad by Ziryab and others. Follow how the melody wanders and returns.",
+      "why": "The oud was the great instrument of Abbasid music, and a concert instrument today. Listening to a taqsim, an improvisation, is a pleasure that slows the heart.",
+      "variations": [
+        "Listen to Iraqi maqam instead.",
+        "Listen with a cup of tea.",
+        "Look up the story of the instrument first."
+      ]
     },
     {
-      "id": "task-cook-a-sweet-and-sour-stew-from-a-tenth-century-baghdad-cookbook",
-      "name": "Cook a sweet and sour stew from a tenth-century Baghdad cookbook",
-      "meta": "Eat · sikbaj",
-      "time": "18:00",
-      "slot": "Evening",
-      "action": "eat"
+      "id": "a-book-market-morning",
+      "name": "A book market morning",
+      "icon": "newspaper",
+      "slot": "Special",
+      "time": "10:00",
+      "minutes": 90,
+      "meta": "On a free morning · 90 min",
+      "instructions": "Spend a morning in a secondhand book market, a library or a bookshop, as on Friday along al-Mutanabbi Street in Baghdad, where booksellers still fill the street with stalls. Browse, talk to a seller, find one book that surprises you, and read the first pages over a cup of tea. Leave with one book and one conversation.",
+      "why": "Al-Mutanabbi Street is Baghdad’s booksellers’ street, a Friday gathering of readers and poets, named after the tenth-century poet. It continues a very old tradition of the city.",
+      "variations": [
+        "Go with a friend and swap picks.",
+        "Set a small budget and keep to it.",
+        "Buy a book for someone else."
+      ]
     },
     {
-      "id": "task-journal-what-did-you-take-on-trust-today-and-from-whom",
-      "name": "Journal: what did you take on trust today, and from whom?",
-      "meta": "Journal · 10 min",
-      "time": "21:45",
-      "slot": "Evening",
-      "action": "journal"
-    },
-    {
-      "id": "task-take-a-truth-from-someone-you-disagree-with",
-      "name": "Take a truth from someone you disagree with",
-      "meta": "Philosophy · 10 min",
-      "time": "09:00",
-      "slot": "Morning",
-      "action": "philosophy"
-    },
-    {
-      "id": "treat-smell-three-spices-from-your-kitchen-with-your-eyes-closed-a",
-      "name": "Smell three spices from your kitchen with your eyes closed and name them",
-      "meta": "Cardamom, cinnamon, cumin",
-      "time": "15:30",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "treat-look-up-what-one-english-word-owes-to-arabic",
-      "name": "Look up what one English word owes to Arabic",
-      "meta": "Algebra, sugar, sofa",
-      "time": "08:30",
-      "slot": "Morning"
-    },
-    {
-      "id": "treat-pose-a-riddle-at-dinner",
-      "name": "Pose a riddle at dinner",
-      "meta": "The court loved them",
-      "time": "19:30",
-      "slot": "Evening"
-    },
-    {
-      "id": "treat-find-the-moon-tonight-and-say-which-phase-it-is-in",
-      "name": "Find the moon tonight and say which phase it is in",
-      "meta": "One look",
-      "time": "19:30",
-      "slot": "Evening"
-    },
-    {
-      "id": "daily-cut-a-sheet-of-paper-or-a-pen-to-a-slant-and-write-your-name",
-      "name": "Cut a sheet of paper or a pen to a slant and write your name in a slow, even hand",
-      "meta": "The scribes of Baghdad cut their reed pens at an angle",
-      "time": "07:15",
-      "slot": "Morning"
-    },
-    {
-      "id": "daily-look-up-one-everyday-word-that-came-into-english-from-arabic",
-      "name": "Look up one everyday word that came into English from Arabic",
-      "meta": "Sugar, coffee, sofa, algebra: each has a journey",
-      "time": "07:15",
-      "slot": "Morning"
-    },
-    {
-      "id": "daily-before-breakfast-ask-how-you-would-test-one-thing-you-believ",
-      "name": "Before breakfast, ask how you would test one thing you believe",
-      "meta": "Ibn al-Haytham asked this of everything",
-      "time": "07:15",
-      "slot": "Morning"
-    },
-    {
-      "id": "daily-spend-ten-minutes-in-a-library-bookshop-or-reading-room",
-      "name": "Spend ten minutes in a library, bookshop or reading room",
-      "meta": "Baghdad had a market of paper sellers and copyists",
-      "time": "14:00",
-      "slot": "Afternoon"
+      "id": "a-night-of-stories",
+      "name": "A night of stories",
+      "icon": "campfire",
+      "slot": "Special",
+      "time": "20:00",
+      "minutes": 90,
+      "meta": "On a free evening · 90 min",
+      "instructions": "Gather friends or family for an evening of stories in the manner of the hakawati, the storyteller: each person tells one tale, with a beginning, a twist and a stop at the best moment. Scheherazade kept a king listening by stopping in the middle. Serve tea and sweets. Leave the last story unfinished until next week.",
+      "why": "The Thousand and One Nights gathers tales told by Scheherazade, each one cut off at a cliffhanger. Storytellers, hakawatis, held audiences in Baghdad’s coffeehouses for centuries.",
+      "variations": [
+        "Tell a story from your own childhood.",
+        "Tell one from the Nights.",
+        "Stop mid-story and see who can’t wait."
+      ]
     }
   ],
-  "immersePlan": [],
+  "tasks": [],
+  "immersePlan": [
+    {
+      "kind": "read",
+      "item": "read-the-arabian-nights",
+      "name": "Read a night of the Arabian Nights",
+      "text": "Read one or two nights from Husain Haddawy’s translation of the oldest surviving manuscript, and stop at the cliffhanger. Tell the story to someone later in your own words.",
+      "minutes": 20
+    },
+    {
+      "kind": "read",
+      "item": "read-the-house-of-wisdom",
+      "name": "Read a chapter of The House of Wisdom",
+      "text": "Read a chapter of Jim Al-Khalili’s story of Arabic science and the translators, told by a physicist born in Baghdad. Pick one scientist and look up another thing about them.",
+      "minutes": 25
+    },
+    {
+      "kind": "read",
+      "item": "read-the-book-of-misers",
+      "name": "Read about a miser in al-Jahiz",
+      "text": "Open the funniest prose writer of the ninth century and read a few pages of portraits of stingy men. Notice how the humour works, and which one you recognise.",
+      "minutes": 15
+    },
+    {
+      "kind": "watch",
+      "item": "watch-science-and-islam",
+      "name": "Watch an episode of Science and Islam",
+      "text": "Watch an episode of Jim Al-Khalili’s BBC series on medicine, mathematics or astronomy, filmed in Iraq, Syria and Egypt. Notice what he shows, and what remains.",
+      "minutes": 60
+    },
+    {
+      "kind": "watch",
+      "item": "watch-the-adventures-of-prince-achmed",
+      "name": "Watch Prince Achmed",
+      "text": "Watch the oldest surviving animated feature, cut from black paper by hand by Lotte Reiniger in 1926. It is a tale from the Nights. Notice the delicacy of every figure.",
+      "minutes": 65
+    },
+    {
+      "kind": "watch",
+      "item": "watch-1001-inventions-and-the-library-of-secrets",
+      "name": "Watch the Library of Secrets",
+      "text": "Watch the short film in which a librarian, played by Ben Kingsley, introduces children to the scientists of the Muslim world. It is bright and quick. Notice which inventor you did not know.",
+      "minutes": 15
+    },
+    {
+      "kind": "listen",
+      "item": "listen-the-art-of-the-oud",
+      "name": "Listen to Munir Bashir’s oud",
+      "text": "Play solo improvisations by the Iraqi master who made the oud a concert instrument. Close your eyes and follow the line as it wanders and returns.",
+      "minutes": 20
+    },
+    {
+      "kind": "listen",
+      "item": "listen-iraqi-maqam",
+      "name": "Hear the Iraqi maqam",
+      "text": "Play a track of the classical song tradition of Baghdad, with santur, spike fiddle and voice. Notice how a single mode shapes the whole piece.",
+      "minutes": 15
+    },
+    {
+      "kind": "listen",
+      "item": "listen-scheherazade",
+      "name": "Listen to Rimsky-Korsakov’s Scheherazade",
+      "text": "Play the Russian composer’s suite inspired by the Nights, with a solo violin as the voice of the storyteller. Pick out the violin every time it comes in.",
+      "minutes": 45
+    },
+    {
+      "kind": "art",
+      "item": "art-the-spiral-minaret-of-samarra",
+      "name": "Look at the Malwiya minaret",
+      "text": "Look at pictures of the 52-metre baked brick tower with a ramp winding round the outside, built at Samarra around 850. Imagine climbing it.",
+      "minutes": 5
+    },
+    {
+      "kind": "art",
+      "item": "art-the-maqamat-of-al-hariri",
+      "name": "Look at the Maqamat pictures",
+      "text": "Look at paintings by Yahya al-Wasiti from 1237: lively scenes of libraries, caravans, taverns and villages. Pick one and describe everyone in it.",
+      "minutes": 15
+    },
+    {
+      "kind": "art",
+      "item": "art-the-qur-an-of-ibn-al-bawwab",
+      "name": "Look at Ibn al-Bawwab’s manuscript",
+      "text": "Look at the earliest surviving Qur’an on paper in a rounded hand, made in Baghdad in 1000 and 1001. Look at the proportion of the letters, and the evenness of the line.",
+      "minutes": 10
+    },
+    {
+      "kind": "eat",
+      "item": "eat-sikbaj",
+      "name": "Cook a sikbaj-style stew",
+      "text": "Stew meat, or chickpeas and vegetables, with vinegar, honey and dried fruit, as in the most praised dish of the court. Taste the sweet and sour together. It is the ancestor of escabeche.",
+      "minutes": 90
+    },
+    {
+      "kind": "eat",
+      "item": "eat-harisa",
+      "name": "Make or taste harisa",
+      "text": "Make a porridge of wheat and meat beaten smooth and cooked slowly, as sold in the morning markets. A vegetarian version with lentils is fine. Eat it with a spoonful of melted fat or oil.",
+      "minutes": 90
+    },
+    {
+      "kind": "eat",
+      "item": "eat-lauzinaj",
+      "name": "Make almond sweets",
+      "text": "Make a sweet of almond paste in thin pastry soaked in syrup, scented with rosewater. The sweet that ended a good dinner. Share it with someone.",
+      "minutes": 40
+    },
+    {
+      "kind": "drink",
+      "item": "drink-sharab",
+      "name": "Make a fruit sharab",
+      "text": "Stir a fruit syrup, pomegranate, quince, rose or lemon, into cold water. The words sherbet, sorbet and syrup come from sharab. Drink it slowly.",
+      "minutes": 10
+    },
+    {
+      "kind": "drink",
+      "item": "drink-sakanjabin",
+      "name": "Make sakanjabin",
+      "text": "Make a syrup of vinegar and honey with mint and dilute it in water. It is a cooling drink that physicians prescribed, taken diluted in summer. Taste the sour and sweet.",
+      "minutes": 15
+    },
+    {
+      "kind": "drink",
+      "item": "drink-fuqqa",
+      "name": "Try a malt drink",
+      "text": "Fuqqa was a lightly fermented barley drink, sold in the streets in sealed jars. Drink a cold non-alcoholic malt drink in its spirit. Taste how it refreshes.",
+      "minutes": 10
+    },
+    {
+      "kind": "customs",
+      "item": "customs-washing-hands-at-the-table",
+      "name": "Wash hands before and after a meal",
+      "text": "A servant brought a basin and ewer to each guest in turn at the Abbasid table. Wash your hands slowly before and after one meal today, and offer a basin or a towel to someone else.",
+      "minutes": 5
+    },
+    {
+      "kind": "customs",
+      "item": "customs-riddles-and-capping-verses",
+      "name": "Play the games of the majlis",
+      "text": "One guest gives a line of poetry and the next answers with a line. Play a round with a friend, or a round of riddles. Laugh at the stumbles.",
+      "minutes": 15
+    },
+    {
+      "kind": "customs",
+      "item": "customs-lending-a-book",
+      "name": "Lend a book with a note",
+      "text": "Lend a book to someone who would enjoy it, with a note. Books were lent freely among scholars, and returning one late or damaged was bad form.",
+      "minutes": 10
+    },
+    {
+      "kind": "games",
+      "item": "games-shatranj",
+      "name": "Play shatranj",
+      "text": "Play old chess, before the modern queen. The Baghdad courtier al-Suli was the strongest player of his age. Play a short game, with the counsellor moving one step at a time.",
+      "minutes": 30
+    },
+    {
+      "kind": "games",
+      "item": "games-nard",
+      "name": "Play backgammon",
+      "text": "Play nard, backgammon. Abbasid moralists disapproved of the dice, and everyone played anyway. Play a game with someone and accept the throws.",
+      "minutes": 30
+    },
+    {
+      "kind": "games",
+      "item": "games-tales-of-the-arabian-nights",
+      "name": "Play a storytelling game",
+      "text": "Play the storytelling game with a book of numbered paragraphs, or invent one: roll a die, read a short passage, decide what you do. Tell the story afterwards.",
+      "minutes": 45
+    },
+    {
+      "kind": "travel",
+      "item": "fest-friday-on-al-mutanabbi-street",
+      "name": "Spend Friday on al-Mutanabbi Street, in spirit",
+      "text": "Every Friday the booksellers’ street in Baghdad fills with stalls, readers and poets. Spend time at a bookstall or library near you today, and look for the book that finds you.",
+      "minutes": 30
+    },
+    {
+      "kind": "travel",
+      "item": "fest-world-arabic-language-day",
+      "name": "Mark World Arabic Language Day",
+      "text": "World Arabic Language Day is on 18 December. Learn to write a word in Arabic, such as the word for book, kitab, and say it aloud.",
+      "minutes": 15
+    },
+    {
+      "kind": "travel",
+      "item": "place-samarra",
+      "name": "Look up Samarra",
+      "text": "Look up the caliphs’ capital from 836 to 892: the great mosque and its spiral minaret. Read about a city built and left within fifty years.",
+      "minutes": 15
+    },
+    {
+      "kind": "words",
+      "item": "word-ilm",
+      "name": "Think about ilm",
+      "text": "Ilm is knowledge. Choose one thing you know well enough to teach, and teach it to someone today in five minutes. Notice what you did not know you knew.",
+      "minutes": 10
+    },
+    {
+      "kind": "words",
+      "item": "word-majlis",
+      "name": "Hold a small majlis",
+      "text": "Majlis is a sitting, a salon. Sit with one person and one cup of tea for twenty minutes, with a single question to share. Listen until they finish.",
+      "minutes": 20
+    },
+    {
+      "kind": "words",
+      "item": "word-sifr",
+      "name": "Think about zero",
+      "text": "Sifr is empty, the word from which zero and cipher come. Think about how much depends on the empty place in a number. Find one empty space in your day and protect it.",
+      "minutes": 5
+    }
+  ],
   "rules": [
     {
       "id": "r1",

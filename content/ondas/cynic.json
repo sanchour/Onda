@@ -306,7 +306,7 @@
       "time": "07:30",
       "minutes": 5,
       "meta": "Morning · 5 min",
-      "instructions": "Each morning choose one thing to do without until tomorrow: sugar in the coffee, the lift, the podcast on the way to work, a second helping, a purchase you had planned. Say plainly to yourself what it is. During the day, notice the moment you reach for it and what the reaching feels like. In the evening ask whether you needed it or only had it. Choose a different thing each day.",
+      "instructions": "Each morning choose one thing to do without until tomorrow: sugar in the coffee, the lift, the podcast on the way to work, a second helping, a purchase you had planned. Say plainly to yourself what it is. During the day, notice the moment you reach for it and what the reaching feels like. In the evening ask whether you needed it.",
       "why": "Diogenes saw a child drink from cupped hands and threw away his cup. The exercise is about finding out by experiment how short the list of real needs is.",
       "variations": [
         "Give the thing away instead of only skipping it.",
@@ -317,17 +317,81 @@
     {
       "id": "weather-training",
       "name": "Weather training",
-      "icon": "shower",
+      "icon": "snowflake",
       "slot": "Morning",
       "time": "07:45",
       "minutes": 5,
       "meta": "Morning · 5 min",
-      "instructions": "Give your body a small dose of chosen discomfort. End your shower with thirty seconds of cold water. Or walk the first five minutes outside without a coat. Or sit on the floor instead of a chair for a meal. Keep it short and safe. The point is to stay calm inside it: breathe slowly and do not hurry to end it. Skip this if you are unwell.",
+      "instructions": "Give your body a small dose of chosen discomfort. End your shower with thirty seconds of cold water. Or walk the first five minutes outside without a coat. Or sit on the floor instead of a chair for a meal. Keep it short and safe. The point is to stay calm inside it: breathe slowly and do not hurry to end it. Skip this if you are unwell or have a medical reason.",
       "why": "Diogenes rolled in hot sand in summer and embraced snow-covered statues in winter, to harden himself. He held that training the body trains the will.",
       "variations": [
         "Sleep one night on a mat on the floor.",
         "Take the stairs all day.",
         "Carry your shopping home on foot."
+      ]
+    },
+    {
+      "id": "one-pouch",
+      "name": "One pouch",
+      "icon": "backpack",
+      "slot": "Morning",
+      "time": "08:00",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Today, go out carrying only what fits in one small pouch or pocket: keys, a little money, a phone only if you must. Notice the lightness. Diogenes carried a pouch, a staff and a cloak, and wanted no more. Leave behind whatever bag you usually take, and see what you actually missed by evening.",
+      "why": "The Cynic’s kit was a pouch, a staff and a doubled cloak. Travelling light is a way of finding out how little you need, and a pleasant freedom.",
+      "variations": [
+        "Leave the bag at home for a short trip.",
+        "Take only what you can carry in your hands.",
+        "Empty your pockets at night and see what was useless."
+      ]
+    },
+    {
+      "id": "water-from-your-hands",
+      "name": "Water from your hands",
+      "icon": "drop",
+      "slot": "Morning",
+      "time": "07:00",
+      "minutes": 3,
+      "meta": "Morning · 3 min",
+      "instructions": "Go to a tap or a spring, put down your glass, and drink the water from your cupped hands. Do it slowly. It is the whole story of Diogenes and the cup in a gesture. Notice what a cup was for, and whether you needed it. Dry your hands on your clothes and walk on.",
+      "why": "Diogenes threw away his bowl when he saw a child drink from his hands, and said that the child had beaten him in plainness of living. Try it once.",
+      "variations": [
+        "Do it at a spring or fountain.",
+        "Do it for every drink today.",
+        "Tell someone why."
+      ]
+    },
+    {
+      "id": "laugh-at-yourself-first",
+      "name": "Laugh at yourself first",
+      "icon": "smiley",
+      "slot": "Morning",
+      "time": "09:00",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Tell one small joke at your own expense today, a gentle one, about something you do or fear. Say it to someone, or in your head. A Cynic laughed at himself before he laughed at anyone else. Notice how it takes the sting out of being wrong, and how people lean toward you when you do. Keep it kind.",
+      "why": "A rule of this Onda is to laugh at yourself first. Diogenes’s humour was sharp, but he turned it on himself and his own poverty as much as on others.",
+      "variations": [
+        "Tell the joke to a friend.",
+        "Write it down.",
+        "Notice when you take yourself too seriously."
+      ]
+    },
+    {
+      "id": "go-the-other-way",
+      "name": "Go the other way",
+      "icon": "arrows-clockwise",
+      "slot": "Morning",
+      "time": "08:30",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Today, go in the opposite direction from the crowd once: take the other door, the other side of the street, the quiet path. Diogenes was said to walk into the theatre as everyone else was leaving. Do it harmlessly, and notice how it feels to leave the flow. Look for what is on that side that you never saw.",
+      "why": "To enter as others leave was Diogenes’s way of saying that the crowd is not always right. A harmless version teaches you to look at habits you never question.",
+      "variations": [
+        "Walk the other way round the block.",
+        "Take the stairs when everyone takes the lift.",
+        "Do it only once, and carefully."
       ]
     },
     {
@@ -339,7 +403,7 @@
       "minutes": 20,
       "meta": "Afternoon · 20 min",
       "instructions": "Make one meal a day as plain as a Cynic’s: lentils or beans, bread, olives, an onion, fruit and water. Eat it outdoors if you can, on a bench or a step, with no screen. Eat slowly enough to notice that hunger makes it good. If someone asks what you are doing, tell them the truth.",
-      "why": "Diogenes ate in the marketplace, which respectable Athenians did not do, and lived on barley cake, lentils and figs. He said hunger was the best sauce and cost nothing.",
+      "why": "Diogenes ate in the marketplace, which respectable Athenians did not do, and lived on barley cake, lentils and figs. He said hunger was the best sauce.",
       "variations": [
         "Share the meal with someone and talk about what enough means.",
         "Eat only what is already in the house for a day.",
@@ -349,17 +413,81 @@
     {
       "id": "frank-word",
       "name": "The frank word",
-      "icon": "chats",
+      "icon": "megaphone",
       "slot": "Afternoon",
       "time": "16:00",
       "minutes": 10,
       "meta": "Afternoon · 10 min",
-      "instructions": "Once a day say one true thing you would normally soften, swallow or save for later. Say it to the person’s face, briefly, without heat, and then stop talking. It can be praise you were too shy to give, a no you were about to turn into a maybe, or an honest answer to how are you. The rule has two halves: nothing behind anyone’s back, and nothing meant to wound.",
+      "instructions": "Once a day say one true thing you would normally soften, swallow or save for later. Say it to the person’s face, briefly, without heat, and then stop talking. It can be praise you were too shy to give, a no you were about to turn into a maybe, or an honest answer to how are you. The rule has two halves: nothing behind anyone’s back, and nothing cruel.",
       "why": "Diogenes called freedom of speech the most beautiful thing in the world. The Cynics treated flattery as a kind of slavery, for both sides.",
       "variations": [
         "Tell someone a truth about yourself that you usually hide.",
         "Refuse one thing today without giving a false reason.",
         "Ask a friend to tell you one thing you do not want to hear."
+      ]
+    },
+    {
+      "id": "ask-for-the-small-thing",
+      "name": "Ask for the small thing",
+      "icon": "hand-pointing",
+      "slot": "Afternoon",
+      "time": "14:30",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Ask for something small that you expect to be refused: a discount, a favour, a seat at a full table, a second look at a decision. Ask politely and plainly and accept the answer with a smile. Diogenes begged from a statue to practise being refused. The aim is to find that a no does not hurt, and often a yes arrives.",
+      "why": "Practice in being refused was a Cynic exercise to train out the fear of rejection. A harmless modern version is simply to ask more often than you do.",
+      "variations": [
+        "Ask for a better table.",
+        "Ask a stranger for directions you already know, and thank them.",
+        "Ask for help with something you would usually do alone."
+      ]
+    },
+    {
+      "id": "out-of-my-light",
+      "name": "Out of my light",
+      "icon": "sun",
+      "slot": "Afternoon",
+      "time": "15:00",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Find a patch of sun and sit in it for ten minutes, asking nothing of anyone. When Alexander the Great offered him anything he wanted, Diogenes said: stand out of my light. Be that content. If someone or something blocks your sun, move gently. Notice how rich you are with warmth and nothing else.",
+      "why": "The meeting with Alexander is the best known anecdote about Diogenes. His answer is a piece of philosophy: the greatest gift is not to be disturbed.",
+      "variations": [
+        "Do it in a park with your shoes off.",
+        "Do it with a friend and say nothing.",
+        "Do it in winter sun."
+      ]
+    },
+    {
+      "id": "custom-or-nature",
+      "name": "Custom or nature?",
+      "icon": "question",
+      "slot": "Afternoon",
+      "time": "12:30",
+      "minutes": 8,
+      "meta": "Afternoon · 8 min",
+      "instructions": "Choose one thing you do because everyone does, a custom, a rule, a way of dressing or eating or speaking. Ask: is this from nomos, convention, or from physis, nature? Write one line. If it is only custom, ask whether you want to keep it. The Cynics thought most of what we call needs is custom dressed as nature.",
+      "why": "The Greek contrast of nomos and physis, custom and nature, was central to Cynic thought. They tested every convention against what a human being actually needs.",
+      "variations": [
+        "Do it for a rule at work.",
+        "Do it for a family tradition.",
+        "Do it for something you buy."
+      ]
+    },
+    {
+      "id": "one-good-thing-unseen",
+      "name": "One good thing unseen",
+      "icon": "hand-heart",
+      "slot": "Afternoon",
+      "time": "17:00",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Do one good thing today that no one will ever know about: pick up litter, leave a kind note unsigned, pay for a stranger’s coffee, carry something. Tell nobody. It is one of the rules of this Onda. See how it feels to do good with no audience, and how tempting it is to mention it.",
+      "why": "The Cynics scorned vanity, typhos, smoke. A good deed unseen is a test of whether you do things for their own sake or for applause.",
+      "variations": [
+        "Do two in one day.",
+        "Do it for an enemy.",
+        "Do it and resist telling a friend."
       ]
     },
     {
@@ -376,143 +504,335 @@
         "Walk the block with a torch and do the review on foot.",
         "Do it with a friend, each answering in turn.",
         "Keep the answers for the whole Onda and read them at the end."
-      ]
-    }
-  ],
-  "tasks": [
-    {
-      "id": "give-away-one-thing-you-have-not-used-in-a-year",
-      "name": "Give away one thing you have not used in a year",
-      "meta": "A cup, a coat, a gadget",
-      "time": "11:00",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "sit-in-the-sun-for-ten-minutes-and-ask-for-nothing",
-      "name": "Sit in the sun for ten minutes and ask for nothing",
-      "meta": "No phone, no book",
-      "time": "12:30",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "ask-for-something-you-expect-to-be-refused",
-      "name": "Ask for something you expect to be refused",
-      "meta": "Practice in hearing no",
-      "time": "15:00",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "task-read-book-6-of-the-lives-of-eminent-philosophers",
-      "name": "Read Book 6 of the Lives of Eminent Philosophers",
-      "meta": "Read · every story about Diogenes, in an hour",
-      "time": "20:00",
-      "slot": "Evening",
-      "action": "read"
-    },
-    {
-      "id": "task-find-diogenes-on-the-steps-in-the-school-of-athens",
-      "name": "Find Diogenes on the steps in The School of Athens",
-      "meta": "Art · he is the one who does not care",
-      "time": "17:00",
-      "slot": "Afternoon",
-      "action": "art"
-    },
-    {
-      "id": "task-eat-lentils-bread-and-olives-outdoors",
-      "name": "Eat lentils, bread and olives outdoors",
-      "meta": "Eat · the Cynic lunch",
-      "time": "13:00",
-      "slot": "Afternoon",
-      "action": "eat"
-    },
-    {
-      "id": "task-journal-what-did-you-do-today-for-applause",
-      "name": "Journal: what did you do today for applause?",
-      "meta": "Journal · 10 min",
-      "time": "21:15",
-      "slot": "Evening",
+      ],
       "action": "journal"
     },
     {
-      "id": "task-deface-the-currency-name-one-custom-you-keep-only-from-habit",
-      "name": "Deface the currency: name one custom you keep only from habit",
-      "meta": "Philosophy · 10 min",
-      "time": "08:30",
-      "slot": "Morning",
-      "action": "philosophy"
+      "id": "a-pot-of-lentils",
+      "name": "A pot of lentils",
+      "icon": "cooking-pot",
+      "slot": "Evening",
+      "time": "18:30",
+      "minutes": 40,
+      "meta": "Evening · 40 min",
+      "instructions": "Make a pot of lentil soup with an onion, a little olive oil and a splash of vinegar, and eat it with bread. It is the dish most tied to the Cynics. Make enough for two or three, and notice how little it costs and how well it feeds you. The philosopher Crates is said to have used a pot of lentils to cure a young man’s shame.",
+      "why": "Lentils were the poor man’s food in ancient Greece and are cheap and nourishing now. Crates wrote that a pot of lentils needed no cook, and they remain the Cynic’s signature dish.",
+      "variations": [
+        "Share it with a neighbour.",
+        "Eat it outdoors.",
+        "Eat it from a single bowl with a single spoon."
+      ]
     },
     {
-      "id": "treat-eat-something-with-your-hands-standing-and-enjoy-it",
-      "name": "Eat something with your hands, standing, and enjoy it",
-      "meta": "No plate",
-      "time": "15:30",
-      "slot": "Afternoon"
+      "id": "a-hard-bed-for-ten-minutes",
+      "name": "A hard bed for ten minutes",
+      "icon": "bed",
+      "slot": "Evening",
+      "time": "21:30",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Lie on the floor for ten minutes before bed, on your back, with no pillow or a flat one, and breathe slowly. Notice the ground holding you. Diogenes lived in a storage jar and slept on what he could. A hard surface for ten minutes teaches how little the body needs. Then go to your comfortable bed with thanks.",
+      "why": "The Cynics trained themselves to do without comfort. A short floor rest is a harmless version that makes the bed feel like a gift.",
+      "variations": [
+        "Lie on the floor and look at the ceiling.",
+        "Do it outdoors on a warm night.",
+        "Do it with your eyes closed and listen."
+      ]
     },
     {
-      "id": "treat-lie-in-the-sun-like-a-dog-for-five-minutes",
-      "name": "Lie in the sun like a dog for five minutes",
-      "meta": "Ask for nothing",
-      "time": "15:30",
-      "slot": "Afternoon"
+      "id": "give-one-thing-away",
+      "name": "Give one thing away",
+      "icon": "gift",
+      "slot": "Evening",
+      "time": "19:30",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Look around your home for one thing you have not used in a year and give it away tonight, to a person or a charity, or leave it for someone to take. Do not wait for a perfect home for it. The Cynic’s ideal was owning only what he used. See what lightness comes with one thing gone.",
+      "why": "The first rule of this Onda is to want less before you earn more. Giving away a single unused thing is a very small and very effective exercise.",
+      "variations": [
+        "Give away three things.",
+        "Give something away to the first person who needs it.",
+        "Pick the thing that you feel most guilty about not using."
+      ]
     },
     {
-      "id": "treat-walk-into-a-room-as-everyone-else-is-leaving-it",
-      "name": "Walk into a room as everyone else is leaving it",
-      "meta": "Diogenes did this at the theatre, on purpose",
-      "time": "15:30",
-      "slot": "Afternoon"
+      "id": "read-one-diogenes-story",
+      "name": "Read one Diogenes story",
+      "icon": "scroll",
+      "slot": "Evening",
+      "time": "20:00",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Read one short anecdote about Diogenes from Diogenes Laertius or a collection: the lamp, the jar, Alexander, the plucked chicken. Read it twice. Ask what it is teaching, and whether you agree. A chreia, a short pointed anecdote, was the Cynic’s favourite form. Tell it to someone tomorrow.",
+      "why": "Almost everything we know of Diogenes comes from short anecdotes, chreiai, written centuries later. They are funny, sharp and easy to remember, and made to be retold.",
+      "variations": [
+        "Read three.",
+        "Tell it in your own words.",
+        "Invent a modern version of one."
+      ]
     },
     {
-      "id": "treat-go-one-hour-with-empty-pockets",
-      "name": "Go one hour with empty pockets",
-      "meta": "No phone, no wallet",
-      "time": "08:30",
-      "slot": "Morning"
-    },
-    {
-      "id": "daily-walk-for-the-first-hour-of-the-day-without-your-phone",
-      "name": "Walk for the first hour of the day without your phone",
-      "meta": "See what you notice",
-      "time": "07:15",
-      "slot": "Morning"
-    },
-    {
-      "id": "daily-wash-in-cold-water-with-plain-soap-and-nothing-else",
-      "name": "Wash in cold water with plain soap and nothing else",
-      "meta": "Diogenes would approve",
-      "time": "07:15",
-      "slot": "Morning"
-    },
-    {
-      "id": "daily-eat-dinner-from-one-dish-and-one-spoon",
-      "name": "Eat dinner from one dish and one spoon",
-      "meta": "He kept one bowl, then threw it away",
+      "id": "give-a-mock-lecture",
+      "name": "Give a mock lecture",
+      "icon": "chalkboard",
+      "slot": "Evening",
       "time": "20:30",
-      "slot": "Evening"
+      "minutes": 5,
+      "meta": "Evening · 5 min",
+      "instructions": "Stand in the kitchen or the shower and give a short, mock-serious lecture to an empty room on something silly: why socks are a conspiracy, why the best chair is the floor. Make a point, and make it fast. The Cynic diatribe was a lively moral talk, and Diogenes was funny. Bow at the end.",
+      "why": "The diatribe, a short, lively talk on a moral theme, was the Cynics’ chief mode of teaching. It was spoken in the streets and was meant to entertain as much as improve.",
+      "variations": [
+        "Give it in a funny voice.",
+        "Give it to a friend as a toast.",
+        "Give it about something you really care about."
+      ]
     },
     {
-      "id": "daily-lie-on-the-floor-for-ten-minutes-and-look-at-the-ceiling",
-      "name": "Lie on the floor for ten minutes and look at the ceiling",
-      "meta": "A hard bed makes a free mind",
-      "time": "20:30",
-      "slot": "Evening"
+      "id": "a-day-without-money",
+      "name": "A day without money",
+      "icon": "coins",
+      "slot": "Special",
+      "time": "09:00",
+      "minutes": 120,
+      "meta": "On a free day · 120 min",
+      "instructions": "Spend a day, or as much of a day as you can, without spending any money. Eat what is at home, walk everywhere, make your own entertainment, borrow rather than buy, and notice what you reach for. Diogenes lived on what the city gave him for free. At the end, say what you missed and what you did not.",
+      "why": "A day without money is the simplest and best Cynic test. Most people find they need far less than they expected, and enjoy a good deal more.",
+      "variations": [
+        "Do it with a friend and compare.",
+        "Do it for a weekend.",
+        "Give away the money you would have spent."
+      ]
     },
     {
-      "id": "daily-ask-which-of-your-needs-today-were-real-and-which-were-borro",
-      "name": "Ask which of your needs today were real and which were borrowed",
-      "meta": "Write the answer on one line",
-      "time": "20:30",
-      "slot": "Evening"
-    },
-    {
-      "id": "daily-say-one-true-thing-you-have-been-holding-back-kindly",
-      "name": "Say one true thing you have been holding back, kindly",
-      "meta": "Parrhesia: frank speech",
-      "time": "20:30",
-      "slot": "Evening"
+      "id": "look-for-a-human-being",
+      "name": "Look for a human being",
+      "icon": "sun",
+      "slot": "Special",
+      "time": "12:00",
+      "minutes": 20,
+      "meta": "At noon · 20 min",
+      "instructions": "At noon, go out, with a small lamp if you like, and look for a human being. In daylight, with a lit lamp, Diogenes said he was looking for one. Look for people who are decent: a person helping another, a quiet kindness, a plain honesty. Count them. You will find more than you expected, and you will be one of them.",
+      "why": "The story of the man with the lamp in the market is the most famous of the Diogenes anecdotes. Turning it into a search for real kindness makes a happy, hopeful walk.",
+      "variations": [
+        "Count ten acts of decency.",
+        "Look for one you can do yourself.",
+        "Tell someone what you saw."
+      ]
     }
   ],
-  "immersePlan": [],
+  "tasks": [],
+  "immersePlan": [
+    {
+      "kind": "read",
+      "item": "read-lives-of-eminent-philosophers-book-6",
+      "name": "Read Diogenes Laertius on Diogenes",
+      "text": "Read a few pages of Book 6 of the Lives of Eminent Philosophers, where story after story of Diogenes is told. Notice which anecdote you like best, and which you doubt.",
+      "minutes": 20
+    },
+    {
+      "kind": "read",
+      "item": "read-sayings-and-anecdotes-with-other-popular-moralists",
+      "name": "Read some Diogenes sayings",
+      "text": "Open Robin Hard’s gathering of the ancient stories and sayings, sorted by theme. Read ten and mark the one you want to tell someone.",
+      "minutes": 15
+    },
+    {
+      "kind": "read",
+      "item": "read-philosophies-for-sale",
+      "name": "Read Lucian’s auction of the philosophers",
+      "text": "Read the short satire in which Zeus auctions off the philosophers, and Diogenes goes for two obols. It is funny and short. Notice what each philosopher says in his own favour.",
+      "minutes": 20
+    },
+    {
+      "kind": "watch",
+      "item": "watch-the-gleaners-and-i",
+      "name": "Watch The Gleaners and I",
+      "text": "Watch Agnès Varda’s documentary about people who live on what others leave behind in fields and cities. Notice the freedom and the poverty, and Varda’s own gleaning.",
+      "minutes": 85
+    },
+    {
+      "kind": "watch",
+      "item": "watch-nomadland",
+      "name": "Watch Nomadland",
+      "text": "Watch Chloé Zhao’s film about a woman who lives in her van and works the seasons across the American West. Notice what she keeps and what she lets go.",
+      "minutes": 110
+    },
+    {
+      "kind": "watch",
+      "item": "watch-captain-fantastic",
+      "name": "Watch Captain Fantastic",
+      "text": "Watch the film of a father raising six children in the forest on philosophy and hard training. Notice what works and what does not, and what the world thinks.",
+      "minutes": 120
+    },
+    {
+      "kind": "listen",
+      "item": "listen-in-our-time-cynicism",
+      "name": "Listen to In Our Time on Cynicism",
+      "text": "Put on the forty-minute BBC discussion of Diogenes and the school. Listen on a walk, and note one fact that you did not know.",
+      "minutes": 40
+    },
+    {
+      "kind": "listen",
+      "item": "listen-history-of-philosophy-without-any-gaps-the-cynics",
+      "name": "Hear Peter Adamson on the Cynics",
+      "text": "Play the short, funny and careful episode on the Cynics. Notice how often Adamson laughs, and what he finds serious.",
+      "minutes": 25
+    },
+    {
+      "kind": "listen",
+      "item": "listen-mercedes-benz",
+      "name": "Listen to Mercedes Benz",
+      "text": "Play Janis Joplin’s under-two-minute prayer for a car, a television and a night on the town. It is unaccompanied, a Cynic joke on wanting. Listen and laugh.",
+      "minutes": 2
+    },
+    {
+      "kind": "art",
+      "item": "art-the-school-of-athens",
+      "name": "Find Diogenes in The School of Athens",
+      "text": "Look at Raphael’s fresco and find Diogenes, alone, half dressed and reading on the steps. Notice that he is the one who is not looking at anyone.",
+      "minutes": 10
+    },
+    {
+      "kind": "art",
+      "item": "art-diogenes",
+      "name": "Look at Gérôme’s Diogenes",
+      "text": "Look at the painting of Diogenes sitting in his jar lighting the lamp while four dogs watch like students. Notice the jar and the dogs.",
+      "minutes": 5
+    },
+    {
+      "kind": "art",
+      "item": "art-alexander-and-diogenes",
+      "name": "Look at Landseer’s dogs as Alexander and Diogenes",
+      "text": "Look at Edwin Landseer’s joke picture: the famous meeting replayed by dogs, a scruffy terrier in a barrel and a grand hound. Say who is who.",
+      "minutes": 5
+    },
+    {
+      "kind": "eat",
+      "item": "eat-lentil-soup",
+      "name": "Cook lentil soup",
+      "text": "Cook lentils with onion, olive oil and a splash of vinegar. It is the dish most tied to the Cynics. Eat it plainly, with bread, outdoors if you can.",
+      "minutes": 40
+    },
+    {
+      "kind": "eat",
+      "item": "eat-barley-cake",
+      "name": "Make a barley cake",
+      "text": "Knead barley meal with water and oil into a flat cake and eat it unbaked, or lightly toasted in a pan. It was the cheapest bread of ancient Greece. Eat it with figs.",
+      "minutes": 20
+    },
+    {
+      "kind": "eat",
+      "item": "eat-figs-and-olives",
+      "name": "Eat figs and olives",
+      "text": "Eat a few dried figs and a handful of olives, food that needs no cooking. Diogenes is often shown eating dried figs. Sit somewhere plain and enjoy them.",
+      "minutes": 10
+    },
+    {
+      "kind": "drink",
+      "item": "drink-water-from-your-hands",
+      "name": "Drink from cupped hands",
+      "text": "Drink from your cupped hands at a tap or spring. The whole story of Diogenes and the cup in one gesture. See what a cup is for.",
+      "minutes": 3
+    },
+    {
+      "kind": "drink",
+      "item": "drink-kykeon",
+      "name": "Make kykeon",
+      "text": "Stir barley meal into water with a little honey or salt until thick. It is a peasant’s drink, older than Homer. Drink it slowly and decide if it is good.",
+      "minutes": 10
+    },
+    {
+      "kind": "drink",
+      "item": "drink-water-with-a-little-vinegar",
+      "name": "Drink water with a little vinegar",
+      "text": "Add a splash of vinegar to a glass of water. It is sour and cooling, the drink of labourers and soldiers. It costs nothing and quenches thirst.",
+      "minutes": 5
+    },
+    {
+      "kind": "customs",
+      "item": "customs-begging-from-a-statue",
+      "name": "Practise asking and being refused",
+      "text": "Diogenes asked a statue for alms to practise being refused. Ask for one small thing today that you expect to be refused, and accept the answer calmly.",
+      "minutes": 10
+    },
+    {
+      "kind": "customs",
+      "item": "customs-walking-in-as-others-walk-out",
+      "name": "Go against the flow once",
+      "text": "Diogenes entered the theatre as everyone else was leaving. Go the other way once today, harmlessly, and notice what you see.",
+      "minutes": 10
+    },
+    {
+      "kind": "customs",
+      "item": "customs-the-folded-cloak",
+      "name": "Wear one garment for everything",
+      "text": "He doubled his cloak to make it serve as coat and bedding. Wear one plain garment all day and notice what you do not need to change.",
+      "minutes": 10
+    },
+    {
+      "kind": "games",
+      "item": "games-petteia",
+      "name": "Play petteia",
+      "text": "Play the ancient Greek pebble game on a grid, capturing by trapping a piece between two of yours. Draw a board and use two colours of pebbles. Play with someone.",
+      "minutes": 30
+    },
+    {
+      "kind": "games",
+      "item": "games-untitled-goose-game",
+      "name": "Play Untitled Goose Game",
+      "text": "Play for half an hour as a goose in a tidy English village with a list of small outrages. Notice how a good rule-breaker enjoys the rules.",
+      "minutes": 30
+    },
+    {
+      "kind": "games",
+      "item": "games-the-stanley-parable",
+      "name": "Play The Stanley Parable",
+      "text": "Play a little of the game in which a narrator tells you which door to take. You do not have to listen. Notice how it feels to disobey a voice.",
+      "minutes": 30
+    },
+    {
+      "kind": "travel",
+      "item": "fest-world-philosophy-day",
+      "name": "Keep World Philosophy Day",
+      "text": "World Philosophy Day is held each year on the third Thursday of November. Do some philosophy in the street today: ask a stranger a real question and listen.",
+      "minutes": 15
+    },
+    {
+      "kind": "travel",
+      "item": "fest-buy-nothing-day",
+      "name": "Keep Buy Nothing Day",
+      "text": "Buy Nothing Day is a modern protest held since the 1990s on the busiest shopping day. Spend nothing today, and notice every time you reach.",
+      "minutes": 15
+    },
+    {
+      "kind": "travel",
+      "item": "place-sinop",
+      "name": "Look up Sinop",
+      "text": "Look up Diogenes’s birthplace on the Black Sea coast, from which he was exiled over the coinage. Find the statue of him on a jar holding a lamp.",
+      "minutes": 10
+    },
+    {
+      "kind": "words",
+      "item": "word-parrhesia",
+      "name": "Practise parrhesia",
+      "text": "Parrhesia is frank speech, saying everything. Choose one true thing that you can say kindly today, and say it. Then stop.",
+      "minutes": 10
+    },
+    {
+      "kind": "words",
+      "item": "word-autarkeia",
+      "name": "Try autarkeia",
+      "text": "Autarkeia is self-sufficiency. Choose one thing you usually ask someone else to do, a repair, a cooking task, a calculation, and do it yourself today.",
+      "minutes": 20
+    },
+    {
+      "kind": "words",
+      "item": "word-kosmopolites",
+      "name": "Be a citizen of the world",
+      "text": "Kosmopolites is citizen of the world. When asked where you are from, Diogenes said that. Do one thing today for someone far away or different from you, and think of the world as your city.",
+      "minutes": 10
+    }
+  ],
   "rules": [
     {
       "id": "r1",

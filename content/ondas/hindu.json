@@ -288,220 +288,538 @@
     {
       "id": "morning-offering",
       "name": "The morning offering",
-      "icon": "sun-horizon",
+      "icon": "flower",
       "slot": "Morning",
       "time": "06:45",
       "minutes": 10,
       "meta": "Morning · 10 min",
-      "instructions": "Wash first. Then stand or sit facing the early light. Put your palms together and take three slow breaths. Offer something simple: a glass of fresh water, a flower or a lit candle on a clean shelf or windowsill. Say in your own words, or silently, that the work of this day is offered and that you ask to do it well. Stay a minute longer in quiet. Leave the water for a plant afterwards.",
-      "why": "Most Hindu worship happens at home, at a small shrine, before the day’s work starts. Beginning with an offering frames everything that follows as service.",
+      "instructions": "Wash first. Then stand or sit facing the early light. Put your palms together and take three slow breaths. Offer something simple: a glass of fresh water, a flower or a lit candle on a clean shelf or windowsill. Say in your own words, or in silence, thank you for this day. Leave the offering where you will see it through the day.",
+      "why": "In a Hindu home the day begins clean and with an offering, however small. The offering turns the first minutes into a moment of thanks rather than hurry.",
       "variations": [
-        "Greet the sun with twelve slow rounds of the sun salutation.",
-        "Read one verse of the Bhagavad Gita aloud before you begin.",
-        "Keep the same place and the same hour for the whole Onda."
+        "Offer a glass of water to a plant instead.",
+        "Offer the first sip of your tea to the window.",
+        "Offer a flower picked on the way home yesterday."
       ]
     },
     {
       "id": "work-as-offering",
       "name": "Work without the fruit",
-      "icon": "briefcase",
+      "icon": "hand-palm",
       "slot": "Morning",
       "time": "09:00",
       "minutes": 5,
       "meta": "Morning · 5 min",
-      "instructions": "Before your main task of the day, name it and name the result you are hoping for: praise, payment, a win. Then set that result down for the length of the task. Decide to do the work as well as it can be done because it is yours to do. When you finish, notice the pull to check how it was received, and wait an hour before you look.",
-      "why": "This is karma yoga as Krishna teaches it to Arjuna on the battlefield: act fully and give up the claim on the outcome. It is said to free the mind while the hands stay busy.",
+      "instructions": "Before your main task of the day, name it and name the result you are hoping for: praise, payment, a win. Then set that result down for the length of the task. Decide to do the work as well as it can be done because it is yours to do. When you finish, notice how it feels to have done it without bargaining.",
+      "why": "The Bhagavad Gita teaches that you have a right to the action but not to its fruits. Working fully while letting go of the result is the heart of karma yoga.",
       "variations": [
-        "Do one piece of work today that nobody will know you did.",
-        "Dedicate the task to a person you love.",
-        "At the end of the day list what you did, not what you got."
+        "Do it for a task you dislike.",
+        "Do it for a task someone else will take credit for.",
+        "Write the hoped-for result on paper and put it in a drawer."
+      ]
+    },
+    {
+      "id": "look-at-your-palms",
+      "name": "Look at your palms",
+      "icon": "hand-palm",
+      "slot": "Morning",
+      "time": "06:30",
+      "minutes": 3,
+      "meta": "Morning · 3 min",
+      "instructions": "As soon as you wake, before you touch anything, sit up and look at your open palms for a few breaths. An old waking verse says the goddess of wealth lives at the fingertips, the goddess of learning in the middle of the hand and the lord at its base, and that you should look at your hands at dawn. Take it as a reminder that your hands will do the day’s work. Then rub them together and warm your face.",
+      "why": "The verse karagre vasate lakshmih is taught to children across India as a first thought of the day. It points you to the hands that will give, make and serve.",
+      "variations": [
+        "Say the verse aloud if you know it.",
+        "Thank your hands for one thing they did yesterday.",
+        "Massage each hand for a minute."
+      ]
+    },
+    {
+      "id": "a-gentle-sun-greeting",
+      "name": "A gentle sun greeting",
+      "icon": "sun-horizon",
+      "slot": "Morning",
+      "time": "07:00",
+      "minutes": 8,
+      "meta": "Morning · 8 min",
+      "instructions": "Face the light. Stand with palms together, raise your arms, bow forward with bent knees, rise halfway with a flat back, and come up again. Do this slowly, six times, in time with your breath: in as you rise, out as you bend. Stay standing if you like. Skip any bend that hurts your back or knees. Surya namaskar means greeting the sun.",
+      "why": "The sun salutation is a morning habit in much of India, a flowing greeting to the light. A gentle version wakes the body without strain.",
+      "variations": [
+        "Add a full stretch up on tiptoe.",
+        "Do it outdoors on the grass.",
+        "Count the rounds on your fingers."
+      ]
+    },
+    {
+      "id": "water-a-living-thing",
+      "name": "Water a living thing",
+      "icon": "drop",
+      "slot": "Morning",
+      "time": "07:20",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Water a plant, a tree or a pot of herbs with a small jug, slowly, and say one word of thanks as you pour. In many Hindu homes a tulsi plant stands in the courtyard and is watered each morning. If you have no plants, fill a bowl for the birds. Care for one living thing before you care for yourself.",
+      "why": "Caring for plants and animals before the day starts is an old household custom. The rule of this Onda is to do no harm and to feed someone first.",
+      "variations": [
+        "Fill a bowl for the birds on your sill.",
+        "Water a plant for a neighbour.",
+        "Plant a seed."
+      ]
+    },
+    {
+      "id": "draw-a-threshold-pattern",
+      "name": "Draw a threshold pattern",
+      "icon": "flower-tulip",
+      "slot": "Morning",
+      "time": "07:30",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "With chalk, flour or rice powder, draw a pattern on the step or the floor at your door: a ring of dots joined by loops, or a simple flower with eight petals. In south India this is a kolam, redrawn each dawn and walked over by the end of the day. Make it quickly, and do not mind if it is not even.",
+      "why": "The kolam and rangoli are drawn fresh every morning and are meant to be wiped away. They welcome guests and teach a gentle lesson about making something beautiful that does not last.",
+      "variations": [
+        "Use coloured chalk on a pavement.",
+        "Draw with rice flour so that birds can eat it.",
+        "Make a pattern with flower petals instead."
       ]
     },
     {
       "id": "japa",
       "name": "Japa: 108 breaths of a name",
-      "icon": "repeat",
+      "icon": "hands-praying",
       "slot": "Afternoon",
       "time": "13:30",
       "minutes": 10,
       "meta": "Afternoon · 10 min",
-      "instructions": "Sit comfortably with your back straight. Choose one short phrase and keep it for the whole Onda. Om is the simplest. Om shanti, peace, is another. Repeat it quietly once for each out-breath and count on your fingers or on a string of beads, to 108 if you have the time or 27 if you do not. When the mind wanders, return to the sound without comment.",
-      "why": "Repeating a holy name is among the most widely kept practices in every Hindu tradition. It needs no priest, no temple and no learning.",
+      "instructions": "Sit comfortably with your back straight. Choose one short phrase and keep it for the whole Onda. Om is the simplest. Om shanti, peace, is another. Repeat it quietly once for each out-breath and count on your fingers or on a string of beads. Do not worry about reaching 108. When the mind wanders, come back to the phrase and begin again.",
+      "why": "Japa, the repetition of a name or sound, is a basic Hindu practice, with beads called a mala. A steady word gives the mind something to rest on.",
       "variations": [
-        "Walk slowly and repeat the phrase in step.",
-        "Hum Om aloud for five minutes and feel where it sounds in the body.",
-        "Listen to a recorded chant and join in."
+        "Use a knotted string as a mala.",
+        "Whisper the phrase with each step of a short walk.",
+        "Repeat it silently on the bus."
       ]
     },
     {
       "id": "seva",
       "name": "Seva: one act of service",
-      "icon": "hand-heart",
+      "icon": "hand-coins",
       "slot": "Afternoon",
       "time": "16:30",
       "minutes": 15,
       "meta": "Afternoon · 15 min",
-      "instructions": "Do one useful thing for someone else and tell no one. Cook for a neighbour, feed birds, carry something, clean a shared space, give time to someone lonely. Choose the act in the morning so that it happens. While you do it, hold the thought that the person in front of you carries the same self that you do.",
-      "why": "Service is treated as worship: the guest, the parent, the teacher and the stranger are each to be honoured as God. Feeding others is the classic form.",
+      "instructions": "Do one useful thing for someone else and tell no one. Cook for a neighbour, feed birds, carry something, clean a shared space, give time to someone lonely. Choose the act in the morning so that it happens. While you do it, let go of the thought of thanks. When it is done, put your palms together for a moment and go on with the day.",
+      "why": "Seva, selfless service, is a part of Hindu life from the household to the temple kitchen. The act is the gift, and anonymity keeps it clean.",
       "variations": [
-        "Give food to someone who needs it.",
-        "Offer your skill for free for an hour.",
-        "Serve the people you live with before you serve yourself at one meal."
+        "Serve at a community kitchen.",
+        "Do a chore at home that nobody notices.",
+        "Give an hour to a person who is alone."
+      ]
+    },
+    {
+      "id": "feed-a-creature",
+      "name": "Feed a creature",
+      "icon": "paw-print",
+      "slot": "Afternoon",
+      "time": "14:30",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Put out food for an animal today: seeds for birds, water for a stray, a bowl of grain or a leaf for a creature that lives near you. Feeding a cow, a crow or an ant is counted as a good deed in Hindu households. Watch quietly for a few minutes. Do no harm, and wash the bowl afterwards.",
+      "why": "Ahimsa, non-harm, extends to all living things. Feeding the creatures around the house is a daily kindness in many Hindu homes.",
+      "variations": [
+        "Scatter a pinch of sugar or flour near an ant trail.",
+        "Put out a shallow dish of water in the heat.",
+        "Sit and count the birds that come."
+      ]
+    },
+    {
+      "id": "see-the-divine-in-everyone",
+      "name": "See the divine in everyone",
+      "icon": "users-three",
+      "slot": "Afternoon",
+      "time": "15:30",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "For the next hour, greet every person you meet with namaste, palms together, and a thought: the light in me honours the light in you. Say it silently or aloud. Do it with the cashier, the neighbour and the person you do not like. Notice how it changes your face and your voice. Namaste means I bow to you.",
+      "why": "Namaste is an everyday greeting, and also a small teaching: the same spirit is in all beings. Practising it makes you slower to judge and quicker to smile.",
+      "variations": [
+        "Greet children and elders the same way.",
+        "Keep it for one person you find difficult.",
+        "Bow your head a little as you say it."
+      ]
+    },
+    {
+      "id": "a-raga-for-the-hour",
+      "name": "A raga for the hour",
+      "icon": "music-notes",
+      "slot": "Afternoon",
+      "time": "15:00",
+      "minutes": 15,
+      "meta": "Afternoon · 15 min",
+      "instructions": "Hindustani classical music assigns ragas to times of day. Play a raga meant for the afternoon, such as Bhimpalasi or Multani, and listen for fifteen minutes with your eyes closed. Do not look for a tune to hum. Follow how the player slowly opens the mode, note by note. Compare the mood to the light in your window.",
+      "why": "Raga is the melodic framework of Indian classical music, and each has a mood and an hour. Listening in the right hour makes the music feel like part of the day.",
+      "variations": [
+        "Play a morning raga at dawn tomorrow.",
+        "Listen to a sitar, then a flute, then a voice.",
+        "Sit with a cup of tea while it plays."
+      ]
+    },
+    {
+      "id": "tell-a-story-from-the-epics",
+      "name": "Tell a story from the epics",
+      "icon": "book-open",
+      "slot": "Afternoon",
+      "time": "17:00",
+      "minutes": 15,
+      "meta": "Afternoon · 15 min",
+      "instructions": "Tell a short story from the Ramayana, the Mahabharata or the Panchatantra to a child or friend, or retell it to yourself in a notebook. Choose a small one, such as Hanuman’s leap, Savitri and Satyavan or the monkey and the crocodile. Tell it with voices and pauses, as storytellers do. End with one line about what it teaches.",
+      "why": "The epics and fables have been told aloud for thousands of years, to children and gatherings. Telling one yourself brings it to life.",
+      "variations": [
+        "Tell it in two minutes, then in five.",
+        "Draw one scene from it.",
+        "Let the listener ask a question at the end."
       ]
     },
     {
       "id": "evening-lamp",
       "name": "The evening lamp",
-      "icon": "fire",
+      "icon": "flame",
       "slot": "Evening",
       "time": "19:30",
       "minutes": 10,
       "meta": "Evening · 10 min",
-      "instructions": "At dusk light a small lamp or candle. Stand before it with your palms together. If you like, circle your hand slowly in front of the flame three times as families do in aarti. Then sit and go through the day: where did you act from duty, where from wanting, where from love. Give thanks for one thing. End by saying peace three times.",
-      "why": "Lamps are lit at twilight in millions of homes. The meeting points of the day, dawn and dusk, are the traditional hours for prayer.",
+      "instructions": "At dusk light a small lamp or candle. Stand before it with your palms together. If you like, circle your hand slowly in front of the flame three times as families do in aarti. Then sit and go through the day: where did you do well, where did you fall short, who needs your kindness tomorrow. Blow out the flame gently when you are done, with a thank you.",
+      "why": "Lighting a lamp at dusk is a daily household act in Hindu homes. The flame marks the shift from work to rest and gives the day a quiet closing.",
       "variations": [
-        "Sing or play one devotional song.",
-        "Share a sweet with the household afterwards, as prasad.",
-        "Do it outdoors under the first stars."
+        "Use a clay lamp with a cotton wick and oil.",
+        "Place the lamp at the window to welcome the evening.",
+        "Light it before the family meal."
       ]
-    }
-  ],
-  "tasks": [
-    {
-      "id": "take-off-your-shoes-at-the-door-and-keep-one-corner-of-your-home-clean",
-      "name": "Take off your shoes at the door and keep one corner of your home clean and clear",
-      "meta": "A place set apart",
-      "time": "08:00",
-      "slot": "Morning"
     },
     {
-      "id": "task-eat-a-vegetarian-meal-with-your-right-hand-sitting-on-the-floor",
-      "name": "Eat a vegetarian meal with your right hand, sitting on the floor",
-      "meta": "Eat · slowly and with thanks",
-      "time": "13:00",
-      "slot": "Afternoon",
-      "action": "eat"
+      "id": "the-guest-comes-first",
+      "name": "The guest comes first",
+      "icon": "bowl-steam",
+      "slot": "Evening",
+      "time": "19:00",
+      "minutes": 30,
+      "meta": "Evening · 30 min",
+      "instructions": "Before you eat, serve someone else: a family member, a visitor, a neighbour, or put aside a portion for someone who is not there. Offer the best of it. Then eat quietly, without screens, with gratitude. Atithi devo bhava, the guest is like a god, is a rule of the Hindu home. Feed someone before you eat.",
+      "why": "Hospitality is a duty in Hindu households, where food offered to a guest is considered a blessing. Serving first is a simple, joyful habit.",
+      "variations": [
+        "Cook a little more than you need and share it.",
+        "Wash up for the cook.",
+        "Eat the first bite slowly and silently."
+      ]
     },
     {
-      "id": "task-read-chapter-2-of-the-bhagavad-gita",
-      "name": "Read chapter 2 of the Bhagavad Gita",
-      "meta": "Read · the teaching begins",
+      "id": "sing-a-bhajan",
+      "name": "Sing a bhajan",
+      "icon": "music-note",
+      "slot": "Evening",
       "time": "20:00",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Choose a simple devotional song, a bhajan, and sing it quietly with a recording: Raghupati Raghava Raja Ram, Hare Krishna, or a song of Mirabai. You do not have to believe anything. Singing together is a warm way to end the day. Sit comfortably, tap the rhythm, and let the repetition carry you. Sing it again if you like.",
+      "why": "Bhajans are simple songs of devotion sung in homes and temples, easy to join even for a first-timer. Repeating a melody calms the mind.",
+      "variations": [
+        "Sing with a family member or friend.",
+        "Hum the tune without words.",
+        "Learn the chorus of one bhajan this week."
+      ]
+    },
+    {
+      "id": "did-i-harm-anyone",
+      "name": "Did I harm anyone?",
+      "icon": "scales",
       "slot": "Evening",
-      "action": "read"
-    },
-    {
-      "id": "task-listen-to-a-morning-raga-at-sunrise",
-      "name": "Listen to a morning raga at sunrise",
-      "meta": "Listen · Bhairav or Ahir Bhairav",
-      "time": "07:00",
-      "slot": "Morning",
-      "action": "listen"
-    },
-    {
-      "id": "task-look-closely-at-the-dancing-shiva",
-      "name": "Look closely at the dancing Shiva",
-      "meta": "Art · the Chola bronze Nataraja",
-      "time": "17:00",
-      "slot": "Afternoon",
-      "action": "art"
-    },
-    {
-      "id": "task-visit-a-hindu-temple-as-a-guest-if-one-is-near-you",
-      "name": "Visit a Hindu temple as a guest, if one is near you",
-      "meta": "Travel · ask before you enter and follow what others do",
-      "time": "11:00",
-      "slot": "Afternoon",
-      "action": "travel"
-    },
-    {
-      "id": "task-journal-what-is-your-duty-in-this-season-of-life",
-      "name": "Journal: what is your duty in this season of life?",
-      "meta": "Journal · 10 min",
       "time": "21:00",
-      "slot": "Evening",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Sit quietly and look back over the day with one question: did I harm any living thing today, in word, thought or deed? If so, how can I make it right? Note it in a line and make a plan to fix it tomorrow. Then recall one moment when you helped, and be glad. Ahimsa is not only about big violence but about small unkindnesses.",
+      "why": "Ahimsa, non-harm, is the first principle of Hindu and Jain ethics and a guide for the whole day. A short review at night keeps it alive.",
+      "variations": [
+        "Write the day’s harms and helps in two columns.",
+        "Forgive one person for one thing.",
+        "Say sorry to someone you wronged."
+      ],
       "action": "journal"
     },
     {
-      "id": "task-the-four-aims-where-does-your-week-actually-go",
-      "name": "The four aims: where does your week actually go?",
-      "meta": "Philosophy · 10 min",
-      "time": "08:30",
-      "slot": "Morning",
-      "action": "philosophy"
+      "id": "a-story-from-the-epics-before-sleep",
+      "name": "A story from the epics before sleep",
+      "icon": "moon-stars",
+      "slot": "Evening",
+      "time": "21:30",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Read a few pages from the Ramayana or the Mahabharata, or from a children’s version, before sleep. R. K. Narayan’s retelling is short and lively. Read slowly and aloud if someone is with you. Stop at a good place. The epics were told in the evening by the fire, and they still make a gentle bedtime.",
+      "why": "The Ramayana and Mahabharata are the great stories of Hindu life, told for centuries at the end of the day. A short reading is a relaxing ritual.",
+      "variations": [
+        "Read a children’s illustrated version.",
+        "Read just one chapter a night.",
+        "Listen to a recorded reading with the lights off."
+      ]
     },
     {
-      "id": "draw-a-simple-pattern-at-your-doorstep-with-chalk-or-flour",
-      "name": "Draw a simple pattern at your doorstep with chalk or flour",
-      "meta": "A welcome at the threshold",
-      "time": "07:30",
-      "slot": "Morning"
+      "id": "a-dusk-gaze",
+      "name": "A dusk gaze",
+      "icon": "cloud-sun",
+      "slot": "Evening",
+      "time": "18:30",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "In the hour of twilight go to a window, a roof or a doorway and watch the light change for ten minutes. Say nothing. Hindu households keep the hour of sandhya, the junction between day and night, as a time for stillness. Let the colours do the work. When the first lamp comes on, go in.",
+      "why": "Sandhya, the junctures of the day, are held to be times when the world is especially open. Pausing at dusk is one of the simplest ways to feel that.",
+      "variations": [
+        "Look for the first star.",
+        "Sit outside with a cup of chai.",
+        "Close your eyes for the last minute."
+      ]
     },
     {
-      "id": "call-or-write-to-an-elder-or-a-teacher",
-      "name": "Call or write to an elder or a teacher",
-      "meta": "Honour those who formed you",
-      "time": "18:00",
-      "slot": "Evening"
+      "id": "a-kolam-for-a-guest",
+      "name": "A kolam for a guest",
+      "icon": "flower-tulip",
+      "slot": "Special",
+      "time": "10:00",
+      "minutes": 60,
+      "meta": "On a free morning · 60 min",
+      "instructions": "Make a large floor pattern at your entrance with rice flour, coloured chalk or flower petals, for a guest who is coming or in honour of a day. Plan it first on paper: a grid of dots, a border, a flower in the middle. Take your time, and enjoy the care. When people walk over it, let it go.",
+      "why": "Kolam and rangoli are welcome signs drawn at doorways in Indian homes. Making them slowly is meditative and sociable, and letting them go is the lesson.",
+      "variations": [
+        "Make it with children.",
+        "Make it with petals gathered from the garden.",
+        "Make it on a pavement for passers-by."
+      ]
     },
     {
-      "id": "treat-put-a-flower-or-a-leaf-in-a-bowl-of-water-by-the-door",
-      "name": "Put a flower or a leaf in a bowl of water by the door",
-      "meta": "A small welcome",
-      "time": "08:30",
-      "slot": "Morning"
-    },
-    {
-      "id": "treat-ring-a-bell-or-tap-a-glass-and-listen-until-the-sound-is-gon",
-      "name": "Ring a bell, or tap a glass, and listen until the sound is gone",
-      "meta": "To the very end",
-      "time": "08:30",
-      "slot": "Morning"
-    },
-    {
-      "id": "treat-make-chai-from-scratch-with-ginger-and-cardamom",
-      "name": "Make chai from scratch with ginger and cardamom",
-      "meta": "Let it boil up",
-      "time": "15:30",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "treat-touch-the-ground-before-you-get-up-and-thank-it-for-the-day",
-      "name": "Touch the ground before you get up and thank it for the day",
-      "meta": "One breath",
-      "time": "08:30",
-      "slot": "Morning"
-    },
-    {
-      "id": "daily-eat-your-lunch-slowly-and-give-thanks-before-the-first-bite",
-      "name": "Eat your lunch slowly and give thanks before the first bite",
-      "meta": "Annam, food, is honoured",
-      "time": "14:00",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "daily-water-a-plant-as-if-it-were-an-offering",
-      "name": "Water a plant as if it were an offering",
-      "meta": "Tulsi, if you have it",
-      "time": "14:00",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "daily-light-a-lamp-or-a-candle-at-dusk-and-sit-with-it-for-a-minut",
-      "name": "Light a lamp or a candle at dusk and sit with it for a minute",
-      "meta": "The evening light",
-      "time": "20:30",
-      "slot": "Evening"
-    },
-    {
-      "id": "daily-hum-a-bhajan-or-any-song-you-sing-from-the-heart",
-      "name": "Hum a bhajan or any song you sing from the heart",
-      "meta": "Or just a tune you love",
-      "time": "20:30",
-      "slot": "Evening"
+      "id": "a-night-of-small-lamps",
+      "name": "A night of small lamps",
+      "icon": "lamp",
+      "slot": "Special",
+      "time": "19:00",
+      "minutes": 90,
+      "meta": "On a free evening · 90 min",
+      "instructions": "Set out as many small lights as you have, tealights, candles or little oil lamps, along the windowsills, steps and tables. Turn off the electric lights. Make or buy one sweet, and give a plate to a neighbour. Sit for a while among the flames and let your eyes soften. This is the spirit of Diwali, the festival of lights, borrowed for one evening.",
+      "why": "Diwali is kept with rows of small lamps, sweets and visits to friends, and it celebrates the triumph of light over darkness. A modest version brings its warmth into any home.",
+      "variations": [
+        "Light a lamp for a person you miss.",
+        "Make rangoli at the door first.",
+        "Take sweets to a neighbour."
+      ]
     }
   ],
-  "immersePlan": [],
+  "tasks": [],
+  "immersePlan": [
+    {
+      "kind": "read",
+      "item": "read-the-bhagavad-gita",
+      "name": "Read a chapter of the Bhagavad Gita",
+      "text": "Read one chapter of the Gita, the dialogue on a battlefield between Arjuna and Krishna. Pick out one line about action and its results, and copy it out.",
+      "minutes": 15
+    },
+    {
+      "kind": "read",
+      "item": "read-the-upanishads",
+      "name": "Read a short Upanishad",
+      "text": "Read a few pages of the Upanishads in Olivelle’s translation, such as the story of the student who learns to see the self in all things. Notice the questions.",
+      "minutes": 20
+    },
+    {
+      "kind": "read",
+      "item": "read-the-ramayana",
+      "name": "Read a section of Narayan’s Ramayana",
+      "text": "Read R. K. Narayan’s short retelling of the Ramayana and stop when a scene stirs you. Tell it in your own words to someone later.",
+      "minutes": 20
+    },
+    {
+      "kind": "watch",
+      "item": "watch-pather-panchali",
+      "name": "Watch Pather Panchali",
+      "text": "Watch Satyajit Ray’s 1955 film of a poor family in a Bengal village and the children’s wonder at a passing train. Notice the small joys.",
+      "minutes": 125
+    },
+    {
+      "kind": "watch",
+      "item": "watch-the-mahabharata",
+      "name": "Watch a part of Peter Brook’s Mahabharata",
+      "text": "Watch a long stretch of Peter Brook’s 1989 staging of the great epic with a mixed cast. Notice how little is needed on the stage.",
+      "minutes": 60
+    },
+    {
+      "kind": "watch",
+      "item": "watch-sita-sings-the-blues",
+      "name": "Watch Sita Sings the Blues",
+      "text": "Watch Nina Paley’s animated retelling of the Ramayana, with Sita sung by a 1920s jazz voice, which she released free for anyone to share. Watch it with someone.",
+      "minutes": 85
+    },
+    {
+      "kind": "listen",
+      "item": "listen-vishnu-sahasranamam",
+      "name": "Listen to the Vishnu Sahasranamam",
+      "text": "Play M. S. Subbulakshmi’s recitation of the thousand names. You do not need to follow the words. Let the sound of her voice fill the room for a while.",
+      "minutes": 25
+    },
+    {
+      "kind": "listen",
+      "item": "listen-call-of-the-valley",
+      "name": "Listen to Call of the Valley",
+      "text": "Play the 1967 classic of santoor, bamboo flute and guitar, made as a picture of a day in the Kashmir valley. Listen from morning to night in its movements.",
+      "minutes": 45
+    },
+    {
+      "kind": "listen",
+      "item": "listen-bhajans-of-mirabai",
+      "name": "Listen to the bhajans of Mirabai",
+      "text": "Play the songs of the sixteenth-century poet-saint Mirabai, sung by Lata Mangeshkar and others. Notice the longing in the melodies.",
+      "minutes": 25
+    },
+    {
+      "kind": "art",
+      "item": "art-shiva-as-lord-of-the-dance-nataraja",
+      "name": "Look at the Chola Nataraja",
+      "text": "Look at the bronze of Shiva dancing in a ring of fire, one foot on a dwarf, the hair flying out. Trace the circle with your eye, and follow the hands.",
+      "minutes": 10
+    },
+    {
+      "kind": "art",
+      "item": "art-descent-of-the-ganges",
+      "name": "Look at the Descent of the Ganges",
+      "text": "Look at the vast rock relief at Mamallapuram with gods, animals and sages watching the river come down. Find the elephant family and the cat that is praying.",
+      "minutes": 10
+    },
+    {
+      "kind": "art",
+      "item": "art-krishna-and-radha-in-a-grove",
+      "name": "Look at Krishna and Radha in a Grove",
+      "text": "Look at the small, tender Kangra painting of the two lovers among trees. Notice the colours, the flowers and the way the landscape holds them.",
+      "minutes": 10
+    },
+    {
+      "kind": "eat",
+      "item": "eat-khichdi",
+      "name": "Cook a pot of khichdi",
+      "text": "Simmer rice and split mung beans with a little turmeric and ghee until soft. It is the simple, comforting food of the Indian home. Serve it with yogurt.",
+      "minutes": 40
+    },
+    {
+      "kind": "eat",
+      "item": "eat-a-vegetarian-thali",
+      "name": "Eat a vegetarian thali",
+      "text": "Put dal, a vegetable, rice, a flatbread, yogurt and a pickle on a large plate. Eat with your right hand if you like, and taste each part before mixing.",
+      "minutes": 45
+    },
+    {
+      "kind": "eat",
+      "item": "eat-laddu",
+      "name": "Make or taste laddu",
+      "text": "Roast chickpea flour in ghee, add sugar and cardamom and roll into balls. It is an offering sweet shared at festivals. Give one away before you eat one.",
+      "minutes": 40
+    },
+    {
+      "kind": "drink",
+      "item": "drink-masala-chai",
+      "name": "Boil a pot of masala chai",
+      "text": "Boil black tea with milk, ginger and cardamom. The street sellers of India pull it high between two pots. Serve it to a friend and sit for a while.",
+      "minutes": 15
+    },
+    {
+      "kind": "drink",
+      "item": "drink-lassi",
+      "name": "Make a lassi",
+      "text": "Beat yogurt with water and a little sugar or salt until frothy. Pour it over ice. Add cardamom or a spoon of mango pulp if you like.",
+      "minutes": 10
+    },
+    {
+      "kind": "drink",
+      "item": "drink-panchamrita",
+      "name": "Taste panchamrita",
+      "text": "Mix milk, yogurt, honey, ghee and sugar in a small bowl, as is done for temple offerings. Take one spoonful and share the rest. Pay attention to the five flavours together.",
+      "minutes": 10
+    },
+    {
+      "kind": "customs",
+      "item": "customs-namaste",
+      "name": "Greet everyone with namaste",
+      "text": "Greet each person you meet today with palms together at the heart and a slight bow. Say namaste if it feels natural. Notice how it feels to give and receive it.",
+      "minutes": 5
+    },
+    {
+      "kind": "customs",
+      "item": "customs-shoes-off",
+      "name": "Take your shoes off at the door",
+      "text": "Leave your shoes at the door of your home today and have guests do the same. In India it is a mark of respect for the home and keeps the floor clean for sitting.",
+      "minutes": 5
+    },
+    {
+      "kind": "customs",
+      "item": "customs-rangoli-and-kolam",
+      "name": "Draw a rangoli",
+      "text": "Draw a rangoli or kolam at your threshold with chalk or flour. Begin with a grid of dots and join them with curves. Let it be wiped away.",
+      "minutes": 15
+    },
+    {
+      "kind": "games",
+      "item": "games-pachisi",
+      "name": "Play pachisi",
+      "text": "Play the cross-shaped race game that Akbar is said to have played in a courtyard with living pieces. Use a ludo set or draw the board. Roll cowries or dice.",
+      "minutes": 30
+    },
+    {
+      "kind": "games",
+      "item": "games-snakes-and-ladders-moksha-patam",
+      "name": "Play Moksha Patam",
+      "text": "Play snakes and ladders, which began in India as a lesson that virtue lifts you and vice drags you down. Play a game and name a virtue at each ladder.",
+      "minutes": 20
+    },
+    {
+      "kind": "games",
+      "item": "games-raji-an-ancient-epic",
+      "name": "Play Raji: An Ancient Epic",
+      "text": "Play an hour of the action game set in ancient India, with painted scenery and a girl who fights demons with the help of the gods. Notice the art.",
+      "minutes": 60
+    },
+    {
+      "kind": "travel",
+      "item": "fest-diwali",
+      "name": "Mark Diwali",
+      "text": "Diwali is a five-day festival of lights in autumn. Light a lamp this evening, make a sweet and share it with a neighbour or friend. Say happy Diwali.",
+      "minutes": 20
+    },
+    {
+      "kind": "travel",
+      "item": "fest-holi",
+      "name": "Look up Holi",
+      "text": "Holi, the spring festival of colour at the full moon in March, is kept with coloured powder, songs and sweets. Look at pictures, and learn why it is played. Use natural colours and protect eyes.",
+      "minutes": 15
+    },
+    {
+      "kind": "travel",
+      "item": "place-meenakshi-temple",
+      "name": "Look at the Meenakshi Temple",
+      "text": "Look at the towers of Madurai’s temple, covered with thousands of coloured figures. Pick a tower and find five different figures.",
+      "minutes": 10
+    },
+    {
+      "kind": "words",
+      "item": "word-ahimsa",
+      "name": "Practise ahimsa",
+      "text": "Ahimsa is non-harm. Today, avoid causing harm in a small way you normally ignore: crushing an insect, a cutting remark, wasting food.",
+      "minutes": 10
+    },
+    {
+      "kind": "words",
+      "item": "word-darshan",
+      "name": "Practise darshan",
+      "text": "Darshan is seeing and being seen by the sacred. Look at one thing today with your whole attention for a full minute, as if it were looking back.",
+      "minutes": 5
+    },
+    {
+      "kind": "words",
+      "item": "word-prasad",
+      "name": "Share prasad",
+      "text": "Prasad is food that has been offered and then shared. Cook or buy something small, offer it first to someone else, and enjoy what is left.",
+      "minutes": 15
+    }
+  ],
   "rules": [
     {
       "id": "r1",

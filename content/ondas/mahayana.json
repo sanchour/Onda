@@ -288,17 +288,17 @@
     {
       "id": "morning-vow",
       "name": "The morning vow",
-      "icon": "sun-horizon",
+      "icon": "hands-praying",
       "slot": "Morning",
       "time": "06:45",
       "minutes": 5,
       "meta": "Morning · 5 min",
-      "instructions": "Before you look at a screen, sit up and put your palms together. Call to mind the people and creatures you will meet today, including the ones you would prefer to avoid. Say, aloud or silently: may what I do today be of use to them. If you wish, recite the four great vows, which begin: beings are numberless, I vow to save them. Bow once and begin the day.",
-      "why": "The bodhisattva path starts by setting a motive larger than oneself and renewing it daily. East Asian temples chant the four vows every morning for this reason.",
+      "instructions": "Before you look at a screen, sit up and put your palms together. Call to mind the people and creatures you will meet today, including the ones you would prefer to avoid. Say, aloud or silently: may what I do today be of use to them. Then begin the day. The rule of this Onda is to start the day for others.",
+      "why": "The bodhisattva’s aim is to wake up for the sake of everyone. A short vow at dawn turns the day from a private project into a shared one.",
       "variations": [
-        "Write the vow on a card and keep it in your pocket.",
-        "Name three particular people in it.",
-        "Make three full bows to the floor."
+        "Write the vow on a card and put it by the bed.",
+        "Name three people you will meet today.",
+        "Say it with a hand on the heart."
       ]
     },
     {
@@ -309,28 +309,172 @@
       "time": "08:30",
       "minutes": 5,
       "meta": "Morning · 5 min",
-      "instructions": "Take the six perfections in order, one a day, and begin again on the seventh: giving, ethical care, patience, energy, meditation and wisdom. In the morning decide on one concrete way to practise today’s. On a giving day, give something. On a patience day, pick the situation that will test you and decide beforehand how you will meet it. In the evening note what happened.",
-      "why": "The six perfections are the bodhisattva’s training plan, set out in the Perfection of Wisdom sutras and by every later teacher. Taking one at a time makes a vast ideal workable.",
+      "instructions": "Take the six perfections in order, one a day, and begin again on the seventh: giving, ethical care, patience, energy, meditation and wisdom. In the morning decide on one concrete way to practise today’s. On a giving day, give something away. On a patience day, wait without sighing. At night, check what happened.",
+      "why": "The six paramitas are the bodhisattva’s training in Mahayana. Taking one a day makes a big ideal into a practical task.",
       "variations": [
-        "Pair each perfection with a person who needs it from you.",
-        "On the seventh day rest and review.",
-        "Practise the day’s perfection toward yourself as well."
+        "Write today’s perfection on your hand.",
+        "Share today’s with a friend.",
+        "Choose the one you find hardest and give it two days."
+      ]
+    },
+    {
+      "id": "wake-up-and-smile",
+      "name": "Wake up and smile",
+      "icon": "smiley",
+      "slot": "Morning",
+      "time": "06:30",
+      "minutes": 3,
+      "meta": "Morning · 3 min",
+      "instructions": "As you wake, before moving, take three slow breaths. On the third out-breath, smile gently and say quietly, as Thich Nhat Hanh teaches: waking up this morning, I smile; twenty-four brand new hours are before me. Then get up. The smile does not need a reason, and it helps to begin the day lightly.",
+      "why": "This waking verse is one of Thich Nhat Hanh’s short poems for daily life, taught to lay people everywhere. It is a gentle way to begin.",
+      "variations": [
+        "Say it when you open the curtains.",
+        "Smile at your face in the bathroom mirror.",
+        "Smile at the first person you meet."
+      ]
+    },
+    {
+      "id": "a-bow-to-the-day",
+      "name": "A bow to the day",
+      "icon": "person-arms-spread",
+      "slot": "Morning",
+      "time": "07:00",
+      "minutes": 3,
+      "meta": "Morning · 3 min",
+      "instructions": "Stand by a window or door, put your palms together and make a slow bow from the waist to the morning, to the street, to all the beings starting their day. Bow three times, slowly, with a breath for each. In East Asian Buddhism the bow is a gesture of respect and thanks, and one does not need to believe anything to make it.",
+      "why": "Bowing is a common daily act across East Asia, used for greeting, thanking and honouring. Three bows to the day is a quiet start.",
+      "variations": [
+        "Bow to a plant or a tree.",
+        "Bow to your family members as they wake.",
+        "Bow to the food before you eat."
+      ]
+    },
+    {
+      "id": "a-cup-of-water-offered",
+      "name": "A cup of water offered",
+      "icon": "drop",
+      "slot": "Morning",
+      "time": "07:10",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Fill a clean cup with fresh water, set it on a shelf or sill, and look at it for a moment. In Mahayana homes a bowl of clean water is a simple offering. Say in silence: may all beings have what they need. Leave it through the day, then pour it onto a plant in the evening.",
+      "why": "Water offerings are among the easiest and oldest, because water is clear and cheap, and everyone can give it. The point is the generosity of the mind.",
+      "variations": [
+        "Offer seven small cups in a row.",
+        "Offer a cup of tea to someone else.",
+        "Water the garden as the offering."
+      ]
+    },
+    {
+      "id": "walk-to-the-door-as-if-it-mattered",
+      "name": "Walk to the door as if it mattered",
+      "icon": "person-simple-walk",
+      "slot": "Morning",
+      "time": "08:00",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "On your way out of the house, walk the last ten steps slowly, feeling each foot touch the floor, and stop at the door. Breathe once. Step through. In Zen and Pure Land temples, even walking to the hall is done with attention. Make your threshold a place where you arrive.",
+      "why": "Walking with attention is a Mahayana practice taught by many teachers. A short walk to the door is easy to remember every day.",
+      "variations": [
+        "Do it at every door today.",
+        "Say thank you as you pass through.",
+        "Count ten steps from the bed to the kitchen."
       ]
     },
     {
       "id": "exchange",
       "name": "Exchanging self and other",
-      "icon": "users-three",
+      "icon": "arrows-clockwise",
       "slot": "Afternoon",
       "time": "13:00",
       "minutes": 10,
       "meta": "Afternoon · 10 min",
-      "instructions": "Sit quietly and bring to mind someone you find difficult. For a few minutes imagine their day from the inside: what they woke up to, what they fear, what they are trying to protect. Notice that they want to be happy and not to suffer, exactly as you do. Then ask what you would want from yourself if you were them. Do one small thing in that direction today.",
-      "why": "Shantideva teaches that self and other are positions, like this bank and that bank of a river, and can be swapped in the mind. The exercise loosens the habit of putting oneself first.",
+      "instructions": "Sit quietly and bring to mind someone you find difficult. For a few minutes imagine their day from the inside: what they woke up to, what they fear, what they are trying to protect. Notice that they want to be happy and to avoid pain, as you do. Then wish them well, once, in a sentence. Return to your day.",
+      "why": "Shantideva taught exchanging self and other as a way of making compassion practical. Looking at a difficult person as a fellow sufferer is a powerful and gentle change.",
       "variations": [
-        "Do it for a stranger you see on a train.",
-        "Do it for an animal.",
-        "Do it for someone you love and have stopped noticing."
+        "Do it for a stranger you saw this morning.",
+        "Do it for someone you love and take them for granted.",
+        "Write the sentence of well-wishing on a note and keep it."
+      ]
+    },
+    {
+      "id": "give-something-away",
+      "name": "Give something away",
+      "icon": "gift",
+      "slot": "Afternoon",
+      "time": "15:00",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Give something away today, to someone who will use it. A book from your shelf, a coat, a meal, fifteen minutes of full attention. Give it without a hint of keeping score. The first perfection is giving. The rule of this Onda is to give something every day, and a gift that is a little hard to part with is worth more.",
+      "why": "Dana, giving, is the first of the six perfections. It loosens the habit of clinging and makes generosity a daily skill.",
+      "variations": [
+        "Give something anonymously.",
+        "Give your time instead of an object.",
+        "Give a compliment that you really mean."
+      ]
+    },
+    {
+      "id": "meet-anger-with-patience",
+      "name": "Meet anger with patience",
+      "icon": "hourglass",
+      "slot": "Afternoon",
+      "time": "16:00",
+      "minutes": 5,
+      "meta": "Afternoon · 5 min",
+      "instructions": "The next time you feel irritation today, stop for three breaths before you speak. Notice where it sits in the body. Ask: what is this person afraid of? Then say or do the calm thing. Kshanti, patience, is the perfection that Shantideva praised above all. Meet anger with patience once today, deliberately.",
+      "why": "Shantideva wrote that nothing is evil like hatred and nothing is as hard to bear as patience, and that the one who practises it is happy. Even one pause is a step.",
+      "variations": [
+        "Count to ten in the line at the shop.",
+        "Take a pause before replying to a message.",
+        "Thank someone who tested you."
+      ]
+    },
+    {
+      "id": "speak-no-ill",
+      "name": "Speak no ill",
+      "icon": "chat-teardrop",
+      "slot": "Afternoon",
+      "time": "14:00",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "For the next three hours, say nothing negative about anyone who is not present. If you slip, stop, note it and go on. When you must speak of a problem, speak of the facts and not the person. Right speech is a part of the path across Buddhism, and the rule of this Onda is to speak no ill of anyone.",
+      "why": "Right speech, one of the elements of the Eightfold Path, is taken seriously in Mahayana. A short period of kind speech shows how often we reach for criticism.",
+      "variations": [
+        "Say something good about an absent person.",
+        "Keep a tally of slips.",
+        "Be silent for ten minutes after a slip."
+      ]
+    },
+    {
+      "id": "trace-your-lunch",
+      "name": "Trace your lunch",
+      "icon": "bowl-steam",
+      "slot": "Afternoon",
+      "time": "12:45",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Before you eat, look at your food and trace where it came from: the cook, the shop, the lorry driver, the farmer, the rain, the sun, the soil. Count at least ten links. This is interdependence, a central idea of Mahayana. Then eat the first few bites in silence. Thank those you have named.",
+      "why": "Thich Nhat Hanh calls this seeing the cloud in the sheet of paper. Tracing a meal back to its sources makes gratitude real.",
+      "variations": [
+        "Do it with a cup of tea.",
+        "Do it with a piece of clothing.",
+        "Draw the chain on paper."
+      ]
+    },
+    {
+      "id": "a-walking-meditation",
+      "name": "A walking meditation",
+      "icon": "footprints",
+      "slot": "Afternoon",
+      "time": "16:30",
+      "minutes": 15,
+      "meta": "Afternoon · 15 min",
+      "instructions": "Walk slowly in a quiet place, a corridor, a park path or a garden, for fifteen minutes. Breathe in as you take one or two steps, and breathe out as you take two or three. Feel each foot arrive. If you want a thought, let it be: I have arrived, I am home. Walking meditation is taught by Zen and Pure Land teachers alike.",
+      "why": "Walking meditation is a mainstay of East Asian Buddhist practice, often between periods of sitting. It brings attention into the ordinary act of walking.",
+      "variations": [
+        "Walk barefoot on grass.",
+        "Walk in a loop of ten steps.",
+        "Walk with a friend, silently."
       ]
     },
     {
@@ -341,138 +485,341 @@
       "time": "19:30",
       "minutes": 15,
       "meta": "Evening · 15 min",
-      "instructions": "Take paper, a good pen and an English version of the Heart Sutra, which is about a page long. Sit upright. Copy it out slowly by hand, one line at a time, a few lines each evening. Do not hurry and do not try to work out what it means as you write. If you make a mistake, carry on. When you reach the end, start again from the beginning on a fresh sheet.",
-      "why": "Copying sutras by hand has been a practice for lay people in East Asia for well over a thousand years. Many temples in Japan and Korea set out brushes and paper for visitors.",
+      "instructions": "Take paper, a good pen and an English version of the Heart Sutra, which is about a page long. Sit upright. Copy it out slowly by hand, one line at a time, a few lines each evening. Do not hurry and do not try to work out the meaning. Let the hand and breath move together. When you finish the page, begin again.",
+      "why": "Copying sutras, shakyo in Japan, is a long-standing practice of devotion and calm in East Asia. The Heart Sutra, the shortest of the great texts, is the most copied.",
       "variations": [
-        "Read it aloud once before you start.",
-        "Trace the Chinese characters from a printed template.",
-        "Give a finished copy to someone, or leave it at a temple."
+        "Copy in the evening light with a brush pen.",
+        "Copy a verse of the Way of the Bodhisattva instead.",
+        "Copy only one line and think about it."
       ]
     },
     {
       "id": "dedication",
       "name": "Giving the day away",
-      "icon": "hand-heart",
+      "icon": "heart",
       "slot": "Evening",
       "time": "21:30",
       "minutes": 5,
       "meta": "Evening · 5 min",
-      "instructions": "Before sleep, recall whatever good came of the day: a kindness done, an effort made, a moment of patience. However small it was, give it away. Say: may any good in this day go to all beings, and may they be free from suffering. Then recall one failure, acknowledge it without excuses and let it rest until tomorrow.",
-      "why": "Dedicating merit ends every Mahayana ceremony. Giving it up at once keeps practice from turning into a private store of virtue.",
+      "instructions": "Before sleep, recall whatever good came of the day: a kindness done, an effort made, a moment of patience. However small it was, give it away. Say: may any good in this day go to all beings, and may they be free from suffering. Then sleep. The rule of this Onda is to give the merit away at night.",
+      "why": "Dedication of merit ends every Mahayana practice. Giving the good away keeps it from turning into pride and spreads it to everyone.",
       "variations": [
-        "Dedicate it to one person who is ill or struggling.",
-        "Add the people you found hardest today.",
-        "Say it together with someone in your home."
-      ]
-    }
-  ],
-  "tasks": [
-    {
-      "id": "task-eat-one-meal-in-silence-and-waste-nothing",
-      "name": "Eat one meal in silence and waste nothing",
-      "meta": "Eat · the five contemplations before you start",
-      "time": "12:30",
-      "slot": "Afternoon",
-      "action": "eat"
-    },
-    {
-      "id": "task-read-chapter-6-of-the-way-of-the-bodhisattva-on-patience",
-      "name": "Read chapter 6 of The Way of the Bodhisattva, on patience",
-      "meta": "Read · Shantideva",
-      "time": "20:00",
-      "slot": "Evening",
-      "action": "read"
-    },
-    {
-      "id": "task-listen-to-the-heart-sutra-chanted-in-chinese-or-korean",
-      "name": "Listen to the Heart Sutra chanted in Chinese or Korean",
-      "meta": "Listen · five minutes",
-      "time": "07:15",
-      "slot": "Morning",
-      "action": "listen"
-    },
-    {
-      "id": "task-look-at-a-water-moon-guanyin-painting",
-      "name": "Look at a Water-Moon Guanyin painting",
-      "meta": "Art · Goryeo Korea, 14th century",
-      "time": "17:00",
-      "slot": "Afternoon",
-      "action": "art"
-    },
-    {
-      "id": "release-a-debt-a-grudge-or-a-small-creature",
-      "name": "Release a debt, a grudge or a small creature",
-      "meta": "The spirit of fangsheng, releasing life",
-      "time": "15:00",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "give-something-away-without-being-asked",
-      "name": "Give something away without being asked",
-      "meta": "Dana · the first perfection",
-      "time": "11:00",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "task-journal-whose-suffering-did-you-step-toward-today",
-      "name": "Journal: whose suffering did you step toward today?",
-      "meta": "Journal · 10 min",
-      "time": "21:00",
-      "slot": "Evening",
+        "Name three specific people in the dedication.",
+        "Write the day’s good in one line.",
+        "Dedicate the day to someone who is ill."
+      ],
       "action": "journal"
     },
     {
-      "id": "task-emptiness-find-one-thing-that-exists-by-itself",
-      "name": "Emptiness: find one thing that exists by itself",
-      "meta": "Philosophy · 10 min",
-      "time": "09:00",
-      "slot": "Morning",
-      "action": "philosophy"
+      "id": "the-five-contemplations",
+      "name": "The five contemplations",
+      "icon": "fork-knife",
+      "slot": "Evening",
+      "time": "18:30",
+      "minutes": 20,
+      "meta": "Evening · 20 min",
+      "instructions": "Before the evening meal, pause and say the five contemplations in your own words: this food is the gift of earth, sky and many people’s work; may I eat with mindfulness and gratitude; may I eat moderately; may this food give me strength to help others; I receive it for the sake of the path. Then eat slowly, without screens.",
+      "why": "The five contemplations are said before meals in many Zen and Pure Land temples. They turn eating into an act of appreciation.",
+      "variations": [
+        "Say them silently with palms together.",
+        "Eat the first three bites without talking.",
+        "Wash up as an act of care."
+      ]
     },
     {
-      "id": "offer-a-flower-or-a-stick-of-incense-and-bow-once",
-      "name": "Offer a flower or a stick of incense and bow once",
-      "meta": "For all beings",
-      "time": "07:30",
-      "slot": "Morning"
-    },
-    {
-      "id": "treat-smile-at-the-next-person-who-annoys-you-on-the-inside-first",
-      "name": "Smile at the next person who annoys you, on the inside first",
-      "meta": "Just try it",
-      "time": "15:30",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "treat-fold-a-paper-lotus-or-a-paper-crane-and-leave-it-for-someone",
-      "name": "Fold a paper lotus or a paper crane and leave it for someone",
-      "meta": "Ten minutes",
-      "time": "19:30",
-      "slot": "Evening"
-    },
-    {
-      "id": "treat-let-someone-go-ahead-of-you-in-a-queue",
-      "name": "Let someone go ahead of you in a queue",
-      "meta": "A small perfection of giving",
-      "time": "15:30",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "treat-drink-a-cup-of-tea-for-all-beings",
-      "name": "Drink a cup of tea for all beings",
-      "meta": "It tastes the same, oddly",
-      "time": "08:30",
-      "slot": "Morning"
-    },
-    {
-      "id": "daily-dedicate-today-s-good-deeds-to-everyone-not-only-yourself",
-      "name": "Dedicate today’s good deeds to everyone, not only yourself",
-      "meta": "Giving the merit away",
+      "id": "listen-to-a-chant",
+      "name": "Listen to a chant",
+      "icon": "waveform",
+      "slot": "Evening",
       "time": "20:30",
-      "slot": "Evening"
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Play a recording of the Great Compassion Mantra, the Heart Sutra or Namo Amituofo, chanted by monks, and sit with your eyes closed for ten minutes. You do not need to follow the words. Let the sound wash through. Chanting is a daily practice in East Asian temples, and listening is a restful way to join.",
+      "why": "Chanting is central to Mahayana practice. The rhythm and the many voices create a calm that is hard to find by effort alone.",
+      "variations": [
+        "Chant softly along with it.",
+        "Listen with the lights off.",
+        "Listen while doing nothing else."
+      ]
+    },
+    {
+      "id": "a-thank-you-for-a-helper",
+      "name": "A thank-you for a helper",
+      "icon": "envelope-simple",
+      "slot": "Evening",
+      "time": "20:00",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Write a short note to someone who helped you this week, even in a small way: a colleague, a neighbour, a cashier, a family member. Say specifically what they did and how it helped. Send or deliver it. Nothing arises on its own, and a thank you honours the web of help that holds a day together.",
+      "why": "Gratitude is a form of seeing interdependence. Mahayana teaching holds that every good thing depends on countless causes, and thanking those causes is natural.",
+      "variations": [
+        "Thank someone you have never thanked.",
+        "Thank a teacher.",
+        "Thank a person in a public role."
+      ]
+    },
+    {
+      "id": "incense-and-a-bow",
+      "name": "Incense and a bow",
+      "icon": "flame",
+      "slot": "Evening",
+      "time": "21:00",
+      "minutes": 5,
+      "meta": "Evening · 5 min",
+      "instructions": "Light a single stick of incense in a safe holder, away from anything that burns, and stand quietly while the smoke rises. Put your palms together and bow once. Let the scent say that the day is closing. Put the stick out when it is done, and never leave it unattended. If you prefer, light a candle instead.",
+      "why": "Offering incense is a simple act in East Asian temples and homes. It marks a moment and settles the mind.",
+      "variations": [
+        "Use a candle if you are sensitive to smoke.",
+        "Sit for two minutes before it burns down.",
+        "Do it by an open window."
+      ]
+    },
+    {
+      "id": "a-temple-style-vegetarian-meal",
+      "name": "A temple-style vegetarian meal",
+      "icon": "cooking-pot",
+      "slot": "Special",
+      "time": "18:00",
+      "minutes": 90,
+      "meta": "On a free evening · 90 min",
+      "instructions": "Cook a meal in the spirit of shojin ryori, the Japanese temple cuisine: a small bowl of rice, a clear soup, sesame tofu or simmered vegetables, a pickle and tea. Use seasonal vegetables and cook plainly. Serve it to a friend in small bowls. Say the five contemplations before eating, and eat slowly in near silence.",
+      "why": "Temple food is built on seasonal vegetables and restraint, to nourish without excess. Cooking and eating it with care is a form of practice in itself.",
+      "variations": [
+        "Cook with a friend and divide the tasks.",
+        "Use only five ingredients.",
+        "Eat with chopsticks, slowly."
+      ]
+    },
+    {
+      "id": "a-half-day-of-quiet",
+      "name": "A half day of quiet",
+      "icon": "moon-stars",
+      "slot": "Special",
+      "time": "09:00",
+      "minutes": 120,
+      "meta": "On a free morning · 120 min",
+      "instructions": "Set aside a half day for quiet. Turn off the phone. Sit for twenty minutes, walk for twenty, copy a page of text, drink tea, and sit again. Speak only if needed. Eat simply. Zen and Pure Land retreats are built on this rhythm. Notice what your mind does when there is nothing to do, and end with a dedication.",
+      "why": "Short retreats are a mainstay of lay Buddhist life across East Asia. A half day at home gives a taste of the rhythm without any commitment.",
+      "variations": [
+        "Do it in a park or garden.",
+        "Do it with a friend, in shared silence.",
+        "Finish with a long walk."
+      ]
     }
   ],
-  "immersePlan": [],
+  "tasks": [],
+  "immersePlan": [
+    {
+      "kind": "read",
+      "item": "read-the-way-of-the-bodhisattva",
+      "name": "Read a chapter of the Way of the Bodhisattva",
+      "text": "Read the chapter on patience from Shantideva’s eighth-century poem, or any chapter that calls to you. Choose one verse to carry through the day.",
+      "minutes": 20
+    },
+    {
+      "kind": "read",
+      "item": "read-the-heart-sutra",
+      "name": "Read the Heart Sutra",
+      "text": "Read the shortest of the great Mahayana texts, a page long, in Red Pine’s translation with commentary. Read it twice, once for sound and once for sense.",
+      "minutes": 15
+    },
+    {
+      "kind": "read",
+      "item": "read-the-heart-of-the-buddha-s-teaching",
+      "name": "Read Thich Nhat Hanh",
+      "text": "Read a chapter of Thich Nhat Hanh’s plain account of the basic teachings, such as the one on mindful breathing or on the four noble truths.",
+      "minutes": 20
+    },
+    {
+      "kind": "watch",
+      "item": "watch-spring-summer-fall-winter-and-spring",
+      "name": "Watch Spring, Summer, Fall, Winter... and Spring",
+      "text": "Watch Kim Ki-duk’s film of a monk and a boy in a floating hermitage on a lake, through the seasons of a life. Notice how little is said.",
+      "minutes": 105
+    },
+    {
+      "kind": "watch",
+      "item": "watch-walk-with-me",
+      "name": "Watch Walk With Me",
+      "text": "Watch the quiet documentary on the community of Plum Village and Thich Nhat Hanh. Watch how they walk, eat and wait.",
+      "minutes": 95
+    },
+    {
+      "kind": "watch",
+      "item": "watch-departures",
+      "name": "Watch Departures",
+      "text": "Watch Yojiro Takita’s film about a cellist who becomes a ritual undertaker, preparing the dead for the coffin with great care. It is gentle and funny and moving.",
+      "minutes": 130
+    },
+    {
+      "kind": "listen",
+      "item": "listen-the-great-compassion-mantra",
+      "name": "Listen to the Great Compassion Mantra",
+      "text": "Play the long dharani of Guanyin, chanted by Chinese monastic voices. Let the rhythm roll over you, and join in softly if you wish.",
+      "minutes": 15
+    },
+    {
+      "kind": "listen",
+      "item": "listen-heart-sutra",
+      "name": "Listen to the Heart Sutra chant",
+      "text": "Play the chanted Heart Sutra by Korean Seon monks. Listen to the wooden fish keeping time. Try to chant along with the first line.",
+      "minutes": 10
+    },
+    {
+      "kind": "listen",
+      "item": "listen-shomyo-buddhist-ritual-chant",
+      "name": "Listen to shomyo",
+      "text": "Play the slow, unaccompanied chanting of Japanese Tendai and Shingon monks. Notice how the voices glide and hold. It is among the oldest living music in Japan.",
+      "minutes": 20
+    },
+    {
+      "kind": "art",
+      "item": "art-water-moon-avalokiteshvara",
+      "name": "Look at the Water-Moon Avalokiteshvara",
+      "text": "Look at the Goryeo painting of the bodhisattva of compassion seated by the water, in a thin gauze robe. Find the moon in the painting and the boy at the bottom.",
+      "minutes": 10
+    },
+    {
+      "kind": "art",
+      "item": "art-seokguram-grotto",
+      "name": "Look at Seokguram",
+      "text": "Look at pictures of the granite Buddha in his domed grotto in Gyeongju, built in the eighth century. Notice the calm in the face.",
+      "minutes": 10
+    },
+    {
+      "kind": "art",
+      "item": "art-amida-buddha-of-the-phoenix-hall",
+      "name": "Look at the Amida of the Phoenix Hall",
+      "text": "Look at the gilded Amida of 1053 seated in the Phoenix Hall at Uji, surrounded by carved clouds and flying figures. Imagine the hall lit by candles.",
+      "minutes": 10
+    },
+    {
+      "kind": "eat",
+      "item": "eat-buddha-s-delight-luohan-zhai",
+      "name": "Cook Buddha’s delight",
+      "text": "Stir-fry or braise tofu skin, mushrooms, wood ear, lily buds and cabbage with soy sauce. It is a vegetarian dish traditionally eaten at the Lunar New Year.",
+      "minutes": 45
+    },
+    {
+      "kind": "eat",
+      "item": "eat-korean-temple-food",
+      "name": "Eat a Korean temple meal",
+      "text": "Make a simple meal of rice, seasonal greens, fermented sauces and a bowl of soup, in the spirit of Korean monastery cooking. Eat slowly and leave no food.",
+      "minutes": 45
+    },
+    {
+      "kind": "eat",
+      "item": "eat-congee",
+      "name": "Cook a pot of congee",
+      "text": "Simmer rice in plenty of water for an hour until it breaks down into a soft porridge. Serve with ginger, scallions and a drop of sesame oil. It is the comfort food of East Asia.",
+      "minutes": 70
+    },
+    {
+      "kind": "drink",
+      "item": "drink-green-tea",
+      "name": "Brew a cup of green tea with attention",
+      "text": "Use loose leaf and water just off the boil. Watch the leaves unfurl, smell the steam and drink slowly. Tea and Chan have gone together since the Tang dynasty.",
+      "minutes": 10
+    },
+    {
+      "kind": "drink",
+      "item": "drink-lotus-leaf-tea",
+      "name": "Brew lotus leaf tea",
+      "text": "Steep a few dried lotus leaves in hot water and drink it warm. It has a light, grassy taste. The lotus is a symbol of rising clean from mud.",
+      "minutes": 10
+    },
+    {
+      "kind": "drink",
+      "item": "drink-barley-tea",
+      "name": "Drink barley tea",
+      "text": "Steep roasted barley, hot in winter or cold in summer. It is the ordinary drink of Korean and Japanese homes, with a nutty, toasty taste.",
+      "minutes": 10
+    },
+    {
+      "kind": "customs",
+      "item": "customs-palms-together",
+      "name": "Greet with palms together",
+      "text": "Greet people today with palms together at the heart and a small bow, the gesture for hello, thank you and sorry across Buddhist Asia.",
+      "minutes": 5
+    },
+    {
+      "kind": "customs",
+      "item": "customs-the-five-contemplations",
+      "name": "Say the five contemplations before eating",
+      "text": "Before your next meal, pause and say the five contemplations in your own words. Then eat the first few bites in silence.",
+      "minutes": 10
+    },
+    {
+      "kind": "customs",
+      "item": "customs-offering-incense",
+      "name": "Offer a stick of incense",
+      "text": "Light one stick of incense in a safe holder, hold it to the forehead for a moment, and place it upright. Stay while the smoke rises, then put it out safely.",
+      "minutes": 5
+    },
+    {
+      "kind": "games",
+      "item": "games-go-weiqi-baduk",
+      "name": "Play a game of Go",
+      "text": "Play a short game of Go on a small board. The stones are placed to surround, not capture, and the game is a conversation. Play with a friend or a program.",
+      "minutes": 30
+    },
+    {
+      "kind": "games",
+      "item": "games-table-of-buddhist-promotion-seongbuldo",
+      "name": "Play Seongbuldo",
+      "text": "Play the Korean board game in which pieces climb from hell to the Buddha’s paradise by good deeds and virtue. Play it with dice and a printed board, or draw your own.",
+      "minutes": 30
+    },
+    {
+      "kind": "games",
+      "item": "games-journey-to-the-west",
+      "name": "Play a Journey to the West game",
+      "text": "Play or read a section of the monkey king’s journey with the monk Xuanzang to fetch the scriptures. Tell one adventure in your own words.",
+      "minutes": 45
+    },
+    {
+      "kind": "travel",
+      "item": "fest-buddha-s-birthday",
+      "name": "Mark Buddha’s Birthday",
+      "text": "The Buddha’s birthday falls on the eighth day of the fourth lunar month. Pour water gently over a small figure or a flower and make a wish for all beings.",
+      "minutes": 15
+    },
+    {
+      "kind": "travel",
+      "item": "place-the-mogao-caves",
+      "name": "Look up the Mogao Caves",
+      "text": "Look at pictures of the cave temples near Dunhuang, painted over a thousand years along the Silk Road. Pick one wall and look for ten minutes.",
+      "minutes": 15
+    },
+    {
+      "kind": "travel",
+      "item": "place-plum-village",
+      "name": "Look up Plum Village",
+      "text": "Look at the Dordogne community founded by Thich Nhat Hanh. Read about its day, with bells that call everyone to stop and breathe.",
+      "minutes": 10
+    },
+    {
+      "kind": "words",
+      "item": "word-karuna",
+      "name": "Practise karuna",
+      "text": "Karuna is compassion, the wish that others be free from suffering. Today, when you see someone struggling, make that wish silently for them.",
+      "minutes": 5
+    },
+    {
+      "kind": "words",
+      "item": "word-kshanti",
+      "name": "Practise kshanti",
+      "text": "Kshanti is patience, one of the six perfections. Choose one thing that will test you today and decide to meet it without hurry or complaint.",
+      "minutes": 5
+    },
+    {
+      "kind": "words",
+      "item": "word-gassho",
+      "name": "Practise gassho",
+      "text": "Gassho is the Japanese gesture of palms together and a slight bow. Use it once today to say thank you, and notice what it does to your face.",
+      "minutes": 5
+    }
+  ],
   "rules": [
     {
       "id": "r1",

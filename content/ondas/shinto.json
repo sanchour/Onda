@@ -289,12 +289,12 @@
       "time": "06:45",
       "minutes": 5,
       "meta": "Morning · 5 min",
-      "instructions": "Begin the day at the tap as you would at a shrine basin. Rinse your left hand, then your right. Cup water in your left hand and rinse your mouth, then rinse the hand again. Wash your face. Go to a window or step outside, face the light, stand straight and bow once. Say good morning to the day, aloud if you can. Open a window to let fresh air through the house.",
-      "why": "Purification by water is the oldest and most constant act in Shinto. The myths trace it to the god Izanagi washing in a river, and every shrine visit starts with it.",
+      "instructions": "Begin the day at the tap as you would at a shrine basin. Rinse your left hand, then your right. Cup water in your left hand and rinse your mouth, then rinse the hand again. Wash your face. Go to a window or step outside, take one deep breath of the morning air, and bow slightly to the day. The rule of this Onda is to wash before you begin.",
+      "why": "Visitors to a shrine wash their hands and mouth at the basin before approaching. The same idea, washing off the night before the day, is at the root of Shinto and Japanese everyday life.",
       "variations": [
-        "Finish your shower with a short burst of cold water.",
-        "Greet the sun with two claps as many older Japanese do.",
-        "Wash at an outdoor tap, stream or the sea when you can."
+        "Use cold water on the face to wake up.",
+        "Wash slowly, with attention to each hand.",
+        "Wash your hands again before the first meal."
       ]
     },
     {
@@ -305,12 +305,76 @@
       "time": "08:00",
       "minutes": 15,
       "meta": "Morning · 15 min",
-      "instructions": "Each day clean one place properly: the entrance, a floor, a desk, a shelf, the pavement in front of your door. Sweep or wipe with full attention, corners first. Put back only what belongs. Treat it as preparing a room for an honoured guest. When you finish, stand a moment and look at it.",
-      "why": "Shrine priests sweep the grounds every morning. Cleanliness is close to the heart of the tradition: a clean place and a clear heart are the conditions in which the kami can be present.",
+      "instructions": "Each day clean one place properly: the entrance, a floor, a desk, a shelf, the pavement in front of your door. Sweep or wipe with full attention, corners first. Put back only what belongs. Treat it as preparing a room for a guest you respect. The rule of this Onda is to leave every place cleaner than you found it.",
+      "why": "In Shinto, uncleanliness is the main thing to be cleared away, and a tidy home is a clean place for the kami. In Japanese schools, children clean their own classrooms each day.",
       "variations": [
-        "Clean something that is not yours: a shared stairwell, a bus shelter.",
-        "Wash and polish your shoes and line them up at the door.",
-        "Do a full end-of-year clean of one room."
+        "Clean a place that is not yours.",
+        "Clean to the sound of a record.",
+        "Clean one drawer and thank what you keep."
+      ]
+    },
+    {
+      "id": "line-up-the-shoes",
+      "name": "Line up the shoes",
+      "icon": "sneaker",
+      "slot": "Morning",
+      "time": "07:30",
+      "minutes": 3,
+      "meta": "Morning · 3 min",
+      "instructions": "At the door of your home, take your shoes off, turn them to face outward and set them side by side. Do the same for the shoes of anyone else in the household. Step up onto the floor with a clean step. In Japan, the genkan, the entry, is the boundary between outside and inside, and arranging the shoes is part of a polite home.",
+      "why": "Taking off shoes is a basic Japanese courtesy that keeps the home clean. Arranging them neatly turns an everyday moment into a little ritual of care.",
+      "variations": [
+        "Do it for the whole household.",
+        "Wipe the entry floor.",
+        "Say tadaima when you come in and okaeri to others."
+      ]
+    },
+    {
+      "id": "say-good-morning-to-the-house",
+      "name": "Say good morning to the house",
+      "icon": "house",
+      "slot": "Morning",
+      "time": "07:00",
+      "minutes": 3,
+      "meta": "Morning · 3 min",
+      "instructions": "Open the curtains, open a window and say ohayo, good morning, to the house, to the room, to the light. Say thank you for sheltering you. Japanese lore holds that homes and tools are cared for and that things which are loved last longer. Do this with a smile and see how the day feels.",
+      "why": "The idea that places and things have spirit is widespread in Japan. Greeting the home is a gentle way of paying attention to where you live.",
+      "variations": [
+        "Greet each room as you enter.",
+        "Thank a tool you use every day.",
+        "Say it to the plants."
+      ]
+    },
+    {
+      "id": "bring-in-the-season",
+      "name": "Bring in the season",
+      "icon": "flower",
+      "slot": "Morning",
+      "time": "08:30",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Find one thing that marks the season and bring it in: a branch of blossom, a fallen leaf, a pine cone, a ripe fruit, a few grasses in a jar. Set it somewhere you will see it. Arrange it with care in a simple vase or on a dish. Japanese households follow the seasons closely, and the shifts are marked with a little offering of nature.",
+      "why": "Marking the turning seasons is part of Japanese life, in food, clothes and flowers. A simple seasonal arrangement connects the home to the world outside.",
+      "variations": [
+        "Change it as soon as it fades.",
+        "Draw it quickly before it wilts.",
+        "Take a sprig to a friend."
+      ]
+    },
+    {
+      "id": "breathe-the-morning-air",
+      "name": "Breathe the morning air",
+      "icon": "wind",
+      "slot": "Morning",
+      "time": "06:50",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Open a window or step outside. Stand tall, feet apart, hands low. Breathe in through the nose while lifting the hands to the chest, then out through the mouth while lowering them, slowly. Repeat for five minutes. Breathing out fully is called ibuki. Imagine each breath washing a little of the night from the body.",
+      "why": "Breath practices called ibuki are used in Japanese martial arts, Shugendo and daily exercise. A few cycles of full breaths clear the head.",
+      "variations": [
+        "Do it facing the sun.",
+        "Do it in the garden or on a balcony.",
+        "Add a bow at the end."
       ]
     },
     {
@@ -321,12 +385,12 @@
       "time": "13:00",
       "minutes": 15,
       "meta": "Afternoon · 15 min",
-      "instructions": "Choose one old tree, rock, spring or stretch of water near you and go to it every day of the Onda. Stop a few paces away. Stand straight, bow, and stay for some minutes simply looking. Notice what has changed since yesterday. You need not ask for anything or believe anything. Before leaving, give thanks, bow again and take any litter with you.",
-      "why": "Shrines began as places in nature where presence was felt: a grove, a waterfall, a mountain. Great trees are still roped off and greeted. Going back to the same place is how a relationship is made.",
+      "instructions": "Choose one old tree, rock, spring or stretch of water near you and go to it every day of the Onda. Stop a few paces away. Stand straight, bow, and stay for some minutes simply looking. Notice what has changed since yesterday. Say thank you quietly. Leave without picking anything.",
+      "why": "In Shinto, old trees, rocks and waterfalls may be the dwelling of a kami and are marked with a rope. Visiting one regularly teaches you to see what changes and what stays.",
       "variations": [
-        "Learn the tree’s species, age and history.",
-        "Bring a cup of clean water and pour it at the roots.",
-        "Visit at a different hour each day."
+        "Touch the bark gently with your palm.",
+        "Sit nearby with a book.",
+        "Draw the tree from memory afterwards."
       ]
     },
     {
@@ -337,152 +401,421 @@
       "time": "12:30",
       "minutes": 5,
       "meta": "Afternoon · 5 min",
-      "instructions": "Before one meal a day, set the food down, sit straight, put your hands together and say itadakimasu: I humbly receive. Take ten seconds to think of what was alive and the people who grew, carried and cooked it. Eat without a screen and finish what is in the bowl. At the end say gochisosama: it was a feast.",
-      "why": "The phrases are said in nearly every Japanese home. They come from the sense that food is a gift of the kami and of other lives, and that waste is an offence.",
+      "instructions": "Before one meal a day, set the food down, sit straight, put your hands together and say itadakimasu: I humbly receive. Take ten seconds to think of what was alive and the people who grew, carried and cooked it. Eat without a screen. At the end say gochisosama deshita, thank you for the feast. The rule of this Onda is to say thank you before and after eating.",
+      "why": "Itadakimasu and gochisosama are said in Japan by almost everyone, before and after every meal. They turn eating into an act of gratitude.",
       "variations": [
-        "Offer the first spoonful of rice on a small dish before you eat.",
-        "Cook one thing that is exactly in season.",
-        "Thank the cook in person."
+        "Say it quietly even if eating alone.",
+        "Say it in front of the cook.",
+        "Teach it to a child."
+      ]
+    },
+    {
+      "id": "pick-up-litter",
+      "name": "Pick up litter",
+      "icon": "trash",
+      "slot": "Afternoon",
+      "time": "16:00",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Take a bag and spend ten minutes picking up litter on your street or in a park. Wear gloves, and never pick up anything sharp or dangerous. Leave the place cleaner than you found it. Japanese football fans are known for tidying the stands after a match. The act is small, and the result is visible. Wash your hands afterwards.",
+      "why": "Leaving every place cleaner than you found it is a rule of this Onda and a Japanese habit seen at schools, shrines and sports grounds. It extends cleanliness from the self to the shared world.",
+      "variations": [
+        "Do it with a friend or a child.",
+        "Do it by the sea or river.",
+        "Sort what you collect for recycling."
+      ]
+    },
+    {
+      "id": "make-a-fortune-slip",
+      "name": "Make a fortune slip",
+      "icon": "scroll",
+      "slot": "Afternoon",
+      "time": "14:30",
+      "minutes": 15,
+      "meta": "Afternoon · 15 min",
+      "instructions": "Make an omikuji, a fortune slip, for a friend. Write a short, warm fortune on a strip of paper, in the style of the shrine slips: great blessing, middling blessing, small blessing, with a few lines on health, travel and friends. Fold it and tie it to a twig. Leave it for them to find. Make it playful and kind.",
+      "why": "Omikuji are paper fortunes drawn at Japanese shrines and tied to trees if the fortune is bad. Making a kind one for a friend is a charming way to give good wishes.",
+      "variations": [
+        "Make one for yourself.",
+        "Make a set for a family.",
+        "Write the fortune in verse."
+      ]
+    },
+    {
+      "id": "walk-at-the-side",
+      "name": "Walk at the side",
+      "icon": "path",
+      "slot": "Afternoon",
+      "time": "15:30",
+      "minutes": 15,
+      "meta": "Afternoon · 15 min",
+      "instructions": "Take a walk in a park or along a quiet path, keeping to the side as visitors do on the approach to a shrine, since the centre is reserved for the gods. Walk slowly, bow slightly at any gate or bridge, and keep your voice low. Notice the sounds, the gravel, the light through the trees. Leave the centre to whatever is greater than you.",
+      "why": "The centre of a shrine path is called seichu and left to the kami. Walking at the side is a gesture of humility that visitors learn quickly.",
+      "variations": [
+        "Walk a gravel path and listen to your feet.",
+        "Pause at each gate or bridge.",
+        "Do it in silence."
+      ]
+    },
+    {
+      "id": "write-an-okagesama-de-note",
+      "name": "Write an okagesama de note",
+      "icon": "pen-nib",
+      "slot": "Afternoon",
+      "time": "17:00",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Write down three things that you are able to do today only thanks to other people. Next to each, name the people. Okagesama de means thanks to you, and Japanese people say it when asked how they are: well, thanks to you. Thank one person in the list out loud or in writing before the day is over.",
+      "why": "Okagesama de is a common phrase that recognises how much one depends on others. Naming the help makes gratitude concrete.",
+      "variations": [
+        "Thank someone behind the scenes.",
+        "Say okagesama de when someone asks how you are.",
+        "Write the list on a card and keep it."
       ]
     },
     {
       "id": "evening-bath",
       "name": "The evening bath",
-      "icon": "shower",
+      "icon": "bathtub",
       "slot": "Evening",
       "time": "21:00",
       "minutes": 15,
       "meta": "Evening · 15 min",
-      "instructions": "Wash thoroughly first, then soak in a hot bath if you have one, or stand under the shower without hurrying. As the water runs off, let the day’s irritations, bad news and small failures go with it. Name them if that helps. Put on clean clothes for sleep. End by thinking of one thing in the day you are grateful for.",
-      "why": "The Japanese evening bath is everyday purification. Pollution in Shinto is something picked up, like dust, and washed away. It is not guilt to be carried.",
+      "instructions": "Wash thoroughly first, then soak in a hot bath if you have one, or stand under the shower without hurrying. As the water runs off, let the day’s irritations, bad news and small failures go with it. Name them if that helps. Keep the water comfortable and not too hot, and get out slowly if you feel dizzy. Step out feeling renewed.",
+      "why": "Misogi, washing away impurity, is at the centre of Shinto. Japanese baths are an everyday ritual of rest. Washing away the day’s troubles is both habit and symbol.",
       "variations": [
-        "Scatter a pinch of salt in the bathwater.",
-        "Visit a public bath or hot spring.",
-        "Wash only your hands and face, slowly, if that is all you can do."
+        "Add a few drops of citrus or herbs to the water.",
+        "Soak with a cup of barley tea.",
+        "Think of three things to be thankful for."
       ]
-    }
-  ],
-  "tasks": [
-    {
-      "id": "take-your-shoes-off-at-the-door-and-keep-the-entrance-clear",
-      "name": "Take your shoes off at the door and keep the entrance clear",
-      "meta": "The threshold matters",
-      "time": "08:00",
-      "slot": "Morning"
     },
     {
-      "id": "notice-what-season-it-is-find-one-thing-that-was-not-there-last-week",
-      "name": "Notice what season it is: find one thing that was not there last week",
-      "meta": "The 72 micro-seasons",
-      "time": "10:00",
-      "slot": "Morning"
-    },
-    {
-      "id": "task-read-the-story-of-amaterasu-and-the-cave",
-      "name": "Read the story of Amaterasu and the cave",
-      "meta": "Read · Kojiki, book one",
+      "id": "watch-the-moon",
+      "name": "Watch the moon",
+      "icon": "moon-stars",
+      "slot": "Evening",
       "time": "20:00",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "On a clear evening, go out and look at the moon for fifteen minutes. Tsukimi, moon-viewing, is a Japanese custom of enjoying the autumn moon with rice dumplings and pampas grass. Bring tea or a piece of fruit. Say nothing. If it is cloudy, think of the moon behind the cloud and enjoy the thought.",
+      "why": "Moon-viewing has been a Japanese pastime for over a thousand years. It is a gentle, cheap pleasure and a way to end the day looking up.",
+      "variations": [
+        "Eat a round rice dumpling or round fruit.",
+        "Sit by a pond to see the reflection.",
+        "Write a three-line poem about it."
+      ]
+    },
+    {
+      "id": "listen-to-gagaku",
+      "name": "Listen to gagaku",
+      "icon": "waveform",
       "slot": "Evening",
-      "action": "read"
+      "time": "19:30",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Play a piece of gagaku, the court music of Japan, such as Etenraku, played on mouth organ, flutes and drums. Listen with eyes closed for ten minutes. It moves very slowly and the sound hangs in the air. It has been played since about the eighth century and is heard at shrines. Let it clear your mind.",
+      "why": "Gagaku is the oldest continuously performed orchestral music in the world, and part of Shinto ceremonies. Its pace slows the heart.",
+      "variations": [
+        "Listen with a cup of green tea.",
+        "Listen to kagura drums instead.",
+        "Look at a picture of the instruments first."
+      ]
     },
     {
-      "id": "task-watch-my-neighbor-totoro",
-      "name": "Watch My Neighbor Totoro",
-      "meta": "Watch · a camphor tree and its kami",
-      "time": "19:00",
+      "id": "count-the-day-s-thanks",
+      "name": "Count the day’s thanks",
+      "icon": "heart",
       "slot": "Evening",
-      "action": "watch"
-    },
-    {
-      "id": "task-listen-to-gagaku-court-music",
-      "name": "Listen to gagaku court music",
-      "meta": "Listen · Etenraku",
-      "time": "17:00",
-      "slot": "Afternoon",
-      "action": "listen"
-    },
-    {
-      "id": "task-cook-plain-white-rice-with-care-and-eat-the-first-bowl-in-silence",
-      "name": "Cook plain white rice with care and eat the first bowl in silence",
-      "meta": "Eat · rice is the centre",
-      "time": "18:30",
-      "slot": "Evening",
-      "action": "eat"
-    },
-    {
-      "id": "task-journal-what-clung-to-you-today-and-what-washed-it-off",
-      "name": "Journal: what clung to you today, and what washed it off?",
-      "meta": "Journal · 10 min",
       "time": "21:30",
-      "slot": "Evening",
+      "minutes": 5,
+      "meta": "Evening · 5 min",
+      "instructions": "Before you sleep, say thank you three times: once for something the day gave, once for someone who helped and once for something small that went right. Say each aloud or write it. Kansha, gratitude, is the base of the Japanese way. End with a small bow to the room.",
+      "why": "Gratitude is at the core of Shinto and Japanese culture. A short thank-you at night ends the day on the right note.",
+      "variations": [
+        "Say it to someone you share the house with.",
+        "Write the three in a notebook.",
+        "Thank an object you used a lot."
+      ],
       "action": "journal"
     },
     {
-      "id": "task-kami-what-near-you-is-outside-the-ordinary",
-      "name": "Kami: what near you is outside the ordinary?",
-      "meta": "Philosophy · 10 min",
-      "time": "09:00",
-      "slot": "Morning",
-      "action": "philosophy"
+      "id": "sit-and-listen-to-the-night",
+      "name": "Sit and listen to the night",
+      "icon": "ear",
+      "slot": "Evening",
+      "time": "22:00",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Turn off the lights and sit by an open window or door for ten minutes. Listen to the sounds of the night: wind, a distant train, insects, footsteps. Japan has a long tradition of listening to insects. Sit upright, breathe, and let the sounds come. Close the window with a bow of thanks and go to bed.",
+      "why": "Listening to the night, especially insects, has been a pleasure in Japan since the Heian period. It calms the mind for sleep.",
+      "variations": [
+        "Do it on the porch.",
+        "Record the sounds on your phone.",
+        "Count the different sounds you hear."
+      ]
     },
     {
-      "id": "write-one-thanks-on-a-slip-of-paper-and-tie-it-to-a-branch",
-      "name": "Write one thanks on a slip of paper and tie it to a branch",
-      "meta": "In the spirit of the wishes left at shrines",
-      "time": "15:00",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "treat-rinse-your-hands-and-mouth-with-cool-water-before-you-start-",
-      "name": "Rinse your hands and mouth with cool water before you start the day",
-      "meta": "A fresh start",
-      "time": "08:30",
-      "slot": "Morning"
-    },
-    {
-      "id": "treat-clap-twice-and-bow-to-a-tree-a-rock-or-the-sunrise",
-      "name": "Clap twice and bow to a tree, a rock or the sunrise",
-      "meta": "Feel a little foolish, then do not",
-      "time": "08:30",
-      "slot": "Morning"
-    },
-    {
-      "id": "treat-go-and-see-what-is-in-bloom-or-in-leaf-this-week",
-      "name": "Go and see what is in bloom or in leaf this week",
-      "meta": "A short walk",
-      "time": "15:30",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "treat-have-a-hot-bath-and-do-nothing-in-it",
-      "name": "Have a hot bath and do nothing in it",
-      "meta": "No phone",
-      "time": "19:30",
-      "slot": "Evening"
-    },
-    {
-      "id": "daily-spend-five-minutes-in-the-greenest-place-nearby",
-      "name": "Spend five minutes in the greenest place nearby",
-      "meta": "Many shrines stand in woods",
-      "time": "14:00",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "daily-eat-a-rice-ball-slowly",
-      "name": "Eat a rice ball slowly",
-      "meta": "Rice is a sacred food",
+      "id": "tidy-before-sleep",
+      "name": "Tidy before sleep",
+      "icon": "broom",
+      "slot": "Evening",
       "time": "20:30",
-      "slot": "Evening"
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Spend ten minutes putting the house in order for the night. Wash the cups, wipe the table, fold what was left out, and set the shoes straight. Then switch off the lights, one room at a time, with a quiet word of thanks. Wake up to a clean house. A home cleared in the evening is a gift to your morning self.",
+      "why": "In Japan, tidying a space before leaving it is a simple, regular form of respect. A tidy house at night gives the morning a fresh start.",
+      "variations": [
+        "Tidy one room properly.",
+        "Wipe down the kitchen counter.",
+        "Set out tomorrow’s clothes."
+      ]
     },
     {
-      "id": "daily-close-the-day-by-tidying-one-small-thing",
-      "name": "Close the day by tidying one small thing",
-      "meta": "Leave the room ready",
-      "time": "20:30",
-      "slot": "Evening"
+      "id": "a-big-clean-japanese-style",
+      "name": "A big clean, Japanese style",
+      "icon": "broom",
+      "slot": "Special",
+      "time": "10:00",
+      "minutes": 120,
+      "meta": "On a free morning · 120 min",
+      "instructions": "Do an osoji, a big clean, of one room or one cupboard. Take everything out, dust and wipe, and put back only what you use and love. The year-end clean is a Japanese tradition that clears the old year’s dust so the new year can come in. Open the windows, play lively music and finish with a pot of tea.",
+      "why": "Osoji, the thorough clean at year’s end, prepares the home for the new year. Doing one room is satisfying whatever the month.",
+      "variations": [
+        "Do it together with housemates.",
+        "Donate what you no longer need.",
+        "Finish by lighting a candle in the clean room."
+      ]
+    },
+    {
+      "id": "a-walk-in-the-woods",
+      "name": "A walk in the woods",
+      "icon": "tree-evergreen",
+      "slot": "Special",
+      "time": "10:00",
+      "minutes": 90,
+      "meta": "On a free morning · 90 min",
+      "instructions": "Take a slow walk in a wood or a large park, in the spirit of shinrin-yoku, forest bathing. Leave the phone in the bag. Walk without a goal and stop where the light is good. Touch bark, smell the leaves, listen to birds. Sit for ten minutes under a tree. Bow to the trees as you leave. Dress for the weather and tell someone where you are going.",
+      "why": "Forest bathing began in Japan in the 1980s and is now used worldwide for calm. It is rooted in the Shinto sense of woods as living places.",
+      "variations": [
+        "Go with a friend and agree on silence.",
+        "Bring tea in a flask.",
+        "Take a notebook and sketch one tree."
+      ]
     }
   ],
-  "immersePlan": [],
+  "tasks": [],
+  "immersePlan": [
+    {
+      "kind": "read",
+      "item": "read-the-book-of-tea",
+      "name": "Read a chapter of The Book of Tea",
+      "text": "Read a chapter of Okakura Kakuzo’s 1906 essay on tea, beauty and the Japanese way of seeing. Choose a sentence and write it on a card.",
+      "minutes": 15
+    },
+    {
+      "kind": "read",
+      "item": "read-glimpses-of-unfamiliar-japan",
+      "name": "Read Lafcadio Hearn",
+      "text": "Read a short chapter from Hearn’s 1894 sketches of old Japan, such as the one on the Izumo shrine or on household shrines. Notice his sense of wonder.",
+      "minutes": 20
+    },
+    {
+      "kind": "read",
+      "item": "read-the-kojiki-an-account-of-ancient-matters",
+      "name": "Read a tale from the Kojiki",
+      "text": "Read a story from the oldest book of Japan, such as the one of the sun goddess hiding in a cave until the gods make her laugh. Retell it in your own words.",
+      "minutes": 15
+    },
+    {
+      "kind": "watch",
+      "item": "watch-my-neighbor-totoro",
+      "name": "Watch My Neighbor Totoro",
+      "text": "Watch Miyazaki’s gentle film of two sisters and the spirit of a camphor tree. Notice the way the children treat the forest.",
+      "minutes": 90
+    },
+    {
+      "kind": "watch",
+      "item": "watch-spirited-away",
+      "name": "Watch Spirited Away",
+      "text": "Watch Miyazaki’s film of a girl who works in a bathhouse for the gods. Notice the river spirit’s bath scene.",
+      "minutes": 125
+    },
+    {
+      "kind": "watch",
+      "item": "watch-princess-mononoke",
+      "name": "Watch Princess Mononoke",
+      "text": "Watch Miyazaki’s film of the forest gods against the iron-makers. Notice how neither side is simply good or bad.",
+      "minutes": 135
+    },
+    {
+      "kind": "listen",
+      "item": "listen-etenraku",
+      "name": "Listen to Etenraku",
+      "text": "Play the gagaku piece, with its mouth organ chords hanging in the air. Close your eyes and let it unfold slowly.",
+      "minutes": 10
+    },
+    {
+      "kind": "listen",
+      "item": "listen-kagura-music",
+      "name": "Listen to kagura music",
+      "text": "Play the flutes and drums of the sacred dances performed at the shrines of Izumo and elsewhere. Imagine the lanterns and the masks.",
+      "minutes": 15
+    },
+    {
+      "kind": "listen",
+      "item": "listen-festival-music-matsuri-bayashi",
+      "name": "Listen to matsuri-bayashi",
+      "text": "Play the flutes, drums and gongs of the festival procession at Gion or Chichibu. Tap your foot to the bouncing rhythm.",
+      "minutes": 15
+    },
+    {
+      "kind": "art",
+      "item": "art-the-ise-grand-shrine",
+      "name": "Look at the Ise Grand Shrine",
+      "text": "Look at pictures of the plain wooden shrine rebuilt every twenty years from fresh timber. Think about why a culture would keep rebuilding.",
+      "minutes": 10
+    },
+    {
+      "kind": "art",
+      "item": "art-the-great-wave-off-kanagawa",
+      "name": "Look at The Great Wave",
+      "text": "Look at Hokusai’s print of a huge wave curling over fishing boats with Mount Fuji small beyond. Find the three boats and the mountain.",
+      "minutes": 5
+    },
+    {
+      "kind": "art",
+      "item": "art-nachi-waterfall",
+      "name": "Look at the Nachi Waterfall scroll",
+      "text": "Look at the long hanging scroll painting of a single waterfall, a sacred object in itself. Look at it for five minutes without moving.",
+      "minutes": 10
+    },
+    {
+      "kind": "eat",
+      "item": "eat-plain-rice",
+      "name": "Cook a pot of plain rice",
+      "text": "Wash short-grain white rice until the water runs clear, soak it, and steam it. Eat a bowl of it slowly with a pinch of salt and notice the sweetness.",
+      "minutes": 40
+    },
+    {
+      "kind": "eat",
+      "item": "eat-mochi",
+      "name": "Make or taste mochi",
+      "text": "Pound or steam glutinous rice into soft cakes, or buy some. Toast one until it puffs and eat it with soy sauce and seaweed or sweet bean paste. Eat in small pieces and chew well.",
+      "minutes": 30
+    },
+    {
+      "kind": "eat",
+      "item": "eat-sekihan",
+      "name": "Cook sekihan",
+      "text": "Steam glutinous rice with small red beans, eaten on happy days in Japan. The red colour is thought to ward off bad luck. Share some.",
+      "minutes": 60
+    },
+    {
+      "kind": "drink",
+      "item": "drink-amazake",
+      "name": "Drink amazake",
+      "text": "Warm a sweet fermented rice drink, with or without added ginger. Look for the non-alcoholic kind and sip it warm. It is a winter drink of shrine fairs.",
+      "minutes": 10
+    },
+    {
+      "kind": "drink",
+      "item": "drink-fresh-spring-water",
+      "name": "Drink fresh spring water",
+      "text": "Drink a glass of clean water as if it came from a shrine well or mountain spring. Hold the glass in both hands and drink slowly.",
+      "minutes": 5
+    },
+    {
+      "kind": "drink",
+      "item": "drink-hojicha",
+      "name": "Drink hojicha",
+      "text": "Brew roasted green tea in a small pot and drink it warm. Its toasty smell is calming at the end of the day.",
+      "minutes": 10
+    },
+    {
+      "kind": "customs",
+      "item": "customs-walking-at-the-side",
+      "name": "Walk at the side",
+      "text": "Walk on a path today as visitors do on the approach to a shrine, keeping to the side and leaving the centre. Notice how it slows you.",
+      "minutes": 10
+    },
+    {
+      "kind": "customs",
+      "item": "customs-seven-five-three",
+      "name": "Learn about Shichi-go-san",
+      "text": "On 15 November, children of three, five and seven are dressed up and taken to a shrine to be thanked and blessed. Read about it and send a good wish to a child you know.",
+      "minutes": 10
+    },
+    {
+      "kind": "customs",
+      "item": "customs-salt-at-the-door",
+      "name": "Set out small cones of salt",
+      "text": "Shape small cones of salt on a saucer and set them by the entrance, as shops and restaurants do for purity and welcome. Replace them with fresh salt weekly.",
+      "minutes": 5
+    },
+    {
+      "kind": "games",
+      "item": "games-okami",
+      "name": "Play Okami",
+      "text": "Play an hour of the game in which a sun goddess in the form of a wolf paints life back into a world with a brush. Notice how the painted style borrows from ink.",
+      "minutes": 60
+    },
+    {
+      "kind": "games",
+      "item": "games-karuta",
+      "name": "Play karuta",
+      "text": "Play the card game in which players race to grab the card matching a poem read aloud. Use a deck of proverb cards, or make your own with a friend.",
+      "minutes": 30
+    },
+    {
+      "kind": "games",
+      "item": "games-sumo",
+      "name": "Watch a bout of sumo",
+      "text": "Watch a short sumo match and notice the ritual before it: the salt thrown, the stamping, the long stare. It began as a Shinto rite offered to the kami.",
+      "minutes": 15
+    },
+    {
+      "kind": "travel",
+      "item": "fest-setsubun",
+      "name": "Mark Setsubun",
+      "text": "Setsubun falls on 3 February, with beans thrown to send out bad luck. Throw a handful of roasted soybeans out of the door, call fortune in, and eat as many as your age.",
+      "minutes": 10
+    },
+    {
+      "kind": "travel",
+      "item": "fest-gion-matsuri",
+      "name": "Look up the Gion Matsuri",
+      "text": "Look at pictures and videos of Kyoto’s July festival with huge wheeled floats pulled through the streets. Pick your favourite float.",
+      "minutes": 15
+    },
+    {
+      "kind": "travel",
+      "item": "place-fushimi-inari-taisha",
+      "name": "Look at Fushimi Inari",
+      "text": "Look at pictures of the path through thousands of vermilion gates up a mountain in Kyoto. Imagine walking it at dawn.",
+      "minutes": 10
+    },
+    {
+      "kind": "words",
+      "item": "word-musubi",
+      "name": "Practise musubi",
+      "text": "Musubi is the creative power that ties things together. Tie two things in your day together by introducing two people or connecting two ideas.",
+      "minutes": 10
+    },
+    {
+      "kind": "words",
+      "item": "word-makoto",
+      "name": "Practise makoto",
+      "text": "Makoto is sincerity, a heart without falseness. Do one thing today with a whole and honest heart.",
+      "minutes": 5
+    },
+    {
+      "kind": "words",
+      "item": "word-okagesama-de",
+      "name": "Say okagesama de",
+      "text": "Okagesama de means thanks to you. When someone asks how you are today, answer well, thanks to you, and mean it.",
+      "minutes": 5
+    }
+  ],
   "rules": [
     {
       "id": "r1",
@@ -694,6 +1027,12 @@
         "title": "Fresh spring water",
         "creator": "From a shrine well or a mountain spring",
         "why": "Many shrines stand at springs, and people carry the water home."
+      },
+      {
+        "id": "drink-hojicha",
+        "title": "Hojicha",
+        "creator": "Roasted green tea",
+        "why": "Green tea leaves roasted until brown, with a warm, toasty taste and little caffeine. A comfortable evening drink in Japanese homes."
       }
     ],
     "customs": [

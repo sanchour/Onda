@@ -330,9 +330,9 @@ test.describe('Ondas', () => {
     await expect(page.getByText('2 of 5 practices')).toBeVisible()
     for (const tile of ['Immerse', 'Journal', 'Philosophy', 'Rules']) await expect(page.getByRole('button', { name: tile, exact: true })).toBeVisible()
     // day 4 of Stoicism: one practice for the morning, the afternoon and the evening, one small extra, and one to take in
-    await expect(page.getByRole('checkbox', { name: /^Cold shower/ })).toBeChecked()
-    await expect(page.getByRole('checkbox', { name: /^Cold shower/ })).toContainText('Today: ')
-    await tap(page, /^Dichotomy check/, 'checkbox')
+    await expect(page.getByRole('checkbox', { name: /^Morning premeditation/ })).toBeChecked()
+    await expect(page.getByRole('checkbox', { name: /^Morning premeditation/ })).toContainText('Today: ')
+    await tap(page, /^Voluntary discomfort/, 'checkbox')
     await expect(page.getByText('3 of 5 practices')).toBeVisible()
     await expect(page.getByRole('checkbox', { name: /^Look at: Equestrian statue of Marcus Aurelius/ })).toBeVisible()
     // the immerse practice opens the piece itself, with places to find it
@@ -638,10 +638,10 @@ test.describe('Update 5.0', () => {
     await expect(row).toHaveAttribute('aria-checked', before ?? 'false')
   })
 
-  test('Settings shows version 5.2; switching light and dark repaints the top strip, reloads once and returns to the same screen', async ({ page }) => {
+  test('Settings shows version 5.2.1; switching light and dark repaints the top strip, reloads once and returns to the same screen', async ({ page }) => {
     await seedDemo(page)
     await tap(page, 'Settings')
-    await expect(page.getByText('Onda 5.2')).toBeVisible()
+    await expect(page.getByText('Onda 5.2.1')).toBeVisible()
     const bar = () =>
       page.evaluate(() => {
         const strip = document.getElementById('status-strip')!

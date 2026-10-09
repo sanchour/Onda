@@ -463,6 +463,20 @@
       "meta": "Start over when you lose count",
       "time": "08:30",
       "slot": "Morning"
+    },
+    {
+      "id": "daily-sit-and-watch-your-breath-for-ten-minutes",
+      "name": "Sit and watch your breath for ten minutes",
+      "meta": "Count to ten, then start again",
+      "time": "20:30",
+      "slot": "Evening"
+    },
+    {
+      "id": "daily-wish-three-people-well-then-yourself",
+      "name": "Wish three people well, then yourself",
+      "meta": "Metta",
+      "time": "20:30",
+      "slot": "Evening"
     }
   ],
   "rules": [

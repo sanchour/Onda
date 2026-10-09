@@ -44,7 +44,7 @@ All ten Ondas were expanded from the first-draft `onda-data.js` by an AI model (
 
 ## Stoicism
 
-File: `content/ondas/stoic.json` · version 2 · about 5000 words · 32 words of vocabulary, 30 journal prompts, 16 history entries, 10 concepts, 8 sources.
+File: `content/ondas/stoic.json` · version 2 · about 5100 words · 32 words of vocabulary, 30 journal prompts, 16 history entries, 10 concepts, 8 sources.
 
 Nothing is marked `unverified`.
 
@@ -71,7 +71,7 @@ Marked `unverified` (1):
 
 ## Tibetan Buddhism
 
-File: `content/ondas/tibet.json` · version 2 · about 4300 words · 32 words of vocabulary, 30 journal prompts, 14 history entries, 10 concepts, 6 sources.
+File: `content/ondas/tibet.json` · version 2 · about 4400 words · 32 words of vocabulary, 30 journal prompts, 14 history entries, 10 concepts, 6 sources.
 
 **Needs review by tradition bearers before launch.** Tibetan Buddhism is a living tradition whose people have been in exile since 1959. This Onda uses only practices that Tibetan teachers offer publicly: tonglen, the compassion mantra and the mind-training slogans. Practice as a guest, and learn from Tibetan teachers where you can.
 
@@ -87,7 +87,7 @@ Nothing is marked `unverified`.
 
 ## Vedanta
 
-File: `content/ondas/vedanta.json` · version 2 · about 4100 words · 32 words of vocabulary, 30 journal prompts, 13 history entries, 10 concepts, 6 sources.
+File: `content/ondas/vedanta.json` · version 2 · about 4200 words · 32 words of vocabulary, 30 journal prompts, 13 history entries, 10 concepts, 6 sources.
 
 Framing note shown in the app: Vedānta is part of living Hindu tradition and is normally learned from a teacher within a lineage. This Onda introduces its texts and its most widely taught practices.
 
@@ -106,7 +106,7 @@ Marked `unverified` (1):
 
 ## Native American Animism
 
-File: `content/ondas/animism.json` · version 2 · about 5000 words · 32 words of vocabulary, 30 journal prompts, 16 history entries, 10 concepts, 7 sources.
+File: `content/ondas/animism.json` · version 2 · about 5100 words · 32 words of vocabulary, 30 journal prompts, 16 history entries, 10 concepts, 7 sources.
 
 **Needs review by tradition bearers before launch.** There is no single Native American tradition. This Onda draws only on what Native authors and nations have shared publicly, names the nation each idea comes from, and includes no ceremonies. You are a guest: give thanks in your own words, learn whose land you are on, and give something back.
 
@@ -145,7 +145,7 @@ Marked `unverified` (2):
 
 ## Sufism
 
-File: `content/ondas/sufi.json` · version 2 · about 4600 words · 32 words of vocabulary, 30 journal prompts, 14 history entries, 10 concepts, 7 sources.
+File: `content/ondas/sufi.json` · version 2 · about 4700 words · 32 words of vocabulary, 30 journal prompts, 14 history entries, 10 concepts, 7 sources.
 
 **Needs review by tradition bearers before launch.** Sufism is the contemplative heart of Islam and a living tradition of practising Muslims. This Onda offers remembrance, poetry, listening and night stillness in a form open to anyone, and does not reproduce the rituals of any order.
 
@@ -213,7 +213,7 @@ Marked `unverified` (12):
 
 ## Aztec
 
-File: `content/ondas/aztec.json` · version 1 · about 5100 words · 33 words of vocabulary, 30 journal prompts, 13 history entries, 10 concepts, 7 sources.
+File: `content/ondas/aztec.json` · version 1 · about 5200 words · 33 words of vocabulary, 30 journal prompts, 13 history entries, 10 concepts, 7 sources.
 
 **Needs review by tradition bearers before launch.** The Mexica and other Nahua peoples built a great civilisation, and their descendants live today. This Onda offers gratitude, poetry and reflection inspired by Nahua thought. It does not reproduce ceremonies, and it treats the sacrificial side of Mexica religion as part of an honest history.
 
@@ -270,7 +270,7 @@ Marked `unverified` (11):
 
 ## Hermeticism
 
-File: `content/ondas/hermes.json` · version 1 · about 4900 words · 33 words of vocabulary, 30 journal prompts, 14 history entries, 10 concepts, 6 sources.
+File: `content/ondas/hermes.json` · version 1 · about 5000 words · 33 words of vocabulary, 30 journal prompts, 14 history entries, 10 concepts, 6 sources.
 
 Framing note shown in the app: Hermeticism includes ancient philosophy, Renaissance learning, historical alchemy and modern esoteric movements. This Onda draws on the first two and treats alchemy as symbol and history. It offers habits of attention and does not ask you to practise ritual magic or handle chemicals.
 
@@ -338,7 +338,7 @@ Nothing is marked `unverified`.
 
 ## Diogenes
 
-File: `content/ondas/cynic.json` · version 1 · about 5800 words · 31 words of vocabulary, 30 journal prompts, 15 history entries, 10 concepts, 6 sources.
+File: `content/ondas/cynic.json` · version 1 · about 5900 words · 31 words of vocabulary, 30 journal prompts, 15 history entries, 10 concepts, 6 sources.
 
 Framing note shown in the app: What we know of Diogenes comes from anecdotes written down centuries after his death, and some of what they describe was indecent or illegal. This Onda borrows his nerve, his thrift and his honesty. It does not ask you to offend, expose or endanger anyone, and it does not treat poverty as a game.
 
@@ -364,7 +364,7 @@ Nothing is marked `unverified`.
 
 ## Abbasid Caliphate
 
-File: `content/ondas/abbasid.json` · version 1 · about 6000 words · 32 words of vocabulary, 30 journal prompts, 14 history entries, 10 concepts, 7 sources.
+File: `content/ondas/abbasid.json` · version 1 · about 6100 words · 32 words of vocabulary, 30 journal prompts, 14 history entries, 10 concepts, 7 sources.
 
 **Needs review by tradition bearers before launch.** Abbasid Baghdad was the work of Arabs, Persians, Syriac Christians, Jews and many others, within a Muslim empire. Its learning is part of the heritage of people living today, in Iraq above all. This Onda explores the culture of knowledge of that time. It is not instruction in Islam, and it does not treat the period as a lost golden age.
 
@@ -391,7 +391,7 @@ Nothing is marked `unverified`.
 
 ## Traditional Cuban
 
-File: `content/ondas/cuba.json` · version 1 · about 6500 words · 32 words of vocabulary, 30 journal prompts, 16 history entries, 10 concepts, 7 sources.
+File: `content/ondas/cuba.json` · version 1 · about 6600 words · 32 words of vocabulary, 30 journal prompts, 16 history entries, 10 concepts, 7 sources.
 
 **Needs review by tradition bearers before launch.** This Onda draws on the everyday culture of a living people, on the island and in the diaspora, who disagree strongly about their country’s politics. It takes no side. It also describes skills that grew out of real hardship, and religions that are entered only through initiation. It treats the first with respect and does not offer the second as practices.
 
@@ -408,7 +408,7 @@ Nothing is marked `unverified`.
 
 ## Hinduism
 
-File: `content/ondas/hindu.json` · version 1 · about 5300 words · 30 words of vocabulary, 30 journal prompts, 13 history entries, 10 concepts, 6 sources.
+File: `content/ondas/hindu.json` · version 1 · about 5400 words · 30 words of vocabulary, 30 journal prompts, 13 history entries, 10 concepts, 6 sources.
 
 **Needs review by tradition bearers before launch.** Hinduism is a living religion of more than a billion people and enormous variety. This Onda offers a guest’s version of the householder’s day. It does not ask you to worship any deity, and it leaves out rites that need initiation, a priest or a family tradition.
 
@@ -424,7 +424,7 @@ Nothing is marked `unverified`.
 
 ## Mahayana Buddhism
 
-File: `content/ondas/mahayana.json` · version 1 · about 5200 words · 30 words of vocabulary, 30 journal prompts, 13 history entries, 9 concepts, 6 sources.
+File: `content/ondas/mahayana.json` · version 1 · about 5300 words · 30 words of vocabulary, 30 journal prompts, 13 history entries, 9 concepts, 6 sources.
 
 **Needs review by tradition bearers before launch.** Mahayana Buddhism is the living religion of hundreds of millions of people. This Onda offers practices that East Asian traditions share with lay visitors. It is no substitute for taking refuge, receiving precepts or learning from a teacher and a community.
 
@@ -440,7 +440,7 @@ Nothing is marked `unverified`.
 
 ## Theravada Buddhism
 
-File: `content/ondas/theravada.json` · version 1 · about 4900 words · 30 words of vocabulary, 30 journal prompts, 13 history entries, 9 concepts, 6 sources.
+File: `content/ondas/theravada.json` · version 1 · about 5000 words · 30 words of vocabulary, 30 journal prompts, 13 history entries, 9 concepts, 6 sources.
 
 **Needs review by tradition bearers before launch.** Theravada Buddhism is a living religion with an unbroken monastic community. This Onda offers the ordinary practices of lay Buddhists. It does not replace a teacher, and intensive meditation is best begun with guidance.
 
@@ -473,7 +473,7 @@ Marked `unverified` (1):
 
 ## Jainism
 
-File: `content/ondas/jain.json` · version 1 · about 4900 words · 30 words of vocabulary, 30 journal prompts, 12 history entries, 9 concepts, 6 sources.
+File: `content/ondas/jain.json` · version 1 · about 5000 words · 30 words of vocabulary, 30 journal prompts, 12 history entries, 9 concepts, 6 sources.
 
 **Needs review by tradition bearers before launch.** Jainism is a living religion with a demanding ascetic core. This Onda offers a mild version of a lay person’s discipline. It does not ask for long fasts or for anything that could harm your health, and it is no substitute for the guidance of the Jain community.
 
@@ -537,7 +537,7 @@ Nothing is marked `unverified`.
 
 ## Christianity
 
-File: `content/ondas/christian.json` · version 1 · about 5200 words · 30 words of vocabulary, 30 journal prompts, 13 history entries, 9 concepts, 6 sources.
+File: `content/ondas/christian.json` · version 1 · about 5300 words · 30 words of vocabulary, 30 journal prompts, 13 history entries, 9 concepts, 6 sources.
 
 **Needs review by tradition bearers before launch.** Christianity is the living faith of a third of humanity, in thousands of churches that disagree on much. This Onda keeps to practices shared by most of them and open to anyone. It is not a statement of doctrine and it does not replace a church.
 
@@ -569,7 +569,7 @@ Nothing is marked `unverified`.
 
 ## Islam: Shia
 
-File: `content/ondas/shia.json` · version 1 · about 5500 words · 30 words of vocabulary, 30 journal prompts, 12 history entries, 9 concepts, 6 sources.
+File: `content/ondas/shia.json` · version 1 · about 5600 words · 30 words of vocabulary, 30 journal prompts, 12 history entries, 9 concepts, 6 sources.
 
 **Needs review by tradition bearers before launch.** Shia Islam is a living faith whose followers have often been a persecuted minority. This Onda tells its history as Shia Muslims tell it and borrows its ethics of justice and remembrance. It does not ask a guest to join mourning rites or ritual prayer.
 
@@ -620,7 +620,7 @@ Nothing is marked `unverified`.
 
 ## Epicureanism
 
-File: `content/ondas/epicurus.json` · version 1 · about 5000 words · 30 words of vocabulary, 30 journal prompts, 13 history entries, 9 concepts, 6 sources.
+File: `content/ondas/epicurus.json` · version 1 · about 5100 words · 30 words of vocabulary, 30 journal prompts, 13 history entries, 9 concepts, 6 sources.
 
 Framing note shown in the app: Epicurus is easy to mistake for a preacher of indulgence. His school taught the reverse: plain food, few wants, and friendship. This Onda keeps to what the surviving texts say and marks later tradition as such.
 
@@ -647,7 +647,7 @@ Nothing is marked `unverified`.
 
 ## Nietzsche
 
-File: `content/ondas/nietzsche.json` · version 1 · about 5000 words · 30 words of vocabulary, 30 journal prompts, 15 history entries, 9 concepts, 6 sources.
+File: `content/ondas/nietzsche.json` · version 1 · about 5100 words · 30 words of vocabulary, 30 journal prompts, 15 history entries, 9 concepts, 6 sources.
 
 Framing note shown in the app: Nietzsche wrote to provoke, and he has been badly misused. This Onda takes from him a discipline of affirmation, honesty and self-overcoming. It does not treat him as an authority, which he asked his readers not to do.
 
@@ -656,7 +656,7 @@ Nothing is marked `unverified`.
 
 ## Freud
 
-File: `content/ondas/freud.json` · version 1 · about 5000 words · 30 words of vocabulary, 30 journal prompts, 13 history entries, 9 concepts, 6 sources.
+File: `content/ondas/freud.json` · version 1 · about 5100 words · 30 words of vocabulary, 30 journal prompts, 13 history entries, 9 concepts, 6 sources.
 
 Framing note shown in the app: This Onda borrows Freud’s habits of attention: recording dreams, speaking freely, noticing slips and listening. It is not psychoanalysis and it is not treatment. If you are struggling, please see a doctor or a qualified therapist.
 
@@ -717,7 +717,7 @@ Marked `unverified` (1):
 
 ## Mongol Empire
 
-File: `content/ondas/mongol.json` · version 1 · about 5500 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
+File: `content/ondas/mongol.json` · version 1 · about 5600 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
 
 **Needs review by tradition bearers before launch.** The Mongol Empire was built by conquest that killed millions. The culture behind it is the living heritage of Mongolians today. This Onda borrows the daily customs of the steppe, which are older and gentler than the empire, and reports the conquests plainly.
 
@@ -853,7 +853,7 @@ Marked `unverified` (1):
 
 ## Aboriginal Australian
 
-File: `content/ondas/aboriginal.json` · version 1 · about 5700 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
+File: `content/ondas/aboriginal.json` · version 1 · about 5800 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
 
 **Needs review by tradition bearers before launch.** Aboriginal and Torres Strait Islander readers are advised that this Onda contains the names of people who have died. It was written by outsiders from published sources and uses only what Aboriginal teachers have shared publicly. It should be reviewed by Aboriginal readers.
 
@@ -869,7 +869,7 @@ Nothing is marked `unverified`.
 
 ## Frisian
 
-File: `content/ondas/frisian.json` · version 1 · about 5400 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
+File: `content/ondas/frisian.json` · version 1 · about 5500 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
 
 **Needs review by tradition bearers before launch.** Frisians are a living people and a recognised national minority in the Netherlands and Germany. This Onda was written from published sources, mostly about West Friesland, and Frisian readers are warmly invited to correct it.
 
@@ -903,7 +903,7 @@ Nothing is marked `unverified`.
 
 ## Melanesian
 
-File: `content/ondas/melanesia.json` · version 1 · about 5300 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
+File: `content/ondas/melanesia.json` · version 1 · about 5400 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
 
 **Needs review by tradition bearers before launch.** Melanesia holds more than a thousand distinct peoples, and no summary can speak for them. This Onda was written by outsiders from published sources, draws on everyday values held widely across the region, and should be reviewed by Melanesian readers.
 
@@ -936,7 +936,7 @@ Marked `unverified` (1):
 
 ## Zulu
 
-File: `content/ondas/zulu.json` · version 1 · about 4800 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
+File: `content/ondas/zulu.json` · version 1 · about 4900 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
 
 **Needs review by tradition bearers before launch.** The Zulu are a living nation of some thirteen million people. This Onda was written by outsiders from published sources and borrows only everyday manners and arts. It should be reviewed by Zulu readers.
 
@@ -953,7 +953,7 @@ Marked `unverified` (1):
 
 ## Bantu
 
-File: `content/ondas/bantu.json` · version 1 · about 4900 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
+File: `content/ondas/bantu.json` · version 1 · about 5000 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
 
 **Needs review by tradition bearers before launch.** Bantu is a family of languages spoken by hundreds of different peoples, and there is no single Bantu culture. This Onda gathers habits that are widely shared, names the language of every word and proverb, and should be reviewed by speakers of those languages.
 
@@ -985,7 +985,7 @@ Nothing is marked `unverified`.
 
 ## Celtic
 
-File: `content/ondas/celtic.json` · version 1 · about 5300 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
+File: `content/ondas/celtic.json` · version 1 · about 5400 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
 
 **Needs review by tradition bearers before launch.** The Celtic languages and their communities are alive, and each of the six nations has its own history. This Onda was written from published sources and keeps to what is attested in old texts and living custom. Speakers of the languages are invited to correct it.
 

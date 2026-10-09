@@ -8,7 +8,7 @@ const curl = (v) => (typeof v === 'string' ? v.replace(/'/g, '\u2019') : v)
 const slug = (s) => s.normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 70)
 const clean = (o) => Object.fromEntries(Object.entries(o).filter(([, v]) => v !== undefined && v !== ''))
 const PREFIX = { festivals: 'fest', places: 'place' }
-const { treatsFor } = require('./apply-treats.cjs')
+const { treatsFor, dailiesFor } = require('./apply-treats.cjs')
 
 const item = (kind) => (a) => {
   const travel = kind === 'festivals' || kind === 'places'
@@ -28,7 +28,7 @@ function build(s) {
     quotes: s.quotes.map(quote),
     words: s.words.map((w) => clean({ id: `word-${slug(w[0])}`, term: w[0], meaning: curl(w[1]), pronunciation: w[2], language: w[3], usage: curl(w[4]), unverified: w[5] || undefined })),
     practices: s.practices.map(([id, name, icon, slot, time, minutes, instructions, why, variations]) => ({ id, name: curl(name), icon, slot, time, minutes, meta: `${slot} · ${minutes} min`, instructions: curl(instructions), why: curl(why), variations: variations.map(curl) })),
-    tasks: [...s.tasks.map(([name, meta, time, slot, action]) => clean({ id: (action ? 'task-' : '') + slug(name), name: curl(name), meta: curl(meta), time, slot, action })), ...treatsFor(s.id)],
+    tasks: [...s.tasks.map(([name, meta, time, slot, action]) => clean({ id: (action ? 'task-' : '') + slug(name), name: curl(name), meta: curl(meta), time, slot, action })), ...treatsFor(s.id), ...dailiesFor(s.id)],
     rules: s.rules.map(([text, why], i) => ({ id: `r${i + 1}`, text: curl(text), why: curl(why) })),
     immerse: immerse(s.immerse),
     ethics: s.ethics.map(idea),

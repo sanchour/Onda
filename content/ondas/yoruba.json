@@ -506,6 +506,20 @@
       "meta": "Plantain, if you can find it",
       "time": "19:30",
       "slot": "Evening"
+    },
+    {
+      "id": "daily-greet-each-person-by-name-and-ask-after-their-day",
+      "name": "Greet each person by name and ask after their day",
+      "meta": "Greeting is half the day",
+      "time": "07:15",
+      "slot": "Morning"
+    },
+    {
+      "id": "daily-say-your-own-name-and-your-family-s-name-aloud",
+      "name": "Say your own name and your family’s name aloud",
+      "meta": "Orúkọ rere: a good name",
+      "time": "07:15",
+      "slot": "Morning"
     }
   ],
   "rules": [

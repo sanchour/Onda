@@ -1,8 +1,8 @@
 import { mediaFor, type MediaItem, type MediaKind } from '@/content'
 import type { OndaContent } from '@/content/schema'
 
-/* The day's practices. Since 5.2 an Onda no longer shows one fixed list of practices and a second list of tasks:
-   every day gets up to five practices drawn from both. One for the morning, one for the afternoon, one for the
+/* The day's practices. An Onda no longer shows one fixed list of practices and a second list of tasks: every day gets up to five
+   drawn from both, with a thread running through them (see planForDay). One for the morning, one for the afternoon, one for the
    evening, one small extra, and one that is about taking the world in (a book, a film, a song, a dish).
    The pick depends only on the content and the day number, so it is the same on every device and needs no storage. */
 
@@ -63,32 +63,56 @@ function immerseFor(c: OndaContent, day: number, includeFood: boolean): DayPract
   return { id: `im-${item.id}`, kind: 'immerse', name: item.title, icon: ACTION_ICON[kind] ?? 'sparkle', meta: item.meta, slot: 'Immerse', time: '20:00', item, lead: kind }
 }
 
-/** Up to five practices for one day of an Onda. An Onda the user made keeps its own list unchanged. */
+/** Up to five practices for one day of an Onda. An Onda the user made keeps its own list unchanged.
+ *
+ *  A thread runs through it. Each time of day has an anchor, the Onda's first practice for that time (or, with none, its first task).
+ *  The anchor comes back two days in three, each time in its next variation, so it feels the same but a little new.
+ *  On the third day the slot shows something else from that tradition instead, working through the rest of what the
+ *  Onda has for that time of day before any comes round again. The three slots change on different days, so a day
+ *  never loses all its anchors at once. The fourth practice is a small extra, a different one each day. */
 export function planForDay(c: OndaContent, day: number, opts: { includeFood: boolean } = { includeFood: true }): DayPractice[] {
   const d = Math.max(1, Math.floor(day))
   if (c.custom) return c.practices.map((p) => face(p, 0))
 
-  const out: DayPractice[] = []
-  // tasks that are not about a book, film or dish join the practices; the others feed the immerse practice
+  type Item = { kind: 'practice'; p: OndaContent['practices'][number] } | { kind: 'task'; t: Task }
   const small = c.tasks.filter((t) => !isImmerse(t.action))
-  const extra = small.length ? small[(d - 1) % small.length] : undefined
+  const used = new Set<string>()
+  const out: DayPractice[] = []
 
-  for (const slot of SLOTS) {
-    const core = c.practices.filter((p) => p.slot === slot)
-    if (core.length) {
-      out.push(face(core[(d - 1) % core.length]!, Math.floor((d - 1) / core.length)))
-      continue
+  SLOTS.forEach((slot, off) => {
+    const pool: Item[] = [...c.practices.filter((p) => p.slot === slot).map((p) => ({ kind: 'practice' as const, p })), ...small.filter((t) => t.slot === slot).map((t) => ({ kind: 'task' as const, t }))]
+    if (!pool.length) return
+    const [anchor, ...rest] = pool as [Item, ...Item[]]
+    // how many of the days before this one were a "something else" day for this slot
+    let elsewhere = 0
+    if (rest.length > 0) for (let i = 1; i < d; i++) if ((i - 1 + off) % 3 === 2) elsewhere++
+    const different = rest.length > 0 && (d - 1 + off) % 3 === 2
+    const showAnchor = !different
+    const item = showAnchor ? anchor : rest[elsewhere % rest.length]!
+    // the anchor's variation moves on each time it appears; another practice's each time it comes round
+    const round = showAnchor ? d - 1 - elsewhere : Math.floor(elsewhere / rest.length)
+    const row = item.kind === 'practice' ? face(item.p, round) : fromTask(item.t)
+    used.add(row.id)
+    out.push(row)
+  })
+
+  // the small extra: a different one every day, from every task the Onda has that is not about a book, a film or a dish
+  const extras = small.filter((t) => !used.has(t.id))
+  for (let i = 0; i < extras.length && out.length < PLAN_MAX - 1; i++) {
+    const t = extras[(d - 1 + i) % extras.length]!
+    if (used.has(t.id)) continue
+    used.add(t.id)
+    out.push(fromTask(t))
+  }
+  // an Onda with hardly any tasks falls back on its remaining practices
+  for (const p of c.practices) {
+    if (out.length >= PLAN_MAX - 1) break
+    if (!used.has(p.id)) {
+      used.add(p.id)
+      out.push(face(p, Math.floor((d - 1) / 3)))
     }
-    const fill = small.filter((t) => t.slot === slot && t.id !== extra?.id)
-    if (fill.length) out.push(fromTask(fill[(d - 1) % fill.length]!))
   }
-  if (extra) out.push(fromTask(extra))
-  // an Onda with few tasks fills the fourth place with another of its practices
-  if (out.length < PLAN_MAX - 1) {
-    const rest = c.practices.filter((p) => !out.some((x) => x.id === p.id))
-    if (rest.length) out.push(face(rest[(d - 1) % rest.length]!, Math.floor((d - 1) / rest.length)))
-  }
-  out.sort((a, b) => a.time.localeCompare(b.time))
+  out.sort((x, y) => x.time.localeCompare(y.time))
   const im = immerseFor(c, d, opts.includeFood)
   if (im) out.push(im)
   return out.slice(0, PLAN_MAX)

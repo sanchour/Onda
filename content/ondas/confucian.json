@@ -476,6 +476,34 @@
       "meta": "A small ritual",
       "time": "15:30",
       "slot": "Afternoon"
+    },
+    {
+      "id": "daily-make-your-bed-and-set-your-desk-in-order-before-you-leave",
+      "name": "Make your bed and set your desk in order before you leave",
+      "meta": "Order outside, order inside",
+      "time": "07:15",
+      "slot": "Morning"
+    },
+    {
+      "id": "daily-give-up-your-seat-or-your-place-in-the-queue",
+      "name": "Give up your seat or your place in the queue",
+      "meta": "A small ritual of courtesy",
+      "time": "14:00",
+      "slot": "Afternoon"
+    },
+    {
+      "id": "daily-call-a-parent-a-grandparent-or-an-old-teacher",
+      "name": "Call a parent, a grandparent or an old teacher",
+      "meta": "Five minutes will do",
+      "time": "20:30",
+      "slot": "Evening"
+    },
+    {
+      "id": "daily-write-down-one-thing-you-learned-from-someone-today",
+      "name": "Write down one thing you learned from someone today",
+      "meta": "Three people walking, one is your teacher",
+      "time": "20:30",
+      "slot": "Evening"
     }
   ],
   "rules": [

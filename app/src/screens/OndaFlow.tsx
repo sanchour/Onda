@@ -2,10 +2,8 @@ import { useLayoutEffect, useMemo, useRef, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { ONDA_INDEX, KIND_ICON, MEDIA_KINDS, mediaFor, type MediaKind } from '@/content'
 import { immerseSet, runSummary } from '@/data/derive/onda'
-import { planForDay } from '@/data/derive/plan'
 import { useLook, useOndaIndex, useSettings } from '@/data/hooks'
 import { useStore } from '@/data/store'
-import { columnWidth, fitSize } from '@/lib/fit'
 import { haptic } from '@/lib/haptics'
 import { EASE_ENTER, PUSH_MS, reducedMotion } from '@/lib/motion'
 import { BackButton, ChromeSpacer, ChromeTitle, Screen } from '@/nav/Screen'
@@ -33,10 +31,6 @@ export function Immersion({ entry }: { entry: Extract<StackEntry, { name: 'immer
   if (!active) return <Screen chrome={<BackButton />}>{null}</Screen>
 
   const kinds = MEDIA_KINDS.filter((k) => media.some((m) => m.kind === k))
-  // the day's own pick: the same one that sits among today's practices
-  const pick = active.content ? planForDay(active.content, active.day, { includeFood: settings.includeFood }).find((p) => p.kind === 'immerse') : undefined
-  const pickKind = (pick?.lead ?? pick?.action) as MediaKind | undefined
-  const openPick = () => (pick?.item ? openSheet({ name: 'mediaInfo', item: pick.item, ondaId: active.run.ondaId, runId: active.run.id }) : pickKind && push({ name: 'immersion', kind: pickKind }))
   const kind = entry.kind && kinds.includes(entry.kind) ? entry.kind : undefined
   const list = kind ? media.filter((m) => m.kind === kind) : []
   const count = (k: MediaKind) => {
@@ -58,20 +52,6 @@ export function Immersion({ entry }: { entry: Extract<StackEntry, { name: 'immer
 
       {!kind && (
         <>
-          {pick && pickKind && (
-            <button type="button" className={`${o.imToday} ${o.themed}`} onClick={openPick}>
-              <span className={o.imTodayArt} aria-hidden>
-                <KindArt kind={pickKind} />
-              </span>
-              <span className={o.imTodayText}>
-                <span className={o.imTodayKicker}>{t('immersion.todayPick', { kind: t(`kindLabel.${pickKind}`) })}</span>
-                <span className={o.imTodayTitle}>{pick.name}</span>
-                {pick.meta && <span className={o.imTodayMeta}>{pick.meta}</span>}
-              </span>
-              <Icon name="caret-right" weight="bold" size={18} />
-            </button>
-          )}
-          <div className={o.imAllHead}>{t('immersion.all')}</div>
           <div className={o.kindGrid}>
             {kinds.map((k) => {
               const c = count(k)
@@ -80,7 +60,7 @@ export function Immersion({ entry }: { entry: Extract<StackEntry, { name: 'immer
                   <span className={o.kindArt}>
                     <KindArt kind={k} />
                   </span>
-                  <span className={o.kindName} style={{ fontSize: fitSize(t(`kindLabel.${k}`), columnWidth() / 2 - 6 - 88, 17, 11, active.look.caps) }}>{t(`kindLabel.${k}`)}</span>
+                  <span className={o.kindName}>{t(`kindLabel.${k}`)}</span>
                   <span className={o.kindCount}>
                     <span className={o.kindDots} aria-hidden>
                       {Array.from({ length: Math.min(c.total, 8) }, (_, i) => (

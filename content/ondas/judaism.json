@@ -463,6 +463,20 @@
       "meta": "Three minutes",
       "time": "19:30",
       "slot": "Evening"
+    },
+    {
+      "id": "daily-say-thank-you-for-the-day-before-you-get-out-of-bed",
+      "name": "Say thank you for the day before you get out of bed",
+      "meta": "Modeh ani is the first words of the day",
+      "time": "07:15",
+      "slot": "Morning"
+    },
+    {
+      "id": "daily-read-one-line-of-a-psalm",
+      "name": "Read one line of a psalm",
+      "meta": "Any single line",
+      "time": "07:15",
+      "slot": "Morning"
     }
   ],
   "rules": [

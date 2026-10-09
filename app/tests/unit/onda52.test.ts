@@ -48,8 +48,33 @@ describe('5.2: the day’s practices', () => {
     expect(planForDay(stoic, 1).filter((p) => p.kind === 'practice').every((p) => !p.twist)).toBe(true)
     const twists = new Set<string>()
     for (let d = 1; d <= 30; d++) for (const p of planForDay(stoic, d)) if (p.twist) twists.add(p.twist)
-    const written = stoic.practices.flatMap((p) => p.variations)
-    expect(written.every((v) => twists.has(v))).toBe(true)
+    // the morning anchor is Stoicism's first morning practice; every variation of it turns up within thirty days
+    const anchor = stoic.practices.find((p) => p.slot === 'Morning')!
+    expect(anchor.variations.every((v) => twists.has(v))).toBe(true)
+  })
+
+  it.each(all)('%s has a thread: its core practice for each time of day returns most days, and something else on the rest', (_id, c) => {
+    const days = Array.from({ length: 30 }, (_, i) => planForDay(c, i + 1))
+    for (const slot of ['Morning', 'Afternoon', 'Evening']) {
+      const first = [...c.practices.filter((p) => p.slot === slot), ...c.tasks.filter((t) => t.slot === slot && !['read', 'watch', 'listen', 'art', 'eat', 'drink', 'customs', 'games', 'travel'].includes(t.action ?? ''))][0]!
+      const shown = days.filter((d) => d.some((p) => p.id === first.id)).length
+      expect(shown, slot + ' anchor ' + first.name).toBeGreaterThanOrEqual(17)
+      expect(shown, slot + ' anchor ' + first.name).toBeLessThanOrEqual(24)
+    }
+  })
+
+  it.each(all)('%s offers at least ten different practices and tasks, not counting Immerse, within two weeks', (_id, c) => {
+    const names = new Set<string>()
+    for (let d = 1; d <= 14; d++) for (const p of planForDay(c, d)) if (p.kind !== 'immerse') names.add(p.id)
+    expect(names.size).toBeGreaterThanOrEqual(10)
+  })
+
+  it.each(all)('%s has at least five things for each time of day to rotate through', (_id, c) => {
+    const MEDIA = ['read', 'watch', 'listen', 'art', 'eat', 'drink', 'customs', 'games', 'travel']
+    for (const slot of ['Morning', 'Afternoon', 'Evening']) {
+      const n = c.practices.filter((p) => p.slot === slot).length + c.tasks.filter((t) => t.slot === slot && !MEDIA.includes(t.action ?? '')).length
+      expect(n, slot).toBeGreaterThanOrEqual(5)
+    }
   })
 
   it('logs a variation under the practice’s own id, so keeping it as a Lago still works', () => {

@@ -450,6 +450,34 @@
       "meta": "In ink",
       "time": "19:30",
       "slot": "Evening"
+    },
+    {
+      "id": "daily-walk-outside-for-ten-minutes-before-breakfast",
+      "name": "Walk outside for ten minutes before breakfast",
+      "meta": "Thoreau walked each morning",
+      "time": "07:15",
+      "slot": "Morning"
+    },
+    {
+      "id": "daily-write-three-lines-in-a-notebook-about-something-you-saw",
+      "name": "Write three lines in a notebook about something you saw",
+      "meta": "The commonplace book",
+      "time": "07:15",
+      "slot": "Morning"
+    },
+    {
+      "id": "daily-listen-to-birdsong-for-five-minutes",
+      "name": "Listen to birdsong for five minutes",
+      "meta": "The dawn chorus",
+      "time": "07:15",
+      "slot": "Morning"
+    },
+    {
+      "id": "daily-read-one-page-of-emerson-or-thoreau",
+      "name": "Read one page of Emerson or Thoreau",
+      "meta": "Slowly",
+      "time": "07:15",
+      "slot": "Morning"
     }
   ],
   "rules": [

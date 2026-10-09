@@ -143,3 +143,13 @@ button.foldBtn:active{opacity:.75}
 
 /* an opened card is for reading: its text takes the full label colour */
 .foldOpen .foldSub{color:var(--label)}
+
+/* 5.2.1: the Full guide in dark mode. The grey used for secondary text was correct on paper but dim for long reading on a dark page.
+   Brighter secondary text, a little more room between lines, and the tab labels you are not on easier to see. */
+:global([data-theme="dark"]) :is(.foldSub,.lead,.introMore,.phCount){color:#D6D6DC}
+:global([data-theme="dark"]) .tab:not(.tabOn){color:#D6D6DC}
+:global([data-theme="dark"]) .subHead{color:#C8C8CE}
+:global([data-theme="dark"]) .introMore{line-height:1.65}
+:global([data-theme="dark"]) .foldBody{line-height:1.6}
+:global([data-theme="dark"]) .foldSub{line-height:1.45}
+:global([data-theme="dark"]) :is(.toggleAll,.jumpChip){color:color-mix(in srgb,var(--onda-text) 65%,#fff)}

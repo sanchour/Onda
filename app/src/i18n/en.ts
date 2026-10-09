@@ -88,7 +88,7 @@ export const en = {
     sensitivity: 'A note before you begin',
   },
   kinds: { all: 'All', read: 'Books', watch: 'Watch', listen: 'Listen', art: 'Art', eat: 'Food', drink: 'Drinks', customs: 'Customs', words: 'Language' },
-  plan: { today: 'Today: {{text}}', todayHead: 'Today', open: 'Open', immerse: 'Immerse', lead: { read: 'Read', listen: 'Listen', watch: 'Watch', art: 'Look at', eat: 'Taste', games: 'Play', customs: 'Try', drink: 'Drink', travel: 'Explore' } },
+  plan: { todayDo: 'To do today', today: 'Today: {{text}}', todayHead: 'Today', open: 'Open', immerse: 'Immerse', lead: { read: 'Read', listen: 'Listen', watch: 'Watch', art: 'Look at', eat: 'Taste', games: 'Play', customs: 'Try', drink: 'Drink', travel: 'Explore' } },
   kindLabel: { read: 'Read', watch: 'Watch', listen: 'Listen', art: 'Art', eat: 'Eat', drink: 'Drink', customs: 'Customs', games: 'Games', travel: 'Travel', words: 'Words' },
   immersion: {
     title: 'Immersion', experienced: '{{done}} of {{total}} experienced', footer: 'Tap an item to read about it. Tick it when you have experienced it.', empty: 'Nothing here yet',

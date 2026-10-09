@@ -44,7 +44,7 @@ try {
   await scrollTop(420)
   await shot('11-ondas-practices')
   await step('media sheet', async () => {
-    await page.getByRole('button', { name: /^Open: / }).first().click()
+    await page.getByRole('button', { name: /^Open: / }).first().click({ timeout: 4000 })
     await shot('12-media-sheet')
     await page.keyboard.press('Escape')
     await page.mouse.click(200, 60)

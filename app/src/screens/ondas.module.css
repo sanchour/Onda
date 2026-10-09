@@ -577,3 +577,6 @@ button.softCard{width:100%;text-align:start;display:block}
 
 /* 5.2.1: the big faint letters behind a title clashed with the pattern strip in dark mode and made the heading harder to read */
 :global([data-theme="dark"]) .glyph{opacity:.07 !important}
+
+/* 6.0: what to do with today's Immerse item, under its title */
+.pNote{font:400 var(--fs-14)/1.4 var(--font-sans);color:var(--label-secondary);margin-top:4px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}

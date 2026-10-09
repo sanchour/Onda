@@ -44,14 +44,14 @@ All ten Ondas were expanded from the first-draft `onda-data.js` by an AI model (
 
 ## Stoicism
 
-File: `content/ondas/stoic.json` · version 2 · about 5100 words · 32 words of vocabulary, 30 journal prompts, 16 history entries, 10 concepts, 8 sources.
+File: `content/ondas/stoic.json` · version 2 · about 7800 words · 32 words of vocabulary, 30 journal prompts, 16 history entries, 10 concepts, 8 sources.
 
 Nothing is marked `unverified`.
 
 
 ## Zen Buddhism
 
-File: `content/ondas/zen.json` · version 2 · about 4300 words · 32 words of vocabulary, 30 journal prompts, 14 history entries, 10 concepts, 6 sources.
+File: `content/ondas/zen.json` · version 2 · about 7000 words · 32 words of vocabulary, 30 journal prompts, 14 history entries, 10 concepts, 6 sources.
 
 Framing note shown in the app: Zen is a living Buddhist tradition. This Onda adapts its everyday lay practices. It is not ordination, and it does not replace a teacher or a community.
 
@@ -836,7 +836,7 @@ Marked `unverified` (1):
 
 ## Maasai
 
-File: `content/ondas/maasai.json` · version 1 · about 5300 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
+File: `content/ondas/maasai.json` · version 1 · about 8000 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
 
 **Needs review by tradition bearers before launch.** The Maasai are a living people with their own voices, and this Onda was written by outsiders from published sources. It borrows only everyday values such as greeting, care and sharing. It does not ask you to dress as a Maasai or to copy any ceremony, and it should be checked by Maasai readers.
 

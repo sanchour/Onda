@@ -2,6 +2,7 @@ import fs from 'node:fs'
 import path from 'node:path'
 import { beforeEach, describe, expect, it } from 'vitest'
 import { ONDA_INDEX } from '@/content'
+import { hasV6Plan } from '@/data/derive/plan'
 import { OndaContentSchema, type OndaContent } from '@/content/schema'
 import { OndaDB, useDatabase } from '@/data/db'
 import { useStore } from '@/data/store'
@@ -13,6 +14,11 @@ const all = ONDA_INDEX.map((o) => [o.id, load(o.id)] as const)
 
 describe('1.4 content: practices and tasks', () => {
   it.each(all)('%s has at least five practices and a well rounded task list', (_id, c) => {
+    if (hasV6Plan(c)) {
+      expect(c.practices.length).toBe(20)
+      for (const p of c.practices) expect(p.instructions.length, `${c.id}/${p.id}`).toBeGreaterThan(80)
+      return
+    }
     expect(c.practices.length).toBeGreaterThanOrEqual(5)
     expect(c.tasks.length).toBeGreaterThanOrEqual(8)
     const actions = new Set(c.tasks.map((t) => t.action))

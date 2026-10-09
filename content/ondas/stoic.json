@@ -315,7 +315,7 @@
       "minutes": 5,
       "meta": "Morning · 5 min",
       "instructions": "Before you look at a screen, sit up and name the day ahead. Who will you meet? What could go wrong: a delay, a criticism, a temptation? Picture each one plainly, then picture yourself meeting it with patience and good sense. End with the reserve clause: I will do this today, if nothing prevents me.",
-      "why": "Marcus Aurelius opens Book 2 this way: today I will meet the meddling and the ungrateful. Seneca adds that the blow you foresee lands softer. The point is readiness, not pessimism.",
+      "why": "Marcus Aurelius opens Book 2 this way: today I will meet the meddling and the ungrateful. Seneca adds that the blow you foresee lands softer. The point is readiness, not gloom.",
       "variations": [
         "Write three lines instead of thinking them.",
         "Rehearse one specific conversation you are dreading.",
@@ -329,9 +329,9 @@
       "slot": "Morning",
       "time": "07:00",
       "minutes": 3,
-      "meta": "Morning · Discomfort",
-      "instructions": "End your shower with cold water. Start with thirty seconds and breathe slowly through the first shock. Notice the judgment \"this is unbearable\" and watch it turn out to be false. Skip this if you have a heart condition or feel unwell.",
-      "why": "Seneca called himself a cold-water enthusiast and plunged into the Virgo aqueduct on the first of January. Chosen discomfort teaches the body that it can obey you.",
+      "meta": "Morning · 3 min",
+      "instructions": "End your shower with cold water. Start with thirty seconds and breathe slowly through the first shock. Notice the thought this is unbearable, and watch it turn out to be false. Dry off warm and a little pleased with yourself. Skip this if you have a heart condition or feel unwell.",
+      "why": "Seneca called himself a cold-water enthusiast and plunged into the Virgo aqueduct every New Year. Chosen discomfort teaches the body that it can obey you.",
       "variations": [
         "Wash your face and forearms in cold water.",
         "A brisk walk without a coat on a cool day.",
@@ -339,18 +339,164 @@
       ]
     },
     {
+      "id": "rise-for-a-human-s-work",
+      "name": "Rise for a human’s work",
+      "icon": "alarm",
+      "slot": "Morning",
+      "time": "06:45",
+      "minutes": 3,
+      "meta": "Morning · 3 min",
+      "instructions": "When the bed is warm and getting up feels like a heavy task, say what Marcus said to himself: I am rising to do the work of a human being. Then name the one useful thing you will do first. Get up on the count of three. Winning the argument with your pillow counts as the first win of the day.",
+      "why": "Meditations 5.1 is Marcus arguing with himself in bed: was I born to lie under blankets and keep warm? We were born to act, and the first action is getting up.",
+      "variations": [
+        "Say it aloud, in the voice of an old friend.",
+        "Put your feet on the floor before you finish the sentence.",
+        "Write the first useful thing on a note beside the bed the night before."
+      ]
+    },
+    {
+      "id": "roll-call-of-roles",
+      "name": "Roll call of roles",
+      "icon": "users-three",
+      "slot": "Morning",
+      "time": "08:00",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "List the roles you play today: perhaps child, partner, colleague, neighbour, friend. Next to each, write one thing a good person in that role would do. Pick the one you were about to neglect and do its thing first. A role is only a role, but it has a duty attached, and duties are the easy part to act on.",
+      "why": "Epictetus taught that we find our duties by asking what our roles ask of us (Discourses 2.10). It turns a vague wish to be good into a short list for the day.",
+      "variations": [
+        "Do it on a walk and write only the single duty you have been avoiding.",
+        "Add a role you rarely notice, such as stranger on a train.",
+        "Ask someone else which role of yours they would like more of."
+      ]
+    },
+    {
+      "id": "a-plain-breakfast-tasted",
+      "name": "A plain breakfast, tasted",
+      "icon": "bowl-food",
+      "slot": "Morning",
+      "time": "07:30",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Eat a plain breakfast: bread, porridge, fruit or yoghurt, no screen. Take the first three bites very slowly and say what each one tastes like. Notice how much pleasure there is in food that asks for nothing. Musonius Rufus would be delighted with you.",
+      "why": "Musonius Rufus, Epictetus’s teacher, argued that the best food is cheap, easy to get and needs no cook. It leaves you free for better things, and you can enjoy it more.",
+      "variations": [
+        "Eat standing at a window.",
+        "Eat in silence with someone at the table.",
+        "Guess the cost of each item, and enjoy that it was small."
+      ]
+    },
+    {
+      "id": "widen-the-circle",
+      "name": "Widen the circle",
+      "icon": "handshake",
+      "slot": "Morning",
+      "time": "09:00",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Hierocles pictured yourself at the centre of circles: family, friends, neighbours, strangers, everyone. The task is to pull one person inward. Send a warm message to someone from an outer circle, a colleague you barely know, a neighbour or an old friend, and ask how they are. Mean it, and expect nothing back.",
+      "why": "The Stoic idea of oikeiosis is that our care naturally widens. Hierocles said the task of a good person is to draw the circles toward the centre. A short message is a practical way to do it.",
+      "variations": [
+        "Greet three strangers by name if you know it, and by smile if you do not.",
+        "Thank someone who never gets thanked.",
+        "Reach out to someone you disagree with about something trivial."
+      ]
+    },
+    {
+      "id": "dichotomy-check",
+      "name": "Dichotomy check",
+      "icon": "list-checks",
+      "slot": "Afternoon",
+      "time": "15:00",
+      "minutes": 5,
+      "meta": "Afternoon · 5 min",
+      "instructions": "Write down what is worrying you right now, one item per line. Next to each, mark it mine if it is a judgment, intention or action of yours, and not mine if it depends on other people, the body, money or luck. For each mine, write one thing you will do. For each not mine, write: this is not up to me, and I will meet it calmly.",
+      "why": "The Enchiridion opens with this split. Most distress comes from spending effort on the second column and neglecting the first.",
+      "variations": [
+        "Do it out loud while walking.",
+        "Only sort the three biggest worries.",
+        "Add a third column for what you can influence but not control."
+      ],
+      "action": "philosophy"
+    },
+    {
       "id": "voluntary-discomfort",
       "name": "Voluntary discomfort",
-      "icon": "fork-knife",
+      "icon": "mountains",
       "slot": "Afternoon",
       "time": "12:00",
-      "meta": "Midday · Fast or go without",
-      "instructions": "Pick one comfort and go without it until evening: skip a meal or eat it plain, leave the coffee, take the stairs, sit on the floor. While you go without, ask Seneca’s question: is this what I was afraid of?",
-      "why": "Seneca, Letter 18: set aside days when you are content with the scantiest and cheapest fare. You practice poverty so that fortune cannot frighten you with it.",
+      "minutes": 5,
+      "meta": "Afternoon · 5 min",
+      "instructions": "Pick one comfort and go without it until evening: skip a meal or eat it plain, leave the coffee, take the stairs, sit on the floor. While you go without, ask Seneca’s question: is this what I was afraid of? Make it small enough to finish and real enough to notice. Do not do this if you have a medical reason to eat or rest.",
+      "why": "Seneca, Letter 18: set aside days when you are content with the scantiest and cheapest fare. You practise poverty so that fortune cannot frighten you with it.",
       "variations": [
         "Plain bread and water for lunch.",
         "No phone from noon to six.",
         "Wear your oldest clothes for the day."
+      ]
+    },
+    {
+      "id": "view-from-above",
+      "name": "View from above",
+      "icon": "planet",
+      "slot": "Afternoon",
+      "time": "16:00",
+      "minutes": 6,
+      "meta": "Afternoon · 6 min",
+      "instructions": "Sit or stand somewhere with a view, or close your eyes. Imagine rising slowly above the street, the town, the country, until people look like ants and traffic like a stream of seeds. Watch their errands and quarrels. Then come back down and look at your biggest worry. How big is it from up there?",
+      "why": "Marcus Aurelius uses this exercise in Meditations 9.30: look down on armies, farms, weddings and funerals, and see the same dull repetition. It is the quickest way to shrink a problem to its right size.",
+      "variations": [
+        "Do it on a hill or the top floor of a building.",
+        "Add the long view of time: this street in a hundred years.",
+        "Imagine telling the problem to your future self ten years from now."
+      ]
+    },
+    {
+      "id": "turn-the-obstacle",
+      "name": "Turn the obstacle",
+      "icon": "hammer",
+      "slot": "Afternoon",
+      "time": "13:30",
+      "minutes": 5,
+      "meta": "Afternoon · 5 min",
+      "instructions": "Choose the thing getting in your way today: a deadline, a rude message, a broken plan. Ask, as Marcus did: what virtue does this ask of me? Patience? Courage? Plain generosity? Write one sentence about how to use the obstacle as the material of the day, and then do the first move.",
+      "why": "Meditations 5.20: the impediment to action advances action. What stands in the way becomes the way. It is the Stoic habit of treating trouble as raw material.",
+      "variations": [
+        "Write it as advice to a friend facing the same thing.",
+        "Look for the third option you had not tried.",
+        "Find one thing the obstacle has made easier."
+      ]
+    },
+    {
+      "id": "meet-the-impression",
+      "name": "Meet the impression",
+      "icon": "eye",
+      "slot": "Afternoon",
+      "time": "14:30",
+      "minutes": 3,
+      "meta": "Afternoon · 3 min",
+      "instructions": "The next time a reaction flares up, anger, worry or envy, stop for one breath and say to it what Epictetus told himself: you are just an impression, not the thing itself. Then test it. Is it true? Is it up to me? What would a calm person do? Do that, or nothing, rather than what the flare asks.",
+      "why": "Enchiridion 1 gives the exact words: you are an impression, and not at all the thing you appear to be. The gap between impression and assent is where a Stoic lives.",
+      "variations": [
+        "Name the feeling aloud, quietly, before judging it.",
+        "Count slowly to ten before replying to the next annoying message.",
+        "Write the impression and your honest test of it in one line."
+      ]
+    },
+    {
+      "id": "the-task-in-front-of-you",
+      "name": "The task in front of you",
+      "icon": "pen-nib",
+      "slot": "Afternoon",
+      "time": "11:00",
+      "minutes": 20,
+      "meta": "Afternoon · 20 min",
+      "instructions": "Pick one task and do it alone: phone out of the room, one tab, one thing. Marcus advised doing only what is in front of you, with full attention, as if it were the last thing you would do. Stay with it until it is finished or until twenty minutes pass. Then stop and look at what you have made.",
+      "why": "Meditations 2.5 and 7.7: do every act as if it were your last, and let nothing distract you from the work at hand. Attention is the Stoic virtue that makes the others possible.",
+      "variations": [
+        "Choose the task you most want to avoid.",
+        "Do it with a kitchen timer and stop at the bell.",
+        "Do it as a favour to someone you respect."
       ]
     },
     {
@@ -367,130 +513,124 @@
         "Write it in your commonplace book.",
         "Review only your reactions to other people.",
         "End by naming one thing you will do differently tomorrow."
-      ]
+      ],
+      "action": "journal"
     },
     {
-      "id": "dichotomy-check",
-      "name": "Dichotomy check",
-      "icon": "list-checks",
-      "slot": "Afternoon",
-      "time": "15:00",
-      "minutes": 5,
-      "meta": "Afternoon · 5 min",
-      "instructions": "Write down what is worrying you right now, one item per line. Next to each, mark it \"mine\" if it is a judgment, intention or action of yours, and \"not mine\" if it depends on other people, the body, money or luck. For each \"mine\", write one thing you will do. For each \"not mine\", write: \"this is not up to me, and I will meet it calmly.\"",
-      "why": "The Enchiridion opens with this split. Most distress comes from spending effort on the second column and neglecting the first.",
+      "id": "write-a-letter-like-seneca",
+      "name": "Write a letter like Seneca",
+      "icon": "envelope-simple",
+      "slot": "Evening",
+      "time": "20:00",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Write a short letter to a friend, by hand or by email, in Seneca’s manner: start with a small thing you have seen or done, move to what it taught you, and end with a warm wish. Seneca wrote to Lucilius to console and to teach, but mostly to keep a friend close. Send it tonight, short and unpolished.",
+      "why": "The Letters to Lucilius are philosophy in the form of friendship. A letter makes you put what you have learned into plain words, and gives the friend something real.",
       "variations": [
-        "Do it out loud while walking.",
-        "Only sort the three biggest worries.",
-        "Add a third column for what you can influence but not control."
-      ]
-    }
-  ],
-  "tasks": [
-    {
-      "id": "read-one-letter-from-seneca",
-      "name": "Read one Letter from Seneca",
-      "meta": "Letters to Lucilius",
-      "time": "13:00",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "write-the-view-from-above",
-      "name": "Write the view from above",
-      "meta": "One page",
-      "time": "18:00",
-      "slot": "Evening"
+        "Write it to someone you have not spoken to in a year.",
+        "Write it to your younger self and keep it.",
+        "Make it three sentences and post it on paper."
+      ],
+      "action": "journal"
     },
     {
       "id": "copy-one-line-worth-keeping",
       "name": "Copy one line worth keeping",
-      "meta": "Commonplace book",
+      "icon": "book-open-text",
+      "slot": "Evening",
       "time": "21:00",
-      "slot": "Evening"
+      "minutes": 5,
+      "meta": "Evening · 5 min",
+      "instructions": "Open a notebook and copy out one line you met today, from a book, a conversation or a message. Write who said it and where you found it. Then add one sentence about why it matters to you. Over a month you will build a small book of things that struck you, as Marcus did.",
+      "why": "Marcus’s Meditations were never meant to be published. They are a Roman commonplace book, a place to keep what he wanted to remember. The act of copying slows you down enough to take a line in.",
+      "variations": [
+        "Copy it in your best handwriting.",
+        "Copy a line you disagree with and say why.",
+        "Copy a line from a child or a stranger."
+      ]
     },
     {
-      "id": "task-read-a-page-of-meditations-then-answer-it",
-      "name": "Read a page of Meditations, then answer it",
-      "meta": "Read · Marcus wrote it for himself",
-      "time": "12:30",
-      "slot": "Afternoon",
-      "action": "read"
+      "id": "count-the-day",
+      "name": "Count the day",
+      "icon": "hourglass",
+      "slot": "Evening",
+      "time": "20:30",
+      "minutes": 5,
+      "meta": "Evening · 5 min",
+      "instructions": "Look at the day you have just had as if you had been handed it as a gift and could not take it back. What would you be glad to have done with it? What small thing is still worth doing before sleep, a call, a tidy, a kind word? Do it. Memento mori is not gloom, it is a way of noticing that today was real.",
+      "why": "Seneca, On the Shortness of Life: it is not that we have a short time to live, but that we waste much of it. Counting a day makes it more precious and less frightening.",
+      "variations": [
+        "Write the three best minutes of the day.",
+        "Spend ten minutes with a person you would regret not seeing.",
+        "Ask what you would do tomorrow if you knew it would be fine."
+      ]
     },
     {
-      "id": "task-take-in-our-time-stoicism-for-a-walk",
-      "name": "Take In Our Time: Stoicism for a walk",
-      "meta": "Listen · a walk-length lecture",
+      "id": "thank-your-teachers",
+      "name": "Thank your teachers",
+      "icon": "hands-praying",
+      "slot": "Evening",
+      "time": "19:30",
+      "minutes": 8,
+      "meta": "Evening · 8 min",
+      "instructions": "Marcus began the Meditations by thanking everyone who had shaped him, one line each: from my grandfather, good character; from my mother, piety and simple living. Write one line of thanks to a person who shaped you, naming the single thing you learned from them. If you can, send it.",
+      "why": "Book 1 of the Meditations is a list of debts. It is a Stoic exercise in gratitude and a remarkable portrait, and it makes you see how much of yourself you did not invent.",
+      "variations": [
+        "Write to a teacher from long ago.",
+        "Write to someone younger who taught you something.",
+        "Write one for a person you find difficult."
+      ]
+    },
+    {
+      "id": "a-plain-dinner-with-company",
+      "name": "A plain dinner, with company",
+      "icon": "fork-knife",
+      "slot": "Evening",
+      "time": "19:00",
+      "minutes": 40,
+      "meta": "Evening · 40 min",
+      "instructions": "Eat dinner with someone: plain food, no phones, and one good question at the table, such as what are you looking forward to? The Stoics were not dour. Seneca wrote that a meal is for friends, not for food. Cook something simple, and let the conversation do the seasoning.",
+      "why": "Seneca, Letter 19: look for company before you look for food. The Stoics enjoyed a good table; they simply did not need the luxury to enjoy it.",
+      "variations": [
+        "Eat by candle light.",
+        "Take it in turns to tell something you learned this week.",
+        "Invite someone who would otherwise eat alone."
+      ]
+    },
+    {
+      "id": "under-the-stars",
+      "name": "Under the stars",
+      "icon": "moon-stars",
+      "slot": "Special",
+      "time": "22:30",
+      "minutes": 10,
+      "meta": "At night · 10 min",
+      "instructions": "Go outside after dark and look up. Marcus advised watching the stars in their courses as though you ran with them. Pick out the moon, a planet or a constellation, and let yourself feel small and part of something enormous. Then ask what, in your day, was really up to you. Come in lighter.",
+      "why": "Meditations 7.47 asks you to see yourself running with the stars. It is the view from above at its easiest and most beautiful, and it helps you sleep.",
+      "variations": [
+        "Lie on a blanket and stay for fifteen minutes.",
+        "Name the three brightest things you can see.",
+        "Bring a friend and ask what they can see from their window."
+      ]
+    },
+    {
+      "id": "walk-and-talk",
+      "name": "Walk and talk",
+      "icon": "person-simple-walk",
+      "slot": "Special",
       "time": "17:00",
-      "slot": "Afternoon",
-      "action": "listen"
-    },
-    {
-      "id": "task-evening-audit-what-was-up-to-you-today",
-      "name": "Evening audit: what was up to you today?",
-      "meta": "Journal · 10 min",
-      "time": "21:15",
-      "slot": "Evening",
-      "action": "journal"
-    },
-    {
-      "id": "task-put-your-biggest-annoyance-through-the-dichotomy-of-control",
-      "name": "Put your biggest annoyance through the dichotomy of control",
-      "meta": "Philosophy · 10 min",
-      "time": "19:30",
-      "slot": "Evening",
-      "action": "philosophy"
-    },
-    {
-      "id": "task-eat-like-a-stoic-bread-olives-and-cheese-no-screen",
-      "name": "Eat like a Stoic: bread, olives and cheese, no screen",
-      "meta": "Eat · plain on purpose",
-      "time": "13:00",
-      "slot": "Afternoon",
-      "action": "eat"
-    },
-    {
-      "id": "treat-take-the-stairs-and-enjoy-it-on-purpose",
-      "name": "Take the stairs and enjoy it on purpose",
-      "meta": "A small hardship, chosen",
-      "time": "15:30",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "treat-watch-the-sunrise-or-the-first-light-with-nothing-in-your-ha",
-      "name": "Watch the sunrise or the first light with nothing in your hands",
-      "meta": "Five minutes",
-      "time": "08:30",
-      "slot": "Morning"
-    },
-    {
-      "id": "treat-wear-your-plainest-clothes-today-and-notice-who-cares",
-      "name": "Wear your plainest clothes today and notice who cares",
-      "meta": "Nobody will",
-      "time": "08:30",
-      "slot": "Morning"
-    },
-    {
-      "id": "treat-tell-a-friend-which-line-of-marcus-you-would-put-on-a-wall",
-      "name": "Tell a friend which line of Marcus you would put on a wall",
-      "meta": "A short message",
-      "time": "19:30",
-      "slot": "Evening"
-    },
-    {
-      "id": "daily-pick-one-person-you-will-be-patient-with-today",
-      "name": "Pick one person you will be patient with today",
-      "meta": "Marcus began Book 2 this way",
-      "time": "07:15",
-      "slot": "Morning"
-    },
-    {
-      "id": "daily-do-one-task-fully-without-commentary",
-      "name": "Do one task fully, without commentary",
-      "meta": "The task in front of you",
-      "time": "14:00",
-      "slot": "Afternoon"
+      "minutes": 40,
+      "meta": "With a friend · 40 min",
+      "instructions": "The Stoics took their name from a covered walkway where they taught, not a lecture hall. Ask a friend to walk with you for half an hour. Bring one question, for example what is up to us here, and let the talk wander. If no friend is free, walk alone and talk to yourself in the second person.",
+      "why": "Zeno taught in the Painted Porch, a public colonnade. Philosophy was done on foot, among people, in conversation, not alone at a desk.",
+      "variations": [
+        "Walk a route you have never taken.",
+        "Stop at the first bench and finish the thought there.",
+        "Take one of the Enchiridion’s chapters and read it aloud halfway."
+      ]
     }
   ],
+  "tasks": [],
   "rules": [
     {
       "id": "r1",
@@ -1349,5 +1489,217 @@
         "year": "2002"
       }
     ]
-  }
+  },
+  "immersePlan": [
+    {
+      "kind": "read",
+      "item": "read-meditations",
+      "name": "Read a few pages of the Meditations",
+      "text": "Open Marcus at any page and read one entry slowly, twice. Then ask what he was correcting in himself that day. Copy the line you most want to keep into a notebook.",
+      "minutes": 10
+    },
+    {
+      "kind": "read",
+      "item": "read-letters-from-a-stoic",
+      "name": "Read one letter from Seneca",
+      "text": "Read Letter 1, On Saving Time, or any short letter. Seneca writes to his friend Lucilius as to someone he wants to help. Underline one sentence you would say to yourself, and one you would argue with.",
+      "minutes": 15
+    },
+    {
+      "kind": "read",
+      "item": "read-enchiridion",
+      "name": "Read the first page of the Enchiridion",
+      "text": "It is one page. Read it, then split your own day into what is up to you and what is not. Epictetus wants this done, not admired.",
+      "minutes": 5
+    },
+    {
+      "kind": "watch",
+      "item": "watch-marcus-aurelius-meditations-the-stoic-ideal",
+      "name": "Watch Sugrue on the Meditations",
+      "text": "Find Michael Sugrue’s lecture and watch it with a notebook. Pause whenever something strikes you and write it down. It is long, so take it in two halves if you like.",
+      "minutes": 45
+    },
+    {
+      "kind": "watch",
+      "item": "watch-the-fall-of-the-roman-empire",
+      "name": "Watch Marcus on the frontier",
+      "text": "Watch the first half hour of the 1964 film, with Alec Guinness as Marcus on the Danube. Notice how it makes a tired, decent man the centre of an empire. It is fiction, so enjoy it as a story.",
+      "minutes": 30
+    },
+    {
+      "kind": "watch",
+      "item": "watch-gladiator",
+      "name": "Watch the winter camp in Gladiator",
+      "text": "Find the opening scenes of Gladiator, with old Marcus (Richard Harris) at the Danube camp. It is fiction, but notice what he asks of his general. Then ask what the real Marcus would have said.",
+      "minutes": 20
+    },
+    {
+      "kind": "listen",
+      "item": "listen-in-our-time-stoicism",
+      "name": "Listen to In Our Time on Stoicism",
+      "text": "Put on the forty-five minute programme while you walk or wash up. Listen for where the three scholars disagree about what the Stoics thought of emotion, and note one thing you had wrong.",
+      "minutes": 45
+    },
+    {
+      "kind": "listen",
+      "item": "listen-seikilos-epitaph",
+      "name": "Play the oldest song we have",
+      "text": "Listen to the Seikilos epitaph, a tune carved on a tombstone about two thousand years ago. Its words say: while you live, shine; life is short. Play it twice, the second time with the words in front of you.",
+      "minutes": 5
+    },
+    {
+      "kind": "listen",
+      "item": "listen-meditations-read-aloud",
+      "name": "Let Marcus read to you on a walk",
+      "text": "Play a recording of the Meditations and walk for twenty minutes. You do not need to follow every entry. Wait for one that fits what you are carrying today.",
+      "minutes": 20
+    },
+    {
+      "kind": "art",
+      "item": "art-equestrian-statue-of-marcus-aurelius",
+      "name": "Look at Marcus on his horse",
+      "text": "Find a good photograph of the bronze. Look at his open hand: it holds no weapon. Ask what a ruler says by standing like that, and whether you could stand that way in your own day.",
+      "minutes": 5
+    },
+    {
+      "kind": "art",
+      "item": "art-the-death-of-seneca",
+      "name": "Look at Rubens’s Death of Seneca",
+      "text": "Spend five minutes with the painting: Seneca in the bath, still dictating. Notice who is calm and who is not. Ask which of them you would be.",
+      "minutes": 5
+    },
+    {
+      "kind": "art",
+      "item": "art-column-of-marcus-aurelius",
+      "name": "Follow the Column of Marcus",
+      "text": "Look up pictures of the spiral relief and follow it upward like a comic strip. These are the Danube wars during which Marcus wrote his notebook. Pick one figure and imagine the weather he marched in.",
+      "minutes": 10
+    },
+    {
+      "kind": "eat",
+      "item": "eat-bread-olives-and-cheese",
+      "name": "Eat bread, olives and cheese",
+      "text": "Lay out bread, olives and a little cheese. Eat slowly, with no phone or book. Decide which of the three you like best, and notice that it needs nothing added.",
+      "minutes": 15
+    },
+    {
+      "kind": "eat",
+      "item": "eat-lentil-soup",
+      "name": "Make a pot of lentil soup",
+      "text": "Cook lentils with an onion and salt, nothing fancy. Zeno was said to have carried a pot of lentil soup through Athens to cure his shame. Eat it hot, and share some if you can.",
+      "minutes": 40
+    },
+    {
+      "kind": "eat",
+      "item": "eat-green-figs",
+      "name": "Taste a fig",
+      "text": "If figs are in season, eat a fresh one slowly. Diogenes Laertius says Zeno was fond of green figs. Out of season, try a dried one, and notice how far a small pleasure goes.",
+      "minutes": 5
+    },
+    {
+      "kind": "drink",
+      "item": "drink-water",
+      "name": "Drink only water today",
+      "text": "For one whole day drink water only. Epictetus’s advice was to do it and not tell everyone. Notice each time you reach for something else out of habit, and what the habit was asking for.",
+      "minutes": 10
+    },
+    {
+      "kind": "drink",
+      "item": "drink-wine-mixed-with-water",
+      "name": "Drink as the Romans did",
+      "text": "If you drink wine, mix it half and half with water and drink it with a meal. If you do not, add lemon to water and call it a toast. Either way, sip slowly and say what you are grateful for.",
+      "minutes": 15
+    },
+    {
+      "kind": "drink",
+      "item": "drink-posca",
+      "name": "Mix a posca",
+      "text": "Stir a spoonful of apple cider vinegar and a pinch of honey into a large glass of water. Roman soldiers drank posca on campaign. It is sour and oddly reviving. Sip it and decide whether the legions had a point.",
+      "minutes": 5
+    },
+    {
+      "kind": "customs",
+      "item": "customs-plan-for-obstacles-at-dawn",
+      "name": "Plan for obstacles at dawn",
+      "text": "Before you start, write two or three people or problems you may meet today. Next to each, write: I will meet this with patience. Then go. You have already done the hard part.",
+      "minutes": 5
+    },
+    {
+      "kind": "customs",
+      "item": "customs-keep-a-commonplace-book",
+      "name": "Start a commonplace book",
+      "text": "Take a notebook and copy out three lines you want to keep, by hand, with who said them. Marcus’s Meditations began this way. Read them again tonight.",
+      "minutes": 10
+    },
+    {
+      "kind": "customs",
+      "item": "customs-take-the-view-from-above",
+      "name": "Take the view from above",
+      "text": "Imagine rising slowly above your street, then your city, then the Earth. See people and their errands at that scale. Come back and look at your worry again. What size is it now?",
+      "minutes": 5
+    },
+    {
+      "kind": "games",
+      "item": "games-ludus-latrunculorum",
+      "name": "Play the Roman game of little soldiers",
+      "text": "Draw a grid on paper, use two colours of pebbles, and capture pieces by flanking them. The rules are partly reconstructed, so agree a house rule and write it down. Play someone, or yourself.",
+      "minutes": 30
+    },
+    {
+      "kind": "games",
+      "item": "games-knucklebones",
+      "name": "Toss knucklebones",
+      "text": "Use five small stones. Toss them and try to catch as many as you can on the back of your hand. The Stoics saw this as a picture of life: you do not choose the throw, only how you play it.",
+      "minutes": 10
+    },
+    {
+      "kind": "games",
+      "item": "games-old-world",
+      "name": "Play Old World for half an hour",
+      "text": "If you have the strategy game, play for half an hour and watch what happens to your ruler. Notice what you try to control and what just happens. If not, play any game with dice and do the same.",
+      "minutes": 30
+    },
+    {
+      "kind": "travel",
+      "item": "fest-stoic-week",
+      "name": "Try one day of Stoic Week",
+      "text": "Look up Stoic Week, the free week each autumn when thousands follow the same daily exercises. Try one day of their exercises now, even out of season, and compare notes with a friend.",
+      "minutes": 20
+    },
+    {
+      "kind": "travel",
+      "item": "fest-saturnalia",
+      "name": "Keep a small Saturnalia",
+      "text": "Saturnalia was the Roman midwinter feast. Seneca used it to practise plain eating beside the party. At your next celebration, eat one plain meal first, then enjoy the party properly.",
+      "minutes": 30
+    },
+    {
+      "kind": "travel",
+      "item": "place-the-painted-porch",
+      "name": "Walk through a colonnade",
+      "text": "Find a covered walkway, an arcade, a cloister or a long corridor, and walk it slowly, thinking about one question. The Stoics taught in the Painted Porch, an open colonnade, not behind walls.",
+      "minutes": 20
+    },
+    {
+      "kind": "words",
+      "item": "word-eph-hemin",
+      "name": "Use the phrase eph’ hēmin",
+      "text": "Say eph’ hēmin, up to us, whenever you feel stuck today. Then sort the problem into what is and is not. Say it aloud once, in whatever accent you like.",
+      "minutes": 5
+    },
+    {
+      "kind": "words",
+      "item": "word-hupexairesis",
+      "name": "Add the reserve clause",
+      "text": "Add if nothing prevents me to three plans today, in your head or on paper. That is the Stoic hupexairesis: aim fully, hold the result lightly. Notice how it changes your feelings if a plan fails.",
+      "minutes": 5
+    },
+    {
+      "kind": "words",
+      "item": "word-amor-fati",
+      "name": "Try amor fati on one annoyance",
+      "text": "Pick one thing that went differently from your plan today. Say, out loud: this is what the day has given me. What is the best thing I can make of it? Note whether you can almost like it.",
+      "minutes": 5
+    }
+  ]
 }

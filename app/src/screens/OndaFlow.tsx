@@ -157,6 +157,8 @@ export function Reflection() {
   const steps = 2 + prompts.length
   const carry = step === steps - 1
   const kept = practices.filter((p) => keep[p.id]).map((p) => p.id)
+  // an Onda has twenty practices: offer the ones that were done most, not all of them
+  const carryList = [...practices].filter((p) => (sum?.perPractice[p.id] ?? 0) > 0).sort((a, b) => (sum?.perPractice[b.id] ?? 0) - (sum?.perPractice[a.id] ?? 0)).slice(0, 8)
   const finish = () => {
     haptic('success')
     const n = useStore.getState().completeOnda(run.id, prompts.map((p, i) => ({ prompt: p, text: (answers[i] ?? '').trim() })), kept)
@@ -213,7 +215,7 @@ export function Reflection() {
             <h2 className={o.rfPrompt}>{t('reflection.carryTitle')}</h2>
             <div className={s.sub} style={{ marginTop: 8 }}>{t('reflection.carrySub')}</div>
             <div className={s.stack10} style={{ marginTop: 20 }}>
-              {practices.map((p) => (
+              {carryList.map((p) => (
                 <div key={p.id} className={o.keepRow}>
                   <div className={`${s.circle} ${o.keepIcon} ${o.solidCircle}`}>
                     <Icon name={p.icon} weight="fill" size={20} />

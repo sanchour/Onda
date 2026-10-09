@@ -9,6 +9,7 @@ const slug = (s) => s.normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerC
 const clean = (o) => Object.fromEntries(Object.entries(o).filter(([, v]) => v !== undefined && v !== ''))
 const PREFIX = { festivals: 'fest', places: 'place' }
 const { treatsFor, dailiesFor } = require('./apply-treats.cjs')
+const { applyTo } = require('./apply-practices.cjs')
 
 const item = (kind) => (a) => {
   const travel = kind === 'festivals' || kind === 'places'
@@ -51,6 +52,7 @@ function build(s) {
     },
     sensitivity: { note: curl(s.sensitivity.note), requiredCaveats: s.sensitivity.caveats.map(curl), reviewRequired: !!s.sensitivity.review },
   }
+  applyTo(c) // 6.0: an Onda with a practices file in content/practices gets its twenty practices and thirty Immerse practices
   // ids must be unique within an Onda: a second use of the same slug gets a number
   const seen = new Map()
   for (const x of [...c.words, ...Object.values(c.immerse).flat()]) {

@@ -31,7 +31,7 @@ export type SheetRoute =
   | { name: 'lagoInfo'; info: GalleryLago }
   | { name: 'ondaPractices'; ondaId: string }
   | { name: 'journalEdit'; day?: number; fromList?: boolean }
-  | { name: 'mediaInfo'; item: MediaItem; ondaId: string; runId?: string }
+  | { name: 'mediaInfo'; item: MediaItem; ondaId: string; runId?: string; note?: string }
   | { name: 'practiceInfo'; ondaId: string; practiceId: string; twist?: string }
   | { name: 'createOnda' }
   | { name: 'achievements'; focus?: AchievementKey }

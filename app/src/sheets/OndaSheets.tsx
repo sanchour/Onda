@@ -94,6 +94,15 @@ export function MediaInfoSheet({ entry }: E<'mediaInfo'>) {
         <h2 className={g.miTitle}>{item.title}</h2>
         {sub && <div className={g.miMeta}>{sub}</div>}
         {item.extra && <div className={g.miExtra}>{item.extra}</div>}
+        {entry.note && (
+          <div className={`${o.howCard} ${o.howToday}`} data-selectable>
+            <div className={o.howHead}>
+              <Icon name="sparkle" weight="fill" size={16} />
+              {t('plan.todayDo')}
+            </div>
+            {entry.note}
+          </div>
+        )}
         <p className={g.miWhy} data-selectable>{item.why || t('immersion.noNote')}</p>
         {item.unverified && <div className={g.tag} style={{ marginTop: 10, color: 'var(--label-tertiary)' }}>{t('guide.unverified')}</div>}
         {links.length > 0 && (

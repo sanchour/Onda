@@ -4,7 +4,8 @@ import { z } from 'zod'
    Custom Ondas made in the app use the same shape with most lists empty. */
 
 const hhmm = z.string().regex(/^\d{2}:\d{2}$/)
-export const SlotSchema = z.enum(['Morning', 'Afternoon', 'Evening'])
+/** A time of day. Special is for a practice that fits none of them: at night, at noon, on a rest day. */
+export const SlotSchema = z.enum(['Morning', 'Afternoon', 'Evening', 'Special'])
 
 export const WordSchema = z.object({
   id: z.string(),
@@ -28,12 +29,25 @@ export const PracticeSchema = z.object({
   instructions: z.string().default(''),
   why: z.string().default(''),
   variations: z.array(z.string()).default([]),
+  /** A practice about writing or thinking can open the Journal or the Philosophy page. */
+  action: z.enum(['journal', 'philosophy']).optional(),
 })
 
 /** What a task offers to open: the Journal, the Philosophy sheet, or the Immerse list for a kind. */
 export const TASK_ACTIONS = ['journal', 'philosophy', 'read', 'watch', 'listen', 'art', 'eat', 'drink', 'customs', 'games', 'travel'] as const
 export type TaskAction = (typeof TASK_ACTIONS)[number]
 export const TaskSchema = z.object({ id: z.string(), name: z.string(), meta: z.string(), time: hhmm, slot: SlotSchema, action: z.enum(TASK_ACTIONS).optional() })
+/** One of an Onda's thirty Immerse practices (6.0): something to do with one of its books, films, songs, dishes, games and so on. */
+export const ImmersePracticeSchema = z.object({
+  kind: z.enum(['read', 'watch', 'listen', 'art', 'eat', 'drink', 'customs', 'games', 'travel', 'words']),
+  /** The id of the item in `immerse` (or of the word in `words`). */
+  item: z.string(),
+  /** A short title for the row, such as "Read Letter 1 of Seneca". */
+  name: z.string(),
+  /** What to do with it today. */
+  text: z.string(),
+  minutes: z.number().optional(),
+})
 export const RuleSchema = z.object({ id: z.string(), text: z.string(), why: z.string().default('') })
 
 export const ImmerseItemSchema = z.object({
@@ -87,6 +101,7 @@ export const OndaContentSchema = z.object({
   words: z.array(WordSchema).default([]),
   practices: z.array(PracticeSchema).default([]),
   tasks: z.array(TaskSchema).default([]),
+  immersePlan: z.array(ImmersePracticeSchema).default([]),
   rules: z.array(RuleSchema).default([]),
   immerse: z
     .object({ read: items, watch: items, listen: items, art: items, eat: items, drink: items, customs: items, games: items, festivals: items, places: items })

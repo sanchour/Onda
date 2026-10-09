@@ -304,8 +304,8 @@
       "time": "06:45",
       "minutes": 10,
       "meta": "Morning · 10 min",
-      "instructions": "Sit quietly and rest for a minute in open stillness. Then breathe in a sense of heaviness, heat and darkness, and breathe out lightness, coolness and brightness, until the rhythm is steady. Now bring to mind someone who is suffering. Breathe in their pain with the wish that they be free of it; breathe out whatever would help: ease, courage, rest. Finally widen it to everyone in the same situation. Begin with your own discomfort if another person feels too much.",
-      "why": "Tonglen reverses the habit of pulling in what is pleasant and pushing away what hurts. It is the central practice of the lojong tradition, taught openly by Tibetan teachers to anyone.",
+      "instructions": "Sit quietly and rest for a minute in open stillness. Then breathe in a sense of heaviness, heat and darkness, and breathe out lightness, coolness and brightness, until the rhythm is steady. Bring to mind someone who is suffering. Breathe in their pain with the wish that they be free of it, and breathe out whatever would help: ease, warmth, a clear sky. Finish by resting in stillness.",
+      "why": "Tonglen reverses the habit of pulling in what is pleasant and pushing away what hurts. It is the central practice of the lojong tradition, taught openly by Tibetan teachers.",
       "variations": [
         "On-the-spot tonglen: three breaths when you meet suffering during the day.",
         "Tonglen for yourself and everyone who feels as you do right now.",
@@ -313,14 +313,127 @@
       ]
     },
     {
+      "id": "choose-your-motivation",
+      "name": "Choose your motivation",
+      "icon": "compass",
+      "slot": "Morning",
+      "time": "06:30",
+      "minutes": 3,
+      "meta": "Morning · 3 min",
+      "instructions": "Before the day begins, sit for three minutes and choose why you are doing it. Say, in your own words: today I will do what I do so that it may be of some benefit to others, or at least do no harm. Hold that wish for a few breaths. Carry it as a small compass, and come back to it when you get lost.",
+      "why": "Tibetan teachers begin every practice session by setting the motivation. The rule of this Onda is to open the day by choosing yours. It costs nothing and it tilts the day.",
+      "variations": [
+        "Write it on a card and put it in your pocket.",
+        "Say it aloud once, then in a whisper.",
+        "Choose a different motivation for one day: gratitude."
+      ]
+    },
+    {
+      "id": "offer-a-glass-of-water",
+      "name": "Offer a glass of water",
+      "icon": "drop",
+      "slot": "Morning",
+      "time": "07:00",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Pour a clean glass of water and set it on a shelf or windowsill as an offering to all beings. Look at it for a moment and think: may all beings have what they need. Leave it there until the evening, then pour it onto a plant. Tibetans fill seven bowls each morning, but one glass is a fine start.",
+      "why": "The water-bowl offering is the simplest in Tibetan practice: water is free, clean and given with a good heart. It trains generosity, and it needs no skill.",
+      "variations": [
+        "Offer it to someone you are worried about.",
+        "Pour it with a short wish for each person in your home.",
+        "Offer it outdoors beside a tree."
+      ]
+    },
+    {
+      "id": "send-a-wish-on-the-wind",
+      "name": "Send a wish on the wind",
+      "icon": "wind",
+      "slot": "Morning",
+      "time": "07:30",
+      "minutes": 3,
+      "meta": "Morning · 3 min",
+      "instructions": "Open a window or step outside and feel the air. Think of someone who needs good luck today, and send them a wish on the wind: may you be well and may your road be clear. Say it once, slowly, then let it go. If you have a string of prayer flags, look at them move. Tibetans call this the wind horse, lungta.",
+      "why": "Prayer flags are hung high so that the wind carries wishes to all beings. Their blessings are meant to spread, and not to belong to the one who hung them.",
+      "variations": [
+        "Do it at a window with a scarf or ribbon moving in the draught.",
+        "Do it for a different person each day this week.",
+        "Do it for the street you live on."
+      ]
+    },
+    {
+      "id": "tea-with-thanks",
+      "name": "Tea, with thanks",
+      "icon": "coffee",
+      "slot": "Morning",
+      "time": "08:00",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Make a cup of tea, plain or sweet with milk, and drink it slowly. As you do, think of everyone who made it possible: the picker, the packer, the driver, the shop worker. Thank them silently, one by one. It takes the length of a cup, and the tea tastes better for it.",
+      "why": "Tibetans drink tea all day, and in Lhasa’s teahouses it is the centre of social life. Thinking of the web of people behind a cup is an old Buddhist practice of gratitude.",
+      "variations": [
+        "Say thank you aloud to the person who serves your tea.",
+        "Make a cup for someone else.",
+        "Do it with a glass of plain hot water."
+      ]
+    },
+    {
+      "id": "rejoice-in-someone-s-good",
+      "name": "Rejoice in someone’s good",
+      "icon": "smiley",
+      "slot": "Morning",
+      "time": "09:00",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Think of someone whose good fortune you could envy: a friend who got the job, a neighbour who is flourishing. Say to yourself, sincerely: how wonderful, may it continue, and may it spread. If the first reaction is a pinch of envy, notice it, smile, and say it again. Then tell them, if it feels right.",
+      "why": "Rejoicing is one of the seven limbs of Tibetan practice. It turns envy into a kind of free wealth: you get to share in every good thing that happens anywhere.",
+      "variations": [
+        "Rejoice in a stranger’s good news on the radio.",
+        "Rejoice in a good deed you saw today.",
+        "Rejoice in a small thing you did yourself, and let yourself be glad."
+      ]
+    },
+    {
+      "id": "mind-training-slogan",
+      "name": "Mind-training slogan",
+      "icon": "quotes",
+      "slot": "Afternoon",
+      "time": "15:00",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Take one slogan from the Seven Points of Mind Training and write it where you will see it. Read a short commentary on it. For the rest of the day, try to recall it at the moment it applies: when blamed, when praised, when irritated, when pleased with yourself.",
+      "why": "The slogans were passed on privately for generations before Geshe Chekawa taught them openly. They are deliberately short so they come to mind when needed.",
+      "variations": [
+        "Be grateful to everyone.",
+        "Do not expect applause.",
+        "Of the two witnesses, hold the principal one."
+      ]
+    },
+    {
+      "id": "calm-abiding",
+      "name": "Calm abiding",
+      "icon": "flower-lotus",
+      "slot": "Afternoon",
+      "time": "17:30",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Sit upright and rest your attention lightly on the breath at the nostrils or belly. When you notice you have drifted, name it quietly (thinking) and return, without scolding. Aim for gentle stability, not a blank mind. Ten minutes is enough; stop when attention gets tight.",
+      "why": "Shamatha, calm abiding, is the foundation in Tibetan Buddhism for the analytic and compassion practices that follow. A steady mind is the ground for the rest.",
+      "variations": [
+        "Count breaths from one to ten and begin again.",
+        "Rest attention on a small object instead.",
+        "Do it outdoors."
+      ]
+    },
+    {
       "id": "mantra-om-mani-padme-hum",
       "name": "Mantra: Om Mani Padme Hum",
-      "icon": "repeat",
+      "icon": "speaker-high",
       "slot": "Afternoon",
       "time": "12:15",
-      "meta": "Midday · 108 times",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
       "instructions": "Recite the six syllables aloud or under your breath, one round of 108. If you have a mala, move one bead per recitation with your thumb. Let the sound be even and unhurried. As you recite, hold the wish that all beings be free from suffering.",
-      "why": "This is the mantra of Chenrezig, the bodhisattva of compassion. Tibetans of every school recite it while walking, working and turning prayer wheels. It needs no initiation.",
+      "why": "This is the mantra of Chenrezig, the bodhisattva of compassion. Tibetans of every school recite it while walking, working and turning prayer wheels.",
       "variations": [
         "Recite while walking.",
         "Twenty-one recitations whenever you wait in a queue.",
@@ -328,25 +441,57 @@
       ]
     },
     {
-      "id": "mind-training-slogan",
-      "name": "Mind-training slogan",
-      "icon": "sparkle",
+      "id": "wish-three-strangers-well",
+      "name": "Wish three strangers well",
+      "icon": "users-three",
       "slot": "Afternoon",
-      "time": "15:00",
-      "meta": "Afternoon · One a day",
-      "instructions": "Take one slogan from the Seven Points of Mind Training and write it where you will see it. Read a short commentary on it. For the rest of the day, try to recall it at the moment it applies: when blamed, when praised, when irritated, when pleased with yourself.",
-      "why": "The slogans were passed on privately for generations before Geshe Chekawa taught them openly. They are deliberately short so they come to mind when needed.",
+      "time": "13:30",
+      "minutes": 5,
+      "meta": "Afternoon · 5 min",
+      "instructions": "As you walk or ride, choose three people you do not know and silently wish each of them well: may you be happy, may you be free from suffering. Look at them properly for a moment. Do not let them see you looking. At the end, notice what has changed in how you feel about the street.",
+      "why": "Loving-kindness for strangers is a core Tibetan practice. Everyone you meet, the teachers say, has been your mother in some life, so you are already in the middle of a family.",
       "variations": [
-        "\"Be grateful to everyone.\"",
-        "\"Don’t expect applause.\"",
-        "\"Of the two witnesses, hold the principal one.\"",
-        "\"Train in the three difficulties.\""
+        "Wish well to the person who annoys you most.",
+        "Do it with each car at a red light.",
+        "Do it in a queue."
+      ]
+    },
+    {
+      "id": "make-a-small-offering",
+      "name": "Make a small offering",
+      "icon": "gift",
+      "slot": "Afternoon",
+      "time": "14:30",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Offer something small to someone today, with no strings: a coin to a busker, a sandwich to a friend, a seed to a bird, a minute of your full attention. Give it quietly, without making a show. Notice any urge to be thanked. This is the rule that says offer something small every day.",
+      "why": "Offering is a daily habit in Tibetan life: a bowl of water, a spoonful of food, a lamp. Small and regular beats large and rare, and it teaches the hand to open.",
+      "variations": [
+        "Give something anonymously.",
+        "Offer your time to a neighbour.",
+        "Leave a flower somewhere for a stranger to find."
+      ]
+    },
+    {
+      "id": "thank-the-difficult-one",
+      "name": "Thank the difficult one",
+      "icon": "handshake",
+      "slot": "Afternoon",
+      "time": "16:00",
+      "minutes": 5,
+      "meta": "Afternoon · 5 min",
+      "instructions": "Think of someone who has been difficult for you lately. Say to yourself: thank you for showing me where I am still stuck. Look at what they trigger in you, the anger, the fear, the wish to win. That reaction is your teacher. Take one deep breath, and wish them well.",
+      "why": "The slogan Be grateful to everyone turns enemies into teachers. The difficult person shows you exactly the places where practice is needed.",
+      "variations": [
+        "Write down what they teach you.",
+        "Do it for a public figure you dislike.",
+        "Do it for yourself on a bad day."
       ]
     },
     {
       "id": "dedication-of-merit",
       "name": "Dedication of merit",
-      "icon": "moon",
+      "icon": "sparkle",
       "slot": "Evening",
       "time": "21:00",
       "minutes": 5,
@@ -360,128 +505,332 @@
       ]
     },
     {
-      "id": "calm-abiding",
-      "name": "Calm abiding",
-      "icon": "wind",
-      "slot": "Afternoon",
-      "time": "17:30",
+      "id": "light-a-small-lamp",
+      "name": "Light a small lamp",
+      "icon": "lamp",
+      "slot": "Evening",
+      "time": "19:30",
       "minutes": 10,
-      "meta": "Afternoon · 10 min",
-      "instructions": "Sit upright and rest your attention lightly on the breath at the nostrils or belly. When you notice you have drifted, name it quietly (\"thinking\") and return, without scolding. Aim for gentle stability, not a blank mind. Ten minutes is enough; stop when attention gets tight.",
-      "why": "Shamatha, calm abiding, is the foundation in Tibetan Buddhism for the analytic and compassion practices that follow. A steady mind is the ground for the rest.",
+      "meta": "Evening · 10 min",
+      "instructions": "Light a candle or a small lamp and set it somewhere safe. Sit with it for ten minutes. Think of its light as an offering and a wish: may the darkness of confusion lift for all beings. Do not stare. Rest your eyes near it. When you blow it out, thank it, and say goodnight to the day.",
+      "why": "Butter lamps burn in every Tibetan temple and home shrine, as an offering of light. A candle is a quiet, ordinary way to make the same gesture.",
       "variations": [
-        "Count breaths from one to ten and begin again.",
-        "Rest attention on a small object instead.",
-        "Do it outdoors."
+        "Light it for someone who is ill.",
+        "Light it and sit in silence.",
+        "Light it for the people who were kind to you today."
       ]
-    }
-  ],
-  "tasks": [
-    {
-      "id": "read-one-lojong-slogan-with-a-commentary",
-      "name": "Read one Lojong slogan with a commentary",
-      "meta": "Seven points of mind training",
-      "time": "13:00",
-      "slot": "Afternoon"
     },
     {
-      "id": "do-one-kind-act-unseen",
-      "name": "Do one kind act unseen",
-      "meta": "Tell no one",
-      "time": "18:00",
-      "slot": "Evening"
-    },
-    {
-      "id": "offer-a-bowl-of-water",
-      "name": "Offer a bowl of water",
-      "meta": "Fresh each morning, emptied at dusk",
-      "time": "07:00",
-      "slot": "Morning"
-    },
-    {
-      "id": "task-read-a-chapter-of-the-way-of-the-bodhisattva",
-      "name": "Read a chapter of The Way of the Bodhisattva",
-      "meta": "Read · compassion as training",
-      "time": "12:30",
-      "slot": "Afternoon",
-      "action": "read"
-    },
-    {
-      "id": "task-watch-the-cup-young-monks-and-a-world-cup-final",
-      "name": "Watch The Cup: young monks and a World Cup final",
-      "meta": "Watch · funnier than you expect",
-      "time": "20:00",
+      "id": "walk-clockwise",
+      "name": "Walk clockwise",
+      "icon": "person-simple-walk",
       "slot": "Evening",
-      "action": "watch"
+      "time": "18:30",
+      "minutes": 20,
+      "meta": "Evening · 20 min",
+      "instructions": "Walk a slow round of something near you, a block, a park, a pond, a hill, keeping it on your right, as Tibetans circle stupas and temples. Walk at an easy pace and let each step carry a wish. Come home having circled one small thing.",
+      "why": "Kora, circumambulation, is a Tibetan walking prayer around temples and mountains. The walking itself is the prayer, and everyone can do it.",
+      "variations": [
+        "Circle your own home.",
+        "Circle a tree, a lake or a monument.",
+        "Do it with a friend and walk in silence."
+      ]
     },
     {
-      "id": "task-journal-whose-suffering-did-you-notice-today-and-what-did-you-do",
-      "name": "Journal: whose suffering did you notice today, and what did you do?",
-      "meta": "Journal · 10 min",
-      "time": "21:15",
+      "id": "hold-the-principal-witness",
+      "name": "Hold the principal witness",
+      "icon": "eye",
       "slot": "Evening",
+      "time": "21:30",
+      "minutes": 8,
+      "meta": "Evening · 8 min",
+      "instructions": "Review your day as if two witnesses were watching: other people, and yourself. The slogan says to hold the principal one. Ask where you acted from habit and where from care. Where were you honest, and where did you slide? Note one thing you will do differently, and let the rest go.",
+      "why": "The mind-training slogan Of the two witnesses, hold the principal one points to your own conscience. Others can only judge what they see; you know the rest.",
+      "variations": [
+        "Write it in two columns: seen and unseen.",
+        "Do it as a conversation with a trusted friend.",
+        "End with one thing you are glad of."
+      ],
       "action": "journal"
     },
     {
-      "id": "task-explain-emptiness-in-three-sentences-then-doubt-them",
-      "name": "Explain emptiness in three sentences, then doubt them",
-      "meta": "Philosophy · 10 min",
-      "time": "19:30",
+      "id": "a-hot-soup-supper",
+      "name": "A hot soup supper",
+      "icon": "cooking-pot",
       "slot": "Evening",
-      "action": "philosophy"
+      "time": "19:00",
+      "minutes": 40,
+      "meta": "Evening · 40 min",
+      "instructions": "Make or heat a bowl of soup, a noodle broth or a stew, and eat it slowly with someone or without a screen. Think of the cold and the long road that made such a meal precious. Thank those who grew and carried the food. Wash up with a good heart.",
+      "why": "Thukpa, a Tibetan noodle soup, is what you eat when it is cold, which on the plateau is often. A hot meal shared is one of life’s simplest comforts.",
+      "variations": [
+        "Add one vegetable you do not usually eat.",
+        "Cook for a neighbour.",
+        "Eat it by candle light."
+      ]
     },
     {
-      "id": "task-drink-a-cup-of-tea-in-silence-and-dedicate-it-to-someone",
-      "name": "Drink a cup of tea in silence and dedicate it to someone",
-      "meta": "Drink · 10 min",
-      "time": "15:30",
-      "slot": "Afternoon",
-      "action": "drink"
+      "id": "watch-a-candle-burn-down",
+      "name": "Watch a candle burn down",
+      "icon": "flame",
+      "slot": "Evening",
+      "time": "20:30",
+      "minutes": 5,
+      "meta": "Evening · 5 min",
+      "instructions": "Light a short candle or a tea light and watch it burn down. Notice how the flame bends, shrinks, and goes. Everything that was there is changed into light and warmth, and it has not been lost, but it is not here as it was. Think quietly about impermanence, and feel what it does to your worries.",
+      "why": "Impermanence is a main theme of Tibetan teaching, to loosen attachment and make each day count. A candle makes it visible in a few minutes without any fear.",
+      "variations": [
+        "Do it with the lights off.",
+        "Do it with a plant on the table.",
+        "Say what you are grateful for before it goes out."
+      ]
     },
     {
-      "id": "treat-hang-something-colourful-where-the-wind-can-move-it",
-      "name": "Hang something colourful where the wind can move it",
-      "meta": "A wish for everyone it touches",
-      "time": "15:30",
-      "slot": "Afternoon"
+      "id": "do-twice-the-good-on-a-full-moon",
+      "name": "Do twice the good on a full moon",
+      "icon": "moon",
+      "slot": "Special",
+      "time": "19:00",
+      "minutes": 20,
+      "meta": "On a full moon · 20 min",
+      "instructions": "On a night of the full moon, do one extra act of kindness and say a short dedication for it. Tibetan tradition holds that good done on full-moon days is multiplied. Whether you believe it or not, it is a nice excuse for a monthly rhythm: call a friend, give something away, forgive someone.",
+      "why": "Saga Dawa, the fourth month of the Tibetan year, is when the Buddha’s birth, awakening and passing are marked. Good actions on those days are said to count many times over.",
+      "variations": [
+        "Do three small kindnesses and dedicate them.",
+        "Do something kind for your family.",
+        "Do something kind for a stranger."
+      ]
     },
     {
-      "id": "treat-make-butter-tea-or-tea-with-milk-and-a-pinch-of-salt",
-      "name": "Make butter tea, or tea with milk and a pinch of salt",
-      "meta": "Drink it hot",
-      "time": "08:30",
-      "slot": "Morning"
-    },
-    {
-      "id": "treat-wish-three-strangers-well-as-they-pass-silently",
-      "name": "Wish three strangers well as they pass, silently",
-      "meta": "They never need to know",
-      "time": "15:30",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "treat-spin-a-prayer-wheel-in-your-mind-one-kind-wish-per-turn-twen",
-      "name": "Spin a prayer wheel in your mind: one kind wish per turn, twenty turns",
-      "meta": "Two minutes",
-      "time": "19:30",
-      "slot": "Evening"
-    },
-    {
-      "id": "daily-light-a-candle-or-a-small-lamp-and-make-one-wish-for-all",
-      "name": "Light a candle or a small lamp and make one wish for all",
-      "meta": "Butter lamps burn in every temple",
-      "time": "07:15",
-      "slot": "Morning"
-    },
-    {
-      "id": "daily-pause-at-the-door-and-wish-the-street-well",
-      "name": "Pause at the door and wish the street well",
-      "meta": "Loving-kindness",
-      "time": "07:15",
-      "slot": "Morning"
+      "id": "make-a-mandala-and-sweep-it-away",
+      "name": "Make a mandala and sweep it away",
+      "icon": "circles-three",
+      "slot": "Special",
+      "time": "15:00",
+      "minutes": 40,
+      "meta": "On a quiet afternoon · 40 min",
+      "instructions": "Make a round pattern from what you have: coloured grains, flower petals, buttons, or sand on a plate. Take your time and make it beautiful. Then sweep it up and give the material back to the earth or to a stream. Monks do this with sand over days, to show that nothing lasts, and that beauty is still worth making.",
+      "why": "A sand mandala takes days to create and is then swept away and poured into a river. It teaches impermanence and non-attachment in a form you can see.",
+      "variations": [
+        "Make it with a child.",
+        "Make it outdoors with leaves and stones.",
+        "Make it and photograph it before you sweep it away."
+      ]
     }
   ],
-  "immersePlan": [],
+  "tasks": [],
+  "immersePlan": [
+    {
+      "kind": "read",
+      "item": "read-the-way-of-the-bodhisattva",
+      "name": "Read a page of Śāntideva",
+      "text": "Open The Way of the Bodhisattva and read a page slowly. It is the Indian poem every Tibetan school studies, and it is a favourite of the Dalai Lama. Choose one verse and carry it today.",
+      "minutes": 10
+    },
+    {
+      "kind": "read",
+      "item": "read-start-where-you-are",
+      "name": "Read a chapter of Pema Chödrön",
+      "text": "Read one short chapter of Start Where You Are, an American nun’s warm and practical guide to the slogans and tonglen. Try one idea in it today, however small.",
+      "minutes": 10
+    },
+    {
+      "kind": "read",
+      "item": "read-the-joy-of-living",
+      "name": "Read about panic and calm",
+      "text": "Read a few pages of The Joy of Living, in which a Tibetan meditation master talks about his own panic attacks and how he worked with them. Notice how an honest teacher sounds.",
+      "minutes": 15
+    },
+    {
+      "kind": "watch",
+      "item": "watch-the-cup",
+      "name": "Watch The Cup",
+      "text": "Watch the comedy about young monks in exile who scheme to watch the World Cup final. It was made by a Tibetan lama and is funny and gentle. Notice the details of a monastery’s everyday life.",
+      "minutes": 95
+    },
+    {
+      "kind": "watch",
+      "item": "watch-kundun",
+      "name": "Watch Kundun",
+      "text": "Watch Scorsese’s film about the early life of the 14th Dalai Lama, with a score by Philip Glass. It is long and beautiful. Notice how a child is shown to be taught.",
+      "minutes": 135
+    },
+    {
+      "kind": "watch",
+      "item": "watch-unmistaken-child",
+      "name": "Watch Unmistaken Child",
+      "text": "Watch the documentary about a monk who searches the hills of Nepal for the reincarnation of his teacher. Notice his patience and his love, and what it takes to keep a promise.",
+      "minutes": 100
+    },
+    {
+      "kind": "listen",
+      "item": "listen-freedom-chants-from-the-roof-of-the-world",
+      "name": "Listen to deep overtone chanting",
+      "text": "Play the Gyuto monks’ chanting, in which each monk sounds a chord with a single voice. Sit still for ten minutes and let the sound fill the room.",
+      "minutes": 10
+    },
+    {
+      "kind": "listen",
+      "item": "listen-cho",
+      "name": "Listen to Choying Drolma",
+      "text": "Play Choying Drolma, a Tibetan Buddhist nun from Nepal, singing practice songs with Steve Tibbetts. Listen with a cup of tea, and let the voice be the only thing you do.",
+      "minutes": 15
+    },
+    {
+      "kind": "listen",
+      "item": "listen-tibet-tibet",
+      "name": "Listen to Yungchen Lhamo",
+      "text": "Play unaccompanied songs by Yungchen Lhamo, a singer who walked out over the Himalaya. Listen to one track all the way through, with your eyes closed.",
+      "minutes": 10
+    },
+    {
+      "kind": "art",
+      "item": "art-thangka-of-chenrezig",
+      "name": "Look at a thangka of Chenrezig",
+      "text": "Look up a thangka of Chenrezig, the bodhisattva of compassion. Count the arms: two hold a jewel at the heart, one a mala, one a lotus. Spend five minutes with it and see what it asks.",
+      "minutes": 5
+    },
+    {
+      "kind": "art",
+      "item": "art-sand-mandala",
+      "name": "Look at a sand mandala",
+      "text": "Find photographs or a film of a sand mandala being made and swept away. Notice the patience and the detail. Ask what you would make if you knew it would be swept away tomorrow.",
+      "minutes": 10
+    },
+    {
+      "kind": "art",
+      "item": "art-boudhanath-stupa",
+      "name": "Look at the Boudhanath Stupa",
+      "text": "Look at pictures of the great white stupa of Boudhanath, with its painted eyes, circled all day by pilgrims. Imagine joining the walkers. Notice the stillness in the centre and the movement round it.",
+      "minutes": 5
+    },
+    {
+      "kind": "eat",
+      "item": "eat-momos",
+      "name": "Make or eat momos",
+      "text": "Make or buy steamed dumplings, vegetable or meat, and eat them with a sharp tomato chutney. If you cook them, fold with a friend. Notice how the pleating takes patience.",
+      "minutes": 60
+    },
+    {
+      "kind": "eat",
+      "item": "eat-thukpa",
+      "name": "Eat a bowl of thukpa",
+      "text": "Cook or order a bowl of thukpa, the Tibetan noodle soup. It is what you eat when it is cold, which on the plateau is often. Eat it hot, slowly, and be warm.",
+      "minutes": 40
+    },
+    {
+      "kind": "eat",
+      "item": "eat-tsampa",
+      "name": "Try tsampa",
+      "text": "Mix roasted barley flour with a little tea or milk and knead it to a dough. Tsampa is the staple of the plateau. Taste it plain, then with a pinch of salt or a little butter.",
+      "minutes": 15
+    },
+    {
+      "kind": "drink",
+      "item": "drink-butter-tea",
+      "name": "Try butter tea",
+      "text": "Churn hot tea with a little butter and salt until it is smooth and warm, more like a broth than tea. Sip it slowly. Notice what it is like to drink something so different from your usual cup.",
+      "minutes": 10
+    },
+    {
+      "kind": "drink",
+      "item": "drink-sweet-milk-tea",
+      "name": "Drink sweet milk tea",
+      "text": "Make strong tea with milk and sugar, as in Lhasa’s teahouses. Sit down and drink it with a friend. Notice how long it takes to feel that nothing is waiting for you.",
+      "minutes": 15
+    },
+    {
+      "kind": "drink",
+      "item": "drink-hot-water",
+      "name": "Offer hot water to a guest",
+      "text": "Fill a cup with plain hot water and offer it to whoever is with you, or to yourself. Hot water is offered to guests everywhere in Tibetan homes. It is the simplest welcome.",
+      "minutes": 5
+    },
+    {
+      "kind": "customs",
+      "item": "customs-hang-prayer-flags",
+      "name": "Hang a line of prayer flags",
+      "text": "If you have prayer flags, hang them high and outdoors, so the wind carries the wishes, and treat them with respect: keep them off the ground. If not, tie a ribbon to a branch and make a wish for everyone.",
+      "minutes": 15
+    },
+    {
+      "kind": "customs",
+      "item": "customs-offer-a-khata",
+      "name": "Offer a white scarf",
+      "text": "A khata is a white scarf given with both hands and a slight bow to welcome, thank or honour someone. Offer something to a person today in just that way: both hands, a small bow, a kind word.",
+      "minutes": 5
+    },
+    {
+      "kind": "customs",
+      "item": "customs-light-a-butter-lamp",
+      "name": "Light a lamp for someone",
+      "text": "Light a candle for someone who needs it and hold them in mind for a few minutes. Butter lamps are an offering of light to dispel the darkness of ignorance. Let the flame burn down.",
+      "minutes": 10
+    },
+    {
+      "kind": "games",
+      "item": "games-sho",
+      "name": "Play a game of sho",
+      "text": "Sho is a Tibetan dice game in which two dice are slammed from a wooden cup onto a leather pad, with shell tokens to count the score. Make a simple version with two dice and a cup, and play for fun.",
+      "minutes": 20
+    },
+    {
+      "kind": "games",
+      "item": "games-rebirth",
+      "name": "Play the game of rebirth",
+      "text": "Look up the teaching game attributed to Sakya Pandita, in which a die moves you up and down through the realms of existence. Play a simple version with a die and a drawn board, and think about what moves you.",
+      "minutes": 30
+    },
+    {
+      "kind": "games",
+      "item": "games-mig-mang",
+      "name": "Play mig mang",
+      "text": "Mig mang, the many-eyed game, is a Tibetan relative of Go played on a smaller grid. Draw a grid, take two colours of pebbles and play a short game with someone.",
+      "minutes": 30
+    },
+    {
+      "kind": "travel",
+      "item": "fest-losar",
+      "name": "Keep a small Losar",
+      "text": "Losar is Tibetan New Year, when houses are cleaned, debts settled and prayer flags raised. Do a small version today: clean one room, settle one small debt, and set one wish for the year.",
+      "minutes": 30
+    },
+    {
+      "kind": "travel",
+      "item": "fest-saga-dawa",
+      "name": "Do one good thing for Saga Dawa",
+      "text": "Saga Dawa is the month that marks the Buddha’s birth, awakening and passing, when good deeds are said to count many times. Do one good thing today and dedicate it to all beings.",
+      "minutes": 15
+    },
+    {
+      "kind": "travel",
+      "item": "place-dharamshala",
+      "name": "Look up Dharamshala",
+      "text": "Look at the town in northern India that is the seat of the Dalai Lama and the Tibetan government in exile. Read a short account of its people and what they have built there, and what their children learn.",
+      "minutes": 15
+    },
+    {
+      "kind": "words",
+      "item": "word-bodhicitta",
+      "name": "Think about bodhicitta",
+      "text": "Bodhicitta is the awakened heart: the wish to become awake in order to benefit all beings. Say it quietly, and then finish this sentence in your own words: today I will try to help by, and name one small thing.",
+      "minutes": 5
+    },
+    {
+      "kind": "words",
+      "item": "word-tashi-delek",
+      "name": "Say tashi delek to someone",
+      "text": "Tashi delek means blessings and good fortune, and is said as a greeting and a wish. Say it, or its meaning in your own words, to three people today, and notice how it feels to wish someone well on purpose.",
+      "minutes": 5
+    },
+    {
+      "kind": "words",
+      "item": "word-tendrel",
+      "name": "See tendrel in a cup of tea",
+      "text": "Tendrel is interdependence: everything arises in connection with other things. Take a cup of tea or a slice of bread and trace back how many people and places it needed. Write down at least five.",
+      "minutes": 10
+    }
+  ],
   "rules": [
     {
       "id": "r1",

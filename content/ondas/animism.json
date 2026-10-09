@@ -313,7 +313,7 @@
       "minutes": 5,
       "meta": "Morning · 5 min",
       "instructions": "Step outside or stand at an open window before you do anything else. In your own words, and aloud if you can, give thanks in turn: to the people around you, the ground, the water, the plants that feed you, the animals, the trees, the birds, the wind, the sun. Be specific about what is actually here today. Finish by asking yourself what you can give back.",
-      "why": "The Haudenosaunee open gatherings with the Thanksgiving Address, greeting each part of the living world in order. That address is theirs. What anyone can learn from it is the habit of beginning with thanks, in their own words.",
+      "why": "The Haudenosaunee open gatherings with the Thanksgiving Address, greeting each part of the living world in order. That address is theirs. What anyone can learn from it is the habit of beginning with thanks.",
       "variations": [
         "Read the published Thanksgiving Address once as a listener, not a performer.",
         "Give thanks to one thing only, at length.",
@@ -327,13 +327,93 @@
       "slot": "Morning",
       "time": "07:30",
       "minutes": 20,
-      "meta": "Morning · 20 min, same place daily",
+      "meta": "Morning · 20 min",
       "instructions": "Choose one place outdoors you can reach every day: a garden corner, a park bench, a doorstep. Go there, sit, and stay for twenty minutes without a phone. Notice what is growing, what is moving, what you can hear, how the light falls. Return to exactly the same place each day and see what you begin to recognise.",
-      "why": "This is a nature-awareness practice from outdoor education, not a ceremony. It is here because relationship with a place starts the way any relationship does: by turning up regularly and paying attention.",
+      "why": "This is a nature-awareness practice from outdoor education, not a ceremony. It is here because relationship with a place starts the way any relationship does: by turning up and paying attention.",
       "variations": [
         "Go at a different hour and compare.",
         "Sit in the rain.",
         "Sketch a simple map of everything living within ten paces."
+      ]
+    },
+    {
+      "id": "greet-one-tree",
+      "name": "Greet one tree",
+      "icon": "tree-evergreen",
+      "slot": "Morning",
+      "time": "07:00",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Choose one tree on your way out of the door and greet it as you would a neighbour: look at it, say hello, notice what it is doing today, whether it is in bud, leaf or fruit, who is living in it. Do the same tree every day, so that you get to know it. A tree is a long-term neighbour, and it will be there after you.",
+      "why": "Robin Wall Kimmerer writes of the grammar of animacy in her language, in which a tree is a who and not an it. You do not need the language to try the habit of greeting.",
+      "variations": [
+        "Touch the bark, if the tree allows.",
+        "Learn its name and tell someone.",
+        "Visit the same tree at night."
+      ]
+    },
+    {
+      "id": "know-today-s-sky",
+      "name": "Know today’s sky",
+      "icon": "cloud-sun",
+      "slot": "Morning",
+      "time": "08:00",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Look up and read the sky. What is the weather doing? Which way is the wind? Where is the sun, and where would the moon be? Is it waxing or waning? Look up the phase of the moon, and say it aloud: today it is a waxing crescent. Many peoples have lived by this reading. It makes you a person of the place.",
+      "why": "Knowledge of a place begins with attention to what is above it. Many Native nations keep calendars tied to moons and seasons, and these belong to the nations that keep them. Looking up is a way to begin to learn from them.",
+      "variations": [
+        "Note the weather and sky in one line each day.",
+        "Learn the name of the season in your region, not the calendar.",
+        "Stay out for ten minutes until you notice a change."
+      ]
+    },
+    {
+      "id": "trace-your-breakfast",
+      "name": "Trace your breakfast",
+      "icon": "bowl-food",
+      "slot": "Morning",
+      "time": "07:45",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "As you eat breakfast, trace each item back as far as you can: the oats or the bread, the fruit, the milk, the coffee or tea. Whose land grew it? Which water fed it? Who picked it and who carried it? Say a quiet thank you for each. It is a small way of seeing a meal as a web of relations.",
+      "why": "In the Native view relationships run through everything, including food. Tracing a breakfast makes a thing that seems ordinary into a long chain of care.",
+      "variations": [
+        "Do it for one item only, very deeply.",
+        "Do it with a child, asking where it all came from.",
+        "Choose one local item and find out where it grew."
+      ]
+    },
+    {
+      "id": "water-first",
+      "name": "Water first",
+      "icon": "drop",
+      "slot": "Morning",
+      "time": "06:45",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Pour a glass of water, hold it, and say thank you to the water. Mní wičhóni, water is life, is the call of the Lakota water protectors. Know where your own comes from. Drink the glass slowly. Then carry one thought into the day: how will I treat the water I use?",
+      "why": "For many Native nations water is a relative, not a resource. Mní wičhóni became the cry of Standing Rock. Drinking a glass with thanks is a small and honest way to join the thought.",
+      "variations": [
+        "Find where your tap water comes from, by name.",
+        "Take your first glass outside.",
+        "Notice each time you use water today."
+      ]
+    },
+    {
+      "id": "listen-to-the-place",
+      "name": "Listen to the place",
+      "icon": "ear",
+      "slot": "Afternoon",
+      "time": "12:00",
+      "minutes": 8,
+      "meta": "Afternoon · 8 min",
+      "instructions": "Go outside, close your eyes, and count the separate sounds you can hear: near, middle, far. Name each one silently (wind, a bird, a car, water). Then open your eyes and find the source of one you could not place. Ask, without expecting an answer: who lives here, and what are they doing right now?",
+      "why": "Many Native traditions teach that knowledge of a place comes first from attention and relationship, long before anything is written about it.",
+      "variations": [
+        "Do it at the same spot every day.",
+        "Draw a map of the sounds.",
+        "Do it at night."
       ]
     },
     {
@@ -353,9 +433,73 @@
       ]
     },
     {
+      "id": "whose-land-is-this",
+      "name": "Whose land is this?",
+      "icon": "map-pin",
+      "slot": "Afternoon",
+      "time": "13:30",
+      "minutes": 15,
+      "meta": "Afternoon · 15 min",
+      "instructions": "Find out whose land you are standing on. Use a free resource such as Native Land Digital, and look at the names of the nations whose homeland it is, and which of them are still here. Read one thing that they have published about themselves. An acknowledgment is a first lesson, not a last one. Ask what you can do next.",
+      "why": "The rule of this Onda is to name the nation. Learning whose land you are on is the beginning of a relationship, and it moves attention from the abstract to the particular.",
+      "variations": [
+        "Look up the treaty or the lack of one.",
+        "Find a Native-run organisation in your region and read their page.",
+        "Tell one person what you learned."
+      ]
+    },
+    {
+      "id": "harvest-with-honour",
+      "name": "Harvest with honour",
+      "icon": "basket",
+      "slot": "Afternoon",
+      "time": "16:00",
+      "minutes": 20,
+      "meta": "Afternoon · 20 min",
+      "instructions": "If something is growing near you that is safe and fine to pick, berries, mint, herbs, windfall apples, pick it as Robin Wall Kimmerer describes the Honorable Harvest: ask first, in your mind; never take the first or the last; take only what you need; use what you take; share some; and say thank you. If there is nothing to pick, buy something from a local grower and do the same.",
+      "why": "Kimmerer describes the Honorable Harvest as a code of Native reciprocity, found in many nations. It is a modern way to treat everything you take as a gift.",
+      "variations": [
+        "Harvest nothing; just ask what you could take and leave it.",
+        "Share what you pick within the hour.",
+        "Learn one safe plant first from a field guide."
+      ]
+    },
+    {
+      "id": "give-something-back",
+      "name": "Give something back",
+      "icon": "plant",
+      "slot": "Afternoon",
+      "time": "14:30",
+      "minutes": 15,
+      "meta": "Afternoon · 15 min",
+      "instructions": "Give something back to the place you live: pick up litter, water a tree, pull an invasive weed, plant a seed, clean a drain so the rain can get through. Make it a small, concrete thing. Notice how different your walk home feels when you have left it a bit better. It is the other half of taking.",
+      "why": "Reciprocity is the heart of this Onda: take only what you need, give before you take. A small act of giving back keeps the account open and honest.",
+      "variations": [
+        "Give back something to a place you love.",
+        "Do it with a child and explain why.",
+        "Plant a native seed in a pot."
+      ]
+    },
+    {
+      "id": "read-a-native-author",
+      "name": "Read a Native author",
+      "icon": "book-open",
+      "slot": "Afternoon",
+      "time": "13:00",
+      "minutes": 15,
+      "meta": "Afternoon · 15 min",
+      "instructions": "Read a page, a poem or a short essay by a Native writer today, and let it be the voice. Joy Harjo, Robin Wall Kimmerer, N. Scott Momaday, Louise Erdrich and many others are easy to find. Note the nation they come from. Read slowly, as a guest, and let the words say what they say without turning them into advice for you.",
+      "why": "The rule of this Onda is to learn from Native voices and name their nations. Reading is one way to listen without taking anything that is not offered.",
+      "variations": [
+        "Read a poem aloud.",
+        "Read a short story by a Native writer.",
+        "Follow a Native writer and share one post with a friend."
+      ]
+    },
+    {
       "id": "evening-thanks",
       "name": "Evening thanks",
-      "icon": "moon-stars",
+      "icon": "moon",
       "slot": "Evening",
       "time": "20:30",
       "minutes": 5,
@@ -369,142 +513,331 @@
       ]
     },
     {
-      "id": "listen-to-the-place",
-      "name": "Listen to the place",
-      "icon": "waveform",
-      "slot": "Afternoon",
-      "time": "12:00",
-      "minutes": 8,
-      "meta": "Afternoon · 8 min",
-      "instructions": "Go outside, close your eyes, and count the separate sounds you can hear: near, middle, far. Name each one silently (wind, a bird, a car, water). Then open your eyes and find the source of one you could not place. Ask, without expecting an answer: \"Who lives here, and what are they doing right now?\"",
-      "why": "Many Native traditions teach that knowledge of a place comes first from attention and relationship, long before anything is written about it.",
+      "id": "leave-water-for-the-birds",
+      "name": "Leave water for the birds",
+      "icon": "bird",
+      "slot": "Evening",
+      "time": "19:00",
+      "minutes": 5,
+      "meta": "Evening · 5 min",
+      "instructions": "Put out a shallow dish of fresh water for the birds and insects. Choose a spot with a clear view and some cover, so they feel safe. Check it each day and clean it. Watch who comes. This is a small way to give back to the creatures who share your place, and it costs only a saucer.",
+      "why": "Sharing water with other beings is a simple act of reciprocity. It also trains the eye to see who lives alongside you.",
       "variations": [
-        "Do it at the same spot every day.",
-        "Draw a map of the sounds.",
-        "Do it at night."
+        "Add a few stones for bees to stand on.",
+        "Keep a note of each visitor.",
+        "Help a neighbour set up their own."
+      ]
+    },
+    {
+      "id": "tell-a-story-of-this-place",
+      "name": "Tell a story of this place",
+      "icon": "campfire",
+      "slot": "Evening",
+      "time": "19:30",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Sit with someone and tell a true story about the place where you live: what happened on this street, what the land was before it, a time the river rose. If you do not know one, find one at the library or from an older neighbour, and tell it tomorrow. Stories are how a place is remembered.",
+      "why": "Many Native nations hold that stories are bound to places, and that a place is known through its stories. Learn a story from the people it belongs to, and then pass on what they allow you to share.",
+      "variations": [
+        "Ask an older neighbour for a story.",
+        "Tell it to a child.",
+        "Write it down and keep it."
+      ]
+    },
+    {
+      "id": "under-the-night-sky",
+      "name": "Under the night sky",
+      "icon": "moon-stars",
+      "slot": "Evening",
+      "time": "21:00",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Go outside after dark and look up for ten minutes without a phone. See what is there: the moon, planets, stars, the Milky Way if the sky is clear. Let your eyes adjust slowly. Think of all the people who have looked at this same sky from this same land. Notice what it does to your sense of size.",
+      "why": "Many Native nations have deep knowledge and stories of the night sky, which belong to them. A quiet look upward is a good first step toward listening to those who know it.",
+      "variations": [
+        "Lie on a blanket.",
+        "Learn one star or planet by name.",
+        "Go with someone and take turns pointing."
+      ]
+    },
+    {
+      "id": "eat-what-grows-near-you",
+      "name": "Eat what grows near you",
+      "icon": "carrot",
+      "slot": "Evening",
+      "time": "18:30",
+      "minutes": 40,
+      "meta": "Evening · 40 min",
+      "instructions": "Cook a meal built around what grows in your region: local vegetables, beans, squash, corn, berries or greens. If you can, buy from a local grower or a Native-owned business. As you eat, say where each thing comes from and who may have grown it. Make it a meal that could not be made anywhere else.",
+      "why": "The Three Sisters, corn, beans and squash, grown together, are a famous Native planting, and many nations have their own foods of the place. Eating local is eating in relationship.",
+      "variations": [
+        "Make a pot of Three Sisters stew.",
+        "Visit a farmers’ market first.",
+        "Share the meal with a neighbour."
+      ]
+    },
+    {
+      "id": "ask-an-elder-about-their-place",
+      "name": "Ask an elder about their place",
+      "icon": "phone",
+      "slot": "Evening",
+      "time": "20:00",
+      "minutes": 20,
+      "meta": "Evening · 20 min",
+      "instructions": "Call or visit an older person you know, and ask about the place they grew up: what the land was like, who lived there, what has changed. Listen, ask one follow-up, and thank them. Elders are the memory of a place. This works with a grandparent, an older neighbour or someone from a community group.",
+      "why": "The rule of this Onda is to listen before you speak, especially to elders. Their memories are the oldest record of a place, and few people ask.",
+      "variations": [
+        "Write down one thing they said.",
+        "Record a short voice note with permission.",
+        "Ask them where they feel at home."
+      ]
+    },
+    {
+      "id": "a-morning-with-no-roof",
+      "name": "A morning with no roof",
+      "icon": "tent",
+      "slot": "Special",
+      "time": "08:00",
+      "minutes": 120,
+      "meta": "On a free morning · 120 min",
+      "instructions": "On a free morning, spend two hours outdoors, in a park, a field, a wood or a garden, with no screen. Bring water and a notebook. Walk for a while, sit for a while, and notice. Say hello to what you meet. When you leave, thank the place out loud. You will see how much of the world you pass without looking.",
+      "why": "Time on the land is the basic practice of this Onda, and it is open to everyone. Two unhurried hours do more to build a relationship with a place than many short visits.",
+      "variations": [
+        "Go with a friend and say little.",
+        "Go with a child and follow their pace.",
+        "Go back to the same place the next week."
+      ]
+    },
+    {
+      "id": "follow-the-water",
+      "name": "Follow the water",
+      "icon": "waves",
+      "slot": "Special",
+      "time": "10:00",
+      "minutes": 90,
+      "meta": "On a free day · 90 min",
+      "instructions": "Start at a drain or a gutter after rain, and follow the water downhill. Where does it go? Which stream, which river, which sea? Walk it as far as you can, and look at what lives along it. Find the name of your watershed, and its other names if there are any. It is a pleasant detective walk and a way to learn where you live.",
+      "why": "A watershed is the land that drains to one river. Many Native nations know their watersheds as homelands. Following the water teaches the geography of care.",
+      "variations": [
+        "Do it with a map.",
+        "Do it after rain.",
+        "Pick up any litter along the way."
       ]
     }
   ],
-  "tasks": [
+  "tasks": [],
+  "immersePlan": [
     {
-      "id": "find-whose-land-you-live-on",
-      "name": "Find whose land you live on",
-      "meta": "Learn the nation’s name and language",
-      "time": "13:00",
-      "slot": "Afternoon"
+      "kind": "read",
+      "item": "read-braiding-sweetgrass",
+      "name": "Read a chapter of Braiding Sweetgrass",
+      "text": "Read one chapter of Robin Wall Kimmerer’s book, a botanist’s writing on reciprocity and the language of animacy. Notice the plant she is writing about, and then look for it near you.",
+      "minutes": 20
     },
     {
-      "id": "give-something-back",
-      "name": "Give something back",
-      "meta": "Clean a path, plant, feed birds",
-      "time": "18:00",
-      "slot": "Evening"
+      "kind": "read",
+      "item": "read-the-thanksgiving-address",
+      "name": "Read the Thanksgiving Address as a listener",
+      "text": "Read the Haudenosaunee Thanksgiving Address, shared publicly in Mohawk and English. Read it slowly as a listener, not a performer. Notice the order in which the living world is greeted.",
+      "minutes": 15
     },
     {
-      "id": "read-one-native-author-today",
-      "name": "Read one Native author today",
-      "meta": "A page is enough",
-      "time": "20:00",
-      "slot": "Evening"
+      "kind": "read",
+      "item": "read-the-way-to-rainy-mountain",
+      "name": "Read a section of Rainy Mountain",
+      "text": "Read a few pages of N. Scott Momaday’s book, in which Kiowa story, history and memory are told in three voices. Notice how place and story are knotted.",
+      "minutes": 15
     },
     {
-      "id": "task-read-a-chapter-of-braiding-sweetgrass-with-a-plant-nearby",
-      "name": "Read a chapter of Braiding Sweetgrass with a plant nearby",
-      "meta": "Read · Robin Wall Kimmerer",
-      "time": "12:30",
-      "slot": "Afternoon",
-      "action": "read"
+      "kind": "watch",
+      "item": "watch-reservation-dogs",
+      "name": "Watch an episode of Reservation Dogs",
+      "text": "Watch one episode of the series written, directed and acted by Indigenous people, about four teenagers in rural Oklahoma. Notice what is funny, and who is allowed to be funny about it.",
+      "minutes": 30
     },
     {
-      "id": "task-listen-to-canyon-trilogy-eyes-closed",
-      "name": "Listen to Canyon Trilogy, eyes closed",
-      "meta": "Listen · Native flute",
-      "time": "17:00",
-      "slot": "Afternoon",
-      "action": "listen"
+      "kind": "watch",
+      "item": "watch-gather",
+      "name": "Watch Gather",
+      "text": "Watch the documentary about Native communities reclaiming food: bison, salmon, wild plants. Notice how food, language and land are tied together.",
+      "minutes": 75
     },
     {
-      "id": "task-journal-what-did-you-take-today-and-what-did-you-give-back",
-      "name": "Journal: what did you take today, and what did you give back?",
-      "meta": "Journal · 10 min",
-      "time": "21:15",
-      "slot": "Evening",
-      "action": "journal"
+      "kind": "watch",
+      "item": "watch-smoke-signals",
+      "name": "Watch Smoke Signals",
+      "text": "Watch the road film from the Coeur d’Alene reservation, a landmark of Native cinema. Notice the dry humour and the way it handles a father and a son.",
+      "minutes": 90
     },
     {
-      "id": "task-write-about-everything-is-alive-and-related-using-one-real-neighbour-a-tree-a-river-a-crow",
-      "name": "Write about “Everything is alive and related” using one real neighbour: a tree, a river, a crow",
-      "meta": "Philosophy · 10 min",
-      "time": "19:30",
-      "slot": "Evening",
-      "action": "philosophy"
+      "kind": "listen",
+      "item": "listen-all-my-relations",
+      "name": "Listen to All My Relations",
+      "text": "Play an episode of the podcast about relationships to land, to creatures and to one another, hosted by Matika Wilbur and Adrienne Keene. Listen while you wash up or walk.",
+      "minutes": 45
     },
     {
-      "id": "task-thank-your-food-aloud-before-one-meal",
-      "name": "Thank your food aloud before one meal",
-      "meta": "Customs · 2 min",
-      "time": "13:00",
-      "slot": "Afternoon",
-      "action": "customs"
+      "kind": "listen",
+      "item": "listen-canyon-trilogy",
+      "name": "Listen to Canyon Trilogy",
+      "text": "Play R. Carlos Nakai’s solo Native American flute album. Sit by a window, close your eyes, and let the breath in each note carry you for ten minutes.",
+      "minutes": 10
     },
     {
-      "id": "treat-step-outside-barefoot-for-one-minute",
-      "name": "Step outside barefoot for one minute",
-      "meta": "Grass, stone or balcony",
-      "time": "08:30",
-      "slot": "Morning"
+      "kind": "listen",
+      "item": "listen-matriarch-iroquois-women-s-songs",
+      "name": "Hear Joanne Shenandoah’s songs",
+      "text": "Play a track of Haudenosaunee women’s songs by Joanne Shenandoah. Listen once through, then think of one woman who shaped you.",
+      "minutes": 10
     },
     {
-      "id": "treat-put-water-out-for-the-birds",
-      "name": "Put water out for the birds",
-      "meta": "A shallow dish",
-      "time": "08:30",
-      "slot": "Morning"
+      "kind": "art",
+      "item": "art-i-see-red-target",
+      "name": "Look at I See Red: Target",
+      "text": "Look at Jaune Quick-to-See Smith’s painting, which answers centuries of stereotypes. Notice what she has put in the target and what she has refused.",
+      "minutes": 10
     },
     {
-      "id": "treat-say-good-night-to-the-moon-whatever-phase-it-is-in",
-      "name": "Say good night to the moon, whatever phase it is in",
-      "meta": "Aloud, if you dare",
-      "time": "19:30",
-      "slot": "Evening"
+      "kind": "art",
+      "item": "art-black-on-black-pottery",
+      "name": "Look at Maria Martinez’s pottery",
+      "text": "Look at the matte and polished black pottery of Maria Martinez of San Ildefonso Pueblo, made with her husband Julian. Notice the tension between shine and matte.",
+      "minutes": 10
     },
     {
-      "id": "treat-follow-one-animal-with-your-eyes-until-it-leaves",
-      "name": "Follow one animal with your eyes until it leaves",
-      "meta": "A pigeon counts",
-      "time": "15:30",
-      "slot": "Afternoon"
+      "kind": "art",
+      "item": "art-dine-weaving",
+      "name": "Look at Diné weaving",
+      "text": "Look at Navajo weavings, and look at how a weaver closes the border, and ask why. Choose one pattern and say what it does to your eye.",
+      "minutes": 10
     },
     {
-      "id": "daily-greet-the-first-tree-you-pass-and-notice-what-it-is-doing-to",
-      "name": "Greet the first tree you pass and notice what it is doing today",
-      "meta": "Leaves, light, birds",
-      "time": "07:15",
-      "slot": "Morning"
+      "kind": "eat",
+      "item": "eat-three-sisters-stew",
+      "name": "Make a Three Sisters stew",
+      "text": "Simmer corn, beans and squash together, the three plants many nations grow together. Notice how each one helps the other: the corn holds the bean, the squash shades the ground. Eat it slowly and thank each sister.",
+      "minutes": 60
     },
     {
-      "id": "daily-work-out-which-way-the-wind-is-coming-from-before-you-go-out",
-      "name": "Work out which way the wind is coming from before you go out",
-      "meta": "Hold up a hand or look at the treetops",
-      "time": "07:15",
-      "slot": "Morning"
+      "kind": "eat",
+      "item": "eat-wild-rice",
+      "name": "Cook manoomin",
+      "text": "Cook wild rice, buying from a Native harvester in the Great Lakes region if you can. Rinse it, simmer until it blooms, and taste the nutty grain. Eat it plain first.",
+      "minutes": 45
     },
     {
-      "id": "daily-eat-your-lunch-somewhere-you-can-see-something-growing",
-      "name": "Eat your lunch somewhere you can see something growing",
-      "meta": "A window box is enough",
-      "time": "14:00",
-      "slot": "Afternoon"
+      "kind": "eat",
+      "item": "eat-seasonal-berries",
+      "name": "Eat berries with thanks",
+      "text": "Eat a handful of whatever berries are in season, fresh. Slow down and taste each one. Say thank you to the plant before you eat.",
+      "minutes": 10
     },
     {
-      "id": "daily-pick-up-one-piece-of-litter-and-thank-the-place-you-took-it-",
-      "name": "Pick up one piece of litter and thank the place you took it from",
-      "meta": "A small act of reciprocity",
-      "time": "14:00",
-      "slot": "Afternoon"
+      "kind": "drink",
+      "item": "drink-water",
+      "name": "Drink water knowing its source",
+      "text": "Look up where your tap water comes from, then drink a glass of it slowly, naming that source aloud. Mní wičhóni: water is life.",
+      "minutes": 10
+    },
+    {
+      "kind": "drink",
+      "item": "drink-wild-mint-tea",
+      "name": "Steep wild mint tea",
+      "text": "Steep fresh or dried mint leaves in hot water for a few minutes. It is a common, widely shared drink. Notice the scent as it steeps, and drink it slowly.",
+      "minutes": 10
+    },
+    {
+      "kind": "drink",
+      "item": "drink-maple-water",
+      "name": "Taste maple water",
+      "text": "If you can find maple water, the sap before boiling, drink a glass cold. Anishinaabe families have tapped maples each spring for generations. If not, taste a spoonful of maple syrup and think of the work.",
+      "minutes": 10
+    },
+    {
+      "kind": "customs",
+      "item": "customs-offer-thanks-before-eating",
+      "name": "Thank the food before you eat",
+      "text": "Before one meal today, say in your own words where the food came from, and thank it. Keep it short, true and specific, and then eat.",
+      "minutes": 5
+    },
+    {
+      "kind": "customs",
+      "item": "customs-learn-whose-land-you-are-on",
+      "name": "Name the nation whose land you are on",
+      "text": "Look up which Native nation’s homeland you are in. Say its name aloud, and learn how it is pronounced. An acknowledgment is a first lesson, not a last one.",
+      "minutes": 10
+    },
+    {
+      "kind": "customs",
+      "item": "customs-the-honorable-harvest",
+      "name": "Practise the Honorable Harvest",
+      "text": "Take only what you need, never the first or last, use what you take, share some, and give thanks. Apply it to one thing today: a snack, a flower, a glass of water.",
+      "minutes": 10
+    },
+    {
+      "kind": "games",
+      "item": "games-never-alone-kisima-ingitchuna",
+      "name": "Play a little of Never Alone",
+      "text": "Play a level of the game made with nearly forty Alaska Native elders and storytellers, in which a girl and an arctic fox travel together. If you do not have it, watch a short video of it.",
+      "minutes": 30
+    },
+    {
+      "kind": "games",
+      "item": "games-when-rivers-were-trails",
+      "name": "Play When Rivers Were Trails",
+      "text": "Play the game in which you are an Anishinaabe person displaced from Minnesota in the 1890s. It is free and made with Native communities. Notice the choices it asks of you.",
+      "minutes": 30
+    },
+    {
+      "kind": "games",
+      "item": "games-lacrosse",
+      "name": "Throw and catch a ball with a friend",
+      "text": "Lacrosse is the Creator’s Game of the Haudenosaunee, played as medicine as well as sport. Do a small version: throw and catch a ball with a friend for ten minutes, and say thank you at the end.",
+      "minutes": 20
+    },
+    {
+      "kind": "travel",
+      "item": "fest-indigenous-peoples-day",
+      "name": "Mark Indigenous Peoples’ Day",
+      "text": "Indigenous Peoples’ Day falls on the second Monday of October in the US. Find a talk, a market or an exhibition by Indigenous people, and go or watch. Buy something from a Native maker.",
+      "minutes": 30
+    },
+    {
+      "kind": "travel",
+      "item": "fest-native-american-heritage-month",
+      "name": "Find a Native heritage event",
+      "text": "November is Native American Heritage Month in the US. Look up one museum, library or tribal cultural centre programme, and attend or watch one thing online.",
+      "minutes": 30
+    },
+    {
+      "kind": "travel",
+      "item": "place-cahokia-mounds",
+      "name": "Look at Cahokia Mounds",
+      "text": "Look up Cahokia Mounds, the remains of the largest city north of Mexico before 1500. Find a picture of Monks Mound, and imagine the city on the river. Notice who is telling the story.",
+      "minutes": 15
+    },
+    {
+      "kind": "words",
+      "item": "word-mitakuye-oyas-i",
+      "name": "Say Mitákuye Oyás’iŋ",
+      "text": "Mitákuye Oyás’iŋ is Lakota for all my relations. Say it aloud as you look at someone or something you are in relationship with: a person, a tree, a river. Learn how it is pronounced.",
+      "minutes": 5
+    },
+    {
+      "kind": "words",
+      "item": "word-miigwech",
+      "name": "Say Miigwech",
+      "text": "Miigwech is Anishinaabemowin for thank you. Say it, with care for its pronunciation, to someone today who has given you something, even a small thing, and look at them as you say it.",
+      "minutes": 5
+    },
+    {
+      "kind": "words",
+      "item": "word-mino-bimaadiziwin",
+      "name": "Ask what mino-bimaadiziwin looks like",
+      "text": "Mino-bimaadiziwin is Anishinaabe for the good life, living well. Ask: what would a good life look like for me, my family, the land? Write three lines in answer, and share one with someone.",
+      "minutes": 10
     }
   ],
-  "immersePlan": [],
   "rules": [
     {
       "id": "r1",

@@ -283,13 +283,13 @@
     {
       "id": "morning-pages",
       "name": "Morning pages",
-      "icon": "pen-nib",
+      "icon": "pencil-simple",
       "slot": "Morning",
       "time": "06:30",
       "minutes": 15,
       "meta": "Morning · 15 min",
       "instructions": "Before reading anything, write by hand for fifteen minutes. Begin with what you observe: the light, the weather, the state of your mind. Then follow whatever thought is most alive. Do not edit and do not write for a reader. Date the entry.",
-      "why": "Emerson asked the young Thoreau, \"Do you keep a journal?\" and Thoreau began one that day and kept it for twenty-four years. The phrase \"morning pages\" is modern. The habit of writing at dawn is theirs.",
+      "why": "Emerson asked the young Thoreau, Do you keep a journal? and Thoreau began one that day and kept it for twenty-four years. The habit is the practice.",
       "variations": [
         "Start with one precise observation from the window.",
         "Copy a sentence from yesterday’s reading and answer it.",
@@ -297,15 +297,95 @@
       ]
     },
     {
+      "id": "one-true-sentence",
+      "name": "One true sentence",
+      "icon": "quotes",
+      "slot": "Morning",
+      "time": "07:00",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Write down one sentence you really believe, one you would stand behind in front of anyone, and say it aloud. Do not make it grand. Make it yours: about work, friends, money, a belief you hold. Look at it. Is it true? Sign it. Then, at some point today, say what you think about something, calmly and plainly.",
+      "why": "The rule of this Onda is to say what you think today. Emerson wrote that to be great is to be misunderstood. A single true sentence is where self-reliance begins.",
+      "variations": [
+        "Say it to someone you trust.",
+        "Write one you disagree with, and see why.",
+        "Write the one you are most afraid to say."
+      ]
+    },
+    {
+      "id": "walk-to-meet-the-dawn",
+      "name": "Walk to meet the dawn",
+      "icon": "sun-horizon",
+      "slot": "Morning",
+      "time": "06:15",
+      "minutes": 20,
+      "meta": "Morning · 20 min",
+      "instructions": "Go outside before the day has properly begun, and walk for twenty minutes to meet the light. Do not carry a phone, or leave it in a pocket. Notice the temperature, the first birds, how the colours come back. Thoreau wrote that morning is when he was awake and there was a dawn in him.",
+      "why": "Thoreau prized the morning above any other hour. Walking in it, with nothing to do but notice, is one of the cheapest and most beautiful practices in this Onda.",
+      "variations": [
+        "Walk toward a place where you can see the horizon.",
+        "Do it at a new time every day this week.",
+        "Go with a friend and say little."
+      ]
+    },
+    {
+      "id": "hoe-your-beans",
+      "name": "Hoe your beans",
+      "icon": "plant",
+      "slot": "Morning",
+      "time": "08:00",
+      "minutes": 20,
+      "meta": "Morning · 20 min",
+      "instructions": "Do twenty minutes of plain physical work outdoors: weed a bed, water the pots, rake leaves, split kindling. Thoreau hoed seven miles of bean rows at Walden, and said it kept him honest. Work with your hands, listen to what is around you, and let the thinking go quiet.",
+      "why": "Thoreau paid for his cabin by labour, and his bean field was part of his thinking. Manual work grounds the mind and makes the evening’s writing better.",
+      "variations": [
+        "Do it in a shared garden.",
+        "Do it indoors: scrub a floor.",
+        "Do something for the first time."
+      ]
+    },
+    {
+      "id": "check-your-account",
+      "name": "Check your account",
+      "icon": "receipt",
+      "slot": "Morning",
+      "time": "07:30",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Look at what you spent yesterday and ask what each item cost in life, not just in money: how many hours of work, how much attention. Thoreau kept an exact account of the cost of his house, down to the half cent. Pick one item and ask if it was worth the hours.",
+      "why": "The chapter Economy in Walden asks for the real cost of a thing: the amount of life that is required to be exchanged for it. It is a short and sobering sum.",
+      "variations": [
+        "Add up one week of coffee.",
+        "Notice what you want to buy today.",
+        "Skip one purchase and write down what you did instead."
+      ]
+    },
+    {
+      "id": "be-a-transparent-eyeball",
+      "name": "Be a transparent eyeball",
+      "icon": "eye",
+      "slot": "Morning",
+      "time": "09:00",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Stand outdoors, in a field or a street, and look until you forget yourself. Let the sky and the trees fill your sight. Emerson described standing on bare ground, his head bathed in the blithe air, and becoming a transparent eyeball. When you notice yourself again, smile, and look some more.",
+      "why": "The transparent eyeball passage in Nature is Emerson’s best-known moment of vision, and was famously laughed at. It is a clear description of attention without self.",
+      "variations": [
+        "Do it lying on grass.",
+        "Do it looking at the stars.",
+        "Do it for just two minutes."
+      ]
+    },
+    {
       "id": "saunter",
       "name": "Saunter",
-      "icon": "person-simple-walk",
+      "icon": "footprints",
       "slot": "Afternoon",
       "time": "12:00",
       "minutes": 60,
-      "meta": "Midday · 1 hour, no phone",
+      "meta": "Afternoon · 60 min",
       "instructions": "Walk for an hour without a phone, a route or a purpose. Go toward whatever is least built: a park, a river, a field edge. Let the walking set the thinking. If your mind stays in the office, notice that your body has gone for a walk without you, and call it back.",
-      "why": "Thoreau wrote that he could not keep his health and spirits without at least four hours a day sauntering through woods and fields, absolutely free from worldly engagements.",
+      "why": "Thoreau wrote that he could not keep his health and spirits without at least four hours a day sauntering through woods and fields, absolutely free from all worldly engagements.",
       "variations": [
         "Walk the same path all week and note what changes.",
         "Walk before dawn or after dark.",
@@ -315,7 +395,7 @@
     {
       "id": "read-aloud",
       "name": "Read aloud",
-      "icon": "book-open-text",
+      "icon": "megaphone",
       "slot": "Afternoon",
       "time": "16:00",
       "minutes": 20,
@@ -329,6 +409,70 @@
       ]
     },
     {
+      "id": "solitude-hour",
+      "name": "Solitude hour",
+      "icon": "tree",
+      "slot": "Afternoon",
+      "time": "17:00",
+      "minutes": 30,
+      "meta": "Afternoon · 30 min",
+      "instructions": "Spend half an hour alone, away from screens, with no task except your own company. Walk, sit, or write. Notice what you reach for when nothing is asked of you. At the end, write one line beginning Left to myself, I.",
+      "why": "Emerson and Thoreau both treated solitude as the condition for self-reliance: you cannot hear your own thought while borrowing everyone else’s.",
+      "variations": [
+        "Do it outdoors.",
+        "Take a pen and a notebook only.",
+        "Extend to an hour on weekends."
+      ]
+    },
+    {
+      "id": "needs-and-wants",
+      "name": "Needs and wants",
+      "icon": "list-checks",
+      "slot": "Afternoon",
+      "time": "14:00",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Make two lists: what you need and what you want. Be strict with the first. Ask of each want whether you would miss it in a month. Choose one want to let go of today, and one need you have been neglecting. Thoreau’s test was simple: simplify, simplify.",
+      "why": "The rule of this Onda is to buy nothing nonessential. Walden is the best argument for why the list of needs is short and the list of wants is endless.",
+      "variations": [
+        "Do it for one room.",
+        "Do it for your calendar.",
+        "Do it with a friend and compare."
+      ]
+    },
+    {
+      "id": "three-chairs",
+      "name": "Three chairs",
+      "icon": "chair",
+      "slot": "Afternoon",
+      "time": "15:00",
+      "minutes": 30,
+      "meta": "Afternoon · 30 min",
+      "instructions": "Thoreau had three chairs in his house: one for solitude, two for friendship, three for society. Invite one person for a real conversation, in person or on a call, with no agenda and no phone. Ask what they are thinking about, and listen. Make it the kind of talk that you will remember.",
+      "why": "Walden’s house had only three chairs, and he used them to describe the three scales of company. Two is the number for real talk.",
+      "variations": [
+        "Walk instead of sitting.",
+        "Invite someone you have not seen in a long time.",
+        "End by asking what you should read."
+      ]
+    },
+    {
+      "id": "trust-one-decision",
+      "name": "Trust one decision",
+      "icon": "check-fat",
+      "slot": "Afternoon",
+      "time": "16:30",
+      "minutes": 5,
+      "meta": "Afternoon · 5 min",
+      "instructions": "Choose one small decision today and make it entirely on your own judgment, without asking anyone or looking anything up. What to eat, which road, which task first. Then notice what trusting yourself feels like. Emerson said to trust thyself: every heart vibrates to that iron string.",
+      "why": "Self-Reliance is a book-length argument for taking your own thought seriously. A small, practical trial of it is better than a large claim.",
+      "variations": [
+        "Decide before you check what anyone else thinks.",
+        "Decide and tell no one why.",
+        "Decide something you usually put off."
+      ]
+    },
+    {
       "id": "nature-journal",
       "name": "Nature journal",
       "icon": "leaf",
@@ -337,7 +481,7 @@
       "minutes": 10,
       "meta": "Evening · 10 min",
       "instructions": "Record what you saw in the natural world today, with the date: which plants are in leaf or flower, which birds, what the sky did, the temperature, the first or last of anything. Be exact. Sketch if you like. Leave out your opinions.",
-      "why": "In his last decade Thoreau filled his journal with dated records of when each plant flowered and each bird arrived around Concord. Scientists now use them to measure how the climate has shifted.",
+      "why": "In his last decade Thoreau filled his journal with dated records of when each plant flowered and each bird arrived around Concord. Scientists now use them to study climate change.",
       "variations": [
         "Follow one tree or one patch of ground.",
         "Record first sightings of the season.",
@@ -345,142 +489,332 @@
       ]
     },
     {
-      "id": "solitude-hour",
-      "name": "Solitude hour",
-      "icon": "user",
-      "slot": "Afternoon",
-      "time": "17:00",
-      "minutes": 30,
-      "meta": "Afternoon · 30 min",
-      "instructions": "Spend half an hour alone, away from screens, with no task except your own company. Walk, sit, or write. Notice what you reach for when nothing is asked of you. At the end, write one line beginning \"Left to myself, I…\"",
-      "why": "Emerson and Thoreau both treated solitude as the condition for self-reliance: you cannot hear your own thought while borrowing everyone else’s.",
-      "variations": [
-        "Do it outdoors.",
-        "Take a pen and a notebook only.",
-        "Extend to an hour on weekends."
-      ]
-    }
-  ],
-  "tasks": [
-    {
-      "id": "observe-one-place-all-week",
-      "name": "Observe one place all week",
-      "meta": "Same spot, new details",
-      "time": "13:00",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "buy-nothing-today",
-      "name": "Buy nothing today",
-      "meta": "And notice the urge",
-      "time": "18:00",
-      "slot": "Evening"
-    },
-    {
-      "id": "keep-an-account",
-      "name": "Keep an account",
-      "meta": "Write down everything you spend",
-      "time": "20:00",
-      "slot": "Evening"
-    },
-    {
-      "id": "task-read-self-reliance-and-underline-the-line-you-would-argue-with",
-      "name": "Read Self-Reliance and underline the line you would argue with",
-      "meta": "Read · Emerson",
-      "time": "12:30",
-      "slot": "Afternoon",
-      "action": "read"
-    },
-    {
-      "id": "task-listen-to-simple-gifts-then-notice-what-it-asks-for",
-      "name": "Listen to Simple Gifts, then notice what it asks for",
-      "meta": "Listen · a Shaker song",
-      "time": "16:30",
-      "slot": "Afternoon",
-      "action": "listen"
-    },
-    {
-      "id": "task-journal-what-did-you-notice-outdoors-that-you-had-walked-past-before",
-      "name": "Journal: what did you notice outdoors that you had walked past before?",
-      "meta": "Journal · 10 min",
-      "time": "21:15",
+      "id": "listen-to-a-lecture-together",
+      "name": "Listen to a lecture, together",
+      "icon": "chalkboard",
       "slot": "Evening",
+      "time": "19:00",
+      "minutes": 45,
+      "meta": "Evening · 45 min",
+      "instructions": "Listen to one long talk, a lecture, a sermon, a podcast, with someone else, and talk about it afterward. The lyceum was Concord’s internet: people gathered in a hall to hear one voice for an hour and then argue about it on the way home. Choose a talk worth the time and give it your attention.",
+      "why": "Emerson earned his living on the lecture circuit, and Walden was first given as a lyceum talk. The habit of listening in company and arguing afterwards is one the Transcendentalists would recognise.",
+      "variations": [
+        "Go to a live talk.",
+        "Listen to a talk and write a three-line summary.",
+        "Invite someone to listen with you."
+      ]
+    },
+    {
+      "id": "whitman-at-dusk",
+      "name": "Whitman at dusk",
+      "icon": "sun-dim",
+      "slot": "Evening",
+      "time": "20:00",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Take your copy of Leaves of Grass out onto the step, the balcony or the park bench at dusk, and read part of Song of Myself aloud. Let the long lines carry you. Whitman was the poet Emerson had called for. Read until the light goes.",
+      "why": "Emerson wrote Whitman a famous letter greeting him at the beginning of a great career. Song of Myself is the American voice of this Onda: bold, plain and loving.",
+      "variations": [
+        "Read it to someone.",
+        "Read three lines and write three of your own.",
+        "Memorise one line."
+      ]
+    },
+    {
+      "id": "what-are-you-going-along-with",
+      "name": "What are you going along with?",
+      "icon": "prohibit",
+      "slot": "Evening",
+      "time": "21:00",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Ask yourself: where am I going along with something I believe is wrong? A habit, a joke, an unfairness at work. Write it down, and write one honest thing you could do about it. Thoreau went to jail rather than pay a tax that supported slavery. You do not have to go that far. Start by naming it.",
+      "why": "The last rule of this Onda is to refuse to cooperate with what you believe is wrong. Civil Disobedience is the short, hard book behind it.",
+      "variations": [
+        "Pick the smallest thing and change it.",
+        "Talk with a friend about it.",
+        "Write a letter and do not send it."
+      ],
       "action": "journal"
     },
     {
-      "id": "task-write-on-nature-as-teacher-one-thing-it-taught-you-today",
-      "name": "Write on “Nature as teacher”: one thing it taught you today",
-      "meta": "Philosophy · 10 min",
-      "time": "19:30",
+      "id": "read-by-one-lamp",
+      "name": "Read by one lamp",
+      "icon": "lamp",
       "slot": "Evening",
-      "action": "philosophy"
+      "time": "21:15",
+      "minutes": 20,
+      "meta": "Evening · 20 min",
+      "instructions": "Turn off the other lights and read from a book on paper by a single lamp or candle for twenty minutes. Choose Walden, Emerson or something that has lasted. Notice how the small circle of light makes the words more important. Thoreau kept Homer on his table at the pond.",
+      "why": "Thoreau read Homer at Walden, in the original Greek if possible. Reading old books by a small light is how many of these writers lived.",
+      "variations": [
+        "Read aloud to someone beside you.",
+        "Read outdoors until the light fails.",
+        "Read one page and think about it for the rest of the time."
+      ]
     },
     {
-      "id": "task-look-at-the-oxbow-for-five-full-minutes-and-find-the-painter",
-      "name": "Look at The Oxbow for five full minutes and find the painter",
-      "meta": "Art · Thomas Cole",
-      "time": "15:30",
-      "slot": "Afternoon",
-      "action": "art"
+      "id": "a-simple-supper",
+      "name": "A simple supper",
+      "icon": "bowl-food",
+      "slot": "Evening",
+      "time": "18:30",
+      "minutes": 30,
+      "meta": "Evening · 30 min",
+      "instructions": "Cook a plain meal from a few things: beans, rice, vegetables, bread. Thoreau lived at the pond on about twenty-seven cents a week. Eat it slowly at a table, with no screen, and ask what you enjoyed. See how little you need to be well fed.",
+      "why": "The section on his diet in Walden is both funny and serious. His point is that a good life does not depend on extras, and that you taste the world better with fewer of them.",
+      "variations": [
+        "Eat with someone and ask what they enjoy about plain food.",
+        "Cook everything in one pot.",
+        "Add one thing you grew or picked."
+      ]
     },
     {
-      "id": "treat-press-one-leaf-or-flower-in-a-heavy-book",
-      "name": "Press one leaf or flower in a heavy book",
-      "meta": "Find it again next month",
-      "time": "15:30",
-      "slot": "Afternoon"
+      "id": "a-long-saunter",
+      "name": "A long saunter",
+      "icon": "path",
+      "slot": "Special",
+      "time": "10:00",
+      "minutes": 120,
+      "meta": "On a free day · 120 min",
+      "instructions": "Take a free morning or afternoon and walk for two hours, as far into the least built places as you can get. Thoreau wanted four, and you may do what your day allows. Take water and a notebook. Stop when you want to stop. Write down one thing you noticed. Come home wearied and clear.",
+      "why": "Walking, the lecture he gave for years, is Thoreau’s manifesto for a life of sauntering: the walk as a way of knowing the land and yourself.",
+      "variations": [
+        "Walk with a friend and talk of nothing practical.",
+        "Walk until you find water.",
+        "Walk without checking the time."
+      ]
     },
     {
-      "id": "treat-eat-lunch-outdoors-whatever-the-weather-allows",
-      "name": "Eat lunch outdoors, whatever the weather allows",
-      "meta": "A doorstep will do",
-      "time": "15:30",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "treat-walk-to-a-pond-a-river-or-a-puddle-and-look-in",
-      "name": "Walk to a pond, a river or a puddle and look in",
-      "meta": "Thoreau would",
-      "time": "15:30",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "treat-write-one-sentence-you-actually-believe-and-sign-it",
-      "name": "Write one sentence you actually believe and sign it",
-      "meta": "In ink",
-      "time": "19:30",
-      "slot": "Evening"
-    },
-    {
-      "id": "daily-walk-outside-for-ten-minutes-before-breakfast",
-      "name": "Walk outside for ten minutes before breakfast",
-      "meta": "Thoreau walked each morning",
-      "time": "07:15",
-      "slot": "Morning"
-    },
-    {
-      "id": "daily-write-three-lines-in-a-notebook-about-something-you-saw",
-      "name": "Write three lines in a notebook about something you saw",
-      "meta": "The commonplace book",
-      "time": "07:15",
-      "slot": "Morning"
-    },
-    {
-      "id": "daily-listen-to-birdsong-for-five-minutes",
-      "name": "Listen to birdsong for five minutes",
-      "meta": "The dawn chorus",
-      "time": "07:15",
-      "slot": "Morning"
-    },
-    {
-      "id": "daily-read-one-page-of-emerson-or-thoreau",
-      "name": "Read one page of Emerson or Thoreau",
-      "meta": "Slowly",
-      "time": "07:15",
-      "slot": "Morning"
+      "id": "a-pond-at-first-light",
+      "name": "A pond at first light",
+      "icon": "waves",
+      "slot": "Special",
+      "time": "05:45",
+      "minutes": 60,
+      "meta": "At first light · 60 min",
+      "instructions": "Go to a pond, a lake, a river or the sea at first light. Stand at the edge. Watch the mist, the first birds, the colour of the water. If you can swim safely, do. Thoreau bathed in Walden each morning, and called it a religious exercise. Stay until the day has properly arrived.",
+      "why": "Thoreau said that he bathed in the pond every morning as a religious exercise, one of the best things he did. The morning at water is the heart of the Walden experience.",
+      "variations": [
+        "Take a flask and a book.",
+        "Go with a friend and say nothing.",
+        "Do it in the rain."
+      ]
     }
   ],
-  "immersePlan": [],
+  "tasks": [],
+  "immersePlan": [
+    {
+      "kind": "read",
+      "item": "read-walden",
+      "name": "Read a chapter of Walden",
+      "text": "Read one chapter of Walden. Start with Where I Lived, and What I Lived For, or the chapter Sounds. Mark one line you want to keep.",
+      "minutes": 20
+    },
+    {
+      "kind": "read",
+      "item": "read-self-reliance",
+      "name": "Read Emerson’s Self-Reliance standing up",
+      "text": "Read the essay on your feet, as it deserves. Choose one sentence and say whether you believe it. Pick the one that most irritates you and think about why.",
+      "minutes": 25
+    },
+    {
+      "kind": "read",
+      "item": "read-walking",
+      "name": "Read Thoreau on walking",
+      "text": "Read the lecture he gave for years, published a month after he died. Notice how he treats a walk as a form of religion, and how much of it is jokes.",
+      "minutes": 25
+    },
+    {
+      "kind": "watch",
+      "item": "watch-henry-david-thoreau-surveyor-of-the-soul",
+      "name": "Watch a film about Thoreau’s life",
+      "text": "Watch a feature documentary on his life and afterlife. Notice which of his habits you would keep and which you would not.",
+      "minutes": 90
+    },
+    {
+      "kind": "watch",
+      "item": "watch-little-women",
+      "name": "Watch Little Women",
+      "text": "Watch Greta Gerwig’s film of the Alcotts’ Concord. Louisa grew up down the road from Emerson. Notice who is writing and who is working, and how the family does both.",
+      "minutes": 135
+    },
+    {
+      "kind": "watch",
+      "item": "watch-dead-poets-society",
+      "name": "Watch Dead Poets Society",
+      "text": "Watch the film of Thoreau and Whitman in a boarding school. Carpe diem and suck the marrow out of life come from them. Ask what it takes to act on that.",
+      "minutes": 130
+    },
+    {
+      "kind": "listen",
+      "item": "listen-piano-sonata-no-2-concord-mass-1840-60",
+      "name": "Listen to Ives’s Concord Sonata",
+      "text": "Play Charles Ives’s sonata of four movements: Emerson, Hawthorne, The Alcotts, Thoreau. Listen to the last, a quiet piece, the longest, with eyes closed.",
+      "minutes": 40
+    },
+    {
+      "kind": "listen",
+      "item": "listen-simple-gifts",
+      "name": "Hum Simple Gifts",
+      "text": "Play the Shaker dance song from the same New England years: tis the gift to be simple. Listen once, then hum it as you do something plain.",
+      "minutes": 5
+    },
+    {
+      "kind": "listen",
+      "item": "listen-the-dawn-chorus",
+      "name": "Listen to the dawn chorus",
+      "text": "Wake early and open a window to the dawn chorus. Count how many different birds you can tell apart. Thoreau wrote that morning is when he was awake.",
+      "minutes": 15
+    },
+    {
+      "kind": "art",
+      "item": "art-the-oxbow",
+      "name": "Look at The Oxbow",
+      "text": "Look at Thomas Cole’s painting of the Connecticut River valley, with wilderness on one side and farmland on the other. Find the tiny painter among the trees.",
+      "minutes": 10
+    },
+    {
+      "kind": "art",
+      "item": "art-kindred-spirits",
+      "name": "Look at Kindred Spirits",
+      "text": "Look at Asher B. Durand’s painting of a painter and a poet on a ledge in the Catskills. Notice how small the two friends are, and how well they fit in the view.",
+      "minutes": 10
+    },
+    {
+      "kind": "art",
+      "item": "art-walden-pond",
+      "name": "Look at Walden Pond",
+      "text": "Look at photographs of Walden Pond, the cabin site marked by stones and the replica house. Imagine the walk round it. Ask what you would miss if you lived there.",
+      "minutes": 10
+    },
+    {
+      "kind": "eat",
+      "item": "eat-bread-and-beans",
+      "name": "Eat bread and beans",
+      "text": "Bake or buy a loaf and serve it with beans. Thoreau hoed seven miles of bean rows and baked his bread on a shingle. Eat slowly and say what is good about it.",
+      "minutes": 40
+    },
+    {
+      "kind": "eat",
+      "item": "eat-berries",
+      "name": "Pick and eat berries",
+      "text": "If berries are in season, pick some yourself and eat them there, or buy from a stall. Thoreau thought a huckleberry never reaches Boston: its essence is lost in transit. Taste one fresh.",
+      "minutes": 20
+    },
+    {
+      "kind": "eat",
+      "item": "eat-apples",
+      "name": "Eat an apple outdoors",
+      "text": "Eat a sour, old variety of apple outdoors if you can. Thoreau’s late essay Wild Apples praises the sour, uncultivated ones. Look at the apple first, then eat it core and all.",
+      "minutes": 10
+    },
+    {
+      "kind": "drink",
+      "item": "drink-water",
+      "name": "Drink water from the spring or the tap",
+      "text": "Drink a glass of water slowly. Thoreau believed that water is the only drink for a wise man. Taste it properly, and think of where it came from.",
+      "minutes": 5
+    },
+    {
+      "kind": "drink",
+      "item": "drink-herbal-tea",
+      "name": "Brew tea from what grows near you",
+      "text": "Brew a tea of mint, lemon balm, pine needles or anything you can pick safely. Sit outside to drink it. Notice what it tastes of in place of tea.",
+      "minutes": 15
+    },
+    {
+      "kind": "drink",
+      "item": "drink-sweet-cider",
+      "name": "Drink fresh cider",
+      "text": "Drink fresh-pressed apple cider, the drink of a New England autumn. If it is out of season, warm some apple juice with a cinnamon stick.",
+      "minutes": 10
+    },
+    {
+      "kind": "customs",
+      "item": "customs-keep-a-journal",
+      "name": "Write a journal entry",
+      "text": "Write an entry in a journal, daily, as Emerson and Thoreau did for their adult lives. A few lines will do: where you walked, what you saw, what you thought.",
+      "minutes": 10
+    },
+    {
+      "kind": "customs",
+      "item": "customs-three-chairs",
+      "name": "Make room for three chairs",
+      "text": "Look at the chairs in your home and give each one a purpose: one for solitude, two for friendship, three for society. Sit in the first for ten minutes.",
+      "minutes": 15
+    },
+    {
+      "kind": "customs",
+      "item": "customs-keep-an-account",
+      "name": "Keep an account for a day",
+      "text": "Write down everything you spend today, and what you got for it. Walden lists the cost of the house to the half cent: twenty-eight dollars and twelve and a half cents. Read your list at night.",
+      "minutes": 10
+    },
+    {
+      "kind": "games",
+      "item": "games-walden-a-game",
+      "name": "Play Walden, a game",
+      "text": "If you have the game, play a session of Thoreau’s first year at the pond: build the cabin, grow beans, keep in touch with nature. If not, read a short description and imagine the year.",
+      "minutes": 30
+    },
+    {
+      "kind": "games",
+      "item": "games-a-short-hike",
+      "name": "Play A Short Hike",
+      "text": "Play a short stretch of the small mountain game where nothing hurries you. Notice what you do when no one is asking you to do anything. Stop when you feel like it.",
+      "minutes": 30
+    },
+    {
+      "kind": "games",
+      "item": "games-wingspan",
+      "name": "Play Wingspan",
+      "text": "Play a game of the bird-habitat board game, with a hundred and seventy North American birds each drawn from life. Read each card as you play it, and learn one bird.",
+      "minutes": 45
+    },
+    {
+      "kind": "travel",
+      "item": "fest-thoreau-society-annual-gathering",
+      "name": "Look up the Thoreau Society gathering",
+      "text": "Look up the gathering that readers and scholars hold in Concord each year around Thoreau’s birthday, in July. Read about a talk or a walk they have held, and think of what you would say.",
+      "minutes": 15
+    },
+    {
+      "kind": "travel",
+      "item": "fest-emerson-s-birthday",
+      "name": "Read Emerson outdoors on his birthday",
+      "text": "Emerson was born in Boston on 25 May 1803. Read a page of Nature or Self-Reliance outdoors, on any day you like, and say what you will do with a sentence from it.",
+      "minutes": 15
+    },
+    {
+      "kind": "travel",
+      "item": "place-walden-pond",
+      "name": "Plan a walk round Walden Pond",
+      "text": "Look at a map of the path round the pond, to the cabin site marked by stone posts and a cairn. If you cannot go, plan a walk round any pond or lake near you.",
+      "minutes": 15
+    },
+    {
+      "kind": "words",
+      "item": "word-self-reliance",
+      "name": "Practise self-reliance for an hour",
+      "text": "For one hour today, do your own thinking and your own tasks without checking with anyone or looking anything up. Notice how it feels to rely on yourself, and note where it is hard.",
+      "minutes": 15
+    },
+    {
+      "kind": "words",
+      "item": "word-sauntering",
+      "name": "Saunter for ten minutes",
+      "text": "Sauntering, said Thoreau, may come from sans terre, without land, or from la Sainte Terre, the Holy Land. Walk for ten minutes as if each step were a pilgrimage. Stop whenever something asks you to.",
+      "minutes": 10
+    },
+    {
+      "kind": "words",
+      "item": "word-simplicity",
+      "name": "Simplify one thing",
+      "text": "Choose one thing in your life, a drawer, a plan, a routine, and take one thing out. Do not replace it. Notice what the simplification lets in.",
+      "minutes": 10
+    }
+  ],
   "rules": [
     {
       "id": "r1",

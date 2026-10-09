@@ -304,17 +304,97 @@
     {
       "id": "dhikr",
       "name": "Dhikr",
-      "icon": "circles-three",
+      "icon": "heart",
       "slot": "Morning",
       "time": "06:00",
       "minutes": 15,
       "meta": "Morning · 15 min",
-      "instructions": "Sit quietly, upright, with your attention at the heart. Let the breath settle. Then repeat one short phrase of remembrance in time with the breath, silently or just audibly, for fifteen minutes, returning to it whenever the mind wanders. If you are Muslim, use the formulas of your tradition, such as Lā ilāha illā Allāh. If you are not, choose a name or quality of the sacred that you can say sincerely, such as \"the Compassionate\", or simply attend to the breath as a gift given and returned. Do not imitate the group ritual of a Sufi order.",
-      "why": "The Qur’an says that hearts find rest in the remembrance of God. For Sufis, dhikr polishes the heart as one polishes a mirror, until it reflects what is real.",
+      "instructions": "Sit quietly, upright, with your attention at the heart. Let the breath settle. Then repeat one short phrase of remembrance in time with the breath, silently or just audibly, for fifteen minutes, returning to it whenever the mind wanders. If you are Muslim, use the formulas of your tradition, such as Lā ilāha illā Allāh. If you are not, use a word of your own that points beyond yourself: peace, thank you, light.",
+      "why": "The Qur’an says that hearts find rest in the remembrance of God. For Sufis, dhikr polishes the heart as one polishes a mirror, until it reflects what is there.",
       "variations": [
         "Count ninety-nine repetitions on beads.",
         "Carry the phrase silently through one routine task.",
         "Attend a public dhikr as a guest, if a local community welcomes visitors."
+      ]
+    },
+    {
+      "id": "a-line-of-love",
+      "name": "A line of love",
+      "icon": "feather",
+      "slot": "Morning",
+      "time": "07:00",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Write one line of love to whoever or whatever you love most today: a person, a place, God, the morning. Do not make it clever. Rumi’s followers wrote to the Beloved, and the Beloved is whoever you give your heart to. Read it aloud once, and carry it with you as you go out.",
+      "why": "ʿIshq, passionate love, is the engine of Sufi poetry. Hafez, Rumi and Yunus Emre all write about love as the way to the divine. One line is a good place to begin.",
+      "variations": [
+        "Write it on a card and leave it for someone.",
+        "Write it in your own language and then in another.",
+        "Say it aloud to the sky."
+      ]
+    },
+    {
+      "id": "open-with-a-phrase",
+      "name": "Open with a phrase",
+      "icon": "sun",
+      "slot": "Morning",
+      "time": "06:45",
+      "minutes": 3,
+      "meta": "Morning · 3 min",
+      "instructions": "Before you speak to anyone, say a short phrase of thanks or remembrance. If you are Muslim, it may be Bismillah, in the name of God. If not, choose peace, thank you, or one line of a poem you love. Say it slowly and mean it. The first words of the day set the tone, and they can be the best you know.",
+      "why": "The first rule of this Onda is to begin with remembrance and end with gratitude. A phrase on waking is the easiest way to keep it.",
+      "variations": [
+        "Say it before you touch your phone.",
+        "Say it with a hand on your heart.",
+        "Learn one phrase in a language you do not speak."
+      ]
+    },
+    {
+      "id": "three-dates-and-water",
+      "name": "Three dates and water",
+      "icon": "cookie",
+      "slot": "Morning",
+      "time": "07:30",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Eat three dates, slowly, with a glass of water. Taste the sweetness and think of all the travellers, in all the deserts, who have eaten this food. If you cannot find dates, use any simple sweet fruit. Eating plainly and with thanks is an old Sufi habit, and a pleasant one.",
+      "why": "Dates and water are the classic way to break a fast in the Muslim world. They carry a long history of travel, hospitality and gratitude.",
+      "variations": [
+        "Share them with someone.",
+        "Eat them outside, in the morning light.",
+        "Say thank you aloud after the last one."
+      ]
+    },
+    {
+      "id": "breathe-like-a-reed",
+      "name": "Breathe like a reed",
+      "icon": "wind",
+      "slot": "Morning",
+      "time": "06:30",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Sit and breathe slowly in through the nose, and out through softly shaped lips as if playing a flute. Imagine you are a reed, hollow, and that each out-breath is a note. Do ten breaths. Listen for the empty place inside you that the breath moves through. Rumi’s Masnavi begins with a reed that cries because it was cut from its reed bed.",
+      "why": "The ney, the reed flute, is the instrument of the Mevlevi order and the symbol of the soul longing for its source. Breathing like a reed is a gentle way to feel that longing.",
+      "variations": [
+        "Listen to a ney recording first.",
+        "Do it by an open window.",
+        "Hum one low note on the out-breath."
+      ]
+    },
+    {
+      "id": "adab-in-the-first-hour",
+      "name": "Adab in the first hour",
+      "icon": "handshake",
+      "slot": "Morning",
+      "time": "08:00",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "For the first hour after you are up, treat every person and every task with adab, courtesy. Greet people warmly, say please and thank you, tidy as you go, and speak softly. Do not rush. Adab is not stiffness. It is attention to the other, made visible in small manners.",
+      "why": "Adab, right conduct, is at the centre of Sufi training. Teachers say the first thing a student learns is manners, because they are the shape that love takes in everyday life.",
+      "variations": [
+        "Do it for the whole morning.",
+        "Say good morning properly to everyone.",
+        "Hold a door for each person."
       ]
     },
     {
@@ -334,9 +414,89 @@
       ]
     },
     {
+      "id": "hospitality",
+      "name": "Hospitality",
+      "icon": "coffee",
+      "slot": "Afternoon",
+      "time": "16:30",
+      "minutes": 15,
+      "meta": "Afternoon · 15 min",
+      "instructions": "Offer something to drink or eat to someone, a guest, a neighbour, a colleague. Serve them before yourself. Pay attention to the small things: the cup, the pouring, the moment you hand it over. Ask for nothing. If no one is near, make tea for an empty chair and leave it for the next person who comes.",
+      "why": "Generosity toward guests is a central part of Sufi manners (adab). Many stories treat a guest as a carrier of something larger than themselves.",
+      "variations": [
+        "Do it quietly, without telling anyone why.",
+        "Bring something to a neighbour.",
+        "Give your seat or your time."
+      ]
+    },
+    {
+      "id": "see-your-own-fault-first",
+      "name": "See your own fault first",
+      "icon": "eye",
+      "slot": "Afternoon",
+      "time": "15:00",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Think of someone who has irritated you today. Before you judge them, ask: where is this in me? Write one fault of your own that matches it, and one thing you will do to mend it. Let the other person off the hook, at least in your heart. Sufi teachers say, look at your own fault before another’s.",
+      "why": "The rule of this Onda is to see the fault in yourself first. Rumi tells many stories in which the one who points at others is shown their own face.",
+      "variations": [
+        "Do it before sending a hard message.",
+        "Do it for a public figure you dislike.",
+        "Do it kindly: a smile, not a scold."
+      ]
+    },
+    {
+      "id": "an-hour-without-gossip",
+      "name": "An hour without gossip",
+      "icon": "chat-circle-text",
+      "slot": "Afternoon",
+      "time": "13:00",
+      "minutes": 60,
+      "meta": "Afternoon · 60 min",
+      "instructions": "For one hour, say nothing about anyone who is not present, unless it is good. When the urge comes, notice it and let it pass, or turn it into a compliment. See how often talk slides toward gossip, and how much lighter you feel without it. No gossip is a Sufi rule, and a respite.",
+      "why": "Backbiting is among the things a Sufi guide asks students to leave behind. Silence about others is a protection for both sides, and it is surprisingly restful.",
+      "variations": [
+        "Keep it for a whole day.",
+        "Turn each urge into a thank you.",
+        "Tell a friend you are trying it."
+      ]
+    },
+    {
+      "id": "one-hidden-service",
+      "name": "One hidden service",
+      "icon": "broom",
+      "slot": "Afternoon",
+      "time": "15:30",
+      "minutes": 15,
+      "meta": "Afternoon · 15 min",
+      "instructions": "Do one small service in a shared space and tell nobody: wash the cups, wipe the table, sweep the step, refill the paper. Khidma, service, is the oldest Sufi training. Do it with the same care you would give a guest, and let it go unnoticed.",
+      "why": "In Sufi lodges the newcomer began in the kitchen and at the door, doing humble work. Service cuts the ego down to size and makes the heart soft.",
+      "variations": [
+        "Do it at work.",
+        "Do it in your own home, for someone else.",
+        "Do it in a public place, like picking up litter."
+      ]
+    },
+    {
+      "id": "find-your-own-simorgh",
+      "name": "Find your own Simorgh",
+      "icon": "bird",
+      "slot": "Afternoon",
+      "time": "17:00",
+      "minutes": 15,
+      "meta": "Afternoon · 15 min",
+      "instructions": "Sit somewhere quiet outdoors and watch the birds for fifteen minutes. In ʿAṭṭār’s Conference of the Birds, thirty birds cross seven valleys to find their king, the Simorgh, and discover that si morgh means thirty birds. They find themselves. Watch, and ask what you have been looking for outside that may be near.",
+      "why": "ʿAṭṭār’s twelfth-century poem is one of the great Sufi allegories. The birds’ journey stands for the soul’s, and the ending is a mirror.",
+      "variations": [
+        "Read a page of the poem first.",
+        "Watch a single bird for five minutes.",
+        "Draw one bird and write what it seems to say."
+      ]
+    },
+    {
       "id": "listen-to-sama",
       "name": "Listen to sama",
-      "icon": "music-notes",
+      "icon": "headphones",
       "slot": "Evening",
       "time": "19:30",
       "minutes": 20,
@@ -352,13 +512,13 @@
     {
       "id": "night-stillness",
       "name": "Night stillness",
-      "icon": "moon-stars",
+      "icon": "moon",
       "slot": "Evening",
       "time": "22:00",
       "minutes": 15,
-      "meta": "Night · 15 min",
+      "meta": "Evening · 15 min",
       "instructions": "When the house is quiet and the lights are low, sit or stand in stillness for fifteen minutes. Look back over the day: where you were heedless, where you were grateful, whom you served, whom you wronged. Ask forgiveness where it is needed, give thanks, and then simply be present until the time is up.",
-      "why": "The last third of the night is the Sufis’ chosen hour. Rābiʿa is said to have prayed on her roof: the stars are shining, kings have shut their doors, every lover is alone with their beloved, and here am I, alone with You.",
+      "why": "The last third of the night is the Sufis’ chosen hour. Rābiʿa is said to have prayed on her roof: the stars are shining, kings have shut their doors, every lover is alone with the beloved.",
       "variations": [
         "Step outside and look at the sky.",
         "Keep the first hour after waking silent instead.",
@@ -366,142 +526,316 @@
       ]
     },
     {
-      "id": "hospitality",
-      "name": "Hospitality",
-      "icon": "coffee",
-      "slot": "Afternoon",
-      "time": "16:30",
-      "minutes": 15,
-      "meta": "Afternoon · 15 min",
-      "instructions": "Offer something to drink or eat to someone, a guest, a neighbour, a colleague. Serve them before yourself. Pay attention to the small things: the cup, the pouring, the moment you hand it over. Ask for nothing. If no one is near, make tea for an empty chair and leave it for the next person who comes.",
-      "why": "Generosity toward guests is a central part of Sufi manners (adab). Many stories treat a guest as a carrier of something larger than themselves.",
+      "id": "hum-a-melody",
+      "name": "Hum a melody",
+      "icon": "music-note",
+      "slot": "Evening",
+      "time": "20:00",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Hum a slow tune with no words, one that you love, for ten minutes, as you cook, tidy or sit. Let it be a wordless prayer. Hum low, so you feel it in the chest. Notice that humming sets the breath in order and the mind quiet. If a verse arrives, let it come.",
+      "why": "Sufi traditions use voice and melody to settle the heart. Even without words, humming does what samāʿ does: it makes the listener of the singer.",
       "variations": [
-        "Do it quietly, without telling anyone why.",
-        "Bring something to a neighbour.",
-        "Give your seat or your time."
+        "Hum along to a recording.",
+        "Hum a lullaby for someone.",
+        "Hum while walking."
       ]
-    }
-  ],
-  "tasks": [
-    {
-      "id": "memorize-four-lines-of-a-poem",
-      "name": "Memorize four lines of a poem",
-      "meta": "Rumi, Hafez or Attar",
-      "time": "13:00",
-      "slot": "Afternoon"
     },
     {
-      "id": "serve-a-guest",
-      "name": "Serve a guest",
-      "meta": "Offer food or tea",
-      "time": "18:00",
-      "slot": "Evening"
-    },
-    {
-      "id": "give-something-in-secret",
-      "name": "Give something in secret",
-      "meta": "So the left hand does not know",
-      "time": "17:00",
-      "slot": "Evening"
-    },
-    {
-      "id": "task-read-a-story-from-the-masnavi-book-one",
-      "name": "Read a story from the Masnavi, Book One",
-      "meta": "Read · Rumi’s long poem of stories",
-      "time": "12:30",
-      "slot": "Afternoon",
-      "action": "read"
-    },
-    {
-      "id": "task-listen-to-mevlevi-ceremonial-music-with-no-task-but-listening",
-      "name": "Listen to Mevlevi ceremonial music, with no task but listening",
-      "meta": "Listen · the whirling tradition",
-      "time": "19:00",
+      "id": "close-with-gratitude",
+      "name": "Close with gratitude",
+      "icon": "hands-praying",
       "slot": "Evening",
-      "action": "listen"
-    },
-    {
-      "id": "task-journal-what-did-you-long-for-today",
-      "name": "Journal: what did you long for today?",
-      "meta": "Journal · 10 min",
-      "time": "21:15",
-      "slot": "Evening",
+      "time": "21:30",
+      "minutes": 8,
+      "meta": "Evening · 8 min",
+      "instructions": "List five things you are grateful for today, in full sentences, and why. Include one thing you would not usually count: a stranger’s smile, a warm bed, a closed door. End with a short thank you to whoever or whatever you feel is behind it all. This is shukr, gratitude, the closing of the day in the Sufi manner.",
+      "why": "The first rule of this Onda is to begin with remembrance and end with gratitude. Shukr is the habit of noticing what has been given, and it is said to be the key to more.",
+      "variations": [
+        "Say them aloud to someone.",
+        "Write them on slips and keep them in a jar.",
+        "Write five for someone else, and give them."
+      ],
       "action": "journal"
     },
     {
-      "id": "task-write-on-unity-of-being-as-a-love-letter-not-an-argument",
-      "name": "Write on “Unity of being” as a love letter, not an argument",
-      "meta": "Philosophy · 10 min",
-      "time": "19:30",
+      "id": "stir-a-halva",
+      "name": "Stir a halva",
+      "icon": "cooking-pot",
       "slot": "Evening",
-      "action": "philosophy"
+      "time": "18:30",
+      "minutes": 40,
+      "meta": "Evening · 40 min",
+      "instructions": "Make semolina halva: toast semolina in butter, add warm sweetened milk or water, and stir until it comes together. Stir slowly and attentively, and think of someone you want to share it with. Then share it. In Turkey, halva is made and given in memory of the dead, and in celebration of the living.",
+      "why": "Irmik helvası is cooked slowly, and stirring is a kind of meditation. Giving it away is the final step, and turns a dessert into a gift.",
+      "variations": [
+        "Stir it for a neighbour.",
+        "Make it in memory of someone.",
+        "Cook it with a child."
+      ]
     },
     {
-      "id": "task-offer-tea-or-dates-to-someone-guest-first",
-      "name": "Offer tea or dates to someone, guest first",
-      "meta": "Customs · 10 min",
-      "time": "17:30",
-      "slot": "Afternoon",
-      "action": "customs"
+      "id": "tell-a-rumi-story",
+      "name": "Tell a Rumi story",
+      "icon": "chats",
+      "slot": "Evening",
+      "time": "20:30",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Read or recall one short story from Rumi’s Masnavi, and tell it to someone in your own words: the lion and the hare, the Chinese and the Greek painters, the man who lost his ring in the dark and looked for it in the light. End by asking what they think it is about. Stories are how a teaching is passed.",
+      "why": "The Masnavi is a long poem of tales within tales. Rumi told them aloud, and they are made to be told again. The stories work on you like a good friend’s advice.",
+      "variations": [
+        "Tell it to a child.",
+        "Tell it in two minutes.",
+        "Look up three versions and compare."
+      ]
     },
     {
-      "id": "treat-turn-slowly-on-the-spot-for-one-minute-arms-loose",
-      "name": "Turn slowly on the spot for one minute, arms loose",
-      "meta": "Stop before you are dizzy",
-      "time": "19:30",
-      "slot": "Evening"
+      "id": "a-night-of-tea-and-poems",
+      "name": "A night of tea and poems",
+      "icon": "lamp",
+      "slot": "Special",
+      "time": "20:00",
+      "minutes": 90,
+      "meta": "On a free evening · 90 min",
+      "instructions": "Invite two or three friends for a quiet evening: tea, something sweet, a candle, and a few poems read aloud in turns. Each person brings one poem that moved them. Read, listen, say nothing clever. At the end, sit for a minute in silence. People have met this way for centuries.",
+      "why": "Poetry gatherings with tea and quiet music are a long tradition across the Persian and Turkish worlds. They are an evening of company, listening and love of words.",
+      "variations": [
+        "Hold it online with distant friends.",
+        "Have each person read in a language of their own.",
+        "Make it a monthly custom."
+      ]
     },
     {
-      "id": "treat-smell-a-rose-or-any-flower-as-if-it-were-a-letter-to-you",
-      "name": "Smell a rose, or any flower, as if it were a letter to you",
-      "meta": "Close your eyes",
-      "time": "15:30",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "treat-eat-one-date-very-slowly",
-      "name": "Eat one date very slowly",
-      "meta": "Three bites",
-      "time": "08:30",
-      "slot": "Morning"
-    },
-    {
-      "id": "treat-write-the-name-of-someone-you-love-in-your-most-beautiful-ha",
-      "name": "Write the name of someone you love in your most beautiful hand",
-      "meta": "Keep it",
-      "time": "19:30",
-      "slot": "Evening"
-    },
-    {
-      "id": "daily-say-the-name-of-someone-you-love-with-care",
-      "name": "Say the name of someone you love, with care",
-      "meta": "Remembrance",
-      "time": "07:15",
-      "slot": "Morning"
-    },
-    {
-      "id": "daily-hum-a-wordless-tune-as-you-get-ready",
-      "name": "Hum a wordless tune as you get ready",
-      "meta": "The reed flute’s song",
-      "time": "07:15",
-      "slot": "Morning"
-    },
-    {
-      "id": "daily-offer-water-or-tea-to-the-first-person-you-meet",
-      "name": "Offer water or tea to the first person you meet",
-      "meta": "Hospitality",
-      "time": "07:15",
-      "slot": "Morning"
-    },
-    {
-      "id": "daily-read-one-short-poem-by-rumi-hafez-or-yunus-emre",
-      "name": "Read one short poem by Rumi, Hafez or Yunus Emre",
-      "meta": "Ten lines",
-      "time": "14:00",
-      "slot": "Afternoon"
+      "id": "in-the-last-third-of-the-night",
+      "name": "In the last third of the night",
+      "icon": "moon-stars",
+      "slot": "Special",
+      "time": "04:00",
+      "minutes": 20,
+      "meta": "Before dawn · 20 min",
+      "instructions": "Once in a while, if you sleep well and it suits you, wake in the last hours of the night and sit for twenty minutes in the dark, quietly, with a glass of water. The Sufis prized this hour as the time when the world is still. Then go back to sleep. If you cannot sleep again, read a poem and rest.",
+      "why": "The last third of the night is called the hour of closeness in Sufi tradition. Even a short wake in the quiet changes how the next day feels.",
+      "variations": [
+        "Do it with the window open.",
+        "Do it with a candle.",
+        "Do it once a month on a night you can lie in the next day."
+      ]
     }
   ],
-  "immersePlan": [],
+  "tasks": [],
+  "immersePlan": [
+    {
+      "kind": "read",
+      "item": "read-the-masnavi-book-one",
+      "name": "Read the opening of the Masnavi",
+      "text": "Read the opening of Book One, the song of the reed, and one of the stories that follow. Read aloud, slowly. Notice what the reed misses.",
+      "minutes": 15
+    },
+    {
+      "kind": "read",
+      "item": "read-the-conference-of-the-birds",
+      "name": "Read a page of the Conference of the Birds",
+      "text": "Open ʿAṭṭār’s poem about the birds that cross seven valleys to find their king. Read a few pages, and look for the moment the birds start to complain.",
+      "minutes": 15
+    },
+    {
+      "kind": "read",
+      "item": "read-the-drop-that-became-the-sea",
+      "name": "Read a song by Yunus Emre",
+      "text": "Read a few of Yunus Emre’s plain Turkish songs. They are short and warm. Pick one that says what you need today, and read it twice.",
+      "minutes": 10
+    },
+    {
+      "kind": "watch",
+      "item": "watch-sufi-soul-the-mystic-music-of-islam",
+      "name": "Watch Sufi Soul",
+      "text": "Watch William Dalrymple’s documentary on Sufi music from Syria and Turkey to Pakistan and Morocco. Notice how each place sings the same longing in its own voice.",
+      "minutes": 60
+    },
+    {
+      "kind": "watch",
+      "item": "watch-bab-aziz",
+      "name": "Watch Bab’Aziz",
+      "text": "Watch Nacer Khemir’s film of a blind dervish and his granddaughter crossing the desert to a gathering. It is slow and lovely. Notice how stories are told within it.",
+      "minutes": 95
+    },
+    {
+      "kind": "watch",
+      "item": "watch-the-mevlevi-sema-ceremony",
+      "name": "Watch a Mevlevi sema as a guest",
+      "text": "Watch a complete recording of the Mevlevi sema from Konya, not a clip. Four salutations, each with its own music. Watch with respect, as a guest, and do not try to imitate it.",
+      "minutes": 60
+    },
+    {
+      "kind": "listen",
+      "item": "listen-shahen-shah",
+      "name": "Listen to Nusrat’s Shahen-Shah",
+      "text": "Play Nusrat Fateh Ali Khan’s qawwali, devotional song of the Chishti shrines by its greatest modern voice. Let it build; qawwali takes time to rise.",
+      "minutes": 40
+    },
+    {
+      "kind": "listen",
+      "item": "listen-mevlevi-ceremonial-music",
+      "name": "Listen to Mevlevi music",
+      "text": "Play the ney-led music of the whirling ceremony, in a recording by the Kudsi Erguner Ensemble. Close your eyes and follow the reed.",
+      "minutes": 20
+    },
+    {
+      "kind": "listen",
+      "item": "listen-solo-ney",
+      "name": "Listen to a solo ney",
+      "text": "Play a taksim, a solo ney improvisation. One breath, one reed, the sound of the first line of the Masnavi. Listen to the whole piece without doing anything else.",
+      "minutes": 10
+    },
+    {
+      "kind": "art",
+      "item": "art-the-tomb-of-rumi",
+      "name": "Look at Rumi’s tomb",
+      "text": "Look at pictures of the tomb at Konya under its fluted turquoise dome. Visitors of every faith have come for centuries. Notice the dome, and the colour, and where your eye comes to rest.",
+      "minutes": 5
+    },
+    {
+      "kind": "art",
+      "item": "art-the-concourse-of-the-birds",
+      "name": "Look at The Concourse of the Birds",
+      "text": "Look at the Persian miniature of ʿAṭṭār’s poem in the Metropolitan Museum. Count the birds, and find the one that is looking at you.",
+      "minutes": 10
+    },
+    {
+      "kind": "art",
+      "item": "art-calligraphy-of-hu",
+      "name": "Look at calligraphy of Hū",
+      "text": "Look at a piece of calligraphy where the single word Hū, He, is shaped into an image. Notice how a letter turns into a picture. Try drawing a word you love as a shape.",
+      "minutes": 10
+    },
+    {
+      "kind": "eat",
+      "item": "eat-dates",
+      "name": "Eat a few dates slowly",
+      "text": "Eat a few dates with a glass of water, as the Prophet is said to have broken his fast. Taste the sweetness and thank the palm.",
+      "minutes": 10
+    },
+    {
+      "kind": "eat",
+      "item": "eat-lentil-soup",
+      "name": "Cook mercimek çorbası",
+      "text": "Cook red lentil soup with onion, carrot and a squeeze of lemon, as in Anatolian kitchens and lodges. Eat it with bread, and share a bowl with someone.",
+      "minutes": 40
+    },
+    {
+      "kind": "eat",
+      "item": "eat-semolina-halva",
+      "name": "Make semolina halva",
+      "text": "Toast semolina in butter, stir in warm sweetened milk, and cook until it holds together. Stir slowly, think of someone, and share it. In Turkey it is made in memory of the dead.",
+      "minutes": 40
+    },
+    {
+      "kind": "drink",
+      "item": "drink-turkish-coffee",
+      "name": "Make Turkish coffee",
+      "text": "Heat finely ground coffee, water and a little sugar in a small pot until it foams, three times. Pour gently, let the grounds settle, and drink slowly. Coffee drinking began among Sufis in Yemen.",
+      "minutes": 15
+    },
+    {
+      "kind": "drink",
+      "item": "drink-black-tea",
+      "name": "Serve çay in a small glass",
+      "text": "Brew strong black tea and serve it in a small glass to anyone who sits down. Offer it to a guest before any question is asked. Drink yours slowly.",
+      "minutes": 15
+    },
+    {
+      "kind": "drink",
+      "item": "drink-sharbat",
+      "name": "Stir a sharbat",
+      "text": "Stir a rose or sour cherry cordial into cold water for a sweet drink, served to guests at shrines. Share a glass with someone, and say what you are thankful for.",
+      "minutes": 10
+    },
+    {
+      "kind": "customs",
+      "item": "customs-offer-tea-to-every-guest",
+      "name": "Offer tea before any question",
+      "text": "Whoever arrives today, offer tea or water before asking why they have come. If no one comes, take a cup to a neighbour. Hospitality is a practice, not an extra.",
+      "minutes": 15
+    },
+    {
+      "kind": "customs",
+      "item": "customs-hand-on-the-heart",
+      "name": "Greet with a hand on the heart",
+      "text": "Greet someone today by placing your right hand over your heart with a slight bow. It is a greeting and a thanks. Notice how it softens the exchange.",
+      "minutes": 5
+    },
+    {
+      "kind": "customs",
+      "item": "customs-sit-in-a-circle",
+      "name": "Sit in a circle",
+      "text": "Gather two or more people and sit in a circle, equal and facing the centre, for a few minutes of quiet or poetry. Notice how the shape changes the mood.",
+      "minutes": 15
+    },
+    {
+      "kind": "games",
+      "item": "games-engare",
+      "name": "Play Engare",
+      "text": "Play a few levels of the quiet puzzle game from Iran about motion and geometry. Each solution is a small pattern. If you do not have it, draw a geometric pattern with a ruler and compass.",
+      "minutes": 20
+    },
+    {
+      "kind": "games",
+      "item": "games-nard",
+      "name": "Play backgammon",
+      "text": "Play nard, backgammon, called tavla in Turkey and takhteh in Iran. Persian writers used the game as a picture of fate and free will. Play a short game, and accept the dice.",
+      "minutes": 30
+    },
+    {
+      "kind": "games",
+      "item": "games-shatranj",
+      "name": "Play old chess",
+      "text": "Play shatranj, old chess, where a counsellor stands where the queen now stands. Rumi used the game in his stories. Play a short game, slowly, and think of what each piece is for.",
+      "minutes": 30
+    },
+    {
+      "kind": "travel",
+      "item": "fest-seb-i-arus",
+      "name": "Remember the Wedding Night",
+      "text": "Şeb-i Arus is the anniversary of Rumi’s death in December 1273, which he called his wedding night with the Beloved. Read a few of his lines about death and union, and light a candle for someone you have lost.",
+      "minutes": 15
+    },
+    {
+      "kind": "travel",
+      "item": "fest-fes-festival-of-world-sacred-music",
+      "name": "Listen to a sacred music festival",
+      "text": "Look up the Fes Festival of World Sacred Music, held since 1994 in the gardens and courtyards of the old city. Play a recording from it and imagine the courtyard.",
+      "minutes": 20
+    },
+    {
+      "kind": "travel",
+      "item": "place-mevlana-museum",
+      "name": "Look up the Mevlana Museum",
+      "text": "Look up Rumi’s tomb at Konya, in the former lodge of the Mevlevi. Read a short account of what visitors do there, and notice the calm of the photographs.",
+      "minutes": 10
+    },
+    {
+      "kind": "words",
+      "item": "word-adab",
+      "name": "Practise adab",
+      "text": "Adab is courtesy and right conduct. Choose one place today, a shop, an office, a bus, where you will add a little more grace to every exchange than is needed. Notice what it does.",
+      "minutes": 10
+    },
+    {
+      "kind": "words",
+      "item": "word-dhikr",
+      "name": "Say a word of remembrance",
+      "text": "Dhikr is remembrance. Choose one short word or phrase and repeat it quietly whenever you wait today: at a light, in a queue, while the kettle boils. Notice how the waiting changes.",
+      "minutes": 10
+    },
+    {
+      "kind": "words",
+      "item": "word-shukr",
+      "name": "Say shukr three times",
+      "text": "Shukr is gratitude. Say thank you, in thought or aloud, three times today for something you usually take for granted: water, a roof, a friend. Say it as if it were new.",
+      "minutes": 5
+    }
+  ],
   "rules": [
     {
       "id": "r1",

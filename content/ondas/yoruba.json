@@ -344,8 +344,8 @@
       "time": "07:30",
       "minutes": 10,
       "meta": "Morning · 10 min",
-      "instructions": "In the first hour of your day greet at least three people properly, in person or by voice. Look at them. Use their title or name. Ask how they are and how their home and family are, and wait for the answer before moving on. If you speak Yoruba, use \"Ẹ káàárọ̀\" and \"Báwo ni ilé?\". If not, translate the care into your own words: this is a greeting that listens. Greet strangers you pass too.",
-      "why": "In Yoruba culture a greeting is a real act, not a formality. To pass someone without greeting is rudeness, and to greet well is a mark of being ọmọlúàbí, a person of character.",
+      "instructions": "In the first hour of your day greet at least three people properly, in person or by voice. Look at them. Use their title or name. Ask how they are and how their home and family are, and wait for the answer before moving on. If you speak Yoruba, use Ẹ káàárọ̀ and Báwo ni ilé? If not, translate the care into your own words.",
+      "why": "In Yoruba culture a greeting is a real act, not a formality. To pass someone without greeting is rudeness, and to greet well is a mark of being ọmọlúàbí, a person of good character.",
       "variations": [
         "Learn the greeting for morning, afternoon and evening.",
         "Greet the person who cleans or serves you.",
@@ -355,12 +355,12 @@
     {
       "id": "iba",
       "name": "Ìbà: remember those who came before",
-      "icon": "tree",
+      "icon": "hands-praying",
       "slot": "Morning",
       "time": "06:30",
       "minutes": 5,
       "meta": "Morning · 5 min",
-      "instructions": "Stand or sit quietly outside or by a window. Say the names of three people to whom you owe something: an elder, a teacher, someone who has died. Say a short thank you for each. Then pour a small cup of cool water onto soil or a plant as a gesture of respect. Do not imitate any shrine rite or invoke an òrìṣà. This is a simple act of acknowledgement.",
+      "instructions": "Stand or sit quietly outside or by a window. Say the names of three people to whom you owe something: an elder, a teacher, someone who has died. Say a short thank you for each. Then pour a small cup of cool water onto soil or a plant as a gesture of respect. Do not imitate any shrine rite or invoke an òrìṣà. This is a simple act of remembering.",
       "why": "Ìbà, homage, comes before speech and action in Yoruba life. It places you in a line of people who made your life possible and softens the heart for the day.",
       "variations": [
         "Do it at the end of the day instead.",
@@ -369,9 +369,73 @@
       ]
     },
     {
+      "id": "know-your-name",
+      "name": "Know your name",
+      "icon": "user",
+      "slot": "Morning",
+      "time": "07:00",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Look up the meaning of your own name, and say it aloud with its meaning, as if giving a short praise. In Yoruba life a child is given several names, each a wish or a record of circumstances. Think of what you would call yourself if you could choose a wish. Say your name to someone with pride today.",
+      "why": "Names in Yoruba culture carry meaning: they record the family, the time of birth and a hope. Knowing the meaning of your name is a way to stand a little taller.",
+      "variations": [
+        "Ask a parent how your name was chosen.",
+        "Learn the meaning of a friend’s name.",
+        "Write a wish for your own name."
+      ]
+    },
+    {
+      "id": "start-cool",
+      "name": "Start cool",
+      "icon": "snowflake",
+      "slot": "Morning",
+      "time": "08:00",
+      "minutes": 3,
+      "meta": "Morning · 3 min",
+      "instructions": "Decide this morning that for the next three irritations you will keep a cool head: take one slow breath, wait, and answer gently or not at all. The Yoruba call this ìtútù, coolness, and prize it in an adult. Tell yourself, I will not be hurried into anger. Then see how many times it comes up.",
+      "why": "Keeping a cool head is a rule of this Onda. Ìtútù, composure, is a mark of a mature person, and a quality said to make a leader.",
+      "variations": [
+        "Count the three irritations and note them.",
+        "Smile before you answer.",
+        "Practise in the first queue of the day."
+      ]
+    },
+    {
+      "id": "akara-and-ogi-for-breakfast",
+      "name": "Akara and ogi for breakfast",
+      "icon": "cookie",
+      "slot": "Morning",
+      "time": "08:30",
+      "minutes": 20,
+      "meta": "Morning · 20 min",
+      "instructions": "Have a Yoruba-style breakfast: bean fritters, akara, with a bowl of smooth ogi, fermented corn pap, or with bread. If you cannot find these, a bean dish and a warm porridge is close. Eat slowly, sitting down, with a friend if you can, and say a word of thanks for the people who made the food.",
+      "why": "Akara and ogi are the classic Yoruba breakfast, sold fresh in the morning across Nigeria. They are simple, warm and a good way to start a day.",
+      "variations": [
+        "Make akara from black-eyed peas.",
+        "Buy it from a Nigerian shop and share.",
+        "Eat with your right hand, as is customary."
+      ]
+    },
+    {
+      "id": "tap-a-talking-drum-rhythm",
+      "name": "Tap a talking-drum rhythm",
+      "icon": "waveform",
+      "slot": "Morning",
+      "time": "09:00",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Tap a simple rhythm on a table or your leg, a call and an answer: three taps, two taps, three taps, two taps. Make it speak. The Yoruba dùndún, the hourglass talking drum, imitates the tones of the Yoruba language. Make a drum phrase that says good morning and notice how it changes your mood.",
+      "why": "The dùndún can play the tones of Yoruba speech, so that it can greet, praise and tease. A tapped rhythm in the morning is a simple and happy way to wake up.",
+      "variations": [
+        "Listen to a recording of dùndún first.",
+        "Tap it with a friend, call and answer.",
+        "Make a rhythm for your own name."
+      ]
+    },
+    {
       "id": "owe",
       "name": "Òwe: a proverb a day",
-      "icon": "book-open-text",
+      "icon": "quotes",
       "slot": "Afternoon",
       "time": "13:00",
       "minutes": 10,
@@ -385,9 +449,89 @@
       ]
     },
     {
+      "id": "praise-someone-by-name",
+      "name": "Praise someone by name",
+      "icon": "sparkle",
+      "slot": "Afternoon",
+      "time": "15:00",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Choose someone and praise them in a few lines, in the style of an oríkì, a praise poem: their name, where they come from, what they are like, what they have done. Do not exaggerate beyond truth, but be generous. Say or send it to them. Notice what a person looks like when they are properly praised.",
+      "why": "Oríkì are praise poems for people, families and places. They remind people of who they are and where they come from. A small oríkì costs nothing and can make a day.",
+      "variations": [
+        "Praise a family member in three lines.",
+        "Praise your city or street.",
+        "Praise yourself, honestly, in three lines."
+      ]
+    },
+    {
+      "id": "food-and-water-for-the-guest-first",
+      "name": "Food and water for the guest first",
+      "icon": "drop",
+      "slot": "Afternoon",
+      "time": "14:00",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "If someone comes to your door today, offer a glass of water and something to eat before anything else, before you ask why they have come. If no one comes, offer water or a snack to a colleague or neighbour. In Yoruba homes the guest is greeted and fed first, and business waits.",
+      "why": "The rule of this Onda is to offer a guest food or water before anything else. It is a basic part of hospitality, and a good way to practise it is on any visitor.",
+      "variations": [
+        "Offer kola nut or fruit.",
+        "Serve the guest before yourself.",
+        "Let the guest choose."
+      ]
+    },
+    {
+      "id": "give-an-elder-your-place",
+      "name": "Give an elder your place",
+      "icon": "armchair",
+      "slot": "Afternoon",
+      "time": "16:00",
+      "minutes": 5,
+      "meta": "Afternoon · 5 min",
+      "instructions": "Today, give an older person your seat, your place in the line, or the first turn to speak. Do it gracefully, with a greeting. The rule of this Onda is to give elders your place. Notice how it feels to step back and let someone else go forward, and how the elder responds.",
+      "why": "Respect for elders is a core Yoruba value, shown in greeting, seating, speaking and serving. It is a small habit that makes a large difference to how a community feels.",
+      "variations": [
+        "Ask an elder for their view on something.",
+        "Offer to carry something.",
+        "Thank them for their time."
+      ]
+    },
+    {
+      "id": "well-done-at-your-work",
+      "name": "Well done at your work",
+      "icon": "hand-heart",
+      "slot": "Afternoon",
+      "time": "15:30",
+      "minutes": 5,
+      "meta": "Afternoon · 5 min",
+      "instructions": "Say Ẹ kú iṣẹ́, well done at your work, to at least three people today: a colleague, a cleaner, a shop worker, a parent. If you do not speak Yoruba, say it in your own words: well done today, thank you for your work. It is a Yoruba habit to greet people at their work, and it makes everyone stand a little taller.",
+      "why": "Greeting a person at their task is a long-standing Yoruba courtesy. Ẹ kú iṣẹ́ is said to farmers, traders and anyone working. It honours effort and not only results.",
+      "variations": [
+        "Say it to someone who is rarely thanked.",
+        "Say it to yourself at the end of a hard task.",
+        "Learn the answer: ẹ ṣé."
+      ]
+    },
+    {
+      "id": "be-gentle-in-a-hard-conversation",
+      "name": "Be gentle in a hard conversation",
+      "icon": "feather",
+      "slot": "Afternoon",
+      "time": "12:30",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "In one conversation today that is not easy, choose ìwà pẹ̀lẹ́, gentle character. Speak slowly, lower your voice, tell the truth without sharpness, and ask a question before you assert. Notice how a gentle manner changes the weather of a talk. Leave the other person with their dignity.",
+      "why": "Ìwà pẹ̀lẹ́, gentle character, is prized in Yoruba ethics. A person who is gentle but firm is said to be a true ọmọlúàbí. It is strength with a soft face.",
+      "variations": [
+        "Practise it by phone.",
+        "Practise it in writing.",
+        "Practise it with someone you disagree with."
+      ]
+    },
+    {
       "id": "check-iwa",
       "name": "Ìwà: the evening review",
-      "icon": "moon-stars",
+      "icon": "notebook",
       "slot": "Evening",
       "time": "21:00",
       "minutes": 10,
@@ -398,12 +542,13 @@
         "Do it aloud with a friend or family member.",
         "Add a fourth question: who did I help?",
         "Keep a running tally of the days you kept a cool head."
-      ]
+      ],
+      "action": "journal"
     },
     {
       "id": "itan",
       "name": "Ìtàn: tell a story",
-      "icon": "speaker-high",
+      "icon": "chats",
       "slot": "Evening",
       "time": "19:30",
       "minutes": 15,
@@ -415,114 +560,318 @@
         "Ask an elder for a story.",
         "Record a story for a child."
       ]
-    }
-  ],
-  "tasks": [
-    {
-      "id": "learn-five-yoruba-greetings",
-      "name": "Learn five Yoruba greetings",
-      "meta": "Morning, afternoon, evening, thank you, welcome",
-      "time": "12:00",
-      "slot": "Afternoon"
     },
     {
-      "id": "listen-to-ten-minutes-of-talking-drum-or-juju-music",
-      "name": "Listen to ten minutes of talking drum or juju music",
-      "meta": "Follow the call and response",
-      "time": "17:00",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "ask-an-elder-for-a-story-or-a-proverb",
-      "name": "Ask an elder for a story or a proverb",
-      "meta": "Write down what they say",
-      "time": "18:00",
-      "slot": "Evening"
-    },
-    {
-      "id": "task-read-a-chapter-of-ak-the-years-of-childhood",
-      "name": "Read a chapter of Aké: The Years of Childhood",
-      "meta": "Read · Wole Soyinka",
-      "time": "12:30",
-      "slot": "Afternoon",
-      "action": "read"
-    },
-    {
-      "id": "task-listen-to-juju-music-and-follow-the-call-and-response",
-      "name": "Listen to Juju Music and follow the call and response",
-      "meta": "Listen · King Sunny Adé",
-      "time": "17:30",
-      "slot": "Afternoon",
-      "action": "listen"
-    },
-    {
-      "id": "task-journal-whom-did-you-greet-well-today",
-      "name": "Journal: whom did you greet well today?",
-      "meta": "Journal · 10 min",
-      "time": "21:15",
+      "id": "what-is-your-ori-asking",
+      "name": "What is your orí asking?",
+      "icon": "compass",
       "slot": "Evening",
+      "time": "21:30",
+      "minutes": 8,
+      "meta": "Evening · 8 min",
+      "instructions": "The Yoruba speak of orí, the head, as a person’s own destiny and the guide that goes with them. Sit for a few minutes and ask: what is my own path asking of me this season? Write three lines in answer. Do not demand certainty. Notice what you already know. Then thank your head, as Yoruba people do, for carrying you.",
+      "why": "Orí is both the physical head and a person’s inner destiny and guide. Asking it a question is a quiet way of taking your life seriously, without turning it into a rite.",
+      "variations": [
+        "Ask it a smaller question.",
+        "Write what your orí might say to you.",
+        "Share one line with a friend."
+      ],
       "action": "journal"
     },
     {
-      "id": "task-say-one-sentence-you-want-to-make-true-aloud-with-in-mind",
-      "name": "Say one sentence you want to make true, aloud, with àṣẹ in mind",
-      "meta": "Philosophy · 10 min",
-      "time": "19:00",
+      "id": "call-a-sibling-or-a-cousin",
+      "name": "Call a sibling or a cousin",
+      "icon": "phone",
       "slot": "Evening",
-      "action": "philosophy"
+      "time": "20:00",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Call a brother, sister, cousin or an old friend who feels like family, and talk for fifteen minutes with no agenda. Ask after their home, their children, their work, their health. In Yoruba life, family, ẹbí, is wide, and keeping in touch is a duty and a pleasure. Say you were thinking of them, and mean it.",
+      "why": "Ẹbí, family and kin, includes cousins, in-laws and many more. Regular, warm contact is one of the ways it is held together.",
+      "variations": [
+        "Call an elder instead.",
+        "Send a voice note.",
+        "Plan a visit."
+      ]
     },
     {
-      "id": "task-try-a-cup-of-ogi-or-zobo",
-      "name": "Try a cup of ogi or zobo",
-      "meta": "Drink · 10 min",
-      "time": "15:30",
-      "slot": "Afternoon",
-      "action": "drink"
+      "id": "cook-a-nigerian-dish",
+      "name": "Cook a Nigerian dish",
+      "icon": "cooking-pot",
+      "slot": "Evening",
+      "time": "18:30",
+      "minutes": 45,
+      "meta": "Evening · 45 min",
+      "instructions": "Cook something from the Yoruba table: moi moi, steamed bean pudding, or dodo, fried ripe plantain, or a pot of jollof if you know it. Eat it with others and tell them the name. If you do not know how, follow a recipe by a Nigerian cook and thank them in your mind.",
+      "why": "Yoruba food is a source of daily pleasure and much pride: peppers, beans, plantain, palm oil, patience. Cooking it is a way of learning a culture through the hands.",
+      "variations": [
+        "Make dodo, the easiest.",
+        "Make moi moi in a foil parcel.",
+        "Invite someone to share."
+      ]
     },
     {
-      "id": "treat-wear-your-brightest-cloth-today",
-      "name": "Wear your brightest cloth today",
-      "meta": "Colour is a greeting too",
-      "time": "08:30",
-      "slot": "Morning"
+      "id": "dance-to-a-juju-or-afrobeat-record",
+      "name": "Dance to a juju or Afrobeat record",
+      "icon": "music-notes",
+      "slot": "Evening",
+      "time": "20:30",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Put on a record of King Sunny Adé’s juju or Fela Kuti’s Afrobeat and dance in the kitchen or the living room for fifteen minutes. Let the rhythm lead. Notice how the music layers: talking drum, guitars, voices. If you are shy, start with your shoulders. Come out lighter.",
+      "why": "Juju and Afrobeat grew out of Yoruba rhythms and drumming. Music and dance are central to Yoruba life, and an evening dance is a very fine way to end a day.",
+      "variations": [
+        "Dance with a child.",
+        "Learn one step from a video.",
+        "Dance to one track with your eyes closed."
+      ]
     },
     {
-      "id": "treat-tap-out-a-rhythm-on-the-table-and-get-someone-to-answer-it",
-      "name": "Tap out a rhythm on the table and get someone to answer it",
-      "meta": "Call and response",
-      "time": "15:30",
-      "slot": "Afternoon"
+      "id": "wear-cloth-together",
+      "name": "Wear cloth together",
+      "icon": "palette",
+      "slot": "Special",
+      "time": "14:00",
+      "minutes": 90,
+      "meta": "On a day of celebration · 90 min",
+      "instructions": "At a wedding, a birthday or a family gathering, try wearing matching or complementary cloth with the people you are with, aṣọ ẹbí. Choose a colour or a fabric together, and enjoy how it feels to belong. If it is not a day for a party, make one: ask two friends to wear the same colour for an hour. Look at the photographs.",
+      "why": "Wearing the same cloth to a wedding or funeral is a Yoruba custom that shows belonging. It turns a crowd into a family, and it is also great fun.",
+      "variations": [
+        "Choose indigo or adire cloth.",
+        "Do it for a birthday dinner.",
+        "Share a photograph with someone who could not be there."
+      ]
     },
     {
-      "id": "treat-praise-someone-with-three-names-for-what-they-do-well",
-      "name": "Praise someone with three names for what they do well",
-      "meta": "An oríkì of your own making",
-      "time": "15:30",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "treat-share-something-fried-and-hot-with-a-friend",
-      "name": "Share something fried and hot with a friend",
-      "meta": "Plantain, if you can find it",
-      "time": "19:30",
-      "slot": "Evening"
-    },
-    {
-      "id": "daily-greet-each-person-by-name-and-ask-after-their-day",
-      "name": "Greet each person by name and ask after their day",
-      "meta": "Greeting is half the day",
-      "time": "07:15",
-      "slot": "Morning"
-    },
-    {
-      "id": "daily-say-your-own-name-and-your-family-s-name-aloud",
-      "name": "Say your own name and your family’s name aloud",
-      "meta": "Orúkọ rere: a good name",
-      "time": "07:15",
-      "slot": "Morning"
+      "id": "a-night-of-drums",
+      "name": "A night of drums",
+      "icon": "waveform",
+      "slot": "Special",
+      "time": "19:00",
+      "minutes": 60,
+      "meta": "On a free evening · 60 min",
+      "instructions": "Find a performance of Yoruba drumming, dùndún or bàtá, live or online, and give it a full hour. Sit close, or turn the sound up. Listen to how the drums speak, and follow the lead drummer’s calls and the answers of the others. If you play anything, join in softly. Let the rhythm take the evening.",
+      "why": "The talking drum is one of the glories of Yoruba music. A full hour of drumming lets you hear how a conversation of rhythms builds.",
+      "variations": [
+        "Listen to Babatunde Olatunji’s Drums of Passion.",
+        "Go to a drumming workshop.",
+        "Learn to say your name on a drum."
+      ]
     }
   ],
-  "immersePlan": [],
+  "tasks": [],
+  "immersePlan": [
+    {
+      "kind": "read",
+      "item": "read-ake-the-years-of-childhood",
+      "name": "Read a chapter of Aké",
+      "text": "Read a chapter of Wole Soyinka’s memoir of a childhood in Abeokuta in the 1930s and 1940s. Notice the voices of the house and the street, and the questions of a very curious child.",
+      "minutes": 20
+    },
+    {
+      "kind": "read",
+      "item": "read-death-and-the-king-s-horseman",
+      "name": "Read the opening of Death and the King’s Horseman",
+      "text": "Read the first scene of Soyinka’s play, based on events in the Oyo kingdom in 1946, about duty, death and a clash of worlds. Read it aloud, and listen to how the market talks.",
+      "minutes": 20
+    },
+    {
+      "kind": "read",
+      "item": "read-the-palm-wine-drinkard",
+      "name": "Read a page of The Palm-Wine Drinkard",
+      "text": "Read a page or two of Amos Tutuola’s folktale-fed adventure into the world of spirits, written in a distinctive English. Notice how storytelling and imagination run together.",
+      "minutes": 15
+    },
+    {
+      "kind": "watch",
+      "item": "watch-saworoide",
+      "name": "Watch Saworoide",
+      "text": "Watch Tunde Kelani’s Yoruba-language film about a town, its king and a sacred bell. Notice how much of the drama turns on character and the word of a ruler.",
+      "minutes": 105
+    },
+    {
+      "kind": "watch",
+      "item": "watch-maami",
+      "name": "Watch Maami",
+      "text": "Watch Tunde Kelani’s tender story of a mother and son, drawn from a memoir. Notice the details of the home, the greetings and the mother’s courage.",
+      "minutes": 105
+    },
+    {
+      "kind": "watch",
+      "item": "watch-the-figurine-araromire",
+      "name": "Watch The Figurine",
+      "text": "Watch Kunle Afolayan’s thriller in which a statue brings fortune and dread. Notice how it mixes the old and the new Nigeria, and what it says about luck.",
+      "minutes": 110
+    },
+    {
+      "kind": "listen",
+      "item": "listen-juju-music",
+      "name": "Listen to King Sunny Adé",
+      "text": "Play Juju Music, the album that introduced juju to many listeners outside Nigeria. Listen for the talking drum and the shimmering guitars, and move a little.",
+      "minutes": 40
+    },
+    {
+      "kind": "listen",
+      "item": "listen-zombie",
+      "name": "Listen to Fela’s Zombie",
+      "text": "Play Fela Kuti’s Afrobeat classic with Yoruba rhythms and sharp political satire. Listen to the long groove, and notice how the horns come in.",
+      "minutes": 12
+    },
+    {
+      "kind": "listen",
+      "item": "listen-drums-of-passion",
+      "name": "Listen to Drums of Passion",
+      "text": "Play Babatunde Olatunji’s album, which brought West African drumming and song to a wide audience. Close your eyes and follow one drum all the way.",
+      "minutes": 35
+    },
+    {
+      "kind": "art",
+      "item": "art-the-ife-heads",
+      "name": "Look at the Ife heads",
+      "text": "Look at photographs of the naturalistic brass and terracotta heads found at Ile-Ife, made between the twelfth and fifteenth centuries. Look at the faces, and the fine lines on them. Notice how much character they hold.",
+      "minutes": 10
+    },
+    {
+      "kind": "art",
+      "item": "art-adire-cloth",
+      "name": "Look at adire cloth",
+      "text": "Look at indigo cloth patterned with resist paste, made by women dyers of Abeokuta and elsewhere. Each pattern has a name. Pick one and sketch it.",
+      "minutes": 10
+    },
+    {
+      "kind": "art",
+      "item": "art-beaded-crowns",
+      "name": "Look at a beaded crown",
+      "text": "Look at crowns with veils of beads, worn by kings and made to mark their sacred role. Imagine wearing one: how would you sit, and how would you speak?",
+      "minutes": 10
+    },
+    {
+      "kind": "eat",
+      "item": "eat-amala-with-ewedu-and-gbegiri",
+      "name": "Eat amala with ewedu and gbegiri",
+      "text": "Eat the classic Yoruba meal if you can find or make it: a paste of yam or cassava flour with jute leaf soup and bean soup, eaten with the right hand. Eat with others, and enjoy the mess.",
+      "minutes": 60
+    },
+    {
+      "kind": "eat",
+      "item": "eat-moi-moi",
+      "name": "Make moi moi",
+      "text": "Make steamed bean pudding from peeled black-eyed peas, peppers and oil, wrapped in leaves or foil. It takes time, and rewards patience. Share it with someone.",
+      "minutes": 90
+    },
+    {
+      "kind": "eat",
+      "item": "eat-akara",
+      "name": "Make akara",
+      "text": "Make bean fritters from peeled black-eyed peas, fried in hot oil until golden. Eat them hot, at breakfast, with pap or bread. Be careful with the oil.",
+      "minutes": 45
+    },
+    {
+      "kind": "drink",
+      "item": "drink-ogi",
+      "name": "Drink ogi",
+      "text": "Make or buy ogi, the smooth fermented corn pap, and have it with akara or moi moi for breakfast. Taste its tang and softness.",
+      "minutes": 15
+    },
+    {
+      "kind": "drink",
+      "item": "drink-zobo",
+      "name": "Make zobo",
+      "text": "Steep dried hibiscus with ginger in water and serve it cold. It is tart, red and popular across Nigeria. Make a jug and share it.",
+      "minutes": 20
+    },
+    {
+      "kind": "drink",
+      "item": "drink-palm-wine",
+      "name": "Taste palm wine, or something like it",
+      "text": "Palm wine is a traditional drink at ceremonies, and alcoholic, so optional. If you do not drink alcohol, try fresh coconut water or a palm-sweetened drink and think of the tapper at the top of the tree.",
+      "minutes": 10
+    },
+    {
+      "kind": "customs",
+      "item": "customs-the-long-greeting",
+      "name": "Give someone a long greeting",
+      "text": "A proper Yoruba greeting is never one word. It includes questions about the person, the home, the family and the work. Greet one person today with at least four questions, and wait for each answer.",
+      "minutes": 5
+    },
+    {
+      "kind": "customs",
+      "item": "customs-wear-matching-cloth-to-a-celebration",
+      "name": "Choose a cloth for a celebration",
+      "text": "Families and friends dress in the same fabric at weddings and funerals. Choose a cloth or a colour with a friend for an occasion this month, and look forward to it.",
+      "minutes": 15
+    },
+    {
+      "kind": "customs",
+      "item": "customs-the-naming-ceremony",
+      "name": "Think of a child’s names as wishes",
+      "text": "In Yoruba tradition a child is given several names about a week after birth, each a wish or a record of circumstances. Write three names, as wishes, for someone you love.",
+      "minutes": 10
+    },
+    {
+      "kind": "games",
+      "item": "games-ayo",
+      "name": "Play ayo",
+      "text": "Play ayo, the Yoruba mancala game: a carved board of twelve cups and forty-eight seeds, sown one by one. Make a board from egg cartons and play with beans or pebbles. Teach someone.",
+      "minutes": 30
+    },
+    {
+      "kind": "games",
+      "item": "games-ten-ten",
+      "name": "Play ten-ten",
+      "text": "Play the clapping game with a partner: face each other, clap a rhythm, and kick out a leg on the beat. Try to match or beat your partner. It is joyful and fast.",
+      "minutes": 10
+    },
+    {
+      "kind": "games",
+      "item": "games-riddles-and-tongue-twisters",
+      "name": "Trade Yoruba riddles",
+      "text": "Evening riddles, called àlọ́ àpamọ̀, open with a set call and reply. Ask someone for a riddle and give one back, with a call of your own. Try one tongue-twister aloud.",
+      "minutes": 15
+    },
+    {
+      "kind": "travel",
+      "item": "fest-osun-osogbo-festival",
+      "name": "Learn about the Osun-Osogbo Festival",
+      "text": "Read about the two weeks of ceremony in August at Osogbo that end with a procession to the river. Look at photographs, and read what the people of Osogbo say about it.",
+      "minutes": 15
+    },
+    {
+      "kind": "travel",
+      "item": "fest-eyo-festival",
+      "name": "Look at the Eyo masquerades",
+      "text": "Look at photographs of Eyo, the masquerades in flowing white robes and wide hats who walk through Lagos Island on special occasions. Imagine the streets going silent as they pass.",
+      "minutes": 10
+    },
+    {
+      "kind": "travel",
+      "item": "place-ile-ife",
+      "name": "Look up Ile-Ife",
+      "text": "Read about the ancestral city of the Yoruba, with the palace of the Ooni and the sacred sites. Look for the story of Oranmiyan’s staff, and think of what a city carries.",
+      "minutes": 15
+    },
+    {
+      "kind": "words",
+      "item": "word-iwa",
+      "name": "Think about ìwà",
+      "text": "Ìwà is character, conduct, being. The Yoruba say ìwà lẹ̀wà, character is beauty. Think of one person whose character is beautiful, and say what you see in them.",
+      "minutes": 10
+    },
+    {
+      "kind": "words",
+      "item": "word-omoluabi",
+      "name": "Aim to be ọmọlúàbí for one day",
+      "text": "Ọmọlúàbí is a person of good character, courtesy and responsibility. Choose three qualities, such as greeting well, truth and a cool head, and try to show all three today.",
+      "minutes": 10
+    },
+    {
+      "kind": "words",
+      "item": "word-e-kaaaro",
+      "name": "Say Ẹ káàárọ̀ properly",
+      "text": "Ẹ káàárọ̀ is good morning, said with respect, often with a bow. Say it, or good morning in your own language, to every person you meet today, and look at them as you say it.",
+      "minutes": 5
+    }
+  ],
   "rules": [
     {
       "id": "r1",

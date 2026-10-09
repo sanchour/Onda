@@ -305,7 +305,8 @@
       "icon": "moon-stars",
       "slot": "Morning",
       "time": "06:45",
-      "meta": "Morning · On waking",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
       "instructions": "Keep a notebook and pen by the bed. On waking, lie still and let the dream return before you move. Write it in the present tense, in order, without tidying it: setting, people, what happened, how it ended. Note the feeling on waking and anything from yesterday it touches. If there is no dream, write that, and write the mood you woke in.",
       "why": "For Jung the dream is not a disguise. It is a spontaneous self-portrait of the psyche, showing what the conscious view is leaving out.",
       "variations": [
@@ -315,15 +316,111 @@
       ]
     },
     {
+      "id": "inner-weather",
+      "name": "Inner weather",
+      "icon": "cloud-sun",
+      "slot": "Morning",
+      "time": "07:15",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Sit with your coffee or tea and ask: what is the weather inside me this morning? Not what it should be, what it is. Sunny, foggy, stormy, still? Write it as a short forecast: a mood, a colour, a sentence. Do not try to change it. Only notice, and check at noon to see how it has moved.",
+      "why": "Jung said the first step in any inner work is to see what is there without a verdict. A weather report is a gentle, even playful, way to do it.",
+      "variations": [
+        "Name the weather in a single colour.",
+        "Draw it as a small sketch.",
+        "Report it to a friend in one line."
+      ]
+    },
+    {
+      "id": "draw-the-dream-image",
+      "name": "Draw the dream image",
+      "icon": "pencil-simple",
+      "slot": "Morning",
+      "time": "07:00",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Take the most vivid image from last night’s dream, or any image that has stayed with you, and draw it. It does not have to look good. Use whatever pen or colours are at hand. Look at it when you have finished. Is anything different from what you had in mind? Add one more detail and stop.",
+      "why": "Jung painted and carved his own images, and had his patients do the same. Drawing slows the image down, so you see more than you did when it simply floated past.",
+      "variations": [
+        "Draw with your other hand.",
+        "Draw it three times, each a little differently.",
+        "Paint it with whatever colour you have."
+      ]
+    },
+    {
+      "id": "walk-by-water",
+      "name": "Walk by water",
+      "icon": "waves",
+      "slot": "Morning",
+      "time": "08:00",
+      "minutes": 20,
+      "meta": "Morning · 20 min",
+      "instructions": "Walk beside water, a lake, a river, the sea, a canal, and let your mind drift. When an image arises, note it. Do not analyse, and do not hurry. If there is no water nearby, walk where the ground is wet or watch rain. Jung lived his entire adult life on the shore of Lake Zurich, and walked and wrote there.",
+      "why": "Water has always been the common image for the unconscious. A walk beside it is a way to let thoughts rise up on their own, without prompting.",
+      "variations": [
+        "Carry a notebook and write only one line.",
+        "Throw a stone in and watch the rings.",
+        "Walk in silence with someone."
+      ]
+    },
+    {
+      "id": "build-with-your-hands",
+      "name": "Build with your hands",
+      "icon": "cube",
+      "slot": "Morning",
+      "time": "09:00",
+      "minutes": 15,
+      "meta": "Morning · 15 min",
+      "instructions": "Stack stones, make a tower of blocks, shape clay, or build something small from whatever is at hand. Do not plan it. Let your hands decide and notice what comes. Then step back. Jung went back to a childhood game of building in his crisis of 1912, and it started his inner work again.",
+      "why": "After his break with Freud, Jung found himself stuck until he allowed himself to play with stones by the lake. The play released images and fantasies that became the Red Book.",
+      "variations": [
+        "Build outdoors with natural things.",
+        "Build something and take it apart.",
+        "Build with a child and follow their lead."
+      ]
+    },
+    {
+      "id": "check-your-mask",
+      "name": "Check your mask",
+      "icon": "mask-happy",
+      "slot": "Morning",
+      "time": "07:30",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "As you get ready, ask: which face am I going to wear today? The professional, the cheerful friend, the competent parent? Name it, with a smile. Persona is not a lie, it is a useful costume. Then ask: what in me does this mask hide, and what would I like it to show? Decide one small thing to let through.",
+      "why": "Jung called the mask we show the world the persona. It is necessary, and it becomes a problem only when we forget we are wearing one.",
+      "variations": [
+        "Name a different persona for each place you go.",
+        "Wear one thing today that shows a hidden side.",
+        "Ask a friend which mask they see most."
+      ]
+    },
+    {
+      "id": "amplify-an-image",
+      "name": "Amplify an image",
+      "icon": "magnifying-glass",
+      "slot": "Afternoon",
+      "time": "12:30",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Take one image from a dream, a daydream or something that caught your eye today. Write it in the middle of a page. Around it, write every association that comes: personal memories first, then stories, myths or pictures it reminds you of. Do not interpret. Finish by asking: what does this image want me to look at?",
+      "why": "Jung called this amplification: staying with an image and widening it, rather than reducing it to a single meaning. It keeps the unconscious speaking and the ego listening.",
+      "variations": [
+        "Draw the image instead of writing.",
+        "Use a figure from a fairy tale.",
+        "Share it with someone you trust."
+      ]
+    },
+    {
       "id": "active-imagination",
       "name": "Active imagination",
-      "icon": "brain",
+      "icon": "chats",
       "slot": "Afternoon",
       "time": "15:00",
       "minutes": 20,
       "meta": "Afternoon · 20 min",
-      "instructions": "Sit alone and undisturbed. Take an image from a dream, or the feeling of a mood, and hold it in attention until it begins to move by itself. Do not direct it. When a figure appears, speak to it and let it answer; write the exchange down as it happens. Treat what it says as you would a person’s words. End deliberately: close the notebook, stand up, do something physical. Stop if it becomes overwhelming.",
-      "why": "Jung developed the method during his own crisis after 1913 and recorded it in the Red Book. It lets the unconscious speak and requires the ego to answer, so that neither simply rules.",
+      "instructions": "Sit alone and undisturbed. Take an image from a dream, or the feeling of a mood, and hold it in attention until it begins to move by itself. Do not direct it. When a figure appears, speak to it and let it answer; write the exchange down as it happens. Treat what it says as you would a person’s words. End deliberately: close the notebook, stand up, and do something ordinary. Stop if it feels overwhelming.",
+      "why": "Jung developed the method during his own crisis after 1913 and recorded it in the Red Book. It lets the unconscious speak and requires the ego to answer.",
       "variations": [
         "Paint or model the image in clay instead of writing.",
         "Continue a dream from where it broke off.",
@@ -331,15 +428,96 @@
       ]
     },
     {
+      "id": "catch-a-projection",
+      "name": "Catch a projection",
+      "icon": "eye",
+      "slot": "Afternoon",
+      "time": "14:00",
+      "minutes": 8,
+      "meta": "Afternoon · 8 min",
+      "instructions": "Think of one strong reaction today, a flash of irritation, envy or admiration. Ask: what am I seeing in them that I do not see in myself? Write down the quality in a word. Then ask: when have I been like that, or wanted to be? Withdrawing a projection is the daily work of knowing yourself, and it makes others easier to bear.",
+      "why": "Jung held that what we cannot see in ourselves we meet in other people, with a charge. A few honest minutes of this a day is one of the most useful habits in his whole approach.",
+      "variations": [
+        "Do it for someone you admire.",
+        "Do it for a public figure.",
+        "Do it for a character in a film."
+      ]
+    },
+    {
+      "id": "collect-a-coincidence",
+      "name": "Collect a coincidence",
+      "icon": "sparkle",
+      "slot": "Afternoon",
+      "time": "16:00",
+      "minutes": 5,
+      "meta": "Afternoon · 5 min",
+      "instructions": "Notice any meaningful coincidence today: a name you just heard on the radio, a number you keep seeing, a song at the right moment. Write it down in one line, with the time. Do not explain it or decide what it means. Only collect. After a week, read the list and see if a pattern emerges.",
+      "why": "Jung named such events synchronicity, a meaningful coincidence without a causal link. He kept a record of them, and he saw their value as pointers rather than proofs.",
+      "variations": [
+        "Keep the list on your phone.",
+        "Share a coincidence with a friend.",
+        "Look for the one that surprised you most."
+      ]
+    },
+    {
+      "id": "find-yourself-in-a-fairy-tale",
+      "name": "Find yourself in a fairy tale",
+      "icon": "book-open",
+      "slot": "Afternoon",
+      "time": "13:30",
+      "minutes": 15,
+      "meta": "Afternoon · 15 min",
+      "instructions": "Read a short fairy tale, one of Grimm’s or any you like, and ask which character you are today: the hero, the helper, the trickster, the villain, the bystander. Notice which one you resist. Write one line about what that figure wants. Fairy tales, said Jung’s colleague von Franz, are the simplest expressions of the psyche.",
+      "why": "Marie-Louise von Franz spent her life on fairy tales, because their figures are simple and universal. They are the best way to meet archetypes without a lecture.",
+      "variations": [
+        "Read it aloud to a child.",
+        "Choose the character you like least.",
+        "Rewrite the ending the way you wish."
+      ]
+    },
+    {
+      "id": "do-something-physical",
+      "name": "Do something physical",
+      "icon": "barbell",
+      "slot": "Afternoon",
+      "time": "16:30",
+      "minutes": 15,
+      "meta": "Afternoon · 15 min",
+      "instructions": "After inner work, do something with your body: chop vegetables, wash the car, dig a bed, split wood, scrub the floor. Do it fully, without screens. Jung chopped wood and cooked at his tower for exactly this reason: to bring the inner material down into the hands and feet. Feel the weight come back.",
+      "why": "The last rule of this Onda is to follow inner work with something physical. It grounds the mind and keeps the images from swamping the day.",
+      "variations": [
+        "Walk fast for fifteen minutes.",
+        "Cook something with your hands.",
+        "Tidy a room from top to bottom."
+      ]
+    },
+    {
+      "id": "shadow-note",
+      "name": "Shadow note",
+      "icon": "moon",
+      "slot": "Evening",
+      "time": "21:30",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Think of one person who provoked a strong reaction in you today: irritation, contempt, envy or fascination. Write down exactly what quality set you off, in a few adjectives. Then ask honestly: where does this live in me? When have I been this, wanted to be this, or forbidden myself this? Write what you find. No conclusions are needed.",
+      "why": "What we cannot see in ourselves we meet in other people, with a charge. Withdrawing a projection is, for Jung, the first real act of moral work.",
+      "variations": [
+        "Do the same for someone you admire: what are you giving away?",
+        "Write a short letter from your shadow to you.",
+        "Note what you were proudest of today, and what that pride needs you not to be."
+      ],
+      "action": "journal"
+    },
+    {
       "id": "draw-a-mandala",
       "name": "Draw a mandala",
-      "icon": "circle-dashed",
+      "icon": "circles-three",
       "slot": "Evening",
       "time": "19:30",
       "minutes": 15,
       "meta": "Evening · 15 min",
       "instructions": "Draw a circle that fills the page. Starting at the centre and working outward, fill it with whatever shapes and colours come, without planning or judging. When it feels finished, date it and write one line beneath. Do not interpret it tonight. Keep the drawings together and look back over them at the end of the week.",
-      "why": "While stationed as a camp commandant in 1918–19, Jung sketched a small circular drawing each morning and saw that it changed with his inner state. He came to regard the mandala as an image of the Self.",
+      "why": "While stationed as a camp commandant in 1918 and 1919, Jung sketched a small circular drawing each morning and saw that it changed with his inner state. He called the circle the image of wholeness.",
       "variations": [
         "Use only one colour.",
         "Make it from stones or leaves outdoors.",
@@ -347,144 +525,316 @@
       ]
     },
     {
-      "id": "shadow-note",
-      "name": "Shadow note",
-      "icon": "notebook",
+      "id": "the-last-hour-unscrolled",
+      "name": "The last hour, unscrolled",
+      "icon": "device-mobile",
       "slot": "Evening",
-      "time": "21:30",
-      "minutes": 10,
-      "meta": "Evening · 10 min",
-      "instructions": "Think of one person who provoked a strong reaction in you today, irritation, contempt, envy or fascination. Write down exactly what quality set you off, in a few adjectives. Then ask honestly: where does this live in me? When have I been this, wanted to be this, or forbidden myself this? Write what you find. No conclusions are needed.",
-      "why": "What we cannot see in ourselves we meet in other people, with a charge. Withdrawing a projection is, for Jung, the first real act of moral work.",
+      "time": "21:00",
+      "minutes": 30,
+      "meta": "Evening · 30 min",
+      "instructions": "For the last hour before sleep, put away the phone and every screen. Do something slow: read on paper, tidy, listen to music, sit with a lamp. Notice what comes up when nothing is feeding you. Boredom, a worry, a picture. That is the material this Onda is about, and it needs a quiet hour to arrive.",
+      "why": "The rule of this Onda is to leave the last hour before sleep unscrolled. Jung believed the unconscious speaks most clearly when the mind is not occupied by noise.",
       "variations": [
-        "Do the same for someone you admire: what are you giving away?",
-        "Write a short letter from your shadow to you.",
-        "Note what you were proudest of today, and what that pride needs you not to be."
+        "Start with thirty minutes if an hour is too much.",
+        "Charge the phone in another room.",
+        "Use the hour to write by hand."
       ]
     },
     {
-      "id": "amplify-an-image",
-      "name": "Amplify an image",
-      "icon": "pen-nib",
-      "slot": "Afternoon",
-      "time": "12:30",
-      "minutes": 10,
-      "meta": "Afternoon · 10 min",
-      "instructions": "Take one image from a dream, a daydream or something that caught your eye today. Write it in the middle of a page. Around it, write every association that comes: personal memories first, then stories, myths or pictures it reminds you of. Do not interpret. Finish by asking: \"What does this image want me to look at?\"",
-      "why": "Jung called this amplification: staying with an image and widening it, rather than reducing it to a single meaning. It keeps the unconscious speaking in its own language.",
-      "variations": [
-        "Draw the image instead of writing.",
-        "Use a figure from a fairy tale.",
-        "Share it with someone you trust."
-      ]
-    }
-  ],
-  "tasks": [
-    {
-      "id": "read-a-chapter-of-man-and-his-symbols",
-      "name": "Read a chapter of Man and His Symbols",
-      "meta": "One sitting",
-      "time": "13:00",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "notice-one-projection",
-      "name": "Notice one projection",
-      "meta": "Who bothered you, and why?",
-      "time": "18:00",
-      "slot": "Evening"
-    },
-    {
-      "id": "make-something-with-your-hands",
-      "name": "Make something with your hands",
-      "meta": "Stone, clay, paint or bread",
-      "time": "17:00",
-      "slot": "Evening"
-    },
-    {
-      "id": "task-read-a-chapter-of-memories-dreams-reflections",
-      "name": "Read a chapter of Memories, Dreams, Reflections",
-      "meta": "Read · Jung’s late, strange autobiography",
-      "time": "12:00",
-      "slot": "Afternoon",
-      "action": "read"
-    },
-    {
-      "id": "task-watch-carl-jung-s-face-to-face-interview",
-      "name": "Watch Carl Jung’s Face to Face interview",
-      "meta": "Watch · the man himself",
-      "time": "19:00",
+      "id": "ask-the-dream-a-question",
+      "name": "Ask the dream a question",
+      "icon": "question",
       "slot": "Evening",
-      "action": "watch"
+      "time": "22:00",
+      "minutes": 5,
+      "meta": "Evening · 5 min",
+      "instructions": "Before you sleep, write a question on a slip of paper or in your notebook: what do I need to see about this situation? Read it, put the notebook by the bed, and let it go. In the morning, write down whatever dream or image you have, and see whether it touches the question. Some nights nothing comes. That is also an answer.",
+      "why": "Asking the dreams a question before sleep is an old practice, often called dream incubation. Jung recommended it when a problem seemed to have no answer in waking life.",
+      "variations": [
+        "Ask a very small question.",
+        "Ask the same question three nights running.",
+        "Ask a question for someone else."
+      ]
     },
     {
-      "id": "task-journal-catch-last-night-s-dream-before-it-escapes",
-      "name": "Journal: catch last night’s dream before it escapes",
-      "meta": "Journal · 10 min",
-      "time": "08:00",
-      "slot": "Morning",
+      "id": "tea-and-the-notebook",
+      "name": "Tea and the notebook",
+      "icon": "coffee",
+      "slot": "Evening",
+      "time": "20:00",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Make a pot of herbal tea, lime blossom or verbena, and sit with your notebook. Write anything: a line, a list, a sketch, a complaint. Do not read it back. Let the tea cool a little as you write. It is a small, unhurried way to end the day with yourself, a bit like a conversation with an old friend.",
+      "why": "The notebook is the Jungian’s constant companion. A cup of herbal tea beside it makes it a pleasure and not a duty.",
+      "variations": [
+        "Write a single sentence only.",
+        "Write with a different pen.",
+        "Write to the person you were this morning."
+      ],
       "action": "journal"
     },
     {
-      "id": "task-write-about-the-unconscious-is-not-empty-what-might-yours-be-saying",
-      "name": "Write about “The unconscious is not empty”: what might yours be saying?",
-      "meta": "Philosophy · 10 min",
-      "time": "19:30",
+      "id": "go-to-your-corner",
+      "name": "Go to your corner",
+      "icon": "door-open",
       "slot": "Evening",
-      "action": "philosophy"
+      "time": "19:00",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Choose a corner, a chair or a desk and keep it as a place apart. Sit there for ten minutes with nothing in your hands. At Bollingen, Jung had a room that he alone entered. Anyone can have a small version: a place where the day’s noise does not follow. Sit, breathe, and be with whatever arrives.",
+      "why": "The Greeks called a sacred precinct a temenos, a protected space. Jung used the word for the sealed, safe space in which inner work can happen.",
+      "variations": [
+        "Add a candle.",
+        "Keep it as the place where you read and write.",
+        "Mark it with a stone or a flower."
+      ]
     },
     {
-      "id": "task-spend-ten-minutes-with-one-red-book-image-describe-it-do-not-explain-it",
-      "name": "Spend ten minutes with one Red Book image: describe it, do not explain it",
-      "meta": "Art · 10 min",
-      "time": "16:30",
-      "slot": "Afternoon",
-      "action": "art"
+      "id": "a-day-at-the-tower",
+      "name": "A day at the tower",
+      "icon": "campfire",
+      "slot": "Special",
+      "time": "15:00",
+      "minutes": 90,
+      "meta": "On a free day · 90 min",
+      "instructions": "On a free afternoon, live a little like Jung at his stone tower. Cook a slow stew, on a wood stove if you can, or simply take hours over it. Chop the wood, stir the pot, light a lamp. No screens, no hurry, no schedule. Eat late and slowly. He said he felt most himself when he did these plain things.",
+      "why": "Jung built Bollingen Tower from 1923, with his own hands, as a place to live simply: no electricity, a wood stove, a lake. He said that there he was in the midst of his true life.",
+      "variations": [
+        "Do it with a friend and share the stew.",
+        "Do it with one candle and no other light.",
+        "Do it in a garden, with an open fire if safe."
+      ]
     },
     {
-      "id": "treat-doodle-with-your-other-hand-and-see-who-turns-up",
-      "name": "Doodle with your other hand and see who turns up",
-      "meta": "Five minutes",
-      "time": "15:30",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "treat-pick-the-film-character-you-cannot-stand-and-ask-what-they-c",
-      "name": "Pick the film character you cannot stand and ask what they carry for you",
-      "meta": "Be honest",
-      "time": "19:30",
-      "slot": "Evening"
-    },
-    {
-      "id": "treat-collect-one-small-object-on-a-walk-that-seems-to-mean-someth",
-      "name": "Collect one small object on a walk that seems to mean something",
-      "meta": "Do not explain it yet",
-      "time": "15:30",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "treat-tell-someone-a-dream-at-breakfast-and-ask-for-one-of-theirs",
-      "name": "Tell someone a dream at breakfast, and ask for one of theirs",
-      "meta": "No interpreting",
-      "time": "08:30",
-      "slot": "Morning"
-    },
-    {
-      "id": "daily-draw-the-colour-you-woke-up-in",
-      "name": "Draw the colour you woke up in",
-      "meta": "A scribble is enough",
-      "time": "07:15",
-      "slot": "Morning"
-    },
-    {
-      "id": "daily-note-the-first-image-you-see-when-you-close-your-eyes",
-      "name": "Note the first image you see when you close your eyes",
-      "meta": "Without judging it",
-      "time": "07:15",
-      "slot": "Morning"
+      "id": "sit-with-the-dark",
+      "name": "Sit with the dark",
+      "icon": "moon",
+      "slot": "Special",
+      "time": "22:30",
+      "minutes": 15,
+      "meta": "At night · 15 min",
+      "instructions": "At night, put out the lights and sit in a dark room, with one candle if you want. For fifteen minutes just sit. Notice what the dark brings: shapes, memories, a small fear, a deeper calm. Jung called the descent into darkness the night-sea journey. Stop and turn on the light whenever you wish; nothing needs to be endured.",
+      "why": "The nekyia, the night-sea journey, is Jung’s name for the descent into the unconscious, where the sun disappears so that it can rise again. You can feel a small version of it in a dark room.",
+      "variations": [
+        "Do it outdoors under the stars.",
+        "Do it with a friend, in silence.",
+        "Do it and write what came afterwards."
+      ]
     }
   ],
-  "immersePlan": [],
+  "tasks": [],
+  "immersePlan": [
+    {
+      "kind": "read",
+      "item": "read-man-and-his-symbols",
+      "name": "Read a chapter of Man and His Symbols",
+      "text": "Open the one book Jung wrote for general readers, finished days before he died. Read a short chapter, and notice which image, a tree, a house, a circle, sets your own memory moving.",
+      "minutes": 20
+    },
+    {
+      "kind": "read",
+      "item": "read-memories-dreams-reflections",
+      "name": "Read about Jung’s childhood",
+      "text": "Read the early chapters of Jung’s autobiography, in which he describes his childhood visions. Notice what he writes about being alone with a thought, and what made him feel safe.",
+      "minutes": 20
+    },
+    {
+      "kind": "read",
+      "item": "read-inner-work",
+      "name": "Read a chapter of Inner Work",
+      "text": "Read a chapter of Robert A. Johnson’s clear, step-by-step guide to dreams and active imagination. Try one small exercise from it today, and stop if it feels like too much.",
+      "minutes": 15
+    },
+    {
+      "kind": "watch",
+      "item": "watch-face-to-face-carl-gustav-jung",
+      "name": "Watch Jung at eighty-four",
+      "text": "Find the 1959 BBC interview in which John Freeman talks with Jung at his home. Watch how an old man listens, and how he answers when asked if he believes in God.",
+      "minutes": 40
+    },
+    {
+      "kind": "watch",
+      "item": "watch-a-dangerous-method",
+      "name": "Watch A Dangerous Method",
+      "text": "Watch Cronenberg’s film of Jung, Freud and Sabina Spielrein. It is a dramatisation with liberties, so enjoy it as a story. Notice how each man handles the strange thing they have found.",
+      "minutes": 100
+    },
+    {
+      "kind": "watch",
+      "item": "watch-the-way-of-the-dream",
+      "name": "Watch a dream being worked",
+      "text": "Watch part of the film in which Marie-Louise von Franz, Jung’s closest collaborator, works on ordinary people’s dreams. Notice how she asks questions and keeps the dream open.",
+      "minutes": 40
+    },
+    {
+      "kind": "listen",
+      "item": "listen-in-our-time-jung",
+      "name": "Listen to In Our Time on Jung",
+      "text": "Put on the BBC discussion of Jung’s life, his ideas and his split from Freud. Listen on a walk, and note one idea you want to look into further.",
+      "minutes": 45
+    },
+    {
+      "kind": "listen",
+      "item": "listen-this-jungian-life",
+      "name": "Hear an episode of This Jungian Life",
+      "text": "Play a podcast episode in which three Jungian analysts work on a listener’s dream. Try to guess the meaning before they say it, then compare.",
+      "minutes": 50
+    },
+    {
+      "kind": "listen",
+      "item": "listen-the-rhythm-of-the-heat",
+      "name": "Play The Rhythm of the Heat",
+      "text": "Play Peter Gabriel’s song about Jung’s night among drummers in East Africa. Listen for the moment it speeds up. Ask what the music is doing that words cannot.",
+      "minutes": 6
+    },
+    {
+      "kind": "art",
+      "item": "art-illuminations-of-the-red-book",
+      "name": "Look at the Red Book illuminations",
+      "text": "Look at pictures of pages from the Red Book: dragons, trees, mandalas, the figure of Philemon. Choose the page you like least, and stay with it for two minutes.",
+      "minutes": 10
+    },
+    {
+      "kind": "art",
+      "item": "art-rosarium-philosophorum",
+      "name": "Look at the alchemical Rosarium",
+      "text": "Look at the sixteenth-century woodcuts in which a king and queen meet, merge, die and are reborn. Jung used the series to talk about the stages of a relationship. Find the one that matches where you are.",
+      "minutes": 10
+    },
+    {
+      "kind": "art",
+      "item": "art-songs-of-innocence-and-of-experience",
+      "name": "Look at Blake’s plates",
+      "text": "Look at a plate or two of Blake’s Songs, words and pictures from a poet who spoke with his own inner figures. Read a poem aloud and notice what the picture adds.",
+      "minutes": 10
+    },
+    {
+      "kind": "eat",
+      "item": "eat-rosti",
+      "name": "Make rösti",
+      "text": "Grate cooked potatoes, press them into a pan and fry slowly in butter until crisp on both sides. It is the Swiss supper Jung would have known. Eat it with an apple or a green salad.",
+      "minutes": 40
+    },
+    {
+      "kind": "eat",
+      "item": "eat-dark-bread-and-cheese",
+      "name": "Eat dark bread and cheese",
+      "text": "Have a plain Swiss supper of dark bread, cheese and an apple. Eat it slowly, at a table, with the notebook closed. Notice how nourishing simple things can be.",
+      "minutes": 15
+    },
+    {
+      "kind": "eat",
+      "item": "eat-bircher-muesli",
+      "name": "Make Bircher muesli",
+      "text": "Soak oats overnight, then stir in grated apple, nuts and lemon. It was invented about 1900 by a Zurich physician, a few streets from where Jung worked. Eat it slowly in the morning.",
+      "minutes": 10
+    },
+    {
+      "kind": "drink",
+      "item": "drink-herbal-tea",
+      "name": "Drink lime blossom tea",
+      "text": "Make a cup of lime blossom or verbena tea, and sit with the notebook. Write down whatever comes. It is a drink for evening and quiet.",
+      "minutes": 15
+    },
+    {
+      "kind": "drink",
+      "item": "drink-a-single-glass-of-wine",
+      "name": "Drink one glass, attended to",
+      "text": "If you drink, have one glass of wine with dinner and attend to it: colour, smell, taste, finish. If not, do the same with a glass of juice. One thing, fully.",
+      "minutes": 15
+    },
+    {
+      "kind": "drink",
+      "item": "drink-well-water",
+      "name": "Drink a glass of cold water",
+      "text": "Pour a glass of plain water and drink it as if you had pumped it by hand. At the tower, Jung had no running water. Notice what it takes for the water to arrive in your glass.",
+      "minutes": 5
+    },
+    {
+      "kind": "customs",
+      "item": "customs-keep-a-dream-notebook-by-the-bed",
+      "name": "Set up a dream notebook",
+      "text": "Put a notebook and pen by your bed tonight. Write the date and a single question at the top of a fresh page. In the morning, write before you move, even a scrap.",
+      "minutes": 5
+    },
+    {
+      "kind": "customs",
+      "item": "customs-walk-by-water",
+      "name": "Walk beside water",
+      "text": "Walk beside a lake, a river or the sea, as Jung did all his adult life on the shore of Lake Zurich. Let one image come, and do not try to name it.",
+      "minutes": 20
+    },
+    {
+      "kind": "customs",
+      "item": "customs-build-with-stone",
+      "name": "Build with stones",
+      "text": "Stack stones or build a little tower or wall with blocks or any hard shapes. Do not plan. Jung returned to building as a way to find his way back to his images.",
+      "minutes": 15
+    },
+    {
+      "kind": "games",
+      "item": "games-dixit",
+      "name": "Play Dixit",
+      "text": "Play the card game of dreamlike pictures and one-line clues. Everyone finds a different meaning in the same picture, which is the whole point. Notice which card you were sure of, and who else saw it.",
+      "minutes": 30
+    },
+    {
+      "kind": "games",
+      "item": "games-psychonauts",
+      "name": "Play a little of Psychonauts",
+      "text": "If you have the game, play a level and enjoy entering a mind as a world. Notice the emotional baggage drawn as luggage. If not, imagine a place that shows how your own mind looks today.",
+      "minutes": 30
+    },
+    {
+      "kind": "games",
+      "item": "games-persona-5",
+      "name": "Look at Persona 5’s Jungian terms",
+      "text": "Persona 5 takes its terms straight from Jung: each character must face a shadow and gain a persona. Play a little if you have it, or read a summary and see how the game borrows the ideas.",
+      "minutes": 30
+    },
+    {
+      "kind": "travel",
+      "item": "fest-jung-s-birthday",
+      "name": "Keep Jung’s birthday",
+      "text": "Jung was born on 26 July 1875, at Kesswil on Lake Constance. Mark any day by writing down one dream or image, and say who you are grateful to for teaching you to look inward.",
+      "minutes": 15
+    },
+    {
+      "kind": "travel",
+      "item": "place-c-g-jung-house-museum",
+      "name": "Look at Jung’s house at Küsnacht",
+      "text": "Look up the lakeside house at Küsnacht that Jung built in 1908 and lived in until his death. Find a photograph of his study and ask what your own study says about you.",
+      "minutes": 10
+    },
+    {
+      "kind": "travel",
+      "item": "place-basel-minster",
+      "name": "Look at the cathedral of his vision",
+      "text": "Look at pictures of the cathedral in Basel, the setting of the childhood vision Jung describes in Memories, Dreams, Reflections. Notice how an ordinary building can hold a strange memory.",
+      "minutes": 10
+    },
+    {
+      "kind": "words",
+      "item": "word-shadow",
+      "name": "Meet the shadow in a word",
+      "text": "Shadow is what you disown in yourself. Write down three qualities you find hard in other people. Next to each, write a quiet yes, I have a bit of that, and see if it softens.",
+      "minutes": 10
+    },
+    {
+      "kind": "words",
+      "item": "word-persona",
+      "name": "Spot the persona",
+      "text": "Persona is the mask you show the world. Notice how your voice, face and words change between a meeting, a call with a friend and a quiet moment alone. Name each persona in one word.",
+      "minutes": 10
+    },
+    {
+      "kind": "words",
+      "item": "word-synchronicity",
+      "name": "Look for synchronicity",
+      "text": "Synchronicity is a meaningful coincidence. Keep an eye out today for one. When you find it, write it in one line and leave it unexplained.",
+      "minutes": 5
+    }
+  ],
   "rules": [
     {
       "id": "r1",

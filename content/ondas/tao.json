@@ -309,17 +309,97 @@
     {
       "id": "morning-qigong",
       "name": "Morning qigong",
-      "icon": "wind",
+      "icon": "person-simple-tai-chi",
       "slot": "Morning",
       "time": "06:30",
       "minutes": 15,
       "meta": "Morning · 15 min",
-      "instructions": "Stand with feet shoulder-width apart, knees soft, arms loose. Breathe low into the belly for a minute. Then move slowly through a simple set, such as the Eight Pieces of Brocade: raise the hands to hold up the sky, draw the bow to each side, lift one arm at a time, look back over each shoulder, sway the head and tail, fold forward, punch slowly with a steady gaze, rise onto the toes and drop. Keep every movement unforced and let the breath lead.",
+      "instructions": "Stand with feet shoulder-width apart, knees soft, arms loose. Breathe low into the belly for a minute. Then move slowly through a simple set, such as the Eight Pieces of Brocade: raise the hands to hold up the sky, draw the bow to each side, lift one arm at a time, look back over each shoulder, sway head and tail, fold forward, and finish by rubbing the hands warm. Go slowly and stop if anything hurts.",
       "why": "Yangsheng, nourishing life, is one of the oldest strands of Daoist practice. The body is not an obstacle to the Way; it is where you meet it.",
       "variations": [
-        "Stand still for ten minutes in the \"holding the tree\" posture.",
+        "Stand still for ten minutes in the holding-the-tree posture.",
         "Follow a tai chi short form.",
-        "Practice outdoors, facing the morning light."
+        "Practise outdoors, facing the morning light."
+      ]
+    },
+    {
+      "id": "standing-like-a-tree",
+      "name": "Standing like a tree",
+      "icon": "tree",
+      "slot": "Morning",
+      "time": "07:15",
+      "minutes": 8,
+      "meta": "Morning · 8 min",
+      "instructions": "Stand with feet shoulder-width apart and knees slightly soft. Let the arms rise as if holding a large ball at chest height. Relax the shoulders, drop the tailbone, breathe low into the belly. Stand until the legs warm and the mind quiets. Stop if you feel pain or dizziness; this is a gentle posture, not an endurance test.",
+      "why": "Standing practice (zhan zhuang) is a common qigong exercise. It trains rootedness and doing nothing on purpose, which is close to the spirit of wu wei.",
+      "variations": [
+        "Stand by a tree and imitate it.",
+        "Three minutes only.",
+        "Lean your back against a wall if balance is hard."
+      ]
+    },
+    {
+      "id": "wake-the-body",
+      "name": "Wake the body",
+      "icon": "person-arms-spread",
+      "slot": "Morning",
+      "time": "06:45",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Before you stand up, stretch like a cat: arms overhead, toes pointed, a long slow yawn. Roll to one side, then the other, and pull each knee in. Sit up slowly, circle your shoulders and neck, then stand. Move as if you had all day. A body that is woken gently stays soft for hours.",
+      "why": "Daoist health practice begins with the body: stretch, breathe, warm up the joints. Animals do this naturally. The old texts copy the stretch of the bear and the bird.",
+      "variations": [
+        "Stretch until the first yawn comes by itself.",
+        "Stretch in a patch of sun.",
+        "Add a slow turn of the head from side to side."
+      ]
+    },
+    {
+      "id": "drink-like-water",
+      "name": "Drink like water",
+      "icon": "drop",
+      "slot": "Morning",
+      "time": "07:00",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Pour a cup of warm water. Hold it in both hands and drink it slowly in small sips, feeling the warmth travel down. Think of water as Laozi did: soft, patient, taking the lowest place, and yet wearing away stone. Ask where in your day you could be more like water.",
+      "why": "Chapter 8 of the Tao Te Ching says the highest good is like water: it benefits all things and does not compete. Warm water is also the everyday drink of much of China.",
+      "variations": [
+        "Add a slice of ginger.",
+        "Pour it into your favourite cup.",
+        "Drink it standing by a window."
+      ]
+    },
+    {
+      "id": "leave-one-thing-alone",
+      "name": "Leave one thing alone",
+      "icon": "hand-palm",
+      "slot": "Morning",
+      "time": "08:00",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Choose one thing you usually push at: a problem, a person, a result. Today, leave it alone. Take your hands off it and do not fix, hurry or manage it. Write one line on what you will not do. Then see what happens. Often, something moves on its own, and you learn how much of your force was only noise.",
+      "why": "Wu wei, effortless action, does not mean doing nothing. It means not forcing. Laozi says the sage acts without strain and everything gets done.",
+      "variations": [
+        "Choose a small thing, such as a kettle that will boil by itself.",
+        "Pick a worry and decide to wait a day.",
+        "Notice each time you start to push, and soften."
+      ]
+    },
+    {
+      "id": "warm-hands-bright-eyes",
+      "name": "Warm hands, bright eyes",
+      "icon": "hand-heart",
+      "slot": "Morning",
+      "time": "06:35",
+      "minutes": 3,
+      "meta": "Morning · 3 min",
+      "instructions": "Rub your palms together fast until they are hot. Place them gently over your closed eyes and rest for ten breaths. Then rub your hands over your face from the chin up, like washing without water. A few breaths of this wakes the eyes and face, and it is a pleasant way to start the day.",
+      "why": "Rubbing the hands and face is a standard opening in many qigong sets. It is a self-massage that says good morning to the senses.",
+      "variations": [
+        "Rub your ears and the back of your neck too.",
+        "Do it again before you start work.",
+        "Do it by a window and open your eyes on the view."
       ]
     },
     {
@@ -329,7 +409,7 @@
       "slot": "Afternoon",
       "time": "12:30",
       "minutes": 30,
-      "meta": "Midday · 30 min",
+      "meta": "Afternoon · 30 min",
       "instructions": "Leave without a destination, a step count or headphones. At each corner take whichever way draws you. Walk at the speed at which you can still notice things. If you find yourself planning the route, stop, look around and begin again.",
       "why": "Zhuangzi’s first chapter is called Free and Easy Wandering. Usefulness and purpose, he suggests, are how the big tree gets cut down.",
       "variations": [
@@ -347,11 +427,75 @@
       "minutes": 15,
       "meta": "Afternoon · 15 min",
       "instructions": "Use loose leaves and a small pot or lidded cup. Warm the vessel, rinse the leaves with a quick pour, then steep briefly and pour it all out into the cup. Smell it before you drink. Make three or four short infusions and notice how each one differs.",
-      "why": "Gongfu tea means tea made with skill and time. It is a lesson in small adjustments and in not rushing a thing that has its own pace.",
+      "why": "Gongfu tea means tea made with skill and time. It is a lesson in small adjustments, and in not rushing a thing that has its own pace.",
       "variations": [
         "Drink the first cup in silence.",
         "Share the pot with one other person.",
         "Brew the same leaf every day and track how it changes."
+      ]
+    },
+    {
+      "id": "do-something-useless",
+      "name": "Do something useless",
+      "icon": "butterfly",
+      "slot": "Afternoon",
+      "time": "14:00",
+      "minutes": 15,
+      "meta": "Afternoon · 15 min",
+      "instructions": "Spend fifteen minutes on something with no use: draw a doodle, skip stones, lie on the grass, watch an ant. Do not tell yourself it will relax you or make you better. Just do it for its own sake. If a guilty voice says you should be productive, tell it that the useless tree lived to a great age.",
+      "why": "Zhuangzi tells of a huge gnarled tree no carpenter would cut, because it was useless, and so it lived for centuries. Doing a little useless thing keeps a corner of life free.",
+      "variations": [
+        "Do it with a child.",
+        "Do something useless for ten minutes outdoors.",
+        "Make something that has no purpose and give it away."
+      ]
+    },
+    {
+      "id": "take-the-lower-place",
+      "name": "Take the lower place",
+      "icon": "caret-down",
+      "slot": "Afternoon",
+      "time": "15:00",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Today, take the lower place somewhere small: the last seat in the row, the last turn in the queue, the second word in the conversation. Do it lightly, not as a martyr. Notice how it feels, and what you hear from there that you could not hear from the front. Laozi says the sea is king of rivers because it lies below them.",
+      "why": "The Tao Te Ching praises the low: the sea, the valley, the female, water. To yield is not to lose. It is to leave room for everything else to come to you.",
+      "variations": [
+        "Let someone else decide where to eat.",
+        "Give your seat or place in a queue.",
+        "Listen for one more minute before you speak."
+      ]
+    },
+    {
+      "id": "sit-by-water",
+      "name": "Sit by water",
+      "icon": "waves",
+      "slot": "Afternoon",
+      "time": "13:30",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Find water, a river, a pond, a fountain, even a tap running into a bowl, and sit beside it for ten minutes. Watch how it goes around stones, fills each hollow and does not push. Ask what it is doing that you are not. Leave a little more fluid than you came.",
+      "why": "Water is the Daoist teacher: yielding and yet unstoppable, taking the shape of any vessel. Chapter 78 says nothing is softer than water, and nothing beats it at wearing down the hard.",
+      "variations": [
+        "Sit with your hand in the water.",
+        "Sit by the sea or a river if you can.",
+        "Listen to rain on a window and do nothing else."
+      ]
+    },
+    {
+      "id": "taste-the-season",
+      "name": "Taste the season",
+      "icon": "carrot",
+      "slot": "Afternoon",
+      "time": "15:30",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Eat something that is in season where you live, a fruit, a root, a leaf, and eat it slowly, with nothing added. Ask what time of year it is by the taste. The Daoist calendar divides the year into twenty-four solar terms, each with its own foods. Warm food in the cold months, light food in the heat.",
+      "why": "Chinese tradition, and Daoist health practice in particular, ties eating to the twenty-four solar terms. It is a way of living inside the year, not above it.",
+      "variations": [
+        "Find out which solar term it is and what to eat.",
+        "Visit a market and buy only what is in season.",
+        "Share it with someone."
       ]
     },
     {
@@ -371,135 +515,332 @@
       ]
     },
     {
-      "id": "standing-like-a-tree",
-      "name": "Standing like a tree",
-      "icon": "tree",
-      "slot": "Morning",
-      "time": "07:15",
-      "minutes": 8,
-      "meta": "Morning · 8 min",
-      "instructions": "Stand with feet shoulder width apart and knees slightly soft. Let the arms rise as if holding a large ball at chest height. Relax the shoulders, drop the tailbone, breathe low into the belly. Stand until the legs warm and the mind quiets. Stop if you feel pain or dizziness; this is a gentle posture, not an endurance test.",
-      "why": "Standing practice (zhan zhuang) is a common qigong exercise. It trains rootedness and doing nothing on purpose, which is close to the spirit of wu wei.",
+      "id": "sit-and-forget",
+      "name": "Sit and forget",
+      "icon": "flower-lotus",
+      "slot": "Evening",
+      "time": "21:00",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Sit comfortably and let the day fall away: the tasks, the faces, the voices. When a thought arrives, let it pass like a cloud. Do not try to be empty. Simply forget, bit by bit, the self that has been busy all day. After ten minutes, notice how much lighter you are.",
+      "why": "Zhuangzi describes zuowang, sitting and forgetting: dropping limbs, dismissing intelligence, merging with the great thoroughfare. It is the Daoist counterpart of quiet sitting.",
       "variations": [
-        "Stand by a tree and imitate it.",
-        "Three minutes only.",
-        "Lean your back against a wall if balance is hard."
+        "Sit by an open window.",
+        "Sit with a cup of warm water.",
+        "Sit for three minutes if ten is too many."
       ]
-    }
-  ],
-  "tasks": [
-    {
-      "id": "read-one-chapter-of-the-tao-te-ching",
-      "name": "Read one chapter of the Tao Te Ching",
-      "meta": "81 chapters, one at a time",
-      "time": "13:00",
-      "slot": "Afternoon"
     },
     {
-      "id": "do-one-thing-without-forcing-it",
-      "name": "Do one thing without forcing it",
-      "meta": "Notice the difference",
-      "time": "18:00",
-      "slot": "Evening"
+      "id": "make-space",
+      "name": "Make space",
+      "icon": "archive",
+      "slot": "Evening",
+      "time": "19:30",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Choose a shelf, a drawer or a corner and take something out of it. Then another. Leave the space emptier than before. Look at it. Laozi says that a pot is useful because of the hollow in it, and a room because of its doors and windows. Notice what the empty space does for the things left.",
+      "why": "Chapter 11 of the Tao Te Ching: what is there gives profit, but what is not there gives use. Emptiness is not a lack. It is what makes things work.",
+      "variations": [
+        "Leave one wall bare.",
+        "Clear one surface and leave it empty on purpose.",
+        "Leave ten minutes of your calendar free and protect it."
+      ]
     },
     {
-      "id": "remove-one-thing",
-      "name": "Remove one thing",
-      "meta": "From a room, a plan or a sentence",
-      "time": "19:00",
-      "slot": "Evening"
-    },
-    {
-      "id": "task-watch-amongst-white-clouds-hermits-in-the-mountains",
-      "name": "Watch Amongst White Clouds: hermits in the mountains",
-      "meta": "Watch · slow on purpose",
+      "id": "one-brushstroke",
+      "name": "One brushstroke",
+      "icon": "paint-brush",
+      "slot": "Evening",
       "time": "20:00",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Take a brush, a pen or even a finger dipped in water, and make one single stroke on a sheet of paper or a flat stone: a line, a curve, a circle. Do it in one breath. Look at it, then make another. Do not correct. Chinese painters say the brush reveals the mind. See which mind you brought.",
+      "why": "Daoist-influenced painters sought spontaneity, ziran. A single stroke made in one breath is a small, enjoyable training in letting things be as they are.",
+      "variations": [
+        "Use water on a dark stone and watch it dry.",
+        "Draw the shape of a mountain in three strokes.",
+        "Write the character for water, shui."
+      ]
+    },
+    {
+      "id": "warm-feet-quiet-mind",
+      "name": "Warm feet, quiet mind",
+      "icon": "bathtub",
       "slot": "Evening",
-      "action": "watch"
-    },
-    {
-      "id": "task-close-your-eyes-for-flowing-water-liu-shui",
-      "name": "Close your eyes for Flowing Water (Liu Shui)",
-      "meta": "Listen · a guqin classic",
-      "time": "16:30",
-      "slot": "Afternoon",
-      "action": "listen"
-    },
-    {
-      "id": "task-journal-where-did-you-push-and-where-did-you-flow",
-      "name": "Journal: where did you push, and where did you flow?",
-      "meta": "Journal · 10 min",
       "time": "21:15",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Fill a basin with comfortably warm water and soak your feet for fifteen minutes. Sit with your back supported, breathe low into the belly, and let the warmth travel up. Add a pinch of salt or a slice of ginger if you like. Dry slowly and go straight to bed. It is an old, cheap pleasure.",
+      "why": "Foot soaking is a common practice in Chinese health care, said to draw energy downward and calm the head. Many people simply find it a delicious way to end the day.",
+      "variations": [
+        "Do it while listening to quiet music.",
+        "Do it with a cup of chrysanthemum tea.",
+        "Do it with someone you love, side by side."
+      ]
+    },
+    {
+      "id": "the-butterfly-question",
+      "name": "The butterfly question",
+      "icon": "notebook",
       "slot": "Evening",
+      "time": "21:30",
+      "minutes": 8,
+      "meta": "Evening · 8 min",
+      "instructions": "Zhuangzi dreamed he was a butterfly, and woke not knowing if he was a man who had dreamed it or a butterfly dreaming it was a man. Write down one thing today that felt solid and then, in a different light, felt like a dream. Let the question stand. You do not need an answer to sleep well.",
+      "why": "The butterfly dream is the best-known story in the Zhuangzi. It is a gentle push away from certainty, and a good last thought for the day.",
+      "variations": [
+        "Write about a dream you had last night.",
+        "Write what you would be if you were not you.",
+        "Tell the story to someone and ask what they think."
+      ],
       "action": "journal"
     },
     {
-      "id": "task-pick-one-thing-for-tomorrow-and-plan-to-not-force-it",
-      "name": "Pick one thing for tomorrow and plan to not force it",
-      "meta": "Philosophy · wu wei, 10 min",
-      "time": "19:30",
-      "slot": "Evening",
-      "action": "philosophy"
+      "id": "walk-under-the-full-moon",
+      "name": "Walk under the full moon",
+      "icon": "moon",
+      "slot": "Special",
+      "time": "21:00",
+      "minutes": 40,
+      "meta": "At full moon · 40 min",
+      "instructions": "On a night near the full moon, walk somewhere quiet and let the light be enough. Many observances in the Chinese lunar calendar fall on the first and fifteenth days of the month. Walk slowly, with nothing in your hands. Stop and look up at least once. Come home and drink something warm.",
+      "why": "The lunar calendar frames many Daoist observances, and walking by moonlight is a Chinese poet’s pleasure from the Tang onward. It is an easy way to feel the month turning.",
+      "variations": [
+        "Go with one friend and say little.",
+        "Walk by water so the moon shines on it.",
+        "Write down one line of what you noticed."
+      ]
     },
     {
-      "id": "task-eat-a-bowl-of-congee-slowly-as-if-it-were-the-main-event",
-      "name": "Eat a bowl of congee slowly, as if it were the main event",
-      "meta": "Eat · 15 min",
-      "time": "08:00",
-      "slot": "Morning",
-      "action": "eat"
-    },
-    {
-      "id": "treat-follow-a-cloud-until-it-changes-into-something-else",
-      "name": "Follow a cloud until it changes into something else",
-      "meta": "Lie down if you can",
-      "time": "15:30",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "treat-pour-water-from-one-cup-to-another-and-watch-how-it-takes-th",
-      "name": "Pour water from one cup to another and watch how it takes the shape",
-      "meta": "One minute",
-      "time": "08:30",
-      "slot": "Morning"
-    },
-    {
-      "id": "treat-take-the-slow-way-home",
-      "name": "Take the slow way home",
-      "meta": "No shortcut today",
-      "time": "19:30",
-      "slot": "Evening"
-    },
-    {
-      "id": "treat-draw-one-circle-with-a-brush-or-a-pen-in-one-breath",
-      "name": "Draw one circle with a brush or a pen, in one breath",
-      "meta": "Keep the first one",
-      "time": "19:30",
-      "slot": "Evening"
-    },
-    {
-      "id": "daily-stretch-slowly-like-a-cat",
-      "name": "Stretch slowly like a cat",
-      "meta": "Let the body wake first",
-      "time": "07:15",
-      "slot": "Morning"
-    },
-    {
-      "id": "daily-watch-the-steam-rise-from-your-tea-or-the-water",
-      "name": "Watch the steam rise from your tea or the water",
-      "meta": "Soft and yielding",
-      "time": "07:15",
-      "slot": "Morning"
-    },
-    {
-      "id": "daily-do-nothing-at-all-for-five-minutes",
-      "name": "Do nothing at all for five minutes",
-      "meta": "Wu wei",
-      "time": "14:00",
-      "slot": "Afternoon"
+      "id": "climb-to-a-high-place",
+      "name": "Climb to a high place",
+      "icon": "mountains",
+      "slot": "Special",
+      "time": "09:00",
+      "minutes": 90,
+      "meta": "On a free day · 90 min",
+      "instructions": "Climb a hill, a tower or the top of a building. On the Double Ninth, people climb to a high place, drink chrysanthemum tea and honour their elders. Take your time, rest when you want to, and sit at the top for a while. Look at what you walked through. Come down a little lighter.",
+      "why": "Daoist temples sit on peaks, and the climb is part of the visit. Climbing to high places is the custom of the Double Ninth, and poets have written about it for two thousand years.",
+      "variations": [
+        "Take someone older, at their pace.",
+        "Take a flask of chrysanthemum tea.",
+        "Climb a hill you can see from your window."
+      ]
     }
   ],
-  "immersePlan": [],
+  "tasks": [],
+  "immersePlan": [
+    {
+      "kind": "read",
+      "item": "read-tao-te-ching",
+      "name": "Read three chapters of the Tao Te Ching",
+      "text": "Open the Tao Te Ching anywhere and read three chapters slowly. They are short. Choose the line that bothers you most, and sit with it for a few minutes before you move on.",
+      "minutes": 10
+    },
+    {
+      "kind": "read",
+      "item": "read-zhuangzi-the-complete-writings",
+      "name": "Read a story from the Zhuangzi",
+      "text": "Read one of the stories from the Inner Chapters: the butcher whose knife never dulls, the useless tree, the butterfly dream. Tell it to someone in your own words later today.",
+      "minutes": 15
+    },
+    {
+      "kind": "read",
+      "item": "read-cold-mountain-poems",
+      "name": "Read a poem by Hanshan",
+      "text": "Read a few poems by Hanshan, the recluse who wrote on rocks and laughed at visitors. Choose one and read it aloud. Notice how far a plain voice can go.",
+      "minutes": 10
+    },
+    {
+      "kind": "watch",
+      "item": "watch-amongst-white-clouds",
+      "name": "Watch hermits in the mountains",
+      "text": "Watch the film about hermits in the Zhongnan Mountains. They are mostly Buddhist, in the range where Daoists also live. Notice how much time they spend on ordinary tasks, and what they say about solitude.",
+      "minutes": 85
+    },
+    {
+      "kind": "watch",
+      "item": "watch-crouching-tiger-hidden-dragon",
+      "name": "Watch Crouching Tiger, Hidden Dragon",
+      "text": "Put on Ang Lee’s film of Wudang swordsmanship and the cost of holding on. Watch for the moments when softness beats force, and for the characters who cannot let go.",
+      "minutes": 120
+    },
+    {
+      "kind": "watch",
+      "item": "watch-tai-chi-master",
+      "name": "Watch Tai Chi Master",
+      "text": "Watch the kung fu telling of the Zhang Sanfeng legend, in which yielding defeats force. Enjoy it as a film, then try standing very still for one minute and see how much strength it takes.",
+      "minutes": 95
+    },
+    {
+      "kind": "listen",
+      "item": "listen-flowing-water-liu-shui",
+      "name": "Listen to Flowing Water on the guqin",
+      "text": "Play Guan Pinghu’s Flowing Water, seven strings and a great deal of silence. It was sent into space on the Voyager records. Listen with your eyes closed, and follow the pauses as much as the notes.",
+      "minutes": 8
+    },
+    {
+      "kind": "listen",
+      "item": "listen-in-our-time-daoism",
+      "name": "Listen to In Our Time on Daoism",
+      "text": "Put on the programme where scholars discuss the texts, the religion and the difference between them. Listen on a walk, and note one thing that surprised you.",
+      "minutes": 45
+    },
+    {
+      "kind": "listen",
+      "item": "listen-guqin-and-xiao-duets",
+      "name": "Hear the scholar’s instruments",
+      "text": "Play a recording of guqin zither with xiao bamboo flute, the scholar’s instruments. Make a cup of tea, sit and do nothing else for ten minutes.",
+      "minutes": 10
+    },
+    {
+      "kind": "art",
+      "item": "art-early-spring",
+      "name": "Look at Early Spring by Guo Xi",
+      "text": "Look at the great mountain painting of 1072, a mountain that seems to breathe. Find the small figures first, then follow the mists up. Spend five minutes before you leave it.",
+      "minutes": 5
+    },
+    {
+      "kind": "art",
+      "item": "art-travelers-among-mountains-and-streams",
+      "name": "Find the travellers",
+      "text": "Look at Fan Kuan’s monumental landscape and find the travellers. They are very small. Ask what the painting is telling you about your place in the picture.",
+      "minutes": 5
+    },
+    {
+      "kind": "art",
+      "item": "art-scholar-s-rocks",
+      "name": "Look at a scholar’s rock",
+      "text": "Look for photographs of a gongshi, a scholar’s rock, chosen and not carved. Then walk outside and choose a stone that has its own character. Hold it, look at it, put it somewhere you will see it.",
+      "minutes": 10
+    },
+    {
+      "kind": "eat",
+      "item": "eat-congee",
+      "name": "Make a pot of congee",
+      "text": "Simmer a cup of rice in eight cups of water until it is soft and creamy, with a pinch of salt. Add ginger or scallion and serve warm. Plain, easy on the body, and good on any day you feel run down.",
+      "minutes": 60
+    },
+    {
+      "kind": "eat",
+      "item": "eat-steamed-seasonal-vegetables",
+      "name": "Steam what is in season",
+      "text": "Steam whatever vegetables are in season until just tender and barely season them. Taste each separately. Ask what the vegetable would say if it could speak.",
+      "minutes": 20
+    },
+    {
+      "kind": "eat",
+      "item": "eat-tofu-and-mushrooms",
+      "name": "Braise tofu and mushrooms",
+      "text": "Braise tofu and mushrooms simply with a little soy sauce and ginger, as in monastery kitchens across China. Eat slowly with rice and notice how few things you need.",
+      "minutes": 30
+    },
+    {
+      "kind": "drink",
+      "item": "drink-oolong",
+      "name": "Brew oolong in several short steeps",
+      "text": "Brew oolong in a small pot or cup: steep for thirty seconds, pour out, steep again for a little longer. Taste how each infusion differs. Stop when the flavour fades.",
+      "minutes": 20
+    },
+    {
+      "kind": "drink",
+      "item": "drink-pu-erh",
+      "name": "Drink pu-erh, dark and earthy",
+      "text": "Rinse the pu-erh leaves with a quick pour, then steep briefly. It is dark, earthy and settling. Drink it with a plain biscuit and sit for a few minutes after you finish.",
+      "minutes": 15
+    },
+    {
+      "kind": "drink",
+      "item": "drink-chrysanthemum-tea",
+      "name": "Brew chrysanthemum tea",
+      "text": "Put a few dried chrysanthemum flowers in a glass cup and pour hot water over them. Watch them open. It was Tao Yuanming’s flower, and it is cooling in warm weather. Drink it slowly.",
+      "minutes": 10
+    },
+    {
+      "kind": "customs",
+      "item": "customs-practice-at-dawn",
+      "name": "Practise at first light",
+      "text": "In parks across China, people practise tai chi and qigong at first light. Today, take your own morning movement outdoors, even for five minutes. Do what you know, however simple.",
+      "minutes": 10
+    },
+    {
+      "kind": "customs",
+      "item": "customs-eat-with-the-seasons",
+      "name": "Eat for the season",
+      "text": "Chinese tradition eats by the twenty-four solar terms: warm food in winter, light food in summer. Plan one meal today that fits the weather outside. Notice how it feels to match the day.",
+      "minutes": 30
+    },
+    {
+      "kind": "customs",
+      "item": "customs-leave-space",
+      "name": "Leave space on purpose",
+      "text": "Chapter 11 says the empty part is what makes a thing useful. Today, leave a gap: a free half hour, an empty corner of a page, a pause before answering. Notice what it lets in.",
+      "minutes": 5
+    },
+    {
+      "kind": "games",
+      "item": "games-xiangqi",
+      "name": "Play Chinese chess",
+      "text": "Play xiangqi, the Chinese chess in which two armies face each other across a river. Learn the basic moves, then play a short game. Notice how patience and tempo matter.",
+      "minutes": 30
+    },
+    {
+      "kind": "games",
+      "item": "games-weiqi",
+      "name": "Play weiqi, known as Go",
+      "text": "Play a short game of Go, which began in China. Place a stone, then another, and see how the board fills. Do not try to win each local fight. Think about balance and territory.",
+      "minutes": 30
+    },
+    {
+      "kind": "games",
+      "item": "games-black-myth-wukong",
+      "name": "Play a little of Black Myth: Wukong",
+      "text": "If you have the game, play for twenty minutes and look for the Taoist and Buddhist imagery from Journey to the West. If not, read a short summary of that story and imagine the world it describes.",
+      "minutes": 20
+    },
+    {
+      "kind": "travel",
+      "item": "fest-lantern-festival",
+      "name": "Light a lantern for the first full moon",
+      "text": "The Lantern Festival marks the first full moon of the lunar year. Make or buy a small paper lantern, or light a candle in a jar, and sit with it for ten minutes. Share it with someone, or simply look.",
+      "minutes": 15
+    },
+    {
+      "kind": "travel",
+      "item": "fest-double-ninth",
+      "name": "Keep the Double Ninth",
+      "text": "On the ninth day of the ninth lunar month, people climb to a high place, drink chrysanthemum tea and honour their elders. Do any one of those three today, or ring an older relative.",
+      "minutes": 30
+    },
+    {
+      "kind": "travel",
+      "item": "place-wudang-mountains",
+      "name": "Visit the Wudang Mountains by photograph",
+      "text": "Look up pictures of the Wudang Mountains, peaks crowded with Daoist palaces and temples from the Ming dynasty. Find the one that draws you most, and imagine the climb.",
+      "minutes": 10
+    },
+    {
+      "kind": "words",
+      "item": "word-wu-wei",
+      "name": "Try wu wei on one task",
+      "text": "Wu wei is effortless action, not forcing. Pick one task and do it with half the effort you usually give. Let the pace, the angle and the tool do their share. Notice what actually needed force.",
+      "minutes": 10
+    },
+    {
+      "kind": "words",
+      "item": "word-ziran",
+      "name": "Look for ziran",
+      "text": "Ziran means so of itself, naturalness. Walk for ten minutes and look for things that are exactly as they are: a stone, a puddle, a weed in a crack. Say ziran quietly each time you find one.",
+      "minutes": 10
+    },
+    {
+      "kind": "words",
+      "item": "word-pu",
+      "name": "Think of the uncarved block",
+      "text": "Pu is the uncarved block: simplicity before shaping. Pick one thing in your life you have over-decorated, a plan, a room, a sentence, and strip it back by one layer.",
+      "minutes": 10
+    }
+  ],
   "rules": [
     {
       "id": "r1",

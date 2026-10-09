@@ -314,8 +314,8 @@
       "time": "06:00",
       "minutes": 10,
       "meta": "Morning · 10 min",
-      "instructions": "Sit upright, close your eyes and take three slow breaths. On each long out-breath sound Om in three parts: A, open, from the belly; U, rolling forward through the mouth; M, humming at the lips. Then stay in the silence that follows for as long as the in-breath lasts. Continue for ten minutes. In the last minute, drop the sound and listen only to the silence.",
-      "why": "The Māṇḍūkya Upaniṣad is twelve verses on this one syllable. The three sounds stand for waking, dream and deep sleep, and the silence for the awareness that is present in all three.",
+      "instructions": "Sit upright, close your eyes and take three slow breaths. On each long out-breath sound Om in three parts: A, open, from the belly; U, rolling forward through the mouth; M, humming at the lips. Then stay in the silence that follows for as long as the in-breath lasts. Continue for ten minutes. In the last minute, drop the sound and sit in the silence.",
+      "why": "The Māṇḍūkya Upaniṣad is twelve verses on this one syllable. The three sounds stand for waking, dream and deep sleep, and the silence for the awareness beneath them.",
       "variations": [
         "Chant silently, hearing it in the mind.",
         "Chant along with a tanpura drone.",
@@ -330,12 +330,76 @@
       "time": "06:30",
       "minutes": 15,
       "meta": "Morning · 15 min",
-      "instructions": "Sit quietly. When a thought arises, do not follow it. Ask instead: to whom has this thought come? The answer is \"to me\". Then ask: who am I? Do not answer in words. Turn attention back toward the sense of \"I\" itself and rest there. When another thought comes, repeat. The question is not a mantra. It is a way of turning the mind around.",
-      "why": "Ramana Maharshi taught this as the most direct means: find the source of the \"I\"-thought and every other thought subsides with it.",
+      "instructions": "Sit quietly. When a thought arises, do not follow it. Ask instead: to whom has this thought come? The answer is to me. Then ask: who am I? Do not answer in words. Turn attention back toward the sense of I itself and rest there. When another thought comes, repeat. The question is not a mantra. It is a way of turning the mind around.",
+      "why": "Ramana Maharshi taught this as the most direct means: find the source of the I-thought and every other thought subsides with it.",
       "variations": [
         "Neti neti: I am aware of the body, so I am not the body; of this thought, so not this thought. What remains?",
         "Sit as the witness and simply watch.",
         "Ask the question once in the middle of a busy moment."
+      ]
+    },
+    {
+      "id": "begin-in-silence",
+      "name": "Begin in silence",
+      "icon": "eye-closed",
+      "slot": "Morning",
+      "time": "05:45",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Before you speak to anyone or pick up a screen, sit for five minutes in silence. Say nothing aloud and do not read. Let the first words of the day be your own thoughts, not someone else’s. When you do speak, make it a greeting. The first quiet minutes set the tone for the rest of the day.",
+      "why": "This Onda’s first rule is to begin in silence. Traditional teachers give the early morning, brahma muhurta, as the best hour for study and meditation, because the world is still quiet.",
+      "variations": [
+        "Do it outside, if you can.",
+        "Do it with a window open and listen.",
+        "Extend it to ten minutes on a day off."
+      ]
+    },
+    {
+      "id": "offer-the-first-bite",
+      "name": "Offer the first bite",
+      "icon": "bowl-food",
+      "slot": "Morning",
+      "time": "07:30",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Before you eat or drink the first thing today, pause and offer it, in your mind, with thanks: to the earth that grew it, the hands that carried it, the sun. Then eat. In many Hindu homes food is offered before it is eaten, and what is offered comes back as a gift. A moment of thanks is enough.",
+      "why": "Prasāda is food offered and then received as a gift. The gesture turns an ordinary meal into something shared, and it slows you down for the first mouthful.",
+      "variations": [
+        "Say thank you aloud.",
+        "Offer a small piece to a bird outside.",
+        "Do it for every meal today."
+      ]
+    },
+    {
+      "id": "not-this-not-this",
+      "name": "Not this, not this",
+      "icon": "circle-dashed",
+      "slot": "Morning",
+      "time": "07:00",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Name three things you take yourself to be: your body, your thoughts, your job. Next to each, say neti, not this, and notice the one who is looking. Say it slowly, and rest for a breath after each. You are not erasing anything. You are noticing what can be seen, and what cannot.",
+      "why": "Neti neti, not this, not this, is the classic Upaniṣadic way of pointing to the self by setting aside what it is not. It is gentler than it sounds and often brings relief.",
+      "variations": [
+        "Do it with your role at work.",
+        "Do it with an emotion you are feeling.",
+        "Do it while looking in a mirror."
+      ]
+    },
+    {
+      "id": "a-light-simple-breakfast",
+      "name": "A light, simple breakfast",
+      "icon": "carrot",
+      "slot": "Morning",
+      "time": "08:00",
+      "minutes": 15,
+      "meta": "Morning · 15 min",
+      "instructions": "Eat something light and fresh this morning: fruit, porridge, a bowl of warm rice and lentils. Cook it yourself if you can, and eat it sitting down, with attention. Notice how you feel after, clear or heavy. Vedanta’s tradition calls light, fresh food sattvic, the kind that helps the mind stay bright.",
+      "why": "The rule of this Onda is to eat simple, light, vegetarian food. Fresh, mildly spiced food is said to support a calm and clear mind. You can test it by how you feel at ten o’clock.",
+      "variations": [
+        "Make khichdi, rice and lentils together.",
+        "Skip coffee for one morning.",
+        "Eat in silence."
       ]
     },
     {
@@ -355,18 +419,83 @@
       ]
     },
     {
-      "id": "karma-yoga-service",
-      "name": "Karma yoga: service",
-      "icon": "hand-heart",
-      "slot": "Evening",
-      "time": "18:30",
-      "meta": "Evening · Without reward",
-      "instructions": "Do one piece of work for someone else: cook, clean, help, give. Do it as well as you can. Before you begin, offer it; when it is done, let go of how it is received. Do not mention it.",
-      "why": "The Gītā’s teaching on action: you have a claim on the work, never on its fruits. Action done without clutching at results purifies the mind and makes it fit for knowledge.",
+      "id": "do-one-task-as-an-offering",
+      "name": "Do one task as an offering",
+      "icon": "hands-praying",
+      "slot": "Afternoon",
+      "time": "13:00",
+      "minutes": 15,
+      "meta": "Afternoon · 15 min",
+      "instructions": "Choose one task today, a call, an email, a chore. Before you start, offer it: may this be done well, and may it help. Then do it fully, as if it were for someone you love. When it is done, let go of how it is received. Notice how the task feels with no reward attached.",
+      "why": "Karma yoga, the yoga of action: you have a claim on the work, never on its fruits. Doing the next thing well and dropping the result is, for the Gītā, the way to be free in the middle of life.",
       "variations": [
-        "Do an ordinary chore as an offering.",
-        "Give something away anonymously.",
-        "Do your paid work today with full care and no thought of credit."
+        "Do a household chore in this way.",
+        "Do your hardest task of the day this way.",
+        "Do a task for someone who will never know."
+      ]
+    },
+    {
+      "id": "real-or-passing",
+      "name": "Real or passing?",
+      "icon": "scales",
+      "slot": "Afternoon",
+      "time": "14:30",
+      "minutes": 8,
+      "meta": "Afternoon · 8 min",
+      "instructions": "Think of three things you value: a possession, a plan, a relationship. For each, ask the question that Vedanta calls viveka, discrimination: does this last, or does it change? What in me stays when it changes? Write your answers in a line each. Do not despair at the impermanence. Look for what does not move.",
+      "why": "Viveka, the ability to tell the lasting from the passing, is the first quality a student of Vedanta is meant to have. Everything else grows from asking this question again and again.",
+      "variations": [
+        "Ask it of one worry.",
+        "Ask it of your reflection.",
+        "Ask it of an object you love."
+      ]
+    },
+    {
+      "id": "notice-the-wanting",
+      "name": "Notice the wanting",
+      "icon": "eye",
+      "slot": "Afternoon",
+      "time": "16:00",
+      "minutes": 15,
+      "meta": "Afternoon · 15 min",
+      "instructions": "Walk or sit and notice each time the mind says I want. A snack, a message, a better sofa. Do not fight it. Say gently: wanting, and see what happens to the wanting when you look at it. Is the thing as important as it seemed a minute ago? Vairāgya, dispassion, is not coldness. It is freedom from being pulled.",
+      "why": "Vairāgya is the second quality of the student of Vedanta. It is practised by watching desire arise and fall, until you are no longer carried by every wave.",
+      "variations": [
+        "Do it in a shop or a mall.",
+        "Do it for one hour at your desk.",
+        "Do it while looking at a menu."
+      ]
+    },
+    {
+      "id": "listen-reflect-absorb",
+      "name": "Listen, reflect, absorb",
+      "icon": "ear",
+      "slot": "Afternoon",
+      "time": "17:00",
+      "minutes": 15,
+      "meta": "Afternoon · 15 min",
+      "instructions": "Listen to a short talk on Vedanta, fifteen minutes or so. Use a recording by a teacher, with no distractions. Afterward, write down the one thing you heard and one question. Wait a day and see whether the question answers itself. Vedanta’s method is to listen first, then reflect, then absorb.",
+      "why": "The classical steps are śravaṇa (listening), manana (reflection) and nididhyāsana (contemplation). Hearing from a teacher comes first, because the words are doing the pointing.",
+      "variations": [
+        "Listen on a walk.",
+        "Listen with someone and talk afterward.",
+        "Listen to the same talk twice and notice what changes."
+      ]
+    },
+    {
+      "id": "true-and-kind",
+      "name": "True and kind",
+      "icon": "chat-circle-text",
+      "slot": "Afternoon",
+      "time": "14:00",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "In one conversation today, hold to this rule: say only what is true and kind. If it is true but unkind, wait. If it is kind but untrue, drop it. Notice how much of ordinary talk is neither. Notice, too, how rich a conversation can be when it is only these two.",
+      "why": "Satya, truthfulness, and ahiṃsā, non-harming, are two basic Hindu ethical ideals. The rule that you speak what is true and kind joins them.",
+      "variations": [
+        "Do it for a whole meeting.",
+        "Do it in an email.",
+        "Do it with someone who is hard to talk to."
       ]
     },
     {
@@ -377,128 +506,341 @@
       "time": "20:30",
       "minutes": 8,
       "meta": "Evening · 8 min",
-      "instructions": "Sit quietly. Notice a thought, then notice the one who notices it. Notice a feeling, then the one who is aware of it. Whenever something appears, say gently: \"this is seen.\" Rest as the seeing, not as what is seen. If it feels abstract, simply keep asking: \"Who is aware of this?\"",
+      "instructions": "Sit quietly. Notice a thought, then notice the one who notices it. Notice a feeling, then the one who is aware of it. Whenever something appears, say gently: this is seen. Rest as the seeing, not as what is seen. If it feels abstract, simply keep asking: who is aware of this?",
       "why": "Advaita Vedanta points to the sākṣin, the witness, as the doorway to self-inquiry: whatever can be observed cannot be the observer.",
       "variations": [
         "Do it while walking.",
         "Use sounds instead of thoughts.",
         "End with two slow Oms."
       ]
-    }
-  ],
-  "tasks": [
-    {
-      "id": "read-three-verses-of-the-gita",
-      "name": "Read three verses of the Gita",
-      "meta": "Chapter 2 first",
-      "time": "13:00",
-      "slot": "Afternoon"
     },
     {
-      "id": "sit-in-silence-at-sunset",
-      "name": "Sit in silence at sunset",
-      "meta": "10 minutes",
-      "time": "18:00",
-      "slot": "Evening"
+      "id": "karma-yoga-service",
+      "name": "Karma yoga: service",
+      "icon": "hand-heart",
+      "slot": "Evening",
+      "time": "18:30",
+      "minutes": 20,
+      "meta": "Evening · 20 min",
+      "instructions": "Do one piece of work for someone else: cook, clean, help, give. Do it as well as you can. Before you begin, offer it; when it is done, let go of how it is received. Do not mention it.",
+      "why": "The Gītā’s teaching on action: you have a claim on the work, never on its fruits. Action done without clutching at results purifies the mind and makes it steady.",
+      "variations": [
+        "Do an ordinary chore as an offering.",
+        "Give something away anonymously.",
+        "Do your paid work today with full care and no thought of credit."
+      ]
     },
     {
       "id": "light-a-lamp-at-dusk",
       "name": "Light a lamp at dusk",
-      "meta": "A small evening ritual",
-      "time": "19:00",
-      "slot": "Evening"
-    },
-    {
-      "id": "task-read-a-chapter-of-the-upani-ads-and-carry-one-line-all-day",
-      "name": "Read a chapter of the Upaniṣads and carry one line all day",
-      "meta": "Read · short and deep",
-      "time": "12:30",
-      "slot": "Afternoon",
-      "action": "read"
-    },
-    {
-      "id": "task-listen-to-bhaja-govindam-a-song-attributed-to-a-kara",
-      "name": "Listen to Bhaja Govindam, a song attributed to Śaṅkara",
-      "meta": "Listen · sung wisdom",
-      "time": "16:30",
-      "slot": "Afternoon",
-      "action": "listen"
-    },
-    {
-      "id": "task-journal-what-did-you-take-yourself-to-be-today-body-role-mind",
-      "name": "Journal: what did you take yourself to be today: body, role, mind?",
-      "meta": "Journal · 10 min",
-      "time": "21:15",
+      "icon": "flame",
       "slot": "Evening",
+      "time": "19:30",
+      "minutes": 5,
+      "meta": "Evening · 5 min",
+      "instructions": "At dusk, light a lamp or a candle and set it where you will see it. Sit before it for a minute with palms together, thinking: may this light reach all that is dark. Let it burn while you cook or read. A small flame at the meeting of day and night is one of the oldest and most gentle gestures.",
+      "why": "Dīpa, the lamp lit at dusk, is part of everyday Hindu life, in homes and temples. The flame stands for knowledge dispelling ignorance, and anyone can light one.",
+      "variations": [
+        "Light it and sit in silence for five minutes.",
+        "Light it for someone you are thinking of.",
+        "Blow it out with thanks."
+      ]
+    },
+    {
+      "id": "good-company",
+      "name": "Good company",
+      "icon": "users-three",
+      "slot": "Evening",
+      "time": "19:00",
+      "minutes": 20,
+      "meta": "Evening · 20 min",
+      "instructions": "Spend twenty minutes with people who turn your mind toward what matters: a friend, a teacher, a group that sits or listens together. Do not rush to fill the silence. In Vedanta this is satsaṅga, keeping company with what is true. Choose the company that leaves you quieter, not more agitated.",
+      "why": "Satsaṅga is a basic practice: you become like the company you keep. Sitting with others in silence, or listening to a talk together, steadies the mind.",
+      "variations": [
+        "Join an online group talk.",
+        "Sit in silence with a family member.",
+        "Walk with someone you trust and talk about a big question."
+      ]
+    },
+    {
+      "id": "who-was-upset",
+      "name": "Who was upset?",
+      "icon": "notebook",
+      "slot": "Evening",
+      "time": "21:30",
+      "minutes": 8,
+      "meta": "Evening · 8 min",
+      "instructions": "Think of one moment today when you were upset. Write what happened in two lines. Then ask: who was upset? Not the body, not the situation, but the one who felt it. Spend a minute with that question and see whether the upset loosens. Write a line on what you saw.",
+      "why": "The rule of this Onda: when you are upset, ask who is upset. The question turns attention from the story to the one who is telling it, and the story often relaxes.",
+      "variations": [
+        "Do it for a small irritation.",
+        "Do it for a pleasant feeling too.",
+        "Do it as a conversation with a friend."
+      ],
       "action": "journal"
     },
     {
-      "id": "task-write-on-tman-is-brahman-what-changes-if-you-believe-it",
-      "name": "Write on “Ātman is Brahman”: what changes if you believe it?",
-      "meta": "Philosophy · 10 min",
-      "time": "19:30",
+      "id": "warm-turmeric-milk",
+      "name": "Warm turmeric milk",
+      "icon": "coffee",
       "slot": "Evening",
-      "action": "philosophy"
+      "time": "21:00",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Warm a cup of milk, dairy or plant, and stir in a pinch of turmeric and, if you like, a little honey or pepper. Sip slowly before bed, sitting down, with the lights low. This is haldi doodh, taken in many Indian homes at night. Let the warmth be the last thing you do.",
+      "why": "Haldi doodh, golden milk, is a bedtime comfort in many homes. It belongs to the everyday side of the tradition, the plain kindness one gives the body before sleep.",
+      "variations": [
+        "Add a cinnamon stick.",
+        "Make it for someone else.",
+        "Drink it in silence by a candle."
+      ]
     },
     {
-      "id": "task-eat-a-plain-bowl-of-khichdi-and-taste-each-thing-in-it",
-      "name": "Eat a plain bowl of khichdi and taste each thing in it",
-      "meta": "Eat · 15 min",
-      "time": "13:00",
-      "slot": "Afternoon",
-      "action": "eat"
+      "id": "the-hour-before-dawn",
+      "name": "The hour before dawn",
+      "icon": "sun-horizon",
+      "slot": "Special",
+      "time": "05:00",
+      "minutes": 40,
+      "meta": "Before sunrise · 40 min",
+      "instructions": "Once in a while, get up before sunrise and spend forty minutes in the quiet: wash, sit, read a verse, chant Om, and watch the light come. Traditional teachers call this the brahma muhurta and recommend it for study and meditation. It is hard to start and a joy once you do.",
+      "why": "The hour before dawn is called brahma muhurta. The world is quiet and the mind is fresh, so study and meditation are said to come most easily.",
+      "variations": [
+        "Do it with a friend by phone.",
+        "Do it outdoors and watch the sunrise.",
+        "Do it once a week."
+      ]
     },
     {
-      "id": "treat-watch-the-sunrise-and-stay-for-one-full-minute-after-you-wan",
-      "name": "Watch the sunrise and stay for one full minute after you want to leave",
-      "meta": "Just watch",
-      "time": "08:30",
-      "slot": "Morning"
-    },
-    {
-      "id": "treat-hum-one-long-om-in-the-shower-and-feel-where-it-sits",
-      "name": "Hum one long Om in the shower and feel where it sits",
-      "meta": "It resonates well there",
-      "time": "08:30",
-      "slot": "Morning"
-    },
-    {
-      "id": "treat-look-in-the-mirror-and-ask-who-is-looking",
-      "name": "Look in the mirror and ask who is looking",
-      "meta": "Smile at the answer",
-      "time": "19:30",
-      "slot": "Evening"
-    },
-    {
-      "id": "treat-eat-one-piece-of-fruit-as-an-offering-first-then-as-food",
-      "name": "Eat one piece of fruit as an offering first, then as food",
-      "meta": "Slowly",
-      "time": "15:30",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "daily-name-three-things-you-are-not-then-notice-who-named-them",
-      "name": "Name three things you are not, then notice who named them",
-      "meta": "Neti neti: not this, not this",
-      "time": "07:15",
-      "slot": "Morning"
-    },
-    {
-      "id": "daily-do-one-task-today-as-an-offering",
-      "name": "Do one task today as an offering",
-      "meta": "Karma yoga",
-      "time": "14:00",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "daily-read-one-verse-of-the-gita-or-an-upanishad-slowly",
-      "name": "Read one verse of the Gita or an Upanishad, slowly",
-      "meta": "One is enough",
-      "time": "14:00",
-      "slot": "Afternoon"
+      "id": "a-morning-of-silence",
+      "name": "A morning of silence",
+      "icon": "feather",
+      "slot": "Special",
+      "time": "08:00",
+      "minutes": 90,
+      "meta": "On a free morning · 90 min",
+      "instructions": "On a free morning, keep silence for ninety minutes. Speak no words, send no messages, and do your usual tasks very slowly. Notice how much of your speech is habit. Notice how the world answers when you do not fill it. Come out of the silence and say one true thing.",
+      "why": "Maunam, silence, is an old Indian practice and often kept as a vow for a day or for a few hours. It is good for the mind and a rest for everyone around you.",
+      "variations": [
+        "Keep it with someone at home who agrees.",
+        "Keep it outdoors on a walk.",
+        "Keep it and write down only the most important thing you notice."
+      ]
     }
   ],
-  "immersePlan": [],
+  "tasks": [],
+  "immersePlan": [
+    {
+      "kind": "read",
+      "item": "read-bhagavad-gita",
+      "name": "Read a chapter of the Gītā",
+      "text": "Read one chapter of the Bhagavad Gītā, or the first few pages of chapter 2, in a translation you like. Choose one verse and say what it asks of you today.",
+      "minutes": 15
+    },
+    {
+      "kind": "read",
+      "item": "read-who-am-i",
+      "name": "Read Ramana Maharshi’s Who Am I?",
+      "text": "It is only a few pages of questions and answers. Read it slowly in one sitting, then sit for five minutes and try its one question.",
+      "minutes": 15
+    },
+    {
+      "kind": "read",
+      "item": "read-the-upanisads",
+      "name": "Read a short Upaniṣad",
+      "text": "Read one of the shorter Upaniṣads, such as the Kaṭha, the story of the boy who asks Death what lies beyond. Take your time, and note the line that makes you stop.",
+      "minutes": 20
+    },
+    {
+      "kind": "watch",
+      "item": "watch-the-mahabharata",
+      "name": "Watch a scene of Brook’s Mahabharata",
+      "text": "Watch the scene from Peter Brook’s staged epic where the Gītā is spoken on the battlefield. It is an international cast and a great piece of theatre. Ask what Arjuna’s doubt has to do with yours.",
+      "minutes": 30
+    },
+    {
+      "kind": "watch",
+      "item": "watch-introduction-to-vedanta",
+      "name": "Watch a Vedanta talk",
+      "text": "Watch one of Swami Sarvapriyananda’s lectures from the Vedanta Society of New York. They are clear, traditional and often funny. Pause once and write what he just said in your own words.",
+      "minutes": 40
+    },
+    {
+      "kind": "watch",
+      "item": "watch-swami-dayananda-on-the-bhagavad-gita",
+      "name": "Watch a class on the Gītā",
+      "text": "Watch a short session from the recorded Gītā classes of Swami Dayananda. Notice how he builds an idea slowly, one question at a time, and how patient the teaching is.",
+      "minutes": 30
+    },
+    {
+      "kind": "listen",
+      "item": "listen-bhaja-govindam",
+      "name": "Hear Subbulakshmi sing Bhaja Govindam",
+      "text": "Play the hymn attributed to Śaṅkara, sung by M. S. Subbulakshmi. Follow the pulse, not the words. The hymn says: seek the Lord, fool, when death arrives your grammar will not save you.",
+      "minutes": 10
+    },
+    {
+      "kind": "listen",
+      "item": "listen-chants-of-india",
+      "name": "Play Chants of India",
+      "text": "Play a track from Ravi Shankar’s Chants of India, produced by George Harrison: Vedic prayers and Upaniṣadic verses set with great restraint. Close your eyes and let one chant run for its full length.",
+      "minutes": 10
+    },
+    {
+      "kind": "listen",
+      "item": "listen-tanpura-drone",
+      "name": "Sit with a tanpura drone",
+      "text": "Play a tanpura drone, the four-string drone behind Indian classical music. Chant Om softly against it for five minutes, then stay with the drone in silence.",
+      "minutes": 10
+    },
+    {
+      "kind": "art",
+      "item": "art-arunachala",
+      "name": "Look at Arunachala",
+      "text": "Look at pictures of the hill in Tamil Nadu that Ramana Maharshi never left. Pilgrims walk the fourteen kilometres around its foot. Imagine walking it, and what you would think about on the way.",
+      "minutes": 5
+    },
+    {
+      "kind": "art",
+      "item": "art-shiva-as-lord-of-the-dance",
+      "name": "Look at the Chola Nataraja",
+      "text": "Look at the Chola bronze of Shiva as Lord of the Dance, creation and dissolution in one poised figure. Find the drum, the flame and the raised foot. Stand in that pose for a moment and see what it asks of the body.",
+      "minutes": 10
+    },
+    {
+      "kind": "art",
+      "item": "art-om-in-devanagari",
+      "name": "Draw the symbol Om",
+      "text": "Draw the symbol Om by hand, slowly: three curves, a crescent and a dot. The curves are three states of mind, and the dot is what lies beyond them. Draw it three times and keep the best.",
+      "minutes": 10
+    },
+    {
+      "kind": "eat",
+      "item": "eat-khichdi",
+      "name": "Cook a pot of khichdi",
+      "text": "Cook rice and split lentils together with turmeric, salt and a little ghee. It is the plainest and most nourishing of Indian dishes. Eat it warm, slowly, and notice how little it needs.",
+      "minutes": 40
+    },
+    {
+      "kind": "eat",
+      "item": "eat-a-sattvic-meal",
+      "name": "Eat a sattvic meal",
+      "text": "Cook dal, rice and a vegetable fresh, with mild spices and a little ghee. Eat it calmly, sitting down, with no screen. Notice how clear you feel afterwards.",
+      "minutes": 45
+    },
+    {
+      "kind": "eat",
+      "item": "eat-curd-rice",
+      "name": "Make curd rice",
+      "text": "Stir cold rice with yoghurt and a pinch of salt, then top with a tempering of mustard seed in hot oil. Curd rice is the last course of a South Indian meal and wonderfully cooling.",
+      "minutes": 15
+    },
+    {
+      "kind": "drink",
+      "item": "drink-warm-turmeric-milk",
+      "name": "Drink haldi doodh",
+      "text": "Warm a cup of milk with turmeric and a little honey and sip it before bed. Hold the cup in both hands and think of nothing for the length of it.",
+      "minutes": 10
+    },
+    {
+      "kind": "drink",
+      "item": "drink-masala-chai",
+      "name": "Brew masala chai",
+      "text": "Simmer tea with milk, ginger and cardamom, a crack of pepper if you like. Pour it into a cup you love and drink it slowly while it is still too hot.",
+      "minutes": 15
+    },
+    {
+      "kind": "drink",
+      "item": "drink-tulsi-tea",
+      "name": "Sip tulsi tea",
+      "text": "Make an infusion of tulsi, holy basil, a plant grown in many Hindu courtyards. Notice the scent as it steeps. Drink it slowly and be glad of a plant that people have loved for centuries.",
+      "minutes": 10
+    },
+    {
+      "kind": "customs",
+      "item": "customs-namaste",
+      "name": "Greet with namaste",
+      "text": "Put your palms together at the heart and bow slightly as you greet someone today. It honours what is the same in both of you. Notice how it changes the way you say hello.",
+      "minutes": 5
+    },
+    {
+      "kind": "customs",
+      "item": "customs-offer-food-first",
+      "name": "Offer the food first",
+      "text": "Before a meal, set the food before you and offer it in thought with thanks, then eat. What is offered comes back as a gift. Share a little with someone else.",
+      "minutes": 5
+    },
+    {
+      "kind": "customs",
+      "item": "customs-light-a-lamp-at-dusk",
+      "name": "Light a lamp at dusk",
+      "text": "Light a small flame at the meeting of day and night, and sit with it for a minute. It is the oldest gesture of the evening, and anyone can do it.",
+      "minutes": 5
+    },
+    {
+      "kind": "games",
+      "item": "games-gyan-chaupar",
+      "name": "Play the game of knowledge",
+      "text": "Gyan Chaupar is the game of knowledge, ancestor of Snakes and Ladders, with squares named for virtues and vices. Draw a simple board with ladders for virtues and snakes for vices and play with someone.",
+      "minutes": 30
+    },
+    {
+      "kind": "games",
+      "item": "games-chaturanga",
+      "name": "Play a game of chess",
+      "text": "Chaturanga is the ancient Indian game of the four limbs of an army, the ancestor of chess. Play a short game of chess with someone, and notice the old Indian pieces behind the modern ones.",
+      "minutes": 30
+    },
+    {
+      "kind": "games",
+      "item": "games-pachisi",
+      "name": "Play Pachisi",
+      "text": "Pachisi is a cross-shaped race game played with cowrie shells for dice. Draw a cross board and use six coins for the shells, or play its descendant, Ludo, and let chance have its say.",
+      "minutes": 30
+    },
+    {
+      "kind": "travel",
+      "item": "fest-guru-purnima",
+      "name": "Honour a teacher on Guru Purnima",
+      "text": "Guru Purnima is the full moon when teachers are honoured, kept in memory of Vyasa. Write or call a teacher who gave you something that lasts, and say what it was.",
+      "minutes": 15
+    },
+    {
+      "kind": "travel",
+      "item": "fest-gita-jayanti",
+      "name": "Mark Gita Jayanti",
+      "text": "Gita Jayanti is the day the Bhagavad Gītā is said to have been spoken on the field. Read the first chapter, or one verse aloud, and think about the moment of doubt on which it begins.",
+      "minutes": 15
+    },
+    {
+      "kind": "travel",
+      "item": "place-sri-ramanasramam",
+      "name": "Look at Ramanasramam",
+      "text": "Look up the ashram of Ramana Maharshi at the foot of Arunachala. Read a little of what visitors say about sitting in its hall of silence, and spend five minutes in a quiet room of your own.",
+      "minutes": 15
+    },
+    {
+      "kind": "words",
+      "item": "word-neti-neti",
+      "name": "Say neti neti on a walk",
+      "text": "Say neti neti, not this, not this, as you walk. For each thing you pass, a tree, a car, a person, a thought, set it down gently. Notice what is left when you have nothing to carry.",
+      "minutes": 10
+    },
+    {
+      "kind": "words",
+      "item": "word-saksin",
+      "name": "Be the sākṣin for a minute",
+      "text": "The sākṣin is the witness. For one minute today, in the middle of whatever you are doing, step back and watch yourself do it, as if you were seeing someone else’s hands. Notice how the watcher is not busy.",
+      "minutes": 5
+    },
+    {
+      "kind": "words",
+      "item": "word-viveka",
+      "name": "Practise viveka at lunch",
+      "text": "Viveka is discrimination between the real and the passing. At lunch, look at one worry and one joy. Ask which will matter in a year. Which will matter when you are old?",
+      "minutes": 10
+    }
+  ],
   "rules": [
     {
       "id": "r1",
@@ -603,6 +945,12 @@
         "title": "Introduction to Vedanta",
         "creator": "Swami Sarvapriyananda (lectures)",
         "why": "Talks from the Vedanta Society of New York: clear, traditional and funny."
+      },
+      {
+        "id": "watch-swami-dayananda-on-the-bhagavad-gita",
+        "title": "Swami Dayananda on the Bhagavad Gita",
+        "creator": "Arsha Vidya Gurukulam (recorded classes)",
+        "why": "Recorded classes by a leading modern teacher of Vedanta, patient and plain-spoken. Watch one short session on any chapter."
       }
     ],
     "listen": [

@@ -309,13 +309,110 @@
       "icon": "hand-waving",
       "slot": "Morning",
       "time": "08:00",
-      "meta": "Morning · Name, eye, pause",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
       "instructions": "With the first people you meet today, stop walking. Look at them, greet them by name, ask how they are and wait for the answer. Then say how you are. Only after that move on to whatever you needed. Do the same for people you usually pass without a word: the cleaner, the bus driver, the neighbour.",
-      "why": "In Zulu the greeting sawubona means \"we see you\". Across southern Africa, to begin with business before greeting is to treat a person as a means.",
+      "why": "In Zulu the greeting sawubona means we see you. Across southern Africa, to begin with business before greeting is to treat a person as a means.",
       "variations": [
         "Greet every person in a room before you sit down.",
         "Learn one colleague’s family members’ names.",
         "Greet in isiZulu or Sesotho if you are with speakers who welcome it."
+      ]
+    },
+    {
+      "id": "say-it-in-their-language",
+      "name": "Say it in their language",
+      "icon": "translate",
+      "slot": "Morning",
+      "time": "07:30",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Learn one greeting in a southern African language and use it today with someone who would welcome it: sawubona in isiZulu, molo in isiXhosa, dumela in Sesotho or Setswana. Say it slowly, with the right answer ready: yebo, ewe, ee. Even a clumsy greeting in someone’s language is a kind of respect, so long as you also listen.",
+      "why": "Greeting is the heart of ubuntu in daily life. Trying someone’s greeting says that you see them as they are, not as a stranger who must speak yours.",
+      "variations": [
+        "Learn the answer as well as the question.",
+        "Learn how to say thank you: ngiyabonga, enkosi, kea leboha.",
+        "Say it aloud to yourself ten times first."
+      ]
+    },
+    {
+      "id": "ask-how-we-are",
+      "name": "Ask how we are",
+      "icon": "users-three",
+      "slot": "Morning",
+      "time": "08:30",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "In your first conversation, ask after the whole circle before you ask about the person: how is the family, how are the children, how are things at home? Wait for the answer. Notice how different the conversation becomes when I is replaced by we. It is a gentle habit and a surprisingly strong one.",
+      "why": "The rule of this Onda is to ask how we are, not how I am. In many southern African greetings, you ask first about the household and the people who belong with someone.",
+      "variations": [
+        "Do it with colleagues at the start of a meeting.",
+        "Do it with a stranger who serves you.",
+        "Do it by phone with someone you have not called in a while."
+      ]
+    },
+    {
+      "id": "let-the-elder-go-first",
+      "name": "Let the elder go first",
+      "icon": "door-open",
+      "slot": "Morning",
+      "time": "09:00",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "When you meet someone older, hold the door, offer your seat, let them speak first, and do not interrupt. Do it with warmth and not with stiffness. Notice what it feels like to step back so that someone else can go forward. Ukuhlonipha, the practice of respect for elders, is part of ubuntu.",
+      "why": "Respect for elders, called ukuhlonipha in isiZulu, is one of the oldest threads in southern African life. Small acts, like standing and letting them speak, carry a great deal.",
+      "variations": [
+        "Ask an older person for advice on something small.",
+        "Stand when an elder enters.",
+        "Carry something for an older person."
+      ]
+    },
+    {
+      "id": "a-pot-of-tea-for-everyone",
+      "name": "A pot of tea for everyone",
+      "icon": "coffee",
+      "slot": "Morning",
+      "time": "07:00",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Make a pot of rooibos, or any tea, and offer a cup to everyone at home or at work. Ask each person how they take it, and pour it for them. Ubuntu is practised in small, steady kindnesses like this. If you live alone, take a cup to a neighbour or a colleague.",
+      "why": "Rooibos is offered to every visitor in many South African homes. Making tea for the whole room turns a private habit into a small act of sharing.",
+      "variations": [
+        "Make it for someone who is not expecting it.",
+        "Take a flask to a neighbour.",
+        "Sit and drink it together before starting work."
+      ]
+    },
+    {
+      "id": "show-up-early",
+      "name": "Show up early",
+      "icon": "clock",
+      "slot": "Morning",
+      "time": "07:45",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Be the first to arrive somewhere today, at a meeting, a class, a gathering, and use the time to help: put out chairs, switch on the lights, greet people as they come in. Showing up and helping set up is a basic ubuntu virtue. It tells everyone that they were expected.",
+      "why": "The rule is simple: show up. In ubuntu, a person is made through relationships, and relationships are kept alive by turning up and by making room for others.",
+      "variations": [
+        "Arrive first and make tea.",
+        "Stay last and help clear up.",
+        "Call to say you will be there, and then be there."
+      ]
+    },
+    {
+      "id": "listen-without-fixing",
+      "name": "Listen without fixing",
+      "icon": "ear",
+      "slot": "Afternoon",
+      "time": "13:00",
+      "minutes": 15,
+      "meta": "Afternoon · 15 min",
+      "instructions": "Ask one person how they really are, then listen for ten minutes. Do not give advice, tell your own story or look at your phone. When they stop, ask: what else? At the end, say one thing you heard that mattered to you.",
+      "why": "Ubuntu holds that a person becomes a person through other people. Being heard is one of the oldest ways of being made more human.",
+      "variations": [
+        "Do it with someone you rarely listen to.",
+        "Do it by phone.",
+        "Do it as a daily habit with the same person."
       ]
     },
     {
@@ -324,7 +421,8 @@
       "icon": "phone",
       "slot": "Afternoon",
       "time": "15:00",
-      "meta": "Afternoon · Ask how are we",
+      "minutes": 20,
+      "meta": "Afternoon · 20 min",
       "instructions": "Choose one person: a relative, an old friend, someone who is ill or alone. Call or go in person; do not text. Ask after them and their family, and listen. Do not bring your own agenda. If they need something you can do, do it.",
       "why": "A person becomes a person through relationships, and relationships are kept alive by turning up. Presence is the currency of ubuntu.",
       "variations": [
@@ -334,12 +432,77 @@
       ]
     },
     {
+      "id": "give-and-receive-with-both-hands",
+      "name": "Give and receive with both hands",
+      "icon": "hand-heart",
+      "slot": "Afternoon",
+      "time": "14:00",
+      "minutes": 5,
+      "meta": "Afternoon · 5 min",
+      "instructions": "Today, give and receive things with both hands, or with the right hand supported by the left: a cup, a plate, a gift, a coin, a document. Do it unhurriedly, with eye contact and a word of thanks. It is a sign that something is offered, and accepted, by the whole person.",
+      "why": "In much of southern Africa, giving and receiving with both hands is a mark of respect. It slows the exchange and turns a transaction into a meeting.",
+      "variations": [
+        "Do it with every cup or plate today.",
+        "Explain it to a child.",
+        "Notice how people respond."
+      ]
+    },
+    {
+      "id": "put-in-your-share",
+      "name": "Put in your share",
+      "icon": "coins",
+      "slot": "Afternoon",
+      "time": "16:00",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Put in a small sum to a shared pot today: a friend’s emergency fund, a community project, a collection for a colleague, a food bank. If you belong to a savings circle, pay your share. Do it quietly. In southern Africa such circles are called stokvels, and many families have depended on them for generations.",
+      "why": "A stokvel is a savings club whose members contribute each month and take turns receiving the whole sum. It is ubuntu in practice: a person’s fortune is tied to the group’s.",
+      "variations": [
+        "Find out how a stokvel works and tell someone.",
+        "Start a small circle of three friends.",
+        "Give to a local organisation that helps people near you."
+      ]
+    },
+    {
+      "id": "make-a-work-party",
+      "name": "Make a work party",
+      "icon": "hammer",
+      "slot": "Afternoon",
+      "time": "14:30",
+      "minutes": 30,
+      "meta": "Afternoon · 30 min",
+      "instructions": "Choose a job too big for one household, such as a garden, a fence, a move or a clear-out, and ask a few people to do it together. Share the work, then share a meal. In many places this is called ilima or letsema. It makes a heavy job light, and it is the best excuse for a party.",
+      "why": "Communal work parties are a long-standing African custom: a task too big for one household is done by many, and then everyone eats together.",
+      "variations": [
+        "Help at someone else’s work party.",
+        "Hold a one-hour clean-up on your street.",
+        "End with tea and biscuits."
+      ]
+    },
+    {
+      "id": "thank-someone-specifically",
+      "name": "Thank someone specifically",
+      "icon": "heart",
+      "slot": "Afternoon",
+      "time": "16:30",
+      "minutes": 5,
+      "meta": "Afternoon · 5 min",
+      "instructions": "Choose someone and thank them for one particular thing, not just thanks for everything. I noticed you did this, and it made a difference. Say it in person or in a short message. Watch their face. Gratitude that is specific makes a person feel seen, which is the point of ubuntu.",
+      "why": "In the proverb, a person is a person through other people. Telling people what they have done for you is one of the cheapest and best ways to honour that.",
+      "variations": [
+        "Thank someone who rarely gets thanked.",
+        "Thank someone in writing.",
+        "Thank someone from long ago."
+      ]
+    },
+    {
       "id": "cook-or-eat-with-others",
       "name": "Cook or eat with others",
       "icon": "cooking-pot",
       "slot": "Evening",
       "time": "18:30",
-      "meta": "Evening · Shared pot",
+      "minutes": 40,
+      "meta": "Evening · 40 min",
       "instructions": "Eat your evening meal with at least one other person. Cook enough for one more than you expect. Serve others before yourself, eldest first. Keep phones off the table. If you live alone, invite someone, or carry a plate next door.",
       "why": "The proverb says a guest’s stomach is small: there is always enough to share. In much of Africa eating alone when others are near is close to an offence.",
       "variations": [
@@ -351,10 +514,11 @@
     {
       "id": "act-of-service",
       "name": "Act of service",
-      "icon": "handshake",
+      "icon": "hand-coins",
       "slot": "Evening",
       "time": "19:30",
-      "meta": "Evening · Unrecorded",
+      "minutes": 20,
+      "meta": "Evening · 20 min",
       "instructions": "Do one useful thing for your household, street or community that is nobody’s job in particular: carry, fix, clean, mind a child, give a lift. Do it without being asked and without mentioning it.",
       "why": "Ubuntu is judged by conduct. Of a generous, dependable person, people say that she has ubuntu.",
       "variations": [
@@ -364,135 +528,316 @@
       ]
     },
     {
-      "id": "listen-without-fixing",
-      "name": "Listen without fixing",
-      "icon": "users-three",
-      "slot": "Afternoon",
-      "time": "13:00",
-      "minutes": 15,
-      "meta": "Afternoon · 15 min",
-      "instructions": "Ask one person how they really are, then listen for ten minutes. Do not give advice, tell your own story or look at your phone. When they stop, ask: \"What else?\" At the end, say one thing you heard that mattered to you.",
-      "why": "Ubuntu holds that a person becomes a person through other people. Being heard is one of the oldest ways of being made more human.",
-      "variations": [
-        "Do it with someone you rarely listen to.",
-        "Do it by phone.",
-        "Do it as a daily habit with the same person."
-      ]
-    }
-  ],
-  "tasks": [
-    {
-      "id": "learn-a-greeting-in-zulu-or-xhosa",
-      "name": "Learn a greeting in Zulu or Xhosa",
-      "meta": "Say it aloud",
-      "time": "13:00",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "ask-a-neighbor-what-they-need",
-      "name": "Ask a neighbor what they need",
-      "meta": "Then help",
-      "time": "18:00",
-      "slot": "Evening"
-    },
-    {
-      "id": "thank-someone-specifically",
-      "name": "Thank someone specifically",
-      "meta": "Name what they did",
-      "time": "20:00",
-      "slot": "Evening"
-    },
-    {
-      "id": "task-read-a-chapter-of-long-walk-to-freedom",
-      "name": "Read a chapter of Long Walk to Freedom",
-      "meta": "Read · Mandela, in his own words",
-      "time": "12:30",
-      "slot": "Afternoon",
-      "action": "read"
-    },
-    {
-      "id": "task-listen-to-nkosi-sikelel-iafrika-all-the-way-through",
-      "name": "Listen to Nkosi Sikelel’ iAfrika all the way through",
-      "meta": "Listen · a hymn that became an anthem",
-      "time": "16:30",
-      "slot": "Afternoon",
-      "action": "listen"
-    },
-    {
-      "id": "task-journal-who-did-you-truly-see-today-and-who-did-you-pass-by",
-      "name": "Journal: who did you truly see today, and who did you pass by?",
-      "meta": "Journal · 10 min",
-      "time": "21:15",
+      "id": "sing-together",
+      "name": "Sing together",
+      "icon": "microphone-stage",
       "slot": "Evening",
+      "time": "20:00",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Sing something with someone, a hymn, a freedom song, a pop chorus, or just a hum. Let one person lead and the others answer. It does not matter how well you sing. In southern Africa, people sing at work, at funerals and at protests, and the voices hold each other together.",
+      "why": "Singing in call and response, one voice leading and the group answering, is a basic form of community in southern Africa. Ladysmith Black Mambazo’s isicathamiya grew out of workers’ hostels.",
+      "variations": [
+        "Sing along to a recording.",
+        "Teach someone a song you know.",
+        "Sing to a child."
+      ]
+    },
+    {
+      "id": "repair-before-you-sleep",
+      "name": "Repair before you sleep",
+      "icon": "handshake",
+      "slot": "Evening",
+      "time": "21:00",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Think of any quarrel or hurt from today, and put it right before you sleep: a message, a call, a word at the door. Say uxolo, I am sorry, and mean it. If the other person is not ready, say it in your own heart. Do not carry the day’s hurt into the night.",
+      "why": "Ubuntu stresses restoring relationships, and the last rule of this Onda is to repair before you sleep. The Truth and Reconciliation Commission made that principle national.",
+      "variations": [
+        "Say sorry in person.",
+        "Write a short, honest note.",
+        "Forgive someone in your own mind."
+      ]
+    },
+    {
+      "id": "people-who-made-me",
+      "name": "People who made me",
+      "icon": "notebook",
+      "slot": "Evening",
+      "time": "21:30",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Write down three people who made you who you are, and one thing each gave you. A person is a person through other people. Choose one and tell them. If they have died, say it aloud. Notice how much of you was given.",
+      "why": "The saying umuntu ngumuntu ngabantu is the heart of ubuntu: a person is a person through other persons. Listing your debts is the plain way to feel it.",
+      "variations": [
+        "Write about a teacher.",
+        "Write about a stranger who helped you once.",
+        "Send a message to one of them tonight."
+      ],
       "action": "journal"
     },
     {
-      "id": "task-write-on-relational-personhood-name-three-people-who-made-you-who-you-are",
-      "name": "Write on relational personhood: name three people who made you who you are",
-      "meta": "Philosophy · 10 min",
-      "time": "19:30",
+      "id": "a-plate-for-a-neighbour",
+      "name": "A plate for a neighbour",
+      "icon": "bowl-food",
       "slot": "Evening",
-      "action": "philosophy"
+      "time": "18:00",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Cook a little extra and take a plate to a neighbour, an elder or someone who lives alone. Knock, greet them, hand it over with both hands, and say you were cooking anyway. Do not stay unless invited. In many places a visitor, or a neighbour, is fed without asking whether they are hungry.",
+      "why": "Sharing food is basic hospitality in southern Africa. A plate passed over a fence is one of the simplest ways to tell someone that they belong.",
+      "variations": [
+        "Take a loaf, a cake or a tin of biscuits.",
+        "Bring it to someone new on the street.",
+        "Invite them to eat with you next time."
+      ]
     },
     {
-      "id": "task-share-a-pot-of-rooibos-with-someone-or-a-whole-meal",
-      "name": "Share a pot of rooibos with someone, or a whole meal",
-      "meta": "Drink · 20 min · with company",
-      "time": "17:30",
-      "slot": "Afternoon",
-      "action": "drink"
+      "id": "a-work-party-day",
+      "name": "A work-party day",
+      "icon": "toolbox",
+      "slot": "Special",
+      "time": "09:00",
+      "minutes": 120,
+      "meta": "On a free day · 120 min",
+      "instructions": "Gather a few friends or neighbours and spend a morning on one shared job: clear a neighbour’s garden, paint a fence, tidy a shared yard, help someone move. Divide the work, sing if you like, and finish with a meal that everyone helps to make. Many hands make light work, and a better lunch.",
+      "why": "Ilima and letsema are the words for communal work parties. They are among the oldest forms of ubuntu: work done together, with food at the end.",
+      "variations": [
+        "Help at a community clean-up.",
+        "Do it for an elderly neighbour.",
+        "Invite the people you worked with for tea next week."
+      ]
     },
     {
-      "id": "treat-wave-at-someone-across-the-street-and-mean-it",
-      "name": "Wave at someone across the street and mean it",
-      "meta": "See who waves back",
-      "time": "08:30",
-      "slot": "Morning"
-    },
-    {
-      "id": "treat-bring-something-small-for-everyone-at-the-table",
-      "name": "Bring something small for everyone at the table",
-      "meta": "Fruit, biscuits, tea",
-      "time": "15:30",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "treat-sing-along-with-someone-badly-and-together",
-      "name": "Sing along with someone, badly and together",
-      "meta": "One song",
-      "time": "19:30",
-      "slot": "Evening"
-    },
-    {
-      "id": "treat-ask-someone-the-story-of-their-name",
-      "name": "Ask someone the story of their name",
-      "meta": "And tell yours",
-      "time": "15:30",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "daily-say-good-morning-to-every-person-in-the-room",
-      "name": "Say good morning to every person in the room",
-      "meta": "Sawubona",
-      "time": "07:15",
-      "slot": "Morning"
-    },
-    {
-      "id": "daily-eat-breakfast-with-someone-or-ring-someone-while-you-eat",
-      "name": "Eat breakfast with someone, or ring someone while you eat",
-      "meta": "Company before comfort",
-      "time": "07:15",
-      "slot": "Morning"
-    },
-    {
-      "id": "daily-wash-someone-else-s-cup",
-      "name": "Wash someone else’s cup",
-      "meta": "A small service",
-      "time": "07:15",
-      "slot": "Morning"
+      "id": "give-sixty-seven-minutes",
+      "name": "Give sixty-seven minutes",
+      "icon": "timer",
+      "slot": "Special",
+      "time": "10:00",
+      "minutes": 67,
+      "meta": "On a free day · 67 min",
+      "instructions": "On Nelson Mandela International Day, 18 July, people give sixty-seven minutes to helping others, one for each year of his public life. You can do it on any day. Choose a task, help at a shelter, read to a child, clear a path, and give the full sixty-seven. Notice how long it feels, and how short.",
+      "why": "Mandela Day asks everyone to give 67 minutes. It turns a big idea, ubuntu, into one measurable hour, and it is a good way to make a habit.",
+      "variations": [
+        "Do it with a group from work.",
+        "Do it for a neighbour.",
+        "Give an extra minute for each year of someone you love."
+      ]
     }
   ],
-  "immersePlan": [],
+  "tasks": [],
+  "immersePlan": [
+    {
+      "kind": "read",
+      "item": "read-no-future-without-forgiveness",
+      "name": "Read Tutu on ubuntu and forgiveness",
+      "text": "Read a chapter of Desmond Tutu’s account of the Truth and Reconciliation Commission, where he puts ubuntu into words. Underline one sentence, and think of who you could say it to.",
+      "minutes": 20
+    },
+    {
+      "kind": "read",
+      "item": "read-long-walk-to-freedom",
+      "name": "Read an early chapter of Long Walk to Freedom",
+      "text": "Read a chapter of Mandela’s autobiography, from a Thembu childhood onward. Notice how much he credits to elders and to the people around him.",
+      "minutes": 20
+    },
+    {
+      "kind": "read",
+      "item": "read-everyday-ubuntu",
+      "name": "Read a lesson from Everyday Ubuntu",
+      "text": "Read one short lesson from Mungi Ngomane’s Everyday Ubuntu, written by Desmond Tutu’s granddaughter. Try its suggestion today.",
+      "minutes": 10
+    },
+    {
+      "kind": "watch",
+      "item": "watch-long-night-s-journey-into-day",
+      "name": "Watch a case before the Truth Commission",
+      "text": "Watch the documentary on four cases before the Truth and Reconciliation Commission. It is hard and humane. Notice what it takes for victims and perpetrators to face each other.",
+      "minutes": 90
+    },
+    {
+      "kind": "watch",
+      "item": "watch-amandla-a-revolution-in-four-part-harmony",
+      "name": "Watch how song carried the struggle",
+      "text": "Watch the film about how music carried the struggle against apartheid. Pay attention to the moments when a crowd sings together, and to what it does to them.",
+      "minutes": 100
+    },
+    {
+      "kind": "watch",
+      "item": "watch-invictus",
+      "name": "Watch Invictus",
+      "text": "Watch Clint Eastwood’s film of Mandela and the 1995 Rugby World Cup. It is Hollywood, but true in outline. Notice how he treats the people who were against him.",
+      "minutes": 130
+    },
+    {
+      "kind": "listen",
+      "item": "listen-shaka-zulu",
+      "name": "Listen to Ladysmith Black Mambazo",
+      "text": "Play Shaka Zulu, the album that brought isicathamiya, the unaccompanied close harmony born in migrant workers’ hostels, to the world. Listen with your eyes closed.",
+      "minutes": 30
+    },
+    {
+      "kind": "listen",
+      "item": "listen-nkosi-sikelel-iafrika",
+      "name": "Hear Nkosi Sikelel’ iAfrika",
+      "text": "Play the hymn composed by Enoch Sontonga, a Xhosa hymn that became a liberation anthem and part of the national anthem. Read the words as they play, and stand if it feels right.",
+      "minutes": 5
+    },
+    {
+      "kind": "listen",
+      "item": "listen-pata-pata",
+      "name": "Play Pata Pata",
+      "text": "Play Miriam Makeba’s Pata Pata and move to it. Mama Africa was in exile for thirty-one years, and sang through it. Notice the joy in the voice.",
+      "minutes": 5
+    },
+    {
+      "kind": "art",
+      "item": "art-ndebele-painting",
+      "name": "Look at Esther Mahlangu’s painting",
+      "text": "Look at pictures of Ndebele house painting and Esther Mahlangu’s work: bold geometric murals in a tradition passed from mother to daughter. Pick a shape and draw it.",
+      "minutes": 10
+    },
+    {
+      "kind": "art",
+      "item": "art-song-of-the-pick",
+      "name": "Look at Sekoto’s Song of the Pick",
+      "text": "Look at Gerard Sekoto’s 1946 painting of labourers swinging in unison under a white overseer. Notice who is moving together, and who stands apart.",
+      "minutes": 5
+    },
+    {
+      "kind": "art",
+      "item": "art-zulu-beadwork",
+      "name": "Look at Zulu beadwork",
+      "text": "Look at pictures of Zulu beadwork, where colour and pattern carry messages between people. Look at a piece for five minutes and ask what it is saying.",
+      "minutes": 10
+    },
+    {
+      "kind": "eat",
+      "item": "eat-pap-and-relish",
+      "name": "Eat pap and relish",
+      "text": "Cook a pot of maize porridge, firm, and serve it with a relish of tomato and onion, or chakalaka. Eat from a shared dish if you can, with the right hand.",
+      "minutes": 40
+    },
+    {
+      "kind": "eat",
+      "item": "eat-umngqusho",
+      "name": "Cook umngqusho",
+      "text": "Slow-cook samp (crushed maize) and sugar beans until soft. It is said to be Mandela’s favourite. Eat it with someone, and tell them why you made it.",
+      "minutes": 90
+    },
+    {
+      "kind": "eat",
+      "item": "eat-a-braai",
+      "name": "Have a braai",
+      "text": "Grill meat, or vegetables, over wood or coals. It is less a meal than an occasion: everyone stands around the fire. Invite someone, and let the fire do the talking.",
+      "minutes": 90
+    },
+    {
+      "kind": "drink",
+      "item": "drink-rooibos",
+      "name": "Pour rooibos for a guest",
+      "text": "Brew rooibos, the caffeine-free red bush tea from the Cederberg. Offer it to every visitor today, or take a cup to someone and drink it with them.",
+      "minutes": 15
+    },
+    {
+      "kind": "drink",
+      "item": "drink-ginger-beer",
+      "name": "Make ginger beer",
+      "text": "Make home-brewed ginger beer by steeping grated ginger and sugar in water and letting it ferment lightly, or just mix ginger syrup with sparkling water. Share it at a gathering.",
+      "minutes": 20
+    },
+    {
+      "kind": "drink",
+      "item": "drink-amasi",
+      "name": "Try amasi",
+      "text": "Try amasi, fermented milk, thick and sour, poured over pap or drunk on its own. If you cannot find it, plain sour milk or buttermilk is close. Taste it slowly.",
+      "minutes": 10
+    },
+    {
+      "kind": "customs",
+      "item": "customs-greet-everyone-in-the-room",
+      "name": "Greet everyone in the room",
+      "text": "Before any business or questions, greet everyone in a room individually if the group is small, eldest first. Notice how it changes the mood.",
+      "minutes": 5
+    },
+    {
+      "kind": "customs",
+      "item": "customs-share-the-pot",
+      "name": "Share the pot",
+      "text": "If anyone visits today, feed them without asking whether they are hungry. If no one comes, share a dish with a neighbour. Hospitality is expected, and it is a pleasure.",
+      "minutes": 20
+    },
+    {
+      "kind": "customs",
+      "item": "customs-pool-your-savings",
+      "name": "Pool your savings",
+      "text": "Put a small sum into a shared pot with friends, a stokvel in miniature. Members contribute each month and take turns receiving the whole sum. Agree the rules and write them down.",
+      "minutes": 15
+    },
+    {
+      "kind": "games",
+      "item": "games-morabaraba",
+      "name": "Play Morabaraba",
+      "text": "Morabaraba is a board game with twelve cows each on a board of lines: make a row of three and you take one of your opponent’s. Draw the board and play with coins or pebbles.",
+      "minutes": 30
+    },
+    {
+      "kind": "games",
+      "item": "games-moruba",
+      "name": "Play a mancala game",
+      "text": "Moruba is a mancala game of the Pedi, played on four rows of holes dug in the ground, with pebbles. Make a board of cups and play a simple mancala with someone.",
+      "minutes": 30
+    },
+    {
+      "kind": "games",
+      "item": "games-diketo",
+      "name": "Play diketo",
+      "text": "Throw one stone up, scoop the others out of a ring and catch it again. It is a stone game of southern Africa, played by girls and boys. Play a few rounds, then teach someone.",
+      "minutes": 15
+    },
+    {
+      "kind": "travel",
+      "item": "fest-nelson-mandela-international-day",
+      "name": "Give your sixty-seven minutes",
+      "text": "On Nelson Mandela International Day, 18 July, people are asked to give 67 minutes to others, one for each year of his public life. Give an hour today and then a few more minutes.",
+      "minutes": 67
+    },
+    {
+      "kind": "travel",
+      "item": "fest-heritage-day",
+      "name": "Keep a little Heritage Day",
+      "text": "Heritage Day, 24 September, is a public holiday for South Africa’s many cultures. Eat a dish from a culture you do not know well, or listen to a language you do not speak, and ask someone about it.",
+      "minutes": 30
+    },
+    {
+      "kind": "travel",
+      "item": "place-robben-island",
+      "name": "Look up Robben Island",
+      "text": "Read about the prison island in Table Bay where Mandela was held for eighteen years, where former political prisoners now guide visitors. Imagine the day with a man who walked those yards.",
+      "minutes": 15
+    },
+    {
+      "kind": "words",
+      "item": "word-ubuntu",
+      "name": "Say ubuntu to yourself",
+      "text": "Say the word ubuntu, humanness, to yourself as you do something ordinary today. Then complete the sentence: I am because we are, so I will today. Write your answer in one line.",
+      "minutes": 5
+    },
+    {
+      "kind": "words",
+      "item": "word-sawubona",
+      "name": "Say sawubona and mean it",
+      "text": "Say sawubona, we see you, to someone and wait for the answer, yebo, we see you too. Look at them properly while you say it. Notice what happens to your attention.",
+      "minutes": 5
+    },
+    {
+      "kind": "words",
+      "item": "word-masakhane",
+      "name": "Do one masakhane thing",
+      "text": "Masakhane means let us build each other up. Choose one person, say one thing that builds them up, and do one thing that helps them build. Keep it small and real.",
+      "minutes": 10
+    }
+  ],
   "rules": [
     {
       "id": "r1",

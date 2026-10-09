@@ -310,8 +310,8 @@
       "time": "07:00",
       "minutes": 10,
       "meta": "Morning · 10 min",
-      "instructions": "Stand by an open window or outside. Spend ten minutes on a plain routine of stretching, bending and moving every joint, with no equipment: neck circles, arm swings, side bends, squats, a short jog on the spot. Breathe through the nose. End by standing still for a count of ten and noticing how the body feels. Do it at the same time each day, as if a voice on the radio were counting for you.",
-      "why": "For generations, morning exercise was a shared daily habit broadcast on radio and later television. The idea is modest and sturdy: the day begins by charging the body together with others, even when you do it alone.",
+      "instructions": "Stand by an open window or outside. Spend ten minutes on a plain routine of stretching, bending and moving every joint, with no equipment: neck circles, arm swings, side bends, squats, a short jog on the spot. Breathe through the nose. End by standing still for a count of ten and noticing how the body feels. Do it at the same time each day.",
+      "why": "For generations, morning exercise was a shared daily habit broadcast on radio and later television. The idea is modest and sturdy: the day begins by calling the body to order.",
       "variations": [
         "Do it to a recording of a march or a waltz.",
         "Do it with a neighbour or family member.",
@@ -319,19 +319,83 @@
       ]
     },
     {
-      "id": "kitchen-table",
-      "name": "Kitchen table",
+      "id": "strong-tea-and-black-bread",
+      "name": "Strong tea and black bread",
       "icon": "coffee",
-      "slot": "Evening",
-      "time": "20:00",
-      "minutes": 40,
-      "meta": "Evening · 40 min",
-      "instructions": "Pick one person and one pot of tea. Sit at a table with phones out of sight. Talk for at least forty minutes about something that matters to you both: a book, a worry, a plan, a memory. Ask the second question before offering your own view. Do not solve the world. If you live alone, write a long letter by hand and send it the next day.",
-      "why": "In the late Soviet decades the kitchen was where people spoke freely, away from official language. It shows what conversation can be when time and trust are given to it.",
+      "slot": "Morning",
+      "time": "07:30",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Brew a glass of strong tea and have it with a slice of dark rye bread and a spoonful of jam, or a pinch of salt on the bread. Sit down to it. Eat and drink slowly, and look out of the window. In Russian homes tea is the beginning of any conversation, and the first kettle of the day is a small ceremony.",
+      "why": "Chai from a samovar or a pot, strong, with jam or sugar, is what makes a long conversation possible. Black rye bread with a little salt is the most ordinary food in the culture and the most prized.",
       "variations": [
-        "Invite someone you have not spoken with at length in a year.",
-        "Add one question you have never asked this person.",
-        "Keep a short list of what you learned."
+        "Add a slice of lemon.",
+        "Make a second glass for someone else.",
+        "Drink it from a glass in a metal holder if you have one."
+      ]
+    },
+    {
+      "id": "read-the-news-twice",
+      "name": "Read the news twice",
+      "icon": "newspaper",
+      "slot": "Morning",
+      "time": "08:00",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Pick one story and read it in two different sources, then ask: what does each one say, and what does each leave out? Write one sentence on the difference. The Soviet reader learned to read between the lines. It is a good habit for any reader of any news in any country.",
+      "why": "Soviet readers learned to read between the lines of official papers, and passed banned writing by hand as samizdat. The skill of reading what is not said is still useful.",
+      "variations": [
+        "Read an old newspaper and see what has aged.",
+        "Read the same story in two languages.",
+        "Ask what the story wants you to feel."
+      ]
+    },
+    {
+      "id": "sit-before-you-go",
+      "name": "Sit before you go",
+      "icon": "armchair",
+      "slot": "Morning",
+      "time": "07:45",
+      "minutes": 3,
+      "meta": "Morning · 3 min",
+      "instructions": "Before you leave the house, sit for one minute in silence with your coat on, and think of where you are going and what you need. It is an old Russian custom: sit a moment before a journey, so nothing is forgotten, and so you set out with a calm head. Then stand and go.",
+      "why": "The custom of sitting before a journey is still kept in Russian families. It is both practical, to remember keys and papers, and ceremonial, to take a moment before the road.",
+      "variations": [
+        "Do it before every outing today.",
+        "Do it with someone else and say nothing.",
+        "Do it before a hard meeting."
+      ]
+    },
+    {
+      "id": "a-plain-kasha-breakfast",
+      "name": "A plain kasha breakfast",
+      "icon": "grains",
+      "slot": "Morning",
+      "time": "08:30",
+      "minutes": 15,
+      "meta": "Morning · 15 min",
+      "instructions": "Cook a small pan of kasha, buckwheat porridge, in water with a pinch of salt for fifteen minutes, then stir in a knob of butter. Eat it hot with a glass of kefir or milk. It is a plain staple that fed millions. Notice how well a simple warm bowl carries you through the morning.",
+      "why": "Kasha has been the everyday porridge of Russia and the Soviet Union for centuries. It is cheap, filling, and quietly delicious with butter.",
+      "variations": [
+        "Add a fried egg.",
+        "Make it with milk and a spoon of jam.",
+        "Make enough to share."
+      ]
+    },
+    {
+      "id": "learn-four-lines-by-heart",
+      "name": "Learn four lines by heart",
+      "icon": "scroll",
+      "slot": "Morning",
+      "time": "09:00",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Choose four lines of poetry and learn them by heart this morning: Pushkin, Akhmatova, Tsvetaeva, Mayakovsky, or a poem you love in any language. Say it aloud three times, then once without the page. Carry it with you. Russians have long memorised poems, and many people could recite them whole.",
+      "why": "Memorising poetry was an everyday habit in Russia and the Soviet Union, and in the camps people kept poems alive by heart. A poem you know by heart cannot be taken from you.",
+      "variations": [
+        "Learn it with a friend and say it to each other.",
+        "Learn one stanza a day for a week.",
+        "Say it while walking."
       ]
     },
     {
@@ -343,7 +407,7 @@
       "minutes": 30,
       "meta": "Afternoon · 30 min",
       "instructions": "Choose one shared place: a stairwell, a courtyard, a classroom, a park bench, a shared kitchen. Spend thirty unpaid minutes making it better with your hands: sweep, wipe, sort, repair, plant. Do it where others will use it, and do not announce it. Notice what it is to work for something no one owns alone.",
-      "why": "The subbotnik began in 1919 as a voluntary Saturday of unpaid work and was later made routine. The better half of the idea survives the politics: shared places stay good when someone takes care of them.",
+      "why": "The subbotnik began in 1919 as a voluntary Saturday of unpaid work and was later made routine. The better half of the idea survives the politics: shared places need shared care.",
       "variations": [
         "Do it with a friend or a neighbour.",
         "Do it for a place that belongs to no one in particular, such as a street corner.",
@@ -351,15 +415,111 @@
       ]
     },
     {
+      "id": "a-game-of-chess",
+      "name": "A game of chess",
+      "icon": "crown-simple",
+      "slot": "Afternoon",
+      "time": "16:00",
+      "minutes": 20,
+      "meta": "Afternoon · 20 min",
+      "instructions": "Play a game of chess with someone, in person or online, and think of the schools and factories where it was taught. Play slowly. When it is done, shake hands and talk about one moment that turned the game. If you have no partner, solve a chess puzzle or replay a famous game. The state taught it to millions.",
+      "why": "Chess was taught in Soviet schools, factories and Pioneer palaces, and the country produced many of the world’s champions. It was a game for everyone.",
+      "variations": [
+        "Play with a child.",
+        "Play a speed game and a slow one.",
+        "Study one opening."
+      ]
+    },
+    {
+      "id": "quiet-hunting",
+      "name": "Quiet hunting",
+      "icon": "binoculars",
+      "slot": "Afternoon",
+      "time": "14:30",
+      "minutes": 30,
+      "meta": "Afternoon · 30 min",
+      "instructions": "Go out and look for something patiently in nature: mushrooms, berries, feathers, a bird you have not seen. Russians call mushroom picking quiet hunting, tikhaya okhota. Take a basket or a bag, a knife if you know what you are doing, and a friend. Only pick what you can identify for certain, or only look.",
+      "why": "Mushroom picking is a national passion in Russia and across the former Soviet lands. It teaches patience, and the sense that the forest is a larder as well as a place.",
+      "variations": [
+        "Hunt for leaves or stones instead.",
+        "Look for one bird for half an hour.",
+        "Go with an older person who knows the forest."
+      ]
+    },
+    {
+      "id": "say-it-plainly",
+      "name": "Say it plainly",
+      "icon": "chat-circle-text",
+      "slot": "Afternoon",
+      "time": "13:30",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Choose one thing you need to say today and say it in plain words, with no hints and no padding. Write it first in one sentence, then say it aloud. A person who says what they mean is a rarity and a gift. Notice what happens when you do. Where it is hard, be kind in the sentence, but not vague.",
+      "why": "This Onda’s rule is to say plainly what you mean. In a country of official language, plain speech among friends was valued above all, and the kitchen was where it lived.",
+      "variations": [
+        "Say it in a text, then a call.",
+        "Ask someone else to say it plainly to you.",
+        "Cross out half the words and keep the rest."
+      ]
+    },
+    {
+      "id": "talk-in-the-queue",
+      "name": "Talk in the queue",
+      "icon": "users",
+      "slot": "Afternoon",
+      "time": "12:30",
+      "minutes": 5,
+      "meta": "Afternoon · 5 min",
+      "instructions": "The next time you wait in a line, a bus stop, a shop, a waiting room, talk to someone near you. Ask a question: have you been waiting long? What are you hoping to find? The Soviet queue was a social place where news and advice passed. Make yours one for ten minutes.",
+      "why": "Queues, ocheredi, were a daily fact of Soviet life, and people turned them into a social space. You do not have to enjoy waiting to enjoy the people waiting with you.",
+      "variations": [
+        "Offer to hold a place.",
+        "Ask the person ahead for a tip.",
+        "Bring two cups of tea."
+      ]
+    },
+    {
+      "id": "an-hour-at-the-dacha",
+      "name": "An hour at the dacha",
+      "icon": "tree",
+      "slot": "Afternoon",
+      "time": "17:00",
+      "minutes": 30,
+      "meta": "Afternoon · 30 min",
+      "instructions": "Spend half an hour tending something green: a garden bed, a window box, a few pots. Pull weeds, water, tie up, pick. Millions of Soviet families grew potatoes, cucumbers and berries at a small country plot called a dacha. If you have no plot, tend a houseplant very thoroughly.",
+      "why": "The dacha is a small country house with a garden, a beloved Russian institution. Many families grew a large part of their food there and spent every weekend working and resting there.",
+      "variations": [
+        "Plant something and share the first harvest.",
+        "Help a neighbour with their plot.",
+        "Eat something you grew or picked."
+      ]
+    },
+    {
+      "id": "kitchen-table",
+      "name": "Kitchen table",
+      "icon": "cooking-pot",
+      "slot": "Evening",
+      "time": "20:00",
+      "minutes": 40,
+      "meta": "Evening · 40 min",
+      "instructions": "Pick one person and one pot of tea. Sit at a table with phones out of sight. Talk for at least forty minutes about something that matters to you both: a book, a worry, a plan, a memory. Ask the second question before offering your own view. Do not solve the world. If you live alone, write a long letter by hand and send it the next day.",
+      "why": "In the late Soviet decades the kitchen was where people spoke freely, away from official language. It shows what conversation can be when time and trust are given.",
+      "variations": [
+        "Invite someone you have not spoken with at length in a year.",
+        "Add one question you have never asked this person.",
+        "Keep a short list of what you learned."
+      ]
+    },
+    {
       "id": "long-reading",
       "name": "The long reading",
-      "icon": "book-open",
+      "icon": "books",
       "slot": "Evening",
       "time": "21:00",
       "minutes": 30,
       "meta": "Evening · 30 min",
       "instructions": "Read one book from the Soviet or Russian tradition, a few pages at a time, for thirty minutes with no screen nearby. Read slowly, with a pencil. Stop on one sentence and copy it by hand into a notebook. If the book is long, treat it like a companion rather than a task. Resist the urge to summarise it aloud on the same day.",
-      "why": "Reading was central to Soviet life, partly because some writing could only be read in secret. Read slowly, a book becomes more than information. It becomes a presence in the room.",
+      "why": "Reading was central to Soviet life, partly because some writing could only be read in secret. Read slowly, a book becomes more than information. It becomes company.",
       "variations": [
         "Read aloud to someone for ten of the thirty minutes.",
         "Copy one page of a poem by hand.",
@@ -375,141 +535,308 @@
       "minutes": 20,
       "meta": "Evening · 20 min",
       "instructions": "Write a real letter on paper to one person you care about. Tell them something specific about your week, ask them a question, and sign it by hand. Post it, or hand it over. No screens while you write.",
-      "why": "Letters were the thread that held families and friendships together across the Soviet Union. A letter is slow, personal and private, which is exactly why it is worth writing.",
+      "why": "Letters were the thread that held families and friendships together across the Soviet Union. A letter is slow, personal and private, which is exactly why it still works.",
       "variations": [
         "Write to someone you have not spoken to in a year.",
         "Write a postcard instead.",
         "Write one to your future self."
       ]
-    }
-  ],
-  "tasks": [
-    {
-      "id": "play-a-game-of-chess",
-      "name": "Play a game of chess",
-      "meta": "Or study one famous game",
-      "time": "17:00",
-      "slot": "Afternoon"
     },
     {
-      "id": "write-down-one-thing-you-will-not-say-in-public-and-one-you-will",
-      "name": "Write down one thing you will not say in public and one you will",
-      "meta": "A short private note",
-      "time": "19:00",
-      "slot": "Evening"
-    },
-    {
-      "id": "cook-a-pot-of-soup-for-more-than-one",
-      "name": "Cook a pot of soup for more than one",
-      "meta": "Borscht, shchi or lentil",
-      "time": "18:00",
-      "slot": "Evening"
-    },
-    {
-      "id": "task-read-a-chapter-of-one-day-in-the-life-of-ivan-denisovich",
-      "name": "Read a chapter of One Day in the Life of Ivan Denisovich",
-      "meta": "Read · one day in a labour camp",
-      "time": "12:30",
-      "slot": "Afternoon",
-      "action": "read"
-    },
-    {
-      "id": "task-watch-the-cranes-are-flying",
-      "name": "Watch The Cranes Are Flying",
-      "meta": "Watch · a thaw-era classic",
-      "time": "20:00",
+      "id": "write-it-down-before-the-day-ends",
+      "name": "Write it down before the day ends",
+      "icon": "notebook",
       "slot": "Evening",
-      "action": "watch"
-    },
-    {
-      "id": "task-journal-what-did-you-do-today-for-something-that-is-not-yours-alone",
-      "name": "Journal: what did you do today for something that is not yours alone?",
-      "meta": "Journal · 10 min",
-      "time": "21:15",
-      "slot": "Evening",
+      "time": "21:30",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Before you sleep, write a short entry in a notebook: what happened, what you saw, one thing someone said, one thing you want to remember. Be specific. Remember who helped you today, and say so on the page. A kept record is how a day becomes yours. Soviet diaries are now a major source for historians.",
+      "why": "Keeping a record is one of this Onda’s rules. Diaries and letters of ordinary people are how the Soviet century is known, beyond the official line.",
+      "variations": [
+        "Write with a pencil.",
+        "Write a line for each person you spoke to.",
+        "Write only what no one else would know."
+      ],
       "action": "journal"
     },
     {
-      "id": "task-spot-one-contradiction-in-your-day-then-treat-it-dialectically",
-      "name": "Spot one contradiction in your day, then treat it dialectically",
-      "meta": "Philosophy · 10 min",
-      "time": "19:30",
+      "id": "sing-with-a-guitar-or-without",
+      "name": "Sing with a guitar or without",
+      "icon": "guitar",
       "slot": "Evening",
-      "action": "philosophy"
-    },
-    {
-      "id": "task-eat-a-hot-bowl-of-borscht-with-sour-cream",
-      "name": "Eat a hot bowl of borscht with sour cream",
-      "meta": "Eat · 20 min",
-      "time": "13:00",
-      "slot": "Afternoon",
-      "action": "eat"
-    },
-    {
-      "id": "treat-brew-strong-black-tea-and-drink-it-from-a-glass-with-jam",
-      "name": "Brew strong black tea and drink it from a glass, with jam",
-      "meta": "A spoon of jam beside it",
       "time": "19:30",
-      "slot": "Evening"
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Sing a song you love, one of the bard songs of Bulat Okudzhava, a folk song, a lullaby, a hymn, a rock song, or just hum. Sing it to a friend, or to the kitchen. If you play guitar, play it. If you do not, clap. The bard tradition was one voice and six strings, in kitchens and on camping trips, about ordinary feelings.",
+      "why": "The bard song tradition of the Soviet Union, led by Okudzhava, Vysotsky and others, spread by hand-copied tape. It was music for people and not for stadiums.",
+      "variations": [
+        "Sing with a recording and then without.",
+        "Teach someone a verse.",
+        "Write four lines of your own and sing them."
+      ]
     },
     {
-      "id": "treat-do-ten-squats-by-an-open-window",
-      "name": "Do ten squats by an open window",
-      "meta": "To the radio, if you have one",
-      "time": "08:30",
-      "slot": "Morning"
+      "id": "a-hot-bath-the-banya-way",
+      "name": "A hot bath, the banya way",
+      "icon": "bathtub",
+      "slot": "Evening",
+      "time": "20:30",
+      "minutes": 40,
+      "meta": "Evening · 40 min",
+      "instructions": "Make a long, hot, restful bath or shower the centre of your evening, ideally with friends, tea and a little dry sauna if you have one. The banya is a weekly ritual of heat, birch twigs and tea. If you are not well or have a heart condition, keep it warm, not hot. Come out clean, loose and sleepy.",
+      "why": "The banya, the steam bath, is the great communal ritual of Russian life, a place for cleaning, health and conversation. A hot bath is a modest cousin you can have anywhere.",
+      "variations": [
+        "Add a cup of tea after.",
+        "Go to a sauna with a friend.",
+        "Do it as the last thing before bed."
+      ]
     },
     {
-      "id": "treat-tell-a-joke-you-would-only-tell-in-the-kitchen",
-      "name": "Tell a joke you would only tell in the kitchen",
-      "meta": "Quietly",
-      "time": "19:30",
-      "slot": "Evening"
+      "id": "a-day-out-of-town",
+      "name": "A day out of town",
+      "icon": "tree-evergreen",
+      "slot": "Special",
+      "time": "10:00",
+      "minutes": 120,
+      "meta": "On a free day · 120 min",
+      "instructions": "Take a free day and go out of town, to a forest, a lake, a village, or a friend’s garden. Take a basket, a flask of tea and something to eat. Walk, pick, sit, talk. Millions of Soviet families escaped to the dacha on weekends, and the rhythm of country days is the same anywhere. Come back tired and clean.",
+      "why": "The weekend trip to the dacha or the forest was the great Soviet escape: berries, mushrooms, bonfires, tea on the porch. It is a day of enough and not too much.",
+      "variations": [
+        "Go by train or bus.",
+        "Go with the whole family.",
+        "Cook something over a fire."
+      ]
     },
     {
-      "id": "treat-find-one-soviet-poster-or-mosaic-online-and-study-the-faces",
-      "name": "Find one Soviet poster or mosaic online and study the faces",
-      "meta": "Five minutes",
-      "time": "15:30",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "daily-drink-strong-tea-with-a-spoon-of-jam",
-      "name": "Drink strong tea with a spoon of jam",
-      "meta": "Sweet and strong",
-      "time": "07:15",
-      "slot": "Morning"
-    },
-    {
-      "id": "daily-read-the-day-s-news-from-two-different-sources",
-      "name": "Read the day’s news from two different sources",
-      "meta": "And read between the lines",
-      "time": "07:15",
-      "slot": "Morning"
-    },
-    {
-      "id": "daily-walk-part-of-your-way-to-work-or-school",
-      "name": "Walk part of your way to work or school",
-      "meta": "The metro stations are palaces",
-      "time": "07:15",
-      "slot": "Morning"
-    },
-    {
-      "id": "daily-eat-a-hot-lunch-with-a-colleague",
-      "name": "Eat a hot lunch with a colleague",
-      "meta": "The canteen is a small society",
-      "time": "14:00",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "daily-read-a-short-poem-by-akhmatova-or-mayakovsky",
-      "name": "Read a short poem by Akhmatova or Mayakovsky",
-      "meta": "Poetry once filled stadiums",
-      "time": "14:00",
-      "slot": "Afternoon"
+      "id": "spot-the-space-station",
+      "name": "Spot the space station",
+      "icon": "rocket",
+      "slot": "Special",
+      "time": "21:00",
+      "minutes": 20,
+      "meta": "On a clear night · 20 min",
+      "instructions": "Look up when the International Space Station is due to pass, using a free tracking site, and watch it move across the sky like a bright star. Think of Gagarin, Tereshkova and Korolev, and of everyone who has lived in orbit. Say poyekhali, off we go, the word Gagarin said at launch. Then go to bed a little taller.",
+      "why": "The Soviet space programme sent the first satellite in 1957 and the first person into orbit in 1961. The station overhead carries that story on, and anyone can watch it pass.",
+      "variations": [
+        "Go with a child and tell them about Gagarin.",
+        "Watch a Soviet film about space first.",
+        "Spot it three nights in a row."
+      ]
     }
   ],
-  "immersePlan": [],
+  "tasks": [],
+  "immersePlan": [
+    {
+      "kind": "read",
+      "item": "read-the-master-and-margarita",
+      "name": "Read a chapter of The Master and Margarita",
+      "text": "Open Bulgakov’s novel about a devil who visits Moscow in the 1930s, a satire, a love story and a retelling of Pilate. Read the first chapter, and note how a cat, a conjuror and a poet appear. Enjoy the mischief.",
+      "minutes": 20
+    },
+    {
+      "kind": "read",
+      "item": "read-roadside-picnic",
+      "name": "Read the start of Roadside Picnic",
+      "text": "Read the opening of the Strugatskys’ science fiction novel about a zone left by visitors. It is the source of Tarkovsky’s Stalker. Notice how matter-of-fact the strange is made.",
+      "minutes": 20
+    },
+    {
+      "kind": "read",
+      "item": "read-requiem",
+      "name": "Read Akhmatova’s Requiem",
+      "text": "Read Anna Akhmatova’s cycle of poems about waiting outside a prison for news of her son. It is short and hard, and one of the great poems of the century. Read it slowly, aloud if you can.",
+      "minutes": 15
+    },
+    {
+      "kind": "watch",
+      "item": "watch-the-cranes-are-flying",
+      "name": "Watch The Cranes Are Flying",
+      "text": "Watch the wartime love story, the only Soviet film to win the Palme d’Or at Cannes. Notice the camera, which moves like a bird, and the faces.",
+      "minutes": 95
+    },
+    {
+      "kind": "watch",
+      "item": "watch-moscow-does-not-believe-in-tears",
+      "name": "Watch Moscow Does Not Believe in Tears",
+      "text": "Watch the story of three women in Moscow across twenty years. It won the Academy Award for best foreign film. Notice the details of flats, lifts, canteens and dreams.",
+      "minutes": 140
+    },
+    {
+      "kind": "watch",
+      "item": "watch-man-with-a-movie-camera",
+      "name": "Watch part of Man with a Movie Camera",
+      "text": "Watch twenty minutes of Vertov’s day of city life, with no actors or titles. Watch the cutting, the trams, the faces. It is a landmark of editing and a pleasure to watch.",
+      "minutes": 30
+    },
+    {
+      "kind": "listen",
+      "item": "listen-peter-and-the-wolf",
+      "name": "Listen to Peter and the Wolf",
+      "text": "Play Prokofiev’s tale for children, written for a Moscow theatre in 1936. Each character is an instrument. Listen once and guess who is who before you read the key.",
+      "minutes": 25
+    },
+    {
+      "kind": "listen",
+      "item": "listen-songs-of-bulat-okudzhava",
+      "name": "Listen to Bulat Okudzhava",
+      "text": "Play a few songs by the poet with a guitar and a quiet voice, who shaped the bard tradition. Read a translation of one song as you hear it.",
+      "minutes": 15
+    },
+    {
+      "kind": "listen",
+      "item": "listen-symphony-no-5",
+      "name": "Listen to Shostakovich’s Fifth",
+      "text": "Play the Fifth Symphony, premiered in Leningrad after a year of danger for the composer. Listen to the slow third movement with your eyes closed.",
+      "minutes": 45
+    },
+    {
+      "kind": "art",
+      "item": "art-black-square",
+      "name": "Look at Malevich’s Black Square",
+      "text": "Look at the black square on white that opened a new direction in painting. Ask what it is, and what it is not. Stay for three minutes and see what you start to notice.",
+      "minutes": 5
+    },
+    {
+      "kind": "art",
+      "item": "art-beat-the-whites-with-the-red-wedge",
+      "name": "Look at El Lissitzky’s Red Wedge",
+      "text": "Look at the Civil War poster of pure shapes: a red wedge driving into a white circle. It is a landmark of graphic design. Try to draw an idea of your own with just three shapes.",
+      "minutes": 10
+    },
+    {
+      "kind": "art",
+      "item": "art-the-moscow-metro-stations",
+      "name": "Look at the Moscow Metro stations",
+      "text": "Look at photographs of Moscow Metro stations built as underground palaces, such as Mayakovskaya. Pick the one you would most like to wait in, and say why.",
+      "minutes": 10
+    },
+    {
+      "kind": "eat",
+      "item": "eat-borscht",
+      "name": "Make borscht",
+      "text": "Cook beetroot soup with potato, cabbage and onion, and serve with a spoon of sour cream. It is a staple from Ukraine across the whole Soviet table. Eat it with black bread.",
+      "minutes": 90
+    },
+    {
+      "kind": "eat",
+      "item": "eat-pelmeni",
+      "name": "Make or boil pelmeni",
+      "text": "Make small dumplings by hand, or boil a packet, and eat with butter or vinegar. Families made them in bulk and froze them for winter. Make a batch together if you can.",
+      "minutes": 60
+    },
+    {
+      "kind": "eat",
+      "item": "eat-blini",
+      "name": "Make blini",
+      "text": "Make thin pancakes and eat them with jam, sour cream or smoked fish. They are the food of Maslenitsa week before Lent. Roll them up and eat them with your hands.",
+      "minutes": 40
+    },
+    {
+      "kind": "drink",
+      "item": "drink-tea-from-a-samovar-or-a-pot",
+      "name": "Make strong tea with jam",
+      "text": "Brew strong tea and drink it with a spoon of jam on the side. Tea makes a long conversation possible. Sit down and let the pot last for an hour.",
+      "minutes": 20
+    },
+    {
+      "kind": "drink",
+      "item": "drink-kvas",
+      "name": "Try kvas",
+      "text": "Try kvas, a lightly sour, low-alcohol drink made from fermented bread, a summer street drink of the era. If you cannot find it, drink cold sparkling water with a slice of rye toast.",
+      "minutes": 10
+    },
+    {
+      "kind": "drink",
+      "item": "drink-kefir",
+      "name": "Drink a glass of kefir",
+      "text": "Drink kefir, the cultured milk, a sour drink for breakfast, common across Russia and the Caucasus. Pour a glass, drink it slowly, and notice the tang.",
+      "minutes": 5
+    },
+    {
+      "kind": "customs",
+      "item": "customs-sit-before-a-journey",
+      "name": "Sit before you go",
+      "text": "Before leaving the house, sit for a minute so nothing is forgotten and the head is calm. It is an old Russian custom, and a pleasant one.",
+      "minutes": 3
+    },
+    {
+      "kind": "customs",
+      "item": "customs-bring-something-small-when-invited",
+      "name": "Bring an odd number of flowers",
+      "text": "If you visit someone, bring something small: flowers in an odd number, which are for the living, since even numbers are for funerals. Present them with a smile.",
+      "minutes": 15
+    },
+    {
+      "kind": "customs",
+      "item": "customs-quiet-hunting",
+      "name": "Go quiet hunting",
+      "text": "Go and look for mushrooms or berries or anything patiently found in the woods. Only pick what you can identify with certainty, or simply look. It is tikhaya okhota, a slow pleasure.",
+      "minutes": 40
+    },
+    {
+      "kind": "games",
+      "item": "games-chess",
+      "name": "Play a game of Soviet-school chess",
+      "text": "Play a game of chess, the way it was taught in Soviet schools, factories and Pioneer palaces. Think before you move, and shake hands afterwards.",
+      "minutes": 30
+    },
+    {
+      "kind": "games",
+      "item": "games-tetris",
+      "name": "Play Tetris",
+      "text": "Play a few rounds of the game written by Alexey Pajitnov on a Soviet Academy of Sciences computer in 1984. Notice how it makes you plan ahead. Stop when you want to stop.",
+      "minutes": 15
+    },
+    {
+      "kind": "games",
+      "item": "games-durak",
+      "name": "Play Durak",
+      "text": "Play the card game of the fool, where there is no winner, only a last player left holding cards. Play with friends, and laugh at the one who loses.",
+      "minutes": 30
+    },
+    {
+      "kind": "travel",
+      "item": "fest-cosmonautics-day",
+      "name": "Mark Cosmonautics Day",
+      "text": "On 12 April the anniversary of Gagarin’s flight is kept. Read a page about Gagarin, look at a photo of him in his orange suit, and say poyekhali out loud.",
+      "minutes": 15
+    },
+    {
+      "kind": "travel",
+      "item": "fest-new-year",
+      "name": "Keep a small Soviet New Year",
+      "text": "With Christmas discouraged, New Year became the great family holiday. Make an Olivier salad, decorate a small tree, and watch a classic film such as The Irony of Fate with someone.",
+      "minutes": 60
+    },
+    {
+      "kind": "travel",
+      "item": "place-tsiolkovsky-state-museum-of-the-history-of-cosmonautics",
+      "name": "Look up the Tsiolkovsky museum",
+      "text": "Look up the museum in Kaluga, opened in 1967 in the town where the schoolteacher Tsiolkovsky worked out rocket flight. Read about his idea that humanity cannot live forever in the cradle.",
+      "minutes": 15
+    },
+    {
+      "kind": "words",
+      "item": "word-dusha",
+      "name": "Think about dusha",
+      "text": "Dusha is soul, inner life, warmth. Russians say a person has dusha if they are open, generous and deep. Think of one person you know who has it, and tell them what you see in them.",
+      "minutes": 10
+    },
+    {
+      "kind": "words",
+      "item": "word-chai",
+      "name": "Take chai seriously",
+      "text": "Chai is tea, and an invitation. Invite someone to chai today, which means a conversation, not just a drink. Put the kettle on first, then ask.",
+      "minutes": 20
+    },
+    {
+      "kind": "words",
+      "item": "word-avos",
+      "name": "Say avos’ about one risk",
+      "text": "Avos’ means perhaps, hoping it works out, a fatalist shrug. Take one small risk today that you have put off, with avos’. Then notice what happened.",
+      "minutes": 10
+    }
+  ],
   "rules": [
     {
       "id": "r1",

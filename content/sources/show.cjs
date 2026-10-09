@@ -1,17 +1,15 @@
-// Prints what an Onda already has, to write its 6.0 practices from.  node content/sources/show.cjs <id>
+// Prints what Ondas already have, to write their 6.0 practices from.  node content/sources/show.cjs <id> [id ...]
 const fs = require('fs')
 const path = require('path')
-const id = process.argv[2]
-const c = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'ondas', id + '.json'), 'utf8'))
-console.log(`# ${c.name} (${c.id}) | ${c.origin} | ${c.era} | ${c.line}`)
-if (c.sensitivity) console.log(`SENSITIVITY${c.sensitivity.reviewRequired ? ' (living people)' : ''}: ${c.sensitivity.note}`)
-console.log('\nPRACTICES BEFORE 6.0 (keep these ids where you reuse them):')
-for (const p of c.practices) console.log(`- [${p.id}] ${p.name} | ${p.slot} ${p.time} ${p.minutes}min | ${p.instructions} | WHY ${p.why} | VAR ${p.variations.join(' / ')}`)
-console.log('\nRULES: ' + c.rules.map((r) => r.text).join(' | '))
-console.log('\nDAY THEMES: ' + c.dayThemes.slice(0, 12).join(' | '))
-for (const k of ['read', 'watch', 'listen', 'art', 'eat', 'drink', 'customs', 'games', 'festivals', 'places']) {
-  console.log(`\n${k.toUpperCase()} (${c.immerse[k].length}):`)
-  for (const i of c.immerse[k]) console.log(`- ${i.title} | ${i.creator}${i.year ? ', ' + i.year : ''} | ${i.why.slice(0, 130)}`)
+for (const id of process.argv.slice(2)) {
+  const c = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'ondas', id + '.json'), 'utf8'))
+  console.log(`\n######## ${c.name} (${c.id}) | ${c.origin} | ${c.era} | ${c.line}`)
+  if (c.sensitivity) console.log(`SENSITIVITY${c.sensitivity.reviewRequired ? ' (living people)' : ''}: ${c.sensitivity.note.slice(0, 260)}`)
+  console.log('OLD PRACTICES (keep these ids where you reuse them):')
+  for (const p of c.practices.filter((x) => !x.id.startsWith('treat-'))) console.log(`- [${p.id}] ${p.name} | ${p.slot} ${p.time} ${p.minutes ?? '?'}min | ${p.instructions.slice(0, 330)} | WHY ${p.why.slice(0, 150)} | VAR ${p.variations.join(' / ')}`)
+  console.log('RULES: ' + c.rules.map((r) => r.text).join(' | '))
+  for (const k of ['read', 'watch', 'listen', 'art', 'eat', 'drink', 'customs', 'games', 'festivals', 'places']) {
+    console.log(`${k.toUpperCase()} (${c.immerse[k].length}): ` + c.immerse[k].map((i) => `${i.title} [${i.creator.slice(0, 38)}${i.year ? ', ' + i.year : ''}] ${i.why.slice(0, 70)}`).join(' || '))
+  }
+  console.log('WORDS (' + c.words.length + '): ' + c.words.map((w) => `${w.term}=${w.meaning.slice(0, 28)}`).join(' | '))
 }
-console.log('\nWORDS (' + c.words.length + '): ' + c.words.map((w) => `${w.term} = ${w.meaning.slice(0, 40)}`).join(' | '))
-console.log('\nOTHER TASKS: ' + c.tasks.filter((t) => !t.action).map((t) => t.name).join(' | '))

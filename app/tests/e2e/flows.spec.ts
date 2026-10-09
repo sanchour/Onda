@@ -140,12 +140,12 @@ test.describe('Update 1.3', () => {
 })
 
 test.describe('Update 1.4', () => {
-  test('opens on the Ondas tab; since 5.2 practices and tasks are one list, and a practice can open the Journal', async ({ page }) => {
+  test('opens on the Ondas tab; since 5.2 practices and tasks are one list, and a practice can open the Philosophy page', async ({ page }) => {
     await seedDemo(page)
     await expect(page.getByRole('tab', { name: /^(Practices|Tasks|Rules)$/ })).toHaveCount(0)
     await expect(page.getByText('2 of 5 practices')).toBeVisible()
-    await page.getByRole('button', { name: /Open Journal/ }).first().click()
-    await expect(page.getByRole('heading', { name: 'Journal' })).toBeVisible() // a full page, not a sheet
+    await page.getByRole('button', { name: /Open Philosophy/ }).first().click()
+    await expect(page.getByRole('heading', { name: 'Philosophy' })).toBeVisible() // a full page, not a sheet
     await expect(page.getByRole('dialog')).toHaveCount(0)
   })
 

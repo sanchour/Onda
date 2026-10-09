@@ -288,17 +288,17 @@
     {
       "id": "geometry",
       "name": "A proof before breakfast",
-      "icon": "triangle",
+      "icon": "ruler",
       "slot": "Morning",
       "time": "07:00",
       "minutes": 15,
       "meta": "Morning · 15 min",
-      "instructions": "Take paper, a pencil, a straight edge and something to draw a circle with. Work one geometrical problem by hand. Begin with the one from the Meno: draw a square, then find the square with exactly twice its area. Do not look up the answer. Draw, guess, test and correct. When you have it, say aloud why it must be so and could not be otherwise.",
-      "why": "Plato held that mathematics turns the soul from the things we see towards the things we can only think. Later tradition said a sign over the Academy door read: let no one ignorant of geometry enter.",
+      "instructions": "Take paper, a pencil, a straight edge and something to draw a circle with. Work one geometrical problem by hand. Begin with the one from the Meno: draw a square, then find the square with exactly twice its area. Do not look up the answer. Struggle with it, then check. Mark the moment when you see it, not just believe it.",
+      "why": "In Plato’s Meno, Socrates leads a slave boy to discover the doubled square by questions alone. The Academy’s motto, let no one ignorant of geometry enter, shows how highly he prized this.",
       "variations": [
-        "Prove that the angles of a triangle add up to two right angles.",
-        "Build one of the five regular solids from card.",
-        "Explain the proof to someone else using questions only."
+        "Try a different proof with a friend.",
+        "Draw the problem on a wall.",
+        "Prove it two ways."
       ]
     },
     {
@@ -309,12 +309,76 @@
       "time": "10:00",
       "minutes": 15,
       "meta": "Morning · 15 min",
-      "instructions": "Choose one word you rely on: courage, friendship, fairness, success. Write your best one-sentence definition. Now attack it as Socrates would. Find a case that fits the definition but is plainly not the thing, or a clear case of the thing that the definition leaves out. Mend the definition and attack it again. Do three rounds. Stop wherever you are, and note what you no longer think you know.",
-      "why": "This is the elenchus, the testing by question that fills the early dialogues. They seldom reach an answer. What they give is the discovery that one’s opinions were not yet knowledge.",
+      "instructions": "Choose one word you rely on: courage, friendship, fairness, success. Write your best one-sentence definition. Now attack it as Socrates would. Find a case that fits the definition but is plainly not the thing, or a clear case of the thing that the definition leaves out. Revise. Repeat twice. Write your best result and what you still do not know.",
+      "why": "The Socratic question what is it? runs through the early dialogues. It teaches you how little you know about words you use constantly.",
       "variations": [
-        "Do it aloud with a friend, taking turns as questioner.",
-        "Use a word from your own job description.",
-        "Read the Euthyphro and follow its five definitions."
+        "Define a word with a friend.",
+        "Pick a word from the news.",
+        "Try it on a word you love."
+      ]
+    },
+    {
+      "id": "fold-a-perfect-solid",
+      "name": "Fold a perfect solid",
+      "icon": "cube",
+      "slot": "Morning",
+      "time": "08:30",
+      "minutes": 15,
+      "meta": "Morning · 15 min",
+      "instructions": "Fold or cut and glue one of the five regular solids from paper: tetrahedron, cube, octahedron, dodecahedron or icosahedron. Print a net or draw your own. Plato in the Timaeus matched four of them to the elements and the fifth to the heavens. Hold it up to the light, and put it where you can see it.",
+      "why": "The five regular solids are called the Platonic solids because Plato used them in the Timaeus. Making one by hand makes the idea real.",
+      "variations": [
+        "Start with a cube.",
+        "Make a set of five.",
+        "Hang it as a mobile."
+      ]
+    },
+    {
+      "id": "shadows-on-the-wall",
+      "name": "Shadows on the wall",
+      "icon": "sun-dim",
+      "slot": "Morning",
+      "time": "07:15",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Hold your hand in front of a lamp or the morning sun and look at its shadow on the wall. Move your fingers. Ask what the shadow tells you about the hand and what it leaves out. This is the cave from the Republic: prisoners who mistake shadows for the real. Then ask: what shadows am I taking for the real today?",
+      "why": "The allegory of the cave is the most famous image in philosophy. Playing with real shadows makes it vivid.",
+      "variations": [
+        "Make shadow animals with a child.",
+        "Watch your shadow lengthen.",
+        "Write the shadow you suspect."
+      ]
+    },
+    {
+      "id": "a-dialogue-with-myself",
+      "name": "A dialogue with myself",
+      "icon": "chats",
+      "slot": "Morning",
+      "time": "09:00",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Write a short dialogue between you and an imaginary Socrates about one thing you believe. Let him ask simple questions, such as what do you mean by that? and how do you know? Answer honestly. Keep going for ten lines. Plato invented the philosophical dialogue, and writing one is the best way to find out what you think.",
+      "why": "Plato wrote all his philosophy as dialogues, and wrote himself out of them. Writing one is a practical way to test your beliefs.",
+      "variations": [
+        "Do it with a real friend as Socrates.",
+        "Argue a position you reject.",
+        "Write one with a child and let them ask the questions."
+      ]
+    },
+    {
+      "id": "a-plain-breakfast",
+      "name": "A plain breakfast",
+      "icon": "bowl-food",
+      "slot": "Morning",
+      "time": "07:30",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Eat a plain breakfast of barley or oats, a few olives, a fig or two and water. In the Republic, Socrates praises simple food for its health and calm, and warns that luxury makes both the city and the soul feverish. Notice how it feels to eat what you need, slowly, and what you do not miss.",
+      "why": "Plato’s ideal diet is simple, and praised for leaving the mind clear. A plain breakfast is a pleasant experiment.",
+      "variations": [
+        "Add honey.",
+        "Eat with a friend.",
+        "Do it for a week."
       ]
     },
     {
@@ -325,28 +389,92 @@
       "time": "16:00",
       "minutes": 30,
       "meta": "Afternoon · 30 min",
-      "instructions": "Train the body for twenty minutes: run, wrestle, lift, swim, or walk hard. Keep it plain and stop short of exhaustion. Then spend ten minutes on music in Plato’s wide sense. Sing, play, or learn eight lines of good poetry by heart and say them aloud. Do both every day, so that neither one outruns the other.",
-      "why": "The Republic prescribes two things for the young: gymnastic for the body and music for the soul. Too much of the first makes a person harsh, and too much of the second makes them soft. The aim of the pair is a soul in tune.",
+      "instructions": "Train the body for twenty minutes: run, wrestle, lift, swim, or walk hard. Keep it plain and stop short of exhaustion. Then spend ten minutes on music in Plato’s wide sense. Sing, play, or learn eight lines of good poetry by heart. The rule of this Onda is to train body and soul together.",
+      "why": "Plato’s education pairs gymnastic and music, the body and the soul, so that neither is neglected. A short session of each is a balanced afternoon.",
       "variations": [
-        "Take a wrestling or grappling class.",
-        "Learn a simple song in a single mode and sing it daily.",
-        "Walk and recite."
+        "Learn a poem on the walk.",
+        "Play an instrument after exercise.",
+        "Do both with a friend."
       ]
     },
     {
       "id": "ladder",
       "name": "The ladder of beauty",
-      "icon": "eye",
+      "icon": "star-four",
       "slot": "Afternoon",
       "time": "18:00",
       "minutes": 10,
       "meta": "Afternoon · 10 min",
-      "instructions": "Find one beautiful thing in front of you: a face, a tree, a well-made tool. Look at it for two full minutes. Then climb, one step at a time. What do all beautiful bodies share with it? What is beautiful in a person’s character, apart from their looks? In a good law, or a good custom? In a proof or a true explanation? Last, try to think of beauty itself, which none of these is and all of them borrow from. Stay there as long as you can.",
-      "why": "In the Symposium the priestess Diotima teaches Socrates that love is a ladder. One begins with a single beautiful body and rises by steps to Beauty itself, pure and unchanging.",
+      "instructions": "Find one beautiful thing in front of you: a face, a tree, a well-made tool. Look at it for two full minutes. Then climb, one step at a time. What do all beautiful bodies share with it? What is beautiful in a person’s character, a law, a piece of knowledge? What is beauty itself? Write where you stop climbing.",
+      "why": "In the Symposium, Diotima describes a ladder of love rising from one beautiful body to beauty itself. Climbing it in thought is a lovely exercise.",
       "variations": [
-        "Do the same with goodness in place of beauty.",
-        "Do it in a museum, in front of one work.",
-        "Write down the step at which you get stuck."
+        "Start from a piece of music.",
+        "Start from a building.",
+        "Start from a friend’s kindness."
+      ]
+    },
+    {
+      "id": "walk-and-talk",
+      "name": "Walk and talk",
+      "icon": "footprints",
+      "slot": "Afternoon",
+      "time": "17:00",
+      "minutes": 30,
+      "meta": "Afternoon · 30 min",
+      "instructions": "Walk with a friend for half an hour with one question to pursue, such as is it better to suffer wrong than to do it? Do not sit. Take turns to speak and to listen. Plato’s Academy had a grove with covered walks, and Aristotle’s school got its name from walking. Fresh air makes the mind move.",
+      "why": "Walking and talking is a classic way of doing philosophy in the Academy and the Lyceum. Movement helps thought.",
+      "variations": [
+        "Walk alone and talk to yourself.",
+        "Walk by phone with a faraway friend.",
+        "Walk a path in a park."
+      ]
+    },
+    {
+      "id": "i-do-not-know",
+      "name": "I do not know",
+      "icon": "quotes",
+      "slot": "Afternoon",
+      "time": "14:00",
+      "minutes": 5,
+      "meta": "Afternoon · 5 min",
+      "instructions": "Today, when you do not know something, say so plainly: I do not know. Say it at least once in a meeting or conversation where you would normally bluff. Then add: but I would like to find out. Socrates’s wisdom, he says in the Apology, is that he does not think he knows what he does not know. The rule of this Onda is to say I do not know when you do not.",
+      "why": "Admitting ignorance is the first step of Socratic philosophy. It keeps you honest and opens the way to learning.",
+      "variations": [
+        "Say it to a child.",
+        "Say it before looking something up.",
+        "Say it about an opinion."
+      ]
+    },
+    {
+      "id": "teach-by-question",
+      "name": "Teach by question",
+      "icon": "question",
+      "slot": "Afternoon",
+      "time": "15:30",
+      "minutes": 20,
+      "meta": "Afternoon · 20 min",
+      "instructions": "For the next twenty minutes, in a conversation or lesson, ask questions only and offer no statements. Ask what do you mean, why do you think so and what would follow if you were right? Be curious and kind. Notice how the other person thinks it through for themselves. Socrates charged no fees and gave no lectures.",
+      "why": "The Socratic method is teaching by questions, drawing out what the learner already half knows. It is a respectful and powerful way to talk.",
+      "variations": [
+        "Use it on a child.",
+        "Use it in a team meeting.",
+        "Use it on yourself."
+      ]
+    },
+    {
+      "id": "follow-the-argument",
+      "name": "Follow the argument",
+      "icon": "path",
+      "slot": "Afternoon",
+      "time": "16:30",
+      "minutes": 15,
+      "meta": "Afternoon · 15 min",
+      "instructions": "Choose a belief of yours and argue it to the end, step by step, writing each step down. If you reach a conclusion you dislike, do not look away: ask which step is wrong. If no step is wrong, accept it. The rule of this Onda is to follow the argument wherever it leads. Note whether you changed your mind.",
+      "why": "Following the argument wherever it leads is Socrates’s motto in the Republic. It takes courage to follow it.",
+      "variations": [
+        "Do it with a friend as an opponent.",
+        "Do it on a political issue.",
+        "Do it on a personal choice."
       ]
     },
     {
@@ -357,122 +485,341 @@
       "time": "21:30",
       "minutes": 10,
       "meta": "Evening · 10 min",
-      "instructions": "Go back over the day and sort its moments by which part of you was in charge. When did appetite pull: food, comfort, money, the screen? When did spirit pull: anger, pride, the wish to win, shame? When did reason hold the reins and the other two go with it? Pick the one moment you would most like to drive again, and say how.",
-      "why": "The Phaedrus pictures the soul as a charioteer with two winged horses, one noble and one unruly. The Republic gives it three parts and calls a person just when each does its own work under reason.",
+      "instructions": "Go back over the day and sort its moments by which part of you was in charge. When did appetite pull: food, comfort, money, the screen? When did spirit pull: anger, pride, the wish to win, shame? When did reason hold the reins? Write three lines. Plan one small way to let reason drive tomorrow. Think of the soul as a charioteer with two horses.",
+      "why": "In the Phaedrus, Plato compares the soul to a charioteer driving a white horse of spirit and a dark horse of appetite. The review turns the image into a daily practice.",
       "variations": [
-        "Give each horse a name.",
-        "Ask what the unruly horse was really after.",
-        "Plan tomorrow’s hardest moment in advance."
-      ]
-    }
-  ],
-  "tasks": [
-    {
-      "id": "task-read-the-apology-of-socrates",
-      "name": "Read the Apology of Socrates",
-      "meta": "Read · about an hour",
-      "time": "20:00",
-      "slot": "Evening",
-      "action": "read"
-    },
-    {
-      "id": "task-read-the-cave-republic-book-7-to-521b",
-      "name": "Read the cave: Republic, book 7, to 521b",
-      "meta": "Read · 30 min",
-      "time": "07:30",
-      "slot": "Morning",
-      "action": "read"
-    },
-    {
-      "id": "task-look-closely-at-raphael-s-school-of-athens",
-      "name": "Look closely at Raphael’s School of Athens",
-      "meta": "Art · find Plato pointing up",
-      "time": "13:00",
-      "slot": "Afternoon",
-      "action": "art"
-    },
-    {
-      "id": "task-eat-as-the-first-city-in-the-republic-eats-barley-bread-olives-cheese-",
-      "name": "Eat as the first city in the Republic eats: barley bread, olives, cheese, figs",
-      "meta": "Eat · Republic 372",
-      "time": "12:30",
-      "slot": "Afternoon",
-      "action": "eat"
-    },
-    {
-      "id": "task-journal-what-did-you-find-you-did-not-know",
-      "name": "Journal: what did you find you did not know?",
-      "meta": "Journal · 10 min",
-      "time": "21:00",
-      "slot": "Evening",
+        "Name the horses by what they wanted.",
+        "Draw the chariot.",
+        "Review only one hour."
+      ],
       "action": "journal"
     },
     {
-      "id": "task-the-cave-what-shadows-did-you-take-for-real-today",
-      "name": "The cave: what shadows did you take for real today?",
-      "meta": "Philosophy · 10 min",
-      "time": "08:30",
-      "slot": "Morning",
-      "action": "philosophy"
-    },
-    {
-      "id": "ask-someone-a-real-question-and-follow-their-answer-wherever-it-goes",
-      "name": "Ask someone a real question and follow their answer wherever it goes",
-      "meta": "Dialectic",
-      "time": "11:00",
-      "slot": "Morning"
-    },
-    {
-      "id": "admit-ignorance-once-aloud",
-      "name": "Admit ignorance once, aloud",
-      "meta": "I do not know",
-      "time": "15:00",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "talk-philosophy-over-a-meal-with-friends",
-      "name": "Talk philosophy over a meal with friends",
-      "meta": "A symposium",
+      "id": "a-little-symposium",
+      "name": "A little symposium",
+      "icon": "chats",
+      "slot": "Evening",
       "time": "19:30",
-      "slot": "Evening"
+      "minutes": 40,
+      "meta": "Evening · 40 min",
+      "instructions": "Hold a mini-symposium at the end of dinner. Choose one question, such as what is love? or is it good to be rich? Each person speaks in turn, with no interrupting, and the host closes with questions. Drink water or watered juice in the Greek style. Share dried figs and nuts. Plato’s Symposium gives each guest a speech about love; the best comes from Socrates.",
+      "why": "The symposium was the Greek after-dinner drinking party, where the best talk happened. A sober version keeps the talk and drops the hangover.",
+      "variations": [
+        "Agree to speak in praise of something.",
+        "Use Plato’s question about love.",
+        "End with a toast to the host."
+      ]
     },
     {
-      "id": "treat-draw-a-perfect-circle-freehand-and-admire-how-it-fails",
-      "name": "Draw a perfect circle freehand and admire how it fails",
-      "meta": "The Form is elsewhere",
-      "time": "08:30",
-      "slot": "Morning"
+      "id": "read-the-apology-aloud",
+      "name": "Read the Apology aloud",
+      "icon": "scroll",
+      "slot": "Evening",
+      "time": "20:00",
+      "minutes": 20,
+      "meta": "Evening · 20 min",
+      "instructions": "Read part of Plato’s Apology aloud, Socrates’s speech at his trial. Choose the passage where he says the unexamined life is not worth living, or where he says he is wiser only because he knows he knows nothing. Read it slowly, with the pauses. Imagine the room. Sit quietly after.",
+      "why": "The Apology is the best introduction to Socrates, and reads well aloud. Its courage and humour are unforgettable.",
+      "variations": [
+        "Read it with a friend, taking turns.",
+        "Listen to a recording.",
+        "Read the final speech."
+      ]
     },
     {
-      "id": "treat-watch-shadows-on-a-wall-for-two-minutes-and-guess-what-casts",
-      "name": "Watch shadows on a wall for two minutes and guess what casts them",
-      "meta": "A small cave",
-      "time": "15:30",
-      "slot": "Afternoon"
+      "id": "look-up-at-the-cosmos",
+      "name": "Look up at the cosmos",
+      "icon": "moon-stars",
+      "slot": "Evening",
+      "time": "21:00",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Go outdoors after dark and look at the sky for fifteen minutes. Plato called the world a kosmos, an ordered beauty, and thought the circling stars were the visible image of an eternal order. Find the moon or a planet and watch for movement. Ask what order lies behind what you see.",
+      "why": "In the Timaeus, Plato describes the heavens as a moving image of eternity. Stargazing is the oldest form of wonder.",
+      "variations": [
+        "Find the pole star.",
+        "Learn one constellation.",
+        "Sketch the sky."
+      ]
     },
     {
-      "id": "treat-ask-a-child-why-five-times-in-a-row-for-once",
-      "name": "Ask a child “why?” five times in a row, for once",
-      "meta": "Turn the tables",
-      "time": "15:30",
-      "slot": "Afternoon"
+      "id": "return-to-the-cave",
+      "name": "Return to the cave",
+      "icon": "door-open",
+      "slot": "Evening",
+      "time": "19:00",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Tell someone what you learned today, or one thing that you now see differently. In the Republic, the freed prisoner must go back into the cave and tell the others what he has seen. Do it with kindness and without scorn. Notice how hard it is to explain, and how much you learn by trying.",
+      "why": "The return to the cave is the philosopher’s duty to share what has been seen. Explaining something to a friend is the best test of understanding.",
+      "variations": [
+        "Explain it to a child.",
+        "Write it as a letter.",
+        "Ask the listener to repeat it back."
+      ]
     },
     {
-      "id": "treat-listen-to-one-piece-of-music-and-ask-what-makes-it-beautiful",
-      "name": "Listen to one piece of music and ask what makes it beautiful",
-      "meta": "No answer needed",
-      "time": "19:30",
-      "slot": "Evening"
+      "id": "a-question-for-tomorrow",
+      "name": "A question for tomorrow",
+      "icon": "notebook",
+      "slot": "Evening",
+      "time": "22:00",
+      "minutes": 5,
+      "meta": "Evening · 5 min",
+      "instructions": "Before bed, write one question that you want to work on tomorrow. Make it clear and open: what is a good friend? How should I spend my time? Leave it by the bed. Plato says that philosophy begins in wonder. Let the night work on the question and see whether the morning has something to say.",
+      "why": "Philosophy begins in wonder, as Socrates tells Theaetetus. A written question gives the sleeping mind a task.",
+      "variations": [
+        "Ask a question about a person.",
+        "Ask a question about a choice.",
+        "Ask the question you are afraid of."
+      ]
     },
     {
-      "id": "daily-ask-what-makes-one-beautiful-thing-beautiful",
-      "name": "Ask what makes one beautiful thing beautiful",
-      "meta": "Climb the ladder one rung",
-      "time": "20:30",
-      "slot": "Evening"
+      "id": "a-day-in-the-academy",
+      "name": "A day in the Academy",
+      "icon": "columns",
+      "slot": "Special",
+      "time": "10:00",
+      "minutes": 120,
+      "meta": "On a free morning · 120 min",
+      "instructions": "Spend a morning as in Plato’s Academy: begin with a geometry problem, walk with a friend discussing one question, read a page of a dialogue aloud, and end with a plain meal of bread, olives and fruit. Keep a list of the questions you asked. The Academy lasted over 900 years, so you are in good company.",
+      "why": "Plato’s Academy was a school of mathematics, argument and shared life. A day in its spirit is a retreat for the mind.",
+      "variations": [
+        "Do it with two friends.",
+        "Do it in a park with trees.",
+        "Finish with a toast of water."
+      ]
+    },
+    {
+      "id": "a-socratic-dinner",
+      "name": "A Socratic dinner",
+      "icon": "fork-knife",
+      "slot": "Special",
+      "time": "19:00",
+      "minutes": 120,
+      "meta": "On a free evening · 120 min",
+      "instructions": "Invite friends to a simple dinner in the Greek style: bread, olives, cheese, figs, boiled greens, chickpeas. Choose a question beforehand, and send it with the invitation. After eating, discuss it, one speech each. Include a toast to someone who is not there. Keep the talk friendly, not competitive, and let the evening run long.",
+      "why": "The dinner and the talk that follows are the setting of Plato’s Symposium. Recreating it gives friends the gift of a long, structured conversation.",
+      "variations": [
+        "Pick a question about friendship.",
+        "Ask everyone to bring a quotation.",
+        "Finish by reading the closing page of the Symposium."
+      ]
     }
   ],
-  "immersePlan": [],
+  "tasks": [],
+  "immersePlan": [
+    {
+      "kind": "read",
+      "item": "read-apology",
+      "name": "Read the Apology",
+      "text": "Read Plato’s account of Socrates at his trial. Read it in one sitting if you can, and note the line that strikes you.",
+      "minutes": 40
+    },
+    {
+      "kind": "read",
+      "item": "read-symposium",
+      "name": "Read the Symposium",
+      "text": "Read a section of Plato’s drinking party where each guest speaks about love. Read Aristophanes’s speech about the split humans.",
+      "minutes": 30
+    },
+    {
+      "kind": "read",
+      "item": "read-republic",
+      "name": "Read the cave in the Republic",
+      "text": "Read the allegory of the cave at the start of Book VII. Read it slowly and think of your own shadows.",
+      "minutes": 20
+    },
+    {
+      "kind": "watch",
+      "item": "watch-socrates",
+      "name": "Watch Rossellini’s Socrates",
+      "text": "Watch Roberto Rossellini’s 1971 film of Socrates’s last days. It is slow and thoughtful. Notice the calm.",
+      "minutes": 120
+    },
+    {
+      "kind": "watch",
+      "item": "watch-the-matrix",
+      "name": "Watch The Matrix",
+      "text": "Watch the 1999 film in which a man discovers that the world he knows is a simulation. It is the cave retold.",
+      "minutes": 136
+    },
+    {
+      "kind": "watch",
+      "item": "watch-my-dinner-with-andre",
+      "name": "Watch My Dinner with Andre",
+      "text": "Watch Louis Malle’s 1981 film, two men talking at dinner for two hours about life, theatre and being awake. It is a modern symposium.",
+      "minutes": 110
+    },
+    {
+      "kind": "listen",
+      "item": "listen-socrate",
+      "name": "Listen to Satie’s Socrate",
+      "text": "Play Erik Satie’s 1918 symphonic drama on Plato’s texts, sung with calm, clear lines. Follow the translation of the death scene.",
+      "minutes": 35
+    },
+    {
+      "kind": "listen",
+      "item": "listen-serenade-after-plato-s-symposium",
+      "name": "Listen to Bernstein’s Serenade",
+      "text": "Play Leonard Bernstein’s violin concerto in five movements, one for each speaker at Plato’s banquet. Follow along with the titles.",
+      "minutes": 30
+    },
+    {
+      "kind": "listen",
+      "item": "listen-plato-s-republic",
+      "name": "Listen to In Our Time on the Republic",
+      "text": "Play the BBC radio discussion of the Republic by three scholars. Listen while walking.",
+      "minutes": 45
+    },
+    {
+      "kind": "art",
+      "item": "art-the-school-of-athens",
+      "name": "Look at The School of Athens",
+      "text": "Look at Raphael’s fresco of Plato pointing up and Aristotle pointing out, surrounded by the philosophers. Find Diogenes on the steps.",
+      "minutes": 15
+    },
+    {
+      "kind": "art",
+      "item": "art-the-death-of-socrates",
+      "name": "Look at The Death of Socrates",
+      "text": "Look at Jacques-Louis David’s painting of Socrates reaching for the cup, still teaching. Notice the weeping friends.",
+      "minutes": 10
+    },
+    {
+      "kind": "art",
+      "item": "art-the-five-regular-solids",
+      "name": "Look at the five regular solids",
+      "text": "Look at drawings of the tetrahedron, cube, octahedron, dodecahedron and icosahedron, and match each to an element as Plato did.",
+      "minutes": 10
+    },
+    {
+      "kind": "eat",
+      "item": "eat-maza",
+      "name": "Make maza",
+      "text": "Knead barley meal with water or oil into a simple cake, the daily bread of the Greeks. Eat it with olives.",
+      "minutes": 15
+    },
+    {
+      "kind": "eat",
+      "item": "eat-olives-cheese-and-figs",
+      "name": "Eat olives, cheese and figs",
+      "text": "Make a plate of olives, cheese and figs with boiled greens and chickpeas, the plain fare of the Republic. Eat it slowly.",
+      "minutes": 30
+    },
+    {
+      "kind": "eat",
+      "item": "eat-dried-figs-and-nuts",
+      "name": "Eat figs and nuts",
+      "text": "Eat dried figs and nuts at the end of a meal, as the Greek second tables did. Share them while you talk.",
+      "minutes": 10
+    },
+    {
+      "kind": "drink",
+      "item": "drink-wine-mixed-with-water",
+      "name": "Drink diluted grape juice",
+      "text": "Mix grape juice with two or three parts water in a bowl and serve it in cups, in the Greek manner. Use juice rather than wine. Sip it slowly.",
+      "minutes": 10
+    },
+    {
+      "kind": "drink",
+      "item": "drink-water",
+      "name": "Drink water from a cup",
+      "text": "Drink a cup of cool water, slowly, and think about the idea of thirst and its satisfaction. Socrates liked to ask what it is that thirst really wants.",
+      "minutes": 5
+    },
+    {
+      "kind": "drink",
+      "item": "drink-kykeon",
+      "name": "Make kykeon",
+      "text": "Stir barley meal into water with a little honey or mint and drink it. It is the oldest Greek porridge-drink.",
+      "minutes": 10
+    },
+    {
+      "kind": "customs",
+      "item": "customs-the-symposium",
+      "name": "Hold a symposium",
+      "text": "Gather friends after a meal for talk on one question, with water in cups. Each speaks in turn.",
+      "minutes": 40
+    },
+    {
+      "kind": "customs",
+      "item": "customs-teaching-by-question",
+      "name": "Teach by question",
+      "text": "In one conversation today, ask only questions: what do you mean, how do you know. See what the other person finds.",
+      "minutes": 15
+    },
+    {
+      "kind": "customs",
+      "item": "customs-walking-and-talking",
+      "name": "Walk and talk with a friend",
+      "text": "Take a friend for a half-hour walk and discuss one question. Do not sit down.",
+      "minutes": 30
+    },
+    {
+      "kind": "games",
+      "item": "games-petteia",
+      "name": "Play petteia",
+      "text": "Play the ancient Greek board game of capture by surrounding. Draw a grid and use pebbles in two colours.",
+      "minutes": 30
+    },
+    {
+      "kind": "games",
+      "item": "games-knucklebones",
+      "name": "Play knucklebones",
+      "text": "Toss five small stones or dice in the air and catch them on the back of the hand. Play with a friend, and count your catches.",
+      "minutes": 15
+    },
+    {
+      "kind": "games",
+      "item": "games-kottabos",
+      "name": "Play kottabos with water",
+      "text": "Flick drops of water from a cup at a target, as Greek drinkers flicked wine lees at a bowl. Use water and a cup, and lay a cloth down.",
+      "minutes": 20
+    },
+    {
+      "kind": "travel",
+      "item": "fest-the-panathenaea",
+      "name": "Look up the Panathenaea",
+      "text": "Read about Athens’s great midsummer festival, with a procession carrying a new robe to the goddess. Plan your own procession to a favourite spot.",
+      "minutes": 15
+    },
+    {
+      "kind": "travel",
+      "item": "fest-plato-s-birthday",
+      "name": "Keep Plato’s birthday",
+      "text": "Plato’s birthday is kept on 7 November, as it was by his followers for centuries. Share a meal and one question with a friend.",
+      "minutes": 30
+    },
+    {
+      "kind": "travel",
+      "item": "place-plato-s-academy",
+      "name": "Look up Plato’s Academy",
+      "text": "Look at pictures of the olive grove in Athens where Plato taught. Imagine walking between its trees.",
+      "minutes": 10
+    },
+    {
+      "kind": "words",
+      "item": "word-aporia",
+      "name": "Practise aporia",
+      "text": "Aporia is the state of being at a loss. Find one question that leaves you at a loss and stay with it without rushing to an answer.",
+      "minutes": 10
+    },
+    {
+      "kind": "words",
+      "item": "word-elenchos",
+      "name": "Practise elenchos",
+      "text": "Elenchos is examination by questioning. Examine one of your own beliefs with three questions before bed.",
+      "minutes": 10
+    },
+    {
+      "kind": "words",
+      "item": "word-arete",
+      "name": "Practise arete",
+      "text": "Arete means excellence. Do one task today in the way that shows its excellence, however humble.",
+      "minutes": 10
+    }
+  ],
   "rules": [
     {
       "id": "r1",

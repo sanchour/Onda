@@ -299,28 +299,92 @@
       "time": "05:30",
       "minutes": 15,
       "meta": "Morning · 15 min",
-      "instructions": "Rise before the sun and wash. Sit outside or at an open window, on the floor if you can. Keep silence for five minutes. Then read aloud a short passage from the scripture or poetry that means most to you, and one from a tradition that is not your own. Name the truth you will hold to today and the person you will try not to wrong. Sit quietly for a minute more.",
-      "why": "The ashram bell rang at four and prayers began at twenty past, on open ground by the river, in every season. They included verses from the Gita on the person of steady wisdom, with Muslim, Christian, Parsi and Buddhist prayers alongside.",
+      "instructions": "Rise before the sun and wash. Sit outside or at an open window, on the floor if you can. Keep silence for five minutes. Then read aloud a short passage from the scripture or poetry that means most to you, and one from a tradition that is not yours. End with a verse of a song, or a single word of peace. No belief is required; the point is to begin the day quiet and truthful. The rule of this Onda is to tell the truth.",
+      "why": "Gandhi’s ashram day began with a multi-faith prayer at 4:20 in the morning, in which hymns and readings from many religions were shared. A quiet start gave him the steadiness he needed.",
       "variations": [
-        "Recite the same eighteen verses daily: Gita, chapter 2, verses 54 to 72.",
-        "Sing or listen to Vaishnava Jana To.",
-        "Keep the first hour of the day free of any screen."
+        "Read a poem from a different tradition.",
+        "Sing one verse of a hymn.",
+        "Sit outside in the cold light."
       ]
     },
     {
       "id": "spin",
       "name": "Half an hour of handwork",
-      "icon": "yarn",
+      "icon": "needle",
       "slot": "Morning",
       "time": "08:00",
       "minutes": 30,
       "meta": "Morning · 30 min",
-      "instructions": "Spend thirty minutes making or mending something useful with your hands: spin, knit, sew a seam, darn, weave, carve, repair a tool. Sit upright, work steadily and do not listen to anything. Let the rhythm of the work hold your attention. Keep what you make in use, and count it at the end of the week.",
-      "why": "Gandhi spun for at least half an hour every day, even on trains and in prison, and called the wheel his prayer. He asked the nation to spin so that the villages would have work, the body its share of labour and the mind a daily discipline.",
+      "instructions": "Spend thirty minutes making or mending something useful with your hands: spin, knit, sew a seam, darn, weave, carve, repair a tool. Sit upright, work steadily and do not listen to anything. Let the rhythm of the work hold your attention. The rule of this Onda is to do some work with your hands each day.",
+      "why": "Gandhi spun cotton daily and asked everyone in the movement to do the same, as a way to share in physical work and to dignify it. Handwork steadies the mind.",
       "variations": [
-        "Learn the drop spindle. It costs almost nothing.",
-        "Mend one thing you would otherwise replace.",
-        "Wear something made by hand, and find out who made it."
+        "Mend a garment.",
+        "Knit a few rows.",
+        "Sharpen a knife or fix a hinge."
+      ]
+    },
+    {
+      "id": "a-brisk-morning-walk",
+      "name": "A brisk morning walk",
+      "icon": "person-simple-walk",
+      "slot": "Morning",
+      "time": "06:30",
+      "minutes": 30,
+      "meta": "Morning · 30 min",
+      "instructions": "Walk briskly for half an hour at the start of the day, in the open air. Gandhi walked in the morning and evening for decades and could keep pace with men half his age. Swing your arms and breathe deeply. Greet whoever you meet. Walk at a pace that suits your health.",
+      "why": "Gandhi was a tireless walker and believed walking was the best exercise. A daily walk was a part of every day at the ashram.",
+      "variations": [
+        "Walk barefoot on a safe path.",
+        "Walk with a friend and talk of one question.",
+        "Walk to a place you usually drive to."
+      ]
+    },
+    {
+      "id": "one-fearless-act",
+      "name": "One fearless act",
+      "icon": "shield",
+      "slot": "Morning",
+      "time": "09:00",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Choose one thing today that you have been afraid to do, and do it, with truth and without harm to anyone. Abhaya, fearlessness, was the first of Gandhi’s qualities of a good person. Say the hard thing kindly, ask for the thing you want, or stand in line for what is fair. The rule of this Onda is to fear nothing.",
+      "why": "Gandhi said that fearlessness is the first requisite of spirituality. A small fearless act each day builds it like a muscle.",
+      "variations": [
+        "Speak up in a meeting.",
+        "Phone someone you have been avoiding.",
+        "Say no when you mean no."
+      ]
+    },
+    {
+      "id": "use-something-local",
+      "name": "Use something local",
+      "icon": "storefront",
+      "slot": "Morning",
+      "time": "10:00",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Today, choose to use or buy something made close to home by people you could meet: bread from a local baker, vegetables from a neighbour, cloth from a nearby maker. Swadeshi is the principle of preferring what is made nearby. Notice who made it. Thank them if you can. Even one local choice makes a small circle.",
+      "why": "Swadeshi, using what is made in your own country and community, was a core part of Gandhi’s programme. It ties your purchases to the people who make things.",
+      "variations": [
+        "Visit a farmers’ market.",
+        "Buy from a small maker.",
+        "Wear something made nearby."
+      ]
+    },
+    {
+      "id": "a-plain-breakfast-with-warm-lemon-water",
+      "name": "A plain breakfast with warm lemon water",
+      "icon": "orange",
+      "slot": "Morning",
+      "time": "07:30",
+      "minutes": 15,
+      "meta": "Morning · 15 min",
+      "instructions": "Drink a glass of warm water with lemon and a little honey when you wake, and eat a plain breakfast of fruit, nuts or dates. Eat simply and sparingly, as the ashram did. Chew slowly and finish what you take. Notice how light the morning feels. The rule of this Onda is to eat simply. Skip any food your health needs, and ask a doctor if unsure.",
+      "why": "Gandhi ate simple vegetarian food and experimented with diet all his life. A plain breakfast is a gentle version of his habit.",
+      "variations": [
+        "Skip one extra, such as sugar or salt.",
+        "Eat in silence for five minutes.",
+        "Eat seasonal fruit."
       ]
     },
     {
@@ -331,175 +395,437 @@
       "time": "13:30",
       "minutes": 20,
       "meta": "Afternoon · 20 min",
-      "instructions": "Do the dirtiest job in your household or workplace yourself today, with care and without complaint. Clean the toilet, take out the rubbish, scrub the drain, wash everyone’s dishes. Do it thoroughly and tell nobody. While you work, think of the people who are usually left to do this, and what they are paid in money and in respect.",
-      "why": "At his ashrams everyone took turns cleaning the latrines, work that Indian society forced on the people it called untouchable. He once threatened to put his wife out for refusing to empty a guest’s chamber pot, and was ashamed of the threat for the rest of his life. He held that no work is low.",
+      "instructions": "Do the dirtiest job in your household or workplace yourself today, with care and without complaint. Clean the toilet, take out the rubbish, scrub the drain, wash everyone’s dishes. Do it thoroughly and tell nobody. While you work, think about the people who do such jobs every day for a living, and how they are treated.",
+      "why": "Gandhi cleaned latrines himself and insisted that every ashram member do so, to break the idea that some work is beneath anyone. It is a humbling exercise in bread labour.",
       "variations": [
-        "Pick up litter in your street for twenty minutes.",
-        "Learn the name of the person who cleans where you work, and thank them.",
-        "Carry your own bag, cook your own meal, wash your own clothes for a day."
+        "Clean a shared space at work.",
+        "Thank the cleaners.",
+        "Do it for a neighbour."
       ]
     },
     {
       "id": "talisman",
       "name": "The talisman",
-      "icon": "scales",
+      "icon": "compass",
       "slot": "Afternoon",
       "time": "16:00",
       "minutes": 5,
       "meta": "Afternoon · 5 min",
-      "instructions": "When you are in doubt today, or when the self becomes too much with you, stop. Call to mind the face of the poorest and weakest person you have ever seen. Ask whether the step you are considering will be of any use to them. Will they gain anything by it? Will it give them back some control over their own life? Decide in the light of the answer.",
-      "why": "He wrote this out as a talisman for a correspondent in August 1947, in the last months of his life. It was his plainest statement of how to test a decision, and it hangs in schools and offices across India.",
+      "instructions": "When you are in doubt today, or when the self becomes too much with you, stop. Call to mind the face of the poorest and weakest person you have ever seen. Ask whether the step you are considering will be of any use to them. Will it give them anything? Will it restore them to a control over their own life? If the answer is yes, go on. Doubts melt away.",
+      "why": "Gandhi gave this test in a note written in 1948 and called it a talisman. It is a short, searching question for any decision.",
       "variations": [
-        "Apply it to a purchase.",
-        "Apply it to how you will spend this evening.",
-        "Give something today to a person, not to a cause."
+        "Use it for a purchase.",
+        "Use it for a work decision.",
+        "Write the test on a card."
+      ]
+    },
+    {
+      "id": "answer-your-letters",
+      "name": "Answer your letters",
+      "icon": "envelope-simple",
+      "slot": "Afternoon",
+      "time": "14:30",
+      "minutes": 25,
+      "meta": "Afternoon · 25 min",
+      "instructions": "Answer your pending letters and messages today, by hand if possible. Gandhi answered every letter that came to him, often with the left hand when the right was tired, and sometimes sat up until midnight to finish. Choose the most important three. Reply truthfully and kindly. Clear the heap.",
+      "why": "Gandhi wrote an extraordinary number of letters and articles, and was a faithful correspondent. Clearing your own pile is a practical act of respect.",
+      "variations": [
+        "Write one by hand.",
+        "Reply to the oldest first.",
+        "Reply to a message from a stranger."
+      ]
+    },
+    {
+      "id": "a-non-violent-no",
+      "name": "A non-violent no",
+      "icon": "hand-palm",
+      "slot": "Afternoon",
+      "time": "15:30",
+      "minutes": 15,
+      "meta": "Afternoon · 15 min",
+      "instructions": "Choose one thing you disagree with today and say no to it without anger and without harm. Satyagraha, holding to truth, means refusing to cooperate with what you think wrong while treating everyone as a person. Say it clearly, give your reason and accept the consequences. Don’t shout, don’t sneer. Hold your ground gently.",
+      "why": "Satyagraha was Gandhi’s method of non-violent resistance, based on truth and firmness. A small daily version trains the temper and the spine.",
+      "variations": [
+        "Say no to an unfair request.",
+        "Disagree politely in a meeting.",
+        "Refuse to join a piece of gossip."
+      ]
+    },
+    {
+      "id": "own-less",
+      "name": "Own less",
+      "icon": "archive",
+      "slot": "Afternoon",
+      "time": "17:00",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Choose one thing you own and do not need, and give it to someone who does. Gandhi died owning very little: his glasses, sandals, a watch, a bowl, a few books. Look around and pick one item. Wrap it, deliver it and don’t wait for thanks. The rule of this Onda is to own little.",
+      "why": "Aparigraha, non-possession, was one of Gandhi’s vows. Giving away one thing a day is a step towards a lighter life.",
+      "variations": [
+        "Give away a book.",
+        "Give away clothes.",
+        "Pass on a tool you rarely use."
+      ]
+    },
+    {
+      "id": "another-faith-s-verse",
+      "name": "Another faith’s verse",
+      "icon": "books",
+      "slot": "Afternoon",
+      "time": "16:30",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Read one verse or short passage from a faith that is not yours: a psalm, a sutra, a hadith, a Gita verse. Read it slowly and respectfully. Sarva dharma samabhava, equal respect for all religions, was the principle of Gandhi’s prayer meetings. Note one line that you could live by.",
+      "why": "Gandhi’s prayer meetings drew on all the world’s religions and were open to everyone. Reading across traditions was one of his everyday habits.",
+      "variations": [
+        "Read a Sikh hymn.",
+        "Read the Sermon on the Mount.",
+        "Read a Buddhist verse."
       ]
     },
     {
       "id": "evening-silence",
       "name": "Evening prayer and silence",
-      "icon": "moon",
+      "icon": "moon-stars",
       "slot": "Evening",
       "time": "19:00",
       "minutes": 20,
       "meta": "Evening · 20 min",
-      "instructions": "At dusk walk for ten minutes, briskly, without talking. Then sit down. Go back over the day and ask where you departed from the truth: an exaggeration, a convenient silence, a promise not kept. Ask whom you harmed, in word or even in thought. Write the answers in two lines in a diary. Finish with a few minutes of complete silence, and go to bed early.",
-      "why": "Evening prayers at the ashram were held under the open sky at seven, followed by a short talk. He kept a diary all his life, urged everyone to do so as a watch over the self, and went to bed by nine.",
+      "instructions": "At dusk walk for ten minutes, briskly, without talking. Then sit down. Go back over the day and ask where you departed from the truth: an exaggeration, a convenient silence, a promise not kept. Ask whom you harmed, in word or deed or thought. Make a plan to put right what you can. Close with a quiet verse and then silence.",
+      "why": "Gandhi’s evening prayer and his regular self-examination were part of every day. His great principle was to account to himself for his conduct.",
       "variations": [
-        "Keep one whole day of silence this week, as he did every Monday.",
-        "Write to someone you wronged today.",
-        "Eat nothing after sunset."
-      ]
-    }
-  ],
-  "tasks": [
-    {
-      "id": "task-read-the-first-five-chapters-of-his-autobiography",
-      "name": "Read the first five chapters of his Autobiography",
-      "meta": "Read · 30 min",
-      "time": "20:00",
-      "slot": "Evening",
-      "action": "read"
-    },
-    {
-      "id": "task-watch-gandhi-richard-attenborough-s-film",
-      "name": "Watch Gandhi, Richard Attenborough’s film",
-      "meta": "Watch · three hours, in two sittings",
-      "time": "20:30",
-      "slot": "Evening",
-      "action": "watch"
-    },
-    {
-      "id": "task-listen-to-vaishnava-jana-to",
-      "name": "Listen to Vaishnava Jana To",
-      "meta": "Listen · his favourite hymn",
-      "time": "06:00",
-      "slot": "Morning",
-      "action": "listen"
-    },
-    {
-      "id": "task-eat-a-plain-meal-of-no-more-than-five-foods-before-sunset",
-      "name": "Eat a plain meal of no more than five foods, before sunset",
-      "meta": "Eat · his rule from 1915",
-      "time": "17:30",
-      "slot": "Afternoon",
-      "action": "eat"
-    },
-    {
-      "id": "task-journal-where-did-you-depart-from-the-truth-today",
-      "name": "Journal: where did you depart from the truth today?",
-      "meta": "Journal · 10 min",
-      "time": "21:00",
-      "slot": "Evening",
+        "Write the answers.",
+        "Pray together with the household.",
+        "Take a short walk first."
+      ],
       "action": "journal"
     },
     {
-      "id": "task-can-the-end-justify-the-means",
-      "name": "Can the end justify the means?",
-      "meta": "Philosophy · 10 min",
-      "time": "09:00",
-      "slot": "Morning",
-      "action": "philosophy"
+      "id": "an-hour-of-silence",
+      "name": "An hour of silence",
+      "icon": "feather",
+      "slot": "Evening",
+      "time": "20:00",
+      "minutes": 60,
+      "meta": "Evening · 60 min",
+      "instructions": "Keep one hour of silence this evening, as Gandhi did every Monday. Don’t speak, don’t message, don’t watch anything. Read, write, do handwork, walk. If someone needs you, communicate on paper. Notice how much of what you say is unnecessary. When the hour ends, speak your first words slowly and truly.",
+      "why": "Gandhi kept a day of silence every week, from which he said he drew strength and clarity. An hour is a gentle way to try it.",
+      "variations": [
+        "Keep silence for the evening meal.",
+        "Keep it with a friend.",
+        "Keep it outdoors."
+      ]
     },
     {
-      "id": "walk-for-an-hour-at-a-good-pace",
-      "name": "Walk for an hour at a good pace",
-      "meta": "He walked about eighteen kilometres a day",
-      "time": "07:00",
-      "slot": "Morning"
+      "id": "a-page-of-experiments-with-truth",
+      "name": "A page of experiments with truth",
+      "icon": "notebook",
+      "slot": "Evening",
+      "time": "20:30",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Write one page about something you did today that was an experiment with truth: a moment when you tried to tell the truth, act without harm or serve someone. Describe what happened, what you felt and what you learned. Gandhi called his autobiography the story of his experiments with truth. Keep your own record.",
+      "why": "Gandhi’s autobiography treats his life as a series of experiments, with honest accounts of failure. A page a night builds that honesty.",
+      "variations": [
+        "Write about a failure.",
+        "Write about a small success.",
+        "Reread last week’s page."
+      ]
     },
     {
-      "id": "answer-every-message-you-owe-briefly-and-honestly",
-      "name": "Answer every message you owe, briefly and honestly",
-      "meta": "He replied to every letter",
-      "time": "11:00",
-      "slot": "Morning"
-    },
-    {
-      "id": "refuse-openly-and-politely-to-go-along-with-one-thing-you-believe-is-w",
-      "name": "Refuse, openly and politely, to go along with one thing you believe is wrong",
-      "meta": "Non-cooperation",
-      "time": "14:30",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "treat-spin-knit-sew-or-darn-for-fifteen-minutes",
-      "name": "Spin, knit, sew or darn for fifteen minutes",
-      "meta": "Hands busy, mind quiet",
+      "id": "sing-vaishnava-jana-to",
+      "name": "Sing Vaishnava Jana To",
+      "icon": "music-note",
+      "slot": "Evening",
       "time": "19:30",
-      "slot": "Evening"
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Play or sing Vaishnava Jana To, the 15th-century Gujarati hymn that was Gandhi’s favourite. It describes the person who feels the pain of others, helps them without pride and is free of envy. Follow a translation, and sing the refrain. It was sung at his prayer meetings every day.",
+      "why": "Narsinh Mehta’s hymn was Gandhi’s favourite, and describes his ideal of a good person. Singing it brings its words into the body.",
+      "variations": [
+        "Learn the first verse.",
+        "Sing it with a friend.",
+        "Read the translation aloud."
+      ]
     },
     {
-      "id": "treat-eat-a-handful-of-nuts-and-fruit-instead-of-one-snack",
-      "name": "Eat a handful of nuts and fruit instead of one snack",
-      "meta": "Chew well",
-      "time": "15:30",
-      "slot": "Afternoon"
+      "id": "a-plain-supper-of-khichdi",
+      "name": "A plain supper of khichdi",
+      "icon": "bowl-steam",
+      "slot": "Evening",
+      "time": "18:30",
+      "minutes": 30,
+      "meta": "Evening · 30 min",
+      "instructions": "Cook a pot of khichdi, rice and lentils cooked soft with a little salt and perhaps a pinch of turmeric, and eat it for supper. It is a plain, nourishing, cheap dish that feeds many. Eat it slowly and finish your plate. Share a bowl with a neighbour or housemate. Simplicity can be delicious.",
+      "why": "Khichdi is the everyday comfort food of India and was a regular at the ashram. It is a lesson in how little a good meal needs.",
+      "variations": [
+        "Add a spoon of ghee.",
+        "Serve with yogurt.",
+        "Cook enough to share."
+      ]
     },
     {
-      "id": "treat-walk-somewhere-you-would-normally-ride",
-      "name": "Walk somewhere you would normally ride",
-      "meta": "At a good pace",
-      "time": "08:30",
-      "slot": "Morning"
+      "id": "ask-forgiveness",
+      "name": "Ask forgiveness",
+      "icon": "handshake",
+      "slot": "Evening",
+      "time": "21:00",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Before bed, think of someone you have hurt or let down and ask their forgiveness, in person, by message or by letter. Say plainly what you did and that you are sorry, without excuses. Gandhi urged that the strong forgive and the brave apologise. Then rest.",
+      "why": "Forgiveness, he said, is the attribute of the strong. Asking for it is as hard and as freeing as granting it.",
+      "variations": [
+        "Write the apology first.",
+        "Say it in person.",
+        "Forgive someone who has not asked."
+      ]
     },
     {
-      "id": "treat-laugh-at-yourself-once-today",
-      "name": "Laugh at yourself once today",
-      "meta": "He did, often",
-      "time": "15:30",
-      "slot": "Afternoon"
+      "id": "a-day-of-quiet",
+      "name": "A day of quiet",
+      "icon": "moon-stars",
+      "slot": "Special",
+      "time": "09:00",
+      "minutes": 120,
+      "meta": "On a free morning · 120 min",
+      "instructions": "Keep silence for half a day. Don’t talk, text or watch. Do handwork, walk, read, cook and clean. Eat simply. Carry a notebook if you need to communicate. Tell your household the night before. Gandhi kept silence every Monday and used it to write. At the end of the morning, speak your first words slowly and truthfully.",
+      "why": "The day of silence, maun, was Gandhi’s weekly habit. A morning of it gives a taste of the rest it brought him.",
+      "variations": [
+        "Do it with a friend in separate rooms.",
+        "Do it in a garden.",
+        "End with a shared meal."
+      ]
     },
     {
-      "id": "daily-walk-to-your-next-errand-instead-of-riding",
-      "name": "Walk to your next errand instead of riding",
-      "meta": "The Salt March was 240 miles on foot",
-      "time": "14:00",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "daily-sit-in-silence-for-ten-minutes-before-sleep",
-      "name": "Sit in silence for ten minutes before sleep",
-      "meta": "He kept one day a week for silence",
-      "time": "20:30",
-      "slot": "Evening"
-    },
-    {
-      "id": "daily-write-a-short-diary-entry-about-one-true-thing-you-said-toda",
-      "name": "Write a short diary entry about one true thing you said today",
-      "meta": "Experiments with truth",
-      "time": "20:30",
-      "slot": "Evening"
-    },
-    {
-      "id": "daily-clean-something-yourself-that-someone-else-usually-cleans",
-      "name": "Clean something yourself that someone else usually cleans",
-      "meta": "Dignity of labour",
-      "time": "20:30",
-      "slot": "Evening"
+      "id": "a-salt-march",
+      "name": "A salt march",
+      "icon": "path",
+      "slot": "Special",
+      "time": "09:00",
+      "minutes": 120,
+      "meta": "On a free morning · 120 min",
+      "instructions": "Take a long walk with a group, up to two hours, for a cause or in memory of one. In 1930 Gandhi walked 240 miles to the sea at Dandi to make salt in defiance of the British monopoly. Agree a route and a purpose, such as clearing a river bank or visiting a shelter. Walk steadily, share water and sing as you go.",
+      "why": "The Salt March was a masterpiece of non-violent protest. A group walk with a purpose borrows its spirit without any of its danger.",
+      "variations": [
+        "Walk to a local landmark and clean it.",
+        "Walk to a food bank with donations.",
+        "Walk with a banner of kindness."
+      ]
     }
   ],
-  "immersePlan": [],
+  "tasks": [],
+  "immersePlan": [
+    {
+      "kind": "read",
+      "item": "read-an-autobiography-the-story-of-my-experiments-with-truth",
+      "name": "Read a chapter of Gandhi’s Autobiography",
+      "text": "Read a short chapter of his story of experiments with truth. Mark a place where he admits a failing.",
+      "minutes": 20
+    },
+    {
+      "kind": "read",
+      "item": "read-hind-swaraj",
+      "name": "Read Hind Swaraj",
+      "text": "Read a few pages of Gandhi’s 1909 pamphlet on true self-rule, written as a dialogue on a ship. Note the questions he is asked.",
+      "minutes": 25
+    },
+    {
+      "kind": "read",
+      "item": "read-annihilation-of-caste",
+      "name": "Read Ambedkar’s Annihilation of Caste",
+      "text": "Read the opening of Ambedkar’s 1936 speech, a sharp challenge to Gandhi and the caste system. Think about the other side of the story.",
+      "minutes": 25
+    },
+    {
+      "kind": "watch",
+      "item": "watch-gandhi",
+      "name": "Watch part of Gandhi",
+      "text": "Watch the first hour of Richard Attenborough’s 1982 film, with Ben Kingsley as Gandhi. Notice the train scene in South Africa.",
+      "minutes": 60
+    },
+    {
+      "kind": "watch",
+      "item": "watch-lage-raho-munna-bhai",
+      "name": "Watch Lage Raho Munna Bhai",
+      "text": "Watch the 2006 comedy in which a Mumbai gangster is visited by Gandhi’s ghost and starts using Gandhigiri. It is warm and funny.",
+      "minutes": 144
+    },
+    {
+      "kind": "watch",
+      "item": "watch-newsreels-of-the-salt-march",
+      "name": "Watch the Salt March newsreel",
+      "text": "Watch the surviving film of the 1930 march to the sea at Dandi. Notice the quiet crowds.",
+      "minutes": 10
+    },
+    {
+      "kind": "listen",
+      "item": "listen-vaishnava-jana-to",
+      "name": "Listen to Vaishnava Jana To",
+      "text": "Play M. S. Subbulakshmi’s or another singer’s version of Gandhi’s favourite hymn. Follow a translation.",
+      "minutes": 8
+    },
+    {
+      "kind": "listen",
+      "item": "listen-raghupati-raghava-raja-ram",
+      "name": "Listen to Raghupati Raghava Raja Ram",
+      "text": "Play the song that became the anthem of the Salt March, with its line Ishwar Allah tero naam. Sing the refrain.",
+      "minutes": 8
+    },
+    {
+      "kind": "listen",
+      "item": "listen-abide-with-me",
+      "name": "Listen to Abide with Me",
+      "text": "Play the Christian hymn Gandhi loved, which was sung at his ashram and played at his funeral. Sit still for the verses.",
+      "minutes": 5
+    },
+    {
+      "kind": "art",
+      "item": "art-bapuji-12-april-1930",
+      "name": "Look at Nandalal Bose’s linocut of Gandhi",
+      "text": "Look at the bold black-and-white print of Gandhi walking with his staff, made for the Salt March. Notice how few lines it uses.",
+      "minutes": 5
+    },
+    {
+      "kind": "art",
+      "item": "art-gandhi-at-his-spinning-wheel",
+      "name": "Look at Bourke-White’s photograph",
+      "text": "Look at Margaret Bourke-White’s 1946 photograph of Gandhi reading at his charkha. Notice the light and the stillness.",
+      "minutes": 5
+    },
+    {
+      "kind": "art",
+      "item": "art-his-possessions",
+      "name": "Look at Gandhi’s possessions",
+      "text": "Look at the photograph of everything he owned at his death: sandals, glasses, watch, bowl, spittoon and books. Count them.",
+      "minutes": 5
+    },
+    {
+      "kind": "eat",
+      "item": "eat-fruit-nuts-and-dates",
+      "name": "Eat fruit, nuts and dates",
+      "text": "Eat a plain snack of seasonal fruit, a handful of nuts and a few dates. Chew slowly.",
+      "minutes": 10
+    },
+    {
+      "kind": "eat",
+      "item": "eat-khichdi",
+      "name": "Cook khichdi",
+      "text": "Cook rice and lentils together until soft, with salt and a little turmeric. Eat it with yogurt and share it.",
+      "minutes": 40
+    },
+    {
+      "kind": "eat",
+      "item": "eat-jaggery",
+      "name": "Taste jaggery",
+      "text": "Eat a small piece of unrefined cane sugar with a cup of warm water. Compare its taste to white sugar.",
+      "minutes": 5
+    },
+    {
+      "kind": "drink",
+      "item": "drink-goat-s-milk",
+      "name": "Drink a cup of warm milk",
+      "text": "Drink a cup of warm milk, goat’s if you can find it, or plant milk. Gandhi took goat’s milk daily in his later years.",
+      "minutes": 10
+    },
+    {
+      "kind": "drink",
+      "item": "drink-warm-water-with-lemon-and-honey",
+      "name": "Drink warm lemon water with honey",
+      "text": "First thing in the morning, drink a glass of warm water with lemon juice and a spoon of honey.",
+      "minutes": 5
+    },
+    {
+      "kind": "drink",
+      "item": "drink-water",
+      "name": "Drink boiled and cooled water",
+      "text": "Drink a glass of water that has been boiled and cooled. Think of those who do not have clean water.",
+      "minutes": 5
+    },
+    {
+      "kind": "customs",
+      "item": "customs-wearing-khadi",
+      "name": "Wear something handmade",
+      "text": "Wear something made by hand, or made nearby, today. Khadi is the homespun cloth Gandhi urged everyone to wear. Notice the feel.",
+      "minutes": 10
+    },
+    {
+      "kind": "customs",
+      "item": "customs-the-day-of-silence",
+      "name": "Keep an hour of silence",
+      "text": "Keep an hour of silence today as Gandhi did on Mondays. Don’t talk, text or watch anything.",
+      "minutes": 60
+    },
+    {
+      "kind": "customs",
+      "item": "customs-the-prayer-meeting",
+      "name": "Hold a small prayer meeting",
+      "text": "Gather one or two people for ten minutes of readings, a song and silence. Include a passage from a faith not your own.",
+      "minutes": 20
+    },
+    {
+      "kind": "games",
+      "item": "games-football",
+      "name": "Play football",
+      "text": "Play football with friends or watch a game. Gandhi organised football clubs in South Africa, the Passive Resisters Soccer Club.",
+      "minutes": 40
+    },
+    {
+      "kind": "games",
+      "item": "games-spinning-contests",
+      "name": "Try spinning with a drop spindle",
+      "text": "Try spinning wool or cotton with a drop spindle. Time yourself and see how much you spin in ten minutes.",
+      "minutes": 20
+    },
+    {
+      "kind": "games",
+      "item": "games-gilli-danda",
+      "name": "Play gilli-danda",
+      "text": "Play the village game with a short stick, the gilli, struck with a longer stick, the danda. Play in an open space and mind your distance.",
+      "minutes": 20
+    },
+    {
+      "kind": "travel",
+      "item": "fest-gandhi-jayanti",
+      "name": "Mark Gandhi Jayanti",
+      "text": "Gandhi Jayanti falls on 2 October, also the International Day of Non-Violence. Do an act of service and read a passage.",
+      "minutes": 30
+    },
+    {
+      "kind": "travel",
+      "item": "fest-anniversary-of-the-salt-march",
+      "name": "Mark the Salt March",
+      "text": "Between 12 March and 6 April, remember the 1930 march. Walk for twenty minutes in silence for a cause you care about.",
+      "minutes": 30
+    },
+    {
+      "kind": "travel",
+      "item": "place-sabarmati-ashram",
+      "name": "Look up Sabarmati Ashram",
+      "text": "Look at pictures of the ashram on the Sabarmati river in Ahmedabad, where Gandhi lived from 1917 to 1930. Imagine the day there.",
+      "minutes": 10
+    },
+    {
+      "kind": "words",
+      "item": "word-satya",
+      "name": "Practise satya",
+      "text": "Satya is truth. Tell one truth today that you would normally soften.",
+      "minutes": 5
+    },
+    {
+      "kind": "words",
+      "item": "word-satyagraha",
+      "name": "Practise satyagraha",
+      "text": "Satyagraha is holding to truth. Stand firm, gently, on one small matter.",
+      "minutes": 10
+    },
+    {
+      "kind": "words",
+      "item": "word-sarvodaya",
+      "name": "Practise sarvodaya",
+      "text": "Sarvodaya is the welfare of all. Do one thing today that benefits everyone around you, not just yourself.",
+      "minutes": 10
+    }
+  ],
   "rules": [
     {
       "id": "r1",

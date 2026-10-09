@@ -299,12 +299,12 @@
       "time": "07:30",
       "minutes": 5,
       "meta": "Morning · 5 min",
-      "instructions": "Before you earn or spend anything today, set aside a gift. Put a coin or a note in a place where someone in need will find it and you will not see who takes it: a community fridge, a pay-it-forward board at a cafe, an envelope through a door, an anonymous transfer. Tell no one. Give an amount you will notice. If you are the one in need today, take what you need from such a place, and no more.",
-      "why": "Ottoman towns had sadaka taşı, hollowed stone pillars at street corners and mosque gates. People left money in the hollow on their way past, and the poor came after dark and took only enough for the day. Giver and receiver never met, so no one was shamed.",
+      "instructions": "Before you earn or spend anything today, set aside a gift. Put a coin or a note in a place where someone in need will find it and you will not see who takes it: a community fridge, a pay-it-forward board at a cafe, an envelope for a food bank. Do not tell anyone. The rule of this Onda is to give in secret, daily.",
+      "why": "Ottoman towns had charity stones, tall stones where the rich left money in secret for the poor to take without shame. Giving unseen protects the dignity of both sides.",
       "variations": [
-        "Pay for a loaf at the bakery for whoever asks next. Turks call it bread on the hook.",
-        "Settle a stranger’s small debt at a local shop.",
-        "Give time in place of money, without saying so."
+        "Leave a tip for the next customer.",
+        "Pay for a stranger’s bus fare.",
+        "Drop food at a community fridge."
       ]
     },
     {
@@ -315,12 +315,76 @@
       "time": "09:00",
       "minutes": 30,
       "meta": "Morning · 30 min",
-      "instructions": "Choose one craft and one model made by a master of it: a line of fine handwriting, a drawing, a phrase of music, a joint in wood, a dish. For thirty minutes do nothing but copy that one model, again and again, as exactly as you can. Lay each attempt beside the original and find the difference. Do not vary it and do not move on. Keep at the same model until someone better than you says it is right.",
-      "why": "Ottoman calligraphers learned by meşk. The master wrote a line, the pupil copied it for a week, and the master corrected it with small marks in red. It took years to earn the licence to sign one’s own work. The same patient method trained musicians, tile painters and every guild apprentice.",
+      "instructions": "Choose one craft and one model made by a master of it: a line of fine handwriting, a drawing, a phrase of music, a joint in wood, a dish. For thirty minutes do nothing but copy that one model, again and again, as exactly as you can. Don’t invent. Notice each small difference. The rule of this Onda is to respect the master and the method.",
+      "why": "In Ottoman crafts a student learned by copying the master’s model, a practice called meşk. Only after years of imitation was invention allowed.",
       "variations": [
-        "Find a teacher and ask to be corrected.",
-        "Sign nothing as your own for thirty days.",
-        "Do one honest piece of work today for a customer who would never know the difference."
+        "Copy a calligraphy line.",
+        "Copy a drawing by a master.",
+        "Copy a recipe exactly, once."
+      ]
+    },
+    {
+      "id": "simit-and-tea",
+      "name": "Simit and tea",
+      "icon": "bread",
+      "slot": "Morning",
+      "time": "07:00",
+      "minutes": 15,
+      "meta": "Morning · 15 min",
+      "instructions": "Have a breakfast of simit, a ring of bread covered in sesame seeds, with a glass of black tea, white cheese, olives and tomato. Sit down for it. Serve the tea in a small, tulip-shaped glass if you have one. Ottoman breakfast is slow and shared. Offer a piece to someone else before you eat your own.",
+      "why": "Simit sellers have walked the streets of Istanbul since the 1500s, and the Turkish breakfast is among the world’s great meals. A leisurely version starts the day with ease.",
+      "variations": [
+        "Add a boiled egg and honey.",
+        "Share the simit with the family.",
+        "Have breakfast on the balcony."
+      ]
+    },
+    {
+      "id": "greet-the-neighbour",
+      "name": "Greet the neighbour",
+      "icon": "door-open",
+      "slot": "Morning",
+      "time": "08:30",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Knock on a neighbour’s door, or greet them across the fence, with a real question: how are you, do you need anything? Bring something small, such as a few fruit or a plate of something you made. Ottoman neighbourhoods, mahalle, were built on mutual care, and a neighbour had rights to help. Look after your neighbour is a rule of this Onda.",
+      "why": "Komşu, the neighbour, had a sacred claim in Ottoman life. Greeting and helping them is as useful as ever.",
+      "variations": [
+        "Offer to carry shopping.",
+        "Share a plate of food.",
+        "Check on an older neighbour."
+      ]
+    },
+    {
+      "id": "set-a-tidy-threshold",
+      "name": "Set a tidy threshold",
+      "icon": "broom",
+      "slot": "Morning",
+      "time": "07:45",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Tidy and sweep the entrance of your home or work: wipe the door, line up the shoes, sweep the step. In Ottoman homes shoes came off at the door and the threshold was kept spotless for guests. Make the first thing a visitor sees a welcome. Place a flower or a lamp there if you can.",
+      "why": "The entrance was the face of the Ottoman house, kept clean for the guest. A tidy threshold says that you are glad to see people.",
+      "variations": [
+        "Place a plant by the door.",
+        "Put out a doormat.",
+        "Greet the first person who comes by with tea."
+      ]
+    },
+    {
+      "id": "one-turkish-word",
+      "name": "One Turkish word",
+      "icon": "translate",
+      "slot": "Morning",
+      "time": "08:00",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Learn one Turkish word or phrase today and use it three times: merhaba, hello; teşekkür ederim, thank you; afiyet olsun, may it be good for your health, said to someone eating; kolay gelsin, may your work be easy. Say it aloud and try it on a friend. Many Turkish words came into English through the Ottomans, such as kiosk, yoghurt and coffee.",
+      "why": "Courtesy phrases such as afiyet olsun and kolay gelsin are used in Turkey constantly. They are warm, short and easy to remember.",
+      "variations": [
+        "Say kolay gelsin to a worker.",
+        "Learn the numbers to ten.",
+        "Look up the Turkish origin of an English word."
       ]
     },
     {
@@ -331,161 +395,436 @@
       "time": "15:00",
       "minutes": 30,
       "meta": "Afternoon · 30 min",
-      "instructions": "Make Turkish coffee for two. Put a heaped teaspoon of very fine coffee and a small cup of cold water per person in a long-handled pot, with sugar if wanted. Heat it slowly without stirring until the foam rises, spoon the foam into the cups, bring it up once more and pour. Serve it with a glass of water and something sweet. Sit down with your guest and talk for as long as the cups take, about anything except work. Do not look at a phone.",
-      "why": "The first coffeehouses in Istanbul opened in the 1550s and quickly became the centre of city life: a place for news, poetry, chess, backgammon and argument. The proverb says a single cup of coffee is remembered for forty years.",
+      "instructions": "Make Turkish coffee for two. Put a heaped teaspoon of very fine coffee and a small cup of cold water per person in a long-handled pot, with sugar if wanted. Heat it slowly without stirring until the foam rises, spoon the foam into the cups, and bring it just to the boil again. Pour gently. Sip, let the grounds settle, and talk. The rule of this Onda is to honour the guest.",
+      "why": "Turkish coffee was served at every Ottoman visit, and a coffee house, kahvehane, was a school of talk. A cup shared slowly makes friendship.",
       "variations": [
-        "Take the coffee to a neighbour you do not know well.",
-        "Go to a real coffeehouse and play a game of backgammon.",
-        "Drink the water first, to clear the palate, as is done."
+        "Read the cup grounds for fun.",
+        "Serve with a glass of water and a sweet.",
+        "Visit a friend and bring the coffee."
       ]
     },
     {
       "id": "hamam",
       "name": "The bath",
-      "icon": "drop",
+      "icon": "bathtub",
       "slot": "Afternoon",
       "time": "17:30",
       "minutes": 40,
       "meta": "Afternoon · 40 min",
-      "instructions": "Wash as if it were an occasion. Warm the room. Sit and pour hot water over yourself from a bowl for several minutes until the skin softens. Scrub the whole body firmly with a coarse cloth or mitt, then lather with plain olive oil soap and rinse with many bowls of water. Wrap yourself in a towel, lie down somewhere cool and rest for ten minutes with a cold drink. Do this fully once a week, and briefly each day.",
-      "why": "Every Ottoman town had its hamam, built by a foundation and open to all for a small fee, with separate hours or halls for women and men. People spent half a day there. An English visitor in 1717 called it the women’s coffeehouse, where all the news of the town was told.",
+      "instructions": "Wash as if it were an occasion. Warm the room. Sit and pour hot water over yourself from a bowl for several minutes until the skin softens. Scrub the whole body firmly with a coarse cloth or mitt, then lather with plain soap. Rinse again with warm water. Wrap in a towel and rest with a glass of water. Don’t overheat, and get out slowly. The hamam was the centre of Ottoman social life.",
+      "why": "The hamam was where Ottomans cleaned, met friends and celebrated weddings and births. A home version is a ritual in itself.",
       "variations": [
-        "Go to a public steam bath or sauna with a friend.",
-        "Take fruit and sherbet, and make an afternoon of it.",
-        "End with cold water over the head."
+        "Visit a Turkish bath.",
+        "Wash a friend’s back.",
+        "Finish with a cool rinse."
+      ]
+    },
+    {
+      "id": "marble-a-sheet-of-paper",
+      "name": "Marble a sheet of paper",
+      "icon": "palette",
+      "slot": "Afternoon",
+      "time": "16:00",
+      "minutes": 30,
+      "meta": "Afternoon · 30 min",
+      "instructions": "Make ebru, paper marbling. Spread a layer of shaving foam on a tray, drip a few drops of ink or food colouring on it and swirl with a toothpick into patterns. Lay a sheet of paper on it, lift it, scrape off the foam and let it dry. Ottoman bookbinders used marbled paper in books and documents. Each sheet is unique.",
+      "why": "Ebru is the art of marbling on water, brought to its height in the Ottoman Empire. A shaving foam version is cheap, messy and wonderful.",
+      "variations": [
+        "Use a flower pattern.",
+        "Marble several sheets and make a card.",
+        "Frame your best one."
+      ]
+    },
+    {
+      "id": "a-shadow-play",
+      "name": "A shadow play",
+      "icon": "mask-happy",
+      "slot": "Afternoon",
+      "time": "14:30",
+      "minutes": 30,
+      "meta": "Afternoon · 30 min",
+      "instructions": "Make a Karagöz and Hacivat shadow play. Cut two figures from card, with jointed arms if you can, fix them to sticks and prop up a white sheet lit from behind. Hacivat is the pompous polite one, Karagöz the earthy fool who misunderstands everything. Stage a short quarrel between them for a friend or child. Keep the jokes gentle.",
+      "why": "Karagöz shadow theatre was the favourite entertainment of Ottoman towns, mixing satire, music and farce. It is on UNESCO’s list of intangible heritage.",
+      "variations": [
+        "Make a third character.",
+        "Perform it for a child.",
+        "Re-tell a famous joke."
+      ]
+    },
+    {
+      "id": "draw-a-tulip",
+      "name": "Draw a tulip",
+      "icon": "flower-tulip",
+      "slot": "Afternoon",
+      "time": "15:30",
+      "minutes": 15,
+      "meta": "Afternoon · 15 min",
+      "instructions": "Draw a tulip, or a row of them, in the Ottoman style: long, slender and pointed, with narrow petals. Use pen and watercolour or pencil. The tulip, lale, was the flower of the empire, and the period of Ahmed III is called the Tulip Era. Look at a real one if you can, and draw its curve.",
+      "why": "The tulip reached Europe from the Ottomans, who loved it. Drawing one is a little act of gardening on paper.",
+      "variations": [
+        "Colour it in with watercolour.",
+        "Draw a pattern of tulips.",
+        "Plant a bulb."
+      ]
+    },
+    {
+      "id": "wander-a-market",
+      "name": "Wander a market",
+      "icon": "storefront",
+      "slot": "Afternoon",
+      "time": "17:00",
+      "minutes": 30,
+      "meta": "Afternoon · 30 min",
+      "instructions": "Stroll through a market, bazaar or high street, with no plan to buy much. Look at the stalls, smell the spices and listen to the sellers. If you buy, bargain politely and fairly, in the Ottoman manner, with tea and conversation. Never haggle so hard that you cheat a person of their living. Deal honestly is a rule of this Onda.",
+      "why": "The Grand Bazaar of Istanbul has been a trading place since the 1400s. Honest dealing was the moral basis of the guilds, the esnaf.",
+      "variations": [
+        "Taste something you cannot name.",
+        "Chat with a seller about their trade.",
+        "Buy from a small stall."
       ]
     },
     {
       "id": "keyif",
       "name": "An hour of keyif",
-      "icon": "flower-tulip",
+      "icon": "armchair",
       "slot": "Evening",
       "time": "19:30",
       "minutes": 20,
       "meta": "Evening · 20 min",
-      "instructions": "At the end of the day sit somewhere pleasant with nothing to accomplish. By water if there is any, or in a garden, on a balcony, at a window with a view. Have a glass of tea or sherbet beside you. Watch the light change. If there are birds or street animals, put out food and water for them. If you have plants, tend them. Let the day’s business go. You are not resting in order to work better tomorrow. This is the point.",
-      "why": "Ottomans prized the art of ease: evenings in waterside pavilions, picnics in the meadows of the Golden Horn, tulip gardens lit by candles on the backs of tortoises. Foundations existed to feed street dogs and stray birds, and mosque walls carry tiny stone palaces built as birdhouses.",
+      "instructions": "At the end of the day sit somewhere pleasant with nothing to accomplish. By water if there is any, or in a garden, on a balcony, at a window with a view. Have a glass of tea or sherbet beside you. Watch the light change. Let the hour pass without doing anything useful. Keyif is the Turkish word for this quiet, unhurried pleasure. The rule of this Onda is to make time for ease.",
+      "why": "Keyif, the art of savouring ease, is a central pleasure of Turkish life. It is one of the Ottomans’ best gifts to the world.",
       "variations": [
-        "Plant bulbs for spring.",
-        "Put out a bowl of water for animals and keep it filled.",
-        "Listen to one piece of classical Turkish music from start to finish."
+        "Sit by the water at sunset.",
+        "Share it with a friend.",
+        "Listen to the birds."
+      ]
+    },
+    {
+      "id": "sohbet-on-the-doorstep",
+      "name": "Sohbet on the doorstep",
+      "icon": "chats",
+      "slot": "Evening",
+      "time": "20:00",
+      "minutes": 30,
+      "meta": "Evening · 30 min",
+      "instructions": "Sit on the doorstep, the balcony or a bench and have a long, easy chat with someone. Sohbet is the Turkish art of unhurried conversation, with stories, jokes, news and sharing. Ask about their day, their family and their dreams. Offer tea. Listen as much as you speak. Let the talk wander. End when the light fades.",
+      "why": "Sohbet was the heart of Ottoman social life, in homes, coffee houses and Sufi lodges. It is a skill that deepens friendship.",
+      "variations": [
+        "Do it with an older relative.",
+        "Do it with a neighbour.",
+        "Do it by phone with a faraway friend."
+      ]
+    },
+    {
+      "id": "eat-on-the-floor",
+      "name": "Eat on the floor",
+      "icon": "bowl-food",
+      "slot": "Evening",
+      "time": "18:30",
+      "minutes": 40,
+      "meta": "Evening · 40 min",
+      "instructions": "Spread a cloth on the floor or a low table and eat dinner sitting around it, with a large shared tray. This is the traditional sofra. Put out bread, a stew, a salad, yoghurt and fruit. Wash hands first and begin with a blessing or a word of thanks. Pass dishes to the right and serve elders first. Eat from the common dish.",
+      "why": "The sofra, a round tray on the floor, was the Ottoman family’s dining table. Eating around it makes a meal more intimate.",
+      "variations": [
+        "Use cushions.",
+        "Eat with your hands, bread as a spoon.",
+        "Invite a guest and give them the best seat."
+      ]
+    },
+    {
+      "id": "listen-to-itri",
+      "name": "Listen to Itri",
+      "icon": "music-note",
+      "slot": "Evening",
+      "time": "20:30",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Play a piece of Ottoman classical music, such as the works of Itrî or a taksim on the oud, ney or kanun. Sit quietly and listen to the unfolding of the maqam. The music moves slowly, with ornaments and surprises. Close your eyes and let it unwind. Itrî composed in the late 1600s, and his works are still played.",
+      "why": "Ottoman classical music is a refined art of mode and ornament. Listening deeply to a taksim is a form of keyif.",
+      "variations": [
+        "Listen to Tanburi Cemil Bey’s taksims.",
+        "Look at a picture of the ney.",
+        "Listen with tea."
+      ]
+    },
+    {
+      "id": "feed-the-street-cats",
+      "name": "Feed the street cats",
+      "icon": "paw-print",
+      "slot": "Evening",
+      "time": "19:00",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Take a bowl of food and water to feed a stray cat or a few birds in your neighbourhood. In Istanbul, cats are cared for by the whole street, and Ottomans built birdhouses and feeding places for strays. Sit nearby quietly. Wash the bowl afterwards. Do not feed animals harmful food, and avoid wildlife that should not be fed.",
+      "why": "Ottoman charity extended to animals, with endowments for storks, cats and dogs. The film Kedi shows how it continues in Istanbul.",
+      "variations": [
+        "Fill a bird feeder.",
+        "Put out a water bowl.",
+        "Donate to an animal shelter."
+      ]
+    },
+    {
+      "id": "a-nasreddin-hodja-tale",
+      "name": "A Nasreddin Hodja tale",
+      "icon": "smiley",
+      "slot": "Evening",
+      "time": "21:00",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Tell a story of Nasreddin Hodja, the wise fool of the Turkish and Middle Eastern tradition. For example: he looks for a lost key under the lamp, not where he dropped it, because the light is better there. Tell it aloud with a twinkle. Share one with a friend and ask what it teaches. His jokes have been told for 700 years.",
+      "why": "Nasreddin Hodja tales are loved from Turkey to China. They are short, funny and quietly wise.",
+      "variations": [
+        "Tell one to a child.",
+        "Look up three more.",
+        "Make up a new one."
+      ]
+    },
+    {
+      "id": "make-asure-for-the-neighbours",
+      "name": "Make aşure for the neighbours",
+      "icon": "cooking-pot",
+      "slot": "Special",
+      "time": "15:00",
+      "minutes": 120,
+      "meta": "On a free afternoon · 120 min",
+      "instructions": "Cook a big pot of aşure, the Ottoman pudding of wheat, chickpeas, beans, dried fruit, nuts and sweet spices. Traditionally it contains many ingredients and is made in bulk to share with neighbours, whatever their faith. Cook, cool and spoon it into small bowls. Go round and give a bowl to each neighbour. Eat one yourself.",
+      "why": "Aşure is made in Turkey in the month of Muharram and shared with all neighbours, as an emblem of abundance and community. Giving it away is the whole point.",
+      "variations": [
+        "Decorate with pomegranate seeds.",
+        "Cook with a friend.",
+        "Give a bowl to someone alone."
+      ]
+    },
+    {
+      "id": "an-evening-in-a-coffee-house",
+      "name": "An evening in a coffee house",
+      "icon": "game-controller",
+      "slot": "Special",
+      "time": "19:00",
+      "minutes": 120,
+      "meta": "On a free evening · 120 min",
+      "instructions": "Spend an evening in a traditional coffee house or recreate one at home: a table, backgammon, a pot of tea or coffee, and friends. Play tavla, talk, laugh and listen to the room. Ottoman coffee houses were places for news, games, poetry and shadow plays. Stay for as long as the conversation holds. Pay for the next round.",
+      "why": "The coffee house, kahvehane, was the Ottoman public living room. An evening in one, or a modern version, reproduces a thousand years of talk.",
+      "variations": [
+        "Play tavla with a friend.",
+        "Bring a book of poems to read aloud.",
+        "Ask someone older to tell a story."
       ]
     }
   ],
-  "tasks": [
+  "tasks": [],
+  "immersePlan": [
     {
-      "id": "task-read-evliya-celebi-on-the-guilds-of-istanbul-parading-before-the-sulta",
-      "name": "Read Evliya Çelebi on the guilds of Istanbul parading before the sultan",
-      "meta": "Read · from An Ottoman Traveller",
-      "time": "20:00",
-      "slot": "Evening",
-      "action": "read"
+      "kind": "read",
+      "item": "read-an-ottoman-traveller-selections-from-the-book-of-travels",
+      "name": "Read Evliya Çelebi",
+      "text": "Read a few pages of the 17th-century traveller’s lively account of Istanbul and beyond. Notice his delight in food and marvels.",
+      "minutes": 20
     },
     {
-      "id": "task-listen-to-jordi-savall-s-istanbul-the-music-of-dimitrie-cantemir",
-      "name": "Listen to Jordi Savall’s Istanbul: the music of Dimitrie Cantemir",
-      "meta": "Listen · the court around 1700",
-      "time": "18:30",
-      "slot": "Evening",
-      "action": "listen"
+      "kind": "read",
+      "item": "read-my-name-is-red",
+      "name": "Read a chapter of My Name Is Red",
+      "text": "Read a chapter of Orhan Pamuk’s 1998 novel of miniaturists in 1590s Istanbul. Each chapter is told by a different voice, including a dog and a coin.",
+      "minutes": 25
     },
     {
-      "id": "task-watch-kedi",
+      "kind": "read",
+      "item": "read-istanbul-memories-and-the-city",
+      "name": "Read Pamuk’s Istanbul",
+      "text": "Read a chapter of Pamuk’s memoir of his city, and its melancholy, hüzün. Notice the places he describes.",
+      "minutes": 25
+    },
+    {
+      "kind": "watch",
+      "item": "watch-kedi",
       "name": "Watch Kedi",
-      "meta": "Watch · the street cats of Istanbul, 80 min",
-      "time": "20:30",
-      "slot": "Evening",
-      "action": "watch"
+      "text": "Watch Ceyda Torun’s 2016 documentary about the street cats of Istanbul and the people who care for them. It is full of warmth.",
+      "minutes": 80
     },
     {
-      "id": "task-cook-stuffed-vine-leaves-or-stuffed-peppers-enough-to-share",
-      "name": "Cook stuffed vine leaves or stuffed peppers, enough to share",
-      "meta": "Eat · dolma",
-      "time": "12:30",
-      "slot": "Afternoon",
-      "action": "eat"
+      "kind": "watch",
+      "item": "watch-crossing-the-bridge-the-sound-of-istanbul",
+      "name": "Watch Crossing the Bridge",
+      "text": "Watch Fatih Akın’s 2005 documentary following a bassist through the music of Istanbul, from folk to hip hop.",
+      "minutes": 90
     },
     {
-      "id": "task-journal-what-did-you-give-today-that-no-one-saw",
-      "name": "Journal: what did you give today that no one saw?",
-      "meta": "Journal · 10 min",
-      "time": "21:30",
-      "slot": "Evening",
-      "action": "journal"
+      "kind": "watch",
+      "item": "watch-the-ottomans-europe-s-muslim-emperors",
+      "name": "Watch The Ottomans",
+      "text": "Watch an episode of the BBC series presented by Rageh Omaa about the rise of the dynasty and its capital.",
+      "minutes": 60
     },
     {
-      "id": "task-different-laws-for-different-communities-tolerance-or-inequality",
-      "name": "Different laws for different communities: tolerance, or inequality?",
-      "meta": "Philosophy · 10 min",
-      "time": "08:30",
-      "slot": "Morning",
-      "action": "philosophy"
+      "kind": "listen",
+      "item": "listen-istanbul-dimitrie-cantemir",
+      "name": "Listen to Istanbul by Jordi Savall",
+      "text": "Play the 2009 album of Ottoman, Armenian, Greek and Sephardic music from the court of Dimitrie Cantemir. Listen for the layers.",
+      "minutes": 60
     },
     {
-      "id": "take-a-plate-of-food-to-a-neighbour",
-      "name": "Take a plate of food to a neighbour",
-      "meta": "The neighbour’s right",
-      "time": "13:30",
-      "slot": "Afternoon"
+      "kind": "listen",
+      "item": "listen-mehter-marches",
+      "name": "Listen to Mehter marches",
+      "text": "Play the Ottoman military band, with drums, cymbals and shawms, which inspired European composers. March in place.",
+      "minutes": 10
     },
     {
-      "id": "weigh-and-charge-fairly-in-every-dealing-today",
-      "name": "Weigh and charge fairly in every dealing today",
-      "meta": "The guildsman’s oath",
-      "time": "10:30",
-      "slot": "Morning"
+      "kind": "listen",
+      "item": "listen-works-of-itri",
+      "name": "Listen to the works of Itrî",
+      "text": "Play a piece by the great composer of the late 1600s, such as his Neva kâr or the Nevruz Beste. Close your eyes.",
+      "minutes": 15
     },
     {
-      "id": "feed-a-street-animal-or-the-birds",
-      "name": "Feed a street animal or the birds",
-      "meta": "As the foundations did",
-      "time": "16:30",
-      "slot": "Afternoon"
+      "kind": "art",
+      "item": "art-the-suleymaniye-mosque",
+      "name": "Look at the Süleymaniye",
+      "text": "Look at pictures of the great mosque designed by Sinan, with its dome and four minarets above the Golden Horn. Imagine its interior light.",
+      "minutes": 10
     },
     {
-      "id": "treat-make-coffee-slowly-in-a-small-pot-and-let-it-settle",
-      "name": "Make coffee slowly in a small pot and let it settle",
-      "meta": "No stirring at the end",
-      "time": "15:30",
-      "slot": "Afternoon"
+      "kind": "art",
+      "item": "art-iznik-tiles-of-the-rustem-pasha-mosque",
+      "name": "Look at the İznik tiles",
+      "text": "Look at the tulips and carnations in tomato red and turquoise on the walls of the Rüstem Pasha mosque. Pick a panel.",
+      "minutes": 10
     },
     {
-      "id": "treat-feed-a-cat-or-leave-water-out-for-one",
-      "name": "Feed a cat, or leave water out for one",
-      "meta": "Istanbul’s way",
-      "time": "08:30",
-      "slot": "Morning"
+      "kind": "art",
+      "item": "art-the-tortoise-trainer",
+      "name": "Look at The Tortoise Trainer",
+      "text": "Look at Osman Hamdi Bey’s 1906 painting of a man trying to train tortoises with a flute. Decide what it is saying.",
+      "minutes": 10
     },
     {
-      "id": "treat-offer-a-sweet-to-whoever-walks-in",
-      "name": "Offer a sweet to whoever walks in",
-      "meta": "Lokum, or anything",
-      "time": "15:30",
-      "slot": "Afternoon"
+      "kind": "eat",
+      "item": "eat-dolma",
+      "name": "Make dolma",
+      "text": "Stuff vine leaves, peppers or aubergines with spiced rice and herbs and simmer them in oil and lemon. Eat them cold or warm.",
+      "minutes": 90
     },
     {
-      "id": "treat-sit-on-a-cushion-on-the-floor-and-do-nothing-well",
-      "name": "Sit on a cushion on the floor and do nothing well",
-      "meta": "This is keyif",
-      "time": "19:30",
-      "slot": "Evening"
+      "kind": "eat",
+      "item": "eat-baklava",
+      "name": "Taste baklava",
+      "text": "Taste thin layers of pastry with nuts and syrup, a luxury of the Ottoman palace kitchens. Eat a small piece slowly with a glass of tea.",
+      "minutes": 15
     },
     {
-      "id": "daily-sit-in-a-garden-or-a-park-and-drink-tea-slowly",
-      "name": "Sit in a garden or a park and drink tea slowly",
-      "meta": "This is keyif",
-      "time": "20:30",
-      "slot": "Evening"
+      "kind": "eat",
+      "item": "eat-asure",
+      "name": "Taste or make aşure",
+      "text": "Taste a bowl of Noah’s pudding, with grains, pulses, fruit and nuts, or make a small batch. Share it.",
+      "minutes": 60
     },
     {
-      "id": "daily-listen-to-one-piece-of-ottoman-classical-music",
-      "name": "Listen to one piece of Ottoman classical music",
-      "meta": "Ney, oud or voice",
-      "time": "20:30",
-      "slot": "Evening"
+      "kind": "drink",
+      "item": "drink-turkish-coffee",
+      "name": "Brew Turkish coffee",
+      "text": "Heat fine coffee and water in a small pot until the foam rises. Pour gently and let the grounds settle.",
+      "minutes": 15
+    },
+    {
+      "kind": "drink",
+      "item": "drink-sherbet",
+      "name": "Make sherbet",
+      "text": "Steep rose petals, lemon or tamarind with sugar and water, strain and chill. Serve in a tall glass.",
+      "minutes": 20
+    },
+    {
+      "kind": "drink",
+      "item": "drink-boza",
+      "name": "Drink a millet drink",
+      "text": "Boza is a thick, sweet millet drink sold by street vendors in winter. Drink a non-alcoholic one, or a glass of cold sweet oat drink, topped with cinnamon and roasted chickpeas.",
+      "minutes": 10
+    },
+    {
+      "kind": "customs",
+      "item": "customs-charity-stones",
+      "name": "Give without being seen",
+      "text": "Leave a coin or a note where someone in need will find it, and walk away without looking back.",
+      "minutes": 5
+    },
+    {
+      "kind": "customs",
+      "item": "customs-birdhouses",
+      "name": "Look up Ottoman birdhouses",
+      "text": "Look at pictures of the little palaces for sparrows built into mosques and houses. Make a bird feeder or put out seed.",
+      "minutes": 15
+    },
+    {
+      "kind": "customs",
+      "item": "customs-shoes-off-and-the-best-seat-for-the-guest",
+      "name": "Give a guest the best seat",
+      "text": "Take your shoes off at the door and give any guest the best seat in the room. Offer tea at once.",
+      "minutes": 5
+    },
+    {
+      "kind": "games",
+      "item": "games-tavla",
+      "name": "Play tavla",
+      "text": "Play Turkish backgammon with a friend, slamming the checkers down with a flourish. Play at least two games.",
+      "minutes": 40
+    },
+    {
+      "kind": "games",
+      "item": "games-mangala",
+      "name": "Play mangala",
+      "text": "Play the Turkish sowing game on a board with two rows of six pits, using pebbles or beans. Play a few rounds.",
+      "minutes": 20
+    },
+    {
+      "kind": "games",
+      "item": "games-karagoz",
+      "name": "Watch or stage a Karagöz play",
+      "text": "Watch a Karagöz shadow play online or put on a simple one yourself with card puppets.",
+      "minutes": 20
+    },
+    {
+      "kind": "travel",
+      "item": "fest-h-drellez",
+      "name": "Mark Hıdrellez",
+      "text": "Hıdrellez, on 5 and 6 May, welcomes spring. Write a wish on paper, tie it to a rose bush and picnic outdoors.",
+      "minutes": 30
+    },
+    {
+      "kind": "travel",
+      "item": "fest-the-istanbul-tulip-festival",
+      "name": "Look up the Istanbul Tulip Festival",
+      "text": "Look at pictures of millions of tulips blooming in parks across Istanbul in April. Plant a tulip.",
+      "minutes": 10
+    },
+    {
+      "kind": "travel",
+      "item": "place-the-grand-bazaar",
+      "name": "Look up the Grand Bazaar",
+      "text": "Look at pictures of the covered market of 60 streets and 4,000 shops. Imagine bargaining there over tea.",
+      "minutes": 10
+    },
+    {
+      "kind": "words",
+      "item": "word-keyif",
+      "name": "Practise keyif",
+      "text": "Keyif is quiet enjoyment. Spend ten minutes today enjoying something simple, with no goal.",
+      "minutes": 10
+    },
+    {
+      "kind": "words",
+      "item": "word-sohbet",
+      "name": "Practise sohbet",
+      "text": "Sohbet is warm, unhurried conversation. Spend twenty minutes talking with one person, with no phones.",
+      "minutes": 20
+    },
+    {
+      "kind": "words",
+      "item": "word-edep",
+      "name": "Practise edep",
+      "text": "Edep is good manners and inner refinement. Show courtesy in one small way that nobody would notice.",
+      "minutes": 5
     }
   ],
-  "immersePlan": [],
   "rules": [
     {
       "id": "r1",

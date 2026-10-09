@@ -293,49 +293,113 @@
     {
       "id": "sky-offering",
       "name": "The morning offering to the sky",
-      "icon": "sun-horizon",
+      "icon": "cloud-sun",
       "slot": "Morning",
       "time": "06:30",
       "minutes": 5,
       "meta": "Morning · 5 min",
-      "instructions": "As soon as you have made the first tea or opened the first milk of the day, take a small cup of it outside or to an open window. Face the rising sun. Flick a few drops upward to the sky, then to the four directions and to the ground under your feet. Look at the whole horizon and the weather. Say thanks for the day, and ask for a clear road. Then drink what is left.",
-      "why": "Mongolian households still make this offering, the tsatsal, each morning with the first of the milk or tea, using a wooden spoon with nine hollows. Chinggis Khan went up the mountain Burkhan Khaldun, took off his cap, hung his belt round his neck and sprinkled milk to the sky before every great decision.",
+      "instructions": "As soon as you have made the first tea or opened the first milk of the day, take a small cup of it outside or to an open window. Face the rising sun. Flick a few drops upward to the sky, then to the four directions and to the earth. Say thank you for the day. Drink the rest. The rule of this Onda is to greet the sky first.",
+      "why": "On the steppe, the first of the milk or tea is offered to the sky, Tenger, and the earth. It is a small thanks that begins the day with humility.",
       "variations": [
-        "Do it before a journey, in the direction you will travel.",
-        "Use plain water if that is what you have.",
-        "Stay a full minute looking at the sky before you go in."
+        "Use a spoonful of water if you have no tea.",
+        "Flick three drops with your ring finger.",
+        "Offer it to a tree."
       ]
     },
     {
       "id": "cover-ground",
       "name": "Cover ground",
-      "icon": "horse",
+      "icon": "person-simple-hike",
       "slot": "Morning",
       "time": "08:00",
       "minutes": 60,
       "meta": "Morning · 60 min",
-      "instructions": "Go a long way under the open sky today, further than is convenient, by your own effort or on an animal: walk, run, ride a horse or a bicycle. Leave the paths you know. Carry water and little else. As you go, read the land the way a herder does. Where is the wind from? Where does water lie? What is growing, and what has passed this way? Come home by a different route.",
-      "why": "The Mongols lived on the move, shifting camp with the seasons, and their armies and couriers covered distances no one else thought possible. A rider on the relay post could cross three hundred kilometres in a day by changing horses.",
+      "instructions": "Go a long way under the open sky today, further than is convenient, by your own effort or on an animal: walk, run, ride a horse or a bicycle. Leave the paths you know. Carry water and little else. As you go, read the landscape: wind, clouds, the shape of the land. Dress for the weather, tell someone where you are going and turn back before you are tired.",
+      "why": "The nomad’s life is a life of distance and horizons. Covering ground under the open sky is the most Mongol thing you can do.",
       "variations": [
-        "Learn to find south without a device.",
-        "Take a riding lesson.",
-        "Sleep outside one night this month."
+        "Walk thirty minutes if you have less time.",
+        "Cycle somewhere new.",
+        "Climb a hill to look at the horizon."
+      ]
+    },
+    {
+      "id": "carry-only-what-you-need",
+      "name": "Carry only what you need",
+      "icon": "backpack",
+      "slot": "Morning",
+      "time": "07:30",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Before leaving the house, decide what you really need for the day and carry only that. Empty your pockets and bag of everything extra. Own what you can carry is a rule of this Onda. Notice how light you feel. Nomads moved camp twice a year with everything on carts and camels, and chose carefully what to keep.",
+      "why": "The Mongol rule of owning what you can carry is the root of the steppe’s freedom. Packing light is a daily practice of it.",
+      "variations": [
+        "Leave your bag at home for a day.",
+        "Take only one book.",
+        "Empty a drawer of the unused."
+      ]
+    },
+    {
+      "id": "look-to-the-horizon",
+      "name": "Look to the horizon",
+      "icon": "binoculars",
+      "slot": "Morning",
+      "time": "07:00",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Go to a window, balcony or open space and look at the farthest thing you can see for five minutes. Let your eyes rest on the horizon. Nomadic herders read the weather, the grass and the animals from far off. Give your eyes the relief of distance. Breathe slowly and notice what you see.",
+      "why": "Looking at distance is a restful practice for eyes and mind. On the steppe the horizon is the daily companion.",
+      "variations": [
+        "Watch the clouds move.",
+        "Find the farthest tree.",
+        "Look at the sky after sunrise."
+      ]
+    },
+    {
+      "id": "salted-milk-tea",
+      "name": "Salted milk tea",
+      "icon": "coffee",
+      "slot": "Morning",
+      "time": "07:15",
+      "minutes": 15,
+      "meta": "Morning · 15 min",
+      "instructions": "Make suutei tsai: boil water with a handful of green or black tea, add milk and a pinch of salt, and simmer until the colour is rich and creamy. Pour it into bowls and drink it hot, with bread or biscuits. It is the daily drink of Mongolia and the first thing offered to any visitor. Share a bowl.",
+      "why": "Suutei tsai, salty milk tea, is the heart of Mongolian hospitality. It warms the body on a cold steppe morning.",
+      "variations": [
+        "Add rice or millet to make it a meal.",
+        "Offer a bowl to a neighbour.",
+        "Drink it with something fried."
+      ]
+    },
+    {
+      "id": "greet-a-guest-as-a-guest",
+      "name": "Greet a guest as a guest",
+      "icon": "hand-waving",
+      "slot": "Morning",
+      "time": "08:30",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Greet each person you meet today as if they were a guest arriving at your tent, with a smile and a question after their health, their family and their animals. In Mongolia the greeting is a conversation: Sain baina uu? Are you well? Are your herds well? Take your time. Never rush a greeting.",
+      "why": "Steppe greetings are long and warm, because on the empty plain every meeting matters. A slow greeting is a gift.",
+      "variations": [
+        "Learn sain baina uu.",
+        "Ask after someone’s family by name.",
+        "Offer the first greeting to a neighbour."
       ]
     },
     {
       "id": "three-games",
       "name": "One of the three games",
-      "icon": "barbell",
+      "icon": "trophy",
       "slot": "Afternoon",
       "time": "16:00",
       "minutes": 30,
       "meta": "Afternoon · 30 min",
-      "instructions": "Train one of the three skills of the steppe for thirty minutes. Wrestling: grapple with a partner, or practise the stance, squats and lifts that wrestlers use. Archery: shoot at a target, or throw at one, with full attention on a steady stance, a clean release and following through. Riding: balance, legs and core. Work until you are properly tired, and finish by stretching your arms like the wings of the wrestler’s eagle dance.",
-      "why": "Wrestling, archery and horse racing are the three manly games, though girls ride in the races and women shoot. They were the training of every herder for the hunt and for war, and Naadam still crowns a champion in each every July.",
+      "instructions": "Train one of the three skills of the steppe for thirty minutes. Wrestling: grapple with a partner, or practise the stance, squats and lifts that wrestlers use. Archery: shoot at a target, or throw at one, with full attention. Riding: ride a horse or a bicycle, or practise balance. Never aim at a person or animal, warm up first and stop if anything hurts.",
+      "why": "Wrestling, archery and horse racing are the three manly games of Naadam, and the old skills of the steppe. Training one is a pleasure of its own.",
       "variations": [
-        "Join a wrestling, judo or archery club for a session.",
-        "Do a hundred squats through the day.",
-        "Hold a contest among friends, with a song for the winner."
+        "Throw darts or beanbags at a target.",
+        "Do balance exercises.",
+        "Cycle hard for half an hour."
       ]
     },
     {
@@ -346,138 +410,420 @@
       "time": "18:00",
       "minutes": 20,
       "meta": "Afternoon · 20 min",
-      "instructions": "Today, feed whoever comes. Put the kettle on the moment anyone crosses your threshold, before you ask what they want. Offer the cup with your right hand, the left hand under your elbow. Give food with it, and the best of what you have. Ask after their family, their health and their journey before any business. If no one comes, take food to a neighbour or a stranger.",
-      "why": "On the steppe a traveller could die between camps, so every ger was open to anyone who rode up. The door was not locked, tea was poured at once, and to refuse a guest was a disgrace. The custom holds in the countryside of Mongolia today.",
+      "instructions": "Today, feed whoever comes. Put the kettle on the moment anyone crosses your threshold, before you ask what they want. Offer the cup with your right hand, the left hand under your elbow. Give food with it, and the best of what you have. Nobody should leave a Mongolian tent hungry. The rule of this Onda is to feed the guest before you ask his business.",
+      "why": "Hospitality to travellers is a sacred duty on the steppe, where a stranger might die without shelter. The open door is the heart of nomad ethics.",
       "variations": [
-        "Keep a pot of tea ready all day.",
-        "Leave something by your door for whoever needs it.",
-        "Accept hospitality as well as you give it: take what is offered, at least a taste."
+        "Put out a tea tray.",
+        "Invite a neighbour in.",
+        "Always say yes to a visitor."
+      ]
+    },
+    {
+      "id": "your-word-is-iron",
+      "name": "Your word is iron",
+      "icon": "handshake",
+      "slot": "Afternoon",
+      "time": "14:00",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Make one promise today and keep it exactly. Be on time, do what you said you would, finish what you began. The Mongols prized the word of honour, and an oath was binding. If you cannot keep a promise, say so in advance. Say little, mean it all. The rule of this Onda is that your word is iron.",
+      "why": "Trustworthiness was the basis of trade and alliance on the steppe. A person’s word was their bond.",
+      "variations": [
+        "Keep a promise you made long ago.",
+        "Be five minutes early.",
+        "Make fewer promises."
+      ]
+    },
+    {
+      "id": "throw-the-shagai",
+      "name": "Throw the shagai",
+      "icon": "cube",
+      "slot": "Afternoon",
+      "time": "15:00",
+      "minutes": 20,
+      "meta": "Afternoon · 20 min",
+      "instructions": "Play with shagai, sheep ankle bones, or any four small objects with different faces. Toss them and read the result: horse, sheep, camel or goat, according to the side that lands up. Shagai is used for games and for fortune-telling. Flick the bones across a table at targets, or divine a small decision. Use dice if you have no bones.",
+      "why": "Shagai are Mongolia’s most beloved game pieces, used for dozens of games. The sides are named for animals, and each throw tells a story.",
+      "variations": [
+        "Play a flicking game with friends.",
+        "Divine your day with a throw.",
+        "Make shagai from clay."
+      ]
+    },
+    {
+      "id": "share-what-you-have",
+      "name": "Share what you have",
+      "icon": "gift",
+      "slot": "Afternoon",
+      "time": "17:30",
+      "minutes": 15,
+      "meta": "Afternoon · 15 min",
+      "instructions": "Share something with a neighbour or friend today: a pot of food, a tool, a book. In the Mongol tradition the spoils are divided fairly, and the generous leader is the best leader. Give the best portion. Don’t wait to be asked. The rule of this Onda is to share the spoils.",
+      "why": "Sharing food and goods is basic to steppe life. A generous person is respected far more than a rich one.",
+      "variations": [
+        "Share a meal with someone alone.",
+        "Lend a tool.",
+        "Give away something good."
+      ]
+    },
+    {
+      "id": "read-the-weather",
+      "name": "Read the weather",
+      "icon": "cloud-rain",
+      "slot": "Afternoon",
+      "time": "13:30",
+      "minutes": 15,
+      "meta": "Afternoon · 15 min",
+      "instructions": "Go outside and read the weather like a herder. Look at the clouds, feel the wind, smell the air, watch the birds. Predict what the next three hours will bring and write it down. Check at the end of the afternoon. Herders on the steppe read the sky every day to know when to move their herds. Dress for the weather.",
+      "why": "Weather-reading is an essential skill for nomads, whose survival depends on it. It is also a good exercise in attention.",
+      "variations": [
+        "Use a barometer or phone afterwards.",
+        "Keep a weather diary.",
+        "Teach a child to read clouds."
       ]
     },
     {
       "id": "hearth",
       "name": "Tend the hearth",
-      "icon": "campfire",
+      "icon": "flame",
       "slot": "Evening",
       "time": "20:30",
       "minutes": 20,
       "meta": "Evening · 20 min",
-      "instructions": "End the day at a fire or a single flame. Tidy the space round it first. Sit with your household or alone and keep the flame for twenty minutes without a screen. Put nothing dirty into it. Tell one story from your family’s past, or recite the names of your forebears as far back as you can. Before you sleep, check your gear for tomorrow: what you will carry, and what you can leave behind.",
-      "why": "The hearth at the centre of the ger is the seat of the family and its line. The youngest son was called the prince of the fire and inherited the home tent. Mongols learned their ancestry by heart for seven generations and more, and The Secret History itself begins as a genealogy.",
+      "instructions": "End the day at a fire or a single flame. Tidy the space round it first. Sit with your household or alone and keep the flame for twenty minutes without a screen. Put nothing dirty into it. Tell one story from your family’s past or from the day. Don’t step over the fire or point your feet at it. Use a safe fire or a candle.",
+      "why": "The hearth is the centre of the Mongol home, to be treated with respect. Keeping a flame at the end of the day is the oldest evening ritual of all.",
       "variations": [
-        "Learn the names of your eight great-grandparents.",
-        "Tell the story of how your family came to live where it does.",
-        "Reduce what you own by one thing a day."
+        "Sit by a campfire if you can.",
+        "Light a candle in a bowl.",
+        "Tell a story from a grandparent."
+      ]
+    },
+    {
+      "id": "a-story-by-the-fire",
+      "name": "A story by the fire",
+      "icon": "campfire",
+      "slot": "Evening",
+      "time": "19:30",
+      "minutes": 20,
+      "meta": "Evening · 20 min",
+      "instructions": "Tell or read a story from the Secret History of the Mongols: the boy Temujin and his friend Jamukha, the stolen horses or the childhood of the future Chinggis Khan. Tell it with gestures and voices, as a bard would. Let the listener ask questions. End with a proverb. It is an old way to pass the long evenings.",
+      "why": "The Secret History is the oldest Mongolian book, full of vivid scenes. Oral storytelling is still a pleasure on the steppe.",
+      "variations": [
+        "Tell it by candlelight.",
+        "Read a section aloud.",
+        "Tell a story about your own childhood."
+      ]
+    },
+    {
+      "id": "throat-singing-and-horse-head-fiddle",
+      "name": "Throat singing and horse-head fiddle",
+      "icon": "waveform",
+      "slot": "Evening",
+      "time": "21:00",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Play a recording of Mongolian throat singing or the horse-head fiddle, the morin khuur, and listen with your eyes closed. In throat singing one voice makes two notes at once, a low drone and a whistling melody above. The fiddle is said to imitate a horse’s gallop and neigh. Let the sound carry you across the steppe.",
+      "why": "Khöömii, throat singing, and the morin khuur are the most characteristic sounds of Mongolia. Both are included in UNESCO’s list of intangible heritage.",
+      "variations": [
+        "Listen to long songs instead.",
+        "Try a low drone yourself.",
+        "Look at a picture of the fiddle."
+      ]
+    },
+    {
+      "id": "look-at-the-stars",
+      "name": "Look at the stars",
+      "icon": "star-four",
+      "slot": "Evening",
+      "time": "21:30",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Go outside after dark and look at the sky for a quarter of an hour. Find the Great Bear, which Mongolians call the Seven Elders, and the North Star. Tenger, the eternal blue sky, is the highest spirit of the steppe. Lie back if the ground is dry, and wrap up warm. Think of the herders under the same stars.",
+      "why": "Tenger, the sky, is the supreme power in Mongol belief. Stargazing on the steppe is spectacular, with no lights for miles.",
+      "variations": [
+        "Find the pole star.",
+        "Count shooting stars.",
+        "Sit in silence for ten minutes."
+      ]
+    },
+    {
+      "id": "a-game-of-shatar",
+      "name": "A game of shatar",
+      "icon": "game-controller",
+      "slot": "Evening",
+      "time": "20:00",
+      "minutes": 30,
+      "meta": "Evening · 30 min",
+      "instructions": "Play shatar, Mongolian chess, with a friend or family. It is close to chess, with a noyon (lord) in the place of a king and a bers (tiger) in the place of a queen. Learn the moves online and play a game. Wrestle with the clock and shake hands at the end. It is a favourite for long winter evenings.",
+      "why": "Shatar is Mongolia’s chess, played on winter evenings in the ger. It descends from the same ancient game as chess.",
+      "variations": [
+        "Play a quick blitz game.",
+        "Teach a child.",
+        "Look up the pieces."
+      ]
+    },
+    {
+      "id": "walk-three-times-round",
+      "name": "Walk three times round",
+      "icon": "path",
+      "slot": "Evening",
+      "time": "19:00",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Choose a tree, a cairn, a big stone or a post and walk three times round it clockwise, as Mongols circle the ovoo, a sacred pile of stones. Place a small stone or a sprig on it as you pass. Think of those who will travel tomorrow, and wish them a safe journey. End with a bow to the horizon.",
+      "why": "The ovoo is a cairn on a pass or hill, honoured by travellers, who circle it three times and add a stone. Walking round one is a lovely custom.",
+      "variations": [
+        "Make your own cairn with garden stones.",
+        "Circle a tree in the park.",
+        "Add a stone for each wish."
+      ]
+    },
+    {
+      "id": "a-small-naadam",
+      "name": "A small Naadam",
+      "icon": "trophy",
+      "slot": "Special",
+      "time": "14:00",
+      "minutes": 120,
+      "meta": "On a free afternoon · 120 min",
+      "instructions": "Hold a mini Naadam with friends in a park: three games. Wrestling, safe and friendly, with the first to touch the ground losing. Archery, with a soft target and a bow or beanbags. And a race on foot or by bike. Cheer every contestant, award a prize to everyone and share a meal and tea. Naadam is the national festival of Mongolia.",
+      "why": "Naadam, the Three Manly Games of wrestling, archery and horse racing, is the great summer festival of Mongolia. A small, friendly version is a joy.",
+      "variations": [
+        "Add a throwing game with shagai.",
+        "Eat boiled dumplings afterwards.",
+        "Give out ribbon prizes."
+      ]
+    },
+    {
+      "id": "a-day-under-the-big-sky",
+      "name": "A day under the big sky",
+      "icon": "cloud-sun",
+      "slot": "Special",
+      "time": "10:00",
+      "minutes": 120,
+      "meta": "On a free day · 120 min",
+      "instructions": "Spend a day in the biggest open space near you, a moor, a beach, a field or a hilltop. Take a flask of tea, bread, cheese and a blanket. Walk, sit, watch the sky and the weather. Make a small offering of tea to the sky. Stay until the light changes. Dress for the conditions and tell someone where you are going.",
+      "why": "The Mongolian steppe is the largest open grassland in the world. A day in any wide space gives a taste of its feeling of freedom.",
+      "variations": [
+        "Bring binoculars.",
+        "Leave your phone off.",
+        "Fly a kite."
       ]
     }
   ],
-  "tasks": [
+  "tasks": [],
+  "immersePlan": [
     {
-      "id": "task-read-the-childhood-of-temujin-in-the-secret-history",
-      "name": "Read the childhood of Temüjin in The Secret History",
-      "meta": "Read · sections 59 to 103",
-      "time": "20:00",
-      "slot": "Evening",
-      "action": "read"
+      "kind": "read",
+      "item": "read-the-secret-history-of-the-mongols",
+      "name": "Read from The Secret History",
+      "text": "Read a chapter of the oldest Mongol text, perhaps Temujin’s childhood or the story of the arrows. Retell it to someone.",
+      "minutes": 25
     },
     {
-      "id": "task-listen-to-a-mongolian-long-song-by-norovbanzad",
-      "name": "Listen to a Mongolian long song by Norovbanzad",
-      "meta": "Listen · eyes closed, 8 min",
-      "time": "17:30",
-      "slot": "Afternoon",
-      "action": "listen"
+      "kind": "read",
+      "item": "read-the-travels",
+      "name": "Read Marco Polo on the Mongols",
+      "text": "Read a few pages of Marco Polo’s account of Khubilai Khan’s court and the Mongol postal service. Notice what impresses him.",
+      "minutes": 20
     },
     {
-      "id": "task-watch-the-story-of-the-weeping-camel",
+      "kind": "read",
+      "item": "read-the-horde-how-the-mongols-changed-the-world",
+      "name": "Read a chapter of The Horde",
+      "text": "Read a chapter of Marie Favereau’s account of the Golden Horde as a system of trade and exchange. Note one surprise.",
+      "minutes": 25
+    },
+    {
+      "kind": "watch",
+      "item": "watch-the-story-of-the-weeping-camel",
       "name": "Watch The Story of the Weeping Camel",
-      "meta": "Watch · a herding family in the Gobi",
-      "time": "20:30",
-      "slot": "Evening",
-      "action": "watch"
+      "text": "Watch the gentle 2003 film about a Gobi family, a rejected baby camel and a musician summoned to sing it a lullaby. It is moving and true to life.",
+      "minutes": 90
     },
     {
-      "id": "task-make-salty-milk-tea-and-drink-it-from-a-bowl",
-      "name": "Make salty milk tea and drink it from a bowl",
-      "meta": "Drink · suutei tsai",
-      "time": "07:00",
-      "slot": "Morning",
-      "action": "drink"
+      "kind": "watch",
+      "item": "watch-the-cave-of-the-yellow-dog",
+      "name": "Watch The Cave of the Yellow Dog",
+      "text": "Watch the 2005 film about a nomad girl who finds a stray dog. Notice the daily routines of the ger.",
+      "minutes": 93
     },
     {
-      "id": "task-journal-what-did-you-carry-today-that-you-did-not-need",
-      "name": "Journal: what did you carry today that you did not need?",
-      "meta": "Journal · 10 min",
-      "time": "21:30",
-      "slot": "Evening",
-      "action": "journal"
+      "kind": "watch",
+      "item": "watch-the-eagle-huntress",
+      "name": "Watch The Eagle Huntress",
+      "text": "Watch the 2016 documentary on a thirteen-year-old Kazakh girl in western Mongolia who trains an eagle. The scenery is magnificent.",
+      "minutes": 87
     },
     {
-      "id": "task-can-an-empire-be-won-on-horseback-and-governed-otherwise",
-      "name": "Can an empire be won on horseback and governed otherwise?",
-      "meta": "Philosophy · 10 min",
-      "time": "09:30",
-      "slot": "Morning",
-      "action": "philosophy"
+      "kind": "listen",
+      "item": "listen-long-songs",
+      "name": "Listen to a Mongolian long song",
+      "text": "Play a urtiin duu, a long song with long, soaring notes, sung by Norovbanzad. Close your eyes and picture the steppe.",
+      "minutes": 10
     },
     {
-      "id": "keep-one-promise-to-the-letter-whatever-it-costs",
-      "name": "Keep one promise to the letter, whatever it costs",
-      "meta": "A Mongol’s word",
-      "time": "11:00",
-      "slot": "Morning"
+      "kind": "listen",
+      "item": "listen-throat-singing",
+      "name": "Listen to throat singing",
+      "text": "Play khöömii by a Mongolian ensemble. Listen for the two notes at once.",
+      "minutes": 10
     },
     {
-      "id": "decide-something-together-that-you-would-normally-decide-alone",
-      "name": "Decide something together that you would normally decide alone",
-      "meta": "Khuriltai",
-      "time": "13:00",
-      "slot": "Afternoon"
+      "kind": "listen",
+      "item": "listen-horse-head-fiddle",
+      "name": "Listen to the morin khuur",
+      "text": "Play a piece for the horse-head fiddle. Imagine the horses it describes.",
+      "minutes": 10
     },
     {
-      "id": "promote-or-praise-someone-for-merit-regardless-of-who-they-are",
-      "name": "Promote or praise someone for merit, regardless of who they are",
-      "meta": "As Chinggis did",
-      "time": "15:00",
-      "slot": "Afternoon"
+      "kind": "art",
+      "item": "art-illustrations-to-the-compendium-of-chronicles",
+      "name": "Look at the Compendium of Chronicles",
+      "text": "Look at the Persian miniatures made for the Mongol rulers of Iran, showing sieges, courts and daily life. Pick a scene.",
+      "minutes": 10
     },
     {
-      "id": "treat-stand-outside-and-look-at-the-whole-sky-horizon-to-horizon",
-      "name": "Stand outside and look at the whole sky, horizon to horizon",
-      "meta": "One slow turn",
-      "time": "08:30",
-      "slot": "Morning"
+      "kind": "art",
+      "item": "art-khubilai-khan-hunting",
+      "name": "Look at Khubilai Khan Hunting",
+      "text": "Look at Liu Guandao’s scroll of the Great Khan on horseback with his hunting party. Find the falcon.",
+      "minutes": 5
     },
     {
-      "id": "treat-try-to-whistle-or-hum-two-notes-at-once",
-      "name": "Try to whistle or hum two notes at once",
-      "meta": "Throat singers manage it",
-      "time": "15:30",
-      "slot": "Afternoon"
+      "kind": "art",
+      "item": "art-a-paiza",
+      "name": "Look at a paiza",
+      "text": "Look at a paiza, the metal tablet that gave a traveller the khan’s protection on the road. Think about what it meant.",
+      "minutes": 5
     },
     {
-      "id": "treat-offer-the-first-sip-or-bite-to-a-guest-or-to-the-sky",
-      "name": "Offer the first sip or bite to a guest, or to the sky",
-      "meta": "Then eat",
-      "time": "19:30",
-      "slot": "Evening"
+      "kind": "eat",
+      "item": "eat-boiled-mutton",
+      "name": "Boil mutton on the bone",
+      "text": "Boil mutton on the bone in salted water, and eat it with your hands, with a sharp knife, or use chicken. Share with others.",
+      "minutes": 90
     },
     {
-      "id": "treat-sleep-with-the-window-open-or-step-outside-before-bed",
-      "name": "Sleep with the window open, or step outside before bed",
-      "meta": "Fresh air",
-      "time": "19:30",
-      "slot": "Evening"
+      "kind": "eat",
+      "item": "eat-buuz",
+      "name": "Make buuz",
+      "text": "Steam dumplings of minced meat or vegetables with onion and garlic. They are the food of Tsagaan Sar. Eat them hot with tea.",
+      "minutes": 60
     },
     {
-      "id": "daily-lie-outside-under-the-open-sky-for-five-minutes",
-      "name": "Lie outside under the open sky for five minutes",
-      "meta": "The Eternal Blue Sky",
-      "time": "20:30",
-      "slot": "Evening"
+      "kind": "eat",
+      "item": "eat-aaruul",
+      "name": "Taste aaruul",
+      "text": "Taste dried curds, hard and sour, the snack of the steppe. Suck on a piece slowly. Try dried cheese if you can’t find them.",
+      "minutes": 10
+    },
+    {
+      "kind": "drink",
+      "item": "drink-suutei-tsai",
+      "name": "Brew suutei tsai",
+      "text": "Boil tea with milk and a pinch of salt. Serve it in bowls and share with someone.",
+      "minutes": 15
+    },
+    {
+      "kind": "drink",
+      "item": "drink-airag",
+      "name": "Try a fermented milk drink",
+      "text": "Airag is fermented mare’s milk. Try a cousin that is easy to find, such as kefir or ayran, cold and tangy. Sip it slowly.",
+      "minutes": 10
+    },
+    {
+      "kind": "drink",
+      "item": "drink-black-tea-from-a-brick",
+      "name": "Brew brick tea",
+      "text": "Shave a little pressed tea from a brick and boil it. It is the tea of the steppe, strong and smoky. If you do not have a brick, use a strong black tea.",
+      "minutes": 15
+    },
+    {
+      "kind": "customs",
+      "item": "customs-the-threshold",
+      "name": "Step over the threshold, never on it",
+      "text": "Today, step over the threshold of your home and of any place you enter, never on it. In Mongolia, the threshold is sacred. Notice how it slows you.",
+      "minutes": 5
+    },
+    {
+      "kind": "customs",
+      "item": "customs-passing-with-the-right-hand",
+      "name": "Pass things with the right hand",
+      "text": "Offer and receive things today with your right hand, the left hand under the right elbow. It is the Mongolian gesture of respect.",
+      "minutes": 5
+    },
+    {
+      "kind": "customs",
+      "item": "customs-circling-the-ovoo",
+      "name": "Circle an ovoo",
+      "text": "Walk three times clockwise round a tree or cairn and add a stone or sprig. Wish someone a safe journey.",
+      "minutes": 10
+    },
+    {
+      "kind": "games",
+      "item": "games-shagai",
+      "name": "Play shagai",
+      "text": "Play with four ankle bones or dice, tossing them and naming the animal on each side. Play a flicking game with friends.",
+      "minutes": 20
+    },
+    {
+      "kind": "games",
+      "item": "games-bokh",
+      "name": "Watch bökh wrestling",
+      "text": "Watch a bout of Mongolian wrestling, with the dance of the eagle before and after. Notice the ritual and the respect.",
+      "minutes": 15
+    },
+    {
+      "kind": "games",
+      "item": "games-shatar",
+      "name": "Play shatar",
+      "text": "Play Mongolian chess with a friend. Learn the moves and play a short game.",
+      "minutes": 30
+    },
+    {
+      "kind": "travel",
+      "item": "fest-naadam",
+      "name": "Mark Naadam",
+      "text": "Naadam is held on 11 to 13 July. Throw a small party with a game of strength, aim and speed.",
+      "minutes": 40
+    },
+    {
+      "kind": "travel",
+      "item": "fest-tsagaan-sar",
+      "name": "Mark Tsagaan Sar",
+      "text": "Tsagaan Sar, the White Moon, is the Mongolian new year. Visit an elder with a gift and greet them with the traditional gesture.",
+      "minutes": 40
+    },
+    {
+      "kind": "travel",
+      "item": "place-the-orkhon-valley",
+      "name": "Look up the Orkhon Valley",
+      "text": "Look at pictures of the grassy valley in central Mongolia with ancient inscriptions and the old capital of Kharkhorin. Imagine the herds.",
+      "minutes": 10
+    },
+    {
+      "kind": "words",
+      "item": "word-tenger",
+      "name": "Practise Tenger",
+      "text": "Tenger is the eternal blue sky. Greet the sky before you do anything else today.",
+      "minutes": 5
+    },
+    {
+      "kind": "words",
+      "item": "word-ger",
+      "name": "Practise ger",
+      "text": "A ger is the round felt tent of the steppe. Think about what a home needs to be carried on a cart.",
+      "minutes": 5
+    },
+    {
+      "kind": "words",
+      "item": "word-anda",
+      "name": "Practise anda",
+      "text": "Anda is a sworn brother or sister, a bond closer than friendship. Spend time today with the person you would call your anda.",
+      "minutes": 15
     }
   ],
-  "immersePlan": [],
   "rules": [
     {
       "id": "r1",

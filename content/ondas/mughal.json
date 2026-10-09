@@ -298,12 +298,12 @@
       "time": "06:30",
       "minutes": 10,
       "meta": "Morning · 10 min",
-      "instructions": "Be up before the sun and go to a window, a balcony or your doorstep. Watch the sun rise and greet it in silence. Then make yourself available. Ask each person in your household, or message the people who depend on you, with one question: is there anything you need from me today? Deal with what you can at once. Note the rest and settle it before evening.",
-      "why": "Akbar began the custom of jharokha darshan. Every morning at sunrise the emperor appeared at a palace window above the riverbank, where crowds waited to see him and to hand up petitions. Jahangir hung a golden chain with bells from his walls so that anyone wronged could ring it and be heard.",
+      "instructions": "Be up before the sun and go to a window, a balcony or your doorstep. Watch the sun rise and greet it in silence. Then make yourself available. Ask each person in your household, or message the people who depend on you, what they need today. Listen to one complaint without defending yourself. The rule of this Onda is to be seen, and to hear complaints.",
+      "why": "The Mughal emperors showed themselves each morning at the jharokha, a balcony window, so that all could see them and bring petitions. Being available is the root of good leadership.",
       "variations": [
-        "Keep one hour a week when anyone may come to you with a complaint.",
-        "Answer the oldest unanswered request first.",
-        "Watch the sunrise from the same place each day and note how it moves."
+        "Greet the sun and then your neighbours.",
+        "Ask a family member what they need.",
+        "Answer a petition you have been avoiding."
       ]
     },
     {
@@ -314,12 +314,76 @@
       "time": "08:00",
       "minutes": 15,
       "meta": "Morning · 15 min",
-      "instructions": "Write one page in a notebook as Babur did: plainly, exactly and without flattering yourself. Describe one thing from the natural world that you have looked at closely today, a tree, a fruit, a bird, the weather, with its colour, size and habits, as if for someone who has never seen it. Then set down one thing you did, including what you got wrong. Add no moral.",
-      "why": "The founder of the dynasty kept a diary in his native Turkic for most of his life. It records melons and battles, his first love and his hangovers, with the same frank eye. His great-grandson Jahangir did likewise, dissecting a lion to see where courage lay and ordering his painters to record a turkey, a zebra and a falling meteorite.",
+      "instructions": "Write one page in a notebook as Babur did: plainly, exactly and without flattering yourself. Describe one thing from the natural world that you have looked at closely today, a tree, a fruit, a bird, the weather, with its size, colour and habits. Then describe one thing you did, including a fault. The rule of this Onda is to write the truth about yourself.",
+      "why": "The Baburnama, written by the first Mughal emperor, is among the first honest autobiographies, with sharp observation of nature and unflinching self-description.",
       "variations": [
-        "Draw the thing as well as describing it.",
-        "Measure it.",
-        "Describe a person you met today in five exact sentences."
+        "Describe a fruit as Babur would.",
+        "Admit one fault.",
+        "Write about a place you passed."
+      ]
+    },
+    {
+      "id": "draw-it-exactly",
+      "name": "Draw it exactly",
+      "icon": "pencil",
+      "slot": "Morning",
+      "time": "09:00",
+      "minutes": 15,
+      "meta": "Morning · 15 min",
+      "instructions": "Draw one plant, bird or animal from life, as closely as you can, in the manner of Ustad Mansur, the court painter of Jahangir. Look at the real thing, not a photograph. Notice the shape of each feather or leaf, its colour and pattern. Add a note: name, place and date. Take your time, and draw what you see, not what you know.",
+      "why": "Mansur’s natural history paintings of birds, flowers and animals are among the most accurate ever made. Drawing from life trains the eye like nothing else.",
+      "variations": [
+        "Draw a leaf with all its veins.",
+        "Draw a bird at the window.",
+        "Draw a fruit and then eat it."
+      ]
+    },
+    {
+      "id": "a-scent-for-the-day",
+      "name": "A scent for the day",
+      "icon": "flower",
+      "slot": "Morning",
+      "time": "07:30",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Choose a scent for the day: a drop of attar, rosewater, sandalwood oil, a clove or a sprig of mint. Put a small amount on your wrist or a handkerchief. Mughal courtiers perfumed themselves and their rooms with great care, and Nur Jahan is credited with the discovery of rose attar. Smell it at midday and enjoy it.",
+      "why": "Fragrance was an essential part of Mughal refinement. A single scent worn with care is a daily luxury.",
+      "variations": [
+        "Scent a handkerchief and give it away.",
+        "Burn a stick of incense safely.",
+        "Rub a leaf of mint in your hands."
+      ]
+    },
+    {
+      "id": "a-courteous-greeting",
+      "name": "A courteous greeting",
+      "icon": "hand-waving",
+      "slot": "Morning",
+      "time": "08:30",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Greet each person you meet today with adab, courtesy: a slight bow, a hand brought to the forehead, or a warm word such as adab arz hai. Use their title, ask after their family and take your leave politely. Keep good manners is a rule of this Onda. Notice how a formal greeting softens a day.",
+      "why": "Adab, etiquette and refinement, was the foundation of the Mughal court and of the tehzeeb of North India. Good manners are a gift to everyone.",
+      "variations": [
+        "Greet an elder with a salaam.",
+        "Bow slightly when you thank someone.",
+        "Learn a courteous phrase in Urdu."
+      ]
+    },
+    {
+      "id": "wish-peace-to-all",
+      "name": "Wish peace to all",
+      "icon": "hand-peace",
+      "slot": "Morning",
+      "time": "07:00",
+      "minutes": 3,
+      "meta": "Morning · 3 min",
+      "instructions": "Before you start the day, name one person you disagree with, one of another faith or view, and one stranger, and wish each peace. Say it silently: may you be at peace. Akbar’s principle of sulh-i kull, peace with all, was the heart of his policy. Let it be the day’s first thought.",
+      "why": "Sulh-i kull, universal peace, was Akbar’s ideal of tolerance and respect for all faiths. A morning wish is a practical way to put it into effect.",
+      "variations": [
+        "Say it for three people.",
+        "Write it on a card.",
+        "Include someone you find difficult."
       ]
     },
     {
@@ -330,161 +394,436 @@
       "time": "14:00",
       "minutes": 20,
       "meta": "Afternoon · 20 min",
-      "instructions": "Give twenty minutes to a view of the world that is not yours. Read a page of another tradition’s scripture, or sit with someone of a different religion, politics or background and ask them to explain what they hold most important and why. Your task is to understand it well enough to state it back to their satisfaction. Do not argue. Afterwards write down one thing in it that you could respect.",
-      "why": "In 1575 Akbar built a hall at Fatehpur Sikri and filled it on Thursday nights with Sunni and Shia scholars, Hindu pandits, Jains, Zoroastrians, Jews and Jesuit priests from Goa, to debate in front of him. He concluded that no one faith held all the truth, and made peace with all the rule of his empire.",
+      "instructions": "Give twenty minutes to a view of the world that is not yours. Read a page of another tradition’s scripture, or sit with someone of a different religion, politics or background and ask them to explain what they hold most dear. Don’t argue. Ask for the best form of their belief. Akbar held these debates in his Ibadat Khana every Thursday evening. The rule of this Onda is to be at peace with all.",
+      "why": "Akbar’s House of Worship hosted Muslims, Hindus, Jains, Zoroastrians, Christians and others in open debate. A modest version at home builds understanding.",
       "variations": [
-        "Read a text sacred to others in a good translation, as Akbar had the Mahabharata put into Persian.",
-        "Invite two friends who disagree and keep the peace between them.",
-        "Visit a place of worship that is not your own, as a respectful guest."
+        "Read from another scripture.",
+        "Ask a neighbour about their festival.",
+        "Visit a place of worship as a guest."
       ]
     },
     {
       "id": "garden",
       "name": "The fourfold garden",
-      "icon": "flower",
+      "icon": "tree-evergreen",
       "slot": "Afternoon",
       "time": "17:00",
       "minutes": 20,
       "meta": "Afternoon · 20 min",
-      "instructions": "Spend twenty minutes in a garden near the end of the day. If you have any ground or even a tray of pots, arrange it in four parts round a centre, and tend it: water, weed, tie up, plant something scented. If you have none, go to a public garden and walk its paths slowly. Find running or still water and sit by it. Smell at least one flower properly. Notice what has changed since yesterday.",
-      "why": "Babur’s first act in India was to lay out a garden, since he found the country had no running water or order. His descendants built hundreds, divided in four by channels with a pavilion or tomb at the crossing, planted with fruit, cypress and roses. They received ambassadors in them and are buried in them.",
+      "instructions": "Spend twenty minutes in a garden near the end of the day. If you have any ground or even a tray of pots, arrange it in four parts round a centre, and tend it: water, weed, tie up, plant something scented. If you have none, sit in a park and notice its layout. Babur made charbagh, four-part gardens, wherever he went, even in Hindustan, which he found dull. The rule of this Onda is to make beauty part of use.",
+      "why": "The charbagh, a garden quartered by channels of water, is the Mughal ideal of paradise on earth. From Kabul to Agra, Babur and his heirs built them everywhere.",
       "variations": [
-        "Plant a rose, a jasmine or a fruit tree.",
-        "Put a bowl of water with floating petals where you will see it.",
-        "Wear a drop of rose or sandalwood oil."
+        "Plant a scented herb.",
+        "Water the plants at dusk.",
+        "Sit by a fountain or water bowl."
+      ]
+    },
+    {
+      "id": "cut-a-paper-lattice",
+      "name": "Cut a paper lattice",
+      "icon": "scissors",
+      "slot": "Afternoon",
+      "time": "15:30",
+      "minutes": 30,
+      "meta": "Afternoon · 30 min",
+      "instructions": "Make a jali, a pierced lattice screen of the kind seen in Mughal tombs and palaces. Fold a sheet of paper in half and half again, draw a simple geometric shape on it, and cut it out with scissors or a craft knife. Unfold it and hold it to the light. The patterns of light and shadow are the whole point. Cut away from your fingers.",
+      "why": "Jali screens of carved stone filter light and air at the Taj Mahal and Fatehpur Sikri. A paper version is a cheap and beautiful craft.",
+      "variations": [
+        "Make a star or flower pattern.",
+        "Hang it at a window.",
+        "Cut a whole row."
+      ]
+    },
+    {
+      "id": "a-game-of-ganjifa-or-chaupar",
+      "name": "A game of ganjifa or chaupar",
+      "icon": "cards",
+      "slot": "Afternoon",
+      "time": "16:30",
+      "minutes": 30,
+      "meta": "Afternoon · 30 min",
+      "instructions": "Play a game from the Mughal court. Chaupar, the cross-shaped race game, was played by Akbar with living slave-girls as pieces in a courtyard; use cowries or dice and a cloth board. Ganjifa, the round painted card game, can be mimicked with any deck. Play with a friend, laugh and let the dice decide.",
+      "why": "Chaupar and ganjifa were passions of the Mughal court. Both are easy to play and quick to learn.",
+      "variations": [
+        "Make a chaupar board from cloth.",
+        "Play a round of ganjifa online.",
+        "Teach a child the game."
+      ]
+    },
+    {
+      "id": "look-into-a-miniature",
+      "name": "Look into a miniature",
+      "icon": "palette",
+      "slot": "Afternoon",
+      "time": "15:00",
+      "minutes": 15,
+      "meta": "Afternoon · 15 min",
+      "instructions": "Look at a Mughal miniature painting online or in a book for fifteen minutes: a court scene, a hunt, a garden. Start at the centre, then move to the corners. Find the smallest detail: a bird, a flower, a face in the crowd. Notice the colour and the lines. Tell yourself the story of the picture.",
+      "why": "Mughal miniatures combine Persian, Indian and European ideas with extraordinary detail. Looking slowly is the way to enjoy them.",
+      "variations": [
+        "Look at the Padshahnama.",
+        "Look at Mansur’s birds.",
+        "Draw a detail."
+      ]
+    },
+    {
+      "id": "a-gift-of-respect",
+      "name": "A gift of respect",
+      "icon": "gift",
+      "slot": "Afternoon",
+      "time": "17:30",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Offer a small gift to someone you respect, in the manner of a nazr, a ceremonial offering to a superior. Choose something modest but fine: fruit, a flower, a book, a jar of preserves. Present it with both hands and a word of thanks for what they have given you. Receive such a gift graciously when it is offered to you.",
+      "why": "Gifts were an essential part of Mughal court life, exchanged at every audience. A small, thoughtful offering honours a relationship.",
+      "variations": [
+        "Give fruit to a teacher.",
+        "Send flowers to an elder.",
+        "Give a book to a friend."
       ]
     },
     {
       "id": "mehfil",
       "name": "An evening of verse and raga",
-      "icon": "music-notes",
+      "icon": "music-note",
       "slot": "Evening",
       "time": "20:00",
       "minutes": 25,
       "meta": "Evening · 25 min",
-      "instructions": "Close the day with a small mehfil. Sit on the floor with cushions, a lamp and something to drink. Listen to one raga meant for the evening, such as Yaman, for fifteen minutes with your eyes closed. Then read two or three couplets of a ghazal aloud, slowly, twice each. Choose one line to learn by heart. If others are with you, let each bring a couplet, and say so when a line is good.",
-      "why": "Akbar kept thirty-six musicians of the first rank, with the singer Tansen at their head, and each raga had its hour. In later Delhi the mushaira became the city’s great entertainment, and the last emperor, Zafar, was himself a poet who presided over Ghalib and his rivals.",
+      "instructions": "Close the day with a small mehfil. Sit on the floor with cushions, a lamp and something to drink. Listen to one raga meant for the evening, such as Yaman, for fifteen minutes with your eyes closed. Then read two or three couplets of Urdu or Persian poetry aloud, taking turns if you are with others. Say wah, wah, after a line you love. The rule of this Onda is to make beauty part of the day.",
+      "why": "The mehfil was the Mughal gathering of music and poetry, held in the evening. It lives on in the ghazal nights of North India and Pakistan.",
       "variations": [
-        "Learn one couplet a week.",
-        "Match the raga to the hour: a morning raga at dawn, a rain raga in the monsoon.",
-        "Hold a mehfil for friends once a month."
+        "Read Ghalib in translation.",
+        "Light a lamp in the centre.",
+        "Have each guest bring a couplet."
+      ]
+    },
+    {
+      "id": "a-night-of-ghazals",
+      "name": "A night of ghazals",
+      "icon": "microphone-stage",
+      "slot": "Evening",
+      "time": "21:00",
+      "minutes": 20,
+      "meta": "Evening · 20 min",
+      "instructions": "Play a ghazal by Begum Akhtar or another great singer, a lyric poem of love and loss, sung to a slow beat. Follow a translation of one verse. Lean back and let the singer stretch each line. The Mughal court and later Delhi were the birthplace of the Urdu ghazal, with Ghalib as its master.",
+      "why": "The ghazal, a poem of rhyming couplets, reached its peak in Mughal Delhi. Begum Akhtar’s voice is the classic of its singing.",
+      "variations": [
+        "Listen with a cup of tea.",
+        "Read the lyrics in translation.",
+        "Clap along on the beat."
+      ]
+    },
+    {
+      "id": "supper-on-a-cloth",
+      "name": "Supper on a cloth",
+      "icon": "bowl-food",
+      "slot": "Evening",
+      "time": "19:00",
+      "minutes": 40,
+      "meta": "Evening · 40 min",
+      "instructions": "Spread a cloth on the floor, a dastarkhwan, and eat the evening meal on it in the Mughal manner: wash hands first, sit crossways on cushions and share dishes from the middle. Put out rice, a stew, bread, yoghurt and fruit. Serve guests and elders first. End with a sweet and a cup of tea. Good manners at table are a pleasure.",
+      "why": "The dastarkhwan, a cloth laid on the floor, was the dining table of the Mughal court. Sharing from common dishes encourages conversation.",
+      "variations": [
+        "Use brass or copper dishes.",
+        "Wash up together.",
+        "Invite an elder and honour them."
+      ]
+    },
+    {
+      "id": "lights-through-a-lattice",
+      "name": "Lights through a lattice",
+      "icon": "lamp",
+      "slot": "Evening",
+      "time": "19:30",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Light a few small lamps or candles behind a pierced screen, a colander, a perforated tin or a paper jali, and watch the light spread as stars on the wall. Turn off other lights. The Mughals loved the play of light through jali. Sit and watch the patterns move. Never leave candles unattended.",
+      "why": "The effect of light through stone lattices is among the glories of Mughal architecture. A simple version at home is magical.",
+      "variations": [
+        "Use a pierced tin can.",
+        "Use coloured glass.",
+        "Do it in a dark room with incense."
+      ]
+    },
+    {
+      "id": "akbar-and-birbal",
+      "name": "Akbar and Birbal",
+      "icon": "smiley",
+      "slot": "Evening",
+      "time": "20:30",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Tell a story of Akbar and his wise minister Birbal to someone, for example the one where Birbal is told to draw a line shorter without erasing it and draws a longer one beside it. Tell it with a twinkle. These tales are told to children in India and Pakistan. Ask the listener what clever answer they would give.",
+      "why": "The tales of Akbar and Birbal are famous throughout South Asia, full of wit and good sense. Telling them is a bedtime pleasure.",
+      "variations": [
+        "Tell one to a child.",
+        "Look up three more.",
+        "Make up a new riddle."
+      ]
+    },
+    {
+      "id": "write-a-sher",
+      "name": "Write a sher",
+      "icon": "pen-nib",
+      "slot": "Evening",
+      "time": "21:30",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Write a sher, a two-line couplet in the manner of Urdu poetry, about love, the evening or the passing of time. Each line must stand alone yet complete the sense with the other. Try a rhyme at the end. Read it aloud. A line from Ghalib: the drop of water finds the river and is lost. Wah, wah.",
+      "why": "The sher is the basic unit of the ghazal, a self-contained couplet. Writing one is a rewarding way to compress a feeling.",
+      "variations": [
+        "Share it with a friend.",
+        "Write one in the style of Ghalib.",
+        "Copy it in your best hand."
+      ]
+    },
+    {
+      "id": "a-charbagh-picnic",
+      "name": "A charbagh picnic",
+      "icon": "tree-evergreen",
+      "slot": "Special",
+      "time": "15:00",
+      "minutes": 120,
+      "meta": "On a free afternoon · 120 min",
+      "instructions": "Take a cloth, cushions, fruit, sweets, tea and a book of poems to a park or garden, and spread out in the Mughal style. Choose a spot near water or a tree. Read aloud, play a game, watch the light. Babur picnicked in his gardens and wrote poems. Eat mangoes if they are in season. Leave the place cleaner than you found it.",
+      "why": "The Mughal gardens were built for pleasure, picnics and poetry. A day in one, or in any green place, recreates their spirit.",
+      "variations": [
+        "Bring a friend and a poem.",
+        "Bring a sketchbook.",
+        "Pick a spot with a view."
+      ]
+    },
+    {
+      "id": "a-mushaira",
+      "name": "A mushaira",
+      "icon": "microphone-stage",
+      "slot": "Special",
+      "time": "19:00",
+      "minutes": 120,
+      "meta": "On a free evening · 120 min",
+      "instructions": "Hold a mushaira, a poetry gathering. Invite friends to bring a poem each, their own or a favourite, and read in turn with a lamp passed along. The audience calls wah or irshad (say it again) when a line pleases them. Serve tea and sweets. Poems can be in any language. Keep it warm, funny and generous.",
+      "why": "The mushaira is the great Urdu poetry gathering, still held in India and Pakistan. The audience takes part, calling out praise and asking for repeats.",
+      "variations": [
+        "Ask each guest to read in their mother tongue.",
+        "Pass a candle for the reader.",
+        "End with a collective verse."
       ]
     }
   ],
-  "tasks": [
+  "tasks": [],
+  "immersePlan": [
     {
-      "id": "task-read-babur-s-description-of-hindustan-in-the-baburnama",
-      "name": "Read Babur’s description of Hindustan in the Baburnama",
-      "meta": "Read · the plants, animals and people, 30 min",
-      "time": "20:30",
-      "slot": "Evening",
-      "action": "read"
+      "kind": "read",
+      "item": "read-the-baburnama-memoirs-of-babur-prince-and-emperor",
+      "name": "Read a stretch of the Baburnama",
+      "text": "Read a section of Babur’s memoirs, perhaps his description of Kabul’s gardens or Hindustan’s plants and animals. Note his honesty.",
+      "minutes": 20
     },
     {
-      "id": "task-look-closely-at-one-mughal-miniature-for-ten-minutes",
-      "name": "Look closely at one Mughal miniature for ten minutes",
-      "meta": "Art · Mansur’s animals or a page of the Padshahnama",
-      "time": "13:00",
-      "slot": "Afternoon",
-      "action": "art"
+      "kind": "read",
+      "item": "read-the-last-mughal",
+      "name": "Read a chapter of The Last Mughal",
+      "text": "Read a chapter of William Dalrymple’s story of Delhi in 1857 and the last emperor, a poet. Notice the city.",
+      "minutes": 25
     },
     {
-      "id": "task-listen-to-raga-darbari-said-to-be-tansen-s-own",
-      "name": "Listen to Raga Darbari, said to be Tansen’s own",
-      "meta": "Listen · late evening, 20 min",
-      "time": "21:30",
-      "slot": "Evening",
-      "action": "listen"
+      "kind": "read",
+      "item": "read-ghalib-selected-poems-and-letters",
+      "name": "Read Ghalib",
+      "text": "Read a handful of Mirza Ghalib’s ghazals and a letter in translation. Choose a couplet to learn.",
+      "minutes": 15
     },
     {
-      "id": "task-cook-a-biryani-or-a-plain-khichdi-as-akbar-ate",
-      "name": "Cook a biryani, or a plain khichdi as Akbar ate",
-      "meta": "Eat · share it",
-      "time": "18:30",
-      "slot": "Evening",
-      "action": "eat"
+      "kind": "watch",
+      "item": "watch-mughal-e-azam",
+      "name": "Watch part of Mughal-e-Azam",
+      "text": "Watch the first hour of K. Asif’s 1960 epic of Prince Salim and Anarkali, famous for its Sheesh Mahal song. Feel the splendour.",
+      "minutes": 60
     },
     {
-      "id": "task-journal-what-did-you-see-today-that-you-had-never-properly-looked-at",
-      "name": "Journal: what did you see today that you had never properly looked at?",
-      "meta": "Journal · 10 min",
-      "time": "21:00",
-      "slot": "Evening",
-      "action": "journal"
+      "kind": "watch",
+      "item": "watch-jodhaa-akbar",
+      "name": "Watch Jodhaa Akbar",
+      "text": "Watch Ashutosh Gowariker’s 2008 film of the marriage of Akbar and the Rajput princess Jodhaa. Notice the dialogue about tolerance.",
+      "minutes": 60
     },
     {
-      "id": "task-can-a-ruler-or-a-person-be-at-peace-with-all",
-      "name": "Can a ruler, or a person, be at peace with all?",
-      "meta": "Philosophy · 10 min",
-      "time": "09:00",
-      "slot": "Morning",
-      "action": "philosophy"
+      "kind": "watch",
+      "item": "watch-mirza-ghalib",
+      "name": "Watch an episode of Mirza Ghalib",
+      "text": "Watch an episode of Gulzar’s 1988 television series on the poet, with Naseeruddin Shah. Hear the ghazals.",
+      "minutes": 50
     },
     {
-      "id": "greet-everyone-you-meet-today-with-full-courtesy",
-      "name": "Greet everyone you meet today with full courtesy",
-      "meta": "Adab",
-      "time": "10:00",
-      "slot": "Morning"
+      "kind": "listen",
+      "item": "listen-raga-darbari-kanada",
+      "name": "Listen to Raga Darbari Kanada",
+      "text": "Play Ustad Amir Khan or another master in the majestic night raga attributed to Tansen. Let it unfold slowly.",
+      "minutes": 20
     },
     {
-      "id": "give-a-gift-to-someone-who-serves-you",
-      "name": "Give a gift to someone who serves you",
-      "meta": "A robe of honour",
-      "time": "12:00",
-      "slot": "Afternoon"
+      "kind": "listen",
+      "item": "listen-dhrupad",
+      "name": "Listen to dhrupad",
+      "text": "Play the oldest living form of Hindustani vocal music, sung by the Dagar family. Listen for the deep, sustained notes.",
+      "minutes": 20
     },
     {
-      "id": "settle-one-complaint-against-you-fairly-before-sunset",
-      "name": "Settle one complaint against you, fairly, before sunset",
-      "meta": "The chain of justice",
-      "time": "16:00",
-      "slot": "Afternoon"
+      "kind": "listen",
+      "item": "listen-ghazals-of-ghalib",
+      "name": "Listen to Begum Akhtar sing Ghalib",
+      "text": "Play a ghazal of Ghalib sung by Begum Akhtar. Follow the translation of a couplet.",
+      "minutes": 10
     },
     {
-      "id": "treat-smell-a-rose-a-jasmine-or-an-attar-and-name-what-it-reminds-",
-      "name": "Smell a rose, a jasmine or an attar and name what it reminds you of",
-      "meta": "Jahangir’s mother-in-law is credited with attar of roses",
-      "time": "08:30",
-      "slot": "Morning"
+      "kind": "art",
+      "item": "art-the-taj-mahal",
+      "name": "Look at the Taj Mahal",
+      "text": "Look at the white marble tomb built by Shah Jahan for his wife Mumtaz Mahal. Notice the symmetry and the inlay.",
+      "minutes": 10
     },
     {
-      "id": "treat-eat-a-mango-or-any-ripe-fruit-with-full-attention",
-      "name": "Eat a mango, or any ripe fruit, with full attention",
-      "meta": "Babur missed melons, Jahangir loved mangoes",
-      "time": "15:30",
-      "slot": "Afternoon"
+      "kind": "art",
+      "item": "art-natural-history-studies",
+      "name": "Look at Mansur’s natural history studies",
+      "text": "Look at Ustad Mansur’s paintings of a zebra, a turkey and a Himalayan monal. Notice how closely he looked.",
+      "minutes": 10
     },
     {
-      "id": "treat-recite-one-couplet-aloud-to-someone",
-      "name": "Recite one couplet aloud to someone",
-      "meta": "Urdu, Persian or your own",
-      "time": "19:30",
-      "slot": "Evening"
+      "kind": "art",
+      "item": "art-jahangir-preferring-a-sufi-shaikh-to-kings",
+      "name": "Look at Jahangir Preferring a Sufi Shaikh to Kings",
+      "text": "Look at Bichitr’s allegorical painting in which Jahangir hands a book to a humble sheikh instead of to the kings behind him. Count the figures.",
+      "minutes": 10
     },
     {
-      "id": "treat-sit-beside-running-water-for-ten-minutes",
-      "name": "Sit beside running water for ten minutes",
-      "meta": "A tap in a bowl will do",
-      "time": "15:30",
-      "slot": "Afternoon"
+      "kind": "eat",
+      "item": "eat-biryani",
+      "name": "Cook biryani",
+      "text": "Layer spiced rice and meat or vegetables, seal the pot with dough and cook slowly on a low flame. Open it at the table.",
+      "minutes": 120
     },
     {
-      "id": "daily-read-a-couplet-of-poetry-aloud",
-      "name": "Read a couplet of poetry aloud",
-      "meta": "Persian or Urdu if you have it, any language if not",
-      "time": "20:30",
-      "slot": "Evening"
+      "kind": "eat",
+      "item": "eat-khichdi",
+      "name": "Cook khichdi",
+      "text": "Cook rice and lentils soft with ghee and cumin. It was Akbar’s favourite, and Birbal’s famous joke is about it.",
+      "minutes": 40
     },
     {
-      "id": "daily-sit-by-running-water-with-a-cup-of-tea",
-      "name": "Sit by running water with a cup of tea",
-      "meta": "Garden and water",
-      "time": "20:30",
-      "slot": "Evening"
+      "kind": "eat",
+      "item": "eat-mangoes",
+      "name": "Eat a ripe mango",
+      "text": "Eat a ripe mango slowly, hands and all, in its season. Babur and Jahangir praised it as the best fruit of Hindustan.",
+      "minutes": 15
+    },
+    {
+      "kind": "drink",
+      "item": "drink-sherbet",
+      "name": "Make rose sherbet",
+      "text": "Stir rose syrup into cold water with lemon and a few basil seeds. Serve it in a tall glass.",
+      "minutes": 10
+    },
+    {
+      "kind": "drink",
+      "item": "drink-water-from-the-ganges",
+      "name": "Drink water from a clay jar",
+      "text": "Drink cool water from a clay pot, which keeps it fresh. Akbar called the Ganges water the water of immortality and carried it everywhere; choose any clean water.",
+      "minutes": 5
+    },
+    {
+      "kind": "drink",
+      "item": "drink-lassi",
+      "name": "Make lassi",
+      "text": "Churn yogurt with water and sugar or salt until frothy. Pour a glass and sit in the shade.",
+      "minutes": 10
+    },
+    {
+      "kind": "customs",
+      "item": "customs-the-weighing-of-the-emperor",
+      "name": "Weigh yourself in gifts",
+      "text": "Calculate your weight, and give away that weight in food, clothes or goods, as the emperor did on his birthday. Give an amount symbolic of it to a charity.",
+      "minutes": 20
+    },
+    {
+      "kind": "customs",
+      "item": "customs-robes-of-honour",
+      "name": "Give a gift of honour",
+      "text": "Give someone a gift of honour, a scarf, a flower or a book, to mark their service or friendship. Present it with both hands.",
+      "minutes": 10
+    },
+    {
+      "kind": "customs",
+      "item": "customs-the-manners-of-the-mushaira",
+      "name": "Practise mushaira manners",
+      "text": "Listen to a poem and call wah or irshad after the lines you love. Practise appreciation aloud.",
+      "minutes": 10
+    },
+    {
+      "kind": "games",
+      "item": "games-chaupar",
+      "name": "Play chaupar",
+      "text": "Play the Mughal race game on a cross-shaped cloth board with dice or cowries. Play at least two games.",
+      "minutes": 30
+    },
+    {
+      "kind": "games",
+      "item": "games-ganjifa",
+      "name": "Play ganjifa",
+      "text": "Play with painted round cards, or an ordinary pack. Make a trick-taking game with a friend.",
+      "minutes": 30
+    },
+    {
+      "kind": "games",
+      "item": "games-chaugan",
+      "name": "Play a polo-style game",
+      "text": "Chaugan was Persian polo, which Akbar played at night with glowing balls. Play a hockey or hobby-horse game with a stick and ball in a safe space.",
+      "minutes": 30
+    },
+    {
+      "kind": "travel",
+      "item": "fest-nauroz",
+      "name": "Mark Nauroz",
+      "text": "Nauroz, around 21 March, was celebrated at the Mughal court with gardens and gifts. Wish someone a happy new year.",
+      "minutes": 20
+    },
+    {
+      "kind": "travel",
+      "item": "place-fatehpur-sikri",
+      "name": "Look up Fatehpur Sikri",
+      "text": "Look at pictures of Akbar’s red sandstone city near Agra, abandoned after fifteen years. Find the House of Worship.",
+      "minutes": 15
+    },
+    {
+      "kind": "travel",
+      "item": "place-humayun-s-tomb",
+      "name": "Look up Humayun’s Tomb",
+      "text": "Look at pictures of the 1560s garden-tomb in Delhi, precursor of the Taj Mahal. Notice the four-part garden.",
+      "minutes": 10
+    },
+    {
+      "kind": "words",
+      "item": "word-sulh-i-kull",
+      "name": "Practise sulh-i kull",
+      "text": "Sulh-i kull is peace with all. Wish peace to three people today, including one you disagree with.",
+      "minutes": 5
+    },
+    {
+      "kind": "words",
+      "item": "word-adab",
+      "name": "Practise adab",
+      "text": "Adab is courtesy and refinement. Use a formal courteous greeting once today.",
+      "minutes": 5
+    },
+    {
+      "kind": "words",
+      "item": "word-charbagh",
+      "name": "Practise charbagh",
+      "text": "A charbagh is a four-part garden. Sketch the plan of one, with four quarters round a central pool.",
+      "minutes": 15
     }
   ],
-  "immersePlan": [],
   "rules": [
     {
       "id": "r1",

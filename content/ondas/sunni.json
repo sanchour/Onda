@@ -288,205 +288,539 @@
     {
       "id": "five-pauses",
       "name": "Five pauses",
-      "icon": "compass",
+      "icon": "clock-afternoon",
       "slot": "Morning",
       "time": "05:45",
       "minutes": 5,
       "meta": "Morning · 5 min",
-      "instructions": "Mark the five moments at which Muslims pray: before sunrise, just after midday, in the late afternoon, just after sunset and when night has fallen. Look up the times for your town. At each one stop what you are doing for two minutes. Stand, be still and turn your attention away from your concerns toward what is greater than you. If you are Muslim, pray. If you are a guest, simply stand in silence, give thanks and return to the day.",
-      "why": "The five daily prayers are the second pillar and the backbone of Muslim life. They cut the day into portions so that no stretch of it passes without remembrance. This guest’s version keeps the rhythm and leaves the rite to those whose it is.",
+      "instructions": "Mark the five moments at which Muslims pray: before sunrise, just after midday, in the late afternoon, just after sunset and when night has fallen. Look up the times for your town. At each one stop what you are doing for one minute, breathe, and think of one thing you are grateful for. You are not praying the ritual prayer; you are keeping the rhythm. The rule of this Onda is to stop five times a day.",
+      "why": "The five daily prayers give a Muslim’s day its shape. A guest can borrow the rhythm without the prayer: five pauses scattered through the day.",
       "variations": [
-        "Wash your hands and face with care before each pause.",
-        "Begin with the dawn pause alone and add one each week.",
-        "Listen to the call to prayer at one of the five times."
+        "Set five alarms with calm sounds.",
+        "Look at the sky at each pause.",
+        "Pause with a friend by phone."
       ]
     },
     {
       "id": "intention",
       "name": "State your intention",
-      "icon": "pencil-simple",
+      "icon": "target",
       "slot": "Morning",
       "time": "08:00",
       "minutes": 3,
       "meta": "Morning · 3 min",
-      "instructions": "Before the day’s main work, and before any act that matters, stop and name your intention to yourself. Whom is this for? What good do I mean by it? If the honest answer is to be seen, to win or to get even, either correct the aim or leave the act alone. Begin with the words in the name of God, or with a plain statement of purpose.",
-      "why": "The first hadith in the best known collections is that actions are judged by intentions. Scholars called it a third of all knowledge. An ordinary act, done for a good reason, becomes worship.",
+      "instructions": "Before the day’s main work, and before any act that matters, stop and name your intention to yourself. Whom is this for? What good do I mean by it? If the honest answer is to be seen, to win or to get even, either correct it or do something else. Say bismillah, in the name of God, or begin with a simple good wish. Then start.",
+      "why": "Actions are by intentions, says a hadith that opens many books of Islamic teaching. A moment to name your intention changes how you act.",
       "variations": [
-        "Say bismillah before eating, driving and opening your laptop.",
-        "Re-check your intention halfway through a long task.",
-        "At night, recall one act and ask what it was really for."
+        "Write it on a sticky note.",
+        "Do it before every meeting.",
+        "Review the intention at night."
+      ]
+    },
+    {
+      "id": "a-smile-is-charity",
+      "name": "A smile is charity",
+      "icon": "smiley",
+      "slot": "Morning",
+      "time": "07:30",
+      "minutes": 3,
+      "meta": "Morning · 3 min",
+      "instructions": "Smile at the first three people you meet today, warmly and with eye contact. A hadith says that smiling in the face of your brother or sister is charity. It costs nothing, takes a second and can change someone’s day. Notice what happens in your own mood when you do it.",
+      "why": "Sadaqa, charity, includes a kind word and a smile in Islamic teaching. A good greeting and a smile are the easiest gifts to give.",
+      "variations": [
+        "Smile at a stranger on the bus.",
+        "Smile at the person who serves you.",
+        "Smile when you answer the phone."
+      ]
+    },
+    {
+      "id": "call-someone-in-your-family",
+      "name": "Call someone in your family",
+      "icon": "phone",
+      "slot": "Morning",
+      "time": "08:30",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Phone a parent, grandparent, aunt or old family friend this morning, and ask how they are. Listen for longer than you speak. Be good to parents, kin and neighbours is a rule of this Onda. If your parents are no longer living, call an elder in your family or a neighbour. Silat al-rahim, keeping the ties of kinship, is a duty and a pleasure.",
+      "why": "Being kind to parents and keeping family ties are strongly emphasised in the Qur’an and the hadith. A morning call is a simple way to practise it.",
+      "variations": [
+        "Write a letter instead.",
+        "Visit in person if you can.",
+        "Ask an elder for a story."
+      ]
+    },
+    {
+      "id": "dates-and-water",
+      "name": "Dates and water",
+      "icon": "nut",
+      "slot": "Morning",
+      "time": "07:00",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Start the day by eating an odd number of dates, one, three or five, with a glass of water. This was the Prophet’s habit when breaking a fast and a simple breakfast in many Muslim homes. Eat slowly and enjoy the sweetness. Say bismillah before and alhamdulillah after: in the name of God, and thanks be to God.",
+      "why": "Dates and water make a simple and nourishing start, and are the traditional first food of many Muslim households. Slowing down to eat them is the practice.",
+      "variations": [
+        "Share the dates with someone.",
+        "Stuff a date with an almond.",
+        "Eat them with Arabic coffee."
+      ]
+    },
+    {
+      "id": "listen-to-recitation",
+      "name": "Listen to recitation",
+      "icon": "waveform",
+      "slot": "Morning",
+      "time": "06:30",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Play a recording of the Qur’an recited by a master reciter such as Abdul Basit Abdus Samad, Mishary Alafasy or Mahmoud Khalil al-Husary, and listen for ten minutes. You do not need to understand the Arabic; follow the sound and, if you like, a translation. The recited Qur’an is considered a work of art in itself. Listen as a guest, quietly.",
+      "why": "The sound of Qur’an recitation is one of the great arts of the Muslim world. Listening with respect is a good way to enter its atmosphere.",
+      "variations": [
+        "Listen to a short chapter, such as Al-Fatiha or Ar-Rahman.",
+        "Follow with an English translation.",
+        "Listen while walking."
       ]
     },
     {
       "id": "remembrance",
       "name": "Thirty-three times three",
-      "icon": "repeat",
+      "icon": "hand-palm",
       "slot": "Afternoon",
       "time": "13:15",
       "minutes": 5,
       "meta": "Afternoon · 5 min",
-      "instructions": "Sit for five minutes. On the joints of your fingers count out thirty-three repetitions of a phrase of wonder, such as how perfect, then thirty-three of a phrase of thanks, such as all praise and thanks, then thirty-three of a phrase of greatness, such as greater than all this. Muslims say subhanAllah, alhamdulillah and Allahu akbar. Use those or your own. Let the mind rest on the meaning.",
-      "why": "This sequence of ninety-nine is recited after each prayer on the Prophet’s recommendation. Remembrance is called the polish of the heart.",
+      "instructions": "Sit for five minutes. On the joints of your fingers count out thirty-three repetitions of a phrase of wonder, such as how perfect, then thirty-three of a phrase of thanks, such as all praise and thanks, then thirty-three of a phrase of greatness, such as God is greater. Say each quietly and slowly. This is a counting of remembrance. It is not the ritual prayer.",
+      "why": "Dhikr, remembrance, is the practice of repeating short phrases and is widespread in the Muslim world. Counting on the fingers keeps the mind steady.",
       "variations": [
         "Use a string of beads.",
-        "Through the day answer how are you with a sincere thanks.",
-        "Walk and repeat one phrase in step."
+        "Do just ten of each.",
+        "Do them while walking."
       ]
     },
     {
       "id": "daily-charity",
       "name": "Give every day",
-      "icon": "hand-heart",
+      "icon": "hand-coins",
       "slot": "Afternoon",
       "time": "16:00",
       "minutes": 10,
       "meta": "Afternoon · 10 min",
-      "instructions": "Give something away every day. Money to someone who needs it is best, in secret if you can. If you have none to spare, give something else: help with a load, a word of encouragement, a visit, water for an animal, a stone moved off the path. Once in the Onda work out what one fortieth of your savings would be, and consider giving it.",
-      "why": "Zakat, the third pillar, is fixed at 2.5 per cent of saved wealth a year. Beyond it lies sadaqa, open-ended generosity. The Prophet said that every joint of the body owes a charity each day.",
+      "instructions": "Give something away every day. Money to someone who needs it is best, in secret if you can. If you have none to spare, give something else: help with a load, a word of encouragement, a visit, water for an animal, a stone moved from a path. Every act of kindness is sadaqa, charity. The rule of this Onda is to give something every day.",
+      "why": "The Prophet said every act of goodness is charity. Giving daily, in small ways, builds the habit of generosity.",
       "variations": [
-        "Feed someone.",
-        "Give to a relative or neighbour first, as the tradition advises.",
-        "Set up a standing gift, however small."
+        "Give in secret.",
+        "Give to someone who cannot thank you.",
+        "Move an obstacle from a path."
+      ]
+    },
+    {
+      "id": "speak-good-or-stay-silent",
+      "name": "Speak good or stay silent",
+      "icon": "chat-teardrop",
+      "slot": "Afternoon",
+      "time": "14:30",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "For the next hour, let every word be good or stay silent. A hadith says: whoever believes in God and the last day, let him speak good or be silent. Before you reply, ask: is it true, is it kind, is it useful? If not, say nothing. Notice how much you want to say, and how little of it is needed.",
+      "why": "Guarding the tongue is a central theme of Islamic ethics. The rule of this Onda is to speak good or be silent.",
+      "variations": [
+        "Do it for the whole afternoon.",
+        "Praise someone sincerely.",
+        "Avoid backbiting for a day."
+      ]
+    },
+    {
+      "id": "spread-peace",
+      "name": "Spread peace",
+      "icon": "hand-waving",
+      "slot": "Afternoon",
+      "time": "15:30",
+      "minutes": 5,
+      "meta": "Afternoon · 5 min",
+      "instructions": "Greet everyone you meet with peace today, in your own words or with as-salamu alaykum, peace be upon you, and the reply, wa alaykum as-salam. The Prophet said to spread peace among you. Greet people you know and those you do not. Say it like you mean it, and look them in the eye.",
+      "why": "The greeting of peace is one of the best loved customs of Muslim life. It makes strangers into neighbours.",
+      "variations": [
+        "Greet the person who serves you first.",
+        "Greet when you enter a room.",
+        "Greet someone you usually ignore."
+      ]
+    },
+    {
+      "id": "a-neighbour-s-due",
+      "name": "A neighbour’s due",
+      "icon": "house",
+      "slot": "Afternoon",
+      "time": "17:00",
+      "minutes": 20,
+      "meta": "Afternoon · 20 min",
+      "instructions": "Do something for a neighbour today: carry a bag, bring in the post, take them a plate of food, check that they are well. The Prophet said that the angel Gabriel kept advising him about neighbours until he thought they would be made heirs. Be a good neighbour in a practical way.",
+      "why": "Islamic teaching emphasises the rights of the neighbour, including checking on them and sharing food. It builds a street into a community.",
+      "variations": [
+        "Share a dish with the next-door neighbour.",
+        "Offer help with a chore.",
+        "Learn the names of three neighbours."
+      ]
+    },
+    {
+      "id": "a-trial-of-patience",
+      "name": "A trial of patience",
+      "icon": "hourglass",
+      "slot": "Afternoon",
+      "time": "15:00",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Choose one small annoyance today and meet it with sabr, patient steadiness. A queue, a slow driver, a rude message. Breathe, say nothing sharp, and let it pass. Sabr is one of the most praised qualities in Islamic teaching, and is not passive but a firm staying-power. Note how you did at the end of the day.",
+      "why": "Sabr, patience and perseverance, is mentioned over a hundred times in the Qur’an. A small daily test builds strength for the large ones.",
+      "variations": [
+        "Wait in a queue without a phone.",
+        "Do not reply to an irritating message for an hour.",
+        "Praise someone who tried your patience."
       ]
     },
     {
       "id": "night-account",
       "name": "The night account",
-      "icon": "moon-stars",
+      "icon": "scales",
       "slot": "Evening",
       "time": "22:00",
       "minutes": 10,
       "meta": "Evening · 10 min",
-      "instructions": "Before sleep, call yourself to account before you are called. Go through the day. For what went well, say thanks. For what went wrong, admit it, ask forgiveness and decide what you will put right with any person you wronged. Then put tomorrow in other hands: I have done what I could, and the rest is not mine to carry. Lie down in peace.",
-      "why": "The caliph Umar is credited with the saying: call yourselves to account before you are called to account. Turning back in repentance, tawba, is open at every moment, and trust in God is what allows sleep.",
+      "instructions": "Before sleep, call yourself to account before you are called. Go through the day. For what went well, say thanks. For what went wrong, admit it, ask forgiveness and decide what you will put right with any person you wronged. Then forgive anyone who wronged you. Muhasaba, taking account of oneself, ends the day cleanly.",
+      "why": "Muhasaba, self-accounting, is a long-standing practice in Islamic spirituality. A nightly review keeps small faults from piling up.",
       "variations": [
-        "Read a few verses of the Qur’an in translation first.",
-        "Forgive everyone who wronged you today before closing your eyes.",
-        "Rise a little before dawn one day and sit in the quiet."
-      ]
-    }
-  ],
-  "tasks": [
-    {
-      "id": "fast-from-dawn-to-sunset-one-day-this-week-if-your-health-allows",
-      "name": "Fast from dawn to sunset one day this week, if your health allows",
-      "meta": "Then break the fast with water and dates, with others",
-      "time": "05:30",
-      "slot": "Morning"
-    },
-    {
-      "id": "greet-everyone-you-meet-today-with-a-wish-of-peace",
-      "name": "Greet everyone you meet today with a wish of peace",
-      "meta": "Spread peace",
-      "time": "09:00",
-      "slot": "Morning"
-    },
-    {
-      "id": "task-read-surah-93-the-morning-brightness-and-surah-94-relief",
-      "name": "Read Surah 93, The Morning Brightness, and Surah 94, Relief",
-      "meta": "Read · two short chapters of comfort",
-      "time": "20:00",
-      "slot": "Evening",
-      "action": "read"
-    },
-    {
-      "id": "task-listen-to-surah-ar-rahman-recited-by-abdul-basit-abdus-samad",
-      "name": "Listen to Surah ar-Rahman recited by Abdul Basit Abdus Samad",
-      "meta": "Listen · the chapter of the All-Merciful",
-      "time": "17:00",
-      "slot": "Afternoon",
-      "action": "listen"
-    },
-    {
-      "id": "task-look-at-a-page-of-the-blue-qur-an",
-      "name": "Look at a page of the Blue Qur’an",
-      "meta": "Art · gold Kufic script on indigo",
-      "time": "16:30",
-      "slot": "Afternoon",
-      "action": "art"
-    },
-    {
-      "id": "task-visit-a-mosque-on-an-open-day-or-outside-prayer-times",
-      "name": "Visit a mosque on an open day or outside prayer times",
-      "meta": "Travel · dress modestly, take off your shoes",
-      "time": "11:00",
-      "slot": "Afternoon",
-      "action": "travel"
-    },
-    {
-      "id": "task-journal-what-did-you-worry-about-that-was-never-yours-to-control",
-      "name": "Journal: what did you worry about that was never yours to control?",
-      "meta": "Journal · 10 min",
-      "time": "21:30",
-      "slot": "Evening",
+        "Write the account in a notebook.",
+        "Do it with a trusted friend.",
+        "Name one good deed you want to repeat."
+      ],
       "action": "journal"
     },
     {
-      "id": "task-stewardship-what-has-been-placed-in-your-care",
-      "name": "Stewardship: what has been placed in your care?",
-      "meta": "Philosophy · 10 min",
-      "time": "08:30",
-      "slot": "Morning",
-      "action": "philosophy"
+      "id": "offer-coffee-and-dates",
+      "name": "Offer coffee and dates",
+      "icon": "coffee",
+      "slot": "Evening",
+      "time": "19:00",
+      "minutes": 30,
+      "meta": "Evening · 30 min",
+      "instructions": "Invite someone to sit with you for coffee and dates, or serve them to whoever comes by. In Arabia, coffee poured from a long-spouted pot into tiny cups is the sign of welcome, and the host serves first the eldest guest. Pour only a little, and refill. Say bismillah, listen well and send the guest off with a gift of dates.",
+      "why": "Hospitality is a deep Muslim virtue, and the Prophet said that whoever believes in God and the last day should honour his guest. Arabic coffee is its classic expression.",
+      "variations": [
+        "Serve tea and sweets instead.",
+        "Cook a plain supper for a visitor.",
+        "Offer coffee at work."
+      ]
     },
     {
-      "id": "remove-something-harmful-from-a-path-or-a-street",
-      "name": "Remove something harmful from a path or a street",
-      "meta": "Counted as a charity",
-      "time": "14:00",
-      "slot": "Afternoon"
+      "id": "a-list-of-thanks",
+      "name": "A list of thanks",
+      "icon": "heart",
+      "slot": "Evening",
+      "time": "21:00",
+      "minutes": 5,
+      "meta": "Evening · 5 min",
+      "instructions": "Before you go to bed, name ten things you are thankful for, big and small, from the roof over your head to the taste of your tea. Shukr, gratitude, is a core Muslim virtue. Say alhamdulillah, thanks be to God, after each one. Notice that you could go on. End by thanking one person.",
+      "why": "Gratitude is taught as a strengthening of belief and of the heart. A list at night leaves you calm.",
+      "variations": [
+        "Write them in a notebook.",
+        "Say them aloud with a partner.",
+        "Add one every day for a week."
+      ],
+      "action": "journal"
     },
     {
-      "id": "treat-smile-at-someone-it-counts-as-charity",
-      "name": "Smile at someone: it counts as charity",
-      "meta": "A saying of the Prophet",
-      "time": "08:30",
-      "slot": "Morning"
-    },
-    {
-      "id": "treat-break-your-hunger-with-a-date-and-a-glass-of-water",
-      "name": "Break your hunger with a date and a glass of water",
-      "meta": "Slowly",
-      "time": "19:30",
-      "slot": "Evening"
-    },
-    {
-      "id": "treat-dab-on-a-little-scent-before-you-go-out",
-      "name": "Dab on a little scent before you go out",
-      "meta": "A loved custom",
-      "time": "08:30",
-      "slot": "Morning"
-    },
-    {
-      "id": "treat-step-outside-and-find-the-moon",
-      "name": "Step outside and find the moon",
-      "meta": "The months follow it",
-      "time": "19:30",
-      "slot": "Evening"
-    },
-    {
-      "id": "daily-drink-a-glass-of-water-and-pause-for-a-minute-to-be-thankful",
-      "name": "Drink a glass of water and pause for a minute to be thankful",
-      "meta": "Gratitude for water",
-      "time": "14:00",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "daily-say-salaam-to-someone-you-do-not-know",
-      "name": "Say salaam to someone you do not know",
-      "meta": "Peace upon you",
-      "time": "14:00",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "daily-read-a-short-surah-slowly-or-lines-you-love",
-      "name": "Read a short surah slowly, or lines you love",
-      "meta": "In a translation you understand",
+      "id": "a-prayer-for-others",
+      "name": "A prayer for others",
+      "icon": "hands-praying",
+      "slot": "Evening",
       "time": "20:30",
-      "slot": "Evening"
+      "minutes": 5,
+      "meta": "Evening · 5 min",
+      "instructions": "Make a du’a, a personal supplication, for other people. Ask for good things for them: health, ease, guidance, joy. A hadith says that when a person prays for their brother or sister in their absence, the angel says: and the same for you. Mention five people by name, then everyone who is struggling. Use your own words.",
+      "why": "Du’a is the personal conversation with God, in any language. Praying for others is considered especially powerful.",
+      "variations": [
+        "Pray for someone you find difficult.",
+        "Pray for a person in the news.",
+        "Pray for the neighbours by name."
+      ]
+    },
+    {
+      "id": "ibn-battuta-s-night",
+      "name": "Ibn Battuta’s night",
+      "icon": "compass",
+      "slot": "Evening",
+      "time": "20:00",
+      "minutes": 20,
+      "meta": "Evening · 20 min",
+      "instructions": "Read or tell a story from the travels of Ibn Battuta, who left Tangier in 1325 to make the pilgrimage and kept travelling for nearly thirty years. Choose one episode, such as the Maldives, the Mali court or a storm at sea. Read it aloud to someone. Notice how he describes the hospitality he received.",
+      "why": "The Rihla of Ibn Battuta is a great travel book of the medieval world. Its stories of hospitality across Muslim lands are lively and good for bedtime.",
+      "variations": [
+        "Look at his route on a map.",
+        "Tell it to a child.",
+        "Imagine writing your own rihla."
+      ]
+    },
+    {
+      "id": "listen-to-a-nasheed",
+      "name": "Listen to a nasheed",
+      "icon": "music-note",
+      "slot": "Evening",
+      "time": "21:30",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Play a nasheed, a devotional song sung without instruments, such as Tala al-Badru Alayna or a qasida in praise of the Prophet. Sit quietly and listen to the voices. The first of these is said to have been sung by the people of Medina to welcome the Prophet in 622. Let it end your evening on a warm note.",
+      "why": "Nasheeds and qasidas are a gentle part of Muslim culture, sung at homes, weddings and gatherings. Tala al-Badru Alayna is one of the best known.",
+      "variations": [
+        "Sing along to the chorus.",
+        "Listen to the Burda.",
+        "Learn the meaning of the lines."
+      ]
+    },
+    {
+      "id": "a-shared-sunset-supper",
+      "name": "A shared sunset supper",
+      "icon": "sun-horizon",
+      "slot": "Special",
+      "time": "18:30",
+      "minutes": 90,
+      "meta": "On a free evening · 90 min",
+      "instructions": "Hold a sunset supper in the spirit of iftar, the meal that breaks the fast in Ramadan. You do not have to fast. At sunset, invite a few people, and begin with dates and water, then soup, a main dish and something sweet. Wait for everyone, say bismillah together and eat slowly. Include someone who would be alone. Iftar is above all about sharing.",
+      "why": "Iftar tables are among the warmest gatherings in the Muslim year. Hosting one in spirit brings a taste of Ramadan’s hospitality.",
+      "variations": [
+        "Serve harira or lentil soup.",
+        "Invite someone from a different background.",
+        "Share the leftovers with a neighbour."
+      ]
+    },
+    {
+      "id": "plant-a-tree",
+      "name": "Plant a tree",
+      "icon": "tree",
+      "slot": "Special",
+      "time": "10:00",
+      "minutes": 90,
+      "meta": "On a free morning · 90 min",
+      "instructions": "Plant a tree, a bush or a pot of herbs, and tend it with water. A hadith says that if the Final Hour comes while you have a seedling in your hand, plant it. A tree is sadaqa jariya, charity that goes on giving as long as it grows, shading and feeding those who come after you. Choose a spot where it can live.",
+      "why": "Planting trees is praised in Islamic teaching as a lasting charity. The shade and fruit benefit others for years.",
+      "variations": [
+        "Plant it with a child.",
+        "Join a community planting day.",
+        "Give a seedling to a neighbour."
+      ]
     }
   ],
-  "immersePlan": [],
+  "tasks": [],
+  "immersePlan": [
+    {
+      "kind": "read",
+      "item": "read-the-qur-an-a-new-translation",
+      "name": "Read a short chapter in translation",
+      "text": "Read a short chapter of the Qur’an in Abdel Haleem’s translation, such as Ar-Rahman or Al-Duha. Read it aloud, slowly, and note one verse.",
+      "minutes": 15
+    },
+    {
+      "kind": "read",
+      "item": "read-an-nawawi-s-forty-hadith",
+      "name": "Read a hadith from the Forty",
+      "text": "Read one of the forty sayings of the Prophet gathered by al-Nawawi and its short commentary. Think about how it applies to your day.",
+      "minutes": 10
+    },
+    {
+      "kind": "read",
+      "item": "read-the-travels-of-ibn-battuta",
+      "name": "Read a stretch of Ibn Battuta",
+      "text": "Read an episode of the fourteenth-century traveller’s journey from Tangier across Asia and Africa. Mark one custom of hospitality he praises.",
+      "minutes": 20
+    },
+    {
+      "kind": "watch",
+      "item": "watch-the-message",
+      "name": "Watch part of The Message",
+      "text": "Watch the first hour of Moustapha Akkad’s 1976 film about the rise of Islam, made with scholars’ advice. The Prophet is never shown or heard.",
+      "minutes": 60
+    },
+    {
+      "kind": "watch",
+      "item": "watch-le-grand-voyage",
+      "name": "Watch Le Grand Voyage",
+      "text": "Watch Ismaël Ferroukhi’s 2004 film about a young man driving his father from France to Mecca for the pilgrimage. Notice what they learn about each other.",
+      "minutes": 108
+    },
+    {
+      "kind": "watch",
+      "item": "watch-inside-mecca",
+      "name": "Watch Inside Mecca",
+      "text": "Watch the National Geographic documentary following three pilgrims on the hajj. Watch how people from many countries move together.",
+      "minutes": 55
+    },
+    {
+      "kind": "listen",
+      "item": "listen-qur-an-recitation",
+      "name": "Listen to Qur’an recitation",
+      "text": "Play a chapter recited by Abdul Basit Abdus Samad. Close your eyes and follow the voice, the pauses and the rise and fall.",
+      "minutes": 15
+    },
+    {
+      "kind": "listen",
+      "item": "listen-the-call-to-prayer",
+      "name": "Listen to the call to prayer",
+      "text": "Play the adhan from Cairo, Istanbul or Medina. Listen to how the muezzin makes one phrase last and rise. Notice how the music of it varies in each city.",
+      "minutes": 5
+    },
+    {
+      "kind": "listen",
+      "item": "listen-tala-al-badru-alayna",
+      "name": "Listen to Tala al-Badru Alayna",
+      "text": "Play the song of welcome said to have been sung when the Prophet entered Medina. Sing along to the chorus.",
+      "minutes": 5
+    },
+    {
+      "kind": "art",
+      "item": "art-the-dome-of-the-rock",
+      "name": "Look at the Dome of the Rock",
+      "text": "Look at pictures of the golden dome and blue tiled octagon in Jerusalem, completed in 691 or 692. Notice the gold dome from afar and the mosaics inside.",
+      "minutes": 10
+    },
+    {
+      "kind": "art",
+      "item": "art-the-blue-qur-an",
+      "name": "Look at the Blue Qur’an",
+      "text": "Look at a page of the ninth-century Qur’an written in gold on indigo-dyed parchment. Look for the rhythm of the lines.",
+      "minutes": 10
+    },
+    {
+      "kind": "art",
+      "item": "art-the-alhambra",
+      "name": "Look at the Alhambra",
+      "text": "Look at pictures of the palace in Granada with its court of lions, carved plaster and reflecting pools. Choose a ceiling and count its patterns.",
+      "minutes": 15
+    },
+    {
+      "kind": "eat",
+      "item": "eat-dates-and-water",
+      "name": "Eat dates with water",
+      "text": "Eat an odd number of dates with a glass of water, slowly, and say bismillah before and alhamdulillah after.",
+      "minutes": 10
+    },
+    {
+      "kind": "eat",
+      "item": "eat-harira",
+      "name": "Make harira",
+      "text": "Make the Moroccan soup of tomatoes, lentils, chickpeas and herbs, and eat it with dates in the evening. Share a bowl.",
+      "minutes": 75
+    },
+    {
+      "kind": "eat",
+      "item": "eat-biryani-or-kabsa",
+      "name": "Cook a pot of biryani or kabsa",
+      "text": "Cook spiced rice with chicken or vegetables in one pot, the festive dish of South Asia or Arabia. Serve it on one big plate.",
+      "minutes": 90
+    },
+    {
+      "kind": "drink",
+      "item": "drink-mint-tea",
+      "name": "Make mint tea",
+      "text": "Brew green tea with fresh mint and sugar, pour it from a height into small glasses and serve it to a guest, as in Morocco.",
+      "minutes": 15
+    },
+    {
+      "kind": "drink",
+      "item": "drink-arabic-coffee",
+      "name": "Brew Arabic coffee",
+      "text": "Brew lightly roasted coffee with cardamom in a small pot and serve it in tiny cups, pouring a little at a time, to a guest.",
+      "minutes": 15
+    },
+    {
+      "kind": "drink",
+      "item": "drink-laban-or-ayran",
+      "name": "Drink laban or ayran",
+      "text": "Whisk salted yogurt with cold water until frothy. It is the cooling drink of Turkey and the Arab world. Pour a glass for a friend.",
+      "minutes": 10
+    },
+    {
+      "kind": "customs",
+      "item": "customs-right-hand-and-bismillah",
+      "name": "Eat with bismillah and the right hand",
+      "text": "Begin your next meal with bismillah, in the name of God, and use your right hand to eat or hand things over, as is customary.",
+      "minutes": 5
+    },
+    {
+      "kind": "customs",
+      "item": "customs-shoes-off-modest-dress",
+      "name": "Take your shoes off at the door",
+      "text": "Leave your shoes at the door and invite your guests to do likewise. Dress modestly for the day and see how it changes how you carry yourself.",
+      "minutes": 5
+    },
+    {
+      "kind": "customs",
+      "item": "customs-friday",
+      "name": "Make Friday special",
+      "text": "Friday is the day of congregation. Dress a little better than usual, eat a nicer meal, and visit or call someone you care about.",
+      "minutes": 20
+    },
+    {
+      "kind": "games",
+      "item": "games-shatranj",
+      "name": "Play shatranj",
+      "text": "Play a game of old chess in the form the Arabs and Persians knew, where the counsellor moves only one square diagonally.",
+      "minutes": 30
+    },
+    {
+      "kind": "games",
+      "item": "games-mancala",
+      "name": "Play mancala",
+      "text": "Play the sowing game on a board of holes with seeds or pebbles. It is played from West Africa to the Gulf. Play two rounds with a friend.",
+      "minutes": 20
+    },
+    {
+      "kind": "games",
+      "item": "games-engare",
+      "name": "Play Engare",
+      "text": "Play a short session of the puzzle game based on Islamic geometric patterns, which asks you to untangle looping lines.",
+      "minutes": 30
+    },
+    {
+      "kind": "travel",
+      "item": "fest-ramadan",
+      "name": "Learn about Ramadan",
+      "text": "Ramadan is the ninth month, in which Muslims fast from dawn to sunset. Read about it, and send a greeting to a Muslim friend or neighbour. Do not fast unless you are well and choose to.",
+      "minutes": 15
+    },
+    {
+      "kind": "travel",
+      "item": "fest-eid-al-fitr",
+      "name": "Mark Eid al-Fitr",
+      "text": "Eid al-Fitr, the feast ending Ramadan, is a day for new clothes, family visits, sweets and charity. Share a sweet with someone and wish them Eid Mubarak.",
+      "minutes": 15
+    },
+    {
+      "kind": "travel",
+      "item": "place-al-azhar-mosque-and-islamic-cairo",
+      "name": "Look up Al-Azhar and Islamic Cairo",
+      "text": "Look at the mosque and university in Cairo, founded in 970, and the old streets around it. Read about the oldest continuously operating university in the world.",
+      "minutes": 15
+    },
+    {
+      "kind": "words",
+      "item": "word-shukr",
+      "name": "Practise shukr",
+      "text": "Shukr is gratitude. Say thank you to five people today, naming what they did.",
+      "minutes": 5
+    },
+    {
+      "kind": "words",
+      "item": "word-sabr",
+      "name": "Practise sabr",
+      "text": "Sabr is patience. In one irritating moment today, wait three breaths before speaking.",
+      "minutes": 5
+    },
+    {
+      "kind": "words",
+      "item": "word-niyyah",
+      "name": "Practise niyyah",
+      "text": "Niyyah is intention. Before one task today, say what good you mean by it.",
+      "minutes": 5
+    }
+  ],
   "rules": [
     {
       "id": "r1",

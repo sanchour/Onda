@@ -298,17 +298,17 @@
     {
       "id": "i-choose",
       "name": "I choose",
-      "icon": "door-open",
+      "icon": "check-fat",
       "slot": "Morning",
       "time": "07:30",
       "minutes": 5,
       "meta": "Morning · 5 min",
-      "instructions": "Write down the three main things you will do today. In front of each write the words I choose to. Not I have to, not I must. Then finish each sentence with because, and give your real reason. If you find you would not choose one of them, face that: either change it or choose it knowingly. Catch every have to during the day and rephrase it.",
-      "why": "Sartre held that we are condemned to be free: even under orders or in prison, we decide what to make of our situation. To say I have no choice is the commonest form of bad faith.",
+      "instructions": "Write down the three main things you will do today. In front of each write the words I choose to. Not I have to, not I must. Then finish each sentence with because, and give your real reason. If you find you would not choose one of them, decide: do it anyway with open eyes, or stop doing it. The rule of this Onda is to say I choose.",
+      "why": "Sartre held that we are condemned to be free: even obeying is a choice. Rewording your obligations as choices shifts your sense of ownership.",
       "variations": [
-        "Do it for the thing you most resent.",
-        "Say no to one thing you would normally drift into.",
-        "At a moment of indecision, note that not deciding is deciding."
+        "Say I choose aloud.",
+        "Try it for a task you dislike.",
+        "Write the reason honestly."
       ]
     },
     {
@@ -319,44 +319,172 @@
       "time": "10:30",
       "minutes": 30,
       "meta": "Morning · 30 min",
-      "instructions": "Go to a cafe with a notebook and sit where you can see. Order something and take your time. Choose one object in front of you, a cup, a glass, your own hand. For ten minutes describe exactly what you perceive, as if you had never seen such a thing: colour, edge, weight, how it is given to you. Leave out what you know about it. Then write for twenty minutes about anything, starting from there.",
-      "why": "The French existentialists began from phenomenology, the careful description of experience. Sartre’s conversion came around the turn of 1933 when a friend pointed at an apricot cocktail and told him that with this method he could make philosophy out of that glass.",
+      "instructions": "Go to a cafe with a notebook and sit where you can see. Order something and take your time. Choose one object in front of you, a cup, a glass, your own hand. For ten minutes describe exactly what you perceive, as if you had never seen such a thing, without naming its use. Then look up at the room. Sartre’s Nausea begins with a hero staring at a root.",
+      "why": "Phenomenology, the description of experience as it is, was the method of Sartre and Merleau-Ponty. Describing a cup is a way to see.",
       "variations": [
-        "Describe a feeling in the same way, as it shows itself in the body.",
-        "Describe a person at another table without deciding who they are.",
-        "Work in the cafe for a whole morning, as they did."
+        "Describe a pebble.",
+        "Describe your hand.",
+        "Describe a stranger’s coat."
+      ]
+    },
+    {
+      "id": "the-finite-day",
+      "name": "The finite day",
+      "icon": "hourglass",
+      "slot": "Morning",
+      "time": "07:00",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Look at the day as a finite thing: you have perhaps sixteen waking hours. Remember that you will die, without drama. Then ask what you most want to give those hours to. Choose the one thing that matters most and protect an hour for it. The rule of this Onda is to remember that you will die, because it clears the mind.",
+      "why": "Heidegger spoke of being-towards-death as the root of authentic life. A calm look at the day’s limits makes it easier to choose.",
+      "variations": [
+        "Draw the day as a pie.",
+        "Cross off one task that does not matter.",
+        "Do the most important thing first."
+      ]
+    },
+    {
+      "id": "decide",
+      "name": "Decide",
+      "icon": "target",
+      "slot": "Morning",
+      "time": "08:30",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Make one decision today that you have been putting off. Choose, however small: reply to the message, book the appointment, accept or decline. Existentialists hold that not choosing is also a choice, and one that leaves others to choose for you. Write the decision, the date and your reason, and act at once. The rule of this Onda is to decide.",
+      "why": "Not deciding is deciding, said the existentialists. A small, firm decision lifts a weight.",
+      "variations": [
+        "Decide before breakfast.",
+        "Tell someone your decision.",
+        "Decide and do not look back."
+      ]
+    },
+    {
+      "id": "a-table-of-your-own",
+      "name": "A table of your own",
+      "icon": "chair",
+      "slot": "Morning",
+      "time": "09:00",
+      "minutes": 30,
+      "meta": "Morning · 30 min",
+      "instructions": "Spend half an hour working at a cafe table, the same seat if possible, as the Paris existentialists did. Take a notebook and write whatever you think is important: a letter, an essay, a list. The cafe is a free, warm, public study. Buy one small coffee and stay. Say hello to the staff. The cafe as a study is a custom of this Onda.",
+      "why": "Sartre and de Beauvoir wrote for hours at the Café de Flore, because it was warm, cheap and full of company. A cafe table is a simple writer’s room.",
+      "variations": [
+        "Go to a different cafe.",
+        "Bring a book to discuss.",
+        "Write a postcard."
+      ]
+    },
+    {
+      "id": "let-others-be-free",
+      "name": "Let others be free",
+      "icon": "users-three",
+      "slot": "Morning",
+      "time": "08:00",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Today, treat each person you meet as a free being, not a role: not just the cashier, the boss or the child, but someone with their own projects and their own view. Ask a real question and listen. Beauvoir held that my freedom requires the freedom of others. Notice how much more interesting people become.",
+      "why": "Beauvoir’s The Ethics of Ambiguity argues that to will oneself free is also to will others free. Treating people as free is a daily practice.",
+      "variations": [
+        "Ask someone about their project.",
+        "Let a child decide.",
+        "Do not interrupt for an hour."
       ]
     },
     {
       "id": "bad-faith",
       "name": "Catch your bad faith",
-      "icon": "mask-happy",
+      "icon": "eye",
       "slot": "Afternoon",
       "time": "14:00",
       "minutes": 10,
       "meta": "Afternoon · 10 min",
-      "instructions": "Look back over the last few hours for moments when you hid from your own freedom. There are two usual forms. In one you treat yourself as a thing: I am just a shy person, I am only doing my job, that is how I was raised. In the other you pretend you are pure freedom with no facts: my past does not count, I could stop any time. Write down one of each. Then restate both truthfully.",
-      "why": "Being and Nothingness describes a cafe waiter whose movements are a little too precise. He is playing at being a waiter, as if that were all he was. Bad faith is the wish to be a finished object and so be spared the trouble of choosing.",
+      "instructions": "Look back over the last few hours for moments when you hid from your own freedom. There are two usual forms. In one you treat yourself as a thing: I am just a shy person, I am only doing my job, that is how I was raised. In the other you pretend to be pure possibility: I could do anything, one day. Mauvaise foi, bad faith, is Sartre’s name for both. Write one example and one honest alternative. The rule of this Onda is to make no excuses.",
+      "why": "Bad faith, in Being and Nothingness, is the lie by which we deny our freedom. Spotting one example a day is a modest, humbling exercise.",
       "variations": [
-        "Notice which role you over-play.",
-        "Drop the phrase that is just who I am for a week.",
-        "Ask someone what excuse you use most."
+        "Do it for your job.",
+        "Do it for a relationship.",
+        "Ask a friend to name one of yours."
       ]
     },
     {
       "id": "commit",
       "name": "Commit to something",
-      "icon": "hand-fist",
+      "icon": "flag-banner",
       "slot": "Afternoon",
       "time": "17:00",
       "minutes": 20,
       "meta": "Afternoon · 20 min",
-      "instructions": "Choose one thing in the world that you think is wrong and within your reach, however slightly. Do one concrete act about it today: write the letter, give the hour, join the group, tell the truth in the meeting, turn up. It must cost you something and it must be public enough that you can be held to it. Do not wait until you are certain.",
-      "why": "For Sartre and Beauvoir freedom that never acts is empty. They wrote, signed, marched and edited a journal for forty years, often wrongly, on the principle that to stand aside is also to take a position.",
+      "instructions": "Choose one thing in the world that you think is wrong and within your reach, however slightly. Do one concrete act about it today: write the letter, give the hour, join the group, tell the truth in the meeting, turn up. Engagement means taking a side and paying for it with your time. The rule of this Onda is to take a side.",
+      "why": "Existentialists of the postwar years insisted on engagement: staying out of the argument is also a stance. One concrete act turns an opinion into a commitment.",
       "variations": [
-        "Make a promise to another person and keep it.",
-        "Put your name to something.",
-        "Finish one thing you have been keeping open so as not to be judged on it."
+        "Sign a petition after reading it.",
+        "Volunteer for an hour.",
+        "Speak up in a meeting."
+      ]
+    },
+    {
+      "id": "the-look",
+      "name": "The look",
+      "icon": "binoculars",
+      "slot": "Afternoon",
+      "time": "15:30",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Notice today how it feels to be looked at: in a queue, on a bus, in a meeting. In Sartre’s account, the gaze of another turns you suddenly into an object. Observe how your posture, voice and face change. Then watch yourself looking at others the same way. Le regard is an uncomfortable and illuminating idea.",
+      "why": "Sartre’s analysis of the look shows how others make us self-conscious. Noticing it in real life is a quick, sobering experiment.",
+      "variations": [
+        "Look at someone kindly.",
+        "Look away and see what changes.",
+        "Write what you felt."
+      ]
+    },
+    {
+      "id": "drop-one-excuse",
+      "name": "Drop one excuse",
+      "icon": "x-circle",
+      "slot": "Afternoon",
+      "time": "16:00",
+      "minutes": 5,
+      "meta": "Afternoon · 5 min",
+      "instructions": "Find one excuse you have been using lately: no time, too tired, not my job, not now. Write it down and cross it out. Then do the thing. Existentialism admits no excuses, since you are what you do. Notice how small the thing was, or how big the excuse. Move on.",
+      "why": "Sartre insisted that a man is nothing else but the sum of his actions. Dropping an excuse is a first step to owning one.",
+      "variations": [
+        "Do it for a long-delayed call.",
+        "Do it for an exercise you skip.",
+        "Do it for a thank-you note."
+      ]
+    },
+    {
+      "id": "use-your-body",
+      "name": "Use your body",
+      "icon": "person-simple-run",
+      "slot": "Afternoon",
+      "time": "17:30",
+      "minutes": 40,
+      "meta": "Afternoon · 40 min",
+      "instructions": "Spend forty minutes with your body as a project: a game of football, a run, a swim, a bike ride, shadow-boxing. Camus was a goalkeeper and said that what he knew most surely about morality he learned from football. Play hard, play fair and notice the clarity. Warm up first and stop if anything hurts.",
+      "why": "Camus said that after many years of the world he owed most of what he knew about morality and obligation to football. Physical play is a form of existence.",
+      "variations": [
+        "Play five-a-side with friends.",
+        "Run until you feel clear.",
+        "Swim a few lengths."
+      ]
+    },
+    {
+      "id": "notice-the-absurd",
+      "name": "Notice the absurd",
+      "icon": "smiley",
+      "slot": "Afternoon",
+      "time": "15:00",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "For ten minutes, look around for the absurd: the gap between what we hope for and what the world gives. A meeting about a meeting, a rule no one remembers, a pigeon in a suit-shop. Camus called absurdity the mismatch between our need for meaning and the silence of the world. Smile at it. Do not despair.",
+      "why": "Camus’s The Myth of Sisyphus begins with the absurd, then answers with revolt and laughter. Spotting the absurd with a smile is half the answer.",
+      "variations": [
+        "Write down three absurd things.",
+        "Tell a friend the funniest.",
+        "Add a note of humour to a bleak moment."
       ]
     },
     {
@@ -367,143 +495,341 @@
       "time": "21:00",
       "minutes": 10,
       "meta": "Evening · 10 min",
-      "instructions": "Take the most repetitive task of your day, the dishes, the commute, the inbox, and do it tonight with full attention and no resentment, as the thing you are doing with this part of your one life. Then sit for five minutes with a plain fact: you will die, and you do not know when. Let it clarify. What, in the light of it, matters tomorrow, and what does not?",
-      "why": "Camus ends The Myth of Sisyphus with the man walking back down to his rock, conscious and unbowed: the struggle towards the heights is enough to fill a heart. Heidegger held that facing one’s own death is what frees a person from the They.",
+      "instructions": "Take the most repetitive task of your day, the dishes, the commute, the inbox, and do it tonight with full attention and no resentment, as the thing you are doing with this part of your one life. Then sit for five minutes. One must imagine Sisyphus happy, wrote Camus. Look for the one moment in the task you can enjoy.",
+      "why": "Camus’s Sisyphus pushes his rock endlessly and finds meaning in the struggle itself. Doing a dull task with full attention is a practical version.",
       "variations": [
-        "Do the task badly on purpose once, then well, and feel the difference.",
-        "Write what you would regret not having done.",
-        "Watch the sun go down and name what was good today."
+        "Wash the dishes slowly.",
+        "Walk the commute with attention.",
+        "Write down what you noticed."
       ]
-    }
-  ],
-  "tasks": [
-    {
-      "id": "task-read-existentialism-is-a-humanism",
-      "name": "Read Existentialism Is a Humanism",
-      "meta": "Read · about an hour",
-      "time": "20:00",
-      "slot": "Evening",
-      "action": "read"
     },
     {
-      "id": "task-watch-cleo-from-5-to-7",
-      "name": "Watch Cléo from 5 to 7",
-      "meta": "Watch · 90 min in real time",
-      "time": "20:30",
+      "id": "where-was-i-most-myself",
+      "name": "Where was I most myself?",
+      "icon": "user",
       "slot": "Evening",
-      "action": "watch"
-    },
-    {
-      "id": "task-listen-to-miles-davis-s-ascenseur-pour-l-echafaud",
-      "name": "Listen to Miles Davis’s Ascenseur pour l’échafaud",
-      "meta": "Listen · Paris, 1957",
-      "time": "22:00",
-      "slot": "Evening",
-      "action": "listen"
-    },
-    {
-      "id": "task-drink-an-apricot-cocktail-or-a-coffee-and-look-at-the-glass",
-      "name": "Drink an apricot cocktail, or a coffee, and look at the glass",
-      "meta": "Drink · where it began",
-      "time": "18:00",
-      "slot": "Evening",
-      "action": "drink"
-    },
-    {
-      "id": "task-journal-what-did-you-choose-today-and-what-did-you-let-happen",
-      "name": "Journal: what did you choose today, and what did you let happen?",
-      "meta": "Journal · 10 min",
       "time": "21:30",
-      "slot": "Evening",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "At the end of the day ask: when today was I most myself? When did I act in a way I could stand behind, without a mask? When did I perform a role? Write one line for each. Authenticity, for existentialists, is not a feeling but a way of owning your choices. Make a small resolve for tomorrow.",
+      "why": "Authenticity means owning your existence rather than hiding in roles. A short nightly look at it is a good habit.",
+      "variations": [
+        "Note one moment of courage.",
+        "Note one moment of cowardice.",
+        "Share one line with a friend."
+      ],
       "action": "journal"
     },
     {
-      "id": "task-if-nothing-is-laid-down-in-advance-what-do-you-owe",
-      "name": "If nothing is laid down in advance, what do you owe?",
-      "meta": "Philosophy · 10 min",
-      "time": "08:30",
-      "slot": "Morning",
-      "action": "philosophy"
+      "id": "listen-to-jazz-at-night",
+      "name": "Listen to jazz at night",
+      "icon": "music-notes",
+      "slot": "Evening",
+      "time": "20:00",
+      "minutes": 30,
+      "meta": "Evening · 30 min",
+      "instructions": "Play Miles Davis’s Ascenseur pour l’échafaud, improvised in one night in 1957 in a Paris studio as he watched the film. Or play Juliette Gréco. Sit in the dark and let the muted trumpet fill the room. This is the sound of the Left Bank at night, bleak and beautiful. Notice the freedom in the playing.",
+      "why": "Jazz and chanson were the music of Saint-Germain-des-Prés in the 1950s. Miles Davis recorded the film score in a single night.",
+      "variations": [
+        "Listen with a coffee.",
+        "Listen to Gréco’s Si tu t’imagines.",
+        "Listen with someone and talk afterwards."
+      ]
     },
     {
-      "id": "make-one-decision-you-have-been-putting-off",
-      "name": "Make one decision you have been putting off",
-      "meta": "Before midnight",
-      "time": "12:00",
-      "slot": "Afternoon"
+      "id": "say-a-considered-no",
+      "name": "Say a considered no",
+      "icon": "hand-palm",
+      "slot": "Evening",
+      "time": "19:00",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Say no to one thing today that you would normally agree to out of habit or fear: a request, an invitation, a habit. Do it kindly and clearly, without a long excuse. Camus’s ethics of revolt begins with the word no: I rebel, therefore we are. Notice the relief and the cost. Say it only if you mean it.",
+      "why": "In The Rebel, Camus argues that revolt begins with a refusal that draws a line. A considered no is the small version.",
+      "variations": [
+        "Say no to a work request.",
+        "Say no to a second helping.",
+        "Say no to yourself."
+      ]
     },
     {
-      "id": "look-one-person-in-the-eye-and-let-them-look-back",
-      "name": "Look one person in the eye and let them look back",
-      "meta": "The look",
-      "time": "15:30",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "refuse-one-thing-that-everybody-does",
-      "name": "Refuse one thing that everybody does",
-      "meta": "Against the They",
-      "time": "11:30",
-      "slot": "Morning"
-    },
-    {
-      "id": "treat-sit-in-a-cafe-for-half-an-hour-and-watch-people-choosing",
-      "name": "Sit in a café for half an hour and watch people choosing",
-      "meta": "Sartre’s office",
-      "time": "15:30",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "treat-order-something-you-have-never-had",
-      "name": "Order something you have never had",
-      "meta": "A small free act",
-      "time": "15:30",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "treat-wear-black-and-take-it-lightly",
-      "name": "Wear black and take it lightly",
-      "meta": "It is only a colour",
-      "time": "08:30",
-      "slot": "Morning"
-    },
-    {
-      "id": "treat-walk-home-by-a-street-you-have-never-taken",
-      "name": "Walk home by a street you have never taken",
-      "meta": "Nothing was laid down",
+      "id": "a-cafe-conversation",
+      "name": "A café conversation",
+      "icon": "chats",
+      "slot": "Evening",
       "time": "19:30",
-      "slot": "Evening"
+      "minutes": 45,
+      "meta": "Evening · 45 min",
+      "instructions": "Meet a friend and have a real conversation over coffee or tea about something that matters: what you want from life, what you fear, what you would stand for. Let it run long. The Paris existentialists spent their evenings in cafés, arguing till closing time. Listen well, and say what you actually think.",
+      "why": "The existentialists did their thinking out loud with friends. A long conversation is a philosophical practice.",
+      "variations": [
+        "Ask each other one big question.",
+        "Talk without screens.",
+        "End by naming one thing you will do."
+      ]
     },
     {
-      "id": "daily-choose-your-first-task-today-on-purpose-not-out-of-habit",
-      "name": "Choose your first task today on purpose, not out of habit",
-      "meta": "Choosing is the point",
-      "time": "07:15",
-      "slot": "Morning"
-    },
-    {
-      "id": "daily-write-down-one-thing-you-did-today-because-you-really-wanted",
-      "name": "Write down one thing you did today because you really wanted to",
-      "meta": "Not because you had to",
+      "id": "a-small-leap",
+      "name": "A small leap",
+      "icon": "rocket",
+      "slot": "Evening",
       "time": "20:30",
-      "slot": "Evening"
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Take a small leap today, in Kierkegaard’s spirit: do one thing that you cannot be sure will work, and commit to it anyway. Send the invitation, start the project, say the thing. Kierkegaard called this the leap, a decision that no argument can make for you. Write the leap, then take it.",
+      "why": "Kierkegaard, the father of existentialism, held that the crucial choices of life cannot be settled by reasoning alone. A small leap is a daily rehearsal.",
+      "variations": [
+        "Leap at an invitation.",
+        "Leap into a new hobby.",
+        "Leap into a conversation."
+      ]
     },
     {
-      "id": "daily-ask-a-friend-what-they-chose-this-week-and-why",
-      "name": "Ask a friend what they chose this week and why",
-      "meta": "No advice, just the question",
-      "time": "20:30",
-      "slot": "Evening"
+      "id": "a-cafe-day",
+      "name": "A cafe day",
+      "icon": "coffee",
+      "slot": "Special",
+      "time": "10:00",
+      "minutes": 120,
+      "meta": "On a free morning · 120 min",
+      "instructions": "Spend a morning in a cafe like the Paris existentialists: arrive early, order a coffee, work at your table with a notebook. Write, read, observe, talk. Choose one big question to chew on all morning: what do I owe to others? What do I want my life to be? End with a short statement of what you believe. Tip well and leave for a walk.",
+      "why": "The cafe was the existentialists’ study and their theatre. A whole morning there is a retreat of sorts.",
+      "variations": [
+        "Go with a friend and work in silence.",
+        "Write a letter to the future.",
+        "Finish with a walk in the rain."
+      ]
     },
     {
-      "id": "daily-say-no-to-one-thing-you-would-usually-do-on-autopilot",
-      "name": "Say no to one thing you would usually do on autopilot",
-      "meta": "And notice what happens",
-      "time": "20:30",
-      "slot": "Evening"
+      "id": "a-night-walk-through-the-city",
+      "name": "A night walk through the city",
+      "icon": "moon-stars",
+      "slot": "Special",
+      "time": "21:00",
+      "minutes": 90,
+      "meta": "On a free evening · 90 min",
+      "instructions": "Take a long walk through your city at night, in the manner of a flâneur. Walk without a plan, past lit windows, cafes, bridges and quiet squares. Notice how night changes places. Think about freedom, death and what you would like to do with your life. Walk in well-lit areas and tell someone, or go with a friend. End with a hot drink.",
+      "why": "Night walks through the city, especially in Paris, were part of the existentialist life. A walk by lamplight turns the familiar strange and brings thoughts into focus.",
+      "variations": [
+        "Walk beside a river.",
+        "Walk with a camera.",
+        "Walk until you find a lit cafe."
+      ]
     }
   ],
-  "immersePlan": [],
+  "tasks": [],
+  "immersePlan": [
+    {
+      "kind": "read",
+      "item": "read-existentialism-is-a-humanism",
+      "name": "Read Existentialism Is a Humanism",
+      "text": "Read Sartre’s 1946 lecture, only a few pages long. Underline the line about existence preceding essence.",
+      "minutes": 25
+    },
+    {
+      "kind": "read",
+      "item": "read-the-myth-of-sisyphus",
+      "name": "Read The Myth of Sisyphus",
+      "text": "Read the last pages of Camus’s essay, ending with the sentence that one must imagine Sisyphus happy. Say it aloud.",
+      "minutes": 15
+    },
+    {
+      "kind": "read",
+      "item": "read-at-the-existentialist-cafe",
+      "name": "Read At the Existentialist Café",
+      "text": "Read a chapter of Sarah Bakewell’s lively account of the existentialists and their friendships. Choose a character you like.",
+      "minutes": 25
+    },
+    {
+      "kind": "watch",
+      "item": "watch-cleo-from-5-to-7",
+      "name": "Watch Cléo from 5 to 7",
+      "text": "Watch Agnès Varda’s 1962 film, in real time, about a young singer wandering Paris for two hours while waiting for medical results. Notice how her seeing changes.",
+      "minutes": 90
+    },
+    {
+      "kind": "watch",
+      "item": "watch-ikiru",
+      "name": "Watch Ikiru",
+      "text": "Watch Akira Kurosawa’s 1952 film about a clerk who learns he is dying and finally decides to do something with his life. It is moving and humane.",
+      "minutes": 143
+    },
+    {
+      "kind": "watch",
+      "item": "watch-the-seventh-seal",
+      "name": "Watch The Seventh Seal",
+      "text": "Watch Bergman’s 1957 film in which a knight plays chess with Death. Notice the humour and the picnic scene.",
+      "minutes": 96
+    },
+    {
+      "kind": "listen",
+      "item": "listen-ascenseur-pour-l-echafaud",
+      "name": "Listen to Ascenseur pour l’échafaud",
+      "text": "Play Miles Davis’s soundtrack, improvised in one night for Louis Malle’s film. Listen in the dark.",
+      "minutes": 30
+    },
+    {
+      "kind": "listen",
+      "item": "listen-songs-of-juliette-greco",
+      "name": "Listen to Juliette Gréco",
+      "text": "Play songs by the muse of Saint-Germain-des-Prés, in black from head to toe. Hum along to Si tu t’imagines.",
+      "minutes": 20
+    },
+    {
+      "kind": "listen",
+      "item": "listen-existentialism",
+      "name": "Listen to In Our Time on Existentialism",
+      "text": "Play the BBC discussion of the movement by three scholars. Listen while you walk.",
+      "minutes": 45
+    },
+    {
+      "kind": "art",
+      "item": "art-walking-man-i",
+      "name": "Look at Giacometti’s Walking Man",
+      "text": "Look at Alberto Giacometti’s thin bronze figure, striding on regardless. Think about why the existentialists loved him.",
+      "minutes": 5
+    },
+    {
+      "kind": "art",
+      "item": "art-nighthawks",
+      "name": "Look at Hopper’s Nighthawks",
+      "text": "Look at Edward Hopper’s 1942 painting of people at an all-night diner. Choose one figure and imagine what they are thinking.",
+      "minutes": 10
+    },
+    {
+      "kind": "art",
+      "item": "art-photographs-of-saint-germain-des-pres",
+      "name": "Look at photos of Saint-Germain",
+      "text": "Look at the photographs by Doisneau and Brassaï of cafés, jazz clubs and streets of the Left Bank in the 1940s and 1950s.",
+      "minutes": 15
+    },
+    {
+      "kind": "eat",
+      "item": "eat-a-hard-boiled-egg-at-the-counter",
+      "name": "Eat a hard-boiled egg at a counter",
+      "text": "Eat a hard-boiled egg with salt and bread, standing up at a counter, as in a Paris cafe. Eat in the moment.",
+      "minutes": 10
+    },
+    {
+      "kind": "eat",
+      "item": "eat-croque-monsieur",
+      "name": "Make a croque-monsieur",
+      "text": "Toast a sandwich of ham and cheese with béchamel. Eat it with a knife and fork and a coffee.",
+      "minutes": 20
+    },
+    {
+      "kind": "eat",
+      "item": "eat-couscous",
+      "name": "Cook couscous",
+      "text": "Steam semolina and serve it with vegetables, chickpeas and a spiced broth. It is the dish of Camus’s Algeria.",
+      "minutes": 60
+    },
+    {
+      "kind": "drink",
+      "item": "drink-an-apricot-cocktail",
+      "name": "Make an apricot mocktail",
+      "text": "Mix apricot juice with soda water and a squeeze of lemon, in a stemmed glass. Sartre told Beauvoir that you could make philosophy from this cocktail; use a non-alcoholic one.",
+      "minutes": 10
+    },
+    {
+      "kind": "drink",
+      "item": "drink-coffee",
+      "name": "Drink a small black coffee",
+      "text": "Order a small black coffee and make it last an hour. Write while you drink it.",
+      "minutes": 30
+    },
+    {
+      "kind": "drink",
+      "item": "drink-a-glass-of-red",
+      "name": "Pour a glass of red grape juice",
+      "text": "Pour a glass of red grape juice at the table, as ordinary as a bar glass of wine, and sip it with a friend.",
+      "minutes": 10
+    },
+    {
+      "kind": "customs",
+      "item": "customs-the-cafe-as-a-study",
+      "name": "Work at a cafe for an hour",
+      "text": "Take a notebook to a cafe and write or read for an hour at the same table. Return to the same seat tomorrow.",
+      "minutes": 60
+    },
+    {
+      "kind": "customs",
+      "item": "customs-the-review",
+      "name": "Start a small review",
+      "text": "Write a one-page review of the week for a friend: what you saw, read, thought, and what you stand for. The existentialists had Les Temps modernes; you have a page.",
+      "minutes": 30
+    },
+    {
+      "kind": "customs",
+      "item": "customs-signing",
+      "name": "Sign or write something that matters",
+      "text": "Sign a petition after reading it, or write a short statement of your view on something that matters. Engagement means putting your name to it.",
+      "minutes": 15
+    },
+    {
+      "kind": "games",
+      "item": "games-football",
+      "name": "Play football",
+      "text": "Kick a ball about with friends or in a park, or watch a match. Camus was a goalkeeper in Algiers.",
+      "minutes": 40
+    },
+    {
+      "kind": "games",
+      "item": "games-chess",
+      "name": "Play a game of chess",
+      "text": "Play a game of chess, perhaps the Bergman way, against Death. Take each move as a choice.",
+      "minutes": 30
+    },
+    {
+      "kind": "games",
+      "item": "games-boxing",
+      "name": "Shadow-box for ten minutes",
+      "text": "Shadow-box, or watch a bout, as Sartre admired. Keep moving and stay in balance. Warm up first and stop if anything hurts.",
+      "minutes": 15
+    },
+    {
+      "kind": "travel",
+      "item": "fest-night-of-ideas",
+      "name": "Mark the Night of Ideas",
+      "text": "The Night of Ideas, in late January, fills Paris with talks into the small hours. Stay up late with a friend talking about one big idea.",
+      "minutes": 60
+    },
+    {
+      "kind": "travel",
+      "item": "place-cafe-de-flore",
+      "name": "Look up the Café de Flore",
+      "text": "Look at pictures of the Paris cafe where Sartre and Beauvoir wrote. Imagine their table by the stove.",
+      "minutes": 5
+    },
+    {
+      "kind": "travel",
+      "item": "fest-kierkegaard-s-birthday",
+      "name": "Mark Kierkegaard’s birthday",
+      "text": "Kierkegaard was born on 5 May 1813. Take a leap today, however small, in his honour.",
+      "minutes": 10
+    },
+    {
+      "kind": "words",
+      "item": "word-mauvaise-foi",
+      "name": "Practise mauvaise foi",
+      "text": "Mauvaise foi is bad faith. Catch one excuse today and say what you will do instead.",
+      "minutes": 5
+    },
+    {
+      "kind": "words",
+      "item": "word-engagement",
+      "name": "Practise engagement",
+      "text": "Engagement is taking a stand. Do one thing today that takes a side.",
+      "minutes": 5
+    },
+    {
+      "kind": "words",
+      "item": "word-l-absurde",
+      "name": "Practise l’absurde",
+      "text": "L’absurde is the gap between our hope for meaning and the world’s silence. Spot one absurd thing today and smile.",
+      "minutes": 5
+    }
+  ],
   "rules": [
     {
       "id": "r1",

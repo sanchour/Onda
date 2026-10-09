@@ -505,7 +505,7 @@ Nothing is marked `unverified`.
 
 ## Zoroastrianism
 
-File: `content/ondas/zoroaster.json` · version 1 · about 5300 words · 30 words of vocabulary, 30 journal prompts, 12 history entries, 9 concepts, 6 sources.
+File: `content/ondas/zoroaster.json` · version 1 · about 7300 words · 30 words of vocabulary, 30 journal prompts, 12 history entries, 9 concepts, 6 sources.
 
 **Needs review by tradition bearers before launch.** Zoroastrianism is a small, living religion that has survived centuries of pressure. This Onda borrows its ethic and the outline of its day. It does not reproduce the sacred cord, the Avestan prayers or temple worship, which belong to the community.
 
@@ -521,7 +521,7 @@ Nothing is marked `unverified`.
 
 ## Judaism
 
-File: `content/ondas/judaism.json` · version 1 · about 5300 words · 30 words of vocabulary, 30 journal prompts, 13 history entries, 9 concepts, 6 sources.
+File: `content/ondas/judaism.json` · version 1 · about 7200 words · 30 words of vocabulary, 30 journal prompts, 13 history entries, 9 concepts, 6 sources.
 
 **Needs review by tradition bearers before launch.** Judaism is the living tradition of a people. This Onda borrows practices of gratitude, study, giving and rest that Jewish teachers share openly. It is not a conversion course, and it does not ask you to take on commandments or symbols that belong to the covenant.
 
@@ -537,7 +537,7 @@ Nothing is marked `unverified`.
 
 ## Christianity
 
-File: `content/ondas/christian.json` · version 1 · about 5300 words · 30 words of vocabulary, 30 journal prompts, 13 history entries, 9 concepts, 6 sources.
+File: `content/ondas/christian.json` · version 1 · about 7400 words · 30 words of vocabulary, 30 journal prompts, 13 history entries, 9 concepts, 6 sources.
 
 **Needs review by tradition bearers before launch.** Christianity is the living faith of a third of humanity, in thousands of churches that disagree on much. This Onda keeps to practices shared by most of them and open to anyone. It is not a statement of doctrine and it does not replace a church.
 
@@ -553,7 +553,7 @@ Nothing is marked `unverified`.
 
 ## Islam: Sunni
 
-File: `content/ondas/sunni.json` · version 1 · about 5200 words · 30 words of vocabulary, 30 journal prompts, 13 history entries, 9 concepts, 6 sources.
+File: `content/ondas/sunni.json` · version 1 · about 7200 words · 30 words of vocabulary, 30 journal prompts, 13 history entries, 9 concepts, 6 sources.
 
 **Needs review by tradition bearers before launch.** Sunni Islam is the living faith of well over a billion people. This Onda borrows the rhythm and the ethics of a Muslim day. It does not ask a guest to perform the ritual prayer or to recite the testimony of faith, and it is no substitute for learning from Muslims.
 
@@ -569,7 +569,7 @@ Nothing is marked `unverified`.
 
 ## Islam: Shia
 
-File: `content/ondas/shia.json` · version 1 · about 5600 words · 30 words of vocabulary, 30 journal prompts, 12 history entries, 9 concepts, 6 sources.
+File: `content/ondas/shia.json` · version 1 · about 7500 words · 30 words of vocabulary, 30 journal prompts, 12 history entries, 9 concepts, 6 sources.
 
 **Needs review by tradition bearers before launch.** Shia Islam is a living faith whose followers have often been a persecuted minority. This Onda tells its history as Shia Muslims tell it and borrows its ethics of justice and remembrance. It does not ask a guest to join mourning rites or ritual prayer.
 
@@ -585,7 +585,7 @@ Nothing is marked `unverified`.
 
 ## Rastafari
 
-File: `content/ondas/rasta.json` · version 1 · about 5100 words · 30 words of vocabulary, 30 journal prompts, 13 history entries, 9 concepts, 6 sources.
+File: `content/ondas/rasta.json` · version 1 · about 7000 words · 30 words of vocabulary, 30 journal prompts, 13 history entries, 9 concepts, 6 sources.
 
 **Needs review by tradition bearers before launch.** Rastafari is a living faith born from the experience of slavery and colonial rule in Jamaica. This Onda borrows its daily livity: praise, ital food, careful speech and reasoning. It does not ask you to wear locks or colours, to use its sacrament or to claim its identity.
 
@@ -602,7 +602,7 @@ Marked `unverified` (1):
 
 ## Discordianism
 
-File: `content/ondas/discordia.json` · version 1 · about 4900 words · 30 words of vocabulary, 30 journal prompts, 12 history entries, 9 concepts, 6 sources.
+File: `content/ondas/discordia.json` · version 1 · about 6900 words · 30 words of vocabulary, 30 journal prompts, 12 history entries, 9 concepts, 6 sources.
 
 Framing note shown in the app: Discordianism is a parody religion that some of its followers also mean sincerely. This Onda takes its exercises at face value and its claims with the doubt it asks for. Its pranks are meant to free people and never to deceive them for gain.
 
@@ -611,7 +611,7 @@ Nothing is marked `unverified`.
 
 ## Platonism
 
-File: `content/ondas/plato.json` · version 1 · about 5100 words · 30 words of vocabulary, 30 journal prompts, 13 history entries, 9 concepts, 6 sources.
+File: `content/ondas/plato.json` · version 1 · about 6900 words · 30 words of vocabulary, 30 journal prompts, 13 history entries, 9 concepts, 6 sources.
 
 Framing note shown in the app: Plato wrote dialogues, not doctrine, and scholars disagree about how much of what Socrates says in them Plato himself believed. This Onda borrows his exercises and questions. It does not ask you to accept his politics or his metaphysics.
 
@@ -620,7 +620,7 @@ Nothing is marked `unverified`.
 
 ## Epicureanism
 
-File: `content/ondas/epicurus.json` · version 1 · about 5100 words · 30 words of vocabulary, 30 journal prompts, 13 history entries, 9 concepts, 6 sources.
+File: `content/ondas/epicurus.json` · version 1 · about 6900 words · 30 words of vocabulary, 30 journal prompts, 13 history entries, 9 concepts, 6 sources.
 
 Framing note shown in the app: Epicurus is easy to mistake for a preacher of indulgence. His school taught the reverse: plain food, few wants, and friendship. This Onda keeps to what the surviving texts say and marks later tradition as such.
 
@@ -629,7 +629,7 @@ Nothing is marked `unverified`.
 
 ## Hedonism
 
-File: `content/ondas/cyrenaic.json` · version 1 · about 5300 words · 30 words of vocabulary, 30 journal prompts, 13 history entries, 9 concepts, 6 sources.
+File: `content/ondas/cyrenaic.json` · version 1 · about 7000 words · 30 words of vocabulary, 30 journal prompts, 13 history entries, 9 concepts, 6 sources.
 
 Framing note shown in the app: Hedonism here means the Cyrenaic discipline of enjoying fully while staying free. It is not a licence for excess. The practices ask for attention and self-command, and none of them requires alcohol or expense.
 
@@ -638,7 +638,7 @@ Nothing is marked `unverified`.
 
 ## Kant
 
-File: `content/ondas/kant.json` · version 1 · about 5300 words · 30 words of vocabulary, 30 journal prompts, 13 history entries, 9 concepts, 6 sources.
+File: `content/ondas/kant.json` · version 1 · about 7200 words · 30 words of vocabulary, 30 journal prompts, 13 history entries, 9 concepts, 6 sources.
 
 Framing note shown in the app: Kant’s moral philosophy is one of the foundations of modern ideas of human dignity. He was also a man of his century, and some of what he wrote falls far below his own principle. This Onda uses the principle and the daily order.
 
@@ -647,7 +647,7 @@ Nothing is marked `unverified`.
 
 ## Nietzsche
 
-File: `content/ondas/nietzsche.json` · version 1 · about 5100 words · 30 words of vocabulary, 30 journal prompts, 15 history entries, 9 concepts, 6 sources.
+File: `content/ondas/nietzsche.json` · version 1 · about 6900 words · 30 words of vocabulary, 30 journal prompts, 15 history entries, 9 concepts, 6 sources.
 
 Framing note shown in the app: Nietzsche wrote to provoke, and he has been badly misused. This Onda takes from him a discipline of affirmation, honesty and self-overcoming. It does not treat him as an authority, which he asked his readers not to do.
 
@@ -656,7 +656,7 @@ Nothing is marked `unverified`.
 
 ## Freud
 
-File: `content/ondas/freud.json` · version 1 · about 5100 words · 30 words of vocabulary, 30 journal prompts, 13 history entries, 9 concepts, 6 sources.
+File: `content/ondas/freud.json` · version 1 · about 6900 words · 30 words of vocabulary, 30 journal prompts, 13 history entries, 9 concepts, 6 sources.
 
 Framing note shown in the app: This Onda borrows Freud’s habits of attention: recording dreams, speaking freely, noticing slips and listening. It is not psychoanalysis and it is not treatment. If you are struggling, please see a doctor or a qualified therapist.
 
@@ -666,7 +666,7 @@ Marked `unverified` (1):
 
 ## Existentialism
 
-File: `content/ondas/existential.json` · version 1 · about 4900 words · 30 words of vocabulary, 30 journal prompts, 13 history entries, 9 concepts, 6 sources.
+File: `content/ondas/existential.json` · version 1 · about 6700 words · 30 words of vocabulary, 30 journal prompts, 13 history entries, 9 concepts, 6 sources.
 
 Framing note shown in the app: Existentialism asks you to look directly at freedom, death and the absence of ready-made meaning. This Onda treats those as sources of clarity. It is a philosophical exercise and is not meant to be done in a low state.
 
@@ -675,7 +675,7 @@ Nothing is marked `unverified`.
 
 ## Gandhi
 
-File: `content/ondas/gandhi.json` · version 1 · about 5200 words · 30 words of vocabulary, 30 journal prompts, 13 history entries, 9 concepts, 6 sources.
+File: `content/ondas/gandhi.json` · version 1 · about 7000 words · 30 words of vocabulary, 30 journal prompts, 13 history entries, 9 concepts, 6 sources.
 
 **Needs review by tradition bearers before launch.** Gandhi is revered in India as the father of the nation and is also seriously criticised there and elsewhere. This Onda borrows his daily discipline and his tests of conduct. It does not present him as a saint, and it leaves out his fasts and his more extreme experiments.
 
@@ -692,7 +692,7 @@ Marked `unverified` (1):
 
 ## Roman Empire
 
-File: `content/ondas/rome.json` · version 1 · about 5300 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
+File: `content/ondas/rome.json` · version 1 · about 7100 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
 
 Framing note shown in the app: This Onda follows the day of a free citizen of a Roman town. That day was made possible by conquest and by the labour of enslaved people. The practices borrow the pattern and the virtues. They do not celebrate the empire.
 
@@ -701,7 +701,7 @@ Nothing is marked `unverified`.
 
 ## Qing Dynasty
 
-File: `content/ondas/qing.json` · version 1 · about 5600 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
+File: `content/ondas/qing.json` · version 1 · about 7400 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
 
 **Needs review by tradition bearers before launch.** This Onda follows the daily discipline of a Qing scholar-official, a small and privileged class. The dynasty they served was a conquest empire, and the culture they lived in is the inheritance of people living today. Take the habits with respect and the history whole.
 
@@ -717,7 +717,7 @@ Marked `unverified` (1):
 
 ## Mongol Empire
 
-File: `content/ondas/mongol.json` · version 1 · about 5600 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
+File: `content/ondas/mongol.json` · version 1 · about 7400 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
 
 **Needs review by tradition bearers before launch.** The Mongol Empire was built by conquest that killed millions. The culture behind it is the living heritage of Mongolians today. This Onda borrows the daily customs of the steppe, which are older and gentler than the empire, and reports the conquests plainly.
 
@@ -732,7 +732,7 @@ Nothing is marked `unverified`.
 
 ## Ottoman Empire
 
-File: `content/ondas/ottoman.json` · version 1 · about 5700 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
+File: `content/ondas/ottoman.json` · version 1 · about 7500 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
 
 **Needs review by tradition bearers before launch.** The Ottoman Empire is remembered with pride in Turkey and with pain in many of the lands it ruled. This Onda borrows the civic customs of its towns: charity, craft, hospitality and ease. It does not offer a verdict on the empire.
 
@@ -749,7 +749,7 @@ Marked `unverified` (1):
 
 ## Mughal Empire
 
-File: `content/ondas/mughal.json` · version 1 · about 5800 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
+File: `content/ondas/mughal.json` · version 1 · about 7500 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
 
 **Needs review by tradition bearers before launch.** The Mughal past is argued over in South Asia today, sometimes bitterly. This Onda draws on the court’s ideals of peace among faiths, close observation and refinement. It reports the conquests and the intolerance as well, and takes no side in present-day politics.
 

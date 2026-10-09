@@ -293,44 +293,188 @@
       "time": "06:45",
       "minutes": 5,
       "meta": "Morning · 5 min",
-      "instructions": "Before you get out of bed and before you reach for anything, say thank you for waking up. The traditional words are: I give thanks before you, living and enduring King, that you have returned my soul to me in compassion; great is your faithfulness. Use those, or your own. Then wash your hands, pouring water over each in turn. Name three ordinary things that are working this morning: eyes that open, feet on the floor, a roof.",
-      "why": "Modeh ani is the first prayer a Jewish child learns. The morning service goes on to bless small things one by one: sight, clothing, the ground being firm. Gratitude is put before everything else.",
+      "instructions": "Before you get out of bed and before you reach for anything, say thank you for waking up. The traditional words are: I give thanks before you, living and enduring King, that you have returned my soul to me in compassion; great is your faithfulness. Say them, or your own words, for a moment. Then get up. The rule of this Onda is to give thanks before you take.",
+      "why": "Modeh ani is the first thing a Jewish child learns to say each morning. It makes the day begin with gratitude rather than demand.",
       "variations": [
-        "Say it aloud so that you hear it.",
-        "Write the three things down for the whole Onda.",
-        "Thank one person before breakfast."
+        "Say it in Hebrew, phonetically.",
+        "Say it with a hand on the heart.",
+        "Add one thing you are grateful for today."
+      ]
+    },
+    {
+      "id": "wash-the-hands-wake-the-day",
+      "name": "Wash the hands, wake the day",
+      "icon": "hand-soap",
+      "slot": "Morning",
+      "time": "06:55",
+      "minutes": 3,
+      "meta": "Morning · 3 min",
+      "instructions": "Wash your hands slowly on getting up, pouring water over each in turn. Some Jews keep a cup and bowl by the bed for this. Take it as a pause before the day begins, an act of readiness. Dry them while thinking: I am ready for a good day. Netilat yadayim is the traditional name.",
+      "why": "Washing the hands on waking is a Jewish custom, a bridge from sleep to day. A guest can borrow it as a small reset.",
+      "variations": [
+        "Use a cup and pour three times.",
+        "Wash with a prayer of thanks.",
+        "Dry your hands thoughtfully."
+      ]
+    },
+    {
+      "id": "one-saying-of-the-fathers",
+      "name": "One saying of the fathers",
+      "icon": "quotes",
+      "slot": "Morning",
+      "time": "07:30",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Read one saying from Pirkei Avot, Ethics of the Fathers, with your morning tea. Read it twice. Ask what it says, what it could mean and how it might apply today. Write it on a card and keep it in your pocket. Work through the book across the weeks. A good start is: who is wise? One who learns from everyone.",
+      "why": "Pirkei Avot is a short collection of rabbinic sayings on conduct, studied for about 1,800 years. It is practical, witty and wise, and each saying stands alone.",
+      "variations": [
+        "Read it aloud to someone at the table.",
+        "Compare two translations.",
+        "Argue with one saying in your notebook."
+      ]
+    },
+    {
+      "id": "guard-your-tongue",
+      "name": "Guard your tongue",
+      "icon": "chat-teardrop",
+      "slot": "Morning",
+      "time": "08:00",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Until noon, say nothing about people who are not present that you would not say in front of them. Notice every impulse to gossip, joke at someone’s cost or pass on a rumour. Lashon hara, evil speech, is a serious matter in Jewish ethics. Catch the impulse, drop it and say something kind or nothing.",
+      "why": "The rule of this Onda is to guard your tongue. Jewish teachers regard careless speech as one of the gravest harms, because it cannot be taken back.",
+      "variations": [
+        "Extend it to the whole day.",
+        "Count your slips.",
+        "Praise someone who is not present."
+      ]
+    },
+    {
+      "id": "a-mitzvah-for-today",
+      "name": "A mitzvah for today",
+      "icon": "check-fat",
+      "slot": "Morning",
+      "time": "09:00",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Choose one good deed for today, a mitzvah, and write it on a card: visit a sick friend, return a lost item, help a neighbour, feed someone. A mitzvah is a good deed and a commandment at once. Put the card where you will see it. At night, check it off and feel the small pleasure of having done it.",
+      "why": "The word mitzvah is used in everyday speech for any good deed. Choosing one in the morning ensures that it happens.",
+      "variations": [
+        "Choose a mitzvah between you and a family member.",
+        "Do two good deeds instead of one.",
+        "Do one you would rather not."
+      ]
+    },
+    {
+      "id": "a-hebrew-word-a-day",
+      "name": "A Hebrew word a day",
+      "icon": "translate",
+      "slot": "Morning",
+      "time": "08:30",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Learn one Hebrew word today and use it three times. Start with shalom, peace, hello and goodbye; toda, thank you; b’vakasha, please; tov, good; chaver, friend. Say it aloud, write it on your hand and use it with someone. Hebrew was a language of prayer and study for centuries and is spoken today as a living language.",
+      "why": "Hebrew has been revived as a spoken language in the last century, after thousands of years of prayer and text. A single word a day builds a feeling for it.",
+      "variations": [
+        "Learn the Hebrew letters one by one.",
+        "Write the word in Hebrew script.",
+        "Teach the word to a child."
       ]
     },
     {
       "id": "blessings",
       "name": "A blessing before you eat",
-      "icon": "bread",
+      "icon": "bowl-food",
       "slot": "Afternoon",
       "time": "12:30",
       "minutes": 5,
       "meta": "Afternoon · 5 min",
-      "instructions": "Do not put anything in your mouth today without stopping first. Look at the food. Think where it came from: earth, tree, vine, someone’s work. Say a sentence of thanks, in the traditional form or your own, such as blessed is the source that brings bread out of the earth. Then eat. Try to keep count of the times you manage it.",
-      "why": "Jewish practice surrounds eating with short blessings, different for bread, fruit, wine and vegetables, and a longer grace afterward. The rabbis said that to enjoy the world without a blessing is like taking what is not yours.",
+      "instructions": "Do not put anything in your mouth today without stopping first. Look at the food. Think where it came from: earth, tree, vine, someone’s work. Say a sentence of thanks, in the traditional form or your own, such as blessed are you who brings forth bread from the earth. Then eat. Do this for every bite or drink you take, even a biscuit.",
+      "why": "Jewish tradition has a blessing for nearly every food and experience. Giving thanks before taking is the first rule of this Onda.",
       "variations": [
-        "Aim for ten deliberate thank-yous in a day, toward the traditional hundred.",
-        "Say thanks after the meal as well.",
-        "Bless something that is not food: a view, good news, an old friend."
+        "Say it aloud, however quietly.",
+        "Say the blessing and give a bit to someone.",
+        "Bless a drink as well."
       ]
     },
     {
       "id": "havruta",
       "name": "Study with a partner",
-      "icon": "book-open",
+      "icon": "users",
       "slot": "Afternoon",
       "time": "17:00",
       "minutes": 20,
       "meta": "Afternoon · 20 min",
-      "instructions": "Find one person to study with for the length of the Onda, in person or by phone. Take a short text, a few lines only: start with Pirkei Avot, the Ethics of the Fathers. Read it aloud. Ask what it says, what it could mean, what is odd about it and whether it is right. Disagree with each other properly. Stop after twenty minutes even if you have not finished. If you have no partner today, argue with the page in writing.",
-      "why": "Torah study is counted equal to all the other commandments together, and it is done in pairs, out loud. The Talmud says: either a partner or death. The friction is the method.",
+      "instructions": "Find one person to study with for the length of the Onda, in person or by phone. Take a short text, a few lines only: start with Pirkei Avot, the Ethics of the Fathers. Read it aloud. Ask what it says, what it could mean and where you disagree. Argue and listen. The aim is not to agree but to learn together.",
+      "why": "Havruta, paired study, is the heart of Jewish learning. Two people with one text and plenty of questions is how it has been done for centuries.",
       "variations": [
-        "Take the side you disagree with for ten minutes.",
-        "Read a weekly Torah portion with a commentary.",
-        "Teach someone else what you learned."
+        "Study by video call.",
+        "Study a short story instead.",
+        "Take turns choosing the text."
+      ]
+    },
+    {
+      "id": "visit-or-call-someone-alone",
+      "name": "Visit or call someone alone",
+      "icon": "phone",
+      "slot": "Afternoon",
+      "time": "16:00",
+      "minutes": 20,
+      "meta": "Afternoon · 20 min",
+      "instructions": "Call or visit someone who is ill, lonely or housebound. Bikur cholim, visiting the sick, is one of the great acts of kindness in Jewish tradition. Bring a small thing: soup, a book, flowers or just your time. Ask how they are and listen. Stay for the time they can take, and leave them lighter.",
+      "why": "Visiting the sick is a mitzvah that Jewish teachers say brings healing to the visitor too. It makes no demand but your presence.",
+      "variations": [
+        "Bring a meal.",
+        "Read aloud to them.",
+        "Call someone who has no visitors."
+      ]
+    },
+    {
+      "id": "argue-for-the-sake-of-heaven",
+      "name": "Argue for the sake of heaven",
+      "icon": "chats",
+      "slot": "Afternoon",
+      "time": "15:00",
+      "minutes": 15,
+      "meta": "Afternoon · 15 min",
+      "instructions": "Find a friend to argue with about a question that matters, in the manner of the rabbis. State your case, listen to theirs and keep your temper. A machloket, a disagreement, for the sake of heaven, is one in which both sides want the truth and not the victory. Finish by saying what you learned from the other.",
+      "why": "Pirkei Avot praises arguments for the sake of heaven, like those of Hillel and Shammai, and says they last. A good argument is a form of respect.",
+      "variations": [
+        "Argue a question the other way round.",
+        "Argue about a text.",
+        "End with a hug."
+      ]
+    },
+    {
+      "id": "ask-a-good-question",
+      "name": "Ask a good question",
+      "icon": "question",
+      "slot": "Afternoon",
+      "time": "14:00",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Ask one real question today, one you do not know the answer to, of someone who may know. Listen to the whole answer and ask a follow-up. The story goes that the physicist Isidor Rabi’s mother asked him each day after school, not what did you learn but did you ask a good question today? Write down your question and its answer.",
+      "why": "Questioning is prized in Jewish learning, from the Passover seder’s four questions onwards. A good question is as valuable as a good answer.",
+      "variations": [
+        "Ask a child what they wondered.",
+        "Ask a question you are afraid to ask.",
+        "Keep a list of questions."
+      ]
+    },
+    {
+      "id": "repair-what-you-break",
+      "name": "Repair what you break",
+      "icon": "wrench",
+      "slot": "Afternoon",
+      "time": "17:30",
+      "minutes": 15,
+      "meta": "Afternoon · 15 min",
+      "instructions": "Fix something today that you broke or neglected: an object, a promise, a friendship, a debt. Do it properly and without excuses. Tikkun, repair, is a theme running through Jewish thought, from fixing a chair to mending the world. The rule of this Onda is to repair what you break.",
+      "why": "Tikkun olam, repairing the world, starts with small, personal repairs. Mending what you broke is the nearest place to begin.",
+      "variations": [
+        "Apologise and mend something material.",
+        "Return what you borrowed.",
+        "Repair something for a neighbour."
       ]
     },
     {
@@ -341,12 +485,12 @@
       "time": "18:00",
       "minutes": 5,
       "meta": "Evening · 5 min",
-      "instructions": "Keep a jar, a box or a dedicated account. Every day before the sun goes down put something in, however small. On Friday afternoon add a little more. At the end of each week give what has gathered to someone who needs it or to an organisation that helps. If you can, give in a way that leaves the receiver’s dignity whole.",
-      "why": "Giving is a duty. It does not wait for a generous mood. Many homes keep a tzedakah box by the Sabbath candles. Maimonides ranked eight levels of giving: the highest is helping a person to stand on their own feet, and after that comes giving when neither side knows the other.",
+      "instructions": "Keep a jar, a box or a dedicated account. Every day before the sun goes down put something in, however small. On Friday afternoon add a little more. At the end of each week give what has gathered to someone who needs it or to an organisation you trust. Say, as you drop the coin: for justice. The rule of this Onda is to give something every day.",
+      "why": "Tzedakah, usually translated as charity, means justice or righteousness. Giving is treated as an obligation, even for the poor, and a daily coin keeps it habitual.",
       "variations": [
-        "Give your time: an hour to someone who is alone.",
-        "Work out a tenth of your income, the traditional measure.",
-        "Give anonymously."
+        "Give to a person, not just a charity.",
+        "Let a child choose where it goes.",
+        "Make the jar beautiful."
       ]
     },
     {
@@ -357,129 +501,325 @@
       "time": "22:00",
       "minutes": 10,
       "meta": "Evening · 10 min",
-      "instructions": "At the end of the day take stock. What did I do well? Where did I fall short, and toward whom? What will I repair tomorrow, and how? Then say, and mean as far as you can: I forgive anyone who angered or wronged me today, in body, in property, in honour or in anything else. Let the day close. On the last night of the week, look back over all seven.",
-      "why": "The bedtime prayers open with a declaration of forgiveness for everyone, before the Shema is said. Moral stock-taking, cheshbon hanefesh, is an old discipline that the Musar teachers of the nineteenth century turned into a daily practice.",
+      "instructions": "At the end of the day take stock. What did I do well? Where did I fall short, and toward whom? What will I repair tomorrow, and how? Then say, and mean as far as you can: I forgive anyone who angered or wronged me today. Let it go before you sleep. If it is too soon, say that you are trying.",
+      "why": "The bedtime prayer in the Jewish liturgy includes forgiving anyone who angered you. A daily accounting of the soul, cheshbon hanefesh, keeps the heart light.",
       "variations": [
-        "Write the account in a notebook.",
-        "Apologise to one person directly tomorrow.",
-        "Work on one trait for the whole Onda: patience, generosity, truthfulness."
-      ]
-    }
-  ],
-  "tasks": [
-    {
-      "id": "keep-one-full-day-of-rest-this-week-no-work-no-shopping-no-screens",
-      "name": "Keep one full day of rest this week: no work, no shopping, no screens",
-      "meta": "A sabbath in your own way, from one evening to the next",
-      "time": "18:00",
-      "slot": "Evening"
-    },
-    {
-      "id": "task-share-a-long-meal-with-people-you-love-with-bread-something-to-drink-a",
-      "name": "Share a long meal with people you love, with bread, something to drink and a song or a story",
-      "meta": "Eat · the Friday night table",
-      "time": "19:00",
-      "slot": "Evening",
-      "action": "eat"
-    },
-    {
-      "id": "task-read-chapter-1-of-pirkei-avot",
-      "name": "Read chapter 1 of Pirkei Avot",
-      "meta": "Read · eighteen short sayings",
-      "time": "20:00",
-      "slot": "Evening",
-      "action": "read"
-    },
-    {
-      "id": "task-listen-to-kol-nidre",
-      "name": "Listen to Kol Nidre",
-      "meta": "Listen · the melody that opens the Day of Atonement",
-      "time": "17:30",
-      "slot": "Afternoon",
-      "action": "listen"
-    },
-    {
-      "id": "task-look-at-the-pages-of-the-sarajevo-haggadah",
-      "name": "Look at the pages of the Sarajevo Haggadah",
-      "meta": "Art · a book that survived everything",
-      "time": "16:00",
-      "slot": "Afternoon",
-      "action": "art"
-    },
-    {
-      "id": "ask-a-real-question-about-something-everyone-takes-for-granted",
-      "name": "Ask a real question about something everyone takes for granted",
-      "meta": "Questions are honoured here",
-      "time": "10:00",
-      "slot": "Morning"
-    },
-    {
-      "id": "task-journal-whom-did-you-wrong-this-week-and-how-will-you-put-it-right",
-      "name": "Journal: whom did you wrong this week, and how will you put it right?",
-      "meta": "Journal · 10 min",
-      "time": "21:00",
-      "slot": "Evening",
+        "Write the three questions in a notebook.",
+        "Forgive one person by name.",
+        "Say sorry to someone in the morning."
+      ],
       "action": "journal"
     },
     {
-      "id": "task-rest-as-a-statement-what-would-a-day-without-making-or-buying-show-you",
-      "name": "Rest as a statement: what would a day without making or buying show you?",
-      "meta": "Philosophy · 10 min",
-      "time": "09:00",
-      "slot": "Morning",
-      "action": "philosophy"
+      "id": "a-candle-pause",
+      "name": "A candle pause",
+      "icon": "flame",
+      "slot": "Evening",
+      "time": "18:30",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "On any evening, light two candles in a safe place and sit with them for ten minutes. Cover your eyes for a moment, then open them to the light, as the Friday candle-lighter does. Say what you are thankful for. Switch off screens during the ten minutes. Let the lights mark the edge between the working day and the evening.",
+      "why": "Lighting candles marks the beginning of Shabbat in Jewish homes. A borrowed candle pause gives any evening a gentle border.",
+      "variations": [
+        "Light them on Friday evening.",
+        "Add a pause for a family hug.",
+        "Put them on a table with flowers."
+      ]
     },
     {
-      "id": "call-someone-who-is-ill-or-in-mourning",
-      "name": "Call someone who is ill or in mourning",
-      "meta": "An act of loving-kindness",
-      "time": "15:00",
-      "slot": "Afternoon"
+      "id": "sing-a-niggun",
+      "name": "Sing a niggun",
+      "icon": "music-note",
+      "slot": "Evening",
+      "time": "20:00",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Sing a niggun, a wordless melody, such as the Hasidim sing. Pick a simple tune with a repeated phrase and sing it with ya-ba-bam or lai-lai-lai, over and over, getting louder and quieter. Sing alone or with someone. A niggun carries feeling words cannot. Let it grow until it feels right to stop.",
+      "why": "Hasidic communities sing niggunim to lift the heart without words. They are easy to join, joyful and soothing.",
+      "variations": [
+        "Look up a recording and sing along.",
+        "Sing it while washing up.",
+        "Make up your own niggun."
+      ]
     },
     {
-      "id": "treat-bake-or-buy-good-bread-and-tear-it-with-someone",
-      "name": "Bake or buy good bread and tear it with someone",
-      "meta": "A pinch of salt on it",
-      "time": "19:30",
-      "slot": "Evening"
+      "id": "a-tale-of-the-hasidim",
+      "name": "A tale of the Hasidim",
+      "icon": "book-open",
+      "slot": "Evening",
+      "time": "21:00",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Read or tell a short story from Martin Buber’s Tales of the Hasidim, or one by I. B. Singer or Sholem Aleichem. Choose something with a twist and a moral, like the rabbi who found God at the bottom of a well. Read it aloud. The stories are brief and have been told at the table for generations.",
+      "why": "Hasidic and Yiddish tales are a treasure of Jewish storytelling. They are short, funny and wise, and good at bedtime.",
+      "variations": [
+        "Tell it to a child.",
+        "Read a story by Isaac Bashevis Singer.",
+        "Retell it with a modern setting."
+      ]
     },
     {
-      "id": "treat-argue-cheerfully-about-something-that-does-not-matter",
-      "name": "Argue cheerfully about something that does not matter",
-      "meta": "For the joy of it",
-      "time": "15:30",
-      "slot": "Afternoon"
+      "id": "a-little-shabbat-hour",
+      "name": "A little Shabbat hour",
+      "icon": "armchair",
+      "slot": "Evening",
+      "time": "19:00",
+      "minutes": 60,
+      "meta": "Evening · 60 min",
+      "instructions": "Take one hour of the evening and make it a rest. No work, no errands, no shopping, no screens, no news. Eat something good, talk, read, nap, walk. Heschel called Shabbat a palace in time. One hour of it, borrowed, is a gift to yourself. The rule of this Onda is to keep one day apart; start with an hour.",
+      "why": "Shabbat is a weekly day of rest, and the idea that rest is holy is Judaism’s gift to the world. A short hour is a small taste.",
+      "variations": [
+        "Do it on Friday evening.",
+        "Switch off the phone and hide it.",
+        "Invite someone to share it."
+      ]
     },
     {
-      "id": "treat-say-a-blessing-over-something-ordinary-rain-a-new-shirt-a-ra",
-      "name": "Say a blessing over something ordinary: rain, a new shirt, a rainbow",
-      "meta": "There is one for nearly everything",
-      "time": "15:30",
-      "slot": "Afternoon"
+      "id": "bake-challah",
+      "name": "Bake challah",
+      "icon": "bread",
+      "slot": "Special",
+      "time": "14:00",
+      "minutes": 120,
+      "meta": "On a free afternoon · 120 min",
+      "instructions": "Bake a braided egg bread. Mix flour, yeast, warm water, eggs, oil, a little honey and salt, knead for ten minutes, let it rise until doubled, braid three strands and brush with egg. Bake until golden. Share the loaf with a neighbour or friend while still warm. Challah is baked for Shabbat and holidays all over the Jewish world.",
+      "why": "Baking challah is a loved Friday ritual in Jewish homes. The smell of the loaf in the oven fills the house with a sense of occasion.",
+      "variations": [
+        "Braid a round loaf for the new year.",
+        "Add raisins.",
+        "Bake two and give one away."
+      ]
     },
     {
-      "id": "treat-hum-a-wordless-tune-a-niggun-until-it-carries-you",
-      "name": "Hum a wordless tune, a niggun, until it carries you",
-      "meta": "Three minutes",
-      "time": "19:30",
-      "slot": "Evening"
-    },
-    {
-      "id": "daily-say-thank-you-for-the-day-before-you-get-out-of-bed",
-      "name": "Say thank you for the day before you get out of bed",
-      "meta": "Modeh ani is the first words of the day",
-      "time": "07:15",
-      "slot": "Morning"
-    },
-    {
-      "id": "daily-read-one-line-of-a-psalm",
-      "name": "Read one line of a psalm",
-      "meta": "Any single line",
-      "time": "07:15",
-      "slot": "Morning"
+      "id": "a-friday-style-supper",
+      "name": "A Friday-style supper",
+      "icon": "fork-knife",
+      "slot": "Special",
+      "time": "18:30",
+      "minutes": 120,
+      "meta": "On a free evening · 120 min",
+      "instructions": "Hold a Friday-style supper with a guest or two. Light two candles, put out bread and a cup of grape juice, and say thank you for the week. Eat slowly, with songs, stories and questions at the table. Leave the phones in another room. Invite someone who would otherwise be alone. Make the meal last long.",
+      "why": "The Shabbat table is the centre of Jewish family life: bread, wine or juice, song and talk. Inviting a guest is one of its greatest pleasures.",
+      "variations": [
+        "Ask each guest to bring a story.",
+        "Sing a niggun after the meal.",
+        "Go for a walk afterwards."
+      ]
     }
   ],
-  "immersePlan": [],
+  "tasks": [],
+  "immersePlan": [
+    {
+      "kind": "read",
+      "item": "read-pirkei-avot-ethics-of-the-fathers",
+      "name": "Read a chapter of Pirkei Avot",
+      "text": "Read one chapter of the Ethics of the Fathers. Choose the saying you most disagree with and argue with it in writing.",
+      "minutes": 15
+    },
+    {
+      "kind": "read",
+      "item": "read-the-sabbath",
+      "name": "Read a few pages of Heschel’s The Sabbath",
+      "text": "Read a short stretch of Abraham Joshua Heschel’s lyrical essay on time and rest. Underline one sentence.",
+      "minutes": 15
+    },
+    {
+      "kind": "read",
+      "item": "read-tales-of-the-hasidim",
+      "name": "Read a Hasidic tale",
+      "text": "Read three or four short stories from Martin Buber’s collection of Hasidic tales. Tell your favourite to someone later.",
+      "minutes": 15
+    },
+    {
+      "kind": "watch",
+      "item": "watch-fiddler-on-the-roof",
+      "name": "Watch Fiddler on the Roof",
+      "text": "Watch the 1971 musical about Tevye the milkman, his daughters and a changing world. Sing along to Tradition, If I Were a Rich Man and Sunrise, Sunset.",
+      "minutes": 180
+    },
+    {
+      "kind": "watch",
+      "item": "watch-ushpizin",
+      "name": "Watch Ushpizin",
+      "text": "Watch Gidi Dar’s 2004 comedy about a Jerusalem couple whose Sukkot guests turn out to be rather more than they bargained for. It is warm and funny.",
+      "minutes": 90
+    },
+    {
+      "kind": "watch",
+      "item": "watch-shtisel",
+      "name": "Watch an episode of Shtisel",
+      "text": "Watch an episode of the Israeli series about an ultra-Orthodox family in Jerusalem. Notice the conversations around the table.",
+      "minutes": 50
+    },
+    {
+      "kind": "listen",
+      "item": "listen-klezmer",
+      "name": "Listen to klezmer",
+      "text": "Play klezmer, the music of Eastern European Jewish celebrations: clarinet, violin and accordion that laugh and cry. Dance in your chair.",
+      "minutes": 20
+    },
+    {
+      "kind": "listen",
+      "item": "listen-ladino-songs",
+      "name": "Listen to Ladino songs",
+      "text": "Play songs in the old Spanish of the Sephardic Jews, sung by Flory Jagoda or Yasmin Levy. Listen for the sadness and the sweetness.",
+      "minutes": 15
+    },
+    {
+      "kind": "listen",
+      "item": "listen-who-by-fire",
+      "name": "Listen to Who by Fire",
+      "text": "Play Leonard Cohen’s song based on a prayer for the Day of Atonement. Listen to the list of ways the year could end, and to his soft voice.",
+      "minutes": 5
+    },
+    {
+      "kind": "art",
+      "item": "art-the-sarajevo-haggadah",
+      "name": "Look at the Sarajevo Haggadah",
+      "text": "Look at the illuminated Passover book made in Spain around 1350 that survived the Inquisition and the Bosnian war. Choose a page.",
+      "minutes": 10
+    },
+    {
+      "kind": "art",
+      "item": "art-the-jerusalem-windows",
+      "name": "Look at Chagall’s Jerusalem Windows",
+      "text": "Look at Marc Chagall’s twelve stained-glass windows, one for each tribe, in deep blues, reds and golds. Choose your tribe by colour.",
+      "minutes": 10
+    },
+    {
+      "kind": "art",
+      "item": "art-the-dura-europos-synagogue-murals",
+      "name": "Look at the Dura-Europos murals",
+      "text": "Look at the third-century wall paintings of Bible scenes from a synagogue in Syria, buried under a rampart before the city fell. Find the baby Moses.",
+      "minutes": 10
+    },
+    {
+      "kind": "eat",
+      "item": "eat-challah",
+      "name": "Eat challah",
+      "text": "Eat a warm, braided egg bread, with butter or honey. Tear it rather than cut it, and share the first piece.",
+      "minutes": 30
+    },
+    {
+      "kind": "eat",
+      "item": "eat-chicken-soup-with-matzah-balls",
+      "name": "Make chicken soup with matzah balls",
+      "text": "Simmer chicken with onion, carrot and dill for an hour and drop in dumplings of matzah meal. The remedy of Jewish grandmothers. Serve a bowl to someone who needs it.",
+      "minutes": 90
+    },
+    {
+      "kind": "eat",
+      "item": "eat-shakshuka",
+      "name": "Cook shakshuka",
+      "text": "Poach eggs in a pan of spiced tomato and pepper sauce with cumin and paprika. Eat it straight from the pan with bread.",
+      "minutes": 30
+    },
+    {
+      "kind": "drink",
+      "item": "drink-wine-or-grape-juice-for-kiddush",
+      "name": "Pour a cup of grape juice",
+      "text": "Fill a cup to the brim with grape juice and hold it up before drinking, as on Friday evening, saying thank you for the week.",
+      "minutes": 5
+    },
+    {
+      "kind": "drink",
+      "item": "drink-tea-with-lemon-in-a-glass",
+      "name": "Drink tea with lemon in a glass",
+      "text": "Brew strong black tea and serve it in a glass with a slice of lemon, sipped through a sugar lump if you like. A drink of Eastern Europe.",
+      "minutes": 10
+    },
+    {
+      "kind": "drink",
+      "item": "drink-mint-tea",
+      "name": "Drink mint tea",
+      "text": "Pour hot water on fresh mint and a bit of green tea and sweeten to taste. It is the afternoon drink of Jews from North Africa.",
+      "minutes": 10
+    },
+    {
+      "kind": "customs",
+      "item": "customs-lighting-two-candles",
+      "name": "Light two candles",
+      "text": "Light two candles on Friday evening, or tonight, and sit for a moment. Cover your eyes, then open them to the flame.",
+      "minutes": 10
+    },
+    {
+      "kind": "customs",
+      "item": "customs-the-mezuzah",
+      "name": "Learn about the mezuzah",
+      "text": "Read about the small case on the right doorpost of a Jewish home, with a scroll inside. Notice them next time you pass a Jewish home.",
+      "minutes": 5
+    },
+    {
+      "kind": "customs",
+      "item": "customs-stones-on-a-grave",
+      "name": "Learn about stones on a grave",
+      "text": "Read why visitors leave small stones on Jewish graves, not flowers. Then visit a grave of someone you have lost and leave a stone.",
+      "minutes": 15
+    },
+    {
+      "kind": "games",
+      "item": "games-dreidel",
+      "name": "Play dreidel",
+      "text": "Spin the four-sided top with a friend and play for chocolate coins. Each letter tells you whether to take, give or put in.",
+      "minutes": 20
+    },
+    {
+      "kind": "games",
+      "item": "games-chess",
+      "name": "Play a game of chess",
+      "text": "Play a game of chess. Jewish communities have loved the game for a thousand years and produced many world champions. Play a friend.",
+      "minutes": 30
+    },
+    {
+      "kind": "games",
+      "item": "games-the-shivah",
+      "name": "Play The Shivah",
+      "text": "Play the short detective game in which a rabbi in Manhattan becomes involved in a death. It is thoughtful and funny.",
+      "minutes": 60
+    },
+    {
+      "kind": "travel",
+      "item": "fest-hanukkah",
+      "name": "Mark Hanukkah",
+      "text": "Hanukkah comes in December and lasts eight nights. Light a candle each evening, eat something fried and play dreidel.",
+      "minutes": 20
+    },
+    {
+      "kind": "travel",
+      "item": "fest-passover-pesach",
+      "name": "Look up Passover",
+      "text": "Read about the seder, the meal in which the story of leaving Egypt is told with questions, food and song. Ask a question at dinner.",
+      "minutes": 15
+    },
+    {
+      "kind": "travel",
+      "item": "fest-sukkot",
+      "name": "Look up Sukkot",
+      "text": "Sukkot is the autumn harvest festival in which families eat in a hut open to the sky. Eat one meal outside under a roof of branches.",
+      "minutes": 20
+    },
+    {
+      "kind": "words",
+      "item": "word-tikkun-olam",
+      "name": "Practise tikkun olam",
+      "text": "Tikkun olam is repairing the world. Make one small repair today, in an object, a relationship or a place.",
+      "minutes": 10
+    },
+    {
+      "kind": "words",
+      "item": "word-chesed",
+      "name": "Practise chesed",
+      "text": "Chesed is loving-kindness. Do one kindness today that nobody expects and that you cannot be repaid for.",
+      "minutes": 10
+    },
+    {
+      "kind": "words",
+      "item": "word-mensch",
+      "name": "Be a mensch",
+      "text": "Mensch is a Yiddish word for a decent, upright person. Do the right thing in one situation today when nobody would know.",
+      "minutes": 5
+    }
+  ],
   "rules": [
     {
       "id": "r1",

@@ -298,12 +298,28 @@
       "time": "05:00",
       "minutes": 60,
       "meta": "Morning · 60 min",
-      "instructions": "Get up at a fixed early hour, the same every day, the moment you are called. Do not negotiate with the alarm. Drink a cup or two of weak tea. Then, before any work or any screen, give the first hour to thinking: sit with a notebook, set out what you owe to whom today, and think through one question slowly on paper. Begin work at a set time.",
-      "why": "For decades Kant’s servant Martin Lampe woke him at five with the words Es ist Zeit, it is time. Kant asked him to witness that he had never once failed to get up. He drank tea, smoked a single pipe and meditated until his lectures began at seven.",
+      "instructions": "Get up at a fixed early hour, the same every day, the moment you are called. Do not negotiate with the alarm. Drink a cup or two of weak tea. Then, before any work or any screen, give the first hour to thinking: sit with one question and a notebook, and let it take its time. If five is too early for you, choose your own fixed hour and keep to it.",
+      "why": "Kant’s servant Lampe woke him at five each morning, and Kant said to himself: it is time. The fixed hour freed the mind from every small decision.",
       "variations": [
-        "Keep the same rising time for thirty days, weekends included.",
-        "Use the hour to plan the day’s duties in order.",
-        "If five is impossible, fix another hour and never move it."
+        "Choose a fixed hour that suits your life.",
+        "Prepare the tea and notebook the night before.",
+        "Spend the hour on a single hard question."
+      ]
+    },
+    {
+      "id": "dare-to-think",
+      "name": "Dare to think",
+      "icon": "lightbulb",
+      "slot": "Morning",
+      "time": "07:30",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Choose one opinion that you hold only because others told you so: from a parent, a feed, a party. Ask what you yourself think, with the evidence in front of you. Write down your own view in three sentences, even if it ends up the same. Sapere aude, dare to know, was Kant’s motto of the Enlightenment: have the courage to use your own understanding.",
+      "why": "Kant defined Enlightenment as emergence from self-imposed immaturity, the inability to think without another’s guidance. The first rule of this Onda is think for yourself.",
+      "variations": [
+        "Think it through without looking anything up first.",
+        "Disagree with your own side on one point.",
+        "Ask someone how they know."
       ]
     },
     {
@@ -314,177 +330,501 @@
       "time": "10:00",
       "minutes": 10,
       "meta": "Morning · 10 min",
-      "instructions": "Take one thing you intend to do today that you are not quite easy about. Write its maxim honestly in one sentence: when I am in this situation, I will do this, in order to get that. First test: could everyone act on that rule? Would the world in which they did still allow your own plan to work, and could you will to live in it? Second test: does it use anyone, yourself included, merely as a means to an end? If it fails either, do not do it.",
-      "why": "This is the categorical imperative in its first two formulations, applied as Kant applies it to his own examples of the false promise and the neglected talent. It asks only for consistency: no exceptions for yourself.",
+      "instructions": "Take one thing you intend to do today that you are not quite easy about. Write its maxim honestly in one sentence: when I am in this situation, I will do this, in order to get that. First test: could everyone act on that maxim, all the time, without it defeating itself? Second test: does it treat any person as a mere tool? If it fails, change the plan. The rule of this Onda is to make no exception of yourself.",
+      "why": "The categorical imperative has several formulations, and this is the practical form. A short test on a single action brings Kant’s ethics into the day.",
       "variations": [
-        "Test a small lie you were planning to tell.",
-        "Test something you did yesterday.",
-        "Find the true maxim behind a habit, and write it without flattering yourself."
+        "Test a white lie.",
+        "Test a shortcut at work.",
+        "Test a promise you may not keep."
+      ]
+    },
+    {
+      "id": "write-the-day-s-order",
+      "name": "Write the day’s order",
+      "icon": "list-checks",
+      "slot": "Morning",
+      "time": "06:30",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Write the order of today in a few clear lines: when you rise, when you work, when you eat, when you walk, when you rest. Keep it simple and stick to it. Kant’s days were so regular that the people of Königsberg set their clocks by his walk. A plan is not a prison; it frees the mind.",
+      "why": "Kant’s routine was famous. A plain daily order spares your attention for what matters.",
+      "variations": [
+        "Keep the same order for a week.",
+        "Make time for one walk.",
+        "Share the order with a friend."
+      ]
+    },
+    {
+      "id": "a-day-without-a-lie",
+      "name": "A day without a lie",
+      "icon": "quotes",
+      "slot": "Morning",
+      "time": "08:30",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Today, tell no lie of any kind: no white lies, no polite evasions, no exaggerated excuses. You may stay silent or choose your words kindly, but nothing false. Notice each time you reach for one. Kant held that lying is wrong in every case because it undermines trust itself. The rule of this Onda is never lie.",
+      "why": "Kant’s ban on lying was so strict that he refused even a lie to a murderer. The daily test shows how often small untruths slip out.",
+      "variations": [
+        "Keep a tally of near-lies.",
+        "Say I would rather not say instead of a falsehood.",
+        "Do it for a week."
+      ]
+    },
+    {
+      "id": "keep-a-promise",
+      "name": "Keep a promise",
+      "icon": "handshake",
+      "slot": "Morning",
+      "time": "09:00",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Look at the promises you have made and not yet kept, however small: a call, a return, a favour. Choose one and do it today. Kant treated promising as a pillar of civilised life, for if promises were not kept, nobody could promise anything. Check it off. The rule of this Onda is to keep your promises.",
+      "why": "Promise-keeping is the clearest example of Kant’s universal test. Fulfilling a pending one is a satisfying start.",
+      "variations": [
+        "Write all open promises on a list.",
+        "Stop making promises you doubt.",
+        "Say sorry for one you cannot keep."
       ]
     },
     {
       "id": "table-company",
       "name": "Dine in company",
-      "icon": "fork-knife",
+      "icon": "users-three",
       "slot": "Afternoon",
       "time": "13:00",
       "minutes": 60,
       "meta": "Afternoon · 60 min",
-      "instructions": "Eat your main meal with other people and take time over it. Invite between two and eight guests of different trades and ages. Serve plain good food. Lead the talk in three stages: first the news, then discussion and reasoning, and last jokes and play. Keep shop talk and heavy philosophy off the table. See that everyone speaks and nobody is exposed.",
-      "why": "Kant ate one meal a day, at one o’clock, and never alone, which he thought unhealthy for a scholar. His rule from Lord Chesterfield was that the company should number no fewer than the Graces and no more than the Muses. He wrote that such a meal promotes humanity.",
+      "instructions": "Eat your main meal with other people and take time over it. Invite between two and eight guests of different trades and ages. Serve plain good food. Lead the talk in three stages: first the news, then discussion and reasoning, then jokes and play. Keep your guests free to leave when they like. Never dine alone if you can help it.",
+      "why": "Kant gave his famous dinners every day at one, with guests of all kinds, and thought a meal should be taken in company. The three stages keep the talk lively.",
       "variations": [
-        "Invite someone outside your own field.",
-        "Give each guest their own small carafe so no one has to ask.",
-        "After the meal, repeat nothing that was said in confidence."
+        "Invite one colleague you barely know.",
+        "Banish work talk until the second stage.",
+        "End with a funny story."
       ]
     },
     {
       "id": "the-walk",
       "name": "The philosopher’s walk",
-      "icon": "person-simple-walk",
+      "icon": "footprints",
       "slot": "Afternoon",
       "time": "15:30",
       "minutes": 60,
       "meta": "Afternoon · 60 min",
-      "instructions": "Walk at the same hour every day, on the same route, in any weather. Go alone. Breathe through your nose and do not talk. Keep an even pace and never hurry so much that you sweat. Let your mind range freely over what you worked on in the morning. Do not take a phone out of your pocket.",
-      "why": "Kant’s afternoon walk was so regular that the people of Königsberg were said to set their clocks by it. He walked alone so that he would not have to open his mouth in the cold air. The path along the river became known as the Philosopher’s Walk.",
+      "instructions": "Walk at the same hour every day, on the same route, in any weather. Go alone. Breathe through your nose and do not talk. Keep an even pace and never hurry so much that you sweat. Let your mind range freely over what you have been reading and thinking. Make a note of any good idea when you get home. Dress for the weather.",
+      "why": "Kant walked each afternoon at half past three, so punctually that neighbours checked their watches by him. The walk was part of how he thought.",
       "variations": [
-        "Walk eight times up and down the same short path, as he did under the lindens.",
-        "Miss the walk only for something as good as the book that once made him miss his.",
-        "Walk in rain with a servant, or a friend, carrying the umbrella behind."
+        "Walk for thirty minutes if an hour is too much.",
+        "Walk the same route for a month.",
+        "Leave your phone at home."
+      ]
+    },
+    {
+      "id": "a-person-not-a-means",
+      "name": "A person, not a means",
+      "icon": "user",
+      "slot": "Afternoon",
+      "time": "14:00",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "In your next dealing with another person, a shop assistant, a colleague, a child, remember to treat them as an end in themselves and not merely as a means. Ask what they want and need. Look at them. Thank them. Do not simply use them for what they provide. Kant held that every person has dignity beyond price.",
+      "why": "The formula of humanity says to treat people never merely as a means but always at the same time as an end. Practising it is a daily courtesy.",
+      "variations": [
+        "Learn the name of the cashier.",
+        "Ask a colleague about their day and listen.",
+        "Say thank you with eye contact."
+      ]
+    },
+    {
+      "id": "make-a-small-peace",
+      "name": "Make a small peace",
+      "icon": "hand-peace",
+      "slot": "Afternoon",
+      "time": "16:30",
+      "minutes": 20,
+      "meta": "Afternoon · 20 min",
+      "instructions": "Settle one small quarrel today, at home, at work or online, as if drafting a treaty. Set out the terms: what each side gives up, what each is guaranteed, what the rules are. Kant wrote a treatise called Toward Perpetual Peace with articles such as no secret clauses and no standing armies. Apply them on a small scale.",
+      "why": "Kant’s essay on perpetual peace proposes practical conditions for ending war. Applying its logic to a small quarrel is an interesting exercise.",
+      "variations": [
+        "Write the terms on paper.",
+        "Offer the first concession.",
+        "Ask a neutral friend to witness."
+      ]
+    },
+    {
+      "id": "be-a-citizen-of-the-world",
+      "name": "Be a citizen of the world",
+      "icon": "globe-hemisphere-west",
+      "slot": "Afternoon",
+      "time": "17:00",
+      "minutes": 20,
+      "meta": "Afternoon · 20 min",
+      "instructions": "Learn about one place or people far from you: read a short article, look at photographs, listen to a song, ask a friend from there. Kant called himself a Weltbürger, a citizen of the world, and argued for a duty of hospitality to strangers. Notice something you share with people in that place.",
+      "why": "Kant argued for cosmopolitan right: a stranger has a right not to be treated with hostility on arrival. Learning about the world is the first step.",
+      "variations": [
+        "Learn ten words in another language.",
+        "Cook a dish from the place.",
+        "Find them on a map."
+      ]
+    },
+    {
+      "id": "would-everyone-do-this",
+      "name": "Would everyone do this?",
+      "icon": "scales",
+      "slot": "Afternoon",
+      "time": "15:00",
+      "minutes": 5,
+      "meta": "Afternoon · 5 min",
+      "instructions": "Whenever you are about to do something small today, such as dropping litter, jumping a queue, leaving a mess or skipping a duty, ask: what if everyone did this? If the answer is chaos, don’t. Notice how often this simple question settles it. It is the categorical imperative in kitchen form.",
+      "why": "The universalisability test is the heart of Kant’s ethics. It is quick, memorable and easy to apply to small things.",
+      "variations": [
+        "Test a habit of yours.",
+        "Ask it aloud in a family decision.",
+        "Think of an exception you make for yourself."
       ]
     },
     {
       "id": "stars-and-law",
       "name": "The starry heavens and the moral law",
-      "icon": "shooting-star",
+      "icon": "moon-stars",
       "slot": "Evening",
       "time": "21:30",
       "minutes": 10,
       "meta": "Evening · 10 min",
-      "instructions": "Go outside or to a window and look at the night sky for five minutes. Let the scale of it make you small. Then turn to the other thing. Go back over the day and ask three questions. Did I do what I ought, because I ought? Did I make an exception of myself anywhere? Did I treat any person merely as a means? Answer plainly. Go to bed at a fixed hour.",
-      "why": "The conclusion of the Critique of Practical Reason sets the two side by side. The sky annihilates my importance as an animal creature. The moral law raises my worth as a person without limit. Kant went to bed at ten, every night.",
+      "instructions": "Go outside or to a window and look at the night sky for five minutes. Let the scale of it make you small. Then turn to the other thing. Go back over the day and ask three questions. Did I do what I ought, because I ought? Did I make an exception of myself? Did I treat anyone as a mere means? Note your answers in a line. Two things fill the mind with wonder: the starry heavens above and the moral law within.",
+      "why": "This is the closing thought of Kant’s Critique of Practical Reason, carved on his tomb. Pairing a look at the sky with a review of conduct makes the idea a nightly practice.",
       "variations": [
-        "On a cloudy night, find a photograph of a deep field of galaxies.",
-        "Write down one act of the day that had real moral worth.",
-        "Name one person you owe an apology, and plan it."
-      ]
-    }
-  ],
-  "tasks": [
-    {
-      "id": "task-read-what-is-enlightenment",
-      "name": "Read What Is Enlightenment?",
-      "meta": "Read · 20 min",
-      "time": "20:00",
-      "slot": "Evening",
-      "action": "read"
-    },
-    {
-      "id": "task-read-the-first-section-of-the-groundwork",
-      "name": "Read the first section of the Groundwork",
-      "meta": "Read · 45 min",
-      "time": "07:00",
-      "slot": "Morning",
-      "action": "read"
-    },
-    {
-      "id": "task-listen-to-the-finale-of-beethoven-s-ninth-symphony",
-      "name": "Listen to the finale of Beethoven’s Ninth Symphony",
-      "meta": "Listen · 25 min",
-      "time": "19:00",
-      "slot": "Evening",
-      "action": "listen"
-    },
-    {
-      "id": "task-eat-cod-with-mustard-and-buttered-root-vegetables",
-      "name": "Eat cod with mustard and buttered root vegetables",
-      "meta": "Eat · his favourite dish",
-      "time": "13:00",
-      "slot": "Afternoon",
-      "action": "eat"
-    },
-    {
-      "id": "task-journal-where-did-you-make-an-exception-of-yourself",
-      "name": "Journal: where did you make an exception of yourself?",
-      "meta": "Journal · 10 min",
-      "time": "21:00",
-      "slot": "Evening",
+        "Write the answers.",
+        "Look at the moon with binoculars.",
+        "End with one resolution."
+      ],
       "action": "journal"
     },
     {
-      "id": "task-the-murderer-at-the-door-may-you-lie",
-      "name": "The murderer at the door: may you lie?",
-      "meta": "Philosophy · 10 min",
-      "time": "08:30",
-      "slot": "Morning",
-      "action": "philosophy"
+      "id": "do-one-thing-from-duty",
+      "name": "Do one thing from duty",
+      "icon": "check-fat",
+      "slot": "Evening",
+      "time": "18:30",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Do something this evening that you ought to do and do not feel like doing: wash the pile of dishes, call a relative, write the letter. Do it not because you enjoy it but because it is right. Notice how it feels. Kant held that an act of duty done against inclination shows true moral worth.",
+      "why": "Kant distinguishes acting from duty from acting merely in accord with duty or from inclination. Doing one reluctant duty a day trains the will.",
+      "variations": [
+        "Choose the task you have put off longest.",
+        "Do it first, then rest.",
+        "Note the small satisfaction afterwards."
+      ]
     },
     {
-      "id": "form-your-own-judgment-on-one-question-before-reading-anyone-else-s",
-      "name": "Form your own judgment on one question before reading anyone else’s",
-      "meta": "Sapere aude",
-      "time": "09:00",
-      "slot": "Morning"
+      "id": "read-what-is-enlightenment-aloud",
+      "name": "Read What Is Enlightenment? aloud",
+      "icon": "scroll",
+      "slot": "Evening",
+      "time": "20:00",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Read the opening of Kant’s 1784 essay An Answer to the Question: What Is Enlightenment? aloud. It is short and clear. Mark the lines on laziness and cowardice, and on the courage to use your own understanding. Pause after each paragraph and ask whether it fits your life now.",
+      "why": "This essay is among the finest short texts of the Enlightenment. Its first page is a trumpet call for independence of mind.",
+      "variations": [
+        "Read it to a friend.",
+        "Copy the first sentence.",
+        "Discuss it at dinner."
+      ]
     },
     {
-      "id": "keep-one-promise-that-has-become-inconvenient",
-      "name": "Keep one promise that has become inconvenient",
-      "meta": "Duty",
-      "time": "11:00",
-      "slot": "Morning"
+      "id": "early-to-bed",
+      "name": "Early to bed",
+      "icon": "bed",
+      "slot": "Evening",
+      "time": "21:45",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Prepare for bed at a fixed hour, ten at the latest. Kant went to bed at ten every night and wrapped himself in his blankets in a particular way. Put your clothes away, set out tomorrow’s, switch off screens and say good night. Do the same every night, and see how your sleep improves.",
+      "why": "Kant’s bedtime was as regular as his waking. A fixed hour and routine help the body sleep.",
+      "variations": [
+        "Wind down with the same ritual.",
+        "Turn the lights down an hour before.",
+        "Read a few pages of a plain book."
+      ]
     },
     {
-      "id": "do-one-kind-thing-you-do-not-feel-like-doing",
-      "name": "Do one kind thing you do not feel like doing",
-      "meta": "From duty, not inclination",
-      "time": "16:30",
-      "slot": "Afternoon"
+      "id": "listen-to-a-sunrise",
+      "name": "Listen to a sunrise",
+      "icon": "music-note",
+      "slot": "Evening",
+      "time": "20:30",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Play the sunrise from Haydn’s The Creation, the great chord for the words let there be light. It was premiered in Vienna in 1798, when Kant was in his seventies. Sit still with your eyes closed. Notice how the music builds from darkness to full light. A good piece of music is a moral pleasure.",
+      "why": "Haydn’s Creation was a sensation in Kant’s last years. The passage let there be light is one of the most thrilling moments in music.",
+      "variations": [
+        "Listen to the whole chorus.",
+        "Listen with the lights off, then on.",
+        "Look up the story of the premiere."
+      ]
     },
     {
-      "id": "treat-leave-the-house-at-exactly-the-same-minute-as-yesterday",
-      "name": "Leave the house at exactly the same minute as yesterday",
-      "meta": "The story goes that neighbours set their clocks by him",
-      "time": "08:30",
-      "slot": "Morning"
-    },
-    {
-      "id": "treat-tell-one-good-joke-at-lunch",
-      "name": "Tell one good joke at lunch",
-      "meta": "His table was known for its talk",
-      "time": "15:30",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "treat-look-up-at-the-stars-for-one-minute",
-      "name": "Look up at the stars for one minute",
-      "meta": "Awe is permitted",
+      "id": "write-a-maxim-for-your-life",
+      "name": "Write a maxim for your life",
+      "icon": "pencil",
+      "slot": "Evening",
       "time": "19:30",
-      "slot": "Evening"
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Write a maxim for your life in a single sentence, a rule you could will that everyone follow. Test it: could everyone follow it? Does it treat all people as ends? Revise until it passes. Put it on a card and keep it. Kant’s categorical imperative is about rules we give ourselves, which is what autonomy means.",
+      "why": "Autonomy means giving the law to yourself. Writing a personal maxim and testing it makes the principle practical.",
+      "variations": [
+        "Compare your maxim with a friend’s.",
+        "Write three and pick one.",
+        "Revise it in a month."
+      ]
     },
     {
-      "id": "treat-tip-your-hat-or-nod-to-everyone-on-your-walk",
-      "name": "Tip your hat, or nod, to everyone on your walk",
-      "meta": "Persons, not things",
-      "time": "15:30",
-      "slot": "Afternoon"
+      "id": "a-konigsberg-dinner",
+      "name": "A Königsberg dinner",
+      "icon": "fork-knife",
+      "slot": "Special",
+      "time": "13:00",
+      "minutes": 120,
+      "meta": "On a free afternoon · 120 min",
+      "instructions": "Hold a dinner in the Königsberg manner: poached cod or fish with a sharp mustard, small sweet turnips, bread, butter and cheese, with tea and juice. Invite four to six people of different ages and trades. Serve plain, good food. Lead the talk in three stages, news, reason, jokes. Never talk about philosophy at dinner, said Kant, unless asked.",
+      "why": "Kant’s dinners were famed for their talk, which moved from the news to arguments to jokes. A faithful dinner is an enjoyable experiment.",
+      "variations": [
+        "Serve mustard fresh at the table.",
+        "Seat guests by chance.",
+        "End with a short toast to Kant."
+      ]
     },
     {
-      "id": "daily-ask-whether-your-main-choice-today-could-be-a-rule-for-every",
-      "name": "Ask whether your main choice today could be a rule for everyone",
-      "meta": "The test of the universal law",
-      "time": "20:30",
-      "slot": "Evening"
-    },
-    {
-      "id": "daily-look-at-the-sky-for-a-minute-and-think-of-the-two-wonders",
-      "name": "Look at the sky for a minute and think of the two wonders",
-      "meta": "The starry heavens above, the moral law within",
-      "time": "20:30",
-      "slot": "Evening"
+      "id": "a-night-under-the-stars",
+      "name": "A night under the stars",
+      "icon": "moon-stars",
+      "slot": "Special",
+      "time": "21:00",
+      "minutes": 120,
+      "meta": "On a clear evening · 120 min",
+      "instructions": "Take a blanket and a flask of tea to a dark place away from city lights and lie back for an hour and a half. Look up at the stars. Find a constellation. Imagine the distances. Then think of the moral law: what you owe the people near you. Kant’s tomb bears the lines about the starry heavens. Dress warmly and tell someone where you are going.",
+      "why": "Looking at a dark sky is among the most humbling experiences there is. Pairing it with reflection on duty is Kant’s own pairing.",
+      "variations": [
+        "Use a star map app.",
+        "Go with a friend.",
+        "Count shooting stars."
+      ]
     }
   ],
-  "immersePlan": [],
+  "tasks": [],
+  "immersePlan": [
+    {
+      "kind": "read",
+      "item": "read-an-answer-to-the-question-what-is-enlightenment",
+      "name": "Read What Is Enlightenment?",
+      "text": "Read Kant’s 1784 essay in one sitting. It runs only a few pages. Underline the motto sapere aude.",
+      "minutes": 15
+    },
+    {
+      "kind": "read",
+      "item": "read-groundwork-of-the-metaphysics-of-morals",
+      "name": "Read a few pages of the Groundwork",
+      "text": "Read the section where Kant lays out the three formulations of the categorical imperative, slowly and more than once. Write each in your own words.",
+      "minutes": 25
+    },
+    {
+      "kind": "read",
+      "item": "read-toward-perpetual-peace",
+      "name": "Read Toward Perpetual Peace",
+      "text": "Read Kant’s 1795 proposal for ending war. Note the six preliminary articles, such as no standing armies.",
+      "minutes": 25
+    },
+    {
+      "kind": "watch",
+      "item": "watch-the-good-place",
+      "name": "Watch an episode of The Good Place",
+      "text": "Watch an episode of the comedy that takes moral philosophy as a plot, with Kant, trolley problems and lots of laughs. Pick a Kant-related one.",
+      "minutes": 25
+    },
+    {
+      "kind": "watch",
+      "item": "watch-12-angry-men",
+      "name": "Watch 12 Angry Men",
+      "text": "Watch Sidney Lumet’s 1957 film in which a lone juror makes eleven others think for themselves. It is Kantian courage in a hot room.",
+      "minutes": 96
+    },
+    {
+      "kind": "watch",
+      "item": "watch-the-last-days-of-immanuel-kant",
+      "name": "Watch The Last Days of Immanuel Kant",
+      "text": "Watch the 1994 French film about the philosopher’s last years, based on De Quincey’s story. Notice the routine fading.",
+      "minutes": 90
+    },
+    {
+      "kind": "listen",
+      "item": "listen-symphony-no-9-in-d-minor",
+      "name": "Listen to the Ode to Joy",
+      "text": "Play the finale of Beethoven’s Ninth, written in 1824, with Schiller’s words about all people becoming brothers. A musical Kantian dream.",
+      "minutes": 25
+    },
+    {
+      "kind": "listen",
+      "item": "listen-the-creation",
+      "name": "Listen to Haydn’s Creation",
+      "text": "Play the opening of Haydn’s oratorio, from chaos to let there be light. Listen to the great chord.",
+      "minutes": 20
+    },
+    {
+      "kind": "listen",
+      "item": "listen-kant-s-categorical-imperative",
+      "name": "Listen to In Our Time on the Categorical Imperative",
+      "text": "Play the BBC discussion of Kant’s ethics by three scholars. Listen while you walk.",
+      "minutes": 45
+    },
+    {
+      "kind": "art",
+      "item": "art-wanderer-above-the-sea-of-fog",
+      "name": "Look at Wanderer above the Sea of Fog",
+      "text": "Look at Caspar David Friedrich’s painting of a lone man on a peak above the mist. This is the sublime that Kant described.",
+      "minutes": 10
+    },
+    {
+      "kind": "art",
+      "item": "art-kant-and-his-table-companions",
+      "name": "Look at Kant and His Table Companions",
+      "text": "Look at Doerstling’s 1893 painting of Kant at the head of his famous dinner table, with guests in lively talk. Find who is speaking.",
+      "minutes": 10
+    },
+    {
+      "kind": "art",
+      "item": "art-portrait-of-immanuel-kant",
+      "name": "Look at Becker’s portrait of Kant",
+      "text": "Look at the 1768 portrait of Kant at forty-four, with a lively face and a powdered wig. Compare it with the late images.",
+      "minutes": 5
+    },
+    {
+      "kind": "eat",
+      "item": "eat-cod",
+      "name": "Poach cod with butter",
+      "text": "Poach cod gently in salted water and serve with melted butter and fresh mustard. It was Kant’s favourite dish.",
+      "minutes": 30
+    },
+    {
+      "kind": "eat",
+      "item": "eat-teltow-turnips",
+      "name": "Cook Teltow turnips",
+      "text": "Glaze small sweet turnips in butter and a little sugar. Serve them with the fish or alone.",
+      "minutes": 30
+    },
+    {
+      "kind": "eat",
+      "item": "eat-bread-butter-and-cheese",
+      "name": "End a meal with bread, butter and cheese",
+      "text": "End a meal as Kant did, with plain bread, butter and cheese. Eat it slowly.",
+      "minutes": 10
+    },
+    {
+      "kind": "drink",
+      "item": "drink-weak-tea",
+      "name": "Drink weak tea on rising",
+      "text": "Drink two cups of weak tea on rising, as Kant did, and sit with them before the day begins.",
+      "minutes": 15
+    },
+    {
+      "kind": "drink",
+      "item": "drink-red-wine",
+      "name": "Share a glass of red grape juice",
+      "text": "Pour a small glass of red grape juice to go with dinner, in place of Kant’s Médoc, and sip it with the meal.",
+      "minutes": 10
+    },
+    {
+      "kind": "drink",
+      "item": "drink-water",
+      "name": "Drink water with the meal",
+      "text": "Drink a glass of plain water with the meal. Kant believed in moderation at table.",
+      "minutes": 5
+    },
+    {
+      "kind": "customs",
+      "item": "customs-the-fixed-day",
+      "name": "Keep a fixed day",
+      "text": "Keep to a fixed order for today: rise, eat, work, walk and sleep at set hours. See how it feels.",
+      "minutes": 20
+    },
+    {
+      "kind": "customs",
+      "item": "customs-the-dinner-guests",
+      "name": "Invite a guest to dinner",
+      "text": "Invite someone to share a meal, never more than eight. Eat in company and take time over it.",
+      "minutes": 60
+    },
+    {
+      "kind": "customs",
+      "item": "customs-staying-at-home",
+      "name": "Stay at home, in mind and body",
+      "text": "Kant never travelled more than about ten miles from Königsberg, yet he lectured on geography. Spend an hour exploring a far place on a map from your chair.",
+      "minutes": 30
+    },
+    {
+      "kind": "games",
+      "item": "games-billiards",
+      "name": "Play billiards",
+      "text": "Play a game of billiards or pool. Kant won money from students at the table in his youth. Aim with care.",
+      "minutes": 40
+    },
+    {
+      "kind": "games",
+      "item": "games-l-hombre",
+      "name": "Play l’hombre",
+      "text": "Play the three-player trick-taking card game that was the rage in the eighteenth century, or any trick-taking game of your choice.",
+      "minutes": 40
+    },
+    {
+      "kind": "games",
+      "item": "games-the-seven-bridges-of-konigsberg",
+      "name": "Solve the seven bridges puzzle",
+      "text": "Try to find a walk that crosses each of the seven bridges of Königsberg exactly once. Then find out why Euler proved it impossible.",
+      "minutes": 20
+    },
+    {
+      "kind": "travel",
+      "item": "fest-kant-s-birthday-and-the-bean-supper",
+      "name": "Keep Kant’s birthday",
+      "text": "Kant’s birthday, 22 April, was marked by a bean supper. Cook a pot of beans and share it with a friend.",
+      "minutes": 40
+    },
+    {
+      "kind": "travel",
+      "item": "fest-world-philosophy-day",
+      "name": "Mark World Philosophy Day",
+      "text": "World Philosophy Day falls on the third Thursday of November. Ask a friend one good philosophical question.",
+      "minutes": 15
+    },
+    {
+      "kind": "travel",
+      "item": "place-a-dark-sky-site-near-you",
+      "name": "Find a dark-sky site",
+      "text": "Find the darkest place near you where you can see the stars and plan a visit. Go if you can tonight.",
+      "minutes": 30
+    },
+    {
+      "kind": "words",
+      "item": "word-sapere-aude",
+      "name": "Practise sapere aude",
+      "text": "Sapere aude means dare to know. Form your own view on one thing today before you check what others think.",
+      "minutes": 10
+    },
+    {
+      "kind": "words",
+      "item": "word-autonomie",
+      "name": "Practise autonomy",
+      "text": "Autonomy is giving the law to yourself. Choose one rule you give yourself and keep it all day.",
+      "minutes": 10
+    },
+    {
+      "kind": "words",
+      "item": "word-wurde",
+      "name": "Practise Würde",
+      "text": "Würde is dignity, worth beyond price. Treat one person today as having dignity, and tell them so.",
+      "minutes": 10
+    }
+  ],
   "rules": [
     {
       "id": "r1",

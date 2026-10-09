@@ -293,212 +293,538 @@
     {
       "id": "erisian-date",
       "name": "Name the day",
-      "icon": "calendar-star",
+      "icon": "calendar-blank",
       "slot": "Morning",
       "time": "08:00",
       "minutes": 5,
       "meta": "Morning · 5 min",
-      "instructions": "Work out today’s date in the Discordian calendar. The year has five seasons of seventy-three days: Chaos begins on 1 January, Discord on 15 March, Confusion on 27 May, Bureaucracy on 8 August and The Aftermath on 20 October. The five weekdays run in order from Sweetmorn on 1 January. Add 1166 to the year. Say the date aloud, then decide what kind of day that makes it and act accordingly.",
-      "why": "The calendar is set out in the Principia Discordia and shipped for decades as a small program on Unix systems. It works perfectly well, which makes the ordinary calendar look like one grid among others.",
+      "instructions": "Work out today’s date in the Discordian calendar. The year has five seasons of seventy-three days: Chaos begins on 1 January, Discord on 15 March, Confusion on 27 May, Bureaucracy on 8 August and The Aftermath on 20 October. Count the days since the season began and name the day: for example, the 12th of Chaos. Say it aloud, then say hail Eris, and tell one person.",
+      "why": "The Discordian calendar is a parody of calendars, and a delight. Naming the day a different way makes you see time as something we made up.",
       "variations": [
-        "Write the Discordian date at the top of everything you write today.",
-        "Find out which of the five apostles owns the current season.",
-        "On the fifth and fiftieth day of a season, declare a holiday."
+        "Look up the holy day nearest to today.",
+        "Write the Discordian date on your hand.",
+        "Put the date on a message to a friend."
       ]
     },
     {
       "id": "pineal",
       "name": "Consult your pineal gland",
-      "icon": "brain",
+      "icon": "eye",
       "slot": "Morning",
       "time": "08:30",
       "minutes": 5,
       "meta": "Morning · 5 min",
-      "instructions": "Sit down and close your eyes. Ask one question that has been bothering you. Take the first answer that arrives, however odd, and write it down without improving it. Then write the opposite answer underneath. Carry both through the day and see which the day agrees with.",
-      "why": "The Principia tells every Discordian to consult their own pineal gland instead of an authority. The joke has a point: you already have an opinion, and it is worth hearing before anyone else’s.",
+      "instructions": "Sit down and close your eyes. Ask one question that has been bothering you. Take the first answer that arrives, however odd, and write it down without improving it. Then write the opposite answer underneath. Carry both through the day and see which of them ends up more useful. The pineal gland is an affectionately silly oracle.",
+      "why": "The Principia Discordia suggests consulting your pineal gland as a way of getting past overthinking. The answers are often surprisingly good.",
       "variations": [
-        "Ask the question and open a book at random for the answer.",
-        "Ask five questions and answer all of them with the same word.",
-        "Flip a coin, and notice which side you hoped for."
+        "Ask a yes or no question and answer with the first word.",
+        "Ask a question for a friend.",
+        "Write the answers in a notebook."
+      ]
+    },
+    {
+      "id": "a-backwards-breakfast",
+      "name": "A backwards breakfast",
+      "icon": "egg",
+      "slot": "Morning",
+      "time": "07:30",
+      "minutes": 15,
+      "meta": "Morning · 15 min",
+      "instructions": "Eat your breakfast in reverse order: dessert first, then the fruit, then the main course, then a drink. Or eat a dinner food at breakfast, like soup or pasta. Make it taste good. Disorder in small doses is a pleasure, and it reminds you that the order of meals is a habit, not a law.",
+      "why": "Discordians delight in small reversals that break routine without harming anyone. An out-of-order meal is the perfect starter.",
+      "variations": [
+        "Eat dinner for breakfast.",
+        "Start with coffee and end with water.",
+        "Eat with the wrong hand."
+      ]
+    },
+    {
+      "id": "odd-socks",
+      "name": "Odd socks",
+      "icon": "sneaker",
+      "slot": "Morning",
+      "time": "07:00",
+      "minutes": 3,
+      "meta": "Morning · 3 min",
+      "instructions": "Wear two odd socks today, or any two things that do not match: gloves, earrings, shoelaces. Do it on purpose and with pride. If anyone mentions it, say it is a religious observance. The point is to feel what it is like to break the smallest rule in plain sight and survive. Everyone is a Pope, and a Pope may wear anything.",
+      "why": "Discordians use tiny acts of disorder to loosen the grip of conformity. Odd socks are the simplest and cheapest of these.",
+      "variations": [
+        "Mismatch your earrings.",
+        "Wear a scarf as a belt.",
+        "Wear a hat indoors."
+      ]
+    },
+    {
+      "id": "doubt-one-thing-you-read",
+      "name": "Doubt one thing you read",
+      "icon": "magnifying-glass",
+      "slot": "Morning",
+      "time": "09:00",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Pick one thing you have read or heard today and doubt it. Check where it came from, look for a second source and ask who gains if you believe it. Believe nothing you read, including this. Write down what you found. Discordians say that all statements are true in some sense, false in some sense and meaningless in some sense.",
+      "why": "The first rule of this Onda is believe nothing you read. It is the best defence against hoaxes, ads and your own certainty.",
+      "variations": [
+        "Doubt a headline.",
+        "Doubt a famous quote.",
+        "Doubt something you wrote yourself."
+      ]
+    },
+    {
+      "id": "a-silly-salute",
+      "name": "A silly salute",
+      "icon": "sun-dim",
+      "slot": "Morning",
+      "time": "06:45",
+      "minutes": 3,
+      "meta": "Morning · 3 min",
+      "instructions": "Go to a window or step outdoors and give the morning a silly salute: a funny bow, a flourish, a wobble, a nonsense word. Say hail Eris, or hail whatever you like. The point is to begin the day by being foolish on purpose, which makes the rest of the day easier. Do not take yourself seriously.",
+      "why": "Do not take yourself seriously is a Discordian rule, and a very good one. Starting the day with a silly salute keeps pride at bay.",
+      "variations": [
+        "Salute the neighbour’s cat.",
+        "Salute with a banana.",
+        "Do a victory dance for no reason."
       ]
     },
     {
       "id": "break-a-pattern",
       "name": "Creative disorder",
-      "icon": "pinwheel",
+      "icon": "arrows-clockwise",
       "slot": "Afternoon",
       "time": "13:00",
       "minutes": 15,
       "meta": "Afternoon · 15 min",
-      "instructions": "Pick one thing you do the same way every day and do it differently. Take another route, eat lunch at a strange hour, use the wrong hand, sit in a different chair, speak first where you usually wait. It must harm no one. Notice what the habit was protecting you from, and what turned up in its place.",
-      "why": "Discordians distinguish creative disorder from destructive disorder, and count the first as a blessing. Too much order is the Curse of Greyface, and the cure is to let a little chaos back in.",
+      "instructions": "Pick one thing you do the same way every day and do it differently. Take another route, eat lunch at a strange hour, use the wrong hand, sit in a different chair, speak first where you usually wait. It must harm no one. Then notice what you saw that you usually miss. The rule of this Onda is to break one habit every day.",
+      "why": "Breaking a habit shows how much of daily life runs on autopilot. Discordians call it creative disorder, and it can be quite refreshing.",
       "variations": [
-        "Let a die choose between six options for the afternoon.",
-        "Rearrange one shelf or one room.",
-        "Spend fifteen minutes on something with no purpose whatever."
+        "Walk a different route home.",
+        "Eat with chopsticks.",
+        "Write with the other hand."
       ]
     },
     {
       "id": "both-grids",
       "name": "Look through both grids",
-      "icon": "eye",
+      "icon": "scales",
       "slot": "Afternoon",
       "time": "16:00",
       "minutes": 10,
       "meta": "Afternoon · 10 min",
-      "instructions": "Take one situation that is on your mind. First describe it as orderly: write five sentences on the pattern in it, what causes what and where it is heading. Then describe it as disorderly: five sentences on what is random, unknown or out of anyone’s hands. Read both. Notice that each is a way of looking, and choose which is more use to you today.",
-      "why": "The Sacred Chao teaches that order and disorder are both grids laid over a reality that is neither. Wisdom lies in knowing that you are using a grid.",
+      "instructions": "Take one situation that is on your mind. First describe it as orderly: write five sentences on the pattern in it, what causes what and where it is heading. Then describe it as disorderly: five sentences on what is random, accidental and out of anyone’s control. Compare. Notice which grid you prefer, and what the other shows you.",
+      "why": "The Principia Discordia says that order and disorder are both grids we lay over reality, and neither is the real thing. Looking through both is a clarifying exercise.",
       "variations": [
-        "Do it for a news story.",
-        "Do it for your own life story.",
-        "Ask someone else which grid they think you live in."
+        "Use it on a worry.",
+        "Use it on a friendship.",
+        "Use it on the news."
+      ]
+    },
+    {
+      "id": "treat-someone-as-a-pope",
+      "name": "Treat someone as a Pope",
+      "icon": "crown",
+      "slot": "Afternoon",
+      "time": "15:00",
+      "minutes": 5,
+      "meta": "Afternoon · 5 min",
+      "instructions": "Make a Pope card, a small card that says: you are a Pope, and give it to someone. In Discordianism everyone is a Pope, with equal authority and silliness. Write on it something kind, such as thank you for being a Pope. Hand it over with a straight face. Treat that person all day as someone whose opinions matter.",
+      "why": "Everyone is a Pope is a Discordian rule and a joke about authority. Giving someone the card treats them as worthy of respect.",
+      "variations": [
+        "Give one to a stranger.",
+        "Give one to your boss.",
+        "Make a card for yourself."
+      ]
+    },
+    {
+      "id": "a-kind-absurd-note",
+      "name": "A kind absurd note",
+      "icon": "envelope-open",
+      "slot": "Afternoon",
+      "time": "14:30",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Write a short, friendly, absurd note and leave it where it will be found: on a bench, in a library book, on a café table. Make it harmless and warm: you are doing better than you think, or a zebra is thinking of you. This is a Discordian gentle prank: it frees and never deceives or harms. Walk away smiling.",
+      "why": "Operation Mindfuck was the Discordian idea of shaking up people’s certainties with playful surprises. A kind, absurd note is the sweetest form.",
+      "variations": [
+        "Leave a riddle in a coat pocket at a shop.",
+        "Chalk a message on a pavement.",
+        "Send a postcard with nonsense."
+      ]
+    },
+    {
+      "id": "find-five",
+      "name": "Find five",
+      "icon": "star-four",
+      "slot": "Afternoon",
+      "time": "17:00",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Look for the number five all around you for ten minutes: five windows, five letters in a word, five people in a queue, five coins. The Law of Fives says that all things happen in fives or are divisible by five or are somehow directly or indirectly related to five. Collect your evidence and be convinced, then doubt it.",
+      "why": "The Law of Fives is a running joke in Discordia, and it shows how easily the mind finds patterns when it looks for them. It is a lesson in seeing.",
+      "variations": [
+        "Do it with a friend and compare.",
+        "Keep a tally for a week.",
+        "Find five in a news story."
+      ]
+    },
+    {
+      "id": "ask-the-die",
+      "name": "Ask the die",
+      "icon": "cube",
+      "slot": "Afternoon",
+      "time": "12:30",
+      "minutes": 5,
+      "meta": "Afternoon · 5 min",
+      "instructions": "Choose one small decision today, such as what to eat or which path to walk, and let a die decide. List up to six options, roll and follow the roll. Notice any disappointment: that tells you what you really wanted. Chaos is not always a bad adviser. This is only for trivial decisions.",
+      "why": "Chance is a Discordian friend. Letting a die choose reveals your true preferences and loosens the grip of overthinking.",
+      "variations": [
+        "Roll for lunch.",
+        "Roll for the evening’s film.",
+        "Roll to choose who calls whom."
       ]
     },
     {
       "id": "turkey-curse",
       "name": "Lift the Curse of Greyface",
-      "icon": "mask-happy",
+      "icon": "smiley",
       "slot": "Evening",
       "time": "19:00",
       "minutes": 5,
       "meta": "Evening · 5 min",
-      "instructions": "Recall the moment today when you took yourself most seriously. Stand up. Wave your arms and say gobble, gobble, gobble, loudly, five times, as the Turkey Curse directs. Keep going until you laugh or at least feel foolish. Then name five things from the day, of any kind, and find what connects them to the number five.",
-      "why": "The Turkey Curse was revealed, according to the Principia, to neutralise the Curse of Greyface, which is the belief that life is a serious matter. It is very hard to stay pompous while gobbling.",
+      "instructions": "Recall the moment today when you took yourself most seriously. Stand up. Wave your arms and say gobble, gobble, gobble, loudly, five times, as the Turkey Curse directs. Keep going until you laugh or at least feel foolish. Greyface, who made the world grey and serious, hates this. Do it with someone watching if you dare.",
+      "why": "Greyface is the Discordian name for solemnity, and the Turkey Curse is the cure. Making a fool of yourself is a practical relief for pride and stress.",
       "variations": [
-        "Do it with someone else.",
-        "Do it silently in a meeting, in your head.",
-        "Write a solemn apology to yourself for being so serious."
-      ]
-    }
-  ],
-  "tasks": [
-    {
-      "id": "task-eat-a-hot-dog-with-no-bun-alone-and-with-joy",
-      "name": "Eat a hot dog with no bun, alone and with joy",
-      "meta": "Eat · the third and fourth commandments",
-      "time": "12:30",
-      "slot": "Afternoon",
-      "action": "eat"
-    },
-    {
-      "id": "task-read-the-principia-discordia-from-wherever-it-falls-open",
-      "name": "Read the Principia Discordia from wherever it falls open",
-      "meta": "Read · 20 min",
-      "time": "20:00",
-      "slot": "Evening",
-      "action": "read"
-    },
-    {
-      "id": "task-watch-maybe-logic",
-      "name": "Watch Maybe Logic",
-      "meta": "Watch · Robert Anton Wilson",
-      "time": "20:30",
-      "slot": "Evening",
-      "action": "watch"
-    },
-    {
-      "id": "task-listen-to-chill-out-by-the-klf-in-one-sitting",
-      "name": "Listen to Chill Out by the KLF, in one sitting",
-      "meta": "Listen · 44 min",
-      "time": "22:00",
-      "slot": "Evening",
-      "action": "listen"
-    },
-    {
-      "id": "task-journal-what-did-you-take-too-seriously-today",
-      "name": "Journal: what did you take too seriously today?",
-      "meta": "Journal · 10 min",
-      "time": "21:30",
-      "slot": "Evening",
+        "Do it in front of a mirror.",
+        "Do it with a child.",
+        "Do it before a hard conversation."
+      ],
       "action": "journal"
     },
     {
-      "id": "task-catma-which-belief-could-you-hold-more-loosely",
-      "name": "Catma: which belief could you hold more loosely?",
-      "meta": "Philosophy · 10 min",
-      "time": "09:00",
-      "slot": "Morning",
-      "action": "philosophy"
-    },
-    {
-      "id": "declare-someone-a-pope-and-tell-them-so",
-      "name": "Declare someone a Pope and tell them so",
-      "meta": "Everyone already is",
-      "time": "11:00",
-      "slot": "Morning"
-    },
-    {
-      "id": "find-five-fives-before-sunset",
-      "name": "Find five fives before sunset",
-      "meta": "The Law of Fives",
-      "time": "15:00",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "leave-a-harmless-puzzling-kindness-for-a-stranger",
-      "name": "Leave a harmless, puzzling kindness for a stranger",
-      "meta": "Creative disorder",
-      "time": "17:30",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "treat-leave-a-note-that-says-fnord-where-it-will-puzzle-someone",
-      "name": "Leave a note that says “Fnord” where it will puzzle someone",
-      "meta": "Hail Eris",
-      "time": "15:30",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "treat-take-a-different-route-for-no-reason",
-      "name": "Take a different route for no reason",
-      "meta": "Chaos needs feeding",
-      "time": "08:30",
-      "slot": "Morning"
-    },
-    {
-      "id": "treat-eat-dessert-first",
-      "name": "Eat dessert first",
-      "meta": "By holy decree",
+      "id": "found-a-cabal-of-two",
+      "name": "Found a cabal of two",
+      "icon": "users",
+      "slot": "Evening",
       "time": "19:30",
-      "slot": "Evening"
+      "minutes": 20,
+      "meta": "Evening · 20 min",
+      "instructions": "Start a cabal with a friend. A cabal is a group of two or more with a silly name and a secret rule. Choose a name, a motto and one absurd rule, like greeting each other with a left-hand wave. Write the minutes of the first meeting. Every Discordian is invited to start their own schism, and every cabal is its own church.",
+      "why": "Discordians are encouraged to start their own cabals and schisms. It is a joke about religion and a pleasure of friendship.",
+      "variations": [
+        "Give each member a title.",
+        "Write a one-line creed.",
+        "Meet weekly for tea."
+      ]
     },
     {
-      "id": "treat-solemnly-appoint-a-houseplant-to-an-office",
-      "name": "Solemnly appoint a houseplant to an office",
-      "meta": "With a title",
-      "time": "15:30",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "daily-wear-one-thing-that-does-not-match-on-purpose",
-      "name": "Wear one thing that does not match, on purpose",
-      "meta": "A sock, a scarf, a hat",
-      "time": "07:15",
-      "slot": "Morning"
-    },
-    {
-      "id": "daily-eat-breakfast-for-dinner",
-      "name": "Eat breakfast for dinner",
-      "meta": "By holy decree",
+      "id": "kallisti",
+      "name": "Kallisti",
+      "icon": "orange",
+      "slot": "Evening",
       "time": "20:30",
-      "slot": "Evening"
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Take a golden apple, or any yellow apple, and write on it, in marker, the word kallisti: to the prettiest. Roll it across a table to someone, as Eris did at the wedding that started the Trojan War. Do not start a war. Then slice and share the apple and say whom you think is the prettiest thing in the room.",
+      "why": "The golden apple marked kallisti is the Discordian founding story, the apple that started the quarrel of the goddesses. Sharing one turns the myth into a small, sweet game.",
+      "variations": [
+        "Give an apple to the prettiest thing in the garden.",
+        "Draw a golden apple.",
+        "Retell the story of the judgement of Paris."
+      ]
     },
     {
-      "id": "daily-give-one-household-object-a-ridiculous-title",
-      "name": "Give one household object a ridiculous title",
-      "meta": "Duke of the Kettle",
-      "time": "20:30",
-      "slot": "Evening"
+      "id": "a-comic-film-night",
+      "name": "A comic film night",
+      "icon": "film-strip",
+      "slot": "Evening",
+      "time": "20:00",
+      "minutes": 70,
+      "meta": "Evening · 70 min",
+      "instructions": "Watch a chaotic comedy: Duck Soup by the Marx Brothers, which has a country at war over a pun, or any film that thrives on delightful disorder. Watch with others, laugh out loud and note who is the Pope in the film. Take notes for the next creative disorder.",
+      "why": "Duck Soup is a favourite of Discordians, with its government by nonsense. Watching it is a joy and an education in mischief.",
+      "variations": [
+        "Watch a Marx Brothers short.",
+        "Watch a Monty Python sketch.",
+        "Watch with the sound off and invent the lines."
+      ]
     },
     {
-      "id": "daily-tell-someone-a-joke-that-only-half-makes-sense",
-      "name": "Tell someone a joke that only half makes sense",
-      "meta": "Watch their face",
-      "time": "20:30",
-      "slot": "Evening"
+      "id": "open-a-book-at-random",
+      "name": "Open a book at random",
+      "icon": "book",
+      "slot": "Evening",
+      "time": "21:00",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Pick a book from your shelf with your eyes shut. Open it to a page at random and read a paragraph. Take the line your eye falls on as the day’s message and see what it means. Write it on a card. This is bibliomancy, a very old game, and Discordians approve of games that tell you nothing and everything.",
+      "why": "Opening a book at random is a time-honoured oracle. In Discordia the point is not to believe it but to find the meaning you bring to it.",
+      "variations": [
+        "Ask a question first.",
+        "Use a dictionary.",
+        "Use a poetry book."
+      ]
+    },
+    {
+      "id": "draw-the-sacred-chao",
+      "name": "Draw the Sacred Chao",
+      "icon": "yin-yang",
+      "slot": "Evening",
+      "time": "21:30",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Draw the Sacred Chao: a circle with a wavy line dividing it into two halves, like the yin-yang. In one half put a pentagon, the symbol of order, and in the other half an apple, the symbol of disorder. Colour them as you like. Note that each side contains a bit of the other. It is Discordia’s Chao of balance.",
+      "why": "The Sacred Chao is a Discordian symbol of the dance of order and disorder, which Discordians say are both illusions. Drawing it sparks reflection.",
+      "variations": [
+        "Draw it on the back of an envelope.",
+        "Make it as a cake.",
+        "Colour it with a child."
+      ]
+    },
+    {
+      "id": "an-invented-holy-day",
+      "name": "An invented holy day",
+      "icon": "confetti",
+      "slot": "Special",
+      "time": "17:00",
+      "minutes": 120,
+      "meta": "On a free evening · 120 min",
+      "instructions": "Invent a holy day and celebrate it with friends. Pick a date, a name, a food, a song and an absurd custom, such as eating soup with a fork or wearing socks on your ears. Write a short sacred text and read it. Play games, make a toast, and dissolve the holy day at midnight with a loud gobble. All Discordian holy days are celebrated at once.",
+      "why": "Discordians have many holy days, and anyone can invent more. Making one up is the best way to see how rituals are made.",
+      "variations": [
+        "Hold it on a day with no other meaning.",
+        "Invite those who have never been to a party.",
+        "Write the rules on a scroll."
+      ]
+    },
+    {
+      "id": "a-bowling-night",
+      "name": "A bowling night",
+      "icon": "trophy",
+      "slot": "Special",
+      "time": "19:00",
+      "minutes": 120,
+      "meta": "On a free evening · 120 min",
+      "instructions": "Go bowling with friends, as Discordia’s founders did, in an all-night bowling alley in Whittier, California. Bowl badly, cheer wildly and invent silly rules: bowl backwards, bowl with the wrong hand, name each strike after a goddess. Eat chips and pie. Applaud every gutter ball as an act of creative disorder.",
+      "why": "The Principia Discordia was written in a bowling alley, and bowling remains a Discordian passion. It is a cheerful mix of skill and chance.",
+      "variations": [
+        "Play a round with a handicap.",
+        "Give each frame a theme.",
+        "Wear your silliest shirt."
+      ]
     }
   ],
-  "immersePlan": [],
+  "tasks": [],
+  "immersePlan": [
+    {
+      "kind": "read",
+      "item": "read-principia-discordia",
+      "name": "Read the Principia Discordia",
+      "text": "Read a few pages of the 1965 founding text, which is short, funny and sly. Notice which jokes are serious and which serious things are jokes.",
+      "minutes": 20
+    },
+    {
+      "kind": "read",
+      "item": "read-zen-without-zen-masters",
+      "name": "Read Zen Without Zen Masters",
+      "text": "Read a few pages of Camden Benares’s book of koan-like jokes and stories. Choose one and tell it to someone.",
+      "minutes": 15
+    },
+    {
+      "kind": "read",
+      "item": "read-the-klf-chaos-magic-and-the-band-who-burned-a-million-pounds",
+      "name": "Read about the KLF",
+      "text": "Read a chapter of John Higgs’s book about a band that dissolved itself in a burst of chaos. Notice the Discordian touches.",
+      "minutes": 20
+    },
+    {
+      "kind": "watch",
+      "item": "watch-duck-soup",
+      "name": "Watch Duck Soup",
+      "text": "Watch the Marx Brothers’ 1933 film in which Groucho becomes dictator of Freedonia. It is full of anarchy and puns.",
+      "minutes": 68
+    },
+    {
+      "kind": "watch",
+      "item": "watch-f-for-fake",
+      "name": "Watch F for Fake",
+      "text": "Watch Orson Welles’s 1973 essay film about forgers, fakes and the truth. Try to see which parts are honest.",
+      "minutes": 89
+    },
+    {
+      "kind": "watch",
+      "item": "watch-maybe-logic-the-lives-and-ideas-of-robert-anton-wilson",
+      "name": "Watch Maybe Logic",
+      "text": "Watch the documentary on the writer who co-wrote the Illuminatus trilogy and championed the idea of maybe logic. Enjoy his laugh.",
+      "minutes": 110
+    },
+    {
+      "kind": "listen",
+      "item": "listen-chill-out",
+      "name": "Listen to Chill Out",
+      "text": "Play the KLF’s 1990 ambient album, a journey down the American Gulf Coast. Lie back and let it drift.",
+      "minutes": 44
+    },
+    {
+      "kind": "listen",
+      "item": "listen-indeterminacy",
+      "name": "Listen to Indeterminacy",
+      "text": "Play John Cage reading short stories at speed against David Tudor’s music. Each story is exactly a minute long, however many words.",
+      "minutes": 30
+    },
+    {
+      "kind": "listen",
+      "item": "listen-the-white-room",
+      "name": "Listen to The White Room",
+      "text": "Play the KLF’s 1991 album, full of stadium house and silliness. Dance for a song or two.",
+      "minutes": 30
+    },
+    {
+      "kind": "art",
+      "item": "art-the-sacred-chao",
+      "name": "Look at the Sacred Chao",
+      "text": "Look at the yin-yang with a pentagon and an apple, the Discordian symbol. Draw it from memory afterwards.",
+      "minutes": 5
+    },
+    {
+      "kind": "art",
+      "item": "art-the-judgement-of-paris",
+      "name": "Look at the Judgement of Paris",
+      "text": "Look at Rubens’s painting of Paris handing the golden apple to the goddess of love. Decide who you would have chosen.",
+      "minutes": 10
+    },
+    {
+      "kind": "art",
+      "item": "art-the-golden-apple-of-discord",
+      "name": "Look at the Golden Apple of Discord",
+      "text": "Look at Jordaens’s lively painting of the wedding feast in which Eris throws the apple. Find the apple and the hand that threw it.",
+      "minutes": 10
+    },
+    {
+      "kind": "eat",
+      "item": "eat-a-hot-dog-with-no-bun",
+      "name": "Eat a hot dog with no bun",
+      "text": "Eat a hot dog, or a vegetarian one, without the bun on a Friday, joyously. In the Principia Discordia this is the dietary law. Add mustard and enjoy.",
+      "minutes": 10
+    },
+    {
+      "kind": "eat",
+      "item": "eat-a-golden-apple",
+      "name": "Eat a golden apple",
+      "text": "Eat a yellow apple, slowly, and say kallisti. Offer a slice to someone.",
+      "minutes": 5
+    },
+    {
+      "kind": "eat",
+      "item": "eat-bowling-alley-food",
+      "name": "Eat bowling alley food",
+      "text": "Eat chips, pie or whatever the counter has. Eat it in the manner of a Pope, with grease on your fingers and a smile.",
+      "minutes": 20
+    },
+    {
+      "kind": "drink",
+      "item": "drink-coffee",
+      "name": "Drink coffee late",
+      "text": "Drink a cup of black coffee late in the day, from a thick cup, at an hour when you do not usually drink one. Do not make it too late if you sleep poorly.",
+      "minutes": 10
+    },
+    {
+      "kind": "drink",
+      "item": "drink-apple-juice-or-cider",
+      "name": "Drink cloudy apple juice",
+      "text": "Drink a glass of cloudy apple juice, cold, in honour of the golden apple. Choose juice or non-alcoholic cider.",
+      "minutes": 5
+    },
+    {
+      "kind": "drink",
+      "item": "drink-a-drink-chosen-by-a-die",
+      "name": "Let a die choose your drink",
+      "text": "List six non-alcoholic drinks, roll a die and drink whatever it chooses. Accept the result with a bow.",
+      "minutes": 10
+    },
+    {
+      "kind": "customs",
+      "item": "customs-everyone-is-a-pope",
+      "name": "Give someone a Pope card",
+      "text": "Make a card that says you are a Pope and give it to someone. Treat them as important for the day.",
+      "minutes": 10
+    },
+    {
+      "kind": "customs",
+      "item": "customs-schism",
+      "name": "Start a schism",
+      "text": "Start your own cabal with a friend, with a name, a motto and one rule. Write down the first minutes.",
+      "minutes": 20
+    },
+    {
+      "kind": "customs",
+      "item": "customs-holy-names",
+      "name": "Take a holy title",
+      "text": "Give yourself a ridiculous title, such as Reverend of Left Socks, and sign a note with it. It is a Discordian custom to adopt one.",
+      "minutes": 5
+    },
+    {
+      "kind": "games",
+      "item": "games-sink",
+      "name": "Play Sink",
+      "text": "Play the Discordian game of Sink, a silly outdoor game from the Principia Discordia. Make up rules as you go and laugh at the result.",
+      "minutes": 30
+    },
+    {
+      "kind": "games",
+      "item": "games-fluxx",
+      "name": "Play Fluxx",
+      "text": "Play the card game where the rules change as you play. Deal a hand, draw a card and see what the rules have become.",
+      "minutes": 30
+    },
+    {
+      "kind": "games",
+      "item": "games-ten-pin-bowling",
+      "name": "Go bowling",
+      "text": "Go bowling, or bowl with plastic pins at home. Clap for every gutter ball and invent a ridiculous rule.",
+      "minutes": 60
+    },
+    {
+      "kind": "travel",
+      "item": "fest-st-tib-s-day",
+      "name": "Mark St. Tib’s Day",
+      "text": "St. Tib’s Day falls on 29 February, a day outside the Discordian calendar. Do something on a day that does not exist, in the spirit of gift time.",
+      "minutes": 15
+    },
+    {
+      "kind": "travel",
+      "item": "fest-mojoday",
+      "name": "Mark Mojoday",
+      "text": "Mojoday, 19 March, is the fifth day of Discord. Do something that brings you luck or energy and make a wish.",
+      "minutes": 10
+    },
+    {
+      "kind": "travel",
+      "item": "place-the-grave-of-emperor-norton",
+      "name": "Look up Emperor Norton",
+      "text": "Look up Emperor Norton of San Francisco, who declared himself Emperor of the United States in 1859 and was loved by the city. Read about him.",
+      "minutes": 10
+    },
+    {
+      "kind": "words",
+      "item": "word-kallisti",
+      "name": "Practise kallisti",
+      "text": "Kallisti means to the prettiest. Give a compliment today to someone or something that rarely gets one.",
+      "minutes": 5
+    },
+    {
+      "kind": "words",
+      "item": "word-fnord",
+      "name": "Spot a fnord",
+      "text": "A fnord is an invisible word that makes you uneasy. Notice the next ad or headline that gives you a feeling of unease, and ask why.",
+      "minutes": 5
+    },
+    {
+      "kind": "words",
+      "item": "word-hodge",
+      "name": "Think about hodge-podge",
+      "text": "In the Sacred Chao, Hodge stands for order and Podge for disorder. Find one thing in your day that is a perfect mixture of both.",
+      "minutes": 5
+    }
+  ],
   "rules": [
     {
       "id": "r1",

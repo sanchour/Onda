@@ -294,33 +294,49 @@
     {
       "id": "rise-and-sit",
       "name": "Rise at dawn and sit quietly",
-      "icon": "sun-horizon",
+      "icon": "flower-lotus",
       "slot": "Morning",
       "time": "05:45",
       "minutes": 15,
       "meta": "Morning · 15 min",
-      "instructions": "Get up at first light without lingering. Wash your face and put the room in order. Then sit upright on a chair or cushion, hands resting, eyes lowered, and be still for ten minutes. Do not try to empty the mind. Let it settle, like silt in a jar of water. When it wanders to the day’s business, bring it back to the breath and the straight spine. Then stand, and begin.",
-      "why": "In 1842 the young official Zeng Guofan drew up twelve rules for his own daily conduct, and these were the first three: be reverent, sit quietly for a period each day, and rise early. He held to them, with lapses he recorded, for thirty years. The Kangxi Emperor rose at five to read with his tutors before the morning audience.",
+      "instructions": "Get up at first light without lingering. Wash your face and put the room in order. Then sit upright on a chair or cushion, hands resting, eyes lowered, and be still for ten minutes. Do not try to empty the mind. Let it settle like muddy water left to stand. The rule of this Onda is to rise early and sit quietly each day.",
+      "why": "Quiet sitting, jingzuo, was practised by scholars of the Neo-Confucian tradition, and Qing officials rose before dawn for court and study. A short stillness gave the day a centre.",
       "variations": [
-        "Sit for the time it takes one stick of incense to burn.",
-        "Keep the same rising time every day for a month.",
-        "Sit again for five minutes before bed."
+        "Sit facing a window.",
+        "Sit for five minutes if fifteen is too long.",
+        "End by straightening your clothes."
+      ]
+    },
+    {
+      "id": "grind-the-ink",
+      "name": "Grind the ink",
+      "icon": "paint-brush",
+      "slot": "Morning",
+      "time": "06:30",
+      "minutes": 8,
+      "meta": "Morning · 8 min",
+      "instructions": "Grind a stick of ink on an inkstone with a few drops of water, slowly, in small circles, for five minutes. If you have no inkstone, use a bottle of ink and take a minute to set out your brush, paper, ink and a cup of water. The four treasures of the study are brush, ink, paper and inkstone. The grinding is the warm-up for the mind.",
+      "why": "Grinding ink was a calming ritual for scholars, a way to prepare body and mind before writing. The smell and rhythm are part of the art.",
+      "variations": [
+        "Grind to music.",
+        "Grind and look out of the window.",
+        "Count one hundred circles."
       ]
     },
     {
       "id": "brush",
       "name": "A page with the brush",
-      "icon": "paint-brush",
+      "icon": "pen-nib",
       "slot": "Morning",
       "time": "08:00",
       "minutes": 25,
       "meta": "Morning · 25 min",
-      "instructions": "After breakfast, write for twenty-five minutes by hand. If you can, use a brush, ink and absorbent paper, and copy a page of a model text one character at a time, looking hard at each before you write it. If you have no brush, copy a passage you admire in your best handwriting with a good pen. Sit straight, hold the brush upright, breathe evenly and do not hurry or go back over a stroke.",
-      "why": "Zeng Guofan’s rule was to practise calligraphy for an hour after the morning meal. Every educated person in Qing China wrote with a brush daily and spent years copying the models of earlier masters. Handwriting was read as a portrait of character: a slack hand meant a slack mind.",
+      "instructions": "After breakfast, write for twenty-five minutes by hand. If you can, use a brush, ink and absorbent paper, and copy a page of a model text one character at a time, looking hard at each before you write it. If you have no brush, use your best pen and your slowest hand. Do not hurry. The rule of this Onda is to practise your hand daily.",
+      "why": "Calligraphy was the daily discipline of every scholar, and handwriting was thought to show character. Copying models is how the art is learned.",
       "variations": [
-        "Write one character fifty times.",
-        "Grind your own ink on a stone, slowly, before you begin.",
-        "Keep the pages, date them, and compare them after thirty days."
+        "Copy a poem you love.",
+        "Practise one stroke for ten minutes.",
+        "Hang the best page on the wall."
       ]
     },
     {
@@ -331,28 +347,140 @@
       "time": "10:00",
       "minutes": 40,
       "meta": "Morning · 40 min",
-      "instructions": "Choose one serious book and read it straight through this month. Do not start another until it is finished. Read for thirty minutes with a pencil in your hand. Then read ten pages of history. When you stop, write down in a notebook one thing you learned today that you did not know yesterday, with the page it came from. Once a month, look back to make sure you have not forgotten what you knew.",
-      "why": "Three of Zeng’s twelve rules cover this: do not open a second book before finishing the first, read ten pages of the histories daily, and record each day what you have newly learned. The last rule comes from the great scholar Gu Yanwu, who called his life’s notebook the Record of Daily Knowledge and checked every claim against the sources.",
+      "instructions": "Choose one serious book and read it straight through this month. Do not start another until it is finished. Read for thirty minutes with a pencil in your hand. Then read ten pages of history. When you stop, write down in two lines what you learned. The rule of this Onda is to finish one book before starting another.",
+      "why": "The scholar’s method was to read a single text deeply, to know it by heart. Reading one book through changes how you read everything else.",
       "variations": [
-        "Copy out one sentence worth keeping.",
-        "Check one thing you have always believed against a good source.",
-        "Tell someone what you learned today, in two sentences."
+        "Write a summary of each chapter.",
+        "Copy the best line.",
+        "Discuss the book with a friend."
+      ]
+    },
+    {
+      "id": "a-bowl-of-congee",
+      "name": "A bowl of congee",
+      "icon": "bowl-steam",
+      "slot": "Morning",
+      "time": "07:00",
+      "minutes": 20,
+      "meta": "Morning · 20 min",
+      "instructions": "Eat a bowl of plain congee for breakfast: rice simmered with plenty of water until it is soft, with pickles, a little tofu or a salted egg on the side. It is warm, easy to digest and cheap. Sit down and eat it slowly. It was the usual breakfast across China, from the palace kitchens to the poorest homes.",
+      "why": "Congee has been China’s morning food for over two thousand years. Eating it quietly makes a calm start.",
+      "variations": [
+        "Add ginger and scallions.",
+        "Cook it overnight in a slow cooker.",
+        "Share a pot with the family."
+      ]
+    },
+    {
+      "id": "greet-your-elders",
+      "name": "Greet your elders",
+      "icon": "users",
+      "slot": "Morning",
+      "time": "08:30",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Greet the oldest person in your household or circle with special respect this morning: stand, use their title, ask after their health and offer to help. If they live far away, call. Filial respect, xiao, was the foundation of Qing family life. Say thank you for something specific they have given you.",
+      "why": "Respect for elders was at the heart of Qing society. A formal morning greeting is a small and pleasant way to honour it.",
+      "variations": [
+        "Serve them tea first.",
+        "Ask for a family story.",
+        "Write them a letter."
       ]
     },
     {
       "id": "tea-and-garden",
       "name": "Tea, and a turn in the garden",
-      "icon": "leaf",
+      "icon": "coffee",
       "slot": "Afternoon",
       "time": "15:30",
       "minutes": 20,
       "meta": "Afternoon · 20 min",
-      "instructions": "In mid-afternoon stop work and make tea properly. Warm a small pot and cups with hot water. Use good leaf, and pour the first quick infusion away. Brew the second for a few breaths and pour it out completely. Look at the colour, smell it, and drink in three sips. Make two or three more infusions. Then walk slowly for ten minutes among plants, in a garden, a park or a courtyard, and look at one thing closely: a rock, a branch, moving water.",
-      "why": "The scholar’s afternoon belonged to tea, friends and the garden. Qing writers composed whole books on water and leaf, and the Qianlong Emperor carried a small silver measure to weigh the water of every spring he visited. Zeng Guofan’s rule was to walk a thousand paces after each meal.",
+      "instructions": "In mid-afternoon stop work and make tea properly. Warm a small pot and cups with hot water. Use good leaf, and pour the first quick infusion away. Brew the second for a few breaths and pour it out completely. Look at the leaves and smell the cup before you sip. Then take a slow turn in a garden or on the nearest green space, and look at one plant closely.",
+      "why": "The gongfu way of brewing tea, many short infusions from a small pot, flourished in the Qing. A walk in a garden afterwards is the scholar’s break.",
       "variations": [
-        "Tend a potted plant or a tray landscape.",
-        "Invite one friend, and talk of anything except work.",
-        "Play a short game of Go."
+        "Brew the same leaf four times and compare.",
+        "Share a pot with a friend.",
+        "Take a notebook to the garden."
+      ]
+    },
+    {
+      "id": "write-a-couplet",
+      "name": "Write a couplet",
+      "icon": "quotes",
+      "slot": "Afternoon",
+      "time": "14:30",
+      "minutes": 15,
+      "meta": "Afternoon · 15 min",
+      "instructions": "Write a couplet: two lines of equal length that answer each other, like a pair of door scrolls. Match noun to noun, verb to verb, colour to colour, and opposite to opposite. For example: morning sun on the old wall, evening rain on the new roof. Write it in your best hand. A scholar of the Qing could make couplets on request.",
+      "why": "Duilian, antithetical couplets, are an essential part of Chinese literary life, hung at doors at the New Year. Making one is a joyful word game.",
+      "variations": [
+        "Write a couplet for your door.",
+        "Match a friend’s first line.",
+        "Write one about the weather."
+      ]
+    },
+    {
+      "id": "carve-a-seal",
+      "name": "Carve a seal",
+      "icon": "pencil",
+      "slot": "Afternoon",
+      "time": "16:30",
+      "minutes": 25,
+      "meta": "Afternoon · 25 min",
+      "instructions": "Carve a seal from a soft eraser or a block of soft stone: mark your name or a short motto, mirror-reversed, and cut around it with a craft knife or a carving tool. Use care and cut away from your fingers. Press it in ink on your calligraphy. Seals marked every scholar’s paintings and letters. Choose a studio name for yourself.",
+      "why": "Seals and studio names were a mark of the cultured person. An eraser seal is a cheap way to try the art of seal carving.",
+      "variations": [
+        "Carve your initial.",
+        "Carve a short motto.",
+        "Press it on a gift card."
+      ]
+    },
+    {
+      "id": "a-game-of-weiqi",
+      "name": "A game of weiqi",
+      "icon": "cube",
+      "slot": "Afternoon",
+      "time": "17:00",
+      "minutes": 30,
+      "meta": "Afternoon · 30 min",
+      "instructions": "Play weiqi, called Go in the West, with a friend or against a computer, on a small board. Scholars played it as one of the four arts. Surround, don’t capture. Take your time, and shake hands at the end. Or play xiangqi, Chinese chess, or a hand of mahjong, which became the craze of the late Qing.",
+      "why": "Weiqi, music, calligraphy and painting were the four arts of the Chinese scholar. A game is a pleasant afternoon discipline.",
+      "variations": [
+        "Play on a 9 by 9 board for speed.",
+        "Study a famous game for ten minutes.",
+        "Teach a child the rules."
+      ]
+    },
+    {
+      "id": "look-at-a-landscape",
+      "name": "Look at a landscape",
+      "icon": "mountains",
+      "slot": "Afternoon",
+      "time": "13:00",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Look at a Chinese landscape painting for ten minutes, in a book or online: a mountain, a river, a tiny figure in a boat. Let your eyes travel, as the scholar was meant to, walking through the painting without moving. Find the path and follow it. Notice the empty space. Stop when your mind has settled.",
+      "why": "Landscape painting was the supreme art of the scholars, a way of travelling at home. Looking slowly is the way to see it.",
+      "variations": [
+        "Look at a Wang Hui scroll.",
+        "Look at Bada Shanren’s fish.",
+        "Draw a quick sketch in ink."
+      ]
+    },
+    {
+      "id": "walk-and-compose-a-poem",
+      "name": "Walk and compose a poem",
+      "icon": "feather",
+      "slot": "Afternoon",
+      "time": "16:00",
+      "minutes": 30,
+      "meta": "Afternoon · 30 min",
+      "instructions": "Take a walk in a garden or park, and compose a poem as you go. A short one: four lines, a picture and a feeling. Find a sight, such as a bird on a roof, and say what it means to you. Jot it in your notebook. Scholars wrote poems on every outing, and shared them with friends.",
+      "why": "Poem-writing was a social habit among Qing scholars, and a walk was the best source. A simple four-line poem is within anyone’s reach.",
+      "variations": [
+        "Write it in the form of a haiku.",
+        "Share it with a friend.",
+        "Copy it on good paper."
       ]
     },
     {
@@ -363,136 +491,341 @@
       "time": "21:00",
       "minutes": 15,
       "meta": "Evening · 15 min",
-      "instructions": "Before bed write the day’s entry in a bound book, in your neatest hand. Record what you did and whom you saw. Then examine yourself under three heads. Speech: did you say anything false, boastful or unkind? Conduct: where were you lazy, irritable or self-indulgent? Study: what did you learn? Write the faults down plainly. Finish with one line to your parents or elders, living or dead. Do not go out again tonight.",
-      "why": "Zeng Guofan kept his diary in careful standard script and filled it with reproaches to himself for sleeping late, talking too much and looking at women. He sent it to his brothers and teacher to read. His last rules were to guard his speech, to protect his health and never to go out at night.",
+      "instructions": "Before bed write the day’s entry in a bound book, in your neatest hand. Record what you did and whom you saw. Then examine yourself under three heads. Speech: did you say anything false, boastful or unkind? Conduct: where did you fall short of your duty? Study: what did you learn? Name your faults plainly. The rule of this Onda is to keep a diary and name your faults.",
+      "why": "Qing scholars, following the Neo-Confucian tradition, kept diaries of self-examination. Zeng Guofan’s are the most famous.",
       "variations": [
-        "Once a month, show a page to a friend you trust and ask for criticism.",
-        "Write home once a week.",
-        "On the first and fifteenth of the month, bow to your ancestors’ names."
-      ]
-    }
-  ],
-  "tasks": [
-    {
-      "id": "task-read-the-first-chapter-of-the-story-of-the-stone",
-      "name": "Read the first chapter of The Story of the Stone",
-      "meta": "Read · 40 min",
-      "time": "20:00",
-      "slot": "Evening",
-      "action": "read"
-    },
-    {
-      "id": "task-listen-to-flowing-water-on-the-qin-played-by-guan-pinghu",
-      "name": "Listen to Flowing Water on the qin, played by Guan Pinghu",
-      "meta": "Listen · 7 min, alone",
-      "time": "16:30",
-      "slot": "Afternoon",
-      "action": "listen"
-    },
-    {
-      "id": "task-watch-the-last-emperor",
-      "name": "Watch The Last Emperor",
-      "meta": "Watch · filmed inside the Forbidden City",
-      "time": "20:30",
-      "slot": "Evening",
-      "action": "watch"
-    },
-    {
-      "id": "task-play-one-game-of-go-on-a-small-board",
-      "name": "Play one game of Go on a small board",
-      "meta": "Games · 9 by 9 lines",
-      "time": "17:00",
-      "slot": "Afternoon",
-      "action": "games"
-    },
-    {
-      "id": "task-journal-what-did-you-newly-learn-today",
-      "name": "Journal: what did you newly learn today?",
-      "meta": "Journal · 10 min",
-      "time": "21:30",
-      "slot": "Evening",
+        "Write the entry in your best hand.",
+        "Look back at last week’s entries.",
+        "Note one fault and one remedy."
+      ],
       "action": "journal"
     },
     {
-      "id": "task-is-every-ordinary-person-responsible-for-the-state-of-the-world",
-      "name": "Is every ordinary person responsible for the state of the world?",
-      "meta": "Philosophy · 10 min",
-      "time": "09:30",
-      "slot": "Morning",
-      "action": "philosophy"
+      "id": "read-from-the-story-of-the-stone",
+      "name": "Read from the Story of the Stone",
+      "icon": "book-open",
+      "slot": "Evening",
+      "time": "20:00",
+      "minutes": 20,
+      "meta": "Evening · 20 min",
+      "instructions": "Read a chapter of Cao Xueqin’s great novel aloud, in David Hawkes’s translation, perhaps the arrival of Lin Daiyu at the Jia house or the poetry club in the garden. Read as a family would, one reading and the rest listening. The Story of the Stone, also called Dream of the Red Chamber, was the favourite of Qing readers.",
+      "why": "The Story of the Stone is the greatest of Chinese novels, written in the 1750s. Reading it aloud is a shared pleasure.",
+      "variations": [
+        "Read a poem from the book.",
+        "Draw a character.",
+        "Watch an episode of the series after."
+      ]
     },
     {
-      "id": "walk-a-thousand-paces-after-each-meal",
-      "name": "Walk a thousand paces after each meal",
-      "meta": "Zeng Guofan’s rule",
-      "time": "13:00",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "speak-less-today-and-nothing-boastful",
-      "name": "Speak less today, and nothing boastful",
-      "meta": "Guard your speech",
-      "time": "11:00",
-      "slot": "Morning"
-    },
-    {
-      "id": "write-a-few-lines-of-verse-about-what-is-outside-your-window",
-      "name": "Write a few lines of verse about what is outside your window",
-      "meta": "A poem a month, at least",
-      "time": "18:30",
-      "slot": "Evening"
-    },
-    {
-      "id": "treat-warm-the-pot-rinse-the-leaves-and-pour-tea-in-three-small-cu",
-      "name": "Warm the pot, rinse the leaves and pour tea in three small cups",
-      "meta": "The first cup is for the nose",
-      "time": "15:30",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "treat-write-one-character-with-water-on-a-stone-or-the-pavement",
-      "name": "Write one character with water on a stone or the pavement",
-      "meta": "It dries, and that is fine",
-      "time": "08:30",
-      "slot": "Morning"
-    },
-    {
-      "id": "treat-hang-something-for-the-birds-and-listen",
-      "name": "Hang something for the birds and listen",
-      "meta": "A scholar kept songbirds",
-      "time": "08:30",
-      "slot": "Morning"
-    },
-    {
-      "id": "treat-look-at-the-moon-and-think-of-someone-who-can-see-it-too",
-      "name": "Look at the moon and think of someone who can see it too",
-      "meta": "An old theme",
-      "time": "19:30",
-      "slot": "Evening"
-    },
-    {
-      "id": "daily-practise-one-character-with-a-brush-or-a-pen",
-      "name": "Practise one character with a brush or a pen",
-      "meta": "Copying was how every scholar began",
-      "time": "14:00",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "daily-eat-something-small-with-tea",
-      "name": "Eat something small with tea",
-      "meta": "Dim sum is said to mean touch the heart",
-      "time": "14:00",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "daily-sit-by-a-window-and-listen-to-the-rain-or-the-wind",
-      "name": "Sit by a window and listen to the rain or the wind",
-      "meta": "A scholar’s evening",
+      "id": "listen-to-the-qin",
+      "name": "Listen to the qin",
+      "icon": "music-note",
+      "slot": "Evening",
       "time": "20:30",
-      "slot": "Evening"
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Play Flowing Water or another piece for the qin, the seven-stringed zither, and sit still for fifteen minutes. The qin was the instrument of the scholar, played alone or for a close friend, not for a crowd. Listen to the pauses and the sliding tones. Close your eyes and let the music clear the day.",
+      "why": "The qin was one of the four arts, and its music valued silence and understatement. Listening is a way of quiet sitting.",
+      "variations": [
+        "Listen with a cup of tea.",
+        "Listen with the lights low.",
+        "Listen to a pipa piece after."
+      ]
+    },
+    {
+      "id": "moon-gazing-with-tea",
+      "name": "Moon gazing with tea",
+      "icon": "moon-stars",
+      "slot": "Evening",
+      "time": "19:00",
+      "minutes": 20,
+      "meta": "Evening · 20 min",
+      "instructions": "Take a pot of tea to a window, balcony or garden and look at the moon for twenty minutes. Chinese poets wrote of the moon more than of anything else. Say a line from a poem you know, such as Li Bai’s Quiet Night Thought. If it is cloudy, think of the moon above the clouds. Drink slowly.",
+      "why": "Moon-gazing is the loveliest Chinese pastime, especially at the Mid-Autumn Festival. A cup of tea and a window are enough.",
+      "variations": [
+        "Eat a mooncake.",
+        "Write a poem about the moon.",
+        "Invite a friend to look with you."
+      ]
+    },
+    {
+      "id": "a-letter-on-good-paper",
+      "name": "A letter on good paper",
+      "icon": "envelope-simple",
+      "slot": "Evening",
+      "time": "20:30",
+      "minutes": 20,
+      "meta": "Evening · 20 min",
+      "instructions": "Write a letter to a friend on your best paper, in your best hand. Use polite phrases for opening and closing. Tell them about your studies and your garden, and ask after theirs. Fold it neatly and put it in an envelope. A Qing scholar maintained friendships by letters and poems exchanged across great distances.",
+      "why": "Letters and poems exchanged between friends were the lifeblood of scholarly life. A properly written letter is a gift.",
+      "variations": [
+        "Include a short poem.",
+        "Seal it with a seal.",
+        "Post it the next morning."
+      ]
+    },
+    {
+      "id": "put-the-study-in-order",
+      "name": "Put the study in order",
+      "icon": "books",
+      "slot": "Evening",
+      "time": "21:30",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Before bed, tidy your desk: wash the brush, cap the ink, stack the books, clear the cups. Leave the room ready for tomorrow. A clean study was the first discipline of a scholar. Say a quiet thank you for the day’s work. A tidy room makes it easy to begin again.",
+      "why": "A well-kept study is an old ideal. The discipline of putting things away is part of keeping a steady mind.",
+      "variations": [
+        "Wipe the desk.",
+        "Choose tomorrow’s first task.",
+        "Dust the books."
+      ]
+    },
+    {
+      "id": "an-elegant-gathering",
+      "name": "An elegant gathering",
+      "icon": "users-three",
+      "slot": "Special",
+      "time": "15:00",
+      "minutes": 120,
+      "meta": "On a free afternoon · 120 min",
+      "instructions": "Hold a yaji, an elegant gathering, in the style of Qing scholars: invite three or four friends to a garden or a quiet room. Make tea, write poems on a given theme, look at a painting or a flower, and share a few sweets. Each person writes a line, and the group finishes a poem together. End by reading it aloud. It needs no money, only attention.",
+      "why": "The elegant gathering was the high point of the scholarly social life, held in gardens and studios. A small version is a delight.",
+      "variations": [
+        "Set the theme in advance.",
+        "Bring a flower for the table.",
+        "Have each guest write a line."
+      ]
+    },
+    {
+      "id": "a-day-in-a-garden",
+      "name": "A day in a garden",
+      "icon": "tree",
+      "slot": "Special",
+      "time": "10:00",
+      "minutes": 120,
+      "meta": "On a free morning · 120 min",
+      "instructions": "Spend a morning in a garden, ideally a classical or traditional one, though any park will do. Walk slowly. Pause at each view, as in a Suzhou garden where every window frames a picture. Sit by water, brew tea if you can and write a poem or a diary page. The scholar’s garden was meant for walking, looking and thinking.",
+      "why": "The classical gardens of Suzhou were designed for contemplation, with each view carefully planned. A day in one, or in any garden, is a retreat.",
+      "variations": [
+        "Bring a flask of tea.",
+        "Sketch one view.",
+        "Take photographs through windows."
+      ]
     }
   ],
-  "immersePlan": [],
+  "tasks": [],
+  "immersePlan": [
+    {
+      "kind": "read",
+      "item": "read-the-story-of-the-stone",
+      "name": "Read a chapter of The Story of the Stone",
+      "text": "Read one chapter of Cao Xueqin’s novel in Hawkes’s translation, perhaps the poetry club at the garden. Note a poem.",
+      "minutes": 25
+    },
+    {
+      "kind": "read",
+      "item": "read-six-records-of-a-floating-life",
+      "name": "Read Six Records of a Floating Life",
+      "text": "Read a chapter of Shen Fu’s tender memoir of his marriage and the small pleasures of a modest life in Suzhou. Notice the details.",
+      "minutes": 20
+    },
+    {
+      "kind": "read",
+      "item": "read-strange-tales-from-a-chinese-studio",
+      "name": "Read a strange tale",
+      "text": "Read one of Pu Songling’s ghost and fox stories. They are short, witty and uncanny. Retell it to someone.",
+      "minutes": 15
+    },
+    {
+      "kind": "watch",
+      "item": "watch-dream-of-the-red-chamber",
+      "name": "Watch an episode of Dream of the Red Chamber",
+      "text": "Watch the first episode of the 1987 TV series of the great novel. Notice the gardens and costumes.",
+      "minutes": 45
+    },
+    {
+      "kind": "watch",
+      "item": "watch-the-last-emperor",
+      "name": "Watch The Last Emperor",
+      "text": "Watch Bertolucci’s 1987 film of Puyi, the last emperor of the Qing, from the Forbidden City to the end of his life. It is visually beautiful.",
+      "minutes": 160
+    },
+    {
+      "kind": "watch",
+      "item": "watch-story-of-yanxi-palace",
+      "name": "Watch an episode of Story of Yanxi Palace",
+      "text": "Watch an episode of the 2018 drama set in the Qing court. Notice the costumes, tea and rituals.",
+      "minutes": 45
+    },
+    {
+      "kind": "listen",
+      "item": "listen-flowing-water",
+      "name": "Listen to Flowing Water on the qin",
+      "text": "Play Guan Pinghu’s recording of the classic qin piece. Sit still and follow the water.",
+      "minutes": 10
+    },
+    {
+      "kind": "listen",
+      "item": "listen-ambush-from-ten-sides",
+      "name": "Listen to Ambush from Ten Sides",
+      "text": "Play the pipa piece depicting a battle, with galloping strings and clashes. Listen to how one instrument creates an army.",
+      "minutes": 8
+    },
+    {
+      "kind": "listen",
+      "item": "listen-the-peony-pavilion",
+      "name": "Listen to The Peony Pavilion",
+      "text": "Play a scene from the Kunqu opera, a slow, lyrical style loved by scholars. Follow a translation.",
+      "minutes": 20
+    },
+    {
+      "kind": "art",
+      "item": "art-one-hundred-horses",
+      "name": "Look at One Hundred Horses",
+      "text": "Look at Giuseppe Castiglione’s scroll, painted for the Yongzheng Emperor by an Italian Jesuit in the Chinese court. Count the horses.",
+      "minutes": 15
+    },
+    {
+      "kind": "art",
+      "item": "art-fish-and-rocks",
+      "name": "Look at Bada Shanren’s fish",
+      "text": "Look at the Ming prince-turned-monk’s fish with eyes that stare in all directions. Study the economy of the ink.",
+      "minutes": 5
+    },
+    {
+      "kind": "art",
+      "item": "art-the-jadeite-cabbage",
+      "name": "Look at the Jadeite Cabbage",
+      "text": "Look at the carved jade cabbage with a locust and a katydid on the leaves, a lucky symbol. It is in the National Palace Museum in Taipei.",
+      "minutes": 5
+    },
+    {
+      "kind": "eat",
+      "item": "eat-roast-duck",
+      "name": "Eat roast duck with pancakes",
+      "text": "Eat thin slices of crisp-skinned duck rolled in a pancake with spring onion and sweet sauce. Or choose a vegetarian version with mushrooms.",
+      "minutes": 45
+    },
+    {
+      "kind": "eat",
+      "item": "eat-hot-pot",
+      "name": "Share a hot pot",
+      "text": "Cook thin slices of meat, tofu and vegetables in a pot of simmering broth at the table. Eat with friends and take turns.",
+      "minutes": 60
+    },
+    {
+      "kind": "eat",
+      "item": "eat-sachima",
+      "name": "Try sachima",
+      "text": "Taste the Manchu sweet of fried dough strands bound with syrup. Eat a small piece with tea.",
+      "minutes": 10
+    },
+    {
+      "kind": "drink",
+      "item": "drink-longjing-tea",
+      "name": "Brew Longjing tea",
+      "text": "Brew flat green leaves from Hangzhou in a glass, and watch them float down and unfurl. Sip slowly.",
+      "minutes": 15
+    },
+    {
+      "kind": "drink",
+      "item": "drink-jasmine-tea",
+      "name": "Brew jasmine tea",
+      "text": "Brew green tea scented with jasmine flowers, in a small pot. Smell the cup before sipping.",
+      "minutes": 10
+    },
+    {
+      "kind": "drink",
+      "item": "drink-pu-er",
+      "name": "Brew pu’er tea",
+      "text": "Rinse a pinch of aged, compressed tea, then steep it for a minute. Notice the dark colour and earthy taste.",
+      "minutes": 15
+    },
+    {
+      "kind": "customs",
+      "item": "customs-the-examinations",
+      "name": "Study as for the imperial exam",
+      "text": "Study a text for one hour as a candidate would, with no distractions, and write a short essay in answer. End by reading your essay aloud.",
+      "minutes": 60
+    },
+    {
+      "kind": "customs",
+      "item": "customs-tomb-sweeping",
+      "name": "Tend a grave or a memory",
+      "text": "At Qingming in early April families sweep the tombs of their ancestors. Visit a grave or tend a memory today: clean a stone, bring flowers, tell a story.",
+      "minutes": 30
+    },
+    {
+      "kind": "customs",
+      "item": "customs-seals-and-studio-names",
+      "name": "Choose a studio name",
+      "text": "Choose a studio name for your desk, such as Studio of the Quiet Window, and write it on a card. Use it to sign a note.",
+      "minutes": 10
+    },
+    {
+      "kind": "games",
+      "item": "games-weiqi",
+      "name": "Play weiqi",
+      "text": "Play a short game of Go on a small board, and bow at the end.",
+      "minutes": 30
+    },
+    {
+      "kind": "games",
+      "item": "games-mahjong",
+      "name": "Play mahjong",
+      "text": "Play a hand of mahjong with friends, which became the craze of the late Qing. Listen to the clack of tiles.",
+      "minutes": 40
+    },
+    {
+      "kind": "games",
+      "item": "games-xiangqi",
+      "name": "Play xiangqi",
+      "text": "Play Chinese chess, with two armies across a river and a general who stays in his palace.",
+      "minutes": 30
+    },
+    {
+      "kind": "travel",
+      "item": "fest-spring-festival",
+      "name": "Mark the Spring Festival",
+      "text": "The Spring Festival is the Chinese New Year. Clean the house, hang a couplet and call an elder to wish them well.",
+      "minutes": 20
+    },
+    {
+      "kind": "travel",
+      "item": "fest-mid-autumn-festival",
+      "name": "Mark the Mid-Autumn Festival",
+      "text": "On the fifteenth of the eighth lunar month, look at the full moon with family and eat mooncakes. Say a line of poetry.",
+      "minutes": 30
+    },
+    {
+      "kind": "travel",
+      "item": "place-the-classical-gardens-of-suzhou",
+      "name": "Look up the gardens of Suzhou",
+      "text": "Look at pictures of the scholars’ gardens of Suzhou, with their moon gates and framed views. Pick a window.",
+      "minutes": 15
+    },
+    {
+      "kind": "words",
+      "item": "word-jingzuo",
+      "name": "Practise jingzuo",
+      "text": "Jingzuo is quiet sitting. Sit upright for ten minutes, hands resting, eyes lowered.",
+      "minutes": 10
+    },
+    {
+      "kind": "words",
+      "item": "word-shufa",
+      "name": "Practise shufa",
+      "text": "Shufa is calligraphy. Write one line of a poem in your best hand, slowly, and hang it up.",
+      "minutes": 10
+    },
+    {
+      "kind": "words",
+      "item": "word-wenfang-sibao",
+      "name": "Set out the four treasures",
+      "text": "Wenfang sibao are the four treasures of the study: brush, ink, paper and inkstone. Set them out on your desk and use each one.",
+      "minutes": 10
+    }
+  ],
   "rules": [
     {
       "id": "r1",

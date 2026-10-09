@@ -283,65 +283,193 @@
     {
       "id": "three-knots",
       "name": "Three knots",
-      "icon": "repeat",
+      "icon": "link",
       "slot": "Morning",
       "time": "06:45",
       "minutes": 5,
       "meta": "Morning · 5 min",
-      "instructions": "After washing, stand facing a source of light: the sun, a window, a lamp. Take a belt, a cord or the hem of your shirt in both hands. Tie one knot, or touch it, and say: today, good thoughts. A second: good words. A third: good deeds. Then say in your own words that you choose the side of truth today and reject the lie. Stand still for a few breaths in the light.",
-      "why": "Zoroastrians untie and retie the kusti, the sacred cord, on rising and through the day, facing the light and renewing their commitment. This is a guest’s version of the same resolve, without the cord itself.",
+      "instructions": "After washing, stand facing a source of light: the sun, a window, a lamp. Take a belt, a cord or the hem of your shirt in both hands. Tie one knot, or touch it, and say: today, good thoughts. A second: good words. A third: good deeds. Hold the three together for a breath, and let go. This is only a borrowed echo of the practice of the sacred cord, which belongs to the community.",
+      "why": "Good thoughts, good words and good deeds are the three-fold ethic of Zoroastrianism. A morning reminder with a cord makes them physical and easy to remember.",
       "variations": [
-        "Say the three words again each time you wash your hands.",
-        "Learn the Ashem Vohu in English and say it once.",
-        "Do it outdoors at sunrise."
+        "Use a ribbon or a piece of string and keep it in your pocket.",
+        "Do it standing at an open window.",
+        "Choose one concrete good deed to match the thought."
       ]
     },
     {
       "id": "keep-the-flame",
       "name": "Keep a flame",
-      "icon": "fire",
+      "icon": "flame",
       "slot": "Morning",
       "time": "07:00",
       "minutes": 10,
       "meta": "Morning · 10 min",
-      "instructions": "Light a candle or an oil lamp in a clean, safe place. Sit before it for ten minutes. Look at the flame steadily. Think of what it does: it gives light, it gives warmth, it rises, it cannot be made dirty. Ask what in you is like that and what dims it. Put it out by pinching or covering the wick. Do not blow on it.",
-      "why": "Fire is the sign of asha and of the divine presence. In the great temples a fire has been fed by hand five times a day for centuries. A priest covers his mouth so that his breath does not touch it.",
+      "instructions": "Light a candle or an oil lamp in a clean, safe place. Sit before it for ten minutes. Look at the flame steadily. Think of what it does: it gives light, it gives warmth, it rises, it cannot be made dirty. Ask what in you could do likewise. Put it out gently when you are done. Never leave a flame unattended.",
+      "why": "Fire is a symbol of truth and purity in Zoroastrian life, tended in the home and in the fire temple. A candle is a small way to reflect on that.",
       "variations": [
-        "Sit facing the rising or setting sun instead.",
-        "Keep one lamp burning through an evening and tend it.",
-        "Add a little sandalwood or incense, as worshippers do."
+        "Use an oil lamp.",
+        "Watch the flame with your eyes half closed.",
+        "Say what the light helps you see."
+      ]
+    },
+    {
+      "id": "sprout-something",
+      "name": "Sprout something",
+      "icon": "plant",
+      "slot": "Morning",
+      "time": "07:30",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Start a jar of sprouts, wheat, lentils or mung beans, as is done for the Nowruz sabzeh. Soak a spoonful overnight, rinse it twice a day, and watch the green appear in a week. Put it where you can see it. Growing a living thing from seed is a quiet act of hope and an old Persian spring custom.",
+      "why": "Sprouted wheat or lentils are part of the Nowruz table, a symbol of rebirth. Starting a sprout jar is easy, cheap and rewarding.",
+      "variations": [
+        "Grow cress on damp cloth.",
+        "Tie a ribbon around the pot.",
+        "Add a new jar each week."
+      ]
+    },
+    {
+      "id": "choose-cheerfulness",
+      "name": "Choose cheerfulness",
+      "icon": "smiley",
+      "slot": "Morning",
+      "time": "07:15",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Decide to be cheerful today as an act of will. Smile at the first person you see. Put on a song you love. Do one thing that makes you laugh before nine. In Zoroastrianism, gloom is considered a weakness of the world’s adversary, and joy is a duty. When the day goes wrong, remember you chose.",
+      "why": "Zoroastrian teaching holds that grief and gloom serve the wrong side and joy serves the right. The rule of this Onda is to be cheerful.",
+      "variations": [
+        "Tell a joke to someone.",
+        "Wear a bright colour.",
+        "Begin a conversation with good news."
+      ]
+    },
+    {
+      "id": "clean-water",
+      "name": "Clean water",
+      "icon": "drop",
+      "slot": "Morning",
+      "time": "08:00",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Treat water with respect today. Run the tap only as long as you need. Do not pour anything harmful down the drain. Drink a full glass slowly, and think where it came from. Zoroastrian tradition honours water as one of the pure creations to be kept clean. The rule of this Onda is to keep water, earth and fire clean.",
+      "why": "Keeping water, earth and fire unpolluted is a part of Zoroastrian ethics, and an early form of environmental care.",
+      "variations": [
+        "Collect a jug of rainwater for the plants.",
+        "Time your shower and shorten it.",
+        "Clear litter from a drain."
+      ]
+    },
+    {
+      "id": "greet-the-light",
+      "name": "Greet the light",
+      "icon": "sun-horizon",
+      "slot": "Morning",
+      "time": "06:30",
+      "minutes": 3,
+      "meta": "Morning · 3 min",
+      "instructions": "Face the sun or the brightest window as it rises. Stand quietly for three breaths and let the light fall on your face. Zoroastrians pray in the light of the sun or a flame. As a guest, you do not need to pray. Just welcome the light and let it start the day.",
+      "why": "Turning toward the light is a Zoroastrian custom linked to the sun and fire as symbols of the divine. A short welcome costs nothing.",
+      "variations": [
+        "Do it before you switch on any lamp.",
+        "Do it on a balcony or step.",
+        "Do it on a cloudy day and imagine the sun behind it."
       ]
     },
     {
       "id": "one-true-word",
       "name": "The true word",
-      "icon": "chats",
+      "icon": "quotes",
       "slot": "Afternoon",
       "time": "13:00",
       "minutes": 5,
       "meta": "Afternoon · 5 min",
-      "instructions": "Choose one moment today when a lie, a flattering half-truth or a convenient silence would be easier, and tell the truth instead, plainly and without unkindness. Keep every promise you make today, including the small ones about time. In the evening count the day’s untruths, including the ones told to yourself.",
-      "why": "The religion’s deepest opposition is between truth and the lie. The Persians, wrote Herodotus, taught their sons three things: to ride, to draw the bow and to speak the truth.",
+      "instructions": "Choose one moment today when a lie, a flattering half-truth or a convenient silence would be easier, and tell the truth instead, plainly and without unkindness. Keep every promise you make today, including the small ones. Notice how it feels. The opposite of asha, truth, is druj, the lie, and the rule of this Onda is that your word should be good.",
+      "why": "Truth is the highest value in Zoroastrian ethics, and the lie is the great enemy. One honest sentence a day is a practical start.",
       "variations": [
-        "Correct one false impression you have allowed to stand.",
-        "Pay a bill or a debt on the day it is due.",
-        "Say I do not know when you do not."
+        "Admit a mistake before anyone notices.",
+        "Keep a promise you made long ago.",
+        "Say no kindly, instead of yes falsely."
       ]
     },
     {
       "id": "tend-creation",
       "name": "Tend the creation",
-      "icon": "plant",
+      "icon": "tree",
       "slot": "Afternoon",
       "time": "16:00",
       "minutes": 15,
       "meta": "Afternoon · 15 min",
-      "instructions": "Do one thing that leaves the physical world in better order: clear rubbish from a stream or a street, water a tree, plant something, clean a neglected corner, feed an animal, mend what is broken. Take care not to foul water, soil or fire while you do it. Think of it as taking a side.",
-      "why": "Each of the seven creations has a divine guardian: sky, water, earth, plants, animals, humankind and fire. Humans are the stewards. Zoroastrianism has been called the first ecological religion for this reason.",
+      "instructions": "Do one thing that leaves the physical world in better order: clear rubbish from a stream or a street, water a tree, plant something, clean a neglected corner, feed an animal, mend what is broken. Take care not to foul water, earth or fire as you work. Look at what you have improved before you leave it.",
+      "why": "Zoroastrianism sees humans as partners in making the world good. Caring for the creation is a duty and a pleasure.",
       "variations": [
-        "Never pour anything dirty into a river or the sea.",
-        "Plant something that will outlive the Onda.",
-        "Care for a dog, which the tradition holds in special honour."
+        "Plant a seed or a cutting.",
+        "Clean a fountain or a pond edge.",
+        "Do it with a child."
+      ]
+    },
+    {
+      "id": "give-generously",
+      "name": "Give generously",
+      "icon": "gift",
+      "slot": "Afternoon",
+      "time": "15:00",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Give something today that costs you a little: money, time or a thing you like. Give it to someone who needs it, with a smile, and without a lecture. Generosity is one of the six rules of this Onda. Zoroastrians are known for generous charity and for the founding of schools and hospitals. Choose a gift and give it before the day ends.",
+      "why": "Charity is a pillar of Zoroastrian ethics, and Parsi philanthropy in India has been exceptional. Giving gladly counts twice.",
+      "variations": [
+        "Pay for a stranger’s coffee.",
+        "Give a day of your skills to someone.",
+        "Donate to a clean water charity."
+      ]
+    },
+    {
+      "id": "save-a-flame",
+      "name": "Save a flame",
+      "icon": "lightning",
+      "slot": "Afternoon",
+      "time": "14:00",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Walk round the house or office and turn off what is not being used: lights, chargers, screens, a heater. Treat energy as the sacred fire it is. Note what you have saved. Fire is honoured in Zoroastrianism and not to be wasted or defiled. A moment of tidying power is also a moment of respect.",
+      "why": "Wasting fire and fuel is thought discourteous in the Zoroastrian tradition, which sees fire as pure. Saving energy is a modern way to honour that.",
+      "variations": [
+        "Unplug an appliance you never use.",
+        "Dry laundry in the sun.",
+        "Use a candle instead of a lamp for an hour."
+      ]
+    },
+    {
+      "id": "walk-in-a-garden",
+      "name": "Walk in a garden",
+      "icon": "tree-evergreen",
+      "slot": "Afternoon",
+      "time": "16:30",
+      "minutes": 15,
+      "meta": "Afternoon · 15 min",
+      "instructions": "Visit a garden, park or courtyard and walk through it slowly for fifteen minutes. The Persian word pairidaeza, a walled garden, gave us the word paradise. Pick a flower to look at, a tree to sit by, a path to follow. Let the place be a paradise for a while.",
+      "why": "The ancient Persians loved gardens and gave the world the word paradise. A walk in one is a way of keeping the creation in mind.",
+      "variations": [
+        "Take tea to the garden.",
+        "Sketch a tree.",
+        "Sit by water."
+      ]
+    },
+    {
+      "id": "check-before-you-tell",
+      "name": "Check before you tell",
+      "icon": "magnifying-glass",
+      "slot": "Afternoon",
+      "time": "12:00",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Before you repeat any news, rumour or claim today, stop and check it. Find the source, ask whether it is true, and whether it is kind to pass on. If you cannot check, say so. Truth is a duty, and passing on a falsehood by accident still spreads the lie.",
+      "why": "Zoroastrianism teaches the active pursuit of truth. Checking a claim before sharing it is an easy habit that keeps the world a little cleaner.",
+      "variations": [
+        "Correct a mistake you shared before.",
+        "Check two sources on a news item.",
+        "Ask someone how they know."
       ]
     },
     {
@@ -352,129 +480,341 @@
       "time": "21:00",
       "minutes": 10,
       "meta": "Evening · 10 min",
-      "instructions": "Sit quietly and go through the day in three columns: thoughts, words, deeds. In each, name one that was good and one that was not. For the bad ones, decide on a concrete repair for tomorrow and resolve on it. Then do something that gives joy before bed: music, a story, laughter with someone. Gloom is counted a fault.",
-      "why": "After death the soul’s thoughts, words and deeds are weighed, and its own conscience meets it at the bridge. Reviewing them each night is the obvious preparation. The tradition also insists on cheerfulness and forbids despair.",
+      "instructions": "Sit quietly and go through the day in three columns: thoughts, words, deeds. In each, name one that was good and one that was not. For the bad ones, decide on a concrete repair for tomorrow and resolve on it. Then do something to end the day cheerfully: a song, a stretch, a kind word to someone nearby.",
+      "why": "An examination of thought, word and deed is the Zoroastrian response to the day’s failures: repair, not guilt.",
       "variations": [
-        "Write the three columns in a notebook.",
-        "End by giving something to a cause that helps strangers.",
-        "Share the review with a friend."
-      ]
-    }
-  ],
-  "tasks": [
-    {
-      "id": "give-to-a-cause-that-will-outlast-you",
-      "name": "Give to a cause that will outlast you",
-      "meta": "Parsi philanthropy built hospitals, schools and wells",
-      "time": "11:00",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "set-a-table-of-seven-good-things",
-      "name": "Set a table of seven good things",
-      "meta": "The haft-sin idea: growth, health, sweetness, patience",
-      "time": "17:00",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "task-read-yasna-30-the-hymn-of-the-two-spirits",
-      "name": "Read Yasna 30, the hymn of the two spirits",
-      "meta": "Read · eleven stanzas",
-      "time": "20:00",
-      "slot": "Evening",
-      "action": "read"
-    },
-    {
-      "id": "task-listen-to-the-ashem-vohu-chanted-in-avestan",
-      "name": "Listen to the Ashem Vohu chanted in Avestan",
-      "meta": "Listen · one minute, three thousand years old",
-      "time": "07:15",
-      "slot": "Morning",
-      "action": "listen"
-    },
-    {
-      "id": "task-look-at-the-winged-figure-above-the-doors-of-persepolis",
-      "name": "Look at the winged figure above the doors of Persepolis",
-      "meta": "Art · the faravahar",
-      "time": "16:30",
-      "slot": "Afternoon",
-      "action": "art"
-    },
-    {
-      "id": "task-play-backgammon",
-      "name": "Play backgammon",
-      "meta": "Games · the Persian game of fate and choice",
-      "time": "19:30",
-      "slot": "Evening",
-      "action": "games"
-    },
-    {
-      "id": "task-journal-one-good-thought-one-good-word-one-good-deed",
-      "name": "Journal: one good thought, one good word, one good deed",
-      "meta": "Journal · 10 min",
-      "time": "21:15",
-      "slot": "Evening",
+        "Write it in a notebook.",
+        "Do it with a partner.",
+        "Name one good deed you want to repeat."
+      ],
       "action": "journal"
     },
     {
-      "id": "task-the-two-choices-where-did-you-choose-today",
-      "name": "The two choices: where did you choose today?",
-      "meta": "Philosophy · 10 min",
-      "time": "08:30",
-      "slot": "Morning",
-      "action": "philosophy"
+      "id": "the-evening-flame",
+      "name": "The evening flame",
+      "icon": "flame",
+      "slot": "Evening",
+      "time": "18:30",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "As the sun sets, light a candle or lamp and sit with it. Think of the day’s light going and the flame carrying it on. Say thank you for the day. In Zoroastrian homes a lamp is kept burning at the time between the day and the night. Snuff it with care when you are done.",
+      "why": "A flame at dusk bridges the day and the night. It is a quiet way to mark the hour.",
+      "variations": [
+        "Light two lamps, one for each person at home.",
+        "Sit with a cup of tea beside it.",
+        "Put the lamp in the window."
+      ]
     },
     {
-      "id": "plant-something-or-water-a-tree",
-      "name": "Plant something or water a tree",
-      "meta": "Tending the good creation",
-      "time": "09:30",
-      "slot": "Morning"
+      "id": "a-tale-from-the-shahnameh",
+      "name": "A tale from the Shahnameh",
+      "icon": "scroll",
+      "slot": "Evening",
+      "time": "20:00",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Read or tell a story from Ferdowsi’s Book of Kings: Rustam and Sohrab, the boy Zal raised by the Simorgh, or the tale of the blacksmith Kaveh. Choose a short one and tell it aloud, with voices. The Shahnameh, written about 1010, is the Persian epic of the old kings, and it was memorised and told at home for centuries.",
+      "why": "The Shahnameh preserves the memory of ancient Iran and Zoroastrian-era stories. Telling a tale from it is a vivid way to enter that world.",
+      "variations": [
+        "Read a picture-book version with a child.",
+        "Listen to an audio version.",
+        "Draw the Simorgh."
+      ]
     },
     {
-      "id": "treat-light-a-candle-at-dusk-and-keep-it-clean-and-steady",
-      "name": "Light a candle at dusk and keep it clean and steady",
-      "meta": "Ten minutes",
+      "id": "sugar-in-the-milk",
+      "name": "Sugar in the milk",
+      "icon": "coffee",
+      "slot": "Evening",
       "time": "19:30",
-      "slot": "Evening"
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Offer a warm sweet drink and something sweet to someone new in your life: a new neighbour, a colleague, an incomer. As the old tale goes, when the Parsis reached Gujarat, the local king sent them a full cup of milk to say the land was full, and their priest stirred in sugar, to say they would sweeten it without spilling it. Be the sugar.",
+      "why": "The sugar in the milk is a founding story of the Parsi community and a lesson in welcome. It is told as a model for how to join a place.",
+      "variations": [
+        "Welcome a newcomer with a note.",
+        "Share sweets at work.",
+        "Ask a stranger to tea."
+      ]
     },
     {
-      "id": "treat-open-the-curtains-wide-and-stand-in-the-light",
-      "name": "Open the curtains wide and stand in the light",
-      "meta": "One minute",
-      "time": "08:30",
-      "slot": "Morning"
-    },
-    {
-      "id": "treat-say-one-true-kind-thing-to-the-first-person-you-meet",
-      "name": "Say one true, kind thing to the first person you meet",
-      "meta": "Good words",
-      "time": "08:30",
-      "slot": "Morning"
-    },
-    {
-      "id": "treat-water-a-plant-and-wish-it-well",
-      "name": "Water a plant and wish it well",
-      "meta": "The good creation",
-      "time": "15:30",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "daily-say-aloud-good-thoughts-good-words-good-deeds",
-      "name": "Say aloud: good thoughts, good words, good deeds",
-      "meta": "Humata, hukhta, huvarshta",
+      "id": "a-game-of-backgammon",
+      "name": "A game of backgammon",
+      "icon": "game-controller",
+      "slot": "Evening",
       "time": "20:30",
-      "slot": "Evening"
+      "minutes": 30,
+      "meta": "Evening · 30 min",
+      "instructions": "Play backgammon, called nard in Persia, with a friend or family. The legend says a Persian court sage devised it as an answer to the Indian game of chess, to show that fate and skill are mixed. Roll, think and laugh at the dice. Play a game or two and admire a good move.",
+      "why": "Nard has been played in Iran for at least fifteen hundred years. A game combines luck and skill in a way that suits an evening.",
+      "variations": [
+        "Play against the clock.",
+        "Teach a child the basics.",
+        "Look up the legend of its invention."
+      ]
     },
     {
-      "id": "daily-tidy-the-place-where-you-keep-your-light",
-      "name": "Tidy the place where you keep your light",
-      "meta": "A clean hearth",
-      "time": "20:30",
-      "slot": "Evening"
+      "id": "listen-to-santur",
+      "name": "Listen to santur",
+      "icon": "music-note",
+      "slot": "Evening",
+      "time": "21:30",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Play a Persian classical piece for santur, the hammered dulcimer, such as a recording by Parviz Meshkatian or Faramarz Payvar. Sit in a low light and listen for fifteen minutes. The notes shimmer and decay like drops of water. Let them wash the day off.",
+      "why": "The santur has been played in Iran for centuries and is among the most soothing of instruments. It suits an evening of quiet.",
+      "variations": [
+        "Listen with tea.",
+        "Listen with your eyes closed.",
+        "Look at a picture of the instrument first."
+      ]
+    },
+    {
+      "id": "set-a-haft-sin-table",
+      "name": "Set a haft-sin table",
+      "icon": "table",
+      "slot": "Special",
+      "time": "17:00",
+      "minutes": 60,
+      "meta": "On a free afternoon · 60 min",
+      "instructions": "Set a table with seven things beginning with the Persian letter sin, as at Nowruz, the new year: sprouts (sabzeh), a sweet pudding (samanu), dried fruit (senjed), garlic (sir), apples (sib), sumac and vinegar (serkeh). Add a mirror, a candle, coloured eggs and a book. Sit with friends and wish each other a good new year, whatever the month.",
+      "why": "The haft-sin table is the centrepiece of Nowruz, the Persian new year at the spring equinox. Setting one is a way to wish for renewal.",
+      "variations": [
+        "Set it in spring for the real thing.",
+        "Add a goldfish bowl or a bowl of water.",
+        "Ask each guest to bring a symbol."
+      ]
+    },
+    {
+      "id": "cook-a-parsi-feast",
+      "name": "Cook a Parsi feast",
+      "icon": "cooking-pot",
+      "slot": "Special",
+      "time": "16:00",
+      "minutes": 120,
+      "meta": "On a free afternoon · 120 min",
+      "instructions": "Cook a Parsi-style dish for friends: dhansak of lentils and vegetables with brown rice, or sabzi polo with fish, or a simple ravo of semolina and cardamom for dessert. Set the table with a flower, a candle and a bowl of water. Serve each guest first and eat together, talking happily. Hospitality and good food are central to Parsi life.",
+      "why": "The Parsi table is among the most celebrated in India, with a long cooking tradition. A shared meal in that spirit combines generosity and joy.",
+      "variations": [
+        "Make ravo to share.",
+        "Serve with a fresh herb salad.",
+        "Invite a neighbour you have not eaten with."
+      ]
     }
   ],
-  "immersePlan": [],
+  "tasks": [],
+  "immersePlan": [
+    {
+      "kind": "read",
+      "item": "read-the-hymns-of-zoroaster",
+      "name": "Read the Gathas in translation",
+      "text": "Read a few of the hymns attributed to Zarathustra himself, in Martin West’s translation. Choose a line about choice and carry it around.",
+      "minutes": 15
+    },
+    {
+      "kind": "read",
+      "item": "read-shahnameh-the-persian-book-of-kings",
+      "name": "Read a tale of the Shahnameh",
+      "text": "Read one story from Ferdowsi’s epic, such as Rustam and his horse Rakhsh. Retell it to someone in your own words.",
+      "minutes": 20
+    },
+    {
+      "kind": "read",
+      "item": "read-such-a-long-journey",
+      "name": "Read a chapter of Such a Long Journey",
+      "text": "Read a chapter of Rohinton Mistry’s novel of a Parsi bank clerk in 1970s Bombay. Notice the humour of the family and the building.",
+      "minutes": 20
+    },
+    {
+      "kind": "watch",
+      "item": "watch-little-zizou",
+      "name": "Watch Little Zizou",
+      "text": "Watch Sooni Taraporevala’s 2008 comedy about a Parsi family and a feud in Mumbai. Notice the fun it has with its community.",
+      "minutes": 100
+    },
+    {
+      "kind": "watch",
+      "item": "watch-on-wings-of-fire",
+      "name": "Watch On Wings of Fire",
+      "text": "Watch the 1986 documentary on Zoroastrianism and the Parsi community. Notice the fire temple and how it is described.",
+      "minutes": 55
+    },
+    {
+      "kind": "watch",
+      "item": "watch-qissa-e-parsi-the-parsi-story",
+      "name": "Watch the Parsi story",
+      "text": "Watch the documentary on the Parsis’ history from Persia to Gujarat and Bombay. Note one fact that surprises you.",
+      "minutes": 60
+    },
+    {
+      "kind": "listen",
+      "item": "listen-also-sprach-zarathustra",
+      "name": "Listen to Also sprach Zarathustra",
+      "text": "Play the opening of Strauss’s tone poem, known from 2001: A Space Odyssey. It is named for Nietzsche’s book, not the religion, so notice the difference.",
+      "minutes": 10
+    },
+    {
+      "kind": "listen",
+      "item": "listen-die-zauberflote",
+      "name": "Listen to The Magic Flute",
+      "text": "Play Sarastro’s aria from Mozart’s opera, in which a wise priest of light rules a temple of reason. His name comes from Zarathustra.",
+      "minutes": 10
+    },
+    {
+      "kind": "listen",
+      "item": "listen-bohemian-rhapsody",
+      "name": "Listen to Bohemian Rhapsody",
+      "text": "Play the 1975 song by Queen, whose singer Freddie Mercury was born into a Parsi family in Zanzibar. Sing every part.",
+      "minutes": 6
+    },
+    {
+      "kind": "art",
+      "item": "art-the-winged-figure-at-persepolis",
+      "name": "Look at the winged figure at Persepolis",
+      "text": "Look at the winged disc and the faravahar, the symbol that stands for the soul and the guiding spirit. Notice each part, and what it might mean.",
+      "minutes": 10
+    },
+    {
+      "kind": "art",
+      "item": "art-the-investiture-of-ardashir-i",
+      "name": "Look at Ardashir’s investiture",
+      "text": "Look at the rock relief at Naqsh-e Rustam in which the first Sasanian king receives the ring of power from the god Ahura Mazda, both on horseback.",
+      "minutes": 10
+    },
+    {
+      "kind": "art",
+      "item": "art-sasanian-silver-plates",
+      "name": "Look at Sasanian silver plates",
+      "text": "Look at the royal silver plates with kings hunting and dancing women, made 1,500 years ago. Choose one and describe the scene.",
+      "minutes": 10
+    },
+    {
+      "kind": "eat",
+      "item": "eat-dhansak",
+      "name": "Cook dhansak",
+      "text": "Cook lentils, vegetables and meat or pumpkin together into a thick, spiced stew, as eaten by Parsis on a Sunday. Serve it with brown rice and a kachumber salad.",
+      "minutes": 90
+    },
+    {
+      "kind": "eat",
+      "item": "eat-ravo",
+      "name": "Make ravo",
+      "text": "Fry semolina in ghee, add milk, sugar, cardamom and nuts, and stir until it thickens. It is the sweet served for happy occasions in Parsi homes.",
+      "minutes": 25
+    },
+    {
+      "kind": "eat",
+      "item": "eat-sabzi-polo-ba-mahi",
+      "name": "Make herbed rice with fish",
+      "text": "Cook rice with a handful of parsley, coriander, dill and chives, and serve with fried fish, as eaten at Nowruz. The green is the colour of spring.",
+      "minutes": 60
+    },
+    {
+      "kind": "drink",
+      "item": "drink-parsi-choi",
+      "name": "Brew Parsi choi",
+      "text": "Brew strong black tea with fresh mint and lemongrass, with milk and sugar. It is the afternoon drink of the Parsi cafés of Mumbai.",
+      "minutes": 15
+    },
+    {
+      "kind": "drink",
+      "item": "drink-falooda",
+      "name": "Make a falooda",
+      "text": "Pour cold milk with rose syrup over soaked basil seeds and thin noodles, and top with ice cream if you like. Drink it with a long spoon.",
+      "minutes": 15
+    },
+    {
+      "kind": "drink",
+      "item": "drink-pomegranate-juice",
+      "name": "Press pomegranate juice",
+      "text": "Cut a pomegranate, press the seeds and drink the juice. It is the ancient fruit of Persia, red as a coal and sweetly tart.",
+      "minutes": 10
+    },
+    {
+      "kind": "customs",
+      "item": "customs-chalk-at-the-threshold",
+      "name": "Draw a chalk pattern at the door",
+      "text": "Draw a pattern in chalk at your doorstep, a chowk, as Parsi households do on festival days to welcome guests. Use chalk or flour and a simple design.",
+      "minutes": 10
+    },
+    {
+      "kind": "customs",
+      "item": "customs-the-haft-sin-table",
+      "name": "Set a mini haft-sin table",
+      "text": "Set seven things on a shelf that begin with the same letter in your language, as a table of renewal. Add a candle and a plant.",
+      "minutes": 20
+    },
+    {
+      "kind": "customs",
+      "item": "customs-sugar-in-the-milk",
+      "name": "Tell the sugar in the milk story",
+      "text": "Tell the tale of the Parsis arriving in Gujarat to someone, and then do one sweet thing for a newcomer.",
+      "minutes": 10
+    },
+    {
+      "kind": "games",
+      "item": "games-backgammon-nard",
+      "name": "Play nard",
+      "text": "Play backgammon with a friend and tell the legend of its invention in Persia. Play two games, and shake hands at the end.",
+      "minutes": 40
+    },
+    {
+      "kind": "games",
+      "item": "games-chess-chatrang",
+      "name": "Play a game of chess",
+      "text": "Play a quick game of chess, which came to Persia from India as chatrang in the sixth century. Notice the old names for the pieces.",
+      "minutes": 30
+    },
+    {
+      "kind": "games",
+      "item": "games-prince-of-persia",
+      "name": "Play Prince of Persia",
+      "text": "Play an hour of the 2008 game of a wandering prince, a girl with magic and a fight between light and dark. Notice the painted look.",
+      "minutes": 60
+    },
+    {
+      "kind": "travel",
+      "item": "fest-nowruz",
+      "name": "Mark Nowruz",
+      "text": "Nowruz, the Persian new year, falls on 20 or 21 March, at the spring equinox. Clean a corner, set some sprouts, and wish someone a happy new year.",
+      "minutes": 20
+    },
+    {
+      "kind": "travel",
+      "item": "fest-mehregan",
+      "name": "Mark Mehregan",
+      "text": "Mehregan, an autumn festival in early October, celebrates friendship and the harvest. Give a friend a small gift of fruit.",
+      "minutes": 15
+    },
+    {
+      "kind": "travel",
+      "item": "place-yazd",
+      "name": "Look up Yazd",
+      "text": "Look at pictures of the desert city in central Iran, the heart of the Zoroastrian community, with its wind towers and fire temple. Pick a street.",
+      "minutes": 10
+    },
+    {
+      "kind": "words",
+      "item": "word-asha",
+      "name": "Practise asha",
+      "text": "Asha is truth and right order. Choose one decision today and ask which choice leads to more order and truth.",
+      "minutes": 5
+    },
+    {
+      "kind": "words",
+      "item": "word-humata-hukhta-hvarshta",
+      "name": "Practise humata, hukhta, hvarshta",
+      "text": "Good thoughts, good words, good deeds. Choose one of each for today, and at night note whether they happened.",
+      "minutes": 10
+    },
+    {
+      "kind": "words",
+      "item": "word-hamazor",
+      "name": "Practise hamazor",
+      "text": "Hamazor is the handclasp of unity that Zoroastrians exchange at festivals. Clasp hands with someone, firmly and warmly, and wish them well.",
+      "minutes": 5
+    }
+  ],
   "rules": [
     {
       "id": "r1",

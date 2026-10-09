@@ -293,212 +293,538 @@
     {
       "id": "first-pleasure",
       "name": "The first pleasure of the day",
-      "icon": "sun",
+      "icon": "sun-dim",
       "slot": "Morning",
       "time": "07:30",
       "minutes": 10,
       "meta": "Morning · 10 min",
-      "instructions": "Choose one pleasure of the senses that the morning offers: hot water on your back, the first coffee, sun on your face, fresh bread, stretching. Give it your whole attention for ten minutes. Do nothing else at the same time. Notice where in the body the pleasure is, how it rises and how it fades. When it is over, let it be over.",
-      "why": "The Cyrenaics taught that pleasure exists only while it is being felt. It is a smooth motion in the present moment, and it cannot be stored. So the skill is to be fully there for it.",
+      "instructions": "Choose one pleasure of the senses that the morning offers: hot water on your back, the first coffee, sun on your face, fresh bread, stretching. Give it your whole attention for ten minutes. Do nothing else at the same time. Say to yourself: this is the only moment that exists. The rule of this Onda is to enjoy what is here.",
+      "why": "The Cyrenaics held that the present pleasure is the only one you truly have. Giving it your whole attention is how to take it.",
       "variations": [
-        "Eat one piece of fruit as slowly as you can.",
-        "Put on a scent or oil and attend to it.",
-        "Lie in the sun for ten minutes with your eyes closed."
+        "Eat breakfast slowly with no screen.",
+        "Stand in the sun with closed eyes.",
+        "Take a hot shower and feel every drop."
+      ]
+    },
+    {
+      "id": "breakfast-on-a-good-plate",
+      "name": "Breakfast on a good plate",
+      "icon": "bowl-food",
+      "slot": "Morning",
+      "time": "08:00",
+      "minutes": 15,
+      "meta": "Morning · 15 min",
+      "instructions": "Eat breakfast from your nicest plate, with a cloth or a flower on the table. Cut the fruit neatly. Pour juice into a proper glass. Make this one meal small but lovely. The Cyrenaics preferred a single good thing to many ordinary ones. It costs nothing but care. Look at it before you taste it.",
+      "why": "Quality over quantity was a Cyrenaic principle. A beautiful breakfast shows how little extra effort turns an ordinary meal into a treat.",
+      "variations": [
+        "Use the plates you save for guests.",
+        "Set a candle on the table.",
+        "Make something with fruit and honey."
+      ]
+    },
+    {
+      "id": "smell-something-lovely",
+      "name": "Smell something lovely",
+      "icon": "flower-tulip",
+      "slot": "Morning",
+      "time": "07:15",
+      "minutes": 3,
+      "meta": "Morning · 3 min",
+      "instructions": "Find something that smells wonderful and breathe it in for a full minute: an orange peel, ground coffee, a flower, fresh bread, a herb on the windowsill, rain. Close your eyes. Notice how smell reaches memory. Taking time to savour a scent is the cheapest luxury in the world.",
+      "why": "The Cyrenaics held that pleasures of the senses are real and worth enjoying. Smell is the sense most quickly forgotten and most easily rediscovered.",
+      "variations": [
+        "Smell three things in a row.",
+        "Rub a leaf of mint or rosemary.",
+        "Smell a book."
+      ]
+    },
+    {
+      "id": "stretch-like-a-cat",
+      "name": "Stretch like a cat",
+      "icon": "person-arms-spread",
+      "slot": "Morning",
+      "time": "07:00",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Before getting up, stretch for five minutes as if you were a cat. Reach, twist and yawn. Roll your neck and wrists. Feel the muscles lengthen and the blood move. Smooth motion, the Cyrenaics said, is what pleasure is. Notice the moment when the stretch becomes delicious, then stop before you strain.",
+      "why": "The Cyrenaics defined pleasure as a gentle motion of the body. A cat-like stretch is a perfect example.",
+      "variations": [
+        "Do it in a patch of sun.",
+        "Do it with a yawn.",
+        "Add a slow breath at each stretch."
+      ]
+    },
+    {
+      "id": "wear-the-soft-thing",
+      "name": "Wear the soft thing",
+      "icon": "dress",
+      "slot": "Morning",
+      "time": "08:30",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Put on something that feels lovely against the skin: a soft jumper, a silk scarf, a cotton shirt, warm socks. Choose it for how it feels, not how it looks. Notice it through the day. Pleasure is available in every garment if you attend to it, and costs nothing if it is already in your drawer.",
+      "why": "The Cyrenaic Aristippus was known for wearing fine clothes with ease. The point is to enjoy what you have while staying master of it.",
+      "variations": [
+        "Wear your best socks.",
+        "Wear a favourite old shirt.",
+        "Notice the texture as you dress."
+      ]
+    },
+    {
+      "id": "a-witty-good-morning",
+      "name": "A witty good morning",
+      "icon": "smiley",
+      "slot": "Morning",
+      "time": "09:00",
+      "minutes": 3,
+      "meta": "Morning · 3 min",
+      "instructions": "Greet the first three people you meet with a small joke or a warm, witty remark. The Cyrenaics prized the ready reply and the light touch. Keep it kind. If you cannot think of a joke, ask a question that makes people smile: what is the best thing so far today? Brighten three faces.",
+      "why": "Eutrapelia, graceful wit, was admired by the Greeks. A bit of humour in the morning makes other people glad.",
+      "variations": [
+        "Compliment someone’s hat.",
+        "Ask a silly question.",
+        "Make a pun."
       ]
     },
     {
       "id": "one-good-thing",
       "name": "One pleasure, taken whole",
-      "icon": "sparkle",
+      "icon": "star-four",
       "slot": "Afternoon",
       "time": "13:00",
       "minutes": 30,
       "meta": "Afternoon · 30 min",
-      "instructions": "Plan one real pleasure for today and take it properly. A very good lunch, a swim, an hour of music, a walk somewhere beautiful, time with someone you find delightful. Pay for quality over quantity. While it lasts, do not photograph it, do not check anything, do not apologise for it. Afterwards do not ask whether you deserved it.",
-      "why": "Aristippus spent freely on good things and was unembarrassed by it. Reproached for paying a high price for a fish, he asked his critic whether he would have bought it for a small coin, and concluded that the difference between them was the love of money and not the love of pleasure.",
+      "instructions": "Plan one real pleasure for today and take it properly. A very good lunch, a swim, an hour of music, a walk somewhere beautiful, time with someone you find delightful. Pay for quality over quantity. While it lasts, do not check anything or plan anything. When it is over, let it go without wishing for more. The rule of this Onda is to prefer the good thing to the many things.",
+      "why": "The Cyrenaics held that pleasure should be taken when it is available and without fuss. A single pleasure fully enjoyed beats a day of half-enjoyed ones.",
       "variations": [
-        "Share it with one person who will enjoy it as much.",
-        "Choose a pleasure you have been denying yourself out of habit.",
-        "Spend the same money you would waste on three poor things on one good one."
+        "Make it a picnic.",
+        "Make it an hour in a gallery.",
+        "Make it a swim in a river or sea."
       ]
     },
     {
       "id": "possess-not-possessed",
       "name": "I possess, I am not possessed",
-      "icon": "key",
+      "icon": "hand-grabbing",
       "slot": "Afternoon",
       "time": "16:00",
       "minutes": 10,
       "meta": "Afternoon · 10 min",
-      "instructions": "Pick the pleasure that has the most hold on you: the phone, sweet things, a drink, a show, shopping. Enjoy a measured amount of it now, fully. Then stop in the middle, while you still want more, and walk away for the rest of the day. Watch what the wanting does over the next ten minutes. If you cannot stop, you have learned who owns whom.",
-      "why": "Aristippus kept company with the courtesan Lais and said: I have her, she does not have me. His rule was that the best thing is to master pleasures without being worsted by them, and that going in is no disgrace, only being unable to come out.",
+      "instructions": "Pick the pleasure that has the most hold on you: the phone, sweet things, a drink, a show, shopping. Enjoy a measured amount of it now, fully. Then stop in the middle, while you still want more, and walk away for the rest of the day. Aristippus said that he possessed Lais, not that she possessed him. The rule of this Onda is to stay the master.",
+      "why": "Aristippus said the aim was not to abstain from pleasure but not to be mastered by it. This exercise tests that, calmly and without shame.",
       "variations": [
-        "Do without that pleasure for a whole day, cheerfully.",
-        "Leave a party while it is still good.",
-        "Halve the portion and double the attention."
+        "Do it with sweets.",
+        "Do it with scrolling.",
+        "Do it with an expensive habit."
       ]
     },
     {
       "id": "at-ease-anywhere",
       "name": "At ease anywhere",
-      "icon": "handshake",
+      "icon": "door-open",
       "slot": "Afternoon",
       "time": "18:00",
       "minutes": 15,
       "meta": "Afternoon · 15 min",
-      "instructions": "Put yourself in company or surroundings that are not your own and make yourself at home there. Talk to someone far richer or far poorer, older or younger than you. Go into a place that is too smart or too rough for you. Dress up or dress down against your habit. Your task is to be the same person, easy and good-humoured, and to enjoy what that place has to offer.",
-      "why": "Plato is said to have told Aristippus: you alone can wear both a fine cloak and rags. Horace wrote that every condition suited him. He could dine with a tyrant one day and walk away with nothing the next, and enjoy both.",
+      "instructions": "Put yourself in company or surroundings that are not your own and make yourself at home there. Talk to someone far richer or far poorer, older or younger than you. Go into a place that is too smart or too rough for you. Be easy, polite and curious. Aristippus was equally at home at the court of a tyrant and in the street. The rule of this Onda is to be at home in every company.",
+      "why": "Aristippus was famed for his ability to fit in anywhere without losing himself. A little practice in unfamiliar places widens your comfort.",
       "variations": [
-        "Accept an invitation you would normally refuse.",
-        "Make friends with whoever is next to you on a journey.",
-        "When something goes wrong today, look for what can be enjoyed in the new situation."
+        "Have coffee in a place you never go.",
+        "Chat with a stranger on a bench.",
+        "Visit a shop that seems too posh."
+      ]
+    },
+    {
+      "id": "the-ready-reply",
+      "name": "The ready reply",
+      "icon": "chats",
+      "slot": "Afternoon",
+      "time": "14:30",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Practise a quick, kind, witty answer. Next time someone teases you, criticises you or asks an awkward question today, answer with humour and ease, with no sting. If you cannot think of one on the spot, write one afterwards. Cyrenaic wit was a mark of freedom: a person who cannot be rattled cannot be ruled.",
+      "why": "The ready reply was a prized skill in the Cyrenaic school, since a witty answer shows you are not afraid. It is a way of staying free.",
+      "variations": [
+        "Collect good replies.",
+        "Practise on a friend.",
+        "Reply to criticism with thanks."
+      ]
+    },
+    {
+      "id": "spend-time-with-a-delight",
+      "name": "Spend time with a delight",
+      "icon": "heart",
+      "slot": "Afternoon",
+      "time": "17:00",
+      "minutes": 30,
+      "meta": "Afternoon · 30 min",
+      "instructions": "Spend half an hour with the most delightful person you know: someone funny, warm and easy. Do something enjoyable together, with no work and no agenda. Give them your full attention. Pleasure shared is pleasure doubled, and the Cyrenaics thought company one of the best of all. Thank them for the half hour.",
+      "why": "The Cyrenaics valued good company as one of the highest pleasures. A half hour with a delightful person is a simple gift.",
+      "variations": [
+        "Call them if they are far.",
+        "Take them for a coffee.",
+        "Walk with them."
+      ]
+    },
+    {
+      "id": "take-the-beautiful-way",
+      "name": "Take the beautiful way",
+      "icon": "path",
+      "slot": "Afternoon",
+      "time": "15:30",
+      "minutes": 20,
+      "meta": "Afternoon · 20 min",
+      "instructions": "Walk somewhere today by the most beautiful route rather than the quickest. Go through the park, by the river, down the street with the old houses. Notice the details. Pleasure is a matter of attention, and beauty is a pleasure available to anyone who walks. Arrive a little late and not at all sorry.",
+      "why": "Choosing the beautiful route turns a trip into a pleasure. The Cyrenaics would have approved of such detours.",
+      "variations": [
+        "Take a different street each day.",
+        "Walk at golden hour.",
+        "Take the stairs with the view."
       ]
     },
     {
       "id": "only-today",
       "name": "Only today",
-      "icon": "hourglass",
+      "icon": "calendar-heart",
       "slot": "Evening",
       "time": "21:30",
       "minutes": 10,
       "meta": "Evening · 10 min",
-      "instructions": "Go back through the day and mark its motions. List the smooth ones: every moment of real pleasure, however brief. List the rough ones. Then do two things. Drop any regret over a pleasure that has passed, and any worry about one that has not come. And name the single thing you will enjoy first tomorrow.",
-      "why": "A later writer records his advice: keep your mind on the day, and on the part of the day in which you are acting or thinking, since only the present is ours. He did not toil over the past or labour ahead for the future.",
+      "instructions": "Go back through the day and mark its motions. List the smooth ones: every moment of real pleasure, however brief. List the rough ones. Then do two things. Drop any regret over a pleasure that has passed, and any worry about tomorrow’s. Only the present is yours. The rule of this Onda is not to toil over yesterday or tomorrow. Sleep.",
+      "why": "The Cyrenaics said that past and future pleasures and pains are not ours. Counting the day’s smooth moments helps you notice and enjoy them.",
       "variations": [
-        "Count how many of today’s pleasures you were actually present for.",
-        "Write down one worry and put it away until morning.",
-        "End the day with something pleasant and take it to bed."
-      ]
-    }
-  ],
-  "tasks": [
-    {
-      "id": "task-cook-or-order-one-really-good-fish-dish",
-      "name": "Cook or order one really good fish dish",
-      "meta": "Eat · quality over quantity",
-      "time": "19:00",
-      "slot": "Evening",
-      "action": "eat"
-    },
-    {
-      "id": "task-drink-one-glass-of-something-excellent-slowly",
-      "name": "Drink one glass of something excellent, slowly",
-      "meta": "Drink · one, not three",
-      "time": "19:30",
-      "slot": "Evening",
-      "action": "drink"
-    },
-    {
-      "id": "task-read-the-life-of-aristippus-in-diogenes-laertius-book-2",
-      "name": "Read the life of Aristippus in Diogenes Laertius, book 2",
-      "meta": "Read · 25 min of anecdotes",
-      "time": "20:30",
-      "slot": "Evening",
-      "action": "read"
-    },
-    {
-      "id": "task-listen-to-debussy-s-prelude-to-the-afternoon-of-a-faun-lying-down",
-      "name": "Listen to Debussy’s Prelude to the Afternoon of a Faun, lying down",
-      "meta": "Listen · 10 min",
-      "time": "15:00",
-      "slot": "Afternoon",
-      "action": "listen"
-    },
-    {
-      "id": "accept-an-invitation-you-would-usually-refuse",
-      "name": "Accept an invitation you would usually refuse",
-      "meta": "At ease anywhere",
-      "time": "18:30",
-      "slot": "Evening"
-    },
-    {
-      "id": "task-journal-what-did-you-enjoy-today-and-were-you-there-for-it",
-      "name": "Journal: what did you enjoy today, and were you there for it?",
-      "meta": "Journal · 10 min",
-      "time": "21:00",
-      "slot": "Evening",
+        "Write five smooth moments.",
+        "Tell someone your best moment.",
+        "Let go of one regret aloud."
+      ],
       "action": "journal"
     },
     {
-      "id": "task-is-a-pleasure-in-memory-still-a-pleasure",
-      "name": "Is a pleasure in memory still a pleasure?",
-      "meta": "Philosophy · 10 min",
-      "time": "08:30",
-      "slot": "Morning",
-      "action": "philosophy"
-    },
-    {
-      "id": "say-something-witty-and-true-to-someone-powerful",
-      "name": "Say something witty and true to someone powerful",
-      "meta": "Free speech",
-      "time": "11:00",
-      "slot": "Morning"
-    },
-    {
-      "id": "give-up-one-pleasure-today-with-a-light-heart",
-      "name": "Give up one pleasure today with a light heart",
-      "meta": "Mastery",
-      "time": "09:00",
-      "slot": "Morning"
-    },
-    {
-      "id": "treat-order-the-dessert",
-      "name": "Order the dessert",
-      "meta": "Today, not some day",
+      "id": "a-listening-hour",
+      "name": "A listening hour",
+      "icon": "music-notes",
+      "slot": "Evening",
       "time": "19:30",
-      "slot": "Evening"
+      "minutes": 30,
+      "meta": "Evening · 30 min",
+      "instructions": "Put on a record that is pure pleasure: Getz/Gilberto, Debussy’s Prelude to the Afternoon of a Faun or anything that melts you. Lie or sit comfortably, close your eyes and give the music your whole attention for half an hour. Let it be the only thing you do. Afterwards, sit quietly for a minute.",
+      "why": "Music was one of the great sensory pleasures for the Cyrenaics. Listening with full attention turns it from background to experience.",
+      "variations": [
+        "Listen on headphones.",
+        "Listen with the lights off.",
+        "Listen to a record you have never heard."
+      ]
     },
     {
-      "id": "treat-put-on-your-softest-thing",
-      "name": "Put on your softest thing",
-      "meta": "And notice it all day",
-      "time": "08:30",
-      "slot": "Morning"
+      "id": "cook-one-delicious-thing",
+      "name": "Cook one delicious thing",
+      "icon": "cooking-pot",
+      "slot": "Evening",
+      "time": "18:00",
+      "minutes": 40,
+      "meta": "Evening · 40 min",
+      "instructions": "Cook one dish well, for the pleasure of it: grilled fish with lemon and herbs, a perfect omelette, a pot of sweet-and-sour lentils. Take care, use good ingredients and taste as you go. Eat it slowly at a table with a candle. Cooking and eating are real pleasures when done with attention.",
+      "why": "Fine food was a Cyrenaic pleasure, taken with moderation. Cooking it is part of the fun.",
+      "variations": [
+        "Cook for a friend.",
+        "Try a new spice.",
+        "Serve it on the best plate."
+      ]
     },
     {
-      "id": "treat-stand-in-the-sun-with-your-eyes-shut-for-two-minutes",
-      "name": "Stand in the sun with your eyes shut for two minutes",
-      "meta": "Only that",
-      "time": "15:30",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "treat-smell-the-coffee-the-bread-or-the-rain-before-anything-else",
-      "name": "Smell the coffee, the bread or the rain before anything else",
-      "meta": "First pleasure of the day",
-      "time": "08:30",
-      "slot": "Morning"
-    },
-    {
-      "id": "daily-find-the-best-seat-in-the-room-and-take-it-with-a-clear-cons",
-      "name": "Find the best seat in the room and take it with a clear conscience",
-      "meta": "Enjoy the small advantage",
-      "time": "14:00",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "daily-buy-yourself-one-small-thing-that-is-only-for-pleasure",
-      "name": "Buy yourself one small thing that is only for pleasure",
-      "meta": "A pastry, a pencil, a flower",
-      "time": "14:00",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "daily-take-a-long-bath-or-a-slow-shower-and-do-nothing-else",
-      "name": "Take a long bath or a slow shower and do nothing else",
-      "meta": "Warm water, no phone",
+      "id": "a-long-warm-soak",
+      "name": "A long, warm soak",
+      "icon": "bathtub",
+      "slot": "Evening",
       "time": "20:30",
-      "slot": "Evening"
+      "minutes": 20,
+      "meta": "Evening · 20 min",
+      "instructions": "Take a warm bath or a long, warm shower with full attention. Turn the lights low. Feel the heat in the muscles, the weight of the water and the quiet. Do not think about anything. Keep the water comfortable, not hot, and get out slowly. Pleasure is a gentle motion, and this is a perfect example.",
+      "why": "Warm water is among the oldest and simplest pleasures. Taking it slowly is the Cyrenaic art.",
+      "variations": [
+        "Add a drop of lavender.",
+        "Take it by candlelight.",
+        "Listen to rain sounds."
+      ]
     },
     {
-      "id": "daily-put-on-your-favourite-music-and-do-nothing-else-for-one-whol",
-      "name": "Put on your favourite music and do nothing else for one whole song",
-      "meta": "The pleasure is in the attention",
-      "time": "20:30",
-      "slot": "Evening"
+      "id": "a-toast-to-the-day",
+      "name": "A toast to the day",
+      "icon": "champagne",
+      "slot": "Evening",
+      "time": "20:00",
+      "minutes": 5,
+      "meta": "Evening · 5 min",
+      "instructions": "Pour a glass of something nice, cold juice, sparkling water with lime or herbal tea, and raise it to the day. Say what you enjoyed. Drink slowly and look at the colour. A toast marks a moment as special, and takes a minute. Do it alone or with someone.",
+      "why": "Toasting the day is a small ritual of enjoying the present. The Cyrenaics would have joined in with enthusiasm.",
+      "variations": [
+        "Toast three things.",
+        "Toast with a friend by phone.",
+        "Toast the dawn tomorrow."
+      ]
+    },
+    {
+      "id": "say-one-true-thing-freely",
+      "name": "Say one true thing freely",
+      "icon": "quotes",
+      "slot": "Evening",
+      "time": "21:00",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Before bed, say one honest thing you have been holding back, to someone who can take it, or write it down for yourself. Speak freely, the Cyrenaics said, but with grace. Choose a truth, such as I love you, I disagree, I was hurt or I was wrong. Notice the relief of saying it. The rule of this Onda is to speak freely.",
+      "why": "Parrhesia, free speech, was part of Greek philosophical life. Saying a hard truth kindly is a freedom of its own.",
+      "variations": [
+        "Say thank you to someone you have not thanked.",
+        "Say sorry to someone.",
+        "Tell a friend what you enjoy about them."
+      ]
+    },
+    {
+      "id": "one-perfect-meal",
+      "name": "One perfect meal",
+      "icon": "fork-knife",
+      "slot": "Special",
+      "time": "19:00",
+      "minutes": 120,
+      "meta": "On a free evening · 120 min",
+      "instructions": "Plan and enjoy one perfect meal: three small courses, each of the best ingredients you can afford, served on good plates with a candle, music and a friend. Spend as much time on the setting as on the cooking. Eat slowly. Stop when satisfied. Talk about what you taste. Quality over quantity is the whole rule.",
+      "why": "The Cyrenaics prized refined pleasure taken in good company. A single perfect meal teaches more than a hundred rushed ones.",
+      "variations": [
+        "Cook it together with a friend.",
+        "Choose a theme such as Greek.",
+        "Dress for dinner."
+      ]
+    },
+    {
+      "id": "a-day-of-kairos",
+      "name": "A day of kairos",
+      "icon": "star-four",
+      "slot": "Special",
+      "time": "10:00",
+      "minutes": 120,
+      "meta": "On a free day · 120 min",
+      "instructions": "Spend a free day following the moment, kairos, the right time for each thing. Plan nothing in advance. When a good opportunity comes, take it: a walk, a friend, a swim, a show, a nap. Say yes to what is delightful and no to what is not. At night, write down what the day gave you.",
+      "why": "Kairos, the opportune moment, was a Greek concept the Cyrenaics took seriously. Living by it turns a day into a gift.",
+      "variations": [
+        "Leave your phone at home.",
+        "Ask a friend to join without a plan.",
+        "Choose your route by coin toss."
+      ]
     }
   ],
-  "immersePlan": [],
+  "tasks": [],
+  "immersePlan": [
+    {
+      "kind": "read",
+      "item": "read-lives-of-eminent-philosophers-book-2-chapters-65-to-104",
+      "name": "Read about Aristippus",
+      "text": "Read Diogenes Laertius’s lively account of Aristippus of Cyrene, the founder of the school, and his witty retorts. Pick out a reply you like.",
+      "minutes": 20
+    },
+    {
+      "kind": "read",
+      "item": "read-memorabilia-book-2-chapter-1",
+      "name": "Read Xenophon on Aristippus",
+      "text": "Read the conversation in which Socrates presses Aristippus on what he would do about pleasure and hardship. Notice who wins.",
+      "minutes": 15
+    },
+    {
+      "kind": "read",
+      "item": "read-marius-the-epicurean",
+      "name": "Read a chapter of Marius the Epicurean",
+      "text": "Read a chapter of Walter Pater’s 1885 novel of a young Roman in search of a life lived for its sensations. Notice the prose.",
+      "minutes": 20
+    },
+    {
+      "kind": "watch",
+      "item": "watch-the-taste-of-things",
+      "name": "Watch The Taste of Things",
+      "text": "Watch Tran Anh Hung’s 2023 film about a cook and a gourmet in nineteenth-century France, with a long scene of cooking in near silence. Watch slowly.",
+      "minutes": 135
+    },
+    {
+      "kind": "watch",
+      "item": "watch-big-night",
+      "name": "Watch Big Night",
+      "text": "Watch the 1996 film about two brothers who put everything into one extraordinary Italian dinner. Notice the last scene.",
+      "minutes": 109
+    },
+    {
+      "kind": "watch",
+      "item": "watch-the-great-beauty",
+      "name": "Watch The Great Beauty",
+      "text": "Watch Paolo Sorrentino’s 2013 portrait of a Roman journalist drifting through parties and beauty. Notice how he looks.",
+      "minutes": 140
+    },
+    {
+      "kind": "listen",
+      "item": "listen-prelude-to-the-afternoon-of-a-faun",
+      "name": "Listen to Debussy’s Prelude",
+      "text": "Play the 1894 piece that begins with a flute melody drifting like a heat haze. Lie down and let it wash over you.",
+      "minutes": 11
+    },
+    {
+      "kind": "listen",
+      "item": "listen-getz-gilberto",
+      "name": "Listen to Getz/Gilberto",
+      "text": "Play the 1964 bossa nova album from start to finish, including The Girl from Ipanema. Sit back and enjoy.",
+      "minutes": 34
+    },
+    {
+      "kind": "listen",
+      "item": "listen-carmina-burana",
+      "name": "Listen to Carmina Burana",
+      "text": "Play Orff’s 1937 setting of medieval songs of wine, love and fortune. Listen to the opening and the tavern songs.",
+      "minutes": 60
+    },
+    {
+      "kind": "art",
+      "item": "art-silver-coins-of-cyrene",
+      "name": "Look at the coins of Cyrene",
+      "text": "Look at the silver coins of Cyrene, stamped with the silphium plant that made the city rich. Study the plant.",
+      "minutes": 5
+    },
+    {
+      "kind": "art",
+      "item": "art-bacchus",
+      "name": "Look at Caravaggio’s Bacchus",
+      "text": "Look at Caravaggio’s young Bacchus with fruit and wine, reclining with a calm, direct stare. Look at the fruit.",
+      "minutes": 10
+    },
+    {
+      "kind": "art",
+      "item": "art-luncheon-of-the-boating-party",
+      "name": "Look at Renoir’s Luncheon",
+      "text": "Look at Renoir’s 1881 painting of friends at a long lunch on a balcony by the Seine. Choose the person you would sit next to.",
+      "minutes": 10
+    },
+    {
+      "kind": "eat",
+      "item": "eat-a-whole-grilled-fish",
+      "name": "Grill a whole fish",
+      "text": "Grill a whole fish with olive oil, herbs and lemon. Eat it slowly, picking the best parts.",
+      "minutes": 40
+    },
+    {
+      "kind": "eat",
+      "item": "eat-honey-cakes",
+      "name": "Bake honey cakes",
+      "text": "Bake small, flat cakes of flour, cheese and honey, a Greek treat. Eat one warm.",
+      "minutes": 40
+    },
+    {
+      "kind": "eat",
+      "item": "eat-a-dish-seasoned-with-asafoetida",
+      "name": "Cook a dish with a pinch of hing",
+      "text": "Cook lentils with a pinch of asafoetida, the modern cousin of the silphium that made Cyrene rich. Notice the savoury, onion-like depth.",
+      "minutes": 40
+    },
+    {
+      "kind": "drink",
+      "item": "drink-an-old-good-wine",
+      "name": "Pour one good glass of something",
+      "text": "Pour a single glass of something good, such as a fine juice, a cold tea or a sparkling cordial. Choose quality and drink slowly.",
+      "minutes": 10
+    },
+    {
+      "kind": "drink",
+      "item": "drink-wine-cooled-with-snow",
+      "name": "Chill a drink to perfection",
+      "text": "Chill a drink until it is perfectly cold, in the Greek manner of cooling with snow. Serve it in a clear glass.",
+      "minutes": 10
+    },
+    {
+      "kind": "drink",
+      "item": "drink-spring-water",
+      "name": "Drink cold spring water",
+      "text": "Drink a glass of very cold water from a good source. Notice the clean taste.",
+      "minutes": 5
+    },
+    {
+      "kind": "customs",
+      "item": "customs-the-symposium",
+      "name": "Hold a small symposium",
+      "text": "Gather a few friends after a meal with cushions, music and cold drinks. Take turns to speak on a theme.",
+      "minutes": 60
+    },
+    {
+      "kind": "customs",
+      "item": "customs-the-ready-reply",
+      "name": "Practise the ready reply",
+      "text": "Answer three questions today with a quick, kind joke. Keep the tone warm.",
+      "minutes": 10
+    },
+    {
+      "kind": "customs",
+      "item": "customs-a-school-passed-through-a-woman",
+      "name": "Learn about Arete of Cyrene",
+      "text": "Read about Arete, daughter of Aristippus, who led the school and passed it on to her son. Think about who has taught you.",
+      "minutes": 10
+    },
+    {
+      "kind": "games",
+      "item": "games-kottabos",
+      "name": "Play kottabos with water",
+      "text": "Flick drops of water from a cup at a floating target, as Greek drinkers did with wine dregs. Lay down a cloth first and play with friends.",
+      "minutes": 20
+    },
+    {
+      "kind": "games",
+      "item": "games-kyboi",
+      "name": "Throw the dice",
+      "text": "Throw dice with a friend and wager something small, such as washing up. Greeks played dice at every party.",
+      "minutes": 15
+    },
+    {
+      "kind": "games",
+      "item": "games-polis",
+      "name": "Play polis",
+      "text": "Play the Greek board game of the city, an ancestor of draughts. Draw a grid and use pebbles.",
+      "minutes": 25
+    },
+    {
+      "kind": "travel",
+      "item": "fest-the-anthesteria",
+      "name": "Mark the Anthesteria",
+      "text": "The Anthesteria was the Athenian spring festival of flowers and new wine. Buy flowers and share a drink of juice with a friend.",
+      "minutes": 20
+    },
+    {
+      "kind": "travel",
+      "item": "place-cyrene",
+      "name": "Look up Cyrene",
+      "text": "Look at pictures of the Greek city in Libya, with its temples, baths and the Fountain of Apollo. Imagine its streets.",
+      "minutes": 15
+    },
+    {
+      "kind": "travel",
+      "item": "place-aegina",
+      "name": "Look up Aegina",
+      "text": "Look at the Greek island where Aristippus is said to have been shipwrecked. Read about its temple and its pistachios.",
+      "minutes": 10
+    },
+    {
+      "kind": "words",
+      "item": "word-kairos",
+      "name": "Practise kairos",
+      "text": "Kairos is the right moment. Look for one opportunity today that will not come again and take it.",
+      "minutes": 10
+    },
+    {
+      "kind": "words",
+      "item": "word-chara",
+      "name": "Practise chara",
+      "text": "Chara is joy. Notice three moments of joy today and say chara aloud.",
+      "minutes": 5
+    },
+    {
+      "kind": "words",
+      "item": "word-to-paron",
+      "name": "Practise to paron",
+      "text": "To paron means what is present. Spend two minutes today giving your full attention to what is in front of you.",
+      "minutes": 5
+    }
+  ],
   "rules": [
     {
       "id": "r1",

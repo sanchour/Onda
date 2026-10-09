@@ -288,17 +288,97 @@
     {
       "id": "three-stops",
       "name": "Three stops in the day",
-      "icon": "compass",
+      "icon": "clock-afternoon",
       "slot": "Morning",
       "time": "05:45",
       "minutes": 5,
       "meta": "Morning · 5 min",
-      "instructions": "Shia Muslims commonly gather the five daily prayers into three sessions: at dawn, after midday and after sunset. Mark those three. At each, stop for a few minutes, wash your hands and face, stand still and turn your attention toward what is highest. If you are Muslim, pray. If you are a guest, stand in silence, then touch your forehead to your open palm for a breath, as a sign that you are made of earth, and return to the day.",
-      "why": "Prayer is the pillar of the religion for all Muslims. Shia practice joins the noon and afternoon prayers and the sunset and night prayers, following reports that the Prophet sometimes did so. Worshippers rest the forehead on a small tablet of clay.",
+      "instructions": "Shia Muslims commonly gather the five daily prayers into three sessions: at dawn, after midday and after sunset. Mark those three. At each, stop for a few minutes, wash your hands and face, stand still and turn your attention to what matters most to you. You are keeping the rhythm, not praying the ritual prayer. The rule of this Onda is to stop three times a day.",
+      "why": "Three stops is a common Shia way of arranging the daily prayers. As a guest, you can borrow the shape of the day: three clear pauses to wash, stand and reflect.",
       "variations": [
-        "Say a blessing on the Prophet and his family, if you are Muslim, after each.",
-        "Keep only the dawn stop at first.",
-        "Read a line from the Psalms of Islam at each stop."
+        "Use a timer or a sunrise app.",
+        "Wash your face at each stop.",
+        "Write one line at each stop."
+      ]
+    },
+    {
+      "id": "a-saying-of-ali",
+      "name": "A saying of Ali",
+      "icon": "book-open-text",
+      "slot": "Morning",
+      "time": "07:00",
+      "minutes": 8,
+      "meta": "Morning · 8 min",
+      "instructions": "Read one saying, letter or short sermon from Nahj al-Balagha, the collection of Imam Ali’s words, in translation. Read it slowly and aloud. Many are short, vivid and practical, about justice, patience, the world and the self. Pick the one that speaks to you, write it on a card and carry it for the day.",
+      "why": "Nahj al-Balagha, The Peak of Eloquence, is treasured in Shia and wider Arabic literature. One saying a morning gives the day a sharp compass.",
+      "variations": [
+        "Read a saying on justice.",
+        "Copy a favourite and pin it up.",
+        "Read one aloud to someone."
+      ]
+    },
+    {
+      "id": "think-it-through",
+      "name": "Think it through",
+      "icon": "lightbulb",
+      "slot": "Morning",
+      "time": "08:30",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Before an important decision today, take ten minutes to reason it through. Write the options, the likely results, who is affected and what a fair person would do. Reason, aql, is held in Shia thought to be a gift and a guide, nearly the equal of revelation. Do not decide in haste or anger. Then decide.",
+      "why": "Shia scholars have long prized rational inquiry, ijtihad, and say a person without aql is like a lamp without oil. The rule of this Onda is to use your reason.",
+      "variations": [
+        "Ask a wise friend to look at your reasoning.",
+        "Sleep on a decision.",
+        "Write the reasons in two columns."
+      ]
+    },
+    {
+      "id": "start-with-dignity",
+      "name": "Start with dignity",
+      "icon": "user",
+      "slot": "Morning",
+      "time": "06:30",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Dress with care and stand tall as you start the day. Wash, comb, put on something clean. Look in the mirror and remind yourself that you have worth and that so does every person you will meet. The rule of this Onda is to guard your dignity and others’. Treat the first person you meet today as someone of honour.",
+      "why": "Dignity, karama, is a core value, and the Ahl al-Bayt are remembered for holding their heads high in hard times. A tidy start reminds you.",
+      "variations": [
+        "Walk with an upright back.",
+        "Greet people by title.",
+        "Hold a door and say thank you."
+      ]
+    },
+    {
+      "id": "visit",
+      "name": "A visit of remembrance",
+      "icon": "tree",
+      "slot": "Morning",
+      "time": "10:00",
+      "minutes": 20,
+      "meta": "Morning · 20 min",
+      "instructions": "Once a week go to a grave, a memorial or the home of an old person who carries your community’s memory. Greet the dead or the living with peace. Stay a while. Recall aloud what this person stood for and what was done to them. Bring flowers, water or a small gift. Leave knowing a little more of where you come from. The rule of this Onda is to keep faith with your dead.",
+      "why": "Ziyara, visiting the graves of the dead and of the Imams, is a prominent Shia practice. Any visit of remembrance carries the same idea of keeping faith.",
+      "variations": [
+        "Bring flowers to a local grave.",
+        "Visit an elder and ask for a story.",
+        "Sit by a memorial for ten minutes."
+      ]
+    },
+    {
+      "id": "carry-a-name",
+      "name": "Carry a name",
+      "icon": "heart",
+      "slot": "Morning",
+      "time": "07:30",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Choose one person, living or dead, whose courage for justice you admire, and carry their name with you today. Write it on a card. Whenever you feel tempted to cut a corner, think of them. Imam Husayn, Imam Ali, Zaynab and Rosa Parks are among those people have chosen. Return the card to your drawer at night.",
+      "why": "Shia memory is built on people who stood firm for justice at a cost. Keeping a name in mind gives the day a quiet backbone.",
+      "variations": [
+        "Write why you chose the name.",
+        "Tell a friend about this person.",
+        "Choose a new name each week."
       ]
     },
     {
@@ -309,12 +389,12 @@
       "time": "13:30",
       "minutes": 15,
       "meta": "Afternoon · 15 min",
-      "instructions": "Every day find one place where someone is being treated unfairly and do something about it. It may be near: a colleague talked over, a child blamed, a worker unpaid. It may be far: a cause that needs a letter, a donation or your presence. The act can be small. What matters is that you do not stay neutral. If you cannot act, at least refuse to agree with the injustice in your heart, and say so to one person.",
-      "why": "Ali’s instruction to his sons on his deathbed was: be an enemy to the oppressor and a helper to the oppressed. Husayn’s stand at Karbala is read as proof that a person can refuse a wrong even when refusing will fail.",
+      "instructions": "Every day find one place where someone is being treated unfairly and do something about it. It may be near: a colleague talked over, a child blamed, a worker unpaid. It may be far: a cause that needs a letter, a donation or a signature. Do one concrete thing. The rule of this Onda is that you do not side with an oppressor. Stay out of excuses.",
+      "why": "Imam Husayn’s stand at Karbala is the model of refusing to give allegiance to injustice. Doing something for the wronged today is the practice of that memory.",
       "variations": [
-        "Ask who in your workplace has least power, and check how they are treated.",
-        "Give to an organisation that defends people’s rights.",
-        "Admit one wrong you yourself have done to someone weaker."
+        "Speak up in a meeting for someone silenced.",
+        "Write to a representative about an injustice.",
+        "Give to an organisation that defends the powerless."
       ]
     },
     {
@@ -325,154 +405,421 @@
       "time": "16:00",
       "minutes": 5,
       "meta": "Afternoon · 5 min",
-      "instructions": "Before your first glass of water each afternoon, hold it for a moment. Think of those who lack water today, and of anyone who has gone thirsty for refusing to give in. Then drink slowly. After that, give drink to someone else: carry water to a person working in the heat, fill a bowl for birds or a dog, pay for a stranger’s tea.",
-      "why": "At Karbala Husayn’s camp was cut off from the river Euphrates for three days. Since then Shia communities have handed out free water, sherbet and food in Muharram, and many say peace be upon Husayn when they drink.",
+      "instructions": "Before your first glass of water each afternoon, hold it for a moment. Think of those who lack water today, and of anyone who has gone thirsty for refusing to give in. Then drink slowly. After that, give drink to someone: a colleague, a visitor, a passer-by, a plant, an animal. The rule of this Onda is to give water and food.",
+      "why": "The thirst of Karbala is remembered with water offered freely, a tradition of sabil. A glass of water given with thought is a modest echo.",
       "variations": [
-        "Set out water for passers-by on a hot day.",
-        "Give to a clean-water charity.",
-        "Go without a comfort for a day and note what it shows you."
+        "Leave a bowl of water outside for animals.",
+        "Offer water to a delivery person.",
+        "Donate to a clean water charity."
+      ]
+    },
+    {
+      "id": "cook-a-pot-to-share",
+      "name": "Cook a pot to share",
+      "icon": "cooking-pot",
+      "slot": "Afternoon",
+      "time": "14:30",
+      "minutes": 40,
+      "meta": "Afternoon · 40 min",
+      "instructions": "Cook a pot of soup or stew, plenty of it, and share it with neighbours or someone who is alone. This is a nazri, a food offered in thanks or in memory. Ash-e nazri, a thick soup of herbs, beans and noodles, is a classic one. Put the extra in tubs and deliver them yourself. Give water and food is a rule of this Onda.",
+      "why": "Cooking a pot of food to give away is a very common Shia practice, done for vows, anniversaries and gratitude. It turns cooking into charity.",
+      "variations": [
+        "Make it with a friend.",
+        "Cook in memory of someone.",
+        "Deliver a bowl to the elderly."
+      ]
+    },
+    {
+      "id": "write-for-justice",
+      "name": "Write for justice",
+      "icon": "envelope-simple",
+      "slot": "Afternoon",
+      "time": "15:30",
+      "minutes": 20,
+      "meta": "Afternoon · 20 min",
+      "instructions": "Write a letter or email today about something unjust that you care about: to a representative, a company, a newspaper or a person who can act. State the facts, say what you ask and sign your name. Keep it brief and civil. A letter is a small act, and a free person is one who uses their voice.",
+      "why": "Shia tradition values speaking truth to power, even at cost. A written letter is a safe, practical version.",
+      "variations": [
+        "Send a letter of support to someone being treated unfairly.",
+        "Sign and share a petition after reading it.",
+        "Write to a lonely prisoner through a charity."
+      ]
+    },
+    {
+      "id": "hear-both-sides",
+      "name": "Hear both sides",
+      "icon": "handshake",
+      "slot": "Afternoon",
+      "time": "17:00",
+      "minutes": 15,
+      "meta": "Afternoon · 15 min",
+      "instructions": "Before you judge any dispute today, hear both sides. Ask each person to tell the story and listen without interrupting. Ask a question of each. Only then say what you think. Adl, justice, begins with a fair hearing. Imam Ali is remembered for advising rulers to be fair to the weak and the strong alike.",
+      "why": "Adl, justice, is one of the pillars of Shia belief. Hearing the other side is the first practical act of justice.",
+      "variations": [
+        "Do it in a family quarrel.",
+        "Do it with an online dispute.",
+        "Do it for yourself, by arguing the opposite case."
+      ]
+    },
+    {
+      "id": "honour-a-debt",
+      "name": "Honour a debt",
+      "icon": "coins",
+      "slot": "Afternoon",
+      "time": "16:30",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Settle a small debt or promise today: repay what you borrowed, return something you kept, keep a promise you made. Do not delay. Faith and honour show up in small acts of keeping to your word. Note how it feels to clear it. Keep faith with your dead, who would have wanted you to.",
+      "why": "Keeping faith in contracts and promises is stressed in Islamic ethics. Settling a debt removes a weight from the heart.",
+      "variations": [
+        "Pay a bill early.",
+        "Thank someone who lent you something.",
+        "Return a borrowed book."
       ]
     },
     {
       "id": "whispered-prayer",
       "name": "A whispered prayer",
-      "icon": "moon-stars",
+      "icon": "hands-praying",
       "slot": "Evening",
       "time": "21:00",
       "minutes": 10,
       "meta": "Evening · 10 min",
-      "instructions": "In the evening read one supplication from the Psalms of Islam, the prayers of the fourth Imam, in translation. Read it slowly, aloud and quietly. They ask for honesty, for a gentle character, for parents, for neighbours, for enemies. Stop at the line that asks for something you lack. Then add a few sentences of your own. On Thursday night, if you have longer, read the Supplication of Kumayl.",
-      "why": "After Karbala Husayn’s surviving son could not preach openly. He taught through prayers, and they were gathered as al-Sahifa al-Sajjadiyya. Shia devotion is rich in long, intimate supplications handed down from the Imams.",
+      "instructions": "In the evening read one supplication from the Psalms of Islam, the prayers of the fourth Imam, in translation. Read it slowly, aloud and quietly. They ask for honesty, for a gentle character, for parents, for neighbours, for the poor and for the strength to forgive. Choose a line and sit with it. You are reading as a guest, not performing a rite.",
+      "why": "The Sahifa al-Sajjadiyya is among the treasures of Shia spirituality, called the Psalms of the Family of Muhammad. Its language is intimate and humane.",
       "variations": [
-        "Read the supplication on noble moral traits over several nights.",
-        "Listen to a recorded recitation in Arabic while following a translation.",
-        "Write your own supplication for someone who wronged you."
-      ]
-    },
-    {
-      "id": "visit",
-      "name": "A visit of remembrance",
-      "icon": "footprints",
-      "slot": "Morning",
-      "time": "10:00",
-      "minutes": 20,
-      "meta": "Morning · 20 min",
-      "instructions": "Once a week go to a grave, a memorial or the home of an old person who carries your community’s memory. Greet the dead or the living with peace. Stay a while. Recall aloud what this person stood for and what was done to them or by them. Ask what loyalty to that memory requires of you now. On the other days, keep one minute for remembering by name someone who suffered for doing right.",
-      "why": "Ziyara, visitation, is central to Shia life. The pilgrim addresses the Imam directly: peace be upon you. It is an act of loyalty across time, and the walk to Karbala each year is its largest form.",
-      "variations": [
-        "Clean a neglected grave.",
-        "Record an elder telling a story.",
-        "Walk to your visit instead of driving, as an offering."
-      ]
-    }
-  ],
-  "tasks": [
-    {
-      "id": "task-cook-a-large-pot-and-share-it-with-neighbours-of-any-faith",
-      "name": "Cook a large pot and share it with neighbours of any faith",
-      "meta": "Eat · nazr, food given away",
-      "time": "17:00",
-      "slot": "Afternoon",
-      "action": "eat"
-    },
-    {
-      "id": "task-read-ali-s-letter-to-malik-al-ashtar",
-      "name": "Read Ali’s letter to Malik al-Ashtar",
-      "meta": "Read · on how to govern justly",
-      "time": "20:00",
-      "slot": "Evening",
-      "action": "read"
-    },
-    {
-      "id": "task-listen-to-the-supplication-of-kumayl",
-      "name": "Listen to the Supplication of Kumayl",
-      "meta": "Listen · Thursday night",
-      "time": "21:30",
-      "slot": "Evening",
-      "action": "listen"
-    },
-    {
-      "id": "task-look-at-the-tilework-of-the-shah-mosque-in-isfahan",
-      "name": "Look at the tilework of the Shah Mosque in Isfahan",
-      "meta": "Art · seven colours under a turquoise dome",
-      "time": "16:30",
-      "slot": "Afternoon",
-      "action": "art"
-    },
-    {
-      "id": "use-your-reason-test-one-belief-you-hold-on-someone-s-authority",
-      "name": "Use your reason: test one belief you hold on someone’s authority",
-      "meta": "Aql, the inner proof",
-      "time": "09:30",
-      "slot": "Morning"
-    },
-    {
-      "id": "give-a-fifth-of-something-you-saved-this-week",
-      "name": "Give a fifth of something you saved this week",
-      "meta": "The idea of khums",
-      "time": "18:00",
-      "slot": "Evening"
-    },
-    {
-      "id": "task-journal-where-did-you-stay-neutral-today-and-what-did-it-cost",
-      "name": "Journal: where did you stay neutral today, and what did it cost?",
-      "meta": "Journal · 10 min",
-      "time": "21:45",
-      "slot": "Evening",
+        "Read the supplication for neighbours.",
+        "Read one for those in need.",
+        "Write a line of your own in the same spirit."
+      ],
       "action": "journal"
     },
     {
-      "id": "task-karbala-what-would-you-refuse-even-if-refusing-failed",
-      "name": "Karbala: what would you refuse, even if refusing failed?",
-      "meta": "Philosophy · 10 min",
-      "time": "08:30",
-      "slot": "Morning",
-      "action": "philosophy"
-    },
-    {
-      "id": "write-to-someone-in-authority-about-a-wrong-that-needs-righting",
-      "name": "Write to someone in authority about a wrong that needs righting",
-      "meta": "A word of truth",
-      "time": "11:00",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "treat-give-someone-a-cold-drink-on-a-hot-day",
-      "name": "Give someone a cold drink on a hot day",
-      "meta": "And think of the thirsty",
-      "time": "15:30",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "treat-recite-one-line-of-poetry-for-someone-you-admire",
-      "name": "Recite one line of poetry for someone you admire",
-      "meta": "Aloud",
+      "id": "tell-a-story-of-someone-gone",
+      "name": "Tell a story of someone gone",
+      "icon": "chats",
+      "slot": "Evening",
       "time": "19:30",
-      "slot": "Evening"
+      "minutes": 20,
+      "meta": "Evening · 20 min",
+      "instructions": "At the evening meal or after, tell a story about someone who has died and whom you wish to remember: a grandparent, a teacher, a friend. Choose one memory, and tell it fully, with the laughter and the loss. Ask others to add theirs. Keeping faith with your dead means keeping their stories alive.",
+      "why": "Remembrance is a core theme in Shia culture. Telling stories at the table keeps the dead among the living.",
+      "variations": [
+        "Record the story.",
+        "Tell it to a child.",
+        "Write it in a notebook."
+      ]
     },
     {
-      "id": "treat-put-a-plate-aside-for-a-neighbour-before-you-eat",
-      "name": "Put a plate aside for a neighbour before you eat",
-      "meta": "First, not last",
-      "time": "19:30",
-      "slot": "Evening"
+      "id": "tea-with-a-neighbour",
+      "name": "Tea with a neighbour",
+      "icon": "coffee",
+      "slot": "Evening",
+      "time": "18:30",
+      "minutes": 30,
+      "meta": "Evening · 30 min",
+      "instructions": "Invite a neighbour or friend for tea in small glasses. Strong black tea, sugar cubes on the side, something sweet. In Iraq, Iran and across the region this is how conversation begins. Pour for the guest before yourself, and keep the glasses full. Listen to their news and ask about their family.",
+      "why": "Tea in small glasses is the everyday hospitality of the Shia world, from Najaf to Mashhad. An evening glass builds friendship.",
+      "variations": [
+        "Add cardamom to the tea.",
+        "Serve dates and sweets.",
+        "Visit a neighbour instead of hosting."
+      ]
     },
     {
-      "id": "treat-stand-up-for-a-small-fairness-today-a-queue-a-turn-a-share",
-      "name": "Stand up for a small fairness today: a queue, a turn, a share",
-      "meta": "It starts small",
-      "time": "15:30",
-      "slot": "Afternoon"
+      "id": "listen-to-a-qawwali",
+      "name": "Listen to a qawwali",
+      "icon": "microphone-stage",
+      "slot": "Evening",
+      "time": "20:30",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Play Man Kunto Maula, the song whose words are attributed to Amir Khusrau and which praises Ali, in a recording by Nusrat Fateh Ali Khan or another master. Listen with your eyes closed as the voices build in waves. Qawwali is a devotional music of South Asia, loved by Muslims and non-Muslims alike. Let it carry you.",
+      "why": "Man Kunto Maula is among the most famous qawwalis, cherished in the Shia and Sufi traditions. Its repeated phrases build to a joyful trance.",
+      "variations": [
+        "Clap along on the beat.",
+        "Read a translation first.",
+        "Listen with a cup of tea."
+      ]
     },
     {
-      "id": "daily-say-a-short-good-wish-for-someone-you-love",
-      "name": "Say a short good wish for someone you love",
-      "meta": "A dua is a conversation",
-      "time": "07:15",
-      "slot": "Morning"
+      "id": "wait-by-working",
+      "name": "Wait by working",
+      "icon": "calendar-heart",
+      "slot": "Evening",
+      "time": "21:30",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Before sleep, choose one thing you will do tomorrow to make the world a little more just, and write it down. Intizar, waiting, in Shia thought, is not passive. It means working for a better world while hoping for one. Plan a small, concrete step and put it where you will see it in the morning.",
+      "why": "Intizar, expectant waiting, is a key Shia idea that means active hope and ethical work. Planning tomorrow’s step puts that into practice.",
+      "variations": [
+        "Plan a donation or letter.",
+        "Plan to visit someone lonely.",
+        "Plan to stand up for someone at work."
+      ]
+    },
+    {
+      "id": "a-persian-poem-aloud",
+      "name": "A Persian poem aloud",
+      "icon": "feather",
+      "slot": "Evening",
+      "time": "20:00",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Read a poem aloud by Hafez, Rumi, Saadi or Forugh Farrokhzad in translation. Read it twice, slowly. Persian homes keep a book of Hafez and open it at random for guidance. Do the same: ask a question, open at random and read what you find. Take a line to bed.",
+      "why": "Poetry is the daily bread of Persian culture, and a sound way to end the day. A book of Hafez is often consulted like an oracle.",
+      "variations": [
+        "Read in the original if you can.",
+        "Learn a couplet.",
+        "Read to someone you love."
+      ]
+    },
+    {
+      "id": "set-out-a-sabil",
+      "name": "Set out a sabil",
+      "icon": "drop",
+      "slot": "Special",
+      "time": "15:00",
+      "minutes": 90,
+      "meta": "On a free afternoon · 90 min",
+      "instructions": "On a warm day, set up a table outside your door or in a public place with jugs of cold water, cups and perhaps some dates or sweets. Offer them freely to anyone who passes. This is a sabil, a free drink station, set up in the Shia world in memory of the thirsty of Karbala, especially in Muharram. Smile and give without asking anything.",
+      "why": "Sabils are one of the most visible acts of Shia generosity, with water and sherbet offered free on the streets. Setting one up is a joyful and humble act.",
+      "variations": [
+        "Make a pink rose sherbet.",
+        "Set it up with neighbours.",
+        "Offer water to street workers."
+      ]
+    },
+    {
+      "id": "a-day-among-tiles-and-carpets",
+      "name": "A day among tiles and carpets",
+      "icon": "palette",
+      "slot": "Special",
+      "time": "14:00",
+      "minutes": 120,
+      "meta": "On a free afternoon · 120 min",
+      "instructions": "Visit a museum, a mosque open to visitors or an Islamic art gallery and spend two hours looking at tiles, carpets, calligraphy and architecture of Iran and Iraq. Pick one piece and sit with it. If there is no gallery near, look at an online collection. The Safavid mosques of Isfahan are among the loveliest buildings anywhere.",
+      "why": "Shia Persia produced some of the greatest art of the Islamic world: blue tilework, carpets and miniatures. Looking slowly is a joy in itself.",
+      "variations": [
+        "Sketch a tile pattern.",
+        "Visit a carpet shop and ask about the knots.",
+        "Look at the Ardabil carpet online."
+      ]
     }
   ],
-  "immersePlan": [],
+  "tasks": [],
+  "immersePlan": [
+    {
+      "kind": "read",
+      "item": "read-nahj-al-balagha-the-peak-of-eloquence",
+      "name": "Read a letter or sermon of Ali",
+      "text": "Read one letter or saying from Nahj al-Balagha, perhaps Ali’s letter to Malik al-Ashtar on governing with justice. Note one line.",
+      "minutes": 15
+    },
+    {
+      "kind": "read",
+      "item": "read-the-psalms-of-islam-al-sahifa-al-sajjadiyya",
+      "name": "Read a supplication of the Psalms of Islam",
+      "text": "Read one prayer of the fourth Imam in William Chittick’s translation. Read it slowly and aloud, and choose a phrase.",
+      "minutes": 10
+    },
+    {
+      "kind": "read",
+      "item": "read-after-the-prophet-the-epic-story-of-the-shia-sunni-split",
+      "name": "Read a chapter of After the Prophet",
+      "text": "Read a chapter of Lesley Hazleton’s account of the events after Muhammad’s death. Notice how she tells the story as a human drama.",
+      "minutes": 25
+    },
+    {
+      "kind": "watch",
+      "item": "watch-a-separation",
+      "name": "Watch A Separation",
+      "text": "Watch Asghar Farhadi’s 2011 film about a couple in Tehran, a caregiver and a family caught in a dispute. Notice how each person has reasons.",
+      "minutes": 123
+    },
+    {
+      "kind": "watch",
+      "item": "watch-the-lizard-marmoulak",
+      "name": "Watch The Lizard",
+      "text": "Watch Kamal Tabrizi’s 2004 Iranian comedy about a thief who escapes prison by posing as a cleric. It is funny and affectionate.",
+      "minutes": 100
+    },
+    {
+      "kind": "watch",
+      "item": "watch-under-the-moonlight",
+      "name": "Watch Under the Moonlight",
+      "text": "Watch Reza Mirkarimi’s 2001 film about a young trainee cleric in Tehran who meets a street boy. It is a gentle, thoughtful story.",
+      "minutes": 85
+    },
+    {
+      "kind": "listen",
+      "item": "listen-rabbana",
+      "name": "Listen to Rabbana",
+      "text": "Play Mohammad-Reza Shajarian’s call, sung at the end of Ramadan evenings on Iranian radio for decades. Listen to the pure, sweet voice.",
+      "minutes": 6
+    },
+    {
+      "kind": "listen",
+      "item": "listen-man-kunto-maula",
+      "name": "Listen to Man Kunto Maula",
+      "text": "Play the qawwali praising Ali by Nusrat Fateh Ali Khan. Clap along as it builds.",
+      "minutes": 15
+    },
+    {
+      "kind": "listen",
+      "item": "listen-du-a-kumayl",
+      "name": "Hear Du’a Kumayl",
+      "text": "Play the Thursday-evening supplication in Arabic, recited by Abathar al-Halawa. Follow a translation and sit quietly.",
+      "minutes": 30
+    },
+    {
+      "kind": "art",
+      "item": "art-the-shah-mosque-imam-mosque",
+      "name": "Look at the Shah Mosque in Isfahan",
+      "text": "Look at pictures of the great mosque of Isfahan, covered in blue and gold tiles under a high dome. Pick one arch and look at it for five minutes.",
+      "minutes": 10
+    },
+    {
+      "kind": "art",
+      "item": "art-the-ardabil-carpet",
+      "name": "Look at the Ardabil Carpet",
+      "text": "Look at the sixteenth-century carpet with its great medallion and hanging lamps, woven for a shrine in northwest Iran. Count the lamps.",
+      "minutes": 10
+    },
+    {
+      "kind": "art",
+      "item": "art-coffee-house-paintings-of-karbala",
+      "name": "Look at coffee-house paintings",
+      "text": "Look at the large narrative paintings of Qajar Iran that show the story of Karbala, hung in coffee houses for storytellers. Pick a scene.",
+      "minutes": 10
+    },
+    {
+      "kind": "eat",
+      "item": "eat-sholeh-zard",
+      "name": "Make sholeh zard",
+      "text": "Cook saffron rice pudding with rose water, sugar and cinnamon, and decorate with almonds. It is made in quantity as a nazri and shared with neighbours.",
+      "minutes": 90
+    },
+    {
+      "kind": "eat",
+      "item": "eat-ash-e-nazri",
+      "name": "Cook ash-e nazri",
+      "text": "Cook a thick soup of herbs, beans and noodles. Make plenty of it and give bowls away, as in a nazri.",
+      "minutes": 90
+    },
+    {
+      "kind": "eat",
+      "item": "eat-haleem",
+      "name": "Make haleem",
+      "text": "Cook wheat, lentils and meat pounded together and simmered for hours into a thick, rich porridge. Serve with a squeeze of lemon and crisp onions.",
+      "minutes": 120
+    },
+    {
+      "kind": "drink",
+      "item": "drink-sherbet",
+      "name": "Make rose sherbet",
+      "text": "Stir sugar and rose water into cold water with a few crushed ice cubes. It is the drink offered at sabils. Serve a glass to someone.",
+      "minutes": 10
+    },
+    {
+      "kind": "drink",
+      "item": "drink-iraqi-tea",
+      "name": "Brew Iraqi tea",
+      "text": "Brew strong black tea with cardamom, serve it in small glasses with sugar, and offer a second glass.",
+      "minutes": 15
+    },
+    {
+      "kind": "drink",
+      "item": "drink-plain-water-given-away",
+      "name": "Give a cup of water away",
+      "text": "Fill a cup with cold water and give it to someone who has not asked for it. Do not say anything special.",
+      "minutes": 5
+    },
+    {
+      "kind": "customs",
+      "item": "customs-black-in-muharram",
+      "name": "Learn why people wear black in Muharram",
+      "text": "Read about the black clothes worn in the first ten days of the year in memory of Imam Husayn. As a guest, simply learn, and notice the mood in photographs.",
+      "minutes": 10
+    },
+    {
+      "kind": "customs",
+      "item": "customs-weeping",
+      "name": "Learn about weeping in remembrance",
+      "text": "Read about how mourners weep together at majlis gatherings, as an expression of love and solidarity. Think about when you last wept with someone.",
+      "minutes": 10
+    },
+    {
+      "kind": "customs",
+      "item": "customs-the-clay-tablet",
+      "name": "Learn about the clay tablet",
+      "text": "Read about the small tablet of earth from Karbala on which Shia Muslims place their foreheads in prayer, as a reminder of humility. Notice the idea of earth as a teacher.",
+      "minutes": 5
+    },
+    {
+      "kind": "games",
+      "item": "games-zurkhaneh-pahlevani",
+      "name": "Watch a zurkhaneh display",
+      "text": "Watch a video of the traditional Iranian house of strength, where men swing heavy clubs and spin to a drum and poems. Notice the ethics of chivalry.",
+      "minutes": 15
+    },
+    {
+      "kind": "games",
+      "item": "games-hokm",
+      "name": "Play hokm",
+      "text": "Play the Iranian trick-taking card game in which the dealer picks the trump suit. Play with a partner for twenty minutes.",
+      "minutes": 30
+    },
+    {
+      "kind": "games",
+      "item": "games-1979-revolution-black-friday",
+      "name": "Play 1979 Revolution: Black Friday",
+      "text": "Play a short stretch of the narrative game set during the 1979 revolution in Iran, made with the help of people who lived through it. Take care with the choices.",
+      "minutes": 45
+    },
+    {
+      "kind": "travel",
+      "item": "fest-eid-al-ghadir",
+      "name": "Mark Eid al-Ghadir",
+      "text": "Eid al-Ghadir, on the 18th of Dhu al-Hijja, marks the day Muhammad is said to have declared Ali his mawla. Greet a Shia friend, or read about it.",
+      "minutes": 15
+    },
+    {
+      "kind": "travel",
+      "item": "place-isfahan",
+      "name": "Look up Isfahan",
+      "text": "Look at the half-the-world city in central Iran with its mosques, bridges and Naqsh-e Jahan square. Pick a bridge and imagine a summer evening there.",
+      "minutes": 15
+    },
+    {
+      "kind": "travel",
+      "item": "place-bara-imambara",
+      "name": "Look up Bara Imambara",
+      "text": "Look at the great hall in Lucknow built in 1784, with a vaulted roof held up by no beams or pillars. Read about its maze.",
+      "minutes": 10
+    },
+    {
+      "kind": "words",
+      "item": "word-aql",
+      "name": "Practise aql",
+      "text": "Aql is reason. Take a decision today and write down your reasons for it before you act.",
+      "minutes": 5
+    },
+    {
+      "kind": "words",
+      "item": "word-intizar",
+      "name": "Practise intizar",
+      "text": "Intizar is active waiting. Choose one thing to work on today for a better world, however small.",
+      "minutes": 5
+    },
+    {
+      "kind": "words",
+      "item": "word-sabil",
+      "name": "Practise sabil",
+      "text": "Sabil is a water station for the thirsty. Offer water to someone today and let them drink freely.",
+      "minutes": 5
+    }
+  ],
   "rules": [
     {
       "id": "r1",

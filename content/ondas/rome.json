@@ -293,17 +293,17 @@
     {
       "id": "lararium",
       "name": "At the household shrine",
-      "icon": "fire",
+      "icon": "house",
       "slot": "Morning",
       "time": "06:30",
       "minutes": 5,
       "meta": "Morning · 5 min",
-      "instructions": "Choose a shelf or niche in your home and make it the place of the house. Put there something from your family’s past and a small lamp or candle. Each morning at first light, stand before it. Light the lamp. Set down a small offering: a pinch of salt, a little food, a few drops of wine or water. Say the names of those you come from, and ask that the household be kept safe today. Then begin the day.",
-      "why": "Every Roman house had a lararium, and the head of the household began the day with an offering to the Lares, the Penates who guarded the store cupboard and the family’s Genius. Pietas, the first Roman virtue, started at home.",
+      "instructions": "Choose a shelf or niche in your home and make it the place of the house. Put there something from your family’s past and a small lamp or candle. Each morning at first light, stand before it. Light the lamp. Set down a small offering of bread, a flower or a few drops of olive oil. Say thank you for the house. The rule of this Onda is to honour your household first.",
+      "why": "Every Roman house had a lararium for the household spirits, the Lares, honoured daily. A shelf of family things and a candle is the modern version.",
       "variations": [
-        "On the first of the month hang a small garland there.",
-        "Share a portion of the evening meal with the shrine before you eat.",
-        "On your birthday make the offering to your own Genius, with cake."
+        "Add a photograph of an ancestor.",
+        "Place a seasonal flower there.",
+        "Light the lamp at dusk as well."
       ]
     },
     {
@@ -314,28 +314,172 @@
       "time": "07:30",
       "minutes": 30,
       "meta": "Morning · 30 min",
-      "instructions": "Give the first hours of the day to what you owe other people. Start with two calls. Greet someone who has helped you, a patron, teacher or elder, and ask if there is anything you can do. Then make yourself available to someone who depends on you, and do the favour they need. After that, work at your public business until midday without a break for amusement. Leave leisure for the afternoon.",
-      "why": "The Roman day began at dawn with the salutatio, when clients called on patrons, and the morning was for negotium: the courts, the forum, the Senate, accounts. Nearly all business was over by the sixth hour, which gives us the word siesta.",
+      "instructions": "Give the first hours of the day to what you owe other people. Start with two calls. Greet someone who has helped you, a patron, teacher or elder, and ask if there is anything you can do. Then make yourself available to someone who depends on you. Answer the requests that are yours. Business in the morning, leisure after. The rule of this Onda is to do business first.",
+      "why": "A Roman day began with negotium, business, and the morning greeting, salutatio, of clients to their patrons. The idea of putting duty first and leisure after is a good rhythm.",
       "variations": [
-        "Write down who your patrons are and who your clients are.",
-        "Attend something today solely because a friend asked.",
-        "Start work an hour earlier and stop at noon."
+        "Do the hardest duty first.",
+        "Make a list of what you owe.",
+        "Close the morning with a nod to those you served."
+      ]
+    },
+    {
+      "id": "greet-an-elder",
+      "name": "Greet an elder",
+      "icon": "hand-waving",
+      "slot": "Morning",
+      "time": "08:15",
+      "minutes": 15,
+      "meta": "Morning · 15 min",
+      "instructions": "Pay a morning visit or phone call to an older person or a mentor, as a Roman client called on a patron at dawn. Greet them with respect, ask after their health and offer help. Listen to their advice. Fides, good faith, meant keeping up such ties. Thank them and mean it.",
+      "why": "The salutatio was a daily ritual of paying respects. Keeping up relationships with older or wiser people is a wise habit in any age.",
+      "variations": [
+        "Call a grandparent.",
+        "Visit a former teacher.",
+        "Write a note to a mentor."
+      ]
+    },
+    {
+      "id": "bear-yourself-with-weight",
+      "name": "Bear yourself with weight",
+      "icon": "user",
+      "slot": "Morning",
+      "time": "07:00",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Stand tall before the day starts. Put on something that feels dignified, a good coat, a scarf draped like a toga, a pin. Walk slowly and steadily, with a straight back, for your first ten steps. Gravitas, weight, was a Roman virtue: a settled seriousness, not stiffness. Carry it lightly, and relax when the day gets going.",
+      "why": "Gravitas was the Roman virtue of dignity and seriousness. A little posture practice goes a long way.",
+      "variations": [
+        "Practise a firm handshake.",
+        "Speak a little more slowly.",
+        "Pause before answering."
+      ]
+    },
+    {
+      "id": "a-latin-phrase-a-day",
+      "name": "A Latin phrase a day",
+      "icon": "translate",
+      "slot": "Morning",
+      "time": "07:45",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Learn one Latin phrase today and use it three times: carpe diem, festina lente, per aspera ad astra, veni vidi vici, in vino veritas, tempus fugit. Say it aloud and write it on your hand. Latin is still alive in law, medicine, science and mottoes. Learning a phrase a day builds a surprising stock.",
+      "why": "Latin has left thousands of phrases in everyday English. Learning one a day connects you to Rome in a small, fun way.",
+      "variations": [
+        "Learn a motto of your town.",
+        "Learn a phrase from a gravestone.",
+        "Teach it to a child."
+      ]
+    },
+    {
+      "id": "a-roman-breakfast",
+      "name": "A Roman breakfast",
+      "icon": "bread",
+      "slot": "Morning",
+      "time": "07:15",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Eat a quick Roman ientaculum: bread dipped in a little wine and water (or in juice), with cheese, olives, figs or honey. Eat it standing or sitting briefly, without ceremony. Romans ate a light breakfast and the main meal in the evening. Notice how a simple breakfast leaves room for the day.",
+      "why": "Roman breakfasts were small and quick, bread with cheese and fruit. The simple habit is both pleasant and practical.",
+      "variations": [
+        "Dip your bread in olive oil.",
+        "Add a handful of nuts.",
+        "Eat it outdoors."
       ]
     },
     {
       "id": "baths",
       "name": "The baths",
-      "icon": "drop",
+      "icon": "bathtub",
       "slot": "Afternoon",
       "time": "15:00",
       "minutes": 60,
       "meta": "Afternoon · 60 min",
-      "instructions": "In mid-afternoon stop work and look after the body. First exercise until you are warm and lightly sweating: ball games, running, weights, wrestling. Then bathe in the Roman order. A warm room or warm water to open the skin. A hot one, as hot as you can stand, with oil rubbed in and scraped or towelled off. Last a plunge or shower of cold water. Do it in company if you can, at a pool, a sauna or a gym, and talk.",
-      "why": "Bathing was the daily habit of every Roman who could reach a bathhouse, rich or poor, man or woman. The great imperial baths held thousands, and going at the eighth hour to exercise, sweat, wash and gossip was the hinge of the day.",
+      "instructions": "In mid-afternoon stop work and look after the body. First exercise until you are warm and lightly sweating: ball games, running, weights, wrestling. Then bathe in the Roman order. A warm room or warm water to open the skin, a hot soak or shower, then a cool rinse to close. Rest with a cloth around you. Do not stay in heat if you feel faint, and drink water. The rule of this Onda is to bathe and exercise every day.",
+      "why": "The Roman baths were the centre of daily life for rich and poor, a mix of gym, spa, library and club. An hour spent in the same order brings a bit of that rhythm.",
       "variations": [
-        "Finish with a walk in the open air.",
-        "Go with a friend and talk no business.",
-        "At home: warm shower, hot bath with oil, cold rinse."
+        "Visit a public pool or sauna.",
+        "Do the exercise with a friend.",
+        "Finish with a cool shower."
+      ]
+    },
+    {
+      "id": "a-ball-in-the-afternoon",
+      "name": "A ball in the afternoon",
+      "icon": "person-simple-throw",
+      "slot": "Afternoon",
+      "time": "16:30",
+      "minutes": 20,
+      "meta": "Afternoon · 20 min",
+      "instructions": "Play ball with someone for twenty minutes: catch and throw, kick, a passing game in a park. Romans played several ball games before bathing: harpastum, a rough scramble, and a gentler game with a small ball. Toss it back and forth, count catches and laugh. Play gently and stay safe.",
+      "why": "Ball games were a favourite exercise before the baths. The poet Martial and the emperor Augustus both played.",
+      "variations": [
+        "Play catch with a child.",
+        "Play keepy-uppy.",
+        "Play a gentle game in a pair."
+      ]
+    },
+    {
+      "id": "keep-faith",
+      "name": "Keep faith",
+      "icon": "handshake",
+      "slot": "Afternoon",
+      "time": "14:00",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Keep one promise today to the letter, even if it is awkward or inconvenient. Be on time, pay what you owe, return what you borrowed. Fides, good faith, was the Roman virtue that held trade and law together. Say aloud: my word is my bond. The rule of this Onda is to keep faith.",
+      "why": "Fides, trustworthiness, was worshipped as a goddess in Rome and was the glue of agreements. Keeping faith on small matters builds a reputation.",
+      "variations": [
+        "Be five minutes early.",
+        "Pay a bill at once.",
+        "Return a borrowed item with a thank you."
+      ]
+    },
+    {
+      "id": "a-stroll-in-the-forum",
+      "name": "A stroll in the forum",
+      "icon": "columns",
+      "slot": "Afternoon",
+      "time": "17:00",
+      "minutes": 30,
+      "meta": "Afternoon · 30 min",
+      "instructions": "Take a slow stroll through the busiest public space near you: a market square, a high street, a plaza. Look at everything. Greet a few people. Stop for a conversation. The forum was the heart of a Roman town, where business, law, religion and gossip all met. Spend half an hour as a citizen among citizens.",
+      "why": "The Roman forum was a town’s meeting place. A stroll among people is a good antidote to a day alone at a screen.",
+      "variations": [
+        "Stop at a stall and chat.",
+        "Sit on a bench and watch.",
+        "Pick up a newspaper and read it aloud."
+      ]
+    },
+    {
+      "id": "write-some-graffiti",
+      "name": "Write some graffiti",
+      "icon": "pen",
+      "slot": "Afternoon",
+      "time": "15:30",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "On a scrap of paper, write a short piece of Pompeii-style graffiti: a joke, a greeting, a boast or a verse. The walls of Pompeii are scratched with lines like Gaius was here, and Whoever loves, let him flourish. Make yours witty. Pin it up for a day or read it to a friend. Do not write on anything that is not yours.",
+      "why": "The graffiti of Pompeii give a lively view of daily Roman life: love, insults, shopping lists. Writing your own on paper is harmless fun.",
+      "variations": [
+        "Write a limerick.",
+        "Write a mock advertisement.",
+        "Write a note of love."
+      ]
+    },
+    {
+      "id": "go-to-market",
+      "name": "Go to market",
+      "icon": "basket",
+      "slot": "Afternoon",
+      "time": "12:30",
+      "minutes": 30,
+      "meta": "Afternoon · 30 min",
+      "instructions": "Go to a market or shop and buy fresh food for the evening meal, as a Roman would, from the stalls. Chat with the sellers, ask what is good today and choose by smell and look. Carry it home in a basket. Plan the dinner around what you found. Fresh bread, vegetables, cheese and fruit make a Roman supper.",
+      "why": "Roman markets overflowed with fresh produce, and shopping for the evening meal was part of daily life. Choosing by season brings a similar pleasure.",
+      "variations": [
+        "Try a food you have never cooked.",
+        "Buy from a small stall.",
+        "Bring your own basket."
       ]
     },
     {
@@ -346,152 +490,340 @@
       "time": "18:00",
       "minutes": 60,
       "meta": "Evening · 60 min",
-      "instructions": "Eat the main meal of the day early, after bathing, and never alone if you can help it. Serve it in three stages: something small to open, eggs, olives, salad; then the main dishes; then fruit and nuts. Take off your shoes, sit back and take your time. Pour a little of the first drink as a libation. Let everyone speak. Have something read aloud, or a little music, between courses.",
-      "why": "The cena began with eggs and ended with apples, which gave the Romans a proverb for from start to finish. Guests reclined three to a couch around a shared table, and a good dinner was judged by its conversation as much as its food. Pliny the Younger promised his guests a reader, a comedian or a lyre player.",
+      "instructions": "Eat the main meal of the day early, after bathing, and never alone if you can help it. Serve it in three stages: something small to open, eggs, olives, salad; then the main dishes; then fruit and nuts. Take off your shoes and lean back if you like. Talk, tell stories and listen. The rule of this Onda is never to dine alone.",
+      "why": "The Roman cena was the social centre of the day, a meal with several courses among friends. Eating in company, in stages, slows the evening in a good way.",
       "variations": [
-        "Invite a mix of ages and stations, nine at most.",
-        "Cook one dish from the Roman cookbook of Apicius.",
-        "At the end, drink a toast to each person by name."
+        "Lay the table with a cloth and a lamp.",
+        "Invite a guest.",
+        "End with fruit and nuts."
       ]
     },
     {
       "id": "epistula",
       "name": "Write a letter",
-      "icon": "pen-nib",
+      "icon": "envelope-simple",
       "slot": "Evening",
       "time": "20:30",
       "minutes": 20,
       "meta": "Evening · 20 min",
-      "instructions": "Before bed write a proper letter to a friend who is away. Begin with a greeting and end with a farewell. Tell them what you have done and seen, give your opinion on some matter of the day, ask after their health and their affairs, and commend to them anyone who needs their help. Write it to be kept. Send it tomorrow.",
-      "why": "The Roman world was held together by letters. More than nine hundred of Cicero’s survive, and Pliny polished his for publication. On the northern frontier, soldiers and their wives wrote on thin slips of wood, hundreds of which have been dug up at Vindolanda.",
+      "instructions": "Before bed write a proper letter to a friend who is away. Begin with a greeting and end with a farewell. Tell them what you have done and seen, give your opinion on some matter of the day, ask after their health and their family. Send it by post if you can. Pliny the Younger and Cicero wrote hundreds, and we read them still.",
+      "why": "Letters were how Romans kept friendships alive across a great empire. Writing a good one is a lost art.",
       "variations": [
-        "Write by hand, by lamplight.",
-        "Write a letter of recommendation for someone who deserves one.",
-        "Keep copies, and reread them at the end of the year."
+        "Write on paper.",
+        "Include a small poem.",
+        "Ask a question and wait for the answer."
+      ]
+    },
+    {
+      "id": "tell-of-an-ancestor",
+      "name": "Tell of an ancestor",
+      "icon": "users-three",
+      "slot": "Evening",
+      "time": "19:30",
+      "minutes": 20,
+      "meta": "Evening · 20 min",
+      "instructions": "At the table or by the lamp, tell a story about one of your ancestors or an older relative: what they did, what they were like, a saying of theirs. Roman families kept wax masks of ancestors in the hall and recited their deeds at funerals. Keep your family’s memory alive by telling it to someone younger. Write a line to remember.",
+      "why": "Roman nobles displayed the masks of their ancestors and honoured them. Telling an ancestor’s story is the modern equivalent.",
+      "variations": [
+        "Look at an old photograph.",
+        "Record an older relative telling a story.",
+        "Write a short family history."
+      ]
+    },
+    {
+      "id": "read-virgil-aloud",
+      "name": "Read Virgil aloud",
+      "icon": "book-open-text",
+      "slot": "Evening",
+      "time": "21:00",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Read a passage of the Aeneid aloud, such as the opening, the fall of Troy or Aeneas meeting Dido. Choose Fagles’s or another good translation and read with feeling. Romans read poetry aloud, not silently. Notice the rhythm. Stop at a good place and sit a moment.",
+      "why": "Virgil’s Aeneid was the national epic of Rome. Reading aloud brings out its music, which Romans valued above all.",
+      "variations": [
+        "Read to someone.",
+        "Listen to a recording.",
+        "Read the opening in Latin."
+      ]
+    },
+    {
+      "id": "a-game-of-latrunculi",
+      "name": "A game of latrunculi",
+      "icon": "game-controller",
+      "slot": "Evening",
+      "time": "19:00",
+      "minutes": 30,
+      "meta": "Evening · 30 min",
+      "instructions": "Play latrunculi, the Roman strategy game of capturing by sandwiching, with a friend. Draw a grid on paper and use coins or pebbles in two colours. Capture a piece by trapping it between two of yours. The rules are partly lost, so agree your own. Play two games and shake hands.",
+      "why": "Ludus latrunculorum, the game of little soldiers, was a favourite of Roman soldiers and gentlemen. Part of the pleasure is making your own rules.",
+      "variations": [
+        "Play with dice-and-pebble games instead.",
+        "Play tic-tac-toe, terni lapilli.",
+        "Teach it to a child."
+      ]
+    },
+    {
+      "id": "a-recitation",
+      "name": "A recitation",
+      "icon": "microphone-stage",
+      "slot": "Evening",
+      "time": "20:00",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Choose a poem you love and recite it aloud to a friend or the room, from memory if you can. Romans held recitationes, poetry readings, in houses and halls. Stand up, project your voice and pause at the line ends. If you have no poem, read one by Catullus, Horace or Ovid. Receive applause graciously.",
+      "why": "Public recitals were a feature of Roman cultural life. Reading or reciting aloud makes poems come alive.",
+      "variations": [
+        "Learn a short poem by heart.",
+        "Hold a small reading with friends.",
+        "Record yourself."
+      ]
+    },
+    {
+      "id": "a-day-at-the-baths",
+      "name": "A day at the baths",
+      "icon": "bathtub",
+      "slot": "Special",
+      "time": "14:00",
+      "minutes": 120,
+      "meta": "On a free afternoon · 120 min",
+      "instructions": "Spend an afternoon as a Roman at the baths: go to a public pool, spa or sauna with a friend, exercise first, then bathe in stages, from warm to hot to cool. Rest, talk and have a light snack. Take a book. Read the safety signs, drink water and leave if you feel unwell. Emerge clean and relaxed.",
+      "why": "The baths were the great social institution of Rome, with exercise, bathing, reading and conversation under one roof. An afternoon in the same spirit is a gift.",
+      "variations": [
+        "Go with a friend.",
+        "Bring a book of poems.",
+        "Finish with a cold plunge if safe."
+      ]
+    },
+    {
+      "id": "a-saturnalia",
+      "name": "A Saturnalia",
+      "icon": "confetti",
+      "slot": "Special",
+      "time": "18:00",
+      "minutes": 120,
+      "meta": "On a free evening · 120 min",
+      "instructions": "Hold a Saturnalia, the Roman midwinter festival of reversal and gifts. Draw lots for a king of the party, swap places so the youngest gives the orders, and exchange small, silly presents. Serve a good meal, play games and sing. Greet everyone with io Saturnalia. Keep it light-hearted and kind, and let everyone laugh.",
+      "why": "Saturnalia was the most loved Roman holiday: gifts, games, role reversal and feasting. It is a model for the spirit of Christmas and carnival.",
+      "variations": [
+        "Make it a gift swap with a price limit.",
+        "Let the youngest cook.",
+        "Wear paper crowns."
       ]
     }
   ],
-  "tasks": [
+  "tasks": [],
+  "immersePlan": [
     {
-      "id": "task-read-pliny-s-two-letters-on-the-eruption-of-vesuvius",
-      "name": "Read Pliny’s two letters on the eruption of Vesuvius",
-      "meta": "Read · Letters 6.16 and 6.20, 20 min",
-      "time": "20:00",
-      "slot": "Evening",
-      "action": "read"
+      "kind": "read",
+      "item": "read-spqr-a-history-of-ancient-rome",
+      "name": "Read a chapter of SPQR",
+      "text": "Read a chapter of Mary Beard’s lively history of Rome. Pick one thing you did not know.",
+      "minutes": 25
     },
     {
-      "id": "task-watch-the-first-episode-of-i-claudius",
-      "name": "Watch the first episode of I, Claudius",
-      "meta": "Watch · 100 min",
-      "time": "20:30",
-      "slot": "Evening",
-      "action": "watch"
+      "kind": "read",
+      "item": "read-the-letters-of-the-younger-pliny",
+      "name": "Read a letter of Pliny",
+      "text": "Read a letter of Pliny the Younger, such as the one describing the eruption of Vesuvius, or one about his country house. Notice his tone.",
+      "minutes": 15
     },
     {
-      "id": "task-listen-to-an-episode-of-the-history-of-rome",
-      "name": "Listen to an episode of The History of Rome",
-      "meta": "Listen · 25 min",
-      "time": "08:00",
-      "slot": "Morning",
-      "action": "listen"
+      "kind": "read",
+      "item": "read-the-aeneid",
+      "name": "Read a book of the Aeneid",
+      "text": "Read Book 2 or Book 4 of Virgil’s epic aloud in Fagles’s translation. Notice how the story moves.",
+      "minutes": 30
     },
     {
-      "id": "task-make-moretum-garlic-herbs-and-cheese-pounded-together-with-flatbread",
-      "name": "Make moretum: garlic, herbs and cheese pounded together, with flatbread",
-      "meta": "Eat · a farmer’s breakfast",
-      "time": "12:30",
-      "slot": "Afternoon",
-      "action": "eat"
+      "kind": "watch",
+      "item": "watch-meet-the-romans-with-mary-beard",
+      "name": "Watch Meet the Romans",
+      "text": "Watch an episode of Mary Beard’s BBC series on the lives of ordinary Romans, from Pompeii to the poor. Listen for the surprises.",
+      "minutes": 59
     },
     {
-      "id": "task-journal-what-did-you-owe-today-and-to-whom",
-      "name": "Journal: what did you owe today, and to whom?",
-      "meta": "Journal · 10 min",
-      "time": "21:30",
-      "slot": "Evening",
-      "action": "journal"
+      "kind": "watch",
+      "item": "watch-i-claudius",
+      "name": "Watch an episode of I, Claudius",
+      "text": "Watch an episode of the 1976 BBC drama of the emperors seen through the eyes of Claudius. Notice the acting and the intrigue.",
+      "minutes": 50
     },
     {
-      "id": "task-peace-and-desert-what-does-your-comfort-rest-on",
-      "name": "Peace and desert: what does your comfort rest on?",
-      "meta": "Philosophy · 10 min",
-      "time": "09:00",
-      "slot": "Morning",
-      "action": "philosophy"
+      "kind": "watch",
+      "item": "watch-rome",
+      "name": "Watch an episode of Rome",
+      "text": "Watch the first episode of the HBO and BBC drama of Rome in the age of Caesar, seen from the streets. Note the details of daily life.",
+      "minutes": 55
     },
     {
-      "id": "walk-in-the-open-after-dinner",
-      "name": "Walk in the open after dinner",
-      "meta": "Ambulatio",
-      "time": "19:30",
-      "slot": "Evening"
+      "kind": "listen",
+      "item": "listen-the-history-of-rome",
+      "name": "Listen to The History of Rome",
+      "text": "Play an episode of Mike Duncan’s podcast, which tells the story from Aeneas to the last emperor. Listen while you walk.",
+      "minutes": 25
     },
     {
-      "id": "do-a-favour-for-someone-who-can-do-nothing-for-you",
-      "name": "Do a favour for someone who can do nothing for you",
-      "meta": "Officium",
-      "time": "11:00",
-      "slot": "Morning"
+      "kind": "listen",
+      "item": "listen-pines-of-rome",
+      "name": "Listen to the Pines of Rome",
+      "text": "Play Respighi’s 1924 orchestral picture of Rome, from the games of children to the Appian Way at dawn. Imagine the scenes.",
+      "minutes": 25
     },
     {
-      "id": "carry-yourself-with-gravitas-for-one-whole-meeting",
-      "name": "Carry yourself with gravitas for one whole meeting",
-      "meta": "Slow, upright, few words",
-      "time": "10:00",
-      "slot": "Morning"
+      "kind": "listen",
+      "item": "listen-music-from-ancient-rome",
+      "name": "Hear music from ancient Rome",
+      "text": "Play a recording of reconstructed Roman music on pipes, lyres and horns. Notice how different it sounds.",
+      "minutes": 20
     },
     {
-      "id": "treat-go-to-the-baths-a-long-soak-or-a-hot-shower-then-cold",
-      "name": "Go to the baths: a long soak or a hot shower, then cold",
-      "meta": "Hot, then cold",
-      "time": "19:30",
-      "slot": "Evening"
+      "kind": "art",
+      "item": "art-augustus-of-prima-porta",
+      "name": "Look at the Augustus of Prima Porta",
+      "text": "Look at the statue of the first emperor, standing in armour with his arm raised. Look at the small figures on his breastplate.",
+      "minutes": 10
     },
     {
-      "id": "treat-scratch-a-harmless-line-of-graffiti-in-the-sand-or-steam",
-      "name": "Scratch a harmless line of graffiti in the sand or steam",
-      "meta": "Pompeii is full of it",
-      "time": "15:30",
-      "slot": "Afternoon"
+      "kind": "art",
+      "item": "art-the-garden-room-of-livia",
+      "name": "Look at Livia’s garden room",
+      "text": "Look at the wall paintings of an imaginary garden, with trees, flowers and birds, from the villa of Livia. Count the birds.",
+      "minutes": 10
     },
     {
-      "id": "treat-dilute-a-drink-with-water-as-the-romans-did-and-toast-a-frie",
-      "name": "Dilute a drink with water as the Romans did, and toast a friend",
-      "meta": "To your health",
-      "time": "19:30",
-      "slot": "Evening"
+      "kind": "art",
+      "item": "art-mummy-portraits-from-the-fayum",
+      "name": "Look at the Fayum portraits",
+      "text": "Look at the painted faces of ordinary people from Roman Egypt, made to cover their mummies. Choose one person and imagine them.",
+      "minutes": 10
     },
     {
-      "id": "treat-play-dice-or-knucklebones-for-nuts",
-      "name": "Play dice or knucklebones for nuts",
-      "meta": "Low stakes",
-      "time": "19:30",
-      "slot": "Evening"
+      "kind": "eat",
+      "item": "eat-puls",
+      "name": "Cook puls",
+      "text": "Boil spelt, emmer or oats to a thick porridge and eat with a little oil and salt. It was the daily food of early Rome.",
+      "minutes": 40
     },
     {
-      "id": "daily-walk-through-your-town-centre-like-a-forum-and-greet-people",
-      "name": "Walk through your town centre like a forum and greet people",
-      "meta": "Business was done outdoors",
-      "time": "14:00",
-      "slot": "Afternoon"
+      "kind": "eat",
+      "item": "eat-moretum",
+      "name": "Make moretum",
+      "text": "Pound garlic, hard cheese and herbs with a little oil and vinegar into a paste, and spread it on bread. It is the subject of a poem attributed to Virgil.",
+      "minutes": 20
     },
     {
-      "id": "daily-eat-a-light-lunch-of-bread-cheese-and-olives",
-      "name": "Eat a light lunch of bread, cheese and olives",
-      "meta": "Prandium",
-      "time": "14:00",
-      "slot": "Afternoon"
+      "kind": "eat",
+      "item": "eat-libum",
+      "name": "Bake libum",
+      "text": "Mix fresh cheese with flour and an egg, shape into small cakes, bake and drizzle with honey. It was an offering cake, from Cato’s recipe.",
+      "minutes": 50
     },
     {
-      "id": "daily-take-a-short-rest-after-midday",
-      "name": "Take a short rest after midday",
-      "meta": "Sexta, the sixth hour",
-      "time": "14:00",
-      "slot": "Afternoon"
+      "kind": "drink",
+      "item": "drink-wine-and-water",
+      "name": "Drink diluted grape juice",
+      "text": "Mix grape juice with water in a jug and serve it in cups, as the Romans mixed wine. Use juice rather than wine.",
+      "minutes": 10
+    },
+    {
+      "kind": "drink",
+      "item": "drink-mulsum",
+      "name": "Make mulsum without the wine",
+      "text": "Stir honey into warm grape juice or warm water with a pinch of pepper. It is the Roman aperitif, without the alcohol.",
+      "minutes": 10
+    },
+    {
+      "kind": "drink",
+      "item": "drink-posca",
+      "name": "Make posca",
+      "text": "Mix water with a splash of vinegar and perhaps a little honey. It was the cheap, refreshing drink of soldiers and workers. Sip it cold.",
+      "minutes": 10
+    },
+    {
+      "kind": "customs",
+      "item": "customs-patron-and-client",
+      "name": "Do a favour for someone who helped you",
+      "text": "Think of someone who has helped you, and do something for them today, as a client served a patron. Say thank you out loud.",
+      "minutes": 20
+    },
+    {
+      "kind": "customs",
+      "item": "customs-reclining-at-table",
+      "name": "Recline at the table",
+      "text": "Lay cushions on a couch or floor and eat a meal reclining on one elbow, as Romans did. Notice how it slows you down.",
+      "minutes": 30
+    },
+    {
+      "kind": "customs",
+      "item": "customs-the-masks-of-the-ancestors",
+      "name": "Tell a story of an ancestor",
+      "text": "Tell a story about an ancestor to someone, as the Romans recited the deeds of their ancestors. Write a line to remember.",
+      "minutes": 20
+    },
+    {
+      "kind": "games",
+      "item": "games-ludus-latrunculorum",
+      "name": "Play latrunculi",
+      "text": "Play the Roman strategy game on a grid with two sets of pebbles. Trap pieces between two of yours.",
+      "minutes": 30
+    },
+    {
+      "kind": "games",
+      "item": "games-tali-and-tesserae",
+      "name": "Play tali and tesserae",
+      "text": "Throw knucklebones or dice with a friend, as Romans did in the streets and taverns. Agree a small, silly stake.",
+      "minutes": 15
+    },
+    {
+      "kind": "games",
+      "item": "games-harpastum",
+      "name": "Play harpastum",
+      "text": "Play a gentle version of the Roman ball game: two teams, a small ball, passing to score. Play on grass and keep it friendly.",
+      "minutes": 25
+    },
+    {
+      "kind": "travel",
+      "item": "fest-saturnalia",
+      "name": "Mark Saturnalia",
+      "text": "Saturnalia ran from 17 to 23 December. Give a small gift, swap roles with someone for an hour and say io Saturnalia.",
+      "minutes": 30
+    },
+    {
+      "kind": "travel",
+      "item": "fest-the-birthday-of-rome",
+      "name": "Mark the Birthday of Rome",
+      "text": "Rome’s traditional birthday is 21 April, the festival of Parilia. Make a toast to your city or town and share a meal.",
+      "minutes": 20
+    },
+    {
+      "kind": "travel",
+      "item": "place-the-pantheon",
+      "name": "Look up the Pantheon",
+      "text": "Look at pictures of the Pantheon in Rome, its dome with the open eye at the top. Imagine the light moving across the floor.",
+      "minutes": 10
+    },
+    {
+      "kind": "words",
+      "item": "word-pietas",
+      "name": "Practise pietas",
+      "text": "Pietas is duty to family, gods and country. Do one duty to your family today with a full heart.",
+      "minutes": 10
+    },
+    {
+      "kind": "words",
+      "item": "word-fides",
+      "name": "Practise fides",
+      "text": "Fides is good faith. Keep one promise to the letter today, even a small or inconvenient one, and note how it feels.",
+      "minutes": 5
+    },
+    {
+      "kind": "words",
+      "item": "word-otium",
+      "name": "Practise otium",
+      "text": "Otium is leisure, time to think and read. Spend half an hour on something you do for love, not for work.",
+      "minutes": 30
     }
   ],
-  "immersePlan": [],
   "rules": [
     {
       "id": "r1",

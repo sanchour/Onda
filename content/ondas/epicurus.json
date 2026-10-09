@@ -293,33 +293,97 @@
     {
       "id": "fourfold-remedy",
       "name": "The fourfold remedy",
-      "icon": "leaf",
+      "icon": "heartbeat",
       "slot": "Morning",
       "time": "07:30",
       "minutes": 5,
       "meta": "Morning · 5 min",
-      "instructions": "Say the four lines aloud slowly, and after each one stop and test it against whatever is on your mind this morning. Nothing to fear from the gods. Nothing to feel in death. What is good is easy to get. What is terrible is easy to endure. For the third line, name what you actually need today. For the fourth, recall a pain you once dreaded and came through.",
-      "why": "The tetrapharmakos is a four-line summary of the first four Principal Doctrines, found on a papyrus from Herculaneum. Epicureans kept such summaries by heart so that the cure was at hand when fear arrived.",
+      "instructions": "Say the four lines aloud slowly, and after each one stop and test it against whatever is on your mind this morning. Nothing to fear from the gods. Nothing to feel in death. What is good is easy to get. What is terrible is easy to bear. If one line does not ring true today, say which and why. Then go on with the day.",
+      "why": "The tetrapharmakos, the four-part cure, is a summary of Epicurus’s ethics preserved by a follower in Herculaneum. It is short enough to say every morning.",
       "variations": [
-        "Write the four lines where you will see them.",
-        "Take one line a day and stay with it for ten minutes.",
-        "Read Principal Doctrines 1 to 4 in full."
+        "Write the four lines on a card.",
+        "Say them with a friend.",
+        "Pick the line you need most today."
       ]
     },
     {
       "id": "sort-desires",
       "name": "Sort your desires",
-      "icon": "scales",
+      "icon": "list-checks",
       "slot": "Morning",
       "time": "09:30",
       "minutes": 10,
       "meta": "Morning · 10 min",
-      "instructions": "Write down everything you want today, large and small. Put each in one of three columns. Natural and necessary: food, water, warmth, safety, friends, a clear mind. Natural but not necessary: the tastier meal, the nicer room. Empty: fame, status, more money than you can use, anything with no limit. Then act on the first column, enjoy the second if it comes easily, and cross out one item in the third.",
-      "why": "The Letter to Menoeceus divides desires this way. The necessary ones are few and easily met. The empty ones rest on false belief and grow with feeding, which is why they cause most human misery.",
+      "instructions": "Write down everything you want today, large and small. Put each in one of three columns. Natural and necessary: food, water, warmth, safety, friends, a clear mind. Natural but not necessary: the tastier meal, the nicer room. Neither natural nor necessary: fame, luxury, more of everything. Cross out the third column and see how the day looks. The rule of this Onda is to want what is easy to get.",
+      "why": "Epicurus sorted desires into three kinds so that you could keep the cheap ones and drop the ones that make you anxious. The sorting itself brings calm.",
       "variations": [
-        "Do it for a purchase you are considering.",
-        "Ask of one empty desire: what will happen to me if this is satisfied, and what if it is not?",
-        "Go a day buying nothing but food."
+        "Sort your last purchases.",
+        "Sort the wants of a friend.",
+        "Do it at the end of the week."
+      ]
+    },
+    {
+      "id": "tend-a-garden",
+      "name": "Tend a garden",
+      "icon": "plant",
+      "slot": "Morning",
+      "time": "08:00",
+      "minutes": 15,
+      "meta": "Morning · 15 min",
+      "instructions": "Spend fifteen minutes in a garden, real or tiny: a pot of herbs, a balcony box, a plot or a window shelf. Water, weed, pick, smell. Epicurus’s school was called the Garden, and it met in one. Sit for a moment among the plants and notice how little you need. Take one leaf with you.",
+      "why": "The Garden was both a place and a school: friends living simply among vegetables and fig trees. Even a pot of herbs is a small Garden.",
+      "variations": [
+        "Grow something you can eat.",
+        "Sit by a plant for five minutes.",
+        "Visit a public garden."
+      ]
+    },
+    {
+      "id": "a-doctrine-for-the-day",
+      "name": "A doctrine for the day",
+      "icon": "scroll",
+      "slot": "Morning",
+      "time": "07:00",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Choose one of the Principal Doctrines of Epicurus, short sayings of one or two sentences, and learn it by heart. Say it a few times on your way to work. Try Doctrine 1, on the blessed and the immortal, or Doctrine 3, on the limit of pleasure being the removal of all pain. Test it against your day.",
+      "why": "Epicureans memorised the doctrines so that they could recall them in a crisis. The Principal Doctrines are forty short sayings, easy to carry around.",
+      "variations": [
+        "Write it on your hand.",
+        "Learn one a week.",
+        "Say it aloud to a friend."
+      ]
+    },
+    {
+      "id": "a-glass-of-water-thirstily",
+      "name": "A glass of water, thirstily",
+      "icon": "drop",
+      "slot": "Morning",
+      "time": "07:45",
+      "minutes": 3,
+      "meta": "Morning · 3 min",
+      "instructions": "Drink a glass of water when you are properly thirsty, and notice how good it is. Epicurus said that water and barley bread give the highest pleasure to someone who needs them. Slow down and let the pleasure fill you. Notice that this pleasure was free and easy to get.",
+      "why": "Natural pleasures that meet real needs are the most reliable, in Epicurus’s view. A thirsty glass of water shows that.",
+      "variations": [
+        "Eat a piece of bread when hungry.",
+        "Warm your hands on a cup.",
+        "Notice the pleasure of a stretch."
+      ]
+    },
+    {
+      "id": "message-a-friend",
+      "name": "Message a friend",
+      "icon": "chat-circle-text",
+      "slot": "Morning",
+      "time": "08:30",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Write a warm message to a friend and send it. Say something real: that you are thinking of them, that you are grateful for them, that you would like to see them. Epicurus said that of all the things wisdom provides for a happy life, the greatest is the possession of friends. Use the morning to tend one.",
+      "why": "Friendship was central to the Garden. The doctrine is that friends bring more security and joy than anything money can buy.",
+      "variations": [
+        "Call instead of writing.",
+        "Message someone you have not spoken to for months.",
+        "Make a plan to meet."
       ]
     },
     {
@@ -330,28 +394,92 @@
       "time": "13:00",
       "minutes": 30,
       "meta": "Afternoon · 30 min",
-      "instructions": "Make the simplest meal you can enjoy: good bread, water, perhaps olives, a piece of cheese or a bowl of lentils. Do not eat it alone. Sit with a friend, outside if possible, with no phones on the table. Eat slowly enough to notice when hunger ends, and stop there. Spend the rest of the time talking.",
-      "why": "Epicurus lived mainly on bread and water and called a pot of cheese a feast. He also said that one should look for someone to eat with before looking for something to eat, since dining alone is the life of a lion or a wolf.",
+      "instructions": "Make the simplest meal you can enjoy: good bread, water, perhaps olives, a piece of cheese or a bowl of lentils. Do not eat it alone. Sit with a friend, outside if possible, with no phones on the table. Eat slowly enough to taste it. Notice that you are as content as at a feast. The rule of this Onda is not to eat alone.",
+      "why": "Epicurus wrote that before you eat, you should consider with whom you eat, not what, because a meal without a friend is the life of a lion or a wolf.",
       "variations": [
-        "Eat when truly hungry and notice how plain food tastes.",
-        "Invite someone you have not seen for a long time.",
-        "Hold a feast on the twentieth of the month."
+        "Share the meal on a bench.",
+        "Eat in silence for the first five minutes.",
+        "Invite someone who would eat alone."
       ]
     },
     {
       "id": "study-nature",
       "name": "Study nature",
-      "icon": "atom",
+      "icon": "binoculars",
       "slot": "Afternoon",
       "time": "16:30",
       "minutes": 20,
       "meta": "Afternoon · 20 min",
-      "instructions": "Pick one thing in the natural world that you do not understand or that vaguely frightens you: lightning, an illness, the size of the universe, what happens to a body after death. Spend twenty minutes learning how it actually works from a sound source. Then explain it in five plain sentences. If you have a garden or a pot, do some of your thinking with your hands in the soil.",
-      "why": "Epicurus said that if we were not troubled by fears about the sky and about death we would have no need of natural science. Its whole purpose is peace of mind. Lucretius wrote six books of physics for the same reason.",
+      "instructions": "Pick one thing in the natural world that you do not understand or that vaguely frightens you: lightning, an illness, the size of the universe, what happens to a body after death. Spend twenty minutes learning how it actually works. Epicurus held that most fear comes from ignorance of nature. Write one calming fact.",
+      "why": "Physiologia, the study of nature, was an Epicurean tool for peace of mind. Once you know how thunder works, it stops being a threat.",
       "variations": [
-        "Read fifty lines of Lucretius.",
-        "Watch the night sky and consider that the atoms in you are as old as it is.",
-        "Grow one thing you can eat."
+        "Look up how an eclipse happens.",
+        "Read about how the body ages.",
+        "Learn what a star is made of."
+      ]
+    },
+    {
+      "id": "stay-out-of-the-race",
+      "name": "Stay out of the race",
+      "icon": "path",
+      "slot": "Afternoon",
+      "time": "15:00",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Choose one competition you are in today, for status, a promotion or a like, and step out of it deliberately. Do not compare, do not check, do not compete. Epicurus advised living unnoticed, lathe biosas, and staying out of public life if it troubles the mind. Notice the lightness. The rule of this Onda is to stay out of the race.",
+      "why": "Epicurus believed that ambition and the pursuit of fame disturb the mind. Opting out of one small race gives a taste of that peace.",
+      "variations": [
+        "Skip checking the news for a day.",
+        "Decline an invitation to compete.",
+        "Let someone else win."
+      ]
+    },
+    {
+      "id": "do-a-good-deed-unnoticed",
+      "name": "Do a good deed unnoticed",
+      "icon": "gift",
+      "slot": "Afternoon",
+      "time": "14:00",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Do a favour for someone today in such a way that no one knows. Leave coffee money on the counter, mend a neighbour’s gate, send an anonymous note. Epicurus admired generosity, and living unnoticed. The pleasure of an unseen kindness is a quiet, lasting one.",
+      "why": "Lathe biosas, live unnoticed, is one of Epicurus’s best known sayings. A secret kindness makes the point well.",
+      "variations": [
+        "Do it for a stranger.",
+        "Do it for someone you dislike.",
+        "Never tell anyone."
+      ]
+    },
+    {
+      "id": "watch-the-dust",
+      "name": "Watch the dust",
+      "icon": "sun-dim",
+      "slot": "Afternoon",
+      "time": "17:00",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Sit where a sunbeam falls into a room, and watch the dust motes drift. Lucretius, the Roman poet who retold Epicurus’s physics, describes dust in a sunbeam as an image of atoms moving in the void. Watch the randomness and the pattern for ten minutes. Notice that there is nothing here to fear.",
+      "why": "Lucretius uses the dancing dust in a sunbeam as his first picture of the atoms. Watching it brings the ancient physics to life.",
+      "variations": [
+        "Watch rain on a window.",
+        "Watch leaves in the wind.",
+        "Watch clouds forming."
+      ]
+    },
+    {
+      "id": "an-hour-with-a-friend-no-agenda",
+      "name": "An hour with a friend, no agenda",
+      "icon": "handshake",
+      "slot": "Afternoon",
+      "time": "16:00",
+      "minutes": 60,
+      "meta": "Afternoon · 60 min",
+      "instructions": "Spend an hour with a friend with no plan: no tasks, no talking points, no phones. Walk, sit, cook something plain. Let the conversation wander. Friends in the Garden lived together and gave each other security and joy. Notice how little is needed for a happy hour.",
+      "why": "Epicurus taught that friendship is the greatest means to a blessed life. An hour with no agenda is its purest form.",
+      "variations": [
+        "Do it outdoors.",
+        "Do it by phone with a far friend.",
+        "Do it with a family member."
       ]
     },
     {
@@ -362,150 +490,341 @@
       "time": "21:30",
       "minutes": 10,
       "meta": "Evening · 10 min",
-      "instructions": "Before sleep, bring back three good things. One from today, one from this year, one from long ago. Take each slowly: who was there, what was said, how it felt in the body. Let the pleasure come again. Then give thanks for it as something that has happened and cannot now be taken away.",
-      "why": "Epicurus taught that the mind can draw on pleasures past and to come, and so outweigh present pain. On his last day, in agony from kidney stones, he wrote to a friend that the joy of remembering their conversations stood against all of it.",
+      "instructions": "Before sleep, bring back three good things. One from today, one from this year, one from long ago. Take each slowly: who was there, what was said, how it felt in the body. Let the pleasure come again. Then give thanks for it. The rule of this Onda is to be grateful for what has been. Epicurus, dying in pain, said that the memory of his friends’ talks made him glad.",
+      "why": "Epicurus wrote on his last day that he was happy through the memory of past conversations. Recalling pleasures is a way to enjoy them twice.",
       "variations": [
-        "Write one of the three to the friend who was in it.",
-        "Recall a past pain that has completely gone.",
-        "Tell someone a happy memory that includes them."
-      ]
-    }
-  ],
-  "tasks": [
-    {
-      "id": "task-read-the-letter-to-menoeceus",
-      "name": "Read the Letter to Menoeceus",
-      "meta": "Read · 15 min",
-      "time": "20:00",
-      "slot": "Evening",
-      "action": "read"
-    },
-    {
-      "id": "task-eat-a-meal-of-bread-cheese-olives-and-water",
-      "name": "Eat a meal of bread, cheese, olives and water",
-      "meta": "Eat · a little pot of cheese",
-      "time": "12:30",
-      "slot": "Afternoon",
-      "action": "eat"
-    },
-    {
-      "id": "task-watch-epicurus-on-happiness",
-      "name": "Watch Epicurus on Happiness",
-      "meta": "Watch · 24 min",
-      "time": "20:30",
-      "slot": "Evening",
-      "action": "watch"
-    },
-    {
-      "id": "task-listen-to-the-seikilos-song",
-      "name": "Listen to the Seikilos song",
-      "meta": "Listen · 2 min, the oldest complete song",
-      "time": "08:00",
-      "slot": "Morning",
-      "action": "listen"
-    },
-    {
-      "id": "task-journal-which-of-today-s-desires-were-empty",
-      "name": "Journal: which of today’s desires were empty?",
-      "meta": "Journal · 10 min",
-      "time": "21:00",
-      "slot": "Evening",
+        "Write the three in a notebook.",
+        "Tell someone one of them.",
+        "Look at an old photograph."
+      ],
       "action": "journal"
     },
     {
-      "id": "task-death-is-nothing-to-us-sit-with-the-argument",
-      "name": "Death is nothing to us: sit with the argument",
-      "meta": "Philosophy · 10 min",
-      "time": "07:00",
-      "slot": "Morning",
-      "action": "philosophy"
+      "id": "read-lucretius-aloud",
+      "name": "Read Lucretius aloud",
+      "icon": "book-open",
+      "slot": "Evening",
+      "time": "20:00",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Read a passage of Lucretius’s On the Nature of Things aloud: the opening hymn to Venus, the sunbeam, or the closing lines of Book 3 on death. Choose a translation that sounds good, such as Stallings’s verse version. Read slowly, with feeling. The poem was meant to be heard, and is both beautiful and calming.",
+      "why": "On the Nature of Things is the finest poem of Epicurean philosophy, written by Lucretius around 55 BCE. Reading aloud makes its calm contagious.",
+      "variations": [
+        "Read the opening to someone.",
+        "Listen to a recording.",
+        "Learn two lines by heart."
+      ]
     },
     {
-      "id": "spend-an-unhurried-hour-with-a-friend",
-      "name": "Spend an unhurried hour with a friend",
-      "meta": "Philia",
-      "time": "17:00",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "turn-down-one-chance-to-be-noticed",
-      "name": "Turn down one chance to be noticed",
-      "meta": "Live unnoticed",
-      "time": "11:00",
-      "slot": "Morning"
-    },
-    {
-      "id": "tell-a-friend-one-honest-thing-kindly",
-      "name": "Tell a friend one honest thing, kindly",
-      "meta": "Frank speech",
-      "time": "15:00",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "treat-eat-a-piece-of-good-cheese-very-slowly",
-      "name": "Eat a piece of good cheese very slowly",
-      "meta": "Epicurus asked a friend for a little pot of it",
-      "time": "15:30",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "treat-sit-in-a-garden-a-park-or-beside-a-pot-plant-with-a-friend",
-      "name": "Sit in a garden, a park or beside a pot plant with a friend",
-      "meta": "Twenty minutes",
-      "time": "15:30",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "treat-have-a-nap",
-      "name": "Have a nap",
-      "meta": "Without guilt",
-      "time": "15:30",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "treat-recall-your-best-meal-ever-and-tell-someone-about-it",
-      "name": "Recall your best meal ever and tell someone about it",
-      "meta": "In detail",
+      "id": "a-letter-to-a-friend",
+      "name": "A letter to a friend",
+      "icon": "envelope-simple",
+      "slot": "Evening",
       "time": "19:30",
-      "slot": "Evening"
+      "minutes": 20,
+      "meta": "Evening · 20 min",
+      "instructions": "Write a proper letter to a friend, in the manner of Epicurus, who wrote to his friends constantly. Tell them what you have been thinking, what is cheering you, what you have learned. Say that you are well. Send it by post, if possible. Letters were how the Garden stayed together across the sea.",
+      "why": "Epicurus’s surviving letters to friends such as Menoeceus are among the best-loved philosophical texts. A letter is the Epicurean act of friendship.",
+      "variations": [
+        "Write a letter on paper.",
+        "Include a pressed leaf.",
+        "Ask a question they must answer."
+      ]
     },
     {
-      "id": "daily-make-a-plain-breakfast-and-taste-each-part-of-it-separately",
-      "name": "Make a plain breakfast and taste each part of it separately",
-      "meta": "Bread, fruit, water",
-      "time": "07:15",
-      "slot": "Morning"
+      "id": "before-you-were-born",
+      "name": "Before you were born",
+      "icon": "moon-stars",
+      "slot": "Evening",
+      "time": "21:00",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Sit quietly and think about the time before you were born. Was it painful? Did you suffer? Lucretius asks us to look at that long past with calm, and says that is the mirror of the time after death. Hold the thought for a few minutes. If it feels troubling, stop and think of something pleasant. Many people find this a relief.",
+      "why": "The symmetry argument says that nonexistence after death is no worse than nonexistence before birth. Many readers find it a surprising comfort.",
+      "variations": [
+        "Read the passage in Lucretius first.",
+        "Do it in the garden at dusk.",
+        "Talk about it with a friend."
+      ]
     },
     {
-      "id": "daily-write-down-one-thing-you-are-not-afraid-of-today",
-      "name": "Write down one thing you are not afraid of today",
-      "meta": "Fear shrinks when named",
-      "time": "07:15",
-      "slot": "Morning"
+      "id": "a-news-free-evening",
+      "name": "A news-free evening",
+      "icon": "wifi-slash",
+      "slot": "Evening",
+      "time": "19:00",
+      "minutes": 60,
+      "meta": "Evening · 60 min",
+      "instructions": "Spend the evening without news, social media or anything that stirs anxiety. Epicureans sought ataraxia, freedom from disturbance. Cook something plain, talk, read, tidy a shelf. Notice what you do not miss. Go to bed with a quiet mind. The rule of this Onda is that serenity is the aim.",
+      "why": "Ataraxia, untroubled calm, is the goal of Epicurean life. A news-free evening is a modest and effective step toward it.",
+      "variations": [
+        "Do it for a whole weekend.",
+        "Switch off notifications.",
+        "Read a book you love."
+      ]
     },
     {
-      "id": "daily-eat-dinner-with-a-friend-or-ring-one-while-you-eat",
-      "name": "Eat dinner with a friend, or ring one while you eat",
-      "meta": "Of all things, friendship is the greatest",
-      "time": "20:30",
-      "slot": "Evening"
+      "id": "sit-in-the-garden-at-dusk",
+      "name": "Sit in the garden at dusk",
+      "icon": "tree-evergreen",
+      "slot": "Evening",
+      "time": "18:30",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Go to a garden, park or balcony at dusk and sit among plants. Do nothing. Enjoy the cool air, the smell of leaves and the stillness. If a friend is with you, talk quietly or not at all. Epicurus’s school took its name from the Garden. Sit for fifteen minutes, and leave when the first star appears.",
+      "why": "The Garden was a place of peace. A quarter-hour among plants at the end of the day is a simple pleasure of the kind Epicurus recommended.",
+      "variations": [
+        "Bring a cup of herbal tea.",
+        "Listen for evening birdsong.",
+        "Count the plants you can name."
+      ]
     },
     {
-      "id": "daily-list-three-pleasures-that-cost-nothing",
-      "name": "List three pleasures that cost nothing",
-      "meta": "Sunlight, a joke, a good chair",
-      "time": "20:30",
-      "slot": "Evening"
+      "id": "the-twentieth",
+      "name": "The Twentieth",
+      "icon": "users-three",
+      "slot": "Special",
+      "time": "18:00",
+      "minutes": 120,
+      "meta": "On a free evening · 120 min",
+      "instructions": "Hold a feast of the Twentieth with friends. Epicureans met on the twentieth of every month to eat together, remember Epicurus and share a simple supper. Serve bread, olives, cheese, lentils, figs and watered grape juice. Read a doctrine aloud, share what you are grateful for and tell a story. Keep it plain and happy.",
+      "why": "The Twentieth, Eikas, was the monthly feast of the Epicurean school. It was a regular occasion for friendship, memory and plain food.",
+      "variations": [
+        "Keep it monthly.",
+        "Ask each guest to bring a doctrine.",
+        "End with a toast to absent friends."
+      ]
     },
     {
-      "id": "daily-read-one-sentence-of-epicurus-and-sleep-on-it",
-      "name": "Read one sentence of Epicurus and sleep on it",
-      "meta": "Death is nothing to us",
-      "time": "20:30",
-      "slot": "Evening"
+      "id": "make-a-pot-garden",
+      "name": "Make a pot garden",
+      "icon": "potted-plant",
+      "slot": "Special",
+      "time": "10:00",
+      "minutes": 90,
+      "meta": "On a free morning · 90 min",
+      "instructions": "Build a tiny garden in pots: herbs such as thyme, mint and parsley, or lettuces and tomatoes. Fill the pots with soil, sow or plant, water and label. Put them where they get light. Epicurus’s Garden grew the food of simple living. Eat from yours when it is ready, and share a leaf with a friend.",
+      "why": "Growing your own food is a small way to want what is easy to get. A pot garden costs little and returns much.",
+      "variations": [
+        "Plant a window box.",
+        "Start from seed.",
+        "Give a pot to a friend."
+      ]
     }
   ],
-  "immersePlan": [],
+  "tasks": [],
+  "immersePlan": [
+    {
+      "kind": "read",
+      "item": "read-letter-to-menoeceus",
+      "name": "Read the Letter to Menoeceus",
+      "text": "Read Epicurus’s short letter on how to live happily. It is only a few pages. Underline the line about death.",
+      "minutes": 15
+    },
+    {
+      "kind": "read",
+      "item": "read-on-the-nature-of-things",
+      "name": "Read a book of Lucretius",
+      "text": "Read the opening hymn or the passage on the sunbeam from Lucretius’s great poem in A. E. Stallings’s translation. Read it aloud.",
+      "minutes": 20
+    },
+    {
+      "kind": "read",
+      "item": "read-travels-with-epicurus",
+      "name": "Read Travels with Epicurus",
+      "text": "Read a chapter of Daniel Klein’s book about a man in his seventies who goes to a Greek island to see what the old philosopher meant by simple pleasures.",
+      "minutes": 20
+    },
+    {
+      "kind": "watch",
+      "item": "watch-babette-s-feast",
+      "name": "Watch Babette’s Feast",
+      "text": "Watch Gabriel Axel’s film in which a cook spends everything on one glorious dinner for a severe Danish village. Notice how it changes them.",
+      "minutes": 105
+    },
+    {
+      "kind": "watch",
+      "item": "watch-perfect-days",
+      "name": "Watch Perfect Days",
+      "text": "Watch Wim Wenders’s 2023 film about a Tokyo toilet cleaner who lives a plain, contented life of small pleasures. Notice what he notices.",
+      "minutes": 123
+    },
+    {
+      "kind": "watch",
+      "item": "watch-epicurus-on-happiness",
+      "name": "Watch Alain de Botton on Epicurus",
+      "text": "Watch the episode from The Consolations of Philosophy in which Alain de Botton explains Epicurus’s three keys to happiness: friends, freedom and thought.",
+      "minutes": 50
+    },
+    {
+      "kind": "listen",
+      "item": "listen-the-seikilos-epitaph",
+      "name": "Listen to the Seikilos epitaph",
+      "text": "Play the oldest complete musical composition we have, a short tomb song that says while you live, shine. Hum along.",
+      "minutes": 3
+    },
+    {
+      "kind": "listen",
+      "item": "listen-epicureanism",
+      "name": "Listen to In Our Time on Epicureanism",
+      "text": "Play the BBC discussion of Epicurus and his followers by three scholars. Listen while you walk.",
+      "minutes": 45
+    },
+    {
+      "kind": "listen",
+      "item": "listen-de-rerum-natura-read-in-latin",
+      "name": "Hear De Rerum Natura in Latin",
+      "text": "Play a reading of the opening lines of Lucretius’s poem in Latin. Listen to the rhythm of the hexameters.",
+      "minutes": 10
+    },
+    {
+      "kind": "art",
+      "item": "art-portrait-head-of-epicurus",
+      "name": "Look at the portrait head of Epicurus",
+      "text": "Look at the Roman copies of a Greek portrait of Epicurus, with a calm brow and a thoughtful beard. Describe what you see.",
+      "minutes": 5
+    },
+    {
+      "kind": "art",
+      "item": "art-the-boscoreale-skeleton-cups",
+      "name": "Look at the skeleton cups",
+      "text": "Look at the Roman silver cups engraved with skeletons and philosophers, reminding drinkers to enjoy life. Read the inscriptions.",
+      "minutes": 10
+    },
+    {
+      "kind": "art",
+      "item": "art-the-bronzes-of-the-villa-of-the-papyri",
+      "name": "Look at the Villa of the Papyri bronzes",
+      "text": "Look at the statues found in the villa at Herculaneum, which held a library of Epicurean papyri. Pick one and imagine the owner.",
+      "minutes": 10
+    },
+    {
+      "kind": "eat",
+      "item": "eat-barley-bread",
+      "name": "Bake or eat barley bread",
+      "text": "Bake or buy a loaf of barley bread and eat it with water. Notice how much pleasure a plain thing can give when you are hungry.",
+      "minutes": 40
+    },
+    {
+      "kind": "eat",
+      "item": "eat-a-little-pot-of-cheese",
+      "name": "Eat a little pot of cheese",
+      "text": "Eat a small piece of sheep or goat cheese with bread and olives. Epicurus asked a friend for a little pot of cheese so that he could feast when he liked.",
+      "minutes": 10
+    },
+    {
+      "kind": "eat",
+      "item": "eat-lentils-and-beans",
+      "name": "Cook lentils and beans",
+      "text": "Boil lentils or beans with a bay leaf, add oil and salt, and eat with bread. Share a bowl with a friend.",
+      "minutes": 40
+    },
+    {
+      "kind": "drink",
+      "item": "drink-water",
+      "name": "Drink spring water",
+      "text": "Drink a glass of cold, clear water slowly, and notice its taste. It is the cheapest and most natural pleasure.",
+      "minutes": 5
+    },
+    {
+      "kind": "drink",
+      "item": "drink-half-a-pint-of-thin-wine",
+      "name": "Drink thin grape juice",
+      "text": "Mix grape juice with plenty of water and sip it. Epicureans favoured a little thin wine; juice keeps the lightness without the alcohol.",
+      "minutes": 10
+    },
+    {
+      "kind": "drink",
+      "item": "drink-wine-at-the-twentieth",
+      "name": "Raise a cup at the Twentieth",
+      "text": "Pour a cup of watered grape juice at a shared supper and raise it to Epicurus and to your friends.",
+      "minutes": 10
+    },
+    {
+      "kind": "customs",
+      "item": "customs-the-feast-of-the-twentieth",
+      "name": "Hold a feast of the Twentieth",
+      "text": "Share a plain supper with friends on the twentieth of the month, as Epicureans did, and read a doctrine aloud.",
+      "minutes": 60
+    },
+    {
+      "kind": "customs",
+      "item": "customs-a-school-open-to-all",
+      "name": "Learn about the open Garden",
+      "text": "Read how the Garden admitted women and slaves as members, which was rare in Athens. Think about who you could invite to your table.",
+      "minutes": 10
+    },
+    {
+      "kind": "customs",
+      "item": "customs-learning-the-doctrines-by-heart",
+      "name": "Learn a doctrine by heart",
+      "text": "Choose one of the Principal Doctrines and learn it by heart, as Epicureans did. Repeat it three times today.",
+      "minutes": 10
+    },
+    {
+      "kind": "games",
+      "item": "games-pente-grammai",
+      "name": "Play pente grammai",
+      "text": "Play the Greek game of five lines, with five pieces each. Draw a board with five lines and use pebbles. Play two games.",
+      "minutes": 20
+    },
+    {
+      "kind": "games",
+      "item": "games-knucklebones",
+      "name": "Play knucklebones",
+      "text": "Toss five small stones or dice in the air and catch them on the back of the hand. Play with a friend.",
+      "minutes": 15
+    },
+    {
+      "kind": "games",
+      "item": "games-ball-play",
+      "name": "Play ball in the garden",
+      "text": "Play a gentle game of catch in a garden or park with a friend or child. Exercise was a Greek pleasure.",
+      "minutes": 20
+    },
+    {
+      "kind": "travel",
+      "item": "fest-eikas-the-twentieth",
+      "name": "Mark the Twentieth of the month",
+      "text": "On the twentieth, share a plain meal with a friend and talk about something you are grateful for.",
+      "minutes": 40
+    },
+    {
+      "kind": "travel",
+      "item": "fest-the-birthday-of-epicurus",
+      "name": "Keep Epicurus’s birthday",
+      "text": "Epicurus’s birthday was kept every year by his followers with a feast. Raise a cup of water to him and read one saying.",
+      "minutes": 20
+    },
+    {
+      "kind": "travel",
+      "item": "place-herculaneum-and-the-villa-of-the-papyri",
+      "name": "Look up Herculaneum",
+      "text": "Look at the buried town near Naples and the villa where charred scrolls of Epicurean philosophy were found. Read about how they are being read.",
+      "minutes": 15
+    },
+    {
+      "kind": "words",
+      "item": "word-ataraxia",
+      "name": "Practise ataraxia",
+      "text": "Ataraxia is freedom from disturbance. Find one thing that disturbs you and take one step to remove it.",
+      "minutes": 10
+    },
+    {
+      "kind": "words",
+      "item": "word-lathe-biosas",
+      "name": "Practise lathe biosas",
+      "text": "Lathe biosas means live unnoticed. Do one good thing today without telling anyone.",
+      "minutes": 5
+    },
+    {
+      "kind": "words",
+      "item": "word-philia",
+      "name": "Practise philia",
+      "text": "Philia is friendship. Spend ten minutes today giving a friend your full attention.",
+      "minutes": 10
+    }
+  ],
   "rules": [
     {
       "id": "r1",

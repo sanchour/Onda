@@ -291,35 +291,99 @@
   ],
   "practices": [
     {
-      "id": "walk-and-think",
-      "name": "Think on your feet",
-      "icon": "mountains",
-      "slot": "Morning",
-      "time": "08:00",
-      "minutes": 60,
-      "meta": "Morning · 60 min",
-      "instructions": "Walk for an hour, uphill if you can, alone and without earphones. Carry a small notebook and a pencil. Take one question with you and let it work in your legs. When a thought arrives, stop and write it in one sentence, then walk on. Do not sit down to think today until you have walked.",
-      "why": "In the Engadine he walked six or eight hours a day and wrote his books in pencil in notebooks on the way. He said to give no credence to any thought that was not born outdoors while moving freely, when the muscles too are celebrating.",
-      "variations": [
-        "Climb something and write at the top.",
-        "Walk the same path daily for a week and watch the thoughts change.",
-        "Turn your notes into three aphorisms in the evening."
-      ]
-    },
-    {
       "id": "heaviest-weight",
       "name": "The heaviest weight",
-      "icon": "repeat",
+      "icon": "barbell",
       "slot": "Morning",
       "time": "07:00",
       "minutes": 10,
       "meta": "Morning · 10 min",
-      "instructions": "Imagine that a voice tells you this: the life you are living now, you will have to live again, and again without end, every pain and every joy, every thought and sigh, in the same order. Hold that for two minutes. Notice whether you want to curse the voice or bless it. Then look at the day ahead and ask of each thing you plan to do: do I want this again and again? Change one thing so that the answer is yes.",
-      "why": "Section 341 of The Gay Science presents eternal recurrence as a test and not a theory. The question in each and every thing, do you want this once more and innumerable times more, would lie on your actions as the heaviest weight.",
+      "instructions": "Imagine that a voice tells you this: the life you are living now, you will have to live again, and again without end, every pain and every joy, every thought and sigh, in the same order. Hold that for two minutes. Notice whether you would curse it or call it divine. Then pick one thing in today you would be glad to live a thousand times, and do it well.",
+      "why": "The eternal recurrence is Nietzsche’s heaviest thought, from The Gay Science. As a daily exercise it asks whether you could affirm your own life.",
       "variations": [
-        "Ask it at the moment of each decision today.",
-        "Ask it of yesterday.",
-        "Name the one moment for whose sake you would take the whole of your life again."
+        "Do it at the window at dawn.",
+        "Write the answer in one line.",
+        "Choose a day from last week you would repeat."
+      ]
+    },
+    {
+      "id": "walk-and-think",
+      "name": "Think on your feet",
+      "icon": "person-simple-hike",
+      "slot": "Morning",
+      "time": "08:00",
+      "minutes": 60,
+      "meta": "Morning · 60 min",
+      "instructions": "Walk for an hour, uphill if you can, alone and without earphones. Carry a small notebook and a pencil. Take one question with you and let it work in your legs. When a thought arrives, stop and write it in one sentence, then walk on. Only thoughts that come while walking have value, he said. Dress for the weather and go at an easy pace.",
+      "why": "Nietzsche walked for hours each day and wrote his books from notes made on the move. The rule of this Onda is to walk before you write.",
+      "variations": [
+        "Walk for thirty minutes if you have less time.",
+        "Walk by water.",
+        "Read your notes afterwards and keep the best."
+      ]
+    },
+    {
+      "id": "say-yes-to-the-weather",
+      "name": "Say yes to the weather",
+      "icon": "cloud-sun",
+      "slot": "Morning",
+      "time": "07:30",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Look out of the window at whatever weather there is and say yes to it, aloud: yes to this rain, yes to this wind, yes to this fog. Say it as if you had asked for it. Jasagen, to say yes, is Nietzsche’s word for affirming life as it is. Then go out in it for five minutes, properly dressed.",
+      "why": "Saying yes to what is, including weather, is the smallest practice of affirmation. It trains you for bigger things.",
+      "variations": [
+        "Say yes to a cold morning.",
+        "Stand in the rain for a minute.",
+        "Say yes to a bad news item."
+      ]
+    },
+    {
+      "id": "one-aphorism",
+      "name": "One aphorism",
+      "icon": "pencil",
+      "slot": "Morning",
+      "time": "09:00",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Write a single aphorism before breakfast: a thought in a few lines, as sharp and clear as you can make it. Take a feeling, an observation or a doubt and compress it. Nietzsche called the aphorism the form in which a thinker can be both brief and deep. Put it on a card and give it a title.",
+      "why": "The aphorism is Nietzsche’s favourite form, a thought in a few lines. Writing one a day sharpens attention.",
+      "variations": [
+        "Write an aphorism about the weather.",
+        "Rewrite a long thought in one line.",
+        "Read it aloud."
+      ]
+    },
+    {
+      "id": "a-quiet-start-with-strong-tea",
+      "name": "A quiet start with strong tea",
+      "icon": "coffee",
+      "slot": "Morning",
+      "time": "07:15",
+      "minutes": 15,
+      "meta": "Morning · 15 min",
+      "instructions": "Drink one cup of strong tea slowly, alone and in silence, before anyone speaks to you. Do not read or scroll. Look out of the window. Nietzsche valued solitude as a place where he became himself. Let your thoughts arrive without being asked. Strong tea in the morning only, he advised, never after noon.",
+      "why": "Nietzsche wrote that he needed solitude to heal himself and return to himself. A cup of tea in silence gives a little of it.",
+      "variations": [
+        "Sit by a window.",
+        "Hold the cup in both hands.",
+        "Leave your phone in another room."
+      ]
+    },
+    {
+      "id": "one-honest-sentence",
+      "name": "One honest sentence",
+      "icon": "eye",
+      "slot": "Morning",
+      "time": "08:30",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Write one sentence about yourself that is entirely honest, one that you would rather not admit: an envy, a vanity, a fear, a laziness. Do not excuse it. Redlichkeit, honesty with oneself, is Nietzsche’s highest virtue for the free spirit. Read it, tear up the paper if you wish, and go on with the day lighter.",
+      "why": "Intellectual honesty is for Nietzsche the last virtue left to us. A single honest sentence a day is a modest training in it.",
+      "variations": [
+        "Write one for each of three days.",
+        "Tell it to a trusted friend.",
+        "Turn it into a plan."
       ]
     },
     {
@@ -330,28 +394,92 @@
       "time": "13:00",
       "minutes": 10,
       "meta": "Afternoon · 10 min",
-      "instructions": "Choose one fact of your life that you resent: an illness, a loss, a failure, a parent, your face. Write it at the top of a page. Underneath, write everything that is yours only because of it: what you learned, whom you met, what you became able to see. Then say aloud that you would not have it otherwise. If you cannot yet mean it, say that you will learn to see what is necessary in it as beautiful.",
-      "why": "He lived with near-blindness, days of migraine and vomiting, loneliness and no readers, and wrote that he owed his philosophy to his long sickness. His New Year’s resolution for 1882 was to learn to see as beautiful what is necessary in things.",
+      "instructions": "Choose one fact of your life that you resent: an illness, a loss, a failure, a parent, your face. Write it at the top of a page. Underneath, write everything that is yours only because of it: what you learned, whom you met, what you became. Then say, aloud, as an experiment: I would not have it otherwise. See if you can mean it, even for a minute.",
+      "why": "Amor fati, love of fate, is Nietzsche’s formula for greatness: not merely to bear what is necessary but to love it. It is difficult and rewarding.",
       "variations": [
-        "Do it for something that happened today.",
-        "Do it for a trait in yourself.",
-        "Thank an enemy, silently, for what they made of you."
+        "Write a letter of thanks to a hardship.",
+        "Do it for a small annoyance first.",
+        "Do it for a person."
       ]
     },
     {
       "id": "overcome-yourself",
       "name": "Overcome yourself",
-      "icon": "hand-fist",
+      "icon": "mountains",
       "slot": "Afternoon",
       "time": "16:00",
       "minutes": 20,
       "meta": "Afternoon · 20 min",
-      "instructions": "Find the thing you most want to avoid today and do it first. It should be hard for you in particular: the cold water, the difficult page, the call, the weight you think you cannot lift. Do it with full effort for twenty minutes. Afterwards note what resisted and what gave way. Tomorrow raise the difficulty a little.",
-      "why": "Life itself told Zarathustra its secret: I am that which must always overcome itself. Nietzsche measured freedom by the resistance that has to be overcome, and advised building one’s house on the slopes of a volcano.",
+      "instructions": "Find the thing you most want to avoid today and do it first. It should be hard for you in particular: the cold water, the difficult page, the call, the weight you think you cannot lift. Do it with full effort for twenty minutes. Afterwards note what you overcame. Stay within your health and safety, and stop if anything hurts. The rule of this Onda is to do the hard thing first.",
+      "why": "Selbstüberwindung, self-overcoming, is central to Nietzsche. The point is growth through effort, not cruelty to yourself.",
       "variations": [
-        "End your shower cold.",
-        "Give up, for a week, one comfort you lean on.",
-        "Take the side you disagree with and argue it as well as you can."
+        "Start with the email you dread.",
+        "Do ten more minutes than usual of exercise.",
+        "Say the hard thing to someone."
+      ]
+    },
+    {
+      "id": "drop-a-grudge",
+      "name": "Drop a grudge",
+      "icon": "hand-palm",
+      "slot": "Afternoon",
+      "time": "14:30",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Think of someone you have been holding something against. Notice what the grudge does to you: it sits like a stone. Nietzsche called resentment poison. Write what you would say, then let it go, by tearing up the page or deleting the draft. Do it for one grudge only. The rule of this Onda is to hold no grudges.",
+      "why": "Ressentiment is one of Nietzsche’s great themes: the corrosive effect of unspoken grievance. Letting go of one is a practical exercise.",
+      "variations": [
+        "Burn or bin the page.",
+        "Forgive in silence.",
+        "Do something kind for the person."
+      ]
+    },
+    {
+      "id": "revalue-a-value",
+      "name": "Revalue a value",
+      "icon": "scales",
+      "slot": "Afternoon",
+      "time": "15:30",
+      "minutes": 15,
+      "meta": "Afternoon · 15 min",
+      "instructions": "Pick one thing you call good or bad because you were told to. Ask: where did this judgement come from, who benefits from it and what would I think if I made it myself? Write your answer. Nietzsche’s project was the revaluation of values. You may end up agreeing with the old view, and that is fine, now it is yours.",
+      "why": "Umwertung aller Werte, the revaluation of all values, is Nietzsche’s great programme. It begins with asking where your own values came from.",
+      "variations": [
+        "Question a social rule.",
+        "Question a taste.",
+        "Question a fear."
+      ]
+    },
+    {
+      "id": "see-from-three-sides",
+      "name": "See from three sides",
+      "icon": "binoculars",
+      "slot": "Afternoon",
+      "time": "17:00",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Take one situation and describe it from three standpoints: yours, your opponent’s and an outsider’s. Write a paragraph for each. Nietzsche called this perspectivism: there are only perspectives, and the more eyes we use, the fuller our view. Notice how each shows something the others hide.",
+      "why": "Perspectivism is the idea that knowing is always from a point of view. Using more eyes makes you less likely to be fooled.",
+      "variations": [
+        "Do it for a disagreement.",
+        "Do it for a news story.",
+        "Do it for a painting."
+      ]
+    },
+    {
+      "id": "lighten-up",
+      "name": "Lighten up",
+      "icon": "smiley",
+      "slot": "Afternoon",
+      "time": "12:30",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Do one heavy task today as lightly as you can. Whistle, hum or joke as you work. The spirit of gravity is Zarathustra’s enemy, and laughter his weapon. Take your work seriously and yourself lightly. Notice how much better the task goes when you stop making it a burden.",
+      "why": "Heiterkeit, cheerfulness, was a quality Nietzsche prized. Doing a hard thing lightly is its own achievement.",
+      "variations": [
+        "Hum while you wash up.",
+        "Make a joke in a meeting.",
+        "Do the task as if you were playing."
       ]
     },
     {
@@ -362,129 +490,341 @@
       "time": "20:00",
       "minutes": 20,
       "meta": "Evening · 20 min",
-      "instructions": "Put on music that makes you want to move. He would have chosen Bizet’s Carmen. Stand up and dance to it, alone, with the door shut if you like. Be ridiculous. Keep going until you have laughed at least once. Then sit and listen to one piece through with nothing else in your hands.",
-      "why": "He improvised at the piano all his life, composed songs and said we should call every day lost on which we have not danced at least once. He heard Carmen some twenty times and held up its southern lightness against everything heavy and German.",
+      "instructions": "Put on music that makes you want to move. He would have chosen Bizet’s Carmen. Stand up and dance to it, alone, with the door shut if you like. Be ridiculous. Keep going until you have laughed at least once. Then sit and notice how you feel. I would only believe in a god who understood how to dance, says Zarathustra. The rule of this Onda is to dance once a day.",
+      "why": "Nietzsche wanted a philosophy that dances. Dancing alone in the evening is a simple way to put the spirit of gravity to flight.",
       "variations": [
-        "Learn eight bars of something at an instrument.",
-        "Laugh at one thing you took too seriously today.",
-        "Go to hear live music and stand at the front."
+        "Dance barefoot.",
+        "Dance to something you have never heard.",
+        "Dance with a friend."
       ]
-    }
-  ],
-  "tasks": [
-    {
-      "id": "task-read-zarathustra-s-prologue",
-      "name": "Read Zarathustra’s Prologue",
-      "meta": "Read · 30 min",
-      "time": "20:30",
-      "slot": "Evening",
-      "action": "read"
     },
     {
-      "id": "task-listen-to-bizet-s-carmen-act-1",
-      "name": "Listen to Bizet’s Carmen, act 1",
-      "meta": "Listen · 50 min",
+      "id": "hum-a-hymn-to-life",
+      "name": "Hum a hymn to life",
+      "icon": "microphone-stage",
+      "slot": "Evening",
+      "time": "19:30",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Play Nietzsche’s own Hymn to Life, which he set to a poem by Lou Salomé, or Carmen’s Habanera, and hum along. Nietzsche composed music, and thought a life without it a mistake. Sing the refrain, and say yes to the evening. If you can, play an instrument for ten minutes instead.",
+      "why": "Nietzsche composed songs and piano pieces all his life. His Hymn to Life is a rare chance to hear the philosopher as a musician.",
+      "variations": [
+        "Play the piano.",
+        "Sing in the shower.",
+        "Hum the tune on a walk."
+      ]
+    },
+    {
+      "id": "an-hour-of-solitude",
+      "name": "An hour of solitude",
+      "icon": "armchair",
+      "slot": "Evening",
       "time": "19:00",
+      "minutes": 60,
+      "meta": "Evening · 60 min",
+      "instructions": "Spend one hour alone in a room with a table, a lamp, a notebook and a book. No phone. Write, read, think. Do not be lonely; be solitary. Nietzsche called solitude his home, and needed it to become who he was. Close the hour by writing one sentence on what you want to become.",
+      "why": "Einsamkeit, solitude, is Nietzsche’s element. An hour of chosen aloneness is a rich way to meet yourself.",
+      "variations": [
+        "Do it at a library.",
+        "Do it outdoors.",
+        "Do it with a candle."
+      ]
+    },
+    {
+      "id": "read-zarathustra-aloud",
+      "name": "Read Zarathustra aloud",
+      "icon": "scroll",
       "slot": "Evening",
-      "action": "listen"
+      "time": "20:30",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Read a page of Thus Spoke Zarathustra aloud, perhaps the opening speech about the three metamorphoses of the spirit: camel, lion, child. Read it in a full voice, as it was written. Ask which of the three you are today. Nietzsche meant it as a kind of music in prose.",
+      "why": "Zarathustra is a book to be read aloud, full of images and rhythms. The three metamorphoses are its best-known passage.",
+      "variations": [
+        "Read it to a friend.",
+        "Draw the camel, the lion and the child.",
+        "Read it under the stars."
+      ]
     },
     {
-      "id": "task-watch-human-all-too-human-beyond-good-and-evil",
-      "name": "Watch Human, All Too Human: Beyond Good and Evil",
-      "meta": "Watch · BBC, 50 min",
-      "time": "21:00",
+      "id": "who-are-you-becoming",
+      "name": "Who are you becoming?",
+      "icon": "butterfly",
       "slot": "Evening",
-      "action": "watch"
-    },
-    {
-      "id": "task-eat-a-piedmontese-lunch-soup-a-little-meat-breadsticks-fruit",
-      "name": "Eat a Piedmontese lunch: soup, a little meat, breadsticks, fruit",
-      "meta": "Eat · the Turin table",
-      "time": "12:30",
-      "slot": "Afternoon",
-      "action": "eat"
-    },
-    {
-      "id": "task-journal-what-did-you-say-yes-to-today",
-      "name": "Journal: what did you say yes to today?",
-      "meta": "Journal · 10 min",
       "time": "21:30",
-      "slot": "Evening",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Write three lines at the end of the day: who I was this morning, who I was tonight, who I am becoming. Be honest and specific. Become who you are is Nietzsche’s subtitle for Ecce Homo. Read the lines you wrote last week, and see what has changed. Do not judge, only notice.",
+      "why": "Become who you are, from Pindar, is a recurring Nietzschean motto. Charting your daily change makes it concrete.",
+      "variations": [
+        "Add a drawing.",
+        "Write to your future self.",
+        "Reread a week of entries."
+      ],
       "action": "journal"
     },
     {
-      "id": "task-whose-values-are-you-living-by",
-      "name": "Whose values are you living by?",
-      "meta": "Philosophy · 10 min",
-      "time": "09:30",
-      "slot": "Morning",
-      "action": "philosophy"
+      "id": "laugh-at-yourself",
+      "name": "Laugh at yourself",
+      "icon": "smiley",
+      "slot": "Evening",
+      "time": "22:00",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Before sleep, recall one moment from today when you took yourself too seriously, and laugh at it, properly, aloud. Perhaps a pompous remark, a petty irritation, a self-important plan. Nietzsche said the most laughter-worthy thing is to take oneself too seriously. Go to bed in a good mood.",
+      "why": "Nietzsche prized laughter as a sign of health. Laughing at your own pomposity is the best medicine for it.",
+      "variations": [
+        "Tell the story to a friend.",
+        "Imitate yourself in the mirror.",
+        "Write a comic version of your day."
+      ]
     },
     {
-      "id": "write-three-aphorisms-from-today-s-walk",
-      "name": "Write three aphorisms from today’s walk",
-      "meta": "One sentence each",
-      "time": "18:00",
-      "slot": "Afternoon"
+      "id": "a-long-walk-with-a-pencil",
+      "name": "A long walk with a pencil",
+      "icon": "path",
+      "slot": "Special",
+      "time": "09:00",
+      "minutes": 120,
+      "meta": "On a free morning · 120 min",
+      "instructions": "Take a long walk of up to two hours, through hills or a park, with a pencil and a small notebook. Walk at an easy pace and stop to write when a thought comes. Take water and a snack, and tell someone where you are going. Nietzsche walked six to eight hours a day when he could. End with a warm drink and read your notes.",
+      "why": "Nietzsche’s best thoughts came on long walks around Sils Maria, Genoa and Turin. A walk of two hours can capture a little of that.",
+      "variations": [
+        "Walk by a lake or river.",
+        "Walk uphill.",
+        "Walk without a map."
+      ]
     },
     {
-      "id": "spend-two-hours-entirely-alone",
-      "name": "Spend two hours entirely alone",
-      "meta": "Solitude",
-      "time": "14:00",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "notice-one-resentment-and-refuse-to-feed-it",
-      "name": "Notice one resentment and refuse to feed it",
-      "meta": "Against ressentiment",
-      "time": "11:00",
-      "slot": "Morning"
-    },
-    {
-      "id": "treat-dance-alone-for-one-song",
-      "name": "Dance alone for one song",
-      "meta": "A day without dancing is lost",
-      "time": "19:30",
-      "slot": "Evening"
-    },
-    {
-      "id": "treat-walk-uphill-until-you-are-out-of-breath-then-look-back",
-      "name": "Walk uphill until you are out of breath, then look back",
-      "meta": "Any hill",
-      "time": "15:30",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "treat-laugh-at-something-you-took-seriously-last-year",
-      "name": "Laugh at something you took seriously last year",
-      "meta": "Out loud",
-      "time": "19:30",
-      "slot": "Evening"
-    },
-    {
-      "id": "treat-play-one-piece-of-music-too-loudly",
-      "name": "Play one piece of music too loudly",
-      "meta": "Bizet, ideally",
-      "time": "15:30",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "daily-walk-before-you-work-and-think-on-your-feet",
-      "name": "Walk before you work and think on your feet",
-      "meta": "Only thoughts reached by walking",
-      "time": "07:15",
-      "slot": "Morning"
-    },
-    {
-      "id": "daily-write-one-aphorism-about-today",
-      "name": "Write one aphorism about today",
-      "meta": "Short and sharp",
-      "time": "20:30",
-      "slot": "Evening"
+      "id": "a-day-in-a-high-place",
+      "name": "A day in a high place",
+      "icon": "mountains",
+      "slot": "Special",
+      "time": "10:00",
+      "minutes": 120,
+      "meta": "On a free day · 120 min",
+      "instructions": "Spend a day in a high or open place: a hill, a pass, a cliff by the sea. Nietzsche spent summers in the Swiss Alps and winters by the Mediterranean, and said his thoughts needed air. Climb in comfort, sit at the top with a flask of tea, and look at the horizon for a long time. Be home before dark.",
+      "why": "The seasonal migration between mountain and sea was part of Nietzsche’s way of life. A day at altitude gives a taste of the clear air in which he thought.",
+      "variations": [
+        "Climb a local hill at dawn.",
+        "Take a notebook to the summit.",
+        "Swim at the end of the day if safe."
+      ]
     }
   ],
-  "immersePlan": [],
+  "tasks": [],
+  "immersePlan": [
+    {
+      "kind": "read",
+      "item": "read-the-gay-science",
+      "name": "Read from The Gay Science",
+      "text": "Read the section on the heaviest weight, or the madman, or a handful of aphorisms. Choose one and sit with it.",
+      "minutes": 15
+    },
+    {
+      "kind": "read",
+      "item": "read-thus-spoke-zarathustra",
+      "name": "Read Zarathustra’s first speeches",
+      "text": "Read the prologue and the speech on the three metamorphoses in Thus Spoke Zarathustra. Read aloud for the rhythm.",
+      "minutes": 20
+    },
+    {
+      "kind": "read",
+      "item": "read-i-am-dynamite-a-life-of-friedrich-nietzsche",
+      "name": "Read a chapter of I Am Dynamite",
+      "text": "Read a chapter of Sue Prideaux’s biography, perhaps about Sils Maria. Notice the loneliness and the humour.",
+      "minutes": 25
+    },
+    {
+      "kind": "watch",
+      "item": "watch-human-all-too-human-beyond-good-and-evil",
+      "name": "Watch the BBC Nietzsche film",
+      "text": "Watch the 1999 BBC documentary on Nietzsche, with dramatised scenes and commentary. Note the ideas that are new to you.",
+      "minutes": 50
+    },
+    {
+      "kind": "watch",
+      "item": "watch-the-turin-horse",
+      "name": "Watch the opening of The Turin Horse",
+      "text": "Watch the first twenty minutes of Béla Tarr’s film, inspired by the story of Nietzsche weeping over a horse in Turin. Slow, black and white, and beautiful.",
+      "minutes": 25
+    },
+    {
+      "kind": "watch",
+      "item": "watch-lou-andreas-salome-the-audacity-to-be-free",
+      "name": "Watch the film about Lou Salomé",
+      "text": "Watch the 2016 film about the brilliant woman who befriended Nietzsche and Rilke. Notice the triangle.",
+      "minutes": 110
+    },
+    {
+      "kind": "listen",
+      "item": "listen-carmen",
+      "name": "Listen to Carmen",
+      "text": "Play the overture and the Habanera from Bizet’s opera, which Nietzsche loved for its Mediterranean lightness. Dance to it.",
+      "minutes": 25
+    },
+    {
+      "kind": "listen",
+      "item": "listen-hymn-to-life",
+      "name": "Listen to Nietzsche’s Hymn to Life",
+      "text": "Play the song Nietzsche composed, set to words by Lou Salomé. Listen for the hymn-like quality.",
+      "minutes": 8
+    },
+    {
+      "kind": "listen",
+      "item": "listen-symphony-no-3-fourth-movement",
+      "name": "Listen to Mahler’s Zarathustra song",
+      "text": "Play the fourth movement of Mahler’s Third Symphony, a mezzo-soprano setting Zarathustra’s midnight song: O Mensch, gib Acht. Listen in the dark.",
+      "minutes": 10
+    },
+    {
+      "kind": "art",
+      "item": "art-friedrich-nietzsche",
+      "name": "Look at Munch’s portrait of Nietzsche",
+      "text": "Look at Edvard Munch’s 1906 painting of the philosopher against a glowing landscape. Notice the lines of the face.",
+      "minutes": 5
+    },
+    {
+      "kind": "art",
+      "item": "art-landscapes-with-ancient-ruins",
+      "name": "Look at Claude Lorrain’s landscapes",
+      "text": "Look at the golden-lit landscapes with ruins that Nietzsche called the ideal of beauty. Pick one and imagine walking in it.",
+      "minutes": 10
+    },
+    {
+      "kind": "art",
+      "item": "art-bust-of-nietzsche",
+      "name": "Look at Klinger’s bust of Nietzsche",
+      "text": "Look at Max Klinger’s bust with its powerful brow and moustache. Compare it with Munch’s portrait.",
+      "minutes": 5
+    },
+    {
+      "kind": "eat",
+      "item": "eat-minestra",
+      "name": "Make minestra",
+      "text": "Make a thick Piedmontese vegetable soup, as Nietzsche ate in Turin. Eat it slowly with bread.",
+      "minutes": 45
+    },
+    {
+      "kind": "eat",
+      "item": "eat-grissini",
+      "name": "Eat grissini",
+      "text": "Eat thin crisp breadsticks from Turin, plain or with a little cheese, as Nietzsche did with his light meals.",
+      "minutes": 10
+    },
+    {
+      "kind": "eat",
+      "item": "eat-fruit-and-honey",
+      "name": "Eat fruit and honey",
+      "text": "Eat fresh fruit with a spoon of honey. Nietzsche praised light, simple meals that kept the mind clear.",
+      "minutes": 10
+    },
+    {
+      "kind": "drink",
+      "item": "drink-spring-water",
+      "name": "Drink spring water from a small cup",
+      "text": "Drink cold water from a small cup, slowly, and think about the clarity of mountain air. Nietzsche praised pure water.",
+      "minutes": 5
+    },
+    {
+      "kind": "drink",
+      "item": "drink-thick-cocoa",
+      "name": "Make thick cocoa with water",
+      "text": "Make cocoa with water and a little sugar, thick as soup. Drink it an hour before bed.",
+      "minutes": 15
+    },
+    {
+      "kind": "drink",
+      "item": "drink-strong-tea",
+      "name": "Brew strong tea in the morning",
+      "text": "Brew a pot of strong tea in the morning only, and drink it in silence. Nietzsche never drank it after noon.",
+      "minutes": 15
+    },
+    {
+      "kind": "customs",
+      "item": "customs-six-hours-on-foot",
+      "name": "Walk for as long as you can",
+      "text": "Walk for an hour or more today, with no destination. Nietzsche walked as long as eight hours a day when he could.",
+      "minutes": 60
+    },
+    {
+      "kind": "customs",
+      "item": "customs-the-aphorism",
+      "name": "Write three aphorisms",
+      "text": "Write three short, sharp thoughts of your own, each in a line or two. Give each a title.",
+      "minutes": 15
+    },
+    {
+      "kind": "customs",
+      "item": "customs-solitude",
+      "name": "Take an hour of solitude",
+      "text": "Take one hour alone in a room with a table and a notebook. No phone. Think, read and write.",
+      "minutes": 60
+    },
+    {
+      "kind": "games",
+      "item": "games-dice",
+      "name": "Throw the dice",
+      "text": "Throw a die and accept the result. Nietzsche saw play with chance as a model of the free spirit. Decide one small matter by dice.",
+      "minutes": 10
+    },
+    {
+      "kind": "games",
+      "item": "games-rhymes-and-riddles",
+      "name": "Write rhymes and riddles",
+      "text": "Write a comic rhyme or riddle, as Nietzsche did in his Gay Science preface. Share it with a friend and make them guess.",
+      "minutes": 15
+    },
+    {
+      "kind": "games",
+      "item": "games-swimming",
+      "name": "Go for a swim",
+      "text": "Swim, as Nietzsche did in Italian waters, with others around and within your strength. A short swim is plenty.",
+      "minutes": 30
+    },
+    {
+      "kind": "travel",
+      "item": "fest-nietzsche-s-birthday",
+      "name": "Keep Nietzsche’s birthday",
+      "text": "Nietzsche was born on 15 October 1844. Take a walk and write an aphorism in his honour.",
+      "minutes": 40
+    },
+    {
+      "kind": "travel",
+      "item": "place-nietzsche-house",
+      "name": "Look up the Nietzsche House at Sils Maria",
+      "text": "Look at the simple room in the Swiss Alps where Nietzsche spent summers, now a small museum. Read about the Engadine light.",
+      "minutes": 10
+    },
+    {
+      "kind": "travel",
+      "item": "place-the-nietzsche-path",
+      "name": "Look up the Nietzsche path at Èze",
+      "text": "Look at the steep path from the sea to the village of Èze, where Nietzsche worked out the third part of Zarathustra. Imagine climbing it.",
+      "minutes": 10
+    },
+    {
+      "kind": "words",
+      "item": "word-amor-fati",
+      "name": "Practise amor fati",
+      "text": "Amor fati means love of fate. Name one thing you wanted to be different today, and say you would not have it otherwise.",
+      "minutes": 5
+    },
+    {
+      "kind": "words",
+      "item": "word-heiterkeit",
+      "name": "Practise Heiterkeit",
+      "text": "Heiterkeit is cheerfulness, serenity. Do one task today with a light heart and a hum.",
+      "minutes": 5
+    },
+    {
+      "kind": "words",
+      "item": "word-tanz",
+      "name": "Practise Tanz",
+      "text": "Tanz is dance. Put on one song you love and dance to the end of it, alone or with someone, and let yourself be silly.",
+      "minutes": 5
+    }
+  ],
   "rules": [
     {
       "id": "r1",

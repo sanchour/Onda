@@ -294,65 +294,194 @@
     {
       "id": "dream-book",
       "name": "The dream book",
-      "icon": "moon-stars",
+      "icon": "book-open",
       "slot": "Morning",
       "time": "07:00",
       "minutes": 15,
       "meta": "Morning · 15 min",
-      "instructions": "Keep a notebook and pen by the bed. On waking, before you move or speak, write down whatever you remember of your dreams, however broken or silly. Use the present tense. Then take the dream piece by piece. For each element, a person, a place, an odd word, write the first things that come to mind, without judging. Last, ask what happened yesterday that the dream picks up, and what you might have been wishing.",
-      "why": "For years Freud analysed his own dreams each morning, and The Interpretation of Dreams is built on them. His method is not a dictionary of symbols. The meaning of an element is whatever the dreamer associates with it.",
+      "instructions": "Keep a notebook and pen by the bed. On waking, before you move or speak, write down whatever you remember of your dreams, however broken or silly. Use the present tense. Then take the dream piece by piece. For each element, write what comes to mind, without judging. If nothing comes, write that. The rule of this Onda is to write down your dreams. This is a game of attention, not a diagnosis.",
+      "why": "Freud’s Interpretation of Dreams (1899) argued that dreams are meaningful. Writing them down is the one habit that lasts from his method.",
       "variations": [
-        "If you remember nothing, write one line about the mood you woke in.",
-        "Give each dream a title.",
-        "Reread a week of dreams together and look for what repeats."
+        "Draw one image from the dream.",
+        "Write the dream as a short story.",
+        "Tell it to a friend at breakfast."
+      ],
+      "action": "journal"
+    },
+    {
+      "id": "catch-a-slip",
+      "name": "Catch a slip",
+      "icon": "eye",
+      "slot": "Morning",
+      "time": "10:00",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Carry a small card today. Each time you make a slip, write it down exactly: the wrong word said, the name that would not come, the thing mislaid, the appointment forgotten, the message sent to the wrong person. Do not explain it yet. In the evening look at the list. The rule of this Onda is to treat no slip as an accident.",
+      "why": "The Psychopathology of Everyday Life collects slips of the tongue and pen that Freud thought revealed hidden wishes. Even without his theory, collecting them is a good exercise in noticing.",
+      "variations": [
+        "Collect slips for a week.",
+        "Note what you were thinking just before.",
+        "Share the funniest with a friend."
+      ]
+    },
+    {
+      "id": "the-first-thought",
+      "name": "The first thought",
+      "icon": "lightbulb",
+      "slot": "Morning",
+      "time": "07:15",
+      "minutes": 3,
+      "meta": "Morning · 3 min",
+      "instructions": "The moment you wake, notice the very first thought that comes before you decide anything: a worry, a tune, a name, a task. Write it down in a word or a line. Don’t edit or interpret it. In a week, look at the list and see what recurs. Freud was interested in what the mind says when you are not looking.",
+      "why": "Attending to the first thought on waking is a form of free association. It catches the mind before the day’s self-presentation begins.",
+      "variations": [
+        "Write the last thought of the night too.",
+        "Compare the first and last.",
+        "Look for patterns."
+      ]
+    },
+    {
+      "id": "the-weather-in-the-body",
+      "name": "The weather in the body",
+      "icon": "user",
+      "slot": "Morning",
+      "time": "08:00",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Sit quietly and ask where in your body this morning’s mood lives: tight shoulders, a heavy stomach, a restless leg, a clear chest. Write a line: today my mood is a ... in my ... Freud held that the ego is first of all a bodily ego. Noticing the body is the first step toward noticing yourself.",
+      "why": "The body is the first place where feeling shows. A weather report from inside gives the day a calmer start.",
+      "variations": [
+        "Draw the feeling as a shape.",
+        "Give it a colour.",
+        "Notice it again at noon."
+      ]
+    },
+    {
+      "id": "your-earliest-memory",
+      "name": "Your earliest memory",
+      "icon": "clock-countdown",
+      "slot": "Morning",
+      "time": "09:00",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Write your earliest memory in as much detail as you can: where you were, what you saw, who was there, how it felt. Freud called such memories screen memories, because they often stand in front of something else. Do not search for the meaning. Just describe, and see what the memory is attached to.",
+      "why": "Deckerinnerungen, screen memories, are early memories that seem trivial but carry weight. Writing one out is a gentle way into your own history.",
+      "variations": [
+        "Write a second early memory.",
+        "Ask an older relative for theirs.",
+        "Compare the two."
+      ]
+    },
+    {
+      "id": "collect-a-joke",
+      "name": "Collect a joke",
+      "icon": "smiley",
+      "slot": "Morning",
+      "time": "08:30",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Collect one joke today that made you laugh. Write it down. Then ask why it was funny. Freud wrote a whole book on jokes and the unconscious, holding that they release something we normally keep in check. Notice what the joke was about: authority, sex, stupidity, death. Tell it to someone.",
+      "why": "Jokes and Their Relation to the Unconscious (1905) is among Freud’s most readable books. Studying why a joke works is entertaining and revealing.",
+      "variations": [
+        "Keep a joke book.",
+        "Notice what you never laugh at.",
+        "Tell a joke against yourself."
       ]
     },
     {
       "id": "free-association",
       "name": "Free association",
-      "icon": "couch",
+      "icon": "chat-circle-text",
       "slot": "Afternoon",
       "time": "13:30",
       "minutes": 15,
       "meta": "Afternoon · 15 min",
-      "instructions": "Lie down where you will not be disturbed and where you cannot see a screen. Set a timer for fifteen minutes. Say aloud, or write without stopping, everything that passes through your mind, in the order it comes. Do not select. Say it especially if it seems unimportant, irrelevant, nonsensical or embarrassing. When you fall silent, note where. That is the interesting place.",
-      "why": "This is the fundamental rule of psychoanalysis, which replaced hypnosis in the 1890s. Freud compared it to a traveller at a train window describing the changing view to someone inside the carriage.",
+      "instructions": "Lie down where you will not be disturbed and where you cannot see a screen. Set a timer for fifteen minutes. Say aloud, or write without stopping, everything that passes through your mind, in the order it comes. Do not select, polish or censor. When you hit something you would rather not say, say it anyway, and note that you hesitated. The rule of this Onda is to say whatever comes to mind.",
+      "why": "Free association is the basic rule of psychoanalysis. As a solo writing exercise it can loosen thoughts you did not know you had.",
       "variations": [
-        "Start from one word in this morning’s dream.",
-        "Record it and listen back once, then delete it.",
-        "Notice what you wanted to leave out, and why."
-      ]
-    },
-    {
-      "id": "catch-a-slip",
-      "name": "Catch a slip",
-      "icon": "magnifying-glass",
-      "slot": "Morning",
-      "time": "10:00",
-      "minutes": 5,
-      "meta": "Morning · 5 min",
-      "instructions": "Carry a small card today. Each time you make a slip, write it down exactly: the wrong word said, the name that would not come, the thing mislaid, the appointment forgotten, the message sent to the wrong person. Do not explain it away as tiredness. In the evening take one and ask: if this had been done on purpose, what would the purpose have been?",
-      "why": "The Psychopathology of Everyday Life, published in 1901, argued that such small errors are not accidents. Two intentions collide, and the one you had disowned gets a word in.",
-      "variations": [
-        "Note what you forgot to bring today, and to whom.",
-        "Collect other people’s slips too, kindly and in silence.",
-        "Look at a typing error you made twice."
+        "Write without lifting the pen.",
+        "Say it into a voice recorder.",
+        "Start from a single word."
       ]
     },
     {
       "id": "hovering-attention",
       "name": "Evenly hovering attention",
-      "icon": "headphones",
+      "icon": "ear",
       "slot": "Afternoon",
       "time": "17:00",
       "minutes": 20,
       "meta": "Afternoon · 20 min",
-      "instructions": "Ask someone how they are and then listen for twenty minutes. Give no advice and tell no story of your own. Do not try to remember anything in particular or to work anything out. Let your attention rest evenly on everything they say, the small asides as much as the main account. Notice what is repeated, what is skipped, where the voice changes and what you feel as you listen.",
-      "why": "Freud advised analysts to give everything the same evenly suspended attention and to turn their own unconscious like a receiver towards the speaker. He sat out of sight behind the couch partly so that his face would not steer what was said.",
+      "instructions": "Ask someone how they are and then listen for twenty minutes. Give no advice and tell no story of your own. Do not try to remember anything in particular or to work anything out. Let your attention rest evenly on everything they say, and let your mind notice what stands out. Afterwards, write down what you noticed. The rule of this Onda is to listen more than you speak.",
+      "why": "Gleichschwebende Aufmerksamkeit, evenly hovering attention, was Freud’s way of listening. It is also a gift to anyone who wants to be heard.",
       "variations": [
-        "Listen to a recorded interview in the same way.",
-        "Afterwards, write the one phrase that stayed with you.",
-        "Do it with someone you find difficult."
+        "Do it with a family member.",
+        "Do it by phone with your eyes closed.",
+        "Notice when you want to interrupt."
+      ]
+    },
+    {
+      "id": "a-city-walk-with-open-eyes",
+      "name": "A city walk with open eyes",
+      "icon": "footprints",
+      "slot": "Afternoon",
+      "time": "15:30",
+      "minutes": 30,
+      "meta": "Afternoon · 30 min",
+      "instructions": "Walk through a part of town you know, as Freud did after lunch, and look at it as a stranger would. Notice a shop sign you have never read, a building detail, a person’s gait. Pick one thing that surprises you and wonder why you never noticed it. Write down three things. Collecting small observations is how a mind learns.",
+      "why": "Freud took long walks in Vienna daily and said he found his best ideas on them. Looking freshly at the familiar is the heart of his method.",
+      "variations": [
+        "Walk a street backwards.",
+        "Look up at the first floors.",
+        "Walk without a destination."
+      ]
+    },
+    {
+      "id": "turn-the-urge-into-a-thing",
+      "name": "Turn the urge into a thing",
+      "icon": "paint-brush",
+      "slot": "Afternoon",
+      "time": "16:30",
+      "minutes": 20,
+      "meta": "Afternoon · 20 min",
+      "instructions": "When an urge or irritation rises today, make something from it: a drawing, a poem, a tidy shelf, a fast walk, a pot of soup. Freud called this sublimation, the channelling of a drive into a creative or useful form. Spend twenty minutes making something with the energy you would otherwise spend fretting.",
+      "why": "Sublimierung is the Freudian name for turning drives into culture. It is a practical idea for anyone who gets restless.",
+      "variations": [
+        "Draw your irritation.",
+        "Write a furious letter you won’t send.",
+        "Clean a drawer hard."
+      ]
+    },
+    {
+      "id": "dig-up-an-old-object",
+      "name": "Dig up an old object",
+      "icon": "archive",
+      "slot": "Afternoon",
+      "time": "14:30",
+      "minutes": 15,
+      "meta": "Afternoon · 15 min",
+      "instructions": "Choose an old object from a drawer or shelf: a toy, a letter, a photograph, a ticket. Hold it, look at it and tell its story aloud. Ask what it meant, what it still means and why you kept it. Freud filled his rooms with ancient figures and compared the mind to a buried city. Put it back or let it go.",
+      "why": "Freud’s collection of antiquities surrounded him as he worked, and he compared analysis to archaeology. Handling an old object is a small dig.",
+      "variations": [
+        "Pick a childhood object.",
+        "Ask a parent about it.",
+        "Photograph it before you decide."
+      ]
+    },
+    {
+      "id": "say-the-unsaid-kind-thing",
+      "name": "Say the unsaid kind thing",
+      "icon": "envelope-open",
+      "slot": "Afternoon",
+      "time": "17:30",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Say aloud to someone a thing you have been thinking but not saying, something kind: I appreciate you, I have missed you, you helped me more than you know. Unspoken gratitude is a kind of repression, and its release is a pleasure. Choose someone near and say it plainly. Notice your hesitation first.",
+      "why": "Freud held that what is held back builds pressure. Saying the kind unsaid thing is a pleasant way to let some off.",
+      "variations": [
+        "Write it in a card.",
+        "Call instead.",
+        "Say it to someone who has died, in a letter."
       ]
     },
     {
@@ -363,143 +492,340 @@
       "time": "21:30",
       "minutes": 10,
       "meta": "Evening · 10 min",
-      "instructions": "Think of something that went wrong today between you and another person, or within you. Now look back for the same shape earlier in your life: the same kind of quarrel, the same disappointment, the same way of leaving. Write down three times it has happened. What part do you always play? Whom did you first play it with? You are not asked to fix it tonight. Seeing it is the work.",
-      "why": "In Remembering, Repeating and Working Through, of 1914, Freud observed that what we cannot remember we act out, again and again. The cure is slow: the pattern has to be noticed many times before it loosens.",
+      "instructions": "Think of something that went wrong today between you and another person, or within you. Now look back for the same shape earlier in your life: the same kind of quarrel, the same disappointment, the same way of leaving. Write the chain in a few lines. You are not looking for blame, only for the pattern. Wiederholungszwang, the compulsion to repeat, can be loosened by being seen.",
+      "why": "Freud observed that we tend to repeat the unresolved. Spotting a pattern is the first step towards choice. The rule of this Onda is to look for the repetition.",
       "variations": [
-        "Notice a feeling towards someone today that seemed too big for the occasion.",
-        "Ask whose voice your inner critic speaks in.",
-        "Write to a younger version of yourself."
+        "Look at one pattern per week.",
+        "Ask a friend if they see the same one.",
+        "Plan one small change."
+      ]
+    },
+    {
+      "id": "ask-the-night-a-question",
+      "name": "Ask the night a question",
+      "icon": "moon-stars",
+      "slot": "Evening",
+      "time": "22:00",
+      "minutes": 5,
+      "meta": "Evening · 5 min",
+      "instructions": "Before sleep, write down one question you would like your dreams to bear on: What do I want? Why am I tired? What am I avoiding? Leave it by the bed with the pen. In the morning, see whether your dream book has anything to say. You may find that it answers more than you expected, or nothing at all, which is also information.",
+      "why": "Dream incubation is an ancient practice: posing a question before sleep. It goes well with a dream book and costs nothing.",
+      "variations": [
+        "Ask a question about a decision.",
+        "Ask about a person.",
+        "Ask what you cannot see."
+      ]
+    },
+    {
+      "id": "an-hour-in-a-cafe",
+      "name": "An hour in a café",
+      "icon": "coffee",
+      "slot": "Evening",
+      "time": "19:00",
+      "minutes": 45,
+      "meta": "Evening · 45 min",
+      "instructions": "Spend an hour in a café, ideally an old-fashioned one with marble tables and newspapers, as Freud did at the Landtmann. Order a coffee, sit with it and watch people. Read, write, or listen. Let your mind drift. If no café is near, make a pot of coffee at home and set a good table. The coffeehouse is Vienna’s living room.",
+      "why": "Café Landtmann was Freud’s favourite coffeehouse, and Viennese cafés are made for slow thought. An hour there is a ritual of its own.",
+      "variations": [
+        "Bring a notebook.",
+        "Read a newspaper properly.",
+        "Meet a friend for conversation."
+      ]
+    },
+    {
+      "id": "listen-to-the-adagietto",
+      "name": "Listen to the Adagietto",
+      "icon": "music-note",
+      "slot": "Evening",
+      "time": "20:30",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Play the Adagietto from Mahler’s Fifth Symphony, written in Vienna in 1901, a slow, intimate piece for strings and harp. Sit in the dark and notice what it stirs: a memory, an image, a longing. Mahler consulted Freud in 1910, famously for an afternoon’s walk in the Dutch city of Leiden. Let the music be your free association.",
+      "why": "Mahler and Freud walked and talked through Leiden for four hours in 1910. The Adagietto is Mahler at his most direct.",
+      "variations": [
+        "Listen with a closed notebook beside you.",
+        "Write what came to mind afterwards.",
+        "Listen to it twice."
+      ]
+    },
+    {
+      "id": "a-hand-of-cards",
+      "name": "A hand of cards",
+      "icon": "cards",
+      "slot": "Evening",
+      "time": "20:00",
+      "minutes": 40,
+      "meta": "Evening · 40 min",
+      "instructions": "Play a game of cards with friends or family, ideally a trick-taking game such as tarock, whist or skat. Freud played tarock every Saturday evening with his friends for decades. Chat during the hands, and notice who bluffs and who plays safe. Games are a good place to observe the self at work. Keep stakes to nothing.",
+      "why": "Freud’s weekly tarock evening was his one fixed pleasure, kept for decades. A card game is also a quiet laboratory of character.",
+      "variations": [
+        "Play without scoring.",
+        "Learn the rules of a Viennese game.",
+        "Invite someone new."
+      ]
+    },
+    {
+      "id": "spot-the-uncanny",
+      "name": "Spot the uncanny",
+      "icon": "ghost",
+      "slot": "Evening",
+      "time": "18:30",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "At dusk, take a short walk and look for the uncanny, das Unheimliche: something familiar that has become strange. A shop dummy, a doorway in the half-light, your own reflection in a window, a doll. Note what gives you the shiver, and why. Freud wrote an essay on it, linking it to the return of the half-forgotten. Enjoy the mild thrill and go home.",
+      "why": "Das Unheimliche (1919) is Freud’s essay on why the familiar can become eerie. Looking for it at dusk is a fun, safe way to meet the idea.",
+      "variations": [
+        "Read the first page of the essay.",
+        "Collect three uncanny sights.",
+        "Tell a ghost story to a friend."
+      ]
+    },
+    {
+      "id": "a-viennese-coffeehouse-afternoon",
+      "name": "A Viennese coffeehouse afternoon",
+      "icon": "coffee",
+      "slot": "Special",
+      "time": "15:00",
+      "minutes": 120,
+      "meta": "On a free afternoon · 120 min",
+      "instructions": "Spend an afternoon in a coffeehouse, real or imagined. Order a melange or a small black coffee with a glass of water, then read the paper, write postcards, play chess, argue with a friend and watch the room. Stay for two hours without being hurried. The Viennese coffeehouse was where half of modern thought was talked into being. Tip generously.",
+      "why": "Vienna’s coffeehouses were open study halls of the city. An afternoon in one, with no rush, is a unique pleasure.",
+      "variations": [
+        "Meet a friend and talk freely.",
+        "Write letters.",
+        "Order a slice of strudel."
+      ]
+    },
+    {
+      "id": "a-summer-walk-and-talk",
+      "name": "A summer walk and talk",
+      "icon": "tree",
+      "slot": "Special",
+      "time": "10:00",
+      "minutes": 120,
+      "meta": "On a free morning · 120 min",
+      "instructions": "Take a long walk in the woods or hills with a friend, as Freud did in the mountains each summer. Talk about whatever comes: childhood, dreams, plans, fears. Stop for a rest and a snack. Do not try to solve anything. Pick wild strawberries or flowers only if you know them well. Keep to paths, and tell someone where you are going.",
+      "why": "Freud spent every summer walking in the Alps, where he did some of his best thinking. A day of it is a holiday for the mind.",
+      "variations": [
+        "Walk in silence for the first half hour.",
+        "Bring a sketchbook.",
+        "End with coffee and cake."
       ]
     }
   ],
-  "tasks": [
+  "tasks": [],
+  "immersePlan": [
     {
-      "id": "task-read-on-dreams-his-own-short-summary-of-the-dream-book",
-      "name": "Read On Dreams, his own short summary of the dream book",
-      "meta": "Read · 45 min",
-      "time": "20:00",
-      "slot": "Evening",
-      "action": "read"
+      "kind": "read",
+      "item": "read-the-interpretation-of-dreams",
+      "name": "Read from The Interpretation of Dreams",
+      "text": "Read the opening of Freud’s great book, with the dream of Irma’s injection, or any chapter. Compare it with your own dream notes.",
+      "minutes": 20
     },
     {
-      "id": "task-watch-a-dangerous-method",
+      "kind": "read",
+      "item": "read-the-psychopathology-of-everyday-life",
+      "name": "Read about slips in everyday life",
+      "text": "Read a few pages of Freud’s book of forgotten names, misread words and slips of the tongue. Notice how funny many of them are.",
+      "minutes": 20
+    },
+    {
+      "kind": "read",
+      "item": "read-five-lectures-on-psycho-analysis",
+      "name": "Read the Five Lectures",
+      "text": "Read the first of the lectures Freud gave at Clark University in 1909 for a general audience. It is the clearest short introduction.",
+      "minutes": 25
+    },
+    {
+      "kind": "watch",
+      "item": "watch-spellbound",
+      "name": "Watch Spellbound",
+      "text": "Watch Hitchcock’s 1945 thriller with Ingrid Bergman as a psychoanalyst, featuring a dream sequence designed by Salvador Dalí. Notice the dream.",
+      "minutes": 111
+    },
+    {
+      "kind": "watch",
+      "item": "watch-a-dangerous-method",
       "name": "Watch A Dangerous Method",
-      "meta": "Watch · Freud, Jung and Sabina Spielrein",
-      "time": "20:30",
-      "slot": "Evening",
-      "action": "watch"
+      "text": "Watch David Cronenberg’s 2011 film about the friendship and split between Freud and Jung, with Viggo Mortensen as Freud. Notice the debates.",
+      "minutes": 99
     },
     {
-      "id": "task-listen-to-the-overture-and-first-act-of-the-marriage-of-figaro",
-      "name": "Listen to the overture and first act of The Marriage of Figaro",
-      "meta": "Listen · his favourite opera",
-      "time": "18:30",
-      "slot": "Evening",
-      "action": "listen"
+      "kind": "watch",
+      "item": "watch-freud-s-last-session",
+      "name": "Watch Freud’s Last Session",
+      "text": "Watch the 2023 film in which Freud, dying in London, argues with C. S. Lewis about God. Notice how the two men listen.",
+      "minutes": 108
     },
     {
-      "id": "task-eat-boiled-beef-with-horseradish-the-viennese-way",
-      "name": "Eat boiled beef with horseradish, the Viennese way",
-      "meta": "Eat · Tafelspitz",
-      "time": "13:00",
-      "slot": "Afternoon",
-      "action": "eat"
+      "kind": "listen",
+      "item": "listen-the-marriage-of-figaro",
+      "name": "Listen to The Marriage of Figaro",
+      "text": "Play the overture and a few arias from Mozart’s opera, about servants outwitting their master. Freud loved Mozart’s operas.",
+      "minutes": 25
     },
     {
-      "id": "task-journal-what-did-you-not-want-to-write-down-today",
-      "name": "Journal: what did you not want to write down today?",
-      "meta": "Journal · 10 min",
-      "time": "21:00",
-      "slot": "Evening",
-      "action": "journal"
+      "kind": "listen",
+      "item": "listen-symphony-no-5-adagietto",
+      "name": "Listen to the Mahler Adagietto",
+      "text": "Play the slow movement for strings and harp, written in Vienna in 1901. Close your eyes and note the images that arise.",
+      "minutes": 11
     },
     {
-      "id": "task-is-there-anything-you-do-that-you-have-not-chosen",
-      "name": "Is there anything you do that you have not chosen?",
-      "meta": "Philosophy · 10 min",
-      "time": "08:30",
-      "slot": "Morning",
-      "action": "philosophy"
+      "kind": "listen",
+      "item": "listen-sigmund-freud-speaks",
+      "name": "Hear Freud’s voice",
+      "text": "Play the 1938 BBC recording of Freud himself, aged eighty-two, speaking in English after fleeing Vienna. Listen to his dry humour.",
+      "minutes": 5
     },
     {
-      "id": "walk-briskly-for-forty-minutes-after-lunch",
-      "name": "Walk briskly for forty minutes after lunch",
-      "meta": "The Ringstrasse circuit",
-      "time": "14:00",
-      "slot": "Afternoon"
+      "kind": "art",
+      "item": "art-the-couch",
+      "name": "Look at Freud’s couch",
+      "text": "Look at pictures of the couch with its Persian rug and cushions, now in the Freud Museum in London. Think about the hours spent there.",
+      "minutes": 5
     },
     {
-      "id": "tell-one-person-something-true-that-you-usually-hide",
-      "name": "Tell one person something true that you usually hide",
-      "meta": "Against repression",
-      "time": "16:00",
-      "slot": "Afternoon"
+      "kind": "art",
+      "item": "art-his-collection-of-antiquities",
+      "name": "Look at Freud’s antiquities",
+      "text": "Look at the Egyptian, Greek and Roman figures that crowded his desk. Pick one and imagine what it said to him.",
+      "minutes": 10
     },
     {
-      "id": "write-a-real-letter-by-hand",
-      "name": "Write a real letter by hand",
-      "meta": "He wrote thousands",
-      "time": "19:30",
-      "slot": "Evening"
+      "kind": "art",
+      "item": "art-moses",
+      "name": "Look at Michelangelo’s Moses",
+      "text": "Look at Michelangelo’s marble Moses, which Freud visited every day for three weeks and wrote about. Look at the stance and the beard.",
+      "minutes": 10
     },
     {
-      "id": "treat-say-the-first-word-that-comes-to-mind-five-times-and-write-t",
-      "name": "Say the first word that comes to mind, five times, and write them down",
-      "meta": "No editing",
-      "time": "08:30",
-      "slot": "Morning"
+      "kind": "eat",
+      "item": "eat-tafelspitz",
+      "name": "Cook tafelspitz",
+      "text": "Simmer beef with root vegetables in a good broth, and serve with horseradish and apple. It is Vienna’s Sunday dish and Freud’s favourite.",
+      "minutes": 120
     },
     {
-      "id": "treat-tell-a-joke-and-wonder-why-it-is-funny",
-      "name": "Tell a joke and wonder why it is funny",
-      "meta": "He wrote a whole book on it",
-      "time": "15:30",
-      "slot": "Afternoon"
+      "kind": "eat",
+      "item": "eat-apfelstrudel",
+      "name": "Make or eat apfelstrudel",
+      "text": "Bake or buy a slice of apple strudel, with thin pastry rolled around spiced apples. Eat it with coffee.",
+      "minutes": 30
     },
     {
-      "id": "treat-have-coffee-and-cake-in-a-cafe-and-watch-the-room",
-      "name": "Have coffee and cake in a café and watch the room",
-      "meta": "Viennese research",
-      "time": "15:30",
-      "slot": "Afternoon"
+      "kind": "eat",
+      "item": "eat-wild-mushrooms",
+      "name": "Cook shop-bought mushrooms",
+      "text": "Fry mushrooms in butter with parsley, as Freud loved to when he went mushroom hunting. Use only mushrooms bought from a shop or market; never eat wild ones unless an expert has identified them.",
+      "minutes": 20
     },
     {
-      "id": "treat-look-at-one-old-photograph-of-yourself-as-a-child-for-a-full",
-      "name": "Look at one old photograph of yourself as a child for a full minute",
-      "meta": "What do you remember?",
-      "time": "19:30",
-      "slot": "Evening"
+      "kind": "drink",
+      "item": "drink-a-melange",
+      "name": "Make a melange",
+      "text": "Make strong coffee and top it with steamed milk and a spoon of foam. It is the Viennese cappuccino.",
+      "minutes": 10
     },
     {
-      "id": "daily-write-down-any-scrap-of-a-dream-before-you-move",
-      "name": "Write down any scrap of a dream before you move",
-      "meta": "A colour or one face is enough",
-      "time": "07:15",
-      "slot": "Morning"
+      "kind": "drink",
+      "item": "drink-black-coffee-after-lunch",
+      "name": "Drink black coffee after lunch",
+      "text": "Drink a small, strong black coffee after lunch, slowly, with a glass of water.",
+      "minutes": 10
     },
     {
-      "id": "daily-say-the-first-thing-that-comes-to-mind-about-today-out-loud",
-      "name": "Say the first thing that comes to mind about today, out loud",
-      "meta": "No editing",
-      "time": "07:15",
-      "slot": "Morning"
+      "kind": "drink",
+      "item": "drink-spa-water",
+      "name": "Drink mineral water",
+      "text": "Drink a glass of mineral water, as Freud did at the spa town of Karlsbad. Notice the taste.",
+      "minutes": 5
     },
     {
-      "id": "daily-look-at-an-old-photograph-of-yourself-and-note-what-you-noti",
-      "name": "Look at an old photograph of yourself and note what you notice",
-      "meta": "What do you remember outside the frame?",
-      "time": "20:30",
-      "slot": "Evening"
+      "kind": "customs",
+      "item": "customs-the-analytic-hour",
+      "name": "Take a fifty-five-minute hour",
+      "text": "Give a task or a person a fixed fifty-five minutes of uninterrupted attention, as in an analytic hour. Stop on time.",
+      "minutes": 55
     },
     {
-      "id": "daily-sit-for-ten-minutes-and-let-your-mind-wander-noting-where-it",
-      "name": "Sit for ten minutes and let your mind wander, noting where it goes",
-      "meta": "Free association, alone",
-      "time": "20:30",
-      "slot": "Evening"
+      "kind": "customs",
+      "item": "customs-the-wednesday-meetings",
+      "name": "Hold a Wednesday meeting",
+      "text": "Gather two or three friends for an evening of free-ranging conversation on one idea, with coffee and cake, in the spirit of Freud’s Wednesday group.",
+      "minutes": 60
+    },
+    {
+      "kind": "customs",
+      "item": "customs-summer-in-the-mountains",
+      "name": "Plan a mountain summer day",
+      "text": "Plan a day of walking in hills or woods, as Freud did each summer. Choose a route and a day.",
+      "minutes": 30
+    },
+    {
+      "kind": "games",
+      "item": "games-tarock",
+      "name": "Play tarock",
+      "text": "Play a trick-taking game, tarock if you can learn it, or any similar. Freud played every Saturday.",
+      "minutes": 40
+    },
+    {
+      "kind": "games",
+      "item": "games-chess",
+      "name": "Play a game of chess",
+      "text": "Play a game of chess and notice your own style, careful or reckless. Talk about it afterwards.",
+      "minutes": 30
+    },
+    {
+      "kind": "games",
+      "item": "games-mushroom-hunting",
+      "name": "Learn about mushroom hunting",
+      "text": "Look at pictures of edible mushrooms in a field guide, or visit a market. Never eat a wild mushroom you cannot identify with an expert.",
+      "minutes": 20
+    },
+    {
+      "kind": "travel",
+      "item": "fest-freud-s-birthday",
+      "name": "Keep Freud’s birthday",
+      "text": "Freud was born on 6 May 1856. Keep a dream notebook for a week in his honour.",
+      "minutes": 15
+    },
+    {
+      "kind": "travel",
+      "item": "place-sigmund-freud-museum",
+      "name": "Look up the Sigmund Freud Museum",
+      "text": "Look at pictures of Berggasse 19 in Vienna, where Freud lived and worked for nearly fifty years. Imagine the waiting room.",
+      "minutes": 10
+    },
+    {
+      "kind": "travel",
+      "item": "place-cafe-landtmann",
+      "name": "Look up Café Landtmann",
+      "text": "Look at pictures of Freud’s favourite Vienna café. Imagine his table.",
+      "minutes": 5
+    },
+    {
+      "kind": "words",
+      "item": "word-freier-einfall",
+      "name": "Practise Freier Einfall",
+      "text": "Freier Einfall is free association. Write for five minutes without stopping, whatever comes to mind.",
+      "minutes": 5
+    },
+    {
+      "kind": "words",
+      "item": "word-fehlleistung",
+      "name": "Practise Fehlleistung",
+      "text": "Fehlleistung is a slip, a faulty act. Notice one slip today and write it down without explanation.",
+      "minutes": 5
+    },
+    {
+      "kind": "words",
+      "item": "word-witz",
+      "name": "Practise Witz",
+      "text": "Witz is a joke or wit. Tell one joke today and think about why it works.",
+      "minutes": 5
     }
   ],
-  "immersePlan": [],
   "rules": [
     {
       "id": "r1",

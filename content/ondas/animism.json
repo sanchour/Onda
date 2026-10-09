@@ -446,6 +446,34 @@
       "time": "13:00",
       "slot": "Afternoon",
       "action": "customs"
+    },
+    {
+      "id": "treat-step-outside-barefoot-for-one-minute",
+      "name": "Step outside barefoot for one minute",
+      "meta": "Grass, stone or balcony",
+      "time": "08:30",
+      "slot": "Morning"
+    },
+    {
+      "id": "treat-put-water-out-for-the-birds",
+      "name": "Put water out for the birds",
+      "meta": "A shallow dish",
+      "time": "08:30",
+      "slot": "Morning"
+    },
+    {
+      "id": "treat-say-good-night-to-the-moon-whatever-phase-it-is-in",
+      "name": "Say good night to the moon, whatever phase it is in",
+      "meta": "Aloud, if you dare",
+      "time": "19:30",
+      "slot": "Evening"
+    },
+    {
+      "id": "treat-follow-one-animal-with-your-eyes-until-it-leaves",
+      "name": "Follow one animal with your eyes until it leaves",
+      "meta": "A pigeon counts",
+      "time": "15:30",
+      "slot": "Afternoon"
     }
   ],
   "rules": [

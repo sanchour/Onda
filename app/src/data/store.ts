@@ -7,6 +7,7 @@ import { detId, uuid } from '@/lib/ids'
 import { backendConfigured } from '@/sync/supabase'
 import { db, getMeta, setMeta } from './db'
 import { earnedAchievements, type AchievementKey } from './derive/achievements'
+import { planSize } from './derive/plan'
 import { mergeRecord, stamp } from './merge'
 import { COLLECTIONS, withDefaults, type BaseRecord, type CheckIn, type Collection, type Frequency, type Lago, type OndaRun, type RunSnapshot, type Settings, type Tables, type User } from './types'
 
@@ -88,6 +89,7 @@ export function snapshotOf(c: OndaContent): RunSnapshot {
     practices: c.practices.map((p) => ({ id: p.id, name: p.name, icon: p.icon, time: p.time, minutes: p.minutes })),
     rules: c.rules.map((r) => ({ id: r.id, text: r.text })),
     tasks: c.tasks.map((t) => ({ id: t.id, name: t.name, time: t.time })),
+    perDay: planSize(c),
     immerse: mediaFor(c).map((m) => ({ id: m.id, kind: m.kind, title: m.title })),
   }
 }

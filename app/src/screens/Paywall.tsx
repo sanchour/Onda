@@ -3,19 +3,21 @@ import { useTranslation } from 'react-i18next'
 import { usePlus } from '@/data/hooks'
 import navCss from '@/nav/nav.module.css'
 import { useNav } from '@/nav/store'
-import { BETA_PAYMENTS, refreshEntitlement, startCheckout, startTrial } from '@/sync/entitlement'
+import { BETA_PAYMENTS, paid, refreshEntitlement, startCheckout, startTrial, type PlusPlan } from '@/sync/entitlement'
 import { accountInfo, backendConfigured } from '@/sync/supabase'
 import { Button, GlassButton } from '@/ui/buttons'
 import { Icon } from '@/ui/Icon'
 import { beginPendingOnda } from './Onboarding'
 import s from './screens.module.css'
 
-/** Ondas+: seven days free, then a single lifetime purchase. Closable. */
+/** Ondas+: seven days free, then € 2,49 a month or € 24,99 once for life. Closable. */
 export default function Paywall() {
   const { t } = useTranslation()
   const plus = usePlus()
   const { pop, showToast, openSheet } = useNav()
   const [busy, setBusy] = useState(false)
+  const [plan, setPlan] = useState<PlusPlan>('lifetime')
+  const owned = plus.tier === 'lifetime' || plus.tier === 'monthly'
 
   const close = () => {
     void beginPendingOnda()
@@ -29,9 +31,10 @@ export default function Paywall() {
     { icon: 'lock', title: t('paywall.b4'), text: t('paywall.b4t') },
   ]
 
-  const cta = plus.tier === 'none' ? t('paywall.startTrial') : plus.tier === 'lifetime' ? t('paywall.done') : t('paywall.getLifetime')
+  const buyLabel = t(plan === 'monthly' ? 'paywall.getMonthly' : 'paywall.getLifetime')
+  const cta = plus.tier === 'none' ? t('paywall.startTrial') : plus.tier === 'lifetime' ? t('paywall.done') : plus.tier === 'monthly' ? t('paywall.getLifetime') : buyLabel
   const subline =
-    plus.tier === 'none' ? t('paywall.subFree') : plus.tier === 'lifetime' ? t('paywall.subLife') : plus.tier === 'expired' ? t('paywall.subExpired') : t('paywall.subTrialLeft', { count: plus.daysLeft })
+    plus.tier === 'none' ? t('paywall.subFree') : plus.tier === 'lifetime' ? t('paywall.subLife') : plus.tier === 'monthly' ? t('paywall.subMonthly') : plus.tier === 'expired' ? t('paywall.subExpired') : t('paywall.subTrialLeft', { count: plus.daysLeft })
 
   const buy = async () => {
     // Buying needs a real (non-anonymous) account so the purchase can be restored on another device.
@@ -42,9 +45,10 @@ export default function Paywall() {
       openSheet({ name: 'account' })
       return
     }
-    const res = await startCheckout()
+    const want: PlusPlan = plus.tier === 'monthly' ? 'lifetime' : plan
+    const res = await startCheckout(want)
     if (res === 'granted') {
-      showToast(t('paywall.lifetimeUnlocked'), { icon: 'seal-check' })
+      showToast(t(want === 'monthly' ? 'paywall.monthlyUnlocked' : 'paywall.lifetimeUnlocked'), { icon: 'seal-check' })
       close()
     } else if (res === 'unavailable') showToast(t('paywall.checkoutUnavailable'), { icon: 'wifi-slash' })
   }
@@ -68,7 +72,7 @@ export default function Paywall() {
 
   const restore = async () => {
     const e = await refreshEntitlement()
-    showToast(e?.plus === 'lifetime' ? t('paywall.restored') : t('paywall.nothingToRestore'), { icon: e?.plus === 'lifetime' ? 'seal-check' : 'info' })
+    showToast(paid(e?.plus) ? t('paywall.restored') : t('paywall.nothingToRestore'), { icon: paid(e?.plus) ? 'seal-check' : 'info' })
   }
 
   return (
@@ -95,6 +99,17 @@ export default function Paywall() {
         ))}
       </div>
       <div className={s.pwFoot}>
+        {!owned && (
+          <div className={s.pwPlans} role="radiogroup" aria-label={t('paywall.choose')}>
+            {(['monthly', 'lifetime'] as const).map((p) => (
+              <button key={p} type="button" role="radio" aria-checked={plan === p} className={plan === p ? `${s.pwPlan} ${s.pwPlanOn}` : s.pwPlan} onClick={() => setPlan(p)}>
+                <span className={s.pwPlanName}>{t(`paywall.plan_${p}`)}</span>
+                <span className={s.pwPlanPrice}>{t(`paywall.price_${p}`)}</span>
+                <span className={s.pwPlanNote}>{t(`paywall.note_${p}`)}</span>
+              </button>
+            ))}
+          </div>
+        )}
         <div className={s.pwSubline}>{subline}</div>
         <Button fullWidth disabled={busy} onClick={act}>
           {cta}
@@ -109,7 +124,7 @@ export default function Paywall() {
               void buy().finally(() => setBusy(false))
             }}
           >
-            {t('paywall.getLifetime')}
+            {buyLabel}
           </Button>
         )}
         <div className={s.pwLegal}>

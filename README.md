@@ -43,7 +43,7 @@ It runs with no backend at all (local mode): everything works on the device, and
 2. Auth: enable **Anonymous sign-ins**, **Email** (magic link) and **Apple** (Services ID and key from your Apple developer account). Add your site URL and redirect URLs.
 3. Copy `supabase/functions/.env.example` to `.env`, fill it in, then `supabase secrets set --env-file supabase/functions/.env` and `supabase functions deploy`.
 4. In the SQL editor, store the two Vault secrets named at the top of `supabase/migrations/20261006000100_schedules.sql` so pg_cron can call the functions.
-5. Notion: create a **public integration** (redirect URI `https://<ref>.supabase.co/functions/v1/notion-oauth`). Stripe: create a one-time EUR 14.99 Price and a webhook to `.../stripe-webhook` for `checkout.session.completed`, `checkout.session.async_payment_succeeded` and `charge.refunded`. Push: `npx web-push generate-vapid-keys`.
+5. Notion: create a **public integration** (redirect URI `https://<ref>.supabase.co/functions/v1/notion-oauth`). Stripe: create a one-time EUR 24.99 Price (`STRIPE_PRICE_ID`) and a recurring monthly EUR 2.49 Price (`STRIPE_PRICE_MONTHLY`), and a webhook to `.../stripe-webhook` for `checkout.session.completed`, `checkout.session.async_payment_succeeded`, `charge.refunded`, `customer.subscription.updated` and `customer.subscription.deleted`. Push: `npx web-push generate-vapid-keys`.
 6. Create `app/.env.local` from `app/.env.example`.
 
 ## Deploy the app

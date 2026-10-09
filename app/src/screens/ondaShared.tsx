@@ -12,6 +12,7 @@ import { now } from '@/lib/dates'
 import { columnWidth, fitSize } from '@/lib/fit'
 import { haptic } from '@/lib/haptics'
 import type { MediaKind } from '@/content'
+import type { DayPractice } from '@/data/derive/plan'
 import { nav, useNav } from '@/nav/store'
 import { Icon } from '@/ui/Icon'
 import { OrnamentIcon } from './KindArt'
@@ -96,33 +97,38 @@ export interface PracticeInfo {
 }
 
 /** Tap ticks the practice. Holding it (or a right click) opens a small menu with "How to do this". */
-export function PracticeRow({ p, done, onToggle, small, info }: { p: Pick<Practice, 'id' | 'name' | 'icon' | 'meta'>; done: boolean; onToggle: () => void; small?: boolean; info?: PracticeInfo }) {
+export function PracticeRow({ p, done, onToggle, small, info, twist, open }: { p: Pick<Practice, 'id' | 'name' | 'icon' | 'meta'>; done: boolean; onToggle: () => void; small?: boolean; info?: PracticeInfo; twist?: string; open?: { label: string; icon: string; onClick: () => void } }) {
   const { t } = useTranslation()
   const ref = useRef<HTMLButtonElement>(null)
   const press = useRef<{ timer?: ReturnType<typeof setTimeout>; fired: boolean; x: number; y: number }>({ fired: false, x: 0, y: 0 })
   const cancel = () => clearTimeout(press.current.timer)
   const openHow = () => {
-    if (!info || !ref.current) return
+    if ((!info && !open) || !ref.current) return
     haptic('impact')
     const r = ref.current.getBoundingClientRect()
     nav().openMenu({
       anchor: { top: r.top, bottom: r.bottom, left: r.left + 12, right: r.right },
       width: 264,
       dim: true,
-      scope: { style: info.style, onda: info.onda },
-      items: [{ label: t('onda.howTo'), icon: 'info', onClick: () => nav().openSheet({ name: 'practiceInfo', ondaId: info.ondaId, practiceId: p.id }) }],
+      scope: info ? { style: info.style, onda: info.onda } : undefined,
+      items: [
+        ...(info ? [{ label: t('onda.howTo'), icon: 'info', onClick: () => nav().openSheet({ name: 'practiceInfo', ondaId: info.ondaId, practiceId: p.id, twist }) }] : []),
+        ...(open ? [open] : []),
+      ],
     })
   }
+  const held = !!info || !!open
   return (
+    <div className={o.pWrap}>
     <button
       ref={ref}
       type="button"
       role="checkbox"
       aria-checked={done}
-      aria-haspopup={info ? 'menu' : undefined}
-      className={small ? `${o.pRow} ${o.pRowSm}` : o.pRow}
+      aria-haspopup={held ? 'menu' : undefined}
+      className={[o.pRow, small ? o.pRowSm : '', open ? o.pRowOpen : ''].join(' ')}
       onPointerDown={(e) => {
-        if (!info) return
+        if (!held) return
         const st = press.current
         st.fired = false
         st.x = e.clientX
@@ -140,14 +146,14 @@ export function PracticeRow({ p, done, onToggle, small, info }: { p: Pick<Practi
       onPointerLeave={cancel}
       onPointerCancel={cancel}
       onContextMenu={(e) => {
-        if (!info) return
+        if (!held) return
         e.preventDefault()
         cancel()
         // a touch hold has already opened the menu by the time the browser reports it
         if (!press.current.fired) openHow()
       }}
       onKeyDown={(e) => {
-        if (info && (e.key === 'ContextMenu' || (e.shiftKey && e.key === 'F10'))) {
+        if (held && (e.key === 'ContextMenu' || (e.shiftKey && e.key === 'F10'))) {
           e.preventDefault()
           openHow()
         }
@@ -168,8 +174,43 @@ export function PracticeRow({ p, done, onToggle, small, info }: { p: Pick<Practi
       <span style={{ minWidth: 0 }}>
         <span className={o.pName} style={{ display: 'block' }}>{p.name}</span>
         <span className={o.pMeta} style={{ display: 'block' }}>{p.meta}</span>
+        {twist && <span className={o.pTwist} style={{ display: 'block' }}>{t('plan.today', { text: twist })}</span>}
       </span>
     </button>
+    {open && (
+      <button type="button" className={o.pOpen} aria-label={`${open.label}: ${p.name}`} onClick={open.onClick}>
+        <Icon name={open.icon} weight="bold" size={18} />
+      </button>
+    )}
+    </div>
+  )
+}
+
+/** The day's practices (see data/derive/plan.ts). Tap ticks one. A practice with a how-to opens it on a hold; one about a book,
+ *  a film or a dish also has a button that opens it. `runId` is set for a running Onda: only then can a row open the Journal or a list. */
+export function PlanList({ plan, done, onToggle, small, info, runId }: { plan: DayPractice[]; done: Set<string>; onToggle: (id: string) => void; small?: boolean; info: PracticeInfo; runId?: string }) {
+  const { t } = useTranslation()
+  const open = (p: DayPractice) => {
+    if (p.item) return { label: t('plan.open'), icon: 'arrow-up-right', onClick: () => nav().openSheet({ name: 'mediaInfo', item: p.item!, ondaId: info.ondaId, runId }) }
+    if (!p.action || !runId) return undefined
+    const a = p.action
+    return { label: t(`ondas.go.${a}`), icon: 'caret-right', onClick: () => (a === 'journal' ? nav().push({ name: 'journal' }) : a === 'philosophy' ? nav().push({ name: 'philosophy' }) : nav().push({ name: 'immersion', kind: a as MediaKind })) }
+  }
+  return (
+    <>
+      {plan.map((p) => (
+        <PracticeRow
+          key={p.id}
+          small={small}
+          p={{ id: p.id, icon: p.icon, name: p.lead ? `${t(`plan.lead.${p.lead}`)}: ${p.name}` : p.name, meta: p.kind === 'immerse' && p.item ? [t('plan.immerse'), p.meta].filter(Boolean).join(' · ') : p.meta }}
+          twist={p.twist}
+          done={done.has(p.id)}
+          onToggle={() => onToggle(p.id)}
+          info={p.practiceId ? info : undefined}
+          open={open(p)}
+        />
+      ))}
+    </>
   )
 }
 

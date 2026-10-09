@@ -457,6 +457,34 @@
       "time": "15:30",
       "slot": "Afternoon",
       "action": "drink"
+    },
+    {
+      "id": "treat-put-fresh-flowers-where-you-will-see-them",
+      "name": "Put fresh flowers where you will see them",
+      "meta": "Any flowers",
+      "time": "08:30",
+      "slot": "Morning"
+    },
+    {
+      "id": "treat-taste-a-little-chilli-with-chocolate",
+      "name": "Taste a little chilli with chocolate",
+      "meta": "One square is enough",
+      "time": "15:30",
+      "slot": "Afternoon"
+    },
+    {
+      "id": "treat-recite-two-lines-of-any-poem-aloud-outdoors",
+      "name": "Recite two lines of any poem aloud outdoors",
+      "meta": "Flower and song",
+      "time": "19:30",
+      "slot": "Evening"
+    },
+    {
+      "id": "treat-eat-something-made-of-maize-and-thank-the-plant",
+      "name": "Eat something made of maize and thank the plant",
+      "meta": "A tortilla, popcorn, polenta",
+      "time": "15:30",
+      "slot": "Afternoon"
     }
   ],
   "rules": [
@@ -544,6 +572,20 @@
         "creator": "Lee Unkrich and Adrian Molina",
         "year": "2017",
         "why": "An animated film set during Mexico’s Day of the Dead. Not about the Aztecs, but about a living culture that holds memory of the dead dear."
+      },
+      {
+        "id": "watch-the-other-conquest-la-otra-conquista",
+        "title": "The Other Conquest (La otra conquista)",
+        "creator": "Salvador Carrasco",
+        "year": "1998",
+        "why": "A Mexican film about a Nahua scribe in the years just after 1521, and about what conversion did and did not change."
+      },
+      {
+        "id": "watch-engineering-an-empire-the-aztecs",
+        "title": "Engineering an Empire: The Aztecs",
+        "creator": "History Channel",
+        "year": "2006",
+        "why": "How a city of causeways, aqueducts and floating gardens was built on a lake."
       }
     ],
     "listen": [
@@ -553,6 +595,19 @@
         "creator": "Carlos Chávez",
         "year": "1940",
         "why": "A composition for winds and percussion that recreates the sound of a pre-Hispanic ensemble."
+      },
+      {
+        "id": "listen-xochipitzahuatl",
+        "title": "Xochipitzahuatl",
+        "creator": "Traditional Nahua song; many recordings",
+        "why": "A song in Nahuatl still played at weddings and feasts in the Huasteca. Its name means little flower."
+      },
+      {
+        "id": "listen-in-our-time-the-aztecs",
+        "title": "In Our Time: The Aztecs",
+        "creator": "BBC Radio 4, Melvyn Bragg",
+        "year": "2003",
+        "why": "Forty-five minutes on the rise of Tenochtitlan and on how much of what is said about it comes from its conquerors."
       }
     ],
     "art": [

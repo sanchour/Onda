@@ -42,7 +42,7 @@ export function activityByDate(s: StatsInput, today: DateStr): Map<DateStr, DayA
   }
   const seen = new Set<string>()
   for (const r of s.runs.filter(live)) {
-    const n = r.snapshot?.practices.length ?? 0
+    const n = r.snapshot?.perDay ?? r.snapshot?.practices.length ?? 0
     const last = r.endedAt && r.endedAt < runEndDate(r) ? r.endedAt : runEndDate(r)
     for (let d = r.startedAt; d <= today && d <= last; d = addDays(d, 1)) at(d).due += n
   }
@@ -165,8 +165,11 @@ export function dayEvents(date: DateStr, s: StatsInput): DayEvent[] {
   for (const p of s.practiceLogs) {
     if (p.date !== date || !p.done || !live(p) || seen.has(p.runId + p.practiceId)) continue
     seen.add(p.runId + p.practiceId)
-    const pr = runs.get(p.runId)?.snapshot?.practices.find((x) => x.id === p.practiceId)
-    out.push({ icon: pr?.icon ?? 'sparkle', key: 'practice', name: pr?.name ?? '', kind: 'ondas', at: p.at ?? null })
+    const snap = runs.get(p.runId)?.snapshot
+    const pr = snap?.practices.find((x) => x.id === p.practiceId)
+    // since 5.2 a day's practices also come from the Onda's tasks and its Immerse lists
+    const other = pr ? undefined : (snap?.tasks.find((x) => x.id === p.practiceId)?.name ?? snap?.immerse.find((x) => `im-${x.id}` === p.practiceId)?.title)
+    out.push({ icon: pr?.icon ?? 'sparkle', key: 'practice', name: pr?.name ?? other ?? '', kind: 'ondas', at: p.at ?? null })
   }
   for (const j of s.journal.filter(live)) {
     if (j.at.slice(0, 10) !== date && toDateStr(new Date(j.at)) !== date) continue

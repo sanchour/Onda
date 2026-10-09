@@ -413,6 +413,34 @@
       "time": "08:30",
       "slot": "Morning",
       "action": "philosophy"
+    },
+    {
+      "id": "treat-put-on-a-jazz-record-while-you-get-dressed",
+      "name": "Put on a jazz record while you get dressed",
+      "meta": "Loud enough to move to",
+      "time": "08:30",
+      "slot": "Morning"
+    },
+    {
+      "id": "treat-write-one-telegram-ten-words-then-stop",
+      "name": "Write one telegram: ten words, then stop",
+      "meta": "Send it as a message",
+      "time": "15:30",
+      "slot": "Afternoon"
+    },
+    {
+      "id": "treat-go-to-the-pictures-or-watch-one-silent-short-with-snacks",
+      "name": "Go to the pictures, or watch one silent short with snacks",
+      "meta": "Ten minutes will do",
+      "time": "19:30",
+      "slot": "Evening"
+    },
+    {
+      "id": "treat-wear-one-thing-that-is-slightly-too-smart-for-the-occasion",
+      "name": "Wear one thing that is slightly too smart for the occasion",
+      "meta": "A hat counts",
+      "time": "08:30",
+      "slot": "Morning"
     }
   ],
   "rules": [

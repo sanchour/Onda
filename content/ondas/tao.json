@@ -448,6 +448,34 @@
       "time": "08:00",
       "slot": "Morning",
       "action": "eat"
+    },
+    {
+      "id": "treat-follow-a-cloud-until-it-changes-into-something-else",
+      "name": "Follow a cloud until it changes into something else",
+      "meta": "Lie down if you can",
+      "time": "15:30",
+      "slot": "Afternoon"
+    },
+    {
+      "id": "treat-pour-water-from-one-cup-to-another-and-watch-how-it-takes-th",
+      "name": "Pour water from one cup to another and watch how it takes the shape",
+      "meta": "One minute",
+      "time": "08:30",
+      "slot": "Morning"
+    },
+    {
+      "id": "treat-take-the-slow-way-home",
+      "name": "Take the slow way home",
+      "meta": "No shortcut today",
+      "time": "19:30",
+      "slot": "Evening"
+    },
+    {
+      "id": "treat-draw-one-circle-with-a-brush-or-a-pen-in-one-breath",
+      "name": "Draw one circle with a brush or a pen, in one breath",
+      "meta": "Keep the first one",
+      "time": "19:30",
+      "slot": "Evening"
     }
   ],
   "rules": [

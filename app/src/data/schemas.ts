@@ -48,7 +48,7 @@ export const UserSchema = z.object({
   ...base,
   name: z.string(),
   createdAt: z.string(),
-  plus: z.enum(['none', 'trial', 'lifetime']),
+  plus: z.enum(['none', 'trial', 'monthly', 'lifetime']),
   trialStartedAt: z.string().nullable().optional(),
   settings: SettingsSchema,
 })
@@ -91,6 +91,8 @@ export const RunSnapshotSchema = z.object({
   practices: z.array(z.object({ id: z.string(), name: z.string(), icon: z.string(), time: z.string(), minutes: z.number().optional() })),
   rules: z.array(z.object({ id: z.string(), text: z.string() })),
   tasks: z.array(z.object({ id: z.string(), name: z.string(), time: z.string() })),
+  /** Practices in one day since 5.2 (see derive/plan.ts). Runs begun before that count every practice every day. */
+  perDay: z.number().optional(),
   immerse: z.array(z.object({ id: z.string(), kind: z.string(), title: z.string() })),
 })
 export type RunSnapshot = z.infer<typeof RunSnapshotSchema>

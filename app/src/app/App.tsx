@@ -4,7 +4,7 @@ import { useActiveRun, useDark, useLook, useOndaIndex, useSettings } from '@/dat
 import { ondaLook } from '@/content/themes'
 import { accentFor, mix } from '@/lib/color'
 import i18n from '@/i18n'
-import { refreshEntitlement } from '@/sync/entitlement'
+import { paid, refreshEntitlement } from '@/sync/entitlement'
 import { useStore } from '@/data/store'
 import { EASE_ENTER, PUSH_MS, reducedMotion } from '@/lib/motion'
 import { Navigator } from '@/nav/Navigator'
@@ -212,7 +212,7 @@ export function App() {
     if (q.get('purchase')) {
       const ok = q.get('purchase') === 'success'
       history.replaceState(null, '', location.pathname)
-      if (ok) void refreshEntitlement().then((e) => e?.plus === 'lifetime' && useNav.getState().showToast(i18n.t('paywall.thanks'), { icon: 'seal-check' }))
+      if (ok) void refreshEntitlement().then((e) => paid(e?.plus) && useNav.getState().showToast(i18n.t('paywall.thanks'), { icon: 'seal-check' }))
     }
     // ?seed=demo loads the demo data set (Stoicism day 4 of 14, five Lagos)
     if (q.get('seed') === 'demo') {
@@ -250,7 +250,13 @@ export function App() {
 
   // The HTML carries a tiny launch shell; take it away once the app can paint
   useEffect(() => {
-    if (ready) requestAnimationFrame(() => document.getElementById('boot')?.remove())
+    if (!ready) return
+    // fade the loading screen out rather than cutting to the app
+    const boot = document.getElementById('boot')
+    if (!boot) return
+    requestAnimationFrame(() => boot.classList.add('out'))
+    const t = setTimeout(() => boot.remove(), 260)
+    return () => clearTimeout(t)
   }, [ready])
 
   if (!ready) return null

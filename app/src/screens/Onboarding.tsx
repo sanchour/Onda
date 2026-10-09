@@ -13,7 +13,7 @@ import { nav } from '@/nav/store'
 import { Button, GlassButton } from '@/ui/buttons'
 import { ProgressRing, StepBar } from '@/ui/data'
 import { Icon } from '@/ui/Icon'
-import { RulerPicker } from '@/ui/pickers'
+import { DayScroller } from '@/ui/pickers'
 import s from './screens.module.css'
 
 /** The Onda chosen on the last step. It begins once the paywall closes, if the user is entitled to it. */
@@ -132,7 +132,8 @@ export default function Onboarding() {
             {step === 3 && (
               <div className={s.obPicker}>
                 <div className={s.obRuler}>
-                  <RulerPicker value={len} min={7} max={30} unit={t('common.unitDays')} onChange={setLen} ariaLabel={su.q} />
+                  <div className={s.obLen}>{t('common.days', { count: len })}</div>
+                  <DayScroller value={len} min={7} max={30} onChange={setLen} ariaLabel={su.q} />
                 </div>
               </div>
             )}

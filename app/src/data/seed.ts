@@ -1,4 +1,5 @@
 import { loadOnda } from '@/content'
+import { planForDay } from './derive/plan'
 import { addDays, fromDateStr, todayStr } from '@/lib/dates'
 import { detId, uuid } from '@/lib/ids'
 import { db, getMeta } from './db'
@@ -71,7 +72,7 @@ async function seed(): Promise<void> {
     runs.push(run)
     for (let d = 0; d < length; d++) {
       const date = addDays(startedAt, d)
-      c.practices.forEach((p, i) => {
+      planForDay(c, d + 1).forEach((p, i) => {
         if ((d + i) % 5 === 4) return // roughly four days in five
         practiceLogs.push({ ...base(detId('practice', run.id, p.id, date)), runId: run.id, practiceId: p.id, date, done: true, at: at(date, 7 + i * 4, 10) })
       })
@@ -89,16 +90,14 @@ async function seed(): Promise<void> {
   runs.push(run)
   for (let d = 0; d < 3; d++) {
     const date = addDays(run.startedAt, d)
-    stoic.practices.forEach((p, i) => {
+    planForDay(stoic, d + 1).forEach((p, i) => {
       if (d === 1 && i === 2) return
-      practiceLogs.push({ ...base(detId('practice', run.id, p.id, date)), runId: run.id, practiceId: p.id, date, done: true, at: at(date, [6, 7, 12, 21][i] ?? 12, 30) })
+      practiceLogs.push({ ...base(detId('practice', run.id, p.id, date)), runId: run.id, practiceId: p.id, date, done: true, at: at(date, [6, 12, 18, 21, 22][i] ?? 12, 30) })
     })
     journal.push({ ...base(detId('journal', run.id, d + 1)), runId: run.id, day: d + 1, prompt: stoic.journal[d % stoic.journal.length] ?? '', text: JOURNAL_SEED[(d + 1) % 3]!, at: at(date, 22, 2) })
   }
-  // Today: two practices and the second task done, as in the prototype
-  stoic.practices.slice(0, 2).forEach((p, i) => practiceLogs.push({ ...base(detId('practice', run.id, p.id, today)), runId: run.id, practiceId: p.id, date: today, done: true, at: at(today, 6 + i, 30) }))
-  const task = stoic.tasks[1]
-  if (task) taskLogs.push({ ...base(detId('taskLogs', run.id, task.id, today)), runId: run.id, itemId: task.id, date: today, done: true })
+  // Today: the morning and the evening practice are done, two of the day's five
+  planForDay(stoic, 4).filter((_, i) => i === 0 || i === 3).forEach((p, i) => practiceLogs.push({ ...base(detId('practice', run.id, p.id, today)), runId: run.id, practiceId: p.id, date: today, done: true, at: at(today, 6 + i, 30) }))
   for (const it of [stoic.immerse.read[0], stoic.immerse.listen[0]]) {
     if (it) immerseLogs.push({ ...base(detId('immerse', run.id, it.id)), runId: run.id, itemId: it.id, doneAt: at(addDays(today, -1), 20, 0) })
   }

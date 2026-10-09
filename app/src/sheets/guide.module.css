@@ -115,6 +115,13 @@ button.foldBtn:active{opacity:.75}
 .miMeta{font:500 var(--fs-16)/1.3 var(--font-sans);color:var(--label-secondary);margin-top:6px}
 .miExtra{font:400 var(--fs-14) var(--font-sans);color:var(--label-tertiary);margin-top:2px}
 .miWhy{font:400 var(--fs-17)/1.5 var(--font-sans);margin:14px 0 0;text-wrap:pretty}
+.miFind{margin-top:20px;padding-top:16px;border-top:1px solid var(--separator)}
+.miFindHead{font:600 var(--fs-13) var(--font-sans);letter-spacing:.06em;text-transform:uppercase;color:var(--label-secondary)}
+.miLinks{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.miLink{display:inline-flex;align-items:center;gap:7px;padding:9px 13px;border-radius:999px;background:color-mix(in srgb,var(--onda-solid,var(--surface-fill)) 36%,var(--surface-card));color:var(--onda-text,var(--label));font:600 var(--fs-14) var(--font-sans)}
+.miLink:active{opacity:.6}
+.miLink > :last-child{opacity:.55}
+.miFindNote{font:400 var(--fs-12)/1.3 var(--font-sans);color:var(--label-tertiary);margin-top:10px}
 .miActions{display:flex;flex-direction:column;gap:10px;margin-top:22px}
 
 /* ── Full guide as a page ────────────────────────────────── */

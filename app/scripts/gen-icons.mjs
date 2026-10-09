@@ -67,7 +67,8 @@ async function main() {
         .composite([{ input: mark, left: Math.round((W - s) / 2), top: Math.round((H - s) / 2) }])
         .png({ compressionLevel: 9, palette: true })
         .toFile(pub(file))
-      const scheme = t.name === 'dark' ? ' and (prefers-color-scheme: dark)' : ''
+      // both are qualified: an unqualified light image also matches in dark mode, and iOS may then show it
+      const scheme = ` and (prefers-color-scheme: ${t.name})`
       links.push(`    <link rel="apple-touch-startup-image" href="/${file}" media="screen and (device-width: ${w}px) and (device-height: ${h}px) and (-webkit-device-pixel-ratio: ${r}) and (orientation: portrait)${scheme}" />`)
     }
   }

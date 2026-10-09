@@ -14,7 +14,7 @@ import { downloadJson, isStandalone } from '@/lib/platform'
 import { BackButton, Screen } from '@/nav/Screen'
 import { useNav, type SettingsPage, type StackEntry } from '@/nav/store'
 import { deleteAccount, syncNow, useSyncState } from '@/sync/engine'
-import { refreshEntitlement } from '@/sync/entitlement'
+import { paid, refreshEntitlement } from '@/sync/entitlement'
 import { useIntegrations } from '@/sync/integrations'
 import { disablePush, pushState, sendTestPush } from '@/sync/push'
 import { accountInfo, backendConfigured, signOut } from '@/sync/supabase'
@@ -22,12 +22,12 @@ import { SegmentedControl } from '@/ui/controls'
 import { Avatar } from '@/ui/data'
 import { Icon } from '@/ui/Icon'
 import { ListRow, ListSection } from '@/ui/lists'
-import { RulerPicker } from '@/ui/pickers'
+import { DayScroller } from '@/ui/pickers'
 import m from './more.module.css'
 import s from './screens.module.css'
 
-const APP_VERSION = '5.1'
-const BUILD = '2'
+const APP_VERSION = '5.2'
+const BUILD = '1'
 const HUB: [string, SettingsPage][] = [['seal-check', 'subscription'], ['paint-brush', 'appearance'], ['bell', 'notifications'], ['sparkle', 'practice'], ['arrows-clockwise', 'integrations'], ['database', 'data'], ['lock', 'privacy'], ['question', 'help']]
 
 /** Tap once to arm, again to confirm: the quiet version of an "Are you sure" alert. */
@@ -84,7 +84,7 @@ export default function Settings({ entry }: { entry: Extract<StackEntry, { name:
   }, [today, lagos, runs])
 
   const sw = (k: keyof SettingsT) => ({ accessory: 'switch' as const, switchOn: !!settings[k], onSwitchChange: (v: boolean) => update({ [k]: v }) })
-  const tier = plus.tier === 'lifetime' ? t('settings.sub.lifetime') : plus.tier === 'trial' ? t('settings.sub.trial') : plus.tier === 'expired' ? t('settings.sub.expired') : t('settings.sub.free')
+  const tier = plus.tier === 'lifetime' ? t('settings.sub.lifetime') : plus.tier === 'monthly' ? t('settings.sub.monthly') : plus.tier === 'trial' ? t('settings.sub.trial') : plus.tier === 'expired' ? t('settings.sub.expired') : t('settings.sub.free')
   const onCount = (integrations?.notion.connected ? 1 : 0) + (integrations?.calendar.lastFetchedAt ? 1 : 0) + (integrations?.reminders.lastFetchedAt ? 1 : 0)
   const hubValue: Record<SettingsPage, string> = {
     subscription: tier,
@@ -100,7 +100,7 @@ export default function Settings({ entry }: { entry: Extract<StackEntry, { name:
   const paywall = () => push({ name: 'paywall' })
   const restore = async () => {
     const e = await refreshEntitlement()
-    showToast(e?.plus === 'lifetime' ? t('paywall.restored') : t('paywall.nothingToRestore'), { icon: e?.plus === 'lifetime' ? 'seal-check' : 'info' })
+    showToast(paid(e?.plus) ? t('paywall.restored') : t('paywall.nothingToRestore'), { icon: paid(e?.plus) ? 'seal-check' : 'info' })
   }
   const openIntegration = (sheet: 'notion' | 'calendar' | 'reminders') => () => {
     if (!hasPlus(plus)) {
@@ -116,7 +116,8 @@ export default function Settings({ entry }: { entry: Extract<StackEntry, { name:
         <ListSection header={t('settings.sub.header')} footer={t('settings.sub.footer')}>
           <ListRow icon="seal-check" title={t('settings.sub.plan')} value={tier} onClick={paywall} />
           {plus.tier === 'trial' && <ListRow icon="clock" title={t('settings.sub.trialLeft')} value={t('common.days', { count: plus.daysLeft })} accessory="none" />}
-          {plus.tier !== 'lifetime' && <ListRow icon="infinity" title={t('settings.sub.getLifetime')} value="€ 14,99" onClick={paywall} />}
+          {plus.tier !== 'lifetime' && <ListRow icon="infinity" title={t('settings.sub.getLifetime')} value="€ 24,99" onClick={paywall} />}
+          {plus.tier !== 'lifetime' && plus.tier !== 'monthly' && <ListRow icon="calendar-blank" title={t('settings.sub.getMonthly')} value="€ 2,49" onClick={paywall} />}
           <ListRow icon="arrow-counter-clockwise" title={t('settings.sub.restore')} accessory="none" onClick={() => void restore()} />
         </ListSection>
       </div>
@@ -128,8 +129,9 @@ export default function Settings({ entry }: { entry: Extract<StackEntry, { name:
         </div>
         <div className={m.rulerCard}>
           <div className={m.rulerTitle}>{t('settings.display.defaultLength')}</div>
-          <div style={{ padding: '8px 16px 0' }}>
-            <RulerPicker value={settings.defaultOndaLength} min={7} max={30} unit={t('common.unitDays')} onChange={(v) => update({ defaultOndaLength: v })} ariaLabel={t('settings.display.defaultLength')} />
+          <div style={{ display: 'flex', alignItems: 'center', gap: 12, padding: '4px 16px 12px' }}>
+            <span style={{ whiteSpace: 'nowrap', font: '600 var(--fs-17) var(--font-sans)' }}>{t('common.days', { count: settings.defaultOndaLength })}</span>
+            <DayScroller value={settings.defaultOndaLength} min={7} max={30} onChange={(v) => update({ defaultOndaLength: v })} ariaLabel={t('settings.display.defaultLength')} />
           </div>
         </div>
         <div className={m.gap28}>
@@ -246,8 +248,8 @@ export default function Settings({ entry }: { entry: Extract<StackEntry, { name:
     ),
   }
 
-  const badge = plus.tier === 'lifetime' ? t('settings.plus.badgeLife') : plus.tier === 'trial' ? t('settings.plus.badgeTrial', { count: plus.daysLeft }) : plus.tier === 'expired' ? t('settings.plus.badgeExpired') : t('settings.plus.badgeFree')
-  const plusKey = plus.tier === 'lifetime' ? 'Life' : plus.tier === 'trial' ? 'Trial' : plus.tier === 'expired' ? 'Expired' : 'Free'
+  const badge = plus.tier === 'lifetime' ? t('settings.plus.badgeLife') : plus.tier === 'monthly' ? t('settings.plus.badgeMonthly') : plus.tier === 'trial' ? t('settings.plus.badgeTrial', { count: plus.daysLeft }) : plus.tier === 'expired' ? t('settings.plus.badgeExpired') : t('settings.plus.badgeFree')
+  const plusKey = plus.tier === 'lifetime' ? 'Life' : plus.tier === 'monthly' ? 'Monthly' : plus.tier === 'trial' ? 'Trial' : plus.tier === 'expired' ? 'Expired' : 'Free'
 
   return (
     <Screen chrome={<BackButton onClick={pop} />}>

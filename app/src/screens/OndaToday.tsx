@@ -2,6 +2,7 @@ import { useMemo, useRef, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { mediaFor, type MediaItem } from '@/content'
 import { pickForDay, runDay } from '@/data/derive/onda'
+import { planForDay } from '@/data/derive/plan'
 import { useActiveRun, useLook, useOnda, useOndaIndex, useSettings } from '@/data/hooks'
 import { useStore } from '@/data/store'
 import { haptic } from '@/lib/haptics'
@@ -9,11 +10,11 @@ import { detId } from '@/lib/ids'
 import { BackButton, BottomNote, ChromeTitle, Screen } from '@/nav/Screen'
 import { useNav, type StackEntry } from '@/nav/store'
 import { Button, GlassButton } from '@/ui/buttons'
-import { Stepper } from '@/ui/controls'
+import { DayScroller } from '@/ui/pickers'
 import { Icon } from '@/ui/Icon'
 import { SectionToggle } from '@/ui/lists'
-import { KindArt } from './KindArt'
-import { DayBar, PracticeRow, RulesList, TasksList, guardBeginOnda, nameSize, useRunToday } from './ondaShared'
+import { KindArt, OrnamentIcon } from './KindArt'
+import { DayBar, OrnDivider, PlanList, RulesList, guardBeginOnda, nameSize, useRunToday } from './ondaShared'
 import o from './ondas.module.css'
 import s from './screens.module.css'
 
@@ -33,6 +34,7 @@ export default function OndaToday({ entry }: { entry: Extract<StackEntry, { name
   const look = useLook(index)
   const run = active?.ondaId === entry.id ? active : undefined
   const live = !!run
+  const themed = settings.ondaThemes
   const runDone = useRunToday(run?.id)
   const [len, setLen] = useState(entry.length ?? settings.defaultOndaLength)
   const [pv, setPv] = useState<Record<string, boolean>>({}) // preview-only ticks
@@ -56,7 +58,6 @@ export default function OndaToday({ entry }: { entry: Extract<StackEntry, { name
   const st = useStore.getState()
   const pSet = live ? runDone.practices : new Set(Object.keys(pv).filter((k) => pv[k]))
   const rSet = live ? runDone.rules : pSet
-  const tSet = live ? runDone.tasks : pSet
   const flip = (id: string) => setPv((x) => ({ ...x, [id]: !x[id] }))
   const toggle = { open: (k: string) => !closed[k], flip: (k: string) => () => setClosed((c) => ({ ...c, [k]: !c[k] })) }
 
@@ -73,7 +74,8 @@ export default function OndaToday({ entry }: { entry: Extract<StackEntry, { name
   ].filter((v, i, a): v is NonNullable<typeof v> => !!v && a.findIndex((w) => w && w.title === v.title) === i)
   const mediaToday = TODAY_KINDS.map((k) => pickForDay(media.filter((m) => m.kind === k), day)).filter((m): m is MediaItem => !!m)
   const written = run ? journal.some((j) => j.id === detId('journal', run.id, day) && !j.deletedAt) : false
-  const pCount = content.practices.filter((p) => pSet.has(p.id)).length
+  const plan = planForDay(content, day, { includeFood: settings.includeFood })
+  const pCount = plan.filter((p) => pSet.has(p.id)).length
   const rCount = content.rules.filter((r) => rSet.has(r.id)).length
 
   const begin = () => {
@@ -124,21 +126,27 @@ export default function OndaToday({ entry }: { entry: Extract<StackEntry, { name
         )
       }
     >
-      <div className={o.odHead}>
+      <div className={themed ? `${o.odHead} ${o.odHero} ${o.themed}` : o.odHead}>
+        {themed && (
+          <span className={o.odEmblem} aria-hidden>
+            <OrnamentIcon name={look.ornament} size={150} />
+          </span>
+        )}
         <div className={o.odTitleRow}>
-          <div className={`${s.circle} ${o.odIcon} ${o.solidCircle}`}>
+          <div className={`${s.circle} ${o.odIcon} ${themed ? o.chipCircle : o.solidCircle}`}>
             <Icon name={index.icon} weight="fill" size={30} />
           </div>
-          <h1 className={o.odName} style={{ fontSize: nameSize(look, index.name, 40 + 70 + 14 + 8, 38, 20) }}>{index.name}</h1>
+          <h1 className={o.odName} style={{ fontSize: nameSize(look, index.name, 40 + 70 + 14 + 8 + (themed ? 40 : 0), 38, 20) }}>{index.name}</h1>
         </div>
+        {index.origin && <div className={o.odOrigin}>{index.origin}</div>}
         {theme && <div className={o.odTheme}>{t('onda.todayTheme', { theme })}</div>}
-        <DayBar day={day} length={length} strong />
+        <DayBar day={day} length={length} strong={!themed} />
       </div>
 
       {!live && (
         <div className={`${s.card} ${s.inlineRow}`} style={{ marginTop: 20 }}>
           <span style={{ whiteSpace: 'nowrap' }}>{t('onda.length', { count: len })}</span>
-          <Stepper onDecrement={() => setLen((n) => Math.max(7, n - 1))} onIncrement={() => setLen((n) => Math.min(30, n + 1))} decrementDisabled={len <= 7} incrementDisabled={len >= 30} />
+          <DayScroller value={len} min={7} max={30} onChange={setLen} ariaLabel={t('common.lengthLabel')} />
         </div>
       )}
       {!live && content.sensitivity && (
@@ -190,12 +198,12 @@ export default function OndaToday({ entry }: { entry: Extract<StackEntry, { name
         </span>
       </button>
 
-      <SectionToggle title={t('onda.practices')} meta={`${pCount}/${content.practices.length}`} open={toggle.open('p')} onToggle={toggle.flip('p')} />
+      {themed && <OrnDivider look={look} className={o.odOrn} />}
+      <div className={themed ? o.odBody : undefined}>
+      <SectionToggle title={t('onda.practices')} meta={`${pCount}/${plan.length}`} open={toggle.open('p')} onToggle={toggle.flip('p')} />
       {toggle.open('p') && (
         <div className={s.stack10} style={{ padding: '0 16px' }}>
-          {content.practices.map((p) => (
-            <PracticeRow key={p.id} small p={p} done={pSet.has(p.id)} onToggle={() => (run ? st.togglePractice(run.id, p.id) : flip(p.id))} info={{ ondaId: index.id, style: look.vars, onda: settings.ondaThemes ? index.id : undefined }} />
-          ))}
+          <PlanList small plan={plan} done={pSet} onToggle={(id) => (run ? st.togglePractice(run.id, id) : flip(id))} runId={run?.id} info={{ ondaId: index.id, style: look.vars, onda: settings.ondaThemes ? index.id : undefined }} />
           <div className={o.holdHint}>{t('onda.holdHint')}</div>
         </div>
       )}
@@ -204,13 +212,6 @@ export default function OndaToday({ entry }: { entry: Extract<StackEntry, { name
         <>
           <SectionToggle title={t('onda.rules')} meta={`${rCount}/${content.rules.length}`} open={toggle.open('r')} onToggle={toggle.flip('r')} />
           {toggle.open('r') && <RulesList rules={content.rules} done={rSet} onToggle={(id) => (run ? st.toggleItem('ruleLogs', run.id, id) : flip(id))} />}
-        </>
-      )}
-
-      {content.tasks.length > 0 && (
-        <>
-          <SectionToggle title={t('onda.tasks')} open={toggle.open('t')} onToggle={toggle.flip('t')} />
-          {toggle.open('t') && <TasksList tasks={content.tasks} done={tSet} go={!!run} onToggle={(id) => (run ? st.toggleItem('taskLogs', run.id, id) : flip(id))} />}
         </>
       )}
 
@@ -256,7 +257,9 @@ export default function OndaToday({ entry }: { entry: Extract<StackEntry, { name
         </>
       )}
 
-      <div className={o.journalCard}>
+      </div>
+      {themed && <OrnDivider look={look} className={o.odOrn} />}
+      <div className={o.journalCard} style={themed ? { marginTop: 18 } : undefined}>
         <div className={s.kicker}>{t('onda.journalDay', { day })}</div>
         <div className={o.journalPrompt}>{prompt}</div>
         {live && (

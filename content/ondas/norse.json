@@ -443,6 +443,34 @@
       "time": "08:00",
       "slot": "Morning",
       "action": "philosophy"
+    },
+    {
+      "id": "treat-splash-your-face-with-cold-water-outdoors",
+      "name": "Splash your face with cold water outdoors",
+      "meta": "Quick and bracing",
+      "time": "08:30",
+      "slot": "Morning"
+    },
+    {
+      "id": "treat-raise-a-glass-to-someone-absent-and-say-their-name",
+      "name": "Raise a glass to someone absent and say their name",
+      "meta": "Any drink",
+      "time": "19:30",
+      "slot": "Evening"
+    },
+    {
+      "id": "treat-whittle-carve-or-peel-something-with-a-knife-carefully",
+      "name": "Whittle, carve or peel something with a knife, carefully",
+      "meta": "A stick or an apple",
+      "time": "15:30",
+      "slot": "Afternoon"
+    },
+    {
+      "id": "treat-tell-a-tall-tale-about-your-day-at-dinner",
+      "name": "Tell a tall tale about your day at dinner",
+      "meta": "Exaggerate one detail",
+      "time": "19:30",
+      "slot": "Evening"
     }
   ],
   "rules": [

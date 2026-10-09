@@ -1,7 +1,9 @@
 import { useMemo, useState } from 'react'
 import { useTranslation } from 'react-i18next'
+import { linksFor } from '@/content/links'
 import { immerseSet, pickForDay } from '@/data/derive/onda'
-import { useLook, useOnda, useOndaIndex } from '@/data/hooks'
+import { planForDay } from '@/data/derive/plan'
+import { useLook, useOnda, useOndaIndex, useSettings } from '@/data/hooks'
 import { useStore } from '@/data/store'
 import { haptic } from '@/lib/haptics'
 import { detId } from '@/lib/ids'
@@ -30,6 +32,7 @@ export function JournalEditSheet({ entry }: E<'journalEdit'>) {
   const id = active ? detId('journal', active.run.id, day) : ''
   const existing = useStore((x) => x.journal.find((j) => j.id === id && !j.deletedAt))
   const [text, setText] = useState(existing?.text ?? '')
+  const includeFood = useSettings().includeFood
   if (!active) return null
 
   const prompt = existing?.prompt || pickForDay(active.content?.journal ?? [], day) || ''
@@ -41,7 +44,7 @@ export function JournalEditSheet({ entry }: E<'journalEdit'>) {
     }
     back()
   }
-  const practices = active.content?.practices ?? []
+  const practices = active.content ? planForDay(active.content, day, { includeFood: includeFood }) : []
 
   return (
     <AppSheet entry={entry} look={active.look} title={t('journal.title')} leading="cancel" onCancel={back} onSave={save}>
@@ -59,7 +62,7 @@ export function JournalEditSheet({ entry }: E<'journalEdit'>) {
             <div style={{ font: '600 var(--fs-15) var(--font-sans)', marginTop: 24 }}>{t('journal.practicedToday')}</div>
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8, marginTop: 10 }}>
               {practices.map((p) => (
-                <Chip key={p.id} icon={p.icon} label={p.name} selected={done.practices.has(p.id)} onClick={() => useStore.getState().togglePractice(active.run.id, p.id)} />
+                <Chip key={p.id} icon={p.icon} label={p.lead ? `${t(`plan.lead.${p.lead}`)}: ${p.name}` : p.name} selected={done.practices.has(p.id)} onClick={() => useStore.getState().togglePractice(active.run.id, p.id)} />
               ))}
             </div>
           </>
@@ -78,9 +81,10 @@ export function MediaInfoSheet({ entry }: E<'mediaInfo'>) {
   const logs = useStore((x) => x.immerseLogs)
   const on = useMemo(() => (entry.runId ? immerseSet(logs, entry.runId).has(item.id) : false), [logs, entry.runId, item.id])
   const sub = item.kind === 'words' ? item.meta : [item.creator, item.year].filter(Boolean).join(', ')
+  const links = linksFor(item)
 
   return (
-    <AppSheet entry={entry} look={look} detent={0.72}>
+    <AppSheet entry={entry} look={look} detent={0.8}>
       <div style={{ padding: '4px 20px 40px' }}>
         <div className={`${g.miHero} ${o.themed}`}>
           <Glyph look={look} opacity={0.12} right={12} bottom={2} />
@@ -92,6 +96,21 @@ export function MediaInfoSheet({ entry }: E<'mediaInfo'>) {
         {item.extra && <div className={g.miExtra}>{item.extra}</div>}
         <p className={g.miWhy} data-selectable>{item.why || t('immersion.noNote')}</p>
         {item.unverified && <div className={g.tag} style={{ marginTop: 10, color: 'var(--label-tertiary)' }}>{t('guide.unverified')}</div>}
+        {links.length > 0 && (
+          <div className={g.miFind}>
+            <div className={g.miFindHead}>{t('immersion.find')}</div>
+            <div className={g.miLinks}>
+              {links.map((l) => (
+                <button key={l.label} type="button" className={g.miLink} onClick={() => openExternal(l.url)}>
+                  <Icon name={l.icon} weight="fill" size={16} />
+                  <span>{l.label}</span>
+                  <Icon name="arrow-up-right" weight="bold" size={12} />
+                </button>
+              ))}
+            </div>
+            <div className={g.miFindNote}>{t('immersion.findNote')}</div>
+          </div>
+        )}
         <div className={g.miActions}>
           {entry.runId && (
             <Button
@@ -142,6 +161,12 @@ export function PracticeInfoSheet({ entry }: E<'practiceInfo'>) {
       <div style={{ padding: '4px 16px 40px' }}>
         <OndaBanner icon={p?.icon ?? snap?.icon ?? 'circle'} kicker={index?.name} title={name} sub={p?.meta ?? snap?.time} />
         {!content && !snap && <div className={s.sub} style={{ textAlign: 'center', padding: 24 }}>{t('onda.loading')}</div>}
+        {entry.twist && (
+          <div className={`${o.howCard} ${o.howToday}`} data-selectable>
+            {head('sparkle', t('plan.todayHead'))}
+            {entry.twist}
+          </div>
+        )}
         {p?.instructions && (
           <div className={o.howCard} data-selectable>
             {head('play', t('onda.howTo'))}

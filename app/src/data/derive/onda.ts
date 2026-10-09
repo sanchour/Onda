@@ -36,7 +36,7 @@ export interface RunSummary {
 }
 
 /** Totals for the reflection screen: how much of the Onda was actually lived. */
-export function runSummary(run: OndaRun, practiceIds: string[], practiceLogs: PracticeLog[], journal: JournalEntry[], today: DateStr): RunSummary {
+export function runSummary(run: OndaRun, practiceIds: string[], practiceLogs: PracticeLog[], journal: JournalEntry[], today: DateStr, perDay = practiceIds.length): RunSummary {
   const perPractice: Record<string, number> = Object.fromEntries(practiceIds.map((id) => [id, 0]))
   let n = 0
   for (const l of practiceLogs) {
@@ -45,7 +45,7 @@ export function runSummary(run: OndaRun, practiceIds: string[], practiceLogs: Pr
     if (l.practiceId in perPractice) perPractice[l.practiceId]!++
   }
   const days = runDay(run, today)
-  const possible = days * practiceIds.length
+  const possible = days * perDay
   return {
     practiceCheckIns: n,
     practiceRate: possible ? Math.min(1, n / possible) : 0,

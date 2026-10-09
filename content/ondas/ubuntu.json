@@ -441,6 +441,34 @@
       "time": "17:30",
       "slot": "Afternoon",
       "action": "drink"
+    },
+    {
+      "id": "treat-wave-at-someone-across-the-street-and-mean-it",
+      "name": "Wave at someone across the street and mean it",
+      "meta": "See who waves back",
+      "time": "08:30",
+      "slot": "Morning"
+    },
+    {
+      "id": "treat-bring-something-small-for-everyone-at-the-table",
+      "name": "Bring something small for everyone at the table",
+      "meta": "Fruit, biscuits, tea",
+      "time": "15:30",
+      "slot": "Afternoon"
+    },
+    {
+      "id": "treat-sing-along-with-someone-badly-and-together",
+      "name": "Sing along with someone, badly and together",
+      "meta": "One song",
+      "time": "19:30",
+      "slot": "Evening"
+    },
+    {
+      "id": "treat-ask-someone-the-story-of-their-name",
+      "name": "Ask someone the story of their name",
+      "meta": "And tell yours",
+      "time": "15:30",
+      "slot": "Afternoon"
     }
   ],
   "rules": [
@@ -1038,7 +1066,7 @@
       },
       {
         "name": "Mogobe Ramose",
-        "dates": "",
+        "dates": "living",
         "bio": "South African philosopher. Author of African Philosophy through Ubuntu."
       }
     ],

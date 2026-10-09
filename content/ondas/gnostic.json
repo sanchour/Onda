@@ -446,6 +446,34 @@
       "time": "16:30",
       "slot": "Afternoon",
       "action": "art"
+    },
+    {
+      "id": "treat-stand-in-the-dark-for-a-minute-then-switch-on-one-light",
+      "name": "Stand in the dark for a minute, then switch on one light",
+      "meta": "Notice the moment",
+      "time": "19:30",
+      "slot": "Evening"
+    },
+    {
+      "id": "treat-look-at-your-own-hand-as-if-you-had-never-seen-one",
+      "name": "Look at your own hand as if you had never seen one",
+      "meta": "One minute",
+      "time": "15:30",
+      "slot": "Afternoon"
+    },
+    {
+      "id": "treat-read-a-road-sign-as-if-it-were-a-secret-message-for-you",
+      "name": "Read a road sign as if it were a secret message for you",
+      "meta": "Just for fun",
+      "time": "15:30",
+      "slot": "Afternoon"
+    },
+    {
+      "id": "treat-watch-dust-in-a-beam-of-sunlight",
+      "name": "Watch dust in a beam of sunlight",
+      "meta": "Sparks, if you like",
+      "time": "08:30",
+      "slot": "Morning"
     }
   ],
   "rules": [
@@ -555,7 +583,29 @@
         "why": "A film about a false world and awakening. Scholars have noted gnostic echoes. It is a modern work and not a source."
       }
     ],
-    "listen": [],
+    "listen": [
+      {
+        "id": "listen-in-our-time-gnosticism",
+        "title": "In Our Time: Gnosticism",
+        "creator": "BBC Radio 4, Melvyn Bragg",
+        "year": "2013",
+        "why": "Three scholars on who the Gnostics were, what the Nag Hammadi find changed, and why the word itself is now disputed."
+      },
+      {
+        "id": "listen-thunder-perfect-mind",
+        "title": "Thunder Perfect Mind",
+        "creator": "Current 93",
+        "year": "1992",
+        "why": "An album named after the Nag Hammadi poem in which a divine voice speaks in paradoxes. Listen after reading the poem itself."
+      },
+      {
+        "id": "listen-the-secret-history-of-western-esotericism-podcast",
+        "title": "The Secret History of Western Esotericism Podcast",
+        "creator": "Earl Fontainelle",
+        "year": "since 2017",
+        "why": "A long, careful series by a scholar. The episodes on the Gnostics and on Valentinus interview the people who edit the texts."
+      }
+    ],
     "art": [
       {
         "id": "art-abraxas-gems",
@@ -910,7 +960,7 @@
       },
       {
         "name": "Karen L. King",
-        "dates": "",
+        "dates": "born 1954",
         "bio": "Scholar of early Christianity whose What Is Gnosticism?, 2003, questioned the category."
       },
       {

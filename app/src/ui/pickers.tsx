@@ -180,3 +180,70 @@ export function WheelPicker({ columns, rowHeight = 36, visible = 5, style }: { c
     </div>
   )
 }
+
+/* ── DayScroller ──────────────────────────────────────────── */
+const CELL = 48 // px per number
+
+/** A small row of numbers that scrolls sideways and settles with one in the middle: the way every length in days is chosen.
+ *  It takes whatever width it is given, so a narrow phone shows three numbers and a wide one more. */
+export function DayScroller({ value, min, max, onChange, ariaLabel, style }: { value: number; min: number; max: number; onChange: (v: number) => void; ariaLabel?: string; style?: CSSProperties }) {
+  const ref = useRef<HTMLDivElement>(null)
+  const last = useRef(value)
+  const [v, setV] = useState(value)
+
+  useLayoutEffect(() => {
+    const el = ref.current
+    if (el) el.scrollLeft = (value - min) * CELL
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
+  // a value set from outside (a reset, a default that arrives late) moves the row too
+  useEffect(() => {
+    if (value === last.current) return
+    last.current = value
+    setV(value)
+    ref.current?.scrollTo({ left: (value - min) * CELL })
+  }, [value, min])
+
+  const pick = (nv: number) => {
+    if (nv === last.current) return
+    last.current = nv
+    setV(nv)
+    haptic('select')
+    onChange(nv)
+  }
+  const go = (nv: number) => {
+    const c = Math.max(min, Math.min(max, nv))
+    ref.current?.scrollTo({ left: (c - min) * CELL, behavior: 'smooth' })
+    pick(c)
+  }
+  const cells: number[] = []
+  for (let i = min; i <= max; i++) cells.push(i)
+
+  return (
+    <div className={s.dayWrap} style={style}>
+    <div
+      ref={ref}
+      className={`${s.dayScroll} hscroll`}
+      role="slider"
+      tabIndex={0}
+      aria-label={ariaLabel}
+      aria-valuemin={min}
+      aria-valuemax={max}
+      aria-valuenow={v}
+      onScroll={(e) => pick(Math.max(min, Math.min(max, Math.round(min + e.currentTarget.scrollLeft / CELL))))}
+      onKeyDown={(e) => {
+        if (e.key === 'ArrowRight' || e.key === 'ArrowUp') go(last.current + 1)
+        else if (e.key === 'ArrowLeft' || e.key === 'ArrowDown') go(last.current - 1)
+        else return
+        e.preventDefault()
+      }}
+    >
+      {cells.map((n) => (
+        <button key={n} type="button" tabIndex={-1} aria-hidden className={n === v ? `${s.dayCell} ${s.dayCellOn}` : s.dayCell} onClick={() => go(n)}>
+          {n}
+        </button>
+      ))}
+    </div>
+    </div>
+  )
+}

@@ -32,6 +32,12 @@
 .pRow{display:flex;align-items:center;gap:16px;padding:16px;background:var(--surface-card);border-radius:26px;width:100%;text-align:start}
 .pRow:active,.ruleRow:active,.taskRow:active{opacity:.7}
 .pRowSm{gap:14px;padding:12px 16px}
+.pWrap{position:relative}
+.howToday{background:color-mix(in srgb,var(--onda-solid) 30%,var(--surface-card))}
+.pRow.pRowOpen{padding-right:60px}
+.pOpen{position:absolute;right:12px;top:50%;transform:translateY(-50%);width:40px;height:40px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:color-mix(in srgb,var(--onda-solid,var(--surface-fill)) 34%,transparent);color:var(--onda-text,var(--label))}
+.pOpen:active{opacity:.6}
+.pTwist{font:400 var(--fs-13)/1.35 var(--font-sans);color:var(--onda-text,var(--label-secondary));margin-top:4px;font-style:italic}
 .holdHint{font:400 var(--fs-12)/1.3 var(--font-sans);color:var(--label-tertiary);text-align:center;padding:2px 12px 0}
 .howCard{position:relative;background:var(--surface-card);border-radius:22px;padding:16px 18px;margin-top:12px;font:400 var(--fs-16)/1.5 var(--font-sans);text-wrap:pretty;box-shadow:inset 0 0 0 1px color-mix(in srgb,var(--onda-strong) 16%,transparent)}
 .howHead{display:flex;align-items:center;gap:8px;font:600 var(--fs-13) var(--onda-font,var(--font-sans));letter-spacing:.06em;text-transform:uppercase;color:var(--onda-strong);margin-bottom:8px}
@@ -555,3 +561,42 @@ button.softCard{width:100%;text-align:start;display:block}
 [data-onda="celtic"]{--bar-h:8px}
 [data-onda="celtic"] .todayBar > [role=progressbar] > div{background:repeating-linear-gradient(60deg,var(--onda-strong) 0 6px,#C9A227 6px 9px,var(--onda-strong) 9px 15px,transparent 15px 17px) !important}
 [data-onda="celtic"] .pRow{border-radius:30px;box-shadow:inset 0 0 0 1.5px color-mix(in srgb,var(--onda-strong) 40%,transparent)}
+
+/* ── 5.2: Immerse made easy to take in. Today's pick on top, every kind on one screen, and a list without repeated pictures ── */
+.imToday{position:relative;overflow:hidden;display:flex;align-items:center;gap:14px;width:calc(100% - 32px);margin:16px 16px 0;padding:14px 16px 14px 14px;border-radius:var(--onda-radius,26px);text-align:start;box-shadow:inset 0 0 0 1px color-mix(in srgb,var(--onda-strong) 24%,transparent),0 12px 26px -18px color-mix(in srgb,var(--onda-strong) 70%,transparent)}
+.imToday:active{opacity:.8}
+.imTodayArt{flex:none;width:72px;height:72px;display:flex;align-items:center;justify-content:center;border-radius:var(--onda-radius-sm,17px);background:var(--onda-chip)}
+.imTodayArt svg{width:58px;height:40px}
+.imTodayText{flex:1;min-width:0;display:flex;flex-direction:column;gap:3px}
+.imTodayKicker{font:600 var(--fs-11)/1.2 var(--font-sans);letter-spacing:.08em;text-transform:uppercase;opacity:.75}
+.imTodayTitle{font:600 var(--fs-20)/1.15 var(--onda-font);letter-spacing:var(--onda-track,0);text-transform:var(--onda-case,none);text-wrap:balance;overflow-wrap:anywhere;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.imTodayMeta{font:400 var(--fs-13)/1.3 var(--font-sans);opacity:.75;display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden}
+.imAllHead{font:600 var(--fs-13) var(--font-sans);letter-spacing:.06em;text-transform:uppercase;color:var(--label-secondary);padding:22px 20px 0}
+.kindGrid{gap:10px;padding-top:10px}
+.kindTile{display:grid;grid-template-columns:52px minmax(0,1fr);grid-template-rows:auto auto;column-gap:12px;row-gap:1px;align-items:center;padding:10px 12px 10px 10px}
+.kindArt{grid-row:1 / 3;width:52px;height:52px;border-radius:var(--onda-radius-sm,15px)}
+.kindArt svg{width:42px;height:28px}
+.kindName{margin:0;align-self:end;font-size:var(--fs-17);overflow-wrap:anywhere}
+.kindCount{margin:0;align-self:start}
+.kindDots{display:none}
+.lib{grid-template-columns:minmax(0,1fr);gap:8px}
+.libCard{contain-intrinsic-size:auto 72px}
+.libOpen{min-height:0;display:grid;grid-template-columns:auto minmax(0,1fr);column-gap:14px;row-gap:2px;align-items:center;padding:13px 54px 13px 22px}
+.libNo{grid-row:1 / 3;min-height:0;min-width:42px;font-size:var(--fs-12)}
+.libArt{display:none}
+.libTitle{-webkit-line-clamp:2}
+.libBy{grid-column:2;-webkit-line-clamp:1}
+.libStamp{top:50%;right:6px;margin-top:-22px}
+
+/* ── 5.2: each Onda's page opens on a hero in its own fill, pattern and emblem, and letters its headings in its own face ── */
+.odHero{position:relative;overflow:hidden;margin:0 16px;padding:20px 20px 18px;border-radius:var(--onda-radius,26px);box-shadow:inset 0 0 0 1px color-mix(in srgb,var(--onda-strong) 24%,transparent),0 14px 28px -18px color-mix(in srgb,var(--onda-strong) 70%,transparent)}
+.odHero > *{position:relative}
+.odHero .odEmblem{position:absolute;right:-26px;top:-22px;opacity:.13;color:var(--onda-ink);pointer-events:none;transform:rotate(-8deg)}
+.odHero .odEmblem svg{stroke-width:1}
+.odHero .odTheme{color:inherit;opacity:.82}
+.odOrigin{font:600 var(--fs-12)/1.3 var(--font-sans);letter-spacing:.08em;text-transform:uppercase;opacity:.7;margin-top:12px}
+.odOrigin + .odTheme{margin-top:4px}
+.odOrn{display:flex;align-items:center;gap:12px;margin:26px 28px 0;color:var(--onda-text)}
+.odOrn i{flex:1;height:1.5px;background:linear-gradient(90deg,transparent,currentColor);opacity:.45}
+.odOrn i:last-child{background:linear-gradient(270deg,transparent,currentColor)}
+.odBody h2{font-family:var(--onda-font);font-weight:600;font-size:var(--fs-24);letter-spacing:var(--onda-track,0);text-transform:var(--onda-case,none)}

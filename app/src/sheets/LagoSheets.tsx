@@ -14,7 +14,8 @@ import { OndaBanner } from '@/screens/ondaShared'
 import o from '@/screens/ondas.module.css'
 import s from '@/screens/screens.module.css'
 import { Button, GlassButton } from '@/ui/buttons'
-import { SegmentedControl, Stepper } from '@/ui/controls'
+import { SegmentedControl } from '@/ui/controls'
+import { DayScroller } from '@/ui/pickers'
 import { Icon } from '@/ui/Icon'
 import { ListRow, ListSection } from '@/ui/lists'
 import { WheelPicker } from '@/ui/pickers'
@@ -199,7 +200,7 @@ export function LagoFormSheet({ entry }: E<'lagoForm'>) {
         <div className={s.card}>
           <div className={s.inlineRow} style={{ borderBottom: '1px solid var(--separator)' }}>
             <span>{t('common.lengthDays', { count: length })}</span>
-            <Stepper onDecrement={() => setLength((n) => Math.max(3, n - 1))} onIncrement={() => setLength((n) => Math.min(365, n + 1))} decrementDisabled={length <= 3} incrementDisabled={length >= 365} />
+            <DayScroller value={length} min={3} max={365} onChange={setLength} ariaLabel={t('common.lengthLabel')} />
           </div>
           <div style={{ padding: '12px 16px' }}>
             <SegmentedControl<Frequency> options={FREQS.map((f) => ({ value: f, label: t(`freq.${f}`) }))} value={freq} onChange={setFreq} fullWidth ariaLabel={t('lagoForm.schedule')} />

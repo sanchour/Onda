@@ -219,3 +219,11 @@ button.row:active{background:var(--separator)}
 .toggleAction{font:400 var(--fs-15) var(--font-sans);color:var(--accent)}
 button.toggleAction::after{content:"";position:absolute;inset:-12px -6px}
 
+
+/* DayScroller: a small sideways row of numbers with the chosen one in the middle */
+.dayWrap{flex:1;min-width:0;max-width:260px;margin-left:auto;padding-left:10px}
+.dayScroll{display:flex;align-items:center;overflow-x:auto;overflow-y:hidden;scroll-snap-type:x mandatory;scrollbar-width:none;padding:4px calc(50% - 24px);touch-action:pan-x;-webkit-mask-image:linear-gradient(90deg,transparent,#000 22%,#000 78%,transparent);mask-image:linear-gradient(90deg,transparent,#000 22%,#000 78%,transparent);outline:none}
+.dayScroll::-webkit-scrollbar{display:none}
+.dayCell{flex:none;width:48px;height:40px;scroll-snap-align:center;display:flex;align-items:center;justify-content:center;border-radius:14px;font:500 var(--fs-17) var(--font-sans);font-variant-numeric:tabular-nums;color:var(--label-tertiary);transition:background var(--duration-fast,.15s),color var(--duration-fast,.15s)}
+.dayCellOn{background:var(--onda-deep,var(--accent));color:var(--onda-on,var(--accent-contrast));font-weight:700}
+.dayScroll:focus-visible .dayCellOn{box-shadow:0 0 0 3px color-mix(in srgb,var(--accent) 35%,transparent)}

@@ -9,7 +9,7 @@ import { useNav, type SheetEntry } from '@/nav/store'
 import o from '@/screens/ondas.module.css'
 import s from '@/screens/screens.module.css'
 import { GlassButton } from '@/ui/buttons'
-import { Stepper } from '@/ui/controls'
+import { DayScroller } from '@/ui/pickers'
 import { Icon } from '@/ui/Icon'
 import { AppSheet, useSheet } from './common'
 
@@ -133,7 +133,7 @@ export function CreateOndaSheet({ entry }: { entry: Extract<SheetEntry, { name: 
           </div>
           <div className={s.inlineRow}>
             <span>{t('common.lengthDays', { count: length })}</span>
-            <Stepper onDecrement={() => setLength((n) => Math.max(7, n - 1))} onIncrement={() => setLength((n) => Math.min(30, n + 1))} decrementDisabled={length <= 7} incrementDisabled={length >= 30} />
+            <DayScroller value={length} min={7} max={30} onChange={setLength} ariaLabel={t('common.lengthLabel')} />
           </div>
         </div>
 

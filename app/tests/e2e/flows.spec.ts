@@ -26,7 +26,9 @@ test.describe('Onboarding and paywall', () => {
     await tap(page, 'Get Started')
 
     await expect(page.getByRole('heading', { name: 'Ondas+' })).toBeVisible()
-    await expect(page.getByText('7 days free, then lifetime access for just € 14,99')).toBeVisible()
+    await expect(page.getByText('7 days free, then € 2,49 a month or € 24,99 for life')).toBeVisible()
+    await expect(page.getByRole('radio', { name: /Monthly € 2,49/ })).toBeVisible()
+    await expect(page.getByRole('radio', { name: /Lifetime € 24,99/ })).toBeChecked()
     await tap(page, 'Start Free Trial')
 
     // Lands on the Ondas tab, not inside the Onda
@@ -57,6 +59,18 @@ test.describe('Ondas+ beta placeholder', () => {
     await expect(page.getByText('Lifetime unlocked (beta)')).toBeVisible()
     await settle(page, 900)
     await expect(page.getByRole('button', { name: /Ondas\+.*Lifetime/s })).toBeVisible()
+  })
+
+  test('5.2: the monthly plan can be chosen instead, and unlocks the same', async ({ page }) => {
+    await seedDemo(page)
+    await tap(page, 'Settings')
+    await page.getByRole('button', { name: /Ondas\+.*Start Free Trial/s }).click()
+    await settle(page)
+    await tap(page, /Monthly € 2,49/, 'radio')
+    await tap(page, /Subscribe · € 2,49 a month/)
+    await expect(page.getByText('Ondas+ is on. Thank you.')).toBeVisible()
+    await settle(page, 900)
+    await expect(page.getByRole('button', { name: /Ondas\+.*Monthly/s })).toBeVisible()
   })
 })
 
@@ -126,12 +140,10 @@ test.describe('Update 1.3', () => {
 })
 
 test.describe('Update 1.4', () => {
-  test('opens on the Ondas tab; Practices then Tasks; tasks have a bar and a shortcut', async ({ page }) => {
+  test('opens on the Ondas tab; since 5.2 practices and tasks are one list, and a practice can open the Journal', async ({ page }) => {
     await seedDemo(page)
-    const seg = page.getByRole('tab', { name: /^(Practices|Tasks|Rules)$/ })
-    expect(await seg.allTextContents()).toEqual(['Practices', 'Tasks'])
-    await page.getByRole('tab', { name: 'Tasks', exact: true }).click()
-    await expect(page.getByText(/of 8 tasks/)).toBeVisible()
+    await expect(page.getByRole('tab', { name: /^(Practices|Tasks|Rules)$/ })).toHaveCount(0)
+    await expect(page.getByText('2 of 5 practices')).toBeVisible()
     await page.getByRole('button', { name: /Open Journal/ }).first().click()
     await expect(page.getByRole('heading', { name: 'Journal' })).toBeVisible() // a full page, not a sheet
     await expect(page.getByRole('dialog')).toHaveCount(0)
@@ -295,7 +307,7 @@ test.describe('Lagos', () => {
     const form = page.getByRole('dialog', { name: 'New Lago' })
     await form.getByRole('textbox', { name: 'Name' }).fill('Read 20 pages')
     await form.getByRole('radio', { name: 'Icon 6' }).click()
-    await form.getByRole('button', { name: 'Decrease' }).click()
+    await form.getByRole('slider').press('ArrowLeft')
     await expect(form.getByText('Length: 29 days')).toBeVisible()
     await tap(page, 'Save')
     await expect(page.getByRole('button', { name: /Read 20 pages, day 1 of 29/ })).toBeVisible()
@@ -317,11 +329,16 @@ test.describe('Ondas', () => {
   test('Ondas tab: banner, four tiles, and Today with one list at a time', async ({ page }) => {
     await expect(page.getByText('2 of 5 practices')).toBeVisible()
     for (const tile of ['Immerse', 'Journal', 'Philosophy', 'Rules']) await expect(page.getByRole('button', { name: tile, exact: true })).toBeVisible()
-    await tap(page, 'Voluntary discomfort Midday · Fast or go without', 'checkbox')
+    // day 4 of Stoicism: one practice for the morning, the afternoon and the evening, one small extra, and one to take in
+    await expect(page.getByRole('checkbox', { name: /^Cold shower/ })).toBeChecked()
+    await expect(page.getByRole('checkbox', { name: /^Cold shower/ })).toContainText('Today: ')
+    await tap(page, /^Dichotomy check/, 'checkbox')
     await expect(page.getByText('3 of 5 practices')).toBeVisible()
-    await tap(page, 'Tasks', 'tab')
-    await expect(page.getByRole('checkbox', { name: /Morning premeditation/ })).toHaveCount(0)
-    await expect(page.getByRole('checkbox', { name: /Read one Letter from Seneca/ })).toBeVisible()
+    await expect(page.getByRole('checkbox', { name: /^Look at: Equestrian statue of Marcus Aurelius/ })).toBeVisible()
+    // the immerse practice opens the piece itself, with places to find it
+    await page.getByRole('button', { name: /^Open: Look at: Equestrian statue/ }).click()
+    await expect(page.getByText('Find it')).toBeVisible()
+    await expect(page.getByRole('button', { name: /Wikimedia Commons/ })).toBeVisible()
   })
 
   test('Rules can be kept on their own page; Journal and Philosophy are full pages; the Onda card opens the full guide', async ({ page }) => {
@@ -360,7 +377,8 @@ test.describe('Ondas', () => {
     await expect(page.getByText('Today: Premeditation of evils')).toBeVisible()
     await expect(page.getByText('Quote of the day')).toBeVisible()
     await expect(page.getByText('Word of the day')).toBeVisible()
-    for (const s of ['Practices', 'Rules', 'Tasks', 'Immerse', 'Think about']) await expect(page.getByRole('heading', { name: s, exact: true })).toBeVisible()
+    await expect(page.getByRole('heading', { name: 'Tasks', exact: true })).toHaveCount(0)
+    for (const s of ['Practices', 'Rules', 'Immerse', 'Think about']) await expect(page.getByRole('heading', { name: s, exact: true })).toBeVisible()
 
     await page.getByRole('button', { name: /Full guide Context, history/ }).click()
     // The guide is a full page now, with its own back button
@@ -434,7 +452,7 @@ test.describe('Ondas', () => {
     // Run-only links are hidden in preview
     await expect(page.getByRole('button', { name: 'See All' })).toHaveCount(0)
     await expect(page.getByRole('button', { name: /Final reflection/ })).toHaveCount(0)
-    await tap(page, 'Increase')
+    await page.getByRole('slider').press('ArrowRight')
     await expect(page.getByText('Length: 15 days')).toBeVisible()
     await tap(page, 'Begin Onda')
     await expect(page.getByRole('heading', { name: 'Day 1 of 15' })).toBeVisible()
@@ -619,10 +637,10 @@ test.describe('Update 5.0', () => {
     await expect(row).toHaveAttribute('aria-checked', before ?? 'false')
   })
 
-  test('Settings shows version 5.1; switching light and dark repaints the top strip, reloads once and returns to the same screen', async ({ page }) => {
+  test('Settings shows version 5.2; switching light and dark repaints the top strip, reloads once and returns to the same screen', async ({ page }) => {
     await seedDemo(page)
     await tap(page, 'Settings')
-    await expect(page.getByText('Onda 5.1')).toBeVisible()
+    await expect(page.getByText('Onda 5.2')).toBeVisible()
     const bar = () =>
       page.evaluate(() => {
         const strip = document.getElementById('status-strip')!

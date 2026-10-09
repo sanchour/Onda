@@ -1,31 +1,29 @@
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { BROWSE_GROUPS, COMING_SOON, GROUP_OF } from '@/content/browse'
+import { planForDay, type DayPractice } from '@/data/derive/plan'
 import { useLookFn, useOndaList, useSettings } from '@/data/hooks'
 import { columnWidth, fitSize } from '@/lib/fit'
 import { useStore } from '@/data/store'
 import { BackButton, Screen } from '@/nav/Screen'
 import { useNav } from '@/nav/store'
 import { Button, GlassButton } from '@/ui/buttons'
-import { SegmentedControl } from '@/ui/controls'
 import { ProgressBar } from '@/ui/data'
 import { Icon } from '@/ui/Icon'
 import { SectionToggle } from '@/ui/lists'
-import { DayBar, OrnDivider, PracticeRow, TasksList, guardCreateOnda, nameSize, useActiveOnda, useRunToday } from './ondaShared'
+import { DayBar, OrnDivider, PlanList, guardCreateOnda, nameSize, useActiveOnda, useRunToday } from './ondaShared'
 import o from './ondas.module.css'
 import s from './screens.module.css'
 
-type Seg = 'practices' | 'tasks'
-
-/** Ondas tab: the running Onda's banner, four shortcuts, then Today with one list at a time. */
+/** Ondas tab: the running Onda's banner, four shortcuts, then today's practices. */
 export default function OndasTab() {
   const { t } = useTranslation()
   const { push, openSheet } = useNav()
   const active = useActiveOnda()
-  const themed = useSettings().ondaThemes
+  const settings = useSettings()
+  const themed = settings.ondaThemes
   const done = useRunToday(active?.run.id)
-  const [seg, setSeg] = useState<Seg>('practices')
-  const { togglePractice, toggleItem } = useStore.getState()
+  const { togglePractice } = useStore.getState()
 
   const header = (
     <div className={s.titleRow}>
@@ -58,11 +56,12 @@ export default function OndasTab() {
   }
 
   const { run, content, look, day, index } = active
-  const practices = content?.practices ?? run.snapshot?.practices.map((p) => ({ ...p, meta: p.time })) ?? []
-  const pDone = practices.filter((p) => done.practices.has(p.id)).length
-  const tasks = content?.tasks ?? []
-  const tDone = tasks.filter((x) => done.tasks.has(x.id)).length
-  const bar = seg === 'practices' ? { n: pDone, total: practices.length, key: 'practicesOf' } : { n: tDone, total: tasks.length, key: 'tasksOf' }
+  // until the content file has loaded, the run's own snapshot keeps the list from being empty
+  const plan: DayPractice[] = content
+    ? planForDay(content, day, { includeFood: settings.includeFood })
+    : (run.snapshot?.practices ?? []).slice(0, 4).map((p) => ({ id: p.id, kind: 'practice', name: p.name, icon: p.icon, meta: p.time, slot: 'Morning', time: p.time }))
+  const pDone = plan.filter((p) => done.practices.has(p.id)).length
+  const bar = { n: pDone, total: plan.length, key: 'practicesOf' }
   const name = index?.name ?? run.snapshot?.name ?? ''
   const quick: [string, string, () => void][] = [
     ['headphones', t('ondas.immerse'), () => push({ name: 'immersion' })],
@@ -106,25 +105,9 @@ export default function OndasTab() {
             <ProgressBar value={bar.total ? bar.n / bar.total : 0} tone="var(--onda-strong)" height={8} label={t(`ondas.${bar.key}`, { done: bar.n, total: bar.total })} />
           </div>
         </div>
-        <div style={{ padding: '16px 16px 0' }}>
-          <SegmentedControl<Seg>
-            options={[{ value: 'practices', label: t('ondas.practices') }, { value: 'tasks', label: t('ondas.tasks') }]}
-            value={seg}
-            onChange={setSeg}
-            fullWidth
-            ariaLabel={t('ondas.today')}
-          />
-        </div>
-        <div style={{ paddingTop: 14 }}>
-          {seg === 'practices' && (
-            <div className={s.stack14}>
-              {practices.map((p) => (
-                <PracticeRow key={p.id} p={p} done={done.practices.has(p.id)} onToggle={() => togglePractice(run.id, p.id)} info={{ ondaId: run.ondaId, style: look.vars, onda: themed ? run.ondaId : undefined }} />
-              ))}
-              {practices.length > 0 && <div className={o.holdHint}>{t('onda.holdHint')}</div>}
-            </div>
-          )}
-          {seg === 'tasks' && <TasksList tasks={tasks} done={done.tasks} go onToggle={(id) => toggleItem('taskLogs', run.id, id)} />}
+        <div className={s.stack14} style={{ paddingTop: 18 }}>
+          <PlanList plan={plan} done={done.practices} onToggle={(id) => togglePractice(run.id, id)} runId={run.id} info={{ ondaId: run.ondaId, style: look.vars, onda: themed ? run.ondaId : undefined }} />
+          {plan.length > 0 && <div className={o.holdHint}>{t('onda.holdHint')}</div>}
         </div>
       </div>
       </div>

@@ -3,11 +3,14 @@ import { now } from '@/lib/dates'
 import { backendConfigured, callFunction } from './supabase'
 
 interface ServerEntitlement {
-  plus: 'none' | 'trial' | 'lifetime'
+  plus: 'none' | 'trial' | 'monthly' | 'lifetime'
   trialStartedAt: string | null
 }
 
-/** Ondas+ is a placeholder during the beta: "Buy lifetime" unlocks on the device and nothing is charged.
+export type PlusPlan = 'monthly' | 'lifetime'
+export const paid = (p: string | undefined | null): p is PlusPlan => p === 'monthly' || p === 'lifetime'
+
+/** Ondas+ is a placeholder during the beta: buying unlocks on the device and nothing is charged.
  *  Set VITE_PAYMENTS=live at build time to use the real Stripe Checkout flow instead. */
 export const BETA_PAYMENTS = import.meta.env.VITE_PAYMENTS !== 'live'
 
@@ -17,7 +20,7 @@ const apply = (e: ServerEntitlement) => useStore.getState().setEntitlement({ plu
  *  by reinstalling); in local mode it is recorded on the device. Returns false if a trial was already used. */
 export async function startTrial(): Promise<boolean> {
   const user = useStore.getState().user
-  if (user?.trialStartedAt || user?.plus === 'lifetime') return false
+  if (user?.trialStartedAt || paid(user?.plus)) return false
   if (backendConfigured && navigator.onLine) {
     try {
       apply(await callFunction<ServerEntitlement>('entitlement', { body: { action: 'start-trial' } }))
@@ -36,8 +39,8 @@ export async function refreshEntitlement(): Promise<ServerEntitlement | null> {
   try {
     const e = await callFunction<ServerEntitlement>('entitlement', { body: { action: 'status' } })
     const u = useStore.getState().user
-    // A lifetime unlock made in the beta is never taken back by a server that has no purchase on record.
-    if (BETA_PAYMENTS && u?.plus === 'lifetime' && e.plus !== 'lifetime') return e
+    // An unlock made in the beta is never taken back by a server that has no purchase on record.
+    if (BETA_PAYMENTS && paid(u?.plus) && !paid(e.plus)) return e
     if (u && (u.plus !== e.plus || (u.trialStartedAt ?? null) !== e.trialStartedAt)) apply(e)
     return e
   } catch {
@@ -45,16 +48,16 @@ export async function refreshEntitlement(): Promise<ServerEntitlement | null> {
   }
 }
 
-/** Lifetime purchase: Stripe Checkout (one-time price). The webhook sets plus = 'lifetime' on the account.
- *  In the beta (see BETA_PAYMENTS) this is a placeholder that unlocks immediately. */
-export async function startCheckout(): Promise<'redirected' | 'granted' | 'unavailable'> {
+/** Buying Ondas+: Stripe Checkout, either the monthly subscription (€ 2,49) or the one-time lifetime price (€ 24,99).
+ *  The webhook sets plus on the account. In the beta (see BETA_PAYMENTS) this is a placeholder that unlocks immediately. */
+export async function startCheckout(plan: PlusPlan = 'lifetime'): Promise<'redirected' | 'granted' | 'unavailable'> {
   if (BETA_PAYMENTS) {
-    useStore.getState().setEntitlement({ plus: 'lifetime' })
+    useStore.getState().setEntitlement({ plus: plan })
     return 'granted'
   }
   if (!backendConfigured || !navigator.onLine) return 'unavailable'
   try {
-    const { url } = await callFunction<{ url: string }>('stripe-checkout', { body: { returnUrl: window.location.origin + import.meta.env.BASE_URL } })
+    const { url } = await callFunction<{ url: string }>('stripe-checkout', { body: { plan, returnUrl: window.location.origin + import.meta.env.BASE_URL } })
     window.location.assign(url)
     return 'redirected'
   } catch (e) {

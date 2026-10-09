@@ -20,13 +20,24 @@ interface ScreenProps {
   dataOnda?: string
 }
 
+/** Once the page has moved under the floating title, the title gets a glass backing so text does not run through it. */
+function markScrolled(e: React.UIEvent<HTMLDivElement>) {
+  const screen = e.currentTarget.parentElement
+  if (!screen) return
+  const on = e.currentTarget.scrollTop > 6
+  if ((screen.dataset.scrolled === '1') !== on) {
+    if (on) screen.dataset.scrolled = '1'
+    else delete screen.dataset.scrolled
+  }
+}
+
 const PAD = { root: s.padRoot, page: s.padPage, cta: s.padPageCta, hero: s.padHero, bare: '' }
 
 /** Page scaffold: one scroll pane, floating chrome above it, optional fixed bottom actions. Safe areas handled here. */
 export function Screen({ variant = 'page', bg = 'grouped', chrome, bottom, bottomRow, children, style, scrollRef, dataOnda }: ScreenProps) {
   return (
     <div className={`${s.screen} ${bg === 'page' ? s.bgPage : s.bgGrouped}`}>
-      <div ref={scrollRef} className={`scroll ${s.pane} ${PAD[variant]}`} style={style} data-onda={dataOnda}>
+      <div ref={scrollRef} className={`scroll ${s.pane} ${PAD[variant]}`} style={style} data-onda={dataOnda} onScroll={markScrolled}>
         {children}
       </div>
       {chrome && <div className={s.chrome}>{chrome}</div>}

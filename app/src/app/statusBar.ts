@@ -112,9 +112,20 @@ export function barChanged(bg: string, dark: boolean) {
   if (current.dark !== launch.dark) setTimeout(() => stale() && current.dark !== launch.dark && idle() && void reload(), 350)
 }
 
+let leaving = false
+let pickerAt = 0
+
 if (typeof document !== 'undefined') {
+  // The page is being left for another one (a consent page, a checkout): a reload now would cancel that.
+  window.addEventListener('pagehide', () => (leaving = true))
+  window.addEventListener('pageshow', () => (leaving = false))
+  // A file or photo picker can put the page in the background while it is open. Its result must not be lost.
+  document.addEventListener('click', (e) => (e.target as HTMLElement | null)?.closest?.('input[type=file],label') && (pickerAt = Date.now()), true)
   document.addEventListener('visibilitychange', () => {
-    if (document.visibilityState === 'hidden' && armed && stale() && idle()) void reload()
+    if (document.visibilityState !== 'hidden' || !armed) return
+    setTimeout(() => {
+      if (!leaving && document.visibilityState === 'hidden' && armed && stale() && idle() && Date.now() - pickerAt > 120_000) void reload()
+    }, 250)
   })
 }
 

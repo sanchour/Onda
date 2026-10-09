@@ -19,7 +19,9 @@
 
 .chrome{position:absolute;top:var(--chrome-top);left:calc(16px + var(--sal));right:calc(16px + var(--sar));display:flex;align-items:center;justify-content:space-between;z-index:40;pointer-events:none}
 .chrome > *{pointer-events:auto}
-.chromeTitle{position:absolute;left:60px;right:60px;text-align:center;font:600 var(--fs-17) var(--font-sans);pointer-events:none;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin:0}
+.chromeTitle{position:absolute;left:50%;transform:translateX(-50%);max-width:calc(100% - 124px);box-sizing:border-box;padding:9px 16px;border-radius:999px;border:1px solid transparent;text-align:center;font:600 var(--fs-17) var(--font-sans);pointer-events:none;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin:0;transition:background-color var(--duration-small,160ms) ease,border-color var(--duration-small,160ms) ease}
+/* Scrolled: content passes under the title, so it gets the same glass as the buttons beside it */
+.screen[data-scrolled] .chromeTitle{background:var(--glass-fill-menu);border:var(--glass-border);-webkit-backdrop-filter:var(--glass-blur);backdrop-filter:var(--glass-blur);box-shadow:var(--glass-highlight)}
 .chromeGroup{display:flex;gap:10px}
 .spacer44{width:44px;height:44px}
 

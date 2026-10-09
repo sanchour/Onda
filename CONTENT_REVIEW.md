@@ -965,3 +965,35 @@ Caveats shown in the app:
 - Rites of initiation, healing and the ancestors belong to particular communities and are not practices for outsiders.
 
 Nothing is marked `unverified`.
+
+
+## Khmer Empire
+
+File: `content/ondas/khmer.json` · version 1 · about 5200 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
+
+**Needs review by tradition bearers before launch.** The Khmer Empire is the past of a living nation, and its temples are places of worship today. This Onda was written by outsiders from published sources and draws on the public record of Jayavarman VII and on everyday Cambodian Buddhist custom. It should be reviewed by Cambodian readers.
+
+Caveats shown in the app:
+
+- Angkor was built by forced labour and slavery, and its kings waged constant war. The practices here take up its ideals of care, not its methods.
+- Cambodians lived through genocide between 1975 and 1979, in which about a quarter of the population died. Many of those who kept the arts alive were among the dead.
+- A great deal of Khmer sculpture was looted and sold abroad. Museums are still returning it. Buy nothing old.
+- If you visit, the temples are sacred. Dress modestly, do not climb or touch the carvings, and do not pose with or touch monks.
+
+Nothing is marked `unverified`.
+
+
+## Celtic
+
+File: `content/ondas/celtic.json` · version 1 · about 5200 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
+
+**Needs review by tradition bearers before launch.** The Celtic languages and their communities are alive, and each of the six nations has its own history. This Onda was written from published sources and keeps to what is attested in old texts and living custom. Speakers of the languages are invited to correct it.
+
+Caveats shown in the app:
+
+- Much popular Celtic spirituality is modern. The tree calendar, most druid ritual and the eightfold wheel of the year date from the eighteenth to the twentieth centuries.
+- Almost everything written about the ancient druids comes from Greek and Roman authors, some of them enemies. Very little is certain.
+- Whether the peoples of ancient Britain and Ireland should be called Celts at all is debated by scholars. The shared family of languages is not in doubt.
+- The languages were suppressed for centuries and are still under pressure. Pronunciations given here are rough guides and vary by dialect.
+
+Nothing is marked `unverified`.

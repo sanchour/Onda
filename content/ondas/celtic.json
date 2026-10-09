@@ -1,0 +1,1292 @@
+{
+  "version": 1,
+  "id": "celtic",
+  "name": "Celtic",
+  "origin": "Atlantic Europe",
+  "era": "From about 800 BC to today",
+  "tone": "green",
+  "icon": "spiral",
+  "font": "uncial-antiqua",
+  "pattern": "knot-weave",
+  "glyph": "Awen",
+  "line": "Bless the first act of the day, learn a poem by heart, know the story of your place and gather in the evening.",
+  "quote": {
+    "text": "People live in each other’s shelter.",
+    "by": "Irish proverb",
+    "source": "Ar scáth a chéile a mhaireann na daoine"
+  },
+  "quotes": [
+    {
+      "text": "There is no strength without unity.",
+      "by": "Irish proverb",
+      "source": "Ní neart go cur le chéile"
+    },
+    {
+      "text": "Two people shorten the road.",
+      "by": "Irish proverb",
+      "source": "Giorraíonn beirt bóthar"
+    },
+    {
+      "text": "A nation without a language is a nation without a heart.",
+      "by": "Welsh proverb",
+      "source": "Cenedl heb iaith, cenedl heb galon"
+    },
+    {
+      "text": "Better broken Gaelic than Gaelic in the coffin.",
+      "by": "Scottish Gaelic proverb",
+      "source": "Is fheàrr Gàidhlig bhriste na Gàidhlig sa chiste"
+    },
+    {
+      "text": "Three candles that illumine every darkness: truth, nature, knowledge.",
+      "by": "The Triads of Ireland",
+      "source": "A collection of about the ninth century, translated by Kuno Meyer, 1906"
+    },
+    {
+      "text": "I am the wind on the sea.",
+      "by": "The Song of Amergin",
+      "source": "Am gaeth i m-muir. The first line of the poem said to have been spoken by the poet Amergin as he set foot in Ireland; from the Book of Invasions, compiled in the eleventh century"
+    }
+  ],
+  "words": [
+    {
+      "id": "word-cead-mile-failte",
+      "term": "Céad míle fáilte",
+      "meaning": "A hundred thousand welcomes",
+      "pronunciation": "kayd MEE-leh FAWL-cheh",
+      "language": "Irish",
+      "usage": "The traditional greeting to a guest. Hospitality was a duty in early Irish law, and to refuse it brought dishonour."
+    },
+    {
+      "id": "word-dia-dhuit",
+      "term": "Dia dhuit",
+      "meaning": "Hello; God be with you",
+      "pronunciation": "DEE-ah gwit",
+      "language": "Irish",
+      "usage": "The reply goes one better: Dia is Muire dhuit, God and Mary be with you."
+    },
+    {
+      "id": "word-go-raibh-maith-agat",
+      "term": "Go raibh maith agat",
+      "meaning": "Thank you",
+      "pronunciation": "guh rev MAH ah-gut",
+      "language": "Irish",
+      "usage": "Literally, may good be with you."
+    },
+    {
+      "id": "word-slainte",
+      "term": "Sláinte",
+      "meaning": "Health",
+      "pronunciation": "SLAWN-cheh",
+      "language": "Irish",
+      "usage": "Said when raising a glass. Slàinte mhath in Scottish Gaelic and iechyd da in Welsh say the same."
+    },
+    {
+      "id": "word-craic",
+      "term": "Craic",
+      "meaning": "Good talk and good company",
+      "pronunciation": "KRAK",
+      "language": "Irish",
+      "usage": "Fun, news and banter. What was the craic asks how an evening went."
+    },
+    {
+      "id": "word-ceili",
+      "term": "Céilí",
+      "meaning": "A visit; a gathering with music and dance",
+      "pronunciation": "KAY-lee",
+      "language": "Irish",
+      "usage": "Once simply an evening call on neighbours, with stories and songs by the fire. Cèilidh in Scottish Gaelic."
+    },
+    {
+      "id": "word-seanchai",
+      "term": "Seanchaí",
+      "meaning": "A bearer of old lore",
+      "pronunciation": "SHAN-ah-khee",
+      "language": "Irish",
+      "usage": "A storyteller who carries the history, genealogy and tales of a district in memory."
+    },
+    {
+      "id": "word-meitheal",
+      "term": "Meitheal",
+      "meaning": "A work party of neighbours",
+      "pronunciation": "MEH-hul",
+      "language": "Irish",
+      "usage": "Households join to bring in each other’s hay or turf in turn. No money changes hands."
+    },
+    {
+      "id": "word-anam-cara",
+      "term": "Anam cara",
+      "meaning": "Soul friend",
+      "pronunciation": "AH-num KAH-rah",
+      "language": "Irish",
+      "usage": "In the early Irish church, the person to whom you opened your whole heart. A saying held that anyone without one is a body without a head."
+    },
+    {
+      "id": "word-duchas",
+      "term": "Dúchas",
+      "meaning": "Heritage; native place; what is in the blood",
+      "pronunciation": "DOO-khus",
+      "language": "Irish",
+      "usage": "The tie between a person, their people and the land they come from."
+    },
+    {
+      "id": "word-dinnseanchas",
+      "term": "Dinnseanchas",
+      "meaning": "The lore of places",
+      "pronunciation": "DIN-shan-ah-khus",
+      "language": "Irish",
+      "usage": "The body of stories that explain how each hill, ford and plain got its name. A poet was expected to know them all."
+    },
+    {
+      "id": "word-tuath",
+      "term": "Tuath",
+      "meaning": "A people; a small kingdom",
+      "pronunciation": "TOO-ah",
+      "language": "Old Irish",
+      "usage": "Early Ireland had about a hundred and fifty, each with its own king, assembly and poets."
+    },
+    {
+      "id": "word-fili",
+      "term": "Fili",
+      "meaning": "A poet and seer",
+      "pronunciation": "FIL-ee",
+      "language": "Old Irish",
+      "usage": "A member of the learned class, trained for up to twelve years, whose praise made a king’s name and whose satire could ruin it."
+    },
+    {
+      "id": "word-geis",
+      "term": "Geis",
+      "meaning": "A binding prohibition",
+      "pronunciation": "GESH",
+      "language": "Old Irish",
+      "usage": "A personal taboo laid on a hero. To break it brings ruin, and the old tales turn on the moment it is broken."
+    },
+    {
+      "id": "word-imbas",
+      "term": "Imbas",
+      "meaning": "Inspiration that illuminates",
+      "pronunciation": "IM-bus",
+      "language": "Old Irish",
+      "usage": "The poet’s gift of seeing. It was sought by hazelnuts of wisdom, by sleep and by darkness."
+    },
+    {
+      "id": "word-awen",
+      "term": "Awen",
+      "meaning": "Poetic inspiration",
+      "pronunciation": "AH-wen",
+      "language": "Welsh",
+      "usage": "The breath that makes a poet. The bards said it came from the cauldron of the goddess Ceridwen."
+    },
+    {
+      "id": "word-hiraeth",
+      "term": "Hiraeth",
+      "meaning": "Longing for home",
+      "pronunciation": "HEER-eyeth",
+      "language": "Welsh",
+      "usage": "Homesickness mixed with grief for a place or time that may no longer exist."
+    },
+    {
+      "id": "word-hwyl",
+      "term": "Hwyl",
+      "meaning": "Spirit; gusto",
+      "pronunciation": "HOO-eel",
+      "language": "Welsh",
+      "usage": "The lift that carries a preacher, a singer or a crowd. Also an everyday goodbye."
+    },
+    {
+      "id": "word-cynefin",
+      "term": "Cynefin",
+      "meaning": "The place where one belongs",
+      "pronunciation": "kuh-NEV-in",
+      "language": "Welsh",
+      "usage": "First the patch of hill a flock knows as its own, then the surroundings in which a person feels at home."
+    },
+    {
+      "id": "word-cwtch",
+      "term": "Cwtch",
+      "meaning": "A hug; a safe small place",
+      "pronunciation": "KUTCH",
+      "language": "Welsh",
+      "usage": "Both the embrace and the cupboard under the stairs."
+    },
+    {
+      "id": "word-croeso",
+      "term": "Croeso",
+      "meaning": "Welcome",
+      "pronunciation": "KROY-so",
+      "language": "Welsh",
+      "usage": "Thank you is diolch."
+    },
+    {
+      "id": "word-eisteddfod",
+      "term": "Eisteddfod",
+      "meaning": "A sitting; a festival of poetry and music",
+      "pronunciation": "eye-STETH-vod",
+      "language": "Welsh",
+      "usage": "A competitive gathering of poets and musicians, first recorded at Cardigan in 1176. The winning poet is seated in a carved chair."
+    },
+    {
+      "id": "word-druid",
+      "term": "Druid",
+      "meaning": "One of the learned priestly class",
+      "pronunciation": "DROO-id",
+      "language": "From Gaulish",
+      "usage": "Judges, teachers and keepers of ritual among the ancient Celts. The name probably means oak-knower."
+    },
+    {
+      "id": "word-bard",
+      "term": "Bard",
+      "meaning": "A poet and singer",
+      "pronunciation": "BARD",
+      "language": "From Gaulish",
+      "usage": "The Greek writers listed three learned orders among the Gauls: bards, seers and druids."
+    },
+    {
+      "id": "word-nemeton",
+      "term": "Nemeton",
+      "meaning": "A sacred grove",
+      "pronunciation": "NEM-eh-ton",
+      "language": "Gaulish",
+      "usage": "A clearing or wood set apart for the gods. The word survives in place names from Spain to Turkey."
+    },
+    {
+      "id": "word-ogham",
+      "term": "Ogham",
+      "meaning": "The early Irish alphabet",
+      "pronunciation": "OH-um",
+      "language": "Irish",
+      "usage": "Groups of strokes cut along the edge of a standing stone, used from about the fourth century for names of the dead."
+    },
+    {
+      "id": "word-samhain",
+      "term": "Samhain",
+      "meaning": "The festival at the start of winter",
+      "pronunciation": "SOW-in",
+      "language": "Irish",
+      "usage": "The night of 31 October, when the old year ended and the boundary with the otherworld was thin. The origin of Halloween."
+    },
+    {
+      "id": "word-imbolc",
+      "term": "Imbolc",
+      "meaning": "The festival at the start of spring",
+      "pronunciation": "IM-bulk",
+      "language": "Irish",
+      "usage": "The first of February, the time of the first milk of the ewes and the feast of Saint Brigid."
+    },
+    {
+      "id": "word-bealtaine",
+      "term": "Bealtaine",
+      "meaning": "The festival at the start of summer",
+      "pronunciation": "BYAL-tin-eh",
+      "language": "Irish",
+      "usage": "The first of May. Cattle were driven between two fires before going to the summer pastures."
+    },
+    {
+      "id": "word-lughnasa",
+      "term": "Lughnasa",
+      "meaning": "The festival at the start of harvest",
+      "pronunciation": "LOO-nuh-suh",
+      "language": "Irish",
+      "usage": "The first of August, with assemblies on hilltops, games and the first of the new crop."
+    }
+  ],
+  "practices": [
+    {
+      "id": "kindle",
+      "name": "Bless the first act of the day",
+      "icon": "fire",
+      "slot": "Morning",
+      "time": "07:00",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Take the first plain thing you do each morning: lighting the stove, filling the kettle, opening the curtains, washing your face. Before you do it, stop. Say a few words over it aloud, in your own language and your own belief: thanks for the night, a wish for the people of the house, a hope for the day. Then do the thing slowly and with attention.",
+      "why": "In the Gaelic-speaking islands of Scotland every household task had its own short blessing, said under the breath: for kindling the fire in the morning and covering it at night, for milking, for setting out on a journey. Alexander Carmichael collected hundreds of them from old people in the nineteenth century. They made no division between work and prayer.",
+      "variations": [
+        "Light a candle and say who the day is for.",
+        "Bless the fire, or the lamp, when you put it out at night.",
+        "Read one of the blessings from the Carmina Gadelica."
+      ]
+    },
+    {
+      "id": "by-heart",
+      "name": "Learn a poem by heart",
+      "icon": "feather",
+      "slot": "Morning",
+      "time": "08:30",
+      "minutes": 15,
+      "meta": "Morning · 15 min",
+      "instructions": "Choose a poem or a song that you love and learn four lines of it today. Say them aloud ten times, walking if you can. Cover the page and say them again. Add four more lines tomorrow. By the end of the month you will carry the whole thing with you. Say it to someone when you have it.",
+      "why": "The druids of Gaul taught entirely by memory, and Caesar wrote that a pupil might study for twenty years. Irish poets trained for up to twelve, lying in the dark to compose, and a master had to know three hundred and fifty tales. The Welsh still crown and chair poets each summer for verse in strict traditional metres.",
+      "variations": [
+        "Learn a verse in Irish, Welsh or Gaelic, with its meaning.",
+        "Recite your lines to a friend or a child.",
+        "Compose four lines of your own in your head, with no paper."
+      ]
+    },
+    {
+      "id": "place-lore",
+      "name": "Learn the lore of one place",
+      "icon": "map-pin",
+      "slot": "Afternoon",
+      "time": "15:00",
+      "minutes": 30,
+      "meta": "Afternoon · 30 min",
+      "instructions": "Pick one place within walking distance: a hill, a street, a stream, a field, a crossroads, a well. Find out what its name means and what happened there. Ask an older neighbour, read the map, look in a local history. Then go and stand in it for a few minutes. Tell its story to someone else before the day is over.",
+      "why": "In the Irish tradition every place has a story that explains its name, and the collection of them, the dinnseanchas, was part of what a poet had to know. Heroes in the sagas ask the meaning of each ford and ridge as they pass. To know a landscape was to know its stories.",
+      "variations": [
+        "Find the oldest name of your own street or village.",
+        "Visit a well, a standing stone or an old tree near you.",
+        "Walk a boundary of your parish or neighbourhood."
+      ]
+    },
+    {
+      "id": "triad",
+      "name": "Make a triad",
+      "icon": "triangle",
+      "slot": "Evening",
+      "time": "20:30",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Look back on the day and sum up something you learned in a group of three. Three things that are better shared. Three signs of a good neighbour. Three things I will not do again. Write it in one line, in the old form: three things that, followed by the three. Keep it short enough to remember. Collect them through the month.",
+      "why": "Welsh and Irish teachers stored their wisdom in threes, which are easy to hold in the head. The Triads of Ireland, from about the ninth century, list three slender things that best support the world, three smiles that are worse than sorrow and some two hundred and fifty more. The Welsh triads name the heroes, horses and disasters of Britain by threes.",
+      "variations": [
+        "Read ten of the old Irish triads.",
+        "Make a triad about someone you love and give it to them.",
+        "Ask each person at the table for one."
+      ]
+    },
+    {
+      "id": "ceili",
+      "name": "Go visiting, or be visited",
+      "icon": "music-notes",
+      "slot": "Evening",
+      "time": "19:30",
+      "minutes": 30,
+      "meta": "Evening · 30 min",
+      "instructions": "Spend the evening in company with no screen. Call on a neighbour or ask people in. When you are settled, go round the room, and let everyone give one thing: a song, a tune, a poem, a story, a joke, a riddle, a piece of news. Nobody is let off and nobody is judged. Put the kettle on, or open a bottle, and keep the door open for one more.",
+      "why": "A céilí was first an evening visit. In the dark half of the year neighbours gathered in one house by the fire, and the storyteller, the fiddler and the singers took their turns. People were expected to have a piece of their own to offer. The music sessions, the Breton night festivals and the Welsh noson lawen all continue it.",
+      "variations": [
+        "Learn one song or story to be your own piece.",
+        "Go to a traditional music session and listen.",
+        "Tell a ghost story by one candle."
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task-read-a-tale-from-the-mabinogion",
+      "name": "Read a tale from the Mabinogion",
+      "meta": "Read · start with Pwyll, Prince of Dyfed",
+      "time": "20:00",
+      "slot": "Evening",
+      "action": "read"
+    },
+    {
+      "id": "task-listen-to-unaccompanied-singing-in-irish-or-gaelic",
+      "name": "Listen to unaccompanied singing in Irish or Gaelic",
+      "meta": "Listen · sean-nós, or the songs of Julie Fowlis",
+      "time": "07:30",
+      "slot": "Morning",
+      "action": "listen"
+    },
+    {
+      "id": "task-look-at-the-chi-rho-page-of-the-book-of-kells",
+      "name": "Look at the Chi Rho page of the Book of Kells",
+      "meta": "Art · follow one line of interlace to its end",
+      "time": "13:00",
+      "slot": "Afternoon",
+      "action": "art"
+    },
+    {
+      "id": "task-play-brandub",
+      "name": "Play brandub",
+      "meta": "Games · the old Irish board game of the king and his four defenders",
+      "time": "18:30",
+      "slot": "Evening",
+      "action": "games"
+    },
+    {
+      "id": "task-journal-whose-shelter-did-you-live-in-today",
+      "name": "Journal: whose shelter did you live in today?",
+      "meta": "Journal · 10 min",
+      "time": "21:30",
+      "slot": "Evening",
+      "action": "journal"
+    },
+    {
+      "id": "task-is-a-place-the-same-place-once-its-stories-are-forgotten",
+      "name": "Is a place the same place once its stories are forgotten?",
+      "meta": "Philosophy · 10 min",
+      "time": "09:30",
+      "slot": "Morning",
+      "action": "philosophy"
+    },
+    {
+      "id": "welcome-someone-properly-and-feed-them",
+      "name": "Welcome someone properly and feed them",
+      "meta": "A hundred thousand welcomes",
+      "time": "12:00",
+      "slot": "Afternoon"
+    },
+    {
+      "id": "say-a-few-words-today-in-a-language-that-is-in-danger",
+      "name": "Say a few words today in a language that is in danger",
+      "meta": "The living tongue",
+      "time": "10:30",
+      "slot": "Morning"
+    },
+    {
+      "id": "help-a-neighbour-with-a-job-and-let-them-help-with-yours",
+      "name": "Help a neighbour with a job, and let them help with yours",
+      "meta": "Meitheal",
+      "time": "16:30",
+      "slot": "Afternoon"
+    }
+  ],
+  "rules": [
+    {
+      "id": "r1",
+      "text": "Keep an open door",
+      "why": "Welcome the guest and feed them before you ask their business."
+    },
+    {
+      "id": "r2",
+      "text": "Carry it in your head",
+      "why": "Learn poems, songs and stories by heart. What is in memory cannot be taken."
+    },
+    {
+      "id": "r3",
+      "text": "Know your place",
+      "why": "Learn the names and the stories of the land you live on."
+    },
+    {
+      "id": "r4",
+      "text": "Bless the ordinary",
+      "why": "Mark the small acts of the day with a word of thanks."
+    },
+    {
+      "id": "r5",
+      "text": "Bring your piece",
+      "why": "Have a song or a story ready, and give it when asked."
+    },
+    {
+      "id": "r6",
+      "text": "Keep the language alive",
+      "why": "Speak it, however badly. Better broken than in the coffin."
+    }
+  ],
+  "immerse": {
+    "read": [
+      {
+        "id": "read-the-tain",
+        "title": "The Táin",
+        "creator": "Translated by Thomas Kinsella",
+        "year": "1969",
+        "why": "The cattle raid of Cooley. Queen Medb’s army invades Ulster to steal a bull and the boy hero Cú Chulainn holds the ford alone. The great epic of early Ireland."
+      },
+      {
+        "id": "read-the-mabinogion",
+        "title": "The Mabinogion",
+        "creator": "Translated by Sioned Davies",
+        "year": "2007",
+        "why": "Eleven medieval Welsh tales of shape-shifting, otherworld kings and the earliest Arthur, in a translation made to be read aloud."
+      },
+      {
+        "id": "read-carmina-gadelica",
+        "title": "Carmina Gadelica",
+        "creator": "Collected by Alexander Carmichael",
+        "year": "1900",
+        "why": "Hymns, charms and blessings taken down from Gaelic speakers in the Hebrides: prayers for the fire, the cow, the loom and the road."
+      },
+      {
+        "id": "read-the-islandman",
+        "title": "The Islandman",
+        "creator": "Tomás Ó Criomhthain",
+        "year": "1929",
+        "why": "A fisherman of the Great Blasket Island sets down his life in Irish, so that there would be a record, as he wrote, for the like of us will never be again."
+      },
+      {
+        "id": "read-the-celts-a-very-short-introduction",
+        "title": "The Celts: A Very Short Introduction",
+        "creator": "Barry Cunliffe",
+        "year": "2003",
+        "why": "A clear account of who the Celts were, and of how the idea of them has been made and remade."
+      },
+      {
+        "id": "read-anam-cara",
+        "title": "Anam Cara",
+        "creator": "John O’Donohue",
+        "year": "1997",
+        "why": "A poet and former priest from the west of Ireland on friendship, solitude and belonging."
+      }
+    ],
+    "watch": [
+      {
+        "id": "watch-the-secret-of-kells",
+        "title": "The Secret of Kells",
+        "creator": "Tomm Moore and Nora Twomey",
+        "year": "2009",
+        "why": "A boy in a monastery under threat from the Vikings helps to finish a great book. Drawn in the patterns of the manuscript itself."
+      },
+      {
+        "id": "watch-song-of-the-sea",
+        "title": "Song of the Sea",
+        "creator": "Tomm Moore",
+        "year": "2014",
+        "why": "A lighthouse keeper’s daughter turns out to be a selkie, a seal who can take human form. Animated in Kilkenny, with songs in Irish."
+      },
+      {
+        "id": "watch-the-quiet-girl",
+        "title": "The Quiet Girl",
+        "creator": "Colm Bairéad",
+        "year": "2022",
+        "why": "An Cailín Ciúin. A neglected child spends a summer with relatives on a farm. A film in Irish of great tenderness and few words."
+      },
+      {
+        "id": "watch-hedd-wyn",
+        "title": "Hedd Wyn",
+        "creator": "Paul Turner",
+        "year": "1992",
+        "why": "A Welsh shepherd poet wins the chair at the National Eisteddfod of 1917, six weeks after his death in the trenches. In Welsh."
+      }
+    ],
+    "listen": [
+      {
+        "id": "listen-the-chieftains-4",
+        "title": "The Chieftains 4",
+        "creator": "The Chieftains",
+        "year": "1973",
+        "why": "Pipes, fiddles, whistle, harp and bodhrán playing the old dance tunes and slow airs."
+      },
+      {
+        "id": "listen-renaissance-de-la-harpe-celtique",
+        "title": "Renaissance de la harpe celtique",
+        "creator": "Alan Stivell",
+        "year": "1971",
+        "why": "A Breton musician and the wire-strung harp his father rebuilt. The record that began the Celtic music revival."
+      },
+      {
+        "id": "listen-cuilidh",
+        "title": "Cuilidh",
+        "creator": "Julie Fowlis",
+        "year": "2007",
+        "why": "Songs in Scottish Gaelic from North Uist, among them the quick mouth music sung for dancing."
+      },
+      {
+        "id": "listen-the-road-from-connemara",
+        "title": "The Road from Connemara",
+        "creator": "Joe Heaney",
+        "year": "recorded 1964",
+        "why": "A master of sean-nós, the old unaccompanied style of singing in Irish, with his stories of the songs."
+      },
+      {
+        "id": "listen-yma-o-hyd",
+        "title": "Yma o Hyd",
+        "creator": "Dafydd Iwan",
+        "year": "1983",
+        "why": "Still here. A Welsh song of survival against the odds that became an anthem of the language and of the national football team."
+      }
+    ],
+    "art": [
+      {
+        "id": "art-the-book-of-kells",
+        "title": "The Book of Kells",
+        "creator": "Monks of Iona and Kells",
+        "year": "about 800",
+        "why": "The four Gospels in Latin, with pages of interlace, spirals and animals so fine that a medieval visitor took it for the work of angels. In Trinity College, Dublin."
+      },
+      {
+        "id": "art-the-battersea-shield",
+        "title": "The Battersea Shield",
+        "creator": "A British metalworker",
+        "year": "about 350 to 50 BC",
+        "why": "A bronze shield facing with flowing raised curves and red glass, found in the River Thames, where it was probably cast as an offering. In the British Museum."
+      },
+      {
+        "id": "art-the-tara-brooch",
+        "title": "The Tara Brooch",
+        "creator": "An Irish goldsmith",
+        "year": "about 700",
+        "why": "A cloak pin in gilded silver, amber and glass, with decoration on the back as fine as on the front. In the National Museum of Ireland."
+      },
+      {
+        "id": "art-muiredach-s-cross",
+        "title": "Muiredach’s Cross",
+        "creator": "The carvers of Monasterboice",
+        "year": "about 900",
+        "why": "A ringed stone cross five and a half metres tall, covered with scenes from the Bible. It stands where it was raised, in County Louth."
+      }
+    ],
+    "eat": [
+      {
+        "id": "eat-soda-bread",
+        "title": "Soda bread",
+        "creator": "Flour, buttermilk, salt and soda",
+        "why": "Mixed in minutes and baked in a pot over the fire. A cross is cut in the top."
+      },
+      {
+        "id": "eat-colcannon",
+        "title": "Colcannon",
+        "creator": "Mashed potato with kale or cabbage and butter",
+        "why": "The dish of Halloween night, with a ring or a coin hidden in it to tell fortunes."
+      },
+      {
+        "id": "eat-cawl",
+        "title": "Cawl",
+        "creator": "A Welsh broth of lamb, leeks and roots",
+        "why": "Kept going for days and better on the second. Eaten with bread and cheese."
+      },
+      {
+        "id": "eat-buckwheat-galette",
+        "title": "Buckwheat galette",
+        "creator": "A thin dark pancake from Brittany",
+        "why": "Filled with egg, ham and cheese and folded into a square."
+      },
+      {
+        "id": "eat-oatcakes",
+        "title": "Oatcakes",
+        "creator": "Oatmeal, water and a little fat",
+        "why": "The bread of the Scottish Highlands, baked on a griddle."
+      }
+    ],
+    "drink": [
+      {
+        "id": "drink-whiskey",
+        "title": "Whiskey",
+        "creator": "The water of life",
+        "why": "The word comes from the Gaelic uisce beatha. Distilled by Irish and Scottish monks from at least the fifteenth century."
+      },
+      {
+        "id": "drink-breton-cider",
+        "title": "Breton cider",
+        "creator": "Drunk from a pottery bowl",
+        "why": "The drink that goes with galettes."
+      },
+      {
+        "id": "drink-strong-tea",
+        "title": "Strong tea",
+        "creator": "With milk",
+        "why": "The first thing offered to anyone who comes through the door in Ireland."
+      }
+    ],
+    "customs": [
+      {
+        "id": "customs-brigid-s-cross",
+        "title": "Brigid’s cross",
+        "creator": "Woven on the eve of 1 February",
+        "why": "A cross of four arms plaited from green rushes and hung over the door to protect the house for the year."
+      },
+      {
+        "id": "customs-turning-sunwise",
+        "title": "Turning sunwise",
+        "creator": "Deiseal, with the sun",
+        "why": "One walks round a well, a church or a fishing boat in the direction the sun travels. The other way is unlucky."
+      },
+      {
+        "id": "customs-the-wake",
+        "title": "The wake",
+        "creator": "Sitting up with the dead",
+        "why": "Neighbours keep the family company through the night with tea, drink, talk and stories about the one who has died."
+      },
+      {
+        "id": "customs-holy-wells",
+        "title": "Holy wells",
+        "creator": "Visited on a saint’s day",
+        "why": "Pilgrims circle the well, drink and tie a strip of cloth to the tree beside it."
+      }
+    ],
+    "games": [
+      {
+        "id": "games-hurling",
+        "title": "Hurling",
+        "creator": "Field game · Ireland",
+        "year": "at least two thousand years old",
+        "why": "Fifteen a side strike a small ball with ash sticks at great speed. Cú Chulainn plays it in the sagas. The women’s game is camogie."
+      },
+      {
+        "id": "games-shinty",
+        "title": "Shinty",
+        "creator": "Field game · Scottish Highlands",
+        "year": "ancient",
+        "why": "Camanachd, a cousin of hurling brought from Ireland with the Gaelic language."
+      },
+      {
+        "id": "games-brandub",
+        "title": "Brandub",
+        "creator": "Board game · Ireland",
+        "year": "early medieval",
+        "why": "A king and four defenders at the centre of a seven by seven board try to reach a corner past eight attackers."
+      },
+      {
+        "id": "games-gouren",
+        "title": "Gouren",
+        "creator": "Wrestling · Brittany",
+        "year": "ancient",
+        "why": "Wrestlers in loose linen shirts swear an oath of fair play and try to throw each other flat on the back. Cornwall has a sister style."
+      },
+      {
+        "id": "games-highland-games",
+        "title": "Highland games",
+        "creator": "Athletics · Scotland",
+        "year": "from the Middle Ages",
+        "why": "Tossing the caber, putting the stone and throwing the hammer, with piping and dancing."
+      }
+    ],
+    "festivals": [
+      {
+        "id": "fest-samhain",
+        "title": "Samhain",
+        "creator": "31 October to 1 November",
+        "why": "The start of winter and of the Celtic year. Fires were lit, the dead were remembered and people went out in disguise."
+      },
+      {
+        "id": "fest-imbolc",
+        "title": "Imbolc",
+        "creator": "1 February",
+        "why": "Saint Brigid’s Day, the first stirring of spring. A public holiday in Ireland since 2023."
+      },
+      {
+        "id": "fest-bealtaine",
+        "title": "Bealtaine",
+        "creator": "1 May",
+        "why": "The start of summer. Bonfires are lit again each year on the Hill of Uisneach and on Calton Hill in Edinburgh."
+      },
+      {
+        "id": "fest-lughnasa",
+        "title": "Lughnasa",
+        "creator": "1 August",
+        "why": "The start of harvest. Its descendants include the climb of Croagh Patrick on the last Sunday of July."
+      },
+      {
+        "id": "fest-the-national-eisteddfod-of-wales",
+        "title": "The National Eisteddfod of Wales",
+        "creator": "The first week of August",
+        "why": "Eight days of competition in poetry, song and recitation, held entirely in Welsh at a different place each year."
+      },
+      {
+        "id": "fest-festival-interceltique",
+        "title": "Festival Interceltique",
+        "creator": "Early August, Lorient, Brittany",
+        "why": "Musicians and pipe bands from all the Celtic countries, with hundreds of thousands of visitors."
+      }
+    ],
+    "places": [
+      {
+        "id": "place-the-hill-of-tara",
+        "title": "The Hill of Tara",
+        "creator": "County Meath, Ireland",
+        "why": "A low green ridge of earthworks, the seat of the high kings in tradition, with the standing stone said to cry out under a true king."
+      },
+      {
+        "id": "place-skellig-michael",
+        "title": "Skellig Michael",
+        "creator": "Off County Kerry, Ireland",
+        "why": "A rock in the Atlantic with a monastery of stone beehive cells near its summit, reached by six hundred steps cut by the monks."
+      },
+      {
+        "id": "place-iona",
+        "title": "Iona",
+        "creator": "Inner Hebrides, Scotland",
+        "why": "The small island where Columba founded his monastery in 563. The Book of Kells was probably begun here."
+      },
+      {
+        "id": "place-dun-aonghasa",
+        "title": "Dún Aonghasa",
+        "creator": "Inis Mór, Aran Islands, Ireland",
+        "why": "A great stone fort of three ramparts on the edge of a hundred-metre cliff, first built about three thousand years ago."
+      },
+      {
+        "id": "place-hallstatt",
+        "title": "Hallstatt",
+        "creator": "Upper Austria",
+        "why": "The lakeside salt-mining village whose rich graves gave their name to the earliest Celtic culture."
+      },
+      {
+        "id": "place-the-latenium",
+        "title": "The Laténium",
+        "creator": "Neuchâtel, Switzerland",
+        "why": "The museum beside the lake where thousands of swords, brooches and shields were found in 1857, giving the La Tène style its name."
+      }
+    ]
+  },
+  "ethics": [
+    {
+      "title": "Hospitality",
+      "text": "The guest is welcomed and fed without question.",
+      "practice": "Offer food or drink to whoever comes to your door."
+    },
+    {
+      "title": "Honour",
+      "text": "A person is their good name.",
+      "practice": "Keep one promise today that it would be easier to break."
+    },
+    {
+      "title": "Truth in speech",
+      "text": "A just word upholds the land. A false judgment blights it.",
+      "practice": "Say what is true where it costs you something."
+    },
+    {
+      "title": "Generosity",
+      "text": "A leader is measured by open-handedness.",
+      "practice": "Give more than was expected."
+    },
+    {
+      "title": "Loyalty to kin and place",
+      "text": "You belong to a people and a piece of land.",
+      "practice": "Do something for the place you come from."
+    },
+    {
+      "title": "Courage",
+      "text": "The sagas honour those who stand at the ford.",
+      "practice": "Hold your ground on one thing today."
+    }
+  ],
+  "philosophy": [
+    {
+      "title": "The spoken word",
+      "text": "The druids chose not to write their teaching down. Knowledge lived in trained memory.",
+      "practice": "What do you know that you could recite without help?"
+    },
+    {
+      "title": "The power of the poet",
+      "text": "A poet’s praise made a reputation and a satire could raise blisters on a king’s face.",
+      "practice": "What can words do that force cannot?"
+    },
+    {
+      "title": "The otherworld beside us",
+      "text": "The other realm is not far off. It lies under the hills and across the water and may be stepped into at certain times and places.",
+      "practice": "Where does the ordinary world feel thin to you?"
+    },
+    {
+      "title": "Threes",
+      "text": "Wisdom was shaped in triads so that it could be held and handed on.",
+      "practice": "What three things do you know to be true?"
+    },
+    {
+      "title": "The prince’s truth",
+      "text": "Early Irish texts say that the ruler’s justice brings good weather, full nets and peace, and his falsehood brings famine.",
+      "practice": "What depends on your being fair?"
+    },
+    {
+      "title": "Place and name",
+      "text": "A place is its stories. To lose the names is to lose the country.",
+      "practice": "What stories does your home ground hold?"
+    },
+    {
+      "title": "Longing",
+      "text": "Hiraeth is counted a kind of love and not an illness.",
+      "practice": "What do you long for that cannot be had back?"
+    },
+    {
+      "title": "A small language",
+      "text": "Each of the Celtic languages has been close to death and each has people who refuse to let it go.",
+      "practice": "What would you keep alive against the odds?"
+    }
+  ],
+  "journal": [
+    "Whose shelter did you live in today?",
+    "Who lived in yours?",
+    "What did you bless this morning?",
+    "Which lines do you now have by heart?",
+    "What is the story of the place you visited?",
+    "What three things did the day teach?",
+    "Who came through your door?",
+    "What was your piece tonight?",
+    "What story did you hear?",
+    "What does the name of your home mean?",
+    "Where is your own native place?",
+    "What do you long for?",
+    "What promise did you keep?",
+    "Whom did you praise, and whom did you mock?",
+    "What did you carry in your head today?",
+    "What did you forget that you once knew by heart?",
+    "Where did the world feel thin?",
+    "What season is turning?",
+    "What is your soul friend’s name?",
+    "What have you told them that no one else knows?",
+    "What word in another language have you no word for?",
+    "What would be lost if your grandparents’ speech were lost?",
+    "Who helped with your work?",
+    "What did you give more of than was asked?",
+    "Where did you stand your ground?",
+    "What is forbidden to you, by your own choice?",
+    "What did you see on the road?",
+    "Whose company shortened it?",
+    "What will you teach by heart to a child?",
+    "What is still here?"
+  ],
+  "reflect": [
+    "What did the morning blessing change?",
+    "Say the poem you learned.",
+    "What do you now know about your own ground?",
+    "Read back your triads. Which is truest?",
+    "Who came, and what was shared?",
+    "Which rule will you keep?"
+  ],
+  "dayThemes": [
+    "The first fire",
+    "The blessing",
+    "The open door",
+    "A hundred thousand welcomes",
+    "The guest",
+    "The poem",
+    "By heart",
+    "The storyteller",
+    "The song",
+    "Your piece",
+    "The name of the place",
+    "The well",
+    "The hill",
+    "The ford",
+    "Home ground",
+    "Longing",
+    "The soul friend",
+    "Three candles",
+    "The triad",
+    "Truth",
+    "The good name",
+    "The poet’s word",
+    "The thin place",
+    "The turning year",
+    "The work party",
+    "The road shared",
+    "The small language",
+    "Better broken",
+    "Still here",
+    "Each other’s shelter"
+  ],
+  "guide": {
+    "intro": [
+      "The word Celtic has two meanings, and it helps to keep them apart. The first is ancient. Greek and Roman writers used Celts, Gauls and Galatians for the peoples who lived north of the Alps from about the sixth century BC, across what are now France, southern Germany, Austria, Switzerland, northern Italy and parts of Spain. The second is modern. Since about 1700 it has been the name of a family of languages, and of the peoples who speak them: Irish, Scottish Gaelic and Manx on one branch, Welsh, Breton and Cornish on the other.",
+      "The ancient Celts were never one nation. They were hundreds of tribes with related languages, similar gods and a shared style of art. Archaeologists name their earliest culture after Hallstatt in Austria, where salt-mining chieftains were buried with wagons and Greek wine vessels, and its successor, from about 450 BC, after La Tène in Switzerland. La Tène metalwork, with its swirling, never quite symmetrical curves, is among the finest art of ancient Europe. Celtic warriors sacked Rome about 390 BC, raided Delphi in 279 BC and settled in the middle of what is now Turkey. Their learned class, the druids, were priests, judges and teachers who committed nothing to writing.",
+      "Between 225 and 50 BC Rome conquered them. Julius Caesar’s war in Gaul ended with the surrender of Vercingetorix in 52 BC, and Britain followed a century later. On the continent the Celtic languages died out under Latin. They survived on the Atlantic edge, in Britain and above all in Ireland, which Rome never reached.",
+      "There the old culture met Christianity and produced something new. From the fifth century Irish monasteries became centres of learning. Their monks copied the Gospels in manuscripts such as the Book of Kells, sailed as missionaries to Scotland and the continent, and wrote down the sagas of their own pagan past, which is why we have them. Irish and Welsh kingdoms kept their own law, administered by professional jurists, and their own schools of poetry for a thousand years.",
+      "From the twelfth century the Celtic-speaking countries were conquered or absorbed, one after another, by England and France. The languages were shut out of law, school and government. Clearance, famine and emigration emptied the Highlands and the west of Ireland in the eighteenth and nineteenth centuries, and scattered their people across the world. Manx and Cornish ceased to be anyone’s first language.",
+      "They have not died. Welsh is spoken by more than half a million people and is the daily language of much of north and west Wales. Irish is the first official language of Ireland. Breton, Gaelic, Manx and Cornish all have schools, broadcasting and new young speakers. The music, the games and the festivals are everywhere.",
+      "A warning is needed. Much of what is sold as ancient Celtic wisdom, from tree calendars to druid ceremonies, was invented in the last two hundred and fifty years. This Onda keeps to what is attested: hospitality, memory, place-lore, the triad and the evening gathering."
+    ],
+    "origin": "Ancient central and western Europe, and today Ireland, Scotland, Wales, Brittany, Cornwall and the Isle of Man",
+    "era": "The Celts enter history about 800 to 500 BC. Some two million people speak a Celtic language today",
+    "figures": [
+      {
+        "name": "Vercingetorix",
+        "dates": "about 82 to 46 BC",
+        "bio": "A young chief of the Arverni who united the tribes of Gaul against Caesar, was besieged at Alesia, surrendered to save his people and was executed in Rome."
+      },
+      {
+        "name": "Boudica",
+        "dates": "died AD 60 or 61",
+        "bio": "Queen of the Iceni in eastern Britain. After the Romans flogged her and assaulted her daughters she led a rising that burned three cities."
+      },
+      {
+        "name": "Saint Patrick",
+        "dates": "5th century",
+        "bio": "A Briton carried to Ireland as a slave at sixteen, who escaped and returned as a missionary. Two short writings of his own survive."
+      },
+      {
+        "name": "Brigid of Kildare",
+        "dates": "about 451 to 525",
+        "bio": "Founder of a great double monastery for women and men. Her legends of generosity, fire and cattle carry echoes of an older goddess of the same name."
+      },
+      {
+        "name": "Columba",
+        "dates": "521 to 597",
+        "bio": "Colum Cille, a prince of the northern Uí Néill who left Ireland and founded the monastery of Iona, from which Scotland and northern England were evangelised."
+      },
+      {
+        "name": "Taliesin",
+        "dates": "6th century",
+        "bio": "A poet at the courts of northern Britain, to whom a few of the oldest poems in Welsh are credited. Later legend made him a shape-shifting seer."
+      },
+      {
+        "name": "Hywel Dda",
+        "dates": "about 880 to 950",
+        "bio": "Hywel the Good, king of most of Wales, under whose name the laws of the country were set in order. They gave women notable rights in property and divorce."
+      },
+      {
+        "name": "Brian Boru",
+        "dates": "about 941 to 1014",
+        "bio": "A minor king from Munster who made himself high king of all Ireland and died in his tent after victory at Clontarf."
+      },
+      {
+        "name": "Dafydd ap Gwilym",
+        "dates": "about 1315 to 1350",
+        "bio": "The greatest of Welsh poets, who wrote of love, birds, mist and his own misadventures in intricate strict metre."
+      },
+      {
+        "name": "Gráinne Mhaol",
+        "dates": "about 1530 to 1603",
+        "bio": "Grace O’Malley, chieftain and sea captain on the coast of Mayo, who sailed to London in 1593 to negotiate with Elizabeth I in person."
+      },
+      {
+        "name": "Turlough O'Carolan",
+        "dates": "1670 to 1738",
+        "bio": "A blind harper who rode from house to house across Ireland composing tunes for his hosts. More than two hundred survive."
+      },
+      {
+        "name": "Douglas Hyde",
+        "dates": "1860 to 1949",
+        "bio": "A collector of Irish songs and founder of the Gaelic League, which began the revival of the language. He became the first president of Ireland."
+      }
+    ],
+    "history": [
+      {
+        "when": "About 800 to 450 BC",
+        "what": "Hallstatt",
+        "detail": "Iron-using chiefdoms north of the Alps grow rich on salt and on trade with the Greeks and Etruscans."
+      },
+      {
+        "when": "From about 450 BC",
+        "what": "La Tène",
+        "detail": "A new art style and a warrior aristocracy spread from the Marne and the Rhine across Europe."
+      },
+      {
+        "when": "About 390 BC",
+        "what": "Rome sacked",
+        "detail": "Gauls from the Po valley defeat a Roman army and hold the city to ransom."
+      },
+      {
+        "when": "279 BC",
+        "what": "Delphi and Galatia",
+        "detail": "A Celtic host raids Greece. Three tribes cross into Asia Minor and found Galatia."
+      },
+      {
+        "when": "58 to 50 BC",
+        "what": "Caesar in Gaul",
+        "detail": "Rome conquers Gaul in eight campaigns. Caesar’s account is the fullest description of the Celts and their druids."
+      },
+      {
+        "when": "AD 43 to 84",
+        "what": "Britain",
+        "detail": "Rome invades. The druids’ stronghold on Anglesey is destroyed in 60, and Boudica rises the same year."
+      },
+      {
+        "when": "5th and 6th centuries",
+        "what": "Saints and scholars",
+        "detail": "Ireland becomes Christian. Monasteries are founded at Armagh, Clonmacnoise and Iona, and Britons crossing the sea give Brittany its name and language."
+      },
+      {
+        "when": "About 800",
+        "what": "The Book of Kells",
+        "detail": "Irish art reaches its height as the first Viking raids begin."
+      },
+      {
+        "when": "1169 to 1283",
+        "what": "Conquest",
+        "detail": "Normans land in Ireland. Edward I of England conquers Wales and kills its last native prince."
+      },
+      {
+        "when": "1536 to 1609",
+        "what": "Union and plantation",
+        "detail": "Wales is joined to England by law and Welsh is barred from public office. The Gaelic lords of Ulster flee and their lands are settled from Britain."
+      },
+      {
+        "when": "1707",
+        "what": "A family of languages",
+        "detail": "The Welsh scholar Edward Lhuyd shows that Irish, Gaelic, Welsh, Cornish and Breton are related to one another and to ancient Gaulish, and calls them Celtic."
+      },
+      {
+        "when": "1746 to 1852",
+        "what": "Clearance and famine",
+        "detail": "After Culloden the Highland clans are broken and their people evicted for sheep. In Ireland the potato fails. A million die and more than a million leave."
+      },
+      {
+        "when": "1893 to 1922",
+        "what": "Revival and independence",
+        "detail": "The Gaelic League is founded. The Irish Free State is established with Irish as its national language."
+      },
+      {
+        "when": "1962 to today",
+        "what": "The languages return",
+        "detail": "A radio lecture on the fate of Welsh sets off a campaign of protest. Welsh, Gaelic and Irish gain legal status, television channels and schools."
+      }
+    ],
+    "concepts": [
+      {
+        "term": "Two meanings of Celtic",
+        "text": "Ancient peoples and modern languages.",
+        "detail": "No ancient writer called the people of Britain or Ireland Celts. The link is one of language, made by scholars around 1700, and it is real."
+      },
+      {
+        "term": "Druids, bards and seers",
+        "text": "The learned orders.",
+        "detail": "Classical authors describe three classes of the wise. In Ireland the poets inherited much of the druids’ standing after Christianity came."
+      },
+      {
+        "term": "Oral learning",
+        "text": "Memory as the library.",
+        "detail": "Law, genealogy, history and poetry were carried in verse by trained specialists. Writing arrived with the church."
+      },
+      {
+        "term": "The otherworld",
+        "text": "A realm alongside this one.",
+        "detail": "The Irish sídh mounds, the Welsh Annwn and the western isles of the ever-young are places of feasting without age, entered through hills, lakes and mist."
+      },
+      {
+        "term": "The four quarter days",
+        "text": "The hinges of the year.",
+        "detail": "Samhain, Imbolc, Bealtaine and Lughnasa divided the Irish year into four. The eight-spoked wheel of the year is a twentieth-century addition."
+      },
+      {
+        "term": "Hospitality and honour",
+        "text": "Law built on reputation.",
+        "detail": "Each free person had an honour price. Refusing food and shelter, or enduring a poet’s satire, could cost it."
+      },
+      {
+        "term": "Native law",
+        "text": "Jurists, not kings.",
+        "detail": "Irish Brehon law and the Welsh law of Hywel were kept by a professional class and settled wrongs by compensation."
+      },
+      {
+        "term": "Monastic Christianity",
+        "text": "Abbeys in place of cities.",
+        "detail": "The Irish church grew around monasteries. Its monks prized exile for the love of God, strict penance and poems in praise of blackbirds and the sea."
+      },
+      {
+        "term": "The Celtic revival",
+        "text": "Rediscovery and invention.",
+        "detail": "From the eighteenth century poets and scholars recovered the old literature and also made things up, including the druid ceremonies of the Welsh Gorsedd, devised in 1792."
+      }
+    ],
+    "facts": [
+      {
+        "text": "Halloween, with its disguises and its lanterns, comes from Samhain. The first lanterns were carved from turnips."
+      },
+      {
+        "text": "A Welsh-speaking community has lived in Patagonia, in Argentina, since 1865."
+      },
+      {
+        "text": "The Galatians to whom Saint Paul wrote were descendants of Celts who settled in Asia Minor."
+      },
+      {
+        "text": "Paris takes its name from a Gaulish tribe, the Parisii."
+      },
+      {
+        "text": "Irish has the oldest written literature in a native language of any people north of the Alps."
+      },
+      {
+        "text": "The last person to grow up speaking Manx, Ned Maddrell, died in 1974. Children are now taught entirely in Manx at a school on the island."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Goidelic",
+        "meaning": "The branch of Celtic that includes Irish, Scottish Gaelic and Manx"
+      },
+      {
+        "term": "Brittonic",
+        "meaning": "The branch that includes Welsh, Breton and Cornish"
+      },
+      {
+        "term": "Gaul",
+        "meaning": "The Roman name for the Celtic lands of what is now France"
+      },
+      {
+        "term": "Gaeltacht",
+        "meaning": "The districts of Ireland where Irish is the community language"
+      },
+      {
+        "term": "La Tène",
+        "meaning": "The art style and culture of the Celts from about 450 BC"
+      },
+      {
+        "term": "Sídh",
+        "meaning": "A fairy mound, and the otherworld people who live in it"
+      }
+    ],
+    "furtherReading": [
+      {
+        "title": "The Ancient Celts",
+        "creator": "Barry Cunliffe",
+        "year": "2nd edition 2018",
+        "note": "The standard archaeological history, generously illustrated."
+      },
+      {
+        "title": "Blood and Mistletoe: The History of the Druids in Britain",
+        "creator": "Ronald Hutton",
+        "year": "2009",
+        "note": "How little is really known about the druids, and how much has been imagined."
+      },
+      {
+        "title": "A Guide to Early Irish Law",
+        "creator": "Fergus Kelly",
+        "year": "1988",
+        "note": "What the law tracts say about kings, poets, marriage, bees and trespassing cats."
+      },
+      {
+        "title": "The Atlantic Celts: Ancient People or Modern Invention?",
+        "creator": "Simon James",
+        "year": "1999",
+        "note": "A short, provocative argument about how the idea of the Celts was made."
+      }
+    ],
+    "learnFrom": [
+      {
+        "name": "Dúchas",
+        "note": "The National Folklore Collection of Ireland online, including stories written down by schoolchildren from their grandparents in the 1930s.",
+        "link": "https://www.duchas.ie"
+      },
+      {
+        "name": "LearnGaelic",
+        "note": "Free lessons, a dictionary and sound files for Scottish Gaelic.",
+        "link": "https://learngaelic.scot"
+      },
+      {
+        "name": "Dysgu Cymraeg",
+        "note": "Learn Welsh. The national centre for courses, with free material for beginners.",
+        "link": "https://learnwelsh.cymru"
+      },
+      {
+        "name": "A session near you",
+        "note": "Traditional music sessions and language conversation circles meet in cities all over the world. Sit and listen first."
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Ancient Celts",
+        "creator": "Barry Cunliffe",
+        "publisher": "Oxford University Press",
+        "year": "2018"
+      },
+      {
+        "title": "Celtic Culture: A Historical Encyclopedia",
+        "creator": "John T. Koch, editor",
+        "publisher": "ABC-CLIO",
+        "year": "2006"
+      },
+      {
+        "title": "A Guide to Early Irish Law",
+        "creator": "Fergus Kelly",
+        "publisher": "Dublin Institute for Advanced Studies",
+        "year": "1988"
+      },
+      {
+        "title": "The Triads of Ireland",
+        "creator": "Kuno Meyer, editor and translator",
+        "publisher": "Royal Irish Academy",
+        "year": "1906"
+      },
+      {
+        "title": "Carmina Gadelica",
+        "creator": "Alexander Carmichael",
+        "publisher": "T. and A. Constable",
+        "year": "1900"
+      },
+      {
+        "title": "Blood and Mistletoe: The History of the Druids in Britain",
+        "creator": "Ronald Hutton",
+        "publisher": "Yale University Press",
+        "year": "2009"
+      }
+    ]
+  },
+  "sensitivity": {
+    "note": "The Celtic languages and their communities are alive, and each of the six nations has its own history. This Onda was written from published sources and keeps to what is attested in old texts and living custom. Speakers of the languages are invited to correct it.",
+    "requiredCaveats": [
+      "Much popular Celtic spirituality is modern. The tree calendar, most druid ritual and the eightfold wheel of the year date from the eighteenth to the twentieth centuries.",
+      "Almost everything written about the ancient druids comes from Greek and Roman authors, some of them enemies. Very little is certain.",
+      "Whether the peoples of ancient Britain and Ireland should be called Celts at all is debated by scholars. The shared family of languages is not in doubt.",
+      "The languages were suppressed for centuries and are still under pressure. Pronunciations given here are rough guides and vary by dialect."
+    ],
+    "reviewRequired": true
+  }
+}

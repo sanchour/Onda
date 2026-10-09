@@ -1,0 +1,1255 @@
+{
+  "version": 1,
+  "id": "khmer",
+  "name": "Khmer Empire",
+  "origin": "Cambodia",
+  "era": "802 to 1431",
+  "tone": "yellow",
+  "icon": "bank",
+  "font": "suwannaphum",
+  "pattern": "lotus-frieze",
+  "glyph": "អង្គរ",
+  "line": "Give before you eat, walk the long way round, care for the sick and the traveller, and sit still at dusk.",
+  "quote": {
+    "text": "He suffered from the illnesses of his subjects more than from his own, for it is the pain of the people that is the pain of kings, and not their own pain.",
+    "by": "Hospital inscription of Jayavarman VII",
+    "source": "From the stele of Say Fong, about 1186, one of the foundation stones of his 102 hospitals; after the French translation of Louis Finot"
+  },
+  "quotes": [
+    {
+      "text": "All the beings who are plunged in the ocean of existence, may I draw them out by the virtue of this good work.",
+      "by": "Jayavarman VII",
+      "source": "The king’s wish in the edict that founded his hospitals, about 1186; a common English rendering"
+    },
+    {
+      "text": "These are the monuments that have led merchants from overseas to speak so often of rich and noble Cambodia.",
+      "by": "Zhou Daguan",
+      "source": "A Record of Cambodia, written after his stay at Angkor in 1296 and 1297; after the translations of Paul Pelliot and Peter Harris"
+    },
+    {
+      "text": "It is grander than anything left to us by Greece or Rome.",
+      "by": "Henri Mouhot",
+      "source": "On Angkor Wat, from the journal of his visit in 1860, published in 1864. A French naturalist who was shown the temple by its monks"
+    },
+    {
+      "text": "Negotiate a river by following its bends. Enter a country by following its customs.",
+      "by": "Khmer proverb",
+      "source": "A common English rendering"
+    },
+    {
+      "text": "Do not take the straight path or the winding path. Take the path your ancestors have taken.",
+      "by": "Khmer proverb",
+      "source": "A common English rendering"
+    }
+  ],
+  "words": [
+    {
+      "id": "word-kambuja",
+      "term": "Kambuja",
+      "meaning": "The land of the descendants of Kambu",
+      "pronunciation": "kam-BOO-jah",
+      "language": "Sanskrit and Old Khmer",
+      "usage": "The empire’s own name for itself, after a legendary hermit ancestor. Kampuchea and Cambodia come from it."
+    },
+    {
+      "id": "word-angkor",
+      "term": "Angkor",
+      "meaning": "The city",
+      "pronunciation": "ang-KOR",
+      "language": "Khmer",
+      "usage": "From the Sanskrit nagara, capital. The capital’s formal name was Yasodharapura, the city that bears glory."
+    },
+    {
+      "id": "word-varman",
+      "term": "Varman",
+      "meaning": "Protector; armour",
+      "pronunciation": "VAR-mun",
+      "language": "Sanskrit",
+      "usage": "The ending of every king’s reign name. Suryavarman is protected by the sun, Jayavarman protected by victory."
+    },
+    {
+      "id": "word-devaraja",
+      "term": "Devaraja",
+      "meaning": "The god who is king",
+      "pronunciation": "day-vah-RAH-jah",
+      "language": "Sanskrit",
+      "usage": "A royal cult founded in 802 that tied the kingship to Shiva. In Old Khmer it was the lord of the universe who is king."
+    },
+    {
+      "id": "word-prasat",
+      "term": "Prasat",
+      "meaning": "A temple tower",
+      "pronunciation": "prah-SAHT",
+      "language": "Khmer",
+      "usage": "The sanctuary tower shaped like a lotus bud. A temple may have one, five or dozens."
+    },
+    {
+      "id": "word-baray",
+      "term": "Baray",
+      "meaning": "A great reservoir",
+      "pronunciation": "bah-RYE",
+      "language": "Khmer",
+      "usage": "A rectangular lake held within earth banks. The West Baray is eight kilometres long and still holds water after a thousand years."
+    },
+    {
+      "id": "word-srah",
+      "term": "Srah",
+      "meaning": "A pond; a royal bath",
+      "pronunciation": "SRAH",
+      "language": "Khmer",
+      "usage": "A dug basin with stone steps. Srah Srang, the royal bathing pool, faces the sunrise."
+    },
+    {
+      "id": "word-tonle-sap",
+      "term": "Tonlé Sap",
+      "meaning": "The great fresh-water lake",
+      "pronunciation": "TON-lay SAHP",
+      "language": "Khmer",
+      "usage": "The lake that fed the empire. Each monsoon the river that drains it runs backwards and the lake swells to five times its size."
+    },
+    {
+      "id": "word-phnom",
+      "term": "Phnom",
+      "meaning": "A hill; a mountain",
+      "pronunciation": "p-NOM",
+      "language": "Khmer",
+      "usage": "Hills were sacred, and where there was none the builders made one in stone."
+    },
+    {
+      "id": "word-wat",
+      "term": "Wat",
+      "meaning": "A temple and monastery",
+      "pronunciation": "WAHT",
+      "language": "Khmer",
+      "usage": "A Buddhist monastery. Angkor Wat means the city that is a temple."
+    },
+    {
+      "id": "word-meru",
+      "term": "Meru",
+      "meaning": "The mountain at the centre of the universe",
+      "pronunciation": "MAY-roo",
+      "language": "Sanskrit",
+      "usage": "The home of the gods in Hindu and Buddhist cosmology. A temple-mountain is its image, with the moat as the surrounding ocean."
+    },
+    {
+      "id": "word-naga",
+      "term": "Naga",
+      "meaning": "The serpent",
+      "pronunciation": "NAH-gah",
+      "language": "Sanskrit",
+      "usage": "A many-headed cobra, guardian of water and ancestor of the Khmer in legend. Its body forms the balustrades of every causeway."
+    },
+    {
+      "id": "word-apsara",
+      "term": "Apsara",
+      "meaning": "A heavenly dancer",
+      "pronunciation": "ap-SAH-rah",
+      "language": "Sanskrit",
+      "usage": "Spirits of the clouds and waters who dance for the gods, born from the churning of the ocean. Thousands are carved on the walls of Angkor."
+    },
+    {
+      "id": "word-devata",
+      "term": "Devata",
+      "meaning": "A guardian goddess",
+      "pronunciation": "day-vah-TAH",
+      "language": "Sanskrit",
+      "usage": "The standing female figures in niches on the temple walls. Angkor Wat has nearly two thousand, no two alike."
+    },
+    {
+      "id": "word-linga",
+      "term": "Linga",
+      "meaning": "The emblem of Shiva",
+      "pronunciation": "LING-gah",
+      "language": "Sanskrit",
+      "usage": "A smooth upright stone that stood in the central shrine of a Shaivite temple and embodied the power of the god and the realm."
+    },
+    {
+      "id": "word-amrita",
+      "term": "Amrita",
+      "meaning": "The nectar of immortality",
+      "pronunciation": "um-REE-tah",
+      "language": "Sanskrit",
+      "usage": "What gods and demons churned the ocean of milk to obtain, pulling a serpent back and forth for a thousand years."
+    },
+    {
+      "id": "word-dharma",
+      "term": "Dharma",
+      "meaning": "The law; right order; the teaching",
+      "pronunciation": "DAR-mah",
+      "language": "Sanskrit",
+      "usage": "The duty of a king was to uphold it. Thoa in modern Khmer."
+    },
+    {
+      "id": "word-lokeshvara",
+      "term": "Lokeshvara",
+      "meaning": "The lord who looks down on the world",
+      "pronunciation": "loh-KESH-vah-rah",
+      "language": "Sanskrit",
+      "usage": "The bodhisattva of compassion. The great stone faces of the Bayon are often taken to be his, with the features of the king."
+    },
+    {
+      "id": "word-karuna",
+      "term": "Karuna",
+      "meaning": "Compassion",
+      "pronunciation": "kah-roo-NAH",
+      "language": "Sanskrit and Pali",
+      "usage": "The wish that others be free from suffering. Jayavarman VII made it the stated principle of his rule."
+    },
+    {
+      "id": "word-bon",
+      "term": "Bon",
+      "meaning": "Merit",
+      "pronunciation": "BOHN",
+      "language": "Khmer",
+      "usage": "The good that comes of generous acts. To give food to monks or to build a bridge is to make merit, thvoeu bon."
+    },
+    {
+      "id": "word-arogyasala",
+      "term": "Arogyasala",
+      "meaning": "A house of health",
+      "pronunciation": "ah-rohg-yah-SAH-lah",
+      "language": "Sanskrit",
+      "usage": "A hospital. Jayavarman VII founded 102 of them across the empire, each with a chapel to the healing Buddha, staff and a fixed supply of medicines."
+    },
+    {
+      "id": "word-dharmasala",
+      "term": "Dharmasala",
+      "meaning": "A rest house",
+      "pronunciation": "dar-mah-SAH-lah",
+      "language": "Sanskrit",
+      "usage": "A stone shelter with a fire for travellers. One hundred and twenty-one stood along the raised highways, about a day’s walk apart."
+    },
+    {
+      "id": "word-srok",
+      "term": "Srok",
+      "meaning": "Settled country",
+      "pronunciation": "SROK",
+      "language": "Khmer",
+      "usage": "Land that has been cleared, planted and brought under order, as against prey, the wild forest."
+    },
+    {
+      "id": "word-sampeah",
+      "term": "Sampeah",
+      "meaning": "The greeting with joined palms",
+      "pronunciation": "som-PEE-ah",
+      "language": "Khmer",
+      "usage": "Palms together and a slight bow. The higher the hands are held, the greater the respect."
+    },
+    {
+      "id": "word-chum-reap-suor",
+      "term": "Chum reap suor",
+      "meaning": "A respectful hello",
+      "pronunciation": "choom ree-up SOO-ah",
+      "language": "Khmer",
+      "usage": "The formal greeting, said with a sampeah. Between friends it is suostei."
+    },
+    {
+      "id": "word-arkoun",
+      "term": "Arkoun",
+      "meaning": "Thank you",
+      "pronunciation": "aw-KOON",
+      "language": "Khmer",
+      "usage": "Arkoun chraen is thank you very much."
+    },
+    {
+      "id": "word-robam",
+      "term": "Robam",
+      "meaning": "Dance",
+      "pronunciation": "roh-BAHM",
+      "language": "Khmer",
+      "usage": "The classical court dance, slow and exact, descends from the temple dancers of Angkor."
+    },
+    {
+      "id": "word-sbek-thom",
+      "term": "Sbek thom",
+      "meaning": "Large shadow puppets",
+      "pronunciation": "sbike TOM",
+      "language": "Khmer",
+      "usage": "Panels of pierced cowhide up to two metres tall, carried by dancers before a fire-lit screen to tell the story of Rama."
+    },
+    {
+      "id": "word-krama",
+      "term": "Krama",
+      "meaning": "A checked cotton scarf",
+      "pronunciation": "krah-MAH",
+      "language": "Khmer",
+      "usage": "Worn by everyone as headcloth, sash, towel, sling and bag. The most Cambodian of objects."
+    },
+    {
+      "id": "word-prahok",
+      "term": "Prahok",
+      "meaning": "Fermented fish paste",
+      "pronunciation": "prah-HOK",
+      "language": "Khmer",
+      "usage": "Made each year from the huge catch of the Tonlé Sap. It seasons almost everything."
+    }
+  ],
+  "practices": [
+    {
+      "id": "give-first",
+      "name": "Give before you eat",
+      "icon": "hand-coins",
+      "slot": "Morning",
+      "time": "06:30",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Before you eat anything this morning, give something away. Put food out for someone who needs it, take breakfast to a neighbour, feed the birds, set aside money for a cause, or leave a portion of your own meal for another person. Do it with both hands and without being seen if you can. Then eat. Let it be the first act of the day.",
+      "why": "At dawn in Cambodia monks walk barefoot through the streets and people place rice in their bowls. To give is to make merit, bon, and the giving is done first, before one’s own needs. The kings of Angkor recorded their gifts on stone in great detail: rice, oil, cloth and medicine, measured out for temples, hospitals and the poor.",
+      "variations": [
+        "Give to the first person who asks today.",
+        "Take food to a monastery, a shelter or a food bank.",
+        "Keep a jar by the door and put one coin in each morning."
+      ]
+    },
+    {
+      "id": "slow-circuit",
+      "name": "Walk the long way round",
+      "icon": "footprints",
+      "slot": "Morning",
+      "time": "08:00",
+      "minutes": 20,
+      "meta": "Morning · 20 min",
+      "instructions": "Choose something to walk around: a building, a block, a park, a pond. Walk one complete circuit, slowly, keeping it on your right. Walk as if the wall beside you were carved and you were reading it. Look at each stretch in turn and do not look ahead. When you return to where you began, stop, face the centre and stand still for three breaths.",
+      "why": "A Khmer temple is entered by a long causeway and walked around before it is climbed. The outer gallery of Angkor Wat carries six hundred metres of carved stories, and pilgrims follow them on foot, panel by panel. To walk around a sacred thing with one’s right side toward it is among the oldest acts of respect in India and South-East Asia.",
+      "variations": [
+        "Walk around your own home and look at it as a visitor would.",
+        "Follow one wall of a museum gallery from end to end.",
+        "Walk a causeway, a pier or a long bridge to its end and back."
+      ]
+    },
+    {
+      "id": "care-for-the-traveller",
+      "name": "Care for the sick and the traveller",
+      "icon": "hand-heart",
+      "slot": "Afternoon",
+      "time": "14:00",
+      "minutes": 20,
+      "meta": "Afternoon · 20 min",
+      "instructions": "Do one practical thing today for someone who is ill, or for someone who is far from home or new to the place. Bring soup or medicine. Sit with them for twenty minutes. Give directions and walk part of the way. Offer a meal, a seat, a charger or a bed. Ask what they need before you decide what to give.",
+      "why": "When Jayavarman VII came to the throne in 1181 he built 102 hospitals and 121 rest houses along the roads of his empire. The inscriptions list the staff of each hospital, its doctors, nurses and cooks, and the yearly ration of honey, sesame, camphor and medicines. They say that the king felt the sickness of his people as his own.",
+      "variations": [
+        "Ring someone who is unwell.",
+        "Welcome a newcomer at work or in your street.",
+        "Give blood, or sign up as a volunteer driver."
+      ]
+    },
+    {
+      "id": "dancers-hands",
+      "name": "Train the dancer’s hands",
+      "icon": "hand-palm",
+      "slot": "Afternoon",
+      "time": "17:00",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Stand with your back straight, your knees slightly bent and your shoulders down. Raise one hand to chest height and slowly press the fingers back with the other hand, as far as is comfortable, until they curve away from the palm. Hold for five breaths and change hands. Then move both hands through four slow shapes: a bud, a leaf, a flower, a fruit. Keep your face calm and your breath even.",
+      "why": "The dancers carved on the walls of Angkor hold their fingers bent far back, a suppleness that Cambodian classical dancers still train from childhood by daily stretching. The court dance has some four thousand hand positions. Its slowness is the point: each gesture is held and finished. Almost all the dancers were killed in the 1970s, and the few survivors taught the art back into life.",
+      "variations": [
+        "Watch a performance of the Royal Ballet of Cambodia and copy one gesture.",
+        "Do any task today with deliberate, finished movements.",
+        "Stand in the pose for one minute without shifting."
+      ]
+    },
+    {
+      "id": "dusk",
+      "name": "Sit still at dusk with a wish for all",
+      "icon": "sun-horizon",
+      "slot": "Evening",
+      "time": "18:30",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "At sunset, sit facing the fading light. Let your face soften and your eyes half close, with the faint smile of the stone faces. Breathe quietly for a few minutes. Then bring to mind one person who is suffering and wish them free of it. Widen the wish to your household, your street, your country and everything that lives. Sit on until it is dark.",
+      "why": "The towers of the Bayon carry some two hundred giant faces looking out in the four directions, eyes lowered, lips just curved. They are taken to show the bodhisattva of compassion watching over the kingdom. Angkor Wat itself faces west, into the sunset. Cambodia has been a Buddhist country for seven hundred years, and the wish that all beings be well is recited daily.",
+      "variations": [
+        "Light a stick of incense or a candle first.",
+        "Do it beside water.",
+        "Repeat the king’s wish: may I draw them out of the ocean of suffering."
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task-read-zhou-daguan-on-daily-life-at-angkor",
+      "name": "Read Zhou Daguan on daily life at Angkor",
+      "meta": "Read · A Record of Cambodia, 1297",
+      "time": "20:30",
+      "slot": "Evening",
+      "action": "read"
+    },
+    {
+      "id": "task-listen-to-a-pinpeat-ensemble",
+      "name": "Listen to a pinpeat ensemble",
+      "meta": "Listen · the gongs, xylophones and oboe of the Cambodian court",
+      "time": "07:00",
+      "slot": "Morning",
+      "action": "listen"
+    },
+    {
+      "id": "task-look-closely-at-the-churning-of-the-ocean-of-milk",
+      "name": "Look closely at the Churning of the Ocean of Milk",
+      "meta": "Art · the east gallery of Angkor Wat, 49 metres long",
+      "time": "13:00",
+      "slot": "Afternoon",
+      "action": "art"
+    },
+    {
+      "id": "task-play-ouk-chaktrang",
+      "name": "Play ouk chaktrang",
+      "meta": "Games · Cambodian chess, or any game of chess",
+      "time": "19:30",
+      "slot": "Evening",
+      "action": "games"
+    },
+    {
+      "id": "task-journal-whose-pain-did-you-feel-as-your-own-today",
+      "name": "Journal: whose pain did you feel as your own today?",
+      "meta": "Journal · 10 min",
+      "time": "21:00",
+      "slot": "Evening",
+      "action": "journal"
+    },
+    {
+      "id": "task-why-build-in-stone-for-the-gods-and-in-wood-for-yourself",
+      "name": "Why build in stone for the gods and in wood for yourself?",
+      "meta": "Philosophy · 10 min",
+      "time": "09:30",
+      "slot": "Morning",
+      "action": "philosophy"
+    },
+    {
+      "id": "greet-someone-older-with-joined-palms-or-with-a-small-bow",
+      "name": "Greet someone older with joined palms, or with a small bow",
+      "meta": "Sampeah",
+      "time": "10:30",
+      "slot": "Morning"
+    },
+    {
+      "id": "carry-water-to-something-that-needs-it",
+      "name": "Carry water to something that needs it",
+      "meta": "The reservoir",
+      "time": "12:00",
+      "slot": "Afternoon"
+    },
+    {
+      "id": "finish-one-small-thing-today-as-carefully-as-if-it-were-carved",
+      "name": "Finish one small thing today as carefully as if it were carved",
+      "meta": "The stone carver",
+      "time": "16:00",
+      "slot": "Afternoon"
+    }
+  ],
+  "rules": [
+    {
+      "id": "r1",
+      "text": "Give first",
+      "why": "Begin the day with a gift. What you keep is not yours until you have shared."
+    },
+    {
+      "id": "r2",
+      "text": "Feel others’ pain as your own",
+      "why": "Notice who is sick, poor or far from home, and act."
+    },
+    {
+      "id": "r3",
+      "text": "Build for those who come after",
+      "why": "Do work that will outlast you, and do it well."
+    },
+    {
+      "id": "r4",
+      "text": "Keep the water flowing",
+      "why": "Look after what everyone depends on."
+    },
+    {
+      "id": "r5",
+      "text": "Move with grace",
+      "why": "Slow, finished gestures. A calm face."
+    },
+    {
+      "id": "r6",
+      "text": "Honour what is sacred",
+      "why": "Go quietly, greet with respect and follow the custom of the place."
+    }
+  ],
+  "immerse": {
+    "read": [
+      {
+        "id": "read-a-record-of-cambodia-the-land-and-its-people",
+        "title": "A Record of Cambodia: The Land and Its People",
+        "creator": "Zhou Daguan, translated by Peter Harris",
+        "year": "written 1297, this translation 2007",
+        "why": "The only eyewitness account of Angkor at its height, by a Chinese envoy who stayed a year. He describes houses, clothes, bathing, markets, justice and the king’s procession."
+      },
+      {
+        "id": "read-angkor-and-the-khmer-civilization",
+        "title": "Angkor and the Khmer Civilization",
+        "creator": "Michael D. Coe and Damian Evans",
+        "year": "2nd edition 2018",
+        "why": "The best single book, updated with the laser surveys that revealed the full extent of the city."
+      },
+      {
+        "id": "read-a-history-of-cambodia",
+        "title": "A History of Cambodia",
+        "creator": "David Chandler",
+        "year": "4th edition 2008",
+        "why": "From the first kingdoms to the present, by the leading historian of the country."
+      },
+      {
+        "id": "read-ancient-angkor",
+        "title": "Ancient Angkor",
+        "creator": "Michael Freeman and Claude Jacques",
+        "year": "1999",
+        "why": "A temple-by-temple guide with plans and photographs, by the scholar who read the inscriptions."
+      },
+      {
+        "id": "read-reamker",
+        "title": "Reamker",
+        "creator": "Traditional",
+        "year": "16th to 18th centuries",
+        "why": "The Glory of Rama. The Cambodian telling of the Ramayana, the story carved on the temple walls and danced ever since."
+      },
+      {
+        "id": "read-the-civilization-of-angkor",
+        "title": "The Civilization of Angkor",
+        "creator": "Charles Higham",
+        "year": "2001",
+        "why": "An archaeologist traces the rise of the Khmer state from the rice villages of prehistory."
+      }
+    ],
+    "watch": [
+      {
+        "id": "watch-jungle-atlantis",
+        "title": "Jungle Atlantis",
+        "creator": "BBC",
+        "year": "2014",
+        "why": "Two films on how airborne laser scanning showed the streets, ponds and suburbs of a vast city beneath the forest."
+      },
+      {
+        "id": "watch-angkor-land-of-the-gods",
+        "title": "Angkor: Land of the Gods",
+        "creator": "Smithsonian Channel",
+        "year": "2011",
+        "why": "The building of the empire and its temples, with reconstructions."
+      },
+      {
+        "id": "watch-the-tenth-dancer",
+        "title": "The Tenth Dancer",
+        "creator": "Sally Ingleton",
+        "year": "1993",
+        "why": "One of the few court dancers to survive the Khmer Rouge rebuilds the Royal Ballet with her pupil."
+      },
+      {
+        "id": "watch-in-the-mood-for-love",
+        "title": "In the Mood for Love",
+        "creator": "Wong Kar-wai",
+        "year": "2000",
+        "why": "The film ends at Angkor Wat, where a man whispers a secret into a hole in the stone and seals it with mud."
+      }
+    ],
+    "listen": [
+      {
+        "id": "listen-homrong",
+        "title": "Homrong",
+        "creator": "Musicians of the National Dance Company of Cambodia",
+        "year": "1991",
+        "why": "Court and folk music recorded when the survivors of the 1970s had just begun to perform again."
+      },
+      {
+        "id": "listen-the-music-of-cambodia-royal-court-music",
+        "title": "The Music of Cambodia: Royal Court Music",
+        "creator": "Recorded by David Parsons",
+        "year": "1994",
+        "why": "The pinpeat ensemble that accompanies dance, shadow theatre and temple ceremony."
+      },
+      {
+        "id": "listen-chapei-songs",
+        "title": "Chapei songs",
+        "creator": "Kong Nay",
+        "year": "recordings from the 2000s",
+        "why": "A blind master of the long-necked lute, who sang improvised verse of wit and moral advice."
+      },
+      {
+        "id": "listen-smot",
+        "title": "Smot",
+        "creator": "Cambodian funeral chanters",
+        "year": "traditional",
+        "why": "Slow, ornamented, grieving chant of Buddhist poems, sung through the night at funerals."
+      }
+    ],
+    "art": [
+      {
+        "id": "art-the-churning-of-the-ocean-of-milk",
+        "title": "The Churning of the Ocean of Milk",
+        "creator": "The carvers of Angkor Wat",
+        "year": "about 1140",
+        "why": "Ninety-two gods and eighty-eight demons haul on the body of a serpent wound round a mountain, while Vishnu steadies it and dancers rise from the foam."
+      },
+      {
+        "id": "art-the-faces-of-the-bayon",
+        "title": "The faces of the Bayon",
+        "creator": "The builders of Jayavarman VII",
+        "year": "about 1200",
+        "why": "Fifty-four towers, most with four faces each, calm and smiling, in the temple at the exact centre of the capital."
+      },
+      {
+        "id": "art-banteay-srei",
+        "title": "Banteay Srei",
+        "creator": "Built for the scholar Yajnavaraha",
+        "year": "consecrated 967",
+        "why": "A small temple of pink sandstone carved as finely as wood, with scenes from the epics in every pediment."
+      },
+      {
+        "id": "art-portrait-of-jayavarman-vii",
+        "title": "Portrait of Jayavarman VII",
+        "creator": "Unknown sculptor",
+        "year": "about 1200",
+        "why": "A seated figure with bowed head and closed eyes, without crown or jewels. In the National Museum, Phnom Penh."
+      }
+    ],
+    "eat": [
+      {
+        "id": "eat-rice-with-prahok",
+        "title": "Rice with prahok",
+        "creator": "Steamed rice and fermented fish",
+        "why": "The food of the empire’s farmers and builders, and of the countryside now."
+      },
+      {
+        "id": "eat-fish-amok",
+        "title": "Fish amok",
+        "creator": "Fish steamed in coconut and spice paste in a banana leaf",
+        "why": "The national dish, perfumed with lemongrass, galangal and turmeric."
+      },
+      {
+        "id": "eat-num-banh-chok",
+        "title": "Num banh chok",
+        "creator": "Fresh rice noodles with green fish gravy",
+        "why": "Breakfast, sold by women carrying baskets on a pole, with herbs and banana blossom."
+      },
+      {
+        "id": "eat-samlor-korko",
+        "title": "Samlor korko",
+        "creator": "A stirring soup of vegetables, fish and toasted rice",
+        "why": "A thick country stew that uses whatever the garden and pond provide."
+      }
+    ],
+    "drink": [
+      {
+        "id": "drink-palm-juice",
+        "title": "Palm juice",
+        "creator": "The sap of the sugar palm",
+        "why": "Collected at dawn by climbers on bamboo ladders. The sugar palm is the national tree."
+      },
+      {
+        "id": "drink-rice-wine",
+        "title": "Rice wine",
+        "creator": "Fermented from sticky rice",
+        "why": "Zhou Daguan listed it among four kinds of wine made at Angkor, with those of honey, leaves and sugar."
+      },
+      {
+        "id": "drink-sugar-cane-juice",
+        "title": "Sugar cane juice",
+        "creator": "Pressed to order, with a squeeze of lime",
+        "why": "Sold at every roadside."
+      }
+    ],
+    "customs": [
+      {
+        "id": "customs-the-sampeah",
+        "title": "The sampeah",
+        "creator": "Joined palms",
+        "why": "Held at the chest for equals, at the mouth for elders, at the nose for parents and teachers, at the brow for monks and the king."
+      },
+      {
+        "id": "customs-temple-manners",
+        "title": "Temple manners",
+        "creator": "Shoulders and knees covered",
+        "why": "Shoes and hats come off, voices drop, and one never sits higher than a monk or points one’s feet at a Buddha."
+      },
+      {
+        "id": "customs-the-morning-alms",
+        "title": "The morning alms",
+        "creator": "Rice for the monks",
+        "why": "Laypeople wait at their doors at dawn with food to place in the monks’ bowls, and receive a chanted blessing."
+      },
+      {
+        "id": "customs-the-head-and-the-feet",
+        "title": "The head and the feet",
+        "creator": "High and low",
+        "why": "The head is the most honoured part of the body and is not touched. The feet are the lowest and are kept tucked away."
+      }
+    ],
+    "games": [
+      {
+        "id": "games-ouk-chaktrang",
+        "title": "Ouk chaktrang",
+        "creator": "Board game · Cambodia",
+        "year": "from the Angkor period",
+        "why": "Cambodian chess, close to the ancient Indian game, with boats for rooks and fish for pawns. Players are shown at the board on the temple reliefs."
+      },
+      {
+        "id": "games-kun-lbokator",
+        "title": "Kun lbokator",
+        "creator": "Martial art · Cambodia",
+        "year": "from the Angkor period",
+        "why": "Strikes with elbows and knees, throws and weapons, with forms named after animals. Its moves appear on the walls of the Bayon."
+      },
+      {
+        "id": "games-boat-racing",
+        "title": "Boat racing",
+        "creator": "Team sport · Cambodia",
+        "year": "from the Angkor period",
+        "why": "Long dugout canoes with crews of sixty or more race on the river at the Water Festival, recalling the navy of Jayavarman VII."
+      },
+      {
+        "id": "games-chol-chhoung",
+        "title": "Chol chhoung",
+        "creator": "New Year game · Cambodia",
+        "year": "traditional",
+        "why": "Two lines of young men and women toss a knotted scarf back and forth and sing teasing verses."
+      }
+    ],
+    "festivals": [
+      {
+        "id": "fest-khmer-new-year",
+        "title": "Khmer New Year",
+        "creator": "Three days from 13 or 14 April",
+        "why": "Chaul Chnam Thmey. Houses are cleaned, elders’ hands are washed, Buddha images are bathed and everyone throws water."
+      },
+      {
+        "id": "fest-pchum-ben",
+        "title": "Pchum Ben",
+        "creator": "Fifteen days in September or October",
+        "why": "The days of the ancestors. Families take food to the monasteries for the dead of seven generations."
+      },
+      {
+        "id": "fest-the-water-festival",
+        "title": "The Water Festival",
+        "creator": "The full moon of November",
+        "why": "Bon Om Touk. Boat races mark the moment when the Tonlé Sap river turns and flows back to the sea."
+      },
+      {
+        "id": "fest-visak-bochea",
+        "title": "Visak Bochea",
+        "creator": "The full moon of May",
+        "why": "The birth, awakening and death of the Buddha, kept with candlelit processions around the temples."
+      }
+    ],
+    "places": [
+      {
+        "id": "place-angkor-wat",
+        "title": "Angkor Wat",
+        "creator": "Siem Reap, Cambodia",
+        "why": "The largest religious monument in the world, built for Suryavarman II in the twelfth century: five towers inside three galleries and a moat two hundred metres wide. Go at dawn."
+      },
+      {
+        "id": "place-the-bayon-and-angkor-thom",
+        "title": "The Bayon and Angkor Thom",
+        "creator": "Siem Reap, Cambodia",
+        "why": "The walled capital of Jayavarman VII, three kilometres square, entered over causeways lined with giants pulling serpents."
+      },
+      {
+        "id": "place-ta-prohm",
+        "title": "Ta Prohm",
+        "creator": "Siem Reap, Cambodia",
+        "why": "A monastery dedicated to the king’s mother in 1186, left as it was found, with the roots of silk-cotton trees pouring over its walls."
+      },
+      {
+        "id": "place-banteay-srei",
+        "title": "Banteay Srei",
+        "creator": "North of Angkor",
+        "why": "The jewel of Khmer art, in rose-coloured stone."
+      },
+      {
+        "id": "place-phnom-kulen",
+        "title": "Phnom Kulen",
+        "creator": "North-east of Angkor",
+        "why": "The sacred plateau where the empire was founded in 802. The bed of its river is carved with a thousand lingas, to bless the water flowing down to the city."
+      },
+      {
+        "id": "place-the-west-baray",
+        "title": "The West Baray",
+        "creator": "West of Angkor Thom",
+        "why": "The great reservoir of the eleventh century. People swim and picnic there, and it still irrigates the rice fields."
+      }
+    ]
+  },
+  "ethics": [
+    {
+      "title": "Compassion",
+      "text": "Feel the suffering of others and act to relieve it.",
+      "practice": "Do one thing for someone in pain."
+    },
+    {
+      "title": "Generosity",
+      "text": "Give freely and first.",
+      "practice": "Give something before your own meal."
+    },
+    {
+      "title": "Duty",
+      "text": "Each person upholds the order they are part of.",
+      "practice": "Do the task that falls to you, without being asked."
+    },
+    {
+      "title": "Reverence",
+      "text": "Treat sacred things and elders with respect.",
+      "practice": "Lower your voice and your head once today."
+    },
+    {
+      "title": "Patience",
+      "text": "Great works take generations.",
+      "practice": "Work on something you will not finish this year."
+    },
+    {
+      "title": "Humility",
+      "text": "Stone outlasts kings.",
+      "practice": "Do something good and leave your name off it."
+    }
+  ],
+  "philosophy": [
+    {
+      "title": "The king’s pain",
+      "text": "Jayavarman VII declared that a ruler suffers his people’s illnesses more than his own.",
+      "practice": "Whose wellbeing are you responsible for?"
+    },
+    {
+      "title": "The mountain at the centre",
+      "text": "The temple is a model of the universe, with the capital ordered around it.",
+      "practice": "What stands at the centre of your life?"
+    },
+    {
+      "title": "Stone and wood",
+      "text": "Only gods were housed in stone. Palaces and homes were of wood and have vanished.",
+      "practice": "What are you building to last, and what to use?"
+    },
+    {
+      "title": "Water as power",
+      "text": "The realm lived by storing the monsoon and releasing it. Whoever managed the water held the kingdom.",
+      "practice": "What common resource does your community depend on?"
+    },
+    {
+      "title": "Merit",
+      "text": "Good acts bear fruit for the doer and can be dedicated to others.",
+      "practice": "For whom would you dedicate a good deed?"
+    },
+    {
+      "title": "Many gods, one realm",
+      "text": "Shiva, Vishnu and the Buddha were honoured side by side, and temples changed their dedication with the king.",
+      "practice": "What do you hold together that others think must conflict?"
+    },
+    {
+      "title": "The cost of greatness",
+      "text": "The temples were raised by the forced labour of hundreds of thousands.",
+      "practice": "Who pays for what you admire?"
+    },
+    {
+      "title": "The city the forest took",
+      "text": "A capital of nearly a million people was given back to the trees.",
+      "practice": "What that seems permanent to you is not?"
+    }
+  ],
+  "journal": [
+    "Whose pain did you feel as your own today?",
+    "What did you give before you ate?",
+    "What did you walk around, and what did you see?",
+    "Who was sick or far from home?",
+    "What did you do for them?",
+    "How did your hands move today?",
+    "What did the dusk bring?",
+    "Whom did you wish well?",
+    "What are you building that will outlast you?",
+    "What did you finish as carefully as carving?",
+    "What stands at the centre of your days?",
+    "What water do you depend on?",
+    "Whom did you greet with respect?",
+    "What custom of the place did you follow?",
+    "What did you do without your name on it?",
+    "Who built the things you use?",
+    "What was their labour worth?",
+    "Where did you rush?",
+    "What looked back at you calmly?",
+    "What seems permanent in your life?",
+    "What is being reclaimed by the forest?",
+    "What did an elder teach you?",
+    "For whom would you dedicate today’s good?",
+    "What did you hold together that others set apart?",
+    "What did you leave for the traveller who comes after?",
+    "Where does your responsibility end?",
+    "What did you see at sunrise or sunset?",
+    "What would you carve in stone?",
+    "What should be left in wood?",
+    "How will you begin tomorrow?"
+  ],
+  "reflect": [
+    "What did giving first do to your mornings?",
+    "What did you notice on your slow circuits?",
+    "Whom did you care for?",
+    "What changed in the way you move?",
+    "What did the evenings of sitting give you?",
+    "Which rule will you keep?"
+  ],
+  "dayThemes": [
+    "The gift at dawn",
+    "The causeway",
+    "The moat",
+    "The gallery",
+    "Reading the wall",
+    "The mountain at the centre",
+    "The five towers",
+    "The serpent",
+    "The churning",
+    "The dancer",
+    "The hands",
+    "The calm face",
+    "The reservoir",
+    "The monsoon",
+    "The lake that turns",
+    "Rice",
+    "The road",
+    "The rest house",
+    "The hospital",
+    "The king’s pain",
+    "Compassion",
+    "Merit",
+    "Joined palms",
+    "Stone and wood",
+    "The carver",
+    "The builders",
+    "The forest",
+    "The west",
+    "Dusk",
+    "What remains"
+  ],
+  "guide": {
+    "intro": [
+      "For six hundred years the Khmer Empire was the great power of mainland South-East Asia. From its capital at Angkor, on the plain north of the Tonlé Sap lake in what is now Cambodia, its kings ruled at their height a territory that reached into present-day Thailand, Laos and southern Vietnam. They left behind more than a thousand temples, among them Angkor Wat, the largest religious building ever made. The people who built them were the ancestors of today’s Cambodians, who still call themselves Khmer.",
+      "The empire is usually dated from 802, when a prince who took the name Jayavarman II had himself consecrated on a mountain north of the lake as universal monarch, in a rite that bound the kingship to the god Shiva. His successors settled on the plain below, and around 900 King Yasovarman founded the city known as Angkor. Indian religion and learning had reached the region centuries earlier, and the Khmer court worshipped Shiva and Vishnu, wrote its inscriptions in Sanskrit and its own Old Khmer, and honoured the Buddha as well.",
+      "Angkor lived by water. The monsoon brings half a year of rain and half a year of drought, and the lake beside the city swells and shrinks with it, leaving one of the richest fisheries on Earth. Over centuries the Khmer built an immense system of canals, embankments and reservoirs, the largest of them eight kilometres long, to hold and spread the water. Laser surveys since 2007 have shown that the temples stood within a low-density city covering about a thousand square kilometres, the largest urban complex of the pre-industrial world, with perhaps three-quarters of a million people.",
+      "Each great king built a temple-mountain, a stepped pyramid crowned with towers that represented Mount Meru, the centre of the universe. In the first half of the twelfth century Suryavarman II raised Angkor Wat, dedicated to Vishnu, its walls covered with a mile of carving. In 1177 the neighbouring Cham sacked the city. The prince who drove them out, Jayavarman VII, was a Buddhist. He rebuilt the capital as Angkor Thom around the many-faced temple of the Bayon, and covered the empire with roads, bridges, rest houses and hospitals, declaring that the suffering of his people was his own.",
+      "After him the building slowed. A gentler form of Buddhism, the Theravada, spread among the people and needed no vast temples. In the fourteenth and fifteenth centuries decades of drought broken by violent floods wrecked parts of the water system, while the Thai kingdom of Ayutthaya pressed from the west and trade drew power toward the coast. In 1431 a Thai army took the city and the court moved south, toward where Phnom Penh now stands. Angkor Wat was never abandoned. Monks have cared for it without a break.",
+      "The splendour had a price. The temples were built and served by forced labour and by slaves, and the inscriptions count them by the tens of thousands.",
+      "This Onda takes its practices from the reign of Jayavarman VII and from the living Buddhist culture of Cambodia: the morning gift, the walk around, care for the sick and the traveller, the dancer’s discipline and stillness at dusk."
+    ],
+    "origin": "Cambodia, with much of what are now Thailand, Laos and southern Vietnam",
+    "era": "From the consecration of Jayavarman II in 802 to the move of the court from Angkor in 1431",
+    "figures": [
+      {
+        "name": "Jayavarman II",
+        "dates": "about 770 to 850",
+        "bio": "The founder. He united rival Khmer principalities and in 802 was consecrated on Phnom Kulen as sole ruler, free of any overlord."
+      },
+      {
+        "name": "Indravarman I",
+        "dates": "reigned 877 to 889",
+        "bio": "The first great builder. He dug a reservoir before he built his temples, setting the order his successors followed."
+      },
+      {
+        "name": "Yasovarman I",
+        "dates": "reigned 889 to about 910",
+        "bio": "He moved the capital to Angkor and built the East Baray, seven kilometres long, and a hundred hermitages."
+      },
+      {
+        "name": "Kavindrarimathana",
+        "dates": "active about 950",
+        "bio": "A Buddhist minister and the only Khmer architect known by name. He built the East Mebon and Srah Srang for a king who worshipped Shiva."
+      },
+      {
+        "name": "Yajnavaraha",
+        "dates": "active 967",
+        "bio": "A royal grandson, scholar and physician who founded Banteay Srei. The inscriptions praise him for healing the sick and helping the poor."
+      },
+      {
+        "name": "Suryavarman I",
+        "dates": "reigned about 1006 to 1050",
+        "bio": "He won the throne after a long civil war, extended the empire westward and built the West Baray."
+      },
+      {
+        "name": "Suryavarman II",
+        "dates": "reigned 1113 to about 1150",
+        "bio": "The builder of Angkor Wat. He appears on its walls seated under fifteen parasols, and sent embassies to China."
+      },
+      {
+        "name": "Jayavarman VII",
+        "dates": "about 1122 to 1218",
+        "bio": "He took the throne at about sixty after expelling the Cham and reigned for nearly forty years, building more than all his predecessors together."
+      },
+      {
+        "name": "Indradevi",
+        "dates": "active about 1200",
+        "bio": "Queen of Jayavarman VII, a Buddhist scholar who taught in the monasteries and composed a Sanskrit inscription in memory of her sister, the king’s first queen."
+      },
+      {
+        "name": "Jayavarman VIII",
+        "dates": "reigned 1243 to 1295",
+        "bio": "A devotee of Shiva under whom thousands of Buddha images were chiselled from the temple walls."
+      },
+      {
+        "name": "Zhou Daguan",
+        "dates": "about 1266 to 1346",
+        "bio": "A member of a Chinese embassy who lived at Angkor for nearly a year and wrote the only surviving description of its daily life."
+      },
+      {
+        "name": "Ponhea Yat",
+        "dates": "reigned about 1405 to 1463",
+        "bio": "The last king to rule from Angkor. After its capture he founded a new capital at the meeting of the rivers."
+      }
+    ],
+    "history": [
+      {
+        "when": "1st to 8th centuries",
+        "what": "Funan and Chenla",
+        "detail": "Trading kingdoms in the Mekong delta and then inland adopt Indian gods, writing and ideas of kingship."
+      },
+      {
+        "when": "802",
+        "what": "The founding",
+        "detail": "Jayavarman II is consecrated on Phnom Kulen. The rite is described in an inscription written two and a half centuries later."
+      },
+      {
+        "when": "877 to 889",
+        "what": "The first works",
+        "detail": "Indravarman I builds a reservoir, the temple of Preah Ko for his ancestors and the stepped pyramid of the Bakong."
+      },
+      {
+        "when": "About 900",
+        "what": "Angkor",
+        "detail": "Yasovarman I founds the city of Yasodharapura around the hill of Phnom Bakheng."
+      },
+      {
+        "when": "928 to 944",
+        "what": "Koh Ker",
+        "detail": "A rival king rules from a new capital a hundred kilometres away and builds a seven-tiered pyramid there."
+      },
+      {
+        "when": "967",
+        "what": "Banteay Srei",
+        "detail": "The small pink temple is consecrated by a scholar of the court."
+      },
+      {
+        "when": "About 1010 to 1050",
+        "what": "The West Baray",
+        "detail": "Suryavarman I and his successor build the largest of all the reservoirs."
+      },
+      {
+        "when": "About 1113 to 1150",
+        "what": "Angkor Wat",
+        "detail": "Suryavarman II builds his temple and tomb in some thirty-five years, floating the stone down a canal from Phnom Kulen."
+      },
+      {
+        "when": "1177",
+        "what": "The sack",
+        "detail": "A Cham fleet sails up the river and across the lake and takes the capital by surprise."
+      },
+      {
+        "when": "1181 to about 1218",
+        "what": "Jayavarman VII",
+        "detail": "The Buddhist king builds Angkor Thom, the Bayon, Ta Prohm and Preah Khan, with hospitals and rest houses across the realm."
+      },
+      {
+        "when": "1243 to 1295",
+        "what": "The reaction",
+        "detail": "Under Jayavarman VIII the state returns to Shiva and Buddhist images are defaced."
+      },
+      {
+        "when": "1296 and 1297",
+        "what": "The Chinese envoy",
+        "detail": "Zhou Daguan describes a rich city of gilded towers, markets run by women and a king who appears at a golden window."
+      },
+      {
+        "when": "About 1350 to 1420",
+        "what": "Drought and flood",
+        "detail": "Tree rings record two periods of severe drought broken by exceptional monsoons. Canals silt up and embankments are breached."
+      },
+      {
+        "when": "1431",
+        "what": "The fall",
+        "detail": "An army of Ayutthaya takes Angkor after a siege. The court withdraws to the south."
+      }
+    ],
+    "concepts": [
+      {
+        "term": "The god-king",
+        "text": "Kingship joined to the divine.",
+        "detail": "The king was the protector of the realm’s sacred emblem and, after death, was united with his god. The exact meaning of the cult is still argued over."
+      },
+      {
+        "term": "The temple-mountain",
+        "text": "The universe in stone.",
+        "detail": "Towers for the peaks of Meru, walls for the mountain ranges, the moat for the cosmic ocean. To build one was to put the kingdom in order."
+      },
+      {
+        "term": "The hydraulic city",
+        "text": "A capital built around water.",
+        "detail": "Reservoirs, canals and raised fields evened out the monsoon. Scholars debate how much they served irrigation and how much ritual, and now agree they did both."
+      },
+      {
+        "term": "Hindu and Buddhist",
+        "text": "Two faiths, one culture.",
+        "detail": "Shiva and Vishnu were the gods of most kings and the Buddha of some. Since the fourteenth century Cambodia has followed Theravada Buddhism."
+      },
+      {
+        "term": "Merit and foundation",
+        "text": "Giving as policy.",
+        "detail": "Kings and nobles endowed temples with land, villages and workers and recorded it on stone. A temple was a religious house, a landholder and a bank."
+      },
+      {
+        "term": "Compassion in government",
+        "text": "The state as carer.",
+        "detail": "Jayavarman VII presented hospitals, roads and rest houses as the acts of a ruler who shared his people’s pain."
+      },
+      {
+        "term": "The pulse of the lake",
+        "text": "A river that runs both ways.",
+        "detail": "In the rains the Mekong forces the Tonlé Sap river backwards and the lake floods the forest. When it drains, the fish are gathered by the ton."
+      },
+      {
+        "term": "Labour and bondage",
+        "text": "Who built Angkor.",
+        "detail": "Free farmers owed months of work each year, and large numbers of people were bound to temples and masters as slaves."
+      },
+      {
+        "term": "The long decline",
+        "text": "Not a sudden collapse.",
+        "detail": "Climate, a damaged water system, war, a change of religion and a shift of trade to the coast together drew the court away over a century."
+      }
+    ],
+    "facts": [
+      {
+        "text": "Angkor Wat appears on the flag of Cambodia, the only national flag to show a building of this kind."
+      },
+      {
+        "text": "The temple of Ta Prohm recorded that 79,365 people from 3,140 villages were needed to maintain it, including 615 dancers."
+      },
+      {
+        "text": "A Khmer inscription of the year 683 contains the oldest dated use of a written zero that is known."
+      },
+      {
+        "text": "Angkor Wat is built of between five and ten million sandstone blocks, laid without mortar."
+      },
+      {
+        "text": "Zhou Daguan reported that the Cambodians could harvest three or four crops of rice a year."
+      },
+      {
+        "text": "On the morning of the spring equinox the sun rises directly over the central tower of Angkor Wat."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Khmer",
+        "meaning": "The people and language of Cambodia"
+      },
+      {
+        "term": "Cham",
+        "meaning": "The people of Champa, a rival kingdom on the coast of what is now central Vietnam"
+      },
+      {
+        "term": "Theravada",
+        "meaning": "The school of Buddhism followed in Cambodia, Thailand, Laos, Myanmar and Sri Lanka"
+      },
+      {
+        "term": "Bas-relief",
+        "meaning": "Carving that stands only slightly out from a flat wall"
+      },
+      {
+        "term": "Laterite",
+        "meaning": "A red, iron-rich stone used for foundations and walls"
+      },
+      {
+        "term": "Lidar",
+        "meaning": "Mapping by laser from the air, which can see the shape of the ground through forest"
+      }
+    ],
+    "furtherReading": [
+      {
+        "title": "The Indianized States of Southeast Asia",
+        "creator": "George Coedès",
+        "year": "1968",
+        "note": "The classic history built from the inscriptions, by the scholar who deciphered most of them."
+      },
+      {
+        "title": "Angkor: Cambodia’s Wondrous Khmer Temples",
+        "creator": "Dawn F. Rooney",
+        "year": "6th edition 2011",
+        "note": "A thorough and readable guide for the visitor."
+      },
+      {
+        "title": "In the Shadow of the Banyan",
+        "creator": "Vaddey Ratner",
+        "year": "2012",
+        "note": "A novel of a child’s survival under the Khmer Rouge, steeped in the old stories and poetry."
+      },
+      {
+        "title": "Khmer Mythology: Secrets of Angkor",
+        "creator": "Vittorio Roveda",
+        "year": "1997",
+        "note": "How to read the stories on the temple walls."
+      }
+    ],
+    "learnFrom": [
+      {
+        "name": "APSARA National Authority",
+        "note": "The Cambodian body that protects and manages Angkor, with guidance for visitors.",
+        "link": "https://apsaraauthority.gov.kh"
+      },
+      {
+        "name": "Cambodian Living Arts",
+        "note": "Founded by a survivor to revive the performing arts by supporting the last masters and their students.",
+        "link": "https://www.cambodianlivingarts.org"
+      },
+      {
+        "name": "National Museum of Cambodia",
+        "note": "The national collection of Khmer sculpture in Phnom Penh.",
+        "link": "https://www.cambodiamuseum.info"
+      },
+      {
+        "name": "A Cambodian temple near you",
+        "note": "Cambodian communities abroad have built monasteries in many cities. Visitors who come respectfully are welcome, above all at New Year."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Angkor and the Khmer Civilization",
+        "creator": "Michael D. Coe and Damian Evans",
+        "publisher": "Thames and Hudson",
+        "year": "2018"
+      },
+      {
+        "title": "A History of Cambodia",
+        "creator": "David Chandler",
+        "publisher": "Westview Press",
+        "year": "2008"
+      },
+      {
+        "title": "A Record of Cambodia: The Land and Its People",
+        "creator": "Zhou Daguan, trans. Peter Harris",
+        "publisher": "Silkworm Books",
+        "year": "2007"
+      },
+      {
+        "title": "The Civilization of Angkor",
+        "creator": "Charles Higham",
+        "publisher": "Weidenfeld and Nicolson",
+        "year": "2001"
+      },
+      {
+        "title": "A comprehensive archaeological map of the world’s largest preindustrial settlement complex at Angkor, Cambodia",
+        "creator": "Damian Evans and others",
+        "publisher": "Proceedings of the National Academy of Sciences, volume 104",
+        "year": "2007"
+      },
+      {
+        "title": "Climate as a contributing factor in the demise of Angkor, Cambodia",
+        "creator": "Brendan M. Buckley and others",
+        "publisher": "Proceedings of the National Academy of Sciences, volume 107",
+        "year": "2010"
+      }
+    ]
+  },
+  "sensitivity": {
+    "note": "The Khmer Empire is the past of a living nation, and its temples are places of worship today. This Onda was written by outsiders from published sources and draws on the public record of Jayavarman VII and on everyday Cambodian Buddhist custom. It should be reviewed by Cambodian readers.",
+    "requiredCaveats": [
+      "Angkor was built by forced labour and slavery, and its kings waged constant war. The practices here take up its ideals of care, not its methods.",
+      "Cambodians lived through genocide between 1975 and 1979, in which about a quarter of the population died. Many of those who kept the arts alive were among the dead.",
+      "A great deal of Khmer sculpture was looted and sold abroad. Museums are still returning it. Buy nothing old.",
+      "If you visit, the temples are sacred. Dress modestly, do not climb or touch the carvings, and do not pose with or touch monks."
+    ],
+    "reviewRequired": true
+  }
+}

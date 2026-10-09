@@ -45,10 +45,13 @@
       html[data-theme="dark"],html[data-theme="dark"] body{background:var(--boot-bg,#1B1C1F)}
       #boot{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;font:600 44px/1 "Newsreader",Georgia,serif;letter-spacing:-.01em;color:#8A8A8E;pointer-events:none;z-index:1}
       html[data-theme="dark"] #boot{color:#6C6C70}
+      /* The strip iOS samples for the bar behind the clock (see src/app/statusBar.ts). Opaque, fixed to the top edge, above everything. */
+      #status-strip{position:fixed;top:0;left:0;right:0;z-index:2147483000;height:env(safe-area-inset-top,0px);background:var(--surface-grouped,var(--boot-bg,#F5F1E8));pointer-events:none}
+      @supports (-webkit-touch-callout:none){#status-strip{height:max(env(safe-area-inset-top,0px),6px);pointer-events:auto}}
     </style>
     <script>
-      // Apply the saved appearance and background before first paint. iOS colours the strip behind the clock and
-      // battery from the page as it is at launch, so the right background has to be here already (see DECISIONS.md, 3.0).
+      // Apply the saved appearance and background before first paint. iOS colours the bar behind the clock and
+      // battery from the page as it is when it loads, so the right colour has to be here already (see src/app/statusBar.ts).
       (function () {
         var root = document.documentElement, m = 'auto', bg = null;
         try { m = localStorage.getItem('onda.theme') || 'auto'; } catch (e) {}
@@ -68,6 +71,7 @@
   </head>
   <body>
     <div id="root"></div>
+    <div id="status-strip" aria-hidden="true"></div>
     <div id="boot" aria-hidden="true">Onda</div>
     <noscript>Onda needs JavaScript to run.</noscript>
     <script type="module" src="/src/main.tsx"></script>

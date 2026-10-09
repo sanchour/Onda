@@ -20,7 +20,7 @@ test.describe('Onboarding and paywall', () => {
     await expect(page.getByRole('slider')).toHaveAttribute('aria-valuenow', '14')
     await tap(page, 'Next')
     await expect(page.getByRole('heading', { name: 'Which Onda calls you first?' })).toBeVisible()
-    await expect(page.getByRole('radio')).toHaveCount(60)
+    await expect(page.getByRole('radio')).toHaveCount(64)
     await tap(page, /Zen Buddhism/, 'radio')
     await expect(page.getByRole('button', { name: /skip/i })).toHaveCount(0)
     await tap(page, 'Get Started')
@@ -426,7 +426,7 @@ test.describe('Ondas', () => {
   test('browsing another Onda previews it; beginning it ends the current one', async ({ page }) => {
     await startTrial(page)
     await tap(page, 'Browse Ondas')
-    await expect(page.getByText('Sixty worlds to live in')).toBeVisible()
+    await expect(page.getByText('Sixty-four worlds to live in')).toBeVisible()
     await expect(page.getByRole('button', { name: /Stoicism/ })).toContainText('Active')
     await tap(page, /Taoism/)
     await expect(page.getByRole('heading', { name: '14 days' })).toBeVisible()
@@ -515,6 +515,9 @@ test.describe('Stats and Settings', () => {
     await tap(page, /^Appearance/)
     await expect(page.locator('html')).toHaveAttribute('data-theme', 'light')
     await tap(page, 'Dark', 'tab')
+    await expect(page.locator('html')).toHaveAttribute('data-theme', 'dark')
+    // 5.1: on an iPhone the app reloads itself here so that iOS recolours the bar behind the clock, and comes back to this screen
+    await expect(page.locator('html')).toHaveAttribute('data-resumed', '1', { timeout: 60_000 })
     await expect(page.locator('html')).toHaveAttribute('data-theme', 'dark')
     await expect(page.getByText('Default Onda length')).toBeVisible()
     await tap(page, 'Back')
@@ -616,19 +619,46 @@ test.describe('Update 5.0', () => {
     await expect(row).toHaveAttribute('aria-checked', before ?? 'false')
   })
 
-  test('Settings shows version 5.0 and the theme colour follows light and dark', async ({ page }) => {
+  test('Settings shows version 5.1; switching light and dark repaints the top strip, reloads once and returns to the same screen', async ({ page }) => {
     await seedDemo(page)
     await tap(page, 'Settings')
-    await expect(page.getByText('Onda 5.0')).toBeVisible()
-    const bar = () => page.evaluate(() => [document.querySelectorAll('meta[name="theme-color"]').length, document.querySelector('meta[name="theme-color"]')?.getAttribute('content'), document.querySelector('meta[name="color-scheme"]')?.getAttribute('content'), getComputedStyle(document.documentElement).backgroundColor].join('|'))
+    await expect(page.getByText('Onda 5.1')).toBeVisible()
+    const bar = () =>
+      page.evaluate(() => {
+        const strip = document.getElementById('status-strip')!
+        const cs = getComputedStyle(strip)
+        return {
+          metas: document.querySelectorAll('meta[name="theme-color"]').length,
+          theme: document.querySelector('meta[name="theme-color"]')?.getAttribute('content')?.toLowerCase(),
+          scheme: document.querySelector('meta[name="color-scheme"]')?.getAttribute('content'),
+          strip: cs.backgroundColor,
+          page: getComputedStyle(document.body).backgroundColor,
+          fixed: cs.position,
+          boot: document.documentElement.style.getPropertyValue('--boot-bg').toLowerCase(),
+        }
+      })
     await tap(page, /^Appearance/)
     await tap(page, 'Dark', 'tab')
-    await expect.poll(async () => (await bar()).split('|')[2]).toBe('dark')
+    await expect(page.locator('html')).toHaveAttribute('data-resumed', '1', { timeout: 60_000 })
+    await expect(page.getByRole('tab', { name: 'Dark' })).toHaveAttribute('aria-selected', 'true')
+    await expect.poll(async () => (await bar()).scheme).toBe('dark')
     const dark = await bar()
+    // the page that loaded was already dark before its first paint, which is what iOS samples
+    expect(dark.boot).toBe(dark.theme)
+    expect(dark.strip).toBe(dark.page)
+    expect(dark.fixed).toBe('fixed')
+    expect(dark.metas).toBe(1)
+
     await tap(page, 'Light', 'tab')
-    await expect.poll(async () => (await bar()).split('|')[2]).toBe('light')
+    await expect(page.locator('html')).toHaveAttribute('data-resumed', '2', { timeout: 60_000 })
+    await expect(page.getByRole('tab', { name: 'Light' })).toHaveAttribute('aria-selected', 'true')
+    await expect.poll(async () => (await bar()).scheme).toBe('light')
     const light = await bar()
-    expect(dark.split('|')[0]).toBe('1')
-    expect(light.split('|')[1]).not.toBe(dark.split('|')[1])
+    expect(light.boot).toBe(light.theme)
+    expect(light.strip).toBe(light.page)
+    expect(light.strip).not.toBe(dark.strip)
+    // and the way back still works after the reload
+    await tap(page, 'Back')
+    await expect(page.getByRole('heading', { name: 'Settings' })).toBeVisible()
   })
 })

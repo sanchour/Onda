@@ -63,6 +63,8 @@ interface NavState {
   remove: (key: string) => void
   popToRoot: (tab?: Tab) => void
   replaceTop: (r: Route) => void
+  /** Put back a tab and its pushed pages, with no animation history (after a reload). */
+  restore: (tab: Tab, routes: Route[]) => void
   openSheet: (s: SheetRoute) => void
   closeSheet: (key?: string) => void
   /** Swap the top sheet for another one, e.g. journal list -> editor -> back to list. */
@@ -100,6 +102,7 @@ export const useNav = create<NavState>()((set, get) => ({
   remove: (k) => set({ stack: get().stack.filter((e) => e.key !== k) }),
   popToRoot: (tab) => set({ stack: [], sheets: [], menu: null, ...(tab ? { tab } : {}) }),
   replaceTop: (r) => set({ stack: [...get().stack.slice(0, -1), { ...r, key: key() }] }),
+  restore: (tab, routes) => set({ tab, stack: routes.map((r) => ({ ...r, key: key() })), sheets: [], menu: null }),
   openSheet: (s) => {
     // A second tap while the first sheet is still arriving must not stack another one.
     const top = get().sheets.find((e) => !e.closing && e.name === s.name && s.name !== 'time')

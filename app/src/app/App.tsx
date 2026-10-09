@@ -15,6 +15,7 @@ import { TabBar } from '@/ui/TabBar'
 import { useSync } from '@/sync/useSync'
 import { ROUTES, SHEETS, prefetchChunks } from './registry'
 import { Overlays } from './Overlays'
+import { barChanged, takeResume } from './statusBar'
 
 const Onboarding = lazy(() => import('@/screens/Onboarding'))
 const LagosTab = lazy(() => import('@/screens/LagosTab'))
@@ -78,6 +79,7 @@ function useShell() {
   const dark = useDark()
   const mode = useSettings().themeMode
   const tick = useStore((s) => s.tick)
+  const ready = useStore((s) => s.ready)
 
   useLayoutEffect(() => {
     const root = document.documentElement
@@ -122,6 +124,8 @@ function useShell() {
       root.style.colorScheme = dark ? 'dark' : 'light'
     }
     paintBar()
+    // Once the data is in, tell the status bar code what the page looks like now (see statusBar.ts)
+    if (ready) barChanged(bg, dark)
     const raf = requestAnimationFrame(paintBar)
     const onShow = () => document.visibilityState === 'visible' && paintBar()
     document.addEventListener('visibilitychange', onShow)
@@ -148,7 +152,7 @@ function useShell() {
     root.style.setProperty('--accent', accent)
     root.style.setProperty('--accent-contrast', on)
     return stopBar
-  }, [run, index, themed, look.strong, look.solid, dark, tint])
+  }, [run, index, themed, look.strong, look.solid, dark, tint, ready])
 
   useEffect(() => {
     // On-screen keyboard height, so sheets can keep the focused field visible
@@ -192,6 +196,9 @@ export function App() {
   useEffect(() => {
     if (!ready) return
     const q = new URLSearchParams(location.search)
+    // Back from a reload made for the status bar: return to the same screen
+    const resume = takeResume()
+    if (resume) useNav.getState().restore(resume.tab, resume.stack.filter((r) => r.name in ROUTES))
     const tab = q.get('tab')
     if (tab === 'lagos' || tab === 'ondas' || tab === 'stats') useNav.getState().setTab(tab)
     // Returning from Notion's consent page or from Stripe Checkout
@@ -268,7 +275,6 @@ export function App() {
         </Suspense>
       )}
       <SheetHost />
-      <div className={navCss.statusFill} aria-hidden />
       {menu && <Menu spec={menu} onClose={closeMenu} />}
       <Overlays />
     </div>

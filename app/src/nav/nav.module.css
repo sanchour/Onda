@@ -49,8 +49,3 @@
 
 /* Privacy cover for the app switcher */
 .cover{position:absolute;inset:0;z-index:200;background:var(--surface-grouped);display:flex;align-items:center;justify-content:center;flex-direction:column;gap:14px}
-
-/* The strip behind the clock and battery. On installs where iOS draws the bar itself (status bar style "default") this has no
-   height and iOS colours the bar from theme-color. On installs where the page runs under the bar it paints the strip in the
-   page colour, so the strip is light in light mode and dark in dark mode either way. */
-.statusFill{position:fixed;z-index:300;top:0;left:0;right:0;height:env(safe-area-inset-top,0px);pointer-events:none;background:var(--surface-grouped)}

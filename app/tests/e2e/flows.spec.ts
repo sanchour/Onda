@@ -370,6 +370,7 @@ test.describe('Ondas', () => {
   })
 
   test('Today page, Full guide with nine tabs, and the immersion library with its quick sheet', async ({ page }) => {
+    test.slow() // the longest walk in the suite: three pages, nine guide tabs and a sheet
     await tap(page, 'Browse Ondas')
     await tap(page, /Stoicism/)
     await settle(page, 900)

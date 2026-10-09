@@ -576,7 +576,7 @@ button.softCard{width:100%;text-align:start;display:block}
 .kindTile{display:grid;grid-template-columns:52px minmax(0,1fr);grid-template-rows:auto auto;column-gap:12px;row-gap:1px;align-items:center;padding:10px 12px 10px 10px}
 .kindArt{grid-row:1 / 3;width:52px;height:52px;border-radius:var(--onda-radius-sm,15px)}
 .kindArt svg{width:42px;height:28px}
-.kindName{margin:0;align-self:end;font-size:var(--fs-17);overflow-wrap:anywhere}
+.kindName{margin:0;align-self:end;font-size:var(--fs-17);white-space:nowrap}
 .kindCount{margin:0;align-self:start}
 .kindDots{display:none}
 .lib{grid-template-columns:minmax(0,1fr);gap:8px}

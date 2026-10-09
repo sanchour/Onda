@@ -5,6 +5,7 @@ import { immerseSet, runSummary } from '@/data/derive/onda'
 import { planForDay } from '@/data/derive/plan'
 import { useLook, useOndaIndex, useSettings } from '@/data/hooks'
 import { useStore } from '@/data/store'
+import { columnWidth, fitSize } from '@/lib/fit'
 import { haptic } from '@/lib/haptics'
 import { EASE_ENTER, PUSH_MS, reducedMotion } from '@/lib/motion'
 import { BackButton, ChromeSpacer, ChromeTitle, Screen } from '@/nav/Screen'
@@ -79,7 +80,7 @@ export function Immersion({ entry }: { entry: Extract<StackEntry, { name: 'immer
                   <span className={o.kindArt}>
                     <KindArt kind={k} />
                   </span>
-                  <span className={o.kindName}>{t(`kindLabel.${k}`)}</span>
+                  <span className={o.kindName} style={{ fontSize: fitSize(t(`kindLabel.${k}`), columnWidth() / 2 - 6 - 88, 17, 11, active.look.caps) }}>{t(`kindLabel.${k}`)}</span>
                   <span className={o.kindCount}>
                     <span className={o.kindDots} aria-hidden>
                       {Array.from({ length: Math.min(c.total, 8) }, (_, i) => (

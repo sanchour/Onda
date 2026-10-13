@@ -300,17 +300,17 @@
     {
       "id": "memmetaal",
       "name": "Speak your mother tongue",
-      "icon": "translate",
+      "icon": "chat-teardrop",
       "slot": "Morning",
       "time": "07:30",
       "minutes": 10,
       "meta": "Morning · 10 min",
-      "instructions": "Use the language you were raised in today, on purpose. If you have a home language, a dialect or an accent that you put away at work or in town, bring it out: greet people in it, think in it, ring someone who shares it. Read one short poem aloud in it. If you only have one language, learn the Frisian greeting goeie and three words of the oldest local speech of the place where you live.",
-      "why": "About 450,000 people speak West Frisian, most of them at home and in the village. It survived centuries without schools, courts or churches of its own because parents went on speaking it to their children. On 16 November 1951 a crowd in Leeuwarden was beaten back by police after a judge refused to hear Frisian in court. Within five years the law was changed.",
+      "instructions": "Use the language you were raised in today, on purpose. If you have a home language, a dialect or an accent that you put away at work or in town, bring it out: greet people in it, think in it, ring someone who shares it. If you only have one language, speak it slowly and plainly, without borrowed jargon. The rule of this Onda is to speak your own language.",
+      "why": "Frisian, Frysk, is a recognised language spoken by about half a million people. Using the mother tongue, memmetaal, with pride is the heart of Frisian identity.",
       "variations": [
-        "Say the old test aloud: bûter, brea en griene tsiis.",
-        "Write a few lines in your home language to an older relative.",
-        "Follow a free first lesson in Frisian from Afûk."
+        "Phone someone and speak in dialect.",
+        "Learn a Frisian greeting.",
+        "Write a note in your home language."
       ]
     },
     {
@@ -321,28 +321,92 @@
       "time": "08:30",
       "minutes": 40,
       "meta": "Morning · 40 min",
-      "instructions": "Go out for forty minutes whatever the weather. Dress for it. Find open ground or water if you can, and walk or cycle the first half straight into the wind, so that it carries you home. Keep a steady pace and do not stop to shelter. Look at the sky, which in flat country is most of the view, and say what the weather will do in the next hour. Come home and get warm.",
-      "why": "Friesland is flat, open and wet, and the wind off the North Sea is seldom still. People there live outdoors in it: cycling to school along the dikes, sailing the lakes, walking over the mudflats to the islands at low tide. The landscape itself was made by generations who went out daily to dig, drain and mend.",
+      "instructions": "Go out for forty minutes whatever the weather. Dress for it. Find open ground or water if you can, and walk or cycle the first half straight into the wind, so that it carries you home. Keep a steady pace and do not stop for the rain. The rule of this Onda is to go out in all weathers. Turn back if conditions are dangerous.",
+      "why": "Friesland is flat and windy, and Frisians cycle and walk in all weathers. The wind is part of the landscape.",
       "variations": [
-        "Walk along a dike, a sea wall or a river bank.",
-        "Cycle instead, and take the headwind first.",
-        "With a licensed guide, walk the mudflats of the Wadden Sea."
+        "Cycle along a canal.",
+        "Walk on the beach.",
+        "Go out in the rain with a good coat."
+      ]
+    },
+    {
+      "id": "rye-bread-and-clove-cheese",
+      "name": "Rye bread and clove cheese",
+      "icon": "bread",
+      "slot": "Morning",
+      "time": "07:00",
+      "minutes": 15,
+      "meta": "Morning · 15 min",
+      "instructions": "Eat a Frisian breakfast of dark rye bread with butter and slices of nagelkaas, a hard Frisian cheese with cloves and cumin, and a cup of tea or coffee. Sit at a table and eat slowly. Add a slice of ginger cake if you like. Frisian farms produced cheese and rye for centuries.",
+      "why": "Nagelkaas, clove cheese, is a spiced cheese of Friesland, eaten on rye bread. It is hearty and sharp.",
+      "variations": [
+        "Try any hard cheese with caraway.",
+        "Make a sandwich for later.",
+        "Eat with a boiled egg."
+      ]
+    },
+    {
+      "id": "say-it-plainly",
+      "name": "Say it plainly",
+      "icon": "quotes",
+      "slot": "Morning",
+      "time": "09:00",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "In every conversation today, say what you mean in plain words, kindly and without padding. Frisians have a saying: rjocht en sljocht, straight and simple. Avoid hints, hedges and flattery. If you have bad news, say it gently but clearly. If you agree, say yes; if you do not, say so. Notice how people respond.",
+      "why": "Rjocht en sljocht, straight and plain, is a Frisian ideal. Plain speech saves time and builds trust.",
+      "variations": [
+        "Say no without apologising.",
+        "Give a compliment without adding a but.",
+        "Ask a direct question."
+      ]
+    },
+    {
+      "id": "read-the-sky-and-the-water",
+      "name": "Read the sky and the water",
+      "icon": "cloud-sun",
+      "slot": "Morning",
+      "time": "08:00",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Look at the sky and the nearest water for ten minutes. Watch the clouds, the wind and the surface of the water. Predict the next few hours of weather, then check at noon. The Frisians’ lives have depended on weather and tides for two thousand years, and their landscapes are wide, so the sky is huge.",
+      "why": "The flat Frisian landscape gives a huge sky, and sailors and farmers read it. Watching clouds for ten minutes is a rewarding habit.",
+      "variations": [
+        "Note the wind direction.",
+        "Photograph the sky daily.",
+        "Sketch the clouds."
+      ]
+    },
+    {
+      "id": "a-frisian-word-or-two",
+      "name": "A Frisian word or two",
+      "icon": "translate",
+      "slot": "Morning",
+      "time": "07:45",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Learn two Frisian words or phrases today: goeie, hello; tige tank, thank you very much; oant sjen, see you; noflik, pleasant; mienskip, community. Say them aloud to practise the sounds, which are close to English and Dutch. Greet someone with them or write them on a card.",
+      "why": "Frisian is the closest living language to English, and many words are almost identical: butter and fish are bûter and fisk. A few words is a friendly start.",
+      "variations": [
+        "Say bûter, brea en tsiis for butter, bread and cheese.",
+        "Learn the numbers to five.",
+        "Say oant sjen to a friend."
       ]
     },
     {
       "id": "your-stretch",
       "name": "Keep your stretch of the dike",
-      "icon": "spade",
+      "icon": "shield",
       "slot": "Afternoon",
       "time": "14:00",
       "minutes": 20,
       "meta": "Afternoon · 20 min",
-      "instructions": "Name one thing that protects more people than yourself and that only holds if everyone does their part: a shared stairwell, a team’s records, a street, a club, a family’s finances. Find your stretch of it. Spend twenty minutes today putting that stretch in good order, properly, whether or not anyone will inspect it. If a neighbour’s stretch is failing, offer a hand before you complain.",
-      "why": "A dike is only as strong as its weakest length. Under the old law of the coast each farm was responsible for a measured section, inspectors walked the whole line each spring and autumn, and a holder who could not keep his part up had to plant his spade in the dike and give up his land. From this grew the water boards, the oldest elected bodies in the Netherlands.",
+      "instructions": "Name one thing that protects more people than yourself and that only holds if everyone does their part: a shared stairwell, a team’s records, a street, a club, a family’s finances. Find your stretch of it. Spend twenty minutes checking and strengthening it. Mend what is weak before the storm. The rule of this Onda is to keep your stretch.",
+      "why": "The dikes of Friesland protect the land from the sea, and each landowner was once responsible for a stretch. The lesson is that the whole holds only if each part does.",
       "variations": [
-        "Find out who looks after flood defences or drains where you live.",
-        "Do a job for your building or street that is nobody’s job.",
-        "Help a neighbour with a repair."
+        "Fix a small problem in a shared place.",
+        "Update a shared file.",
+        "Check on a neighbour."
       ]
     },
     {
@@ -353,159 +417,420 @@
       "time": "16:30",
       "minutes": 30,
       "meta": "Afternoon · 30 min",
-      "instructions": "Do thirty minutes of steady effort in the open air: skating if there is ice, otherwise a run, a row, a sail, a long ride or a game with a ball. Choose a distance a little further than is comfortable and finish it at an even pace. Do not talk about how hard it is. When you most want to stop, put your head down and count a hundred more strokes or steps.",
-      "why": "Frisian sports are plain, outdoor and stubborn. The Eleven Cities Tour covers nearly two hundred kilometres of canal ice in a day and has been held only fifteen times since 1909, the last on 4 January 1997. In 1963 it was skated in a blizzard at eighteen degrees below zero, and of some ten thousand who started, sixty-nine finished.",
+      "instructions": "Do thirty minutes of steady effort in the open air: skating if there is ice, otherwise a run, a row, a sail, a long ride or a game with a ball. Choose a distance a little further than is comfortable and finish it at an even pace, kop derfoar, head to the front. Warm up first and stop if anything hurts.",
+      "why": "Kop derfoar, head first, is the Frisian spirit of getting on with it. The Eleven Cities Tour on skates, over 200 kilometres, is its greatest test.",
       "variations": [
-        "Play ball against a wall with the palm of your hand.",
-        "Jump a ditch, or measure how far you can leap from standing.",
-        "Walk or cycle a stage of the Eleven Cities route."
+        "Cycle into the wind.",
+        "Row or paddle.",
+        "Skate if the ice is safe."
+      ]
+    },
+    {
+      "id": "do-your-neighbour-duty",
+      "name": "Do your neighbour duty",
+      "icon": "handshake",
+      "slot": "Afternoon",
+      "time": "15:00",
+      "minutes": 20,
+      "meta": "Afternoon · 20 min",
+      "instructions": "Do a neighbour duty today: carry the shopping, bring in the post, clear the snow, lend a tool, help with a task. In Frisian villages, buorplicht, neighbour duty, was a binding custom: neighbours helped at births, weddings and funerals, and with the hay. Offer and do not wait to be asked. The rule of this Onda is to stand by your neighbours.",
+      "why": "Buorplicht is the Frisian duty of neighbours to help one another. It is the practical side of the community spirit, mienskip.",
+      "variations": [
+        "Offer a ride.",
+        "Take a plate of food to a neighbour.",
+        "Help someone with a chore."
+      ]
+    },
+    {
+      "id": "a-game-of-draughts",
+      "name": "A game of draughts",
+      "icon": "cube",
+      "slot": "Afternoon",
+      "time": "16:00",
+      "minutes": 30,
+      "meta": "Afternoon · 30 min",
+      "instructions": "Play a game of Frisian draughts, Frysk damjen, or ordinary draughts, with a friend. The Frisian version is played on a 10 by 10 board, with kings and big captures. Concentrate and shake hands at the end. Frisian draughts has been played since the 17th century, in cafés and homes.",
+      "why": "Frisian draughts, or Frysk damjen, is a distinctive variant played in Friesland. It is a favourite winter pastime.",
+      "variations": [
+        "Play on a chessboard.",
+        "Study an opening.",
+        "Teach a child."
+      ]
+    },
+    {
+      "id": "a-ball-game",
+      "name": "A ball game",
+      "icon": "person-simple-throw",
+      "slot": "Afternoon",
+      "time": "17:00",
+      "minutes": 25,
+      "meta": "Afternoon · 25 min",
+      "instructions": "Play a ball game in the Frisian spirit: keatsen, a handball game of the Middle Ages, in which two teams hit a small ball with the hand across a field, or any simple handball. Use a tennis ball and your palm. Count points and play on grass. Finish with a handshake.",
+      "why": "Keatsen is the Frisian national ball game, played since the Middle Ages, with its championship at Franeker. It is quick, social and cheap.",
+      "variations": [
+        "Play handball against a wall.",
+        "Hit a ball over a rope.",
+        "Play on a beach."
+      ]
+    },
+    {
+      "id": "walk-the-dike",
+      "name": "Walk the dike",
+      "icon": "path",
+      "slot": "Afternoon",
+      "time": "17:30",
+      "minutes": 30,
+      "meta": "Afternoon · 30 min",
+      "instructions": "Walk along a dike, canal bank, sea wall or any embankment for half an hour, looking out over the water on one side and the land on the other. Frisians walk the dike to see the sea and check on the land. Think of the people who built it. Stay on marked paths, and watch the weather and tides.",
+      "why": "Dikes are the Netherlands’ great engineering works, and the best viewpoints in a flat land. A walk along one gives both perspective and quiet.",
+      "variations": [
+        "Walk along a canal.",
+        "Walk at sunset.",
+        "Look for birds on the water."
       ]
     },
     {
       "id": "junpraten",
       "name": "An evening visit",
-      "icon": "coffee",
+      "icon": "house",
       "slot": "Evening",
       "time": "19:30",
       "minutes": 30,
       "meta": "Evening · 30 min",
-      "instructions": "After supper, call on a neighbour or a friend nearby, or ask one in. Keep it simple: coffee or tea and something sweet, sitting at the kitchen table. Talk about what is going on in the street, the village, the family. Say plainly what you think, in few words, and let silences sit. Do not look at a phone. Go home at a decent hour.",
-      "why": "In Frisian villages people went jûnpraten, evening talking, dropping in on neighbours through the dark months. It kept alive the tie of neighbour duty, by which the households nearest to you help at a birth, a sickness and a funeral. Frisians have a name for being short of speech and straight in it. A visitor is told what the host thinks.",
+      "instructions": "After supper, call on a neighbour or a friend nearby, or ask one in. Keep it simple: coffee or tea and something sweet, sitting at the kitchen table. Talk about what is going on in the street, the village, the family. Say little about yourself and listen a great deal. Leave when the talk falls quiet. The Frisian word is jûnpraten, evening talk.",
+      "why": "Evening visits were the heart of village life in Friesland, with neighbours dropping in for coffee and a chat. It is a custom that deserves reviving.",
       "variations": [
-        "Bring sugar bread or a few biscuits.",
-        "Visit the oldest person in your street.",
-        "Agree with your nearest neighbours what you would do for each other in trouble."
+        "Take a plate of biscuits.",
+        "Go without arranging it.",
+        "Invite a lonely neighbour."
+      ]
+    },
+    {
+      "id": "east-frisian-tea",
+      "name": "East Frisian tea",
+      "icon": "coffee",
+      "slot": "Evening",
+      "time": "20:00",
+      "minutes": 20,
+      "meta": "Evening · 20 min",
+      "instructions": "Make tea in the East Frisian way: put a lump of rock sugar, kluntje, in a cup and pour strong black tea over it, so that it crackles. Then pour a spoon of cream down the side so that it forms a cloud, wulkje. Do not stir. Sip three times, first cream, then tea, then sweetness. Do it slowly.",
+      "why": "East Frisian tea is a ritual of the German coast, drunk with kluntje and cream. It is a world apart from a tea bag at a desk.",
+      "variations": [
+        "Serve it to a guest.",
+        "Have three cups.",
+        "Eat a biscuit with it."
+      ]
+    },
+    {
+      "id": "listen-to-a-frisian-song",
+      "name": "Listen to a Frisian song",
+      "icon": "music-note",
+      "slot": "Evening",
+      "time": "20:30",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Play a song in Frisian, such as Nynke Laverman’s Sielesâlt, Twarres’s Wêr bisto or De Kast’s In nije dei, or the anthem De Alde Friezen. Listen to the sound of the language and follow a translation. Note how the words move. Music in Frisian is a way of keeping the language alive.",
+      "why": "Frisian pop and folk, from Nynke Laverman to De Kast, show a language alive and growing. A few songs are a good introduction.",
+      "variations": [
+        "Sing along with the chorus.",
+        "Learn one line.",
+        "Share a song with a friend."
+      ]
+    },
+    {
+      "id": "a-dike-builder-s-tale",
+      "name": "A dike-builder’s tale",
+      "icon": "book-open",
+      "slot": "Evening",
+      "time": "21:00",
+      "minutes": 20,
+      "meta": "Evening · 20 min",
+      "instructions": "Read a few pages of Theodor Storm’s 1888 novella of a dike-reeve fighting the sea on the North Frisian coast. Read slowly, by lamplight. It tells of a man who builds a new dike against old opposition and of the ghostly rider on the dike. Imagine the storm. Note the sense of the sea as a threat.",
+      "why": "Der Schimmelreiter is the great novella of the North Sea coast, a story of a dike-builder, progress and superstition. It is atmospheric and compelling.",
+      "variations": [
+        "Read it aloud.",
+        "Read the last scene.",
+        "Look at a photo of the dike it describes."
+      ]
+    },
+    {
+      "id": "stars-over-flat-land",
+      "name": "Stars over flat land",
+      "icon": "moon-stars",
+      "slot": "Evening",
+      "time": "21:30",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Go outside after dark and look at the stars over the flat horizon. In Friesland the sky is vast and, away from towns, dark. Find the Plough and the Pole Star. Notice how many stars you can see from the flat ground. Stand for fifteen minutes. If you live in a city, go to a park or the edge of the town.",
+      "why": "The Wadden Sea region is one of the darkest in Western Europe and a great place to see stars. A flat horizon makes the night sky seem enormous.",
+      "variations": [
+        "Find a dark-sky spot.",
+        "Use a star-map app.",
+        "Count the shooting stars."
+      ]
+    },
+    {
+      "id": "cycle-to-the-sunset",
+      "name": "Cycle to the sunset",
+      "icon": "bicycle",
+      "slot": "Evening",
+      "time": "19:00",
+      "minutes": 30,
+      "meta": "Evening · 30 min",
+      "instructions": "Cycle or walk out to see the sunset, on a flat road, by a canal, on a dike or at the edge of town. Choose a spot with an open view. Stop when the sun touches the horizon and stay until it has gone. Frisians grew up under big skies, with long evenings. Ride home slowly with lights on.",
+      "why": "Evening cycling is a way of life in the Netherlands. A sunset ride under a big sky is a simple, satisfying end to the day.",
+      "variations": [
+        "Ride with a friend.",
+        "Take a flask of tea.",
+        "Ride to the water."
+      ]
+    },
+    {
+      "id": "a-day-on-the-water",
+      "name": "A day on the water",
+      "icon": "sailboat",
+      "slot": "Special",
+      "time": "10:00",
+      "minutes": 120,
+      "meta": "On a free day · 120 min",
+      "instructions": "Spend a day on the water in the Frisian manner: sail, row, paddle or take a ferry on a lake, river or canal. Frisians have sailed the meres for centuries in flat-bottomed skûtsjes. Take food and water, wear a life jacket and go with someone. Watch the sky and the wind. Come ashore tired and content.",
+      "why": "The Frisian lakes are a paradise for sailors, and skûtsjesilen, the annual race of traditional barges, is a national event. A day on the water is the best way to feel it.",
+      "variations": [
+        "Rent a rowing boat.",
+        "Take a ferry to an island.",
+        "Paddle a canoe along a canal."
+      ]
+    },
+    {
+      "id": "the-long-ride",
+      "name": "The long ride",
+      "icon": "bicycle",
+      "slot": "Special",
+      "time": "09:00",
+      "minutes": 120,
+      "meta": "On a free morning · 120 min",
+      "instructions": "Take a long ride of two hours, by bike on flat roads or by skate if the ice is safe, in the spirit of the Eleven Cities Tour. Set a route to a distant village and a café, ride at an even pace and go home by another way. Dress for the wind and carry water. Reward yourself with coffee and a sweet.",
+      "why": "The Elfstedentocht, the Eleven Cities Tour, is a 200-kilometre skating race held only when the ice is thick enough. A long ride is the summer cousin.",
+      "variations": [
+        "Ride with a friend.",
+        "Ride to a lighthouse.",
+        "End with sugar bread."
       ]
     }
   ],
-  "tasks": [
+  "tasks": [],
+  "immersePlan": [
     {
-      "id": "task-read-the-rider-on-the-white-horse",
+      "kind": "read",
+      "item": "read-the-rider-on-the-white-horse",
       "name": "Read The Rider on the White Horse",
-      "meta": "Read · Theodor Storm’s novella of a North Frisian dike master, 1888",
-      "time": "20:30",
-      "slot": "Evening",
-      "action": "read"
+      "text": "Read the opening chapters of Storm’s novella of a dike-builder on the North Frisian coast. Notice the weather.",
+      "minutes": 30
     },
     {
-      "id": "task-listen-to-sielesalt",
+      "kind": "read",
+      "item": "read-the-edge-of-the-world-how-the-north-sea-made-us",
+      "name": "Read from The Edge of the World",
+      "text": "Read a chapter of Michael Pye’s history of the North Sea and its peoples, including the Frisians. Mark one surprising fact.",
+      "minutes": 25
+    },
+    {
+      "kind": "read",
+      "item": "read-the-comfort-bird",
+      "name": "Read from The Comfort Bird",
+      "text": "Read a chapter of Hylke Speerstra’s novel in translation, a Frisian story of a farm family. Notice the plain voice.",
+      "minutes": 25
+    },
+    {
+      "kind": "watch",
+      "item": "watch-de-hel-van-63",
+      "name": "Watch De Hel van ’63",
+      "text": "Watch Steven de Jong’s 2009 film about the legendary Eleven Cities Tour of 1963, when only 69 skaters finished. Feel the cold.",
+      "minutes": 100
+    },
+    {
+      "kind": "watch",
+      "item": "watch-nynke",
+      "name": "Watch Nynke",
+      "text": "Watch Pieter Verhoeff’s 2001 Frisian-language film about a girl in a farming family. Notice the sound of Frisian.",
+      "minutes": 90
+    },
+    {
+      "kind": "watch",
+      "item": "watch-the-eleven-cities-tour-of-1997",
+      "name": "Watch the 1997 Eleven Cities Tour",
+      "text": "Watch the footage of the 1997 skating tour, the last held so far. Notice the crowds and the effort.",
+      "minutes": 30
+    },
+    {
+      "kind": "listen",
+      "item": "listen-sielesalt",
       "name": "Listen to Sielesâlt",
-      "meta": "Listen · Nynke Laverman sings Frisian verse as fado, 2004",
-      "time": "07:00",
-      "slot": "Morning",
-      "action": "listen"
+      "text": "Play Nynke Laverman’s 2004 album, a blend of Frisian poetry and Mediterranean sounds. Follow a translation.",
+      "minutes": 40
     },
     {
-      "id": "task-look-at-the-paintings-of-jopie-huisman",
-      "name": "Look at the paintings of Jopie Huisman",
-      "meta": "Art · old shoes, rag dolls and patched trousers, painted with great tenderness",
-      "time": "13:00",
-      "slot": "Afternoon",
-      "action": "art"
+      "kind": "listen",
+      "item": "listen-in-nije-dei",
+      "name": "Listen to In nije dei",
+      "text": "Play De Kast’s 1997 Frisian rock album. Notice how natural the language sounds in rock.",
+      "minutes": 40
     },
     {
-      "id": "task-play-frisian-draughts",
+      "kind": "listen",
+      "item": "listen-wer-bisto",
+      "name": "Listen to Wêr bisto",
+      "text": "Play Twarres’s 2000 album of folk-rock in Frisian. Sing along to the chorus.",
+      "minutes": 40
+    },
+    {
+      "kind": "art",
+      "item": "art-painted-furniture-of-hindeloopen",
+      "name": "Look at Hindeloopen painted furniture",
+      "text": "Look at the brightly painted chests and chairs of the little port of Hindeloopen, with red and blue flowers. Choose a pattern.",
+      "minutes": 10
+    },
+    {
+      "kind": "art",
+      "item": "art-makkum-earthenware",
+      "name": "Look at Makkum earthenware",
+      "text": "Look at the blue-and-white pottery of Makkum, made since the 16th century. Compare it with Delft.",
+      "minutes": 10
+    },
+    {
+      "kind": "art",
+      "item": "art-the-paintings-of-jopie-huisman",
+      "name": "Look at Jopie Huisman’s paintings",
+      "text": "Look at the realistic paintings of old, worn objects by the Workum rag-and-bone man. Notice the dignity of a battered boot.",
+      "minutes": 10
+    },
+    {
+      "kind": "eat",
+      "item": "eat-sukerbole",
+      "name": "Bake sûkerbôle",
+      "text": "Bake sugar bread, a rich yeast loaf with lumps of sugar and cinnamon. Eat a thick slice with butter.",
+      "minutes": 120
+    },
+    {
+      "kind": "eat",
+      "item": "eat-clove-cheese-on-rye",
+      "name": "Eat clove cheese on rye",
+      "text": "Eat nagelkaas on dark rye bread with butter. If you cannot find it, use any hard cheese with caraway.",
+      "minutes": 10
+    },
+    {
+      "kind": "eat",
+      "item": "eat-dumkes",
+      "name": "Bake dúmkes",
+      "text": "Bake thumb-sized spiced biscuits and eat them with tea. They are a Frisian favourite.",
+      "minutes": 40
+    },
+    {
+      "kind": "drink",
+      "item": "drink-beerenburg",
+      "name": "Learn about Beerenburg",
+      "text": "Beerenburg is a herbal bitter from Friesland, usually with gin. Read about it, and drink a cup of hot herbal tea with a spoon of honey instead.",
+      "minutes": 10
+    },
+    {
+      "kind": "drink",
+      "item": "drink-coffee",
+      "name": "Drink a small cup of coffee",
+      "text": "Drink a small cup of coffee with a biscuit or sugar lump, as is the Frisian custom, and chat.",
+      "minutes": 10
+    },
+    {
+      "kind": "drink",
+      "item": "drink-east-frisian-tea",
+      "name": "Make East Frisian tea",
+      "text": "Pour strong tea over a lump of rock sugar and add a cloud of cream. Do not stir.",
+      "minutes": 15
+    },
+    {
+      "kind": "customs",
+      "item": "customs-neighbour-duty",
+      "name": "Do your neighbour duty",
+      "text": "Do one favour for a neighbour without being asked, and be ready to do another.",
+      "minutes": 20
+    },
+    {
+      "kind": "customs",
+      "item": "customs-sint-piter",
+      "name": "Learn about Sint Piter",
+      "text": "Sint Piter is the feast of 21 February in Grou, when children go round the village with singing and sweets. Sing a verse to a neighbour.",
+      "minutes": 15
+    },
+    {
+      "kind": "customs",
+      "item": "customs-the-fire-of-biike",
+      "name": "Light a bonfire of Biike, in spirit",
+      "text": "On 21 February North Frisians light big bonfires at dusk and eat kale and sausage. Light a candle and eat a plate of kale in the same spirit.",
+      "minutes": 30
+    },
+    {
+      "kind": "games",
+      "item": "games-keatsen",
+      "name": "Play keatsen",
+      "text": "Play a handball game with a tennis ball and your palm. Count points on a grass court.",
+      "minutes": 25
+    },
+    {
+      "kind": "games",
+      "item": "games-frysk-damjen",
       "name": "Play Frisian draughts",
-      "meta": "Games · you may capture in eight directions",
-      "time": "19:00",
-      "slot": "Evening",
-      "action": "games"
+      "text": "Play a game of draughts with a friend on a larger board if you have one.",
+      "minutes": 30
     },
     {
-      "id": "task-journal-what-is-your-stretch-of-the-dike-and-how-is-it-holding",
-      "name": "Journal: what is your stretch of the dike, and how is it holding?",
-      "meta": "Journal · 10 min",
-      "time": "21:00",
-      "slot": "Evening",
-      "action": "journal"
+      "kind": "games",
+      "item": "games-fierljeppen",
+      "name": "Watch fierljeppen",
+      "text": "Watch a video of fierljeppen, the Frisian sport of pole-vaulting across a canal. Do not try it unless trained. Jump a puddle instead.",
+      "minutes": 10
     },
     {
-      "id": "task-what-makes-a-people-free-having-no-master-or-keeping-the-dike-together",
-      "name": "What makes a people free: having no master, or keeping the dike together?",
-      "meta": "Philosophy · 10 min",
-      "time": "09:30",
-      "slot": "Morning",
-      "action": "philosophy"
+      "kind": "travel",
+      "item": "fest-skutsjesilen",
+      "name": "Look up Skûtsjesilen",
+      "text": "Look at pictures of the annual race of traditional flat-bottomed sailing barges on the Frisian lakes in July and August.",
+      "minutes": 10
     },
     {
-      "id": "say-one-thing-today-plainly-that-you-would-usually-wrap-up",
-      "name": "Say one thing today plainly that you would usually wrap up",
-      "meta": "Rjocht en sljocht",
-      "time": "11:00",
-      "slot": "Morning"
+      "kind": "travel",
+      "item": "place-leeuwarden",
+      "name": "Look up Leeuwarden",
+      "text": "Look at pictures of Ljouwert, the Frisian capital, with its leaning tower, canals and the birthplace of Mata Hari.",
+      "minutes": 10
     },
     {
-      "id": "finish-a-job-you-have-been-putting-off-without-a-word-of-complaint",
-      "name": "Finish a job you have been putting off, without a word of complaint",
-      "meta": "Kop derfoar",
-      "time": "15:30",
-      "slot": "Afternoon"
+      "kind": "travel",
+      "item": "place-the-wadden-sea",
+      "name": "Look up the Wadden Sea",
+      "text": "Look at pictures of the UNESCO-listed tidal flats and islands, one of the world’s great wetlands, and the walk across the mud at low tide, wadlopen.",
+      "minutes": 10
     },
     {
-      "id": "do-something-for-a-neighbour-before-they-ask",
-      "name": "Do something for a neighbour before they ask",
-      "meta": "Buorplicht",
-      "time": "18:00",
-      "slot": "Evening"
+      "kind": "words",
+      "item": "word-mienskip",
+      "name": "Practise mienskip",
+      "text": "Mienskip is community. Do one thing today that strengthens the community around you.",
+      "minutes": 10
     },
     {
-      "id": "treat-drink-tea-the-east-frisian-way-rock-sugar-cream-no-stirring",
-      "name": "Drink tea the East Frisian way: rock sugar, cream, no stirring",
-      "meta": "Three cups is the custom",
-      "time": "15:30",
-      "slot": "Afternoon"
+      "kind": "words",
+      "item": "word-kop-derfoar",
+      "name": "Practise kop derfoar",
+      "text": "Kop derfoar means head first, get on with it. Do the thing you have been putting off, now.",
+      "minutes": 10
     },
     {
-      "id": "treat-lean-into-the-wind-on-purpose",
-      "name": "Lean into the wind on purpose",
-      "meta": "Arms out",
-      "time": "15:30",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "treat-skim-a-stone-or-jump-a-ditch-if-you-find-a-safe-one",
-      "name": "Skim a stone, or jump a ditch if you find a safe one",
-      "meta": "Fierljeppen starts small",
-      "time": "15:30",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "treat-say-goeie-to-the-people-you-pass",
-      "name": "Say “Goeie” to the people you pass",
-      "meta": "Frisian for hello",
-      "time": "08:30",
-      "slot": "Morning"
-    },
-    {
-      "id": "daily-look-at-the-sky-and-the-wind-before-you-decide-anything-abou",
-      "name": "Look at the sky and the wind before you decide anything about the day",
-      "meta": "The weather is the first news",
-      "time": "07:15",
-      "slot": "Morning"
-    },
-    {
-      "id": "daily-make-a-strong-pot-of-tea-and-drink-it-slowly-with-a-lump-of-",
-      "name": "Make a strong pot of tea and drink it slowly with a lump of sugar",
-      "meta": "Frisians drink more tea than almost anyone",
-      "time": "20:30",
-      "slot": "Evening"
-    },
-    {
-      "id": "daily-visit-a-neighbour-for-ten-minutes-with-no-reason",
-      "name": "Visit a neighbour for ten minutes with no reason",
-      "meta": "Always welcome",
-      "time": "20:30",
-      "slot": "Evening"
-    },
-    {
-      "id": "daily-write-a-postcard-or-a-short-letter",
-      "name": "Write a postcard or a short letter",
-      "meta": "Plain and warm",
-      "time": "20:30",
-      "slot": "Evening"
+      "kind": "words",
+      "item": "word-junpraten",
+      "name": "Practise jûnpraten",
+      "text": "Jûnpraten is the evening talk. Spend half an hour in easy talk with a neighbour or friend.",
+      "minutes": 30
     }
   ],
-  "immersePlan": [],
   "rules": [
     {
       "id": "r1",

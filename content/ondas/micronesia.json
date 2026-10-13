@@ -289,17 +289,17 @@
     {
       "id": "bul",
       "name": "Declare a bul",
-      "icon": "prohibit",
+      "icon": "hand-palm",
       "slot": "Morning",
       "time": "07:00",
       "minutes": 5,
       "meta": "Morning · 5 min",
-      "instructions": "Choose one thing that you have been taking too much of: a food, a screen, a shop, a habit, a person’s patience, a stretch of ground. This morning, declare it closed. Say aloud what is closed and for how long, a day, a week or the month, and tell someone so that it is public. Then keep the ban strictly until it ends. When it is over, return to the thing with care and notice what has recovered.",
-      "why": "In Palau, when the chiefs saw that a reef was being fished out, they placed a bul on it, and no one took anything from that place until it was lifted. The custom is very old and is still law. In 2015 Palau used the same principle to close four-fifths of its ocean waters to all fishing.",
+      "instructions": "Choose one thing that you have been taking too much of: a food, a screen, a shop, a habit, a person’s patience, a stretch of ground. This morning, declare it closed. Say aloud what is closed and for how long, a day, a week, a season, so that it can recover. At the end, open it again with thanks. This is bul, a conservation closing from Palau. The rule of this Onda is to set some aside.",
+      "why": "Bul is the Palauan custom of closing a reef, a fishery or a harvest for a period so that it can recover. It is among the oldest resource-management systems in the Pacific.",
       "variations": [
-        "Set aside one day a week on which you buy nothing.",
-        "Close a part of your garden, and leave it wild.",
-        "Read the Palau Pledge and write one for your own home."
+        "Close a food for a week.",
+        "Close a screen for an evening.",
+        "Close a shortcut path."
       ]
     },
     {
@@ -310,12 +310,76 @@
       "time": "08:00",
       "minutes": 10,
       "meta": "Morning · 10 min",
-      "instructions": "Live today as if your fresh water came from a rain tank that will not be refilled this week. Wash in a basin, not under a running tap. Turn the tap off between uses. Catch what you can and use it twice. Throw no food away. At the end of the day, reckon roughly how much water you used, and where the rest of what you usually use goes.",
-      "why": "A coral atoll is a ring of sand a few metres high with no rivers and no lakes. Its people live on rain caught from roofs and a thin lens of fresh water that floats on the salt beneath the sand. In a drought every cup is counted. Micronesians built complete and lasting societies on some of the scarcest land and water on Earth.",
+      "instructions": "Live today as if your fresh water came from a rain tank that will not be refilled this week. Wash in a basin, not under a running tap. Turn the tap off between uses. Catch what you can and use it twice. Throw no food away. Notice how little you actually need. The rule of this Onda is to use little.",
+      "why": "Atoll dwellers in Kiribati and the Marshall Islands depend on rainwater and a thin lens of groundwater. Using water as they do shows how precious it is.",
       "variations": [
-        "Collect rainwater for your plants.",
-        "Take a two-minute shower.",
-        "Find out where your tap water comes from and how much of it there is."
+        "Collect the water that warms up in the shower.",
+        "Water plants with washing-up water.",
+        "Time your washing."
+      ]
+    },
+    {
+      "id": "greet-in-a-micronesian-language",
+      "name": "Greet in a Micronesian language",
+      "icon": "hand-waving",
+      "slot": "Morning",
+      "time": "07:30",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Greet three people today in a Micronesian language, with its proper warmth: iakwe in Marshallese, håfa adai in CHamoru, kaselehlie in Pohnpeian, mauri in Kiribati, alii in Palauan. Learn the pronunciation from a native speaker online. Say it with a smile and a bow of the head.",
+      "why": "Micronesia’s many languages each have their own greetings. Each one carries the warmth and respect of an island community.",
+      "variations": [
+        "Learn thank you in the same language.",
+        "Say it to a speaker.",
+        "Write it on a card."
+      ]
+    },
+    {
+      "id": "find-the-direction-of-the-sun",
+      "name": "Find the direction of the sun",
+      "icon": "sun-horizon",
+      "slot": "Morning",
+      "time": "06:30",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Stand in the open at sunrise and note where the sun comes up against a landmark: a building, a tree, a hill. Note the direction and say it aloud, east, north-east. Do the same at noon and sunset. Micronesian navigators knew the rising and setting points of dozens of stars and the sun through the year. Keep a log of the position.",
+      "why": "Navigators of the Caroline Islands carry a star compass in their heads. Noting the sun’s position each day is the first step.",
+      "variations": [
+        "Draw a sketch map.",
+        "Note it each week.",
+        "Use a compass to check."
+      ]
+    },
+    {
+      "id": "a-coconut-breakfast",
+      "name": "A coconut breakfast",
+      "icon": "orange",
+      "slot": "Morning",
+      "time": "07:15",
+      "minutes": 15,
+      "meta": "Morning · 15 min",
+      "instructions": "Eat a breakfast based on coconut: fresh coconut flesh, coconut milk over rice or oats, a banana or breadfruit chips. Open a drinking coconut if you can. Eat slowly and give thanks. The coconut is the tree of life on the atolls, giving food, drink, fibre and shelter.",
+      "why": "The coconut is the staple of atoll life, used for food, drink, rope, thatch and fuel. A coconut breakfast is a homage.",
+      "variations": [
+        "Add banana.",
+        "Make coconut rice.",
+        "Drink fresh coconut water."
+      ]
+    },
+    {
+      "id": "greet-the-elder-first",
+      "name": "Greet the elder first",
+      "icon": "users",
+      "slot": "Morning",
+      "time": "08:30",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Greet the oldest person in the room before anyone else today, and give them the best seat. Speak softly, lower your head a little and ask after their health. In CHamoru culture the value is respetu, and in Marshallese, bwij and the clan. Hold elders in honour. Offer help or a drink.",
+      "why": "Respect for elders is central across Micronesia. Greeting them first and giving them the best seat is a daily courtesy.",
+      "variations": [
+        "Visit an older relative.",
+        "Ask for their story.",
+        "Offer to carry something."
       ]
     },
     {
@@ -326,28 +390,92 @@
       "time": "14:00",
       "minutes": 20,
       "meta": "Afternoon · 20 min",
-      "instructions": "Make one journey today on foot with your phone put away. Before you set out, fix the route in your mind and choose a landmark off to one side. As you go, keep track of where you are by how that landmark shifts against what is behind it. Notice the direction of the sun and the wind. At the end, turn and point straight back to where you started.",
-      "why": "The navigators of the Caroline Islands sail for days out of sight of land with no instruments and no chart. They hold the whole voyage in the mind, steering by a memorised compass of rising and setting stars and marking progress by an unseen reference island that seems to move backward along the horizon. The system is called etak. The navigator sleeps very little.",
+      "instructions": "Make one journey today on foot with your phone put away. Before you set out, fix the route in your mind and choose a landmark off to one side. As you go, keep track of where you are by how that landmark shifts against what lies behind it. This is the idea of etak, the moving reference island of the navigators of the Carolines. Plan a route you know, and go carefully.",
+      "why": "Etak is the system by which Micronesian navigators track their progress by the apparent movement of a reference island beneath the stars. A tiny version is walking by landmarks.",
       "variations": [
-        "Learn the points where the sun rises and sets from your home, and how they move through the year.",
-        "Draw a map of your neighbourhood from memory.",
-        "Walk home by a way you have never taken."
+        "Walk a known route by memory.",
+        "Draw a map afterwards.",
+        "Do it in a park."
       ]
     },
     {
       "id": "make-it-good",
       "name": "Make it good for each other",
-      "icon": "hand-coins",
+      "icon": "heart",
       "slot": "Afternoon",
       "time": "16:00",
       "minutes": 15,
       "meta": "Afternoon · 15 min",
-      "instructions": "Find out what is happening in your wider family and circle this week: a birth, a wedding, a move, an illness, a death, an exam. Choose one and contribute something real, in food, money, work or time, without waiting to be asked. Let them know they can count on you. Remember, without writing it down, what others have given you at such times, and see that it is returned.",
-      "why": "CHamoru families are bound by chenchule’, the giving of help at every important family event, which is remembered and answered at the next. Behind it stands inafa’maolek, the principle that each person is responsible for making things good for the others. Across Micronesia a request from kin is not refused, and the catch is shared before anyone eats.",
+      "instructions": "Find out what is happening in your wider family and circle this week: a birth, a wedding, a move, an illness, a death, an exam. Choose one and contribute something real, in food, money, work or time, without waiting to be asked. In CHamoru this is inafa’maolek, to make it good for each other. The rule of this Onda is to make it good for each other.",
+      "why": "Inafa’maolek is the CHamoru value of interdependence and harmony. The related custom of chenchule’ is the giving of gifts at life events.",
       "variations": [
-        "Cook for a family that has a new baby or a death.",
-        "Give your labour at someone’s celebration.",
-        "Divide something good that came to you today among your household."
+        "Bring food to a family event.",
+        "Give time to a friend’s move.",
+        "Send a card."
+      ]
+    },
+    {
+      "id": "a-game-of-chonka",
+      "name": "A game of chonka",
+      "icon": "cube",
+      "slot": "Afternoon",
+      "time": "15:30",
+      "minutes": 25,
+      "meta": "Afternoon · 25 min",
+      "instructions": "Play chonka, the CHamoru board game, with a friend. It is a mancala-style game of dropping seeds around a board of holes. Use a board with two rows of six holes, or an egg carton, and seeds or beans. Take turns sowing and capture seeds. Play two games.",
+      "why": "Chonka is a traditional game of the Mariana Islands, played with seeds and sometimes carved boards. It is quick to learn.",
+      "variations": [
+        "Make a board from clay.",
+        "Use shells for seeds.",
+        "Teach a child."
+      ]
+    },
+    {
+      "id": "make-a-stick-chart",
+      "name": "Make a stick chart",
+      "icon": "compass-tool",
+      "slot": "Afternoon",
+      "time": "16:30",
+      "minutes": 40,
+      "meta": "Afternoon · 40 min",
+      "instructions": "Make a stick chart of your neighbourhood in the style of the Marshallese navigators: bend thin sticks or reeds into curves that show the ocean swells, and attach shells or beads where the islands are. Use twigs, string and beads. Treat the sticks as the lines of the waves meeting around your local landmarks. It is a map of how things move.",
+      "why": "Marshallese stick charts, rebbelib, mapped ocean swells and islands, and were memorised by navigators. A neighbourhood version is a thoughtful craft.",
+      "variations": [
+        "Make one for your street.",
+        "Make one for a journey you took.",
+        "Hang it on the wall."
+      ]
+    },
+    {
+      "id": "share-the-catch",
+      "name": "Share the catch",
+      "icon": "hand-heart",
+      "slot": "Afternoon",
+      "time": "17:30",
+      "minutes": 15,
+      "meta": "Afternoon · 15 min",
+      "instructions": "Share something you have caught or gathered today with your neighbours: extra food, produce from the garden, something you bought in bulk. Give a portion to each of two households. In Micronesian communities a fisherman shares his catch with the village and does not keep it all. The rule of this Onda is to share the catch.",
+      "why": "Sharing the catch is a mark of a good person across Micronesia, and ensures that no one goes hungry. It holds communities together.",
+      "variations": [
+        "Bake extra and share.",
+        "Give a jar of preserves.",
+        "Share a tool."
+      ]
+    },
+    {
+      "id": "race-a-model-canoe",
+      "name": "Race a model canoe",
+      "icon": "sailboat",
+      "slot": "Afternoon",
+      "time": "15:00",
+      "minutes": 25,
+      "meta": "Afternoon · 25 min",
+      "instructions": "Make a small model canoe from paper, bark or a sliver of wood, with a sail of leaf or cloth, and race it in a basin, a pond or a stream with friends. In the Marshall Islands children race model canoes in the lagoon. Give each boat a name. Watch the wind move them and cheer.",
+      "why": "Model canoe racing is a favourite pastime of the Marshall Islands, and teaches children about sailing. Anyone can do it with paper.",
+      "variations": [
+        "Make a boat with a leaf.",
+        "Race in a bath.",
+        "Add a bow and stern."
       ]
     },
     {
@@ -358,122 +486,340 @@
       "time": "19:30",
       "minutes": 20,
       "meta": "Evening · 20 min",
-      "instructions": "Spend twenty minutes making something with cord or fibre and your hands. Plait three strands into a rope. Learn one knot or one lashing and tie it ten times until your fingers know it. Weave a small mat from strips of paper or leaf. Work slowly and evenly, undo what is uneven and do it again. Sit with others while you work if you can, and talk.",
-      "why": "On islands without metal, everything was held together by cord. Canoe planks were sewn with twine of coconut husk fibre rolled on the thigh, a single voyaging canoe needing kilometres of it, and houses were lashed in patterns that were both strong and beautiful. Women plaited sails, baskets and fine mats from pandanus leaf.",
+      "instructions": "Spend twenty minutes making something with cord or fibre and your hands. Plait three strands into a rope. Learn one knot or one lashing and tie it ten times until your fingers know it. Weave a small mat from strips of paper or cloth. Micronesians lash canoes with coconut-fibre rope and no nails. The rule of this Onda is to hold it in your head and your hands.",
+      "why": "Lashing and weaving are the great crafts of the islands, producing canoes, houses and mats without metal. The hands remember what the mind has learned.",
       "variations": [
-        "Learn the bowline and the clove hitch.",
-        "Mend something with a proper whipping or lashing.",
-        "Plait a strip of leaves into a band."
+        "Learn the square knot.",
+        "Make a bracelet.",
+        "Weave a bookmark."
+      ]
+    },
+    {
+      "id": "learn-a-star",
+      "name": "Learn a star",
+      "icon": "star-four",
+      "slot": "Evening",
+      "time": "20:30",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Go out at nightfall and find one bright star. Note where it rises and sets, over a landmark, across the week. Micronesian navigators memorised the rising and setting points of about thirty stars, which they called the star compass. Learn one star’s name and its path. Look again tomorrow.",
+      "why": "The navigators of Satawal, Puluwat and other atolls cross hundreds of miles of ocean by the stars. Learning one star is the first step on that road.",
+      "variations": [
+        "Use a star-map app.",
+        "Learn the Southern Cross.",
+        "Keep a star log."
+      ]
+    },
+    {
+      "id": "listen-to-a-chant",
+      "name": "Listen to a chant",
+      "icon": "waveform",
+      "slot": "Evening",
+      "time": "19:00",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Play a recording of Micronesian chant or singing: Marshallese roro, Kiribati choral dance songs or CHamoru kantan chamorrita, the verse-singing contest in which two singers exchange improvised verses. Close your eyes and follow the voices. These traditions keep the memory and wit of the islands.",
+      "why": "Singing and chant are central to Micronesian life. Kantan chamorrita is a witty improvised exchange, and Kiribati choral dance is full of vigour.",
+      "variations": [
+        "Follow a translation.",
+        "Hum along.",
+        "Look for videos of dances."
+      ]
+    },
+    {
+      "id": "ask-leave",
+      "name": "Ask leave",
+      "icon": "door-open",
+      "slot": "Evening",
+      "time": "18:30",
+      "minutes": 5,
+      "meta": "Evening · 5 min",
+      "instructions": "Today, before you enter a place that matters to someone, a home, a garden, a graveyard, a sacred or special site, pause at the edge and say quietly: with your permission. In Micronesia people ask leave of the ancestors and spirits before entering certain places. Take a breath and step in carefully. Do it as a mark of respect.",
+      "why": "Asking leave of the ancestors before entering a place is a CHamoru and wider Pacific custom. It is a small gesture of humility.",
+      "variations": [
+        "Do it at your own door.",
+        "Do it in a forest.",
+        "Do it with a child."
+      ]
+    },
+    {
+      "id": "sit-in-the-meeting-house",
+      "name": "Sit in the meeting house",
+      "icon": "users-three",
+      "slot": "Evening",
+      "time": "19:30",
+      "minutes": 30,
+      "meta": "Evening · 30 min",
+      "instructions": "Gather your household or friends and sit in a circle, each in a set place, as in the maneaba, the Kiribati meeting house, where every family has its seat. Talk about the day, share decisions and listen to the oldest first. Sit on the floor if you can. Keep the circle for half an hour.",
+      "why": "The maneaba is the meeting house of Kiribati, where each clan has its place and where decisions are made. Sitting in a circle recreates its democracy.",
+      "variations": [
+        "Give each person a set place.",
+        "Use a mat.",
+        "Speak in order of age."
+      ]
+    },
+    {
+      "id": "a-cup-of-coconut-water-at-dusk",
+      "name": "A cup of coconut water at dusk",
+      "icon": "drop",
+      "slot": "Evening",
+      "time": "20:00",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Drink a coconut, fresh from the nut if you can, or from a carton, in the early evening. Sit outside and look at the sky. Say thank you for the day’s food and drink. The drinking coconut is the safe, pure drink of atoll life when other water is scarce. Share it.",
+      "why": "Coconut water is the daily drink of atoll people, clean and refreshing. A cup at sunset is an easy pleasure.",
+      "variations": [
+        "Share with a friend.",
+        "Eat the soft flesh.",
+        "Plant the husk."
+      ]
+    },
+    {
+      "id": "a-kelaguen-and-red-rice-feast",
+      "name": "A kelaguen and red rice feast",
+      "icon": "cooking-pot",
+      "slot": "Special",
+      "time": "13:00",
+      "minutes": 120,
+      "meta": "On a free afternoon · 120 min",
+      "instructions": "Cook a CHamoru feast of kelaguen and red rice for friends and family: chopped chicken or fish cured in lemon juice with coconut, onion and chilli, and rice coloured red with achiote. Add barbecue, fina’denne sauce and coconut candy. Serve it on banana leaves. In Guam and the Marianas a fiesta is the heart of the village.",
+      "why": "CHamoru fiestas feature kelaguen and red rice, shared with all comers. Cooking it is a joy.",
+      "variations": [
+        "Use fish instead of chicken.",
+        "Ask each guest to bring a dish.",
+        "End with coconut candy."
+      ]
+    },
+    {
+      "id": "a-navigation-walk",
+      "name": "A navigation walk",
+      "icon": "compass",
+      "slot": "Special",
+      "time": "09:00",
+      "minutes": 120,
+      "meta": "On a free morning · 120 min",
+      "instructions": "Take a long walk without a phone, map or GPS, using the sun, landmarks and your memory. Plan the route the night before and memorise it. Note your position by the sun, the hills, the sound of water. Go with a friend and a flask. Navigators of the Carolines carry the whole Pacific in their heads. Tell someone where you are going.",
+      "why": "Traditional navigation is learned over years, but a walk by memory and sun trains the same attention. It is a good test of how much you rely on devices.",
+      "variations": [
+        "Walk a loop and draw it afterwards.",
+        "Take a compass as a check.",
+        "Walk at dawn."
       ]
     }
   ],
-  "tasks": [
+  "tasks": [],
+  "immersePlan": [
     {
-      "id": "task-read-dear-matafele-peinam",
-      "name": "Read Dear Matafele Peinam",
-      "meta": "Read · Kathy Jetñil-Kijiner’s poem, 2014",
-      "time": "20:30",
-      "slot": "Evening",
-      "action": "read"
+      "kind": "read",
+      "item": "read-the-last-navigator",
+      "name": "Read from The Last Navigator",
+      "text": "Read a chapter of Stephen Thomas’s 1987 account of learning from Mau Piailug of Satawal, the master navigator. Note the way he describes the stars.",
+      "minutes": 25
     },
     {
-      "id": "task-listen-to-the-choirs-of-kiribati",
-      "name": "Listen to the choirs of Kiribati",
-      "meta": "Listen · massed voices and clapped rhythm",
-      "time": "07:30",
-      "slot": "Morning",
-      "action": "listen"
+      "kind": "read",
+      "item": "read-iep-jaltok-poems-from-a-marshallese-daughter",
+      "name": "Read from Iep Jāltok",
+      "text": "Read poems by Kathy Jetñil-Kijiner on climate change, family and the Marshall Islands. Read one aloud.",
+      "minutes": 20
     },
     {
-      "id": "task-look-at-a-marshallese-stick-chart",
-      "name": "Look at a Marshallese stick chart",
-      "meta": "Art · a map of how the sea moves",
-      "time": "13:00",
-      "slot": "Afternoon",
-      "action": "art"
+      "kind": "read",
+      "item": "read-east-is-a-big-bird-navigation-and-logic-on-puluwat-atoll",
+      "name": "Read from East Is a Big Bird",
+      "text": "Read a chapter of Thomas Gladwin’s study of Puluwat navigation, a classic account. Note the star compass.",
+      "minutes": 25
     },
     {
-      "id": "task-play-chonka",
+      "kind": "watch",
+      "item": "watch-papa-mau-the-wayfinder",
+      "name": "Watch Papa Mau: The Wayfinder",
+      "text": "Watch the 2010 documentary on Mau Piailug, who taught Hawaiians the lost art of navigation. A moving portrait.",
+      "minutes": 60
+    },
+    {
+      "kind": "watch",
+      "item": "watch-the-navigators-pathfinders-of-the-pacific",
+      "name": "Watch The Navigators",
+      "text": "Watch the 1983 film on the traditional navigators of Micronesia and Polynesia. Notice how they teach.",
+      "minutes": 50
+    },
+    {
+      "kind": "watch",
+      "item": "watch-anote-s-ark",
+      "name": "Watch Anote’s Ark",
+      "text": "Watch the 2018 documentary on Kiribati’s president and the struggle against rising seas. Think about what a homeland means.",
+      "minutes": 76
+    },
+    {
+      "kind": "listen",
+      "item": "listen-spirit-of-micronesia",
+      "name": "Listen to Spirit of Micronesia",
+      "text": "Play the 1995 field recordings of Micronesian music and chant. Listen with attention to the textures.",
+      "minutes": 40
+    },
+    {
+      "kind": "listen",
+      "item": "listen-kiribati-choral-dance-songs",
+      "name": "Listen to Kiribati choral dance songs",
+      "text": "Play the village choirs of Kiribati singing for dances, with bursts of voice and clapping. Clap along.",
+      "minutes": 15
+    },
+    {
+      "kind": "listen",
+      "item": "listen-kantan-chamorrita",
+      "name": "Listen to kantan chamorrita",
+      "text": "Play CHamoru singers improvising verses back and forth. Notice the wit and the rhythm.",
+      "minutes": 15
+    },
+    {
+      "kind": "art",
+      "item": "art-stick-charts",
+      "name": "Look at a stick chart",
+      "text": "Look at a Marshallese stick chart of curved sticks and shells showing ocean swells. Try to read it.",
+      "minutes": 10
+    },
+    {
+      "kind": "art",
+      "item": "art-storyboards",
+      "name": "Look at Palauan storyboards",
+      "text": "Look at the carved and painted storyboards of Palau, which tell legends in wood. Pick one scene.",
+      "minutes": 10
+    },
+    {
+      "kind": "art",
+      "item": "art-jaki-ed",
+      "name": "Look at jaki-ed weaving",
+      "text": "Look at the fine mats of the Marshall Islands, woven from pandanus with patterns. Notice the fineness.",
+      "minutes": 10
+    },
+    {
+      "kind": "eat",
+      "item": "eat-breadfruit",
+      "name": "Roast breadfruit",
+      "text": "Roast breadfruit in the oven or over a fire until the skin is charred, and eat the soft inside with salt or coconut cream.",
+      "minutes": 60
+    },
+    {
+      "kind": "eat",
+      "item": "eat-kelaguen-and-red-rice",
+      "name": "Make kelaguen with red rice",
+      "text": "Mix chopped chicken or fish with lemon juice, coconut, onion and chilli, and serve with red rice.",
+      "minutes": 45
+    },
+    {
+      "kind": "eat",
+      "item": "eat-pandanus-paste",
+      "name": "Taste pandanus paste",
+      "text": "Taste mokwan, a dried pandanus fruit paste, if you can find it, or read about how it is made and carried on voyages.",
+      "minutes": 10
+    },
+    {
+      "kind": "drink",
+      "item": "drink-sakau",
+      "name": "Learn about sakau",
+      "text": "Sakau is the kava of Pohnpei, prepared by pounding the root on a stone. Read about the ceremony and its rules. As a guest, drink only when invited.",
+      "minutes": 15
+    },
+    {
+      "kind": "drink",
+      "item": "drink-coconut-toddy",
+      "name": "Drink fresh coconut sap",
+      "text": "Toddy is tapped from the coconut flower stalk and ferments quickly. Drink fresh coconut water instead, and read about how the tapper does the job.",
+      "minutes": 10
+    },
+    {
+      "kind": "drink",
+      "item": "drink-drinking-coconut",
+      "name": "Drink a green coconut",
+      "text": "Drink from a green coconut, then scoop out and eat the soft jelly inside. Share a nut with someone.",
+      "minutes": 10
+    },
+    {
+      "kind": "customs",
+      "item": "customs-the-first-birthday",
+      "name": "Learn about the first birthday",
+      "text": "Read about kemem, the Marshallese first-birthday feast, a huge celebration after a child survives its first year. Celebrate a small milestone of your own.",
+      "minutes": 15
+    },
+    {
+      "kind": "customs",
+      "item": "customs-the-place-in-the-meeting-house",
+      "name": "Sit in your place",
+      "text": "Sit in a circle with a fixed place for each person, as in the maneaba. Talk for half an hour.",
+      "minutes": 30
+    },
+    {
+      "kind": "customs",
+      "item": "customs-asking-leave-of-the-ancestors",
+      "name": "Ask leave",
+      "text": "Before entering a place today, say quietly: with your permission.",
+      "minutes": 5
+    },
+    {
+      "kind": "games",
+      "item": "games-model-canoe-racing",
+      "name": "Race a model canoe",
+      "text": "Make a small boat from paper or bark and race it on water with friends, blowing gently to sail it.",
+      "minutes": 25
+    },
+    {
+      "kind": "games",
+      "item": "games-chonka",
       "name": "Play chonka",
-      "meta": "Games · the sowing game of the Marianas",
-      "time": "18:30",
-      "slot": "Evening",
-      "action": "games"
+      "text": "Play the CHamoru seed-sowing game with a friend on a board of holes, using beans or shells.",
+      "minutes": 25
     },
     {
-      "id": "task-journal-what-do-you-hold-in-your-head-that-you-used-to-keep-on-a-devic",
-      "name": "Journal: what do you hold in your head that you used to keep on a device?",
-      "meta": "Journal · 10 min",
-      "time": "21:00",
-      "slot": "Evening",
-      "action": "journal"
+      "kind": "games",
+      "item": "games-oreano",
+      "name": "Play oreano",
+      "text": "Play a Kiribati ball game, tossing a ball between teams in a circle. Use a soft ball.",
+      "minutes": 20
     },
     {
-      "id": "task-what-is-a-thing-worth-when-everyone-knows-its-story",
-      "name": "What is a thing worth when everyone knows its story?",
-      "meta": "Philosophy · 10 min",
-      "time": "09:30",
-      "slot": "Morning",
-      "action": "philosophy"
+      "kind": "travel",
+      "item": "fest-yap-day",
+      "name": "Look up Yap Day",
+      "text": "Look at pictures of the festival in March celebrating Yapese traditions with dance and canoe skills.",
+      "minutes": 10
     },
     {
-      "id": "greet-the-oldest-person-you-meet-with-special-respect",
-      "name": "Greet the oldest person you meet with special respect",
-      "meta": "Respetu",
-      "time": "10:30",
-      "slot": "Morning"
+      "kind": "travel",
+      "item": "fest-manit-day",
+      "name": "Mark Manit Day",
+      "text": "Manit Day, in late September, celebrates Micronesian heritage and the traditional navigation of the Carolines. Learn a star.",
+      "minutes": 20
     },
     {
-      "id": "go-without-one-thing-today-so-that-it-lasts",
-      "name": "Go without one thing today so that it lasts",
-      "meta": "Scarcity",
-      "time": "12:00",
-      "slot": "Afternoon"
+      "kind": "travel",
+      "item": "place-nan-madol",
+      "name": "Look up Nan Madol",
+      "text": "Look at pictures of the ruined city of artificial islands built of basalt on Pohnpei, a world heritage site. Imagine building it.",
+      "minutes": 10
     },
     {
-      "id": "step-outside-after-dark-and-find-one-star-you-can-name",
-      "name": "Step outside after dark and find one star you can name",
-      "meta": "The star path",
-      "time": "20:00",
-      "slot": "Evening"
+      "kind": "words",
+      "item": "word-etak",
+      "name": "Practise etak",
+      "text": "Etak is the system of the moving reference island. Walk a route today by landmarks alone.",
+      "minutes": 15
     },
     {
-      "id": "treat-find-north-without-a-phone",
-      "name": "Find north without a phone",
-      "meta": "Sun, shadow, moss or stars",
-      "time": "08:30",
-      "slot": "Morning"
+      "kind": "words",
+      "item": "word-inafa-maolek",
+      "name": "Practise inafa’maolek",
+      "text": "Inafa’maolek means to make it good for each other. Do something that restores harmony in one relationship.",
+      "minutes": 10
     },
     {
-      "id": "treat-weave-or-plait-three-strands-of-anything",
-      "name": "Weave or plait three strands of anything",
-      "meta": "Grass, string, hair",
-      "time": "15:30",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "treat-watch-the-waves-or-the-wind-in-trees-and-read-the-direction",
-      "name": "Watch the waves, or the wind in trees, and read the direction",
-      "meta": "Navigators read swells",
-      "time": "15:30",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "treat-share-a-coconut-or-anything-sweet-with-a-neighbour",
-      "name": "Share a coconut, or anything sweet, with a neighbour",
-      "meta": "Half each",
-      "time": "19:30",
-      "slot": "Evening"
-    },
-    {
-      "id": "daily-find-one-star-and-watch-where-it-rises-or-sets",
-      "name": "Find one star and watch where it rises or sets",
-      "meta": "Navigators learned the star paths",
-      "time": "20:30",
-      "slot": "Evening"
+      "kind": "words",
+      "item": "word-bul",
+      "name": "Practise bul",
+      "text": "Bul is a closing, to let a resource recover. Close one thing you overuse for a day.",
+      "minutes": 5
     }
   ],
-  "immersePlan": [],
   "rules": [
     {
       "id": "r1",

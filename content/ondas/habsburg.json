@@ -298,12 +298,12 @@
       "time": "05:00",
       "minutes": 45,
       "meta": "Morning · 45 min",
-      "instructions": "Rise early, wash in cold water and be at your desk before the rest of the house is up. Take the pile of things awaiting your decision, letters, forms, requests, bills, and go through them in order, one at a time. Read each properly. Decide it, sign or answer it, and put it on the finished pile. Do not skip the dull ones. Stop when the pile is done or the time is up, and note what is left.",
-      "why": "Franz Joseph rose at half past three or four every day of his reign, slept on an iron army bed, and was reading files by five. He received some hundred thousand people in audience over his life and annotated papers until a few days before his death at eighty-six.",
+      "instructions": "Rise early, wash in cold water and be at your desk before the rest of the house is up. Take the pile of things awaiting your decision, letters, forms, requests, bills, and go through them in order, one at a time. Read each properly, decide, and write the answer. Do not skip the dull ones. The rule of this Onda is to begin early and do your duty first. If five is too early, choose your own fixed hour.",
+      "why": "Emperor Franz Joseph rose at half past three or four and worked at his desk for hours. His example set the tone of the Habsburg bureaucracy: the first servant of the state.",
       "variations": [
-        "Give each paper a date and your initials.",
-        "Answer every personal letter within two days.",
-        "Hold a fixed hour each week when anyone may come and ask you for something."
+        "Do the dullest letter first.",
+        "Work for thirty minutes at a fixed hour.",
+        "Finish with a cup of coffee."
       ]
     },
     {
@@ -314,12 +314,76 @@
       "time": "08:30",
       "minutes": 10,
       "meta": "Morning · 10 min",
-      "instructions": "Choose a language spoken by people you live or work among, or by a neighbouring country, that is not your own. Learn one useful phrase in it today: a greeting, thanks, how are you, a toast. Say it aloud until it is easy. Then use it on a real person before the day is over. Keep a list and add one phrase daily.",
-      "why": "The monarchy recognised eleven languages. Its officers were required to learn the languages of their regiments, the emperor could speak to most of his subjects in their own, and an educated person in Prague, Lviv or Trieste commonly used three or four in a day.",
+      "instructions": "Choose a language spoken by people you live or work among, or by a neighbouring country, that is not your own. Learn one useful phrase in it today: a greeting, thanks, how are you, a toast. Say it aloud until it is easy, then use it on someone. The rule of this Onda is to learn the other person’s language.",
+      "why": "The Habsburg lands had a dozen languages, and educated people knew several. Trying a neighbour’s language is a mark of courtesy.",
       "variations": [
-        "Learn to say good day in all the languages of the old empire.",
-        "Read a street sign, a menu or a headline in the other language.",
-        "Ask a neighbour to correct your pronunciation."
+        "Learn a phrase in Czech, Hungarian or Italian.",
+        "Ask a neighbour to teach you.",
+        "Write it on a card."
+      ]
+    },
+    {
+      "id": "address-them-properly",
+      "name": "Address them properly",
+      "icon": "user",
+      "slot": "Morning",
+      "time": "09:00",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Address each person you meet today with their proper form: Herr Doktor, Frau Professor, Mr Smith, Ms Jones. Habsburg Vienna loved titles, even ludicrous ones like Frau Hofrat. Use the name or title the person prefers, and add a polite phrase, such as küss die Hand or servus. Notice what it does to the room. Be courteous to everyone.",
+      "why": "Titles and forms of address were a social art in the Habsburg lands. Courtesy costs nothing and brightens most days.",
+      "variations": [
+        "Use a title for someone who does not expect it.",
+        "Learn how a colleague likes to be called.",
+        "Say please and thank you in two languages."
+      ]
+    },
+    {
+      "id": "kipferl-and-coffee",
+      "name": "Kipferl and coffee",
+      "icon": "coffee",
+      "slot": "Morning",
+      "time": "07:30",
+      "minutes": 15,
+      "meta": "Morning · 15 min",
+      "instructions": "Eat a simple Viennese breakfast: a fresh roll or kipferl, butter, jam and a cup of coffee with a glass of water. Sit down for it. Read the paper while you eat, or just look out of the window. The crescent-shaped kipferl is the ancestor of the croissant. Take time. The rule of this Onda is to take time over coffee.",
+      "why": "The Viennese breakfast of roll and coffee is a daily pleasure in the former Habsburg lands. It is quick, plain and civilised.",
+      "variations": [
+        "Bake a kipferl.",
+        "Try a Semmel with butter.",
+        "Pour the coffee into a nice cup."
+      ]
+    },
+    {
+      "id": "a-cold-wash",
+      "name": "A cold wash",
+      "icon": "drop",
+      "slot": "Morning",
+      "time": "06:45",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Wash your face and arms with cold water to start the day, as Franz Joseph did every morning. Splash briskly, dry well and feel awake. If cold is not right for you, use cool water. Stand tall afterwards and breathe. It is a small, bracing discipline. Do not do this if you have a heart or blood-pressure condition.",
+      "why": "A cold wash was a bracing habit of the Emperor, who was famed for his iron discipline. A cool splash is an easy way to start with energy.",
+      "variations": [
+        "Finish a shower with cold water.",
+        "Wash your face outdoors.",
+        "Dry yourself briskly."
+      ]
+    },
+    {
+      "id": "count-to-three-in-waltz",
+      "name": "Count to three in waltz",
+      "icon": "music-notes",
+      "slot": "Morning",
+      "time": "08:00",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Learn the box step of the waltz: forward on the left, side with the right, close; back on the right, side with the left, close. Count one-two-three, one-two-three. Practise in the hall for five minutes with a record of Strauss. Smile at the mirror. The Vienna waltz was the dance of the Habsburg ballrooms.",
+      "why": "The Viennese waltz took over the Habsburg capital in the 1800s. A box step is enough to begin.",
+      "variations": [
+        "Practise with a partner.",
+        "Practise to The Blue Danube.",
+        "Turn slowly as you go."
       ]
     },
     {
@@ -330,161 +394,436 @@
       "time": "15:00",
       "minutes": 60,
       "meta": "Afternoon · 60 min",
-      "instructions": "Go to a cafe where you will be left alone. Order one coffee. It should come with a glass of water. Take a newspaper or two, on paper, and read them through, including a page you would normally skip. Then write: a letter, a diary page, an idea. Keep your phone in your pocket. Stay an hour. Do not order more unless you want to. Greet the waiter on the way in and on the way out.",
-      "why": "The Viennese coffeehouse, born after 1683, was an office, club and reading room in one. For the price of a single cup a guest could sit all day among dozens of newspapers on wooden holders, with paper, pen and a fresh glass of water brought unasked. Much of the literature of central Europe was written there.",
+      "instructions": "Go to a cafe where you will be left alone. Order one coffee. It should come with a glass of water. Take a newspaper or two, on paper, and read them through, including a page you would normally skip. Then write: a letter, a page of a diary, a poem. Stay for the whole hour, order nothing more unless you want it, and leave a good tip. The coffeehouse table is yours for the hour.",
+      "why": "The Viennese coffeehouse is a living room for the public. A coffee, a glass of water and a newspaper buy you a table for as long as you like.",
       "variations": [
-        "Go to the same cafe at the same hour for a week.",
-        "Play a game of chess.",
-        "Take a friend, and talk about what is in the papers."
+        "Play chess or cards at the table.",
+        "Write postcards.",
+        "Meet a friend and talk."
       ]
     },
     {
       "id": "promenade",
       "name": "The promenade",
-      "icon": "person-simple-walk",
+      "icon": "footprints",
       "slot": "Afternoon",
       "time": "17:00",
       "minutes": 30,
       "meta": "Afternoon · 30 min",
-      "instructions": "Late in the afternoon dress properly, as if you might meet someone, and go for a walk with no errand. Choose a park, a river bank or a handsome street. Walk at an easy pace. Greet everyone you know and stop for a word. Lift your hat, or your hand. Look at the buildings above the shop fronts and at the trees. If there is a bench with a view, sit on it for five minutes.",
-      "why": "The daily Spaziergang and the evening Korso were fixtures of life in every town of the monarchy. In Vienna society drove and walked in the chestnut avenue of the Prater, and from the 1860s along the new Ringstrasse, where the hour before dinner was the time to be seen.",
+      "instructions": "Late in the afternoon dress properly, as if you might meet someone, and go for a walk with no errand. Choose a park, a river bank or a handsome street. Walk at an easy pace. Greet everyone you know and stop for a word. Look at the buildings and the faces. Walking every day is a rule of this Onda.",
+      "why": "The promenade, the Korso, was a daily ritual of Habsburg towns, where people walked to see and be seen. A stroll is good for the spirit.",
       "variations": [
-        "Walk the same circuit daily and note what changes.",
-        "Walk with someone older and let them set the pace.",
-        "End at a bandstand, a cafe terrace or a wine garden."
+        "Walk the Ringstrasse of your town.",
+        "Take a friend along.",
+        "Wear something you like."
+      ]
+    },
+    {
+      "id": "the-jause",
+      "name": "The Jause",
+      "icon": "cake",
+      "slot": "Afternoon",
+      "time": "16:00",
+      "minutes": 20,
+      "meta": "Afternoon · 20 min",
+      "instructions": "Take a Jause, a mid-afternoon snack, with a cup of coffee or tea and a small cake: a slice of Sachertorte, apple strudel, a poppy-seed roll. Sit down for it. This is the Viennese way to cut the long gap between lunch and dinner. Share a piece with a colleague, and talk about nothing in particular.",
+      "why": "The Jause is a beloved Austrian ritual, a break in the afternoon with something sweet. It lifts the mood and spreads good cheer.",
+      "variations": [
+        "Bake the cake yourself.",
+        "Invite a neighbour.",
+        "Take it outdoors."
+      ]
+    },
+    {
+      "id": "a-hand-of-schnapsen",
+      "name": "A hand of schnapsen",
+      "icon": "cards",
+      "slot": "Afternoon",
+      "time": "17:30",
+      "minutes": 30,
+      "meta": "Afternoon · 30 min",
+      "instructions": "Play schnapsen, a two-player card game from Austria, with 20 cards, or any quick trick-taking game. Learn the rules online and play three rounds with a friend. The aim is to score 66 points. Chat as you play, and bow to a good move. Card games were the evening pastime of the Habsburg lands.",
+      "why": "Schnapsen is one of the most popular two-player card games in Central Europe. It is quick to learn and endlessly rewarding.",
+      "variations": [
+        "Play tarock if you have a group.",
+        "Play for sweets.",
+        "Teach a child."
+      ]
+    },
+    {
+      "id": "schmah",
+      "name": "Schmäh",
+      "icon": "smiley",
+      "slot": "Afternoon",
+      "time": "14:00",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Practise Schmäh, the Viennese art of charming, ironical banter. Greet someone with a humorous understatement, a gentle tease or a wry observation. Keep it friendly and never cruel. For example, when someone says it is hot, reply: yes, quite mild for August. See if you can make three people smile.",
+      "why": "Schmäh is the particular Viennese humour of irony and charm. It lightens everyday dealings and is an art in itself.",
+      "variations": [
+        "Make a pun in German.",
+        "Tell a joke against yourself.",
+        "Compliment someone with a twist."
+      ]
+    },
+    {
+      "id": "twenty-minutes-with-a-painting",
+      "name": "Twenty minutes with a painting",
+      "icon": "palette",
+      "slot": "Afternoon",
+      "time": "16:30",
+      "minutes": 20,
+      "meta": "Afternoon · 20 min",
+      "instructions": "Look at one painting properly for twenty minutes: in a gallery, or in a book or online. Try Klimt’s The Kiss, a Bruegel from the Kunsthistorisches Museum, or any work you like. Sit in front of it. Notice colour, composition and detail. Then write three lines about what it says. Vienna’s museums were built for such looking.",
+      "why": "The Habsburg collections formed the great museums of Vienna, open to the public from the 1700s. A slow look is a luxury anyone can have.",
+      "variations": [
+        "Look at The Hunters in the Snow.",
+        "Draw part of it.",
+        "Visit a local museum."
       ]
     },
     {
       "id": "hausmusik",
       "name": "Music at home",
-      "icon": "music-notes",
+      "icon": "music-note",
       "slot": "Evening",
       "time": "20:00",
       "minutes": 30,
       "meta": "Evening · 30 min",
-      "instructions": "Make music in your own home this evening, with whoever is there. Sing a song everyone knows, play duets, pick out a tune on any instrument, or put on a waltz and dance in the kitchen. It does not have to be good. If you are alone, learn eight bars of something and play or sing it through three times. Finish by listening together to one short piece, in silence.",
-      "why": "Before recordings, music in Vienna meant music in the drawing room. Schubert wrote his songs and dances for evenings among friends, who called them Schubertiades. Every middle-class family had a piano, and the string quartet was invented for four amateurs round a table.",
+      "instructions": "Make music in your own home this evening, with whoever is there. Sing a song everyone knows, play duets, pick out a tune on any instrument, or put on a waltz and dance in the kitchen. It does not have to be good. If you are alone, play or sing one piece. The rule of this Onda is to make music, not only hear it.",
+      "why": "Hausmusik, music made at home, was the heart of Habsburg bourgeois life. Schubert wrote many of his songs for evening parties with friends.",
       "variations": [
-        "Invite two friends and each bring one piece or song.",
-        "Learn the steps of the Viennese waltz, six to a turn.",
-        "Take up again the instrument you once played."
+        "Sing a folk song.",
+        "Play a duet.",
+        "Invite a friend to bring an instrument."
+      ]
+    },
+    {
+      "id": "a-waltz-in-the-kitchen",
+      "name": "A waltz in the kitchen",
+      "icon": "person-arms-spread",
+      "slot": "Evening",
+      "time": "21:00",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Put on a Strauss waltz, such as The Blue Danube, clear a space and dance. Waltz with a partner or a broom. Turn slowly, rise and fall with the music, and finish with a bow. The waltz was a scandal when it first arrived, because dancers held each other close. Now it is a pleasure.",
+      "why": "The waltz was the dance of the Habsburg world. Strauss’s waltzes are the music of the whole age.",
+      "variations": [
+        "Waltz with a child.",
+        "Waltz in a hallway.",
+        "Learn a reverse turn."
+      ]
+    },
+    {
+      "id": "an-evening-with-zweig",
+      "name": "An evening with Zweig",
+      "icon": "book-open",
+      "slot": "Evening",
+      "time": "21:30",
+      "minutes": 20,
+      "meta": "Evening · 20 min",
+      "instructions": "Read a few pages of Stefan Zweig’s memoir of the Vienna of his youth, a world of security and culture that vanished in 1914. Read slowly and aloud. Notice his nostalgia, and ask whether the world was really as safe as he remembers. The book was finished shortly before he died in exile in 1942.",
+      "why": "The World of Yesterday is the best portrait of the late Habsburg world, written by one of its great citizens in exile. It is both elegy and warning.",
+      "variations": [
+        "Read about the school days.",
+        "Read about the coffeehouse.",
+        "Compare it with a memory of your own."
+      ]
+    },
+    {
+      "id": "a-quartet-for-the-evening",
+      "name": "A quartet for the evening",
+      "icon": "waveform",
+      "slot": "Evening",
+      "time": "20:30",
+      "minutes": 25,
+      "meta": "Evening · 25 min",
+      "instructions": "Play Haydn’s Emperor Quartet, which contains the tune later used as Austria’s and Germany’s anthem, in its slow movement. Listen to the four strings in a quiet room with a cup of tea. Notice how the tune is passed from one instrument to another. The tune was written in 1797 to honour Emperor Francis.",
+      "why": "Haydn’s quartet movement on the Emperor’s Hymn is a perfect piece of chamber music. It has been the German national tune since 1922.",
+      "variations": [
+        "Listen to Schubert’s Trout Quintet.",
+        "Follow the cello.",
+        "Listen with the score."
+      ]
+    },
+    {
+      "id": "write-a-letter",
+      "name": "Write a letter",
+      "icon": "envelope-simple",
+      "slot": "Evening",
+      "time": "19:30",
+      "minutes": 20,
+      "meta": "Evening · 20 min",
+      "instructions": "Write a proper letter by hand to a friend or relative. Open with a courteous greeting and close with warm regards. Include news, a joke and a question. Habsburg correspondence was elegant and unhurried. Seal it and post it. Letters kept the far-flung lands of the monarchy together.",
+      "why": "Letter-writing was an art in the Habsburg lands, with elaborate forms of address. A handwritten letter is a lovely gift.",
+      "variations": [
+        "Write it in two languages.",
+        "Include a pressed flower.",
+        "Write to a relative abroad."
+      ]
+    },
+    {
+      "id": "dress-for-dinner",
+      "name": "Dress for dinner",
+      "icon": "dress",
+      "slot": "Evening",
+      "time": "18:30",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Change for dinner, even if you will eat at home. Put on a clean shirt or a favourite dress, brush your hair and light a candle on the table. The Habsburg town dweller dressed up for the evening meal as a mark of respect for the family. Sit down together and eat slowly. A small change makes a big difference.",
+      "why": "Dressing for dinner marked the end of the working day. It is a small ceremony that brings a sense of occasion.",
+      "variations": [
+        "Wear a tie or scarf.",
+        "Set the table with a cloth.",
+        "Say a toast at the start."
+      ]
+    },
+    {
+      "id": "a-viennese-sunday",
+      "name": "A Viennese Sunday",
+      "icon": "cooking-pot",
+      "slot": "Special",
+      "time": "12:00",
+      "minutes": 120,
+      "meta": "On a free day · 120 min",
+      "instructions": "Spend a Sunday in the Viennese way: a lunch of Tafelspitz, boiled beef with root vegetables, horseradish and apple, followed by a promenade in a park, a stop for coffee and cake, and an evening of music. Invite a guest if you like. Dress nicely. Go slowly and enjoy the pace. Nothing else is required.",
+      "why": "The Viennese Sunday, with its special lunch and its walk, was a family ritual in the Habsburg lands. Recreating it is a happy way to spend a day.",
+      "variations": [
+        "Cook Tafelspitz.",
+        "Visit a park and the coffeehouse.",
+        "End with a game of cards."
+      ]
+    },
+    {
+      "id": "a-home-ball",
+      "name": "A home ball",
+      "icon": "confetti",
+      "slot": "Special",
+      "time": "19:00",
+      "minutes": 120,
+      "meta": "On a free evening · 120 min",
+      "instructions": "Hold a ball at home or in a hall. Dress up, put on waltzes, polkas and a march, and invite friends. Open with a dance, give everyone a card for the dances and learn one new step. Serve something light to eat and a sparkling juice. The Vienna ball season runs from New Year to Shrove Tuesday. Keep the mood graceful and merry.",
+      "why": "The ball was the high social event of the Habsburg year, with the Opera Ball as the grandest. A small version at home is a joy.",
+      "variations": [
+        "Teach a simple waltz.",
+        "Make dance cards.",
+        "End with the Radetzky March and clapping."
       ]
     }
   ],
-  "tasks": [
+  "tasks": [],
+  "immersePlan": [
     {
-      "id": "task-read-the-first-chapter-of-the-world-of-yesterday",
-      "name": "Read the first chapter of The World of Yesterday",
-      "meta": "Read · The World of Security, 40 min",
-      "time": "20:30",
-      "slot": "Evening",
-      "action": "read"
+      "kind": "read",
+      "item": "read-the-world-of-yesterday",
+      "name": "Read The World of Yesterday",
+      "text": "Read a chapter of Zweig’s memoir. Note one detail of daily life that has changed.",
+      "minutes": 20
     },
     {
-      "id": "task-listen-to-the-slow-movement-of-haydn-s-emperor-quartet",
-      "name": "Listen to the slow movement of Haydn’s Emperor Quartet",
-      "meta": "Listen · the imperial hymn, 7 min",
-      "time": "19:00",
-      "slot": "Evening",
-      "action": "listen"
+      "kind": "read",
+      "item": "read-the-radetzky-march",
+      "name": "Read The Radetzky March",
+      "text": "Read a chapter of Joseph Roth’s 1932 novel of three generations of a family loyal to the old monarchy. Notice the irony.",
+      "minutes": 25
     },
     {
-      "id": "task-watch-colonel-redl",
+      "kind": "read",
+      "item": "read-danubia",
+      "name": "Read Danubia",
+      "text": "Read a chapter of Simon Winder’s witty history of the Habsburgs. Note one odd fact.",
+      "minutes": 25
+    },
+    {
+      "kind": "watch",
+      "item": "watch-amadeus",
+      "name": "Watch Amadeus",
+      "text": "Watch Miloš Forman’s 1984 film of Mozart in Habsburg Vienna. Listen for the music.",
+      "minutes": 160
+    },
+    {
+      "kind": "watch",
+      "item": "watch-sissi",
+      "name": "Watch Sissi",
+      "text": "Watch the 1955 film of Empress Elisabeth, beloved in Austrian cinema. Notice how it handles the nostalgia.",
+      "minutes": 105
+    },
+    {
+      "kind": "watch",
+      "item": "watch-colonel-redl",
       "name": "Watch Colonel Redl",
-      "meta": "Watch · the army of the last years",
-      "time": "20:45",
-      "slot": "Evening",
-      "action": "watch"
+      "text": "Watch István Szabó’s 1985 film about a ambitious army officer in the last years of the monarchy. A serious and haunting story.",
+      "minutes": 144
     },
     {
-      "id": "task-eat-boiled-beef-with-apple-and-horseradish-as-the-emperor-did-daily",
-      "name": "Eat boiled beef with apple and horseradish, as the emperor did daily",
-      "meta": "Eat · Tafelspitz",
-      "time": "12:30",
-      "slot": "Afternoon",
-      "action": "eat"
+      "kind": "listen",
+      "item": "listen-string-quartet-in-c-opus-76-no-3-the-emperor",
+      "name": "Listen to the Emperor Quartet",
+      "text": "Play Haydn’s quartet with its slow movement based on the hymn. Follow the tune as it passes between instruments.",
+      "minutes": 25
     },
     {
-      "id": "task-journal-what-was-your-duty-today-and-did-you-do-it",
-      "name": "Journal: what was your duty today, and did you do it?",
-      "meta": "Journal · 10 min",
-      "time": "21:30",
-      "slot": "Evening",
-      "action": "journal"
+      "kind": "listen",
+      "item": "listen-piano-quintet-in-a-the-trout",
+      "name": "Listen to the Trout Quintet",
+      "text": "Play Schubert’s quintet with its set of variations on the song of the trout. Enjoy the sparkle.",
+      "minutes": 35
     },
     {
-      "id": "task-many-peoples-under-one-roof-can-it-hold",
-      "name": "Many peoples under one roof: can it hold?",
-      "meta": "Philosophy · 10 min",
-      "time": "09:30",
-      "slot": "Morning",
-      "action": "philosophy"
+      "kind": "listen",
+      "item": "listen-the-blue-danube",
+      "name": "Listen to The Blue Danube",
+      "text": "Play Johann Strauss’s waltz of 1867 and dance a few bars around the room, however clumsily, with a partner or alone.",
+      "minutes": 10
     },
     {
-      "id": "address-everyone-today-by-their-proper-title-and-name",
-      "name": "Address everyone today by their proper title and name",
-      "meta": "Courtesy",
-      "time": "10:00",
-      "slot": "Morning"
+      "kind": "art",
+      "item": "art-the-kiss",
+      "name": "Look at The Kiss",
+      "text": "Look at Klimt’s gold-covered painting of two lovers on a flowery meadow. Notice the patterns of their robes.",
+      "minutes": 10
     },
     {
-      "id": "write-one-letter-by-hand-and-post-it",
-      "name": "Write one letter by hand and post it",
-      "meta": "The imperial post reached every village",
-      "time": "11:30",
-      "slot": "Morning"
+      "kind": "art",
+      "item": "art-the-bruegel-room",
+      "name": "Look at the Bruegel room",
+      "text": "Look at the Kunsthistorisches Museum’s unmatched collection of Bruegel, including The Hunters in the Snow and The Tower of Babel. Pick one.",
+      "minutes": 15
     },
     {
-      "id": "have-coffee-and-cake-at-four-with-someone-you-have-not-seen-for-a-whil",
-      "name": "Have coffee and cake at four with someone you have not seen for a while",
-      "meta": "Jause",
-      "time": "16:00",
-      "slot": "Afternoon"
+      "kind": "art",
+      "item": "art-the-postal-savings-bank",
+      "name": "Look at the Postal Savings Bank",
+      "text": "Look at pictures of Otto Wagner’s 1906 bank in Vienna, with aluminium bolts and a glass ceiling. A modern building from the monarchy’s last years.",
+      "minutes": 10
     },
     {
-      "id": "treat-have-a-slice-of-cake-at-four-with-coffee-and-whipped-cream",
-      "name": "Have a slice of cake at four with coffee and whipped cream",
-      "meta": "On a proper plate",
-      "time": "15:30",
-      "slot": "Afternoon"
+      "kind": "eat",
+      "item": "eat-tafelspitz",
+      "name": "Cook tafelspitz",
+      "text": "Simmer beef with root vegetables in a good broth and serve with horseradish and apple sauce.",
+      "minutes": 120
     },
     {
-      "id": "treat-waltz-around-the-kitchen-for-one-piece",
-      "name": "Waltz around the kitchen for one piece",
-      "meta": "Three steps, repeat",
-      "time": "19:30",
-      "slot": "Evening"
+      "kind": "eat",
+      "item": "eat-wiener-schnitzel",
+      "name": "Make Wiener schnitzel",
+      "text": "Beat veal or pork thin, coat in flour, egg and breadcrumbs and fry in butter until golden. Serve with lemon.",
+      "minutes": 40
     },
     {
-      "id": "treat-read-a-newspaper-on-a-stick-or-at-least-on-paper",
-      "name": "Read a newspaper on a stick, or at least on paper",
-      "meta": "In a coffeehouse, if you can",
-      "time": "15:30",
-      "slot": "Afternoon"
+      "kind": "eat",
+      "item": "eat-kaiserschmarrn",
+      "name": "Make Kaiserschmarrn",
+      "text": "Make a thick pancake, tear it into pieces as it cooks and serve with sugar, raisins and plum compote. It was the emperor’s favourite.",
+      "minutes": 30
     },
     {
-      "id": "treat-greet-someone-with-a-small-bow",
-      "name": "Greet someone with a small bow",
-      "meta": "Lightly",
-      "time": "08:30",
-      "slot": "Morning"
+      "kind": "drink",
+      "item": "drink-a-melange",
+      "name": "Make a melange",
+      "text": "Make strong coffee with steamed milk and a spoon of foam. Serve it with a glass of water on a small tray.",
+      "minutes": 10
     },
     {
-      "id": "daily-take-a-short-evening-promenade-in-your-best-clothes",
-      "name": "Take a short evening promenade in your best clothes",
-      "meta": "The Ringstrasse walk was made for being seen",
-      "time": "20:30",
-      "slot": "Evening"
+      "kind": "drink",
+      "item": "drink-a-white-wine-spritzer",
+      "name": "Make an apple spritzer",
+      "text": "Mix apple juice and sparkling water half and half with a slice of lemon. It stands in for the white wine spritzer of the Heuriger.",
+      "minutes": 5
     },
     {
-      "id": "daily-read-a-few-lines-of-a-poem-aloud-in-german-czech-hungarian-o",
-      "name": "Read a few lines of a poem aloud in German, Czech, Hungarian or Polish",
-      "meta": "No need to understand every word",
-      "time": "20:30",
-      "slot": "Evening"
+      "kind": "drink",
+      "item": "drink-tokaji",
+      "name": "Drink golden grape juice",
+      "text": "Pour a small glass of sweet golden grape juice and sip it as you would Tokaji, the dessert wine of Hungary that Habsburg courts adored.",
+      "minutes": 10
+    },
+    {
+      "kind": "customs",
+      "item": "customs-titles",
+      "name": "Use proper titles",
+      "text": "Address everyone today by their proper title or form. Notice how it changes the tone.",
+      "minutes": 5
+    },
+    {
+      "kind": "customs",
+      "item": "customs-staying",
+      "name": "Stay at the table",
+      "text": "Sit at a coffeehouse table or your own table for an hour with a single coffee. Nobody will hurry you.",
+      "minutes": 60
+    },
+    {
+      "kind": "customs",
+      "item": "customs-the-ball-season",
+      "name": "Dance one dance",
+      "text": "Put on a waltz and dance one dance, however clumsily. The ball season runs from New Year to Shrove Tuesday.",
+      "minutes": 10
+    },
+    {
+      "kind": "games",
+      "item": "games-tarock",
+      "name": "Play tarock",
+      "text": "Play the big card game of Austria and Hungary with three players and a deck of 54. Learn the rules online.",
+      "minutes": 40
+    },
+    {
+      "kind": "games",
+      "item": "games-schnapsen",
+      "name": "Play schnapsen",
+      "text": "Play the quick two-player card game of Austria with twenty cards, racing to 66 points. Chat as you play and enjoy each trick.",
+      "minutes": 20
+    },
+    {
+      "kind": "games",
+      "item": "games-carambole-billiards",
+      "name": "Play carom billiards",
+      "text": "Play the game with three balls and no pockets on a table. Or play ordinary pool and score points for caroms.",
+      "minutes": 30
+    },
+    {
+      "kind": "travel",
+      "item": "fest-the-new-year-s-concert",
+      "name": "Mark the New Year’s Concert",
+      "text": "The Vienna Philharmonic plays Strauss on 1 January. Listen to the Radetzky March at the end and clap along.",
+      "minutes": 60
+    },
+    {
+      "kind": "travel",
+      "item": "place-cafe-sperl",
+      "name": "Look up Café Sperl",
+      "text": "Look at pictures of the 1880 coffeehouse in Vienna, with marble tables and billiards. Imagine an hour there.",
+      "minutes": 10
+    },
+    {
+      "kind": "travel",
+      "item": "place-schonbrunn",
+      "name": "Look up Schönbrunn",
+      "text": "Look at pictures of the imperial summer palace in Vienna, with its gardens and gloriette. Pick a room.",
+      "minutes": 10
+    },
+    {
+      "kind": "words",
+      "item": "word-gemutlichkeit",
+      "name": "Practise Gemütlichkeit",
+      "text": "Gemütlichkeit is cosiness and good cheer. Make one corner of your home warm and welcoming this evening.",
+      "minutes": 10
+    },
+    {
+      "kind": "words",
+      "item": "word-schmah",
+      "name": "Practise Schmäh",
+      "text": "Schmäh is charming banter. Make three people smile with a witty remark today.",
+      "minutes": 5
+    },
+    {
+      "kind": "words",
+      "item": "word-jause",
+      "name": "Take a Jause",
+      "text": "Jause is the afternoon snack. Take a break with a small treat and a hot drink, and share it.",
+      "minutes": 15
     }
   ],
-  "immersePlan": [],
   "rules": [
     {
       "id": "r1",
@@ -696,6 +1035,12 @@
         "title": "Tokaji",
         "creator": "Sweet golden wine from north-east Hungary",
         "why": "Called the wine of kings and the king of wines. The court sent it as a diplomatic present."
+      },
+      {
+        "id": "drink-apfelschorle",
+        "title": "Apfelschorle",
+        "creator": "Apple juice with sparkling water",
+        "why": "The everyday summer drink of Austria and Germany: apple juice mixed half and half with fizzy mineral water. Drink it cold, in a tall glass."
       }
     ],
     "customs": [

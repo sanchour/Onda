@@ -293,17 +293,17 @@
     {
       "id": "where-from",
       "name": "Say where you come from",
-      "icon": "tree",
+      "icon": "users",
       "slot": "Morning",
       "time": "07:00",
       "minutes": 10,
       "meta": "Morning · 10 min",
-      "instructions": "Begin the day by naming your people. Say aloud the names of your parents, your grandparents and as many great-grandparents as you know, and where each was from. Name the land where you grew up, and a mountain, river or shore that you think of as home. If there are gaps, write them down as questions to ask an older relative. Then go about your day as someone who represents all those people.",
-      "why": "Across Polynesia a person is known through genealogy. Māori call it whakapapa and Hawaiians mo’okū’auhau, and experts could recite lines of descent over dozens of generations, back to the crews of the first canoes. A formal introduction says where you are from before it gives your name.",
+      "instructions": "Begin the day by naming your people. Say aloud the names of your parents, your grandparents and as many great-grandparents as you know, and where each was from. Name the land where you grew up, and a mountain, river or sea that belongs to you. This is whakapapa in Māori, genealogy, the way many Polynesians introduce themselves. The rule of this Onda is to know where you come from.",
+      "why": "Whakapapa in Aotearoa and moʻokūʻauhau in Hawaiʻi are genealogies that tie a person to land, family and ancestors. Reciting your own roots is a grounding start.",
       "variations": [
-        "Ring a relative and ask for one name you do not know.",
-        "Draw your family tree as far back as you can.",
-        "Find out where the names in your family come from."
+        "Add a place or story for each name.",
+        "Ask a relative to fill in the gaps.",
+        "Write your family tree."
       ]
     },
     {
@@ -314,12 +314,76 @@
       "time": "08:00",
       "minutes": 20,
       "meta": "Morning · 20 min",
-      "instructions": "Go to water today and get into it: the sea if you can, otherwise a lake, a river or a pool. Swim, paddle, float or simply stand in it up to the waist. Before you go in, stop at the edge for a moment and look at what the water is doing. Go in with respect and never alone in rough conditions. If no water can be reached, wash slowly in cold water and give it your full attention.",
-      "why": "Polynesians are people of the ocean. Children learned to swim as they learned to walk, and surfing, canoe racing and fishing filled daily life. In many islands the sea is also where one goes to be cleansed, as in the Hawaiian custom of bathing in the sea at dawn to wash away trouble.",
+      "instructions": "Go to water today and get into it: the sea if you can, otherwise a lake, a river or a pool. Swim, paddle, float or simply stand in it up to the waist. Before you go in, stop at the edge for a moment and look at what the water is doing. Say thank you as you step in. Stay within your depth, swim with others and mind the conditions and the tides. The ocean is the road of Polynesians.",
+      "why": "The ocean connects Polynesian peoples rather than dividing them. Epeli Hauʻofa called it a sea of islands. Getting into the water is a daily joy for many.",
       "variations": [
-        "Paddle a canoe, a kayak or a board.",
-        "Watch waves for ten minutes and count the sets.",
-        "Learn to float on your back."
+        "Swim with a friend.",
+        "Float on your back and look at the sky.",
+        "Wade into a stream if the sea is far."
+      ]
+    },
+    {
+      "id": "greet-in-a-polynesian-language",
+      "name": "Greet in a Polynesian language",
+      "icon": "hand-peace",
+      "slot": "Morning",
+      "time": "07:30",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Greet three people today in one Polynesian language and mean it: kia ora in Māori, talofa in Samoan, aloha in Hawaiian, malo e lelei in Tongan, ia orana in Tahitian. Say it warmly, with a smile and a nod. Ask how they are and wait for the answer. Learn the pronunciation from a native speaker online.",
+      "why": "Greetings are central in Polynesian cultures, and each language has its own. Using them with respect is a sign of care.",
+      "variations": [
+        "Learn to say thank you in the same language.",
+        "Learn a response.",
+        "Teach a child."
+      ]
+    },
+    {
+      "id": "make-a-flower-garland",
+      "name": "Make a flower garland",
+      "icon": "flower-tulip",
+      "slot": "Morning",
+      "time": "09:00",
+      "minutes": 20,
+      "meta": "Morning · 20 min",
+      "instructions": "Make a garland of flowers: thread blossoms on a string with a needle, or braid leaves and flowers together. Hawaiians call it a lei, Tongans a kahoa, Samoans an ula. Choose a garden or market flowers. Give it to someone with a kiss on the cheek or a warm word, or hang it on a door. Making it with care is itself a gift.",
+      "why": "Garlands of flowers or leaves are made across Polynesia as welcomes, farewells and honours. A lei is given with aloha.",
+      "variations": [
+        "Make a leaf garland.",
+        "Give it to an elder.",
+        "Hang it on your front door."
+      ]
+    },
+    {
+      "id": "feel-the-wind",
+      "name": "Feel the wind",
+      "icon": "wind",
+      "slot": "Morning",
+      "time": "06:30",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Stand outside at first light and feel the wind on your face. Which direction is it coming from? Name it. Navigators of the Pacific learned the winds, waves and stars so well that they crossed thousands of miles of ocean without instruments. Note the wind’s name, strength and smell. Check it again at noon.",
+      "why": "Polynesian wayfinders navigated by wind, swell, birds and stars. Paying attention to the wind is the first lesson.",
+      "variations": [
+        "Look at the clouds.",
+        "Wet a finger and test the wind.",
+        "Keep a wind diary."
+      ]
+    },
+    {
+      "id": "tropical-fruit-breakfast",
+      "name": "Tropical fruit breakfast",
+      "icon": "orange",
+      "slot": "Morning",
+      "time": "07:15",
+      "minutes": 15,
+      "meta": "Morning · 15 min",
+      "instructions": "Eat a breakfast of fresh fruit: papaya, pineapple, banana, mango, coconut or whatever is in season. Cut it up and share it with someone. Squeeze a lime over the papaya. Eat slowly, outside if you can, and give thanks. The islands feed their people from the land and sea. Notice where each fruit came from.",
+      "why": "Tropical fruit is a staple of island breakfasts, shared around a table. It is a colourful and simple start.",
+      "variations": [
+        "Add coconut flakes.",
+        "Eat on the porch.",
+        "Bring some to a neighbour."
       ]
     },
     {
@@ -330,12 +394,92 @@
       "time": "13:00",
       "minutes": 20,
       "meta": "Afternoon · 20 min",
-      "instructions": "Do twenty minutes of service today for your family or household, without being asked and without announcing it. Cook, carry, clean, fetch, look after the children or the old. Serve the others their food before you take your own, starting with the eldest. If a guest comes, give them the best of what you have. Expect nothing back.",
-      "why": "In Samoa the untitled men of a family serve its chief, cooking the food and bringing it to the elders, and it is from among those who served well that the next chief is chosen. Across Polynesia generosity to guests is what gives a host standing. A leader who does not feed people has no mana.",
+      "instructions": "Do twenty minutes of service today for your family or household, without being asked and without announcing it. Cook, carry, clean, fetch, look after the children or the old. Serve the others their food before you take your own. In Samoa this is tautua, service; in Māori, manaakitanga, care for others. The rule of this Onda is to serve before you lead.",
+      "why": "In Samoan tradition a chief is the one who serves: o le ala i le pule o le tautua, the way to authority is service. Serving first is the root of leadership.",
       "variations": [
-        "Take food to a neighbour or someone who is unwell.",
-        "Do the lowest job at a gathering.",
-        "Host a meal and eat last."
+        "Cook a meal for the household.",
+        "Clean without being asked.",
+        "Serve the oldest person first."
+      ]
+    },
+    {
+      "id": "talanoa",
+      "name": "Talanoa",
+      "icon": "chats",
+      "slot": "Afternoon",
+      "time": "16:00",
+      "minutes": 30,
+      "meta": "Afternoon · 30 min",
+      "instructions": "Sit on the floor or in a circle with someone and have a talanoa: an open, honest, face-to-face talk in the Tongan, Fijian and Samoan manner. Share stories, ask questions and listen without agenda or hurry. Everyone may speak and all are heard. There is no outcome to reach. Offer tea or food. Stay until the talk is done.",
+      "why": "Talanoa, in Tongan, Samoan and Fijian, is a relaxed, personal conversation. It is the way to build understanding and trust, and is now used in Pacific diplomacy.",
+      "variations": [
+        "Hold a talanoa with a family elder.",
+        "Ask a friend one open question.",
+        "Sit on the floor together."
+      ]
+    },
+    {
+      "id": "weave-a-mat",
+      "name": "Weave a mat",
+      "icon": "grains",
+      "slot": "Afternoon",
+      "time": "15:00",
+      "minutes": 30,
+      "meta": "Afternoon · 30 min",
+      "instructions": "Weave a small mat from strips of paper, flax, raffia or fabric: lay one set of strips side by side and weave the others over and under. Polynesian women weave mats, baskets and fans from pandanus, flax and coconut leaf, in patterns passed down through families. Make a coaster or a placemat. Give it to someone.",
+      "why": "Weaving is a core art across Polynesia, with fine mats called ʻie tōga in Samoa and kete in Aotearoa. Even a simple weave teaches the pattern.",
+      "variations": [
+        "Weave a bookmark.",
+        "Weave with a child.",
+        "Learn the over-under pattern."
+      ]
+    },
+    {
+      "id": "play-konane",
+      "name": "Play kōnane",
+      "icon": "cube",
+      "slot": "Afternoon",
+      "time": "14:30",
+      "minutes": 25,
+      "meta": "Afternoon · 25 min",
+      "instructions": "Play kōnane, the Hawaiian board game of jumping and capturing, with a friend. Set black and white stones alternately on a grid of 6 by 6 or 8 by 8, remove two in the middle and take turns jumping over opponent stones to capture. The player who can no longer move loses. Play two rounds.",
+      "why": "Kōnane is a game of strategy played by Hawaiians on boards carved in lava rock. It can be played with pebbles on a drawn grid.",
+      "variations": [
+        "Draw the board on paper.",
+        "Play on a stone board outside.",
+        "Teach a child."
+      ]
+    },
+    {
+      "id": "tap-the-sticks",
+      "name": "Tap the sticks",
+      "icon": "music-notes",
+      "slot": "Afternoon",
+      "time": "17:00",
+      "minutes": 15,
+      "meta": "Afternoon · 15 min",
+      "instructions": "Play tī rākau, the Māori stick game: sit in two lines facing each other with short sticks and pass, tap and throw them in rhythm to a song. Use pencils or wooden dowels. Start slowly and speed up. The game trains coordination and rhythm. Play with one or more friends.",
+      "why": "Tī rākau is a Māori stick game and training exercise, performed to songs, still taught in schools and kapa haka groups.",
+      "variations": [
+        "Play to a waiata.",
+        "Play with a drum beat.",
+        "Play with a larger group."
+      ]
+    },
+    {
+      "id": "feed-your-guests",
+      "name": "Feed your guests",
+      "icon": "bowl-food",
+      "slot": "Afternoon",
+      "time": "12:30",
+      "minutes": 40,
+      "meta": "Afternoon · 40 min",
+      "instructions": "Offer food and drink to anyone who comes to your door today, and take care that they have the best of what you have. Manaakitanga, in Māori, is the care for guests that raises the mana of both host and visitor. Don’t send anyone away hungry. Serve them first. Prepare a plate for yourself afterwards.",
+      "why": "Hospitality is one of the most important values of the Pacific. A host who feeds visitors well earns respect.",
+      "variations": [
+        "Bake something for visitors.",
+        "Share your lunch.",
+        "Offer a cup of tea."
       ]
     },
     {
@@ -346,145 +490,340 @@
       "time": "18:30",
       "minutes": 15,
       "meta": "Evening · 15 min",
-      "instructions": "Think of one relationship that is out of order: a coolness, an unreturned favour, a harsh word. Do one thing today to put it right. Go to the person, or call. Say plainly what happened as you see it, own your part, ask forgiveness or give it, and agree to let the matter rest. If nothing is out of order, strengthen a tie that you have let weaken with a visit, a gift of food or a message.",
-      "why": "Samoans and Tongans speak of the vā, the space between people, as something that must be kept in good order. Hawaiian families practised ho’oponopono, in which an elder gathered the household to talk through a wrong, with prayer, confession, forgiveness and release, and then shared a meal.",
+      "instructions": "Think of one relationship that is out of order: a coolness, an unreturned favour, a harsh word. Do one thing today to put it right. Go to the person, or call. Say plainly what happened as you see it, own your part, ask for theirs and offer something. In Samoan and Tongan the space between people is called vā or va, and it must be tended. The rule of this Onda is to tend the space between.",
+      "why": "Vā is the Samoan and Tongan idea of the sacred relational space between people. Tending it, teu le vā, is a central ethical task.",
       "variations": [
-        "Hold a family meeting to clear the air, with the eldest leading.",
-        "Return something you owe.",
-        "Thank someone in person for something they did long ago."
+        "Make a small gift to the person.",
+        "Apologise first.",
+        "Visit instead of calling."
       ]
     },
     {
       "id": "read-the-sky",
       "name": "Read the sky like a navigator",
-      "icon": "compass",
+      "icon": "star-four",
       "slot": "Evening",
       "time": "20:30",
       "minutes": 15,
       "meta": "Evening · 15 min",
-      "instructions": "Go outside at dusk or after dark. Find where the sun set today against a landmark, and remember it. Find one bright star or planet and note where it stands. Feel which way the wind is blowing and name the direction. If you can see water, see which way the swell is running. Do this from the same spot each evening and watch how each sign moves through the month.",
-      "why": "Polynesian navigators crossed thousands of kilometres of open ocean without instruments. They steered by the rising and setting points of stars, held a course by the feel of the swells against the hull, and found land from the flight of birds and the colour of clouds. The art was revived in the 1970s with the canoe Hōkūle’a.",
+      "instructions": "Go outside at dusk or after dark. Find where the sun set today against a landmark, and remember it. Find one bright star or planet and note where it stands. Feel which way the wind is blowing and name the direction. If you can, watch where the first star sets. Navigators memorised the rising and setting points of a hundred stars. Learn one.",
+      "why": "Pacific navigators crossed thousands of miles using star compasses, swell and birds. The Hōkūleʻa voyages of the 1970s showed that this knowledge is alive.",
       "variations": [
-        "Learn the four stars of the Southern Cross, or the Pole Star in the north.",
-        "Learn the Hawaiian star compass of thirty-two houses.",
-        "Watch where the moon rises tonight and tomorrow."
+        "Learn the rising point of Hōkūleʻa (Arcturus).",
+        "Note where the Southern Cross stands.",
+        "Draw a star compass."
+      ]
+    },
+    {
+      "id": "sunset-thanks",
+      "name": "Sunset thanks",
+      "icon": "sun-horizon",
+      "slot": "Evening",
+      "time": "18:00",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Watch the sunset and say thank you for the day. In Hawaii it is common to gather on a beach and watch the sun drop into the sea. Sit quietly. Think of the people you love and the day’s gifts. Wait until the last colour fades. Then go home.",
+      "why": "Sunset is a time of gathering and thanks across the Pacific. It needs nothing but a view.",
+      "variations": [
+        "Gather neighbours.",
+        "Sing a song of thanks.",
+        "Sit by the water."
+      ]
+    },
+    {
+      "id": "listen-to-pacific-music",
+      "name": "Listen to Pacific music",
+      "icon": "guitar",
+      "slot": "Evening",
+      "time": "19:30",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Play an album of Pacific music: Israel Kamakawiwoʻole’s Facing Future, Gabby Pahinui’s slack-key guitar, Te Vaka’s Tutuki or a Tahitian choir. Sit and listen all the way through, or play along on a ukulele. Sing the choruses. Note that some of these artists have died and are honoured for their music.",
+      "why": "Pacific music, from slack-key to choral himene, is among the world’s most loved. A relaxed listen brings the islands to your room.",
+      "variations": [
+        "Learn a chord on a ukulele.",
+        "Sing along to Somewhere Over the Rainbow.",
+        "Listen to a Tahitian himene."
+      ]
+    },
+    {
+      "id": "tell-your-ancestors-story",
+      "name": "Tell your ancestors’ story",
+      "icon": "campfire",
+      "slot": "Evening",
+      "time": "19:00",
+      "minutes": 20,
+      "meta": "Evening · 20 min",
+      "instructions": "Tell the story of an ancestor to someone younger: where they came from, what they did, what they were like, and a thing they said. Pass on the genealogy as well as the story. In Polynesian cultures stories of ancestors are the bones of identity. Write down what you tell so that it can be kept.",
+      "why": "Stories of ancestors anchor Polynesian families to place and to each other. Telling them is a way of making yourself part of a line.",
+      "variations": [
+        "Record it on your phone.",
+        "Draw an ancestor tree.",
+        "Ask a relative for their version."
+      ]
+    },
+    {
+      "id": "sway-to-a-song",
+      "name": "Sway to a song",
+      "icon": "music-note",
+      "slot": "Evening",
+      "time": "21:00",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Put on a favourite Pacific song and sway gently to it, letting your hands and hips move to the rhythm. Don’t try to perform a hula or a haka, which belong to the people who practise them, but enjoy the movement of the music. Close your eyes and feel the beat. It is a happy way to finish the day.",
+      "why": "Dance is essential in Polynesian life. As a guest, enjoying the music with your body is welcome; formal dances are for those taught them.",
+      "variations": [
+        "Sway with a partner.",
+        "Sway in the kitchen.",
+        "Watch a hula performance after."
+      ]
+    },
+    {
+      "id": "an-earth-oven-style-feast",
+      "name": "An earth-oven style feast",
+      "icon": "cooking-pot",
+      "slot": "Special",
+      "time": "13:00",
+      "minutes": 120,
+      "meta": "On a free afternoon · 120 min",
+      "instructions": "Cook a feast in the spirit of the umu or hāngī, the earth oven. At home, steam in a big covered pot or a slow oven: layers of taro or sweet potato, pumpkin, chicken or fish wrapped in leaves or foil, with coconut cream. Invite friends and family, serve elders first, say a word of thanks and eat together. Feeding people is the core of Pacific hospitality.",
+      "why": "The umu, hāngī or imu is the traditional oven in which a village feast is cooked underground with hot stones. A home version captures the sharing.",
+      "variations": [
+        "Wrap fish in banana leaves.",
+        "Make palusami.",
+        "Ask each guest to bring a dish."
+      ]
+    },
+    {
+      "id": "a-day-at-the-beach",
+      "name": "A day at the beach",
+      "icon": "sailboat",
+      "slot": "Special",
+      "time": "10:00",
+      "minutes": 120,
+      "meta": "On a free day · 120 min",
+      "instructions": "Spend a day at the sea or a lake with family or friends. Swim, paddle, float, read the waves, collect shells, play ball and eat a picnic of fruit and cold food on the sand. Bring a hat and sunscreen and watch the water and the weather. Pick up litter before you go home. For a Pacific person the sea is home.",
+      "why": "The ocean is the centre of Polynesian life. A day at the shore with family is the closest guests can get.",
+      "variations": [
+        "Go fishing with a line.",
+        "Learn about the tides.",
+        "Build a sandcastle with a child."
       ]
     }
   ],
-  "tasks": [
+  "tasks": [],
+  "immersePlan": [
     {
-      "id": "task-read-our-sea-of-islands",
-      "name": "Read Our Sea of Islands",
-      "meta": "Read · Epeli Hau’ofa’s essay, 1993",
-      "time": "20:00",
-      "slot": "Evening",
-      "action": "read"
+      "kind": "read",
+      "item": "read-we-are-the-ocean-selected-works",
+      "name": "Read We Are the Ocean",
+      "text": "Read Epeli Hauʻofa’s essay Our Sea of Islands in this collection, which changed how the Pacific sees itself. Note one line.",
+      "minutes": 20
     },
     {
-      "id": "task-listen-to-facing-future",
+      "kind": "read",
+      "item": "read-sea-people-the-puzzle-of-polynesia",
+      "name": "Read from Sea People",
+      "text": "Read a chapter of Christina Thompson’s account of how Polynesians crossed the Pacific and the long argument about it.",
+      "minutes": 25
+    },
+    {
+      "kind": "read",
+      "item": "read-the-whale-rider",
+      "name": "Read The Whale Rider",
+      "text": "Read a chapter of Witi Ihimaera’s 1987 novel about a Māori girl who rides a whale. It is short, moving and magical.",
+      "minutes": 25
+    },
+    {
+      "kind": "watch",
+      "item": "watch-whale-rider",
+      "name": "Watch Whale Rider",
+      "text": "Watch Niki Caro’s 2002 film of a young Māori girl challenging tradition to lead her people. Watch the whale.",
+      "minutes": 101
+    },
+    {
+      "kind": "watch",
+      "item": "watch-boy",
+      "name": "Watch Boy",
+      "text": "Watch Taika Waititi’s 2010 comedy of a boy in a Māori village in 1984 who idolises Michael Jackson and his absent father.",
+      "minutes": 87
+    },
+    {
+      "kind": "watch",
+      "item": "watch-moananuiakea-one-ocean-one-people-one-canoe",
+      "name": "Watch Moananuiākea",
+      "text": "Watch Nā’ālehu Anthony’s 2018 documentary on the Hōkūleʻa’s voyage around the world. Notice the care taken to every landing.",
+      "minutes": 60
+    },
+    {
+      "kind": "listen",
+      "item": "listen-facing-future",
       "name": "Listen to Facing Future",
-      "meta": "Listen · Israel Kamakawiwo’ole, 1993",
-      "time": "07:30",
-      "slot": "Morning",
-      "action": "listen"
+      "text": "Play Israel Kamakawiwoʻole’s 1993 album, including Somewhere Over the Rainbow. Sing along. This artist has passed away.",
+      "minutes": 45
     },
     {
-      "id": "task-look-at-a-sheet-of-tongan-ngatu",
-      "name": "Look at a sheet of Tongan ngatu",
-      "meta": "Art · painted barkcloth, made by groups of women",
-      "time": "13:30",
-      "slot": "Afternoon",
-      "action": "art"
+      "kind": "listen",
+      "item": "listen-tutuki",
+      "name": "Listen to Tutuki",
+      "text": "Play Te Vaka’s 2004 album, a blend of Pacific drums and voices. Dance a little.",
+      "minutes": 45
     },
     {
-      "id": "task-play-konane",
+      "kind": "listen",
+      "item": "listen-gabby",
+      "name": "Listen to Gabby Pahinui",
+      "text": "Play Gabby Pahinui’s 1972 slack-key guitar album, the sound of Hawaii’s backyard. This artist has passed away.",
+      "minutes": 40
+    },
+    {
+      "kind": "art",
+      "item": "art-the-moai",
+      "name": "Look at the moai",
+      "text": "Look at the great stone figures of Rapa Nui, carved between 1250 and 1500. Look at their faces.",
+      "minutes": 10
+    },
+    {
+      "kind": "art",
+      "item": "art-ngatu",
+      "name": "Look at Tongan ngatu",
+      "text": "Look at the beaten bark cloth decorated by Tongan women with bold patterns. Pick one pattern and sketch it.",
+      "minutes": 10
+    },
+    {
+      "kind": "art",
+      "item": "art-the-carved-meeting-house",
+      "name": "Look at a Māori meeting house",
+      "text": "Look at the carved wooden wharenui of Aotearoa, where each carving is an ancestor. Find a face.",
+      "minutes": 10
+    },
+    {
+      "kind": "eat",
+      "item": "eat-taro",
+      "name": "Cook taro",
+      "text": "Boil or bake taro and eat it with butter or coconut cream. Mash it as the Hawaiians do into poi if you dare.",
+      "minutes": 40
+    },
+    {
+      "kind": "eat",
+      "item": "eat-palusami",
+      "name": "Make palusami",
+      "text": "Wrap taro or spinach leaves around coconut cream and onion, bake in foil and eat. It is a Samoan favourite.",
+      "minutes": 45
+    },
+    {
+      "kind": "eat",
+      "item": "eat-breadfruit",
+      "name": "Taste breadfruit",
+      "text": "Roast or fry breadfruit, the staple carried across the Pacific in canoes. If you cannot find it, eat potato in its place.",
+      "minutes": 30
+    },
+    {
+      "kind": "drink",
+      "item": "drink-kava",
+      "name": "Learn about kava",
+      "text": "Read about the kava ceremony of Fiji, Tonga and Samoa. As a guest, drink kava only when invited by hosts, and avoid it with medicine or liver problems. Or sip a cup of kava tea.",
+      "minutes": 15
+    },
+    {
+      "kind": "drink",
+      "item": "drink-coconut-water",
+      "name": "Drink coconut water",
+      "text": "Drink from a green coconut and scrape out the soft flesh. Sit in the sun.",
+      "minutes": 10
+    },
+    {
+      "kind": "drink",
+      "item": "drink-koko-samoa",
+      "name": "Make koko Sāmoa",
+      "text": "Roast and grind cocoa beans, or use pure cocoa, boil with water and sugar and drink hot. It is a Samoan breakfast drink.",
+      "minutes": 20
+    },
+    {
+      "kind": "customs",
+      "item": "customs-the-hongi",
+      "name": "Learn about the hongi",
+      "text": "Read about the Māori greeting of pressing noses and sharing breath. Greet someone warmly by sharing a breath or a gentle touch of the hands.",
+      "minutes": 5
+    },
+    {
+      "kind": "customs",
+      "item": "customs-giving-a-lei",
+      "name": "Give a lei",
+      "text": "Make or buy a garland of flowers and give it to someone with a kiss on the cheek and a warm word.",
+      "minutes": 20
+    },
+    {
+      "kind": "customs",
+      "item": "customs-sitting-to-speak",
+      "name": "Sit to speak",
+      "text": "In Polynesia it is polite to keep your head lower than elders’ when speaking. Sit on the floor with an elder today and talk.",
+      "minutes": 20
+    },
+    {
+      "kind": "games",
+      "item": "games-surfing",
+      "name": "Try surfing or bodysurfing",
+      "text": "Surfing began in Polynesia. If you can, try bodysurfing in safe small waves, or watch a surf video. Respect the sea and swim with others.",
+      "minutes": 30
+    },
+    {
+      "kind": "games",
+      "item": "games-konane",
       "name": "Play kōnane",
-      "meta": "Games · the Hawaiian board game of jumps",
-      "time": "19:00",
-      "slot": "Evening",
-      "action": "games"
+      "text": "Play the Hawaiian game of jumping and capturing with pebbles on a drawn grid.",
+      "minutes": 25
     },
     {
-      "id": "task-journal-whose-descendant-are-you-and-whose-ancestor-will-you-be",
-      "name": "Journal: whose descendant are you, and whose ancestor will you be?",
-      "meta": "Journal · 10 min",
-      "time": "21:00",
-      "slot": "Evening",
-      "action": "journal"
+      "kind": "games",
+      "item": "games-ti-rakau",
+      "name": "Play tī rākau",
+      "text": "Sit facing a partner and tap, pass and throw short sticks to each other in rhythm, to a song or a steady count.",
+      "minutes": 15
     },
     {
-      "id": "task-is-the-ocean-what-divides-islands-or-what-joins-them",
-      "name": "Is the ocean what divides islands, or what joins them?",
-      "meta": "Philosophy · 10 min",
-      "time": "09:30",
-      "slot": "Morning",
-      "action": "philosophy"
+      "kind": "travel",
+      "item": "fest-matariki",
+      "name": "Mark Matariki",
+      "text": "Matariki, the Māori new year, appears when the Pleiades rise in midwinter (June or July). Look at the stars before dawn, remember those who died and share a meal.",
+      "minutes": 30
     },
     {
-      "id": "do-a-job-together-with-others-that-you-would-usually-do-alone",
-      "name": "Do a job together with others that you would usually do alone",
-      "meta": "Many hands",
-      "time": "11:00",
-      "slot": "Morning"
+      "kind": "travel",
+      "item": "fest-heiva-i-tahiti",
+      "name": "Look up Heiva i Tahiti",
+      "text": "Look at pictures and video of Tahiti’s July festival of dance, music and canoe races. Pick a dance.",
+      "minutes": 15
     },
     {
-      "id": "give-a-guest-or-a-stranger-the-best-of-what-you-have",
-      "name": "Give a guest, or a stranger, the best of what you have",
-      "meta": "Manaakitanga",
-      "time": "15:00",
-      "slot": "Afternoon"
+      "kind": "travel",
+      "item": "place-taputapuatea",
+      "name": "Look up Taputapuātea",
+      "text": "Look at pictures of the great marae on Raʻiātea, the sacred centre from which voyagers sailed across the Pacific.",
+      "minutes": 10
     },
     {
-      "id": "name-the-thing-that-is-yours-to-look-after-and-look-after-it",
-      "name": "Name the thing that is yours to look after, and look after it",
-      "meta": "Kuleana",
-      "time": "17:00",
-      "slot": "Evening"
+      "kind": "words",
+      "item": "word-manaakitanga",
+      "name": "Practise manaakitanga",
+      "text": "Manaakitanga is care for guests. Go out of your way for someone who comes to your home or workplace today.",
+      "minutes": 15
     },
     {
-      "id": "treat-wear-a-flower-behind-your-ear",
-      "name": "Wear a flower behind your ear",
-      "meta": "Any flower",
-      "time": "08:30",
-      "slot": "Morning"
+      "kind": "words",
+      "item": "word-va",
+      "name": "Practise vā",
+      "text": "Vā is the relational space between people. Do one thing to strengthen a relationship today.",
+      "minutes": 10
     },
     {
-      "id": "treat-sing-with-someone-in-harmony-or-try",
-      "name": "Sing with someone in harmony, or try",
-      "meta": "One song",
-      "time": "19:30",
-      "slot": "Evening"
-    },
-    {
-      "id": "treat-go-to-the-water-and-get-your-feet-wet",
-      "name": "Go to the water and get your feet wet",
-      "meta": "Sea, lake or basin",
-      "time": "15:30",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "treat-share-your-food-before-you-eat-any-yourself",
-      "name": "Share your food before you eat any yourself",
-      "meta": "Others first",
-      "time": "19:30",
-      "slot": "Evening"
-    },
-    {
-      "id": "daily-weave-a-bracelet-or-a-crown-from-leaves-or-flowers",
-      "name": "Weave a bracelet or a crown from leaves or flowers",
-      "meta": "A lei is given, not kept",
-      "time": "14:00",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "daily-get-your-feet-wet-in-the-sea-a-lake-or-a-basin",
-      "name": "Get your feet wet in the sea, a lake or a basin",
-      "meta": "Water joins the islands",
-      "time": "14:00",
-      "slot": "Afternoon"
+      "kind": "words",
+      "item": "word-whakapapa",
+      "name": "Practise whakapapa",
+      "text": "Whakapapa is genealogy. Write down the names of your grandparents and where they were from.",
+      "minutes": 10
     }
   ],
-  "immersePlan": [],
   "rules": [
     {
       "id": "r1",

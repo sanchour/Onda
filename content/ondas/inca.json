@@ -299,60 +299,188 @@
       "time": "06:15",
       "minutes": 5,
       "meta": "Morning · 5 min",
-      "instructions": "At sunrise go outside and face east. Stand until the sun clears the horizon or the rooftops, and greet it. Take the first drink of your day with you. Before you taste it, tip a few drops on to the ground, and say thank you to the earth for the food you will eat today. Then drink. Look at the nearest hill or high point and acknowledge that too.",
-      "why": "The Inca state centred on the Sun, whose rising at the solstices was watched from stone pillars above Cusco. The offering of the first drops, the ch’alla, is older than the Incas and is made today by millions of Andean people before any drink.",
+      "instructions": "At sunrise go outside and face east. Stand until the sun clears the horizon or the rooftops, and greet it. Take the first drink of your day with you. Before you taste it, tip a few drops on to the ground, and say thank you to the earth. Then drink. The rule of this Onda is to thank the earth first.",
+      "why": "In the Andes the first drops of a drink are offered to Pachamama, the earth, a gesture called ch’alla. It is a daily reminder that you are fed by the ground.",
       "variations": [
-        "On 1 August, the day of Pachamama, give the earth a proper share of a meal.",
-        "Learn where the sun rises at midsummer and midwinter from your home.",
-        "Pour the drops before every drink for one whole day."
+        "Offer the drops to a plant.",
+        "Say thank you aloud.",
+        "Greet the mountain nearest you."
       ]
     },
     {
       "id": "ayni",
       "name": "Ayni",
-      "icon": "handshake",
+      "icon": "hand-heart",
       "slot": "Morning",
       "time": "09:00",
       "minutes": 20,
       "meta": "Morning · 20 min",
-      "instructions": "Do a piece of real work for someone today on the understanding that it will come back. Help a neighbour move, dig, paint, harvest, mind children, fix something. Make it labour, not money. Then keep the account honestly: write down what you have given and what you have received this month, and from whom. Where you are in debt, set a day to repay it in kind.",
-      "why": "Ayni is the rule under all Andean life. A household cannot plough, roof a house or bring in a harvest alone, so help is lent and returned, day for day. Those who receive and do not give back lose their standing. The same rule governs dealings with the earth and the mountains.",
+      "instructions": "Do a piece of real work for someone today on the understanding that it will come back. Help a neighbour move, dig, paint, harvest, mind children, fix something. Make it labour, not money. Then keep the account honestly: they will help you in turn. The rule of this Onda is to give back what you receive.",
+      "why": "Ayni is the Andean principle of reciprocal work, today for you, tomorrow for me. It is the engine of Andean communities, from the Incas to now.",
       "variations": [
-        "Ask for help with something, and so open an exchange.",
-        "Return a favour that is years old.",
-        "Bring food and drink for everyone you work beside."
+        "Ask a neighbour what needs doing.",
+        "Repay a past favour.",
+        "Offer a skill in exchange for another."
+      ]
+    },
+    {
+      "id": "a-cup-of-muna-tea",
+      "name": "A cup of muña tea",
+      "icon": "coffee",
+      "slot": "Morning",
+      "time": "07:15",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Brew a cup of muña, an Andean mint, or ordinary mint, in hot water. Hold the cup in both hands and breathe in the steam. Muña is drunk in the highlands for warmth and a settled stomach. Offer the first drops to the ground. Sip slowly and watch the morning light on the hills, or wherever you are.",
+      "why": "Muña tea is a daily drink in the Andean highlands, grown wild on the slopes. A cup of mint tea is a warm start to the day.",
+      "variations": [
+        "Add a spoon of honey.",
+        "Grow mint in a pot.",
+        "Serve it to a neighbour."
+      ]
+    },
+    {
+      "id": "a-hand-on-the-earth",
+      "name": "A hand on the earth",
+      "icon": "tree",
+      "slot": "Morning",
+      "time": "07:00",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Go outside and put a hand flat on the ground, on grass, soil, a rock or a tree trunk. Rest it there for a minute and feel its coolness or warmth. Say thank you silently. Pachamama, Mother Earth, is thanked in the Andes before anything else is done. If you cannot go out, touch a pot of soil.",
+      "why": "Pachamama is the Andean mother earth, who gives and receives. Touching the ground is a simple way to feel the connection.",
+      "variations": [
+        "Sit on the grass for five minutes.",
+        "Walk barefoot on soil.",
+        "Hold a stone in your pocket."
+      ]
+    },
+    {
+      "id": "build-a-little-apacheta",
+      "name": "Build a little apacheta",
+      "icon": "mountains",
+      "slot": "Morning",
+      "time": "08:00",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Build a tiny cairn of stones, an apacheta, on a windowsill, a garden wall or a path. In the Andes travellers add a stone to a pile at a mountain pass in thanks for a safe crossing. Pick a few flat stones, stack them carefully and say a thank you for a journey you have made, or ask for one ahead. Leave it for others.",
+      "why": "Apachetas are cairns on high passes where travellers leave a stone or coca leaf as an offering. A small cairn is a pocket-sized echo.",
+      "variations": [
+        "Add a stone each day.",
+        "Build one on a hike.",
+        "Stack stones in a garden."
+      ]
+    },
+    {
+      "id": "one-quechua-word",
+      "name": "One Quechua word",
+      "icon": "translate",
+      "slot": "Morning",
+      "time": "08:30",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Learn one Quechua word today and use it three times: allillanchu, hello; sulpayki, thank you; ayni, reciprocity; hatun, great; mama, mother; yaku, water. Quechua is spoken by about eight million people across the Andes and was the language of the Inca state. Say the word aloud to someone.",
+      "why": "Quechua, Runasimi, the language of the people, is among the largest Indigenous languages in the Americas. Learning a word shows respect.",
+      "variations": [
+        "Learn the numbers to five.",
+        "Say sulpayki to a person who helps you.",
+        "Learn the names of three Andean potatoes."
       ]
     },
     {
       "id": "khipu",
       "name": "Knot the day",
-      "icon": "yarn",
+      "icon": "link",
       "slot": "Afternoon",
       "time": "13:00",
       "minutes": 10,
       "meta": "Afternoon · 10 min",
-      "instructions": "Keep today’s record on a string. Take a main cord and tie hanging strings to it, one for each thing you want to count: tasks done, people helped, hours worked, money spent, debts owed. Use a different colour for each if you can. Tie one simple knot for each unit, and a long knot of several turns for the numbers two to nine. At the end of the week read the cord back without notes.",
-      "why": "The Incas ran an empire of ten million people without writing. Census, tribute, storehouse contents and calendars were kept on khipus by trained cord keepers, who could recite them years later. About a thousand survive, and scholars can read the numbers.",
+      "instructions": "Keep today’s record on a string. Take a main cord and tie hanging strings to it, one for each thing you want to count: tasks done, people helped, hours worked, money spent, debts owed. Use a different colour for each if you can. Tie a knot for each unit. Hang it up at the end of the day and see what the day looks like. The Incas kept records on khipu this way, with no writing.",
+      "why": "Khipu are the knotted cords on which the Inca state recorded numbers and probably stories. Making a simple one is a way to see your day in a new form.",
       "variations": [
-        "Record a whole week on one khipu.",
-        "Use position on the string for tens and hundreds, as the Incas did.",
-        "Tie one cord for what you owe and one for what you are owed."
+        "Use different colours for work, home and play.",
+        "Keep a week’s cord.",
+        "Count the steps you walk."
       ]
     },
     {
       "id": "walk-the-road",
       "name": "Walk the road",
-      "icon": "footprints",
+      "icon": "path",
       "slot": "Afternoon",
       "time": "16:00",
       "minutes": 45,
       "meta": "Afternoon · 45 min",
-      "instructions": "Walk for forty-five minutes on foot, uphill for as much of it as you can find, at a steady pace that lets you breathe through your nose. Carry something for someone: a parcel to deliver, shopping for a neighbour, a message to give in person. Take steps and steep paths in preference to flat ones. When you reach a high point, stop, add a stone to a pile if there is one, and look back along the way you came.",
-      "why": "The Inca road system crossed the highest inhabited mountains on earth with stairways, causeways and grass suspension bridges. Everything moved along it on foot or on llamas. Travellers still add a stone to the cairns called apachetas at each pass.",
+      "instructions": "Walk for forty-five minutes on foot, uphill for as much of it as you can find, at a steady pace that lets you breathe through your nose. Carry something for someone: a parcel to deliver, shopping for a neighbour, a message. The Inca road system covered 40,000 kilometres, run by runners and porters on foot. Dress and drink for the walk, and go at a pace that suits your fitness.",
+      "why": "The Qhapaq Ñan, the Inca road, was walked by chaski messengers who ran relays across the Andes. A walk with a purpose is the humble form.",
       "variations": [
-        "Run a short relay with a friend, passing a spoken message exactly.",
-        "Walk to deliver something you would normally send.",
-        "Climb the highest ground within reach and name what you can see."
+        "Walk to deliver something kind.",
+        "Climb a staircase twice.",
+        "Walk without a phone."
+      ]
+    },
+    {
+      "id": "plant-something",
+      "name": "Plant something",
+      "icon": "plant",
+      "slot": "Afternoon",
+      "time": "15:00",
+      "minutes": 20,
+      "meta": "Afternoon · 20 min",
+      "instructions": "Plant something today: a potato eye in a bucket, a bean in a pot, a handful of herbs in a window box. The Andes is the birthplace of the potato, with thousands of varieties. Prepare the soil, place the seed, water it and thank the earth. Check it in a week. Store against the frost is a rule of this Onda.",
+      "why": "The Incas were master farmers who domesticated potatoes, quinoa and more on terraces. Planting a seed ties you to the same cycle.",
+      "variations": [
+        "Plant a potato in a bucket.",
+        "Start a bean in a jar.",
+        "Join a community garden for an hour."
+      ]
+    },
+    {
+      "id": "braid-a-cord",
+      "name": "Braid a cord",
+      "icon": "yarn",
+      "slot": "Afternoon",
+      "time": "14:30",
+      "minutes": 20,
+      "meta": "Afternoon · 20 min",
+      "instructions": "Braid three strands of wool or string into a cord, then braid three cords into a rope. The Incas made rope bridges from grass, braiding strands into cords and cords into cables as thick as a body. Each braider added a little to the whole. Try a four-strand braid or a woven bracelet. Give it to a friend.",
+      "why": "Braiding was the basis of Inca engineering, culminating in suspension bridges rebuilt each year by whole communities. A cord made by hand is a small version.",
+      "variations": [
+        "Make a bracelet for someone.",
+        "Braid with a friend, each adding a strand.",
+        "Make a long rope and measure it."
+      ]
+    },
+    {
+      "id": "toss-at-the-frog",
+      "name": "Toss at the frog",
+      "icon": "target",
+      "slot": "Afternoon",
+      "time": "16:30",
+      "minutes": 20,
+      "meta": "Afternoon · 20 min",
+      "instructions": "Play sapo, a throwing game: set a box with a hole, a ring or a bowl as the target, and toss coins or beanbags at it from a distance. Score points for each landing. The Peruvian game of sapo is said to descend from an Inca game with golden discs thrown into a frog’s mouth. Play with friends and laugh at the misses.",
+      "why": "Sapo, the frog game, is a traditional throwing game of Peru, played in homes and parks. It is simple, social and fun.",
+      "variations": [
+        "Draw a frog on a box.",
+        "Keep a running score.",
+        "Teach a child."
+      ]
+    },
+    {
+      "id": "share-a-pot",
+      "name": "Share a pot",
+      "icon": "cooking-pot",
+      "slot": "Afternoon",
+      "time": "12:30",
+      "minutes": 40,
+      "meta": "Afternoon · 40 min",
+      "instructions": "Cook a big pot of something simple, such as potato and vegetable stew, and share it with a neighbour or colleague. In the Andes food is shared at communal work and festivals, from pots that feed everyone. Bring a bowl round, or invite people to eat with you. Offer the first drops of broth to the ground.",
+      "why": "Sharing food from a communal pot is the heart of Andean community life. It is ayni made edible.",
+      "variations": [
+        "Cook with potatoes of different kinds.",
+        "Add quinoa.",
+        "Eat outdoors."
       ]
     },
     {
@@ -363,129 +491,341 @@
       "time": "21:00",
       "minutes": 10,
       "meta": "Evening · 10 min",
-      "instructions": "At the end of the day ask yourself three questions and answer them aloud. Did I take anything today that was not mine: goods, credit, time? Did I say anything that was not true? Was I idle when there was work to do? Put right tomorrow whatever needs it. Then go outside. If the sky is dark, find the Milky Way and look for the dark shapes within it, not the bright stars.",
-      "why": "Ama sua, ama llulla, ama qhella is the best known moral rule of the Andes, and the United Nations adopted it in 2015 as a principle for honest public service. Andean astronomers saw their constellations in the dark clouds of the Milky Way, which they called the river.",
+      "instructions": "At the end of the day ask yourself three questions and answer them aloud. Did I take anything today that was not mine: goods, credit, time? Did I say anything that was not true? Was I idle when there was work to do? Put right what you can. Then look up at the night sky for a minute. The Incas saw the Milky Way as a river in the sky. The rules of this Onda are not to steal, not to lie and not to be idle.",
+      "why": "The Inca moral code is summarised as ama sua, ama llulla, ama quella: do not steal, do not lie, do not be lazy. The river of stars was the celestial mirror of the Vilcanota.",
       "variations": [
-        "Add a fourth, as some do: do not be servile.",
-        "Greet someone tomorrow with the three laws, as a wish.",
-        "Learn to find the Southern Cross or, in the north, the Pleiades, which the Incas watched to forecast the harvest."
-      ]
-    }
-  ],
-  "tasks": [
-    {
-      "id": "task-look-through-guaman-poma-s-drawings-of-the-twelve-months-of-work",
-      "name": "Look through Guaman Poma’s drawings of the twelve months of work",
-      "meta": "Art · the Royal Library’s online facsimile",
-      "time": "13:30",
-      "slot": "Afternoon",
-      "action": "art"
-    },
-    {
-      "id": "task-read-the-capture-of-atahualpa-in-an-eyewitness-account",
-      "name": "Read the capture of Atahualpa in an eyewitness account",
-      "meta": "Read · Cajamarca, 16 November 1532",
-      "time": "20:00",
-      "slot": "Evening",
-      "action": "read"
-    },
-    {
-      "id": "task-listen-to-hanacpachap-cussicuinin",
-      "name": "Listen to Hanacpachap cussicuinin",
-      "meta": "Listen · a hymn in Quechua printed in 1631",
-      "time": "18:00",
-      "slot": "Evening",
-      "action": "listen"
-    },
-    {
-      "id": "task-cook-potatoes-three-ways-and-learn-the-name-of-each-variety",
-      "name": "Cook potatoes three ways, and learn the name of each variety",
-      "meta": "Eat · the Andes grow thousands",
-      "time": "12:30",
-      "slot": "Afternoon",
-      "action": "eat"
-    },
-    {
-      "id": "task-journal-what-did-you-receive-today-and-what-did-you-give-back",
-      "name": "Journal: what did you receive today, and what did you give back?",
-      "meta": "Journal · 10 min",
-      "time": "21:30",
-      "slot": "Evening",
+        "Say the three laws in Quechua.",
+        "Look for the dark llama in the Milky Way.",
+        "Write the three answers."
+      ],
       "action": "journal"
     },
     {
-      "id": "task-a-state-with-no-money-and-no-hunger-at-what-price",
-      "name": "A state with no money and no hunger: at what price?",
-      "meta": "Philosophy · 10 min",
-      "time": "08:00",
-      "slot": "Morning",
-      "action": "philosophy"
+      "id": "the-river-in-the-sky",
+      "name": "The river in the sky",
+      "icon": "star-four",
+      "slot": "Evening",
+      "time": "20:30",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Go out on a clear night and look for the Milky Way. If the sky is dark enough, see the dark shapes in its dust: the Incas saw a llama, a baby llama, a fox, a toad and a snake there. Lie back and trace one. If you cannot see it, look at an image. Thank the night for its stories.",
+      "why": "Andean astronomers saw animals in the dark clouds of the Milky Way. They linked the stars to the seasons of planting and herding.",
+      "variations": [
+        "Find a dark-sky spot.",
+        "Draw the dark llama.",
+        "Learn the Southern Cross, the chakana."
+      ]
     },
     {
-      "id": "take-your-turn-at-a-job-that-everyone-leaves-to-someone-else",
-      "name": "Take your turn at a job that everyone leaves to someone else",
-      "meta": "Mit’a",
-      "time": "11:00",
-      "slot": "Morning"
-    },
-    {
-      "id": "mend-or-make-something-of-cloth",
-      "name": "Mend or make something of cloth",
-      "meta": "Cloth was worth more than gold",
-      "time": "15:00",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "put-something-by-for-a-bad-year",
-      "name": "Put something by for a bad year",
-      "meta": "The storehouses",
-      "time": "17:30",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "treat-taste-a-potato-cooked-very-simply-with-salt",
-      "name": "Taste a potato cooked very simply, with salt",
-      "meta": "Notice the variety",
+      "id": "listen-to-the-panpipes",
+      "name": "Listen to the panpipes",
+      "icon": "wind",
+      "slot": "Evening",
       "time": "19:30",
-      "slot": "Evening"
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Play a recording of sikuri panpipes from the Lake Titicaca region, where players share a melody between two rows of pipes, each playing alternating notes. Sit still and listen to the interlocking sound. It takes two players to make one tune, a sign of the Andean idea of balance, yanantin.",
+      "why": "Sikuri panpipes are played in pairs, each musician providing half the notes. The music teaches the Andean principle of complementarity.",
+      "variations": [
+        "Listen to huaynos afterwards.",
+        "Hum one half of the tune.",
+        "Look at a picture of the zampoña."
+      ]
     },
     {
-      "id": "treat-pour-a-few-drops-on-the-ground-before-you-drink",
-      "name": "Pour a few drops on the ground before you drink",
-      "meta": "For the earth",
-      "time": "15:30",
-      "slot": "Afternoon"
+      "id": "an-andean-tale",
+      "name": "An Andean tale",
+      "icon": "book-open",
+      "slot": "Evening",
+      "time": "20:00",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Tell or read a story from the Huarochirí Manuscript or a Quechua folktale, such as the llama who warned his master of the great flood, or the fox who went to the sky. Tell it aloud with gestures. Ask who in the story gives back and who takes. Stories were how Andean peoples kept their memories.",
+      "why": "The Huarochirí Manuscript is the only surviving book of Andean myth written in Quechua. Its tales are vivid and strange.",
+      "variations": [
+        "Tell the llama and flood story.",
+        "Tell it to a child.",
+        "Draw the animals."
+      ]
     },
     {
-      "id": "treat-tie-a-knot-in-a-string-for-each-thing-you-finish-today",
-      "name": "Tie a knot in a string for each thing you finish today",
-      "meta": "Count them tonight",
-      "time": "15:30",
-      "slot": "Afternoon"
+      "id": "thanks-before-the-evening-drink",
+      "name": "Thanks before the evening drink",
+      "icon": "drop",
+      "slot": "Evening",
+      "time": "19:00",
+      "minutes": 5,
+      "meta": "Evening · 5 min",
+      "instructions": "Before your evening drink or soup, tip a few drops on the ground or into a plant pot and say thank you to the earth and to those who made the meal. This is ch’alla. Do it before the first sip or the first spoon. Add one name of someone you want to remember.",
+      "why": "The ch’alla, the offering of the first drops, accompanies every Andean celebration and meal. It turns a drink into a gratitude.",
+      "variations": [
+        "Sprinkle a few grains.",
+        "Say thank you in Quechua.",
+        "Do it for each meal."
+      ]
     },
     {
-      "id": "treat-climb-the-stairs-at-a-steady-pace-without-stopping",
-      "name": "Climb the stairs at a steady pace without stopping",
-      "meta": "Road runners did hills all day",
-      "time": "08:30",
-      "slot": "Morning"
+      "id": "store-against-the-frost",
+      "name": "Store against the frost",
+      "icon": "archive",
+      "slot": "Evening",
+      "time": "21:30",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Before bed, prepare for a hard day tomorrow: lay out clothes, charge things, pack lunch and set aside what you will need. The Incas built thousands of storehouses, qollqa, against bad harvests. Think of one reserve you could build: money, food, friends, health. Do one small thing for it now.",
+      "why": "The Inca state stored food and cloth against frost and drought, and could feed its people through bad years. Preparing for tomorrow is a small version.",
+      "variations": [
+        "Make a pot of soup for the week.",
+        "Put aside a coin.",
+        "Call someone who might need help."
+      ]
     },
     {
-      "id": "daily-look-for-the-dark-patches-in-the-milky-way-if-the-sky-is-cle",
-      "name": "Look for the dark patches in the Milky Way if the sky is clear",
-      "meta": "The Incas saw animals made of dark space",
-      "time": "20:30",
-      "slot": "Evening"
+      "id": "a-pot-feast-pachamanca-style",
+      "name": "A pot feast, pachamanca style",
+      "icon": "cooking-pot",
+      "slot": "Special",
+      "time": "13:00",
+      "minutes": 120,
+      "meta": "On a free afternoon · 120 min",
+      "instructions": "Cook a communal feast in the spirit of pachamanca, the earth oven: layers of potatoes, sweet potatoes, corn, beans and vegetables cooked together. At home use a big covered pot or oven tray. Share the cooking, offer the first drops to the earth and eat together. Everyone brings something. The meal is thanks to the earth made edible.",
+      "why": "Pachamanca, food cooked in the earth with hot stones, is the festive meal of the Andes. A home version in a covered pot captures the spirit.",
+      "variations": [
+        "Use different coloured potatoes.",
+        "Serve with a green sauce.",
+        "Eat outdoors on a blanket."
+      ]
     },
     {
-      "id": "daily-eat-a-simple-meal-of-potato-or-maize-and-thank-the-earth-for",
-      "name": "Eat a simple meal of potato or maize and thank the earth for it",
-      "meta": "Pachamama",
-      "time": "20:30",
-      "slot": "Evening"
+      "id": "greet-the-sun-inti-raymi-style",
+      "name": "Greet the sun, Inti Raymi style",
+      "icon": "sun-dim",
+      "slot": "Special",
+      "time": "06:00",
+      "minutes": 90,
+      "meta": "On a free morning · 90 min",
+      "instructions": "Gather friends on a hilltop or open space at dawn and greet the sun together. Stand facing east, offer the first drops of a warm drink to the ground, and share a few words of thanks. Sing, or play pipes or a drum. End with a breakfast of bread and fruit. Inti Raymi, the festival of the sun, is held in Cusco at the winter solstice, 24 June.",
+      "why": "Inti Raymi was the greatest Inca festival, in honour of the sun god Inti at the June solstice. It is still celebrated in Cusco.",
+      "variations": [
+        "Do it on the real solstice.",
+        "Make a sun disc from card.",
+        "Sing a song of thanks."
+      ]
     }
   ],
-  "immersePlan": [],
+  "tasks": [],
+  "immersePlan": [
+    {
+      "kind": "read",
+      "item": "read-the-first-new-chronicle-and-good-government",
+      "name": "Read from Guaman Poma’s Chronicle",
+      "text": "Look at and read from the 1615 illustrated letter of an Andean nobleman to the King of Spain, describing Inca life and the wrongs of Spanish rule. Study one picture.",
+      "minutes": 25
+    },
+    {
+      "kind": "read",
+      "item": "read-royal-commentaries-of-the-incas",
+      "name": "Read from the Royal Commentaries",
+      "text": "Read a chapter of Garcilaso de la Vega’s memoir of his mother’s people, written in 1609. Note his love for the Quechua world.",
+      "minutes": 25
+    },
+    {
+      "kind": "read",
+      "item": "read-deep-rivers",
+      "name": "Read from Deep Rivers",
+      "text": "Read a chapter of José María Arguedas’s novel of a boy who loves the Inca stones of Cusco. Notice the way he feels the stones.",
+      "minutes": 25
+    },
+    {
+      "kind": "watch",
+      "item": "watch-winaypacha",
+      "name": "Watch Wiñaypacha",
+      "text": "Watch Óscar Catacora’s 2017 film, the first Aymara-language feature, about an elderly couple living high in the Andes waiting for their son. It is slow and beautiful.",
+      "minutes": 86
+    },
+    {
+      "kind": "watch",
+      "item": "watch-retablo",
+      "name": "Watch Retablo",
+      "text": "Watch the 2017 film about a boy in the Peruvian Andes who learns to make retablos, painted altarpieces. Notice the work of the hands.",
+      "minutes": 95
+    },
+    {
+      "kind": "watch",
+      "item": "watch-secrets-of-lost-empires-inca",
+      "name": "Watch Secrets of Lost Empires: Inca",
+      "text": "Watch the 1997 NOVA programme in which a team builds a rope suspension bridge in the Inca manner. Notice how it is done.",
+      "minutes": 55
+    },
+    {
+      "kind": "listen",
+      "item": "listen-sikuri-ensembles-of-lake-titicaca",
+      "name": "Listen to sikuri panpipes",
+      "text": "Play the interlocking panpipes of the Lake Titicaca region. Listen for the call and response.",
+      "minutes": 15
+    },
+    {
+      "kind": "listen",
+      "item": "listen-huaynos",
+      "name": "Listen to huaynos",
+      "text": "Play songs by Pastorita Huaracina or another singer in the Andean huayno style. Tap the rhythm.",
+      "minutes": 15
+    },
+    {
+      "kind": "listen",
+      "item": "listen-el-condor-pasa",
+      "name": "Listen to El cóndor pasa",
+      "text": "Play Daniel Alomía Robles’s 1913 melody, one of the best known tunes from the Andes. Hum it.",
+      "minutes": 5
+    },
+    {
+      "kind": "art",
+      "item": "art-machu-picchu",
+      "name": "Look at Machu Picchu",
+      "text": "Look at pictures of the mountain citadel built in about 1450 and abandoned a century later. Pick a terrace.",
+      "minutes": 10
+    },
+    {
+      "kind": "art",
+      "item": "art-the-stone-of-twelve-angles",
+      "name": "Look at the stone of twelve angles",
+      "text": "Look at the famous Inca stone in a wall in Cusco, fitted to its neighbours with no mortar. Count the angles.",
+      "minutes": 5
+    },
+    {
+      "kind": "art",
+      "item": "art-the-all-tocapu-tunic",
+      "name": "Look at the tocapu tunic",
+      "text": "Look at the Inca royal tunic woven with hundreds of small squares of pattern, tocapu. Pick a square and describe it.",
+      "minutes": 10
+    },
+    {
+      "kind": "eat",
+      "item": "eat-native-potatoes",
+      "name": "Cook native potatoes",
+      "text": "Boil potatoes of different colours in their skins, and eat them with salt and a green chilli sauce. Notice the taste and texture.",
+      "minutes": 40
+    },
+    {
+      "kind": "eat",
+      "item": "eat-quinoa-soup",
+      "name": "Make quinoa soup",
+      "text": "Simmer quinoa with potatoes, herbs and a little cheese into a warm soup. It is a high-altitude staple.",
+      "minutes": 40
+    },
+    {
+      "kind": "eat",
+      "item": "eat-ch-unu",
+      "name": "Taste ch’uñu",
+      "text": "Taste freeze-dried potato, soaked and cooked, if you can find it, or discover how it is made by freezing at night and sun-drying by day.",
+      "minutes": 20
+    },
+    {
+      "kind": "drink",
+      "item": "drink-chicha-de-jora",
+      "name": "Learn about chicha de jora",
+      "text": "Read how sprouted maize is brewed into chicha, the festive drink of the Andes. Drink a fresh, non-fermented maize drink in its place.",
+      "minutes": 15
+    },
+    {
+      "kind": "drink",
+      "item": "drink-chicha-morada",
+      "name": "Make chicha morada",
+      "text": "Boil purple maize with pineapple skin, cinnamon and cloves. Strain, sweeten and chill. Add lime juice before serving.",
+      "minutes": 60
+    },
+    {
+      "kind": "drink",
+      "item": "drink-muna-tea",
+      "name": "Brew muña tea",
+      "text": "Steep muña or mint in hot water. Offer the first drops to the ground.",
+      "minutes": 10
+    },
+    {
+      "kind": "customs",
+      "item": "customs-the-first-drops",
+      "name": "Offer the first drops",
+      "text": "Before you drink, tip a few drops on the ground and say thank you. Do it for every drink today.",
+      "minutes": 5
+    },
+    {
+      "kind": "customs",
+      "item": "customs-rebuilding-the-bridge",
+      "name": "Learn about Q’eswachaka",
+      "text": "Read how each June villagers weave a new rope bridge across the Apurímac gorge, as the Incas did. Think about a repair your community needs.",
+      "minutes": 15
+    },
+    {
+      "kind": "customs",
+      "item": "customs-the-first-haircut",
+      "name": "Learn about the first haircut",
+      "text": "Read about Rutuchikuy, the ceremony when a child’s first hair is cut and relatives give gifts. Think about how your family marks a first.",
+      "minutes": 10
+    },
+    {
+      "kind": "games",
+      "item": "games-pichqa",
+      "name": "Play pichqa",
+      "text": "Play the five-sided dice game of the Andes with a pentagonal spinner or ordinary dice. Score by the number of the face.",
+      "minutes": 20
+    },
+    {
+      "kind": "games",
+      "item": "games-taptana",
+      "name": "Play taptana",
+      "text": "Play with a Taptana board, a game of counters on a grid. Draw one on paper and play with beans.",
+      "minutes": 25
+    },
+    {
+      "kind": "games",
+      "item": "games-sapo",
+      "name": "Play sapo",
+      "text": "Toss coins into the mouth of a frog box. Keep score with a friend.",
+      "minutes": 20
+    },
+    {
+      "kind": "travel",
+      "item": "fest-inti-raymi",
+      "name": "Mark Inti Raymi",
+      "text": "Inti Raymi falls on 24 June, the winter solstice in the Andes. Greet the sun at dawn with friends.",
+      "minutes": 20
+    },
+    {
+      "kind": "travel",
+      "item": "fest-pachamama-day",
+      "name": "Mark Pachamama Day",
+      "text": "On 1 August the Andes honour the earth with offerings. Thank the ground with a few drops and plant something.",
+      "minutes": 20
+    },
+    {
+      "kind": "travel",
+      "item": "place-ollantaytambo",
+      "name": "Look up Ollantaytambo",
+      "text": "Look at pictures of the Inca fortress-town in the Sacred Valley, with terraces and a living Quechua community. Imagine walking its streets.",
+      "minutes": 10
+    },
+    {
+      "kind": "words",
+      "item": "word-ayni",
+      "name": "Practise ayni",
+      "text": "Ayni is reciprocity. Help someone today and note someone who helped you.",
+      "minutes": 10
+    },
+    {
+      "kind": "words",
+      "item": "word-pachamama",
+      "name": "Practise Pachamama",
+      "text": "Pachamama is Mother Earth. Thank the earth for something concrete today.",
+      "minutes": 5
+    },
+    {
+      "kind": "words",
+      "item": "word-khipu",
+      "name": "Practise khipu",
+      "text": "A khipu is a knotted cord for recording. Tie knots in a string for the things you did today.",
+      "minutes": 10
+    }
+  ],
   "rules": [
     {
       "id": "r1",

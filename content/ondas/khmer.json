@@ -288,17 +288,17 @@
     {
       "id": "give-first",
       "name": "Give before you eat",
-      "icon": "hand-coins",
+      "icon": "hand-heart",
       "slot": "Morning",
       "time": "06:30",
       "minutes": 10,
       "meta": "Morning · 10 min",
-      "instructions": "Before you eat anything this morning, give something away. Put food out for someone who needs it, take breakfast to a neighbour, feed the birds, set aside money for a cause, or leave a portion of your own meal for another person. Do it with both hands and without being seen if you can. Then eat. Let it be the first act of the day.",
-      "why": "At dawn in Cambodia monks walk barefoot through the streets and people place rice in their bowls. To give is to make merit, bon, and the giving is done first, before one’s own needs. The kings of Angkor recorded their gifts on stone in great detail: rice, oil, cloth and medicine, measured out for temples, hospitals and the poor.",
+      "instructions": "Before you eat anything this morning, give something away. Put food out for someone who needs it, take breakfast to a neighbour, feed the birds, set aside money for a cause, or leave a portion of your own meal for another. Then eat. The rule of this Onda is to give first.",
+      "why": "In Cambodia, as across Theravada Buddhist Asia, the first food of the day is given to monks on their alms round. Giving before you eat is the lay practice that remains.",
       "variations": [
-        "Give to the first person who asks today.",
-        "Take food to a monastery, a shelter or a food bank.",
-        "Keep a jar by the door and put one coin in each morning."
+        "Put rice in a neighbour’s bowl.",
+        "Feed the birds with breakfast crumbs.",
+        "Give a coin to a good cause before coffee."
       ]
     },
     {
@@ -309,12 +309,76 @@
       "time": "08:00",
       "minutes": 20,
       "meta": "Morning · 20 min",
-      "instructions": "Choose something to walk around: a building, a block, a park, a pond. Walk one complete circuit, slowly, keeping it on your right. Walk as if the wall beside you were carved and you were reading it. Look at each stretch in turn and do not look ahead. When you return to where you began, stop, face the centre and stand still for three breaths.",
-      "why": "A Khmer temple is entered by a long causeway and walked around before it is climbed. The outer gallery of Angkor Wat carries six hundred metres of carved stories, and pilgrims follow them on foot, panel by panel. To walk around a sacred thing with one’s right side toward it is among the oldest acts of respect in India and South-East Asia.",
+      "instructions": "Choose something to walk around: a building, a block, a park, a pond. Walk one complete circuit, slowly, keeping it on your right. Walk as if the wall beside you were carved and you were reading it. Look at each stretch for a moment before you move on. Pilgrims at Angkor Wat walk its galleries this way, keeping the relief on their right.",
+      "why": "The galleries of Angkor Wat are carved with miles of stories, read by walking round clockwise with the temple on your right. A slow circuit is a walking meditation.",
       "variations": [
-        "Walk around your own home and look at it as a visitor would.",
-        "Follow one wall of a museum gallery from end to end.",
-        "Walk a causeway, a pier or a long bridge to its end and back."
+        "Walk round a pond.",
+        "Walk round your block.",
+        "Notice one detail on each side."
+      ]
+    },
+    {
+      "id": "the-sampeah",
+      "name": "The sampeah",
+      "icon": "hands-praying",
+      "slot": "Morning",
+      "time": "07:30",
+      "minutes": 3,
+      "meta": "Morning · 3 min",
+      "instructions": "Greet each person you meet today with the sampeah: press your palms together in front of you and bow your head slightly. The higher the hands, the greater the respect: at chest height for a friend, at the chin for an elder, at the nose for a monk or a teacher. Smile and say chum reap suor, hello.",
+      "why": "The sampeah is the Cambodian greeting, from Angkor’s carvings to today’s streets. It is graceful and respectful.",
+      "variations": [
+        "Greet with it at work.",
+        "Use it to say thanks.",
+        "Teach it to a child."
+      ]
+    },
+    {
+      "id": "the-smile-of-the-bayon",
+      "name": "The smile of the Bayon",
+      "icon": "smiley",
+      "slot": "Morning",
+      "time": "07:00",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Stand in front of a mirror and practise the faint, serene smile of the stone faces of the Bayon, the temple of Jayavarman VII: eyes half closed, lips just curved, the whole face at rest. Hold it for a minute and breathe. Notice what it does to your mood. Wear it into the day.",
+      "why": "The great faces at the Bayon, with their half-smiles, are among the most famous in the world. The smile of calm compassion is something anyone can try.",
+      "variations": [
+        "Smile like this at a stranger.",
+        "Do it before a hard meeting.",
+        "Look up a photo of the Bayon first."
+      ]
+    },
+    {
+      "id": "a-bowl-of-rice-porridge",
+      "name": "A bowl of rice porridge",
+      "icon": "bowl-steam",
+      "slot": "Morning",
+      "time": "07:15",
+      "minutes": 15,
+      "meta": "Morning · 15 min",
+      "instructions": "Eat bobor, rice porridge, for breakfast: simmer rice in plenty of water until soft, then add fish sauce, ginger and a little pork or fish, or keep it plain with salt and a squeeze of lime. Top with fried garlic and herbs. Eat it hot, sitting at a table. It is the everyday breakfast across Cambodia.",
+      "why": "Bobor is the humble comfort food of Cambodian mornings, eaten from street stalls and homes. It is warm, gentle and cheap.",
+      "variations": [
+        "Add a boiled egg.",
+        "Top with fresh herbs.",
+        "Share a pot with family."
+      ]
+    },
+    {
+      "id": "keep-the-water-flowing",
+      "name": "Keep the water flowing",
+      "icon": "drop",
+      "slot": "Morning",
+      "time": "08:30",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Water a plant, clear a blocked drain, mend a dripping tap or clean a bowl for birds. The Khmer built vast reservoirs, the barays, and canals to keep water flowing to the rice fields. The rule of this Onda is to keep the water flowing. Do one small thing for water today and notice where it goes.",
+      "why": "The kings of Angkor were hydraulic engineers, and their water network fed a million people. Caring for water is the oldest civic duty.",
+      "variations": [
+        "Clear a drain.",
+        "Fix a leak.",
+        "Pour water on a thirsty tree."
       ]
     },
     {
@@ -325,12 +389,12 @@
       "time": "14:00",
       "minutes": 20,
       "meta": "Afternoon · 20 min",
-      "instructions": "Do one practical thing today for someone who is ill, or for someone who is far from home or new to the place. Bring soup or medicine. Sit with them for twenty minutes. Give directions and walk part of the way. Offer a meal, a seat, a charger or a bed. Ask what they need before you decide what to give.",
-      "why": "When Jayavarman VII came to the throne in 1181 he built 102 hospitals and 121 rest houses along the roads of his empire. The inscriptions list the staff of each hospital, its doctors, nurses and cooks, and the yearly ration of honey, sesame, camphor and medicines. They say that the king felt the sickness of his people as his own.",
+      "instructions": "Do one practical thing today for someone who is ill, or for someone who is far from home or new to the place. Bring soup or medicine. Sit with them for twenty minutes. Give directions and walk part of the way. Offer a meal. Jayavarman VII built 102 hospitals and over a hundred rest houses along the roads. The rule of this Onda is to feel others’ pain as your own.",
+      "why": "Jayavarman VII is remembered for building hospitals and rest houses for his people. The practice is care for those in need of help.",
       "variations": [
-        "Ring someone who is unwell.",
-        "Welcome a newcomer at work or in your street.",
-        "Give blood, or sign up as a volunteer driver."
+        "Visit someone who is unwell.",
+        "Help a newcomer find their way.",
+        "Give a traveller water."
       ]
     },
     {
@@ -341,12 +405,76 @@
       "time": "17:00",
       "minutes": 10,
       "meta": "Afternoon · 10 min",
-      "instructions": "Stand with your back straight, your knees slightly bent and your shoulders down. Raise one hand to chest height and slowly press the fingers back with the other hand, as far as is comfortable, until they curve away from the palm. Hold for five breaths and change hands. Then move both hands through four slow shapes: a bud, a leaf, a flower, a fruit. Keep your face calm and your breath even.",
-      "why": "The dancers carved on the walls of Angkor hold their fingers bent far back, a suppleness that Cambodian classical dancers still train from childhood by daily stretching. The court dance has some four thousand hand positions. Its slowness is the point: each gesture is held and finished. Almost all the dancers were killed in the 1970s, and the few survivors taught the art back into life.",
+      "instructions": "Stand with your back straight, your knees slightly bent and your shoulders down. Raise one hand to chest height and slowly press the fingers back with the other hand, as far as is comfortable, until they curve away from the palm. Hold for a breath and repeat with the other hand. Never force. Then move your arms slowly in a flowing arc. Apsara dancers train for years.",
+      "why": "The hands of the Khmer classical dancer curve back in a graceful arc, as seen on Angkor’s carvings of apsaras. A gentle version stretches the fingers and slows the mind.",
       "variations": [
-        "Watch a performance of the Royal Ballet of Cambodia and copy one gesture.",
-        "Do any task today with deliberate, finished movements.",
-        "Stand in the pose for one minute without shifting."
+        "Do it to music.",
+        "Do it before typing.",
+        "Watch a Robam video first."
+      ]
+    },
+    {
+      "id": "a-game-of-ouk-chaktrang",
+      "name": "A game of ouk chaktrang",
+      "icon": "cube",
+      "slot": "Afternoon",
+      "time": "15:30",
+      "minutes": 30,
+      "meta": "Afternoon · 30 min",
+      "instructions": "Play ouk chaktrang, Cambodian chess, with a friend. It resembles ordinary chess, with a king, a queen who moves a single square, and a few differences in how pawns move. Learn the moves online and play a game. It is thought to have been played since the Angkor period.",
+      "why": "Ouk chaktrang is the Khmer cousin of chess and a source of national pride, with its own champions. It is quick to learn for any chess player.",
+      "variations": [
+        "Play ordinary chess with the same spirit.",
+        "Teach a child.",
+        "Watch a match online."
+      ]
+    },
+    {
+      "id": "draw-a-carved-scene",
+      "name": "Draw a carved scene",
+      "icon": "pencil",
+      "slot": "Afternoon",
+      "time": "16:00",
+      "minutes": 20,
+      "meta": "Afternoon · 20 min",
+      "instructions": "Look at a picture of one of the bas-reliefs of Angkor Wat, such as the Churning of the Ocean of Milk, and draw a section of it. Place a sheet of thin paper over a printout and rub it lightly with a soft pencil as the visitors do, or copy by eye. Notice the rhythm of the figures. Take your time.",
+      "why": "The reliefs of Angkor Wat run for hundreds of metres. Drawing a few figures teaches you to see their motion.",
+      "variations": [
+        "Draw an apsara.",
+        "Draw a naga.",
+        "Colour your drawing."
+      ]
+    },
+    {
+      "id": "build-for-those-who-come-after",
+      "name": "Build for those who come after",
+      "icon": "tree-evergreen",
+      "slot": "Afternoon",
+      "time": "17:30",
+      "minutes": 20,
+      "meta": "Afternoon · 20 min",
+      "instructions": "Do one thing today that will be useful to people who come after you: plant a tree, build a bench, tidy a shared record, write down instructions for a task. Jayavarman VII built temples, hospitals and roads that lasted a thousand years. The rule of this Onda is to build for those who come after.",
+      "why": "The Khmer kings built for the long term, inscribing their works in stone for the future. A small act for the future is a modest echo.",
+      "variations": [
+        "Plant a seed.",
+        "Label a shared drawer.",
+        "Write a handover note."
+      ]
+    },
+    {
+      "id": "walk-by-the-water",
+      "name": "Walk by the water",
+      "icon": "waves",
+      "slot": "Afternoon",
+      "time": "16:30",
+      "minutes": 25,
+      "meta": "Afternoon · 25 min",
+      "instructions": "Walk along a river, a pond, a canal or the sea for twenty-five minutes, slowly. Look at the surface, at the birds, at the way light falls. The Khmer cities were built around water, with moats and barays reflecting the temples. Stop on a bridge and look down. Enjoy the stillness.",
+      "why": "Water was sacred to the Khmer, symbolising the ocean around the mountain of the gods. A walk by water has a calm of its own.",
+      "variations": [
+        "Take photographs of reflections.",
+        "Sit by the water with tea.",
+        "Walk at sunset."
       ]
     },
     {
@@ -357,129 +485,341 @@
       "time": "18:30",
       "minutes": 15,
       "meta": "Evening · 15 min",
-      "instructions": "At sunset, sit facing the fading light. Let your face soften and your eyes half close, with the faint smile of the stone faces. Breathe quietly for a few minutes. Then bring to mind one person who is suffering and wish them free of it. Widen the wish to your household, your street, your country and everything that lives. Sit on until it is dark.",
-      "why": "The towers of the Bayon carry some two hundred giant faces looking out in the four directions, eyes lowered, lips just curved. They are taken to show the bodhisattva of compassion watching over the kingdom. Angkor Wat itself faces west, into the sunset. Cambodia has been a Buddhist country for seven hundred years, and the wish that all beings be well is recited daily.",
+      "instructions": "At sunset, sit facing the fading light. Let your face soften and your eyes half close, with the faint smile of the stone faces. Breathe quietly for a few minutes. Then bring to mind one person who is suffering and wish them well: may you be free from suffering. Widen the wish to all who are ill, far from home or afraid. End with a bow.",
+      "why": "The Bayon’s faces are often read as faces of Lokeshvara, the bodhisattva of compassion, looking in all directions. A dusk practice of wishing well to all is in the same spirit.",
       "variations": [
-        "Light a stick of incense or a candle first.",
-        "Do it beside water.",
-        "Repeat the king’s wish: may I draw them out of the ocean of suffering."
-      ]
-    }
-  ],
-  "tasks": [
-    {
-      "id": "task-read-zhou-daguan-on-daily-life-at-angkor",
-      "name": "Read Zhou Daguan on daily life at Angkor",
-      "meta": "Read · A Record of Cambodia, 1297",
-      "time": "20:30",
-      "slot": "Evening",
-      "action": "read"
-    },
-    {
-      "id": "task-listen-to-a-pinpeat-ensemble",
-      "name": "Listen to a pinpeat ensemble",
-      "meta": "Listen · the gongs, xylophones and oboe of the Cambodian court",
-      "time": "07:00",
-      "slot": "Morning",
-      "action": "listen"
-    },
-    {
-      "id": "task-look-closely-at-the-churning-of-the-ocean-of-milk",
-      "name": "Look closely at the Churning of the Ocean of Milk",
-      "meta": "Art · the east gallery of Angkor Wat, 49 metres long",
-      "time": "13:00",
-      "slot": "Afternoon",
-      "action": "art"
-    },
-    {
-      "id": "task-play-ouk-chaktrang",
-      "name": "Play ouk chaktrang",
-      "meta": "Games · Cambodian chess, or any game of chess",
-      "time": "19:30",
-      "slot": "Evening",
-      "action": "games"
-    },
-    {
-      "id": "task-journal-whose-pain-did-you-feel-as-your-own-today",
-      "name": "Journal: whose pain did you feel as your own today?",
-      "meta": "Journal · 10 min",
-      "time": "21:00",
-      "slot": "Evening",
+        "Sit by water.",
+        "Name three people in your wish.",
+        "Finish with the sampeah."
+      ],
       "action": "journal"
     },
     {
-      "id": "task-why-build-in-stone-for-the-gods-and-in-wood-for-yourself",
-      "name": "Why build in stone for the gods and in wood for yourself?",
-      "meta": "Philosophy · 10 min",
-      "time": "09:30",
-      "slot": "Morning",
-      "action": "philosophy"
+      "id": "cook-fish-amok",
+      "name": "Cook fish amok",
+      "icon": "cooking-pot",
+      "slot": "Evening",
+      "time": "18:00",
+      "minutes": 60,
+      "meta": "Evening · 60 min",
+      "instructions": "Cook amok, the Cambodian national dish: mix fish, or tofu and vegetables, with coconut milk, kroeung, a paste of lemongrass, galangal and turmeric, and an egg. Spoon it into banana-leaf cups or a bowl and steam until set like a mousse. Serve with rice. Cooking it is a gentle evening occupation.",
+      "why": "Fish amok is a fragrant steamed curry that is the pride of Khmer cuisine. Steaming in banana leaf gives a custard-like texture.",
+      "variations": [
+        "Use tofu for a vegetarian version.",
+        "Share it with neighbours.",
+        "Eat on a banana leaf."
+      ]
     },
     {
-      "id": "greet-someone-older-with-joined-palms-or-with-a-small-bow",
-      "name": "Greet someone older with joined palms, or with a small bow",
-      "meta": "Sampeah",
-      "time": "10:30",
-      "slot": "Morning"
-    },
-    {
-      "id": "carry-water-to-something-that-needs-it",
-      "name": "Carry water to something that needs it",
-      "meta": "The reservoir",
-      "time": "12:00",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "finish-one-small-thing-today-as-carefully-as-if-it-were-carved",
-      "name": "Finish one small thing today as carefully as if it were carved",
-      "meta": "The stone carver",
-      "time": "16:00",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "treat-float-a-flower-in-a-bowl-of-water",
-      "name": "Float a flower in a bowl of water",
-      "meta": "Lotus, if you can find one",
-      "time": "08:30",
-      "slot": "Morning"
-    },
-    {
-      "id": "treat-bend-your-fingers-back-gently-like-a-dancer-warming-up",
-      "name": "Bend your fingers back gently, like a dancer warming up",
-      "meta": "Slowly",
-      "time": "08:30",
-      "slot": "Morning"
-    },
-    {
-      "id": "treat-eat-rice-with-fresh-herbs-and-something-sour",
-      "name": "Eat rice with fresh herbs and something sour",
-      "meta": "Lime, tamarind or green mango",
+      "id": "listen-to-the-chapei",
+      "name": "Listen to the chapei",
+      "icon": "guitar",
+      "slot": "Evening",
       "time": "19:30",
-      "slot": "Evening"
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Play a recording of the chapei, the long-necked Cambodian lute, such as Kong Nay, the blind master. Listen to the singer, who tells a story of a moral or a comic tale to a simple tune, with wit and improvisation. Sit quietly. This music is UNESCO-listed and has survived terrible times.",
+      "why": "Chapei dang veng is a traditional Cambodian art, a lute and a storytelling voice. Kong Nay, the blind master, was a national treasure.",
+      "variations": [
+        "Listen with the lights low.",
+        "Look at a picture of the chapei.",
+        "Share it with a friend."
+      ]
     },
     {
-      "id": "treat-look-at-one-carving-from-angkor-until-you-find-a-smile",
-      "name": "Look at one carving from Angkor until you find a smile",
-      "meta": "There are many",
-      "time": "15:30",
-      "slot": "Afternoon"
+      "id": "read-zhou-daguan",
+      "name": "Read Zhou Daguan",
+      "icon": "scroll",
+      "slot": "Evening",
+      "time": "20:00",
+      "minutes": 20,
+      "meta": "Evening · 20 min",
+      "instructions": "Read a few pages of Zhou Daguan’s A Record of Cambodia, written in 1297 by a Chinese envoy who lived at Angkor for a year. He describes the king’s processions, the markets, the women who traded and the festivals. Read it aloud and imagine the scenes. It is our best eyewitness account of Angkor.",
+      "why": "Zhou Daguan’s record is the only surviving description of daily life in Angkor, written by a visitor. It is vivid and full of detail.",
+      "variations": [
+        "Read about the markets.",
+        "Read about the bathing of the people.",
+        "Compare it with today."
+      ]
     },
     {
-      "id": "daily-light-an-incense-stick-or-a-candle-and-sit-with-joined-palms",
-      "name": "Light an incense stick or a candle and sit with joined palms",
-      "meta": "A small offering",
+      "id": "light-a-lamp",
+      "name": "Light a lamp",
+      "icon": "lamp",
+      "slot": "Evening",
+      "time": "19:00",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Light a small lamp or candle at dusk in a safe place, as is done at Cambodian temples and in homes at festivals. Sit with it for a few minutes. Think of those who have gone before. Offer a flower beside it, if you like. Put the flame out with care when you are done. Never leave it unattended.",
+      "why": "Lighting lamps and candles at dusk is an ancient practice across Buddhist Asia. It marks the transition from day to night.",
+      "variations": [
+        "Use a floating candle in a bowl of water.",
+        "Set a lamp by a window.",
+        "Say a wish."
+      ]
+    },
+    {
+      "id": "tell-a-tale-from-the-reamker",
+      "name": "Tell a tale from the Reamker",
+      "icon": "campfire",
+      "slot": "Evening",
       "time": "20:30",
-      "slot": "Evening"
+      "minutes": 20,
+      "meta": "Evening · 20 min",
+      "instructions": "Tell a story from the Reamker, the Khmer version of the Ramayana: the abduction of Seda, the monkey general Hanuman’s leap to Lanka or the building of the bridge. Tell it with gestures as in a shadow-puppet play. Ask the listeners who they would want to be. The Reamker is carved on the walls of Angkor.",
+      "why": "The Reamker is the Cambodian epic, shown in dance, masked drama and shadow puppetry. Its scenes cover the walls of the Royal Palace in Phnom Penh.",
+      "variations": [
+        "Tell it with shadow hands.",
+        "Tell it to a child.",
+        "Draw a scene."
+      ]
     },
     {
-      "id": "daily-sit-by-water-at-dusk-and-watch-the-light-go",
-      "name": "Sit by water at dusk and watch the light go",
-      "meta": "Angkor was built around water",
-      "time": "20:30",
-      "slot": "Evening"
+      "id": "a-new-year-games-afternoon",
+      "name": "A New Year games afternoon",
+      "icon": "confetti",
+      "slot": "Special",
+      "time": "15:00",
+      "minutes": 120,
+      "meta": "On a free afternoon · 120 min",
+      "instructions": "Play the games of Khmer New Year with friends, family and neighbours: chol chhoung, a team game in which two lines throw a twisted scarf ball to each other, boys facing girls, and the loser sings or dances; bos angkunh, tossing seeds; and tug-of-war. Splash a little water on elders’ shoulders with respect. Serve sweets and tea.",
+      "why": "Khmer New Year, in mid-April, is the great festival of play and family. The traditional games are great for groups.",
+      "variations": [
+        "Make a scarf ball.",
+        "Sing a forfeit song.",
+        "Serve rice cakes."
+      ]
+    },
+    {
+      "id": "a-day-of-slow-circuits-and-water",
+      "name": "A day of slow circuits and water",
+      "icon": "waves",
+      "slot": "Special",
+      "time": "09:00",
+      "minutes": 120,
+      "meta": "On a free morning · 120 min",
+      "instructions": "Spend a morning walking slowly round a lake, a park or a building, stopping to read each stretch as a relief. Rest by the water, sit still, share a picnic of rice and fruit with a friend. The Khmer built Angkor around water and circuits. At the end, give something away. Walk slowly and bring water and a hat.",
+      "why": "Walking slowly round a sacred place is a Khmer pilgrim’s practice. Doing so around a local lake or park brings its calm.",
+      "variations": [
+        "Go at dawn.",
+        "Bring a notebook.",
+        "End with a bowl of soup."
+      ]
     }
   ],
-  "immersePlan": [],
+  "tasks": [],
+  "immersePlan": [
+    {
+      "kind": "read",
+      "item": "read-a-record-of-cambodia-the-land-and-its-people",
+      "name": "Read from A Record of Cambodia",
+      "text": "Read a few pages of Zhou Daguan’s 1297 description of Angkor. Note a detail about daily life.",
+      "minutes": 20
+    },
+    {
+      "kind": "read",
+      "item": "read-angkor-and-the-khmer-civilization",
+      "name": "Read from Angkor and the Khmer Civilization",
+      "text": "Read a chapter of Michael Coe’s history of the Khmer world. Note one thing about the water system.",
+      "minutes": 25
+    },
+    {
+      "kind": "read",
+      "item": "read-reamker",
+      "name": "Read from the Reamker",
+      "text": "Read a short episode of the Khmer Ramayana in translation. Imagine it on a temple wall.",
+      "minutes": 20
+    },
+    {
+      "kind": "watch",
+      "item": "watch-angkor-land-of-the-gods",
+      "name": "Watch Angkor: Land of the Gods",
+      "text": "Watch the 2011 Smithsonian documentary on Angkor. Notice the aerial views of the water system.",
+      "minutes": 90
+    },
+    {
+      "kind": "watch",
+      "item": "watch-jungle-atlantis",
+      "name": "Watch Jungle Atlantis",
+      "text": "Watch the 2014 BBC documentary on how laser scanning revealed the huge city under the forest around Angkor.",
+      "minutes": 60
+    },
+    {
+      "kind": "watch",
+      "item": "watch-the-tenth-dancer",
+      "name": "Watch The Tenth Dancer",
+      "text": "Watch Sally Ingleton’s 1993 film about the revival of Cambodian classical dance after the Khmer Rouge. A moving story of survival.",
+      "minutes": 50
+    },
+    {
+      "kind": "listen",
+      "item": "listen-homrong",
+      "name": "Listen to Homrong",
+      "text": "Play the Royal Ballet’s overture, the traditional prelude to Cambodian classical dance. Listen to the xylophones and gongs.",
+      "minutes": 15
+    },
+    {
+      "kind": "listen",
+      "item": "listen-the-music-of-cambodia-royal-court-music",
+      "name": "Listen to Royal Court Music",
+      "text": "Play recordings of the pinpeat ensemble of gongs, xylophones, drums and oboe. Imagine the dancers.",
+      "minutes": 20
+    },
+    {
+      "kind": "listen",
+      "item": "listen-chapei-songs",
+      "name": "Listen to Kong Nay",
+      "text": "Play the blind master of the chapei singing a comic or moral tale. Follow a translation if you can.",
+      "minutes": 15
+    },
+    {
+      "kind": "art",
+      "item": "art-the-churning-of-the-ocean-of-milk",
+      "name": "Look at the Churning of the Ocean of Milk",
+      "text": "Look at the 50-metre relief at Angkor Wat of gods and demons pulling a serpent to churn the ocean. Follow the rope.",
+      "minutes": 10
+    },
+    {
+      "kind": "art",
+      "item": "art-the-faces-of-the-bayon",
+      "name": "Look at the faces of the Bayon",
+      "text": "Look at pictures of the 216 smiling faces carved on the towers. Practise the half-smile.",
+      "minutes": 10
+    },
+    {
+      "kind": "art",
+      "item": "art-banteay-srei",
+      "name": "Look at Banteay Srei",
+      "text": "Look at the pink sandstone temple with exquisite carving, called the jewel of Khmer art. Notice the fine detail.",
+      "minutes": 10
+    },
+    {
+      "kind": "eat",
+      "item": "eat-fish-amok",
+      "name": "Make fish amok",
+      "text": "Steam fish or tofu in coconut milk and kroeung paste in banana-leaf cups. Serve with rice.",
+      "minutes": 60
+    },
+    {
+      "kind": "eat",
+      "item": "eat-num-banh-chok",
+      "name": "Eat num banh chok",
+      "text": "Eat fresh rice noodles with a green fish gravy of lemongrass and turmeric, topped with herbs and flowers. It is the Khmer breakfast noodle.",
+      "minutes": 40
+    },
+    {
+      "kind": "eat",
+      "item": "eat-samlor-korko",
+      "name": "Make samlor korko",
+      "text": "Make a stirring soup of vegetables, ground rice and fish, with plenty of herbs. Eat it with rice.",
+      "minutes": 60
+    },
+    {
+      "kind": "drink",
+      "item": "drink-palm-juice",
+      "name": "Drink palm juice",
+      "text": "Drink fresh juice from the sugar palm, sold from roadside stalls in Cambodia. Use coconut water or palm sugar in water if you cannot find it.",
+      "minutes": 10
+    },
+    {
+      "kind": "drink",
+      "item": "drink-rice-wine",
+      "name": "Learn about rice wine",
+      "text": "Rice wine is fermented from sticky rice and shared from a jar through straws at festivals. Read about it and drink a glass of cold sweet rice milk instead.",
+      "minutes": 10
+    },
+    {
+      "kind": "drink",
+      "item": "drink-sugar-cane-juice",
+      "name": "Drink sugar cane juice",
+      "text": "Drink sugar cane juice pressed to order with a squeeze of lime and ice. Sip it slowly in the shade.",
+      "minutes": 10
+    },
+    {
+      "kind": "customs",
+      "item": "customs-the-sampeah",
+      "name": "Greet with the sampeah",
+      "text": "Greet each person today with palms together and a slight bow.",
+      "minutes": 5
+    },
+    {
+      "kind": "customs",
+      "item": "customs-temple-manners",
+      "name": "Learn temple manners",
+      "text": "Read how visitors to Cambodian temples cover shoulders and knees, remove shoes and avoid pointing feet at Buddha images. Practise modest dress today.",
+      "minutes": 10
+    },
+    {
+      "kind": "customs",
+      "item": "customs-the-morning-alms",
+      "name": "Learn about the morning alms",
+      "text": "Read about monks walking at dawn to receive food from lay people, who kneel and give in silence. Give a bowl of rice to someone who needs it.",
+      "minutes": 15
+    },
+    {
+      "kind": "games",
+      "item": "games-ouk-chaktrang",
+      "name": "Play ouk chaktrang",
+      "text": "Play Cambodian chess, ouk chaktrang, or ordinary chess, with a friend, and think a few moves ahead.",
+      "minutes": 30
+    },
+    {
+      "kind": "games",
+      "item": "games-chol-chhoung",
+      "name": "Play chol chhoung",
+      "text": "Throw a scarf ball between two lines of players, and sing a forfeit song for any miss. Play with friends.",
+      "minutes": 25
+    },
+    {
+      "kind": "games",
+      "item": "games-boat-racing",
+      "name": "Watch a boat race",
+      "text": "Watch a video of the Cambodian dragon-boat racing of the Water Festival, with hundreds of paddlers. Clap along.",
+      "minutes": 10
+    },
+    {
+      "kind": "travel",
+      "item": "fest-khmer-new-year",
+      "name": "Mark Khmer New Year",
+      "text": "Khmer New Year falls in mid-April. Clean the house, wash the elders’ hands with scented water and play a game.",
+      "minutes": 30
+    },
+    {
+      "kind": "travel",
+      "item": "fest-the-water-festival",
+      "name": "Look up the Water Festival",
+      "text": "Look at pictures of Bon Om Touk in Phnom Penh, with boat races, lights and fireworks at the full moon of November. It marks the reversal of the Tonlé Sap’s flow.",
+      "minutes": 15
+    },
+    {
+      "kind": "travel",
+      "item": "place-angkor-wat",
+      "name": "Look up Angkor Wat",
+      "text": "Look at pictures of the largest religious monument in the world. Trace the five towers at sunrise.",
+      "minutes": 10
+    },
+    {
+      "kind": "words",
+      "item": "word-sampeah",
+      "name": "Practise sampeah",
+      "text": "Sampeah is the palms-together greeting. Use it to greet three people today.",
+      "minutes": 5
+    },
+    {
+      "kind": "words",
+      "item": "word-karuna",
+      "name": "Practise karuna",
+      "text": "Karuna is compassion. Wish well to someone who is suffering.",
+      "minutes": 5
+    },
+    {
+      "kind": "words",
+      "item": "word-baray",
+      "name": "Think about baray",
+      "text": "A baray is a huge reservoir built by the Khmer. Reflect on a shared resource that you rely on, and how it is kept.",
+      "minutes": 10
+    }
+  ],
   "rules": [
     {
       "id": "r1",

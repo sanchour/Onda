@@ -293,28 +293,92 @@
       "time": "07:00",
       "minutes": 30,
       "meta": "Morning · 30 min",
-      "instructions": "Spend half an hour this morning growing food. Dig, plant, weed, water or harvest, in a garden, an allotment, or a few pots on a sill if that is all you have. Work with your hands in the soil. Notice which plants are doing well and which are not. If you harvest anything, set part of it aside to give away. If you have nowhere to grow, go and help someone who does.",
-      "why": "Most Melanesians are gardeners. New Guinea is one of the few places where farming was invented independently: at Kuk in the highlands people were draining swamp and planting taro and banana at least seven thousand years ago. Families still feed themselves from gardens of yam, taro and sweet potato cleared and planted by hand, and a fine garden is a source of pride.",
+      "instructions": "Spend half an hour this morning growing food. Dig, plant, weed, water or harvest, in a garden, an allotment, or a few pots on a sill if that is all you have. Work with your hands in the soil. Notice which plants are doing well and which need help. The rule of this Onda is to grow some of your own food.",
+      "why": "Gardens are central to Melanesian life, from the yam and taro gardens of the islands to the sweet potato fields of the New Guinea highlands, where farming began 7,000 years ago.",
       "variations": [
-        "Plant one food crop and look after it for the month.",
-        "Give away the first thing you harvest.",
-        "Cook a meal entirely from roots, greens and coconut."
+        "Plant a bean in a pot.",
+        "Pick herbs for lunch.",
+        "Share a vegetable with a neighbour."
       ]
     },
     {
       "id": "arrive-with-a-gift",
       "name": "Arrive with a gift",
-      "icon": "door-open",
+      "icon": "gift",
       "slot": "Morning",
       "time": "10:00",
       "minutes": 10,
       "meta": "Morning · 10 min",
-      "instructions": "Wherever you go today as a visitor, to a home, an office or a meeting, do not arrive with empty hands. Bring something small to share: food, fruit, something you made. On arriving, greet the person whose place it is before anyone else, say why you have come and ask if it is a good time. Wait to be invited in and to sit. Accept what you are offered.",
-      "why": "In a Fijian village a visitor first presents kava root to the chief in a short ceremony, the sevusevu, and asks leave to be there. In New Caledonia one makes la coutume, laying down a length of cloth and a small gift with a few words. The gesture recognises that the land has owners, and it places the guest under their protection.",
+      "instructions": "Wherever you go today as a visitor, to a home, an office or a meeting, do not arrive with empty hands. Bring something small to share: food, fruit, something you made. On arriving, greet the person whose place it is before anyone else. The rule of this Onda is never to arrive empty-handed.",
+      "why": "Across Melanesia a visitor brings a gift, a pig, a mat, a bundle of food, and the host gives something back. Gifts build the relationship.",
       "variations": [
-        "Take food to the next house you visit.",
-        "Ask leave before walking on someone else’s land.",
-        "Greet the oldest person in a room first."
+        "Bring a small fruit.",
+        "Take flowers.",
+        "Bake something simple."
+      ]
+    },
+    {
+      "id": "a-message-to-your-wantok",
+      "name": "A message to your wantok",
+      "icon": "chat-circle-text",
+      "slot": "Morning",
+      "time": "08:30",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Write or call a wantok today: a relative, a friend, a person from your village, school or street who is one of your own people. In Tok Pisin wantok means one talk, someone who speaks your language and to whom you owe help and from whom you can ask. Ask how they are, and ask if they need something. The rule of this Onda is to answer your wantok.",
+      "why": "The wantok system is the web of obligations and kinship that holds Melanesian societies together. It can also be a burden, but at its best it is mutual care.",
+      "variations": [
+        "Contact three people.",
+        "Offer a favour.",
+        "Ask for help with something small."
+      ]
+    },
+    {
+      "id": "kaikai-sweet-potato-breakfast",
+      "name": "Kaikai: sweet potato breakfast",
+      "icon": "bowl-food",
+      "slot": "Morning",
+      "time": "07:30",
+      "minutes": 20,
+      "meta": "Morning · 20 min",
+      "instructions": "Eat a breakfast of kaikai, food, in the Melanesian way: bake or boil a sweet potato, a taro or a banana, and eat it with a little coconut cream or salt. Peel it with your fingers. Eat slowly and give thanks to the garden. Sweet potato is the staple of the New Guinea highlands.",
+      "why": "The kumul or sweet potato feeds millions in Papua New Guinea. A simple breakfast of root vegetables is a link to the garden.",
+      "variations": [
+        "Add coconut milk.",
+        "Share it with a friend.",
+        "Cook it in the embers."
+      ]
+    },
+    {
+      "id": "a-word-of-tok-pisin",
+      "name": "A word of Tok Pisin",
+      "icon": "translate",
+      "slot": "Morning",
+      "time": "09:00",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Learn one Tok Pisin word or phrase today: gutpela moning, good morning; tenkyu tru, thank you very much; lukim yu, see you; yumi, we together; wantok; kaikai; stori. Tok Pisin is an English-based creole spoken by millions in Papua New Guinea. Say it aloud to someone.",
+      "why": "Tok Pisin is the lingua franca of Papua New Guinea, and a lively, easy language for English speakers. A few words go a long way.",
+      "variations": [
+        "Learn the numbers to five.",
+        "Say the phrases to a friend.",
+        "Read a headline in Tok Pisin."
+      ]
+    },
+    {
+      "id": "stand-on-your-own-ground",
+      "name": "Stand on your own ground",
+      "icon": "tree",
+      "slot": "Morning",
+      "time": "06:45",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Go outside and stand barefoot on the ground for five minutes. Ples, place, is central to Melanesian identity, the land you come from and belong to. Name the place, its trees, hills and water. Think of who has lived there before you. In Fijian the idea is vanua, land, people and customs as one.",
+      "why": "Land is the basis of identity and belonging across Melanesia, from Papua New Guinea to Fiji. Standing on ground you care about is a quiet way to feel it.",
+      "variations": [
+        "Name five plants.",
+        "Look up the old name of your place.",
+        "Sit under a tree."
       ]
     },
     {
@@ -325,28 +389,92 @@
       "time": "14:00",
       "minutes": 30,
       "meta": "Afternoon · 30 min",
-      "instructions": "Give half an hour of your labour today to someone else’s task. Help a neighbour to move, dig, paint, cook for a crowd or mind children. Or call on others to help with a job of your own, and feed them afterwards. Work side by side, talk and laugh while you do it, and keep no tally of the hours. The debt will come round.",
-      "why": "In a Melanesian village a house is built, a garden cleared or a feast prepared by the whole community together. Fijians call it solesolevaki, and speakers of Tok Pisin say wok bung, working joined. The person helped feeds the workers and is bound to turn out for them in their turn.",
+      "instructions": "Give half an hour of your labour today to someone else’s task. Help a neighbour to move, dig, paint, cook for a crowd or mind children. Or call on others to help with a job of your own, and feed them afterwards. Work side by side and talk as you go. In Tok Pisin the word is wok bung, working together.",
+      "why": "Work together on one person’s job is a classic Melanesian form of cooperation. In Fiji the word is solesolevaki, and in Papua New Guinea wok bung.",
       "variations": [
-        "Organise a working day for someone who needs it.",
-        "Join a community clean-up.",
-        "Cook for the people who helped you."
+        "Help a neighbour with a garden.",
+        "Ask friends to help you clear a space.",
+        "End with a shared meal."
       ]
     },
     {
       "id": "pass-it-on",
       "name": "Pass it on",
-      "icon": "repeat",
+      "icon": "gift",
       "slot": "Afternoon",
       "time": "16:30",
       "minutes": 10,
       "meta": "Afternoon · 10 min",
-      "instructions": "Give something away today that was given to you. It might be a book, a tool, a present you have enjoyed, money that came unexpectedly or a kindness someone did you. Choose a person, hand it over in person and tell them where it came from. Ask for nothing. Take pleasure in having had it and in sending it on.",
-      "why": "In the Kula of the Massim islands, shell necklaces and armbands, each with its own name and history, are carried by canoe across hundreds of kilometres of sea and given to lifelong partners. No one may keep a valuable for long. Its fame, and the giver’s, grows as it moves. In the highlands a big man earns his name by how much he gives away.",
+      "instructions": "Give something away today that was given to you. It might be a book, a tool, a present you have enjoyed, money that came unexpectedly or a kindness someone did you. Choose a person, hand it over in person and tell them where it came from. Gifts in Melanesia keep moving: you hold them, you do not hoard them. The rule of this Onda is to give to gain a name.",
+      "why": "In Melanesian exchange systems, such as the moka of the highlands, gifts circulate, and the givers earn respect and a name. Passing on what you were given keeps it alive.",
       "variations": [
-        "Give away the best thing you received this year.",
-        "Repay an old favour with more than you were given.",
-        "Tell someone the story of an object as you hand it to them."
+        "Give a book you loved.",
+        "Hand on a favour.",
+        "Tell the story of the gift."
+      ]
+    },
+    {
+      "id": "loop-a-bilum",
+      "name": "Loop a bilum",
+      "icon": "yarn",
+      "slot": "Afternoon",
+      "time": "15:00",
+      "minutes": 40,
+      "meta": "Afternoon · 40 min",
+      "instructions": "Make a small bilum, the looped string bag that women of Papua New Guinea make from plant fibre or wool. Take a ball of string or yarn and make a chain of loops with your fingers, then loop each row into the one before, in a spiral, to form a small bag or pouch. It takes patience. Give it to a friend or use it daily.",
+      "why": "The bilum is the iconic bag of Papua New Guinea, made by women and carried everywhere, even used for babies. It is also a unique art form.",
+      "variations": [
+        "Use bright wool.",
+        "Make a bracelet.",
+        "Learn from a video by a PNG maker."
+      ]
+    },
+    {
+      "id": "string-figures",
+      "name": "String figures",
+      "icon": "link",
+      "slot": "Afternoon",
+      "time": "14:30",
+      "minutes": 20,
+      "meta": "Afternoon · 20 min",
+      "instructions": "Play with string figures: loop a piece of string and make shapes between your fingers, such as the cat’s cradle. In Melanesia string figures tell stories: a bird, a fish, a house. Learn one from a friend or video, and tell a story as you make it. Pass it to another person. Play with children if you can.",
+      "why": "String figures are made across Melanesia and the Pacific, and each carries a story. They are a lovely way to share a tale with your hands.",
+      "variations": [
+        "Learn the cup and saucer.",
+        "Make a figure and tell a tale.",
+        "Teach a child."
+      ]
+    },
+    {
+      "id": "settle-it-and-eat-together",
+      "name": "Settle it and eat together",
+      "icon": "handshake",
+      "slot": "Afternoon",
+      "time": "17:00",
+      "minutes": 30,
+      "meta": "Afternoon · 30 min",
+      "instructions": "If you have a quarrel, resolve it today by talking it out and sharing food. In Melanesia disputes are settled by community discussion, with compensation if needed, and the resolution is sealed by a shared meal. Choose a conflict, find the other person, listen to their account and agree a repair. Then eat.",
+      "why": "Settling disputes by talk, compensation and a shared meal is a traditional Melanesian approach, aimed at restoring relationships rather than punishing. It is practical wisdom.",
+      "variations": [
+        "Start with an apology.",
+        "Offer a small gift.",
+        "Share a meal at the end."
+      ]
+    },
+    {
+      "id": "a-team-game-with-your-own-rules",
+      "name": "A team game with your own rules",
+      "icon": "trophy",
+      "slot": "Afternoon",
+      "time": "16:00",
+      "minutes": 30,
+      "meta": "Afternoon · 30 min",
+      "instructions": "Invent a simple team game with friends, with rules that everyone agrees, and play it. In the Trobriand Islands people took up cricket and changed the rules: any number of players, dances, war paint and a home team that always wins. Play for fun, make up the rules as you go and laugh. Keep it friendly.",
+      "why": "Trobriand cricket is a famous example of a game remade to local custom. Making your own version is a way of owning a game.",
+      "variations": [
+        "Rework a familiar game.",
+        "Add a song.",
+        "Let the home team win."
       ]
     },
     {
@@ -357,136 +485,341 @@
       "time": "19:00",
       "minutes": 30,
       "meta": "Evening · 30 min",
-      "instructions": "When the day’s work is done, eat with other people and then stay sitting. Share out the food so that everyone has some before anyone has seconds. Then talk with no purpose: what happened today, who was seen, an old story, a joke. Let the talk wander and let there be pauses. If you have a wantok far away, someone from your own place, call them and ask for the news.",
-      "why": "Evenings in the village are for sitting together, on a verandah, around a fire or in the nakamal over kava, and telling stories. This is how news travels, how the young learn who they are related to and how disputes are noticed early. Food is never eaten alone when others are present.",
+      "instructions": "When the day’s work is done, eat with other people and then stay sitting. Share out the food so that everyone has some before anyone has seconds. Then talk with no purpose: what happened today, who was seen, an old story, a joke. In Tok Pisin this is stori. The rule of this Onda is to share food.",
+      "why": "To stori is to tell stories and talk, a central social act in Melanesia. Sitting around the evening fire or table is the heart of community.",
       "variations": [
-        "Tell a story from your own childhood village or street.",
-        "Invite someone who eats alone.",
-        "Find out the news of your home place."
-      ]
-    }
-  ],
-  "tasks": [
-    {
-      "id": "task-read-a-chapter-of-the-melanesian-way",
-      "name": "Read a chapter of The Melanesian Way",
-      "meta": "Read · Bernard Narokobi, 1980",
-      "time": "20:30",
-      "slot": "Evening",
-      "action": "read"
-    },
-    {
-      "id": "task-listen-to-the-panpipe-ensembles-of-the-are-are",
-      "name": "Listen to the panpipe ensembles of the ’Are’are",
-      "meta": "Listen · Malaita, Solomon Islands",
-      "time": "07:30",
-      "slot": "Morning",
-      "action": "listen"
-    },
-    {
-      "id": "task-look-at-a-malagan-carving",
-      "name": "Look at a malagan carving",
-      "meta": "Art · New Ireland, made to be shown once and then let go",
-      "time": "13:00",
-      "slot": "Afternoon",
-      "action": "art"
-    },
-    {
-      "id": "task-make-a-string-figure",
-      "name": "Make a string figure",
-      "meta": "Games · known across all of Melanesia",
-      "time": "18:00",
-      "slot": "Evening",
-      "action": "games"
-    },
-    {
-      "id": "task-journal-who-are-your-wantoks-and-what-do-you-owe-each-other",
-      "name": "Journal: who are your wantoks, and what do you owe each other?",
-      "meta": "Journal · 10 min",
-      "time": "21:00",
-      "slot": "Evening",
+        "Tell a family story.",
+        "Ask an elder to tell one.",
+        "End with a song."
+      ],
       "action": "journal"
     },
     {
-      "id": "task-is-wealth-what-you-keep-or-what-you-give-away",
-      "name": "Is wealth what you keep, or what you give away?",
-      "meta": "Philosophy · 10 min",
-      "time": "09:00",
-      "slot": "Morning",
-      "action": "philosophy"
+      "id": "singsing",
+      "name": "Singsing",
+      "icon": "music-notes",
+      "slot": "Evening",
+      "time": "20:00",
+      "minutes": 20,
+      "meta": "Evening · 20 min",
+      "instructions": "Sing together, in the manner of a singsing, a gathering of song and dance. Choose a simple song with a chorus, a hymn, a folk song or a pop song, and sing it as a group, clapping and swaying. The singsing is the heart of Melanesian festivals. Sing out. If you are alone, sing along to a recording.",
+      "why": "Singsing is the Tok Pisin word for a festival of song and dance, with elaborate costumes. A simple singalong is the home version.",
+      "variations": [
+        "Add a drum rhythm.",
+        "Teach a song.",
+        "Sing in harmony."
+      ]
     },
     {
-      "id": "answer-a-request-from-one-of-your-own-people-today",
-      "name": "Answer a request from one of your own people today",
-      "meta": "Wantok",
-      "time": "11:00",
-      "slot": "Morning"
-    },
-    {
-      "id": "share-what-you-are-eating-with-whoever-is-nearby",
-      "name": "Share what you are eating with whoever is nearby",
-      "meta": "Kaikai",
-      "time": "12:30",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "learn-a-greeting-in-the-oldest-language-of-the-place-where-you-live",
-      "name": "Learn a greeting in the oldest language of the place where you live",
-      "meta": "Tok ples",
-      "time": "15:30",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "treat-plant-something-you-can-eat",
-      "name": "Plant something you can eat",
-      "meta": "A pot is a garden",
-      "time": "15:30",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "treat-give-a-small-gift-for-no-reason-and-expect-nothing",
-      "name": "Give a small gift for no reason and expect nothing",
-      "meta": "It will come round",
-      "time": "15:30",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "treat-chew-your-food-slowly-and-talk-longer",
-      "name": "Chew your food slowly and talk longer",
-      "meta": "No clock at the table",
+      "id": "listen-to-the-panpipes",
+      "name": "Listen to the panpipes",
+      "icon": "wind",
+      "slot": "Evening",
       "time": "19:30",
-      "slot": "Evening"
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Play ’Are’are panpipe music from Malaita in the Solomon Islands, or the water music of the women of Vanuatu. Listen with your eyes closed to the interlocking pipes or the splashes of hands on water. These sounds are ancient and unique. Sit still and let them wash over you.",
+      "why": "The ’Are’are panpipe ensembles are among the most complex music in the Pacific. Vanuatu’s women make music by slapping the water.",
+      "variations": [
+        "Look at a picture of the pipes.",
+        "Slap water in a bath for rhythm.",
+        "Hum a drone."
+      ]
     },
     {
-      "id": "treat-listen-to-panpipes-or-a-bamboo-band-for-one-track",
-      "name": "Listen to panpipes or a bamboo band for one track",
-      "meta": "From the Solomon Islands",
-      "time": "15:30",
-      "slot": "Afternoon"
+      "id": "share-the-food-fairly",
+      "name": "Share the food fairly",
+      "icon": "bowl-steam",
+      "slot": "Evening",
+      "time": "18:30",
+      "minutes": 40,
+      "meta": "Evening · 40 min",
+      "instructions": "At the evening meal, share out the food so that everyone has a portion before anyone has seconds. Serve the guests, children and elders first. Share a little with a neighbour. In Melanesian custom the host’s generosity is a matter of pride. Eat together, and wait for everyone before starting.",
+      "why": "Sharing food is the basis of social life in Melanesia. A shared meal makes and mends relationships.",
+      "variations": [
+        "Cook a dish for several households.",
+        "Eat from a common pot.",
+        "Invite a neighbour."
+      ]
     },
     {
-      "id": "daily-greet-three-people-with-a-handshake-and-ask-after-their-fami",
-      "name": "Greet three people with a handshake and ask after their family",
-      "meta": "Your wantoks",
-      "time": "07:15",
-      "slot": "Morning"
-    },
-    {
-      "id": "daily-plan-a-small-gift-to-bring-the-next-time-you-visit-someone",
-      "name": "Plan a small gift to bring the next time you visit someone",
-      "meta": "Gifts keep the road open",
+      "id": "tell-the-story-of-your-place",
+      "name": "Tell the story of your place",
+      "icon": "campfire",
+      "slot": "Evening",
       "time": "20:30",
-      "slot": "Evening"
+      "minutes": 20,
+      "meta": "Evening · 20 min",
+      "instructions": "Tell a story about the place where you live: how it got its name, who lived there, what happened. In Melanesia every place has a story, and the stories belong to the people of that place. Tell yours, or ask an older neighbour to tell theirs. Write it down.",
+      "why": "Place stories are central to Melanesian identity and belong to specific peoples. Telling the stories of your own place is a respectful way to join in.",
+      "variations": [
+        "Look up the old name.",
+        "Ask a local historian.",
+        "Draw a map of the story."
+      ]
     },
     {
-      "id": "daily-tell-a-story-to-someone-younger",
-      "name": "Tell a story to someone younger",
-      "meta": "Stori",
-      "time": "20:30",
-      "slot": "Evening"
+      "id": "say-lukim-yu-properly",
+      "name": "Say lukim yu properly",
+      "icon": "hand-waving",
+      "slot": "Evening",
+      "time": "21:00",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "When someone leaves you today, or when you part at night, say lukim yu, see you, with a gift or a kind word. Never part with a quarrel. Hold their hand for a moment. In Melanesia leave-taking is a social act, with time given to it and promises to meet again. Say the farewell with care.",
+      "why": "Leave-takings in Melanesia are warm and unhurried. Parting well keeps the relationship intact.",
+      "variations": [
+        "Walk someone to the door.",
+        "Give a small gift.",
+        "Say when you will meet again."
+      ]
+    },
+    {
+      "id": "a-mumu-style-feast",
+      "name": "A mumu-style feast",
+      "icon": "cooking-pot",
+      "slot": "Special",
+      "time": "13:00",
+      "minutes": 120,
+      "meta": "On a free afternoon · 120 min",
+      "instructions": "Cook a feast in the spirit of the mumu, the earth oven of Papua New Guinea. At home use a large covered pot or an oven tray: layer sweet potato, taro, greens, pumpkin and chicken or fish, wrapped in banana leaves or foil, with coconut cream. Invite neighbours and friends, share the cooking and serve everyone before you eat.",
+      "why": "The mumu is cooked underground with hot stones for feasts and festivals. A shared meal in the spirit of it celebrates community.",
+      "variations": [
+        "Use banana leaves.",
+        "Serve on large leaves.",
+        "Make enough to give away."
+      ]
+    },
+    {
+      "id": "a-day-in-the-garden",
+      "name": "A day in the garden",
+      "icon": "plant",
+      "slot": "Special",
+      "time": "09:00",
+      "minutes": 120,
+      "meta": "On a free morning · 120 min",
+      "instructions": "Spend a morning in a garden with friends or family, digging, planting and weeding, then eat what you grow, or buy together. In Melanesia the garden is the centre of life and each family’s plot is a matter of pride. Share the work and the produce, and end with a meal. Plant something to harvest later.",
+      "why": "Gardening is the daily work of most Melanesians and a delight. A shared day of it brings food and friendship.",
+      "variations": [
+        "Visit a community garden.",
+        "Plant yam or taro if you can.",
+        "Swap seeds."
+      ]
     }
   ],
-  "immersePlan": [],
+  "tasks": [],
+  "immersePlan": [
+    {
+      "kind": "read",
+      "item": "read-the-melanesian-way",
+      "name": "Read from The Melanesian Way",
+      "text": "Read a chapter of Bernard Narokobi’s 1980 book by a Papua New Guinean lawyer and writer on Melanesian values. Note one idea.",
+      "minutes": 25
+    },
+    {
+      "kind": "read",
+      "item": "read-kiki-ten-thousand-years-in-a-lifetime",
+      "name": "Read from Kiki",
+      "text": "Read a chapter of Albert Maori Kiki’s 1968 autobiography, the first by a Papua New Guinean. Note how he writes of change.",
+      "minutes": 25
+    },
+    {
+      "kind": "read",
+      "item": "read-black-stone",
+      "name": "Read from Black Stone",
+      "text": "Read poems of Grace Mera Molisa of Vanuatu, a bold voice. Read one aloud.",
+      "minutes": 15
+    },
+    {
+      "kind": "watch",
+      "item": "watch-tanna",
+      "name": "Watch Tanna",
+      "text": "Watch the 2015 film shot on Tanna in Vanuatu with the Yakel people, a love story based on a true event. The volcano glows.",
+      "minutes": 104
+    },
+    {
+      "kind": "watch",
+      "item": "watch-trobriand-cricket-an-ingenious-response-to-colonialism",
+      "name": "Watch Trobriand Cricket",
+      "text": "Watch the 1975 film of Trobriand Islanders playing their version of cricket, with dancing and magic. It is funny and clever.",
+      "minutes": 54
+    },
+    {
+      "kind": "watch",
+      "item": "watch-first-contact",
+      "name": "Watch First Contact",
+      "text": "Watch the 1983 documentary on the 1930s meeting of Australian gold prospectors and highland peoples, told by those who were there. A serious film.",
+      "minutes": 54
+    },
+    {
+      "kind": "listen",
+      "item": "listen-solomon-islands-are-are-panpipe-ensembles",
+      "name": "Listen to the ’Are’are panpipes",
+      "text": "Play the panpipe ensembles of Malaita. Listen to the interlocking sound.",
+      "minutes": 20
+    },
+    {
+      "kind": "listen",
+      "item": "listen-telek",
+      "name": "Listen to George Telek",
+      "text": "Play the 1997 album by the Tolai singer from Papua New Guinea, mixing traditional and modern. Sing along.",
+      "minutes": 40
+    },
+    {
+      "kind": "listen",
+      "item": "listen-water-music-of-vanuatu",
+      "name": "Listen to the water music of Vanuatu",
+      "text": "Play a recording of the women of Gaua splashing, slapping and drumming the water. Try it in a bowl.",
+      "minutes": 10
+    },
+    {
+      "kind": "art",
+      "item": "art-malagan-carvings",
+      "name": "Look at malagan carvings",
+      "text": "Look at the intricate carvings made in northern New Ireland for memorial ceremonies, which are often destroyed after use.",
+      "minutes": 10
+    },
+    {
+      "kind": "art",
+      "item": "art-the-bilum",
+      "name": "Look at bilums",
+      "text": "Look at pictures of looped string bags in brilliant patterns from Papua New Guinea. Pick a pattern to copy.",
+      "minutes": 10
+    },
+    {
+      "kind": "art",
+      "item": "art-paintings-of-mathias-kauage",
+      "name": "Look at Mathias Kauage’s paintings",
+      "text": "Look at the vivid, busy paintings of Papua New Guinea’s best-known painter, Kauage, who called himself the Big Man of PNG art. This artist has passed away.",
+      "minutes": 10
+    },
+    {
+      "kind": "eat",
+      "item": "eat-mumu",
+      "name": "Cook a mumu-style meal",
+      "text": "Cook pork or chicken with sweet potato and greens in a covered pot. Share it.",
+      "minutes": 90
+    },
+    {
+      "kind": "eat",
+      "item": "eat-laplap",
+      "name": "Make laplap",
+      "text": "Grate yam, banana or cassava, wrap it in leaves with coconut cream and bake. It is the national dish of Vanuatu.",
+      "minutes": 90
+    },
+    {
+      "kind": "eat",
+      "item": "eat-kokoda",
+      "name": "Make kokoda",
+      "text": "Marinate raw fish in lime juice, then add coconut cream, tomato and onion. Eat it cold with taro.",
+      "minutes": 30
+    },
+    {
+      "kind": "drink",
+      "item": "drink-kava",
+      "name": "Learn about kava",
+      "text": "Read about kava, drunk from coconut shells in Fiji, Vanuatu and other places. As a guest, drink it only when invited, and avoid it with medication or liver problems.",
+      "minutes": 15
+    },
+    {
+      "kind": "drink",
+      "item": "drink-green-coconut",
+      "name": "Drink a green coconut",
+      "text": "Drink from a young green coconut and scrape out the flesh. Share one.",
+      "minutes": 10
+    },
+    {
+      "kind": "drink",
+      "item": "drink-highlands-coffee",
+      "name": "Drink a cup of PNG coffee",
+      "text": "Drink a cup of coffee from Papua New Guinea’s highlands, grown by small farmers around Goroka. Notice the taste.",
+      "minutes": 10
+    },
+    {
+      "kind": "customs",
+      "item": "customs-sevusevu",
+      "name": "Learn about sevusevu",
+      "text": "Read about the Fijian custom of presenting kava roots to the chief on arriving in a village. Bring a gift to your next visit.",
+      "minutes": 10
+    },
+    {
+      "kind": "customs",
+      "item": "customs-compensation",
+      "name": "Learn about compensation",
+      "text": "Read how disputes in Melanesia are ended by payment and a shared meal. Think of a quarrel you could mend with a gift.",
+      "minutes": 10
+    },
+    {
+      "kind": "customs",
+      "item": "customs-shell-money",
+      "name": "Learn about shell money",
+      "text": "Read about the strings of shells used as money in New Ireland and the Solomon Islands. Make a necklace of beads.",
+      "minutes": 10
+    },
+    {
+      "kind": "games",
+      "item": "games-trobriand-cricket",
+      "name": "Play Trobriand cricket",
+      "text": "Play a game of cricket or rounders with your own rules: any number of players, chants and a home team that wins.",
+      "minutes": 40
+    },
+    {
+      "kind": "games",
+      "item": "games-string-figures",
+      "name": "Make a string figure",
+      "text": "Make a cat’s cradle or another figure from a loop of string. Tell a tale as you make it.",
+      "minutes": 15
+    },
+    {
+      "kind": "games",
+      "item": "games-rugby-sevens",
+      "name": "Play or watch rugby sevens",
+      "text": "Fiji’s national sport is rugby sevens, played at speed. Watch a clip, or throw a ball with friends.",
+      "minutes": 20
+    },
+    {
+      "kind": "travel",
+      "item": "fest-goroka-show",
+      "name": "Look up the Goroka Show",
+      "text": "Look at pictures of the great highlands cultural show in Papua New Guinea with hundreds of tribal groups in costume.",
+      "minutes": 10
+    },
+    {
+      "kind": "travel",
+      "item": "fest-hiri-moale",
+      "name": "Look up Hiri Moale",
+      "text": "Look at pictures of the festival in Port Moresby celebrating the old trading voyages of the Motu in lagatoi canoes.",
+      "minutes": 10
+    },
+    {
+      "kind": "travel",
+      "item": "place-tjibaou-cultural-centre",
+      "name": "Look up the Tjibaou Cultural Centre",
+      "text": "Look at pictures of the museum in Nouméa designed by Renzo Piano to honour Kanak culture. Notice the shell-like huts.",
+      "minutes": 10
+    },
+    {
+      "kind": "words",
+      "item": "word-wantok",
+      "name": "Practise wantok",
+      "text": "Wantok means one talk, a relative or person of your own people. Do something for your wantok today.",
+      "minutes": 10
+    },
+    {
+      "kind": "words",
+      "item": "word-stori",
+      "name": "Practise stori",
+      "text": "Stori is telling stories and talking. Spend half an hour in easy talk with others.",
+      "minutes": 30
+    },
+    {
+      "kind": "words",
+      "item": "word-kastom",
+      "name": "Think about kastom",
+      "text": "Kastom is tradition and custom. Name one custom you keep, and why.",
+      "minutes": 10
+    }
+  ],
   "rules": [
     {
       "id": "r1",

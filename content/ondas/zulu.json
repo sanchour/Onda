@@ -289,49 +289,113 @@
     {
       "id": "sawubona",
       "name": "Sawubona: see the person",
-      "icon": "eye",
+      "icon": "hand-waving",
       "slot": "Morning",
       "time": "07:30",
       "minutes": 10,
       "meta": "Morning · 10 min",
-      "instructions": "Greet every person you meet this morning properly. Stop walking. Look at them. Say hello and ask how they are, and wait for the answer. If they ask you, answer truthfully and ask in return. Greet people you would usually pass by: the cleaner, the driver, a child, a neighbour. Greet older people first. When you part, wish them well on their way.",
-      "why": "The Zulu greeting sawubona means we see you, and the reply is yes, we see you too. A full greeting then asks after the other’s health and family. To walk past someone without greeting is rude, and greeting a stranger is ordinary good manners. A person exists in being recognised by others.",
+      "instructions": "Greet every person you meet this morning properly. Stop walking. Look at them. Say hello and ask how they are, and wait for the answer. If they ask you, answer truthfully and ask in return. Greet people you would usually pass in silence. The rule of this Onda is to greet everyone.",
+      "why": "Sawubona means I see you, and the reply, yebo, sawubona, means yes, I am seen. In Zulu life a person exists through being acknowledged. Greeting properly is the first courtesy.",
       "variations": [
-        "Learn the exchange: sawubona, yebo sawubona, unjani, ngiyaphila.",
-        "Greet one stranger each day for a week.",
-        "Use people’s names when you greet them."
+        "Greet in Zulu if you can.",
+        "Greet the person who cleans or serves.",
+        "Say the person’s name."
       ]
     },
     {
       "id": "ask-the-way",
       "name": "Ask the way of those ahead",
-      "icon": "footprints",
+      "icon": "compass",
       "slot": "Morning",
       "time": "09:30",
       "minutes": 15,
       "meta": "Morning · 15 min",
-      "instructions": "Think of one thing you are trying to do or decide. Find someone who has already been down that road, an older relative, a senior colleague, a neighbour, and ask them how they did it. Go in person or call. Ask, listen without arguing, and thank them. If the person you would most like to ask has died, sit quietly for a few minutes, say their name and ask what they would tell you.",
-      "why": "The proverb says that the way is asked of those who have gone ahead. Respect for elders, hlonipha, is the foundation of Zulu manners, and the old are the family’s memory. The ancestors remain part of the household and are told of births, marriages and troubles.",
+      "instructions": "Think of one thing you are trying to do or decide. Find someone who has already been down that road, an older relative, a senior colleague, a neighbour, and ask them how they did it. Go in person or call. Ask, listen without arguing and thank them. Zulu proverb: ibuzwa kwabaphambili, ask of those who went before.",
+      "why": "Zulu culture honours those who have gone ahead, in life and in memory. Asking an elder’s advice is a mark of wisdom, not weakness.",
       "variations": [
-        "Ask the oldest person in your family about a decision they once faced.",
-        "Write down the names of your grandparents and great-grandparents.",
-        "Visit a grave or light a candle for someone who guided you."
+        "Ask a grandparent about a choice.",
+        "Ask a mentor for a story.",
+        "Write down what they say."
+      ]
+    },
+    {
+      "id": "receive-with-both-hands",
+      "name": "Receive with both hands",
+      "icon": "hand-grabbing",
+      "slot": "Morning",
+      "time": "08:00",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Today, give and receive everything with both hands, or with the right hand supported by the left at the elbow: a cup, a coin, a parcel, a document. Say thank you, ngiyabonga, as you do. In Zulu custom this shows that you value the gift and the giver. Notice how it slows and warms every small exchange.",
+      "why": "Receiving with both hands is a sign of gratitude and respect across Zulu and wider southern African cultures. It is a simple gesture with a big effect.",
+      "variations": [
+        "Do it for a day.",
+        "Teach a child.",
+        "Notice how people respond."
+      ]
+    },
+    {
+      "id": "maize-porridge-breakfast",
+      "name": "Maize porridge breakfast",
+      "icon": "bowl-food",
+      "slot": "Morning",
+      "time": "07:00",
+      "minutes": 20,
+      "meta": "Morning · 20 min",
+      "instructions": "Make a breakfast of maize porridge, either thick and crumbly as uphuthu or soft as isijingi, and eat it with sour milk or a little sugar. Stir it slowly in a pot as it thickens. Eat it from a bowl with a spoon, sitting down. Maize meal is the daily staple of Zulu homes. Share it with someone.",
+      "why": "Maize porridge in its forms is the backbone of the Zulu table. Eating it slowly at the start of the day is a plain, warming pleasure.",
+      "variations": [
+        "Add amasi, soured milk.",
+        "Add pumpkin to the porridge.",
+        "Eat it from a shared bowl."
+      ]
+    },
+    {
+      "id": "praise-yourself-truthfully",
+      "name": "Praise yourself, truthfully",
+      "icon": "quotes",
+      "slot": "Morning",
+      "time": "09:00",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Compose a short praise poem about yourself, as a Zulu bard would: name your parents, your people and your place, then three things you have done and three things you are. Use images: you are the one who walks early, the one who keeps her word. Read it aloud. Izibongo are not boasting but a way of knowing who you are.",
+      "why": "Izibongo, praise poems, name a person’s ancestry and deeds. Every Zulu has praise names; composing yours is a strong way to start the day.",
+      "variations": [
+        "Write it in five lines.",
+        "Read it to a friend.",
+        "Add a line each week."
+      ]
+    },
+    {
+      "id": "honour-an-elder",
+      "name": "Honour an elder",
+      "icon": "users",
+      "slot": "Morning",
+      "time": "08:30",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Greet an older person today with special respect: stand when they come, lower your voice, let them speak first and serve them first. Hlonipha is the Zulu word for respect, shown in manner and speech. Ask how they are, offer help and listen. Avoid looking them hard in the eye.",
+      "why": "Hlonipha, respect for elders and in-laws, is basic to Zulu social life. It governs how one speaks, sits and serves.",
+      "variations": [
+        "Carry something for an older person.",
+        "Visit a grandparent.",
+        "Ask an elder for a proverb."
       ]
     },
     {
       "id": "izibongo",
       "name": "Praise by name",
-      "icon": "megaphone",
+      "icon": "microphone-stage",
       "slot": "Afternoon",
       "time": "13:00",
       "minutes": 10,
       "meta": "Afternoon · 10 min",
-      "instructions": "Choose one person today and praise them aloud, to their face or before others. Be exact. Name what they did, what it cost and what kind of person it shows them to be, and use an image if one comes: you are the one who stays when the others have gone home. Do not flatter and do not add advice. If you are praised, receive it without waving it away.",
-      "why": "Praise poetry, izibongo, is the great art of the Zulu language. Kings had poets who declaimed their praises at gatherings, and every clan has praise names that are recited when greeting or thanking one of its members. The verb to thank and the verb to praise are the same.",
+      "instructions": "Choose one person today and praise them aloud, to their face or before others. Be exact. Name what they did, what it cost and what kind of person it shows them to be, and use an image if one comes: you are the one who stood when the others sat. Say it warmly. The rule of this Onda is to praise what deserves it.",
+      "why": "Izibongo are given to kings and ordinary people alike. Naming a person’s qualities in front of others builds them up and builds the community.",
       "variations": [
-        "Write three lines of praise for someone you love and read them out.",
-        "Learn the meaning of your own family name.",
-        "Thank someone by saying exactly what their help did."
+        "Praise a colleague in a meeting.",
+        "Praise a child for an effort.",
+        "Write a note of praise."
       ]
     },
     {
@@ -342,12 +406,76 @@
       "time": "15:30",
       "minutes": 30,
       "meta": "Afternoon · 30 min",
-      "instructions": "Give half an hour of your labour to someone else’s job today, or call others to help with one of yours. Dig, carry, paint, cook, sort, mend. Work alongside each other and sing or talk as you go. The one who is helped feeds the helpers afterwards. Keep no count of the hours. Next time it will be another household’s turn.",
-      "why": "When a Zulu family has a field to plough or a house to build, it calls an ilima. Neighbours come with their own tools and the work is done in a day, with the host providing food and beer. A proverb says that hands wash each other.",
+      "instructions": "Give half an hour of your labour to someone else’s job today, or call others to help with one of yours. Dig, carry, paint, cook, sort, mend. Work alongside each other and sing or talk as you go. The one who is helped feeds the helpers, with something simple and shared. The Zulu word is ilima, a work party. The rule of this Onda is to work together.",
+      "why": "Ilima is the call to neighbours to help with ploughing or building, repaid with food and later with return help. It is mutual aid at its best.",
       "variations": [
-        "Organise a working afternoon for a neighbour.",
-        "Cook for people who helped you.",
-        "Sing while you work together."
+        "Help a neighbour with a chore.",
+        "Call friends to help you move something.",
+        "End with a shared snack."
+      ]
+    },
+    {
+      "id": "string-a-few-beads",
+      "name": "String a few beads",
+      "icon": "circle",
+      "slot": "Afternoon",
+      "time": "14:00",
+      "minutes": 30,
+      "meta": "Afternoon · 30 min",
+      "instructions": "Make a simple beaded bracelet or small piece of beadwork: choose seed beads, thread them on a fine thread or wire in a pattern and tie off. In Zulu beadwork, colours and patterns carry messages, such as white for purity and red for love or anger. Make one for yourself or for a friend. Take your time with the pattern.",
+      "why": "Zulu beadwork, ubuhlalu, is among the most famous of African crafts, with a complex code of colour. A simple bracelet is a modest start.",
+      "variations": [
+        "Use colours with a meaning.",
+        "Make a bracelet for a friend.",
+        "Learn the colour code online."
+      ]
+    },
+    {
+      "id": "a-game-of-umlabalaba",
+      "name": "A game of umlabalaba",
+      "icon": "game-controller",
+      "slot": "Afternoon",
+      "time": "16:30",
+      "minutes": 25,
+      "meta": "Afternoon · 25 min",
+      "instructions": "Play umlabalaba, the southern African three-in-a-row game also called morabaraba. Draw the board of three nested squares joined by lines, give each player twelve pieces and place them in turns, forming mills of three to remove opponents’ pieces. Play two games with a friend and talk as you play.",
+      "why": "Umlabalaba is a Zulu board game, ancient and popular, played on boards scratched in earth or drawn on paper. It is a social pastime.",
+      "variations": [
+        "Play with pebbles and bottle caps.",
+        "Teach a child.",
+        "Draw the board in chalk."
+      ]
+    },
+    {
+      "id": "skip-together",
+      "name": "Skip together",
+      "icon": "person-simple-run",
+      "slot": "Afternoon",
+      "time": "17:00",
+      "minutes": 15,
+      "meta": "Afternoon · 15 min",
+      "instructions": "Skip rope with friends: two people swing a long rope and one or more jump in, chanting a rhyme or a song, as Zulu girls and boys play ingqathu. Take turns, keep the rhythm and sing. Warm up first and wear comfortable shoes. A few minutes is a good workout and great fun.",
+      "why": "Ingqathu is a Zulu skipping game, with songs and rhythm. It is good exercise and a happy way to spend a break.",
+      "variations": [
+        "Add a call-and-response rhyme.",
+        "Count the skips.",
+        "Try double skipping."
+      ]
+    },
+    {
+      "id": "walk-someone-to-the-gate",
+      "name": "Walk someone to the gate",
+      "icon": "door-open",
+      "slot": "Afternoon",
+      "time": "17:30",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "When a guest leaves your home or workplace today, walk them to the gate or the door and wish them a good journey: hamba kahle, go well. The one who stays says: sala kahle, stay well. Wait until they are out of sight and wave. It is a small ritual of respect.",
+      "why": "Hamba kahle and sala kahle are the paired farewells of Zulu life. Walking a guest out is a sign that they mattered.",
+      "variations": [
+        "Say hamba kahle aloud.",
+        "Walk a neighbour home.",
+        "Wave until they are gone."
       ]
     },
     {
@@ -358,122 +486,341 @@
       "time": "19:30",
       "minutes": 20,
       "meta": "Evening · 20 min",
-      "instructions": "When the day’s work is done, sing with other people. Any song that everyone knows will do. Let one voice lead and the others answer. Add a low part and a high part if you can, and move your feet in time. If you are alone, sing along with a recording of a Zulu choir, quietly at first. Sing until you are not thinking about how you sound.",
-      "why": "Zulu music is choral. Songs for work, weddings, war and worship are sung in parts with a leader and a response, and with the body moving. Migrant workers in the mines and hostels made the soft, close harmonies of isicathamiya, competing through Saturday night until dawn.",
+      "instructions": "When the day’s work is done, sing with other people. Any song that everyone knows will do. Let one voice lead and the others answer. Add a low part and a high part if you can, and move your feet in time. If you are alone, sing along to a recording. Singing in harmony is a Zulu gift.",
+      "why": "Zulu choral singing in four-part harmony is world-famous, from church choirs to the isicathamiya of Ladysmith Black Mambazo. Singing together is the heart of community.",
       "variations": [
-        "Learn the chorus of one Zulu song.",
-        "Listen to a whole isicathamiya album.",
-        "Clap a steady rhythm with a child."
+        "Hum a bass line.",
+        "Sing a hymn.",
+        "Learn a short Zulu song."
       ]
-    }
-  ],
-  "tasks": [
+    },
     {
-      "id": "task-read-a-canto-of-emperor-shaka-the-great",
-      "name": "Read a canto of Emperor Shaka the Great",
-      "meta": "Read · Mazisi Kunene’s epic, 1979",
+      "id": "hold-an-indaba",
+      "name": "Hold an indaba",
+      "icon": "chats",
+      "slot": "Evening",
+      "time": "19:00",
+      "minutes": 30,
+      "meta": "Evening · 30 min",
+      "instructions": "Hold an indaba, a council talk, about one matter on your mind with the people it concerns. Sit in a circle. Let every person speak in turn without interruption, from the youngest to the eldest or the other way round. Seek agreement, not victory. End when there is a decision or a clear next step. Thank everyone for coming.",
+      "why": "An indaba is a meeting of the community to discuss and resolve matters, with respect for all voices. It is a model of consultation.",
+      "variations": [
+        "Settle a household question.",
+        "Use a talking stick.",
+        "Write the decision down."
+      ]
+    },
+    {
+      "id": "a-story-from-gogo",
+      "name": "A story from gogo",
+      "icon": "campfire",
+      "slot": "Evening",
+      "time": "20:00",
+      "minutes": 20,
+      "meta": "Evening · 20 min",
+      "instructions": "Tell or read a Zulu folktale to someone, in the voice of a grandmother, gogo: begin with a call such as cosu cosu, answer iyoh, and tell of Hlakanyana the clever trickster child, or the story of the monster Isitimela. Use voices and gestures and stop at the best moment. Ask the listeners what they think happens.",
+      "why": "Folktales are told by grandmothers in the evening with call-and-response and songs. They teach and delight.",
+      "variations": [
+        "Tell the tale of Hlakanyana.",
+        "Tell it to a child.",
+        "Add a song to the story."
+      ]
+    },
+    {
+      "id": "listen-to-isicathamiya",
+      "name": "Listen to isicathamiya",
+      "icon": "waveform",
+      "slot": "Evening",
       "time": "20:30",
+      "minutes": 20,
+      "meta": "Evening · 20 min",
+      "instructions": "Play Ladysmith Black Mambazo’s Shaka Zulu or another isicathamiya recording, the soft-footed a cappella harmony of Zulu miners’ choirs. Close your eyes and let the voices flow. Isicathamiya comes from cothama, to walk softly. Hum the bass line. The group sang with Paul Simon on Graceland.",
+      "why": "Isicathamiya was born among Zulu migrant workers in Johannesburg’s hostels in the 1930s and is sung on Saturday nights. It is both tender and rhythmic.",
+      "variations": [
+        "Listen with your eyes closed.",
+        "Sing the low part.",
+        "Look up how a choir competition works."
+      ]
+    },
+    {
+      "id": "remember-those-who-came-before",
+      "name": "Remember those who came before",
+      "icon": "heart",
       "slot": "Evening",
-      "action": "read"
-    },
-    {
-      "id": "task-listen-to-ladysmith-black-mambazo",
-      "name": "Listen to Ladysmith Black Mambazo",
-      "meta": "Listen · the album Shaka Zulu, 1987",
-      "time": "07:00",
-      "slot": "Morning",
-      "action": "listen"
-    },
-    {
-      "id": "task-look-at-a-zulu-beadwork-panel",
-      "name": "Look at a Zulu beadwork panel",
-      "meta": "Art · and find out what the colours say",
-      "time": "13:30",
-      "slot": "Afternoon",
-      "action": "art"
-    },
-    {
-      "id": "task-play-umlabalaba",
-      "name": "Play umlabalaba",
-      "meta": "Games · the mill game played with stones",
-      "time": "18:30",
-      "slot": "Evening",
-      "action": "games"
-    },
-    {
-      "id": "task-journal-whom-did-you-really-see-today",
-      "name": "Journal: whom did you really see today?",
-      "meta": "Journal · 10 min",
       "time": "21:00",
-      "slot": "Evening",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Before bed, name the people of your family who have died, and say one thing about each. In Zulu belief the ancestors, amadlozi, remain close and are remembered in daily life. Think of what they gave you. Say thank you quietly. If you have no names to name, think of those who have helped shape your life. The rule of this Onda is to remember those who came before.",
+      "why": "Remembering the ancestors is central in Zulu life, and respect for them guides daily conduct. A moment of remembrance gives roots.",
+      "variations": [
+        "Light a candle.",
+        "Look at old photographs.",
+        "Tell one story about a grandparent."
+      ],
       "action": "journal"
     },
     {
-      "id": "task-are-you-a-person-by-yourself-or-through-other-people",
-      "name": "Are you a person by yourself, or through other people?",
-      "meta": "Philosophy · 10 min",
-      "time": "09:00",
-      "slot": "Morning",
-      "action": "philosophy"
+      "id": "stomp-a-dance",
+      "name": "Stomp a dance",
+      "icon": "sneaker",
+      "slot": "Evening",
+      "time": "20:00",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Put on music with a strong beat and stomp a simple dance: lift your knee high and bring your foot down hard, left, right, left, right, with arms swinging, as in the Zulu indlamu. Dance for five minutes and then rest. Do not perform a ceremonial dance; just enjoy the rhythm and the feeling of the ground. Stay within your fitness and wear shoes you can stamp in.",
+      "why": "Indlamu is the Zulu war and wedding dance, with high kicks and stamping. A simple stomping step is a happy way to end the day.",
+      "variations": [
+        "Dance with a friend.",
+        "Dance outside on grass.",
+        "Learn the rhythm on a drum."
+      ]
     },
     {
-      "id": "receive-whatever-you-are-handed-today-with-both-hands",
-      "name": "Receive whatever you are handed today with both hands",
-      "meta": "Respect",
-      "time": "11:00",
-      "slot": "Morning"
+      "id": "a-work-party",
+      "name": "A work party",
+      "icon": "hammer",
+      "slot": "Special",
+      "time": "10:00",
+      "minutes": 120,
+      "meta": "On a free morning · 120 min",
+      "instructions": "Hold an ilima for a neighbour, friend or community space: invite people to help with a big job such as painting a fence, clearing a plot, planting a garden or moving furniture. Work together, sing and share a pot of food at the end. The helped person provides the meal, and everyone goes home with a story. It is the way Zulu communities have always done big jobs.",
+      "why": "Ilima is a cornerstone of rural Zulu life. A modern work party builds friendships as well as fences.",
+      "variations": [
+        "Choose a task for an elder.",
+        "Bring tools and snacks.",
+        "Take a group photo."
+      ]
     },
     {
-      "id": "give-way-to-an-older-person-and-let-them-speak-first",
-      "name": "Give way to an older person and let them speak first",
-      "meta": "Hlonipha",
-      "time": "12:00",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "share-your-food-or-drink-from-one-dish-with-those-present",
-      "name": "Share your food or drink from one dish with those present",
-      "meta": "The shared pot",
-      "time": "18:00",
-      "slot": "Evening"
-    },
-    {
-      "id": "treat-sing-in-harmony-with-someone-or-with-a-recording",
-      "name": "Sing in harmony with someone, or with a recording",
-      "meta": "Isicathamiya style: softly",
-      "time": "19:30",
-      "slot": "Evening"
-    },
-    {
-      "id": "treat-greet-the-next-three-people-fully-before-any-business",
-      "name": "Greet the next three people fully before any business",
-      "meta": "Sawubona",
-      "time": "08:30",
-      "slot": "Morning"
-    },
-    {
-      "id": "treat-stamp-out-a-rhythm-with-your-feet-for-one-song",
-      "name": "Stamp out a rhythm with your feet for one song",
-      "meta": "Dance is in the feet",
-      "time": "15:30",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "treat-string-a-few-beads-in-colours-that-say-something-to-you",
-      "name": "String a few beads in colours that say something to you",
-      "meta": "Colours carry messages",
-      "time": "15:30",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "daily-tell-a-story-with-a-chorus-to-someone",
-      "name": "Tell a story with a chorus to someone",
-      "meta": "Call and response",
-      "time": "20:30",
-      "slot": "Evening"
+      "id": "an-evening-of-song-and-dance",
+      "name": "An evening of song and dance",
+      "icon": "confetti",
+      "slot": "Special",
+      "time": "19:00",
+      "minutes": 120,
+      "meta": "On a free evening · 120 min",
+      "instructions": "Hold an evening of singing, dancing and sharing food with friends. Teach each other songs, one from each person’s background. Stomp, clap and harmonise. Cook a big pot of porridge and stew, and serve everyone. Include elders and children. End with a farewell song. The Zulu love of song makes any gathering festive.",
+      "why": "Song and dance are woven into every Zulu occasion. A shared evening of music is a gift for all.",
+      "variations": [
+        "Invite a choir member.",
+        "Play call-and-response games.",
+        "End with Hamba kahle."
+      ]
     }
   ],
-  "immersePlan": [],
+  "tasks": [],
+  "immersePlan": [
+    {
+      "kind": "read",
+      "item": "read-zulu-proverbs",
+      "name": "Read Zulu proverbs",
+      "text": "Read a handful of proverbs from C. L. S. Nyembezi’s collection. Choose one to try in a conversation today.",
+      "minutes": 15
+    },
+    {
+      "kind": "read",
+      "item": "read-let-my-people-go",
+      "name": "Read from Let My People Go",
+      "text": "Read a chapter of Chief Albert Luthuli’s 1962 autobiography, a Zulu Christian leader and Nobel Peace laureate. Notice his calm.",
+      "minutes": 25
+    },
+    {
+      "kind": "read",
+      "item": "read-emperor-shaka-the-great-a-zulu-epic",
+      "name": "Read from Emperor Shaka the Great",
+      "text": "Read a passage of Mazisi Kunene’s epic poem on Shaka, written in Zulu and rendered in English. Read it aloud for the rhythm.",
+      "minutes": 20
+    },
+    {
+      "kind": "watch",
+      "item": "watch-yesterday",
+      "name": "Watch Yesterday",
+      "text": "Watch Darrell Roodt’s 2004 film in Zulu about a rural woman who learns she has HIV and fights to see her daughter start school. It is gentle and powerful.",
+      "minutes": 96
+    },
+    {
+      "kind": "watch",
+      "item": "watch-amandla-a-revolution-in-four-part-harmony",
+      "name": "Watch Amandla",
+      "text": "Watch Lee Hirsch’s 2002 documentary on how song carried South Africans through the struggle against apartheid. Sing along to a chorus.",
+      "minutes": 100
+    },
+    {
+      "kind": "watch",
+      "item": "watch-shaka-ilembe",
+      "name": "Watch an episode of Shaka iLembe",
+      "text": "Watch an episode of the 2023 South African series on the life of Shaka, in Zulu. Notice the setting and the dress.",
+      "minutes": 45
+    },
+    {
+      "kind": "listen",
+      "item": "listen-shaka-zulu",
+      "name": "Listen to Shaka Zulu",
+      "text": "Play Ladysmith Black Mambazo’s 1987 album, produced by Paul Simon. Listen all the way through and hum the bass.",
+      "minutes": 35
+    },
+    {
+      "kind": "listen",
+      "item": "listen-thokozile",
+      "name": "Listen to Mahlathini and the Mahotella Queens",
+      "text": "Play the 1987 album by the king of mbaqanga, with a growling voice and sweet female harmonies. Dance in your chair.",
+      "minutes": 35
+    },
+    {
+      "kind": "listen",
+      "item": "listen-the-zulu-songs-of-princess-constance-magogo-kadinuzulu",
+      "name": "Listen to Princess Magogo",
+      "text": "Play the recordings of the Zulu royal, who sang and played the ugubhu bow. Listen to her voice.",
+      "minutes": 20
+    },
+    {
+      "kind": "art",
+      "item": "art-beadwork",
+      "name": "Look at Zulu beadwork",
+      "text": "Look at pictures of Zulu beadwork, necklaces, belts and love letters in beads. Find a colour code online and read a piece.",
+      "minutes": 10
+    },
+    {
+      "kind": "art",
+      "item": "art-beer-pots",
+      "name": "Look at Zulu beer pots",
+      "text": "Look at the black burnished pots with raised patterns made by potters such as Nesta Nala. Notice the shapes.",
+      "minutes": 10
+    },
+    {
+      "kind": "art",
+      "item": "art-telephone-wire-baskets",
+      "name": "Look at telephone-wire baskets",
+      "text": "Look at the brightly coloured baskets woven from discarded telephone wire. Notice how rubbish becomes beauty.",
+      "minutes": 10
+    },
+    {
+      "kind": "eat",
+      "item": "eat-uphuthu-with-amasi",
+      "name": "Make uphuthu with amasi",
+      "text": "Stir maize meal into boiling water until crumbly, and serve it with soured milk. Eat with a spoon.",
+      "minutes": 30
+    },
+    {
+      "kind": "eat",
+      "item": "eat-ujeqe",
+      "name": "Make ujeqe",
+      "text": "Steam a dough of wheat flour and yeast in a pot above water. Eat it with a stew.",
+      "minutes": 60
+    },
+    {
+      "kind": "eat",
+      "item": "eat-isijingi",
+      "name": "Make isijingi",
+      "text": "Cook maize meal with pumpkin into a soft, sweet porridge. Eat it warm.",
+      "minutes": 40
+    },
+    {
+      "kind": "drink",
+      "item": "drink-amasi",
+      "name": "Drink amasi",
+      "text": "Drink a glass of soured milk, thick and tangy, as in rural Zulu homes. Use buttermilk or kefir if you cannot find it.",
+      "minutes": 5
+    },
+    {
+      "kind": "drink",
+      "item": "drink-utshwala",
+      "name": "Learn about utshwala",
+      "text": "Utshwala is sorghum beer, shared from a common pot in rural homes in set order. Read about it and drink a glass of sorghum or maize porridge drink instead.",
+      "minutes": 15
+    },
+    {
+      "kind": "drink",
+      "item": "drink-amahewu",
+      "name": "Drink amahewu",
+      "text": "Drink a glass of amahewu, a lightly soured maize drink, cold from the bottle or home-made. Notice its tang.",
+      "minutes": 10
+    },
+    {
+      "kind": "customs",
+      "item": "customs-receiving-with-both-hands",
+      "name": "Receive with both hands",
+      "text": "Give and receive everything with both hands today, and say thank you.",
+      "minutes": 5
+    },
+    {
+      "kind": "customs",
+      "item": "customs-greeting-by-clan-name",
+      "name": "Greet by clan name",
+      "text": "Learn about clan names, isibongo, and praise names. Greet someone with a respectful name or title today.",
+      "minutes": 10
+    },
+    {
+      "kind": "customs",
+      "item": "customs-not-looking-an-elder-in-the-eye",
+      "name": "Show respect to an elder with your gaze",
+      "text": "Learn why some Zulu people lower their gaze before an elder. Try gentler eye contact with an older person.",
+      "minutes": 5
+    },
+    {
+      "kind": "games",
+      "item": "games-umlabalaba",
+      "name": "Play umlabalaba",
+      "text": "Play the southern African three-in-a-row game on a drawn board with pebbles, forming mills to capture your friend’s pieces.",
+      "minutes": 25
+    },
+    {
+      "kind": "games",
+      "item": "games-ingqathu",
+      "name": "Skip together",
+      "text": "Skip with a long rope swung by two friends and chant a rhyme or song as you jump in, taking turns.",
+      "minutes": 15
+    },
+    {
+      "kind": "games",
+      "item": "games-amagende",
+      "name": "Play amagende",
+      "text": "Play a stone game: toss stones in the air and catch them, picking up others. Use pebbles and play with a friend.",
+      "minutes": 15
+    },
+    {
+      "kind": "travel",
+      "item": "fest-heritage-day",
+      "name": "Mark Heritage Day",
+      "text": "Heritage Day, 24 September, is South Africa’s national day of culture, also called Braai Day. Share a meal and a story of your heritage.",
+      "minutes": 30
+    },
+    {
+      "kind": "travel",
+      "item": "fest-the-reed-dance",
+      "name": "Learn about the Reed Dance",
+      "text": "Read about the Umhlanga, where thousands of young women carry reeds to the royal household in September. Respect it as a Zulu cultural event.",
+      "minutes": 15
+    },
+    {
+      "kind": "travel",
+      "item": "place-ondini",
+      "name": "Look up Ondini",
+      "text": "Look at pictures of King Cetshwayo’s royal homestead at Ulundi, reconstructed with beehive huts. Imagine the daily life.",
+      "minutes": 10
+    },
+    {
+      "kind": "words",
+      "item": "word-sawubona",
+      "name": "Practise sawubona",
+      "text": "Sawubona means I see you. Greet three people today by really seeing them.",
+      "minutes": 5
+    },
+    {
+      "kind": "words",
+      "item": "word-ubuntu",
+      "name": "Practise ubuntu",
+      "text": "Ubuntu means a person is a person through other persons. Do something today that you could only do with others.",
+      "minutes": 10
+    },
+    {
+      "kind": "words",
+      "item": "word-hlonipha",
+      "name": "Practise hlonipha",
+      "text": "Hlonipha is respect. Show special respect to one person today.",
+      "minutes": 5
+    }
+  ],
   "rules": [
     {
       "id": "r1",

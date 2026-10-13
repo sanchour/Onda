@@ -361,6 +361,11 @@ export function WhatsNewSheet({ entry }: E<'whatsNew'>) {
   return (
     <AppSheet entry={entry} title={t('whatsNew.title')} detent={0.8}>
       <div style={{ padding: '8px 0 40px' }}>
+        <ListSection header={`${t('whatsNew.v60')} · ${t('whatsNew.v60date')}`}>
+          <ListRow icon="sparkle" title={t('whatsNew.v60a')} accessory="none" />
+          <ListRow icon="calendar-check" title={t('whatsNew.v60b')} accessory="none" />
+          <ListRow icon="headphones" title={t('whatsNew.v60c')} accessory="none" />
+        </ListSection>
         <ListSection header={`${t('whatsNew.v521')} · ${t('whatsNew.v521date')}`}>
           <ListRow icon="repeat" title={t('whatsNew.v521a')} accessory="none" />
           <ListRow icon="headphones" title={t('whatsNew.v521b')} accessory="none" />

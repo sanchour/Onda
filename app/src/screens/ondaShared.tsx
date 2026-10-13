@@ -97,7 +97,7 @@ export interface PracticeInfo {
 }
 
 /** Tap ticks the practice. Holding it (or a right click) opens a small menu with "How to do this". */
-export function PracticeRow({ p, done, onToggle, small, info, twist, note, open }: { p: Pick<Practice, 'id' | 'name' | 'icon' | 'meta'>; done: boolean; onToggle: () => void; small?: boolean; info?: PracticeInfo; twist?: string; note?: string; open?: { label: string; icon: string; onClick: () => void } }) {
+export function PracticeRow({ p, done, onToggle, small, info, twist, note, open }: { p: Pick<Practice, 'id' | 'name' | 'icon' | 'meta'>; done: boolean; onToggle: () => void; small?: boolean; info?: PracticeInfo; twist?: string; note?: string; open?: { label: string; icon: string; onClick: () => void; holdOnly?: boolean } }) {
   const { t } = useTranslation()
   const ref = useRef<HTMLButtonElement>(null)
   const press = useRef<{ timer?: ReturnType<typeof setTimeout>; fired: boolean; x: number; y: number }>({ fired: false, x: 0, y: 0 })
@@ -126,7 +126,7 @@ export function PracticeRow({ p, done, onToggle, small, info, twist, note, open 
       role="checkbox"
       aria-checked={done}
       aria-haspopup={held ? 'menu' : undefined}
-      className={[o.pRow, small ? o.pRowSm : '', open ? o.pRowOpen : ''].join(' ')}
+      className={[o.pRow, small ? o.pRowSm : '', open && !open.holdOnly ? o.pRowOpen : ''].join(' ')}
       onPointerDown={(e) => {
         if (!held) return
         const st = press.current
@@ -178,7 +178,7 @@ export function PracticeRow({ p, done, onToggle, small, info, twist, note, open 
         {note && <span className={o.pNote} style={{ display: 'block' }}>{note}</span>}
       </span>
     </button>
-    {open && (
+    {open && !open.holdOnly && (
       <button type="button" className={o.pOpen} aria-label={`${open.label}: ${p.name}`} onClick={open.onClick}>
         <Icon name={open.icon} weight="bold" size={18} />
       </button>
@@ -192,7 +192,7 @@ export function PracticeRow({ p, done, onToggle, small, info, twist, note, open 
 export function PlanList({ plan, done, onToggle, small, info, runId }: { plan: DayPractice[]; done: Set<string>; onToggle: (id: string) => void; small?: boolean; info: PracticeInfo; runId?: string }) {
   const { t } = useTranslation()
   const open = (p: DayPractice) => {
-    if (p.item) return { label: t('plan.open'), icon: 'arrow-up-right', onClick: () => nav().openSheet({ name: 'mediaInfo', item: p.item!, ondaId: info.ondaId, runId, note: p.note }) }
+    if (p.item) return { holdOnly: true, label: t('plan.open'), icon: 'arrow-up-right', onClick: () => nav().openSheet({ name: 'mediaInfo', item: p.item!, ondaId: info.ondaId, runId, note: p.note }) }
     if (!p.action || !runId) return undefined
     const a = p.action
     return { label: t(`ondas.go.${a}`), icon: 'caret-right', onClick: () => (a === 'journal' ? nav().push({ name: 'journal' }) : a === 'philosophy' ? nav().push({ name: 'philosophy' }) : nav().push({ name: 'immersion', kind: a as MediaKind })) }
@@ -205,7 +205,7 @@ export function PlanList({ plan, done, onToggle, small, info, runId }: { plan: D
           small={small}
           p={{ id: p.id, icon: p.icon, name: p.lead ? `${t(`plan.lead.${p.lead}`)}: ${p.name}` : p.name, meta: p.kind === 'immerse' && p.item ? [t('plan.immerse'), p.meta].filter(Boolean).join(' · ') : p.meta }}
           twist={p.twist}
-          note={p.note}
+          note={p.item ? undefined : p.note}
           done={done.has(p.id)}
           onToggle={() => onToggle(p.id)}
           info={p.practiceId ? info : undefined}

@@ -765,7 +765,7 @@ Nothing is marked `unverified`.
 
 ## Johor Sultanate
 
-File: `content/ondas/johor.json` · version 1 · about 5700 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
+File: `content/ondas/johor.json` · version 1 · about 7300 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
 
 **Needs review by tradition bearers before launch.** The Johor Sultanate is a living monarchy and Malay culture is a living culture, shared across Malaysia, Singapore, Indonesia and Brunei. This Onda borrows everyday courtesies and verse forms. It is written by outsiders and should be checked by Malay readers.
 
@@ -782,7 +782,7 @@ Marked `unverified` (1):
 
 ## Inca Empire
 
-File: `content/ondas/inca.json` · version 1 · about 5700 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
+File: `content/ondas/inca.json` · version 1 · about 7400 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
 
 **Needs review by tradition bearers before launch.** The Inca state ended in the sixteenth century. The Andean way of life it drew on is that of millions of Quechua and Aymara people today. This Onda borrows everyday practices of reciprocity and thanks. It is written by outsiders and needs review by Andean readers.
 
@@ -799,7 +799,7 @@ Marked `unverified` (1):
 
 ## Habsburg Monarchy
 
-File: `content/ondas/habsburg.json` · version 1 · about 5400 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
+File: `content/ondas/habsburg.json` · version 1 · about 7100 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
 
 Framing note shown in the app: The Habsburg Monarchy is remembered fondly in some of its former lands and resentfully in others. This Onda borrows the civil habits of its towns. It is partly a portrait of a world seen through nostalgia, and says so.
 
@@ -808,7 +808,7 @@ Nothing is marked `unverified`.
 
 ## Holy Roman Empire
 
-File: `content/ondas/hre.json` · version 1 · about 5700 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
+File: `content/ondas/hre.json` · version 1 · about 7400 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
 
 Framing note shown in the app: This Onda draws on the civic and monastic life of the old Empire’s towns. That life was Christian through and through, and the practices keep its shape while leaving belief to you. The Empire’s history also includes much that should not be imitated.
 
@@ -817,7 +817,7 @@ Nothing is marked `unverified`.
 
 ## The 1960s
 
-File: `content/ondas/sixties.json` · version 1 · about 5500 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
+File: `content/ondas/sixties.json` · version 1 · about 7100 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
 
 Framing note shown in the app: This Onda draws on the methods of the movements of the 1960s. People were beaten, jailed and killed for what is described here, and many who took part are still alive. The practices are offered with respect for them, and are not a costume.
 
@@ -826,7 +826,7 @@ Nothing is marked `unverified`.
 
 ## The Renaissance
 
-File: `content/ondas/renaissance.json` · version 1 · about 5100 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
+File: `content/ondas/renaissance.json` · version 1 · about 6700 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
 
 Framing note shown in the app: This Onda borrows the working habits of Renaissance artists and scholars. The picture of a golden age is partly the period’s own invention, and it is worth holding it together with the facts below.
 
@@ -853,7 +853,7 @@ Marked `unverified` (1):
 
 ## Aboriginal Australian
 
-File: `content/ondas/aboriginal.json` · version 1 · about 5800 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
+File: `content/ondas/aboriginal.json` · version 1 · about 7400 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
 
 **Needs review by tradition bearers before launch.** Aboriginal and Torres Strait Islander readers are advised that this Onda contains the names of people who have died. It was written by outsiders from published sources and uses only what Aboriginal teachers have shared publicly. It should be reviewed by Aboriginal readers.
 
@@ -869,7 +869,7 @@ Nothing is marked `unverified`.
 
 ## Frisian
 
-File: `content/ondas/frisian.json` · version 1 · about 5500 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
+File: `content/ondas/frisian.json` · version 1 · about 7000 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
 
 **Needs review by tradition bearers before launch.** Frisians are a living people and a recognised national minority in the Netherlands and Germany. This Onda was written from published sources, mostly about West Friesland, and Frisian readers are warmly invited to correct it.
 
@@ -887,7 +887,7 @@ Marked `unverified` (2):
 
 ## Polynesian
 
-File: `content/ondas/polynesia.json` · version 1 · about 5000 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
+File: `content/ondas/polynesia.json` · version 1 · about 6700 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
 
 **Needs review by tradition bearers before launch.** Polynesia is many living nations, each with its own language and customs. This Onda was written by outsiders from published sources. It draws on shared values, names the people each word belongs to, and should be reviewed by Polynesian readers.
 
@@ -903,7 +903,7 @@ Nothing is marked `unverified`.
 
 ## Melanesian
 
-File: `content/ondas/melanesia.json` · version 1 · about 5400 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
+File: `content/ondas/melanesia.json` · version 1 · about 7000 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
 
 **Needs review by tradition bearers before launch.** Melanesia holds more than a thousand distinct peoples, and no summary can speak for them. This Onda was written by outsiders from published sources, draws on everyday values held widely across the region, and should be reviewed by Melanesian readers.
 
@@ -919,7 +919,7 @@ Nothing is marked `unverified`.
 
 ## Micronesian
 
-File: `content/ondas/micronesia.json` · version 1 · about 5400 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
+File: `content/ondas/micronesia.json` · version 1 · about 7000 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
 
 **Needs review by tradition bearers before launch.** Micronesia is a label that outsiders gave to many distinct peoples. This Onda was written from published sources, names the language and island each word comes from, and should be reviewed by Micronesian readers.
 
@@ -936,7 +936,7 @@ Marked `unverified` (1):
 
 ## Zulu
 
-File: `content/ondas/zulu.json` · version 1 · about 4900 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
+File: `content/ondas/zulu.json` · version 1 · about 6600 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
 
 **Needs review by tradition bearers before launch.** The Zulu are a living nation of some thirteen million people. This Onda was written by outsiders from published sources and borrows only everyday manners and arts. It should be reviewed by Zulu readers.
 
@@ -953,7 +953,7 @@ Marked `unverified` (1):
 
 ## Bantu
 
-File: `content/ondas/bantu.json` · version 1 · about 5000 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
+File: `content/ondas/bantu.json` · version 1 · about 6700 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
 
 **Needs review by tradition bearers before launch.** Bantu is a family of languages spoken by hundreds of different peoples, and there is no single Bantu culture. This Onda gathers habits that are widely shared, names the language of every word and proverb, and should be reviewed by speakers of those languages.
 
@@ -969,7 +969,7 @@ Nothing is marked `unverified`.
 
 ## Khmer Empire
 
-File: `content/ondas/khmer.json` · version 1 · about 5300 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
+File: `content/ondas/khmer.json` · version 1 · about 6900 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
 
 **Needs review by tradition bearers before launch.** The Khmer Empire is the past of a living nation, and its temples are places of worship today. This Onda was written by outsiders from published sources and draws on the public record of Jayavarman VII and on everyday Cambodian Buddhist custom. It should be reviewed by Cambodian readers.
 
@@ -985,7 +985,7 @@ Nothing is marked `unverified`.
 
 ## Celtic
 
-File: `content/ondas/celtic.json` · version 1 · about 5400 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
+File: `content/ondas/celtic.json` · version 1 · about 7100 words · 30 words of vocabulary, 30 journal prompts, 14 history entries, 9 concepts, 6 sources.
 
 **Needs review by tradition bearers before launch.** The Celtic languages and their communities are alive, and each of the six nations has its own history. This Onda was written from published sources and keeps to what is attested in old texts and living custom. Speakers of the languages are invited to correct it.
 

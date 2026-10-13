@@ -299,17 +299,17 @@
     {
       "id": "budi-bahasa",
       "name": "Gentle speech",
-      "icon": "hand-heart",
+      "icon": "chat-teardrop",
       "slot": "Morning",
       "time": "08:00",
       "minutes": 5,
       "meta": "Morning · 5 min",
-      "instructions": "Before you speak to anyone today, decide how you will speak. Greet each person first. Touch your hand lightly to your chest as you do it. Use their name or a term of respect. Keep your voice low and your words soft, especially when you disagree or must refuse. Say nothing that would make another person lose face in front of others. If you have to correct someone, do it alone and indirectly.",
-      "why": "Malay culture places budi bahasa, courtesy in speech and conduct, above cleverness. The court of Johor and Riau made refined language an art, and Raja Ali Haji wrote that good breeding is known by manners and words. To shame a person publicly was the one thing a ruler had sworn never to do.",
+      "instructions": "Before you speak to anyone today, decide how you will speak. Greet each person first. Touch your hand lightly to your chest as you do it. Use their name or a term of respect. Keep your voice low and your words soft, especially when you disagree. The rule of this Onda is to speak softly.",
+      "why": "Budi bahasa, grace in manners and language, is the Malay ideal of speech. To be loud or blunt is to lack halus, refinement.",
       "variations": [
-        "Refuse one request today without using the word no.",
-        "Address every older person with a title.",
-        "Notice each time your voice rises, and lower it."
+        "Lower your voice a notch for the whole day.",
+        "Use a respectful title for an elder.",
+        "Say no gently, with a reason."
       ]
     },
     {
@@ -320,28 +320,172 @@
       "time": "10:00",
       "minutes": 10,
       "meta": "Morning · 10 min",
-      "instructions": "Write one pantun. It has four lines of eight to twelve syllables, rhyming first with third and second with fourth. Lines one and two are the shadow: an image from what is in front of you, a tree, a boat, the weather, food. Lines three and four are the meaning: the thing you want to say, about love, thanks, advice or a joke. The image should hint at the meaning without explaining it. Say it aloud to someone today.",
-      "why": "The pantun is the oldest and best loved form of Malay verse. People traded them at harvest, in courtship and at weddings, each speaker answering the last. Thousands survive, and the form travelled to France and England as the pantoum.",
+      "instructions": "Write one pantun. It has four lines of eight to twelve syllables, rhyming first with third and second with fourth. Lines one and two are the shadow: an image from what is in front of you, a tree, a boat, the weather, food. Lines three and four are the meaning: a thought or a wish. Read it aloud. It may be playful, loving or wise.",
+      "why": "The pantun is the best-loved Malay verse, shared at weddings, in courtship and in everyday talk. Its two halves, picture and meaning, are a form of wit.",
       "variations": [
-        "Answer someone else’s pantun with one of your own.",
-        "Learn the golden bananas pantun by heart.",
-        "Give thanks to someone in verse."
+        "Write one for a friend.",
+        "Answer a pantun with a pantun.",
+        "Write it on a card."
+      ]
+    },
+    {
+      "id": "the-salam",
+      "name": "The salam",
+      "icon": "hand-heart",
+      "slot": "Morning",
+      "time": "07:30",
+      "minutes": 3,
+      "meta": "Morning · 3 min",
+      "instructions": "Greet each older person you meet today with the salam: take their hand lightly in both of yours, draw it to your own chest, and say good morning. Do not squeeze or shake. If you are not touching, bring your hand to your heart. It is a gesture of warmth and respect, hands first and then the heart.",
+      "why": "The Malay salam is a gentle, two-handed greeting that ends at the heart. It shows respect, particularly to elders.",
+      "variations": [
+        "Greet your oldest relative this way.",
+        "Use it when you thank someone.",
+        "Teach it to a child."
+      ]
+    },
+    {
+      "id": "tea-and-kuih",
+      "name": "Tea and kuih",
+      "icon": "coffee",
+      "slot": "Morning",
+      "time": "07:00",
+      "minutes": 15,
+      "meta": "Morning · 15 min",
+      "instructions": "Make teh tarik, strong tea with condensed milk, pulled between two jugs until frothy, and eat it with a small kuih, a bite-sized sweet cake, such as kuih lapis or onde-onde. Sit at the table and share the tea with someone. The pulling cools the tea and makes it creamy. Enjoy the ritual.",
+      "why": "Teh tarik is the national drink of Malaysia, and morning tea with kuih is a cherished custom. It is a simple, sociable start to the day.",
+      "variations": [
+        "Pull the tea three times between cups.",
+        "Share the kuih with a neighbour.",
+        "Try a new kuih each week."
+      ]
+    },
+    {
+      "id": "make-the-house-ready-for-a-guest",
+      "name": "Make the house ready for a guest",
+      "icon": "house",
+      "slot": "Morning",
+      "time": "08:30",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Sweep, wipe the table and put out a clean mat or cushion in your main room, in case someone calls today. Keep a jug of water and a plate of something small ready. Malay houses are kept open and ready for visitors, and a guest is received with the best you have. Make your space welcoming.",
+      "why": "A Malay house is always ready for visitors, and hospitality is a duty. Preparing for a guest, even an imaginary one, brings a welcome feeling.",
+      "variations": [
+        "Put out a vase of flowers.",
+        "Keep a tin of biscuits.",
+        "Invite someone round."
+      ]
+    },
+    {
+      "id": "one-malay-word",
+      "name": "One Malay word",
+      "icon": "translate",
+      "slot": "Morning",
+      "time": "09:00",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Learn one Malay word today and use it three times: terima kasih, thank you; selamat pagi, good morning; maaf, sorry; sama-sama, you are welcome; tolong, please help. Malay is spoken by more than 280 million people across Malaysia, Indonesia, Brunei and Singapore. Try it on someone.",
+      "why": "Malay is a friendly, regular language, easy to start. A single word a day builds confidence quickly.",
+      "variations": [
+        "Learn the numbers to ten.",
+        "Learn how to say your name.",
+        "Say thank you in Malay to a Malay speaker."
       ]
     },
     {
       "id": "gotong-royong",
       "name": "Work with your neighbours",
-      "icon": "handshake",
+      "icon": "users-three",
       "slot": "Afternoon",
       "time": "16:30",
       "minutes": 30,
       "meta": "Afternoon · 30 min",
-      "instructions": "Give half an hour to a job that belongs to everyone or to someone else on your street. Sweep a shared stair, clear a drain, tidy a common garden, carry for an older neighbour, cook for a family with a new baby or a death. Ask others to join you. Bring food or drink to share when the work is done. Keep no account.",
-      "why": "Gotong-royong, carrying together, is how Malay villages built houses, planted rice and prepared feasts. A kenduri for a wedding might feed a thousand people, with every household sending hands, pots and firewood. The custom is still called on in Malaysia, Singapore and Indonesia for clean-ups and celebrations.",
+      "instructions": "Give half an hour to a job that belongs to everyone or to someone else on your street. Sweep a shared stair, clear a drain, tidy a common garden, carry for an older neighbour, cook for a family with a new baby or a death. Do it alongside others if you can, and do not make a fuss. The rule of this Onda is to do your share of the common work.",
+      "why": "Gotong-royong, communal work, is the Malay tradition of neighbours lifting a house, clearing a road or preparing a feast together. It is the root of community.",
       "variations": [
-        "Organise a clean-up of one shared space this month.",
-        "Lend something before you are asked.",
-        "When someone near you is celebrating or grieving, turn up and find a job."
+        "Join a neighbourhood clean-up.",
+        "Ask a neighbour if they need help.",
+        "Cook a dish for a shared meal."
+      ]
+    },
+    {
+      "id": "a-game-of-congkak",
+      "name": "A game of congkak",
+      "icon": "cube",
+      "slot": "Afternoon",
+      "time": "14:30",
+      "minutes": 25,
+      "meta": "Afternoon · 25 min",
+      "instructions": "Play congkak, the Malay sowing game, with a friend. The board has two rows of small holes and a large store at each end. Players pick up seeds and sow them one by one round the board, capturing as they go. Use a congkak board, or two egg boxes and a handful of beads. Play a few rounds.",
+      "why": "Congkak has been played in the Malay world for centuries. It is a quick game of counting and planning, loved by children and adults.",
+      "variations": [
+        "Make a board from egg cartons.",
+        "Teach a child.",
+        "Play a speed round."
+      ]
+    },
+    {
+      "id": "keep-the-ball-up",
+      "name": "Keep the ball up",
+      "icon": "person-simple-throw",
+      "slot": "Afternoon",
+      "time": "17:00",
+      "minutes": 20,
+      "meta": "Afternoon · 20 min",
+      "instructions": "Play sepak raga with friends: stand in a circle and keep a light ball up with your feet, knees, shoulders and head, but not your hands. Count the passes. Use a rattan ball, a hacky sack or a light beach ball. Sepak raga has been played in the Malay world since at least the 15th century. Go gently and laugh at the misses.",
+      "why": "Sepak raga is an old Malay ball game that survives as the sport sepak takraw. The circle version is friendly and acrobatic.",
+      "variations": [
+        "Count to fifty as a group.",
+        "Play in bare feet on grass.",
+        "Add a net for a game."
+      ]
+    },
+    {
+      "id": "five-stones",
+      "name": "Five stones",
+      "icon": "circle",
+      "slot": "Afternoon",
+      "time": "15:30",
+      "minutes": 15,
+      "meta": "Afternoon · 15 min",
+      "instructions": "Play batu seremban, a children’s game with five small stones. Throw the stones, pick one and toss it up, then gather the others before catching it. Then do it with two at a time, and so on. Use pebbles or beanbags. It is a game of hand skill passed from one generation to the next. Play with a child or a friend.",
+      "why": "Batu seremban is a village game played by girls and boys across the Malay world. It trains the hand and eye.",
+      "variations": [
+        "Time yourself on the full round.",
+        "Teach a child the game.",
+        "Invent a new level."
+      ]
+    },
+    {
+      "id": "spin-a-top",
+      "name": "Spin a top",
+      "icon": "tornado",
+      "slot": "Afternoon",
+      "time": "16:00",
+      "minutes": 20,
+      "meta": "Afternoon · 20 min",
+      "instructions": "Spin a top, gasing, as Malay villagers did in contests after harvest. Use a wooden top with a string, or a modern one. Wind the string and throw it so that it spins on the ground. See whose lasts longest. Spinning contests used tops weighing several kilos, with their spin measured in minutes. Play outdoors on a flat surface.",
+      "why": "Gasing, top spinning, is a Malay pastime that grew into serious competition. A small top is easy to find and fun.",
+      "variations": [
+        "Hold a spinning contest.",
+        "Spin on a plate.",
+        "Look up the world records."
+      ]
+    },
+    {
+      "id": "weave-a-paper-mat",
+      "name": "Weave a paper mat",
+      "icon": "grains",
+      "slot": "Afternoon",
+      "time": "15:00",
+      "minutes": 25,
+      "meta": "Afternoon · 25 min",
+      "instructions": "Weave a small mat from strips of paper, the way mats of pandan leaf are woven in Malay villages. Cut strips of equal width in two colours. Lay half side by side and weave the others over and under. Glue the edges. Pandan weaving is a craft passed from mother to daughter, used for mats, baskets and bags.",
+      "why": "Anyaman, weaving with pandan, rattan or bamboo, is a Malay craft of long standing. A paper version teaches the over-under pattern.",
+      "variations": [
+        "Make a coaster or placemat.",
+        "Weave a small basket.",
+        "Try diagonal patterns."
       ]
     },
     {
@@ -352,12 +496,12 @@
       "time": "19:00",
       "minutes": 30,
       "meta": "Evening · 30 min",
-      "instructions": "Share the evening meal. Set rice in the middle with a few dishes around it, and sit together, on a mat on the floor if you can. Wash your hands. Let the eldest begin. Take a little of each dish on to your rice and eat with the fingers of the right hand, or with a spoon. Serve others before taking more yourself. Leave the last piece for someone else. Talk quietly, and thank the cook.",
-      "why": "A Malay meal is one of rice with shared dishes, eaten with the right hand after washing from a spouted water vessel. Manners at the mat were part of a child’s first training: take what is nearest, do not reach across, wait for your elders.",
+      "instructions": "Share the evening meal. Set rice in the middle with a few dishes around it, and sit together, on a mat on the floor if you can. Wash your hands. Let the eldest begin. Take a little of each dish on to your rice and eat with your right hand, if you are comfortable doing so; otherwise use a spoon in your right hand. Pass dishes with the right hand and take only what you will finish. Honour your elders.",
+      "why": "Malay meals are shared from common dishes, with rice at the centre. Eating together, elders first, is a basic courtesy.",
       "variations": [
-        "Cook one Johor dish, such as laksa Johor.",
-        "Invite a neighbour to the mat.",
-        "Send a plate next door before you sit down."
+        "Eat on the floor.",
+        "Serve the eldest first.",
+        "Cook a Malay dish together."
       ]
     },
     {
@@ -368,129 +512,325 @@
       "time": "21:00",
       "minutes": 10,
       "meta": "Evening · 10 min",
-      "instructions": "Read one couplet of Raja Ali Haji’s Twelve Gurindam, in Malay if you can and in translation if not. Read it twice, aloud. Then hold the day up to it. The third section alone will last a week: it speaks of guarding the eyes, the ears, the tongue, the hands, the stomach and the feet. Take the one for today and ask plainly how you did. Write one line.",
-      "why": "The Gurindam Dua Belas was written in 1847 on the island of Penyengat, seat of the Johor-Riau viceroys, by the greatest scholar of the Malay world. Its twelve sections of rhyming couplets cover faith, self-knowledge, family, friendship and the duties of rulers, and Malay schoolchildren still learn them.",
+      "instructions": "Read one couplet of Raja Ali Haji’s Twelve Gurindam, in Malay if you can and in translation if not. Read it twice, aloud. Then hold the day up to it. The third section alone will last a week: it speaks of guarding the eyes, ears, tongue and heart. Pick the couplet you most need, and sleep on it.",
+      "why": "The Gurindam Dua Belas, written in 1847 on Penyengat Island, is a famous book of twelve chapters of moral advice in rhyming couplets. Each line is a short lesson.",
       "variations": [
-        "Memorise one couplet a week.",
-        "Copy it out by hand, in Jawi if you are learning the script.",
-        "Write a gurindam of your own: if this, then that."
-      ]
-    }
-  ],
-  "tasks": [
-    {
-      "id": "task-read-the-covenant-between-ruler-and-people-in-the-malay-annals",
-      "name": "Read the covenant between ruler and people in the Malay Annals",
-      "meta": "Read · Sejarah Melayu, chapter 2",
-      "time": "20:00",
-      "slot": "Evening",
-      "action": "read"
-    },
-    {
-      "id": "task-listen-to-a-set-of-ghazal-johor",
-      "name": "Listen to a set of ghazal Johor",
-      "meta": "Listen · harmonium, gambus, violin and tabla",
-      "time": "17:30",
-      "slot": "Afternoon",
-      "action": "listen"
-    },
-    {
-      "id": "task-watch-hang-tuah-with-p-ramlee",
-      "name": "Watch Hang Tuah, with P. Ramlee",
-      "meta": "Watch · 1956, the first Malay film in colour",
-      "time": "20:30",
-      "slot": "Evening",
-      "action": "watch"
-    },
-    {
-      "id": "task-play-congkak",
-      "name": "Play congkak",
-      "meta": "Games · seven houses a side",
-      "time": "15:00",
-      "slot": "Afternoon",
-      "action": "games"
-    },
-    {
-      "id": "task-journal-whose-kindness-are-you-carrying-and-how-will-you-honour-it",
-      "name": "Journal: whose kindness are you carrying, and how will you honour it?",
-      "meta": "Journal · 10 min",
-      "time": "21:30",
-      "slot": "Evening",
+        "Copy the couplet in a notebook.",
+        "Learn one by heart.",
+        "Read one to a child."
+      ],
       "action": "journal"
     },
     {
-      "id": "task-loyalty-or-justice-was-hang-tuah-right-or-hang-jebat",
-      "name": "Loyalty or justice: was Hang Tuah right, or Hang Jebat?",
-      "meta": "Philosophy · 10 min",
-      "time": "09:00",
-      "slot": "Morning",
-      "action": "philosophy"
+      "id": "berbalas-pantun",
+      "name": "Berbalas pantun",
+      "icon": "chats",
+      "slot": "Evening",
+      "time": "20:00",
+      "minutes": 20,
+      "meta": "Evening · 20 min",
+      "instructions": "Hold a pantun exchange with a friend, berbalas pantun. One person recites a pantun, and the other must reply with one that answers it in meaning and rhyme. Take turns and be playful. At weddings and festivals this can last hours. Start with a pantun of greeting and end with one of farewell. Let it get cheeky and keep it kind.",
+      "why": "Berbalas pantun is a lively Malay tradition of verse repartee. It trains quick wit and affection.",
+      "variations": [
+        "Exchange pantun by text.",
+        "Do it at dinner.",
+        "Do it with a child, simple rhymes."
+      ]
     },
     {
-      "id": "repay-one-kindness-today-knowing-it-cannot-be-repaid",
-      "name": "Repay one kindness today, knowing it cannot be repaid",
-      "meta": "A debt of budi",
-      "time": "11:30",
-      "slot": "Morning"
+      "id": "listen-to-zapin",
+      "name": "Listen to zapin",
+      "icon": "music-note",
+      "slot": "Evening",
+      "time": "20:30",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Play zapin, the Malay dance music of Johor, with its gambus lute, drums and fast rhythms. Or play Ghazal Johor, with its violin and harmonium. Sit still and listen, or tap along. Zapin came with Arab traders and became a Malay art. It is lively and warm.",
+      "why": "Zapin and ghazal are the music of Johor’s court and villages. They show the meeting of Arab, Malay and Indian influences.",
+      "variations": [
+        "Dance a few steps.",
+        "Listen to P. Ramlee afterwards.",
+        "Look at a picture of the gambus."
+      ]
     },
     {
-      "id": "take-off-your-shoes-at-the-door-and-offer-every-visitor-a-drink",
-      "name": "Take off your shoes at the door and offer every visitor a drink",
-      "meta": "Welcome",
-      "time": "13:00",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "follow-the-custom-of-the-place-you-are-in-even-where-it-is-not-yours",
-      "name": "Follow the custom of the place you are in, even where it is not yours",
-      "meta": "Where you tread, hold up the sky",
-      "time": "14:00",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "treat-offer-a-guest-a-drink-before-they-sit-down",
-      "name": "Offer a guest a drink before they sit down",
-      "meta": "Every guest",
-      "time": "15:30",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "treat-trade-two-lines-of-rhyme-with-someone-back-and-forth",
-      "name": "Trade two lines of rhyme with someone, back and forth",
-      "meta": "A pantun starts this way",
+      "id": "a-tale-of-hang-tuah",
+      "name": "A tale of Hang Tuah",
+      "icon": "scroll",
+      "slot": "Evening",
       "time": "19:30",
-      "slot": "Evening"
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Tell or read a story of Hang Tuah, the legendary Malay admiral and friend of the Sultan of Melaka. Choose a short one, such as the duel with his friend Hang Jebat or his trip to China. Tell it with gestures. Ask the listeners what they would have done. Loyalty and friendship clash in these tales.",
+      "why": "The Hikayat Hang Tuah is the great Malay epic. Its stories of loyalty and betrayal have been retold for centuries.",
+      "variations": [
+        "Tell it to a child.",
+        "Watch an old film of it.",
+        "Discuss who was right."
+      ]
     },
     {
-      "id": "treat-cook-something-with-coconut-milk-and-share-it",
-      "name": "Cook something with coconut milk and share it",
-      "meta": "Rice is the easy choice",
-      "time": "19:30",
-      "slot": "Evening"
+      "id": "tea-on-the-veranda",
+      "name": "Tea on the veranda",
+      "icon": "armchair",
+      "slot": "Evening",
+      "time": "18:30",
+      "minutes": 25,
+      "meta": "Evening · 25 min",
+      "instructions": "Sit on a veranda, step or balcony with a glass of tea and watch the evening come. Greet passers-by and chat with neighbours. In a Malay kampung the front porch is the living room of the street. Sit without a screen and see who comes by. Offer tea.",
+      "why": "The veranda, serambi, is where Malay social life happens. Sitting out in the evening builds neighbourliness.",
+      "variations": [
+        "Bring out a plate of fruit.",
+        "Sit with an elder.",
+        "Listen to the evening birds."
+      ]
     },
     {
-      "id": "treat-wear-a-sarong-or-your-softest-clothes-at-home",
-      "name": "Wear a sarong or your softest clothes at home",
-      "meta": "Comfort is a custom",
-      "time": "19:30",
-      "slot": "Evening"
+      "id": "a-kenduri-for-neighbours",
+      "name": "A kenduri for neighbours",
+      "icon": "cooking-pot",
+      "slot": "Special",
+      "time": "17:00",
+      "minutes": 120,
+      "meta": "On a free afternoon · 120 min",
+      "instructions": "Hold a small kenduri, a communal feast, for neighbours. Cook a big pot of rice and a couple of dishes, or ask everyone to bring one. Spread mats, wash hands and begin with a thank-you. Serve the elders first and eat together. Send a packet home with every guest. A kenduri marks births, weddings and good news, and the work is shared.",
+      "why": "The kenduri is the Malay feast, a shared meal that marks every important event. Preparing it together is gotong-royong at its best.",
+      "variations": [
+        "Ask each household for a dish.",
+        "Cook nasi lemak.",
+        "Share the washing up."
+      ]
     },
     {
-      "id": "daily-say-one-pantun-to-yourself-over-breakfast",
-      "name": "Say one pantun to yourself over breakfast",
-      "meta": "Two lines of hint, two of meaning",
-      "time": "07:15",
-      "slot": "Morning"
-    },
-    {
-      "id": "daily-share-your-lunch-or-a-drink-with-a-colleague-or-a-neighbour",
-      "name": "Share your lunch or a drink with a colleague or a neighbour",
-      "meta": "Johor was a trading court",
-      "time": "14:00",
-      "slot": "Afternoon"
+      "id": "a-kampung-games-afternoon",
+      "name": "A kampung games afternoon",
+      "icon": "trophy",
+      "slot": "Special",
+      "time": "15:00",
+      "minutes": 120,
+      "meta": "On a free afternoon · 120 min",
+      "instructions": "Hold an afternoon of kampung games in a yard or park: congkak, batu seremban, sepak raga, gasing, and a tug of war. Invite children and grown-ups. Give out small prizes to everyone. Serve iced drinks and fried snacks. These were the games of Malay village festivals. Keep it friendly and noisy.",
+      "why": "Traditional games are part of Malay festivals and school days. An afternoon of them is a joy for all ages.",
+      "variations": [
+        "Add a sack race.",
+        "Hold a pantun contest.",
+        "Invite elders to teach the games."
+      ]
     }
   ],
-  "immersePlan": [],
+  "tasks": [],
+  "immersePlan": [
+    {
+      "kind": "read",
+      "item": "read-sejarah-melayu-the-malay-annals",
+      "name": "Read from the Malay Annals",
+      "text": "Read a passage of the Sejarah Melayu, the court chronicle of the Melaka sultanate, such as the founding by Sang Nila Utama. Retell it.",
+      "minutes": 20
+    },
+    {
+      "kind": "read",
+      "item": "read-the-epic-of-hang-tuah",
+      "name": "Read from The Epic of Hang Tuah",
+      "text": "Read a chapter of the Malay epic of the hero admiral. Note the clash of loyalty and friendship.",
+      "minutes": 25
+    },
+    {
+      "kind": "read",
+      "item": "read-the-precious-gift",
+      "name": "Read from The Precious Gift",
+      "text": "Read from Raja Ali Haji’s guide to kingship and conduct. Note one piece of advice.",
+      "minutes": 20
+    },
+    {
+      "kind": "watch",
+      "item": "watch-puteri-gunung-ledang",
+      "name": "Watch Puteri Gunung Ledang",
+      "text": "Watch the 2004 film about the legendary princess of Mount Ledang and the Sultan of Melaka. It is colourful and lyrical.",
+      "minutes": 150
+    },
+    {
+      "kind": "watch",
+      "item": "watch-bujang-lapok",
+      "name": "Watch Bujang Lapok",
+      "text": "Watch P. Ramlee’s 1957 comedy about three bachelors in a kampung. It is a classic and still funny.",
+      "minutes": 90
+    },
+    {
+      "kind": "watch",
+      "item": "watch-hang-tuah",
+      "name": "Watch part of Hang Tuah",
+      "text": "Watch an old film of the legendary admiral, 1956. Notice the costumes and the sword fights.",
+      "minutes": 60
+    },
+    {
+      "kind": "listen",
+      "item": "listen-ghazal-johor",
+      "name": "Listen to Ghazal Johor",
+      "text": "Play the Malay court music of Johor with violin, gambus and harmonium. Listen for the sweet melodies.",
+      "minutes": 15
+    },
+    {
+      "kind": "listen",
+      "item": "listen-zapin-music",
+      "name": "Listen to zapin music",
+      "text": "Play zapin with its lively gambus lute and hand drums, the dance music of Johor. Tap along and let your shoulders move.",
+      "minutes": 10
+    },
+    {
+      "kind": "listen",
+      "item": "listen-songs-of-p-ramlee",
+      "name": "Listen to P. Ramlee",
+      "text": "Play songs by Malaysia’s favourite singer, composer and film star. Sing along to Getaran Jiwa.",
+      "minutes": 15
+    },
+    {
+      "kind": "art",
+      "item": "art-the-keris",
+      "name": "Look at a keris",
+      "text": "Look at the wavy-bladed Malay dagger, a symbol of status and spirit. Notice the pattern in the blade and the carved hilt.",
+      "minutes": 5
+    },
+    {
+      "kind": "art",
+      "item": "art-songket",
+      "name": "Look at songket",
+      "text": "Look at the gold-threaded cloth woven for royalty and weddings. Notice the pattern of rice grain and flowers.",
+      "minutes": 10
+    },
+    {
+      "kind": "art",
+      "item": "art-the-sultan-abu-bakar-state-mosque",
+      "name": "Look at the Sultan Abu Bakar Mosque",
+      "text": "Look at pictures of the white mosque in Johor Bahru, built in 1900 in Moorish and Malay style on a hill over the strait.",
+      "minutes": 10
+    },
+    {
+      "kind": "eat",
+      "item": "eat-laksa-johor",
+      "name": "Cook or eat laksa Johor",
+      "text": "Eat spaghetti-style noodles in a thick fish and coconut gravy, with lemongrass and sambal. Eat with a spoon and fork.",
+      "minutes": 60
+    },
+    {
+      "kind": "eat",
+      "item": "eat-nasi-lemak",
+      "name": "Make nasi lemak",
+      "text": "Cook rice in coconut milk with pandan, and serve with sambal, fried anchovies, peanuts, cucumber and egg.",
+      "minutes": 60
+    },
+    {
+      "kind": "eat",
+      "item": "eat-otak-otak",
+      "name": "Taste otak-otak",
+      "text": "Taste spiced fish paste grilled in a banana leaf parcel. Peel it open and enjoy the smoky scent.",
+      "minutes": 30
+    },
+    {
+      "kind": "drink",
+      "item": "drink-teh-tarik",
+      "name": "Pull a teh tarik",
+      "text": "Make strong tea with condensed milk and pull it between two jugs until frothy.",
+      "minutes": 10
+    },
+    {
+      "kind": "drink",
+      "item": "drink-air-bandung",
+      "name": "Make air bandung",
+      "text": "Stir rose syrup into cold milk with ice. Serve in a tall glass.",
+      "minutes": 5
+    },
+    {
+      "kind": "drink",
+      "item": "drink-young-coconut-water",
+      "name": "Drink young coconut water",
+      "text": "Drink from a young coconut straight from the shell, or from a carton. Scrape the soft flesh.",
+      "minutes": 10
+    },
+    {
+      "kind": "customs",
+      "item": "customs-offering-sirih",
+      "name": "Learn about the sirih set",
+      "text": "Read about the betel set that was offered to guests of honour at weddings and meetings. Offer a guest a small plate of fruit instead.",
+      "minutes": 10
+    },
+    {
+      "kind": "customs",
+      "item": "customs-the-salam",
+      "name": "Greet with the salam",
+      "text": "Greet an elder with the Malay salam, hands lightly touching and then brought to the heart.",
+      "minutes": 5
+    },
+    {
+      "kind": "customs",
+      "item": "customs-shoes-off-right-hand-only",
+      "name": "Take your shoes off and use the right hand",
+      "text": "Leave your shoes at the door and hand over and receive things with the right hand today.",
+      "minutes": 5
+    },
+    {
+      "kind": "games",
+      "item": "games-congkak",
+      "name": "Play congkak",
+      "text": "Play the Malay sowing game with a friend, on a board or with egg boxes and beads.",
+      "minutes": 25
+    },
+    {
+      "kind": "games",
+      "item": "games-sepak-raga",
+      "name": "Play sepak raga",
+      "text": "Keep a light ball in the air with feet, knees and head. Count your passes.",
+      "minutes": 20
+    },
+    {
+      "kind": "games",
+      "item": "games-gasing",
+      "name": "Spin a gasing",
+      "text": "Spin a top with a string and see how long it lasts. Challenge a friend.",
+      "minutes": 20
+    },
+    {
+      "kind": "travel",
+      "item": "fest-hari-raya-aidilfitri",
+      "name": "Mark Hari Raya",
+      "text": "Hari Raya Aidilfitri is the feast at the end of Ramadan, with visits, new clothes and open houses. Send a greeting, selamat Hari Raya, to a Muslim friend.",
+      "minutes": 15
+    },
+    {
+      "kind": "travel",
+      "item": "fest-chingay-in-johor-bahru",
+      "name": "Look up Chingay in Johor Bahru",
+      "text": "Look at the colourful street parade of the Chinese community in Johor Bahru, with lion dances and floats. Notice the mix of cultures.",
+      "minutes": 10
+    },
+    {
+      "kind": "travel",
+      "item": "place-kota-johor-lama",
+      "name": "Look up Kota Johor Lama",
+      "text": "Look at pictures of the ruined old capital of Johor on the river at Kota Tinggi. Imagine the trading town.",
+      "minutes": 10
+    },
+    {
+      "kind": "words",
+      "item": "word-gotong-royong",
+      "name": "Practise gotong-royong",
+      "text": "Gotong-royong is working together for the common good. Do one shared job with a neighbour.",
+      "minutes": 20
+    },
+    {
+      "kind": "words",
+      "item": "word-budi-bahasa",
+      "name": "Practise budi bahasa",
+      "text": "Budi bahasa is gracious manners. Speak softly and respectfully to everyone today.",
+      "minutes": 5
+    },
+    {
+      "kind": "words",
+      "item": "word-muafakat",
+      "name": "Practise muafakat",
+      "text": "Muafakat is agreement reached by consultation. Settle one decision by asking everyone involved what they think.",
+      "minutes": 10
+    }
+  ],
   "rules": [
     {
       "id": "r1",

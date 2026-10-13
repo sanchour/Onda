@@ -299,17 +299,17 @@
     {
       "id": "draw-from-life",
       "name": "Draw from life",
-      "icon": "pencil-simple",
+      "icon": "pencil",
       "slot": "Morning",
       "time": "07:30",
       "minutes": 20,
       "meta": "Morning · 20 min",
-      "instructions": "Take a pencil and plain paper and draw one real thing in front of you for twenty minutes: your own hand, a folded cloth, a plant, a face. Do not draw what you know is there. Look for longer than you draw, and put down only what you see: the angle of this edge, where the shadow stops. Do not rub out. Date the sheet and keep it.",
-      "why": "Every Renaissance workshop began with drawing. Cennino Cennini’s handbook, written around 1400, tells the apprentice to draw every day without fail, however little. Leonardo filled thousands of pages with studies of hands, water, muscles and plants, convinced that drawing was a way of finding out how things are made.",
+      "instructions": "Take a pencil and plain paper and draw one real thing in front of you for twenty minutes: your own hand, a folded cloth, a plant, a face. Do not draw what you know is there. Look for longer than you draw, and put down only what your eye sees. The rule of this Onda is to draw every day.",
+      "why": "Renaissance artists such as Leonardo and Dürer drew constantly from life. Learning to see is the root of every art.",
       "variations": [
-        "Copy a drawing by a master, line for line, as apprentices did.",
-        "Draw the same object every day for a week.",
-        "Draw a drapery study from a cloth dipped in plaster or simply pinned up."
+        "Draw your non-drawing hand.",
+        "Draw a piece of fruit.",
+        "Draw with your eyes on the object, not the paper."
       ]
     },
     {
@@ -320,12 +320,172 @@
       "time": "09:00",
       "minutes": 15,
       "meta": "Morning · 15 min",
-      "instructions": "Carry a small notebook all day. In the morning write a list of things you want to find out, as plainly as he did: how a bird holds still in wind, why the sky is blue, ask the mason how the wall is built. During the day write and sketch what you notice. Put everything in one book: sums, shopping, ideas, things overheard. Tomorrow, answer one item on the list by looking or by asking someone who knows.",
-      "why": "About seven thousand pages of Leonardo’s notebooks survive. They mix anatomy, engineering, grocery lists, jokes and drafts of letters, and they are full of notes to himself such as describe the tongue of the woodpecker. Florentine merchants kept similar books of everything worth remembering, which they called a zibaldone.",
+      "instructions": "Carry a small notebook all day. In the morning write a list of things you want to find out, as plainly as he did: how a bird holds still in wind, why the sky is blue, ask the mason how the wall is built. During the day write down answers, sketches and questions. At night read it through. Stay a learner.",
+      "why": "Leonardo da Vinci filled thousands of pages with lists, sketches and questions. His curiosity was his method.",
       "variations": [
-        "Write a to-find-out list of ten items.",
-        "Try a line of mirror writing, right to left, as he wrote.",
-        "Ask an expert in any trade to show you one thing."
+        "Write ten questions.",
+        "Sketch an invention.",
+        "Write backwards if you dare."
+      ]
+    },
+    {
+      "id": "light-and-shadow-on-an-egg",
+      "name": "Light and shadow on an egg",
+      "icon": "circle",
+      "slot": "Morning",
+      "time": "08:00",
+      "minutes": 20,
+      "meta": "Morning · 20 min",
+      "instructions": "Place an egg or a white cup on a table with a lamp to one side. Draw it in pencil, and shade it carefully: the lightest part where the light hits, the darkest in the shadow, a soft edge between and a faint glow of reflected light underneath. This is chiaroscuro, light and dark. Look more than you draw.",
+      "why": "Chiaroscuro was the Renaissance discovery of how to model form with light and shade. Drawing an egg is the classic exercise.",
+      "variations": [
+        "Draw it in charcoal.",
+        "Move the lamp and draw again.",
+        "Try a pear."
+      ]
+    },
+    {
+      "id": "find-the-vanishing-point",
+      "name": "Find the vanishing point",
+      "icon": "ruler",
+      "slot": "Morning",
+      "time": "09:30",
+      "minutes": 20,
+      "meta": "Morning · 20 min",
+      "instructions": "Look down a street or a corridor, and draw it with one-point perspective. Mark the horizon line at your eye level, put a dot where the lines converge and draw all the receding lines towards it. Sketch buildings, doors and windows. Brunelleschi discovered the method in Florence about 1420. Use a ruler.",
+      "why": "Linear perspective, invented in early fifteenth-century Florence, changed painting for ever. Drawing one street teaches the rule for life.",
+      "variations": [
+        "Draw a hallway.",
+        "Draw a road.",
+        "Draw a box in perspective."
+      ]
+    },
+    {
+      "id": "look-up",
+      "name": "Look up",
+      "icon": "eye",
+      "slot": "Morning",
+      "time": "08:30",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Take a ten-minute walk looking up. Notice cornices, rooftops, gargoyles, chimneys, windows above the shop signs. Pick one detail you have never noticed and sketch it in your notebook. Renaissance artists studied architecture as part of their training. Look up and look closely.",
+      "why": "Observation is the first discipline of the Renaissance artist. Most of what is beautiful in a city is above eye level.",
+      "variations": [
+        "Photograph three details.",
+        "Draw a window.",
+        "Learn a word for the part you saw."
+      ]
+    },
+    {
+      "id": "do-it-with-ease",
+      "name": "Do it with ease",
+      "icon": "smiley",
+      "slot": "Morning",
+      "time": "07:00",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Choose one task today that usually takes visible effort and do it with sprezzatura, studied nonchalance: calmly, gracefully, as if it were no trouble. Practise beforehand so that it looks easy. Castiglione said the best art conceals art. Smile, move deliberately and make it look easy. The rule of this Onda is to make it look easy.",
+      "why": "Sprezzatura, the art of making difficulty look effortless, was the ideal of the Renaissance courtier. Practice in private makes grace in public.",
+      "variations": [
+        "Serve tea with a flourish.",
+        "Walk into a room calmly.",
+        "Pour a glass without spilling a drop."
+      ]
+    },
+    {
+      "id": "well-rounded",
+      "name": "Train the whole person",
+      "icon": "barbell",
+      "slot": "Afternoon",
+      "time": "16:00",
+      "minutes": 30,
+      "meta": "Afternoon · 30 min",
+      "instructions": "Spend half an hour on whichever side of yourself you have neglected. If you live in your head, do something with your body: run, swim, wrestle, ride, dance, lift. If you live in your body, sing, play an instrument, work a geometry problem or read a poem. The rule of this Onda is to try your hand at everything.",
+      "why": "The Renaissance ideal was the whole person: athlete, scholar, musician and artist. Leonardo was famed for his strength as well as his genius.",
+      "variations": [
+        "Do a sport and a puzzle in the same hour.",
+        "Learn a poem while walking.",
+        "Try a dance step."
+      ]
+    },
+    {
+      "id": "copy-a-master",
+      "name": "Copy a master",
+      "icon": "palette",
+      "slot": "Afternoon",
+      "time": "14:30",
+      "minutes": 30,
+      "meta": "Afternoon · 30 min",
+      "instructions": "Choose a drawing or painting by a master you admire, such as a Leonardo, a Dürer or a Raphael, and copy it as exactly as you can for half an hour. Notice every line. Apprentices in a bottega began by copying the master’s drawings. You will learn how a hand moves. Compare with the original at the end.",
+      "why": "Copying was the basis of Renaissance training, in the bottega. It teaches more than any theory.",
+      "variations": [
+        "Copy a hand by Leonardo.",
+        "Copy a face by Raphael.",
+        "Copy in pen and ink."
+      ]
+    },
+    {
+      "id": "an-hour-in-the-bottega",
+      "name": "An hour in the bottega",
+      "icon": "hammer",
+      "slot": "Afternoon",
+      "time": "15:00",
+      "minutes": 60,
+      "meta": "Afternoon · 60 min",
+      "instructions": "Spend an hour learning a craft from someone who does it well: a cook, a carpenter, a tailor, a gardener, a programmer. Ask to watch, help with a small task and ask why. Offer thanks. In the Renaissance a boy was apprenticed to a master’s workshop, the bottega, for years. An hour is a taste of it.",
+      "why": "The workshop system trained Leonardo, Michelangelo and Raphael. Learning from a master in action is as good today as ever.",
+      "variations": [
+        "Ask a neighbour to teach you something.",
+        "Help a mechanic for an hour.",
+        "Watch a baker at work."
+      ]
+    },
+    {
+      "id": "the-passeggiata",
+      "name": "The passeggiata",
+      "icon": "footprints",
+      "slot": "Afternoon",
+      "time": "17:30",
+      "minutes": 30,
+      "meta": "Afternoon · 30 min",
+      "instructions": "Take a slow evening stroll through the centre of your town or a nearby park, dressed a little better than for work. Greet people you know and stop for a chat. Look at the buildings and the faces. In Italian towns the evening walk, la passeggiata, is the daily show where everyone sees everyone. Take your time.",
+      "why": "The passeggiata is a living Italian custom, with roots in the Renaissance piazza. It is a pleasant, sociable way to end the afternoon.",
+      "variations": [
+        "Walk arm in arm with a friend.",
+        "End at a café with a small drink.",
+        "Do it every evening this week."
+      ]
+    },
+    {
+      "id": "a-game-of-chess",
+      "name": "A game of chess",
+      "icon": "cube",
+      "slot": "Afternoon",
+      "time": "16:30",
+      "minutes": 30,
+      "meta": "Afternoon · 30 min",
+      "instructions": "Play a game of chess. The modern rules, with the powerful queen and the long-range bishop, took shape in Spain and Italy about 1475 and made the game faster. Play with a friend or a computer. Think a few moves ahead. Chess was the favourite game of Renaissance courts and scholars. Shake hands at the end.",
+      "why": "The modern chess queen appeared in the late fifteenth century, in a game that became known as the madwoman’s chess. It has been the game of thinkers ever since.",
+      "variations": [
+        "Study a famous opening.",
+        "Play a blitz game.",
+        "Teach a child the moves."
+      ]
+    },
+    {
+      "id": "invent-something-on-paper",
+      "name": "Invent something on paper",
+      "icon": "lightbulb",
+      "slot": "Afternoon",
+      "time": "14:00",
+      "minutes": 25,
+      "meta": "Afternoon · 25 min",
+      "instructions": "Sketch an invention in your notebook, as Leonardo did: a flying machine, a better chair, a bridge, a bike for the city. Draw it from two sides, label its parts and note how it would work. Do not worry if it is impossible. Leonardo’s notebooks are full of impossible machines and some that came true centuries later.",
+      "why": "Leonardo designed helicopters, tanks and diving suits centuries before they existed. Sketching an invention exercises imagination and engineering both.",
+      "variations": [
+        "Improve an everyday object.",
+        "Draw a machine that helps a neighbour.",
+        "Build a paper model."
       ]
     },
     {
@@ -336,154 +496,341 @@
       "time": "20:00",
       "minutes": 30,
       "meta": "Evening · 30 min",
-      "instructions": "Before you sit down, wash your face and change out of your working clothes. Then read for thirty minutes from an author who has been dead for at least five hundred years: Cicero, Seneca, Plutarch, Plato, Virgil, Dante. Read the text itself, not a summary. Read with a pen. When something strikes you, copy it into your notebook and write beneath it what you would ask the author if you could.",
-      "why": "The humanists believed that the best minds of Greece and Rome could be spoken with directly through their books. Petrarch wrote letters to Cicero. Machiavelli, banished to his farm, described how each evening he took off his muddy clothes, put on the robes of court and spent four hours with the ancients, asking them the reasons for their actions.",
+      "instructions": "Before you sit down, wash your face and change out of your working clothes. Then read for thirty minutes from an author who has been dead for at least five hundred years: Cicero, Seneca, Plutarch, Plato, Virgil, Dante. Read slowly, and copy out the lines that strike you. Machiavelli dressed in his best clothes to read the ancients. The rule of this Onda is to go to the sources.",
+      "why": "Machiavelli described this ritual in a famous letter: he put on courtly clothes and entered the ancient courts of ancient men. Reading the ancients is conversation with the dead.",
       "variations": [
-        "Read a page with the original language on the facing side.",
-        "Write a letter to a dead author.",
-        "Learn ten lines of a poem by heart."
-      ]
-    },
-    {
-      "id": "well-rounded",
-      "name": "Train the whole person",
-      "icon": "person-simple-run",
-      "slot": "Afternoon",
-      "time": "16:00",
-      "minutes": 30,
-      "meta": "Afternoon · 30 min",
-      "instructions": "Spend half an hour on whichever side of yourself you have neglected. If you live in your head, do something with your body: run, swim, wrestle, ride, dance, lift. If you live in your body, sing, play an instrument, work a problem in geometry or write verse. Whatever you choose, work at it until it begins to look easy, and do not complain about the effort.",
-      "why": "The age admired those who could do everything. Alberti was architect, author, athlete and musician, and was said to jump over a standing man with his feet together. Castiglione’s courtier had to ride, fence, swim, dance, draw, sing to the lute and speak well, and to do it all with an ease that hid the labour.",
-      "variations": [
-        "Learn the first steps of a dance.",
-        "Take up an instrument for the month.",
-        "Practise one skill until you can do it without showing strain."
+        "Read Seneca’s letters.",
+        "Read in a bilingual edition.",
+        "Copy a line into a commonplace book."
       ]
     },
     {
       "id": "studiolo",
       "name": "An hour in the study",
-      "icon": "lamp",
+      "icon": "armchair",
       "slot": "Evening",
       "time": "21:15",
       "minutes": 15,
       "meta": "Evening · 15 min",
-      "instructions": "Make one small place your study: a desk, a corner, a chair by a lamp. Put in it only what helps you think: a few books, your notebook, one beautiful object. Sit there for fifteen minutes at the end of the day with no screen. Look back through today’s notes. Finish one small thing you began, or decide plainly to leave it. Write tomorrow’s list of things to find out.",
-      "why": "Scholars and princes built themselves a studiolo, a small private room for study. The duke of Urbino lined his with pictures of books, instruments and a squirrel made in inlaid wood, under portraits of great thinkers. Jerome in his study was among the most painted subjects of the century.",
+      "instructions": "Make one small place your study: a desk, a corner, a chair by a lamp. Put in it only what helps you think: a few books, your notebook, one beautiful object. Sit there for fifteen minutes at the end of the day with no screen. Read, write or simply think. The studiolo of Duke Federico at Urbino is the model.",
+      "why": "The studiolo was a small private study for the Renaissance prince or scholar, decorated with books and instruments. Everyone can have a corner of one.",
       "variations": [
-        "Tidy your desk as if a painter were coming to paint it.",
-        "Choose one portrait of someone you admire to hang above it.",
-        "Spend the time in conversation with a friend, as the academies did."
-      ]
-    }
-  ],
-  "tasks": [
-    {
-      "id": "task-read-a-chapter-of-the-lives-of-the-artists",
-      "name": "Read a chapter of The Lives of the Artists",
-      "meta": "Read · Giorgio Vasari, 1550; try the life of Brunelleschi",
-      "time": "20:30",
-      "slot": "Evening",
-      "action": "read"
-    },
-    {
-      "id": "task-listen-to-the-missa-pange-lingua",
-      "name": "Listen to the Missa Pange lingua",
-      "meta": "Listen · Josquin des Prez, about 1515",
-      "time": "07:00",
-      "slot": "Morning",
-      "action": "listen"
-    },
-    {
-      "id": "task-look-for-ten-minutes-at-the-school-of-athens",
-      "name": "Look for ten minutes at The School of Athens",
-      "meta": "Art · Raphael, 1509 to 1511; find the vanishing point",
-      "time": "13:00",
-      "slot": "Afternoon",
-      "action": "art"
-    },
-    {
-      "id": "task-play-a-game-of-chess",
-      "name": "Play a game of chess",
-      "meta": "Games · the modern queen dates from about 1475",
-      "time": "19:00",
-      "slot": "Evening",
-      "action": "games"
-    },
-    {
-      "id": "task-journal-what-did-you-see-today-that-you-had-looked-at-for-years",
-      "name": "Journal: what did you see today that you had looked at for years?",
-      "meta": "Journal · 10 min",
-      "time": "21:30",
-      "slot": "Evening",
+        "Hang a favourite picture.",
+        "Light a candle.",
+        "Keep only the books you love there."
+      ],
       "action": "journal"
     },
     {
-      "id": "task-how-much-of-your-life-is-fortune-and-how-much-is-yours",
-      "name": "How much of your life is fortune, and how much is yours?",
-      "meta": "Philosophy · 10 min",
-      "time": "09:30",
-      "slot": "Morning",
-      "action": "philosophy"
+      "id": "the-commonplace-book",
+      "name": "The commonplace book",
+      "icon": "quotes",
+      "slot": "Evening",
+      "time": "20:30",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Copy into a notebook the most worthwhile thing you read or heard today, with its source. Renaissance scholars kept commonplace books of quotations to be used in letters and speeches. Add a line of your own about why it matters. In a year you will have a book of your own wisdom.",
+      "why": "The commonplace book was the Renaissance reader’s tool: a place to gather and organise the best lines. It trains attention.",
+      "variations": [
+        "Copy a line by hand.",
+        "Index your lines by theme.",
+        "Share a favourite with a friend."
+      ]
     },
     {
-      "id": "ask-someone-who-knows-how-a-thing-is-made",
-      "name": "Ask someone who knows how a thing is made",
-      "meta": "The to-find-out list",
-      "time": "11:00",
-      "slot": "Morning"
+      "id": "an-academy-evening",
+      "name": "An academy evening",
+      "icon": "chats",
+      "slot": "Evening",
+      "time": "19:00",
+      "minutes": 60,
+      "meta": "Evening · 60 min",
+      "instructions": "Invite two or three friends to an evening of talk, as the members of the Platonic Academy of Florence did. Choose a theme: what is beauty? What makes a good life? Serve bread, cheese, fruit and watered grape juice. Each person speaks in turn. Lorenzo de’ Medici and his circle did exactly this.",
+      "why": "The Renaissance academies were informal societies of friends who met to talk, read and recite. A modern version is a good dinner party.",
+      "variations": [
+        "Read a short text aloud first.",
+        "End with a toast to the host.",
+        "Write the best sentence down."
+      ]
     },
     {
-      "id": "measure-something-and-work-out-its-proportions",
-      "name": "Measure something and work out its proportions",
-      "meta": "Measure",
-      "time": "14:30",
-      "slot": "Afternoon"
+      "id": "listen-to-josquin",
+      "name": "Listen to Josquin",
+      "icon": "music-note",
+      "slot": "Evening",
+      "time": "21:30",
+      "minutes": 20,
+      "meta": "Evening · 20 min",
+      "instructions": "Play a piece by Josquin des Prez, Dufay or Palestrina, or Monteverdi’s L’Orfeo, and listen in the dark for twenty minutes. Notice the interwoven voices, each with its own line. Renaissance composers made music that is mathematics and prayer at once. Let it clear your mind.",
+      "why": "Josquin was the most celebrated composer of the Renaissance, Luther said he was the master of the notes. Polyphony rewards patient listening.",
+      "variations": [
+        "Follow the bass line.",
+        "Listen with a score.",
+        "Listen with candlelight."
+      ]
     },
     {
-      "id": "do-one-hard-thing-today-as-if-it-cost-you-nothing",
-      "name": "Do one hard thing today as if it cost you nothing",
-      "meta": "Sprezzatura",
-      "time": "17:30",
-      "slot": "Evening"
+      "id": "a-humanist-letter",
+      "name": "A humanist letter",
+      "icon": "envelope-simple",
+      "slot": "Evening",
+      "time": "20:00",
+      "minutes": 20,
+      "meta": "Evening · 20 min",
+      "instructions": "Write a letter to a friend in the humanist style: open with a greeting, develop one thought in a few well-made paragraphs and close with a courteous farewell. Petrarch wrote letters to the ancients, addressed to Cicero and Homer. Try writing to someone long dead, with a question. Seal and keep it.",
+      "why": "The letter was the humanist’s chief literary form. A thoughtful letter is a Renaissance gift.",
+      "variations": [
+        "Write to someone from history.",
+        "Write in your best hand.",
+        "Send it to a friend."
+      ]
     },
     {
-      "id": "treat-sketch-your-own-hand-for-five-minutes",
-      "name": "Sketch your own hand for five minutes",
-      "meta": "Leonardo did hundreds",
-      "time": "15:30",
-      "slot": "Afternoon"
+      "id": "a-day-of-drawing",
+      "name": "A day of drawing",
+      "icon": "pencil",
+      "slot": "Special",
+      "time": "10:00",
+      "minutes": 120,
+      "meta": "On a free morning · 120 min",
+      "instructions": "Spend two hours drawing in a museum, a church, a square or a park. Take a pad, a pencil and a folding stool. Draw one sculpture, one building detail and one person. Do not worry about the result. Work at the pace of looking. Renaissance apprentices drew daily from casts and from life. End with a coffee and look back at your drawings.",
+      "why": "Drawing from life and from sculpture was the core of Renaissance training. A day of it will teach you more than a week of reading.",
+      "variations": [
+        "Draw in a museum with permission.",
+        "Go with a friend.",
+        "Draw one subject three times."
+      ]
     },
     {
-      "id": "treat-write-a-line-in-mirror-writing",
-      "name": "Write a line in mirror writing",
-      "meta": "Right to left",
-      "time": "19:30",
-      "slot": "Evening"
-    },
-    {
-      "id": "treat-look-at-a-building-and-find-its-symmetry",
-      "name": "Look at a building and find its symmetry",
-      "meta": "Count the windows",
-      "time": "15:30",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "treat-learn-one-new-word-in-latin-or-italian-and-use-it",
-      "name": "Learn one new word in Latin or Italian and use it",
-      "meta": "With a flourish",
-      "time": "08:30",
-      "slot": "Morning"
-    },
-    {
-      "id": "daily-look-closely-at-one-building-and-find-its-proportions",
-      "name": "Look closely at one building and find its proportions",
-      "meta": "Count the windows",
-      "time": "14:00",
-      "slot": "Afternoon"
+      "id": "make-carnival-masks",
+      "name": "Make carnival masks",
+      "icon": "mask-happy",
+      "slot": "Special",
+      "time": "15:00",
+      "minutes": 120,
+      "meta": "On a free afternoon · 120 min",
+      "instructions": "Make a mask in the Venetian style from paper-mache or card: paint and decorate it with feathers, gold paper and sequins. Venice’s Carnival masks, with long noses, birds’ beaks and gilded faces, date from the Renaissance. Wear it for an evening or hang it on the wall. Hold a small masked dinner.",
+      "why": "The carnival masks of Venice allowed rich and poor to mingle anonymously. Making one is a creative afternoon.",
+      "variations": [
+        "Make a commedia dell’arte mask.",
+        "Gild it with gold paint.",
+        "Host a mask party."
+      ]
     }
   ],
-  "immersePlan": [],
+  "tasks": [],
+  "immersePlan": [
+    {
+      "kind": "read",
+      "item": "read-the-lives-of-the-artists",
+      "name": "Read from Vasari’s Lives",
+      "text": "Read a life from Vasari, such as Leonardo, Giotto or Michelangelo. Note a story that sounds invented.",
+      "minutes": 20
+    },
+    {
+      "kind": "read",
+      "item": "read-the-book-of-the-courtier",
+      "name": "Read from The Book of the Courtier",
+      "text": "Read the passage on sprezzatura from Castiglione’s dialogue. Note how he describes grace.",
+      "minutes": 20
+    },
+    {
+      "kind": "read",
+      "item": "read-leonardo-da-vinci",
+      "name": "Read a chapter of Isaacson’s Leonardo",
+      "text": "Read a chapter of Walter Isaacson’s biography, about Leonardo’s notebooks and curiosity. Mark a question you could try.",
+      "minutes": 25
+    },
+    {
+      "kind": "watch",
+      "item": "watch-civilisation-episodes-4-and-5",
+      "name": "Watch Civilisation, episode 4",
+      "text": "Watch Kenneth Clark’s BBC series on the Renaissance, episode 4, the Heroic Materialism of early Florence. Listen to his voice.",
+      "minutes": 50
+    },
+    {
+      "kind": "watch",
+      "item": "watch-leonardo-the-works",
+      "name": "Watch Leonardo: The Works",
+      "text": "Watch the documentary that tours the 2019 Leonardo exhibition, with commentary on each work. Pick a favourite.",
+      "minutes": 90
+    },
+    {
+      "kind": "watch",
+      "item": "watch-medici-godfathers-of-the-renaissance",
+      "name": "Watch Medici: Godfathers",
+      "text": "Watch the PBS documentary on the Medici family and their patronage. Notice the money and the art.",
+      "minutes": 55
+    },
+    {
+      "kind": "listen",
+      "item": "listen-missa-pange-lingua",
+      "name": "Listen to Josquin’s Missa Pange lingua",
+      "text": "Play the Mass, based on a plainchant hymn. Follow the voices as they weave together.",
+      "minutes": 30
+    },
+    {
+      "kind": "listen",
+      "item": "listen-nuper-rosarum-flores",
+      "name": "Listen to Dufay’s Nuper rosarum flores",
+      "text": "Play Dufay’s motet, written for the consecration of Florence Cathedral’s dome in 1436. Imagine the day.",
+      "minutes": 10
+    },
+    {
+      "kind": "listen",
+      "item": "listen-l-orfeo",
+      "name": "Listen to L’Orfeo",
+      "text": "Play the opening toccata and the lament from Monteverdi’s 1607 opera, one of the first ever written.",
+      "minutes": 20
+    },
+    {
+      "kind": "art",
+      "item": "art-the-school-of-athens",
+      "name": "Look at The School of Athens",
+      "text": "Look at Raphael’s fresco of Plato and Aristotle among the philosophers. Find Leonardo’s face as Plato.",
+      "minutes": 10
+    },
+    {
+      "kind": "art",
+      "item": "art-primavera",
+      "name": "Look at Primavera",
+      "text": "Look at Botticelli’s painting of Venus and the Three Graces in an orange grove. Count the flowers on the grass.",
+      "minutes": 10
+    },
+    {
+      "kind": "art",
+      "item": "art-the-vitruvian-man",
+      "name": "Look at the Vitruvian Man",
+      "text": "Look at Leonardo’s drawing of a man in a circle and a square. Notice the proportions.",
+      "minutes": 10
+    },
+    {
+      "kind": "eat",
+      "item": "eat-ribollita",
+      "name": "Make ribollita",
+      "text": "Cook a Tuscan soup of beans, cabbage and bread, and reheat it the next day. It tastes better the second time.",
+      "minutes": 90
+    },
+    {
+      "kind": "eat",
+      "item": "eat-pici-with-garlic",
+      "name": "Make pici",
+      "text": "Roll thick hand-rolled pasta and dress it with garlic, chilli and olive oil.",
+      "minutes": 60
+    },
+    {
+      "kind": "eat",
+      "item": "eat-panforte",
+      "name": "Taste panforte",
+      "text": "Taste a dense Siena cake of honey, nuts and spices, an old Renaissance sweet. Eat a thin slice.",
+      "minutes": 10
+    },
+    {
+      "kind": "drink",
+      "item": "drink-red-wine-of-tuscany",
+      "name": "Pour red grape juice",
+      "text": "Pour a glass of red grape juice at supper and think of Tuscan hills. Sip slowly.",
+      "minutes": 10
+    },
+    {
+      "kind": "drink",
+      "item": "drink-watered-wine",
+      "name": "Drink diluted juice",
+      "text": "Mix grape juice with water in a jug, as Renaissance households did with wine. Serve it in glass cups.",
+      "minutes": 10
+    },
+    {
+      "kind": "drink",
+      "item": "drink-vin-santo",
+      "name": "Sip something sweet and amber",
+      "text": "Sip a small glass of amber apple or grape juice with a biscuit, in the manner of vin santo and cantucci.",
+      "minutes": 10
+    },
+    {
+      "kind": "customs",
+      "item": "customs-the-commonplace-book",
+      "name": "Start a commonplace book",
+      "text": "Copy a good quotation into a notebook with its source. Add a line on why it matters.",
+      "minutes": 15
+    },
+    {
+      "kind": "customs",
+      "item": "customs-the-evening-walk",
+      "name": "Take an evening passeggiata",
+      "text": "Take a slow evening stroll in good clothes, greeting people you meet.",
+      "minutes": 30
+    },
+    {
+      "kind": "customs",
+      "item": "customs-the-academy",
+      "name": "Gather a small academy",
+      "text": "Invite two friends to talk for an hour about one big question over bread and cheese.",
+      "minutes": 60
+    },
+    {
+      "kind": "games",
+      "item": "games-chess",
+      "name": "Play chess",
+      "text": "Play a game of chess with the modern rules that were new in the 1470s.",
+      "minutes": 30
+    },
+    {
+      "kind": "games",
+      "item": "games-tarocchi",
+      "name": "Play tarocchi",
+      "text": "Play an Italian tarot trick-taking game, first played in northern Italy in the 1440s, with painted cards. Look up the rules.",
+      "minutes": 40
+    },
+    {
+      "kind": "games",
+      "item": "games-pallone",
+      "name": "Play pallone",
+      "text": "Play a simple ball game of striking a ball over a line, as Italian aristocrats did. Use a light ball and your hands.",
+      "minutes": 20
+    },
+    {
+      "kind": "travel",
+      "item": "fest-the-feast-of-saint-john",
+      "name": "Mark the feast of Saint John",
+      "text": "On 24 June, Florence honours its patron with fireworks and a festival. Watch a video, or light a candle at dusk.",
+      "minutes": 20
+    },
+    {
+      "kind": "travel",
+      "item": "fest-the-palio",
+      "name": "Look up the Palio",
+      "text": "Look at the horse race run in Siena’s main square, with the neighbourhoods in rivalry. Pick a contrada.",
+      "minutes": 15
+    },
+    {
+      "kind": "travel",
+      "item": "place-florence-cathedral",
+      "name": "Look up Florence Cathedral",
+      "text": "Look at Brunelleschi’s dome, built without scaffolding in the 1420s to 1430s. Imagine the builders.",
+      "minutes": 10
+    },
+    {
+      "kind": "words",
+      "item": "word-sprezzatura",
+      "name": "Practise sprezzatura",
+      "text": "Sprezzatura is making difficulty look easy. Do one thing today with grace and no visible effort.",
+      "minutes": 5
+    },
+    {
+      "kind": "words",
+      "item": "word-ingegno",
+      "name": "Practise ingegno",
+      "text": "Ingegno is native cleverness and inventive talent. Solve one small problem today in a way nobody else would.",
+      "minutes": 10
+    },
+    {
+      "kind": "words",
+      "item": "word-disegno",
+      "name": "Practise disegno",
+      "text": "Disegno is drawing and design, the basis of all arts. Draw something for ten minutes.",
+      "minutes": 10
+    }
+  ],
   "rules": [
     {
       "id": "r1",

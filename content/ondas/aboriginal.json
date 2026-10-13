@@ -272,17 +272,17 @@
     {
       "id": "dadirri",
       "name": "Dadirri: deep listening",
-      "icon": "wave-soft",
+      "icon": "ear",
       "slot": "Morning",
       "time": "06:30",
       "minutes": 15,
       "meta": "Morning · 15 min",
-      "instructions": "Go outside, or sit by an open window, and be still for fifteen minutes. There is nothing to achieve. Do not try to empty your mind and do not look for anything. Listen to what is around you: wind, birds, water, traffic, your own breath. Let whatever comes, come, and wait. If thoughts pull you away, return to listening. When you get up, do not rush into the next thing.",
-      "why": "Dadirri is a word from the languages of the Daly River in the Northern Territory. The Elder, teacher and artist Miriam-Rose Ungunmerr-Baumann has described it as inner deep listening and quiet, still awareness, learned by her people over many thousands of years of waiting on the seasons. She has offered it as a gift to other Australians and to anyone who needs it.",
+      "instructions": "Go outside, or sit by an open window, and be still for fifteen minutes. There is nothing to achieve. Do not try to empty your mind and do not look for anything. Listen to what is around you: wind, birds, water, traffic, your own breath. Let it come to you. The rule of this Onda is to listen before you speak.",
+      "why": "Dadirri, inner deep listening and quiet still awareness, is a gift from the Ngan’gikurunggurr and Ngen’giwumirri people of the Daly River region, shared with all Australians by Miriam-Rose Ungunmerr-Baumann.",
       "variations": [
-        "Sit by moving water if there is any near you.",
-        "Practise it while someone is speaking to you, without preparing your reply.",
-        "Read Miriam-Rose’s own words on dadirri at the Miriam Rose Foundation."
+        "Listen in the same spot each day.",
+        "Listen beside water.",
+        "Listen with a friend in silence."
       ]
     },
     {
@@ -293,12 +293,76 @@
       "time": "08:00",
       "minutes": 5,
       "meta": "Morning · 5 min",
-      "instructions": "Find out whose land you are standing on. In Australia, learn the name of the Traditional Owners of the place where you live and how to say it. Elsewhere, learn who lived on your land first and whether they are still there. Then say so, aloud, at the start of the day: name the place, name its people, and pay your respects to their Elders past and present. Mean it.",
-      "why": "An Acknowledgement of Country is a short statement of respect that anyone may make. It recognises that the land has owners who have cared for it since long before it was taken, and who are still here. It is now usual in Australia at the start of meetings and events. A Welcome to Country is different, and only Traditional Owners can give one.",
+      "instructions": "Find out whose land you are standing on. In Australia, learn the name of the Traditional Owners of the place where you live and how to say it. Elsewhere, learn who lived on your land first and whether they are still there. Say aloud, in your own words, that you acknowledge them and their Elders past and present. Mean it. The rule of this Onda is to know whose Country you are on.",
+      "why": "An Acknowledgement of Country is a respectful statement made by anyone, Aboriginal or not, to recognise the Traditional Owners. A Welcome to Country, by contrast, is given only by Traditional Owners.",
       "variations": [
-        "Look up your home on the AIATSIS map of Indigenous Australia, or on native-land.ca.",
-        "Learn three place names near you that come from the local language, and what they mean.",
-        "Find out which organisation speaks for the Traditional Owners where you live."
+        "Look up the Traditional Owners on a map.",
+        "Learn to pronounce the name.",
+        "Find the name of a local Elder who has shared teaching."
+      ]
+    },
+    {
+      "id": "a-word-of-local-language",
+      "name": "A word of local language",
+      "icon": "translate",
+      "slot": "Morning",
+      "time": "07:30",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Learn one word from the Aboriginal language of the place where you live, from a trusted source such as a local language centre or council. Learn what it means and how to say it. Use it once today, with care. If you are outside Australia, learn a word from the language of the people of your own region. Learning language is a way of honouring Country.",
+      "why": "More than 250 Aboriginal languages were spoken in Australia at the time of colonisation, and many are being revived. Learning a word shows respect and interest.",
+      "variations": [
+        "Learn a greeting.",
+        "Learn the name of a local bird.",
+        "Learn the name for the place where you live."
+      ]
+    },
+    {
+      "id": "lemon-myrtle-tea",
+      "name": "Lemon myrtle tea",
+      "icon": "coffee",
+      "slot": "Morning",
+      "time": "07:00",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Make a cup of tea from lemon myrtle leaves, a rainforest tree of eastern Australia with a strong lemony fragrance. Steep a few dried leaves or a teabag in hot water and breathe in the steam before you drink. Buy from an Aboriginal-owned supplier if you can. Sip slowly and think of the trees whose leaves are in your cup.",
+      "why": "Lemon myrtle has been used by Aboriginal people for food and healing for thousands of years. Buying from Aboriginal-owned suppliers supports their economy.",
+      "variations": [
+        "Add a drop of honey.",
+        "Try wattleseed in your coffee.",
+        "Look at a lemon myrtle tree."
+      ]
+    },
+    {
+      "id": "who-is-calling",
+      "name": "Who is calling?",
+      "icon": "bird",
+      "slot": "Morning",
+      "time": "06:45",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Listen for the first bird calling in your area at dawn, and find out its name: magpie, kookaburra, butcherbird, wattlebird. Note when it calls and what else is happening. Many Aboriginal peoples read the birds as messengers and seasonal markers. Learn one bird’s call well and greet it each day.",
+      "why": "Birds are important in many Aboriginal cultures as signs of seasons and as figures in stories. Learning your local birds ties you to place.",
+      "variations": [
+        "Use a bird app to confirm.",
+        "Learn the second bird.",
+        "Note the time it calls."
+      ]
+    },
+    {
+      "id": "go-slowly-and-gently",
+      "name": "Go slowly and gently",
+      "icon": "footprints",
+      "slot": "Morning",
+      "time": "08:30",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "For the first hour of your day, move slowly and gently. Walk at half your usual pace, speak quietly, put things down softly and listen to others without hurrying them. The rule of this Onda is to go slowly and gently. Notice how much rush is habit and how much is need.",
+      "why": "Slowness and patience are valued across many Aboriginal cultures, where relationships take time. The rule asks you to try it for an hour.",
+      "variations": [
+        "Do it on your commute.",
+        "Do it at breakfast.",
+        "Do it with a child."
       ]
     },
     {
@@ -309,12 +373,12 @@
       "time": "15:00",
       "minutes": 30,
       "meta": "Afternoon · 30 min",
-      "instructions": "Walk slowly for half an hour through the nearest piece of open ground. Go at a pace that lets you notice things. What is in flower, what is fruiting and what is dying back. Which birds and insects are about. Where the wind is from and what the light is like. Decide for yourself what season this is, by what you see and not by the calendar. Write three signs in your notebook and date them.",
-      "why": "Aboriginal peoples do not use four seasons brought from Europe. Each Country has its own calendar, read from signs. The Noongar of the south-west count six seasons, the D’harawal of the Sydney basin six, and peoples of the tropical north as many as seven or more. The flowering of one plant tells you that a certain fish is fat or that it is time to burn.",
+      "instructions": "Walk slowly for half an hour through the nearest piece of open ground. Go at a pace that lets you notice things. What is in flower, what is fruiting and what is dying back. Which birds and insects are about. Where the wind comes from and how the light falls. Say the season in your own words. Many Aboriginal peoples keep seasonal calendars of six or more seasons based on what plants and animals do.",
+      "why": "Aboriginal seasonal calendars read the land’s signs rather than the date. Noticing what is in flower and fruit builds a similar attention.",
       "variations": [
-        "Look up the published seasonal calendar for the Country nearest you.",
-        "Keep a list of first sightings through the month.",
-        "Go to the same spot each week and note what changed."
+        "Note one change from last week.",
+        "Look up the local Aboriginal seasons.",
+        "Take a notebook."
       ]
     },
     {
@@ -325,159 +389,421 @@
       "time": "17:00",
       "minutes": 20,
       "meta": "Afternoon · 20 min",
-      "instructions": "Choose one small piece of ground that you can reach every day: a garden, a verge, a creek bank, a corner of a park. Spend twenty minutes looking after it. Pick up what does not belong. Pull weeds if you know them. Water what is dry. Plant something native to the place if you can. Above all, get to know it well, and take nothing from it that you do not need.",
-      "why": "The duty to care for Country runs through every Aboriginal culture. Land is not owned in order to be used up. People belong to it, and they keep it healthy by burning at the right time, protecting water, harvesting with restraint and performing the proper observances. In return, Country provides. Indigenous ranger groups and protected areas now look after a large share of Australia’s conservation land.",
+      "instructions": "Choose one small piece of ground that you can reach every day: a garden, a verge, a creek bank, a corner of a park. Spend twenty minutes looking after it. Pick up what does not belong. Pull weeds if you know them. Water what is thirsty. Learn from it. The rule of this Onda is to look after your place.",
+      "why": "Caring for Country is a duty and a joy in Aboriginal cultures: the land looks after you and you look after it. Looking after one small place is the daily form.",
       "variations": [
-        "Join a local group that restores bushland or cleans a waterway.",
-        "Learn which plants are native to your area and which are invaders.",
-        "Support an Indigenous ranger programme."
+        "Plant a native species.",
+        "Pick up litter along a creek.",
+        "Learn the names of five plants."
+      ]
+    },
+    {
+      "id": "learn-one-local-plant",
+      "name": "Learn one local plant",
+      "icon": "tree-evergreen",
+      "slot": "Afternoon",
+      "time": "14:30",
+      "minutes": 20,
+      "meta": "Afternoon · 20 min",
+      "instructions": "Choose one native plant in your area and learn about it: its name, how it grows, when it flowers, who eats it, and how Aboriginal people have used it, from a trusted source such as an Aboriginal-authored book or website. Find one in person. Look at the leaves and the bark. Do not pick or eat anything without expert guidance.",
+      "why": "Aboriginal people have deep knowledge of the uses of native plants for food, tools and medicine. Learning one plant well is a respectful beginning.",
+      "variations": [
+        "Visit a native plant nursery.",
+        "Draw the plant.",
+        "Learn its season."
+      ]
+    },
+    {
+      "id": "ngapartji-ngapartji",
+      "name": "Ngapartji ngapartji",
+      "icon": "handshake",
+      "slot": "Afternoon",
+      "time": "16:00",
+      "minutes": 15,
+      "meta": "Afternoon · 15 min",
+      "instructions": "Practise ngapartji ngapartji, I give you something and you give me something: reciprocal exchange. Offer someone a gift or a favour, and accept one from them. Teach a skill in return for learning one. Don’t keep score. In the Pitjantjatjara language it describes a relationship of mutual giving and learning. Sharing is a rule of this Onda.",
+      "why": "Ngapartji ngapartji is a Pitjantjatjara phrase for reciprocity, used in language-learning projects as the principle that learning is an exchange.",
+      "variations": [
+        "Swap a skill with a neighbour.",
+        "Trade recipes.",
+        "Offer to help in return for a lesson."
+      ]
+    },
+    {
+      "id": "keep-the-ball-up",
+      "name": "Keep the ball up",
+      "icon": "person-simple-throw",
+      "slot": "Afternoon",
+      "time": "17:30",
+      "minutes": 20,
+      "meta": "Afternoon · 20 min",
+      "instructions": "Play woggabaliri, a traditional kicking game of New South Wales: a small group stand in a circle and try to keep a ball or beanbag in the air using feet, knees, heads and elbows, counting the number of hits. Count aloud. The goal is a high score together. Play with friends or children.",
+      "why": "Woggabaliri is a cooperative game, played by Wiradjuri and other peoples, in which the group tries to beat its own record. It is fun and requires no equipment.",
+      "variations": [
+        "Use a soft ball.",
+        "Count in a local language.",
+        "Challenge a record."
+      ]
+    },
+    {
+      "id": "read-an-aboriginal-author",
+      "name": "Read an Aboriginal author",
+      "icon": "book-open",
+      "slot": "Afternoon",
+      "time": "13:30",
+      "minutes": 20,
+      "meta": "Afternoon · 20 min",
+      "instructions": "Read twenty minutes by an Aboriginal or Torres Strait Islander author: a poem, an essay, a children’s book or a chapter. Try Tyson Yunkaporta, Ellen van Neerven, Alexis Wright, Oodgeroo Noonuccal or Anita Heiss. Read slowly. Note one idea that is new to you and share it with someone.",
+      "why": "Aboriginal writers have produced some of Australia’s finest literature. Reading their own words is better than reading about them.",
+      "variations": [
+        "Read a poem of Oodgeroo.",
+        "Read a children’s picture book.",
+        "Borrow a book from the library."
       ]
     },
     {
       "id": "yarn",
       "name": "Yarn under the sky",
-      "icon": "moon-stars",
+      "icon": "chats",
       "slot": "Evening",
       "time": "20:00",
       "minutes": 20,
       "meta": "Evening · 20 min",
-      "instructions": "After dark, sit outside with the people of your household, or on your own, and look up. Let your eyes adjust. Look at the dark spaces as well as the stars. Then talk without hurry. Tell what happened to you today as a story, with a beginning and an end. Ask an older person for a story of theirs. Let silences be. Nobody needs to fix anything or reach a conclusion.",
-      "why": "Knowledge in Aboriginal societies is carried in story, song and conversation and passed between generations face to face. Yarning is the Aboriginal English word for this kind of talk. The night sky is part of it. Many peoples read the dark dust lanes of the Milky Way as an emu, whose changing position through the year shows when emus are laying.",
+      "instructions": "After dark, sit outside with the people of your household, or on your own, and look up. Let your eyes adjust. Look at the dark spaces as well as the stars. Then talk without hurry. Tell what happened to you today as a story, with a beginning and an end, and let others tell theirs. Listen to the whole of each. Yarning is a way of sharing knowledge and keeping ties.",
+      "why": "Yarning is the Aboriginal English word for a relaxed, respectful conversation, a way of sharing stories and building relationships. It is slow, circular and equal.",
       "variations": [
-        "Find the Emu in the Sky, stretching from the Southern Cross along the Milky Way. In the north, find the dark lanes anyway.",
-        "Hold a yarning circle in which each person speaks in turn and all are equal.",
-        "Listen to a recorded story told by an Elder."
-      ]
-    }
-  ],
-  "tasks": [
-    {
-      "id": "task-read-the-uluru-statement-from-the-heart",
-      "name": "Read the Uluru Statement from the Heart",
-      "meta": "Read · one page, 2017",
-      "time": "20:30",
-      "slot": "Evening",
-      "action": "read"
-    },
-    {
-      "id": "task-listen-to-the-album-gurrumul",
-      "name": "Listen to the album Gurrumul",
-      "meta": "Listen · Geoffrey Gurrumul Yunupingu, 2008, sung mostly in Yolŋu languages",
-      "time": "07:00",
-      "slot": "Morning",
-      "action": "listen"
-    },
-    {
-      "id": "task-look-at-earth-s-creation",
-      "name": "Look at Earth’s Creation",
-      "meta": "Art · Emily Kame Kngwarreye, 1994",
-      "time": "13:00",
-      "slot": "Afternoon",
-      "action": "art"
-    },
-    {
-      "id": "task-play-keentan",
-      "name": "Play keentan",
-      "meta": "Games · a jumping catch game from north-west Queensland",
-      "time": "16:00",
-      "slot": "Afternoon",
-      "action": "games"
-    },
-    {
-      "id": "task-journal-what-place-do-you-belong-to-and-what-do-you-owe-it",
-      "name": "Journal: what place do you belong to, and what do you owe it?",
-      "meta": "Journal · 10 min",
-      "time": "21:00",
-      "slot": "Evening",
+        "Sit around a candle or a small fire.",
+        "Tell the story of your day as a tale.",
+        "Ask an elder for a yarn."
+      ],
       "action": "journal"
     },
     {
-      "id": "task-do-you-own-land-or-does-it-own-you",
-      "name": "Do you own land, or does it own you?",
-      "meta": "Philosophy · 10 min",
-      "time": "09:30",
-      "slot": "Morning",
-      "action": "philosophy"
+      "id": "the-emu-in-the-sky",
+      "name": "The emu in the sky",
+      "icon": "moon-stars",
+      "slot": "Evening",
+      "time": "21:00",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "On a clear night, find the Milky Way and look for the dark shapes in it, not the stars. In many Aboriginal cultures the great emu is seen in the dark clouds of the Milky Way, stretching from the Southern Cross towards Scorpius. Its position tells when emu eggs are ready to gather, in autumn. Find the head near the Coalsack and follow the neck and body. Share this only as publicly told.",
+      "why": "Aboriginal astronomy is among the oldest in the world. The Emu in the Sky is one of the best-known examples, shared publicly by Elders such as Ray Norris.",
+      "variations": [
+        "Use a dark-sky app.",
+        "Look in April to June.",
+        "Draw the shape."
+      ]
     },
     {
-      "id": "learn-the-name-of-the-people-whose-country-you-are-on",
-      "name": "Learn the name of the people whose Country you are on",
-      "meta": "Whose Country",
-      "time": "10:30",
-      "slot": "Morning"
-    },
-    {
-      "id": "go-slowly-through-one-task-that-you-usually-rush",
-      "name": "Go slowly through one task that you usually rush",
-      "meta": "Yindyamarra",
-      "time": "12:00",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "ask-an-older-person-in-your-family-about-the-place-they-come-from",
-      "name": "Ask an older person in your family about the place they come from",
-      "meta": "Listening to Elders",
-      "time": "18:30",
-      "slot": "Evening"
-    },
-    {
-      "id": "treat-sit-outside-for-ten-minutes-and-name-three-birds-you-hear",
-      "name": "Sit outside for ten minutes and name three birds you hear",
-      "meta": "Listening first",
-      "time": "08:30",
-      "slot": "Morning"
-    },
-    {
-      "id": "treat-find-out-one-word-in-the-language-of-the-country-you-are-on",
-      "name": "Find out one word in the language of the Country you are on",
-      "meta": "Local language centres publish them",
-      "time": "15:30",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "treat-watch-the-stars-and-look-for-the-dark-shapes-between-them",
-      "name": "Watch the stars and look for the dark shapes between them",
-      "meta": "The Emu in the Sky is one",
+      "id": "listen-to-a-song",
+      "name": "Listen to a song",
+      "icon": "music-note",
+      "slot": "Evening",
       "time": "19:30",
-      "slot": "Evening"
+      "minutes": 20,
+      "meta": "Evening · 20 min",
+      "instructions": "Play an album or song by an Aboriginal artist: Gurrumul, Archie Roach, Kev Carmody, Yothu Yindi, Emily Wurramara or Baker Boy. Sit and listen all the way through. Notice the language, the instruments and the story. Support the artists by buying or streaming their work. Note that some artists have passed away.",
+      "why": "Aboriginal music ranges from the haunting voice of Gurrumul to the activism of Yothu Yindi. Listening carefully is respect.",
+      "variations": [
+        "Listen to Treaty by Yothu Yindi.",
+        "Listen with a translation of the lyrics.",
+        "Share a favourite with a friend."
+      ]
     },
     {
-      "id": "treat-listen-to-an-aboriginal-musician-for-one-whole-song",
-      "name": "Listen to an Aboriginal musician for one whole song",
-      "meta": "Then find out whose Country they are from",
-      "time": "15:30",
-      "slot": "Afternoon"
+      "id": "bake-damper",
+      "name": "Bake damper",
+      "icon": "bread",
+      "slot": "Evening",
+      "time": "18:00",
+      "minutes": 40,
+      "meta": "Evening · 40 min",
+      "instructions": "Bake damper: mix self-raising flour, a pinch of salt and enough water or milk to make a soft dough. Shape into a round, cut a cross on top and bake until golden, in a pan, an oven or on a camp stove. Eat it warm with butter and golden syrup. Damper was the bread of stockmen and travellers and is shared widely. Add wattleseed for a nutty note.",
+      "why": "Damper is a simple bread now loved by all Australians, and Aboriginal people have a long tradition of baking seed breads. Making it is easy and satisfying.",
+      "variations": [
+        "Add wattleseed.",
+        "Cook it on a campfire.",
+        "Share it with neighbours."
+      ]
     },
     {
-      "id": "daily-stand-outside-at-first-light-and-notice-which-birds-wake-fir",
-      "name": "Stand outside at first light and notice which birds wake first",
-      "meta": "Listening before doing",
-      "time": "07:15",
-      "slot": "Morning"
+      "id": "give-a-story-for-a-story",
+      "name": "Give a story for a story",
+      "icon": "chat-circle-text",
+      "slot": "Evening",
+      "time": "19:00",
+      "minutes": 20,
+      "meta": "Evening · 20 min",
+      "instructions": "Swap stories with someone this evening. Offer a story from your own life or family, and invite them to share one in return. Hear theirs to the end. Ngapartji ngapartji: I give you something, you give me something. Try to listen as much as you speak, and thank them. Do not retell their story without permission.",
+      "why": "Story-swapping builds trust and understanding. Respect for who owns a story is a fundamental principle in Aboriginal cultures.",
+      "variations": [
+        "Swap stories with an Elder.",
+        "Do it over dinner.",
+        "Write down your own story."
+      ]
     },
     {
-      "id": "daily-learn-to-say-the-name-of-one-local-place-the-way-its-first-p",
-      "name": "Learn to say the name of one local place the way its first people say it",
-      "meta": "Many language centres publish these online",
-      "time": "14:00",
-      "slot": "Afternoon"
+      "id": "a-quiet-end-to-the-day",
+      "name": "A quiet end to the day",
+      "icon": "cloud-moon",
+      "slot": "Evening",
+      "time": "21:30",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "End the day slowly and gently. Switch off screens, close the curtains, put things away softly, lower your voice and sit in the dark for a few breaths. Think of the people who have lived in this place before you, and wish them well. Acknowledge Country once more. Then rest.",
+      "why": "Closing the day with quiet thought is part of many cultures. Remembering those who came before gives it depth.",
+      "variations": [
+        "Say the acknowledgement in the dark.",
+        "Think of the Traditional Owners.",
+        "Listen to the night sounds."
+      ]
     },
     {
-      "id": "daily-look-for-the-dark-shapes-between-the-stars-if-the-sky-is-cle",
-      "name": "Look for the dark shapes between the stars, if the sky is clear",
-      "meta": "The Emu in the Sky is made of dark space, not stars",
-      "time": "20:30",
-      "slot": "Evening"
+      "id": "a-walk-with-an-aboriginal-guide",
+      "name": "A walk with an Aboriginal guide",
+      "icon": "path",
+      "slot": "Special",
+      "time": "09:00",
+      "minutes": 120,
+      "meta": "On a free morning · 120 min",
+      "instructions": "Take a tour or walk led by an Aboriginal guide in your area, learning about plants, places, history and living culture from the people themselves. Book in advance, pay the fee and listen. Ask questions with respect. Don’t take photographs where asked not to. Aboriginal-led tourism supports communities and gives the real thing.",
+      "why": "Aboriginal-led tours are the best way to learn about Country and culture from those who hold the knowledge. They also keep income in Aboriginal communities.",
+      "variations": [
+        "Visit an Aboriginal cultural centre.",
+        "Go to a bush tucker garden.",
+        "Support an Aboriginal tour company."
+      ]
     },
     {
-      "id": "daily-sit-in-the-dark-or-by-one-candle-for-ten-minutes-and-only-li",
-      "name": "Sit in the dark or by one candle for ten minutes and only listen",
-      "meta": "Dadirri, deep listening, needs no words",
-      "time": "20:30",
-      "slot": "Evening"
+      "id": "cook-with-native-foods",
+      "name": "Cook with native foods",
+      "icon": "cooking-pot",
+      "slot": "Special",
+      "time": "17:00",
+      "minutes": 90,
+      "meta": "On a free afternoon · 90 min",
+      "instructions": "Cook a meal using Australian native ingredients bought from Aboriginal-owned suppliers: wattleseed damper, kangaroo or a vegetable stew with lemon myrtle and native pepper, a salad with finger lime pearls. Share it with friends and tell them where each ingredient comes from. Buying native foods fairly supports Aboriginal enterprise.",
+      "why": "Native foods were the first cuisine of Australia. Cooking with them is delicious, ecological and, when sourced fairly, supportive.",
+      "variations": [
+        "Try finger lime.",
+        "Make a wattleseed dessert.",
+        "Serve with a native herb tea."
+      ]
     }
   ],
-  "immersePlan": [],
+  "tasks": [],
+  "immersePlan": [
+    {
+      "kind": "read",
+      "item": "read-sand-talk-how-indigenous-thinking-can-save-the-world",
+      "name": "Read from Sand Talk",
+      "text": "Read a chapter of Tyson Yunkaporta’s 2019 book, which uses patterns drawn in the sand to explain Indigenous systems of thought. Note one idea.",
+      "minutes": 25
+    },
+    {
+      "kind": "read",
+      "item": "read-talking-to-my-country",
+      "name": "Read Talking to My Country",
+      "text": "Read a chapter of Stan Grant’s 2016 book, on being Wiradjuri and Australian. Note a line you want to remember.",
+      "minutes": 25
+    },
+    {
+      "kind": "read",
+      "item": "read-welcome-to-country-a-travel-guide-to-indigenous-australia",
+      "name": "Read from Welcome to Country",
+      "text": "Read a section of Marcia Langton’s guide to Indigenous places and peoples. Choose a place to learn about.",
+      "minutes": 20
+    },
+    {
+      "kind": "watch",
+      "item": "watch-first-australians",
+      "name": "Watch an episode of First Australians",
+      "text": "Watch the first episode of Rachel Perkins’s documentary series on Aboriginal history since 1788, told through Aboriginal voices.",
+      "minutes": 55
+    },
+    {
+      "kind": "watch",
+      "item": "watch-ten-canoes",
+      "name": "Watch Ten Canoes",
+      "text": "Watch Rolf de Heer’s 2006 film made with the Yolŋu people of Arnhem Land, a story told in the Ganalbingu language.",
+      "minutes": 92
+    },
+    {
+      "kind": "watch",
+      "item": "watch-in-my-blood-it-runs",
+      "name": "Watch In My Blood It Runs",
+      "text": "Watch the 2019 documentary of a ten-year-old Arrernte boy and his struggle at school. Notice what he knows that school doesn’t.",
+      "minutes": 84
+    },
+    {
+      "kind": "listen",
+      "item": "listen-gurrumul",
+      "name": "Listen to Gurrumul",
+      "text": "Play the debut album of the blind Yolŋu singer Geoffrey Gurrumul Yunupingu, in Gumatj and English. Listen all the way through. This artist has passed away.",
+      "minutes": 40
+    },
+    {
+      "kind": "listen",
+      "item": "listen-charcoal-lane",
+      "name": "Listen to Charcoal Lane",
+      "text": "Play Archie Roach’s 1990 album, including Took the Children Away. A heavy, important record. This artist has passed away.",
+      "minutes": 40
+    },
+    {
+      "kind": "listen",
+      "item": "listen-from-little-things-big-things-grow",
+      "name": "Listen to From Little Things Big Things Grow",
+      "text": "Play Kev Carmody and Paul Kelly’s 1991 song about the Gurindji walk-off at Wave Hill. Follow the story.",
+      "minutes": 6
+    },
+    {
+      "kind": "art",
+      "item": "art-earth-s-creation",
+      "name": "Look at Earth’s Creation",
+      "text": "Look at Emily Kame Kngwarreye’s huge 1994 painting of the Anmatyerre country. Look for a full minute. This artist has passed away.",
+      "minutes": 10
+    },
+    {
+      "kind": "art",
+      "item": "art-the-yirrkala-bark-petitions",
+      "name": "Look at the Yirrkala Bark Petitions",
+      "text": "Look at the 1963 petitions painted on bark by Yolŋu leaders against mining on their land, the first Indigenous documents recognised by the Australian Parliament.",
+      "minutes": 10
+    },
+    {
+      "kind": "art",
+      "item": "art-watercolours-of-the-western-ranges",
+      "name": "Look at Namatjira’s watercolours",
+      "text": "Look at the desert landscapes painted by Arrernte artist Albert Namatjira in the Hermannsburg style. Pick one and describe the colours. This artist has passed away.",
+      "minutes": 10
+    },
+    {
+      "kind": "eat",
+      "item": "eat-wattleseed",
+      "name": "Taste wattleseed",
+      "text": "Taste roasted and ground wattleseed in coffee, bread or ice cream, bought from an Aboriginal-owned supplier. It tastes of chocolate, coffee and hazelnut.",
+      "minutes": 15
+    },
+    {
+      "kind": "eat",
+      "item": "eat-finger-lime",
+      "name": "Taste a finger lime",
+      "text": "Squeeze the pearls of a finger lime onto food, a native citrus often called lime caviar. Notice the pop.",
+      "minutes": 5
+    },
+    {
+      "kind": "eat",
+      "item": "eat-damper",
+      "name": "Bake damper",
+      "text": "Bake a simple flour-and-water bread in a pan or oven, and eat it warm with butter.",
+      "minutes": 40
+    },
+    {
+      "kind": "drink",
+      "item": "drink-lemon-myrtle-tea",
+      "name": "Brew lemon myrtle tea",
+      "text": "Steep lemon myrtle leaves in hot water and drink slowly. Breathe the aroma.",
+      "minutes": 10
+    },
+    {
+      "kind": "drink",
+      "item": "drink-flower-nectar-water",
+      "name": "Make a flower nectar drink",
+      "text": "Steep a few blossoms of banksia or a sweetly scented flower in water if you know they are safe, or simply sip water sweetened with honey. Avoid any plants you cannot identify.",
+      "minutes": 10
+    },
+    {
+      "kind": "drink",
+      "item": "drink-water",
+      "name": "Drink water from a known source",
+      "text": "Know where your water comes from, and drink a glass of it slowly, remembering that water is life in a dry country.",
+      "minutes": 5
+    },
+    {
+      "kind": "customs",
+      "item": "customs-welcome-to-country",
+      "name": "Learn about Welcome to Country",
+      "text": "Read how Welcome to Country is performed by Traditional Owners at the start of events. Acknowledge, but don’t perform.",
+      "minutes": 10
+    },
+    {
+      "kind": "customs",
+      "item": "customs-respect-for-elders",
+      "name": "Show respect to an Elder",
+      "text": "Greet an older person in your life as Aunty or Uncle if that is your custom, or with a special courtesy. Ask them for advice.",
+      "minutes": 10
+    },
+    {
+      "kind": "customs",
+      "item": "customs-sharing",
+      "name": "Share what you have",
+      "text": "Share something with someone without being asked: food, a tool, an hour. What you have belongs to everyone who needs it.",
+      "minutes": 15
+    },
+    {
+      "kind": "games",
+      "item": "games-marngrook",
+      "name": "Learn about Marngrook",
+      "text": "Read about the traditional kicking game of western Victoria, thought to have influenced Australian rules football. Kick a ball with friends.",
+      "minutes": 20
+    },
+    {
+      "kind": "games",
+      "item": "games-woggabaliri",
+      "name": "Play woggabaliri",
+      "text": "Keep a ball in the air with feet, knees and elbows in a group, counting aloud as a team.",
+      "minutes": 20
+    },
+    {
+      "kind": "games",
+      "item": "games-gorri",
+      "name": "Play gorri",
+      "text": "Play a target game: throw a stick or beanbag at a mark and see who is closest. Play with others and enjoy.",
+      "minutes": 20
+    },
+    {
+      "kind": "travel",
+      "item": "fest-naidoc-week",
+      "name": "Mark NAIDOC Week",
+      "text": "NAIDOC Week, in the first full week of July, celebrates Aboriginal and Torres Strait Islander history, culture and achievements. Attend an event or read an Indigenous author.",
+      "minutes": 30
+    },
+    {
+      "kind": "travel",
+      "item": "fest-national-reconciliation-week",
+      "name": "Mark Reconciliation Week",
+      "text": "From 27 May to 3 June, take one step toward reconciliation: learn a fact, read a book, speak to a neighbour.",
+      "minutes": 20
+    },
+    {
+      "kind": "travel",
+      "item": "place-uluru-and-kata-tjuta",
+      "name": "Look up Uluru and Kata Tjuta",
+      "text": "Look at pictures of the great sandstone formations, known to the Anangu as Uluru and Kata Tjuta, and read about the Anangu’s request not to climb. They are sacred places.",
+      "minutes": 15
+    },
+    {
+      "kind": "words",
+      "item": "word-dadirri",
+      "name": "Practise dadirri",
+      "text": "Dadirri is deep, quiet listening. Sit and listen to your surroundings for ten minutes.",
+      "minutes": 10
+    },
+    {
+      "kind": "words",
+      "item": "word-country",
+      "name": "Think about Country",
+      "text": "Country is the land, waters, sky and all living things, to which Aboriginal people belong. Name three things that live where you live.",
+      "minutes": 10
+    },
+    {
+      "kind": "words",
+      "item": "word-yarning",
+      "name": "Practise yarning",
+      "text": "Yarning is relaxed, respectful conversation. Spend twenty minutes in a yarn with someone with no agenda.",
+      "minutes": 20
+    }
+  ],
   "rules": [
     {
       "id": "r1",

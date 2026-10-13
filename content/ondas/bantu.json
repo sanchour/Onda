@@ -298,12 +298,12 @@
       "time": "07:30",
       "minutes": 15,
       "meta": "Morning · 15 min",
-      "instructions": "Take the first task of your day and do it at half your usual speed. Make the tea, wash, sweep, write the first message, walk to the bus, without rushing and without doing anything else at once. Give it your whole attention until it is properly finished. If someone speaks to you, stop and answer them fully before you go on. Notice what the hurry was for.",
-      "why": "The Swahili proverb says that hurry, hurry has no blessing, and pole pole, slowly, is advice heard every day from the coast to the lakes. Time in village life is measured by tasks and by people. Greeting a neighbour properly comes before the business one came for.",
+      "instructions": "Take the first task of your day and do it at half your usual speed. Make the tea, wash, sweep, write the first message, walk to the bus, without rushing and without doing anything else at once. Give it your whole attention. In Swahili, pole pole means slowly slowly. The rule of this Onda is to go slowly.",
+      "why": "Pole pole is a Swahili phrase heard across East Africa, meaning slowly, and the lesson that haste makes waste. Doing one thing slowly at the start steadies the day.",
       "variations": [
-        "Walk somewhere today without checking the time.",
-        "Let a conversation run until it is finished.",
-        "Say pole to someone who is tired or struggling."
+        "Eat breakfast at half speed.",
+        "Walk slowly to work.",
+        "Say pole pole to yourself when you rush."
       ]
     },
     {
@@ -314,12 +314,76 @@
       "time": "09:00",
       "minutes": 15,
       "meta": "Morning · 15 min",
-      "instructions": "Choose one thing that can only be done over a long time: a language, a debt, a skill, a field, a book, a friendship. Give it fifteen minutes today, and only fifteen. Do a small, definite piece and stop. Mark the day on a calendar. Tomorrow add the next piece. Do not try to make up for lost days, and do not skip one because the piece seems too small to matter.",
-      "why": "Haba na haba hujaza kibaba: little by little fills the measure. The proverb comes from a world of farmers who cleared forest with hoes and built granaries a basket at a time. Village savings circles, in which each member puts in a small sum every week, work on the same principle.",
+      "instructions": "Choose one thing that can only be done over a long time: a language, a debt, a skill, a field, a book, a friendship. Give it fifteen minutes today, and only fifteen. Do a small, definite piece and stop. Mark the day on a calendar. In Swahili the proverb is haba na haba hujaza kibaba, little and little fills the measure. The rule is to add a little every day.",
+      "why": "Haba na haba hujaza kibaba is a Swahili proverb that sums up patient accumulation. Fifteen minutes every day beats a rush once a month.",
       "variations": [
-        "Put aside one coin a day.",
-        "Learn three words a day of a Bantu language.",
-        "Start a savings circle with friends."
+        "Mark an X on a calendar daily.",
+        "Save one coin.",
+        "Learn three words of a language."
+      ]
+    },
+    {
+      "id": "shikamoo",
+      "name": "Shikamoo",
+      "icon": "hand-heart",
+      "slot": "Morning",
+      "time": "08:00",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Greet each older person you meet today with respect. In Swahili the young say shikamoo, I hold your feet, and the elder answers marahaba, I am pleased. Look them in the face, bow your head slightly and ask how they are. Use mzee for an older man and bibi or mama for a woman. Honour your elders is a rule of this Onda.",
+      "why": "Shikamoo is the Swahili greeting of respect to elders, used across Tanzania and Kenya. Learning it is a polite gesture with real warmth.",
+      "variations": [
+        "Greet your oldest relative with it.",
+        "Teach a child the reply.",
+        "Ask the elder a question about their life."
+      ]
+    },
+    {
+      "id": "the-long-handshake",
+      "name": "The long handshake",
+      "icon": "handshake",
+      "slot": "Morning",
+      "time": "08:30",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Greet people today with a proper, unhurried handshake, holding hands a little longer while you ask about their day, health, family and work. In many parts of East and southern Africa a greeting is a conversation, not a nod. Do not rush through it. Wait for the full answer before you go on.",
+      "why": "Long greetings are part of many Bantu cultures, where meeting someone is an event. Habari za asubuhi, how is the morning, is asked with care.",
+      "variations": [
+        "Use two hands.",
+        "Greet three people this way.",
+        "Learn habari in Swahili."
+      ]
+    },
+    {
+      "id": "a-cup-of-spiced-tea",
+      "name": "A cup of spiced tea",
+      "icon": "coffee",
+      "slot": "Morning",
+      "time": "07:00",
+      "minutes": 15,
+      "meta": "Morning · 15 min",
+      "instructions": "Make chai, tea boiled with milk, ginger and cardamom, in the East African manner. Simmer the tea in water and milk with spices and sugar, strain and serve in cups. Sit down and drink it with a snack, such as a mandazi, a fried dough. Offer a cup to anyone who comes to your door.",
+      "why": "Chai is the daily drink of Swahili-speaking East Africa, offered to every visitor. A cup of it is the heart of hospitality.",
+      "variations": [
+        "Add black pepper.",
+        "Serve with fried dough.",
+        "Make a pot for a neighbour."
+      ]
+    },
+    {
+      "id": "pull-together",
+      "name": "Pull together",
+      "icon": "users-three",
+      "slot": "Morning",
+      "time": "09:30",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Think of one task today that would be easier with others, and ask someone to join. Harambee, in Swahili, means let us all pull together, Kenya’s national motto. Combine efforts: shared lifts, shared chores, shared costs. Say thank you to each person. The rule of this Onda is to do it together.",
+      "why": "Harambee is a Kenyan tradition of community self-help, in which neighbours pool resources to build a school or pay a fee. Calling for it today is simple.",
+      "variations": [
+        "Ask three people for one small thing.",
+        "Pool money for a small project.",
+        "Organise a shared meal."
       ]
     },
     {
@@ -330,28 +394,92 @@
       "time": "14:00",
       "minutes": 20,
       "meta": "Afternoon · 20 min",
-      "instructions": "Spend twenty minutes on a place that belongs to everyone and so to no one: the pavement outside your door, a stairwell, a path, a park, a bus shelter. Sweep it, clear the litter, unblock the drain, cut back what is overgrown. Ask a neighbour to join you. Afterwards stand for a minute and talk with whoever is there about what else the place needs.",
-      "why": "In Rwanda the last Saturday morning of every month is umuganda. Shops close, traffic stops and each neighbourhood turns out to clean streets, dig ditches and build houses for those in need, and then holds a meeting. Kenyans call such joint effort harambee, and Tswana speakers letsema.",
+      "instructions": "Spend twenty minutes on a place that belongs to everyone and so to no one: the pavement outside your door, a stairwell, a path, a park, a bus shelter. Sweep it, clear the litter, unblock the drain, cut back what is overgrown. Do it with others if you can. In Rwanda, umuganda is the monthly day of community work. The rule is to keep the common ground.",
+      "why": "Umuganda, from Kinyarwanda, is a monthly morning of public work in Rwanda, when everyone cleans and builds together. It keeps shared places lovely.",
       "variations": [
-        "Fix a day each month for your street to do this together.",
-        "Help build or repair something for a neighbour who cannot.",
-        "Go to a local public meeting."
+        "Do it with a neighbour.",
+        "Plant a tree.",
+        "Report something you cannot fix."
       ]
     },
     {
       "id": "methali",
       "name": "Carry a proverb",
-      "icon": "chats",
+      "icon": "quotes",
       "slot": "Afternoon",
       "time": "16:00",
       "minutes": 10,
       "meta": "Afternoon · 10 min",
-      "instructions": "Learn one proverb today, from this Onda or from your own grandparents. Say it aloud until you have it by heart. Then think of one situation in your life that it fits, and one that it does not. Before the day ends, use it in conversation in place of giving advice or winning an argument. Write it in your journal with the date.",
-      "why": "In Bantu-speaking societies a proverb is the proper way to make a point. Elders settle disputes with them, parents correct children with them, and a speaker who uses them well is thought wise. They put a hard truth indirectly, so that no one is shamed. Collections in Swahili, Shona, Kikuyu and Zulu run to thousands.",
+      "instructions": "Learn one proverb today, from this Onda or from your own grandparents. Say it aloud until you have it by heart. Then think of one situation in your life that it fits, and one that it does not. Before the day ends, use it in a conversation. A Swahili example: mgeni njoo, mwenyeji apone, let the guest come so that the host may be healed. Methali is the Swahili word for proverbs.",
+      "why": "Proverbs are the wisdom of Bantu-speaking peoples, spoken in conversation to make a point gently. A proverb carried through a day changes how you listen.",
       "variations": [
-        "Ask an older relative for a saying from their childhood.",
-        "Answer a question today with a proverb and nothing more.",
-        "Collect one proverb a day for the month."
+        "Learn one from each language.",
+        "Ask an elder for one.",
+        "Write it on a card."
+      ]
+    },
+    {
+      "id": "play-bao",
+      "name": "Play bao",
+      "icon": "cube",
+      "slot": "Afternoon",
+      "time": "16:30",
+      "minutes": 30,
+      "meta": "Afternoon · 30 min",
+      "instructions": "Play a sowing game, such as bao or omweso: draw a board with four rows of holes and use pebbles or seeds. Players take turns scooping seeds from a hole and sowing them one by one in the following holes, capturing when they land in a hole facing an occupied one. Play with a friend and talk. Bao is played all along the Swahili coast and is rich and subtle.",
+      "why": "Bao is among the most sophisticated board games in the world, played for centuries in East Africa. A simple version is easy to learn.",
+      "variations": [
+        "Use egg boxes as a board.",
+        "Teach a child.",
+        "Play a round at a café."
+      ]
+    },
+    {
+      "id": "toss-the-stones",
+      "name": "Toss the stones",
+      "icon": "circle",
+      "slot": "Afternoon",
+      "time": "15:00",
+      "minutes": 15,
+      "meta": "Afternoon · 15 min",
+      "instructions": "Play nhodo, the Zimbabwean stone game: toss a stone into the air, and while it is up, pick up as many other stones as you can before catching it. Start with one stone and go up. Play on a flat spot with small, smooth pebbles. Children in Shona communities play it in the shade after school.",
+      "why": "Nhodo is a Shona game of skill and speed, played with stones and agile hands. It is cheap and fun.",
+      "variations": [
+        "Play against a friend.",
+        "Count your catches.",
+        "Teach a child."
+      ]
+    },
+    {
+      "id": "a-pot-of-ugali-and-greens",
+      "name": "A pot of ugali and greens",
+      "icon": "cooking-pot",
+      "slot": "Afternoon",
+      "time": "12:30",
+      "minutes": 40,
+      "meta": "Afternoon · 40 min",
+      "instructions": "Cook a simple meal of ugali, a stiff maize porridge, with sukuma wiki, collard greens fried with onion and tomato. Stir the maize meal into boiling water until thick and firm, shape it into a mound and serve with the greens. Eat with your right hand, using a bit of ugali to scoop. Wash hands first and share the dish.",
+      "why": "Ugali and greens is a daily meal across East Africa, cheap, filling and shared. Eating together from the common dish builds closeness.",
+      "variations": [
+        "Add fried fish.",
+        "Make it for guests.",
+        "Eat sitting on a mat."
+      ]
+    },
+    {
+      "id": "save-a-coin-together",
+      "name": "Save a coin together",
+      "icon": "coins",
+      "slot": "Afternoon",
+      "time": "17:00",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Start a small circle of saving with friends or family: each person puts a coin or a note in a jar each week, and the whole amount goes to one person in turn, or to a shared purpose. In Swahili it is called a chama; in Zambia a kwacha club. Agree on a small sum and a list. It builds trust.",
+      "why": "Savings groups are common across Africa and put the Bantu ideal of mutual help into practice. They need only a jar and trust.",
+      "variations": [
+        "Start with two friends.",
+        "Save for a gift for a neighbour.",
+        "Keep a notebook of contributions."
       ]
     },
     {
@@ -362,143 +490,341 @@
       "time": "19:30",
       "minutes": 20,
       "meta": "Evening · 20 min",
-      "instructions": "After the evening meal, tell a story aloud to whoever is in the house. Begin with a call that your listeners must answer, such as story, story, and wait for story, come. Tell a tale you were told, or what happened today as if it were a tale. Give it a short line or a song that comes round several times, for everyone to join in. End with what the story is for.",
-      "why": "Before writing, everything was carried in spoken word, and the evening fire was the school. Folktales of the clever hare and the greedy hyena are told from Cameroon to the Cape, with a set opening exchange and with songs that the audience sings. The drum, the ngoma, turns the same gathering into dance.",
+      "instructions": "After the evening meal, tell a story aloud to whoever is in the house. Begin with a call that your listeners must answer, such as story, story, and wait for story, come. Tell a tale you were told, or what happened today as if it were a tale. Let the listeners join in with a chorus. End with a lesson or a laugh. Hadithi is the Swahili word for a story.",
+      "why": "Storytelling with call and response is a Bantu tradition from Kenya to South Africa. Every tale ends with a moral and a song.",
       "variations": [
-        "Tell a hare story to a child.",
-        "Clap a steady rhythm together and let people take turns over it.",
-        "Ask the oldest person present for a story."
-      ]
-    }
-  ],
-  "tasks": [
-    {
-      "id": "task-read-a-chapter-of-the-river-between",
-      "name": "Read a chapter of The River Between",
-      "meta": "Read · Ngũgĩ wa Thiong’o, 1965",
-      "time": "20:30",
-      "slot": "Evening",
-      "action": "read"
-    },
-    {
-      "id": "task-listen-to-mbira-music",
-      "name": "Listen to mbira music",
-      "meta": "Listen · Stella Chiweshe, or any recording of the Shona mbira",
-      "time": "07:00",
-      "slot": "Morning",
-      "action": "listen"
-    },
-    {
-      "id": "task-look-at-a-luba-memory-board",
-      "name": "Look at a Luba memory board",
-      "meta": "Art · a lukasa, read with the fingers",
-      "time": "13:00",
-      "slot": "Afternoon",
-      "action": "art"
-    },
-    {
-      "id": "task-play-bao",
-      "name": "Play bao",
-      "meta": "Games · the sowing game of the Swahili coast, or any mancala",
-      "time": "18:30",
-      "slot": "Evening",
-      "action": "games"
-    },
-    {
-      "id": "task-journal-what-did-you-add-to-today-little-by-little",
-      "name": "Journal: what did you add to today, little by little?",
-      "meta": "Journal · 10 min",
-      "time": "21:00",
-      "slot": "Evening",
+        "Tell the hare and tortoise tale.",
+        "Invite each person to add a line.",
+        "Tell it to a child at bedtime."
+      ],
       "action": "journal"
     },
     {
-      "id": "task-can-one-head-carry-a-roof",
-      "name": "Can one head carry a roof?",
-      "meta": "Philosophy · 10 min",
-      "time": "09:30",
-      "slot": "Morning",
-      "action": "philosophy"
+      "id": "beat-a-rhythm",
+      "name": "Beat a rhythm",
+      "icon": "waveform",
+      "slot": "Evening",
+      "time": "20:00",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Make a rhythm with drums, pots, tins or your hands and clap along. Choose a simple pattern and add a second one on top. Ngoma, in Swahili and many Bantu languages, means drum, dance, music and festival together. Play with friends or alone, and let others join. Keep the beat steady and let it speed up.",
+      "why": "Ngoma is the central word for rhythmic music and dance in many Bantu languages. A drumming circle is one of the oldest ways of being together.",
+      "variations": [
+        "Use pots and pans.",
+        "Add a shaker made from a tin.",
+        "Dance to the beat."
+      ]
     },
     {
-      "id": "greet-an-older-person-first-and-ask-for-their-news",
-      "name": "Greet an older person first, and ask for their news",
-      "meta": "Shikamoo",
-      "time": "10:30",
-      "slot": "Morning"
-    },
-    {
-      "id": "welcome-someone-in-and-feed-them",
-      "name": "Welcome someone in and feed them",
-      "meta": "Karibu",
-      "time": "12:30",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "eat-from-a-shared-dish-tonight",
-      "name": "Eat from a shared dish tonight",
-      "meta": "The common plate",
-      "time": "18:00",
-      "slot": "Evening"
-    },
-    {
-      "id": "treat-eat-with-your-hand-from-a-shared-plate-if-your-company-agree",
-      "name": "Eat with your hand from a shared plate, if your company agrees",
-      "meta": "Right hand",
-      "time": "19:30",
-      "slot": "Evening"
-    },
-    {
-      "id": "treat-learn-to-count-to-five-in-swahili",
-      "name": "Learn to count to five in Swahili",
-      "meta": "Moja, mbili, tatu, nne, tano",
-      "time": "08:30",
-      "slot": "Morning"
-    },
-    {
-      "id": "treat-dance-to-one-rumba-or-benga-track-in-the-kitchen",
-      "name": "Dance to one rumba or benga track in the kitchen",
-      "meta": "Hips first",
-      "time": "15:30",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "treat-tell-a-child-or-a-friend-a-story-with-an-animal-in-it",
-      "name": "Tell a child or a friend a story with an animal in it",
-      "meta": "The hare usually wins",
-      "time": "19:30",
-      "slot": "Evening"
-    },
-    {
-      "id": "daily-give-a-neighbour-a-long-proper-greeting-and-ask-after-their-",
-      "name": "Give a neighbour a long, proper greeting and ask after their family",
-      "meta": "The greeting is part of the news",
-      "time": "07:15",
-      "slot": "Morning"
-    },
-    {
-      "id": "daily-carry-something-for-someone-without-being-asked",
-      "name": "Carry something for someone without being asked",
-      "meta": "A bag, a door, a chair",
-      "time": "14:00",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "daily-learn-one-swahili-word-and-use-it-twice-today",
-      "name": "Learn one Swahili word and use it twice today",
-      "meta": "Asante is a good one",
-      "time": "14:00",
-      "slot": "Afternoon"
-    },
-    {
-      "id": "daily-ask-an-older-person-for-a-saying-they-grew-up-with",
-      "name": "Ask an older person for a saying they grew up with",
-      "meta": "Write it down",
+      "id": "dance-to-pata-pata",
+      "name": "Dance to Pata Pata",
+      "icon": "music-note",
+      "slot": "Evening",
       "time": "20:30",
-      "slot": "Evening"
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Play Miriam Makeba’s Pata Pata, the 1967 song from South Africa, and dance. The title means touch touch in Xhosa, a township dance. Sway your hips, step side to side and clap. Add Bi Kidude’s Zanzibar taarab or Franco’s rumba for variety. Dance until you laugh.",
+      "why": "Pata Pata made Miriam Makeba a world star, and was born in the shebeens of Johannesburg. It is among Africa’s most joyful songs.",
+      "variations": [
+        "Dance with a friend.",
+        "Learn the words.",
+        "Teach a child the steps."
+      ]
+    },
+    {
+      "id": "sit-in-a-circle",
+      "name": "Sit in a circle",
+      "icon": "users",
+      "slot": "Evening",
+      "time": "19:00",
+      "minutes": 30,
+      "meta": "Evening · 30 min",
+      "instructions": "Hold a kgotla, a circle of talk: gather your household or friends and discuss one matter, every person speaking in turn, from youngest to eldest or the other way round. Nobody interrupts. The aim is to hear everyone and reach agreement. In Botswana the kgotla is the village assembly where anyone may speak to the chief.",
+      "why": "The kgotla of the Tswana is a model of consultation, where every adult may speak. A household version resolves things peacefully.",
+      "variations": [
+        "Settle a household question.",
+        "Use a stick as a speaking token.",
+        "End with a decision."
+      ]
+    },
+    {
+      "id": "leave-a-place-for-the-stranger",
+      "name": "Leave a place for the stranger",
+      "icon": "armchair",
+      "slot": "Evening",
+      "time": "18:30",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Set an extra place or a spare seat for an unexpected guest, and welcome whoever arrives. Karibu, welcome, is the first word a visitor hears in Swahili. Offer water, a seat and tea before asking anything. Even if no one comes, you have prepared. The rule of this Onda is to welcome the stranger.",
+      "why": "Hospitality to strangers is a deep Bantu value, summed up in the Swahili proverb mgeni njoo, mwenyeji apone. A guest is a blessing.",
+      "variations": [
+        "Call a neighbour to share the meal.",
+        "Say karibu to everyone who comes.",
+        "Offer a drink first."
+      ]
+    },
+    {
+      "id": "thank-the-elders-and-the-dead",
+      "name": "Thank the elders and the dead",
+      "icon": "heart",
+      "slot": "Evening",
+      "time": "21:00",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Before bed, think of the elders of your family and community, living and dead, and say thank you for one thing each gave you. In many Bantu cultures the dead remain part of the family and are remembered by name. Light a candle or pour a little water on the earth. Honour your elders and your dead is a rule of this Onda.",
+      "why": "Respect for ancestors is a central theme across Bantu-speaking cultures. A moment of remembrance is a quiet way to end the day.",
+      "variations": [
+        "Tell a story of an ancestor.",
+        "Look at an old photograph.",
+        "Pour a little water outside."
+      ]
+    },
+    {
+      "id": "a-harambee-for-a-neighbour",
+      "name": "A harambee for a neighbour",
+      "icon": "hammer",
+      "slot": "Special",
+      "time": "10:00",
+      "minutes": 120,
+      "meta": "On a free morning · 120 min",
+      "instructions": "Organise a harambee, a pull-together, for a neighbour or a community project: a garden, a repair, a clean-up, a fundraiser. Invite friends, bring tools and food, and work together for a morning. Let the person helped give thanks and offer a meal. The results are quick and the friendship lasts.",
+      "why": "Harambee is a Kenyan tradition of community self-help. Doing one is the best way to experience the spirit of it.",
+      "variations": [
+        "Choose a project that has waited.",
+        "Bring children to help.",
+        "End with chai and mandazi."
+      ]
+    },
+    {
+      "id": "a-swahili-coast-feast",
+      "name": "A Swahili-coast feast",
+      "icon": "bowl-steam",
+      "slot": "Special",
+      "time": "17:00",
+      "minutes": 120,
+      "meta": "On a free afternoon · 120 min",
+      "instructions": "Cook a feast of the Swahili coast: pilau, spiced rice with meat or vegetables, coconut beans, greens, grilled fish and fresh fruit. Serve it on a big mat with a shared dish, and wash hands first. Invite friends, play bao and drink spiced tea. The Swahili coast has welcomed traders and travellers for a thousand years.",
+      "why": "Swahili cuisine blends African, Arab, Indian and Portuguese influences. A feast is a delicious way to taste a thousand years of trade.",
+      "variations": [
+        "Serve it on banana leaves.",
+        "Add a kachumbari salad.",
+        "End with dates and tea."
+      ]
     }
   ],
-  "immersePlan": [],
+  "tasks": [],
+  "immersePlan": [
+    {
+      "kind": "read",
+      "item": "read-unbowed",
+      "name": "Read from Unbowed",
+      "text": "Read a chapter of Wangari Maathai’s 2006 memoir of growing up in Kenya and planting millions of trees. Note how she describes the land.",
+      "minutes": 25
+    },
+    {
+      "kind": "read",
+      "item": "read-the-river-between",
+      "name": "Read from The River Between",
+      "text": "Read a chapter of Ngũgĩ wa Thiong’o’s 1965 novel of two Kikuyu ridges and the coming of missionaries. Notice the landscape.",
+      "minutes": 25
+    },
+    {
+      "kind": "read",
+      "item": "read-paradise",
+      "name": "Read from Paradise",
+      "text": "Read a chapter of Abdulrazak Gurnah’s 1994 novel set in East Africa in the early 1900s. Gurnah won the Nobel Prize in 2021.",
+      "minutes": 25
+    },
+    {
+      "kind": "watch",
+      "item": "watch-the-boy-who-harnessed-the-wind",
+      "name": "Watch The Boy Who Harnessed the Wind",
+      "text": "Watch the 2019 film of a Malawian boy who builds a windmill from scrap to save his village. It is true and inspiring.",
+      "minutes": 113
+    },
+    {
+      "kind": "watch",
+      "item": "watch-neria",
+      "name": "Watch Neria",
+      "text": "Watch the 1993 Zimbabwean film about a widow fighting for her rights. Notice the landscape and the language, Shona.",
+      "minutes": 93
+    },
+    {
+      "kind": "watch",
+      "item": "watch-felicite",
+      "name": "Watch Félicité",
+      "text": "Watch Alain Gomis’s 2017 film of a Kinshasa singer searching for money to save her son. The music is the heart of it.",
+      "minutes": 123
+    },
+    {
+      "kind": "listen",
+      "item": "listen-pata-pata",
+      "name": "Listen to Pata Pata",
+      "text": "Play Miriam Makeba’s 1967 hit and dance for three minutes. This artist has passed away.",
+      "minutes": 5
+    },
+    {
+      "kind": "listen",
+      "item": "listen-ambuya",
+      "name": "Listen to Stella Chiweshe",
+      "text": "Play Stella Chiweshe’s 1987 album of mbira music from Zimbabwe, shimmering and hypnotic. Close your eyes.",
+      "minutes": 35
+    },
+    {
+      "kind": "listen",
+      "item": "listen-zanzibar",
+      "name": "Listen to Bi Kidude",
+      "text": "Play Bi Kidude’s 1998 taarab album from Zanzibar, with a voice that has seen a century. This artist has passed away.",
+      "minutes": 40
+    },
+    {
+      "kind": "art",
+      "item": "art-the-zimbabwe-birds",
+      "name": "Look at the Zimbabwe birds",
+      "text": "Look at the carved soapstone birds from Great Zimbabwe, now on the national flag. Study the details of each.",
+      "minutes": 10
+    },
+    {
+      "kind": "art",
+      "item": "art-kuba-cloth",
+      "name": "Look at Kuba cloth",
+      "text": "Look at the raffia cloth of the Kuba kingdom in Congo, with geometric embroidered patterns. Pick a pattern to draw.",
+      "minutes": 10
+    },
+    {
+      "kind": "art",
+      "item": "art-ndebele-house-painting",
+      "name": "Look at Ndebele house painting",
+      "text": "Look at the bold geometric house paintings of the Ndebele women, with Esther Mahlangu as the best known. Copy a pattern.",
+      "minutes": 10
+    },
+    {
+      "kind": "eat",
+      "item": "eat-ugali",
+      "name": "Make ugali",
+      "text": "Stir maize meal into boiling water until firm, shape and serve with a stew or greens. Eat with your right hand.",
+      "minutes": 30
+    },
+    {
+      "kind": "eat",
+      "item": "eat-greens",
+      "name": "Cook sukuma wiki",
+      "text": "Fry collard greens with onion and tomato until soft. Serve with ugali.",
+      "minutes": 25
+    },
+    {
+      "kind": "eat",
+      "item": "eat-pilau",
+      "name": "Cook pilau",
+      "text": "Cook rice in a spiced broth of cumin, cardamom, cloves and cinnamon with meat or vegetables. Serve on a big plate.",
+      "minutes": 60
+    },
+    {
+      "kind": "drink",
+      "item": "drink-spiced-tea",
+      "name": "Brew chai",
+      "text": "Boil tea with milk, ginger and cardamom, and serve in cups. Drink with a snack.",
+      "minutes": 15
+    },
+    {
+      "kind": "drink",
+      "item": "drink-palm-wine",
+      "name": "Drink fresh palm or coconut juice",
+      "text": "Palm wine is tapped from the palm tree and ferments within hours. Drink fresh coconut water or palm juice instead, and learn how the tapper climbs.",
+      "minutes": 10
+    },
+    {
+      "kind": "drink",
+      "item": "drink-banana-beer",
+      "name": "Drink banana juice",
+      "text": "Banana beer is a staple of the Great Lakes. Drink a glass of fresh banana juice or a smoothie, and read about how the brewers make it.",
+      "minutes": 10
+    },
+    {
+      "kind": "customs",
+      "item": "customs-greeting-an-elder",
+      "name": "Greet an elder with shikamoo",
+      "text": "Greet an older person respectfully, and teach the reply, marahaba.",
+      "minutes": 5
+    },
+    {
+      "kind": "customs",
+      "item": "customs-washing-hands-and-the-common-dish",
+      "name": "Wash hands and eat from a common dish",
+      "text": "Wash your hands before the meal and eat with others from one dish, taking from your own side.",
+      "minutes": 30
+    },
+    {
+      "kind": "customs",
+      "item": "customs-the-long-handshake",
+      "name": "Greet with a long handshake",
+      "text": "Hold hands a little longer while asking about someone’s day, family and health.",
+      "minutes": 5
+    },
+    {
+      "kind": "games",
+      "item": "games-bao",
+      "name": "Play bao",
+      "text": "Play the sowing game on a board of holes with seeds. Play several rounds.",
+      "minutes": 30
+    },
+    {
+      "kind": "games",
+      "item": "games-omweso",
+      "name": "Play omweso",
+      "text": "Play the Ugandan cousin of bao with seeds or pebbles on four rows of holes.",
+      "minutes": 25
+    },
+    {
+      "kind": "games",
+      "item": "games-nhodo",
+      "name": "Play nhodo",
+      "text": "Toss a stone and pick up others before it lands. Play with a friend.",
+      "minutes": 15
+    },
+    {
+      "kind": "travel",
+      "item": "fest-kuomboka",
+      "name": "Look up Kuomboka",
+      "text": "Look at pictures of the Lozi people’s ceremony in western Zambia when the king moves from the flooded plain to higher ground by royal barge.",
+      "minutes": 10
+    },
+    {
+      "kind": "travel",
+      "item": "fest-world-kiswahili-language-day",
+      "name": "Mark World Kiswahili Language Day",
+      "text": "On 7 July, learn a few Swahili phrases and use them with someone: karibu, asante, pole pole.",
+      "minutes": 15
+    },
+    {
+      "kind": "travel",
+      "item": "place-great-zimbabwe",
+      "name": "Look up Great Zimbabwe",
+      "text": "Look at pictures of the ruined stone city, built between the 11th and 15th centuries. Imagine its markets.",
+      "minutes": 10
+    },
+    {
+      "kind": "words",
+      "item": "word-karibu",
+      "name": "Practise karibu",
+      "text": "Karibu means welcome. Say it to every person who comes to you today.",
+      "minutes": 5
+    },
+    {
+      "kind": "words",
+      "item": "word-pole",
+      "name": "Practise pole",
+      "text": "Pole is a Swahili word of sympathy, I am sorry for your trouble. Say it to someone who has had a hard day.",
+      "minutes": 5
+    },
+    {
+      "kind": "words",
+      "item": "word-harambee",
+      "name": "Practise harambee",
+      "text": "Harambee means pull together. Ask for or give help on one task today.",
+      "minutes": 10
+    }
+  ],
   "rules": [
     {
       "id": "r1",

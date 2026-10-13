@@ -125,4 +125,4 @@ export const OndaIndexSchema = z.object({ id: z.string(), name: z.string(), orig
 export type OndaIndex = z.infer<typeof OndaIndexSchema>
 
 /** Quality bar for the shipped Ondas (enforced by `npm run content:check` and a unit test). */
-export const SHIPPED_MINIMUMS = { words: 30, journal: 30, reflect: 5, dayThemes: 30, history: 10, concepts: 8, practices: 5, rules: 4 } as const
+export const SHIPPED_MINIMUMS = { words: 30, journal: 30, reflect: 5, dayThemes: 30, history: 10, concepts: 8, practices: 20, rules: 4 } as const

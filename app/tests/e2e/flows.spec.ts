@@ -638,10 +638,10 @@ test.describe('Update 5.0', () => {
     await expect(row).toHaveAttribute('aria-checked', before ?? 'false')
   })
 
-  test('Settings shows version 5.2.1; switching light and dark repaints the top strip, reloads once and returns to the same screen', async ({ page }) => {
+  test('Settings shows version 6.0; switching light and dark repaints the top strip, reloads once and returns to the same screen', async ({ page }) => {
     await seedDemo(page)
     await tap(page, 'Settings')
-    await expect(page.getByText('Onda 5.2.1')).toBeVisible()
+    await expect(page.getByText('Onda 6.0')).toBeVisible()
     const bar = () =>
       page.evaluate(() => {
         const strip = document.getElementById('status-strip')!

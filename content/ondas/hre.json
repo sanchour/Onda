@@ -303,12 +303,12 @@
       "time": "06:00",
       "minutes": 5,
       "meta": "Morning · 5 min",
-      "instructions": "Set four bells for the day and obey them. One to rise. One to begin work. One at noon, when you stop, stand still for a minute and eat. One in the evening that ends the working day for good. When the morning bell rings, get up at once, wash, and keep one minute of silence or say a prayer before you begin. Do not start early and do not run over. Let the bell decide.",
-      "why": "Life in the towns and abbeys of the Empire ran on bells. They called monks to the eight offices, opened and closed the gates and the market, marked noon, and rang in the evening rest. The rule of Saint Benedict, followed in hundreds of imperial abbeys, divided every day between prayer, reading and manual work.",
+      "instructions": "Set four bells for the day and obey them. One to rise. One to begin work. One at noon, when you stop, stand still for a minute and eat. One in the evening that ends the working day for good. When the morning bell rings, get up at once, wash and begin without bargaining. The rule of this Onda is to keep the hours.",
+      "why": "Medieval towns lived by the bell, which marked work, meals, markets and curfew. Keeping the hours gives the day a firm frame.",
       "variations": [
-        "Use a real bell or a single plain chime, never an alarm tune.",
-        "Add a fifth bell for a mid-afternoon pause.",
-        "Find the nearest church bells and learn what each ringing means."
+        "Use four phone alarms with different tones.",
+        "Obey the noon bell with a minute of stillness.",
+        "Ring a small bell yourself."
       ]
     },
     {
@@ -319,177 +319,516 @@
       "time": "08:00",
       "minutes": 45,
       "meta": "Morning · 45 min",
-      "instructions": "Choose one thing in your trade or craft that you will make this month entirely yourself and as well as it can be made: a piece of writing, a joint, a garment, a program, a loaf. Work on it for forty-five minutes today with no shortcuts and no one else’s hand in it. Check it against the best example you know. When it is finished, put your mark on it and show it to someone qualified to judge.",
-      "why": "No one could open a workshop in a guild town without presenting a masterpiece to the sworn masters of the craft, made alone, to set specifications. Goods were inspected and stamped, and a master who sold bad work was fined or expelled. The system was restrictive, and it made German metalwork, clocks and instruments famous.",
+      "instructions": "Choose one thing in your trade or craft that you will make this month entirely yourself and as well as it can be made: a piece of writing, a joint, a garment, a program, a loaf. Work on it for forty-five minutes today without distraction. Do not hurry and do not cut corners. Sign it when it is finished. The rule of this Onda is to do honest work and mark it.",
+      "why": "The Meisterstück was the piece a journeyman made to be admitted as a master of his guild. A personal masterpiece gives work a purpose.",
       "variations": [
-        "Design a maker’s mark and use it only on work you are proud of.",
-        "Ask a master of your craft to tell you what is wrong with your piece.",
-        "Spend the session only on sharpening tools and setting up."
+        "Choose a modest project.",
+        "Photograph your progress.",
+        "Show it to someone at the end."
+      ]
+    },
+    {
+      "id": "rye-bread-and-butter",
+      "name": "Rye bread and butter",
+      "icon": "bread",
+      "slot": "Morning",
+      "time": "07:00",
+      "minutes": 15,
+      "meta": "Morning · 15 min",
+      "instructions": "Eat a plain breakfast of dark rye bread with butter, a slice of cheese and a boiled egg, with a warm drink. Cut the bread thick. Sit down and chew properly. This is the daily bread of Central Europe and the base of many towns’ guild meals. Say a word of thanks before you start.",
+      "why": "Dark rye bread has fed Central Europe for a thousand years. A slice with butter is a solid and satisfying start.",
+      "variations": [
+        "Bake a rye loaf.",
+        "Add radishes.",
+        "Share a loaf with a neighbour."
+      ]
+    },
+    {
+      "id": "set-your-tools-in-order",
+      "name": "Set your tools in order",
+      "icon": "toolbox",
+      "slot": "Morning",
+      "time": "07:30",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Before you start work, put your tools in order: sharpen the knife, wipe the bench, clear the desk, sort the files, charge the devices. A guild master inspected his apprentices’ tools every morning. Make your workplace ready for good work. Put each thing where it belongs.",
+      "why": "A craftsman’s workshop was kept in perfect order. A tidy bench is the first step to good work.",
+      "variations": [
+        "Sharpen a blade.",
+        "Wipe your screen and keyboard.",
+        "Label a drawer."
+      ]
+    },
+    {
+      "id": "make-your-mark",
+      "name": "Make your mark",
+      "icon": "pencil",
+      "slot": "Morning",
+      "time": "09:00",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Design a maker’s mark for your work: a small symbol or monogram that you will put on what you make. Medieval guild members stamped their goods so that buyers knew who made them, and so that bad work could be traced. Sketch three versions, pick one and put it on a card. Use it on today’s task.",
+      "why": "Maker’s marks were required by guilds for quality and trust. Marking your work is a pledge of care.",
+      "variations": [
+        "Carve it in a potato to stamp.",
+        "Sign your work today.",
+        "Choose a mark with meaning."
+      ]
+    },
+    {
+      "id": "a-morning-song",
+      "name": "A morning song",
+      "icon": "music-note",
+      "slot": "Morning",
+      "time": "06:30",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Hum or sing a short medieval song as you start the day: a piece by Hildegard of Bingen, a minnesong by Walther von der Vogelweide, or a simple chant. Play a recording first to get the tune. Sing it as you wash or dress. The towns of the Empire woke to bells and singing. Sing quietly, and keep the day’s first sound a pleasant one.",
+      "why": "Medieval Germany had a rich singing tradition, from monastery chant to the songs of travelling minstrels. A morning tune lifts the spirit.",
+      "variations": [
+        "Learn a few lines of Hildegard.",
+        "Sing with a friend.",
+        "Hum a tune from Walther."
       ]
     },
     {
       "id": "wanderjahre",
       "name": "The journeyman’s road",
-      "icon": "footprints",
+      "icon": "path",
       "slot": "Afternoon",
       "time": "14:00",
       "minutes": 30,
       "meta": "Afternoon · 30 min",
-      "instructions": "Learn something today from a workshop that is not your own. Walk to another part of town or another team, find someone who does what you do, or something near it, and ask to watch and help for half an hour. Take no payment and give your labour freely. Ask how they do one thing differently from you and why. Bring one technique home. Thank them properly.",
-      "why": "After his apprenticeship a journeyman took to the road for three years and a day, working for masters in other towns and forbidden to come within a day’s walk of home. He carried his tools, a staff and a book of testimonials. German carpenters, roofers and masons in black corduroy and wide hats still travel this way.",
+      "instructions": "Learn something today from a workshop that is not your own. Walk to another part of town or another team, find someone who does what you do, or something near it, and ask to watch and help for half an hour. Take no payment and give your thanks. Carry what you learn back. The rule of this Onda is to learn on the road.",
+      "why": "After their apprenticeship, German journeymen went on the Walz, three years and a day on the road, working in other towns. Learning from other workshops is the lasting lesson.",
       "variations": [
-        "Visit a craftsperson and ask about their training.",
-        "Work for a day somewhere you know no one.",
-        "Keep a small book in which those you learn from write a line."
+        "Watch a craftsperson at work.",
+        "Ask a colleague in another field to explain their day.",
+        "Offer a hand and learn."
       ]
     },
     {
       "id": "common-good",
       "name": "A turn for the common good",
-      "icon": "shield",
+      "icon": "users-three",
       "slot": "Afternoon",
       "time": "17:00",
       "minutes": 20,
       "meta": "Afternoon · 20 min",
-      "instructions": "Do twenty minutes of duty for the place you live. Citizens once took turns on the walls and at the gates. Yours might be to clear a path, report a hazard, attend a residents’ meeting, help at a school or a food bank, check on an old neighbour, or stand for some small office that nobody wants. If you are in a dispute with anyone, take one step today to settle it by fair process and not by force or sulking.",
-      "why": "A burgher of an imperial city swore an oath each year to obey the council, pay his share, keep watch and defend the walls. In Ulm the mayor still swears on a Monday each July to be the same man to rich and poor. The Empire’s proudest achievement was the public peace of 1495, which outlawed the feud and sent quarrels to court.",
+      "instructions": "Do twenty minutes of duty for the place you live. Citizens once took turns on the walls and at the gates. Yours might be to clear a path, report a hazard, attend a residents’ meeting, help at a school or a food bank, check on an older neighbour. Do it without being thanked. The rule of this Onda is to serve your commune.",
+      "why": "Free towns of the Empire were run by their citizens, who took oaths and shared tasks for the Gemeiner Nutz, the common good. Civic duty is still the basis of a good town.",
       "variations": [
-        "Find out who your local councillors are and write to one about something that needs mending.",
-        "Join the body that runs your building, street or club.",
-        "Offer to mediate in a quarrel that is not yours."
+        "Pick up litter on your street.",
+        "Join a neighbourhood committee.",
+        "Offer to help at a local event."
+      ]
+    },
+    {
+      "id": "illuminate-a-letter",
+      "name": "Illuminate a letter",
+      "icon": "paint-brush",
+      "slot": "Afternoon",
+      "time": "15:00",
+      "minutes": 30,
+      "meta": "Afternoon · 30 min",
+      "instructions": "Draw a decorated initial letter in the manner of a medieval manuscript. Pick the first letter of your name, draw it large, and fill it with leaves, animals, flowers and coloured patterns. Add a border. Use coloured pencils or gold pen. Monks and later town scribes spent months on such pages. Take half an hour to make yours.",
+      "why": "Illuminated letters made medieval books beautiful. Drawing one is a calming craft with a lovely result.",
+      "variations": [
+        "Fill the letter with your favourite animals.",
+        "Make a bookmark.",
+        "Frame it and hang it on a wall."
+      ]
+    },
+    {
+      "id": "a-game-of-muhle",
+      "name": "A game of Mühle",
+      "icon": "game-controller",
+      "slot": "Afternoon",
+      "time": "16:30",
+      "minutes": 25,
+      "meta": "Afternoon · 25 min",
+      "instructions": "Play Mühle, nine men’s morris, with a friend. Draw three nested squares joined at the midpoints, and use nine pebbles of two colours each. Place the stones, form a mill of three in a row and remove an opponent’s piece. The game is older than the Empire and was played in monasteries and taverns. Play two games.",
+      "why": "Mühle is one of the oldest board games in the world, found scratched into cloister benches. It is simple and satisfying.",
+      "variations": [
+        "Carve a board on a piece of wood.",
+        "Play on a beach with pebbles.",
+        "Teach a child."
+      ]
+    },
+    {
+      "id": "a-game-of-ninepins",
+      "name": "A game of ninepins",
+      "icon": "trophy",
+      "slot": "Afternoon",
+      "time": "17:30",
+      "minutes": 30,
+      "meta": "Afternoon · 30 min",
+      "instructions": "Play ninepins, kegeln, outdoors with friends: set up nine bottles or pins and roll a ball to knock them down. Take turns, tally scores and cheer the misses. Kegeln was played in German towns from the Middle Ages and the best alleys were a matter of civic pride. Keep stakes to a round of lemonade.",
+      "why": "Ninepins is the ancestor of bowling, popular in German taverns and gardens since the 1300s. It is perfect for a summer afternoon.",
+      "variations": [
+        "Use plastic bottles half-filled with sand.",
+        "Play on the grass.",
+        "Keep a score sheet."
+      ]
+    },
+    {
+      "id": "a-turn-round-the-market",
+      "name": "A turn round the market",
+      "icon": "storefront",
+      "slot": "Afternoon",
+      "time": "12:30",
+      "minutes": 30,
+      "meta": "Afternoon · 30 min",
+      "instructions": "Walk round your nearest market or high street in the middle of the day. Greet the stallholders, ask what is fresh, buy one thing from a maker. Markets were the lifeblood of Imperial towns, regulated by oaths and weights. Enjoy the hum, and notice who sells what. Buy directly from a producer if you can.",
+      "why": "The market square was the centre of every Imperial town, with its rules and measures. A turn around one connects you to the oldest rhythm of town life.",
+      "variations": [
+        "Buy bread from a baker.",
+        "Ask a seller how they make something.",
+        "Take your own basket."
       ]
     },
     {
       "id": "feierabend",
       "name": "Feierabend",
-      "icon": "bread",
+      "icon": "clock-countdown",
       "slot": "Evening",
       "time": "18:30",
       "minutes": 30,
       "meta": "Evening · 30 min",
-      "instructions": "When the evening bell rings, stop. Put your tools away clean and close the shop: shut the laptop, clear the bench. Say aloud that the day’s work is done. Then keep the evening as time that is not for sale. Eat bread and something plain with your household or your fellow workers. Sing a song together or tell what happened in the day. Do no work until the morning bell.",
-      "why": "Guild rules forbade work by candlelight, on the eve of feasts and after the evening bell, partly for the sake of quality and partly so that no master could steal a march on the rest. Journeymen gathered in their own inn. The German word for the end of the working day still means, literally, celebration evening.",
+      "instructions": "When the evening bell rings, stop. Put your tools away clean and close the shop: shut the laptop, clear the bench. Say aloud that the day’s work is done. Then keep the evening as time that is not for sale. Eat bread and something warm, sit outdoors for a while, talk with neighbours. The rule of this Onda is to stop when the bell rings.",
+      "why": "Feierabend, the festive evening, is the German word for the end of the working day and the free evening that follows. It is a tradition of the guilds.",
       "variations": [
-        "Wish everyone you work with a good Feierabend as you leave.",
-        "Bake or buy a proper rye loaf and share it.",
-        "Keep one evening a week for singing or playing with others."
+        "Hang up your work clothes.",
+        "Take a short walk.",
+        "Share a drink with a neighbour."
+      ]
+    },
+    {
+      "id": "sing-a-walther-song",
+      "name": "Sing a Walther song",
+      "icon": "microphone-stage",
+      "slot": "Evening",
+      "time": "20:00",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Sing or play a minnesong by Walther von der Vogelweide, such as Under der linden or the Palästinalied, in a recording and along with it. Read a translation first. The medieval love song was a courtly art and a tune for gatherings. Sing it quietly or tap along. A song brings the Middle Ages near.",
+      "why": "Walther von der Vogelweide was the greatest German lyric poet of the Middle Ages, writing around 1200. His songs are tender and clever.",
+      "variations": [
+        "Learn the first verse.",
+        "Sing it with a friend.",
+        "Read the poem aloud."
+      ]
+    },
+    {
+      "id": "a-tale-of-the-empire",
+      "name": "A tale of the Empire",
+      "icon": "scroll",
+      "slot": "Evening",
+      "time": "19:30",
+      "minutes": 20,
+      "meta": "Evening · 20 min",
+      "instructions": "Read or tell a story from the Empire’s literature: a chapter of Parzival, a scene from the Nibelungenlied, or an adventure of Simplicissimus. Read aloud to someone. Ask who is brave, who is foolish and who is wise. The stories of the Empire are full of knights, dragons and fools. End where the tale hooks you.",
+      "why": "The epics of the Middle Ages were told aloud at courts and in towns. Reading one aloud brings it to life.",
+      "variations": [
+        "Read about the Grail.",
+        "Tell the story of Siegfried.",
+        "Act out a scene."
+      ]
+    },
+    {
+      "id": "settle-it-by-law-not-by-fist",
+      "name": "Settle it by law, not by fist",
+      "icon": "scales",
+      "slot": "Evening",
+      "time": "20:30",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "If you have a dispute with someone, settle it today by fair means: write down the facts, listen to the other side, ask a neutral person to judge, or agree a compromise. The Empire’s Landfriede, public peace, banned private feuds and sent quarrels to the courts. Take your quarrel to law. Put it in writing and sign it.",
+      "why": "The Imperial Landfriede of 1495 ended the right to private war and set up a court. Settling a quarrel by fair process is the lasting lesson.",
+      "variations": [
+        "Mediate a quarrel for friends.",
+        "Write down the terms.",
+        "Apologise first."
+      ]
+    },
+    {
+      "id": "the-night-watchman-s-round",
+      "name": "The night-watchman’s round",
+      "icon": "lamp",
+      "slot": "Evening",
+      "time": "21:00",
+      "minutes": 20,
+      "meta": "Evening · 20 min",
+      "instructions": "Take a lantern or torch and go round your block at dusk, as the Nachtwächter did. Check on your neighbours: are lights on, doors locked, any trouble? Greet people you see. Wish them a quiet night. The watchman called the hours with a horn and a verse. Return home and lock your door. Go in pairs and stay on lit streets.",
+      "why": "The town watchman was the guardian of the night in the Empire’s towns. A walk round the block carries on the tradition of neighbourly care.",
+      "variations": [
+        "Walk with a lantern.",
+        "Learn the watchman’s verse.",
+        "Greet three neighbours."
+      ]
+    },
+    {
+      "id": "spiced-biscuits-and-a-warm-drink",
+      "name": "Spiced biscuits and a warm drink",
+      "icon": "cookie",
+      "slot": "Evening",
+      "time": "19:00",
+      "minutes": 20,
+      "meta": "Evening · 20 min",
+      "instructions": "Sit with a spiced biscuit, such as lebkuchen, and a cup of warm spiced apple juice, Kinderpunsch. Warm your hands on the cup. Notice the cinnamon, clove and honey. In Imperial towns the Christmas market made winter bearable with such treats. Share the plate with someone and talk of the day.",
+      "why": "Lebkuchen and hot spiced drinks are the heart of the Christmas markets of Nuremberg and elsewhere. They are winter comfort at its best.",
+      "variations": [
+        "Bake your own.",
+        "Light a candle.",
+        "Eat them outdoors in the cold."
+      ]
+    },
+    {
+      "id": "a-little-christmas-market",
+      "name": "A little Christmas market",
+      "icon": "campfire",
+      "slot": "Special",
+      "time": "16:00",
+      "minutes": 120,
+      "meta": "On a free afternoon · 120 min",
+      "instructions": "Hold a mini market with neighbours or friends: stalls of baked goods, hand-made gifts, hot spiced apple drink and music. Light lanterns, hang paper stars and sing a few carols. Keep prices small and give the proceeds to a local cause. The Christmas markets of Nuremberg and Dresden go back to the 1400s.",
+      "why": "Imperial towns held Christkindlmärkte in the weeks before Christmas, with gingerbread, lights and warm drinks. A small one is a warm community event.",
+      "variations": [
+        "Add a gingerbread stall.",
+        "Make paper stars.",
+        "End with carols."
+      ]
+    },
+    {
+      "id": "a-guild-day",
+      "name": "A guild day",
+      "icon": "toolbox",
+      "slot": "Special",
+      "time": "10:00",
+      "minutes": 120,
+      "meta": "On a free morning · 120 min",
+      "instructions": "Hold a guild day with friends: each person teaches one skill in half an hour, such as knitting, baking, carving, a card trick, a bike repair. Everyone learns and everyone teaches. Break for bread and a shared meal. Give each person a mark of thanks. Guilds taught skills, kept standards and looked after their members.",
+      "why": "Craft guilds were the engine of Imperial towns, teaching skills and protecting members. A skills swap is a modern guild.",
+      "variations": [
+        "Swap skills with your neighbours.",
+        "Ask an elder to teach something.",
+        "Teach a child how to make something."
       ]
     }
   ],
-  "tasks": [
+  "tasks": [],
+  "immersePlan": [
     {
-      "id": "task-read-the-twelve-articles-of-the-peasants-1525",
-      "name": "Read the Twelve Articles of the peasants, 1525",
-      "meta": "Read · three pages, among the first lists of rights in Europe",
-      "time": "20:00",
-      "slot": "Evening",
-      "action": "read"
+      "kind": "read",
+      "item": "read-the-holy-roman-empire-a-thousand-years-of-europe-s-history",
+      "name": "Read a chapter of Wilson’s history",
+      "text": "Read a chapter of Peter Wilson’s history of the Empire. Note one oddity of how it was run.",
+      "minutes": 25
     },
     {
-      "id": "task-listen-to-a-feather-on-the-breath-of-god",
-      "name": "Listen to A Feather on the Breath of God",
-      "meta": "Listen · Hildegard of Bingen, sung by Gothic Voices",
-      "time": "06:30",
-      "slot": "Morning",
-      "action": "listen"
+      "kind": "read",
+      "item": "read-parzival",
+      "name": "Read from Parzival",
+      "text": "Read a few pages of Wolfram von Eschenbach’s Grail romance, about a young fool who becomes a knight. Notice the humour.",
+      "minutes": 25
     },
     {
-      "id": "task-look-closely-at-durer-s-melencolia-i",
-      "name": "Look closely at Dürer’s Melencolia I",
-      "meta": "Art · an engraving of 1514, with a magic square",
-      "time": "13:00",
-      "slot": "Afternoon",
-      "action": "art"
+      "kind": "read",
+      "item": "read-the-adventures-of-simplicius-simplicissimus",
+      "name": "Read from Simplicissimus",
+      "text": "Read a chapter of Grimmelshausen’s tale of a simple boy swept through the Thirty Years’ War. Notice the mix of comedy and horror.",
+      "minutes": 25
     },
     {
-      "id": "task-play-nine-men-s-morris",
-      "name": "Play Nine Men’s Morris",
-      "meta": "Games · scratched on cloister benches everywhere",
-      "time": "19:30",
-      "slot": "Evening",
-      "action": "games"
+      "kind": "watch",
+      "item": "watch-vision-from-the-life-of-hildegard-von-bingen",
+      "name": "Watch Vision",
+      "text": "Watch Margarethe von Trotta’s 2009 film of the visionary abbess of the 12th century. Notice her music and gardens.",
+      "minutes": 110
     },
     {
-      "id": "task-journal-what-did-you-make-today-that-you-would-put-your-mark-on",
-      "name": "Journal: what did you make today that you would put your mark on?",
-      "meta": "Journal · 10 min",
-      "time": "21:00",
-      "slot": "Evening",
-      "action": "journal"
+      "kind": "watch",
+      "item": "watch-luther",
+      "name": "Watch Luther",
+      "text": "Watch the 2003 film of Martin Luther’s break with Rome and the Diet of Worms. Notice the way the Empire’s institutions work.",
+      "minutes": 123
     },
     {
-      "id": "task-many-small-powers-and-no-strong-centre-weakness-or-freedom",
-      "name": "Many small powers and no strong centre: weakness, or freedom?",
-      "meta": "Philosophy · 10 min",
-      "time": "09:30",
-      "slot": "Morning",
-      "action": "philosophy"
+      "kind": "watch",
+      "item": "watch-die-deutschen",
+      "name": "Watch an episode of Die Deutschen",
+      "text": "Watch an episode of the ZDF documentary series on German history, such as the one on Otto the Great or Barbarossa.",
+      "minutes": 45
     },
     {
-      "id": "keep-a-promise-as-if-you-had-sworn-it",
-      "name": "Keep a promise as if you had sworn it",
-      "meta": "The oath",
-      "time": "10:30",
-      "slot": "Morning"
+      "kind": "listen",
+      "item": "listen-a-feather-on-the-breath-of-god",
+      "name": "Listen to Hildegard of Bingen",
+      "text": "Play Gothic Voices’ recording of the abbess’s chant. Close your eyes and let the voices rise.",
+      "minutes": 20
     },
     {
-      "id": "buy-something-directly-from-the-person-who-made-it",
-      "name": "Buy something directly from the person who made it",
-      "meta": "The market",
-      "time": "11:30",
-      "slot": "Morning"
+      "kind": "listen",
+      "item": "listen-palastinalied",
+      "name": "Listen to the Palästinalied",
+      "text": "Play Walther von der Vogelweide’s crusading song, about arriving in the Holy Land. Follow a translation.",
+      "minutes": 5
     },
     {
-      "id": "stop-work-on-the-stroke-of-the-bell-mid-task-if-need-be",
-      "name": "Stop work on the stroke of the bell, mid-task if need be",
-      "meta": "Feierabend",
-      "time": "18:30",
-      "slot": "Evening"
+      "kind": "listen",
+      "item": "listen-mass-in-b-minor",
+      "name": "Listen to the Mass in B minor",
+      "text": "Play the Kyrie of Bach’s Mass, completed in 1749 for the Elector of Saxony. Let the first chord sink in.",
+      "minutes": 15
     },
     {
-      "id": "treat-buy-bread-from-a-baker-and-say-good-morning-to-the-whole-sho",
-      "name": "Buy bread from a baker and say good morning to the whole shop",
-      "meta": "Loudly enough",
-      "time": "08:30",
-      "slot": "Morning"
+      "kind": "art",
+      "item": "art-the-imperial-crown",
+      "name": "Look at the Imperial Crown",
+      "text": "Look at the octagonal gold crown of the Holy Roman emperors with pearls and enamel plaques, now in Vienna. Study the plaques.",
+      "minutes": 10
     },
     {
-      "id": "treat-ring-a-bell-or-listen-for-one-and-stop-what-you-are-doing",
-      "name": "Ring a bell or listen for one, and stop what you are doing",
-      "meta": "Until the sound ends",
-      "time": "15:30",
-      "slot": "Afternoon"
+      "kind": "art",
+      "item": "art-self-portrait-at-twenty-eight",
+      "name": "Look at Dürer’s self-portrait",
+      "text": "Look at Albrecht Dürer’s 1500 self-portrait in a Christ-like pose, a bold statement for a craftsman’s son in Nuremberg. Study the hair.",
+      "minutes": 10
     },
     {
-      "id": "treat-sing-a-round-with-someone",
-      "name": "Sing a round with someone",
-      "meta": "Any canon",
-      "time": "19:30",
-      "slot": "Evening"
+      "kind": "art",
+      "item": "art-the-codex-manesse",
+      "name": "Look at the Codex Manesse",
+      "text": "Look at pages of the Zurich songbook, with portraits of 140 minnesingers in colourful settings. Pick one poet.",
+      "minutes": 10
     },
     {
-      "id": "treat-put-a-mark-on-something-you-made",
-      "name": "Put a mark on something you made",
-      "meta": "Initials will do",
-      "time": "15:30",
-      "slot": "Afternoon"
+      "kind": "eat",
+      "item": "eat-rye-bread",
+      "name": "Bake or eat rye bread",
+      "text": "Eat thick slices of dark sourdough rye with butter and cheese. Notice the sour depth.",
+      "minutes": 20
     },
     {
-      "id": "daily-buy-something-from-a-baker-or-a-maker-and-say-good-day-prope",
-      "name": "Buy something from a baker or a maker and say good day properly",
-      "meta": "The guilds were built on trades like these",
-      "time": "14:00",
-      "slot": "Afternoon"
+      "kind": "eat",
+      "item": "eat-lebkuchen",
+      "name": "Bake or taste Lebkuchen",
+      "text": "Bake or buy spiced honey cake, a Nuremberg speciality. Eat one with a hot drink.",
+      "minutes": 30
     },
     {
-      "id": "daily-sing-a-simple-round-with-a-friend-or-hum-one-alone",
-      "name": "Sing a simple round with a friend, or hum one alone",
-      "meta": "Voices taking turns",
-      "time": "20:30",
-      "slot": "Evening"
+      "kind": "eat",
+      "item": "eat-a-pretzel",
+      "name": "Bake or eat a pretzel",
+      "text": "Eat a salted pretzel, or bake one by twisting dough into a knot and dipping it in a baking soda bath before baking.",
+      "minutes": 60
+    },
+    {
+      "kind": "drink",
+      "item": "drink-apfelschorle",
+      "name": "Drink an Apfelschorle",
+      "text": "Mix apple juice and fizzy mineral water half and half. Serve it cold in a tall glass.",
+      "minutes": 5
+    },
+    {
+      "kind": "drink",
+      "item": "drink-kinderpunsch",
+      "name": "Make Kinderpunsch",
+      "text": "Heat apple or berry juice with cinnamon, cloves and orange slices. Serve it hot in mugs.",
+      "minutes": 20
+    },
+    {
+      "kind": "drink",
+      "item": "drink-beer",
+      "name": "Try a non-alcoholic malt drink",
+      "text": "Beer was the daily drink of Imperial towns, brewed by guilds under strict purity laws. Drink a non-alcoholic wheat or malt drink and read about the Reinheitsgebot.",
+      "minutes": 15
+    },
+    {
+      "kind": "customs",
+      "item": "customs-the-journeyman-years",
+      "name": "Learn about the Walz",
+      "text": "Read how journeymen walked three years and a day without returning home, in traditional dress. Ask what you would learn on such a road.",
+      "minutes": 15
+    },
+    {
+      "kind": "customs",
+      "item": "customs-oath-monday",
+      "name": "Make a civic oath",
+      "text": "Write a short pledge to your town or street, as Ulm’s citizens swore each July. Say it aloud once.",
+      "minutes": 10
+    },
+    {
+      "kind": "customs",
+      "item": "customs-the-topping-out",
+      "name": "Mark a topping-out",
+      "text": "A wreath on the roof marks the finishing of the frame of a building. Mark a milestone of your own with a small ceremony and a shared treat.",
+      "minutes": 20
+    },
+    {
+      "kind": "games",
+      "item": "games-muhle",
+      "name": "Play Mühle",
+      "text": "Play nine men’s morris with pebbles on a drawn board of three squares, forming mills of three to capture your friend’s stones.",
+      "minutes": 25
+    },
+    {
+      "kind": "games",
+      "item": "games-kegeln",
+      "name": "Play ninepins",
+      "text": "Set up nine bottles or pins, roll a ball at them in turn with friends and tally the scores on a sheet of paper.",
+      "minutes": 30
+    },
+    {
+      "kind": "games",
+      "item": "games-karnoffel",
+      "name": "Play Karnöffel",
+      "text": "Play the old German card game, first recorded in 1426, in which ordinary cards can beat kings. Learn the rules online.",
+      "minutes": 30
+    },
+    {
+      "kind": "travel",
+      "item": "fest-christmas-markets",
+      "name": "Visit a Christmas market",
+      "text": "Go to a Christmas market, or look at pictures from Nuremberg. Eat gingerbread and drink Kinderpunsch.",
+      "minutes": 60
+    },
+    {
+      "kind": "travel",
+      "item": "place-nuremberg",
+      "name": "Look up Nuremberg",
+      "text": "Look at pictures of the free imperial city with its castle, walls and Dürer House. Pick a gate.",
+      "minutes": 10
+    },
+    {
+      "kind": "travel",
+      "item": "place-the-fuggerei",
+      "name": "Look up the Fuggerei",
+      "text": "Look at pictures of the walled social housing complex in Augsburg, founded in 1521 and still renting homes for one euro a year.",
+      "minutes": 10
+    },
+    {
+      "kind": "words",
+      "item": "word-feierabend",
+      "name": "Practise Feierabend",
+      "text": "Feierabend is the end of the working day. Stop work on time today and mark it with a small ceremony.",
+      "minutes": 10
+    },
+    {
+      "kind": "words",
+      "item": "word-meisterstuck",
+      "name": "Practise Meisterstück",
+      "text": "A Meisterstück is a masterpiece that qualifies a master. Work on your own for twenty minutes.",
+      "minutes": 20
+    },
+    {
+      "kind": "words",
+      "item": "word-gemeiner-nutz",
+      "name": "Practise Gemeiner Nutz",
+      "text": "Gemeiner Nutz is the common good. Do one thing today for the benefit of your street or town.",
+      "minutes": 20
     }
   ],
-  "immersePlan": [],
   "rules": [
     {
       "id": "r1",
@@ -701,6 +1040,18 @@
         "title": "Apple wine",
         "creator": "Sour cider from a stoneware jug",
         "why": "The drink of Frankfurt, the city where emperors were elected and crowned."
+      },
+      {
+        "id": "drink-apfelschorle",
+        "title": "Apfelschorle",
+        "creator": "Apple juice with sparkling water",
+        "why": "The everyday drink of Germany: apple juice mixed half and half with fizzy mineral water. It is served cold in a tall glass."
+      },
+      {
+        "id": "drink-kinderpunsch",
+        "title": "Kinderpunsch",
+        "creator": "Hot spiced fruit punch",
+        "why": "The alcohol-free punch of the Christmas markets: hot apple or berry juice with cinnamon, cloves and orange. Held in both hands against the cold."
       }
     ],
     "customs": [

@@ -17,7 +17,7 @@ export const en = {
   },
   tabs: { lagos: 'Lagos', ondas: 'Ondas', stats: 'Stats' },
   freq: { daily: 'Daily', weekdays: 'Weekdays', weekly: 'Weekly' },
-  slot: { Morning: 'Morning', Afternoon: 'Afternoon', Evening: 'Evening' },
+  slot: { Morning: 'Morning', Afternoon: 'Afternoon', Evening: 'Evening', Immerse: 'Immerse', Special: 'Any Time' },
 
   onboarding: {
     setUp: 'Set Up', getStarted: 'Get Started',
@@ -76,6 +76,7 @@ export const en = {
     go: { journal: 'Open Journal', philosophy: 'Open Philosophy', read: 'Open reading', watch: 'Open watching', listen: 'Open listening', art: 'Open art', eat: 'Open food', drink: 'Open drinks', customs: 'Open customs', games: 'Open games', travel: 'Open travel' },
     practices: 'Practices', rules: 'Rules', tasks: 'Tasks', allTitle: 'All Ondas', allSub: 'Sixty-four worlds to live in', active: 'Active', mine: 'Yours',
     noRules: 'No rules for this Onda', noTasks: 'No tasks for this Onda',
+    guideShort: 'Guide', shortcuts: 'Shortcuts', search: 'Search', clearSearch: 'Clear Search', noMatch: 'No Ondas match', openOnda: '{{name}}, open the Onda page', rulesKept: '{{done}} of {{total}} kept', quote: 'Quote',
   },
   browse: { religion: 'Religions and spiritual traditions', philosophy: 'Philosophy, thinkers and schools of thought', state: 'Empires, states and political systems', culture: 'Cultures, eras and peoples', mine: 'Yours', soon: 'Coming soon' },
   rulesPage: { lead: 'Tap a rule when you have kept it today.' },

@@ -40,8 +40,8 @@ describe('3.0: the six new Ondas', () => {
     for (const id of fresh) {
       const t = THEMES[id]!
       for (const o of [...others, ...fresh.filter((x) => x !== id)]) {
-        expect(t.strong, `${id} vs ${o}`).not.toBe(THEMES[o]!.strong)
-        expect(t.bg, `${id} vs ${o}`).not.toBe(THEMES[o]!.bg)
+        expect(t.light.accent, `${id} vs ${o}`).not.toBe(THEMES[o]!.light.accent)
+        expect(t.light.paper, `${id} vs ${o}`).not.toBe(THEMES[o]!.light.paper)
         expect(t.font, `${id} vs ${o}`).not.toBe(THEMES[o]!.font)
         expect(t.ornament, `${id} vs ${o}`).not.toBe(THEMES[o]!.ornament)
       }

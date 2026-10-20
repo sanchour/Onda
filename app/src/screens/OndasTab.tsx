@@ -1,35 +1,32 @@
-import { useState } from 'react'
+import { useDeferredValue, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { BROWSE_GROUPS, COMING_SOON, GROUP_OF } from '@/content/browse'
+import { pickForDay } from '@/data/derive/onda'
 import { planForDay, type DayPractice } from '@/data/derive/plan'
 import { useLookFn, useOndaList, useSettings } from '@/data/hooks'
-import { columnWidth, fitSize } from '@/lib/fit'
 import { useStore } from '@/data/store'
 import { BackButton, Screen } from '@/nav/Screen'
 import { useNav } from '@/nav/store'
 import { Button, GlassButton } from '@/ui/buttons'
 import { ProgressBar } from '@/ui/data'
-import { Icon } from '@/ui/Icon'
-import { SectionToggle } from '@/ui/lists'
-import { DayBar, OrnDivider, PlanList, guardCreateOnda, nameSize, useActiveOnda, useRunToday } from './ondaShared'
-import o from './ondas.module.css'
+import { OrnamentIcon } from './KindArt'
+import { Cover, GroupedList, PlanList, QuoteBlock, Row, SearchField, SectionHeader, ShortcutBar } from './onda7'
+import c from './onda7/onda7.module.css'
+import { guardCreateOnda, useActiveOnda, useRunToday } from './ondaShared'
 import s from './screens.module.css'
 
-/** Ondas tab: the running Onda's banner, four shortcuts, then today's practices. */
+/** Ondas tab: the running Onda's cover, a glass row of shortcuts, Today's plan by time of day, then the quote. */
 export default function OndasTab() {
   const { t } = useTranslation()
   const { push, openSheet } = useNav()
   const active = useActiveOnda()
   const settings = useSettings()
-  const themed = settings.ondaThemes
   const done = useRunToday(active?.run.id)
   const { togglePractice } = useStore.getState()
 
   const header = (
     <div className={s.titleRow}>
-      <h1 className={active && themed ? `${s.largeTitle} ${o.hdrTitle}` : s.largeTitle}>
-        {t('ondas.title')}
-      </h1>
+      <h1 className={s.largeTitle}>{t('ondas.title')}</h1>
       <div className={s.actions}>
         <GlassButton icon="plus" prominent ariaLabel={t('ondas.newOnda')} onClick={() => guardCreateOnda(t) && openSheet({ name: 'createOnda' })} />
         <GlassButton icon="compass" ariaLabel={t('ondas.browse')} onClick={() => push({ name: 'allOndas' })} />
@@ -42,10 +39,10 @@ export default function OndasTab() {
     return (
       <Screen variant="root">
         {header}
-        <div className={o.emptyCard}>
-          <div className={s.emptyTitle}>{t('ondas.noRunning')}</div>
-          <div className={s.sub} style={{ marginTop: 4 }}>{t('ondas.noRunningSub')}</div>
-          <div style={{ marginTop: 16 }}>
+        <div className={c.empty}>
+          <div className={c.emptyTitle}>{t('ondas.noRunning')}</div>
+          <div className={c.emptySub}>{t('ondas.noRunningSub')}</div>
+          <div style={{ marginTop: 18 }}>
             <Button size="md" onClick={() => push({ name: 'allOndas' })}>
               {t('ondas.browse')}
             </Button>
@@ -61,130 +58,147 @@ export default function OndasTab() {
     ? planForDay(content, day, { includeFood: settings.includeFood })
     : (run.snapshot?.practices ?? []).slice(0, 4).map((p) => ({ id: p.id, kind: 'practice', name: p.name, icon: p.icon, meta: p.time, slot: 'Morning', time: p.time }))
   const pDone = plan.filter((p) => done.practices.has(p.id)).length
-  const bar = { n: pDone, total: plan.length, key: 'practicesOf' }
+  const progress = t('ondas.practicesOf', { done: pDone, total: plan.length })
   const name = index?.name ?? run.snapshot?.name ?? ''
-  const quick: [string, string, () => void][] = [
-    ['headphones', t('ondas.immerse'), () => push({ name: 'immersion' })],
-    ['notebook', t('ondas.journal'), () => push({ name: 'journal' })],
-    ['lightbulb', t('ondas.philosophy'), () => push({ name: 'philosophy' })],
-    ['scales', t('ondas.rules'), () => push({ name: 'rules' })],
-  ]
+  const kicker = t('ondas.kicker', { label: t('ondas.dayOf', { day, length: run.lengthDays }) })
+  const rules = content?.rules ?? []
+  const kept = rules.filter((r) => done.rules.has(r.id)).length
+  const quote = content && (content.quotes.length ? pickForDay([...(content.quote ? [content.quote] : []), ...content.quotes], day) : content.quote)
 
   return (
     <Screen variant="root">
-      <div style={look.vars} data-onda={themed ? run.ondaId : undefined}>
-      {header}
-      {themed && <OrnDivider look={look} />}
-      <div>
-        <button type="button" className={`${o.banner} ${o.themed}`} onClick={() => push({ name: 'guide', ondaId: run.ondaId })} aria-label={`${t('ondas.kicker', { label: t('ondas.dayOf', { day, length: run.lengthDays }) })}, ${name}. ${t('ondas.guide')}`}>
-          <span className={o.bannerKicker}>
-            <Icon name={index?.icon ?? 'sparkle'} weight="fill" size={16} />
-            <span>{t('ondas.kicker', { label: t('ondas.dayOf', { day, length: run.lengthDays }) })}</span>
-          </span>
-          <span className={o.bannerName} style={{ display: 'block', fontSize: nameSize(look, name, 84, 30, 18) }}>{name}</span>
-          <DayBar day={day} length={run.lengthDays} />
-        </button>
+      <div style={look.vars} data-onda={settings.ondaThemes ? run.ondaId : undefined}>
+        {header}
+        <Cover
+          look={look}
+          size="hero"
+          kicker={kicker}
+          title={name}
+          sub={index?.origin}
+          mark={look.numeral(day)}
+          days={{ day, length: run.lengthDays }}
+          ariaLabel={`${kicker}, ${name}`}
+          onClick={() => push({ name: 'onda', id: run.ondaId })}
+        />
 
-        <div className={o.quick}>
-          {quick.map(([icon, label, go]) => (
-            <button key={label} type="button" className={o.quickTile} onClick={go}>
-              <span className={`${s.circle} ${o.quickCircle} ${o.solidCircle}`}>
-                <Icon name={icon} weight="regular" size={29} />
-              </span>
-              <span style={{ fontSize: fitSize(label, 78, 14, 11) }}>{label}</span>
-            </button>
-          ))}
-        </div>
+        <ShortcutBar
+          label={t('ondas.shortcuts')}
+          items={[
+            { icon: 'headphones', label: t('ondas.immerse'), onClick: () => push({ name: 'immersion' }) },
+            { icon: 'notebook', label: t('ondas.journal'), onClick: () => push({ name: 'journal' }) },
+            { icon: 'lightbulb', label: t('ondas.philosophy'), onClick: () => push({ name: 'philosophy' }) },
+            { icon: 'book-open-text', label: t('ondas.guideShort'), onClick: () => push({ name: 'guide', ondaId: run.ondaId }) },
+          ]}
+        />
 
-        <div className={o.todayHead}>
-          <div className={s.todayRow}>
-            <h2 className={o.todayH}>{t('ondas.today')}</h2>
-            <span className={s.sub}>{t(`ondas.${bar.key}`, { done: bar.n, total: bar.total })}</span>
-          </div>
-          <div className={o.todayBar} style={{ marginTop: 18 }}>
-            <ProgressBar value={bar.total ? bar.n / bar.total : 0} tone="var(--onda-strong)" height={8} label={t(`ondas.${bar.key}`, { done: bar.n, total: bar.total })} />
-          </div>
+        <SectionHeader title={t('ondas.today')} meta={progress} />
+        <div className={c.progress}>
+          <ProgressBar value={plan.length ? pDone / plan.length : 0} tone="var(--onda-accent)" height={4} label={progress} />
         </div>
-        <div className={s.stack14} style={{ paddingTop: 18 }}>
-          <PlanList plan={plan} done={done.practices} onToggle={(id) => togglePractice(run.id, id)} runId={run.id} info={{ ondaId: run.ondaId, style: look.vars, onda: themed ? run.ondaId : undefined }} />
-          {plan.length > 0 && <div className={o.holdHint}>{t('onda.holdHint')}</div>}
-        </div>
-      </div>
+        <PlanList
+          plan={plan}
+          done={done.practices}
+          onToggle={(id) => togglePractice(run.id, id)}
+          runId={run.id}
+          info={{ ondaId: run.ondaId, style: look.vars, onda: settings.ondaThemes ? run.ondaId : undefined }}
+          footer={plan.length ? t('onda.holdHint') : undefined}
+        />
+
+        {rules.length > 0 && (
+          <GroupedList style={{ marginTop: 22 }}>
+            <Row icon="scales" title={t('ondas.rules')} value={t('ondas.rulesKept', { done: kept, total: rules.length })} chevron onClick={() => push({ name: 'rules' })} />
+          </GroupedList>
+        )}
+
+        {quote && <QuoteBlock caps={look.caps} text={quote.text} by={quote.by} source={quote.source} ornament={look.themed ? <OrnamentIcon name={look.ornament} size={22} weight={1.25} /> : undefined} />}
       </div>
     </Screen>
   )
 }
 
-/** One Onda as a themed tile, used by Browse Ondas and the Gallery picker. */
-export function OndaTile({ x, onOpen, active }: { x: ReturnType<typeof useOndaList>[number]; onOpen: () => void; active?: boolean }) {
+type OndaItem = ReturnType<typeof useOndaList>[number]
+
+/** One Onda as a cover tile, used by All Ondas and the Gallery picker. */
+export function OndaTile({ x, onOpen, active }: { x: OndaItem; onOpen: () => void; active?: boolean }) {
   const { t } = useTranslation()
   const look = useLookFn()(x)
   return (
-    <button type="button" className={`${o.ondaTile} ${o.themed}`} style={look.vars} onClick={onOpen}>
-      <span className={o.ondaTileTop}>
-        <span className={`${s.circle} ${o.ondaTileIcon} ${o.chipCircle}`}>
-          <Icon name={x.icon} weight="fill" size={20} />
-        </span>
-        {active ? <span className={o.badge}>{t('ondas.active')}</span> : x.custom ? <span className={o.badge}>{t('ondas.mine')}</span> : null}
-      </span>
-      <span>
-        <span className={o.ondaTileName} style={{ display: 'block', fontSize: fitSize(x.name, columnWidth() / 2 - 58, 22, 13, look.caps) }}>{x.name}</span>
-        <span className={o.ondaTileOrigin} style={{ display: 'block' }}>{x.origin}</span>
-      </span>
-    </button>
+    <Cover
+      look={look}
+      size="tile"
+      title={x.name}
+      sub={x.origin}
+      badge={active ? t('ondas.active') : x.custom ? t('ondas.mine') : undefined}
+      mark={look.themed && look.glyph.length <= 3 ? look.glyph : undefined}
+      onClick={onOpen}
+    />
   )
 }
 
-/** The four groups (religions, philosophies, states, cultures) with a toggle each, then the user's own Ondas.
- *  Browse Ondas also lists the worlds that are on the way; a picker shows only what exists. */
-export function OndaGroups({ onOpen, soon }: { onOpen: (id: string) => void; soon?: boolean }) {
+const matches = (q: string, ...fields: (string | undefined)[]) => fields.some((f) => f?.toLocaleLowerCase().includes(q))
+
+/** The four groups (religions, philosophies, states, cultures) with a collapsible header each, then the user's own Ondas.
+ *  All Ondas also lists the worlds that are on the way; a picker shows only what exists. `query` filters by name and origin. */
+export function OndaGroups({ onOpen, soon, query = '' }: { onOpen: (id: string) => void; soon?: boolean; query?: string }) {
   const { t } = useTranslation()
   const list = useOndaList()
   const activeId = useActiveOnda()?.run.ondaId
   const [closed, setClosed] = useState<Record<string, boolean>>({})
-  const toggle = (k: string) => () => setClosed((c) => ({ ...c, [k]: !c[k] }))
-  const mine = list.filter((x) => !GROUP_OF[x.id])
+  const toggle = (k: string) => () => setClosed((v) => ({ ...v, [k]: !v[k] }))
+  const q = query.trim().toLocaleLowerCase()
+  const found = q ? list.filter((x) => matches(q, x.name, x.origin)) : list
+  const mine = found.filter((x) => !GROUP_OF[x.id])
   const shipped = new Set(list.map((x) => x.id))
+  const later = soon ? COMING_SOON.filter((c) => !shipped.has(c.id) && (!q || matches(q, c.name, c.origin))) : []
   const sections = [
-    ...BROWSE_GROUPS.map((g) => ({ key: g, title: t(`browse.${g}`), real: list.filter((x) => GROUP_OF[x.id] === g), soon: soon ? COMING_SOON.filter((c) => c.group === g && !shipped.has(c.id)) : [] })),
+    ...BROWSE_GROUPS.map((g) => ({ key: g, title: t(`browse.${g}`), real: found.filter((x) => GROUP_OF[x.id] === g), soon: later.filter((c) => c.group === g) })),
     ...(mine.length ? [{ key: 'mine', title: t('browse.mine'), real: mine, soon: [] as typeof COMING_SOON }] : []),
   ].filter((sec) => sec.real.length + sec.soon.length > 0)
+  if (!sections.length) return <div className={c.noMatch}>{t('ondas.noMatch')}</div>
   return (
     <>
-      {sections.map((sec) => (
-        <section key={sec.key} aria-label={sec.title} className={o.browseSec}>
-          <SectionToggle title={sec.title} meta={sec.real.length + sec.soon.length} open={!closed[sec.key]} onToggle={toggle(sec.key)} />
-          {!closed[sec.key] && (
-            <div className={s.grid2}>
-              {sec.real.map((x) => (
-                <OndaTile key={x.id} x={x} active={activeId === x.id} onOpen={() => onOpen(x.id)} />
-              ))}
-              {sec.soon.map((c) => (
-                <div key={c.name} className={o.soonTile} aria-disabled="true">
-                  <span className={o.soonName}>{c.name}</span>
-                  <span className={o.soonOrigin}>{c.origin}</span>
-                  <span className={o.soonBadge}>{t('browse.soon')}</span>
-                </div>
-              ))}
-            </div>
-          )}
-        </section>
-      ))}
+      {sections.map((sec) => {
+        const open = !!q || !closed[sec.key]
+        return (
+          <section key={sec.key} aria-label={sec.title} className={c.browseSec}>
+            <SectionHeader title={sec.title} meta={sec.real.length + sec.soon.length} open={open} onToggle={toggle(sec.key)} />
+            {open && (
+              <div className={c.grid}>
+                {sec.real.map((x) => (
+                  <OndaTile key={x.id} x={x} active={activeId === x.id} onOpen={() => onOpen(x.id)} />
+                ))}
+                {sec.soon.map((x) => (
+                  <div key={x.name} className={c.soon} aria-disabled="true">
+                    <span>
+                      <span className={c.soonName}>{x.name}</span>
+                      <span className={c.soonOrigin}>{x.origin}</span>
+                    </span>
+                    <span className={c.soonBadge}>{t('browse.soon')}</span>
+                  </div>
+                ))}
+              </div>
+            )}
+          </section>
+        )
+      })}
     </>
   )
 }
 
-/** Browse Ondas: every Onda by group, with greyed placeholders for the ones still to come. */
+/** All Ondas: a search field, then every Onda by group, with quiet placeholders for the ones still to come. */
 export function AllOndas() {
   const { t } = useTranslation()
   const push = useNav((n) => n.push)
+  const [query, setQuery] = useState('')
+  const deferred = useDeferredValue(query)
   return (
     <Screen chrome={<BackButton />}>
-      <div className={s.pageHead} style={{ paddingBottom: 8 }}>
+      <div className={s.pageHead} style={{ paddingBottom: 4 }}>
         <h1 className={s.largeTitle}>{t('ondas.allTitle')}</h1>
         <div className={`${s.sub} ${s.sub2}`}>{t('ondas.allSub')}</div>
       </div>
-      <OndaGroups soon onOpen={(id) => push({ name: 'onda', id })} />
+      <SearchField value={query} onChange={setQuery} placeholder={t('ondas.search')} clearLabel={t('ondas.clearSearch')} />
+      <OndaGroups soon query={deferred} onOpen={(id) => push({ name: 'onda', id })} />
     </Screen>
   )
 }

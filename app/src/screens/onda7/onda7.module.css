@@ -1,0 +1,145 @@
+/* Onda 7 primitives. Exact sizes and the reasons for them: docs/ONDA7_DESIGN.md.
+   Pages are calm system surfaces; the Onda's world shows on the cover, in the accent and in the display face.
+   Wrappers set --onda-* (content/themes.ts); every rule here falls back to the system look without them. */
+
+/* ── Cover ─────────────────────────────────────────────── */
+.cover{
+  position:relative;overflow:hidden;isolation:isolate;display:flex;flex-direction:column;text-align:start;
+  background:var(--onda-cover,linear-gradient(160deg,var(--surface-fill),var(--surface-fill-strong)));color:var(--onda-cover-ink,var(--label));
+  box-shadow:inset 0 0 0 .5px rgba(255,255,255,.16),0 1px 2px rgba(0,0,0,.06),0 18px 36px -24px var(--onda-cover-edge,rgba(0,0,0,.4));
+  transition:transform var(--duration-micro) var(--spring-snappy);
+}
+button.cover:active{transform:scale(.985)}
+.hero{width:calc(100% - 32px);margin:8px 16px 0;min-height:252px;border-radius:30px;padding:20px 22px 30px}
+.tile{width:100%;height:164px;border-radius:24px;padding:13px 14px 13px}
+/* light from the upper left, as on a printed cover */
+.cover::after{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;border-radius:inherit;background:radial-gradient(120% 80% at 0% 0%,rgba(255,255,255,.12),transparent 60%)}
+.frame::before{content:"";position:absolute;inset:9px;border-radius:calc(var(--r,30px) - 9px);box-shadow:inset 0 0 0 .5px currentColor;opacity:.45;pointer-events:none}
+.hero.frame{--r:30px}
+.tile.frame{--r:24px}
+.top{position:relative;display:flex;align-items:flex-start;justify-content:space-between;gap:12px;min-height:20px}
+.kicker{font:600 var(--fs-12)/1.3 var(--font-sans);letter-spacing:.08em;text-transform:uppercase;opacity:.82;min-width:0}
+.glyph{font:400 var(--fs-17)/1.2 var(--onda-font,var(--font-serif));letter-spacing:.02em;opacity:.82;min-width:0}
+.mark{font:400 var(--fs-30)/1 var(--onda-font,var(--font-serif));letter-spacing:0;opacity:.92;white-space:nowrap;flex:none}
+.tile .mark{font-size:var(--fs-15);opacity:.8}
+.badge{flex:none;font:600 var(--fs-11)/1 var(--font-sans);letter-spacing:.06em;text-transform:uppercase;padding:5px 8px;border-radius:999px;background:color-mix(in srgb,currentColor 18%,transparent)}
+.emblem{position:absolute;z-index:-1;pointer-events:none;display:flex}
+.body{position:relative;margin-top:auto}
+.title{margin:0;font:500 var(--fs-34)/1.06 var(--onda-font,var(--font-serif));letter-spacing:var(--onda-track,-0.01em);text-transform:var(--onda-case,none);text-wrap:balance;overflow-wrap:anywhere}
+.tile .title{font-size:var(--fs-19);line-height:1.12}
+.sub{display:block;font:400 var(--fs-15)/1.3 var(--font-sans);opacity:.82;margin-top:6px;text-wrap:pretty}
+.tile .sub{font-size:var(--fs-12);margin-top:3px;opacity:.78;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.days{display:flex;gap:3px;margin-top:16px}
+.days i{flex:1;height:3px;border-radius:2px;background:currentColor;opacity:.22}
+.days i[data-past]{opacity:.9}
+.days i[data-now]{opacity:.55}
+
+/* layout: left. The emblem is large and cropped at the right edge. */
+.left .emblem{right:-30px;top:50%;transform:translateY(-54%);opacity:.24}
+.tile.left .emblem{right:-18px;top:auto;bottom:-14px;transform:none;opacity:.26}
+/* layout: center and frame. A seal above a centred title. */
+.center,.frame{align-items:center;text-align:center}
+.center .top,.frame .top{width:100%}
+.center .emblem,.frame .emblem{position:relative;z-index:0;margin:4px auto 0;opacity:.92}
+.center .body,.frame .body{width:100%;margin-top:auto}
+.tile.center .emblem,.tile.frame .emblem{margin-top:0}
+
+/* ── Glass shortcut bar ────────────────────────────────── */
+.bar{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(0,1fr);margin:14px 16px 0;border-radius:24px;overflow:hidden;background:var(--glass-fill);border:var(--glass-border);box-shadow:var(--glass-highlight),var(--glass-shadow);-webkit-backdrop-filter:var(--glass-blur);backdrop-filter:var(--glass-blur)}
+.barBtn{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;min-height:66px;padding:10px 4px 9px;color:var(--label);font:500 var(--fs-12)/1.2 var(--font-sans);text-align:center}
+.barBtn > span{max-width:100%;overflow-wrap:anywhere}
+.barBtn + .barBtn::before{content:"";position:absolute;left:0;top:16px;bottom:16px;width:.5px;background:var(--separator)}
+.barBtn:active{background:var(--glass-pressed)}
+.barIcon{color:var(--onda-accent,var(--accent));display:flex}
+
+/* ── Section header ────────────────────────────────────── */
+.sec{position:relative}
+.secRow{display:flex;align-items:baseline;justify-content:space-between;gap:12px;width:100%;min-height:44px;padding:30px 20px 10px;text-align:start}
+.secTitle{margin:0;font:700 var(--fs-22)/1.25 var(--font-sans);letter-spacing:var(--tracking-title);color:var(--label)}
+.secMeta{display:flex;align-items:center;gap:8px;flex:none;font:400 var(--fs-15) var(--font-sans);color:var(--label-secondary)}
+.caret{display:flex;transition:transform var(--duration-standard) var(--ease-enter)}
+.caretClosed{transform:rotate(-90deg)}
+.secAction{font:400 var(--fs-17) var(--font-sans);color:var(--onda-text,var(--accent));padding:10px 4px;min-height:44px}
+.secAction:active{opacity:.6}
+.secLead{padding:0 20px 12px;margin-top:-4px}
+
+/* ── Grouped inset list ────────────────────────────────── */
+.groupHead{padding:18px 36px 7px;font:400 var(--fs-13)/1.3 var(--font-sans);letter-spacing:.03em;text-transform:uppercase;color:var(--label-secondary)}
+.group{margin:0 16px;background:var(--surface-card);border-radius:26px;overflow:hidden}
+.group > *{position:relative}
+/* hairlines inset to the text: 16 margin + 28 icon column + 14 gap */
+.group > * + *::before{content:"";position:absolute;z-index:1;top:0;left:var(--inset,58px);right:0;height:.5px;background:var(--separator);pointer-events:none}
+.groupFoot{padding:8px 36px 0;font:400 var(--fs-13)/1.35 var(--font-sans);color:var(--label-secondary);text-wrap:pretty}
+.row{display:flex;align-items:center;gap:14px;width:100%;min-height:52px;padding:11px 16px;text-align:start;color:var(--label);font:400 var(--fs-17)/1.3 var(--font-sans);letter-spacing:var(--tracking-body);transition:background var(--duration-micro)}
+button.row:active,a.row:active{background:var(--surface-fill)}
+.lead{width:28px;flex:none;display:flex;align-items:center;justify-content:center;color:var(--onda-accent,var(--accent))}
+.num{font:400 var(--fs-20)/1 var(--onda-font,var(--font-serif));letter-spacing:0;color:var(--onda-text,var(--label-secondary))}
+.text{flex:1;min-width:0;display:flex;flex-direction:column}
+.rTitle{font:400 var(--fs-17)/1.3 var(--font-sans);text-wrap:pretty}
+.rSub{font:400 var(--fs-15)/1.3 var(--font-sans);color:var(--label-secondary);margin-top:2px;text-wrap:pretty}
+.clamp2,.clamp3{display:-webkit-box;-webkit-box-orient:vertical;overflow:hidden}
+.clamp2{-webkit-line-clamp:2}
+.clamp3{-webkit-line-clamp:3}
+.rNote{font:400 var(--fs-14)/1.4 var(--font-sans);color:var(--label-secondary);margin-top:4px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.rTwist{font:italic 400 var(--fs-14)/1.35 var(--font-sans);color:var(--onda-text,var(--label-secondary));margin-top:4px}
+.value{flex:none;font:400 var(--fs-17) var(--font-sans);color:var(--label-secondary)}
+.chev{flex:none;display:flex;color:var(--label-tertiary);margin-right:-4px}
+
+/* ── Check circle ──────────────────────────────────────── */
+.check{width:24px;height:24px;flex:none;border-radius:50%;display:flex;align-items:center;justify-content:center;color:transparent;box-shadow:inset 0 0 0 1.5px var(--label-quaternary);transition:background var(--duration-micro),box-shadow var(--duration-micro)}
+.checkOn{background:var(--onda-deep,var(--accent));color:var(--onda-on,var(--accent-contrast));box-shadow:none}
+.checkOn svg{animation:pop var(--spring-snappy-ms,320ms) var(--spring-snappy)}
+@keyframes pop{from{transform:scale(.4)}to{transform:none}}
+
+/* ── Practice row ──────────────────────────────────────── */
+.pOpenRow .text{margin-right:40px}
+.pOpen{position:absolute;z-index:2;right:46px;top:50%;transform:translateY(-50%);width:44px;height:44px;display:flex;align-items:center;justify-content:center;color:var(--label-tertiary);border-radius:50%}
+.pOpen:active{background:var(--surface-fill)}
+
+/* ── Search field ──────────────────────────────────────── */
+.search{display:flex;align-items:center;gap:6px;height:38px;margin:6px 16px 0;padding:0 8px 0 10px;border-radius:12px;background:var(--surface-fill);color:var(--label-secondary)}
+.search input{flex:1;min-width:0;height:100%;border:0;background:none;outline:none;color:var(--label);font:400 var(--fs-17) var(--font-sans)}
+.search input::placeholder{color:var(--label-secondary)}
+.search input::-webkit-search-cancel-button{display:none}
+.searchClear{position:relative;display:flex;color:var(--label-tertiary)}
+.searchClear::after{content:"";position:absolute;inset:-13px}
+
+@media (prefers-reduced-motion:reduce){
+  .cover,.check,.caret{transition:none}
+  button.cover:active{transform:none}
+  .checkOn svg{animation:none}
+}
+
+/* ── Banner: a compact cover for sheets and pages ──────── */
+.banner{flex-direction:row;align-items:center;gap:14px;min-height:96px;border-radius:24px;padding:18px 20px}
+.bannerIcon{flex:none;display:flex;opacity:.92}
+.bannerText{display:flex;flex-direction:column;gap:3px;min-width:0}
+
+/* ── Quote ─────────────────────────────────────────────── */
+.quote{margin:36px 28px 0;text-align:center}
+.qOrn{display:flex;justify-content:center;color:var(--onda-accent,var(--label-tertiary));margin-bottom:12px}
+.qKicker{font:400 var(--fs-13)/1.3 var(--font-sans);letter-spacing:.03em;text-transform:uppercase;color:var(--label-secondary);margin-bottom:10px}
+.qText{margin:0;font:400 var(--fs-22)/1.42 var(--onda-font,var(--font-serif));color:var(--label);text-wrap:balance}
+.qCaps{font-size:var(--fs-19);letter-spacing:.03em;line-height:1.5}
+.qBy{margin-top:14px;font:400 var(--fs-15)/1.35 var(--font-sans);color:var(--label-secondary)}
+
+/* ── Screen pieces (Ondas tab, All Ondas, Onda page) ───── */
+.lede{padding:14px 20px 0;font:400 var(--fs-17)/1.4 var(--font-sans);color:var(--label-secondary);text-wrap:pretty}
+.block{padding:14px 16px 15px}
+.blockText{font:400 var(--fs-15)/1.45 var(--font-sans);color:var(--label-secondary);text-wrap:pretty}
+.term{font:400 var(--fs-28)/1.15 var(--onda-font,var(--font-serif));letter-spacing:var(--onda-track,0);color:var(--label)}
+.say{font:400 var(--fs-13) var(--font-sans);color:var(--label-tertiary);margin-top:3px}
+.meaning{font:400 var(--fs-17)/1.4 var(--font-sans);color:var(--label-secondary);margin-top:6px;text-wrap:pretty}
+.prompt{font:400 var(--fs-20)/1.35 var(--onda-font,var(--font-serif));color:var(--label);text-wrap:pretty}
+.inline{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:52px;padding:6px 8px 6px 16px;font:400 var(--fs-17) var(--font-sans)}
+.progress{padding:0 20px 2px}
+.empty{margin:24px 16px 0;padding:30px 24px;border-radius:26px;background:var(--surface-card);text-align:center}
+.emptyTitle{font:600 var(--fs-20)/1.25 var(--font-sans);color:var(--label)}
+.emptySub{font:400 var(--fs-15)/1.4 var(--font-sans);color:var(--label-secondary);margin-top:4px}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;padding:0 16px}
+.browseSec{content-visibility:auto;contain-intrinsic-size:auto 720px}
+.soon{display:flex;flex-direction:column;justify-content:space-between;height:164px;padding:13px 14px;border-radius:24px;box-shadow:inset 0 0 0 1px var(--separator);color:var(--label-secondary)}
+.soonName{font:400 var(--fs-17)/1.2 var(--font-sans);text-wrap:balance;overflow-wrap:anywhere}
+.soonOrigin{display:block;font:400 var(--fs-12) var(--font-sans);color:var(--label-tertiary);margin-top:3px}
+.soonBadge{align-self:flex-start;font:600 var(--fs-11) var(--font-sans);letter-spacing:.06em;text-transform:uppercase;color:var(--label-tertiary)}
+.noMatch{padding:40px 20px;text-align:center;font:400 var(--fs-17) var(--font-sans);color:var(--label-secondary)}

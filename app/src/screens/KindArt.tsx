@@ -219,9 +219,9 @@ const ORNAMENTS: Record<Ornament, ReactNode> = {
   ...ORNAMENTS5,
 }
 
-export function OrnamentIcon({ name, size = 22 }: { name: Ornament; size?: number }) {
+export function OrnamentIcon({ name, size = 22, weight = 1.5 }: { name: Ornament; size?: number; weight?: number }) {
   return (
-    <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden focusable="false">
+    <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={weight} strokeLinecap="round" strokeLinejoin="round" aria-hidden focusable="false">
       {ORNAMENTS[name]}
     </svg>
   )

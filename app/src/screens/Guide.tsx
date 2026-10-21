@@ -16,6 +16,7 @@ import s from './screens.module.css'
 /* ── Full guide ───────────────────────────────────────────── */
 const TABS = ['overview', 'history', 'ideas', 'ethics', 'ways', 'culture', 'travel', 'language', 'facts'] as const
 type GuideTab = (typeof TABS)[number]
+const CHAPTER_ICON: Record<GuideTab, string> = { overview: 'compass', history: 'clock-counter-clockwise', ideas: 'lightbulb', ethics: 'scales', ways: 'footprints', culture: 'books', travel: 'map-trifold', language: 'translate', facts: 'sparkle' }
 
 interface GRow {
   key: string
@@ -124,6 +125,7 @@ export default function Guide({ entry }: { entry: Extract<StackEntry, { name: 'g
   const pick = (k: GuideTab) => {
     setTab(k)
     setMore(false)
+    requestAnimationFrame(() => { const sc = tabsRef.current?.closest('.scroll') ?? document.querySelector('.scroll:last-of-type'); if (sc && k !== 'overview') (sc as HTMLElement).scrollTop = 0 })
     const el = tabsRef.current?.querySelector<HTMLElement>(`[data-tab="${k}"]`)
     el?.scrollIntoView({ inline: 'center', block: 'nearest', behavior: reducedMotion() ? 'auto' : 'smooth' })
   }
@@ -190,8 +192,33 @@ export default function Guide({ entry }: { entry: Extract<StackEntry, { name: 'g
     if (!content || !g_) return <div className={s.empty} style={{ padding: '32px 20px' }}><div className={s.sub}>{t('onda.loading')}</div></div>
     if (tab === 'overview') {
       const intro = g_.intro
+      const chapters = TABS.filter((k) => k !== 'overview').map((k) => {
+        const rows = k === 'facts' ? g_.facts.map((f) => ({ title: f.text })) : guideGroups(content, k, t).flatMap((x) => x.rows)
+        const teaser = k === 'history' && rows.length > 1 ? `${rows[0]!.title} to ${rows[rows.length - 1]!.title}` : k === 'facts' ? '' : rows.slice(0, 3).map((r) => r.title).join(', ')
+        return { k, n: rows.length, teaser }
+      }).filter((x) => x.n > 0)
       return (
         <>
+          {(g_.origin || g_.era) && (
+            <div className={g.glance}>
+              {g_.origin && <div className={g.glanceRow}><span>{t('guide.origin')}</span><b>{g_.origin}</b></div>}
+              {g_.era && <div className={g.glanceRow}><span>{t('guide.era')}</span><b>{g_.era}</b></div>}
+            </div>
+          )}
+          <h3 className={g.sectionHead} style={{ marginTop: 26 }}>{t('guide.chapters')}</h3>
+          <div className={g.chapters}>
+            {chapters.map((x) => (
+              <button key={x.k} type="button" className={g.chapter} onClick={() => pick(x.k)} aria-label={`${t(`guide.tabs.${x.k}`)}, ${x.n}`}>
+                <span className={g.chapterTop}>
+                  <span className={g.chapterIcon} aria-hidden><Icon name={CHAPTER_ICON[x.k]} weight="regular" size={24} /></span>
+                  <span className={g.chapterN} aria-hidden>{x.n}</span>
+                </span>
+                <span className={g.chapterName}>{t(`guide.tabs.${x.k}`)}</span>
+                {x.teaser && <span className={g.chapterTeaser}>{x.teaser}</span>}
+              </button>
+            ))}
+          </div>
+          <h3 className={g.sectionHead} style={{ marginTop: 28 }}>{t('guide.about')}</h3>
           {intro[0] && <p className={g.introLead} data-selectable>{intro[0]}</p>}
           {intro.length > 1 && (
             <>
@@ -202,22 +229,6 @@ export default function Guide({ entry }: { entry: Extract<StackEntry, { name: 'g
                 {more ? t('guide.showLess') : t('guide.readMore')}
               </button>
             </>
-          )}
-          {(g_.origin || g_.era) && (
-            <div className={g.pair}>
-              {g_.origin && (
-                <div className={g.pairCard}>
-                  <span className={g.pairLabel}><Icon name="compass" weight="fill" size={14} />{t('guide.origin')}</span>
-                  <div className={g.pairValue}>{g_.origin}</div>
-                </div>
-              )}
-              {g_.era && (
-                <div className={g.pairCard}>
-                  <span className={g.pairLabel}><Icon name="clock" weight="fill" size={14} />{t('guide.era')}</span>
-                  <div className={g.pairValue}>{g_.era}</div>
-                </div>
-              )}
-            </div>
           )}
           {content.sensitivity && (
             <div className={g.note}>
@@ -380,6 +391,7 @@ export default function Guide({ entry }: { entry: Extract<StackEntry, { name: 'g
       <div className={g.pageTop}>
         {look && index && <Cover look={look} size="hero" level={2} title={index.name} kicker={index.origin} sub={content?.guide.era || undefined} />}
       </div>
+      {tab !== 'overview' && (
       <div className={g.sticky}>
         <div ref={tabsRef} className={`hscroll ${g.tabs}`} role="tablist">
           {TABS.map((k) => (
@@ -399,8 +411,16 @@ export default function Guide({ entry }: { entry: Extract<StackEntry, { name: 'g
           </div>
         )}
       </div>
+      )}
       <div className={g.panel} key={tab} role="tabpanel" style={{ paddingBottom: 'calc(40px + max(var(--sab), 16px))' }}>
-        <div className={g.lead} style={{ margin: '16px 4px 18px' }}>{lead}</div>
+        {tab === 'overview' ? (
+          lead && <p className={g.essence} data-selectable>{lead}</p>
+        ) : (
+          <>
+            <h2 className={g.chapterTitle}>{t(`guide.tabs.${tab}`)}</h2>
+            <div className={g.lead} style={{ margin: '4px 4px 18px' }}>{lead}</div>
+          </>
+        )}
         {body()}
       </div>
     </Screen>

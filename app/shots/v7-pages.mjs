@@ -26,6 +26,8 @@ try {
   await page.getByRole('button', { name: 'Philosophy' }).first().waitFor({ timeout: 90_000 }).catch((e) => console.log('WAIT', String(e).slice(0, 200)))
   const x = page.getByRole('button', { name: 'Dismiss' })
   if (await x.isVisible().catch(() => false)) await x.click()
+  await step('kinds', async () => { await tap('Immerse'); for (const k of ['Words','Read','Listen','Eat','Art','Watch','Travel']) { await page.getByRole('button', { name: new RegExp('^' + k + ' [0-9]+ of') }).first().click(); await sleep(900); await shot('k-' + k); await tap('Back') } await tap('Back') })
+  if (process.argv[4] === 'kinds') { await browser.close(); server.kill(); process.exit(0) }
   await step('philosophy', async () => { await tap('Philosophy'); await shot('01-philosophy'); await scrollBy(600); await shot('02-philosophy-lower'); await tap('Back') })
   await step('journal', async () => { await tap('Journal'); await shot('03-journal'); await tap('Back') })
   await step('immerse', async () => { await tap('Immerse'); await shot('04-immerse'); await scrollBy(600); await shot('05-immerse-lower'); await tap('Back') })

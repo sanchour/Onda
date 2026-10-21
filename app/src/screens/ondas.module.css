@@ -396,3 +396,72 @@ button.softCard{width:100%;text-align:start;display:block}
 .lib[data-layout="customs"] .libThumb::after{display:none}
 .lib[data-layout="customs"] .libInitial{display:none}
 .lib[data-layout="customs"] .libNo{position:static;font:500 var(--fs-30)/1 var(--onda-font,var(--font-serif));opacity:1}
+
+/* ── Onda 7: philosophy deck ── */
+.phWrap{padding:0 16px}
+.phLead{margin:6px 4px 16px;font:400 var(--fs-17)/1.4 var(--font-sans);color:var(--label-secondary)}
+.phCard{position:relative;display:flex;flex-direction:column;align-items:flex-start;gap:10px;min-height:400px;margin-top:16px;padding:24px 22px 20px;border-radius:28px;overflow:hidden;
+  background:var(--onda-cover,var(--surface-card));color:var(--onda-cover-ink,var(--label));box-shadow:inset 0 0 0 .5px rgba(255,255,255,.14),0 18px 34px -24px var(--onda-cover-edge,rgba(0,0,0,.45))}
+.phCard::after{content:"";position:absolute;inset:0;pointer-events:none;background:radial-gradient(110% 70% at 0% 0%,rgba(255,255,255,.12),transparent 60%)}
+.phNum{font:400 var(--fs-36)/1 var(--onda-font,var(--font-serif));opacity:.9}
+.phOf{position:absolute;top:26px;right:22px;font:600 var(--fs-11)/1.3 var(--font-sans);letter-spacing:.08em;text-transform:uppercase;opacity:.7}
+.phTitle{margin:14px 0 0;font:500 var(--fs-26)/1.15 var(--onda-font,var(--font-serif));letter-spacing:var(--onda-track,-0.005em);text-transform:var(--onda-case,none);text-wrap:balance}
+.phText{margin:0;font:400 var(--fs-17)/1.5 var(--font-sans);opacity:.92;text-wrap:pretty}
+.phTry{position:relative;z-index:1;margin-top:auto;display:flex;align-items:flex-start;gap:12px;width:100%;padding:14px;border-radius:18px;text-align:start;color:inherit;
+  background:rgba(255,255,255,.12);box-shadow:inset 0 0 0 .5px rgba(255,255,255,.2);transition:background var(--duration-standard)}
+.phTry:active{opacity:.8}
+.phTryOn{background:rgba(255,255,255,.24)}
+.phTryBox{flex:none;width:24px;height:24px;border-radius:50%;border:1.5px solid currentColor;display:flex;align-items:center;justify-content:center;margin-top:1px}
+.phTryOn .phTryBox{background:var(--onda-cover-ink,#fff);border-color:var(--onda-cover-ink,#fff);color:var(--onda-deep,#000)}
+.phTryText{font:400 var(--fs-15)/1.4 var(--font-sans);text-wrap:pretty}
+.phTryText b{display:block;margin-bottom:2px;font:600 var(--fs-11)/1.3 var(--font-sans);letter-spacing:.08em;text-transform:uppercase;opacity:.85}
+.phCount{display:flex;justify-content:space-between;gap:12px;margin:22px 20px 8px;font:600 var(--fs-13)/1.3 var(--font-sans);letter-spacing:.04em;text-transform:uppercase;color:var(--label-secondary)}
+.phPicked{color:var(--onda-accent,var(--accent));text-transform:none;letter-spacing:0;font-weight:500}
+.phList{background:var(--surface-card);border-radius:22px;overflow:hidden;margin-bottom:24px}
+.phRow{position:relative;display:flex;align-items:center;gap:12px;width:100%;min-height:50px;padding:12px 16px;text-align:start;color:var(--label)}
+.phRow + .phRow::before{content:"";position:absolute;top:0;left:50px;right:0;height:.5px;background:var(--separator)}
+.phRow:active{background:var(--surface-fill)}
+.phRow svg{color:var(--onda-accent,var(--accent));flex:none}
+.phRowOn{background:color-mix(in srgb,var(--onda-accent,var(--accent)) 7%,transparent)}
+.phRowN{flex:none;width:22px;font:500 var(--fs-17)/1.3 var(--onda-font,var(--font-serif));color:var(--onda-accent,var(--accent))}
+.phRowTitle{flex:1;min-width:0;font:400 var(--fs-17)/1.3 var(--font-sans)}
+.phRowOn .phRowTitle{font-weight:600}
+
+/* ── Onda 7: format refinements ── */
+.lib:is([data-layout='read'],[data-layout='listen'],[data-layout='art'],[data-layout='words']) .libText{padding:0 4px}
+/* Read: three across, like spines turned out on a shelf */
+.lib[data-layout='read']{grid-template-columns:repeat(3,minmax(0,1fr));gap:22px 12px}
+.lib[data-layout='read'] .libThumb{padding:12px 8px 10px 14px}
+.lib[data-layout='read'] .libThumb::before{inset:6px 5px 6px 11px}
+.lib[data-layout='read'] .libCoverTitle{font-size:var(--fs-15);line-height:1.15;-webkit-line-clamp:6;padding-right:2px}
+.lib[data-layout='read'] .libCoverBy{display:none}
+.lib[data-layout='read'] .libBy{font-size:var(--fs-12);line-height:1.3;color:var(--label-secondary);-webkit-line-clamp:2}
+.lib[data-layout='read'] .libStamp{top:auto;bottom:-6px;right:-6px}
+.lib[data-layout='read'] .libOpen{padding-bottom:0}
+.lib[data-layout='listen'] .libNo{display:none}
+/* Words: a grid of flashcards, the word large, how to say it, what it means */
+.lib[data-layout='words']{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;overflow:visible;padding:4px 16px 0;scroll-snap-type:none}
+.lib[data-layout='words'] .libCard{width:auto;min-height:0;border-radius:22px;background:var(--surface-card);box-shadow:none}
+.lib[data-layout='words'] .libOpen{align-items:flex-start;justify-content:flex-start;text-align:start;padding:16px 14px 16px 16px;min-height:150px}
+.lib[data-layout='words'] .libText{align-items:flex-start;gap:4px;padding:0}
+.lib[data-layout='words'] .libTitle{font:500 var(--fs-24)/1.1 var(--onda-font,var(--font-serif));padding-right:30px;-webkit-line-clamp:2;overflow-wrap:anywhere}
+.lib[data-layout='words'] .libExtra{font:italic 400 var(--fs-13)/1.3 var(--font-serif)}
+.lib[data-layout='words'] .libBy{margin-top:auto;padding-top:10px;font:400 var(--fs-14)/1.35 var(--font-sans);color:var(--label-secondary);-webkit-line-clamp:3}
+.lib[data-layout='words'] .libWhy{display:none}
+.lib[data-layout='words'] .libStamp{top:6px;right:4px}
+.lib[data-layout='words'] .libStamp::before{inset:12px}
+
+/* ── Onda 7: format fixes ── */
+.lib[data-layout='read']{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px 16px}
+.lib[data-layout='read'] .libThumb{aspect-ratio:5/7;padding:16px 12px 12px 20px}
+.lib[data-layout='read'] .libThumb::before{inset:8px 7px 8px 14px}
+.lib[data-layout='read'] .libCoverTitle{font-size:var(--fs-17);overflow-wrap:break-word;hyphens:auto}
+.lib[data-layout='read'] .libBy{font-size:var(--fs-13);padding-right:34px}
+.lib[data-layout='read'] .libStamp{top:auto;bottom:-10px;right:-8px}
+.lib[data-layout='read'] .libStamp::before{border-color:var(--label-quaternary);background:none}
+.lib[data-layout='read'] .libOn .libStamp::before{background:var(--onda-deep,var(--accent));border-color:var(--onda-deep,var(--accent))}
+.lib[data-layout='words'] .libTitle{font-size:var(--fs-20);padding-right:0;overflow-wrap:break-word;hyphens:auto}
+.lib[data-layout='words'] .libBy{padding-right:30px}
+.lib[data-layout='words'] .libStamp{top:auto;bottom:4px;right:4px}
+.lib[data-layout='read'] .libStamp{right:-2px}
+.lib[data-layout='read'] .libBy{padding-left:2px}

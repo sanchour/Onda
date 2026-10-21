@@ -20,8 +20,8 @@ Design only. Content (guides, practices, philosophy text) stays as it is.
 - [x] Version 7.0 with a What’s New entry
 
 ## Next
-- [ ] Full guide, complete redesign: a cover, then a short "at a glance" card (origin, era, essence), a contents grid of the sections, and each section with its own form: History as a vertical timeline, Figures as portrait cards, Ideas as numbered essays, Language as a word deck, Facts as swipeable cards. Easy to scan, one tap to any section.
-- [ ] Philosophy, complete redesign: one idea at a time as a large card (title in the display face, the idea, "try this today" as a clear action you can tick), swipe between them, with Think about and Ethics as a segmented switch and a short list view to jump
+- [x] Full guide, complete redesign: a cover, then a short "at a glance" card (origin, era, essence), a contents grid of the sections, and each section with its own form: History as a vertical timeline, Figures as portrait cards, Ideas as numbered essays, Language as a word deck, Facts as swipeable cards. Easy to scan, one tap to any section.
+- [x] Philosophy, complete redesign: one idea at a time as a large card (title in the display face, the idea, "try this today" as a clear action you can tick), swipe between them, with Think about and Ethics as a segmented switch and a short list view to jump
 - [ ] Merge the theme work, check every Onda's cover in light and dark
 - [ ] Unit tests, build, screenshots, then commit and push to GitHub as Onda 7.0
 

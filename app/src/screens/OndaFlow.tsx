@@ -18,6 +18,8 @@ import { Cover } from './onda7'
 import o from './ondas.module.css'
 import s from './screens.module.css'
 
+/** Books and films carry their title on the cover. */
+const onCover = (k: MediaKind) => k === 'read' || k === 'watch'
 /** One of five tints, the same for an item every time. */
 const tintOf = (title: string) => [...title].reduce((h, ch) => (h * 31 + ch.charCodeAt(0)) >>> 0, 7) % 5
 /** The first letter that matters: skips a leading article. */
@@ -110,7 +112,7 @@ export function Immersion({ entry }: { entry: Extract<StackEntry, { name: 'immer
               <i style={{ width: `${list.length ? (count(kind).seen / list.length) * 100 : 0}%` }} />
             </span>
           </div>
-          <ul className={kind === 'words' ? `hscroll ${o.lib}` : o.lib} data-layout={kind}>
+          <ul className={o.lib} data-layout={kind}>
             {list.map((m, i) => {
               const on = done.has(m.id)
               return (
@@ -118,12 +120,12 @@ export function Immersion({ entry }: { entry: Extract<StackEntry, { name: 'immer
                   <button type="button" className={o.libOpen} aria-label={t('immersion.about', { name: m.title })} onClick={() => openSheet({ name: 'mediaInfo', item: m, ondaId: active.run.ondaId, runId: active.run.id })}>
                     <span className={o.libThumb} data-kind={m.kind} aria-hidden>
                       <span className={o.libInitial}>{initialOf(m.title)}</span>
-                      <span className={o.libCoverTitle}>{m.title}</span>
-                      {m.creator && <span className={o.libCoverBy}>{m.creator}</span>}
+                      {onCover(m.kind) && <span className={o.libCoverTitle}>{m.title}</span>}
+                      {m.kind === 'read' && m.creator && <span className={o.libCoverBy}>{m.creator}</span>}
                       <span className={o.libNo}>{active.look.numeral(i + 1)}</span>
                     </span>
                     <span className={o.libText}>
-                      <span className={o.libTitle}>{m.title}</span>
+                      {!onCover(m.kind) && <span className={o.libTitle}>{m.title}</span>}
                       {m.extra && <span className={o.libExtra}>{m.extra}</span>}
                       {m.meta && <span className={o.libBy}>{m.meta}</span>}
                       {m.why && <span className={o.libWhy}>{m.why}</span>}

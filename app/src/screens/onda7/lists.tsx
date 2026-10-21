@@ -128,7 +128,7 @@ export function ShortcutBar({ items, label }: { items: { icon: string; label: st
     <div className={c.bar} role="group" aria-label={label}>
       {items.map((x) => (
         <button key={x.label} type="button" className={c.barBtn} onClick={x.onClick} aria-label={x.label} title={x.label}>
-          <span className={c.barIcon} aria-hidden><Icon name={x.icon} weight="regular" size={31} /></span>
+          <span className={c.barIcon} aria-hidden><Icon name={x.icon} weight="regular" size={29} /></span>
         </button>
       ))}
     </div>

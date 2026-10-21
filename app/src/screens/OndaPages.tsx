@@ -5,7 +5,7 @@ import { useStore } from '@/data/store'
 import { haptic } from '@/lib/haptics'
 import { BackButton, ChromeSpacer, ChromeTitle, Screen } from '@/nav/Screen'
 import { useNav } from '@/nav/store'
-import { Fold } from '@/sheets/guideParts'
+import { Deck } from '@/sheets/guideParts'
 import g from '@/sheets/guide.module.css'
 import { Button, GlassButton } from '@/ui/buttons'
 import { SegmentedControl } from '@/ui/controls'
@@ -79,7 +79,8 @@ export function JournalPage() {
   )
 }
 
-/* ── Philosophy: a calm list. Every idea shows its title and first lines; tap one to read it and pick up something to try. ── */
+/* ── Philosophy: one idea at a time. A deck of cards to swipe through, each with one thing to try today,
+   then every idea as a short list to jump to. Think about and Ethics are two decks. ── */
 export function PhilosophyPage() {
   const { t } = useTranslation()
   const active = useActiveOnda()
@@ -89,56 +90,80 @@ export function PhilosophyPage() {
   const available = (['ideas', 'ethics'] as const).filter((k) => sets[k].length > 0)
   const [chosen, setPart] = useState<'ideas' | 'ethics'>('ideas')
   const part = available.includes(chosen) ? chosen : (available[0] ?? 'ideas')
-  const [open, setOpen] = useState<Record<string, boolean>>({ 'ideas:0': true, 'ethics:0': true })
+  const [at, setAt] = useState<Record<string, number>>({})
   const [picked, setPicked] = useState<Record<string, boolean>>({})
   const shown = sets[part]
+  const i = Math.min(at[part] ?? 0, Math.max(0, shown.length - 1))
+  const go = (n: number) => setAt((v) => ({ ...v, [part]: n }))
   const pickedCount = Object.values(picked).filter(Boolean).length
+  const num = (n: number) => (look ? look.numeral(n) : String(n))
 
   return (
     <OndaPage title={t('philosophy.title')}>
-      <div style={{ padding: '4px 16px 24px' }}>
-        {look && <OndaBanner look={look} icon="lightbulb" kicker={active?.index?.name} title={t('philosophy.title')} sub={t('philosophy.lead')} />}
+      <div className={o.phWrap}>
+        <p className={o.phLead}>{t('philosophy.lead')}</p>
         {available.length > 1 && (
-          <div style={{ marginTop: 16 }}>
-            <SegmentedControl<'ideas' | 'ethics'>
-              options={[{ value: 'ideas', label: t('philosophy.think') }, { value: 'ethics', label: t('philosophy.ethicsTab') }]}
-              value={part}
-              onChange={setPart}
-              fullWidth
-              ariaLabel={t('philosophy.title')}
-            />
-          </div>
+          <SegmentedControl<'ideas' | 'ethics'>
+            options={[{ value: 'ideas', label: t('philosophy.think') }, { value: 'ethics', label: t('philosophy.ethicsTab') }]}
+            value={part}
+            onChange={setPart}
+            fullWidth
+            ariaLabel={t('philosophy.title')}
+          />
         )}
-        <div className={g.phCount}>
-          <span>{t('philosophy.count', { count: shown.length })}</span>
-          {pickedCount > 0 && <span className={g.phPicked}>{t('philosophy.pickedCount', { count: pickedCount })}</span>}
-        </div>
-        <div className={g.stack}>
-          {shown.map((x, i) => {
-            const k = `${part}:${i}`
+      </div>
+      {shown.length > 0 && (
+        <div className={o.phWrap}>
+        <Deck
+          key={part}
+          label={part === 'ideas' ? t('philosophy.think') : t('philosophy.ethics')}
+          index={i}
+          onIndex={go}
+          slides={shown.map((x, n) => {
+            const k = `${part}:${n}`
             return (
-              <Fold key={k} title={x.title} sub={x.text} badge={look ? look.numeral(i + 1) : String(i + 1)} open={!!open[k]} onToggle={() => setOpen((v) => ({ ...v, [k]: !v[k] }))} expandable>
+              <article key={k} className={o.phCard}>
+                <span className={o.phNum} aria-hidden>{num(n + 1)}</span>
+                <span className={o.phOf}>{t('guide.nOf', { n: n + 1, total: shown.length })}</span>
+                <h2 className={o.phTitle}>{x.title}</h2>
+                <p className={o.phText} data-selectable>{x.text}</p>
                 {x.practice && (
                   <button
                     type="button"
                     role="checkbox"
                     aria-checked={!!picked[k]}
-                    className={picked[k] ? `${g.phTry} ${g.phTryOn}` : g.phTry}
+                    className={picked[k] ? `${o.phTry} ${o.phTryOn}` : o.phTry}
                     onClick={() => {
                       haptic(picked[k] ? 'select' : 'success')
-                      setPicked((p) => ({ ...p, [k]: !p[k] }))
+                      setPicked((v) => ({ ...v, [k]: !v[k] }))
                     }}
                   >
-                    <span className={g.phTryBox} aria-hidden>{picked[k] && <Icon name="check" weight="bold" size={15} />}</span>
-                    <span className={g.phTryText}>
+                    <span className={o.phTryBox} aria-hidden>{picked[k] && <Icon name="check" weight="bold" size={14} />}</span>
+                    <span className={o.phTryText}>
                       <b>{picked[k] ? t('philosophy.onList') : t('philosophy.tryThis')}</b>
                       {x.practice}
                     </span>
                   </button>
                 )}
-              </Fold>
+              </article>
             )
           })}
+        />
+        </div>
+      )}
+      <div className={o.phWrap}>
+        <div className={o.phCount}>
+          <span>{t('philosophy.count', { count: shown.length })}</span>
+          {pickedCount > 0 && <span className={o.phPicked}>{t('philosophy.pickedCount', { count: pickedCount })}</span>}
+        </div>
+        <div className={o.phList}>
+          {shown.map((x, n) => (
+            <button key={x.title} type="button" className={n === i ? `${o.phRow} ${o.phRowOn}` : o.phRow} aria-current={n === i || undefined} onClick={() => go(n)}>
+              <span className={o.phRowN} aria-hidden>{num(n + 1)}</span>
+              <span className={o.phRowTitle}>{x.title}</span>
+              {picked[`${part}:${n}`] && <Icon name="check" weight="bold" size={15} />}
+            </button>
+          ))}
         </div>
       </div>
     </OndaPage>

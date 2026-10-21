@@ -106,7 +106,7 @@ export const en = {
   },
   guide: {
     tabs: { overview: 'Overview', history: 'History', ideas: 'Ideas', ethics: 'Ethics', ways: 'Practices', culture: 'Culture', travel: 'Travel', language: 'Language', facts: 'Facts' },
-    leadHistory: 'How it unfolded', leadIdeas: 'What it asks you to think about', leadEthics: 'What is right, what is owed, and why', leadWays: 'What to do each day, what to keep, and the customs around it', leadCulture: 'Books, films, music, art, food, drink and games', leadTravel: 'When to go and where to stand',
+    chapters: 'Chapters', about: 'About', leadHistory: 'How it unfolded', leadIdeas: 'What it asks you to think about', leadEthics: 'What is right, what is owed, and why', leadWays: 'What to do each day, what to keep, and the customs around it', leadCulture: 'Books, films, music, art, food, drink and games', leadTravel: 'When to go and where to stand',
     leadLanguage: 'Words to carry through the days', leadFacts: 'Small things worth knowing',
     jumpTo: 'Jump to', introduction: 'Introduction', origin: 'Origin', era: 'Era', rule: 'Rule', practice: 'Practice', didYouKnow: 'Did you know', framing: 'A note on respect', learnFrom: 'Learn from', furtherReading: 'Further reading', sources: 'Sources',
     unverified: 'Not yet verified', empty: 'Nothing added yet',

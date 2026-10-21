@@ -50,7 +50,7 @@ export const en = {
   lagos: {
     title: 'Lagos', newLago: 'New Lago', gallery: 'Gallery', today: 'Today', checkedInOf: '{{done}} of {{total}} checked in',
     toCheckIn: 'To Check In', checkedIn: 'Checked In', notToday: 'Not Today', finished: 'Finished', dayMeta: 'Day {{day}} · {{freq}}', finishedMeta: '{{count}} days · Finished', endedMeta: 'Ended on day {{day}}',
-    empty: 'No Lagos yet', emptySub: 'Tap + to start one', tipTitle: 'Quick tip', tipText: 'Not sure where to start? Browse the gallery for ready-made Lagos.',
+    empty: 'No Lagos yet', emptySub: 'Tap + to start one',
     menu: { checkIn: 'Check In', undo: 'Undo', edit: 'Edit', end: 'End', restart: 'Restart', extend: 'Extend', share: 'Share', duplicate: 'Duplicate', delete: 'Delete' },
     extended: 'Extended by 7 days', ended: 'Lago ended', restarted: 'Restarted from day 1', duplicated: 'Lago duplicated', deleted: 'Lago deleted', undo: 'Undo',
     shareText: '{{name}}: day {{day}} of {{length}}, {{streak}} day streak. Tracked with Onda.',
@@ -92,7 +92,7 @@ export const en = {
   plan: { todayDo: 'To do today', today: 'Today: {{text}}', todayHead: 'Today', open: 'Open', immerse: 'Immerse', lead: { read: 'Read', listen: 'Listen', watch: 'Watch', art: 'Look at', eat: 'Taste', games: 'Play', customs: 'Try', drink: 'Drink', travel: 'Explore' } },
   kindLabel: { read: 'Read', watch: 'Watch', listen: 'Listen', art: 'Art', eat: 'Eat', drink: 'Drink', customs: 'Customs', games: 'Games', travel: 'Travel', words: 'Words' },
   immersion: {
-    title: 'Immersion', experienced: '{{done}} of {{total}} experienced', footer: 'Tap an item to read about it. Tick it when you have experienced it.', empty: 'Nothing here yet',
+    title: 'Immersion', upNext: 'Up Next', library: 'Library', experienced: '{{done}} of {{total}} experienced', footer: 'Tap an item to read about it. Tick it when you have experienced it.', empty: 'Nothing here yet',
     kindCount: '{{done}} of {{total}}', about: 'About {{name}}', markExperienced: 'Mark as experienced', experiencedBtn: 'Experienced', learnMore: 'Learn more', find: 'Find it', findNote: 'Each button opens a search for this outside Onda.', noNote: 'No note for this one yet.', shelf_one: '{{count}} on the shelf', shelf_other: '{{count}} on the shelf', no: 'No. {{n}}',
   },
   journal: {

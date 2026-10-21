@@ -3,7 +3,6 @@ import { useTranslation } from 'react-i18next'
 import type { MediaKind } from '@/content'
 import type { OndaContent } from '@/content/schema'
 import { useLook, useOnda, useOndaIndex } from '@/data/hooks'
-import { columnWidth, fitSize } from '@/lib/fit'
 import { reducedMotion } from '@/lib/motion'
 import { BackButton, ChromeSpacer, ChromeTitle, Screen } from '@/nav/Screen'
 import type { StackEntry } from '@/nav/store'
@@ -11,14 +10,12 @@ import { Icon } from '@/ui/Icon'
 import { Collapse, Deck, Fold, openExternal } from '@/sheets/guideParts'
 import g from '@/sheets/guide.module.css'
 import { KindArt, OrnamentIcon } from './KindArt'
-import { Glyph } from './ondaShared'
-import o from './ondas.module.css'
+import { Cover } from './onda7'
 import s from './screens.module.css'
 
 /* ── Full guide ───────────────────────────────────────────── */
 const TABS = ['overview', 'history', 'ideas', 'ethics', 'ways', 'culture', 'travel', 'language', 'facts'] as const
 type GuideTab = (typeof TABS)[number]
-const TAB_ICON: Record<GuideTab, string> = { overview: 'compass', history: 'clock-counter-clockwise', ideas: 'lightbulb', ethics: 'scales', ways: 'footprints', culture: 'book-open-text', travel: 'map-trifold', language: 'translate', facts: 'sparkle' }
 
 interface GRow {
   key: string
@@ -123,7 +120,6 @@ export default function Guide({ entry }: { entry: Extract<StackEntry, { name: 'g
   }
   const lead = tab === 'overview' ? index?.line : t(`guide.lead${tab[0]!.toUpperCase()}${tab.slice(1)}`)
   const g_ = content?.guide
-  const nameFit = index ? fitSize(index.name, columnWidth() - 72, 36, 22) : 36
 
   const pick = (k: GuideTab) => {
     setTab(k)
@@ -382,18 +378,12 @@ export default function Guide({ entry }: { entry: Extract<StackEntry, { name: 'g
       }
     >
       <div className={g.pageTop}>
-        <div className={`${o.gBanner} ${o.themed}`} style={{ marginTop: 0 }}>
-          <Glyph look={look} opacity={0.14} right={14} bottom={4} />
-          <div className={s.kicker} style={{ color: 'inherit' }}>{index?.origin}</div>
-          <h2 className={o.gName} style={{ fontSize: nameFit }}>{index?.name}</h2>
-          {look && <div style={{ marginTop: 10, opacity: 0.7 }}><OrnamentIcon name={look.ornament} size={20} /></div>}
-        </div>
+        {look && index && <Cover look={look} size="hero" level={2} title={index.name} kicker={index.origin} sub={content?.guide.era || undefined} />}
       </div>
       <div className={g.sticky}>
         <div ref={tabsRef} className={`hscroll ${g.tabs}`} role="tablist">
           {TABS.map((k) => (
             <button key={k} type="button" role="tab" data-tab={k} aria-selected={tab === k} className={tab === k ? `${g.tab} ${g.tabOn}` : g.tab} onClick={() => pick(k)}>
-              <Icon name={TAB_ICON[k]} weight={tab === k ? 'fill' : 'regular'} size={18} />
               {t(`guide.tabs.${k}`)}
             </button>
           ))}

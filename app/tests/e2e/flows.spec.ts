@@ -210,9 +210,7 @@ test.describe('Empty Lagos', () => {
     await tap(page, 'Start Free Trial')
     await tab(page, 'Lagos')
     await expect(page.getByText('No Lagos yet')).toBeVisible()
-    await page.getByRole('button', { name: 'Dismiss' }).click().catch(() => undefined) // the Home Screen hint can sit over the tip
-    await tap(page, /Quick tip/)
-    await expect(page.getByRole('heading', { name: 'Gallery' })).toBeVisible()
+    await expect(page.getByText('Quick tip')).toHaveCount(0)
   })
 })
 

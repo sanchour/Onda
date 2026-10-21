@@ -59,7 +59,7 @@ export function JournalPage() {
         <Button fullWidth icon="pencil-simple" onClick={() => write()}>
           {t('journal.newEntry')}
         </Button>
-        <div className={s.stack12} style={{ marginTop: 20 }}>
+        <div className={entries.length ? o.journalList : undefined} style={{ marginTop: 20 }}>
           {entries.map((e) => (
             <button key={e.id} type="button" className={o.softCard} onClick={() => write(e.day)}>
               <span className={s.kicker} style={{ display: 'block', letterSpacing: '.06em' }}>{t('journal.dayLabel', { day: e.day, name })}</span>

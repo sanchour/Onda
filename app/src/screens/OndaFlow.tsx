@@ -33,6 +33,8 @@ export function Immersion({ entry }: { entry: Extract<StackEntry, { name: 'immer
   const kinds = MEDIA_KINDS.filter((k) => media.some((m) => m.kind === k))
   const kind = entry.kind && kinds.includes(entry.kind) ? entry.kind : undefined
   const list = kind ? media.filter((m) => m.kind === kind) : []
+  // the next item you have not yet experienced, one per kind
+  const next = kinds.map((k) => media.find((m) => m.kind === k && !done.has(m.id))).filter((m): m is NonNullable<typeof m> => !!m)
   const count = (k: MediaKind) => {
     const all = media.filter((m) => m.kind === k)
     return { total: all.length, seen: all.filter((m) => done.has(m.id)).length }
@@ -52,23 +54,41 @@ export function Immersion({ entry }: { entry: Extract<StackEntry, { name: 'immer
 
       {!kind && (
         <>
-          <div className={o.kindGrid}>
+          {next.length > 0 && (
+            <section aria-label={t('immersion.upNext')}>
+              <h2 className={o.imHead}>{t('immersion.upNext')}</h2>
+              <div className={`hscroll ${o.imNext}`}>
+                {next.map((m) => (
+                  <button key={m.id} type="button" className={o.imCard} onClick={() => openSheet({ name: 'mediaInfo', item: m, ondaId: active.run.ondaId, runId: active.run.id })}>
+                    <span className={o.imCardTop}>
+                      <span className={o.imCardKind}>{t(`kindLabel.${m.kind}`)}</span>
+                      <span className={o.imCardIcon} aria-hidden><Icon name={KIND_ICON[m.kind]} weight="regular" size={28} /></span>
+                    </span>
+                    <span className={o.imCardTitle}>{m.title}</span>
+                    {m.meta && <span className={o.imCardBy}>{m.meta}</span>}
+                  </button>
+                ))}
+              </div>
+            </section>
+          )}
+          <h2 className={o.imHead}>{t('immersion.library')}</h2>
+          <div className={o.imGrid}>
             {kinds.map((k) => {
               const c = count(k)
+              const n = t('immersion.kindCount', { done: c.seen, total: c.total })
+              const label = t(`kindLabel.${k}`)
+              const p = c.total ? c.seen / c.total : 0
               return (
-                <button key={k} type="button" className={o.kindTile} onClick={() => push({ name: 'immersion', kind: k })}>
-                  <span className={o.kindArt}>
-                    <KindArt kind={k} />
+                <button key={k} type="button" className={o.imTile} aria-label={`${label} ${n}`} onClick={() => push({ name: 'immersion', kind: k })}>
+                  <span className={o.imTileTop}>
+                    <span className={o.imTileIcon} aria-hidden><Icon name={KIND_ICON[k]} weight="regular" size={26} /></span>
+                    <svg className={o.imRing} viewBox="0 0 36 36" aria-hidden>
+                      <circle cx="18" cy="18" r="15" />
+                      {p > 0 && <circle cx="18" cy="18" r="15" data-on="" strokeDasharray={`${(p * 94.25).toFixed(2)} 94.25`} />}
+                    </svg>
                   </span>
-                  <span className={o.kindName}>{t(`kindLabel.${k}`)}</span>
-                  <span className={o.kindCount}>
-                    <span className={o.kindDots} aria-hidden>
-                      {Array.from({ length: Math.min(c.total, 8) }, (_, i) => (
-                        <i key={i} data-on={i < Math.round((c.seen / c.total) * Math.min(c.total, 8)) || undefined} />
-                      ))}
-                    </span>
-                    {t('immersion.kindCount', { done: c.seen, total: c.total })}
-                  </span>
+                  <span className={o.imTileName}>{label}</span>
+                  <span className={o.imTileCount}>{n}</span>
                 </button>
               )
             })}

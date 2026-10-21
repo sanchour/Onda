@@ -153,3 +153,69 @@ button.foldBtn:active{opacity:.75}
 :global([data-theme="dark"]) .foldBody{line-height:1.6}
 :global([data-theme="dark"]) .foldSub{line-height:1.45}
 :global([data-theme="dark"]) :is(.toggleAll,.jumpChip){color:color-mix(in srgb,var(--onda-text) 65%,#fff)}
+
+/* ══ Onda 7: the guide, philosophy and sheets as calm grouped lists ══════════
+   One rounded container per group with hairlines inset to the text, system type for reading,
+   the Onda's display face only for words and the cover, the accent only for numerals, dates and actions. */
+.tabs{gap:4px;padding:4px 16px 6px}
+.tab{height:36px;padding:0 15px;gap:0;background:transparent;color:var(--label-secondary);font:500 var(--fs-15) var(--font-sans)}
+.tabOn{background:var(--label);color:var(--surface-card);font-weight:600}
+.jumpChip{height:30px;border:0;background:color-mix(in srgb,var(--label) 6%,transparent);color:var(--label);font-weight:500}
+.jumpChip small{color:var(--label-secondary)}
+.lead{font:400 var(--fs-17)/1.45 var(--font-sans);font-style:normal;text-transform:none;letter-spacing:0;color:var(--label-secondary)}
+.sectionHead,.groupHead,.kindHead h3{font:600 var(--fs-13)/1.3 var(--font-sans);letter-spacing:.04em;text-transform:uppercase;color:var(--label-secondary)}
+.sectionHead,.groupHead{margin:26px 4px 8px;padding:0 16px}
+.groupKind svg,.kindHead svg{display:none}
+
+.stack{gap:0;background:var(--surface-card);border-radius:24px;overflow:hidden}
+.stack > *{position:relative}
+.stack > * + *::before{content:"";position:absolute;z-index:1;top:0;left:16px;right:0;height:.5px;background:var(--separator)}
+.fold{background:none;border:0;border-radius:0}
+.foldOpen{border-color:transparent;background:color-mix(in srgb,var(--onda-accent,var(--accent)) 4%,transparent)}
+.foldBtn{padding:14px 16px}
+.foldHead{gap:12px}
+.foldBadge,.foldOpen .foldBadge{width:auto;min-width:22px;height:auto;background:none;color:var(--onda-accent,var(--onda-text));clip-path:none;border-radius:0;justify-content:flex-start;font:500 var(--fs-17)/1.3 var(--onda-font);padding-top:1px}
+.foldTitle{font:600 var(--fs-17)/1.3 var(--font-sans);letter-spacing:var(--tracking-body);text-transform:none}
+.foldDisplay{font-size:var(--fs-24)}
+.foldSub{font-size:var(--fs-15);line-height:1.4}
+.caret{padding-top:3px}
+.tag{color:var(--onda-accent,var(--onda-text))}
+.chip{background:color-mix(in srgb,var(--label) 6%,transparent);color:var(--label-secondary)}
+.tryBox,.phTry{background:color-mix(in srgb,var(--onda-accent,var(--accent)) 8%,var(--surface-card));border-radius:14px}
+.tryBox svg,.tryLabel{color:var(--onda-accent,var(--onda-text))}
+.phTryOn{background:var(--onda-deep);color:var(--onda-on)}
+.phTryBox{border-radius:50%;border-width:1.5px}
+.phTryOn .phTryBox{background:var(--onda-on);border-color:var(--onda-on);color:var(--onda-deep)}
+.linkBtn,.toggleAll,.readMore{color:var(--onda-accent,var(--onda-text))}
+
+.introLead{font:400 var(--fs-20)/1.5 var(--font-serif)}
+.introLead::first-letter{color:var(--onda-accent,var(--onda-text))}
+.pairCard{border-radius:20px}
+.pairLabel{color:var(--label-secondary)}
+.pairLabel svg{display:none}
+.pairValue{font:500 var(--fs-16)/1.3 var(--font-sans);text-transform:none}
+.note{background:color-mix(in srgb,var(--onda-accent,var(--accent)) 7%,var(--surface-card));border-radius:20px}
+.note svg{color:var(--onda-accent,var(--onda-text))}
+.figure{border-radius:22px}
+.figureAv{background:none;clip-path:none;border-radius:50%;box-shadow:inset 0 0 0 1px color-mix(in srgb,var(--onda-accent,var(--accent)) 45%,transparent);color:var(--onda-accent,var(--onda-text));font:500 var(--fs-17)/1 var(--onda-font)}
+.figureName{font:600 var(--fs-16)/1.25 var(--font-sans);text-transform:none}
+.factCard{background:var(--onda-cover,var(--onda-fill));color:var(--onda-cover-ink,var(--onda-ink));border-radius:26px}
+.factText{text-transform:none}
+.dotOn::after{background:var(--onda-accent,var(--onda-strong))}
+
+/* history: one list, a hairline spine, dates in the accent */
+.timeline{gap:0;padding-left:0;background:var(--surface-card);border-radius:24px;overflow:hidden}
+.timeline::before{left:23px;top:26px;bottom:26px;width:1px;border-radius:0;background:color-mix(in srgb,var(--onda-accent,var(--onda-strong)) 30%,transparent)}
+.tlItem{position:relative;padding-left:30px}
+.tlItem + .tlItem::after{content:"";position:absolute;top:0;left:46px;right:0;height:.5px;background:var(--separator)}
+.tlItem::before{left:19px;top:21px;width:9px;height:9px;border:1.5px solid var(--onda-accent,var(--onda-strong));background:var(--surface-card)}
+.tlOpen::before{background:var(--onda-accent,var(--onda-strong))}
+.tlItem .foldTitle{font:600 var(--fs-13)/1.3 var(--font-sans);letter-spacing:.04em;text-transform:uppercase;color:var(--onda-accent,var(--onda-text))}
+.tlItem .foldSub{color:var(--label);font-size:var(--fs-16)}
+.tlItem .fold{background:none}
+
+/* media sheet */
+.miHero{height:84px;background:color-mix(in srgb,var(--onda-accent,var(--accent)) 7%,var(--surface-card))}
+.miTitle{text-transform:none}
+.miLink{background:color-mix(in srgb,var(--onda-accent,var(--accent)) 9%,var(--surface-card));color:var(--onda-accent,var(--label))}
+:global([data-theme="dark"]) .tabOn{background:#F2F2F7;color:#000}

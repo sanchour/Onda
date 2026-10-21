@@ -176,16 +176,6 @@ export default function LagosTab() {
             <div className={s.emptyTitle}>{t('lagos.empty')}</div>
             <div className={`${s.sub}`} style={{ marginTop: 4 }}>{t('lagos.emptySub')}</div>
           </div>
-          <button type="button" className={s.tipCard} onClick={() => push({ name: 'gallery' })}>
-            <span className={`${s.circle} ${s.tipIcon}`}>
-              <Icon name="lightbulb" weight="fill" size={22} />
-            </span>
-            <span style={{ flex: 1, minWidth: 0 }}>
-              <span className={s.tipTitle}>{t('lagos.tipTitle')}</span>
-              <span className={s.tipText}>{t('lagos.tipText')}</span>
-            </span>
-            <Icon name="caret-right" weight="bold" size={18} color="var(--label-quaternary)" />
-          </button>
         </>
       )}
       </div>

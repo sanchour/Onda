@@ -26,7 +26,7 @@ import { DayScroller } from '@/ui/pickers'
 import m from './more.module.css'
 import s from './screens.module.css'
 
-const APP_VERSION = '6.0'
+const APP_VERSION = '7.0'
 const BUILD = '1'
 const HUB: [string, SettingsPage][] = [['seal-check', 'subscription'], ['paint-brush', 'appearance'], ['bell', 'notifications'], ['sparkle', 'practice'], ['arrows-clockwise', 'integrations'], ['database', 'data'], ['lock', 'privacy'], ['question', 'help']]
 

@@ -144,38 +144,42 @@ export default function OndaToday({ entry }: { entry: Extract<StackEntry, { name
         </GroupedList>
       )}
 
-      <SectionHeader title={t('onda.practices')} meta={`${pCount}/${plan.length}`} open={open('p')} onToggle={fold('p')} />
-      {open('p') && <PlanList plan={plan} done={pSet} onToggle={(id) => (run ? st.togglePractice(run.id, id) : flip(id))} runId={run?.id} info={info} footer={t('onda.holdHint')} />}
-
-      {content.rules.length > 0 && (
+      {!live && (
         <>
-          <SectionHeader title={t('onda.rules')} meta={`${rCount}/${content.rules.length}`} open={open('r')} onToggle={fold('r')} />
-          {open('r') && <RulesList rules={content.rules} done={rSet} numeral={look.numeral} onToggle={(id) => (run ? st.toggleItem('ruleLogs', run.id, id) : flip(id))} />}
-        </>
-      )}
+          <SectionHeader title={t('onda.practices')} meta={`${pCount}/${plan.length}`} open={open('p')} onToggle={fold('p')} />
+          {open('p') && <PlanList plan={plan} done={pSet} onToggle={(id) => flip(id)} runId={undefined} info={info} footer={t('onda.holdHint')} />}
 
-      {mediaToday.length > 0 && (
-        <>
-          <SectionHeader title={t('onda.immerse')} open={open('i')} onToggle={fold('i')} action={live ? { label: t('onda.seeAll'), onClick: () => push({ name: 'immersion' }) } : undefined} />
-          {open('i') && (
-            <GroupedList label={t('onda.immerse')}>
-              {mediaToday.map((m) => (
-                <Row key={m.id} icon={KIND_ICON[m.kind]} title={m.title} sub={[t(`kindLabel.${m.kind}`), m.meta].filter(Boolean).join(' · ')} chevron onClick={() => openSheet({ name: 'mediaInfo', item: m, ondaId: index.id, runId: run?.id })} />
-              ))}
-            </GroupedList>
+          {content.rules.length > 0 && (
+            <>
+              <SectionHeader title={t('onda.rules')} meta={`${rCount}/${content.rules.length}`} open={open('r')} onToggle={fold('r')} />
+              {open('r') && <RulesList rules={content.rules} done={rSet} numeral={look.numeral} onToggle={(id) => flip(id)} />}
+            </>
           )}
-        </>
-      )}
 
-      {think.length > 0 && (
-        <>
-          <SectionHeader title={t('onda.thinkAbout')} open={open('k')} onToggle={fold('k')} />
-          {open('k') && (
-            <GroupedList label={t('onda.thinkAbout')}>
-              {think.map((x) => (
-                <Row key={x.title} icon={x.kind === 'ethics' ? 'scales' : 'lightbulb'} title={x.title} sub={<span className={more === x.title ? undefined : c.clamp3}>{x.text}</span>} expanded={more === x.title} onClick={() => setMore((m) => (m === x.title ? null : x.title))} />
-              ))}
-            </GroupedList>
+          {mediaToday.length > 0 && (
+            <>
+              <SectionHeader title={t('onda.immerse')} open={open('i')} onToggle={fold('i')} action={live ? { label: t('onda.seeAll'), onClick: () => push({ name: 'immersion' }) } : undefined} />
+              {open('i') && (
+                <GroupedList label={t('onda.immerse')}>
+                  {mediaToday.map((m) => (
+                    <Row key={m.id} icon={KIND_ICON[m.kind]} title={m.title} sub={[t(`kindLabel.${m.kind}`), m.meta].filter(Boolean).join(' · ')} chevron onClick={() => openSheet({ name: 'mediaInfo', item: m, ondaId: index.id, runId: undefined })} />
+                  ))}
+                </GroupedList>
+              )}
+            </>
+          )}
+
+          {think.length > 0 && (
+            <>
+              <SectionHeader title={t('onda.thinkAbout')} open={open('k')} onToggle={fold('k')} />
+              {open('k') && (
+                <GroupedList label={t('onda.thinkAbout')}>
+                  {think.map((x) => (
+                    <Row key={x.title} icon={x.kind === 'ethics' ? 'scales' : 'lightbulb'} title={x.title} sub={<span className={more === x.title ? undefined : c.clamp3}>{x.text}</span>} expanded={more === x.title} onClick={() => setMore((m) => (m === x.title ? null : x.title))} />
+                  ))}
+                </GroupedList>
+              )}
+            </>
           )}
         </>
       )}
@@ -192,9 +196,11 @@ export default function OndaToday({ entry }: { entry: Extract<StackEntry, { name
         </GroupedList>
       )}
 
-      <GroupedList style={{ marginTop: 22 }}>
-        <Row icon="book-open-text" title={t('ondas.guide')} sub={t('onda.guideSub')} chevron onClick={openGuide} />
-      </GroupedList>
+      {!live && (
+        <GroupedList style={{ marginTop: 22 }}>
+          <Row icon="book-open-text" title={t('ondas.guide')} sub={t('onda.guideSub')} chevron onClick={openGuide} />
+        </GroupedList>
+      )}
 
       <GroupedList header={t('onda.journalDay', { day })} style={{ marginTop: 4 }}>
         <div className={c.block}>

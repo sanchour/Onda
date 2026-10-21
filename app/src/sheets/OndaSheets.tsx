@@ -9,7 +9,7 @@ import { haptic } from '@/lib/haptics'
 import { detId } from '@/lib/ids'
 import { useNav, type SheetEntry } from '@/nav/store'
 import { KindArt } from '@/screens/KindArt'
-import { Glyph, OndaBanner, OrnDivider, useActiveOnda, useRunToday } from '@/screens/ondaShared'
+import { Glyph, useActiveOnda, useRunToday } from '@/screens/ondaShared'
 import o from '@/screens/ondas.module.css'
 import s from '@/screens/screens.module.css'
 import { Button } from '@/ui/buttons'
@@ -158,60 +158,68 @@ export function PracticeInfoSheet({ entry }: E<'practiceInfo'>) {
   const p = content?.practices.find((x) => x.id === entry.practiceId)
   const name = p?.name ?? snap?.name ?? ''
   const on = done.practices.has(entry.practiceId)
-  const head = (icon: string, label: string) => (
-    <div className={o.howHead}>
-      <Icon name={icon} weight="fill" size={16} />
-      {label}
-    </div>
-  )
+  // instructions read as steps: one sentence each
+  const steps = (p?.instructions ?? '').split(/(?<=[.?])\s+(?=[A-Z“‘"])/).map((x) => x.trim()).filter(Boolean)
 
   return (
-    <AppSheet entry={entry} look={look} detent={0.82}>
-      <div style={{ padding: '4px 16px 40px' }}>
-        <OndaBanner icon={p?.icon ?? snap?.icon ?? 'circle'} kicker={index?.name} title={name} sub={p?.meta ?? snap?.time} />
+    <AppSheet entry={entry} look={look} detent={0.86}>
+      <div className={o.px}>
+        <header className={o.pxHead}>
+          <span className={o.pxIcon} aria-hidden><Icon name={p?.icon ?? snap?.icon ?? 'circle'} weight="regular" size={30} /></span>
+          <span className={o.pxKicker}>{[index?.name, p?.meta ?? snap?.time].filter(Boolean).join(' · ')}</span>
+          <h2 className={o.pxTitle}>{name}</h2>
+        </header>
         {!content && !snap && <div className={s.sub} style={{ textAlign: 'center', padding: 24 }}>{t('onda.loading')}</div>}
         {entry.twist && (
-          <div className={`${o.howCard} ${o.howToday}`} data-selectable>
-            {head('sparkle', t('plan.todayHead'))}
+          <div className={o.pxToday} data-selectable>
+            <span className={o.pxLabel}>{t('plan.todayHead')}</span>
             {entry.twist}
           </div>
         )}
-        {p?.instructions && (
-          <div className={o.howCard} data-selectable>
-            {head('play', t('onda.howTo'))}
-            {p.instructions}
-          </div>
+        {steps.length > 0 && (
+          <section aria-label={t('onda.howTo')}>
+            <h3 className={o.pxSec}>{t('onda.howTo')}</h3>
+            <ol className={o.pxSteps} data-selectable>
+              {steps.map((x, i) => (
+                <li key={i}>
+                  <span className={o.pxN} aria-hidden>{look ? look.numeral(i + 1) : i + 1}</span>
+                  <span>{x}</span>
+                </li>
+              ))}
+            </ol>
+          </section>
         )}
         {p?.why && (
-          <div className={o.howCard} data-selectable>
-            {head('lightbulb', t('onda.why'))}
-            {p.why}
-          </div>
+          <section aria-label={t('onda.why')}>
+            <h3 className={o.pxSec}>{t('onda.why')}</h3>
+            <p className={o.pxWhy} data-selectable>{p.why}</p>
+          </section>
         )}
         {!!p?.variations.length && (
-          <div className={o.howCard} data-selectable>
-            {head('repeat', t('onda.variations'))}
-            <ul className={o.howList}>
+          <section aria-label={t('onda.variations')}>
+            <h3 className={o.pxSec}>{t('onda.variations')}</h3>
+            <ul className={o.pxVars} data-selectable>
               {p.variations.map((v) => (
                 <li key={v}>{v}</li>
               ))}
             </ul>
-          </div>
+          </section>
         )}
-        {(content || snap) && !p?.instructions && !p?.why && <div className={o.howCard}>{t('onda.noHowTo')}</div>}
-        <OrnDivider look={look} />
+        {(content || snap) && !p?.instructions && !p?.why && <p className={o.pxWhy}>{t('onda.noHowTo')}</p>}
         {run && (
-          <Button
-            fullWidth
-            variant={on ? 'secondary' : 'primary'}
-            icon={on ? 'check' : undefined}
-            onClick={() => {
-              haptic(on ? 'select' : 'success')
-              useStore.getState().togglePractice(run.id, entry.practiceId)
-            }}
-          >
-            {on ? t('onda.doneToday') : t('onda.markDone')}
-          </Button>
+          <div className={o.pxAction}>
+            <Button
+              fullWidth
+              variant={on ? 'secondary' : 'primary'}
+              icon={on ? 'check' : undefined}
+              onClick={() => {
+                haptic(on ? 'select' : 'success')
+                useStore.getState().togglePractice(run.id, entry.practiceId)
+              }}
+            >
+              {on ? t('onda.doneToday') : t('onda.markDone')}
+            </Button>
+          </div>
         )}
       </div>
     </AppSheet>

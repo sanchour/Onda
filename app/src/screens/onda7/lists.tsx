@@ -122,13 +122,13 @@ export function SectionHeader({ title, meta, open, onToggle, action, id }: {
   )
 }
 
-/** Icon-only shortcuts: a row of floating glass circles tinted with the Onda accent. The label is the accessible name. */
+/** Icon-only shortcuts: one connected bar in the Onda's material, the icons in its ink. The label is the accessible name. */
 export function ShortcutBar({ items, label }: { items: { icon: string; label: string; onClick: () => void }[]; label?: string }) {
   return (
     <div className={c.bar} role="group" aria-label={label}>
       {items.map((x) => (
         <button key={x.label} type="button" className={c.barBtn} onClick={x.onClick} aria-label={x.label} title={x.label}>
-          <span className={c.barIcon} aria-hidden><Icon name={x.icon} weight="regular" size={26} /></span>
+          <span className={c.barIcon} aria-hidden><Icon name={x.icon} weight="regular" size={31} /></span>
         </button>
       ))}
     </div>

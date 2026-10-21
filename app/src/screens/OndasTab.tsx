@@ -1,7 +1,6 @@
 import { useDeferredValue, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { BROWSE_GROUPS, COMING_SOON, GROUP_OF } from '@/content/browse'
-import { pickForDay } from '@/data/derive/onda'
 import { planForDay, type DayPractice } from '@/data/derive/plan'
 import { useLookFn, useOndaList, useSettings } from '@/data/hooks'
 import { useStore } from '@/data/store'
@@ -9,8 +8,7 @@ import { BackButton, Screen } from '@/nav/Screen'
 import { useNav } from '@/nav/store'
 import { Button, GlassButton } from '@/ui/buttons'
 import { ProgressBar } from '@/ui/data'
-import { OrnamentIcon } from './KindArt'
-import { Cover, GroupedList, PlanList, QuoteBlock, Row, SearchField, SectionHeader, ShortcutBar } from './onda7'
+import { Cover, GroupedList, PlanList, Row, SearchField, SectionHeader, ShortcutBar } from './onda7'
 import c from './onda7/onda7.module.css'
 import { guardCreateOnda, useActiveOnda, useRunToday } from './ondaShared'
 import s from './screens.module.css'
@@ -63,7 +61,6 @@ export default function OndasTab() {
   const kicker = t('ondas.kicker', { label: t('ondas.dayOf', { day, length: run.lengthDays }) })
   const rules = content?.rules ?? []
   const kept = rules.filter((r) => done.rules.has(r.id)).length
-  const quote = content && (content.quotes.length ? pickForDay([...(content.quote ? [content.quote] : []), ...content.quotes], day) : content.quote)
 
   return (
     <Screen variant="root">
@@ -110,7 +107,6 @@ export default function OndasTab() {
           </GroupedList>
         )}
 
-        {quote && <QuoteBlock caps={look.caps} text={quote.text} by={quote.by} source={quote.source} ornament={look.themed ? <OrnamentIcon name={look.ornament} size={22} weight={1.25} /> : undefined} />}
       </div>
     </Screen>
   )

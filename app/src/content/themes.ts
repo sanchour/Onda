@@ -96,6 +96,7 @@ export function ondaLook(o: Pick<OndaIndex, 'id' | 'tone'> | undefined, opts: { 
       '--onda-strong': strong,
       '--onda-accent': strong,
       '--onda-cover': cover,
+      '--onda-material': material,
       '--onda-cover-ink': ink,
       '--onda-cover-edge': c1,
       '--onda-text': readableText(strong, dark ? [solid, '#303136'] : [solid, '#F5F1E8'], dark),

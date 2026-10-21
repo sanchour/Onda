@@ -11,12 +11,17 @@ import navCss from '@/nav/nav.module.css'
 import { useNav, type StackEntry } from '@/nav/store'
 import { Button } from '@/ui/buttons'
 import { Switch } from '@/ui/controls'
-import { ProgressRing, StepBar } from '@/ui/data'
+import { StepBar } from '@/ui/data'
 import { Icon } from '@/ui/Icon'
-import { KindArt } from './KindArt'
 import { OndaBanner, useActiveOnda } from './ondaShared'
+import { Cover } from './onda7'
 import o from './ondas.module.css'
 import s from './screens.module.css'
+
+/** One of five tints, the same for an item every time. */
+const tintOf = (title: string) => [...title].reduce((h, ch) => (h * 31 + ch.charCodeAt(0)) >>> 0, 7) % 5
+/** The first letter that matters: skips a leading article. */
+const initialOf = (title: string) => (title.replace(/^(the|a|an|le|la|el|il|die|der|das)\s+/i, '').match(/[\p{L}\p{N}]/u)?.[0] ?? '').toUpperCase()
 
 /* ── Immersion: a grid of kinds (Read, Watch, Listen, ...), then the list for one kind ── */
 export function Immersion({ entry }: { entry: Extract<StackEntry, { name: 'immersion' }> }) {
@@ -105,18 +110,24 @@ export function Immersion({ entry }: { entry: Extract<StackEntry, { name: 'immer
               <i style={{ width: `${list.length ? (count(kind).seen / list.length) * 100 : 0}%` }} />
             </span>
           </div>
-          <ul className={o.lib}>
+          <ul className={kind === 'words' ? `hscroll ${o.lib}` : o.lib} data-layout={kind}>
             {list.map((m, i) => {
               const on = done.has(m.id)
               return (
-                <li key={m.id} className={on ? `${o.libCard} ${o.libOn}` : o.libCard}>
+                <li key={m.id} className={on ? `${o.libCard} ${o.libOn}` : o.libCard} data-tint={tintOf(m.title)}>
                   <button type="button" className={o.libOpen} aria-label={t('immersion.about', { name: m.title })} onClick={() => openSheet({ name: 'mediaInfo', item: m, ondaId: active.run.ondaId, runId: active.run.id })}>
-                    <span className={o.libNo} aria-hidden>{t('immersion.no', { n: active.look.numeral(i + 1) })}</span>
-                    <span className={o.libArt} aria-hidden>
-                      <KindArt kind={m.kind} />
+                    <span className={o.libThumb} data-kind={m.kind} aria-hidden>
+                      <span className={o.libInitial}>{initialOf(m.title)}</span>
+                      <span className={o.libCoverTitle}>{m.title}</span>
+                      {m.creator && <span className={o.libCoverBy}>{m.creator}</span>}
+                      <span className={o.libNo}>{active.look.numeral(i + 1)}</span>
                     </span>
-                    <span className={o.libTitle}>{m.title}</span>
-                    {m.meta && <span className={o.libBy}>{m.meta}</span>}
+                    <span className={o.libText}>
+                      <span className={o.libTitle}>{m.title}</span>
+                      {m.extra && <span className={o.libExtra}>{m.extra}</span>}
+                      {m.meta && <span className={o.libBy}>{m.meta}</span>}
+                      {m.why && <span className={o.libWhy}>{m.why}</span>}
+                    </span>
                   </button>
                   <button
                     type="button"
@@ -199,10 +210,10 @@ export function Reflection() {
       <div ref={body} className={`scroll ${o.flowBody}`}>
         {step === 0 && (
           <>
-            <div className={s.center} style={{ paddingTop: 40 }}>
-              <div className={`${s.circle} ${o.rfIcon} ${o.solidCircle}`}>
-                <Icon name={index?.icon ?? 'sparkle'} weight="fill" size={44} />
-              </div>
+            <div style={{ margin: '8px -16px 0' }}>
+              <Cover look={look} size="hero" title={index?.name ?? run.snapshot?.name ?? ''} kicker={t('reflection.title')} days={{ day: run.lengthDays + 1, length: run.lengthDays }} />
+            </div>
+            <div className={s.center} style={{ paddingTop: 24 }}>
               <h2 className={o.rfTitle}>{t('reflection.daysOf', { count: day, name: index?.name ?? run.snapshot?.name })}</h2>
               <div className={o.rfLead}>{t('reflection.lookBack')}</div>
             </div>
@@ -234,12 +245,12 @@ export function Reflection() {
             <div className={o.rfLabel}>{t('reflection.carry')}</div>
             <h2 className={o.rfPrompt}>{t('reflection.carryTitle')}</h2>
             <div className={s.sub} style={{ marginTop: 8 }}>{t('reflection.carrySub')}</div>
-            <div className={s.stack10} style={{ marginTop: 20 }}>
+            <div className={o.keepList}>
               {carryList.map((p) => (
                 <div key={p.id} className={o.keepRow}>
-                  <div className={`${s.circle} ${o.keepIcon} ${o.solidCircle}`}>
-                    <Icon name={p.icon} weight="fill" size={20} />
-                  </div>
+                  <span className={o.keepIcon} aria-hidden>
+                    <Icon name={p.icon} weight="regular" size={22} />
+                  </span>
                   <div style={{ flex: 1, minWidth: 0 }}>
                     <div className={o.pName}>{p.name}</div>
                     <div className={s.sub}>{t('reflection.daysOfTotal', { done: sum.perPractice[p.id] ?? 0, total: run.lengthDays })}</div>
@@ -276,9 +287,9 @@ export function Done({ entry }: { entry: Extract<StackEntry, { name: 'done' }> }
   const name = index?.name ?? ''
   return (
     <div className={o.doneWrap} style={look.vars}>
-      <ProgressRing value={1} size={160} stroke={12} color="var(--onda-strong)">
-        <Icon name={index?.icon ?? 'sparkle'} weight="fill" size={56} />
-      </ProgressRing>
+      <div className={o.doneCover}>
+        {look && <Cover look={look} size="hero" title={name} kicker={t('done.title')} />}
+      </div>
       <h1 className={o.doneTitle}>{t('done.title')}</h1>
       <div className={o.rfLead} style={{ textWrap: 'pretty' }}>{entry.kept ? t('done.kept', { count: entry.kept, name }) : t('done.none', { name })}</div>
       <div className={navCss.bottom}>

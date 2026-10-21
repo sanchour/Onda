@@ -195,20 +195,6 @@ button.softCard{width:100%;text-align:start;display:block}
 .journalList > * + *::before{content:"";position:absolute;top:0;left:16px;right:0;height:.5px;background:var(--separator)}
 .entryPrompt{font:600 var(--fs-17)/1.3 var(--font-sans);font-style:normal}
 
-.libHead{padding:22px 36px 8px}
-.lib{display:block;margin:0 16px;padding:0;background:var(--surface-card);border-radius:24px;overflow:hidden}
-.libCard{display:flex;align-items:center;border-radius:0;background:none;box-shadow:none;position:relative}
-.libCard + .libCard::before{content:"";position:absolute;top:0;left:54px;right:0;height:.5px;background:var(--separator)}
-.libOpen{flex-direction:row;align-items:center;flex-wrap:wrap;gap:0 12px;padding:12px 60px 12px 16px;min-height:60px}
-.libNo{min-width:26px;min-height:0;font:500 var(--fs-17)/1.3 var(--onda-font);letter-spacing:0;text-transform:none;color:var(--onda-accent,var(--onda-text))}
-.libArt{display:none}
-.libTitle{flex:1;min-width:0;font:500 var(--fs-17)/1.3 var(--font-sans);text-transform:none;-webkit-line-clamp:2}
-.libBy{flex-basis:100%;padding-left:38px;margin-top:2px}
-.libStamp{top:50%;right:8px;transform:translateY(-50%)}
-.libStamp::before{inset:10px;border:1.5px solid var(--label-quaternary)}
-.libOn{background:none}
-.libOn .libStamp{color:var(--onda-on)}
-.libOn .libStamp::before{background:var(--onda-deep);border-color:var(--onda-deep);transform:none}
 
 /* ── Onda 7: Immersion index ── */
 .imHead{margin:0;padding:26px 36px 8px;font:600 var(--fs-13)/1.3 var(--font-sans);letter-spacing:.04em;text-transform:uppercase;color:var(--label-secondary)}
@@ -233,3 +219,180 @@ button.softCard{width:100%;text-align:start;display:block}
 .imRing circle[data-on]{stroke:var(--onda-accent,var(--accent));stroke-linecap:round;transition:stroke-dasharray var(--duration-large) var(--ease-enter)}
 .imTileName{margin-top:18px;font:600 var(--fs-17)/1.25 var(--font-sans);color:var(--label)}
 .imTileCount{font:400 var(--fs-13)/1.3 var(--font-sans);color:var(--label-secondary)}
+
+/* ── Onda 7: practice sheet ── */
+.px{padding:6px 20px calc(28px + var(--sab,0px))}
+.pxHead{display:flex;flex-direction:column;align-items:flex-start;gap:6px;padding:6px 4px 4px}
+.pxIcon{display:flex;color:var(--onda-accent,var(--accent));margin-bottom:6px}
+.pxKicker{font:600 var(--fs-12)/1.3 var(--font-sans);letter-spacing:.07em;text-transform:uppercase;color:var(--label-secondary)}
+.pxTitle{margin:0;font:500 var(--fs-30)/1.12 var(--onda-font,var(--font-serif));letter-spacing:var(--onda-track,-0.01em);text-transform:var(--onda-case,none);text-wrap:balance;overflow-wrap:anywhere}
+.pxToday{margin-top:18px;padding:14px 16px;border-radius:18px;background:color-mix(in srgb,var(--onda-accent,var(--accent)) 9%,var(--surface-card));font:400 var(--fs-16)/1.45 var(--font-sans);text-wrap:pretty}
+.pxLabel{display:block;margin-bottom:3px;font:600 var(--fs-11)/1.3 var(--font-sans);letter-spacing:.08em;text-transform:uppercase;color:var(--onda-accent,var(--accent))}
+.pxSec{margin:26px 4px 8px;font:600 var(--fs-13)/1.3 var(--font-sans);letter-spacing:.04em;text-transform:uppercase;color:var(--label-secondary)}
+.pxSteps{list-style:none;margin:0;padding:0;background:var(--surface-card);border-radius:22px;overflow:hidden}
+.pxSteps li{position:relative;display:flex;gap:14px;padding:13px 16px;font:400 var(--fs-17)/1.45 var(--font-sans);text-wrap:pretty}
+.pxSteps li + li::before{content:"";position:absolute;top:0;left:50px;right:0;height:.5px;background:var(--separator)}
+.pxN{flex:none;width:20px;font:500 var(--fs-17)/1.45 var(--onda-font,var(--font-serif));color:var(--onda-accent,var(--accent))}
+.pxWhy{margin:0;padding:2px 4px 0 16px;border-left:2px solid color-mix(in srgb,var(--onda-accent,var(--accent)) 45%,transparent);font:400 var(--fs-17)/1.55 var(--font-serif);color:var(--label);text-wrap:pretty}
+.pxVars{list-style:none;margin:0;padding:0;background:var(--surface-card);border-radius:22px;overflow:hidden}
+.pxVars li{position:relative;padding:13px 16px 13px 34px;font:400 var(--fs-16)/1.4 var(--font-sans);text-wrap:pretty}
+.pxVars li::after{content:"";position:absolute;left:16px;top:21px;width:6px;height:6px;border-radius:50%;background:var(--onda-accent,var(--accent))}
+.pxVars li + li::before{content:"";position:absolute;top:0;left:34px;right:0;height:.5px;background:var(--separator)}
+.pxAction{margin-top:28px}
+
+/* ── Onda 7: reflection and done ── */
+.rfTitle{font:500 var(--fs-30)/1.12 var(--onda-font,var(--font-serif));text-transform:var(--onda-case,none);letter-spacing:var(--onda-track,-0.01em)}
+.rfStats{margin-top:22px;background:var(--surface-card);border-radius:24px;padding:18px 8px}
+.rfStats [class*="statV"]{font-family:var(--onda-font,var(--font-serif));font-weight:500;color:var(--onda-accent,var(--label))}
+.rfLabel{font:600 var(--fs-12)/1.3 var(--font-sans);letter-spacing:.07em;text-transform:uppercase;color:var(--onda-accent,var(--label-secondary))}
+.rfPrompt{font:500 var(--fs-28)/1.2 var(--onda-font,var(--font-serif));text-transform:none;letter-spacing:-0.005em}
+.rfField{background:var(--surface-card);border-radius:22px}
+.keepList{margin-top:20px;background:var(--surface-card);border-radius:24px;overflow:hidden}
+.keepList .keepRow{position:relative;background:none;border-radius:0;padding:12px 16px;gap:14px}
+.keepList .keepRow + .keepRow::before{content:"";position:absolute;top:0;left:52px;right:0;height:.5px;background:var(--separator)}
+.keepList .keepIcon{width:24px;height:auto;display:flex;color:var(--onda-accent,var(--accent))}
+.keepList [class*="pName"]{font:500 var(--fs-17)/1.3 var(--font-sans)}
+.doneCover{width:100%;max-width:420px}
+.doneTitle{font:500 var(--fs-30)/1.12 var(--font-sans);font-weight:700;letter-spacing:var(--tracking-title);margin-top:26px}
+
+/* ── Onda 7: library cards ── */
+.libHead{padding:22px 36px 10px}
+.lib{list-style:none;margin:0;padding:0 16px;display:flex;flex-direction:column;gap:10px}
+.libCard{position:relative;display:flex;background:var(--surface-card);border-radius:22px;box-shadow:none;transition:background var(--duration-standard)}
+.libOn{background:color-mix(in srgb,var(--onda-accent,var(--accent)) 7%,var(--surface-card))}
+.libOpen{flex:1;min-width:0;display:flex;align-items:flex-start;gap:14px;padding:12px 56px 12px 12px;text-align:start;min-height:0}
+.libOpen:active{opacity:.75}
+/* the small cover */
+.libThumb{--t:var(--onda-accent,var(--accent));position:relative;flex:none;width:64px;height:64px;border-radius:14px;display:flex;align-items:center;justify-content:center;overflow:hidden;color:#FBF7EF;
+  background:linear-gradient(160deg,color-mix(in oklab,var(--t) 78%,#000),color-mix(in oklab,var(--t) 52%,#000));box-shadow:inset 0 0 0 .5px rgba(255,255,255,.18)}
+[data-tint="1"] .libThumb{--t:color-mix(in oklab,var(--onda-accent,var(--accent)) 62%,#8A5A2B)}
+[data-tint="2"] .libThumb{--t:color-mix(in oklab,var(--onda-accent,var(--accent)) 62%,#2B6A6A)}
+[data-tint="3"] .libThumb{--t:color-mix(in oklab,var(--onda-accent,var(--accent)) 62%,#6A2B4E)}
+[data-tint="4"] .libThumb{--t:color-mix(in oklab,var(--onda-accent,var(--accent)) 70%,#B08A2E)}
+.libThumb::after{content:"";position:absolute;inset:0;background:radial-gradient(90% 60% at 20% 0%,rgba(255,255,255,.2),transparent 70%);pointer-events:none}
+.libThumb[data-kind="read"]{width:54px;height:76px;border-radius:4px 9px 9px 4px;box-shadow:inset 5px 0 0 rgba(0,0,0,.22),inset 6px 0 0 rgba(255,255,255,.12),0 6px 12px -8px rgba(0,0,0,.5)}
+.libThumb[data-kind="watch"]{width:84px;height:56px;border-radius:10px}
+.libThumb[data-kind="listen"]{border-radius:50%;background:radial-gradient(circle,rgba(255,255,255,.22) 0 4px,transparent 5px),repeating-radial-gradient(circle,transparent 0 5px,rgba(255,255,255,.06) 5px 6px),linear-gradient(160deg,color-mix(in oklab,var(--t) 70%,#000),color-mix(in oklab,var(--t) 45%,#000))}
+.libThumb[data-kind="art"]{border-radius:3px;box-shadow:inset 0 0 0 4px color-mix(in oklab,var(--t) 40%,#fff),inset 0 0 0 5px rgba(0,0,0,.2)}
+.libThumb:is([data-kind="eat"],[data-kind="drink"]){border-radius:50%;box-shadow:inset 0 0 0 5px rgba(255,255,255,.14)}
+.libThumb:is([data-kind="customs"],[data-kind="games"],[data-kind="travel"],[data-kind="words"]){border-radius:18px}
+.libInitial{position:relative;z-index:1;font:500 var(--fs-28)/1 var(--onda-font,var(--font-serif));letter-spacing:0}
+.libThumb[data-kind="listen"] .libInitial{display:none}
+.libNo{position:absolute;z-index:1;left:6px;bottom:4px;font:600 var(--fs-10,10px)/1 var(--font-sans);letter-spacing:.04em;opacity:.75;min-height:0;color:inherit;text-transform:none}
+.libThumb[data-kind="read"] .libNo{left:10px}
+.libText{flex:1;min-width:0;display:flex;flex-direction:column;gap:3px;padding-top:2px}
+.libTitle{font:600 var(--fs-17)/1.25 var(--font-sans);text-transform:none;letter-spacing:var(--tracking-body);text-wrap:pretty;overflow-wrap:anywhere;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.libBy{font:400 var(--fs-14)/1.3 var(--font-sans);color:var(--onda-accent,var(--label-secondary));display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden}
+.libWhy{margin-top:2px;font:400 var(--fs-14)/1.4 var(--font-sans);color:var(--label-secondary);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;text-wrap:pretty}
+.libArt{display:none}
+.libStamp{position:absolute;top:8px;right:6px;width:44px;height:44px;display:flex;align-items:center;justify-content:center;color:transparent}
+.libStamp::before{content:"";position:absolute;inset:10px;border-radius:50%;border:1.5px solid var(--label-quaternary);transition:background var(--duration-standard),border-color var(--duration-standard)}
+.libStamp > *{position:relative}
+.libOn .libStamp{color:var(--onda-on,#fff)}
+.libOn .libStamp::before{background:var(--onda-deep,var(--accent));border-color:var(--onda-deep,var(--accent));transform:none}
+.libOn .libTitle{color:var(--label-secondary)}
+
+/* ── Onda 7: a format for each kind ── */
+.libCoverTitle,.libCoverBy,.libExtra{display:none}
+.lib:is([data-layout="read"],[data-layout="listen"],[data-layout="art"],[data-layout="watch"]) .libStamp::before{border-color:rgba(255,255,255,.8);background:rgba(0,0,0,.16)}
+
+/* Read: a shelf of books, two across, the title set on the cover */
+.lib[data-layout="read"]{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px 16px;padding-top:4px}
+.lib[data-layout="read"] .libCard{background:none}
+.lib[data-layout="read"] .libOpen{flex-direction:column;gap:10px;padding:0}
+.lib[data-layout="read"] .libThumb{width:100%;height:auto;aspect-ratio:2/3;flex-direction:column;justify-content:space-between;align-items:flex-start;padding:18px 12px 14px 20px;border-radius:3px 12px 12px 3px;
+  box-shadow:inset 6px 0 0 rgba(0,0,0,.24),inset 7px 0 0 rgba(255,255,255,.14),0 1px 1px rgba(0,0,0,.08),0 16px 22px -14px rgba(0,0,0,.55)}
+.lib[data-layout="read"] .libThumb::before{content:"";position:absolute;inset:9px 8px 9px 15px;border:.5px solid rgba(255,255,255,.34);border-radius:3px;pointer-events:none}
+.lib[data-layout="read"] .libInitial{display:none}
+.lib[data-layout="read"] .libCoverTitle{display:-webkit-box;-webkit-line-clamp:5;-webkit-box-orient:vertical;overflow:hidden;position:relative;z-index:1;font:500 var(--fs-19)/1.15 var(--onda-font,var(--font-serif));text-wrap:balance;overflow-wrap:anywhere}
+.lib[data-layout="read"] .libCoverBy{display:block;position:relative;z-index:1;font:600 var(--fs-11)/1.25 var(--font-sans);letter-spacing:.07em;text-transform:uppercase;opacity:.82}
+.lib[data-layout="read"] .libNo{display:none}
+.lib[data-layout="read"] .libText{padding:0 2px}
+.lib[data-layout="read"] .libTitle,.lib[data-layout="read"] .libWhy{display:none}
+.lib[data-layout="read"] .libStamp{top:6px;right:4px}
+
+/* Listen: record sleeves with the disc sliding out */
+.lib[data-layout="listen"]{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px 16px;padding-top:4px}
+.lib[data-layout="listen"] .libCard{background:none}
+.lib[data-layout="listen"] .libOpen{flex-direction:column;gap:12px;padding:0;isolation:isolate}
+.lib[data-layout="listen"] .libThumb{width:80%;height:auto;aspect-ratio:1;border-radius:4px;overflow:visible;background:linear-gradient(160deg,color-mix(in oklab,var(--t) 80%,#000),color-mix(in oklab,var(--t) 50%,#000));box-shadow:0 14px 20px -14px rgba(0,0,0,.6)}
+.lib[data-layout="listen"] .libThumb::before{content:"";position:absolute;z-index:-1;top:5%;bottom:5%;right:-22%;aspect-ratio:1;border-radius:50%;
+  background:radial-gradient(circle,#0E0E0E 0 3%,color-mix(in oklab,var(--t) 60%,#fff) 3.5% 16%,#111 16.5% 18%,transparent 18.5%),repeating-radial-gradient(circle,#161616 0 1.5px,#242424 1.5px 3px)}
+.lib[data-layout="listen"] .libInitial{display:block;font-size:var(--fs-36)}
+.lib[data-layout="listen"] .libText{padding:0 2px}
+.lib[data-layout="listen"] .libTitle{font:500 var(--fs-17)/1.2 var(--onda-font,var(--font-serif))}
+.lib[data-layout="listen"] .libWhy{display:none}
+.lib[data-layout="listen"] .libStamp{top:2px;right:auto;left:calc(80% - 46px)}
+
+/* Watch: wide cinematic frames with letterbox bars and the title over the picture */
+.lib[data-layout="watch"] .libCard{overflow:hidden}
+.lib[data-layout="watch"] .libOpen{flex-direction:column;gap:12px;padding:0 0 16px}
+.lib[data-layout="watch"] .libThumb{width:100%;height:auto;aspect-ratio:2.1/1;border-radius:0;align-items:flex-end;justify-content:flex-start;padding:0 18px 18px;
+  box-shadow:inset 0 12px 0 rgba(0,0,0,.42),inset 0 -12px 0 rgba(0,0,0,.42)}
+.lib[data-layout="watch"] .libThumb::before{content:"";position:absolute;left:50%;top:50%;width:46px;height:46px;margin:-23px 0 0 -23px;border-radius:50%;background:rgba(255,255,255,.18);
+  -webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);box-shadow:inset 0 0 0 1px rgba(255,255,255,.3)}
+.lib[data-layout="watch"] .libThumb::after{background:linear-gradient(to top,rgba(0,0,0,.45),transparent 60%)}
+.lib[data-layout="watch"] .libInitial,.lib[data-layout="watch"] .libNo{display:none}
+.lib[data-layout="watch"] .libCoverTitle{display:block;position:relative;z-index:1;font:500 var(--fs-24)/1.1 var(--onda-font,var(--font-serif));text-wrap:balance;max-width:85%}
+.lib[data-layout="watch"] .libText{padding:0 16px}
+.lib[data-layout="watch"] .libTitle{display:none}
+
+/* Art: a gallery wall, a matted print in a thin frame and a museum label */
+.lib[data-layout="art"]{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:26px 18px;padding-top:6px}
+.lib[data-layout="art"] .libCard{background:none}
+.lib[data-layout="art"] .libOpen{flex-direction:column;gap:12px;padding:0}
+.lib[data-layout="art"] .libThumb{width:100%;height:auto;aspect-ratio:4/5;border-radius:1px;background:#F3EFE6;padding:16%;
+  box-shadow:0 0 0 4px #2E2721,0 0 0 5px #6B5A48,0 18px 24px -12px rgba(0,0,0,.5)}
+.lib[data-layout="art"] .libThumb::before{content:"";position:absolute;inset:15%;background:linear-gradient(160deg,color-mix(in oklab,var(--t) 85%,#000),color-mix(in oklab,var(--t) 55%,#000));box-shadow:inset 0 0 0 .5px rgba(0,0,0,.3)}
+.lib[data-layout="art"] .libThumb::after{display:none}
+.lib[data-layout="art"] .libInitial{font-size:var(--fs-30)}
+.lib[data-layout="art"] .libNo{color:#2E2721;opacity:.6;left:8px;bottom:6px}
+.lib[data-layout="art"] .libText{padding:4px 2px 0;gap:2px}
+.lib[data-layout="art"] .libTitle{font:500 var(--fs-16)/1.25 var(--onda-font,var(--font-serif))}
+.lib[data-layout="art"] .libBy{font:600 var(--fs-11)/1.3 var(--font-sans);letter-spacing:.07em;text-transform:uppercase}
+.lib[data-layout="art"] .libWhy{display:none}
+.lib[data-layout="art"] .libStamp{top:2px;right:2px}
+.lib[data-layout="art"] .libStamp::before{border-color:rgba(0,0,0,.35);background:rgba(255,255,255,.6)}
+
+/* Eat and drink: a printed menu */
+.lib:is([data-layout="eat"],[data-layout="drink"]){display:block;margin:0 16px;padding:26px 0 10px;background:var(--surface-card);border-radius:26px;
+  background-image:linear-gradient(var(--onda-accent,var(--accent)),var(--onda-accent,var(--accent)));background-size:40px 1px;background-position:50% 18px;background-repeat:no-repeat}
+.lib:is([data-layout="eat"],[data-layout="drink"]) .libCard{background:none;border-radius:0}
+.lib:is([data-layout="eat"],[data-layout="drink"]) .libCard + .libCard::before{content:"";position:absolute;top:0;left:22px;right:22px;border-top:1px dotted color-mix(in srgb,var(--label) 25%,transparent)}
+.lib:is([data-layout="eat"],[data-layout="drink"]) .libOpen{padding:16px 60px 16px 22px}
+.lib:is([data-layout="eat"],[data-layout="drink"]) .libThumb{display:none}
+.lib:is([data-layout="eat"],[data-layout="drink"]) .libTitle{font:500 var(--fs-20)/1.2 var(--onda-font,var(--font-serif))}
+.lib:is([data-layout="eat"],[data-layout="drink"]) .libBy{font:600 var(--fs-11)/1.3 var(--font-sans);letter-spacing:.08em;text-transform:uppercase}
+.lib:is([data-layout="eat"],[data-layout="drink"]) .libWhy{font:italic 400 var(--fs-15)/1.45 var(--font-serif);-webkit-line-clamp:3}
+.lib:is([data-layout="eat"],[data-layout="drink"]) .libStamp{top:12px;right:10px}
+
+/* Words: a deck of vocabulary cards, one at a time, swiped sideways */
+.lib[data-layout="words"]{flex-direction:row;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-padding:0 16px;padding:8px 16px 26px}
+.lib[data-layout="words"] .libCard{flex:none;width:calc(100% - 44px);min-height:320px;scroll-snap-align:start;border-radius:26px;
+  background:linear-gradient(transparent 0 76px,color-mix(in srgb,var(--onda-accent,var(--accent)) 40%,transparent) 76px 77px,transparent 77px),
+    repeating-linear-gradient(transparent 0 33px,color-mix(in srgb,var(--label) 7%,transparent) 33px 34px) 0 77px/100% calc(100% - 77px) no-repeat,var(--surface-card);
+  box-shadow:0 1px 0 rgba(0,0,0,.04),6px 6px 0 -1px var(--surface-card),6px 6px 0 0 color-mix(in srgb,var(--label) 8%,transparent),12px 12px 0 -2px var(--surface-card),12px 12px 0 -1px color-mix(in srgb,var(--label) 6%,transparent)}
+.lib[data-layout="words"] .libOpen{flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:30px 26px}
+.lib[data-layout="words"] .libThumb{display:none}
+.lib[data-layout="words"] .libText{align-items:center;gap:8px}
+.lib[data-layout="words"] .libTitle{font:500 var(--fs-36)/1.1 var(--onda-font,var(--font-serif));-webkit-line-clamp:3;color:var(--label)}
+.lib[data-layout="words"] .libExtra{display:block;font:italic 400 var(--fs-15)/1.3 var(--font-serif);color:var(--onda-accent,var(--label-secondary))}
+.lib[data-layout="words"] .libBy{margin-top:14px;font:500 var(--fs-19)/1.3 var(--font-sans);color:var(--label);-webkit-line-clamp:3}
+.lib[data-layout="words"] .libWhy{-webkit-line-clamp:4;font-size:var(--fs-15)}
+
+/* Travel: postcards with a perforated stamp */
+.lib[data-layout="travel"] .libCard{border-radius:8px;background:color-mix(in srgb,#F4EAD5 30%,var(--surface-card));box-shadow:0 10px 18px -14px rgba(0,0,0,.45)}
+.lib[data-layout="travel"] .libCard:nth-child(odd){transform:rotate(-.6deg)}
+.lib[data-layout="travel"] .libCard:nth-child(even){transform:rotate(.5deg)}
+.lib[data-layout="travel"] .libOpen{padding:16px 60px 16px 16px}
+.lib[data-layout="travel"] .libThumb{width:58px;height:68px;border-radius:0;-webkit-mask:radial-gradient(circle at 3px 3px,transparent 2.2px,#000 2.6px) -3px -3px/6px 6px;mask:radial-gradient(circle at 3px 3px,transparent 2.2px,#000 2.6px) -3px -3px/6px 6px}
+.lib[data-layout="travel"] .libTitle{font:500 var(--fs-20)/1.2 var(--onda-font,var(--font-serif))}
+
+/* Games: a board on the box */
+.lib[data-layout="games"] .libThumb{background:conic-gradient(rgba(255,255,255,.14) 25%,transparent 0 50%,rgba(255,255,255,.14) 0 75%,transparent 0) 0 0/16px 16px,linear-gradient(160deg,color-mix(in oklab,var(--t) 78%,#000),color-mix(in oklab,var(--t) 52%,#000));border-radius:12px}
+
+/* Customs: an almanac, the number large */
+.lib[data-layout="customs"] .libThumb{width:48px;height:48px;background:none;box-shadow:none;color:var(--onda-accent,var(--accent))}
+.lib[data-layout="customs"] .libThumb::after{display:none}
+.lib[data-layout="customs"] .libInitial{display:none}
+.lib[data-layout="customs"] .libNo{position:static;font:500 var(--fs-30)/1 var(--onda-font,var(--font-serif));opacity:1}

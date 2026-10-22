@@ -92,7 +92,9 @@ function InstallCoachmark() {
 /** Face ID Lock and the app-switcher cover. */
 function PrivacyGate() {
   const { t } = useTranslation()
-  const { appLock, hideInSwitcher } = useSettings()
+  // Settings no longer has a Privacy page (7.2), so a lock or switcher cover turned on before then stays off
+  const appLock = false
+  const hideInSwitcher = false
   const [locked, setLocked] = useState(appLock)
   const [hidden, setHidden] = useState(false)
   const away = useRef(0)

@@ -1,6 +1,6 @@
 import { useDeferredValue, useEffect, useLayoutEffect, useRef, useState } from 'react'
 import { useTranslation } from 'react-i18next'
-import { BROWSE_GROUPS, COMING_SOON, GROUP_OF, type BrowseGroup, type ComingSoon } from '@/content/browse'
+import { BROWSE_GROUPS, COMING_SOON, GROUP_OF, byShelf, type BrowseGroup, type ComingSoon } from '@/content/browse'
 import type { OndaIndex } from '@/content/schema'
 import { useLookFn, useOndaList } from '@/data/hooks'
 import { useStore } from '@/data/store'
@@ -81,7 +81,7 @@ export default function DeskBrowse({ entry }: { entry?: StackEntry }) {
   const shipped = new Set(list.map((x) => x.id))
   const mine = list.filter((x) => !GROUP_OF[x.id])
   const shelves: Shelf[] = [...BROWSE_GROUPS, ...(mine.length ? (['mine'] as const) : [])]
-  const inShelf = (g: Shelf) => (g === 'mine' ? mine : list.filter((x) => GROUP_OF[x.id] === g))
+  const inShelf = (g: Shelf) => (g === 'mine' ? mine : list.filter((x) => GROUP_OF[x.id] === g).sort(byShelf))
   const soonOf = (g: Shelf) => (g === 'mine' ? [] : COMING_SOON.filter((x) => x.group === g && !shipped.has(x.id)))
   const featured = featuredOndas(list, activeId, today)
 
@@ -111,7 +111,7 @@ export default function DeskBrowse({ entry }: { entry?: StackEntry }) {
     const found = list.filter((x) => matches(q, x.name, x.origin))
     const later = COMING_SOON.filter((c) => !shipped.has(c.id) && matches(q, c.name, c.origin))
     const secs = shelves
-      .map((g) => ({ g, real: g === 'mine' ? found.filter((x) => !GROUP_OF[x.id]) : found.filter((x) => GROUP_OF[x.id] === g), soon: later.filter((c) => c.group === g) }))
+      .map((g) => ({ g, real: g === 'mine' ? found.filter((x) => !GROUP_OF[x.id]) : found.filter((x) => GROUP_OF[x.id] === g).sort(byShelf), soon: later.filter((c) => c.group === g) }))
       .filter((s) => s.real.length + s.soon.length > 0)
     content = secs.length ? (
       secs.map((s) => (

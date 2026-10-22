@@ -64,12 +64,14 @@ export function Cover({ look, size, title, kicker, glyph, sub, mark, badge, days
       </span>
     </>
   )
+  // 7.2: a large cover's emblem lives in its Onda's own way (content/souls.ts)
+  const motion = hero && look.themed && look.motion !== 'still' ? look.motion : undefined
   return onClick ? (
-    <button type="button" className={cls} style={look.vars} onClick={onClick} aria-label={ariaLabel}>
+    <button type="button" className={cls} style={look.vars} onClick={onClick} aria-label={ariaLabel} data-motion={motion}>
       {inner}
     </button>
   ) : (
-    <div className={cls} style={look.vars} aria-label={ariaLabel} role={ariaLabel ? 'group' : undefined}>
+    <div className={cls} style={look.vars} aria-label={ariaLabel} role={ariaLabel ? 'group' : undefined} data-motion={motion}>
       {inner}
     </div>
   )

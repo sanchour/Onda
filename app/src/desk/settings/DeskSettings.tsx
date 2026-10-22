@@ -37,18 +37,15 @@ export interface DeskSettingsProps {
 }
 
 // Grouped as System Settings groups them: the plan, how Onda looks and nudges, where your data goes, help.
-const GROUPS: Key[][] = [['subscription'], ['appearance', 'notifications', 'practice'], ['integrations', 'data', 'link', 'privacy'], ['help']]
+const GROUPS: Key[][] = [['subscription'], ['appearance'], ['integrations', 'data', 'link'], ['help']]
 
 /** The labels on each pane, so a search finds a setting by its own name and not only by its section's. */
 const WORDS: Record<Pane, string[]> = {
   account: ['account.title', 'deskSet.editProfile', 'settings.streak', 'settings.danger.reset', 'settings.danger.signOut', 'settings.danger.deleteAccount'],
   subscription: ['settings.sub.plan', 'settings.sub.trialLeft', 'settings.sub.getLifetime', 'settings.sub.getMonthly', 'settings.sub.restore'],
   appearance: ['settings.display.light', 'settings.display.dark', 'settings.display.auto', 'settings.display.defaultLength', 'settings.display.themes', 'settings.display.tint'],
-  notifications: ['settings.notif.status', 'settings.notif.daily', 'settings.notif.time', 'settings.notif.evening', 'settings.notif.eveningTime', 'settings.notif.milestones'],
-  practice: ['settings.practice.weekStarts', 'settings.practice.includeFood', 'settings.practice.haptics', 'settings.practice.sounds'],
   integrations: ['settings.integrations.reminders', 'settings.integrations.calendar', 'settings.integrations.notion'],
   data: ['settings.data.history', 'settings.data.export', 'settings.data.import', 'settings.data.account', 'settings.data.lastSynced', 'settings.data.syncNow'],
-  privacy: ['settings.privacy.appLock', 'settings.privacy.hide'],
   help: ['settings.help.help', 'settings.help.whatsNew', 'settings.help.privacyPolicy', 'settings.help.terms', 'settings.help.versionRow', 'settings.help.replay', 'settings.help.install'],
 }
 

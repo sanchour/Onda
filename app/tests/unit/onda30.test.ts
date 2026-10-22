@@ -55,10 +55,10 @@ describe('3.0: the six new Ondas', () => {
       expect(contrast(v['--onda-text']!, v['--onda-solid']!), 'accent text on fill').toBeGreaterThanOrEqual(4.5)
     }
   })
-  it('are no longer placeholders, and Micronesia has joined the list', () => {
+  it('are no longer placeholders, and the 7.2 placeholders are listed', () => {
     const names = COMING_SOON.map((c) => c.name)
     for (const n of ['Norse', 'Confucianism', 'Abbasid Caliphate', 'The 1920s', 'Traditional Cuban', 'Diogenes and the Cynics']) expect(names).not.toContain(n)
-    expect(names).toContain('Micronesian')
+    for (const n of ['Rumi', 'Spinoza', 'Orwell', 'Abyssinia', 'Bedouin', 'Druidism']) expect(names).toContain(n)
   })
   it.each(all.filter(([id]) => fresh.includes(id)))('%s has eight or more tasks, with a shortcut on at least five', (_id, c) => {
     if (c.immersePlan.length >= 30) {

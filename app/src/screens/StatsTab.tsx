@@ -77,6 +77,8 @@ export default function StatsTab() {
   const [range, setRange] = useState<Range>('week')
   const [closed, setClosed] = useState<Record<string, boolean>>({})
   const [back, setBack] = useState(0) // months before the current one, 0..11
+  // the month's Ondas under the calendar stay folded away until asked for
+  const [showRuns, setShowRuns] = useState(false)
   const scope = useOndaScope()
   const desk = useDesk()
 
@@ -283,11 +285,16 @@ export default function StatsTab() {
             </section>
             <div className={k.side}>
               <section className={k.card} aria-label={t('stats.ondas')}>
-                <div className={k.cardHead}>
+                <button type="button" className={k.cardHead} style={{ width: '100%' }} aria-expanded={showRuns} onClick={() => setShowRuns((v) => !v)}>
                   <h2 className={s.h20}>{t('stats.ondas')}</h2>
-                  <span className={k.meta}>{MONTHS[view.getMonth()]}</span>
-                </div>
-                {inMonth.length > 0 ? <div className={`${m.runList} ${k.runs}`}>{runLines}</div> : <p className={k.note}>{t('stats.noOndas')}</p>}
+                  <span className={k.meta}>
+                    {MONTHS[view.getMonth()]}
+                    <span className={showRuns ? m.runCaret : `${m.runCaret} ${m.runCaretClosed}`}>
+                      <Icon name="caret-down" weight="bold" size={14} color="var(--label-tertiary)" />
+                    </span>
+                  </span>
+                </button>
+                {showRuns && (inMonth.length > 0 ? <div className={`${m.runList} ${k.runs}`}>{runLines}</div> : <p className={k.note}>{t('stats.noOndas')}</p>)}
               </section>
               <button type="button" className={`${k.card} ${k.ach}`} onClick={() => openSheet({ name: 'achievements' })}>
                 <span className={k.cardHead}>
@@ -352,7 +359,20 @@ export default function StatsTab() {
         {!closed.hist && (
           <div className={`${s.card} ${s.calCard}`} style={{ marginTop: 0 }}>
             {calendar}
-            {inMonth.length > 0 && <div className={m.runList}>{runLines}</div>}
+            {inMonth.length > 0 && (
+              <>
+                <button type="button" className={m.runToggle} aria-expanded={showRuns} onClick={() => setShowRuns((v) => !v)}>
+                  <span>{t('stats.ondasMonth')}</span>
+                  <span className={m.runToggleMeta}>
+                    {inMonth.length}
+                    <span className={showRuns ? m.runCaret : `${m.runCaret} ${m.runCaretClosed}`}>
+                      <Icon name="caret-down" weight="bold" size={14} color="var(--label-tertiary)" />
+                    </span>
+                  </span>
+                </button>
+                {showRuns && <div className={m.runList}>{runLines}</div>}
+              </>
+            )}
           </div>
         )}
       </div>

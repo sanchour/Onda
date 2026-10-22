@@ -1,4 +1,4 @@
-// Checks the Onda theme palettes in src/content/themes/a.ts and b.ts against the Onda 7 contrast rules.
+// Checks the Onda theme palettes in src/content/themes/a.ts, b.ts and c.ts against the Onda 7 contrast rules.
 // Run from app/: node shots/theme-contrast.mjs   (exits 1 when anything fails)
 //   cover ink on both gradient stops: 5.2:1 light, 8:1 dark
 //   accent as text on a card: 4.5:1 on #FCFCF9 (light) and on #1C1C1E (dark)
@@ -30,7 +30,7 @@ const HEX = "'(#[0-9A-Fa-f]{6})'"
 const PAL = new RegExp(`(light|dark): \\{ paper: ${HEX}, accent: ${HEX}, cover: \\[${HEX}, ${HEX}\\], ink: ${HEX} \\}`)
 
 const entries = []
-for (const file of ['a.ts', 'b.ts']) {
+for (const file of ['a.ts', 'b.ts', 'c.ts']) {
   const lines = readFileSync(join(root, file), 'utf8').split(/\r?\n/)
   let cur = null
   lines.forEach((line, n) => {

@@ -8,8 +8,9 @@
 /* ── Screen scaffold ─────────────────────────────────────── */
 .screen{position:absolute;inset:0;overflow:hidden}
 .pane{position:absolute;inset:0;padding-left:var(--sal);padding-right:var(--sar);touch-action:pan-y pinch-zoom}
-.bgGrouped{background:var(--surface-grouped);--screen-bg:var(--surface-grouped)}
-.bgPage{background:var(--surface-page);--screen-bg:var(--surface-page)}
+/* 7.2: while an Onda runs, its grain (washi, marble, felt...) lies on every screen under the wash (App.tsx, content/souls.ts) */
+.bgGrouped{background:var(--soul-grain,none),var(--surface-grouped);--screen-bg:var(--surface-grouped)}
+.bgPage{background:var(--soul-grain,none),var(--surface-page);--screen-bg:var(--surface-page)}
 /* Tab root: large title row sits directly below the status bar */
 .padRoot{padding-top:calc(var(--chrome-top) + 2px);padding-bottom:calc(168px + var(--sab))}
 /* Pushed page: content starts below the floating chrome row */

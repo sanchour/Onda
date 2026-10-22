@@ -8,8 +8,7 @@ import { fetchLatestVersion } from '@/app/Overlays'
 import { barKind } from '@/app/statusBar'
 import { useStore } from '@/data/store'
 import type { Settings as SettingsT } from '@/data/types'
-import { disableLock, enableLock, lockSupported } from '@/lib/applock'
-import { fmtAgo, fmtClock, fmtDate, toDateStr } from '@/lib/dates'
+import { fmtAgo, fmtDate, toDateStr } from '@/lib/dates'
 import { useDesk } from '@/lib/desk'
 import { downloadJson, isStandalone } from '@/lib/platform'
 import { BackButton, Screen } from '@/nav/Screen'
@@ -17,7 +16,6 @@ import { useNav, type SettingsPage, type StackEntry } from '@/nav/store'
 import { deleteAccount, syncNow, useSyncState } from '@/sync/engine'
 import { paid, refreshEntitlement } from '@/sync/entitlement'
 import { useIntegrations } from '@/sync/integrations'
-import { disablePush, pushState, sendTestPush } from '@/sync/push'
 import { accountInfo, backendConfigured, signOut } from '@/sync/supabase'
 import { SegmentedControl } from '@/ui/controls'
 import { Avatar } from '@/ui/data'
@@ -27,9 +25,9 @@ import { DayScroller } from '@/ui/pickers'
 import m from './more.module.css'
 import s from './screens.module.css'
 
-const APP_VERSION = '7.1'
+const APP_VERSION = '7.2'
 const BUILD = '1'
-const HUB: [string, SettingsPage][] = [['seal-check', 'subscription'], ['paint-brush', 'appearance'], ['bell', 'notifications'], ['sparkle', 'practice'], ['arrows-clockwise', 'integrations'], ['database', 'data'], ['lock', 'privacy'], ['question', 'help']]
+const HUB: [string, SettingsPage][] = [['seal-check', 'subscription'], ['paint-brush', 'appearance'], ['arrows-clockwise', 'integrations'], ['database', 'data'], ['question', 'help']]
 // The desktop split view is its own chunk: phones never load it.
 const DeskSettings = lazy(() => import('@/desk/settings/DeskSettings'))
 
@@ -74,13 +72,6 @@ export default function Settings({ entry }: { entry: Extract<StackEntry, { name:
       if (fileRef.current) fileRef.current.value = ''
     }
   }
-  const [lockOk, setLockOk] = useState(false)
-  const push_ = pushState()
-
-  useEffect(() => {
-    void lockSupported().then(setLockOk)
-  }, [])
-
   const streak = useMemo(() => {
     const st = useStore.getState()
     return currentStreak(activityByDate({ lagos: st.lagos, checkIns: st.checkIns, runs: st.runs, practiceLogs: st.practiceLogs, journal: st.journal, reflections: st.reflections }, today), today)
@@ -93,11 +84,8 @@ export default function Settings({ entry }: { entry: Extract<StackEntry, { name:
   const hubValue: Record<SettingsPage, string> = {
     subscription: tier,
     appearance: t(`settings.display.${settings.themeMode}`),
-    notifications: push_ === 'granted' && settings.notifDaily ? t('common.on') : t('common.off'),
-    practice: '',
     integrations: onCount ? String(onCount) : '',
     data: '',
-    privacy: settings.appLock ? t('common.on') : t('common.off'),
     help: '',
   }
   const name = user?.name || t('settings.yourName')
@@ -112,7 +100,6 @@ export default function Settings({ entry }: { entry: Extract<StackEntry, { name:
       paywall()
     } else openSheet({ name: sheet })
   }
-  const pushLabel = { granted: t('settings.notif.allowed'), denied: t('settings.notif.denied'), default: t('settings.notif.notAsked'), 'needs-install': t('settings.notif.needsInstall'), unsupported: t('settings.notif.unsupported'), 'not-configured': t('settings.integrations.needsBackend') }[push_]
 
   const pages: Record<SettingsPage, React.ReactNode> = {
     subscription: (
@@ -148,35 +135,6 @@ export default function Settings({ entry }: { entry: Extract<StackEntry, { name:
           </ListSection>
         </div>
       </>
-    ),
-    notifications: (
-      <>
-        <div className={m.gap28}>
-          <ListSection>
-            <ListRow icon="bell" title={t('settings.notif.status')} value={pushLabel} accessory={push_ === 'default' ? 'chevron' : 'none'} onClick={push_ === 'default' ? () => openSheet({ name: 'notifPrompt' }) : undefined} />
-            {push_ === 'granted' && <ListRow icon="waveform" title={t('settings.notif.test')} accessory="none" onClick={() => void sendTestPush('Onda', t('notif.r1')).then((ok) => ok && showToast(t('settings.notif.testSent'), { icon: 'bell' }))} />}
-          </ListSection>
-        </div>
-        <div className={m.gap28}>
-          <ListSection header={t('settings.notif.header')} footer={t('settings.notif.footer')}>
-            <ListRow icon="bell" title={t('settings.notif.daily')} accessory="switch" switchOn={settings.notifDaily} onSwitchChange={(v) => { update({ notifDaily: v }); if (v && push_ === 'default') openSheet({ name: 'notifPrompt' }); if (!v && !settings.notifEvening && !settings.notifMilestones) void disablePush() }} />
-            <ListRow icon="clock" title={t('settings.notif.time')} value={fmtClock(settings.reminderTime)} onClick={() => openSheet({ name: 'time', title: t('settings.notif.daily'), value: settings.reminderTime, onPick: (v) => update({ reminderTime: v }) })} />
-            <ListRow icon="moon" title={t('settings.notif.evening')} {...sw('notifEvening')} />
-            <ListRow icon="clock" title={t('settings.notif.eveningTime')} value={fmtClock(settings.eveningTime)} onClick={() => openSheet({ name: 'time', title: t('settings.notif.evening'), value: settings.eveningTime, onPick: (v) => update({ eveningTime: v }) })} />
-            <ListRow icon="flag-checkered" title={t('settings.notif.milestones')} {...sw('notifMilestones')} />
-          </ListSection>
-        </div>
-      </>
-    ),
-    practice: (
-      <div className={m.gap28}>
-        <ListSection footer={t('settings.practice.foodFooter')}>
-          <ListRow icon="calendar-blank" title={t('settings.practice.weekStarts')} value={t(`settings.practice.${settings.weekStart}`)} accessory="none" onClick={() => update({ weekStart: settings.weekStart === 'monday' ? 'sunday' : 'monday' })} />
-          <ListRow icon="fork-knife" title={t('settings.practice.includeFood')} {...sw('includeFood')} />
-          <ListRow icon="vibrate" title={t('settings.practice.haptics')} {...sw('haptics')} />
-          <ListRow icon="speaker-high" title={t('settings.practice.sounds')} {...sw('sounds')} />
-        </ListSection>
-      </div>
     ),
     integrations: (
       <div className={m.gap28}>
@@ -214,24 +172,6 @@ export default function Settings({ entry }: { entry: Extract<StackEntry, { name:
           </div>
         )}
       </>
-    ),
-    privacy: (
-      <div className={m.gap28}>
-        <ListSection footer={`${lockOk ? t('settings.privacy.footer') : t('settings.privacy.lockUnsupported')} ${t('settings.privacy.noTracking')}`}>
-          <ListRow
-            icon="lock"
-            title={t('settings.privacy.appLock')}
-            accessory="switch"
-            switchOn={settings.appLock}
-            onSwitchChange={(v) => {
-              if (!v) return void disableLock().then(() => update({ appLock: false }))
-              if (!lockOk) return showToast(t('settings.privacy.lockUnsupported'), { icon: 'lock' })
-              void enableLock().then((ok) => ok && update({ appLock: true }))
-            }}
-          />
-          <ListRow icon="eye-slash" title={t('settings.privacy.hide')} {...sw('hideInSwitcher')} />
-        </ListSection>
-      </div>
     ),
     help: (
       <>

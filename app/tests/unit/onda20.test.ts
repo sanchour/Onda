@@ -6,8 +6,8 @@ import { DEFAULT_SETTINGS, withDefaults } from '@/data/types'
 import { contrast, mix } from '@/lib/color'
 
 describe('Browse Ondas groups', () => {
-  it('puts every shipped Onda in exactly one of the four groups', () => {
-    expect(BROWSE_GROUPS).toHaveLength(4)
+  it('puts every shipped Onda in exactly one of the five groups', () => {
+    expect(BROWSE_GROUPS).toHaveLength(5)
     for (const o of ONDA_INDEX) expect(BROWSE_GROUPS, o.id).toContain(GROUP_OF[o.id])
     expect(Object.keys(GROUP_OF)).toEqual(expect.arrayContaining(ONDA_INDEX.map((o) => o.id)))
   })

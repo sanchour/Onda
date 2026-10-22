@@ -2,16 +2,18 @@ import type { CSSProperties } from 'react'
 import { accentFor, mix, readableText } from '@/lib/color'
 import { numeral, type NumeralSet } from './numerals'
 import type { OndaIndex } from './schema'
+import { CORNER_R, SOULS, grainBackground, type Motion } from './souls'
 import { NEUTRAL_COVER, coverFrom, rgbOf, type CoverLayout, type Ornament, type Palette, type Theme } from './themeKit'
 import { THEMES_A } from './themes/a'
 import { THEMES_B } from './themes/b'
+import { THEMES_C } from './themes/c'
 
 export type { CoverLayout, Ornament, Palette, Theme } from './themeKit'
 
 /* Per-Onda worlds (Onda 7). The theme data lives in themes/a.ts and themes/b.ts; this file resolves it into a look
    for the current appearance. The "Onda themes" setting turns the world off: a neutral cover, the system serif, Latin numerals. */
 
-export const THEMES: Record<string, Theme> = { ...THEMES_A, ...THEMES_B }
+export const THEMES: Record<string, Theme> = { ...THEMES_A, ...THEMES_B, ...THEMES_C }
 
 const TONES: Record<string, { bg: string; strong: string; darkBg: string; darkStrong: string }> = {
   blue: { bg: '#A9C4F7', strong: '#4F8EF7', darkBg: '#22355C', darkStrong: '#6FA4FF' },
@@ -50,6 +52,9 @@ export interface OndaLook {
   ornament: Ornament
   /** Titles are set in capitals (they run wider). */
   caps: boolean
+  /** 7.2, the Onda's soul (content/souls.ts): how its cover emblem lives and its page grain as CSS layers. */
+  motion: Motion
+  grain?: string
 }
 
 /** Resolve the look of an Onda for the current appearance. */
@@ -83,8 +88,12 @@ export function ondaLook(o: Pick<OndaIndex, 'id' | 'tone'> | undefined, opts: { 
   const shape = (on && t!.mark?.shape) || '50%'
   const clip = (on && t!.mark?.clip) || 'none'
   const deep = accentFor(strong, dark)
+  const soul = on ? SOULS[o!.id] : undefined
+  const radius = soul ? CORNER_R[soul.corner] : 30
   return {
     fill, solid, strong, accent: strong, cover, ink, font, glyph, ornament, caps, themed: on,
+    motion: soul?.motion ?? 'still',
+    grain: soul ? grainBackground(soul.grain, rgbOf(strong), dark) : undefined,
     emblem: on ? (t!.emblem ?? o!.id) : undefined,
     layout: on ? t!.layout : 'left',
     glyphSize: glyph.length > 3 ? 44 : 88,
@@ -109,6 +118,7 @@ export function ondaLook(o: Pick<OndaIndex, 'id' | 'tone'> | undefined, opts: { 
       '--onda-rest': dark ? 'rgba(255,255,255,.18)' : 'rgba(255,255,255,.6)',
       '--onda-shape': shape,
       '--onda-clip': clip,
+      '--onda-r': `${radius}px`,
       '--onda-radius': '26px',
       '--onda-radius-md': '22px',
       '--onda-radius-sm': '16px',

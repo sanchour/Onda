@@ -1,11 +1,13 @@
-import { useId, type CSSProperties, type ReactNode } from 'react'
+import { useEffect, useId, useRef, useState, type CSSProperties, type ReactNode } from 'react'
 import { Icon } from '@/ui/Icon'
 import c from './onda7.module.css'
 
 /** One rounded inset container with hairlines inset to the text. Children are rows (Row, PracticeRow or any element). */
-export function GroupedList({ header, footer, inset, label, children, style }: {
+export function GroupedList({ header, mark, footer, inset, label, children, style }: {
   /** Small capitals label above the container (a time of day, a group). */
   header?: string
+  /** Decorative glyph before the header (the Onda's ornament on its home). */
+  mark?: ReactNode
   footer?: ReactNode
   /** Left inset of the hairlines in px: 58 with a leading icon (the default), 16 without. */
   inset?: number
@@ -17,7 +19,7 @@ export function GroupedList({ header, footer, inset, label, children, style }: {
   const id = useId()
   return (
     <div role="group" aria-label={header ? undefined : label} aria-labelledby={header ? id : undefined} style={style}>
-      {header && <div className={c.groupHead} id={id}>{header}</div>}
+      {header && <div className={c.groupHead} id={id}>{mark}{header}</div>}
       <div className={c.group} style={inset != null ? ({ '--inset': `${inset}px` } as CSSProperties) : undefined}>
         {children}
       </div>
@@ -71,10 +73,24 @@ export function Row({ icon, title, sub, value, trailing, chevron, onClick, ariaL
 }
 
 /** The trailing 24pt check. Empty ring until done, then filled with the Onda accent. Decorative: the row carries the state. */
-export function CheckCircle({ on }: { on: boolean }) {
-  return (
+export function CheckCircle({ on, burst }: { on: boolean; burst?: ReactNode }) {
+  // 7.2: ticking sends `burst` (the Onda's ornament) up from the check, once per tick and never on first paint
+  const was = useRef(on)
+  const [ticks, setTicks] = useState(0)
+  useEffect(() => {
+    if (on && !was.current) setTicks((n) => n + 1)
+    was.current = on
+  }, [on])
+  const check = (
     <span className={on ? `${c.check} ${c.checkOn}` : c.check} aria-hidden>
       {on && <Icon name="check" weight="bold" size={14} />}
+    </span>
+  )
+  if (!burst) return check
+  return (
+    <span className={c.checkWrap} aria-hidden>
+      {check}
+      {on && ticks > 0 && <span key={ticks} className={c.burst}>{burst}</span>}
     </span>
   )
 }

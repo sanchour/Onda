@@ -53,6 +53,7 @@ export type Ornament =
   | 'laurel' | 'cash' | 'ger' | 'tulip' | 'paisley' | 'kris' | 'chakana' | 'crown' | 'orb'
   | 'peace' | 'dividers' | 'shield' | 'boomerang' | 'pompeblad' | 'hook' | 'shell' | 'stickchart'
   | 'beads' | 'mbira' | 'prasat' | 'triskele'
+  | 'lampada' | 'kinship' | 'fusil' | 'prism' | 'fox' | 'quotes'
 
 /** Clip paths for numeral marks. */
 export const CLIP = {

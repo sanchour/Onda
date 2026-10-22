@@ -13,6 +13,7 @@ import navCss from '@/nav/nav.module.css'
 import { useNav, type Tab } from '@/nav/store'
 import { Menu } from '@/ui/Menu'
 import { TabBar } from '@/ui/TabBar'
+import { OrnamentIcon } from '@/screens/KindArt'
 import { useLink } from '@/sync/link/useLink'
 import { useSync } from '@/sync/useSync'
 import { ROUTES, SHEETS, prefetchChunks } from './registry'
@@ -29,6 +30,9 @@ const DeskShell = lazy(() => import('@/desk/DeskShell').then((m) => ({ default: 
 const TABS: Record<Tab, React.LazyExoticComponent<() => React.ReactNode>> = { lagos: LagosTab, ondas: OndasTab, stats: StatsTab }
 
 function Tabs() {
+  const soulLook = useLook(useOndaIndex(useActiveRun()?.ondaId))
+  // 7.2: the Ondas tab wears the running Onda's ornament
+  const soulTab = soulLook.themed ? <OrnamentIcon name={soulLook.ornament} size={30} weight={1.9} /> : undefined
   const { t } = useTranslation()
   const tab = useNav((n) => n.tab)
   const setTab = useNav((n) => n.setTab)
@@ -56,7 +60,7 @@ function Tabs() {
       {!desk && <div className={navCss.tabBarWrap}>
         <TabBar<Tab>
           items={[
-            { key: 'ondas', icon: 'waves', label: t('tabs.ondas') },
+            { key: 'ondas', icon: 'waves', label: t('tabs.ondas'), art: soulTab },
             { key: 'lagos', icon: 'wave-soft', label: t('tabs.lagos') },
             { key: 'stats', icon: 'chart-bar', label: t('tabs.stats') },
           ]}
@@ -114,10 +118,11 @@ function useShell() {
   useLayoutEffect(() => {
     const root = document.documentElement
     const baseOf = (d: boolean) => (d ? { grouped: '#1B1C1F', page: '#1B1C1F' } : { grouped: '#F5F1E8', page: '#FDFBF6' })
-    const washOf = (d: boolean, solid: string) => (run && tint ? { grouped: mix(baseOf(d).grouped, solid, d ? 0.34 : 0.3), page: mix(baseOf(d).page, solid, d ? 0.34 : 0.14) } : null)
+    // 7.2: cards take a little of the paper too, so every surface belongs to the Onda's world
+    const washOf = (d: boolean, solid: string) => (run && tint ? { grouped: mix(baseOf(d).grouped, solid, d ? 0.34 : 0.3), page: mix(baseOf(d).page, solid, d ? 0.34 : 0.14), card: mix(d ? '#26272B' : '#FFFEFB', solid, d ? 0.14 : 0.18) } : null)
     const base = baseOf(dark)
     const wash = washOf(dark, look.solid)
-    for (const [k, v] of [['--surface-grouped', wash?.grouped], ['--surface-page', wash?.page]] as const) {
+    for (const [k, v] of [['--surface-grouped', wash?.grouped], ['--surface-page', wash?.page], ['--surface-card', wash?.card]] as const) {
       if (v) root.style.setProperty(k, v)
       else root.style.removeProperty(k)
     }
@@ -156,6 +161,9 @@ function useShell() {
     } catch {
       /* private mode */
     }
+    // the running Onda's grain on every screen, with the wash (content/souls.ts)
+    if (run && tint && look.grain) root.style.setProperty('--soul-grain', look.grain)
+    else root.style.removeProperty('--soul-grain')
     if (!run) {
       root.style.removeProperty('--accent')
       root.style.removeProperty('--accent-contrast')
@@ -165,7 +173,7 @@ function useShell() {
     root.style.setProperty('--accent', accent)
     root.style.setProperty('--accent-contrast', on)
     return stopBar
-  }, [run, index, themed, look.strong, look.solid, dark, tint, ready])
+  }, [run, index, themed, look.strong, look.solid, look.grain, dark, tint, ready])
 
   useEffect(() => {
     // On-screen keyboard height, so sheets can keep the focused field visible

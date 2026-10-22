@@ -1,6 +1,6 @@
 import { Suspense, lazy, useDeferredValue, useState } from 'react'
 import { useTranslation } from 'react-i18next'
-import { BROWSE_GROUPS, COMING_SOON, GROUP_OF, type BrowseGroup } from '@/content/browse'
+import { BROWSE_GROUPS, COMING_SOON, GROUP_OF, byShelf, type BrowseGroup } from '@/content/browse'
 import { planForDay, type DayPractice } from '@/data/derive/plan'
 import { useLookFn, useOndaList, useSettings } from '@/data/hooks'
 import { useStore } from '@/data/store'
@@ -11,6 +11,7 @@ import { Button, GlassButton } from '@/ui/buttons'
 import { Icon } from '@/ui/Icon'
 import { Cover, GroupedList, PlanList, Row, SearchField, SectionHeader, ShortcutBar } from './onda7'
 import c from './onda7/onda7.module.css'
+import { EmblemArt } from './emblems'
 import { OrnamentIcon } from './KindArt'
 import { guardCreateOnda, useActiveOnda, useRunToday } from './ondaShared'
 import s from './screens.module.css'
@@ -82,7 +83,7 @@ function PhoneOndasTab() {
 
   return (
     <Screen variant="root">
-      <div style={look.vars} className={settings.ondaThemes ? c.home : undefined} data-onda={settings.ondaThemes ? run.ondaId : undefined}>
+      <div style={look.vars} className={settings.ondaThemes ? c.home : undefined} data-onda={settings.ondaThemes ? run.ondaId : undefined} data-soul={look.themed ? look.motion : undefined}>
         {header}
         <Cover
           look={look}
@@ -115,7 +116,19 @@ function PhoneOndasTab() {
             </span>
           ))}
         </div>
+        {look.themed && plan.length > 0 && pDone === plan.length && (
+          <div className={c.seal} role="status">
+            <span className={c.sealMark} aria-hidden>
+              <EmblemArt id={look.emblem} size={36} line={1.1} />
+            </span>
+            <span className={c.sealText}>
+              <span className={c.sealTitle}>{t('ondas.sealed')}</span>
+              <span className={c.sealSub}>{t('ondas.sealedSub', { count: plan.length })}</span>
+            </span>
+          </div>
+        )}
         <PlanList
+          ornament={look.themed ? look.ornament : undefined}
           plan={plan}
           done={done.practices}
           onToggle={(id) => togglePractice(run.id, id)}
@@ -170,7 +183,7 @@ export function OndaGroups({ onOpen, soon, query = '' }: { onOpen: (id: string) 
   const shipped = new Set(list.map((x) => x.id))
   const later = soon ? COMING_SOON.filter((c) => !shipped.has(c.id) && (!q || matches(q, c.name, c.origin))) : []
   const sections = [
-    ...BROWSE_GROUPS.map((g) => ({ key: g, title: t(`browse.${g}`), real: found.filter((x) => GROUP_OF[x.id] === g), soon: later.filter((c) => c.group === g) })),
+    ...BROWSE_GROUPS.map((g) => ({ key: g, title: t(`browse.${g}`), real: found.filter((x) => GROUP_OF[x.id] === g).sort(byShelf), soon: later.filter((c) => c.group === g) })),
     ...(mine.length ? [{ key: 'mine', title: t('browse.mine'), real: mine, soon: [] as typeof COMING_SOON }] : []),
   ].filter((sec) => sec.real.length + sec.soon.length > 0)
   if (!sections.length) return <div className={c.noMatch}>{t('ondas.noMatch')}</div>
@@ -238,7 +251,7 @@ function PhoneAllOndas() {
   const shipped = new Set(list.map((x) => x.id))
   const mine = list.filter((x) => !GROUP_OF[x.id])
   const shelves: Shelf[] = [...BROWSE_GROUPS, ...(mine.length ? (['mine'] as const) : [])]
-  const inShelf = (g: Shelf) => (g === 'mine' ? mine : list.filter((x) => GROUP_OF[x.id] === g))
+  const inShelf = (g: Shelf) => (g === 'mine' ? mine : list.filter((x) => GROUP_OF[x.id] === g).sort(byShelf))
   const soonOf = (g: Shelf) => (g === 'mine' ? [] : COMING_SOON.filter((x) => x.group === g && !shipped.has(x.id)))
   const short = (g: Shelf | 'all') => t(`browse.short.${g}`)
   // the running Onda first, then four that change with the day

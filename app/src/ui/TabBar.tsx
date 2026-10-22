@@ -1,4 +1,4 @@
-import type { CSSProperties } from 'react'
+import type { CSSProperties, ReactNode } from 'react'
 import { Icon, type IconWeight } from './Icon'
 import { useSlotScrub } from './useSlotScrub'
 import s from './ui.module.css'
@@ -8,6 +8,8 @@ export interface TabItem<K extends string> {
   icon: string
   label: string
   weight?: IconWeight
+  /** Drawn instead of the icon (the running Onda's ornament on the Ondas tab). */
+  art?: ReactNode
 }
 
 interface TabBarProps<K extends string> {
@@ -39,7 +41,7 @@ export function TabBar<K extends string>({ items, activeKey, onChange, style }: 
           }}
         >
           <span className={s.tabIcon}>
-            <Icon name={it.icon} weight={it.weight ?? 'bold'} size={32} />
+            {it.art ?? <Icon name={it.icon} weight={it.weight ?? 'bold'} size={32} />}
           </span>
         </button>
       ))}

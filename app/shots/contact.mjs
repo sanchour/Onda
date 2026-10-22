@@ -6,7 +6,7 @@ import { fileURLToPath } from 'node:url'
 import { webkit } from '@playwright/test'
 
 const here = path.dirname(fileURLToPath(import.meta.url))
-const dir = path.join(here, process.argv[2] ?? '')
+const dir = path.resolve(here, process.argv[2] ?? '')
 const cols = Number(process.argv[3] ?? 6)
 const filter = new RegExp(process.argv[4] ?? '.')
 const files = fs.readdirSync(dir).filter((f) => f.endsWith('.png') && !f.startsWith('contact') && filter.test(f)).sort()

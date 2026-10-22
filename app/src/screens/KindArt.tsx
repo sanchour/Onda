@@ -217,6 +217,12 @@ const ORNAMENTS: Record<Ornament, ReactNode> = {
     </>
   ),
   ...ORNAMENTS5,
+  lampada: <path d="M12 2.5v4M10 4h4M7.5 11L12 6.5l4.5 4.5M7 11h10l-1 4.5a4 4 0 0 1-8 0zM12 19.5v2M12 11.8c1 1 1.2 2.2 0 3.2-1.2-1-1-2.2 0-3.2z" />,
+  kinship: <><circle cx="12" cy="12" r="6.5" /><circle cx="12" cy="4" r="2" /><circle cx="18.9" cy="16" r="2" /><circle cx="5.1" cy="16" r="2" /></>,
+  fusil: <path d="M6 5h7a3.5 3.5 0 0 1 0 7H6zM6 12h8a3.5 3.5 0 0 1 0 7H6zM3 4.5L1.5 3M3 19.5L1.5 21M21 12h2" />,
+  prism: <path d="M12 4l8 14H4zM1.5 9.5l7.5 2.5M15.2 12.6l7-2.6M15.8 14l6.7 1.3M16.3 15.5l5.4 4" />,
+  fox: <path d="M5 3.5l3.2 6M19 3.5l-3.2 6M5 3.5C4 9 5 13 8 16l4 4.5 4-4.5c3-3 4-7 3-12.5M8.2 9.5c2.5-1.3 5.1-1.3 7.6 0M9.6 13l1.4.6M14.4 13l-1.4.6" />,
+  quotes: <path d="M4.5 7h5v5c0 3-1.8 4.8-5 5.5M14.5 7h5v5c0 3-1.8 4.8-5 5.5" />,
 }
 
 export function OrnamentIcon({ name, size = 22, weight = 1.5 }: { name: Ornament; size?: number; weight?: number }) {

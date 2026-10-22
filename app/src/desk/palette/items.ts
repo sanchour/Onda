@@ -73,7 +73,7 @@ const GROUPS: Group[] = ['today', 'lagos', 'go', 'actions', 'ondas', 'settings']
 const LIMIT: Record<Group, number> = { today: 6, lagos: 6, ondas: 8, go: 6, settings: 6, actions: 6 }
 // Settings opens over the tab you are on, as the sidebar does
 const here = () => useNav.getState().tab
-const HUB: [string, SettingsPage][] = [['seal-check', 'subscription'], ['paint-brush', 'appearance'], ['bell', 'notifications'], ['sparkle', 'practice'], ['arrows-clockwise', 'integrations'], ['database', 'data'], ['lock', 'privacy'], ['question', 'help']]
+const HUB: [string, SettingsPage][] = [['seal-check', 'subscription'], ['paint-brush', 'appearance'], ['arrows-clockwise', 'integrations'], ['database', 'data'], ['question', 'help']]
 
 export function usePaletteItems(): PItem[] {
   const { t } = useTranslation()

@@ -1,11 +1,13 @@
 import { useRef, type CSSProperties } from 'react'
 import { useTranslation } from 'react-i18next'
 import type { MediaKind } from '@/content'
+import type { Ornament } from '@/content/themeKit'
 import type { Practice } from '@/content/schema'
 import type { DayPractice } from '@/data/derive/plan'
 import { haptic } from '@/lib/haptics'
 import { nav } from '@/nav/store'
 import { Icon } from '@/ui/Icon'
+import { OrnamentIcon } from '../KindArt'
 import { CheckCircle, GroupedList } from './lists'
 import c from './onda7.module.css'
 
@@ -27,7 +29,7 @@ export interface PracticeOpen {
 
 /** One practice in a grouped list. Tap ticks it (the row is the checkbox; its name is the practice name).
  *  Holding it, a right click or the context menu key opens a small menu with "How to do this". */
-export function PracticeRow({ p, done, onToggle, info, twist, note, open }: { p: Pick<Practice, 'id' | 'name' | 'icon' | 'meta'>; done: boolean; onToggle: () => void; info?: PracticeInfo; twist?: string; note?: string; open?: PracticeOpen }) {
+export function PracticeRow({ p, done, onToggle, info, twist, note, open, burst }: { p: Pick<Practice, 'id' | 'name' | 'icon' | 'meta'>; done: boolean; onToggle: () => void; info?: PracticeInfo; twist?: string; note?: string; open?: PracticeOpen; burst?: React.ReactNode }) {
   const { t } = useTranslation()
   const ref = useRef<HTMLButtonElement>(null)
   const press = useRef<{ timer?: ReturnType<typeof setTimeout>; fired: boolean; x: number; y: number }>({ fired: false, x: 0, y: 0 })
@@ -108,7 +110,7 @@ export function PracticeRow({ p, done, onToggle, info, twist, note, open }: { p:
           {twist && <span className={c.rTwist}>{t('plan.today', { text: twist })}</span>}
           {note && <span className={c.rNote}>{note}</span>}
         </span>
-        <CheckCircle on={done} />
+        <CheckCircle on={done} burst={burst} />
       </button>
       {button && (
         <button type="button" className={c.pOpen} aria-label={`${open.label}: ${p.name}`} onClick={open.onClick}>
@@ -124,7 +126,7 @@ const SLOT_ORDER = ['Immerse', 'Morning', 'Afternoon', 'Evening', 'Special'] as 
 /** The day's practices (see data/derive/plan.ts) as grouped lists, one per time of day, in plan order (Immerse first).
  *  A practice with a how-to opens it on a hold; one about a book, a film or a dish also opens the piece from the hold menu.
  *  `runId` is set for a running Onda: only then can a row open the Journal, Philosophy or the Immersion list. */
-export function PlanList({ plan, done, onToggle, info, runId, footer }: { plan: DayPractice[]; done: Set<string>; onToggle: (id: string) => void; info: PracticeInfo; runId?: string; footer?: string }) {
+export function PlanList({ plan, done, onToggle, info, runId, footer, ornament }: { plan: DayPractice[]; done: Set<string>; onToggle: (id: string) => void; info: PracticeInfo; runId?: string; footer?: string; ornament?: Ornament }) {
   const { t } = useTranslation()
   const open = (p: DayPractice): PracticeOpen | undefined => {
     if (p.item) return { holdOnly: true, label: t('plan.open'), icon: 'arrow-up-right', onClick: () => nav().openSheet({ name: 'mediaInfo', item: p.item!, ondaId: info.ondaId, runId, note: p.note }) }
@@ -140,7 +142,7 @@ export function PlanList({ plan, done, onToggle, info, runId, footer }: { plan: 
         // the header names the time of day, so a meta that starts with it drops that word
         const meta = (m: string) => (m.startsWith(`${head} · `) ? m.slice(head.length + 3) : m)
         return (
-        <GroupedList key={slot} header={head} footer={i === slots.length - 1 ? footer : undefined}>
+        <GroupedList key={slot} header={head} mark={ornament && <OrnamentIcon name={ornament} size={15} weight={1.6} />} footer={i === slots.length - 1 ? footer : undefined}>
           {plan.filter((p) => p.slot === slot).map((p) => (
             <PracticeRow
               key={p.id}
@@ -151,6 +153,7 @@ export function PlanList({ plan, done, onToggle, info, runId, footer }: { plan: 
               onToggle={() => onToggle(p.id)}
               info={p.practiceId ? info : undefined}
               open={open(p)}
+              burst={ornament && <OrnamentIcon name={ornament} size={20} weight={1.7} />}
             />
           ))}
         </GroupedList>

@@ -43,10 +43,11 @@
     <style>
       html,body{margin:0;background:var(--boot-bg,#F5F1E8)}
       html[data-theme="dark"],html[data-theme="dark"] body{background:var(--boot-bg,#1B1C1F)}
-      /* The loading screen: the same three waves as the iOS launch image, at the same size and place, on the colour the
-         app is about to use. It follows the appearance chosen in the app, light or dark, and fades out when the app is ready. */
-      #boot{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;background:var(--boot-bg,#F5F1E8);color:#0A68D8;pointer-events:none;z-index:1;transition:opacity .22s ease-out}
-      html[data-theme="dark"] #boot{background:var(--boot-bg,#1B1C1F);color:#3D94FF}
+      /* The loading screen: the same three waves as the iOS launch image, at the same size and place. It follows the phone's
+         own light or dark mode as it is right now (iOS chose its launch image the same way), on the background the app uses
+         in that mode, and fades out when the app is ready. */
+      #boot{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;background:var(--boot-light,#F5F1E8);color:#0A68D8;pointer-events:none;z-index:1;transition:opacity .22s ease-out,background-color .2s}
+      @media (prefers-color-scheme:dark){#boot{background:var(--boot-dark,#1B1C1F);color:#3D94FF}}
       #boot svg{width:22vw;height:22vw;max-width:120px;max-height:120px}
       #boot.out{opacity:0}
       /* The strip iOS samples for the bar behind the clock (see src/app/statusBar.ts). Opaque, fixed to the top edge, above everything. */
@@ -64,6 +65,12 @@
         try { bg = localStorage.getItem(d ? 'onda.bg.dark' : 'onda.bg.light'); } catch (e) {}
         if (!/^#[0-9a-fA-F]{6}$/.test(bg || '')) bg = d ? '#1B1C1F' : '#F5F1E8';
         root.style.setProperty('--boot-bg', bg);
+        // the loading screen has a colour for each mode of the phone (see #boot above)
+        ['light', 'dark'].forEach(function (k) {
+          var v = null;
+          try { v = localStorage.getItem('onda.bg.' + k); } catch (e) {}
+          if (/^#[0-9a-fA-F]{6}$/.test(v || '')) root.style.setProperty('--boot-' + k, v);
+        });
         // the app stylesheet paints body with this token, and it loads before the app does
         root.style.setProperty('--surface-grouped', bg);
         root.style.backgroundColor = bg;

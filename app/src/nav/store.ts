@@ -5,7 +5,7 @@ import type { AchievementKey } from '@/data/derive/achievements'
 import type { MenuSpec } from '@/ui/Menu'
 
 export type Tab = 'lagos' | 'ondas' | 'stats'
-export type SettingsPage = 'subscription' | 'appearance' | 'notifications' | 'practice' | 'integrations' | 'data' | 'privacy' | 'help'
+export type SettingsPage = 'subscription' | 'appearance' | 'integrations' | 'data' | 'help'
 
 /** Pushed, full-screen pages. They slide in from the right and support edge-swipe back. */
 export type Route =

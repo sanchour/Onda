@@ -146,6 +146,7 @@ export const en = {
   },
 
   ondas: {
+    sealed: 'Today is sealed', sealedSub: 'All {{count}} practices kept',
     title: 'Ondas', newOnda: 'New Onda', browse: 'Browse Ondas', noRunning: 'No Onda running', noRunningSub: 'Browse the Ondas and step into one', kicker: 'Onda · {{label}}',
     dayOf: 'Day {{day}} of {{length}}', immerse: 'Immerse', journal: 'Journal', philosophy: 'Philosophy', guide: 'Full guide', today: 'Today', practicesOf: '{{done}} of {{total}} practices', tasksOf: '{{done}} of {{total}} tasks', rulesOf: '{{done}} of {{total}} rules kept',
     go: { journal: 'Open Journal', philosophy: 'Open Philosophy', read: 'Open reading', watch: 'Open watching', listen: 'Open listening', art: 'Open art', eat: 'Open food', drink: 'Open drinks', customs: 'Open customs', games: 'Open games', travel: 'Open travel' },
@@ -153,7 +154,7 @@ export const en = {
     noRules: 'No rules for this Onda', noTasks: 'No tasks for this Onda',
     guideShort: 'Guide', shortcuts: 'Shortcuts', search: 'Search', clearSearch: 'Clear Search', noMatch: 'No Ondas match', openOnda: '{{name}}, open the Onda page', rulesKept: '{{done}} of {{total}} kept', quote: 'Quote',
   },
-  browse: { religion: 'Religions and spiritual traditions', philosophy: 'Philosophy, thinkers and schools of thought', state: 'Empires, states and political systems', culture: 'Cultures, eras and peoples', mine: 'Yours', soon: 'Coming soon', featured: 'Featured', seeAll: 'See All', short: { all: 'All', religion: 'Religions', philosophy: 'Philosophies', state: 'States', culture: 'Cultures', mine: 'Yours' } },
+  browse: { religion: 'Religions and spiritual paths', school: 'Schools of thought', mind: 'Thinkers, writers and poets', state: 'Empires, kingdoms and states', culture: 'Cultures, eras and peoples', mine: 'Yours', soon: 'Coming soon', featured: 'Featured', seeAll: 'See All', short: { all: 'All', religion: 'Religions', school: 'Schools', mind: 'Minds', state: 'States', culture: 'Cultures', mine: 'Yours' } },
   rulesPage: { lead: 'Tap a rule when you have kept it today.' },
   onda: {
     todayTheme: 'Today: {{theme}}', quoteOfDay: 'Quote of the day', wordOfDay: 'Word of the day', guideSub: 'Context, history, ideas, culture and language',
@@ -207,7 +208,7 @@ export const en = {
   },
 
   stats: {
-    title: 'Stats', week: 'Week', month: 'Month', all: 'All', checkIns: 'Check Ins', dayStreak: 'Day Streak', bestStreak: 'Best Streak', completion: 'Completion', activity: 'Activity',
+    title: 'Stats', ondasMonth: 'Ondas this month', week: 'Week', month: 'Month', all: 'All', checkIns: 'Check Ins', dayStreak: 'Day Streak', bestStreak: 'Best Streak', completion: 'Completion', activity: 'Activity',
     consistency: 'Consistency', consistencyNote: 'How reliably you do what you set out to do, over the last four weeks.', consistencyTrendUp: '{{count}} points up on the four weeks before', consistencyTrendDown: '{{count}} points down on the four weeks before', consistencyTrendFlat: 'Level with the four weeks before', consistencyNew: 'Keep going: a trend appears after a week or two', tierFinding: 'Finding rhythm', tierBuilding: 'Building', tierSteady: 'Steady', tierLockedIn: 'Locked in', consistencyAria: 'Consistency {{pct}} percent, {{tier}}', last14: 'Last 14 days',
     noteWeek: 'Check ins per day across your Lagos and Ondas, last 7 days.', noteMonth: 'Check ins per week across your Lagos and Ondas.', noteAll: 'Check ins per month since you started.',
     achievements: 'Achievements', achCount: '{{count}} of 12', ondas: 'Ondas', history: 'History', nothingLogged: 'Nothing logged this day', noOndas: 'No Ondas yet',

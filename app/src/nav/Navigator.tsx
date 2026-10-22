@@ -6,6 +6,25 @@ import { useNav, type StackEntry } from './store'
 
 const PARALLAX = -0.28 // the page underneath trails behind, as in UIKit
 
+/** Stops whatever animation runs on `el` and keeps it where it is on screen, so a new gesture starts from there. */
+function hold(el: HTMLElement) {
+  const m = getComputedStyle(el).transform
+  el.getAnimations().forEach((a) => a.cancel())
+  el.style.transform = m === 'none' ? '' : m
+}
+
+/** True when the touch starts on something that handles sideways drags itself, so a swipe back must not take it. */
+function ownsGesture(target: EventTarget | null, page: HTMLElement | null): boolean {
+  for (let n = target instanceof HTMLElement ? target : null; n && n !== page; n = n.parentElement) {
+    if (n.matches('input, textarea, select, [contenteditable="true"], [role="slider"], [role="switch"]')) return true
+    if (n.classList.contains('scroll')) return false // the page's own vertical scroller: everything above it is chrome
+    const cs = getComputedStyle(n)
+    if (cs.touchAction !== 'auto' && cs.touchAction !== 'manipulation') return true
+    if (n.scrollWidth > n.clientWidth + 1 && /auto|scroll/.test(cs.overflowX)) return true
+  }
+  return false
+}
+
 interface PageProps {
   entry: StackEntry
   /** Element directly underneath (previous page, or the tab root). */
@@ -73,41 +92,106 @@ function Page({ entry, getUnder, isTop, covered, register, children }: PageProps
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [entry.leaving])
 
-  // Edge-swipe back: the page follows the finger from the left edge, then springs away or back.
-  const edge = {
-    onPointerDown(e: RPointerEvent<HTMLDivElement>) {
-      const el = ref.current
-      if (!el || !isTop || entry.leaving) return
-      const st = S.current
-      st.down = true
-      st.sx = e.clientX
-      st.x = 0
-      st.W = el.offsetWidth || 1
-      st.s = [[e.timeStamp, e.clientX]]
+  // Swipe back, as on iOS: from the left edge at once, or from anywhere on the page once a drag is clearly to the right.
+  // The page follows the finger; on release it and the page beneath spring together on one curve, away or back.
+  const cand = useRef<{ id: number; x: number; y: number } | null>(null)
+  const unclick = useRef<(() => void) | null>(null)
+  const begin = (e: RPointerEvent<HTMLDivElement>) => {
+    const el = ref.current
+    const st = S.current
+    if (!el || !isTop || entry.leaving || st.down) return
+    st.down = true
+    st.sx = e.clientX
+    st.x = 0
+    st.W = el.offsetWidth || 1
+    st.s = [[e.timeStamp, e.clientX]]
+    try {
       e.currentTarget.setPointerCapture(e.pointerId)
-      grab(el)
-      const u = getUnder()
-      if (u) u.style.visibility = ''
+    } catch {
+      // the pointer already ended: nothing to capture
+    }
+    el.dataset.dragging = '1'
+    grab(el)
+    const u = getUnder()
+    if (u) {
+      hold(u)
+      u.style.visibility = ''
+    }
+    // a drag is not a tap: the release must not also press whatever is under the finger
+    const stop = (ev: Event) => {
+      ev.stopPropagation()
+      ev.preventDefault()
+    }
+    window.addEventListener('click', stop, true)
+    unclick.current = () => window.removeEventListener('click', stop, true)
+  }
+  const move = (e: RPointerEvent<HTMLDivElement>) => {
+    const st = S.current
+    const el = ref.current
+    if (!st.down || !el) return
+    pushSample(st.s, e.timeStamp, e.clientX)
+    st.x = rubber(e.clientX - st.sx, 0, st.W, 0.2)
+    el.style.transform = tx(st.x)
+    moveUnder(1 - st.x / st.W)
+  }
+  const end = (e: RPointerEvent<HTMLDivElement>) => {
+    const st = S.current
+    const el = ref.current
+    if (!st.down || !el) return
+    st.down = false
+    delete el.dataset.dragging
+    const off = unclick.current
+    unclick.current = null
+    setTimeout(() => off?.(), 350)
+    // a pause before letting go counts as no fling
+    if (e.type === 'pointerup') pushSample(st.s, e.timeStamp, e.clientX)
+    const v = pointerVelocity(st.s)
+    const W = st.W
+    const go = st.x + v * 0.2 > W * 0.5
+    if (go) haptic('impact')
+    springTo(el, { from: st.x, to: go ? W : 0, velocity: v, spring: 'smooth', onDone: () => go && remove(entry.key) })
+    const u = getUnder()
+    if (u) {
+      springTo(u, {
+        from: st.x,
+        to: go ? W : 0,
+        velocity: v,
+        spring: 'smooth',
+        prop: (x) => `translate3d(${PARALLAX * 100 * (1 - x / W)}%,0,0)`,
+        onDone: () => {
+          if (go) u.style.transform = ''
+          else if (!S.current.down) u.style.visibility = 'hidden' // covered again: costs nothing to composite
+        },
+      })
+    }
+  }
+  // Anywhere on the page: wait until the drag shows its direction. Up or down is a scroll; clearly right is a swipe back.
+  // Controls that own their own sideways gestures (rows that scroll sideways, decks, sliders, switches, text) keep them.
+  const page = {
+    onPointerDown(e: RPointerEvent<HTMLDivElement>) {
+      cand.current = null
+      if (!isTop || entry.leaving || S.current.down || e.pointerType === 'mouse' || ownsGesture(e.target, ref.current)) return
+      cand.current = { id: e.pointerId, x: e.clientX, y: e.clientY }
     },
     onPointerMove(e: RPointerEvent<HTMLDivElement>) {
-      const st = S.current
-      const el = ref.current
-      if (!st.down || !el) return
-      pushSample(st.s, e.timeStamp, e.clientX)
-      st.x = rubber(e.clientX - st.sx, 0, st.W, 0.2)
-      el.style.transform = tx(st.x)
-      moveUnder(1 - st.x / st.W)
+      if (S.current.down) return move(e)
+      const c = cand.current
+      if (!c || c.id !== e.pointerId) return
+      const dx = e.clientX - c.x
+      const dy = e.clientY - c.y
+      if (Math.abs(dy) > 10 && Math.abs(dy) > Math.abs(dx)) cand.current = null
+      else if (dx > 12 && dx > Math.abs(dy) * 1.3) {
+        cand.current = null
+        begin(e)
+      }
     },
-    onPointerUp() {
-      const st = S.current
-      const el = ref.current
-      if (!st.down || !el) return
-      st.down = false
-      const v = pointerVelocity(st.s)
-      const go = st.x + v * 0.2 > st.W * 0.5
-      if (go) haptic('impact')
-      springTo(el, { from: st.x, to: go ? st.W : 0, velocity: v, spring: 'smooth', onDone: () => go && remove(entry.key) })
-      settleUnder(go ? 0 : 1, 300)
+    onPointerUp(e: RPointerEvent<HTMLDivElement>) {
+      cand.current = null
+      end(e)
+    },
+    onPointerCancel(e: RPointerEvent<HTMLDivElement>) {
+      cand.current = null
+      end(e)
     },
   }
 
@@ -120,9 +204,10 @@ function Page({ entry, getUnder, isTop, covered, register, children }: PageProps
       onKeyDown={(e) => {
         if (e.key === 'Escape' && isTop) pop()
       }}
+      {...page}
     >
       {children}
-      {isTop && <div className={s.edge} {...edge} onPointerCancel={edge.onPointerUp} />}
+      {isTop && <div className={s.edge} onPointerDown={begin} />}
     </div>
   )
 }
@@ -153,7 +238,8 @@ export function Navigator({ root, renderRoute }: NavigatorProps) {
       const now = useNav.getState().stack // read fresh: the stack may have changed since this timer was set
       const top = now[now.length - 1]
       const under = now.length > 1 ? els.current.get(now[now.length - 2]!.key) : rootRef.current
-      if (top && !top.leaving && under) under.style.visibility = 'hidden'
+      // never mid-swipe: the page beneath is what the finger is uncovering
+      if (top && !top.leaving && under && !els.current.get(top.key)?.dataset.dragging) under.style.visibility = 'hidden'
     }
     if (stack.length === 0 && rootRef.current) {
       rootRef.current.style.visibility = ''

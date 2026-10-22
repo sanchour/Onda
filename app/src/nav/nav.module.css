@@ -7,7 +7,7 @@
 
 /* ── Screen scaffold ─────────────────────────────────────── */
 .screen{position:absolute;inset:0;overflow:hidden}
-.pane{position:absolute;inset:0;padding-left:var(--sal);padding-right:var(--sar)}
+.pane{position:absolute;inset:0;padding-left:var(--sal);padding-right:var(--sar);touch-action:pan-y pinch-zoom}
 .bgGrouped{background:var(--surface-grouped);--screen-bg:var(--surface-grouped)}
 .bgPage{background:var(--surface-page);--screen-bg:var(--surface-page)}
 /* Tab root: large title row sits directly below the status bar */

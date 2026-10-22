@@ -16,7 +16,7 @@ Design only. Content (guides, practices, philosophy text) stays as it is.
 - [x] Final reflection and Onda complete: the Onda's cover, cleaner stats, carry-forward as one list
 - [x] Immersion lists, a format per kind: Read as a bookshelf, Listen as record sleeves, Watch as cinematic frames, Art as a gallery wall, Eat and Drink as a menu, Words as a swipeable vocabulary deck, Travel as postcards, Games and Customs with their own marks; every item has its own tint so one book differs from the next
 - [x] Running Onda page (tap the main card): Practices, Rules, Immerse and Think about removed, since they already live on the Ondas tab; it keeps the theme of the day, quote, word of the day, journal and final reflection. The preview of an Onda you have not begun keeps everything.
-- [ ] Bespoke theme for each of the 64 Ondas: traditional pigments, pattern, display face, numerals and a new emblem drawn from its own art (two agents, 32 Ondas each, running now)
+- [ ] Bespoke theme for each of the 64 Ondas: traditional pigments, pattern, display face, numerals and a new emblem drawn from its own art. Unfinished work is on the branch wip/onda7-themes (renders blank, see docs/ONDA7_HANDOFF.md)
 - [x] Version 7.0 with a What’s New entry
 
 ## Next

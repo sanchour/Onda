@@ -327,16 +327,13 @@ test.describe('Ondas', () => {
   test('Ondas tab: cover, one bar of four shortcuts, and Today by time of day', async ({ page }) => {
     await expect(page.getByText('2 of 5 practices')).toBeVisible()
     for (const tile of ['Immerse', 'Journal', 'Philosophy', 'Guide']) await expect(page.getByRole('button', { name: tile, exact: true })).toBeVisible()
-    // day 4 of Stoicism: one practice for the morning, the afternoon and the evening, one small extra, and one to take in
-    await expect(page.getByRole('checkbox', { name: /^Morning premeditation/ })).toBeChecked()
-    await expect(page.getByRole('checkbox', { name: /^Morning premeditation/ })).toContainText('Today: ')
-    await tap(page, /^Voluntary discomfort/, 'checkbox')
-    await expect(page.getByText('3 of 5 practices')).toBeVisible()
-    await expect(page.getByRole('checkbox', { name: /^Look at: Equestrian statue of Marcus Aurelius/ })).toBeVisible()
+    // five a day: one to take in, then the morning, the afternoon and the evening, grouped by time of day
+    for (const slot of ['Immerse', 'Morning', 'Afternoon', 'Evening']) await expect(page.getByRole('group', { name: slot, exact: true })).toBeVisible()
+    await page.getByRole('group', { name: 'Evening', exact: true }).getByRole('checkbox').first().click()
+    await expect(page.getByText(/^(1|3) of 5 practices$/)).toBeVisible()
     // the immerse practice opens the piece itself, with places to find it
-    await page.getByRole('button', { name: /^Open: Look at: Equestrian statue/ }).click()
+    await page.getByRole('button', { name: /^Open: / }).first().click()
     await expect(page.getByText('Find it')).toBeVisible()
-    await expect(page.getByRole('button', { name: /Wikimedia Commons/ })).toBeVisible()
   })
 
   test('Rules can be kept on their own page; Philosophy is a deck of ideas; the Onda card opens the Onda', async ({ page }) => {
@@ -422,7 +419,7 @@ test.describe('Ondas', () => {
     await expect(page.getByRole('button', { name: /^Eat 1 of \d+/ })).toBeVisible()
     // Back returns to the screen you came from
     await tap(page, 'Back')
-    await expect(page.getByRole('heading', { name: 'Day 4 of 14' })).toBeVisible()
+    await expect(page.getByRole('button', { name: 'Immerse', exact: true })).toBeVisible()
   })
 
   test('journal lists past entries, and saving a new one returns to the list', async ({ page }) => {

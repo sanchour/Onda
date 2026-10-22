@@ -1,0 +1,1616 @@
+{
+  "version": 1,
+  "id": "adler",
+  "name": "Adler",
+  "origin": "Vienna",
+  "era": "1870 to 1937, and the psychology of encouragement since",
+  "tone": "green",
+  "icon": "users",
+  "font": "literata",
+  "pattern": "rising-arcs",
+  "glyph": "Mut",
+  "line": "You are not your past. Find the courage to contribute, and belong.",
+  "quote": {
+    "text": "Meanings are not determined by situations, but we determine ourselves by the meanings we give to situations.",
+    "by": "Alfred Adler",
+    "source": "What Life Should Mean to You, 1931, chapter 1"
+  },
+  "quotes": [
+    {
+      "text": "To be a human being means to feel oneself inferior.",
+      "by": "Alfred Adler",
+      "source": "Der Sinn des Lebens (Social Interest), 1933; Menschsein heißt, sich minderwertig fühlen"
+    },
+    {
+      "text": "It is the individual who is not interested in his fellow men who has the greatest difficulties in life and provides the greatest injury to others.",
+      "by": "Alfred Adler",
+      "source": "What Life Should Mean to You, 1931, chapter 1"
+    },
+    {
+      "text": "To see with the eyes of another, to hear with the ears of another, to feel with the heart of another.",
+      "by": "Alfred Adler, defining social feeling",
+      "source": "Quoted in Ansbacher and Ansbacher, The Individual Psychology of Alfred Adler, 1956"
+    },
+    {
+      "text": "The important thing is not what one is born with, but what use one makes of that equipment.",
+      "by": "Alfred Adler",
+      "source": "Quoted in Ansbacher and Ansbacher, The Individual Psychology of Alfred Adler, 1956"
+    },
+    {
+      "text": "A misbehaving child is a discouraged child.",
+      "by": "Rudolf Dreikurs",
+      "source": "Children: The Challenge, 1964"
+    },
+    {
+      "text": "We must have the courage to be imperfect.",
+      "by": "Sophie Lazarsfeld, as taken up by Rudolf Dreikurs",
+      "source": "Dreikurs, The Courage to Be Imperfect, lecture of 1957"
+    }
+  ],
+  "words": [
+    {
+      "id": "word-gemeinschaftsgefuhl",
+      "term": "Gemeinschaftsgefühl",
+      "meaning": "Social feeling, community feeling",
+      "pronunciation": "geh-MINE-shafts-geh-FUEL",
+      "language": "German",
+      "usage": "Adler’s central idea: a felt sense of belonging to humanity and wanting to contribute to it. The measure of mental health."
+    },
+    {
+      "id": "word-individualpsychologie",
+      "term": "Individualpsychologie",
+      "meaning": "Individual Psychology",
+      "pronunciation": "in-dee-vee-doo-AHL-psoo-ko-lo-GEE",
+      "language": "German",
+      "usage": "His school’s name. Individual means indivisible: the person is one whole moving towards a goal, not a bundle of drives."
+    },
+    {
+      "id": "word-minderwertigkeitsgefuhl",
+      "term": "Minderwertigkeitsgefühl",
+      "meaning": "Feeling of inferiority",
+      "pronunciation": "MIN-der-vair-tikh-kites-geh-FUEL",
+      "language": "German",
+      "usage": "The universal feeling of being small and lacking that every child begins with. Not an illness but the spur to growth."
+    },
+    {
+      "id": "word-minderwertigkeitskomplex",
+      "term": "Minderwertigkeitskomplex",
+      "meaning": "Inferiority complex",
+      "pronunciation": "MIN-der-vair-tikh-kites-kom-PLEKS",
+      "language": "German",
+      "usage": "When the feeling of inferiority becomes so heavy that a person gives up or hides behind excuses. Adler’s coinage entered every language."
+    },
+    {
+      "id": "word-organminderwertigkeit",
+      "term": "Organminderwertigkeit",
+      "meaning": "Organ inferiority",
+      "pronunciation": "or-GAHN-min-der-vair-tikh-kite",
+      "language": "German",
+      "usage": "His first theory, 1907: a weak organ or body can drive a person to compensate, sometimes brilliantly."
+    },
+    {
+      "id": "word-kompensation",
+      "term": "Kompensation",
+      "meaning": "Compensation",
+      "pronunciation": "kom-pen-zah-TSYOHN",
+      "language": "German",
+      "usage": "Making up for a felt weakness by effort. Demosthenes, a stammerer, became the great orator."
+    },
+    {
+      "id": "word-uberkompensation",
+      "term": "Überkompensation",
+      "meaning": "Overcompensation",
+      "pronunciation": "UE-ber-kom-pen-zah-TSYOHN",
+      "language": "German",
+      "usage": "Compensation pushed too far, into arrogance, domination or the need always to win."
+    },
+    {
+      "id": "word-streben-nach-uberlegenheit",
+      "term": "Streben nach Überlegenheit",
+      "meaning": "Striving for superiority",
+      "pronunciation": "SHTRAY-ben nakh ue-ber-LAY-gen-hite",
+      "language": "German",
+      "usage": "The movement from a felt minus to a plus that drives every life. Healthy when it serves others, harmful when only the self."
+    },
+    {
+      "id": "word-geltungsstreben",
+      "term": "Geltungsstreben",
+      "meaning": "Striving for recognition",
+      "pronunciation": "GEL-toongs-shtray-ben",
+      "language": "German",
+      "usage": "The wish to count, to be significant. Adler saw it behind showing off, sulking and power games alike."
+    },
+    {
+      "id": "word-lebensstil",
+      "term": "Lebensstil",
+      "meaning": "Style of life",
+      "pronunciation": "LAY-bens-shteel",
+      "language": "German",
+      "usage": "The unique pattern of beliefs and movements a person builds in childhood to reach their goal. It can be understood and changed."
+    },
+    {
+      "id": "word-lebensaufgaben",
+      "term": "Lebensaufgaben",
+      "meaning": "The life tasks",
+      "pronunciation": "LAY-bens-owf-gah-ben",
+      "language": "German",
+      "usage": "Work, friendship and love: the three tasks every life must answer, all of them social."
+    },
+    {
+      "id": "word-mut",
+      "term": "Mut",
+      "meaning": "Courage",
+      "pronunciation": "moot",
+      "language": "German",
+      "usage": "For Adler the root of health. Discouragement, not wickedness, lies behind most failures."
+    },
+    {
+      "id": "word-ermutigung",
+      "term": "Ermutigung",
+      "meaning": "Encouragement",
+      "pronunciation": "air-MOO-ti-goong",
+      "language": "German",
+      "usage": "The core of Adlerian therapy and teaching: restoring someone’s belief that they can meet life’s tasks."
+    },
+    {
+      "id": "word-entmutigung",
+      "term": "Entmutigung",
+      "meaning": "Discouragement",
+      "pronunciation": "ent-MOO-ti-goong",
+      "language": "German",
+      "usage": "Losing heart. Adlerians read misbehaviour and neurosis as forms of it."
+    },
+    {
+      "id": "word-private-logik",
+      "term": "Private Logik",
+      "meaning": "Private logic",
+      "pronunciation": "pree-VAH-teh LOH-gik",
+      "language": "German",
+      "usage": "The personal, unspoken reasoning that justifies a style of life, often against common sense."
+    },
+    {
+      "id": "word-common-sense",
+      "term": "Common sense",
+      "meaning": "Shared sense",
+      "pronunciation": "KOM-mon sens",
+      "language": "English, as Adler used it",
+      "usage": "Adler used the English phrase for reasoning valid for everyone, the opposite of private logic."
+    },
+    {
+      "id": "word-fiktives-ziel",
+      "term": "Fiktives Ziel",
+      "meaning": "Fictional goal",
+      "pronunciation": "fik-TEE-ves tseel",
+      "language": "German",
+      "usage": "The imagined final goal, often unconscious, that pulls a life forward and organises all its movements."
+    },
+    {
+      "id": "word-als-ob",
+      "term": "Als ob",
+      "meaning": "As if",
+      "pronunciation": "ahls op",
+      "language": "German",
+      "usage": "From the philosopher Vaihinger. We live by useful fictions, and acting as if can change how we feel."
+    },
+    {
+      "id": "word-finalitat",
+      "term": "Finalität",
+      "meaning": "Purposiveness",
+      "pronunciation": "fee-nah-lee-TAYT",
+      "language": "German",
+      "usage": "Adler asked not where behaviour comes from but what it is for."
+    },
+    {
+      "id": "word-familienkonstellation",
+      "term": "Familienkonstellation",
+      "meaning": "Family constellation",
+      "pronunciation": "fah-MEE-lyen-kon-shteh-lah-TSYOHN",
+      "language": "German",
+      "usage": "The web of siblings, parents and roles in which a child forms its style of life."
+    },
+    {
+      "id": "word-geschwisterposition",
+      "term": "Geschwisterposition",
+      "meaning": "Birth order position",
+      "pronunciation": "geh-SHVIS-ter-po-zi-TSYOHN",
+      "language": "German",
+      "usage": "Eldest, second, middle, youngest, only: each a typical situation, never a fate."
+    },
+    {
+      "id": "word-fruhe-erinnerungen",
+      "term": "Frühe Erinnerungen",
+      "meaning": "Early recollections",
+      "pronunciation": "FRUE-eh air-IN-neh-roong-en",
+      "language": "German",
+      "usage": "The first memories a person keeps. Adler read them as small parables of the style of life."
+    },
+    {
+      "id": "word-sicherungstendenz",
+      "term": "Sicherungstendenz",
+      "meaning": "Safeguarding tendency",
+      "pronunciation": "ZIKH-eh-roongs-ten-dents",
+      "language": "German",
+      "usage": "Symptoms and excuses that protect self-esteem from the risk of failing at a life task."
+    },
+    {
+      "id": "word-mannlicher-protest",
+      "term": "Männlicher Protest",
+      "meaning": "Masculine protest",
+      "pronunciation": "MEN-likh-er pro-TEST",
+      "language": "German",
+      "usage": "His early name for revolt against the inferior role a society assigns to women, and men’s fear of it. He argued for the equality of the sexes."
+    },
+    {
+      "id": "word-mitmenschlichkeit",
+      "term": "Mitmenschlichkeit",
+      "meaning": "Fellow humanity",
+      "pronunciation": "MIT-mensh-likh-kite",
+      "language": "German",
+      "usage": "Being a fellow human to others, the lived side of social feeling."
+    },
+    {
+      "id": "word-ganzheit",
+      "term": "Ganzheit",
+      "meaning": "Wholeness",
+      "pronunciation": "GAHNTS-hite",
+      "language": "German",
+      "usage": "Mind and body, past and goal, are one movement. Adler refused to split the person into parts."
+    },
+    {
+      "id": "word-schopferische-kraft",
+      "term": "Schöpferische Kraft",
+      "meaning": "Creative power",
+      "pronunciation": "SHURP-feh-ri-sheh krahft",
+      "language": "German",
+      "usage": "The individual’s power to make something of heredity and circumstance. We are not only made; we make."
+    },
+    {
+      "id": "word-bewegungsgesetz",
+      "term": "Bewegungsgesetz",
+      "meaning": "Law of movement",
+      "pronunciation": "beh-VAY-goongs-geh-zets",
+      "language": "German",
+      "usage": "Watch what a person does, Adler said, not only what they say: the movement reveals the goal."
+    },
+    {
+      "id": "word-verwohnung",
+      "term": "Verwöhnung",
+      "meaning": "Pampering",
+      "pronunciation": "fair-VUR-noong",
+      "language": "German",
+      "usage": "Doing for children what they could do themselves. Adler thought it as discouraging as neglect."
+    },
+    {
+      "id": "word-erziehungsberatung",
+      "term": "Erziehungsberatung",
+      "meaning": "Child guidance",
+      "pronunciation": "air-TSEE-oongs-beh-rah-toong",
+      "language": "German",
+      "usage": "The counselling centres he set up in Vienna’s schools in the 1920s, open to parents and teachers."
+    },
+    {
+      "id": "word-kooperation",
+      "term": "Kooperation",
+      "meaning": "Cooperation",
+      "pronunciation": "ko-o-peh-rah-TSYOHN",
+      "language": "German",
+      "usage": "The capacity for working with others, which Adler thought must be trained from childhood."
+    }
+  ],
+  "practices": [
+    {
+      "id": "the-meaning-you-give",
+      "name": "The meaning you give",
+      "icon": "lightbulb",
+      "slot": "Morning",
+      "time": "07:00",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Think of one thing that is weighing on you this morning: a failure, a worry, a memory. Write it in one line. Under it, write two different meanings you could give it, one that makes you smaller and one that makes you stronger. Choose the second for today and carry it with you as a sentence.",
+      "why": "Adler wrote that we are not determined by our experiences but by the meaning we give them. The past cannot be changed; its meaning can, and that is where freedom begins.",
+      "variations": [
+        "Do it for a childhood memory.",
+        "Do it for something that happened yesterday.",
+        "Share your new meaning with someone."
+      ]
+    },
+    {
+      "id": "act-as-if",
+      "name": "Act as if",
+      "icon": "person-arms-spread",
+      "slot": "Morning",
+      "time": "07:20",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Name one quality you wish you had: confidence, patience, warmth, courage. Decide on one situation today where you will act as if you already had it. Picture how that person would stand, speak and move. Then, when the moment comes, do it, even if you do not feel it yet.",
+      "why": "Adler borrowed the idea of as if from the philosopher Vaihinger and used it with patients: behaviour changes feeling more reliably than feeling changes behaviour.",
+      "variations": [
+        "Act as if for a whole morning.",
+        "Choose the quality you most doubt in yourself.",
+        "Notice afterwards how others responded."
+      ]
+    },
+    {
+      "id": "your-first-memory",
+      "name": "Your first memory",
+      "icon": "clock-counter-clockwise",
+      "slot": "Morning",
+      "time": "06:45",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Write down the earliest memory you can recall, as a scene: where you were, who was there, what happened and what you felt. Do not analyse while you write. Then read it back and ask: if this were a parable of how I see life, what would it be saying about me, others and the world?",
+      "why": "Of all we could remember, Adler noticed, we keep the memories that fit our style of life. An early recollection is a small story we keep telling ourselves.",
+      "variations": [
+        "Write your second earliest memory and compare.",
+        "Ask a sibling what they remember of the same time.",
+        "Imagine the memory ending differently."
+      ]
+    },
+    {
+      "id": "encourage-someone-by-noon",
+      "name": "Encourage someone by noon",
+      "icon": "hands-clapping",
+      "slot": "Morning",
+      "time": "08:00",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Before noon, encourage one person. Not with praise like you are so clever, but by naming something real: I noticed how patiently you explained that, I saw how hard you worked on this. Speak to their effort and progress, as an equal. Keep it short and true.",
+      "why": "Adler and Dreikurs held that discouragement lies behind most failure and misbehaviour. Encouragement restores belief in one’s own ability; praise ranks from above.",
+      "variations": [
+        "Encourage a child.",
+        "Encourage someone who encourages others.",
+        "Write it in a note they will find."
+      ]
+    },
+    {
+      "id": "the-three-tasks",
+      "name": "The three tasks",
+      "icon": "list-checks",
+      "slot": "Morning",
+      "time": "07:40",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Write three words at the top of a page: Work, Friendship, Love. Next to each, write one small thing you will do today to meet that task: finish a piece of work well, contact a friend, show care to someone you love. Keep them small enough to do.",
+      "why": "Adler said life asks everyone three questions, all of them social: how to work, how to be a friend and how to love. Avoiding any of them for long costs us.",
+      "variations": [
+        "Notice which task you find hardest.",
+        "Do all three before lunch.",
+        "Ask someone close which task they find hardest."
+      ]
+    },
+    {
+      "id": "the-courage-to-be-imperfect",
+      "name": "The courage to be imperfect",
+      "icon": "circle-dashed",
+      "slot": "Morning",
+      "time": "07:10",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Choose one thing you will do today imperfectly on purpose: send a message without rewriting it, sing out loud, try something you are bad at, share an unfinished idea. Notice the fear before you do it and the relief afterwards. Nothing terrible will happen.",
+      "why": "The courage to be imperfect, a phrase of Sophie Lazarsfeld taken up by Rudolf Dreikurs, is the willingness to make mistakes. Fear of failure keeps people from living.",
+      "variations": [
+        "Ask a question you think is foolish.",
+        "Start a hobby you are bad at.",
+        "Tell someone about a recent mistake."
+      ]
+    },
+    {
+      "id": "contribute-without-being-asked",
+      "name": "Contribute without being asked",
+      "icon": "hand-heart",
+      "slot": "Afternoon",
+      "time": "13:00",
+      "minutes": 15,
+      "meta": "Afternoon · 15 min",
+      "instructions": "Look around you at work, at home or in your street and find something that needs doing that is not your job: an empty printer, a full bin, a newcomer who looks lost, a neighbour’s bin left out. Do it quietly, without mentioning it. Notice how it feels to add something to the whole.",
+      "why": "For Adler the meaning of life is contribution. Social feeling is not a mood but a way of acting for the good of the whole.",
+      "variations": [
+        "Do it for a group you belong to.",
+        "Do it for strangers.",
+        "Do it three times today."
+      ]
+    },
+    {
+      "id": "whose-task-is-it",
+      "name": "Whose task is it",
+      "icon": "scales",
+      "slot": "Afternoon",
+      "time": "14:00",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "When something troubles you today, ask one question: whose task is this? Whether a colleague likes you is their task; doing your work well is yours. Whether your child studies is ultimately theirs; offering help is yours. Do your own task fully and let go of theirs.",
+      "why": "The separation of tasks, as Ichiro Kishimi puts Adler’s idea, ends much needless conflict. We cannot live others’ lives, and they cannot live ours.",
+      "variations": [
+        "Use it on a family worry.",
+        "Use it on the approval of others.",
+        "Offer help once, then step back."
+      ]
+    },
+    {
+      "id": "turn-a-minus-into-a-plus",
+      "name": "Turn a minus into a plus",
+      "icon": "arrow-up-right",
+      "slot": "Afternoon",
+      "time": "15:00",
+      "minutes": 15,
+      "meta": "Afternoon · 15 min",
+      "instructions": "Choose one weakness or limitation you feel: shyness, a stammer, a poor memory, a lack of training. Spend fifteen minutes doing something that works on it or around it: practise, learn, find a tool, ask for teaching. Write down one way this weakness could become a strength.",
+      "why": "Adler began with organ inferiority: a weakness can drive compensation, and many great achievements grew from a felt lack. Demosthenes trained himself out of a stammer.",
+      "variations": [
+        "Read about someone who compensated for a weakness.",
+        "Ask a friend what strength they see in your weakness.",
+        "Make a plan for a month."
+      ]
+    },
+    {
+      "id": "ask-for-help",
+      "name": "Ask for help",
+      "icon": "handshake",
+      "slot": "Afternoon",
+      "time": "16:00",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Ask someone for help with something real today, even something you could manage alone. Ask simply and specifically. Accept the help with thanks and without apology. Notice what happens between you.",
+      "why": "Cooperation, for Adler, is the basic social skill. Refusing help can be a hidden way of claiming superiority.",
+      "variations": [
+        "Ask someone you would not usually ask.",
+        "Ask for advice instead of practical help.",
+        "Offer help back later."
+      ]
+    },
+    {
+      "id": "with-the-eyes-of-another",
+      "name": "With the eyes of another",
+      "icon": "eye",
+      "slot": "Afternoon",
+      "time": "15:30",
+      "minutes": 15,
+      "meta": "Afternoon · 15 min",
+      "instructions": "Choose one person you are in some tension with. For fifteen minutes, imagine their day from inside: what they woke up worried about, what they want, what they fear, how you look from where they stand. Write a short paragraph in their voice.",
+      "why": "Adler described social feeling as seeing with the eyes of another, hearing with the ears of another and feeling with the heart of another.",
+      "variations": [
+        "Do it for someone you do not know well.",
+        "Do it for someone younger.",
+        "Talk with them afterwards."
+      ]
+    },
+    {
+      "id": "catch-your-private-logic",
+      "name": "Catch your private logic",
+      "icon": "magnifying-glass",
+      "slot": "Afternoon",
+      "time": "14:30",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Notice one moment today when you justify something to yourself with a rule only you would accept: I must be the best or I am nothing, if they cared they would know without asking. Write the rule down. Then write a version that would make sense to everyone.",
+      "why": "Private logic is the hidden reasoning that keeps a style of life going. Adler set common sense against it: reasoning that holds for others as well.",
+      "variations": [
+        "Look for it in an argument.",
+        "Look for it in a habit you want to stop.",
+        "Ask a friend about one of your rules."
+      ]
+    },
+    {
+      "id": "what-did-i-contribute",
+      "name": "What did I contribute",
+      "icon": "notebook",
+      "slot": "Evening",
+      "time": "21:00",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "In your journal, answer three questions about today: what did I contribute, and to whom? Where did I feel inferior, and what did I do with it? Whom did I encourage? Write plainly. End with one thing you will contribute tomorrow.",
+      "why": "Adler measured a life by its usefulness to others. A short evening account turns the idea into a daily habit.",
+      "variations": [
+        "Use one of the Onda’s journal prompts.",
+        "Answer only the first question, in detail.",
+        "Write it as a letter to your future self."
+      ],
+      "action": "journal"
+    },
+    {
+      "id": "a-word-of-encouragement",
+      "name": "A word of encouragement",
+      "icon": "envelope-simple",
+      "slot": "Evening",
+      "time": "20:30",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Write a short message or card to someone who needs courage: a friend facing a test, a child, a colleague who failed at something. Name what you have seen them do, not what you hope they will become. Send it tonight.",
+      "why": "Encouragement, the Adlerians taught, is needed as plants need water. It is the most practical form of social feeling.",
+      "variations": [
+        "Write to a teacher who once encouraged you.",
+        "Write to someone who rarely hears it.",
+        "Write by hand."
+      ]
+    },
+    {
+      "id": "your-place-among-siblings",
+      "name": "Your place among siblings",
+      "icon": "users-three",
+      "slot": "Evening",
+      "time": "21:30",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Think about your position in your family as a child: eldest, middle, youngest, only. Write down what that position asked of you and what you learned to expect from life because of it. Ask whether it still runs you today, and where you would like to step out of it.",
+      "why": "Adler noticed that birth order creates typical situations and typical answers to them. Seeing yours lets you choose rather than repeat.",
+      "variations": [
+        "Talk about it with a sibling.",
+        "Think about a friend’s position.",
+        "Think about the position of your own children."
+      ]
+    },
+    {
+      "id": "thank-three-people",
+      "name": "Thank three people",
+      "icon": "heart",
+      "slot": "Evening",
+      "time": "21:45",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Before bed, name three people who contributed to your day, including some you never saw: the baker, the driver, the person who wrote the book you read. Thank one of them in person or by message tomorrow.",
+      "why": "Seeing how much others give us is the other side of social feeling. Gratitude makes belonging felt.",
+      "variations": [
+        "Thank someone who did their job well.",
+        "Thank someone from your past.",
+        "Thank someone in writing."
+      ]
+    },
+    {
+      "id": "a-family-or-house-council",
+      "name": "A family or house council",
+      "icon": "chats",
+      "slot": "Evening",
+      "time": "19:30",
+      "minutes": 20,
+      "meta": "Evening · 20 min",
+      "instructions": "Gather the people you live with, or a friend if you live alone, for twenty minutes. Each person says one thing that went well this week and one thing they would like to change. Decide together on one small change. Everyone’s voice counts the same.",
+      "why": "Rudolf Dreikurs made the family council an Adlerian institution: equals planning together, children included, as practice in cooperation.",
+      "variations": [
+        "Make it weekly.",
+        "Let the youngest lead it.",
+        "End with something fun planned together."
+      ]
+    },
+    {
+      "id": "what-is-it-for",
+      "name": "What is it for",
+      "icon": "question",
+      "slot": "Evening",
+      "time": "20:00",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Pick one feeling or habit that troubles you: anger, procrastination, worry. Instead of asking where it comes from, ask what it is for. What does it get you, what does it protect you from, what task does it help you avoid? Write the answer, and one other way to get what you need.",
+      "why": "Adler explained behaviour by its purpose. Emotions serve goals, and once we see the goal we can choose a better way to it.",
+      "variations": [
+        "Read the Onda’s Philosophy idea on teleology.",
+        "Ask it about someone else’s behaviour.",
+        "Talk it through with a friend."
+      ],
+      "action": "philosophy"
+    },
+    {
+      "id": "a-morning-of-service",
+      "name": "A morning of service",
+      "icon": "hand-coins",
+      "slot": "Special",
+      "time": "09:30",
+      "minutes": 120,
+      "meta": "On a free day · 120 min",
+      "instructions": "Give a morning to your community: volunteer at a food bank, help at a school or club, clean a park with neighbours, visit an elderly neighbour. Go to be useful, not to be seen. Afterwards, write down what you received as well as what you gave.",
+      "why": "Social feeling is lived in community. Adler worked in Vienna’s schools and workers’ halls because he believed prevention starts in ordinary life together.",
+      "variations": [
+        "Bring a friend.",
+        "Find a group you can return to.",
+        "Ask the organisers what is most needed."
+      ]
+    },
+    {
+      "id": "the-coffeehouse-table",
+      "name": "The coffeehouse table",
+      "icon": "coffee",
+      "slot": "Special",
+      "time": "19:00",
+      "minutes": 90,
+      "meta": "One evening in the Onda · 90 min",
+      "instructions": "Invite a few people to a café or your kitchen for an open conversation on one question: what makes a life meaningful? Let everyone speak, newcomers included. Order coffee and cake, take your time, and listen more than you talk.",
+      "why": "Adler met students and friends most evenings at his table in Café Siller. Anyone could join. Ideas grew out of conversation among equals.",
+      "variations": [
+        "Make it a regular evening.",
+        "Invite someone outside your usual circle.",
+        "Choose a passage from Adler to read aloud first."
+      ]
+    }
+  ],
+  "tasks": [],
+  "rules": [
+    {
+      "id": "r1",
+      "text": "Encourage, do not praise or blame",
+      "why": "Praise judges from above; encouragement stands beside. Notice effort and progress, and say what you see."
+    },
+    {
+      "id": "r2",
+      "text": "Contribute something today",
+      "why": "Social feeling is lived, not felt. Each day add something to the life of someone else, however small."
+    },
+    {
+      "id": "r3",
+      "text": "Ask whose task it is",
+      "why": "Do what is yours with all your heart, and let others carry what is theirs. It frees both."
+    },
+    {
+      "id": "r4",
+      "text": "Act as if",
+      "why": "Waiting to feel ready keeps you small. Behave as the person you want to become and let feeling follow."
+    },
+    {
+      "id": "r5",
+      "text": "Look at the goal, not the cause",
+      "why": "Ask what a feeling or habit is for, not only where it came from. Purposes can be changed."
+    },
+    {
+      "id": "r6",
+      "text": "Have the courage to be imperfect",
+      "why": "Mistakes are how anyone learns. Fear of them is what keeps people from living."
+    }
+  ],
+  "immerse": {
+    "read": [
+      {
+        "id": "read-what-life-should-mean-to-you",
+        "title": "What Life Should Mean to You",
+        "creator": "Alfred Adler",
+        "year": "1931",
+        "why": "His clearest book for general readers: the life tasks, early memories, family and the meaning of life as contribution."
+      },
+      {
+        "id": "read-understanding-human-nature",
+        "title": "Understanding Human Nature",
+        "creator": "Alfred Adler",
+        "year": "1927",
+        "why": "Lectures given at the Volksheim in Vienna to ordinary people, on how character forms and can change."
+      },
+      {
+        "id": "read-the-courage-to-be-disliked",
+        "title": "The Courage to Be Disliked",
+        "creator": "Ichiro Kishimi and Fumitake Koga",
+        "year": "2013",
+        "why": "A Socratic dialogue between a philosopher and a young man that made Adler a bestseller in Japan and then worldwide."
+      },
+      {
+        "id": "read-children-the-challenge",
+        "title": "Children: The Challenge",
+        "creator": "Rudolf Dreikurs with Vicki Soltz",
+        "year": "1964",
+        "why": "Adlerian parenting in practice: encouragement, natural consequences and the family council."
+      },
+      {
+        "id": "read-the-individual-psychology-of-alfred-adler",
+        "title": "The Individual Psychology of Alfred Adler",
+        "creator": "Heinz L. Ansbacher and Rowena R. Ansbacher, eds.",
+        "year": "1956",
+        "why": "His scattered writings arranged by theme with commentary. The standard reference."
+      },
+      {
+        "id": "read-social-interest-a-challenge-to-mankind",
+        "title": "Social Interest: A Challenge to Mankind",
+        "creator": "Alfred Adler",
+        "year": "1933",
+        "why": "His late statement of the idea that the meaning of life lies in contribution to the whole."
+      },
+      {
+        "id": "read-alfred-adler-apostle-of-freedom",
+        "title": "Alfred Adler: Apostle of Freedom",
+        "creator": "Phyllis Bottome",
+        "year": "1939",
+        "why": "A warm portrait by a novelist who knew him well in his last years."
+      }
+    ],
+    "watch": [
+      {
+        "id": "watch-ikiru",
+        "title": "Ikiru",
+        "creator": "Akira Kurosawa",
+        "year": "1952",
+        "why": "A dying civil servant finds meaning by getting a playground built. Contribution as the meaning of a life."
+      },
+      {
+        "id": "watch-it-s-a-wonderful-life",
+        "title": "It’s a Wonderful Life",
+        "creator": "Frank Capra",
+        "year": "1946",
+        "why": "George Bailey learns how much his life has given to his town. The film of social feeling."
+      },
+      {
+        "id": "watch-the-king-s-speech",
+        "title": "The King’s Speech",
+        "creator": "Tom Hooper",
+        "year": "2010",
+        "why": "A king with a stammer and the therapist who encourages him as an equal. Compensation and courage."
+      },
+      {
+        "id": "watch-the-third-man",
+        "title": "The Third Man",
+        "creator": "Carol Reed",
+        "year": "1949",
+        "why": "Postwar Vienna, Adler’s city, and Harry Lime, a man with no social feeling at all."
+      }
+    ],
+    "listen": [
+      {
+        "id": "listen-symphony-no-9",
+        "title": "Symphony No. 9",
+        "creator": "Ludwig van Beethoven",
+        "year": "1824",
+        "why": "Schiller’s Ode to Joy: all people become brothers. Written in Vienna; Klimt painted its finale."
+      },
+      {
+        "id": "listen-die-schone-mullerin",
+        "title": "Die schöne Müllerin",
+        "creator": "Franz Schubert",
+        "year": "1823",
+        "why": "Viennese songs of the kind sung at home and among friends in Adler’s day."
+      },
+      {
+        "id": "listen-the-blue-danube",
+        "title": "The Blue Danube",
+        "creator": "Johann Strauss II",
+        "year": "1867",
+        "why": "The waltz of the Vienna Adler grew up in, played everywhere in his childhood."
+      },
+      {
+        "id": "listen-schrammelmusik",
+        "title": "Schrammelmusik",
+        "creator": "Vienna’s Schrammel quartets",
+        "year": "1880s",
+        "why": "Violins, guitar and accordion at the Heurigen wine taverns: the sound of a Viennese evening among friends."
+      }
+    ],
+    "art": [
+      {
+        "id": "art-beethoven-frieze",
+        "title": "Beethoven Frieze",
+        "creator": "Gustav Klimt",
+        "year": "1902",
+        "why": "In the Secession building: humanity’s longing for happiness, ending in the choir and the embrace of the whole world."
+      },
+      {
+        "id": "art-the-family",
+        "title": "The Family",
+        "creator": "Egon Schiele",
+        "year": "1918",
+        "why": "Schiele’s last great painting, of a father, mother and child huddled together, made months before the family’s deaths."
+      },
+      {
+        "id": "art-stoclet-frieze",
+        "title": "Stoclet Frieze",
+        "creator": "Gustav Klimt",
+        "year": "1911",
+        "why": "The Tree of Life with its spiralling branches, the Expectation and the Fulfilment."
+      }
+    ],
+    "eat": [
+      {
+        "id": "eat-wiener-schnitzel",
+        "title": "Wiener Schnitzel",
+        "creator": "Thin breaded veal cutlet",
+        "why": "Vienna’s own dish, beaten thin and fried golden, with potato salad and a slice of lemon."
+      },
+      {
+        "id": "eat-apfelstrudel",
+        "title": "Apfelstrudel",
+        "creator": "Apple strudel",
+        "why": "Pastry pulled so thin you could read a newspaper through it, filled with apple, raisins and cinnamon."
+      },
+      {
+        "id": "eat-gulasch",
+        "title": "Gulasch",
+        "creator": "Viennese goulash",
+        "why": "Beef stewed with onions and paprika, the coffeehouse dish of lunchtime arguments."
+      },
+      {
+        "id": "eat-kaiserschmarrn",
+        "title": "Kaiserschmarrn",
+        "creator": "Torn sweet pancake",
+        "why": "A thick pancake torn into pieces, sugared, with plum compote. Made to be shared from the pan."
+      }
+    ],
+    "drink": [
+      {
+        "id": "drink-wiener-melange",
+        "title": "Wiener Melange",
+        "creator": "Coffee with steamed milk and foam",
+        "why": "The coffeehouse coffee, served on a small tray with a glass of water."
+      },
+      {
+        "id": "drink-einspanner",
+        "title": "Einspänner",
+        "creator": "Black coffee under whipped cream",
+        "why": "Served in a glass, named, so the story goes, for coachmen who held the reins with one hand."
+      },
+      {
+        "id": "drink-apfelsaft-gespritzt",
+        "title": "Apfelsaft gespritzt",
+        "creator": "Apple juice with sparkling water",
+        "why": "The everyday drink of a Viennese summer and a Heuriger garden."
+      }
+    ],
+    "customs": [
+      {
+        "id": "customs-the-coffeehouse-table",
+        "title": "The coffeehouse table",
+        "creator": "Open discussion",
+        "why": "Adler met students, patients and friends most evenings at his table in Café Siller on the Danube canal. Anyone could join."
+      },
+      {
+        "id": "customs-child-guidance-in-public",
+        "title": "Child guidance in public",
+        "creator": "A teaching method",
+        "why": "In his clinics a family was counselled in front of teachers, so everyone learned. Children were spoken to as equals."
+      },
+      {
+        "id": "customs-the-family-council",
+        "title": "The family council",
+        "creator": "A weekly meeting",
+        "why": "Dreikurs’ practice: the family meets weekly, each member equal, to plan, share chores and solve problems together."
+      },
+      {
+        "id": "customs-the-sunday-walk",
+        "title": "The Sunday walk",
+        "creator": "A Viennese habit",
+        "why": "A walk in the Wienerwald, the woods on the city’s edge, ending at a tavern among the vines."
+      }
+    ],
+    "games": [
+      {
+        "id": "games-tarock",
+        "title": "Tarock",
+        "creator": "Card game",
+        "year": "18th century",
+        "why": "The great Austrian card game, Königrufen in Vienna, where partners are found during play."
+      },
+      {
+        "id": "games-coffeehouse-chess",
+        "title": "Coffeehouse chess",
+        "creator": "Board game",
+        "year": "traditional",
+        "why": "Played for hours in Viennese cafés over a single coffee."
+      },
+      {
+        "id": "games-pandemic",
+        "title": "Pandemic",
+        "creator": "Cooperative board game",
+        "year": "2008",
+        "why": "Matt Leacock’s game where all players win or lose together. Cooperation as play."
+      }
+    ],
+    "festivals": [
+      {
+        "id": "fest-adler-s-birthday",
+        "title": "Adler’s birthday",
+        "creator": "7 February",
+        "why": "Born in 1870 in Rudolfsheim, then a village on the edge of Vienna."
+      },
+      {
+        "id": "fest-international-day-of-friendship",
+        "title": "International Day of Friendship",
+        "creator": "30 July",
+        "why": "A United Nations day for friendship between people and peoples, one of the three life tasks."
+      },
+      {
+        "id": "fest-world-mental-health-day",
+        "title": "World Mental Health Day",
+        "creator": "10 October",
+        "why": "A day to speak openly about mental health, as Adler did in his public lectures."
+      }
+    ],
+    "places": [
+      {
+        "id": "place-vienna-central-cemetery",
+        "title": "Vienna Central Cemetery",
+        "creator": "Zentralfriedhof, Vienna",
+        "why": "His ashes, lost for decades in Edinburgh, were found in 2007 and laid in an honorary grave here in 2011."
+      },
+      {
+        "id": "place-volkshochschule-ottakring",
+        "title": "Volkshochschule Ottakring",
+        "creator": "Ludo-Hartmann-Platz, Vienna",
+        "why": "The Volksheim, the adult education centre where he lectured to workers and ordinary citizens."
+      },
+      {
+        "id": "place-karl-marx-hof",
+        "title": "Karl-Marx-Hof",
+        "creator": "Heiligenstadt, Vienna",
+        "why": "The great housing block of Red Vienna, built in the years when his clinics flourished in the city’s schools."
+      },
+      {
+        "id": "place-the-wienerwald",
+        "title": "The Wienerwald",
+        "creator": "West of Vienna",
+        "why": "The Vienna Woods, for the Sunday walks of the city."
+      }
+    ]
+  },
+  "ethics": [
+    {
+      "title": "Social feeling",
+      "text": "Mental health is measured by how much a person feels part of the whole and contributes to it.",
+      "practice": "Do one thing today that benefits people you will never meet."
+    },
+    {
+      "title": "Equality",
+      "text": "No one is above or below. Adler argued for the equality of women and men and of children and adults in dignity.",
+      "practice": "Notice where you treat someone as less than you, and change it."
+    },
+    {
+      "title": "Encouragement",
+      "text": "Discouragement is behind most failure. To encourage is to restore someone’s faith in their own ability.",
+      "practice": "Tell someone specifically what you see them doing well."
+    },
+    {
+      "title": "Cooperation",
+      "text": "Life’s tasks can only be solved with others. Competition for its own sake isolates.",
+      "practice": "Turn one competition today into a collaboration."
+    },
+    {
+      "title": "Responsibility",
+      "text": "We are not determined by our past but by the meaning we give it. That is a freedom and a responsibility.",
+      "practice": "Retell one hard memory as the start of something, not the end."
+    },
+    {
+      "title": "Courage",
+      "text": "Courage is the willingness to take part, risk failing and keep going.",
+      "practice": "Do one thing today that you have been avoiding out of fear of failing."
+    }
+  ],
+  "philosophy": [
+    {
+      "title": "The feeling of inferiority",
+      "text": "Every child starts small and dependent, and every life begins with a sense of lacking. This is not a flaw but the engine of all striving.",
+      "practice": "Name a weakness that has driven you to grow."
+    },
+    {
+      "title": "Teleology",
+      "text": "Adler asks what behaviour is for, not only what caused it. Anger may serve to dominate; anxiety may serve to avoid a task.",
+      "practice": "Pick one habit and ask: what is it for?"
+    },
+    {
+      "title": "Style of life",
+      "text": "By about five or six each of us forms a pattern of beliefs about self and world. It is learned, so it can be relearned.",
+      "practice": "Write three sentences: I am... Others are... Life is..."
+    },
+    {
+      "title": "The three life tasks",
+      "text": "Work, friendship and love are the questions life asks everyone. Each is social, and none can be avoided for long without cost.",
+      "practice": "Which of the three are you avoiding? Take one small step towards it."
+    },
+    {
+      "title": "Private logic and common sense",
+      "text": "We justify our style of life with private reasoning. Health means reasoning in ways that hold for others too.",
+      "practice": "Find one rule you live by that would not make sense to anyone else."
+    },
+    {
+      "title": "Fictional finalism",
+      "text": "We are pulled by imagined goals, fictions we act as if were true. Choosing better fictions changes a life.",
+      "practice": "What is the secret goal behind your striving? Is it a good one?"
+    },
+    {
+      "title": "Birth order",
+      "text": "Eldest, middle, youngest and only children face typical situations, and often answer them in typical ways. It is a tendency, never a fate.",
+      "practice": "How did your place among your siblings shape you?"
+    },
+    {
+      "title": "Early recollections",
+      "text": "Of all we could remember, we keep the memories that fit our style of life. A first memory is a small parable.",
+      "practice": "Write your earliest memory and ask what it says about how you see the world."
+    }
+  ],
+  "journal": [
+    "What did I contribute today, and to whom?",
+    "Where did I feel inferior today, and what did I do with the feeling?",
+    "What was my anger for today?",
+    "What is my earliest memory, and what does it say about me?",
+    "Which life task am I avoiding: work, friendship or love?",
+    "Whom did I encourage today, and how?",
+    "Where did I praise or blame instead of encouraging?",
+    "What would I do if I acted as if I were already brave?",
+    "What is my private logic in a conflict I am in?",
+    "What did my place among my siblings teach me to expect?",
+    "Whose task did I take on today that was not mine?",
+    "What task of mine did I leave for someone else?",
+    "Where did I compete when I could have cooperated?",
+    "What weakness have I turned into a strength?",
+    "Where do I overcompensate?",
+    "What do I tell myself so that I do not have to try?",
+    "What did someone teach me today by how they moved, not what they said?",
+    "What meaning have I given to my past, and could I give another?",
+    "When did I feel I truly belonged?",
+    "Where did I treat someone as less than me?",
+    "Where did I make a mistake today, and what did I learn?",
+    "What would a life of social feeling look like for me?",
+    "Whom do I see with their eyes, hear with their ears, feel with their heart?",
+    "What goal is secretly steering me?",
+    "What pampering do I still expect from life?",
+    "Who encouraged me when I was young, and what did they do?",
+    "What am I proud of contributing this week?",
+    "Where do I need the courage to be imperfect?",
+    "How have my three life tasks changed this month?",
+    "What has this Onda changed in how I see others?"
+  ],
+  "reflect": [
+    "What did you learn about the purpose behind your feelings?",
+    "How did encouraging others change your days?",
+    "Which life task grew most during this Onda?",
+    "What does your earliest memory tell you now?",
+    "Where did you find the courage to be imperfect?",
+    "What contribution will you keep making after this Onda?"
+  ],
+  "dayThemes": [
+    "Feeling small",
+    "Courage",
+    "Encouragement",
+    "Social feeling",
+    "The life tasks",
+    "Work",
+    "Friendship",
+    "Love",
+    "Style of life",
+    "Early memories",
+    "Birth order",
+    "What is it for",
+    "Private logic",
+    "Common sense",
+    "Acting as if",
+    "Compensation",
+    "Overcompensation",
+    "Whose task",
+    "Cooperation",
+    "Equality",
+    "The secret goal",
+    "Contribution",
+    "Mistakes",
+    "The eyes of another",
+    "Belonging",
+    "Children",
+    "The family",
+    "Meaning",
+    "Creative power",
+    "The whole"
+  ],
+  "guide": {
+    "intro": [
+      "Alfred Adler was born in 1870 in Rudolfsheim, then a village on the edge of Vienna, the second of seven children of a Jewish grain merchant. He was a sickly child, with rickets that kept him from running and a near-fatal pneumonia at five, and he resolved early to become a doctor and fight death.",
+      "He trained in medicine in Vienna and opened a practice in a working-class district near the Prater amusement park, where many patients were circus performers. His first book, in 1898, was a health manual for tailors. He saw how poverty and work shape the body and the mind.",
+      "In 1902 Sigmund Freud invited him to the Wednesday evening meetings that became the Vienna Psychoanalytic Society. Adler became its president, but he could not accept that sexuality was the root of everything. In 1911 he left with his followers and founded what he called Individual Psychology: individual in the sense of indivisible, a whole person moving towards a goal.",
+      "His ideas are now so common that we forget they are his: the inferiority complex, compensation, the effect of birth order, the importance of encouragement, the equality of women and men. He held that every person feels inferior at first and strives to overcome it, and that health means turning that striving towards the good of others. He called this Gemeinschaftsgefühl, social feeling.",
+      "After serving as an army doctor in the First World War he devoted himself to prevention. In Red Vienna he set up child guidance clinics in the schools, lectured to workers and parents, and trained teachers. When the clinics were closed in the 1930s he moved to the United States. He died in 1937 in Aberdeen, on a lecture tour, collapsing in the street on his morning walk.",
+      "This Onda takes from Adler a practical way of living: ask what your feelings are for, act as if you had the courage you want, encourage rather than judge, separate your tasks from other people’s, and measure your days by what you contribute. It also takes you to his Vienna of coffeehouses, waltzes and open lectures."
+    ],
+    "origin": "Vienna, in its coffeehouses, clinics and lecture halls, and later New York",
+    "era": "Adler was born in 1870 and died in 1937. His school flourished in Vienna between the wars and spread across the world after them",
+    "figures": [
+      {
+        "name": "Alfred Adler",
+        "dates": "1870 to 1937",
+        "bio": "Physician and psychologist, founder of Individual Psychology. Short, sociable, musical and fond of the coffeehouse, a gifted speaker to ordinary audiences."
+      },
+      {
+        "name": "Raissa Epstein Adler",
+        "dates": "1872 to 1962",
+        "bio": "His wife, a Russian-born socialist and feminist who studied in Zurich. She shaped his views on the equality of women."
+      },
+      {
+        "name": "Alexandra Adler",
+        "dates": "1901 to 2001",
+        "bio": "Their daughter, a neurologist and psychiatrist who carried Individual Psychology on in New York."
+      },
+      {
+        "name": "Kurt Adler",
+        "dates": "1905 to 1997",
+        "bio": "Their son, a psychiatrist who directed the Alfred Adler Institute in New York."
+      },
+      {
+        "name": "Rudolf Dreikurs",
+        "dates": "1897 to 1972",
+        "bio": "Viennese psychiatrist who brought Adler’s ideas into parenting and classrooms in America. Children: The Challenge is his."
+      },
+      {
+        "name": "Heinz Ansbacher",
+        "dates": "1904 to 2006",
+        "bio": "Psychologist who, with his wife Rowena, edited Adler’s writings into the standard reference."
+      },
+      {
+        "name": "Carl Furtmüller",
+        "dates": "1880 to 1951",
+        "bio": "Educator and co-founder of the school, a leader of Vienna’s school reform."
+      },
+      {
+        "name": "Sigmund Freud",
+        "dates": "1856 to 1939",
+        "bio": "Founder of psychoanalysis. Adler’s colleague from 1902 and his opponent after 1911."
+      },
+      {
+        "name": "Manès Sperber",
+        "dates": "1905 to 1984",
+        "bio": "Writer and pupil of Adler who wrote a memoir and a study of his teacher."
+      },
+      {
+        "name": "Ichiro Kishimi",
+        "dates": "born 1956",
+        "bio": "Japanese philosopher whose The Courage to Be Disliked brought Adler to millions of new readers."
+      }
+    ],
+    "history": [
+      {
+        "when": "7 February 1870",
+        "what": "Born in Rudolfsheim",
+        "detail": "The second son of a grain merchant. Rickets and a near-death pneumonia at five turn him towards medicine."
+      },
+      {
+        "when": "1895",
+        "what": "Doctor of medicine",
+        "detail": "He graduates from the University of Vienna and works in eye medicine and general practice."
+      },
+      {
+        "when": "1897",
+        "what": "Marries Raissa Epstein",
+        "detail": "A Russian student and socialist. They have four children."
+      },
+      {
+        "when": "1898",
+        "what": "Health Book for the Tailoring Trade",
+        "detail": "His first publication, on how working conditions make tailors ill. Social medicine from the start."
+      },
+      {
+        "when": "1902",
+        "what": "Freud’s Wednesday circle",
+        "detail": "Freud invites him to the weekly meetings that become the Vienna Psychoanalytic Society."
+      },
+      {
+        "when": "1907",
+        "what": "Study of Organ Inferiority",
+        "detail": "His theory that a weak organ can be compensated for, sometimes brilliantly."
+      },
+      {
+        "when": "1911",
+        "what": "The break with Freud",
+        "detail": "He resigns as president of the Society and founds his own circle, soon called the Society for Individual Psychology."
+      },
+      {
+        "when": "1912",
+        "what": "The Neurotic Constitution",
+        "detail": "His book on neurosis as a striving to escape feelings of inferiority, guided by fictional goals."
+      },
+      {
+        "when": "1916 to 1918",
+        "what": "Army doctor",
+        "detail": "He serves in military hospitals. The war convinces him that social feeling is humanity’s central need."
+      },
+      {
+        "when": "1920s",
+        "what": "Child guidance in Red Vienna",
+        "detail": "He sets up counselling centres in Vienna’s schools, open to parents and teachers, and trains a generation of educators."
+      },
+      {
+        "when": "1927",
+        "what": "Understanding Human Nature",
+        "detail": "His Volksheim lectures appear as a book and become a bestseller. He begins lecturing in America."
+      },
+      {
+        "when": "1931",
+        "what": "What Life Should Mean to You",
+        "detail": "His popular book in English, on the meaning of life as contribution."
+      },
+      {
+        "when": "1934",
+        "what": "Clinics closed",
+        "detail": "The Austrofascist government closes the clinics. Adler settles in New York."
+      },
+      {
+        "when": "28 May 1937",
+        "what": "Death in Aberdeen",
+        "detail": "He collapses on Union Street in Aberdeen during a lecture tour and dies of a heart attack."
+      },
+      {
+        "when": "2011",
+        "what": "Return to Vienna",
+        "detail": "His ashes, found in Edinburgh in 2007, are laid in an honorary grave at Vienna’s Central Cemetery."
+      }
+    ],
+    "concepts": [
+      {
+        "term": "Social feeling",
+        "text": "Gemeinschaftsgefühl.",
+        "detail": "A sense of belonging to humanity and a desire to contribute to it. Adler made it the criterion of mental health: problems arise where it is weak."
+      },
+      {
+        "term": "Inferiority and compensation",
+        "text": "The engine of striving.",
+        "detail": "Everyone begins small and dependent. The feeling of inferiority spurs us to grow; an inferiority complex is when it overwhelms us and we give up or hide."
+      },
+      {
+        "term": "Striving for superiority",
+        "text": "From minus to plus.",
+        "detail": "Every life moves from a felt minus towards an imagined plus. The question is whether the goal is personal superiority or usefulness to others."
+      },
+      {
+        "term": "Style of life",
+        "text": "The pattern of a life.",
+        "detail": "Formed in early childhood from a person’s own interpretation of their situation, it gives a consistent shape to everything they do. It can be understood and changed."
+      },
+      {
+        "term": "The life tasks",
+        "text": "Work, friendship and love.",
+        "detail": "Life confronts everyone with three tasks, all social. How a person meets them reveals their style of life."
+      },
+      {
+        "term": "Teleology",
+        "text": "What is it for.",
+        "detail": "Adler explains behaviour by its goal rather than its cause. Emotions serve purposes; we can choose different ones."
+      },
+      {
+        "term": "Encouragement",
+        "text": "The heart of the method.",
+        "detail": "Since discouragement lies behind failure and neurosis, the therapist, parent or teacher’s task is to restore courage, never to shame."
+      },
+      {
+        "term": "Birth order",
+        "text": "Position in the family.",
+        "detail": "Adler observed typical situations for eldest, second, youngest and only children. They create tendencies, not destinies."
+      },
+      {
+        "term": "Early recollections",
+        "text": "Memory as a mirror.",
+        "detail": "We remember what fits our view of life. Asking for a first memory is one of the quickest ways to understand a style of life."
+      }
+    ],
+    "facts": [
+      {
+        "text": "Adler coined the term inferiority complex, which passed into everyday speech in dozens of languages."
+      },
+      {
+        "text": "Many of his early patients were artists and acrobats from the Prater circus, whose strengths often grew from bodily weaknesses."
+      },
+      {
+        "text": "He argued for the equality of women and men decades before it was common, calling the overvaluation of men a social disease."
+      },
+      {
+        "text": "His child guidance clinics in Vienna’s schools in the 1920s counselled families in front of teachers, so that everyone could learn."
+      },
+      {
+        "text": "Abraham Maslow and Viktor Frankl both studied with Adler or in his circle before going their own ways."
+      },
+      {
+        "text": "His ashes were lost for seventy years in a crematorium in Edinburgh before being returned to Vienna in 2011."
+      },
+      {
+        "text": "The Courage to Be Disliked, a dialogue on his ideas, has sold millions of copies since 2013."
+      },
+      {
+        "text": "He held his evening discussions at a café table, and anyone who came could join in."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Individual Psychology",
+        "meaning": "Adler’s school: the person as an indivisible whole moving towards a goal"
+      },
+      {
+        "term": "Social feeling",
+        "meaning": "Gemeinschaftsgefühl, the sense of belonging and wish to contribute"
+      },
+      {
+        "term": "Inferiority complex",
+        "meaning": "An overwhelming sense of inferiority that leads to giving up"
+      },
+      {
+        "term": "Style of life",
+        "meaning": "The unique pattern of a person’s beliefs and movements"
+      },
+      {
+        "term": "Private logic",
+        "meaning": "Personal reasoning that justifies a style of life"
+      },
+      {
+        "term": "Life tasks",
+        "meaning": "Work, friendship and love"
+      }
+    ],
+    "furtherReading": [
+      {
+        "title": "The Drive for Self",
+        "creator": "Edward Hoffman",
+        "year": "1994",
+        "note": "The standard biography of Adler."
+      },
+      {
+        "title": "The Individual Psychology of Alfred Adler",
+        "creator": "Heinz and Rowena Ansbacher",
+        "year": "1956",
+        "note": "His ideas in his own words, systematically arranged."
+      },
+      {
+        "title": "The Courage to Be Disliked",
+        "creator": "Ichiro Kishimi and Fumitake Koga",
+        "year": "2013",
+        "note": "A modern dialogue that puts his ideas to work."
+      },
+      {
+        "title": "Children: The Challenge",
+        "creator": "Rudolf Dreikurs",
+        "year": "1964",
+        "note": "Adler’s thought applied to family life."
+      }
+    ],
+    "learnFrom": [
+      {
+        "name": "The North American Society of Adlerian Psychology",
+        "note": "The main professional society for Adlerian counsellors, teachers and parents."
+      },
+      {
+        "name": "The Alfred Adler Institutes",
+        "note": "Training institutes in several countries offering courses in Adlerian counselling and parenting."
+      },
+      {
+        "name": "The International Association of Individual Psychology",
+        "note": "The worldwide association founded by Adler’s followers, with congresses and a journal."
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Drive for Self: Alfred Adler and the Founding of Individual Psychology",
+        "creator": "Edward Hoffman",
+        "publisher": "Addison-Wesley",
+        "year": "1994"
+      },
+      {
+        "title": "The Individual Psychology of Alfred Adler",
+        "creator": "Heinz L. Ansbacher and Rowena R. Ansbacher, eds.",
+        "publisher": "Basic Books",
+        "year": "1956"
+      },
+      {
+        "title": "What Life Should Mean to You",
+        "creator": "Alfred Adler",
+        "publisher": "Little, Brown",
+        "year": "1931"
+      },
+      {
+        "title": "Understanding Human Nature",
+        "creator": "Alfred Adler",
+        "publisher": "Greenberg",
+        "year": "1927"
+      },
+      {
+        "title": "Alfred Adler: Apostle of Freedom",
+        "creator": "Phyllis Bottome",
+        "publisher": "Faber and Faber",
+        "year": "1939"
+      },
+      {
+        "title": "The Discovery of the Unconscious",
+        "creator": "Henri F. Ellenberger",
+        "publisher": "Basic Books",
+        "year": "1970"
+      }
+    ]
+  },
+  "sensitivity": {
+    "note": "Adler’s ideas are a philosophy of everyday life here, not therapy. This Onda can help with courage, relationships and meaning, but it is no substitute for professional care if you are struggling with your mental health.",
+    "requiredCaveats": [
+      "If you are in crisis or your low mood or anxiety persists, please reach out to a doctor, counsellor or local helpline.",
+      "Birth order and early memories describe tendencies, not destinies, and should not be used to label people.",
+      "Some of Adler’s views on sexuality and some diagnoses reflect his time and are no longer held."
+    ],
+    "reviewRequired": false
+  },
+  "immersePlan": [
+    {
+      "kind": "read",
+      "item": "read-what-life-should-mean-to-you",
+      "name": "Read Adler’s first chapter",
+      "text": "Read the first chapter of What Life Should Mean to You, on the meaning of life. Underline the lines about meanings we give to situations.",
+      "minutes": 40
+    },
+    {
+      "kind": "read",
+      "item": "read-the-courage-to-be-disliked",
+      "name": "Read the first night of the dialogue",
+      "text": "Read the first night of The Courage to Be Disliked, where the young man challenges the philosopher about trauma and goals.",
+      "minutes": 45
+    },
+    {
+      "kind": "read",
+      "item": "read-children-the-challenge",
+      "name": "Read Dreikurs on encouragement",
+      "text": "Read the chapter on encouragement in Children: The Challenge, and try one idea with a child or anyone younger.",
+      "minutes": 30
+    },
+    {
+      "kind": "watch",
+      "item": "watch-ikiru",
+      "name": "Watch Kurosawa’s Ikiru",
+      "text": "Watch Ikiru, about a dying man who finds meaning in building a playground. Ask what it says about contribution.",
+      "minutes": 145
+    },
+    {
+      "kind": "watch",
+      "item": "watch-it-s-a-wonderful-life",
+      "name": "Watch It’s a Wonderful Life",
+      "text": "Watch Capra’s film of a man who learns how much his life has given to others. Count the people George helped.",
+      "minutes": 130
+    },
+    {
+      "kind": "watch",
+      "item": "watch-the-king-s-speech",
+      "name": "Watch The King’s Speech",
+      "text": "Watch The King’s Speech for compensation and encouragement: notice how Lionel treats the king as an equal.",
+      "minutes": 120
+    },
+    {
+      "kind": "listen",
+      "item": "listen-symphony-no-9",
+      "name": "Listen to the Ode to Joy",
+      "text": "Listen to the finale of Beethoven’s Ninth, Schiller’s ode in which all people become brothers. Read the words first.",
+      "minutes": 25
+    },
+    {
+      "kind": "listen",
+      "item": "listen-die-schone-mullerin",
+      "name": "Listen to Schubert songs",
+      "text": "Listen to a few songs from Die schöne Müllerin, the kind of Viennese songs sung at home among friends.",
+      "minutes": 30
+    },
+    {
+      "kind": "listen",
+      "item": "listen-schrammelmusik",
+      "name": "Listen to a Heuriger evening",
+      "text": "Listen to Viennese Schrammel music, violins and accordion, and imagine an evening among the vines with friends.",
+      "minutes": 20
+    },
+    {
+      "kind": "art",
+      "item": "art-beethoven-frieze",
+      "name": "Look at the Beethoven Frieze",
+      "text": "Look closely at Klimt’s Beethoven Frieze: the longing for happiness, the hostile powers and the final embrace of the whole world.",
+      "minutes": 15
+    },
+    {
+      "kind": "art",
+      "item": "art-the-family",
+      "name": "Look at Schiele’s Family",
+      "text": "Spend ten minutes with Schiele’s The Family. What does the closeness of the three figures say about belonging?",
+      "minutes": 10
+    },
+    {
+      "kind": "art",
+      "item": "art-stoclet-frieze",
+      "name": "Trace the Tree of Life",
+      "text": "Follow the spiralling branches of Klimt’s Tree of Life in the Stoclet Frieze and the figures of Expectation and Fulfilment.",
+      "minutes": 10
+    },
+    {
+      "kind": "eat",
+      "item": "eat-wiener-schnitzel",
+      "name": "Cook a Wiener Schnitzel",
+      "text": "Beat a cutlet thin, bread it and fry it golden. Serve with potato salad and lemon, and invite someone to share it.",
+      "minutes": 60
+    },
+    {
+      "kind": "eat",
+      "item": "eat-apfelstrudel",
+      "name": "Make or buy Apfelstrudel",
+      "text": "Make apple strudel with a friend, stretching the dough together, or buy one and share it with coffee.",
+      "minutes": 90
+    },
+    {
+      "kind": "eat",
+      "item": "eat-kaiserschmarrn",
+      "name": "Share a Kaiserschmarrn",
+      "text": "Make Kaiserschmarrn, tear it in the pan and eat it straight from the pan with others and plum compote.",
+      "minutes": 30
+    },
+    {
+      "kind": "drink",
+      "item": "drink-wiener-melange",
+      "name": "Order a Melange slowly",
+      "text": "Order or make a Wiener Melange, served with a glass of water, and sit for as long as you like, as the Viennese do.",
+      "minutes": 30
+    },
+    {
+      "kind": "drink",
+      "item": "drink-einspanner",
+      "name": "Try an Einspänner",
+      "text": "Try an Einspänner, black coffee in a glass under whipped cream, and talk with someone while you drink it.",
+      "minutes": 20
+    },
+    {
+      "kind": "drink",
+      "item": "drink-apfelsaft-gespritzt",
+      "name": "Mix an Apfelsaft gespritzt",
+      "text": "Mix apple juice with sparkling water, the drink of a Viennese summer garden, and drink it outside.",
+      "minutes": 10
+    },
+    {
+      "kind": "customs",
+      "item": "customs-the-coffeehouse-table",
+      "name": "Keep a coffeehouse hour",
+      "text": "Spend an hour at a café table with a newspaper or a friend, unhurried, as Adler did at Café Siller.",
+      "minutes": 60
+    },
+    {
+      "kind": "customs",
+      "item": "customs-the-family-council",
+      "name": "Hold a family council",
+      "text": "Hold a short family or household council where each person, however young, has an equal say.",
+      "minutes": 20
+    },
+    {
+      "kind": "customs",
+      "item": "customs-the-sunday-walk",
+      "name": "Take a Sunday walk",
+      "text": "Take a long walk in the woods or a park on Sunday, ending somewhere you can sit and eat with others.",
+      "minutes": 120
+    },
+    {
+      "kind": "games",
+      "item": "games-tarock",
+      "name": "Learn Tarock",
+      "text": "Learn the basics of Tarock, the Austrian card game where you discover your partner during play.",
+      "minutes": 45
+    },
+    {
+      "kind": "games",
+      "item": "games-coffeehouse-chess",
+      "name": "Play coffeehouse chess",
+      "text": "Play a slow game of chess over a single coffee, talking between moves.",
+      "minutes": 45
+    },
+    {
+      "kind": "games",
+      "item": "games-pandemic",
+      "name": "Play a cooperative game",
+      "text": "Play Pandemic or another cooperative game, where everyone wins or loses together. Notice how you treat the others.",
+      "minutes": 60
+    },
+    {
+      "kind": "travel",
+      "item": "place-vienna-central-cemetery",
+      "name": "Visit the Zentralfriedhof",
+      "text": "Visit, or explore online, Vienna’s Central Cemetery, where Adler’s ashes now lie near Beethoven, Schubert and Brahms.",
+      "minutes": 60
+    },
+    {
+      "kind": "travel",
+      "item": "place-volkshochschule-ottakring",
+      "name": "See where he lectured to workers",
+      "text": "Look up the Volksheim in Ottakring, where Adler lectured to ordinary Viennese. Find a public lecture near you and go.",
+      "minutes": 60
+    },
+    {
+      "kind": "travel",
+      "item": "fest-world-mental-health-day",
+      "name": "Mark World Mental Health Day",
+      "text": "On or near 10 October, have an open conversation about mental health with someone close to you.",
+      "minutes": 30
+    },
+    {
+      "kind": "words",
+      "item": "word-gemeinschaftsgefuhl",
+      "name": "Learn Gemeinschaftsgefühl",
+      "text": "Learn Gemeinschaftsgefühl, social feeling, and note each moment today when you felt part of something larger."
+    },
+    {
+      "kind": "words",
+      "item": "word-ermutigung",
+      "name": "Learn the word Ermutigung",
+      "text": "Learn Ermutigung, encouragement, and practise it three times today in specific words."
+    },
+    {
+      "kind": "words",
+      "item": "word-lebensstil",
+      "name": "Learn the word Lebensstil",
+      "text": "Learn Lebensstil, style of life, and write three sentences: I am, others are, life is."
+    }
+  ]
+}

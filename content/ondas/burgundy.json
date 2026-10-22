@@ -1,0 +1,1631 @@
+{
+  "version": 1,
+  "id": "burgundy",
+  "name": "Burgundy",
+  "origin": "Dijon, Bruges and Brussels",
+  "era": "1363 to 1477, the four Valois dukes",
+  "tone": "yellow",
+  "icon": "castle-turret",
+  "font": "fondamento",
+  "pattern": "saltire",
+  "glyph": "Bourgogne",
+  "line": "Make each day a beautiful ceremony, keep your word, and share your splendour.",
+  "quote": {
+    "text": "Aultre n’auray.",
+    "by": "Philip the Good, Duke of Burgundy",
+    "source": "His motto, I will have no other, chosen at his marriage to Isabella of Portugal in 1430"
+  },
+  "quotes": [
+    {
+      "text": "Je l’ay emprins.",
+      "by": "Charles the Bold, Duke of Burgundy",
+      "source": "His motto, I have undertaken it"
+    },
+    {
+      "text": "Als ich can.",
+      "by": "Jan van Eyck",
+      "source": "His motto, as well as I can, painted on the frames of his pictures"
+    },
+    {
+      "text": "So violent and motley was life, that it bore the mixed smell of blood and of roses.",
+      "by": "Johan Huizinga",
+      "source": "The Autumn of the Middle Ages, 1919, chapter 1; wording varies by translation"
+    },
+    {
+      "text": "Pretium laborum non vile.",
+      "by": "The Order of the Golden Fleece",
+      "source": "The Order’s motto, no mean reward for labours"
+    },
+    {
+      "text": "Johannes de Eyck fuit hic. 1434.",
+      "by": "Jan van Eyck",
+      "source": "Inscription above the mirror in The Arnolfini Portrait: Jan van Eyck was here"
+    },
+    {
+      "text": "A very bad and disloyal plant.",
+      "by": "Philip the Bold, Duke of Burgundy",
+      "source": "His ordinance of 31 July 1395 against the Gamay grape"
+    }
+  ],
+  "words": [
+    {
+      "id": "word-duc",
+      "term": "Duc",
+      "meaning": "Duke",
+      "pronunciation": "dük",
+      "language": "French",
+      "usage": "The ruler of Burgundy, a vassal of the French king in name and, by 1450, one of the richest princes in Europe."
+    },
+    {
+      "id": "word-grand-duc-d-occident",
+      "term": "Grand Duc d'Occident",
+      "meaning": "Great Duke of the West",
+      "pronunciation": "grahn dük dok-see-DAHN",
+      "language": "French",
+      "usage": "The proud title the dukes enjoyed, rulers of lands from Burgundy to Holland."
+    },
+    {
+      "id": "word-toison-d-or",
+      "term": "Toison d'or",
+      "meaning": "Golden Fleece",
+      "pronunciation": "twah-ZOHN dor",
+      "language": "French",
+      "usage": "The order of knighthood Philip the Good founded in Bruges in 1430, its badge a ram hung from a collar."
+    },
+    {
+      "id": "word-briquet",
+      "term": "Briquet",
+      "meaning": "Firesteel",
+      "pronunciation": "bree-KAY",
+      "language": "French",
+      "usage": "The B-shaped steel for striking sparks from flint, the dukes’ badge, linked into the collar of the Fleece."
+    },
+    {
+      "id": "word-sautoir",
+      "term": "Sautoir",
+      "meaning": "Saltire",
+      "pronunciation": "soh-TWAHR",
+      "language": "French",
+      "usage": "The diagonal cross of Saint Andrew, patron of Burgundy, carried as the ragged red Cross of Burgundy."
+    },
+    {
+      "id": "word-devise",
+      "term": "Devise",
+      "meaning": "Motto and badge",
+      "pronunciation": "deh-VEEZ",
+      "language": "French",
+      "usage": "A prince’s personal sign and phrase, embroidered, carved and painted everywhere he went."
+    },
+    {
+      "id": "word-entremets",
+      "term": "Entremets",
+      "meaning": "Between-courses spectacle",
+      "pronunciation": "ahn-truh-MAY",
+      "language": "French",
+      "usage": "Tableaux, automata and performers presented between the courses of a banquet."
+    },
+    {
+      "id": "word-pas-d-armes",
+      "term": "Pas d'armes",
+      "meaning": "Passage of arms",
+      "pronunciation": "pah DARM",
+      "language": "French",
+      "usage": "A staged chivalric contest in which a knight held a place against all comers, with a story and costumes."
+    },
+    {
+      "id": "word-joyeuse-entree",
+      "term": "Joyeuse entrée",
+      "meaning": "Joyous Entry",
+      "pronunciation": "zhwah-YUHZ ahn-TRAY",
+      "language": "French",
+      "usage": "A ruler’s ceremonial first entry into a city, with pageants, and with an oath to respect its rights."
+    },
+    {
+      "id": "word-blijde-inkomst",
+      "term": "Blijde Inkomst",
+      "meaning": "Joyous Entry",
+      "pronunciation": "BLAY-duh IN-komst",
+      "language": "Dutch",
+      "usage": "The same entry in Flemish and Brabantine cities, where it was a contract as much as a feast."
+    },
+    {
+      "id": "word-bourgondisch",
+      "term": "Bourgondisch",
+      "meaning": "Burgundian, living richly",
+      "pronunciation": "boor-GON-dees",
+      "language": "Dutch",
+      "usage": "In Dutch today, to live Burgundian is to enjoy good food, drink and company generously."
+    },
+    {
+      "id": "word-pays-de-par-deca",
+      "term": "Pays de par-deçà",
+      "meaning": "The lands over here",
+      "pronunciation": "pay-EE duh par duh-SAH",
+      "language": "Middle French",
+      "usage": "The dukes’ name for their northern lands, the Low Countries, as against Burgundy over there."
+    },
+    {
+      "id": "word-livre-d-heures",
+      "term": "Livre d'heures",
+      "meaning": "Book of hours",
+      "pronunciation": "LEE-vruh DUHR",
+      "language": "French",
+      "usage": "A personal prayer book for the hours of the day, often richly illuminated."
+    },
+    {
+      "id": "word-batarde",
+      "term": "Bâtarde",
+      "meaning": "Bastard script",
+      "pronunciation": "bah-TARD",
+      "language": "French",
+      "usage": "The elegant slanting hand of Burgundian manuscripts, between formal Gothic and cursive."
+    },
+    {
+      "id": "word-houppelande",
+      "term": "Houppelande",
+      "meaning": "Long gown",
+      "pronunciation": "oop-LAHND",
+      "language": "Middle French",
+      "usage": "A voluminous robe with flaring sleeves, the court fashion of the age."
+    },
+    {
+      "id": "word-hennin",
+      "term": "Hennin",
+      "meaning": "Steeple headdress",
+      "pronunciation": "eh-NAN",
+      "language": "French",
+      "usage": "The tall cone worn by court ladies, with a trailing veil."
+    },
+    {
+      "id": "word-chaperon",
+      "term": "Chaperon",
+      "meaning": "Hood worn as a hat",
+      "pronunciation": "shap-ROHN",
+      "language": "French",
+      "usage": "The rolled and draped hood men wore wound around the head. Van Eyck painted himself in a red one."
+    },
+    {
+      "id": "word-pleurants",
+      "term": "Pleurants",
+      "meaning": "Mourners",
+      "pronunciation": "pluh-RAHN",
+      "language": "French",
+      "usage": "Small carved hooded figures processing around the dukes’ tombs, each one different in its grief."
+    },
+    {
+      "id": "word-chartreuse",
+      "term": "Chartreuse",
+      "meaning": "Carthusian monastery",
+      "pronunciation": "shar-TRUHZ",
+      "language": "French",
+      "usage": "The Chartreuse de Champmol at Dijon, the dukes’ burial place and a workshop of great sculpture."
+    },
+    {
+      "id": "word-hotel-dieu",
+      "term": "Hôtel-Dieu",
+      "meaning": "God’s house, a hospital",
+      "pronunciation": "oh-TEL DYUH",
+      "language": "French",
+      "usage": "The hospital for the poor, like the one at Beaune founded by Chancellor Rolin in 1443."
+    },
+    {
+      "id": "word-chancelier",
+      "term": "Chancelier",
+      "meaning": "Chancellor",
+      "pronunciation": "shahn-suh-LYAY",
+      "language": "French",
+      "usage": "The duke’s chief minister. Nicolas Rolin held the office for forty years."
+    },
+    {
+      "id": "word-ordonnance",
+      "term": "Ordonnance",
+      "meaning": "Ordinance",
+      "pronunciation": "or-doh-NAHNS",
+      "language": "French",
+      "usage": "A ducal decree, of court ceremony, of wine growing, or of Charles the Bold’s standing companies of soldiers."
+    },
+    {
+      "id": "word-v-u",
+      "term": "Vœu",
+      "meaning": "Vow",
+      "pronunciation": "vuh",
+      "language": "French",
+      "usage": "A solemn promise. At the Feast of the Pheasant in 1454 the knights vowed on a live bird to go on crusade."
+    },
+    {
+      "id": "word-pinot-noir",
+      "term": "Pinot noir",
+      "meaning": "Black pine-cone grape",
+      "pronunciation": "pee-noh NWAHR",
+      "language": "French",
+      "usage": "The grape of Burgundy, its tight bunches like pine cones. Philip the Bold favoured it by decree in 1395."
+    },
+    {
+      "id": "word-gamay",
+      "term": "Gamay",
+      "meaning": "A red grape",
+      "pronunciation": "ga-MAY",
+      "language": "French",
+      "usage": "The prolific grape Philip the Bold banned from his duchy as very bad and disloyal."
+    },
+    {
+      "id": "word-climat",
+      "term": "Climat",
+      "meaning": "A named vineyard plot",
+      "pronunciation": "klee-MAH",
+      "language": "French",
+      "usage": "A Burgundian vineyard parcel with its own soil and name, now listed by UNESCO."
+    },
+    {
+      "id": "word-rederijkers",
+      "term": "Rederijkers",
+      "meaning": "Rhetoricians",
+      "pronunciation": "RAY-duh-ray-kers",
+      "language": "Dutch",
+      "usage": "The chambers of rhetoric of the Flemish cities, guilds of amateur poets and players."
+    },
+    {
+      "id": "word-l-homme-arme",
+      "term": "L'homme armé",
+      "meaning": "The armed man",
+      "pronunciation": "lom ar-MAY",
+      "language": "French",
+      "usage": "A song tune used as the basis of dozens of masses by Burgundian and Flemish composers."
+    },
+    {
+      "id": "word-chanson",
+      "term": "Chanson",
+      "meaning": "Song",
+      "pronunciation": "shahn-SOHN",
+      "language": "French",
+      "usage": "The courtly three-voice song of Binchois, Du Fay and Hayne van Ghizeghem."
+    },
+    {
+      "id": "word-valet-de-chambre",
+      "term": "Valet de chambre",
+      "meaning": "Chamber servant",
+      "pronunciation": "va-LAY duh SHAHM-bruh",
+      "language": "French",
+      "usage": "A court title held by artists such as Jan van Eyck, which gave them a salary and a place at court."
+    },
+    {
+      "id": "word-magnificence",
+      "term": "Magnificence",
+      "meaning": "Magnificence",
+      "pronunciation": "man-yee-fee-SAHNS",
+      "language": "French",
+      "usage": "The princely virtue of spending greatly and beautifully, which the dukes made into policy."
+    }
+  ],
+  "practices": [
+    {
+      "id": "dress-as-the-duke",
+      "name": "Dress as the duke",
+      "icon": "dress",
+      "slot": "Morning",
+      "time": "07:00",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Choose today’s clothes with intention, as the dukes did. Start from something dark and plain, black if you have it, and add one deliberate detail: a ring, a scarf, a good belt, a colour you love. Before you leave, look in the mirror and ask what your clothes say about the day you mean to have.",
+      "why": "After his father’s murder Philip the Good wore black for life and turned black velvet into the height of elegance. At the Burgundian court clothing was a language, chosen with care.",
+      "variations": [
+        "Wear one thing you keep for special days.",
+        "Polish your shoes.",
+        "Let the detail be gold or yellow, the colour of the Fleece."
+      ]
+    },
+    {
+      "id": "a-page-of-hours",
+      "name": "A page of hours",
+      "icon": "book-bookmark",
+      "slot": "Morning",
+      "time": "06:45",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Open your morning like a book of hours. Look at one illuminated page, a painting or a beautiful image, for two minutes. Then read a short prayer, psalm or poem slowly. Close with one line of intention for the day. Keep it the same each morning of the Onda, so it becomes your hour.",
+      "why": "Every Burgundian lady and lord had a book of hours, a personal prayer book with a text for each hour of the day, often painted with tiny scenes of the year.",
+      "variations": [
+        "Use a page from the Très Riches Heures.",
+        "Read the poem aloud.",
+        "Return to the same page at noon."
+      ]
+    },
+    {
+      "id": "choose-your-motto",
+      "name": "Choose your motto",
+      "icon": "flag-banner",
+      "slot": "Morning",
+      "time": "07:20",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Write a motto for today in three or four words, as the dukes did: Aultre n’auray, I will have no other; Je l’ay emprins, I have undertaken it. Make yours about what you will hold to today. Write it on a card, put it in your pocket or set it as your lock screen, and read it at noon.",
+      "why": "Every prince and knight chose a device, a motto and badge worn everywhere. A few words carried a whole intention through the day.",
+      "variations": [
+        "Use Charles the Bold’s motto for a hard task.",
+        "Draw a small badge to go with it.",
+        "Keep one motto for the whole Onda."
+      ]
+    },
+    {
+      "id": "as-well-as-i-can",
+      "name": "As well as I can",
+      "icon": "paint-brush",
+      "slot": "Morning",
+      "time": "08:00",
+      "minutes": 20,
+      "meta": "Morning · 20 min",
+      "instructions": "Pick one ordinary task this morning: a letter, a dish, a drawer, a page of work. Do it as Van Eyck painted, as well as you can. Slow down, attend to every detail, check the corners, and finish it properly. When it is done, sign it in some small way, if only in your mind.",
+      "why": "Van Eyck painted Als ich can, as well as I can, on his frames. A play on his own name, it is also a humble and exacting creed of craft.",
+      "variations": [
+        "Do it with a task you usually rush.",
+        "Make your bed as if for a guest.",
+        "Write one letter by hand, beautifully."
+      ]
+    },
+    {
+      "id": "the-morning-ordinance",
+      "name": "The morning ordinance",
+      "icon": "scroll",
+      "slot": "Morning",
+      "time": "06:30",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Write the order of your day as a court ordinance: the hours, who you will meet and how you will greet them, where you will eat, when you will rest. Give each part its place and dignity. Keep it short and follow it as faithfully as you can.",
+      "why": "Olivier de la Marche wrote down the whole order of the ducal household, from the bread to the candles. Ceremony gave every hour its meaning.",
+      "variations": [
+        "Give the meals a fixed hour.",
+        "Include one hour for beauty.",
+        "Read it aloud to someone at breakfast."
+      ]
+    },
+    {
+      "id": "light-the-hall",
+      "name": "Light the hall",
+      "icon": "lamp",
+      "slot": "Morning",
+      "time": "07:10",
+      "minutes": 3,
+      "meta": "Morning · 3 min",
+      "instructions": "Light a candle at the breakfast table, even in daylight. Set the table properly, with a cloth or a napkin, a real cup and plate. Eat sitting down, slowly. Before you rise, put out the candle and say what you are grateful for.",
+      "why": "The Burgundian court made even daily meals a ceremony. A small table set with care turns eating into an occasion.",
+      "variations": [
+        "Use your best cup.",
+        "Add a flower.",
+        "Invite someone to breakfast with you."
+      ]
+    },
+    {
+      "id": "give-from-your-abundance",
+      "name": "Give from your abundance",
+      "icon": "hand-coins",
+      "slot": "Afternoon",
+      "time": "13:00",
+      "minutes": 15,
+      "meta": "Afternoon · 15 min",
+      "instructions": "Think of something you enjoy in abundance: food, time, skill, money, books. Give a real share of it today to someone in need, or to a hospital, shelter or charity that cares for the sick or poor. Do it handsomely, not grudgingly, and without fuss.",
+      "why": "Chancellor Rolin and his wife built the Hospices de Beaune, a palace for the sick poor, with their fortune. Burgundian splendour owed something to the needy.",
+      "variations": [
+        "Give to a hospital or hospice.",
+        "Give your time to someone who is ill.",
+        "Give anonymously."
+      ]
+    },
+    {
+      "id": "look-as-van-eyck-looked",
+      "name": "Look as Van Eyck looked",
+      "icon": "magnifying-glass",
+      "slot": "Afternoon",
+      "time": "14:00",
+      "minutes": 15,
+      "meta": "Afternoon · 15 min",
+      "instructions": "Open a high-resolution image of a Van Eyck painting, the Arnolfini Portrait or the Ghent Altarpiece. Zoom in on one small area and look at it for fifteen minutes: a reflection, a fur, a bead, a hand. Notice what you did not see at first. Then look at something real around you the same way.",
+      "why": "Van Eyck painted reflections in armour and beads so small they need a magnifying glass. To look with such care is a kind of reverence.",
+      "variations": [
+        "Look at the mirror in the Arnolfini Portrait.",
+        "Draw what you see.",
+        "Look at a real object for ten minutes."
+      ]
+    },
+    {
+      "id": "keep-a-vow",
+      "name": "Keep a vow",
+      "icon": "seal-check",
+      "slot": "Afternoon",
+      "time": "15:00",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Find one promise you have made and not yet kept, however small: a call, a visit, a repayment, a favour. Keep it today, in full. If you cannot, tell the person honestly and set a new date you will keep.",
+      "why": "A Burgundian vow, like those at the Feast of the Pheasant, was made before witnesses and binding on honour. Fidelity was the core of the Golden Fleece.",
+      "variations": [
+        "Make no new promise today.",
+        "Keep a promise to yourself.",
+        "Write down every promise you make this week."
+      ]
+    },
+    {
+      "id": "a-small-entremets",
+      "name": "A small entremets",
+      "icon": "gift",
+      "slot": "Afternoon",
+      "time": "16:00",
+      "minutes": 15,
+      "meta": "Afternoon · 15 min",
+      "instructions": "Prepare a small surprise for someone, a spectacle between the courses of their day: an unexpected treat, a note hidden in a lunch box, a flower on a desk, a song played for them. Make it delightful and a little theatrical.",
+      "why": "Between courses the dukes presented entremets: pies with musicians inside, mechanical birds, staged scenes. The point was delight and wonder.",
+      "variations": [
+        "Surprise a colleague.",
+        "Surprise a child.",
+        "Make it at dinner tonight."
+      ]
+    },
+    {
+      "id": "a-joyous-entry",
+      "name": "A Joyous Entry",
+      "icon": "door-open",
+      "slot": "Afternoon",
+      "time": "17:30",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "When you come home or arrive somewhere today, make your entry a small ceremony. Pause at the door, greet the place and the people, notice what is beautiful. If someone arrives at your home, welcome them properly at the door.",
+      "why": "A duke’s Joyous Entry into a city was a festival and a contract, with pageants and an oath to keep the city’s rights. Arrivals deserve ceremony.",
+      "variations": [
+        "Greet each person by name.",
+        "Put fresh flowers by the door.",
+        "Welcome a guest with a drink."
+      ]
+    },
+    {
+      "id": "court-music-while-you-work",
+      "name": "Court music while you work",
+      "icon": "music-notes",
+      "slot": "Afternoon",
+      "time": "14:30",
+      "minutes": 30,
+      "meta": "Afternoon · 30 min",
+      "instructions": "Work for half an hour to the chansons of the Burgundian court: Binchois, Du Fay, Hayne van Ghizeghem. Keep the volume low. Notice how the three voices weave around each other and how it changes the pace of your work.",
+      "why": "The dukes kept the finest chapel of singers in Europe and composers who wrote tender courtly songs. Music accompanied every part of court life.",
+      "variations": [
+        "Listen to De tous biens plaine on repeat.",
+        "Read the words of a chanson.",
+        "Hum one line all afternoon."
+      ]
+    },
+    {
+      "id": "the-chronicle-of-the-day",
+      "name": "The chronicle of the day",
+      "icon": "notebook",
+      "slot": "Evening",
+      "time": "21:00",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Write today as a court chronicler would: the events in order, the people you met and how they bore themselves, one notable thing said, one thing done with honour and one without. Write with some ceremony, and finish with a line of judgement on the day.",
+      "why": "Chroniclers like Georges Chastellain and Olivier de la Marche recorded the deeds of the court for posterity. Writing the day gives it shape and memory.",
+      "variations": [
+        "Use one of the Onda’s journal prompts.",
+        "Write it in the third person.",
+        "Record one beautiful detail."
+      ],
+      "action": "journal"
+    },
+    {
+      "id": "a-burgundian-table",
+      "name": "A Burgundian table",
+      "icon": "fork-knife",
+      "slot": "Evening",
+      "time": "19:30",
+      "minutes": 60,
+      "meta": "Evening · 60 min",
+      "instructions": "Make dinner an occasion. Set the table with a cloth, candles and your best plates. Serve courses, even simple ones, one after another. Eat slowly with someone you love and talk. If you drink wine, a glass of Pinot noir; otherwise good grape juice.",
+      "why": "In Dutch, to live Burgundian still means to enjoy food and company lavishly. The dukes made feasting an art.",
+      "variations": [
+        "Make gougères as a first course.",
+        "Invite a friend.",
+        "Dress for dinner."
+      ]
+    },
+    {
+      "id": "the-mourners",
+      "name": "The mourners",
+      "icon": "hourglass",
+      "slot": "Evening",
+      "time": "22:00",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Look at the hooded mourners of the tombs of the dukes in Dijon, or think of them. Each grieves differently. Then ask yourself gently what you would like your life to have been about, and what one thing you would do tomorrow if you remembered it is short.",
+      "why": "The pleurants process forever around the dukes’ tombs. Burgundy loved splendour and never forgot death: memento mori.",
+      "variations": [
+        "Visit a grave or memorial.",
+        "Write a short epitaph for yourself.",
+        "Call someone you might not see again for a long time."
+      ]
+    },
+    {
+      "id": "i-will-have-no-other",
+      "name": "I will have no other",
+      "icon": "heart",
+      "slot": "Evening",
+      "time": "21:30",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Think of the people and things you are faithful to: a partner, friends, a craft, a place, a belief. Choose one and do something tonight that shows it, a message, a gesture, an hour given. Say the motto Aultre n’auray to yourself.",
+      "why": "Philip the Good took the motto Aultre n’auray at his wedding to Isabella of Portugal. Fidelity was the virtue the Golden Fleece was founded on.",
+      "variations": [
+        "Write a letter of loyalty.",
+        "Renew a promise.",
+        "Give an hour to a craft you love."
+      ]
+    },
+    {
+      "id": "before-nancy",
+      "name": "Before Nancy",
+      "icon": "warning-circle",
+      "slot": "Evening",
+      "time": "20:30",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Charles the Bold wanted a kingdom and lost everything in a year. Think of one ambition of yours that may be running ahead of wisdom. Write what it would cost if it went wrong, and what a measured version of it would look like.",
+      "why": "Charles died at Nancy in 1477 after two defeats by the Swiss, and his state broke apart. His story is the classic warning against pride.",
+      "variations": [
+        "Read the Onda’s Philosophy idea on pride.",
+        "Ask a friend for honest counsel.",
+        "Postpone one rash decision."
+      ],
+      "action": "philosophy"
+    },
+    {
+      "id": "a-taste-of-terroir",
+      "name": "A taste of terroir",
+      "icon": "wine",
+      "slot": "Evening",
+      "time": "20:00",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Taste one thing from a particular place slowly: a Burgundy wine, a grape juice, a cheese or honey from a named farm. Look at its colour, smell it, taste it twice. Ask what the place gave it. Read where it comes from.",
+      "why": "Burgundian monks and dukes shaped the idea that a wine expresses its plot of earth, the climat. Taste becomes a way to know a place.",
+      "variations": [
+        "Compare two from different places.",
+        "Taste Époisses or another Burgundian cheese.",
+        "Taste blackcurrant from Dijon."
+      ]
+    },
+    {
+      "id": "a-feast-with-entremets",
+      "name": "A feast with entremets",
+      "icon": "cake",
+      "slot": "Special",
+      "time": "19:00",
+      "minutes": 120,
+      "meta": "One evening in the Onda · 120 min",
+      "instructions": "Give a feast for friends in the Burgundian manner: candles, a cloth, several courses, music of the court, and between courses a small entremets, a surprise, a song, a short reading or a dish carried in with ceremony. Let everyone make a vow, light or serious, before dessert.",
+      "why": "At the Feast of the Pheasant in Lille in 1454 Philip the Good’s guests saw marvels between courses and made solemn vows. A feast was a work of art.",
+      "variations": [
+        "Ask each guest to bring a motto.",
+        "Serve hypocras made with juice.",
+        "End with pain d’épices."
+      ]
+    },
+    {
+      "id": "a-day-with-the-flemish-masters",
+      "name": "A day with the Flemish masters",
+      "icon": "image",
+      "slot": "Special",
+      "time": "11:00",
+      "minutes": 120,
+      "meta": "On a free day · 120 min",
+      "instructions": "Spend a few hours in a museum with Flemish paintings of the 15th century, or online with the Ghent Altarpiece in high resolution. Choose three paintings and look at each for twenty minutes. Write down what you notice that you would have missed.",
+      "why": "The dukes’ lands produced the painters who first mastered oil: Van Eyck, Rogier van der Weyden, Hans Memling. Their works reward the slowest looking.",
+      "variations": [
+        "Go with someone and compare notes.",
+        "Sketch a detail.",
+        "Find a Memling in Bruges if you can travel."
+      ]
+    }
+  ],
+  "tasks": [],
+  "rules": [
+    {
+      "id": "r1",
+      "text": "Dress with intention",
+      "why": "The dukes dressed to say who they were. Choose what you wear today on purpose, down to one detail."
+    },
+    {
+      "id": "r2",
+      "text": "Keep your vows",
+      "why": "A Burgundian vow was public and binding. Promise less, and keep everything you promise."
+    },
+    {
+      "id": "r3",
+      "text": "Do it as well as you can",
+      "why": "Van Eyck signed his panels Als ich can. Give one piece of work today your full craft, down to the smallest detail."
+    },
+    {
+      "id": "r4",
+      "text": "Share your splendour",
+      "why": "Rolin built a palace for the sick poor at Beaune. Whatever you enjoy, let some of it reach others."
+    },
+    {
+      "id": "r5",
+      "text": "Mark the hours",
+      "why": "A book of hours gave every part of the day its prayer. Pause at morning, noon and evening."
+    },
+    {
+      "id": "r6",
+      "text": "Beware pride",
+      "why": "Charles the Bold lost everything at Grandson, Morat and Nancy. Ceremony is for honour, not for vanity."
+    }
+  ],
+  "immerse": {
+    "read": [
+      {
+        "id": "read-the-autumn-of-the-middle-ages",
+        "title": "The Autumn of the Middle Ages",
+        "creator": "Johan Huizinga, trans. Rodney J. Payton and Ulrich Mammitzsch",
+        "year": "1919",
+        "why": "The classic portrait of Burgundian life: its passions, ceremonies, piety and pessimism. One of the great history books."
+      },
+      {
+        "id": "read-the-burgundians-a-vanished-empire",
+        "title": "The Burgundians: A Vanished Empire",
+        "creator": "Bart Van Loo",
+        "year": "2019",
+        "why": "A lively modern narrative of the four dukes and Mary of Burgundy, a bestseller in Dutch."
+      },
+      {
+        "id": "read-philip-the-good",
+        "title": "Philip the Good",
+        "creator": "Richard Vaughan",
+        "year": "1970",
+        "why": "The standard life of the greatest duke, part of Vaughan’s four-volume history."
+      },
+      {
+        "id": "read-memoirs",
+        "title": "Memoirs",
+        "creator": "Philippe de Commynes",
+        "year": "1490s",
+        "why": "A diplomat who served Charles the Bold and then deserted to Louis XI writes on power with cool realism."
+      },
+      {
+        "id": "read-the-book-of-the-city-of-ladies",
+        "title": "The Book of the City of Ladies",
+        "creator": "Christine de Pizan",
+        "year": "1405",
+        "why": "Written in Paris by the author whom Philip the Bold had commissioned to write a life of Charles V."
+      }
+    ],
+    "watch": [
+      {
+        "id": "watch-the-passion-of-joan-of-arc",
+        "title": "The Passion of Joan of Arc",
+        "creator": "Carl Theodor Dreyer",
+        "year": "1928",
+        "why": "Joan was captured by Burgundian troops in 1430 and sold to the English. Dreyer’s film of her trial is all faces."
+      },
+      {
+        "id": "watch-henry-v",
+        "title": "Henry V",
+        "creator": "Kenneth Branagh",
+        "year": "1989",
+        "why": "The film ends with the Treaty of Troyes and the Duke of Burgundy’s great speech on war-torn France."
+      },
+      {
+        "id": "watch-the-seventh-seal",
+        "title": "The Seventh Seal",
+        "creator": "Ingmar Bergman",
+        "year": "1957",
+        "why": "A knight plays chess with Death. The mood of Huizinga’s autumn of the Middle Ages."
+      }
+    ],
+    "listen": [
+      {
+        "id": "listen-de-tous-biens-plaine",
+        "title": "De tous biens plaine",
+        "creator": "Hayne van Ghizeghem",
+        "year": "c. 1470",
+        "why": "The most famous chanson of the age, by a singer at the court of Charles the Bold."
+      },
+      {
+        "id": "listen-missa-l-homme-arme",
+        "title": "Missa L’homme armé",
+        "creator": "Guillaume Du Fay",
+        "year": "c. 1460",
+        "why": "A mass built on the armed man tune, the song of the crusading knights of the Fleece."
+      },
+      {
+        "id": "listen-chansons",
+        "title": "Chansons",
+        "creator": "Gilles Binchois",
+        "year": "c. 1420 to 1460",
+        "why": "Tender courtly songs by the court composer of Philip the Good."
+      },
+      {
+        "id": "listen-lamentatio-sanctae-matris-ecclesiae-constantinopolitanae",
+        "title": "Lamentatio Sanctae Matris Ecclesiae Constantinopolitanae",
+        "creator": "Guillaume Du Fay",
+        "year": "1454",
+        "why": "His lament for fallen Constantinople, associated with the Feast of the Pheasant."
+      }
+    ],
+    "art": [
+      {
+        "id": "art-ghent-altarpiece",
+        "title": "Ghent Altarpiece",
+        "creator": "Hubert and Jan van Eyck",
+        "year": "1432",
+        "why": "The Adoration of the Mystic Lamb in Saint Bavo’s, Ghent. The great beginning of Flemish oil painting."
+      },
+      {
+        "id": "art-the-arnolfini-portrait",
+        "title": "The Arnolfini Portrait",
+        "creator": "Jan van Eyck",
+        "year": "1434",
+        "why": "A merchant couple in their Bruges room, with a mirror that reflects the painter and the words Johannes de Eyck fuit hic."
+      },
+      {
+        "id": "art-the-madonna-of-chancellor-rolin",
+        "title": "The Madonna of Chancellor Rolin",
+        "creator": "Jan van Eyck",
+        "year": "c. 1435",
+        "why": "The duke’s chancellor kneels before the Virgin, a whole Burgundian city glittering behind them."
+      },
+      {
+        "id": "art-the-beaune-altarpiece",
+        "title": "The Beaune Altarpiece",
+        "creator": "Rogier van der Weyden",
+        "year": "c. 1445",
+        "why": "The Last Judgement Rolin commissioned for his hospital at Beaune, where the sick could see it from their beds."
+      },
+      {
+        "id": "art-the-well-of-moses",
+        "title": "The Well of Moses",
+        "creator": "Claus Sluter",
+        "year": "1405",
+        "why": "Six life-size prophets carved for the Chartreuse de Champmol, so real they seem about to speak."
+      }
+    ],
+    "eat": [
+      {
+        "id": "eat-pain-d-epices",
+        "title": "Pain d’épices",
+        "creator": "Dijon spiced honey bread",
+        "why": "Gingerbread of rye and honey, a Dijon speciality that legend links to the dukes’ court."
+      },
+      {
+        "id": "eat-gougeres",
+        "title": "Gougères",
+        "creator": "Cheese choux puffs",
+        "why": "Little puffs of choux pastry and cheese served with wine across Burgundy."
+      },
+      {
+        "id": "eat-dijon-mustard",
+        "title": "Dijon mustard",
+        "creator": "Mustard of Dijon",
+        "why": "Dijon’s mustard makers were regulated as early as the 14th century. Spread it on a slice of ham or a good sausage."
+      },
+      {
+        "id": "eat-blanc-manger",
+        "title": "Blanc-manger",
+        "creator": "White dish",
+        "why": "A court dish of the Middle Ages, of chicken or almonds, rice and sugar, white for purity."
+      }
+    ],
+    "drink": [
+      {
+        "id": "drink-pinot-noir",
+        "title": "Pinot noir",
+        "creator": "Red wine of Burgundy",
+        "why": "The grape the dukes favoured. A glass with dinner, slowly, if you drink, or a grape juice from the same grape."
+      },
+      {
+        "id": "drink-hypocras",
+        "title": "Hypocras",
+        "creator": "Spiced sweetened wine",
+        "why": "The court’s after-dinner drink, wine with cinnamon, ginger and sugar. It can be made with grape juice instead."
+      },
+      {
+        "id": "drink-cassis",
+        "title": "Cassis",
+        "creator": "Blackcurrant syrup",
+        "why": "Dijon’s blackcurrant, here as a syrup with cold water, the soft version of the Kir."
+      }
+    ],
+    "customs": [
+      {
+        "id": "customs-the-joyous-entry",
+        "title": "The Joyous Entry",
+        "creator": "Ceremony of arrival",
+        "why": "A ruler entered a city through streets hung with tapestries and staged pageants, and swore to keep its liberties."
+      },
+      {
+        "id": "customs-ducal-black",
+        "title": "Ducal black",
+        "creator": "Court dress",
+        "why": "After his father’s murder in 1419 Philip the Good wore black, and made black velvet the height of elegance."
+      },
+      {
+        "id": "customs-mottoes-and-devices",
+        "title": "Mottoes and devices",
+        "creator": "Personal emblems",
+        "why": "Every prince and knight chose a motto and a badge, worn on clothes, horses, books and buildings."
+      },
+      {
+        "id": "customs-entremets",
+        "title": "Entremets",
+        "creator": "Banquet spectacles",
+        "why": "At the Feast of the Pheasant a pie held twenty-eight musicians and a giant led in an elephant. Spectacle between courses."
+      }
+    ],
+    "games": [
+      {
+        "id": "games-jeu-de-paume",
+        "title": "Jeu de paume",
+        "creator": "Real tennis",
+        "year": "medieval",
+        "why": "Played with the palm and later a racket in walled courts. The ancestor of tennis, loved by princes."
+      },
+      {
+        "id": "games-chess",
+        "title": "Chess",
+        "creator": "Board game",
+        "year": "medieval",
+        "why": "The noble game, played with ivory pieces at court."
+      },
+      {
+        "id": "games-popinjay-shooting",
+        "title": "Popinjay shooting",
+        "creator": "Crossbow contest",
+        "year": "medieval",
+        "why": "The crossbow guilds of Flemish cities shot at a wooden bird on a pole. The winner was king for a year."
+      }
+    ],
+    "festivals": [
+      {
+        "id": "fest-ommegang",
+        "title": "Ommegang",
+        "creator": "Brussels, early July",
+        "why": "A great historical procession on the Grand Place recreating the entry of Charles V, heir of the dukes."
+      },
+      {
+        "id": "fest-procession-of-the-holy-blood",
+        "title": "Procession of the Holy Blood",
+        "creator": "Bruges, Ascension Day",
+        "why": "A procession through Bruges with the relic of the Holy Blood, held since the Middle Ages."
+      },
+      {
+        "id": "fest-hospices-de-beaune-wine-auction",
+        "title": "Hospices de Beaune wine auction",
+        "creator": "Beaune, the third Sunday of November",
+        "why": "The charity auction of the hospital’s wines, held every year since 1859."
+      }
+    ],
+    "places": [
+      {
+        "id": "place-palace-of-the-dukes-of-burgundy",
+        "title": "Palace of the Dukes of Burgundy",
+        "creator": "Dijon",
+        "why": "Now the Musée des Beaux-Arts, with the tombs of Philip the Bold and John the Fearless and their mourners."
+      },
+      {
+        "id": "place-hospices-de-beaune",
+        "title": "Hospices de Beaune",
+        "creator": "Beaune",
+        "why": "Rolin’s hospital, with its glazed patterned roof and the great hall of beds facing the altar."
+      },
+      {
+        "id": "place-chartreuse-de-champmol",
+        "title": "Chartreuse de Champmol",
+        "creator": "Dijon",
+        "why": "The ducal monastery, of which the Well of Moses and the portal survive."
+      },
+      {
+        "id": "place-bruges",
+        "title": "Bruges",
+        "creator": "West Flanders, Belgium",
+        "why": "The great trading city of the dukes, where the Fleece was founded and Charles married Margaret of York."
+      },
+      {
+        "id": "place-saint-bavo-s-cathedral",
+        "title": "Saint Bavo’s Cathedral",
+        "creator": "Ghent",
+        "why": "Home of the Ghent Altarpiece, still where it was installed in 1432."
+      },
+      {
+        "id": "place-bern-historical-museum",
+        "title": "Bern Historical Museum",
+        "creator": "Bern, Switzerland",
+        "why": "The Burgundian booty: tapestries and treasure the Swiss captured from Charles the Bold in 1476."
+      }
+    ]
+  },
+  "ethics": [
+    {
+      "title": "Magnificence",
+      "text": "Spending greatly and beautifully was a princely virtue, a way of honouring guests and God. Its test is whether it raises others or only yourself.",
+      "practice": "Make something beautiful today and share it."
+    },
+    {
+      "title": "Fidelity",
+      "text": "Aultre n’auray: I will have no other. The Fleece knights swore loyalty to the duke and to each other.",
+      "practice": "Keep a promise today that you could easily have let slide."
+    },
+    {
+      "title": "Charity",
+      "text": "Rolin and his wife Guigone de Salins built a palace for the poor sick. Splendour owed something to the needy.",
+      "practice": "Give something of real value to a charity or person in need."
+    },
+    {
+      "title": "Craft",
+      "text": "Als ich can: as well as I can. Van Eyck painted every hair and reflection.",
+      "practice": "Do one task today with complete care, to the last detail."
+    },
+    {
+      "title": "Courtesy",
+      "text": "Court life was ordered by ceremony so that everyone knew their place and was honoured in it.",
+      "practice": "Greet each person today with deliberate courtesy."
+    },
+    {
+      "title": "Humility before death",
+      "text": "The pleurants around the tombs remind the living that splendour ends.",
+      "practice": "Look at something that reminds you that time passes, and choose how to spend today."
+    }
+  ],
+  "philosophy": [
+    {
+      "title": "The mixed smell of blood and roses",
+      "text": "Huizinga saw the Burgundian age as violent extremes: cruelty and tenderness, luxury and asceticism, all lived with passion.",
+      "practice": "Where in your life do opposites live side by side?"
+    },
+    {
+      "title": "Ceremony as meaning",
+      "text": "The court turned eating, entering, dressing and dying into rituals, so that ordinary acts carried meaning.",
+      "practice": "Turn one ordinary act today into a small ceremony."
+    },
+    {
+      "title": "Chivalry reimagined",
+      "text": "The Fleece revived an ideal of the knight even as gunpowder and cities changed the world. An ideal can still shape conduct.",
+      "practice": "What old ideal would you like to live by?"
+    },
+    {
+      "title": "The motto",
+      "text": "A device summed up a life’s intention in a few words, worn everywhere as a reminder.",
+      "practice": "Choose a motto for this Onda and write it where you will see it."
+    },
+    {
+      "title": "Splendour and transience",
+      "text": "Rich tombs with weeping mourners: the dukes celebrated life knowing it would end.",
+      "practice": "What would you like to be remembered for?"
+    },
+    {
+      "title": "The eye of Van Eyck",
+      "text": "His painting attends to everything: the nail on the floor, the reflection in a bead. Attention is a form of reverence.",
+      "practice": "Spend ten minutes looking at one small thing."
+    },
+    {
+      "title": "The cities and the duke",
+      "text": "Burgundian power rested on rich, proud cities who bargained for their liberties. Splendour needed consent.",
+      "practice": "Who gives you their trust, and what do you owe them?"
+    },
+    {
+      "title": "Pride and the fall",
+      "text": "Charles the Bold wanted a kingdom and lost everything in a year. Ambition without measure destroys.",
+      "practice": "Where is your ambition running ahead of wisdom?"
+    }
+  ],
+  "journal": [
+    "What did I make beautiful today?",
+    "Which promise did I keep, and which did I let slide?",
+    "What would my motto be, in three words?",
+    "Where did ceremony give meaning to my day?",
+    "What did I give from my abundance?",
+    "What small detail did I notice today that I usually miss?",
+    "Where did I dress, speak or act with intention?",
+    "To whom am I faithful, and how do I show it?",
+    "Where did pride lead me astray?",
+    "What would I like carved on my tomb, and what would the mourners say?",
+    "What did I do today as well as I can?",
+    "Where in my life do blood and roses mix?",
+    "What city, group or person trusts me, and what do I owe them?",
+    "What feast would I like to give, and for whom?",
+    "When did I feel the passing of time today?",
+    "What old ideal still moves me?",
+    "What did I see today that Van Eyck would have painted?",
+    "Where am I spending for display rather than for joy?",
+    "What courtesy did I show, and what did I receive?",
+    "What vow would I make before witnesses?",
+    "What am I ambitious for, and is it the right measure?",
+    "Which hour of the day is most sacred to me?",
+    "What luxury do I enjoy, and who else could share it?",
+    "What would a Joyous Entry into my own home look like?",
+    "What tradition in my family deserves more ceremony?",
+    "Where have I been the bold duke, and where the good one?",
+    "What music made my day more beautiful?",
+    "What did I taste today, really taste?",
+    "What splendour in my life is quiet and small?",
+    "What has this Onda taught me about beauty and its price?"
+  ],
+  "reflect": [
+    "What ceremonies did you bring into your days?",
+    "Which promise mattered most to keep?",
+    "What did you learn from looking closely?",
+    "How did you share what you enjoy?",
+    "What motto will you keep after this Onda?",
+    "What did the dukes teach you about pride and splendour?"
+  ],
+  "dayThemes": [
+    "Magnificence",
+    "The motto",
+    "Black velvet",
+    "The Golden Fleece",
+    "Fidelity",
+    "Als ich can",
+    "The book of hours",
+    "The Joyous Entry",
+    "The feast",
+    "Entremets",
+    "The vow",
+    "Charity",
+    "The mourners",
+    "Bruges",
+    "Dijon",
+    "Van Eyck’s eye",
+    "The chanson",
+    "Courtesy",
+    "The cities",
+    "Pinot noir",
+    "The chancellor",
+    "Pride",
+    "Blood and roses",
+    "The tournament",
+    "Mary of Burgundy",
+    "The tapestry",
+    "The firesteel",
+    "Craft",
+    "Autumn",
+    "Splendour"
+  ],
+  "guide": {
+    "intro": [
+      "For a little over a century, from 1363 to 1477, four dukes of the French royal house of Valois built a state between France and the Empire that dazzled Europe. Philip the Bold, John the Fearless, Philip the Good and Charles the Bold ruled Burgundy with its capital at Dijon and, through marriage and inheritance, Flanders, Artois, Brabant, Holland, Hainaut, Luxembourg and more.",
+      "The heart of their wealth lay in the north, in the cloth and trading cities of the Low Countries: Bruges, Ghent, Brussels, Lille and Antwerp. There the dukes held their most splendid court, and there a new art was born. Jan van Eyck, valet de chambre to Philip the Good, painted with oil glazes a world so precise that every bead and reflection seems real.",
+      "The court was the most ceremonious in Europe. Its feasts had spectacles between the courses, its knights fought in staged passages of arms, and its etiquette, written down by the courtier Olivier de la Marche, later shaped the Habsburg courts of Spain and Austria. In 1430 Philip the Good founded the Order of the Golden Fleece, whose collar of firesteels and hanging ram is still worn today.",
+      "It was also a violent age. John the Fearless had his rival Louis of Orléans murdered in Paris and was himself murdered in 1419. The dukes allied with England, and Burgundian soldiers captured Joan of Arc. The rich cities rose against them more than once. The historian Johan Huizinga called this world the autumn of the Middle Ages, a time of extremes, where blood and roses mingled.",
+      "The dream ended with Charles the Bold, who wanted a crown and fought the Swiss and the Duke of Lorraine. He was defeated at Grandson and Morat in 1476 and killed in the snow before Nancy in January 1477. His daughter Mary married Maximilian of Habsburg, and the Burgundian Netherlands passed to the house that would rule Spain and Austria.",
+      "This Onda takes from Burgundy a way of living with splendour and meaning: daily ceremonies, a personal motto, faithfulness to your word, care for detail, beautiful food and music shared, and generosity to those in need. It also asks what pride costs. And it takes you to Dijon, Beaune, Bruges and Ghent."
+    ],
+    "origin": "The Duchy of Burgundy around Dijon, and the Low Countries around Bruges, Ghent and Brussels",
+    "era": "The Valois dukes ruled from 1363, when John II of France granted Burgundy to his son, until the death of Charles the Bold in 1477",
+    "figures": [
+      {
+        "name": "Philip the Bold",
+        "dates": "1342 to 1404",
+        "bio": "The first Valois duke, a son of the French king, who married the heiress of Flanders and founded the Chartreuse de Champmol."
+      },
+      {
+        "name": "John the Fearless",
+        "dates": "1371 to 1419",
+        "bio": "Hero of the crusade of Nicopolis, who had Louis of Orléans murdered and was murdered in his turn on the bridge of Montereau."
+      },
+      {
+        "name": "Philip the Good",
+        "dates": "1396 to 1467",
+        "bio": "The greatest of the dukes, patron of Van Eyck and founder of the Golden Fleece. Wore black all his life after his father’s murder."
+      },
+      {
+        "name": "Isabella of Portugal",
+        "dates": "1397 to 1471",
+        "bio": "Philip’s third wife, a skilled diplomat who negotiated treaties and governed in his absence."
+      },
+      {
+        "name": "Charles the Bold",
+        "dates": "1433 to 1477",
+        "bio": "Hard-working, ambitious and rash, he tried to make Burgundy a kingdom and died at Nancy."
+      },
+      {
+        "name": "Mary of Burgundy",
+        "dates": "1457 to 1482",
+        "bio": "Charles’s only child, who married Maximilian of Habsburg and died after a fall from her horse."
+      },
+      {
+        "name": "Nicolas Rolin",
+        "dates": "1376 to 1462",
+        "bio": "Chancellor for forty years, patron of Van Eyck and Rogier van der Weyden, founder of the Hospices de Beaune."
+      },
+      {
+        "name": "Jan van Eyck",
+        "dates": "c. 1390 to 1441",
+        "bio": "Court painter and envoy of Philip the Good, master of oil painting, whose motto was Als ich can."
+      },
+      {
+        "name": "Rogier van der Weyden",
+        "dates": "c. 1399 to 1464",
+        "bio": "City painter of Brussels whose grieving figures are among the most moving in European art."
+      },
+      {
+        "name": "Claus Sluter",
+        "dates": "c. 1350 to 1406",
+        "bio": "Dutch sculptor at Dijon who carved the Well of Moses and the mourners of Philip the Bold’s tomb."
+      },
+      {
+        "name": "Guillaume Du Fay",
+        "dates": "c. 1397 to 1474",
+        "bio": "The leading composer of the age, linked to the Burgundian court and its Order."
+      },
+      {
+        "name": "Olivier de la Marche",
+        "dates": "c. 1425 to 1502",
+        "bio": "Courtier, poet and chronicler who wrote down the ceremonial of the court."
+      }
+    ],
+    "history": [
+      {
+        "when": "1363",
+        "what": "The duchy granted",
+        "detail": "King John II of France gives the Duchy of Burgundy to his youngest son, Philip, called the Bold."
+      },
+      {
+        "when": "1369",
+        "what": "The Flemish marriage",
+        "detail": "Philip marries Margaret, heiress of Flanders. In 1384 he inherits Flanders, Artois and the County of Burgundy."
+      },
+      {
+        "when": "1383",
+        "what": "Champmol founded",
+        "detail": "Philip founds the Chartreuse de Champmol near Dijon as the dynasty’s burial place."
+      },
+      {
+        "when": "1395",
+        "what": "The ordinance against Gamay",
+        "detail": "Philip the Bold orders the disloyal Gamay grape uprooted in favour of Pinot noir."
+      },
+      {
+        "when": "1407",
+        "what": "Murder in Paris",
+        "detail": "John the Fearless has Louis of Orléans killed, plunging France into civil war between Burgundians and Armagnacs."
+      },
+      {
+        "when": "10 September 1419",
+        "what": "Murder at Montereau",
+        "detail": "John is killed on a bridge during a meeting with the Dauphin’s party. His son allies with England."
+      },
+      {
+        "when": "1430",
+        "what": "The Golden Fleece",
+        "detail": "At his wedding to Isabella of Portugal in Bruges, Philip the Good founds the Order of the Golden Fleece."
+      },
+      {
+        "when": "1432",
+        "what": "The Ghent Altarpiece",
+        "detail": "The Adoration of the Mystic Lamb by Hubert and Jan van Eyck is installed in Ghent."
+      },
+      {
+        "when": "1435",
+        "what": "Peace of Arras",
+        "detail": "Philip makes peace with Charles VII of France and leaves the English alliance."
+      },
+      {
+        "when": "1443",
+        "what": "The Hospices de Beaune",
+        "detail": "Chancellor Rolin and Guigone de Salins found their hospital for the poor."
+      },
+      {
+        "when": "1454",
+        "what": "The Feast of the Pheasant",
+        "detail": "At Lille, knights vow on a live pheasant to crusade against the Turks after the fall of Constantinople."
+      },
+      {
+        "when": "1468",
+        "what": "The wedding of the century",
+        "detail": "Charles the Bold marries Margaret of York in Bruges with nine days of feasts and tournaments."
+      },
+      {
+        "when": "1476",
+        "what": "Grandson and Morat",
+        "detail": "Swiss armies crush Charles twice and capture his treasure, the Burgundian booty."
+      },
+      {
+        "when": "5 January 1477",
+        "what": "Death at Nancy",
+        "detail": "Charles is killed fighting the Duke of Lorraine. His body is found frozen in a pond days later."
+      },
+      {
+        "when": "1477",
+        "what": "Mary and Maximilian",
+        "detail": "Mary of Burgundy marries Maximilian of Austria. France takes the duchy; the Netherlands pass to the Habsburgs."
+      }
+    ],
+    "concepts": [
+      {
+        "term": "Magnificence",
+        "text": "Splendour as policy.",
+        "detail": "The dukes used feasts, clothes, tapestries and art to show their power and bind nobles and cities to them. Magnificence was a virtue expected of a prince."
+      },
+      {
+        "term": "The Golden Fleece",
+        "text": "An order of knights.",
+        "detail": "Founded in 1430 for the defence of faith and chivalry, limited to a few knights sworn to the duke. Its chapters met with great ceremony; it still exists."
+      },
+      {
+        "term": "Court ceremonial",
+        "text": "Life as ritual.",
+        "detail": "Olivier de la Marche set down the order of the ducal household: who served, who sat where, how the duke ate. Habsburg Spain inherited it."
+      },
+      {
+        "term": "The Joyous Entry",
+        "text": "A ritual contract.",
+        "detail": "When a duke entered a city, the city staged pageants and the duke swore to respect its privileges. Celebration and negotiation at once."
+      },
+      {
+        "term": "Flemish oil painting",
+        "text": "A new way of seeing.",
+        "detail": "Van Eyck and his successors used layered oil glazes to paint light, texture and detail with a realism no one had seen."
+      },
+      {
+        "term": "The autumn of the Middle Ages",
+        "text": "Huizinga’s view.",
+        "detail": "Not a dawn but a late, overripe flowering: intense piety, elaborate ritual, love of display and a deep sense of death."
+      },
+      {
+        "term": "Mottoes and devices",
+        "text": "Signs of the self.",
+        "detail": "Personal badges and phrases, Aultre n’auray, Je l’ay emprins, Als ich can, declared a person’s intention to the world."
+      },
+      {
+        "term": "Charity and the Hôtel-Dieu",
+        "text": "Splendour for the poor.",
+        "detail": "The Hospices de Beaune treated the poor sick free in a magnificent hall. Piety and display served the needy."
+      },
+      {
+        "term": "Terroir",
+        "text": "Place in the glass.",
+        "detail": "The dukes’ monks and decrees shaped Burgundian wine into named plots, each expressing its own soil, the idea of the climat."
+      }
+    ],
+    "facts": [
+      {
+        "text": "The Order of the Golden Fleece, founded in 1430, still exists, with two branches, Spanish and Austrian."
+      },
+      {
+        "text": "Philip the Bold’s 1395 decree called Gamay a very bad and disloyal plant."
+      },
+      {
+        "text": "At the Feast of the Pheasant in 1454 a giant pie held twenty-eight musicians who played during the meal."
+      },
+      {
+        "text": "Philip the Good wore black for the rest of his life after his father’s murder, and made black fashionable."
+      },
+      {
+        "text": "Charles the Bold’s body was found days after the battle of Nancy, frozen in a pond and half eaten by wolves."
+      },
+      {
+        "text": "The Burgundian booty captured by the Swiss in 1476 included tapestries, cannons and the duke’s own diamonds."
+      },
+      {
+        "text": "The Hospices de Beaune treated patients until 1971."
+      },
+      {
+        "text": "The Dutch word bourgondisch still means enjoying life lavishly."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Toison d'or",
+        "meaning": "The Golden Fleece"
+      },
+      {
+        "term": "Briquet",
+        "meaning": "The firesteel badge of the dukes"
+      },
+      {
+        "term": "Entremets",
+        "meaning": "A spectacle between courses at a banquet"
+      },
+      {
+        "term": "Joyeuse entrée",
+        "meaning": "A ruler’s ceremonial entry into a city"
+      },
+      {
+        "term": "Pleurants",
+        "meaning": "Carved mourners on the ducal tombs"
+      },
+      {
+        "term": "Climat",
+        "meaning": "A named vineyard plot of Burgundy"
+      }
+    ],
+    "furtherReading": [
+      {
+        "title": "The Autumn of the Middle Ages",
+        "creator": "Johan Huizinga",
+        "year": "1919",
+        "note": "The classic on the spirit of the age."
+      },
+      {
+        "title": "Valois Burgundy",
+        "creator": "Richard Vaughan",
+        "year": "1975",
+        "note": "A concise account by the great historian of the dukes."
+      },
+      {
+        "title": "The Burgundians: A Vanished Empire",
+        "creator": "Bart Van Loo",
+        "year": "2019",
+        "note": "A vivid narrative for general readers."
+      },
+      {
+        "title": "The Arnolfini Betrothal",
+        "creator": "Edwin Hall",
+        "year": "1994",
+        "note": "On Van Eyck’s most famous painting and its world."
+      }
+    ],
+    "learnFrom": [
+      {
+        "name": "The Musée des Beaux-Arts de Dijon",
+        "note": "In the palace of the dukes, with their tombs and mourners."
+      },
+      {
+        "name": "The Hospices de Beaune",
+        "note": "The museum of the Hôtel-Dieu and its Last Judgement."
+      },
+      {
+        "name": "Closer to Van Eyck",
+        "note": "The high-resolution online images of the Ghent Altarpiece made during its restoration."
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Autumn of the Middle Ages",
+        "creator": "Johan Huizinga, trans. Payton and Mammitzsch",
+        "publisher": "University of Chicago Press",
+        "year": "1996"
+      },
+      {
+        "title": "Philip the Good: The Apogee of Burgundy",
+        "creator": "Richard Vaughan",
+        "publisher": "Longman",
+        "year": "1970"
+      },
+      {
+        "title": "Charles the Bold: The Last Valois Duke of Burgundy",
+        "creator": "Richard Vaughan",
+        "publisher": "Longman",
+        "year": "1973"
+      },
+      {
+        "title": "The Burgundians: A Vanished Empire",
+        "creator": "Bart Van Loo, trans. Debbie Rodgers",
+        "publisher": "Head of Zeus",
+        "year": "2021"
+      },
+      {
+        "title": "The Splendour of Burgundy",
+        "creator": "Susan Marti, Till-Holger Borchert and Gabriele Keck, eds.",
+        "publisher": "Mercatorfonds",
+        "year": "2009"
+      },
+      {
+        "title": "Early Netherlandish Painting",
+        "creator": "Erwin Panofsky",
+        "publisher": "Harvard University Press",
+        "year": "1953"
+      }
+    ]
+  },
+  "sensitivity": {
+    "note": "The Burgundian court was splendid and also violent, built on heavy taxes on the Flemish cities and on war. This Onda takes its love of ceremony, craft and generosity, and looks honestly at its pride and cruelty.",
+    "requiredCaveats": [
+      "Burgundian forces captured Joan of Arc and sold her to the English, who tried and burned her.",
+      "The dukes crushed revolts in Ghent, Liège and Dinant with great brutality.",
+      "Wine appears here as part of the culture; every drink practice can be done with juice instead."
+    ],
+    "reviewRequired": false
+  },
+  "immersePlan": [
+    {
+      "kind": "read",
+      "item": "read-the-autumn-of-the-middle-ages",
+      "name": "Read Huizinga’s first chapter",
+      "text": "Read the first chapter of The Autumn of the Middle Ages, The Passionate Intensity of Life, and mark the images that stay with you.",
+      "minutes": 45
+    },
+    {
+      "kind": "read",
+      "item": "read-the-burgundians-a-vanished-empire",
+      "name": "Read the story of the four dukes",
+      "text": "Read the chapters of Bart Van Loo’s The Burgundians on Philip the Good and the founding of the Golden Fleece.",
+      "minutes": 45
+    },
+    {
+      "kind": "read",
+      "item": "read-memoirs",
+      "name": "Read Commynes on Charles the Bold",
+      "text": "Read Philippe de Commynes on Charles the Bold’s last campaigns, the cool view of a man who left him for Louis XI.",
+      "minutes": 40
+    },
+    {
+      "kind": "watch",
+      "item": "watch-the-passion-of-joan-of-arc",
+      "name": "Watch Dreyer’s Joan of Arc",
+      "text": "Watch Dreyer’s silent film of the trial of Joan, captured by the Burgundians. Watch the faces.",
+      "minutes": 85
+    },
+    {
+      "kind": "watch",
+      "item": "watch-henry-v",
+      "name": "Watch the Treaty of Troyes scene",
+      "text": "Watch the ending of Branagh’s Henry V and listen to the Duke of Burgundy’s speech on the ruin of France.",
+      "minutes": 20
+    },
+    {
+      "kind": "watch",
+      "item": "watch-the-seventh-seal",
+      "name": "Watch The Seventh Seal",
+      "text": "Watch Bergman’s knight play chess with Death, the mood of the autumn of the Middle Ages.",
+      "minutes": 95
+    },
+    {
+      "kind": "listen",
+      "item": "listen-de-tous-biens-plaine",
+      "name": "Listen to De tous biens plaine",
+      "text": "Listen to Hayne van Ghizeghem’s chanson, the hit of the court of Charles the Bold, in two or three performances.",
+      "minutes": 15
+    },
+    {
+      "kind": "listen",
+      "item": "listen-missa-l-homme-arme",
+      "name": "Listen to the armed man mass",
+      "text": "Listen to Du Fay’s Missa L’homme armé. First hear the simple armed man tune, then find it in the mass.",
+      "minutes": 40
+    },
+    {
+      "kind": "listen",
+      "item": "listen-chansons",
+      "name": "Listen to Binchois",
+      "text": "Listen to the courtly chansons of Gilles Binchois, Philip the Good’s composer, in a quiet hour.",
+      "minutes": 30
+    },
+    {
+      "kind": "art",
+      "item": "art-the-arnolfini-portrait",
+      "name": "Find the painter in the mirror",
+      "text": "Look at the Arnolfini Portrait and find the two figures in the round mirror and Van Eyck’s inscription above it.",
+      "minutes": 15
+    },
+    {
+      "kind": "art",
+      "item": "art-the-madonna-of-chancellor-rolin",
+      "name": "Travel the city behind Rolin",
+      "text": "Look at the tiny city, river and bridge in the background of the Madonna of Chancellor Rolin.",
+      "minutes": 15
+    },
+    {
+      "kind": "art",
+      "item": "art-the-well-of-moses",
+      "name": "Meet Sluter’s prophets",
+      "text": "Look at Claus Sluter’s six prophets of the Well of Moses. Look at Moses’ face, then at the angels weeping above.",
+      "minutes": 15
+    },
+    {
+      "kind": "eat",
+      "item": "eat-gougeres",
+      "name": "Bake gougères",
+      "text": "Bake gougères, the cheese puffs of Burgundy, and serve them warm to friends as a first course.",
+      "minutes": 60
+    },
+    {
+      "kind": "eat",
+      "item": "eat-pain-d-epices",
+      "name": "Bake pain d’épices",
+      "text": "Bake Dijon spiced honey bread, or buy some, and eat a slice with butter in the afternoon.",
+      "minutes": 75
+    },
+    {
+      "kind": "eat",
+      "item": "eat-dijon-mustard",
+      "name": "Taste real Dijon mustard",
+      "text": "Taste a strong Dijon mustard with ham or a sausage and a slice of good bread.",
+      "minutes": 15
+    },
+    {
+      "kind": "drink",
+      "item": "drink-pinot-noir",
+      "name": "Taste the dukes’ grape",
+      "text": "Taste a Burgundy Pinot noir slowly with dinner, or a Pinot noir grape juice, and read about the 1395 decree.",
+      "minutes": 20
+    },
+    {
+      "kind": "drink",
+      "item": "drink-hypocras",
+      "name": "Make hypocras",
+      "text": "Warm wine or red grape juice with cinnamon, ginger and sugar, strain it and serve it after dinner, as at court.",
+      "minutes": 25
+    },
+    {
+      "kind": "drink",
+      "item": "drink-cassis",
+      "name": "Mix a cassis",
+      "text": "Mix blackcurrant syrup with cold sparkling water and drink it outside in the evening.",
+      "minutes": 10
+    },
+    {
+      "kind": "customs",
+      "item": "customs-ducal-black",
+      "name": "Wear black with one jewel",
+      "text": "Dress in black for a whole day, with a single gold or bright detail, as Philip the Good did.",
+      "minutes": 5
+    },
+    {
+      "kind": "customs",
+      "item": "customs-mottoes-and-devices",
+      "name": "Design your device",
+      "text": "Draw a simple badge and write a motto for yourself, as every Burgundian knight had.",
+      "minutes": 30
+    },
+    {
+      "kind": "customs",
+      "item": "customs-the-joyous-entry",
+      "name": "Read about a Joyous Entry",
+      "text": "Read how a Burgundian duke entered Ghent or Bruges, with tapestries, pageants and an oath to the city.",
+      "minutes": 20
+    },
+    {
+      "kind": "games",
+      "item": "games-chess",
+      "name": "Play chess slowly",
+      "text": "Play a slow game of chess by candlelight, the noble game of the court.",
+      "minutes": 45
+    },
+    {
+      "kind": "games",
+      "item": "games-jeu-de-paume",
+      "name": "Play a palm game",
+      "text": "Hit a soft ball against a wall with your palm, the way jeu de paume began, or play real tennis if a court is near.",
+      "minutes": 30
+    },
+    {
+      "kind": "games",
+      "item": "games-popinjay-shooting",
+      "name": "Hold a target contest",
+      "text": "Set up a simple target game with friends, darts or soft throwing, and crown the winner king for the day.",
+      "minutes": 30
+    },
+    {
+      "kind": "travel",
+      "item": "place-palace-of-the-dukes-of-burgundy",
+      "name": "Visit the dukes’ tombs",
+      "text": "Visit, or explore online, the Musée des Beaux-Arts in Dijon and the tombs of the dukes with their mourners.",
+      "minutes": 60
+    },
+    {
+      "kind": "travel",
+      "item": "place-hospices-de-beaune",
+      "name": "Visit the Hospices de Beaune",
+      "text": "Visit, or explore online, the Hôtel-Dieu of Beaune and its great hall of beds and its painted roof.",
+      "minutes": 60
+    },
+    {
+      "kind": "travel",
+      "item": "place-saint-bavo-s-cathedral",
+      "name": "See the Ghent Altarpiece",
+      "text": "Visit Saint Bavo’s in Ghent, or explore the altarpiece online in high resolution, panel by panel.",
+      "minutes": 60
+    },
+    {
+      "kind": "words",
+      "item": "word-toison-d-or",
+      "name": "Learn Toison d’or",
+      "text": "Learn Toison d’or, the Golden Fleece, and look at the collar of firesteels and the hanging ram."
+    },
+    {
+      "kind": "words",
+      "item": "word-bourgondisch",
+      "name": "Learn the word bourgondisch",
+      "text": "Learn bourgondisch, to live richly, and give one part of today that generous spirit."
+    },
+    {
+      "kind": "words",
+      "item": "word-entremets",
+      "name": "Learn the word entremets",
+      "text": "Learn entremets, the spectacle between courses, and plan a small one for your next meal with others."
+    }
+  ]
+}

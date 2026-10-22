@@ -1,0 +1,1583 @@
+{
+  "version": 1,
+  "id": "machiavelli",
+  "name": "Machiavelli",
+  "origin": "Florence",
+  "era": "1469 to 1527, the Florentine Republic and the return of the Medici",
+  "tone": "coral",
+  "icon": "crown-simple",
+  "font": "italiana",
+  "pattern": "inlay",
+  "glyph": "Stato",
+  "line": "See things as they really are, prepare for fortune, and serve your city.",
+  "quote": {
+    "text": "Fortune is the arbiter of half of our actions, but she still leaves the other half, or close to it, for us to govern.",
+    "by": "Niccolò Machiavelli",
+    "source": "The Prince, 1513, chapter 25, trans. Harvey C. Mansfield"
+  },
+  "quotes": [
+    {
+      "text": "It has appeared to me more fitting to go directly to the effectual truth of the thing than to the imagination of it.",
+      "by": "Niccolò Machiavelli",
+      "source": "The Prince, chapter 15, trans. Harvey C. Mansfield"
+    },
+    {
+      "text": "It is much safer to be feared than loved, if one has to lack one of the two.",
+      "by": "Niccolò Machiavelli",
+      "source": "The Prince, chapter 17, trans. Harvey C. Mansfield"
+    },
+    {
+      "text": "The lion does not defend itself from snares and the fox does not defend itself from wolves.",
+      "by": "Niccolò Machiavelli",
+      "source": "The Prince, chapter 18, trans. Harvey C. Mansfield"
+    },
+    {
+      "text": "Men forget the death of a father more quickly than the loss of a patrimony.",
+      "by": "Niccolò Machiavelli",
+      "source": "The Prince, chapter 17, trans. Harvey C. Mansfield"
+    },
+    {
+      "text": "On the threshold I take off my everyday clothes, covered with mud and dirt, and put on the garments of court and palace.",
+      "by": "Niccolò Machiavelli",
+      "source": "Letter to Francesco Vettori, 10 December 1513"
+    },
+    {
+      "text": "I love my native city more than my soul.",
+      "by": "Niccolò Machiavelli",
+      "source": "Letter to Francesco Vettori, 16 April 1527"
+    }
+  ],
+  "words": [
+    {
+      "id": "word-virtu",
+      "term": "Virtù",
+      "meaning": "Ability, energy, excellence",
+      "pronunciation": "veer-TOO",
+      "language": "Italian",
+      "usage": "Not moral virtue but the capacity to act effectively, to shape events and meet fortune."
+    },
+    {
+      "id": "word-fortuna",
+      "term": "Fortuna",
+      "meaning": "Fortune",
+      "pronunciation": "for-TOO-nah",
+      "language": "Italian",
+      "usage": "Chance and circumstance, which he compares to a flooding river that can be held back with dikes."
+    },
+    {
+      "id": "word-necessita",
+      "term": "Necessità",
+      "meaning": "Necessity",
+      "pronunciation": "neh-cheh-see-TAH",
+      "language": "Italian",
+      "usage": "What circumstances force on us. Wise rulers make necessity serve them."
+    },
+    {
+      "id": "word-occasione",
+      "term": "Occasione",
+      "meaning": "Opportunity",
+      "pronunciation": "ok-kah-ZYOH-neh",
+      "language": "Italian",
+      "usage": "The moment that must be seized. Without it virtue is wasted; without virtue it passes."
+    },
+    {
+      "id": "word-lo-stato",
+      "term": "Lo stato",
+      "meaning": "The state",
+      "pronunciation": "loh STAH-toh",
+      "language": "Italian",
+      "usage": "He used the word for a ruler’s power and territory, helping give it its modern meaning."
+    },
+    {
+      "id": "word-verita-effettuale",
+      "term": "Verità effettuale",
+      "meaning": "Effectual truth",
+      "pronunciation": "veh-ree-TAH ef-fet-TWAH-leh",
+      "language": "Italian",
+      "usage": "How things actually go, as opposed to how we imagine they ought to go."
+    },
+    {
+      "id": "word-golpe-e-lione",
+      "term": "Golpe e lione",
+      "meaning": "Fox and lion",
+      "pronunciation": "GOL-peh eh lee-OH-neh",
+      "language": "Old Florentine",
+      "usage": "The two beasts a prince must imitate: the fox to know the snares, the lion to frighten the wolves."
+    },
+    {
+      "id": "word-principe",
+      "term": "Principe",
+      "meaning": "Prince",
+      "pronunciation": "PREEN-chee-peh",
+      "language": "Italian",
+      "usage": "A ruler, especially a new one, whose state depends on his own skill."
+    },
+    {
+      "id": "word-repubblica",
+      "term": "Repubblica",
+      "meaning": "Republic",
+      "pronunciation": "reh-POOB-blee-kah",
+      "language": "Italian",
+      "usage": "The free state of citizens that he served and preferred, the subject of the Discourses."
+    },
+    {
+      "id": "word-umori",
+      "term": "Umori",
+      "meaning": "Humours",
+      "pronunciation": "oo-MOH-ree",
+      "language": "Italian",
+      "usage": "The two desires in every city: the great want to command, the people want not to be oppressed."
+    },
+    {
+      "id": "word-tumulti",
+      "term": "Tumulti",
+      "meaning": "Tumults",
+      "pronunciation": "too-MOOL-tee",
+      "language": "Italian",
+      "usage": "Conflicts between the people and the great. He argued that in Rome they produced laws that kept it free."
+    },
+    {
+      "id": "word-ordini",
+      "term": "Ordini",
+      "meaning": "Orders, institutions",
+      "pronunciation": "OR-dee-nee",
+      "language": "Italian",
+      "usage": "The laws and arrangements of a state, which must sometimes be renewed."
+    },
+    {
+      "id": "word-ridurre-ai-principi",
+      "term": "Ridurre ai principi",
+      "meaning": "Return to first principles",
+      "pronunciation": "ree-DOOR-reh eye PREEN-chee-pee",
+      "language": "Italian",
+      "usage": "Bringing a state or body back to its beginnings to renew it, Discourses III.1."
+    },
+    {
+      "id": "word-milizia",
+      "term": "Milizia",
+      "meaning": "Militia",
+      "pronunciation": "mee-LEE-tsyah",
+      "language": "Italian",
+      "usage": "A citizen army. Machiavelli organised Florence’s in 1506 and despised mercenaries."
+    },
+    {
+      "id": "word-condottiere",
+      "term": "Condottiere",
+      "meaning": "Mercenary captain",
+      "pronunciation": "kon-dot-TYEH-reh",
+      "language": "Italian",
+      "usage": "A hired general of the Italian wars, loyal to his pay and nothing else."
+    },
+    {
+      "id": "word-arme-proprie",
+      "term": "Arme proprie",
+      "meaning": "One’s own arms",
+      "pronunciation": "AR-meh PROH-pryeh",
+      "language": "Italian",
+      "usage": "A state’s own soldiers, the only ones a prince can trust, chapter 13."
+    },
+    {
+      "id": "word-cancelliere",
+      "term": "Cancelliere",
+      "meaning": "Chancellor, secretary",
+      "pronunciation": "kan-chel-LYEH-reh",
+      "language": "Italian",
+      "usage": "Machiavelli’s office: secretary of the Second Chancery of the Florentine Republic, 1498 to 1512."
+    },
+    {
+      "id": "word-signoria",
+      "term": "Signoria",
+      "meaning": "The governing council",
+      "pronunciation": "see-nyo-REE-ah",
+      "language": "Italian",
+      "usage": "The government of Florence, seated in the Palazzo della Signoria, now Palazzo Vecchio."
+    },
+    {
+      "id": "word-gonfaloniere",
+      "term": "Gonfaloniere",
+      "meaning": "Standard-bearer",
+      "pronunciation": "gon-fah-loh-NYEH-reh",
+      "language": "Italian",
+      "usage": "The head of the Florentine government. Piero Soderini held the post for life from 1502."
+    },
+    {
+      "id": "word-mandragola",
+      "term": "Mandragola",
+      "meaning": "Mandrake",
+      "pronunciation": "man-DRAH-go-lah",
+      "language": "Italian",
+      "usage": "The root of a supposed fertility potion, and the title of his comedy of about 1518."
+    },
+    {
+      "id": "word-albergaccio",
+      "term": "Albergaccio",
+      "meaning": "The wretched inn",
+      "pronunciation": "al-ber-GAHT-cho",
+      "language": "Italian",
+      "usage": "His nickname for his farmhouse at Sant’Andrea in Percussina, where he wrote The Prince."
+    },
+    {
+      "id": "word-ozio",
+      "term": "Ozio",
+      "meaning": "Leisure, idleness",
+      "pronunciation": "OH-tsyoh",
+      "language": "Italian",
+      "usage": "The forced idleness of exile, which he turned into study and writing."
+    },
+    {
+      "id": "word-patria",
+      "term": "Patria",
+      "meaning": "Native land, homeland",
+      "pronunciation": "PAH-tryah",
+      "language": "Italian",
+      "usage": "Florence, which he loved more than his soul."
+    },
+    {
+      "id": "word-gloria",
+      "term": "Gloria",
+      "meaning": "Glory",
+      "pronunciation": "GLOH-ryah",
+      "language": "Italian",
+      "usage": "Lasting fame for great deeds, which he valued and which he denied to the merely cruel."
+    },
+    {
+      "id": "word-ambizione",
+      "term": "Ambizione",
+      "meaning": "Ambition",
+      "pronunciation": "am-bee-TSYOH-neh",
+      "language": "Italian",
+      "usage": "A force he saw in all people, dangerous unless channelled by good orders."
+    },
+    {
+      "id": "word-popolo",
+      "term": "Popolo",
+      "meaning": "The people",
+      "pronunciation": "POH-poh-loh",
+      "language": "Italian",
+      "usage": "The many, whose desire is not to be oppressed, and who he thought were wiser guardians of liberty than the great."
+    },
+    {
+      "id": "word-grandi",
+      "term": "Grandi",
+      "meaning": "The great",
+      "pronunciation": "GRAHN-dee",
+      "language": "Italian",
+      "usage": "The few, the rich and noble, whose desire is to command."
+    },
+    {
+      "id": "word-fiorino",
+      "term": "Fiorino",
+      "meaning": "Florin",
+      "pronunciation": "fyoh-REE-noh",
+      "language": "Italian",
+      "usage": "The gold coin of Florence, trusted across Europe."
+    },
+    {
+      "id": "word-sprezzatura",
+      "term": "Sprezzatura",
+      "meaning": "Studied nonchalance",
+      "pronunciation": "spret-sah-TOO-rah",
+      "language": "Italian",
+      "usage": "Castiglione’s word, coined in his time, for art that hides art."
+    },
+    {
+      "id": "word-calcio-storico",
+      "term": "Calcio storico",
+      "meaning": "Historic football",
+      "pronunciation": "KAHL-choh STOH-ree-koh",
+      "language": "Italian",
+      "usage": "The rough Florentine ball game played in the squares, still held each June."
+    },
+    {
+      "id": "word-machiavellico",
+      "term": "Machiavellico",
+      "meaning": "Machiavellian",
+      "pronunciation": "mah-kyah-vel-LEE-koh",
+      "language": "Italian",
+      "usage": "The later word for scheming, which many readers think unfair to the republican he was."
+    }
+  ],
+  "practices": [
+    {
+      "id": "the-effectual-truth",
+      "name": "The effectual truth",
+      "icon": "eye",
+      "slot": "Morning",
+      "time": "07:00",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Take the one situation that most occupies you: a project, a conflict, a decision. Write down only the facts, as a diplomat would report to the Signoria: who wants what, what each can do, what has actually happened. Leave out hopes, fears and how things ought to be. Read it back and see what the plain facts suggest.",
+      "why": "In chapter 15 of The Prince he turns from imagined republics to the effectual truth of things. His dispatches as a diplomat were famous for seeing what others did not want to see.",
+      "variations": [
+        "Do it for a relationship.",
+        "Do it for your money.",
+        "Ask someone else to check your facts."
+      ]
+    },
+    {
+      "id": "dikes-in-calm-weather",
+      "name": "Dikes in calm weather",
+      "icon": "shield-check",
+      "slot": "Morning",
+      "time": "07:30",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Fortune, he wrote, is like a river that floods the plain when it rises, but people can build dikes and embankments in calm times. Name one risk in your life that is quiet now: health, savings, a backup, a skill, a relationship. Do one concrete thing this morning to prepare for it.",
+      "why": "Chapter 25 of The Prince: fortune shows her power where no virtù has been prepared to resist her. Prudence is preparing before the flood.",
+      "variations": [
+        "Back up your files.",
+        "Put a small sum aside.",
+        "Book the check-up you have been postponing."
+      ]
+    },
+    {
+      "id": "fortune-s-half-and-yours",
+      "name": "Fortune’s half and yours",
+      "icon": "scales",
+      "slot": "Morning",
+      "time": "06:45",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Draw a line down a page. On the left write what in today is fortune’s: weather, other people’s moods, luck. On the right write what is yours: your effort, your words, your preparation. Decide to spend your energy only on the right side today.",
+      "why": "Fortune is the arbiter of half of our actions, but leaves the other half, or close to it, for us to govern. Virtù works on our half.",
+      "variations": [
+        "Do it for the whole week.",
+        "Do it for someone you are advising.",
+        "Look again at noon."
+      ]
+    },
+    {
+      "id": "a-page-of-livy",
+      "name": "A page of Livy",
+      "icon": "book-open",
+      "slot": "Morning",
+      "time": "06:30",
+      "minutes": 15,
+      "meta": "Morning · 15 min",
+      "instructions": "Read one short passage of Roman history, from Livy, Plutarch or a good modern history of Rome. Choose a moment of crisis. Ask, as Machiavelli did, what the people did, what worked and what failed, and what it says about your own time.",
+      "why": "His Discourses are a commentary on Livy’s history of Rome. He believed the ancients could be questioned and would answer.",
+      "variations": [
+        "Read about Rome’s quarrels of the orders.",
+        "Read Plutarch’s life of Camillus.",
+        "Read about a crisis in your own country’s past."
+      ]
+    },
+    {
+      "id": "spot-the-snare",
+      "name": "Spot the snare",
+      "icon": "magnifying-glass",
+      "slot": "Morning",
+      "time": "08:00",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Before you leave, think through your day like the fox: where could things go wrong? A meeting where you might be cornered, a deal with hidden costs, a promise you might be pressed into. For each, decide in advance what you will do. Being alert is not being suspicious of everyone.",
+      "why": "The fox recognises traps, he wrote in chapter 18; the lion cannot defend itself from snares. Foresight is half of prudence.",
+      "variations": [
+        "Read the fine print of one contract.",
+        "Plan your answer to a hard question.",
+        "Leave earlier than needed."
+      ]
+    },
+    {
+      "id": "your-own-arms",
+      "name": "Your own arms",
+      "icon": "hammer",
+      "slot": "Morning",
+      "time": "07:15",
+      "minutes": 20,
+      "meta": "Morning · 20 min",
+      "instructions": "Choose one thing you usually depend on others or on luck for, and spend twenty minutes building your own ability: cook instead of ordering, repair instead of calling someone, learn a basic of your finances, practise a skill your work needs.",
+      "why": "Chapter 13: a prince who relies on mercenaries or borrowed troops is never secure. Only one’s own arms can be trusted.",
+      "variations": [
+        "Learn a first aid skill.",
+        "Learn to read a budget.",
+        "Practise a language you need."
+      ]
+    },
+    {
+      "id": "seize-the-occasion",
+      "name": "Seize the occasion",
+      "icon": "lightning",
+      "slot": "Afternoon",
+      "time": "13:00",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Look for one opportunity today that will not come again soon: a chance to speak up, to meet someone, to propose an idea, to make a move you have been waiting on. When it comes, act on it, decisively and without long hesitation.",
+      "why": "He wrote that the great founders found in fortune only the occasion; without it their virtù would have been wasted, and without their virtù the occasion would have come in vain.",
+      "variations": [
+        "Say yes to one invitation.",
+        "Send the proposal today.",
+        "Speak first in a meeting."
+      ]
+    },
+    {
+      "id": "ask-for-frank-counsel",
+      "name": "Ask for frank counsel",
+      "icon": "chats",
+      "slot": "Afternoon",
+      "time": "14:00",
+      "minutes": 15,
+      "meta": "Afternoon · 15 min",
+      "instructions": "Choose one person whose judgement you trust and ask them for an honest opinion on something you are doing. Make it clear you want the truth, not comfort. Listen without defending yourself. Thank them, whatever they say.",
+      "why": "Chapter 23 warns that courts are full of flatterers. A wise prince chooses wise people and gives them freedom to speak the truth.",
+      "variations": [
+        "Ask someone who often disagrees with you.",
+        "Ask about a decision before you make it.",
+        "Ask for criticism in writing."
+      ]
+    },
+    {
+      "id": "an-hour-for-your-city",
+      "name": "An hour for your city",
+      "icon": "bank",
+      "slot": "Afternoon",
+      "time": "15:00",
+      "minutes": 30,
+      "meta": "Afternoon · 30 min",
+      "instructions": "Give half an hour to your city or community: read about a local issue, write to a representative, attend or watch a council meeting, help a local association, sign up to volunteer. Be a citizen, not only a resident.",
+      "why": "He served the Florentine republic for fourteen years and wrote that he loved his native city more than his soul.",
+      "variations": [
+        "Read your local council’s agenda.",
+        "Help a neighbourhood group.",
+        "Talk about a local issue with a neighbour."
+      ]
+    },
+    {
+      "id": "the-two-humours",
+      "name": "The two humours",
+      "icon": "users-three",
+      "slot": "Afternoon",
+      "time": "16:00",
+      "minutes": 15,
+      "meta": "Afternoon · 15 min",
+      "instructions": "Pick a conflict around you, at work, in your town or in the news. Write what each side wants in one sentence each, using his idea of the two humours: some want to command, others want not to be oppressed. Ask which conflict here is useful and could produce a better rule.",
+      "why": "In the Discourses he argued that the tumults between the people and the nobles of Rome produced the laws that kept Rome free.",
+      "variations": [
+        "Do it for a family disagreement.",
+        "Talk to someone on the other side.",
+        "Propose a rule that serves both."
+      ]
+    },
+    {
+      "id": "hold-firm-like-the-lion",
+      "name": "Hold firm like the lion",
+      "icon": "shield",
+      "slot": "Afternoon",
+      "time": "16:30",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Find one point today where you need to stand your ground: a boundary, a fair price, a deadline, a principle. Say it clearly and calmly once, and do not take it back under pressure. Firmness can be courteous.",
+      "why": "The lion frightens the wolves. Machiavelli warned against irresolution above all: half measures, he wrote, are always harmful.",
+      "variations": [
+        "Say no without explaining at length.",
+        "Hold to a decision you made yesterday.",
+        "Name what you will do if the line is crossed."
+      ]
+    },
+    {
+      "id": "write-a-dispatch",
+      "name": "Write a dispatch",
+      "icon": "pen-nib",
+      "slot": "Afternoon",
+      "time": "14:30",
+      "minutes": 20,
+      "meta": "Afternoon · 20 min",
+      "instructions": "Write a short dispatch, half a page, as he wrote to Florence from foreign courts: what is happening, who holds power, what they intend, and what you advise. Write it about your workplace, your town or the news. Be concise and sharp.",
+      "why": "His legation letters from France and from Cesare Borgia are masterpieces of quick observation and judgement, written on horseback and in inns.",
+      "variations": [
+        "Write about a meeting you attended.",
+        "Write it to a friend.",
+        "End with one recommendation."
+      ]
+    },
+    {
+      "id": "a-letter-to-a-friend",
+      "name": "A letter to a friend",
+      "icon": "notebook",
+      "slot": "Evening",
+      "time": "21:00",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "In your journal, write a letter to a trusted friend about your day, as Machiavelli wrote to Vettori: what you did, what you saw, what you are thinking about, with humour and frankness. Mix the serious with the comic. End with what you hope for.",
+      "why": "His letters to Francesco Vettori, especially that of 10 December 1513, are among the most human documents of the Renaissance.",
+      "variations": [
+        "Use one of the Onda’s journal prompts.",
+        "Actually send it.",
+        "Write it in the voice of an ambassador."
+      ],
+      "action": "journal"
+    },
+    {
+      "id": "robes-for-the-ancients",
+      "name": "Robes for the ancients",
+      "icon": "books",
+      "slot": "Evening",
+      "time": "21:30",
+      "minutes": 30,
+      "meta": "Evening · 30 min",
+      "instructions": "At evening, change out of your day clothes into something you keep for good, as he did. Go to a quiet room with a classic book. Read for half an hour, and question the author as if they were in front of you. Write down one answer they gave.",
+      "why": "In exile he put on the garments of court and palace each evening to enter, as he wrote, the ancient courts of ancient men, where he fed on the food that alone was his.",
+      "variations": [
+        "Read Livy.",
+        "Read Plutarch.",
+        "Read The Prince itself."
+      ]
+    },
+    {
+      "id": "return-to-first-principles",
+      "name": "Return to first principles",
+      "icon": "arrow-counter-clockwise",
+      "slot": "Evening",
+      "time": "20:30",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Choose one area of your life that has drifted: work, a friendship, a habit, a group you belong to. Write down why you began it and what its first principles were. Decide on one action that brings it back to them.",
+      "why": "Discourses III.1: states and religions must be brought back to their beginnings to live long, renewed either by good laws or by good examples.",
+      "variations": [
+        "Do it for a team or club.",
+        "Reread an old promise or mission statement.",
+        "Talk about it with someone involved."
+      ]
+    },
+    {
+      "id": "feared-or-loved",
+      "name": "Feared or loved",
+      "icon": "question",
+      "slot": "Evening",
+      "time": "20:00",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Read his chapter on whether it is better to be feared or loved, or the Onda’s idea on it. Think of a role you hold: parent, manager, friend. Ask honestly where you are trying to be loved at the cost of being respected, and where firmness would actually be kinder.",
+      "why": "He concludes it is safer to be feared, but insists above all on not being hated. The chapter is about the cost of weakness and the danger of cruelty.",
+      "variations": [
+        "Read The Prince, chapter 17.",
+        "Discuss it with someone.",
+        "Write your own answer."
+      ],
+      "action": "philosophy"
+    },
+    {
+      "id": "a-game-at-the-inn",
+      "name": "A game at the inn",
+      "icon": "cards",
+      "slot": "Evening",
+      "time": "19:30",
+      "minutes": 30,
+      "meta": "Evening · 30 min",
+      "instructions": "Play cards or backgammon with neighbours, family or friends in the evening, loudly and with good humour, as he did at the inn with the butcher and the miller. Let yourself argue over the score and laugh about it afterwards.",
+      "why": "His letter describes afternoons at cricca and tric-trac with locals, quarrelling over a penny and shouting so loudly they could be heard in San Casciano.",
+      "variations": [
+        "Play backgammon.",
+        "Play a simple trick-taking card game.",
+        "Invite someone you do not know well."
+      ]
+    },
+    {
+      "id": "the-comedy-of-affairs",
+      "name": "The comedy of affairs",
+      "icon": "mask-happy",
+      "slot": "Evening",
+      "time": "22:00",
+      "minutes": 20,
+      "meta": "Evening · 20 min",
+      "instructions": "Read or watch a comedy before bed, Mandragola if you can find it, or any sharp comedy of human folly. Laugh at the schemes, the vanity and the foolishness. Notice which characters you recognise in yourself.",
+      "why": "Machiavelli wrote Mandragola during his exile and called himself a historian, comic writer and tragic writer. Humour kept him sane.",
+      "variations": [
+        "Read Mandragola.",
+        "Watch a political satire.",
+        "Write a short comic scene from your own week."
+      ]
+    },
+    {
+      "id": "a-day-at-the-albergaccio",
+      "name": "A day at the Albergaccio",
+      "icon": "tree",
+      "slot": "Special",
+      "time": "08:00",
+      "minutes": 120,
+      "meta": "On a free day · 120 min",
+      "instructions": "Spend a day as he did in exile: some work outdoors in the morning, a walk, a long lunch with ordinary conversation, an afternoon of games or talk, and in the evening a change of clothes and two hours of serious reading and writing.",
+      "why": "His letter to Vettori describes this rhythm of days at Sant’Andrea in Percussina, out of which The Prince was born.",
+      "variations": [
+        "Work in a garden or allotment.",
+        "Write a page at the end of the day.",
+        "Invite a friend to share it."
+      ]
+    },
+    {
+      "id": "write-your-own-prince",
+      "name": "Write your own Prince",
+      "icon": "scroll",
+      "slot": "Special",
+      "time": "10:00",
+      "minutes": 90,
+      "meta": "Once in the Onda · 90 min",
+      "instructions": "Write a short treatise of advice, a few pages, for someone starting out in a role you know well: a new parent, a new manager, a new student. Be honest about how things really work, divide it into short chapters, and dedicate it to someone.",
+      "why": "The Prince is a short book of twenty-six chapters, written in a few months and dedicated to a Medici. Writing from experience is a way to master it.",
+      "variations": [
+        "Give it to the person it is for.",
+        "Write it as letters.",
+        "Add one chapter on fortune."
+      ]
+    }
+  ],
+  "tasks": [],
+  "rules": [
+    {
+      "id": "r1",
+      "text": "See what is, not what should be",
+      "why": "Begin from the effectual truth. Plans built on wishes collapse."
+    },
+    {
+      "id": "r2",
+      "text": "Build dikes in calm weather",
+      "why": "Fortune is like a flooding river. Prepare when things are quiet, not when the water rises."
+    },
+    {
+      "id": "r3",
+      "text": "Be fox and lion",
+      "why": "Be alert to traps and firm against threats. Cleverness without courage fails, and so does courage without cleverness."
+    },
+    {
+      "id": "r4",
+      "text": "Rely on your own arms",
+      "why": "Build your own skills and resources rather than depending on hired help or luck."
+    },
+    {
+      "id": "r5",
+      "text": "Beware of flatterers",
+      "why": "Choose wise counsellors and let them speak the truth freely. Flattery fills every court."
+    },
+    {
+      "id": "r6",
+      "text": "Love your city",
+      "why": "He served Florence in office and out of it. Give your community some of your work and thought."
+    }
+  ],
+  "immerse": {
+    "read": [
+      {
+        "id": "read-the-prince",
+        "title": "The Prince",
+        "creator": "Niccolò Machiavelli, trans. Harvey C. Mansfield",
+        "year": "1532",
+        "why": "The short treatise written in exile in 1513 for a Medici prince. Read it whole, in an afternoon, and judge for yourself."
+      },
+      {
+        "id": "read-discourses-on-livy",
+        "title": "Discourses on Livy",
+        "creator": "Niccolò Machiavelli, trans. Harvey C. Mansfield and Nathan Tarcov",
+        "year": "1531",
+        "why": "His long reflection on the Roman republic and how free states are founded, kept and renewed."
+      },
+      {
+        "id": "read-mandragola",
+        "title": "Mandragola",
+        "creator": "Niccolò Machiavelli",
+        "year": "c. 1518",
+        "why": "A wicked, funny comedy of a foolish husband, a clever lover and a mandrake potion. Performed with success in his lifetime."
+      },
+      {
+        "id": "read-niccolo-s-smile",
+        "title": "Niccolò’s Smile",
+        "creator": "Maurizio Viroli",
+        "year": "1998",
+        "why": "A warm biography of the man behind the reputation: witty, poor, loyal to Florence."
+      },
+      {
+        "id": "read-be-like-the-fox",
+        "title": "Be Like the Fox",
+        "creator": "Erica Benner",
+        "year": "2017",
+        "why": "A life told through his own words, arguing he was a moral republican who wrote with irony."
+      }
+    ],
+    "watch": [
+      {
+        "id": "watch-the-borgias",
+        "title": "The Borgias",
+        "creator": "Neil Jordan",
+        "year": "2011",
+        "why": "The television drama of Pope Alexander VI and Cesare Borgia, in which the young Machiavelli watches and learns."
+      },
+      {
+        "id": "watch-the-agony-and-the-ecstasy",
+        "title": "The Agony and the Ecstasy",
+        "creator": "Carol Reed",
+        "year": "1965",
+        "why": "Michelangelo and Pope Julius II, the warrior pope of Machiavelli’s years in office."
+      },
+      {
+        "id": "watch-medici-godfathers-of-the-renaissance",
+        "title": "Medici: Godfathers of the Renaissance",
+        "creator": "Justin Hardy",
+        "year": "2004",
+        "why": "A documentary series on the family who ruled Florence before and after the republic he served."
+      }
+    ],
+    "listen": [
+      {
+        "id": "listen-madrigals-for-mandragola",
+        "title": "Madrigals for Mandragola",
+        "creator": "Philippe Verdelot",
+        "year": "c. 1520",
+        "why": "Songs written for performances of Machiavelli’s comedies, to words by Machiavelli himself."
+      },
+      {
+        "id": "listen-canti-carnascialeschi",
+        "title": "Canti carnascialeschi",
+        "creator": "Florentine carnival songs",
+        "year": "late 15th century",
+        "why": "The bawdy, joyful songs of Florentine carnival, some by Lorenzo de’ Medici."
+      },
+      {
+        "id": "listen-quis-dabit-capiti-meo-aquam",
+        "title": "Quis dabit capiti meo aquam",
+        "creator": "Heinrich Isaac",
+        "year": "1492",
+        "why": "The lament for Lorenzo the Magnificent by the Medici court composer."
+      }
+    ],
+    "art": [
+      {
+        "id": "art-portrait-of-niccolo-machiavelli",
+        "title": "Portrait of Niccolò Machiavelli",
+        "creator": "Santi di Tito",
+        "year": "late 16th century",
+        "why": "The famous portrait in the Palazzo Vecchio, with the thin smile, painted after his death."
+      },
+      {
+        "id": "art-david",
+        "title": "David",
+        "creator": "Michelangelo",
+        "year": "1504",
+        "why": "The republic’s giant, set before the Palazzo della Signoria in Machiavelli’s years in office as a symbol of liberty."
+      },
+      {
+        "id": "art-the-battle-of-anghiari",
+        "title": "The Battle of Anghiari",
+        "creator": "Peter Paul Rubens, after Leonardo da Vinci",
+        "year": "c. 1603",
+        "why": "Rubens’ copy of Leonardo’s lost mural for the council hall, commissioned while Machiavelli served the republic."
+      },
+      {
+        "id": "art-portrait-of-leo-x-with-two-cardinals",
+        "title": "Portrait of Leo X with Two Cardinals",
+        "creator": "Raphael",
+        "year": "1518",
+        "why": "The Medici pope whose election in 1513 brought Machiavelli’s release from prison."
+      }
+    ],
+    "eat": [
+      {
+        "id": "eat-ribollita",
+        "title": "Ribollita",
+        "creator": "Tuscan bread and bean soup",
+        "why": "Reboiled soup of beans, black cabbage and stale bread, the food of Tuscan farmhouses like his."
+      },
+      {
+        "id": "eat-pane-sciocco",
+        "title": "Pane sciocco",
+        "creator": "Unsalted Tuscan bread",
+        "why": "The saltless bread of Florence, toasted and rubbed with garlic and new olive oil."
+      },
+      {
+        "id": "eat-fave-e-pecorino",
+        "title": "Fave e pecorino",
+        "creator": "Broad beans with sheep’s cheese",
+        "why": "Raw young broad beans eaten with pecorino in spring, a Tuscan custom of the countryside."
+      }
+    ],
+    "drink": [
+      {
+        "id": "drink-chianti",
+        "title": "Chianti",
+        "creator": "Red wine of the hills south of Florence",
+        "why": "His farm lay at the edge of the Chianti hills. A glass with supper, or red grape juice."
+      },
+      {
+        "id": "drink-vin-santo",
+        "title": "Vin Santo",
+        "creator": "Sweet straw wine",
+        "why": "Tuscany’s dessert wine, served with almond biscuits. Can be replaced by sweet grape juice."
+      },
+      {
+        "id": "drink-mosto",
+        "title": "Mosto",
+        "creator": "Fresh grape must",
+        "why": "The sweet unfermented juice of the grape harvest, drunk new in autumn on Tuscan farms."
+      }
+    ],
+    "customs": [
+      {
+        "id": "customs-robes-for-the-ancients",
+        "title": "Robes for the ancients",
+        "creator": "His evening study",
+        "why": "In exile he put on courtly clothes each evening to enter, as he wrote, the ancient courts of ancient men and question them."
+      },
+      {
+        "id": "customs-the-day-at-the-inn",
+        "title": "The day at the inn",
+        "creator": "Life in exile",
+        "why": "By day he snared thrushes, talked with passers-by at the inn and played cards with the butcher, the miller and the kilnmen."
+      },
+      {
+        "id": "customs-the-orti-oricellari",
+        "title": "The Orti Oricellari",
+        "creator": "A garden of conversation",
+        "why": "In the Rucellai gardens young Florentines met to discuss politics and history with him. The Discourses grew from these talks."
+      }
+    ],
+    "games": [
+      {
+        "id": "games-cricca",
+        "title": "Cricca",
+        "creator": "Card game",
+        "year": "16th century",
+        "why": "The card game he played at the inn with the locals, shouting and quarrelling over a penny."
+      },
+      {
+        "id": "games-tric-trac",
+        "title": "Tric-trac",
+        "creator": "Backgammon",
+        "year": "medieval",
+        "why": "The board game he played at the inn alongside cards."
+      },
+      {
+        "id": "games-calcio-storico",
+        "title": "Calcio storico",
+        "creator": "Florentine football",
+        "year": "16th century",
+        "why": "A violent team ball game played in Piazza Santa Croce, still held every June."
+      }
+    ],
+    "festivals": [
+      {
+        "id": "fest-feast-of-san-giovanni",
+        "title": "Feast of San Giovanni",
+        "creator": "Florence, 24 June",
+        "why": "The feast of the city’s patron saint, with the final of the calcio storico and fireworks over the Arno."
+      },
+      {
+        "id": "fest-scoppio-del-carro",
+        "title": "Scoppio del Carro",
+        "creator": "Florence, Easter Sunday",
+        "why": "The explosion of the cart before the cathedral, a Florentine custom from the Middle Ages."
+      },
+      {
+        "id": "fest-machiavelli-s-birthday",
+        "title": "Machiavelli’s birthday",
+        "creator": "3 May",
+        "why": "Born in Florence in 1469, the year Lorenzo the Magnificent came to power."
+      }
+    ],
+    "places": [
+      {
+        "id": "place-palazzo-vecchio",
+        "title": "Palazzo Vecchio",
+        "creator": "Piazza della Signoria, Florence",
+        "why": "The seat of the republic where he worked as secretary of the Second Chancery for fourteen years."
+      },
+      {
+        "id": "place-albergaccio",
+        "title": "Albergaccio",
+        "creator": "Sant’Andrea in Percussina, near San Casciano",
+        "why": "His farmhouse and the inn across the road, where he wrote The Prince."
+      },
+      {
+        "id": "place-basilica-of-santa-croce",
+        "title": "Basilica of Santa Croce",
+        "creator": "Florence",
+        "why": "His tomb, with the inscription: no praise is equal to so great a name."
+      },
+      {
+        "id": "place-orti-oricellari",
+        "title": "Orti Oricellari",
+        "creator": "Via della Scala, Florence",
+        "why": "The garden of the Rucellai where his circle met to talk history and politics."
+      }
+    ]
+  },
+  "ethics": [
+    {
+      "title": "Effectual truth",
+      "text": "Start from how things are, not how they should be. Honesty about reality comes before any plan.",
+      "practice": "Describe one situation today in plain facts, without wishes."
+    },
+    {
+      "title": "Civic virtue",
+      "text": "A free city needs citizens who give their energy and even their safety to it.",
+      "practice": "Do one thing for your town, neighbourhood or community."
+    },
+    {
+      "title": "Prudence",
+      "text": "Choose the lesser evil and foresee trouble early, while it can still be cured.",
+      "practice": "Name one problem you can still fix cheaply now, and fix it."
+    },
+    {
+      "title": "Self-reliance",
+      "text": "One’s own arms are safer than borrowed ones.",
+      "practice": "Learn or practise one skill you usually pay others for."
+    },
+    {
+      "title": "Frank counsel",
+      "text": "A wise prince asks for the truth and rewards those who tell it.",
+      "practice": "Ask someone for honest criticism and thank them."
+    },
+    {
+      "title": "Glory, not mere power",
+      "text": "He refused glory to those who won power by crime alone. How you rise matters.",
+      "practice": "Ask whether your ambition would be honoured if seen in full."
+    }
+  ],
+  "philosophy": [
+    {
+      "title": "Virtù and fortuna",
+      "text": "Half our affairs belong to chance, half to us. Virtù is the skill and energy to make the most of our half.",
+      "practice": "Divide one worry into what is fortune’s and what is yours."
+    },
+    {
+      "title": "The river of fortune",
+      "text": "Fortune is like a flooding river; prudent people build dikes in calm times.",
+      "practice": "What dike could you build this week against a likely flood?"
+    },
+    {
+      "title": "The effectual truth",
+      "text": "Many have imagined republics and principalities never seen. He goes to how things actually go.",
+      "practice": "Where are you living by an imagined world?"
+    },
+    {
+      "title": "Feared or loved",
+      "text": "Better to be both; if not, safer to be feared, but never hated. Read carefully, it is a warning about cruelty too.",
+      "practice": "Where are you trying to be loved at the cost of being respected?"
+    },
+    {
+      "title": "The fox and the lion",
+      "text": "Force alone is blind, cunning alone is weak. A leader needs both.",
+      "practice": "Which do you lack, the fox or the lion?"
+    },
+    {
+      "title": "Conflict and freedom",
+      "text": "Rome’s quarrels between the people and the senate produced the laws that kept it free.",
+      "practice": "What useful conflict in your group should not be suppressed?"
+    },
+    {
+      "title": "Return to beginnings",
+      "text": "Institutions decay unless brought back to their first principles.",
+      "practice": "What has drifted from its purpose in your life?"
+    },
+    {
+      "title": "The people and the great",
+      "text": "The great want to command; the people want not to be oppressed. He trusted the people more.",
+      "practice": "Who in your world wants to command, and who only wants not to be oppressed?"
+    }
+  ],
+  "journal": [
+    "What is the effectual truth of my biggest problem right now?",
+    "What part of today belonged to fortune, and what part to me?",
+    "What dike should I build in calm weather?",
+    "Where was I a lion today, and where a fox?",
+    "Who flatters me, and who tells me the truth?",
+    "What opportunity did I seize or let pass?",
+    "What do I rely on others for that I should do myself?",
+    "Where am I living in an imagined republic?",
+    "What would my enemies say about me, and is any of it true?",
+    "What did I do for my city or community today?",
+    "Which conflict around me is useful?",
+    "What principle have I drifted from?",
+    "When did necessity force my hand, and did I use it well?",
+    "Where am I feared, and where loved?",
+    "What would I write in a letter to a powerful friend tonight?",
+    "Which ancient author would I like to question?",
+    "What did I learn from a defeat?",
+    "Where does my ambition need good orders?",
+    "Whom would I choose as counsellors, and why?",
+    "What did I see that others did not want to see?",
+    "Where did I confuse cruelty with strength?",
+    "What did exile, or loss, teach me?",
+    "What do the people around me want not to suffer?",
+    "What lesser evil did I choose today?",
+    "What problem is still small enough to cure?",
+    "Who is a Cesare Borgia in my life, admired and dangerous?",
+    "What would a free and well-ordered life look like for me?",
+    "What made me laugh at the comedy of human affairs?",
+    "What do I love more than my own comfort?",
+    "What has this Onda taught me about seeing clearly?"
+  ],
+  "reflect": [
+    "What did you learn by looking at things as they are?",
+    "How did you divide fortune’s part and yours?",
+    "Where did you build dikes, and did they hold?",
+    "What did you give to your community?",
+    "Did you find the fox and the lion in yourself?",
+    "What will you keep from Machiavelli, and what will you leave?"
+  ],
+  "dayThemes": [
+    "Effectual truth",
+    "Fortune",
+    "Virtù",
+    "The river",
+    "Dikes",
+    "Opportunity",
+    "Necessity",
+    "The fox",
+    "The lion",
+    "Own arms",
+    "Flatterers",
+    "Counsel",
+    "The people",
+    "The great",
+    "Tumults",
+    "First principles",
+    "The republic",
+    "Exile",
+    "The inn",
+    "The ancients",
+    "Florence",
+    "Glory",
+    "Ambition",
+    "Prudence",
+    "The lesser evil",
+    "Comedy",
+    "Feared and loved",
+    "Rome",
+    "Service",
+    "Clear sight"
+  ],
+  "guide": {
+    "intro": [
+      "Niccolò Machiavelli was born in Florence in 1469, the year Lorenzo de’ Medici came to power. His father was a lawyer of modest means with a library, and the boy grew up on Latin and on Livy’s history of Rome. When the Medici were driven out in 1494 and the friar Savonarola fell in 1498, the twenty-nine-year-old Machiavelli was elected secretary of the Second Chancery of the republic.",
+      "For fourteen years he served Florence as a civil servant and diplomat. He rode on missions to the King of France, the Emperor, the Pope and above all to Cesare Borgia, whose ruthless campaign in the Romagna he watched up close in 1502. He organised a citizen militia, convinced that mercenaries had ruined Italy.",
+      "In 1512 Spanish troops restored the Medici and the republic fell. Machiavelli lost his office, was accused of conspiracy, imprisoned and tortured with the rope, and released in an amnesty. He retired to his small farm at Sant’Andrea in Percussina. There, in 1513, he wrote The Prince, hoping to win the favour of the new rulers.",
+      "He described his days in a famous letter to his friend Francesco Vettori: snaring birds, talking with travellers, playing cards at the inn, and at evening putting on fine clothes to enter his study and converse with the ancients. Out of those conversations came The Prince and the much longer Discourses on Livy, a defence of free republics.",
+      "He also wrote comedies, a history of Florence, a treatise on the art of war and witty letters. The Medici slowly gave him small tasks. When they fell again in 1527 the restored republic did not trust him, and he died that June. His name became a byword for cunning, but many readers see a republican patriot who looked at power without illusions so that free people could defend themselves.",
+      "This Onda takes from Machiavelli the habit of seeing clearly, preparing for fortune, relying on yourself, asking for honest counsel, serving your community and keeping your humour in adversity. It does not take the cruelty he described. It also takes you to Florence, its palace, its farms and its taverns."
+    ],
+    "origin": "Florence and its countryside, with diplomatic journeys to France, Rome and the Empire",
+    "era": "Machiavelli was born in 1469 and died in 1527, in the years of the Italian Wars, the Florentine Republic and the return of the Medici",
+    "figures": [
+      {
+        "name": "Niccolò Machiavelli",
+        "dates": "1469 to 1527",
+        "bio": "Secretary, diplomat, political thinker, historian, playwright and poet. Thin, sharp-tongued and fond of a joke."
+      },
+      {
+        "name": "Piero Soderini",
+        "dates": "1450 to 1522",
+        "bio": "Gonfaloniere for life of the republic from 1502, Machiavelli’s patron in office."
+      },
+      {
+        "name": "Cesare Borgia",
+        "dates": "1475 to 1507",
+        "bio": "Son of Pope Alexander VI, whose swift, ruthless conquests Machiavelli observed and analysed."
+      },
+      {
+        "name": "Lorenzo di Piero de' Medici",
+        "dates": "1492 to 1519",
+        "bio": "Duke of Urbino, to whom The Prince was finally dedicated."
+      },
+      {
+        "name": "Francesco Vettori",
+        "dates": "1474 to 1539",
+        "bio": "Florentine ambassador in Rome and Machiavelli’s friend, recipient of his greatest letters."
+      },
+      {
+        "name": "Francesco Guicciardini",
+        "dates": "1483 to 1540",
+        "bio": "Historian and statesman, a friend and a more sceptical reader of Machiavelli."
+      },
+      {
+        "name": "Marietta Corsini",
+        "dates": "died 1553",
+        "bio": "His wife, mother of their six children, who managed the household through his poverty."
+      },
+      {
+        "name": "Girolamo Savonarola",
+        "dates": "1452 to 1498",
+        "bio": "The Dominican preacher who ruled Florence’s conscience until his execution. An unarmed prophet, Machiavelli wrote."
+      },
+      {
+        "name": "Pope Leo X",
+        "dates": "1475 to 1521",
+        "bio": "Giovanni de’ Medici, whose election in 1513 brought the amnesty that freed Machiavelli."
+      },
+      {
+        "name": "Leonardo da Vinci",
+        "dates": "1452 to 1519",
+        "bio": "Worked for Cesare Borgia when Machiavelli met him, and on a plan to divert the Arno with him."
+      }
+    ],
+    "history": [
+      {
+        "when": "3 May 1469",
+        "what": "Born in Florence",
+        "detail": "To Bernardo Machiavelli, a lawyer, and Bartolomea de’ Nelli, in the year Lorenzo de’ Medici took power."
+      },
+      {
+        "when": "1494",
+        "what": "The Medici expelled",
+        "detail": "French invasion. The Medici flee and Savonarola dominates the restored republic."
+      },
+      {
+        "when": "1498",
+        "what": "Secretary of the Second Chancery",
+        "detail": "Weeks after Savonarola’s execution, Machiavelli is elected to office in the republic."
+      },
+      {
+        "when": "1500",
+        "what": "Mission to France",
+        "detail": "His first major embassy, to King Louis XII. He learns how little Florence counts."
+      },
+      {
+        "when": "1502",
+        "what": "With Cesare Borgia",
+        "detail": "He follows Borgia’s court and witnesses the massacre at Senigallia."
+      },
+      {
+        "when": "1506",
+        "what": "The militia",
+        "detail": "He organises a Florentine militia of citizens to replace mercenaries."
+      },
+      {
+        "when": "1509",
+        "what": "Pisa retaken",
+        "detail": "The militia helps Florence recover Pisa after fifteen years of war."
+      },
+      {
+        "when": "1512",
+        "what": "The republic falls",
+        "detail": "The militia is routed at Prato. The Medici return and Machiavelli is dismissed."
+      },
+      {
+        "when": "1513",
+        "what": "Prison and The Prince",
+        "detail": "Tortured in the Boscoli conspiracy affair, released in the papal amnesty, he writes The Prince on his farm."
+      },
+      {
+        "when": "c. 1517",
+        "what": "Discourses on Livy",
+        "detail": "He completes his reflections on republics, shaped by talks in the Orti Oricellari."
+      },
+      {
+        "when": "c. 1518",
+        "what": "Mandragola",
+        "detail": "His comedy is staged and becomes a hit."
+      },
+      {
+        "when": "1520",
+        "what": "Florentine Histories",
+        "detail": "Cardinal Giulio de’ Medici commissions a history of Florence, presented in 1525."
+      },
+      {
+        "when": "1521",
+        "what": "The Art of War",
+        "detail": "The only political work printed in his lifetime."
+      },
+      {
+        "when": "21 June 1527",
+        "what": "Death in Florence",
+        "detail": "Weeks after the Sack of Rome and the Medici’s fall, passed over by the new republic, he dies."
+      },
+      {
+        "when": "1532",
+        "what": "The Prince published",
+        "detail": "Printed five years after his death, it soon becomes notorious across Europe."
+      }
+    ],
+    "concepts": [
+      {
+        "term": "Virtù",
+        "text": "Effective excellence.",
+        "detail": "The energy, skill and resolve to act well in circumstances. It can include boldness and adaptability, and is not the same as Christian virtue."
+      },
+      {
+        "term": "Fortuna",
+        "text": "Chance and circumstance.",
+        "detail": "Fortune governs half our actions. Like a river it can be held by dikes; like a goddess it favours the bold and the young, he wrote."
+      },
+      {
+        "term": "The effectual truth",
+        "text": "Realism.",
+        "detail": "He breaks with mirror-for-princes books that describe ideal rulers and asks how power actually works."
+      },
+      {
+        "term": "Fox and lion",
+        "text": "Cunning and force.",
+        "detail": "A ruler must imitate both: the fox to recognise traps, the lion to frighten wolves."
+      },
+      {
+        "term": "Feared rather than loved",
+        "text": "If one must choose.",
+        "detail": "Love is held by gratitude, which people break; fear by punishment, which never fails. But a prince must avoid hatred above all."
+      },
+      {
+        "term": "The mixed republic",
+        "text": "Liberty through conflict.",
+        "detail": "In the Discourses, Rome’s strength came from balancing people, senate and consuls, and from open conflict between them."
+      },
+      {
+        "term": "Own arms",
+        "text": "Self-reliance.",
+        "detail": "Mercenaries and auxiliaries are useless and dangerous. Only one’s own troops, and one’s own abilities, can be trusted."
+      },
+      {
+        "term": "Return to first principles",
+        "text": "Renewal.",
+        "detail": "States and religions decay; they must be brought back to their beginnings by laws or by exemplary people."
+      },
+      {
+        "term": "Necessity",
+        "text": "What must be done.",
+        "detail": "Many good deeds come from necessity. A wise founder uses necessity and even creates it to make people good."
+      }
+    ],
+    "facts": [
+      {
+        "text": "The Prince was written in 1513 but printed only in 1532, after his death."
+      },
+      {
+        "text": "He was tortured with six drops of the rope in 1513 and wrote sonnets about prison afterwards."
+      },
+      {
+        "text": "His comedy Mandragola was a hit in his lifetime and is still performed."
+      },
+      {
+        "text": "He helped plan, with Leonardo da Vinci, a failed scheme to divert the Arno away from Pisa."
+      },
+      {
+        "text": "His tomb in Santa Croce carries the Latin words: no praise is equal to so great a name."
+      },
+      {
+        "text": "The phrase the end justifies the means does not appear in his works."
+      },
+      {
+        "text": "He signed letters as historian, comic writer and tragic writer."
+      },
+      {
+        "text": "The Catholic Church put his works on the Index of Forbidden Books in 1559."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Virtù",
+        "meaning": "Skill and energy in action"
+      },
+      {
+        "term": "Fortuna",
+        "meaning": "Fortune, chance"
+      },
+      {
+        "term": "Second Chancery",
+        "meaning": "The office of the Florentine republic he served"
+      },
+      {
+        "term": "Gonfaloniere",
+        "meaning": "Head of the Florentine government"
+      },
+      {
+        "term": "Condottiere",
+        "meaning": "A mercenary captain"
+      },
+      {
+        "term": "Discourses",
+        "meaning": "His commentary on Livy and the Roman republic"
+      }
+    ],
+    "furtherReading": [
+      {
+        "title": "Niccolò’s Smile",
+        "creator": "Maurizio Viroli",
+        "year": "1998",
+        "note": "A life that shows his humour and humanity."
+      },
+      {
+        "title": "Be Like the Fox",
+        "creator": "Erica Benner",
+        "year": "2017",
+        "note": "A biography reading him as an ironic republican moralist."
+      },
+      {
+        "title": "Machiavelli: A Very Short Introduction",
+        "creator": "Quentin Skinner",
+        "year": "1981",
+        "note": "The clearest short account of his thought in its context."
+      },
+      {
+        "title": "Machiavelli: His Life and Times",
+        "creator": "Alexander Lee",
+        "year": "2020",
+        "note": "A full, vivid modern biography."
+      }
+    ],
+    "learnFrom": [
+      {
+        "name": "Museo di Palazzo Vecchio",
+        "note": "The palace where he worked, with its council hall and his portrait."
+      },
+      {
+        "name": "Casa di Machiavelli, Sant’Andrea in Percussina",
+        "note": "His farmhouse and the inn across the road, open to visitors."
+      },
+      {
+        "name": "Quentin Skinner’s lectures on Machiavelli",
+        "note": "Recorded talks by the leading historian of his thought."
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Prince",
+        "creator": "Niccolò Machiavelli, trans. Harvey C. Mansfield",
+        "publisher": "University of Chicago Press",
+        "year": "1985"
+      },
+      {
+        "title": "Discourses on Livy",
+        "creator": "Niccolò Machiavelli, trans. Harvey C. Mansfield and Nathan Tarcov",
+        "publisher": "University of Chicago Press",
+        "year": "1996"
+      },
+      {
+        "title": "Machiavelli: A Very Short Introduction",
+        "creator": "Quentin Skinner",
+        "publisher": "Oxford University Press",
+        "year": "1981"
+      },
+      {
+        "title": "Niccolò’s Smile",
+        "creator": "Maurizio Viroli, trans. Antony Shugaar",
+        "publisher": "Farrar, Straus and Giroux",
+        "year": "2000"
+      },
+      {
+        "title": "Machiavelli and His Friends: Their Personal Correspondence",
+        "creator": "James B. Atkinson and David Sices, eds. and trans.",
+        "publisher": "Northern Illinois University Press",
+        "year": "1996"
+      },
+      {
+        "title": "Machiavelli: His Life and Times",
+        "creator": "Alexander Lee",
+        "publisher": "Picador",
+        "year": "2020"
+      }
+    ]
+  },
+  "sensitivity": {
+    "note": "Machiavelli described cruelty and deceit in politics without flinching, and his name became a byword for manipulation. This Onda takes his clear sight, prudence, self-reliance and love of his city. It never asks you to deceive, manipulate or harm anyone.",
+    "requiredCaveats": [
+      "The Prince describes how power was won and kept in violent times. Describing is not recommending, and nothing here applies it to personal relationships.",
+      "Scholars still argue whether The Prince is sincere advice, satire or a warning to the people.",
+      "Wine appears as part of Tuscan culture; every drink practice can be done with juice instead."
+    ],
+    "reviewRequired": false
+  },
+  "immersePlan": [
+    {
+      "kind": "read",
+      "item": "read-the-prince",
+      "name": "Read The Prince in one afternoon",
+      "text": "Read The Prince whole in an afternoon, as it is short. Note where it shocks you and where it simply describes what you have seen.",
+      "minutes": 120
+    },
+    {
+      "kind": "read",
+      "item": "read-discourses-on-livy",
+      "name": "Read the Discourses on liberty",
+      "text": "Read Discourses Book I, chapters 4 and 5, on how the quarrels of Rome kept it free and who should guard liberty.",
+      "minutes": 30
+    },
+    {
+      "kind": "read",
+      "item": "read-mandragola",
+      "name": "Read Mandragola",
+      "text": "Read his comedy Mandragola and laugh at the schemers. Notice how cleverly everyone gets what they want.",
+      "minutes": 60
+    },
+    {
+      "kind": "watch",
+      "item": "watch-the-borgias",
+      "name": "Watch the young Machiavelli",
+      "text": "Watch an episode of The Borgias where Machiavelli appears, and compare it with what he wrote about Cesare Borgia.",
+      "minutes": 55
+    },
+    {
+      "kind": "watch",
+      "item": "watch-the-agony-and-the-ecstasy",
+      "name": "Watch The Agony and the Ecstasy",
+      "text": "Watch the film of Michelangelo and Pope Julius II, the warrior pope of Machiavelli’s years in office.",
+      "minutes": 140
+    },
+    {
+      "kind": "watch",
+      "item": "watch-medici-godfathers-of-the-renaissance",
+      "name": "Watch the story of the Medici",
+      "text": "Watch the episodes on Lorenzo the Magnificent and the return of the Medici in 1512.",
+      "minutes": 55
+    },
+    {
+      "kind": "listen",
+      "item": "listen-madrigals-for-mandragola",
+      "name": "Listen to the Mandragola songs",
+      "text": "Listen to Verdelot’s songs written for performances of Mandragola, to Machiavelli’s own words.",
+      "minutes": 20
+    },
+    {
+      "kind": "listen",
+      "item": "listen-canti-carnascialeschi",
+      "name": "Listen to Florentine carnival songs",
+      "text": "Listen to the carnival songs of Florence, bawdy and joyful, from Lorenzo the Magnificent’s city.",
+      "minutes": 20
+    },
+    {
+      "kind": "listen",
+      "item": "listen-quis-dabit-capiti-meo-aquam",
+      "name": "Listen to the lament for Lorenzo",
+      "text": "Listen to Heinrich Isaac’s lament for Lorenzo de’ Medici, sung in the year the old order began to fall.",
+      "minutes": 10
+    },
+    {
+      "kind": "art",
+      "item": "art-portrait-of-niccolo-machiavelli",
+      "name": "Look at his smile",
+      "text": "Look at Santi di Tito’s portrait in the Palazzo Vecchio. What does the thin smile tell you?",
+      "minutes": 10
+    },
+    {
+      "kind": "art",
+      "item": "art-david",
+      "name": "Look at the republic’s David",
+      "text": "Look at Michelangelo’s David and remember it was placed before the seat of government as a symbol of a free republic.",
+      "minutes": 15
+    },
+    {
+      "kind": "art",
+      "item": "art-the-battle-of-anghiari",
+      "name": "Look at the lost battle",
+      "text": "Look at Rubens’ copy of Leonardo’s lost Battle of Anghiari, painted for the council hall in Machiavelli’s time.",
+      "minutes": 10
+    },
+    {
+      "kind": "eat",
+      "item": "eat-ribollita",
+      "name": "Cook a ribollita",
+      "text": "Cook ribollita with beans, black cabbage and stale bread, and eat it the next day, reboiled, as Tuscans do.",
+      "minutes": 90
+    },
+    {
+      "kind": "eat",
+      "item": "eat-pane-sciocco",
+      "name": "Toast Tuscan bread",
+      "text": "Toast unsalted bread, rub it with garlic and pour new olive oil over it: fettunta.",
+      "minutes": 15
+    },
+    {
+      "kind": "eat",
+      "item": "eat-fave-e-pecorino",
+      "name": "Eat broad beans and pecorino",
+      "text": "In spring, eat raw young broad beans with pecorino and bread outdoors, as on a Tuscan farm.",
+      "minutes": 20
+    },
+    {
+      "kind": "drink",
+      "item": "drink-chianti",
+      "name": "Taste the hills of his farm",
+      "text": "Taste a Chianti with supper, or a red grape juice, and look at a map of the hills around San Casciano.",
+      "minutes": 20
+    },
+    {
+      "kind": "drink",
+      "item": "drink-vin-santo",
+      "name": "Dip cantucci in Vin Santo",
+      "text": "Dip almond biscuits in Vin Santo, or in sweet grape juice, after dinner with friends.",
+      "minutes": 15
+    },
+    {
+      "kind": "drink",
+      "item": "drink-mosto",
+      "name": "Drink fresh grape must",
+      "text": "At harvest time, drink fresh grape must or unfiltered grape juice, the taste of the Tuscan autumn.",
+      "minutes": 10
+    },
+    {
+      "kind": "customs",
+      "item": "customs-robes-for-the-ancients",
+      "name": "Dress for an evening of reading",
+      "text": "Change into good clothes in the evening and read an ancient author for an hour, as he did in exile.",
+      "minutes": 60
+    },
+    {
+      "kind": "customs",
+      "item": "customs-the-day-at-the-inn",
+      "name": "Talk with passers-by",
+      "text": "Spend an hour at a café or bar talking with whoever is there, asking about their lives and news.",
+      "minutes": 60
+    },
+    {
+      "kind": "customs",
+      "item": "customs-the-orti-oricellari",
+      "name": "Host a garden conversation",
+      "text": "Meet friends in a garden or park to discuss one question of politics or history, as his circle did.",
+      "minutes": 60
+    },
+    {
+      "kind": "games",
+      "item": "games-tric-trac",
+      "name": "Play backgammon",
+      "text": "Play backgammon, the tric-trac of his inn, with someone, keeping score loudly.",
+      "minutes": 40
+    },
+    {
+      "kind": "games",
+      "item": "games-cricca",
+      "name": "Play a Florentine card game",
+      "text": "Play a simple Italian card game such as scopa or briscola with friends, in the spirit of his cricca.",
+      "minutes": 40
+    },
+    {
+      "kind": "games",
+      "item": "games-calcio-storico",
+      "name": "Watch calcio storico",
+      "text": "Watch footage of calcio storico in Piazza Santa Croce and read its rules. Notice the city behind the game.",
+      "minutes": 20
+    },
+    {
+      "kind": "travel",
+      "item": "place-palazzo-vecchio",
+      "name": "Visit his palace",
+      "text": "Visit, or explore online, the Palazzo Vecchio, where he worked for the republic, and find his portrait.",
+      "minutes": 60
+    },
+    {
+      "kind": "travel",
+      "item": "place-albergaccio",
+      "name": "Visit his farm and inn",
+      "text": "Visit, or explore online, the Albergaccio at Sant’Andrea in Percussina, where he wrote The Prince.",
+      "minutes": 60
+    },
+    {
+      "kind": "travel",
+      "item": "place-basilica-of-santa-croce",
+      "name": "Visit his tomb",
+      "text": "Visit, or explore online, his tomb in Santa Croce and read its inscription.",
+      "minutes": 45
+    },
+    {
+      "kind": "words",
+      "item": "word-virtu",
+      "name": "Learn the word virtù",
+      "text": "Learn virtù, effective excellence, and name one act of it you managed today."
+    },
+    {
+      "kind": "words",
+      "item": "word-fortuna",
+      "name": "Learn the word fortuna",
+      "text": "Learn fortuna, fortune, and notice where it helped or hindered you today."
+    },
+    {
+      "kind": "words",
+      "item": "word-verita-effettuale",
+      "name": "Learn verità effettuale",
+      "text": "Learn verità effettuale, the effectual truth, and use it to describe one situation plainly."
+    }
+  ]
+}

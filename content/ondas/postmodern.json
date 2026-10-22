@@ -1,0 +1,1646 @@
+{
+  "version": 1,
+  "id": "postmodern",
+  "name": "Postmodernism",
+  "origin": "Paris, New York and Las Vegas",
+  "era": "The 1960s to the 1990s, and the world it left us",
+  "tone": "purple",
+  "icon": "quotes",
+  "font": "syne",
+  "pattern": "memphis",
+  "glyph": "Simulacre",
+  "line": "Question the grand stories, play with the pieces, and be kind without a final answer.",
+  "quote": {
+    "text": "Simplifying to the extreme, I define postmodern as incredulity toward metanarratives.",
+    "by": "Jean-François Lyotard",
+    "source": "The Postmodern Condition, 1979, introduction, trans. Geoff Bennington and Brian Massumi"
+  },
+  "quotes": [
+    {
+      "text": "The birth of the reader must be at the cost of the death of the Author.",
+      "by": "Roland Barthes",
+      "source": "The Death of the Author, 1967, trans. Stephen Heath"
+    },
+    {
+      "text": "There is nothing outside the text.",
+      "by": "Jacques Derrida",
+      "source": "Of Grammatology, 1967, trans. Gayatri Chakravorty Spivak; il n’y a pas de hors-texte"
+    },
+    {
+      "text": "The simulacrum is never what hides the truth; it is the truth that hides the fact that there is none. The simulacrum is true.",
+      "by": "Jean Baudrillard, citing a made-up Ecclesiastes",
+      "source": "Simulacra and Simulation, 1981, opening epigraph, trans. Sheila Faria Glaser"
+    },
+    {
+      "text": "Less is a bore.",
+      "by": "Robert Venturi",
+      "source": "Complexity and Contradiction in Architecture, 1966, answering Mies van der Rohe’s less is more"
+    },
+    {
+      "text": "A Coke is a Coke and no amount of money can get you a better Coke than the one the bum on the corner is drinking.",
+      "by": "Andy Warhol",
+      "source": "The Philosophy of Andy Warhol, 1975"
+    },
+    {
+      "text": "Liberals are the people who think that cruelty is the worst thing we do.",
+      "by": "Richard Rorty, following Judith Shklar",
+      "source": "Contingency, Irony, and Solidarity, 1989, introduction"
+    }
+  ],
+  "words": [
+    {
+      "id": "word-metarecit",
+      "term": "Métarécit",
+      "meaning": "Metanarrative, grand narrative",
+      "pronunciation": "may-tah-ray-SEE",
+      "language": "French",
+      "usage": "A big story that claims to explain and justify everything: progress, emancipation, the march of reason. Lyotard’s target."
+    },
+    {
+      "id": "word-petits-recits",
+      "term": "Petits récits",
+      "meaning": "Little narratives",
+      "pronunciation": "puh-TEE ray-SEE",
+      "language": "French",
+      "usage": "Local, modest stories that do not claim to be the whole truth. Lyotard’s alternative."
+    },
+    {
+      "id": "word-differend",
+      "term": "Différend",
+      "meaning": "Dispute without a common rule",
+      "pronunciation": "dee-fay-RAHN",
+      "language": "French",
+      "usage": "A conflict between parties that cannot be judged fairly because they lack a shared language. Lyotard’s book of 1983."
+    },
+    {
+      "id": "word-deconstruction",
+      "term": "Déconstruction",
+      "meaning": "Deconstruction",
+      "pronunciation": "day-kon-strook-SYOHN",
+      "language": "French",
+      "usage": "Derrida’s way of reading a text against itself, showing how its key oppositions undo themselves."
+    },
+    {
+      "id": "word-differance",
+      "term": "Différance",
+      "meaning": "Difference and deferral",
+      "pronunciation": "dee-fay-RAHNS",
+      "language": "French",
+      "usage": "Derrida’s coinage, spelt with an a you cannot hear: meaning is always differing and deferred, never fully present."
+    },
+    {
+      "id": "word-logocentrisme",
+      "term": "Logocentrisme",
+      "meaning": "Logocentrism",
+      "pronunciation": "loh-goh-sahn-TREEZM",
+      "language": "French",
+      "usage": "The Western faith in a final presence of meaning behind words, which Derrida questions."
+    },
+    {
+      "id": "word-trace",
+      "term": "Trace",
+      "meaning": "Trace",
+      "pronunciation": "trahs",
+      "language": "French",
+      "usage": "The mark of what is absent that every sign carries within it."
+    },
+    {
+      "id": "word-aporia",
+      "term": "Aporia",
+      "meaning": "Impasse",
+      "pronunciation": "ah-POH-ree-ah",
+      "language": "Greek, used in theory",
+      "usage": "A point where an argument reaches an undecidable contradiction."
+    },
+    {
+      "id": "word-simulacre",
+      "term": "Simulacre",
+      "meaning": "Simulacrum",
+      "pronunciation": "see-moo-LAHKR",
+      "language": "French",
+      "usage": "A copy without an original. Baudrillard’s word for images that no longer refer to anything real."
+    },
+    {
+      "id": "word-hyperrealite",
+      "term": "Hyperréalité",
+      "meaning": "Hyperreality",
+      "pronunciation": "ee-pair-ray-ah-lee-TAY",
+      "language": "French",
+      "usage": "A world of simulations that seem more real than the real, like Disneyland in Baudrillard’s account."
+    },
+    {
+      "id": "word-le-desert-du-reel",
+      "term": "Le désert du réel",
+      "meaning": "The desert of the real",
+      "pronunciation": "luh day-ZAIR doo ray-EL",
+      "language": "French",
+      "usage": "Baudrillard’s phrase for what is left of reality, borrowed by The Matrix."
+    },
+    {
+      "id": "word-la-mort-de-l-auteur",
+      "term": "La mort de l'auteur",
+      "meaning": "The death of the author",
+      "pronunciation": "lah mor duh loh-TUHR",
+      "language": "French",
+      "usage": "Barthes’ claim that a text’s meaning is made by the reader, not fixed by the writer’s intention."
+    },
+    {
+      "id": "word-jouissance",
+      "term": "Jouissance",
+      "meaning": "Bliss, enjoyment",
+      "pronunciation": "zhwee-SAHNS",
+      "language": "French",
+      "usage": "In Barthes the overwhelming pleasure of the text that unsettles the reader."
+    },
+    {
+      "id": "word-intertextualite",
+      "term": "Intertextualité",
+      "meaning": "Intertextuality",
+      "pronunciation": "an-tair-tex-too-ah-lee-TAY",
+      "language": "French",
+      "usage": "Julia Kristeva’s term: every text is woven from other texts."
+    },
+    {
+      "id": "word-bricolage",
+      "term": "Bricolage",
+      "meaning": "Tinkering with what is at hand",
+      "pronunciation": "bree-koh-LAHZH",
+      "language": "French",
+      "usage": "Lévi-Strauss’s word for building meaning from scraps, taken up for postmodern collage."
+    },
+    {
+      "id": "word-episteme",
+      "term": "Épistémè",
+      "meaning": "Episteme",
+      "pronunciation": "ay-pee-stay-MAY",
+      "language": "French",
+      "usage": "Foucault’s word for the hidden rules that decide what counts as knowledge in an age."
+    },
+    {
+      "id": "word-pouvoir-savoir",
+      "term": "Pouvoir-savoir",
+      "meaning": "Power-knowledge",
+      "pronunciation": "poo-VWAHR sah-VWAHR",
+      "language": "French",
+      "usage": "Foucault’s idea that power and knowledge produce each other."
+    },
+    {
+      "id": "word-panoptique",
+      "term": "Panoptique",
+      "meaning": "Panopticon",
+      "pronunciation": "pah-nop-TEEK",
+      "language": "French",
+      "usage": "Bentham’s prison design where all are visible to an unseen guard, Foucault’s image of modern discipline."
+    },
+    {
+      "id": "word-rhizome",
+      "term": "Rhizome",
+      "meaning": "Rhizome",
+      "pronunciation": "ree-ZOHM",
+      "language": "French",
+      "usage": "Deleuze and Guattari’s model of thought as a root network with no centre, against the tree."
+    },
+    {
+      "id": "word-pastiche",
+      "term": "Pastiche",
+      "meaning": "Pastiche",
+      "pronunciation": "pas-TEESH",
+      "language": "French, also English",
+      "usage": "Imitation of styles without satire. Jameson called it blank parody."
+    },
+    {
+      "id": "word-double-coding",
+      "term": "Double coding",
+      "meaning": "Speaking to two audiences",
+      "pronunciation": "DUB-ul KOH-ding",
+      "language": "English",
+      "usage": "Charles Jencks’ term for buildings that speak to architects and to the public at once."
+    },
+    {
+      "id": "word-metafiction",
+      "term": "Metafiction",
+      "meaning": "Fiction about fiction",
+      "pronunciation": "MET-uh-fik-shun",
+      "language": "English",
+      "usage": "Stories that show themselves being made, as in Calvino or Vonnegut."
+    },
+    {
+      "id": "word-mise-en-abyme",
+      "term": "Mise en abyme",
+      "meaning": "Placing into the abyss",
+      "pronunciation": "meez ahn ah-BEEM",
+      "language": "French",
+      "usage": "A story within a story, an image within an image, reflecting the whole."
+    },
+    {
+      "id": "word-irony",
+      "term": "Irony",
+      "meaning": "Irony",
+      "pronunciation": "EYE-ruh-nee",
+      "language": "English",
+      "usage": "Saying one thing and meaning another. For Rorty, the ironist knows her own final vocabulary could be otherwise."
+    },
+    {
+      "id": "word-final-vocabulary",
+      "term": "Final vocabulary",
+      "meaning": "One’s last words of justification",
+      "pronunciation": "FY-nul voh-KAB-yoo-leh-ree",
+      "language": "English",
+      "usage": "Rorty’s term for the words we use to justify our lives, beyond which we have only circular argument."
+    },
+    {
+      "id": "word-cyborg",
+      "term": "Cyborg",
+      "meaning": "Cybernetic organism",
+      "pronunciation": "SY-borg",
+      "language": "English",
+      "usage": "Donna Haraway’s figure in A Cyborg Manifesto, 1985, for a self that mixes nature and machine and refuses pure identities."
+    },
+    {
+      "id": "word-hantologie",
+      "term": "Hantologie",
+      "meaning": "Hauntology",
+      "pronunciation": "ahn-toh-loh-ZHEE",
+      "language": "French",
+      "usage": "Derrida’s pun on ontology: the past and lost futures haunt the present like ghosts."
+    },
+    {
+      "id": "word-ecriture",
+      "term": "Écriture",
+      "meaning": "Writing",
+      "pronunciation": "ay-kree-TOOR",
+      "language": "French",
+      "usage": "In Barthes and Derrida, writing in a broad sense, the play of signs that comes before any speaker."
+    },
+    {
+      "id": "word-signifiant",
+      "term": "Signifiant",
+      "meaning": "Signifier",
+      "pronunciation": "see-nyee-FYAHN",
+      "language": "French",
+      "usage": "The sound or mark of a sign, as distinct from what it means. The play of signifiers is endless, said the theorists."
+    },
+    {
+      "id": "word-new-sincerity",
+      "term": "New Sincerity",
+      "meaning": "A return to feeling",
+      "pronunciation": "noo sin-SAIR-ih-tee",
+      "language": "English",
+      "usage": "The turn after irony, called for by David Foster Wallace and others, to say what one means again."
+    },
+    {
+      "id": "word-metamodernism",
+      "term": "Metamodernism",
+      "meaning": "After postmodernism",
+      "pronunciation": "met-uh-MOD-er-niz-um",
+      "language": "English",
+      "usage": "A name for the oscillation between modern hope and postmodern irony in culture since the 2000s."
+    }
+  ],
+  "practices": [
+    {
+      "id": "who-tells-this-story",
+      "name": "Who tells this story",
+      "icon": "newspaper",
+      "slot": "Morning",
+      "time": "07:00",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Read one news story or long post this morning and ask four questions about it: who is telling it, from where, to whom and to what end? Notice the words chosen for each side, the photo, the headline and what comes first. Then find the same story told by someone else and compare.",
+      "why": "Lyotard saw the end of trust in grand stories. The habit that follows is simple: every account has a narrator and a frame, and noticing them is the first step to reading well.",
+      "variations": [
+        "Do it with an advert.",
+        "Do it with a story your friends all share.",
+        "Do it with your own social media post."
+      ]
+    },
+    {
+      "id": "a-little-story",
+      "name": "A little story",
+      "icon": "pencil",
+      "slot": "Morning",
+      "time": "07:20",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Instead of a grand plan for your life, write a small story of this morning in five sentences: one real detail, one person, one feeling, one surprise, one hope. Keep it modest and true. Let it be enough.",
+      "why": "Against the grand narratives Lyotard set petits récits, little narratives that do not claim to explain everything. They are often truer for being small.",
+      "variations": [
+        "Write it as a postcard.",
+        "Write it from someone else’s point of view.",
+        "Write one each morning of the Onda."
+      ]
+    },
+    {
+      "id": "read-the-margins",
+      "name": "Read the margins",
+      "icon": "magnifying-glass",
+      "slot": "Morning",
+      "time": "07:40",
+      "minutes": 15,
+      "meta": "Morning · 15 min",
+      "instructions": "Take a short text that matters around you: a mission statement, a rule sheet, a poem, a speech. Read it slowly and ask what it needs to leave out to work. Find one word that holds it together, like natural, normal or freedom, and see whether the text itself unsettles it.",
+      "why": "Derrida’s deconstruction is a practice of very close reading. It finds the hierarchies a text depends on and shows how they wobble.",
+      "variations": [
+        "Do it with the terms and conditions of an app.",
+        "Do it with a family saying.",
+        "Do it with a famous speech."
+      ]
+    },
+    {
+      "id": "high-and-low-breakfast",
+      "name": "High and low breakfast",
+      "icon": "coffee",
+      "slot": "Morning",
+      "time": "06:45",
+      "minutes": 15,
+      "meta": "Morning · 15 min",
+      "instructions": "Over breakfast, read one page of a serious book and one page of a comic, a recipe or a cereal box. Read both with equal attention. Notice what each does well and what the other cannot. Let them talk to each other in your head.",
+      "why": "Venturi and Scott Brown learned from the Las Vegas Strip, and Warhol painted soup. Postmodernism dissolved the wall between high and low culture.",
+      "variations": [
+        "Pair a poem with a pop song.",
+        "Pair philosophy with a cartoon.",
+        "Tell someone what the two had in common."
+      ]
+    },
+    {
+      "id": "spot-the-simulacrum",
+      "name": "Spot the simulacrum",
+      "icon": "copy",
+      "slot": "Morning",
+      "time": "08:00",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "During your morning, look for three things that are copies without originals: a filtered photo, a supermarket loaf labelled artisan, a fake rustic beam, a theme restaurant, a stock image of happy people. Name each one. Ask whether there was ever a real thing behind it.",
+      "why": "Baudrillard described a world of simulacra, images more real than reality. Seeing them does not mean despising them, only knowing what they are.",
+      "variations": [
+        "Find one in your own home.",
+        "Find one in your own behaviour.",
+        "Photograph them and make a small collage."
+      ]
+    },
+    {
+      "id": "hold-your-words-lightly",
+      "name": "Hold your words lightly",
+      "icon": "feather",
+      "slot": "Morning",
+      "time": "06:30",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Write down five words you use to justify your life: perhaps honest, successful, good parent, free, kind. These are your final vocabulary, as Rorty called it. For each, ask how you would explain it to someone who did not share it. Hold them firmly enough to live by and lightly enough to revise.",
+      "why": "Rorty’s ironist knows her deepest words are contingent, could have been otherwise, and keeps them anyway. It is a stance of both commitment and humility.",
+      "variations": [
+        "Ask a friend for their five words.",
+        "Look up the history of one of them.",
+        "Revisit the list at the end of the Onda."
+      ]
+    },
+    {
+      "id": "make-a-remix",
+      "name": "Make a remix",
+      "icon": "vinyl-record",
+      "slot": "Afternoon",
+      "time": "15:00",
+      "minutes": 30,
+      "meta": "Afternoon · 30 min",
+      "instructions": "Make something today out of other things: a playlist that tells a story through other people’s songs, a collage from magazines, a poem made of lines from different books, a meal from leftovers. Choose and arrange with care. The art is in the combination.",
+      "why": "Postmodern culture is remix culture: sampling, pastiche, collage and quotation. Creativity becomes curation and recombination.",
+      "variations": [
+        "Make a mixtape for someone.",
+        "Make a cut-up poem.",
+        "Make a collage of postcards."
+      ]
+    },
+    {
+      "id": "deconstruct-an-advert",
+      "name": "Deconstruct an advert",
+      "icon": "megaphone",
+      "slot": "Afternoon",
+      "time": "13:30",
+      "minutes": 15,
+      "meta": "Afternoon · 15 min",
+      "instructions": "Choose one advert you see today, on a screen or a billboard. Describe what it literally shows, then what it suggests: what myth of happiness, freedom or belonging it sells, and what it leaves out. Barthes did this with soap powder and steak and chips.",
+      "why": "In Mythologies Barthes read everyday images as myths that make culture look like nature. An advert is a short, rich text.",
+      "variations": [
+        "Do it with a perfume advert.",
+        "Do it with a political poster.",
+        "Write your own honest version."
+      ]
+    },
+    {
+      "id": "double-coding",
+      "name": "Double coding",
+      "icon": "columns",
+      "slot": "Afternoon",
+      "time": "14:00",
+      "minutes": 20,
+      "meta": "Afternoon · 20 min",
+      "instructions": "Find a building or object near you that speaks to two audiences at once: a bank that looks like a temple, a café with a fake old sign, a postmodern office with a playful top. Look at it for a while. What does it say to passers-by, and what to people who know architecture?",
+      "why": "Charles Jencks defined postmodern architecture by its double coding: speaking to the public with familiar forms and wit, and to architects with refined reference.",
+      "variations": [
+        "Look up a postmodern building in your city.",
+        "Draw its facade.",
+        "Explain it to a friend."
+      ]
+    },
+    {
+      "id": "watched-and-watching",
+      "name": "Watched and watching",
+      "icon": "eye",
+      "slot": "Afternoon",
+      "time": "16:00",
+      "minutes": 15,
+      "meta": "Afternoon · 15 min",
+      "instructions": "Notice today where you are watched: cameras, apps, step counters, reviews, colleagues. And where you watch yourself on behalf of others: the posture you hold, the photo you retake. For fifteen minutes, switch off one form of self-surveillance and see how it feels.",
+      "why": "Foucault used Bentham’s panopticon, the prison where an unseen guard can watch everyone, as an image of how modern discipline makes us watch ourselves.",
+      "variations": [
+        "Turn off a tracking app for a day.",
+        "Leave your phone at home for an errand.",
+        "Notice when you perform for an imagined audience."
+      ]
+    },
+    {
+      "id": "change-one-rule",
+      "name": "Change one rule",
+      "icon": "repeat",
+      "slot": "Afternoon",
+      "time": "16:30",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Choose one rule of your daily routine that is only habit: the route to work, the order of tasks, where you sit, what you eat for lunch. Change it on purpose today, playfully. Notice how much of the day was a game whose rules you never chose.",
+      "why": "In Peter Suber’s game Nomic, changing the rules is how you play. Postmodern thought treats many social rules as language games that could be otherwise.",
+      "variations": [
+        "Change three small rules.",
+        "Let someone else choose a rule for you.",
+        "Keep the change if you like it."
+      ]
+    },
+    {
+      "id": "another-final-vocabulary",
+      "name": "Another final vocabulary",
+      "icon": "chats",
+      "slot": "Afternoon",
+      "time": "17:30",
+      "minutes": 20,
+      "meta": "Afternoon · 20 min",
+      "instructions": "Talk for twenty minutes with someone whose deepest words differ from yours: another faith, politics, generation or culture. Your aim is not to win but to understand how their words hang together. Ask them what one of their words means to them.",
+      "why": "Rorty thought solidarity grows not from proving we share a human essence but from learning to see others as fellow sufferers, by listening to their stories.",
+      "variations": [
+        "Ask about a word they use often.",
+        "Tell them one of your final words.",
+        "Thank them for the conversation."
+      ]
+    },
+    {
+      "id": "who-wrote-me-today",
+      "name": "Who wrote me today",
+      "icon": "notebook",
+      "slot": "Evening",
+      "time": "21:00",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "In your journal, ask which stories wrote you today: the advertising you absorbed, the role you played at work, the narrative of your family, the feed you scrolled. Which did you choose and which chose you? End with one sentence of the story you want to tell yourself tomorrow.",
+      "why": "Barthes and Foucault both asked how we are written by culture before we write. Seeing it is the first step to authoring a little more of your own life.",
+      "variations": [
+        "Use one of the Onda’s journal prompts.",
+        "Write it as a list of quotations.",
+        "Write it in the second person."
+      ],
+      "action": "journal"
+    },
+    {
+      "id": "the-desert-of-the-real",
+      "name": "The desert of the real",
+      "icon": "moon",
+      "slot": "Evening",
+      "time": "20:00",
+      "minutes": 60,
+      "meta": "Evening · 60 min",
+      "instructions": "For one hour this evening, be with what is real and unmediated: no screens, no recording, no posting. Cook, walk, talk, look at the sky, hold something. Notice what is left when the images are gone. Notice the urge to capture it.",
+      "why": "Baudrillard spoke of the desert of the real, the reality left beneath the simulations. An hour without images lets you visit it.",
+      "variations": [
+        "Do it with someone else.",
+        "Do it outdoors.",
+        "Write down afterwards what you noticed."
+      ]
+    },
+    {
+      "id": "after-irony",
+      "name": "After irony",
+      "icon": "heart",
+      "slot": "Evening",
+      "time": "21:30",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Think of something you usually talk about only ironically, a hope, a belief, a love, a kind of music. Write a few sentences about it with full sincerity, without jokes or air quotes. Read them back. Ask what irony has been protecting you from.",
+      "why": "David Foster Wallace warned that irony, once a weapon against hypocrisy, had become a cage. The question after postmodernism is how to mean things again.",
+      "variations": [
+        "Read the Onda’s Philosophy idea on irony.",
+        "Say it to someone.",
+        "Read Wallace’s essay E Unibus Pluram."
+      ],
+      "action": "philosophy"
+    },
+    {
+      "id": "read-a-metafiction",
+      "name": "Read a metafiction",
+      "icon": "book-open-text",
+      "slot": "Evening",
+      "time": "22:00",
+      "minutes": 30,
+      "meta": "Evening · 30 min",
+      "instructions": "Read for half an hour from a novel that knows it is a novel: Calvino’s If on a winter’s night a traveler, Vonnegut’s Slaughterhouse-Five, Borges’ Ficciones. Notice when the book speaks to you directly and how that changes your reading.",
+      "why": "Metafiction shows the strings of storytelling. It makes the reader a participant, the reader whose birth Barthes announced.",
+      "variations": [
+        "Read Borges’ The Garden of Forking Paths.",
+        "Read the first chapter of Calvino twice.",
+        "Read aloud to someone."
+      ]
+    },
+    {
+      "id": "reduce-one-cruelty",
+      "name": "Reduce one cruelty",
+      "icon": "hand-heart",
+      "slot": "Evening",
+      "time": "20:30",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Look back at today for one place where cruelty appeared: a mocking post, a harsh word, an unfair system, an animal’s suffering. Do one concrete thing to reduce it: delete, apologise, report, donate, write, or comfort someone hurt.",
+      "why": "Rorty, following Judith Shklar, held that liberals are those who think cruelty is the worst thing we do. Without final foundations, this remains firm.",
+      "variations": [
+        "Apologise for something you said.",
+        "Support a cause that relieves suffering.",
+        "Comfort someone who was mocked."
+      ]
+    },
+    {
+      "id": "channel-surf-with-intent",
+      "name": "Channel surf with intent",
+      "icon": "television",
+      "slot": "Evening",
+      "time": "19:30",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Flick through fifteen short pieces of media in fifteen minutes, channels, videos, articles, a minute each. Then stop and ask what world they built together. Was it a story, or fragments? How do you feel? Then choose one thing and give it your full attention.",
+      "why": "Jameson described postmodern culture as a flood of fragments without depth. Experiencing it on purpose, then stopping, shows how it shapes attention.",
+      "variations": [
+        "Do it with radio stations.",
+        "Write down one line from each.",
+        "End with ten minutes of silence."
+      ]
+    },
+    {
+      "id": "a-day-of-pastiche",
+      "name": "A day of pastiche",
+      "icon": "dress",
+      "slot": "Special",
+      "time": "10:00",
+      "minutes": 120,
+      "meta": "On a free day · 120 min",
+      "instructions": "Dress in a pastiche of decades from a thrift store or your wardrobe, then spend a morning in your city as a reader of styles: buildings that quote the past, shops that imitate old trades, music in cafés. Collect ten quotations you see. End with a coffee and a list.",
+      "why": "Pastiche, the free mixing of past styles, is the signature of the postmodern city. Seeing it everywhere teaches you to read a whole townscape.",
+      "variations": [
+        "Go with a friend in matching pastiche.",
+        "Photograph each quotation.",
+        "Visit a theme restaurant."
+      ]
+    },
+    {
+      "id": "visit-a-postmodern-building",
+      "name": "Visit a postmodern building",
+      "icon": "columns",
+      "slot": "Special",
+      "time": "11:00",
+      "minutes": 120,
+      "meta": "Once in the Onda · 120 min",
+      "instructions": "Visit a postmodern building near you, or tour one online: the Piazza d’Italia, the Portland Building, the Neue Staatsgalerie, the old AT&T Building. Walk around and through it. Find its jokes and its quotations, and decide whether it speaks to you.",
+      "why": "Postmodern architecture was the movement’s most public face, and its buildings are now protected, mocked and loved in turn.",
+      "variations": [
+        "Sketch its main facade.",
+        "Compare it with a modernist building nearby.",
+        "Read about how people reacted when it opened."
+      ]
+    }
+  ],
+  "tasks": [],
+  "rules": [
+    {
+      "id": "r1",
+      "text": "Ask who tells the story",
+      "why": "Every account has a narrator, a frame and a purpose. Notice them before you believe."
+    },
+    {
+      "id": "r2",
+      "text": "Hold your words lightly",
+      "why": "Your final vocabulary could have been otherwise. Hold it firmly enough to live by and lightly enough to revise."
+    },
+    {
+      "id": "r3",
+      "text": "Read the margins",
+      "why": "What a story leaves out often says more than what it puts in. Look for the excluded."
+    },
+    {
+      "id": "r4",
+      "text": "Mix high and low",
+      "why": "Venturi learned from Las Vegas. Let a comic and a philosopher sit side by side."
+    },
+    {
+      "id": "r5",
+      "text": "Notice the copy",
+      "why": "Much of what we see are images of images. Ask whether there is an original."
+    },
+    {
+      "id": "r6",
+      "text": "Cruelty is the worst thing we do",
+      "why": "Without a final foundation, Rorty kept one rule: reduce cruelty. Doubt stories, never suffering."
+    }
+  ],
+  "immerse": {
+    "read": [
+      {
+        "id": "read-the-postmodern-condition",
+        "title": "The Postmodern Condition",
+        "creator": "Jean-François Lyotard",
+        "year": "1979",
+        "why": "A report on knowledge for the government of Quebec that named the age: incredulity toward metanarratives."
+      },
+      {
+        "id": "read-mythologies",
+        "title": "Mythologies",
+        "creator": "Roland Barthes",
+        "year": "1957",
+        "why": "Short, witty essays on wrestling, soap powder, steak and chips and the Citroën DS, reading everyday culture as myth."
+      },
+      {
+        "id": "read-simulacra-and-simulation",
+        "title": "Simulacra and Simulation",
+        "creator": "Jean Baudrillard",
+        "year": "1981",
+        "why": "The strange, dizzying book on copies without originals that Neo hides his disks in."
+      },
+      {
+        "id": "read-if-on-a-winter-s-night-a-traveler",
+        "title": "If on a winter’s night a traveler",
+        "creator": "Italo Calvino",
+        "year": "1979",
+        "why": "A novel about you trying to read a novel, which keeps breaking off into the first chapters of ten others."
+      },
+      {
+        "id": "read-white-noise",
+        "title": "White Noise",
+        "creator": "Don DeLillo",
+        "year": "1985",
+        "why": "A professor of Hitler studies, a toxic cloud and the most photographed barn in America."
+      },
+      {
+        "id": "read-contingency-irony-and-solidarity",
+        "title": "Contingency, Irony, and Solidarity",
+        "creator": "Richard Rorty",
+        "year": "1989",
+        "why": "How to be an ironist in private and a liberal in public, building solidarity without foundations."
+      },
+      {
+        "id": "read-learning-from-las-vegas",
+        "title": "Learning from Las Vegas",
+        "creator": "Robert Venturi, Denise Scott Brown and Steven Izenour",
+        "year": "1972",
+        "why": "Architects who took the Strip seriously, and the decorated shed versus the duck."
+      }
+    ],
+    "watch": [
+      {
+        "id": "watch-the-matrix",
+        "title": "The Matrix",
+        "creator": "Lana and Lilly Wachowski",
+        "year": "1999",
+        "why": "A simulated world, the desert of the real, and a hollowed-out copy of Baudrillard on screen."
+      },
+      {
+        "id": "watch-the-truman-show",
+        "title": "The Truman Show",
+        "creator": "Peter Weir",
+        "year": "1998",
+        "why": "A man discovers his whole life is a television set. Hyperreality as comedy and tragedy."
+      },
+      {
+        "id": "watch-blade-runner",
+        "title": "Blade Runner",
+        "creator": "Ridley Scott",
+        "year": "1982",
+        "why": "Replicants with implanted memories in a city of pastiche, the film theorists used to define the postmodern."
+      },
+      {
+        "id": "watch-adaptation",
+        "title": "Adaptation",
+        "creator": "Spike Jonze",
+        "year": "2002",
+        "why": "A screenwriter writing a film about himself failing to adapt a book. Metafiction with heart."
+      }
+    ],
+    "listen": [
+      {
+        "id": "listen-o-superman",
+        "title": "O Superman",
+        "creator": "Laurie Anderson",
+        "year": "1981",
+        "why": "An eight-minute vocoder answering machine message that reached number two in the British charts."
+      },
+      {
+        "id": "listen-remain-in-light",
+        "title": "Remain in Light",
+        "creator": "Talking Heads",
+        "year": "1980",
+        "why": "Afrobeat loops, art school irony and Once in a Lifetime: how did I get here."
+      },
+      {
+        "id": "listen-endtroducing",
+        "title": "Endtroducing.....",
+        "creator": "DJ Shadow",
+        "year": "1996",
+        "why": "An album built entirely from samples of other records, music made of other music."
+      },
+      {
+        "id": "listen-einstein-on-the-beach",
+        "title": "Einstein on the Beach",
+        "creator": "Philip Glass and Robert Wilson",
+        "year": "1976",
+        "why": "A five-hour opera without a story, of repeated numbers, trains and spaceships."
+      }
+    ],
+    "art": [
+      {
+        "id": "art-campbell-s-soup-cans",
+        "title": "Campbell’s Soup Cans",
+        "creator": "Andy Warhol",
+        "year": "1962",
+        "why": "Thirty-two canvases of soup, one for each flavour. Art as supermarket shelf."
+      },
+      {
+        "id": "art-untitled-film-stills",
+        "title": "Untitled Film Stills",
+        "creator": "Cindy Sherman",
+        "year": "1977",
+        "why": "Seventy black and white photographs of the artist as heroines of films that never existed."
+      },
+      {
+        "id": "art-after-walker-evans",
+        "title": "After Walker Evans",
+        "creator": "Sherrie Levine",
+        "year": "1981",
+        "why": "Photographs of Walker Evans’ famous photographs, which raise the question of what an original is."
+      },
+      {
+        "id": "art-untitled-your-body-is-a-battleground",
+        "title": "Untitled (Your body is a battleground)",
+        "creator": "Barbara Kruger",
+        "year": "1989",
+        "why": "A woman’s face split into positive and negative under a slogan, made for a march for reproductive rights."
+      },
+      {
+        "id": "art-carlton-bookcase",
+        "title": "Carlton bookcase",
+        "creator": "Ettore Sottsass for Memphis",
+        "year": "1981",
+        "why": "A totem of plastic laminate, colour and odd angles from the Memphis Group in Milan."
+      }
+    ],
+    "eat": [
+      {
+        "id": "eat-korean-taco",
+        "title": "Korean taco",
+        "creator": "Korean barbecue in a tortilla",
+        "why": "Roy Choi’s Kogi truck in Los Angeles, 2008: two cuisines and a parking lot made one dish."
+      },
+      {
+        "id": "eat-deconstructed-cheesecake",
+        "title": "Deconstructed cheesecake",
+        "creator": "A dessert in its parts",
+        "why": "The crumbs, the cream and the fruit served apart, so you assemble the idea of cheesecake yourself."
+      },
+      {
+        "id": "eat-california-roll",
+        "title": "California roll",
+        "creator": "Inside-out sushi",
+        "why": "Rice outside, avocado and crab inside, invented in North America and exported back to Japan."
+      }
+    ],
+    "drink": [
+      {
+        "id": "drink-coca-cola",
+        "title": "Coca-Cola",
+        "creator": "The same everywhere",
+        "why": "Warhol praised it because the president and the bum drink the same Coke. A drink as pure sign."
+      },
+      {
+        "id": "drink-bubble-tea",
+        "title": "Bubble tea",
+        "creator": "Taiwanese tea with tapioca pearls",
+        "why": "Invented in the 1980s in Taiwan and remixed endlessly since, a global pastiche in a cup."
+      },
+      {
+        "id": "drink-decaf-soy-latte",
+        "title": "Decaf soy latte",
+        "creator": "Coffee without coffee",
+        "why": "Coffee without caffeine and milk without milk. Žižek’s favourite example of things without their substance."
+      }
+    ],
+    "customs": [
+      {
+        "id": "customs-air-quotes",
+        "title": "Air quotes",
+        "creator": "A gesture of irony",
+        "why": "Two fingers curled on each hand to show you do not quite mean the word. The postmodern gesture."
+      },
+      {
+        "id": "customs-thrift-store-pastiche",
+        "title": "Thrift-store pastiche",
+        "creator": "Dressing in quotation",
+        "why": "Mixing clothes of different decades and styles in one outfit, every piece a reference."
+      },
+      {
+        "id": "customs-the-remix",
+        "title": "The remix",
+        "creator": "Music from music",
+        "why": "Sampling, mashups and remixes, culture made by recombining culture."
+      },
+      {
+        "id": "customs-channel-surfing",
+        "title": "Channel surfing",
+        "creator": "Zapping",
+        "why": "Flicking through dozens of channels with a remote, the 1980s experience of a world in fragments."
+      }
+    ],
+    "games": [
+      {
+        "id": "games-nomic",
+        "title": "Nomic",
+        "creator": "Rule-changing game",
+        "year": "1982",
+        "why": "Peter Suber’s game in which changing the rules is how you play. The postmodern game."
+      },
+      {
+        "id": "games-exquisite-corpse",
+        "title": "Exquisite corpse",
+        "creator": "Collaborative drawing game",
+        "year": "1920s",
+        "why": "Each player draws one part of a figure without seeing the rest. A collage of minds."
+      },
+      {
+        "id": "games-calvinball",
+        "title": "Calvinball",
+        "creator": "Made-up game",
+        "year": "1990",
+        "why": "From Calvin and Hobbes: the only rule is that you may never play it the same way twice."
+      }
+    ],
+    "festivals": [
+      {
+        "id": "fest-venice-biennale",
+        "title": "Venice Biennale",
+        "creator": "Venice, every other year from spring to autumn",
+        "why": "Its first architecture show in 1980, The Presence of the Past, built a street of postmodern facades."
+      },
+      {
+        "id": "fest-documenta",
+        "title": "Documenta",
+        "creator": "Kassel, every five years",
+        "why": "The great exhibition of contemporary art, a hundred days of argument about what art is."
+      },
+      {
+        "id": "fest-april-fools-day",
+        "title": "April Fools’ Day",
+        "creator": "1 April",
+        "why": "A day when no story can be taken at face value. Play with it kindly."
+      }
+    ],
+    "places": [
+      {
+        "id": "place-piazza-d-italia",
+        "title": "Piazza d’Italia",
+        "creator": "New Orleans",
+        "why": "Charles Moore’s 1978 fountain square of neon-lit, stainless-steel classical columns and a map of Italy."
+      },
+      {
+        "id": "place-550-madison-avenue",
+        "title": "550 Madison Avenue",
+        "creator": "New York",
+        "why": "Philip Johnson’s former AT&T Building of 1984, a granite skyscraper with a broken pediment like a grandfather clock."
+      },
+      {
+        "id": "place-the-portland-building",
+        "title": "The Portland Building",
+        "creator": "Portland, Oregon",
+        "why": "Michael Graves’ 1982 municipal building, a giant decorated box with a statue of Portlandia."
+      },
+      {
+        "id": "place-neue-staatsgalerie",
+        "title": "Neue Staatsgalerie",
+        "creator": "Stuttgart",
+        "why": "James Stirling’s 1984 museum, classical rotunda, bright green floors and pink handrails."
+      },
+      {
+        "id": "place-the-las-vegas-strip",
+        "title": "The Las Vegas Strip",
+        "creator": "Las Vegas, Nevada",
+        "why": "The street the architects learned from: signs bigger than buildings, Venice, Paris and Egypt side by side."
+      },
+      {
+        "id": "place-westin-bonaventure-hotel",
+        "title": "Westin Bonaventure Hotel",
+        "creator": "Los Angeles",
+        "why": "John Portman’s mirrored towers, where Fredric Jameson felt lost in postmodern space."
+      }
+    ]
+  },
+  "ethics": [
+    {
+      "title": "Suspicion with kindness",
+      "text": "Doubt the grand stories that justify power, but never doubt another person’s pain.",
+      "practice": "Question one big claim today and comfort one person."
+    },
+    {
+      "title": "Listening to the excluded",
+      "text": "Deconstruction looks for what a system pushes to its margins. Ethics begins there.",
+      "practice": "Seek out a voice your circle usually ignores."
+    },
+    {
+      "title": "Irony and solidarity",
+      "text": "Rorty: be ironic about your own vocabulary, and still work to reduce cruelty.",
+      "practice": "Do one thing that makes someone’s life less cruel."
+    },
+    {
+      "title": "Pluralism",
+      "text": "Many small stories rather than one master story. Let others keep theirs.",
+      "practice": "Let someone tell their story without correcting it."
+    },
+    {
+      "title": "Play",
+      "text": "Rules and meanings can be played with. Play can free us from rigid roles.",
+      "practice": "Break one harmless convention playfully today."
+    },
+    {
+      "title": "Sincerity after irony",
+      "text": "Wallace warned that irony can become a cage. Sometimes you must mean it.",
+      "practice": "Say one thing today with full, unguarded sincerity."
+    }
+  ],
+  "philosophy": [
+    {
+      "title": "Incredulity toward metanarratives",
+      "text": "The big stories of progress, revolution and reason no longer convince. We live by many small stories.",
+      "practice": "Which grand story still runs your life without your noticing?"
+    },
+    {
+      "title": "Différance",
+      "text": "Meaning never arrives whole; each word points to others, endlessly deferring.",
+      "practice": "Look up a word you use often and follow its definitions three steps."
+    },
+    {
+      "title": "Simulacra",
+      "text": "Copies without originals: maps that precede the territory, images more real than the real.",
+      "practice": "Find one thing today that is a copy of a copy."
+    },
+    {
+      "title": "The death of the author",
+      "text": "A text’s meaning is made in reading. The author’s intention is not the last word.",
+      "practice": "Reread something you love and find a meaning its author never intended."
+    },
+    {
+      "title": "Power and knowledge",
+      "text": "What counts as true is bound up with who has power. Institutions shape what we can know.",
+      "practice": "Who decides what counts as normal in your world?"
+    },
+    {
+      "title": "Irony and solidarity",
+      "text": "We cannot prove our deepest values, but we can widen the circle of those we care about.",
+      "practice": "Whom have you left outside your we?"
+    },
+    {
+      "title": "Pastiche and remix",
+      "text": "When everything has been done, culture recombines the past. Creativity becomes curation.",
+      "practice": "Make something today out of other things."
+    },
+    {
+      "title": "After irony",
+      "text": "Irony exposed hypocrisy but can leave us unable to believe in anything. What comes next is open.",
+      "practice": "Where has irony protected you from caring?"
+    }
+  ],
+  "journal": [
+    "Who told the stories I believed today?",
+    "Which grand story did I catch myself living by?",
+    "What did a text, ad or post leave out?",
+    "What is a copy of a copy in my life?",
+    "Where did I feel the real was more like a simulation?",
+    "What did I read into something that its author never meant?",
+    "Whose voice was missing from a conversation today?",
+    "What are the words of my final vocabulary?",
+    "Where am I ironic to avoid being hurt?",
+    "What did I say today that I fully meant?",
+    "Which rule of my life could I play with?",
+    "Who gets to decide what is normal around me?",
+    "What did I make by mixing other things?",
+    "Where did I see high and low culture side by side?",
+    "What small story matters more to me than any big one?",
+    "Where did I feel watched, and where did I watch?",
+    "What would my life look like as a remix?",
+    "What ghost from the past haunts my present?",
+    "What future did I once expect that never came?",
+    "Who is outside my circle of care?",
+    "What did I find funny that was also true?",
+    "What did I scroll past that was cruel?",
+    "Where did a screen stand between me and something real?",
+    "What is my own Las Vegas, the place I look down on and could learn from?",
+    "What kind of cyborg am I: where do I end and my devices begin?",
+    "What would I believe if no story could be final?",
+    "Where did I quote instead of speak?",
+    "What did I take seriously today that deserved play?",
+    "What did I play with that deserved seriousness?",
+    "What has this Onda changed in how I read the world?"
+  ],
+  "reflect": [
+    "Which grand stories lost their grip on you?",
+    "What did you learn by reading the margins?",
+    "Where did you find the real among the copies?",
+    "How did irony and sincerity balance in your days?",
+    "Whom did you bring inside your circle of care?",
+    "What will you keep from postmodernism, and what will you leave behind?"
+  ],
+  "dayThemes": [
+    "Grand stories",
+    "Little stories",
+    "Who tells it",
+    "The margins",
+    "Différance",
+    "The text",
+    "The reader",
+    "Copies",
+    "Hyperreality",
+    "The desert of the real",
+    "Power",
+    "Knowledge",
+    "The panopticon",
+    "Pastiche",
+    "Remix",
+    "Las Vegas",
+    "Less is a bore",
+    "Double coding",
+    "Irony",
+    "Solidarity",
+    "Cruelty",
+    "Play",
+    "Rules",
+    "The cyborg",
+    "Ghosts",
+    "Metafiction",
+    "Air quotes",
+    "Sincerity",
+    "After irony",
+    "Your own story"
+  ],
+  "guide": {
+    "intro": [
+      "Postmodernism is a name for a mood, a style and a group of ideas that spread through philosophy, literature, architecture and art from the 1960s to the 1990s. It is less a school than a family resemblance, and many of the thinkers called postmodern rejected the label.",
+      "The French philosopher Jean-François Lyotard gave the most famous definition in 1979: incredulity toward metanarratives. The great stories that had justified modern knowledge and politics, the progress of reason, the emancipation of humanity, the march of history, had lost their power to convince. In their place came many small, local stories.",
+      "In philosophy Jacques Derrida taught deconstruction, a close reading that shows how texts depend on oppositions they cannot hold. Roland Barthes declared the death of the author, freeing readers to make meaning. Michel Foucault traced how power and knowledge shape what counts as truth, madness or normality. Jean Baudrillard described a world of simulacra, copies without originals, more real than the real.",
+      "In architecture the critic Charles Jencks dated the death of modern architecture to the demolition of the Pruitt-Igoe housing project in St Louis in 1972. Robert Venturi and Denise Scott Brown learned from the signs of Las Vegas and answered Mies van der Rohe’s less is more with less is a bore. Buildings returned to colour, ornament, wit and quotations from history.",
+      "In novels, films and art it brought metafiction, pastiche, collage and irony: Calvino’s novel about reading a novel, Warhol’s soup cans, Cindy Sherman’s stills of films that never existed, The Matrix and The Truman Show. Critics such as Fredric Jameson saw it as the cultural logic of late capitalism. Writers such as David Foster Wallace warned that endless irony could leave us unable to mean anything.",
+      "This Onda takes from postmodernism a set of habits: ask who tells the story, read the margins, notice the copies, hold your own vocabulary lightly, play with rules, mix high and low. It also asks what comes after irony, and keeps one ground firm: cruelty is the worst thing we do."
+    ],
+    "origin": "Paris lecture halls and New York galleries, the Las Vegas Strip and campuses across the world",
+    "era": "Roughly from the 1960s to the 1990s, though its questions shape culture and politics still",
+    "figures": [
+      {
+        "name": "Jean-François Lyotard",
+        "dates": "1924 to 1998",
+        "bio": "French philosopher whose The Postmodern Condition defined the age as incredulity toward metanarratives."
+      },
+      {
+        "name": "Jacques Derrida",
+        "dates": "1930 to 2004",
+        "bio": "Algerian-born French philosopher, founder of deconstruction, famous for différance and for rejecting easy summary."
+      },
+      {
+        "name": "Michel Foucault",
+        "dates": "1926 to 1984",
+        "bio": "Historian of madness, prisons and sexuality who showed how power and knowledge shape each other."
+      },
+      {
+        "name": "Jean Baudrillard",
+        "dates": "1929 to 2007",
+        "bio": "Sociologist of simulation and hyperreality, provocative and playful."
+      },
+      {
+        "name": "Roland Barthes",
+        "dates": "1915 to 1980",
+        "bio": "Critic and semiologist who read wrestling and advertisements as myth and announced the death of the author."
+      },
+      {
+        "name": "Richard Rorty",
+        "dates": "1931 to 2007",
+        "bio": "American pragmatist philosopher of contingency, irony and solidarity."
+      },
+      {
+        "name": "Fredric Jameson",
+        "dates": "1934 to 2024",
+        "bio": "Marxist critic who called postmodernism the cultural logic of late capitalism."
+      },
+      {
+        "name": "Charles Jencks",
+        "dates": "1939 to 2019",
+        "bio": "Architectural critic who named and championed postmodern architecture and its double coding."
+      },
+      {
+        "name": "Robert Venturi and Denise Scott Brown",
+        "dates": "1925 to 2018 and born 1931",
+        "bio": "Architects of Complexity and Contradiction and Learning from Las Vegas, who brought wit and ornament back."
+      },
+      {
+        "name": "Donna Haraway",
+        "dates": "born 1944",
+        "bio": "Scholar of science whose A Cyborg Manifesto blurred the lines between human, animal and machine."
+      },
+      {
+        "name": "David Foster Wallace",
+        "dates": "1962 to 2008",
+        "bio": "Novelist who warned that television-saturated irony had become a trap, and called for sincerity."
+      }
+    ],
+    "history": [
+      {
+        "when": "1962",
+        "what": "Campbell’s Soup Cans",
+        "detail": "Andy Warhol shows thirty-two soup can paintings in Los Angeles. The line between art and supermarket blurs."
+      },
+      {
+        "when": "1966",
+        "what": "Complexity and Contradiction",
+        "detail": "Robert Venturi publishes his gentle manifesto against the purity of modern architecture."
+      },
+      {
+        "when": "October 1966",
+        "what": "Structure, sign and play",
+        "detail": "Derrida’s lecture at a Johns Hopkins conference launches deconstruction in America."
+      },
+      {
+        "when": "1967",
+        "what": "The Death of the Author",
+        "detail": "Barthes’ essay appears, first in English in the magazine Aspen. Derrida publishes Of Grammatology."
+      },
+      {
+        "when": "1972",
+        "what": "Pruitt-Igoe and Las Vegas",
+        "detail": "The modernist housing project in St Louis is demolished; Learning from Las Vegas is published."
+      },
+      {
+        "when": "1975",
+        "what": "Discipline and Punish",
+        "detail": "Foucault’s history of the prison and the panopticon."
+      },
+      {
+        "when": "1977",
+        "what": "The Language of Post-Modern Architecture",
+        "detail": "Charles Jencks gives the movement its name and its idea of double coding."
+      },
+      {
+        "when": "1979",
+        "what": "The Postmodern Condition",
+        "detail": "Lyotard’s report on knowledge defines the postmodern."
+      },
+      {
+        "when": "1980",
+        "what": "The Strada Novissima",
+        "detail": "At the first Venice Architecture Biennale, architects build a street of postmodern facades."
+      },
+      {
+        "when": "1981",
+        "what": "Simulacra and Simulation and Memphis",
+        "detail": "Baudrillard publishes his book on simulation; the Memphis Group shows its furniture in Milan."
+      },
+      {
+        "when": "1984",
+        "what": "Jameson and the AT&T Building",
+        "detail": "Fredric Jameson’s essay on the cultural logic of late capitalism; Philip Johnson’s broken pediment opens on Madison Avenue."
+      },
+      {
+        "when": "1985",
+        "what": "A Cyborg Manifesto",
+        "detail": "Donna Haraway’s essay imagines identities beyond nature and machine."
+      },
+      {
+        "when": "1989",
+        "what": "Contingency, Irony, and Solidarity",
+        "detail": "Rorty describes the liberal ironist."
+      },
+      {
+        "when": "1993",
+        "what": "E Unibus Pluram",
+        "detail": "David Foster Wallace’s essay on television and irony calls for a new sincerity."
+      },
+      {
+        "when": "1996",
+        "what": "The Sokal affair",
+        "detail": "A physicist’s nonsense article accepted by a cultural studies journal sparks the science wars."
+      },
+      {
+        "when": "1999",
+        "what": "The Matrix",
+        "detail": "Simulacra and Simulation appears on screen in a blockbuster about a simulated world."
+      }
+    ],
+    "concepts": [
+      {
+        "term": "Incredulity toward metanarratives",
+        "text": "The end of the grand story.",
+        "detail": "Lyotard argued that the great legitimating stories of modernity no longer convince, leaving many incompatible language games and little narratives."
+      },
+      {
+        "term": "Deconstruction",
+        "text": "Reading against the grain.",
+        "detail": "Derrida showed how texts rely on hierarchies, speech over writing, presence over absence, that their own logic undermines. It is a practice of careful reading, not destruction."
+      },
+      {
+        "term": "Simulacra and hyperreality",
+        "text": "Copies without originals.",
+        "detail": "Baudrillard described stages in which images first reflect reality, then mask it, then mask its absence, and finally bear no relation to it at all."
+      },
+      {
+        "term": "The death of the author",
+        "text": "The birth of the reader.",
+        "detail": "Barthes argued that the meaning of a text is not fixed by its author but produced by readers in a web of other texts."
+      },
+      {
+        "term": "Power-knowledge",
+        "text": "Truth and institutions.",
+        "detail": "Foucault traced how prisons, clinics and schools produce knowledge about people that in turn is used to discipline them."
+      },
+      {
+        "term": "Double coding",
+        "text": "Two audiences at once.",
+        "detail": "Jencks defined postmodern architecture as speaking both to the public, with familiar forms and wit, and to architects, with sophisticated reference."
+      },
+      {
+        "term": "Pastiche and intertextuality",
+        "text": "Culture from culture.",
+        "detail": "Works quote, borrow and recombine earlier styles. Jameson saw blank pastiche; others saw creative play."
+      },
+      {
+        "term": "Irony and solidarity",
+        "text": "No foundations, still commitment.",
+        "detail": "Rorty argued that we can accept that our values are contingent and still extend solidarity, guided by the wish to reduce cruelty."
+      },
+      {
+        "term": "After postmodernism",
+        "text": "Sincerity and metamodernism.",
+        "detail": "From the 1990s writers and artists sought a way past irony: a new sincerity, or an oscillation between hope and doubt."
+      }
+    ],
+    "facts": [
+      {
+        "text": "Lyotard’s The Postmodern Condition was written as a report on knowledge for the government of Quebec."
+      },
+      {
+        "text": "Charles Jencks dated the death of modern architecture to the demolition of the Pruitt-Igoe housing in St Louis in 1972."
+      },
+      {
+        "text": "In The Matrix, Neo hides disks in a hollowed-out copy of Baudrillard’s Simulacra and Simulation."
+      },
+      {
+        "text": "Baudrillard said The Matrix misunderstood his ideas."
+      },
+      {
+        "text": "Derrida’s différance differs from difference only in spelling: you cannot hear it in French."
+      },
+      {
+        "text": "In 1996 the physicist Alan Sokal had a deliberately nonsensical article accepted by the journal Social Text."
+      },
+      {
+        "text": "Sherrie Levine’s After Walker Evans photographs are photographs of photographs."
+      },
+      {
+        "text": "Many thinkers called postmodern, including Derrida and Foucault, rejected the label."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Metanarrative",
+        "meaning": "A grand story claiming to explain everything"
+      },
+      {
+        "term": "Deconstruction",
+        "meaning": "A way of reading that shows a text undoing its own oppositions"
+      },
+      {
+        "term": "Simulacrum",
+        "meaning": "A copy without an original"
+      },
+      {
+        "term": "Pastiche",
+        "meaning": "Imitation of a style without satire"
+      },
+      {
+        "term": "Double coding",
+        "meaning": "Architecture that speaks to two audiences"
+      },
+      {
+        "term": "Metafiction",
+        "meaning": "Fiction that draws attention to itself as fiction"
+      }
+    ],
+    "furtherReading": [
+      {
+        "title": "Postmodernism: A Very Short Introduction",
+        "creator": "Christopher Butler",
+        "year": "2002",
+        "note": "A clear, fair and short guide."
+      },
+      {
+        "title": "Postmodernism, or, the Cultural Logic of Late Capitalism",
+        "creator": "Fredric Jameson",
+        "year": "1991",
+        "note": "The great critical account, including the Bonaventure Hotel."
+      },
+      {
+        "title": "A Poetics of Postmodernism",
+        "creator": "Linda Hutcheon",
+        "year": "1988",
+        "note": "On parody and history in postmodern fiction."
+      },
+      {
+        "title": "The Language of Post-Modern Architecture",
+        "creator": "Charles Jencks",
+        "year": "1977",
+        "note": "The book that named postmodern architecture."
+      }
+    ],
+    "learnFrom": [
+      {
+        "name": "The Victoria and Albert Museum’s Postmodernism exhibition catalogue",
+        "note": "Style and Subversion, 1970 to 1990, a rich illustrated survey."
+      },
+      {
+        "name": "The Stanford Encyclopedia of Philosophy",
+        "note": "Free scholarly entries on postmodernism, Derrida, Foucault and Lyotard."
+      },
+      {
+        "name": "Architecture tours of postmodern buildings",
+        "note": "Many cities offer walks to their postmodern landmarks."
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Postmodern Condition: A Report on Knowledge",
+        "creator": "Jean-François Lyotard, trans. Geoff Bennington and Brian Massumi",
+        "publisher": "University of Minnesota Press",
+        "year": "1984"
+      },
+      {
+        "title": "Postmodernism: A Very Short Introduction",
+        "creator": "Christopher Butler",
+        "publisher": "Oxford University Press",
+        "year": "2002"
+      },
+      {
+        "title": "Postmodernism, or, the Cultural Logic of Late Capitalism",
+        "creator": "Fredric Jameson",
+        "publisher": "Duke University Press",
+        "year": "1991"
+      },
+      {
+        "title": "Contingency, Irony, and Solidarity",
+        "creator": "Richard Rorty",
+        "publisher": "Cambridge University Press",
+        "year": "1989"
+      },
+      {
+        "title": "Postmodernism: Style and Subversion, 1970 to 1990",
+        "creator": "Glenn Adamson and Jane Pavitt, eds.",
+        "publisher": "V&A Publishing",
+        "year": "2011"
+      },
+      {
+        "title": "Simulacra and Simulation",
+        "creator": "Jean Baudrillard, trans. Sheila Faria Glaser",
+        "publisher": "University of Michigan Press",
+        "year": "1994"
+      }
+    ]
+  },
+  "sensitivity": {
+    "note": "Postmodernism is a contested label, and its ideas are often caricatured as saying that nothing is true. This Onda takes its habits of careful reading, questioning grand narratives and playful creativity. It does not deny facts, science or anyone’s suffering.",
+    "requiredCaveats": [
+      "Questioning the stories told about facts is not the same as denying facts. Misinformation is not a postmodern virtue.",
+      "Many of the thinkers named here rejected the label and disagreed sharply with each other.",
+      "The original texts are notoriously difficult; good introductions are recommended before them."
+    ],
+    "reviewRequired": false
+  },
+  "immersePlan": [
+    {
+      "kind": "read",
+      "item": "read-mythologies",
+      "name": "Read three Mythologies",
+      "text": "Read three short essays from Barthes’ Mythologies: The World of Wrestling, Soap-powders and Detergents, and Steak and Chips.",
+      "minutes": 30
+    },
+    {
+      "kind": "read",
+      "item": "read-if-on-a-winter-s-night-a-traveler",
+      "name": "Read the first chapter of Calvino",
+      "text": "Read the first chapter of If on a winter’s night a traveler, the one about you, getting comfortable to read.",
+      "minutes": 20
+    },
+    {
+      "kind": "read",
+      "item": "read-learning-from-las-vegas",
+      "name": "Read about the duck and the shed",
+      "text": "Read the pages of Learning from Las Vegas on the duck and the decorated shed, and find one of each in your town.",
+      "minutes": 30
+    },
+    {
+      "kind": "watch",
+      "item": "watch-the-matrix",
+      "name": "Watch The Matrix again",
+      "text": "Watch The Matrix and pause on the hollowed-out book. Ask what Baudrillard would say, and why he disliked the film.",
+      "minutes": 140
+    },
+    {
+      "kind": "watch",
+      "item": "watch-the-truman-show",
+      "name": "Watch The Truman Show",
+      "text": "Watch The Truman Show and count the ways his world is staged. Then count the ways yours is.",
+      "minutes": 105
+    },
+    {
+      "kind": "watch",
+      "item": "watch-adaptation",
+      "name": "Watch Adaptation",
+      "text": "Watch Spike Jonze’s Adaptation, a film about failing to write a film, and notice where it turns into the film it mocks.",
+      "minutes": 115
+    },
+    {
+      "kind": "listen",
+      "item": "listen-o-superman",
+      "name": "Listen to O Superman",
+      "text": "Listen to Laurie Anderson’s O Superman in the dark, all eight minutes. Notice the answering machine voice.",
+      "minutes": 10
+    },
+    {
+      "kind": "listen",
+      "item": "listen-remain-in-light",
+      "name": "Listen to Remain in Light",
+      "text": "Listen to Remain in Light by Talking Heads and ask with the song: how did I get here?",
+      "minutes": 40
+    },
+    {
+      "kind": "listen",
+      "item": "listen-endtroducing",
+      "name": "Listen to an album of samples",
+      "text": "Listen to DJ Shadow’s Endtroducing, made entirely of samples, and try to imagine the records it came from.",
+      "minutes": 60
+    },
+    {
+      "kind": "art",
+      "item": "art-campbell-s-soup-cans",
+      "name": "Look at the soup cans",
+      "text": "Look at Warhol’s thirty-two soup cans and choose your favourite flavour. Ask what makes this art.",
+      "minutes": 10
+    },
+    {
+      "kind": "art",
+      "item": "art-untitled-film-stills",
+      "name": "Look at Sherman’s film stills",
+      "text": "Look at a dozen of Cindy Sherman’s Untitled Film Stills and imagine the films that never existed.",
+      "minutes": 15
+    },
+    {
+      "kind": "art",
+      "item": "art-carlton-bookcase",
+      "name": "Look at the Memphis bookcase",
+      "text": "Look at Sottsass’ Carlton bookcase and decide: is it furniture, sculpture or a joke? Can it be all three?",
+      "minutes": 10
+    },
+    {
+      "kind": "eat",
+      "item": "eat-korean-taco",
+      "name": "Make a fusion taco",
+      "text": "Make Korean barbecue tacos, or another fusion of two cuisines you love, and serve them to friends.",
+      "minutes": 60
+    },
+    {
+      "kind": "eat",
+      "item": "eat-deconstructed-cheesecake",
+      "name": "Deconstruct a dessert",
+      "text": "Serve a dessert in its separate parts on a plate and let everyone assemble it their own way.",
+      "minutes": 30
+    },
+    {
+      "kind": "eat",
+      "item": "eat-california-roll",
+      "name": "Roll an inside-out sushi",
+      "text": "Make California rolls, the inside-out sushi invented abroad and exported back to Japan.",
+      "minutes": 45
+    },
+    {
+      "kind": "drink",
+      "item": "drink-coca-cola",
+      "name": "Drink a Warhol Coke",
+      "text": "Drink a Coke slowly from a glass bottle and read Warhol’s line about the president and the bum drinking the same one.",
+      "minutes": 10
+    },
+    {
+      "kind": "drink",
+      "item": "drink-bubble-tea",
+      "name": "Try a bubble tea",
+      "text": "Try a bubble tea and invent your own combination of tea, milk, fruit and pearls.",
+      "minutes": 15
+    },
+    {
+      "kind": "drink",
+      "item": "drink-decaf-soy-latte",
+      "name": "Order coffee without coffee",
+      "text": "Order a decaf soy latte and think about things without their substance, Žižek’s example.",
+      "minutes": 15
+    },
+    {
+      "kind": "customs",
+      "item": "customs-air-quotes",
+      "name": "Count your air quotes",
+      "text": "Count every time you or others use air quotes or a so-called today, and ask what each one hides.",
+      "minutes": 5
+    },
+    {
+      "kind": "customs",
+      "item": "customs-thrift-store-pastiche",
+      "name": "Dress in quotation",
+      "text": "Put together an outfit mixing three decades and wear it for a day.",
+      "minutes": 30
+    },
+    {
+      "kind": "customs",
+      "item": "customs-the-remix",
+      "name": "Make a mashup",
+      "text": "Use a free app to lay one song’s vocals over another’s music, or just play two songs at once and listen.",
+      "minutes": 30
+    },
+    {
+      "kind": "games",
+      "item": "games-nomic",
+      "name": "Play Nomic",
+      "text": "Play a short game of Nomic with friends, where each turn you change a rule of the game.",
+      "minutes": 60
+    },
+    {
+      "kind": "games",
+      "item": "games-exquisite-corpse",
+      "name": "Draw an exquisite corpse",
+      "text": "Fold a sheet into three and draw a head, a body and legs without seeing each other’s parts.",
+      "minutes": 20
+    },
+    {
+      "kind": "games",
+      "item": "games-calvinball",
+      "name": "Play Calvinball",
+      "text": "Play Calvinball outside with a ball and some cones. The only rule: you can never play it the same way twice.",
+      "minutes": 30
+    },
+    {
+      "kind": "travel",
+      "item": "place-piazza-d-italia",
+      "name": "Visit the Piazza d’Italia",
+      "text": "Visit, or explore online, Charles Moore’s Piazza d’Italia in New Orleans, with its neon columns.",
+      "minutes": 30
+    },
+    {
+      "kind": "travel",
+      "item": "place-the-las-vegas-strip",
+      "name": "Learn from Las Vegas",
+      "text": "Walk, or explore online, the Las Vegas Strip as Venturi and Scott Brown did, reading the signs as architecture.",
+      "minutes": 60
+    },
+    {
+      "kind": "travel",
+      "item": "fest-april-fools-day",
+      "name": "Keep April Fools’ Day kindly",
+      "text": "On 1 April play one gentle trick that makes someone laugh and hurts no one.",
+      "minutes": 15
+    },
+    {
+      "kind": "words",
+      "item": "word-simulacre",
+      "name": "Learn the word simulacre",
+      "text": "Learn simulacre, a copy without an original, and find one in your day."
+    },
+    {
+      "kind": "words",
+      "item": "word-differance",
+      "name": "Learn the word différance",
+      "text": "Learn différance, with its silent a, and follow one word through three definitions in a dictionary."
+    },
+    {
+      "kind": "words",
+      "item": "word-petits-recits",
+      "name": "Learn petits récits",
+      "text": "Learn petits récits, little narratives, and tell someone a small true story from your week."
+    }
+  ]
+}

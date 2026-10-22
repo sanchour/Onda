@@ -1,0 +1,1643 @@
+{
+  "version": 1,
+  "id": "dostoevsky",
+  "name": "Dostoevsky",
+  "origin": "St Petersburg",
+  "era": "1821 to 1881, and the conscience of the novel ever since",
+  "tone": "yellow",
+  "icon": "lamp-pendant",
+  "font": "pt-serif",
+  "pattern": "rain",
+  "glyph": "Душа",
+  "line": "Do not lie to yourself, love the person in front of you, and answer for everyone.",
+  "quote": {
+    "text": "Beauty will save the world.",
+    "by": "Prince Myshkin, as Ippolit reports it",
+    "source": "Fyodor Dostoevsky, The Idiot, 1869, Part 3, chapter 5"
+  },
+  "quotes": [
+    {
+      "text": "Above all, do not lie to yourself.",
+      "by": "The elder Zosima",
+      "source": "The Brothers Karamazov, 1880, Book 2, chapter 2"
+    },
+    {
+      "text": "Love all of God’s creation, the whole of it and every grain of sand.",
+      "by": "The elder Zosima",
+      "source": "The Brothers Karamazov, 1880, Book 6, chapter 3; wording varies by translation"
+    },
+    {
+      "text": "Each of us is guilty before everyone, for everyone and for everything.",
+      "by": "Markel, Zosima’s dying brother",
+      "source": "The Brothers Karamazov, 1880, Book 6, chapter 2; wording varies by translation"
+    },
+    {
+      "text": "To go wrong in one’s own way is better than to go right in someone else’s.",
+      "by": "Razumikhin",
+      "source": "Crime and Punishment, 1866, Part 3, chapter 1, trans. Constance Garnett"
+    },
+    {
+      "text": "Man is a mystery. It must be solved, and if you spend your whole life solving it, do not say you have wasted your time.",
+      "by": "Fyodor Dostoevsky",
+      "source": "Letter to his brother Mikhail, 16 August 1839"
+    },
+    {
+      "text": "The soul is healed by being with children.",
+      "by": "Prince Myshkin",
+      "source": "The Idiot, 1869, Part 1, chapter 6; wording varies by translation"
+    }
+  ],
+  "words": [
+    {
+      "id": "word-dusha",
+      "term": "Dusha",
+      "meaning": "Soul",
+      "pronunciation": "doo-SHAH",
+      "language": "Russian",
+      "usage": "The inner person, the seat of conscience and feeling. Russians use it every day: to talk po dushe is to talk heart to heart."
+    },
+    {
+      "id": "word-toska",
+      "term": "Toska",
+      "meaning": "Anguish, aching longing",
+      "pronunciation": "tahs-KAH",
+      "language": "Russian",
+      "usage": "A spiritual ache with no clear object. Nabokov said no English word renders all its shades."
+    },
+    {
+      "id": "word-yurodivy",
+      "term": "Yurodivy",
+      "meaning": "Holy fool",
+      "pronunciation": "yoo-ROH-dee-vee",
+      "language": "Russian",
+      "usage": "A person who seems mad or simple and speaks truth to power. Myshkin is the great holy fool of the novel."
+    },
+    {
+      "id": "word-starets",
+      "term": "Starets",
+      "meaning": "Elder, spiritual guide",
+      "pronunciation": "STAH-ryets",
+      "language": "Russian",
+      "usage": "A monk to whom people come for counsel. Zosima is modelled partly on the elders of Optina Pustyn."
+    },
+    {
+      "id": "word-pochva",
+      "term": "Pochva",
+      "meaning": "Soil",
+      "pronunciation": "POHCH-vah",
+      "language": "Russian",
+      "usage": "The native ground. Dostoevsky wanted the educated to return to the soil of the people and their faith."
+    },
+    {
+      "id": "word-pochvennichestvo",
+      "term": "Pochvennichestvo",
+      "meaning": "The return to the soil",
+      "pronunciation": "POHCH-vyen-nee-chest-vah",
+      "language": "Russian",
+      "usage": "The movement he shaped with his brother in their journal Vremya in the 1860s."
+    },
+    {
+      "id": "word-nadryv",
+      "term": "Nadryv",
+      "meaning": "Laceration, a self-wounding strain",
+      "pronunciation": "nah-DRIV",
+      "language": "Russian",
+      "usage": "Feelings pushed past their truth into display and torment. Book 4 of The Brothers Karamazov is named for it."
+    },
+    {
+      "id": "word-smirenie",
+      "term": "Smirenie",
+      "meaning": "Humility",
+      "pronunciation": "smee-RYEH-nee-yeh",
+      "language": "Russian",
+      "usage": "Not weakness but a terrible strength, says Zosima: loving humility is the strongest force of all."
+    },
+    {
+      "id": "word-stradanie",
+      "term": "Stradanie",
+      "meaning": "Suffering",
+      "pronunciation": "strah-DAH-nee-yeh",
+      "language": "Russian",
+      "usage": "A constant subject. His characters seek it, flee it and are changed by it; the Onda never asks for it."
+    },
+    {
+      "id": "word-sostradanie",
+      "term": "Sostradanie",
+      "meaning": "Compassion, suffering with",
+      "pronunciation": "sah-strah-DAH-nee-yeh",
+      "language": "Russian",
+      "usage": "Myshkin calls compassion the chief and perhaps the only law of human existence."
+    },
+    {
+      "id": "word-sovest",
+      "term": "Sovest",
+      "meaning": "Conscience",
+      "pronunciation": "SOH-vyest",
+      "language": "Russian",
+      "usage": "What finally undoes Raskolnikov: not the police but his own conscience."
+    },
+    {
+      "id": "word-podpolye",
+      "term": "Podpolye",
+      "meaning": "The underground",
+      "pronunciation": "pahd-POHL-yeh",
+      "language": "Russian",
+      "usage": "The cellar of the mind where spite and wounded pride live. Notes from Underground gave it its name."
+    },
+    {
+      "id": "word-dvoynik",
+      "term": "Dvoynik",
+      "meaning": "The double",
+      "pronunciation": "DVOY-neek",
+      "language": "Russian",
+      "usage": "A second self that acts out what the first denies. The title of his second novel, 1846."
+    },
+    {
+      "id": "word-sobornost",
+      "term": "Sobornost",
+      "meaning": "Spiritual togetherness",
+      "pronunciation": "sah-BOHR-nahst",
+      "language": "Russian",
+      "usage": "A word of the Slavophile Khomyakov for a free communion of persons, close to Zosima’s vision."
+    },
+    {
+      "id": "word-lampada",
+      "term": "Lampada",
+      "meaning": "Icon lamp",
+      "pronunciation": "LAHM-pah-dah",
+      "language": "Russian",
+      "usage": "A small oil lamp of coloured glass kept burning before an icon. It glows through his rooms and novels."
+    },
+    {
+      "id": "word-ikona",
+      "term": "Ikona",
+      "meaning": "Icon",
+      "pronunciation": "ee-KOH-nah",
+      "language": "Russian",
+      "usage": "A holy image painted to be prayed with, not merely looked at."
+    },
+    {
+      "id": "word-krasny-ugol",
+      "term": "Krasny ugol",
+      "meaning": "The beautiful corner",
+      "pronunciation": "KRAHS-nee OO-gahl",
+      "language": "Russian",
+      "usage": "The corner of a room where the icons hang. Krasny once meant beautiful before it meant red."
+    },
+    {
+      "id": "word-belye-nochi",
+      "term": "Belye nochi",
+      "meaning": "White nights",
+      "pronunciation": "BYEH-lee-yeh NOH-chee",
+      "language": "Russian",
+      "usage": "The midsummer weeks in Petersburg when the sky never darkens. The title of his tale of a dreamer."
+    },
+    {
+      "id": "word-katorga",
+      "term": "Katorga",
+      "meaning": "Penal servitude",
+      "pronunciation": "KAH-tahr-gah",
+      "language": "Russian",
+      "usage": "The Siberian hard labour he served in Omsk from 1850 to 1854."
+    },
+    {
+      "id": "word-ostrog",
+      "term": "Ostrog",
+      "meaning": "Prison fort",
+      "pronunciation": "ahs-TROHG",
+      "language": "Russian",
+      "usage": "The stockade where convicts lived. The House of the Dead describes it."
+    },
+    {
+      "id": "word-samovar",
+      "term": "Samovar",
+      "meaning": "Tea urn",
+      "pronunciation": "sah-mah-VAHR",
+      "language": "Russian",
+      "usage": "The heated urn of Russian life. He drank his tea so strong it was nearly black."
+    },
+    {
+      "id": "word-ruletka",
+      "term": "Ruletka",
+      "meaning": "Roulette",
+      "pronunciation": "roo-LYET-kah",
+      "language": "Russian",
+      "usage": "His ruin in Wiesbaden and Baden-Baden, and the working title of The Gambler."
+    },
+    {
+      "id": "word-karamazovshchina",
+      "term": "Karamazovshchina",
+      "meaning": "Karamazov-ness",
+      "pronunciation": "kah-rah-MAH-zahv-shchee-nah",
+      "language": "Russian",
+      "usage": "The Karamazov blend of sensual force, wildness and thirst for life. The word is used inside the novel."
+    },
+    {
+      "id": "word-besy",
+      "term": "Besy",
+      "meaning": "Demons",
+      "pronunciation": "BYEH-see",
+      "language": "Russian",
+      "usage": "Possessing ideas. The title of his 1872 novel of conspirators."
+    },
+    {
+      "id": "word-mechtatel",
+      "term": "Mechtatel",
+      "meaning": "Dreamer",
+      "pronunciation": "myech-TAH-tyel",
+      "language": "Russian",
+      "usage": "The lonely young man of White Nights who lives in fantasies rather than days."
+    },
+    {
+      "id": "word-velikiy-inkvizitor",
+      "term": "Velikiy Inkvizitor",
+      "meaning": "The Grand Inquisitor",
+      "pronunciation": "vyeh-LEE-kee een-kvee-ZEE-tahr",
+      "language": "Russian",
+      "usage": "Ivan Karamazov’s poem of the old cardinal who arrests Christ for having made people free."
+    },
+    {
+      "id": "word-vsyo-pozvoleno",
+      "term": "Vsyo pozvoleno",
+      "meaning": "Everything is permitted",
+      "pronunciation": "fsyoh pahz-VOH-lyeh-nah",
+      "language": "Russian",
+      "usage": "Ivan’s conclusion if there is no God and no immortality. Smerdyakov acts on it."
+    },
+    {
+      "id": "word-deyatelnaya-lyubov",
+      "term": "Deyatelnaya lyubov",
+      "meaning": "Active love",
+      "pronunciation": "DYEH-yah-tyel-nah-yah lyoo-BOHV",
+      "language": "Russian",
+      "usage": "Zosima’s answer to doubt: love your neighbours actively and tirelessly, and faith follows."
+    },
+    {
+      "id": "word-polifoniya",
+      "term": "Polifoniya",
+      "meaning": "Polyphony",
+      "pronunciation": "pah-lee-FOH-nee-yah",
+      "language": "Russian",
+      "usage": "Bakhtin’s word for his novels: many full voices, none silenced by the author’s."
+    },
+    {
+      "id": "word-proshchenie",
+      "term": "Proshchenie",
+      "meaning": "Forgiveness",
+      "pronunciation": "prah-SHCHYEH-nee-yeh",
+      "language": "Russian",
+      "usage": "Also the root of the old Russian farewell, prosti, which means both forgive me and goodbye."
+    },
+    {
+      "id": "word-voskresenie",
+      "term": "Voskresenie",
+      "meaning": "Resurrection",
+      "pronunciation": "vahs-kryeh-SYEH-nee-yeh",
+      "language": "Russian",
+      "usage": "Sonya reads Raskolnikov the raising of Lazarus. The Easter greeting is Khristos voskrese, Christ is risen."
+    }
+  ],
+  "practices": [
+    {
+      "id": "do-not-lie-to-yourself",
+      "name": "Do not lie to yourself",
+      "icon": "eye",
+      "slot": "Morning",
+      "time": "07:00",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Before you look at your phone, sit for five minutes and ask one plain question: what am I pretending not to know? It may be about your work, a friendship, your health or your own motives. Do not solve it. Just say it to yourself in one honest sentence, quietly or on paper, and carry that sentence into the day.",
+      "why": "Zosima’s first counsel is not to lie to yourself, because every other lie grows from that one. Dostoevsky’s characters fall when they deceive themselves and begin to heal when they stop.",
+      "variations": [
+        "Write the sentence on a slip of paper and keep it in your pocket.",
+        "Ask it about one person you find difficult.",
+        "Ask it about something you are proud of."
+      ]
+    },
+    {
+      "id": "light-the-lamp",
+      "name": "Light the lamp",
+      "icon": "flame",
+      "slot": "Morning",
+      "time": "06:45",
+      "minutes": 3,
+      "meta": "Morning · 3 min",
+      "instructions": "Light a candle or a small lamp in one corner of your room, before a picture, an icon or simply a window. Sit facing it for three minutes. Let your breathing slow. Think of one person you will meet today and hold them in the light for a moment, wishing them well. Then put the flame out carefully and begin.",
+      "why": "Russian homes kept a lampada burning before the icons in the beautiful corner. His rooms had one, and its small red glow runs through his novels as a sign of a faith that keeps watch in the dark.",
+      "variations": [
+        "Use a lamp with coloured glass, red or green, as Russians did.",
+        "Hold someone you are at odds with in the light.",
+        "Keep the lamp lit while you eat breakfast."
+      ]
+    },
+    {
+      "id": "the-first-person-you-meet",
+      "name": "The first person you meet",
+      "icon": "hand-heart",
+      "slot": "Morning",
+      "time": "07:30",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Decide now that the first person you speak to today will receive your full attention and a real kindness, whoever they are: a child, a partner, a neighbour, the bus driver. Look at their face. Ask one question and listen to the answer. Do one small thing for them that you did not have to do. Notice how it changes your morning.",
+      "why": "Active love, says Zosima, is a harsh and dreadful thing compared with love in dreams. It begins not with humanity but with the person who happens to be in front of you.",
+      "variations": [
+        "Make it the person you usually overlook.",
+        "Remember their name and use it.",
+        "Do it again with the second person."
+      ]
+    },
+    {
+      "id": "a-page-of-the-gospel-he-carried",
+      "name": "A page of the Gospel he carried",
+      "icon": "book-open",
+      "slot": "Morning",
+      "time": "06:30",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Read one short passage slowly, the way he read the New Testament he carried through four years of prison. John 11, the raising of Lazarus, is the one Sonya reads to Raskolnikov. Or read the Sermon on the Mount, or any page of wisdom you love. Read it twice. Stop at the line that catches you and stay with it.",
+      "why": "The wives of the Decembrists gave him a New Testament on his way to Siberia. It was the only book allowed in the camp, and he kept it all his life. Slow reading of a few lines can do what a hundred pages cannot.",
+      "variations": [
+        "Read the passage aloud.",
+        "Copy the line that caught you by hand.",
+        "Read a page of The Brothers Karamazov, Book 6, instead."
+      ]
+    },
+    {
+      "id": "strong-tea-and-three-tasks",
+      "name": "Strong tea and three tasks",
+      "icon": "coffee",
+      "slot": "Morning",
+      "time": "08:00",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Make a pot of tea stronger than usual, the way he drank it. While it steeps, write down only three things you must do today, the three that truly matter, in order. Leave everything else off the list. Drink the tea slowly and look at the three lines. Begin the first one before you do anything else.",
+      "why": "He worked under crushing deadlines, debts and illness, and still finished the greatest novels of his century, often by deciding what must be written tonight and doing only that.",
+      "variations": [
+        "Use a glass in a holder, as Russians drink tea.",
+        "Sweeten it with a spoon of jam instead of sugar.",
+        "Write the three tasks the night before."
+      ]
+    },
+    {
+      "id": "kiss-the-earth",
+      "name": "Kiss the earth",
+      "icon": "plant",
+      "slot": "Morning",
+      "time": "07:15",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Go outside, to a garden, a park, a patch of grass or even a potted plant. Crouch down and touch the earth with both hands. Feel its cold or warmth. Think of all the life it carries and everything that has lived and died on it. Say thank you, silently or aloud. Wash your hands only afterwards.",
+      "why": "Alyosha, after Zosima’s death, falls to the earth and kisses it, weeping, and rises a fighter for life. Love the earth, says Zosima, and every grain of sand in it.",
+      "variations": [
+        "Walk barefoot on grass for a minute.",
+        "Plant one seed.",
+        "Pick up litter from a small patch of ground."
+      ]
+    },
+    {
+      "id": "one-concrete-kindness",
+      "name": "One concrete kindness",
+      "icon": "hand-coins",
+      "slot": "Afternoon",
+      "time": "13:00",
+      "minutes": 15,
+      "meta": "Afternoon · 15 min",
+      "instructions": "Do one practical, unglamorous good deed for someone who will probably not thank you: carry a neighbour’s shopping, buy a meal for someone who asks for money, call a lonely relative, clean a shared space nobody cleans. Keep it real and specific. Do not tell anyone about it afterwards.",
+      "why": "Ivan Karamazov loves humanity in general and cannot bear his neighbour. Dostoevsky’s answer is love that does something now, for someone, without an audience.",
+      "variations": [
+        "Give something you would rather keep.",
+        "Choose a stranger.",
+        "Do it for someone who has wronged you."
+      ]
+    },
+    {
+      "id": "find-your-underground",
+      "name": "Find your underground",
+      "icon": "magnifying-glass",
+      "slot": "Afternoon",
+      "time": "14:00",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Watch yourself for a moment of spite today: when you wanted to win more than to be right, refused help out of pride, or did something against your own interest just to make a point. When you catch it, stop and name it to yourself without excuses. Then ask what wounded pride sits underneath.",
+      "why": "The man from underground will act against his own good just to prove he is free. Dostoevsky saw that this spite lives in everyone, and that seeing it clearly is the first step out of the cellar.",
+      "variations": [
+        "Write down the moment and what you felt.",
+        "Do the opposite of what spite wanted.",
+        "Notice spite in your online life."
+      ]
+    },
+    {
+      "id": "walk-raskolnikov-s-city",
+      "name": "Walk Raskolnikov’s city",
+      "icon": "person-simple-walk",
+      "slot": "Afternoon",
+      "time": "15:30",
+      "minutes": 30,
+      "meta": "Afternoon · 30 min",
+      "instructions": "Walk for half an hour through a part of your town you usually avoid: a market, a crowded square, a poor street. Walk slowly and look at faces, doorways, courtyards and windows. Notice who is tired, who is alone, who is laughing. Do not take photographs. Let the city speak to you as Petersburg spoke to him.",
+      "why": "His novels walk the Haymarket and its back streets among drunks, students, mothers and pawnbrokers. He believed every face hides a whole world and that the city reveals the soul to those who look.",
+      "variations": [
+        "Sit on a bench for ten minutes and only watch.",
+        "Walk at dusk.",
+        "Buy something small from a street seller and talk with them."
+      ]
+    },
+    {
+      "id": "listen-without-fixing",
+      "name": "Listen without fixing",
+      "icon": "ear",
+      "slot": "Afternoon",
+      "time": "16:00",
+      "minutes": 15,
+      "meta": "Afternoon · 15 min",
+      "instructions": "Have one conversation today in which you only listen. Let the other person finish every thought. Do not offer advice, correct them or turn it to your own story. Ask one more question when they pause. If you disagree, let their view stand at full strength in your mind for a while before you answer.",
+      "why": "Bakhtin saw that Dostoevsky lets every character speak with a full voice, even those he disagreed with. Truth, in his novels, happens between people who truly hear one another.",
+      "variations": [
+        "Listen to someone older than you about their life.",
+        "Listen to a view you dislike, in full.",
+        "Repeat back what you heard before answering."
+      ]
+    },
+    {
+      "id": "ask-forgiveness-first",
+      "name": "Ask forgiveness first",
+      "icon": "handshake",
+      "slot": "Afternoon",
+      "time": "17:00",
+      "minutes": 10,
+      "meta": "Afternoon · 10 min",
+      "instructions": "Think of one person you are in a quiet quarrel with, even a small one. Without waiting to work out who was more wrong, ask their forgiveness for your part. Say it simply, in person, by message or by letter. Do not add a but. Then let it go, whatever they answer.",
+      "why": "Zosima’s brother asks forgiveness of the servants and the birds; Zosima himself asks it of the officer he was about to duel. In Dostoevsky the first to ask forgiveness is the freest person in the room.",
+      "variations": [
+        "Ask forgiveness of someone who has died, in a letter you keep.",
+        "Ask forgiveness of a child.",
+        "Forgive someone who has not asked."
+      ]
+    },
+    {
+      "id": "write-like-a-stenographer",
+      "name": "Write like a stenographer",
+      "icon": "pen-nib",
+      "slot": "Afternoon",
+      "time": "14:30",
+      "minutes": 20,
+      "meta": "Afternoon · 20 min",
+      "instructions": "Speak your thoughts on something that troubles you aloud for twenty minutes while writing them down as fast as you can, or record yourself and write it out. Do not stop to correct anything. Let the voices in you argue. Read it back only at the end, and underline the one sentence that surprised you.",
+      "why": "From The Gambler on he dictated his novels to Anna, who took them down in shorthand. Speaking let the voices of his characters run free before he shaped them.",
+      "variations": [
+        "Let two sides of yourself argue on the page.",
+        "Dictate a letter to someone you love.",
+        "Write by hand only, no screens."
+      ]
+    },
+    {
+      "id": "the-day-s-honest-account",
+      "name": "The day’s honest account",
+      "icon": "notebook",
+      "slot": "Evening",
+      "time": "21:00",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Before bed, write a short, honest account of your day in your journal. Where did you lie to yourself? Where did you love actively, and where did you only dream of loving? Whom did you judge? Write plainly, without punishing yourself. End with one thing you are grateful for.",
+      "why": "Dostoevsky kept notebooks full of arguments with himself. Honesty without self-torment is the point: Zosima warns against the laceration of feelings pushed into display.",
+      "variations": [
+        "Use one of the Onda’s journal prompts.",
+        "Write it as a letter to Zosima.",
+        "Write only three lines, but true ones."
+      ],
+      "action": "journal"
+    },
+    {
+      "id": "responsible-for-all",
+      "name": "Responsible for all",
+      "icon": "users-three",
+      "slot": "Evening",
+      "time": "21:30",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Think back over the day and pick one thing that went wrong around you, at work, at home or in the news. Instead of asking whose fault it was, ask what small part of it is yours to answer for, even indirectly. Decide on one thing you could do tomorrow about that part.",
+      "why": "Each of us is guilty before all for all, says Markel. Not as a burden of guilt but as an end to standing outside, which, says Zosima, turns the world into paradise.",
+      "variations": [
+        "Think of a stranger affected by your choices.",
+        "Think of the people who made your clothes.",
+        "Do the thing tomorrow before noon."
+      ]
+    },
+    {
+      "id": "read-by-lamplight",
+      "name": "Read by lamplight",
+      "icon": "lamp",
+      "slot": "Evening",
+      "time": "22:00",
+      "minutes": 30,
+      "meta": "Evening · 30 min",
+      "instructions": "Turn off the overhead lights and read for half an hour by a single lamp or candle. Read Dostoevsky if you can: White Nights for a gentle evening, a chapter of The Brothers Karamazov for a long one. Read slowly, and stop to listen to a character you dislike as carefully as one you love.",
+      "why": "His was a world of oil lamps and long winter evenings. Reading in a small pool of light slows the eye and lets a voice from the page come close.",
+      "variations": [
+        "Read aloud to someone.",
+        "Read the Grand Inquisitor chapter in one sitting.",
+        "Read a page of his letters."
+      ]
+    },
+    {
+      "id": "the-night-writer",
+      "name": "The night writer",
+      "icon": "moon",
+      "slot": "Evening",
+      "time": "22:30",
+      "minutes": 20,
+      "meta": "Evening · 20 min",
+      "instructions": "Write for twenty minutes late in the evening, when the house is quiet. A letter, a page of a story, a confession, a memory. Have a glass of tea beside you. Write without planning and without looking at your phone. When you stop, put the pages away unread until tomorrow.",
+      "why": "He did his writing at night, from late evening until dawn, with strong tea, and slept into the morning. Night writing reaches places the busy day keeps closed.",
+      "variations": [
+        "Write a memory from your childhood.",
+        "Write as one of his characters.",
+        "Write a letter you will not send."
+      ]
+    },
+    {
+      "id": "hold-someone-in-prayer",
+      "name": "Hold someone in prayer",
+      "icon": "hands-praying",
+      "slot": "Evening",
+      "time": "22:45",
+      "minutes": 5,
+      "meta": "Evening · 5 min",
+      "instructions": "Before sleep, name to yourself one person who is suffering, whether you know them or not. Pray for them if you pray. If you do not, hold them in your mind with as much goodwill as you can for a few minutes, and wish them rest, help and peace.",
+      "why": "Zosima asks his monks to pray each day for those who are dying, unseen, all over the earth. Even if no one knows, he says, the prayer goes out to them.",
+      "variations": [
+        "Name someone you find hard to love.",
+        "Name everyone who died today, unknown.",
+        "Light the lamp again while you do it."
+      ]
+    },
+    {
+      "id": "the-grand-inquisitor-s-question",
+      "name": "The Grand Inquisitor’s question",
+      "icon": "scales",
+      "slot": "Evening",
+      "time": "20:30",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Read or recall the Grand Inquisitor’s charge: people do not want freedom but bread, miracle and authority. Think of one area of your life where you would rather be told what to do than choose. Write a few lines in the Inquisitor’s voice, then a few in your own reply.",
+      "why": "Ivan’s poem is one of the great arguments about freedom ever written. Dostoevsky gave the Inquisitor his strongest case and answered it only with a silent kiss.",
+      "variations": [
+        "Open the Onda’s Philosophy page and read The Grand Inquisitor idea.",
+        "Discuss it with a friend over tea.",
+        "Ask where you hand your freedom to a screen."
+      ],
+      "action": "philosophy"
+    },
+    {
+      "id": "five-minutes-left",
+      "name": "Five minutes left",
+      "icon": "hourglass",
+      "slot": "Special",
+      "time": "10:00",
+      "minutes": 20,
+      "meta": "Once in the Onda · 20 min",
+      "instructions": "On Semyonovsky Square he believed he had five minutes to live and thought about how to spend them. Sit quietly and ask gently: if I had five minutes, whom would I speak to and what would I say? Then do one of those things today. If this question feels too heavy right now, skip it and take a walk.",
+      "why": "He later said that in those minutes every moment seemed an eternity of riches, and he swore never to waste a day. The exercise is about love and gratitude, not fear.",
+      "variations": [
+        "Write the message you would send.",
+        "Call the person instead.",
+        "Spend the evening with them."
+      ]
+    },
+    {
+      "id": "visit-those-who-are-forgotten",
+      "name": "Visit those who are forgotten",
+      "icon": "house",
+      "slot": "Special",
+      "time": "10:00",
+      "minutes": 120,
+      "meta": "On a free day · 120 min",
+      "instructions": "Spend a morning or afternoon with people the world forgets: volunteer at a shelter or soup kitchen, visit a care home, sit with a lonely neighbour, write to a prisoner through a reputable letter scheme. Go as a guest, not a rescuer. Listen more than you speak.",
+      "why": "Four years among convicts showed him the human being in the most despised. His whole work insists that no one is beyond dignity or love.",
+      "variations": [
+        "Go with a friend.",
+        "Bring tea and something to eat.",
+        "Go back a second time."
+      ]
+    }
+  ],
+  "tasks": [],
+  "rules": [
+    {
+      "id": "r1",
+      "text": "Do not lie to yourself",
+      "why": "Zosima says the one who lies to himself ends by losing all respect for himself and others. Every other rule here rests on this one."
+    },
+    {
+      "id": "r2",
+      "text": "Love the one in front of you",
+      "why": "Ivan loves humanity and cannot stand his neighbour. Active love is for this person, today, by name."
+    },
+    {
+      "id": "r3",
+      "text": "Ask forgiveness first",
+      "why": "In the novels the first to ask is the freest. Do not wait to be in the right before you say sorry."
+    },
+    {
+      "id": "r4",
+      "text": "Do not despise the fallen",
+      "why": "Marmeladov, Sonya and the convicts of Omsk all keep their dignity in his eyes. Look for the human being behind the failure."
+    },
+    {
+      "id": "r5",
+      "text": "Carry more than your share",
+      "why": "Each of us is responsible for all. When something goes wrong near you, ask what part is yours before you ask whose fault it is."
+    },
+    {
+      "id": "r6",
+      "text": "Keep one corner beautiful",
+      "why": "Keep one small place lit and cared for, a lamp, a picture, a plant, as a reminder that beauty is real."
+    }
+  ],
+  "immerse": {
+    "read": [
+      {
+        "id": "read-notes-from-underground",
+        "title": "Notes from Underground",
+        "creator": "Fyodor Dostoevsky, trans. Richard Pevear and Larissa Volokhonsky",
+        "year": "1864",
+        "why": "A spiteful, brilliant man in a cellar argues against reason itself. Short, savage and the key to everything after it."
+      },
+      {
+        "id": "read-crime-and-punishment",
+        "title": "Crime and Punishment",
+        "creator": "Fyodor Dostoevsky, trans. Oliver Ready",
+        "year": "1866",
+        "why": "A poor student kills an old pawnbroker to prove he is extraordinary, and his conscience hunts him through the summer streets."
+      },
+      {
+        "id": "read-the-idiot",
+        "title": "The Idiot",
+        "creator": "Fyodor Dostoevsky, trans. Richard Pevear and Larissa Volokhonsky",
+        "year": "1869",
+        "why": "His attempt to portray a perfectly good man, Prince Myshkin, and what the world does with him."
+      },
+      {
+        "id": "read-demons",
+        "title": "Demons",
+        "creator": "Fyodor Dostoevsky, trans. Richard Pevear and Larissa Volokhonsky",
+        "year": "1872",
+        "why": "A provincial town possessed by revolutionary ideas. Prophetic, comic and terrifying."
+      },
+      {
+        "id": "read-the-brothers-karamazov",
+        "title": "The Brothers Karamazov",
+        "creator": "Fyodor Dostoevsky, trans. Richard Pevear and Larissa Volokhonsky",
+        "year": "1880",
+        "why": "Three brothers, their father’s murder, the Grand Inquisitor and the elder Zosima. His last and greatest novel."
+      },
+      {
+        "id": "read-white-nights",
+        "title": "White Nights",
+        "creator": "Fyodor Dostoevsky",
+        "year": "1848",
+        "why": "Four luminous Petersburg nights and a lonely dreamer in love. The gentlest door into his world."
+      },
+      {
+        "id": "read-the-house-of-the-dead",
+        "title": "The House of the Dead",
+        "creator": "Fyodor Dostoevsky",
+        "year": "1862",
+        "why": "A fictionalised memoir of his four years in the Omsk prison camp. Tolstoy thought it his best book."
+      },
+      {
+        "id": "read-dostoevsky-reminiscences",
+        "title": "Dostoevsky: Reminiscences",
+        "creator": "Anna Dostoevsky, trans. Beatrice Stillman",
+        "year": "1975",
+        "why": "His wife’s memoir of their fourteen years: the debts, the dictation, the gambling cured, the children and the death."
+      }
+    ],
+    "watch": [
+      {
+        "id": "watch-the-idiot",
+        "title": "The Idiot",
+        "creator": "Akira Kurosawa",
+        "year": "1951",
+        "why": "Kurosawa moves Myshkin to snowbound Hokkaido after the war. Long, strange and deeply faithful in spirit."
+      },
+      {
+        "id": "watch-white-nights",
+        "title": "White Nights",
+        "creator": "Luchino Visconti",
+        "year": "1957",
+        "why": "Marcello Mastroianni as the dreamer on a studio-built canal city of fog and lamplight."
+      },
+      {
+        "id": "watch-pickpocket",
+        "title": "Pickpocket",
+        "creator": "Robert Bresson",
+        "year": "1959",
+        "why": "A Paris thief who reasons like Raskolnikov. Bresson’s spare retelling of Crime and Punishment."
+      },
+      {
+        "id": "watch-une-femme-douce",
+        "title": "Une femme douce",
+        "creator": "Robert Bresson",
+        "year": "1969",
+        "why": "Bresson’s film of A Gentle Creature, the story of a husband beside the body of the wife who has killed herself. Dominique Sanda’s first role."
+      }
+    ],
+    "listen": [
+      {
+        "id": "listen-all-night-vigil",
+        "title": "All-Night Vigil",
+        "creator": "Sergei Rachmaninoff",
+        "year": "1915",
+        "why": "Russian Orthodox chant set for unaccompanied choir. The sound of the churches Alyosha and Zosima prayed in."
+      },
+      {
+        "id": "listen-from-the-house-of-the-dead",
+        "title": "From the House of the Dead",
+        "creator": "Leoš Janáček",
+        "year": "1930",
+        "why": "Janáček’s last opera, drawn from the prison memoir. Its motto: in every creature a spark of God."
+      },
+      {
+        "id": "listen-the-gambler",
+        "title": "The Gambler",
+        "creator": "Sergei Prokofiev",
+        "year": "1929",
+        "why": "The opera of the novella he dictated in twenty-six days to escape a ruinous contract."
+      },
+      {
+        "id": "listen-pictures-at-an-exhibition",
+        "title": "Pictures at an Exhibition",
+        "creator": "Modest Mussorgsky",
+        "year": "1874",
+        "why": "Written in Petersburg in the years of Demons by a composer who also knew poverty and drink."
+      }
+    ],
+    "art": [
+      {
+        "id": "art-the-body-of-the-dead-christ-in-the-tomb",
+        "title": "The Body of the Dead Christ in the Tomb",
+        "creator": "Hans Holbein the Younger",
+        "year": "1521",
+        "why": "In Basel in 1867 he stood on a chair before it until Anna feared a fit. A man could lose his faith from that picture, says Myshkin."
+      },
+      {
+        "id": "art-portrait-of-fyodor-dostoevsky",
+        "title": "Portrait of Fyodor Dostoevsky",
+        "creator": "Vasily Perov",
+        "year": "1872",
+        "why": "Painted for Pavel Tretyakov: hands clasped round a knee, eyes inward. Anna thought it caught him in a moment of creation."
+      },
+      {
+        "id": "art-sistine-madonna",
+        "title": "Sistine Madonna",
+        "creator": "Raphael",
+        "year": "1512",
+        "why": "His favourite painting, in Dresden. A large photograph of it hung over the sofa where he died."
+      },
+      {
+        "id": "art-trinity",
+        "title": "Trinity",
+        "creator": "Andrei Rublev",
+        "year": "c. 1411",
+        "why": "The great Russian icon of three angels at a table. The beauty he hoped would save the world looks like this."
+      },
+      {
+        "id": "art-acis-and-galatea",
+        "title": "Acis and Galatea",
+        "creator": "Claude Lorrain",
+        "year": "1657",
+        "why": "In Dresden. The dream of a golden age of innocence that appears in Demons and The Adolescent."
+      }
+    ],
+    "eat": [
+      {
+        "id": "eat-shchi",
+        "title": "Shchi",
+        "creator": "Cabbage soup",
+        "why": "The soup of every Russian table and of the prison camp. In The House of the Dead the convicts’ soup is shchi, thin and full of cockroaches."
+      },
+      {
+        "id": "eat-black-rye-bread",
+        "title": "Black rye bread",
+        "creator": "Sour, dense and dark",
+        "why": "The bread of the poor and of prisoners, and in Russian piety a gift not to be wasted."
+      },
+      {
+        "id": "eat-buckwheat-kasha",
+        "title": "Buckwheat kasha",
+        "creator": "Toasted buckwheat porridge",
+        "why": "The plain food of students and soldiers. Raskolnikov lives on almost nothing in his coffin of a room."
+      },
+      {
+        "id": "eat-pirozhki",
+        "title": "Pirozhki",
+        "creator": "Small baked or fried filled buns",
+        "why": "Sold hot from trays in the Haymarket, where Raskolnikov wanders among the stalls."
+      }
+    ],
+    "drink": [
+      {
+        "id": "drink-strong-black-tea",
+        "title": "Strong black tea",
+        "creator": "From a samovar, sweetened with sugar or jam",
+        "why": "He drank it very strong late into the night while he wrote. Anna kept it coming."
+      },
+      {
+        "id": "drink-kvass",
+        "title": "Kvass",
+        "creator": "Lightly fermented rye drink",
+        "why": "The everyday drink of the street. Raskolnikov’s world smells of it in the July heat."
+      },
+      {
+        "id": "drink-kissel",
+        "title": "Kissel",
+        "creator": "A thick fruit drink set with starch",
+        "why": "A homely Russian sweet drink of berries, the kind served at a children’s table."
+      }
+    ],
+    "customs": [
+      {
+        "id": "customs-writing-through-the-night",
+        "title": "Writing through the night",
+        "creator": "His working hours",
+        "why": "He wrote from late evening until dawn with tea and cigarettes, slept until late morning and dictated the night’s pages to Anna by day."
+      },
+      {
+        "id": "customs-the-gospel-from-tobolsk",
+        "title": "The Gospel from Tobolsk",
+        "creator": "A book kept for life",
+        "why": "Wives of the Decembrists gave him a New Testament on his way to Siberia. He read it in prison and asked Anna to read from it as he died."
+      },
+      {
+        "id": "customs-khristos-voskrese",
+        "title": "Khristos voskrese",
+        "creator": "The Easter greeting",
+        "why": "Christ is risen; Truly he is risen; and three kisses. His story The Peasant Marey is a memory of an Easter in the camp."
+      },
+      {
+        "id": "customs-dictation",
+        "title": "Dictation",
+        "creator": "How the late novels were made",
+        "why": "From The Gambler on, he dictated to Anna, who took it down in shorthand and wrote it out clean."
+      }
+    ],
+    "games": [
+      {
+        "id": "games-roulette",
+        "title": "Roulette",
+        "creator": "Game of chance",
+        "year": "18th century",
+        "why": "His passion and his ruin in the German spas, ended for good in Wiesbaden in 1871. Here a game for watching the pull of chance, never for money."
+      },
+      {
+        "id": "games-durak",
+        "title": "Durak",
+        "creator": "Card game",
+        "year": "19th century",
+        "why": "The fool: the most popular card game in Russia, where the loser is the one left holding cards."
+      },
+      {
+        "id": "games-gorodki",
+        "title": "Gorodki",
+        "creator": "Skittles game",
+        "year": "traditional",
+        "why": "A Russian game of throwing a bat at figures built of wooden pins. Peasants and later Tolstoy and Lenin played it."
+      }
+    ],
+    "festivals": [
+      {
+        "id": "fest-easter",
+        "title": "Easter",
+        "creator": "Russian Orthodox Easter, March to May",
+        "why": "The midnight service, the bells, the greeting Christ is risen. Sonya, Lazarus and the Easter in the camp all point here."
+      },
+      {
+        "id": "fest-dostoevsky-s-birthday",
+        "title": "Dostoevsky’s birthday",
+        "creator": "11 November (30 October in the old calendar)",
+        "why": "Born in 1821 in a hospital for the poor in Moscow, where his father was a doctor."
+      },
+      {
+        "id": "fest-the-white-nights",
+        "title": "The White Nights",
+        "creator": "St Petersburg, late May to mid July",
+        "why": "When the sun barely sets and the city stays pale all night. Walk the embankments as his dreamer did."
+      }
+    ],
+    "places": [
+      {
+        "id": "place-dostoevsky-literary-memorial-museum",
+        "title": "Dostoevsky Literary-Memorial Museum",
+        "creator": "Kuznechny Lane, St Petersburg",
+        "why": "The flat where he wrote The Brothers Karamazov and died in 1881. His study, his clock stopped at the hour of his death."
+      },
+      {
+        "id": "place-sennaya-square-and-stolyarny-lane",
+        "title": "Sennaya Square and Stolyarny Lane",
+        "creator": "St Petersburg",
+        "why": "The Haymarket and its back streets, where Raskolnikov lived and walked. He counted the steps from his door."
+      },
+      {
+        "id": "place-optina-pustyn",
+        "title": "Optina Pustyn",
+        "creator": "Near Kozelsk, Kaluga region",
+        "why": "The monastery he visited with Vladimir Solovyov in 1878 after his son’s death. Its elder Ambrose stands behind Zosima."
+      },
+      {
+        "id": "place-dostoevsky-house-museum",
+        "title": "Dostoevsky House-Museum",
+        "creator": "Staraya Russa, Novgorod region",
+        "why": "The family’s summer house. The town became Skotoprigonyevsk in The Brothers Karamazov."
+      },
+      {
+        "id": "place-tikhvin-cemetery",
+        "title": "Tikhvin Cemetery",
+        "creator": "Alexander Nevsky Lavra, St Petersburg",
+        "why": "His grave, carved with the verse from John about the grain of wheat that must die to bear fruit."
+      }
+    ]
+  },
+  "ethics": [
+    {
+      "title": "Active love",
+      "text": "Love in dreams wants quick results and applause. Active love is labour and patience, and for some people a whole science.",
+      "practice": "Do one patient, unglamorous thing for someone who will not thank you."
+    },
+    {
+      "title": "Responsibility for all",
+      "text": "Not guilt for everything, but refusing to stand outside: what happens around you is partly yours to answer for.",
+      "practice": "When something goes wrong today, ask first what part of it is yours."
+    },
+    {
+      "title": "Humility",
+      "text": "Loving humility is a terrible force, the strongest of all, says Zosima. It disarms where argument hardens.",
+      "practice": "In one disagreement today, give way where it costs your pride and nothing else."
+    },
+    {
+      "title": "Honesty with oneself",
+      "text": "Lies to oneself come first, and every other lie grows from them. Truth starts inside.",
+      "practice": "Name one thing you have been pretending not to know."
+    },
+    {
+      "title": "Do not judge",
+      "text": "The worst sinner in the novels can still be saved, and the righteous can be cruel. Judgement belongs elsewhere.",
+      "practice": "Catch yourself judging someone today and imagine their story for one minute."
+    },
+    {
+      "title": "Forgiveness",
+      "text": "To forgive is not to excuse but to refuse to let the wrong decide who the other person is forever.",
+      "practice": "Forgive one small debt today, out loud or in your heart."
+    }
+  ],
+  "philosophy": [
+    {
+      "title": "The underground",
+      "text": "The underground man insists on his right to act against his own interest, just to prove he is free and not a piano key. Spite is a twisted kind of freedom.",
+      "practice": "Notice one moment today when you chose against your own good to make a point."
+    },
+    {
+      "title": "Everything is permitted",
+      "text": "Ivan argues that without God and immortality there is no ground for virtue. Smerdyakov takes him at his word and kills. Ideas have consequences.",
+      "practice": "Ask of one idea you hold: what would someone do who believed it completely?"
+    },
+    {
+      "title": "The Grand Inquisitor",
+      "text": "The Inquisitor says people do not want freedom but bread, miracle and authority, and he loves them by taking their freedom away. Christ answers with a kiss.",
+      "practice": "Where today would you rather be told what to do than choose? Choose."
+    },
+    {
+      "title": "Suffering and its meaning",
+      "text": "His characters are changed by suffering, but he also shows suffering that only crushes. The question is what love can do with it, not whether to seek it.",
+      "practice": "Think of one hard time that changed you. What helped it become something other than damage?"
+    },
+    {
+      "title": "Polyphony",
+      "text": "Bakhtin saw that his characters argue with full voices that the author does not silence. Truth emerges between people, in dialogue.",
+      "practice": "Let the strongest version of a view you oppose speak in your head for five minutes."
+    },
+    {
+      "title": "Beauty will save the world",
+      "text": "Beauty here is not prettiness but the radiance of the good, glimpsed in a face, an icon or a child. It can draw people where argument cannot.",
+      "practice": "Find one beautiful thing today and stay with it for a full minute."
+    },
+    {
+      "title": "The double",
+      "text": "We split ourselves to escape what we are, and the split comes back as a double that shames us. Wholeness is the cure.",
+      "practice": "Where are you one person in public and another alone? Name the gap."
+    },
+    {
+      "title": "The holy fool",
+      "text": "Myshkin is defenceless, honest and kind, and he exposes everyone around him without meaning to. Goodness looks like foolishness to the world.",
+      "practice": "Do one thing today that is simply good and looks a little foolish."
+    }
+  ],
+  "journal": [
+    "Where did I lie to myself today?",
+    "Who was the person in front of me today, and did I love them actively?",
+    "What did I resent today, and what was underneath it?",
+    "What part of something that went wrong today was mine?",
+    "Whom do I need to ask for forgiveness, and what stops me?",
+    "When did my pride make me act against my own good?",
+    "What beauty did I see today?",
+    "Which idea of mine would be dangerous if someone acted on it fully?",
+    "Where am I a dreamer, living in fantasy rather than in my days?",
+    "Who have I judged, and what might their story be?",
+    "What would I do with five more minutes of life, and why am I not doing it?",
+    "What is my underground: the cellar where my spite lives?",
+    "When did I want bread, miracle or authority instead of freedom?",
+    "Which voice in me have I been silencing?",
+    "What humbles me, and what does humility make possible?",
+    "Who in my life is a holy fool, honest past the point of sense?",
+    "What do I owe to people I have never met?",
+    "When did suffering change me, and what made the difference?",
+    "Where in my life is there a double, a second self I do not admit?",
+    "What gamble am I tempted by, with money, time or love?",
+    "What did a child teach me recently?",
+    "What does my conscience keep returning to?",
+    "Where did I love humanity today and fail a human being?",
+    "What would Zosima say to me tonight?",
+    "What would Ivan say, and how would I answer him?",
+    "What did I see today that I would rather not have seen?",
+    "Whom have I written off, and could I be wrong?",
+    "What is the corner of my life I keep lit?",
+    "What would I like to be resurrected in me?",
+    "What has this Onda shown me about my soul?"
+  ],
+  "reflect": [
+    "What have you learned about lying to yourself?",
+    "What did active love ask of you, and did you give it?",
+    "Which character did you most recognise yourself in?",
+    "What did you come to see about responsibility for others?",
+    "Where did you find beauty, and did it change anything?",
+    "What will you carry from Dostoevsky into ordinary days?"
+  ],
+  "dayThemes": [
+    "Do not lie to yourself",
+    "The person in front of you",
+    "The underground",
+    "The dreamer",
+    "The lamp",
+    "Active love",
+    "The double",
+    "Humility",
+    "The holy fool",
+    "Conscience",
+    "Five minutes",
+    "The house of the dead",
+    "Resurrection",
+    "The gambler",
+    "Forgiveness",
+    "Everything is permitted",
+    "The Grand Inquisitor",
+    "Bread and freedom",
+    "Children",
+    "The elder",
+    "Responsibility for all",
+    "Beauty",
+    "Many voices",
+    "Suffering",
+    "The fallen",
+    "The soil",
+    "Petersburg",
+    "The grain of wheat",
+    "Gratitude",
+    "The soul"
+  ],
+  "guide": {
+    "intro": [
+      "Fyodor Mikhailovich Dostoevsky was born in Moscow in 1821, the son of a doctor at a hospital for the poor. He trained as a military engineer in St Petersburg, resigned to write, and became famous overnight in 1846 when the critic Belinsky hailed his first novel, Poor Folk.",
+      "In 1849 he was arrested with a circle of young men who met to read banned socialist writings. They were sentenced to death, tied to posts on Semyonovsky Square and reprieved at the last moment by a message from the Tsar that had been planned all along. He spent four years at hard labour in Omsk and five more as a soldier in Siberia.",
+      "Prison changed him. Among murderers and thieves he found faith in the Russian people, in Christ and in the dignity of the most degraded human being. He came back to Petersburg in 1859 with a New Testament he had carried through the camp and a hatred of tidy theories that promise happiness by calculation.",
+      "The great novels followed in a rush, written against deadlines, debts, epilepsy and a gambling passion that ruined him in the German spas until he gave it up in 1871: Notes from Underground, Crime and Punishment, The Idiot, Demons and finally The Brothers Karamazov. His second wife, Anna, a stenographer, took them down from dictation and made their life possible.",
+      "His books are arguments with many voices. Atheists, saints, murderers, holy fools and drunkards each speak with full force, and he lets them. What he believed comes through his elders and fools: that we must not lie to ourselves, that love is a labour done for real people, that each of us is responsible for all, and that freedom is both our dignity and our torment.",
+      "This Onda takes from him a way of living, not a creed: honesty with oneself, active love for the person in front of you, the courage to ask forgiveness first, attention to beauty, and a refusal to give up on anyone. It also invites you into his Petersburg of white nights, icon lamps and strong tea."
+    ],
+    "origin": "Moscow, St Petersburg, Siberia, and years abroad in Dresden, Geneva and Florence",
+    "era": "Dostoevsky was born in 1821 and died in St Petersburg in 1881, months after The Brothers Karamazov was finished",
+    "figures": [
+      {
+        "name": "Fyodor Dostoevsky",
+        "dates": "1821 to 1881",
+        "bio": "Novelist, journalist and former convict. Short, pale and intense, a brilliant reader aloud and a ruinous gambler until he stopped."
+      },
+      {
+        "name": "Anna Grigoryevna Dostoevskaya",
+        "dates": "1846 to 1918",
+        "bio": "The stenographer who took down The Gambler in 1866 and married him the next year. She managed his debts, published his books and kept his memory."
+      },
+      {
+        "name": "Mikhail Dostoevsky",
+        "dates": "1820 to 1864",
+        "bio": "His elder brother and closest friend, with whom he ran the journals Vremya and Epokha. His death left Fyodor with his debts and family."
+      },
+      {
+        "name": "Maria Dmitrievna Isaeva",
+        "dates": "1824 to 1864",
+        "bio": "His first wife, met in Siberia, proud and consumptive. Something of her is in Katerina Ivanovna of Crime and Punishment."
+      },
+      {
+        "name": "Apollinaria Suslova",
+        "dates": "1839 to 1918",
+        "bio": "The young writer he loved in the 1860s and travelled with in Europe. Polina of The Gambler is drawn from her."
+      },
+      {
+        "name": "Vissarion Belinsky",
+        "dates": "1811 to 1848",
+        "bio": "The most powerful critic of his day, who hailed Poor Folk and then fell out with its author over faith and art."
+      },
+      {
+        "name": "Mikhail Petrashevsky",
+        "dates": "1821 to 1866",
+        "bio": "Host of the Friday gatherings where Dostoevsky read banned texts, the cause of his arrest in 1849."
+      },
+      {
+        "name": "Vladimir Solovyov",
+        "dates": "1853 to 1900",
+        "bio": "The young religious philosopher who went with him to Optina Pustyn in 1878. Some see him in Alyosha Karamazov."
+      },
+      {
+        "name": "Ambrose of Optina",
+        "dates": "1812 to 1891",
+        "bio": "The elder of Optina Pustyn whom Dostoevsky visited after his son’s death, a model for Zosima."
+      },
+      {
+        "name": "Mikhail Bakhtin",
+        "dates": "1895 to 1975",
+        "bio": "The critic whose Problems of Dostoevsky’s Poetics described his novels as polyphonic, a chorus of free voices."
+      }
+    ],
+    "history": [
+      {
+        "when": "11 November 1821",
+        "what": "Born in Moscow",
+        "detail": "In the grounds of the Mariinsky Hospital for the Poor, where his father worked as a doctor. The date is 30 October in the old calendar."
+      },
+      {
+        "when": "1838",
+        "what": "Military engineering school",
+        "detail": "He enters the Main Engineering School in St Petersburg. His mother has died; his father dies the next year, possibly killed by his own serfs."
+      },
+      {
+        "when": "1846",
+        "what": "Poor Folk",
+        "detail": "His first novel, a story in letters, appears to acclaim. Belinsky calls him a new Gogol. The Double follows and is less loved."
+      },
+      {
+        "when": "23 April 1849",
+        "what": "Arrest",
+        "detail": "Arrested with members of the Petrashevsky circle for reading and circulating banned writings, including Belinsky’s letter to Gogol."
+      },
+      {
+        "when": "22 December 1849",
+        "what": "The mock execution",
+        "detail": "On Semyonovsky Square the prisoners are prepared for shooting, then told their sentence has been commuted. It was staged."
+      },
+      {
+        "when": "1850 to 1854",
+        "what": "Hard labour at Omsk",
+        "detail": "Four years in shackles in a Siberian prison fort, the source of The House of the Dead."
+      },
+      {
+        "when": "1854 to 1859",
+        "what": "Soldier in Siberia",
+        "detail": "Service as a private and then an officer at Semipalatinsk. In 1857 he marries Maria Isaeva."
+      },
+      {
+        "when": "1864",
+        "what": "Notes from Underground and two deaths",
+        "detail": "His wife and his brother Mikhail die within months. He publishes the confession of the underground man."
+      },
+      {
+        "when": "1866",
+        "what": "Crime and Punishment and The Gambler",
+        "detail": "The great novel runs in The Russian Messenger. To meet a contract he dictates The Gambler to Anna Snitkina in under a month."
+      },
+      {
+        "when": "1867 to 1871",
+        "what": "Years abroad",
+        "detail": "Married to Anna, he flees creditors to Dresden, Geneva and Florence, writes The Idiot and begins Demons. In April 1871 he gambles for the last time."
+      },
+      {
+        "when": "1873",
+        "what": "A Writer’s Diary",
+        "detail": "He starts a monthly diary of essays, sketches and stories that makes him a public voice, for good and ill."
+      },
+      {
+        "when": "1878",
+        "what": "Alyosha’s death and Optina",
+        "detail": "His three-year-old son dies. He visits the elders of Optina Pustyn with Solovyov and begins The Brothers Karamazov."
+      },
+      {
+        "when": "8 June 1880",
+        "what": "The Pushkin speech",
+        "detail": "At the unveiling of Pushkin’s statue in Moscow he speaks of the Russian soul’s universal sympathy. The hall erupts."
+      },
+      {
+        "when": "1880",
+        "what": "The Brothers Karamazov",
+        "detail": "His last novel is completed in November, the Grand Inquisitor and Zosima at its heart."
+      },
+      {
+        "when": "9 February 1881",
+        "what": "Death in St Petersburg",
+        "detail": "He dies after a haemorrhage. Tens of thousands follow his coffin to the Alexander Nevsky Lavra."
+      }
+    ],
+    "concepts": [
+      {
+        "term": "Active love",
+        "text": "Love as labour, not feeling.",
+        "detail": "Zosima tells a lady who loves humanity in dreams but cannot bear real people that active love is harsh and dreadful compared with love in dreams, and that it alone convinces."
+      },
+      {
+        "term": "Responsibility for all",
+        "text": "Each is answerable for everyone.",
+        "detail": "Markel and Zosima teach that each of us is guilty before all for all. It is not a counsel of guilt but of joy: once you accept it, says Zosima, the world becomes paradise."
+      },
+      {
+        "term": "The underground",
+        "text": "Freedom as spite.",
+        "detail": "The narrator of Notes from Underground argues that people will act against their own advantage to prove they are not keys on a piano. Reason alone cannot build a happy humanity."
+      },
+      {
+        "term": "The Grand Inquisitor",
+        "text": "Freedom against bread.",
+        "detail": "Ivan’s poem imagines Christ returning to Seville and arrested by a cardinal who has corrected his work, giving people bread, mystery and authority instead of a freedom too heavy for them."
+      },
+      {
+        "term": "Everything is permitted",
+        "text": "The danger of ideas.",
+        "detail": "Ivan’s formula, if there is no immortality, and Raskolnikov’s theory of extraordinary men show reasoning that ends in blood. Dostoevsky tests ideas by living them out."
+      },
+      {
+        "term": "Polyphony",
+        "text": "Many voices, none silenced.",
+        "detail": "Bakhtin argued that in these novels the characters are not mouthpieces but independent consciousnesses, and that the novel’s truth lies in their dialogue."
+      },
+      {
+        "term": "The holy fool",
+        "text": "Goodness as folly.",
+        "detail": "Following the Russian tradition of the yurodivy, Myshkin and others are mocked as simple yet see and say what others hide."
+      },
+      {
+        "term": "Pochvennichestvo",
+        "text": "The return to the soil.",
+        "detail": "With his brother he called on educated Russians to reconnect with the faith and life of the common people, against both Westernisers and Slavophiles."
+      },
+      {
+        "term": "Beauty",
+        "text": "The radiance of the good.",
+        "detail": "Beauty is mysterious and terrible, says Dmitri Karamazov: there God and the devil are fighting, and the battlefield is the human heart. Myshkin hopes it will save the world."
+      }
+    ],
+    "facts": [
+      {
+        "text": "He was led out to be shot in 1849 and reprieved at the last minute. He later said he had perhaps five minutes left and thought about how to spend them."
+      },
+      {
+        "text": "He suffered from epilepsy and gave his attacks, with their moment of ecstatic clarity, to Prince Myshkin."
+      },
+      {
+        "text": "He dictated The Gambler in twenty-six days in 1866 to meet a contract that would otherwise have given a publisher his work for free for nine years."
+      },
+      {
+        "text": "Anna Dostoevskaya invented a shorthand-based system for keeping his accounts and became one of Russia’s first women publishers by selling his books herself."
+      },
+      {
+        "text": "He gave up gambling in 1871 after a final loss in Wiesbaden and never returned to it."
+      },
+      {
+        "text": "The Brothers Karamazov’s monastery and elder draw on his visit to Optina Pustyn in 1878."
+      },
+      {
+        "text": "Freud, Einstein, Kafka, Camus and Nietzsche all read him closely. Nietzsche called him the only psychologist from whom he had anything to learn."
+      },
+      {
+        "text": "His grave carries John 12:24, about the grain of wheat that must fall into the earth and die, the epigraph of The Brothers Karamazov."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Katorga",
+        "meaning": "Siberian penal servitude with hard labour"
+      },
+      {
+        "term": "Starets",
+        "meaning": "An elder, a monk who guides others"
+      },
+      {
+        "term": "Yurodivy",
+        "meaning": "A holy fool"
+      },
+      {
+        "term": "Pochvennichestvo",
+        "meaning": "The return to the native soil"
+      },
+      {
+        "term": "Lampada",
+        "meaning": "An oil lamp kept burning before an icon"
+      },
+      {
+        "term": "Polyphony",
+        "meaning": "Bakhtin’s term for a novel of many independent voices"
+      }
+    ],
+    "furtherReading": [
+      {
+        "title": "Dostoevsky: A Writer in His Time",
+        "creator": "Joseph Frank",
+        "year": "2010",
+        "note": "The one-volume version of the great five-volume life and times."
+      },
+      {
+        "title": "Problems of Dostoevsky’s Poetics",
+        "creator": "Mikhail Bakhtin",
+        "year": "1963",
+        "note": "The classic study of polyphony and dialogue in the novels."
+      },
+      {
+        "title": "Dostoevsky: Language, Faith and Fiction",
+        "creator": "Rowan Williams",
+        "year": "2008",
+        "note": "A theologian reads the novels on freedom, faith and the open future."
+      },
+      {
+        "title": "Dostoevsky: Reminiscences",
+        "creator": "Anna Dostoevsky",
+        "year": "1925",
+        "note": "His wife’s memoir, tender and practical."
+      }
+    ],
+    "learnFrom": [
+      {
+        "name": "The Dostoevsky Literary-Memorial Museum, St Petersburg",
+        "note": "His last flat on Kuznechny Lane, with exhibitions, readings and a library."
+      },
+      {
+        "name": "The International Dostoevsky Society",
+        "note": "The scholarly society of readers and translators, with a journal and symposia."
+      },
+      {
+        "name": "The Constance Garnett translations",
+        "note": "Free public domain English versions of the novels, a good first reading before the modern translations."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Dostoevsky: A Writer in His Time",
+        "creator": "Joseph Frank",
+        "publisher": "Princeton University Press",
+        "year": "2010"
+      },
+      {
+        "title": "Problems of Dostoevsky’s Poetics",
+        "creator": "Mikhail Bakhtin, trans. Caryl Emerson",
+        "publisher": "University of Minnesota Press",
+        "year": "1984"
+      },
+      {
+        "title": "Dostoevsky: Reminiscences",
+        "creator": "Anna Dostoevsky, trans. Beatrice Stillman",
+        "publisher": "Liveright",
+        "year": "1975"
+      },
+      {
+        "title": "Fyodor Dostoyevsky: A Writer’s Life",
+        "creator": "Geir Kjetsaa",
+        "publisher": "Viking",
+        "year": "1987"
+      },
+      {
+        "title": "The Brothers Karamazov",
+        "creator": "Fyodor Dostoevsky, trans. Richard Pevear and Larissa Volokhonsky",
+        "publisher": "North Point Press",
+        "year": "1990"
+      },
+      {
+        "title": "Dostoevsky: Language, Faith and Fiction",
+        "creator": "Rowan Williams",
+        "publisher": "Baylor University Press",
+        "year": "2008"
+      }
+    ]
+  },
+  "sensitivity": {
+    "note": "Dostoevsky’s novels are among the most humane ever written, but his journalism, above all A Writer’s Diary, also contains antisemitic passages and a fervent Russian nationalism. This Onda takes his practice of honesty, active love and responsibility. It does not take up his politics, and it never asks you to seek suffering.",
+    "requiredCaveats": [
+      "A Writer’s Diary and some letters contain antisemitic statements that should be named, not excused.",
+      "His view that suffering can purify is a theme in the novels, not advice. Suffering is not to be sought, and no one should be told to endure abuse.",
+      "His religious faith was Russian Orthodox; the practices here are open to readers of any faith or none."
+    ],
+    "reviewRequired": false
+  },
+  "immersePlan": [
+    {
+      "kind": "read",
+      "item": "read-white-nights",
+      "name": "Read White Nights in one evening",
+      "text": "His gentlest story: four nights, a dreamer and a girl on a Petersburg embankment. Read it in one sitting, ideally by a window at dusk.",
+      "minutes": 60
+    },
+    {
+      "kind": "read",
+      "item": "read-notes-from-underground",
+      "name": "Read Part One of the underground",
+      "text": "Read the first part of Notes from Underground, the monologue. Mark every place where you recognise yourself, however unwillingly.",
+      "minutes": 50
+    },
+    {
+      "kind": "read",
+      "item": "read-the-brothers-karamazov",
+      "name": "Read the Grand Inquisitor",
+      "text": "Read Book 5, chapters 4 and 5 of The Brothers Karamazov: Rebellion and The Grand Inquisitor. Then sit for a while with Christ’s silent answer.",
+      "minutes": 60
+    },
+    {
+      "kind": "watch",
+      "item": "watch-pickpocket",
+      "name": "Watch Bresson’s Pickpocket",
+      "text": "Watch Robert Bresson’s spare Paris retelling of Crime and Punishment. Notice how little is said, and how much the hands reveal.",
+      "minutes": 80
+    },
+    {
+      "kind": "watch",
+      "item": "watch-white-nights",
+      "name": "Watch Visconti’s White Nights",
+      "text": "Watch Marcello Mastroianni as the dreamer in Visconti’s foggy canal city, then compare it with the story you read.",
+      "minutes": 100
+    },
+    {
+      "kind": "watch",
+      "item": "watch-the-idiot",
+      "name": "Watch Kurosawa’s Idiot",
+      "text": "Watch Kurosawa’s snowbound Hokkaido version of The Idiot. Watch how goodness unsettles everyone around it.",
+      "minutes": 170
+    },
+    {
+      "kind": "listen",
+      "item": "listen-all-night-vigil",
+      "name": "Listen to the All-Night Vigil",
+      "text": "Listen to Rachmaninoff’s All-Night Vigil in a darkened room. It is the sound of the Orthodox churches his characters pray in.",
+      "minutes": 60
+    },
+    {
+      "kind": "listen",
+      "item": "listen-from-the-house-of-the-dead",
+      "name": "Listen to Janáček’s prison opera",
+      "text": "Listen to the overture and first act of From the House of the Dead, drawn from his years in Omsk. Read its motto first: in every creature a spark of God.",
+      "minutes": 40
+    },
+    {
+      "kind": "listen",
+      "item": "listen-the-gambler",
+      "name": "Listen to Prokofiev’s Gambler",
+      "text": "Listen to the roulette scene of Prokofiev’s opera The Gambler, from the novella Dostoevsky dictated in twenty-six days.",
+      "minutes": 30
+    },
+    {
+      "kind": "art",
+      "item": "art-the-body-of-the-dead-christ-in-the-tomb",
+      "name": "Stand before Holbein’s dead Christ",
+      "text": "Look at Holbein’s Dead Christ for five minutes, as he did in Basel. Ask what Myshkin meant: a man could lose his faith from that picture.",
+      "minutes": 10
+    },
+    {
+      "kind": "art",
+      "item": "art-sistine-madonna",
+      "name": "Look at the Sistine Madonna",
+      "text": "Look at Raphael’s Sistine Madonna, his favourite painting, which hung above the sofa where he died. Look at the mother’s eyes and the child’s.",
+      "minutes": 10
+    },
+    {
+      "kind": "art",
+      "item": "art-trinity",
+      "name": "Contemplate Rublev’s Trinity",
+      "text": "Spend ten minutes with Rublev’s Trinity icon. Follow the circle of the three figures and the open place at the table.",
+      "minutes": 10
+    },
+    {
+      "kind": "eat",
+      "item": "eat-shchi",
+      "name": "Cook a pot of shchi",
+      "text": "Cook shchi, the cabbage soup of every Russian table and of the prison camp. Eat it with black bread and think of who ate it with you.",
+      "minutes": 60
+    },
+    {
+      "kind": "eat",
+      "item": "eat-buckwheat-kasha",
+      "name": "Eat a student’s kasha",
+      "text": "Make buckwheat kasha with a little butter, the plain food of poor students like Raskolnikov. Eat it slowly and gratefully.",
+      "minutes": 30
+    },
+    {
+      "kind": "eat",
+      "item": "eat-pirozhki",
+      "name": "Bake or buy pirozhki",
+      "text": "Bake or buy pirozhki, the filled buns sold hot in the Haymarket, and share them with someone.",
+      "minutes": 60
+    },
+    {
+      "kind": "drink",
+      "item": "drink-strong-black-tea",
+      "name": "Drink tea the night-writer’s way",
+      "text": "Brew strong black tea and drink it from a glass in a holder, with a spoon of jam, while you read or write in the evening.",
+      "minutes": 20
+    },
+    {
+      "kind": "drink",
+      "item": "drink-kvass",
+      "name": "Taste kvass",
+      "text": "Find or make kvass, the lightly fermented rye drink of Russian streets. Taste its sourness and think of a hot Petersburg July.",
+      "minutes": 10
+    },
+    {
+      "kind": "drink",
+      "item": "drink-kissel",
+      "name": "Make berry kissel",
+      "text": "Make kissel, the thick berry drink set with starch, and serve it warm or cold to someone you love.",
+      "minutes": 20
+    },
+    {
+      "kind": "customs",
+      "item": "customs-writing-through-the-night",
+      "name": "Keep one night writer’s evening",
+      "text": "Keep his hours for one evening: tea at ten, writing or reading until past midnight, the house dark around you. Sleep in if you can.",
+      "minutes": 120
+    },
+    {
+      "kind": "customs",
+      "item": "customs-khristos-voskrese",
+      "name": "Learn the Easter greeting",
+      "text": "Learn the Easter greeting, Khristos voskrese, and the answer, Voistinu voskrese. Read his short story The Peasant Marey.",
+      "minutes": 15
+    },
+    {
+      "kind": "customs",
+      "item": "customs-dictation",
+      "name": "Dictate a page to a friend",
+      "text": "Dictate a page of a letter or story to a friend while they write it down, as he dictated his novels to Anna. Notice how speaking changes your words.",
+      "minutes": 20
+    },
+    {
+      "kind": "games",
+      "item": "games-durak",
+      "name": "Play a game of durak",
+      "text": "Learn and play durak, the most popular card game in Russia, where the loser is the fool left holding cards.",
+      "minutes": 30
+    },
+    {
+      "kind": "games",
+      "item": "games-gorodki",
+      "name": "Try gorodki",
+      "text": "Set up a simple game of gorodki with sticks or skittles in a park, throwing a bat to knock the figures out of the square.",
+      "minutes": 40
+    },
+    {
+      "kind": "games",
+      "item": "games-roulette",
+      "name": "Watch the pull of chance",
+      "text": "Watch a roulette wheel online or spin a coin twenty times without any money involved, and notice the urge to predict and to win. That pull ruined him.",
+      "minutes": 15
+    },
+    {
+      "kind": "travel",
+      "item": "fest-easter",
+      "name": "Go to a midnight Easter service",
+      "text": "If you can, attend an Orthodox Easter vigil at midnight, or watch one, and hear the greeting Christ is risen pass from mouth to mouth.",
+      "minutes": 120
+    },
+    {
+      "kind": "travel",
+      "item": "place-dostoevsky-literary-memorial-museum",
+      "name": "Visit his last flat",
+      "text": "Visit, or explore online, his last flat on Kuznechny Lane, where he wrote The Brothers Karamazov and died.",
+      "minutes": 60
+    },
+    {
+      "kind": "travel",
+      "item": "place-sennaya-square-and-stolyarny-lane",
+      "name": "Walk Raskolnikov’s route",
+      "text": "Walk, or follow on a map, the route from Raskolnikov’s house to the pawnbroker’s: about seven hundred and thirty steps, he wrote.",
+      "minutes": 45
+    },
+    {
+      "kind": "words",
+      "item": "word-dusha",
+      "name": "Learn the word dusha",
+      "text": "Learn dusha, soul, and the phrase po dushe, heart to heart. Use it in your thoughts each time you speak sincerely today."
+    },
+    {
+      "kind": "words",
+      "item": "word-toska",
+      "name": "Learn the word toska",
+      "text": "Learn toska, the aching longing with no clear object. Notice when you feel it today and give it its name."
+    },
+    {
+      "kind": "words",
+      "item": "word-deyatelnaya-lyubov",
+      "name": "Learn the words for active love",
+      "text": "Learn deyatelnaya lyubov, active love, and write down one act of it you will do this week."
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 // Expands the compact Onda sources in this folder into content/ondas/*.json and adds games, festivals and places to the older sixteen.
 const fs = require('fs')
 const path = require('path')
-const root = 'C:/Users/sande/Claude AI/Claude Code/Ondas'
+const root = path.join(__dirname, '..', '..')
 const dir = path.join(root, 'content/ondas')
 
 const curl = (v) => (typeof v === 'string' ? v.replace(/'/g, '\u2019') : v)
@@ -63,7 +63,7 @@ function build(s) {
   return c
 }
 
-const ORDER = 'norse cynic confucian abbasid twenties cuba hindu mahayana theravada shinto jain sikh zoroaster judaism christian sunni shia rasta discordia plato epicurus cyrenaic kant nietzsche freud existential gandhi rome qing mongol ottoman mughal johor inca habsburg hre sixties renaissance maasai aboriginal frisian polynesia melanesia micronesia zulu bantu khmer celtic'.split(' ')
+const ORDER = 'norse cynic confucian abbasid twenties cuba hindu mahayana theravada shinto jain sikh zoroaster judaism christian sunni shia rasta discordia plato epicurus cyrenaic kant nietzsche freud existential gandhi rome qing mongol ottoman mughal johor inca habsburg hre sixties renaissance maasai aboriginal frisian polynesia melanesia micronesia zulu bantu khmer celtic dostoevsky adler burgundy goethe machiavelli postmodern'.split(' ')
 const only = process.argv.slice(2)
 const NL = String.fromCharCode(10)
 const built = []

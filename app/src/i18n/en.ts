@@ -108,7 +108,7 @@ export const en = {
 
   paywall: {
     title: 'Ondas+', tagline: 'Live every tradition.',
-    b1: 'Every Onda', b1t: 'Sixty-four worlds, plus your own.', b2: 'Unlimited Lagos', b2t: 'No limit on habits or check ins.',
+    b1: 'Every Onda', b1t: 'Seventy worlds, plus your own.', b2: 'Unlimited Lagos', b2t: 'No limit on habits or check ins.',
     b3: 'Sync everywhere', b3t: 'Reminders, Calendar and Notion.', b4: 'Complete privacy', b4t: 'No ads, no data collected, no tracking.',
     startTrial: 'Start Free Trial', getLifetime: 'Get Lifetime · € 24,99', getMonthly: 'Subscribe · € 2,49 a month', done: 'Done',
     choose: 'Choose a plan', plan_monthly: 'Monthly', price_monthly: '€ 2,49', note_monthly: 'Each month. Cancel any time.', plan_lifetime: 'Lifetime', price_lifetime: '€ 24,99', note_lifetime: 'Once. Nothing renews.', subMonthly: 'You are subscribed. Lifetime is € 24,99, once.', monthlyUnlocked: 'Ondas+ is on. Thank you.',
@@ -150,7 +150,7 @@ export const en = {
     title: 'Ondas', newOnda: 'New Onda', browse: 'Browse Ondas', noRunning: 'No Onda running', noRunningSub: 'Browse the Ondas and step into one', kicker: 'Onda · {{label}}',
     dayOf: 'Day {{day}} of {{length}}', immerse: 'Immerse', journal: 'Journal', philosophy: 'Philosophy', guide: 'Full guide', today: 'Today', practicesOf: '{{done}} of {{total}} practices', tasksOf: '{{done}} of {{total}} tasks', rulesOf: '{{done}} of {{total}} rules kept',
     go: { journal: 'Open Journal', philosophy: 'Open Philosophy', read: 'Open reading', watch: 'Open watching', listen: 'Open listening', art: 'Open art', eat: 'Open food', drink: 'Open drinks', customs: 'Open customs', games: 'Open games', travel: 'Open travel' },
-    practices: 'Practices', rules: 'Rules', tasks: 'Tasks', allTitle: 'All Ondas', allSub: 'Sixty-four worlds to live in', active: 'Active', mine: 'Yours',
+    practices: 'Practices', rules: 'Rules', tasks: 'Tasks', allTitle: 'All Ondas', allSub: 'Seventy worlds to live in', active: 'Active', mine: 'Yours',
     noRules: 'No rules for this Onda', noTasks: 'No tasks for this Onda',
     guideShort: 'Guide', shortcuts: 'Shortcuts', search: 'Search', clearSearch: 'Clear Search', noMatch: 'No Ondas match', openOnda: '{{name}}, open the Onda page', rulesKept: '{{done}} of {{total}} kept', quote: 'Quote',
   },
@@ -265,6 +265,7 @@ export const en = {
   a2hs: { title: 'Add Onda to Home Screen', body: 'Tap Share, then Add to Home Screen. Onda opens full screen and works offline.', dismiss: 'Dismiss' },
   sw: { updateReady: 'A new version is ready', reload: 'Reload', offlineReady: 'Ready to use offline' },
   whatsNew: { title: "What's New", v1: '1.0', v1date: '2026-10-06', v1a: 'Lagos: habit experiments with streaks, notes and photos.', v1b: 'Ondas: ten traditions to live for 7 to 30 days.', v1c: 'Notion, Calendar and Reminders integrations.',
+    v72: '7.2', v72date: '2026-10-22', v72a: 'Each Onda now has a soul of its own: its page is washi, marble, felt or papyrus, its emblem breathes, turns or flickers in its own way, and its shapes, cards and ornaments follow it through the app.', v72b: 'Six new Ondas: Dostoevsky, Adler, Burgundy, Goethe, Machiavelli and Postmodernism, with eleven more on the way.', v72c: 'Browse has five shelves: Religions, Schools, Minds, States and Cultures. Settings is simpler, and the loading screen follows your phone’s light or dark mode.',
     v71: '7.1', v71date: '2026-10-22', v71a: 'Every Onda now has its own emblem and colours, taken from the pigments, materials and art of its tradition.', v71b: 'The Full guide reads as one long page, with a chapter bar that follows you, an infobox and chapters that fold.', v71c: 'Philosophy opens on today’s idea, and All Ondas is laid out like a bookshop, with a Featured row that changes each day.',
     v70: '7.0', v70date: '2026-10-21', v70a: 'A new design for the Ondas: each Onda has its own cover, colours, emblem and display face, drawn from its tradition.', v70b: 'Today reads as clean grouped lists, with one connected bar for Immerse, Journal, Philosophy and the Guide.', v70c: 'Immersion has a format for every kind: a bookshelf, record sleeves, a gallery wall, a menu, postcards and a deck of words.',
     v60: '6.0', v60date: '2026-10-13', v60a: 'Every Onda has a fresh set of practices: six for the morning, six for the afternoon, six for the evening and two special ones, each with its own how-to and three variations.', v60b: 'Each day shows five: one thing to Immerse in, then morning, afternoon and evening, with a special one now and then.', v60c: 'Thirty Immerse practices per Onda: read this, listen to that, cook this dish, play that game.',

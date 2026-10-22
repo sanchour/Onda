@@ -83,7 +83,7 @@ function PhoneOndasTab() {
 
   return (
     <Screen variant="root">
-      <div style={look.vars} className={settings.ondaThemes ? c.home : undefined} data-onda={settings.ondaThemes ? run.ondaId : undefined} data-soul={look.themed ? look.motion : undefined}>
+      <div style={look.vars} className={settings.ondaThemes ? c.home : undefined} data-onda={settings.ondaThemes ? run.ondaId : undefined}>
         {header}
         <Cover
           look={look}
@@ -107,7 +107,7 @@ function PhoneOndasTab() {
           ]}
         />
 
-        <SectionHeader title={t('ondas.today')} meta={progress} />
+        <h2 className={c.todayHead}>{t('ondas.today')}</h2>
         {/* today's progress as a row of the Onda's own ornament, one for each practice */}
         <div className={c.beads} role="img" aria-label={progress}>
           {plan.map((p) => (

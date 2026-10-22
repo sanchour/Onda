@@ -1,0 +1,1609 @@
+{
+  "version": 1,
+  "id": "goethe",
+  "name": "Goethe",
+  "origin": "Frankfurt and Weimar",
+  "era": "1749 to 1832, the age of Goethe",
+  "tone": "yellow",
+  "icon": "palette",
+  "font": "crimson-pro",
+  "pattern": "prism-rays",
+  "glyph": "Licht",
+  "line": "Every day a song, a poem and a picture. Look closely, keep striving, and become.",
+  "quote": {
+    "text": "One ought, every day at least, to hear a little song, read a good poem, see a fine picture, and, if it were possible, to speak a few reasonable words.",
+    "by": "Serlo",
+    "source": "Wilhelm Meister’s Apprenticeship, 1795, Book 5, chapter 1"
+  },
+  "quotes": [
+    {
+      "text": "Whoever strives with all his power, we can redeem.",
+      "by": "The angels",
+      "source": "Faust, Part Two, 1832, Act 5; Wer immer strebend sich bemüht, den können wir erlösen"
+    },
+    {
+      "text": "Grey, dear friend, is all theory, and green the golden tree of life.",
+      "by": "Mephistopheles",
+      "source": "Faust, Part One, 1808, the study scene with the student"
+    },
+    {
+      "text": "Colours are the deeds of light, its deeds and its sufferings.",
+      "by": "Johann Wolfgang von Goethe",
+      "source": "Theory of Colours, 1810, preface"
+    },
+    {
+      "text": "Over all the hilltops is peace.",
+      "by": "Johann Wolfgang von Goethe",
+      "source": "Wanderer’s Night Song II, written on the wall of the hut on the Kickelhahn, 1780"
+    },
+    {
+      "text": "Let man be noble, helpful and good.",
+      "by": "Johann Wolfgang von Goethe",
+      "source": "The Divine (Das Göttliche), 1783"
+    },
+    {
+      "text": "Die and become.",
+      "by": "Johann Wolfgang von Goethe",
+      "source": "Blessed Longing (Selige Sehnsucht), West-Eastern Divan, 1819; Stirb und werde"
+    }
+  ],
+  "words": [
+    {
+      "id": "word-bildung",
+      "term": "Bildung",
+      "meaning": "Self-formation, cultivation",
+      "pronunciation": "BIL-doong",
+      "language": "German",
+      "usage": "Growing into a whole person through experience, art and work. The theme of Wilhelm Meister."
+    },
+    {
+      "id": "word-streben",
+      "term": "Streben",
+      "meaning": "Striving",
+      "pronunciation": "SHTRAY-ben",
+      "language": "German",
+      "usage": "Faust’s restless effort, which in the end is what saves him."
+    },
+    {
+      "id": "word-urpflanze",
+      "term": "Urpflanze",
+      "meaning": "The primal plant",
+      "pronunciation": "OOR-pflahn-tseh",
+      "language": "German",
+      "usage": "The archetypal plant Goethe sought in the gardens of Italy, from which all plants could be imagined."
+    },
+    {
+      "id": "word-metamorphose",
+      "term": "Metamorphose",
+      "meaning": "Metamorphosis",
+      "pronunciation": "meh-tah-mor-FOH-zeh",
+      "language": "German",
+      "usage": "His insight that the parts of a plant, leaf, petal and stamen, are transformations of one organ."
+    },
+    {
+      "id": "word-urphanomen",
+      "term": "Urphänomen",
+      "meaning": "Primal phenomenon",
+      "pronunciation": "OOR-feh-no-mayn",
+      "language": "German",
+      "usage": "The simplest appearance behind many, which one should look at rather than explain away."
+    },
+    {
+      "id": "word-farbenlehre",
+      "term": "Farbenlehre",
+      "meaning": "Theory of colours",
+      "pronunciation": "FAR-ben-lay-reh",
+      "language": "German",
+      "usage": "His great book of 1810 on colour as experienced, in opposition to Newton."
+    },
+    {
+      "id": "word-polaritat",
+      "term": "Polarität",
+      "meaning": "Polarity",
+      "pronunciation": "po-lah-ree-TAYT",
+      "language": "German",
+      "usage": "One of the two driving wheels of nature in his view: light and dark, in and out."
+    },
+    {
+      "id": "word-steigerung",
+      "term": "Steigerung",
+      "meaning": "Intensification",
+      "pronunciation": "SHTY-geh-roong",
+      "language": "German",
+      "usage": "The other driving wheel: the rising of a thing to a higher form."
+    },
+    {
+      "id": "word-systole-und-diastole",
+      "term": "Systole und Diastole",
+      "meaning": "Contraction and expansion",
+      "pronunciation": "zis-TOH-leh oont dee-AH-sto-leh",
+      "language": "German, from Greek",
+      "usage": "The heartbeat rhythm he saw everywhere, in plants, colour and the soul."
+    },
+    {
+      "id": "word-zarte-empirie",
+      "term": "Zarte Empirie",
+      "meaning": "Delicate empiricism",
+      "pronunciation": "TSAR-teh em-pee-REE",
+      "language": "German",
+      "usage": "Observation so careful and patient that the observer becomes one with the object."
+    },
+    {
+      "id": "word-anschauung",
+      "term": "Anschauung",
+      "meaning": "Intuition, contemplation",
+      "pronunciation": "AHN-show-oong",
+      "language": "German",
+      "usage": "Seeing that takes in the whole form at once. He trusted it above abstraction."
+    },
+    {
+      "id": "word-gestalt",
+      "term": "Gestalt",
+      "meaning": "Form, shape",
+      "pronunciation": "geh-SHTALT",
+      "language": "German",
+      "usage": "The living form of a thing, which he studied in plants, bones and clouds."
+    },
+    {
+      "id": "word-morphologie",
+      "term": "Morphologie",
+      "meaning": "Morphology",
+      "pronunciation": "mor-fo-lo-GEE",
+      "language": "German",
+      "usage": "The study of form, a word Goethe coined for his science of living shapes."
+    },
+    {
+      "id": "word-weltliteratur",
+      "term": "Weltliteratur",
+      "meaning": "World literature",
+      "pronunciation": "VELT-li-teh-rah-toor",
+      "language": "German",
+      "usage": "His idea, spoken to Eckermann in 1827, that national literature now means little and the epoch of world literature is at hand."
+    },
+    {
+      "id": "word-sturm-und-drang",
+      "term": "Sturm und Drang",
+      "meaning": "Storm and Stress",
+      "pronunciation": "shturm oont drahng",
+      "language": "German",
+      "usage": "The young movement of passion and genius that Goethe led with Götz and Werther in the 1770s."
+    },
+    {
+      "id": "word-weimarer-klassik",
+      "term": "Weimarer Klassik",
+      "meaning": "Weimar Classicism",
+      "pronunciation": "VY-mah-rer KLAS-sik",
+      "language": "German",
+      "usage": "The mature ideal of balance and humanity he shaped with Schiller in Weimar."
+    },
+    {
+      "id": "word-wahlverwandtschaften",
+      "term": "Wahlverwandtschaften",
+      "meaning": "Elective affinities",
+      "pronunciation": "VAHL-fair-vahnt-shah-ften",
+      "language": "German",
+      "usage": "A chemical term for substances that leave partners for others, and the title of his novel of 1809."
+    },
+    {
+      "id": "word-dichtung-und-wahrheit",
+      "term": "Dichtung und Wahrheit",
+      "meaning": "Poetry and Truth",
+      "pronunciation": "DIKH-toong oont VAR-hite",
+      "language": "German",
+      "usage": "The title of his autobiography: a life told as truth and shaped as art."
+    },
+    {
+      "id": "word-entsagung",
+      "term": "Entsagung",
+      "meaning": "Renunciation",
+      "pronunciation": "ent-ZAH-goong",
+      "language": "German",
+      "usage": "The mature virtue of giving up what one cannot have, a theme of his later novels."
+    },
+    {
+      "id": "word-das-damonische",
+      "term": "Das Dämonische",
+      "meaning": "The daemonic",
+      "pronunciation": "dahs deh-MOH-ni-sheh",
+      "language": "German",
+      "usage": "A force in nature and in great people that cannot be explained by reason or understanding."
+    },
+    {
+      "id": "word-ehrfurcht",
+      "term": "Ehrfurcht",
+      "meaning": "Reverence",
+      "pronunciation": "AIR-foorkht",
+      "language": "German",
+      "usage": "In Wilhelm Meister’s Journeyman Years, the three reverences: for what is above, what is below and what is beside us."
+    },
+    {
+      "id": "word-augenblick",
+      "term": "Augenblick",
+      "meaning": "Moment",
+      "pronunciation": "OW-gen-blik",
+      "language": "German",
+      "usage": "Faust wagers his soul that he will never say to any moment: stay, you are so beautiful."
+    },
+    {
+      "id": "word-verweile-doch",
+      "term": "Verweile doch",
+      "meaning": "Stay a while",
+      "pronunciation": "fair-VY-leh dokh",
+      "language": "German",
+      "usage": "The words of the wager: Verweile doch, du bist so schön."
+    },
+    {
+      "id": "word-das-ewig-weibliche",
+      "term": "Das Ewig-Weibliche",
+      "meaning": "The Eternal Feminine",
+      "pronunciation": "dahs AY-vikh VYB-li-kheh",
+      "language": "German",
+      "usage": "The last words of Faust: the eternal feminine draws us upward."
+    },
+    {
+      "id": "word-stirb-und-werde",
+      "term": "Stirb und werde",
+      "meaning": "Die and become",
+      "pronunciation": "shtirp oont VAIR-deh",
+      "language": "German",
+      "usage": "From Blessed Longing: without this, you are only a gloomy guest on the dark earth."
+    },
+    {
+      "id": "word-werther-fieber",
+      "term": "Werther-Fieber",
+      "meaning": "Werther fever",
+      "pronunciation": "VAIR-ter FEE-ber",
+      "language": "German",
+      "usage": "The craze that followed his novel of 1774: young men dressed in blue coats and yellow waistcoats."
+    },
+    {
+      "id": "word-gartenhaus",
+      "term": "Gartenhaus",
+      "meaning": "Garden house",
+      "pronunciation": "GAR-ten-house",
+      "language": "German",
+      "usage": "His simple cottage in the meadows by the Ilm, given him by the duke, where he lived his first Weimar years."
+    },
+    {
+      "id": "word-lehrjahre",
+      "term": "Lehrjahre",
+      "meaning": "Years of apprenticeship",
+      "pronunciation": "LAIR-yah-reh",
+      "language": "German",
+      "usage": "The first stage of Bildung, and the title of his great novel of formation."
+    },
+    {
+      "id": "word-wanderjahre",
+      "term": "Wanderjahre",
+      "meaning": "Journeyman years",
+      "pronunciation": "VAHN-der-yah-reh",
+      "language": "German",
+      "usage": "The years of travel after apprenticeship, and the title of its sequel."
+    },
+    {
+      "id": "word-selige-sehnsucht",
+      "term": "Selige Sehnsucht",
+      "meaning": "Blessed longing",
+      "pronunciation": "ZAY-li-geh ZAYN-zookht",
+      "language": "German",
+      "usage": "His poem of the moth drawn to the flame, a longing for higher union."
+    },
+    {
+      "id": "word-mehr-licht",
+      "term": "Mehr Licht",
+      "meaning": "More light",
+      "pronunciation": "mair likht",
+      "language": "German",
+      "usage": "The words he is reported to have said as he died in 1832."
+    }
+  ],
+  "practices": [
+    {
+      "id": "a-song-a-poem-a-picture",
+      "name": "A song, a poem, a picture",
+      "icon": "music-note",
+      "slot": "Morning",
+      "time": "07:00",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Before the day begins, take ten minutes for his daily rule: listen to one short song, read one good poem slowly, and look at one fine picture, a painting, a drawing or a photograph. Do them one after another without hurrying. If you can, end by saying a few reasonable words about them to someone.",
+      "why": "Goethe has Serlo say in Wilhelm Meister that one ought every day to hear a little song, read a good poem and see a fine picture, so that the sense of beauty is not crushed by daily cares.",
+      "variations": [
+        "Choose all three from one country.",
+        "Learn the poem by heart over a week.",
+        "Do it again before bed."
+      ]
+    },
+    {
+      "id": "the-leaf-in-the-flower",
+      "name": "The leaf in the flower",
+      "icon": "leaf",
+      "slot": "Morning",
+      "time": "07:30",
+      "minutes": 10,
+      "meta": "Morning · 10 min",
+      "instructions": "Take one flower or plant, from a garden, a pot or a shop. Look at it slowly from the bottom up: the first leaves, the later leaves, the sepals, the petals, the stamens. Look for how one form changes into the next. Draw the sequence roughly in a notebook, even if you cannot draw.",
+      "why": "In The Metamorphosis of Plants, 1790, Goethe argued that all the parts of a flower are transformed leaves. He found it by looking, not by theory.",
+      "variations": [
+        "Do it with a tree branch.",
+        "Compare two different plants.",
+        "Keep a plant diary for the Onda."
+      ]
+    },
+    {
+      "id": "a-morning-walk-in-the-park",
+      "name": "A morning walk in the park",
+      "icon": "person-simple-walk",
+      "slot": "Morning",
+      "time": "06:45",
+      "minutes": 30,
+      "meta": "Morning · 30 min",
+      "instructions": "Walk for half an hour in a park or along a river, slowly, without earphones. Watch the light change on leaves and water, the sky, the birds, the first people. Stop three times and look at one thing for a full minute. Bring home one observation and write it down.",
+      "why": "Goethe walked the meadows of the park on the Ilm almost daily, partly laid out to his design. His science and his poetry both began in walking and looking.",
+      "variations": [
+        "Walk at sunrise.",
+        "Walk the same route each day and note the changes.",
+        "Take a small sketchbook."
+      ]
+    },
+    {
+      "id": "the-colour-of-the-morning",
+      "name": "The colour of the morning",
+      "icon": "sun-horizon",
+      "slot": "Morning",
+      "time": "07:15",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Look at the morning sky and name its colours precisely: not just blue but which blue, where it turns yellow, where it greys. Then look at a white wall in the morning light and find the faint colours in its shadows. Write three colour words for today.",
+      "why": "Goethe studied colour as it appears to the eye, in skies, shadows and edges. Colours, he wrote, are the deeds of light, its deeds and sufferings.",
+      "variations": [
+        "Do it again at sunset.",
+        "Look at coloured shadows from a candle and daylight.",
+        "Paint the colours with watercolour."
+      ]
+    },
+    {
+      "id": "draw-to-see",
+      "name": "Draw to see",
+      "icon": "pencil",
+      "slot": "Morning",
+      "time": "08:00",
+      "minutes": 15,
+      "meta": "Morning · 15 min",
+      "instructions": "Draw one ordinary object for fifteen minutes: a cup, a stone, a hand, a window. The aim is not a good drawing but better seeing. Look more at the object than at the paper. When you finish, notice what you saw that you had never seen before.",
+      "why": "Goethe made thousands of drawings, especially in Italy, not to become an artist but to learn to see. Drawing forced his eye to slow down.",
+      "variations": [
+        "Draw a cloud.",
+        "Draw the same object every day.",
+        "Draw without looking at the paper."
+      ]
+    },
+    {
+      "id": "the-day-as-a-work",
+      "name": "The day as a work",
+      "icon": "notebook",
+      "slot": "Morning",
+      "time": "06:30",
+      "minutes": 5,
+      "meta": "Morning · 5 min",
+      "instructions": "Write at the top of a page what you want today to be as a whole, as if it were a work of art: its theme, its main movement, one thing that would make it beautiful. Then list the practical tasks that serve it. Keep the page where you can see it.",
+      "why": "Goethe shaped his life as carefully as his works, balancing poetry, science, service and love. Safranski calls it a life as a work of art.",
+      "variations": [
+        "Give the day a title.",
+        "Choose one colour for the day.",
+        "Review the page at night."
+      ]
+    },
+    {
+      "id": "delicate-empiricism",
+      "name": "Delicate empiricism",
+      "icon": "magnifying-glass",
+      "slot": "Afternoon",
+      "time": "14:00",
+      "minutes": 15,
+      "meta": "Afternoon · 15 min",
+      "instructions": "Choose one natural thing, a cloud, a stone, a beetle, the way water runs in a gutter, and observe it for fifteen minutes without explaining it. Note how it changes, what repeats, what surprises you. Only at the end, write one sentence of what it seems to be teaching.",
+      "why": "Goethe called his method a delicate empiricism: observing so patiently that the observer becomes one with the object and the phenomenon shows its own law.",
+      "variations": [
+        "Watch clouds for the whole time.",
+        "Look at a stone with a magnifying glass.",
+        "Repeat it with the same object tomorrow."
+      ]
+    },
+    {
+      "id": "a-prism-experiment",
+      "name": "A prism experiment",
+      "icon": "triangle",
+      "slot": "Afternoon",
+      "time": "15:00",
+      "minutes": 15,
+      "meta": "Afternoon · 15 min",
+      "instructions": "Look through a glass prism, a cut crystal, the edge of a glass of water or even a bevelled mirror at a window frame, so that a light area meets a dark one. Watch the colours appear at the edges, yellow and red on one side, blue and violet on the other. Then look at a plain white wall through it.",
+      "why": "Goethe looked through a borrowed prism at a white wall in 1790 and saw colours only at the edges. It started his lifelong argument with Newton about colour.",
+      "variations": [
+        "Use a glass of water in the sun.",
+        "Look at a black and white pattern.",
+        "Read the Onda’s idea on colours as deeds of light."
+      ]
+    },
+    {
+      "id": "world-literature",
+      "name": "World literature",
+      "icon": "globe",
+      "slot": "Afternoon",
+      "time": "13:00",
+      "minutes": 20,
+      "meta": "Afternoon · 20 min",
+      "instructions": "Read for twenty minutes from a literature far from your own: a Persian poet like Hafez, a Chinese novel, an African epic, a Japanese diary. Read it as Goethe read Hafez, looking for what is human in what is foreign. Note one line that could have been written for you.",
+      "why": "In 1827 Goethe told Eckermann that national literature now means little and the epoch of world literature is at hand. He wrote the West-Eastern Divan in dialogue with Hafez.",
+      "variations": [
+        "Read Hafez.",
+        "Read a poem in two translations.",
+        "Learn a greeting in the poet’s language."
+      ]
+    },
+    {
+      "id": "practical-service",
+      "name": "Practical service",
+      "icon": "toolbox",
+      "slot": "Afternoon",
+      "time": "16:00",
+      "minutes": 30,
+      "meta": "Afternoon · 30 min",
+      "instructions": "Spend half an hour on useful, practical work for your household or community: fix something, sort accounts, help a neighbour with a form, clear a path, organise a shared space. Do it as carefully as you would write a poem.",
+      "why": "Goethe spent decades as a minister, inspecting mines, building roads, managing finances and running a theatre. He thought genius owed service to the common good.",
+      "variations": [
+        "Volunteer an hour of your skill.",
+        "Do a task everyone avoids.",
+        "Fix something instead of replacing it."
+      ]
+    },
+    {
+      "id": "a-stone-for-the-cabinet",
+      "name": "A stone for the cabinet",
+      "icon": "cube",
+      "slot": "Afternoon",
+      "time": "17:00",
+      "minutes": 15,
+      "meta": "Afternoon · 15 min",
+      "instructions": "On a walk today, pick up one small stone, shell or seed. At home, look at it closely, find out what it is if you can, and label it with the date and place. Start a small cabinet of things gathered during this Onda.",
+      "why": "Goethe gathered around eighteen thousand minerals, rocks and fossils and ordered them in cabinets. Collecting taught him the patience of nature.",
+      "variations": [
+        "Collect leaves instead.",
+        "Draw the stone.",
+        "Arrange the collection by colour."
+      ]
+    },
+    {
+      "id": "a-few-reasonable-words",
+      "name": "A few reasonable words",
+      "icon": "chats",
+      "slot": "Afternoon",
+      "time": "15:30",
+      "minutes": 15,
+      "meta": "Afternoon · 15 min",
+      "instructions": "Have one real conversation today about something worth talking about: a book, an idea, a picture, the meaning of a word. Listen well, speak plainly, and let it go wherever it goes. Afterwards, write down the best thing either of you said.",
+      "why": "The old Goethe talked for years at his table with Eckermann about art, nature and life. The daily rule ends: and, if possible, to speak a few reasonable words.",
+      "variations": [
+        "Talk with someone much older or younger.",
+        "Talk about a poem you both read.",
+        "Talk while walking."
+      ]
+    },
+    {
+      "id": "poetry-and-truth",
+      "name": "Poetry and truth",
+      "icon": "notebook",
+      "slot": "Evening",
+      "time": "21:00",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "Write in your journal about one moment of today as if it were a scene in your autobiography: what was true, and how you would shape it as a story. Write the facts first, then the meaning. End with one line you would want to remember.",
+      "why": "Goethe called his autobiography Poetry and Truth: a life told truthfully and shaped as art. He also kept a brief diary almost every day.",
+      "variations": [
+        "Use one of the Onda’s journal prompts.",
+        "Write it in the third person.",
+        "Write a short poem from it."
+      ],
+      "action": "journal"
+    },
+    {
+      "id": "over-all-the-hilltops",
+      "name": "Over all the hilltops",
+      "icon": "mountains",
+      "slot": "Evening",
+      "time": "21:30",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "At dusk, go outside or to a window with a view of trees or hills. Read Goethe’s Wanderer’s Night Song, over all the hilltops is peace, slowly, in German if you can and in translation. Stand in silence for a few minutes as the birds fall quiet.",
+      "why": "He wrote the poem on the wall of a hut on the Kickelhahn in 1780, and read it there again in 1831, weeping, months before his death.",
+      "variations": [
+        "Learn the poem by heart.",
+        "Listen to Schubert’s setting.",
+        "Write your own eight lines at dusk."
+      ]
+    },
+    {
+      "id": "stay-moment",
+      "name": "Stay, moment",
+      "icon": "hourglass",
+      "slot": "Evening",
+      "time": "20:30",
+      "minutes": 15,
+      "meta": "Evening · 15 min",
+      "instructions": "Think back over the day for a moment you would have wished to stay, the moment Faust bets he will never find. Write what it was and why it was beautiful. Then ask what in your striving keeps you from noticing such moments.",
+      "why": "Faust wagers his soul that he will never say to any moment, stay, you are so beautiful. The wager is about the tension between striving and contentment.",
+      "variations": [
+        "Read the Onda’s Philosophy idea on the wager.",
+        "Read the wager scene in Faust.",
+        "Talk about it with someone."
+      ],
+      "action": "philosophy"
+    },
+    {
+      "id": "read-faust-aloud",
+      "name": "Read Faust aloud",
+      "icon": "book-open-text",
+      "slot": "Evening",
+      "time": "22:00",
+      "minutes": 30,
+      "meta": "Evening · 30 min",
+      "instructions": "Read a scene of Faust aloud, alone or with someone: the night scene in the study, the walk on Easter morning, or Gretchen at her spinning wheel. Let the verse carry you. Stop where a line strikes you and read it twice.",
+      "why": "Faust is drama in verse, meant to be heard. Goethe worked on it for sixty years and read from it to friends.",
+      "variations": [
+        "Read the Easter walk.",
+        "Read Gretchen’s song.",
+        "Read different parts with a friend."
+      ]
+    },
+    {
+      "id": "the-colours-of-the-day",
+      "name": "The colours of the day",
+      "icon": "palette",
+      "slot": "Evening",
+      "time": "20:00",
+      "minutes": 10,
+      "meta": "Evening · 10 min",
+      "instructions": "In the evening, paint or colour a small square for today with the colours it felt like, using Goethe’s circle as a guide: yellow for warmth and gladness, blue for depth and calm, red for gravity and dignity. Add one square each night of the Onda.",
+      "why": "In the Theory of Colours Goethe wrote about the sensory and moral effect of each colour. Yellow gladdens, blue draws us after it.",
+      "variations": [
+        "Use watercolours.",
+        "Use only coloured pencils.",
+        "Compare the squares at the end of the Onda."
+      ]
+    },
+    {
+      "id": "gratitude-for-the-light",
+      "name": "Gratitude for the light",
+      "icon": "sun-dim",
+      "slot": "Evening",
+      "time": "22:30",
+      "minutes": 5,
+      "meta": "Evening · 5 min",
+      "instructions": "Before sleep, name three moments of light from today: a ray of sun, a bright idea, a kind face. Thank them silently. Then turn out the lamp and lie for a minute in the dark, noticing how the eye begins to see.",
+      "why": "Light and darkness meet to make colour, Goethe taught. His last words are reported as more light.",
+      "variations": [
+        "Write them down.",
+        "Name someone who brought light.",
+        "Light a candle for a moment first."
+      ]
+    },
+    {
+      "id": "an-italian-day",
+      "name": "An Italian day",
+      "icon": "airplane",
+      "slot": "Special",
+      "time": "09:00",
+      "minutes": 120,
+      "meta": "On a free day · 120 min",
+      "instructions": "Give yourself a small Italian journey: a day trip to a place you have never been, with a sketchbook, a notebook and no fixed plan. Look at buildings, plants, stones and faces. Eat what the place eats. Draw and write as you go, as Goethe did in Rome.",
+      "why": "In 1786 Goethe slipped away from Weimar to Italy and stayed nearly two years. He came back, he said, reborn.",
+      "variations": [
+        "Go there alone.",
+        "Travel by train and watch the landscape.",
+        "Write a letter home from there."
+      ]
+    },
+    {
+      "id": "a-walk-to-a-summit",
+      "name": "A walk to a summit",
+      "icon": "person-simple-hike",
+      "slot": "Special",
+      "time": "08:00",
+      "minutes": 120,
+      "meta": "Once in the Onda · 120 min",
+      "instructions": "Climb a hill or a high point near you, with water and a light lunch. At the top, rest, look out, and read Over all the hilltops aloud. Stay until you feel the quiet. Walk down slowly.",
+      "why": "He climbed the Kickelhahn near Ilmenau many times and wrote his most famous short poem in the hut at the top.",
+      "variations": [
+        "Go at evening and watch the light change.",
+        "Take a friend.",
+        "Bring a stone home from the top."
+      ]
+    }
+  ],
+  "tasks": [],
+  "rules": [
+    {
+      "id": "r1",
+      "text": "A song, a poem and a picture every day",
+      "why": "His own advice through Serlo: beauty in small daily doses keeps the sense of the beautiful alive."
+    },
+    {
+      "id": "r2",
+      "text": "Look before you explain",
+      "why": "Goethe trusted patient observation over quick theory. See the thing fully first."
+    },
+    {
+      "id": "r3",
+      "text": "Keep striving",
+      "why": "Faust is saved not by being good but by never ceasing to strive. Rest, but do not settle."
+    },
+    {
+      "id": "r4",
+      "text": "Work at something practical",
+      "why": "He was a poet and also a minister, mine inspector and theatre director. Use your gifts for the common good."
+    },
+    {
+      "id": "r5",
+      "text": "Die and become",
+      "why": "Let go of an old form of yourself when it is outgrown, so that a new one can grow."
+    },
+    {
+      "id": "r6",
+      "text": "Read beyond your borders",
+      "why": "World literature was his idea. Read something from another culture each week."
+    }
+  ],
+  "immerse": {
+    "read": [
+      {
+        "id": "read-faust-part-one",
+        "title": "Faust, Part One",
+        "creator": "Johann Wolfgang von Goethe, trans. David Luke",
+        "year": "1808",
+        "why": "The scholar who wagers his soul with Mephistopheles, the student scene, Auerbach’s cellar and Gretchen. Germany’s great drama."
+      },
+      {
+        "id": "read-italian-journey",
+        "title": "Italian Journey",
+        "creator": "Johann Wolfgang von Goethe, trans. W. H. Auden and Elizabeth Mayer",
+        "year": "1816",
+        "why": "His flight to Italy in 1786: Rome, Naples, Sicily, plants, stones and a rebirth."
+      },
+      {
+        "id": "read-the-sorrows-of-young-werther",
+        "title": "The Sorrows of Young Werther",
+        "creator": "Johann Wolfgang von Goethe",
+        "year": "1774",
+        "why": "The short novel in letters of a young man destroyed by love that made him famous across Europe at twenty-five."
+      },
+      {
+        "id": "read-conversations-with-goethe",
+        "title": "Conversations with Goethe",
+        "creator": "Johann Peter Eckermann",
+        "year": "1836",
+        "why": "Nine years of talks at Goethe’s table in old age, on art, nature, literature and life."
+      },
+      {
+        "id": "read-wilhelm-meister-s-apprenticeship",
+        "title": "Wilhelm Meister’s Apprenticeship",
+        "creator": "Johann Wolfgang von Goethe",
+        "year": "1795",
+        "why": "The novel of a young man’s formation through theatre, love and work: the model of the Bildungsroman."
+      },
+      {
+        "id": "read-goethe-life-as-a-work-of-art",
+        "title": "Goethe: Life as a Work of Art",
+        "creator": "Rüdiger Safranski",
+        "year": "2013",
+        "why": "A modern biography of the life he shaped as carefully as any of his works."
+      }
+    ],
+    "watch": [
+      {
+        "id": "watch-faust-a-german-folk-legend",
+        "title": "Faust: A German Folk Legend",
+        "creator": "F. W. Murnau",
+        "year": "1926",
+        "why": "The silent masterpiece of light and shadow, with Mephisto’s wings spread over a plague town."
+      },
+      {
+        "id": "watch-faust",
+        "title": "Faust",
+        "creator": "Aleksandr Sokurov",
+        "year": "2011",
+        "why": "A strange, earthy, Golden Lion winning variation on the legend."
+      },
+      {
+        "id": "watch-young-goethe-in-love",
+        "title": "Young Goethe in Love",
+        "creator": "Philipp Stölzl",
+        "year": "2010",
+        "why": "A light, romantic film of the summer at Wetzlar that became The Sorrows of Young Werther."
+      }
+    ],
+    "listen": [
+      {
+        "id": "listen-erlkonig",
+        "title": "Erlkönig",
+        "creator": "Franz Schubert",
+        "year": "1815",
+        "why": "Goethe’s ballad of the father riding through the night with his dying child, set by an eighteen-year-old Schubert."
+      },
+      {
+        "id": "listen-gretchen-am-spinnrade",
+        "title": "Gretchen am Spinnrade",
+        "creator": "Franz Schubert",
+        "year": "1814",
+        "why": "Gretchen at her spinning wheel from Faust, the piano spinning beneath her voice."
+      },
+      {
+        "id": "listen-egmont-overture",
+        "title": "Egmont Overture",
+        "creator": "Ludwig van Beethoven",
+        "year": "1810",
+        "why": "Beethoven’s music for Goethe’s play of the Dutch hero. The two men met at Teplitz in 1812."
+      },
+      {
+        "id": "listen-symphony-no-8",
+        "title": "Symphony No. 8",
+        "creator": "Gustav Mahler",
+        "year": "1910",
+        "why": "The second part sets the final scene of Faust Part Two, ending with the Eternal Feminine."
+      }
+    ],
+    "art": [
+      {
+        "id": "art-goethe-in-the-roman-campagna",
+        "title": "Goethe in the Roman Campagna",
+        "creator": "Johann Heinrich Wilhelm Tischbein",
+        "year": "1787",
+        "why": "Goethe in a traveller’s cloak among ruins, painted by his friend in Rome."
+      },
+      {
+        "id": "art-colour-circle",
+        "title": "Colour circle",
+        "creator": "Johann Wolfgang von Goethe",
+        "year": "1809",
+        "why": "His own watercolour of the colour circle, with complementary colours opposite each other."
+      },
+      {
+        "id": "art-light-and-colour-goethe-s-theory-the-morning-after-the-deluge",
+        "title": "Light and Colour (Goethe’s Theory): The Morning after the Deluge",
+        "creator": "J. M. W. Turner",
+        "year": "1843",
+        "why": "Turner’s swirling painting answering Goethe’s Theory of Colours."
+      },
+      {
+        "id": "art-portrait-of-goethe",
+        "title": "Portrait of Goethe",
+        "creator": "Joseph Karl Stieler",
+        "year": "1828",
+        "why": "The old poet at seventy-nine, holding a letter, painted for King Ludwig I of Bavaria."
+      }
+    ],
+    "eat": [
+      {
+        "id": "eat-grune-so-e",
+        "title": "Grüne Soße",
+        "creator": "Frankfurt green sauce",
+        "why": "Seven herbs with eggs and potatoes, the dish of his home city. Legend makes it his favourite."
+      },
+      {
+        "id": "eat-thuringer-klo-e",
+        "title": "Thüringer Klöße",
+        "creator": "Thuringian potato dumplings",
+        "why": "The Sunday dumplings of the country around Weimar, with a gravy and a roast."
+      },
+      {
+        "id": "eat-spargel",
+        "title": "Spargel",
+        "creator": "White asparagus",
+        "why": "The spring vegetable of German gardens, with butter, ham and potatoes, in season from April to June."
+      }
+    ],
+    "drink": [
+      {
+        "id": "drink-apfelwein",
+        "title": "Apfelwein",
+        "creator": "Frankfurt cider",
+        "why": "The tart cider of Frankfurt’s taverns, poured from a grey stoneware jug. Drink it with juice or water if you prefer."
+      },
+      {
+        "id": "drink-wurzburger-steinwein",
+        "title": "Würzburger Steinwein",
+        "creator": "Franconian white wine",
+        "why": "The wine he ordered by the cask. Or grape juice from Franconia."
+      },
+      {
+        "id": "drink-hot-chocolate",
+        "title": "Hot chocolate",
+        "creator": "Thick drinking chocolate",
+        "why": "A drink of the 18th-century well-to-do, made thick and frothed in a pot."
+      }
+    ],
+    "customs": [
+      {
+        "id": "customs-the-walk-in-the-park",
+        "title": "The walk in the park",
+        "creator": "His daily habit",
+        "why": "He walked the meadows and paths of the park on the Ilm, laid out partly to his design, watching plants, light and weather."
+      },
+      {
+        "id": "customs-drawing-what-you-see",
+        "title": "Drawing what you see",
+        "creator": "A practice of looking",
+        "why": "Goethe made thousands of drawings, not as art but to learn to see. He drew in Italy to understand what he saw."
+      },
+      {
+        "id": "customs-collecting-stones",
+        "title": "Collecting stones",
+        "creator": "A naturalist’s habit",
+        "why": "He gathered about eighteen thousand minerals, rocks and fossils, labelled and ordered in cabinets in his house."
+      },
+      {
+        "id": "customs-the-round-table",
+        "title": "The round table",
+        "creator": "Weimar evenings",
+        "why": "The Duchess Anna Amalia gathered poets, artists and nobles for readings and conversation in her circle."
+      }
+    ],
+    "games": [
+      {
+        "id": "games-tableaux-vivants",
+        "title": "Tableaux vivants",
+        "creator": "Living pictures",
+        "year": "18th century",
+        "why": "Guests posed as famous paintings, a fashion he described in Elective Affinities."
+      },
+      {
+        "id": "games-charades",
+        "title": "Charades",
+        "creator": "Parlour game",
+        "year": "18th century",
+        "why": "Acting out words syllable by syllable, a favourite evening game of Weimar society."
+      },
+      {
+        "id": "games-skat",
+        "title": "Skat",
+        "creator": "Card game",
+        "year": "early 19th century",
+        "why": "The great German card game, invented in Altenburg in Thuringia, not far from Weimar."
+      }
+    ],
+    "festivals": [
+      {
+        "id": "fest-goethe-s-birthday",
+        "title": "Goethe’s birthday",
+        "creator": "28 August",
+        "why": "Born at noon in Frankfurt in 1749, as the clock struck twelve, he wrote."
+      },
+      {
+        "id": "fest-weimar-onion-market",
+        "title": "Weimar Onion Market",
+        "creator": "Weimar, October",
+        "why": "The great onion fair of Weimar, held since the 17th century, with braided onions and onion cake."
+      },
+      {
+        "id": "fest-walpurgis-night",
+        "title": "Walpurgis Night",
+        "creator": "30 April",
+        "why": "The witches’ night on the Brocken in the Harz, where Mephistopheles takes Faust."
+      }
+    ],
+    "places": [
+      {
+        "id": "place-goethe-s-house",
+        "title": "Goethe’s House",
+        "creator": "Frauenplan, Weimar",
+        "why": "His home for fifty years: the Juno room, the yellow hall, his study and his collections."
+      },
+      {
+        "id": "place-goethe-s-garden-house",
+        "title": "Goethe’s Garden House",
+        "creator": "Park an der Ilm, Weimar",
+        "why": "The simple cottage in the meadows where he lived his first years in Weimar."
+      },
+      {
+        "id": "place-goethe-house",
+        "title": "Goethe House",
+        "creator": "Großer Hirschgraben, Frankfurt",
+        "why": "His birthplace, rebuilt after the war, with the puppet theatre of his childhood."
+      },
+      {
+        "id": "place-kickelhahn",
+        "title": "Kickelhahn",
+        "creator": "Near Ilmenau, Thuringia",
+        "why": "The hill with the hut where he wrote Over all the hilltops is peace on the wall in 1780."
+      },
+      {
+        "id": "place-auerbachs-keller",
+        "title": "Auerbachs Keller",
+        "creator": "Leipzig",
+        "why": "The tavern of his student days, where Mephistopheles plays tricks in Faust."
+      }
+    ]
+  },
+  "ethics": [
+    {
+      "title": "Humanity",
+      "text": "Let man be noble, helpful and good: only this sets us apart from all other beings we know.",
+      "practice": "Do one helpful thing today that no one asked for."
+    },
+    {
+      "title": "Reverence",
+      "text": "The three reverences: for what is above us, what is below us and what is beside us.",
+      "practice": "Show respect today to someone above, below and beside you."
+    },
+    {
+      "title": "Striving",
+      "text": "To strive is human, and Faust is redeemed because he never stops. Effort matters more than arrival.",
+      "practice": "Keep working at one hard thing today a little longer than you want to."
+    },
+    {
+      "title": "Renunciation",
+      "text": "Maturity means letting go of what cannot be had, with grace and without bitterness.",
+      "practice": "Let go of one wish today that you know cannot come true."
+    },
+    {
+      "title": "Practical service",
+      "text": "Goethe spent years on mines, roads, finances and theatre for his duchy. Genius owes service.",
+      "practice": "Do one dull, useful task for your household or community."
+    },
+    {
+      "title": "Openness",
+      "text": "World literature: learn from every culture, as he learned from Hafez in the Divan.",
+      "practice": "Read or listen to something from a tradition far from your own."
+    }
+  ],
+  "philosophy": [
+    {
+      "title": "Metamorphosis",
+      "text": "All parts of a plant are one organ transformed. Life is form in motion, not fixed things.",
+      "practice": "Look at a plant and find the leaf in its petals."
+    },
+    {
+      "title": "Polarity and intensification",
+      "text": "Nature moves by opposites that call each other up, and by rising to higher forms.",
+      "practice": "Where in your life are two opposites both needed?"
+    },
+    {
+      "title": "Delicate empiricism",
+      "text": "Observe so patiently that the object itself teaches you. Theory too soon blinds.",
+      "practice": "Watch one thing for ten minutes without explaining it."
+    },
+    {
+      "title": "Colours as deeds of light",
+      "text": "Goethe studied colour as it appears to the eye, in shadows, edges and after-images, not only as rays.",
+      "practice": "Find a coloured shadow or an after-image today."
+    },
+    {
+      "title": "The wager",
+      "text": "Faust bets he will never be satisfied with a moment. What would make you say: stay, you are so beautiful?",
+      "practice": "Notice a moment today you would wish to stay."
+    },
+    {
+      "title": "Grey theory, green life",
+      "text": "Mephisto mocks the student: life outruns every system. Learn from the living tree.",
+      "practice": "Put a theory of yours to the test of life."
+    },
+    {
+      "title": "Die and become",
+      "text": "Growth needs us to let old forms die, as the moth flies into the flame.",
+      "practice": "What old self are you ready to let go?"
+    },
+    {
+      "title": "World literature",
+      "text": "In 1827 he told Eckermann national literature was ending and world literature beginning.",
+      "practice": "Read a poem in translation from a language you do not know."
+    }
+  ],
+  "journal": [
+    "What song, poem and picture did I meet today?",
+    "What did I look at closely today, and what did it show me?",
+    "What am I striving for, and is it worth it?",
+    "Which moment today would I have wished to stay?",
+    "What theory of mine did life contradict?",
+    "What in me is in metamorphosis right now?",
+    "Which opposites in my life need each other?",
+    "What did I learn from a culture other than my own?",
+    "What useful, practical work did I do today?",
+    "What must I renounce, and can I do it gracefully?",
+    "What colour was today, and why?",
+    "Who are my Schiller, my friend and rival in work?",
+    "What would my autobiography leave out, and why?",
+    "Where did I see the daemonic, a force beyond reason?",
+    "To what do I feel reverence?",
+    "What did I begin today that I might finish in years?",
+    "What would my Italian journey be: where would I go to be reborn?",
+    "Where am I Faust, and where Mephistopheles?",
+    "What did nature teach me today?",
+    "What few reasonable words did I speak today?",
+    "When did I last draw something to understand it?",
+    "What part of my life is poetry, and what is truth?",
+    "What would I collect, as he collected stones?",
+    "Where did I feel the rhythm of contraction and expansion?",
+    "Where do I need more light?",
+    "What did I do today that was noble, helpful and good?",
+    "What did I see in the evening sky?",
+    "Which book would I want at my bedside for life?",
+    "What would I like to become, if I let something die?",
+    "What has this Onda taught me about living as a work of art?"
+  ],
+  "reflect": [
+    "How did a daily song, poem and picture change your days?",
+    "What did patient looking show you?",
+    "What did you strive for in this Onda?",
+    "What did you let die, and what began to grow?",
+    "Which moment would you most like to stay?",
+    "How will you keep Goethe’s light in ordinary life?"
+  ],
+  "dayThemes": [
+    "A song, a poem, a picture",
+    "Looking",
+    "The leaf",
+    "Metamorphosis",
+    "Light",
+    "Darkness",
+    "Colour",
+    "Polarity",
+    "Rising",
+    "The walk",
+    "Italy",
+    "Rome",
+    "Stones",
+    "Clouds",
+    "Werther",
+    "Faust",
+    "The wager",
+    "Gretchen",
+    "Friendship",
+    "Schiller",
+    "Weimar",
+    "Service",
+    "Reverence",
+    "Renunciation",
+    "World literature",
+    "Hafez",
+    "Die and become",
+    "Over all the hilltops",
+    "Striving",
+    "More light"
+  ],
+  "guide": {
+    "intro": [
+      "Johann Wolfgang Goethe was born in Frankfurt in 1749 into a wealthy family. He studied law in Leipzig and Strasbourg, where the cathedral, folk song and the critic Herder turned him to poetry. At twenty-five his short novel The Sorrows of Young Werther made him the most famous writer in Europe.",
+      "In 1775 the young Duke Carl August invited him to Weimar, a small capital of a few thousand people. He stayed for the rest of his life, not only as a poet but as a minister responsible for mines, roads, finances and later the court theatre. Weimar became, through him, Schiller, Herder and Wieland, the centre of German culture.",
+      "In 1786 he fled his duties for Italy and stayed almost two years. In Rome and Sicily he drew, studied classical art and searched the gardens for the primal plant. He came back a classical poet and a natural scientist. He discovered a small bone in the human jaw, wrote on the metamorphosis of plants, and spent decades on a Theory of Colours that challenged Newton.",
+      "His friendship with Friedrich Schiller from 1794 until Schiller’s death in 1805 was one of the great partnerships in literature. Together they shaped Weimar Classicism, an ideal of balance, humanity and form. Goethe lived openly with Christiane Vulpius, a young woman from a modest family, for years before marrying her in 1806, to the scandal of Weimar society.",
+      "He worked on Faust for sixty years. Part One appeared in 1808; Part Two was sealed shortly before his death in 1832. It is the story of a scholar who wagers his soul that he will never be content, and is saved because he never stops striving. In old age he talked at his table with the young Eckermann about everything under the sun, and proposed the idea of world literature.",
+      "This Onda takes from Goethe a way of living as a work of art: a song, a poem and a picture every day, patient looking at nature, striving and renunciation, practical service and openness to every culture. It also takes you to Weimar, to his garden house by the Ilm, and to the road to Italy."
+    ],
+    "origin": "Frankfurt, where he was born, and Weimar, where he lived for fifty-seven years, with a long journey to Italy",
+    "era": "Goethe was born in 1749 and died in 1832. He lived from the age of the Enlightenment through the French Revolution and Napoleon into the early industrial age",
+    "figures": [
+      {
+        "name": "Johann Wolfgang von Goethe",
+        "dates": "1749 to 1832",
+        "bio": "Poet, novelist, dramatist, scientist and minister of state. Tall, handsome, curious about everything, and ennobled in 1782."
+      },
+      {
+        "name": "Friedrich Schiller",
+        "dates": "1759 to 1805",
+        "bio": "Poet and dramatist, Goethe’s friend and rival from 1794. Together they founded Weimar Classicism."
+      },
+      {
+        "name": "Christiane Vulpius",
+        "dates": "1765 to 1816",
+        "bio": "A maker of artificial flowers who became Goethe’s companion in 1788 and his wife in 1806. Lively and practical."
+      },
+      {
+        "name": "Charlotte von Stein",
+        "dates": "1742 to 1827",
+        "bio": "A Weimar lady-in-waiting to whom he wrote hundreds of letters in his first decade in the city."
+      },
+      {
+        "name": "Carl August of Saxe-Weimar",
+        "dates": "1757 to 1828",
+        "bio": "The duke who invited Goethe to Weimar and remained his friend and employer for life."
+      },
+      {
+        "name": "Anna Amalia",
+        "dates": "1739 to 1807",
+        "bio": "The duke’s mother, a composer and patron who made Weimar a court of the muses."
+      },
+      {
+        "name": "Johann Gottfried Herder",
+        "dates": "1744 to 1803",
+        "bio": "Philosopher and critic who taught the young Goethe to love folk song and Shakespeare."
+      },
+      {
+        "name": "Johann Peter Eckermann",
+        "dates": "1792 to 1854",
+        "bio": "Goethe’s assistant in his last decade, who recorded their conversations."
+      },
+      {
+        "name": "Alexander von Humboldt",
+        "dates": "1769 to 1859",
+        "bio": "Naturalist and explorer, Goethe’s friend and partner in scientific talk."
+      },
+      {
+        "name": "Hafez",
+        "dates": "c. 1315 to 1390",
+        "bio": "The Persian poet whose divan inspired Goethe’s West-Eastern Divan."
+      }
+    ],
+    "history": [
+      {
+        "when": "28 August 1749",
+        "what": "Born in Frankfurt",
+        "detail": "At noon, in the house on the Großer Hirschgraben, the son of a lawyer and Catharina Elisabeth Textor."
+      },
+      {
+        "when": "1770 to 1771",
+        "what": "Strasbourg",
+        "detail": "He studies law, meets Herder, falls in love with Friederike Brion and discovers Gothic architecture and folk song."
+      },
+      {
+        "when": "1774",
+        "what": "The Sorrows of Young Werther",
+        "detail": "The novel in letters makes him famous and sets off Werther fever across Europe."
+      },
+      {
+        "when": "1775",
+        "what": "Weimar",
+        "detail": "Invited by Duke Carl August, he arrives in Weimar and soon enters the government."
+      },
+      {
+        "when": "1780",
+        "what": "Over all the hilltops",
+        "detail": "On 6 September he writes his night song on the wall of the hunting hut on the Kickelhahn."
+      },
+      {
+        "when": "1784",
+        "what": "The intermaxillary bone",
+        "detail": "He identifies in the human skull a bone thought to exist only in animals."
+      },
+      {
+        "when": "1786 to 1788",
+        "what": "Italy",
+        "detail": "He leaves secretly for Italy and spends almost two years in Rome, Naples and Sicily."
+      },
+      {
+        "when": "1788",
+        "what": "Christiane",
+        "detail": "He meets Christiane Vulpius. Their son August is born in 1789."
+      },
+      {
+        "when": "1790",
+        "what": "The Metamorphosis of Plants",
+        "detail": "His essay shows the parts of a flower as transformed leaves."
+      },
+      {
+        "when": "1794",
+        "what": "Friendship with Schiller",
+        "detail": "A conversation after a lecture in Jena begins their ten-year collaboration."
+      },
+      {
+        "when": "1806",
+        "what": "War and marriage",
+        "detail": "French troops sack Weimar after the battle of Jena; Christiane protects the house, and he marries her days later."
+      },
+      {
+        "when": "1808",
+        "what": "Faust, Part One and Napoleon",
+        "detail": "Faust Part One appears. At Erfurt Napoleon receives him and, it is said, greets him: here is a man."
+      },
+      {
+        "when": "1810",
+        "what": "Theory of Colours",
+        "detail": "His long work on colour, which he thought more important than his poetry."
+      },
+      {
+        "when": "1819",
+        "what": "West-Eastern Divan",
+        "detail": "Poems in dialogue with the Persian poet Hafez."
+      },
+      {
+        "when": "22 March 1832",
+        "what": "Death in Weimar",
+        "detail": "He dies in his armchair. His reported last words: more light."
+      }
+    ],
+    "concepts": [
+      {
+        "term": "Bildung",
+        "text": "Becoming a whole person.",
+        "detail": "Goethe’s ideal of self-formation through experience, art, love and work. Wilhelm Meister is its novel, and his own life its model."
+      },
+      {
+        "term": "Metamorphosis",
+        "text": "One form, many shapes.",
+        "detail": "Leaves, sepals, petals and stamens are one organ transformed. He extended the idea to bones, colours and the whole of nature."
+      },
+      {
+        "term": "Polarity and intensification",
+        "text": "The two wheels of nature.",
+        "detail": "He saw nature moving by pairs of opposites that call each other up, and by a rising of things to higher forms."
+      },
+      {
+        "term": "Delicate empiricism",
+        "text": "Science by looking.",
+        "detail": "Rather than dissecting nature with abstract theory, he observed patiently until the phenomenon revealed its own law, the primal phenomenon."
+      },
+      {
+        "term": "Theory of Colours",
+        "text": "Colour as seen.",
+        "detail": "He argued against Newton that colour arises at the meeting of light and darkness, and studied coloured shadows, after-images and the moral effects of colours."
+      },
+      {
+        "term": "Faustian striving",
+        "text": "Never content.",
+        "detail": "Faust’s wager and his redemption make restless striving the human condition, both its glory and its danger."
+      },
+      {
+        "term": "World literature",
+        "text": "Beyond nations.",
+        "detail": "In 1827 he declared that the epoch of world literature had come and urged writers to learn from every culture."
+      },
+      {
+        "term": "Weimar Classicism",
+        "text": "Form and humanity.",
+        "detail": "With Schiller he sought a balance of feeling and reason, ancient form and modern spirit, and art as education of humanity."
+      },
+      {
+        "term": "Renunciation",
+        "text": "Mature letting go.",
+        "detail": "His later work praises those who renounce, giving up what cannot be had and finding freedom in limits."
+      }
+    ],
+    "facts": [
+      {
+        "text": "Goethe worked on Faust for about sixty years, from his twenties until months before his death."
+      },
+      {
+        "text": "He collected around eighteen thousand minerals, rocks and fossils, and the mineral goethite is named after him."
+      },
+      {
+        "text": "He thought his Theory of Colours more important than all his poetry."
+      },
+      {
+        "text": "Werther fever led young men across Europe to dress in blue coats and yellow waistcoats like the hero."
+      },
+      {
+        "text": "He met Beethoven at Teplitz in 1812 and Napoleon at Erfurt in 1808."
+      },
+      {
+        "text": "He served as a minister of the Duchy of Saxe-Weimar for decades, responsible for mines, roads and finances."
+      },
+      {
+        "text": "He wrote Over all the hilltops on the wooden wall of a hut in 1780 and reread it there in 1831."
+      },
+      {
+        "text": "He made over two thousand drawings, many in Italy."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Bildung",
+        "meaning": "Self-formation, the cultivation of the whole person"
+      },
+      {
+        "term": "Urpflanze",
+        "meaning": "The archetypal plant"
+      },
+      {
+        "term": "Sturm und Drang",
+        "meaning": "The passionate literary movement of the 1770s"
+      },
+      {
+        "term": "Weltliteratur",
+        "meaning": "World literature"
+      },
+      {
+        "term": "Farbenlehre",
+        "meaning": "Theory of Colours"
+      },
+      {
+        "term": "Entsagung",
+        "meaning": "Renunciation"
+      }
+    ],
+    "furtherReading": [
+      {
+        "title": "Goethe: Life as a Work of Art",
+        "creator": "Rüdiger Safranski",
+        "year": "2013",
+        "note": "A rich modern biography."
+      },
+      {
+        "title": "Goethe: The Poet and the Age",
+        "creator": "Nicholas Boyle",
+        "year": "1991",
+        "note": "The great multi-volume life, as deep on ideas as on events."
+      },
+      {
+        "title": "Conversations with Goethe",
+        "creator": "Johann Peter Eckermann",
+        "year": "1836",
+        "note": "The old Goethe in his own words."
+      },
+      {
+        "title": "The Metamorphosis of Plants",
+        "creator": "Johann Wolfgang von Goethe, with photographs by Gordon L. Miller",
+        "year": "2009",
+        "note": "His botanical essay in a clear modern edition."
+      }
+    ],
+    "learnFrom": [
+      {
+        "name": "Klassik Stiftung Weimar",
+        "note": "The foundation that keeps Goethe’s house, garden house and the archives of Weimar Classicism."
+      },
+      {
+        "name": "The Frankfurt Goethe House",
+        "note": "His birthplace and the Romantic museum beside it."
+      },
+      {
+        "name": "The Goethe-Gesellschaft",
+        "note": "The Goethe Society in Weimar, founded in 1885, with branches around the world."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Goethe: The Poet and the Age",
+        "creator": "Nicholas Boyle",
+        "publisher": "Oxford University Press",
+        "year": "1991 and 2000"
+      },
+      {
+        "title": "Goethe: Life as a Work of Art",
+        "creator": "Rüdiger Safranski, trans. David Dollenmayer",
+        "publisher": "Liveright",
+        "year": "2017"
+      },
+      {
+        "title": "Conversations with Goethe",
+        "creator": "Johann Peter Eckermann, trans. John Oxenford",
+        "publisher": "Smith, Elder",
+        "year": "1850"
+      },
+      {
+        "title": "Faust",
+        "creator": "Johann Wolfgang von Goethe, trans. David Luke",
+        "publisher": "Oxford World's Classics",
+        "year": "1987"
+      },
+      {
+        "title": "Theory of Colours",
+        "creator": "Johann Wolfgang von Goethe, trans. Charles Lock Eastlake",
+        "publisher": "John Murray",
+        "year": "1840"
+      },
+      {
+        "title": "Italian Journey",
+        "creator": "Johann Wolfgang von Goethe, trans. W. H. Auden and Elizabeth Mayer",
+        "publisher": "Collins",
+        "year": "1962"
+      }
+    ]
+  },
+  "sensitivity": {
+    "note": "Goethe was a man of his age and class, and his science of colour is not accepted physics. This Onda takes his ways of seeing, striving and living with beauty, not his authority as a scientist.",
+    "requiredCaveats": [
+      "His Theory of Colours describes colour perception well but is wrong about the physics of light, where Newton was right.",
+      "The Sorrows of Young Werther deals with suicide; if that subject is hard for you right now, choose another book.",
+      "Wine and cider appear as part of the culture; every drink practice can be done with juice instead."
+    ],
+    "reviewRequired": false
+  },
+  "immersePlan": [
+    {
+      "kind": "read",
+      "item": "read-faust-part-one",
+      "name": "Read the opening of Faust",
+      "text": "Read Faust Part One from the night scene in the study to the pact with Mephistopheles. Mark the line that strikes you most.",
+      "minutes": 60
+    },
+    {
+      "kind": "read",
+      "item": "read-italian-journey",
+      "name": "Read the arrival in Rome",
+      "text": "Read the pages of the Italian Journey on his arrival in Rome in 1786, and feel the relief of a man set free.",
+      "minutes": 30
+    },
+    {
+      "kind": "read",
+      "item": "read-conversations-with-goethe",
+      "name": "Read a day with Eckermann",
+      "text": "Read a few conversations from Eckermann, for instance on world literature in January 1827.",
+      "minutes": 30
+    },
+    {
+      "kind": "watch",
+      "item": "watch-faust-a-german-folk-legend",
+      "name": "Watch Murnau’s Faust",
+      "text": "Watch Murnau’s silent Faust of 1926 and look at how he paints with light and shadow.",
+      "minutes": 110
+    },
+    {
+      "kind": "watch",
+      "item": "watch-young-goethe-in-love",
+      "name": "Watch Young Goethe in Love",
+      "text": "Watch the light romantic film of the summer that became Werther, then read a few of Werther’s letters.",
+      "minutes": 100
+    },
+    {
+      "kind": "watch",
+      "item": "watch-faust",
+      "name": "Compare two Fausts",
+      "text": "Watch the opening of Sokurov’s Faust and compare it with Murnau’s. What did each take from Goethe?",
+      "minutes": 40
+    },
+    {
+      "kind": "listen",
+      "item": "listen-erlkonig",
+      "name": "Listen to Erlkönig",
+      "text": "Listen to Schubert’s Erlkönig with Goethe’s ballad in front of you. Hear the four voices: narrator, father, child and Erl-King.",
+      "minutes": 10
+    },
+    {
+      "kind": "listen",
+      "item": "listen-gretchen-am-spinnrade",
+      "name": "Listen to Gretchen at the wheel",
+      "text": "Listen to Gretchen am Spinnrade and hear the piano spinning. Read her words from Faust first.",
+      "minutes": 10
+    },
+    {
+      "kind": "listen",
+      "item": "listen-symphony-no-8",
+      "name": "Listen to the end of Faust",
+      "text": "Listen to the final chorus of Mahler’s Eighth, the Eternal Feminine of Faust Part Two.",
+      "minutes": 25
+    },
+    {
+      "kind": "art",
+      "item": "art-goethe-in-the-roman-campagna",
+      "name": "Look at Goethe in the Campagna",
+      "text": "Look at Tischbein’s painting of Goethe resting among ruins. What does the traveller’s cloak say about him?",
+      "minutes": 10
+    },
+    {
+      "kind": "art",
+      "item": "art-colour-circle",
+      "name": "Study his colour circle",
+      "text": "Look at Goethe’s own colour circle of 1809. Find the opposite of each colour, then find those pairs in your room.",
+      "minutes": 10
+    },
+    {
+      "kind": "art",
+      "item": "art-light-and-colour-goethe-s-theory-the-morning-after-the-deluge",
+      "name": "Look at Turner’s answer",
+      "text": "Look at Turner’s Light and Colour, painted after reading the Theory of Colours. Follow the swirl of warm colour.",
+      "minutes": 10
+    },
+    {
+      "kind": "eat",
+      "item": "eat-grune-so-e",
+      "name": "Make Frankfurt green sauce",
+      "text": "Make green sauce with seven herbs, sour cream and egg, and eat it with boiled potatoes as in Frankfurt.",
+      "minutes": 40
+    },
+    {
+      "kind": "eat",
+      "item": "eat-thuringer-klo-e",
+      "name": "Make Thuringian dumplings",
+      "text": "Make or buy Thuringian potato dumplings and serve them with gravy for a Sunday meal around Weimar.",
+      "minutes": 60
+    },
+    {
+      "kind": "eat",
+      "item": "eat-spargel",
+      "name": "Eat white asparagus",
+      "text": "In season, cook white asparagus with melted butter and new potatoes. Out of season, cook any vegetable from your region with the same care.",
+      "minutes": 40
+    },
+    {
+      "kind": "drink",
+      "item": "drink-apfelwein",
+      "name": "Pour from a Bembel",
+      "text": "Try Frankfurt cider from a grey stoneware jug, or apple juice the same way, in a ribbed glass.",
+      "minutes": 20
+    },
+    {
+      "kind": "drink",
+      "item": "drink-wurzburger-steinwein",
+      "name": "Taste a Franconian white",
+      "text": "Taste a Franconian white wine, which he ordered by the cask, or a Franconian grape juice.",
+      "minutes": 20
+    },
+    {
+      "kind": "drink",
+      "item": "drink-hot-chocolate",
+      "name": "Make thick hot chocolate",
+      "text": "Make thick hot chocolate, frothed in a pot, and drink it while reading a poem.",
+      "minutes": 15
+    },
+    {
+      "kind": "customs",
+      "item": "customs-the-walk-in-the-park",
+      "name": "Walk like Goethe",
+      "text": "Take a slow walk in a park, stopping to look at one plant and one cloud, and come home with a sentence.",
+      "minutes": 40
+    },
+    {
+      "kind": "customs",
+      "item": "customs-drawing-what-you-see",
+      "name": "Draw on a walk",
+      "text": "Take a sketchbook on a walk and draw three things quickly, only to see them better.",
+      "minutes": 30
+    },
+    {
+      "kind": "customs",
+      "item": "customs-collecting-stones",
+      "name": "Start a small collection",
+      "text": "Start a small collection of stones, leaves or shells, labelled with date and place.",
+      "minutes": 20
+    },
+    {
+      "kind": "games",
+      "item": "games-tableaux-vivants",
+      "name": "Pose a living picture",
+      "text": "With friends or family, pose as a famous painting and photograph it, as guests did in Elective Affinities.",
+      "minutes": 30
+    },
+    {
+      "kind": "games",
+      "item": "games-charades",
+      "name": "Play charades",
+      "text": "Play charades in the evening, acting out words syllable by syllable, as Weimar society did.",
+      "minutes": 30
+    },
+    {
+      "kind": "games",
+      "item": "games-skat",
+      "name": "Learn Skat",
+      "text": "Learn the basics of Skat, the card game invented near Weimar in Thuringia.",
+      "minutes": 45
+    },
+    {
+      "kind": "travel",
+      "item": "place-goethe-s-garden-house",
+      "name": "Visit the garden house",
+      "text": "Visit, or explore online, the garden house by the Ilm where Goethe lived his first Weimar years.",
+      "minutes": 60
+    },
+    {
+      "kind": "travel",
+      "item": "place-goethe-s-house",
+      "name": "Visit the house on the Frauenplan",
+      "text": "Visit, or explore online, his house in Weimar: the yellow hall, the Juno room, his study and collections.",
+      "minutes": 60
+    },
+    {
+      "kind": "travel",
+      "item": "fest-walpurgis-night",
+      "name": "Mark Walpurgis Night",
+      "text": "On 30 April read the Walpurgis Night scene of Faust, or go up a hill at night with friends.",
+      "minutes": 30
+    },
+    {
+      "kind": "words",
+      "item": "word-bildung",
+      "name": "Learn the word Bildung",
+      "text": "Learn Bildung, self-formation, and write one way you are forming yourself during this Onda."
+    },
+    {
+      "kind": "words",
+      "item": "word-stirb-und-werde",
+      "name": "Learn stirb und werde",
+      "text": "Learn stirb und werde, die and become, and read the poem Blessed Longing where it comes from."
+    },
+    {
+      "kind": "words",
+      "item": "word-weltliteratur",
+      "name": "Learn the word Weltliteratur",
+      "text": "Learn Weltliteratur, world literature, and choose a book from another continent to read next."
+    }
+  ]
+}

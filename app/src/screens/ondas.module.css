@@ -501,3 +501,12 @@ button.softCard{width:100%;text-align:start;display:block}
 .phItemBody{padding-left:62px}
 .phSeg{margin:22px 0 12px}
 .phWrap > .phToday:first-child{margin-top:14px}
+
+/* ── Onda 7.1: philosophy and immersion carry the Onda's own pattern, face and mark shape ── */
+.phToday{background:var(--onda-cover,var(--onda-material,var(--surface-card)))}
+.phTryBox{border-radius:var(--onda-shape,50%)}
+.phItemOpen .phItemTitle{font-family:var(--onda-font,var(--font-sans));font-weight:500;text-transform:var(--onda-case,none);letter-spacing:var(--onda-track,0)}
+.imCard{background:var(--onda-cover,var(--onda-material))}
+.imTile{position:relative;isolation:isolate;overflow:hidden}
+.imTile::before{content:"";position:absolute;inset:0;z-index:-1;background:var(--onda-cover);opacity:.07;pointer-events:none}
+.imRing circle + circle{stroke:var(--onda-accent,var(--accent))}

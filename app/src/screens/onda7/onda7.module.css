@@ -161,3 +161,22 @@ button.row:active,a.row:active{background:var(--surface-fill)}
 .shelfRow{display:flex;gap:12px;padding:0 16px 6px;scroll-snap-type:x proximity;scroll-padding:0 16px}
 .shelfItem{flex:none;width:152px;scroll-snap-align:start}
 .feat,.shelfRow{padding-bottom:22px;margin-bottom:-16px}
+
+/* ── Onda 7.1: each Onda's home has its own air: its cover's colour and pattern washed behind the header,
+   the title in its display face with its glyph, today's progress in its ornament, checks in its mark shape ── */
+.home{position:relative;isolation:isolate}
+.home::before{content:"";position:absolute;z-index:-1;left:-24px;right:-24px;top:-240px;height:640px;pointer-events:none;
+  background:var(--onda-cover);opacity:.16;-webkit-mask-image:linear-gradient(to bottom,#000 35%,transparent);mask-image:linear-gradient(to bottom,#000 35%,transparent)}
+@media (prefers-color-scheme:dark){.home::before{opacity:.24}}
+:root[data-theme="dark"] .home::before{opacity:.24}
+:root[data-theme="light"] .home::before{opacity:.16}
+.home h1{font-family:var(--onda-font,var(--font-sans));text-transform:var(--onda-case,none);letter-spacing:var(--onda-track,0);font-weight:500}
+.homeGlyph{margin-left:10px;font-size:.55em;font-weight:500;color:var(--onda-accent,var(--accent));vertical-align:.35em;letter-spacing:0;text-transform:none}
+.home .groupHead{color:var(--onda-accent,var(--label-secondary))}
+.home .check{border-radius:var(--onda-shape,50%)}
+.home .checkOn{clip-path:var(--onda-clip,none)}
+.beads{display:flex;align-items:center;flex-wrap:wrap;gap:8px;padding:2px 20px 8px}
+.bead{display:flex;align-items:center;gap:8px;color:color-mix(in srgb,var(--onda-accent,var(--accent)) 26%,transparent);transition:color var(--duration-standard)}
+.bead + .bead::before{content:"";width:14px;height:1px;border-radius:1px;background:color-mix(in srgb,var(--onda-accent,var(--accent)) 22%,transparent)}
+.beadOn{color:var(--onda-accent,var(--accent))}
+.beadOn svg{animation:pop var(--spring-snappy-ms,320ms) var(--spring-snappy)}

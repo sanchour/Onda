@@ -7,10 +7,10 @@ import { useStore } from '@/data/store'
 import { BackButton, Screen } from '@/nav/Screen'
 import { useNav } from '@/nav/store'
 import { Button, GlassButton } from '@/ui/buttons'
-import { ProgressBar } from '@/ui/data'
 import { Icon } from '@/ui/Icon'
 import { Cover, GroupedList, PlanList, Row, SearchField, SectionHeader, ShortcutBar } from './onda7'
 import c from './onda7/onda7.module.css'
+import { OrnamentIcon } from './KindArt'
 import { guardCreateOnda, useActiveOnda, useRunToday } from './ondaShared'
 import s from './screens.module.css'
 
@@ -25,7 +25,10 @@ export default function OndasTab() {
 
   const header = (
     <div className={s.titleRow}>
-      <h1 className={s.largeTitle}>{t('ondas.title')}</h1>
+      <h1 className={s.largeTitle}>
+        {t('ondas.title')}
+        {active?.look.glyph && settings.ondaThemes && <span className={c.homeGlyph} aria-hidden>{active.look.glyph}</span>}
+      </h1>
       <div className={s.actions}>
         <GlassButton icon="plus" prominent ariaLabel={t('ondas.newOnda')} onClick={() => guardCreateOnda(t) && openSheet({ name: 'createOnda' })} />
         <GlassButton icon="compass" ariaLabel={t('ondas.browse')} onClick={() => push({ name: 'allOndas' })} />
@@ -65,7 +68,7 @@ export default function OndasTab() {
 
   return (
     <Screen variant="root">
-      <div style={look.vars} data-onda={settings.ondaThemes ? run.ondaId : undefined}>
+      <div style={look.vars} className={settings.ondaThemes ? c.home : undefined} data-onda={settings.ondaThemes ? run.ondaId : undefined}>
         {header}
         <Cover
           look={look}
@@ -90,8 +93,13 @@ export default function OndasTab() {
         />
 
         <SectionHeader title={t('ondas.today')} meta={progress} />
-        <div className={c.progress}>
-          <ProgressBar value={plan.length ? pDone / plan.length : 0} tone="var(--onda-accent)" height={4} label={progress} />
+        {/* today's progress as a row of the Onda's own ornament, one for each practice */}
+        <div className={c.beads} role="img" aria-label={progress}>
+          {plan.map((p) => (
+            <span key={p.id} className={done.practices.has(p.id) ? `${c.bead} ${c.beadOn}` : c.bead}>
+              <OrnamentIcon name={look.ornament} size={22} />
+            </span>
+          ))}
         </div>
         <PlanList
           plan={plan}

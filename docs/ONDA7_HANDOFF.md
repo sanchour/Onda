@@ -7,10 +7,7 @@ Everything is on `main` as version 7.1. The theme work from the branch `wip/onda
 ```
 Continue the Onda 7.1 design. Read docs/ONDA7_HANDOFF.md and docs/ONDA7_PLAN.md first and follow them.
 Design only: do not rewrite any content in content/. Be fast and token efficient: work directly, read only the files you need,
-no long multi-agent workflows. Finish "Unique home page per Onda" under "Open items": make each Onda's home (the Ondas tab),
-Philosophy and Immersion feel like that Onda, using only its theme (colours, pattern, display face, numerals, glyph, ornament,
-mark shape, emblem). Check several Ondas with node app/shots/v7-homes.mjs <outDir> light|dark and node app/shots/contact.mjs <outDir>,
-then run typecheck, unit tests, build and the Ondas e2e tests, update docs/ONDA7_PLAN.md and this handoff,
+no long multi-agent workflows. Ask the owner what to do next; "Open items" lists what is done and a few optional ideas. Before pushing, run typecheck, unit tests, build and the Ondas e2e tests, update docs/ONDA7_PLAN.md and this handoff,
 commit and push to main, and confirm that git rev-parse HEAD equals origin/main.
 ```
 
@@ -39,13 +36,16 @@ Done and on `main` (commits `36709f8`, `c007b84`, `2f2961a`, `18e2e77`, the hand
 
 ## Open items
 
-### Unique home page per Onda (in progress)
+### Unique home page per Onda (done)
 The owner wants every Onda's home page to feel slightly its own, and the Today progress bar, the Ondas header and elements of Philosophy and Immersion to carry each Onda's look. Done so far (CSS blocks marked "Onda 7.1: each Onda's home" in `app/src/screens/onda7/onda7.module.css` and "Onda 7.1: philosophy and immersion" in `app/src/screens/ondas.module.css`):
 - The Ondas tab wrapper gets `.home` (only with the Onda themes setting on): the Onda's cover colour and pattern (`--onda-cover`) washed behind the header and fading down; the large title "Ondas" in the Onda's display face, case and tracking (no glyph next to it: the owner asked to remove it); time of day headers in the accent; check marks in the Onda's mark shape (`--onda-shape`, `--onda-clip`).
 - Today's progress is a row of the Onda's ornament (`look.ornament` via `OrnamentIcon`), one per practice, lit when done (`.beads`, `.bead`, `.beadOn` in `OndasTab.tsx`), instead of a plain bar.
 - Philosophy: today's idea card uses the full cover (pattern and colour); the Try box uses the mark shape; an open idea's title is set in the display face.
 - Immersion: Up Next cards use the full cover; library tiles carry a faint wash of the pattern.
-Still to do: review several Ondas in light and dark (`node app/shots/v7-homes.mjs <outDir> light|dark "Zen Buddhism,Norse,Aztec,Hinduism,Celtic"`, then `node app/shots/contact.mjs <outDir>` for one contact sheet), fix anything illegible (display faces such as blackletter on the title, contrast of the wash in dark), and consider more per-Onda touches: the shortcut bar icons in the accent with the mark shape behind, a small ornament divider between Today's groups, the Onda's numerals for the day count. Then the checks and push listed in the prompt.
+Checked on six Ondas (Stoicism, Zen, Norse, Aztec, Hinduism, Celtic) in light and dark with `node app/shots/v7-homes.mjs <outDir> light|dark` and `node app/shots/contact.mjs <outDir>`. Ideas if the owner wants more: the shortcut bar icons on the mark shape, a small ornament divider between Today's groups.
+
+### Swipe back (done)
+`app/src/nav/Navigator.tsx`: swipe back works from anywhere on a page once a drag is clearly to the right (the 22px edge strip still takes it at once). The page beneath springs on the same curve as the page on top, is never hidden mid-swipe, and leftover animations are stopped when a new swipe starts; the release never taps what is under the finger. Rows that scroll sideways, decks, sliders, switches and text fields keep their own drags (`ownsGesture`); the scroll pane has `touch-action: pan-y pinch-zoom`. Check with `node app/shots/v7-swipe.mjs <outDir>` (8 checks, all pass, plus a mid-swipe screenshot).
 
 ### Other
 Nothing else required is open. All 33 e2e tests pass (each failing one was rerun on its own and passes), the 1478 unit tests pass, the palette contrast check has 0 failures, and every cover was checked in light and dark. Optional next steps:

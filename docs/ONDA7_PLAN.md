@@ -40,6 +40,11 @@ Design only. Content (guides, practices, philosophy text) stays as it is.
 - [x] e2e green (33 tests): the immerse row opens from its hold menu, Philosophy via its shortcut, the Featured row in browse, the Lago link, the Gallery and the final reflection use what today's plan offers, the hold menu test uses a morning practice, version 7.1
 - [x] Version 7.1 with a What's New entry
 
+## 7.1, second round
+- [x] Each Onda's home in its own look: the cover's colour and pattern washed behind the header, "Ondas" in the Onda's display face, today's progress as a row of its ornament, time of day headers in its accent, checks in its mark shape
+- [x] Philosophy and Immersion carry the Onda's pattern (today's idea, Up Next, library tiles) and mark shape
+- [x] Swipe back from anywhere on a page, smooth and in step with the page beneath (`app/shots/v7-swipe.mjs`)
+
 ## Not in scope
 - Rewriting content
 - The full end-to-end suite (more than 10 minutes); targeted checks only

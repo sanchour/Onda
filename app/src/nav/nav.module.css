@@ -51,3 +51,10 @@
 
 /* Privacy cover for the app switcher */
 .cover{position:absolute;inset:0;z-index:200;background:var(--surface-grouped);display:flex;align-items:center;justify-content:center;flex-direction:column;gap:14px}
+
+/* iOS large title, handing over to the inline title on scroll */
+.chromeLate{opacity:0;transition:opacity 200ms ease,background-color var(--duration-small,160ms) ease,border-color var(--duration-small,160ms) ease}
+.screen[data-inline] .chromeLate{opacity:1}
+.largeHead{padding:2px 20px 4px}
+.largeText{font:700 var(--fs-34)/1.2 var(--font-sans);letter-spacing:var(--tracking-display);color:var(--label)}
+.largeSub{margin:4px 0 0;font:400 var(--fs-17)/1.4 var(--font-sans);color:var(--label-secondary);text-wrap:pretty}

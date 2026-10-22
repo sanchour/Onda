@@ -32,8 +32,8 @@ try {
   await step('journal', async () => { await tap('Journal'); await shot('03-journal'); await tap('Back') })
   await step('immerse', async () => { await tap('Immerse'); await shot('04-immerse'); await scrollBy(600); await shot('05-immerse-lower'); await tap('Back') })
   await step('guide', async () => {
-    await tap('Guide'); await shot('06-guide'); await scrollBy(700); await shot('07-guide-lower')
-    for (const [n, label] of [['08', /^History/], ['09', /^Ideas/], ['10', /^Ways/i]]) { await scrollBy(-5000); await page.getByRole('tab', { name: label }).first().click().catch(() => page.getByRole('button', { name: label }).first().click()); await sleep(700); await shot(`${n}-guide-${String(label).slice(2, 8)}`) }
+    await tap('Guide'); await sleep(2500); await shot('06-guide'); await scrollBy(700); await shot('07-guide-lower')
+    for (const [n, label] of [['08', /^History/], ['09', /^Ideas/], ['10', /^Practices/]]) { await scrollBy(-5000); await page.getByRole('tab', { name: label }).first().click().catch(() => page.getByRole('button', { name: label }).first().click()); await sleep(700); await shot(`${n}-guide-${String(label).slice(2, 8)}`) }
     await tap('Back')
   })
   await step('practice', async () => {

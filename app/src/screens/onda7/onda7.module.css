@@ -143,3 +143,21 @@ button.row:active,a.row:active{background:var(--surface-fill)}
 .soonOrigin{display:block;font:400 var(--fs-12) var(--font-sans);color:var(--label-tertiary);margin-top:3px}
 .soonBadge{align-self:flex-start;font:600 var(--fs-11) var(--font-sans);letter-spacing:.06em;text-transform:uppercase;color:var(--label-tertiary)}
 .noMatch{padding:40px 20px;text-align:center;font:400 var(--fs-17) var(--font-sans);color:var(--label-secondary)}
+
+/* ── All Ondas as a bookshop ── */
+.chips{display:flex;gap:8px;padding:14px 16px 2px}
+.chip{flex:none;height:34px;padding:0 15px;border-radius:999px;font:500 var(--fs-15) var(--font-sans);color:var(--label);background:color-mix(in srgb,var(--label) 7%,transparent);transition:background var(--duration-standard)}
+.chip:active{opacity:.7}
+.chipOn{background:var(--label);color:var(--surface-page,var(--surface-card));font-weight:600}
+.featHead{display:block;padding:22px 20px 10px}
+.feat{display:flex;gap:12px;padding:0 16px 6px;scroll-snap-type:x mandatory;scroll-padding:0 16px}
+.featItem{flex:none;width:calc(100% - 52px);scroll-snap-align:start;display:flex}
+.featItem > *{width:100%;margin:0;min-height:240px}
+.shelf{content-visibility:auto;contain-intrinsic-size:auto 230px}
+.shelfHead{display:flex;align-items:baseline;justify-content:space-between;gap:12px;width:100%;min-height:44px;padding:22px 20px 10px;text-align:start}
+.shelfHead:active{opacity:.7}
+.shelfTitle{margin:0;font:700 var(--fs-20)/1.25 var(--font-sans);letter-spacing:var(--tracking-title);color:var(--label);min-width:0}
+.shelfMore{display:flex;align-items:center;gap:3px;flex:none;font:500 var(--fs-15) var(--font-sans);color:var(--accent)}
+.shelfRow{display:flex;gap:12px;padding:0 16px 6px;scroll-snap-type:x proximity;scroll-padding:0 16px}
+.shelfItem{flex:none;width:152px;scroll-snap-align:start}
+.feat,.shelfRow{padding-bottom:22px;margin-bottom:-16px}

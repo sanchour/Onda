@@ -17,12 +17,12 @@ commit and push to main, and confirm that git rev-parse HEAD equals origin/main.
 
 A design overhaul of the Onda side of the app: premium iOS 27, clean, each Onda its own traditional world. Content is unchanged.
 
-Done and on `main` (latest commits `36709f8`, `c007b84`, `2f2961a`, `18e2e77` and the handoff commit):
+Done and on `main` (commits `36709f8`, `c007b84`, `2f2961a`, `18e2e77`, the handoff commit, and the iOS pass on Guide, Philosophy and All Ondas):
 - Ondas tab: themed cover (palette, emblem, display face, traditional numerals), one connected shortcut bar (Immerse, Journal, Philosophy, Guide; icons only, on the page background), Today as grouped lists by time of day with thin line icons and check circles. No quote at the bottom.
-- All Ondas: cover tiles by group, a search field.
+- All Ondas: a bookshop. Search, filter chips, a Featured row that changes each day, one sideways shelf per group with See All.
 - Running Onda page (tap the cover): only what is nowhere else (theme of the day, quote, word of the day, journal, final reflection). The preview of an Onda not begun still shows practices, rules, immerse and ideas.
-- Guide: opens on a contents page (essence, at a glance, chapter tiles with counts and previews); tabs appear inside a chapter; history as a timeline; grouped lists.
-- Philosophy: a swipeable deck of idea cards with "Try this today", plus a numbered list to jump.
+- Guide: one long read. Cover and essence, then a floating glass chapter bar (Overview, People, History, Ideas, Ethics, Practices, Culture, Travel, Language, Facts) that jumps and follows the reading position; chapter headings in a serif over a hairline that fold on tap (Wikipedia app), an infobox for origin, era and key figures, sources as numbered references; inset grouped lists with Show All as the last row; the inline title appears once the cover scrolls away.
+- Philosophy: iOS large title, today's idea as a large themed card with "Try this today", a segmented control between Think about and Ethics, and an index that opens each idea in place.
 - Immersion: Up Next cards, a library grid with progress rings, and a format per kind (Read bookshelf, Words flashcards, Listen record sleeves, Watch cinematic frames, Art gallery frames, Eat and Drink menu, Travel postcards, Games and Customs).
 - Practice sheet, final reflection and Onda complete restyled. Lagos Quick tip removed. Version 7.0 with a What's New entry.
 
@@ -31,7 +31,8 @@ Done and on `main` (latest commits `36709f8`, `c007b84`, `2f2961a`, `18e2e77` an
 - Primitives: `app/src/screens/onda7/` (Cover, GroupedList, Row, CheckCircle, SectionHeader, PracticeRow, PlanList, ShortcutBar, SearchField, QuoteBlock), CSS in `onda7.module.css`.
 - Theme type and helpers: `app/src/content/themeKit.ts`. Theme data: `app/src/content/themes/a.ts` (first 32 ids) and `themes/b.ts` (last 32). Runtime (CSS variables `--onda-*`, including `--onda-cover`, `--onda-material`, `--onda-accent`): `app/src/content/themes.ts`.
 - Cover emblems: `app/src/screens/emblems/a.tsx` and `b.tsx`, contract in `emblems/kit.tsx` (120 unit viewBox, currentColor, stroke `line * 120 / size`). On `main` they are stand-ins built from the small ornaments (`fromOrnament`).
-- Screens: `OndasTab.tsx`, `OndaToday.tsx`, `Guide.tsx`, `OndaPages.tsx` (Journal, Philosophy, Rules), `OndaFlow.tsx` (Immersion, Reflection, Done), `sheets/OndaSheets.tsx`. Styles: `screens/ondas.module.css` (blocks marked `Onda 7`), `sheets/guide.module.css`.
+- iOS large titles: `LargeTitle` and `ChromeTitle after={px}` in `app/src/nav/Screen.tsx` (the inline title shows once the page scrolls past `after`).
+- Screens: `OndasTab.tsx` (Ondas tab and All Ondas), `OndaToday.tsx`, `Guide.tsx`, `OndaPages.tsx` (Journal, Philosophy, Rules), `OndaFlow.tsx` (Immersion, Reflection, Done), `sheets/OndaSheets.tsx`. Styles: `screens/ondas.module.css` (blocks marked `Onda 7`), `sheets/guide.module.css`.
 - Plan and checklist: `docs/ONDA7_PLAN.md`.
 
 ## Open items, in order
@@ -43,8 +44,11 @@ Branch `wip/onda7-themes` holds unfinished agent work: 32 new emblems in `emblem
 - Each emblem: a real motif from that tradition's own art (for example ensō, Urnes interlace, girih star, Sun Stone, adire, triskele, chakana, tulip in an ogee, chhatri), 6 to 20 SVG elements, recognisable at 48px; no two Ondas share a motif.
 - Check: Browse Ondas grid and a few Onda pages in light and dark (`node app/shots/v7-before.mjs <outDir> light|dark`), fix anything crude, crowded or illegible.
 
-### 2. Failing e2e test
-`app/tests/e2e/flows.spec.ts`, test "Ondas tab: cover, one bar of four shortcuts, and Today by time of day", fails at `getByRole('button', { name: /^Open: / })`. The immerse row's open control is in `app/src/screens/onda7/PracticeRow.tsx` (`aria-label={`${open.label}: ${p.name}`}`); match the test to the real label. The other Onda tests ("Rules can be kept ...", "Today page, Full guide ...") pass. Run: `npx playwright test tests/e2e/flows.spec.ts -g "Ondas" --reporter=line --project=iphone-webkit` (in `app/`). The full suite takes over 10 minutes; run it in the background at the end.
+### 2. Failing e2e tests
+Two tests in `app/tests/e2e/flows.spec.ts` fail on the same thing, the open control on a Today row:
+- "Ondas tab: cover, one bar of four shortcuts, and Today by time of day" fails at `getByRole('button', { name: /^Open: / })`.
+- "Update 1.4 › opens on the Ondas tab ... can open the Philosophy page" fails at `getByRole('button', { name: /Open Philosophy/ })`.
+The open control is in `app/src/screens/onda7/PracticeRow.tsx` (`aria-label={`${open.label}: ${p.name}`}`, built by `open(p)` in `PlanList`; rows with an item are hold-only and have no button). Check what the demo's Today rows really offer and match the tests to it (or give those rows their button back). The other Onda tests ("Rules can be kept ...", "Today page, Full guide ...") pass. Run: `npx playwright test tests/e2e/flows.spec.ts -g "Ondas" --reporter=line --project=iphone-webkit` (in `app/`). The full suite takes over 10 minutes; run it in the background at the end.
 
 ### 3. Light and dark check
 `node app/shots/v7-pages.mjs <outDir> light|dark` (add `kinds` as a third argument for the Immersion formats only) and `node app/shots/v7-before.mjs <outDir> light|dark`. Read the PNGs, fix overlaps, clipped text and contrast.

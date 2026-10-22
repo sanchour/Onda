@@ -20,14 +20,23 @@ interface ScreenProps {
   dataOnda?: string
 }
 
-/** Once the page has moved under the floating title, the title gets a glass backing so text does not run through it. */
+/** Once the page has moved under the floating title, the title gets a glass backing so text does not run through it.
+ *  A title with `after` stays hidden until the page has scrolled that far, as an iOS large title hands over to the inline one. */
 function markScrolled(e: React.UIEvent<HTMLDivElement>) {
   const screen = e.currentTarget.parentElement
   if (!screen) return
-  const on = e.currentTarget.scrollTop > 6
+  const top = e.currentTarget.scrollTop
+  const on = top > 6
   if ((screen.dataset.scrolled === '1') !== on) {
     if (on) screen.dataset.scrolled = '1'
     else delete screen.dataset.scrolled
+  }
+  const late = screen.querySelector<HTMLElement>('[data-after]')
+  if (!late) return
+  const show = top > Number(late.dataset.after)
+  if ((screen.dataset.inline === '1') !== show) {
+    if (show) screen.dataset.inline = '1'
+    else delete screen.dataset.inline
   }
 }
 
@@ -52,8 +61,21 @@ export function BackButton({ onClick, icon = 'caret-left' }: { onClick?: () => v
   return <GlassButton icon={icon} ariaLabel={icon === 'x' ? t('a11y.close') : t('a11y.back')} onClick={onClick ?? pop} />
 }
 
-export function ChromeTitle({ children }: { children: ReactNode }) {
-  return <h1 className={s.chromeTitle}>{children}</h1>
+export function ChromeTitle({ children, after }: { children: ReactNode; after?: number }) {
+  return (
+    <h1 className={after != null ? `${s.chromeTitle} ${s.chromeLate}` : s.chromeTitle} data-after={after}>
+      {children}
+    </h1>
+  )
+}
+/** iOS large title at the top of the page; the chrome title (with `after`) carries the heading for assistive tech. */
+export function LargeTitle({ title, sub }: { title: string; sub?: ReactNode }) {
+  return (
+    <header className={s.largeHead}>
+      <div className={s.largeText} aria-hidden>{title}</div>
+      {sub && <p className={s.largeSub}>{sub}</p>}
+    </header>
+  )
 }
 export const ChromeGroup = ({ children }: { children: ReactNode }) => <div className={s.chromeGroup}>{children}</div>
 export const ChromeSpacer = () => <span className={s.spacer44} />

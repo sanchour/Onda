@@ -1,4 +1,4 @@
-import { useMemo, useRef, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import type { MediaKind } from '@/content'
 import type { OndaContent } from '@/content/schema'
@@ -9,14 +9,13 @@ import type { StackEntry } from '@/nav/store'
 import { Icon } from '@/ui/Icon'
 import { Collapse, Deck, Fold, openExternal } from '@/sheets/guideParts'
 import g from '@/sheets/guide.module.css'
-import { KindArt, OrnamentIcon } from './KindArt'
+import { OrnamentIcon } from './KindArt'
 import { Cover } from './onda7'
 import s from './screens.module.css'
 
 /* ── Full guide ───────────────────────────────────────────── */
 const TABS = ['overview', 'history', 'ideas', 'ethics', 'ways', 'culture', 'travel', 'language', 'facts'] as const
 type GuideTab = (typeof TABS)[number]
-const CHAPTER_ICON: Record<GuideTab, string> = { overview: 'compass', history: 'clock-counter-clockwise', ideas: 'lightbulb', ethics: 'scales', ways: 'footprints', culture: 'books', travel: 'map-trifold', language: 'translate', facts: 'sparkle' }
 
 interface GRow {
   key: string
@@ -91,48 +90,69 @@ function guideGroups(c: OndaContent, tab: GuideTab, t: TFn): GGroup[] {
 
 const initials = (name: string) => name.split(/\s+/).filter(Boolean).slice(0, 2).map((w) => w[0]!.toUpperCase()).join('')
 
+/** The guide's chapters in reading order. People are the key figures; the rest come from guideGroups. */
+const SECTIONS = ['overview', 'people', 'history', 'ideas', 'ethics', 'ways', 'culture', 'travel', 'language', 'facts'] as const
+type Section = (typeof SECTIONS)[number]
+type Listed = Exclude<Section, 'overview' | 'people' | 'facts'>
+const LISTED: Listed[] = ['history', 'ideas', 'ethics', 'ways', 'culture', 'travel', 'language']
+/** Rows shown per group before Show All. */
+const LIMIT = 4
+
+/** The Full guide as one long read: the cover, the essence, then every chapter in order on one page.
+ *  A sticky chapter bar jumps to any chapter and follows the reading position. Long groups show their first few rows. */
 export default function Guide({ entry }: { entry: Extract<StackEntry, { name: 'guide' }> }) {
   const { t } = useTranslation()
   const index = useOndaIndex(entry.ondaId)
   const content = useOnda(entry.ondaId)
   const look = useLook(index)
-  const [tab, setTab] = useState<GuideTab>('overview')
   const [open, setOpen] = useState<Record<string, boolean>>({})
+  const [all, setAll] = useState<Record<string, boolean>>({})
   const [more, setMore] = useState(false)
   const [fact, setFact] = useState(0)
-  const tabsRef = useRef<HTMLDivElement>(null)
-  const [shut, setShut] = useState<Record<string, boolean>>({})
-  const anchors = useRef(new Map<string, HTMLElement>())
-  const groups = useMemo(() => (content ? guideGroups(content, tab, t) : []), [content, tab, t])
-  const rows = groups.flatMap((x) => x.rows)
-  const expandable = (r: GRow) => !!(r.body || r.tryIt || r.steps || r.list || r.link)
-  const foldable = rows.filter(expandable)
-  const allOpen = foldable.length > 0 && foldable.every((r) => open[`${tab}:${r.key}`])
+  const [at, setAt] = useState<Section>('overview')
+  const [shut, setShut] = useState<Partial<Record<Section, boolean>>>({})
+  const bar = useRef<HTMLDivElement>(null)
+  const secs = useRef(new Map<Section, HTMLElement>())
   const flip = (k: string) => setOpen((x) => ({ ...x, [k]: !x[k] }))
-  const setAll = (v: boolean) => {
-    setOpen((x) => ({ ...x, ...Object.fromEntries(foldable.map((r) => [`${tab}:${r.key}`, v])) }))
-    setShut((x) => ({ ...x, ...Object.fromEntries(groups.map((grp) => [`${tab}:${grp.key}`, !v])) }))
-  }
-  // Long groups start folded (the first one stays open), so a tab opens as a short list of sections.
-  const isShut = (grp: GGroup, i: number) => shut[`${tab}:${grp.key}`] ?? (i > 0 && grp.rows.length > 6)
-  const jump = (grp: GGroup) => {
-    setShut((x) => ({ ...x, [`${tab}:${grp.key}`]: false }))
-    requestAnimationFrame(() => anchors.current.get(`${tab}:${grp.key}`)?.scrollIntoView({ block: 'start', behavior: reducedMotion() ? 'auto' : 'smooth' }))
-  }
-  const lead = tab === 'overview' ? index?.line : t(`guide.lead${tab[0]!.toUpperCase()}${tab.slice(1)}`)
   const g_ = content?.guide
+  const groupsOf = useMemo(() => {
+    const out: Partial<Record<Listed, GGroup[]>> = {}
+    if (content) for (const k of LISTED) out[k] = guideGroups(content, k, t)
+    return out
+  }, [content, t])
+  const present = SECTIONS.filter((k) => (k === 'overview' ? true : k === 'people' ? !!g_?.figures.length : k === 'facts' ? !!(g_?.facts.length || g_?.sources.length) : !!groupsOf[k]?.length))
+  const label = (k: Section) => t(`guide.tabs.${k}`)
+  const leadOf = (k: Section) => (k === 'overview' ? '' : t(`guide.lead${k[0]!.toUpperCase()}${k.slice(1)}`))
 
-  const pick = (k: GuideTab) => {
-    setTab(k)
-    setMore(false)
-    requestAnimationFrame(() => { const sc = tabsRef.current?.closest('.scroll') ?? document.querySelector('.scroll:last-of-type'); if (sc && k !== 'overview') (sc as HTMLElement).scrollTop = 0 })
-    const el = tabsRef.current?.querySelector<HTMLElement>(`[data-tab="${k}"]`)
-    el?.scrollIntoView({ inline: 'center', block: 'nearest', behavior: reducedMotion() ? 'auto' : 'smooth' })
+  // the chapter bar follows the reading position
+  useEffect(() => {
+    const first = secs.current.values().next().value as HTMLElement | undefined
+    const root = first?.closest('.scroll') as HTMLElement | null
+    if (!root || typeof IntersectionObserver === 'undefined') return
+    const io = new IntersectionObserver(
+      (es) => {
+        const v = es.filter((e) => e.isIntersecting).sort((x, y) => x.boundingClientRect.top - y.boundingClientRect.top)[0]
+        if (v) setAt(v.target.getAttribute('data-sec') as Section)
+      },
+      { root, rootMargin: '-25% 0px -65% 0px' },
+    )
+    secs.current.forEach((el) => io.observe(el))
+    return () => io.disconnect()
+  }, [present.length, content])
+  useEffect(() => {
+    const b = bar.current
+    const el = b?.querySelector<HTMLElement>(`[data-sec="${at}"]`)
+    if (b && el) b.scrollTo({ left: el.offsetLeft - b.clientWidth / 2 + el.clientWidth / 2, behavior: reducedMotion() ? 'auto' : 'smooth' })
+  }, [at])
+  const go = (k: Section) => {
+    setAt(k)
+    setShut((x) => ({ ...x, [k]: false }))
+    secs.current.get(k)?.scrollIntoView({ block: 'start', behavior: reducedMotion() ? 'auto' : 'smooth' })
   }
 
-  const renderRow = (r: GRow, variant: 'card' | 'timeline' | 'word' = 'card') => {
-    const k = `${tab}:${r.key}`
-    const exp = expandable(r)
+  const renderRow = (r: GRow, sec: Section, variant: 'card' | 'timeline' | 'word' = 'card') => {
+    const k = `${sec}:${r.key}`
+    const exp = !!(r.body || r.tryIt || r.steps || r.list || r.link)
     const fold = (
       <Fold
         title={r.title}
@@ -188,51 +208,61 @@ export default function Guide({ entry }: { entry: Extract<StackEntry, { name: 'g
     )
   }
 
-  const body = () => {
-    if (!content || !g_) return <div className={s.empty} style={{ padding: '32px 20px' }}><div className={s.sub}>{t('onda.loading')}</div></div>
-    if (tab === 'overview') {
+  const groupBlock = (sec: Section, grp: GGroup, variant: 'card' | 'timeline' | 'word') => {
+    const k = `${sec}:${grp.key}`
+    const limit = sec === 'history' ? 6 : LIMIT
+    const long = grp.rows.length > limit + 1
+    const rows = long && !all[k] ? grp.rows.slice(0, limit) : grp.rows
+    return (
+      <div key={grp.key} className={g.block}>
+        {grp.title && (
+          <h3 className={g.blockHead}>
+            {grp.title}
+            <small>{grp.rows.length}</small>
+          </h3>
+        )}
+        <div className={variant === 'timeline' ? g.timeline : g.stack}>
+          {rows.map((r) => renderRow(r, sec, variant))}
+          {long && (
+            <button type="button" className={g.showRow} aria-expanded={!!all[k]} onClick={() => setAll((x) => ({ ...x, [k]: !x[k] }))}>
+              {all[k] ? t('guide.showFewer') : t('guide.showAll', { count: grp.rows.length })}
+              <Icon name={all[k] ? 'caret-up' : 'caret-down'} weight="bold" size={14} />
+            </button>
+          )}
+        </div>
+      </div>
+    )
+  }
+
+  const sectionBody = (k: Section) => {
+    if (!content || !g_) return null
+    if (k === 'overview') {
       const intro = g_.intro
-      const chapters = TABS.filter((k) => k !== 'overview').map((k) => {
-        const rows = k === 'facts' ? g_.facts.map((f) => ({ title: f.text })) : guideGroups(content, k, t).flatMap((x) => x.rows)
-        const teaser = k === 'history' && rows.length > 1 ? `${rows[0]!.title} to ${rows[rows.length - 1]!.title}` : k === 'facts' ? '' : rows.slice(0, 3).map((r) => r.title).join(', ')
-        return { k, n: rows.length, teaser }
-      }).filter((x) => x.n > 0)
       return (
         <>
           {(g_.origin || g_.era) && (
-            <div className={g.glance}>
+            <div className={`${g.glance} ${g.infobox}`}>
+              <div className={g.infoHead}>{index?.name}</div>
               {g_.origin && <div className={g.glanceRow}><span>{t('guide.origin')}</span><b>{g_.origin}</b></div>}
               {g_.era && <div className={g.glanceRow}><span>{t('guide.era')}</span><b>{g_.era}</b></div>}
+              {g_.figures.length > 0 && <div className={g.glanceRow}><span>{t('guide.keyFigures')}</span><b>{g_.figures.slice(0, 3).map((f) => f.name).join(', ')}</b></div>}
             </div>
           )}
-          <h3 className={g.sectionHead} style={{ marginTop: 26 }}>{t('guide.chapters')}</h3>
-          <div className={g.chapters}>
-            {chapters.map((x) => (
-              <button key={x.k} type="button" className={g.chapter} onClick={() => pick(x.k)} aria-label={`${t(`guide.tabs.${x.k}`)}, ${x.n}`}>
-                <span className={g.chapterTop}>
-                  <span className={g.chapterIcon} aria-hidden><Icon name={CHAPTER_ICON[x.k]} weight="regular" size={24} /></span>
-                  <span className={g.chapterN} aria-hidden>{x.n}</span>
-                </span>
-                <span className={g.chapterName}>{t(`guide.tabs.${x.k}`)}</span>
-                {x.teaser && <span className={g.chapterTeaser}>{x.teaser}</span>}
-              </button>
-            ))}
-          </div>
-          <h3 className={g.sectionHead} style={{ marginTop: 28 }}>{t('guide.about')}</h3>
           {intro[0] && <p className={g.introLead} data-selectable>{intro[0]}</p>}
           {intro.length > 1 && (
             <>
               <Collapse open={more}>
                 <p className={g.introMore} data-selectable>{intro.slice(1).join('\n\n')}</p>
               </Collapse>
-              <button type="button" className={g.readMore} aria-expanded={more} onClick={() => setMore((v) => !v)}>
+              <button type="button" className={g.showAll} aria-expanded={more} onClick={() => setMore((v) => !v)}>
                 {more ? t('guide.showLess') : t('guide.readMore')}
+                <Icon name={more ? 'caret-up' : 'caret-down'} weight="bold" size={13} />
               </button>
             </>
           )}
           {content.sensitivity && (
             <div className={g.note}>
-              <Icon name="heart" weight="fill" size={20} />
+              <Icon name="heart" weight="regular" size={20} />
               <div>
                 <b>{t('guide.framing')}</b>
                 {content.sensitivity.note}
@@ -251,41 +281,39 @@ export default function Guide({ entry }: { entry: Extract<StackEntry, { name: 'g
               </div>
             </div>
           )}
-          {g_.figures.length > 0 && (
-            <>
-              <h3 className={g.sectionHead} style={{ marginTop: 28 }}>{t('guide.figures')}<small>{g_.figures.length}</small></h3>
-              <div className={`hscroll ${g.figures}`} style={{ display: 'flex', gap: 12 }}>
-                {g_.figures.map((f) => (
-                  <article key={f.name} className={g.figure}>
-                    <div className={g.figureTop}>
-                      <span className={g.figureAv} aria-hidden>{initials(f.name)}</span>
-                      <div style={{ minWidth: 0 }}>
-                        <div className={g.figureName}>{f.name}</div>
-                        {f.dates && <div className={g.figureDates}>{f.dates}</div>}
-                      </div>
-                    </div>
-                    <p className={g.figureBio} style={{ margin: 0 }} data-selectable>{f.bio}</p>
-                    {f.unverified && <span className={g.tag} style={{ color: 'var(--label-tertiary)' }}>{t('guide.unverified')}</span>}
-                  </article>
-                ))}
-              </div>
-            </>
-          )}
         </>
       )
     }
-    if (tab === 'facts') {
-      const facts = g_.facts
+    if (k === 'people') {
+      return (
+        <div className={`hscroll ${g.figures}`} style={{ display: 'flex', gap: 12 }}>
+          {g_.figures.map((f) => (
+            <article key={f.name} className={g.figure}>
+              <div className={g.figureTop}>
+                <span className={g.figureAv} aria-hidden>{initials(f.name)}</span>
+                <div style={{ minWidth: 0 }}>
+                  <div className={g.figureName}>{f.name}</div>
+                  {f.dates && <div className={g.figureDates}>{f.dates}</div>}
+                </div>
+              </div>
+              <p className={g.figureBio} style={{ margin: 0 }} data-selectable>{f.bio}</p>
+              {f.unverified && <span className={g.tag} style={{ color: 'var(--label-tertiary)' }}>{t('guide.unverified')}</span>}
+            </article>
+          ))}
+        </div>
+      )
+    }
+    if (k === 'facts') {
       return (
         <>
-          {facts.length > 0 && look && (
+          {g_.facts.length > 0 && look && (
             <Deck
               label={t('guide.didYouKnow')}
               index={fact}
               onIndex={setFact}
-              slides={facts.map((f, i) => (
+              slides={g_.facts.map((f, i) => (
                 <article key={i} className={g.factCard}>
-                  <span className={g.factN}>{t('guide.didYouKnow')} · {t('guide.nOf', { n: i + 1, total: facts.length })}</span>
+                  <span className={g.factN}>{t('guide.didYouKnow')} · {t('guide.nOf', { n: i + 1, total: g_.facts.length })}</span>
                   <p className={g.factText} style={{ margin: 0 }} data-selectable>{f.text}</p>
                   <span className={g.phOrn}><OrnamentIcon name={look.ornament} size={22} /></span>
                   {f.unverified && <span className={g.tag} style={{ color: 'inherit', opacity: 0.7 }}>{t('guide.unverified')}</span>}
@@ -293,87 +321,39 @@ export default function Guide({ entry }: { entry: Extract<StackEntry, { name: 'g
               ))}
             />
           )}
-          {g_.sources.length > 0 && (
-            <>
-              <h3 className={g.sectionHead} style={{ marginTop: 26 }}>{t('guide.sources')}<small>{g_.sources.length}</small></h3>
-              <div className={g.stack}>
-                {g_.sources.map((r, i) => {
-                  const link = r.link && /^https?:\/\//i.test(r.link) ? r.link : undefined
-                  return (
-                    <div key={i} className={g.fold}>
-                      <div className={g.foldBtn}>
-                        <span className={g.foldHead}>
-                          <span className={g.foldText}>
-                            <span className={g.foldTitle}>{r.title}</span>
-                            <span className={g.foldSub}>{[r.creator, r.publisher, r.year].filter(Boolean).join(', ')}</span>
-                            {link && (
-                              <button type="button" className={g.linkBtn} onClick={() => openExternal(link)}>
-                                <Icon name="arrow-up-right" weight="bold" size={16} />
-                                {t('guide.openLink')}
-                              </button>
-                            )}
-                          </span>
-                        </span>
-                      </div>
-                    </div>
-                  )
-                })}
+          {g_.sources.length > 0 &&
+            (
+              <div className={g.block}>
+                <h3 className={g.blockHead}>
+                  {t('guide.sources')}
+                  <small>{g_.sources.length}</small>
+                </h3>
+                <ol className={g.refs}>
+                  {g_.sources.map((r, i) => {
+                    const meta = [r.creator, r.publisher, r.year].filter(Boolean).join(', ')
+                    const url = r.link && /^https?:\/\//i.test(r.link) ? r.link : undefined
+                    return (
+                      <li key={i}>
+                        {url ? (
+                          <button type="button" className={g.refLink} onClick={() => openExternal(url)}>
+                            {r.title}
+                            <Icon name="arrow-up-right" weight="bold" size={12} />
+                          </button>
+                        ) : (
+                          <span className={g.refTitle}>{r.title}</span>
+                        )}
+                        {meta && <span className={g.refMeta}>{meta}</span>}
+                      </li>
+                    )
+                  })}
+                </ol>
               </div>
-            </>
-          )}
-          {facts.length === 0 && g_.sources.length === 0 && <div className={s.empty} style={{ padding: '32px 20px' }}><div className={s.sub}>{t('guide.empty')}</div></div>}
+            )}
         </>
       )
     }
-    if (groups.length === 0) return <div className={s.empty} style={{ padding: '32px 20px' }}><div className={s.sub}>{t('guide.empty')}</div></div>
-    return (
-      <>
-        {foldable.length > 1 && (
-          <div className={g.toolbar}>
-            <span className={s.sub}>{t('guide.count', { count: rows.length })}</span>
-            <button type="button" className={g.toggleAll} onClick={() => setAll(!allOpen)}>
-              {allOpen ? t('guide.collapseAll') : t('guide.expandAll')}
-            </button>
-          </div>
-        )}
-        {groups.map((grp, gi) => {
-          const closed = !!grp.title && isShut(grp, gi)
-          const head = grp.kind ? (
-            <>
-              <KindArt kind={grp.kind} />
-              <h3>{grp.title}</h3>
-            </>
-          ) : (
-            <h3>{grp.title}</h3>
-          )
-          return (
-            <section key={grp.key} ref={(el) => { if (el) anchors.current.set(`${tab}:${grp.key}`, el); else anchors.current.delete(`${tab}:${grp.key}`) }} className={g.group}>
-              {grp.title && (
-                <button type="button" className={grp.kind ? `${g.groupHead} ${g.groupKind}` : g.groupHead} aria-expanded={!closed} onClick={() => setShut((x) => ({ ...x, [`${tab}:${grp.key}`]: !closed }))}>
-                  {head}
-                  <small>{grp.rows.length}</small>
-                  <span className={closed ? g.caret : `${g.caret} ${g.caretOpen}`} aria-hidden>
-                    <Icon name="caret-down" weight="bold" size={16} color="var(--label-tertiary)" />
-                  </span>
-                </button>
-              )}
-              <Collapse open={!closed}>
-                <div style={{ paddingBottom: 4 }}>
-                  {tab === 'history' ? (
-                    <div className={g.timeline}>{grp.rows.map((r) => renderRow(r, 'timeline'))}</div>
-                  ) : (
-                    <div className={g.stack}>{grp.rows.map((r) => renderRow(r, tab === 'language' && grp.key === 'words' ? 'word' : 'card'))}</div>
-                  )}
-                </div>
-              </Collapse>
-            </section>
-          )
-        })}
-      </>
-    )
+    return (groupsOf[k] ?? []).map((grp) => groupBlock(k, grp, k === 'history' ? 'timeline' : k === 'language' && grp.key === 'words' ? 'word' : 'card'))
   }
-
-  const jumpable = tab !== 'overview' && tab !== 'facts' && groups.filter((x) => x.title).length > 1
 
   return (
     <Screen
@@ -383,46 +363,57 @@ export default function Guide({ entry }: { entry: Extract<StackEntry, { name: 'g
         <>
           <span className={g.topMask} aria-hidden />
           <BackButton />
-          <ChromeTitle>{index?.name ?? ''}</ChromeTitle>
+          <ChromeTitle after={260}>{index?.name ?? ''}</ChromeTitle>
           <ChromeSpacer />
         </>
       }
     >
       <div className={g.pageTop}>
-        {look && index && <Cover look={look} size="hero" level={2} title={index.name} kicker={index.origin} sub={content?.guide.era || undefined} />}
+        {look && index && <Cover look={look} size="hero" level={1} title={index.name} kicker={index.origin} />}
+        {index?.line && <p className={g.essence} data-selectable>{index.line}</p>}
       </div>
-      {tab !== 'overview' && (
       <div className={g.sticky}>
-        <div ref={tabsRef} className={`hscroll ${g.tabs}`} role="tablist">
-          {TABS.map((k) => (
-            <button key={k} type="button" role="tab" data-tab={k} aria-selected={tab === k} className={tab === k ? `${g.tab} ${g.tabOn}` : g.tab} onClick={() => pick(k)}>
-              {t(`guide.tabs.${k}`)}
+        <div ref={bar} className={`hscroll ${g.tabs}`} role="tablist" aria-label={t('guide.chapters')}>
+          {present.map((k) => (
+            <button key={k} type="button" role="tab" data-sec={k} aria-selected={at === k} className={at === k ? `${g.tab} ${g.tabOn}` : g.tab} onClick={() => go(k)}>
+              {label(k)}
             </button>
           ))}
         </div>
-        {jumpable && (
-          <div className={`hscroll ${g.jumpRow}`} role="group" aria-label={t('guide.jumpTo')}>
-            {groups.filter((x) => x.title).map((grp) => (
-              <button key={grp.key} type="button" className={g.jumpChip} onClick={() => jump(grp)}>
-                {grp.title}
-                <small>{grp.rows.length}</small>
+      </div>
+      {!content || !g_ ? (
+        <div className={s.empty} style={{ padding: '32px 20px' }}><div className={s.sub}>{t('onda.loading')}</div></div>
+      ) : (
+        present.map((k, i) => (
+          <section
+            key={k}
+            data-sec={k}
+            aria-label={label(k)}
+            className={g.chapterSec}
+            ref={(el) => {
+              if (el) secs.current.set(k, el)
+              else secs.current.delete(k)
+            }}
+          >
+            <div className={g.chapterNo} aria-hidden>{t('guide.chapterN', { n: look ? look.numeral(i + 1) : i + 1 })}</div>
+            <h2 className={g.chapterTitle}>
+              <button type="button" className={g.chapterBtn} aria-expanded={!shut[k]} onClick={() => setShut((x) => ({ ...x, [k]: !x[k] }))}>
+                {label(k)}
+                <span className={shut[k] ? `${g.chapterCaret} ${g.chapterShut}` : g.chapterCaret} aria-hidden>
+                  <Icon name="caret-down" weight="bold" size={16} />
+                </span>
               </button>
-            ))}
-          </div>
-        )}
-      </div>
+            </h2>
+            {!shut[k] && (
+              <>
+                {leadOf(k) && <p className={g.lead}>{leadOf(k)}</p>}
+                {sectionBody(k)}
+              </>
+            )}
+          </section>
+        ))
       )}
-      <div className={g.panel} key={tab} role="tabpanel" style={{ paddingBottom: 'calc(40px + max(var(--sab), 16px))' }}>
-        {tab === 'overview' ? (
-          lead && <p className={g.essence} data-selectable>{lead}</p>
-        ) : (
-          <>
-            <h2 className={g.chapterTitle}>{t(`guide.tabs.${tab}`)}</h2>
-            <div className={g.lead} style={{ margin: '4px 4px 18px' }}>{lead}</div>
-          </>
-        )}
-        {body()}
-      </div>
+      <div style={{ height: 'calc(48px + max(var(--sab), 16px))' }} />
     </Screen>
   )
 }

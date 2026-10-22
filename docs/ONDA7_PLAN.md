@@ -25,6 +25,13 @@ Design only. Content (guides, practices, philosophy text) stays as it is.
 - [ ] Merge the theme work, check every Onda's cover in light and dark
 - [ ] Unit tests, build, screenshots, then commit and push to GitHub as Onda 7.0
 
+## Second pass (iOS inspired)
+- [x] All Ondas as a bookshop: search, filter chips (All, Religions, Philosophies, States, Cultures, Yours), a Featured row of large covers (the running Onda first, then four that change each day), one sideways shelf per group with See All, a chip or See All shows that group as a grid
+- [x] Philosophy: iOS large title that hands over to the inline title on scroll, today's idea as a large themed card with "Try this today", then an iOS segmented control (Think about / Ethics) over an inset grouped index: numeral, title, one line peek, opens in place with its practice
+- [x] Full guide as one long read: cover, essence, a floating glass chapter bar that jumps to each chapter and follows the reading position, chapters with an iOS header (Chapter II kicker in the Onda's numerals, bold title, one line lead), inset grouped lists with Show All as the last row (first 4 rows, history 6), People as contact-style cards, history as a timeline, facts as swipeable cards
+- [x] Full guide, Wikipedia app touches: the essence as a serif lede over a hairline, an infobox (origin, era, key figures) with the Onda's name as its header, chapter headings in a serif over a hairline that fold on tap, sources as numbered references with links
+- [x] `LargeTitle` and `ChromeTitle after={px}` in `app/src/nav/Screen.tsx` for iOS large titles on any page
+
 ## Not in scope
 - Rewriting content
 - The full end-to-end suite (more than 10 minutes); targeted checks only

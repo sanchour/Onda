@@ -350,8 +350,8 @@ test.describe('Ondas', () => {
     await tap(page, 'Philosophy')
     await expect(page.getByRole('heading', { name: 'Philosophy' })).toBeVisible()
     await expect(page.getByRole('dialog')).toHaveCount(0)
-    // one idea at a time, each with something to try today, and a list to jump between them
-    await expect(page.getByRole('heading', { name: 'The dichotomy of control' })).toBeVisible()
+    // today's idea first, then every idea as an index that opens in place
+    await expect(page.getByRole('button', { name: /The dichotomy of control/ })).toBeVisible()
     await page.getByRole('checkbox').first().click()
     await expect(page.getByText('1 thing to try today')).toBeVisible()
     await tap(page, 'Back')
@@ -377,27 +377,20 @@ test.describe('Ondas', () => {
     await tap(page, 'Back')
 
     await tap(page, 'Guide')
-    // The guide opens on its contents: chapters as tiles, each opening a tab
+    // The guide is one long read; a sticky chapter bar jumps to each chapter
     const guide = page
-    await guide.getByRole('button', { name: /^History, \d+/ }).click()
     await expect(page.getByRole('dialog')).toHaveCount(0)
-    for (const t of ['Overview', 'History', 'Ideas', 'Ethics', 'Practices', 'Culture', 'Travel', 'Language', 'Facts']) await expect(guide.getByRole('tab', { name: t, exact: true })).toBeVisible()
+    for (const t of ['Overview', 'People', 'History', 'Ideas', 'Ethics', 'Practices', 'Culture', 'Travel', 'Language', 'Facts']) await expect(guide.getByRole('tab', { name: t, exact: true })).toBeVisible()
     await guide.getByRole('tab', { name: 'History', exact: true }).click()
     await guide.getByRole('button', { name: /c\. 300 BCE/ }).click()
     await expect(guide.getByText(/The school took its name from the porch/)).toBeVisible()
     await guide.getByRole('tab', { name: 'Language', exact: true }).click()
-    await expect(guide.getByText('Prohairesis')).toBeVisible()
-    // Long tabs are split into sections you can jump between
-    // Ethics has its own tab; practices, rules and customs share another; Travel lists festivals and places
+    await expect(guide.getByText('Prohairesis').first()).toBeVisible()
     await guide.getByRole('tab', { name: 'Ethics', exact: true }).click()
-    await expect(guide.getByText('Virtue is the only good')).toBeVisible()
+    await expect(guide.getByText('Virtue is the only good').first()).toBeVisible()
     await guide.getByRole('tab', { name: 'Travel', exact: true }).click()
-    await expect(guide.getByRole('button', { name: /^Festivals and calendar/ }).first()).toBeVisible()
-    await expect(guide.getByText('The Painted Porch')).toBeVisible()
-    await guide.getByRole('tab', { name: 'Practices', exact: true }).click()
-    await expect(guide.getByRole('group', { name: 'Jump to' })).toBeVisible()
-    await guide.getByRole('group', { name: 'Jump to' }).getByRole('button', { name: /^Rules/ }).click()
-    await expect(guide.getByRole('button', { name: /^Rules/, expanded: true }).first()).toBeVisible()
+    await expect(guide.getByText(/^Festivals and calendar/).first()).toBeVisible()
+    await expect(guide.getByText('The Painted Porch', { exact: true }).first()).toBeVisible()
     await tap(page, 'Back')
 
     await tap(page, 'Immerse')

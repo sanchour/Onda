@@ -465,3 +465,39 @@ button.softCard{width:100%;text-align:start;display:block}
 .lib[data-layout='words'] .libStamp{top:auto;bottom:4px;right:4px}
 .lib[data-layout='read'] .libStamp{right:-2px}
 .lib[data-layout='read'] .libBy{padding-left:2px}
+
+/* ── Onda 7: philosophy, today and the index ── */
+.phToday{position:relative;display:flex;flex-direction:column;align-items:flex-start;gap:10px;margin-top:6px;padding:22px 22px 18px;border-radius:28px;overflow:hidden;
+  background:var(--onda-material,var(--surface-card));color:var(--onda-cover-ink,var(--label));box-shadow:inset 0 0 0 .5px rgba(255,255,255,.14),0 18px 34px -24px var(--onda-cover-edge,rgba(0,0,0,.45))}
+.phToday::after{content:"";position:absolute;inset:0;pointer-events:none;background:radial-gradient(110% 70% at 0% 0%,rgba(255,255,255,.12),transparent 60%)}
+.phKicker{font:600 var(--fs-11)/1.3 var(--font-sans);letter-spacing:.08em;text-transform:uppercase;opacity:.8}
+.phTodayTitle{margin:4px 0 0;font:500 var(--fs-28)/1.15 var(--onda-font,var(--font-serif));letter-spacing:var(--onda-track,-0.005em);text-transform:var(--onda-case,none);text-wrap:balance}
+.phTodayText{margin:0;font:400 var(--fs-17)/1.5 var(--font-sans);opacity:.92;text-wrap:pretty}
+.phToday .phTry{margin-top:8px}
+.phTryPlain{background:color-mix(in srgb,var(--onda-accent,var(--accent)) 8%,var(--surface-card));box-shadow:none;color:var(--label)}
+.phTryPlain .phTryBox{color:var(--onda-accent,var(--accent))}
+.phTryPlain.phTryOn{background:color-mix(in srgb,var(--onda-accent,var(--accent)) 16%,var(--surface-card))}
+.phTryPlain.phTryOn .phTryBox{background:var(--onda-deep,var(--accent));border-color:var(--onda-deep,var(--accent));color:var(--onda-on,#fff)}
+.phPickedBar{display:flex;align-items:center;gap:8px;margin:14px 4px 0;font:500 var(--fs-15)/1.3 var(--font-sans);color:var(--onda-accent,var(--accent))}
+.phSec{display:flex;align-items:baseline;gap:8px;margin:28px 4px 8px;font:600 var(--fs-13)/1.3 var(--font-sans);letter-spacing:.04em;text-transform:uppercase;color:var(--label-secondary)}
+.phSec small{font:inherit;color:var(--label-tertiary)}
+.phIndex{background:var(--surface-card);border-radius:24px;overflow:hidden;margin-bottom:8px}
+.phItem{position:relative;transition:background var(--duration-standard)}
+.phItem + .phItem::before{content:"";position:absolute;top:0;left:50px;right:0;height:.5px;background:var(--separator)}
+.phItemOpen{background:color-mix(in srgb,var(--onda-accent,var(--accent)) 4%,transparent)}
+.phItemHead{display:flex;align-items:flex-start;gap:12px;width:100%;padding:14px 16px;text-align:start;color:var(--label)}
+.phItemHead:active{background:var(--surface-fill)}
+.phItemHead .phRowN{padding-top:1px}
+.phItemText{flex:1;min-width:0;display:flex;flex-direction:column;gap:3px}
+.phItemTitle{font:600 var(--fs-17)/1.3 var(--font-sans);text-wrap:pretty}
+.phItemPeek{font:400 var(--fs-15)/1.35 var(--font-sans);color:var(--label-secondary);display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden}
+.phItemDone{flex:none;display:flex;padding-top:4px;color:var(--onda-accent,var(--accent))}
+.phCaret{flex:none;display:flex;padding-top:5px;color:var(--label-tertiary);transition:transform var(--duration-standard) var(--ease-enter)}
+.phCaretOpen{transform:rotate(180deg)}
+.phItemBody{padding:0 16px 16px 50px}
+.phItemBody p{margin:0 0 12px;font:400 var(--fs-17)/1.55 var(--font-sans);text-wrap:pretty}
+.phItemHead .phRowN{flex:none;min-width:34px}
+.phItem + .phItem::before{left:62px}
+.phItemBody{padding-left:62px}
+.phSeg{margin:22px 0 12px}
+.phWrap > .phToday:first-child{margin-top:14px}

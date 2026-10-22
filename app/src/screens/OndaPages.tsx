@@ -3,9 +3,8 @@ import { useTranslation } from 'react-i18next'
 import { useSettings } from '@/data/hooks'
 import { useStore } from '@/data/store'
 import { haptic } from '@/lib/haptics'
-import { BackButton, ChromeSpacer, ChromeTitle, Screen } from '@/nav/Screen'
+import { BackButton, ChromeSpacer, ChromeTitle, LargeTitle, Screen } from '@/nav/Screen'
 import { useNav } from '@/nav/store'
-import { Deck } from '@/sheets/guideParts'
 import g from '@/sheets/guide.module.css'
 import { Button, GlassButton } from '@/ui/buttons'
 import { SegmentedControl } from '@/ui/controls'
@@ -16,7 +15,7 @@ import o from './ondas.module.css'
 import s from './screens.module.css'
 
 /** Shared frame for the three full-screen pages that used to be sheets: back button, title, Onda look. */
-function OndaPage({ title, trailing, children }: { title: string; trailing?: React.ReactNode; children: React.ReactNode }) {
+function OndaPage({ title, large, trailing, children }: { title: string; large?: { sub?: string }; trailing?: React.ReactNode; children: React.ReactNode }) {
   const active = useActiveOnda()
   const themed = useSettings().ondaThemes
   return (
@@ -28,11 +27,12 @@ function OndaPage({ title, trailing, children }: { title: string; trailing?: Rea
         <>
           <span className={g.topMask} aria-hidden />
           <BackButton />
-          <ChromeTitle>{title}</ChromeTitle>
+          <ChromeTitle after={large ? 44 : undefined}>{title}</ChromeTitle>
           {trailing ?? <ChromeSpacer />}
         </>
       }
     >
+      {large && <LargeTitle title={title} sub={large.sub} />}
       {children}
     </Screen>
   )
@@ -79,92 +79,99 @@ export function JournalPage() {
   )
 }
 
-/* ── Philosophy: one idea at a time. A deck of cards to swipe through, each with one thing to try today,
-   then every idea as a short list to jump to. Think about and Ethics are two decks. ── */
+/* ── Philosophy: today's idea first, large, with one thing to try. Then every idea and every ethical teaching as a calm index:
+   a numeral, the title and a first line; a tap opens it in place to read in full and pick up its practice. ── */
 export function PhilosophyPage() {
   const { t } = useTranslation()
   const active = useActiveOnda()
   const c = active?.content
   const look = active?.look
-  const sets = { ideas: c?.philosophy ?? [], ethics: c?.ethics ?? [] }
-  const available = (['ideas', 'ethics'] as const).filter((k) => sets[k].length > 0)
-  const [chosen, setPart] = useState<'ideas' | 'ethics'>('ideas')
-  const part = available.includes(chosen) ? chosen : (available[0] ?? 'ideas')
-  const [at, setAt] = useState<Record<string, number>>({})
+  const day = active?.day ?? 1
+  const ideas = c?.philosophy ?? []
+  const ethics = c?.ethics ?? []
+  const [open, setOpen] = useState<string | null>(null)
+  const [tab, setTab] = useState<'ideas' | 'ethics'>('ideas')
   const [picked, setPicked] = useState<Record<string, boolean>>({})
-  const shown = sets[part]
-  const i = Math.min(at[part] ?? 0, Math.max(0, shown.length - 1))
-  const go = (n: number) => setAt((v) => ({ ...v, [part]: n }))
   const pickedCount = Object.values(picked).filter(Boolean).length
   const num = (n: number) => (look ? look.numeral(n) : String(n))
+  const ti = ideas.length ? (day - 1) % ideas.length : -1
+  const today = ti >= 0 ? ideas[ti] : undefined
+  const tryIt = (k: string, practice: string, onCover?: boolean) => (
+    <button
+      type="button"
+      role="checkbox"
+      aria-checked={!!picked[k]}
+      className={[o.phTry, onCover ? '' : o.phTryPlain, picked[k] ? o.phTryOn : ''].filter(Boolean).join(' ')}
+      onClick={() => {
+        haptic(picked[k] ? 'select' : 'success')
+        setPicked((v) => ({ ...v, [k]: !v[k] }))
+      }}
+    >
+      <span className={o.phTryBox} aria-hidden>{picked[k] && <Icon name="check" weight="bold" size={14} />}</span>
+      <span className={o.phTryText}>
+        <b>{picked[k] ? t('philosophy.onList') : t('philosophy.tryThis')}</b>
+        {practice}
+      </span>
+    </button>
+  )
+  const sections = [
+    { key: 'ideas' as const, label: t('philosophy.think'), short: t('philosophy.think'), set: ideas },
+    { key: 'ethics' as const, label: t('philosophy.ethics'), short: t('philosophy.ethicsTab'), set: ethics },
+  ].filter((x) => x.set.length > 0)
+  const shown = sections.length > 1 ? sections.filter((x) => x.key === tab) : sections
 
   return (
-    <OndaPage title={t('philosophy.title')}>
+    <OndaPage title={t('philosophy.title')} large={{ sub: t('philosophy.lead') }}>
       <div className={o.phWrap}>
-        <p className={o.phLead}>{t('philosophy.lead')}</p>
-        {available.length > 1 && (
-          <SegmentedControl<'ideas' | 'ethics'>
-            options={[{ value: 'ideas', label: t('philosophy.think') }, { value: 'ethics', label: t('philosophy.ethicsTab') }]}
-            value={part}
-            onChange={setPart}
-            fullWidth
-            ariaLabel={t('philosophy.title')}
-          />
+        {today && (
+          <article className={o.phToday}>
+            <span className={o.phKicker}>{t('philosophy.todayIdea', { day })}</span>
+            <h2 className={o.phTodayTitle}>{today.title}</h2>
+            <p className={o.phTodayText} data-selectable>{today.text}</p>
+            {today.practice && tryIt(`ideas:${ti}`, today.practice, true)}
+          </article>
         )}
-      </div>
-      {shown.length > 0 && (
-        <div className={o.phWrap}>
-        <Deck
-          key={part}
-          label={part === 'ideas' ? t('philosophy.think') : t('philosophy.ethics')}
-          index={i}
-          onIndex={go}
-          slides={shown.map((x, n) => {
-            const k = `${part}:${n}`
-            return (
-              <article key={k} className={o.phCard}>
-                <span className={o.phNum} aria-hidden>{num(n + 1)}</span>
-                <span className={o.phOf}>{t('guide.nOf', { n: n + 1, total: shown.length })}</span>
-                <h2 className={o.phTitle}>{x.title}</h2>
-                <p className={o.phText} data-selectable>{x.text}</p>
-                {x.practice && (
-                  <button
-                    type="button"
-                    role="checkbox"
-                    aria-checked={!!picked[k]}
-                    className={picked[k] ? `${o.phTry} ${o.phTryOn}` : o.phTry}
-                    onClick={() => {
-                      haptic(picked[k] ? 'select' : 'success')
-                      setPicked((v) => ({ ...v, [k]: !v[k] }))
-                    }}
-                  >
-                    <span className={o.phTryBox} aria-hidden>{picked[k] && <Icon name="check" weight="bold" size={14} />}</span>
-                    <span className={o.phTryText}>
-                      <b>{picked[k] ? t('philosophy.onList') : t('philosophy.tryThis')}</b>
-                      {x.practice}
-                    </span>
-                  </button>
-                )}
-              </article>
-            )
-          })}
-        />
-        </div>
-      )}
-      <div className={o.phWrap}>
-        <div className={o.phCount}>
-          <span>{t('philosophy.count', { count: shown.length })}</span>
-          {pickedCount > 0 && <span className={o.phPicked}>{t('philosophy.pickedCount', { count: pickedCount })}</span>}
-        </div>
-        <div className={o.phList}>
-          {shown.map((x, n) => (
-            <button key={x.title} type="button" className={n === i ? `${o.phRow} ${o.phRowOn}` : o.phRow} aria-current={n === i || undefined} onClick={() => go(n)}>
-              <span className={o.phRowN} aria-hidden>{num(n + 1)}</span>
-              <span className={o.phRowTitle}>{x.title}</span>
-              {picked[`${part}:${n}`] && <Icon name="check" weight="bold" size={15} />}
-            </button>
-          ))}
-        </div>
+        {pickedCount > 0 && <div className={o.phPickedBar}><Icon name="check-circle" weight="regular" size={18} />{t('philosophy.pickedCount', { count: pickedCount })}</div>}
+        {sections.length > 1 && (
+          <div className={o.phSeg}>
+            <SegmentedControl options={sections.map((x) => ({ value: x.key, label: `${x.short} ${x.set.length}` }))} value={tab} onChange={(v) => { setTab(v); setOpen(null) }} fullWidth ariaLabel={t('philosophy.title')} />
+          </div>
+        )}
+        {shown.map((sec) => (
+          <section key={sec.key} aria-label={sec.label}>
+            {sections.length < 2 && (
+              <h3 className={o.phSec}>
+                {sec.label}
+                <small>{sec.set.length}</small>
+              </h3>
+            )}
+            <div className={o.phIndex}>
+              {sec.set.map((x, n) => {
+                const k = `${sec.key}:${n}`
+                const isOpen = open === k
+                return (
+                  <div key={k} className={isOpen ? `${o.phItem} ${o.phItemOpen}` : o.phItem}>
+                    <button type="button" className={o.phItemHead} aria-expanded={isOpen} onClick={() => setOpen(isOpen ? null : k)}>
+                      <span className={o.phRowN} aria-hidden>{num(n + 1)}</span>
+                      <span className={o.phItemText}>
+                        <span className={o.phItemTitle}>{x.title}</span>
+                        {!isOpen && <span className={o.phItemPeek}>{x.text}</span>}
+                      </span>
+                      {picked[k] && <span className={o.phItemDone} aria-label={t('philosophy.onList')}><Icon name="check" weight="bold" size={14} /></span>}
+                      <span className={isOpen ? `${o.phCaret} ${o.phCaretOpen}` : o.phCaret} aria-hidden><Icon name="caret-down" weight="bold" size={14} /></span>
+                    </button>
+                    {isOpen && (
+                      <div className={o.phItemBody}>
+                        <p data-selectable>{x.text}</p>
+                        {x.practice && tryIt(k, x.practice)}
+                      </div>
+                    )}
+                  </div>
+                )
+              })}
+            </div>
+          </section>
+        ))}
       </div>
     </OndaPage>
   )

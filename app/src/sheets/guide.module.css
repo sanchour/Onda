@@ -238,3 +238,60 @@ button.foldBtn:active{opacity:.75}
 .chapterTeaser{font:400 var(--fs-13)/1.3 var(--font-sans);color:var(--label-secondary);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .chapterTitle{margin:18px 4px 0;font:500 var(--fs-30)/1.12 var(--onda-font,var(--font-serif));letter-spacing:var(--onda-track,-0.01em);text-transform:var(--onda-case,none)}
 .sticky{padding-top:8px}
+
+/* ── Onda 7: the guide as one long read ── */
+.chapterSec{padding:0 16px;margin-top:40px;scroll-margin-top:calc(var(--chrome-top) + 128px)}
+.chapterSec:first-of-type{margin-top:22px}
+.chapterNo{margin:0 4px;font:500 var(--fs-15)/1 var(--onda-font,var(--font-serif));color:var(--onda-accent,var(--accent))}
+.chapterSec .chapterTitle{margin:6px 4px 0;font-size:var(--fs-30)}
+.chapterSec .lead{margin:4px 4px 16px}
+.chapterSec > .glance{margin-top:14px}
+.block{margin-top:14px}
+.block + .block{margin-top:22px}
+.blockHead{display:flex;align-items:baseline;gap:8px;margin:0 4px 8px;padding:0 12px;font:600 var(--fs-13)/1.3 var(--font-sans);letter-spacing:.04em;text-transform:uppercase;color:var(--label-secondary)}
+.blockHead small{font:inherit;color:var(--label-tertiary)}
+.showAll{display:inline-flex;align-items:center;gap:6px;min-height:44px;margin:4px 4px 0;padding:0 12px;font:500 var(--fs-15) var(--font-sans);color:var(--onda-accent,var(--accent))}
+.showAll:active{opacity:.6}
+.introLead{margin-top:18px}
+.essence{margin:20px 12px 0}
+.tabs{padding:6px 16px 8px}
+
+/* ── Onda 7: iOS pass ── */
+.essence{margin:20px 12px 0;font:600 var(--fs-20)/1.35 var(--font-sans);letter-spacing:-0.01em;text-transform:none;font-variant:normal;color:var(--label)}
+.chapterNo{margin:0 4px;font:600 var(--fs-13)/1.3 var(--font-sans);letter-spacing:.06em;text-transform:uppercase;color:var(--onda-accent,var(--accent))}
+.chapterSec .chapterTitle{margin:4px 4px 0;font:700 var(--fs-28)/1.2 var(--font-sans);letter-spacing:-0.012em;text-transform:none}
+.chapterSec .lead{margin:2px 4px 14px;font-size:var(--fs-15)}
+.sticky{background:transparent;padding:8px 16px 10px}
+.sticky::after{display:none}
+.sticky .tabs{gap:2px;padding:4px;border-radius:999px;background:var(--glass-fill-menu);border:var(--glass-border);-webkit-backdrop-filter:var(--glass-blur);backdrop-filter:var(--glass-blur);box-shadow:var(--glass-highlight),0 10px 24px -14px rgba(0,0,0,.3)}
+.sticky .tab{height:34px;padding:0 14px;border-radius:999px;color:var(--label);font:500 var(--fs-15) var(--font-sans)}
+.sticky .tabOn{background:color-mix(in srgb,var(--onda-accent,var(--accent)) 16%,transparent);color:var(--onda-accent,var(--accent));font-weight:600}
+.showRow{position:relative;display:flex;align-items:center;justify-content:space-between;width:100%;min-height:50px;padding:0 18px 0 16px;text-align:start;font:400 var(--fs-17) var(--font-sans);color:var(--onda-accent,var(--accent))}
+.showRow:active{background:var(--surface-fill)}
+.timeline > .showRow{padding-left:62px}
+.timeline > .showRow::before{content:"";position:absolute;top:0;left:62px;right:0;height:.5px;background:var(--separator)}
+.timeline:has(> .showRow)::before{bottom:76px}
+.figureAv{background:linear-gradient(180deg,color-mix(in srgb,var(--onda-accent,var(--accent)) 70%,#fff),var(--onda-accent,var(--accent)));box-shadow:none;color:#fff;font:600 var(--fs-17) var(--font-sans);letter-spacing:.02em}
+.sticky{background:linear-gradient(to bottom,var(--surface-grouped) 72%,color-mix(in srgb,var(--surface-grouped) 0%,transparent))}
+.sticky .tabs{background:color-mix(in srgb,var(--surface-card) 86%,transparent)}
+.pageTop .essence{margin:20px 20px 0}
+.pageTop + .sticky{margin-top:10px}
+
+/* ── Onda 7: Wikipedia touches: serif headings over a hairline that fold, an infobox, numbered references ── */
+.pageTop .essence{font:400 var(--fs-20)/1.4 var(--font-serif);letter-spacing:0;padding-bottom:16px;border-bottom:.5px solid var(--separator)}
+.chapterSec .chapterTitle{margin:4px 4px 0;padding-bottom:8px;border-bottom:.5px solid var(--separator);font:500 var(--fs-28)/1.2 var(--font-serif);letter-spacing:0}
+.chapterBtn{display:flex;align-items:center;justify-content:space-between;gap:12px;width:100%;min-height:44px;font:inherit;color:inherit;text-align:start}
+.chapterBtn:active{opacity:.6}
+.chapterCaret{flex:none;display:flex;color:var(--label-tertiary);transition:transform var(--duration-standard) var(--ease-enter)}
+.chapterShut{transform:rotate(-90deg)}
+.chapterSec .lead{margin:10px 4px 14px}
+.infobox{overflow:hidden;border:.5px solid var(--separator)}
+.infoHead{padding:12px 16px;text-align:center;font:600 var(--fs-17)/1.3 var(--font-serif);background:color-mix(in srgb,var(--onda-accent,var(--accent)) 12%,var(--surface-card));color:var(--label)}
+.refs{margin:0;padding:10px 16px 10px 40px;background:var(--surface-card);border-radius:24px;font:400 var(--fs-15)/1.45 var(--font-sans);color:var(--label)}
+.refs li{padding:7px 0}
+.refs li + li{border-top:.5px solid var(--separator)}
+.refs li::marker{color:var(--onda-accent,var(--accent));font-weight:600;font-size:var(--fs-13)}
+.refLink{display:inline;text-align:start;font:inherit;color:var(--onda-accent,var(--accent))}
+.refLink svg{display:inline;vertical-align:middle;margin-left:3px}
+.refTitle{font-weight:500}
+.refMeta{display:block;margin-top:2px;font-size:var(--fs-13);color:var(--label-secondary)}

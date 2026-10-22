@@ -78,7 +78,7 @@ export const en = {
     noRules: 'No rules for this Onda', noTasks: 'No tasks for this Onda',
     guideShort: 'Guide', shortcuts: 'Shortcuts', search: 'Search', clearSearch: 'Clear Search', noMatch: 'No Ondas match', openOnda: '{{name}}, open the Onda page', rulesKept: '{{done}} of {{total}} kept', quote: 'Quote',
   },
-  browse: { religion: 'Religions and spiritual traditions', philosophy: 'Philosophy, thinkers and schools of thought', state: 'Empires, states and political systems', culture: 'Cultures, eras and peoples', mine: 'Yours', soon: 'Coming soon' },
+  browse: { religion: 'Religions and spiritual traditions', philosophy: 'Philosophy, thinkers and schools of thought', state: 'Empires, states and political systems', culture: 'Cultures, eras and peoples', mine: 'Yours', soon: 'Coming soon', featured: 'Featured', seeAll: 'See All', short: { all: 'All', religion: 'Religions', philosophy: 'Philosophies', state: 'States', culture: 'Cultures', mine: 'Yours' } },
   rulesPage: { lead: 'Tap a rule when you have kept it today.' },
   onda: {
     todayTheme: 'Today: {{theme}}', quoteOfDay: 'Quote of the day', wordOfDay: 'Word of the day', guideSub: 'Context, history, ideas, culture and language',
@@ -101,12 +101,12 @@ export const en = {
     saved: 'Entry saved',
   },
   philosophy: {
-    title: 'Philosophy', lead: 'Ideas to carry through the day, and how to act on them.', think: 'Think about', ethics: 'Ethics and morality', ethicsTab: 'Ethics', tryIt: 'Try', tryThis: 'Try this today', onList: 'On your list for today', all: 'All', count_one: '{{count}} idea', count_other: '{{count}} ideas',
+    title: 'Philosophy', todayIdea: 'Day {{day}} · Today’s idea', lead: 'Ideas to carry through the day, and how to act on them.', think: 'Think about', ethics: 'Ethics and morality', ethicsTab: 'Ethics', tryIt: 'Try', tryThis: 'Try this today', onList: 'On your list for today', all: 'All', count_one: '{{count}} idea', count_other: '{{count}} ideas',
     pickedCount_one: '{{count}} thing to try today', pickedCount_other: '{{count}} things to try today',
   },
   guide: {
-    tabs: { overview: 'Overview', history: 'History', ideas: 'Ideas', ethics: 'Ethics', ways: 'Practices', culture: 'Culture', travel: 'Travel', language: 'Language', facts: 'Facts' },
-    chapters: 'Chapters', about: 'About', leadHistory: 'How it unfolded', leadIdeas: 'What it asks you to think about', leadEthics: 'What is right, what is owed, and why', leadWays: 'What to do each day, what to keep, and the customs around it', leadCulture: 'Books, films, music, art, food, drink and games', leadTravel: 'When to go and where to stand',
+    tabs: { overview: 'Overview', people: 'People', history: 'History', ideas: 'Ideas', ethics: 'Ethics', ways: 'Practices', culture: 'Culture', travel: 'Travel', language: 'Language', facts: 'Facts' },
+    chapters: 'Chapters', leadPeople: 'The people who shaped it', chapterN: 'Chapter {{n}}', keyFigures: 'Key figures', showAll: 'Show all {{count}}', showFewer: 'Show fewer', about: 'About', leadHistory: 'How it unfolded', leadIdeas: 'What it asks you to think about', leadEthics: 'What is right, what is owed, and why', leadWays: 'What to do each day, what to keep, and the customs around it', leadCulture: 'Books, films, music, art, food, drink and games', leadTravel: 'When to go and where to stand',
     leadLanguage: 'Words to carry through the days', leadFacts: 'Small things worth knowing',
     jumpTo: 'Jump to', introduction: 'Introduction', origin: 'Origin', era: 'Era', rule: 'Rule', practice: 'Practice', didYouKnow: 'Did you know', framing: 'A note on respect', learnFrom: 'Learn from', furtherReading: 'Further reading', sources: 'Sources',
     unverified: 'Not yet verified', empty: 'Nothing added yet',

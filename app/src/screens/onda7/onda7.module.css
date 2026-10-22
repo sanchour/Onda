@@ -179,3 +179,11 @@ button.row:active,a.row:active{background:var(--surface-fill)}
 .bead + .bead::before{content:"";width:14px;height:1px;border-radius:1px;background:color-mix(in srgb,var(--onda-accent,var(--accent)) 22%,transparent)}
 .beadOn{color:var(--onda-accent,var(--accent))}
 .beadOn svg{animation:pop var(--spring-snappy-ms,320ms) var(--spring-snappy)}
+
+/* ── Pointer hover (desktop and iPad with a trackpad) ──── */
+@media (hover:hover) and (pointer:fine){
+  button.row:hover{background:color-mix(in srgb,var(--onda-accent,var(--label)) 6%,transparent)}
+  .barBtn:hover{background:color-mix(in srgb,var(--onda-accent,var(--accent)) 8%,transparent)}
+  button.cover{transition:transform 380ms var(--spring-smooth),box-shadow 300ms var(--ease-enter)}
+  button.cover:hover{transform:translate3d(0,-2px,0)}
+}

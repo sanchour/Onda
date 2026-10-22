@@ -14,6 +14,7 @@ const queryClient = new QueryClient({
 // The first screen is known from the last launch, so fetch its chunk while the database opens instead of after.
 try {
   void import(localStorage.getItem('onda.ob') === '1' ? './screens/OndasTab' : './screens/Onboarding')
+  if (matchMedia('(min-width: 1100px)').matches) void import('./desk/DeskShell')
 } catch {
   /* private mode */
 }

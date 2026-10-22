@@ -1,4 +1,5 @@
-import { useMemo, useRef, useState } from 'react'
+import { Suspense, lazy, useMemo, useRef, useState } from 'react'
+import { useDesk } from '@/lib/desk'
 import { useTranslation } from 'react-i18next'
 import { KIND_ICON, mediaFor, type MediaItem } from '@/content'
 import { pickForDay, runDay } from '@/data/derive/onda'
@@ -21,7 +22,20 @@ const TODAY_KINDS = ['read', 'listen', 'watch', 'eat', 'words'] as const
 
 /** An Onda's page. The same layout serves a running Onda and the preview of one not yet begun:
  *  in preview everything is interactive but nothing is saved, run-only links are hidden, and Begin Onda sits at the bottom. */
+// The desktop's two-column Onda page (src/desk/home); phones never load it.
+const DeskOnda = lazy(() => import('@/desk/home/DeskOnda'))
+
 export default function OndaToday({ entry }: { entry: Extract<StackEntry, { name: 'onda' }> }) {
+  return useDesk() ? (
+    <Suspense fallback={null}>
+      <DeskOnda entry={entry} />
+    </Suspense>
+  ) : (
+    <PhoneOndaToday entry={entry} />
+  )
+}
+
+function PhoneOndaToday({ entry }: { entry: Extract<StackEntry, { name: 'onda' }> }) {
   const { t } = useTranslation()
   const { push, pop, openSheet, openMenu, showToast } = useNav()
   const settings = useSettings()

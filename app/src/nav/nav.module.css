@@ -58,3 +58,19 @@
 .largeHead{padding:2px 20px 4px}
 .largeText{font:700 var(--fs-34)/1.2 var(--font-sans);letter-spacing:var(--tracking-display);color:var(--label)}
 .largeSub{margin:4px 0 0;font:400 var(--fs-17)/1.4 var(--font-sans);color:var(--label-secondary);text-wrap:pretty}
+
+/* ── Desktop (src/lib/desk.ts) ───────────────────────────────
+   Screens sit on the stage. Their content keeps to a centred column, --desk-col: 880px, or per screen with the
+   Screen prop desk (read 760px, wide 1240px, full). The chrome row spans the stage like a window toolbar. */
+:global(html[data-desk]) .pane{--desk-col:880px;padding-left:max(24px,calc((100% - var(--desk-col)) / 2));padding-right:max(24px,calc((100% - var(--desk-col)) / 2));scroll-padding-top:80px}
+:global(html[data-desk]) .pane[data-desk-w="read"]{--desk-col:760px}
+:global(html[data-desk]) .pane[data-desk-w="wide"]{--desk-col:1240px}
+:global(html[data-desk]) .pane[data-desk-w="full"]{--desk-col:100%;padding-left:24px;padding-right:24px}
+:global(html[data-desk]) .padRoot{padding-top:22px;padding-bottom:64px}
+:global(html[data-desk]) .padPage{padding-top:76px;padding-bottom:56px}
+:global(html[data-desk]) .padPageCta,:global(html[data-desk]) .padHero{padding-top:80px;padding-bottom:120px}
+:global(html[data-desk]) .chrome{top:16px;left:18px;right:18px}
+:global(html[data-desk]) .bottom{left:50%;right:auto;width:min(480px,calc(100% - 48px));transform:translateX(-50%);bottom:22px}
+:global(html[data-desk]) .bottom::before{left:-50vw;right:-50vw;bottom:-22px}
+:global(html[data-desk]) .page::before{display:none}
+:global(html[data-desk]) .toast{top:18px}

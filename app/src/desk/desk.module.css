@@ -1,0 +1,131 @@
+/* Desktop shell. The window is a scene: the running Onda's colours drift behind a glass sidebar, and the screens sit on
+   a stage that floats over it. Every size here is for a pointer and a laptop screen (13 to 32 inch). */
+
+.shell{
+  --side-w:268px;
+  --gap:10px;
+  position:absolute;inset:0;display:grid;grid-template-columns:var(--side-w) minmax(0,1fr);
+  background:var(--surface-grouped);transition:grid-template-columns 320ms var(--ease-enter);
+}
+.shell[data-rail]{--side-w:76px}
+
+/* ── Ambient ─────────────────────────────────────────────── */
+.ambient{
+  --amb-a:var(--accent);--amb-b:var(--surface-page);
+  position:absolute;inset:0;overflow:hidden;pointer-events:none;z-index:0;
+  background:
+    radial-gradient(120% 90% at 0% 0%,color-mix(in srgb,var(--amb-b) 70%,transparent),transparent 60%),
+    var(--surface-grouped);
+}
+.fieldA,.fieldB,.fieldC{position:absolute;border-radius:50%;filter:blur(70px);opacity:.5;will-change:transform}
+.fieldA{width:62vmax;height:62vmax;left:-18vmax;top:-26vmax;background:radial-gradient(closest-side,color-mix(in srgb,var(--amb-a) 34%,transparent),transparent);animation:driftA 46s ease-in-out infinite alternate}
+.fieldB{width:52vmax;height:52vmax;right:-16vmax;bottom:-22vmax;background:radial-gradient(closest-side,color-mix(in srgb,var(--amb-a) 26%,transparent),transparent);animation:driftB 58s ease-in-out infinite alternate}
+.fieldC{width:40vmax;height:40vmax;left:28vw;top:38vh;background:radial-gradient(closest-side,color-mix(in srgb,var(--amb-b) 60%,transparent),transparent);opacity:.7;animation:driftC 70s ease-in-out infinite alternate}
+.ambient:not([data-on]) .fieldA,.ambient:not([data-on]) .fieldB{opacity:.26}
+:global(html[data-theme="dark"]) .fieldA,:global(html[data-theme="dark"]) .fieldB{opacity:.42}
+:global(html[data-theme="dark"]) .fieldC{opacity:.25}
+@keyframes driftA{from{transform:translate3d(0,0,0) scale(1)}to{transform:translate3d(9vmax,7vmax,0) scale(1.12)}}
+@keyframes driftB{from{transform:translate3d(0,0,0) scale(1.05)}to{transform:translate3d(-8vmax,-6vmax,0) scale(.94)}}
+@keyframes driftC{from{transform:translate3d(0,0,0)}to{transform:translate3d(-12vmax,-8vmax,0)}}
+/* the Onda's own pattern, as if pressed into the paper, strongest at the corner the light comes from */
+.pattern{position:absolute;inset:0;background:var(--amb-cover);opacity:.07;
+  -webkit-mask-image:radial-gradient(90% 80% at 0% 0%,#000,transparent 72%);mask-image:radial-gradient(90% 80% at 0% 0%,#000,transparent 72%)}
+:global(html[data-theme="dark"]) .pattern{opacity:.16}
+.grain{position:absolute;inset:-50%;opacity:.05;mix-blend-mode:multiply;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+:global(html[data-theme="dark"]) .grain{mix-blend-mode:screen;opacity:.035}
+@media (prefers-reduced-motion:reduce){.fieldA,.fieldB,.fieldC{animation:none}}
+
+/* ── Sidebar ─────────────────────────────────────────────── */
+.side{
+  position:relative;z-index:1;display:flex;flex-direction:column;gap:6px;min-width:0;overflow:hidden;
+  padding:14px 14px 14px 16px;color:var(--label);
+}
+.side[data-rail]{padding:14px 12px;align-items:center}
+.brandRow{display:flex;align-items:center;justify-content:space-between;height:40px;padding:0 0 0 6px;margin-bottom:6px}
+.side[data-rail] .brandRow{padding:0;justify-content:center}
+.brand{display:flex;align-items:center;gap:9px;font:600 var(--fs-19)/1 var(--font-serif);letter-spacing:.01em;color:var(--label)}
+.brand svg{width:28px;height:28px;color:var(--accent)}
+.iconBtn{width:34px;height:34px;border-radius:10px;display:flex;align-items:center;justify-content:center;color:var(--label-secondary);transition:background var(--duration-micro),color var(--duration-micro)}
+.iconBtn:hover{background:color-mix(in srgb,var(--label) 7%,transparent);color:var(--label)}
+
+.search{
+  display:flex;align-items:center;gap:10px;height:38px;padding:0 10px 0 12px;margin-bottom:10px;border-radius:12px;
+  color:var(--label-secondary);font:400 var(--fs-15) var(--font-sans);text-align:start;
+  background:color-mix(in srgb,var(--surface-card) 62%,transparent);border:.5px solid color-mix(in srgb,var(--label) 10%,transparent);
+  box-shadow:inset 0 1px 0 color-mix(in srgb,white 40%,transparent);transition:background var(--duration-micro),border-color var(--duration-micro);
+}
+.search:hover{background:color-mix(in srgb,var(--surface-card) 85%,transparent);border-color:color-mix(in srgb,var(--label) 16%,transparent)}
+.side[data-rail] .search{width:44px;height:44px;padding:0;justify-content:center}
+.searchText{flex:1}
+.kbd{font:500 var(--fs-12)/1 var(--font-sans);padding:4px 6px;border-radius:6px;background:color-mix(in srgb,var(--label) 7%,transparent);color:var(--label-secondary);letter-spacing:.02em}
+
+.nav{display:flex;flex-direction:column;gap:2px}
+.side[data-rail] .nav{align-items:center;gap:6px}
+.navItem{
+  position:relative;display:flex;align-items:center;gap:12px;height:38px;padding:0 12px;border-radius:11px;
+  font:500 var(--fs-15) var(--font-sans);color:var(--label-secondary);text-align:start;width:100%;
+  transition:background var(--duration-micro),color var(--duration-micro);
+}
+.navItem:hover{background:color-mix(in srgb,var(--label) 6%,transparent);color:var(--label)}
+.navItem[aria-current]{color:var(--label);background:color-mix(in srgb,var(--surface-card) 82%,transparent);box-shadow:0 1px 2px rgba(0,0,0,.05),inset 0 0 0 .5px color-mix(in srgb,var(--label) 8%,transparent)}
+.navItem[aria-current] svg{color:var(--accent)}
+.side[data-rail] .navItem{width:44px;height:44px;padding:0;justify-content:center}
+
+.sideHead{font:600 var(--fs-11) var(--font-sans);letter-spacing:.08em;text-transform:uppercase;color:var(--label-secondary);padding:0 6px 8px}
+
+/* ── The running Onda ────────────────────────────────────── */
+.nowWrap{margin-top:20px}
+.now{
+  position:relative;isolation:isolate;overflow:hidden;width:100%;aspect-ratio:1.18;border-radius:20px;padding:13px 14px 12px;
+  display:flex;flex-direction:column;text-align:start;
+  box-shadow:inset 0 0 0 .5px rgba(255,255,255,.18),0 1px 2px rgba(0,0,0,.08),0 16px 30px -18px var(--onda-cover-edge,rgba(0,0,0,.5));
+  transition:transform 380ms var(--spring-smooth),box-shadow 300ms var(--ease-enter);
+}
+.now::after{content:"";position:absolute;inset:0;z-index:-1;background:radial-gradient(120% 80% at 0% 0%,rgba(255,255,255,.16),transparent 60%)}
+.now:hover{transform:translate3d(0,-2px,0);box-shadow:inset 0 0 0 .5px rgba(255,255,255,.22),0 2px 4px rgba(0,0,0,.08),0 22px 38px -18px var(--onda-cover-edge,rgba(0,0,0,.55))}
+.now:active{transform:scale(.985)}
+.nowTop{display:flex;justify-content:space-between;align-items:flex-start;gap:8px}
+.nowKicker{font:600 var(--fs-11)/1.3 var(--font-sans);letter-spacing:.08em;text-transform:uppercase;opacity:.82}
+.nowMark{font:400 var(--fs-19)/1 var(--onda-font,var(--font-serif));opacity:.85}
+.nowArt{position:absolute;right:-16px;bottom:-12px;z-index:-1;opacity:.28;display:flex}
+.nowName{margin-top:auto;font:500 var(--fs-24)/1.08 var(--font-serif);letter-spacing:var(--onda-track,-0.01em);text-wrap:balance;overflow-wrap:anywhere}
+.nowDays{display:flex;gap:2px;margin-top:10px}
+.nowDays i{flex:1;height:3px;border-radius:2px;background:currentColor;opacity:.22}
+.nowDays i[data-past]{opacity:.9}
+.nowDays i[data-now]{opacity:.55}
+.nowToday{display:flex;align-items:center;gap:10px;padding:10px 4px 0}
+.nowBar{flex:1;height:4px;border-radius:2px;background:color-mix(in srgb,var(--label) 10%,transparent);overflow:hidden}
+.nowBar span{display:block;height:100%;transform-origin:0 50%;border-radius:2px;transition:transform 500ms var(--spring-smooth)}
+.nowCount{font:500 var(--fs-12) var(--font-sans);color:var(--label-secondary);font-variant-numeric:tabular-nums;white-space:nowrap}
+.nowEmpty{margin-top:20px;display:flex;flex-direction:column;gap:4px;padding:16px;border-radius:18px;text-align:start;
+  border:1px dashed color-mix(in srgb,var(--label) 18%,transparent);transition:background var(--duration-micro)}
+.nowEmpty:hover{background:color-mix(in srgb,var(--surface-card) 60%,transparent)}
+.nowEmptyTitle{font:600 var(--fs-15) var(--font-sans)}
+.nowEmptySub{font:400 var(--fs-13) var(--font-sans);color:var(--label-secondary)}
+.nowRail{position:relative;width:48px;height:48px;margin-top:14px;display:flex;align-items:center;justify-content:center;color:var(--onda-accent,var(--accent))}
+.nowRing{position:absolute;inset:0;transform:rotate(-90deg)}
+.nowRing circle{fill:none;stroke-width:3;stroke:color-mix(in srgb,var(--label) 10%,transparent)}
+.nowRing circle + circle{stroke:var(--onda-accent,var(--accent));stroke-linecap:round;transition:stroke-dasharray 500ms var(--spring-smooth)}
+.nowRailArt{display:flex}
+
+.sideFoot{margin-top:auto;display:flex;flex-direction:column;gap:6px}
+.side[data-rail] .sideFoot{align-items:center}
+
+/* ── Stage ───────────────────────────────────────────────── */
+.stage{
+  position:relative;z-index:1;margin:var(--gap) var(--gap) var(--gap) 0;min-width:0;overflow:hidden;isolation:isolate;
+  border-radius:22px;background:var(--surface-grouped);
+  box-shadow:0 0 0 .5px color-mix(in srgb,var(--label) 12%,transparent),0 1px 2px rgba(0,0,0,.05),0 18px 50px -20px rgba(0,0,0,.28);
+}
+:global(html[data-theme="dark"]) .stage{box-shadow:0 0 0 .5px rgba(255,255,255,.1),0 18px 50px -16px rgba(0,0,0,.7)}
+
+/* ── Sync pill ───────────────────────────────────────────── */
+.syncIcon{position:relative;display:flex}
+.syncDot{position:absolute;right:-3px;bottom:-2px;width:8px;height:8px;border-radius:50%;background:var(--label-quaternary);box-shadow:0 0 0 2px var(--surface-grouped)}
+.syncDot[data-state="live"]{background:var(--green)}
+.syncDot[data-state="connecting"]{background:var(--yellow)}
+.syncText{display:flex;flex-direction:column;min-width:0;line-height:1.2}
+.syncText > span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.syncSub{font:400 var(--fs-12) var(--font-sans);color:var(--label-secondary)}
+.sideFoot .navItem:has(.syncSub){height:46px}

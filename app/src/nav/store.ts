@@ -24,6 +24,7 @@ export type Route =
   | { name: 'done'; ondaId: string; kept: number }
   | { name: 'settings'; page?: SettingsPage }
   | { name: 'paywall' }
+  | { name: 'link' }
 
 export type SheetRoute =
   | { name: 'checkin'; lagoId: string }
@@ -45,7 +46,8 @@ export type SheetRoute =
   | { name: 'whatsNew' }
   | { name: 'legal'; doc: 'privacy' | 'terms' }
 
-export type StackEntry = Route & { key: string; leaving?: boolean }
+/** `instant`: arrived by a sidebar jump on the desktop, so it fades in instead of sliding. */
+export type StackEntry = Route & { key: string; leaving?: boolean; instant?: boolean }
 export type SheetEntry = SheetRoute & { key: string; closing?: boolean }
 
 interface NavState {
@@ -65,6 +67,8 @@ interface NavState {
   replaceTop: (r: Route) => void
   /** Put back a tab and its pushed pages, with no animation history (after a reload). */
   restore: (tab: Tab, routes: Route[]) => void
+  /** Desktop sidebar: show a tab and these pages at once, with a fade rather than a slide. */
+  jump: (tab: Tab, routes?: Route[]) => void
   openSheet: (s: SheetRoute) => void
   closeSheet: (key?: string) => void
   /** Swap the top sheet for another one, e.g. journal list -> editor -> back to list. */
@@ -103,6 +107,7 @@ export const useNav = create<NavState>()((set, get) => ({
   popToRoot: (tab) => set({ stack: [], sheets: [], menu: null, ...(tab ? { tab } : {}) }),
   replaceTop: (r) => set({ stack: [...get().stack.slice(0, -1), { ...r, key: key() }] }),
   restore: (tab, routes) => set({ tab, stack: routes.map((r) => ({ ...r, key: key() })), sheets: [], menu: null }),
+  jump: (tab, routes = []) => set({ tab, stack: routes.map((r) => ({ ...r, key: key(), instant: true })), sheets: [], menu: null }),
   openSheet: (s) => {
     // A second tap while the first sheet is still arriving must not stack another one.
     const top = get().sheets.find((e) => !e.closing && e.name === s.name && s.name !== 'time')

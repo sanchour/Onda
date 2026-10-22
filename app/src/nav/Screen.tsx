@@ -18,6 +18,8 @@ interface ScreenProps {
   scrollRef?: React.Ref<HTMLDivElement>
   /** Per-Onda flair hook: lets the stylesheet restyle practice rows, bars and headers for this Onda. */
   dataOnda?: string
+  /** Desktop column width: read (760px) for long text, wide (1240px) for grids and dashboards, full for the whole stage. 880px otherwise. */
+  desk?: 'read' | 'wide' | 'full'
 }
 
 /** Once the page has moved under the floating title, the title gets a glass backing so text does not run through it.
@@ -43,10 +45,10 @@ function markScrolled(e: React.UIEvent<HTMLDivElement>) {
 const PAD = { root: s.padRoot, page: s.padPage, cta: s.padPageCta, hero: s.padHero, bare: '' }
 
 /** Page scaffold: one scroll pane, floating chrome above it, optional fixed bottom actions. Safe areas handled here. */
-export function Screen({ variant = 'page', bg = 'grouped', chrome, bottom, bottomRow, children, style, scrollRef, dataOnda }: ScreenProps) {
+export function Screen({ variant = 'page', bg = 'grouped', chrome, bottom, bottomRow, children, style, scrollRef, dataOnda, desk }: ScreenProps) {
   return (
     <div className={`${s.screen} ${bg === 'page' ? s.bgPage : s.bgGrouped}`}>
-      <div ref={scrollRef} className={`scroll ${s.pane} ${PAD[variant]}`} style={style} data-onda={dataOnda} onScroll={markScrolled}>
+      <div ref={scrollRef} className={`scroll ${s.pane} ${PAD[variant]}`} style={style} data-onda={dataOnda} data-desk-w={desk} onScroll={markScrolled}>
         {children}
       </div>
       {chrome && <div className={s.chrome}>{chrome}</div>}

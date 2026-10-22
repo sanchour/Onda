@@ -1,0 +1,32 @@
+/* Focus: the practice alone, on its Onda's cover material. */
+.focus{position:fixed;inset:0;z-index:120;display:flex;align-items:center;justify-content:center;outline:none;isolation:isolate;
+  animation:arrive 420ms var(--ease-enter) both}
+.veil{position:absolute;inset:0;z-index:-1;background:radial-gradient(70% 70% at 50% 42%,transparent,rgba(0,0,0,.38))}
+@keyframes arrive{from{opacity:0;transform:scale(1.02)}to{opacity:1;transform:none}}
+.close{position:absolute;top:22px;right:22px;width:44px;height:44px;border-radius:50%;display:flex;align-items:center;justify-content:center;
+  color:inherit;background:rgba(255,255,255,.12);box-shadow:inset 0 0 0 .5px rgba(255,255,255,.25);transition:background var(--duration-micro)}
+.close:hover{background:rgba(255,255,255,.22)}
+.body{display:flex;flex-direction:column;align-items:center;text-align:center;max-width:640px;padding:0 32px}
+
+.dial{position:relative;width:min(320px,40vh);aspect-ratio:1;display:flex;align-items:center;justify-content:center}
+.ring{position:absolute;inset:0;transform:rotate(-90deg)}
+.ring circle{fill:none;stroke:currentColor;stroke-width:3;opacity:.18}
+.ring circle + circle{opacity:.9;stroke-width:4;stroke-linecap:round;transition:stroke-dasharray 300ms linear}
+.breath{display:flex;opacity:.9}
+.focus[data-running]:not([data-still]) .breath{animation:breathe 9s ease-in-out infinite}
+@keyframes breathe{0%,100%{transform:scale(.92);opacity:.72}50%{transform:scale(1.06);opacity:1}}
+.time{position:absolute;bottom:20%;font:500 var(--fs-22)/1 var(--font-sans);font-variant-numeric:tabular-nums;letter-spacing:.02em;opacity:.9}
+
+.name{margin:30px 0 0;font:500 var(--fs-44)/1.1 var(--font-serif);letter-spacing:var(--onda-track,-0.01em);text-wrap:balance}
+.meta{margin-top:10px;font:500 var(--fs-13) var(--font-sans);letter-spacing:.08em;text-transform:uppercase;opacity:.75}
+.how{margin:18px 0 0;font:400 var(--fs-17)/1.55 var(--font-serif);opacity:.9;text-wrap:pretty;max-height:30vh;overflow:auto}
+
+.actions{display:flex;align-items:center;gap:12px;margin-top:30px}
+.primary,.secondary{display:inline-flex;align-items:center;gap:8px;height:46px;padding:0 22px;border-radius:999px;font:600 var(--fs-16) var(--font-sans);transition:transform var(--duration-micro),background var(--duration-micro)}
+.primary{background:var(--onda-cover-ink,#fff);color:var(--onda-cover-edge,#000)}
+.primary:hover{transform:translate3d(0,-1px,0)}
+.secondary{color:inherit;background:rgba(255,255,255,.12);box-shadow:inset 0 0 0 .5px rgba(255,255,255,.25)}
+.secondary:hover:not(:disabled){background:rgba(255,255,255,.2)}
+.secondary:disabled{opacity:.4;cursor:default}
+.kept{display:inline-flex;align-items:center;gap:6px;font:600 var(--fs-15) var(--font-sans);opacity:.9}
+@media (prefers-reduced-motion:reduce){.focus{animation:none}}

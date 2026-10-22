@@ -63,8 +63,8 @@ function Page({ entry, getUnder, isTop, covered, register, children }: PageProps
     register(entry.key, el)
     const u = getUnder()
     if (u) u.style.visibility = ''
-    if (reducedMotion()) {
-      el.animate([{ opacity: 0 }, { opacity: 1 }], { duration: 160 })
+    if (reducedMotion() || entry.instant) {
+      el.animate([{ opacity: 0 }, { opacity: 1 }], { duration: entry.instant ? 220 : 160, easing: EASE_ENTER })
     } else {
       el.animate([{ transform: 'translate3d(100%,0,0)' }, { transform: 'translate3d(0,0,0)' }], { duration: PUSH_MS, easing: EASE_ENTER })
       settleUnder(1)

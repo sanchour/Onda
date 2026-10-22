@@ -47,6 +47,7 @@ export const ROUTES: Record<Route['name'], Lazy> = {
   reflection: pick(ondaFlow, 'Reflection'),
   done: pick(ondaFlow, 'Done'),
   settings: lazy(() => import('@/screens/Settings')),
+  link: lazy(() => import('@/screens/LinkDevices')),
 }
 
 export const SHEETS: Record<SheetRoute['name'], Lazy> = {

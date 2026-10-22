@@ -1,0 +1,250 @@
+/* Lagos on the desktop (src/desk/lagos). Only the desktop renders these classes, so nothing here is scoped by
+   html[data-desk]. Headings inside the Onda scope take the running Onda's face (ondas.module.css .scope). */
+
+.page{
+  container:dkpage / inline-size;
+  --dk-ring:0 0 0 .5px color-mix(in srgb,var(--label) 9%,transparent);
+  --dk-shadow:0 1px 2px rgba(0,0,0,.04),0 10px 30px -18px rgba(0,0,0,.22);
+  --dk-shadow-hover:0 2px 6px rgba(0,0,0,.05),0 24px 44px -22px rgba(0,0,0,.32);
+  --dk-line:color-mix(in srgb,var(--label) 9%,transparent);
+  --dk-fill:color-mix(in srgb,var(--label) 6%,transparent);
+}
+:global(html[data-theme="dark"]) .page{
+  --dk-ring:0 0 0 .5px rgba(255,255,255,.08);
+  --dk-shadow:inset 0 1px 0 rgba(255,255,255,.03),0 14px 34px -18px rgba(0,0,0,.7);
+  --dk-shadow-hover:inset 0 1px 0 rgba(255,255,255,.05),0 26px 50px -20px rgba(0,0,0,.85);
+  --dk-line:rgba(255,255,255,.09);
+  --dk-fill:rgba(255,255,255,.07);
+}
+
+/* ── Header ──────────────────────────────────────────────── */
+.head{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;padding:14px 4px 0}
+.kicker{font:600 var(--fs-12) var(--font-sans);letter-spacing:.08em;text-transform:uppercase;color:var(--label-secondary)}
+.title{margin:6px 0 0;font:700 var(--fs-44)/1.05 var(--font-sans);letter-spacing:var(--tracking-display)}
+.headActions{display:flex;gap:10px;padding-bottom:4px}
+.pill{
+  display:inline-flex;align-items:center;gap:8px;height:40px;padding:0 17px 0 14px;border-radius:999px;white-space:nowrap;
+  font:600 var(--fs-15) var(--font-sans);color:var(--label);background:color-mix(in srgb,var(--surface-card) 88%,transparent);
+  box-shadow:var(--dk-ring),0 1px 2px rgba(0,0,0,.05);transition:transform 320ms var(--spring-smooth),box-shadow 220ms var(--ease-enter),background var(--duration-micro);
+}
+.pill:hover{transform:translate3d(0,-1px,0);box-shadow:var(--dk-ring),0 8px 18px -10px rgba(0,0,0,.3)}
+.pill:active{transform:scale(.97)}
+.pillPrimary{background:var(--accent);color:var(--accent-contrast);box-shadow:inset 0 1px 0 rgba(255,255,255,.22),0 6px 16px -8px color-mix(in srgb,var(--accent) 80%,transparent)}
+.pillPrimary:hover{box-shadow:inset 0 1px 0 rgba(255,255,255,.22),0 12px 24px -10px color-mix(in srgb,var(--accent) 90%,transparent)}
+.orn{display:flex;align-items:center;gap:12px;margin:18px 4px 0;color:var(--onda-text)}
+.orn i{flex:1;height:1.5px;background:linear-gradient(90deg,transparent,currentColor);opacity:.4}
+.orn i:last-child{background:linear-gradient(270deg,transparent,currentColor)}
+
+/* ── Layout: cards on the left, the week and ideas in a column that stays in view ── */
+.layout,.emptyWrap{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:28px;align-items:start;margin-top:24px}
+.main{container:dkmain / inline-size;min-width:0}
+.side{position:sticky;top:16px;display:flex;flex-direction:column;gap:16px;min-width:0}
+@container dkpage (max-width:1000px){
+  .layout,.emptyWrap{grid-template-columns:minmax(0,1fr) 296px;gap:22px}
+}
+
+/* ── Today ───────────────────────────────────────────────── */
+.today{
+  position:relative;isolation:isolate;overflow:hidden;display:flex;align-items:center;gap:22px;padding:22px 26px;border-radius:26px;
+  background:var(--surface-card);box-shadow:var(--dk-ring),var(--dk-shadow);
+}
+/* a wash of the Onda's paper from the corner the light comes from */
+.today::before{content:"";position:absolute;inset:0;z-index:-1;opacity:.75;
+  background:radial-gradient(90% 160% at 0% 0%,color-mix(in srgb,var(--onda-solid,var(--accent)) 70%,transparent),transparent 62%)}
+:global(html[data-theme="dark"]) .today::before{opacity:.5}
+.todayRing{flex:none}
+.todayCount{font:600 var(--fs-28)/1 var(--onda-font,var(--font-serif));font-variant-numeric:tabular-nums;color:var(--label);letter-spacing:-.01em}
+.todayCount small{font:500 var(--fs-15) var(--font-sans);color:var(--label-secondary);margin-left:1px}
+.todayText{flex:1;min-width:0}
+.todayTitle{margin:0;font:700 var(--fs-28)/1.1 var(--font-sans);letter-spacing:var(--tracking-title)}
+.todaySub{margin:6px 0 0;font:400 var(--fs-15)/1.4 var(--font-sans);color:var(--label-secondary)}
+.todayLeft{display:inline-block;margin:8px 0 0;padding:3px 10px;border-radius:999px;font:600 var(--fs-12)/1.4 var(--font-sans);color:var(--onda-text,var(--accent));background:color-mix(in srgb,var(--accent) 10%,transparent)}
+.kpis{display:flex;margin:0}
+.kpi{padding:2px 22px;border-left:.5px solid var(--dk-line);min-width:96px}
+.kpi dt{font:600 var(--fs-11) var(--font-sans);letter-spacing:.07em;text-transform:uppercase;color:var(--label-secondary);white-space:nowrap}
+.kpi dd{margin:7px 0 0;font:600 var(--fs-28)/1 var(--font-sans);font-variant-numeric:tabular-nums;letter-spacing:-.02em;white-space:nowrap}
+.kpi dd small{font:500 var(--fs-14) var(--font-sans);color:var(--label-secondary);margin-left:3px;letter-spacing:0}
+.kpiNote{display:block;margin-top:5px;max-width:136px;font:400 var(--fs-12) var(--font-sans);color:var(--label-secondary);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+@container dkmain (max-width:660px){
+  .today{gap:18px;padding:20px}
+  .kpi:nth-child(2){display:none}
+  .kpi{padding:2px 16px;min-width:0}
+}
+@container dkmain (max-width:500px){.kpis{display:none}}
+
+/* ── Sections ────────────────────────────────────────────── */
+.section{margin-top:30px}
+.secHead{display:flex;align-items:center;gap:10px;width:100%;padding:0 4px 12px;text-align:start;border-radius:10px}
+.secTitle{margin:0;font:700 var(--fs-20)/1.2 var(--font-sans);letter-spacing:var(--tracking-title)}
+.secCount{font:600 var(--fs-12)/1 var(--font-sans);padding:4px 8px;border-radius:999px;background:var(--dk-fill);color:var(--label-secondary);font-variant-numeric:tabular-nums}
+.secCaret{display:flex;color:var(--label-tertiary);transition:transform 260ms var(--ease-enter),color var(--duration-micro)}
+.secCaret[data-closed]{transform:rotate(-90deg)}
+.secHead:hover .secCaret{color:var(--label)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(272px,1fr));gap:16px}
+
+/* ── Card ────────────────────────────────────────────────── */
+.card{
+  position:relative;isolation:isolate;display:flex;flex-direction:column;gap:16px;padding:18px 18px 22px;border-radius:24px;
+  background:var(--surface-card);box-shadow:var(--dk-ring),var(--dk-shadow);
+  transition:transform 440ms var(--spring-smooth),box-shadow 300ms var(--ease-enter);
+  animation:cardIn 560ms var(--spring-smooth) backwards;animation-delay:calc(var(--i,0) * 40ms);
+}
+@keyframes cardIn{from{opacity:0;transform:translate3d(0,10px,0) scale(.985)}}
+.card:hover{transform:translate3d(0,-3px,0);box-shadow:var(--dk-ring),var(--dk-shadow-hover)}
+.card[data-phase="finished"]{background:color-mix(in srgb,var(--surface-card) 70%,transparent)}
+/* a sheen of the accent crosses the card as it is checked in */
+.card::after{content:"";position:absolute;inset:0;z-index:0;border-radius:inherit;pointer-events:none;opacity:0;
+  background:linear-gradient(105deg,transparent 38%,color-mix(in srgb,var(--accent) 16%,transparent) 50%,transparent 62%) no-repeat;background-size:220% 100%}
+.card:has(.discFace[data-pop="in"])::after{animation:sheen 1000ms var(--ease-enter)}
+@keyframes sheen{from{opacity:1;background-position:130% 0}to{opacity:1;background-position:-30% 0}}
+.cardOpen{position:absolute;inset:0;z-index:0;border-radius:inherit}
+.cardOpen:focus-visible{outline-offset:-2px;border-radius:24px}
+.cardHead,.strip,.cardFoot{position:relative;z-index:1;pointer-events:none}
+.cardHead{display:flex;align-items:center;gap:14px}
+.cardHead button{pointer-events:auto}
+.cardText{flex:1;min-width:0}
+.cardName{margin:0;font:600 var(--fs-17)/1.25 var(--font-sans);letter-spacing:var(--tracking-body);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.cardMeta{margin-top:3px;font:400 var(--fs-14)/1.3 var(--font-sans);color:var(--label-secondary)}
+.more{flex:none;align-self:flex-start;width:34px;height:34px;margin:-4px -6px 0 0;border-radius:10px;display:flex;align-items:center;justify-content:center;color:var(--label-secondary);
+  transition:opacity 160ms var(--ease-enter),background var(--duration-micro),color var(--duration-micro)}
+.more:hover{background:var(--dk-fill);color:var(--label)}
+@media (hover:hover) and (pointer:fine){
+  .more{opacity:0}
+  .card:hover .more,.card:focus-within .more{opacity:1}
+}
+
+/* ── Check disc ──────────────────────────────────────────── */
+.disc{
+  --disc:52px;position:relative;flex:none;width:var(--disc);height:var(--disc);border-radius:50%;display:flex;align-items:center;justify-content:center;
+  color:var(--label);background:var(--surface-card);box-shadow:inset 0 0 0 2px color-mix(in srgb,var(--label) 12%,transparent);
+  transition:background 280ms var(--ease-enter),box-shadow 280ms var(--ease-enter),color 280ms var(--ease-enter),transform 200ms var(--ease-enter);
+}
+.disc:disabled{opacity:.5}
+.disc:active:not(:disabled){transform:scale(.93)}
+.discFace{display:flex;transition:opacity 160ms var(--ease-enter),transform 240ms var(--ease-enter)}
+.discCheck{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:var(--accent);opacity:0;transform:scale(.6);
+  transition:opacity 160ms var(--ease-enter),transform 300ms var(--spring-snappy)}
+@media (hover:hover) and (pointer:fine){
+  .disc:not(:disabled):not(.discOn):hover{box-shadow:inset 0 0 0 2px var(--accent);background:color-mix(in srgb,var(--accent) 9%,var(--surface-card))}
+  .disc:not(:disabled):not(.discOn):hover .discFace{opacity:0;transform:scale(.7)}
+  .disc:not(:disabled):not(.discOn):hover .discCheck{opacity:1;transform:none}
+}
+.discOn{background:var(--accent);color:var(--accent-contrast);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.3),0 8px 18px -8px color-mix(in srgb,var(--accent) 80%,transparent)}
+.discMissed{color:var(--label-tertiary)}
+.discBadge{position:absolute;right:-2px;bottom:-2px;width:20px;height:20px;border-radius:50%;display:flex;align-items:center;justify-content:center;
+  background:var(--surface-card);color:var(--label-secondary);box-shadow:0 0 0 1.5px color-mix(in srgb,var(--label) 14%,transparent)}
+.discFace[data-pop="in"]{animation:pop 600ms var(--spring-snappy)}
+.discFace[data-pop="out"]{animation:settle 360ms var(--ease-enter)}
+@keyframes pop{0%{transform:scale(.6)}55%{transform:scale(1.12)}100%{transform:none}}
+@keyframes settle{0%{transform:scale(.85);opacity:.4}100%{transform:none;opacity:1}}
+.burst{position:absolute;inset:0;pointer-events:none}
+.burst::before{content:"";position:absolute;inset:0;border-radius:50%;box-shadow:0 0 0 2px var(--accent);opacity:0;animation:ripple 720ms var(--ease-enter)}
+.burst i{position:absolute;left:50%;top:50%;width:4px;height:9px;margin:-4.5px 0 0 -2px;border-radius:2px;background:var(--accent);opacity:0;
+  animation:ray 680ms var(--ease-enter) 70ms}
+@keyframes ripple{from{opacity:.75;transform:scale(1)}to{opacity:0;transform:scale(1.85)}}
+@keyframes ray{
+  0%{opacity:0;transform:rotate(var(--a)) translate3d(0,calc(var(--disc) * -.46),0) scaleY(.3)}
+  30%{opacity:1}
+  100%{opacity:0;transform:rotate(var(--a)) translate3d(0,calc(var(--disc) * -.98),0) scaleY(1)}
+}
+
+/* ── Fourteen days ───────────────────────────────────────── */
+.strip{display:grid;grid-template-columns:repeat(14,minmax(0,1fr));gap:4px;height:26px}
+.strip i{border-radius:5px;background:color-mix(in srgb,var(--label) 3%,transparent)}
+.strip i[data-s="done"]{background:var(--accent)}
+.strip i[data-s="missed"]{background:repeating-linear-gradient(135deg,color-mix(in srgb,var(--label) 22%,transparent) 0 1.5px,transparent 1.5px 5px);box-shadow:inset 0 0 0 1px color-mix(in srgb,var(--label) 14%,transparent)}
+.strip i[data-s="open"]{background:color-mix(in srgb,var(--label) 9%,transparent)}
+.strip i[data-s="today"]{background:color-mix(in srgb,var(--accent) 8%,transparent);box-shadow:inset 0 0 0 1.5px var(--accent)}
+.strip i[data-s="rest"]{background:radial-gradient(circle,color-mix(in srgb,var(--label) 24%,transparent) 2px,transparent 2.5px)}
+.strip i[data-s="done"]:last-child{animation:fillIn 460ms var(--spring-snappy)}
+@keyframes fillIn{from{transform:scaleY(.4);opacity:.3}}
+
+.cardFoot{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:-2px}
+.streak{display:inline-flex;align-items:center;gap:6px;padding:5px 10px 5px 8px;border-radius:999px;font:600 var(--fs-13) var(--font-sans);color:var(--label-secondary);background:var(--dk-fill);white-space:nowrap}
+.streak svg{color:var(--label-tertiary)}
+.streak[data-on]{color:var(--label);background:color-mix(in srgb,var(--accent) 11%,transparent)}
+.streak[data-on] svg{color:var(--accent)}
+.score{font:400 var(--fs-13) var(--font-sans);color:var(--label-secondary);white-space:nowrap}
+.score b{font-weight:600;color:var(--label);font-variant-numeric:tabular-nums}
+/* how far through the Lago, as a thin ribbon on the bottom edge */
+.ribbon{position:absolute;left:24px;right:24px;bottom:0;height:3px;border-radius:3px 3px 0 0;background:color-mix(in srgb,var(--accent) 13%,transparent);overflow:hidden;pointer-events:none}
+.ribbon i{display:block;height:100%;background:var(--accent);transform-origin:0 50%;transition:transform 600ms var(--spring-smooth)}
+.card[data-phase="finished"] .ribbon i{background:color-mix(in srgb,var(--accent) 55%,transparent)}
+
+/* ── Side panels ─────────────────────────────────────────── */
+.panel{
+  padding:18px 18px 16px;border-radius:24px;background:color-mix(in srgb,var(--surface-card) 80%,transparent);box-shadow:var(--dk-ring),var(--dk-shadow);
+  -webkit-backdrop-filter:blur(20px) saturate(150%);backdrop-filter:blur(20px) saturate(150%);
+}
+.panelHead{display:flex;align-items:center;justify-content:space-between;gap:10px;min-height:28px}
+.panelTitle{margin:0;font:700 var(--fs-17)/1.2 var(--font-sans);letter-spacing:var(--tracking-title)}
+.panelSub{margin-top:2px;font:400 var(--fs-13) var(--font-sans);color:var(--label-secondary)}
+.panelLink{padding:4px 8px;margin-right:-6px;border-radius:8px;font:600 var(--fs-14) var(--font-sans);color:var(--accent);transition:background var(--duration-micro)}
+.panelLink:hover{background:color-mix(in srgb,var(--accent) 10%,transparent)}
+.weekNav{display:flex;gap:4px}
+.weekNav button{width:28px;height:28px;border-radius:8px;display:flex;align-items:center;justify-content:center;color:var(--label-secondary);background:var(--dk-fill);transition:background var(--duration-micro),color var(--duration-micro)}
+.weekNav button:hover:not(:disabled){background:color-mix(in srgb,var(--label) 11%,transparent);color:var(--label)}
+.weekNav button:disabled{opacity:.35}
+
+/* ── Week matrix ─────────────────────────────────────────── */
+.matrix{position:relative;margin-top:14px}
+/* today's column, lit from behind */
+.matrix[data-now]::before{content:"";position:absolute;top:-6px;bottom:-6px;right:0;width:calc(100% / 7);border-radius:12px;background:color-mix(in srgb,var(--accent) 8%,transparent);pointer-events:none}
+.mHead,.mCells{position:relative;display:grid;grid-template-columns:repeat(7,minmax(0,1fr));justify-items:center}
+.mHead span{display:flex;flex-direction:column;align-items:center;gap:2px;font:600 var(--fs-10) var(--font-sans);letter-spacing:.06em;color:var(--label-secondary)}
+.mHead b{font:600 var(--fs-13) var(--font-sans);color:var(--label);letter-spacing:0;font-variant-numeric:tabular-nums}
+.mHead span[data-today] b{color:var(--accent)}
+.mRow{margin-top:11px}
+.mName{position:relative;display:flex;align-items:center;gap:6px;min-width:0;padding:0 4px 5px;font:500 var(--fs-12)/1.2 var(--font-sans);color:var(--label-secondary)}
+.mName svg{flex:none;color:var(--accent)}
+.mName span{overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+.mEmpty{padding:18px 4px 6px;font:400 var(--fs-13)/1.4 var(--font-sans);color:var(--label-secondary)}
+.cell{
+  width:30px;height:30px;border-radius:var(--onda-shape,50%);display:flex;align-items:center;justify-content:center;color:var(--accent-contrast);
+  transition:transform 180ms var(--ease-enter),background 220ms var(--ease-enter),box-shadow 220ms var(--ease-enter),border-color 220ms;
+}
+.cellFace{display:flex}
+/* an open day shows the check it would make only under the pointer */
+.cell[data-s="open"] .cellFace,.cell[data-s="today"] .cellFace{opacity:0;color:var(--accent);transition:opacity var(--duration-micro)}
+button.cell[data-s="open"]:hover .cellFace,button.cell[data-s="today"]:hover .cellFace{opacity:.8}
+.cell[data-s="done"]{background:var(--accent);box-shadow:inset 0 1px 0 rgba(255,255,255,.25)}
+.cell[data-s="missed"]{color:var(--label-tertiary);box-shadow:inset 0 0 0 1.5px color-mix(in srgb,var(--label) 16%,transparent)}
+.cell[data-s="open"]{border:1.5px dashed color-mix(in srgb,var(--label) 24%,transparent)}
+.cell[data-s="today"]{box-shadow:inset 0 0 0 2px var(--accent)}
+.cell[data-s="rest"]::after{content:"";width:4px;height:4px;border-radius:50%;background:color-mix(in srgb,var(--label) 22%,transparent)}
+button.cell:hover{transform:scale(1.1)}
+button.cell[data-s="open"]:hover,button.cell[data-s="today"]:hover{background:color-mix(in srgb,var(--accent) 16%,transparent);border-color:var(--accent)}
+button.cell:active{transform:scale(.9)}
+.cellFace[data-pop]{animation:pop 520ms var(--spring-snappy)}
+.legend{display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:16px;padding-top:12px;border-top:.5px solid var(--dk-line);font:500 var(--fs-11) var(--font-sans);color:var(--label-secondary)}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.legend i{width:11px;height:11px;border-radius:var(--onda-shape,50%);display:flex;align-items:center;justify-content:center}
+.legend i[data-s="done"]{background:var(--accent)}
+.legend i[data-s="missed"]{box-shadow:inset 0 0 0 1.5px color-mix(in srgb,var(--label) 22%,transparent)}
+.legend i[data-s="open"]{border:1.5px dashed color-mix(in srgb,var(--label) 30%,transparent)}
+.legend i[data-s="rest"]::after{content:"";width:4px;height:4px;border-radius:50%;background:color-mix(in srgb,var(--label) 30%,transparent)}
+
+/* ── Gallery ideas ───────────────────────────────────────── */
+.ideas{display:flex;flex-direction:column;margin:10px -8px 0}
+.idea{display:flex;align-items:center;gap:12px;padding:9px 8px;border-radius:14px;text-align:start;transition:background var(--duration-micro)}
+.idea:hover{background:var(--dk-fill)}
+.ideaIcon{width:38px;height:38px;flex:none;border-radius:50%;display:flex;align-items:center;justify-content:center;background:color-mix(in srgb,var(--accent) 12%,transparent);color:var(--accent)}
+.ideaText{flex:1;min-width:0;display:flex;flex-direction:column}
+.ideaName{font:600 var(--fs-14)/1.25 var(--font-sans);color:var(--label)}
+.ideaMeta{margin-top:1px;font:400 var(--fs-12) var(--font-sans);color:var(--label-secondary)}
+.ideaPlus{flex:none;color:var(--label-tertiary);opacity:0;transform:scale(.8);transition:opacity var(--duration-micro),transform 240ms var(--spring-snappy)}
+.idea:hover .ideaPlus,.idea:focus-visible .ideaPlus{opacity:1;transform:none;color:var(--accent)}
+
+/* ── No Lagos yet ────────────────────────────────────────── */
+.empty{padding:56px 40px 48px;border-radius:28px;text-align:center;background:var(--surface-card);box-shadow:var(--dk-ring),var(--dk-shadow)}
+.emptyArt{width:84px;height:84px;margin:0 auto 18px;border-radius:50%;display:flex;align-items:center;justify-content:center;color:var(--accent);background:color-mix(in srgb,var(--accent) 10%,transparent)}
+.emptyTitle{margin:0;font:700 var(--fs-24)/1.2 var(--font-sans)}
+.emptySub{margin:8px auto 0;max-width:380px;font:400 var(--fs-15)/1.45 var(--font-sans);color:var(--label-secondary)}
+.emptyActions{display:flex;justify-content:center;gap:10px;margin-top:22px}
+
+@media (prefers-reduced-motion:reduce){
+  .card,.discFace[data-pop],.cellFace[data-pop],.strip i[data-s="done"]:last-child,.card:has(.discFace[data-pop="in"])::after{animation:none}
+  .burst{display:none}
+  .card:hover,.pill:hover,button.cell:hover{transform:none}
+}

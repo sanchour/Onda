@@ -6,12 +6,14 @@ import { accentFor, mix } from '@/lib/color'
 import i18n from '@/i18n'
 import { paid, refreshEntitlement } from '@/sync/entitlement'
 import { useStore } from '@/data/store'
+import { useDesk } from '@/lib/desk'
 import { EASE_ENTER, PUSH_MS, reducedMotion } from '@/lib/motion'
 import { Navigator } from '@/nav/Navigator'
 import navCss from '@/nav/nav.module.css'
 import { useNav, type Tab } from '@/nav/store'
 import { Menu } from '@/ui/Menu'
 import { TabBar } from '@/ui/TabBar'
+import { useLink } from '@/sync/link/useLink'
 import { useSync } from '@/sync/useSync'
 import { ROUTES, SHEETS, prefetchChunks } from './registry'
 import { Overlays } from './Overlays'
@@ -21,6 +23,8 @@ const Onboarding = lazy(() => import('@/screens/Onboarding'))
 const LagosTab = lazy(() => import('@/screens/LagosTab'))
 const OndasTab = lazy(() => import('@/screens/OndasTab'))
 const StatsTab = lazy(() => import('@/screens/StatsTab'))
+// Desktop only: the sidebar and stage (src/desk). Phones never load it.
+const DeskShell = lazy(() => import('@/desk/DeskShell').then((m) => ({ default: m.DeskShell })))
 
 const TABS: Record<Tab, React.LazyExoticComponent<() => React.ReactNode>> = { lagos: LagosTab, ondas: OndasTab, stats: StatsTab }
 
@@ -28,6 +32,7 @@ function Tabs() {
   const { t } = useTranslation()
   const tab = useNav((n) => n.tab)
   const setTab = useNav((n) => n.setTab)
+  const desk = useDesk()
   const pane = useRef<HTMLDivElement>(null)
   const first = useRef(true)
   const Current = TABS[tab]
@@ -47,7 +52,8 @@ function Tabs() {
           <Current />
         </Suspense>
       </div>
-      <div className={navCss.tabBarWrap}>
+      {/* on the desktop the sidebar switches tabs */}
+      {!desk && <div className={navCss.tabBarWrap}>
         <TabBar<Tab>
           items={[
             { key: 'ondas', icon: 'waves', label: t('tabs.ondas') },
@@ -57,7 +63,7 @@ function Tabs() {
           activeKey={tab}
           onChange={setTab}
         />
-      </div>
+      </div>}
     </>
   )
 }
@@ -80,6 +86,13 @@ function useShell() {
   const mode = useSettings().themeMode
   const tick = useStore((s) => s.tick)
   const ready = useStore((s) => s.ready)
+  const desk = useDesk()
+
+  useLayoutEffect(() => {
+    const root = document.documentElement
+    if (desk) root.dataset.desk = '1'
+    else delete root.dataset.desk
+  }, [desk])
 
   useLayoutEffect(() => {
     const root = document.documentElement
@@ -186,8 +199,10 @@ export function App() {
   const menu = useNav((n) => n.menu)
   const closeMenu = useNav((n) => n.closeMenu)
   const overlay = useNav((n) => n.sheets.length > 0 || !!n.menu)
+  const desk = useDesk()
   useShell()
   useSync()
+  useLink()
 
   useEffect(() => {
     void init()
@@ -261,20 +276,30 @@ export function App() {
 
   if (!ready) return null
 
+  const screens = (
+    <Navigator
+      root={<Tabs />}
+      renderRoute={(entry) => {
+        const C = ROUTES[entry.name] as React.ComponentType<{ entry: typeof entry }>
+        return (
+          <Suspense fallback={null}>
+            <C entry={entry} />
+          </Suspense>
+        )
+      }}
+    />
+  )
+
   return (
     <div style={{ position: 'absolute', inset: 0 }} data-overlay={overlay ? '1' : undefined}>
       {onboarded ? (
-        <Navigator
-          root={<Tabs />}
-          renderRoute={(entry) => {
-            const C = ROUTES[entry.name] as React.ComponentType<{ entry: typeof entry }>
-            return (
-              <Suspense fallback={null}>
-                <C entry={entry} />
-              </Suspense>
-            )
-          }}
-        />
+        desk ? (
+          <Suspense fallback={null}>
+            <DeskShell>{screens}</DeskShell>
+          </Suspense>
+        ) : (
+          screens
+        )
       ) : (
         <Suspense fallback={null}>
           <Onboarding />

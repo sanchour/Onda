@@ -10,10 +10,12 @@ import { EASE_ENTER, PUSH_MS, reducedMotion } from '@/lib/motion'
 import { ChromeTitle } from '@/nav/Screen'
 import navCss from '@/nav/nav.module.css'
 import { nav } from '@/nav/store'
+import { cancelPairing } from '@/sync/link/state'
 import { Button, GlassButton } from '@/ui/buttons'
 import { ProgressRing, StepBar } from '@/ui/data'
 import { Icon } from '@/ui/Icon'
 import { DayScroller } from '@/ui/pickers'
+import { PairPanel } from './LinkDevices'
 import s from './screens.module.css'
 
 /** The Onda chosen on the last step. It begins once the paywall closes, if the user is entitled to it. */
@@ -39,6 +41,8 @@ export default function Onboarding() {
   const [step, setStep] = useState(0)
   const [len, setLen] = useState(settings?.defaultOndaLength ?? 14)
   const [pick, setPick] = useState('stoic')
+  // "I already use Onda": link to that device instead. Its data arrives with onboarding done, and the app moves on.
+  const [linking, setLinking] = useState(false)
   const pane = useRef<HTMLDivElement>(null)
   const last = useRef(0)
 
@@ -98,6 +102,30 @@ export default function Onboarding() {
   const pg = pages[Math.min(step, 2)]!
   const su = setup[Math.max(0, step - 3)]!
 
+  if (linking)
+    return (
+      <div className={s.ob}>
+        <div className={navCss.chrome}>
+          <GlassButton
+            icon="caret-left"
+            ariaLabel={t('a11y.back')}
+            onClick={() => {
+              cancelPairing()
+              setLinking(false)
+            }}
+          />
+          <span />
+        </div>
+        <div className={s.obStep}>
+          <h1 className={s.obQuestion} style={{ marginTop: 'calc(var(--chrome-top) + 64px)' }}>{t('link.already')}</h1>
+          <div className={s.obHint}>{t('link.alreadySub')}</div>
+          <div className={s.obLink}>
+            <PairPanel />
+          </div>
+        </div>
+      </div>
+    )
+
   return (
     <div className={s.ob}>
       {/* no back on page one */}
@@ -154,6 +182,11 @@ export default function Onboarding() {
         <Button fullWidth onClick={next}>
           {step < 3 ? t('common.continue') : step < 4 ? t('common.next') : t('onboarding.getStarted')}
         </Button>
+        {step === 0 && (
+          <Button fullWidth variant="plain" size="md" onClick={() => setLinking(true)}>
+            {t('link.already')}
+          </Button>
+        )}
       </div>
     </div>
   )

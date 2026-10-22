@@ -199,3 +199,10 @@
 .fromChip{flex:none;display:inline-flex;align-items:center;gap:8px;height:40px;padding:0 14px;border-radius:999px;background:var(--surface-card);border:1.5px solid var(--separator);font:500 var(--fs-15) var(--font-sans);color:var(--label);white-space:nowrap}
 .fromChipOn{background:var(--accent);border-color:var(--accent);color:var(--accent-contrast)}
 .fromNote{padding:6px 20px 0;font:400 var(--fs-13) var(--font-sans);color:var(--label-secondary)}
+
+/* ── Onboarding: linking to a device already in use ──────── */
+.obCta{display:flex;flex-direction:column;gap:4px}
+.obLink{margin:26px 16px 0;padding:22px 18px;border-radius:26px;background:var(--surface-card)}
+/* desktop: the steps in a phone-wide column on the Onda colours, not stretched across the window */
+:global(html[data-desk]) .ob{left:50%;right:auto;width:480px;transform:translateX(-50%);top:4vh;bottom:4vh;border-radius:34px;padding-bottom:24px;overflow:hidden;
+  box-shadow:0 0 0 .5px rgba(0,0,0,.08),0 30px 80px -30px rgba(0,0,0,.35)}

@@ -69,6 +69,14 @@ export interface AppState extends Lists {
   resetAll: () => Promise<void>
 }
 
+type WriteListener = (collection: Collection, record: BaseRecord) => void
+const writeListeners = new Set<WriteListener>()
+/** Called after every local write, never for merged remote records: device linking sends these on (sync/link). */
+export function onLocalWrite(fn: WriteListener): () => void {
+  writeListeners.add(fn)
+  return () => void writeListeners.delete(fn)
+}
+
 const EMPTY: Lists = { lagos: [], checkIns: [], runs: [], practiceLogs: [], ruleLogs: [], taskLogs: [], immerseLogs: [], journal: [], reflections: [], achievements: [], customOndas: [] }
 const live = <T extends BaseRecord>(x: T) => !x.deletedAt
 
@@ -115,6 +123,7 @@ export const useStore = create<AppState>()((set, get) => {
           await db.outbox.add({ collection, id: rec.id })
         })
       : db.table(collection).put(rec)
+    for (const fn of writeListeners) fn(collection, rec)
     void Promise.resolve(saved).catch((e) => {
       console.error('[onda] write failed', collection, e)
       // iOS can run out of room (or evict storage); the UI tells the person rather than silently losing a write
@@ -398,6 +407,8 @@ export const useStore = create<AppState>()((set, get) => {
       return { imported, skipped }
     },
     async resetAll() {
+      // a linked device leaves its group first: otherwise the next sync would bring everything back (meta is kept)
+      if (await getMeta('link')) await import('@/sync/link/instance').then(({ linkEngine }) => linkEngine().unlink())
       await db.transaction('rw', db.tables, async () => {
         for (const t of db.tables) if (t.name !== 'meta') await t.clear()
       })

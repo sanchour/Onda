@@ -1,9 +1,10 @@
-import { useMemo, useRef, useState } from 'react'
+import { Suspense, lazy, useMemo, useRef, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { lagoStats, type LagoStats } from '@/data/derive/lago'
 import { useLagos } from '@/data/hooks'
 import { useStore } from '@/data/store'
 import type { Lago } from '@/data/types'
+import { useDesk } from '@/lib/desk'
 import { haptic } from '@/lib/haptics'
 import { Screen } from '@/nav/Screen'
 import { useNav } from '@/nav/store'
@@ -15,6 +16,9 @@ import { guardNewLago, lagoMenu } from './lagoActions'
 import { OrnDivider, useOndaScope } from './ondaShared'
 import o from './ondas.module.css'
 import s from './screens.module.css'
+
+// The desktop has its own Lagos view, in its own chunk so the phone never loads it.
+const DeskLagos = lazy(() => import('@/desk/lagos/DeskLagos'))
 
 type Row = { lago: Lago; st: LagoStats }
 
@@ -115,6 +119,7 @@ export default function LagosTab() {
   const today = useStore((x) => x.today)
   const [closed, setClosed] = useState<Record<string, boolean>>({})
   const scope = useOndaScope()
+  const desk = useDesk()
 
   const groups = useMemo(() => {
     const rows = lagos.map((lago) => ({ lago, st: lagoStats(lago, checkIns, today) })).sort((a, b) => b.lago.startedAt.localeCompare(a.lago.startedAt) || b.lago.updatedAt - a.lago.updatedAt)
@@ -145,6 +150,12 @@ export default function LagosTab() {
       </section>
     )
 
+  if (desk)
+    return (
+      <Suspense fallback={null}>
+        <DeskLagos />
+      </Suspense>
+    )
   return (
     <Screen variant="root">
       <div className={scope ? o.scope : undefined} {...scope?.props}>

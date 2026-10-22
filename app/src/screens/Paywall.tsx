@@ -1,6 +1,7 @@
-import { useState } from 'react'
+import { Suspense, lazy, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { usePlus } from '@/data/hooks'
+import { useDesk } from '@/lib/desk'
 import navCss from '@/nav/nav.module.css'
 import { useNav } from '@/nav/store'
 import { BETA_PAYMENTS, paid, refreshEntitlement, startCheckout, startTrial, type PlusPlan } from '@/sync/entitlement'
@@ -10,9 +11,13 @@ import { Icon } from '@/ui/Icon'
 import { beginPendingOnda } from './Onboarding'
 import s from './screens.module.css'
 
+// The desktop's two-column pitch is its own chunk: phones never load it.
+const DeskPaywall = lazy(() => import('@/desk/settings/DeskPaywall'))
+
 /** Ondas+: seven days free, then € 2,49 a month or € 24,99 once for life. Closable. */
 export default function Paywall() {
   const { t } = useTranslation()
+  const desk = useDesk()
   const plus = usePlus()
   const { pop, showToast, openSheet } = useNav()
   const [busy, setBusy] = useState(false)
@@ -74,6 +79,33 @@ export default function Paywall() {
     const e = await refreshEntitlement()
     showToast(paid(e?.plus) ? t('paywall.restored') : t('paywall.nothingToRestore'), { icon: paid(e?.plus) ? 'seal-check' : 'info' })
   }
+  const buyNow = () => {
+    setBusy(true)
+    void buy().finally(() => setBusy(false))
+  }
+
+  if (desk) {
+    return (
+      <Suspense fallback={null}>
+        <DeskPaywall
+          benefits={benefits}
+          owned={owned}
+          plan={plan}
+          onPlan={setPlan}
+          busy={busy}
+          cta={cta}
+          subline={subline}
+          buyLabel={buyLabel}
+          showBuy={plus.tier === 'none'}
+          onAct={act}
+          onBuy={buyNow}
+          onRestore={restore}
+          onClose={close}
+          onLegal={(doc) => openSheet({ name: 'legal', doc })}
+        />
+      </Suspense>
+    )
+  }
 
   return (
     <div className={s.pw}>
@@ -115,15 +147,7 @@ export default function Paywall() {
           {cta}
         </Button>
         {plus.tier === 'none' && (
-          <Button
-            fullWidth
-            variant="secondary"
-            disabled={busy}
-            onClick={() => {
-              setBusy(true)
-              void buy().finally(() => setBusy(false))
-            }}
-          >
+          <Button fullWidth variant="secondary" disabled={busy} onClick={buyNow}>
             {buyLabel}
           </Button>
         )}

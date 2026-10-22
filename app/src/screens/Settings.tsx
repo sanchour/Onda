@@ -1,5 +1,5 @@
 import { useQuery } from '@tanstack/react-query'
-import { useEffect, useMemo, useRef, useState } from 'react'
+import { Suspense, lazy, useEffect, useMemo, useRef, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { hasPlus } from '@/data/entitlement'
 import { activityByDate, currentStreak } from '@/data/derive/stats'
@@ -10,6 +10,7 @@ import { useStore } from '@/data/store'
 import type { Settings as SettingsT } from '@/data/types'
 import { disableLock, enableLock, lockSupported } from '@/lib/applock'
 import { fmtAgo, fmtClock, fmtDate, toDateStr } from '@/lib/dates'
+import { useDesk } from '@/lib/desk'
 import { downloadJson, isStandalone } from '@/lib/platform'
 import { BackButton, Screen } from '@/nav/Screen'
 import { useNav, type SettingsPage, type StackEntry } from '@/nav/store'
@@ -29,6 +30,8 @@ import s from './screens.module.css'
 const APP_VERSION = '7.1'
 const BUILD = '1'
 const HUB: [string, SettingsPage][] = [['seal-check', 'subscription'], ['paint-brush', 'appearance'], ['bell', 'notifications'], ['sparkle', 'practice'], ['arrows-clockwise', 'integrations'], ['database', 'data'], ['lock', 'privacy'], ['question', 'help']]
+// The desktop split view is its own chunk: phones never load it.
+const DeskSettings = lazy(() => import('@/desk/settings/DeskSettings'))
 
 /** Tap once to arm, again to confirm: the quiet version of an "Are you sure" alert. */
 function useConfirm() {
@@ -55,6 +58,7 @@ export default function Settings({ entry }: { entry: Extract<StackEntry, { name:
   const integrations = useIntegrations().data
   const account = useQuery({ queryKey: ['account'], queryFn: accountInfo, enabled: backendConfigured, staleTime: 60_000 }).data
   const confirm = useConfirm()
+  const desk = useDesk()
   const page = entry.page
   const fileRef = useRef<HTMLInputElement>(null)
   const importFile = async (file: File | undefined) => {
@@ -124,9 +128,12 @@ export default function Settings({ entry }: { entry: Extract<StackEntry, { name:
     ),
     appearance: (
       <>
-        <div className={m.setCard}>
-          <SegmentedControl options={(['light', 'dark', 'auto'] as const).map((v) => ({ value: v, label: t(`settings.display.${v}`) }))} value={settings.themeMode} onChange={(v) => update({ themeMode: v })} fullWidth ariaLabel={t('settings.hub.appearance')} />
-        </div>
+        {/* the desktop draws the three looks as small windows instead (DeskSettings) */}
+        {!desk && (
+          <div className={m.setCard}>
+            <SegmentedControl options={(['light', 'dark', 'auto'] as const).map((v) => ({ value: v, label: t(`settings.display.${v}`) }))} value={settings.themeMode} onChange={(v) => update({ themeMode: v })} fullWidth ariaLabel={t('settings.hub.appearance')} />
+          </div>
+        )}
         <div className={m.rulerCard}>
           <div className={m.rulerTitle}>{t('settings.display.defaultLength')}</div>
           <div style={{ display: 'flex', alignItems: 'center', gap: 12, padding: '4px 16px 12px' }}>
@@ -250,6 +257,42 @@ export default function Settings({ entry }: { entry: Extract<StackEntry, { name:
 
   const badge = plus.tier === 'lifetime' ? t('settings.plus.badgeLife') : plus.tier === 'monthly' ? t('settings.plus.badgeMonthly') : plus.tier === 'trial' ? t('settings.plus.badgeTrial', { count: plus.daysLeft }) : plus.tier === 'expired' ? t('settings.plus.badgeExpired') : t('settings.plus.badgeFree')
   const plusKey = plus.tier === 'lifetime' ? 'Life' : plus.tier === 'monthly' ? 'Monthly' : plus.tier === 'trial' ? 'Trial' : plus.tier === 'expired' ? 'Expired' : 'Free'
+  const avatar = (size: number) => <Avatar initials={(name[0] ?? 'O').toUpperCase()} size={size} photo={settings.avatarPhoto} icon={settings.avatarIcon} tone={settings.avatarTone} />
+  const memberSince = t('settings.memberSince', { date: fmtDate(toDateStr(new Date(user?.createdAt ?? Date.now()))) })
+  const stats: [number, string][] = [[streak, t('settings.streak')], [runs.filter((r) => !r.deletedAt).length, t('settings.ondas')], [lagos.length, t('settings.lagos')]]
+  const danger = (
+    <ListSection>
+      <ListRow icon="trash" destructive accessory="none" title={confirm.armed === 'reset' ? t('settings.danger.confirm') : t('settings.danger.reset')} onClick={() => confirm.tap('reset', () => void useStore.getState().resetAll().then(() => showToast(t('settings.danger.resetDone'), { icon: 'trash' })))} />
+      {backendConfigured && account && !account.anonymous && <ListRow icon="sign-out" destructive accessory="none" title={t('settings.danger.signOut')} onClick={() => void signOut()} />}
+      {backendConfigured && account && (
+        <ListRow icon="x-circle" destructive accessory="none" title={confirm.armed === 'delete' ? t('settings.danger.confirm') : t('settings.danger.deleteAccount')} onClick={() => confirm.tap('delete', () => void deleteAccount().then(() => showToast(t('settings.danger.deleted'), { icon: 'trash' })))} />
+      )}
+    </ListSection>
+  )
+
+  if (desk) {
+    return (
+      <Suspense fallback={null}>
+        <DeskSettings
+          page={page}
+          hub={HUB}
+          pages={pages}
+          name={name}
+          memberSince={memberSince}
+          avatar={avatar}
+          stats={stats}
+          onProfile={() => openSheet({ name: 'account' })}
+          plus={{ title: t('settings.plus.title'), badge, line: t(`settings.plus.line${plusKey}`), cta: t(`settings.plus.cta${plusKey === 'Expired' ? 'Trial' : plusKey}`), open: paywall }}
+          danger={danger}
+          version={t('settings.version', { v: APP_VERSION })}
+          theme={settings.themeMode}
+          onTheme={(v) => update({ themeMode: v })}
+          onBack={pop}
+          onLink={() => push({ name: 'link' })}
+        />
+      </Suspense>
+    )
+  }
 
   return (
     <Screen chrome={<BackButton onClick={pop} />}>
@@ -262,15 +305,15 @@ export default function Settings({ entry }: { entry: Extract<StackEntry, { name:
         <>
           <button type="button" className={m.profile} onClick={() => openSheet({ name: 'account' })}>
             <span className={m.profileRow}>
-              <Avatar initials={(name[0] ?? 'O').toUpperCase()} size={64} photo={settings.avatarPhoto} icon={settings.avatarIcon} tone={settings.avatarTone} />
+              {avatar(64)}
               <span style={{ flex: 1, minWidth: 0 }}>
                 <span className={m.profileName} style={{ display: 'block' }}>{name}</span>
-                <span className={s.sub} style={{ display: 'block' }}>{t('settings.memberSince', { date: fmtDate(toDateStr(new Date(user?.createdAt ?? Date.now()))) })}</span>
+                <span className={s.sub} style={{ display: 'block' }}>{memberSince}</span>
               </span>
               <Icon name="caret-right" weight="bold" size={18} color="var(--label-quaternary)" />
             </span>
             <span className={`${s.stat3} ${m.profileStats}`}>
-              {[[streak, t('settings.streak')], [runs.filter((r) => !r.deletedAt).length, t('settings.ondas')], [lagos.length, t('settings.lagos')]].map(([v, l]) => (
+              {stats.map(([v, l]) => (
                 <span key={l}>
                   <span className={s.statV}>{v}</span>
                   <span className={s.statL} style={{ display: 'block' }}>{l}</span>
@@ -297,15 +340,7 @@ export default function Settings({ entry }: { entry: Extract<StackEntry, { name:
               ))}
             </ListSection>
           </div>
-          <div className={m.gap28}>
-            <ListSection>
-              <ListRow icon="trash" destructive accessory="none" title={confirm.armed === 'reset' ? t('settings.danger.confirm') : t('settings.danger.reset')} onClick={() => confirm.tap('reset', () => void useStore.getState().resetAll().then(() => showToast(t('settings.danger.resetDone'), { icon: 'trash' })))} />
-              {backendConfigured && account && !account.anonymous && <ListRow icon="sign-out" destructive accessory="none" title={t('settings.danger.signOut')} onClick={() => void signOut()} />}
-              {backendConfigured && account && (
-                <ListRow icon="x-circle" destructive accessory="none" title={confirm.armed === 'delete' ? t('settings.danger.confirm') : t('settings.danger.deleteAccount')} onClick={() => confirm.tap('delete', () => void deleteAccount().then(() => showToast(t('settings.danger.deleted'), { icon: 'trash' })))} />
-              )}
-            </ListSection>
-          </div>
+          <div className={m.gap28}>{danger}</div>
           <div className={m.version}>{t('settings.version', { v: APP_VERSION })}</div>
         </>
       )}

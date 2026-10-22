@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next'
 import { useSettings } from '@/data/hooks'
 import { useStore } from '@/data/store'
 import { fmtAgo, fmtClock } from '@/lib/dates'
+import { useDesk } from '@/lib/desk'
 import { copyText } from '@/lib/platform'
 import { useNav, type SheetEntry } from '@/nav/store'
 import m from '@/screens/more.module.css'
@@ -18,6 +19,12 @@ import { ListRow, ListSection } from '@/ui/lists'
 import { AppSheet, useSheet } from './common'
 
 type E<N extends SheetEntry['name']> = { entry: Extract<SheetEntry, { name: N }> }
+
+/** On the desktop the integration sheets are dialogs that fit what they hold, not tall empty panels. */
+function useFit() {
+  const desk = useDesk()
+  return desk ? { detent: 0.99, pad: '8px 0 20px' } : { detent: undefined, pad: '8px 0 60px' }
+}
 
 function Head({ icon, title, sub, badge }: { icon: string; title: string; sub: string; badge?: string }) {
   return (
@@ -42,6 +49,7 @@ export function NotionSheet({ entry }: E<'notion'>) {
   const refresh = useRefreshIntegrations()
   const [busy, setBusy] = useState(false)
   const n = (q.data ?? EMPTY_STATUS).notion
+  const fit = useFit()
 
   const run = async (fn: () => Promise<unknown>, done?: (r: unknown) => void) => {
     if (busy) return
@@ -57,8 +65,8 @@ export function NotionSheet({ entry }: E<'notion'>) {
   }
 
   return (
-    <AppSheet entry={entry} title={t('notion.title')}>
-      <div style={{ padding: '8px 0 60px' }}>
+    <AppSheet entry={entry} title={t('notion.title')} detent={fit.detent}>
+      <div style={{ padding: fit.pad }}>
         <Head icon="notion-logo" title={n.connected ? t('notion.connectedTitle') : t('notion.title')} sub={n.connected ? t('notion.subOn') : t('notion.subOff')} />
         {n.connected ? (
           <>
@@ -126,9 +134,10 @@ export function CalendarSheet({ entry }: E<'calendar'>) {
   const [inc, setInc] = useState({ practices: true, lagos: true, extras: false })
   const none = !inc.practices && !inc.lagos && !inc.extras
   const exportNow = () => void shareIcs(inc).then((r) => r === 'downloaded' && showToast(t('calendar.downloaded'), { icon: 'download-simple' }))
+  const fit = useFit()
   return (
-    <AppSheet entry={entry} title={t('calendar.title')}>
-      <div style={{ padding: '8px 0 60px' }}>
+    <AppSheet entry={entry} title={t('calendar.title')} detent={fit.detent}>
+      <div style={{ padding: fit.pad }}>
         <Head icon="calendar-dots" title={t('calendar.title')} sub={t('calendar.lead')} />
         {c.token && (
           <div style={{ padding: '24px 16px 0' }}>
@@ -168,9 +177,10 @@ export function RemindersSheet({ entry }: E<'reminders'>) {
   const q = useIntegrations()
   const refresh = useRefreshIntegrations()
   const r = (q.data ?? EMPTY_STATUS).reminders
+  const fit = useFit()
   return (
-    <AppSheet entry={entry} title={t('reminders.title')}>
-      <div style={{ padding: '8px 0 60px' }}>
+    <AppSheet entry={entry} title={t('reminders.title')} detent={fit.detent}>
+      <div style={{ padding: fit.pad }}>
         <Head icon="list-checks" title={t('reminders.title')} badge={t('reminders.badge')} sub={t('reminders.lead')} />
         <div style={{ padding: '24px 16px 0', display: 'flex', flexDirection: 'column', gap: 10 }}>
           {r.shortcutUrl ? (

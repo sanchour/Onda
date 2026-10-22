@@ -1,0 +1,158 @@
+/* Settings on the desktop (DeskSettings.tsx): a sections list on the left, the chosen pane on the right, as macOS
+   System Settings. Only the desktop mounts this, so nothing here needs a desk scope. */
+
+.split{position:absolute;inset:0;display:grid;grid-template-columns:clamp(264px,26%,316px) minmax(0,1fr);background:var(--surface-grouped)}
+
+/* ── The list ────────────────────────────────────────────── */
+.side{position:relative;display:flex;flex-direction:column;min-width:0;min-height:0;
+  background:color-mix(in srgb,var(--surface-card) 42%,var(--surface-grouped));border-right:.5px solid color-mix(in srgb,var(--label) 11%,transparent)}
+.sideHead{display:flex;align-items:center;gap:12px;padding:16px 18px 14px}
+.sideTitle{margin:0;font:700 var(--fs-22)/1.2 var(--font-sans);letter-spacing:var(--tracking-title)}
+
+.search{display:flex;align-items:center;gap:7px;height:34px;margin:0 16px 10px;padding:0 5px 0 10px;border-radius:10px;color:var(--label-secondary);
+  background:color-mix(in srgb,var(--label) 6%,transparent);box-shadow:inset 0 0 0 .5px color-mix(in srgb,var(--label) 7%,transparent);
+  transition:background-color var(--duration-micro),box-shadow var(--duration-micro)}
+.search:focus-within{background:var(--surface-card);box-shadow:inset 0 0 0 1px color-mix(in srgb,var(--accent) 55%,transparent),0 0 0 3px color-mix(in srgb,var(--accent) 16%,transparent)}
+.search input{flex:1;min-width:0;height:100%;border:0;background:none;outline:none;color:var(--label);font:400 var(--fs-15) var(--font-sans)}
+.search input::placeholder{color:var(--label-secondary)}
+.search input::-webkit-search-cancel-button{display:none}
+.searchClear{display:flex;padding:4px;border-radius:50%;color:var(--label-tertiary)}
+
+.list{flex:1;min-height:0;padding:2px 10px 28px}
+.group{display:flex;flex-direction:column;gap:1px}
+.group + .group{margin-top:16px}
+
+.item{display:flex;align-items:center;gap:11px;width:100%;min-height:38px;padding:5px 10px 5px 7px;border-radius:10px;text-align:start;color:var(--label);
+  transition:background-color var(--duration-micro)}
+.item[aria-current]{background:color-mix(in srgb,var(--accent) 14%,transparent)}
+.item[aria-current] .itemTitle{font-weight:600}
+.item:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.me{min-height:60px;gap:12px;padding:9px 10px 9px 7px}
+.itemText{flex:1;min-width:0;display:flex;flex-direction:column;gap:1px}
+.itemTitle{font:500 var(--fs-15)/1.25 var(--font-sans);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.meName{font:600 var(--fs-16)/1.25 var(--font-sans);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.itemSub{font:400 var(--fs-12)/1.3 var(--font-sans);color:var(--label-secondary);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.itemGo{flex:none;color:var(--label-tertiary)}
+
+/* Icon tiles, in a quiet version of the iOS Settings colours */
+.tile{--tile:#8A8A90;flex:none;width:28px;height:28px;border-radius:8px;display:flex;align-items:center;justify-content:center;color:#fff;
+  background:linear-gradient(180deg,color-mix(in srgb,var(--tile) 76%,white),var(--tile));
+  box-shadow:inset 0 0 0 .5px rgba(0,0,0,.08),0 1px 1.5px rgba(0,0,0,.08)}
+.tile[data-k="subscription"]{--tile:var(--accent);color:var(--accent-contrast)}
+.tile[data-k="appearance"]{--tile:#4C78D4}
+.tile[data-k="notifications"]{--tile:#DE5E48}
+.tile[data-k="practice"]{--tile:#8767D3}
+.tile[data-k="integrations"]{--tile:#389868}
+.tile[data-k="data"]{--tile:#6B7889}
+.tile[data-k="link"]{--tile:#2C92AA}
+.tile[data-k="privacy"]{--tile:#4760B2}
+.tile[data-k="help"]{--tile:#A0845A}
+
+.empty{display:flex;flex-direction:column;align-items:center;gap:4px;padding:36px 12px;text-align:center}
+.emptyTitle{font:600 var(--fs-15) var(--font-sans)}
+
+/* ── The pane ────────────────────────────────────────────── */
+.main{position:relative;min-width:0;min-height:0;overflow:hidden}
+.pane{position:absolute;inset:0}
+.col{width:min(720px,calc(100% - 48px));margin:0 auto;padding:40px 0 72px;animation:paneIn 300ms var(--ease-enter) both}
+@keyframes paneIn{from{opacity:0;transform:translate3d(0,10px,0)}}
+
+.head{display:flex;align-items:center;gap:16px;margin:0 16px}
+.bigTile{width:56px;height:56px;border-radius:15px;box-shadow:inset 0 0 0 .5px rgba(0,0,0,.08),0 6px 14px -8px var(--tile)}
+.title{margin:0;font:700 var(--fs-28)/1.15 var(--font-sans);letter-spacing:var(--tracking-display)}
+.desc{margin:3px 0 0;font:400 var(--fs-15)/1.4 var(--font-sans);color:var(--label-secondary);text-wrap:pretty}
+
+/* The pane's name settles into a glass bar once its own heading has scrolled away */
+.bar{position:absolute;left:0;right:0;top:0;z-index:2;height:50px;display:flex;align-items:center;justify-content:center;pointer-events:none;
+  font:600 var(--fs-15) var(--font-sans);color:var(--label);
+  background:color-mix(in srgb,var(--surface-grouped) 80%,transparent);-webkit-backdrop-filter:blur(20px) saturate(170%);backdrop-filter:blur(20px) saturate(170%);
+  border-bottom:.5px solid color-mix(in srgb,var(--label) 10%,transparent);opacity:0;transform:translate3d(0,-4px,0);
+  transition:opacity 200ms var(--ease-enter),transform 200ms var(--ease-enter)}
+.bar[data-on]{opacity:1;transform:none}
+
+/* The setting a search found glows once */
+.pane [data-found]{animation:found 1.9s var(--ease-enter)}
+@keyframes found{
+  0%,35%{background-color:color-mix(in srgb,var(--accent) 15%,transparent);box-shadow:inset 0 0 0 1.5px color-mix(in srgb,var(--accent) 55%,transparent)}
+  100%{background-color:transparent;box-shadow:inset 0 0 0 1.5px transparent}
+}
+
+/* ── Account (the top of the list) ───────────────────────── */
+.hero{position:relative;overflow:hidden;isolation:isolate;display:flex;align-items:center;gap:22px;margin:0 16px;padding:26px 28px;border-radius:28px;background:var(--surface-card)}
+.hero::before{content:"";position:absolute;inset:0;z-index:-1;background:radial-gradient(70% 140% at 0% 0%,color-mix(in srgb,var(--accent) 10%,transparent),transparent 70%)}
+.heroText{flex:1;min-width:0}
+.heroName{margin:0;font:500 var(--fs-34)/1.1 var(--font-serif);letter-spacing:-0.01em;overflow-wrap:anywhere}
+.heroSub{margin:6px 0 0;font:400 var(--fs-15)/1.35 var(--font-sans);color:var(--label-secondary)}
+.stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:12px 16px 0}
+.stat{display:flex;flex-direction:column;gap:2px;padding:16px 20px;border-radius:22px;background:var(--surface-card)}
+.statV{font:700 var(--fs-28)/1.1 var(--font-sans);font-variant-numeric:tabular-nums;letter-spacing:var(--tracking-title)}
+.statL{font:400 var(--fs-13) var(--font-sans);color:var(--label-secondary)}
+.gap{padding-top:28px}
+.version{margin:0;padding:24px 0 0;text-align:center;font:400 var(--fs-13) var(--font-sans);color:var(--label-tertiary)}
+
+/* ── Ondas+ ──────────────────────────────────────────────── */
+.plus{position:relative;overflow:hidden;display:flex;flex-direction:column;align-items:flex-start;gap:6px;width:calc(100% - 32px);margin:12px 16px 0;padding:22px 24px 20px;
+  border-radius:26px;text-align:start;color:var(--accent-contrast);
+  background:repeating-radial-gradient(circle at 100% 150%,color-mix(in srgb,var(--accent-contrast) 16%,transparent) 0 1.5px,transparent 1.5px 18px),
+    linear-gradient(135deg,color-mix(in srgb,var(--accent) 84%,white),var(--accent) 62%);
+  box-shadow:0 1px 2px rgba(0,0,0,.08);transition:transform 380ms var(--spring-smooth),box-shadow 300ms var(--ease-enter)}
+.head + .plus{margin-top:24px}
+.plusTop{display:flex;align-items:center;justify-content:space-between;gap:12px;width:100%}
+.plusTitle{font:600 var(--fs-34)/1 var(--font-serif);letter-spacing:-0.01em}
+.plusBadge{font:600 var(--fs-12) var(--font-sans);letter-spacing:.06em;text-transform:uppercase;padding:5px 9px;border-radius:10px;background:color-mix(in srgb,var(--accent-contrast) 20%,transparent)}
+.plusLine{font:400 var(--fs-15)/1.4 var(--font-sans);opacity:.92;max-width:46ch}
+.plusCta{display:inline-flex;align-items:center;gap:6px;margin-top:10px;padding:8px 14px;border-radius:999px;background:var(--accent-contrast);color:var(--accent);font:600 var(--fs-15) var(--font-sans)}
+.plusCta svg{transition:transform 300ms var(--spring-smooth)}
+.plus:focus-visible{outline:3px solid color-mix(in srgb,var(--accent) 45%,transparent);outline-offset:3px}
+.plus:active{transform:scale(.99)}
+
+.perksWrap{margin:0}
+.subHead{margin:0;padding:30px 32px 10px;font:700 var(--fs-20)/1.2 var(--font-sans);letter-spacing:var(--tracking-title)}
+.perks{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1px;margin:0 16px;border-radius:26px;overflow:hidden;background:var(--separator)}
+.perk{display:grid;grid-template-columns:auto minmax(0,1fr);column-gap:14px;row-gap:2px;align-items:center;padding:18px 20px;background:var(--surface-card)}
+.perkIcon{grid-row:span 2;width:40px;height:40px;border-radius:50%;display:flex;align-items:center;justify-content:center;color:var(--accent);
+  background:color-mix(in srgb,var(--accent) 12%,var(--surface-card))}
+.perkTitle{align-self:end;font:600 var(--fs-15)/1.3 var(--font-sans)}
+.perkText{align-self:start;font:400 var(--fs-13)/1.35 var(--font-sans);color:var(--label-secondary)}
+
+/* ── Appearance: the three looks as small windows ────────── */
+.themes{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin:24px 16px 0;padding:20px 22px 16px;border-radius:26px;background:var(--surface-card)}
+.theme{display:flex;flex-direction:column;align-items:center;gap:10px;border-radius:14px;outline:none}
+.thumb{position:relative;display:block;width:100%;aspect-ratio:16/10;border-radius:12px;overflow:hidden;
+  box-shadow:0 0 0 .5px color-mix(in srgb,var(--label) 18%,transparent),0 3px 8px -4px rgba(0,0,0,.22);
+  transition:box-shadow 180ms var(--ease-enter),transform 380ms var(--spring-smooth)}
+.theme[aria-checked="true"] .thumb{box-shadow:0 0 0 2px var(--surface-card),0 0 0 4.5px var(--accent),0 8px 18px -8px rgba(0,0,0,.3)}
+.theme:focus-visible .thumb{box-shadow:0 0 0 2px var(--surface-card),0 0 0 4.5px color-mix(in srgb,var(--accent) 50%,transparent)}
+.theme:active .thumb{transform:scale(.97)}
+.themeLabel{font:500 var(--fs-15) var(--font-sans);color:var(--label-secondary)}
+.theme[aria-checked="true"] .themeLabel{color:var(--label);font-weight:600}
+.half{position:absolute;inset:0;clip-path:polygon(60% 0,100% 0,100% 100%,40% 100%)}
+
+.mini{position:absolute;inset:0;display:flex;gap:7px;padding:9px;background:linear-gradient(160deg,#EFE8E0,#E4DBD1)}
+.mini[data-dark]{background:linear-gradient(160deg,#18181B,#0E0E10)}
+.mini i{display:block;height:5px;border-radius:3px}
+.mSide{width:24%;display:flex;flex-direction:column;gap:6px;padding:6px 2px 0}
+.mSide i{background:#D3C9BD}
+.mSide i:first-child{background:color-mix(in srgb,var(--accent) 55%,#D3C9BD)}
+.mStage{flex:1;display:flex;flex-direction:column;gap:6px;padding:9px;border-radius:7px;background:#FCFAF6;box-shadow:0 1px 2px rgba(0,0,0,.08)}
+.mStage i{background:#E6DFD6}
+.mStage i:last-child{width:58%}
+.mCover{display:block;height:38%;margin-bottom:2px;border-radius:5px;background:linear-gradient(135deg,color-mix(in srgb,var(--accent) 78%,white),var(--accent))}
+.mini[data-dark] .mSide i{background:#2E2F33}
+.mini[data-dark] .mStage{background:#232427;box-shadow:0 0 0 .5px rgba(255,255,255,.06)}
+.mini[data-dark] .mStage i{background:#37383D}
+
+/* ── Pointer hover ───────────────────────────────────────── */
+@media (hover:hover) and (pointer:fine){
+  .item:hover{background:color-mix(in srgb,var(--label) 5%,transparent)}
+  .item[aria-current]:hover{background:color-mix(in srgb,var(--accent) 17%,transparent)}
+  .searchClear:hover{color:var(--label-secondary)}
+  .plus:hover{transform:translate3d(0,-2px,0);box-shadow:0 2px 4px rgba(0,0,0,.06),0 22px 40px -22px var(--accent)}
+  .plus:hover .plusCta svg{transform:translate3d(3px,0,0)}
+  .theme:hover .thumb{transform:translate3d(0,-2px,0)}
+}
+
+@media (prefers-reduced-motion:reduce){
+  .col{animation:none}
+  .plus,.thumb,.bar{transition:none}
+}

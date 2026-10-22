@@ -84,3 +84,10 @@ input::placeholder,textarea::placeholder{color:var(--placeholder);opacity:1}
 @media (prefers-reduced-motion:reduce){
   *,*::before,*::after{scroll-behavior:auto !important}
 }
+
+/* Desktop (src/lib/desk.ts): a 16px root suits a laptop at arm's length (and keeps macOS Safari's 13px system body
+   size out of it), scroll bars show thinly for the mouse, and text on the page can be selected. */
+html[data-desk]{font-size:16px}
+html[data-desk] body{-webkit-user-select:text;user-select:text}
+html[data-desk] button,html[data-desk] [role="button"],html[data-desk] [role="tab"]{-webkit-user-select:none;user-select:none}
+html[data-desk] .scroll{scrollbar-width:thin;scrollbar-color:color-mix(in srgb,var(--label) 20%,transparent) transparent}

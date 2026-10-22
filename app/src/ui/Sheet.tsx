@@ -1,4 +1,5 @@
 import { useEffect, useLayoutEffect, useRef, type CSSProperties, type PointerEvent as RPointerEvent, type ReactNode } from 'react'
+import { useDesk } from '@/lib/desk'
 import { haptic } from '@/lib/haptics'
 import { EASE_ENTER, currentY, grab, pointerVelocity, pushSample, rubber, springTo, ty, type Sample } from '@/lib/motion'
 import s from './ui.module.css'
@@ -21,7 +22,8 @@ interface SheetProps {
 }
 
 /** Bottom sheet that rises on a spring, follows the finger, rubber-bands past its detent and
- *  dismisses on a downward swipe. Content scrolls inside; dragging starts only when it is scrolled to the top. */
+ *  dismisses on a downward swipe. Content scrolls inside; dragging starts only when it is scrolled to the top.
+ *  On the desktop it is a centred dialog instead: it settles in from a little below and fades away, with no drag. */
 export function Sheet({ open, title, leading, trailing, detent = 1, background, onScrimClick, onExited, children, style }: SheetProps) {
   const panel = useRef<HTMLDivElement>(null)
   const scrim = useRef<HTMLDivElement>(null)
@@ -29,6 +31,7 @@ export function Sheet({ open, title, leading, trailing, detent = 1, background, 
   const D = useRef({ down: false, drag: false, sy: 0, y0: 0, y: 0, s: [] as Sample[], gone: false })
   const exited = useRef(onExited)
   exited.current = onExited
+  const desk = useDesk()
 
   const ph = () => panel.current?.offsetHeight ?? 0
   const fade = (y: number) => {
@@ -39,6 +42,12 @@ export function Sheet({ open, title, leading, trailing, detent = 1, background, 
     const d = D.current
     if (!p || d.gone) return
     d.gone = true
+    if (desk) {
+      const a = p.animate([{ opacity: 1, transform: 'none' }, { opacity: 0, transform: 'translate3d(0,8px,0) scale(.98)' }], { duration: 170, easing: 'ease-in', fill: 'forwards' })
+      a.onfinish = () => exited.current()
+      scrim.current?.animate([{ opacity: Number(scrim.current.style.opacity) || 1 }, { opacity: 0 }], { duration: 200, fill: 'forwards' })
+      return
+    }
     springTo(p, { from: grab(p, currentY), to: ph() + 12, velocity: v, spring: 'smooth', prop: ty, onDone: () => exited.current() })
     scrim.current?.animate([{ opacity: Number(scrim.current.style.opacity) || 1 }, { opacity: 0 }], { duration: 220, fill: 'forwards' })
   }
@@ -47,7 +56,10 @@ export function Sheet({ open, title, leading, trailing, detent = 1, background, 
   useLayoutEffect(() => {
     const p = panel.current
     if (!p) return
-    springTo(p, { from: ph(), to: 0, spring: 'smooth', prop: ty })
+    if (desk) {
+      p.style.transform = 'none'
+      p.animate([{ opacity: 0, transform: 'translate3d(0,18px,0) scale(.97)' }, { opacity: 1, transform: 'none' }], { duration: 340, easing: EASE_ENTER })
+    } else springTo(p, { from: ph(), to: 0, spring: 'smooth', prop: ty })
     if (scrim.current) {
       scrim.current.animate([{ opacity: 0 }, { opacity: 1 }], { duration: 220, easing: EASE_ENTER })
       scrim.current.style.opacity = '1'
@@ -130,7 +142,7 @@ export function Sheet({ open, title, leading, trailing, detent = 1, background, 
   }
 
   return (
-    <div className={s.sheetRoot}>
+    <div className={desk ? `${s.sheetRoot} ${s.sheetDesk}` : s.sheetRoot}>
       <div ref={scrim} className={s.sheetScrim} onClick={() => (onScrimClick ?? dismiss)()} />
       <div
         ref={panel}
@@ -139,12 +151,13 @@ export function Sheet({ open, title, leading, trailing, detent = 1, background, 
         aria-label={title || undefined}
         tabIndex={-1}
         className={s.sheetPanel}
+        data-full={desk && detent >= 1 ? '' : undefined}
         style={{ '--detent': detent, background, ...style } as CSSProperties}
         onFocus={onFocus}
         onPointerDown={(e: RPointerEvent<HTMLDivElement>) => {
           const d = D.current
           const t = e.target as HTMLElement
-          if (d.gone || t.closest('input,textarea,[role=switch],[role=slider],[role=tablist],[role=listbox],[data-no-drag]')) return
+          if (desk || d.gone || t.closest('input,textarea,[role=switch],[role=slider],[role=tablist],[role=listbox],[data-no-drag]')) return
           if (scroller.current && scroller.current.contains(t) && scroller.current.scrollTop > 0) return
           d.down = true
           d.drag = false

@@ -70,6 +70,8 @@
         document.querySelector('meta[name=theme-color]').setAttribute('content', bg);
         document.querySelector('meta[name=color-scheme]').setAttribute('content', d ? 'dark' : 'light');
         root.style.colorScheme = d ? 'dark' : 'light';
+        // desktop layout (src/lib/desk.ts): known before the first paint so the phone layout never flashes
+        if (matchMedia('(min-width: 1100px)').matches) root.dataset.desk = '1';
       })();
     </script>
   </head>

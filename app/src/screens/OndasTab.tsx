@@ -1,9 +1,10 @@
-import { useDeferredValue, useState } from 'react'
+import { Suspense, lazy, useDeferredValue, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { BROWSE_GROUPS, COMING_SOON, GROUP_OF, type BrowseGroup } from '@/content/browse'
 import { planForDay, type DayPractice } from '@/data/derive/plan'
 import { useLookFn, useOndaList, useSettings } from '@/data/hooks'
 import { useStore } from '@/data/store'
+import { useDesk } from '@/lib/desk'
 import { BackButton, Screen } from '@/nav/Screen'
 import { useNav } from '@/nav/store'
 import { Button, GlassButton } from '@/ui/buttons'
@@ -15,7 +16,21 @@ import { guardCreateOnda, useActiveOnda, useRunToday } from './ondaShared'
 import s from './screens.module.css'
 
 /** Ondas tab: the running Onda's cover, a glass row of shortcuts, Today's plan by time of day, then the quote. */
+// The desktop has its own Today and Browse (src/desk/home); phones never load them.
+const DeskToday = lazy(() => import('@/desk/home/DeskToday'))
+const DeskBrowse = lazy(() => import('@/desk/home/DeskBrowse'))
+
 export default function OndasTab() {
+  return useDesk() ? (
+    <Suspense fallback={null}>
+      <DeskToday />
+    </Suspense>
+  ) : (
+    <PhoneOndasTab />
+  )
+}
+
+function PhoneOndasTab() {
   const { t } = useTranslation()
   const { push, openSheet } = useNav()
   const active = useActiveOnda()
@@ -200,6 +215,16 @@ type Shelf = BrowseGroup | 'mine'
 /** All Ondas, laid out like a bookshop: a search field and filter chips, a Featured row of large covers that changes each day,
  *  then one shelf per group that scrolls sideways, each with See All. A chip or See All shows that group as a grid. */
 export function AllOndas() {
+  return useDesk() ? (
+    <Suspense fallback={null}>
+      <DeskBrowse />
+    </Suspense>
+  ) : (
+    <PhoneAllOndas />
+  )
+}
+
+function PhoneAllOndas() {
   const { t } = useTranslation()
   const push = useNav((n) => n.push)
   const list = useOndaList()

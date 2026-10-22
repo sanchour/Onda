@@ -1,19 +1,18 @@
-# Onda 7.0 handoff
+# Onda 7.1 handoff
 
-Everything finished is on `main`. Unfinished theme work is parked on the branch `wip/onda7-themes`. This file is enough to continue on another account or machine.
+Everything is on `main` as version 7.1. The theme work from the branch `wip/onda7-themes` is merged into `main` and finished; that branch is no longer needed. This file is enough to continue on another account or machine.
 
 ## Prompt to paste into a new Claude Code session (in this repo)
 
 ```
-Continue the Onda 7.0 redesign. Read docs/ONDA7_HANDOFF.md and docs/ONDA7_PLAN.md first and follow them.
+Continue the Onda 7.1 design. Read docs/ONDA7_HANDOFF.md and docs/ONDA7_PLAN.md first and follow them.
 Design only: do not rewrite any content in content/. Be fast and token efficient: work directly, read only the files you need,
-no long multi-agent workflows. Finish the open items in the handoff in order: 1) the bespoke themes and emblems for all 64 Ondas
-(start from the branch wip/onda7-themes, find why it renders a blank app first), 2) the failing e2e test, 3) a light and dark
-screenshot check of every Onda screen. Then run typecheck, unit tests and build, update docs/ONDA7_PLAN.md,
-commit and push to main, and confirm that git rev-parse HEAD equals origin/main.
+no long multi-agent workflows. Ask the owner what to do next (see "Open items" for optional steps), then run typecheck, unit tests, build,
+node app/shots/theme-contrast.mjs and the Ondas e2e tests, update docs/ONDA7_PLAN.md, bump the version, commit and push to main,
+and confirm that git rev-parse HEAD equals origin/main.
 ```
 
-## What Onda 7.0 is
+## What Onda 7 is
 
 A design overhaul of the Onda side of the app: premium iOS 27, clean, each Onda its own traditional world. Content is unchanged.
 
@@ -25,37 +24,26 @@ Done and on `main` (commits `36709f8`, `c007b84`, `2f2961a`, `18e2e77`, the hand
 - Philosophy: iOS large title, today's idea as a large themed card with "Try this today", a segmented control between Think about and Ethics, and an index that opens each idea in place.
 - Immersion: Up Next cards, a library grid with progress rings, and a format per kind (Read bookshelf, Words flashcards, Listen record sleeves, Watch cinematic frames, Art gallery frames, Eat and Drink menu, Travel postcards, Games and Customs).
 - Practice sheet, final reflection and Onda complete restyled. Lagos Quick tip removed. Version 7.0 with a What's New entry.
+- 7.1: a bespoke theme for all 64 Ondas: palettes from each culture's pigments and materials (all pass `node app/shots/theme-contrast.mjs`), mixed cover layouts, and a real emblem from each tradition's own art (`emblems/a.tsx`, `b1.tsx`, `b2.tsx`). The e2e suite is green again: tests for Today's open buttons, browse, the Lago link, the Gallery, the final reflection, the practice hold menu and the version now match the app. What's New entry for 7.1.
 
 ## Where things are
 
 - Primitives: `app/src/screens/onda7/` (Cover, GroupedList, Row, CheckCircle, SectionHeader, PracticeRow, PlanList, ShortcutBar, SearchField, QuoteBlock), CSS in `onda7.module.css`.
 - Theme type and helpers: `app/src/content/themeKit.ts`. Theme data: `app/src/content/themes/a.ts` (first 32 ids) and `themes/b.ts` (last 32). Runtime (CSS variables `--onda-*`, including `--onda-cover`, `--onda-material`, `--onda-accent`): `app/src/content/themes.ts`.
-- Cover emblems: `app/src/screens/emblems/a.tsx` and `b.tsx`, contract in `emblems/kit.tsx` (120 unit viewBox, currentColor, stroke `line * 120 / size`). On `main` they are stand-ins built from the small ornaments (`fromOrnament`).
+- Cover emblems: `app/src/screens/emblems/a.tsx` and `b.tsx`, contract in `emblems/kit.tsx` (120 unit viewBox, currentColor, stroke `line * 120 / size`). All 64 are drawn: `a.tsx` (first 32), `b1.tsx` (shia to mughal), `b2.tsx` (johor to celtic); `fromOrnament` stays as the fallback.
 - iOS large titles: `LargeTitle` and `ChromeTitle after={px}` in `app/src/nav/Screen.tsx` (the inline title shows once the page scrolls past `after`).
 - Screens: `OndasTab.tsx` (Ondas tab and All Ondas), `OndaToday.tsx`, `Guide.tsx`, `OndaPages.tsx` (Journal, Philosophy, Rules), `OndaFlow.tsx` (Immersion, Reflection, Done), `sheets/OndaSheets.tsx`. Styles: `screens/ondas.module.css` (blocks marked `Onda 7`), `sheets/guide.module.css`.
 - Plan and checklist: `docs/ONDA7_PLAN.md`.
 
-## Open items, in order
+## Open items
 
-### 1. Bespoke themes and emblems for all 64 Ondas
-Branch `wip/onda7-themes` holds unfinished agent work: 32 new emblems in `emblems/a.tsx` (stoic to sunni) and partial palette edits in `themes/a.ts` and `themes/b.ts`. It typechecks and builds, but **the app renders blank with no console error** (the `main` versions render fine). First find the cause (check each theme entry and emblem, for example by bisecting: restore `themes/b.ts` from main, then `themes/a.ts`, then `emblems/a.tsx`; `node app/shots/v7-errors.mjs` prints page errors and whether the Ondas tab and browse render). Keep what is good, then finish:
-- `emblems/b.tsx`: draw a real emblem for each of: shia rasta discordia plato epicurus cyrenaic kant nietzsche freud existential gandhi rome qing mongol ottoman mughal johor inca habsburg hre sixties renaissance maasai aboriginal frisian polynesia melanesia micronesia zulu bantu khmer celtic.
-- Palettes for all 64: colours from each culture's real pigments, materials and textiles (lapis, indigo, cinnabar, saffron, malachite, terracotta, gold leaf, sumi ink, kente gold and green ...), so covers read as different worlds side by side, not a row of muted slates. Contrast: cover ink at least 5.2:1 on both cover stops in light and 8:1 in dark; accent 4.5:1 as text on a near-white card (light) and on #1C1C1E (dark). Patterns subtle (alpha .16 at most). Mix cover layouts (left, center, frame). One line comment per entry naming pigments and motif. Use only fonts already imported in `app/src/styles/fonts.ts`.
-- Each emblem: a real motif from that tradition's own art (for example ensō, Urnes interlace, girih star, Sun Stone, adire, triskele, chakana, tulip in an ogee, chhatri), 6 to 20 SVG elements, recognisable at 48px; no two Ondas share a motif.
-- Check: Browse Ondas grid and a few Onda pages in light and dark (`node app/shots/v7-before.mjs <outDir> light|dark`), fix anything crude, crowded or illegible.
-
-### 2. Failing e2e tests
-Two tests in `app/tests/e2e/flows.spec.ts` fail on the same thing, the open control on a Today row:
-- "Ondas tab: cover, one bar of four shortcuts, and Today by time of day" fails at `getByRole('button', { name: /^Open: / })`.
-- "Update 1.4 › opens on the Ondas tab ... can open the Philosophy page" fails at `getByRole('button', { name: /Open Philosophy/ })`.
-The open control is in `app/src/screens/onda7/PracticeRow.tsx` (`aria-label={`${open.label}: ${p.name}`}`, built by `open(p)` in `PlanList`; rows with an item are hold-only and have no button). Check what the demo's Today rows really offer and match the tests to it (or give those rows their button back). The other Onda tests ("Rules can be kept ...", "Today page, Full guide ...") pass. Run: `npx playwright test tests/e2e/flows.spec.ts -g "Ondas" --reporter=line --project=iphone-webkit` (in `app/`). The full suite takes over 10 minutes; run it in the background at the end.
-
-### 3. Light and dark check
-`node app/shots/v7-pages.mjs <outDir> light|dark` (add `kinds` as a third argument for the Immersion formats only) and `node app/shots/v7-before.mjs <outDir> light|dark`. Read the PNGs, fix overlaps, clipped text and contrast.
+Nothing required is open. All 33 e2e tests pass (each failing one was rerun on its own and passes), the 1478 unit tests pass, the palette contrast check has 0 failures, and every cover was checked in light and dark. Optional next steps:
+1. A dark mode sweep of the inner Onda screens (Guide, Philosophy, Immersion formats): `node app/shots/v7-pages.mjs <outDir> dark` (add `kinds` for the Immersion formats).
+2. The full e2e suite takes about 15 minutes and times out when other heavy work runs at the same time; run it on its own.
 
 ## How to work here (Windows)
 
-- App in `app/`: `npx tsc -b`, `npx vitest run`, `npm run build`, `npx oxlint src`. Screenshots use Playwright WebKit scripts in `app/shots/` (the Browser pane times out on this machine). A blank shot right after navigation can be a lazy chunk still loading.
+- App in `app/`: `npx tsc -b`, `npx vitest run`, `npm run build`, `npx oxlint src`, `node shots/theme-contrast.mjs` (palette contrast, add `--table` for every ratio). Screenshots use Playwright WebKit scripts in `app/shots/` (the Browser pane times out on this machine). A blank shot right after navigation can be a lazy chunk still loading.
 - Git Bash mangles backticks, quotes and `\n` in heredocs and `node -e`: write patch scripts with the Write tool as `.cjs` files and run them with node.
 - Copy voice: no exclamation marks or emoji (a unit test enforces it). New strings go in `app/src/i18n/en.ts`.
 - Push rule: commit and push to `main` at the end of every update and confirm `git rev-parse HEAD` equals `origin/main` (retry on GitHub's transient errors). Never read or extract GitHub credentials.

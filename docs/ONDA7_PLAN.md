@@ -32,6 +32,14 @@ Design only. Content (guides, practices, philosophy text) stays as it is.
 - [x] Full guide, Wikipedia app touches: the essence as a serif lede over a hairline, an infobox (origin, era, key figures) with the Onda's name as its header, chapter headings in a serif over a hairline that fold on tap, sources as numbered references with links
 - [x] `LargeTitle` and `ChromeTitle after={px}` in `app/src/nav/Screen.tsx` for iOS large titles on any page
 
+## 7.1
+- [x] Bespoke palettes for all 64 Ondas from each culture's pigments, materials and textiles, contrast checked by `app/shots/theme-contrast.mjs` (0 failures), cover layouts mixed so no three neighbours match
+- [x] A real cover emblem for every Onda from its own art, no two alike (`emblems/a.tsx`, `b1.tsx`, `b2.tsx`)
+- [x] Every cover checked in light and dark (`app/shots/v7-covers.mjs`)
+- [x] Emblem touch-ups: an arch on the Reichskrone, the Zulu beadwork as a clear triangle, larger Johor keris and Kant
+- [x] e2e green (33 tests): the immerse row opens from its hold menu, Philosophy via its shortcut, the Featured row in browse, the Lago link, the Gallery and the final reflection use what today's plan offers, the hold menu test uses a morning practice, version 7.1
+- [x] Version 7.1 with a What's New entry
+
 ## Not in scope
 - Rewriting content
 - The full end-to-end suite (more than 10 minutes); targeted checks only

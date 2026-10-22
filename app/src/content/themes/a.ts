@@ -1,230 +1,269 @@
-import { CLIP, ln, sv, tile, type ThemeSet } from '../themeKit'
+import { CLIP, ln, stripes, sv, tile, type ThemeSet } from '../themeKit'
 
 /* Themes, part A: religions and the first philosophies and worlds.
    Each entry is one tradition's world: palettes for light and dark, the cover material, its display face, numerals,
-   the small line ornament, the cover layout and a pattern drawn in the cover ink. See docs/ONDA7_DESIGN.md. */
+   the small line ornament, the cover layout and a pattern drawn in the cover ink. See docs/ONDA7_DESIGN.md.
+   Covers take their colour from the tradition's own pigments and materials. Some light covers are pale grounds
+   (paper, glaze, gold leaf) with a dark ink; every ink reads on both stops (5.2:1 light, 8:1 dark). */
+
+/** A small SVG tile run once along an edge at `y` (as `tile`, which runs it along the bottom). */
+const band = (w: number, h: number, body: string, y = '0') => (i: string) =>
+  `${sv(`<svg xmlns='http://www.w3.org/2000/svg' width='${w}' height='${h}'>${body.replace(/\$/g, `rgba(${i},`)}</svg>`)} repeat-x 0 ${y}/${w}px ${h}px`
 
 export const THEMES_A: ThemeSet = {
+  // Imperial porphyry and Pentelic marble; a meander under porphyry flecks. The Stoa Poikile colonnade.
   stoic: {
-    light: { paper: '#D5DCE8', accent: '#5B6F8F', cover: ['#546684', '#39455A'], ink: '#FBF7EF' },
-    dark: { paper: '#2A3344', accent: '#8EA3C6', cover: ['#3F4D64', '#293241'], ink: '#F3EEE4' },
-    font: 'Cinzel,serif', glyph: 'ΑΡΕΤΗ', numerals: 'roman', ornament: 'column', layout: 'frame', caps: true, track: '.05em',
-    mark: { shape: '10px' },
-    pattern: (i) => `${sv(`<svg xmlns='http://www.w3.org/2000/svg' width='24' height='16'><path d='M0 14H3V2H21V12H9V6H15V9M21 14H24' fill='none' stroke='rgba(${i},.16)' stroke-width='1.5'/></svg>`)} repeat-x 0 calc(100% - 6px)/24px 16px`,
+    light: { paper: '#EEDFE1', accent: '#7E3646', cover: ['#6E2B36', '#481A23'], ink: '#F8F3EA' },
+    dark: { paper: '#3A2329', accent: '#E3A1AE', cover: ['#45202A', '#2A1218'], ink: '#F3EDE3' },
+    font: "Cinzel,'GFS Didot',serif", glyph: 'ΑΡΕΤΗ', numerals: 'roman', ornament: 'column', layout: 'frame', caps: true, track: '.05em',
+    mark: { shape: '4px' },
+    pattern: (i) =>
+      `${band(24, 16, ln('M0 14H3V2H21V12H9V6H15V9M21 14H24', '.15', 1.4), 'calc(100% - 12px)')(i)},${tile(23, 19, "<g fill='$.13)'><circle cx='3' cy='4' r='.7'/><circle cx='14' cy='2' r='.5'/><circle cx='9' cy='11' r='.8'/><circle cx='19' cy='9' r='.6'/><circle cx='5' cy='16' r='.5'/><circle cx='17' cy='16' r='.7'/></g>")(i)}`,
   },
+  // Unbleached kozo washi and sumi ink, a vermilion seal for the accent. Raked gravel rings; a brushed ensō.
   zen: {
-    light: { paper: '#E6E2D6', accent: '#6F6C5C', cover: ['#666355', '#45433A'], ink: '#FBF7EF' },
-    dark: { paper: '#37352C', accent: '#A8A48F', cover: ['#524F44', '#35332C'], ink: '#F3EEE4' },
+    light: { paper: '#F1ECE1', accent: '#A8382A', cover: ['#E8E0CF', '#D3C7AF'], ink: '#1C1A17' },
+    dark: { paper: '#2D2B27', accent: '#EC8A74', cover: ['#2B2926', '#161513'], ink: '#EEE8DC' },
     font: "'Shippori Mincho',serif", glyph: '禅', numerals: 'kanji', ornament: 'enso', layout: 'left',
     mark: { shape: '50%' },
-    pattern: (i) => `repeating-radial-gradient(circle at 100% 0,transparent 0 14px,rgba(${i},.07) 14px 15px)`,
+    pattern: (i) => `repeating-radial-gradient(circle at 92% 18%,transparent 0 13px,rgba(${i},.09) 13px 14px)`,
   },
+  // Song celadon glaze and ink; cloud scrolls. The taijitu within the eight trigrams.
   tao: {
-    light: { paper: '#CFE4DB', accent: '#4C8A78', cover: ['#3B6C5D', '#28493F'], ink: '#FBF7EF' },
-    dark: { paper: '#22382F', accent: '#6FB59F', cover: ['#2F564A', '#1F3830'], ink: '#F3EEE4' },
-    font: "'Cormorant Garamond',serif", glyph: '道', numerals: 'kanji', ornament: 'yinyang', layout: 'left',
+    light: { paper: '#E1EDE4', accent: '#2B7356', cover: ['#B7CEBB', '#93B09D'], ink: '#12241B' },
+    dark: { paper: '#1D302A', accent: '#80CBA9', cover: ['#1C3A30', '#10241D'], ink: '#DCEEE3' },
+    font: "'Cormorant Garamond','Shippori Mincho',serif", glyph: '道', numerals: 'kanji', ornament: 'yinyang', layout: 'center',
     mark: { shape: '50%' },
-    pattern: (i) => `${sv(`<svg xmlns='http://www.w3.org/2000/svg' width='40' height='14'><path d='M0 7Q10 0 20 7T40 7' fill='none' stroke='rgba(${i},.14)' stroke-width='1.2'/></svg>`)} 0 0/40px 14px`,
+    pattern: tile(46, 28, ln('M2 22C2 14 12 13 13 19C13.5 23 8.5 23.5 8 20M13 19C15 11 27 10 29 17C30 22 24 23 23.5 19.5M29 17C33 15 38 16 42 20', '.12', 1.2)),
   },
+  // Monastic maroon wool and saffron; prayer flags along the top. The endless knot.
   tibet: {
-    light: { paper: '#F3DAB8', accent: '#C26A2C', cover: ['#975322', '#673817'], ink: '#FBF7EF' },
-    dark: { paper: '#46331D', accent: '#E08A4A', cover: ['#723E19', '#4A2810'], ink: '#F3EEE4' },
-    font: 'Marcellus,serif', glyph: 'ཨོཾ', numerals: 'tibetan', ornament: 'lotus', layout: 'left',
+    light: { paper: '#F5E4C8', accent: '#9B2C2D', cover: ['#741F25', '#4D1217'], ink: '#F6C75A' },
+    dark: { paper: '#3E2219', accent: '#F2BC52', cover: ['#4D1418', '#2F0B0E'], ink: '#F6C75A' },
+    font: 'Marcellus,serif', glyph: 'སྙིང་རྗེ', numerals: 'tibetan', ornament: 'lotus', layout: 'center',
     mark: { shape: '50%' },
-    pattern: () => 'linear-gradient(90deg,#4F8EF7 0 20%,#FFFFFF 20% 40%,#F2745A 40% 60%,#3FA877 60% 80%,#E8B93A 80% 100%) 0 0/100% 7px no-repeat',
+    pattern: band(70, 24, "<path d='M0 3Q35 11 70 3' fill='none' stroke='$.16)' stroke-width='1'/><g fill='$.09)' stroke='$.15)' stroke-width='.8'><path d='M5 4.9h9v10h-9z'/><path d='M19 6.6h9v10h-9z'/><path d='M33 7h9v10h-9z'/><path d='M47 6.1h9v10h-9z'/><path d='M61 4h9v10h-9z'/></g>"),
   },
+  // Sandalwood paste and kumkum; a lotus petal border. The Sri Yantra.
   vedanta: {
-    light: { paper: '#F6D6C6', accent: '#D9663F', cover: ['#9B492D', '#69321F'], ink: '#FBF7EF' },
-    dark: { paper: '#4A2A1E', accent: '#F0835C', cover: ['#7C3A24', '#512617'], ink: '#F3EEE4' },
-    font: 'Spectral,serif', glyph: 'ॐ', numerals: 'devanagari', ornament: 'sun', layout: 'left',
+    light: { paper: '#F6E6D3', accent: '#A4471C', cover: ['#DDB78D', '#C6976A'], ink: '#3A1B0C' },
+    dark: { paper: '#432A1B', accent: '#F09A62', cover: ['#4A2E1A', '#2E1B0E'], ink: '#F2D5B2' },
+    font: "Spectral,Martel,serif", glyph: 'ॐ', numerals: 'devanagari', ornament: 'sun', layout: 'left',
     mark: { shape: '50%' },
-    pattern: (i) => `repeating-conic-gradient(from 0deg at 50% 120%,rgba(${i},.07) 0 5deg,transparent 5deg 10deg)`,
+    pattern: tile(22, 13, ln('M11 13C5 9 5 4 11 1C17 4 17 9 11 13ZM0 13C3 10.5 5 10 6 10M22 13C19 10.5 17 10 16 10', '.14', 1.1), true),
   },
+  // The violet night of the Red Book's mandalas; circles squared in a lattice. The alchemists' squared circle.
   jung: {
-    light: { paper: '#D9D3EE', accent: '#6F63C2', cover: ['#665BB2', '#453E79'], ink: '#FBF7EF' },
-    dark: { paper: '#2F2A4A', accent: '#9A8EE6', cover: ['#4D4585', '#322D56'], ink: '#F3EEE4' },
-    font: "'Libre Caslon Text',serif", glyph: 'Ψ', numerals: 'roman', ornament: 'mandala', layout: 'left',
+    light: { paper: '#E4DDF3', accent: '#6047BE', cover: ['#4F3A8E', '#32245E'], ink: '#F6F2FC' },
+    dark: { paper: '#2C2547', accent: '#B4A2F2', cover: ['#35285F', '#1F173C'], ink: '#F1ECF8' },
+    font: "'Libre Caslon Text',serif", glyph: 'Selbst', numerals: 'roman', ornament: 'mandala', layout: 'left',
     mark: { shape: '38%' },
-    pattern: (i) => `radial-gradient(rgba(${i},.2) 1px,transparent 1.5px) 0 0/14px 14px`,
+    pattern: tile(34, 34, "<g fill='none' stroke='$.08)' stroke-width='1'><circle cx='17' cy='17' r='9'/><path d='M10.6 10.6H23.4V23.4H10.6Z'/></g>"),
   },
+  // Smoked buckskin and red ochre; a parfleche band. The thunderbird.
   animism: {
-    light: { paper: '#E8CFB8', accent: '#A8613A', cover: ['#8F5231', '#613821'], ink: '#FBF7EF' },
-    dark: { paper: '#44301F', accent: '#CB8459', cover: ['#724227', '#4A2B19'], ink: '#F3EEE4' },
-    font: "'Zilla Slab',serif", glyph: 'Kin', numerals: 'latin', ornament: 'feather', layout: 'center',
+    light: { paper: '#EFE0D0', accent: '#8A5232', cover: ['#84553A', '#583824'], ink: '#FBF3E8' },
+    dark: { paper: '#3D2C21', accent: '#DDA275', cover: ['#4F3424', '#312014'], ink: '#F5EBDD' },
+    font: "'Zilla Slab',serif", glyph: 'Manidoo', numerals: 'latin', ornament: 'feather', layout: 'center',
     mark: { shape: '50%', clip: CLIP.HEXAGON },
-    pattern: (i) => `linear-gradient(135deg,rgba(${i},.07) 25%,transparent 25%) 0 0/22px 22px,linear-gradient(225deg,rgba(${i},.07) 25%,transparent 25%) 0 0/22px 22px`,
+    pattern: tile(24, 16, "<path d='M0 16L6 7L12 16Z' fill='$.11)'/><path d='M18 5L22 10L18 15L14 10Z' fill='none' stroke='$.15)' stroke-width='1.2'/>", true),
   },
+  // Ndebele house paint: yellow ochre ground, black outlines; stepped geometry. A painted gateway.
   ubuntu: {
-    light: { paper: '#F4DE9E', accent: '#C9962A', cover: ['#795B1A', '#523E12'], ink: '#FBF7EF' },
-    dark: { paper: '#45391A', accent: '#E0B04A', cover: ['#614915', '#3F2F0E'], ink: '#F3EEE4' },
+    light: { paper: '#F8E9BC', accent: '#8A5E0B', cover: ['#F0C64C', '#DCA22C'], ink: '#16120D' },
+    dark: { paper: '#3F3317', accent: '#EEC352', cover: ['#3D2B0C', '#271B07'], ink: '#F3C94F' },
     font: "'Young Serif',serif", glyph: 'Umuntu', numerals: 'latin', ornament: 'rings', layout: 'left',
-    mark: { shape: '50%' },
-    pattern: (i) => `repeating-linear-gradient(90deg,rgba(${i},.09) 0 5px,transparent 5px 13px,rgba(${i},.05) 13px 15px,transparent 15px 24px)`,
+    mark: { shape: '6px' },
+    pattern: tile(40, 40, ln('M0 34H8V26H16V18H24V26H32V34H40M20 18V8M0 3H40', '.09', 1.6)),
   },
+  // The turquoise tile of the Green Dome at Konya; a khatam star lattice. A turning dervish.
   sufi: {
-    light: { paper: '#C2E4E5', accent: '#2E8C94', cover: ['#246D73', '#184A4E'], ink: '#FBF7EF' },
-    dark: { paper: '#1D3A3C', accent: '#4FB3BC', cover: ['#1D575C', '#13393C'], ink: '#F3EEE4' },
+    light: { paper: '#CFEAEA', accent: '#15767F', cover: ['#17707A', '#0F4A52'], ink: '#F2FBFA' },
+    dark: { paper: '#173A3C', accent: '#5CC4CB', cover: ['#11474C', '#0A2D31'], ink: '#ECF6F4' },
     font: 'Amiri,serif', glyph: 'عشق', numerals: 'arabic', ornament: 'star8', layout: 'center',
     mark: { shape: '0', clip: CLIP.OCTAGRAM },
-    pattern: (i) => `${sv(`<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32'><rect x='9' y='9' width='14' height='14' fill='none' stroke='rgba(${i},.09)'/><rect x='9' y='9' width='14' height='14' transform='rotate(45 16 16)' fill='none' stroke='rgba(${i},.09)'/></svg>`)} 0 0/32px 32px`,
+    pattern: tile(32, 32, "<g fill='none' stroke='$.09)'><rect x='9' y='9' width='14' height='14'/><rect x='9' y='9' width='14' height='14' transform='rotate(45 16 16)'/></g>"),
   },
+  // White pine and birch bark; birch lenticels. Thoreau's cabin at Walden.
   transc: {
-    light: { paper: '#CDE4C3', accent: '#4F8A3D', cover: ['#3E6C30', '#2A4921'], ink: '#FBF7EF' },
-    dark: { paper: '#26391F', accent: '#77B562', cover: ['#325626', '#213819'], ink: '#F3EEE4' },
+    light: { paper: '#DDE8DA', accent: '#3A6E45', cover: ['#2F4D33', '#1D3221'], ink: '#F5F2E8' },
+    dark: { paper: '#223128', accent: '#8DC79A', cover: ['#1F3524', '#122016'], ink: '#F0EDE3' },
     font: "'Libre Baskerville',serif", glyph: 'Nature', numerals: 'latin', ornament: 'leaf', layout: 'left', track: '.01em',
     mark: { shape: '50% 0 50% 0' },
-    pattern: (i) => `repeating-linear-gradient(0deg,rgba(${i},.06) 0 1px,transparent 1px 11px)`,
+    pattern: tile(34, 22, ln('M3 5H12M20 12H26M7 18H10M27 3H31', '.12', 1.4)),
   },
+  // Banner red and poster cream; constructivist diagonals. Hammer, sickle and star.
   soviet: {
-    light: { paper: '#DCD7D2', accent: '#B3261E', cover: ['#B3261E', '#7A1A14'], ink: '#FBF7EF' },
-    dark: { paper: '#34302D', accent: '#F0705F', cover: ['#8F1E18', '#5D1410'], ink: '#F3EEE4' },
+    light: { paper: '#EEDFDA', accent: '#B3141C', cover: ['#BA151E', '#760A10'], ink: '#FCF5E8' },
+    dark: { paper: '#352828', accent: '#F2766A', cover: ['#7C0D13', '#4C070B'], ink: '#F5ECDD' },
     font: 'Oswald,sans-serif', glyph: 'МИР', numerals: 'latin', ornament: 'star5', layout: 'frame', caps: true, track: '.05em',
     mark: { shape: '0', clip: 'polygon(0 0,100% 0,100% 68%,68% 100%,0 100%)' },
-    pattern: (i) => `repeating-linear-gradient(-45deg,rgba(${i},.07) 0 12px,transparent 12px 24px)`,
+    pattern: stripes(-45, '.07', 12, 24),
   },
+  // Adire indigo cloth; resist-dyed circles. The opon Ifá.
   yoruba: {
-    light: { paper: '#CBD0EC', accent: '#343C99', cover: ['#343C99', '#232968'], ink: '#FBF7EF' },
-    dark: { paper: '#262B57', accent: '#8E98F0', cover: ['#2A307A', '#1B1F4F'], ink: '#F3EEE4' },
-    font: 'Fraunces,serif', glyph: 'Àṣẹ', numerals: 'latin', ornament: 'drum', layout: 'left',
+    light: { paper: '#D8DAF0', accent: '#3A43A8', cover: ['#252C6A', '#161A43'], ink: '#F3F2FB' },
+    dark: { paper: '#242955', accent: '#9AA2F4', cover: ['#1B2052', '#0F1232'], ink: '#EEEDF8' },
+    font: 'Fraunces,serif', glyph: 'Orí', numerals: 'latin', ornament: 'drum', layout: 'center',
     mark: { shape: '50%' },
-    pattern: (i) => `${sv(`<svg xmlns='http://www.w3.org/2000/svg' width='28' height='28'><circle cx='14' cy='14' r='8' fill='none' stroke='rgba(${i},.14)' stroke-width='1.5'/><circle cx='14' cy='14' r='2.4' fill='rgba(${i},.16)'/></svg>`)} 0 0/28px 28px`,
+    pattern: tile(28, 28, "<circle cx='14' cy='14' r='8' fill='none' stroke='$.13)' stroke-width='1.4'/><circle cx='14' cy='14' r='2.4' fill='$.15)'/><g fill='$.12)'><circle cx='0' cy='0' r='1.6'/><circle cx='28' cy='0' r='1.6'/><circle cx='0' cy='28' r='1.6'/><circle cx='28' cy='28' r='1.6'/></g>"),
   },
+  // Xiuhitl turquoise mosaic and obsidian; a stepped fret. The Sun Stone.
   aztec: {
-    light: { paper: '#EBCBD3', accent: '#9E2A5B', cover: ['#9E2A5B', '#6B1D3E'], ink: '#FBF7EF' },
-    dark: { paper: '#4A1D30', accent: '#E07DA6', cover: ['#7E2249', '#52162F'], ink: '#F3EEE4' },
-    font: 'Bevan,serif', glyph: 'Nahua', numerals: 'latin', ornament: 'sunstone', layout: 'left',
+    light: { paper: '#D3EEEC', accent: '#137A78', cover: ['#6CC2BC', '#44A09C'], ink: '#0B1D1C' },
+    dark: { paper: '#173A3B', accent: '#59CFC8', cover: ['#1B1E1F', '#0D0F10'], ink: '#7FD8CF' },
+    font: 'Bevan,serif', glyph: 'Ollin', numerals: 'latin', ornament: 'sunstone', layout: 'left',
     mark: { shape: '14%' },
-    pattern: (i) => `${sv(`<svg xmlns='http://www.w3.org/2000/svg' width='32' height='16'><path d='M0 16V9H7V2H17V9H11V16' fill='none' stroke='rgba(${i},.14)' stroke-width='1.6'/></svg>`)} 0 100%/32px 16px repeat-x`,
+    pattern: tile(32, 16, ln('M0 16V9H7V2H17V9H11V16', '.14', 1.6), true),
   },
+  // Lapis lazuli and gold leaf; the starred ceilings of the tombs. The ankh raised on the djed.
   egypt: {
-    light: { paper: '#EBDDB5', accent: '#8F6A12', cover: ['#846211', '#5A430C'], ink: '#FBF7EF' },
-    dark: { paper: '#473B1C', accent: '#E2B84B', cover: ['#64490D', '#412F08'], ink: '#F3EEE4' },
-    font: "'Cinzel Decorative',serif", glyph: 'Maat', numerals: 'latin', ornament: 'ankh', layout: 'left',
+    light: { paper: '#E9E1C9', accent: '#2A4EA5', cover: ['#244A9E', '#152E68'], ink: '#F1D07A' },
+    dark: { paper: '#1E2742', accent: '#EBC76A', cover: ['#172E68', '#0D1C44'], ink: '#F1D07A' },
+    font: "'Cinzel Decorative',serif", glyph: '𓋹𓈖𓐍', numerals: 'latin', ornament: 'ankh', layout: 'frame',
     mark: { shape: '50% 50% 10px 10px' },
-    pattern: (i) => `repeating-linear-gradient(90deg,rgba(${i},.08) 0 2px,transparent 2px 10px)`,
+    pattern: tile(30, 30, "<g fill='$.13)'><path d='M8 4L9.2 7.6H13L9.9 9.8L11.1 13.4L8 11.2L4.9 13.4L6.1 9.8L3 7.6H6.8Z'/><path d='M23 19L24.2 22.6H28L24.9 24.8L26.1 28.4L23 26.2L19.9 28.4L21.1 24.8L18 22.6H21.8Z'/></g>"),
   },
+  // Emerald and alchemical gold; a fine lattice. The caduceus.
   hermes: {
-    light: { paper: '#C8E5D3', accent: '#1D7A55', cover: ['#1B704E', '#124C35'], ink: '#FBF7EF' },
-    dark: { paper: '#1B3A2C', accent: '#4FC08B', cover: ['#165A3E', '#0E3B28'], ink: '#F3EEE4' },
-    font: "'IM Fell English',serif", glyph: '☿', numerals: 'roman', ornament: 'hexagram', layout: 'center',
+    light: { paper: '#D6EADF', accent: '#127052', cover: ['#0F5B44', '#093B2C'], ink: '#EED48E' },
+    dark: { paper: '#18352A', accent: '#62CBA0', cover: ['#0A3B2C', '#05251B'], ink: '#EED48E' },
+    font: "'IM Fell English','GFS Didot',serif", glyph: 'ΕΡΜΗΣ', numerals: 'roman', ornament: 'hexagram', layout: 'center',
     mark: { shape: '8px', clip: 'polygon(50% 0%,100% 50%,50% 100%,0% 50%)' },
     pattern: (i) => `repeating-linear-gradient(45deg,rgba(${i},.06) 0 1px,transparent 1px 14px),repeating-linear-gradient(-45deg,rgba(${i},.06) 0 1px,transparent 1px 14px)`,
   },
+  // Murex purple on Coptic linen; scattered sparks of light. The ouroboros.
   gnostic: {
-    light: { paper: '#E7D9DE', accent: '#7A4A66', cover: ['#7A4A66', '#533245'], ink: '#FBF7EF' },
-    dark: { paper: '#3B2633', accent: '#C48AAA', cover: ['#623B52', '#402635'], ink: '#F3EEE4' },
-    font: 'Forum,serif', glyph: 'Gnosis', numerals: 'greek', ornament: 'pleroma', layout: 'left',
+    light: { paper: '#EEDDEB', accent: '#7A3373', cover: ['#5C2453', '#3B1536'], ink: '#F4EBDD' },
+    dark: { paper: '#36203A', accent: '#D9A0D2', cover: ['#3A1838', '#230E22'], ink: '#EFE5D5' },
+    font: "Forum,'GFS Didot',serif", glyph: 'ΓΝΩΣΙΣ', numerals: 'greek', ornament: 'pleroma', layout: 'left',
     mark: { shape: '50%' },
-    pattern: (i) => `repeating-radial-gradient(circle at 0 100%,transparent 0 16px,rgba(${i},.07) 16px 17px)`,
+    pattern: tile(46, 46, "<path d='M12 8L13 12L17 13L13 14L12 18L11 14L7 13L11 12ZM34 29L34.7 32.3L38 33L34.7 33.7L34 37L33.3 33.7L30 33L33.3 32.3Z' fill='$.15)'/>"),
   },
+  // Woad-dyed wool deepening to fjord water, walrus ivory ink; a two strand plait. The Oseberg ship.
   norse: {
-    light: { paper: '#CFE0E6', accent: '#2B6C86', cover: ['#2B6C86', '#1D495B'], ink: '#FBF7EF' },
-    dark: { paper: '#1C3540', accent: '#7FC0D8', cover: ['#205165', '#153542'], ink: '#F3EEE4' },
-    font: 'Metamorphous,serif', glyph: 'Wyrd', numerals: 'latin', ornament: 'longship', layout: 'center', track: '.01em',
+    light: { paper: '#D8E3EE', accent: '#2A5F8A', cover: ['#24506E', '#13304A'], ink: '#F2EFE7' },
+    dark: { paper: '#1A2F40', accent: '#86BEE3', cover: ['#173650', '#0B1E30'], ink: '#EEEBE3' },
+    font: 'Metamorphous,serif', glyph: 'Urðr', numerals: 'latin', ornament: 'longship', layout: 'frame', track: '.01em',
     mark: { shape: '0', clip: CLIP.SHIELD },
-    pattern: (i) => `${sv(`<svg xmlns='http://www.w3.org/2000/svg' width='24' height='14'><path d='M0 12L6 3L12 12L18 3L24 12' fill='none' stroke='rgba(${i},.15)' stroke-width='1.5'/></svg>`)} repeat-x 0 calc(100% - 6px)/24px 14px`,
+    pattern: tile(24, 14, ln('M0 4C6 4 6 11 12 11C18 11 18 4 24 4M0 11C6 11 6 4 12 4C18 4 18 11 24 11', '.15', 1.4), true),
   },
+  // Olive wood and Attic clay; the running dog scroll. Diogenes' pithos.
   cynic: {
-    light: { paper: '#E6E5BF', accent: '#77781F', cover: ['#64651B', '#444512'], ink: '#FBF7EF' },
-    dark: { paper: '#38381A', accent: '#C9CA6A', cover: ['#505116', '#34350E'], ink: '#F3EEE4' },
-    font: 'Vollkorn,serif', glyph: 'κύων', numerals: 'greek', ornament: 'lantern', layout: 'left',
+    light: { paper: '#E8E6C4', accent: '#6A691C', cover: ['#5F5E22', '#3E3D14'], ink: '#FBF7EA' },
+    dark: { paper: '#36351B', accent: '#CDCB6E', cover: ['#3C3B15', '#25240C'], ink: '#F5F0E0' },
+    font: "Vollkorn,'GFS Didot',serif", glyph: 'κύων', numerals: 'greek', ornament: 'lantern', layout: 'left',
     mark: { shape: '50%' },
-    pattern: (i) => `${sv(`<svg xmlns='http://www.w3.org/2000/svg' width='28' height='14'><path d='M0 14Q14 -4 28 14' fill='none' stroke='rgba(${i},.13)' stroke-width='1.4'/></svg>`)} repeat-x 0 100%/28px 14px`,
+    pattern: tile(28, 14, ln('M0 11C8 11 9 3 15 3C19.5 3 20.5 8 17.5 8.5C15.5 9 15 6.5 17 6.3M15 3C21 3 22 11 28 11', '.14', 1.3), true),
   },
+  // Cinnabar lacquer and gold; the huiwen fret. A bronze ding.
   confucian: {
-    light: { paper: '#F0E2CE', accent: '#9B2D20', cover: ['#9B2D20', '#691F16'], ink: '#FBF7EF' },
-    dark: { paper: '#40221C', accent: '#EE8E78', cover: ['#7C241A', '#511711'], ink: '#F3EEE4' },
-    font: "'Noto Serif SC',serif", glyph: '仁', numerals: 'kanji', ornament: 'seal', layout: 'left',
-    mark: { shape: '7px' },
-    pattern: (i) => `${sv(`<svg xmlns='http://www.w3.org/2000/svg' width='28' height='28'><path d='M0 14H8V6H20V22H8V14M20 14H28' fill='none' stroke='rgba(${i},.09)' stroke-width='1.3'/></svg>`)} 0 0/28px 28px`,
+    light: { paper: '#F2E2CD', accent: '#9B2D20', cover: ['#8D2A1C', '#5A1910'], ink: '#F2D490' },
+    dark: { paper: '#41231C', accent: '#EE9A84', cover: ['#581A11', '#370E08'], ink: '#F2D490' },
+    font: "'Noto Serif SC','Shippori Mincho',serif", glyph: '仁', numerals: 'kanji', ornament: 'seal', layout: 'frame',
+    mark: { shape: '4px' },
+    pattern: tile(28, 28, ln('M0 14H8V6H20V22H8V14M20 14H28', '.09', 1.3)),
   },
+  // Samarra lustre: amber glaze and cream; an arcade along the foot. The spiral minaret.
   abbasid: {
-    light: { paper: '#E5DCC6', accent: '#3A3530', cover: ['#3A3530', '#272421'], ink: '#FBF7EF' },
-    dark: { paper: '#262320', accent: '#D9BD7A', cover: ['#2E2A26', '#1E1B19'], ink: '#F3EEE4' },
+    light: { paper: '#EFE3C8', accent: '#7F5A17', cover: ['#6E4B16', '#48300C'], ink: '#FBF3E2' },
+    dark: { paper: '#3A2E1A', accent: '#DDB766', cover: ['#45300D', '#2B1E07'], ink: '#F4EBD8' },
     font: "'Reem Kufi',sans-serif", glyph: 'حكمة', numerals: 'arabic', ornament: 'arch', layout: 'left',
     mark: { shape: '50%' },
-    pattern: (i) => `${sv(`<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><path d='M2 22V12C2 7 6 5 11 1.5C16 5 20 7 20 12V22' fill='none' stroke='rgba(${i},.13)' stroke-width='1.3'/></svg>`)} repeat-x 0 100%/22px 22px`,
+    pattern: tile(22, 22, ln('M2 22V12C2 7 6 5 11 1.5C16 5 20 7 20 12V22', '.13', 1.3), true),
   },
+  // Black lacquer and gold leaf; a sunburst. The Chrysler crown.
   twenties: {
-    light: { paper: '#EBDDC4', accent: '#5A2A72', cover: ['#5A2A72', '#3D1D4E'], ink: '#FBF7EF' },
-    dark: { paper: '#1F1826', accent: '#E3B94F', cover: ['#48225B', '#2F163B'], ink: '#F3EEE4' },
+    light: { paper: '#EDE4D0', accent: '#7C5E14', cover: ['#252327', '#111013'], ink: '#E8C873' },
+    dark: { paper: '#26221C', accent: '#E3BF62', cover: ['#1C1B1F', '#0D0C0F'], ink: '#E8C873' },
     font: 'Limelight,serif', glyph: 'Jazz', numerals: 'roman', ornament: 'fan', layout: 'frame', caps: true, track: '.06em',
     mark: { shape: '0', clip: CLIP.DECO },
-    pattern: (i) => `${sv(`<svg xmlns='http://www.w3.org/2000/svg' width='28' height='18'><path d='M0 18L14 3L28 18M6 18L14 9.5L22 18' fill='none' stroke='rgba(${i},.14)' stroke-width='1.3'/></svg>`)} repeat-x 0 100%/28px 18px`,
+    pattern: (i) => `repeating-conic-gradient(from -90deg at 50% 100%,rgba(${i},.08) 0 3deg,transparent 3deg 9deg)`,
   },
+  // Havana pastel stucco and tobacco brown; medio punto fanlights. A royal palm before the mogotes.
   cuba: {
-    light: { paper: '#F8D6DC', accent: '#CF3F6B', cover: ['#AF355A', '#77243D'], ink: '#FBF7EF' },
-    dark: { paper: '#4A1F2C', accent: '#F58BA8', cover: ['#8C2A48', '#5B1B2F'], ink: '#F3EEE4' },
+    light: { paper: '#FADDE3', accent: '#B03A5B', cover: ['#F2B4BF', '#E396A6'], ink: '#3A1620' },
+    dark: { paper: '#47202B', accent: '#F590AE', cover: ['#5A1E2E', '#38121C'], ink: '#F8E6EA' },
     font: "'Lobster Two',cursive", glyph: 'Son', numerals: 'latin', ornament: 'palm', layout: 'left',
     mark: { shape: '36%' },
-    pattern: (i) => `${sv(`<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32'><g fill='none' stroke='rgba(${i},.1)' stroke-width='1.3'><circle cx='0' cy='0' r='11'/><circle cx='32' cy='0' r='11'/><circle cx='0' cy='32' r='11'/><circle cx='32' cy='32' r='11'/><path d='M16 10L22 16L16 22L10 16Z'/></g></svg>`)} 0 0/32px 32px`,
+    pattern: tile(40, 22, "<g fill='none' stroke='$.13)' stroke-width='1.2'><path d='M3 22A17 17 0 0 1 37 22M11 22A9 9 0 0 1 29 22M20 13V5M13.6 15.6L8 10M26.4 15.6L32 10'/></g>", true),
   },
+  // Marigold garlands and kumkum; a toran along the top. The kalasha.
   hindu: {
-    light: { paper: '#FFE3B3', accent: '#D96A00', cover: ['#9B4C00', '#693400'], ink: '#FBF7EF' },
-    dark: { paper: '#4A2E0E', accent: '#FFA640', cover: ['#7C3D00', '#512800'], ink: '#F3EEE4' },
-    font: 'Eczar,serif', glyph: 'धर्म', numerals: 'devanagari', ornament: 'diya', layout: 'left',
+    light: { paper: '#FFE6BD', accent: '#B4500A', cover: ['#F49D3C', '#E08428'], ink: '#4A0A16' },
+    dark: { paper: '#46290E', accent: '#FFAA45', cover: ['#4A1E04', '#301302'], ink: '#FFC170' },
+    font: 'Eczar,serif', glyph: 'धर्म', numerals: 'devanagari', ornament: 'diya', layout: 'center',
     mark: { shape: '50%' },
-    pattern: tile(16, 12, "<circle cx='8' cy='7' r='4' fill='$.09)'/><circle cx='8' cy='7' r='1.5' fill='$.12)'/>", true),
+    pattern: band(24, 20, "<path d='M0 2Q12 10 24 2' fill='none' stroke='$.14)' stroke-width='1.2'/><g fill='$.12)'><circle cx='5.5' cy='4.8' r='2.6'/><circle cx='12' cy='6' r='2.6'/><circle cx='18.5' cy='4.8' r='2.6'/><path d='M12 9C10 12 10.5 15 12 18.5C13.5 15 14 12 12 9Z'/></g>"),
   },
+  // Lotus pink and rose madder of temple banners; lotus scallops. A five storey pagoda.
   mahayana: {
-    light: { paper: '#F1DCE5', accent: '#A8507A', cover: ['#9B4A70', '#69324C'], ink: '#FBF7EF' },
-    dark: { paper: '#3F2230', accent: '#E794BA', cover: ['#753755', '#4C2437'], ink: '#F3EEE4' },
-    font: "'Zen Old Mincho',serif", glyph: '空', numerals: 'kanji', ornament: 'wheel', layout: 'left',
+    light: { paper: '#F3DCE6', accent: '#9C3F68', cover: ['#8C3A5E', '#5C2440'], ink: '#FCF1F4' },
+    dark: { paper: '#40222F', accent: '#EE9CC0', cover: ['#5A2440', '#391628'], ink: '#F6E9EE' },
+    font: "'Zen Old Mincho','Shippori Mincho',serif", glyph: '空', numerals: 'kanji', ornament: 'wheel', layout: 'left',
     mark: { shape: '50% 50% 50% 50%/62% 62% 38% 38%' },
     pattern: tile(28, 16, ln('M0 16Q7 2 14 16Q21 2 28 16M7 16Q14 6 21 16'), true),
   },
+  // Saffron robe cloth and gold leaf; bodhi leaves. A bell chedi.
   theravada: {
-    light: { paper: '#EBD4CE', accent: '#7E2A2A', cover: ['#7E2A2A', '#561D1D'], ink: '#FBF7EF' },
-    dark: { paper: '#3B1D1C', accent: '#E38F86', cover: ['#652222', '#421616'], ink: '#F3EEE4' },
-    font: 'Trirong,serif', glyph: 'Dhamma', numerals: 'thai', ornament: 'stupa', layout: 'left',
+    light: { paper: '#F8E2C8', accent: '#A4501A', cover: ['#9A4C14', '#68310B'], ink: '#FFF6EA' },
+    dark: { paper: '#43291A', accent: '#F6A964', cover: ['#6A300A', '#432005'], ink: '#FBEBD6' },
+    font: 'Trirong,serif', glyph: 'ธรรม', numerals: 'thai', ornament: 'stupa', layout: 'center',
     mark: { shape: '50%' },
-    pattern: (i) => `repeating-linear-gradient(112deg,rgba(${i},.05) 0 2px,transparent 2px 19px)`,
+    pattern: tile(30, 34, "<path d='M15 6C9 9 7 15 10 20C11.5 22.5 14 24 15 28C16 24 18.5 22.5 20 20C23 15 21 9 15 6ZM15 8V25' fill='none' stroke='$.11)' stroke-width='1.1'/>"),
   },
+  // Vermilion shu lacquer and white paper; shide hung along the top. A torii with its shimenawa.
   shinto: {
-    light: { paper: '#F6F1EA', accent: '#D43C27', cover: ['#B33321', '#7A2316'], ink: '#FBF7EF' },
-    dark: { paper: '#2E2522', accent: '#F58270', cover: ['#8F291A', '#5D1B11'], ink: '#F3EEE4' },
-    font: "'Kaisei Opti',serif", glyph: '神', numerals: 'kanji', ornament: 'torii', layout: 'left',
+    light: { paper: '#F8EDE6', accent: '#BC3A22', cover: ['#B5351D', '#842212'], ink: '#FFF8F0' },
+    dark: { paper: '#2E2522', accent: '#F58270', cover: ['#7E2010', '#4F1308'], ink: '#F8EDE3' },
+    font: "'Kaisei Opti','Shippori Mincho',serif", glyph: '神', numerals: 'kanji', ornament: 'torii', layout: 'left',
     mark: { shape: '8px' },
-    pattern: tile(20, 18, ln('M5 0V4L11 8L5 12L11 16V18', '.13'), true),
+    pattern: band(44, 24, "<path d='M0 2.5H44' stroke='$.16)' stroke-width='2'/><path d='M14 3V7L19 10.5L14 14L19 17.5L14 21' fill='none' stroke='$.15)' stroke-width='1.2'/>"),
   },
+  // White Makrana marble and saffron; the three jewels under the crescent. The hand of ahimsa.
   jain: {
-    light: { paper: '#F7ECBE', accent: '#94760A', cover: ['#7D6408', '#554405'], ink: '#FBF7EF' },
-    dark: { paper: '#3E3612', accent: '#E8CB52', cover: ['#5E4B06', '#3D3104'], ink: '#F3EEE4' },
-    font: "'Rozha One',serif", glyph: 'अहिंसा', numerals: 'devanagari', ornament: 'hand', layout: 'left',
+    light: { paper: '#F6EDE2', accent: '#A63E14', cover: ['#F2ECE2', '#DCD2C1'], ink: '#7E2810' },
+    dark: { paper: '#3A2A1E', accent: '#F4A060', cover: ['#3A2A1E', '#231910'], ink: '#F6E5CE' },
+    font: "'Rozha One',serif", glyph: 'अहिंसा', numerals: 'devanagari', ornament: 'hand', layout: 'center',
     mark: { shape: '50%' },
-    pattern: tile(26, 26, "<g fill='$.13)'><circle cx='9' cy='9' r='1.3'/><circle cx='17' cy='9' r='1.3'/><circle cx='9' cy='17' r='1.3'/><circle cx='17' cy='17' r='1.3'/></g>"),
+    pattern: tile(30, 26, "<g fill='$.13)'><circle cx='9' cy='15' r='1.4'/><circle cx='15' cy='15' r='1.4'/><circle cx='21' cy='15' r='1.4'/></g><path d='M10 9.5Q15 12.5 20 9.5' fill='none' stroke='$.13)' stroke-width='1.2'/>"),
   },
+  // Nihang blue and kesri saffron; phulkari stitches. The Khanda.
   sikh: {
-    light: { paper: '#D3E3F5', accent: '#0E4C92', cover: ['#0E4C92', '#0A3463'], ink: '#FBF7EF' },
-    dark: { paper: '#14283F', accent: '#F2A33A', cover: ['#0B3D75', '#07284C'], ink: '#F3EEE4' },
-    font: "'Anek Gurmukhi',sans-serif", glyph: 'ੴ', numerals: 'gurmukhi', ornament: 'khanda', layout: 'left',
+    light: { paper: '#FBE6C6', accent: '#0E4C92', cover: ['#173A73', '#0D244C'], ink: '#F7B54E' },
+    dark: { paper: '#14283F', accent: '#F2A33A', cover: ['#0E2550', '#081833'], ink: '#F7B54E' },
+    font: "'Anek Gurmukhi',sans-serif", glyph: 'ੴ', numerals: 'gurmukhi', ornament: 'khanda', layout: 'frame',
     mark: { shape: '50%' },
-    pattern: tile(30, 30, "<g fill='none' stroke='$.10)' stroke-width='1.4'><circle cx='15' cy='15' r='6'/><path d='M4 6C1 13 2 21 9 26M26 6C29 13 28 21 21 26'/></g>"),
+    pattern: tile(24, 24, "<path d='M12 3L21 12L12 21L3 12Z' fill='none' stroke='$.1)' stroke-width='1.2'/><path d='M12 8L16 12L12 16L8 12Z' fill='$.1)'/>"),
   },
+  // Ash and the ember of the sacred fire; Persepolis merlons. The Faravahar.
   zoroaster: {
-    light: { paper: '#F6E4D2', accent: '#B5451B', cover: ['#A73F19', '#722B11'], ink: '#FBF7EF' },
-    dark: { paper: '#2B1B13', accent: '#FF9D52', cover: ['#863214', '#57210D'], ink: '#F3EEE4' },
-    font: "'Gilda Display',serif", glyph: 'Asha', numerals: 'persian', ornament: 'flame', layout: 'left',
+    light: { paper: '#F6E4D2', accent: '#B0431A', cover: ['#3B3532', '#211D1B'], ink: '#F7B26C' },
+    dark: { paper: '#2B1B13', accent: '#FF9D52', cover: ['#272220', '#151211'], ink: '#F7B26C' },
+    font: "'Gilda Display',serif", glyph: 'Asha', numerals: 'persian', ornament: 'flame', layout: 'center',
     mark: { shape: '50% 50% 50% 50%/70% 70% 30% 30%' },
-    pattern: tile(18, 16, ln('M9 16C3 12 6 7 9 1C12 7 15 12 9 16Z', '.13'), true),
+    pattern: tile(20, 12, "<path d='M0 12V9H4V5H8V1H12V5H16V9H20V12Z' fill='$.1)'/>", true),
   },
+  // Techelet blue and tallit white; woven bands. The menorah of the Temple.
   judaism: {
-    light: { paper: '#E5E9F3', accent: '#1C2E6B', cover: ['#1C2E6B', '#131F49'], ink: '#FBF7EF' },
-    dark: { paper: '#171F3A', accent: '#9DB2F2', cover: ['#162556', '#0E1838'], ink: '#F3EEE4' },
-    font: "'Frank Ruhl Libre',serif", glyph: 'חי', numerals: 'hebrew', ornament: 'menorah', layout: 'left',
+    light: { paper: '#E1EAF4', accent: '#1F4F86', cover: ['#2C6597', '#1B436A'], ink: '#F7F9FC' },
+    dark: { paper: '#172437', accent: '#9CC2EE', cover: ['#1A355E', '#0F213D'], ink: '#EFF3F9' },
+    font: "'Frank Ruhl Libre',serif", glyph: 'חי', numerals: 'hebrew', ornament: 'menorah', layout: 'frame',
     mark: { shape: '10px' },
-    pattern: (i) => `repeating-linear-gradient(0deg,rgba(${i},.07) 0 3px,transparent 3px 9px,rgba(${i},.05) 9px 10px,transparent 10px 30px)`,
+    pattern: (i) => `repeating-linear-gradient(0deg,transparent 0 22px,rgba(${i},.08) 22px 25px,transparent 25px 28px,rgba(${i},.05) 28px 29px,transparent 29px 46px)`,
   },
+  // Byzantine gold mosaic, ultramarine and crimson; tesserae. The Chi-Rho.
   christian: {
-    light: { paper: '#F1E1D6', accent: '#7B1E3A', cover: ['#7B1E3A', '#541427'], ink: '#FBF7EF' },
-    dark: { paper: '#3A1722', accent: '#E6C36A', cover: ['#62182E', '#40101E'], ink: '#F3EEE4' },
-    font: "'EB Garamond',serif", glyph: 'ΙΧΘΥΣ', numerals: 'roman', ornament: 'cross', layout: 'left',
+    light: { paper: '#F4EAD2', accent: '#7B1E3A', cover: ['#E3C57E', '#C9A257'], ink: '#24183E' },
+    dark: { paper: '#3A1722', accent: '#E6C36A', cover: ['#58101F', '#360913'], ink: '#EBCB7C' },
+    font: "'EB Garamond','GFS Didot',serif", glyph: 'ΙΧΘΥΣ', numerals: 'roman', ornament: 'cross', layout: 'center',
     mark: { shape: '50% 50% 8px 8px' },
-    pattern: tile(28, 28, "<g fill='none' stroke='$.09)' stroke-width='1.2'><circle cx='14' cy='7' r='6'/><circle cx='14' cy='21' r='6'/><circle cx='7' cy='14' r='6'/><circle cx='21' cy='14' r='6'/></g>"),
+    pattern: tile(12, 9, ln('M0 .5H12M3 .5V4.5M9 4.5V9M0 4.5H12', '.07', 0.8)),
   },
+  // The green of the Prophet's banner and white; a hexagonal lattice. A ten-fold girih rosette.
   sunni: {
-    light: { paper: '#D8EBDA', accent: '#17683A', cover: ['#17683A', '#104727'], ink: '#FBF7EF' },
-    dark: { paper: '#15301F', accent: '#6CCB8F', cover: ['#12532E', '#0C361E'], ink: '#F3EEE4' },
+    light: { paper: '#D8EBDA', accent: '#17683A', cover: ['#13703D', '#0B4A27'], ink: '#F4FAF5' },
+    dark: { paper: '#15301F', accent: '#6CCB8F', cover: ['#0E4A2A', '#082F1B'], ink: '#ECF5EE' },
     font: "'Aref Ruqaa',serif", glyph: 'توحيد', numerals: 'arabic', ornament: 'crescent', layout: 'center',
     mark: { shape: '0', clip: CLIP.OCT },
     pattern: tile(24, 42, ln('M12 0L24 7V21L12 28L0 21V7ZM12 28V42', '.09')),

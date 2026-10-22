@@ -126,10 +126,12 @@ test.describe('Update 1.3', () => {
     await tap(page, 'Back')
     await tap(page, /Stoicism/)
     const sheet = page.getByRole('dialog')
-    await sheet.getByRole('checkbox', { name: /Cold shower/ }).click()
+    const pick = sheet.getByRole('checkbox').first()
+    const picked = (await pick.innerText()).split('\n')[0]!.trim()
+    await pick.click()
     await sheet.getByRole('button', { name: 'Start 1 Lago' }).click()
     await settle(page, 900)
-    await expect(page.getByRole('button', { name: /Cold shower, day 1 of 14/ })).toBeVisible()
+    await expect(page.getByRole('button', { name: new RegExp(picked.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ', day 1 of 14') })).toBeVisible()
   })
 
   test('six more Ondas are listed', async ({ page }) => {
@@ -140,11 +142,11 @@ test.describe('Update 1.3', () => {
 })
 
 test.describe('Update 1.4', () => {
-  test('opens on the Ondas tab; since 5.2 practices and tasks are one list, and a practice can open the Philosophy page', async ({ page }) => {
+  test('opens on the Ondas tab; since 5.2 practices and tasks are one list, and the Philosophy shortcut opens a full page', async ({ page }) => {
     await seedDemo(page)
     await expect(page.getByRole('tab', { name: /^(Practices|Tasks|Rules)$/ })).toHaveCount(0)
     await expect(page.getByText('2 of 5 practices')).toBeVisible()
-    await page.getByRole('button', { name: /Open Philosophy/ }).first().click()
+    await page.getByRole('button', { name: 'Philosophy', exact: true }).click()
     await expect(page.getByRole('heading', { name: 'Philosophy' })).toBeVisible() // a full page, not a sheet
     await expect(page.getByRole('dialog')).toHaveCount(0)
   })
@@ -152,20 +154,23 @@ test.describe('Update 1.4', () => {
   test('a Lago made from an Onda practice shares its tick both ways', async ({ page }) => {
     await seedDemo(page)
     await startTrial(page)
+    // a practice on today's plan, so its tick shows on both sides
+    const first = (await page.getByRole('group', { name: 'Morning', exact: true }).getByRole('checkbox').first().innerText()).split('\n')[0]!.trim()
+    const name = new RegExp(first.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'))
     await tab(page, 'Lagos')
     await tap(page, 'New Lago')
-    await page.getByRole('group', { name: /From your Stoicism practices/ }).getByRole('button', { name: /Dichotomy check/ }).click()
+    await page.getByRole('group', { name: /From your Stoicism practices/ }).getByRole('button', { name }).first().click()
     await expect(page.getByText(/Linked: ticking it here also ticks it in Stoicism/)).toBeVisible()
     await tap(page, 'Save')
     await settle(page, 900)
     // check it in on the Lagos side, then find it ticked on the Ondas side
-    await tap(page, 'Check in Dichotomy check', 'checkbox')
+    await tap(page, `Check in ${first}`, 'checkbox')
     await tab(page, 'Ondas')
-    await expect(page.getByRole('checkbox', { name: /Dichotomy check/ })).toBeChecked()
+    await expect(page.getByRole('checkbox', { name }).first()).toBeChecked()
     // and the other way: untick the practice, the Lago follows
-    await page.getByRole('checkbox', { name: /Dichotomy check/ }).click()
+    await page.getByRole('checkbox', { name }).first().click()
     await tab(page, 'Lagos')
-    await expect(page.getByRole('checkbox', { name: 'Check in Dichotomy check' })).not.toBeChecked()
+    await expect(page.getByRole('checkbox', { name: `Check in ${first}` })).not.toBeChecked()
   })
 })
 
@@ -331,8 +336,9 @@ test.describe('Ondas', () => {
     for (const slot of ['Immerse', 'Morning', 'Afternoon', 'Evening']) await expect(page.getByRole('group', { name: slot, exact: true })).toBeVisible()
     await page.getByRole('group', { name: 'Evening', exact: true }).getByRole('checkbox').first().click()
     await expect(page.getByText(/^(1|3) of 5 practices$/)).toBeVisible()
-    // the immerse practice opens the piece itself, with places to find it
-    await page.getByRole('button', { name: /^Open: / }).first().click()
+    // a hold on the immerse practice opens the piece itself, with places to find it
+    await page.getByRole('group', { name: 'Immerse', exact: true }).getByRole('checkbox').first().click({ button: 'right' })
+    await page.getByRole('menuitem', { name: 'Open', exact: true }).click()
     await expect(page.getByText('Find it')).toBeVisible()
   })
 
@@ -434,7 +440,7 @@ test.describe('Ondas', () => {
     await startTrial(page)
     await tap(page, 'Browse Ondas')
     await expect(page.getByText('Sixty-four worlds to live in')).toBeVisible()
-    await expect(page.getByRole('button', { name: /Stoicism/ })).toContainText('Active')
+    await expect(page.getByRole('button', { name: /Stoicism/ }).first()).toContainText('Active')
     await tap(page, /Taoism/)
     await expect(page.getByRole('heading', { name: '14 days' })).toBeVisible()
     await expect(page.getByText('Beginning ends Stoicism. One Onda at a time.')).toBeVisible()
@@ -462,12 +468,14 @@ test.describe('Ondas', () => {
     await page.getByRole('textbox').fill('My reactions, sometimes.')
     for (let i = 0; i < 6; i++) await tap(page, 'Next')
     await expect(page.getByRole('heading', { name: 'What will you keep living?' })).toBeVisible()
-    await tap(page, 'Keep Evening review', 'switch')
+    const keep = page.getByRole('switch', { name: /^Keep / }).first()
+    const kept = (await keep.getAttribute('aria-label'))!.replace(/^Keep /, '')
+    await keep.click()
     await tap(page, 'Complete · Add 1 Lago')
     await expect(page.getByRole('heading', { name: 'Onda complete' })).toBeVisible()
     await expect(page.getByText('1 practice from Stoicism now continues as a Lago.')).toBeVisible()
     await tap(page, 'View Lagos')
-    await expect(page.getByRole('button', { name: /Evening review, day 1 of 30/ })).toBeVisible()
+    await expect(page.getByRole('button', { name: new RegExp(kept.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ', day 1 of 30') })).toBeVisible()
     await tab(page, 'Ondas')
     await expect(page.getByText('No Onda running')).toBeVisible()
   })
@@ -617,7 +625,7 @@ test.describe('Update 5.0', () => {
   test('holding a practice opens How to do this; a tap still ticks it', async ({ page }) => {
     await seedDemo(page)
     await tab(page, 'Ondas')
-    const row = page.locator('[role=checkbox][aria-haspopup=menu]').first()
+    const row = page.getByRole('group', { name: 'Morning', exact: true }).locator('[role=checkbox][aria-haspopup=menu]').first()
     await row.scrollIntoViewIfNeeded()
     const before = await row.getAttribute('aria-checked')
     await row.dispatchEvent('contextmenu')
@@ -626,10 +634,10 @@ test.describe('Update 5.0', () => {
     await expect(row).toHaveAttribute('aria-checked', before ?? 'false')
   })
 
-  test('Settings shows version 6.0; switching light and dark repaints the top strip, reloads once and returns to the same screen', async ({ page }) => {
+  test('Settings shows version 7.1; switching light and dark repaints the top strip, reloads once and returns to the same screen', async ({ page }) => {
     await seedDemo(page)
     await tap(page, 'Settings')
-    await expect(page.getByText('Onda 6.0')).toBeVisible()
+    await expect(page.getByText('Onda 7.1')).toBeVisible()
     const bar = () =>
       page.evaluate(() => {
         const strip = document.getElementById('status-strip')!

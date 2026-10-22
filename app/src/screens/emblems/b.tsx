@@ -1,39 +1,6 @@
-import { fromOrnament as o, type EmblemMap } from './kit'
+import type { EmblemMap } from './kit'
+import { EMBLEMS_B1 } from './b1'
+import { EMBLEMS_B2 } from './b2'
 
-/* Cover emblems, part B. Each Onda's emblem is drawn from its own traditional art. Until an Onda has its own drawing,
-   its small line ornament stands in, set thin and large. Replace an entry with a component of type Emblem (see kit.tsx). */
-
-export const EMBLEMS_B: EmblemMap = {
-  shia: o('dome'),
-  rasta: o('lion'),
-  discordia: o('apple'),
-  plato: o('solid'),
-  epicurus: o('atom'),
-  cyrenaic: o('cup'),
-  kant: o('starsky'),
-  nietzsche: o('bolt'),
-  freud: o('couch'),
-  existential: o('boulder'),
-  gandhi: o('charkha'),
-  rome: o('laurel'),
-  qing: o('cash'),
-  mongol: o('ger'),
-  ottoman: o('tulip'),
-  mughal: o('paisley'),
-  johor: o('kris'),
-  inca: o('chakana'),
-  habsburg: o('crown'),
-  hre: o('orb'),
-  sixties: o('peace'),
-  renaissance: o('dividers'),
-  maasai: o('shield'),
-  aboriginal: o('boomerang'),
-  frisian: o('pompeblad'),
-  polynesia: o('hook'),
-  melanesia: o('shell'),
-  micronesia: o('stickchart'),
-  zulu: o('beads'),
-  bantu: o('mbira'),
-  khmer: o('prasat'),
-  celtic: o('triskele'),
-}
+/* Cover emblems, part B: the last 32 Ondas, drawn in b1.tsx (shia to mughal) and b2.tsx (johor to celtic). */
+export const EMBLEMS_B: EmblemMap = { ...EMBLEMS_B1, ...EMBLEMS_B2 }

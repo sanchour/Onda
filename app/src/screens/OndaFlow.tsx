@@ -48,7 +48,7 @@ export function Immersion({ entry }: { entry: Extract<StackEntry, { name: 'immer
   }
 
   return (
-    <Screen chrome={<BackButton />} style={active.look.vars} dataOnda={settings.ondaThemes ? active.run.ondaId : undefined}>
+    <Screen chrome={<BackButton />} desk="wide" style={active.look.vars} dataOnda={settings.ondaThemes ? active.run.ondaId : undefined}>
       <div style={{ padding: '0 16px' }}>
         <OndaBanner
           look={active.look}

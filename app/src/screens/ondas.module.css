@@ -510,3 +510,35 @@ button.softCard{width:100%;text-align:start;display:block}
 .imTile{position:relative;isolation:isolate;overflow:hidden}
 .imTile::before{content:"";position:absolute;inset:0;z-index:-1;background:var(--onda-cover);opacity:.07;pointer-events:none}
 .imRing circle + circle{stroke:var(--onda-accent,var(--accent))}
+
+/* ── Desktop (src/lib/desk.ts). The phone layouts above are untouched; these only widen them. ── */
+/* Philosophy: today's idea stays beside the index while it scrolls */
+:global(html[data-desk]) .phWrap{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);column-gap:40px;align-items:start;padding:0}
+:global(html[data-desk]) .phWrap > *{grid-column:2}
+:global(html[data-desk]) .phWrap > .phToday,:global(html[data-desk]) .phWrap > .phToday:first-child{grid-column:1;grid-row:1 / span 20;position:sticky;top:84px;margin-top:22px;padding:30px 30px 26px}
+:global(html[data-desk]) .phWrap:not(:has(> .phToday)) > *{grid-column:1 / -1}
+:global(html[data-desk]) .phItemHead:hover{background:var(--surface-fill)}
+/* Journal: the banner and the new entry button on the left, entries as cards on the right */
+:global(html[data-desk]) .jrWrap{display:grid;grid-template-columns:340px minmax(0,1fr);gap:16px 40px;align-items:start;padding:4px 0 24px !important}
+:global(html[data-desk]) .jrWrap > *{grid-column:1}
+:global(html[data-desk]) .jrWrap > :last-child{grid-column:2;grid-row:1 / span 2;margin-top:0 !important}
+:global(html[data-desk]) .jrWrap .journalList{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;background:none;border-radius:0;overflow:visible}
+:global(html[data-desk]) .jrWrap .journalList > *{background:var(--surface-card);border-radius:20px;padding:18px 20px;transition:transform 180ms var(--ease-enter),box-shadow 180ms var(--ease-enter)}
+:global(html[data-desk]) .jrWrap .journalList > *:hover{transform:translateY(-1px);box-shadow:0 18px 36px -26px rgba(0,0,0,.4)}
+:global(html[data-desk]) .jrWrap .journalList > * + *::before{display:none}
+/* Immersion: shelves become grids that use the width */
+:global(html[data-desk]) .imHead{padding:30px 4px 12px}
+:global(html[data-desk]) .imNext{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));overflow:visible;padding:0;scroll-snap-type:none}
+:global(html[data-desk]) .imCard{width:auto}
+:global(html[data-desk]) .imGrid{grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:14px;padding:0}
+:global(html[data-desk]) :is(.imCard,.imTile){transition:transform 180ms var(--ease-enter)}
+:global(html[data-desk]) :is(.imCard,.imTile):hover{transform:translateY(-2px)}
+:global(html[data-desk]) .libHead{padding:24px 4px 12px}
+:global(html[data-desk]) .lib{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:14px;padding:0}
+:global(html[data-desk]) .lib:is([data-layout="read"],[data-layout="art"]){grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:30px 22px}
+:global(html[data-desk]) .lib[data-layout="listen"]{grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:30px 22px}
+:global(html[data-desk]) .lib[data-layout="watch"]{grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:18px}
+:global(html[data-desk]) .lib[data-layout="words"]{grid-template-columns:repeat(auto-fill,minmax(260px,1fr));overflow:visible;padding:0}
+:global(html[data-desk]) .lib:is([data-layout="eat"],[data-layout="drink"]){display:block;columns:2;column-gap:0;margin:0}
+:global(html[data-desk]) .lib:is([data-layout="eat"],[data-layout="drink"]) .libCard{break-inside:avoid}
+@media (prefers-reduced-motion:reduce){:global(html[data-desk]) :is(.imCard,.imTile):hover,:global(html[data-desk]) .jrWrap .journalList > *:hover{transform:none}}

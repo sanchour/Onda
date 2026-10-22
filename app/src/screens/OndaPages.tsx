@@ -15,12 +15,13 @@ import o from './ondas.module.css'
 import s from './screens.module.css'
 
 /** Shared frame for the three full-screen pages that used to be sheets: back button, title, Onda look. */
-function OndaPage({ title, large, trailing, children }: { title: string; large?: { sub?: string }; trailing?: React.ReactNode; children: React.ReactNode }) {
+function OndaPage({ title, large, trailing, desk, children }: { title: string; large?: { sub?: string }; trailing?: React.ReactNode; desk?: 'wide'; children: React.ReactNode }) {
   const active = useActiveOnda()
   const themed = useSettings().ondaThemes
   return (
     <Screen
       variant="page"
+      desk={desk}
       style={active?.look.vars}
       dataOnda={themed ? active?.run.ondaId : undefined}
       chrome={
@@ -49,8 +50,8 @@ export function JournalPage() {
   const write = (day?: number) => openSheet({ name: 'journalEdit', day })
 
   return (
-    <OndaPage title={t('journal.title')} trailing={<GlassButton icon="plus" prominent ariaLabel={t('a11y.newEntry')} onClick={() => write()} />}>
-      <div style={{ padding: '4px 16px 24px' }}>
+    <OndaPage title={t('journal.title')} desk="wide" trailing={<GlassButton icon="plus" prominent ariaLabel={t('a11y.newEntry')} onClick={() => write()} />}>
+      <div className={o.jrWrap} style={{ padding: '4px 16px 24px' }}>
         {active?.look && (
           <div style={{ marginBottom: 16 }}>
             <OndaBanner look={active.look} icon="notebook" kicker={name} title={t('journal.title')} sub={t('journal.count', { count: entries.length })} />
@@ -121,7 +122,7 @@ export function PhilosophyPage() {
   const shown = sections.length > 1 ? sections.filter((x) => x.key === tab) : sections
 
   return (
-    <OndaPage title={t('philosophy.title')} large={{ sub: t('philosophy.lead') }}>
+    <OndaPage title={t('philosophy.title')} large={{ sub: t('philosophy.lead') }} desk="wide">
       <div className={o.phWrap}>
         {today && (
           <article className={o.phToday}>

@@ -1,0 +1,52 @@
+/* Stats on the desktop (src/lib/desk.ts) as a dashboard: consistency beside activity, then the history calendar beside
+   the month's Ondas and every achievement. Only the desk branch of StatsTab uses these, so the phone never sees them. */
+
+.head{padding:10px 4px 24px}
+.title{margin:0;font:700 44px/1.05 var(--font-sans);letter-spacing:var(--tracking-display)}
+.grid{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:18px;align-items:start}
+.card{position:relative;display:block;background:var(--surface-card);border-radius:24px;padding:22px 24px 24px;
+  box-shadow:inset 0 0 0 .5px var(--separator),0 24px 48px -36px rgba(0,0,0,.35)}
+.cons{grid-column:span 4;align-self:stretch;display:flex;flex-direction:column}
+.cons > .note{margin-top:auto;padding-top:16px}
+.act{grid-column:span 8}
+.cal{grid-column:span 7}
+.side{grid-column:span 5;display:flex;flex-direction:column;gap:18px}
+@media (max-width:1239px){
+  .cons{grid-column:span 5}.act{grid-column:span 7}
+  .cal,.side{grid-column:span 12}
+  .side{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));align-items:start}
+}
+
+.cardHead{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:32px}
+.meta{display:inline-flex;align-items:center;gap:6px;font:400 var(--fs-15) var(--font-sans);color:var(--label-secondary)}
+.seg{width:260px;flex:none}
+.note{margin:16px 0 0;font:400 var(--fs-13)/1.5 var(--font-sans);color:var(--label-secondary);text-wrap:pretty}
+
+/* ── Activity ─────────────────────────────────────────────── */
+.figs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));margin-top:22px}
+.fig{padding:0 20px}
+.fig:first-child{padding-left:0}
+.fig + .fig{border-left:.5px solid var(--separator)}
+.figV{font:700 38px/1.1 var(--font-sans);letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+.figL{margin-top:4px;font:400 var(--fs-13) var(--font-sans);color:var(--label-secondary)}
+.chart{margin-top:26px}
+.chart .bars{height:208px;gap:14px}
+
+/* ── History ──────────────────────────────────────────────── */
+.cal h2{margin-bottom:12px}
+.cal .calGrid{row-gap:10px}
+.cal .day{width:50px;height:50px;font-size:16px;transition:box-shadow 160ms ease-out}
+.cal .day:not(:disabled):hover{box-shadow:0 0 0 2px color-mix(in srgb,var(--accent) 35%,transparent)}
+
+/* ── The month's Ondas and achievements ───────────────────── */
+.runs{margin-top:12px}
+.runs button{border-radius:12px;padding-left:10px;padding-right:10px;margin:0 -10px;width:calc(100% + 20px)}
+.runs button:hover{background:var(--surface-fill)}
+.ach{width:100%;text-align:start;cursor:pointer;transition:transform 200ms var(--ease-enter),box-shadow 200ms var(--ease-enter)}
+.ach:hover{transform:translateY(-1px);box-shadow:inset 0 0 0 .5px var(--separator),0 28px 56px -34px rgba(0,0,0,.45)}
+.achGrid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px 8px;margin-top:18px}
+.achTile{display:flex;flex-direction:column;align-items:center;gap:8px;text-align:center;font:500 var(--fs-12)/1.25 var(--font-sans);color:var(--label-tertiary)}
+.achTile[data-on]{color:var(--label)}
+.achIcon{width:46px;height:46px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:var(--surface-fill);color:var(--label-quaternary)}
+.achTile[data-on] .achIcon{color:#fff;box-shadow:0 8px 18px -10px rgba(0,0,0,.5)}
+@media (prefers-reduced-motion:reduce){.ach,.cal .day{transition:none}.ach:hover{transform:none}}

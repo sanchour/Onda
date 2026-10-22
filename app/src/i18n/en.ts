@@ -154,7 +154,7 @@ export const en = {
     noRules: 'No rules for this Onda', noTasks: 'No tasks for this Onda',
     guideShort: 'Guide', shortcuts: 'Shortcuts', search: 'Search', clearSearch: 'Clear Search', noMatch: 'No Ondas match', openOnda: '{{name}}, open the Onda page', rulesKept: '{{done}} of {{total}} kept', quote: 'Quote',
   },
-  browse: { religion: 'Religions and spiritual paths', school: 'Schools of thought', mind: 'Thinkers, writers and poets', state: 'Empires, kingdoms and states', culture: 'Cultures, eras and peoples', mine: 'Yours', soon: 'Coming soon', featured: 'Featured', seeAll: 'See All', short: { all: 'All', religion: 'Religions', school: 'Schools', mind: 'Minds', state: 'States', culture: 'Cultures', mine: 'Yours' } },
+  browse: { religion: 'Religions and spiritual paths', school: 'Schools of thought', mind: 'Thinkers, writers and poets', state: 'Empires and states', culture: 'Cultures, eras and peoples', mine: 'Yours', soon: 'Coming soon', featured: 'Featured', seeAll: 'See All', short: { all: 'All', religion: 'Religions', school: 'Schools', mind: 'Minds', state: 'States', culture: 'Cultures', mine: 'Yours' } },
   rulesPage: { lead: 'Tap a rule when you have kept it today.' },
   onda: {
     todayTheme: 'Today: {{theme}}', quoteOfDay: 'Quote of the day', wordOfDay: 'Word of the day', guideSub: 'Context, history, ideas, culture and language',

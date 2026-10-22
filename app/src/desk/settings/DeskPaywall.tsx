@@ -35,7 +35,7 @@ export interface DeskPaywallProps {
 const COLS = 4
 const PER_COL = 10
 
-/** "Sixty-four worlds", shown rather than told: the covers drift past in columns, alternate ones the other way. */
+/** "Seventy worlds", shown rather than told: the covers drift past in columns, alternate ones the other way. */
 function Worlds() {
   const lookOf = useLookFn()
   const cols = useMemo(() => {

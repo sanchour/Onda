@@ -217,7 +217,7 @@ export function usePaletteItems(): PItem[] {
     }
     out.push(action('sidebar', 'sidebar-simple', t('power.palette.sidebar'), () => ui.toggleSidebar(), { keys: ['mod', '\\'], searchOnly: true }))
 
-    // ── Ondas: all sixty-four and your own ──
+    // ── Ondas: all seventy and your own ──
     for (const o of ondas) {
       const g = GROUP_OF[o.id] ?? (o.custom ? 'mine' : undefined)
       const groupLabel = g ? t(`browse.short.${g}`) : undefined

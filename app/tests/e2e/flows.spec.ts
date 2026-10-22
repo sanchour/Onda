@@ -20,7 +20,7 @@ test.describe('Onboarding and paywall', () => {
     await expect(page.getByRole('slider')).toHaveAttribute('aria-valuenow', '14')
     await tap(page, 'Next')
     await expect(page.getByRole('heading', { name: 'Which Onda calls you first?' })).toBeVisible()
-    await expect(page.getByRole('radio')).toHaveCount(64)
+    await expect(page.getByRole('radio')).toHaveCount(70)
     await tap(page, /Zen Buddhism/, 'radio')
     await expect(page.getByRole('button', { name: /skip/i })).toHaveCount(0)
     await tap(page, 'Get Started')
@@ -117,9 +117,9 @@ test.describe('Update 1.3', () => {
     await expect(page.getByRole('heading', { name: 'From the Ondas' })).toBeVisible()
     // two Ondas are shown, the running one first; the rest sit behind See more, grouped as in Browse Ondas
     await tap(page, /^From the Ondas See more/)
-    for (const g of ['Religions and spiritual traditions', 'Philosophy, thinkers and schools of thought', 'Empires, states and political systems', 'Cultures, eras and peoples']) await expect(page.getByRole('button', { name: new RegExp('^' + g) })).toBeVisible()
+    for (const g of ['Religions and spiritual paths', 'Schools of thought', 'Thinkers, writers and poets', 'Empires and states', 'Cultures, eras and peoples']) await expect(page.getByRole('button', { name: new RegExp('^' + g) })).toBeVisible()
     await expect(page.getByText('Coming soon')).toHaveCount(0)
-    await tap(page, /^Religions and spiritual traditions/)
+    await tap(page, /^Religions and spiritual paths/)
     await expect(page.getByRole('button', { name: /Zen Buddhism/ })).toHaveCount(0)
     await expect(page.getByRole('button', { name: /Norse/ })).toHaveCount(0)
     await expect(page.getByRole('button', { name: /Confucianism/ })).toBeVisible()
@@ -145,7 +145,7 @@ test.describe('Update 1.4', () => {
   test('opens on the Ondas tab; since 5.2 practices and tasks are one list, and the Philosophy shortcut opens a full page', async ({ page }) => {
     await seedDemo(page)
     await expect(page.getByRole('tab', { name: /^(Practices|Tasks|Rules)$/ })).toHaveCount(0)
-    await expect(page.getByText('2 of 5 practices')).toBeVisible()
+    await expect(page.getByRole('img', { name: '2 of 5 practices' })).toBeVisible()
     await page.getByRole('button', { name: 'Philosophy', exact: true }).click()
     await expect(page.getByRole('heading', { name: 'Philosophy' })).toBeVisible() // a full page, not a sheet
     await expect(page.getByRole('dialog')).toHaveCount(0)
@@ -175,12 +175,12 @@ test.describe('Update 1.4', () => {
 })
 
 test.describe('Update 2.0', () => {
-  test('Browse Ondas has four groups, and since 5.0 every Onda in them can be opened', async ({ page }) => {
+  test('Browse Ondas has five groups (7.2), and since 5.0 every Onda in them can be opened', async ({ page }) => {
     await seedDemo(page)
     await tap(page, 'Browse Ondas')
-    for (const g of ['Religions and spiritual traditions', 'Philosophy, thinkers and schools of thought', 'Empires, states and political systems', 'Cultures, eras and peoples']) await expect(page.getByRole('button', { name: new RegExp('^' + g) })).toBeVisible()
+    for (const g of ['Religions and spiritual paths', 'Schools of thought', 'Thinkers, writers and poets', 'Empires and states', 'Cultures, eras and peoples']) await expect(page.getByRole('button', { name: new RegExp('^' + g) })).toBeVisible()
     await expect(page.getByRole('button', { name: /Nietzsche/ })).toBeVisible()
-    await expect(page.getByText('Coming soon')).toHaveCount(0)
+    await expect(page.locator('[aria-disabled="true"]', { hasText: 'Rumi' })).toHaveCount(1)
     await expect(page.locator('[aria-disabled="true"]', { hasText: 'Nietzsche' })).toHaveCount(0)
   })
 
@@ -330,12 +330,12 @@ test.describe('Ondas', () => {
   })
 
   test('Ondas tab: cover, one bar of four shortcuts, and Today by time of day', async ({ page }) => {
-    await expect(page.getByText('2 of 5 practices')).toBeVisible()
+    await expect(page.getByRole('img', { name: '2 of 5 practices' })).toBeVisible()
     for (const tile of ['Immerse', 'Journal', 'Philosophy', 'Guide']) await expect(page.getByRole('button', { name: tile, exact: true })).toBeVisible()
     // five a day: one to take in, then the morning, the afternoon and the evening, grouped by time of day
     for (const slot of ['Immerse', 'Morning', 'Afternoon', 'Evening']) await expect(page.getByRole('group', { name: slot, exact: true })).toBeVisible()
     await page.getByRole('group', { name: 'Evening', exact: true }).getByRole('checkbox').first().click()
-    await expect(page.getByText(/^(1|3) of 5 practices$/)).toBeVisible()
+    await expect(page.getByRole('img', { name: /^(1|3) of 5 practices$/ })).toBeVisible()
     // a hold on the immerse practice opens the piece itself, with places to find it
     await page.getByRole('group', { name: 'Immerse', exact: true }).getByRole('checkbox').first().click({ button: 'right' })
     await page.getByRole('menuitem', { name: 'Open', exact: true }).click()
@@ -439,7 +439,7 @@ test.describe('Ondas', () => {
   test('browsing another Onda previews it; beginning it ends the current one', async ({ page }) => {
     await startTrial(page)
     await tap(page, 'Browse Ondas')
-    await expect(page.getByText('Sixty-four worlds to live in')).toBeVisible()
+    await expect(page.getByText('Seventy worlds to live in')).toBeVisible()
     await expect(page.getByRole('button', { name: /Stoicism/ }).first()).toContainText('Active')
     await tap(page, /Taoism/)
     await expect(page.getByRole('heading', { name: '14 days' })).toBeVisible()
@@ -525,7 +525,7 @@ test.describe('Stats and Settings', () => {
   test('settings hub opens second screens; Dark switches the theme; integrations show honest state', async ({ page }) => {
     await tap(page, 'Settings')
     await expect(page.getByRole('heading', { name: 'Settings' })).toBeVisible()
-    for (const row of ['Subscription', 'Appearance', 'Notifications', 'Practice', 'Integrations', 'Data', 'Privacy', 'Help & About']) await expect(page.getByRole('button', { name: new RegExp(`^${row}`) })).toBeVisible()
+    for (const row of ['Subscription', 'Appearance', 'Integrations', 'Data', 'Help & About']) await expect(page.getByRole('button', { name: new RegExp(`^${row}`) })).toBeVisible()
 
     await tap(page, /^Appearance/)
     await expect(page.locator('html')).toHaveAttribute('data-theme', 'light')

@@ -27,18 +27,20 @@ export interface CoverProps {
   ariaLabel?: string
   /** Heading level for the title on a hero (1 on an Onda page). Tiles never use a heading. */
   level?: 1 | 2
+  /** Width of a tile in px when it is not a cell of the two column grid (the 152px shelf tiles), so its title fits. */
+  width?: number
   children?: ReactNode
 }
 
 const EMBLEM = { hero: { left: 200, center: 76, frame: 64 }, tile: { left: 104, center: 46, frame: 40 } } as const
 
 /** An Onda's cover: its material, emblem, display face and numerals. The one place each Onda shows its world. */
-export function Cover({ look, size, title, kicker, glyph, sub, mark, badge, days, onClick, ariaLabel, level, children }: CoverProps) {
+export function Cover({ look, size, title, kicker, glyph, sub, mark, badge, days, onClick, ariaLabel, level, width, children }: CoverProps) {
   const { t } = useTranslation()
   const hero = size === 'hero'
   const centred = look.layout !== 'left'
   // the longest word decides the size; heroes leave room for a cropped emblem on the right
-  const fs = hero ? fitSize(title, columnWidth() - 32 - 44 - (centred ? 0 : 40), 40, 22, look.caps) : fitSize(title, columnWidth() / 2 - 22 - 28, 19, 13, look.caps)
+  const fs = hero ? fitSize(title, columnWidth() - 32 - 44 - (centred ? 0 : 40), 40, 22, look.caps) : fitSize(title, (width ?? columnWidth() / 2 - 22) - 28, 19, 13, look.caps)
   const H = hero && level ? (`h${level}` as const) : 'span'
   const cls = [c.cover, hero ? c.hero : c.tile, c[look.layout]].join(' ')
   const inner = (

@@ -22,6 +22,8 @@ page.on('pageerror', (e) => console.log('PAGEERROR', String(e).slice(0, 200)))
 const shot = (n, full = false) => page.screenshot({ path: path.join(out, `${scheme}-${n}.png`), scale: 'css', fullPage: full })
 const tap = async (name, exact = true) => { await page.getByRole('button', { name, exact }).first().click(); await sleep(1100) }
 const back = () => tap('Back')
+// scrolls the visible scroll pane by most of a screen
+const scrollDown = async () => { await page.evaluate(() => { const panes = [...document.querySelectorAll('.scroll')].filter((e) => e.getBoundingClientRect().width > 0 && e.scrollHeight > e.clientHeight); panes.at(-1)?.scrollBy(0, 560) }); await sleep(700) }
 const dismiss = () => page.getByRole('button', { name: /^(Dismiss|Close)$/ }).first().click({ timeout: 1500 }).catch(() => {})
 async function tour(label) {
   for (const p of pages) {
@@ -35,6 +37,8 @@ async function tour(label) {
       if (p === 'immersion') { await page.getByRole('button', { name: /Immerse/ }).first().click(); await sleep(1500); await shot(`${label}-immersion`); await back() }
       if (p === 'onda') { await page.locator('button[aria-label*="Day"]').first().click(); await sleep(1500); await shot(`${label}-onda`); await back() }
       if (p === 'full') await shot(`${label}-full`, true)
+      if (p === 'scroll') { await scrollDown(); await shot(`${label}-scroll`); await scrollDown(); await shot(`${label}-scroll2`); await page.evaluate(() => document.querySelectorAll('.scroll').forEach((e) => e.scrollTo(0, 0))) }
+      if (p === 'browse2') { await tap('Browse Ondas'); await scrollDown(); await shot(`${label}-browse2`); await scrollDown(); await shot(`${label}-browse3`); await back() }
     } catch (e) {
       console.log('FAIL', label, p, String(e).slice(0, 160))
     }

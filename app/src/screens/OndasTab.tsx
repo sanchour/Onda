@@ -151,7 +151,7 @@ function PhoneOndasTab() {
 type OndaItem = ReturnType<typeof useOndaList>[number]
 
 /** One Onda as a cover tile, used by All Ondas and the Gallery picker. */
-export function OndaTile({ x, onOpen, active }: { x: OndaItem; onOpen: () => void; active?: boolean }) {
+export function OndaTile({ x, onOpen, active, width }: { x: OndaItem; onOpen: () => void; active?: boolean; width?: number }) {
   const { t } = useTranslation()
   const look = useLookFn()(x)
   return (
@@ -162,6 +162,7 @@ export function OndaTile({ x, onOpen, active }: { x: OndaItem; onOpen: () => voi
       sub={x.origin}
       badge={active ? t('ondas.active') : x.custom ? t('ondas.mine') : undefined}
       mark={look.themed && look.glyph.length <= 3 ? look.glyph : undefined}
+      width={width}
       onClick={onOpen}
     />
   )
@@ -259,7 +260,7 @@ function PhoneAllOndas() {
   const seed = [...today].reduce((h, ch) => (h * 31 + ch.charCodeAt(0)) >>> 0, 7)
   const featured = [...list.filter((x) => x.id === activeId), ...(pool.length ? Array.from({ length: 4 }, (_, i) => pool[(seed + i * 17) % pool.length]!) : [])]
     .filter((x, i, all) => all.findIndex((y) => y.id === x.id) === i)
-  const tile = (x: OndaItem) => <OndaTile key={x.id} x={x} active={activeId === x.id} onOpen={() => open(x.id)} />
+  const tile = (x: OndaItem, width?: number) => <OndaTile key={x.id} x={x} active={activeId === x.id} width={width} onOpen={() => open(x.id)} />
   const soonTile = (x: (typeof COMING_SOON)[number]) => (
     <div key={x.name} className={c.soon} aria-disabled="true">
       <span>
@@ -315,7 +316,7 @@ function PhoneAllOndas() {
                   </span>
                 </button>
                 <div className={`hscroll ${c.shelfRow}`}>
-                  {items.map((x) => <div key={x.id} className={c.shelfItem}>{tile(x)}</div>)}
+                  {items.map((x) => <div key={x.id} className={c.shelfItem}>{tile(x, 152)}</div>)}
                   {later.map((x) => <div key={x.name} className={c.shelfItem}>{soonTile(x)}</div>)}
                 </div>
               </section>

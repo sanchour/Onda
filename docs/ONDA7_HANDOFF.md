@@ -1,6 +1,33 @@
-# Onda 7.1 handoff
+# Onda 7.2 handoff
 
-Everything is on `main` as version 7.1. The theme work from the branch `wip/onda7-themes` is merged into `main` and finished; that branch is no longer needed. This file is enough to continue on another account or machine.
+Everything is on `main` as version 7.2. The 7.1 notes below still hold; this section adds what 7.2 changed.
+
+## 7.2
+- **Each Onda's soul** (`app/src/content/souls.ts`): a page grain for every Onda (washi, marble, felt, papyrus, print...) drawn
+  as SVG noise in its accent and laid on every screen while it runs (`--soul-grain` on the root, `App.tsx`; `.bgGrouped` and
+  `.bgPage` in `nav/nav.module.css`); a corner shape (`--onda-r`: soft, round, cut, sharp) for covers, lists and the shortcut
+  bar; cards tinted with the Onda's paper (`--surface-card` in the wash); its ornament on the Ondas tab, before each time of
+  day and rising from a ticked check; a seal when every practice of the day is done. Round emblems on a hero cover turn very
+  slowly and gold covers shimmer (`data-motion` in `Cover.tsx`).
+- **The owner asked to remove** (do not bring back): the watchword line between the header and the cover, any emblem that
+  bobs up and down on the hero cover, and motion in the wash behind the header (it stays still, as in 7.1).
+- **Today on the Ondas tab**: a centred, larger title over a centred ornament row; the "2 of 5 practices" count is only the
+  row's accessible name.
+- **Six new Ondas** with full content, themes (`content/themes/c.ts`) and emblems (`screens/emblems/c.tsx`): Dostoevsky, Adler,
+  Burgundy, Goethe, Machiavelli, Postmodernism. Sources in `content/sources/onda-<id>.cjs` and `content/practices/<id>.cjs`,
+  built with `node content/sources/build.cjs <id>` (the script now runs from the repo). Six new display faces in `styles/fonts.ts`.
+- **Browse**: five groups (`content/browse.ts`: Religions, Schools, Minds, States, Cultures) with a fixed shelf order, and eleven
+  placeholders: Rumi, Schopenhauer, Hegel, Spinoza, Thomas Aquinas, Rousseau, Orwell, Abyssinia, Māori, Bedouin, Druidism.
+- **Settings**: Notifications, Practice and Privacy are gone (an app lock or switcher cover set before stays off).
+  **Stats**: the month's Ondas under History fold away, closed by default.
+- **Loading screen**: follows the phone's own light or dark mode live (CSS media query in `index.html`). iOS caches its own
+  launch image at install, which no web code can change.
+- Checks: `node app/shots/v72.mjs <dir> light|dark "<Onda names>" "scroll,browse,browse2,stats,lagos,settings,guide,philosophy,immersion,onda"`
+  and `node app/shots/contact.mjs <dir>` (both take absolute paths).
+
+---
+
+Everything below is the 7.1 handoff. The theme work from the branch `wip/onda7-themes` is merged into `main` and finished; that branch is no longer needed. This file is enough to continue on another account or machine.
 
 ## Prompt to paste into a new Claude Code session (in this repo)
 

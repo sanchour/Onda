@@ -45,6 +45,14 @@ Design only. Content (guides, practices, philosophy text) stays as it is.
 - [x] Philosophy and Immersion carry the Onda's pattern (today's idea, Up Next, library tiles) and mark shape
 - [x] Swipe back from anywhere on a page, smooth and in step with the page beneath (`app/shots/v7-swipe.mjs`)
 
+## 7.2
+- [x] Each Onda's soul: page grain, corner shape, tinted cards, ornament on the tab, the headers and each tick, a seal for a finished day, slow turning or shimmering emblems (no bobbing, still header wash)
+- [x] Six new Ondas: Dostoevsky, Adler, Burgundy, Goethe, Machiavelli, Postmodernism; eleven placeholders
+- [x] Browse in five groups with shelf order; shelf tiles fit long names
+- [x] Settings without Notifications, Practice and Privacy; Stats history Ondas folded by default
+- [x] Today centred; loading screen follows the phone's light or dark mode
+- [x] Version 7.2 with What's New; unit tests, content check, contrast check and e2e
+
 ## Not in scope
 - Rewriting content
 - The full end-to-end suite (more than 10 minutes); targeted checks only

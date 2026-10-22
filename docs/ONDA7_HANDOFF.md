@@ -41,7 +41,7 @@ Done and on `main` (commits `36709f8`, `c007b84`, `2f2961a`, `18e2e77`, the hand
 
 ### Unique home page per Onda (in progress)
 The owner wants every Onda's home page to feel slightly its own, and the Today progress bar, the Ondas header and elements of Philosophy and Immersion to carry each Onda's look. Done so far (CSS blocks marked "Onda 7.1: each Onda's home" in `app/src/screens/onda7/onda7.module.css` and "Onda 7.1: philosophy and immersion" in `app/src/screens/ondas.module.css`):
-- The Ondas tab wrapper gets `.home` (only with the Onda themes setting on): the Onda's cover colour and pattern (`--onda-cover`) washed behind the header and fading down; the large title "Ondas" in the Onda's display face, case and tracking, followed by its glyph (`look.glyph`) in the accent; time of day headers in the accent; check marks in the Onda's mark shape (`--onda-shape`, `--onda-clip`).
+- The Ondas tab wrapper gets `.home` (only with the Onda themes setting on): the Onda's cover colour and pattern (`--onda-cover`) washed behind the header and fading down; the large title "Ondas" in the Onda's display face, case and tracking (no glyph next to it: the owner asked to remove it); time of day headers in the accent; check marks in the Onda's mark shape (`--onda-shape`, `--onda-clip`).
 - Today's progress is a row of the Onda's ornament (`look.ornament` via `OrnamentIcon`), one per practice, lit when done (`.beads`, `.bead`, `.beadOn` in `OndasTab.tsx`), instead of a plain bar.
 - Philosophy: today's idea card uses the full cover (pattern and colour); the Try box uses the mark shape; an open idea's title is set in the display face.
 - Immersion: Up Next cards use the full cover; library tiles carry a faint wash of the pattern.

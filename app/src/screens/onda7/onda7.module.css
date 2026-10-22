@@ -171,7 +171,6 @@ button.row:active,a.row:active{background:var(--surface-fill)}
 :root[data-theme="dark"] .home::before{opacity:.24}
 :root[data-theme="light"] .home::before{opacity:.16}
 .home h1{font-family:var(--onda-font,var(--font-sans));text-transform:var(--onda-case,none);letter-spacing:var(--onda-track,0);font-weight:500}
-.homeGlyph{margin-left:10px;font-size:.55em;font-weight:500;color:var(--onda-accent,var(--accent));vertical-align:.35em;letter-spacing:0;text-transform:none}
 .home .groupHead{color:var(--onda-accent,var(--label-secondary))}
 .home .check{border-radius:var(--onda-shape,50%)}
 .home .checkOn{clip-path:var(--onda-clip,none)}

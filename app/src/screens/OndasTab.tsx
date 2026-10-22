@@ -27,7 +27,6 @@ export default function OndasTab() {
     <div className={s.titleRow}>
       <h1 className={s.largeTitle}>
         {t('ondas.title')}
-        {active?.look.glyph && settings.ondaThemes && <span className={c.homeGlyph} aria-hidden>{active.look.glyph}</span>}
       </h1>
       <div className={s.actions}>
         <GlassButton icon="plus" prominent ariaLabel={t('ondas.newOnda')} onClick={() => guardCreateOnda(t) && openSheet({ name: 'createOnda' })} />

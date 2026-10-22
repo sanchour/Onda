@@ -22,7 +22,17 @@ try {
   await page.goto(`http://localhost:${port}/?seed=demo`)
   await page.getByRole('button', { name: 'Browse Ondas' }).first().waitFor({ timeout: 90_000 })
   await sleep(1500)
+  await page.getByRole('button', { name: /^(Dismiss|Close)$/ }).first().click({ timeout: 2000 }).catch(() => {})
   await shot('0-Stoicism')
+  // beginning another Onda needs Ondas+, so start the trial first (as the e2e helper does)
+  await page.getByRole('button', { name: 'Settings', exact: true }).first().click()
+  await sleep(900)
+  await page.getByRole('button', { name: /Ondas\+.*Start Free Trial/s }).click()
+  await sleep(900)
+  await page.getByRole('button', { name: 'Start Free Trial', exact: true }).first().click()
+  await sleep(900)
+  await page.getByRole('button', { name: 'Back', exact: true }).first().click()
+  await sleep(900)
   for (const [i, n] of names.entries()) {
     try {
       await page.getByRole('button', { name: 'Browse Ondas' }).first().click()
@@ -32,6 +42,7 @@ try {
       await page.getByRole('button', { name: 'Begin Onda' }).click()
       await sleep(1500)
       for (let k = 0; k < 2; k++) { await page.getByRole('button', { name: 'Back', exact: true }).first().click(); await sleep(900) }
+      await page.getByRole('button', { name: /^(Dismiss|Close)$/ }).first().click({ timeout: 1500 }).catch(() => {})
       await shot(`${i + 1}-${n.replace(/\s+/g, '')}`)
     } catch (e) {
       console.log('FAIL', n, String(e).slice(0, 160))

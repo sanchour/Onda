@@ -74,7 +74,7 @@ export function Immersion({ entry }: { entry: Extract<StackEntry, { name: 'immer
         kinds.length > 0 && (
           <GlassTabs<ImTab>
             label={t('immersion.title')}
-            items={[{ key: 'featured', label: t('immersion.featured') }, ...kinds.map((k) => ({ key: k, label: t(`kindLabel.${k}`) }))]}
+            items={[{ key: 'featured', label: t('immersion.all') }, ...kinds.map((k) => ({ key: k, label: t(`kindLabel.${k}`) }))]}
             value={kind ?? 'featured'}
             onChange={pick}
           />
@@ -84,7 +84,7 @@ export function Immersion({ entry }: { entry: Extract<StackEntry, { name: 'immer
   )
 
   const hero = (m: MediaItem, tag: string, onClick: () => void, wide?: boolean) => (
-    <button type="button" className={wide ? `${o.upCard} ${o.upWide}` : o.upCard} data-frame={frame ? '' : undefined} onClick={onClick}>
+    <button type="button" className={wide ? `${o.upCard} ${o.upWide}` : o.upCard} data-hue={m.kind} data-frame={frame ? '' : undefined} onClick={onClick}>
       <span className={o.upWater} aria-hidden><Icon name={KIND_ICON[m.kind]} weight="regular" size={176} /></span>
       <span className={o.upTop}>
         <span className={o.upTag}>{tag}</span>
@@ -159,7 +159,6 @@ export function Immersion({ entry }: { entry: Extract<StackEntry, { name: 'immer
                 <OndaPlacesMap ondaId={run.ondaId} places={places} look={look} />
               </div>
             )}
-            <div className={o.footnote}>{t('immersion.footer')}</div>
           </>
         )
       })()}

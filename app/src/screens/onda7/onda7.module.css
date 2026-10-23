@@ -94,7 +94,6 @@ button.row:active,a.row:active{background:var(--surface-fill)}
 .clamp2{-webkit-line-clamp:2}
 .clamp3{-webkit-line-clamp:3}
 .rNote{font:400 var(--fs-14)/1.4 var(--font-sans);color:var(--label-secondary);margin-top:4px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-.rTwist{font:italic 400 var(--fs-14)/1.35 var(--font-sans);color:var(--onda-text,var(--label-secondary));margin-top:4px}
 .value{flex:none;font:400 var(--fs-17) var(--font-sans);color:var(--label-secondary)}
 .chev{flex:none;display:flex;color:var(--label-tertiary);margin-right:-4px}
 
@@ -105,6 +104,13 @@ button.row:active,a.row:active{background:var(--surface-fill)}
 @keyframes pop{from{transform:scale(.4)}to{transform:none}}
 
 /* ── Practice row ──────────────────────────────────────── */
+/* 8.1: swipe a practice left for How To (ui/useSwipeReveal.ts); the row slides over the buttons behind it */
+.swWrap{position:relative;overflow:hidden}
+.swRow{position:relative;z-index:1;background:var(--surface-card);touch-action:pan-y;will-change:transform}
+.swActions{position:absolute;inset:0 0 0 auto;display:flex}
+.swBtn{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;font:600 var(--fs-12)/1.1 var(--font-sans);letter-spacing:.01em}
+.swHow{background:var(--onda-deep,var(--accent));color:var(--onda-on,#fff)}
+.swOpen{background:color-mix(in srgb,var(--onda-deep,var(--accent)) 62%,var(--label));color:var(--onda-on,#fff)}
 .pOpenRow .text{margin-right:40px}
 .pOpen{position:absolute;z-index:2;right:46px;top:50%;transform:translateY(-50%);width:44px;height:44px;display:flex;align-items:center;justify-content:center;color:var(--label-tertiary);border-radius:50%}
 .pOpen:active{background:var(--surface-fill)}
@@ -184,7 +190,6 @@ button.row:active,a.row:active{background:var(--surface-fill)}
 .emptyTitle{font:600 var(--fs-20)/1.25 var(--font-sans);color:var(--label)}
 .emptySub{font:400 var(--fs-15)/1.4 var(--font-sans);color:var(--label-secondary);margin-top:4px}
 .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;padding:0 16px}
-.browseSec{content-visibility:auto;contain-intrinsic-size:auto 720px}
 .soon{display:flex;flex-direction:column;justify-content:space-between;height:164px;padding:13px 14px;border-radius:24px;box-shadow:inset 0 0 0 1px var(--separator);color:var(--label-secondary)}
 .soonName{font:400 var(--fs-17)/1.2 var(--font-sans);text-wrap:balance;overflow-wrap:anywhere}
 .soonOrigin{display:block;font:400 var(--fs-12) var(--font-sans);color:var(--label-tertiary);margin-top:3px}
@@ -197,13 +202,12 @@ button.row:active,a.row:active{background:var(--surface-fill)}
 .featItem{flex:none;width:280px;scroll-snap-align:start;display:flex}
 .featItem > *{width:100%;margin:0;min-height:290px;height:auto;padding:16px 18px 20px;box-sizing:border-box}
 .featItem .title{font-size:var(--fs-22) !important;line-height:1.12}
-.featItem .tagline{margin-top:6px;font-size:var(--fs-14);line-height:1.35;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.featItem .tagline{margin-top:6px;font-size:var(--fs-13);line-height:1.35;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
 .featItem .origin{margin-top:8px;font-size:var(--fs-11)}
 .featItem .emblem svg{max-height:50px;max-width:50px}
 .dots{display:flex;justify-content:center;gap:7px;margin-top:4px}
 .dots i{width:7px;height:7px;border-radius:999px;background:var(--label-quaternary);transition:width .22s var(--ease-enter),background .22s}
 .dots i[data-on]{width:20px;background:var(--onda-accent,var(--accent))}
-.shelf{content-visibility:auto;contain-intrinsic-size:auto 250px}
 .shelfHead{display:flex;align-items:center;gap:6px;width:100%;min-height:44px;padding:24px 20px 10px;text-align:start;color:var(--label)}
 .shelfHead:active{opacity:.7}
 .shelfHead svg{color:var(--label-secondary)}
@@ -234,13 +238,13 @@ button.row:active,a.row:active{background:var(--surface-fill)}
 @media (prefers-color-scheme:dark){.home{--wash-o:.24}}
 :root[data-theme="dark"] .home{--wash-o:.24}
 :root[data-theme="light"] .home{--wash-o:.16}
-.home h1{font-family:var(--onda-font,var(--font-sans));text-transform:var(--onda-case,none);letter-spacing:var(--onda-track,0);font-weight:500}
+.home h1{font-family:var(--onda-font,var(--font-sans));text-transform:var(--onda-case,none);letter-spacing:var(--onda-track,0);font-weight:500;color:var(--onda-text,var(--label))}
 .home .groupHead{color:var(--onda-accent,var(--label-secondary))}
 .home .check{border-radius:var(--onda-shape,50%)}
 .home .checkOn{clip-path:var(--onda-clip,none)}
 /* Today on the Ondas tab: a centred title over a centred row of the Onda's ornament, one per practice */
 .todayHead{margin:0;padding:30px 20px 10px;text-align:center;font:700 var(--fs-26)/1.2 var(--font-sans);letter-spacing:var(--tracking-title);color:var(--label)}
-.home .todayHead{font-family:var(--onda-font,var(--font-sans));font-weight:500;text-transform:var(--onda-case,none);letter-spacing:var(--onda-track,var(--tracking-title))}
+.home .todayHead{color:var(--onda-text,var(--label));font-family:var(--onda-font,var(--font-sans));font-weight:500;text-transform:var(--onda-case,none);letter-spacing:var(--onda-track,var(--tracking-title))}
 .beads{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:8px;padding:2px 20px 8px}
 .bead{display:flex;align-items:center;gap:8px;color:color-mix(in srgb,var(--onda-accent,var(--accent)) 26%,transparent);transition:color var(--duration-standard)}
 .bead + .bead::before{content:"";width:14px;height:1px;border-radius:1px;background:color-mix(in srgb,var(--onda-accent,var(--accent)) 22%,transparent)}
@@ -274,3 +278,6 @@ button.row:active,a.row:active{background:var(--surface-fill)}
 
 /* Light effects (lib/lite.ts): emblems stand still and gold does not shimmer */
 :global(html[data-lite]) .hero[data-motion] .emblem > svg,:global(html[data-lite]) .hero[data-motion="shimmer"]::after{animation:none}
+/* content-visibility only on the desktop: WebKit (the phone) leaves such sections blank after a scroll */
+html[data-desk] .browseSec{content-visibility:auto;contain-intrinsic-size:auto 720px}
+html[data-desk] .shelf{content-visibility:auto;contain-intrinsic-size:auto 250px}

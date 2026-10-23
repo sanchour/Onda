@@ -23,6 +23,8 @@ export const SettingsSchema = z.object({
   ondaThemes: z.boolean().default(true),
   /** A very light wash of the running Onda's colour behind every screen. */
   ondaTint: z.boolean().default(true),
+  // 8.1: headings in the running Onda's language (i18n/native.ts)
+  nativeHeads: z.boolean().default(false),
   defaultOndaLength: z.number().int().min(7).max(30).default(14),
   reminderTime: z.string().default('08:00'),
   eveningTime: z.string().default('21:30'),

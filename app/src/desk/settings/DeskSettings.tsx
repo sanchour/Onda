@@ -44,7 +44,7 @@ const WORDS: Record<Pane, string[]> = {
   add: ['settings.add.newOnda', 'settings.add.newLago', 'settings.add.browseOndas', 'settings.add.browseLagos'],
   account: ['account.title', 'deskSet.editProfile', 'settings.streak', 'settings.danger.reset', 'settings.danger.signOut', 'settings.danger.deleteAccount'],
   subscription: ['settings.sub.plan', 'settings.sub.trialLeft', 'settings.sub.getLifetime', 'settings.sub.getMonthly', 'settings.sub.restore'],
-  appearance: ['settings.display.light', 'settings.display.dark', 'settings.display.auto', 'settings.display.defaultLength', 'settings.display.themes', 'settings.display.tint'],
+  appearance: ['settings.display.light', 'settings.display.dark', 'settings.display.auto', 'settings.display.defaultLength', 'settings.display.themes', 'settings.display.tint', 'settings.display.native'],
   integrations: ['settings.integrations.reminders', 'settings.integrations.calendar', 'settings.integrations.notion'],
   data: ['settings.data.history', 'settings.data.export', 'settings.data.import', 'settings.data.account', 'settings.data.lastSynced', 'settings.data.syncNow'],
   help: ['settings.help.help', 'settings.help.whatsNew', 'settings.help.privacyPolicy', 'settings.help.terms', 'settings.help.versionRow', 'settings.help.replay', 'settings.help.install'],

@@ -160,6 +160,7 @@ export default function Settings({ entry }: { entry: Extract<StackEntry, { name:
           <ListSection footer={`${t('settings.display.footer')} ${t('settings.display.textSize')}`}>
             <ListRow icon="paint-brush" title={t('settings.display.themes')} {...sw('ondaThemes')} />
             <ListRow icon="drop" title={t('settings.display.tint')} {...sw('ondaTint')} />
+            <ListRow icon="translate" title={t('settings.display.native')} subtitle={t('settings.display.nativeSub')} {...sw('nativeHeads')} />
           </ListSection>
         </div>
         <div className={m.rulerCard} style={{ marginTop: 28 }}>

@@ -16,6 +16,7 @@ import { EmblemArt } from './emblems'
 import { OrnamentIcon } from './KindArt'
 import { useActiveOnda, useRunToday } from './ondaShared'
 import s from './screens.module.css'
+import { useHead } from '@/i18n/native'
 
 /** Ondas tab: the running Onda's cover, a glass row of shortcuts, Today's plan by time of day, then the quote. */
 // The desktop has its own Today (src/desk/home); phones never load it. All Ondas is one page for both.
@@ -37,12 +38,13 @@ function PhoneOndasTab() {
   const active = useActiveOnda()
   const settings = useSettings()
   const done = useRunToday(active?.run.id)
+  const head = useHead()
   const { togglePractice } = useStore.getState()
 
   const header = (
     <div className={s.titleRow}>
       <h1 className={s.largeTitle}>
-        {t('ondas.title')}
+        {head('onda', t('ondas.title'))}
       </h1>
       <div className={s.actions}>
         <GlassButton icon="compass" ariaLabel={t('ondas.browse')} onClick={() => push({ name: 'allOndas' })} />
@@ -103,7 +105,7 @@ function PhoneOndasTab() {
           ]}
         />
 
-        <h2 className={c.todayHead}>{t('ondas.today')}</h2>
+        <h2 className={c.todayHead}>{head('today', t('ondas.today'))}</h2>
         {/* today's progress as a row of the Onda's own ornament, one for each practice */}
         <div className={c.beads} role="img" aria-label={progress}>
           {plan.map((p) => (

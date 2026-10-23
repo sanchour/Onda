@@ -15,6 +15,7 @@ import { KindArt, OrnamentIcon } from '@/screens/KindArt'
 import { Icon } from '@/ui/Icon'
 import { useDeskUI } from '../store'
 import h from './home.module.css'
+import { slotHead, useHead } from '@/i18n/native'
 
 /* Pieces the desktop Today view and the desktop Onda page share. Every one reads the same store data and calls the
    same actions as the phone screens (ondaShared, onda7); only the arrangement is new. */
@@ -261,7 +262,6 @@ export function PracticeCard({ p, done, onToggle, scope }: { p: DayPractice; don
             {check}
           </span>
           <span className={h.cardTitle}>{name}</span>
-          {p.twist && <span className={h.cardTwist}>{t('plan.today', { text: p.twist })}</span>}
           {!p.item && p.note && <span className={h.cardNote}>{p.note}</span>}
           {foot}
         </>
@@ -274,6 +274,7 @@ export function PracticeCard({ p, done, onToggle, scope }: { p: DayPractice; don
  *  once its practices are done. The time of day it is now is marked on a running Onda. */
 export function DayPlan({ plan, done, onToggle, scope }: { plan: DayPractice[]; done: Set<string>; onToggle: (id: string) => void; scope: PlanScope }) {
   const { t } = useTranslation()
+  const nh = useHead()
   const slots = SLOT_ORDER.filter((s) => plan.some((p) => p.slot === s))
   const cur = scope.runId ? slotNow() : undefined
   return (
@@ -288,7 +289,7 @@ export function DayPlan({ plan, done, onToggle, scope }: { plan: DayPractice[]; 
               <span className={h.node} aria-hidden>
                 {all ? <OrnamentIcon name={scope.look.ornament} size={20} weight={1.6} /> : <Icon name={SLOT_ICON[slot]} size={19} />}
               </span>
-              <h3 className={h.slotName}>{t(`slot.${slot}`)}</h3>
+              <h3 className={h.slotName}>{slotHead(slot) ? nh(slotHead(slot)!, t(`slot.${slot}`)) : t(`slot.${slot}`)}</h3>
               {cur === slot && <span className={h.now}>{t('deskHome.now')}</span>}
               <span className={h.slotCount}>{n}/{items.length}</span>
             </div>
@@ -331,6 +332,7 @@ export function RulesGrid({ rules, done, onToggle, numeral }: { rules: { id: str
 /** Today's practices as a ring and as a row of the Onda's ornament, one bead for each. */
 export function ProgressPanel({ look, plan, done, rules }: { look: OndaLook; plan: DayPractice[]; done: Set<string>; rules?: { kept: number; total: number } }) {
   const { t } = useTranslation()
+  const nh = useHead()
   const n = plan.filter((p) => done.has(p.id)).length
   const total = plan.length
   const full = total > 0 && n === total
@@ -354,7 +356,7 @@ export function ProgressPanel({ look, plan, done, rules }: { look: OndaLook; pla
           </span>
         </div>
         <div className={h.progText}>
-          <span className={h.kick}>{t('ondas.today')}</span>
+          <span className={h.kick}>{nh('today', t('ondas.today'))}</span>
           <span className={h.progTitle}>{full ? t('deskHome.dayDone') : label}</span>
           {rules && rules.total > 0 && <span className={h.progSub}>{t('ondas.rulesOf', { done: rules.kept, total: rules.total })}</span>}
         </div>

@@ -18,10 +18,12 @@ import o from './ondas.module.css'
 import m from './more.module.css'
 import s from './screens.module.css'
 import k from './statsDesk.module.css'
+import { useHead } from '@/i18n/native'
 
 /** Consistency as a barometer: a half dial with a knob, the score in the middle and the tier beneath. Nothing else. */
 function Barometer({ score, tier, bare }: { score: number; tier: 'finding' | 'building' | 'steady' | 'lockedIn'; bare?: boolean }) {
   const { t } = useTranslation()
+  const head = useHead()
   const [shown, setShown] = useState(0)
   useEffect(() => {
     const id = requestAnimationFrame(() => setShown(score))
@@ -36,7 +38,7 @@ function Barometer({ score, tier, bare }: { score: number; tier: 'finding' | 'bu
   }
   return (
     <div className={bare ? undefined : m.baroCard} role="img" aria-label={t('stats.consistencyAria', { pct, tier: tierLabel })}>
-      <h2 className={s.h20}>{t('stats.consistency')}</h2>
+      <h2 className={s.h20}>{head('consistency', t('stats.consistency'))}</h2>
       <div className={m.baro}>
         <svg viewBox="0 0 220 124" aria-hidden focusable="false">
           <path d="M22 110A88 88 0 0 1 198 110" className={m.baroTrack} pathLength={1} />
@@ -63,6 +65,7 @@ export const VIZ = ['var(--viz-blue)', 'var(--viz-yellow)', 'var(--viz-green)', 
 /** Stats: range switch, three summary cards, activity chart, achievements, Ondas and the monthly history calendar. */
 export default function StatsTab() {
   const { t } = useTranslation()
+  const head = useHead()
   const { push, openSheet } = useNav()
   const lagos = useStore((x) => x.lagos)
   const checkIns = useStore((x) => x.checkIns)
@@ -269,7 +272,7 @@ export default function StatsTab() {
             </section>
             <section className={`${k.card} ${k.act}`} aria-label={t('stats.activity')}>
               <div className={k.cardHead}>
-                <h2 className={s.h20}>{t('stats.activity')}</h2>
+                <h2 className={s.h20}>{head('activity', t('stats.activity'))}</h2>
                 <div className={k.seg}>{rangeControl}</div>
               </div>
               <div className={k.figs}>
@@ -287,7 +290,7 @@ export default function StatsTab() {
               <p className={k.note}>{t(`stats.note${range[0]!.toUpperCase()}${range.slice(1)}`)}</p>
             </section>
             <section className={`${k.card} ${k.cal}`} aria-label={t('stats.history')}>
-              <h2 className={s.h20}>{t('stats.history')}</h2>
+              <h2 className={s.h20}>{head('history', t('stats.history'))}</h2>
               {calendar}
             </section>
             <div className={k.side}>
@@ -319,7 +322,7 @@ export default function StatsTab() {
         {scope?.themed && <OrnDivider look={scope.look} />}
         <Barometer score={cons.score} tier={cons.tier} />
 
-        <SectionToggle title={t('stats.activity')} meta={t(`stats.${range}`)} open={!closed.act} onToggle={toggle('act')} />
+        <SectionToggle title={head('activity', t('stats.activity'))} meta={t(`stats.${range}`)} open={!closed.act} onToggle={toggle('act')} />
         {!closed.act && (
           <>
             <div style={{ padding: '0 16px' }}>{rangeControl}</div>
@@ -338,7 +341,7 @@ export default function StatsTab() {
           </>
         )}
 
-        <SectionToggle title={t('stats.history')} open={!closed.hist} onToggle={toggle('hist')} />
+        <SectionToggle title={head('history', t('stats.history'))} open={!closed.hist} onToggle={toggle('hist')} />
         {!closed.hist && (
           <div className={`${s.card} ${s.calCard}`} style={{ marginTop: 0 }}>
             {calendar}

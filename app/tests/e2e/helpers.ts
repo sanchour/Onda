@@ -17,9 +17,23 @@ export async function dismissCoachmark(page: Page) {
   if (await x.isVisible().catch(() => false)) await x.click()
 }
 
+/** Since 8.0 the Lagos live on the Ondas tab, under the day's plan: 'Lagos' opens Ondas and scrolls to them. */
 export const tab = async (page: Page, name: 'Lagos' | 'Ondas' | 'Stats') => {
-  await page.getByRole('tab', { name }).click()
+  await page.getByRole('tab', { name: name === 'Lagos' ? 'Ondas' : name }).click()
+  if (name === 'Lagos') await page.locator('#ondas-lagos').scrollIntoViewIfNeeded()
   await settle(page)
+}
+
+/** The New Lago sheet opens from Add New in Settings (8.0). */
+export async function newLago(page: Page) {
+  await tap(page, 'Settings')
+  await tap(page, /^New Lago/)
+}
+
+/** The Lagos Gallery opens from the New Lago sheet. */
+export async function openGallery(page: Page) {
+  await newLago(page)
+  await tap(page, 'Browse Lagos')
 }
 
 export const tap = async (page: Page, name: string | RegExp, role: 'button' | 'checkbox' | 'tab' | 'menuitem' | 'radio' | 'switch' = 'button') => {

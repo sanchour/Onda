@@ -11,6 +11,7 @@ import { VIZ } from '@/screens/StatsTab'
 import { Button } from '@/ui/buttons'
 import { Icon } from '@/ui/Icon'
 import { AppSheet } from './common'
+import { useHead } from '@/i18n/native'
 
 type E<N extends SheetEntry['name']> = { entry: Extract<SheetEntry, { name: N }> }
 const VIZ_HEX = ['#A9C4F7', '#FDDF9A', '#9FD9B8', '#FFB19C', '#B7A8F0']
@@ -77,6 +78,7 @@ async function shareCard(svg: SVGElement | null, color: string, name: string, de
 /* ── Achievements: all twelve, with real progress ─────────── */
 export function AchievementsSheet({ entry }: E<'achievements'>) {
   const { t } = useTranslation()
+  const head = useHead()
   const showToast = useNav((n) => n.showToast)
   const state = useStore()
   const [sel, setSel] = useState<AchievementKey>(entry.focus ?? 'firstStep')
@@ -96,7 +98,7 @@ export function AchievementsSheet({ entry }: E<'achievements'>) {
   }
 
   return (
-    <AppSheet entry={entry} title={t('stats.achievements')} detent={0.78}>
+    <AppSheet entry={entry} title={head('achievements', t('stats.achievements'))} detent={0.78}>
       <div style={{ padding: '8px 16px 40px' }}>
         <div className={s.card} style={{ margin: 0, padding: '20px 12px 16px' }}>
           <div ref={grid} className={m.achGrid} role="radiogroup" aria-label={t('stats.achievements')}>

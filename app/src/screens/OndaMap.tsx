@@ -1,10 +1,17 @@
-import { useMemo, useState, useRef } from 'react'
+import { useLayoutEffect, useMemo, useRef, useState, type ReactNode } from 'react'
 import { useTranslation } from 'react-i18next'
-import { haptic } from '@/lib/haptics'
-import { Icon } from '@/ui/Icon'
-import { openExternal } from '@/sheets/guideParts'
+import { ONDA_ORIGIN, placeAt } from '@/content/placeCoords'
 import type { OndaLook } from '@/content/themes'
+import { haptic } from '@/lib/haptics'
+import { openExternal } from '@/sheets/guideParts'
 import g from '@/sheets/guide.module.css'
+import { Icon } from '@/ui/Icon'
+import { WORLD_LAND } from './worldLand'
+
+/* The Onda maps (8.1): "Where it took root" in the Full Guide and the Travel tab in Immersion. The land is Natural Earth
+   (src/screens/worldLand.ts, from scripts/gen-world.mjs) in an equirectangular frame of 800 x 400; every place to visit
+   has its own coordinates (content/placeCoords.ts). Drag to move, pinch, double tap or the buttons to zoom; pins keep
+   their size at any zoom. */
 
 export interface MapPlace {
   id: string
@@ -16,418 +23,282 @@ export interface MapPlace {
   unverified?: boolean
 }
 
-interface Coords {
-  lat: number
-  lng: number
+const MAP_W = 800
+const MAP_H = 400
+const MIN_W = 6
+
+function project(lat: number, lng: number): { x: number; y: number } {
+  return { x: ((lng + 180) / 360) * MAP_W, y: ((90 - lat) / 180) * MAP_H }
+}
+
+/** Where a place is on the map, or null for a festival or a place that is anywhere. */
+function resolveCoords(place: MapPlace): { x: number; y: number } | null {
+  const at = placeAt(place.id)
+  return at ? project(at[0], at[1]) : null
+}
+
+interface View {
   x: number
   y: number
+  w: number
+  h: number
+}
+const WORLD: View = { x: 0, y: 0, w: MAP_W, h: MAP_H }
+
+/** The view that frames these points with some sea around them, at the canvas's aspect. */
+function fitView(points: { x: number; y: number }[], aspect: number): View {
+  if (!points.length) return WORLD
+  const xs = points.map((p) => p.x)
+  const ys = points.map((p) => p.y)
+  const [x0, x1, y0, y1] = [Math.min(...xs), Math.max(...xs), Math.min(...ys), Math.max(...ys)]
+  const pad = Math.max(10, (x1 - x0) * 0.22, (y1 - y0) * 0.22)
+  let w = Math.max(x1 - x0 + pad * 2, 34)
+  let h = Math.max(y1 - y0 + pad * 2, 34 / aspect)
+  if (w / h > aspect) h = w / aspect
+  else w = h * aspect
+  return clampView({ x: (x0 + x1) / 2 - w / 2, y: (y0 + y1) / 2 - h / 2, w, h })
 }
 
-// Equirectangular projection: 800 x 400
-export const MAP_W = 800
-export const MAP_H = 400
-
-export function project(lat: number, lng: number): { x: number; y: number } {
-  const x = ((lng + 180) / 360) * MAP_W
-  const y = ((90 - lat) / 180) * MAP_H
-  return {
-    x: Math.round(x * 10) / 10,
-    y: Math.round(y * 10) / 10,
-  }
+function clampView(v: View): View {
+  const aspect = v.w / v.h
+  const w = Math.min(MAP_W, Math.max(MIN_W, v.w))
+  const h = Math.min(MAP_H, w / aspect)
+  return { x: Math.min(MAP_W - w, Math.max(0, v.x)), y: Math.min(MAP_H - h, Math.max(0, v.y)), w, h }
 }
 
-/** Fallback coordinates for each Onda ID */
-const ONDA_COORDS: Record<string, [number, number]> = {
-  stoic: [37.98, 23.72],
-  zen: [35.01, 135.76],
-  tao: [32.4, 111.0],
-  confucian: [35.59, 116.98],
-  plato: [37.98, 23.72],
-  epicurus: [37.98, 23.72],
-  cyrenaic: [32.82, 21.86],
-  cynic: [37.98, 23.72],
-  hindu: [25.31, 82.97],
-  vedanta: [25.31, 82.97],
-  jain: [24.69, 84.99],
-  sikh: [31.63, 74.87],
-  theravada: [7.29, 80.63],
-  mahayana: [24.69, 84.99],
-  tibet: [29.65, 91.13],
-  shinto: [34.46, 136.73],
-  zoroaster: [31.89, 54.36],
-  judaism: [31.76, 35.21],
-  christian: [31.76, 35.21],
-  sunni: [21.42, 39.83],
-  shia: [32.0, 44.33],
-  sufi: [37.87, 32.48],
-  gnostic: [31.2, 29.91],
-  hermes: [31.2, 29.91],
-  norse: [64.14, -21.94],
-  animism: [45.0, -95.0],
-  rasta: [18.01, -76.8],
-  discordia: [37.77, -122.41],
-  druid: [51.18, -1.83],
-  transc: [42.46, -71.35],
-  existential: [48.85, 2.35],
-  ubuntu: [-26.2, 28.04],
-  postmodern: [48.85, 2.35],
-  machiavelli: [43.76, 11.25],
-  goethe: [50.98, 11.32],
-  kant: [54.71, 20.51],
-  dostoevsky: [59.93, 30.33],
-  nietzsche: [46.42, 9.76],
-  freud: [48.2, 16.37],
-  gandhi: [23.02, 72.57],
-  adler: [48.2, 16.37],
-  jung: [47.37, 8.54],
-  rumi: [37.87, 32.48],
-  aquinas: [40.85, 14.26],
-  spinoza: [52.07, 4.3],
-  rousseau: [46.2, 6.14],
-  hegel: [50.92, 11.58],
-  schopenhauer: [50.11, 8.68],
-  orwell: [51.5, -0.12],
-  egypt: [25.68, 32.64],
-  rome: [41.9, 12.49],
-  abbasid: [33.31, 44.36],
-  hre: [50.11, 8.68],
-  khmer: [13.41, 103.86],
-  mongol: [47.19, 102.83],
-  ottoman: [41.0, 28.97],
-  burgundy: [47.32, 5.04],
-  aztec: [19.43, -99.13],
-  inca: [-13.53, -71.96],
-  mughal: [27.17, 78.0],
-  johor: [1.46, 103.76],
-  habsburg: [48.2, 16.37],
-  qing: [39.9, 116.4],
-  soviet: [55.75, 37.61],
-  abyssinia: [14.13, 38.72],
-  celtic: [53.34, -6.26],
-  frisian: [53.2, 5.79],
-  renaissance: [43.76, 11.25],
-  twenties: [40.71, -74.0],
-  sixties: [37.77, -122.41],
-  cuba: [23.11, -82.36],
-  yoruba: [7.48, 4.55],
-  zulu: [-28.33, 31.41],
-  bantu: [-4.0, 22.0],
-  maasai: [-2.33, 34.83],
-  aboriginal: [-25.34, 131.03],
-  polynesia: [-21.23, -159.77],
-  melanesia: [-17.71, 178.06],
-  micronesia: [6.92, 158.21],
-  maori: [-36.85, 174.76],
-  bedouin: [23.88, 45.07],
+/** Zoom by `f` (above 1 zooms in) around a point given as fractions of the canvas. */
+const zoomAt = (v: View, f: number, fx = 0.5, fy = 0.5): View => {
+  const w = Math.min(MAP_W, Math.max(MIN_W, v.w / f))
+  const h = w * (v.h / v.w)
+  return clampView({ x: v.x + (v.w - w) * fx, y: v.y + (v.h - h) * fy, w, h })
 }
 
-/** Keyword to coordinate lookup for places */
-const CITY_COORDS: [RegExp, [number, number]][] = [
-  // Greece & Mediterranean
-  [/athens|agora|acropolis|parthenon|stoa/i, [37.98, 23.72]],
-  [/corinth/i, [37.94, 22.93]],
-  [/sparta/i, [37.07, 22.43]],
-  [/delphi/i, [38.48, 22.5]],
-  [/epirus|preveza|nicopolis/i, [38.96, 20.75]],
-  [/rhodes/i, [36.43, 28.22]],
-  [/crete|knossos/i, [35.3, 25.16]],
-  [/cyrene|libya/i, [32.82, 21.86]],
-  [/rome|capitol|vatican|palatine|colosseum/i, [41.9, 12.49]],
-  [/naples|pompeii|vesuvius/i, [40.85, 14.26]],
-  [/carnuntum|austria|vienna|zentralfriedhof/i, [48.2, 16.37]],
-  [/florence|tuscany|uffizi/i, [43.76, 11.25]],
-  [/venice/i, [45.44, 12.33]],
-  [/milan/i, [45.46, 9.19]],
-  // Middle East & North Africa
-  [/baghdad|tigris|mesopotamia/i, [33.31, 44.36]],
-  [/samarra/i, [34.19, 43.87]],
-  [/cairo|giza|pyramids|nile|luxor|karnak/i, [30.04, 31.23]],
-  [/alexandria/i, [31.2, 29.91]],
-  [/jerusalem|judea|galilee/i, [31.76, 35.21]],
-  [/mecca/i, [21.42, 39.83]],
-  [/medina/i, [24.52, 39.56]],
-  [/konya|dervish|rumi/i, [37.87, 32.48]],
-  [/istanbul|constantinople|bosporus/i, [41.0, 28.97]],
-  [/isfahan|shiraz|tehran|persia|iran/i, [32.65, 51.66]],
-  [/damascus/i, [33.51, 36.29]],
-  [/qatar|doha/i, [25.28, 51.53]],
-  [/emirates|sharjah|dubai/i, [25.35, 55.4]],
-  // Asia
-  [/kyoto|ryoan|gion|kamogawa/i, [35.01, 135.76]],
-  [/tokyo|edo|shinjuku|shibuya/i, [35.67, 139.65]],
-  [/nara/i, [34.68, 135.8]],
-  [/mount fuji|fujisan/i, [35.36, 138.73]],
-  [/beijing|forbidden city/i, [39.9, 116.4]],
-  [/chang'an|xi'an|terracotta/i, [34.34, 108.93]],
-  [/wudang/i, [32.4, 111.0]],
-  [/qufu|shandong/i, [35.59, 116.98]],
-  [/varanasi|benares|ganges/i, [25.31, 82.97]],
-  [/bodh gaya|bihar/i, [24.69, 84.99]],
-  [/amritsar|golden temple/i, [31.63, 74.87]],
-  [/delhi|new delhi/i, [28.61, 77.2]],
-  [/agra|taj mahal/i, [27.17, 78.0]],
-  [/lhasa|tibet|himalaya/i, [29.65, 91.13]],
-  [/angkor|cambodia/i, [13.41, 103.86]],
-  [/bagan|myanmar/i, [21.17, 94.86]],
-  [/karakorum|mongolia/i, [47.19, 102.83]],
-  // Europe
-  [/paris|louvre|seine|sorbonne/i, [48.85, 2.35]],
-  [/london|westminster|thames/i, [51.5, -0.12]],
-  [/edinburgh|scotland/i, [55.95, -3.18]],
-  [/dublin|ireland/i, [53.34, -6.26]],
-  [/amsterdam|hague|netherlands|holland/i, [52.36, 4.9]],
-  [/leeuwarden|frisia/i, [53.2, 5.79]],
-  [/geneva|switzerland/i, [46.2, 6.14]],
-  [/zurich/i, [47.37, 8.54]],
-  [/sils maria|engadin/i, [46.42, 9.76]],
-  [/berlin|germany/i, [52.52, 13.4]],
-  [/frankfurt/i, [50.11, 8.68]],
-  [/weimar/i, [50.98, 11.32]],
-  [/jena/i, [50.92, 11.58]],
-  [/königsberg|kaliningrad/i, [54.71, 20.51]],
-  [/dijon|burgundy/i, [47.32, 5.04]],
-  [/madrid|spain/i, [40.41, -3.7]],
-  [/st petersburg|leningrad/i, [59.93, 30.33]],
-  [/moscow/i, [55.75, 37.61]],
-  [/reykjavik|iceland|thingvellir/i, [64.14, -21.94]],
-  [/stonehenge/i, [51.18, -1.83]],
-  // Americas
-  [/mexico city|tenochtitlan|chapultepec|zocalo/i, [19.43, -99.13]],
-  [/teotihuacan/i, [19.69, -98.84]],
-  [/oaxaca|monte alban/i, [17.06, -96.72]],
-  [/cusco|machu picchu|andes|peru/i, [-13.53, -71.96]],
-  [/lake titicaca/i, [-15.84, -69.33]],
-  [/havana|cuba/i, [23.11, -82.36]],
-  [/new york|manhattan|brooklyn/i, [40.71, -74.0]],
-  [/concord|walden|boston|massachusetts/i, [42.46, -71.35]],
-  [/washington|smithsonian/i, [38.9, -77.03]],
-  [/san francisco/i, [37.77, -122.41]],
-  [/new mexico|taos|santa fe/i, [35.68, -105.93]],
-  [/arizona|phoenix/i, [33.44, -112.07]],
-  [/illinois|chicago|collinsville|cahokia/i, [38.65, -90.06]],
-  // Oceania & Africa
-  [/uluru|kata tjuta|red centre/i, [-25.34, 131.03]],
-  [/northern territory|darwin/i, [-12.46, 130.84]],
-  [/new south wales|sydney/i, [-33.86, 151.2]],
-  [/victoria|melbourne/i, [-37.81, 144.96]],
-  [/canberra/i, [-35.28, 149.13]],
-  [/aotearoa|new zealand|auckland|rotorua/i, [-36.85, 174.76]],
-  [/polynesia|tahiti|rarotonga|samoa/i, [-21.23, -159.77]],
-  [/melanesia|fiji|vanuatu/i, [-17.71, 178.06]],
-  [/micronesia|pohnpei/i, [6.92, 158.21]],
-  [/ethiopia|axum|lalibela|addis/i, [14.13, 38.72]],
-  [/timbuktu|mali/i, [16.76, -3.0]],
-  [/nigeria|ile-ife|yoruba/i, [7.48, 4.55]],
-  [/zulu|kwazulu|durban|ulundi/i, [-28.33, 31.41]],
-  [/serengeti|kenya|tanzania|maasai/i, [-2.33, 34.83]],
-  [/great zimbabwe|bantu/i, [-20.27, 30.93]],
-]
+interface Pin {
+  key: string
+  x: number
+  y: number
+  title: string
+  origin?: boolean
+}
 
-export function resolveCoords(place: MapPlace, ondaId: string, index: number): Coords {
-  const text = `${place.title} ${place.creator ?? ''} ${place.why ?? ''}`
-  for (const [pattern, [lat, lng]] of CITY_COORDS) {
-    if (pattern.test(text)) {
-      // Add a slight jitter if multiple places share coordinates so pins don't overlap completely
-      const jLat = lat + ((index % 3) - 1) * 0.35
-      const jLng = lng + ((Math.floor(index / 3) % 3) - 1) * 0.45
-      const { x, y } = project(jLat, jLng)
-      return { lat: jLat, lng: jLng, x, y }
+/** The map itself: ocean, grid, land and pins, which the finger and the zoom buttons move. */
+function MapCanvas({ fit, pins, active, onPick, label, className, labels, children }: { fit: View; pins: Pin[]; active?: string; onPick: (key: string) => void; label: string; className?: string; labels?: boolean; children?: ReactNode }) {
+  const { t } = useTranslation()
+  const svg = useRef<SVGSVGElement>(null)
+  const [view, setView] = useState(fit)
+  const [px, setPx] = useState(360)
+  const pts = useRef(new Map<number, { x: number; y: number }>())
+  const g0 = useRef({ view: fit, x: 0, y: 0, d: 0, mx: 0, my: 0, moved: false, swallow: false })
+
+  useLayoutEffect(() => {
+    const el = svg.current
+    if (!el) return
+    const ro = new ResizeObserver(() => setPx(el.clientWidth || 360))
+    ro.observe(el)
+    return () => ro.disconnect()
+  }, [])
+
+  const rect = () => svg.current!.getBoundingClientRect()
+  const two = () => [...pts.current.values()] as [{ x: number; y: number }, { x: number; y: number }]
+  const start = () => {
+    const s = g0.current
+    s.view = view
+    if (pts.current.size === 2) {
+      const [a, b] = two()
+      s.d = Math.hypot(a.x - b.x, a.y - b.y)
+      s.mx = (a.x + b.x) / 2
+      s.my = (a.y + b.y) / 2
+    } else {
+      const [a] = [...pts.current.values()]
+      s.x = a!.x
+      s.y = a!.y
     }
   }
-  // Fallback to Onda's default coordinates with deterministic offset
-  const base = ONDA_COORDS[ondaId] ?? [35.0, 20.0]
-  const lat = base[0] + ((index % 4) - 1.5) * 0.8
-  const lng = base[1] + ((Math.floor(index / 2) % 4) - 1.5) * 1.1
-  const { x, y } = project(lat, lng)
-  return { lat, lng, x, y }
-}
+  // zoomed in past the framed view, the finger moves the map; at the framed view a vertical drag still scrolls the page
+  const zoomed = view.w < fit.w - 0.5
+  const k = view.w / px
 
-export function computeBoundingViewBox(points: { x: number; y: number }[]): string {
-  if (!points.length) return `0 0 ${MAP_W} ${MAP_H}`
-  let minX = Infinity
-  let maxX = -Infinity
-  let minY = Infinity
-  let maxY = -Infinity
-  for (const p of points) {
-    if (p.x < minX) minX = p.x
-    if (p.x > maxX) maxX = p.x
-    if (p.y < minY) minY = p.y
-    if (p.y > maxY) maxY = p.y
-  }
-  const padX = 60
-  const padY = 45
-  let w = Math.max(220, maxX - minX + padX * 2)
-  let h = Math.max(130, maxY - minY + padY * 2)
-  // Keep roughly 2:1 aspect ratio
-  if (w / h > 2.2) h = w / 2
-  else if (w / h < 1.7) w = h * 1.9
-
-  const cx = (minX + maxX) / 2
-  const cy = (minY + maxY) / 2
-  const x = Math.max(0, Math.min(MAP_W - w, cx - w / 2))
-  const y = Math.max(0, Math.min(MAP_H - h, cy - h / 2))
-  return `${Math.round(x)} ${Math.round(y)} ${Math.round(w)} ${Math.round(h)}`
-}
-
-/** Vector silhouettes for world continents in Equirectangular projection (800x400) */
-export function WorldLandmasses() {
   return (
-    <g className={g.mapLand} aria-hidden>
-      {/* North America & Greenland */}
-      <path d="M120,45 L155,42 L180,50 L210,38 L225,55 L245,60 L235,85 L260,95 L250,120 L210,135 L190,145 L175,130 L160,110 L140,95 L115,75 Z M220,25 L240,20 L260,35 L245,45 L225,38 Z" />
-      {/* Central America & Caribbean */}
-      <path d="M190,145 L215,160 L230,175 L220,185 L205,175 L185,155 Z M235,160 Q245,158 250,165 Q240,170 235,160" />
-      {/* South America */}
-      <path d="M225,185 L255,180 L285,195 L300,225 L285,270 L265,310 L250,335 L240,320 L250,270 L240,230 L220,200 Z" />
-      {/* Europe */}
-      <path d="M395,70 L430,65 L460,75 L450,105 L430,125 L405,120 L385,115 L380,95 Z M375,75 L385,70 L390,85 L380,90 Z M410,50 L425,48 L430,60 L415,65 Z" />
-      {/* British Isles */}
-      <path d="M370,80 L380,78 L382,92 L372,95 Z M362,85 L368,83 L366,92 L360,90 Z" />
-      {/* Africa & Madagascar */}
-      <path d="M380,125 L430,125 L465,145 L475,175 L455,225 L435,270 L415,280 L395,250 L375,190 L365,155 Z M475,235 L485,230 L480,260 L470,255 Z" />
-      {/* Asia & Middle East */}
-      <path d="M460,75 L520,65 L580,60 L650,65 L710,75 L730,105 L700,125 L650,140 L600,155 L550,140 L500,145 L465,135 Z M660,145 L690,140 L685,180 L650,195 L630,170 Z M460,135 L490,140 L485,175 L455,170 Z M525,145 L560,150 L550,195 L520,185 Z" />
-      {/* Japan & East Asian Islands */}
-      <path d="M705,105 L715,100 L720,120 L710,125 Z M680,160 L695,155 L700,175 L685,180 Z" />
-      {/* Australia & New Zealand */}
-      <path d="M660,250 L710,245 L730,270 L715,310 L675,315 L645,285 Z M745,310 L755,305 L760,325 L750,330 Z" />
-      {/* Indonesia & Pacific */}
-      <path d="M640,195 L680,190 L710,205 L670,215 Z M720,195 L740,200 L730,220 L715,210 Z" />
-    </g>
+    <div className={className}>
+      <svg
+        ref={svg}
+        viewBox={`${view.x} ${view.y} ${view.w} ${view.h}`}
+        className={g.mapSvg}
+        role="img"
+        aria-label={label}
+        style={{ touchAction: zoomed ? 'none' : 'pan-y' }}
+        onPointerDown={(e) => {
+          if (e.pointerType === 'mouse' && e.button !== 0) return
+          pts.current.set(e.pointerId, { x: e.clientX, y: e.clientY })
+          g0.current.moved = pts.current.size > 1
+          if (pts.current.size > 1) (e.currentTarget as Element).setPointerCapture(e.pointerId)
+          start()
+        }}
+        onPointerMove={(e) => {
+          if (!pts.current.has(e.pointerId)) return
+          pts.current.set(e.pointerId, { x: e.clientX, y: e.clientY })
+          const s = g0.current
+          const r = rect()
+          if (pts.current.size === 2) {
+            const [a, b] = two()
+            const d = Math.hypot(a.x - b.x, a.y - b.y) || 1
+            const mx = (a.x + b.x) / 2
+            const my = (a.y + b.y) / 2
+            const w = Math.min(MAP_W, Math.max(MIN_W, (s.view.w * s.d) / d))
+            const h = w * (s.view.h / s.view.w)
+            // the map point under the fingers' first midpoint follows the midpoint
+            const ux = s.view.x + ((s.mx - r.left) / r.width) * s.view.w
+            const uy = s.view.y + ((s.my - r.top) / r.height) * s.view.h
+            setView(clampView({ x: ux - ((mx - r.left) / r.width) * w, y: uy - ((my - r.top) / r.height) * h, w, h }))
+            return
+          }
+          const dx = e.clientX - s.x
+          const dy = e.clientY - s.y
+          if (!s.moved) {
+            if (Math.hypot(dx, dy) < 6) return
+            s.moved = true
+            ;(e.currentTarget as Element).setPointerCapture(e.pointerId)
+          }
+          setView(clampView({ ...s.view, x: s.view.x - (dx / r.width) * s.view.w, y: s.view.y - (dy / r.height) * s.view.h }))
+        }}
+        onPointerUp={(e) => {
+          pts.current.delete(e.pointerId)
+          if (g0.current.moved) g0.current.swallow = true
+          if (pts.current.size) start()
+        }}
+        onPointerCancel={(e) => {
+          pts.current.delete(e.pointerId)
+          if (pts.current.size) start()
+        }}
+        onClickCapture={(e) => {
+          // the release that ends a drag is not a tap on a pin
+          if (g0.current.swallow) {
+            g0.current.swallow = false
+            e.stopPropagation()
+          }
+        }}
+        onDoubleClick={(e) => {
+          const r = rect()
+          setView((v) => zoomAt(v, 2, (e.clientX - r.left) / r.width, (e.clientY - r.top) / r.height))
+        }}
+        onWheel={(e) => {
+          // a pinch on a trackpad arrives as a wheel with ctrl; a plain wheel keeps scrolling the page
+          if (!e.ctrlKey && !e.metaKey) return
+          e.preventDefault()
+          const r = rect()
+          setView((v) => zoomAt(v, Math.exp(-e.deltaY / 200), (e.clientX - r.left) / r.width, (e.clientY - r.top) / r.height))
+        }}
+      >
+        <rect width={MAP_W} height={MAP_H} className={g.mapOcean} />
+        <g className={g.mapGrid} aria-hidden>
+          {[-60, -30, 0, 30, 60].map((lat) => <line key={lat} x1={0} x2={MAP_W} y1={project(lat, 0).y} y2={project(lat, 0).y} vectorEffect="non-scaling-stroke" strokeDasharray={lat ? '2 4' : '3 3'} />)}
+          {[-120, -60, 0, 60, 120].map((lng) => <line key={lng} y1={0} y2={MAP_H} x1={project(0, lng).x} x2={project(0, lng).x} vectorEffect="non-scaling-stroke" strokeDasharray={lng ? '2 4' : '3 3'} />)}
+        </g>
+        <g className={g.mapLand} aria-hidden>
+          <path d={WORLD_LAND} vectorEffect="non-scaling-stroke" />
+        </g>
+        {pins.map((m) => {
+          const on = active === m.key
+          return (
+            <g
+              key={m.key}
+              className={g.mapPin}
+              data-selected={on || undefined}
+              data-origin={m.origin || undefined}
+              transform={`translate(${m.x} ${m.y}) scale(${k})`}
+              onClick={() => {
+                haptic('select')
+                onPick(m.key)
+              }}
+              onKeyDown={(e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                  e.preventDefault()
+                  onPick(m.key)
+                }
+              }}
+              role="button"
+              tabIndex={0}
+              aria-label={m.title}
+            >
+              <circle r="20" fill="transparent" style={{ pointerEvents: 'all' }} />
+              {on && <circle r="14" className={g.mapPulse} />}
+              <circle r="7.5" cy="1.5" className={g.mapPinShadow} />
+              <circle r="7" className={m.origin ? g.mapPinOrigin : g.mapPinBody} />
+              <circle r="2.4" className={g.mapPinDot} />
+              {labels && on && (
+                <text y="-15" textAnchor="middle" className={g.mapPinLabel}>
+                  {m.title}
+                </text>
+              )}
+            </g>
+          )
+        })}
+      </svg>
+      <div className={g.mapZoom}>
+        <button type="button" className={g.mapZoomBtn} aria-label={t('guide.zoomIn')} onClick={() => setView((v) => zoomAt(v, 2))}>
+          <Icon name="plus" weight="bold" size={15} />
+        </button>
+        <button type="button" className={g.mapZoomBtn} aria-label={t('guide.zoomOut')} onClick={() => setView((v) => zoomAt(v, 0.5))}>
+          <Icon name="minus" weight="bold" size={15} />
+        </button>
+      </div>
+      {children}
+    </div>
   )
 }
 
-/** Graticules (Latitude / Longitude grid) */
-export function MapGrid() {
-  return (
-    <g className={g.mapGrid} aria-hidden>
-      {/* Equator */}
-      <line x1="0" y1="200" x2="800" y2="200" strokeDasharray="3 3" />
-      {/* Tropics */}
-      <line x1="0" y1="148" x2="800" y2="148" strokeDasharray="2 4" opacity="0.6" />
-      <line x1="0" y1="252" x2="800" y2="252" strokeDasharray="2 4" opacity="0.6" />
-      {/* Meridians */}
-      <line x1="200" y1="0" x2="200" y2="400" strokeDasharray="2 4" opacity="0.5" />
-      <line x1="400" y1="0" x2="400" y2="400" strokeDasharray="3 3" />
-      <line x1="600" y1="0" x2="600" y2="400" strokeDasharray="2 4" opacity="0.5" />
-    </g>
-  )
+const openInMaps = (title: string, location?: string) => {
+  const q = encodeURIComponent([title, location].filter(Boolean).join(', '))
+  openExternal(`https://www.google.com/maps/search/?api=1&query=${q}`)
 }
 
-/** Compact map widget placed between At a Glance and Quote on Full Guide */
-export function OndaMapWidget({
-  ondaId,
-  origin,
-  places,
-  look,
-}: {
-  ondaId: string
-  origin: string
-  places: MapPlace[]
-  look: OndaLook
-}) {
+function ViewToggle({ regional, onToggle, size = 15 }: { regional: boolean; onToggle: () => void; size?: number }) {
   const { t } = useTranslation()
-  const [activeId, setActiveId] = useState<string | null>(null)
+  return (
+    <button type="button" className={g.mapViewBtn} onClick={onToggle} aria-label={regional ? t('guide.worldView') : t('guide.regionView')}>
+      <Icon name={regional ? 'globe' : 'magnifying-glass-plus'} weight="bold" size={size} />
+      <span>{regional ? t('guide.world') : t('guide.region')}</span>
+    </button>
+  )
+}
+
+/** "Where it took root" in the Full Guide: where the Onda began, and its places to visit. */
+export function OndaMapWidget({ ondaId, origin, places, look }: { ondaId: string; origin: string; places: MapPlace[]; look: OndaLook }) {
+  const { t } = useTranslation()
+  const [activeId, setActiveId] = useState('origin')
   const [regional, setRegional] = useState(true)
 
-  // Map markers: origin + up to 5 places
   const markers = useMemo(() => {
-    const originBase = ONDA_COORDS[ondaId] ?? [35.0, 20.0]
-    const originProj = project(originBase[0], originBase[1])
-    const originMarker = {
-      id: 'origin',
-      title: origin || t('guide.origin'),
-      creator: ondaId.toUpperCase(),
-      why: t('guide.originMarker', { name: ondaId }),
-      isOrigin: true,
-      coords: { lat: originBase[0], lng: originBase[1], ...originProj },
-    }
-
-    const placeMarkers = places.slice(0, 5).map((p, idx) => ({
-      ...p,
-      isOrigin: false,
-      coords: resolveCoords(p, ondaId, idx + 1),
-    }))
-
-    return [originMarker, ...placeMarkers]
+    const at = ONDA_ORIGIN[ondaId]
+    const home = at ? [{ ...project(at[0], at[1]), id: 'origin', title: origin || t('guide.origin'), creator: t('guide.origin') as string | undefined, why: undefined as string | undefined, isOrigin: true }] : []
+    const rest = places.flatMap((p) => {
+      const c = resolveCoords(p)
+      return c ? [{ ...p, ...c, isOrigin: false }] : []
+    })
+    return [...home, ...rest]
   }, [ondaId, origin, places, t])
 
-  const viewBox = useMemo(() => {
-    if (!regional) return `0 0 ${MAP_W} ${MAP_H}`
-    return computeBoundingViewBox(markers.map((m) => m.coords))
-  }, [regional, markers])
-
+  const fit = useMemo(() => (regional ? fitView(markers, 2) : WORLD), [regional, markers])
   const activeItem = markers.find((m) => m.id === activeId) ?? markers[0]
-
-  const openInMaps = (title: string, location?: string) => {
-    const q = encodeURIComponent([title, location].filter(Boolean).join(', '))
-    openExternal(`https://www.google.com/maps/search/?api=1&query=${q}`)
-  }
 
   return (
     <div className={g.mapWidget} data-frame={look.layout === 'frame' || undefined}>
       <div className={g.mapWidgetHead}>
         <div className={g.mapWidgetTitle}>
           <Icon name="compass" weight="bold" size={18} />
-          <span>{t('guide.mapTitle', { defaultValue: 'Where It Took Root' })}</span>
+          <span>{t('guide.mapTitle')}</span>
         </div>
-        <button
-          type="button"
-          className={g.mapViewBtn}
-          onClick={() => setRegional((v) => !v)}
-          aria-label={regional ? t('guide.worldView', { defaultValue: 'World View' }) : t('guide.regionView', { defaultValue: 'Regional Focus' })}
-        >
-          <Icon name={regional ? 'globe' : 'magnifying-glass-plus'} weight="bold" size={15} />
-          <span>{regional ? t('guide.world', { defaultValue: 'World' }) : t('guide.region', { defaultValue: 'Region' })}</span>
-        </button>
+        <ViewToggle regional={regional} onToggle={() => setRegional((v) => !v)} />
       </div>
-
-      <div className={g.mapSvgWrapper}>
-        <svg
-          viewBox={viewBox}
-          className={g.mapSvg}
-          role="img"
-          aria-label={t('guide.mapAria', { defaultValue: 'Map of relevant historical locations' })}
-        >
-          <rect width={MAP_W} height={MAP_H} className={g.mapOcean} />
-          <MapGrid />
-          <WorldLandmasses />
-
-          {/* Markers */}
-          {markers.map((m) => {
-            const isSelected = activeItem?.id === m.id
-            return (
-              <g
-                key={m.id}
-                className={g.mapPin}
-                data-selected={isSelected || undefined}
-                data-origin={m.isOrigin || undefined}
-                transform={`translate(${m.coords.x}, ${m.coords.y})`}
-                onClick={() => {
-                  haptic('select')
-                  setActiveId(m.id)
-                }}
-                role="button"
-                tabIndex={0}
-                aria-label={m.title}
-              >
-                {/* Large touch/click hitbox */}
-                <circle r="26" fill="transparent" style={{ pointerEvents: 'all' }} />
-                {/* Pulse ring for active pin */}
-                {isSelected && <circle r="14" className={g.mapPulse} />}
-                {/* Pin shadow */}
-                <circle r="7" cy="1.5" className={g.mapPinShadow} />
-                {/* Pin body */}
-                <circle r="6.5" className={m.isOrigin ? g.mapPinOrigin : g.mapPinBody} />
-                {/* Pin icon/dot */}
-                <circle r="2.2" className={g.mapPinDot} />
-              </g>
-            )
-          })}
-        </svg>
-      </div>
-
-      {/* Selected location pill card */}
+      <MapCanvas
+        key={`${fit.x} ${fit.y} ${fit.w}`}
+        fit={fit}
+        className={g.mapSvgWrapper}
+        label={t('guide.mapAria')}
+        pins={markers.map((m) => ({ key: m.id, x: m.x, y: m.y, title: m.title, origin: m.isOrigin }))}
+        active={activeItem?.id}
+        onPick={setActiveId}
+      />
       {activeItem && (
         <div className={g.mapInfoCard}>
           <div className={g.mapInfoIcon}>
@@ -439,12 +310,7 @@ export function OndaMapWidget({
             {activeItem.why && <div className={g.mapInfoWhy}>{activeItem.why}</div>}
           </div>
           {!activeItem.isOrigin && (
-            <button
-              type="button"
-              className={g.mapNavBtn}
-              aria-label={`${t('guide.openLink')}: ${activeItem.title}`}
-              onClick={() => openInMaps(activeItem.title, activeItem.creator)}
-            >
+            <button type="button" className={g.mapNavBtn} aria-label={`${t('guide.openLink')}: ${activeItem.title}`} onClick={() => openInMaps(activeItem.title, activeItem.creator)}>
               <Icon name="arrow-up-right" weight="bold" size={15} />
             </button>
           )}
@@ -454,127 +320,38 @@ export function OndaMapWidget({
   )
 }
 
-/** Cool interactive map view for Chapter 7: Places and festivals */
-export function OndaPlacesMap({
-  ondaId,
-  places,
-  look,
-}: {
-  ondaId: string
-  places: MapPlace[]
-  look: OndaLook
-}) {
+/** Places and festivals, with the places pinned on a map above a row of cards that follow each other. */
+export function OndaPlacesMap({ places, look }: { ondaId: string; places: MapPlace[]; look: OndaLook }) {
   const { t } = useTranslation()
   const [activeIdx, setActiveIdx] = useState(0)
   const [regional, setRegional] = useState(true)
   const deckRef = useRef<HTMLDivElement>(null)
 
-  const items = useMemo(() => {
-    return places.map((p, idx) => ({
-      ...p,
-      coords: resolveCoords(p, ondaId, idx),
-    }))
-  }, [places, ondaId])
-
-  const viewBox = useMemo(() => {
-    if (!regional) return `0 0 ${MAP_W} ${MAP_H}`
-    return computeBoundingViewBox(items.map((m) => m.coords))
-  }, [regional, items])
+  const items = useMemo(() => places.map((p) => ({ ...p, at: resolveCoords(p) })), [places])
+  const pins = useMemo(() => items.flatMap((m, i) => (m.at ? [{ key: String(i), x: m.at.x, y: m.at.y, title: m.title }] : [])), [items])
+  const fit = useMemo(() => (regional ? fitView(pins, 1.9) : WORLD), [regional, pins])
 
   const selectPlace = (idx: number) => {
     haptic('select')
     setActiveIdx(idx)
-    const el = deckRef.current
-    if (el) {
-      const card = el.children[idx] as HTMLElement | undefined
-      if (card) {
-        card.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' })
-      }
-    }
-  }
-
-  const openInMaps = (title: string, location?: string) => {
-    const q = encodeURIComponent([title, location].filter(Boolean).join(', '))
-    openExternal(`https://www.google.com/maps/search/?api=1&query=${q}`)
+    const card = deckRef.current?.children[idx] as HTMLElement | undefined
+    card?.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' })
   }
 
   return (
     <div className={g.placesMapContainer}>
-      {/* Interactive Map Canvas */}
-      <div className={g.placesMapCanvas} data-frame={look.layout === 'frame' || undefined}>
-        <svg
-          viewBox={viewBox}
-          className={g.placesMapSvg}
-          role="img"
-          aria-label={t('guide.ch.places')}
-        >
-          <rect width={MAP_W} height={MAP_H} className={g.mapOcean} />
-          <MapGrid />
-          <WorldLandmasses />
-
-          {items.map((m, idx) => {
-            const isSelected = activeIdx === idx
-            return (
-              <g
-                key={m.id}
-                className={g.mapPin}
-                data-selected={isSelected || undefined}
-                transform={`translate(${m.coords.x}, ${m.coords.y})`}
-                onClick={() => selectPlace(idx)}
-                role="button"
-                tabIndex={0}
-                aria-label={m.title}
-              >
-                {/* Large touch/click hitbox */}
-                <circle r="28" fill="transparent" style={{ pointerEvents: 'all' }} />
-                {isSelected && <circle r="16" className={g.mapPulse} />}
-                <circle r="8" cy="2" className={g.mapPinShadow} />
-                <circle r="7.5" className={g.mapPinBody} />
-                <circle r="2.5" className={g.mapPinDot} />
-                {isSelected && (
-                  <g className={g.mapPinLabelGroup}>
-                    <rect
-                      x={-Math.min(100, Math.max(40, m.title.length * 3.5)) - 6}
-                      y="-25"
-                      width={Math.min(200, Math.max(80, m.title.length * 7)) + 12}
-                      height="18"
-                      rx="5"
-                      fill="var(--surface-card)"
-                      stroke="var(--separator)"
-                      strokeWidth="0.5"
-                    />
-                    <text
-                      y="-12"
-                      textAnchor="middle"
-                      className={g.mapPinLabel}
-                    >
-                      {m.title}
-                    </text>
-                  </g>
-                )}
-              </g>
-            )
-          })}
-        </svg>
-
-        <div style={{ position: 'absolute', top: 12, right: 12, display: 'flex', gap: 8, alignItems: 'center' }}>
-          <button
-            type="button"
-            className={g.mapViewBtn}
-            onClick={() => setRegional((v) => !v)}
-            aria-label={regional ? t('guide.worldView', { defaultValue: 'World View' }) : t('guide.regionView', { defaultValue: 'Regional Focus' })}
-          >
-            <Icon name={regional ? 'globe' : 'magnifying-glass-plus'} weight="bold" size={13} />
-            <span>{regional ? t('guide.world', { defaultValue: 'World' }) : t('guide.region', { defaultValue: 'Region' })}</span>
-          </button>
-          <div className={g.placesMapBadge} style={{ position: 'static' }}>
-            <Icon name="map-pin" weight="fill" size={14} />
-            <span>{t('guide.placesCount', { count: items.length, defaultValue: `${items.length} locations` })}</span>
+      {pins.length > 0 && (
+        <MapCanvas key={`${fit.x} ${fit.y} ${fit.w}`} fit={fit} className={g.placesMapCanvas} label={t('guide.ch.places')} pins={pins} active={String(activeIdx)} onPick={(k) => selectPlace(Number(k))} labels>
+          <div className={g.placesMapTools} data-frame={look.layout === 'frame' || undefined}>
+            <ViewToggle regional={regional} onToggle={() => setRegional((v) => !v)} size={13} />
+            <div className={g.placesMapBadge}>
+              <Icon name="map-pin" weight="fill" size={14} />
+              <span>{t('guide.placesCount', { count: pins.length })}</span>
+            </div>
           </div>
-        </div>
-      </div>
+        </MapCanvas>
+      )}
 
-      {/* Swipable cards synced with map markers */}
       <div
         ref={deckRef}
         className={`hscroll ${g.placesDeck}`}
@@ -582,57 +359,47 @@ export function OndaPlacesMap({
           const el = e.currentTarget
           const w = (el.firstElementChild as HTMLElement | null)?.offsetWidth ?? 1
           const n = Math.round(el.scrollLeft / (w + 12))
-          if (n !== activeIdx && n >= 0 && n < items.length) {
-            setActiveIdx(n)
-          }
+          if (n !== activeIdx && n >= 0 && n < items.length) setActiveIdx(n)
         }}
       >
-        {items.map((x, idx) => {
-          const isSelected = activeIdx === idx
-          return (
-            <article
-              key={x.id}
-              className={g.placeCard}
-              data-selected={isSelected || undefined}
-              onClick={() => selectPlace(idx)}
-            >
-              <div className={g.placeCardTop}>
-                <span className={g.placeCardIcon}>
-                  <Icon name={x.icon || 'map-pin'} weight="regular" size={20} />
-                </span>
-              </div>
-              <h4 className={g.placeCardTitle}>{x.title}</h4>
-              {x.creator && <div className={g.placeCardMeta}>{x.creator}</div>}
-              {x.why && <p className={g.placeCardWhy}>{x.why}</p>}
-              <div className={g.placeCardActions}>
+        {items.map((x, idx) => (
+          <article key={x.id} className={g.placeCard} data-selected={activeIdx === idx || undefined} onClick={() => selectPlace(idx)}>
+            <div className={g.placeCardTop}>
+              <span className={g.placeCardIcon}>
+                <Icon name={x.icon || 'map-pin'} weight="regular" size={20} />
+              </span>
+            </div>
+            <h4 className={g.placeCardTitle}>{x.title}</h4>
+            {x.creator && <div className={g.placeCardMeta}>{x.creator}</div>}
+            {x.why && <p className={g.placeCardWhy}>{x.why}</p>}
+            <div className={g.placeCardActions}>
+              <button
+                type="button"
+                className={g.placeMapBtn}
+                onClick={(e) => {
+                  e.stopPropagation()
+                  openInMaps(x.title, x.creator)
+                }}
+              >
+                <Icon name="compass" weight="regular" size={15} />
+                <span>{t('guide.openMaps')}</span>
+              </button>
+              {x.link && /^https?:\/\//i.test(x.link) && (
                 <button
                   type="button"
-                  className={g.placeMapBtn}
+                  className={g.placeLinkBtn}
                   onClick={(e) => {
                     e.stopPropagation()
-                    openInMaps(x.title, x.creator)
+                    openExternal(x.link!)
                   }}
+                  aria-label={`${t('guide.openLink')}: ${x.title}`}
                 >
-                  <Icon name="compass" weight="regular" size={15} />
-                  <span>{t('guide.openMaps', { defaultValue: 'Open in Maps' })}</span>
+                  <Icon name="arrow-up-right" weight="bold" size={14} />
                 </button>
-                {x.link && /^https?:\/\//i.test(x.link) && (
-                  <button
-                    type="button"
-                    className={g.placeLinkBtn}
-                    onClick={(e) => {
-                      e.stopPropagation()
-                      openExternal(x.link!)
-                    }}
-                    aria-label={`${t('guide.openLink')}: ${x.title}`}
-                  >
-                    <Icon name="arrow-up-right" weight="bold" size={14} />
-                  </button>
-                )}
-              </div>
-            </article>
-          )
-        })}
+              )}
+            </div>
+          </article>
+        ))}
       </div>
     </div>
   )

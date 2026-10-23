@@ -74,7 +74,8 @@ export function ondaLook(o: Pick<OndaIndex, 'id' | 'tone'> | undefined, opts: { 
   const [c0, c1] = themed ? pal.cover : neutral.cover
   const material = `linear-gradient(160deg,${c0},${c1})`
   // the pattern is drawn in the ink blended part way into the material, so it stays a texture rather than a print
-  const cover = on ? `${t!.pattern(rgbOf(mix(ink, c0, 0.4)))},${material}` : material
+  const pattern = on ? t!.pattern(rgbOf(mix(ink, c0, 0.4))) : 'none'
+  const cover = on ? `${pattern},${material}` : material
   const solid = pal.paper
   const strong = pal.accent
   const rgb = dark ? '255,255,255' : '0,0,0'
@@ -105,6 +106,8 @@ export function ondaLook(o: Pick<OndaIndex, 'id' | 'tone'> | undefined, opts: { 
       '--onda-strong': strong,
       '--onda-accent': strong,
       '--onda-cover': cover,
+      // the cover's two layers, so Immersion can shade each kind between them (ondas.module.css, "8.1 kind shades")
+      '--onda-pattern': pattern,
       '--onda-material': material,
       '--onda-cover-ink': ink,
       '--onda-cover-edge': c1,

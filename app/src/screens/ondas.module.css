@@ -262,8 +262,7 @@
 .upBy{margin-top:6px;font:400 var(--fs-15)/1.3 var(--font-sans);opacity:.85;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .upWide .upTitle{font-size:var(--fs-26);max-width:none}
 .kindHero{padding:0 16px}
-.featuredHead{margin:24px 20px 10px;font:600 var(--fs-26)/1.2 var(--onda-font,var(--font-serif));color:var(--label);letter-spacing:var(--tracking-title)}
-.imSec{content-visibility:auto;contain-intrinsic-size:auto 300px}
+.featuredHead{margin:26px 20px 12px;font:800 var(--fs-34)/1.1 var(--onda-font,var(--font-serif));color:var(--onda-text,var(--label));letter-spacing:var(--onda-track,var(--tracking-title));text-transform:var(--onda-case,none)}
 .imSecHead{display:flex;align-items:center;gap:6px;width:100%;min-height:44px;padding:32px 20px 12px;text-align:start;color:var(--label-tertiary)}
 button.imSecHead:active{opacity:.7}
 .imSecTitle{font:600 var(--fs-26)/1.2 var(--onda-font,var(--font-serif));letter-spacing:var(--onda-track,.02em);text-transform:var(--onda-case,none);color:var(--label)}
@@ -277,7 +276,21 @@ button.imSecHead:active{opacity:.7}
   background:var(--onda-cover,var(--accent));color:var(--onda-cover-ink,#fff);
   box-shadow:inset 0 0 0 .5px rgba(255,255,255,.16),0 14px 28px -20px var(--onda-cover-edge,rgba(0,0,0,.45));transition:transform var(--duration-micro) var(--spring-snappy)}
 .mcArt:active{transform:scale(.97)}
-.mcCap{display:flex;flex-direction:column;gap:2px;min-height:20px;text-align:start}
+.mcCap{display:flex;flex-direction:column;gap:2px;min-height:20px;width:100%;min-width:0;text-align:start}
+.mcCap>*{max-width:100%}
+/* 8.1 kind shades: each kind lays a thin wash of a hue of its own between the Onda's pattern and its material, so a shelf
+   of books, films and dishes keeps the Onda's feel without being one colour */
+.mc,.upCard{--mc-wash:color-mix(in srgb,var(--mc-hue,transparent) 26%,transparent);--onda-cover:var(--onda-pattern,none),linear-gradient(var(--mc-wash),var(--mc-wash)),var(--onda-material,var(--accent))}
+[data-kind="read"],[data-hue="read"]{--mc-hue:#b8863b}
+[data-kind="watch"],[data-hue="watch"]{--mc-hue:#2f4f8f}
+[data-kind="listen"],[data-hue="listen"]{--mc-hue:#2e7d78}
+[data-kind="art"],[data-hue="art"]{--mc-hue:#b04a6a}
+[data-kind="eat"],[data-hue="eat"]{--mc-hue:#b5652f}
+[data-kind="drink"],[data-hue="drink"]{--mc-hue:#6b3f8f}
+[data-kind="customs"],[data-hue="customs"]{--mc-hue:#9a7b2c}
+[data-kind="games"],[data-hue="games"]{--mc-hue:#4f7f3a}
+[data-kind="travel"],[data-hue="travel"]{--mc-hue:#3a6f96}
+[data-kind="words"],[data-hue="words"]{--mc-hue:#6a4a9a}
 .mcTitle{font:600 var(--fs-15)/1.3 var(--font-sans);color:var(--label);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .mcBy{font:400 var(--fs-13)/1.3 var(--font-sans);color:var(--label-secondary);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .mcTick{position:absolute;top:10px;right:10px;z-index:2;width:24px;height:24px;border-radius:50%;display:flex;align-items:center;justify-content:center;
@@ -300,10 +313,13 @@ button.imSecHead:active{opacity:.7}
 /* Watch: a 16:9 still with no centered play button */
 .mc[data-kind="watch"]{width:268px}
 .mcVideo{height:151px;border-radius:20px}
-.mcScrim{position:absolute;left:0;right:0;bottom:0;height:60px;background:linear-gradient(to top,rgba(0,0,0,.35),transparent);pointer-events:none}
+.mcScrim{position:absolute;left:0;right:0;bottom:0;height:96px;background:linear-gradient(to top,rgba(0,0,0,.42),transparent);pointer-events:none}
+.mcOnArt{position:absolute;left:14px;right:14px;bottom:12px;display:flex;flex-direction:column;gap:3px;text-align:start}
+.mcArtName{font:500 var(--fs-15)/1.18 var(--onda-font,var(--font-serif));letter-spacing:var(--onda-track,0);text-transform:var(--onda-case,none);text-wrap:balance;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.mcArtBy{font:500 var(--fs-12)/1.25 var(--font-sans);opacity:.85;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.mcPostBy{margin-top:3px;padding-right:36px;font:500 var(--fs-12)/1.25 var(--font-sans);opacity:.85;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .mcPlay{position:absolute;left:50%;top:50%;width:52px;height:52px;margin:-26px 0 0 -26px;border-radius:50%;display:flex;align-items:center;justify-content:center;
   background:rgba(255,255,255,.22);box-shadow:inset 0 0 0 .5px rgba(255,255,255,.4)}
-.mcYear{position:absolute;left:12px;bottom:10px;font:600 var(--fs-11)/1 var(--font-sans);letter-spacing:.06em;text-transform:uppercase}
 /* Listen and Games: a square sleeve with faint grooves */
 .mc[data-kind="listen"],.mc[data-kind="games"]{width:172px}
 .mcAlbum{height:172px;border-radius:20px;background:repeating-radial-gradient(circle at 50% 50%,transparent 0 9px,rgba(255,255,255,.05) 9px 10px),var(--onda-cover,var(--accent))}
@@ -337,7 +353,7 @@ button.imSecHead:active{opacity:.7}
 .mcText .mcTick{top:14px;right:14px}
 /* Travel: a postcard with a stamp and a map at the bottom */
 .mc[data-kind="travel"]{width:256px}
-.mcPost{height:164px;padding:16px;border-radius:14px}
+.mcPost{height:164px;padding:16px 16px 34px;border-radius:14px}
 .mcStamp{position:absolute;top:14px;right:14px;width:38px;height:46px;display:flex;align-items:center;justify-content:center;outline:1.5px dashed rgba(255,255,255,.55);outline-offset:-4px}
 .mcPostmark{position:absolute;top:29px;right:46px;width:46px;height:46px;border-radius:50%;box-shadow:inset 0 0 0 1px currentColor;opacity:.35;pointer-events:none}
 .mcPostTitle{margin-top:auto;padding-right:36px;font:500 var(--fs-17)/1.15 var(--onda-font,var(--font-serif));letter-spacing:var(--onda-track,0);text-transform:var(--onda-case,none);
@@ -479,7 +495,7 @@ button.imSecHead:active{opacity:.7}
 }
 .kindMapWrap{padding:16px 16px 28px}
 .kindList{list-style:none;margin:0;padding:0 16px;display:flex;flex-direction:column;gap:10px}
-.kindRow{display:flex;align-items:center;padding:14px 6px 14px 14px;border-radius:calc(var(--onda-r,30px) * .73);background:var(--surface-card);content-visibility:auto;contain-intrinsic-size:auto 96px}
+.kindRow{display:flex;align-items:center;padding:14px 6px 14px 14px;border-radius:calc(var(--onda-r,30px) * .73);background:var(--surface-card)}
 .kindOpen{flex:1;min-width:0;display:flex;align-items:flex-start;gap:14px;text-align:start}
 .kindTile{flex:none;width:52px;height:52px;border-radius:14px;display:flex;align-items:center;justify-content:center;background:var(--onda-cover,var(--accent));color:var(--onda-cover-ink,#fff)}
 .kindText{flex:1;min-width:0;display:flex;flex-direction:column;gap:2px}
@@ -522,7 +538,7 @@ button.imSecHead:active{opacity:.7}
 .jrEntrySlide{position:relative;z-index:2;transition:transform .2s cubic-bezier(.16,1,.3,1)}
 .jrEntry{display:flex;gap:12px;width:100%;padding:16px 18px 18px;text-align:start;border-radius:calc(var(--onda-r,30px) * .73);background:var(--surface-card);
   border:1px solid color-mix(in srgb,var(--onda-accent,var(--accent)) 18%,transparent);box-shadow:0 2px 8px -2px rgba(0,0,0,.06);
-  content-visibility:auto;contain-intrinsic-size:auto 120px;transition:transform var(--duration-micro) var(--spring-snappy)}
+  transition:transform var(--duration-micro) var(--spring-snappy)}
 .jrEntry:active{transform:scale(.985)}
 .jrNum{flex:none;width:40px;text-align:center;font:500 var(--fs-20)/1.2 var(--onda-font,var(--font-serif));color:var(--onda-text,var(--accent))}
 .jrBody{flex:1;min-width:0;display:flex;flex-direction:column;gap:6px}
@@ -554,3 +570,7 @@ button.imSecHead:active{opacity:.7}
   background:rgba(255,255,255,.14);color:inherit;font:600 var(--fs-14) var(--font-sans);border:none;cursor:pointer;text-align:start}
 .plusManageBtn:active{background:rgba(255,255,255,.24)}
 .plusManageSub{font:400 var(--fs-13) var(--font-sans);opacity:.85}
+/* content-visibility only on the desktop: WebKit (the phone) leaves such sections blank after a scroll */
+html[data-desk] .imSec{content-visibility:auto;contain-intrinsic-size:auto 300px}
+html[data-desk] .kindRow{content-visibility:auto;contain-intrinsic-size:auto 96px}
+html[data-desk] .jrEntry{content-visibility:auto;contain-intrinsic-size:auto 120px}

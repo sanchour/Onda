@@ -285,6 +285,7 @@ export default function Guide({ entry }: { entry: Extract<StackEntry, { name: 'g
                       }}
                     >
                       <h3 className={g.wkIdeaTitle}>{c.term}</h3>
+                      {c.text && <p className={g.wkIdeaText}>{c.text}</p>}
                     </article>
                   ))}
                 </div>
@@ -306,6 +307,7 @@ export default function Guide({ entry }: { entry: Extract<StackEntry, { name: 'g
                       }}
                     >
                       <h3 className={g.wkIdeaTitle}>{c.term}</h3>
+                      {c.text && <p className={g.wkIdeaText}>{c.text}</p>}
                     </article>
                   ))}
                 </div>
@@ -344,6 +346,7 @@ export default function Guide({ entry }: { entry: Extract<StackEntry, { name: 'g
                       }}
                     >
                       <h4 className={g.wkIdeaTitle}>{p.title}</h4>
+                      {p.text && <p className={g.wkIdeaText}>{p.text}</p>}
                     </article>
                   ))}
                 </div>
@@ -383,6 +386,7 @@ export default function Guide({ entry }: { entry: Extract<StackEntry, { name: 'g
                       }}
                     >
                       <h4 className={g.wkIdeaTitle}>{p.title}</h4>
+                      {p.text && <p className={g.wkIdeaText}>{p.text}</p>}
                     </article>
                   ))}
                 </div>

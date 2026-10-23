@@ -16,6 +16,7 @@ export const DEFAULT_SETTINGS: Settings = {
   themeMode: 'auto',
   ondaThemes: true,
   ondaTint: true,
+  nativeHeads: false,
   defaultOndaLength: 14,
   reminderTime: '08:00',
   eveningTime: '21:30',

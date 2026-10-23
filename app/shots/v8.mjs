@@ -65,11 +65,13 @@ try {
       if (p === 'settings') { await click(desk ? btn('Settings') : btn('Settings')); await shot('settings'); await scroll(700); await shot('settings2'); await home() }
       if (p === 'stats') { await click(desk ? btn('Stats') : page.getByRole('tab', { name: 'Stats' })); await shot('stats'); if (desk) await home(); else await click(page.getByRole('tab', { name: 'Ondas' })) }
     } catch (e) {
-      console.log('FAIL', p, String(e).slice(0, 200))
+      console.log('FAIL', p, String(e).replace(/[[0-9;]*m/g, '').slice(0, 900))
       await shot(`fail-${p}`).catch(() => {})
       await home().catch(() => {})
     }
   }
+} catch (e) {
+  console.log('FATAL', String(e).slice(0, 600))
 } finally {
   await browser.close()
   server.kill()

@@ -50,13 +50,14 @@ export function MediaCard({ item: m, done, onToggle, onOpen, ornament, frame }: 
       tabIndex={0}
       className={`${o.mcArt} ${cls}`}
       data-frame={frame ? '' : undefined}
+      aria-label={t('immersion.about', { name: m.title })}
       onClick={onOpen}
     >
       {children}
     </div>
   )
   const caption = (title: boolean, line?: string) => (
-    <button type="button" className={o.mcCap} aria-label={t('immersion.about', { name: m.title })} onClick={onOpen}>
+    <button type="button" className={o.mcCap} tabIndex={-1} aria-hidden onClick={onOpen}>
       {title && <span className={o.mcTitle}>{m.title}</span>}
       {line && <span className={o.mcBy}>{line}</span>}
     </button>
@@ -89,12 +90,15 @@ export function MediaCard({ item: m, done, onToggle, onOpen, ornament, frame }: 
             <>
               {water(150)}
               <span className={o.mcScrim} aria-hidden />
-              {m.year && <span className={o.mcYear}>{m.year}</span>}
+              {/* 8.1: the title, maker and year sit on the still itself, like a title card */}
+              <span className={o.mcOnArt}>
+                <span className={o.mcArtName}>{m.title}</span>
+                {(m.creator || m.year) && <span className={o.mcArtBy}>{[m.creator, m.year].filter(Boolean).join(' · ')}</span>}
+              </span>
               <Tick on={done} onToggle={onToggle} />
             </>,
             o.mcVideo,
           )}
-          {caption(true, [m.creator, m.year].filter(Boolean).join(' · '))}
         </div>
       )
     case 'listen':
@@ -142,7 +146,7 @@ export function MediaCard({ item: m, done, onToggle, onOpen, ornament, frame }: 
             </>,
             o.mcEatPlate,
           )}
-          {caption(true, by)}
+          {caption(true)}
         </div>
       )
     case 'drink':
@@ -157,7 +161,7 @@ export function MediaCard({ item: m, done, onToggle, onOpen, ornament, frame }: 
             </>,
             o.mcDrinkGlass,
           )}
-          {caption(true, by)}
+          {caption(true)}
         </div>
       )
     case 'customs':
@@ -182,6 +186,7 @@ export function MediaCard({ item: m, done, onToggle, onOpen, ornament, frame }: 
               <span className={o.mcStamp} aria-hidden><Icon name={icon} weight="regular" size={18} /></span>
               <span className={o.mcPostmark} aria-hidden />
               <span className={o.mcPostTitle}>{m.title}</span>
+              {(m.creator || m.meta || m.year) && <span className={o.mcPostBy}>{[m.creator || m.meta, m.year].filter(Boolean).join(' · ')}</span>}
               <div className={o.mcPostMap} aria-hidden>
                 <svg viewBox="0 0 200 45" preserveAspectRatio="none" className={o.mcPostMapSvg}>
                   <path d="M0,25 Q40,10 80,22 T160,18 T200,28 L200,45 L0,45 Z" fill="currentColor" opacity="0.18" />
@@ -194,7 +199,6 @@ export function MediaCard({ item: m, done, onToggle, onOpen, ornament, frame }: 
             </>,
             o.mcPost,
           )}
-          {caption(false, m.creator || m.meta)}
         </div>
       )
     case 'words':

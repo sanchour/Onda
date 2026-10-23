@@ -1,5 +1,5 @@
 import { expect, test } from '@playwright/test'
-import { dismissCoachmark, seedDemo, settle, startTrial, tab, tap } from './helpers'
+import { dismissCoachmark, newLago, openGallery, seedDemo, settle, startTrial, tab, tap } from './helpers'
 
 test.describe('Onboarding and paywall', () => {
   test('three intro pages, two setup steps, paywall, then the Ondas tab with the chosen Onda running', async ({ page }) => {
@@ -75,10 +75,10 @@ test.describe('Ondas+ beta placeholder', () => {
 })
 
 test.describe('Update 1.3', () => {
-  test('tab order is Ondas, Lagos, Stats; the barometer shows only the percentage and the tier', async ({ page }) => {
+  test('tab order is Ondas, Stats (Lagos live on Ondas since 8.0); the barometer shows only the percentage and the tier', async ({ page }) => {
     await seedDemo(page)
     const names = await page.locator('nav[role=tablist] [role=tab]').evaluateAll((els) => els.map((e) => e.getAttribute('aria-label')))
-    expect(names).toEqual(['Ondas', 'Lagos', 'Stats'])
+    expect(names).toEqual(['Ondas', 'Stats'])
     await tab(page, 'Stats')
     await expect(page.getByRole('img', { name: /^Consistency \d+ percent/ })).toBeVisible()
     await expect(page.getByText(/Check ins per/)).toHaveCount(0)
@@ -112,8 +112,7 @@ test.describe('Update 1.3', () => {
   test('the Gallery offers practices from each Onda, started as Lagos', async ({ page }) => {
     await seedDemo(page)
     await startTrial(page)
-    await tab(page, 'Lagos')
-    await tap(page, 'Gallery')
+    await openGallery(page)
     await expect(page.getByRole('heading', { name: 'From the Ondas' })).toBeVisible()
     // two Ondas are shown, the running one first; the rest sit behind See more, grouped as in Browse Ondas
     await tap(page, /^From the Ondas See more/)
@@ -157,12 +156,13 @@ test.describe('Update 1.4', () => {
     // a practice on today's plan, so its tick shows on both sides
     const first = (await page.getByRole('group', { name: 'Morning', exact: true }).getByRole('checkbox').first().innerText()).split('\n')[0]!.trim()
     const name = new RegExp(first.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'))
-    await tab(page, 'Lagos')
-    await tap(page, 'New Lago')
+    await newLago(page)
     await page.getByRole('group', { name: /From your Stoicism practices/ }).getByRole('button', { name }).first().click()
     await expect(page.getByText(/Linked: ticking it here also ticks it in Stoicism/)).toBeVisible()
     await tap(page, 'Save')
     await settle(page, 900)
+    await tap(page, 'Back')
+    await tab(page, 'Lagos')
     // check it in on the Lagos side, then find it ticked on the Ondas side
     await tap(page, `Check in ${first}`, 'checkbox')
     await tab(page, 'Ondas')
@@ -207,14 +207,15 @@ test.describe('Update 2.0', () => {
 })
 
 test.describe('Empty Lagos', () => {
-  test('with no Lagos yet, a tip points to the Gallery', async ({ page }) => {
+  test('with no Lagos yet, the Ondas page explains them and links to Add New', async ({ page }) => {
     await page.goto('/')
     for (const b of ['Continue', 'Continue', 'Continue', 'Next']) await tap(page, b)
     await tap(page, /Stoicism/, 'radio')
     await tap(page, 'Get Started')
     await tap(page, 'Start Free Trial')
     await tab(page, 'Lagos')
-    await expect(page.getByText('No Lagos yet')).toBeVisible()
+    await expect(page.getByText(/Lagos are small practices/)).toBeVisible()
+    await expect(page.getByRole('button', { name: 'Add a Lago' })).toBeVisible()
     await expect(page.getByText('Quick tip')).toHaveCount(0)
   })
 })
@@ -425,7 +426,7 @@ test.describe('Ondas', () => {
     await tap(page, 'Journal')
     await expect(page.getByText('Day 3 · Stoicism')).toBeVisible()
     await expect(page.getByText('Day 1 · Stoicism')).toBeVisible()
-    await page.getByRole('button', { name: 'New Entry', exact: true }).click()
+    await page.getByRole('button', { name: 'New entry', exact: true }).click()
     await settle(page, 900)
     const editor = page.getByRole('dialog', { name: 'Journal' })
     await expect(editor.getByText('Day 4 · Stoicism')).toBeVisible()
@@ -550,8 +551,7 @@ test.describe('Stats and Settings', () => {
 test.describe('Native-feeling navigation', () => {
   test('edge-swipe goes back, and a sheet dismisses on a downward swipe', async ({ page }) => {
     await seedDemo(page)
-    await tab(page, 'Lagos')
-    await tap(page, 'Gallery')
+    await openGallery(page)
     await expect(page.getByRole('heading', { name: 'Gallery' })).toBeVisible()
 
     // Drag from the left edge past the midpoint
@@ -561,10 +561,11 @@ test.describe('Native-feeling navigation', () => {
     await page.mouse.move(width * 0.7, height / 2, { steps: 10 })
     await page.mouse.up()
     await expect(page.getByRole('heading', { name: 'Gallery' })).toHaveCount(0)
-    await expect(page.getByRole('heading', { name: 'Lagos', exact: true })).toBeVisible()
+    await expect(page.getByRole('heading', { name: 'Settings', exact: true })).toBeVisible()
 
     // A short drag from the edge springs back and stays
-    await tap(page, 'Gallery')
+    await tap(page, /^New Lago/)
+    await tap(page, 'Browse Lagos')
     await page.mouse.move(6, height / 2)
     await page.mouse.down()
     // a slow drag: velocity is measured from timestamps, so pace the moves like a finger

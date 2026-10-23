@@ -101,7 +101,7 @@ export function PracticeInfoSheet({ entry }: E<'practiceInfo'>) {
   const steps = (p?.instructions ?? '').split(/(?<=[.?])\s+(?=[A-Z“‘"])/).map((x) => x.trim()).filter(Boolean)
 
   return (
-    <AppSheet entry={entry} look={look} detent={0.86}>
+    <AppSheet entry={entry} look={look} detent={0.93}>
       <div className={o.px}>
         <header className={o.pxHead}>
           <span className={o.pxIcon} aria-hidden><Icon name={p?.icon ?? snap?.icon ?? 'circle'} weight="regular" size={30} /></span>

@@ -1,4 +1,5 @@
 import { expect, test } from '@playwright/test'
+import { openGallery, tab } from './helpers'
 
 // Runs on the Chromium engine at iPhone 15 Pro size (see playwright.config.ts for why).
 test('after the first load, the app starts and works with no network', async ({ page, context }) => {
@@ -17,18 +18,18 @@ test('after the first load, the app starts and works with no network', async ({ 
   await page.reload()
   // The app opens on the Ondas tab
   await expect(page.getByText('Onda · Day 4 of 14')).toBeVisible({ timeout: 30_000 })
-  await page.getByRole('tab', { name: 'Lagos' }).click()
-  await expect(page.getByRole('heading', { name: 'Lagos', exact: true })).toBeVisible()
   await page.getByRole('button', { name: 'Dismiss' }).click().catch(() => undefined)
+  await tab(page, 'Lagos')
+  await expect(page.getByRole('heading', { name: 'Lagos', exact: true })).toBeVisible()
   await expect(page.getByText('2 of 5 checked in')).toBeVisible()
   await page.getByRole('checkbox', { name: 'Check in Walk 10,000 steps' }).click()
   await expect(page.getByText('3 of 5 checked in')).toBeVisible()
 
   // A lazily loaded route and lazily loaded content, with no network
-  await page.getByRole('button', { name: 'Gallery' }).click()
+  await openGallery(page)
   await expect(page.getByRole('heading', { name: 'Gallery' })).toBeVisible()
   await page.getByRole('button', { name: 'Back' }).click()
-  await page.getByRole('tab', { name: 'Ondas' }).click()
+  await page.getByRole('button', { name: 'Back' }).click()
   await page.getByRole('button', { name: 'Browse Ondas' }).click()
   await page.getByRole('button', { name: /Vedanta/ }).click()
   await expect(page.getByText('Tat tvam asi: that thou art.')).toBeVisible()
@@ -36,6 +37,6 @@ test('after the first load, the app starts and works with no network', async ({ 
   await expect(page.getByText(/Vedānta is the philosophical heart/)).toBeVisible()
 
   await page.reload()
-  await page.getByRole('tab', { name: 'Lagos' }).click()
+  await tab(page, 'Lagos')
   await expect(page.getByText('3 of 5 checked in')).toBeVisible({ timeout: 30_000 })
 })

@@ -58,10 +58,14 @@ export function Sheet({ open, title, leading, trailing, detent = 1, background, 
     if (!p) return
     if (desk) {
       p.style.transform = 'none'
-      p.animate([{ opacity: 0, transform: 'translate3d(0,18px,0) scale(.97)' }, { opacity: 1, transform: 'none' }], { duration: 340, easing: EASE_ENTER })
-    } else springTo(p, { from: ph(), to: 0, spring: 'smooth', prop: ty })
+      p.animate([{ opacity: 0, transform: 'translate3d(0,18px,0) scale(.97)' }, { opacity: 1, transform: 'none' }], { duration: 340, easing: EASE_ENTER, fill: 'forwards' })
+    } else {
+      const startY = Math.max(ph(), Math.round(window.innerHeight * (detent || 0.75)))
+      p.style.transform = ty(startY)
+      springTo(p, { from: startY, to: 0, spring: 'smooth', prop: ty })
+    }
     if (scrim.current) {
-      scrim.current.animate([{ opacity: 0 }, { opacity: 1 }], { duration: 220, easing: EASE_ENTER })
+      scrim.current.animate([{ opacity: 0 }, { opacity: 1 }], { duration: 220, easing: EASE_ENTER, fill: 'forwards' })
       scrim.current.style.opacity = '1'
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -76,7 +80,9 @@ export function Sheet({ open, title, leading, trailing, detent = 1, background, 
   // Focus management + Escape
   useEffect(() => {
     const prev = document.activeElement as HTMLElement | null
-    panel.current?.focus({ preventScroll: true })
+    const timer = setTimeout(() => {
+      panel.current?.focus({ preventScroll: true })
+    }, 60)
     const onKey = (e: KeyboardEvent) => {
       if (e.key === 'Escape') {
         e.stopPropagation()
@@ -85,6 +91,7 @@ export function Sheet({ open, title, leading, trailing, detent = 1, background, 
     }
     window.addEventListener('keydown', onKey)
     return () => {
+      clearTimeout(timer)
       window.removeEventListener('keydown', onKey)
       prev?.focus?.({ preventScroll: true })
     }

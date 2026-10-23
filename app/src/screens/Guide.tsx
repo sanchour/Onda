@@ -74,7 +74,6 @@ export default function Guide({ entry }: { entry: Extract<StackEntry, { name: 'g
   const [noteOpen, setNoteOpen] = useState(false)
   const [tl, setTl] = useState(0)
   const [cultureTab, setCultureTab] = useState<CultureKind | undefined>()
-  const [openRows, setOpenRows] = useState<Set<string>>(new Set())
   const [fact, setFact] = useState(0)
 
   // Active sheets for interactive details
@@ -83,8 +82,9 @@ export default function Guide({ entry }: { entry: Extract<StackEntry, { name: 'g
     text: string
     practice?: string
     kind: 'think' | 'ethics' | 'concept'
-    numeral?: string
   } | null>(null)
+
+  const [wordsFullScreen, setWordsFullScreen] = useState(false)
 
   const [activeWord, setActiveWord] = useState<{
     term: string
@@ -104,14 +104,6 @@ export default function Guide({ entry }: { entry: Extract<StackEntry, { name: 'g
   const gd = content?.guide
   const flip = (k: string) => setAll((x) => ({ ...x, [k]: !x[k] }))
   const cap = <T,>(k: string, list: readonly T[]) => (all[k] ? list : list.slice(0, CAP))
-
-  const toggleRow = (k: string) =>
-    setOpenRows((x) => {
-      const n = new Set(x)
-      if (n.has(k)) n.delete(k)
-      else n.add(k)
-      return n
-    })
 
   const cultureKinds = useMemo(() => CULTURE.filter((k) => (content?.immerse[k]?.length ?? 0) > 0), [content])
   const places = useMemo(
@@ -133,7 +125,6 @@ export default function Guide({ entry }: { entry: Extract<StackEntry, { name: 'g
     refs: !!(gd?.sources.length || gd?.furtherReading.length || gd?.learnFrom.length),
   }
   const present = CHAPTERS.filter((k) => has[k])
-  const num = (k: Chapter) => look.numeral(present.indexOf(k) + 1)
   const label = (k: Chapter) => t(`guide.ch.${k}`)
 
   // Scroll spy
@@ -194,7 +185,6 @@ export default function Guide({ entry }: { entry: Extract<StackEntry, { name: 'g
     >
       <h2 id={`wk-${k}`} className={g.wkH2}>
         <span className={g.wkH2Title}>
-          <span className={g.wkNum} aria-hidden>{num(k)}</span>
           {label(k)}
         </span>
         {action && (
@@ -213,26 +203,6 @@ export default function Guide({ entry }: { entry: Extract<StackEntry, { name: 'g
     </section>
   )
   const unverified = (u?: boolean) => u && <span className={g.wkTag}>{t('guide.unverified')}</span>
-
-  /** A card that opens to show more: an icon, the name, a line, and what is inside. */
-  const fold = (k: string, title: string, sub: string | undefined, body: ReactNode, icon?: ReactNode) => {
-    const open = openRows.has(k)
-    return (
-      <div key={k} className={g.wkFold} data-open={open || undefined}>
-        <button type="button" className={g.wkFoldHead} aria-expanded={open} onClick={() => toggleRow(k)}>
-          {icon && <span className={g.wkFoldIcon} aria-hidden>{icon}</span>}
-          <span className={g.wkFoldText}>
-            <span className={g.wkFoldTitle}>{title}</span>
-            {sub && <span className={g.wkFoldSub}>{sub}</span>}
-          </span>
-          <span className={g.wkCaret} aria-hidden><Icon name="caret-down" weight="bold" size={16} /></span>
-        </button>
-        <Collapse open={open}>
-          <div className={g.wkFoldBody} data-selectable>{body}</div>
-        </Collapse>
-      </div>
-    )
-  }
 
   const body = (k: Chapter): ReactNode => {
     if (!content || !gd) return null
@@ -297,58 +267,45 @@ export default function Guide({ entry }: { entry: Extract<StackEntry, { name: 'g
           <>
             {list.length > 0 && (
               all.ideas ? (
-                <div className={g.wkFolds}>
-                  {list.map((c, n) => (
-                    <div
+                <div className={g.wkIdeaGrid}>
+                  {list.map((c) => (
+                    <article
                       key={c.term}
-                      className={g.wkFold}
+                      className={g.wkIdeaCard}
+                      style={{ width: 'auto' }}
                       role="button"
                       tabIndex={0}
-                      style={{ padding: '16px', cursor: 'pointer' }}
                       onClick={() => {
                         haptic('select')
                         setActiveIdea({
                           title: c.term,
                           text: [c.text, c.detail].filter(Boolean).join('\n\n'),
                           kind: 'concept',
-                          numeral: look.numeral(n + 1),
                         })
                       }}
                     >
-                      <div className={g.wkCardHead}>
-                        <span className={g.wkConceptNum}>{look.numeral(n + 1)}</span>
-                        <h3 className={g.wkTerm}>{c.term}</h3>
-                      </div>
-                      <p className={g.wkSerif} data-selectable style={{ margin: '8px 0 0' }}>{c.text}</p>
-                      {c.detail && <p className={g.wkCardText} data-selectable>{c.detail}</p>}
-                    </div>
+                      <h3 className={g.wkIdeaTitle}>{c.term}</h3>
+                    </article>
                   ))}
                 </div>
               ) : (
                 <div className={`hscroll ${g.wkSwipeCards}`}>
-                  {list.map((c, n) => (
+                  {list.map((c) => (
                     <article
                       key={c.term}
-                      className={g.wkConceptCard}
+                      className={g.wkIdeaCard}
                       role="button"
                       tabIndex={0}
-                      data-frame={look.layout === 'frame' || undefined}
                       onClick={() => {
                         haptic('select')
                         setActiveIdea({
                           title: c.term,
                           text: [c.text, c.detail].filter(Boolean).join('\n\n'),
                           kind: 'concept',
-                          numeral: look.numeral(n + 1),
                         })
                       }}
                     >
-                      <div className={g.wkCardHead}>
-                        <span className={g.wkConceptNum}>{look.numeral(n + 1)}</span>
-                        <h3 className={g.wkTerm}>{c.term}</h3>
-                      </div>
-                      <p className={g.wkSerif} data-selectable>{c.text}</p>
-                      {c.detail && <p className={g.wkCardText} data-selectable>{c.detail}</p>}
+                      <h3 className={g.wkIdeaTitle}>{c.term}</h3>
                     </article>
                   ))}
                 </div>
@@ -373,10 +330,9 @@ export default function Guide({ entry }: { entry: Extract<StackEntry, { name: 'g
                   {content.philosophy.map((p, n) => (
                     <article
                       key={n}
-                      className={g.wkThinkCard}
+                      className={g.wkIdeaCard}
                       role="button"
                       tabIndex={0}
-                      data-frame={look.layout === 'frame' || undefined}
                       onClick={() => {
                         haptic('select')
                         setActiveIdea({
@@ -384,24 +340,10 @@ export default function Guide({ entry }: { entry: Extract<StackEntry, { name: 'g
                           text: p.text,
                           practice: p.practice,
                           kind: 'think',
-                          numeral: look.numeral(n + 1),
                         })
                       }}
                     >
-                      <div className={g.wkCardHead}>
-                        <span className={g.wkFoldNum}>{look.numeral(n + 1)}</span>
-                        <h4 className={g.wkThinkTitle}>{p.title}</h4>
-                      </div>
-                      <p className={g.wkCardText} data-selectable>{p.text}</p>
-                      {p.practice && (
-                        <div className={g.tryBox}>
-                          <Icon name="play" weight="fill" size={16} />
-                          <span>
-                            <span className={g.tryLabel}>{t('philosophy.tryIt')}</span>
-                            {p.practice}
-                          </span>
-                        </div>
-                      )}
+                      <h4 className={g.wkIdeaTitle}>{p.title}</h4>
                     </article>
                   ))}
                 </div>
@@ -427,10 +369,9 @@ export default function Guide({ entry }: { entry: Extract<StackEntry, { name: 'g
                   {content.ethics.map((p, n) => (
                     <article
                       key={n}
-                      className={g.wkThinkCard}
+                      className={g.wkIdeaCard}
                       role="button"
                       tabIndex={0}
-                      data-frame={look.layout === 'frame' || undefined}
                       onClick={() => {
                         haptic('select')
                         setActiveIdea({
@@ -438,24 +379,10 @@ export default function Guide({ entry }: { entry: Extract<StackEntry, { name: 'g
                           text: p.text,
                           practice: p.practice,
                           kind: 'ethics',
-                          numeral: look.numeral(n + 1),
                         })
                       }}
                     >
-                      <div className={g.wkCardHead}>
-                        <span className={g.wkFoldNum}>{look.numeral(n + 1)}</span>
-                        <h4 className={g.wkThinkTitle}>{p.title}</h4>
-                      </div>
-                      <p className={g.wkCardText} data-selectable>{p.text}</p>
-                      {p.practice && (
-                        <div className={g.tryBox}>
-                          <Icon name="play" weight="fill" size={16} />
-                          <span>
-                            <span className={g.tryLabel}>{t('philosophy.tryIt')}</span>
-                            {p.practice}
-                          </span>
-                        </div>
-                      )}
+                      <h4 className={g.wkIdeaTitle}>{p.title}</h4>
                     </article>
                   ))}
                 </div>
@@ -470,39 +397,28 @@ export default function Guide({ entry }: { entry: Extract<StackEntry, { name: 'g
           <>
             {content.practices.length > 0 && (
               all.practices ? (
-                <div className={g.wkFolds}>
-                  {content.practices.map((p) =>
-                    fold(
-                      p.id,
-                      p.name,
-                      p.why || p.meta,
-                      <>
-                        {p.instructions && <p>{p.instructions}</p>}
-                        {p.variations.length > 0 && (
-                          <>
-                            <span className={g.subHead}>{t('onda.variations')}</span>
-                            <ul className={g.steps}>
-                              {p.variations.map((v) => <li key={v}>{v}</li>)}
-                            </ul>
-                          </>
-                        )}
-                        <div style={{ marginTop: 12 }}>
-                          <button
-                            type="button"
-                            className={g.placeMapBtn}
-                            onClick={() => {
-                              haptic('select')
-                              openSheet({ name: 'practiceInfo', ondaId: entry.ondaId, practiceId: p.id })
-                            }}
-                          >
-                            <Icon name="sparkle" weight="fill" size={14} />
-                            <span>{t('guide.viewPractice', { defaultValue: 'View Practice' })}</span>
-                          </button>
+                <div className={g.wkPracticeStack}>
+                  {content.practices.map((p) => (
+                    <article
+                      key={p.id}
+                      className={g.wkPracticeCard}
+                      style={{ width: 'auto' }}
+                      role="button"
+                      tabIndex={0}
+                      onClick={() => {
+                        haptic('select')
+                        openSheet({ name: 'practiceInfo', ondaId: entry.ondaId, practiceId: p.id })
+                      }}
+                    >
+                      <div className={g.wkPracticeHead}>
+                        <span className={g.wkPracticeIcon}><Icon name={p.icon} weight="regular" size={20} /></span>
+                        <div className={g.wkPracticeText}>
+                          <h4 className={g.wkPracticeTitle}>{p.name}</h4>
+                          {(p.why || p.meta) && <span className={g.wkPracticeSub}>{p.why || p.meta}</span>}
                         </div>
-                      </>,
-                      <Icon name={p.icon} weight="regular" size={22} />,
-                    ),
-                  )}
+                      </div>
+                    </article>
+                  ))}
                 </div>
               ) : (
                 <div className={`hscroll ${g.wkSwipeCards}`}>
@@ -512,7 +428,6 @@ export default function Guide({ entry }: { entry: Extract<StackEntry, { name: 'g
                       className={g.wkPracticeCard}
                       role="button"
                       tabIndex={0}
-                      data-frame={look.layout === 'frame' || undefined}
                       onClick={() => {
                         haptic('select')
                         openSheet({ name: 'practiceInfo', ondaId: entry.ondaId, practiceId: p.id })
@@ -520,20 +435,11 @@ export default function Guide({ entry }: { entry: Extract<StackEntry, { name: 'g
                     >
                       <div className={g.wkPracticeHead}>
                         <span className={g.wkPracticeIcon}><Icon name={p.icon} weight="regular" size={20} /></span>
-                        <div>
+                        <div className={g.wkPracticeText}>
                           <h4 className={g.wkPracticeTitle}>{p.name}</h4>
                           {(p.why || p.meta) && <span className={g.wkPracticeSub}>{p.why || p.meta}</span>}
                         </div>
                       </div>
-                      {p.instructions && <p className={g.wkPracticeWhy} data-selectable>{p.instructions}</p>}
-                      {p.variations.length > 0 && (
-                        <div>
-                          <span className={g.subHead}>{t('onda.variations')}</span>
-                          <ul className={g.steps}>
-                            {p.variations.slice(0, 2).map((v) => <li key={v}>{v}</li>)}
-                          </ul>
-                        </div>
-                      )}
                     </article>
                   ))}
                 </div>
@@ -555,9 +461,8 @@ export default function Guide({ entry }: { entry: Extract<StackEntry, { name: 'g
                     if (n !== ruleIdx) setRuleIdx(n)
                   }}
                 >
-                  {content.rules.map((r, n) => (
+                  {content.rules.map((r) => (
                     <article key={r.id} className={g.wkRuleCard} data-frame={look.layout === 'frame' || undefined}>
-                      <span className={g.wkRuleNum} aria-hidden>{look.numeral(n + 1)}</span>
                       <b className={g.wkRuleText}>{r.text}</b>
                       {r.why && <span className={g.wkRuleWhy}>{r.why}</span>}
                     </article>
@@ -876,10 +781,8 @@ export default function Guide({ entry }: { entry: Extract<StackEntry, { name: 'g
               aria-expanded={noteOpen}
               onClick={() => setNoteOpen((v) => !v)}
             >
-              <Icon name="heart" weight="regular" size={20} />
               <span className={g.noteWidgetTitle}>
-                <span>{t('guide.framing')}</span>
-                <span className={g.noteWidgetBadge}>{t('guide.noteOfRespect', { defaultValue: 'Respect' })}</span>
+                {t('guide.noteOfRespect', { defaultValue: 'A note on respect' })}
               </span>
               <span className={g.noteWidgetCaret} aria-hidden>
                 <Icon name="caret-down" weight="bold" size={16} />
@@ -899,7 +802,7 @@ export default function Guide({ entry }: { entry: Extract<StackEntry, { name: 'g
         )}
       </header>
 
-      {/* At a glance (left-aligned) */}
+      {/* At a glance (centered) */}
       {glance.length > 0 && (
         <aside className={g.wkBox} aria-label={t('guide.atAGlance')}>
           <div className={g.wkBoxHead}>{t('guide.atAGlance')}</div>
@@ -914,21 +817,13 @@ export default function Guide({ entry }: { entry: Extract<StackEntry, { name: 'g
         </aside>
       )}
 
-      {/* Map with relevant locations marked, between At a glance and Quote */}
+      {/* Map with relevant locations marked */}
       <OndaMapWidget
         ondaId={entry.ondaId}
         origin={origin}
         places={places}
         look={look}
       />
-
-      {quote && (
-        <figure className={g.wkQuote}>
-          <span className={g.wkQuoteOrn} aria-hidden><OrnamentIcon name={look.ornament} size={28} /></span>
-          <blockquote data-selectable>“{quote.text}”</blockquote>
-          <figcaption>{[quote.by, quote.source].filter(Boolean).join(' · ')}</figcaption>
-        </figure>
-      )}
 
       {!content || !gd ? (
         <div className={s.empty} style={{ padding: '32px 20px' }}>
@@ -951,22 +846,14 @@ export default function Guide({ entry }: { entry: Extract<StackEntry, { name: 'g
               active: !!all.practices,
               onClick: () => flip('practices'),
             }
-          } else if (k === 'culture' && cultureKinds.length > 0) {
-            action = {
-              icon: 'caret-right',
-              label: t('guide.showAll', { count: (content.immerse[cultureTab || cultureKinds[0]!] ?? []).length }),
-              active: !!all.culture,
-              onClick: () => flip('culture'),
-            }
           } else if (k === 'language' && content.words.length > 0) {
             action = {
               icon: 'caret-right',
               label: t('guide.showAll', { count: content.words.length }),
-              active: !!all.words,
-              onClick: () => flip('words'),
+              onClick: () => setWordsFullScreen(true),
             }
           }
-          // k === 'facts' has no action button per request
+          // k === 'culture' and k === 'facts' have no action button per request
           return chapter(k, body(k), action)
         })
       )}
@@ -976,12 +863,10 @@ export default function Guide({ entry }: { entry: Extract<StackEntry, { name: 'g
   const contents = (
     <>
       <button type="button" className={g.wkTocItem} aria-current={at === 'top' ? 'true' : undefined} onClick={() => go('top')}>
-        <span className={g.wkTocNum} aria-hidden />
         <span className={`${g.wkTocLabel} ${g.wkTocName}`}>{name}</span>
       </button>
       {present.map((k) => (
         <button key={k} type="button" className={g.wkTocItem} aria-current={at === k ? 'true' : undefined} onClick={() => go(k)}>
-          <span className={g.wkTocNum} aria-hidden>{num(k)}</span>
           <span className={g.wkTocLabel}>{label(k)}</span>
         </button>
       ))}
@@ -1049,7 +934,7 @@ export default function Guide({ entry }: { entry: Extract<StackEntry, { name: 'g
           open={!!activeIdea}
           onExited={() => setActiveIdea(null)}
           detent={0.75}
-          style={look.vars}
+          style={{ ...look.vars, zIndex: 95 }}
           background={look.themed ? 'color-mix(in srgb, var(--onda-solid) 25%, var(--surface-grouped))' : undefined}
           leading={<GlassButton icon="x" ariaLabel={t('a11y.close')} onClick={() => setActiveIdea(null)} />}
           onScrimClick={() => setActiveIdea(null)}
@@ -1061,11 +946,6 @@ export default function Guide({ entry }: { entry: Extract<StackEntry, { name: 'g
                 <span style={{ fontSize: 'var(--fs-12)', fontWeight: 600, color: 'var(--onda-text, var(--accent))', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
                   {activeIdea.kind === 'think' ? t('philosophy.think') : activeIdea.kind === 'ethics' ? t('philosophy.ethics') : t('guide.ch.ideas')}
                 </span>
-                {activeIdea.numeral && (
-                  <span style={{ marginLeft: 8, fontSize: 'var(--fs-12)', color: 'var(--label-tertiary)' }}>
-                    · {activeIdea.numeral}
-                  </span>
-                )}
               </div>
             </div>
 
@@ -1090,13 +970,47 @@ export default function Guide({ entry }: { entry: Extract<StackEntry, { name: 'g
         </Sheet>
       )}
 
+      {/* Language Full Screen Sheet: all words two per row */}
+      {wordsFullScreen && (
+        <Sheet
+          open={wordsFullScreen}
+          onExited={() => setWordsFullScreen(false)}
+          detent={1}
+          title={t('guide.ch.language')}
+          style={look.vars}
+          background={look.themed ? 'color-mix(in srgb, var(--onda-solid) 20%, var(--surface-grouped))' : undefined}
+          leading={<GlassButton icon="x" ariaLabel={t('a11y.close')} onClick={() => setWordsFullScreen(false)} />}
+          onScrimClick={() => setWordsFullScreen(false)}
+        >
+          <div className={g.wkWordsGrid}>
+            {content?.words.map((w) => (
+              <article
+                key={w.id}
+                className={g.wkWordGridCard}
+                role="button"
+                tabIndex={0}
+                onClick={() => {
+                  haptic('select')
+                  setActiveWord(w)
+                }}
+              >
+                {w.language && <span className={g.wkPill}>{w.language}</span>}
+                <span className={g.wkWordTerm}>{w.term}</span>
+                {w.pronunciation && <span className={g.wkSay}>{w.pronunciation}</span>}
+                <span className={g.wkMeaning}>{w.meaning}</span>
+              </article>
+            ))}
+          </div>
+        </Sheet>
+      )}
+
       {/* Language Word / Glossary Detail Sheet */}
       {activeWord && (
         <Sheet
           open={!!activeWord}
           onExited={() => setActiveWord(null)}
           detent={0.6}
-          style={look.vars}
+          style={{ ...look.vars, zIndex: 95 }}
           background={look.themed ? 'color-mix(in srgb, var(--onda-solid) 25%, var(--surface-grouped))' : undefined}
           leading={<GlassButton icon="x" ariaLabel={t('a11y.close')} onClick={() => setActiveWord(null)} />}
           onScrimClick={() => setActiveWord(null)}

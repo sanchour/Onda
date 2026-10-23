@@ -600,9 +600,6 @@ export function OndaPlacesMap({
                 <span className={g.placeCardIcon}>
                   <Icon name={x.icon || 'map-pin'} weight="regular" size={20} />
                 </span>
-                <span className={g.placeCardNum}>
-                  {look.numeral(idx + 1)}
-                </span>
               </div>
               <h4 className={g.placeCardTitle}>{x.title}</h4>
               {x.creator && <div className={g.placeCardMeta}>{x.creator}</div>}

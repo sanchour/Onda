@@ -222,9 +222,13 @@ button.row:active,a.row:active{background:var(--surface-fill)}
 :global([data-theme="dark"]) .soonCard{background:rgba(255,255,255,.04)}
 .soonCard .soonName{font-size:var(--fs-17)}
 /* the desktop: three featured covers side by side, and every shelf a grid */
-:global(html[data-desk]) .feat{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));overflow:visible;padding:0 0 6px;margin-bottom:0}
+/* the desktop's Featured is a bento: the first Onda large on the left, four smaller beside it in two rows */
+:global(html[data-desk]) .feat{display:grid;grid-template-columns:minmax(0,1.5fr) repeat(2,minmax(0,1fr));grid-auto-rows:minmax(232px,auto);gap:16px;overflow:visible;padding:0 0 6px;margin-bottom:0}
 :global(html[data-desk]) .featItem{width:auto}
-:global(html[data-desk]) .featItem > *{min-height:340px}
+:global(html[data-desk]) .featItem:first-child{grid-row:span 2}
+:global(html[data-desk]) .featItem > *{min-height:0;height:100%}
+:global(html[data-desk]) .featItem:first-child .title{font-size:var(--fs-34) !important}
+:global(html[data-desk]) .featItem:first-child .tagline{font-size:var(--fs-16);-webkit-line-clamp:4}
 :global(html[data-desk]) .dots{display:none}
 :global(html[data-desk]) .shelfRow,:global(html[data-desk]) .cardList{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px;overflow:visible;padding:0 0 6px;margin-bottom:0}
 :global(html[data-desk]) .shelfRow > *,:global(html[data-desk]) .cardList > *{width:auto}

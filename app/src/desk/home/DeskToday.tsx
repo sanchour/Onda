@@ -125,7 +125,7 @@ function Running({ active }: { active: ActiveOnda }) {
               <div className={h.tiles}>
                 <Tile icon="headphones" title={t('ondas.immerse')} sub={media.length ? t('immersion.experienced', { done: media.filter((m) => seen.has(m.id)).length, total: media.length }) : undefined} onClick={() => push({ name: 'immersion' })} />
                 <Tile icon="notebook" title={t('ondas.journal')} sub={t('journal.count', { count: entries })} onClick={() => push({ name: 'journal' })} />
-                <Tile icon="lightbulb" title={t('ondas.philosophy')} sub={words?.phil?.title} onClick={() => push({ name: 'philosophy' })} />
+                <Tile icon="lightbulb" title={t('guide.ch.ideas')} sub={words?.phil?.title} onClick={() => push({ name: 'philosophy' })} />
                 <Tile icon="book-open-text" title={t('ondas.guideShort')} sub={t('onda.guideSub')} onClick={() => push({ name: 'guide', ondaId: run.ondaId })} />
               </div>
             </Section>

@@ -16,7 +16,7 @@ fs.mkdirSync(out, { recursive: true })
 const port = 5400 + Math.floor(Math.random() * 60)
 const server = spawn('npx', ['vite', '--port', String(port), '--strictPort'], { cwd: path.join(here, '..'), shell: true, stdio: 'ignore' })
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms))
-await sleep(4000)
+for (let i = 0; i < 60; i++) { if (await fetch(`http://localhost:${port}/`).then((r) => r.ok).catch(() => false)) break; await sleep(1000) }
 const browser = desk ? await chromium.launch() : await webkit.launch()
 const ctx = desk ? await browser.newContext({ viewport: { width: 1440, height: 900 }, colorScheme: scheme }) : await browser.newContext({ ...devices['iPhone 15 Pro'], colorScheme: scheme })
 const page = await ctx.newPage()

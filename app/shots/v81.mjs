@@ -80,6 +80,23 @@ try {
         await home(); await shot('native-home'); await scroll(500); await shot('native-home2'); await scroll(-2000)
         if (!desk) { await click(page.getByRole('tab', { name: 'Stats' })); await shot('native-stats'); await click(page.getByRole('tab', { name: 'Ondas' })) }
       }
+      if (s === 'ideas') {
+        if (!desk) await scroll(900)
+        await click(page.getByRole('button', { name: /Ideas/ }), 3500); await shot('ideas'); await sleep(2500); await shot('ideas-b')
+        await click(page.getByText(/^Ethics \d+$/), 1200); await shot('ideas-ethics')
+        await click(page.getByText(/^Rules \d+$/), 1200); await shot('ideas-rules')
+        await click(page.getByRole('checkbox', { name: /Keep this today/ }), 900); await shot('ideas-kept')
+        await home()
+      }
+      if (s === 'gcards') {
+        await click(desk ? page.getByRole('button', { name: /Guide/ }) : page.getByRole('button', { name: /Day \d+ of/ }), 3500)
+        await page.locator('[class*=_gc_]').first().scrollIntoViewIfNeeded(); await sleep(900); await scroll(-80); await shot('gc-ideas')
+        await scroll(420); await shot('gc-think')
+        await page.locator('[class*=_gc_]', { hasText: 'How To' }).first().scrollIntoViewIfNeeded(); await sleep(900); await scroll(-80); await shot('gc-practices')
+        await click(btn('Contents'), 900); await shot('gc-toc')
+        await page.keyboard.press('Escape').catch(() => {}); await sleep(500)
+        await home()
+      }
       if (s === 'settings') { await click(btn('Settings')); await shot('settings'); await click(page.getByRole('button', { name: /^Appearance/ })); await shot('appearance'); await scroll(700); await shot('appearance2'); await home() }
       if (s === 'stats') { await click(desk ? btn('Stats') : page.getByRole('tab', { name: 'Stats' })); await shot('stats'); await scroll(700); await shot('stats2'); if (desk) await home(); else await click(page.getByRole('tab', { name: 'Ondas' })) }
     } catch (e) {

@@ -41,6 +41,51 @@ const initials = (name: string) =>
     .join('') || name.slice(0, 2).toUpperCase()
 
 /** Minimal iOS tab indicator underneath horizontally scrollable cards */
+/** A card in the Ideas and Practices chapters (8.1): what kind of thing it is and its number, the title, a few lines of
+ *  it, and at the foot what to try or how it is done, with an arrow to say the card opens. */
+function GuideCard({ icon, kind, n, title, text, footLabel, foot, wide, onOpen }: {
+  icon: string
+  kind: string
+  n: string
+  title: string
+  text?: string
+  footLabel?: string
+  foot?: string
+  wide?: boolean
+  onOpen: () => void
+}) {
+  const open = () => {
+    haptic('select')
+    onOpen()
+  }
+  return (
+    <article
+      className={g.gc}
+      style={wide ? { width: 'auto' } : undefined}
+      role="button"
+      tabIndex={0}
+      onClick={open}
+      onKeyDown={(e) => {
+        if (e.key !== 'Enter' && e.key !== ' ') return
+        e.preventDefault()
+        open()
+      }}
+    >
+      <span className={g.gcTop}>
+        <span className={g.gcBadge} aria-hidden><Icon name={icon} weight="regular" size={16} /></span>
+        <span className={g.gcKind}>{kind}</span>
+        <span className={g.gcNum} aria-hidden>{n}</span>
+      </span>
+      <h4 className={g.gcTitle}>{title}</h4>
+      {text && <p className={g.gcText}>{text}</p>}
+      <span className={g.gcFoot}>
+        <span className={g.gcTry}>{footLabel && <b>{footLabel}</b>}{foot}</span>
+        <span className={g.gcGo} aria-hidden><Icon name="arrow-up-right" weight="bold" size={13} /></span>
+      </span>
+    </article>
+  )
+}
+
 function IosTabs({ total, active }: { total: number; active: number }) {
   if (total <= 1) return null
   return (
@@ -263,54 +308,39 @@ export default function Guide({ entry }: { entry: Extract<StackEntry, { name: 'g
       }
       case 'ideas': {
         const list = gd.concepts
+        const concept = (c: (typeof list)[number], n: number, wide?: boolean) => (
+          <GuideCard
+            key={c.term}
+            icon="sparkle"
+            kind={t('guide.concept')}
+            n={look.numeral(n + 1)}
+            title={c.term}
+            text={c.text}
+            foot={c.detail ? t('guide.readMore') : undefined}
+            wide={wide}
+            onOpen={() => setActiveIdea({ title: c.term, text: [c.text, c.detail].filter(Boolean).join('\n\n'), kind: 'concept' })}
+          />
+        )
+        const idea = (p: (typeof content.philosophy)[number], n: number, kind: 'think' | 'ethics') => (
+          <GuideCard
+            key={n}
+            icon={kind === 'think' ? 'lightbulb' : 'scales'}
+            kind={kind === 'think' ? t('philosophy.think') : t('philosophy.ethicsTab')}
+            n={look.numeral(n + 1)}
+            title={p.title}
+            text={p.text}
+            footLabel={p.practice ? t('philosophy.tryIt') : undefined}
+            foot={p.practice}
+            onOpen={() => setActiveIdea({ title: p.title, text: p.text, practice: p.practice, kind })}
+          />
+        )
         return (
           <>
             {list.length > 0 && (
               all.ideas ? (
-                <div className={g.wkIdeaGrid}>
-                  {list.map((c) => (
-                    <article
-                      key={c.term}
-                      className={g.wkIdeaCard}
-                      style={{ width: 'auto' }}
-                      role="button"
-                      tabIndex={0}
-                      onClick={() => {
-                        haptic('select')
-                        setActiveIdea({
-                          title: c.term,
-                          text: [c.text, c.detail].filter(Boolean).join('\n\n'),
-                          kind: 'concept',
-                        })
-                      }}
-                    >
-                      <h3 className={g.wkIdeaTitle}>{c.term}</h3>
-                      {c.text && <p className={g.wkIdeaText}>{c.text}</p>}
-                    </article>
-                  ))}
-                </div>
+                <div className={g.wkIdeaGrid}>{list.map((c, n) => concept(c, n, true))}</div>
               ) : (
-                <div className={`hscroll ${g.wkSwipeCards}`}>
-                  {list.map((c) => (
-                    <article
-                      key={c.term}
-                      className={g.wkIdeaCard}
-                      role="button"
-                      tabIndex={0}
-                      onClick={() => {
-                        haptic('select')
-                        setActiveIdea({
-                          title: c.term,
-                          text: [c.text, c.detail].filter(Boolean).join('\n\n'),
-                          kind: 'concept',
-                        })
-                      }}
-                    >
-                      <h3 className={g.wkIdeaTitle}>{c.term}</h3>
-                      {c.text && <p className={g.wkIdeaText}>{c.text}</p>}
-                    </article>
-                  ))}
-                </div>
+                <div className={`hscroll ${g.wkSwipeCards}`}>{list.map((c, n) => concept(c, n))}</div>
               )
             )}
 
@@ -329,26 +359,7 @@ export default function Guide({ entry }: { entry: Extract<StackEntry, { name: 'g
                     if (n !== thinkIdx) setThinkIdx(n)
                   }}
                 >
-                  {content.philosophy.map((p, n) => (
-                    <article
-                      key={n}
-                      className={g.wkIdeaCard}
-                      role="button"
-                      tabIndex={0}
-                      onClick={() => {
-                        haptic('select')
-                        setActiveIdea({
-                          title: p.title,
-                          text: p.text,
-                          practice: p.practice,
-                          kind: 'think',
-                        })
-                      }}
-                    >
-                      <h4 className={g.wkIdeaTitle}>{p.title}</h4>
-                      {p.text && <p className={g.wkIdeaText}>{p.text}</p>}
-                    </article>
-                  ))}
+                  {content.philosophy.map((p, n) => idea(p, n, 'think'))}
                 </div>
                 <IosTabs total={content.philosophy.length} active={thinkIdx} />
               </div>
@@ -369,26 +380,7 @@ export default function Guide({ entry }: { entry: Extract<StackEntry, { name: 'g
                     if (n !== ethicsIdx) setEthicsIdx(n)
                   }}
                 >
-                  {content.ethics.map((p, n) => (
-                    <article
-                      key={n}
-                      className={g.wkIdeaCard}
-                      role="button"
-                      tabIndex={0}
-                      onClick={() => {
-                        haptic('select')
-                        setActiveIdea({
-                          title: p.title,
-                          text: p.text,
-                          practice: p.practice,
-                          kind: 'ethics',
-                        })
-                      }}
-                    >
-                      <h4 className={g.wkIdeaTitle}>{p.title}</h4>
-                      {p.text && <p className={g.wkIdeaText}>{p.text}</p>}
-                    </article>
-                  ))}
+                  {content.ethics.map((p, n) => idea(p, n, 'ethics'))}
                 </div>
                 <IosTabs total={content.ethics.length} active={ethicsIdx} />
               </div>
@@ -396,57 +388,29 @@ export default function Guide({ entry }: { entry: Extract<StackEntry, { name: 'g
           </>
         )
       }
-      case 'practices':
+      case 'practices': {
+        // a practice's card: its time of day and length on top, why it matters, and how it is done at the foot
+        const practice = (p: (typeof content.practices)[number], n: number, wide?: boolean) => (
+          <GuideCard
+            key={p.id}
+            icon={p.icon}
+            kind={p.meta}
+            n={look.numeral(n + 1)}
+            title={p.name}
+            text={p.why}
+            footLabel={p.instructions ? t('plan.howTo') : undefined}
+            foot={p.instructions}
+            wide={wide}
+            onOpen={() => openSheet({ name: 'practiceInfo', ondaId: entry.ondaId, practiceId: p.id })}
+          />
+        )
         return (
           <>
             {content.practices.length > 0 && (
               all.practices ? (
-                <div className={g.wkPracticeStack}>
-                  {content.practices.map((p) => (
-                    <article
-                      key={p.id}
-                      className={g.wkPracticeCard}
-                      style={{ width: 'auto' }}
-                      role="button"
-                      tabIndex={0}
-                      onClick={() => {
-                        haptic('select')
-                        openSheet({ name: 'practiceInfo', ondaId: entry.ondaId, practiceId: p.id })
-                      }}
-                    >
-                      <div className={g.wkPracticeHead}>
-                        <span className={g.wkPracticeIcon}><Icon name={p.icon} weight="regular" size={20} /></span>
-                        <div className={g.wkPracticeText}>
-                          <h4 className={g.wkPracticeTitle}>{p.name}</h4>
-                          {(p.why || p.meta) && <span className={g.wkPracticeSub}>{p.why || p.meta}</span>}
-                        </div>
-                      </div>
-                    </article>
-                  ))}
-                </div>
+                <div className={g.wkPracticeStack}>{content.practices.map((p, n) => practice(p, n, true))}</div>
               ) : (
-                <div className={`hscroll ${g.wkSwipeCards}`}>
-                  {content.practices.map((p) => (
-                    <article
-                      key={p.id}
-                      className={g.wkPracticeCard}
-                      role="button"
-                      tabIndex={0}
-                      onClick={() => {
-                        haptic('select')
-                        openSheet({ name: 'practiceInfo', ondaId: entry.ondaId, practiceId: p.id })
-                      }}
-                    >
-                      <div className={g.wkPracticeHead}>
-                        <span className={g.wkPracticeIcon}><Icon name={p.icon} weight="regular" size={20} /></span>
-                        <div className={g.wkPracticeText}>
-                          <h4 className={g.wkPracticeTitle}>{p.name}</h4>
-                          {(p.why || p.meta) && <span className={g.wkPracticeSub}>{p.why || p.meta}</span>}
-                        </div>
-                      </div>
-                    </article>
-                  ))}
-                </div>
+                <div className={`hscroll ${g.wkSwipeCards}`}>{content.practices.map((p, n) => practice(p, n))}</div>
               )
             )}
 
@@ -477,6 +441,7 @@ export default function Guide({ entry }: { entry: Extract<StackEntry, { name: 'g
             )}
           </>
         )
+      }
       case 'culture': {
         const kind = cultureTab && cultureKinds.includes(cultureTab) ? cultureTab : cultureKinds[0]!
         const items = content.immerse[kind] ?? []

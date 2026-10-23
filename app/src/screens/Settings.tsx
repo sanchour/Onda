@@ -30,7 +30,7 @@ import m from './more.module.css'
 import o from './ondas.module.css'
 import s from './screens.module.css'
 
-const APP_VERSION = '8.0'
+const APP_VERSION = '8.1'
 const BUILD = '1'
 const HUB: [string, SettingsPage][] = [['plus-circle', 'add'], ['paint-brush', 'appearance'], ['database', 'data'], ['question', 'help']]
 // The desktop split view is its own chunk: phones never load it.

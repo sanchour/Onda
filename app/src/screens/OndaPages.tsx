@@ -282,8 +282,18 @@ export function PhilosophyPage() {
   const [picked, setPicked] = useState<Record<string, boolean>>({})
   const pickedCount = Object.values(picked).filter(Boolean).length
   const num = (n: number) => (look ? look.numeral(n) : String(n))
+  // each tab opens on its own card for the day: an idea to think about, a moral to weigh, a rule to keep
   const ti = ideas.length ? (day - 1) % ideas.length : -1
   const today = ti >= 0 ? ideas[ti] : undefined
+  const ei = ethics.length ? (day - 1) % ethics.length : -1
+  const moral = ei >= 0 ? ethics[ei] : undefined
+  const ri = rules.length ? (day - 1) % rules.length : -1
+  const rule = ri >= 0 ? rules[ri] : undefined
+  const keep = (id: string, on: boolean) => {
+    if (!active) return
+    haptic(on ? 'select' : 'success')
+    useStore.getState().toggleItem('ruleLogs', active.run.id, id)
+  }
   const tryIt = (k: string, practice: string, onCover?: boolean) => (
     <button
       type="button"
@@ -314,10 +324,40 @@ export function PhilosophyPage() {
       <div className={o.phWrap}>
         {tab === 'ideas' && today && (
           <article className={o.phToday}>
-            <span className={o.phKicker}>{t('philosophy.todayIdea', { day })}</span>
+            <span className={o.phMark} aria-hidden>{num(ti + 1)}</span>
+            <span className={o.phKicker}><Icon name="lightbulb" weight="bold" size={14} />{t('philosophy.todayIdea', { day })}</span>
             <h2 className={o.phTodayTitle}>{today.title}</h2>
             <p className={o.phTodayText} data-selectable>{today.text}</p>
             {today.practice && tryIt(`ideas:${ti}`, today.practice, true)}
+          </article>
+        )}
+        {tab === 'ethics' && moral && (
+          <article className={`${o.phToday} ${o.phMoral}`}>
+            <span className={o.phMoralSeal} aria-hidden><Icon name="scales" weight="regular" size={22} /></span>
+            <span className={o.phKicker}>{t('philosophy.todayMoral', { day })}</span>
+            <h2 className={o.phTodayTitle}>{moral.title}</h2>
+            <p className={o.phTodayText} data-selectable>{moral.text}</p>
+            {moral.practice && tryIt(`ethics:${ei}`, moral.practice)}
+          </article>
+        )}
+        {tab === 'rules' && rule && (
+          <article className={`${o.phToday} ${o.phRuleDay}`}>
+            <span className={o.phRuleTop}>
+              <span className={o.phRuleNum} aria-hidden>{num(ri + 1)}</span>
+              <span className={o.phKicker}>{t('philosophy.todayRule', { day })}</span>
+            </span>
+            <h2 className={o.phTodayTitle}>{rule.text}</h2>
+            {rule.why && <p className={o.phTodayText} data-selectable>{rule.why}</p>}
+            <button
+              type="button"
+              role="checkbox"
+              aria-checked={doneRules.has(rule.id)}
+              className={doneRules.has(rule.id) ? `${o.phTry} ${o.phKeep} ${o.phTryOn}` : `${o.phTry} ${o.phKeep}`}
+              onClick={() => keep(rule.id, doneRules.has(rule.id))}
+            >
+              <span className={o.phTryBox} aria-hidden>{doneRules.has(rule.id) && <Icon name="check" weight="bold" size={14} />}</span>
+              <span className={o.phTryText}><b>{doneRules.has(rule.id) ? t('philosophy.kept') : t('philosophy.keep')}</b></span>
+            </button>
           </article>
         )}
         {pickedCount > 0 && <div className={o.phPickedBar}><Icon name="check-circle" weight="regular" size={18} />{t('philosophy.pickedCount', { count: pickedCount })}</div>}
@@ -355,11 +395,7 @@ export function PhilosophyPage() {
                     role="checkbox"
                     aria-checked={on}
                     className={on ? `${o.rule} ${o.ruleOn}` : o.rule}
-                    onClick={() => {
-                      if (!active) return
-                      haptic(on ? 'select' : 'success')
-                      useStore.getState().toggleItem('ruleLogs', active.run.id, r.id)
-                    }}
+                    onClick={() => keep(r.id, on)}
                   >
                     <span className={o.ruleNum} aria-hidden>{on ? <Icon name="check" weight="bold" size={20} /> : look ? look.numeral(i + 1) : i + 1}</span>
                     <span className={o.ruleBody}>

@@ -82,7 +82,7 @@
         // light effects (src/lib/lite.ts), by the same rules: chosen, or a desktop with few cores, little memory or slow frames seen
         try {
           var lm = localStorage.getItem('onda.lite'), nv = navigator;
-          if (lm === 'on' || (lm !== 'off' && root.dataset.desk && ((nv.hardwareConcurrency || 8) <= 4 || (nv.deviceMemory || 8) <= 4 || localStorage.getItem('onda.liteSeen') === '1'))) root.dataset.lite = '1';
+          if (lm === 'on' || (lm !== 'off' && root.dataset.desk && ((nv.hardwareConcurrency || 8) <= 4 || (nv.deviceMemory || 8) <= 4 || localStorage.getItem('onda.liteSeen') === '1' || localStorage.getItem('onda.liteGpu') === '1'))) root.dataset.lite = '1';
         } catch (e) {}
       })();
     </script>

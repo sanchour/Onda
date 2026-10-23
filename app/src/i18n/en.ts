@@ -177,7 +177,7 @@ export const en = {
     saved: 'Entry saved', deleted: 'Entry deleted',
   },
   philosophy: {
-    title: 'Ideas', todayIdea: 'Day {{day}} · Today’s idea', lead: 'Ideas to carry through the day, and how to act on them.', think: 'Think about', ethics: 'Ethics and morality', ethicsTab: 'Ethics', tryIt: 'Try', tryThis: 'Try this today', onList: 'On your list for today', all: 'All', count_one: '{{count}} idea', count_other: '{{count}} ideas',
+    title: 'Ideas', todayIdea: 'Day {{day}} · Today’s idea', todayMoral: 'Day {{day}} · Today’s moral', todayRule: 'Day {{day}} · Today’s rule', keep: 'Keep this today', kept: 'Kept today', lead: 'Ideas to carry through the day, and how to act on them.', think: 'Think about', ethics: 'Ethics and morality', ethicsTab: 'Ethics', tryIt: 'Try', tryThis: 'Try this today', onList: 'On your list for today', all: 'All', count_one: '{{count}} idea', count_other: '{{count}} ideas',
     pickedCount_one: '{{count}} thing to try today', pickedCount_other: '{{count}} things to try today',
   },
   guide: {
@@ -186,7 +186,7 @@ export const en = {
     leadLanguage: 'Words to carry through the days', leadFacts: 'Small things worth knowing',
     jumpTo: 'Jump to', introduction: 'Introduction', origin: 'Origin', era: 'Era', rule: 'Rule', practice: 'Practice', didYouKnow: 'Did you know', framing: 'A note on respect', learnFrom: 'Learn from', furtherReading: 'Further reading', sources: 'Sources',
     unverified: 'Not yet verified', empty: 'Nothing added yet',
-    concepts: 'Concepts', practices: 'Practices', rules: 'Rules', customs: 'Customs', words: 'Words', glossary: 'Glossary', figures: 'Key figures', festivals: 'Festivals and calendar', places: 'Places to visit',
+    concepts: 'Concepts', concept: 'Concept', practices: 'Practices', rules: 'Rules', customs: 'Customs', words: 'Words', glossary: 'Glossary', figures: 'Key figures', festivals: 'Festivals and calendar', places: 'Places to visit',
     ch: { people: 'People', history: 'History', ideas: 'Ideas', practices: 'Practices', culture: 'Culture', language: 'Language', places: 'Places and festivals', facts: 'Did you know', refs: 'References' },
     subtitle: '{{kind}} · {{origin}}', atAGlance: 'At a glance', keyTexts: 'Key texts', previous: 'Previous', next: 'Next', contents: 'Contents',
     readMore: 'Read more', showLess: 'Show less', expandAll: 'Expand all', collapseAll: 'Collapse all', nOf: '{{n}} of {{total}}', openLink: 'Open link',

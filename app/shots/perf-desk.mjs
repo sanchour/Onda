@@ -13,12 +13,14 @@ const label = process.argv[3] ?? ''
 const port = 5460 + Math.floor(Math.random() * 30)
 const server = spawn('npx', ['vite', 'preview', '--port', String(port), '--strictPort'], { cwd: path.join(here, '..'), shell: true, stdio: 'ignore' })
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms))
-await sleep(3500)
+for (let i = 0; i < 60; i++) { if (await fetch(`http://localhost:${port}/`).then((r) => r.ok).catch(() => false)) break; await sleep(1000) }
 const browser = await chromium.launch()
 const page = await browser.newPage({ viewport: { width: 1440, height: 900 }, deviceScaleFactor: 1.25 })
 page.on('pageerror', (e) => console.log('PAGEERROR', String(e).slice(0, 200)))
 // LITE=1: with light effects chosen in Appearance
 if (process.env.LITE) await page.addInitScript(() => localStorage.setItem('onda.lite', 'on'))
+// FULL=1: light effects off, as on a machine that needs none
+if (process.env.FULL) await page.addInitScript(() => localStorage.setItem('onda.lite', 'off'))
 const cdp = await page.context().newCDPSession(page)
 await cdp.send('Performance.enable')
 
@@ -71,6 +73,8 @@ try {
   await nav('Today').catch(() => {})
   await page.getByRole('button', { name: /Immerse/ }).first().click({ timeout: 8000 }).then(() => measure('immersion')).catch((e) => console.log('imm fail', String(e).slice(0, 120)))
   await nav('Stats').then(() => measure('stats')).catch((e) => console.log('stats fail', String(e).slice(0, 120)))
+} catch (e) {
+  console.log('FATAL', String(e).slice(0, 300))
 } finally {
   await browser.close()
   server.kill()

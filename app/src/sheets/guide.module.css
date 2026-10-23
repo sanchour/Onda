@@ -301,12 +301,12 @@ button.foldBtn:active{opacity:.75}
 .wkDots i{width:7px;height:7px;border-radius:999px;background:var(--label-quaternary);transition:width .22s var(--ease-enter),background .22s}
 .wkDots i[data-on]{width:20px;background:var(--onda-accent,var(--accent))}
 .wkSec .refs{margin:0 16px}
-/* contents: a round button at the bottom left, then a drawer from the left */
-.wkTocBtn{position:absolute;z-index:45;left:calc(16px + var(--sal));bottom:calc(30px + var(--sab));width:54px;height:54px;border-radius:50%;display:flex;align-items:center;justify-content:center;color:var(--label);
+/* contents: a round button at the bottom right, then a drawer from the right (8.1) */
+.wkTocBtn{position:absolute;z-index:45;right:calc(16px + var(--sar));bottom:calc(30px + var(--sab));width:54px;height:54px;border-radius:50%;display:flex;align-items:center;justify-content:center;color:var(--label);
   background:var(--glass-fill);border:var(--glass-stroke);box-shadow:var(--glass-highlight),var(--glass-shadow);-webkit-backdrop-filter:var(--glass-blur);backdrop-filter:var(--glass-blur)}
 .wkTocBtn:active{transform:scale(var(--press-scale))}
 .wkScrim{position:absolute;inset:0;z-index:90;background:rgba(30,22,18,.3);animation:wkFade .2s ease both}
-.wkDrawer{position:absolute;left:0;top:0;bottom:0;width:296px;max-width:86%;overflow-y:auto;padding:calc(var(--chrome-top) + 8px) 12px calc(24px + var(--sab));
+.wkDrawer{position:absolute;right:0;top:0;bottom:0;width:296px;max-width:86%;overflow-y:auto;padding:calc(var(--chrome-top) + 8px) 12px calc(24px + var(--sab));
   background:var(--surface-grouped);box-shadow:0 0 40px rgba(0,0,0,.2);animation:wkIn .28s var(--ease-enter) both}
 .wkDrawerHead{display:flex;align-items:center;gap:10px;padding:8px 10px 14px;font:600 var(--fs-13)/1 var(--font-sans);letter-spacing:.12em;text-transform:uppercase;color:var(--label-secondary)}
 .wkDrawerHead svg{color:var(--onda-accent,var(--accent))}
@@ -317,7 +317,7 @@ button.foldBtn:active{opacity:.75}
 .wkTocLabel{font:500 var(--fs-16)/1.25 var(--onda-font,var(--font-serif));letter-spacing:.04em;text-transform:var(--onda-case,none)}
 .wkTocName{font-size:var(--fs-19)}
 @keyframes wkFade{from{opacity:0}}
-@keyframes wkIn{from{transform:translate3d(-100%,0,0)}}
+@keyframes wkIn{from{transform:translate3d(100%,0,0)}}
 @media (prefers-reduced-motion:reduce){.wkScrim,.wkDrawer{animation:none}.wkCaret,.wkDot{transition:none}}
 @media (hover:hover) and (pointer:fine){.wkTocItem:hover{background:color-mix(in srgb,var(--label) 5%,transparent)}.wkFoldHead:hover .wkFoldTitle{text-decoration:underline;text-underline-offset:3px}}
 /* the desktop: contents stay beside the article */
@@ -334,21 +334,26 @@ button.foldBtn:active{opacity:.75}
 
 /* ── Horizontal swipable cards (Ideas, Think about, Ethics, Practices, Rules, Words, Glossary) ── */
 .wkSwipeCards{display:flex;gap:12px;padding:0 16px 16px;scroll-snap-type:x proximity;scroll-padding:0 16px}
-.wkIdeaCard{flex:none;width:250px;min-height:0;scroll-snap-align:start;padding:15px 18px 16px;flex-direction:column;justify-content:flex-start;gap:5px;border-radius:calc(var(--onda-r,30px) * .73);background:var(--surface-card);box-shadow:0 1px 2px rgba(0,0,0,.04);display:flex;align-items:stretch;cursor:pointer;-webkit-tap-highlight-color:transparent;transition:transform .15s ease}
-.wkIdeaCard:active{transform:scale(.98)}
-.wkIdeaTitle{margin:0;font:600 var(--fs-17)/1.25 var(--onda-font,var(--font-serif));color:var(--label);text-wrap:pretty}
-/* 8.1: a glimpse of each idea under its name; the whole text opens on a tap */
-.wkIdeaText{margin:0;font:400 var(--fs-14)/1.4 var(--font-sans);color:var(--label-secondary);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;text-wrap:pretty}
-.wkIdeaGrid{display:flex;flex-direction:column;gap:10px;padding:0 16px}
-
-.wkPracticeStack{display:flex;flex-direction:column;gap:10px;padding:0 16px}
-.wkPracticeCard{flex:none;width:270px;min-height:92px;scroll-snap-align:start;padding:16px 18px;border-radius:calc(var(--onda-r,30px) * .73);background:var(--surface-card);box-shadow:0 1px 2px rgba(0,0,0,.04);display:flex;align-items:center;cursor:pointer;-webkit-tap-highlight-color:transparent;transition:transform .15s ease}
-.wkPracticeCard:active{transform:scale(.98)}
-.wkPracticeHead{display:flex;align-items:center;gap:12px;width:100%}
-.wkPracticeIcon{flex:none;width:38px;height:38px;border-radius:11px;display:flex;align-items:center;justify-content:center;background:color-mix(in srgb,var(--onda-accent,var(--accent)) 12%,transparent);color:var(--onda-text,var(--accent))}
-.wkPracticeText{flex:1;min-width:0;display:flex;flex-direction:column;gap:3px}
-.wkPracticeTitle{margin:0;font:600 var(--fs-16)/1.25 var(--font-sans);color:var(--label)}
-.wkPracticeSub{display:block;margin-top:2px;font:400 var(--fs-13)/1.35 var(--font-sans);color:var(--label-secondary);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.wkIdeaGrid,.wkPracticeStack{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px;padding:0 16px}
+/* 8.1: a card for each concept, idea to think about, moral and practice. The kind and the Onda's numeral on top, the
+   title in its type, three lines of it, and at the foot what to try or how it is done; the whole of it opens on a tap. */
+.gc{position:relative;flex:none;width:268px;scroll-snap-align:start;display:flex;flex-direction:column;gap:6px;padding:14px 16px 12px;overflow:hidden;
+  border-radius:calc(var(--onda-r,30px) * .73);text-align:start;cursor:pointer;-webkit-tap-highlight-color:transparent;transition:transform .15s ease;
+  background:linear-gradient(180deg,color-mix(in srgb,var(--onda-strong,var(--accent)) 8%,var(--surface-card)),var(--surface-card) 52%);
+  box-shadow:inset 0 0 0 .5px color-mix(in srgb,var(--onda-strong,var(--label)) 18%,transparent),0 1px 2px rgba(0,0,0,.04)}
+.gc:active{transform:scale(.98)}
+.gc:focus-visible{outline:2px solid var(--onda-accent,var(--accent));outline-offset:2px}
+.gcTop{display:flex;align-items:center;gap:8px;min-width:0}
+.gcBadge{flex:none;width:28px;height:28px;display:flex;align-items:center;justify-content:center;border-radius:var(--onda-shape,50%);clip-path:var(--onda-clip,none);background:var(--onda-deep,var(--accent));color:var(--onda-on,#fff)}
+.gcKind{flex:1;min-width:0;font:600 var(--fs-11)/1.2 var(--font-sans);letter-spacing:.08em;text-transform:uppercase;color:var(--onda-text,var(--label-secondary));white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.gcNum{flex:none;font:500 var(--fs-22)/1 var(--onda-font,var(--font-serif));color:color-mix(in srgb,var(--onda-strong,var(--label)) 50%,transparent)}
+.gcTitle{margin:4px 0 0;font:600 var(--fs-18)/1.22 var(--onda-font,var(--font-serif));letter-spacing:var(--onda-track,0);color:var(--label);text-wrap:pretty;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.gcText{margin:0;font:400 var(--fs-14)/1.42 var(--font-sans);color:var(--label-secondary);text-wrap:pretty;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.gcFoot{margin-top:auto;padding-top:9px;display:flex;align-items:center;gap:10px;min-height:35px;border-top:.5px solid var(--separator)}
+.gcTry{flex:1;min-width:0;font:400 var(--fs-13)/1.3 var(--font-sans);color:var(--label);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.gcTry b{margin-right:6px;font-weight:600;color:var(--onda-text,var(--accent))}
+.gcGo{flex:none;width:26px;height:26px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:var(--surface-fill);color:var(--label-secondary);transition:background .15s,color .15s}
+@media (hover:hover){.gc:hover .gcGo{background:var(--onda-deep,var(--accent));color:var(--onda-on,#fff)}}
 
 .wkRuleCard{flex:none;width:270px;scroll-snap-align:start;padding:18px 20px;border-radius:calc(var(--onda-r,30px) * .73);background:var(--surface-card);box-shadow:0 1px 2px rgba(0,0,0,.04);display:flex;flex-direction:column;gap:8px}
 .wkRuleNum{font:400 var(--fs-16)/1 var(--onda-font,var(--font-serif));color:var(--onda-text,var(--accent))}
@@ -393,7 +398,7 @@ button.foldBtn:active{opacity:.75}
 .mapPinBody{fill:var(--onda-accent,var(--accent));transition:fill .2s}
 .mapPinOrigin{fill:var(--onda-deep,var(--accent));stroke:#fff;stroke-width:1}
 .mapPinDot{fill:#fff}
-.mapPulse{fill:color-mix(in srgb,var(--onda-accent,var(--accent)) 30%,transparent);animation:mapPulse 1.8s infinite ease-out}
+.mapPulse{fill:color-mix(in srgb,var(--onda-accent,var(--accent)) 30%,transparent);animation:mapPulse 1.8s 3 ease-out both}
 @keyframes mapPulse{0%{r:8px;opacity:1}100%{r:20px;opacity:0}}
 html[data-lite] .mapPulse{animation:none;opacity:.6}
 .mapPinLabel{font:600 11px/1 var(--font-sans);fill:var(--label);paint-order:stroke;stroke:var(--surface-card);stroke-width:3px;stroke-linejoin:round}

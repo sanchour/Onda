@@ -230,6 +230,28 @@
 .phItemBody{padding-left:62px}
 .phSeg{margin:22px 0 12px}
 .phWrap > .phToday:first-child{margin-top:14px}
+/* 8.1: each tab opens on its own card for the day. The idea is the Onda's cover, its number large and faint behind it. */
+.phKicker{display:inline-flex;align-items:center;gap:6px}
+.phMark{position:absolute;top:8px;right:20px;font:500 var(--fs-88)/1 var(--onda-font,var(--font-serif));letter-spacing:-.02em;opacity:.16;pointer-events:none}
+/* the moral is an inscription: the Onda's paper and pattern, framed twice in its colour, set in the middle */
+.phToday.phMoral{align-items:center;text-align:center;padding:30px 24px 22px;background:var(--onda-fill,var(--surface-card));color:var(--label);
+  box-shadow:inset 0 0 0 1px color-mix(in srgb,var(--onda-strong,var(--label)) 34%,transparent),0 18px 34px -26px var(--onda-cover-edge,rgba(0,0,0,.4))}
+.phToday.phMoral::after{inset:7px;border-radius:21px;background:none;border:.5px solid color-mix(in srgb,var(--onda-strong,var(--label)) 30%,transparent)}
+.phMoralSeal{width:46px;height:46px;display:flex;align-items:center;justify-content:center;border-radius:var(--onda-shape,50%);clip-path:var(--onda-clip,none);background:var(--onda-deep,var(--accent));color:var(--onda-on,#fff)}
+.phMoral .phKicker{color:var(--onda-text,var(--label-secondary));opacity:1}
+.phMoral .phTodayText{font:italic 400 var(--fs-17)/1.55 var(--font-serif);color:var(--label-secondary);opacity:1}
+.phMoral .phTry{text-align:start}
+/* the rule is an edict: the Onda's deep colour under its pattern, the rule's numeral pressed in as a seal */
+.phToday.phRuleDay{background:var(--onda-pattern,none),linear-gradient(160deg,var(--onda-deep,var(--accent)),color-mix(in srgb,var(--onda-deep,var(--accent)) 72%,#000));color:var(--onda-on,#fff);
+  box-shadow:inset 0 0 0 .5px rgba(255,255,255,.16),0 18px 34px -22px var(--onda-deep,rgba(0,0,0,.5))}
+.phRuleTop{display:flex;align-items:center;gap:14px}
+.phRuleNum{flex:none;width:54px;height:54px;display:flex;align-items:center;justify-content:center;border-radius:var(--onda-shape,50%);clip-path:var(--onda-clip,none);background:var(--onda-on,#fff);color:var(--onda-deep,var(--accent));
+  font:600 var(--fs-24)/1 var(--onda-font,var(--font-serif));box-shadow:inset 0 0 0 3px var(--onda-on,#fff),inset 0 0 0 4.5px var(--onda-deep,var(--accent))}
+.phRuleDay .phTodayTitle{font-size:var(--fs-24);line-height:1.25}
+.phRuleDay .phTodayText{font-size:var(--fs-16);opacity:.85}
+.phKeep{align-items:center}
+.phKeep .phTryText b{margin:0;font-size:var(--fs-13);opacity:1}
+.phRuleDay .phTryOn .phTryBox{background:var(--onda-on,#fff);border-color:var(--onda-on,#fff);color:var(--onda-deep,#000)}
 
 /* ── Onda 7.1: philosophy and immersion carry the Onda's own pattern, face and mark shape ── */
 .phToday{background:var(--onda-cover,var(--onda-material,var(--surface-card)))}
@@ -509,8 +531,14 @@ button.imSecHead:active{opacity:.7}
 @media (prefers-reduced-motion:reduce){.upCard,.mcArt,.mcTick,.kindCheck span{transition:none}.upCard:active,.mcArt:active{transform:none}}
 @media (hover:hover) and (pointer:fine){.upCard:hover,.mcArt:hover{filter:brightness(1.05)}.kindOpen:hover .kindTitle{text-decoration:underline;text-underline-offset:3px}}
 /* the desktop: Up Next side by side, and the shelves wrap instead of scrolling sideways */
-:global(html[data-desk]) .upRow{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));overflow:visible;padding:0 0 6px;margin-bottom:0}
+:global(html[data-desk]) .upRow{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:14px;overflow:visible;padding:0 0 6px;margin-bottom:0}
 :global(html[data-desk]) .upItem{width:auto}
+:global(html[data-desk]) .upItem .upCard{height:190px;padding:18px 18px}
+:global(html[data-desk]) .upItem .upTitle{font-size:var(--fs-19)}
+/* a kind's page on the desktop: as many items per row as fit, films and postcards wider */
+:global(html[data-desk]) .kindMediaGrid{grid-template-columns:repeat(auto-fill,minmax(176px,1fr));justify-items:start;padding:14px 0 40px}
+:global(html[data-desk]) .kindMediaGrid[data-kind="watch"],:global(html[data-desk]) .kindMediaGrid[data-kind="travel"],:global(html[data-desk]) .kindMediaGrid[data-kind="customs"],:global(html[data-desk]) .kindMediaGrid[data-kind="words"]{grid-template-columns:repeat(auto-fill,minmax(280px,1fr));max-width:none}
+:global(html[data-desk]) .kindHero .upCard{height:200px}
 :global(html[data-desk]) .imShelf{flex-wrap:wrap;overflow:visible;gap:22px 18px;padding:0 0 6px;margin-bottom:0}
 :global(html[data-desk]) .imSecHead{padding:36px 2px 14px}
 :global(html[data-desk]) .kindHero,:global(html[data-desk]) .kindList{padding:0}

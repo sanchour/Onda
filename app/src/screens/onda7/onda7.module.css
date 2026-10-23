@@ -13,11 +13,11 @@ button.cover:active{transform:scale(.985)}
 .hero{width:calc(100% - 32px);margin:8px 16px 0;min-height:252px;border-radius:var(--onda-r,30px);padding:20px 22px 30px}
 .tile{width:100%;height:164px;border-radius:calc(var(--onda-r,30px) * .8);padding:13px 14px 13px}
 /* 8.0: the shelf card of All Ondas, one size for every Onda */
-.card{flex:none;width:280px;height:176px;box-sizing:border-box;border-radius:calc(var(--onda-r,30px) * .9);padding:16px 18px}
-.card.frame{--r:calc(var(--onda-r,30px) * .9)}
+.card{flex:none;width:168px;height:168px;box-sizing:border-box;border-radius:calc(var(--onda-r,30px) * .75);padding:14px 14px}
+.card.frame{--r:calc(var(--onda-r,30px) * .75)}
 .card .title{line-height:1.08}
-.card .sub{font-size:var(--fs-13);margin-top:4px;opacity:.8;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.card.left .emblem{right:-26px;top:auto;bottom:-22px;transform:none;opacity:.26}
+.card .sub{font-size:var(--fs-12);margin-top:2px;opacity:.8;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.card.left .emblem{right:-20px;top:auto;bottom:-18px;transform:none;opacity:.24}
 .card.center .emblem,.card.frame .emblem{margin-top:2px}
 /* the Featured carousel of All Ondas: a tagline in the serif and the origin in small capitals under the title */
 .tagline{display:block;margin-top:10px;font:400 var(--fs-18)/1.4 var(--font-serif);opacity:.94;text-wrap:balance}
@@ -194,8 +194,8 @@ button.row:active,a.row:active{background:var(--surface-fill)}
 /* ── All Ondas as a bookshop ── */
 /* 8.0 All Ondas: a Featured carousel with page dots, then shelves of same-size cards */
 .feat{display:flex;gap:12px;padding:0 16px 6px;scroll-snap-type:x mandatory;scroll-padding:0 16px}
-.featItem{flex:none;width:calc(100% - 48px);scroll-snap-align:start;display:flex}
-.featItem > *{width:100%;margin:0;min-height:380px}
+.featItem{flex:none;width:275px;scroll-snap-align:start;display:flex}
+.featItem > *{width:100%;margin:0;min-height:285px;height:285px}
 .dots{display:flex;justify-content:center;gap:7px;margin-top:4px}
 .dots i{width:7px;height:7px;border-radius:999px;background:var(--label-quaternary);transition:width .22s var(--ease-enter),background .22s}
 .dots i[data-on]{width:20px;background:var(--onda-accent,var(--accent))}
@@ -207,11 +207,12 @@ button.row:active,a.row:active{background:var(--surface-fill)}
 .shelfRow{display:flex;gap:12px;padding:0 16px 6px;scroll-snap-type:x proximity;scroll-padding:0 16px}
 .shelfRow > *{scroll-snap-align:start}
 .feat,.shelfRow{padding-bottom:26px;margin-bottom:-18px}
-.cardList{display:flex;flex-direction:column;gap:12px;padding:6px 16px 0}
-.soonCard{flex:none;width:280px;height:176px;box-sizing:border-box;display:flex;flex-direction:column;justify-content:space-between;padding:16px 18px;
-  border-radius:calc(var(--onda-r,30px) * .9);background:rgba(255,255,255,.3);box-shadow:inset 0 0 0 1px var(--separator);color:var(--label-secondary)}
+.cardList{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;padding:6px 16px 24px}
+.cardList .card,.cardList .soonCard{width:100% !important;height:auto;aspect-ratio:1/1}
+.soonCard{flex:none;width:168px;height:168px;box-sizing:border-box;display:flex;flex-direction:column;justify-content:space-between;padding:14px 14px;
+  border-radius:calc(var(--onda-r,30px) * .75);background:rgba(255,255,255,.3);box-shadow:inset 0 0 0 1px var(--separator);color:var(--label-secondary)}
 :global([data-theme="dark"]) .soonCard{background:rgba(255,255,255,.04)}
-.soonCard .soonName{font-size:var(--fs-20)}
+.soonCard .soonName{font-size:var(--fs-17)}
 /* the desktop: three featured covers side by side, and every shelf a grid */
 :global(html[data-desk]) .feat{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));overflow:visible;padding:0 0 6px;margin-bottom:0}
 :global(html[data-desk]) .featItem{width:auto}

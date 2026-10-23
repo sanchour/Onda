@@ -183,6 +183,9 @@ button.foldBtn:active{opacity:.75}
 .wkTop{padding-top:calc(var(--chrome-top) + 54px)}
 .wk{padding-bottom:calc(110px + max(var(--sab),16px))}
 .wkEssence{display:block;margin:14px auto 0;max-width:300px;font:400 var(--fs-19)/1.35 var(--font-serif);text-wrap:balance}
+.wkCoverQuote{display:flex;flex-direction:column;align-items:center;gap:4px;margin-top:14px;padding:0 24px;text-align:center;max-width:340px}
+.wkCoverQuoteText{font:400 var(--fs-14)/1.4 var(--font-serif);font-style:italic;opacity:.88;text-wrap:balance}
+.wkCoverQuoteBy{font:600 var(--fs-11)/1.2 var(--font-sans);letter-spacing:.08em;text-transform:uppercase;opacity:.72}
 .wkHead{padding:26px 20px 0}
 .wkName{margin:0;font:500 var(--fs-38)/1.08 var(--onda-font,var(--font-serif));letter-spacing:var(--onda-track,-.01em);text-transform:var(--onda-case,none);text-wrap:balance;overflow-wrap:anywhere}
 .wkSubtitle{margin:8px 0 0;font:400 var(--fs-17)/1.35 var(--font-sans);color:var(--label-secondary)}

@@ -35,7 +35,7 @@ export interface CoverProps {
   children?: ReactNode
 }
 
-const EMBLEM = { hero: { left: 200, center: 76, frame: 64 }, tile: { left: 104, center: 46, frame: 40 }, card: { left: 150, center: 54, frame: 48 } } as const
+const EMBLEM = { hero: { left: 200, center: 76, frame: 64 }, tile: { left: 104, center: 46, frame: 40 }, card: { left: 120, center: 46, frame: 40 } } as const
 
 /** An Onda's cover: its material, emblem, display face and numerals. The one place each Onda shows its world. */
 export function Cover({ look, size, title, kicker, glyph, sub, mark, badge, days, onClick, ariaLabel, level, width, article, children }: CoverProps) {
@@ -46,7 +46,7 @@ export function Cover({ look, size, title, kicker, glyph, sub, mark, badge, days
   const fs = hero
     ? fitSize(title, columnWidth() - 32 - 44 - (centred ? 0 : 40), 40, 22, look.caps)
     : size === 'card'
-      ? fitSize(title, (width ?? 280) - 36 - (centred ? 0 : 36), 26, 15, look.caps)
+      ? fitSize(title, (width ?? 168) - 28 - (centred ? 0 : 28), 22, 13, look.caps)
       : fitSize(title, (width ?? columnWidth() / 2 - 22) - 28, 19, 13, look.caps)
   const H = hero && level ? (`h${level}` as const) : 'span'
   const cls = [c.cover, c[size], c[look.layout], article && c.article].filter(Boolean).join(' ')

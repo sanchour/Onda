@@ -60,6 +60,7 @@ export interface AppState extends Lists {
   toggleItem: (collection: 'ruleLogs' | 'taskLogs', runId: string, itemId: string, date?: DateStr) => void
   toggleImmerse: (runId: string, itemId: string) => void
   saveJournal: (runId: string, day: number, prompt: string, text: string) => void
+  deleteJournal: (id: string) => void
   completeOnda: (runId: string, answers: { prompt: string; text: string }[], keptPracticeIds: string[]) => number
   saveCustomOnda: (content: OndaContent) => void
 
@@ -346,6 +347,9 @@ export const useStore = create<AppState>()((set, get) => {
       const id = detId('journal', runId, day)
       const prev = get().journal.find((j) => j.id === id)
       after(write('journal', { ...(prev ?? base(id)), runId, day, prompt, text, at: prev?.at ?? now().toISOString(), deletedAt: null }))
+    },
+    deleteJournal(id) {
+      remove('journal', id)
     },
     completeOnda(runId, answers, keptPracticeIds) {
       const s = get()

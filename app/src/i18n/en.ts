@@ -9,7 +9,7 @@ export const en = {
   },
   common: {
     storageFull: 'This device is out of storage, so your last change was not saved. Free some space and try again.',
-    unitDays: 'days', cancel: 'Cancel', save: 'Save', done: 'Done', next: 'Next', back: 'Back', continue: 'Continue', close: 'Close', ok: 'OK', on: 'On', off: 'Off',
+    unitDays: 'days', cancel: 'Cancel', save: 'Save', done: 'Done', next: 'Next', back: 'Back', continue: 'Continue', close: 'Close', ok: 'OK', on: 'On', off: 'Off', delete: 'Delete',
     days_one: '{{count}} day', days_other: '{{count}} days', daysCap_one: '{{count}} Day', daysCap_other: '{{count}} Days',
     never: 'Never', justNow: 'Just now', minAgo_one: '{{count}} min ago', minAgo_other: '{{count}} min ago', hoursAgo_one: '{{count}} hour ago', hoursAgo_other: '{{count}} hours ago',
     today: 'Today', hour: 'Hour', minute: 'Minute', period: 'AM or PM', weekdays: ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT'], lengthDays: 'Length: {{count}} days', lengthLabel: 'Length in days',
@@ -169,15 +169,15 @@ export const en = {
   kindLabel: { read: 'Read', watch: 'Watch', listen: 'Listen', art: 'Art', eat: 'Eat', drink: 'Drink', customs: 'Customs', games: 'Games', travel: 'Travel', words: 'Words' },
   immersion: {
     title: 'Immersion', featured: 'Featured', nextUp: 'Next up', allDone: 'All experienced', upNext: 'Up Next', library: 'Library', experienced: '{{done}} of {{total}} experienced', footer: 'Tap an item to read about it. Tick it when you have experienced it.', empty: 'Nothing here yet',
-    kindCount: '{{done}} of {{total}}', about: 'About {{name}}', markExperienced: 'Mark as experienced', experiencedBtn: 'Experienced', learnMore: 'Learn more', find: 'Find it', findNote: 'Each button opens a search for this outside Onda.', noNote: 'No note for this one yet.', shelf_one: '{{count}} on the shelf', shelf_other: '{{count}} on the shelf', no: 'No. {{n}}',
+    kindCount: '{{done}} of {{total}}', about: 'About {{name}}', markExperienced: 'Mark as experienced', experiencedBtn: 'Experienced', learnMore: 'Learn more', find: 'Find it', findNote: '', noNote: 'No note for this one yet.', shelf_one: '{{count}} on the shelf', shelf_other: '{{count}} on the shelf', no: 'No. {{n}}',
   },
   journal: {
     count_one: '{{count}} entry', count_other: '{{count}} entries',
-    title: 'Journal', newEntry: 'New Entry', dayLabel: 'Day {{day}} · {{name}}', placeholder: 'Write freely', startWriting: 'Start writing…', practicedToday: 'Practiced today', empty: 'No entries yet', emptySub: 'One short entry a day is enough',
-    saved: 'Entry saved',
+    title: 'Journal', newEntry: 'New Entry', todayQuestion: 'Today’s question', dayLabel: 'Day {{day}} · {{name}}', placeholder: 'Write freely', startWriting: 'Start writing…', practicedToday: 'Practiced today', empty: 'No entries yet', emptySub: 'One short entry a day is enough',
+    saved: 'Entry saved', deleted: 'Entry deleted',
   },
   philosophy: {
-    title: 'Philosophy', todayIdea: 'Day {{day}} · Today’s idea', lead: 'Ideas to carry through the day, and how to act on them.', think: 'Think about', ethics: 'Ethics and morality', ethicsTab: 'Ethics', tryIt: 'Try', tryThis: 'Try this today', onList: 'On your list for today', all: 'All', count_one: '{{count}} idea', count_other: '{{count}} ideas',
+    title: 'Ideas', todayIdea: 'Day {{day}} · Today’s idea', lead: 'Ideas to carry through the day, and how to act on them.', think: 'Think about', ethics: 'Ethics and morality', ethicsTab: 'Ethics', tryIt: 'Try', tryThis: 'Try this today', onList: 'On your list for today', all: 'All', count_one: '{{count}} idea', count_other: '{{count}} ideas',
     pickedCount_one: '{{count}} thing to try today', pickedCount_other: '{{count}} things to try today',
   },
   guide: {

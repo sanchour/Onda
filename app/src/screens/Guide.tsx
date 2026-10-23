@@ -15,6 +15,7 @@ import g from '@/sheets/guide.module.css'
 import { OrnamentIcon } from './KindArt'
 import { MediaCard } from './MediaCard'
 import { Cover } from './onda7'
+import { useActiveOnda } from './ondaShared'
 import { OndaMapWidget, OndaPlacesMap } from './OndaMap'
 import s from './screens.module.css'
 
@@ -817,7 +818,15 @@ export default function Guide({ entry }: { entry: Extract<StackEntry, { name: 'g
 
   const name = index?.name ?? ''
   const origin = gd?.origin || index?.origin || ''
-  const quote = content?.quote ?? content?.quotes[0]
+  const active = useActiveOnda()
+  const day = active?.day ?? 1
+  const quote = useMemo(() => {
+    if (!content) return null
+    if (content.quotes && content.quotes.length > 0) {
+      return content.quotes[(day - 1) % content.quotes.length] ?? content.quote
+    }
+    return content.quote ?? null
+  }, [content, day])
   const keyTexts = (content?.immerse.read ?? []).slice(0, 2).map((x) => x.title).join(', ')
   const glance: [string, string][] = gd
     ? ([
@@ -834,6 +843,12 @@ export default function Guide({ entry }: { entry: Extract<StackEntry, { name: 'g
     <article className={g.wk}>
       <Cover look={{ ...look, layout: frame ? 'frame' : 'center' }} size="hero" article title="" glyph={look.themed ? look.glyph : undefined} ariaLabel={name}>
         {index?.line && <span className={g.wkEssence}>{index.line}</span>}
+        {quote && (
+          <div className={g.wkCoverQuote}>
+            <span className={g.wkCoverQuoteText}>"{quote.text}"</span>
+            {quote.by && <span className={g.wkCoverQuoteBy}>— {quote.by}</span>}
+          </div>
+        )}
       </Cover>
       <header className={g.wkHead}>
         <h1 className={g.wkName}>{name}</h1>

@@ -5,7 +5,6 @@ import { planForDay, type DayPractice } from '@/data/derive/plan'
 import { useLookFn, useOndaList, useSettings } from '@/data/hooks'
 import { useStore } from '@/data/store'
 import { useDesk } from '@/lib/desk'
-import { columnWidth } from '@/lib/fit'
 import { GlassHead, Screen } from '@/nav/Screen'
 import { useNav } from '@/nav/store'
 import { Button, GlassButton } from '@/ui/buttons'
@@ -94,16 +93,15 @@ function PhoneOndasTab() {
           mark={look.numeral(day)}
           days={{ day, length: run.lengthDays }}
           ariaLabel={`${kicker}, ${name}`}
-          onClick={() => push({ name: 'onda', id: run.ondaId })}
+          onClick={() => push({ name: 'guide', ondaId: run.ondaId })}
         />
 
         <ShortcutBar
           label={t('ondas.shortcuts')}
           items={[
             { icon: 'headphones', label: t('ondas.immerse'), onClick: () => push({ name: 'immersion' }) },
+            { icon: 'lightbulb', label: t('guide.ch.ideas'), onClick: () => push({ name: 'philosophy' }) },
             { icon: 'notebook', label: t('ondas.journal'), onClick: () => push({ name: 'journal' }) },
-            { icon: 'lightbulb', label: t('ondas.philosophy'), onClick: () => push({ name: 'philosophy' }) },
-            { icon: 'book-open-text', label: t('ondas.guideShort'), onClick: () => push({ name: 'guide', ondaId: run.ondaId }) },
           ]}
         />
 
@@ -268,7 +266,6 @@ function FeatureCover({ x, kicker, active, onOpen }: { x: OndaItem; kicker: stri
 export function AllOndas() {
   const { t } = useTranslation()
   const push = useNav((n) => n.push)
-  const desk = useDesk()
   const list = useOndaList()
   const today = useStore((x) => x.today)
   const activeId = useActiveOnda()?.run.ondaId
@@ -291,8 +288,6 @@ export function AllOndas() {
   const seed = [...today].reduce((h, ch) => (h * 31 + ch.charCodeAt(0)) >>> 0, 7)
   const featured = [...list.filter((x) => x.id === activeId), ...(pool.length ? Array.from({ length: 4 }, (_, i) => pool[(seed + i * 17) % pool.length]!) : [])]
     .filter((x, i, all) => all.findIndex((y) => y.id === x.id) === i)
-  // a full row on the phone; the desktop grid sizes its cells itself
-  const rowWidth = desk ? undefined : columnWidth() - 32
   const pick = (k: Shelf | 'all') => {
     setTab(k)
     pane.current?.scrollTo({ top: 0 })
@@ -375,8 +370,8 @@ export function AllOndas() {
         </>
       ) : (
         <section aria-label={t(`browse.${tab}`)} className={c.cardList}>
-          {inShelf(tab).map((x) => <OndaCard key={x.id} x={x} kicker={one(x)} active={activeId === x.id} width={rowWidth} onOpen={() => open(x.id)} />)}
-          {soonOf(tab).map((x) => <SoonCard key={x.name} x={x} width={rowWidth} />)}
+          {inShelf(tab).map((x) => <OndaCard key={x.id} x={x} kicker={one(x)} active={activeId === x.id} onOpen={() => open(x.id)} />)}
+          {soonOf(tab).map((x) => <SoonCard key={x.name} x={x} />)}
         </section>
       )}
     </Screen>

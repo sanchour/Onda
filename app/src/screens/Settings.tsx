@@ -27,6 +27,7 @@ import { guardNewLago } from './lagoActions'
 import c from './onda7/onda7.module.css'
 import { guardCreateOnda, OrnDivider, useOndaScope } from './ondaShared'
 import m from './more.module.css'
+import o from './ondas.module.css'
 import s from './screens.module.css'
 
 const APP_VERSION = '8.0'
@@ -64,6 +65,7 @@ export default function Settings({ entry }: { entry: Extract<StackEntry, { name:
   const scope = useOndaScope()
   const lite = useLiteMode()
   const page = entry.page
+  const [manageOpen, setManageOpen] = useState(false)
   const fileRef = useRef<HTMLInputElement>(null)
   const importFile = async (file: File | undefined) => {
     if (!file) return
@@ -299,16 +301,42 @@ export default function Settings({ entry }: { entry: Extract<StackEntry, { name:
             </span>
           </button>
 
-          <button type="button" className={m.plusCard} onClick={paywall}>
-            <span className={m.plusTop}>
+          <div className={m.plusCard}>
+            <div className={m.plusTop}>
               <span className={m.plusTitle}>{t('settings.plus.title')}</span>
               <span className={m.plusBadge}>{badge}</span>
-            </span>
-            <span className={m.plusBottom}>
+            </div>
+            <div className={m.plusBottom}>
               <span className={m.plusLine}>{t(`settings.plus.line${plusKey}`)}</span>
-              <span className={m.plusCta}>{t(`settings.plus.cta${plusKey === 'Expired' ? 'Trial' : plusKey}`)}</span>
-            </span>
-          </button>
+              <button
+                type="button"
+                className={m.plusCta}
+                onClick={() => setManageOpen((v) => !v)}
+              >
+                {t('settings.plus.ctaLife')}
+              </button>
+            </div>
+            {manageOpen && (
+              <div className={o.plusManageWrap}>
+                {plus.tier !== 'lifetime' && (
+                  <button type="button" className={o.plusManageBtn} onClick={paywall}>
+                    <span>{t('settings.sub.getLifetime')}</span>
+                    <span className={o.plusManageSub}>€ 24,99</span>
+                  </button>
+                )}
+                {plus.tier !== 'lifetime' && plus.tier !== 'monthly' && (
+                  <button type="button" className={o.plusManageBtn} onClick={paywall}>
+                    <span>{t('settings.sub.getMonthly')}</span>
+                    <span className={o.plusManageSub}>€ 2,49</span>
+                  </button>
+                )}
+                <button type="button" className={o.plusManageBtn} onClick={() => void restore()}>
+                  <span>{t('settings.sub.restore')}</span>
+                  <Icon name="arrow-counter-clockwise" weight="bold" size={15} />
+                </button>
+              </div>
+            )}
+          </div>
 
           <div className={m.gap28}>
             {pages.add}

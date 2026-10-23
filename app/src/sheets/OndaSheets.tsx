@@ -6,8 +6,7 @@ import { useLook, useOnda, useOndaIndex } from '@/data/hooks'
 import { useStore } from '@/data/store'
 import { haptic } from '@/lib/haptics'
 import type { SheetEntry } from '@/nav/store'
-import { KindArt } from '@/screens/KindArt'
-import { Glyph, useActiveOnda, useRunToday } from '@/screens/ondaShared'
+import { useActiveOnda, useRunToday } from '@/screens/ondaShared'
 import o from '@/screens/ondas.module.css'
 import s from '@/screens/screens.module.css'
 import { Button } from '@/ui/buttons'
@@ -31,12 +30,7 @@ export function MediaInfoSheet({ entry }: E<'mediaInfo'>) {
 
   return (
     <AppSheet entry={entry} look={look} detent={0.8}>
-      <div style={{ padding: '4px 20px 40px' }}>
-        <div className={`${g.miHero} ${o.themed}`}>
-          <Glyph look={look} opacity={0.12} right={12} bottom={2} />
-          <span className={g.miKind}>{t(`kindLabel.${item.kind}`)}</span>
-          <KindArt kind={item.kind} className={g.miArt} />
-        </div>
+      <div style={{ padding: '8px 20px 40px' }}>
         <h2 className={g.miTitle}>{item.title}</h2>
         {sub && <div className={g.miMeta}>{sub}</div>}
         {item.extra && <div className={g.miExtra}>{item.extra}</div>}
@@ -63,7 +57,6 @@ export function MediaInfoSheet({ entry }: E<'mediaInfo'>) {
                 </button>
               ))}
             </div>
-            <div className={g.miFindNote}>{t('immersion.findNote')}</div>
           </div>
         )}
         <div className={g.miActions}>

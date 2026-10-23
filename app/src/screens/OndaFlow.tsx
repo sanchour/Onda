@@ -14,6 +14,7 @@ import { GlassTabs, Switch } from '@/ui/controls'
 import { StepBar } from '@/ui/data'
 import { Icon } from '@/ui/Icon'
 import { MediaCard } from './MediaCard'
+import { OndaPlacesMap } from './OndaMap'
 import { useActiveOnda } from './ondaShared'
 import { Cover } from './onda7'
 import o from './ondas.module.css'
@@ -46,6 +47,13 @@ export function Immersion({ entry }: { entry: Extract<StackEntry, { name: 'immer
   // the next item you have not yet experienced, one per kind
   const next = kinds.map((k) => media.find((m) => m.kind === k && !done.has(m.id))).filter((m): m is NonNullable<typeof m> => !!m)
   const frame = look.layout === 'frame'
+  const places = useMemo(
+    () => [
+      ...(active?.content?.immerse.festivals ?? []).map((x) => ({ ...x, icon: 'calendar-star' })),
+      ...(active?.content?.immerse.places ?? []).map((x) => ({ ...x, icon: 'map-pin' })),
+    ],
+    [active?.content],
+  )
   const pick = (k: ImTab) => {
     setTab(k)
     pane.current?.scrollTo({ top: 0 })
@@ -96,7 +104,7 @@ export function Immersion({ entry }: { entry: Extract<StackEntry, { name: 'immer
               <div className={`hscroll ${o.upRow}`}>
                 {next.map((m) => (
                   <div key={m.id} className={o.upItem}>
-                    {hero(m, `${t('immersion.upNext')} · ${t(`kindLabel.${m.kind}`)}`, () => pick(m.kind))}
+                    {hero(m, `${t('immersion.upNext')} · ${t(`kindLabel.${m.kind}`)}`, () => about(m))}
                   </div>
                 ))}
               </div>
@@ -125,31 +133,29 @@ export function Immersion({ entry }: { entry: Extract<StackEntry, { name: 'immer
         const top = first ?? list[0]!
         return (
           <>
-            <div className={o.kindHero}>{hero(top, first ? t('immersion.nextUp') : t('immersion.allDone'), () => toggle(top), true)}</div>
+            <div className={o.kindHero}>{hero(top, first ? t('immersion.nextUp') : t('immersion.allDone'), () => about(top), true)}</div>
             <div className={o.imSecHead} role="presentation">
               <span className={o.imSecTitle}>{t(`kindLabel.${kind}`)}</span>
               <span className={o.imSecCount}>{seenOf(kind)}</span>
             </div>
-            <ul className={o.kindList}>
-              {list.map((m) => {
-                const on = done.has(m.id)
-                return (
-                  <li key={m.id} className={o.kindRow}>
-                    <button type="button" className={o.kindOpen} aria-label={t('immersion.about', { name: m.title })} onClick={() => about(m)}>
-                      <span className={o.kindTile} aria-hidden><Icon name={KIND_ICON[m.kind]} weight="regular" size={24} /></span>
-                      <span className={o.kindText}>
-                        <span className={o.kindTitle}>{m.title}</span>
-                        {(m.creator || m.year || m.meta) && <span className={o.kindMeta}>{m.kind === 'words' ? m.meta : [m.creator, m.year].filter(Boolean).join(' · ') || m.meta}</span>}
-                        {m.why && <span className={o.kindWhy}>{m.why}</span>}
-                      </span>
-                    </button>
-                    <button type="button" role="checkbox" aria-checked={on} aria-label={t('a11y.markDone', { name: m.title })} className={o.kindCheck} onClick={() => toggle(m)}>
-                      <span data-on={on ? '' : undefined} aria-hidden>{on && <Icon name="check" weight="bold" size={15} />}</span>
-                    </button>
-                  </li>
-                )
-              })}
-            </ul>
+            <div className={o.kindMediaGrid}>
+              {list.map((m) => (
+                <MediaCard
+                  key={m.id}
+                  item={m}
+                  done={done.has(m.id)}
+                  onToggle={() => toggle(m)}
+                  onOpen={() => about(m)}
+                  ornament={look.ornament}
+                  frame={frame}
+                />
+              ))}
+            </div>
+            {kind === 'travel' && places.length > 0 && (
+              <div className={o.kindMapWrap}>
+                <OndaPlacesMap ondaId={run.ondaId} places={places} look={look} />
+              </div>
+            )}
             <div className={o.footnote}>{t('immersion.footer')}</div>
           </>
         )

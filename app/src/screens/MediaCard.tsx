@@ -12,9 +12,19 @@ import o from './ondas.module.css'
    caption under it opens the note. Styles: ondas.module.css, "8.0 Immersion". */
 
 /** The tick in the corner of a media card: a ring until done, then a filled disc. `light` is for cards on the page. */
-function Tick({ on, light }: { on: boolean; light?: boolean }) {
+function Tick({ on, light, onToggle }: { on: boolean; light?: boolean; onToggle?: () => void }) {
   return (
-    <span className={light ? `${o.mcTick} ${o.mcTickLight}` : o.mcTick} data-on={on ? '' : undefined} aria-hidden>
+    <span
+      role="button"
+      tabIndex={0}
+      className={light ? `${o.mcTick} ${o.mcTickLight}` : o.mcTick}
+      data-on={on ? '' : undefined}
+      aria-label={on ? 'Marked experienced' : 'Mark experienced'}
+      onClick={(e) => {
+        e.stopPropagation()
+        onToggle?.()
+      }}
+    >
       {on && <Icon name="check" weight="bold" size={13} />}
     </span>
   )
@@ -35,9 +45,15 @@ export function MediaCard({ item: m, done, onToggle, onOpen, ornament, frame }: 
   const icon = KIND_ICON[m.kind]
   const by = m.kind === 'words' ? m.meta : m.creator || m.meta
   const art = (children: ReactNode, cls?: string) => (
-    <button type="button" role="checkbox" aria-checked={done} aria-label={t('a11y.markDone', { name: m.title })} className={`${o.mcArt} ${cls}`} data-frame={frame ? '' : undefined} onClick={onToggle}>
+    <div
+      role="button"
+      tabIndex={0}
+      className={`${o.mcArt} ${cls}`}
+      data-frame={frame ? '' : undefined}
+      onClick={onOpen}
+    >
       {children}
-    </button>
+    </div>
   )
   const caption = (title: boolean, line?: string) => (
     <button type="button" className={o.mcCap} aria-label={t('immersion.about', { name: m.title })} onClick={onOpen}>
@@ -56,10 +72,10 @@ export function MediaCard({ item: m, done, onToggle, onOpen, ornament, frame }: 
         <div className={o.mc} data-kind="read">
           {art(
             <>
-              <span className={o.mcOrn} aria-hidden><OrnamentIcon name={ornament} size={18} /></span>
+              <span className={o.mcOrn} aria-hidden><OrnamentIcon name={ornament} size={20} /></span>
               <span className={o.mcBookTitle}>{m.title}</span>
               {m.creator && <span className={o.mcBookBy}>{m.creator}</span>}
-              <Tick on={done} />
+              <Tick on={done} onToggle={onToggle} />
             </>,
             o.mcBook,
           )}
@@ -73,9 +89,8 @@ export function MediaCard({ item: m, done, onToggle, onOpen, ornament, frame }: 
             <>
               {water(150)}
               <span className={o.mcScrim} aria-hidden />
-              <span className={o.mcPlay} aria-hidden><Icon name="play" weight="fill" size={22} /></span>
               {m.year && <span className={o.mcYear}>{m.year}</span>}
-              <Tick on={done} />
+              <Tick on={done} onToggle={onToggle} />
             </>,
             o.mcVideo,
           )}
@@ -88,9 +103,9 @@ export function MediaCard({ item: m, done, onToggle, onOpen, ornament, frame }: 
         <div className={o.mc} data-kind={m.kind}>
           {art(
             <>
-              <span className={o.mcIcon} aria-hidden><Icon name={icon} weight="regular" size={40} /></span>
+              <span className={o.mcIcon} aria-hidden><Icon name={icon} weight="regular" size={44} /></span>
               {m.kind === 'listen' && <span className={o.mcDisc} aria-hidden><Icon name="play" weight="fill" size={14} /></span>}
-              <Tick on={done} />
+              <Tick on={done} onToggle={onToggle} />
             </>,
             o.mcAlbum,
           )}
@@ -103,9 +118,12 @@ export function MediaCard({ item: m, done, onToggle, onOpen, ornament, frame }: 
           {art(
             <>
               <span className={o.mcMat}>
-                <span className={o.mcCanvas}><Icon name={icon} weight="regular" size={30} /></span>
+                <span className={o.mcCanvas}>
+                  <OrnamentIcon name={ornament} size={36} />
+                  <span className={o.mcArtTitle}>{m.title}</span>
+                </span>
               </span>
-              <Tick on={done} />
+              <Tick on={done} onToggle={onToggle} />
             </>,
             o.mcFramed,
           )}
@@ -113,15 +131,31 @@ export function MediaCard({ item: m, done, onToggle, onOpen, ornament, frame }: 
         </div>
       )
     case 'eat':
-    case 'drink':
       return (
-        <div className={o.mc} data-kind={m.kind}>
+        <div className={o.mc} data-kind="eat">
           {art(
             <>
-              <span className={o.mcIcon} aria-hidden><Icon name={icon} weight="regular" size={36} /></span>
-              <Tick on={done} />
+              <span className={o.mcDish} aria-hidden>
+                <Icon name={icon} weight="regular" size={32} />
+              </span>
+              <Tick on={done} onToggle={onToggle} />
             </>,
-            o.mcPlate,
+            o.mcEatPlate,
+          )}
+          {caption(true, by)}
+        </div>
+      )
+    case 'drink':
+      return (
+        <div className={o.mc} data-kind="drink">
+          {art(
+            <>
+              <span className={o.mcGlass} aria-hidden>
+                <Icon name={icon} weight="regular" size={32} />
+              </span>
+              <Tick on={done} onToggle={onToggle} />
+            </>,
+            o.mcDrinkGlass,
           )}
           {caption(true, by)}
         </div>
@@ -134,7 +168,7 @@ export function MediaCard({ item: m, done, onToggle, onOpen, ornament, frame }: 
               <span className={o.mcAccent} aria-hidden><Icon name={icon} weight="regular" size={24} /></span>
               <span className={o.mcTitle}>{m.title}</span>
               {m.why && <span className={o.mcWhy}>{m.why}</span>}
-              <Tick on={done} light />
+              <Tick on={done} light onToggle={onToggle} />
             </>,
             o.mcText,
           )}
@@ -148,7 +182,15 @@ export function MediaCard({ item: m, done, onToggle, onOpen, ornament, frame }: 
               <span className={o.mcStamp} aria-hidden><Icon name={icon} weight="regular" size={18} /></span>
               <span className={o.mcPostmark} aria-hidden />
               <span className={o.mcPostTitle}>{m.title}</span>
-              <Tick on={done} />
+              <div className={o.mcPostMap} aria-hidden>
+                <svg viewBox="0 0 200 45" preserveAspectRatio="none" className={o.mcPostMapSvg}>
+                  <path d="M0,25 Q40,10 80,22 T160,18 T200,28 L200,45 L0,45 Z" fill="currentColor" opacity="0.18" />
+                  <path d="M0,32 Q50,20 100,30 T200,24 L200,45 L0,45 Z" fill="currentColor" opacity="0.12" />
+                  <line x1="0" y1="20" x2="200" y2="20" stroke="currentColor" strokeDasharray="3 3" opacity="0.15" />
+                  <circle cx="80" cy="22" r="3" fill="var(--onda-accent, var(--accent))" />
+                </svg>
+              </div>
+              <Tick on={done} onToggle={onToggle} />
             </>,
             o.mcPost,
           )}
@@ -162,7 +204,7 @@ export function MediaCard({ item: m, done, onToggle, onOpen, ornament, frame }: 
             <>
               <span className={o.mcTerm}>{m.title}</span>
               {m.meta && <span className={o.mcMeaning}>{m.meta}</span>}
-              <Tick on={done} light />
+              <Tick on={done} light onToggle={onToggle} />
             </>,
             o.mcFlash,
           )}

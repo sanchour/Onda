@@ -125,7 +125,7 @@ export const en = {
   lagos: {
     title: 'Lagos', newLago: 'New Lago', gallery: 'Gallery', today: 'Today', checkedInOf: '{{done}} of {{total}} checked in',
     toCheckIn: 'To Check In', checkedIn: 'Checked In', notToday: 'Not Today', finished: 'Finished', dayMeta: 'Day {{day}} · {{freq}}', finishedMeta: '{{count}} days · Finished', endedMeta: 'Ended on day {{day}}',
-    empty: 'No Lagos yet', emptySub: 'Tap + to start one',
+    empty: 'No Lagos yet', emptySub: 'Start one from Add New in Settings', emptyHere: 'Lagos are small practices you keep for a few weeks, alongside your Onda.', addInSettings: 'Add a Lago',
     menu: { checkIn: 'Check In', undo: 'Undo', edit: 'Edit', end: 'End', restart: 'Restart', extend: 'Extend', share: 'Share', duplicate: 'Duplicate', delete: 'Delete' },
     extended: 'Extended by 7 days', ended: 'Lago ended', restarted: 'Restarted from day 1', duplicated: 'Lago duplicated', deleted: 'Lago deleted', undo: 'Undo',
     shareText: '{{name}}: day {{day}} of {{length}}, {{streak}} day streak. Tracked with Onda.',
@@ -191,6 +191,9 @@ export const en = {
     subtitle: '{{kind}} · {{origin}}', atAGlance: 'At a glance', keyTexts: 'Key texts', previous: 'Previous', next: 'Next', contents: 'Contents',
     readMore: 'Read more', showLess: 'Show less', expandAll: 'Expand all', collapseAll: 'Collapse all', nOf: '{{n}} of {{total}}', openLink: 'Open link',
     count_one: '{{count}} item', count_other: '{{count}} items',
+    noteOfRespect: 'Respect', originMarker: 'Where {{name}} took root', mapTitle: 'Where It Took Root',
+    worldView: 'World view', regionView: 'Regional focus', world: 'World', region: 'Region',
+    mapAria: 'Map of relevant historical locations', placesCount: '{{count}} locations', openMaps: 'Open in Maps',
   },
   reflection: {
     title: 'Reflection', daysOf: '{{count}} days of {{name}}', lookBack: 'Look back before you move on.', checkIns: 'Check Ins', practices: 'Practices', journal: 'Journal',
@@ -227,10 +230,11 @@ export const en = {
 
   settings: {
     title: 'Settings', memberSince: 'Member since {{date}}', yourName: 'Your Name', streak: 'Streak', ondas: 'Ondas', lagos: 'Lagos', version: 'Onda {{v}}',
-    hub: { subscription: 'Subscription', appearance: 'Appearance', notifications: 'Notifications', practice: 'Practice', integrations: 'Integrations', data: 'Data', privacy: 'Privacy', help: 'Help & About' },
+    hub: { add: 'Add New', subscription: 'Subscription', appearance: 'Appearance', notifications: 'Notifications', practice: 'Practice', integrations: 'Integrations', data: 'Data', privacy: 'Privacy', help: 'Help & About' },
+    add: { newOnda: 'New Onda', newOndaSub: 'Shape a world of your own', newLago: 'New Lago', newLagoSub: 'A small practice to keep', browseOndas: 'Browse Ondas', browseLagos: 'Browse Lagos', footer: 'Step into an Onda from the bookshop, or take Lagos from the Gallery: small practices to keep for a few weeks, from every Onda.' },
     plus: { title: 'Ondas+', badgeFree: 'Free trial', badgeTrial_one: 'Trial · {{count}} day', badgeTrial_other: 'Trial · {{count}} days', badgeLife: 'Lifetime', badgeExpired: 'Trial ended', badgeMonthly: 'Monthly', lineFree: '7 days free, then € 2,49 a month or € 24,99 for life.', lineTrial: 'Then € 2,49 a month, or € 24,99 once for life.', lineLife: 'Everything is unlocked. Thank you.', lineMonthly: 'Everything is unlocked. Lifetime is € 24,99, once.', lineExpired: '€ 2,49 a month, or € 24,99 once for life.', ctaFree: 'Start Free Trial', ctaTrial: 'See plans', ctaLife: 'Manage', ctaMonthly: 'Manage' },
     sub: { header: 'Subscription', plan: 'Ondas+', free: 'Free', trial: 'Trial', lifetime: 'Lifetime', expired: 'Trial ended', trialLeft: 'Trial days left', restore: 'Restore Purchase', monthly: 'Monthly', getLifetime: 'Get Lifetime', getMonthly: 'Subscribe monthly', footer: '€ 2,49 a month, which you can cancel any time, or one payment of € 24,99 for life.' },
-    display: { tint: 'Onda background tint', themes: 'Onda themes', footer: 'When enabled, each Onda uses its own color, pattern and type. The tint adds a very light wash of the Onda color behind every screen; turn it off to return to the plain background.', light: 'Light', dark: 'Dark', auto: 'Auto', defaultLength: 'Default Onda length', textSize: 'Text size follows your iPhone setting.' },
+    display: { tint: 'Onda background tint', themes: 'Onda themes', footer: 'When enabled, each Onda uses its own color, pattern and type. The tint adds a very light wash of the Onda color behind every screen; turn it off to return to the plain background.', light: 'Light', dark: 'Dark', auto: 'Auto', defaultLength: 'Default Onda length', lite: 'Light effects', lite_auto: 'Auto', lite_on: 'On', lite_off: 'Off', liteFooter: 'Light effects turn off glass blur, moving emblems and page grain so scrolling stays smooth. Auto turns them on for slower computers.', textSize: 'Text size follows your iPhone setting.' },
     notif: { header: 'Reminders', daily: 'Daily check in', time: 'Time', evening: 'Evening review', eveningTime: 'Evening time', milestones: 'Milestones', footer: 'When enabled, a gentle reminder arrives at the time you choose.', status: 'Notifications', allowed: 'Allowed', denied: 'Blocked in iOS Settings', notAsked: 'Not set up', needsInstall: 'Add to Home Screen first', unsupported: 'Not supported here', enable: 'Turn On Notifications', test: 'Send Test', testSent: 'Test sent' },
     practice: { weekStarts: 'Week starts', monday: 'Monday', sunday: 'Sunday', includeFood: 'Include food', haptics: 'Haptics', sounds: 'Sounds', foodFooter: 'When disabled, dishes and drinks are left out of immersion.' },
     integrations: { header: 'Integrations', reminders: 'Apple Reminders', viaShortcuts: 'Via Shortcuts', calendar: 'Calendar', notion: 'Notion', connected: 'Connected', off: 'Off', subscribed: 'Subscribed', footer: 'Lagos and Onda practices can appear in Reminders, Onda schedules in Calendar, and everything in Notion.', needsAccount: 'Sign in to use integrations', needsBackend: 'Sync server not configured' },

@@ -21,13 +21,12 @@ import { Overlays } from './Overlays'
 import { barChanged, takeResume } from './statusBar'
 
 const Onboarding = lazy(() => import('@/screens/Onboarding'))
-const LagosTab = lazy(() => import('@/screens/LagosTab'))
 const OndasTab = lazy(() => import('@/screens/OndasTab'))
 const StatsTab = lazy(() => import('@/screens/StatsTab'))
 // Desktop only: the sidebar and stage (src/desk). Phones never load it.
 const DeskShell = lazy(() => import('@/desk/DeskShell').then((m) => ({ default: m.DeskShell })))
 
-const TABS: Record<Tab, React.LazyExoticComponent<() => React.ReactNode>> = { lagos: LagosTab, ondas: OndasTab, stats: StatsTab }
+const TABS: Record<Tab, React.LazyExoticComponent<() => React.ReactNode>> = { ondas: OndasTab, stats: StatsTab }
 
 function Tabs() {
   const soulLook = useLook(useOndaIndex(useActiveRun()?.ondaId))
@@ -61,7 +60,6 @@ function Tabs() {
         <TabBar<Tab>
           items={[
             { key: 'ondas', icon: 'waves', label: t('tabs.ondas'), art: soulTab },
-            { key: 'lagos', icon: 'wave-soft', label: t('tabs.lagos') },
             { key: 'stats', icon: 'chart-bar', label: t('tabs.stats') },
           ]}
           activeKey={tab}
@@ -223,7 +221,9 @@ export function App() {
     const resume = takeResume()
     if (resume) useNav.getState().restore(resume.tab, resume.stack.filter((r) => r.name in ROUTES))
     const tab = q.get('tab')
-    if (tab === 'lagos' || tab === 'ondas' || tab === 'stats') useNav.getState().setTab(tab)
+    // 8.0: Lagos live on the Ondas tab
+    if (tab === 'lagos' || tab === 'ondas') useNav.getState().setTab('ondas')
+    else if (tab === 'stats') useNav.getState().setTab(tab)
     // Returning from Notion's consent page or from Stripe Checkout
     if (q.get('notion')) {
       const ok = q.get('notion') === 'connected'

@@ -15,7 +15,8 @@ import { Cover, GroupedList, PlanList, Row, SearchField, SectionHeader, Shortcut
 import c from './onda7/onda7.module.css'
 import { EmblemArt } from './emblems'
 import { OrnamentIcon } from './KindArt'
-import { guardCreateOnda, useActiveOnda, useRunToday } from './ondaShared'
+import { LagosSection } from './LagosSection'
+import { useActiveOnda, useRunToday } from './ondaShared'
 import s from './screens.module.css'
 
 /** Ondas tab: the running Onda's cover, a glass row of shortcuts, Today's plan by time of day, then the quote. */
@@ -34,7 +35,7 @@ export default function OndasTab() {
 
 function PhoneOndasTab() {
   const { t } = useTranslation()
-  const { push, openSheet } = useNav()
+  const push = useNav((n) => n.push)
   const active = useActiveOnda()
   const settings = useSettings()
   const done = useRunToday(active?.run.id)
@@ -46,7 +47,6 @@ function PhoneOndasTab() {
         {t('ondas.title')}
       </h1>
       <div className={s.actions}>
-        <GlassButton icon="plus" prominent ariaLabel={t('ondas.newOnda')} onClick={() => guardCreateOnda(t) && openSheet({ name: 'createOnda' })} />
         <GlassButton icon="compass" ariaLabel={t('ondas.browse')} onClick={() => push({ name: 'allOndas' })} />
         <GlassButton icon="gear-six" ariaLabel={t('a11y.settings')} onClick={() => push({ name: 'settings' })} />
       </div>
@@ -66,6 +66,7 @@ function PhoneOndasTab() {
             </Button>
           </div>
         </div>
+        <LagosSection />
       </Screen>
     )
   }
@@ -135,7 +136,6 @@ function PhoneOndasTab() {
           onToggle={(id) => togglePractice(run.id, id)}
           runId={run.id}
           info={{ ondaId: run.ondaId, style: look.vars, onda: settings.ondaThemes ? run.ondaId : undefined }}
-          footer={plan.length ? t('onda.holdHint') : undefined}
         />
 
         {rules.length > 0 && (
@@ -143,6 +143,8 @@ function PhoneOndasTab() {
             <Row icon="scales" title={t('ondas.rules')} value={t('ondas.rulesKept', { done: kept, total: rules.length })} chevron onClick={() => push({ name: 'rules' })} />
           </GroupedList>
         )}
+
+        <LagosSection />
 
       </div>
     </Screen>

@@ -23,7 +23,7 @@ const page = await ctx.newPage()
 page.on('pageerror', (e) => console.log('PAGEERROR', String(e).slice(0, 300)))
 page.on('console', (m) => m.type() === 'error' && console.log('CONSOLE', m.text().slice(0, 200)))
 const shot = (n) => page.screenshot({ path: path.join(out, `${desk ? 'desk' : 'phone'}-${scheme}-${n}.png`), scale: 'css' })
-const click = async (loc) => { await loc.first().click({ timeout: 8000 }); await sleep(1200) }
+const click = async (loc) => { await loc.first().click({ timeout: 8000 }); await sleep(3500) }
 const btn = (name, exact = true) => page.getByRole('button', { name, exact })
 const back = () => click(btn('Back'))
 const scroll = async (y) => { await page.evaluate((y) => { const panes = [...document.querySelectorAll('.scroll')].filter((e) => e.getBoundingClientRect().width > 0 && e.scrollHeight > e.clientHeight); panes.at(-1)?.scrollBy(0, y) }, y); await sleep(700) }

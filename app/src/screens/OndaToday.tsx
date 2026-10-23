@@ -161,7 +161,7 @@ function PhoneOndaToday({ entry }: { entry: Extract<StackEntry, { name: 'onda' }
       {!live && (
         <>
           <SectionHeader title={t('onda.practices')} meta={`${pCount}/${plan.length}`} open={open('p')} onToggle={fold('p')} />
-          {open('p') && <PlanList plan={plan} done={pSet} onToggle={(id) => flip(id)} runId={undefined} info={info} footer={t('onda.holdHint')} />}
+          {open('p') && <PlanList plan={plan} done={pSet} onToggle={(id) => flip(id)} runId={undefined} info={info} />}
 
           {content.rules.length > 0 && (
             <>

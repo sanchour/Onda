@@ -21,7 +21,6 @@ export function useWindowTitle(skip: boolean) {
     const ondaName = (id: string) => ondas.find((o) => o.id === id)?.name ?? ''
     const running = active ? { id: active.run.ondaId, label: t('power.title.onda', { name: active.index?.name ?? active.run.snapshot?.name ?? '', day: active.day }) } : undefined
     if (!top) {
-      if (tab === 'lagos') return t('tabs.lagos')
       if (tab === 'stats') return t('tabs.stats')
       return running?.label ?? t('desk.today')
     }

@@ -10,6 +10,7 @@ import { useStore } from '@/data/store'
 import type { Settings as SettingsT } from '@/data/types'
 import { fmtAgo, fmtDate, toDateStr } from '@/lib/dates'
 import { useDesk } from '@/lib/desk'
+import { setLiteMode, useLiteMode } from '@/lib/lite'
 import { downloadJson, isStandalone } from '@/lib/platform'
 import { BackButton, Screen } from '@/nav/Screen'
 import { useNav, type SettingsPage, type StackEntry } from '@/nav/store'
@@ -22,12 +23,16 @@ import { Avatar } from '@/ui/data'
 import { Icon } from '@/ui/Icon'
 import { ListRow, ListSection } from '@/ui/lists'
 import { DayScroller } from '@/ui/pickers'
+import { OrnamentIcon } from './KindArt'
+import { guardNewLago } from './lagoActions'
+import c from './onda7/onda7.module.css'
+import { guardCreateOnda, OrnDivider, useOndaScope } from './ondaShared'
 import m from './more.module.css'
 import s from './screens.module.css'
 
-const APP_VERSION = '7.2'
+const APP_VERSION = '8.0'
 const BUILD = '1'
-const HUB: [string, SettingsPage][] = [['seal-check', 'subscription'], ['paint-brush', 'appearance'], ['arrows-clockwise', 'integrations'], ['database', 'data'], ['question', 'help']]
+const HUB: [string, SettingsPage][] = [['plus-circle', 'add'], ['seal-check', 'subscription'], ['paint-brush', 'appearance'], ['arrows-clockwise', 'integrations'], ['database', 'data'], ['question', 'help']]
 // The desktop split view is its own chunk: phones never load it.
 const DeskSettings = lazy(() => import('@/desk/settings/DeskSettings'))
 
@@ -57,6 +62,8 @@ export default function Settings({ entry }: { entry: Extract<StackEntry, { name:
   const account = useQuery({ queryKey: ['account'], queryFn: accountInfo, enabled: backendConfigured, staleTime: 60_000 }).data
   const confirm = useConfirm()
   const desk = useDesk()
+  const scope = useOndaScope()
+  const lite = useLiteMode()
   const page = entry.page
   const fileRef = useRef<HTMLInputElement>(null)
   const importFile = async (file: File | undefined) => {
@@ -82,6 +89,7 @@ export default function Settings({ entry }: { entry: Extract<StackEntry, { name:
   const tier = plus.tier === 'lifetime' ? t('settings.sub.lifetime') : plus.tier === 'monthly' ? t('settings.sub.monthly') : plus.tier === 'trial' ? t('settings.sub.trial') : plus.tier === 'expired' ? t('settings.sub.expired') : t('settings.sub.free')
   const onCount = (integrations?.notion.connected ? 1 : 0) + (integrations?.calendar.lastFetchedAt ? 1 : 0) + (integrations?.reminders.lastFetchedAt ? 1 : 0)
   const hubValue: Record<SettingsPage, string> = {
+    add: '',
     subscription: tier,
     appearance: t(`settings.display.${settings.themeMode}`),
     integrations: onCount ? String(onCount) : '',
@@ -102,6 +110,27 @@ export default function Settings({ entry }: { entry: Extract<StackEntry, { name:
   }
 
   const pages: Record<SettingsPage, React.ReactNode> = {
+    // 8.0: everything you can add lives here: a new Onda or Lago, the bookshop of Ondas and the Gallery of Lagos
+    add: (
+      <div className={m.add}>
+        <div className={m.addGrid}>
+          <button type="button" className={m.addTile} data-frame={scope?.look.layout === 'frame' || undefined} onClick={() => guardCreateOnda(t) && openSheet({ name: 'createOnda' })}>
+            <span className={m.addIcon} aria-hidden>{scope?.themed ? <OrnamentIcon name={scope.look.ornament} size={26} /> : <Icon name="waves" weight="regular" size={26} />}</span>
+            <span className={m.addTitle}>{t('settings.add.newOnda')}</span>
+            <span className={m.addSub}>{t('settings.add.newOndaSub')}</span>
+          </button>
+          <button type="button" className={m.addTile} data-frame={scope?.look.layout === 'frame' || undefined} onClick={() => guardNewLago(t) && openSheet({ name: 'lagoForm' })}>
+            <span className={m.addIcon} aria-hidden><Icon name="wave-soft" weight="regular" size={26} /></span>
+            <span className={m.addTitle}>{t('settings.add.newLago')}</span>
+            <span className={m.addSub}>{t('settings.add.newLagoSub')}</span>
+          </button>
+        </div>
+        <ListSection footer={t('settings.add.footer')}>
+          <ListRow icon="compass" title={t('settings.add.browseOndas')} onClick={() => push({ name: 'allOndas' })} />
+          <ListRow icon="squares-four" title={t('settings.add.browseLagos')} onClick={() => push({ name: 'gallery' })} />
+        </ListSection>
+      </div>
+    ),
     subscription: (
       <div className={m.gap28}>
         <ListSection header={t('settings.sub.header')} footer={t('settings.sub.footer')}>
@@ -134,6 +163,13 @@ export default function Settings({ entry }: { entry: Extract<StackEntry, { name:
             <ListRow icon="drop" title={t('settings.display.tint')} {...sw('ondaTint')} />
           </ListSection>
         </div>
+        <div className={m.rulerCard} style={{ marginTop: 28 }}>
+          <div className={m.rulerTitle}>{t('settings.display.lite')}</div>
+          <div style={{ padding: '4px 16px 14px' }}>
+            <SegmentedControl options={(['auto', 'on', 'off'] as const).map((v) => ({ value: v, label: t(`settings.display.lite_${v}`) }))} value={lite} onChange={setLiteMode} fullWidth ariaLabel={t('settings.display.lite')} />
+          </div>
+        </div>
+        <p className={m.liteNote}>{t('settings.display.liteFooter')}</p>
       </>
     ),
     integrations: (
@@ -235,10 +271,12 @@ export default function Settings({ entry }: { entry: Extract<StackEntry, { name:
   }
 
   return (
-    <Screen chrome={<BackButton onClick={pop} />}>
+    <Screen chrome={<BackButton onClick={pop} />} style={scope?.look.vars} dataOnda={scope?.themed ? scope.props['data-onda'] : undefined}>
+      <div className={scope?.themed ? c.home : undefined}>
       <div className={s.titleRow} style={{ padding: '0 20px' }}>
         <h1 className={s.largeTitle}>{page ? t(`settings.hub.${page}`) : t('settings.title')}</h1>
       </div>
+      {scope?.themed && <OrnDivider look={scope.look} />}
       {page ? (
         pages[page]
       ) : (
@@ -273,9 +311,14 @@ export default function Settings({ entry }: { entry: Extract<StackEntry, { name:
             </span>
           </button>
 
+          <section className={m.gap28} aria-labelledby="set-add">
+            <h2 id="set-add" className={m.addHead}>{t('settings.hub.add')}</h2>
+            {pages.add}
+          </section>
+
           <div className={m.gap28}>
             <ListSection>
-              {HUB.map(([icon, key]) => (
+              {HUB.filter(([, key]) => key !== 'add').map(([icon, key]) => (
                 <ListRow key={key} icon={icon} title={t(`settings.hub.${key}`)} value={hubValue[key]} onClick={() => push({ name: 'settings', page: key })} />
               ))}
             </ListSection>
@@ -284,6 +327,7 @@ export default function Settings({ entry }: { entry: Extract<StackEntry, { name:
           <div className={m.version}>{t('settings.version', { v: APP_VERSION })}</div>
         </>
       )}
+      </div>
     </Screen>
   )
 }

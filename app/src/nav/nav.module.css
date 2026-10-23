@@ -96,3 +96,6 @@
 :global(html[data-desk]) .frost{height:80px}
 :global(html[data-desk]) .frost[data-tabs]{height:136px}
 :global(html[data-desk]) .padGlass{padding-top:132px;padding-bottom:64px}
+/* Light effects: the page grain (an SVG noise tile) goes, the plain paper stays */
+:global(html[data-lite]) .bgGrouped{background:var(--surface-grouped)}
+:global(html[data-lite]) .bgPage{background:var(--surface-page)}

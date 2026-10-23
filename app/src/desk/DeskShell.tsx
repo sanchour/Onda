@@ -18,12 +18,11 @@ import { SyncPill } from './SyncPill'
 
 const DeskOverlays = lazy(() => import('./Overlays'))
 
-type Section = 'home' | 'browse' | 'lagos' | 'stats' | 'settings' | 'link'
+type Section = 'home' | 'browse' | 'stats' | 'settings' | 'link'
 
 const SECTIONS: { key: Exclude<Section, 'settings' | 'link'>; icon: string; label: string; tab: Tab; routes?: Route[] }[] = [
   { key: 'home', icon: 'sun-horizon', label: 'desk.today', tab: 'ondas' },
   { key: 'browse', icon: 'compass', label: 'desk.browse', tab: 'ondas', routes: [{ name: 'allOndas' }] },
-  { key: 'lagos', icon: 'wave-soft', label: 'tabs.lagos', tab: 'lagos' },
   { key: 'stats', icon: 'chart-bar', label: 'tabs.stats', tab: 'stats' },
 ]
 
@@ -38,7 +37,7 @@ function useSection(): Section {
   return tab === 'ondas' ? 'home' : tab
 }
 
-/** Soft fields of the Onda's colour drifting behind glass, its pattern as a faint texture, and paper grain. */
+/** The Onda's colour as still light behind the glass, its pattern as a faint texture, and paper grain. */
 function Ambient() {
   const run = useActiveRun()
   const index = useOndaIndex(run?.ondaId)
@@ -48,9 +47,6 @@ function Ambient() {
   const style = (on ? { '--amb-a': look.strong, '--amb-b': look.solid, '--amb-cover': look.cover } : {}) as CSSProperties
   return (
     <div className={d.ambient} style={style} data-on={on ? '' : undefined} aria-hidden>
-      <i className={d.fieldA} />
-      <i className={d.fieldB} />
-      <i className={d.fieldC} />
       {on && <div className={d.pattern} />}
       <div className={d.grain} />
     </div>

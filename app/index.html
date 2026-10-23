@@ -79,6 +79,11 @@
         root.style.colorScheme = d ? 'dark' : 'light';
         // desktop layout (src/lib/desk.ts): known before the first paint so the phone layout never flashes
         if (matchMedia('(min-width: 1100px)').matches) root.dataset.desk = '1';
+        // light effects (src/lib/lite.ts), by the same rules: chosen, or a desktop with few cores, little memory or slow frames seen
+        try {
+          var lm = localStorage.getItem('onda.lite'), nv = navigator;
+          if (lm === 'on' || (lm !== 'off' && root.dataset.desk && ((nv.hardwareConcurrency || 8) <= 4 || (nv.deviceMemory || 8) <= 4 || localStorage.getItem('onda.liteSeen') === '1'))) root.dataset.lite = '1';
+        } catch (e) {}
       })();
     </script>
   </head>

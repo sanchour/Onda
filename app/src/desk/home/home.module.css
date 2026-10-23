@@ -299,3 +299,7 @@
   .wrap{gap:32px}
   .heroBody{max-width:min(620px,62%)}
 }
+
+/* 8.0: Lagos under the invitation when no Onda runs */
+.emptyLagos{width:min(880px,100%);margin:40px auto 0}
+:global(html[data-lite]) .days i[data-now]::after{animation:none;display:none}

@@ -161,7 +161,7 @@ function ServiceWorkerBridge() {
       }
       if (action !== 'checkin') return
       const lago = st.lagos.find((l) => l.id === lagoId && !l.deletedAt && lagoPhase(l, st.today) === 'active')
-      n.popToRoot('lagos')
+      n.popToRoot('ondas')
       if (lago) n.openSheet({ name: 'checkin', lagoId: lago.id })
     }
     const q = new URLSearchParams(location.search)

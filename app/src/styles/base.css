@@ -91,3 +91,6 @@ html[data-desk]{font-size:16px}
 html[data-desk] body{-webkit-user-select:text;user-select:text}
 html[data-desk] button,html[data-desk] [role="button"],html[data-desk] [role="tab"]{-webkit-user-select:none;user-select:none}
 html[data-desk] .scroll{scrollbar-width:thin;scrollbar-color:color-mix(in srgb,var(--label) 20%,transparent) transparent}
+
+/* Light effects (lib/lite.ts): no fixed blur anywhere, including the desktop's own panels and scrims */
+html[data-lite] *,html[data-lite] *::before,html[data-lite] *::after{-webkit-backdrop-filter:none !important;backdrop-filter:none !important}

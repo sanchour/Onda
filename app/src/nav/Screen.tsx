@@ -46,12 +46,15 @@ function markScrolled(e: React.UIEvent<HTMLDivElement>) {
   }
 }
 
+/** The custom properties in `style` (an Onda's --onda-*) also reach the chrome, header and overlays beside the pane. */
+const varsOf = (style?: CSSProperties) => (style ? (Object.fromEntries(Object.entries(style).filter(([k]) => k.startsWith('--'))) as CSSProperties) : undefined)
+
 const PAD = { root: s.padRoot, page: s.padPage, cta: s.padPageCta, hero: s.padHero, bare: '', glass: s.padGlass }
 
 /** Page scaffold: one scroll pane, floating chrome above it, optional fixed bottom actions. Safe areas handled here. */
 export function Screen({ variant = 'page', bg = 'grouped', chrome, head, overlay, bottom, bottomRow, children, style, scrollRef, dataOnda, desk }: ScreenProps) {
   return (
-    <div className={`${s.screen} ${bg === 'page' ? s.bgPage : s.bgGrouped}`}>
+    <div className={`${s.screen} ${bg === 'page' ? s.bgPage : s.bgGrouped}`} style={varsOf(style)}>
       <div ref={scrollRef} className={`scroll ${s.pane} ${PAD[variant]}`} style={style} data-onda={dataOnda} data-desk-w={desk} onScroll={markScrolled}>
         {children}
       </div>

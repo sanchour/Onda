@@ -45,14 +45,13 @@ describe('6.0: an Onda’s twenty practices and thirty Immerse practices', () =>
     expect(new Set(c.immersePlan.map((e) => e.name)).size).toBe(30)
   })
 
-  it.each(v6)('%s gives five different practices every day: Immerse first, then four from the day, never the same split two days running', (_id, c) => {
-    let last = ''
+  it.each(v6)('%s gives four different practices every day: Immerse first, then three from the day', (_id, c) => {
     for (let d = 1; d <= 30; d++) {
       const plan = planForDay(c, d)
-      expect(plan, `day ${d}`).toHaveLength(5)
+      expect(plan, `day ${d}`).toHaveLength(4)
       expect(plan[0]!.kind, `day ${d}`).toBe('immerse')
       expect(plan.slice(1).every((p) => p.kind === 'practice')).toBe(true)
-      expect(new Set(plan.map((p) => p.id)).size).toBe(5)
+      expect(new Set(plan.map((p) => p.id)).size).toBe(4)
       const rest = plan.slice(1)
       const times = rest.map((p) => p.time)
       expect([...times].sort(), `day ${d} is in clock order`).toEqual(times)
@@ -61,9 +60,7 @@ describe('6.0: an Onda’s twenty practices and thirty Immerse practices', () =>
       if (d % 5 === 0) expect(special, `day ${d}`).toBe(1)
       else {
         expect(special, `day ${d}`).toBe(0)
-        expect(['211', '121', '112']).toContain(shape)
-        expect(shape, `day ${d}`).not.toBe(last)
-        last = shape
+        expect(shape).toBe('111')
       }
     }
   })

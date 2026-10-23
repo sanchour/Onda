@@ -4,8 +4,9 @@ import type { GalleryLago } from '@/data/catalog'
 import type { AchievementKey } from '@/data/derive/achievements'
 import type { MenuSpec } from '@/ui/Menu'
 
-export type Tab = 'lagos' | 'ondas' | 'stats'
-export type SettingsPage = 'subscription' | 'appearance' | 'integrations' | 'data' | 'help'
+/** 8.0: Lagos live on the Ondas tab. */
+export type Tab = 'ondas' | 'stats'
+export type SettingsPage = 'add' | 'subscription' | 'appearance' | 'integrations' | 'data' | 'help'
 
 /** Pushed, full-screen pages. They slide in from the right and support edge-swipe back. */
 export type Route =

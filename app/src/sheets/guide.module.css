@@ -49,6 +49,18 @@ button.foldBtn:active{opacity:.75}
 .note svg{flex:none;margin-top:2px;color:var(--onda-text)}
 .note b{display:block;font:600 var(--fs-15) var(--font-sans);margin-bottom:2px}
 
+/* Expandable Note of respect widget */
+.noteWidget{margin-top:14px;border-radius:var(--onda-radius,20px);background:color-mix(in srgb,var(--onda-solid,var(--surface-card)) 55%,var(--surface-card));border:1px solid color-mix(in srgb,var(--onda-accent,var(--accent)) 22%,transparent);overflow:hidden;transition:background .2s,border-color .2s}
+.noteWidgetHead{display:flex;align-items:center;gap:10px;width:100%;padding:11px 15px;text-align:start;font:600 var(--fs-15) var(--font-sans);color:var(--label);background:none;border:none}
+.noteWidgetHead:active{opacity:.8}
+.noteWidgetHead svg{color:var(--onda-text,var(--accent));flex:none}
+.noteWidgetTitle{flex:1;min-width:0;display:flex;align-items:center;gap:8px}
+.noteWidgetBadge{font:600 var(--fs-11) var(--font-sans);letter-spacing:.06em;text-transform:uppercase;padding:2px 7px;border-radius:999px;background:color-mix(in srgb,var(--onda-accent,var(--accent)) 14%,transparent);color:var(--onda-text,var(--accent))}
+.noteWidgetCaret{flex:none;display:flex;color:var(--label-tertiary);transition:transform .22s var(--ease-enter)}
+.noteWidget[data-open] .noteWidgetCaret{transform:rotate(180deg)}
+.noteWidgetBody{padding:0 16px 14px 44px;font:400 var(--fs-14)/1.45 var(--font-sans);color:var(--label-secondary);border-top:.5px solid color-mix(in srgb,var(--onda-accent,var(--accent)) 15%,transparent);padding-top:10px}
+.noteWidgetBody p{margin:0}
+
 .figures{padding:0 16px;margin:0 -16px;scroll-padding:0 16px}
 
 /* ── Deck (carousel) ─────────────────────────────────────── */
@@ -180,7 +192,7 @@ button.foldBtn:active{opacity:.75}
 .wkMore{display:inline-flex;align-items:center;gap:5px;min-height:44px;font:500 var(--fs-16) var(--font-sans);color:var(--onda-text,var(--accent))}
 /* infobox: a band in the cover's material, then key and value rows */
 .wkBox{margin:22px 16px 0;overflow:hidden;border-radius:calc(var(--onda-r,30px) * .73);background:var(--surface-card);box-shadow:0 1px 2px rgba(0,0,0,.04)}
-.wkBoxHead{padding:13px 16px;text-align:center;font:600 var(--fs-16)/1.2 var(--onda-font,var(--font-serif));letter-spacing:.06em;text-transform:uppercase;
+.wkBoxHead{padding:14px 18px;text-align:start;font:600 var(--fs-18)/1.25 var(--onda-font,var(--font-serif));letter-spacing:.06em;text-transform:uppercase;
   background:var(--onda-cover,var(--accent));color:var(--onda-cover-ink,#fff)}
 .wkBox dl{margin:0;padding:0 16px}
 .wkBoxRow{display:flex;justify-content:space-between;gap:18px;padding:12px 0}
@@ -194,17 +206,23 @@ button.foldBtn:active{opacity:.75}
 .wkQuote figcaption{margin-top:12px;font:400 var(--fs-12)/1.3 var(--onda-font,var(--font-serif));letter-spacing:.1em;text-transform:uppercase;color:var(--label-secondary)}
 /* numbered chapters */
 .wkSec{padding-top:34px;content-visibility:auto;contain-intrinsic-size:auto 520px}
-.wkH2{display:flex;align-items:baseline;gap:12px;margin:0 20px 16px;padding-bottom:10px;border-bottom:.5px solid var(--label-quaternary);
-  font:600 var(--fs-20)/1.2 var(--onda-font,var(--font-serif));letter-spacing:.06em;text-transform:var(--onda-case,none);color:var(--label)}
-.wkNum{min-width:22px;font:400 var(--fs-14)/1 var(--onda-font,var(--font-serif));letter-spacing:0;color:var(--onda-text,var(--accent))}
+.wkH2{display:flex;align-items:center;justify-content:space-between;margin:0 20px 16px;padding-bottom:10px;border-bottom:.5px solid var(--label-quaternary);
+  font:600 var(--fs-26)/1.2 var(--onda-font,var(--font-serif));letter-spacing:.03em;text-transform:var(--onda-case,none);color:var(--label)}
+.wkH2Title{display:flex;align-items:baseline;gap:12px;min-width:0}
+.wkH2Action{flex:none;width:34px;height:34px;border-radius:10px;display:flex;align-items:center;justify-content:center;color:var(--onda-text,var(--accent));background:color-mix(in srgb,var(--onda-accent,var(--accent)) 12%,transparent);transition:background .2s,transform .15s}
+.wkH2Action:active{transform:scale(.92);background:color-mix(in srgb,var(--onda-accent,var(--accent)) 22%,transparent)}
+.wkNum{min-width:24px;font:500 var(--fs-16)/1 var(--onda-font,var(--font-serif));letter-spacing:0;color:var(--onda-text,var(--accent))}
 .wkSub{margin-top:24px}
-.wkH3{margin:0 20px 10px;font:600 var(--fs-13)/1.3 var(--font-sans);letter-spacing:.06em;text-transform:uppercase;color:var(--label-secondary)}
+.wkH3{display:flex;align-items:center;justify-content:space-between;margin:0 20px 12px;font:600 var(--fs-16)/1.3 var(--font-sans);letter-spacing:.05em;text-transform:uppercase;color:var(--label-secondary)}
+.wkH3Title{display:flex;align-items:center;gap:8px}
+.wkH3Action{flex:none;width:28px;height:28px;border-radius:8px;display:flex;align-items:center;justify-content:center;color:var(--onda-text,var(--accent));background:color-mix(in srgb,var(--onda-accent,var(--accent)) 10%,transparent);transition:background .2s,transform .15s}
+.wkH3Action:active{transform:scale(.92)}
 .wkTag{display:inline-block;margin-top:6px;font:500 var(--fs-12) var(--font-sans);color:var(--label-tertiary)}
 .wkCard{margin:0 16px;padding:18px 18px 16px;border-radius:calc(var(--onda-r,30px) * .73);background:var(--surface-card);box-shadow:0 1px 2px rgba(0,0,0,.04)}
 .wkCardKicker{display:block;font:500 var(--fs-13)/1.2 var(--onda-font,var(--font-serif));letter-spacing:.08em;text-transform:uppercase;color:var(--onda-text,var(--accent))}
-.wkCardTitle{margin:6px 0 0;font:500 var(--fs-22)/1.25 var(--font-serif);color:var(--label);text-wrap:balance}
+.wkCardTitle{margin:6px 0 0;font:500 var(--fs-24)/1.25 var(--font-serif);color:var(--label);text-wrap:balance}
 .wkCardText{margin:10px 0 0;font:400 var(--fs-15)/1.5 var(--font-sans);color:var(--label-secondary);text-wrap:pretty}
-.wkTerm{margin:0;font:500 var(--fs-22)/1.2 var(--onda-font,var(--font-serif));letter-spacing:var(--onda-track,0);text-transform:var(--onda-case,none);color:var(--onda-text,var(--accent))}
+.wkTerm{margin:0;font:500 var(--fs-24)/1.2 var(--onda-font,var(--font-serif));letter-spacing:var(--onda-track,0);text-transform:var(--onda-case,none);color:var(--onda-text,var(--accent))}
 .wkSerif{margin:8px 0 0;font:500 var(--fs-18)/1.4 var(--font-serif);color:var(--label);text-wrap:pretty}
 /* I People */
 .wkPeople{display:flex;gap:12px;padding:0 16px 24px;margin-bottom:-24px;scroll-snap-type:x proximity;scroll-padding:0 16px}
@@ -305,3 +323,83 @@ button.foldBtn:active{opacity:.75}
 .wkToc{position:sticky;top:76px;max-height:calc(100vh - 120px);overflow-y:auto}
 :global(html[data-desk]) .wkTop{padding-top:76px}
 :global(html[data-desk]) .wk{max-width:820px;padding-bottom:64px}
+
+/* ── Minimal iOS Tab indicator under cards ── */
+.iosTabs{display:flex;align-items:center;justify-content:center;gap:6px;padding:12px 0 6px}
+.iosTabDot{height:6px;width:6px;border-radius:999px;background:color-mix(in srgb,var(--label) 18%,transparent);transition:width .25s var(--ease-enter),background .25s}
+.iosTabDot[data-near]{width:8px;background:color-mix(in srgb,var(--label) 35%,transparent)}
+.iosTabDot[data-active]{width:22px;background:var(--onda-accent,var(--accent))}
+
+/* ── Horizontal swipable cards (Ideas, Think about, Ethics, Practices, Rules, Words, Glossary) ── */
+.wkSwipeCards{display:flex;gap:12px;padding:0 16px 16px;scroll-snap-type:x proximity;scroll-padding:0 16px}
+.wkConceptCard{flex:none;width:280px;scroll-snap-align:start;padding:18px 20px;border-radius:calc(var(--onda-r,30px) * .73);background:var(--surface-card);box-shadow:0 1px 2px rgba(0,0,0,.04);display:flex;flex-direction:column;gap:8px}
+.wkCardHead{display:flex;align-items:baseline;justify-content:space-between;gap:10px}
+.wkConceptNum{font:400 var(--fs-14)/1 var(--onda-font,var(--font-serif));color:var(--onda-text,var(--accent))}
+.wkThinkCard{flex:none;width:290px;scroll-snap-align:start;padding:18px 20px;border-radius:calc(var(--onda-r,30px) * .73);background:var(--surface-card);box-shadow:0 1px 2px rgba(0,0,0,.04);display:flex;flex-direction:column;gap:10px}
+.wkThinkTitle{margin:0;font:600 var(--fs-18)/1.25 var(--onda-font,var(--font-serif));color:var(--label);text-wrap:pretty}
+.wkPracticeCard{flex:none;width:285px;scroll-snap-align:start;padding:18px 20px;border-radius:calc(var(--onda-r,30px) * .73);background:var(--surface-card);box-shadow:0 1px 2px rgba(0,0,0,.04);display:flex;flex-direction:column;gap:10px}
+.wkPracticeHead{display:flex;align-items:center;gap:10px}
+.wkPracticeIcon{flex:none;width:34px;height:34px;border-radius:10px;display:flex;align-items:center;justify-content:center;background:color-mix(in srgb,var(--onda-accent,var(--accent)) 12%,transparent);color:var(--onda-text,var(--accent))}
+.wkPracticeTitle{margin:0;font:600 var(--fs-17)/1.25 var(--font-sans);color:var(--label)}
+.wkPracticeSub{font:400 var(--fs-13)/1.3 var(--font-sans);color:var(--label-secondary)}
+.wkPracticeWhy{font:400 var(--fs-14)/1.45 var(--font-sans);color:var(--label-secondary);margin:0}
+.wkRuleCard{flex:none;width:270px;scroll-snap-align:start;padding:18px 20px;border-radius:calc(var(--onda-r,30px) * .73);background:var(--surface-card);box-shadow:0 1px 2px rgba(0,0,0,.04);display:flex;flex-direction:column;gap:8px}
+.wkRuleNum{font:400 var(--fs-16)/1 var(--onda-font,var(--font-serif));color:var(--onda-text,var(--accent))}
+.wkRuleText{margin:0;font:600 var(--fs-17)/1.35 var(--font-serif);color:var(--label);text-wrap:pretty}
+.wkRuleWhy{margin:0;font:400 var(--fs-14)/1.4 var(--font-sans);color:var(--label-secondary)}
+.wkGlossCard{flex:none;width:250px;scroll-snap-align:start;padding:16px 18px;border-radius:calc(var(--onda-r,30px) * .73);background:var(--surface-card);box-shadow:0 1px 2px rgba(0,0,0,.04);display:flex;flex-direction:column;gap:6px}
+.wkGlossTerm{font:600 var(--fs-18)/1.2 var(--onda-font,var(--font-serif));color:var(--onda-text,var(--accent))}
+.wkGlossMeaning{font:400 var(--fs-14)/1.4 var(--font-sans);color:var(--label)}
+
+/* ── Culture horizontal scroll for medium widgets ── */
+.wkCultureMedia{display:flex;gap:14px;padding:0 16px 20px;scroll-snap-type:x proximity;scroll-padding:0 16px}
+
+/* ── Map Widget (between At a Glance and Quote) ── */
+.mapWidget{margin:22px 16px 0;border-radius:calc(var(--onda-r,30px) * .73);background:var(--surface-card);box-shadow:0 1px 2px rgba(0,0,0,.04);overflow:hidden;border:1px solid color-mix(in srgb,var(--label) 8%,transparent)}
+.mapWidgetHead{display:flex;align-items:center;justify-content:space-between;padding:12px 16px;border-bottom:.5px solid var(--separator)}
+.mapWidgetTitle{display:flex;align-items:center;gap:8px;font:600 var(--fs-13)/1 var(--font-sans);letter-spacing:.06em;text-transform:uppercase;color:var(--label)}
+.mapWidgetTitle svg{color:var(--onda-text,var(--accent))}
+.mapViewBtn{display:inline-flex;align-items:center;gap:5px;padding:4px 10px;border-radius:999px;font:500 var(--fs-12) var(--font-sans);color:var(--onda-text,var(--accent));background:color-mix(in srgb,var(--onda-accent,var(--accent)) 10%,transparent);border:none;transition:background .2s}
+.mapViewBtn:active{background:color-mix(in srgb,var(--onda-accent,var(--accent)) 20%,transparent)}
+.mapSvgWrapper{position:relative;width:100%;aspect-ratio:2/1;background:color-mix(in srgb,var(--onda-cover,var(--surface-grouped)) 25%,var(--surface-grouped));overflow:hidden}
+.mapSvg{width:100%;height:100%;display:block}
+.mapOcean{fill:color-mix(in srgb,var(--surface-grouped) 80%,var(--onda-solid,var(--surface-card)))}
+.mapGrid line{stroke:color-mix(in srgb,var(--label) 14%,transparent);stroke-width:.75}
+.mapLand path{fill:color-mix(in srgb,var(--onda-cover,var(--label)) 20%,var(--surface-card));stroke:color-mix(in srgb,var(--onda-cover,var(--label)) 30%,transparent);stroke-width:.8}
+.mapPin{cursor:pointer;outline:none;transition:transform .2s var(--ease-enter)}
+.mapPin:hover,.mapPin:focus{transform:translate(0,-2px)}
+.mapPinShadow{fill:rgba(0,0,0,.25)}
+.mapPinBody{fill:var(--onda-accent,var(--accent));transition:fill .2s}
+.mapPinOrigin{fill:var(--onda-deep,var(--accent));stroke:#fff;stroke-width:1}
+.mapPinDot{fill:#fff}
+.mapPulse{fill:color-mix(in srgb,var(--onda-accent,var(--accent)) 30%,transparent);animation:mapPulse 1.8s infinite ease-out}
+@keyframes mapPulse{0%{r:8px;opacity:1}100%{r:20px;opacity:0}}
+.mapPinLabel{font:600 11px/1 var(--font-sans);fill:var(--label);paint-order:stroke;stroke:var(--surface-card);stroke-width:3px;stroke-linejoin:round}
+.mapInfoCard{display:flex;align-items:flex-start;gap:12px;padding:13px 16px;background:var(--surface-card);border-top:.5px solid var(--separator)}
+.mapInfoIcon{flex:none;width:32px;height:32px;border-radius:8px;display:flex;align-items:center;justify-content:center;background:color-mix(in srgb,var(--onda-accent,var(--accent)) 12%,transparent);color:var(--onda-text,var(--accent));margin-top:2px}
+.mapInfoContent{flex:1;min-width:0;display:flex;flex-direction:column;gap:2px}
+.mapInfoTitle{font:600 var(--fs-15)/1.2 var(--font-sans);color:var(--label)}
+.mapInfoLoc{font:400 var(--fs-13)/1.3 var(--font-sans);color:var(--label-secondary)}
+.mapInfoWhy{font:400 var(--fs-13)/1.4 var(--font-sans);color:var(--label-tertiary);margin-top:2px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.mapNavBtn{flex:none;width:34px;height:34px;border-radius:50%;display:flex;align-items:center;justify-content:center;color:var(--onda-text,var(--accent));background:color-mix(in srgb,var(--onda-accent,var(--accent)) 10%,transparent);border:none;transition:background .2s}
+.mapNavBtn:active{background:color-mix(in srgb,var(--onda-accent,var(--accent)) 22%,transparent)}
+
+/* ── Places & Festivals Full Map (Chapter 7) ── */
+.placesMapContainer{display:flex;flex-direction:column;gap:14px}
+.placesMapCanvas{position:relative;margin:0 16px;border-radius:calc(var(--onda-r,30px) * .73);background:var(--surface-card);box-shadow:0 1px 2px rgba(0,0,0,.04);overflow:hidden;border:1px solid color-mix(in srgb,var(--label) 8%,transparent)}
+.placesMapSvg{width:100%;aspect-ratio:1.9/1;display:block}
+.placesMapBadge{position:absolute;right:12px;top:12px;display:inline-flex;align-items:center;gap:5px;padding:4px 9px;border-radius:999px;font:600 var(--fs-11) var(--font-sans);background:var(--glass-fill);border:var(--glass-stroke);-webkit-backdrop-filter:var(--glass-blur);backdrop-filter:var(--glass-blur);color:var(--label)}
+.placesDeck{display:flex;gap:12px;padding:0 16px 20px;scroll-snap-type:x proximity;scroll-padding:0 16px}
+.placeCard{flex:none;width:270px;scroll-snap-align:start;padding:16px 18px;border-radius:calc(var(--onda-r,30px) * .73);background:var(--surface-card);box-shadow:0 1px 2px rgba(0,0,0,.04);border:1.5px solid transparent;display:flex;flex-direction:column;gap:6px;transition:border-color .2s,background .2s;cursor:pointer}
+.placeCard[data-selected]{border-color:var(--onda-accent,var(--accent));background:color-mix(in srgb,var(--onda-accent,var(--accent)) 6%,var(--surface-card))}
+.placeCardTop{display:flex;align-items:center;justify-content:space-between}
+.placeCardIcon{color:var(--onda-accent,var(--accent))}
+.placeCardNum{font:400 var(--fs-14) var(--onda-font,var(--font-serif));color:var(--label-tertiary)}
+.placeCardTitle{margin:4px 0 0;font:600 var(--fs-16)/1.25 var(--font-sans);color:var(--label)}
+.placeCardMeta{font:400 var(--fs-13)/1.3 var(--font-sans);color:var(--label-secondary)}
+.placeCardWhy{margin:4px 0 0;font:400 var(--fs-13)/1.45 var(--font-sans);color:var(--label-secondary);display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.placeCardActions{display:flex;align-items:center;gap:8px;margin-top:10px;padding-top:10px;border-top:.5px solid var(--separator)}
+.placeMapBtn{display:inline-flex;align-items:center;gap:6px;padding:6px 12px;border-radius:999px;font:500 var(--fs-12) var(--font-sans);color:var(--onda-text,var(--accent));background:color-mix(in srgb,var(--onda-accent,var(--accent)) 10%,transparent);border:none;transition:background .2s}
+.placeMapBtn:active{background:color-mix(in srgb,var(--onda-accent,var(--accent)) 20%,transparent)}
+.placeLinkBtn{flex:none;width:30px;height:30px;border-radius:50%;display:flex;align-items:center;justify-content:center;color:var(--label-secondary);background:color-mix(in srgb,var(--label) 8%,transparent);border:none;margin-left:auto}
+

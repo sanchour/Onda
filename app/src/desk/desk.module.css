@@ -9,32 +9,37 @@
 }
 .shell[data-rail]{--side-w:76px}
 
-/* ── Ambient ─────────────────────────────────────────────── */
+/* ── Ambient ───────────────────────────────────────────────
+   8.0: the Onda's colours lie behind the glass as still light. They used to be three blurred fields, each larger than the
+   window, drifting for ever: on an older laptop every frame re-blurred them, and scrolling fell to a few frames a second.
+   Soft radial gradients give the same light, are painted once and cost nothing while the stage scrolls. */
 .ambient{
   --amb-a:var(--accent);--amb-b:var(--surface-page);
-  position:absolute;inset:0;overflow:hidden;pointer-events:none;z-index:0;
+  position:absolute;inset:0;overflow:hidden;pointer-events:none;z-index:0;contain:strict;
   background:
+    radial-gradient(48vmax 44vmax at 4% 0%,color-mix(in srgb,var(--amb-a) 17%,transparent),transparent 72%),
+    radial-gradient(42vmax 40vmax at 100% 100%,color-mix(in srgb,var(--amb-a) 13%,transparent),transparent 72%),
+    radial-gradient(34vmax 30vmax at 52% 62%,color-mix(in srgb,var(--amb-b) 42%,transparent),transparent 70%),
     radial-gradient(120% 90% at 0% 0%,color-mix(in srgb,var(--amb-b) 70%,transparent),transparent 60%),
     var(--surface-grouped);
 }
-.fieldA,.fieldB,.fieldC{position:absolute;border-radius:50%;filter:blur(70px);opacity:.5;will-change:transform}
-.fieldA{width:62vmax;height:62vmax;left:-18vmax;top:-26vmax;background:radial-gradient(closest-side,color-mix(in srgb,var(--amb-a) 34%,transparent),transparent);animation:driftA 46s ease-in-out infinite alternate}
-.fieldB{width:52vmax;height:52vmax;right:-16vmax;bottom:-22vmax;background:radial-gradient(closest-side,color-mix(in srgb,var(--amb-a) 26%,transparent),transparent);animation:driftB 58s ease-in-out infinite alternate}
-.fieldC{width:40vmax;height:40vmax;left:28vw;top:38vh;background:radial-gradient(closest-side,color-mix(in srgb,var(--amb-b) 60%,transparent),transparent);opacity:.7;animation:driftC 70s ease-in-out infinite alternate}
-.ambient:not([data-on]) .fieldA,.ambient:not([data-on]) .fieldB{opacity:.26}
-:global(html[data-theme="dark"]) .fieldA,:global(html[data-theme="dark"]) .fieldB{opacity:.42}
-:global(html[data-theme="dark"]) .fieldC{opacity:.25}
-@keyframes driftA{from{transform:translate3d(0,0,0) scale(1)}to{transform:translate3d(9vmax,7vmax,0) scale(1.12)}}
-@keyframes driftB{from{transform:translate3d(0,0,0) scale(1.05)}to{transform:translate3d(-8vmax,-6vmax,0) scale(.94)}}
-@keyframes driftC{from{transform:translate3d(0,0,0)}to{transform:translate3d(-12vmax,-8vmax,0)}}
+.ambient:not([data-on]){--amb-a:color-mix(in srgb,var(--accent) 55%,transparent)}
+:global(html[data-theme="dark"]) .ambient{
+  background:
+    radial-gradient(48vmax 44vmax at 4% 0%,color-mix(in srgb,var(--amb-a) 22%,transparent),transparent 72%),
+    radial-gradient(42vmax 40vmax at 100% 100%,color-mix(in srgb,var(--amb-a) 17%,transparent),transparent 72%),
+    radial-gradient(120% 90% at 0% 0%,color-mix(in srgb,var(--amb-b) 50%,transparent),transparent 60%),
+    var(--surface-grouped);
+}
 /* the Onda's own pattern, as if pressed into the paper, strongest at the corner the light comes from */
 .pattern{position:absolute;inset:0;background:var(--amb-cover);opacity:.07;
   -webkit-mask-image:radial-gradient(90% 80% at 0% 0%,#000,transparent 72%);mask-image:radial-gradient(90% 80% at 0% 0%,#000,transparent 72%)}
 :global(html[data-theme="dark"]) .pattern{opacity:.16}
-.grain{position:absolute;inset:-50%;opacity:.05;mix-blend-mode:multiply;
+/* paper grain, without a blend mode: a blended layer is composited again whenever anything above it moves */
+.grain{position:absolute;inset:0;opacity:.035;
   background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
-:global(html[data-theme="dark"]) .grain{mix-blend-mode:screen;opacity:.035}
-@media (prefers-reduced-motion:reduce){.fieldA,.fieldB,.fieldC{animation:none}}
+:global(html[data-theme="dark"]) .grain{opacity:.025}
+:global(html[data-lite]) .pattern,:global(html[data-lite]) .grain{display:none}
 
 /* ── Sidebar ─────────────────────────────────────────────── */
 .side{
@@ -115,7 +120,7 @@
 /* ── Stage ───────────────────────────────────────────────── */
 .stage{
   position:relative;z-index:1;margin:var(--gap) var(--gap) var(--gap) 0;min-width:0;overflow:hidden;isolation:isolate;
-  border-radius:22px;background:var(--surface-grouped);
+  border-radius:22px;background:var(--surface-grouped);contain:layout paint;
   box-shadow:0 0 0 .5px color-mix(in srgb,var(--label) 12%,transparent),0 1px 2px rgba(0,0,0,.05),0 18px 50px -20px rgba(0,0,0,.28);
 }
 :global(html[data-theme="dark"]) .stage{box-shadow:0 0 0 .5px rgba(255,255,255,.1),0 18px 50px -16px rgba(0,0,0,.7)}

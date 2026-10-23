@@ -298,7 +298,7 @@ export function Done({ entry }: { entry: Extract<StackEntry, { name: 'done' }> }
       <h1 className={o.doneTitle}>{t('done.title')}</h1>
       <div className={o.rfLead} style={{ textWrap: 'pretty' }}>{entry.kept ? t('done.kept', { count: entry.kept, name }) : t('done.none', { name })}</div>
       <div className={navCss.bottom}>
-        <Button fullWidth onClick={() => popToRoot('lagos')}>
+        <Button fullWidth onClick={() => popToRoot('ondas')}>
           {t('done.viewLagos')}
         </Button>
         <Button variant="plain" fullWidth onClick={() => popToRoot('ondas')}>

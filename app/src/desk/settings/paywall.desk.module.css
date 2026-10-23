@@ -71,3 +71,4 @@
 @media (prefers-reduced-motion:reduce){
   .col,.card{animation:none}
 }
+:global(html[data-lite]) .col{animation:none}

@@ -38,8 +38,8 @@ export const IMMERSE_ORDER: MediaKind[] = ['read', 'listen', 'watch', 'art', 'ea
 /** The order the Immerse practice walks through the kinds in 6.0. */
 export const IMMERSE_ORDER_V6: MediaKind[] = ['read', 'listen', 'watch', 'eat', 'art', 'games', 'customs', 'drink', 'travel', 'words']
 const isImmerse = (a: string | undefined): a is MediaKind => !!a && (IMMERSE_ORDER as string[]).includes(a)
-/** Most practices in a day. */
-export const PLAN_MAX = 5
+/** Most practices in a day: 1 Immerse, 3 practices = 4 max. */
+export const PLAN_MAX = 4
 
 /** True for an Onda written for the 6.0 plan: twenty practices and thirty Immerse practices. */
 export const hasV6Plan = (c: OndaContent) => !c.custom && c.immersePlan.length >= 30
@@ -57,9 +57,9 @@ function face(p: Practice, round: number): DayPractice {
 
 /* ── Onda 6.0 ──────────────────────────────────────────────────────────────────────────────────────────────── */
 
-/** How many of the four practices fall in the morning, the afternoon and the evening, turn by turn: two mornings one day, two afternoons the next. */
-const SHAPES = [[2, 1, 1], [1, 2, 1], [1, 1, 2]] as const
-/** On every fifth day a special replaces the second practice of the doubled time of day. */
+/** How many practices fall in morning, afternoon and evening: 1 morning, 1 afternoon, 1 evening (3 practices total). */
+const SHAPES = [[1, 1, 1]] as const
+/** On every fifth day a special replaces one practice of the day. */
 const SPECIAL_EVERY = 5
 
 /** The pool of a time of day shows its first practice, the core one, on every third appearance, and works through the rest between,
@@ -92,15 +92,16 @@ function planV6(c: OndaContent, d: number, includeFood: boolean): DayPractice[] 
   let out: DayPractice[] = []
   for (let i = 1; i <= d; i++) {
     const shape = SHAPES[(i - 1) % SHAPES.length]!
-    const special = specials.length && i % SPECIAL_EVERY === 0 ? specials[(i / SPECIAL_EVERY - 1) % specials.length] : undefined
+    const special = specials.length && i % SPECIAL_EVERY === 0 ? specials[(Math.floor(i / SPECIAL_EVERY) - 1) % specials.length] : undefined
+    const replaceSlot = (Math.floor(i / SPECIAL_EVERY) - 1) % 3
     out = []
     let replaced = false
     SLOTS.forEach((_, k) => {
       const pool = pools[k]!
       if (!pool.length) return
       for (let j = 0; j < shape[k]!; j++) {
-        // the special takes the place of the second practice of the doubled time of day
-        if (special && j === 1 && !replaced) {
+        // the special takes the place of one practice on special days
+        if (special && k === replaceSlot && !replaced) {
           replaced = true
           out.push(face(special, Math.floor(i / SPECIAL_EVERY / specials.length)))
           continue
@@ -112,7 +113,7 @@ function planV6(c: OndaContent, d: number, includeFood: boolean): DayPractice[] 
   // clock order, so an evening practice never sits above a morning one
   out.sort((x, y) => x.time.localeCompare(y.time))
   const im = immerseV6(c, d, includeFood)
-  return im ? [im, ...out].slice(0, PLAN_MAX) : out.slice(0, PLAN_MAX)
+  return im ? [im, ...out.slice(0, 3)].slice(0, PLAN_MAX) : out.slice(0, PLAN_MAX)
 }
 
 /* ── Before 6.0 ────────────────────────────────────────────────────────────────────────────────────────────── */
@@ -172,7 +173,7 @@ function planLegacy(c: OndaContent, d: number, includeFood: boolean): DayPractic
   }
   out.sort((x, y) => x.time.localeCompare(y.time))
   const im = immerseLegacy(c, d, includeFood)
-  return im ? [im, ...out].slice(0, PLAN_MAX) : out.slice(0, PLAN_MAX)
+  return im ? [im, ...out.slice(0, PLAN_MAX - 1)].slice(0, PLAN_MAX) : out.slice(0, PLAN_MAX)
 }
 
 /** Up to five practices for one day of an Onda, the Immerse practice first. An Onda the user made keeps its own list unchanged. */

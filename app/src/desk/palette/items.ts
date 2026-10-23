@@ -12,7 +12,7 @@ import { useNav, type SettingsPage } from '@/nav/store'
 import { guardNewLago } from '@/screens/lagoActions'
 import { guardCreateOnda } from '@/screens/ondaShared'
 import { focusFor, nextUndone, practiceTitle, useTodayPlan } from '../focus/today'
-import { go } from '../keys/go'
+import { go, goLagos } from '../keys/go'
 import type { KeyName } from '../keys/Kbd'
 import { useDeskUI } from '../store'
 import { match, normQuery, type Field } from './fuzzy'
@@ -129,7 +129,7 @@ export function usePaletteItems(): PItem[] {
     rows.sort((a, b) => order(a) - order(b))
     for (const { lago, st } of rows) {
       const live = st.phase === 'active'
-      const insights = { label: t('power.palette.insights'), icon: 'chart-bar', run: () => go('lagos', [{ name: 'lago', id: lago.id }]) }
+      const insights = { label: t('power.palette.insights'), icon: 'chart-bar', run: () => go('ondas', [{ name: 'lago', id: lago.id }]) }
       out.push({
         key: `l:${lago.id}`,
         group: 'lagos',
@@ -155,10 +155,10 @@ export function usePaletteItems(): PItem[] {
     out.push(
       page('today', 'sun-horizon', t('desk.today'), () => go('ondas'), { keys: ['t'], terms: t('power.palette.kw.today') }),
       page('browse', 'compass', t('desk.browse'), () => go('ondas', [{ name: 'allOndas' }]), { keys: ['b'], terms: t('power.palette.kw.browse') }),
-      page('lagos', 'wave-soft', t('tabs.lagos'), () => go('lagos'), { keys: ['l'] }),
+      page('lagos', 'wave-soft', t('tabs.lagos'), () => goLagos(), { keys: ['l'] }),
       page('stats', 'chart-bar', t('tabs.stats'), () => go('stats'), { keys: ['s'], terms: t('power.palette.kw.stats') }),
       page('settings', 'gear-six', t('settings.title'), () => go(here(), [{ name: 'settings' }]), { keys: [','] }),
-      page('gallery', 'squares-four', t('power.palette.gallery'), () => go('lagos', [{ name: 'gallery' }]), { searchOnly: true, terms: t('power.palette.kw.gallery') }),
+      page('gallery', 'squares-four', t('power.palette.gallery'), () => go('ondas', [{ name: 'gallery' }]), { searchOnly: true, terms: t('power.palette.kw.gallery') }),
     )
     if (active) {
       const { run } = active

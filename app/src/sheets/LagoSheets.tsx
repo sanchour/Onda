@@ -229,7 +229,7 @@ export function LagoInfoSheet({ entry }: E<'lagoInfo'>) {
 
   const start = () => {
     if (!startLago(t, { name: i.name, icon: i.icon, why: desc, lengthDays: i.length, frequency: 'daily', reminder: { on: true, time: reminderTime }, origin: 'gallery' })) return
-    popToRoot('lagos')
+    popToRoot('ondas')
     showToast(t('gallery.started'), { icon: i.icon })
   }
 
@@ -286,7 +286,7 @@ export function OndaPracticesSheet({ entry }: E<'ondaPractices'>) {
       n++
     }
     if (!n) return
-    popToRoot('lagos')
+    popToRoot('ondas')
     showToast(t('gallery.startedN', { count: n }), { icon: 'seal-check' })
   }
 

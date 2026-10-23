@@ -1,24 +1,17 @@
-import { Suspense, lazy, useMemo, useRef, useState } from 'react'
+import { useMemo, useRef, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { lagoStats, type LagoStats } from '@/data/derive/lago'
 import { useLagos } from '@/data/hooks'
 import { useStore } from '@/data/store'
 import type { Lago } from '@/data/types'
-import { useDesk } from '@/lib/desk'
 import { haptic } from '@/lib/haptics'
-import { Screen } from '@/nav/Screen'
 import { useNav } from '@/nav/store'
-import { GlassButton } from '@/ui/buttons'
 import { ProgressBar } from '@/ui/data'
 import { Icon } from '@/ui/Icon'
 import { SectionToggle } from '@/ui/lists'
-import { guardNewLago, lagoMenu } from './lagoActions'
-import { OrnDivider, useOndaScope } from './ondaShared'
-import o from './ondas.module.css'
+import { lagoMenu } from './lagoActions'
+import c from './onda7/onda7.module.css'
 import s from './screens.module.css'
-
-// The desktop has its own Lagos view, in its own chunk so the phone never loads it.
-const DeskLagos = lazy(() => import('@/desk/lagos/DeskLagos'))
 
 type Row = { lago: Lago; st: LagoStats }
 
@@ -110,16 +103,15 @@ function LagoRow({ lago, st }: Row) {
   )
 }
 
-/** Lagos tab: today's progress, then collapsible To Check In / Checked In lists. */
-export default function LagosTab() {
+/** Lagos (8.0) live on the Ondas tab, under the day's practices: the ones to check in today and the ones checked in, then
+ *  those not due today and the finished ones, folded away. Starting a Lago and the Gallery are in Settings, under Add New. */
+export function LagosSection() {
   const { t } = useTranslation()
-  const { push, openSheet } = useNav()
+  const push = useNav((n) => n.push)
   const lagos = useLagos()
   const checkIns = useStore((x) => x.checkIns)
   const today = useStore((x) => x.today)
-  const [closed, setClosed] = useState<Record<string, boolean>>({})
-  const scope = useOndaScope()
-  const desk = useDesk()
+  const [closed, setClosed] = useState<Record<string, boolean>>({ notToday: true, finished: true })
 
   const groups = useMemo(() => {
     const rows = lagos.map((lago) => ({ lago, st: lagoStats(lago, checkIns, today) })).sort((a, b) => b.lago.startedAt.localeCompare(a.lago.startedAt) || b.lago.updatedAt - a.lago.updatedAt)
@@ -150,46 +142,31 @@ export default function LagosTab() {
       </section>
     )
 
-  if (desk)
-    return (
-      <Suspense fallback={null}>
-        <DeskLagos />
-      </Suspense>
-    )
   return (
-    <Screen variant="root">
-      <div className={scope ? o.scope : undefined} {...scope?.props}>
-      <div className={s.titleRow}>
-        <h1 className={s.largeTitle}>{t('lagos.title')}</h1>
-        <div className={s.actions}>
-          <GlassButton icon="plus" prominent ariaLabel={t('lagos.newLago')} onClick={() => guardNewLago(t) && openSheet({ name: 'lagoForm' })} />
-          <GlassButton icon="squares-four" ariaLabel={t('lagos.gallery')} onClick={() => push({ name: 'gallery' })} />
-          <GlassButton icon="gear-six" ariaLabel={t('a11y.settings')} onClick={() => push({ name: 'settings' })} />
+    <section className={c.lagos} aria-labelledby="ondas-lagos">
+      <h2 id="ondas-lagos" className={c.todayHead}>{t('lagos.title')}</h2>
+      {none ? (
+        <div className={c.lagosEmpty}>
+          <p>{t('lagos.emptyHere')}</p>
+          <button type="button" className={c.lagosAdd} onClick={() => push({ name: 'settings', page: 'add' })}>
+            <Icon name="plus" weight="bold" size={15} />
+            {t('lagos.addInSettings')}
+          </button>
         </div>
-      </div>
-      {scope?.themed && <OrnDivider look={scope.look} />}
-      <div className={s.todayCard}>
-        <div className={s.todayRow}>
-          <span className={s.todayTitle}>{t('lagos.today')}</span>
-          <span className={s.sub}>{t('lagos.checkedInOf', { done, total: due })}</span>
-        </div>
-        <div className={o.todayBar} style={{ marginTop: 14 }}>
-          <ProgressBar value={due ? done / due : 0} height={10} label={t('lagos.today')} />
-        </div>
-      </div>
-      {section('todo', t('lagos.toCheckIn'))}
-      {section('checked', t('lagos.checkedIn'))}
-      {section('notToday', t('lagos.notToday'))}
-      {section('finished', t('lagos.finished'))}
-      {none && (
+      ) : (
         <>
-          <div className={s.empty}>
-            <div className={s.emptyTitle}>{t('lagos.empty')}</div>
-            <div className={`${s.sub}`} style={{ marginTop: 4 }}>{t('lagos.emptySub')}</div>
-          </div>
+          {due > 0 && (
+            <div className={c.lagosBar}>
+              <span>{t('lagos.checkedInOf', { done, total: due })}</span>
+              <ProgressBar value={done / due} height={6} label={t('lagos.today')} />
+            </div>
+          )}
+          {section('todo', t('lagos.toCheckIn'))}
+          {section('checked', t('lagos.checkedIn'))}
+          {section('notToday', t('lagos.notToday'))}
+          {section('finished', t('lagos.finished'))}
         </>
       )}
-      </div>
-    </Screen>
+    </section>
   )
 }

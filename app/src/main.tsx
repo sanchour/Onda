@@ -6,6 +6,7 @@ import './styles/tokens.css'
 import './styles/base.css'
 import './i18n'
 import { App } from './app/App'
+import { initLite } from './lib/lite'
 
 const queryClient = new QueryClient({
   defaultOptions: { queries: { retry: 1, refetchOnWindowFocus: false, networkMode: 'offlineFirst' }, mutations: { networkMode: 'offlineFirst' } },
@@ -18,6 +19,9 @@ try {
 } catch {
   /* private mode */
 }
+
+// light effects on a slow computer (lib/lite.ts)
+initLite()
 
 // iOS only applies :active styles when a touch listener exists on the document.
 document.addEventListener('touchstart', () => undefined, { passive: true })

@@ -17,6 +17,8 @@ await sleep(3500)
 const browser = await chromium.launch()
 const page = await browser.newPage({ viewport: { width: 1440, height: 900 }, deviceScaleFactor: 1.25 })
 page.on('pageerror', (e) => console.log('PAGEERROR', String(e).slice(0, 200)))
+// LITE=1: with light effects chosen in Appearance
+if (process.env.LITE) await page.addInitScript(() => localStorage.setItem('onda.lite', 'on'))
 const cdp = await page.context().newCDPSession(page)
 await cdp.send('Performance.enable')
 

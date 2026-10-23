@@ -10,8 +10,9 @@ import { detId } from '@/lib/ids'
 import { Screen } from '@/nav/Screen'
 import { useNav } from '@/nav/store'
 import { EmblemArt } from '@/screens/emblems'
-import { guardCreateOnda, useActiveOnda, useRunToday, type ActiveOnda } from '@/screens/ondaShared'
+import { useActiveOnda, useRunToday, type ActiveOnda } from '@/screens/ondaShared'
 import { Icon } from '@/ui/Icon'
+import DeskLagos, { DeskLagosWeek } from '../lagos/DeskLagos'
 import { Book, featuredOndas } from './books'
 import h from './home.module.css'
 import { DayPlan, Hero, Panel, ProgressPanel, QuotePanel, RulesGrid, Section, Tile, WordPanel, dayContent } from './parts'
@@ -30,7 +31,6 @@ export default function DeskToday() {
 function Running({ active }: { active: ActiveOnda }) {
   const { t } = useTranslation()
   const push = useNav((n) => n.push)
-  const openSheet = useNav((n) => n.openSheet)
   const settings = useSettings()
   const today = useStore((x) => x.today)
   const journal = useStore((x) => x.journal)
@@ -70,7 +70,6 @@ function Running({ active }: { active: ActiveOnda }) {
   const themed = settings.ondaThemes
   const { togglePractice, toggleItem } = useStore.getState()
   const openOnda = () => push({ name: 'onda', id: run.ondaId })
-  const newOnda = () => guardCreateOnda(t) && openSheet({ name: 'createOnda' })
 
   return (
     <Screen variant="bare" style={{ padding: 0 }} scrollRef={pane}>
@@ -92,10 +91,6 @@ function Running({ active }: { active: ActiveOnda }) {
                 <button type="button" className={`${h.pill} ${h.pillSolid}`} onClick={openOnda}>
                   {t('deskHome.openOnda')}
                   <Icon name="arrow-right" weight="bold" size={16} />
-                </button>
-                <button type="button" className={`${h.pill} ${h.pillGlass}`} onClick={newOnda}>
-                  <Icon name="plus" weight="bold" size={16} />
-                  {t('ondas.newOnda')}
                 </button>
               </>
             }
@@ -126,6 +121,10 @@ function Running({ active }: { active: ActiveOnda }) {
               </Section>
             )}
 
+            <Section title={t('lagos.title')} id="dk-lagos">
+              <DeskLagos />
+            </Section>
+
             <Section title={t('deskHome.deeper')} id="dk-deeper">
               <div className={h.tiles}>
                 <Tile icon="headphones" title={t('ondas.immerse')} sub={media.length ? t('immersion.experienced', { done: media.filter((m) => seen.has(m.id)).length, total: media.length }) : undefined} onClick={() => push({ name: 'immersion' })} />
@@ -150,6 +149,7 @@ function Running({ active }: { active: ActiveOnda }) {
               </Panel>
             )}
             {words?.quote && <QuotePanel look={look} quote={words.quote} />}
+            <DeskLagosWeek />
             {words?.word && <WordPanel word={words.word} />}
           </aside>
         </div>
@@ -164,7 +164,6 @@ const LEAN = [-4, -1.5, 0, 2, 4.5]
 function Empty() {
   const { t } = useTranslation()
   const push = useNav((n) => n.push)
-  const openSheet = useNav((n) => n.openSheet)
   const list = useOndaList()
   const lookOf = useLookFn()
   const today = useStore((x) => x.today)
@@ -181,10 +180,11 @@ function Empty() {
               <Icon name="compass" weight="bold" size={17} />
               {t('ondas.browse')}
             </button>
-            <button type="button" className={`${h.pill} ${h.pillGlass}`} onClick={() => guardCreateOnda(t) && openSheet({ name: 'createOnda' })}>
-              <Icon name="plus" weight="bold" size={16} />
-              {t('ondas.newOnda')}
-            </button>
+          </div>
+          <div className={h.emptyLagos} style={{ textAlign: 'start' }}>
+            <Section title={t('lagos.title')} id="dk-lagos">
+              <DeskLagos />
+            </Section>
           </div>
           {picks.length > 0 && (
             <div className={h.shelf} role="group" aria-label={t('browse.featured')}>

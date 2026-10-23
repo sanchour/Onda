@@ -10,11 +10,17 @@ export function go(tab: Tab, routes?: Route[]) {
   document.querySelector('main')?.animate([{ opacity: 0.55, transform: 'translate3d(0,6px,0)' }, { opacity: 1, transform: 'none' }], { duration: 260, easing: EASE_ENTER })
 }
 
+/** 8.0: Lagos are a section of Today: show Today and bring the Lagos into view. */
+export function goLagos() {
+  go('ondas')
+  setTimeout(() => document.getElementById('dk-lagos')?.scrollIntoView({ block: 'start', behavior: reducedMotion() ? 'auto' : 'smooth' }), 320)
+}
+
 /** The sections the sidebar lists, by shortcut key. Settings opens over the tab you are on, as the sidebar does. */
 export const SECTION_KEYS: Record<string, () => void> = {
   t: () => go('ondas'),
   b: () => go('ondas', [{ name: 'allOndas' }]),
-  l: () => go('lagos'),
+  l: () => goLagos(),
   s: () => go('stats'),
   ',': () => go(useNav.getState().tab, [{ name: 'settings' }]),
 }

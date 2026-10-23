@@ -248,3 +248,7 @@ button.cell:active{transform:scale(.9)}
   .burst{display:none}
   .card:hover,.pill:hover,button.cell:hover{transform:none}
 }
+
+/* 8.0: on Today, with no Lagos yet */
+.inlineEmpty{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:18px 22px;border-radius:20px;background:var(--surface-card);box-shadow:var(--dk-ring),var(--dk-shadow)}
+.inlineEmpty p{margin:0;font:400 var(--fs-15)/1.45 var(--font-sans);color:var(--label-secondary)}

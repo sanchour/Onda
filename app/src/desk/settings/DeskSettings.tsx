@@ -37,10 +37,11 @@ export interface DeskSettingsProps {
 }
 
 // Grouped as System Settings groups them: the plan, how Onda looks and nudges, where your data goes, help.
-const GROUPS: Key[][] = [['subscription'], ['appearance'], ['integrations', 'data', 'link'], ['help']]
+const GROUPS: Key[][] = [['add'], ['subscription'], ['appearance'], ['integrations', 'data', 'link'], ['help']]
 
 /** The labels on each pane, so a search finds a setting by its own name and not only by its section's. */
 const WORDS: Record<Pane, string[]> = {
+  add: ['settings.add.newOnda', 'settings.add.newLago', 'settings.add.browseOndas', 'settings.add.browseLagos'],
   account: ['account.title', 'deskSet.editProfile', 'settings.streak', 'settings.danger.reset', 'settings.danger.signOut', 'settings.danger.deleteAccount'],
   subscription: ['settings.sub.plan', 'settings.sub.trialLeft', 'settings.sub.getLifetime', 'settings.sub.getMonthly', 'settings.sub.restore'],
   appearance: ['settings.display.light', 'settings.display.dark', 'settings.display.auto', 'settings.display.defaultLength', 'settings.display.themes', 'settings.display.tint'],

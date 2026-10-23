@@ -194,6 +194,7 @@ export const en = {
     noteOfRespect: 'Respect', originMarker: 'Where {{name}} took root', mapTitle: 'Where It Took Root',
     worldView: 'World view', regionView: 'Regional focus', world: 'World', region: 'Region',
     mapAria: 'Map of relevant historical locations', placesCount: '{{count}} locations', openMaps: 'Open in Maps',
+    viewPractice: 'View Practice', meaning: 'Translation & Meaning', usage: 'Context & Usage',
   },
   reflection: {
     title: 'Reflection', daysOf: '{{count}} days of {{name}}', lookBack: 'Look back before you move on.', checkIns: 'Check Ins', practices: 'Practices', journal: 'Journal',
@@ -231,7 +232,7 @@ export const en = {
   settings: {
     title: 'Settings', memberSince: 'Member since {{date}}', yourName: 'Your Name', streak: 'Streak', ondas: 'Ondas', lagos: 'Lagos', version: 'Onda {{v}}',
     hub: { add: 'Add New', subscription: 'Subscription', appearance: 'Appearance', notifications: 'Notifications', practice: 'Practice', integrations: 'Integrations', data: 'Data', privacy: 'Privacy', help: 'Help & About' },
-    add: { newOnda: 'New Onda', newOndaSub: 'Shape a world of your own', newLago: 'New Lago', newLagoSub: 'A small practice to keep', browseOndas: 'Browse Ondas', browseLagos: 'Browse Lagos', footer: 'Step into an Onda from the bookshop, or take Lagos from the Gallery: small practices to keep for a few weeks, from every Onda.' },
+    add: { newOnda: 'New Onda', newOndaSub: 'Shape a world of your own', newLago: 'New Lago', newLagoSub: 'A small practice to keep', browseOndas: 'Browse Ondas', browseLagos: 'Browse Lagos', footer: '' },
     plus: { title: 'Ondas+', badgeFree: 'Free trial', badgeTrial_one: 'Trial · {{count}} day', badgeTrial_other: 'Trial · {{count}} days', badgeLife: 'Lifetime', badgeExpired: 'Trial ended', badgeMonthly: 'Monthly', lineFree: '7 days free, then € 2,49 a month or € 24,99 for life.', lineTrial: 'Then € 2,49 a month, or € 24,99 once for life.', lineLife: 'Everything is unlocked. Thank you.', lineMonthly: 'Everything is unlocked. Lifetime is € 24,99, once.', lineExpired: '€ 2,49 a month, or € 24,99 once for life.', ctaFree: 'Start Free Trial', ctaTrial: 'See plans', ctaLife: 'Manage', ctaMonthly: 'Manage' },
     sub: { header: 'Subscription', plan: 'Ondas+', free: 'Free', trial: 'Trial', lifetime: 'Lifetime', expired: 'Trial ended', trialLeft: 'Trial days left', restore: 'Restore Purchase', monthly: 'Monthly', getLifetime: 'Get Lifetime', getMonthly: 'Subscribe monthly', footer: '€ 2,49 a month, which you can cancel any time, or one payment of € 24,99 for life.' },
     display: { tint: 'Onda background tint', themes: 'Onda themes', footer: 'When enabled, each Onda uses its own color, pattern and type. The tint adds a very light wash of the Onda color behind every screen; turn it off to return to the plain background.', light: 'Light', dark: 'Dark', auto: 'Auto', defaultLength: 'Default Onda length', lite: 'Light effects', lite_auto: 'Auto', lite_on: 'On', lite_off: 'Off', liteFooter: 'Light effects turn off glass blur, moving emblems and page grain so scrolling stays smooth. Auto turns them on for slower computers.', textSize: 'Text size follows your iPhone setting.' },

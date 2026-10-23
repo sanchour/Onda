@@ -121,10 +121,6 @@ function Running({ active }: { active: ActiveOnda }) {
               </Section>
             )}
 
-            <Section title={t('lagos.title')} id="dk-lagos">
-              <DeskLagos />
-            </Section>
-
             <Section title={t('deskHome.deeper')} id="dk-deeper">
               <div className={h.tiles}>
                 <Tile icon="headphones" title={t('ondas.immerse')} sub={media.length ? t('immersion.experienced', { done: media.filter((m) => seen.has(m.id)).length, total: media.length }) : undefined} onClick={() => push({ name: 'immersion' })} />

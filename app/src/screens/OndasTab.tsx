@@ -15,7 +15,6 @@ import { Cover, GroupedList, PlanList, Row, SearchField, SectionHeader, Shortcut
 import c from './onda7/onda7.module.css'
 import { EmblemArt } from './emblems'
 import { OrnamentIcon } from './KindArt'
-import { LagosSection } from './LagosSection'
 import { useActiveOnda, useRunToday } from './ondaShared'
 import s from './screens.module.css'
 
@@ -66,7 +65,6 @@ function PhoneOndasTab() {
             </Button>
           </div>
         </div>
-        <LagosSection />
       </Screen>
     )
   }
@@ -143,9 +141,6 @@ function PhoneOndasTab() {
             <Row icon="scales" title={t('ondas.rules')} value={t('ondas.rulesKept', { done: kept, total: rules.length })} chevron onClick={() => push({ name: 'rules' })} />
           </GroupedList>
         )}
-
-        <LagosSection />
-
       </div>
     </Screen>
   )

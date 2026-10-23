@@ -1,5 +1,6 @@
 import { useMemo, useState, useRef } from 'react'
 import { useTranslation } from 'react-i18next'
+import { haptic } from '@/lib/haptics'
 import { Icon } from '@/ui/Icon'
 import { openExternal } from '@/sheets/guideParts'
 import type { OndaLook } from '@/content/themes'
@@ -402,11 +403,16 @@ export function OndaMapWidget({
                 data-selected={isSelected || undefined}
                 data-origin={m.isOrigin || undefined}
                 transform={`translate(${m.coords.x}, ${m.coords.y})`}
-                onClick={() => setActiveId(m.id)}
+                onClick={() => {
+                  haptic('select')
+                  setActiveId(m.id)
+                }}
                 role="button"
                 tabIndex={0}
                 aria-label={m.title}
               >
+                {/* Large touch/click hitbox */}
+                <circle r="26" fill="transparent" style={{ pointerEvents: 'all' }} />
                 {/* Pulse ring for active pin */}
                 {isSelected && <circle r="14" className={g.mapPulse} />}
                 {/* Pin shadow */}
@@ -460,6 +466,7 @@ export function OndaPlacesMap({
 }) {
   const { t } = useTranslation()
   const [activeIdx, setActiveIdx] = useState(0)
+  const [regional, setRegional] = useState(true)
   const deckRef = useRef<HTMLDivElement>(null)
 
   const items = useMemo(() => {
@@ -470,10 +477,12 @@ export function OndaPlacesMap({
   }, [places, ondaId])
 
   const viewBox = useMemo(() => {
+    if (!regional) return `0 0 ${MAP_W} ${MAP_H}`
     return computeBoundingViewBox(items.map((m) => m.coords))
-  }, [items])
+  }, [regional, items])
 
   const selectPlace = (idx: number) => {
+    haptic('select')
     setActiveIdx(idx)
     const el = deckRef.current
     if (el) {
@@ -516,27 +525,52 @@ export function OndaPlacesMap({
                 tabIndex={0}
                 aria-label={m.title}
               >
+                {/* Large touch/click hitbox */}
+                <circle r="28" fill="transparent" style={{ pointerEvents: 'all' }} />
                 {isSelected && <circle r="16" className={g.mapPulse} />}
                 <circle r="8" cy="2" className={g.mapPinShadow} />
                 <circle r="7.5" className={g.mapPinBody} />
                 <circle r="2.5" className={g.mapPinDot} />
                 {isSelected && (
-                  <text
-                    y="-12"
-                    textAnchor="middle"
-                    className={g.mapPinLabel}
-                  >
-                    {m.title}
-                  </text>
+                  <g className={g.mapPinLabelGroup}>
+                    <rect
+                      x={-Math.min(100, Math.max(40, m.title.length * 3.5)) - 6}
+                      y="-25"
+                      width={Math.min(200, Math.max(80, m.title.length * 7)) + 12}
+                      height="18"
+                      rx="5"
+                      fill="var(--surface-card)"
+                      stroke="var(--separator)"
+                      strokeWidth="0.5"
+                    />
+                    <text
+                      y="-12"
+                      textAnchor="middle"
+                      className={g.mapPinLabel}
+                    >
+                      {m.title}
+                    </text>
+                  </g>
                 )}
               </g>
             )
           })}
         </svg>
 
-        <div className={g.placesMapBadge}>
-          <Icon name="map-pin" weight="fill" size={14} />
-          <span>{t('guide.placesCount', { count: items.length, defaultValue: `${items.length} locations` })}</span>
+        <div style={{ position: 'absolute', top: 12, right: 12, display: 'flex', gap: 8, alignItems: 'center' }}>
+          <button
+            type="button"
+            className={g.mapViewBtn}
+            onClick={() => setRegional((v) => !v)}
+            aria-label={regional ? t('guide.worldView', { defaultValue: 'World View' }) : t('guide.regionView', { defaultValue: 'Regional Focus' })}
+          >
+            <Icon name={regional ? 'globe' : 'magnifying-glass-plus'} weight="bold" size={13} />
+            <span>{regional ? t('guide.world', { defaultValue: 'World' }) : t('guide.region', { defaultValue: 'Region' })}</span>
+          </button>
+          <div className={g.placesMapBadge} style={{ position: 'static' }}>
+            <Icon name="map-pin" weight="fill" size={14} />
+            <span>{t('guide.placesCount', { count: items.length, defaultValue: `${items.length} locations` })}</span>
+          </div>
         </div>
       </div>
 

@@ -1,11 +1,9 @@
 import { useEffect, useRef, useState } from 'react'
 import { useTranslation } from 'react-i18next'
-import { ACHIEVEMENTS } from '@/data/derive/achievements'
 import { lagoPhase } from '@/data/derive/lago'
 import { useSettings } from '@/data/hooks'
 import { useStore } from '@/data/store'
 import { unlock } from '@/lib/applock'
-import { haptic } from '@/lib/haptics'
 import { isIOSSafari, isStandalone } from '@/lib/platform'
 import navCss from '@/nav/nav.module.css'
 import { useNav } from '@/nav/store'
@@ -47,25 +45,6 @@ function Toast() {
       </div>
     </div>
   )
-}
-
-/** Announces achievement unlocks one at a time. */
-function UnlockWatcher() {
-  const { t } = useTranslation()
-  const next = useStore((s) => s.unlockQueue[0])
-  const shift = useStore((s) => s.shiftUnlock)
-  const toast = useNav((n) => n.toast)
-  useEffect(() => {
-    if (!next || toast) return
-    const a = ACHIEVEMENTS.find((x) => x.key === next)
-    haptic('success')
-    useNav.getState().showToast(t('ach.toast', { name: t(`ach.names.${next}`) }), {
-      icon: a?.icon ?? 'medal',
-      action: { label: t('ach.view'), run: () => useNav.getState().openSheet({ name: 'achievements', focus: next }) },
-    })
-    shift()
-  }, [next, toast, shift, t])
-  return null
 }
 
 /** First-run "Add to Home Screen" coachmark: Safari only, not when already installed, dismissible, shown once. */
@@ -222,7 +201,6 @@ export function Overlays() {
   return (
     <>
       <ServiceWorkerBridge />
-      <UnlockWatcher />
       <InstallCoachmark />
       <Toast />
       <PrivacyGate />

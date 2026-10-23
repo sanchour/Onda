@@ -23,7 +23,6 @@ import { Avatar } from '@/ui/data'
 import { Icon } from '@/ui/Icon'
 import { ListRow, ListSection } from '@/ui/lists'
 import { DayScroller } from '@/ui/pickers'
-import { OrnamentIcon } from './KindArt'
 import { guardNewLago } from './lagoActions'
 import c from './onda7/onda7.module.css'
 import { guardCreateOnda, OrnDivider, useOndaScope } from './ondaShared'
@@ -113,19 +112,19 @@ export default function Settings({ entry }: { entry: Extract<StackEntry, { name:
     // 8.0: everything you can add lives here: a new Onda or Lago, the bookshop of Ondas and the Gallery of Lagos
     add: (
       <div className={m.add}>
-        <div className={m.addGrid}>
-          <button type="button" className={m.addTile} data-frame={scope?.look.layout === 'frame' || undefined} onClick={() => guardCreateOnda(t) && openSheet({ name: 'createOnda' })}>
-            <span className={m.addIcon} aria-hidden>{scope?.themed ? <OrnamentIcon name={scope.look.ornament} size={26} /> : <Icon name="waves" weight="regular" size={26} />}</span>
-            <span className={m.addTitle}>{t('settings.add.newOnda')}</span>
-            <span className={m.addSub}>{t('settings.add.newOndaSub')}</span>
-          </button>
-          <button type="button" className={m.addTile} data-frame={scope?.look.layout === 'frame' || undefined} onClick={() => guardNewLago(t) && openSheet({ name: 'lagoForm' })}>
-            <span className={m.addIcon} aria-hidden><Icon name="wave-soft" weight="regular" size={26} /></span>
-            <span className={m.addTitle}>{t('settings.add.newLago')}</span>
-            <span className={m.addSub}>{t('settings.add.newLagoSub')}</span>
-          </button>
-        </div>
-        <ListSection footer={t('settings.add.footer')}>
+        <ListSection header={t('settings.hub.add')}>
+          <ListRow
+            icon="waves"
+            title={t('settings.add.newOnda')}
+            subtitle={t('settings.add.newOndaSub')}
+            onClick={() => guardCreateOnda(t) && openSheet({ name: 'createOnda' })}
+          />
+          <ListRow
+            icon="wave-soft"
+            title={t('settings.add.newLago')}
+            subtitle={t('settings.add.newLagoSub')}
+            onClick={() => guardNewLago(t) && openSheet({ name: 'lagoForm' })}
+          />
           <ListRow icon="compass" title={t('settings.add.browseOndas')} onClick={() => push({ name: 'allOndas' })} />
           <ListRow icon="squares-four" title={t('settings.add.browseLagos')} onClick={() => push({ name: 'gallery' })} />
         </ListSection>
@@ -311,10 +310,9 @@ export default function Settings({ entry }: { entry: Extract<StackEntry, { name:
             </span>
           </button>
 
-          <section className={m.gap28} aria-labelledby="set-add">
-            <h2 id="set-add" className={m.addHead}>{t('settings.hub.add')}</h2>
+          <div className={m.gap28}>
             {pages.add}
-          </section>
+          </div>
 
           <div className={m.gap28}>
             <ListSection>

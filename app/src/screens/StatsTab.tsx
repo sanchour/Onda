@@ -1,12 +1,12 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { useTranslation } from 'react-i18next'
-import { ACHIEVEMENTS } from '@/data/derive/achievements'
 import { runDay, runEndDate } from '@/data/derive/onda'
 import { activeDates, activityBars, activityByDate, consistency, summarize, type Range } from '@/data/derive/stats'
 import { useLookFn, useOndaList } from '@/data/hooks'
 import { useStore } from '@/data/store'
 import { MONTHS, dateOf, fmtShortDate, fromDateStr, monthGrid } from '@/lib/dates'
 import { useDesk } from '@/lib/desk'
+import { haptic } from '@/lib/haptics'
 import { Screen } from '@/nav/Screen'
 import { useNav } from '@/nav/store'
 import { GlassButton } from '@/ui/buttons'
@@ -19,7 +19,7 @@ import m from './more.module.css'
 import s from './screens.module.css'
 import k from './statsDesk.module.css'
 
-/** Consistency as a barometer: a half dial with a knob, the score in the middle and the tier beneath. Nothing else. */
+/** Clean, minimal consistency meter: sleek arc with percentage and tier badge pill. */
 function Barometer({ score, tier, bare }: { score: number; tier: 'finding' | 'building' | 'steady' | 'lockedIn'; bare?: boolean }) {
   const { t } = useTranslation()
   const [shown, setShown] = useState(0)
@@ -29,22 +29,13 @@ function Barometer({ score, tier, bare }: { score: number; tier: 'finding' | 'bu
   }, [score])
   const tierLabel = t(`stats.tier${tier[0]!.toUpperCase()}${tier.slice(1)}`)
   const pct = Math.round(score * 100)
-  const tick = (v: number) => {
-    const th = Math.PI * (1 - v)
-    const p = (r: number) => `${(110 + r * Math.cos(th)).toFixed(1)} ${(110 - r * Math.sin(th)).toFixed(1)}`
-    return `M${p(70)}L${p(77)}`
-  }
   return (
     <div className={bare ? undefined : m.baroCard} role="img" aria-label={t('stats.consistencyAria', { pct, tier: tierLabel })}>
       <h2 className={s.h20}>{t('stats.consistency')}</h2>
       <div className={m.baro}>
-        <svg viewBox="0 0 220 124" aria-hidden focusable="false">
+        <svg viewBox="0 0 220 120" aria-hidden focusable="false">
           <path d="M22 110A88 88 0 0 1 198 110" className={m.baroTrack} pathLength={1} />
           <path d="M22 110A88 88 0 0 1 198 110" className={m.baroFill} pathLength={1} strokeDasharray={`${Math.max(shown, 0.002)} 1`} />
-          <path d={`${tick(0.4)}${tick(0.7)}${tick(0.9)}`} className={m.baroTicks} />
-          <g className={m.baroKnob} style={{ transform: `rotate(${shown * 180}deg)` }}>
-            <circle cx="22" cy="110" r="13" />
-          </g>
         </svg>
         <div className={m.baroRead}>
           <div className={m.baroPct}>
@@ -70,13 +61,13 @@ export default function StatsTab() {
   const practiceLogs = useStore((x) => x.practiceLogs)
   const journal = useStore((x) => x.journal)
   const reflections = useStore((x) => x.reflections)
-  const achievements = useStore((x) => x.achievements)
   const today = useStore((x) => x.today)
   const ondas = useOndaList()
   const look = useLookFn()
   const [range, setRange] = useState<Range>('week')
   const [closed, setClosed] = useState<Record<string, boolean>>({})
   const [back, setBack] = useState(0) // months before the current one, 0..11
+  const touchStart = useRef<{ x: number; y: number } | null>(null)
   // the month's Ondas under the calendar stay folded away until asked for
   const [showRuns, setShowRuns] = useState(false)
   const scope = useOndaScope()
@@ -89,7 +80,6 @@ export default function StatsTab() {
   const bars = useMemo(() => activityBars(range, act, today), [range, act, today])
   const has = useMemo(() => activeDates(input, act), [input, act])
   const max = Math.max(1, ...bars.map((b) => b.value))
-  const unlocked = new Set(achievements.filter((a) => !a.deletedAt).map((a) => a.key))
   const myRuns = runs.filter((r) => !r.deletedAt)
   // Each run covers the days from its start to its end (or today while it is running); the calendar marks them in the Onda's colour.
   const spans = myRuns.map((r) => {
@@ -153,7 +143,33 @@ export default function StatsTab() {
     </div>
   )
   const calendar = (
-    <>
+    <div
+      className={m.calSwiper}
+      onTouchStart={(e) => {
+        const t = e.touches[0]
+        if (t) touchStart.current = { x: t.clientX, y: t.clientY }
+      }}
+      onTouchEnd={(e) => {
+        const t = e.changedTouches[0]
+        if (!touchStart.current || !t) return
+        const dx = t.clientX - touchStart.current.x
+        const dy = t.clientY - touchStart.current.y
+        touchStart.current = null
+        if (Math.abs(dx) > 40 && Math.abs(dx) > Math.abs(dy) * 1.3) {
+          if (dx < 0) {
+            if (back > 0) {
+              haptic('select')
+              setBack((b) => Math.max(0, b - 1))
+            }
+          } else {
+            if (back < 11) {
+              haptic('select')
+              setBack((b) => Math.min(11, b + 1))
+            }
+          }
+        }
+      }}
+    >
       <div className={s.calHead}>
         <button type="button" className={s.calNav} aria-label={t('a11y.previousMonth')} disabled={back >= 11} onClick={() => setBack((b) => Math.min(11, b + 1))}>
           <Icon name="caret-left" weight="bold" size={18} />
@@ -199,7 +215,7 @@ export default function StatsTab() {
           )
         })}
       </div>
-    </>
+    </div>
   )
   const runLines = inMonth.map((x) => {
     const r = x.run
@@ -228,24 +244,6 @@ export default function StatsTab() {
       </button>
     )
   })
-  const achCard = (
-    <button type="button" className={m.achCard} onClick={() => openSheet({ name: 'achievements' })}>
-      <span className={m.achHead}>
-        <span className={s.h20}>{t('stats.achievements')}</span>
-        <span className={m.achMeta}>
-          <span>{t('stats.achCount', { count: unlocked.size })}</span>
-          <Icon name="caret-right" weight="bold" size={16} color="var(--label-tertiary)" />
-        </span>
-      </span>
-      <span className={m.achPreview} aria-hidden>
-        {ACHIEVEMENTS.slice(0, 6).map((a, i) => (
-          <span key={a.key} className={unlocked.has(a.key) ? `${m.achDot} ${m.achOn}` : m.achDot} style={unlocked.has(a.key) ? { background: VIZ[i % 5] } : undefined}>
-            <Icon name={a.icon} weight="fill" size={22} />
-          </span>
-        ))}
-      </span>
-    </button>
-  )
 
   if (desk)
     return (
@@ -296,28 +294,6 @@ export default function StatsTab() {
                 </button>
                 {showRuns && (inMonth.length > 0 ? <div className={`${m.runList} ${k.runs}`}>{runLines}</div> : <p className={k.note}>{t('stats.noOndas')}</p>)}
               </section>
-              <button type="button" className={`${k.card} ${k.ach}`} onClick={() => openSheet({ name: 'achievements' })}>
-                <span className={k.cardHead}>
-                  <span className={s.h20}>{t('stats.achievements')}</span>
-                  <span className={k.meta}>
-                    {t('stats.achCount', { count: unlocked.size })}
-                    <Icon name="caret-right" weight="bold" size={16} color="var(--label-tertiary)" />
-                  </span>
-                </span>
-                <span className={k.achGrid}>
-                  {ACHIEVEMENTS.map((a, i) => {
-                    const on = unlocked.has(a.key)
-                    return (
-                      <span key={a.key} className={k.achTile} data-on={on ? '' : undefined}>
-                        <span className={k.achIcon} style={on ? { background: VIZ[i % 5] } : undefined}>
-                          <Icon name={a.icon} weight="fill" size={20} />
-                        </span>
-                        <span>{t(`ach.names.${a.key}`)}</span>
-                      </span>
-                    )
-                  })}
-                </span>
-              </button>
             </div>
           </div>
         </div>
@@ -352,8 +328,6 @@ export default function StatsTab() {
             </div>
           </>
         )}
-
-        {achCard}
 
         <SectionToggle title={t('stats.history')} open={!closed.hist} onToggle={toggle('hist')} />
         {!closed.hist && (

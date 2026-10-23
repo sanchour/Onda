@@ -1,156 +1,159 @@
 import { useLayoutEffect, useMemo, useRef, useState } from 'react'
 import { useTranslation } from 'react-i18next'
-import { ONDA_INDEX, KIND_ICON, MEDIA_KINDS, mediaFor, type MediaKind } from '@/content'
+import { ONDA_INDEX, KIND_ICON, MEDIA_KINDS, mediaFor, type MediaItem, type MediaKind } from '@/content'
 import { immerseSet, runSummary } from '@/data/derive/onda'
 import { useLook, useOndaIndex, useSettings } from '@/data/hooks'
 import { useStore } from '@/data/store'
 import { haptic } from '@/lib/haptics'
 import { EASE_ENTER, PUSH_MS, reducedMotion } from '@/lib/motion'
-import { BackButton, ChromeSpacer, ChromeTitle, Screen } from '@/nav/Screen'
+import { BackButton, ChromeSpacer, ChromeTitle, GlassHead, Screen } from '@/nav/Screen'
 import navCss from '@/nav/nav.module.css'
 import { useNav, type StackEntry } from '@/nav/store'
 import { Button } from '@/ui/buttons'
-import { Switch } from '@/ui/controls'
+import { GlassTabs, Switch } from '@/ui/controls'
 import { StepBar } from '@/ui/data'
 import { Icon } from '@/ui/Icon'
-import { OndaBanner, useActiveOnda } from './ondaShared'
+import { MediaCard } from './MediaCard'
+import { useActiveOnda } from './ondaShared'
 import { Cover } from './onda7'
 import o from './ondas.module.css'
 import s from './screens.module.css'
 
-/** Books and films carry their title on the cover. */
-const onCover = (k: MediaKind) => k === 'read' || k === 'watch'
-/** One of five tints, the same for an item every time. */
-const tintOf = (title: string) => [...title].reduce((h, ch) => (h * 31 + ch.charCodeAt(0)) >>> 0, 7) % 5
-/** The first letter that matters: skips a leading article. */
-const initialOf = (title: string) => (title.replace(/^(the|a|an|le|la|el|il|die|der|das)\s+/i, '').match(/[\p{L}\p{N}]/u)?.[0] ?? '').toUpperCase()
+/* ── Immersion (8.0): a glass header with a pill per kind. Featured shows what is up next in each kind, then every kind as a
+   shelf of cards shaped like its medium; a kind's tab shows its next item large, then the whole list. ── */
+type ImTab = MediaKind | 'featured'
 
-/* ── Immersion: a grid of kinds (Read, Watch, Listen, ...), then the list for one kind ── */
 export function Immersion({ entry }: { entry: Extract<StackEntry, { name: 'immersion' }> }) {
   const { t } = useTranslation()
-  const push = useNav((n) => n.push)
   const openSheet = useNav((n) => n.openSheet)
   const active = useActiveOnda()
   const settings = useSettings()
   const immerseLogs = useStore((x) => x.immerseLogs)
+  const pane = useRef<HTMLDivElement>(null)
+  const [tab, setTab] = useState<ImTab>(entry.kind ?? 'featured')
   const media = useMemo(() => (active?.content ? mediaFor(active.content, { includeFood: settings.includeFood }) : []), [active?.content, settings.includeFood])
   const done = useMemo(() => (active ? immerseSet(immerseLogs, active.run.id) : new Set<string>()), [immerseLogs, active])
   if (!active) return <Screen chrome={<BackButton />}>{null}</Screen>
 
+  const { look, run } = active
   const kinds = MEDIA_KINDS.filter((k) => media.some((m) => m.kind === k))
-  const kind = entry.kind && kinds.includes(entry.kind) ? entry.kind : undefined
-  const list = kind ? media.filter((m) => m.kind === kind) : []
-  // the next item you have not yet experienced, one per kind
-  const next = kinds.map((k) => media.find((m) => m.kind === k && !done.has(m.id))).filter((m): m is NonNullable<typeof m> => !!m)
+  const kind = tab !== 'featured' && kinds.includes(tab) ? tab : undefined
+  const ofKind = (k: MediaKind) => media.filter((m) => m.kind === k)
   const count = (k: MediaKind) => {
-    const all = media.filter((m) => m.kind === k)
+    const all = ofKind(k)
     return { total: all.length, seen: all.filter((m) => done.has(m.id)).length }
   }
+  // the next item you have not yet experienced, one per kind
+  const next = kinds.map((k) => media.find((m) => m.kind === k && !done.has(m.id))).filter((m): m is NonNullable<typeof m> => !!m)
+  const frame = look.layout === 'frame'
+  const pick = (k: ImTab) => {
+    setTab(k)
+    pane.current?.scrollTo({ top: 0 })
+  }
+  const toggle = (m: MediaItem) => {
+    haptic(done.has(m.id) ? 'select' : 'success')
+    useStore.getState().toggleImmerse(run.id, m.id)
+  }
+  const about = (m: MediaItem) => openSheet({ name: 'mediaInfo', item: m, ondaId: run.ondaId, runId: run.id })
+  const seenOf = (k: MediaKind) => t('immersion.kindCount', { done: count(k).seen, total: count(k).total })
+
+  const head = (
+    <GlassHead
+      title={t('immersion.title')}
+      tabs={
+        kinds.length > 0 && (
+          <GlassTabs<ImTab>
+            label={t('immersion.title')}
+            items={[{ key: 'featured', label: t('immersion.featured') }, ...kinds.map((k) => ({ key: k, label: t(`kindLabel.${k}`) }))]}
+            value={kind ?? 'featured'}
+            onChange={pick}
+          />
+        )
+      }
+    />
+  )
+
+  const hero = (m: MediaItem, tag: string, onClick: () => void, wide?: boolean) => (
+    <button type="button" className={wide ? `${o.upCard} ${o.upWide}` : o.upCard} data-frame={frame ? '' : undefined} onClick={onClick}>
+      <span className={o.upWater} aria-hidden><Icon name={KIND_ICON[m.kind]} weight="regular" size={176} /></span>
+      <span className={o.upTop}>
+        <span className={o.upTag}>{tag}</span>
+        <Icon name={KIND_ICON[m.kind]} weight="regular" size={22} />
+      </span>
+      <span className={o.upTitle}>{m.title}</span>
+      {(m.creator || m.meta) && <span className={o.upBy}>{m.creator || m.meta}</span>}
+    </button>
+  )
 
   return (
-    <Screen chrome={<BackButton />} desk="wide" style={active.look.vars} dataOnda={settings.ondaThemes ? active.run.ondaId : undefined}>
-      <div style={{ padding: '0 16px' }}>
-        <OndaBanner
-          look={active.look}
-          icon={kind ? KIND_ICON[kind] : 'headphones'}
-          kicker={active.index?.name}
-          title={kind ? t(`kindLabel.${kind}`) : t('immersion.title')}
-          sub={t('immersion.experienced', kind ? { done: count(kind).seen, total: count(kind).total } : { done: media.filter((m) => done.has(m.id)).length, total: media.length })}
-        />
-      </div>
+    <Screen variant="glass" head={head} scrollRef={pane} desk="wide" style={look.vars} dataOnda={settings.ondaThemes ? run.ondaId : undefined}>
+      {kinds.length === 0 && <div className={s.empty}><div className={s.sub}>{t('immersion.empty')}</div></div>}
 
-      {!kind && (
+      {!kind && kinds.length > 0 && (
         <>
           {next.length > 0 && (
             <section aria-label={t('immersion.upNext')}>
-              <h2 className={o.imHead}>{t('immersion.upNext')}</h2>
-              <div className={`hscroll ${o.imNext}`}>
+              <div className={`hscroll ${o.upRow}`}>
                 {next.map((m) => (
-                  <button key={m.id} type="button" className={o.imCard} onClick={() => openSheet({ name: 'mediaInfo', item: m, ondaId: active.run.ondaId, runId: active.run.id })}>
-                    <span className={o.imCardTop}>
-                      <span className={o.imCardKind}>{t(`kindLabel.${m.kind}`)}</span>
-                      <span className={o.imCardIcon} aria-hidden><Icon name={KIND_ICON[m.kind]} weight="regular" size={28} /></span>
-                    </span>
-                    <span className={o.imCardTitle}>{m.title}</span>
-                    {m.meta && <span className={o.imCardBy}>{m.meta}</span>}
-                  </button>
+                  <div key={m.id} className={o.upItem}>
+                    {hero(m, `${t('immersion.upNext')} · ${t(`kindLabel.${m.kind}`)}`, () => pick(m.kind))}
+                  </div>
                 ))}
               </div>
             </section>
           )}
-          <h2 className={o.imHead}>{t('immersion.library')}</h2>
-          <div className={o.imGrid}>
-            {kinds.map((k) => {
-              const c = count(k)
-              const n = t('immersion.kindCount', { done: c.seen, total: c.total })
-              const label = t(`kindLabel.${k}`)
-              const p = c.total ? c.seen / c.total : 0
-              return (
-                <button key={k} type="button" className={o.imTile} aria-label={`${label} ${n}`} onClick={() => push({ name: 'immersion', kind: k })}>
-                  <span className={o.imTileTop}>
-                    <span className={o.imTileIcon} aria-hidden><Icon name={KIND_ICON[k]} weight="regular" size={26} /></span>
-                    <svg className={o.imRing} viewBox="0 0 36 36" aria-hidden>
-                      <circle cx="18" cy="18" r="15" />
-                      {p > 0 && <circle cx="18" cy="18" r="15" data-on="" strokeDasharray={`${(p * 94.25).toFixed(2)} 94.25`} />}
-                    </svg>
-                  </span>
-                  <span className={o.imTileName}>{label}</span>
-                  <span className={o.imTileCount}>{n}</span>
-                </button>
-              )
-            })}
-          </div>
-          {kinds.length === 0 && <div className={s.empty}><div className={s.sub}>{t('immersion.empty')}</div></div>}
+          {kinds.map((k) => (
+            <section key={k} aria-label={t(`kindLabel.${k}`)} className={o.imSec}>
+              <button type="button" className={o.imSecHead} onClick={() => pick(k)} aria-label={`${t(`kindLabel.${k}`)}, ${seenOf(k)}`}>
+                <span className={o.imSecTitle}>{t(`kindLabel.${k}`)}</span>
+                <Icon name="caret-right" weight="bold" size={17} />
+                <span className={o.imSecCount}>{seenOf(k)}</span>
+              </button>
+              <div className={`hscroll ${o.imShelf}`}>
+                {ofKind(k).map((m) => (
+                  <MediaCard key={m.id} item={m} done={done.has(m.id)} onToggle={() => toggle(m)} onOpen={() => about(m)} ornament={look.ornament} frame={frame} />
+                ))}
+              </div>
+            </section>
+          ))}
         </>
       )}
 
-      {kind && (
-        <>
-          <div className={o.libHead}>
-            <span>{t('immersion.shelf', { count: list.length })}</span>
-            <span className={o.libMeter} aria-hidden>
-              <i style={{ width: `${list.length ? (count(kind).seen / list.length) * 100 : 0}%` }} />
-            </span>
-          </div>
-          <ul className={o.lib} data-layout={kind}>
-            {list.map((m, i) => {
-              const on = done.has(m.id)
-              return (
-                <li key={m.id} className={on ? `${o.libCard} ${o.libOn}` : o.libCard} data-tint={tintOf(m.title)}>
-                  <button type="button" className={o.libOpen} aria-label={t('immersion.about', { name: m.title })} onClick={() => openSheet({ name: 'mediaInfo', item: m, ondaId: active.run.ondaId, runId: active.run.id })}>
-                    <span className={o.libThumb} data-kind={m.kind} aria-hidden>
-                      <span className={o.libInitial}>{initialOf(m.title)}</span>
-                      {onCover(m.kind) && <span className={o.libCoverTitle}>{m.title}</span>}
-                      {m.kind === 'read' && m.creator && <span className={o.libCoverBy}>{m.creator}</span>}
-                      <span className={o.libNo}>{active.look.numeral(i + 1)}</span>
-                    </span>
-                    <span className={o.libText}>
-                      {!onCover(m.kind) && <span className={o.libTitle}>{m.title}</span>}
-                      {m.extra && <span className={o.libExtra}>{m.extra}</span>}
-                      {m.meta && <span className={o.libBy}>{m.meta}</span>}
-                      {m.why && <span className={o.libWhy}>{m.why}</span>}
-                    </span>
-                  </button>
-                  <button
-                    type="button"
-                    role="checkbox"
-                    aria-checked={on}
-                    aria-label={t('a11y.markDone', { name: m.title })}
-                    className={o.libStamp}
-                    onClick={() => {
-                      haptic(on ? 'select' : 'success')
-                      useStore.getState().toggleImmerse(active.run.id, m.id)
-                    }}
-                  >
-                    <Icon name="check" weight="bold" size={16} />
-                  </button>
-                </li>
-              )
-            })}
-          </ul>
-        </>
-      )}
-      {kind && <div className={o.footnote}>{t('immersion.footer')}</div>}
+      {kind && (() => {
+        const list = ofKind(kind)
+        const first = list.find((m) => !done.has(m.id))
+        const top = first ?? list[0]!
+        return (
+          <>
+            <div className={o.kindHero}>{hero(top, first ? t('immersion.nextUp') : t('immersion.allDone'), () => toggle(top), true)}</div>
+            <div className={o.imSecHead} role="presentation">
+              <span className={o.imSecTitle}>{t(`kindLabel.${kind}`)}</span>
+              <span className={o.imSecCount}>{seenOf(kind)}</span>
+            </div>
+            <ul className={o.kindList}>
+              {list.map((m) => {
+                const on = done.has(m.id)
+                return (
+                  <li key={m.id} className={o.kindRow}>
+                    <button type="button" className={o.kindOpen} aria-label={t('immersion.about', { name: m.title })} onClick={() => about(m)}>
+                      <span className={o.kindTile} aria-hidden><Icon name={KIND_ICON[m.kind]} weight="regular" size={24} /></span>
+                      <span className={o.kindText}>
+                        <span className={o.kindTitle}>{m.title}</span>
+                        {(m.creator || m.year || m.meta) && <span className={o.kindMeta}>{m.kind === 'words' ? m.meta : [m.creator, m.year].filter(Boolean).join(' · ') || m.meta}</span>}
+                        {m.why && <span className={o.kindWhy}>{m.why}</span>}
+                      </span>
+                    </button>
+                    <button type="button" role="checkbox" aria-checked={on} aria-label={t('a11y.markDone', { name: m.title })} className={o.kindCheck} onClick={() => toggle(m)}>
+                      <span data-on={on ? '' : undefined} aria-hidden>{on && <Icon name="check" weight="bold" size={15} />}</span>
+                    </button>
+                  </li>
+                )
+              })}
+            </ul>
+            <div className={o.footnote}>{t('immersion.footer')}</div>
+          </>
+        )
+      })()}
     </Screen>
   )
 }

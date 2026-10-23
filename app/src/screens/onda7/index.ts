@@ -14,5 +14,5 @@
    Every primitive reads --onda-* from the nearest wrapper (spread look.vars) and falls back to system colours without it. */
 
 export { Cover, type CoverProps } from './Cover'
-export { CheckCircle, GroupedList, QuoteBlock, Row, SearchField, SectionHeader, ShortcutBar, type RowProps } from './lists'
+export { CheckCircle, GroupedList, QuoteBlock, Row, SearchField, SectionHeader, ShortcutBar, ShowAll, useCap, type RowProps } from './lists'
 export { PlanList, PracticeRow, type PracticeInfo, type PracticeOpen } from './PracticeRow'

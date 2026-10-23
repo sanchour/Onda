@@ -17,6 +17,7 @@ export type Route =
   | { name: 'immersion'; kind?: MediaKind }
   | { name: 'guide'; ondaId: string }
   | { name: 'journal' }
+  | { name: 'journalWrite'; day?: number }
   | { name: 'philosophy' }
   | { name: 'rules' }
   | { name: 'pickOndas' }
@@ -31,7 +32,6 @@ export type SheetRoute =
   | { name: 'lagoForm'; editId?: string }
   | { name: 'lagoInfo'; info: GalleryLago }
   | { name: 'ondaPractices'; ondaId: string }
-  | { name: 'journalEdit'; day?: number; fromList?: boolean }
   | { name: 'mediaInfo'; item: MediaItem; ondaId: string; runId?: string; note?: string }
   | { name: 'practiceInfo'; ondaId: string; practiceId: string; twist?: string }
   | { name: 'createOnda' }

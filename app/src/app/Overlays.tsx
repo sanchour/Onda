@@ -156,7 +156,7 @@ function ServiceWorkerBridge() {
       const n = useNav.getState()
       if (action === 'journal' && st.runs.some((r) => r.state === 'active' && !r.deletedAt)) {
         n.popToRoot('ondas')
-        n.openSheet({ name: 'journalEdit' })
+        n.push({ name: 'journalWrite' })
         return
       }
       if (action !== 'checkin') return

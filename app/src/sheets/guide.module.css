@@ -33,59 +33,23 @@ button.foldBtn:active{opacity:.75}
 .steps{margin:0;padding:0 0 0 20px}
 .steps li{margin-top:4px}
 .subHead{font:600 var(--fs-12) var(--font-sans);letter-spacing:.06em;text-transform:uppercase;color:var(--label-tertiary);display:block;margin-bottom:6px}
-.linkBtn{display:inline-flex;align-items:center;gap:6px;font:500 var(--fs-15) var(--font-sans);color:var(--onda-text);padding:6px 0;margin:-6px 0}
 
 /* ── Guide ───────────────────────────────────────────────── */
-.tabs{display:flex;gap:8px;padding:2px 16px 4px}
 .tab{display:inline-flex;align-items:center;gap:7px;height:40px;padding:0 15px 0 12px;border-radius:999px;background:var(--surface-card);color:var(--label-secondary);font:500 var(--fs-15) var(--font-sans);white-space:nowrap;transition:background var(--duration-standard),color var(--duration-standard)}
 .tab:active{opacity:.75}
-.tabOn{background:var(--onda-deep);color:var(--onda-on);font-weight:600}
 .panel{padding:0 16px;animation:panelIn var(--duration-large) var(--ease-enter) both}
 @keyframes panelIn{from{opacity:0;transform:translate3d(0,8px,0)}to{opacity:1;transform:translate3d(0,0,0)}}
 @media (prefers-reduced-motion:reduce){.panel{animation:none}}
 .stack{display:flex;flex-direction:column;gap:10px}
-.toolbar{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:2px 4px 12px}
 .lead{font:italic 500 var(--fs-17)/1.4 var(--onda-font);color:var(--label-secondary);text-wrap:pretty}
-.toggleAll{font:500 var(--fs-15) var(--font-sans);color:var(--onda-text);padding:10px 4px;margin:-10px -4px;flex:none}
-.sectionHead{display:flex;align-items:center;gap:10px;margin:26px 4px 12px;font:700 var(--fs-20)/1.2 var(--font-sans);letter-spacing:var(--tracking-title)}
-.sectionHead:first-child{margin-top:4px}
-.sectionHead small{font:500 var(--fs-13) var(--font-sans);color:var(--label-tertiary);margin-left:auto}
-.kindHead{display:flex;align-items:center;gap:12px;margin:26px 4px 12px}
-.kindHead:first-child{margin-top:4px}
-.kindHead svg{width:56px;height:38px;flex:none}
-.kindHead h3{font:700 var(--fs-20)/1.2 var(--font-sans);letter-spacing:var(--tracking-title);margin:0}
-.kindHead small{font:500 var(--fs-13) var(--font-sans);color:var(--label-tertiary);margin-left:auto}
-
-.introLead{font:500 var(--fs-21)/1.45 var(--font-serif);text-wrap:pretty;margin:2px 4px 0}
-.introLead::first-letter{font-family:var(--onda-font);font-size:1.9em;float:left;line-height:.9;padding:4px 8px 0 0;color:var(--onda-text)}
-.introMore{font:400 var(--fs-16)/1.55 var(--font-sans);color:var(--label-secondary);white-space:pre-line;margin:12px 4px 0;text-wrap:pretty}
 .readMore{font:500 var(--fs-15) var(--font-sans);color:var(--onda-text);margin:10px 4px 0;padding:8px 0}
 .pair{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:18px}
 .pairCard{background:var(--surface-card);border-radius:var(--onda-radius,22px);padding:14px 16px;min-width:0}
-.pairLabel{display:flex;align-items:center;gap:6px;font:600 var(--fs-11) var(--font-sans);letter-spacing:.07em;text-transform:uppercase;color:var(--onda-text)}
-.pairValue{font:500 var(--fs-16)/1.3 var(--onda-font);margin-top:6px;text-wrap:pretty}
 .note{display:flex;gap:12px;margin-top:12px;padding:14px 16px;border-radius:var(--onda-radius,22px);background:color-mix(in srgb,var(--onda-solid) 50%,var(--surface-card));font:400 var(--fs-15)/1.45 var(--font-sans)}
 .note svg{flex:none;margin-top:2px;color:var(--onda-text)}
 .note b{display:block;font:600 var(--fs-15) var(--font-sans);margin-bottom:2px}
 
 .figures{padding:0 16px;margin:0 -16px;scroll-padding:0 16px}
-.figure{flex:none;width:236px;background:var(--surface-card);border-radius:var(--onda-radius,22px);padding:16px;display:flex;flex-direction:column;gap:6px}
-.figureTop{display:flex;align-items:center;gap:12px}
-.figureAv{width:46px;height:46px;flex:none;display:flex;align-items:center;justify-content:center;border-radius:var(--onda-shape,50%);clip-path:var(--onda-clip,none);background:var(--onda-solid);color:var(--onda-ink);font:600 var(--fs-19)/1 var(--onda-font)}
-.figureName{font:600 var(--fs-17)/1.2 var(--onda-font)}
-.figureDates{font:400 var(--fs-13) var(--font-sans);color:var(--label-tertiary)}
-.figureBio{font:400 var(--fs-14)/1.45 var(--font-sans);color:var(--label-secondary);text-wrap:pretty}
-
-.timeline{position:relative;display:flex;flex-direction:column;gap:12px;padding-left:26px}
-.timeline::before{content:"";position:absolute;left:7px;top:14px;bottom:14px;width:2px;border-radius:1px;background:linear-gradient(to bottom,var(--onda-strong),color-mix(in srgb,var(--onda-strong) 25%,transparent))}
-.tlItem{position:relative}
-.tlItem::before{content:"";position:absolute;left:-26px;top:20px;width:16px;height:16px;border-radius:50%;background:var(--surface-page);border:3px solid var(--onda-strong);box-sizing:border-box}
-.tlOpen::before{background:var(--onda-strong)}
-.tlWhen{font:600 var(--fs-13) var(--font-sans);letter-spacing:.04em;color:var(--onda-text)}
-
-.factCard{background:var(--onda-fill);color:var(--onda-ink);border-radius:var(--onda-radius,26px);padding:22px 22px 20px;min-height:178px;display:flex;flex-direction:column;justify-content:space-between;gap:14px;position:relative;overflow:hidden}
-.factN{font:600 var(--fs-12) var(--font-sans);letter-spacing:.08em;text-transform:uppercase;opacity:.88}
-.factText{font:500 var(--fs-19)/1.45 var(--font-serif);text-wrap:pretty}
 
 /* ── Deck (carousel) ─────────────────────────────────────── */
 .deck{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;padding:0 16px;margin:0 -16px;scroll-padding:0 16px}
@@ -96,9 +60,6 @@ button.foldBtn:active{opacity:.75}
 .dotOn::after{width:20px;border-radius:4px;background:var(--onda-strong)}
 
 /* ── Philosophy ──────────────────────────────────────────── */
-.phOrn{opacity:.5}
-.phCount{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:18px 4px 10px;font:500 var(--fs-14) var(--font-sans);color:var(--label-secondary)}
-.phPicked{color:var(--onda-text);font-weight:600}
 .phTry{display:flex;align-items:flex-start;gap:12px;padding:12px 14px;border-radius:16px;background:color-mix(in srgb,var(--onda-solid) 55%,var(--surface-card));width:100%;text-align:start;color:var(--label);white-space:normal;transition:background var(--duration-standard)}
 .phTry:active{opacity:.8}
 .phTryOn{background:var(--onda-deep);color:var(--onda-on)}
@@ -125,20 +86,12 @@ button.foldBtn:active{opacity:.75}
 .miActions{display:flex;flex-direction:column;gap:10px;margin-top:22px}
 
 /* ── Full guide as a page ────────────────────────────────── */
-.pageTop{padding-top:calc(var(--chrome-top) + 54px)}
 .topMask{position:absolute;z-index:-1;left:-16px;right:-16px;top:calc(-1 * var(--chrome-top));height:calc(var(--chrome-top) + 62px);pointer-events:none;background:linear-gradient(to bottom,var(--surface-grouped) 78%,transparent)}
-.sticky{position:sticky;top:calc(var(--chrome-top) + 52px);z-index:20;background:var(--surface-grouped);padding:6px 0 8px;margin-top:2px}
-.sticky::after{content:"";position:absolute;left:0;right:0;bottom:-10px;height:10px;background:linear-gradient(to bottom,var(--surface-grouped),transparent);pointer-events:none}
-.jumpRow{display:flex;gap:8px;padding:8px 16px 2px}
-.jumpChip{display:inline-flex;align-items:center;gap:6px;height:32px;padding:0 13px;border-radius:999px;border:1.5px solid color-mix(in srgb,var(--onda-strong) 45%,transparent);color:var(--onda-text);font:500 var(--fs-14) var(--font-sans);white-space:nowrap;background:transparent}
-.jumpChip:active{background:var(--onda-solid)}
-.jumpChip small{font:600 var(--fs-12) var(--font-sans);opacity:.88}
 .group{scroll-margin-top:calc(var(--chrome-top) + 54px + 92px)}
 .groupHead{display:flex;align-items:center;gap:10px;width:100%;margin:22px 0 10px;padding:4px 4px;text-align:start;font:700 var(--fs-20)/1.2 var(--font-sans);letter-spacing:var(--tracking-title)}
 .groupHead h3{margin:0;font:inherit;letter-spacing:inherit}
 .groupHead small{margin-left:auto;font:500 var(--fs-13) var(--font-sans);color:var(--label-tertiary)}
 .groupHead .caret{padding-top:0}
-.groupKind svg{width:56px;height:38px;flex:none}
 .group:first-child .groupHead{margin-top:4px}
 
 /* an opened card is for reading: its text takes the full label colour */
@@ -146,26 +99,17 @@ button.foldBtn:active{opacity:.75}
 
 /* 5.2.1: the Full guide in dark mode. The grey used for secondary text was correct on paper but dim for long reading on a dark page.
    Brighter secondary text, a little more room between lines, and the tab labels you are not on easier to see. */
-:global([data-theme="dark"]) :is(.foldSub,.lead,.introMore,.phCount){color:#D6D6DC}
-:global([data-theme="dark"]) .tab:not(.tabOn){color:#D6D6DC}
 :global([data-theme="dark"]) .subHead{color:#C8C8CE}
-:global([data-theme="dark"]) .introMore{line-height:1.65}
 :global([data-theme="dark"]) .foldBody{line-height:1.6}
 :global([data-theme="dark"]) .foldSub{line-height:1.45}
-:global([data-theme="dark"]) :is(.toggleAll,.jumpChip){color:color-mix(in srgb,var(--onda-text) 65%,#fff)}
 
 /* ══ Onda 7: the guide, philosophy and sheets as calm grouped lists ══════════
    One rounded container per group with hairlines inset to the text, system type for reading,
    the Onda's display face only for words and the cover, the accent only for numerals, dates and actions. */
-.tabs{gap:4px;padding:4px 16px 6px}
 .tab{height:36px;padding:0 15px;gap:0;background:transparent;color:var(--label-secondary);font:500 var(--fs-15) var(--font-sans)}
-.tabOn{background:var(--label);color:var(--surface-card);font-weight:600}
-.jumpChip{height:30px;border:0;background:color-mix(in srgb,var(--label) 6%,transparent);color:var(--label);font-weight:500}
-.jumpChip small{color:var(--label-secondary)}
 .lead{font:400 var(--fs-17)/1.45 var(--font-sans);font-style:normal;text-transform:none;letter-spacing:0;color:var(--label-secondary)}
-.sectionHead,.groupHead,.kindHead h3{font:600 var(--fs-13)/1.3 var(--font-sans);letter-spacing:.04em;text-transform:uppercase;color:var(--label-secondary)}
-.sectionHead,.groupHead{margin:26px 4px 8px;padding:0 16px}
-.groupKind svg,.kindHead svg{display:none}
+.groupHead{font:600 var(--fs-13)/1.3 var(--font-sans);letter-spacing:.04em;text-transform:uppercase;color:var(--label-secondary)}
+.groupHead{margin:26px 4px 8px;padding:0 16px}
 
 .stack{gap:0;background:var(--surface-card);border-radius:24px;overflow:hidden}
 .stack > *{position:relative}
@@ -186,107 +130,31 @@ button.foldBtn:active{opacity:.75}
 .phTryOn{background:var(--onda-deep);color:var(--onda-on)}
 .phTryBox{border-radius:50%;border-width:1.5px}
 .phTryOn .phTryBox{background:var(--onda-on);border-color:var(--onda-on);color:var(--onda-deep)}
-.linkBtn,.toggleAll,.readMore{color:var(--onda-accent,var(--onda-text))}
-
-.introLead{font:400 var(--fs-20)/1.5 var(--font-serif)}
-.introLead::first-letter{color:var(--onda-accent,var(--onda-text))}
+.readMore{color:var(--onda-accent,var(--onda-text))}
 .pairCard{border-radius:20px}
-.pairLabel{color:var(--label-secondary)}
-.pairLabel svg{display:none}
-.pairValue{font:500 var(--fs-16)/1.3 var(--font-sans);text-transform:none}
 .note{background:color-mix(in srgb,var(--onda-accent,var(--accent)) 7%,var(--surface-card));border-radius:20px}
 .note svg{color:var(--onda-accent,var(--onda-text))}
-.figure{border-radius:22px}
-.figureAv{background:none;clip-path:none;border-radius:50%;box-shadow:inset 0 0 0 1px color-mix(in srgb,var(--onda-accent,var(--accent)) 45%,transparent);color:var(--onda-accent,var(--onda-text));font:500 var(--fs-17)/1 var(--onda-font)}
-.figureName{font:600 var(--fs-16)/1.25 var(--font-sans);text-transform:none}
-.factCard{background:var(--onda-cover,var(--onda-fill));color:var(--onda-cover-ink,var(--onda-ink));border-radius:26px}
-.factText{text-transform:none}
 .dotOn::after{background:var(--onda-accent,var(--onda-strong))}
 
 /* history: one list, a hairline spine, dates in the accent */
-.timeline{gap:0;padding-left:0;background:var(--surface-card);border-radius:24px;overflow:hidden}
-.timeline::before{left:23px;top:26px;bottom:26px;width:1px;border-radius:0;background:color-mix(in srgb,var(--onda-accent,var(--onda-strong)) 30%,transparent)}
-.tlItem{position:relative;padding-left:30px}
-.tlItem + .tlItem::after{content:"";position:absolute;top:0;left:46px;right:0;height:.5px;background:var(--separator)}
-.tlItem::before{left:19px;top:21px;width:9px;height:9px;border:1.5px solid var(--onda-accent,var(--onda-strong));background:var(--surface-card)}
-.tlOpen::before{background:var(--onda-accent,var(--onda-strong))}
-.tlItem .foldTitle{font:600 var(--fs-13)/1.3 var(--font-sans);letter-spacing:.04em;text-transform:uppercase;color:var(--onda-accent,var(--onda-text))}
-.tlItem .foldSub{color:var(--label);font-size:var(--fs-16)}
-.tlItem .fold{background:none}
 
 /* media sheet */
 .miHero{height:84px;background:color-mix(in srgb,var(--onda-accent,var(--accent)) 7%,var(--surface-card))}
 .miTitle{text-transform:none}
 .miLink{background:color-mix(in srgb,var(--onda-accent,var(--accent)) 9%,var(--surface-card));color:var(--onda-accent,var(--label))}
-:global([data-theme="dark"]) .tabOn{background:#F2F2F7;color:#000}
 
 /* ── Onda 7: guide hub ── */
-.essence{margin:22px 8px 0;font:500 var(--fs-22)/1.35 var(--onda-font,var(--font-serif));letter-spacing:var(--onda-track,0);text-transform:none;text-wrap:balance;color:var(--label)}
 .glance{margin-top:18px;background:var(--surface-card);border-radius:22px;overflow:hidden}
-.glanceRow{position:relative;display:flex;align-items:baseline;justify-content:space-between;gap:16px;padding:13px 16px;font:400 var(--fs-15)/1.35 var(--font-sans)}
-.glanceRow span{color:var(--label-secondary);flex:none}
-.glanceRow b{font-weight:500;text-align:end;text-wrap:pretty}
-.glanceRow + .glanceRow::before{content:"";position:absolute;top:0;left:16px;right:0;height:.5px;background:var(--separator)}
-.chapters{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
-.chapter{display:flex;flex-direction:column;align-items:flex-start;gap:3px;min-height:122px;padding:14px 14px 14px 16px;border-radius:22px;text-align:start;
-  background:radial-gradient(120% 90% at 0% 0%,color-mix(in srgb,var(--onda-accent,var(--accent)) 9%,transparent),transparent 62%),var(--surface-card);transition:transform var(--duration-micro) var(--spring-snappy)}
-.chapter:active{transform:scale(.97)}
-.chapterTop{display:flex;align-items:flex-start;justify-content:space-between;width:100%;margin-bottom:auto}
-.chapterIcon{display:flex;color:var(--onda-accent,var(--accent))}
-.chapterN{font:500 var(--fs-15)/1 var(--onda-font,var(--font-serif));color:var(--label-tertiary)}
-.chapterName{margin-top:16px;font:600 var(--fs-17)/1.25 var(--font-sans);color:var(--label)}
-.chapterTeaser{font:400 var(--fs-13)/1.3 var(--font-sans);color:var(--label-secondary);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-.chapterTitle{margin:18px 4px 0;font:500 var(--fs-30)/1.12 var(--onda-font,var(--font-serif));letter-spacing:var(--onda-track,-0.01em);text-transform:var(--onda-case,none)}
-.sticky{padding-top:8px}
 
 /* ── Onda 7: the guide as one long read ── */
-.chapterSec{padding:0 16px;margin-top:40px;scroll-margin-top:calc(var(--chrome-top) + 128px)}
-.chapterSec:first-of-type{margin-top:22px}
-.chapterNo{margin:0 4px;font:500 var(--fs-15)/1 var(--onda-font,var(--font-serif));color:var(--onda-accent,var(--accent))}
-.chapterSec .chapterTitle{margin:6px 4px 0;font-size:var(--fs-30)}
-.chapterSec .lead{margin:4px 4px 16px}
-.chapterSec > .glance{margin-top:14px}
 .block{margin-top:14px}
 .block + .block{margin-top:22px}
-.blockHead{display:flex;align-items:baseline;gap:8px;margin:0 4px 8px;padding:0 12px;font:600 var(--fs-13)/1.3 var(--font-sans);letter-spacing:.04em;text-transform:uppercase;color:var(--label-secondary)}
-.blockHead small{font:inherit;color:var(--label-tertiary)}
 .showAll{display:inline-flex;align-items:center;gap:6px;min-height:44px;margin:4px 4px 0;padding:0 12px;font:500 var(--fs-15) var(--font-sans);color:var(--onda-accent,var(--accent))}
 .showAll:active{opacity:.6}
-.introLead{margin-top:18px}
-.essence{margin:20px 12px 0}
-.tabs{padding:6px 16px 8px}
 
 /* ── Onda 7: iOS pass ── */
-.essence{margin:20px 12px 0;font:600 var(--fs-20)/1.35 var(--font-sans);letter-spacing:-0.01em;text-transform:none;font-variant:normal;color:var(--label)}
-.chapterNo{margin:0 4px;font:600 var(--fs-13)/1.3 var(--font-sans);letter-spacing:.06em;text-transform:uppercase;color:var(--onda-accent,var(--accent))}
-.chapterSec .chapterTitle{margin:4px 4px 0;font:700 var(--fs-28)/1.2 var(--font-sans);letter-spacing:-0.012em;text-transform:none}
-.chapterSec .lead{margin:2px 4px 14px;font-size:var(--fs-15)}
-.sticky{background:transparent;padding:8px 16px 10px}
-.sticky::after{display:none}
-.sticky .tabs{gap:2px;padding:4px;border-radius:999px;background:var(--glass-fill-menu);border:var(--glass-border);-webkit-backdrop-filter:var(--glass-blur);backdrop-filter:var(--glass-blur);box-shadow:var(--glass-highlight),0 10px 24px -14px rgba(0,0,0,.3)}
-.sticky .tab{height:34px;padding:0 14px;border-radius:999px;color:var(--label);font:500 var(--fs-15) var(--font-sans)}
-.sticky .tabOn{background:color-mix(in srgb,var(--onda-accent,var(--accent)) 16%,transparent);color:var(--onda-accent,var(--accent));font-weight:600}
-.showRow{position:relative;display:flex;align-items:center;justify-content:space-between;width:100%;min-height:50px;padding:0 18px 0 16px;text-align:start;font:400 var(--fs-17) var(--font-sans);color:var(--onda-accent,var(--accent))}
-.showRow:active{background:var(--surface-fill)}
-.timeline > .showRow{padding-left:62px}
-.timeline > .showRow::before{content:"";position:absolute;top:0;left:62px;right:0;height:.5px;background:var(--separator)}
-.timeline:has(> .showRow)::before{bottom:76px}
-.figureAv{background:linear-gradient(180deg,color-mix(in srgb,var(--onda-accent,var(--accent)) 70%,#fff),var(--onda-accent,var(--accent)));box-shadow:none;color:#fff;font:600 var(--fs-17) var(--font-sans);letter-spacing:.02em}
-.sticky{background:linear-gradient(to bottom,var(--surface-grouped) 72%,color-mix(in srgb,var(--surface-grouped) 0%,transparent))}
-.sticky .tabs{background:color-mix(in srgb,var(--surface-card) 86%,transparent)}
-.pageTop .essence{margin:20px 20px 0}
-.pageTop + .sticky{margin-top:10px}
 
 /* ── Onda 7: Wikipedia touches: serif headings over a hairline that fold, an infobox, numbered references ── */
-.pageTop .essence{font:400 var(--fs-20)/1.4 var(--font-serif);letter-spacing:0;padding-bottom:16px;border-bottom:.5px solid var(--separator)}
-.chapterSec .chapterTitle{margin:4px 4px 0;padding-bottom:8px;border-bottom:.5px solid var(--separator);font:500 var(--fs-28)/1.2 var(--font-serif);letter-spacing:0}
-.chapterBtn{display:flex;align-items:center;justify-content:space-between;gap:12px;width:100%;min-height:44px;font:inherit;color:inherit;text-align:start}
-.chapterBtn:active{opacity:.6}
-.chapterCaret{flex:none;display:flex;color:var(--label-tertiary);transition:transform var(--duration-standard) var(--ease-enter)}
-.chapterShut{transform:rotate(-90deg)}
-.chapterSec .lead{margin:10px 4px 14px}
-.infobox{overflow:hidden;border:.5px solid var(--separator)}
-.infoHead{padding:12px 16px;text-align:center;font:600 var(--fs-17)/1.3 var(--font-serif);background:color-mix(in srgb,var(--onda-accent,var(--accent)) 12%,var(--surface-card));color:var(--label)}
 .refs{margin:0;padding:10px 16px 10px 40px;background:var(--surface-card);border-radius:24px;font:400 var(--fs-15)/1.45 var(--font-sans);color:var(--label)}
 .refs li{padding:7px 0}
 .refs li + li{border-top:.5px solid var(--separator)}
@@ -298,23 +166,142 @@ button.foldBtn:active{opacity:.75}
 
 /* ── Desktop (src/lib/desk.ts): the cover beside the essence, then a sticky chapter list beside one reading column
    with the infobox floated right, like an encyclopedia page. The phone keeps the chapter bar above. ── */
-:global(html[data-desk]) .pageTop{display:grid;grid-template-columns:400px minmax(0,1fr);gap:56px;align-items:center;padding-top:72px}
-:global(html[data-desk]) .pageTop > :first-child{width:100%;margin:0}
-:global(html[data-desk]) .pageTop .essence{margin:0;padding:0;border:0;font:400 30px/1.32 var(--onda-font,var(--font-serif));text-wrap:balance}
-.deskBody{display:grid;grid-template-columns:210px minmax(0,1fr);gap:56px;align-items:start;margin-top:40px}
-.toc{position:sticky;top:84px;display:flex;flex-direction:column;gap:2px;padding:6px 0 24px;max-height:calc(100vh - 110px);overflow-y:auto;scrollbar-width:none}
-.tocHead{padding:0 12px 10px;font:600 var(--fs-11)/1 var(--font-sans);letter-spacing:.08em;text-transform:uppercase;color:var(--label-secondary)}
-.tocItem{position:relative;display:flex;align-items:baseline;gap:10px;padding:8px 12px;border-radius:10px;text-align:start;font:500 var(--fs-15)/1.3 var(--font-sans);color:var(--label-secondary);transition:background 150ms ease-out,color 150ms ease-out}
-.tocItem:hover{background:var(--surface-fill);color:var(--label)}
-.tocItem[aria-current]{color:var(--label);font-weight:600;background:color-mix(in srgb,var(--onda-accent,var(--accent)) 11%,transparent)}
-.tocItem[aria-current]::before{content:"";position:absolute;left:0;top:9px;bottom:9px;width:3px;border-radius:2px;background:var(--onda-accent,var(--accent))}
-.tocN{min-width:20px;font:500 var(--fs-13)/1 var(--onda-font,var(--font-serif));color:var(--onda-accent,var(--accent))}
-.deskMain{min-width:0;max-width:860px}
-:global(html[data-desk]) .deskMain .chapterSec{padding:0;scroll-margin-top:92px}
-:global(html[data-desk]) .deskMain .chapterSec:first-of-type{margin-top:0}
-:global(html[data-desk]) .deskMain .chapterSec .chapterTitle{font-size:34px}
-:global(html[data-desk]) .deskMain .infobox{float:right;width:300px;margin:6px 0 18px 32px}
-:global(html[data-desk]) .deskMain .introLead{font-size:21px;line-height:1.6}
-:global(html[data-desk]) .deskMain .chapterSec::after{content:"";display:block;clear:both}
-:global(html[data-desk]) .deskMain .figures{display:grid !important;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));margin:0;padding:0;overflow:visible}
-:global(html[data-desk]) .deskMain .figure{width:auto}
+
+/* ══ 8.0 Full guide (design handoff v2, 2e): one article, read like Wikipedia, in the Onda's own face and colours ══ */
+.wkTop{padding-top:calc(var(--chrome-top) + 54px)}
+.wk{padding-bottom:calc(110px + max(var(--sab),16px))}
+.wkEssence{display:block;margin:14px auto 0;max-width:300px;font:400 var(--fs-19)/1.35 var(--font-serif);text-wrap:balance}
+.wkHead{padding:26px 20px 0}
+.wkName{margin:0;font:500 var(--fs-38)/1.08 var(--onda-font,var(--font-serif));letter-spacing:var(--onda-track,-.01em);text-transform:var(--onda-case,none);text-wrap:balance;overflow-wrap:anywhere}
+.wkSubtitle{margin:8px 0 0;font:400 var(--fs-17)/1.35 var(--font-sans);color:var(--label-secondary)}
+.wkRule{display:block;width:64px;height:1px;margin:18px 0;background:var(--label-quaternary)}
+.wkLead{margin:0;font:400 var(--fs-18)/1.6 var(--font-sans);color:var(--label);text-wrap:pretty}
+.wkLead + .wkLead{margin-top:14px}
+.wkMore{display:inline-flex;align-items:center;gap:5px;min-height:44px;font:500 var(--fs-16) var(--font-sans);color:var(--onda-text,var(--accent))}
+/* infobox: a band in the cover's material, then key and value rows */
+.wkBox{margin:22px 16px 0;overflow:hidden;border-radius:calc(var(--onda-r,30px) * .73);background:var(--surface-card);box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.wkBoxHead{padding:13px 16px;text-align:center;font:600 var(--fs-16)/1.2 var(--onda-font,var(--font-serif));letter-spacing:.06em;text-transform:uppercase;
+  background:var(--onda-cover,var(--accent));color:var(--onda-cover-ink,#fff)}
+.wkBox dl{margin:0;padding:0 16px}
+.wkBoxRow{display:flex;justify-content:space-between;gap:18px;padding:12px 0}
+.wkBoxRow + .wkBoxRow{border-top:.5px solid var(--separator)}
+.wkBoxRow dt{flex:none;font:400 var(--fs-15)/1.35 var(--font-sans);color:var(--label-secondary)}
+.wkBoxRow dd{margin:0;font:400 var(--fs-15)/1.35 var(--font-sans);color:var(--label);text-align:end;text-wrap:pretty}
+/* the Onda's quote under its ornament */
+.wkQuote{margin:34px 28px 0;text-align:center}
+.wkQuoteOrn{display:inline-flex;color:var(--onda-accent,var(--accent))}
+.wkQuote blockquote{margin:10px 0 0;font:italic 400 var(--fs-24)/1.38 var(--font-serif);text-wrap:balance;color:var(--label)}
+.wkQuote figcaption{margin-top:12px;font:400 var(--fs-12)/1.3 var(--onda-font,var(--font-serif));letter-spacing:.1em;text-transform:uppercase;color:var(--label-secondary)}
+/* numbered chapters */
+.wkSec{padding-top:34px;content-visibility:auto;contain-intrinsic-size:auto 520px}
+.wkH2{display:flex;align-items:baseline;gap:12px;margin:0 20px 16px;padding-bottom:10px;border-bottom:.5px solid var(--label-quaternary);
+  font:600 var(--fs-20)/1.2 var(--onda-font,var(--font-serif));letter-spacing:.06em;text-transform:var(--onda-case,none);color:var(--label)}
+.wkNum{min-width:22px;font:400 var(--fs-14)/1 var(--onda-font,var(--font-serif));letter-spacing:0;color:var(--onda-text,var(--accent))}
+.wkSub{margin-top:24px}
+.wkH3{margin:0 20px 10px;font:600 var(--fs-13)/1.3 var(--font-sans);letter-spacing:.06em;text-transform:uppercase;color:var(--label-secondary)}
+.wkTag{display:inline-block;margin-top:6px;font:500 var(--fs-12) var(--font-sans);color:var(--label-tertiary)}
+.wkCard{margin:0 16px;padding:18px 18px 16px;border-radius:calc(var(--onda-r,30px) * .73);background:var(--surface-card);box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.wkCardKicker{display:block;font:500 var(--fs-13)/1.2 var(--onda-font,var(--font-serif));letter-spacing:.08em;text-transform:uppercase;color:var(--onda-text,var(--accent))}
+.wkCardTitle{margin:6px 0 0;font:500 var(--fs-22)/1.25 var(--font-serif);color:var(--label);text-wrap:balance}
+.wkCardText{margin:10px 0 0;font:400 var(--fs-15)/1.5 var(--font-sans);color:var(--label-secondary);text-wrap:pretty}
+.wkTerm{margin:0;font:500 var(--fs-22)/1.2 var(--onda-font,var(--font-serif));letter-spacing:var(--onda-track,0);text-transform:var(--onda-case,none);color:var(--onda-text,var(--accent))}
+.wkSerif{margin:8px 0 0;font:500 var(--fs-18)/1.4 var(--font-serif);color:var(--label);text-wrap:pretty}
+/* I People */
+.wkPeople{display:flex;gap:12px;padding:0 16px 24px;margin-bottom:-24px;scroll-snap-type:x proximity;scroll-padding:0 16px}
+.wkPerson{flex:none;width:236px;scroll-snap-align:start;padding:16px;border-radius:calc(var(--onda-r,30px) * .73);background:var(--surface-card);box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.wkPersonTop{display:flex;align-items:center;gap:12px}
+.wkInit{flex:none;width:46px;height:46px;border-radius:var(--onda-shape,50%);clip-path:var(--onda-clip,none);display:flex;align-items:center;justify-content:center;
+  font:500 var(--fs-16)/1 var(--onda-font,var(--font-serif));background:var(--onda-cover,var(--accent));color:var(--onda-cover-ink,#fff)}
+.wkPersonName{min-width:0;display:flex;flex-direction:column}
+.wkPersonName b{font:600 var(--fs-16)/1.25 var(--font-sans)}
+.wkPersonName small{font:400 var(--fs-13)/1.3 var(--font-sans);color:var(--label-secondary)}
+.wkBio{margin:12px 0 0;font:400 var(--fs-14)/1.45 var(--font-sans);color:var(--label-secondary);display:-webkit-box;-webkit-line-clamp:6;-webkit-box-orient:vertical;overflow:hidden}
+/* II History: a timeline to step through */
+.wkLine{position:relative;display:flex;padding:0 8px 16px}
+.wkNode{position:relative;flex:none;width:92px;display:flex;flex-direction:column;align-items:center;gap:8px;padding-top:4px}
+.wkNode::before{content:"";position:absolute;top:14px;left:0;right:0;height:1.5px;background:color-mix(in srgb,var(--onda-accent,var(--accent)) 30%,transparent)}
+.wkDot{position:relative;width:20px;height:20px;border-radius:50%;background:var(--surface-card);box-shadow:inset 0 0 0 1.5px color-mix(in srgb,var(--onda-accent,var(--accent)) 45%,transparent);transition:background .2s,box-shadow .2s}
+.wkDot[data-on]{background:var(--onda-accent,var(--accent));box-shadow:0 0 0 5px color-mix(in srgb,var(--onda-accent,var(--accent)) 18%,transparent)}
+.wkWhen{font:500 var(--fs-13)/1.2 var(--font-sans);color:var(--label-secondary);text-align:center;padding:0 4px}
+.wkNode[aria-selected="true"] .wkWhen{color:var(--onda-text,var(--accent));font-weight:600}
+.wkStep{display:flex;align-items:center;gap:10px;margin-top:16px;font:500 var(--fs-13) var(--font-sans);color:var(--label-secondary)}
+.wkStep > span{margin-right:auto}
+.wkRound{width:44px;height:44px;border-radius:50%;display:flex;align-items:center;justify-content:center;color:var(--onda-text,var(--accent));background:color-mix(in srgb,var(--onda-accent,var(--accent)) 10%,transparent)}
+.wkRound:disabled{opacity:.35}
+/* III Ideas: chips that wrap */
+.wkChips{display:flex;flex-wrap:wrap;gap:8px;padding:0 16px 14px}
+.wkChip{height:38px;padding:0 15px;border-radius:999px;font:500 var(--fs-15) var(--font-sans);color:var(--label);background:var(--surface-card);box-shadow:0 1px 2px rgba(0,0,0,.05);transition:background .2s,color .2s}
+.wkChip[aria-selected="true"]{background:var(--onda-deep,var(--accent));color:var(--onda-on,#fff)}
+.wkChipMore{color:var(--onda-text,var(--accent));background:color-mix(in srgb,var(--onda-accent,var(--accent)) 10%,transparent);box-shadow:none}
+/* folding cards (practices, ideas to think about, ethics) */
+.wkFolds{margin:0 16px;overflow:hidden;border-radius:calc(var(--onda-r,30px) * .73);background:var(--surface-card);box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.wkFold + .wkFold{border-top:.5px solid var(--separator)}
+.wkFoldHead{display:flex;align-items:flex-start;gap:12px;width:100%;padding:14px 16px;text-align:start}
+.wkFoldIcon{flex:none;min-width:24px;display:flex;justify-content:center;padding-top:1px;color:var(--onda-accent,var(--accent))}
+.wkFoldNum{font:400 var(--fs-17)/1.2 var(--onda-font,var(--font-serif));color:var(--onda-text,var(--accent))}
+.wkFoldText{flex:1;min-width:0;display:flex;flex-direction:column;gap:3px}
+.wkFoldTitle{font:600 var(--fs-17)/1.3 var(--font-sans);color:var(--label)}
+.wkFoldSub{font:400 var(--fs-15)/1.4 var(--font-sans);color:var(--label-secondary)}
+.wkFold:not([data-open]) .wkFoldSub{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.wkCaret{flex:none;display:flex;padding-top:3px;color:var(--label-tertiary);transition:transform .22s var(--ease-enter)}
+.wkFold[data-open] .wkCaret{transform:rotate(180deg)}
+.wkFoldBody{padding:0 16px 16px 52px;font:400 var(--fs-15)/1.5 var(--font-sans);color:var(--label);display:flex;flex-direction:column;gap:10px}
+.wkFoldBody p{margin:0}
+/* V Culture: small tabs above a list */
+.wkTabs{display:flex;gap:6px;padding:0 16px 12px}
+.wkTab{flex:none;height:34px;padding:0 13px;border-radius:999px;font:500 var(--fs-14) var(--font-sans);color:var(--label-secondary);background:color-mix(in srgb,var(--label) 6%,transparent);transition:background .2s,color .2s}
+.wkTab[aria-selected="true"]{background:var(--onda-deep,var(--accent));color:var(--onda-on,#fff);font-weight:600}
+.wkList{list-style:none;margin:0 16px;padding:0;overflow:hidden;border-radius:calc(var(--onda-r,30px) * .73);background:var(--surface-card);box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.wkRow{display:flex;align-items:flex-start;gap:12px;padding:13px 16px}
+.wkRow + .wkRow{border-top:.5px solid var(--separator)}
+.wkRowNum{flex:none;min-width:22px;font:400 var(--fs-17)/1.3 var(--onda-font,var(--font-serif));color:var(--onda-text,var(--accent))}
+.wkRowIcon{flex:none;display:flex;padding-top:1px;color:var(--onda-accent,var(--accent))}
+.wkRowText{flex:1;min-width:0;display:flex;flex-direction:column;gap:3px;font:400 var(--fs-15)/1.4 var(--font-sans);color:var(--label-secondary)}
+.wkRowText b{font:600 var(--fs-16)/1.3 var(--font-sans);color:var(--label)}
+.wkRowText small{font:400 var(--fs-13)/1.3 var(--font-sans);color:var(--label-tertiary)}
+.wkLink{flex:none;width:44px;height:44px;margin:-10px -10px -10px 0;display:flex;align-items:center;justify-content:center;color:var(--onda-text,var(--accent))}
+/* VI Language: word cards */
+.wkWords{display:flex;gap:12px;padding:0 16px 24px;margin-bottom:-24px;scroll-snap-type:x mandatory;scroll-padding:0 16px}
+.wkWord{flex:none;width:250px;scroll-snap-align:start;display:flex;flex-direction:column;gap:6px;padding:18px;border-radius:calc(var(--onda-r,30px) * .73);background:var(--surface-card);box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.wkPill{align-self:flex-start;padding:4px 9px;border-radius:999px;font:600 var(--fs-11)/1 var(--font-sans);letter-spacing:.06em;text-transform:uppercase;color:var(--onda-text,var(--accent));background:color-mix(in srgb,var(--onda-accent,var(--accent)) 10%,transparent)}
+.wkWordTerm{margin-top:4px;font:500 var(--fs-28)/1.1 var(--onda-font,var(--font-serif));letter-spacing:var(--onda-track,0);text-transform:var(--onda-case,none);color:var(--label);overflow-wrap:anywhere}
+.wkSay{font:italic 400 var(--fs-16)/1.3 var(--font-serif);color:var(--label-secondary)}
+.wkMeaning{font:600 var(--fs-15)/1.35 var(--font-sans);color:var(--label)}
+.wkUsage{font:400 var(--fs-14)/1.45 var(--font-sans);color:var(--label-secondary)}
+/* VIII Did you know: cards in the cover's material */
+.wkFacts{display:flex;gap:12px;padding:0 16px 24px;margin-bottom:-24px;scroll-snap-type:x mandatory;scroll-padding:0 16px}
+.wkFact{position:relative;overflow:hidden;isolation:isolate;flex:none;width:calc(100% - 44px);scroll-snap-align:start;display:flex;flex-direction:column;gap:10px;min-height:200px;padding:20px 22px;
+  border-radius:calc(var(--onda-r,30px) * .8);background:var(--onda-cover,var(--accent));color:var(--onda-cover-ink,#fff);box-shadow:0 18px 36px -24px var(--onda-cover-edge,rgba(0,0,0,.4))}
+.wkFact[data-frame]::before{content:"";position:absolute;inset:9px;border-radius:max(2px,calc(var(--onda-r,30px) * .8 - 9px));box-shadow:inset 0 0 0 .5px currentColor;opacity:.42;pointer-events:none}
+.wkFact p{margin:0;font:400 var(--fs-18)/1.45 var(--font-serif);text-wrap:pretty}
+.wkFactN{font:600 var(--fs-12)/1.3 var(--font-sans);letter-spacing:.1em;text-transform:uppercase;opacity:.82}
+.wkFactOrn{margin-top:auto;display:flex;opacity:.8}
+.wkFact .wkTag{color:inherit;opacity:.75}
+.wkDots{display:flex;justify-content:center;gap:7px;margin-top:6px}
+.wkDots i{width:7px;height:7px;border-radius:999px;background:var(--label-quaternary);transition:width .22s var(--ease-enter),background .22s}
+.wkDots i[data-on]{width:20px;background:var(--onda-accent,var(--accent))}
+.wkSec .refs{margin:0 16px}
+/* contents: a round button at the bottom left, then a drawer from the left */
+.wkTocBtn{position:absolute;z-index:45;left:calc(16px + var(--sal));bottom:calc(30px + var(--sab));width:54px;height:54px;border-radius:50%;display:flex;align-items:center;justify-content:center;color:var(--label);
+  background:var(--glass-fill);border:var(--glass-stroke);box-shadow:var(--glass-highlight),var(--glass-shadow);-webkit-backdrop-filter:var(--glass-blur);backdrop-filter:var(--glass-blur)}
+.wkTocBtn:active{transform:scale(var(--press-scale))}
+.wkScrim{position:absolute;inset:0;z-index:90;background:rgba(30,22,18,.3);animation:wkFade .2s ease both}
+.wkDrawer{position:absolute;left:0;top:0;bottom:0;width:296px;max-width:86%;overflow-y:auto;padding:calc(var(--chrome-top) + 8px) 12px calc(24px + var(--sab));
+  background:var(--surface-grouped);box-shadow:0 0 40px rgba(0,0,0,.2);animation:wkIn .28s var(--ease-enter) both}
+.wkDrawerHead{display:flex;align-items:center;gap:10px;padding:8px 10px 14px;font:600 var(--fs-13)/1 var(--font-sans);letter-spacing:.12em;text-transform:uppercase;color:var(--label-secondary)}
+.wkDrawerHead svg{color:var(--onda-accent,var(--accent))}
+.wkTocItem{display:flex;align-items:baseline;width:100%;min-height:44px;padding:10px;border-radius:12px;text-align:start;color:var(--label)}
+.wkTocItem:active{background:var(--surface-fill)}
+.wkTocItem[aria-current]{color:var(--onda-text,var(--accent))}
+.wkTocNum{flex:none;width:34px;font:400 var(--fs-15)/1.2 var(--onda-font,var(--font-serif));color:var(--onda-text,var(--accent))}
+.wkTocLabel{font:500 var(--fs-16)/1.25 var(--onda-font,var(--font-serif));letter-spacing:.04em;text-transform:var(--onda-case,none)}
+.wkTocName{font-size:var(--fs-19)}
+@keyframes wkFade{from{opacity:0}}
+@keyframes wkIn{from{transform:translate3d(-100%,0,0)}}
+@media (prefers-reduced-motion:reduce){.wkScrim,.wkDrawer{animation:none}.wkCaret,.wkDot{transition:none}}
+@media (hover:hover) and (pointer:fine){.wkTocItem:hover{background:color-mix(in srgb,var(--label) 5%,transparent)}.wkFoldHead:hover .wkFoldTitle{text-decoration:underline;text-underline-offset:3px}}
+/* the desktop: contents stay beside the article */
+.wkDesk{display:grid;grid-template-columns:240px minmax(0,1fr);gap:40px;align-items:start}
+.wkToc{position:sticky;top:76px;max-height:calc(100vh - 120px);overflow-y:auto}
+:global(html[data-desk]) .wkTop{padding-top:76px}
+:global(html[data-desk]) .wk{max-width:820px;padding-bottom:64px}

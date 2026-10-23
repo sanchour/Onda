@@ -1,13 +1,15 @@
-import { Suspense, lazy, useDeferredValue, useState } from 'react'
+import { Suspense, lazy, useDeferredValue, useRef, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { BROWSE_GROUPS, COMING_SOON, GROUP_OF, byShelf, type BrowseGroup } from '@/content/browse'
 import { planForDay, type DayPractice } from '@/data/derive/plan'
 import { useLookFn, useOndaList, useSettings } from '@/data/hooks'
 import { useStore } from '@/data/store'
 import { useDesk } from '@/lib/desk'
-import { BackButton, Screen } from '@/nav/Screen'
+import { columnWidth } from '@/lib/fit'
+import { GlassHead, Screen } from '@/nav/Screen'
 import { useNav } from '@/nav/store'
 import { Button, GlassButton } from '@/ui/buttons'
+import { GlassTabs } from '@/ui/controls'
 import { Icon } from '@/ui/Icon'
 import { Cover, GroupedList, PlanList, Row, SearchField, SectionHeader, ShortcutBar } from './onda7'
 import c from './onda7/onda7.module.css'
@@ -17,9 +19,8 @@ import { guardCreateOnda, useActiveOnda, useRunToday } from './ondaShared'
 import s from './screens.module.css'
 
 /** Ondas tab: the running Onda's cover, a glass row of shortcuts, Today's plan by time of day, then the quote. */
-// The desktop has its own Today and Browse (src/desk/home); phones never load them.
+// The desktop has its own Today (src/desk/home); phones never load it. All Ondas is one page for both.
 const DeskToday = lazy(() => import('@/desk/home/DeskToday'))
-const DeskBrowse = lazy(() => import('@/desk/home/DeskBrowse'))
 
 export default function OndasTab() {
   return useDesk() ? (
@@ -218,34 +219,67 @@ export function OndaGroups({ onOpen, soon, query = '' }: { onOpen: (id: string) 
   )
 }
 
-/** A large cover for the Featured row of All Ondas. */
-function FeatureCover({ x, kicker, onOpen }: { x: OndaItem; kicker: string; onOpen: () => void }) {
-  const look = useLookFn()(x)
-  return <Cover look={look} size="hero" title={x.name} kicker={kicker} sub={x.line} onClick={onOpen} />
-}
-
 type Shelf = BrowseGroup | 'mine'
 
-/** All Ondas, laid out like a bookshop: a search field and filter chips, a Featured row of large covers that changes each day,
- *  then one shelf per group that scrolls sideways, each with See All. A chip or See All shows that group as a grid. */
-export function AllOndas() {
-  return useDesk() ? (
-    <Suspense fallback={null}>
-      <DeskBrowse />
-    </Suspense>
-  ) : (
-    <PhoneAllOndas />
+/** 8.0: one Onda as a shelf card of All Ondas, 280x176 in its own look; `width` stretches it to a full row. */
+function OndaCard({ x, kicker, active, width, onOpen }: { x: OndaItem; kicker: string; active?: boolean; width?: number; onOpen: () => void }) {
+  const { t } = useTranslation()
+  const look = useLookFn()(x)
+  return (
+    <Cover
+      look={look}
+      size="card"
+      title={x.name}
+      kicker={kicker}
+      sub={x.origin}
+      badge={active ? t('ondas.active') : x.custom ? t('ondas.mine') : undefined}
+      width={width}
+      onClick={onOpen}
+    />
   )
 }
 
-function PhoneAllOndas() {
+/** A place on the shelf for a world that is on the way: the same size as a card, drawn in outline. */
+function SoonCard({ x, width }: { x: (typeof COMING_SOON)[number]; width?: number }) {
+  const { t } = useTranslation()
+  return (
+    <div className={c.soonCard} style={width ? { width } : undefined} aria-disabled="true">
+      <span className={c.soonBadge}>{t('browse.soon')}</span>
+      <span>
+        <span className={c.soonName}>{x.name}</span>
+        <span className={c.soonOrigin}>{x.origin}</span>
+      </span>
+    </div>
+  )
+}
+
+/** A large cover for the Featured carousel: the group, the emblem, the name, its tagline in the serif and the origin. */
+function FeatureCover({ x, kicker, active, onOpen }: { x: OndaItem; kicker: string; active: boolean; onOpen: () => void }) {
+  const { t } = useTranslation()
+  const look = useLookFn()(x)
+  return (
+    <Cover look={look} size="hero" title={x.name} kicker={kicker} badge={active ? t('ondas.active') : undefined} onClick={onOpen} ariaLabel={`${x.name}, ${x.origin}`}>
+      {x.line && <span className={c.tagline}>{x.line}</span>}
+      <span className={c.origin}>{x.origin}</span>
+    </Cover>
+  )
+}
+
+/** All Ondas (8.0): a glass header with search and a row of pill tabs (All and the five groups). All shows a Featured
+ *  carousel that changes each day, then one shelf of same-size cards per group; a group's tab shows its Ondas one per row.
+ *  The desktop draws the same page wider: the carousel, the shelves and a group's list become grids. */
+export function AllOndas() {
   const { t } = useTranslation()
   const push = useNav((n) => n.push)
+  const desk = useDesk()
   const list = useOndaList()
   const today = useStore((x) => x.today)
   const activeId = useActiveOnda()?.run.ondaId
   const [query, setQuery] = useState('')
-  const [group, setGroup] = useState<Shelf | 'all'>('all')
+  const [searching, setSearching] = useState(false)
+  const [tab, setTab] = useState<Shelf | 'all'>('all')
+  const [feat, setFeat] = useState(0)
+  const pane = useRef<HTMLDivElement>(null)
   const deferred = useDeferredValue(query)
   const q = deferred.trim()
   const open = (id: string) => push({ name: 'onda', id })
@@ -254,51 +288,73 @@ function PhoneAllOndas() {
   const shelves: Shelf[] = [...BROWSE_GROUPS, ...(mine.length ? (['mine'] as const) : [])]
   const inShelf = (g: Shelf) => (g === 'mine' ? mine : list.filter((x) => GROUP_OF[x.id] === g).sort(byShelf))
   const soonOf = (g: Shelf) => (g === 'mine' ? [] : COMING_SOON.filter((x) => x.group === g && !shipped.has(x.id)))
-  const short = (g: Shelf | 'all') => t(`browse.short.${g}`)
+  const one = (x: OndaItem) => t(`browse.one.${GROUP_OF[x.id] ?? 'mine'}`)
   // the running Onda first, then four that change with the day
   const pool = list.filter((x) => GROUP_OF[x.id] && x.id !== activeId)
   const seed = [...today].reduce((h, ch) => (h * 31 + ch.charCodeAt(0)) >>> 0, 7)
   const featured = [...list.filter((x) => x.id === activeId), ...(pool.length ? Array.from({ length: 4 }, (_, i) => pool[(seed + i * 17) % pool.length]!) : [])]
     .filter((x, i, all) => all.findIndex((y) => y.id === x.id) === i)
-  const tile = (x: OndaItem, width?: number) => <OndaTile key={x.id} x={x} active={activeId === x.id} width={width} onOpen={() => open(x.id)} />
-  const soonTile = (x: (typeof COMING_SOON)[number]) => (
-    <div key={x.name} className={c.soon} aria-disabled="true">
-      <span>
-        <span className={c.soonName}>{x.name}</span>
-        <span className={c.soonOrigin}>{x.origin}</span>
-      </span>
-      <span className={c.soonBadge}>{t('browse.soon')}</span>
-    </div>
+  // a full row on the phone; the desktop grid sizes its cells itself
+  const rowWidth = desk ? undefined : columnWidth() - 32
+  const pick = (k: Shelf | 'all') => {
+    setTab(k)
+    pane.current?.scrollTo({ top: 0 })
+  }
+  const onFeatScroll = (e: React.UIEvent<HTMLDivElement>) => {
+    const el = e.currentTarget
+    const w = (el.firstElementChild as HTMLElement | null)?.offsetWidth ?? el.clientWidth
+    const i = Math.round(el.scrollLeft / (w + 12))
+    if (i !== feat) setFeat(i)
+  }
+
+  const head = (
+    <GlassHead
+      title={t('ondas.allTitle')}
+      face="sans"
+      trailing={
+        <GlassButton
+          icon={searching ? 'x' : 'magnifying-glass'}
+          ariaLabel={searching ? t('ondas.clearSearch') : t('ondas.search')}
+          onClick={() => {
+            setSearching((v) => !v)
+            setQuery('')
+          }}
+        />
+      }
+      tabs={
+        !searching && (
+          <GlassTabs<Shelf | 'all'>
+            label={t('ondas.allTitle')}
+            items={(['all', ...shelves] as const).map((k) => ({ key: k, label: t(`browse.short.${k}`) }))}
+            value={tab}
+            onChange={pick}
+          />
+        )
+      }
+    />
   )
 
   return (
-    <Screen chrome={<BackButton />}>
-      <div className={s.pageHead} style={{ paddingBottom: 4 }}>
-        <h1 className={s.largeTitle}>{t('ondas.allTitle')}</h1>
-        <div className={`${s.sub} ${s.sub2}`}>{t('ondas.allSub')}</div>
-      </div>
-      <SearchField value={query} onChange={setQuery} placeholder={t('ondas.search')} clearLabel={t('ondas.clearSearch')} />
-      {!q && (
-        <div className={`hscroll ${c.chips}`} role="tablist" aria-label={t('ondas.allTitle')}>
-          {(['all', ...shelves] as const).map((g) => (
-            <button key={g} type="button" role="tab" aria-selected={group === g} className={group === g ? `${c.chip} ${c.chipOn}` : c.chip} onClick={() => setGroup(g)}>
-              {short(g)}
-            </button>
-          ))}
-        </div>
-      )}
-      {q ? (
-        <OndaGroups soon query={deferred} onOpen={open} />
-      ) : group === 'all' ? (
+    <Screen variant={searching ? 'page' : 'glass'} head={head} scrollRef={pane} desk="wide">
+      {searching ? (
+        <>
+          <SearchField value={query} onChange={setQuery} placeholder={t('ondas.search')} clearLabel={t('ondas.clearSearch')} autoFocus />
+          {q && <OndaGroups soon query={deferred} onOpen={open} />}
+        </>
+      ) : tab === 'all' ? (
         <>
           {featured.length > 0 && (
             <section aria-label={t('browse.featured')}>
-              <h2 className={`${c.shelfTitle} ${c.featHead}`}>{t('browse.featured')}</h2>
-              <div className={`hscroll ${c.feat}`}>
+              <div className={`hscroll ${c.feat}`} onScroll={onFeatScroll}>
                 {featured.map((x) => (
                   <div key={x.id} className={c.featItem}>
-                    <FeatureCover x={x} kicker={x.id === activeId ? t('ondas.active') : short(GROUP_OF[x.id] ?? 'mine')} onOpen={() => open(x.id)} />
+                    <FeatureCover x={x} kicker={one(x)} active={x.id === activeId} onOpen={() => open(x.id)} />
                   </div>
+                ))}
+              </div>
+              <div className={c.dots} aria-hidden>
+                {featured.map((x, i) => (
+                  <i key={x.id} data-on={i === feat ? '' : undefined} />
                 ))}
               </div>
             </section>
@@ -308,28 +364,22 @@ function PhoneAllOndas() {
             const later = soonOf(g)
             return (
               <section key={g} aria-label={t(`browse.${g}`)} className={c.shelf}>
-                <button type="button" className={c.shelfHead} onClick={() => setGroup(g)} aria-label={`${t(`browse.${g}`)}, ${items.length + later.length}, ${t('browse.seeAll')}`}>
+                <button type="button" className={c.shelfHead} onClick={() => pick(g)} aria-label={`${t(`browse.${g}`)}, ${items.length + later.length}, ${t('browse.seeAll')}`}>
                   <span className={c.shelfTitle}>{t(`browse.${g}`)}</span>
-                  <span className={c.shelfMore} aria-hidden>
-                    {t('browse.seeAll')}
-                    <Icon name="caret-right" weight="bold" size={13} />
-                  </span>
+                  <Icon name="caret-right" weight="bold" size={17} />
                 </button>
                 <div className={`hscroll ${c.shelfRow}`}>
-                  {items.map((x) => <div key={x.id} className={c.shelfItem}>{tile(x, 152)}</div>)}
-                  {later.map((x) => <div key={x.name} className={c.shelfItem}>{soonTile(x)}</div>)}
+                  {items.map((x) => <OndaCard key={x.id} x={x} kicker={one(x)} active={activeId === x.id} onOpen={() => open(x.id)} />)}
+                  {later.map((x) => <SoonCard key={x.name} x={x} />)}
                 </div>
               </section>
             )
           })}
         </>
       ) : (
-        <section aria-label={t(`browse.${group}`)}>
-          <h2 className={`${c.shelfTitle} ${c.featHead}`}>{t(`browse.${group}`)}</h2>
-          <div className={c.grid}>
-            {inShelf(group).map(tile)}
-            {soonOf(group).map(soonTile)}
-          </div>
+        <section aria-label={t(`browse.${tab}`)} className={c.cardList}>
+          {inShelf(tab).map((x) => <OndaCard key={x.id} x={x} kicker={one(x)} active={activeId === x.id} width={rowWidth} onOpen={() => open(x.id)} />)}
+          {soonOf(tab).map((x) => <SoonCard key={x.name} x={x} width={rowWidth} />)}
         </section>
       )}
     </Screen>

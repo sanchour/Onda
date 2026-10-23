@@ -142,7 +142,7 @@ function Running({ active }: { active: ActiveOnda }) {
               <Panel kicker={t('onda.journalDay', { day })}>
                 <p className={h.prompt} data-selectable>{words.prompt}</p>
                 <div className={h.panelBtns}>
-                  <button type="button" className={written ? h.btnSoft : h.btn} onClick={() => openSheet({ name: 'journalEdit' })}>
+                  <button type="button" className={written ? h.btnSoft : h.btn} onClick={() => push({ name: 'journalWrite' })}>
                     <Icon name={written ? 'check' : 'pencil-simple'} weight="bold" size={16} />
                     {written ? t('onda.editEntry') : t('onda.write')}
                   </button>

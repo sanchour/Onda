@@ -7,8 +7,9 @@ import c from './onda7.module.css'
 
 export interface CoverProps {
   look: OndaLook
-  /** `hero`: full width at the top of a page. `tile`: one cell of the two column browse grid. */
-  size: 'hero' | 'tile'
+  /** `hero`: full width at the top of a page. `tile`: one cell of the two column browse grid.
+   *  `card`: 8.0, a 280x176 card on the shelves of All Ondas (`width` stretches it to a full row). */
+  size: 'hero' | 'tile' | 'card'
   title: string
   /** Small capitals line at the top (for example "Onda · Day 4 of 14"). */
   kicker?: string
@@ -29,20 +30,27 @@ export interface CoverProps {
   level?: 1 | 2
   /** Width of a tile in px when it is not a cell of the two column grid (the 152px shelf tiles), so its title fits. */
   width?: number
+  /** 8.0: the Full guide's opening card: no title on it, the glyph spaced wide, the essence under the emblem. */
+  article?: boolean
   children?: ReactNode
 }
 
-const EMBLEM = { hero: { left: 200, center: 76, frame: 64 }, tile: { left: 104, center: 46, frame: 40 } } as const
+const EMBLEM = { hero: { left: 200, center: 76, frame: 64 }, tile: { left: 104, center: 46, frame: 40 }, card: { left: 150, center: 54, frame: 48 } } as const
 
 /** An Onda's cover: its material, emblem, display face and numerals. The one place each Onda shows its world. */
-export function Cover({ look, size, title, kicker, glyph, sub, mark, badge, days, onClick, ariaLabel, level, width, children }: CoverProps) {
+export function Cover({ look, size, title, kicker, glyph, sub, mark, badge, days, onClick, ariaLabel, level, width, article, children }: CoverProps) {
   const { t } = useTranslation()
   const hero = size === 'hero'
   const centred = look.layout !== 'left'
   // the longest word decides the size; heroes leave room for a cropped emblem on the right
-  const fs = hero ? fitSize(title, columnWidth() - 32 - 44 - (centred ? 0 : 40), 40, 22, look.caps) : fitSize(title, (width ?? columnWidth() / 2 - 22) - 28, 19, 13, look.caps)
+  const fs = hero
+    ? fitSize(title, columnWidth() - 32 - 44 - (centred ? 0 : 40), 40, 22, look.caps)
+    : size === 'card'
+      ? fitSize(title, (width ?? 280) - 36 - (centred ? 0 : 36), 26, 15, look.caps)
+      : fitSize(title, (width ?? columnWidth() / 2 - 22) - 28, 19, 13, look.caps)
   const H = hero && level ? (`h${level}` as const) : 'span'
-  const cls = [c.cover, hero ? c.hero : c.tile, c[look.layout]].join(' ')
+  const cls = [c.cover, c[size], c[look.layout], article && c.article].filter(Boolean).join(' ')
+  const style = size === 'card' && width ? { ...look.vars, width } : look.vars
   const inner = (
     <>
       <span className={c.top}>
@@ -50,10 +58,10 @@ export function Cover({ look, size, title, kicker, glyph, sub, mark, badge, days
         {badge ? <span className={c.badge}>{badge}</span> : mark ? <span className={c.mark} aria-hidden>{mark}</span> : null}
       </span>
       <span className={c.emblem} aria-hidden>
-        <EmblemArt id={look.emblem} size={EMBLEM[size][look.layout]} line={hero ? 1.25 : 1} />
+        <EmblemArt id={look.emblem} size={EMBLEM[size][look.layout]} line={hero ? 1.25 : size === 'card' ? 1.1 : 1} />
       </span>
       <span className={c.body}>
-        <H className={c.title} style={{ display: 'block', fontSize: fs }}>{title}</H>
+        {title && <H className={c.title} style={{ display: 'block', fontSize: fs }}>{title}</H>}
         {sub && <span className={c.sub}>{sub}</span>}
         {days && (
           <span className={c.days} role="img" aria-label={t('ondas.dayOf', days)}>
@@ -69,11 +77,11 @@ export function Cover({ look, size, title, kicker, glyph, sub, mark, badge, days
   // 7.2: a large cover's emblem lives in its Onda's own way (content/souls.ts)
   const motion = hero && look.themed && look.motion !== 'still' ? look.motion : undefined
   return onClick ? (
-    <button type="button" className={cls} style={look.vars} onClick={onClick} aria-label={ariaLabel} data-motion={motion}>
+    <button type="button" className={cls} style={style} onClick={onClick} aria-label={ariaLabel} data-motion={motion}>
       {inner}
     </button>
   ) : (
-    <div className={cls} style={look.vars} aria-label={ariaLabel} role={ariaLabel ? 'group' : undefined} data-motion={motion}>
+    <div className={cls} style={style} aria-label={ariaLabel} role={ariaLabel ? 'group' : undefined} data-motion={motion}>
       {inner}
     </div>
   )

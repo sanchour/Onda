@@ -249,3 +249,14 @@ button.toggleAction::after{content:"";position:absolute;inset:-12px -6px}
   .menuItem:hover{background:color-mix(in srgb,var(--label) 6%,transparent)}
   .menuQuickBtn:hover{background:var(--glass-track)}
 }
+
+/* ── 8.0 GlassTabs: frosted pills under a glass header ─── */
+.gTabs{display:flex;gap:8px;padding:2px 16px 12px}
+.gTab{flex:none;height:44px;padding:0 18px;border-radius:999px;font:600 var(--fs-17)/1 var(--font-sans);letter-spacing:-.01em;color:var(--pill-ink);
+  background:var(--pill-off);border:var(--pill-border);box-shadow:var(--pill-shadow-off);
+  -webkit-backdrop-filter:var(--glass-blur);backdrop-filter:var(--glass-blur);transition:background .2s,box-shadow .2s}
+:global([data-theme="dark"]) .gTab:not(.gTabOn){color:var(--label)}
+.gTabOn{background:var(--pill-on);font-weight:700;box-shadow:var(--pill-shadow-on)}
+.gTab:active{transform:scale(var(--press-scale))}
+.gTab:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+@media (hover:hover) and (pointer:fine){.gTab:not(.gTabOn):hover{background:color-mix(in srgb,var(--pill-on) 70%,var(--pill-off))}}

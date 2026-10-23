@@ -1,19 +1,15 @@
 /* Ondas side. Wrappers set --onda-* custom properties (see content/themes.ts); everything here reads them. */
 .themed{background:var(--onda-fill);color:var(--onda-ink)}
 .glyph{position:absolute;font-weight:600;line-height:1;font-family:var(--onda-font);pointer-events:none;white-space:nowrap}
-.chipCircle{background:var(--onda-chip);color:var(--onda-ink)}
 .solidCircle{background:var(--onda-solid);color:var(--onda-ink)}
 /* each tradition has its own mark shape (circle, squircle, hexagon, octagram, leaf ...) */
-.chipCircle.chipCircle,.solidCircle.solidCircle{border-radius:var(--onda-shape,50%);clip-path:var(--onda-clip,none)}
-.gName,.rfTitle,.doneTitle,.kindName{text-transform:var(--onda-case,none)}
+.solidCircle.solidCircle{border-radius:var(--onda-shape,50%);clip-path:var(--onda-clip,none)}
+.rfTitle,.doneTitle{text-transform:var(--onda-case,none)}
 
 /* ── Shared by sheets (how to, Lago from an Onda) ─────────── */
 .howToday{background:color-mix(in srgb,var(--onda-solid) 30%,var(--surface-card))}
 .howCard{position:relative;background:var(--surface-card);border-radius:22px;padding:16px 18px;margin-top:12px;font:400 var(--fs-16)/1.5 var(--font-sans);text-wrap:pretty;box-shadow:inset 0 0 0 1px color-mix(in srgb,var(--onda-strong) 16%,transparent)}
 .howHead{display:flex;align-items:center;gap:8px;font:600 var(--fs-13) var(--onda-font,var(--font-sans));letter-spacing:.06em;text-transform:uppercase;color:var(--onda-strong);margin-bottom:8px}
-.howList{margin:0;padding:0 0 0 20px}
-.howList li{margin-top:6px}
-.howList li::marker{color:var(--onda-strong)}
 .pName{font:600 var(--fs-17)/1.3 var(--font-sans);letter-spacing:var(--tracking-body)}
 .pMeta{font:400 var(--fs-15)/1.3 var(--font-sans);color:var(--label-secondary);margin-top:2px}
 
@@ -24,21 +20,12 @@
 /* ── Immersion ───────────────────────────────────────────── */
 .chips{display:flex;gap:8px;padding:18px 16px 4px}
 /* content-visibility skips layout and paint for rows that are off screen: cheap list virtualization */
-.imRow{display:flex;align-items:center;gap:6px;padding:8px 8px 8px 8px;background:var(--surface-card);border-radius:26px;content-visibility:auto;contain-intrinsic-size:auto 88px}
-.imOpen{flex:1;min-width:0;display:flex;align-items:center;gap:14px;text-align:start;border-radius:18px}
-.imOpen:active{opacity:.7}
-.imThumb{width:72px;height:72px;border-radius:20px;flex:none;background:color-mix(in srgb,var(--onda-solid) 75%,var(--surface-card));display:flex;align-items:center;justify-content:center}
-.imThumb svg{width:62px;height:42px}
-.imTitle{font:600 var(--fs-17)/1.25 var(--font-sans)}
-.imWhy{font:400 var(--fs-13)/1.35 var(--font-sans);color:var(--label-tertiary);margin-top:2px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-.imCheck{width:44px;height:44px;flex:none;display:flex;align-items:center;justify-content:center;margin-right:-6px}
 .footnote{font:400 var(--fs-13)/1.35 var(--font-sans);color:var(--label-secondary);padding:12px 36px 0}
 
 /* ── Reflection / Done ───────────────────────────────────── */
 .flow{position:absolute;inset:0;background:var(--surface-page);--screen-bg:var(--surface-page)}
 .flowBar{position:absolute;top:calc(var(--chrome-top) + 56px);left:0;right:0}
 .flowBody{position:absolute;top:calc(var(--chrome-top) + 80px);left:0;right:0;bottom:calc(76px + max(var(--sab),16px) + var(--kb));padding:0 24px 16px}
-.rfIcon{width:96px;height:96px}
 .rfTitle{font:600 var(--fs-36)/1.08 var(--onda-font);letter-spacing:-0.01em;margin:22px 0 0;text-wrap:balance}
 .rfLead{font:400 var(--fs-17)/1.35 var(--font-sans);color:var(--label-secondary);margin-top:8px}
 .rfStats{margin-top:28px;background:var(--surface-grouped);border-radius:26px;padding:18px 8px}
@@ -51,24 +38,9 @@
 .doneTitle{font:600 var(--fs-36)/1.08 var(--onda-font);letter-spacing:-0.01em;margin:28px 0 0}
 
 /* ── Onda sheets ─────────────────────────────────────────── */
-.softCard{background:var(--surface-card);border-radius:22px;padding:16px 18px}
-button.softCard{width:100%;text-align:start;display:block}
-.entryPrompt{font:italic 500 var(--fs-17)/1.35 var(--onda-font);margin-top:6px;text-wrap:pretty}
-.entryText{font:400 var(--fs-15)/1.45 var(--font-sans);color:var(--label-secondary);margin-top:6px;text-wrap:pretty;white-space:pre-line}
 .lead{font:italic 500 var(--fs-17)/1.35 var(--onda-font);color:var(--label-secondary);text-wrap:pretty}
 .ideaTitle{font:600 var(--fs-21)/1.2 var(--onda-font)}
 .ideaText{font:400 var(--fs-15)/1.45 var(--font-sans);color:var(--label-secondary);margin-top:4px;text-wrap:pretty}
-.jeKicker{font:600 var(--fs-13) var(--font-sans);letter-spacing:.04em;text-transform:uppercase;color:var(--label-secondary)}
-.jePrompt{font:600 var(--fs-26)/1.2 var(--onda-font);letter-spacing:-0.01em;margin:8px 0 0;text-wrap:pretty}
-.gBanner{position:relative;overflow:hidden;margin:0 16px 16px;border-radius:var(--onda-radius,26px);padding:22px 20px}
-.gName{font:600 var(--fs-36)/1.05 var(--onda-font);letter-spacing:var(--onda-track,-0.01em);margin:8px 0 0;overflow-wrap:anywhere}
-.gItemTitle{font:600 var(--fs-19)/1.2 var(--onda-font)}
-.gItemSub{font:400 var(--fs-15)/1.4 var(--font-sans);color:var(--label-secondary);margin-top:3px;text-wrap:pretty}
-.gDetail{font:400 var(--fs-15)/1.45 var(--font-sans);white-space:pre-line;margin-top:12px;padding-top:12px;border-top:1px solid var(--separator);text-wrap:pretty}
-.gCaret{display:flex;padding-top:4px;transition:transform var(--duration-standard) var(--ease-enter)}
-.gCaretOpen{transform:rotate(180deg)}
-.gTag{font:600 var(--fs-11) var(--font-sans);letter-spacing:.06em;text-transform:uppercase;color:var(--label-tertiary);margin-bottom:4px}
-.gGroup{font:700 var(--fs-20)/1.22 var(--font-sans);letter-spacing:var(--tracking-title);margin:16px 4px 0}
 .coPreview{margin:0 16px;height:120px;border-radius:26px;padding:16px 20px;display:flex;flex-direction:column;justify-content:flex-end;transition:background var(--duration-standard)}
 .coName{font:600 var(--fs-30)/1.05 var(--font-serif)}
 .swatch{width:28px;height:28px;border-radius:50%;position:relative}
@@ -90,21 +62,13 @@ button.softCard{width:100%;text-align:start;display:block}
 
 
 /* ── Themed sheet banners and journal prompt card ────────── */
-.jeCard{position:relative;overflow:hidden;border-radius:var(--onda-radius,26px);padding:20px}
 
 /* ── Immersion: one tile per kind, two per row ───────────── */
-.kindGrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;padding:18px 16px 0}
 .kindTile{position:relative;overflow:hidden;display:flex;flex-direction:column;gap:4px;padding:10px 10px 24px;border-radius:var(--onda-radius,26px);background:color-mix(in srgb,var(--onda-solid) 50%,var(--surface-card));text-align:start}
 .kindTile::before{content:"";position:absolute;inset:0;background:var(--onda-fill);opacity:.38;pointer-events:none}
 .kindTile > *{position:relative}
 .kindTile:active{opacity:.8}
-.kindArt{display:flex;align-items:center;justify-content:center;height:92px;border-radius:var(--onda-radius-sm,17px);background:var(--onda-chip)}
-.kindArt svg{width:116px;height:78px}
-.kindName{font:600 var(--fs-20)/1.15 var(--onda-font);letter-spacing:var(--onda-track,0);margin:8px 4px 0}
 .kindCount{display:flex;align-items:center;gap:8px;margin:0 4px;font:400 var(--fs-13) var(--font-sans);color:var(--label-secondary)}
-.kindDots{display:inline-flex;gap:3px}
-.kindDots i{width:6px;height:6px;border-radius:50%;background:var(--label-quaternary)}
-.kindDots i[data-on]{background:var(--onda-strong)}
 
 /* ── Per-Onda flair on the Ondas tab ─────────────────────── */
 .orn{display:flex;align-items:center;gap:12px;margin:14px 20px 0;color:var(--onda-text)}
@@ -114,12 +78,6 @@ button.softCard{width:100%;text-align:start;display:block}
 .todayBar > [role=progressbar] > div{border-radius:var(--bar-r,999px) !important}
 
 /* ── Gallery: Ondas to take practices from ───────────────── */
-.galleryOndas{display:flex;gap:10px;padding:0 16px;scroll-padding:0 16px}
-.gOnda{flex:none;width:148px;height:132px;border-radius:var(--onda-radius,24px);padding:12px 12px 12px;display:flex;flex-direction:column;justify-content:space-between;text-align:start;position:relative;overflow:hidden}
-.gOnda:active{opacity:.8}
-.gOndaIcon{width:36px;height:36px}
-.gOndaName{font:600 var(--fs-18,18px)/1.1 var(--onda-font);letter-spacing:var(--onda-track,0);text-transform:var(--onda-case,none);display:block;overflow-wrap:anywhere}
-.gOndaSub{font:400 var(--fs-12) var(--font-sans);opacity:.9;display:block;margin-top:2px}
 .pickRow{display:flex;align-items:center;gap:14px;padding:12px 14px;border-radius:22px;background:var(--surface-card);width:100%;text-align:start;border:1.5px solid transparent;transition:border-color var(--duration-standard),background var(--duration-standard)}
 .pickRow:active{opacity:.8}
 .pickOn{border-color:var(--onda-strong);background:color-mix(in srgb,var(--onda-solid) 40%,var(--surface-card))}
@@ -127,46 +85,14 @@ button.softCard{width:100%;text-align:start;display:block}
 .pickBox{width:28px;height:28px;border-radius:50%;border:2px solid var(--label-quaternary);flex:none;display:flex;align-items:center;justify-content:center;color:transparent;margin-left:auto}
 .pickOn .pickBox{background:var(--onda-deep);border-color:var(--onda-deep);color:var(--onda-on)}
 
-.calNudge{display:flex;align-items:center;gap:14px;width:calc(100% - 32px);margin:22px 16px 0;padding:14px 16px;border-radius:18px;background:color-mix(in srgb,var(--surface-card) 70%,transparent);border:1.5px dashed color-mix(in srgb,var(--onda-text, var(--accent)) 35%,transparent);text-align:start}
-.calNudge:active{opacity:.75}
-.calNudgeIcon{width:40px;height:40px;background:var(--onda-solid, var(--surface-fill));color:var(--onda-ink, var(--label));flex:none}
-.calNudgeTitle{display:block;font:600 var(--fs-16) var(--font-sans);color:var(--label)}
-.calNudgeSub{display:block;font:400 var(--fs-14) var(--font-sans);color:var(--label-secondary);margin-top:1px}
-
-.rulesPage{list-style:none;margin:20px 0 0;padding:0;display:flex;flex-direction:column;gap:12px}
-.rulesItem{display:flex;gap:14px;align-items:flex-start;background:var(--surface-card);border-radius:18px;padding:16px}
-.rulesNum{flex:none;width:34px;height:34px;display:flex;align-items:center;justify-content:center;border-radius:var(--onda-shape,50%);clip-path:var(--onda-clip,none);background:var(--onda-deep);color:var(--onda-on);font:600 var(--fs-15) var(--onda-font)}
-
 /* Lagos and Stats borrow the running Onda's type and shapes */
 .scope h1,.scope h2{font-family:var(--onda-font);text-transform:var(--onda-case,none);letter-spacing:var(--onda-track,-0.015em)}
 .scope h1{color:var(--accent)}
 .scope [role=progressbar]{border-radius:var(--bar-r,999px)}
-.scope .dayShape{border-radius:var(--onda-shape,50%)}
-
-.rulesItem .ruleWhy{display:block;-webkit-line-clamp:unset;overflow:visible;font-size:var(--fs-14);margin-top:4px}
 
 /* ── Immersion as a little library: one cover per item, two to a shelf ── */
-.libHead{display:flex;align-items:center;gap:12px;padding:20px 20px 0;font:500 var(--fs-13) var(--font-sans);letter-spacing:.02em;color:var(--label-secondary)}
-.libMeter{flex:1;height:4px;border-radius:2px;background:color-mix(in srgb,var(--onda-strong) 18%,transparent);overflow:hidden}
-.libMeter i{display:block;height:100%;border-radius:2px;background:var(--onda-strong);transition:width var(--duration-large) var(--ease-enter)}
-.lib{list-style:none;margin:0;padding:14px 16px 0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px 12px}
 /* a book: straight spine on the left, rounded fore-edge, a sliver of pages on the right */
-.libCard{position:relative;display:flex;border-radius:5px 18px 18px 5px;background:color-mix(in srgb,var(--onda-solid) 42%,var(--surface-card));box-shadow:inset 7px 0 0 var(--onda-strong),inset 9px 0 0 color-mix(in srgb,var(--onda-strong) 30%,transparent),0 5px 0 -2px color-mix(in srgb,var(--onda-strong) 22%,transparent);content-visibility:auto;contain-intrinsic-size:auto 204px;transition:background var(--duration-standard)}
-.libOpen{flex:1;min-width:0;display:flex;flex-direction:column;align-items:flex-start;gap:5px;padding:12px 12px 14px 20px;text-align:start;min-height:196px}
-.libOpen:active{opacity:.75}
-.libNo{font:600 var(--fs-11)/1 var(--font-sans);letter-spacing:.08em;text-transform:uppercase;color:var(--onda-text);min-height:26px;display:flex;align-items:center}
-.libArt{align-self:stretch;display:flex;align-items:center;justify-content:center;height:70px;margin:2px 0 6px;border-radius:12px;background:var(--onda-chip)}
-.libArt svg{width:84px;height:56px}
-.libTitle{font:600 var(--fs-17)/1.2 var(--onda-font);letter-spacing:var(--onda-track,0);text-wrap:balance;overflow-wrap:anywhere;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
-.libBy{font:400 var(--fs-13)/1.3 var(--font-sans);color:var(--label-secondary);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 /* the due-date stamp: an empty dashed ring until you have experienced it */
-.libStamp{position:absolute;top:4px;right:4px;width:44px;height:44px;display:flex;align-items:center;justify-content:center;color:transparent}
-.libStamp::before{content:"";position:absolute;inset:8px;border-radius:50%;border:1.5px dashed color-mix(in srgb,var(--onda-text) 55%,transparent);transition:background var(--duration-standard),transform var(--duration-standard) var(--ease-enter)}
-.libStamp > *{position:relative}
-.libOn{background:color-mix(in srgb,var(--onda-solid) 80%,var(--surface-card))}
-.libOn .libStamp{color:var(--onda-on)}
-.libOn .libStamp::before{background:var(--onda-deep);border:1.5px solid var(--onda-deep);transform:rotate(-10deg) scale(1.06)}
-@media (prefers-reduced-motion:reduce){.libStamp::before,.libMeter i{transition:none}}
 
 /* ── Rules you can keep: the same numbered cards, with the reason shown in full ── */
 .rulesKeep{display:flex;flex-direction:column;gap:10px;margin-top:18px}
@@ -190,35 +116,8 @@ button.softCard{width:100%;text-align:start;display:block}
 .rulesKeep .ruleOn .ruleText{color:var(--label-secondary);text-decoration:line-through;text-decoration-thickness:1px;text-decoration-color:color-mix(in srgb,var(--label) 35%,transparent)}
 .rulesMeter{margin:18px 20px 0}
 
-.softCard{border-radius:0;background:none;padding:14px 16px;width:100%;text-align:start;position:relative}
-.journalList{background:var(--surface-card);border-radius:24px;overflow:hidden}
-.journalList > * + *::before{content:"";position:absolute;top:0;left:16px;right:0;height:.5px;background:var(--separator)}
-.entryPrompt{font:600 var(--fs-17)/1.3 var(--font-sans);font-style:normal}
-
 
 /* ── Onda 7: Immersion index ── */
-.imHead{margin:0;padding:26px 36px 8px;font:600 var(--fs-13)/1.3 var(--font-sans);letter-spacing:.04em;text-transform:uppercase;color:var(--label-secondary)}
-.imNext{display:flex;gap:12px;padding:0 16px 4px;scroll-snap-type:x mandatory;scroll-padding:0 16px}
-.imCard{flex:none;width:208px;min-height:204px;scroll-snap-align:start;display:flex;flex-direction:column;align-items:flex-start;gap:6px;padding:16px 16px 34px;border-radius:24px;text-align:start;position:relative;overflow:hidden;
-  background:var(--onda-cover,var(--surface-card));color:var(--onda-cover-ink,var(--label));box-shadow:inset 0 0 0 .5px rgba(255,255,255,.14),0 14px 28px -22px var(--onda-cover-edge,rgba(0,0,0,.4));transition:transform var(--duration-micro) var(--spring-snappy)}
-.imCard::after{content:"";position:absolute;inset:0;pointer-events:none;background:radial-gradient(110% 70% at 0% 0%,rgba(255,255,255,.14),transparent 60%)}
-.imCard:active{transform:scale(.97)}
-.imCardTop{display:flex;align-items:flex-start;justify-content:space-between;width:100%;margin-bottom:auto}
-.imCardKind{font:600 var(--fs-11)/1.3 var(--font-sans);letter-spacing:.08em;text-transform:uppercase;opacity:.8}
-.imCardIcon{display:flex;opacity:.9}
-.imCardTitle{margin-top:28px;font:500 var(--fs-19)/1.2 var(--onda-font,var(--font-serif));letter-spacing:var(--onda-track,0);text-transform:var(--onda-case,none);text-wrap:balance;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
-.imCardBy{font:400 var(--fs-13)/1.3 var(--font-sans);opacity:.78;display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden}
-.imGrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;padding:0 16px}
-.imTile{display:flex;flex-direction:column;align-items:flex-start;gap:2px;min-height:124px;padding:14px 14px 14px 16px;border-radius:24px;text-align:start;position:relative;overflow:hidden;
-  background:radial-gradient(120% 90% at 0% 0%,color-mix(in srgb,var(--onda-accent,var(--accent)) 10%,transparent),transparent 62%),var(--surface-card);transition:transform var(--duration-micro) var(--spring-snappy)}
-.imTile:active{transform:scale(.97)}
-.imTileTop{display:flex;align-items:flex-start;justify-content:space-between;width:100%;margin-bottom:auto}
-.imTileIcon{display:flex;color:var(--onda-accent,var(--accent));padding-top:2px}
-.imRing{width:34px;height:34px;transform:rotate(-90deg)}
-.imRing circle{fill:none;stroke-width:3;stroke:color-mix(in srgb,var(--label) 9%,transparent)}
-.imRing circle[data-on]{stroke:var(--onda-accent,var(--accent));stroke-linecap:round;transition:stroke-dasharray var(--duration-large) var(--ease-enter)}
-.imTileName{margin-top:18px;font:600 var(--fs-17)/1.25 var(--font-sans);color:var(--label)}
-.imTileCount{font:400 var(--fs-13)/1.3 var(--font-sans);color:var(--label-secondary)}
 
 /* ── Onda 7: practice sheet ── */
 .px{padding:6px 20px calc(28px + var(--sab,0px))}
@@ -256,157 +155,30 @@ button.softCard{width:100%;text-align:start;display:block}
 .doneTitle{font:500 var(--fs-30)/1.12 var(--font-sans);font-weight:700;letter-spacing:var(--tracking-title);margin-top:26px}
 
 /* ── Onda 7: library cards ── */
-.libHead{padding:22px 36px 10px}
-.lib{list-style:none;margin:0;padding:0 16px;display:flex;flex-direction:column;gap:10px}
-.libCard{position:relative;display:flex;background:var(--surface-card);border-radius:22px;box-shadow:none;transition:background var(--duration-standard)}
-.libOn{background:color-mix(in srgb,var(--onda-accent,var(--accent)) 7%,var(--surface-card))}
-.libOpen{flex:1;min-width:0;display:flex;align-items:flex-start;gap:14px;padding:12px 56px 12px 12px;text-align:start;min-height:0}
-.libOpen:active{opacity:.75}
 /* the small cover */
-.libThumb{--t:var(--onda-accent,var(--accent));position:relative;flex:none;width:64px;height:64px;border-radius:14px;display:flex;align-items:center;justify-content:center;overflow:hidden;color:#FBF7EF;
-  background:linear-gradient(160deg,color-mix(in oklab,var(--t) 78%,#000),color-mix(in oklab,var(--t) 52%,#000));box-shadow:inset 0 0 0 .5px rgba(255,255,255,.18)}
-[data-tint="1"] .libThumb{--t:color-mix(in oklab,var(--onda-accent,var(--accent)) 62%,#8A5A2B)}
-[data-tint="2"] .libThumb{--t:color-mix(in oklab,var(--onda-accent,var(--accent)) 62%,#2B6A6A)}
-[data-tint="3"] .libThumb{--t:color-mix(in oklab,var(--onda-accent,var(--accent)) 62%,#6A2B4E)}
-[data-tint="4"] .libThumb{--t:color-mix(in oklab,var(--onda-accent,var(--accent)) 70%,#B08A2E)}
-.libThumb::after{content:"";position:absolute;inset:0;background:radial-gradient(90% 60% at 20% 0%,rgba(255,255,255,.2),transparent 70%);pointer-events:none}
-.libThumb[data-kind="read"]{width:54px;height:76px;border-radius:4px 9px 9px 4px;box-shadow:inset 5px 0 0 rgba(0,0,0,.22),inset 6px 0 0 rgba(255,255,255,.12),0 6px 12px -8px rgba(0,0,0,.5)}
-.libThumb[data-kind="watch"]{width:84px;height:56px;border-radius:10px}
-.libThumb[data-kind="listen"]{border-radius:50%;background:radial-gradient(circle,rgba(255,255,255,.22) 0 4px,transparent 5px),repeating-radial-gradient(circle,transparent 0 5px,rgba(255,255,255,.06) 5px 6px),linear-gradient(160deg,color-mix(in oklab,var(--t) 70%,#000),color-mix(in oklab,var(--t) 45%,#000))}
-.libThumb[data-kind="art"]{border-radius:3px;box-shadow:inset 0 0 0 4px color-mix(in oklab,var(--t) 40%,#fff),inset 0 0 0 5px rgba(0,0,0,.2)}
-.libThumb:is([data-kind="eat"],[data-kind="drink"]){border-radius:50%;box-shadow:inset 0 0 0 5px rgba(255,255,255,.14)}
-.libThumb:is([data-kind="customs"],[data-kind="games"],[data-kind="travel"],[data-kind="words"]){border-radius:18px}
-.libInitial{position:relative;z-index:1;font:500 var(--fs-28)/1 var(--onda-font,var(--font-serif));letter-spacing:0}
-.libThumb[data-kind="listen"] .libInitial{display:none}
-.libNo{position:absolute;z-index:1;left:6px;bottom:4px;font:600 var(--fs-10,10px)/1 var(--font-sans);letter-spacing:.04em;opacity:.75;min-height:0;color:inherit;text-transform:none}
-.libThumb[data-kind="read"] .libNo{left:10px}
-.libText{flex:1;min-width:0;display:flex;flex-direction:column;gap:3px;padding-top:2px}
-.libTitle{font:600 var(--fs-17)/1.25 var(--font-sans);text-transform:none;letter-spacing:var(--tracking-body);text-wrap:pretty;overflow-wrap:anywhere;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-.libBy{font:400 var(--fs-14)/1.3 var(--font-sans);color:var(--onda-accent,var(--label-secondary));display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden}
-.libWhy{margin-top:2px;font:400 var(--fs-14)/1.4 var(--font-sans);color:var(--label-secondary);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;text-wrap:pretty}
-.libArt{display:none}
-.libStamp{position:absolute;top:8px;right:6px;width:44px;height:44px;display:flex;align-items:center;justify-content:center;color:transparent}
-.libStamp::before{content:"";position:absolute;inset:10px;border-radius:50%;border:1.5px solid var(--label-quaternary);transition:background var(--duration-standard),border-color var(--duration-standard)}
-.libStamp > *{position:relative}
-.libOn .libStamp{color:var(--onda-on,#fff)}
-.libOn .libStamp::before{background:var(--onda-deep,var(--accent));border-color:var(--onda-deep,var(--accent));transform:none}
-.libOn .libTitle{color:var(--label-secondary)}
 
 /* ── Onda 7: a format for each kind ── */
-.libCoverTitle,.libCoverBy,.libExtra{display:none}
-.lib:is([data-layout="read"],[data-layout="listen"],[data-layout="art"],[data-layout="watch"]) .libStamp::before{border-color:rgba(255,255,255,.8);background:rgba(0,0,0,.16)}
 
 /* Read: a shelf of books, two across, the title set on the cover */
-.lib[data-layout="read"]{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px 16px;padding-top:4px}
-.lib[data-layout="read"] .libCard{background:none}
-.lib[data-layout="read"] .libOpen{flex-direction:column;gap:10px;padding:0}
-.lib[data-layout="read"] .libThumb{width:100%;height:auto;aspect-ratio:2/3;flex-direction:column;justify-content:space-between;align-items:flex-start;padding:18px 12px 14px 20px;border-radius:3px 12px 12px 3px;
-  box-shadow:inset 6px 0 0 rgba(0,0,0,.24),inset 7px 0 0 rgba(255,255,255,.14),0 1px 1px rgba(0,0,0,.08),0 16px 22px -14px rgba(0,0,0,.55)}
-.lib[data-layout="read"] .libThumb::before{content:"";position:absolute;inset:9px 8px 9px 15px;border:.5px solid rgba(255,255,255,.34);border-radius:3px;pointer-events:none}
-.lib[data-layout="read"] .libInitial{display:none}
-.lib[data-layout="read"] .libCoverTitle{display:-webkit-box;-webkit-line-clamp:5;-webkit-box-orient:vertical;overflow:hidden;position:relative;z-index:1;font:500 var(--fs-19)/1.15 var(--onda-font,var(--font-serif));text-wrap:balance;overflow-wrap:anywhere}
-.lib[data-layout="read"] .libCoverBy{display:block;position:relative;z-index:1;font:600 var(--fs-11)/1.25 var(--font-sans);letter-spacing:.07em;text-transform:uppercase;opacity:.82}
-.lib[data-layout="read"] .libNo{display:none}
-.lib[data-layout="read"] .libText{padding:0 2px}
-.lib[data-layout="read"] .libTitle,.lib[data-layout="read"] .libWhy{display:none}
-.lib[data-layout="read"] .libStamp{top:6px;right:4px}
 
 /* Listen: record sleeves with the disc sliding out */
-.lib[data-layout="listen"]{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px 16px;padding-top:4px}
-.lib[data-layout="listen"] .libCard{background:none}
-.lib[data-layout="listen"] .libOpen{flex-direction:column;gap:12px;padding:0;isolation:isolate}
-.lib[data-layout="listen"] .libThumb{width:80%;height:auto;aspect-ratio:1;border-radius:4px;overflow:visible;background:linear-gradient(160deg,color-mix(in oklab,var(--t) 80%,#000),color-mix(in oklab,var(--t) 50%,#000));box-shadow:0 14px 20px -14px rgba(0,0,0,.6)}
-.lib[data-layout="listen"] .libThumb::before{content:"";position:absolute;z-index:-1;top:5%;bottom:5%;right:-22%;aspect-ratio:1;border-radius:50%;
-  background:radial-gradient(circle,#0E0E0E 0 3%,color-mix(in oklab,var(--t) 60%,#fff) 3.5% 16%,#111 16.5% 18%,transparent 18.5%),repeating-radial-gradient(circle,#161616 0 1.5px,#242424 1.5px 3px)}
-.lib[data-layout="listen"] .libInitial{display:block;font-size:var(--fs-36)}
-.lib[data-layout="listen"] .libText{padding:0 2px}
-.lib[data-layout="listen"] .libTitle{font:500 var(--fs-17)/1.2 var(--onda-font,var(--font-serif))}
-.lib[data-layout="listen"] .libWhy{display:none}
-.lib[data-layout="listen"] .libStamp{top:2px;right:auto;left:calc(80% - 46px)}
 
 /* Watch: wide cinematic frames with letterbox bars and the title over the picture */
-.lib[data-layout="watch"] .libCard{overflow:hidden}
-.lib[data-layout="watch"] .libOpen{flex-direction:column;gap:12px;padding:0 0 16px}
-.lib[data-layout="watch"] .libThumb{width:100%;height:auto;aspect-ratio:2.1/1;border-radius:0;align-items:flex-end;justify-content:flex-start;padding:0 18px 18px;
-  box-shadow:inset 0 12px 0 rgba(0,0,0,.42),inset 0 -12px 0 rgba(0,0,0,.42)}
-.lib[data-layout="watch"] .libThumb::before{content:"";position:absolute;left:50%;top:50%;width:46px;height:46px;margin:-23px 0 0 -23px;border-radius:50%;background:rgba(255,255,255,.18);
-  -webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);box-shadow:inset 0 0 0 1px rgba(255,255,255,.3)}
-.lib[data-layout="watch"] .libThumb::after{background:linear-gradient(to top,rgba(0,0,0,.45),transparent 60%)}
-.lib[data-layout="watch"] .libInitial,.lib[data-layout="watch"] .libNo{display:none}
-.lib[data-layout="watch"] .libCoverTitle{display:block;position:relative;z-index:1;font:500 var(--fs-24)/1.1 var(--onda-font,var(--font-serif));text-wrap:balance;max-width:85%}
-.lib[data-layout="watch"] .libText{padding:0 16px}
-.lib[data-layout="watch"] .libTitle{display:none}
 
 /* Art: a gallery wall, a matted print in a thin frame and a museum label */
-.lib[data-layout="art"]{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:26px 18px;padding-top:6px}
-.lib[data-layout="art"] .libCard{background:none}
-.lib[data-layout="art"] .libOpen{flex-direction:column;gap:12px;padding:0}
-.lib[data-layout="art"] .libThumb{width:100%;height:auto;aspect-ratio:4/5;border-radius:1px;background:#F3EFE6;padding:16%;
-  box-shadow:0 0 0 4px #2E2721,0 0 0 5px #6B5A48,0 18px 24px -12px rgba(0,0,0,.5)}
-.lib[data-layout="art"] .libThumb::before{content:"";position:absolute;inset:15%;background:linear-gradient(160deg,color-mix(in oklab,var(--t) 85%,#000),color-mix(in oklab,var(--t) 55%,#000));box-shadow:inset 0 0 0 .5px rgba(0,0,0,.3)}
-.lib[data-layout="art"] .libThumb::after{display:none}
-.lib[data-layout="art"] .libInitial{font-size:var(--fs-30)}
-.lib[data-layout="art"] .libNo{color:#2E2721;opacity:.6;left:8px;bottom:6px}
-.lib[data-layout="art"] .libText{padding:4px 2px 0;gap:2px}
-.lib[data-layout="art"] .libTitle{font:500 var(--fs-16)/1.25 var(--onda-font,var(--font-serif))}
-.lib[data-layout="art"] .libBy{font:600 var(--fs-11)/1.3 var(--font-sans);letter-spacing:.07em;text-transform:uppercase}
-.lib[data-layout="art"] .libWhy{display:none}
-.lib[data-layout="art"] .libStamp{top:2px;right:2px}
-.lib[data-layout="art"] .libStamp::before{border-color:rgba(0,0,0,.35);background:rgba(255,255,255,.6)}
 
 /* Eat and drink: a printed menu */
-.lib:is([data-layout="eat"],[data-layout="drink"]){display:block;margin:0 16px;padding:26px 0 10px;background:var(--surface-card);border-radius:26px;
-  background-image:linear-gradient(var(--onda-accent,var(--accent)),var(--onda-accent,var(--accent)));background-size:40px 1px;background-position:50% 18px;background-repeat:no-repeat}
-.lib:is([data-layout="eat"],[data-layout="drink"]) .libCard{background:none;border-radius:0}
-.lib:is([data-layout="eat"],[data-layout="drink"]) .libCard + .libCard::before{content:"";position:absolute;top:0;left:22px;right:22px;border-top:1px dotted color-mix(in srgb,var(--label) 25%,transparent)}
-.lib:is([data-layout="eat"],[data-layout="drink"]) .libOpen{padding:16px 60px 16px 22px}
-.lib:is([data-layout="eat"],[data-layout="drink"]) .libThumb{display:none}
-.lib:is([data-layout="eat"],[data-layout="drink"]) .libTitle{font:500 var(--fs-20)/1.2 var(--onda-font,var(--font-serif))}
-.lib:is([data-layout="eat"],[data-layout="drink"]) .libBy{font:600 var(--fs-11)/1.3 var(--font-sans);letter-spacing:.08em;text-transform:uppercase}
-.lib:is([data-layout="eat"],[data-layout="drink"]) .libWhy{font:italic 400 var(--fs-15)/1.45 var(--font-serif);-webkit-line-clamp:3}
-.lib:is([data-layout="eat"],[data-layout="drink"]) .libStamp{top:12px;right:10px}
 
 /* Words: a deck of vocabulary cards, one at a time, swiped sideways */
-.lib[data-layout="words"]{flex-direction:row;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-padding:0 16px;padding:8px 16px 26px}
-.lib[data-layout="words"] .libCard{flex:none;width:calc(100% - 44px);min-height:320px;scroll-snap-align:start;border-radius:26px;
-  background:linear-gradient(transparent 0 76px,color-mix(in srgb,var(--onda-accent,var(--accent)) 40%,transparent) 76px 77px,transparent 77px),
-    repeating-linear-gradient(transparent 0 33px,color-mix(in srgb,var(--label) 7%,transparent) 33px 34px) 0 77px/100% calc(100% - 77px) no-repeat,var(--surface-card);
-  box-shadow:0 1px 0 rgba(0,0,0,.04),6px 6px 0 -1px var(--surface-card),6px 6px 0 0 color-mix(in srgb,var(--label) 8%,transparent),12px 12px 0 -2px var(--surface-card),12px 12px 0 -1px color-mix(in srgb,var(--label) 6%,transparent)}
-.lib[data-layout="words"] .libOpen{flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:30px 26px}
-.lib[data-layout="words"] .libThumb{display:none}
-.lib[data-layout="words"] .libText{align-items:center;gap:8px}
-.lib[data-layout="words"] .libTitle{font:500 var(--fs-36)/1.1 var(--onda-font,var(--font-serif));-webkit-line-clamp:3;color:var(--label)}
-.lib[data-layout="words"] .libExtra{display:block;font:italic 400 var(--fs-15)/1.3 var(--font-serif);color:var(--onda-accent,var(--label-secondary))}
-.lib[data-layout="words"] .libBy{margin-top:14px;font:500 var(--fs-19)/1.3 var(--font-sans);color:var(--label);-webkit-line-clamp:3}
-.lib[data-layout="words"] .libWhy{-webkit-line-clamp:4;font-size:var(--fs-15)}
 
 /* Travel: postcards with a perforated stamp */
-.lib[data-layout="travel"] .libCard{border-radius:8px;background:color-mix(in srgb,#F4EAD5 30%,var(--surface-card));box-shadow:0 10px 18px -14px rgba(0,0,0,.45)}
-.lib[data-layout="travel"] .libCard:nth-child(odd){transform:rotate(-.6deg)}
-.lib[data-layout="travel"] .libCard:nth-child(even){transform:rotate(.5deg)}
-.lib[data-layout="travel"] .libOpen{padding:16px 60px 16px 16px}
-.lib[data-layout="travel"] .libThumb{width:58px;height:68px;border-radius:0;-webkit-mask:radial-gradient(circle at 3px 3px,transparent 2.2px,#000 2.6px) -3px -3px/6px 6px;mask:radial-gradient(circle at 3px 3px,transparent 2.2px,#000 2.6px) -3px -3px/6px 6px}
-.lib[data-layout="travel"] .libTitle{font:500 var(--fs-20)/1.2 var(--onda-font,var(--font-serif))}
 
 /* Games: a board on the box */
-.lib[data-layout="games"] .libThumb{background:conic-gradient(rgba(255,255,255,.14) 25%,transparent 0 50%,rgba(255,255,255,.14) 0 75%,transparent 0) 0 0/16px 16px,linear-gradient(160deg,color-mix(in oklab,var(--t) 78%,#000),color-mix(in oklab,var(--t) 52%,#000));border-radius:12px}
 
 /* Customs: an almanac, the number large */
-.lib[data-layout="customs"] .libThumb{width:48px;height:48px;background:none;box-shadow:none;color:var(--onda-accent,var(--accent))}
-.lib[data-layout="customs"] .libThumb::after{display:none}
-.lib[data-layout="customs"] .libInitial{display:none}
-.lib[data-layout="customs"] .libNo{position:static;font:500 var(--fs-30)/1 var(--onda-font,var(--font-serif));opacity:1}
 
 /* ── Onda 7: philosophy deck ── */
 .phWrap{padding:0 16px}
-.phLead{margin:6px 4px 16px;font:400 var(--fs-17)/1.4 var(--font-sans);color:var(--label-secondary)}
-.phCard{position:relative;display:flex;flex-direction:column;align-items:flex-start;gap:10px;min-height:400px;margin-top:16px;padding:24px 22px 20px;border-radius:28px;overflow:hidden;
-  background:var(--onda-cover,var(--surface-card));color:var(--onda-cover-ink,var(--label));box-shadow:inset 0 0 0 .5px rgba(255,255,255,.14),0 18px 34px -24px var(--onda-cover-edge,rgba(0,0,0,.45))}
-.phCard::after{content:"";position:absolute;inset:0;pointer-events:none;background:radial-gradient(110% 70% at 0% 0%,rgba(255,255,255,.12),transparent 60%)}
-.phNum{font:400 var(--fs-36)/1 var(--onda-font,var(--font-serif));opacity:.9}
-.phOf{position:absolute;top:26px;right:22px;font:600 var(--fs-11)/1.3 var(--font-sans);letter-spacing:.08em;text-transform:uppercase;opacity:.7}
-.phTitle{margin:14px 0 0;font:500 var(--fs-26)/1.15 var(--onda-font,var(--font-serif));letter-spacing:var(--onda-track,-0.005em);text-transform:var(--onda-case,none);text-wrap:balance}
-.phText{margin:0;font:400 var(--fs-17)/1.5 var(--font-sans);opacity:.92;text-wrap:pretty}
 .phTry{position:relative;z-index:1;margin-top:auto;display:flex;align-items:flex-start;gap:12px;width:100%;padding:14px;border-radius:18px;text-align:start;color:inherit;
   background:rgba(255,255,255,.12);box-shadow:inset 0 0 0 .5px rgba(255,255,255,.2);transition:background var(--duration-standard)}
 .phTry:active{opacity:.8}
@@ -415,56 +187,13 @@ button.softCard{width:100%;text-align:start;display:block}
 .phTryOn .phTryBox{background:var(--onda-cover-ink,#fff);border-color:var(--onda-cover-ink,#fff);color:var(--onda-deep,#000)}
 .phTryText{font:400 var(--fs-15)/1.4 var(--font-sans);text-wrap:pretty}
 .phTryText b{display:block;margin-bottom:2px;font:600 var(--fs-11)/1.3 var(--font-sans);letter-spacing:.08em;text-transform:uppercase;opacity:.85}
-.phCount{display:flex;justify-content:space-between;gap:12px;margin:22px 20px 8px;font:600 var(--fs-13)/1.3 var(--font-sans);letter-spacing:.04em;text-transform:uppercase;color:var(--label-secondary)}
-.phPicked{color:var(--onda-accent,var(--accent));text-transform:none;letter-spacing:0;font-weight:500}
-.phList{background:var(--surface-card);border-radius:22px;overflow:hidden;margin-bottom:24px}
-.phRow{position:relative;display:flex;align-items:center;gap:12px;width:100%;min-height:50px;padding:12px 16px;text-align:start;color:var(--label)}
-.phRow + .phRow::before{content:"";position:absolute;top:0;left:50px;right:0;height:.5px;background:var(--separator)}
-.phRow:active{background:var(--surface-fill)}
-.phRow svg{color:var(--onda-accent,var(--accent));flex:none}
-.phRowOn{background:color-mix(in srgb,var(--onda-accent,var(--accent)) 7%,transparent)}
 .phRowN{flex:none;width:22px;font:500 var(--fs-17)/1.3 var(--onda-font,var(--font-serif));color:var(--onda-accent,var(--accent))}
-.phRowTitle{flex:1;min-width:0;font:400 var(--fs-17)/1.3 var(--font-sans)}
-.phRowOn .phRowTitle{font-weight:600}
 
 /* ── Onda 7: format refinements ── */
-.lib:is([data-layout='read'],[data-layout='listen'],[data-layout='art'],[data-layout='words']) .libText{padding:0 4px}
 /* Read: three across, like spines turned out on a shelf */
-.lib[data-layout='read']{grid-template-columns:repeat(3,minmax(0,1fr));gap:22px 12px}
-.lib[data-layout='read'] .libThumb{padding:12px 8px 10px 14px}
-.lib[data-layout='read'] .libThumb::before{inset:6px 5px 6px 11px}
-.lib[data-layout='read'] .libCoverTitle{font-size:var(--fs-15);line-height:1.15;-webkit-line-clamp:6;padding-right:2px}
-.lib[data-layout='read'] .libCoverBy{display:none}
-.lib[data-layout='read'] .libBy{font-size:var(--fs-12);line-height:1.3;color:var(--label-secondary);-webkit-line-clamp:2}
-.lib[data-layout='read'] .libStamp{top:auto;bottom:-6px;right:-6px}
-.lib[data-layout='read'] .libOpen{padding-bottom:0}
-.lib[data-layout='listen'] .libNo{display:none}
 /* Words: a grid of flashcards, the word large, how to say it, what it means */
-.lib[data-layout='words']{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;overflow:visible;padding:4px 16px 0;scroll-snap-type:none}
-.lib[data-layout='words'] .libCard{width:auto;min-height:0;border-radius:22px;background:var(--surface-card);box-shadow:none}
-.lib[data-layout='words'] .libOpen{align-items:flex-start;justify-content:flex-start;text-align:start;padding:16px 14px 16px 16px;min-height:150px}
-.lib[data-layout='words'] .libText{align-items:flex-start;gap:4px;padding:0}
-.lib[data-layout='words'] .libTitle{font:500 var(--fs-24)/1.1 var(--onda-font,var(--font-serif));padding-right:30px;-webkit-line-clamp:2;overflow-wrap:anywhere}
-.lib[data-layout='words'] .libExtra{font:italic 400 var(--fs-13)/1.3 var(--font-serif)}
-.lib[data-layout='words'] .libBy{margin-top:auto;padding-top:10px;font:400 var(--fs-14)/1.35 var(--font-sans);color:var(--label-secondary);-webkit-line-clamp:3}
-.lib[data-layout='words'] .libWhy{display:none}
-.lib[data-layout='words'] .libStamp{top:6px;right:4px}
-.lib[data-layout='words'] .libStamp::before{inset:12px}
 
 /* ── Onda 7: format fixes ── */
-.lib[data-layout='read']{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px 16px}
-.lib[data-layout='read'] .libThumb{aspect-ratio:5/7;padding:16px 12px 12px 20px}
-.lib[data-layout='read'] .libThumb::before{inset:8px 7px 8px 14px}
-.lib[data-layout='read'] .libCoverTitle{font-size:var(--fs-17);overflow-wrap:break-word;hyphens:auto}
-.lib[data-layout='read'] .libBy{font-size:var(--fs-13);padding-right:34px}
-.lib[data-layout='read'] .libStamp{top:auto;bottom:-10px;right:-8px}
-.lib[data-layout='read'] .libStamp::before{border-color:var(--label-quaternary);background:none}
-.lib[data-layout='read'] .libOn .libStamp::before{background:var(--onda-deep,var(--accent));border-color:var(--onda-deep,var(--accent))}
-.lib[data-layout='words'] .libTitle{font-size:var(--fs-20);padding-right:0;overflow-wrap:break-word;hyphens:auto}
-.lib[data-layout='words'] .libBy{padding-right:30px}
-.lib[data-layout='words'] .libStamp{top:auto;bottom:4px;right:4px}
-.lib[data-layout='read'] .libStamp{right:-2px}
-.lib[data-layout='read'] .libBy{padding-left:2px}
 
 /* ── Onda 7: philosophy, today and the index ── */
 .phToday{position:relative;display:flex;flex-direction:column;align-items:flex-start;gap:10px;margin-top:6px;padding:22px 22px 18px;border-radius:28px;overflow:hidden;
@@ -506,10 +235,6 @@ button.softCard{width:100%;text-align:start;display:block}
 .phToday{background:var(--onda-cover,var(--onda-material,var(--surface-card)))}
 .phTryBox{border-radius:var(--onda-shape,50%)}
 .phItemOpen .phItemTitle{font-family:var(--onda-font,var(--font-sans));font-weight:500;text-transform:var(--onda-case,none);letter-spacing:var(--onda-track,0)}
-.imCard{background:var(--onda-cover,var(--onda-material))}
-.imTile{position:relative;isolation:isolate;overflow:hidden}
-.imTile::before{content:"";position:absolute;inset:0;z-index:-1;background:var(--onda-cover);opacity:.07;pointer-events:none}
-.imRing circle + circle{stroke:var(--onda-accent,var(--accent))}
 
 /* ── Desktop (src/lib/desk.ts). The phone layouts above are untouched; these only widen them. ── */
 /* Philosophy: today's idea stays beside the index while it scrolls */
@@ -518,27 +243,156 @@ button.softCard{width:100%;text-align:start;display:block}
 :global(html[data-desk]) .phWrap > .phToday,:global(html[data-desk]) .phWrap > .phToday:first-child{grid-column:1;grid-row:1 / span 20;position:sticky;top:84px;margin-top:22px;padding:30px 30px 26px}
 :global(html[data-desk]) .phWrap:not(:has(> .phToday)) > *{grid-column:1 / -1}
 :global(html[data-desk]) .phItemHead:hover{background:var(--surface-fill)}
-/* Journal: the banner and the new entry button on the left, entries as cards on the right */
-:global(html[data-desk]) .jrWrap{display:grid;grid-template-columns:340px minmax(0,1fr);gap:16px 40px;align-items:start;padding:4px 0 24px !important}
-:global(html[data-desk]) .jrWrap > *{grid-column:1}
-:global(html[data-desk]) .jrWrap > :last-child{grid-column:2;grid-row:1 / span 2;margin-top:0 !important}
-:global(html[data-desk]) .jrWrap .journalList{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;background:none;border-radius:0;overflow:visible}
-:global(html[data-desk]) .jrWrap .journalList > *{background:var(--surface-card);border-radius:20px;padding:18px 20px;transition:transform 180ms var(--ease-enter),box-shadow 180ms var(--ease-enter)}
-:global(html[data-desk]) .jrWrap .journalList > *:hover{transform:translateY(-1px);box-shadow:0 18px 36px -26px rgba(0,0,0,.4)}
-:global(html[data-desk]) .jrWrap .journalList > * + *::before{display:none}
-/* Immersion: shelves become grids that use the width */
-:global(html[data-desk]) .imHead{padding:30px 4px 12px}
-:global(html[data-desk]) .imNext{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));overflow:visible;padding:0;scroll-snap-type:none}
-:global(html[data-desk]) .imCard{width:auto}
-:global(html[data-desk]) .imGrid{grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:14px;padding:0}
-:global(html[data-desk]) :is(.imCard,.imTile){transition:transform 180ms var(--ease-enter)}
-:global(html[data-desk]) :is(.imCard,.imTile):hover{transform:translateY(-2px)}
-:global(html[data-desk]) .libHead{padding:24px 4px 12px}
-:global(html[data-desk]) .lib{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:14px;padding:0}
-:global(html[data-desk]) .lib:is([data-layout="read"],[data-layout="art"]){grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:30px 22px}
-:global(html[data-desk]) .lib[data-layout="listen"]{grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:30px 22px}
-:global(html[data-desk]) .lib[data-layout="watch"]{grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:18px}
-:global(html[data-desk]) .lib[data-layout="words"]{grid-template-columns:repeat(auto-fill,minmax(260px,1fr));overflow:visible;padding:0}
-:global(html[data-desk]) .lib:is([data-layout="eat"],[data-layout="drink"]){display:block;columns:2;column-gap:0;margin:0}
-:global(html[data-desk]) .lib:is([data-layout="eat"],[data-layout="drink"]) .libCard{break-inside:avoid}
-@media (prefers-reduced-motion:reduce){:global(html[data-desk]) :is(.imCard,.imTile):hover,:global(html[data-desk]) .jrWrap .journalList > *:hover{transform:none}}
+
+/* ══ 8.0 Immersion (design handoff v2, 2a): Up Next covers, then each kind as a shelf of cards shaped like its medium ══
+   Everything is drawn from the running Onda: its cover (--onda-cover), display face, corner (--onda-r) and accent. */
+.upRow{display:flex;gap:12px;padding:0 16px 26px;margin-bottom:-18px;scroll-snap-type:x mandatory;scroll-padding:0 16px}
+.upItem{flex:none;width:min(334px,calc(100% - 56px));scroll-snap-align:start;display:flex}
+.upCard{position:relative;overflow:hidden;isolation:isolate;display:flex;flex-direction:column;width:100%;height:240px;padding:22px 24px;text-align:start;
+  border-radius:calc(var(--onda-r,30px) * .8);background:var(--onda-cover,var(--accent));color:var(--onda-cover-ink,#fff);
+  box-shadow:inset 0 0 0 .5px rgba(255,255,255,.16),0 18px 36px -24px var(--onda-cover-edge,rgba(0,0,0,.4));transition:transform var(--duration-micro) var(--spring-snappy)}
+.upCard:active{transform:scale(.985)}
+.upCard::after{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;background:radial-gradient(120% 80% at 0% 0%,rgba(255,255,255,.14),transparent 60%)}
+.upCard[data-frame]::before{content:"";position:absolute;inset:9px;border-radius:max(2px,calc(var(--onda-r,30px) * .8 - 9px));box-shadow:inset 0 0 0 .5px currentColor;opacity:.42;pointer-events:none}
+.upWater{position:absolute;right:-22px;bottom:-26px;z-index:-1;display:flex;opacity:.14;pointer-events:none}
+.upTop{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:auto}
+.upTag{font:600 var(--fs-12)/1.3 var(--font-sans);letter-spacing:.1em;text-transform:uppercase;opacity:.85}
+.upTitle{max-width:270px;font:500 var(--fs-25)/1.12 var(--onda-font,var(--font-serif));letter-spacing:var(--onda-track,0);text-transform:var(--onda-case,none);text-wrap:balance;overflow-wrap:anywhere;
+  display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.upBy{margin-top:6px;font:400 var(--fs-15)/1.3 var(--font-sans);opacity:.85;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.upWide .upTitle{font-size:var(--fs-26);max-width:none}
+.kindHero{padding:0 16px}
+.imSec{content-visibility:auto;contain-intrinsic-size:auto 300px}
+.imSecHead{display:flex;align-items:center;gap:6px;width:100%;min-height:44px;padding:32px 20px 12px;text-align:start;color:var(--label-tertiary)}
+button.imSecHead:active{opacity:.7}
+.imSecTitle{font:600 var(--fs-21)/1.2 var(--onda-font,var(--font-serif));letter-spacing:var(--onda-track,.02em);text-transform:var(--onda-case,none);color:var(--label)}
+.imSecCount{margin-left:auto;font:500 var(--fs-14) var(--font-sans);color:var(--label-secondary);font-variant-numeric:tabular-nums}
+.imShelf{display:flex;align-items:flex-start;gap:14px;padding:0 16px 24px;margin-bottom:-18px;scroll-snap-type:x proximity;scroll-padding:0 16px}
+.imShelf > *{scroll-snap-align:start}
+
+/* a media card: the art (tap to tick), then a caption that opens the note */
+.mc{flex:none;display:flex;flex-direction:column;gap:8px;min-width:0}
+.mcArt{position:relative;overflow:hidden;isolation:isolate;display:flex;flex-direction:column;text-align:start;
+  background:var(--onda-cover,var(--accent));color:var(--onda-cover-ink,#fff);
+  box-shadow:inset 0 0 0 .5px rgba(255,255,255,.16),0 14px 28px -20px var(--onda-cover-edge,rgba(0,0,0,.45));transition:transform var(--duration-micro) var(--spring-snappy)}
+.mcArt:active{transform:scale(.97)}
+.mcCap{display:flex;flex-direction:column;gap:2px;min-height:20px;text-align:start}
+.mcTitle{font:600 var(--fs-15)/1.3 var(--font-sans);color:var(--label);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.mcBy{font:400 var(--fs-13)/1.3 var(--font-sans);color:var(--label-secondary);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.mcTick{position:absolute;top:10px;right:10px;z-index:2;width:24px;height:24px;border-radius:50%;display:flex;align-items:center;justify-content:center;
+  color:var(--onda-accent,var(--accent));box-shadow:inset 0 0 0 1.5px rgba(255,255,255,.55);transition:background .2s,box-shadow .2s}
+.mcTick[data-on]{background:rgba(255,255,255,.95);box-shadow:none}
+.mcTickLight{box-shadow:inset 0 0 0 1.5px var(--label-quaternary)}
+.mcTickLight[data-on]{background:var(--onda-deep,var(--accent));color:var(--onda-on,#fff)}
+.mcWater{position:absolute;right:-14px;bottom:-30px;z-index:-1;display:flex;opacity:.13;pointer-events:none}
+.mcIcon{margin:auto;display:flex;opacity:.92}
+/* Read: a book cover with a spine, the title set on it */
+.mc[data-kind="read"]{width:124px}
+.mcBook{height:184px;padding:14px 12px 12px 20px;align-items:center;text-align:center;border-radius:3px 10px 10px 3px}
+.mcBook::before{content:"";position:absolute;left:0;top:0;bottom:0;width:11px;background:linear-gradient(to right,rgba(0,0,0,.32),rgba(255,255,255,.1) 70%,rgba(0,0,0,.12));pointer-events:none}
+.mcBook[data-frame]::after{content:"";position:absolute;inset:8px 6px 8px 14px;border-radius:2px;box-shadow:inset 0 0 0 .5px currentColor;opacity:.42;pointer-events:none}
+.mcOrn{display:flex;opacity:.9}
+.mcBookTitle{margin:auto 0;font:500 var(--fs-13)/1.2 var(--onda-font,var(--font-serif));letter-spacing:var(--onda-track,0);text-transform:var(--onda-case,none);text-wrap:balance;overflow-wrap:anywhere;
+  display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
+.mcBookBy{font:400 calc(var(--u) * 10)/1.25 var(--font-sans);opacity:.82;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.mcBook .mcTick{top:8px;right:8px}
+/* Watch: a 16:9 still with a play button */
+.mc[data-kind="watch"]{width:268px}
+.mcVideo{height:151px;border-radius:16px}
+.mcScrim{position:absolute;left:0;right:0;bottom:0;height:60px;background:linear-gradient(to top,rgba(0,0,0,.35),transparent);pointer-events:none}
+.mcPlay{position:absolute;left:50%;top:50%;width:52px;height:52px;margin:-26px 0 0 -26px;border-radius:50%;display:flex;align-items:center;justify-content:center;
+  background:rgba(255,255,255,.22);box-shadow:inset 0 0 0 .5px rgba(255,255,255,.4)}
+.mcYear{position:absolute;left:12px;bottom:10px;font:600 var(--fs-11)/1 var(--font-sans);letter-spacing:.06em;text-transform:uppercase}
+/* Listen and Games: a square sleeve with faint grooves */
+.mc[data-kind="listen"],.mc[data-kind="games"]{width:150px}
+.mcAlbum{height:150px;border-radius:14px;background:repeating-radial-gradient(circle at 50% 50%,transparent 0 9px,rgba(255,255,255,.05) 9px 10px),var(--onda-cover,var(--accent))}
+.mcDisc{position:absolute;right:10px;bottom:10px;width:32px;height:32px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:#fff;color:#000;box-shadow:0 2px 6px rgba(0,0,0,.2)}
+/* Art: a picture in a dark wood frame on a cream mat */
+.mc[data-kind="art"]{width:150px}
+.mcFramed{height:192px;padding:7px;border-radius:3px;background:linear-gradient(145deg,var(--frame-wood-a),var(--frame-wood-b));box-shadow:0 14px 28px -18px rgba(0,0,0,.6)}
+.mcMat{flex:1;display:flex;padding:10px;background:var(--frame-mat);box-shadow:inset 0 1px 4px rgba(0,0,0,.25)}
+.mcCanvas{flex:1;display:flex;align-items:center;justify-content:center;background:var(--onda-cover,var(--accent));color:var(--onda-cover-ink,#fff)}
+/* Eat and Drink: a plate */
+.mc[data-kind="eat"],.mc[data-kind="drink"]{width:140px;align-items:center}
+.mcPlate{width:132px;height:132px;border-radius:50%}
+.mcPlate::before{content:"";position:absolute;inset:12px;border-radius:50%;box-shadow:inset 0 0 0 .5px currentColor;opacity:.4;pointer-events:none}
+.mcPlate .mcTick{top:6px;right:6px}
+.mc[data-kind="eat"] .mcCap,.mc[data-kind="drink"] .mcCap{align-items:center;text-align:center}
+/* Customs: a text card on the page */
+.mc[data-kind="customs"]{width:250px}
+.mcText{min-height:168px;gap:8px;padding:16px 18px;border-radius:20px;background:var(--surface-card);color:var(--label);box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.mcAccent{display:flex;color:var(--onda-accent,var(--accent))}
+.mcText .mcTitle{font-size:var(--fs-17);padding-right:22px}
+.mcWhy{font:400 var(--fs-14)/1.4 var(--font-sans);color:var(--label-secondary);display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.mcText .mcTick{top:14px;right:14px}
+/* Travel: a postcard with a stamp and a postmark */
+.mc[data-kind="travel"]{width:256px}
+.mcPost{height:164px;padding:16px;border-radius:6px}
+.mcStamp{position:absolute;top:14px;right:14px;width:38px;height:46px;display:flex;align-items:center;justify-content:center;outline:1.5px dashed rgba(255,255,255,.55);outline-offset:-4px}
+.mcPostmark{position:absolute;top:29px;right:46px;width:46px;height:46px;border-radius:50%;box-shadow:inset 0 0 0 1px currentColor;opacity:.35;pointer-events:none}
+.mcPostTitle{margin-top:auto;padding-right:36px;font:500 var(--fs-17)/1.15 var(--onda-font,var(--font-serif));letter-spacing:var(--onda-track,0);text-transform:var(--onda-case,none);
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.mcPost .mcTick{left:12px;right:auto;top:12px}
+/* Words: a flashcard */
+.mc[data-kind="words"]{width:208px}
+.mcFlash{height:150px;gap:6px;padding:16px;align-items:center;justify-content:center;text-align:center;border-radius:18px;background:var(--surface-card);color:var(--label);box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.mcFlash::before{content:"";position:absolute;inset:7px;border-radius:12px;box-shadow:inset 0 0 0 1px color-mix(in srgb,var(--onda-accent,var(--accent)) 35%,transparent);pointer-events:none}
+.mcTerm{font:500 var(--fs-24)/1.1 var(--onda-font,var(--font-serif));letter-spacing:var(--onda-track,0);text-transform:var(--onda-case,none);color:var(--onda-text,var(--accent));overflow-wrap:anywhere}
+.mcMeaning{font:400 var(--fs-14)/1.35 var(--font-sans);color:var(--label-secondary);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+/* a kind's tab: the whole list as cards */
+.kindList{list-style:none;margin:0;padding:0 16px;display:flex;flex-direction:column;gap:10px}
+.kindRow{display:flex;align-items:center;padding:14px 6px 14px 14px;border-radius:calc(var(--onda-r,30px) * .73);background:var(--surface-card);content-visibility:auto;contain-intrinsic-size:auto 96px}
+.kindOpen{flex:1;min-width:0;display:flex;align-items:flex-start;gap:14px;text-align:start}
+.kindTile{flex:none;width:52px;height:52px;border-radius:14px;display:flex;align-items:center;justify-content:center;background:var(--onda-cover,var(--accent));color:var(--onda-cover-ink,#fff)}
+.kindText{flex:1;min-width:0;display:flex;flex-direction:column;gap:2px}
+.kindTitle{font:600 var(--fs-17)/1.3 var(--font-sans);color:var(--label)}
+.kindMeta{font:400 var(--fs-13)/1.3 var(--font-sans);color:var(--label-secondary)}
+.kindWhy{margin-top:2px;font:400 var(--fs-14)/1.4 var(--font-sans);color:var(--label-secondary);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.kindCheck{flex:none;width:44px;height:44px;display:flex;align-items:center;justify-content:center}
+.kindCheck span{width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;color:var(--onda-on,#fff);box-shadow:inset 0 0 0 1.5px var(--label-quaternary);transition:background .2s,box-shadow .2s}
+.kindCheck span[data-on]{background:var(--onda-deep,var(--accent));box-shadow:none}
+@media (prefers-reduced-motion:reduce){.upCard,.mcArt,.mcTick,.kindCheck span{transition:none}.upCard:active,.mcArt:active{transform:none}}
+@media (hover:hover) and (pointer:fine){.upCard:hover,.mcArt:hover{filter:brightness(1.05)}.kindOpen:hover .kindTitle{text-decoration:underline;text-underline-offset:3px}}
+/* the desktop: Up Next side by side, and the shelves wrap instead of scrolling sideways */
+:global(html[data-desk]) .upRow{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));overflow:visible;padding:0 0 6px;margin-bottom:0}
+:global(html[data-desk]) .upItem{width:auto}
+:global(html[data-desk]) .imShelf{flex-wrap:wrap;overflow:visible;gap:22px 18px;padding:0 0 6px;margin-bottom:0}
+:global(html[data-desk]) .imSecHead{padding:36px 2px 14px}
+:global(html[data-desk]) .kindHero,:global(html[data-desk]) .kindList{padding:0}
+
+/* ══ 8.0 Journal (design handoff v2, 2b and 2c) ══ */
+.jrWrap{padding:4px 16px 24px}
+.jrSide{display:flex;flex-direction:column;gap:16px}
+.jrBanner{position:relative;overflow:hidden;isolation:isolate;display:flex;flex-direction:column;align-items:center;gap:8px;padding:26px 22px 34px;text-align:center;
+  border-radius:calc(var(--onda-r,30px) * .8);background:var(--onda-cover,var(--accent));color:var(--onda-cover-ink,#fff);
+  box-shadow:inset 0 0 0 .5px rgba(255,255,255,.16),0 18px 36px -24px var(--onda-cover-edge,rgba(0,0,0,.4))}
+.jrBanner::after{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;background:radial-gradient(120% 80% at 0% 0%,rgba(255,255,255,.14),transparent 60%)}
+.jrBanner[data-frame]::before{content:"";position:absolute;inset:9px;border-radius:max(2px,calc(var(--onda-r,30px) * .8 - 9px));box-shadow:inset 0 0 0 .5px currentColor;opacity:.42;pointer-events:none}
+.jrOrn{display:flex;opacity:.92}
+.jrTitle{font:500 var(--fs-28)/1.06 var(--onda-font,var(--font-serif));letter-spacing:var(--onda-track,0);text-transform:var(--onda-case,none)}
+.jrCount{font:400 var(--fs-15)/1.3 var(--font-sans);opacity:.82}
+.jrList{display:flex;flex-direction:column;gap:12px;margin-top:24px}
+.jrEntry{display:flex;gap:10px;width:100%;padding:18px 18px 20px 16px;text-align:start;border-radius:calc(var(--onda-r,30px) * .73);background:var(--surface-card);
+  box-shadow:0 1px 2px rgba(0,0,0,.04);content-visibility:auto;contain-intrinsic-size:auto 120px;transition:transform var(--duration-micro) var(--spring-snappy)}
+.jrEntry:active{transform:scale(.985)}
+.jrNum{flex:none;width:40px;text-align:center;font:500 var(--fs-18)/1.3 var(--onda-font,var(--font-serif));color:var(--onda-text,var(--accent))}
+.jrBody{flex:1;min-width:0;display:flex;flex-direction:column;gap:6px}
+.jrPrompt{font:600 var(--fs-17)/1.3 var(--font-sans);color:var(--label);text-wrap:pretty}
+.jrText{font:400 var(--fs-15)/1.45 var(--font-sans);color:var(--label-secondary);white-space:pre-line;text-wrap:pretty;display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
+/* writing: the question stays put above the keyboard, the text takes the rest */
+.jwPage{position:absolute;left:0;right:0;top:0;bottom:var(--kb);display:flex;flex-direction:column;padding-top:calc(var(--chrome-top) + 50px)}
+.jwHead{flex:none;display:flex;flex-direction:column;align-items:center;gap:12px;padding:6px 32px 20px;text-align:center}
+.jwOrn{display:flex;color:var(--onda-accent,var(--accent))}
+.jwDay{font:500 var(--fs-13)/1.2 var(--onda-font,var(--font-serif));letter-spacing:.14em;text-transform:uppercase;color:var(--onda-text,var(--accent))}
+.jwQ{margin:0;font:500 var(--fs-28)/1.22 var(--font-serif);letter-spacing:-.005em;text-wrap:balance;color:var(--label)}
+.jwRule{display:block;width:40px;height:1px;background:var(--label-quaternary)}
+.jwText{flex:1;min-height:0;width:100%;resize:none;border:0;outline:none;background:none;padding:4px 28px 40px;
+  font:400 var(--fs-18)/1.6 var(--font-serif);color:var(--label);caret-color:var(--onda-accent,var(--accent))}
+.jwText::placeholder{color:var(--label-tertiary)}
+/* a short phone with the keyboard up: the question gets smaller rather than leaving */
+@media (max-height:560px){.jwQ{font-size:var(--fs-22)}.jwHead{gap:8px;padding-bottom:12px}.jwOrn{display:none}}
+:global(html[data-desk]) .jwPage{max-width:760px;margin:0 auto;padding-top:96px}
+:global(html[data-desk]) .jrWrap{display:grid;grid-template-columns:340px minmax(0,1fr);gap:16px 40px;align-items:start;padding:4px 0 24px}
+:global(html[data-desk]) .jrList{margin-top:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+@media (hover:hover) and (pointer:fine){.jrEntry:hover{transform:translateY(-1px);box-shadow:0 18px 36px -26px rgba(0,0,0,.4)}}
+@media (prefers-reduced-motion:reduce){.jrEntry{transition:none}.jrEntry:active,.jrEntry:hover{transform:none}}

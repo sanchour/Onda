@@ -152,11 +152,11 @@ export function ShortcutBar({ items, label }: { items: { icon: string; label: st
 }
 
 /** iOS search field. */
-export function SearchField({ value, onChange, placeholder, clearLabel }: { value: string; onChange: (v: string) => void; placeholder: string; clearLabel: string }) {
+export function SearchField({ value, onChange, placeholder, clearLabel, autoFocus }: { value: string; onChange: (v: string) => void; placeholder: string; clearLabel: string; autoFocus?: boolean }) {
   return (
     <label className={c.search}>
       <Icon name="magnifying-glass" weight="regular" size={18} />
-      <input type="search" value={value} placeholder={placeholder} aria-label={placeholder} enterKeyHint="search" autoComplete="off" onChange={(e) => onChange(e.target.value)} />
+      <input type="search" value={value} placeholder={placeholder} aria-label={placeholder} enterKeyHint="search" autoComplete="off" autoFocus={autoFocus} onChange={(e) => onChange(e.target.value)} />
       {value && (
         <button type="button" className={c.searchClear} aria-label={clearLabel} onClick={() => onChange('')}>
           <Icon name="x-circle" weight="fill" size={18} />
@@ -178,5 +178,20 @@ export function QuoteBlock({ text, by, source, kicker, ornament, caps }: { text:
         {source && <span>, {source}</span>}
       </figcaption>
     </figure>
+  )
+}
+
+/** 8.0: the first `n` of a list until Show all opens the rest. */
+export function useCap<T>(list: readonly T[], n = 5) {
+  const [open, setOpen] = useState(false)
+  return { shown: open ? list : list.slice(0, n), open, more: list.length > n, total: list.length, toggle: () => setOpen((v) => !v), setOpen }
+}
+
+/** 8.0: the soft pill under a list capped at five: "Show all 12", or "Show less" once open. */
+export function ShowAll({ open, onToggle, showLabel, lessLabel, className }: { open: boolean; onToggle: () => void; showLabel: string; lessLabel: string; className?: string }) {
+  return (
+    <button type="button" className={className ? `${c.showAll} ${className}` : c.showAll} aria-expanded={open} onClick={onToggle}>
+      {open ? lessLabel : showLabel}
+    </button>
   )
 }

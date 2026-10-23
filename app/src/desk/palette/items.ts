@@ -86,7 +86,7 @@ export function usePaletteItems(): PItem[] {
   const themeMode = useSettings().themeMode
 
   return useMemo(() => {
-    const { openSheet } = useNav.getState()
+    const { openSheet, push } = useNav.getState()
     const ui = useDeskUI.getState()
     const store = useStore.getState()
     const out: PItem[] = []
@@ -194,7 +194,7 @@ export function usePaletteItems(): PItem[] {
       action('createOnda', 'plus', t('power.palette.createOnda'), () => guardCreateOnda(t) && openSheet({ name: 'createOnda' }), { terms: t('power.palette.kw.createOnda') }),
     )
     if (active) {
-      out.push(action('journal', 'pencil-simple', t('power.palette.writeJournal'), () => openSheet({ name: 'journalEdit' }), { sub: runName }))
+      out.push(action('journal', 'pencil-simple', t('power.palette.writeJournal'), () => push({ name: 'journalWrite' }), { sub: runName }))
       const next = today && nextUndone(today.plan, today.done)
       if (next) {
         const title = practiceTitle(next, lead)

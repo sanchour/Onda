@@ -64,8 +64,8 @@
   --u:calc(1rem / 17 * var(--type-scale)); /* one design px, scaled */
   --fs-10:calc(var(--u) * 11); --fs-11:calc(var(--u) * 12); --fs-12:calc(var(--u) * 13); --fs-13:calc(var(--u) * 13.5);
   --fs-14:calc(var(--u) * 14); --fs-15:calc(var(--u) * 15); --fs-16:calc(var(--u) * 16); --fs-17:calc(var(--u) * 17);
-  --fs-19:calc(var(--u) * 19); --fs-20:calc(var(--u) * 20); --fs-21:calc(var(--u) * 21); --fs-22:calc(var(--u) * 22);
-  --fs-24:calc(var(--u) * 24); --fs-26:calc(var(--u) * 26); --fs-28:calc(var(--u) * 28); --fs-30:calc(var(--u) * 30);
+  --fs-18:calc(var(--u) * 18); --fs-19:calc(var(--u) * 19); --fs-20:calc(var(--u) * 20); --fs-21:calc(var(--u) * 21); --fs-22:calc(var(--u) * 22);
+  --fs-24:calc(var(--u) * 24); --fs-25:calc(var(--u) * 25); --fs-26:calc(var(--u) * 26); --fs-28:calc(var(--u) * 28); --fs-30:calc(var(--u) * 30);
   --fs-34:calc(var(--u) * 34); --fs-36:calc(var(--u) * 36); --fs-38:calc(var(--u) * 38); --fs-44:calc(var(--u) * 44);
   --fs-56:calc(var(--u) * 56); --fs-88:calc(var(--u) * 88);
   --tracking-display:-0.022em;
@@ -107,6 +107,18 @@
   --glass-lens-shadow:0 1px 3px rgba(0,0,0,0.10), 0 4px 14px rgba(0,0,0,0.08), inset 0 1px 0 rgba(255,255,255,0.95);
   --glass-track:rgba(120,120,128,0.16);
   --shadow-menu:0 18px 50px rgba(0,0,0,0.16), 0 2px 8px rgba(0,0,0,0.06);
+
+  /* 8.0: glass pill tabs, the frosted header band and the picture frame of Immersion's Art */
+  --pill-off:rgba(255,255,255,0.42);
+  --pill-on:#FFFFFF;
+  --pill-ink:#000000;
+  --pill-border:0.5px solid rgba(255,255,255,0.85);
+  --pill-shadow-off:inset 0 1px 0 rgba(255,255,255,0.9), 0 0 0 0.5px rgba(0,0,0,0.08), 0 6px 16px -10px rgba(0,0,0,0.2);
+  --pill-shadow-on:0 0 0 0.5px rgba(0,0,0,0.1), 0 8px 20px -8px rgba(0,0,0,0.3);
+  --frost-blur:blur(14px);
+  --frame-wood-a:#3B2A22;
+  --frame-wood-b:#1F1512;
+  --frame-mat:#F4EEE2;
 
   /* Motion */
   --press-scale:0.97;
@@ -151,6 +163,9 @@
   --glass-pressed:rgba(70,70,74,0.9);
   --glass-lens-fill:rgba(255,255,255,0.16); --glass-lens-shadow:0 1px 3px rgba(0,0,0,0.4), 0 4px 14px rgba(0,0,0,0.3), inset 0 1px 0 rgba(255,255,255,0.22); --glass-track:rgba(235,235,245,0.14);
   --glass-highlight:inset 0 1px 0 rgba(255,255,255,0.1), inset 0 -1px 0 rgba(0,0,0,0.2);
+  --pill-off:rgba(70,70,76,0.48); --pill-on:rgba(255,255,255,0.94); --pill-border:0.5px solid rgba(255,255,255,0.14);
+  --pill-shadow-off:inset 0 1px 0 rgba(255,255,255,0.08), 0 0 0 0.5px rgba(0,0,0,0.3), 0 6px 16px -10px rgba(0,0,0,0.5);
+  --frame-mat:#E9E1D2;
   --shadow-menu:0 18px 50px rgba(0,0,0,0.6);
   --viz-blue:#4F8EF7; --viz-coral:#FF8A65; --viz-yellow:#FFD25A; --viz-green:#5BBA87; --viz-purple:#9F8BF0; --viz-track:#35363B;
   color-scheme:dark;
@@ -163,6 +178,11 @@
   :root{--glass-fill:#FBF8F1;--glass-fill-strong:#FFFEFB;--glass-fill-dim:#EFEADF;--glass-lens-fill:#FFFEFB;--glass-track:#E6E1D5}
   [data-theme="dark"]{--glass-fill:#303136;--glass-fill-strong:#35363B;--glass-fill-dim:#2A2B2F;--glass-lens-fill:#4D4E54;--glass-track:#43444A}
 }
+
+/* Light effects (lib/lite.ts): a slow computer, or the owner's choice in Appearance. No backdrop blur anywhere; glass becomes a
+   solid surface, so scrolling never re-blurs what is behind it. Animations that never end stop (screens, desk shell). */
+:root[data-lite]{--glass-blur:none;--frost-blur:none;--glass-fill:#FBF8F1;--glass-fill-strong:#FFFEFB;--glass-fill-dim:#EFEADF;--glass-lens-fill:#FFFEFB;--pill-off:#FBF8F1}
+:root[data-lite][data-theme="dark"]{--glass-fill:#303136;--glass-fill-strong:#35363B;--glass-fill-dim:#2A2B2F;--glass-lens-fill:#4D4E54;--pill-off:#36373C}
 
 @media (prefers-reduced-motion:reduce){
   :root{--press-scale:1;--thumb-grow:1;--active-scale:1;--duration-micro:80ms;--duration-standard:120ms;--duration-large:160ms}

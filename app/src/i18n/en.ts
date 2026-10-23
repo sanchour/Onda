@@ -154,7 +154,7 @@ export const en = {
     noRules: 'No rules for this Onda', noTasks: 'No tasks for this Onda',
     guideShort: 'Guide', shortcuts: 'Shortcuts', search: 'Search', clearSearch: 'Clear Search', noMatch: 'No Ondas match', openOnda: '{{name}}, open the Onda page', rulesKept: '{{done}} of {{total}} kept', quote: 'Quote',
   },
-  browse: { religion: 'Religions and spiritual paths', school: 'Schools of thought', mind: 'Thinkers, writers and poets', state: 'Empires and states', culture: 'Cultures, eras and peoples', mine: 'Yours', soon: 'Coming soon', featured: 'Featured', seeAll: 'See All', short: { all: 'All', religion: 'Religions', school: 'Schools', mind: 'Minds', state: 'States', culture: 'Cultures', mine: 'Yours' } },
+  browse: { religion: 'Religions and spiritual paths', school: 'Schools of thought', mind: 'Thinkers, writers and poets', state: 'Empires and states', culture: 'Cultures, eras and peoples', mine: 'Yours', soon: 'Coming soon', featured: 'Featured', seeAll: 'See All', one: { religion: 'Religion', school: 'School', mind: 'Thinker', state: 'State', culture: 'Culture', mine: 'Yours' }, kind: { religion: 'Religion and spiritual path', school: 'School of thought', mind: 'A thinker and their way', state: 'Empire and state', culture: 'Culture and people', mine: 'Your own Onda' }, short: { all: 'All', religion: 'Religions', school: 'Schools', mind: 'Minds', state: 'States', culture: 'Cultures', mine: 'Yours' } },
   rulesPage: { lead: 'Tap a rule when you have kept it today.' },
   onda: {
     todayTheme: 'Today: {{theme}}', quoteOfDay: 'Quote of the day', wordOfDay: 'Word of the day', guideSub: 'Context, history, ideas, culture and language',
@@ -168,12 +168,12 @@ export const en = {
   plan: { todayDo: 'To do today', today: 'Today: {{text}}', todayHead: 'Today', open: 'Open', immerse: 'Immerse', lead: { read: 'Read', listen: 'Listen', watch: 'Watch', art: 'Look at', eat: 'Taste', games: 'Play', customs: 'Try', drink: 'Drink', travel: 'Explore' } },
   kindLabel: { read: 'Read', watch: 'Watch', listen: 'Listen', art: 'Art', eat: 'Eat', drink: 'Drink', customs: 'Customs', games: 'Games', travel: 'Travel', words: 'Words' },
   immersion: {
-    title: 'Immersion', upNext: 'Up Next', library: 'Library', experienced: '{{done}} of {{total}} experienced', footer: 'Tap an item to read about it. Tick it when you have experienced it.', empty: 'Nothing here yet',
+    title: 'Immersion', featured: 'Featured', nextUp: 'Next up', allDone: 'All experienced', upNext: 'Up Next', library: 'Library', experienced: '{{done}} of {{total}} experienced', footer: 'Tap an item to read about it. Tick it when you have experienced it.', empty: 'Nothing here yet',
     kindCount: '{{done}} of {{total}}', about: 'About {{name}}', markExperienced: 'Mark as experienced', experiencedBtn: 'Experienced', learnMore: 'Learn more', find: 'Find it', findNote: 'Each button opens a search for this outside Onda.', noNote: 'No note for this one yet.', shelf_one: '{{count}} on the shelf', shelf_other: '{{count}} on the shelf', no: 'No. {{n}}',
   },
   journal: {
     count_one: '{{count}} entry', count_other: '{{count}} entries',
-    title: 'Journal', newEntry: 'New Entry', dayLabel: 'Day {{day}} · {{name}}', placeholder: 'Write freely', practicedToday: 'Practiced today', empty: 'No entries yet', emptySub: 'One short entry a day is enough',
+    title: 'Journal', newEntry: 'New Entry', dayLabel: 'Day {{day}} · {{name}}', placeholder: 'Write freely', startWriting: 'Start writing…', practicedToday: 'Practiced today', empty: 'No entries yet', emptySub: 'One short entry a day is enough',
     saved: 'Entry saved',
   },
   philosophy: {
@@ -187,6 +187,8 @@ export const en = {
     jumpTo: 'Jump to', introduction: 'Introduction', origin: 'Origin', era: 'Era', rule: 'Rule', practice: 'Practice', didYouKnow: 'Did you know', framing: 'A note on respect', learnFrom: 'Learn from', furtherReading: 'Further reading', sources: 'Sources',
     unverified: 'Not yet verified', empty: 'Nothing added yet',
     concepts: 'Concepts', practices: 'Practices', rules: 'Rules', customs: 'Customs', words: 'Words', glossary: 'Glossary', figures: 'Key figures', festivals: 'Festivals and calendar', places: 'Places to visit',
+    ch: { people: 'People', history: 'History', ideas: 'Ideas', practices: 'Practices', culture: 'Culture', language: 'Language', places: 'Places and festivals', facts: 'Did you know', refs: 'References' },
+    subtitle: '{{kind}} · {{origin}}', atAGlance: 'At a glance', keyTexts: 'Key texts', previous: 'Previous', next: 'Next', contents: 'Contents',
     readMore: 'Read more', showLess: 'Show less', expandAll: 'Expand all', collapseAll: 'Collapse all', nOf: '{{n}} of {{total}}', openLink: 'Open link',
     count_one: '{{count}} item', count_other: '{{count}} items',
   },

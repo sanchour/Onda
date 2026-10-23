@@ -1,7 +1,7 @@
 import { useLayoutEffect, useRef, useState, type CSSProperties, type PointerEvent as RPointerEvent } from 'react'
 import { useTranslation } from 'react-i18next'
 import { haptic } from '@/lib/haptics'
-import { grab, pointerVelocity, pushSample, rubber, springTo, tx, type Sample } from '@/lib/motion'
+import { grab, pointerVelocity, pushSample, reducedMotion, rubber, springTo, tx, type Sample } from '@/lib/motion'
 import { Icon, type IconWeight } from './Icon'
 import { useSlotScrub } from './useSlotScrub'
 import s from './ui.module.css'
@@ -187,6 +187,46 @@ export function SegmentedControl<T extends string>({ options, value, onChange, f
           }}
         >
           {o.label}
+        </button>
+      ))}
+    </div>
+  )
+}
+
+/* ── GlassTabs ────────────────────────────────────────────── */
+export interface GlassTab<K extends string> {
+  key: K
+  label: string
+}
+/** 8.0: a sideways row of frosted pills under a glass header (Immersion, All Ondas). The chosen pill turns solid white
+ *  and scrolls into view. Not a Chip: chips stay as they are elsewhere. */
+export function GlassTabs<K extends string>({ items, value, onChange, label }: { items: GlassTab<K>[]; value: K; onChange: (k: K) => void; label: string }) {
+  const row = useRef<HTMLDivElement>(null)
+  useLayoutEffect(() => {
+    const el = row.current?.querySelector<HTMLElement>('[aria-selected="true"]')
+    const r = row.current
+    if (!el || !r) return
+    const left = el.offsetLeft - 16
+    const right = el.offsetLeft + el.offsetWidth + 16 - r.clientWidth
+    const behavior = reducedMotion() ? 'auto' : 'smooth'
+    if (r.scrollLeft > left) r.scrollTo({ left, behavior })
+    else if (r.scrollLeft < right) r.scrollTo({ left: right, behavior })
+  }, [value])
+  return (
+    <div ref={row} className={`hscroll ${s.gTabs}`} role="tablist" aria-label={label}>
+      {items.map((it) => (
+        <button
+          key={it.key}
+          type="button"
+          role="tab"
+          aria-selected={it.key === value}
+          className={it.key === value ? `${s.gTab} ${s.gTabOn}` : s.gTab}
+          onClick={() => {
+            if (it.key !== value) haptic('select')
+            onChange(it.key)
+          }}
+        >
+          {it.label}
         </button>
       ))}
     </div>

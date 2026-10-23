@@ -1,540 +1,651 @@
-import { useEffect, useMemo, useRef, useState } from 'react'
+import { useEffect, useMemo, useRef, useState, type ReactNode } from 'react'
 import { useTranslation } from 'react-i18next'
-import type { MediaKind } from '@/content'
-import type { OndaContent } from '@/content/schema'
-import { useLook, useOnda, useOndaIndex } from '@/data/hooks'
+import { GROUP_OF } from '@/content/browse'
+import { useLook, useOnda, useOndaIndex, useSettings } from '@/data/hooks'
 import { useDesk } from '@/lib/desk'
+import { haptic } from '@/lib/haptics'
 import { reducedMotion } from '@/lib/motion'
 import { BackButton, ChromeSpacer, ChromeTitle, Screen } from '@/nav/Screen'
 import type { StackEntry } from '@/nav/store'
 import { Icon } from '@/ui/Icon'
-import { Collapse, Deck, Fold, openExternal } from '@/sheets/guideParts'
+import { Collapse, openExternal } from '@/sheets/guideParts'
 import g from '@/sheets/guide.module.css'
 import { OrnamentIcon } from './KindArt'
-import { Cover } from './onda7'
+import { Cover, ShowAll } from './onda7'
 import s from './screens.module.css'
 
-/* ── Full guide ───────────────────────────────────────────── */
-const TABS = ['overview', 'history', 'ideas', 'ethics', 'ways', 'culture', 'travel', 'language', 'facts'] as const
-type GuideTab = (typeof TABS)[number]
+/* ── Full guide (8.0): one article, read like Wikipedia ──
+   The cover first, then the name, a lead that opens on Read more, an infobox and the Onda's quote. Then numbered chapters
+   (People, History, Ideas, Practices, Culture, Language, Places, Did you know, References), each showing five items before
+   Show all. History is a timeline to step through, Ideas a set of chips. A round contents button opens a drawer with every
+   chapter; a scroll spy keeps it on the chapter being read. The desktop keeps the contents beside the article instead. */
 
-interface GRow {
-  key: string
-  title: string
-  sub?: string
-  body?: string
-  tag?: string
-  icon?: string
-  chips?: string[]
-  tryIt?: string
-  steps?: string
-  list?: string[]
-  link?: string
-}
-interface GGroup {
-  key: string
-  title?: string
-  kind?: MediaKind
-  rows: GRow[]
-}
-
-type TFn = (k: string, o?: Record<string, unknown>) => string
-const compact = <T,>(a: (T | undefined | false | '')[]) => a.filter(Boolean) as T[]
-
-function guideGroups(c: OndaContent, tab: GuideTab, t: TFn): GGroup[] {
-  const g = c.guide
-  const unv = (u?: boolean) => (u ? t('guide.unverified') : undefined)
-  const tryOf = (p?: string) => p || undefined
-  switch (tab) {
-    case 'history':
-      return [{ key: 'h', rows: g.history.map((h, i) => ({ key: `h${i}`, title: h.when, sub: h.what, body: h.detail || undefined, tag: unv(h.unverified) })) }]
-    case 'ideas':
-      return [
-        { key: 'concepts', title: g.concepts.length ? t('guide.concepts') : undefined, rows: g.concepts.map((x, i) => ({ key: `c${i}`, title: x.term, sub: x.text, body: x.detail || undefined })) },
-        { key: 'ideas', title: c.philosophy.length ? t('philosophy.think') : undefined, rows: c.philosophy.map((p, i) => ({ key: `p${i}`, title: p.title, sub: p.text, tryIt: tryOf(p.practice) })) },
-      ].filter((x) => x.rows.length)
-    case 'ethics':
-      return [{ key: 'ethics', rows: c.ethics.map((e, i) => ({ key: `e${i}`, title: e.title, sub: e.text, tryIt: tryOf(e.practice), tag: String(i + 1) })) }].filter((x) => x.rows.length)
-    case 'travel':
-      return [
-        {
-          key: 'festivals',
-          title: t('guide.festivals'),
-          rows: (c.immerse.festivals ?? []).map((x) => ({
-            key: x.id,
-            title: x.title,
-            sub: x.creator || undefined,
-            body: x.why || undefined,
-            icon: 'calendar-star',
-            tag: unv(x.unverified),
-            link: x.link,
-          })),
-        },
-        {
-          key: 'places',
-          title: t('guide.places'),
-          rows: (c.immerse.places ?? []).map((x) => ({ key: x.id, title: x.title, sub: x.creator || undefined, body: x.why || undefined, icon: 'map-pin', tag: unv(x.unverified), link: x.link })),
-        },
-      ].filter((x) => x.rows.length)
-    case 'ways':
-      return [
-        {
-          key: 'practices',
-          title: t('guide.practices'),
-          rows: c.practices.map((p) => ({ key: p.id, title: p.name, sub: p.why || p.meta, icon: p.icon, steps: p.instructions || undefined, list: p.variations.length ? p.variations : undefined })),
-        },
-        { key: 'rules', title: t('guide.rules'), rows: c.rules.map((r, i) => ({ key: r.id, title: r.text, sub: r.why || undefined, tag: String(i + 1) })) },
-        {
-          key: 'customs',
-          title: t('guide.customs'),
-          rows: c.immerse.customs.map((x) => ({ key: x.id, title: x.title, sub: x.creator || undefined, body: x.why || undefined, tag: unv(x.unverified) })),
-        },
-      ].filter((x) => x.rows.length)
-    case 'culture':
-      return [
-        ...(['read', 'watch', 'listen', 'art', 'eat', 'drink', 'games'] as const)
-          .map((k) => ({
-            key: k,
-            title: t(`kindLabel.${k}`),
-            kind: k as MediaKind,
-            rows: (c.immerse[k] ?? []).map((it) => ({
-              key: it.id,
-              title: it.title,
-              sub: [it.creator, it.year].filter(Boolean).join(', ') || undefined,
-              body: it.why || undefined,
-              tag: unv(it.unverified),
-              link: it.link,
-            })),
-          }))
-          .filter((x) => x.rows.length),
-        {
-          key: 'further',
-          title: t('guide.furtherReading'),
-          rows: g.furtherReading.map((r, i) => ({ key: `f${i}`, title: r.title, sub: [r.creator, r.year].filter(Boolean).join(', ') || undefined, body: r.note || undefined })),
-        },
-        { key: 'learn', title: t('guide.learnFrom'), rows: g.learnFrom.map((r, i) => ({ key: `l${i}`, title: r.name, sub: r.note, link: r.link })) },
-      ].filter((x) => x.rows.length)
-    case 'language':
-      return [
-        {
-          key: 'words',
-          title: t('guide.words'),
-          rows: c.words.map((w) => ({ key: w.id, title: w.term, sub: w.meaning, body: w.usage || undefined, chips: compact([w.pronunciation, w.language]), tag: unv(w.unverified) })),
-        },
-        { key: 'glossary', title: g.glossary.length ? t('guide.glossary') : undefined, rows: g.glossary.map((x, i) => ({ key: `g${i}`, title: x.term, sub: x.meaning })) },
-      ].filter((x) => x.rows.length)
-    default:
-      return []
-  }
-}
+const CHAPTERS = ['people', 'history', 'ideas', 'practices', 'culture', 'language', 'places', 'facts', 'refs'] as const
+type Chapter = (typeof CHAPTERS)[number]
+const CULTURE = ['read', 'watch', 'listen', 'art', 'eat', 'drink', 'games', 'customs'] as const
+type CultureKind = (typeof CULTURE)[number]
+const CAP = 5
+/** A chapter is current once its top is this close to the top of the screen. */
+const SPY = 140
 
 const initials = (name: string) =>
   name
     .split(/\s+/)
-    .filter(Boolean)
+    .filter((w) => /^\p{Lu}/u.test(w))
     .slice(0, 2)
-    .map((w) => w[0]!.toUpperCase())
-    .join('')
+    .map((w) => w[0])
+    .join('') || name.slice(0, 2).toUpperCase()
 
-/** The guide's chapters in reading order. People are the key figures; the rest come from guideGroups. */
-const SECTIONS = ['overview', 'people', 'history', 'ideas', 'ethics', 'ways', 'culture', 'travel', 'language', 'facts'] as const
-type Section = (typeof SECTIONS)[number]
-type Listed = Exclude<Section, 'overview' | 'people' | 'facts'>
-const LISTED: Listed[] = ['history', 'ideas', 'ethics', 'ways', 'culture', 'travel', 'language']
-/** Rows shown per group before Show All. */
-const LIMIT = 4
-
-/** The Full guide as one long read: the cover, the essence, then every chapter in order on one page.
- *  A sticky chapter bar jumps to any chapter and follows the reading position. Long groups show their first few rows. */
 export default function Guide({ entry }: { entry: Extract<StackEntry, { name: 'guide' }> }) {
   const { t } = useTranslation()
   const desk = useDesk()
+  const themed = useSettings().ondaThemes
   const index = useOndaIndex(entry.ondaId)
   const content = useOnda(entry.ondaId)
   const look = useLook(index)
-  const [open, setOpen] = useState<Record<string, boolean>>({})
-  const [all, setAll] = useState<Record<string, boolean>>({})
-  const [more, setMore] = useState(false)
+  const pane = useRef<HTMLDivElement>(null)
+  const secs = useRef(new Map<Chapter, HTMLElement>())
+  const [drawer, setDrawer] = useState(false)
+  const [at, setAt] = useState<Chapter | 'top'>('top')
+  const [all, setAll] = useState<Partial<Record<string, boolean>>>({})
+  const [introOpen, setIntroOpen] = useState(false)
+  const [tl, setTl] = useState(0)
+  const [concept, setConcept] = useState(0)
+  const [cultureTab, setCultureTab] = useState<CultureKind | undefined>()
+  const [openRows, setOpenRows] = useState<Set<string>>(new Set())
   const [fact, setFact] = useState(0)
-  const [at, setAt] = useState<Section>('overview')
-  const [shut, setShut] = useState<Partial<Record<Section, boolean>>>({})
-  const bar = useRef<HTMLDivElement>(null)
-  const secs = useRef(new Map<Section, HTMLElement>())
-  const flip = (k: string) => setOpen((x) => ({ ...x, [k]: !x[k] }))
-  const g_ = content?.guide
-  const groupsOf = useMemo(() => {
-    const out: Partial<Record<Listed, GGroup[]>> = {}
-    if (content) for (const k of LISTED) out[k] = guideGroups(content, k, t)
-    return out
-  }, [content, t])
-  const present = SECTIONS.filter((k) => (k === 'overview' ? true : k === 'people' ? !!g_?.figures.length : k === 'facts' ? !!(g_?.facts.length || g_?.sources.length) : !!groupsOf[k]?.length))
-  const label = (k: Section) => t(`guide.tabs.${k}`)
-  const leadOf = (k: Section) => (k === 'overview' ? '' : t(`guide.lead${k[0]!.toUpperCase()}${k.slice(1)}`))
+  const gd = content?.guide
+  const flip = (k: string) => setAll((x) => ({ ...x, [k]: !x[k] }))
+  const cap = <T,>(k: string, list: readonly T[]) => (all[k] ? list : list.slice(0, CAP))
+  const more = (k: string, total: number) =>
+    total > CAP && <ShowAll open={!!all[k]} onToggle={() => flip(k)} showLabel={t('guide.showAll', { count: total })} lessLabel={t('guide.showLess')} />
+  const toggleRow = (k: string) =>
+    setOpenRows((x) => {
+      const n = new Set(x)
+      if (n.has(k)) n.delete(k)
+      else n.add(k)
+      return n
+    })
 
-  // the chapter bar follows the reading position
+  const cultureKinds = useMemo(() => CULTURE.filter((k) => (content?.immerse[k]?.length ?? 0) > 0), [content])
+  const places = useMemo(
+    () => [
+      ...(content?.immerse.festivals ?? []).map((x) => ({ ...x, icon: 'calendar-star' })),
+      ...(content?.immerse.places ?? []).map((x) => ({ ...x, icon: 'map-pin' })),
+    ],
+    [content],
+  )
+  const has: Record<Chapter, boolean> = {
+    people: !!gd?.figures.length,
+    history: !!gd?.history.length,
+    ideas: !!(gd?.concepts.length || content?.philosophy.length || content?.ethics.length),
+    practices: !!(content?.practices.length || content?.rules.length),
+    culture: cultureKinds.length > 0,
+    language: !!(content?.words.length || gd?.glossary.length),
+    places: places.length > 0,
+    facts: !!gd?.facts.length,
+    refs: !!(gd?.sources.length || gd?.furtherReading.length || gd?.learnFrom.length),
+  }
+  const present = CHAPTERS.filter((k) => has[k])
+  const num = (k: Chapter) => look.numeral(present.indexOf(k) + 1)
+  const label = (k: Chapter) => t(`guide.ch.${k}`)
+
+  // the scroll spy: the last chapter whose top has reached the top of the screen
   useEffect(() => {
-    const first = secs.current.values().next().value as HTMLElement | undefined
-    const root = first?.closest('.scroll') as HTMLElement | null
-    if (!root || typeof IntersectionObserver === 'undefined') return
-    const io = new IntersectionObserver(
-      (es) => {
-        const v = es.filter((e) => e.isIntersecting).sort((x, y) => x.boundingClientRect.top - y.boundingClientRect.top)[0]
-        if (v) setAt(v.target.getAttribute('data-sec') as Section)
-      },
-      { root, rootMargin: '-25% 0px -65% 0px' },
-    )
-    secs.current.forEach((el) => io.observe(el))
-    return () => io.disconnect()
-  }, [present.length, content])
+    const root = pane.current
+    if (!root) return
+    let raf = 0
+    const spy = () => {
+      raf = 0
+      const top = root.getBoundingClientRect().top
+      let cur: Chapter | 'top' = 'top'
+      for (const k of present) {
+        const el = secs.current.get(k)
+        if (el && el.getBoundingClientRect().top - top <= SPY) cur = k
+      }
+      setAt(cur)
+    }
+    const on = () => {
+      if (!raf) raf = requestAnimationFrame(spy)
+    }
+    root.addEventListener('scroll', on, { passive: true })
+    return () => {
+      root.removeEventListener('scroll', on)
+      cancelAnimationFrame(raf)
+    }
+  }, [present.join()])
+
   useEffect(() => {
-    const b = bar.current
-    const el = b?.querySelector<HTMLElement>(`[data-sec="${at}"]`)
-    if (b && el) b.scrollTo({ left: el.offsetLeft - b.clientWidth / 2 + el.clientWidth / 2, behavior: reducedMotion() ? 'auto' : 'smooth' })
-  }, [at])
-  const go = (k: Section) => {
-    setAt(k)
-    setShut((x) => ({ ...x, [k]: false }))
-    secs.current.get(k)?.scrollIntoView({ block: 'start', behavior: reducedMotion() ? 'auto' : 'smooth' })
+    if (!drawer) return
+    const esc = (e: KeyboardEvent) => e.key === 'Escape' && setDrawer(false)
+    window.addEventListener('keydown', esc)
+    return () => window.removeEventListener('keydown', esc)
+  }, [drawer])
+
+  const go = (k: Chapter | 'top') => {
+    setDrawer(false)
+    const root = pane.current
+    if (!root) return
+    const el = k === 'top' ? undefined : secs.current.get(k)
+    const top = el ? el.getBoundingClientRect().top - root.getBoundingClientRect().top + root.scrollTop - 104 : 0
+    root.scrollTo({ top, behavior: reducedMotion() ? 'auto' : 'smooth' })
   }
 
-  const renderRow = (r: GRow, sec: Section, variant: 'card' | 'timeline' | 'word' = 'card') => {
-    const k = `${sec}:${r.key}`
-    const exp = !!(r.body || r.tryIt || r.steps || r.list || r.link)
-    const fold = (
-      <Fold
-        title={r.title}
-        sub={r.sub}
-        tag={r.tag && !/^\d+$/.test(r.tag) ? r.tag : undefined}
-        badge={r.tag && /^\d+$/.test(r.tag) && look ? look.numeral(Number(r.tag)) : undefined}
-        icon={r.icon}
-        display={variant === 'word'}
-        chips={r.chips}
-        open={!!open[k]}
-        onToggle={() => flip(k)}
-        expandable={exp}
-      >
-        {r.body && <div>{r.body}</div>}
-        {r.steps && (
-          <div>
-            <span className={g.subHead}>{t('onda.how')}</span>
-            {r.steps}
-          </div>
-        )}
-        {r.list && (
-          <div>
-            <span className={g.subHead}>{t('onda.variations')}</span>
-            <ul className={g.steps}>
-              {r.list.map((v) => (
-                <li key={v}>{v}</li>
-              ))}
-            </ul>
-          </div>
-        )}
-        {r.tryIt && (
-          <div className={g.tryBox}>
-            <Icon name="play" weight="fill" size={16} />
-            <span>
-              <span className={g.tryLabel}>{t('philosophy.tryIt')}</span>
-              {r.tryIt}
-            </span>
-          </div>
-        )}
-        {r.link && /^https?:\/\//i.test(r.link) && (
-          <button type="button" className={g.linkBtn} onClick={() => openExternal(r.link!)}>
-            <Icon name="arrow-up-right" weight="bold" size={16} />
-            {t('guide.openLink')}
-          </button>
-        )}
-      </Fold>
-    )
-    if (variant !== 'timeline') return <div key={r.key}>{fold}</div>
+  const chapter = (k: Chapter, body: ReactNode) => (
+    <section
+      key={k}
+      data-sec={k}
+      aria-labelledby={`wk-${k}`}
+      className={g.wkSec}
+      ref={(el) => {
+        if (el) secs.current.set(k, el)
+        else secs.current.delete(k)
+      }}
+    >
+      <h2 id={`wk-${k}`} className={g.wkH2}>
+        <span className={g.wkNum} aria-hidden>{num(k)}</span>
+        {label(k)}
+      </h2>
+      {body}
+    </section>
+  )
+  const unverified = (u?: boolean) => u && <span className={g.wkTag}>{t('guide.unverified')}</span>
+
+  /** A card that opens to show more: an icon, the name, a line, and what is inside. */
+  const fold = (k: string, title: string, sub: string | undefined, body: ReactNode, icon?: ReactNode) => {
+    const open = openRows.has(k)
     return (
-      <div key={r.key} className={open[k] ? `${g.tlItem} ${g.tlOpen}` : g.tlItem}>
-        {fold}
+      <div key={k} className={g.wkFold} data-open={open || undefined}>
+        <button type="button" className={g.wkFoldHead} aria-expanded={open} onClick={() => toggleRow(k)}>
+          {icon && <span className={g.wkFoldIcon} aria-hidden>{icon}</span>}
+          <span className={g.wkFoldText}>
+            <span className={g.wkFoldTitle}>{title}</span>
+            {sub && <span className={g.wkFoldSub}>{sub}</span>}
+          </span>
+          <span className={g.wkCaret} aria-hidden><Icon name="caret-down" weight="bold" size={16} /></span>
+        </button>
+        <Collapse open={open}>
+          <div className={g.wkFoldBody} data-selectable>{body}</div>
+        </Collapse>
       </div>
     )
   }
 
-  const groupBlock = (sec: Section, grp: GGroup, variant: 'card' | 'timeline' | 'word') => {
-    const k = `${sec}:${grp.key}`
-    const limit = sec === 'history' ? 6 : LIMIT
-    const long = grp.rows.length > limit + 1
-    const rows = long && !all[k] ? grp.rows.slice(0, limit) : grp.rows
-    return (
-      <div key={grp.key} className={g.block}>
-        {grp.title && (
-          <h3 className={g.blockHead}>
-            {grp.title}
-            <small>{grp.rows.length}</small>
-          </h3>
-        )}
-        <div className={variant === 'timeline' ? g.timeline : g.stack}>
-          {rows.map((r) => renderRow(r, sec, variant))}
-          {long && (
-            <button type="button" className={g.showRow} aria-expanded={!!all[k]} onClick={() => setAll((x) => ({ ...x, [k]: !x[k] }))}>
-              {all[k] ? t('guide.showFewer') : t('guide.showAll', { count: grp.rows.length })}
-              <Icon name={all[k] ? 'caret-up' : 'caret-down'} weight="bold" size={14} />
-            </button>
-          )}
-        </div>
-      </div>
-    )
-  }
-
-  const sectionBody = (k: Section) => {
-    if (!content || !g_) return null
-    if (k === 'overview') {
-      const intro = g_.intro
-      return (
-        <>
-          {(g_.origin || g_.era) && (
-            <div className={`${g.glance} ${g.infobox}`}>
-              <div className={g.infoHead}>{index?.name}</div>
-              {g_.origin && (
-                <div className={g.glanceRow}>
-                  <span>{t('guide.origin')}</span>
-                  <b>{g_.origin}</b>
-                </div>
-              )}
-              {g_.era && (
-                <div className={g.glanceRow}>
-                  <span>{t('guide.era')}</span>
-                  <b>{g_.era}</b>
-                </div>
-              )}
-              {g_.figures.length > 0 && (
-                <div className={g.glanceRow}>
-                  <span>{t('guide.keyFigures')}</span>
-                  <b>
-                    {g_.figures
-                      .slice(0, 3)
-                      .map((f) => f.name)
-                      .join(', ')}
-                  </b>
-                </div>
-              )}
-            </div>
-          )}
-          {intro[0] && (
-            <p className={g.introLead} data-selectable>
-              {intro[0]}
-            </p>
-          )}
-          {intro.length > 1 && (
-            <>
-              <Collapse open={more}>
-                <p className={g.introMore} data-selectable>
-                  {intro.slice(1).join('\n\n')}
-                </p>
-              </Collapse>
-              <button type="button" className={g.showAll} aria-expanded={more} onClick={() => setMore((v) => !v)}>
-                {more ? t('guide.showLess') : t('guide.readMore')}
-                <Icon name={more ? 'caret-up' : 'caret-down'} weight="bold" size={13} />
-              </button>
-            </>
-          )}
-          {content.sensitivity && (
-            <div className={g.note}>
-              <Icon name="heart" weight="regular" size={20} />
-              <div>
-                <b>{t('guide.framing')}</b>
-                {content.sensitivity.note}
-                <Collapse open={!!open['sens']}>
-                  <ul className={g.steps} style={{ marginTop: 8 }}>
-                    {content.sensitivity.requiredCaveats.map((x) => (
-                      <li key={x}>{x}</li>
-                    ))}
-                  </ul>
-                </Collapse>
-                {content.sensitivity.requiredCaveats.length > 0 && (
-                  <button type="button" className={g.linkBtn} style={{ marginTop: 4 }} aria-expanded={!!open['sens']} onClick={() => flip('sens')}>
-                    {open['sens'] ? t('guide.showLess') : t('guide.readMore')}
-                  </button>
-                )}
-              </div>
-            </div>
-          )}
-        </>
-      )
-    }
-    if (k === 'people') {
-      return (
-        <div className={`hscroll ${g.figures}`} style={{ display: 'flex', gap: 12 }}>
-          {g_.figures.map((f) => (
-            <article key={f.name} className={g.figure}>
-              <div className={g.figureTop}>
-                <span className={g.figureAv} aria-hidden>
-                  {initials(f.name)}
-                </span>
-                <div style={{ minWidth: 0 }}>
-                  <div className={g.figureName}>{f.name}</div>
-                  {f.dates && <div className={g.figureDates}>{f.dates}</div>}
-                </div>
-              </div>
-              <p className={g.figureBio} style={{ margin: 0 }} data-selectable>
-                {f.bio}
-              </p>
-              {f.unverified && (
-                <span className={g.tag} style={{ color: 'var(--label-tertiary)' }}>
-                  {t('guide.unverified')}
-                </span>
-              )}
-            </article>
-          ))}
-        </div>
-      )
-    }
-    if (k === 'facts') {
-      return (
-        <>
-          {g_.facts.length > 0 && look && (
-            <Deck
-              label={t('guide.didYouKnow')}
-              index={fact}
-              onIndex={setFact}
-              slides={g_.facts.map((f, i) => (
-                <article key={i} className={g.factCard}>
-                  <span className={g.factN}>
-                    {t('guide.didYouKnow')} · {t('guide.nOf', { n: i + 1, total: g_.facts.length })}
-                  </span>
-                  <p className={g.factText} style={{ margin: 0 }} data-selectable>
-                    {f.text}
-                  </p>
-                  <span className={g.phOrn}>
-                    <OrnamentIcon name={look.ornament} size={22} />
-                  </span>
-                  {f.unverified && (
-                    <span className={g.tag} style={{ color: 'inherit', opacity: 0.7 }}>
-                      {t('guide.unverified')}
+  const body = (k: Chapter): ReactNode => {
+    if (!content || !gd) return null
+    switch (k) {
+      case 'people':
+        return (
+          <>
+            <div className={`hscroll ${g.wkPeople}`}>
+              {cap('people', gd.figures).map((f) => (
+                <article key={f.name} className={g.wkPerson}>
+                  <div className={g.wkPersonTop}>
+                    <span className={g.wkInit} aria-hidden>{initials(f.name)}</span>
+                    <span className={g.wkPersonName}>
+                      <b>{f.name}</b>
+                      {f.dates && <small>{f.dates}</small>}
                     </span>
-                  )}
+                  </div>
+                  <p className={g.wkBio} data-selectable>{f.bio}</p>
+                  {unverified(f.unverified)}
                 </article>
               ))}
-            />
-          )}
-          {g_.sources.length > 0 && (
-            <div className={g.block}>
-              <h3 className={g.blockHead}>
-                {t('guide.sources')}
-                <small>{g_.sources.length}</small>
-              </h3>
-              <ol className={g.refs}>
-                {g_.sources.map((r, i) => {
-                  const meta = [r.creator, r.publisher, r.year].filter(Boolean).join(', ')
-                  const url = r.link && /^https?:\/\//i.test(r.link) ? r.link : undefined
-                  return (
-                    <li key={i}>
-                      {url ? (
-                        <button type="button" className={g.refLink} onClick={() => openExternal(url)}>
-                          {r.title}
-                          <Icon name="arrow-up-right" weight="bold" size={12} />
-                        </button>
-                      ) : (
-                        <span className={g.refTitle}>{r.title}</span>
-                      )}
-                      {meta && <span className={g.refMeta}>{meta}</span>}
-                    </li>
-                  )
-                })}
-              </ol>
             </div>
-          )}
-        </>
-      )
+            {more('people', gd.figures.length)}
+          </>
+        )
+      case 'history': {
+        const list = gd.history
+        const shown = cap('history', list)
+        const i = Math.min(tl, list.length - 1)
+        const h = list[i]!
+        const step = (to: number) => {
+          if (to >= CAP && !all.history) setAll((x) => ({ ...x, history: true }))
+          setTl(to)
+          haptic('select')
+        }
+        return (
+          <>
+            <div className={`hscroll ${g.wkLine}`} role="tablist" aria-label={label('history')}>
+              {shown.map((x, n) => (
+                <button key={n} type="button" role="tab" aria-selected={n === i} className={g.wkNode} onClick={() => step(n)}>
+                  <span className={g.wkDot} data-on={n === i || undefined} aria-hidden />
+                  <span className={g.wkWhen}>{x.when}</span>
+                </button>
+              ))}
+            </div>
+            <div className={g.wkCard} role="tabpanel" aria-live="polite">
+              <span className={g.wkCardKicker}>{h.when}</span>
+              <h3 className={g.wkCardTitle}>{h.what}</h3>
+              {h.detail && <p className={g.wkCardText} data-selectable>{h.detail}</p>}
+              {unverified(h.unverified)}
+              <div className={g.wkStep}>
+                <span>{t('guide.nOf', { n: i + 1, total: list.length })}</span>
+                <button type="button" className={g.wkRound} aria-label={t('guide.previous')} disabled={i === 0} onClick={() => step(i - 1)}>
+                  <Icon name="caret-left" weight="bold" size={18} />
+                </button>
+                <button type="button" className={g.wkRound} aria-label={t('guide.next')} disabled={i === list.length - 1} onClick={() => step(i + 1)}>
+                  <Icon name="caret-right" weight="bold" size={18} />
+                </button>
+              </div>
+            </div>
+            {more('history', list.length)}
+          </>
+        )
+      }
+      case 'ideas': {
+        const list = gd.concepts
+        const c = list[Math.min(concept, list.length - 1)]
+        const chips = all.ideas ? list : list.slice(0, CAP)
+        return (
+          <>
+            {list.length > 0 && (
+              <>
+                <div className={g.wkChips} role="tablist" aria-label={label('ideas')}>
+                  {chips.map((x, n) => (
+                    <button key={x.term} type="button" role="tab" aria-selected={n === concept} className={g.wkChip} onClick={() => setConcept(n)}>
+                      {x.term}
+                    </button>
+                  ))}
+                  {list.length > CAP && (
+                    <button type="button" className={`${g.wkChip} ${g.wkChipMore}`} aria-expanded={!!all.ideas} onClick={() => flip('ideas')}>
+                      {all.ideas ? t('guide.showLess') : t('guide.showAll', { count: list.length })}
+                    </button>
+                  )}
+                </div>
+                {c && (
+                  <div className={g.wkCard} role="tabpanel">
+                    <h3 className={g.wkTerm}>{c.term}</h3>
+                    <p className={g.wkSerif} data-selectable>{c.text}</p>
+                    {c.detail && <p className={g.wkCardText} data-selectable>{c.detail}</p>}
+                  </div>
+                )}
+              </>
+            )}
+            {(['philosophy', 'ethics'] as const).map((key) => {
+              const items = content[key]
+              if (!items.length) return null
+              return (
+                <div key={key} className={g.wkSub}>
+                  <h3 className={g.wkH3}>{key === 'philosophy' ? t('philosophy.think') : t('philosophy.ethics')}</h3>
+                  <div className={g.wkFolds}>
+                    {cap(key, items).map((p, n) =>
+                      fold(`${key}${n}`, p.title, p.text, p.practice && (
+                        <div className={g.tryBox}>
+                          <Icon name="play" weight="fill" size={16} />
+                          <span>
+                            <span className={g.tryLabel}>{t('philosophy.tryIt')}</span>
+                            {p.practice}
+                          </span>
+                        </div>
+                      ), <span className={g.wkFoldNum}>{look.numeral(n + 1)}</span>),
+                    )}
+                  </div>
+                  {more(key, items.length)}
+                </div>
+              )
+            })}
+          </>
+        )
+      }
+      case 'practices':
+        return (
+          <>
+            {content.practices.length > 0 && (
+              <>
+                <div className={g.wkFolds}>
+                  {cap('practices', content.practices).map((p) =>
+                    fold(
+                      p.id,
+                      p.name,
+                      p.why || p.meta,
+                      <>
+                        {p.instructions && <p>{p.instructions}</p>}
+                        {p.variations.length > 0 && (
+                          <>
+                            <span className={g.subHead}>{t('onda.variations')}</span>
+                            <ul className={g.steps}>
+                              {p.variations.map((v) => <li key={v}>{v}</li>)}
+                            </ul>
+                          </>
+                        )}
+                      </>,
+                      <Icon name={p.icon} weight="regular" size={22} />,
+                    ),
+                  )}
+                </div>
+                {more('practices', content.practices.length)}
+              </>
+            )}
+            {content.rules.length > 0 && (
+              <div className={g.wkSub}>
+                <h3 className={g.wkH3}>{t('guide.rules')}</h3>
+                <ol className={g.wkList}>
+                  {cap('rules', content.rules).map((r, n) => (
+                    <li key={r.id} className={g.wkRow}>
+                      <span className={g.wkRowNum} aria-hidden>{look.numeral(n + 1)}</span>
+                      <span className={g.wkRowText}>
+                        <b>{r.text}</b>
+                        {r.why && <span>{r.why}</span>}
+                      </span>
+                    </li>
+                  ))}
+                </ol>
+                {more('rules', content.rules.length)}
+              </div>
+            )}
+          </>
+        )
+      case 'culture': {
+        const kind = cultureTab && cultureKinds.includes(cultureTab) ? cultureTab : cultureKinds[0]!
+        const items = content.immerse[kind] ?? []
+        const key = `culture:${kind}`
+        return (
+          <>
+            <div className={`hscroll ${g.wkTabs}`} role="tablist" aria-label={label('culture')}>
+              {cultureKinds.map((k) => (
+                <button key={k} type="button" role="tab" aria-selected={k === kind} className={g.wkTab} onClick={() => setCultureTab(k)}>
+                  {t(`kindLabel.${k}`)}
+                </button>
+              ))}
+            </div>
+            <ul className={g.wkList} role="tabpanel">
+              {cap(key, items).map((x) => (
+                <li key={x.id} className={g.wkRow}>
+                  <span className={g.wkRowText}>
+                    <b>{x.title}</b>
+                    {(x.creator || x.year) && <small>{[x.creator, x.year].filter(Boolean).join(', ')}</small>}
+                    {x.why && <span>{x.why}</span>}
+                    {unverified(x.unverified)}
+                  </span>
+                  {x.link && /^https?:\/\//i.test(x.link) && (
+                    <button type="button" className={g.wkLink} aria-label={`${t('guide.openLink')}: ${x.title}`} onClick={() => openExternal(x.link!)}>
+                      <Icon name="arrow-up-right" weight="bold" size={16} />
+                    </button>
+                  )}
+                </li>
+              ))}
+            </ul>
+            {more(key, items.length)}
+          </>
+        )
+      }
+      case 'language':
+        return (
+          <>
+            {content.words.length > 0 && (
+              <>
+                <div className={`hscroll ${g.wkWords}`}>
+                  {cap('words', content.words).map((w) => (
+                    <article key={w.id} className={g.wkWord}>
+                      {w.language && <span className={g.wkPill}>{w.language}</span>}
+                      <span className={g.wkWordTerm}>{w.term}</span>
+                      {w.pronunciation && <span className={g.wkSay}>{w.pronunciation}</span>}
+                      <span className={g.wkMeaning}>{w.meaning}</span>
+                      {w.usage && <span className={g.wkUsage}>{w.usage}</span>}
+                      {unverified(w.unverified)}
+                    </article>
+                  ))}
+                </div>
+                {more('words', content.words.length)}
+              </>
+            )}
+            {gd.glossary.length > 0 && (
+              <div className={g.wkSub}>
+                <h3 className={g.wkH3}>{t('guide.glossary')}</h3>
+                <ul className={g.wkList}>
+                  {cap('glossary', gd.glossary).map((x) => (
+                    <li key={x.term} className={g.wkRow}>
+                      <span className={g.wkRowText}>
+                        <b>{x.term}</b>
+                        <span>{x.meaning}</span>
+                      </span>
+                    </li>
+                  ))}
+                </ul>
+                {more('glossary', gd.glossary.length)}
+              </div>
+            )}
+          </>
+        )
+      case 'places':
+        return (
+          <>
+            <ul className={g.wkList}>
+              {cap('places', places).map((x) => (
+                <li key={x.id} className={g.wkRow}>
+                  <span className={g.wkRowIcon} aria-hidden><Icon name={x.icon} weight="regular" size={22} /></span>
+                  <span className={g.wkRowText}>
+                    <b>{x.title}</b>
+                    {x.creator && <small>{x.creator}</small>}
+                    {x.why && <span>{x.why}</span>}
+                    {unverified(x.unverified)}
+                  </span>
+                  {x.link && /^https?:\/\//i.test(x.link) && (
+                    <button type="button" className={g.wkLink} aria-label={`${t('guide.openLink')}: ${x.title}`} onClick={() => openExternal(x.link!)}>
+                      <Icon name="arrow-up-right" weight="bold" size={16} />
+                    </button>
+                  )}
+                </li>
+              ))}
+            </ul>
+            {more('places', places.length)}
+          </>
+        )
+      case 'facts': {
+        const facts = cap('facts', gd.facts)
+        return (
+          <>
+            <div
+              className={`hscroll ${g.wkFacts}`}
+              onScroll={(e) => {
+                const el = e.currentTarget
+                const w = (el.firstElementChild as HTMLElement | null)?.offsetWidth ?? 1
+                const n = Math.round(el.scrollLeft / (w + 12))
+                if (n !== fact) setFact(n)
+              }}
+            >
+              {facts.map((f, n) => (
+                <article key={n} className={g.wkFact} data-frame={look.layout === 'frame' || undefined}>
+                  <span className={g.wkFactN}>{t('guide.nOf', { n: n + 1, total: gd.facts.length })}</span>
+                  <p data-selectable>{f.text}</p>
+                  <span className={g.wkFactOrn} aria-hidden><OrnamentIcon name={look.ornament} size={22} /></span>
+                  {unverified(f.unverified)}
+                </article>
+              ))}
+            </div>
+            {facts.length > 1 && (
+              <div className={g.wkDots} aria-hidden>
+                {facts.map((_, n) => <i key={n} data-on={n === fact || undefined} />)}
+              </div>
+            )}
+            {more('facts', gd.facts.length)}
+          </>
+        )
+      }
+      case 'refs': {
+        const lists: { key: string; title: string; rows: { title: string; meta?: string; link?: string }[] }[] = [
+          { key: 'further', title: t('guide.furtherReading'), rows: gd.furtherReading.map((r) => ({ title: r.title, meta: [r.creator, r.year, r.note].filter(Boolean).join(', ') })) },
+          { key: 'learn', title: t('guide.learnFrom'), rows: gd.learnFrom.map((r) => ({ title: r.name, meta: r.note, link: r.link })) },
+          { key: 'sources', title: t('guide.sources'), rows: gd.sources.map((r) => ({ title: r.title, meta: [r.creator, r.publisher, r.year].filter(Boolean).join(', '), link: r.link })) },
+        ].filter((x) => x.rows.length)
+        return lists.map((l) => (
+          <div key={l.key} className={g.wkSub}>
+            <h3 className={g.wkH3}>{l.title}</h3>
+            <ol className={g.refs}>
+              {cap(l.key, l.rows).map((r, n) => {
+                const url = r.link && /^https?:\/\//i.test(r.link) ? r.link : undefined
+                return (
+                  <li key={n}>
+                    {url ? (
+                      <button type="button" className={g.refLink} onClick={() => openExternal(url)}>
+                        {r.title}
+                        <Icon name="arrow-up-right" weight="bold" size={12} />
+                      </button>
+                    ) : (
+                      <span className={g.refTitle}>{r.title}</span>
+                    )}
+                    {r.meta && <span className={g.refMeta}>{r.meta}</span>}
+                  </li>
+                )
+              })}
+            </ol>
+            {more(l.key, l.rows.length)}
+          </div>
+        ))
+      }
     }
-    return (groupsOf[k] ?? []).map((grp) => groupBlock(k, grp, k === 'history' ? 'timeline' : k === 'language' && grp.key === 'words' ? 'word' : 'card'))
   }
 
-  const chapters =
-    !content || !g_ ? (
-      <div className={s.empty} style={{ padding: '32px 20px' }}>
-        <div className={s.sub}>{t('onda.loading')}</div>
-      </div>
-    ) : (
-      present.map((k, i) => (
-        <section
-          key={k}
-          data-sec={k}
-          aria-label={label(k)}
-          className={g.chapterSec}
-          ref={(el) => {
-            if (el) secs.current.set(k, el)
-            else secs.current.delete(k)
-          }}
-        >
-          <div className={g.chapterNo} aria-hidden>
-            {t('guide.chapterN', { n: look ? look.numeral(i + 1) : i + 1 })}
-          </div>
-          <h2 className={g.chapterTitle}>
-            <button type="button" className={g.chapterBtn} aria-expanded={!shut[k]} onClick={() => setShut((x) => ({ ...x, [k]: !x[k] }))}>
-              {label(k)}
-              <span className={shut[k] ? `${g.chapterCaret} ${g.chapterShut}` : g.chapterCaret} aria-hidden>
-                <Icon name="caret-down" weight="bold" size={16} />
-              </span>
+  const name = index?.name ?? ''
+  const origin = gd?.origin || index?.origin || ''
+  const quote = content?.quote ?? content?.quotes[0]
+  const keyTexts = (content?.immerse.read ?? []).slice(0, 2).map((x) => x.title).join(', ')
+  const glance: [string, string][] = gd
+    ? ([
+        [t('guide.origin'), origin],
+        [t('guide.era'), gd.era || content?.era || ''],
+        [t('guide.keyFigures'), gd.figures.slice(0, 3).map((f) => f.name).join(', ')],
+        [t('guide.keyTexts'), keyTexts],
+      ] as [string, string][]).filter(([, v]) => v)
+    : []
+  const intro = gd?.intro ?? []
+  const frame = look.layout === 'frame'
+
+  const article = (
+    <article className={g.wk}>
+      <Cover look={{ ...look, layout: frame ? 'frame' : 'center' }} size="hero" article title="" glyph={look.themed ? look.glyph : undefined} ariaLabel={name}>
+        {index?.line && <span className={g.wkEssence}>{index.line}</span>}
+      </Cover>
+      <header className={g.wkHead}>
+        <h1 className={g.wkName}>{name}</h1>
+        {origin && <p className={g.wkSubtitle}>{t('guide.subtitle', { kind: t(`browse.kind.${GROUP_OF[entry.ondaId] ?? 'mine'}`), origin })}</p>}
+        <i className={g.wkRule} aria-hidden />
+        {intro[0] && <p className={g.wkLead} data-selectable>{intro[0]}</p>}
+        {intro.length > 1 && (
+          <>
+            <Collapse open={introOpen}>
+              <p className={g.wkLead} data-selectable style={{ whiteSpace: 'pre-line' }}>{intro.slice(1).join('\n\n')}</p>
+            </Collapse>
+            <button type="button" className={g.wkMore} aria-expanded={introOpen} onClick={() => setIntroOpen((v) => !v)}>
+              {introOpen ? t('guide.showLess') : t('guide.readMore')}
+              <Icon name={introOpen ? 'caret-up' : 'caret-down'} weight="bold" size={13} />
             </button>
-          </h2>
-          {!shut[k] && (
-            <>
-              {leadOf(k) && <p className={g.lead}>{leadOf(k)}</p>}
-              {sectionBody(k)}
-            </>
-          )}
-        </section>
-      ))
-    )
+          </>
+        )}
+        {content?.sensitivity && (
+          <div className={g.note}>
+            <Icon name="heart" weight="regular" size={20} />
+            <div>
+              <b>{t('guide.framing')}</b>
+              {content.sensitivity.note}
+              {content.sensitivity.requiredCaveats.length > 0 && (
+                <ul className={g.steps} style={{ marginTop: 8 }}>
+                  {content.sensitivity.requiredCaveats.map((x) => <li key={x}>{x}</li>)}
+                </ul>
+              )}
+            </div>
+          </div>
+        )}
+      </header>
+      {glance.length > 0 && (
+        <aside className={g.wkBox} aria-label={t('guide.atAGlance')}>
+          <div className={g.wkBoxHead}>{t('guide.atAGlance')}</div>
+          <dl>
+            {glance.map(([k, v]) => (
+              <div key={k} className={g.wkBoxRow}>
+                <dt>{k}</dt>
+                <dd>{v}</dd>
+              </div>
+            ))}
+          </dl>
+        </aside>
+      )}
+      {quote && (
+        <figure className={g.wkQuote}>
+          <span className={g.wkQuoteOrn} aria-hidden><OrnamentIcon name={look.ornament} size={28} /></span>
+          <blockquote data-selectable>“{quote.text}”</blockquote>
+          <figcaption>{[quote.by, quote.source].filter(Boolean).join(' · ')}</figcaption>
+        </figure>
+      )}
+      {!content || !gd ? (
+        <div className={s.empty} style={{ padding: '32px 20px' }}>
+          <div className={s.sub}>{t('onda.loading')}</div>
+        </div>
+      ) : (
+        present.map((k) => chapter(k, body(k)))
+      )}
+    </article>
+  )
+
+  const contents = (
+    <>
+      <button type="button" className={g.wkTocItem} aria-current={at === 'top' ? 'true' : undefined} onClick={() => go('top')}>
+        <span className={g.wkTocNum} aria-hidden />
+        <span className={`${g.wkTocLabel} ${g.wkTocName}`}>{name}</span>
+      </button>
+      {present.map((k) => (
+        <button key={k} type="button" className={g.wkTocItem} aria-current={at === k ? 'true' : undefined} onClick={() => go(k)}>
+          <span className={g.wkTocNum} aria-hidden>{num(k)}</span>
+          <span className={g.wkTocLabel}>{label(k)}</span>
+        </button>
+      ))}
+    </>
+  )
 
   return (
     <Screen
       variant="bare"
       desk={desk ? 'wide' : undefined}
       style={look.vars}
+      dataOnda={themed ? entry.ondaId : undefined}
+      scrollRef={pane}
       chrome={
         <>
           <span className={g.topMask} aria-hidden />
           <BackButton />
-          <ChromeTitle after={260}>{index?.name ?? ''}</ChromeTitle>
+          <ChromeTitle after={380}>{name}</ChromeTitle>
           <ChromeSpacer />
         </>
       }
+      overlay={
+        !desk && (
+          <>
+            <button type="button" className={g.wkTocBtn} aria-label={t('guide.contents')} aria-expanded={drawer} onClick={() => setDrawer(true)}>
+              <Icon name="list" weight="bold" size={24} />
+            </button>
+            {drawer && (
+              <div className={g.wkScrim} onClick={() => setDrawer(false)}>
+                <nav className={g.wkDrawer} aria-label={t('guide.contents')} style={look.vars} onClick={(e) => e.stopPropagation()}>
+                  <div className={g.wkDrawerHead}>
+                    <OrnamentIcon name={look.ornament} size={20} />
+                    {t('guide.contents')}
+                  </div>
+                  {contents}
+                </nav>
+              </div>
+            )}
+          </>
+        )
+      }
     >
-      <div className={g.pageTop}>
-        {look && index && <Cover look={look} size="hero" level={1} title={index.name} kicker={index.origin} />}
-        {index?.line && (
-          <p className={g.essence} data-selectable>
-            {index.line}
-          </p>
+      <div className={g.wkTop}>
+        {desk ? (
+          <div className={g.wkDesk}>
+            <nav className={g.wkToc} aria-label={t('guide.contents')}>
+              <div className={g.wkDrawerHead}>
+                <OrnamentIcon name={look.ornament} size={20} />
+                {t('guide.contents')}
+              </div>
+              {contents}
+            </nav>
+            {article}
+          </div>
+        ) : (
+          article
         )}
       </div>
-      {desk ? (
-        <div className={g.deskBody}>
-          <nav className={g.toc} aria-label={t('guide.chapters')}>
-            <div className={g.tocHead}>{t('guide.chapters')}</div>
-            {present.map((k, i) => (
-              <button key={k} type="button" className={g.tocItem} aria-current={at === k ? 'true' : undefined} onClick={() => go(k)}>
-                <span className={g.tocN} aria-hidden>
-                  {look ? look.numeral(i + 1) : i + 1}
-                </span>
-                {label(k)}
-              </button>
-            ))}
-          </nav>
-          <div className={g.deskMain}>{chapters}</div>
-        </div>
-      ) : (
-        <>
-          <div className={g.sticky}>
-            <div ref={bar} className={`hscroll ${g.tabs}`} role="tablist" aria-label={t('guide.chapters')}>
-              {present.map((k) => (
-                <button key={k} type="button" role="tab" data-sec={k} aria-selected={at === k} className={at === k ? `${g.tab} ${g.tabOn}` : g.tab} onClick={() => go(k)}>
-                  {label(k)}
-                </button>
-              ))}
-            </div>
-          </div>
-          {chapters}
-        </>
-      )}
-      <div style={{ height: 'calc(48px + max(var(--sab), 16px))' }} />
     </Screen>
   )
 }

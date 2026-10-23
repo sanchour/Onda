@@ -214,7 +214,7 @@ export default function DeskOnda({ entry }: { entry: Extract<StackEntry, { name:
                 <p className={h.prompt} data-selectable>{prompt}</p>
                 {live && (
                   <div className={h.panelBtns}>
-                    <button type="button" className={written ? h.btnSoft : h.btn} onClick={() => openSheet({ name: 'journalEdit' })}>
+                    <button type="button" className={written ? h.btnSoft : h.btn} onClick={() => push({ name: 'journalWrite' })}>
                       <Icon name={written ? 'check' : 'pencil-simple'} weight="bold" size={16} />
                       {written ? t('onda.editEntry') : t('onda.write')}
                     </button>

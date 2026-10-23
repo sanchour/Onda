@@ -1,76 +1,22 @@
-import { useMemo, useState } from 'react'
+import { useMemo } from 'react'
 import { useTranslation } from 'react-i18next'
 import { linksFor } from '@/content/links'
-import { immerseSet, pickForDay } from '@/data/derive/onda'
-import { planForDay } from '@/data/derive/plan'
-import { useLook, useOnda, useOndaIndex, useSettings } from '@/data/hooks'
+import { immerseSet } from '@/data/derive/onda'
+import { useLook, useOnda, useOndaIndex } from '@/data/hooks'
 import { useStore } from '@/data/store'
 import { haptic } from '@/lib/haptics'
-import { detId } from '@/lib/ids'
-import { useNav, type SheetEntry } from '@/nav/store'
+import type { SheetEntry } from '@/nav/store'
 import { KindArt } from '@/screens/KindArt'
 import { Glyph, useActiveOnda, useRunToday } from '@/screens/ondaShared'
 import o from '@/screens/ondas.module.css'
 import s from '@/screens/screens.module.css'
 import { Button } from '@/ui/buttons'
-import { Chip } from '@/ui/controls'
 import { Icon } from '@/ui/Icon'
-import { AppSheet, useSheet } from './common'
+import { AppSheet } from './common'
 import { openExternal } from './guideParts'
 import g from './guide.module.css'
 
 type E<N extends SheetEntry['name']> = { entry: Extract<SheetEntry, { name: N }> }
-
-/* ── Journal editor: the day's question, free text, practiced chips ── */
-export function JournalEditSheet({ entry }: E<'journalEdit'>) {
-  const { t } = useTranslation()
-  const sh = useSheet(entry)
-  const { showToast } = useNav()
-  const active = useActiveOnda()
-  const done = useRunToday(active?.run.id)
-  const day = entry.day ?? active?.day ?? 1
-  const id = active ? detId('journal', active.run.id, day) : ''
-  const existing = useStore((x) => x.journal.find((j) => j.id === id && !j.deletedAt))
-  const [text, setText] = useState(existing?.text ?? '')
-  const includeFood = useSettings().includeFood
-  if (!active) return null
-
-  const prompt = existing?.prompt || pickForDay(active.content?.journal ?? [], day) || ''
-  const back = () => sh.close()
-  const save = () => {
-    if (text.trim()) {
-      useStore.getState().saveJournal(active.run.id, day, prompt, text.trim())
-      showToast(t('journal.saved'), { icon: 'notebook' })
-    }
-    back()
-  }
-  const practices = active.content ? planForDay(active.content, day, { includeFood: includeFood }) : []
-
-  return (
-    <AppSheet entry={entry} look={active.look} title={t('journal.title')} leading="cancel" onCancel={back} onSave={save}>
-      <div style={{ padding: '8px 20px 40px' }}>
-        <div className={`${o.jeCard} ${o.themed}`}>
-          <Glyph look={active.look} opacity={0.12} right={14} bottom={4} />
-          <div className={o.jeKicker} style={{ color: 'inherit', opacity: 0.8 }}>{t('journal.dayLabel', { day, name: active.index?.name ?? '' })}</div>
-          <h2 className={o.jePrompt}>{prompt}</h2>
-        </div>
-        <div className={s.card} style={{ margin: '20px 0 0', padding: '16px 20px' }}>
-          <textarea aria-label={prompt} placeholder={t('journal.placeholder')} value={text} onChange={(e) => setText(e.target.value)} style={{ minHeight: 240, lineHeight: 1.45 }} />
-        </div>
-        {day === active.day && practices.length > 0 && (
-          <>
-            <div style={{ font: '600 var(--fs-15) var(--font-sans)', marginTop: 24 }}>{t('journal.practicedToday')}</div>
-            <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8, marginTop: 10 }}>
-              {practices.map((p) => (
-                <Chip key={p.id} icon={p.icon} label={p.lead ? `${t(`plan.lead.${p.lead}`)}: ${p.name}` : p.name} selected={done.practices.has(p.id)} onClick={() => useStore.getState().togglePractice(active.run.id, p.id)} />
-              ))}
-            </div>
-          </>
-        )}
-      </div>
-    </AppSheet>
-  )
-}
 
 /* ── Quick look at one book, film, song, dish or word ─────── */
 export function MediaInfoSheet({ entry }: E<'mediaInfo'>) {

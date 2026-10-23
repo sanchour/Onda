@@ -220,7 +220,7 @@ function PhoneOndaToday({ entry }: { entry: Extract<StackEntry, { name: 'onda' }
         <div className={c.block}>
           <div className={c.prompt}>{prompt}</div>
         </div>
-        {live && <Row icon={written ? 'check' : 'pencil-simple'} title={written ? t('onda.editEntry') : t('onda.write')} chevron onClick={() => openSheet({ name: 'journalEdit' })} />}
+        {live && <Row icon={written ? 'check' : 'pencil-simple'} title={written ? t('onda.editEntry') : t('onda.write')} chevron onClick={() => push({ name: 'journalWrite' })} />}
         {live && <Row icon="notebook" title={t('onda.finalReflection')} sub={day >= length ? t('onda.reflectionOpen') : t('onda.reflectionDay', { day: length })} chevron onClick={() => push({ name: 'reflection' })} />}
       </GroupedList>
     </Screen>

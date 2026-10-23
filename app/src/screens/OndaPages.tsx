@@ -1,21 +1,24 @@
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { useSettings } from '@/data/hooks'
+import { pickForDay } from '@/data/derive/onda'
 import { useStore } from '@/data/store'
 import { haptic } from '@/lib/haptics'
+import { detId } from '@/lib/ids'
 import { BackButton, ChromeSpacer, ChromeTitle, LargeTitle, Screen } from '@/nav/Screen'
-import { useNav } from '@/nav/store'
+import { useNav, type StackEntry } from '@/nav/store'
 import g from '@/sheets/guide.module.css'
 import { Button, GlassButton } from '@/ui/buttons'
 import { SegmentedControl } from '@/ui/controls'
 import { ProgressBar } from '@/ui/data'
 import { Icon } from '@/ui/Icon'
+import { OrnamentIcon } from './KindArt'
 import { OndaBanner, useActiveOnda, useRunToday } from './ondaShared'
 import o from './ondas.module.css'
 import s from './screens.module.css'
 
 /** Shared frame for the three full-screen pages that used to be sheets: back button, title, Onda look. */
-function OndaPage({ title, large, trailing, desk, children }: { title: string; large?: { sub?: string }; trailing?: React.ReactNode; desk?: 'wide'; children: React.ReactNode }) {
+function OndaPage({ title, large, face, trailing, desk, children }: { title: string; large?: { sub?: string }; face?: boolean; trailing?: React.ReactNode; desk?: 'wide'; children: React.ReactNode }) {
   const active = useActiveOnda()
   const themed = useSettings().ondaThemes
   return (
@@ -28,7 +31,7 @@ function OndaPage({ title, large, trailing, desk, children }: { title: string; l
         <>
           <span className={g.topMask} aria-hidden />
           <BackButton />
-          <ChromeTitle after={large ? 44 : undefined}>{title}</ChromeTitle>
+          <ChromeTitle after={large ? 44 : undefined} onda={face}>{title}</ChromeTitle>
           {trailing ?? <ChromeSpacer />}
         </>
       }
@@ -39,33 +42,39 @@ function OndaPage({ title, large, trailing, desk, children }: { title: string; l
   )
 }
 
-/* ── Journal: all past reflections, newest first ──────────── */
+/* ── Journal (8.0): a cover banner, New Entry, then every entry as its own card, numbered in the Onda's numerals ── */
 export function JournalPage() {
   const { t } = useTranslation()
-  const openSheet = useNav((n) => n.openSheet)
+  const push = useNav((n) => n.push)
   const active = useActiveOnda()
   const journal = useStore((x) => x.journal)
   const entries = useMemo(() => journal.filter((j) => j.runId === active?.run.id && !j.deletedAt).sort((a, b) => b.day - a.day), [journal, active?.run.id])
-  const name = active?.index?.name ?? ''
-  const write = (day?: number) => openSheet({ name: 'journalEdit', day })
+  const write = (day?: number) => push({ name: 'journalWrite', day })
+  const look = active?.look
 
   return (
-    <OndaPage title={t('journal.title')} desk="wide" trailing={<GlassButton icon="plus" prominent ariaLabel={t('a11y.newEntry')} onClick={() => write()} />}>
-      <div className={o.jrWrap} style={{ padding: '4px 16px 24px' }}>
-        {active?.look && (
-          <div style={{ marginBottom: 16 }}>
-            <OndaBanner look={active.look} icon="notebook" kicker={name} title={t('journal.title')} sub={t('journal.count', { count: entries.length })} />
-          </div>
-        )}
-        <Button fullWidth icon="pencil-simple" onClick={() => write()}>
-          {t('journal.newEntry')}
-        </Button>
-        <div className={entries.length ? o.journalList : undefined} style={{ marginTop: 20 }}>
+    <OndaPage title={t('journal.title')} face desk="wide" trailing={<GlassButton icon="plus" prominent ariaLabel={t('a11y.newEntry')} onClick={() => write()} />}>
+      <div className={o.jrWrap}>
+        <div className={o.jrSide}>
+          {look && (
+            <div className={o.jrBanner} data-frame={look.layout === 'frame' ? '' : undefined}>
+              <span className={o.jrOrn} aria-hidden><OrnamentIcon name={look.ornament} size={30} weight={1.2} /></span>
+              <span className={o.jrTitle}>{t('journal.title')}</span>
+              <span className={o.jrCount}>{t('journal.count', { count: entries.length })}</span>
+            </div>
+          )}
+          <Button fullWidth icon="pencil-simple" onClick={() => write()}>
+            {t('journal.newEntry')}
+          </Button>
+        </div>
+        <div className={o.jrList}>
           {entries.map((e) => (
-            <button key={e.id} type="button" className={o.softCard} onClick={() => write(e.day)}>
-              <span className={s.kicker} style={{ display: 'block', letterSpacing: '.06em' }}>{t('journal.dayLabel', { day: e.day, name })}</span>
-              <span className={o.entryPrompt} style={{ display: 'block' }}>{e.prompt}</span>
-              <span className={o.entryText} style={{ display: 'block' }}>{e.text}</span>
+            <button key={e.id} type="button" className={o.jrEntry} aria-label={`${t('journal.dayLabel', { day: e.day, name: active?.index?.name ?? '' })}, ${e.prompt}`} onClick={() => write(e.day)}>
+              <span className={o.jrNum} aria-hidden>{look ? look.numeral(e.day) : e.day}</span>
+              <span className={o.jrBody}>
+                <span className={o.jrPrompt}>{e.prompt}</span>
+                <span className={o.jrText}>{e.text}</span>
+              </span>
             </button>
           ))}
           {entries.length === 0 && (
@@ -77,6 +86,63 @@ export function JournalPage() {
         </div>
       </div>
     </OndaPage>
+  )
+}
+
+/* ── Writing an entry (8.0): a full page with only back and done. The day's question stays large and centred above the
+   keyboard while the text below it takes the rest of the screen. Leaving the page in any way keeps what was written. ── */
+export function JournalWritePage({ entry }: { entry: Extract<StackEntry, { name: 'journalWrite' }> }) {
+  const { t } = useTranslation()
+  const pop = useNav((n) => n.pop)
+  const showToast = useNav((n) => n.showToast)
+  const active = useActiveOnda()
+  const themed = useSettings().ondaThemes
+  const day = entry.day ?? active?.day ?? 1
+  const id = active ? detId('journal', active.run.id, day) : ''
+  const existing = useStore((x) => x.journal.find((j) => j.id === id && !j.deletedAt))
+  const [text, setText] = useState(existing?.text ?? '')
+  const prompt = existing?.prompt || pickForDay(active?.content?.journal ?? [], day) || ''
+  // what is on the page now, for the save on the way out
+  const latest = useRef({ text, prompt, runId: active?.run.id, before: existing?.text ?? '' })
+  latest.current = { ...latest.current, text, prompt, runId: active?.run.id }
+  useEffect(
+    () => () => {
+      const l = latest.current
+      const body = l.text.trim()
+      if (l.runId && body && body !== l.before.trim()) useStore.getState().saveJournal(l.runId, day, l.prompt, body)
+    },
+    [day],
+  )
+  if (!active) return <Screen chrome={<BackButton />}>{null}</Screen>
+  const { look } = active
+  const done = () => {
+    if (text.trim()) showToast(t('journal.saved'), { icon: 'notebook' })
+    pop()
+  }
+
+  return (
+    <Screen
+      variant="bare"
+      bg="page"
+      style={look.vars}
+      dataOnda={themed ? active.run.ondaId : undefined}
+      chrome={
+        <>
+          <BackButton />
+          <GlassButton icon="check" prominent ariaLabel={t('common.done')} onClick={done} />
+        </>
+      }
+    >
+      <div className={o.jwPage}>
+        <div className={o.jwHead}>
+          <span className={o.jwOrn} aria-hidden><OrnamentIcon name={look.ornament} size={30} /></span>
+          <span className={o.jwDay}>{t('journal.dayLabel', { day: look.numeral(day), name: active.index?.name ?? '' })}</span>
+          <h1 className={o.jwQ}>{prompt}</h1>
+          <i className={o.jwRule} aria-hidden />
+        </div>
+        <textarea className={o.jwText} aria-label={prompt} placeholder={t('journal.startWriting')} value={text} onChange={(e) => setText(e.target.value)} />
+      </div>
+    </Screen>
   )
 }
 

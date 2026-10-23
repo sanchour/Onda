@@ -60,6 +60,22 @@
 .largeText{font:700 var(--fs-34)/1.2 var(--font-sans);letter-spacing:var(--tracking-display);color:var(--label)}
 .largeSub{margin:4px 0 0;font:400 var(--fs-17)/1.4 var(--font-sans);color:var(--label-secondary);text-wrap:pretty}
 
+/* ── 8.0 glass header: a frosted band the page scrolls under, with a pill row (Immersion, All Ondas) ── */
+.head{position:absolute;left:0;right:0;top:0;z-index:30;pointer-events:none}
+.frost{position:absolute;left:0;right:0;top:0;height:calc(var(--chrome-top) + 64px);
+  background:linear-gradient(to bottom,color-mix(in srgb,var(--surface-grouped) 80%,transparent),color-mix(in srgb,var(--surface-grouped) 30%,transparent));
+  -webkit-backdrop-filter:var(--frost-blur);backdrop-filter:var(--frost-blur);
+  -webkit-mask-image:linear-gradient(to bottom,#000 60%,transparent);mask-image:linear-gradient(to bottom,#000 60%,transparent)}
+.frost[data-tabs]{height:calc(var(--chrome-top) + 120px)}
+.glassRow{position:absolute;top:var(--chrome-top);left:calc(16px + var(--sal));right:calc(16px + var(--sar));height:44px;display:flex;align-items:center;justify-content:space-between}
+.glassRow > *{pointer-events:auto}
+.glassTitle{position:absolute;left:50%;transform:translateX(-50%);max-width:calc(100% - 124px);margin:0;pointer-events:none;
+  font:700 var(--fs-20)/1.2 var(--font-sans);letter-spacing:-.02em;color:var(--label);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.glassOnda{font:600 var(--fs-19)/1.2 var(--onda-font,var(--font-serif));letter-spacing:var(--onda-track,.02em);text-transform:var(--onda-case,none)}
+.glassTabs{position:absolute;left:var(--sal);right:var(--sar);top:calc(var(--chrome-top) + 54px);pointer-events:auto;display:flex;justify-content:center}
+.glassTabs > *{max-width:100%}
+.padGlass{padding-top:calc(var(--chrome-top) + 114px);padding-bottom:calc(44px + max(var(--sab), 16px))}
+
 /* ── Desktop (src/lib/desk.ts) ───────────────────────────────
    Screens sit on the stage. Their content keeps to a centred column, --desk-col: 880px, or per screen with the
    Screen prop desk (read 760px, wide 1240px, full). The chrome row spans the stage like a window toolbar. */
@@ -75,3 +91,8 @@
 :global(html[data-desk]) .bottom::before{left:-50vw;right:-50vw;bottom:-22px}
 :global(html[data-desk]) .page::before{display:none}
 :global(html[data-desk]) .toast{top:18px}
+:global(html[data-desk]) .glassRow{top:16px;left:18px;right:18px}
+:global(html[data-desk]) .glassTabs{top:70px}
+:global(html[data-desk]) .frost{height:80px}
+:global(html[data-desk]) .frost[data-tabs]{height:136px}
+:global(html[data-desk]) .padGlass{padding-top:132px;padding-bottom:64px}

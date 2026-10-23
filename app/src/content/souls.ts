@@ -96,7 +96,7 @@ export const SOULS: Record<string, Soul> = {
 }
 
 /** Corner radius of a hero cover; tiles, lists and the shortcut bar take theirs from it. */
-export const CORNER_R: Record<Corner, number> = { soft: 32, round: 26, cut: 14, sharp: 7 }
+export const CORNER_R: Record<Corner, number> = { soft: 36, round: 30, cut: 20, sharp: 16 }
 
 /* ── Grains: tiles drawn in the page ink at a whisper, so the page reads as paper, stone or cloth rather than a flat tint.
    `i` is "r,g,b" of the ink; `a` scales the strength. Noise comes from feTurbulence with stitched tiles. ── */

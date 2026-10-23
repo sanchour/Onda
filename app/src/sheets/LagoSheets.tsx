@@ -121,7 +121,7 @@ const FREQS: Frequency[] = ['daily', 'weekdays', 'weekly']
 export function LagoFormSheet({ entry }: E<'lagoForm'>) {
   const { t } = useTranslation()
   const sh = useSheet(entry)
-  const openSheet = useNav((n) => n.openSheet)
+  const { openSheet, push } = useNav()
   const settings = useSettings()
   const editing = useStore((x) => (entry.editId ? x.lagos.find((l) => l.id === entry.editId) : undefined))
   const [name, setName] = useState(editing?.name ?? '')
@@ -161,10 +161,34 @@ export function LagoFormSheet({ entry }: E<'lagoForm'>) {
   return (
     <AppSheet entry={entry} title={editing ? t('lagoForm.editTitle') : t('lagoForm.newTitle')} leading="cancel" onSave={save}>
       <div style={{ padding: '8px 0 60px' }}>
-        <div style={{ display: 'flex', justifyContent: 'center' }}>
+        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 10 }}>
           <div className={`${s.circle} ${s.formHero}`}>
             <Icon name={icon} weight="fill" size={44} />
           </div>
+          {!editing && (
+            <button
+              type="button"
+              style={{
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: 7,
+                padding: '7px 16px',
+                borderRadius: 999,
+                font: '500 var(--fs-13) var(--font-sans)',
+                background: 'color-mix(in srgb, var(--label) 8%, transparent)',
+                color: 'var(--label)',
+                border: 'none',
+                cursor: 'pointer',
+              }}
+              onClick={() => {
+                sh.close()
+                push({ name: 'gallery' })
+              }}
+            >
+              <Icon name="squares-four" weight="bold" size={15} />
+              <span>{t('settings.add.browseLagos')}</span>
+            </button>
+          )}
         </div>
         {offered.length > 0 && (
           <div className={s.fromOnda}>

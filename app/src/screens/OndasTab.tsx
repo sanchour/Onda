@@ -10,7 +10,7 @@ import { useNav } from '@/nav/store'
 import { Button, GlassButton } from '@/ui/buttons'
 import { GlassTabs } from '@/ui/controls'
 import { Icon } from '@/ui/Icon'
-import { Cover, GroupedList, PlanList, Row, SearchField, SectionHeader, ShortcutBar } from './onda7'
+import { Cover, PlanList, SearchField, SectionHeader, ShortcutBar } from './onda7'
 import c from './onda7/onda7.module.css'
 import { EmblemArt } from './emblems'
 import { OrnamentIcon } from './KindArt'
@@ -77,8 +77,6 @@ function PhoneOndasTab() {
   const progress = t('ondas.practicesOf', { done: pDone, total: plan.length })
   const name = index?.name ?? run.snapshot?.name ?? ''
   const kicker = t('ondas.kicker', { label: t('ondas.dayOf', { day, length: run.lengthDays }) })
-  const rules = content?.rules ?? []
-  const kept = rules.filter((r) => done.rules.has(r.id)).length
 
   return (
     <Screen variant="root">
@@ -133,12 +131,6 @@ function PhoneOndasTab() {
           runId={run.id}
           info={{ ondaId: run.ondaId, style: look.vars, onda: settings.ondaThemes ? run.ondaId : undefined }}
         />
-
-        {rules.length > 0 && (
-          <GroupedList style={{ marginTop: 22 }}>
-            <Row icon="scales" title={t('ondas.rules')} value={t('ondas.rulesKept', { done: kept, total: rules.length })} chevron onClick={() => push({ name: 'rules' })} />
-          </GroupedList>
-        )}
       </div>
     </Screen>
   )

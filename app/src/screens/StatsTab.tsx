@@ -19,7 +19,7 @@ import m from './more.module.css'
 import s from './screens.module.css'
 import k from './statsDesk.module.css'
 
-/** Clean, minimal consistency meter: sleek arc with percentage and tier badge pill. */
+/** Consistency as a barometer: a half dial with a knob, the score in the middle and the tier beneath. Nothing else. */
 function Barometer({ score, tier, bare }: { score: number; tier: 'finding' | 'building' | 'steady' | 'lockedIn'; bare?: boolean }) {
   const { t } = useTranslation()
   const [shown, setShown] = useState(0)
@@ -29,17 +29,26 @@ function Barometer({ score, tier, bare }: { score: number; tier: 'finding' | 'bu
   }, [score])
   const tierLabel = t(`stats.tier${tier[0]!.toUpperCase()}${tier.slice(1)}`)
   const pct = Math.round(score * 100)
+  const tick = (v: number) => {
+    const th = Math.PI * (1 - v)
+    const p = (r: number) => `${(110 + r * Math.cos(th)).toFixed(1)} ${(110 - r * Math.sin(th)).toFixed(1)}`
+    return `M${p(70)}L${p(77)}`
+  }
   return (
     <div className={bare ? undefined : m.baroCard} role="img" aria-label={t('stats.consistencyAria', { pct, tier: tierLabel })}>
       <h2 className={s.h20}>{t('stats.consistency')}</h2>
       <div className={m.baro}>
-        <svg viewBox="0 0 220 120" aria-hidden focusable="false">
+        <svg viewBox="0 0 220 124" aria-hidden focusable="false">
           <path d="M22 110A88 88 0 0 1 198 110" className={m.baroTrack} pathLength={1} />
           <path d="M22 110A88 88 0 0 1 198 110" className={m.baroFill} pathLength={1} strokeDasharray={`${Math.max(shown, 0.002)} 1`} />
+          <path d={`${tick(0.4)}${tick(0.7)}${tick(0.9)}`} className={m.baroTicks} />
+          <g className={m.baroKnob} style={{ transform: `rotate(${shown * 180}deg)` }}>
+            <circle cx="22" cy="110" r="13" />
+          </g>
         </svg>
         <div className={m.baroRead}>
           <div className={m.baroPct}>
-            {pct}
+            <span>{pct}</span>
             <small>%</small>
           </div>
           <div className={m.baroTier}>{tierLabel}</div>

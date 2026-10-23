@@ -95,9 +95,10 @@
 }
 .lensPressed{transform:scale(var(--thumb-grow))}
 .segBtn{
-  position:relative;flex:1;min-width:44px;height:38px;padding:0 12px;white-space:nowrap;
-  font:500 var(--fs-17)/1 var(--font-sans);color:var(--label-secondary);
+  position:relative;flex:1;min-width:44px;height:38px;padding:0 6px;white-space:nowrap;
+  font:500 var(--fs-14)/1 var(--font-sans);color:var(--label-secondary);
   transition:color var(--duration-micro) var(--ease-enter);
+  overflow:hidden;text-overflow:ellipsis;
 }
 .segBtnOn{font-weight:600;color:var(--label)}
 

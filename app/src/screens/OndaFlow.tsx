@@ -34,6 +34,15 @@ export function Immersion({ entry }: { entry: Extract<StackEntry, { name: 'immer
   const [tab, setTab] = useState<ImTab>(entry.kind ?? 'featured')
   const media = useMemo(() => (active?.content ? mediaFor(active.content, { includeFood: settings.includeFood }) : []), [active?.content, settings.includeFood])
   const done = useMemo(() => (active ? immerseSet(immerseLogs, active.run.id) : new Set<string>()), [immerseLogs, active])
+  const content = active?.content
+  // festivals, then places to visit: the Travel tab's map (before the early return, so hooks always run in order)
+  const places = useMemo(
+    () => [
+      ...(content?.immerse.festivals ?? []).map((x) => ({ ...x, icon: 'calendar-star' })),
+      ...(content?.immerse.places ?? []).map((x) => ({ ...x, icon: 'map-pin' })),
+    ],
+    [content],
+  )
   if (!active) return <Screen chrome={<BackButton />}>{null}</Screen>
 
   const { look, run } = active
@@ -47,13 +56,6 @@ export function Immersion({ entry }: { entry: Extract<StackEntry, { name: 'immer
   // the next item you have not yet experienced, one per kind
   const next = kinds.map((k) => media.find((m) => m.kind === k && !done.has(m.id))).filter((m): m is NonNullable<typeof m> => !!m)
   const frame = look.layout === 'frame'
-  const places = useMemo(
-    () => [
-      ...(active?.content?.immerse.festivals ?? []).map((x) => ({ ...x, icon: 'calendar-star' })),
-      ...(active?.content?.immerse.places ?? []).map((x) => ({ ...x, icon: 'map-pin' })),
-    ],
-    [active?.content],
-  )
   const pick = (k: ImTab) => {
     setTab(k)
     pane.current?.scrollTo({ top: 0 })
@@ -100,7 +102,8 @@ export function Immersion({ entry }: { entry: Extract<StackEntry, { name: 'immer
       {!kind && kinds.length > 0 && (
         <>
           {next.length > 0 && (
-            <section aria-label={t('immersion.upNext')}>
+            <section aria-label={t('immersion.featured')}>
+              <h2 className={o.featuredHead}>{t('immersion.featured')}</h2>
               <div className={`hscroll ${o.upRow}`}>
                 {next.map((m) => (
                   <div key={m.id} className={o.upItem}>
@@ -138,7 +141,7 @@ export function Immersion({ entry }: { entry: Extract<StackEntry, { name: 'immer
               <span className={o.imSecTitle}>{t(`kindLabel.${kind}`)}</span>
               <span className={o.imSecCount}>{seenOf(kind)}</span>
             </div>
-            <div className={o.kindMediaGrid}>
+            <div className={o.kindMediaGrid} data-kind={kind}>
               {list.map((m) => (
                 <MediaCard
                   key={m.id}

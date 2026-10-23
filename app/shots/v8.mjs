@@ -53,11 +53,11 @@ try {
       if (p === 'journal') {
         await click(page.getByRole('button', { name: /Journal/ }))
         await shot('journal')
-        await click(btn('New Entry')); await shot('journal-write')
+        await click(page.getByRole('button', { name: /new entry/i })); await shot('journal-write')
         await back(); await home()
       }
       if (p === 'guide') {
-        await click(page.getByRole('button', { name: /Guide/ }))
+        await click(desk ? page.getByRole('button', { name: /Guide/ }) : page.getByRole('button', { name: /Day \d+ of/ }))
         await shot('guide'); await scroll(700); await shot('guide2'); await scroll(700); await shot('guide3'); await scroll(900); await shot('guide4')
         if (!desk) { await click(btn('Contents')); await shot('guide-contents'); await click(page.getByRole('button', { name: /Language/ })); await shot('guide-jump') }
         await home()

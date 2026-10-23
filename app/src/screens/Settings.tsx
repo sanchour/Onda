@@ -32,7 +32,7 @@ import s from './screens.module.css'
 
 const APP_VERSION = '8.0'
 const BUILD = '1'
-const HUB: [string, SettingsPage][] = [['plus-circle', 'add'], ['seal-check', 'subscription'], ['paint-brush', 'appearance'], ['arrows-clockwise', 'integrations'], ['database', 'data'], ['question', 'help']]
+const HUB: [string, SettingsPage][] = [['plus-circle', 'add'], ['paint-brush', 'appearance'], ['database', 'data'], ['question', 'help']]
 // The desktop split view is its own chunk: phones never load it.
 const DeskSettings = lazy(() => import('@/desk/settings/DeskSettings'))
 
@@ -111,7 +111,7 @@ export default function Settings({ entry }: { entry: Extract<StackEntry, { name:
   }
 
   const pages: Record<SettingsPage, React.ReactNode> = {
-    // 8.0: everything you can add lives here: a new Onda or Lago, the bookshop of Ondas and the Gallery of Lagos
+    // 8.0: everything you can add lives here: a new Onda or Lago
     add: (
       <div className={m.add}>
         <ListSection header={t('settings.hub.add')}>
@@ -127,8 +127,6 @@ export default function Settings({ entry }: { entry: Extract<StackEntry, { name:
             subtitle={t('settings.add.newLagoSub')}
             onClick={() => guardNewLago(t) && openSheet({ name: 'lagoForm' })}
           />
-          <ListRow icon="compass" title={t('settings.add.browseOndas')} onClick={() => push({ name: 'allOndas' })} />
-          <ListRow icon="squares-four" title={t('settings.add.browseLagos')} onClick={() => push({ name: 'gallery' })} />
         </ListSection>
       </div>
     ),
@@ -190,6 +188,13 @@ export default function Settings({ entry }: { entry: Extract<StackEntry, { name:
             <ListRow icon="chart-bar" title={t('settings.data.history')} onClick={() => popToRoot('stats')} />
             <ListRow icon="export" title={t('settings.data.export')} accessory="none" onClick={() => { downloadJson(`onda-export-${today}.json`, useStore.getState().exportAll()); showToast(t('settings.data.exported'), { icon: 'export' }) }} />
             <ListRow icon="download-simple" title={t('settings.data.import')} accessory="none" onClick={() => fileRef.current?.click()} />
+          </ListSection>
+        </div>
+        <div className={m.gap28}>
+          <ListSection header={t('settings.integrations.header')} footer={backendConfigured ? t('settings.integrations.footer') : `${t('settings.integrations.needsBackend')}. ${t('calendar.localFooter')}`}>
+            <ListRow icon="list-checks" title={t('settings.integrations.reminders')} value={t('settings.integrations.viaShortcuts')} onClick={openIntegration('reminders')} />
+            <ListRow icon="calendar-dots" title={t('settings.integrations.calendar')} value={integrations?.calendar.lastFetchedAt ? t('settings.integrations.subscribed') : t('settings.integrations.off')} onClick={openIntegration('calendar')} />
+            <ListRow icon="notion-logo" title={t('settings.integrations.notion')} value={integrations?.notion.connected ? t('settings.integrations.connected') : t('settings.integrations.off')} onClick={openIntegration('notion')} />
           </ListSection>
         </div>
         <div className={m.gap28}>

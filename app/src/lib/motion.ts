@@ -88,7 +88,7 @@ export function springTo(el: HTMLElement, o: SpringOpts): Animation | null {
   el.style.willChange = 'transform'
   const a = el.animate(
     f.frames.map((x) => ({ transform: prop(x) })),
-    { duration: f.duration, easing: 'linear', fill: 'both' },
+    { duration: f.duration, easing: 'linear' },
   )
   el.style.transform = prop(o.to)
   s._spring = a

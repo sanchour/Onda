@@ -89,7 +89,7 @@ export function ondaLook(o: Pick<OndaIndex, 'id' | 'tone'> | undefined, opts: { 
   const clip = (on && t!.mark?.clip) || 'none'
   const deep = accentFor(strong, dark)
   const soul = on ? SOULS[o!.id] : undefined
-  const radius = soul ? CORNER_R[soul.corner] : 30
+  const radius = soul ? CORNER_R[soul.corner] : 34
   return {
     fill, solid, strong, accent: strong, cover, ink, font, glyph, ornament, caps, themed: on,
     motion: soul?.motion ?? 'still',
@@ -119,9 +119,9 @@ export function ondaLook(o: Pick<OndaIndex, 'id' | 'tone'> | undefined, opts: { 
       '--onda-shape': shape,
       '--onda-clip': clip,
       '--onda-r': `${radius}px`,
-      '--onda-radius': '26px',
-      '--onda-radius-md': '22px',
-      '--onda-radius-sm': '16px',
+      '--onda-radius': '28px',
+      '--onda-radius-md': '24px',
+      '--onda-radius-sm': '18px',
       '--onda-track': track,
       '--onda-case': caps ? 'uppercase' : 'none',
       '--onda-now': dark ? 'rgba(255,255,255,.55)' : 'rgba(0,0,0,.45)',

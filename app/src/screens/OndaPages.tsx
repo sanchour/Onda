@@ -252,6 +252,11 @@ export function JournalWritePage({ entry }: { entry: Extract<StackEntry, { name:
         <div className={o.jwHead}>
           <span className={o.jwDay}>{t('journal.dayLabel', { day: look.numeral(day), name: active.index?.name ?? '' })}</span>
           <h1 className={o.jwQ}>{prompt}</h1>
+          <div className={o.jwDivider} aria-hidden>
+            <span className={o.jwDividerLine} />
+            <OrnamentIcon name={look.ornament} size={18} />
+            <span className={o.jwDividerLine} />
+          </div>
         </div>
         <textarea className={o.jwText} aria-label={prompt} placeholder={t('journal.startWriting')} value={text} onChange={(e) => setText(e.target.value)} />
       </div>
@@ -305,7 +310,7 @@ export function PhilosophyPage() {
   const shown = sections.filter((x) => x.key === tab)
 
   return (
-    <OndaPage title={t('philosophy.title')} large={{ sub: t('philosophy.lead') }} desk="wide">
+    <OndaPage title={t('philosophy.title')} desk="wide">
       <div className={o.phWrap}>
         {tab === 'ideas' && today && (
           <article className={o.phToday}>

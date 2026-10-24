@@ -11,12 +11,14 @@ const load = (id: string): OndaContent => OndaContentSchema.parse(JSON.parse(fs.
 const v6 = ONDA_INDEX.map((o) => [o.id, load(o.id)] as const).filter(([, c]) => hasV6Plan(c))
 const KINDS = ['read', 'watch', 'listen', 'art', 'eat', 'drink', 'customs', 'games', 'travel', 'words']
 
-describe('6.0: an Onda’s twenty practices and thirty Immerse practices', () => {
+describe('6.0: an Onda’s twenty or more practices and thirty Immerse practices', () => {
   it('at least one Onda has been written for it', () => expect(v6.length).toBeGreaterThan(0))
 
-  it.each(v6)('%s has six morning, six afternoon, six evening and two special practices, each with a full how-to', (_id, c) => {
+  it.each(v6)('%s has six to nine practices for each time of day and two special ones, each with a full how-to', (_id, c) => {
     const by = (s: string) => c.practices.filter((p) => p.slot === s)
-    expect([by('Morning').length, by('Afternoon').length, by('Evening').length, by('Special').length]).toEqual([6, 6, 6, 2])
+    for (const s of ['Morning', 'Afternoon', 'Evening']) expect(by(s).length, s).toBeGreaterThanOrEqual(6)
+    for (const s of ['Morning', 'Afternoon', 'Evening']) expect(by(s).length, s).toBeLessThanOrEqual(9)
+    expect(by('Special')).toHaveLength(2)
     expect(c.tasks).toEqual([])
     for (const p of c.practices) {
       expect(p.instructions.length, p.name).toBeGreaterThanOrEqual(140)

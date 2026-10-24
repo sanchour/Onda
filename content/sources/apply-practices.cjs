@@ -2,7 +2,8 @@
 //   node content/sources/apply-practices.cjs [id ...]      (no ids: every Onda that has a practices file)
 //
 // A practices file exports { morning, afternoon, evening, special, immerse }:
-//   morning, afternoon, evening: six rows each:  [name, icon, minutes, time, instructions, why, [three variations], opts?]
+//   morning, afternoon, evening: six to nine rows each (8.1: a new Onda has 25 practices, 8/8/7 and two specials):
+//                                [name, icon, minutes, time, instructions, why, [three variations], opts?]
 //   special: two rows:  [name, icon, minutes, time, when, instructions, why, [three variations], opts?]
 //   immerse: thirty rows, three for each of read, watch, listen, art, eat, drink, customs, games, travel, words:
 //            [kind, itemTitle, name, text, minutes?]    itemTitle is the title in the Onda's own lists (for words, the term)
@@ -19,7 +20,7 @@ const norm = (s) => s.normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerC
 const icons = new Set([...fs.readFileSync(path.join(root, 'app/src/ui/icons.ts'), 'utf8').matchAll(/^\s+'?([a-z0-9-]+)'?:\s*\[/gm)].map((m) => m[1]))
 const KINDS = ['read', 'watch', 'listen', 'art', 'eat', 'drink', 'customs', 'games', 'travel', 'words']
 const SLOTS = { morning: 'Morning', afternoon: 'Afternoon', evening: 'Evening' }
-const COUNTS = { morning: 6, afternoon: 6, evening: 6, special: 2, immerse: 30 }
+const COUNTS = { morning: [6, 9], afternoon: [6, 9], evening: [6, 9], special: [2, 2], immerse: [30, 30] }
 
 function practiceDir() { return path.join(root, 'content', 'practices') }
 
@@ -27,7 +28,10 @@ function build(id, src, c) {
   const fail = (m) => { throw new Error(`${id}: ${m}`) }
   const problems = [] // fixable entry problems are gathered so that one run shows them all
   const soft = (m) => problems.push(m)
-  for (const [k, n] of Object.entries(COUNTS)) if ((src[k] ?? []).length !== n) fail(`${k} has ${(src[k] ?? []).length} entries, needs ${n}`)
+  for (const [k, [lo, hi]] of Object.entries(COUNTS)) {
+    const n = (src[k] ?? []).length
+    if (n < lo || n > hi) fail(`${k} has ${n} entries, needs ${lo === hi ? lo : `${lo} to ${hi}`}`)
+  }
   const practices = []
   const text = (label, s, min, max) => {
     if (typeof s !== 'string' || s.length < min || s.length > max) soft(`${label} must be ${min} to ${max} characters, is ${typeof s === 'string' ? s.length : s}: ${String(s).slice(0, 60)}`)

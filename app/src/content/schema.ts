@@ -126,3 +126,29 @@ export type OndaIndex = z.infer<typeof OndaIndexSchema>
 
 /** Quality bar for the shipped Ondas (enforced by `npm run content:check` and a unit test). */
 export const SHIPPED_MINIMUMS = { words: 30, journal: 30, reflect: 5, dayThemes: 30, history: 10, concepts: 8, practices: 20, rules: 4 } as const
+
+/** 8.1: the least each Onda carries of every kind of content. A new Onda meets all of it; the Ondas written before 8.1 are
+ *  filled in to it over time, and content/backfill.json lists the ones still short. Travel counts the places to visit. */
+export const CONTENT_MINIMUMS = {
+  quotes: 7, wordsOfDay: 7, journal: 10, read: 8, watch: 6, listen: 7, art: 6, eat: 4, drink: 3, customs: 4, games: 2, travel: 5,
+  glossary: 12, practices: 25, rules: 5, ethics: 5, think: 5,
+} as const
+export type MinimumKey = keyof typeof CONTENT_MINIMUMS
+
+/** How much an Onda has of each kind, counted the way CONTENT_MINIMUMS means it. */
+export function contentCounts(c: OndaContent): Record<MinimumKey, number> {
+  const im = c.immerse
+  return {
+    quotes: new Set([c.quote, ...c.quotes].filter((q) => !!q).map((q) => q!.text)).size,
+    wordsOfDay: c.words.length, journal: c.journal.length,
+    read: im.read.length, watch: im.watch.length, listen: im.listen.length, art: im.art.length,
+    eat: im.eat.length, drink: im.drink.length, customs: im.customs.length, games: im.games.length, travel: im.places.length,
+    glossary: c.guide.glossary.length, practices: c.practices.length, rules: c.rules.length, ethics: c.ethics.length, think: c.philosophy.length,
+  }
+}
+
+/** The kinds in which an Onda falls short of CONTENT_MINIMUMS. */
+export function contentGaps(c: OndaContent): { key: MinimumKey; have: number; need: number }[] {
+  const n = contentCounts(c)
+  return (Object.keys(CONTENT_MINIMUMS) as MinimumKey[]).filter((k) => n[k] < CONTENT_MINIMUMS[k]).map((k) => ({ key: k, have: n[k], need: CONTENT_MINIMUMS[k] }))
+}

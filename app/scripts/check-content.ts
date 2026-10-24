@@ -4,7 +4,7 @@
 import fs from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
-import { OndaContentSchema, OndaIndexSchema, SHIPPED_MINIMUMS, type OndaContent } from '../src/content/schema.ts'
+import { OndaContentSchema, OndaIndexSchema, SHIPPED_MINIMUMS, contentGaps, type OndaContent } from '../src/content/schema.ts'
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..')
 const dir = path.join(root, 'content/ondas')
@@ -12,6 +12,10 @@ const index = OndaIndexSchema.array().parse(JSON.parse(fs.readFileSync(path.join
 
 const problems: string[] = []
 const review: string[] = []
+// the Ondas from before 8.1 that are still being filled in to CONTENT_MINIMUMS
+const backfill: string[] = JSON.parse(fs.readFileSync(path.join(root, 'content/backfill.json'), 'utf8'))
+const short: string[] = []
+let missing = 0
 const words = (s: string) => s.split(/\s+/).filter(Boolean).length
 
 for (const entry of index) {
@@ -32,6 +36,14 @@ for (const entry of index) {
   need('introduction words', words(c.guide.intro.join(' ')), 300)
   need('sources', c.guide.sources.length, 5)
   for (const k of ['name', 'origin', 'tone', 'icon', 'line'] as const) if (c[k] !== entry[k]) problems.push(`${entry.id}: index.json ${k} differs from the content file`)
+  // 8.1 minimums: an Onda on the backfill list may still be short (shown with --gaps); any other must meet them all
+  const gaps = contentGaps(c)
+  const gapLine = `${entry.id}: below the 8.1 minimums in ${gaps.map((g) => `${g.key} ${g.have}/${g.need}`).join(', ')}`
+  if (gaps.length && !backfill.includes(entry.id)) problems.push(gapLine)
+  else if (gaps.length) {
+    short.push(gapLine)
+    missing += gaps.reduce((a, g) => a + g.need - g.have, 0)
+  } else if (backfill.includes(entry.id)) problems.push(`${entry.id}: meets every 8.1 minimum, take it off content/backfill.json`)
 
   // Everything flagged unverified, for the human review list
   const flagged: string[] = []
@@ -62,6 +74,7 @@ if (process.argv.includes('--write')) {
   fs.writeFileSync(path.join(root, 'CONTENT_REVIEW.md'), `${head.trimEnd()}\n\n${review.join('\n').trimEnd()}\n`)
   console.log('wrote CONTENT_REVIEW.md')
 }
+if (short.length) console.log(`${short.length} Ondas on the backfill list, ${missing} items short of the 8.1 minimums${process.argv.includes('--gaps') ? `:\n${short.join('\n')}` : ' (--gaps lists them)'}`)
 if (problems.length) {
   console.error(problems.join('\n'))
   process.exit(1)
